@@ -1,0 +1,592 @@
+{
+ "id": "v01",
+ "title_ko": "셀카 찍던 기사 새끼고양이, 잠든 붉은 용을 깨우다 (Part 1)",
+ "one_line_ko": "갑옷 입은 핑크리본 새끼고양이가 셀카로 우유를 마시다 컵을 던지고 폰을 내던지자, 풀밭에 옆으로 떨어진 폰 시점으로 거대한 붉은 용이 깨어나 포효하는 장면이 찍히며 끝나는 15초 클리프행어.",
+ "format": {
+  "aspect": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "duration": 15.23,
+  "shot_count": 3,
+  "gen_clip_count": 2,
+  "avg_shot_len": 5.08,
+  "orientation_trick_ko": "2번째 생성 클립(5.73~15.23s)은 가로 16:9 영상을 시계방향 90도 회전(ffmpeg transpose=1)해 9:16을 채움 → 땅이 화면 왼쪽, 하늘이 오른쪽. '폰이 풀밭에 옆으로 떨어져 계속 녹화 중'이라는 디제틱 설정이라 어색하지 않고 오히려 파운드푸티지 리얼리티를 줌. 워터마크는 회전 후 얹혀 똑바로 보임. 참고: 원본은 24fps 소스를 30fps로 변환(5프레임마다 중복 프레임).",
+  "watermark_ko": "'sickmanai' 소문자 모노스페이스, 우하단 x≈79~98%, y≈94~96%(글자 높이 프레임의 약 1.3%), 흰색 약 60% 불투명. 0.00~9.85s까지만 표시되고 9.87s부터 사라짐(오버레이 길이가 약 9.87s).",
+  "on_screen_text_ko": "없음 (자막/문구 없음, 워터마크만)"
+ },
+ "viral_analysis": {
+  "hook_0_3s_ko": "첫 프레임부터 '갑옷 입은 핑크리본 새끼고양이가 셀카 브이로그처럼 아이스 우유를 빨대로 마심' — 귀여움+기사 코스튬+일상 셀카 포맷의 부조화가 즉시 정지를 유발. 동시에 고양이 눈이 계속 화면 오른쪽 밖을 흘끗거려 '저기 뭐가 있지?' 호기심 갭을 심음.",
+  "pattern_interrupts_ko": [
+   "3.53s 마시던 컵을 무심하게 휙 던짐(보스 애티튜드, 첫 동작 급변)",
+   "5.37s 폰을 내던지는 휙 모션블러 + 5.53~5.73s 암전(시각 리셋)",
+   "5.73s 90도 누운 화면 + 구르는 카메라 — 방향 감각 붕괴로 강제 주목",
+   "7.10s 정지 후 드러나는 거대한 붉은 용(스케일 리빌)",
+   "9.40s 칼 뽑기, 10.5s 용 눈 뜸, 13.0s 포효 — 3~4초 간격 긴장 상승"
+  ],
+  "story_arc": [
+   {
+    "beat": "Setup",
+    "range": "0.00-3.30",
+    "desc_ko": "평화로운 안개 황야에서 셀카 찍으며 우유 마시는 귀여운 기사 고양이. 시선은 오른쪽을 경계."
+   },
+   {
+    "beat": "Inciting",
+    "range": "3.30-5.53",
+    "desc_ko": "컵을 던지고 칼자루에 손, 진지한 눈빛 → '이제 싸운다' 결심. 폰을 내던짐."
+   },
+   {
+    "beat": "Escalation",
+    "range": "5.53-10.80",
+    "desc_ko": "암전 후 떨어진 폰 시점으로 잠든 거대 용 리빌, 고양이가 칼을 뽑고(9.40), 용이 눈을 뜸(10.5)."
+   },
+   {
+    "beat": "Climax",
+    "range": "10.80-14.00",
+    "desc_ko": "용이 머리를 들어 솟구치고 13.0s 입을 쩍 벌려 포효."
+   },
+   {
+    "beat": "Payoff",
+    "range": "14.00-15.23",
+    "desc_ko": "풍압에 폰이 밀려나며 날개 편 용 전체가 드러남 → 결말 없이 포효 도중 끝(Part 2 유도 클리프행어)."
+   }
+  ],
+  "retention_devices_ko": [
+   "시선 유도(고양이가 계속 화면 밖을 봄) → 무엇이 있는지 보려고 끝까지 시청",
+   "폰 낙하 암전 → 궁금증 최고점에서 리빌 지연",
+   "90도 회전 화면이라 첫 1초는 무엇인지 해석하느라 머무름",
+   "3~4초마다 새 이벤트(칼→눈→머리→포효)로 긴장 계단식 상승",
+   "15초 짧은 길이 + 포효 도중 컷 → 재시청/다음 편 탐색",
+   "사운드: 조용한 앰비언스에서 13.0s 폭발적 포효로 다이내믹 대비"
+  ],
+  "why_viral_ko": [
+   "귀여움(새끼고양이·핑크리본·우유) × 에픽(거대 용·기사) 극단적 대비",
+   "셀카/파운드푸티지 1인칭 포맷이 AI 영상을 '진짜 찍힌 것'처럼 느끼게 함",
+   "'무심하게 컵 던지고 싸우러 가는' 메인캐릭터 밈 감성",
+   "스케일 대비(작은 고양이 vs 화면을 채우는 용 머리)가 한 프레임 썸네일로도 강력",
+   "캡션 'Comment \"prompt\"' 키워드 CTA로 댓글 3,438개 유도(DM 자동화 추정) → 알고리즘 부스트",
+   "Part 1 클리프행어로 팔로우/다음 편 기대"
+  ],
+  "comment_bait_ko": "캡션 'Comment \"prompt\" for the guide.' — 키워드 댓글 시 가이드를 보내주는 구조(DM 자동화 추정). 영상 자체는 '고양이 이길까?' '2편 언제?' 류 반응을 부르는 미해결 결말.",
+  "loop_design_ko": "심리스 루프 아님. 포효 최고조에서 끊는 클리프행어형. 다만 마지막 장면(시끄럽고 넓은 용)과 첫 장면(조용하고 귀여운 셀카)의 강한 대비 때문에 자동 재생 시 '다시 처음부터 복선 확인' 재시청이 발생.",
+  "editing_terms": [
+   {
+    "term": "Selfie POV / vlog framing",
+    "ko": "셀카 1인칭 브이로그 구도",
+    "where": "0.00-5.53s"
+   },
+   {
+    "term": "Eyeline tease (off-screen look)",
+    "ko": "화면 밖 시선으로 궁금증 유발",
+    "where": "0.5-5.3s"
+   },
+   {
+    "term": "Whip / motion-blur throw",
+    "ko": "폰 던지는 휙 블러 전환",
+    "where": "5.37-5.53s"
+   },
+   {
+    "term": "Smash to black (dip to black)",
+    "ko": "순간 암전",
+    "where": "5.53-5.73s"
+   },
+   {
+    "term": "Found-footage phone drop",
+    "ko": "떨어진 폰이 계속 찍는 파운드푸티지",
+    "where": "5.73-15.23s"
+   },
+   {
+    "term": "90-degree rotated frame (camera roll)",
+    "ko": "90도 회전 화면(옆으로 누운 폰)",
+    "where": "5.73-15.23s"
+   },
+   {
+    "term": "Camera tumble / roll",
+    "ko": "카메라 굴림",
+    "where": "5.73-7.10s"
+   },
+   {
+    "term": "Locked-off reveal",
+    "ko": "고정 카메라 리빌",
+    "where": "7.10-13.50s"
+   },
+   {
+    "term": "Scale contrast",
+    "ko": "크기 대비",
+    "where": "7.10-15.23s"
+   },
+   {
+    "term": "Pull-back (dolly out) on roar",
+    "ko": "포효 풍압으로 뒤로 밀리는 풀백",
+    "where": "13.50-15.23s"
+   },
+   {
+    "term": "Cliffhanger end cut",
+    "ko": "클리프행어 컷",
+    "where": "15.23s"
+   },
+   {
+    "term": "24p to 30p pulldown",
+    "ko": "24fps→30fps 중복 프레임 변환",
+    "where": "전체"
+   }
+  ]
+ },
+ "style_bible": {
+  "character_sheet_en": "a tiny fluffy golden British Shorthair kitten (about 10 weeks old) with cream-gold chinchilla-tipped fur, white muzzle and fluffy white chest ruff, long white whiskers, round chubby face, huge round dark eyes with a blue-grey sheen, small pink nose, a pink satin ribbon bow tied at the base of its right ear (viewer's left), wearing full polished silver medieval plate armor with engraved scroll filigree and a fleur-de-lis on the breastplate, layered rounded pauldrons, chainmail sleeves, a cream-white wool cape draped over its shoulders and down its back, a brown leather sword belt and a short arming sword with a round silver pommel sheathed at its left hip; it stands upright like a small knight, real kitten head and fluffy real cat paws. Proportions: head about 45% of total visible body height, compact armored torso, short arms ending in fluffy cream cat paws with pink toe beans; ears upright with pale pink inner fur; expression calm, slightly sleepy-serious, never smiling cartoonishly.",
+  "wardrobe_props_en": "Polished silver full plate armor (breastplate with engraved scroll filigree and a raised fleur-de-lis, gorget with engraved band, layered rounded pauldrons, vambraces, chainmail sleeves and mail skirt), cream-white wool cape covering the back, brown leather sword belt, short arming sword with silver cross-guard and round silver pommel in a dark scabbard at the left hip; pink satin ribbon bow at the base of the right ear; clear plastic takeaway cup with domed lid, white straw, iced milk with ice cubes. Antagonist: a colossal dark crimson-red western dragon with pebbled red scales and darker ridged plates, a crown of red-brown spikes and frills around the head, two large glossy black horns curving back from the brow and two from the jaw, huge flared nostrils, heavy brow, amber-gold eyes, leathery bat-like wings in muted red-mauve with visible finger bones, wings folded high behind it.",
+  "environment_en": "a flat misty green moorland of tall wet grass with scattered dark mossy boulders, the horizon dissolving into thick white-grey fog, overcast sky, cold damp morning; boulders on the horizon at left and right; in the ground-level shot, grass blades fill the foreground and the dragon lies directly ahead dissolving into fog.",
+  "lighting_en": "Flat, soft, diffuse overcast daylight, no direct sun, no hard shadows; sky and fog act as a giant softbox; soft specular reflections of the grey sky on the armor; atmospheric perspective makes distant objects milky and low-contrast.",
+  "color_grade_en": "Cool, desaturated naturalistic grade: blue-grey sky and fog (#B9C3D3 to #D9DDE3), muted sage-to-emerald grass, warm golden fur and crimson dragon as the only warm accents; shot 1 mean saturation ~71/255, dragon shot ~56/255 (slightly lower); lifted blacks, soft contrast, no teal-orange push.",
+  "camera_lens_en": "Shot 1: smartphone front camera, 24mm equivalent, handheld selfie at arm's length, eye level, mild background blur. Shot 3: smartphone ultra-wide ~16mm equivalent lying on the ground, lens 5 cm above the grass, deep focus, rendered landscape then rotated 90 degrees clockwise into portrait. 24 fps source look with natural motion blur.",
+  "realism_style_en": "Hyper-realistic photographic AI video, real animal fur physics, believable phone-camera footage (slight sensor noise, compression softness), real-world scale; not stylized, not Pixar, not anime.",
+  "negative_prompt_en": "text, captions, subtitles, logo, watermark, extra limbs, extra paws, human hands, human fingers, deformed face, cross-eyed, cartoon, anime, 3D plastic CGI look, toy look, missing bow, bow changing color or side, armor morphing, sword appearing from nowhere, drink turning brown, color flicker, frame tearing, duplicate subjects, second kitten, oversaturated, lens flare, sunny sky, blue sky, low resolution"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "start": 0.0,
+   "end": 5.53,
+   "dur": 5.53,
+   "gen_clip": 1,
+   "frames": [
+    "frames/g_00.25.jpg",
+    "frames/g_01.75.jpg",
+    "frames/g_02.75.jpg",
+    "frames/g_03.75.jpg",
+    "frames/g_04.75.jpg",
+    "frames/g_05.25.jpg",
+    "frames/x_3.30_fps30.jpg",
+    "frames/x_5.00_fps30.jpg"
+   ],
+   "shot_size": "Medium close-up (MCU) selfie, chest-up, body cropped by bottom edge",
+   "angle": "eye-level, lens ~5 cm below the eyes (selfie arm slightly low), head turned 3/4 toward viewer's right",
+   "lens_mm": "24mm equiv (smartphone front camera wide), f/2-ish, background softly defocused",
+   "camera_move_ko": "셀카 핸드헬드. 광학 흐름 0.07px/f 수준의 거의 고정 + 미세 흔들림. 카메라 이동/줌 없음. 5.30s 새끼고양이 발이 화면 하단 중앙으로 들어와 폰을 잡고 5.37~5.53s(5프레임) 폰이 아래로 휙 내던져지며 강한 방향성 모션블러(휙 패닝) 발생.",
+   "composition_ko": "머리 중심 x43%,y36%, 머리 세로범위 y21~50%(프레임 높이의 약 29%), 몸통은 하단에서 잘림. 전경 좌하단(x0~45%, y65~100%)에 셀카를 든 자기 오른팔 갑옷(둥근 완갑+사슬갑옷)이 크게 걸림. 우유컵은 x80%,y65% (왼발=화면 오른쪽). 칼자루 폼멜 x75%,y82%. 수평선 y31%(3분할 상단선 부근), 헤드룸 약 20%(안개 하늘). 좌측 바위 x5%,y36%, 우측 바위 x88%,y37%. 얼굴은 3분할 좌상 교차점 약간 오른쪽. 우측 하단 워터마크 'sickmanai'.",
+   "subject_action_ko": "0.00~1.20 우유컵을 가슴 앞에 들고 화면 오른쪽을 흘끗 봄 → 1.25~3.20 빨대로 우유를 쪽쪽 마심(눈은 계속 오른쪽 경계) → 3.40 팔을 바깥으로 휘둘러 3.53 컵을 오른쪽 위로 무심하게 던짐(컵이 3.60~4.10 사이 화면 우상단 밖으로 날아감, 3.70부터 액체가 갈색으로 변하는 AI 오류 있음) → 3.60~4.40 발을 들고 털듯이 흔든 뒤 내려서 4.50 칼자루 근처에 댐 → 4.50~5.30 진지한 표정으로 오른쪽을 응시(무언가 있다는 암시) → 5.30 발이 렌즈 쪽으로 다가옴 → 5.37~5.53 폰이 내던져지며 얼굴/갑옷이 모션블러로 스쳐감.",
+   "background_ko": "안개 낀 초록 황야(무어랜드), 젖은 긴 풀, 지평선 위 검은 이끼 바위 2개, 흰회색 짙은 안개, 흐린 하늘. 배경은 부드럽게 아웃포커스.",
+   "on_screen_text_ko": "없음 (워터마크 sickmanai만)",
+   "transition_out": {
+    "type": "Whip / motion-blur throw -> smash to black (dip to black, 6 frames) -> hard cut",
+    "ko": "5.37~5.53s(5프레임) 폰이 던져지는 휙 모션블러(대각선 우하향 방향, 갑옷·얼굴이 번짐) → 5.53s 1프레임 동안 대각선 줄무늬로 어두워짐 → 5.57~5.70s 완전 검정 5프레임(총 검정 약 0.17~0.20s) → 5.73s 하드컷으로 땅에 떨어져 구르는 폰 시점 시작. 검정은 '폰이 땅에 엎어짐'을 뜻하는 디제틱 암전.",
+    "ffmpeg": "[s1]trim=0:5.37,setpts=PTS-STARTPTS[a];[s1]trim=5.37:5.53,setpts=PTS-STARTPTS,gblur=sigma=28:sigmaV=6,rotate=a='0.35*t/0.16':fillcolor=black,eq=brightness='-0.35*t/0.16':eval=frame[w];color=black:s=1080x1920:r=30:d=0.20[blk];[a][w][blk]concat=n=3:v=1:a=0[v1]",
+    "hyperframes": "Clip s01 0.00-5.53 on track V1; add a 'whip' effect on the last 0.16s (directional blur 40px at -60deg + 20deg rotate + scale 1.15, ease-in), then a solid black clip 5.53-5.73 on V1 (no fade, hard in/out)."
+   },
+   "sound": {
+    "bgm_ko": "잔잔한 멜로디 BGM이 낮게 깔림(추정, 약 -24dB 수준). 피아노/패드 계열의 지속음(267Hz·412Hz·540Hz대 음정이 0.4~1s씩 유지) — 컷을 넘어 계속됨.",
+    "sfx": [
+     {
+      "t": 0.0,
+      "sfx_en": "soft moorland wind ambience, faint grass rustle (bed)",
+      "ko": "황야 바람 앰비언스(깔림)"
+     },
+     {
+      "t": 2.4,
+      "sfx_en": "small straw slurp",
+      "ko": "빨대 쪽 소리(추정, rms -20.7dB 돌출)"
+     },
+     {
+      "t": 3.52,
+      "sfx_en": "quick whoosh + plastic cup flick",
+      "ko": "컵 던지는 휙 + 플라스틱 소리(onset 3.52, -12.6dB 피크)"
+     },
+     {
+      "t": 4.29,
+      "sfx_en": "distant plastic cup landing splash off-screen",
+      "ko": "화면 밖 컵 떨어지는 소리(추정, onset 4.29)"
+     },
+     {
+      "t": 5.37,
+      "sfx_en": "fast whoosh + armor clank as the phone is flung",
+      "ko": "휙 + 갑옷 철컥(폰 던짐)"
+     },
+     {
+      "t": 5.58,
+      "sfx_en": "muffled phone thud on grass",
+      "ko": "폰이 풀밭에 퍽(암전 순간, rms -16dB 돌출)"
+     }
+    ]
+   },
+   "image_prompt_en": "Vertical 9:16 photorealistic smartphone front-camera selfie frame. Subject: a tiny fluffy golden British Shorthair kitten (about 10 weeks old) with cream-gold chinchilla-tipped fur, white muzzle and fluffy white chest ruff, long white whiskers, round chubby face, huge round dark eyes with a blue-grey sheen, small pink nose, a pink satin ribbon bow tied at the base of its right ear (viewer's left), wearing full polished silver medieval plate armor with engraved scroll filigree and a fleur-de-lis on the breastplate, layered rounded pauldrons, chainmail sleeves, a cream-white wool cape draped over its shoulders and down its back, a brown leather sword belt and a short arming sword with a round silver pommel sheathed at its left hip; it stands upright like a small knight, real kitten head and fluffy real cat paws. The kitten holds the phone itself with its outstretched right arm: the armored forearm, a large rounded polished vambrace and chainmail fill the bottom-left foreground (x 0-45%, y 65-100%), slightly soft and close to the lens. Kitten's head centered at x 43%, y 36% of the frame, head spanning y 21%-50%, body cropped at the bottom edge, three-quarter view turned slightly to the viewer's right, eyes glancing right. In its left paw (viewer's right, x 80%, y 65%) it holds a clear plastic takeaway cup with a clear domed lid and a white straw, filled with iced milk and ice cubes; the sword's silver pommel shows at x 75%, y 82%. Background: a flat misty green moorland of tall wet grass with scattered dark mossy boulders, the horizon dissolving into thick white-grey fog, overcast sky, cold damp morning, horizon line at y 31%, two dark boulders on the horizon at x 5% and x 88%. Soft diffuse overcast light, no hard shadows, cool blue-green-grey palette with warm golden fur, grey sky reflected in the polished armor. 24mm smartphone wide-angle, eye level, gentle background blur, natural phone-camera realism with slight sensor noise. No text.",
+   "video_prompt_en": "Handheld smartphone selfie video, the kitten knight holds the phone with its own right arm; only subtle natural handheld micro-jitter, no camera travel, no zoom. 0-1.2s: the kitten holds the iced milk cup near its chest and glances off to the right. 1.2-3.2s: it lifts the cup and sips through the straw, cheeks moving, eyes still watching something to the right. 3.3-3.6s: with a casual backhand flick it tosses the cup up and away to the upper right; the cup tumbles out of frame top-right, white milk splashing. 3.6-4.5s: its paw stays raised for a beat, shakes once, then drops to rest on the sword hilt. 4.5-5.3s: it stares right with a serious, determined face. 5.3-5.5s: its paw reaches toward the lens and the phone is suddenly flung downward with heavy motion blur. Keep the kitten's face, pink bow position, armor engravings and misty moorland identical throughout; realistic fur and whisker motion; realistic liquid physics; the milk stays white.",
+   "end_frame_prompt_en": "Same selfie framing and character; the kitten's hand is lowered near the sword hilt, no cup in frame, it stares to the viewer's right with a serious determined expression, mouth closed; misty moorland unchanged.",
+   "negative_prompt_en": "text, captions, subtitles, logo, watermark, extra limbs, extra paws, human hands, human fingers, deformed face, cross-eyed, cartoon, anime, 3D plastic CGI look, toy look, missing bow, bow changing color or side, armor morphing, sword appearing from nowhere, drink turning brown, color flicker, frame tearing, duplicate subjects, second kitten, oversaturated, lens flare, sunny sky, blue sky, low resolution, second cup, cup reappearing, phone visible in frame, human selfie arm",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "털·수염 디테일과 컵-발 상호작용(잡기/던지기) 안정적, first-last frame로 끝 표정 고정 가능"
+    },
+    {
+     "model": "veo-3-1",
+     "role": "alt (native audio)",
+     "why_ko": "셀카 핸드헬드 질감과 실사감 최고, 빨대·휙 소리 같은 네이티브 SFX 생성"
+    },
+    {
+     "model": "seedance-2-5",
+     "role": "alt",
+     "why_ko": "타임코드형 다단계 동작(마시기→던지기→칼자루) 지시 준수가 좋음"
+    }
+   ],
+   "gen_settings_ko": "image2video, 9:16 1080x1920, 길이 5s(원본 가시 구간 5.53s — 6s 지원 모델이면 6s, 아니면 5s 생성 후 마지막 0.5s는 ffmpeg 휙 블러로 연장). 시작 프레임=nano-banana-pro 캐릭터 시트 기반 이미지. 끝 표정이 흔들리면 first-last frame 모드로 end_frame 지정. 동작이 많으니 3~4회 시드 뽑기 후 컵이 흰색 유지되는 테이크 선택. 원본은 24fps 소스(30fps에서 5프레임마다 중복)였음.",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Vertical 9:16 photorealistic smartphone front-camera selfie frame. Subject: a tiny baby golden Syrian hamster (about 6 weeks old) with golden-orange fur on its back and head, cream-white cheeks, muzzle and belly, chubby puffed cheeks, small round rose-pink ears, shiny black bead eyes with a tiny catchlight, pink nose, long fine white whiskers, a pink satin ribbon bow tied at the base of its right ear (viewer's left), wearing full polished silver medieval plate armor scaled to its body with engraved scroll filigree and a fleur-de-lis on the breastplate, rounded pauldrons, chainmail sleeves, a cream-white wool cape over its shoulders and down its back, a brown leather sword belt and a tiny arming sword with a round silver pommel at its left hip; it stands upright like a small knight, real hamster head and tiny pink hamster paws. It holds the phone with its own outstretched right arm: the tiny armored forearm and rounded polished vambrace fill the bottom-left foreground (x 0-45%, y 65-100%), soft and close to the lens. Hamster head centered at x 43%, y 38%, head spanning y 24%-52%, body cropped at the bottom edge, three-quarter view turned slightly to the viewer's right, eyes glancing right. In its left paws (viewer's right, x 78%, y 65%) it hugs a miniature clear plastic takeaway cup with a domed lid and white straw, filled with iced milk and tiny ice cubes, cup scaled to the hamster (cup height about 22% of frame). Background: a flat misty green moorland of tall wet grass with scattered dark mossy boulders, the horizon dissolving into thick white-grey fog, overcast sky, cold damp morning, horizon line at y 31%, two dark boulders on the horizon at x 5% and x 88%. Soft diffuse overcast light, cool blue-green-grey palette with warm golden fur, 24mm smartphone wide-angle, eye level, gentle background blur, natural phone-camera realism. No text.",
+    "video_prompt_en": "Handheld smartphone selfie video, the hamster knight holds the phone with its right arm; subtle micro-jitter only. 0-1.2s: it hugs the mini iced milk cup and glances right, whiskers twitching. 1.2-3.2s: it sips through the straw, cheeks puffing in and out. 3.3-3.6s: it flings the cup up and away to the upper right with both tiny paws; cup tumbles out of frame, milk splashing white. 3.6-4.5s: it brushes its paws together then rests one paw on the sword hilt. 4.5-5.3s: serious stare to the right, cheeks still. 5.3-5.5s: its paw reaches toward the lens and the phone is flung downward with heavy motion blur. Keep face, bow, armor and background identical; milk stays white.",
+    "notes_ko": "햄스터는 팔이 짧아 '셀카 팔'이 어색해지기 쉬움 → 전경 팔을 더 크게/흐리게 지시. 컵은 햄스터 크기에 맞춘 미니컵으로 명시(원본 비율 그대로면 컵이 몸보다 커짐). 볼 주머니 오물거림이 원본의 빨대 마시기보다 귀여움 포인트."
+   }
+  },
+  {
+   "n": 2,
+   "start": 5.53,
+   "end": 5.73,
+   "dur": 0.2,
+   "gen_clip": 0,
+   "frames": [
+    "frames/x_5.00_fps30.jpg"
+   ],
+   "shot_size": "Black insert (no image)",
+   "angle": "n/a",
+   "lens_mm": "n/a",
+   "camera_move_ko": "없음 — 순수 검정 프레임(5.57~5.70 완전 검정, 5.53은 어두워지는 대각 스미어 1프레임).",
+   "composition_ko": "전면 검정. 워터마크는 계속 표시됨(우하단).",
+   "subject_action_ko": "폰이 풀밭에 엎어진 순간을 암전으로 표현(디제틱 블랙).",
+   "background_ko": "없음",
+   "on_screen_text_ko": "없음",
+   "transition_out": {
+    "type": "Hard cut from black",
+    "ko": "5.73s 페이드 없이 바로 굴러가는 폰 시점(모션블러 가득한 첫 프레임)으로 하드컷. pixel diff 110 스파이크.",
+    "ffmpeg": "color=black:s=1080x1920:r=30:d=0.20 (concat between s1 and s3, no xfade)",
+    "hyperframes": "Solid #000 clip 5.53-5.73 on V1, hard cut into s03 at 5.73."
+   },
+   "sound": {
+    "bgm_ko": "BGM 유지(끊지 않음).",
+    "sfx": [
+     {
+      "t": 5.58,
+      "sfx_en": "muffled thud of a phone landing face-down in grass",
+      "ko": "폰 퍽 착지(둔탁)"
+     }
+    ]
+   },
+   "image_prompt_en": "",
+   "video_prompt_en": "",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "",
+   "recommended_models": [],
+   "gen_settings_ko": "생성 불필요. 편집에서 검정 0.20s(30fps 6프레임) 삽입.",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "",
+    "video_prompt_en": "",
+    "notes_ko": "동일하게 검정 0.20s 삽입."
+   }
+  },
+  {
+   "n": 3,
+   "start": 5.73,
+   "end": 15.23,
+   "dur": 9.5,
+   "gen_clip": 2,
+   "frames": [
+    "frames/s02_in_05.80.jpg",
+    "frames/g_06.25.jpg",
+    "frames/g_06.75.jpg",
+    "frames/g_07.75.jpg",
+    "frames/g_09.25.jpg",
+    "frames/g_09.75.jpg",
+    "frames/g_10.75.jpg",
+    "frames/g_12.25.jpg",
+    "frames/g_12.75.jpg",
+    "frames/g_13.25.jpg",
+    "frames/g_13.75.jpg",
+    "frames/g_14.25.jpg",
+    "frames/x_last.jpg",
+    "frames/x_5.90_fps15.jpg",
+    "frames/x_8.40_fps10.jpg",
+    "frames/x_9.80_fps10_crop.jpg",
+    "frames/x_12.80_fps30.jpg",
+    "frames/x_14.40_fps30.jpg"
+   ],
+   "shot_size": "Extreme wide / establishing from ground level (kitten = full shot from behind, dragon head = close-up scale); ends as a wider pull-back",
+   "angle": "worm's-eye ground level (lens ~5 cm above grass), camera rolled 90 deg (phone lying on its side) — delivered as a landscape shot rotated 90 deg clockwise into 9:16",
+   "lens_mm": "16-18mm equiv ultra-wide (phone main/ultra-wide), deep focus, grass in foreground slightly soft",
+   "camera_move_ko": "5.73~7.10 떨어진 폰이 풀밭에서 180도 구르며 안착(뒤집힌 화면→용 다리·뿔이 스침→6.3~6.9 풀에 파묻혀 초록 블러→7.10 옆으로 누운 채 정지). 7.10~13.50 완전 고정(locked-off, 흐름 0.18px/f). 13.50~15.23 포효 바람에 폰이 뒤로 밀리며 빠른 풀백(돌리 아웃) + 전경 풀 모션블러, 용 머리 크기 약 50%→25%.",
+   "composition_ko": "최종 9:16 기준(90도 회전 상태): 풀/땅이 화면 왼쪽 0~30%를 세로로 채움(수평선 x≈30%의 세로선). 새끼고양이는 옆으로 누운 형태로 x5~40%, y44~57%(머리 x35~40%), 등과 흰 망토가 카메라 쪽. 용 머리 중심 x55%,y45%, 머리가 세로 y27~62% 차지, 날개는 위(y0~25%)와 아래(y70~100%)로 펼쳐짐, 오른쪽 40%는 흰 안개 하늘. 원래 가로 영상 기준: 땅 하단 30%, 수평선 y70%, 고양이 하단 중앙 x50%(프레임 높이의 35%), 용 머리 x45%,y45%. 13.0s 이후 용 머리가 원래 기준 위로(최종 기준 오른쪽으로) 들림. 워터마크는 9.85s까지만 보이고 이후 사라짐.",
+   "subject_action_ko": "5.73~7.10 폰 구름/안착(용의 발톱 달린 앞다리·뿔이 뒤집힌 채 스침) → 7.10~9.40 고양이가 등을 보이고 서서 잠든 거대한 붉은 용(턱을 땅에 괴고 눈 감음)과 대치, 안개만 흐름 → 9.40~9.55 고양이가 허리에서 검을 뽑아 아래로 비스듬히 쥠(칼끝이 땅 쪽) → 10.40~10.80 용의 황금빛 눈이 천천히 뜸 → 11.20~12.90 용이 머리를 천천히 들어 고양이 위로 솟음 → 13.00~13.30 입을 쩍 벌려 포효(분홍 혀·이빨 열) → 13.30~15.23 포효 계속, 바람에 망토 펄럭·고양이 버팀, 폰이 뒤로 밀려나며 날개를 활짝 편 용 전체가 드러남 → 포효 도중 컷(클리프행어).",
+   "background_ko": "흰회색 짙은 안개, 초록 젖은 풀, 전경 좌하단 검은 바위(최종 x20~25%, y70~80%), 용 몸통·날개가 안개에 반쯤 녹아 반투명. 1부보다 채도 낮음(sat 71→56).",
+   "on_screen_text_ko": "없음 (워터마크 sickmanai는 9.85s까지)",
+   "transition_out": {
+    "type": "End on action (hard cut to end / cliffhanger, no loop)",
+    "ko": "15.23s 포효가 최고조인 상태에서 그대로 끝남. 페이드 없음. 'Part 1' 클리프행어 → 다음 릴 유도. 첫 프레임과 매칭되는 루프 아님.",
+    "ffmpeg": "trim end at 15.23 with -t 15.23; no fade on video; audio afade out 0.05s only to avoid click",
+    "hyperframes": "End composition at 15.23s exactly; no outro, no fade."
+   },
+   "sound": {
+    "bgm_ko": "BGM 계속 낮게(추정). 13.0s 포효부터 덕킹(-8dB)되거나 포효에 묻힘.",
+    "sfx": [
+     {
+      "t": 6.53,
+      "sfx_en": "phone tumbling thump on turf #1",
+      "ko": "폰 구르는 쿵 1"
+     },
+     {
+      "t": 6.78,
+      "sfx_en": "phone tumbling thump #2 + grass swish",
+      "ko": "쿵 2 + 풀 스침"
+     },
+     {
+      "t": 7.06,
+      "sfx_en": "phone settles, heavy low thud (loudest of the three)",
+      "ko": "안착 쿵(가장 큼, -12dB)"
+     },
+     {
+      "t": 7.1,
+      "sfx_en": "low wind drone + giant creature slow breathing rumble (bed until 13.0)",
+      "ko": "저역 바람 + 거대 생물 숨소리(깔림)"
+     },
+     {
+      "t": 8.69,
+      "sfx_en": "deep dragon exhale / nostril snort",
+      "ko": "용 콧김(추정)"
+     },
+     {
+      "t": 9.39,
+      "sfx_en": "metal sword unsheathe scrape and ring",
+      "ko": "칼 뽑는 스르릉(onset 9.39, -12.3dB)"
+     },
+     {
+      "t": 10.5,
+      "sfx_en": "low rumbling growl rising as eyes open",
+      "ko": "눈 뜰 때 낮은 그르렁 시작"
+     },
+     {
+      "t": 11.2,
+      "sfx_en": "scales creaking, heavy head lifting",
+      "ko": "머리 드는 비늘 삐걱(추정)"
+     },
+     {
+      "t": 13.0,
+      "sfx_en": "massive dragon roar, sustained, distorted low end",
+      "ko": "용의 거대한 포효(피크 -9dB, 끝까지 지속)"
+     },
+     {
+      "t": 13.6,
+      "sfx_en": "wind gust blast + grass rushing past the mic + cape flapping",
+      "ko": "포효 풍압 돌풍 + 풀 스치는 소리 + 망토 펄럭"
+     }
+    ]
+   },
+   "image_prompt_en": "Horizontal 16:9 photorealistic frame from a smartphone lying in the grass at ground level (lens 5 cm above the ground, lens axis parallel to the ground). Bottom 30% of the frame: wet green grass blades very close to the lens, slightly soft, with a dark mossy boulder at bottom-left. At bottom center (x 50%, feet at y 96%, head top at y 60%, height about 35% of frame) stands, seen from directly behind, a tiny fluffy golden British Shorthair kitten (about 10 weeks old) with cream-gold chinchilla-tipped fur, white muzzle and fluffy white chest ruff, long white whiskers, round chubby face, huge round dark eyes with a blue-grey sheen, small pink nose, a pink satin ribbon bow tied at the base of its right ear (viewer's left), wearing full polished silver medieval plate armor with engraved scroll filigree and a fleur-de-lis on the breastplate, layered rounded pauldrons, chainmail sleeves, a cream-white wool cape draped over its shoulders and down its back, a brown leather sword belt and a short arming sword with a round silver pommel sheathed at its left hip; it stands upright like a small knight, real kitten head and fluffy real cat paws — its cream-white cape covers its back, arms at its sides. It faces a colossal dark crimson-red western dragon with pebbled red scales and darker ridged plates, a crown of red-brown spikes and frills around the head, two large glossy black horns curving back from the brow and two from the jaw, huge flared nostrils, heavy brow, amber-gold eyes, leathery bat-like wings in muted red-mauve with visible finger bones, wings folded high behind it. The dragon lies on the moorland right in front of the kitten, its enormous head resting chin-down on the grass, head centered at x 45%, y 45%, about 35% of the frame wide, eyes closed as if asleep; its folded wings rise behind it on both sides (left wing x 5-30%, right wing x 60-95%) fading into the fog. Setting: a flat misty green moorland of tall wet grass with scattered dark mossy boulders, the horizon dissolving into thick white-grey fog, overcast sky, cold damp morning. Thick white-grey fog makes the dragon's body and wings semi-translucent; flat overcast light, no sun, desaturated cool palette, crimson dragon as the only strong color. 16mm ultra-wide phone lens, deep focus, extreme scale contrast, photoreal, no text.",
+   "video_prompt_en": "10 second shot, landscape, from a dropped smartphone. 0-1.4s: the phone is tumbling after being dropped: the view starts upside down with the dragon's clawed foreleg and black horns flashing past, heavy motion blur, it rolls 180 degrees, grass blades smear across the lens, it thumps into the grass partially buried, then the grass clears and the view settles, still. 1.4-3.7s: completely static locked-off camera on the ground; fog drifts slowly; the huge red dragon sleeps with its chin on the grass, subtle breathing; the tiny kitten knight stands still facing it from behind. 3.7-3.9s: the kitten quickly draws its short sword from its left hip and holds it low, blade angled down toward the grass. 4.7-5.1s: the dragon's amber-gold eyes slowly open. 5.5-7.2s: the dragon slowly lifts its massive head, rising above the kitten, spikes and horns towering. 7.3-7.6s: the dragon opens its jaws extremely wide, rows of ivory teeth and a pink tongue, and roars. 7.6-9.5s: the roar blast whips the kitten's cape, the kitten braces, and the phone is pushed backward, sliding fast through the grass: the camera pulls back along the ground with motion-blurred grass in the foreground, revealing the dragon spreading its enormous wings wide. Keep the fog, light and dragon anatomy consistent; the kitten stays small, faces away and never turns around.",
+   "end_frame_prompt_en": "Horizontal 16:9, same ground-level phone view pulled back about 2x wider: foreground grass motion-blurred across the bottom 30%, the tiny kitten knight now very small at bottom center with sword lowered and cape blown back, the red dragon mid-roar with jaws wide open, head centered at x 50%, y 40%, about 20% of frame wide, huge leathery wings spread fully to both frame edges, thick white fog.",
+   "negative_prompt_en": "text, captions, subtitles, logo, watermark, extra limbs, extra paws, human hands, human fingers, deformed face, cross-eyed, cartoon, anime, 3D plastic CGI look, toy look, missing bow, bow changing color or side, armor morphing, sword appearing from nowhere, drink turning brown, color flicker, frame tearing, duplicate subjects, second kitten, oversaturated, lens flare, sunny sky, blue sky, low resolution, camera facing the kitten's face, kitten turning around, dragon breathing fire, fire, sparks, sunlight, dragon walking away, multiple dragons, dragon with two heads, tilted horizon after the landing, cut, scene change",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "거대 크리처 머리 들기·입 벌리기 물리감, 10s 단일 테이크 안정성, first-last frame으로 마지막 풀백 구도 고정 가능"
+    },
+    {
+     "model": "veo-3-1",
+     "role": "alt (native audio)",
+     "why_ko": "실사 안개/스케일감 최고 + 포효·풍압 네이티브 오디오. 8s 한계라 구르기(0~1.4s)는 별도 생성 후 이어붙이기"
+    },
+    {
+     "model": "seedance-2-5",
+     "role": "alt",
+     "why_ko": "타임라인 다단 동작(칼 뽑기→눈 뜨기→머리 들기→포효) 지시 준수, 폰 낙하 카메라 롤링 연출에 강함"
+    }
+   ],
+   "gen_settings_ko": "반드시 16:9 가로(1920x1080)로 생성 후 편집에서 시계방향 90도 회전(transpose=1) → 9:16. 9:16으로 '옆으로 누운 화면'을 직접 생성하면 모델이 수평을 바로잡아버림. 10s 생성 → 앞 0.5s 버리고 9.50s 사용. 구르기 구간이 안 나오면: (A) 정지 구간부터 생성하고 앞에 1.4s짜리 '폰 낙하 굴림' 클립을 따로 생성(image2video, 같은 시작 이미지 흐리게) 후 하드컷, 또는 (B) 첫 1.4s를 ffmpeg 회전(rotate 180→0)+강한 블러로 합성. 풀백이 약하면 13.5s부터 zoompan 역줌(1.35→1.0)으로 보강. Higgsfield(원작 크레딧)에서도 동일 모델(Kling/Veo/Seedance)로 가능.",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Horizontal 16:9 photorealistic frame from a smartphone lying in the grass at ground level (lens 5 cm above the ground). Bottom 30%: wet green grass blades close to the lens, dark mossy boulder at bottom-left. At bottom center (x 50%, feet at y 96%, head top at y 64%, height about 32% of frame) stands, seen from directly behind, a tiny baby golden Syrian hamster (about 6 weeks old) with golden-orange fur on its back and head, cream-white cheeks, muzzle and belly, chubby puffed cheeks, small round rose-pink ears, shiny black bead eyes with a tiny catchlight, pink nose, long fine white whiskers, a pink satin ribbon bow tied at the base of its right ear (viewer's left), wearing full polished silver medieval plate armor scaled to its body with engraved scroll filigree and a fleur-de-lis on the breastplate, rounded pauldrons, chainmail sleeves, a cream-white wool cape over its shoulders and down its back, a brown leather sword belt and a tiny arming sword with a round silver pommel at its left hip; it stands upright like a small knight, real hamster head and tiny pink hamster paws — its cream-white cape covers its round back, its golden fluffy head and pink ears visible from behind. It faces a colossal dark crimson-red western dragon with pebbled red scales and darker ridged plates, a crown of red-brown spikes and frills around the head, two large glossy black horns curving back from the brow and two from the jaw, huge flared nostrils, heavy brow, amber-gold eyes, leathery bat-like wings in muted red-mauve with visible finger bones, wings folded high behind it, lying on the moorland with its enormous head resting chin-down on the grass right in front of the hamster, head centered at x 45%, y 45%, about 35% of frame wide, eyes closed; wings folded high on both sides fading into the fog. Setting: a flat misty green moorland of tall wet grass with scattered dark mossy boulders, the horizon dissolving into thick white-grey fog, overcast sky, cold damp morning. Thick fog, flat overcast light, desaturated cool palette, 16mm ultra-wide phone lens, deep focus, extreme scale contrast, photoreal, no text.",
+    "video_prompt_en": "10 second shot, landscape, from a dropped smartphone. 0-1.4s: the phone tumbles and rolls 180 degrees, dragon's foreleg and horns flash past upside down, grass smears across the lens, it lands in the grass and settles still. 1.4-3.7s: static ground-level camera; fog drifts; the dragon sleeps; the tiny hamster knight stands still, facing it. 3.7-3.9s: the hamster draws its tiny sword and holds it low, blade angled down. 4.7-5.1s: the dragon's amber eyes open. 5.5-7.2s: the dragon slowly lifts its massive head. 7.3-7.6s: the dragon opens its jaws wide and roars. 7.6-9.5s: the roar blast ruffles the hamster's fur and whips its cape, the hamster braces, and the phone slides backward through the grass, camera pulling back fast, revealing the dragon's wings spreading wide. Hamster stays small, faces away, never turns around; fog and light constant.",
+    "notes_ko": "뒷모습이라 햄스터 정체성은 '둥근 황금 털 뒤통수 + 분홍 동그란 귀 + 핑크 리본'으로만 전달됨 → 귀·리본을 프롬프트 앞쪽에 배치. 햄스터는 고양이보다 작게 보여 스케일 대비가 더 커짐(더 유리). 바람에 털이 부풀어 오르는 연출 추가 권장."
+   }
+  }
+ ],
+ "audio_design": {
+  "bgm_ko": "추정: 느리고 서정적인 시네마틱 앰비언트(피아노/신스 패드/현악 지속음), 드럼 없음, 낮은 볼륨. 근거: 0~15s 내내 267Hz·412Hz·540Hz·1087Hz 대 음정이 0.4~1s 단위로 유지·전환되며 5.73s 컷을 넘어 연속(음악 트랙이 컷과 무관하게 깔림). 알고리즘 템포 178.6 BPM은 더블타임 추정 → 실제 약 89 BPM. 무드는 1부 잔잔 → 2부 긴장(저역 바람/숨소리가 더해짐) → 13.0s 포효가 모든 것을 덮음.",
+  "bpm_est": 89,
+  "bgm_timeline_ko": [
+   "0.00-5.53: 잔잔한 멜로디 패드/피아노 + 바람 앰비언스(rms -21~-28dB)",
+   "5.53-7.10: 음악 유지, 폰 낙하 쿵 소리들이 위에 얹힘(rms -12~-17dB 돌출)",
+   "7.10-13.00: 음악 + 저역 바람/거대 생물 숨소리(150Hz 이하 에너지 증가), 9.39 칼 뽑는 소리",
+   "13.00-15.23: 포효가 지배(rms -9~-12dB 지속), 음악은 덕킹 또는 묻힘, 포효 도중 컷"
+  ],
+  "music_prompt_en": "Slow, tender cinematic ambient underscore at 89 BPM in C-sharp minor, soft felt piano single notes over warm synth pad and distant legato strings, misty and melancholic yet brave, no drums, no vocals, gentle swell in the second half building subtle tension with a low cello drone, instrumental, 15 seconds, ends unresolved.",
+  "sfx_list": [
+   {
+    "t": 0.0,
+    "sfx_en": "moorland wind ambience, light grass rustle",
+    "search_kw_en": "wind moor grass ambience light",
+    "gen_prompt_en": "Gentle cold wind over an open grassy moor, soft grass rustle, distant and airy, no birds",
+    "gain_db": -24
+   },
+   {
+    "t": 2.4,
+    "sfx_en": "tiny straw slurp",
+    "search_kw_en": "straw slurp drink small",
+    "gen_prompt_en": "A small cute sip through a plastic straw from an iced drink, short slurp",
+    "gain_db": -14
+   },
+   {
+    "t": 3.52,
+    "sfx_en": "whoosh + plastic cup flick",
+    "search_kw_en": "throw whoosh plastic cup",
+    "gen_prompt_en": "Quick light whoosh of a plastic cup thrown into the air with ice rattling",
+    "gain_db": -8
+   },
+   {
+    "t": 4.29,
+    "sfx_en": "distant cup landing splash",
+    "search_kw_en": "plastic cup drop grass splash distant",
+    "gen_prompt_en": "Distant plastic cup landing in wet grass with a small liquid splash",
+    "gain_db": -18
+   },
+   {
+    "t": 5.37,
+    "sfx_en": "fast whoosh + armor clank",
+    "search_kw_en": "fast whoosh armor clank",
+    "gen_prompt_en": "Very fast whoosh with a short metallic armor clank as a phone is flung",
+    "gain_db": -6
+   },
+   {
+    "t": 5.58,
+    "sfx_en": "muffled phone thud on grass",
+    "search_kw_en": "phone drop grass thud muffled",
+    "gen_prompt_en": "Muffled thud of a smartphone landing face-down on soft grass, close mic",
+    "gain_db": -8
+   },
+   {
+    "t": 6.53,
+    "sfx_en": "phone tumble thump 1",
+    "search_kw_en": "phone tumble grass thump",
+    "gen_prompt_en": "Phone tumbling on turf, soft thump and grass swish, close mic",
+    "gain_db": -10
+   },
+   {
+    "t": 6.78,
+    "sfx_en": "phone tumble thump 2",
+    "search_kw_en": "phone tumble grass thump",
+    "gen_prompt_en": "Second softer thump of a phone rolling on grass",
+    "gain_db": -12
+   },
+   {
+    "t": 7.06,
+    "sfx_en": "phone settles heavy thud",
+    "search_kw_en": "object land grass thud close",
+    "gen_prompt_en": "Phone settling into grass with a heavy close-mic thud and rustle",
+    "gain_db": -6
+   },
+   {
+    "t": 7.1,
+    "sfx_en": "low wind drone + giant breathing",
+    "search_kw_en": "giant creature breathing low rumble wind",
+    "gen_prompt_en": "Deep slow breathing of a sleeping giant dragon, low rumbling, foggy wind",
+    "gain_db": -16
+   },
+   {
+    "t": 8.69,
+    "sfx_en": "dragon nostril exhale",
+    "search_kw_en": "dragon snort exhale",
+    "gen_prompt_en": "A huge dragon exhaling through its nostrils, deep airy snort",
+    "gain_db": -12
+   },
+   {
+    "t": 9.39,
+    "sfx_en": "sword unsheathe ring",
+    "search_kw_en": "sword unsheathe metal ring",
+    "gen_prompt_en": "Small sword drawn from a scabbard, metallic scrape ending in a bright ring",
+    "gain_db": -6
+   },
+   {
+    "t": 10.5,
+    "sfx_en": "low growl rising",
+    "search_kw_en": "dragon low growl rumble",
+    "gen_prompt_en": "Very low rumbling dragon growl slowly rising, sub-bass",
+    "gain_db": -12
+   },
+   {
+    "t": 13.0,
+    "sfx_en": "massive dragon roar",
+    "search_kw_en": "dragon roar huge monster",
+    "gen_prompt_en": "Enormous dragon roar, long and sustained for 2.3 seconds, powerful low end, slight distortion, close",
+    "gain_db": -2
+   },
+   {
+    "t": 13.6,
+    "sfx_en": "wind blast + grass rush + cape flap",
+    "search_kw_en": "wind gust blast cloth flap",
+    "gen_prompt_en": "Violent gust of wind blasting across grass, cloth cape flapping, microphone buffeting",
+    "gain_db": -8
+   }
+  ],
+  "mix_ko": "BGM -20~-24dB 기준(작게), 앰비언스 -24dB. SFX는 화면 이벤트에 프레임 단위 싱크. 13.0s 포효 시작 시 BGM -8dB 덕킹(0.2s 램프), 포효 -2dB 피크 리미터 -1dBTP. 끝(15.23s)은 페이드 없이 컷(클릭 방지용 20~50ms만). 전체 목표 -14 LUFS(릴스)."
+ },
+ "animal_swap_plan": {
+  "default_animal_en": "baby golden hamster (golden Syrian hamster pup)",
+  "alternatives_en": [
+   "baby Holland Lop bunny (cream-and-white, floppy lop ears, pink bow on the right ear)",
+   "baby red panda cub (rusty-red fur, white face mask, ringed fluffy tail peeking under the cape)"
+  ],
+  "character_sheet_prompt_en": "Character reference turnaround sheet, photorealistic, neutral light-grey studio background, soft even lighting, 4 views in one row: front, 3/4 left, side profile, back view, plus one close-up head portrait inset. Character: a tiny baby golden Syrian hamster (about 6 weeks old) with golden-orange fur on its back and head, cream-white cheeks, muzzle and belly, chubby puffed cheeks, small round rose-pink ears, shiny black bead eyes with a tiny catchlight, pink nose, long fine white whiskers, a pink satin ribbon bow tied at the base of its right ear (viewer's left), wearing full polished silver medieval plate armor scaled to its body with engraved scroll filigree and a fleur-de-lis on the breastplate, rounded pauldrons, chainmail sleeves, a cream-white wool cape over its shoulders and down its back, a brown leather sword belt and a tiny arming sword with a round silver pommel at its left hip; it stands upright like a small knight, real hamster head and tiny pink hamster paws. Standing upright on hind legs, same scale in every view, clear visibility of the pink bow position (right ear), the fleur-de-lis breastplate, the cape covering the back, the sword at the left hip. Also include a separate prop row: miniature clear domed-lid iced milk cup with white straw, the short arming sword. Hyper-realistic fur, no text labels.",
+  "consistency_tips_ko": [
+   "nano-banana-pro 또는 seedream-5-0-pro로 캐릭터 시트 1장 → 모든 시작 프레임을 이 시트를 레퍼런스로 편집 생성",
+   "리본은 항상 '오른쪽 귀(화면 왼쪽)'로 모든 프롬프트에 명시 — 좌우 뒤집힘이 가장 흔한 오류",
+   "2번 샷은 뒷모습이므로 뒷모습 레퍼런스(back view)를 따로 넣고 망토·귀·리본만으로 정체성 유지",
+   "용은 별도 레퍼런스 이미지(정면 머리 클로즈업) 1장 고정해 image2video 입력에 같이 사용(kling-v3-omni/ref2video)",
+   "색·조명은 style_bible 문장을 매 프롬프트에 그대로 복붙(안개 밀도·흐린 하늘 유지)",
+   "시드 고정 + 같은 모델로 두 컷 생성해 털 질감 일관성 확보, 컵 액체가 갈색으로 변하는 테이크는 폐기"
+  ]
+ },
+ "ffmpeg": {
+  "steps_ko": [
+   "1) s01.mp4(9:16 셀카 생성 클립)를 1080x1920/24fps로 맞추고 0~5.37s 사용",
+   "2) 5.37~5.53s(0.16s)는 s01 끝부분에 가우시안 방향 블러+회전+어둡게로 휙 효과(생성 클립에 이미 휙이 있으면 그대로 5.53까지 trim)",
+   "3) 검정 0.20s 삽입(5.53~5.73)",
+   "4) s03.mp4(16:9 가로 생성 클립)를 transpose=1(시계방향 90도)로 회전 → 1080x1920, 앞 0.5s 버리고 9.50s 사용",
+   "5) (선택) 13.50s 이후 풀백이 약하면 zoompan 역줌으로 보강",
+   "6) 세 조각 concat → 약간의 탈채도 그레이드 → 30fps 변환(원본처럼 24→30 중복 프레임)",
+   "7) 워터마크(자기 핸들) 우하단 0~9.87s drawtext",
+   "8) BGM + SFX adelay 배치 + 13.0s 덕킹 → 믹스, -14 LUFS 정규화",
+   "9) libx264 CRF18 yuv420p, AAC 192k, 정확히 15.23s로 출력"
+  ],
+  "script": "#!/usr/bin/env bash\n# v01 kitten-knight vs dragon — assemble final 1080x1920 30fps (15.23 s)\n# inputs: s01.mp4 (9:16 selfie gen, >=5.6s), s03.mp4 (16:9 landscape dragon gen, >=10s), bgm.mp3,\n#         sfx/*.wav (names below). Run in Git Bash; all ffmpeg calls read stdin from /dev/null.\nset -euo pipefail\nW=1080; H=1920\nHANDLE=\"yourhandle\"   # your own watermark, never copy 'sickmanai'\nFONT=\"C\\\\:/Windows/Fonts/consola.ttf\"\n\n# ---------- VIDEO ----------\nffmpeg -y -v error -i s01.mp4 -i s03.mp4 -filter_complex \"\n[0:v]fps=24,scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1,split=2[s1a][s1b];\n[s1a]trim=0:5.37,setpts=PTS-STARTPTS[p1];\n[s1b]trim=5.37:5.53,setpts=PTS-STARTPTS,\n  gblur=sigma=30:sigmaV=4,\n  rotate=a='-0.6*t/0.16':c=black:ow=${W}:oh=${H},\n  eq=brightness='-0.5*t/0.16':eval=frame[whip];\ncolor=black:s=${W}x${H}:r=24:d=0.20,setsar=1[blk];\n[1:v]fps=24,trim=0.50:10.00,setpts=PTS-STARTPTS,\n  transpose=1,\n  scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1,\n  eq=saturation=0.88:contrast=0.97[p3];\n[p1][whip][blk][p3]concat=n=4:v=1:a=0,\n  eq=saturation=0.95:gamma=1.02,\n  fps=30,\n  drawtext=fontfile='${FONT}':text='${HANDLE}':fontcolor=white@0.6:fontsize=26:x=w-tw-22:y=h-th-80:enable='lt(t,9.87)'\n  [vout]\" -map \"[vout]\" -an -c:v libx264 -crf 18 -preset slow -pix_fmt yuv420p -t 15.23 v_only.mp4 < /dev/null\n# OPTIONAL (only if the generated pull-back after 13.50 s is too weak): append to the [p3] chain\n#   ,zoompan=z='if(lt(in,186),1.35,max(1.0,1.35-(in-186)*0.0085))':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=${W}x${H}:fps=24\n#   (in=186 at 24 fps = 7.77 s into p3 = 13.50 s on the timeline; 1.35x hold before, eases to 1.0x by 15.23 s)\n# If s01 already contains the phone-throw blur, drop the gblur/rotate/eq on [whip] and keep the plain trim.\n\n# ---------- AUDIO ----------\n# sfx files: amb_wind.wav slurp.wav cup_whoosh.wav cup_land.wav whip_whoosh.wav phone_thud.wav\n#            tumble1.wav tumble2.wav settle.wav breath_drone.wav snort.wav sword.wav growl.wav roar.wav gust.wav\nffmpeg -y -v error \\\n -i bgm.mp3 -i sfx/amb_wind.wav -i sfx/slurp.wav -i sfx/cup_whoosh.wav -i sfx/cup_land.wav \\\n -i sfx/whip_whoosh.wav -i sfx/phone_thud.wav -i sfx/tumble1.wav -i sfx/tumble2.wav -i sfx/settle.wav \\\n -i sfx/breath_drone.wav -i sfx/snort.wav -i sfx/sword.wav -i sfx/growl.wav -i sfx/roar.wav -i sfx/gust.wav \\\n -filter_complex \"\n[0:a]atrim=0:15.23,volume='if(lt(t,12.9),1,if(lt(t,13.1),1-(t-12.9)*3.0,0.4))':eval=frame,volume=-20dB[bgm];\n[1:a]atrim=0:15.23,volume=-24dB[amb];\n[2:a]adelay=2400|2400,volume=-14dB[a2];\n[3:a]adelay=3520|3520,volume=-8dB[a3];\n[4:a]adelay=4290|4290,volume=-18dB[a4];\n[5:a]adelay=5370|5370,volume=-6dB[a5];\n[6:a]adelay=5580|5580,volume=-8dB[a6];\n[7:a]adelay=6530|6530,volume=-10dB[a7];\n[8:a]adelay=6780|6780,volume=-12dB[a8];\n[9:a]adelay=7060|7060,volume=-6dB[a9];\n[10:a]atrim=0:5.9,adelay=7100|7100,volume=-16dB[a10];\n[11:a]adelay=8690|8690,volume=-12dB[a11];\n[12:a]adelay=9390|9390,volume=-6dB[a12];\n[13:a]adelay=10500|10500,volume=-12dB[a13];\n[14:a]adelay=13000|13000,volume=-2dB[a14];\n[15:a]adelay=13600|13600,volume=-8dB[a15];\n[bgm][amb][a2][a3][a4][a5][a6][a7][a8][a9][a10][a11][a12][a13][a14][a15]amix=inputs=16:normalize=0:duration=longest,\n atrim=0:15.23,afade=t=out:st=15.19:d=0.04,loudnorm=I=-14:TP=-1:LRA=9,aresample=48000[aout]\" \\\n -map \"[aout]\" -c:a aac -b:a 192k a_only.m4a < /dev/null\n\n# ---------- MUX ----------\nffmpeg -y -v error -i v_only.mp4 -i a_only.m4a -map 0:v -map 1:a -c:v copy -c:a copy -t 15.23 -movflags +faststart final_v01_1080x1920.mp4 < /dev/null\necho done\n"
+ },
+ "hyperframes": {
+  "prompt_en": "Use the HyperFrames skill to build a 1080x1920, 30 fps, exactly 15.23 s vertical composition that replicates this edit frame-accurately. Assets: s01.mp4 (9:16 selfie clip of the knight animal, >=5.6 s), s03.mp4 (16:9 LANDSCAPE dragon clip, 10 s), bgm.mp3, and SFX files amb_wind, slurp, cup_whoosh, cup_land, whip_whoosh, phone_thud, tumble1, tumble2, settle, breath_drone, snort, sword, growl, roar, gust.\nTIMELINE (track V1):\n1) 0.00-5.37 s: s01 from source 0.00, cover-fit 1080x1920, no motion added.\n2) 5.37-5.53 s: continue s01 (source 5.21-5.37) with a 'phone flung' whip: directional blur ramping 0->60 px at -60 deg, rotation 0->-35 deg, scale 1.0->1.15, brightness ramps down to -50%, ease-in.\n3) 5.53-5.73 s: solid black #000 (hard in, hard out). Do not fade.\n4) 5.73-15.23 s: s03 from source 0.50 s, ROTATED 90 degrees CLOCKWISE (so the ground is on the LEFT edge and the sky on the RIGHT), cover-fit to 1080x1920, saturation 0.88. If the clip's own pull-back after 13.50 s is weak, animate scale 1.35->1.00 from 13.50 to 15.23 with ease-out (start the clip already at 1.35 scale from 5.73 so it is continuous). End abruptly at 15.23 s mid-roar, no fade.\nOVERLAY (track V2): text 'yourhandle' lowercase monospace, white 60% opacity, 26 px, bottom-right 22 px from right edge and 80 px from bottom, visible 0.00-9.87 s only. No other captions.\nAUDIO: bgm.mp3 from 0.00 at -20 dB, ducked by -8 dB with a 0.2 s ramp starting 12.90 s; amb_wind 0.00 at -24 dB; SFX cues: slurp 2.40 (-14 dB), cup_whoosh 3.52 (-8), cup_land 4.29 (-18), whip_whoosh 5.37 (-6), phone_thud 5.58 (-8), tumble1 6.53 (-10), tumble2 6.78 (-12), settle 7.06 (-6), breath_drone 7.10-13.00 (-16), snort 8.69 (-12), sword 9.39 (-6), growl 10.50 (-12), roar 13.00 to end (-2, peak), gust 13.60 (-8). Hard audio cut at 15.23 with a 40 ms micro-fade only. Loudness target -14 LUFS, true peak -1 dBTP.\nValidate with hyperframes check, snapshot frames at 0.25, 3.60, 5.45, 5.60, 5.80, 7.75, 9.60, 13.25, 15.20 and compare against the reference contact sheet, then render to final_v01.mp4.",
+  "notes_ko": [
+   "핵심은 4번 클립 90도 시계방향 회전 — HyperFrames에서 CSS transform: rotate(90deg) + 가로/세로 스왑(1920x1080 요소를 1080x1920 캔버스에 회전 배치)",
+   "검정 0.20s는 반드시 하드컷(페이드 금지) — 폰이 엎어진 느낌",
+   "워터마크는 9.87s에서 꺼짐(원본 재현), 본인 핸들 사용",
+   "원본은 24fps 소스 → 30fps 렌더 시 자연스러운 중복 프레임, 모션블러 질감 유지"
+  ]
+ },
+ "replication_checklist_ko": [
+  "셀카 구도: 머리 x43% y36%, 전경 좌하단에 자기 갑옷 팔, 컵은 화면 오른쪽 손",
+  "핑크 리본은 캐릭터 오른쪽 귀(화면 왼쪽) — 모든 샷 동일",
+  "0~3.3s 마시기, 3.53s 컵 던지기, 4.5s 칼자루, 5.30s 렌즈로 손 뻗기 타이밍",
+  "5.37~5.53 휙 블러 5프레임 → 5.53~5.73 검정 → 5.73 하드컷",
+  "용 샷은 16:9 가로로 생성 후 시계방향 90도 회전(땅=왼쪽)",
+  "5.73~7.10 폰 구름/안착, 7.10 이후 고정",
+  "9.40 칼 뽑기, 10.5 용 눈 뜸, 11.2~12.9 머리 들기, 13.0 포효",
+  "13.5~15.23 풍압 풀백(용 머리 ~50%→~25% 크기), 날개 활짝",
+  "15.23s 포효 도중 컷, 페이드 없음",
+  "색: 흐린 안개·탈채도, 따뜻한 색은 털과 용뿐",
+  "SFX 싱크: 3.52 휙, 5.58 퍽, 6.53/6.78/7.06 쿵, 9.39 칼, 13.0 포효",
+  "워터마크 우하단 0~9.87s, 자막 없음",
+  "캡션에 키워드 댓글 CTA(예: Comment \"prompt\") 사용"
+ ],
+ "confidence_notes_ko": [
+  "확실: 컷 위치(5.73 하드컷, 5.57~5.70 완전 검정 5프레임), 90도 시계방향 회전, 각 동작 타이밍(fps30/fps10 추가 타일로 ±0.05s 확인), 워터마크 9.85s 종료(픽셀 측정), 24fps→30fps 중복 프레임 패턴",
+  "자동 추출된 frames/s02_out_15.16.jpg는 시크 오류로 5.8s 부근 프레임이 잘못 저장됨 — 실제 마지막 프레임은 frames/x_last.jpg(포효 중 날개 편 용)",
+  "생성 클립 경계(gen 1: 0~5.53, gen 2: 5.73~15.23)는 연속성으로 추정. 5.37~5.53 휙 블러가 생성 결과인지 편집 효과인지는 불확실(프레임상 생성 결과 쪽 가능성 높음)",
+  "오디오는 전부 추정: 음성 전사 없음. 음정 추적상 컷을 넘어 연속되는 멜로디 BGM이 있다고 판단, 장르/BPM(89)은 추정. SFX는 onset·rms 피크와 화면 이벤트를 맞춘 추정",
+  "3.70s 컵 속 액체가 흰 우유→갈색으로 바뀌는 AI 오류가 원본에 있음 — 재현하지 말 것",
+  "13.5s 이후 줌아웃이 '폰이 밀려나는' 생성 카메라 무브인지 편집 줌인지 불확실(전경 풀의 모션블러로 보아 생성 무브로 판단)",
+  "캡션 CTA의 DM 자동화 여부는 추정"
+ ]
+}

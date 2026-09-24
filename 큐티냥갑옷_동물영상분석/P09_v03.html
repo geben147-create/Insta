@@ -1,0 +1,652 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>9위 · 우유 마시는 아기고양이 기사와 휘핏 보디가드</title><style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#1d1d1f;--mute:#6b6b70;--line:#e3e1dc;--acc:#d9481c;--acc2:#2f6fdb;
+--ok:#1f8a4c;--chip:#f0eee9;--code:#15171c;--codeink:#e8e6e1;--shot:#2f6fdb}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111214;--card:#1a1b1f;--ink:#ececef;
+--mute:#9a9aa3;--line:#2b2c31;--acc:#ff7a4d;--acc2:#6aa0ff;--ok:#4cc27f;--chip:#24252a;--code:#0b0c0e;--codeink:#e8e6e1}}
+:root[data-theme="dark"]{--bg:#111214;--card:#1a1b1f;--ink:#ececef;--mute:#9a9aa3;--line:#2b2c31;--acc:#ff7a4d;
+--acc2:#6aa0ff;--ok:#4cc27f;--chip:#24252a;--code:#0b0c0e;--codeink:#e8e6e1}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 "Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:24px 16px 80px}
+a{color:var(--acc2)}h1{font-size:28px;line-height:1.25;margin:6px 0 4px}h2{font-size:20px;margin:40px 0 12px;padding-top:8px;border-top:2px solid var(--ink)}
+h3{font-size:16px;margin:0 0 8px}.mute{color:var(--mute)}.nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;font-size:13px}
+.nav a{padding:4px 10px;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--ink);background:var(--card)}
+.nav a.on{background:var(--ink);color:var(--bg)}
+.rank{display:inline-block;background:var(--acc);color:#fff;font-weight:800;border-radius:6px;padding:2px 10px;font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin:14px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}.stat b{display:block;font-size:20px}
+.stat span{font-size:12px;color:var(--mute)}
+.hero{display:grid;grid-template-columns:300px 1fr;gap:20px;align-items:start}
+.hero video{width:100%;border-radius:12px;background:#000}
+@media (max-width:760px){.hero{grid-template-columns:1fr}.hero video{max-width:320px}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:12px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media (max-width:760px){.grid2{grid-template-columns:1fr}}
+ul{margin:4px 0;padding-left:20px}li{margin:2px 0}
+table{width:100%;border-collapse:collapse;font-size:14px}td,th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{width:150px;color:var(--mute);font-weight:600}
+.tl{position:relative;height:46px;border-radius:8px;overflow:hidden;display:flex;border:1px solid var(--line)}
+.tl div{height:100%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;
+border-right:2px solid var(--bg);min-width:2px;overflow:hidden;white-space:nowrap}
+.tlw{position:relative}.axis{display:flex;justify-content:space-between;font-size:11px;color:var(--mute)}
+svg.env{width:100%;height:70px;display:block}
+.shot{border-left:5px solid var(--shot)}.shothead{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.shothead .n{font-size:22px;font-weight:900;color:var(--shot)}.pill{display:inline-block;background:var(--chip);border-radius:999px;padding:2px 10px;font-size:12px;margin:2px 4px 2px 0}
+.pill.m{background:var(--acc2);color:#fff}.pill.m1{background:var(--acc);color:#fff}
+.strip{display:flex;gap:8px;overflow-x:auto;padding:6px 0 10px}.fr{position:relative;flex:0 0 auto}
+.fr img{height:260px;border-radius:8px;display:block}.fr .t{position:absolute;left:6px;top:6px;background:rgba(0,0,0,.65);color:#fff;font-size:11px;padding:1px 6px;border-radius:4px}
+.fr .g{position:absolute;inset:0;pointer-events:none;display:none;border-radius:8px;
+background:linear-gradient(to right,transparent 33.1%,rgba(255,255,0,.8) 33.3%,transparent 33.5%,transparent 66.4%,rgba(255,255,0,.8) 66.6%,transparent 66.8%),
+linear-gradient(to bottom,transparent 33.1%,rgba(255,255,0,.8) 33.3%,transparent 33.5%,transparent 66.4%,rgba(255,255,0,.8) 66.6%,transparent 66.8%)}
+body.grid .fr .g{display:block}
+.pr{position:relative;margin:8px 0}.pr .lab{font-size:12px;font-weight:700;color:var(--mute);margin-bottom:2px}
+pre{background:var(--code);color:var(--codeink);padding:12px 14px;border-radius:8px;white-space:pre-wrap;word-break:break-word;font:12.5px/1.55 ui-monospace,Consolas,monospace;margin:0;max-height:520px;overflow:auto}
+.cp{position:absolute;right:8px;top:22px;font-size:11px;border:0;border-radius:6px;padding:3px 8px;background:var(--acc);color:#fff;cursor:pointer}
+.swap{background:var(--chip);border-radius:10px;padding:10px 12px;margin-top:10px}
+.tbtn{position:fixed;right:16px;bottom:16px;background:var(--ink);color:var(--bg);border:0;border-radius:999px;padding:10px 14px;font-weight:700;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.contact{width:100%;border-radius:10px}.big{display:inline-block;border:0;border-radius:10px;padding:10px 16px;margin:4px 6px 4px 0;font-weight:800;font-size:15px;cursor:pointer;text-decoration:none;background:var(--acc);color:#fff}.big.b2{background:var(--acc2)}.big.b3{background:var(--ink);color:var(--bg)}textarea.hid{position:absolute;left:-9999px;width:1px;height:1px}.vsec{border-top:6px solid var(--acc);margin-top:60px;padding-top:10px}
+.idx td{vertical-align:middle}.idx th{width:auto}.idx img{height:90px;border-radius:6px}
+@media (max-width:760px){th{width:32%}.idx th,.idx td{width:auto}.idx td:nth-child(n+4),.idx th:nth-child(n+4){display:none}.idx img{height:64px}.idx td{padding:6px 4px}pre{font-size:12px}}
+</style></head><body><div class="wrap">
+<div class="nav"><a href="index.html">목차</a><a class="" href="P01_v04.html">1위</a><a class="" href="P02_v09.html">2위</a><a class="" href="P03_v01.html">3위</a><a class="" href="P04_v08.html">4위</a><a class="" href="P05_v10.html">5위</a><a class="" href="P06_v05.html">6위</a><a class="" href="P07_v06.html">7위</a><a class="" href="P08_v02.html">8위</a><a class="on" href="P09_v03.html">9위</a><a class="" href="P10_v07.html">10위</a></div>
+<span class="rank">좋아요 9위 / 10</span> <span class="mute">· 붙여준 순서 3번째 · Sickman</span>
+<h1>우유 마시는 아기고양이 기사와 휘핏 보디가드</h1><p class="mute">치와와 갱이 시비를 거는데 갑옷 입은 아기고양이는 태연하게 우유만 빨고, 그 뒤에서 근육질 MMA 파이터 휘핏이 걸어 나와 가드를 올리는 12초 &#x27;보디가드 등장&#x27; 개그.</p>
+<div><button class="big" onclick="cpAll(&quot;md_v03&quot;,this)">📋 이 영상 분석 전체 복사</button><a class="big b2" href="zips/v03_사진.zip" download>📦 이 영상 사진 전체 ZIP</a><a class="big b3" href="all.html">📚 10편 한 페이지로 보기</a></div><textarea class="hid" id="md_v03" readonly># [9위] 우유 마시는 아기고양이 기사와 휘핏 보디가드
+치와와 갱이 시비를 거는데 갑옷 입은 아기고양이는 태연하게 우유만 빨고, 그 뒤에서 근육질 MMA 파이터 휘핏이 걸어 나와 가드를 올리는 12초 &#x27;보디가드 등장&#x27; 개그.
+- 원본: https://www.instagram.com/sickmanai/reel/DdKFms6pL1A/
+- 좋아요 75561 · 댓글 448 · 계정 Sickman
+- 캡션: 😹🥛🐶
+
+made with @higgsfield.ai 
+
+inspired by @haroontwins &amp; @georgesstpierre
+
+## 포맷
+- aspect: 9:16
+- resolution: 1080x1920
+- fps: 30
+- duration: 12.03
+- shot_count: 3
+- gen_clip_count: 3
+- avg_shot_len: 4.01
+- orientation_trick_ko: 없음 (회전/POV 없음). 단, 원본은 24fps 생성본을 30fps로 변환(매 5번째 프레임 중복, 3:2 풀다운 패턴이 컷을 넘어 끊김 없이 이어짐 → 24fps 타임라인에서 편집 후 30fps 출력, 또는 12초 단일 멀티샷 생성의 가능성).
+- watermark_ko: 좌상단: 흰색 이탤릭 볼드 &#x27;HIGGSFIELD&#x27; + 그 아래 라임그린 둥근 사각 배지에 검은 글씨 &#x27;SEEDANCE 2.5&#x27; (x≈1~22%, y≈1~5%, 불투명 100%). 우상단: 흰색 스티커형 채널 로고 &#x27;SICK MANAI&#x27; (x≈84~99%, y≈1~5%, 불투명 100%). 전 구간 고정 번인. 리메이크 시 자기 로고로 교체(원본 로고 복제 금지).
+- on_screen_text_ko: 없음 (자막/문구 없음, 워터마크만). 휘핏 반바지의 컬러 로고 글자와 글러브 흰 글씨는 소품 프린트.
+
+## 왜 떡상했나 (바이럴 분석)
+- hook_0_3s_ko: 첫 프레임부터 &#x27;갑옷 입은 아기고양이 + 이족보행 치와와 난투&#x27;라는 말도 안 되는 조합이 동시에 보임. 0.3s에 치와와가 앞발을 휘두르는 액션, 1.9s에 치와와 3마리가 어깨동무하고 카메라로 들이미는 &#x27;위협&#x27; 컷 → &#x27;이 고양이 어떻게 되지?&#x27; 긴장감으로 스와이프 차단.
+- pattern_interrupts_ko: 
+  - 1.90s 와이드→로우앵글 갱 워크 하드컷(구도·거리 급변)
+  - 3.67s 흐린 골목→맑은 판타지 배경 MCU로 밝기/색 점프(평균 휘도 78.7→88.5)
+  - 5.6~6.08s 음악이 거의 사라지는 0.5초 정적(이상함 감지 → 집중)
+  - 6.08s 뒤에서 휘핏이 스윽 등장 + 새 음악 진입
+  - 6.2~7.2s 전경 돌벽 와이프로 공개, 7.0s 베이스 드롭
+- story_arc: 
+  - 
+    - beat: Setup
+    - range: 0.00-1.90
+    - desc_ko: 골목에서 치와와들이 난동, 고양이 기사는 우유만 홀짝 — 대비 설정.
+  - 
+    - beat: Inciting
+    - range: 1.90-3.67
+    - desc_ko: 치와와 3마리가 어깨동무하고 카메라(=고양이 시점)로 다가오며 위협.
+  - 
+    - beat: Escalation
+    - range: 3.67-6.08
+    - desc_ko: 고양이는 끝까지 태연하게 우유를 빨며 카메라를 응시 — &#x27;왜 이렇게 여유롭지?&#x27; 궁금증, 음악은 점점 사라짐.
+  - 
+    - beat: Climax
+    - range: 6.08-7.20
+    - desc_ko: 뒤에서 근육질 휘핏 파이터가 걸어 나오고 카메라가 옆으로 빠지며 전신 공개, 7.0s 드롭.
+  - 
+    - beat: Payoff
+    - range: 7.20-12.03
+    - desc_ko: 휘핏이 스웨거 워크로 다가와 글러브를 부딪치고 파이팅 가드 — &#x27;내 동생 건드린 놈 누구냐&#x27; 보디가드 펀치라인.
+  - 
+    - beat: Loop
+    - range: 12.03-&gt;0.00
+    - desc_ko: 가드 올린 휘핏 → 첫 프레임 치와와 난투로 이어져 &#x27;이제 쟤네 끝났다&#x27;는 느낌으로 재시청 유도.
+- retention_devices_ko: 
+  - 고양이의 무표정 태연함(데드팬)이 &#x27;뭔가 믿는 구석이 있다&#x27;는 복선 역할
+  - 12초 초단편 + 3컷만으로 반전까지 도달 → 완주율 높음
+  - 음악 페이드아웃→정적→드롭 구조로 청각적 서스펜스
+  - 공개 순간 카메라 무브(전경 와이프)가 &#x27;짜잔&#x27; 리빌 효과
+  - 휘핏의 이상하게 긴 목·무표정·사람 몸 비율 = 언캐니 웃음 포인트로 끝까지 보게 함
+- why_viral_ko: 
+  - &#x27;작고 귀여운 애 건드리면 큰 형 나온다&#x27; 보편적 보디가드/형 밈 구조
+  - 실존 MMA 파이터 밈(캡션 &#x27;inspired by @georgesstpierre&#x27;, 추정: GSP 워크인/휘핏 닮은꼴 밈)을 동물로 치환
+  - 갑옷+분홍 리본+우유 빨대 = 극단적 귀여움 vs 근육질 휘핏 = 극단적 웃김의 대비
+  - 판타지 세계관 시리즈물(고양이 기사 캐릭터 재등장)로 팬층 누적
+  - 자막 없이 이해 가능 → 언어 무관 글로벌 확산
+- comment_bait_ko: &#x27;휘핏 목 왜 이렇게 길어ㅋㅋ&#x27;, &#x27;치와와들 이제 끝났다&#x27;, &#x27;GSP 닮았다&#x27; 같은 닮은꼴/다음 편 요구 댓글 유도. 결말에서 싸움을 보여주지 않고 끊어 &#x27;2편 만들어줘&#x27; 요청을 부름(댓글 448).
+- loop_design_ko: 완전한 시각 루프는 아님(첫/끝 프레임 다름). 대신 끝 = 싸움 직전 가드, 처음 = 치와와 난동으로 &#x27;서사적 루프&#x27;. 오디오가 11.80s에 먼저 끊겨 반복 재생 시 첫 드론이 바로 치고 들어옴.
+- editing_terms: 
+  - 
+    - term: Hard cut
+    - ko: 즉시 전환 컷
+    - where: 1.90s, 3.67s
+  - 
+    - term: Foreground wipe (natural wipe)
+    - ko: 전경 사물이 화면을 쓸고 지나가며 장면을 바꾸는 효과
+    - where: 6.20-7.20s (돌벽/고양이가 오른쪽으로 빠짐)
+  - 
+    - term: Lateral truck + pan
+    - ko: 카메라 옆 이동 + 반대 방향 패닝
+    - where: 6.10-7.20s
+  - 
+    - term: Rack focus
+    - ko: 초점 이동(고양이→휘핏)
+    - where: 6.30-7.00s
+  - 
+    - term: Slow dolly-in
+    - ko: 천천히 다가가기
+    - where: 3.67-6.10s
+  - 
+    - term: Reveal
+    - ko: 숨겨진 인물 공개
+    - where: 6.08-7.20s
+  - 
+    - term: Beat drop sync
+    - ko: 음악 드롭에 공개 타이밍 맞추기
+    - where: 7.00s
+  - 
+    - term: Dead air / sound vacuum
+    - ko: 직전 정적
+    - where: 5.60-6.08s
+  - 
+    - term: Walk-in to camera
+    - ko: 인물이 카메라로 걸어오며 FS→MFS
+    - where: 7.20-12.03s
+  - 
+    - term: Deadpan
+    - ko: 무표정 개그
+    - where: 고양이 전 구간, 휘핏
+
+## 스타일 바이블
+- character_sheet_en: HERO: a tiny fluffy 8-week-old cream-beige British Longhair kitten with long soft light-golden fur, round flat face, huge round glossy dark blue-black eyes, small pink nose, long white whiskers, small rounded ears with fur tufts, a small pink satin bow on its left ear, standing upright on hind legs like a person, about the height of a chihuahua. ARMOR: polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground. PROP: holding with both paws a tall clear drinking glass filled with white milk, sipping through a pink-and-white striped bendy straw. ENEMIES: three adult smooth-coat chocolate-and-tan chihuahuas (dark chocolate-brown coats with tan eyebrow dots, tan muzzles, tan chests and tan lower legs, pink bare bellies), huge upright bat ears, bulging glossy dark eyes, walking and standing upright on their hind legs like rowdy street thugs. BODYGUARD: a tall anthropomorphic white whippet standing upright like a human MMA fighter, same height as an adult man: narrow long whippet head, white short-haired coat with a grey-brindle patch over its left eye and left ear, soft folded rose ears pale grey with pink insides, black nose, calm deadpan brown eyes, long thin neck, lean shredded human-like torso with visible abs and pecs covered in short white dog fur, long skinny dog arms, bare dog hind legs with white paws, wearing black Muay Thai fight shorts covered in a colorful gummy-candy print with a big multicolor bubble-letter logo on the front and a black waistband, and black open-finger MMA gloves with small white lettering.
+- wardrobe_props_en: Kitten: engraved silver plate armor, chainmail skirt, fleur-de-lis tasset, brown leather sword belt with brass buckle, short sword with brass cross-guard in brown scabbard, ivory cape, small pink satin bow on left ear, tall clear glass of white milk with pink-and-white striped bendy straw. Whippet: black Muay Thai shorts with colorful gummy-candy print and multicolor bubble-letter logo, black waistband, black open-finger MMA gloves with small white lettering, barefoot paws. Chihuahuas: no clothing.
+- environment_en: Shots 1-2: a gloomy medieval back alley - weathered dark wooden double door, heavy timber overhang with carved brackets, small wooden wall box, rough grey stone walls, wooden plank gates, mossy roofs, dark cobblestones, grass tufts. Shot 3: the same kind of cobblestone lane but opening onto a bright high-fantasy kingdom - gothic spired citadel on a cliff with rose windows, a tall waterfall with mist, floating islands with round trees, a river with rocks, green meadows, thatched cottages, a half-timbered medieval house with stone steps and a barrel of red apples, clear blue sky with white cumulus clouds.
+- lighting_en: Shots 1-2: flat overcast diffuse daylight, no hard shadows, soft top light. Shot 3: bright late-morning sun, soft shade on the kitten from the stone wall, sunlit fantasy background, gentle haze/mist near the waterfall.
+- color_grade_en: Shots 1-2: muted, low-saturation cool-neutral grade, grey-brown palette, slightly low exposure (mean luma ~64-79/255). Shot 3: brighter (mean luma ~88), saturated sky blue and teal-green foliage, clean whites on the whippet, mild contrast, no heavy LUT, natural skin/fur tones.
+- camera_lens_en: Photoreal cinema camera look, 24-35mm equivalent lenses, handheld-stabilized feel with micro-drift, animal-eye-level camera height (35-70 cm), shallow depth of field on close shots (f/2-2.8), deep focus on the wide shot, 24fps motion cadence.
+- realism_style_en: Hyper-real photographic AI video (Higgsfield / Seedance 2.5 look): real fur strands, real metal reflections, anthropomorphic animals rendered as if they physically exist, no cartoon stylization, comedic deadpan performance.
+- negative_prompt_en: extra limbs, extra heads, extra dogs, merged bodies, deformed paws, human hands, human face, cartoon, 3D render look, plastic fur, CGI toy look, anime, blurry face, text, watermark, logo, subtitles, frame borders, letterbox, split screen, morphing, flicker, jitter, costume changes between shots, missing bow, missing straw, empty glass, spilled milk
+
+## 컷별 완전 분해 (3컷)
+### SHOT 1 (0.0s → 1.9s, 1.9초)
+- n: 1
+- start: 0.0
+- end: 1.9
+- dur: 1.9
+- gen_clip: 1
+- shot_size: Wide / full shot (WS-FS) of all 4 characters
+- angle: eye-level of the animals (camera ~70 cm high), very slightly high, looking a touch down at the cobblestones
+- lens_mm: 28-32mm equiv, deep focus f/5.6-8 (door and cobbles all sharp)
+- camera_move_ko: 거의 고정(락오프). 아주 미세한 핸드헬드 흔들림(0.4px/f)만 있음. 줌/팬 없음.
+- composition_ko: 고양이 기사: 화면 왼쪽 x≈12%, 중심 y≈52%, 키 ≈42%(귀 y≈30%~발 y≈73%), 왼쪽 1/3선 바깥쪽. 치와와 3마리: x 45~98%, y 37~98%로 오른쪽 절반 하단 2/3를 꽉 채움, 앞쪽 개 키 ≈55%. 배경 나무 이중문+처마 빔이 상단 0~60%를 채움, 문 오른쪽 벽에 작은 나무상자(x60~90%, y29~38%). 지평선 없음(벽이 막음), 바닥 자갈이 하단 35%. 헤드룸은 고양이 기준 30%로 넉넉.
+- subject_action_ko: 치와와 두 마리가 뒷다리로 서서 서로 붙잡고 난투(앞쪽 옅은 탄색 개가 입을 벌리고 으르렁대며 오른쪽 앞발을 크게 휘두름, 뒤쪽 개가 그를 껴안아 말림), 세 번째 개는 뒤에서 구경. 고양이 기사는 벽에 붙어 선 채 우유잔을 두 손으로 들고 빨대로 무심하게 마시며 곁눈질로 개들을 봄 — 전혀 동요 없음.
+- background_ko: 중세 뒷골목: 풍화된 짙은 회갈색 나무 이중문, 굵은 목재 처마와 까치발(브래킷), 오른쪽 거친 돌벽, 문턱 아래 풀 몇 포기, 젖은 듯 어두운 자갈 바닥. 흐린 날 확산광.
+- on_screen_text_ko: 없음 (워터마크만)
+- transition_out: 
+  - type: Hard cut
+  - ko: 1.90s(프레임 57)에서 하드컷. 음악은 끊김 없이 이어짐(드론 페이드 진행 중). 1프레임 이내 전환, 효과 없음.
+  - ffmpeg: concat filter (no xfade): [c1][c2][c3]concat=n=3:v=1:a=0
+  - hyperframes: clip s01 data-start=0 data-duration=1.9, clip s02 data-start=1.9 on the same track, no transition element
+- sound: 
+  - bgm_ko: 트랙 A(어두운 저역 드론 + 8분음표 하이햇 틱, 약 111BPM) 시작 0.1s, 0.3s에 피크(-9.6dB) 후 긴 페이드아웃 진행 중. (추정)
+  - sfx: 
+    - 
+      - t: 0.3
+      - sfx_en: small dogs snarling and yapping scuffle (very low, optional)
+      - ko: 치와와 으르렁/깽깽 난투 (추정, 원본에선 거의 안 들림)
+- image_prompt_en: Vertical 9:16 photorealistic cinematic still, wide full shot at animal eye level, 30mm lens, deep focus. A narrow medieval back alley in front of a weathered dark grey-brown wooden double door under a heavy timber overhang with carved wooden brackets, a small open wooden box mounted on the wall right of the door, rough grey stone wall on the right edge, tufts of grass at the base of the door, dark wet-looking cobblestones filling the bottom third. On the left edge (x 12%, standing against the door, 42% of frame height): a tiny fluffy 8-week-old cream-beige British Longhair kitten with long soft light-golden fur, round flat face, huge round glossy dark blue-black eyes, small pink nose, long white whiskers, small rounded ears with fur tufts, a small pink satin bow on its left ear, standing upright on hind legs like a person, about the height of a chihuahua, wearing polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground, holding with both paws a tall clear drinking glass filled with white milk, sipping through a pink-and-white striped bendy straw, glancing sideways at the dogs with a calm unimpressed face. On the right half: three adult smooth-coat chocolate-and-tan chihuahuas (dark chocolate-brown coats with tan eyebrow dots, tan muzzles, tan chests and tan lower legs, pink bare bellies), huge upright bat ears, bulging glossy dark eyes, walking and standing upright on their hind legs like rowdy street thugs; two of them are grappling in a clumsy brawl, the front lighter-tan one snarling with mouth open and swinging its right foreleg wildly while the one behind holds it in a bear hug, the third stands behind watching. Overcast soft diffuse daylight, muted desaturated cool-neutral colors, gritty realistic fur detail, real photography look, no watermark, no logo, no text, no subtitles.
+- video_prompt_en: Static locked-off camera with only very subtle handheld micro-drift, no zoom, no pan. The two chihuahuas on the right keep scuffling upright on their hind legs: the front one flails and swings its foreleg, snaps and snarls, the other wraps its forelegs around it and pulls it back, they stumble half a step; the third chihuahua bobs behind them. The armored kitten on the left stays completely calm, keeps sipping milk through the striped straw, the milk level barely drops, eyes flick toward the dogs once. Realistic weight and fur physics, 24fps cinematic motion. Do NOT change: the kitten&#x27;s armor, cape, pink bow, glass and straw; the door, box and cobblestones; lighting. No new characters enter.
+- end_frame_prompt_en: 
+- negative_prompt_en: extra limbs, extra heads, extra dogs, merged bodies, deformed paws, human hands, human face, cartoon, 3D render look, plastic fur, CGI toy look, anime, blurry face, text, watermark, logo, subtitles, frame borders, letterbox, split screen, morphing, flicker, jitter, costume changes between shots, missing bow, missing straw, empty glass, spilled milk
+- recommended_models: 
+  - 
+    - model: seedance-2-5
+    - role: 1st choice
+    - why_ko: 원본 워터마크가 &#x27;Higgsfield · Seedance 2.5&#x27; — 동일 모델이라 질감/모션 톤 재현이 가장 정확. 다수 캐릭터 난투도 안정적.
+  - 
+    - model: kling-v3
+    - role: alt
+    - why_ko: 이족보행 동물끼리 몸싸움 같은 물리/접촉 모션이 강함, 캐릭터 붕괴 적음.
+  - 
+    - model: veo-3-1
+    - role: alt (native audio)
+    - why_ko: 개 으르렁 소리까지 네이티브 오디오로 뽑고 싶을 때.
+- gen_settings_ko: 5초 image2video로 생성 후 앞 1.90초만 사용(0.0~1.9). 1080x1920, 24fps 생성→30fps 편집. 시작 프레임은 nano-banana-pro 로 캐릭터 시트 레퍼런스 넣어 생성. 시드 고정해 2~3회 뽑고 고양이 얼굴이 가장 안정적인 컷 선택.
+- animal_swap: 
+  - animal_en: baby golden hamster
+  - image_prompt_en: Vertical 9:16 photorealistic cinematic still, wide full shot at animal eye level, 30mm lens, deep focus. Same medieval back alley: weathered dark wooden double door under a heavy timber overhang, small wooden box on the wall, stone wall right, grass tufts, dark cobblestones bottom third. On the left edge (x 12%, 42% of frame height): a tiny fluffy baby golden hamster (Syrian hamster) with golden-orange and cream fur, white belly and white cheek patches, chubby puffed cheeks, huge round glossy black eyes, small pink nose, tiny rounded pink-lined ears, a small pink satin bow on its left ear, standing upright on its hind legs like a person, fantasy-scaled to the height of a chihuahua, wearing polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground, holding with both paws a tall clear drinking glass filled with white milk, sipping through a pink-and-white striped bendy straw, cheeks puffed, glancing sideways at the dogs with a calm unimpressed face. On the right half: three adult smooth-coat chocolate-and-tan chihuahuas (dark chocolate-brown coats with tan eyebrow dots, tan muzzles, tan chests and tan lower legs, pink bare bellies), huge upright bat ears, bulging glossy dark eyes, walking and standing upright on their hind legs like rowdy street thugs; two grapple in a clumsy brawl, the front one snarling and swinging a foreleg, the one behind holding it in a bear hug, the third watching. Overcast soft daylight, muted desaturated colors, realistic fur, no watermark, no logo, no text, no subtitles.
+  - video_prompt_en: Static camera with subtle handheld drift. The chihuahuas scuffle upright, snarling and flailing. The armored hamster stays completely calm, sipping milk through the striped straw, cheeks puffing in and out with each sip, tiny whiskers twitching, eyes flick toward the dogs once. Do NOT change the hamster&#x27;s armor, bow, glass or the set.
+  - notes_ko: 햄스터는 &#x27;치와와와 같은 키&#x27;로 판타지 스케일 고정해야 원본 구도(고양이 42% 높이)가 유지됨. 볼 빵빵하게 빨대 빠는 모션이 햄스터판 핵심 귀여움 포인트.
+
+### SHOT 2 (1.9s → 3.67s, 1.77초)
+- n: 2
+- start: 1.9
+- end: 3.67
+- dur: 1.77
+- gen_clip: 2
+- shot_size: Medium-full group shot (MFS), dogs cropped at the lower legs
+- angle: low angle, camera ~35 cm high tilted slightly up toward the dogs&#x27; faces
+- lens_mm: 24mm equiv, f/2.8 - background walls softly defocused
+- camera_move_ko: 핸드헬드 느린 트럭백(뒤로 빠짐) — 개들이 다가오는 속도와 비슷해 크기가 거의 일정. 걸음마다 상하 바운스(흐름 1.17px/f).
+- composition_ko: 치와와 3마리가 화면 폭 100%를 채움. 가운데 개: 얼굴 x≈50%, y≈50%(정중앙), 이빨 드러낸 씩 웃음. 왼쪽 개: 얼굴 x≈20%, y≈40%. 오른쪽 뒤 개(가장 큼): 얼굴 x≈80%, y≈30%. 머리 꼭대기 y≈22~30%, 몸은 하단에서 잘림. 하늘은 상단 0~10%만(흐린 회색), 담장 수평 상단선 y≈25%. 세 머리가 V자 삼각형 배치.
+- subject_action_ko: 세 마리가 서로 어깨동무(앞발로 목/어깨 감싸기)하고 뒷다리로 나란히 카메라 쪽으로 &#x27;갱 워크&#x27;. 몸이 좌우로 흔들리고, 가운데 개는 이빨을 드러내며 비열하게 웃고, 양옆은 건들건들 째려봄. 위협적인 동네 불량배 연출.
+- background_ko: 오래된 돌담과 비바람에 바랜 나무 판자 대문, 뒤로 이끼 낀 돌 헛간 지붕과 나무, 흐린 하늘. 얕은 심도로 흐릿. 샷1과 같은 골목이지만 반대 방향.
+- on_screen_text_ko: 없음
+- transition_out: 
+  - type: Hard cut
+  - ko: 3.67s(프레임 110)에서 하드컷 → 고양이 MCU. 밝기가 78.7→88.5로 한 단계 밝아지고 하늘이 흐림→맑음으로 바뀌는 &#x27;톤 점프&#x27;가 시선 리셋 역할.
+  - ffmpeg: concat (no xfade) at 3.67s
+  - hyperframes: clip s02 data-start=1.9 data-duration=1.77, s03 data-start=3.67, no transition
+- sound: 
+  - bgm_ko: 트랙 A 계속 페이드아웃 중(-18~-25dB). 하이햇 틱만 또렷. (추정)
+  - sfx: 
+    - 
+      - t: 2.0
+      - sfx_en: small paws pattering on cobblestones, low giggly dog huffs (optional, very low)
+      - ko: 발소리/킥킥대는 숨소리 (추정, 선택)
+- image_prompt_en: Vertical 9:16 photorealistic cinematic still, low-angle medium-full group shot from 35 cm off the ground, 24mm lens, f/2.8 shallow depth of field. three adult smooth-coat chocolate-and-tan chihuahuas (dark chocolate-brown coats with tan eyebrow dots, tan muzzles, tan chests and tan lower legs, pink bare bellies), huge upright bat ears, bulging glossy dark eyes, walking and standing upright on their hind legs like rowdy street thugs, walking toward the camera side by side with their forelegs wrapped around each other&#x27;s shoulders like a street gang: the middle one in the exact center of the frame (face at x 50%, y 50%) grinning smugly and baring small teeth, the left one (face at x 20%, y 40%) smirking, the right one standing slightly behind and taller (face at x 80%, y 30%) staring down the lens. Their bodies fill the full frame width and are cropped at the lower legs. Background softly blurred: an old grey stone wall and a weathered wooden plank gate, moss-covered stone shed roofs and trees, overcast grey sky in the top 10%. Cold overcast diffuse light, muted desaturated palette, realistic fur, no watermark, no logo, no text, no subtitles.
+- video_prompt_en: Handheld camera slowly trucks backward at the same speed the dogs advance, so their size stays almost constant, with a gentle up-down bounce on every step. The three chihuahuas swagger forward in unison on their hind legs, arms locked over each other&#x27;s shoulders, bodies rocking left-right, the middle one grins wider and bares its teeth, the others stare into the lens menacingly. 24fps, realistic weight. Do NOT change: number of dogs (exactly three), their chocolate-and-tan coat pattern, the background, overcast light.
+- end_frame_prompt_en: 
+- negative_prompt_en: extra limbs, extra heads, extra dogs, merged bodies, deformed paws, human hands, human face, cartoon, 3D render look, plastic fur, CGI toy look, anime, blurry face, text, watermark, logo, subtitles, frame borders, letterbox, split screen, morphing, flicker, jitter, costume changes between shots, missing bow, missing straw, empty glass, spilled milk, four dogs, two dogs, dogs on all fours
+- recommended_models: 
+  - 
+    - model: seedance-2-5
+    - role: 1st choice
+    - why_ko: 원본 동일 모델. 여러 마리 동시 보행/팔짱 동작 일관성.
+  - 
+    - model: kling-v3
+    - role: alt
+    - why_ko: 로우앵글 트럭백 + 이족 보행 리듬이 자연스러움.
+  - 
+    - model: minimax-h3
+    - role: alt
+    - why_ko: 빠르고 표정(이빨 드러낸 웃음) 연기가 과장되게 잘 나옴.
+- gen_settings_ko: 5초 image2video, 앞 1.77초만 사용. 마릿수가 바뀌는 사고가 잦으니 프롬프트에 &#x27;exactly three&#x27; 반복, 네거티브에 &#x27;four dogs&#x27;. 샷1과 같은 치와와 레퍼런스 이미지 사용.
+- animal_swap: 
+  - animal_en: baby golden hamster
+  - image_prompt_en: Same as original shot 2 prompt (the chihuahua gang is unchanged in the hamster remake).
+  - video_prompt_en: Same as original shot 2 video prompt.
+  - notes_ko: 이 샷은 적(치와와 갱) 소개라 동물 교체 불필요. 햄스터 버전에서도 그대로 재사용 가능(원본보다 체급 차이가 커져 더 웃김).
+
+### SHOT 3 (3.67s → 12.03s, 8.36초)
+- n: 3
+- start: 3.67
+- end: 12.03
+- dur: 8.36
+- gen_clip: 3
+- shot_size: Starts MCU on kitten (3.67-6.2) -&gt; foreground-wipe reveal (6.2-7.2) -&gt; full shot of whippet (7.2) walking into medium-full / cowboy shot (9-12)
+- angle: eye-level of the kitten at start (~60 cm), stays at that height so the tall whippet is seen from a slight low angle
+- lens_mm: 35mm equiv; start f/2 with kitten sharp and background soft, rack focus to the whippet during the reveal, then f/4
+- camera_move_ko: ① 3.67~6.1: 고양이 쪽으로 느린 돌리 인(약 15% 확대). ② 6.1~7.2: 카메라가 왼쪽으로 트럭(옆으로 이동)하면서 살짝 오른쪽 패닝 — 전경의 고양이와 돌벽 모서리가 화면 오른쪽으로 쓸려 나가는 &#x27;전경 와이프&#x27;, 동시에 초점이 고양이→휘핏으로 랙포커스. ③ 7.2~12.0: 카메라는 거의 고정/아주 느린 후진, 휘핏이 카메라로 걸어와 FS→MFS로 커짐(키 73%→화면 밖). 컷 없음(원테이크).
+- composition_ko: ① 고양이 MCU: 얼굴 x≈42%, y≈28%, 몸이 무릎에서 잘려 화면 높이 100% 채움. 오른쪽 25~100%에 거친 돌벽(고양이가 등을 기댐), 왼쪽 0~25%로 판타지 계곡/첨탑/초가집/자갈길이 보임. 6.0s엔 얼굴이 화면 오른쪽으로 커지며 x≈65%. ② 6.17s 휘핏이 고양이 왼쪽 뒤(x≈35%, y≈45%)에서 걸어 나옴. ③ 7.0s 휘핏 중앙 x≈50%, 귀 y≈24%~발 y≈98%(키 73%), 오른쪽 x≈92~100%에 돌기둥 가장자리 잔상. 7.33s부터 오른쪽 x≈82~100%에 목조 반목구조 집+사과 통+돌계단. 배경 상단 0~35%에 판타지 성채 첨탑·폭포·떠있는 섬(수평선/능선 y≈30~45%). ④ 9.0s 휘핏 머리 y≈15~33%, 허벅지에서 잘림. ⑤ 11.96s 파이팅 가드: 머리 x≈47%, y≈36%, 주먹 y≈55~60%, 3분할 중앙 수직선 위.
+- subject_action_ko: 고양이 기사가 돌벽에 기대 우유를 계속 빨대로 마심(눈을 카메라 쪽으로, 천천히 깜빡). 6.1s 뒤편에서 근육질 인간형 휘핏이 무표정으로 걸어 나오고, 카메라가 옆으로 빠지며 전신 공개. 휘핏은 어깨를 굴리며 스웨거 있게 카메라 쪽으로 성큼성큼 걸어옴(팔 흔들기, 장갑 낀 주먹), 10.0~10.3s 가슴 앞에서 글러브를 맞부딪치고, 11.3~12.0s 무릎 굽혀 스텝 밟으며 양 주먹을 올린 파이팅 가드 자세로 정면 응시 — &#x27;보디가드 등장&#x27; 펀치라인.
+- background_ko: 샷1/2의 흐린 골목과 달리 맑고 쨍한 판타지 왕국: 푸른 하늘+흰 뭉게구름, 절벽 위 고딕 첨탑 성채(장미창), 폭포와 물안개, 떠 있는 나무 섬, 초록 언덕과 초가집, 개울, 곡선 자갈길. 오른쪽 목조 반목구조(하프팀버) 중세 집, 사과가 담긴 나무통, 돌계단.
+- on_screen_text_ko: 없음
+- transition_out: 
+  - type: End (hard stop, no loop dissolve)
+  - ko: 12.03s 영상 종료. 오디오는 11.80s에서 먼저 뚝 끊김(0.23s 무음 꼬리). 마지막 프레임(휘핏 가드)→첫 프레임(치와와 난투)로 자연스럽게 &#x27;이제 너네 다 죽었다&#x27; 루프 연결.
+  - ffmpeg: trim end at 12.03; audio atrim=end=11.80 with 30 ms afade out
+  - hyperframes: composition duration 12.03s; audio clip ends 11.80s
+- sound: 
+  - bgm_ko: 3.67~5.7s 트랙 A가 계속 페이드되어 -38dB까지 사라짐 → 5.6~6.08s 거의 무음(-45~-52dB, 긴장된 정적) → 6.08s 휘핏 첫 등장과 동시에 트랙 B 진입(비브라토 있는 멜로디 리드/보컬풍 라인) → 7.0s 휘핏 전신 공개 순간 808 킥/베이스 드롭(-10dB), 이후 약 0.54s 간격(≈111BPM) 킥이 휘핏 걸음과 대충 맞음 → 11.80s 컷. (스펙트로그램 기반 추정)
+  - sfx: 
+    - 
+      - t: 6.08
+      - sfx_en: music entry (track B melodic lead)
+      - ko: 트랙 B 진입 = 휘핏 등장 신호
+    - 
+      - t: 7.0
+      - sfx_en: 808 bass drop / heavy kick
+      - ko: 드롭 = 전신 공개
+    - 
+      - t: 10.1
+      - sfx_en: leather MMA gloves bump (optional)
+      - ko: 글러브 맞부딪치는 소리(선택, 원본엔 불명확)
+- image_prompt_en: Vertical 9:16 photorealistic cinematic still, medium close-up at kitten eye level, 35mm lens, f/2 shallow depth of field. a tiny fluffy 8-week-old cream-beige British Longhair kitten with long soft light-golden fur, round flat face, huge round glossy dark blue-black eyes, small pink nose, long white whiskers, small rounded ears with fur tufts, a small pink satin bow on its left ear, standing upright on hind legs like a person, about the height of a chihuahua, wearing polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground, holding with both paws a tall clear drinking glass filled with white milk, sipping through a pink-and-white striped bendy straw, leaning its back and right shoulder against a massive rough grey stone wall that fills the right 70% of the frame; the kitten&#x27;s face at x 42%, y 28%, looking into the lens with sleepy calm eyes, body cropped at the knees. Through the left 25% of the frame, softly out of focus: a sunny fantasy valley with a curving cobblestone lane, thatched cottages, green hills and tall slender gothic spires under a clear blue sky. Bright natural sunlight with soft shade from the wall, crisp fur detail, gentle warm skin tones on the paw pads, slightly saturated blue-teal-green background, real photography look, no watermark, no logo, no text, no subtitles.
+- video_prompt_en: One continuous 8.5-second take, no cuts. 0-2.4s: slow dolly-in on the armored kitten leaning on the stone wall while it keeps sipping milk through the striped straw and blinks slowly at the camera. 2.4s: from behind the kitten, on the left in the background, a tall anthropomorphic white whippet standing upright like a human MMA fighter, same height as an adult man: narrow long whippet head, white short-haired coat with a grey-brindle patch over its left eye and left ear, soft folded rose ears pale grey with pink insides, black nose, calm deadpan brown eyes, long thin neck, lean shredded human-like torso with visible abs and pecs covered in short white dog fur, long skinny dog arms, bare dog hind legs with white paws, wearing black Muay Thai fight shorts covered in a colorful gummy-candy print with a big multicolor bubble-letter logo on the front and a black waistband, and black open-finger MMA gloves with small white lettering steps out onto the cobblestone lane. 2.5-3.5s: the camera trucks smoothly to the left and pans slightly right, so the kitten and the edge of the stone wall slide out of frame to the right as an out-of-focus foreground wipe, focus racks from the kitten to the whippet, revealing a bright fantasy kingdom behind it (gothic spires on cliffs, a waterfall, floating tree islands, a river) and a half-timbered medieval house with a barrel of apples and stone steps on the right. 3.5-8.5s: the camera settles almost static at the same height; the whippet walks straight toward the camera with a slow confident fighter swagger, shoulders rolling, gloved fists swinging, deadpan stare into the lens; at 6.4s it taps its two gloves together in front of its chest; at 7.6s it bends its knees, starts bouncing on its feet and raises both fists into a boxing guard in front of its chin, ending in a medium-full shot cropped at the thighs. Realistic body weight, natural fur and muscle motion, 24fps. Do NOT change: the whippet&#x27;s white coat and grey eye patch, the candy-print shorts and black gloves, the kitten&#x27;s armor and pink bow, time of day.
+- end_frame_prompt_en: Vertical 9:16 photorealistic medium-full shot, 35mm, slight low angle from 60 cm: a tall anthropomorphic white whippet standing upright like a human MMA fighter, same height as an adult man: narrow long whippet head, white short-haired coat with a grey-brindle patch over its left eye and left ear, soft folded rose ears pale grey with pink insides, black nose, calm deadpan brown eyes, long thin neck, lean shredded human-like torso with visible abs and pecs covered in short white dog fur, long skinny dog arms, bare dog hind legs with white paws, wearing black Muay Thai fight shorts covered in a colorful gummy-candy print with a big multicolor bubble-letter logo on the front and a black waistband, and black open-finger MMA gloves with small white lettering, standing in a boxing guard with both gloved fists raised in front of its chest and chin, knees bent, head at x 47%, y 36%, fists at y 57%, cropped at the thighs, on a cobblestone lane in a sunny fantasy kingdom with gothic spires on a cliff, a waterfall and floating tree islands behind, a half-timbered medieval house with a barrel of apples and stone steps on the right edge, clear blue sky with white clouds, no watermark, no logo, no text, no subtitles.
+- negative_prompt_en: extra limbs, extra heads, extra dogs, merged bodies, deformed paws, human hands, human face, cartoon, 3D render look, plastic fur, CGI toy look, anime, blurry face, text, watermark, logo, subtitles, frame borders, letterbox, split screen, morphing, flicker, jitter, costume changes between shots, missing bow, missing straw, empty glass, spilled milk, whippet on all fours, human skin, human face on the dog, cuts, scene change
+- recommended_models: 
+  - 
+    - model: seedance-2-5
+    - role: 1st choice
+    - why_ko: 원본 모델. 10초 원테이크 안에서 &#x27;돌리인→전경 와이프→캐릭터 워크인&#x27; 같은 복합 카메라 연출을 한 번에 소화.
+  - 
+    - model: kling-v3
+    - role: alt (first-last frame)
+    - why_ko: 시작=고양이 MCU, 끝=휘핏 가드 프레임을 고정하는 first-last frame 제어로 결말 포즈를 확실히 맞출 수 있음.
+  - 
+    - model: kling-v3-omni
+    - role: alt (reference)
+    - why_ko: 고양이+휘핏 두 캐릭터 레퍼런스 이미지를 동시에 넣어 정체성 유지(ref2video).
+- gen_settings_ko: 10초 image2video(또는 first-last frame) 1회 생성 후 앞 8.36초 사용. 휘핏 등장 타이밍이 2.4s(편집 기준 6.1s)에 오도록 프롬프트에 초 단위 명시. 실패 시 대안: 3a(고양이 푸시인+와이프, 3.3s) / 3b(휘핏 워크인, 5s)로 나눠 3a 마지막 프레임을 3b 첫 프레임으로 체인. 결말 가드 포즈는 end frame 이미지로 고정 권장.
+- animal_swap: 
+  - animal_en: baby golden hamster
+  - image_prompt_en: Vertical 9:16 photorealistic cinematic still, medium close-up at eye level, 35mm lens, f/2. a tiny fluffy baby golden hamster (Syrian hamster) with golden-orange and cream fur, white belly and white cheek patches, chubby puffed cheeks, huge round glossy black eyes, small pink nose, tiny rounded pink-lined ears, a small pink satin bow on its left ear, standing upright on its hind legs like a person, fantasy-scaled to the height of a chihuahua, wearing polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground, holding with both paws a tall clear drinking glass filled with white milk, sipping through a pink-and-white striped bendy straw, cheeks puffed, leaning its back against a massive rough grey stone wall filling the right 70% of the frame; face at x 42%, y 28%, looking into the lens with sleepy calm eyes, body cropped at the knees. Left 25% of frame softly out of focus: sunny fantasy valley, curving cobblestone lane, thatched cottages, gothic spires, clear blue sky. Bright natural sunlight, crisp fur detail, no watermark, no logo, no text, no subtitles.
+  - video_prompt_en: One continuous take. Slow dolly-in on the armored hamster sipping milk, cheeks puffing, slow blink. At 2.4s a tall anthropomorphic white whippet standing upright like a human MMA fighter, same height as an adult man: narrow long whippet head, white short-haired coat with a grey-brindle patch over its left eye and left ear, soft folded rose ears pale grey with pink insides, black nose, calm deadpan brown eyes, long thin neck, lean shredded human-like torso with visible abs and pecs covered in short white dog fur, long skinny dog arms, bare dog hind legs with white paws, wearing black Muay Thai fight shorts covered in a colorful gummy-candy print with a big multicolor bubble-letter logo on the front and a black waistband, and black open-finger MMA gloves with small white lettering steps out from behind it in the background. The camera trucks left so the hamster and the stone wall edge slide out of frame right as a blurred foreground wipe, focus racks to the whippet in a bright fantasy kingdom. The whippet walks toward the camera with a fighter swagger, taps its gloves together at 6.4s and raises a boxing guard at 7.6s, ending in a medium-full shot. Do NOT change the hamster&#x27;s armor and bow, the whippet&#x27;s outfit, or time of day.
+  - notes_ko: 보디가드(휘핏)는 원본 그대로 두는 게 가장 안전(캡션 &#x27;인스파이어드 by GSP&#x27; 밈 구조 유지). 햄스터 버전 대안 보디가드: 근육질 인간형 카피바라/그레이하운드.
+
+## 사운드 (BGM·효과음)
+- bgm_ko: 2개 트랙 편집(추정). 트랙 A(0.1~5.7s): 어두운 서스펜스 인트로 — 40~60Hz 서브 드론 + 110/220Hz 패드 + 8분음표 하이햇/클록 틱(약 111BPM), 0.3s 피크 후 약 -7dB/s로 긴 페이드아웃. 5.6~6.08s 거의 무음. 트랙 B(6.08~11.80s): 비브라토 있는 멜로디 리드(보컬 또는 신스/목관풍, 약 570Hz·1.5kHz 대역 흔들리는 선) 인트로 → 7.0s 808 킥+서브베이스 드롭, 0.54s 간격(약 111BPM) 하드한 워크인/폰크·드릴풍 비트. 11.80s에서 페이드 없이 컷.
+- bpm_est: 111
+- bgm_timeline_ko: 
+  - 0.00-0.10s: 무음
+  - 0.10-0.30s: 트랙 A 진입, 0.3s 피크 -9.6dB
+  - 0.30-5.60s: 드론+틱이 -10dB→-38dB로 서서히 페이드
+  - 5.60-6.08s: 정적(-45~-52dB)
+  - 6.08-7.00s: 트랙 B 멜로디 인트로(-18~-20dB) = 휘핏 등장
+  - 7.00s: 드롭(-10dB 킥) = 휘핏 전신 공개
+  - 7.00-11.80s: 약 0.54s마다 킥(-10~-15dB), 멜로디 계속
+  - 11.80s: 하드 컷, 11.80-12.03s 무음
+- music_prompt_en: Two-part 12-second cue. Part A (6 s): dark minimal suspense intro, deep sub-bass drone around 45 Hz with a low synth pad, dry ticking hi-hat eighth notes at 111 BPM, slowly fading out to near silence. Part B (6 s): after a half-second of silence, a sneaky exotic melodic lead with heavy vibrato enters alone for one bar, then a hard trap/phonk drop with booming distorted 808 kicks and sub bass on every beat at 111 BPM, swaggering fighter walkout energy, confident and menacing but funny, instrumental, no vocals lyrics, ends abruptly.
+- sfx_list: 
+  - 
+    - t: 0.3
+    - sfx_en: small dogs scuffle snarl
+    - search_kw_en: chihuahua growl snarl fight small dog
+    - gen_prompt_en: two small chihuahuas snarling and yapping while scuffling, close, dry alley ambience, 1.5 seconds
+    - gain_db: -22
+  - 
+    - t: 4.2
+    - sfx_en: soft straw sip slurp
+    - search_kw_en: straw sip slurp drink milk
+    - gen_prompt_en: a tiny gentle sip through a plastic straw from a glass of milk, close mic, 1 second
+    - gain_db: -24
+  - 
+    - t: 6.08
+    - sfx_en: track B entry (music cue, not SFX)
+    - search_kw_en: phonk intro vibrato lead
+    - gen_prompt_en: 
+    - gain_db: -8
+  - 
+    - t: 7.0
+    - sfx_en: 808 sub drop impact
+    - search_kw_en: 808 sub drop boom impact
+    - gen_prompt_en: a deep booming 808 sub-bass drop hit with short tail, 1 second
+    - gain_db: -10
+  - 
+    - t: 10.1
+    - sfx_en: MMA gloves tap
+    - search_kw_en: boxing gloves punch together leather tap
+    - gen_prompt_en: two leather MMA gloves tapped together twice in front of the chest, close, 0.6 seconds
+    - gain_db: -18
+- mix_ko: 원본은 사실상 음악 전용 믹스(효과음 거의 안 들림, 추정). 음악 피크 -9.6dB, 평균 -24.9dB. 트랙 A는 0.3s부터 5.4s 지수 페이드아웃, 5.6~6.08s 정적 유지가 핵심. 트랙 B 드롭을 정확히 7.00s에 맞출 것. 효과음을 넣는다면 -18~-24dB로 음악 아래에 깔기. 11.80s 하드 컷(30ms 미니 페이드만).
+
+## 다른 동물로 바꾸기
+- default_animal_en: baby golden hamster (hero, replaces the armored kitten; chihuahua gang and whippet bodyguard unchanged)
+- alternatives_en: 
+  - baby red panda cub (hero in the same armor, pink bow, milk glass)
+  - fluffy baby hedgehog (hero; tiny armor with gaps for quills)
+- character_sheet_prompt_en: Character reference turnaround sheet on a plain light-grey studio background, photorealistic, 4 views in one row (front, 3/4 left, side profile, back) plus one close-up face inset: a tiny fluffy baby golden hamster (Syrian hamster) with golden-orange and cream fur, white belly and white cheek patches, chubby puffed cheeks, huge round glossy black eyes, small pink nose, tiny rounded pink-lined ears, a small pink satin bow on its left ear, standing upright on its hind legs like a person, fantasy-scaled to the height of a chihuahua, wearing polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground, holding a tall clear glass of white milk with a pink-and-white striped bendy straw in the front view. Consistent proportions in every view, even soft studio light, sharp fur detail, no text, no watermark.
+- consistency_tips_ko: 
+  - nano-banana-pro 로 캐릭터 시트 1장 → 모든 시작 프레임 생성 시 레퍼런스로 첨부
+  - 모든 프롬프트에 &#x27;분홍 리본 왼쪽 귀, 분홍-흰 줄무늬 빨대, fleur-de-lis 갑옷&#x27; 3개 식별 포인트를 문자 그대로 반복
+  - 햄스터 키를 &#x27;치와와와 같은 키&#x27;로 고정(판타지 스케일) — 너무 작게 나오면 샷1 구도(42% 높이)가 깨짐
+  - 휘핏은 별도 캐릭터 시트(정면/측면) 만들어 샷3에서 ref2video(kling-v3-omni) 또는 first-last frame으로 고정
+  - 시드 고정 + 같은 모델(seedance-2-5)로 3샷 모두 생성해 질감 통일
+  - 샷1·2는 흐림/탈채도, 샷3은 맑음/고채도 — 원본의 톤 점프를 일부러 유지
+
+## FFmpeg 편집
+- steps_ko: 
+  - 생성본 s01.mp4(5s), s02.mp4(5s), s03.mp4(10s)를 1080x1920/30fps로 정규화하며 필요한 길이만 트림(1.90 / 1.77 / 8.36s)
+  - 샷1·2에 흐림 톤 그레이드(채도 0.85, 밝기 -0.03), 샷3은 채도 1.05
+  - concat 필터로 하드컷 연결(전환 효과 없음)
+  - bgm_a.mp3: 0.1s 시작, 0.3s부터 5.4s 지수 페이드아웃, 5.7s에서 끝
+  - bgm_b.mp3: 드롭 위치(DROP_B초)가 영상 7.00s에 오도록 -ss 오프셋 후 6.08s에 adelay, 11.80s 하드 컷
+  - 선택 SFX를 -18~-24dB로 믹스, 12.03s로 최종 길이 맞추고 자기 로고 오버레이(선택)
+- script: 
+```
+#!/usr/bin/env bash
+# v03 remake assembler. Inputs: s01.mp4 s02.mp4 s03.mp4 bgm_a.mp3 bgm_b.mp3 [sfx_scuffle.wav sfx_sip.wav sfx_drop.wav sfx_gloves.wav] [logo.png]
+set -euo pipefail
+DROP_B=${DROP_B:-4.00}   # seconds into bgm_b.mp3 where its 808 drop hits
+OFF_B=$(python -c &quot;print(max(0.0, ${DROP_B} - 0.92))&quot;)   # track B starts 0.92 s before its drop (6.08 -&gt; 7.00)
+NORM=&quot;scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p&quot;
+ENC=&quot;-c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p -an&quot;
+ffmpeg -v error -y -ss 0 -t 1.90 -i s01.mp4 -vf &quot;${NORM},eq=saturation=0.85:brightness=-0.03:contrast=0.97&quot; $ENC c1.mp4 &lt; /dev/null
+ffmpeg -v error -y -ss 0 -t 1.77 -i s02.mp4 -vf &quot;${NORM},eq=saturation=0.85:brightness=-0.02:contrast=0.97&quot; $ENC c2.mp4 &lt; /dev/null
+ffmpeg -v error -y -ss 0 -t 8.36 -i s03.mp4 -vf &quot;${NORM},eq=saturation=1.05&quot; $ENC c3.mp4 &lt; /dev/null
+# video: hard cuts at 1.90 and 3.67
+ffmpeg -v error -y -i c1.mp4 -i c2.mp4 -i c3.mp4 -filter_complex &quot;[0:v][1:v][2:v]concat=n=3:v=1:a=0,trim=0:12.03,setpts=PTS-STARTPTS[v]&quot; -map &quot;[v]&quot; $ENC video_only.mp4 &lt; /dev/null
+# audio: track A fades 0.3-&gt;5.7 s, dead air until 6.08, track B drop at 7.00, hard stop 11.80
+ffmpeg -v error -y -i video_only.mp4 -i bgm_a.mp3 -ss ${OFF_B} -i bgm_b.mp3 \
+  -filter_complex &quot;\
+[1:a]atrim=0:5.6,asetpts=PTS-STARTPTS,afade=t=in:st=0:d=0.2,afade=t=out:st=0.3:d=5.3:curve=exp,adelay=100|100,volume=0dB[a1];\
+[2:a]atrim=0:5.72,asetpts=PTS-STARTPTS,afade=t=out:st=5.69:d=0.03,adelay=6080|6080,volume=0dB[a2];\
+[a1][a2]amix=inputs=2:normalize=0:duration=longest,atrim=0:12.03,apad=whole_dur=12.03,aresample=48000[a]&quot; \
+  -map 0:v -map &quot;[a]&quot; -c:v copy -c:a aac -b:a 192k -ar 48000 -t 12.03 v03_remake_nosfx.mp4 &lt; /dev/null
+# optional SFX layer (skip if files missing)
+if [ -f sfx_drop.wav ]; then
+ffmpeg -v error -y -i v03_remake_nosfx.mp4 -i sfx_scuffle.wav -i sfx_sip.wav -i sfx_drop.wav -i sfx_gloves.wav -filter_complex &quot;\
+[1:a]adelay=300|300,volume=-22dB[s1];[2:a]adelay=4200|4200,volume=-24dB[s2];[3:a]adelay=7000|7000,volume=-10dB[s3];[4:a]adelay=10100|10100,volume=-18dB[s4];\
+[0:a][s1][s2][s3][s4]amix=inputs=5:normalize=0:duration=first,alimiter=limit=0.95[a]&quot; \
+  -map 0:v -map &quot;[a]&quot; -c:v copy -c:a aac -b:a 192k -t 12.03 v03_remake.mp4 &lt; /dev/null
+else cp v03_remake_nosfx.mp4 v03_remake.mp4; fi
+# optional own logo top-right (never reuse the source&#x27;s Higgsfield/SickMan marks)
+if [ -f logo.png ]; then
+ffmpeg -v error -y -i v03_remake.mp4 -i logo.png -filter_complex &quot;[1:v]scale=170:-1[l];[0:v][l]overlay=W-w-24:24&quot; -c:v libx264 -crf 16 -preset slow -c:a copy v03_final.mp4 &lt; /dev/null
+fi
+
+```
+
+## HyperFrames 편집 프롬프트
+- prompt_en: Using the HyperFrames skill, build a 9:16 1080x1920 30fps composition, total duration 12.03 s, named v03_milk_knight_bodyguard. Assets in ./assets: s01.mp4, s02.mp4, s03.mp4, bgm_a.mp3, bgm_b.mp3, optional sfx_scuffle.wav, sfx_sip.wav, sfx_drop.wav, sfx_gloves.wav, optional logo.png. VIDEO TRACK (hard cuts only, no transitions): clip 1 = s01.mp4 from 0.00 to 1.90 s (source in 0.00); clip 2 = s02.mp4 from 1.90 to 3.67 s (source in 0.00); clip 3 = s03.mp4 from 3.67 to 12.03 s (source in 0.00). Scale every clip with object-fit cover to 1080x1920. Grade: clips 1-2 CSS filter saturate(0.85) brightness(0.97) contrast(0.97); clip 3 saturate(1.05). No captions, no on-screen text. AUDIO: bgm_a.mp3 starts at 0.10 s, fades in over 0.2 s, then fades out exponentially from 0.30 s to 5.60 s (to about -40 dB), ends at 5.70 s. Leave 5.70-6.08 s silent. bgm_b.mp3 starts at 6.08 s with its source offset chosen so its 808 drop lands exactly at 7.00 s (the moment the whippet is fully revealed), and hard-stops at 11.80 s with a 30 ms fade. Optional SFX: sfx_scuffle at 0.30 s -22 dB, sfx_sip at 4.20 s -24 dB, sfx_drop at 7.00 s -10 dB, sfx_gloves at 10.10 s -18 dB. Optional logo.png top-right, 170 px wide, 24 px margin, full opacity for the whole duration. Keep deterministic timing (data-start / data-duration), validate with the CLI check, render to v03_remake.mp4, and report the final duration and the timestamps of both cuts.
+- notes_ko: 
+  - 트랜지션 요소 없이 하드컷 2번(1.90s, 3.67s)만 — 공개 연출(전경 와이프)은 생성 영상 안의 카메라 무브라 편집으로 만들지 않음
+  - 음악 두 트랙의 경계(5.7~6.08s 정적)와 7.00s 드롭 정렬이 이 영상의 핵심 타이밍
+  - 원본 워터마크(Higgsfield/Seedance 배지, SickMan 로고)는 재현하지 말고 자기 로고로 대체
+
+## 똑같이 만들기 체크리스트
+- 총 길이 12.03s, 컷 2번: 1.90s / 3.67s (그 외 컷 없음)
+- 샷1: 와이드, 고양이 왼쪽 x≈12% 키 42%, 치와와 난투 오른쪽 절반, 흐린 톤
+- 샷2: 로우앵글 24mm, 치와와 정확히 3마리 어깨동무, 가운데 개 화면 정중앙에서 이빨 웃음
+- 샷3: 고양이 MCU 돌리인 → 6.08~6.17s 휘핏 등장 → 6.2~7.2s 전경 돌벽 와이프+랙포커스 → 휘핏 워크인 → 10.0s 글러브 탭 → 11.3s 파이팅 가드로 종료
+- 샷3 배경은 맑은 판타지 왕국(첨탑·폭포·떠있는 섬), 샷1·2는 흐린 골목 — 톤 점프 유지
+- 고양이(햄스터) 식별: 분홍 리본 왼쪽 귀, 분홍-흰 줄무늬 빨대, 은색 판금+체인메일+아이보리 망토+갈색 검띠
+- 휘핏 식별: 흰 털+왼쪽 눈 회색 패치, 캔디 프린트 검정 반바지, 검정 오픈핑거 MMA 장갑, 맨발
+- 오디오: 0.3s 피크 후 5.4s 페이드 → 5.6~6.08s 정적 → 6.08s 트랙B → 7.00s 드롭 → 11.80s 컷
+- 자막 없음, 원본 워터마크 복제 금지(자기 로고만)
+- 24fps 생성 → 30fps 출력(원본과 동일한 모션 캐던스)
+
+## 확실한 것 vs 추정한 것
+- 확실: 컷 위치 1.90s(프레임57)/3.67s(프레임110) — pixel_diff 스파이크 52.8/50.5로 확인. 그 외 구간은 스파이크 없음 → 샷3은 원테이크.
+- 확실: 워터마크 &#x27;HIGGSFIELD / SEEDANCE 2.5&#x27; → 생성 모델은 Higgsfield의 Seedance 2.5.
+- 확실: 매 5번째 프레임 중복(24→30fps 풀다운)이 컷을 넘어 위상 끊김 없이 이어짐 → 24fps 타임라인 편집 또는 단일 멀티샷 생성. gen_clip 3개는 재현용 권장 분할이며, 원본이 12초 멀티샷 1회 생성일 가능성도 있음(추정).
+- 추정: 음악 구조(트랙A 드론 페이드 → 정적 → 트랙B 드롭 7.0s)는 RMS/스펙트로그램 기반. 트랙B의 비브라토 리드가 보컬인지 악기인지는 불확실(음성 전사 불가).
+- 추정: 효과음은 거의 들리지 않는 음악 전용 믹스로 판단. SFX 목록은 선택 사항.
+- 추정: 캡션 &#x27;inspired by @haroontwins &amp; @georgesstpierre&#x27; → 실존 스킷/GSP 워크인 밈을 동물로 패러디한 것으로 보임(원본 밈 미확인).
+- 구도 수치(x%, y%, 높이%)는 540x960 프레임에서 눈으로 측정한 근사치(±3%).
+</textarea>
+<div class="hero"><div><a href="https://www.instagram.com/sickmanai/reel/DdKFms6pL1A/" target="_blank"><img style="width:100%;border-radius:12px" src="assets/v03/g_00.00.jpg" alt="첫 장면"></a><p class="mute" style="font-size:12px">원본 영상은 저작권 때문에 올리지 않았어요. 사진을 누르면 원본 인스타로 가서 재생됩니다.</p>
+<p style="font-size:13px"><a href="https://www.instagram.com/sickmanai/reel/DdKFms6pL1A/" target="_blank">원본 인스타그램 열기 ↗</a></p></div>
+<div><div class="stats">
+<div class="stat"><b>7.6만</b><span>좋아요</span></div><div class="stat"><b>448</b><span>댓글</span></div>
+<div class="stat"><b>12.0초</b><span>길이</span></div><div class="stat"><b>3</b><span>컷 수</span></div>
+<div class="stat"><b>3</b><span>AI 생성 클립 수</span></div><div class="stat"><b>4.01초</b><span>평균 컷 길이</span></div></div>
+<table><tr><th>화면 비율/해상도</th><td>9:16 · 1080x1920 · 30fps</td></tr>
+<tr><th>화면 방향 트릭</th><td>없음 (회전/POV 없음). 단, 원본은 24fps 생성본을 30fps로 변환(매 5번째 프레임 중복, 3:2 풀다운 패턴이 컷을 넘어 끊김 없이 이어짐 → 24fps 타임라인에서 편집 후 30fps 출력, 또는 12초 단일 멀티샷 생성의 가능성).</td></tr><tr><th>워터마크</th><td>좌상단: 흰색 이탤릭 볼드 &#x27;HIGGSFIELD&#x27; + 그 아래 라임그린 둥근 사각 배지에 검은 글씨 &#x27;SEEDANCE 2.5&#x27; (x≈1~22%, y≈1~5%, 불투명 100%). 우상단: 흰색 스티커형 채널 로고 &#x27;SICK MANAI&#x27; (x≈84~99%, y≈1~5%, 불투명 100%). 전 구간 고정 번인. 리메이크 시 자기 로고로 교체(원본 로고 복제 금지).</td></tr><tr><th>화면 문구/자막</th><td>없음 (자막/문구 없음, 워터마크만). 휘핏 반바지의 컬러 로고 글자와 글러브 흰 글씨는 소품 프린트.</td></tr>
+<tr><th>원본 캡션</th><td>😹🥛🐶
+
+made with @higgsfield.ai 
+
+inspired by @haroontwins &amp; @georgesstpierre</td></tr></table>
+</div></div>
+
+<h2>1. 타임라인 한눈에 보기</h2>
+<div class="card"><div class="lab mute" style="font-size:12px">컷 막대(색 = AI 생성 클립 단위, 마우스 올리면 전환 정보)</div><div class="tl"><div style="width:15.79%;background:#2f6fdb" title="#1 0.0–1.9s · Hard cut">1</div><div style="width:14.71%;background:#d9481c" title="#2 1.9–3.67s · Hard cut">2</div><div style="width:69.49%;background:#1f8a4c" title="#3 3.67–12.03s · End (hard stop, no loop dissolve)">3</div></div>
+<div class="axis"><span>0s</span><span>6.0s</span><span>12.0s</span></div>
+<div class="lab mute" style="font-size:12px;margin-top:10px">오디오 음량(파랑) · 타격음/효과음 추정 지점(주황 세로선) · 추정 BPM 111</div>
+<svg class="env" viewBox="0 0 1000 70" preserveAspectRatio="none"><line x1="6.7" x2="6.7" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="75.6" x2="75.6" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="505.4" x2="505.4" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="521.2" x2="521.2" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="536.2" x2="536.2" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="550.3" x2="550.3" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="581.0" x2="581.0" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="610.1" x2="610.1" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="626.8" x2="626.8" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="670.0" x2="670.0" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="715.7" x2="715.7" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="729.8" x2="729.8" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="759.8" x2="759.8" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="806.3" x2="806.3" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="848.7" x2="848.7" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="892.8" x2="892.8" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><line x1="937.7" x2="937.7" y1="0" y2="70" stroke="var(--acc)" stroke-width="1.5" opacity=".7"/><polyline fill="none" stroke="var(--acc2)" stroke-width="2" points="0.0,70.0 8.3,8.9 16.6,7.7 24.9,6.0 33.3,8.8 41.6,9.0 49.9,9.3 58.2,9.6 66.5,11.6 74.8,11.2 83.1,10.6 91.4,12.0 99.8,12.9 108.1,12.2 116.4,12.3 124.7,13.4 133.0,14.3 141.3,14.1 149.6,15.7 157.9,15.7 166.3,17.3 174.6,17.6 182.9,16.9 191.2,20.1 199.5,18.4 207.8,21.0 216.1,21.6 224.4,22.0 232.8,24.2 241.1,24.0 249.4,24.8 257.7,24.8 266.0,26.6 274.3,26.3 282.6,28.5 290.9,28.7 299.3,29.9 307.6,31.0 315.9,34.3 324.2,34.2 332.5,30.3 340.8,30.0 349.1,29.9 357.4,32.0 365.8,31.4 374.1,32.0 382.4,30.0 390.7,30.1 399.0,31.9 407.3,32.9 415.6,32.0 423.9,33.7 432.3,35.0 440.6,36.6 448.9,40.2 457.2,42.1 465.5,51.0 473.8,52.6 482.1,60.3 490.4,60.1 498.8,59.1 507.1,17.3 515.4,14.9 523.7,14.1 532.0,17.8 540.3,16.5 548.6,21.5 556.9,18.4 565.3,20.0 573.6,19.6 581.9,6.8 590.2,8.4 598.5,8.8 606.8,18.8 615.1,18.4 623.4,20.1 631.8,8.0 640.1,10.4 648.4,19.3 656.7,20.0 665.0,23.0 673.3,7.7 681.6,7.9 689.9,12.9 698.3,19.1 706.6,17.7 714.9,12.0 723.2,8.5 731.5,9.7 739.8,16.3 748.1,16.8 756.4,19.8 764.8,9.6 773.1,10.7 781.4,17.7 789.7,17.3 798.0,17.8 806.3,9.7 814.6,10.7 822.9,15.9 831.3,20.1 839.6,19.0 847.9,16.8 856.2,9.4 864.5,12.6 872.8,18.6 881.1,18.8 889.4,22.6 897.8,12.9 906.1,12.1 914.4,21.5 922.7,23.1 931.0,21.1 939.3,12.0 947.6,11.6 955.9,12.9 964.3,21.0 972.6,70.0 980.9,70.0 989.2,70.0 997.5,70.0"/></svg></div>
+
+<h2>2. 왜 떡상했나 — 바이럴 편집 분석</h2>
+<div class="grid2"><div class="card"><h3>0~3초 후킹</h3><p>첫 프레임부터 &#x27;갑옷 입은 아기고양이 + 이족보행 치와와 난투&#x27;라는 말도 안 되는 조합이 동시에 보임. 0.3s에 치와와가 앞발을 휘두르는 액션, 1.9s에 치와와 3마리가 어깨동무하고 카메라로 들이미는 &#x27;위협&#x27; 컷 → &#x27;이 고양이 어떻게 되지?&#x27; 긴장감으로 스와이프 차단.</p>
+<h3>패턴 인터럽트</h3><ul><li>1.90s 와이드→로우앵글 갱 워크 하드컷(구도·거리 급변)</li><li>3.67s 흐린 골목→맑은 판타지 배경 MCU로 밝기/색 점프(평균 휘도 78.7→88.5)</li><li>5.6~6.08s 음악이 거의 사라지는 0.5초 정적(이상함 감지 → 집중)</li><li>6.08s 뒤에서 휘핏이 스윽 등장 + 새 음악 진입</li><li>6.2~7.2s 전경 돌벽 와이프로 공개, 7.0s 베이스 드롭</li></ul></div>
+<div class="card"><h3>떡상 이유</h3><ul><li>&#x27;작고 귀여운 애 건드리면 큰 형 나온다&#x27; 보편적 보디가드/형 밈 구조</li><li>실존 MMA 파이터 밈(캡션 &#x27;inspired by @georgesstpierre&#x27;, 추정: GSP 워크인/휘핏 닮은꼴 밈)을 동물로 치환</li><li>갑옷+분홍 리본+우유 빨대 = 극단적 귀여움 vs 근육질 휘핏 = 극단적 웃김의 대비</li><li>판타지 세계관 시리즈물(고양이 기사 캐릭터 재등장)로 팬층 누적</li><li>자막 없이 이해 가능 → 언어 무관 글로벌 확산</li></ul><h3>시청 유지 장치</h3><ul><li>고양이의 무표정 태연함(데드팬)이 &#x27;뭔가 믿는 구석이 있다&#x27;는 복선 역할</li><li>12초 초단편 + 3컷만으로 반전까지 도달 → 완주율 높음</li><li>음악 페이드아웃→정적→드롭 구조로 청각적 서스펜스</li><li>공개 순간 카메라 무브(전경 와이프)가 &#x27;짜잔&#x27; 리빌 효과</li><li>휘핏의 이상하게 긴 목·무표정·사람 몸 비율 = 언캐니 웃음 포인트로 끝까지 보게 함</li></ul></div></div>
+<div class="grid2"><div class="card"><h3>스토리 구조</h3><table><tr><th>Setup<br><span class="mute">0.00-1.90s</span></th><td>골목에서 치와와들이 난동, 고양이 기사는 우유만 홀짝 — 대비 설정.</td></tr><tr><th>Inciting<br><span class="mute">1.90-3.67s</span></th><td>치와와 3마리가 어깨동무하고 카메라(=고양이 시점)로 다가오며 위협.</td></tr><tr><th>Escalation<br><span class="mute">3.67-6.08s</span></th><td>고양이는 끝까지 태연하게 우유를 빨며 카메라를 응시 — &#x27;왜 이렇게 여유롭지?&#x27; 궁금증, 음악은 점점 사라짐.</td></tr><tr><th>Climax<br><span class="mute">6.08-7.20s</span></th><td>뒤에서 근육질 휘핏 파이터가 걸어 나오고 카메라가 옆으로 빠지며 전신 공개, 7.0s 드롭.</td></tr><tr><th>Payoff<br><span class="mute">7.20-12.03s</span></th><td>휘핏이 스웨거 워크로 다가와 글러브를 부딪치고 파이팅 가드 — &#x27;내 동생 건드린 놈 누구냐&#x27; 보디가드 펀치라인.</td></tr><tr><th>Loop<br><span class="mute">12.03-&gt;0.00s</span></th><td>가드 올린 휘핏 → 첫 프레임 치와와 난투로 이어져 &#x27;이제 쟤네 끝났다&#x27;는 느낌으로 재시청 유도.</td></tr></table></div>
+<div class="card"><h3>댓글 유도 / 루프</h3><p>&#x27;휘핏 목 왜 이렇게 길어ㅋㅋ&#x27;, &#x27;치와와들 이제 끝났다&#x27;, &#x27;GSP 닮았다&#x27; 같은 닮은꼴/다음 편 요구 댓글 유도. 결말에서 싸움을 보여주지 않고 끊어 &#x27;2편 만들어줘&#x27; 요청을 부름(댓글 448).</p><p>완전한 시각 루프는 아님(첫/끝 프레임 다름). 대신 끝 = 싸움 직전 가드, 처음 = 치와와 난동으로 &#x27;서사적 루프&#x27;. 오디오가 11.80s에 먼저 끊겨 반복 재생 시 첫 드론이 바로 치고 들어옴.</p>
+<h3>사용된 편집 기법 (전문 용어)</h3><table><tr><th>Hard cut</th><td>즉시 전환 컷 <span class="mute">@ 1.90s, 3.67s</span></td></tr><tr><th>Foreground wipe (natural wipe)</th><td>전경 사물이 화면을 쓸고 지나가며 장면을 바꾸는 효과 <span class="mute">@ 6.20-7.20s (돌벽/고양이가 오른쪽으로 빠짐)</span></td></tr><tr><th>Lateral truck + pan</th><td>카메라 옆 이동 + 반대 방향 패닝 <span class="mute">@ 6.10-7.20s</span></td></tr><tr><th>Rack focus</th><td>초점 이동(고양이→휘핏) <span class="mute">@ 6.30-7.00s</span></td></tr><tr><th>Slow dolly-in</th><td>천천히 다가가기 <span class="mute">@ 3.67-6.10s</span></td></tr><tr><th>Reveal</th><td>숨겨진 인물 공개 <span class="mute">@ 6.08-7.20s</span></td></tr><tr><th>Beat drop sync</th><td>음악 드롭에 공개 타이밍 맞추기 <span class="mute">@ 7.00s</span></td></tr><tr><th>Dead air / sound vacuum</th><td>직전 정적 <span class="mute">@ 5.60-6.08s</span></td></tr><tr><th>Walk-in to camera</th><td>인물이 카메라로 걸어오며 FS→MFS <span class="mute">@ 7.20-12.03s</span></td></tr><tr><th>Deadpan</th><td>무표정 개그 <span class="mute">@ 고양이 전 구간, 휘핏</span></td></tr></table></div></div>
+
+
+<h2>3. 스타일 바이블 (모든 컷에 공통으로 넣는 설정)</h2>
+<div class="card"><div class="pr"><div class="lab">캐릭터·의상·배경·조명·색보정·렌즈 — 통째로 복사해서 모든 프롬프트 앞에 붙이기</div><button class="cp" onclick="cp(this)">복사</button><pre>[character_sheet_en]
+HERO: a tiny fluffy 8-week-old cream-beige British Longhair kitten with long soft light-golden fur, round flat face, huge round glossy dark blue-black eyes, small pink nose, long white whiskers, small rounded ears with fur tufts, a small pink satin bow on its left ear, standing upright on hind legs like a person, about the height of a chihuahua. ARMOR: polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground. PROP: holding with both paws a tall clear drinking glass filled with white milk, sipping through a pink-and-white striped bendy straw. ENEMIES: three adult smooth-coat chocolate-and-tan chihuahuas (dark chocolate-brown coats with tan eyebrow dots, tan muzzles, tan chests and tan lower legs, pink bare bellies), huge upright bat ears, bulging glossy dark eyes, walking and standing upright on their hind legs like rowdy street thugs. BODYGUARD: a tall anthropomorphic white whippet standing upright like a human MMA fighter, same height as an adult man: narrow long whippet head, white short-haired coat with a grey-brindle patch over its left eye and left ear, soft folded rose ears pale grey with pink insides, black nose, calm deadpan brown eyes, long thin neck, lean shredded human-like torso with visible abs and pecs covered in short white dog fur, long skinny dog arms, bare dog hind legs with white paws, wearing black Muay Thai fight shorts covered in a colorful gummy-candy print with a big multicolor bubble-letter logo on the front and a black waistband, and black open-finger MMA gloves with small white lettering.
+
+[wardrobe_props_en]
+Kitten: engraved silver plate armor, chainmail skirt, fleur-de-lis tasset, brown leather sword belt with brass buckle, short sword with brass cross-guard in brown scabbard, ivory cape, small pink satin bow on left ear, tall clear glass of white milk with pink-and-white striped bendy straw. Whippet: black Muay Thai shorts with colorful gummy-candy print and multicolor bubble-letter logo, black waistband, black open-finger MMA gloves with small white lettering, barefoot paws. Chihuahuas: no clothing.
+
+[environment_en]
+Shots 1-2: a gloomy medieval back alley - weathered dark wooden double door, heavy timber overhang with carved brackets, small wooden wall box, rough grey stone walls, wooden plank gates, mossy roofs, dark cobblestones, grass tufts. Shot 3: the same kind of cobblestone lane but opening onto a bright high-fantasy kingdom - gothic spired citadel on a cliff with rose windows, a tall waterfall with mist, floating islands with round trees, a river with rocks, green meadows, thatched cottages, a half-timbered medieval house with stone steps and a barrel of red apples, clear blue sky with white cumulus clouds.
+
+[lighting_en]
+Shots 1-2: flat overcast diffuse daylight, no hard shadows, soft top light. Shot 3: bright late-morning sun, soft shade on the kitten from the stone wall, sunlit fantasy background, gentle haze/mist near the waterfall.
+
+[color_grade_en]
+Shots 1-2: muted, low-saturation cool-neutral grade, grey-brown palette, slightly low exposure (mean luma ~64-79/255). Shot 3: brighter (mean luma ~88), saturated sky blue and teal-green foliage, clean whites on the whippet, mild contrast, no heavy LUT, natural skin/fur tones.
+
+[camera_lens_en]
+Photoreal cinema camera look, 24-35mm equivalent lenses, handheld-stabilized feel with micro-drift, animal-eye-level camera height (35-70 cm), shallow depth of field on close shots (f/2-2.8), deep focus on the wide shot, 24fps motion cadence.
+
+[realism_style_en]
+Hyper-real photographic AI video (Higgsfield / Seedance 2.5 look): real fur strands, real metal reflections, anthropomorphic animals rendered as if they physically exist, no cartoon stylization, comedic deadpan performance.
+
+[negative_prompt_en]
+extra limbs, extra heads, extra dogs, merged bodies, deformed paws, human hands, human face, cartoon, 3D render look, plastic fur, CGI toy look, anime, blurry face, text, watermark, logo, subtitles, frame borders, letterbox, split screen, morphing, flicker, jitter, costume changes between shots, missing bow, missing straw, empty glass, spilled milk</pre></div></div>
+
+<h2>4. 컷별 완전 분해 (3컷)</h2>
+<p class="mute">프레임 위 노란 3분할 선은 오른쪽 아래 버튼으로 켜고 끌 수 있어요. 각 프롬프트는 [복사] 버튼으로 바로 복사.</p>
+
+<div class="card shot" id="shot1">
+ <div class="shothead"><span class="n">SHOT 1</span>
+  <b>0.0s → 1.9s</b><span class="pill">1.9초</span>
+  <span class="pill">생성클립 #1</span><span class="pill">Wide / full shot (WS-FS) of all 4 characters</span>
+  <span class="pill">eye-level of the animals (camera ~70 cm high), very slightly high, looking a touch down at the cobblestones</span><span class="pill">28-32mm equiv, deep focus f/5.6-8 (door and cobbles all sharp)</span></div>
+ <div class="strip"><div class="fr"><a href="assets/v03/g_00.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_00.00.jpg"></a><span class="t">g_00.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/g_01.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_01.00.jpg"></a><span class="t">g_01.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/s01_mid_00.95.jpg" target="_blank"><img loading="lazy" src="assets/v03/s01_mid_00.95.jpg"></a><span class="t">s01_mid_00.95</span><span class="g"></span></div><div class="fr"><a href="assets/v03/x_dense_01.jpg" target="_blank"><img loading="lazy" src="assets/v03/x_dense_01.jpg"></a><span class="t">x_dense_01</span><span class="g"></span></div><div class="fr"><a href="assets/v03/x_1.80_cut1.jpg" target="_blank"><img loading="lazy" src="assets/v03/x_1.80_cut1.jpg"></a><span class="t">x_1.80_cut1</span><span class="g"></span></div></div>
+ <table><tr><th>카메라 움직임</th><td>거의 고정(락오프). 아주 미세한 핸드헬드 흔들림(0.4px/f)만 있음. 줌/팬 없음.</td></tr><tr><th>화면 구성(구도)</th><td>고양이 기사: 화면 왼쪽 x≈12%, 중심 y≈52%, 키 ≈42%(귀 y≈30%~발 y≈73%), 왼쪽 1/3선 바깥쪽. 치와와 3마리: x 45~98%, y 37~98%로 오른쪽 절반 하단 2/3를 꽉 채움, 앞쪽 개 키 ≈55%. 배경 나무 이중문+처마 빔이 상단 0~60%를 채움, 문 오른쪽 벽에 작은 나무상자(x60~90%, y29~38%). 지평선 없음(벽이 막음), 바닥 자갈이 하단 35%. 헤드룸은 고양이 기준 30%로 넉넉.</td></tr>
+ <tr><th>동물 행동/연기</th><td>치와와 두 마리가 뒷다리로 서서 서로 붙잡고 난투(앞쪽 옅은 탄색 개가 입을 벌리고 으르렁대며 오른쪽 앞발을 크게 휘두름, 뒤쪽 개가 그를 껴안아 말림), 세 번째 개는 뒤에서 구경. 고양이 기사는 벽에 붙어 선 채 우유잔을 두 손으로 들고 빨대로 무심하게 마시며 곁눈질로 개들을 봄 — 전혀 동요 없음.</td></tr><tr><th>배경</th><td>중세 뒷골목: 풍화된 짙은 회갈색 나무 이중문, 굵은 목재 처마와 까치발(브래킷), 오른쪽 거친 돌벽, 문턱 아래 풀 몇 포기, 젖은 듯 어두운 자갈 바닥. 흐린 날 확산광.</td></tr><tr><th>화면 문구/자막</th><td>없음 (워터마크만)</td></tr>
+ <tr><th>다음 컷 전환</th><td>Hard cut — 1.90s(프레임 57)에서 하드컷. 음악은 끊김 없이 이어짐(드론 페이드 진행 중). 1프레임 이내 전환, 효과 없음.</td></tr>
+ <tr><th>BGM 상태</th><td>트랙 A(어두운 저역 드론 + 8분음표 하이햇 틱, 약 111BPM) 시작 0.1s, 0.3s에 피크(-9.6dB) 후 긴 페이드아웃 진행 중. (추정)</td></tr></table>
+ <h3 style='margin-top:10px'>효과음 큐</h3><ul><li><b>0.3s</b> 치와와 으르렁/깽깽 난투 (추정, 원본에선 거의 안 들림) <span class="mute">(small dogs snarling and yapping scuffle (very low, optional))</span></li></ul>
+ <div class="grid2">
+  <div><div class="pr"><div class="lab">① 이미지 프롬프트 (시작 프레임)</div><button class="cp" onclick="cp(this)">복사</button><pre>Vertical 9:16 photorealistic cinematic still, wide full shot at animal eye level, 30mm lens, deep focus. A narrow medieval back alley in front of a weathered dark grey-brown wooden double door under a heavy timber overhang with carved wooden brackets, a small open wooden box mounted on the wall right of the door, rough grey stone wall on the right edge, tufts of grass at the base of the door, dark wet-looking cobblestones filling the bottom third. On the left edge (x 12%, standing against the door, 42% of frame height): a tiny fluffy 8-week-old cream-beige British Longhair kitten with long soft light-golden fur, round flat face, huge round glossy dark blue-black eyes, small pink nose, long white whiskers, small rounded ears with fur tufts, a small pink satin bow on its left ear, standing upright on hind legs like a person, about the height of a chihuahua, wearing polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground, holding with both paws a tall clear drinking glass filled with white milk, sipping through a pink-and-white striped bendy straw, glancing sideways at the dogs with a calm unimpressed face. On the right half: three adult smooth-coat chocolate-and-tan chihuahuas (dark chocolate-brown coats with tan eyebrow dots, tan muzzles, tan chests and tan lower legs, pink bare bellies), huge upright bat ears, bulging glossy dark eyes, walking and standing upright on their hind legs like rowdy street thugs; two of them are grappling in a clumsy brawl, the front lighter-tan one snarling with mouth open and swinging its right foreleg wildly while the one behind holds it in a bear hug, the third stands behind watching. Overcast soft diffuse daylight, muted desaturated cool-neutral colors, gritty realistic fur detail, real photography look, no watermark, no logo, no text, no subtitles.</pre></div>
+       </div>
+  <div><div class="pr"><div class="lab">② 영상 프롬프트 (Image→Video)</div><button class="cp" onclick="cp(this)">복사</button><pre>Static locked-off camera with only very subtle handheld micro-drift, no zoom, no pan. The two chihuahuas on the right keep scuffling upright on their hind legs: the front one flails and swings its foreleg, snaps and snarls, the other wraps its forelegs around it and pulls it back, they stumble half a step; the third chihuahua bobs behind them. The armored kitten on the left stays completely calm, keeps sipping milk through the striped straw, the milk level barely drops, eyes flick toward the dogs once. Realistic weight and fur physics, 24fps cinematic motion. Do NOT change: the kitten&#x27;s armor, cape, pink bow, glass and straw; the door, box and cobblestones; lighting. No new characters enter.</pre></div>
+       <div class="pr"><div class="lab">네거티브 프롬프트</div><button class="cp" onclick="cp(this)">복사</button><pre>extra limbs, extra heads, extra dogs, merged bodies, deformed paws, human hands, human face, cartoon, 3D render look, plastic fur, CGI toy look, anime, blurry face, text, watermark, logo, subtitles, frame borders, letterbox, split screen, morphing, flicker, jitter, costume changes between shots, missing bow, missing straw, empty glass, spilled milk</pre></div></div>
+ </div>
+ <div style="margin-top:8px"><h3>추천 모델</h3><span class="pill m1">seedance-2-5</span> <span class="mute" style="font-size:13px">1st choice — 원본 워터마크가 &#x27;Higgsfield · Seedance 2.5&#x27; — 동일 모델이라 질감/모션 톤 재현이 가장 정확. 다수 캐릭터 난투도 안정적.</span><br><span class="pill m">kling-v3</span> <span class="mute" style="font-size:13px">alt — 이족보행 동물끼리 몸싸움 같은 물리/접촉 모션이 강함, 캐릭터 붕괴 적음.</span><br><span class="pill m">veo-3-1</span> <span class="mute" style="font-size:13px">alt (native audio) — 개 으르렁 소리까지 네이티브 오디오로 뽑고 싶을 때.</span><br>
+ <p class="mute" style="font-size:13px">5초 image2video로 생성 후 앞 1.90초만 사용(0.0~1.9). 1080x1920, 24fps 생성→30fps 편집. 시작 프레임은 nano-banana-pro 로 캐릭터 시트 레퍼런스 넣어 생성. 시드 고정해 2~3회 뽑고 고양이 얼굴이 가장 안정적인 컷 선택.</p></div>
+ <div class="grid2"><div class="pr"><div class="lab">전환 · FFmpeg</div><button class="cp" onclick="cp(this)">복사</button><pre>concat filter (no xfade): [c1][c2][c3]concat=n=3:v=1:a=0</pre></div><div class="pr"><div class="lab">전환 · HyperFrames</div><button class="cp" onclick="cp(this)">복사</button><pre>clip s01 data-start=0 data-duration=1.9, clip s02 data-start=1.9 on the same track, no transition element</pre></div></div>
+ <div class="swap"><h3>🔁 동물 교체 버전 — baby golden hamster</h3>
+  <div class="grid2"><div class="pr"><div class="lab">이미지 프롬프트</div><button class="cp" onclick="cp(this)">복사</button><pre>Vertical 9:16 photorealistic cinematic still, wide full shot at animal eye level, 30mm lens, deep focus. Same medieval back alley: weathered dark wooden double door under a heavy timber overhang, small wooden box on the wall, stone wall right, grass tufts, dark cobblestones bottom third. On the left edge (x 12%, 42% of frame height): a tiny fluffy baby golden hamster (Syrian hamster) with golden-orange and cream fur, white belly and white cheek patches, chubby puffed cheeks, huge round glossy black eyes, small pink nose, tiny rounded pink-lined ears, a small pink satin bow on its left ear, standing upright on its hind legs like a person, fantasy-scaled to the height of a chihuahua, wearing polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground, holding with both paws a tall clear drinking glass filled with white milk, sipping through a pink-and-white striped bendy straw, cheeks puffed, glancing sideways at the dogs with a calm unimpressed face. On the right half: three adult smooth-coat chocolate-and-tan chihuahuas (dark chocolate-brown coats with tan eyebrow dots, tan muzzles, tan chests and tan lower legs, pink bare bellies), huge upright bat ears, bulging glossy dark eyes, walking and standing upright on their hind legs like rowdy street thugs; two grapple in a clumsy brawl, the front one snarling and swinging a foreleg, the one behind holding it in a bear hug, the third watching. Overcast soft daylight, muted desaturated colors, realistic fur, no watermark, no logo, no text, no subtitles.</pre></div><div class="pr"><div class="lab">영상 프롬프트</div><button class="cp" onclick="cp(this)">복사</button><pre>Static camera with subtle handheld drift. The chihuahuas scuffle upright, snarling and flailing. The armored hamster stays completely calm, sipping milk through the striped straw, cheeks puffing in and out with each sip, tiny whiskers twitching, eyes flick toward the dogs once. Do NOT change the hamster&#x27;s armor, bow, glass or the set.</pre></div></div>
+  <p class="mute" style="font-size:13px">햄스터는 &#x27;치와와와 같은 키&#x27;로 판타지 스케일 고정해야 원본 구도(고양이 42% 높이)가 유지됨. 볼 빵빵하게 빨대 빠는 모션이 햄스터판 핵심 귀여움 포인트.</p></div>
+</div>
+<div class="card shot" id="shot2">
+ <div class="shothead"><span class="n">SHOT 2</span>
+  <b>1.9s → 3.67s</b><span class="pill">1.77초</span>
+  <span class="pill">생성클립 #2</span><span class="pill">Medium-full group shot (MFS), dogs cropped at the lower legs</span>
+  <span class="pill">low angle, camera ~35 cm high tilted slightly up toward the dogs&#x27; faces</span><span class="pill">24mm equiv, f/2.8 - background walls softly defocused</span></div>
+ <div class="strip"><div class="fr"><a href="assets/v03/g_02.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_02.00.jpg"></a><span class="t">g_02.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/g_03.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_03.00.jpg"></a><span class="t">g_03.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/s02_in_01.97.jpg" target="_blank"><img loading="lazy" src="assets/v03/s02_in_01.97.jpg"></a><span class="t">s02_in_01.97</span><span class="g"></span></div><div class="fr"><a href="assets/v03/s02_out_03.60.jpg" target="_blank"><img loading="lazy" src="assets/v03/s02_out_03.60.jpg"></a><span class="t">s02_out_03.60</span><span class="g"></span></div><div class="fr"><a href="assets/v03/x_dense_02.jpg" target="_blank"><img loading="lazy" src="assets/v03/x_dense_02.jpg"></a><span class="t">x_dense_02</span><span class="g"></span></div></div>
+ <table><tr><th>카메라 움직임</th><td>핸드헬드 느린 트럭백(뒤로 빠짐) — 개들이 다가오는 속도와 비슷해 크기가 거의 일정. 걸음마다 상하 바운스(흐름 1.17px/f).</td></tr><tr><th>화면 구성(구도)</th><td>치와와 3마리가 화면 폭 100%를 채움. 가운데 개: 얼굴 x≈50%, y≈50%(정중앙), 이빨 드러낸 씩 웃음. 왼쪽 개: 얼굴 x≈20%, y≈40%. 오른쪽 뒤 개(가장 큼): 얼굴 x≈80%, y≈30%. 머리 꼭대기 y≈22~30%, 몸은 하단에서 잘림. 하늘은 상단 0~10%만(흐린 회색), 담장 수평 상단선 y≈25%. 세 머리가 V자 삼각형 배치.</td></tr>
+ <tr><th>동물 행동/연기</th><td>세 마리가 서로 어깨동무(앞발로 목/어깨 감싸기)하고 뒷다리로 나란히 카메라 쪽으로 &#x27;갱 워크&#x27;. 몸이 좌우로 흔들리고, 가운데 개는 이빨을 드러내며 비열하게 웃고, 양옆은 건들건들 째려봄. 위협적인 동네 불량배 연출.</td></tr><tr><th>배경</th><td>오래된 돌담과 비바람에 바랜 나무 판자 대문, 뒤로 이끼 낀 돌 헛간 지붕과 나무, 흐린 하늘. 얕은 심도로 흐릿. 샷1과 같은 골목이지만 반대 방향.</td></tr><tr><th>화면 문구/자막</th><td>없음</td></tr>
+ <tr><th>다음 컷 전환</th><td>Hard cut — 3.67s(프레임 110)에서 하드컷 → 고양이 MCU. 밝기가 78.7→88.5로 한 단계 밝아지고 하늘이 흐림→맑음으로 바뀌는 &#x27;톤 점프&#x27;가 시선 리셋 역할.</td></tr>
+ <tr><th>BGM 상태</th><td>트랙 A 계속 페이드아웃 중(-18~-25dB). 하이햇 틱만 또렷. (추정)</td></tr></table>
+ <h3 style='margin-top:10px'>효과음 큐</h3><ul><li><b>2.0s</b> 발소리/킥킥대는 숨소리 (추정, 선택) <span class="mute">(small paws pattering on cobblestones, low giggly dog huffs (optional, very low))</span></li></ul>
+ <div class="grid2">
+  <div><div class="pr"><div class="lab">① 이미지 프롬프트 (시작 프레임)</div><button class="cp" onclick="cp(this)">복사</button><pre>Vertical 9:16 photorealistic cinematic still, low-angle medium-full group shot from 35 cm off the ground, 24mm lens, f/2.8 shallow depth of field. three adult smooth-coat chocolate-and-tan chihuahuas (dark chocolate-brown coats with tan eyebrow dots, tan muzzles, tan chests and tan lower legs, pink bare bellies), huge upright bat ears, bulging glossy dark eyes, walking and standing upright on their hind legs like rowdy street thugs, walking toward the camera side by side with their forelegs wrapped around each other&#x27;s shoulders like a street gang: the middle one in the exact center of the frame (face at x 50%, y 50%) grinning smugly and baring small teeth, the left one (face at x 20%, y 40%) smirking, the right one standing slightly behind and taller (face at x 80%, y 30%) staring down the lens. Their bodies fill the full frame width and are cropped at the lower legs. Background softly blurred: an old grey stone wall and a weathered wooden plank gate, moss-covered stone shed roofs and trees, overcast grey sky in the top 10%. Cold overcast diffuse light, muted desaturated palette, realistic fur, no watermark, no logo, no text, no subtitles.</pre></div>
+       </div>
+  <div><div class="pr"><div class="lab">② 영상 프롬프트 (Image→Video)</div><button class="cp" onclick="cp(this)">복사</button><pre>Handheld camera slowly trucks backward at the same speed the dogs advance, so their size stays almost constant, with a gentle up-down bounce on every step. The three chihuahuas swagger forward in unison on their hind legs, arms locked over each other&#x27;s shoulders, bodies rocking left-right, the middle one grins wider and bares its teeth, the others stare into the lens menacingly. 24fps, realistic weight. Do NOT change: number of dogs (exactly three), their chocolate-and-tan coat pattern, the background, overcast light.</pre></div>
+       <div class="pr"><div class="lab">네거티브 프롬프트</div><button class="cp" onclick="cp(this)">복사</button><pre>extra limbs, extra heads, extra dogs, merged bodies, deformed paws, human hands, human face, cartoon, 3D render look, plastic fur, CGI toy look, anime, blurry face, text, watermark, logo, subtitles, frame borders, letterbox, split screen, morphing, flicker, jitter, costume changes between shots, missing bow, missing straw, empty glass, spilled milk, four dogs, two dogs, dogs on all fours</pre></div></div>
+ </div>
+ <div style="margin-top:8px"><h3>추천 모델</h3><span class="pill m1">seedance-2-5</span> <span class="mute" style="font-size:13px">1st choice — 원본 동일 모델. 여러 마리 동시 보행/팔짱 동작 일관성.</span><br><span class="pill m">kling-v3</span> <span class="mute" style="font-size:13px">alt — 로우앵글 트럭백 + 이족 보행 리듬이 자연스러움.</span><br><span class="pill m">minimax-h3</span> <span class="mute" style="font-size:13px">alt — 빠르고 표정(이빨 드러낸 웃음) 연기가 과장되게 잘 나옴.</span><br>
+ <p class="mute" style="font-size:13px">5초 image2video, 앞 1.77초만 사용. 마릿수가 바뀌는 사고가 잦으니 프롬프트에 &#x27;exactly three&#x27; 반복, 네거티브에 &#x27;four dogs&#x27;. 샷1과 같은 치와와 레퍼런스 이미지 사용.</p></div>
+ <div class="grid2"><div class="pr"><div class="lab">전환 · FFmpeg</div><button class="cp" onclick="cp(this)">복사</button><pre>concat (no xfade) at 3.67s</pre></div><div class="pr"><div class="lab">전환 · HyperFrames</div><button class="cp" onclick="cp(this)">복사</button><pre>clip s02 data-start=1.9 data-duration=1.77, s03 data-start=3.67, no transition</pre></div></div>
+ <div class="swap"><h3>🔁 동물 교체 버전 — baby golden hamster</h3>
+  <div class="grid2"><div class="pr"><div class="lab">이미지 프롬프트</div><button class="cp" onclick="cp(this)">복사</button><pre>Same as original shot 2 prompt (the chihuahua gang is unchanged in the hamster remake).</pre></div><div class="pr"><div class="lab">영상 프롬프트</div><button class="cp" onclick="cp(this)">복사</button><pre>Same as original shot 2 video prompt.</pre></div></div>
+  <p class="mute" style="font-size:13px">이 샷은 적(치와와 갱) 소개라 동물 교체 불필요. 햄스터 버전에서도 그대로 재사용 가능(원본보다 체급 차이가 커져 더 웃김).</p></div>
+</div>
+<div class="card shot" id="shot3">
+ <div class="shothead"><span class="n">SHOT 3</span>
+  <b>3.67s → 12.03s</b><span class="pill">8.36초</span>
+  <span class="pill">생성클립 #3</span><span class="pill">Starts MCU on kitten (3.67-6.2) -&gt; foreground-wipe reveal (6.2-7.2) -&gt; full shot of whippet (7.2) walking into medium-full / cowboy shot (9-12)</span>
+  <span class="pill">eye-level of the kitten at start (~60 cm), stays at that height so the tall whippet is seen from a slight low angle</span><span class="pill">35mm equiv; start f/2 with kitten sharp and background soft, rack focus to the whippet during the reveal, then f/4</span></div>
+ <div class="strip"><div class="fr"><a href="assets/v03/g_04.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_04.00.jpg"></a><span class="t">g_04.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/g_05.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_05.00.jpg"></a><span class="t">g_05.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/g_06.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_06.00.jpg"></a><span class="t">g_06.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/x_6.40_wipe.jpg" target="_blank"><img loading="lazy" src="assets/v03/x_6.40_wipe.jpg"></a><span class="t">x_6.40_wipe</span><span class="g"></span></div><div class="fr"><a href="assets/v03/g_07.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_07.00.jpg"></a><span class="t">g_07.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/g_08.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_08.00.jpg"></a><span class="t">g_08.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/g_09.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_09.00.jpg"></a><span class="t">g_09.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/g_10.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_10.00.jpg"></a><span class="t">g_10.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/g_11.00.jpg" target="_blank"><img loading="lazy" src="assets/v03/g_11.00.jpg"></a><span class="t">g_11.00</span><span class="g"></span></div><div class="fr"><a href="assets/v03/s03_out_11.96.jpg" target="_blank"><img loading="lazy" src="assets/v03/s03_out_11.96.jpg"></a><span class="t">s03_out_11.96</span><span class="g"></span></div><div class="fr"><a href="assets/v03/x_dense_03.jpg" target="_blank"><img loading="lazy" src="assets/v03/x_dense_03.jpg"></a><span class="t">x_dense_03</span><span class="g"></span></div><div class="fr"><a href="assets/v03/x_dense_04.jpg" target="_blank"><img loading="lazy" src="assets/v03/x_dense_04.jpg"></a><span class="t">x_dense_04</span><span class="g"></span></div><div class="fr"><a href="assets/v03/x_dense_05.jpg" target="_blank"><img loading="lazy" src="assets/v03/x_dense_05.jpg"></a><span class="t">x_dense_05</span><span class="g"></span></div></div>
+ <table><tr><th>카메라 움직임</th><td>① 3.67~6.1: 고양이 쪽으로 느린 돌리 인(약 15% 확대). ② 6.1~7.2: 카메라가 왼쪽으로 트럭(옆으로 이동)하면서 살짝 오른쪽 패닝 — 전경의 고양이와 돌벽 모서리가 화면 오른쪽으로 쓸려 나가는 &#x27;전경 와이프&#x27;, 동시에 초점이 고양이→휘핏으로 랙포커스. ③ 7.2~12.0: 카메라는 거의 고정/아주 느린 후진, 휘핏이 카메라로 걸어와 FS→MFS로 커짐(키 73%→화면 밖). 컷 없음(원테이크).</td></tr><tr><th>화면 구성(구도)</th><td>① 고양이 MCU: 얼굴 x≈42%, y≈28%, 몸이 무릎에서 잘려 화면 높이 100% 채움. 오른쪽 25~100%에 거친 돌벽(고양이가 등을 기댐), 왼쪽 0~25%로 판타지 계곡/첨탑/초가집/자갈길이 보임. 6.0s엔 얼굴이 화면 오른쪽으로 커지며 x≈65%. ② 6.17s 휘핏이 고양이 왼쪽 뒤(x≈35%, y≈45%)에서 걸어 나옴. ③ 7.0s 휘핏 중앙 x≈50%, 귀 y≈24%~발 y≈98%(키 73%), 오른쪽 x≈92~100%에 돌기둥 가장자리 잔상. 7.33s부터 오른쪽 x≈82~100%에 목조 반목구조 집+사과 통+돌계단. 배경 상단 0~35%에 판타지 성채 첨탑·폭포·떠있는 섬(수평선/능선 y≈30~45%). ④ 9.0s 휘핏 머리 y≈15~33%, 허벅지에서 잘림. ⑤ 11.96s 파이팅 가드: 머리 x≈47%, y≈36%, 주먹 y≈55~60%, 3분할 중앙 수직선 위.</td></tr>
+ <tr><th>동물 행동/연기</th><td>고양이 기사가 돌벽에 기대 우유를 계속 빨대로 마심(눈을 카메라 쪽으로, 천천히 깜빡). 6.1s 뒤편에서 근육질 인간형 휘핏이 무표정으로 걸어 나오고, 카메라가 옆으로 빠지며 전신 공개. 휘핏은 어깨를 굴리며 스웨거 있게 카메라 쪽으로 성큼성큼 걸어옴(팔 흔들기, 장갑 낀 주먹), 10.0~10.3s 가슴 앞에서 글러브를 맞부딪치고, 11.3~12.0s 무릎 굽혀 스텝 밟으며 양 주먹을 올린 파이팅 가드 자세로 정면 응시 — &#x27;보디가드 등장&#x27; 펀치라인.</td></tr><tr><th>배경</th><td>샷1/2의 흐린 골목과 달리 맑고 쨍한 판타지 왕국: 푸른 하늘+흰 뭉게구름, 절벽 위 고딕 첨탑 성채(장미창), 폭포와 물안개, 떠 있는 나무 섬, 초록 언덕과 초가집, 개울, 곡선 자갈길. 오른쪽 목조 반목구조(하프팀버) 중세 집, 사과가 담긴 나무통, 돌계단.</td></tr><tr><th>화면 문구/자막</th><td>없음</td></tr>
+ <tr><th>다음 컷 전환</th><td>End (hard stop, no loop dissolve) — 12.03s 영상 종료. 오디오는 11.80s에서 먼저 뚝 끊김(0.23s 무음 꼬리). 마지막 프레임(휘핏 가드)→첫 프레임(치와와 난투)로 자연스럽게 &#x27;이제 너네 다 죽었다&#x27; 루프 연결.</td></tr>
+ <tr><th>BGM 상태</th><td>3.67~5.7s 트랙 A가 계속 페이드되어 -38dB까지 사라짐 → 5.6~6.08s 거의 무음(-45~-52dB, 긴장된 정적) → 6.08s 휘핏 첫 등장과 동시에 트랙 B 진입(비브라토 있는 멜로디 리드/보컬풍 라인) → 7.0s 휘핏 전신 공개 순간 808 킥/베이스 드롭(-10dB), 이후 약 0.54s 간격(≈111BPM) 킥이 휘핏 걸음과 대충 맞음 → 11.80s 컷. (스펙트로그램 기반 추정)</td></tr></table>
+ <h3 style='margin-top:10px'>효과음 큐</h3><ul><li><b>6.08s</b> 트랙 B 진입 = 휘핏 등장 신호 <span class="mute">(music entry (track B melodic lead))</span></li><li><b>7.0s</b> 드롭 = 전신 공개 <span class="mute">(808 bass drop / heavy kick)</span></li><li><b>10.1s</b> 글러브 맞부딪치는 소리(선택, 원본엔 불명확) <span class="mute">(leather MMA gloves bump (optional))</span></li></ul>
+ <div class="grid2">
+  <div><div class="pr"><div class="lab">① 이미지 프롬프트 (시작 프레임)</div><button class="cp" onclick="cp(this)">복사</button><pre>Vertical 9:16 photorealistic cinematic still, medium close-up at kitten eye level, 35mm lens, f/2 shallow depth of field. a tiny fluffy 8-week-old cream-beige British Longhair kitten with long soft light-golden fur, round flat face, huge round glossy dark blue-black eyes, small pink nose, long white whiskers, small rounded ears with fur tufts, a small pink satin bow on its left ear, standing upright on hind legs like a person, about the height of a chihuahua, wearing polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground, holding with both paws a tall clear drinking glass filled with white milk, sipping through a pink-and-white striped bendy straw, leaning its back and right shoulder against a massive rough grey stone wall that fills the right 70% of the frame; the kitten&#x27;s face at x 42%, y 28%, looking into the lens with sleepy calm eyes, body cropped at the knees. Through the left 25% of the frame, softly out of focus: a sunny fantasy valley with a curving cobblestone lane, thatched cottages, green hills and tall slender gothic spires under a clear blue sky. Bright natural sunlight with soft shade from the wall, crisp fur detail, gentle warm skin tones on the paw pads, slightly saturated blue-teal-green background, real photography look, no watermark, no logo, no text, no subtitles.</pre></div>
+       <div class="pr"><div class="lab">③ 끝 프레임 프롬프트 (First-Last 모드용)</div><button class="cp" onclick="cp(this)">복사</button><pre>Vertical 9:16 photorealistic medium-full shot, 35mm, slight low angle from 60 cm: a tall anthropomorphic white whippet standing upright like a human MMA fighter, same height as an adult man: narrow long whippet head, white short-haired coat with a grey-brindle patch over its left eye and left ear, soft folded rose ears pale grey with pink insides, black nose, calm deadpan brown eyes, long thin neck, lean shredded human-like torso with visible abs and pecs covered in short white dog fur, long skinny dog arms, bare dog hind legs with white paws, wearing black Muay Thai fight shorts covered in a colorful gummy-candy print with a big multicolor bubble-letter logo on the front and a black waistband, and black open-finger MMA gloves with small white lettering, standing in a boxing guard with both gloved fists raised in front of its chest and chin, knees bent, head at x 47%, y 36%, fists at y 57%, cropped at the thighs, on a cobblestone lane in a sunny fantasy kingdom with gothic spires on a cliff, a waterfall and floating tree islands behind, a half-timbered medieval house with a barrel of apples and stone steps on the right edge, clear blue sky with white clouds, no watermark, no logo, no text, no subtitles.</pre></div></div>
+  <div><div class="pr"><div class="lab">② 영상 프롬프트 (Image→Video)</div><button class="cp" onclick="cp(this)">복사</button><pre>One continuous 8.5-second take, no cuts. 0-2.4s: slow dolly-in on the armored kitten leaning on the stone wall while it keeps sipping milk through the striped straw and blinks slowly at the camera. 2.4s: from behind the kitten, on the left in the background, a tall anthropomorphic white whippet standing upright like a human MMA fighter, same height as an adult man: narrow long whippet head, white short-haired coat with a grey-brindle patch over its left eye and left ear, soft folded rose ears pale grey with pink insides, black nose, calm deadpan brown eyes, long thin neck, lean shredded human-like torso with visible abs and pecs covered in short white dog fur, long skinny dog arms, bare dog hind legs with white paws, wearing black Muay Thai fight shorts covered in a colorful gummy-candy print with a big multicolor bubble-letter logo on the front and a black waistband, and black open-finger MMA gloves with small white lettering steps out onto the cobblestone lane. 2.5-3.5s: the camera trucks smoothly to the left and pans slightly right, so the kitten and the edge of the stone wall slide out of frame to the right as an out-of-focus foreground wipe, focus racks from the kitten to the whippet, revealing a bright fantasy kingdom behind it (gothic spires on cliffs, a waterfall, floating tree islands, a river) and a half-timbered medieval house with a barrel of apples and stone steps on the right. 3.5-8.5s: the camera settles almost static at the same height; the whippet walks straight toward the camera with a slow confident fighter swagger, shoulders rolling, gloved fists swinging, deadpan stare into the lens; at 6.4s it taps its two gloves together in front of its chest; at 7.6s it bends its knees, starts bouncing on its feet and raises both fists into a boxing guard in front of its chin, ending in a medium-full shot cropped at the thighs. Realistic body weight, natural fur and muscle motion, 24fps. Do NOT change: the whippet&#x27;s white coat and grey eye patch, the candy-print shorts and black gloves, the kitten&#x27;s armor and pink bow, time of day.</pre></div>
+       <div class="pr"><div class="lab">네거티브 프롬프트</div><button class="cp" onclick="cp(this)">복사</button><pre>extra limbs, extra heads, extra dogs, merged bodies, deformed paws, human hands, human face, cartoon, 3D render look, plastic fur, CGI toy look, anime, blurry face, text, watermark, logo, subtitles, frame borders, letterbox, split screen, morphing, flicker, jitter, costume changes between shots, missing bow, missing straw, empty glass, spilled milk, whippet on all fours, human skin, human face on the dog, cuts, scene change</pre></div></div>
+ </div>
+ <div style="margin-top:8px"><h3>추천 모델</h3><span class="pill m1">seedance-2-5</span> <span class="mute" style="font-size:13px">1st choice — 원본 모델. 10초 원테이크 안에서 &#x27;돌리인→전경 와이프→캐릭터 워크인&#x27; 같은 복합 카메라 연출을 한 번에 소화.</span><br><span class="pill m">kling-v3</span> <span class="mute" style="font-size:13px">alt (first-last frame) — 시작=고양이 MCU, 끝=휘핏 가드 프레임을 고정하는 first-last frame 제어로 결말 포즈를 확실히 맞출 수 있음.</span><br><span class="pill m">kling-v3-omni</span> <span class="mute" style="font-size:13px">alt (reference) — 고양이+휘핏 두 캐릭터 레퍼런스 이미지를 동시에 넣어 정체성 유지(ref2video).</span><br>
+ <p class="mute" style="font-size:13px">10초 image2video(또는 first-last frame) 1회 생성 후 앞 8.36초 사용. 휘핏 등장 타이밍이 2.4s(편집 기준 6.1s)에 오도록 프롬프트에 초 단위 명시. 실패 시 대안: 3a(고양이 푸시인+와이프, 3.3s) / 3b(휘핏 워크인, 5s)로 나눠 3a 마지막 프레임을 3b 첫 프레임으로 체인. 결말 가드 포즈는 end frame 이미지로 고정 권장.</p></div>
+ <div class="grid2"><div class="pr"><div class="lab">전환 · FFmpeg</div><button class="cp" onclick="cp(this)">복사</button><pre>trim end at 12.03; audio atrim=end=11.80 with 30 ms afade out</pre></div><div class="pr"><div class="lab">전환 · HyperFrames</div><button class="cp" onclick="cp(this)">복사</button><pre>composition duration 12.03s; audio clip ends 11.80s</pre></div></div>
+ <div class="swap"><h3>🔁 동물 교체 버전 — baby golden hamster</h3>
+  <div class="grid2"><div class="pr"><div class="lab">이미지 프롬프트</div><button class="cp" onclick="cp(this)">복사</button><pre>Vertical 9:16 photorealistic cinematic still, medium close-up at eye level, 35mm lens, f/2. a tiny fluffy baby golden hamster (Syrian hamster) with golden-orange and cream fur, white belly and white cheek patches, chubby puffed cheeks, huge round glossy black eyes, small pink nose, tiny rounded pink-lined ears, a small pink satin bow on its left ear, standing upright on its hind legs like a person, fantasy-scaled to the height of a chihuahua, wearing polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground, holding with both paws a tall clear drinking glass filled with white milk, sipping through a pink-and-white striped bendy straw, cheeks puffed, leaning its back against a massive rough grey stone wall filling the right 70% of the frame; face at x 42%, y 28%, looking into the lens with sleepy calm eyes, body cropped at the knees. Left 25% of frame softly out of focus: sunny fantasy valley, curving cobblestone lane, thatched cottages, gothic spires, clear blue sky. Bright natural sunlight, crisp fur detail, no watermark, no logo, no text, no subtitles.</pre></div><div class="pr"><div class="lab">영상 프롬프트</div><button class="cp" onclick="cp(this)">복사</button><pre>One continuous take. Slow dolly-in on the armored hamster sipping milk, cheeks puffing, slow blink. At 2.4s a tall anthropomorphic white whippet standing upright like a human MMA fighter, same height as an adult man: narrow long whippet head, white short-haired coat with a grey-brindle patch over its left eye and left ear, soft folded rose ears pale grey with pink insides, black nose, calm deadpan brown eyes, long thin neck, lean shredded human-like torso with visible abs and pecs covered in short white dog fur, long skinny dog arms, bare dog hind legs with white paws, wearing black Muay Thai fight shorts covered in a colorful gummy-candy print with a big multicolor bubble-letter logo on the front and a black waistband, and black open-finger MMA gloves with small white lettering steps out from behind it in the background. The camera trucks left so the hamster and the stone wall edge slide out of frame right as a blurred foreground wipe, focus racks to the whippet in a bright fantasy kingdom. The whippet walks toward the camera with a fighter swagger, taps its gloves together at 6.4s and raises a boxing guard at 7.6s, ending in a medium-full shot. Do NOT change the hamster&#x27;s armor and bow, the whippet&#x27;s outfit, or time of day.</pre></div></div>
+  <p class="mute" style="font-size:13px">보디가드(휘핏)는 원본 그대로 두는 게 가장 안전(캡션 &#x27;인스파이어드 by GSP&#x27; 밈 구조 유지). 햄스터 버전 대안 보디가드: 근육질 인간형 카피바라/그레이하운드.</p></div>
+</div>
+
+<h2>5. 사운드 — 배경음악 · 효과음</h2>
+<div class="card"><p>2개 트랙 편집(추정). 트랙 A(0.1~5.7s): 어두운 서스펜스 인트로 — 40~60Hz 서브 드론 + 110/220Hz 패드 + 8분음표 하이햇/클록 틱(약 111BPM), 0.3s 피크 후 약 -7dB/s로 긴 페이드아웃. 5.6~6.08s 거의 무음. 트랙 B(6.08~11.80s): 비브라토 있는 멜로디 리드(보컬 또는 신스/목관풍, 약 570Hz·1.5kHz 대역 흔들리는 선) 인트로 → 7.0s 808 킥+서브베이스 드롭, 0.54s 간격(약 111BPM) 하드한 워크인/폰크·드릴풍 비트. 11.80s에서 페이드 없이 컷.</p><ul><li>0.00-0.10s: 무음</li><li>0.10-0.30s: 트랙 A 진입, 0.3s 피크 -9.6dB</li><li>0.30-5.60s: 드론+틱이 -10dB→-38dB로 서서히 페이드</li><li>5.60-6.08s: 정적(-45~-52dB)</li><li>6.08-7.00s: 트랙 B 멜로디 인트로(-18~-20dB) = 휘핏 등장</li><li>7.00s: 드롭(-10dB 킥) = 휘핏 전신 공개</li><li>7.00-11.80s: 약 0.54s마다 킥(-10~-15dB), 멜로디 계속</li><li>11.80s: 하드 컷, 11.80-12.03s 무음</li></ul>
+<div class="pr"><div class="lab">음악 생성 프롬프트 (Suno / Udio / Pollo text2music)</div><button class="cp" onclick="cp(this)">복사</button><pre>Two-part 12-second cue. Part A (6 s): dark minimal suspense intro, deep sub-bass drone around 45 Hz with a low synth pad, dry ticking hi-hat eighth notes at 111 BPM, slowly fading out to near silence. Part B (6 s): after a half-second of silence, a sneaky exotic melodic lead with heavy vibrato enters alone for one bar, then a hard trap/phonk drop with booming distorted 808 kicks and sub bass on every beat at 111 BPM, swaggering fighter walkout energy, confident and menacing but funny, instrumental, no vocals lyrics, ends abruptly.</pre></div>
+<h3 style="margin-top:12px">효과음 큐시트</h3><table><tr><th>0.3s</th><td><b>small dogs scuffle snarl</b> · -22 dB<br><span class="mute">검색어: chihuahua growl snarl fight small dog</span><br><span class="mute">생성: two small chihuahuas snarling and yapping while scuffling, close, dry alley ambience, 1.5 seconds</span></td></tr><tr><th>4.2s</th><td><b>soft straw sip slurp</b> · -24 dB<br><span class="mute">검색어: straw sip slurp drink milk</span><br><span class="mute">생성: a tiny gentle sip through a plastic straw from a glass of milk, close mic, 1 second</span></td></tr><tr><th>6.08s</th><td><b>track B entry (music cue, not SFX)</b> · -8 dB<br><span class="mute">검색어: phonk intro vibrato lead</span><br><span class="mute">생성: </span></td></tr><tr><th>7.0s</th><td><b>808 sub drop impact</b> · -10 dB<br><span class="mute">검색어: 808 sub drop boom impact</span><br><span class="mute">생성: a deep booming 808 sub-bass drop hit with short tail, 1 second</span></td></tr><tr><th>10.1s</th><td><b>MMA gloves tap</b> · -18 dB<br><span class="mute">검색어: boxing gloves punch together leather tap</span><br><span class="mute">생성: two leather MMA gloves tapped together twice in front of the chest, close, 0.6 seconds</span></td></tr></table><p class="mute">원본은 사실상 음악 전용 믹스(효과음 거의 안 들림, 추정). 음악 피크 -9.6dB, 평균 -24.9dB. 트랙 A는 0.3s부터 5.4s 지수 페이드아웃, 5.6~6.08s 정적 유지가 핵심. 트랙 B 드롭을 정확히 7.00s에 맞출 것. 효과음을 넣는다면 -18~-24dB로 음악 아래에 깔기. 11.80s 하드 컷(30ms 미니 페이드만).</p></div>
+
+
+<h2>6. 다른 동물로 바꾸기 — 캐릭터 고정 전략</h2>
+<div class="card"><p><b>기본 교체 동물:</b> baby golden hamster (hero, replaces the armored kitten; chihuahua gang and whippet bodyguard unchanged) · <span class="mute">대안: baby red panda cub (hero in the same armor, pink bow, milk glass), fluffy baby hedgehog (hero; tiny armor with gaps for quills)</span></p>
+<div class="pr"><div class="lab">캐릭터 레퍼런스 시트 프롬프트 (먼저 이걸로 기준 이미지 1장 만들기)</div><button class="cp" onclick="cp(this)">복사</button><pre>Character reference turnaround sheet on a plain light-grey studio background, photorealistic, 4 views in one row (front, 3/4 left, side profile, back) plus one close-up face inset: a tiny fluffy baby golden hamster (Syrian hamster) with golden-orange and cream fur, white belly and white cheek patches, chubby puffed cheeks, huge round glossy black eyes, small pink nose, tiny rounded pink-lined ears, a small pink satin bow on its left ear, standing upright on its hind legs like a person, fantasy-scaled to the height of a chihuahua, wearing polished silver medieval plate armor sized for the kitten: rounded engraved pauldrons with silver filigree, a round brass rosette rivet on the chest near the left shoulder, articulated vambraces and gauntlets with the furry brown-cream paw pads exposed, a chest plate over a fine chainmail skirt, a front tasset plate engraved with a fleur-de-lis, a diagonal dark-brown leather sword belt with a brass buckle, a short sword with a brass cross-guard in a brown leather scabbard on the left hip, knee cops and greaves, and a long ivory-cream cloth cape hanging from the shoulders to the ground, holding a tall clear glass of white milk with a pink-and-white striped bendy straw in the front view. Consistent proportions in every view, even soft studio light, sharp fur detail, no text, no watermark.</pre></div>
+<h3>일관성 유지 팁</h3><ul><li>nano-banana-pro 로 캐릭터 시트 1장 → 모든 시작 프레임 생성 시 레퍼런스로 첨부</li><li>모든 프롬프트에 &#x27;분홍 리본 왼쪽 귀, 분홍-흰 줄무늬 빨대, fleur-de-lis 갑옷&#x27; 3개 식별 포인트를 문자 그대로 반복</li><li>햄스터 키를 &#x27;치와와와 같은 키&#x27;로 고정(판타지 스케일) — 너무 작게 나오면 샷1 구도(42% 높이)가 깨짐</li><li>휘핏은 별도 캐릭터 시트(정면/측면) 만들어 샷3에서 ref2video(kling-v3-omni) 또는 first-last frame으로 고정</li><li>시드 고정 + 같은 모델(seedance-2-5)로 3샷 모두 생성해 질감 통일</li><li>샷1·2는 흐림/탈채도, 샷3은 맑음/고채도 — 원본의 톤 점프를 일부러 유지</li></ul></div>
+
+
+<h2>7. FFmpeg 편집 스크립트</h2>
+<div class="card"><ul><li>생성본 s01.mp4(5s), s02.mp4(5s), s03.mp4(10s)를 1080x1920/30fps로 정규화하며 필요한 길이만 트림(1.90 / 1.77 / 8.36s)</li><li>샷1·2에 흐림 톤 그레이드(채도 0.85, 밝기 -0.03), 샷3은 채도 1.05</li><li>concat 필터로 하드컷 연결(전환 효과 없음)</li><li>bgm_a.mp3: 0.1s 시작, 0.3s부터 5.4s 지수 페이드아웃, 5.7s에서 끝</li><li>bgm_b.mp3: 드롭 위치(DROP_B초)가 영상 7.00s에 오도록 -ss 오프셋 후 6.08s에 adelay, 11.80s 하드 컷</li><li>선택 SFX를 -18~-24dB로 믹스, 12.03s로 최종 길이 맞추고 자기 로고 오버레이(선택)</li></ul><div class="pr"><div class="lab">전체 조립 스크립트 (s01.mp4… + bgm + sfx → 최종본)</div><button class="cp" onclick="cp(this)">복사</button><pre>#!/usr/bin/env bash
+# v03 remake assembler. Inputs: s01.mp4 s02.mp4 s03.mp4 bgm_a.mp3 bgm_b.mp3 [sfx_scuffle.wav sfx_sip.wav sfx_drop.wav sfx_gloves.wav] [logo.png]
+set -euo pipefail
+DROP_B=${DROP_B:-4.00}   # seconds into bgm_b.mp3 where its 808 drop hits
+OFF_B=$(python -c &quot;print(max(0.0, ${DROP_B} - 0.92))&quot;)   # track B starts 0.92 s before its drop (6.08 -&gt; 7.00)
+NORM=&quot;scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p&quot;
+ENC=&quot;-c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p -an&quot;
+ffmpeg -v error -y -ss 0 -t 1.90 -i s01.mp4 -vf &quot;${NORM},eq=saturation=0.85:brightness=-0.03:contrast=0.97&quot; $ENC c1.mp4 &lt; /dev/null
+ffmpeg -v error -y -ss 0 -t 1.77 -i s02.mp4 -vf &quot;${NORM},eq=saturation=0.85:brightness=-0.02:contrast=0.97&quot; $ENC c2.mp4 &lt; /dev/null
+ffmpeg -v error -y -ss 0 -t 8.36 -i s03.mp4 -vf &quot;${NORM},eq=saturation=1.05&quot; $ENC c3.mp4 &lt; /dev/null
+# video: hard cuts at 1.90 and 3.67
+ffmpeg -v error -y -i c1.mp4 -i c2.mp4 -i c3.mp4 -filter_complex &quot;[0:v][1:v][2:v]concat=n=3:v=1:a=0,trim=0:12.03,setpts=PTS-STARTPTS[v]&quot; -map &quot;[v]&quot; $ENC video_only.mp4 &lt; /dev/null
+# audio: track A fades 0.3-&gt;5.7 s, dead air until 6.08, track B drop at 7.00, hard stop 11.80
+ffmpeg -v error -y -i video_only.mp4 -i bgm_a.mp3 -ss ${OFF_B} -i bgm_b.mp3 \
+  -filter_complex &quot;\
+[1:a]atrim=0:5.6,asetpts=PTS-STARTPTS,afade=t=in:st=0:d=0.2,afade=t=out:st=0.3:d=5.3:curve=exp,adelay=100|100,volume=0dB[a1];\
+[2:a]atrim=0:5.72,asetpts=PTS-STARTPTS,afade=t=out:st=5.69:d=0.03,adelay=6080|6080,volume=0dB[a2];\
+[a1][a2]amix=inputs=2:normalize=0:duration=longest,atrim=0:12.03,apad=whole_dur=12.03,aresample=48000[a]&quot; \
+  -map 0:v -map &quot;[a]&quot; -c:v copy -c:a aac -b:a 192k -ar 48000 -t 12.03 v03_remake_nosfx.mp4 &lt; /dev/null
+# optional SFX layer (skip if files missing)
+if [ -f sfx_drop.wav ]; then
+ffmpeg -v error -y -i v03_remake_nosfx.mp4 -i sfx_scuffle.wav -i sfx_sip.wav -i sfx_drop.wav -i sfx_gloves.wav -filter_complex &quot;\
+[1:a]adelay=300|300,volume=-22dB[s1];[2:a]adelay=4200|4200,volume=-24dB[s2];[3:a]adelay=7000|7000,volume=-10dB[s3];[4:a]adelay=10100|10100,volume=-18dB[s4];\
+[0:a][s1][s2][s3][s4]amix=inputs=5:normalize=0:duration=first,alimiter=limit=0.95[a]&quot; \
+  -map 0:v -map &quot;[a]&quot; -c:v copy -c:a aac -b:a 192k -t 12.03 v03_remake.mp4 &lt; /dev/null
+else cp v03_remake_nosfx.mp4 v03_remake.mp4; fi
+# optional own logo top-right (never reuse the source&#x27;s Higgsfield/SickMan marks)
+if [ -f logo.png ]; then
+ffmpeg -v error -y -i v03_remake.mp4 -i logo.png -filter_complex &quot;[1:v]scale=170:-1[l];[0:v][l]overlay=W-w-24:24&quot; -c:v libx264 -crf 16 -preset slow -c:a copy v03_final.mp4 &lt; /dev/null
+fi
+</pre></div></div>
+
+<h2>8. HyperFrames 편집 프롬프트</h2>
+<div class="card"><div class="pr"><div class="lab">Claude Code + HyperFrames 스킬에 그대로 붙여넣기</div><button class="cp" onclick="cp(this)">복사</button><pre>Using the HyperFrames skill, build a 9:16 1080x1920 30fps composition, total duration 12.03 s, named v03_milk_knight_bodyguard. Assets in ./assets: s01.mp4, s02.mp4, s03.mp4, bgm_a.mp3, bgm_b.mp3, optional sfx_scuffle.wav, sfx_sip.wav, sfx_drop.wav, sfx_gloves.wav, optional logo.png. VIDEO TRACK (hard cuts only, no transitions): clip 1 = s01.mp4 from 0.00 to 1.90 s (source in 0.00); clip 2 = s02.mp4 from 1.90 to 3.67 s (source in 0.00); clip 3 = s03.mp4 from 3.67 to 12.03 s (source in 0.00). Scale every clip with object-fit cover to 1080x1920. Grade: clips 1-2 CSS filter saturate(0.85) brightness(0.97) contrast(0.97); clip 3 saturate(1.05). No captions, no on-screen text. AUDIO: bgm_a.mp3 starts at 0.10 s, fades in over 0.2 s, then fades out exponentially from 0.30 s to 5.60 s (to about -40 dB), ends at 5.70 s. Leave 5.70-6.08 s silent. bgm_b.mp3 starts at 6.08 s with its source offset chosen so its 808 drop lands exactly at 7.00 s (the moment the whippet is fully revealed), and hard-stops at 11.80 s with a 30 ms fade. Optional SFX: sfx_scuffle at 0.30 s -22 dB, sfx_sip at 4.20 s -24 dB, sfx_drop at 7.00 s -10 dB, sfx_gloves at 10.10 s -18 dB. Optional logo.png top-right, 170 px wide, 24 px margin, full opacity for the whole duration. Keep deterministic timing (data-start / data-duration), validate with the CLI check, render to v03_remake.mp4, and report the final duration and the timestamps of both cuts.</pre></div><ul><li>트랜지션 요소 없이 하드컷 2번(1.90s, 3.67s)만 — 공개 연출(전경 와이프)은 생성 영상 안의 카메라 무브라 편집으로 만들지 않음</li><li>음악 두 트랙의 경계(5.7~6.08s 정적)와 7.00s 드롭 정렬이 이 영상의 핵심 타이밍</li><li>원본 워터마크(Higgsfield/Seedance 배지, SickMan 로고)는 재현하지 말고 자기 로고로 대체</li></ul></div>
+
+<h2>9. 똑같이 만들기 체크리스트</h2>
+<div class="grid2"><div class="card"><h3>체크리스트</h3><ul><li>총 길이 12.03s, 컷 2번: 1.90s / 3.67s (그 외 컷 없음)</li><li>샷1: 와이드, 고양이 왼쪽 x≈12% 키 42%, 치와와 난투 오른쪽 절반, 흐린 톤</li><li>샷2: 로우앵글 24mm, 치와와 정확히 3마리 어깨동무, 가운데 개 화면 정중앙에서 이빨 웃음</li><li>샷3: 고양이 MCU 돌리인 → 6.08~6.17s 휘핏 등장 → 6.2~7.2s 전경 돌벽 와이프+랙포커스 → 휘핏 워크인 → 10.0s 글러브 탭 → 11.3s 파이팅 가드로 종료</li><li>샷3 배경은 맑은 판타지 왕국(첨탑·폭포·떠있는 섬), 샷1·2는 흐린 골목 — 톤 점프 유지</li><li>고양이(햄스터) 식별: 분홍 리본 왼쪽 귀, 분홍-흰 줄무늬 빨대, 은색 판금+체인메일+아이보리 망토+갈색 검띠</li><li>휘핏 식별: 흰 털+왼쪽 눈 회색 패치, 캔디 프린트 검정 반바지, 검정 오픈핑거 MMA 장갑, 맨발</li><li>오디오: 0.3s 피크 후 5.4s 페이드 → 5.6~6.08s 정적 → 6.08s 트랙B → 7.00s 드롭 → 11.80s 컷</li><li>자막 없음, 원본 워터마크 복제 금지(자기 로고만)</li><li>24fps 생성 → 30fps 출력(원본과 동일한 모션 캐던스)</li></ul></div>
+<div class="card"><h3>확실한 것 vs 추정한 것</h3><ul><li>확실: 컷 위치 1.90s(프레임57)/3.67s(프레임110) — pixel_diff 스파이크 52.8/50.5로 확인. 그 외 구간은 스파이크 없음 → 샷3은 원테이크.</li><li>확실: 워터마크 &#x27;HIGGSFIELD / SEEDANCE 2.5&#x27; → 생성 모델은 Higgsfield의 Seedance 2.5.</li><li>확실: 매 5번째 프레임 중복(24→30fps 풀다운)이 컷을 넘어 위상 끊김 없이 이어짐 → 24fps 타임라인 편집 또는 단일 멀티샷 생성. gen_clip 3개는 재현용 권장 분할이며, 원본이 12초 멀티샷 1회 생성일 가능성도 있음(추정).</li><li>추정: 음악 구조(트랙A 드론 페이드 → 정적 → 트랙B 드롭 7.0s)는 RMS/스펙트로그램 기반. 트랙B의 비브라토 리드가 보컬인지 악기인지는 불확실(음성 전사 불가).</li><li>추정: 효과음은 거의 들리지 않는 음악 전용 믹스로 판단. SFX 목록은 선택 사항.</li><li>추정: 캡션 &#x27;inspired by @haroontwins &amp; @georgesstpierre&#x27; → 실존 스킷/GSP 워크인 밈을 동물로 패러디한 것으로 보임(원본 밈 미확인).</li><li>구도 수치(x%, y%, 높이%)는 540x960 프레임에서 눈으로 측정한 근사치(±3%).</li></ul></div></div>
+
+<h2>10. 전체 컨택트 시트</h2><img class="contact" src="assets/v03/contact.jpg" alt="contact sheet">
+<div class="nav"><a href="index.html">목차</a><a class="" href="P01_v04.html">1위</a><a class="" href="P02_v09.html">2위</a><a class="" href="P03_v01.html">3위</a><a class="" href="P04_v08.html">4위</a><a class="" href="P05_v10.html">5위</a><a class="" href="P06_v05.html">6위</a><a class="" href="P07_v06.html">7위</a><a class="" href="P08_v02.html">8위</a><a class="on" href="P09_v03.html">9위</a><a class="" href="P10_v07.html">10위</a></div>
+</div><button class="tbtn" onclick="tg()">3분할 가이드</button><script>
+function cp(b){const t=b.parentElement.querySelector('pre').innerText;navigator.clipboard.writeText(t).then(()=>{b.textContent='복사됨';setTimeout(()=>b.textContent='복사',1200)})}
+function tg(){document.body.classList.toggle('grid')}
+function cpAll(id,b){const t=document.getElementById(id).value;navigator.clipboard.writeText(t).then(()=>{const o=b.textContent;b.textContent='✅ 전체 복사됨 ('+t.length.toLocaleString()+'자)';setTimeout(()=>b.textContent=o,2000)})}
+</script></body></html>

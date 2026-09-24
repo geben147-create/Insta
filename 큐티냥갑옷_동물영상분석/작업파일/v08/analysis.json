@@ -1,0 +1,1011 @@
+{
+ "id": "v08",
+ "title_ko": "아기고양이 기사와 붉은 용 3편: 추락 후 하트",
+ "one_line_ko": "핑크 리본 아기고양이 기사가 붉은 용을 타고 구름 위를 날다 급강하·추락하지만, 기절한 용을 걱정해 들여다보자 용이 눈을 뜨고 연기 하트를 내뿜는 36초 시네마틱 쇼츠(대부분 가로 영상을 90도 돌려 세로를 채움).",
+ "format": {
+  "aspect": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "duration": 36.57,
+  "shot_count": 8,
+  "gen_clip_count": 8,
+  "avg_shot_len": 4.57,
+  "orientation_trick_ko": "핵심 트릭: 1번 샷(0~6.53s)만 세로 네이티브이고, 2~8번 샷(6.53~36.57s, 전체의 82%)은 16:9 가로(1920x1080)로 생성한 영상을 시계방향 90도 회전(transpose=1)해 1080x1920에 크롭 없이 딱 맞춤. 그래서 하늘은 항상 화면 오른쪽, 땅은 왼쪽. 장점: 날개폭·용 전신 같은 가로 구도를 잘라내지 않고 세로 화면을 꽉 채움 + 시청자가 폰을 옆으로 돌리게 만드는 패턴 인터럽트/댓글 유발('목 꺾임' 반응). 또 5프레임마다 중복 프레임 → 24fps 타임라인을 30fps로 내보낸 흔적(16.57s에서 위상 1프레임 이동).",
+  "watermark_ko": "화면 내 워터마크/로고 없음(전 프레임 확인). 캡션에서 가이드 제공.",
+  "on_screen_text_ko": "없음 (자막·문구 전혀 없음). 캡션: '🐱⚔🐉 pt.3 / Comment \"guide\" for the prompts.'"
+ },
+ "viral_analysis": {
+  "hook_0_3s_ko": "0초부터 '갑옷 입은 핑크 리본 아기고양이가 용을 타고 있다'는 비현실적 귀여움+스케일 대비가 한 프레임에 전달됨. 1~2s 고양이가 고개를 들어 렌즈와 눈을 맞추는 순간(아이컨택)이 스크롤을 멈추게 하고, 2.3s부터 난기류 흔들림으로 즉시 긴장감 추가.",
+  "pattern_interrupts_ko": [
+   "6.53s 세로 → 90도 회전 가로 영상으로 전환: 화면이 옆으로 누워 시청자가 폰을 돌리게 됨",
+   "9.33s 측면 → 뒤에서 쫓는 체이스캠, 날개가 세로 화면 전체를 가로지름",
+   "12.70s 라이더 어깨너머 POV + 구름 걷히며 농지 리빌",
+   "16.57s 급강하 배럴롤 액션컷(가장 격렬한 모션)",
+   "21.57s 지면 충돌 + 고양이 튕겨나감(충격)",
+   "23s 이후 소리가 급격히 조용해지는 감정 전환",
+   "30.9s 용의 눈이 번쩍 뜨이는 리빌",
+   "33.9s 연기 하트 등장(감정 페이오프)"
+  ],
+  "story_arc": [
+   {
+    "beat": "Setup",
+    "range": "0.00-6.53",
+    "desc_ko": "아기고양이 기사가 용 목 위 안장에 앉아 비행, 카메라와 눈맞춤. 난기류로 살짝 긴장."
+   },
+   {
+    "beat": "Escalation",
+    "range": "6.53-16.57",
+    "desc_ko": "측면·체이스·어깨너머 3앵글로 비행의 스케일을 보여주고, 끝에서 급강하 시작."
+   },
+   {
+    "beat": "Climax",
+    "range": "16.57-23.00",
+    "desc_ko": "배럴롤 급강하 → 초원에 충돌, 고양이가 튕겨나감."
+   },
+   {
+    "beat": "Escalation",
+    "range": "23.00-29.20",
+    "desc_ko": "감정적 긴장: 고양이가 일어나 기절한 용에게 다가가 걱정스럽게 들여다봄('용 괜찮아?' 질문 발생)."
+   },
+   {
+    "beat": "Payoff",
+    "range": "29.20-36.57",
+    "desc_ko": "용이 눈을 뜨고 고양이를 바라본 뒤 안심하며 연기 하트를 내뿜음 → '둘은 서로 아낀다'."
+   }
+  ],
+  "retention_devices_ko": [
+   "평균 샷 길이 4.6s지만 매 컷마다 앵글 크기/방향이 크게 바뀜(와이드↔클로즈업 교차)",
+   "귀여움(0-6s) → 스펙터클(6-16s) → 위기(16-23s) → 감동(23-36s)의 감정 곡선",
+   "회전 화면이 '어? 왜 옆으로?' 호기심을 만들어 끝까지 보게 함",
+   "추락 후 '용이 죽었나?' 물음 → 30.9s 눈 뜸으로 해소",
+   "시리즈(pt.3) 표기로 이전/다음 편 탐색 유도"
+  ],
+  "why_viral_ko": [
+   "초소형 귀여운 동물 × 거대 판타지 생물의 극단적 스케일 대비",
+   "핑크 리본+은색 갑옷이라는 확실한 캐릭터 아이덴티티(시리즈 재인식)",
+   "대사 없이 이해되는 무성 스토리(글로벌 도달)",
+   "실사급 비늘/털 퀄리티로 '이거 AI야?' 논쟁 유발",
+   "마지막 하트로 공유 욕구(감동) 자극",
+   "캡션 'Comment guide' 자동DM 유도로 댓글 수 폭증(1,810개)"
+  ],
+  "comment_bait_ko": "캡션의 'Comment \"guide\" for the prompts' = 댓글 키워드 자동 DM 퍼널. 여기에 90도 회전 화면이 '폰 돌려서 봤다' 류 댓글을, 용 기절 장면이 '용 괜찮아?' 댓글을 추가로 유발.",
+  "loop_design_ko": "완전 루프 아님(첫 프레임 하늘 위 비행, 마지막 프레임 지상 클로즈업). 대신 하트가 사라지는 조용한 엔딩이 짧아 재시청 유도, 시리즈(pt.1~3) 연결로 프로필 방문 유도.",
+  "editing_terms": [
+   {
+    "term": "90-degree rotated footage (sideways frame)",
+    "ko": "가로 영상 90도 회전해 세로 채우기",
+    "where": "6.53-36.57s"
+   },
+   {
+    "term": "Hard cut",
+    "ko": "즉시 컷",
+    "where": "6.53, 9.33, 12.70, 16.57, 21.57, 26.57, 29.20s"
+   },
+   {
+    "term": "Cut on action",
+    "ko": "동작 중 컷(다이브 시작 순간)",
+    "where": "16.57s"
+   },
+   {
+    "term": "Punch-in (axial cut-in)",
+    "ko": "같은 축으로 더 가까이 들어가는 컷",
+    "where": "26.57s, 29.20s"
+   },
+   {
+    "term": "Reveal",
+    "ko": "구름이 걷히며 풍경 공개 / 눈 뜨는 리빌",
+    "where": "13.0s, 30.9s"
+   },
+   {
+    "term": "Camera roll / Dutch tilt",
+    "ko": "카메라 회전 기울기",
+    "where": "2.3-5.8s, 17.5-20.5s"
+   },
+   {
+    "term": "Motion blur",
+    "ko": "모션 블러",
+    "where": "3.0-4.5s, 19-22s"
+   },
+   {
+    "term": "Over-the-shoulder POV",
+    "ko": "어깨너머 1인칭 시점",
+    "where": "12.70-16.57s"
+   },
+   {
+    "term": "Tonal shift / sound drop",
+    "ko": "소리 급감으로 분위기 전환",
+    "where": "23.0s"
+   },
+   {
+    "term": "3:2 pulldown-style frame duplication (24→30fps)",
+    "ko": "24fps 편집본을 30fps로 출력(5프레임마다 중복)",
+    "where": "전체"
+   }
+  ]
+ },
+ "style_bible": {
+  "character_sheet_en": "a tiny 7-week-old fluffy kitten with long soft cream-beige fur and faint light-brown tabby stripes on the forehead, round head, small rounded ears, huge round glossy dark blue-grey eyes, small pink nose, white whiskers, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its front paws. Proportions: real kitten anatomy, sits and walks on four legs, head large relative to body, armor sized exactly to the kitten. Rides a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout.",
+  "wardrobe_props_en": "Polished silver miniature plate armor with engraved floral filigree (pauldrons, breastplate, vambraces, greaves), chainmail skirt, brown leather belt with brass buckle, tiny longsword with brass crossguard in dark leather scabbard on left hip, ivory-white linen cape, pink satin bow on the left ear, thin dark leather reins. Dragon: dark leather saddle with silver buckles at the base of the neck, harness straps around the chest, rein chain to the snout.",
+  "environment_en": "High-altitude overcast cloudscape (blue-grey cumulus, then bright white cloud sea), Irish/Scottish-style highlands with patchwork green farm fields and stone walls below, mossy green mountain ridges, a tall-grass meadow at the foot of a rocky hillside for the crash landing, drifting mist and brown dust.",
+  "lighting_en": "Soft diffused overcast daylight, no hard shadows, gentle top light with bright hazy sky as a large soft source; specular glints on wet-looking dragon scales and polished armor; slightly warmer light in the final close-ups.",
+  "color_grade_en": "Muted cool teal-grey skies (sky luma ~100-160, low saturation 27-55) against saturated crimson dragon; creamy beige kitten; final close-up warmer and richer (saturation ~83) with amber eye accent; slight film grain, soft contrast, no crushed blacks.",
+  "camera_lens_en": "Shot 1 50mm f/2 neck-mounted rider cam; aerial 24-35mm wide chase/side cams; 28mm OTS POV; ground 35-50mm; final 85mm macro-like ECU. Mix of locked mounts and aggressive rolling chase during turbulence and dive. All shots except shot 1 generated 16:9 and rotated 90 degrees clockwise.",
+  "realism_style_en": "Photorealistic live-action fantasy film look (Game-of-Thrones-like dragon realism) with a real-looking kitten; fur strand detail, wet glossy scales, practical dust; no cartoon stylization.",
+  "negative_prompt_en": "cartoon, 3d render look, plastic fur, anthropomorphic human body, standing on two legs like a human, extra limbs, extra tails, deformed paws, human hands, missing bow, bow on wrong ear, gold armor, black armor, blue dragon, green dragon, feathered wings, multiple kittens, multiple dragons, text, subtitles, watermark, logo, frame border, oversaturated, blurry face, warped horns"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "start": 0.0,
+   "end": 6.53,
+   "dur": 6.53,
+   "gen_clip": 1,
+   "frames": [
+    "frames/g_00.00.jpg",
+    "frames/g_02.00.jpg",
+    "frames/g_03.00.jpg",
+    "frames/g_05.00.jpg",
+    "frames/x_02.20.jpg",
+    "frames/x_06.30.jpg"
+   ],
+   "shot_size": "Medium full shot (MFS) of the rider",
+   "angle": "eye-level to slightly low, camera mounted on the dragon's neck facing back at the rider",
+   "lens_mm": "50mm equiv, shallow DOF (f/2.0 look)",
+   "camera_move_ko": "용 목에 달린 '넥 캠'처럼 라이더를 정면에서 바라보는 고정 마운트 + 아주 느린 푸시인. 2.3~5.8s 용이 기체를 기울이며 난기류: 카메라 롤 약 ±15도, 좌우 흔들림, 강한 모션블러(3.0s, 4.0s 프레임 흐림). 5.8s 이후 안정.",
+   "composition_ko": "원본 세로(9:16 네이티브, 회전 없음). 고양이 머리 중심 x50% y38%, 머리~발 높이 프레임의 약 55%(머리 위 y20% ~ 발 y78%), 헤드룸 약 20%. 하단 25%는 용 목의 비늘 능선이 삼각형으로 수렴(리딩 라인). 하늘(흐린 청회색 구름)이 상단 65%. 흰 망토가 화면 왼쪽으로 펄럭임. 중앙 구도(3분할 아님)로 '눈맞춤' 강조.",
+   "subject_action_ko": "0~1s 고양이가 고개를 숙여 아래를 내려다봄 → 1~2s 고개를 들어 렌즈를 정면으로 봄 → 2.3~4.5s 용이 급선회, 고양이가 좌우로 휘청이며 고삐를 꽉 잡음, 3.4s 오른쪽에 붉은 날개 끝이 스침 → 5~6.5s 다시 중심 잡고 커다란 눈으로 카메라 응시, 흰 망토가 바람에 휘날림.",
+   "background_ko": "흐린 청회색 적운 하늘(구름 사이 고공), 전경 하단 붉은 용 비늘 목 능선과 검은 가죽 고삐, 좌우 가장자리에 붉은 날개 막 일부.",
+   "on_screen_text_ko": "없음",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "6.53s 하드컷(픽셀차 104 스파이크, 1프레임). 세로 네이티브 → 90도 회전된 가로 영상으로 전환되는 첫 순간 = 시청자에게 '화면이 옆으로 누웠다'는 패턴 인터럽트.",
+    "ffmpeg": "concat (no xfade); s01 trim=0:6.53",
+    "hyperframes": "clip s01 0.00-6.53, next clip starts at 6.53 with no transition"
+   },
+   "sound": {
+    "bgm_ko": "잔잔한 시네마틱 앰비언트 패드 + 바람(추정). 2.5~3.3s 음량 -11dB 급상승(난기류 휘잉/용 포효 추정).",
+    "sfx": [
+     {
+      "t": 0.21,
+      "sfx_en": "high-altitude wind bed start",
+      "ko": "고공 바람"
+     },
+     {
+      "t": 0.75,
+      "sfx_en": "soft armor clink as kitten shifts",
+      "ko": "갑옷 딸깍"
+     },
+     {
+      "t": 2.51,
+      "sfx_en": "big wind gust whoosh + dragon wing flap",
+      "ko": "돌풍 휘익 + 날갯짓"
+     },
+     {
+      "t": 3.25,
+      "sfx_en": "leather creak and armor rattle",
+      "ko": "가죽 삐걱 + 갑옷 달그락"
+     },
+     {
+      "t": 4.48,
+      "sfx_en": "second wind gust / low dragon growl",
+      "ko": "두번째 돌풍/낮은 으르렁"
+     },
+     {
+      "t": 6.37,
+      "sfx_en": "cape flutter snap",
+      "ko": "망토 펄럭"
+     }
+    ]
+   },
+   "image_prompt_en": "Vertical 9:16 photorealistic film still. a tiny 7-week-old fluffy kitten with long soft cream-beige fur and faint light-brown tabby stripes on the forehead, round head, small rounded ears, huge round glossy dark blue-grey eyes, small pink nose, white whiskers, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its front paws. The kitten sits upright in a dark leather saddle on the neck of a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout, flying high above the clouds. Camera is mounted on the dragon's neck facing back toward the rider: the kitten is centered (head at 50% x, 38% y), its body fills about 55% of the frame height, looking straight into the lens with big curious eyes. The bottom 25% of the frame is the dragon's scaly neck ridge converging toward the kitten like a triangle, dark leather reins crossing diagonally. The ivory cape flutters to the left in strong wind. Background: overcast blue-grey cumulus sky, soft and out of focus, edge of a red wing membrane at the right edge. 50mm lens, f/2, shallow depth of field. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark",
+   "video_prompt_en": "Neck-mounted camera facing the kitten knight rider. 0-2s: the kitten looks down, then slowly lifts its head and stares into the lens. 2-4.5s: the dragon banks hard; the camera rolls about 15 degrees left and right, the kitten sways and grips the reins, strong motion blur, a red wing tip sweeps past the right edge. 4.5-6.5s: the flight stabilizes, the kitten recenters and gazes into the camera, cape and fur rippling in the wind. Keep the pink bow on the left ear, silver armor design, fur color and eye size identical in every frame; the kitten stays seated, no human-like standing, no talking.",
+   "end_frame_prompt_en": "Same framing as the start frame, kitten centered looking directly at the camera, cape blown to the left, calm flight, overcast sky.",
+   "negative_prompt_en": "cartoon, 3d render look, plastic fur, anthropomorphic human body, standing on two legs like a human, extra limbs, extra tails, deformed paws, human hands, missing bow, bow on wrong ear, gold armor, black armor, blue dragon, green dragon, feathered wings, multiple kittens, multiple dragons, text, subtitles, watermark, logo, frame border, oversaturated, blurry face, warped horns",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "털/눈 디테일과 캐릭터 일관성 최강, 10s 생성 후 6.53s 트림에 적합"
+    },
+    {
+     "model": "seedance-2-5",
+     "role": "alt",
+     "why_ko": "난기류 카메라 롤·모션블러 같은 거친 카메라 움직임 표현이 자연스러움"
+    },
+    {
+     "model": "veo-3-1",
+     "role": "alt (audio)",
+     "why_ko": "바람·갑옷 소리까지 네이티브 오디오로 뽑아 효과음 레퍼런스로 활용 가능"
+    }
+   ],
+   "gen_settings_ko": "9:16 네이티브, 1080x1920, image2video, 10s 생성 → 0~6.53s 사용(원본이 5s 초과라 10s 생성 트림으로 추정). 시드 고정, 캐릭터 시트 이미지를 레퍼런스로. 24fps로 생성/편집 후 30fps 출력(원본에 5프레임마다 중복프레임 = 24→30 풀다운 흔적).",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Vertical 9:16 photorealistic film still. a tiny baby golden Syrian hamster with fluffy golden-orange and cream fur, white chest and cheeks, chubby round cheek pouches, tiny rounded pink-edged ears, huge glossy black bead eyes, pink nose, tiny pink paws, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its tiny pink front paws. The hamster sits upright in a dark leather saddle on the neck of a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout, flying above the clouds. Camera mounted on the dragon's neck facing the rider: hamster centered (head at 50% x, 40% y), body fills about 50% of frame height, staring into the lens with glossy black eyes, cheeks puffed. Bottom 25% is the scaly neck ridge converging like a triangle, reins diagonal. Ivory cape flutters left. Overcast blue-grey sky, shallow DOF, 50mm f/2. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark",
+    "video_prompt_en": "Neck-mounted camera facing the hamster knight. 0-2s the hamster looks down then lifts its head and stares into the lens, whiskers twitching. 2-4.5s the dragon banks hard, camera rolls about 15 degrees, the hamster wobbles and clutches the reins, motion blur, red wing tip sweeps past right edge. 4.5-6.5s flight stabilizes, hamster recenters and gazes into camera, fur rippling. Keep bow on left ear, armor and fur colors identical; hamster stays seated.",
+    "notes_ko": "햄스터는 몸이 짧고 둥글어 갑옷을 '둥근 흉갑+짧은 다리 가드'로. 볼주머니가 눈맞춤 귀여움을 대신함. 고양이보다 작게 보이도록 용 비늘을 더 크게."
+   }
+  },
+  {
+   "n": 2,
+   "start": 6.53,
+   "end": 9.33,
+   "dur": 2.8,
+   "gen_clip": 2,
+   "frames": [
+    "frames/s02_in_06.60.jpg",
+    "frames/g_07.00.jpg",
+    "frames/g_08.00.jpg",
+    "frames/s02_out_09.26.jpg"
+   ],
+   "shot_size": "Wide / full shot of dragon neck and rider (rider small)",
+   "angle": "side-on, slightly below the dragon (low side angle)",
+   "lens_mm": "35mm equiv, deep focus",
+   "camera_move_ko": "용과 나란히 비행하는 사이드 트래킹, 거의 고정(흐름 0.7px/f). 미세한 상하 부유감.",
+   "composition_ko": "90도 시계방향 회전 샷. 최종 세로화면: 용의 목이 화면 위(y0%)에서 아래(y100%)로 세로로 관통, 머리와 뿔은 하단 y75~95% x25~60%. 고양이는 x70% y35%, 높이 약 12%(작게). 하늘(흰 구름)이 오른쪽 40%. 원본 가로 기준: 용이 오른쪽으로 비행, 머리 x85% y60%, 고양이 x35% y30%, 하늘 위쪽.",
+   "subject_action_ko": "용이 오른쪽(원본 기준)으로 활공, 목이 천천히 S자로 움직임. 고양이가 안장 위에서 앞을 바라보고, 흰 망토가 뒤로 날림. 용의 붉은 날개 한쪽이 고양이 뒤에서 퍼덕임.",
+   "background_ko": "밝은 흰 구름층/안개 하늘, 지면 없음.",
+   "on_screen_text_ko": "없음",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "9.33s 하드컷(픽셀차 98.5). 옆모습 → 뒤에서 쫓는 체이스캠으로 방향 전환.",
+    "ffmpeg": "concat; s02 trim=0:2.80, transpose=1",
+    "hyperframes": "clip s02 6.53-9.33, CSS rotate(90deg) on a 1920x1080 video inside 1080x1920 stage"
+   },
+   "sound": {
+    "bgm_ko": "6.4~7.5s 음량 -12~-16dB, 0.28s 간격 규칙적 타격(6.78/7.06/7.34/7.62) = 날갯짓 또는 BGM 8분음표 퍼커션(추정).",
+    "sfx": [
+     {
+      "t": 6.53,
+      "sfx_en": "whoosh on cut + heavy wing beat",
+      "ko": "컷 휘익 + 묵직한 날갯짓"
+     },
+     {
+      "t": 7.06,
+      "sfx_en": "wing flap thump",
+      "ko": "날갯짓 퍽"
+     },
+     {
+      "t": 7.62,
+      "sfx_en": "wing flap thump",
+      "ko": "날갯짓 퍽"
+     },
+     {
+      "t": 8.69,
+      "sfx_en": "low dragon rumble breath",
+      "ko": "용 낮은 숨소리"
+     }
+    ]
+   },
+   "image_prompt_en": "16:9 landscape photorealistic film still, side view from slightly below. a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout glides to the right through a bright white cloud layer, its long neck stretched horizontally across the frame, head with horns at 85% x, 60% y. On the saddle at the base of the neck (35% x, 30% y) rides a tiny 7-week-old fluffy kitten with long soft cream-beige fur and faint light-brown tabby stripes on the forehead, round head, small rounded ears, huge round glossy dark blue-grey eyes, small pink nose, white whiskers, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its front paws, small in frame (about 12% of frame height), looking forward, cape streaming backward. One red wing rises behind the rider. Bright hazy white sky, no ground. 35mm lens, deep focus. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "video_prompt_en": "Side tracking shot flying parallel to the dragon at the same speed. The dragon glides right with a slow S-curve of the neck and one slow wing beat; the kitten rider sways gently in the saddle, cape streaming. Camera nearly locked, tiny vertical float. Do not change the dragon's color, horns or the kitten's bow and armor. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3d render look, plastic fur, anthropomorphic human body, standing on two legs like a human, extra limbs, extra tails, deformed paws, human hands, missing bow, bow on wrong ear, gold armor, black armor, blue dragon, green dragon, feathered wings, multiple kittens, multiple dragons, text, subtitles, watermark, logo, frame border, oversaturated, blurry face, warped horns",
+   "recommended_models": [
+    {
+     "model": "veo-3-1",
+     "role": "1st choice",
+     "why_ko": "거대 생물 날갯짓 물리와 공중 스케일감이 좋고 16:9 기본"
+    },
+    {
+     "model": "kling-v3",
+     "role": "alt",
+     "why_ko": "용 비늘 질감·캐릭터 유지"
+    },
+    {
+     "model": "sora-2-pro",
+     "role": "alt",
+     "why_ko": "넓은 공중 장면의 대기 원근감"
+    }
+   ],
+   "gen_settings_ko": "16:9 1920x1080 image2video 5s 생성 → 2.80s만 사용. 편집에서 transpose=1(시계방향 90도). 세로로 만들면 이 느낌이 안 나옴(반드시 가로 생성 후 회전).",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "16:9 landscape photorealistic film still, side view from slightly below. a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout glides right through bright white clouds, neck horizontal, head at 85% x 60% y. On the saddle (35% x, 30% y) rides a tiny baby golden Syrian hamster with fluffy golden-orange and cream fur, white chest and cheeks, chubby round cheek pouches, tiny rounded pink-edged ears, huge glossy black bead eyes, pink nose, tiny pink paws, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its tiny pink front paws, very small (10% of frame height), cape streaming back. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "video_prompt_en": "Side tracking shot parallel to the dragon; slow neck S-curve and one wing beat; the tiny hamster rider bobs in the saddle, cape streaming. Camera nearly locked. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "notes_ko": "라이더가 매우 작게 보여 햄스터 실루엣(둥근 몸+흰 망토)만 읽히면 됨. 망토 색을 흰색으로 유지해야 작은 크기에서도 식별 가능."
+   }
+  },
+  {
+   "n": 3,
+   "start": 9.33,
+   "end": 12.7,
+   "dur": 3.37,
+   "gen_clip": 3,
+   "frames": [
+    "frames/s03_in_09.40.jpg",
+    "frames/g_10.00.jpg",
+    "frames/g_11.00.jpg",
+    "frames/g_12.00.jpg"
+   ],
+   "shot_size": "Wide shot (WS), full wingspan",
+   "angle": "high chase angle from behind and slightly above the dragon's back",
+   "lens_mm": "24mm equiv wide, deep focus",
+   "camera_move_ko": "용 꼬리 뒤에서 일정 거리로 따라가는 체이스캠(드론 팔로우). 11~12s 구름이 걷히며 아래 초록 산이 드러남. 날개 1회 하강 스트로크.",
+   "composition_ko": "90도 회전. 최종 세로화면: 용 몸통이 왼쪽 가장자리(x0%)에서 중앙 x60%까지 가로로, 날개가 화면 위아래 전체(y0~100%)를 대각으로 채움 → 세로화면을 날개폭으로 꽉 채우는 핵심 트릭. 고양이+붉은 뿔은 x75% y52%. 원본 가로: 용이 화면 중앙 아래에서 위로 멀어지며 비행, 날개가 좌우 끝까지, 라이더 머리 x52% y25%.",
+   "subject_action_ko": "용이 카메라에서 멀어지는 방향으로 비행, 날개 전개 상태에서 한 번 크게 내려침. 뒷다리/발톱이 몸통 아래로 접혀 보임. 라이더는 뒷모습으로 작게.",
+   "background_ko": "두꺼운 흰 구름 바다, 12s에 구름 사이로 이끼 낀 초록 산 능선이 아래(최종화면 왼쪽)에 보임.",
+   "on_screen_text_ko": "없음",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "12.70s 하드컷(픽셀차 63, 음량 -11dB 온셋 12.7s와 일치). 체이스캠 → 라이더 어깨너머 POV로 '들어가는' 컷.",
+    "ffmpeg": "concat; s03 trim=0:3.37, transpose=1",
+    "hyperframes": "clip s03 9.33-12.70 rotated 90deg"
+   },
+   "sound": {
+    "bgm_ko": "9.4s 음량 피크(-14dB) 이후 -18dB 수준 유지, 넓은 공간감.",
+    "sfx": [
+     {
+      "t": 9.33,
+      "sfx_en": "whoosh on cut",
+      "ko": "컷 휘익"
+     },
+     {
+      "t": 10.9,
+      "sfx_en": "massive wing downstroke whump",
+      "ko": "거대한 날개 내려치기 훅"
+     }
+    ]
+   },
+   "image_prompt_en": "16:9 landscape photorealistic aerial chase shot from behind and slightly above a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout. The dragon flies away from camera up the center of the frame, its spiked back and tail base at bottom center, hind legs tucked, both enormous red wings fully spread to the left and right frame edges. At the top center (52% x, 25% y) the tiny kitten knight rider (a tiny 7-week-old fluffy kitten with long soft cream-beige fur and faint light-brown tabby stripes on the forehead, round head, small rounded ears, huge round glossy dark blue-grey eyes, small pink nose, white whiskers, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its front paws) is seen from behind between the red horns. Sea of white clouds below, a mossy green mountain ridge peeking through at the bottom. 24mm wide lens, deep focus. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "video_prompt_en": "Drone-style chase camera following the dragon from behind at constant distance. The dragon performs one slow powerful downstroke of its spread wings and glides forward; clouds part to reveal green mountains below. Slight camera sway. Keep wing shape, dragon color and rider size constant. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3d render look, plastic fur, anthropomorphic human body, standing on two legs like a human, extra limbs, extra tails, deformed paws, human hands, missing bow, bow on wrong ear, gold armor, black armor, blue dragon, green dragon, feathered wings, multiple kittens, multiple dragons, text, subtitles, watermark, logo, frame border, oversaturated, blurry face, warped horns",
+   "recommended_models": [
+    {
+     "model": "veo-3-1",
+     "role": "1st choice",
+     "why_ko": "드론 체이스 카메라와 구름 볼류메트릭 표현 우수"
+    },
+    {
+     "model": "kling-v3",
+     "role": "alt",
+     "why_ko": "날개 막 반투명·반짝임 디테일"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "대형 생물 비행 모션 안정적, 저비용 재생성"
+    }
+   ],
+   "gen_settings_ko": "16:9 5s image2video → 3.37s 사용, transpose=1. 날개가 좌우 프레임 끝까지 닿게 생성해야 회전 후 세로 전체를 채움.",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "16:9 landscape aerial chase shot from behind and above a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout, flying away up the center, wings spread to both frame edges; at top center a tiny rider (a tiny baby golden Syrian hamster with fluffy golden-orange and cream fur, white chest and cheeks, chubby round cheek pouches, tiny rounded pink-edged ears, huge glossy black bead eyes, pink nose, tiny pink paws, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its tiny pink front paws) seen from behind between the red horns, a round golden fur ball with white cape. White cloud sea, green ridge below. 24mm. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "video_prompt_en": "Chase drone camera behind the dragon; one slow powerful wing downstroke; clouds part to reveal green mountains; slight sway. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "notes_ko": "라이더가 뒷모습이라 햄스터의 둥근 황금색 뒤통수+작은 귀가 보이도록 강조."
+   }
+  },
+  {
+   "n": 4,
+   "start": 12.7,
+   "end": 16.57,
+   "dur": 3.87,
+   "gen_clip": 4,
+   "frames": [
+    "frames/s04_in_12.77.jpg",
+    "frames/g_13.00.jpg",
+    "frames/g_14.00.jpg",
+    "frames/g_15.00.jpg",
+    "frames/g_16.00.jpg",
+    "frames/x_16.40.jpg"
+   ],
+   "shot_size": "Over-the-shoulder (OTS) / rider POV",
+   "angle": "behind the kitten's head, looking forward and down past the dragon's horns",
+   "lens_mm": "28mm equiv, foreground head sharp, landscape slightly hazy",
+   "camera_move_ko": "라이더 뒤통수 바로 뒤에 붙은 OTS, 용과 함께 이동. 12.7~13.5s 구름 속 → 안개 걷히며 조각보 농지 공개(리빌). 15.3~16.5s 용이 기수를 숙이며 급강하 시작, 지형이 회전하며 빨라짐(모션 증가, 음량 -9dB 피크 15.7s).",
+   "composition_ko": "90도 회전. 최종 세로화면: 고양이 뒤통수 x35% y50%(머리 높이 약 20%), 흰 망토가 왼쪽 가장자리 x0~20%를 덮음, 붉은 뿔이 y38%, y62%에서 오른쪽으로 휘어짐(프레이밍 괄호), 오른쪽 절반은 초록 조각보 농지와 구름, 좌상·좌하 모서리에 용 비늘. 원본 가로: 고양이 뒤통수 하단 중앙 x50% y65%, 뿔이 좌우 x38%/x62%, 농지가 상단 절반.",
+   "subject_action_ko": "고양이가 뿔 사이로 아래 세상을 내려다봄, 털이 바람에 흩날림. 끝부분에 용이 다이브 시작.",
+   "background_ko": "구름 아래 펼쳐진 아일랜드/스코틀랜드풍 초록 조각보 농지와 돌담, 이끼 낀 언덕, 흰 구름 조각.",
+   "on_screen_text_ko": "없음",
+   "transition_out": {
+    "type": "Hard cut (action cut)",
+    "ko": "16.57s 하드컷(픽셀차 60.8). 다이브 시작 모션 도중에 컷 → 다이브 중 측면 클로즈업으로 액션 연결. 자동검출의 0.4s 's05'는 별도 샷이 아니라 다음 샷 시작부(오검출).",
+    "ffmpeg": "concat; s04 trim=0:3.87, transpose=1",
+    "hyperframes": "clip s04 12.70-16.57 rotated; cut on action"
+   },
+   "sound": {
+    "bgm_ko": "12.7s 컷에 온셋, 15.3~16.0s 급상승(다이브 휘이잉 빌드업).",
+    "sfx": [
+     {
+      "t": 12.7,
+      "sfx_en": "wind rush on cut",
+      "ko": "바람 러시"
+     },
+     {
+      "t": 13.09,
+      "sfx_en": "cloth cape flap",
+      "ko": "망토 펄럭"
+     },
+     {
+      "t": 15.31,
+      "sfx_en": "rising dive whoosh riser",
+      "ko": "급강하 상승 휘이잉"
+     },
+     {
+      "t": 15.7,
+      "sfx_en": "dragon roar short",
+      "ko": "짧은 용 포효(추정)"
+     }
+    ]
+   },
+   "image_prompt_en": "16:9 landscape photorealistic over-the-shoulder shot from directly behind the head of a tiny 7-week-old fluffy kitten with long soft cream-beige fur and faint light-brown tabby stripes on the forehead, round head, small rounded ears, huge round glossy dark blue-grey eyes, small pink nose, white whiskers, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its front paws, riding a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout. The back of the kitten's fluffy head and white cape fill the lower center (50% x, 65% y, head about 20% of frame height); the dragon's two blood-red horns curve up on the left (38% x) and right (62% x) framing the view. Far below: a patchwork of green farm fields, stone walls and mossy hills seen through thin drifting clouds. Red scales in the lower corners. 28mm lens, rider sharp, landscape slightly hazy. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "video_prompt_en": "Camera locked just behind the kitten rider's head, moving with the dragon. First second: flying through thin cloud, then the cloud clears to reveal patchwork farmland far below. Final second: the dragon tips its head down into a steep dive, the landscape rotates and rushes closer, fur and cape whip in the wind. Keep horns, bow and cape identical. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3d render look, plastic fur, anthropomorphic human body, standing on two legs like a human, extra limbs, extra tails, deformed paws, human hands, missing bow, bow on wrong ear, gold armor, black armor, blue dragon, green dragon, feathered wings, multiple kittens, multiple dragons, text, subtitles, watermark, logo, frame border, oversaturated, blurry face, warped horns",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "전경 털 디테일+배경 리빌 동시 처리, 뒤통수 캐릭터 유지"
+    },
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "고도감·대기 원근, 다이브 가속 표현"
+    },
+    {
+     "model": "seedance-2-5",
+     "role": "alt",
+     "why_ko": "끝부분 급강하 카메라 가속"
+    }
+   ],
+   "gen_settings_ko": "16:9 5s → 3.87s 사용, transpose=1. 처음 1s의 구름 속 부분이 필요하면 5s 전체 중 0~3.87 사용.",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "16:9 landscape over-the-shoulder shot from directly behind the head of a tiny baby golden Syrian hamster with fluffy golden-orange and cream fur, white chest and cheeks, chubby round cheek pouches, tiny rounded pink-edged ears, huge glossy black bead eyes, pink nose, tiny pink paws, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its tiny pink front paws, riding a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout; round golden fuzzy back of head and tiny ears lower center (50% x, 65% y), red horns framing left and right, patchwork green farmland far below through thin clouds. 28mm. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "video_prompt_en": "Camera locked behind the hamster rider's head; cloud clears to reveal farmland; final second the dragon tips into a steep dive, landscape rotates and rushes closer, fur ripples. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "notes_ko": "햄스터 귀는 작아서 뒤통수만으론 정체성이 약함 → 볼주머니 옆선이 살짝 보이게 3/4 뒤 앵글 권장."
+   }
+  },
+  {
+   "n": 5,
+   "start": 16.57,
+   "end": 21.57,
+   "dur": 5.0,
+   "gen_clip": 5,
+   "frames": [
+    "frames/s05_mid_16.77.jpg",
+    "frames/g_17.00.jpg",
+    "frames/g_18.00.jpg",
+    "frames/g_19.00.jpg",
+    "frames/g_20.00.jpg",
+    "frames/g_21.00.jpg"
+   ],
+   "shot_size": "Medium shot → close-up of dragon head (dynamic)",
+   "angle": "side-on from the dragon's flank, rolling with the dragon",
+   "lens_mm": "35mm equiv, handheld/chase feel",
+   "camera_move_ko": "측면 근접 팔로우, 16.6~17.5 안정 → 17.5~20.5 용이 배럴롤하며 급강하, 카메라가 함께 회전(롤)·흔들림, 강한 모션블러 → 21s 용 머리 근접(흐름 3.25px/f, 전체 영상 중 가장 격렬). 5.00s = 5s 생성 1개 전체 사용.",
+   "composition_ko": "90도 회전(최종화면 기준 왼쪽에 초록 지면, 오른쪽 하늘). 시작: 안장+고양이 x30% y25%(고양이 높이 약 30%), 용 목이 왼쪽 위에서 오른쪽 아래로 대각 리딩라인, 머리/뿔 x80% y85%, 날개 막이 상단 우측. 끝(21s): 용 머리 클로즈업 x70% y75%, 고양이는 x35% y45%에서 흐림.",
+   "subject_action_ko": "고양이가 안장에 매달려 고삐를 잡고 앞으로 숙임, 흰 망토가 위로 휘날림. 용이 몸을 비틀어 회전 급강하. 19~20s 고양이가 거의 튕겨나갈 듯 흔들림, 용 머리가 카메라 쪽으로 돌아옴.",
+   "background_ko": "안개와 흐린 초록 산비탈이 빠르게 스쳐감(모션블러).",
+   "on_screen_text_ko": "없음",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "21.57s 하드컷(픽셀차 45). 급강하 클로즈업 → 지면 충돌 와이드. 컷 직전 2프레임 강한 블러가 '충격' 컷을 매끄럽게.",
+    "ffmpeg": "concat; s05 trim=0:5.00, transpose=1",
+    "hyperframes": "clip s05 16.57-21.57 rotated; optional 2px shake"
+   },
+   "sound": {
+    "bgm_ko": "17.1~18.3s -11~-15dB 바람 소음 지속, 다이브 구간 중음량. 20.75s 온셋.",
+    "sfx": [
+     {
+      "t": 16.57,
+      "sfx_en": "wind blast on cut",
+      "ko": "바람 폭발음"
+     },
+     {
+      "t": 17.12,
+      "sfx_en": "armor rattle and leather strain",
+      "ko": "갑옷 달그락/가죽 팽팽"
+     },
+     {
+      "t": 17.5,
+      "sfx_en": "wing membrane flutter in high-speed wind",
+      "ko": "날개막 떨림"
+     },
+     {
+      "t": 20.75,
+      "sfx_en": "dragon grunt / strained roar",
+      "ko": "용의 힘겨운 으르렁"
+     }
+    ]
+   },
+   "image_prompt_en": "16:9 landscape photorealistic side close tracking shot during a steep dive. On the left-lower third, a tiny 7-week-old fluffy kitten with long soft cream-beige fur and faint light-brown tabby stripes on the forehead, round head, small rounded ears, huge round glossy dark blue-grey eyes, small pink nose, white whiskers, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its front paws, clings to the dark leather saddle, leaning forward with the white cape whipping upward. The glossy crimson neck of a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout extends to the right with its horned head at the right edge, one red wing membrane filling the top. Blurred misty green hillside rushing past. 35mm, motion blur on background. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "video_prompt_en": "High-speed chase camera beside the diving dragon. 0-1s steady; 1-4s the dragon barrel-rolls in a steep spiral dive, the camera rolls with it, heavy motion blur, the kitten clings to the saddle and is shaken hard, cape whipping; 4-5s the dragon's horned head swings toward the camera in close-up. Keep the kitten on the saddle (it must not fall yet), keep armor, bow and dragon design consistent. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "end_frame_prompt_en": "Close-up of the dragon's horned red head turning toward camera with the kitten rider blurred behind it, strong motion blur, misty hillside background.",
+   "negative_prompt_en": "cartoon, 3d render look, plastic fur, anthropomorphic human body, standing on two legs like a human, extra limbs, extra tails, deformed paws, human hands, missing bow, bow on wrong ear, gold armor, black armor, blue dragon, green dragon, feathered wings, multiple kittens, multiple dragons, text, subtitles, watermark, logo, frame border, oversaturated, blurry face, warped horns",
+   "recommended_models": [
+    {
+     "model": "seedance-2-5",
+     "role": "1st choice",
+     "why_ko": "빠른 액션·카메라 롤·모션블러에서 형태 붕괴가 적음"
+    },
+    {
+     "model": "kling-v3",
+     "role": "alt",
+     "why_ko": "first-last frame으로 끝 프레임(용 머리 클로즈업) 고정 가능"
+    },
+    {
+     "model": "grok-imagine-video-1-5",
+     "role": "alt",
+     "why_ko": "과감한 다이내믹 카메라 워크"
+    }
+   ],
+   "gen_settings_ko": "16:9 5s 전체 사용, transpose=1. 'first-last frame' 모드로 끝 프레임 지정 권장. 모션 강도 high.",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "16:9 landscape side close tracking shot in a steep dive: a tiny baby golden Syrian hamster with fluffy golden-orange and cream fur, white chest and cheeks, chubby round cheek pouches, tiny rounded pink-edged ears, huge glossy black bead eyes, pink nose, tiny pink paws, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its tiny pink front paws, clinging to the saddle on the left-lower third, cheeks flattened by wind, white cape whipping upward; crimson neck of a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout extends right to the horned head; blurred misty green hillside. 35mm. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "video_prompt_en": "Chase camera beside the diving dragon; barrel-roll spiral dive, camera rolls, heavy motion blur, hamster clings and is shaken, fur and cheeks rippling; last second the dragon head swings toward camera. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "notes_ko": "햄스터 볼살이 바람에 눌려 펄럭이는 디테일이 웃음 포인트(고양이 버전보다 코믹)."
+   }
+  },
+  {
+   "n": 6,
+   "start": 21.57,
+   "end": 26.57,
+   "dur": 5.0,
+   "gen_clip": 6,
+   "frames": [
+    "frames/x_21.40.jpg",
+    "frames/g_22.00.jpg",
+    "frames/x_22.40.jpg",
+    "frames/g_23.00.jpg",
+    "frames/g_24.00.jpg",
+    "frames/g_25.00.jpg",
+    "frames/g_26.00.jpg"
+   ],
+   "shot_size": "Wide shot (WS) → full shot",
+   "angle": "low, near ground level, side-on",
+   "lens_mm": "35mm equiv",
+   "camera_move_ko": "21.6~22.9s 충돌 충격 흔들림+블러(픽셀차 20+) → 23s 이후 거의 고정(흐름 0.49px/f), 먼지가 가라앉으며 선명해짐. 5.00s = 5s 생성 전체.",
+   "composition_ko": "90도 회전. 최종 세로화면: 풀밭이 왼쪽 x0~25% 세로 띠, 용 몸통이 중앙 x25~75%에 세로로 누움, 머리+뿔 하단 y70~90%, 날개가 상단 y0~30% 덮음, 오른쪽 x75~100%는 바위 산비탈+먼지 연기. 고양이: 23s에 x20% y35%(풀밭에 굴러떨어짐) → 26s x30% y38%에서 용 머리 쪽을 향해 무릎 꿇음. 원본 가로: 지면이 하단 25%, 용이 오른쪽을 향해 배깔고 누움.",
+   "subject_action_ko": "21.6s 용이 풀밭에 배로 충돌하며 미끄러짐, 흙먼지 폭발 → 22.4~22.8s 고양이가 안장에서 튕겨 공중으로 → 23.0s 풀밭에 떨어져 구름 → 23.5~25s 일어나 망토를 끌며 용 머리 쪽으로 걸어감 → 26s 용 옆에 멈춰 바라봄. 용은 눈 감고 기절한 듯 움직이지 않음.",
+   "background_ko": "높은 풀이 자란 초원, 바위투성이 산비탈, 짙은 흙먼지/연기가 오른쪽(원본 위쪽)으로 피어오름.",
+   "on_screen_text_ko": "없음",
+   "transition_out": {
+    "type": "Hard cut (punch-in)",
+    "ko": "26.57s 하드컷(픽셀차 59). 같은 축에서 와이드 → 미디엄 클로즈업으로 펀치인(축선 유지 컷인).",
+    "ffmpeg": "concat; s06 trim=0:5.00, transpose=1",
+    "hyperframes": "clip s06 21.57-26.57 rotated; add 0.3s shake 21.57-21.9 if gen lacks it"
+   },
+   "sound": {
+    "bgm_ko": "21.3~22.2s -10~-12dB 충돌 피크, 23s 이후 -18~-21dB로 급격히 조용해짐(정적 → 감정 전환).",
+    "sfx": [
+     {
+      "t": 21.49,
+      "sfx_en": "massive body impact thud on earth",
+      "ko": "거대한 충돌 쿵"
+     },
+     {
+      "t": 21.7,
+      "sfx_en": "dirt and turf skid scrape",
+      "ko": "흙 긁히며 미끄러짐"
+     },
+     {
+      "t": 22.05,
+      "sfx_en": "debris and pebbles falling",
+      "ko": "흙/돌 파편"
+     },
+     {
+      "t": 22.56,
+      "sfx_en": "small armor clatter as kitten is thrown",
+      "ko": "작은 갑옷 달그락(튕겨짐)"
+     },
+     {
+      "t": 23.1,
+      "sfx_en": "soft thump on grass + tiny mew",
+      "ko": "풀밭에 툭 + 작은 야옹(추정)"
+     },
+     {
+      "t": 24.06,
+      "sfx_en": "tiny armored footsteps on grass",
+      "ko": "작은 갑옷 발걸음"
+     },
+     {
+      "t": 26.27,
+      "sfx_en": "dust settling hiss",
+      "ko": "먼지 가라앉는 소리"
+     }
+    ]
+   },
+   "image_prompt_en": "16:9 landscape photorealistic low side wide shot at ground level. a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout has just crash-landed belly-first in a tall green grass meadow, lying stretched across the frame facing right, eyes closed, wings half-folded over its back, a huge cloud of brown dust rising behind it against a rocky hillside. The grass meadow fills the bottom 25% of the frame. In the foreground left on the grass, a tiny 7-week-old fluffy kitten with long soft cream-beige fur and faint light-brown tabby stripes on the forehead, round head, small rounded ears, huge round glossy dark blue-grey eyes, small pink nose, white whiskers, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its front paws, stands on all fours looking at the dragon's head. 35mm lens. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "video_prompt_en": "0-1.3s: the dragon slams belly-first into the meadow and skids to the right, dirt and dust explode, camera shakes; the kitten is thrown from the saddle, flips once in the air and lands softly rolling on the grass. 1.5-5s: dust settles, the unconscious dragon lies still with eyes closed; the kitten gets up and walks on four paws toward the dragon's head, cape dragging, then stops beside it. Camera settles to nearly static. No injury, no blood; cute and gentle tone. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "end_frame_prompt_en": "Same wide composition, dust thinning, dragon lying still with eyes closed, the kitten knight standing on the grass next to the dragon's head looking at it.",
+   "negative_prompt_en": "cartoon, 3d render look, plastic fur, anthropomorphic human body, standing on two legs like a human, extra limbs, extra tails, deformed paws, human hands, missing bow, bow on wrong ear, gold armor, black armor, blue dragon, green dragon, feathered wings, multiple kittens, multiple dragons, text, subtitles, watermark, logo, frame border, oversaturated, blurry face, warped horns, blood, gore, injury",
+   "recommended_models": [
+    {
+     "model": "seedance-2-5",
+     "role": "1st choice",
+     "why_ko": "충돌·먼지·튕겨나감 물리 표현, 빠른 액션"
+    },
+    {
+     "model": "kling-v3-omni",
+     "role": "alt",
+     "why_ko": "캐릭터 레퍼런스로 고양이+용 두 캐릭터 동시 일관성"
+    },
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "먼지 볼류메트릭+충돌음 네이티브 오디오"
+    }
+   ],
+   "gen_settings_ko": "16:9 5s 전체, transpose=1. first-last frame 모드(끝 프레임: 고양이가 머리 옆에 선 모습)로 동선 고정.",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "16:9 landscape low side wide shot at ground level: a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout crash-landed belly-first in tall green grass facing right, eyes closed, dust cloud rising against a rocky hillside; grass fills bottom 25%; in the left foreground a tiny baby golden Syrian hamster with fluffy golden-orange and cream fur, white chest and cheeks, chubby round cheek pouches, tiny rounded pink-edged ears, huge glossy black bead eyes, pink nose, tiny pink paws, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its tiny pink front paws, standing on the grass looking at the dragon's head. 35mm. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "video_prompt_en": "The dragon slams into the meadow and skids, dust explodes; the hamster is tossed from the saddle, tumbles like a little ball and rolls to a stop, then scurries on four paws toward the dragon's head, stops and sniffs. Dust settles, camera settles. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "notes_ko": "햄스터는 '데굴데굴 공처럼 구르기'가 고양이보다 훨씬 자연스럽고 귀여움 → 착지 후 구르는 시간을 0.3s 늘려도 좋음."
+   }
+  },
+  {
+   "n": 7,
+   "start": 26.57,
+   "end": 29.2,
+   "dur": 2.63,
+   "gen_clip": 7,
+   "frames": [
+    "frames/s08_in_26.64.jpg",
+    "frames/g_27.00.jpg",
+    "frames/g_28.00.jpg",
+    "frames/s08_out_29.13.jpg"
+   ],
+   "shot_size": "Medium close-up (MCU) of dragon head + kitten",
+   "angle": "ground level, side-on",
+   "lens_mm": "50mm equiv, shallow DOF",
+   "camera_move_ko": "고정(흐름 0.27px/f), 미세한 브리딩만.",
+   "composition_ko": "90도 회전. 최종 세로화면: 용의 뿔 달린 머리가 중앙~하단 x10~90% y40~90%를 가득(눈 감음, 콧구멍 x25% y55%), 고양이 머리가 x55% y25%에서 용 이마 너머로 내려다봄(높이 약 15%), 흰 망토 x10~40% y5~25%, 풀밭이 왼쪽 가장자리 x0~15%, 오른쪽 상단 흰 하늘/안개. 원본 가로: 용 머리가 오른쪽 60%, 고양이가 왼쪽 x25% y45%.",
+   "subject_action_ko": "고양이가 기절한 용의 얼굴 위로 몸을 기울여 걱정스럽게 들여다봄. 용은 눈 감고 미동 없음(가끔 콧김).",
+   "background_ko": "풀밭(초록 잔디 클로즈업), 뒤쪽 안개 낀 흰 하늘, 용 날개/안장 끈 일부.",
+   "on_screen_text_ko": "없음",
+   "transition_out": {
+    "type": "Hard cut (punch-in)",
+    "ko": "29.20s 하드컷(픽셀차 67). 같은 방향 축으로 익스트림 클로즈업 펀치인.",
+    "ffmpeg": "concat; s07 trim=0:2.63, transpose=1",
+    "hyperframes": "clip s07 26.57-29.20 rotated"
+   },
+   "sound": {
+    "bgm_ko": "조용한 앰비언트, -19dB 전후. 28.5s부터 2.19s 간격(=110BPM 1마디) 규칙적 온셋 시작 → 부드러운 피아노/벨 코드로 추정.",
+    "sfx": [
+     {
+      "t": 26.57,
+      "sfx_en": "soft grass rustle",
+      "ko": "풀 스치는 소리"
+     },
+     {
+      "t": 28.5,
+      "sfx_en": "gentle piano/bell chord (music downbeat)",
+      "ko": "잔잔한 피아노 코드(음악)"
+     }
+    ]
+   },
+   "image_prompt_en": "16:9 landscape photorealistic medium close-up at ground level. The horned crimson head of a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout rests on the grass, filling the right 60% of the frame, eyes closed, nostrils relaxed, spiky frill. On the left, a tiny 7-week-old fluffy kitten with long soft cream-beige fur and faint light-brown tabby stripes on the forehead, round head, small rounded ears, huge round glossy dark blue-grey eyes, small pink nose, white whiskers, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its front paws, leans over the dragon's brow and peers down at its face with worried big eyes (head about 15% of frame height, at 25% x, 45% y). Green grass at the bottom edge, misty white sky above. 50mm, shallow depth of field. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "video_prompt_en": "Static camera. The kitten slowly leans closer over the unconscious dragon's face, whiskers twitching, ears slightly back in worry. The dragon remains still with eyes closed, a faint breath from the nostrils. Subtle, quiet moment. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3d render look, plastic fur, anthropomorphic human body, standing on two legs like a human, extra limbs, extra tails, deformed paws, human hands, missing bow, bow on wrong ear, gold armor, black armor, blue dragon, green dragon, feathered wings, multiple kittens, multiple dragons, text, subtitles, watermark, logo, frame border, oversaturated, blurry face, warped horns",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "정적 감정 클로즈업에서 털·비늘 질감 최상"
+    },
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "미세 표정 연기"
+    },
+    {
+     "model": "kling-v3-omni",
+     "role": "alt",
+     "why_ko": "레퍼런스 기반 두 캐릭터 일관성"
+    }
+   ],
+   "gen_settings_ko": "16:9 5s → 2.63s 사용, transpose=1. 모션 강도 low.",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "16:9 landscape medium close-up at ground level: the horned crimson head of a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout resting on grass, filling the right 60%, eyes closed; on the left a tiny baby golden Syrian hamster with fluffy golden-orange and cream fur, white chest and cheeks, chubby round cheek pouches, tiny rounded pink-edged ears, huge glossy black bead eyes, pink nose, tiny pink paws, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its tiny pink front paws, leaning over the dragon's brow peering down with worried glossy black eyes. Grass bottom edge, misty sky. 50mm shallow DOF. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "video_prompt_en": "Static camera; the hamster leans closer over the unconscious dragon's face, nose and whiskers twitching rapidly; dragon still, faint breath. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "notes_ko": "햄스터 특유의 코 씰룩임(빠른 whisker twitch)이 걱정 연기를 대신함."
+   }
+  },
+  {
+   "n": 8,
+   "start": 29.2,
+   "end": 36.57,
+   "dur": 7.37,
+   "gen_clip": 8,
+   "frames": [
+    "frames/s09_in_29.27.jpg",
+    "frames/x_29.00.jpg",
+    "frames/x_30.40.jpg",
+    "frames/g_31.00.jpg",
+    "frames/x_33.50.jpg",
+    "frames/g_34.00.jpg",
+    "frames/g_35.00.jpg",
+    "frames/g_36.00.jpg"
+   ],
+   "shot_size": "Extreme close-up (ECU) — kitten face + dragon snout/eye",
+   "angle": "ground level, side-on, slightly above the dragon's snout",
+   "lens_mm": "85mm macro feel, very shallow DOF",
+   "camera_move_ko": "고정 + 아주 느린 푸시인(7초 동안 약 3%). 7.37s = 10s 생성 트림(또는 5s+extend)로 추정.",
+   "composition_ko": "90도 회전. 최종 세로화면: 고양이 얼굴 x60% y30%(머리 높이 약 30%), 갑옷 어깨가 좌상단 x0~30% y0~30%, 용 주둥이/얼굴이 하단 60%(y40~100%)를 채움, 콧구멍 왼쪽 가장자리 x0~10% y38%, 호박색 눈 x65% y88%. 오른쪽 상단 흐린 흰 안개 배경. 하트는 x45~75% y45~55%에서 생겨 오른쪽(=원래 위쪽)으로 떠오름. 원본 가로: 고양이 얼굴 왼쪽 x30% y40%, 용 머리 오른쪽 60%, 눈 x88% y35%.",
+   "subject_action_ko": "29.2~30.8s 고양이가 앞발로 용 주둥이를 톡톡 건드리며 들여다봄 → 30.9s 용의 호박색 세로동공 눈이 번쩍 뜨임(리빌) → 31.2~32.4s 눈을 뜬 채 고양이를 바라봄 → 32.6s 천천히 다시 감음(안심) → 33.9s 용 주둥이에서 붉은 연기 하트가 '퐁' 생겨나 → 34~36.3s 위로 떠오르며 흩어짐. 고양이는 하트를 바라봄.",
+   "background_ko": "부드럽게 흐린 흰 안개/하늘, 좌상단에 풀 약간.",
+   "on_screen_text_ko": "없음",
+   "transition_out": {
+    "type": "End (hold, no loop)",
+    "ko": "36.57s 영상 종료. 하트가 사라진 직후 컷(루프 아님). pt.3 시리즈라 다음 편 기대감으로 마무리.",
+    "ffmpeg": "s08 trim=0:7.37, transpose=1; optional 0.3s audio fade-out",
+    "hyperframes": "clip s08 29.20-36.57, end of timeline"
+   },
+   "sound": {
+    "bgm_ko": "잔잔한 감성 파트: 28.5/30.69/32.88/35.07s 2.19s 간격 코드(110BPM 매 마디 다운비트). 음량 -18~-21dB 안정.",
+    "sfx": [
+     {
+      "t": 30.69,
+      "sfx_en": "gentle piano chord (music)",
+      "ko": "피아노 코드"
+     },
+     {
+      "t": 30.9,
+      "sfx_en": "wet eyelid open + low curious dragon rumble",
+      "ko": "눈 뜨는 소리 + 낮은 그르렁"
+     },
+     {
+      "t": 32.88,
+      "sfx_en": "gentle piano chord (music)",
+      "ko": "피아노 코드"
+     },
+     {
+      "t": 33.9,
+      "sfx_en": "soft puff exhale + sparkle chime",
+      "ko": "퐁 콧김 + 반짝 차임(하트)"
+     },
+     {
+      "t": 35.07,
+      "sfx_en": "final soft chord, fade",
+      "ko": "마지막 코드, 페이드"
+     }
+    ]
+   },
+   "image_prompt_en": "16:9 landscape photorealistic extreme close-up. The left third shows a tiny 7-week-old fluffy kitten with long soft cream-beige fur and faint light-brown tabby stripes on the forehead, round head, small rounded ears, huge round glossy dark blue-grey eyes, small pink nose, white whiskers, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its front paws, face at 30% x, 40% y, leaning down over the snout of a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout, one armored paw resting on the scales. The dragon's crimson scaly snout and closed eye fill the right 60% of the frame, a large nostril at the bottom edge, glossy wet scales with rose-red spikes. Soft misty white background. 85mm macro look, very shallow depth of field, focus on the kitten's eyes. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "video_prompt_en": "Static camera with an extremely slow push-in. 0-1.6s: the kitten gently pats the dragon's snout with its paw and peers closely. 1.7s: the dragon's amber slit-pupil eye snaps open. 2-3.2s: the eye stays open, looking at the kitten; 3.4s: it slowly closes contentedly. 4.7s: a small puff of warm breath from the snout forms a soft red smoky heart shape that rises upward and dissolves by 7s. The kitten watches the heart. Keep scales, bow and armor identical; heart must be soft smoke, not a solid icon. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+   "end_frame_prompt_en": "Same extreme close-up, the dragon's eye closed peacefully, a faint dissolving red smoke heart floating above, the kitten gazing tenderly.",
+   "negative_prompt_en": "cartoon, 3d render look, plastic fur, anthropomorphic human body, standing on two legs like a human, extra limbs, extra tails, deformed paws, human hands, missing bow, bow on wrong ear, gold armor, black armor, blue dragon, green dragon, feathered wings, multiple kittens, multiple dragons, text, subtitles, watermark, logo, frame border, oversaturated, blurry face, warped horns, solid emoji heart, cartoon heart sticker",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "first-last frame로 '눈 감음→뜸→하트' 타이밍 제어, 10s 생성"
+    },
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "연기 하트 같은 볼류메트릭 효과·미세 연기 자연스러움"
+    },
+    {
+     "model": "kling-v3-omni",
+     "role": "alt",
+     "why_ko": "하트가 안 나오면 하트 없이 생성 후 편집에서 오버레이"
+    }
+   ],
+   "gen_settings_ko": "16:9 10s image2video → 7.37s 사용, transpose=1. 하트가 생성에서 안 나오면 하트 없는 클립 + 연기 하트 알파 영상(0.8s 등장, 2.4s 상승/소멸) 오버레이로 대체(원본도 후반 합성일 가능성 있음, 추정).",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "16:9 landscape extreme close-up: left third a tiny baby golden Syrian hamster with fluffy golden-orange and cream fur, white chest and cheeks, chubby round cheek pouches, tiny rounded pink-edged ears, huge glossy black bead eyes, pink nose, tiny pink paws, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its tiny pink front paws, face at 30% x 40% y, leaning over the snout of a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout, one tiny pink paw on the scales; the crimson scaly snout and closed eye fill the right 60%. Misty white background, 85mm macro, focus on the hamster's eyes. photorealistic cinematic live-action fantasy film still, practical-creature realism, real fur strand detail, subtle film grain, soft diffused overcast daylight, muted cool teal-grey sky with crimson dragon as the dominant color, high dynamic range, no text, no watermark. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "video_prompt_en": "Static, very slow push-in. The hamster pats the dragon's snout with its tiny paw and sniffs; the dragon's amber eye snaps open at 1.7s, looks at the hamster, closes contentedly at 3.4s; at 4.7s a warm breath puff forms a soft red smoky heart that rises and dissolves by 7s; the hamster watches, cheeks puffing. Generate as 16:9 landscape 1920x1080; the editor rotates it 90 degrees clockwise to fill 9:16 (sky ends up on the right side of the phone screen, ground on the left).",
+    "notes_ko": "마지막 하트 순간에 햄스터가 볼주머니를 부풀리는 리액션을 추가하면 댓글 유도력↑."
+   }
+  }
+ ],
+ "audio_design": {
+  "bgm_ko": "대사 없음. 추정: 시네마틱 앰비언트/오케스트라 패드 + 강한 바람·날갯짓 효과음이 앞 23초를 지배, 충돌 후 23s부터 조용한 감성 피아노/벨 코드(2.19s 간격 = 110BPM 1마디마다)로 전환. 무음 구간 0%, 평균 -18dB, 피크 -8.6dB(15.7s 다이브/21.5s 충돌 부근), 스펙트럼 중심 1.5kHz(바람/노이즈 성분 많음).",
+  "bpm_est": 110,
+  "bgm_timeline_ko": [
+   "0-2.4s: 낮은 바람 베드 + 은은한 패드(-20dB)",
+   "2.5-3.3s / 4.5s: 난기류 돌풍·날갯짓 피크(-10~-13dB)",
+   "6.4-7.6s: 컷 휘익 + 0.28s 간격 리듬 타격(날갯짓 또는 퍼커션)",
+   "9.3-15.3s: 넓은 비행 앰비언스(-18dB)",
+   "15.3-16.0s: 다이브 라이저 피크(-9dB)",
+   "16.6-21.3s: 급강하 바람 소음 지속(-11~-16dB)",
+   "21.4-22.6s: 충돌 임팩트/흙 파편 클러스터(-10dB)",
+   "23.0-28.5s: 급격히 조용해짐(-19~-21dB), 여운",
+   "28.5-36.57s: 부드러운 피아노/벨 코드 28.5/30.69/32.88/35.07s(매 마디), 끝까지 잔잔"
+  ],
+  "music_prompt_en": "Cinematic fantasy score, 110 BPM, 4/4, D minor to D major. Intro: airy low string pad and distant choir hum under strong wind, subtle taiko pulse. Build: soaring French horns and staccato strings as the dragon flies, rising riser into a dive at 15 seconds, big impact hit at 21.5 seconds, then sudden silence. Outro from 28 seconds: tender solo felt piano with soft celesta, one gentle chord every bar, warm and heartfelt, fade out at 36 seconds. No vocals.",
+  "sfx_list": [
+   {
+    "t": 0.21,
+    "sfx_en": "high-altitude wind bed",
+    "search_kw_en": "wind high altitude loop airplane exterior",
+    "gen_prompt_en": "Steady strong high-altitude wind rushing past, airy and cold, loopable",
+    "gain_db": -14
+   },
+   {
+    "t": 2.51,
+    "sfx_en": "wind gust + dragon wing flap",
+    "search_kw_en": "wind gust whoosh large wing flap",
+    "gen_prompt_en": "A sudden powerful wind gust with a single enormous leathery wing flap",
+    "gain_db": -6
+   },
+   {
+    "t": 3.25,
+    "sfx_en": "small armor rattle + leather creak",
+    "search_kw_en": "small chainmail rattle leather creak",
+    "gen_prompt_en": "Tiny metal armor pieces rattling and a leather saddle creaking",
+    "gain_db": -10
+   },
+   {
+    "t": 4.48,
+    "sfx_en": "low dragon growl",
+    "search_kw_en": "dragon growl low rumble",
+    "gen_prompt_en": "Deep low rumbling growl of a giant dragon, distant, under wind",
+    "gain_db": -9
+   },
+   {
+    "t": 6.53,
+    "sfx_en": "cut whoosh + heavy wing beat",
+    "search_kw_en": "whoosh transition wing beat heavy",
+    "gen_prompt_en": "Fast cinematic whoosh followed by a heavy wing beat thump",
+    "gain_db": -6
+   },
+   {
+    "t": 7.06,
+    "sfx_en": "wing flap thump",
+    "search_kw_en": "dragon wing flap",
+    "gen_prompt_en": "Single heavy leathery dragon wing flap",
+    "gain_db": -9
+   },
+   {
+    "t": 10.9,
+    "sfx_en": "massive wing downstroke",
+    "search_kw_en": "giant wing flap whump",
+    "gen_prompt_en": "Massive slow wing downstroke, deep whump of displaced air",
+    "gain_db": -7
+   },
+   {
+    "t": 12.7,
+    "sfx_en": "wind rush",
+    "search_kw_en": "wind rush pass by",
+    "gen_prompt_en": "Wind rushing past a rider's ears, cloth flapping",
+    "gain_db": -8
+   },
+   {
+    "t": 15.31,
+    "sfx_en": "dive riser whoosh",
+    "search_kw_en": "riser whoosh dive falling",
+    "gen_prompt_en": "Rising accelerating whoosh of a steep dive, pitch rising for 1.2 seconds",
+    "gain_db": -4
+   },
+   {
+    "t": 15.7,
+    "sfx_en": "short dragon roar",
+    "search_kw_en": "dragon roar short",
+    "gen_prompt_en": "Short fierce dragon roar, cinematic",
+    "gain_db": -6
+   },
+   {
+    "t": 16.57,
+    "sfx_en": "wind blast + armor rattle",
+    "search_kw_en": "wind blast turbulence",
+    "gen_prompt_en": "Violent turbulent wind blast with small metal armor rattling",
+    "gain_db": -6
+   },
+   {
+    "t": 20.75,
+    "sfx_en": "strained dragon grunt",
+    "search_kw_en": "creature grunt strain",
+    "gen_prompt_en": "Giant creature straining grunt during a spin",
+    "gain_db": -8
+   },
+   {
+    "t": 21.49,
+    "sfx_en": "massive ground impact",
+    "search_kw_en": "body fall heavy impact earth thud",
+    "gen_prompt_en": "Huge heavy creature crashing belly-first into soft earth, deep thud with ground rumble",
+    "gain_db": -3
+   },
+   {
+    "t": 21.7,
+    "sfx_en": "dirt skid",
+    "search_kw_en": "dirt skid slide gravel",
+    "gen_prompt_en": "Large body skidding through grass and dirt, tearing turf",
+    "gain_db": -7
+   },
+   {
+    "t": 22.05,
+    "sfx_en": "debris falling",
+    "search_kw_en": "debris dirt falling pebbles",
+    "gen_prompt_en": "Clods of dirt and pebbles raining down",
+    "gain_db": -12
+   },
+   {
+    "t": 23.1,
+    "sfx_en": "soft landing on grass + tiny mew",
+    "search_kw_en": "small thump grass kitten mew",
+    "gen_prompt_en": "Small soft thump on grass followed by a tiny kitten mew",
+    "gain_db": -10
+   },
+   {
+    "t": 24.06,
+    "sfx_en": "tiny armored footsteps",
+    "search_kw_en": "small metal footsteps grass",
+    "gen_prompt_en": "Tiny light footsteps on grass with faint metal clinks",
+    "gain_db": -16
+   },
+   {
+    "t": 30.9,
+    "sfx_en": "eye open + low curious rumble",
+    "search_kw_en": "dragon purr rumble soft",
+    "gen_prompt_en": "Soft wet eyelid blink and a low gentle curious dragon rumble",
+    "gain_db": -12
+   },
+   {
+    "t": 33.9,
+    "sfx_en": "breath puff + sparkle chime",
+    "search_kw_en": "soft puff breath magic chime",
+    "gen_prompt_en": "Soft warm breath puff followed by a delicate magical sparkle chime",
+    "gain_db": -10
+   }
+  ],
+  "mix_ko": "0~23s: 바람/효과음이 BGM보다 3~6dB 위(효과음 주도형), BGM -20dB 베드. 21.5s 충돌은 -3dB 최대, 직후 0.5s 내 BGM 포함 전체를 -20dB대로 덕킹해 '정적' 연출. 28.5s부터 피아노 BGM -16dB로 주도, 효과음 -12dB 이하. 36.2~36.57s 0.35s 페이드아웃. (오디오 전체는 파형 기반 추정, 전사 불가)"
+ },
+ "animal_swap_plan": {
+  "default_animal_en": "baby golden hamster (Syrian), same pink satin bow on left ear, same silver filigree armor and ivory cape",
+  "alternatives_en": [
+   "baby Holland Lop bunny (cream-and-orange, floppy ears, pink bow on left ear) — floppy ears flap beautifully in the dive",
+   "baby red panda cub (rusty red and white face mask, fluffy striped tail) — tail streaming in the wind, color harmonizes with the crimson dragon"
+  ],
+  "character_sheet_prompt_en": "Character reference turnaround sheet on a plain light-grey background, photorealistic: a tiny baby golden Syrian hamster with fluffy golden-orange and cream fur, white chest and cheeks, chubby round cheek pouches, tiny rounded pink-edged ears, huge glossy black bead eyes, pink nose, tiny pink paws, a small pink satin bow clipped on its left ear, wearing miniature polished silver full-plate knight armor with engraved floral filigree on the rounded pauldrons and breastplate, chainmail skirt underneath, brown leather belt with brass buckle, a tiny longsword with brass crossguard in a dark leather scabbard on the left hip, an ivory-white linen cape tied at the neck, holding thin dark leather reins in its tiny pink front paws. Five views in a row at the same scale: front, 3/4 front, side profile, 3/4 back, back; plus two close-up insets: face with the pink satin bow on the LEFT ear, and the engraved floral pauldron detail. Consistent soft studio lighting, true-to-life fur, labeled nothing, no text. Second sheet: the crimson dragon (a colossal crimson-red western dragon with glossy wet-looking pebbled scales, a ridge of pale rose-red dorsal spikes, two forward-curving blood-red horns plus two long swept-back charcoal-black horns, amber-gold slit-pupil eyes, huge bat-like red wings with thin translucent glittering membranes, a dark leather riding harness with silver buckles, a dark leather saddle at the base of the neck and thin dark leather reins running to the snout) in side, front and top views with the saddle, with the hamster seated for scale (hamster head = 1/3 of dragon eye socket height).",
+  "consistency_tips_ko": [
+   "nano-banana-pro로 햄스터 캐릭터 시트 + 용 시트를 먼저 만들고 모든 시작 프레임을 이 두 이미지 레퍼런스로 생성(kling-v3-omni ref2video에도 동일 투입)",
+   "리본은 반드시 '왼쪽 귀(캐릭터 기준)' 고정 — 회전 샷에서도 흔들리지 않게 프롬프트마다 명시",
+   "2~8번 샷은 무조건 16:9로 생성 후 transpose=1 회전. 세로로 직접 생성하면 원본의 '옆으로 누운' 느낌과 구도 비율이 사라짐",
+   "스케일 규칙: 라이더 머리 크기 = 용 눈 소켓 높이의 약 1/3. 샷마다 이 비율을 유지해야 '작고 귀여움'이 산다",
+   "시드 고정 + 같은 색보정 LUT(쿨 틸-그레이 하늘, 크림슨 용)로 클립 간 톤 통일",
+   "갑옷 문양(플로럴 필리그리)과 흰 망토는 햄스터 버전에서도 동일 — 시리즈 아이덴티티 유지"
+  ]
+ },
+ "ffmpeg": {
+  "steps_ko": [
+   "1) 생성 클립 준비: s01.mp4(9:16 1080x1920), s02~s08.mp4(16:9 1920x1080), bgm.mp3, sfx/*.wav",
+   "2) 각 클립을 지정 길이로 trim, s02~s08은 transpose=1(시계방향 90도)로 1080x1920 변환",
+   "3) 전부 24fps로 통일해 concat(하드컷만 사용)",
+   "4) 색보정(살짝 채도 낮추고 대비 부드럽게) + 필름 그레인",
+   "5) 30fps로 변환(fps=30 → 24→30 중복 프레임, 원본과 동일한 케이던스)",
+   "6) BGM + 효과음을 adelay로 타임라인에 배치 후 amix, 마지막 0.35s 페이드아웃",
+   "7) libx264 CRF 17, AAC 192k로 최종 출력"
+  ],
+  "script": "#!/usr/bin/env bash\n# v08 kitten-knight x dragon pt.3 reconstruction. Inputs: s01.mp4 (9:16), s02..s08.mp4 (16:9), bgm.mp3, sfx/*.wav\nset -euo pipefail\nOUT=final_v08.mp4\n: > list.txt\n# durations per shot (seconds)\nD=(6.53 2.80 3.37 3.87 5.00 5.00 2.63 7.37)\nV=\"\"\nfor i in 1 2 3 4 5 6 7 8; do\n  f=$(printf \"s%02d.mp4\" $i); d=${D[$((i-1))]}\n  if [ $i -eq 1 ]; then\n    ffmpeg -v error -y -i \"$f\" -t \"$d\" -vf \"scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=24,setsar=1\" -an -c:v libx264 -crf 14 -pix_fmt yuv420p \"p$i.mp4\" < /dev/null\n  else\n    # 16:9 landscape rotated 90 degrees clockwise -> sky on the right, ground on the left\n    ffmpeg -v error -y -i \"$f\" -t \"$d\" -vf \"scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,transpose=1,fps=24,setsar=1\" -an -c:v libx264 -crf 14 -pix_fmt yuv420p \"p$i.mp4\" < /dev/null\n  fi\n  echo \"file 'p$i.mp4'\" >> list.txt\ndone\nffmpeg -v error -y -f concat -safe 0 -i list.txt -c copy video_24.mp4 < /dev/null\n# optional impact shake 21.57-21.90s if the crash gen lacks it\n# grade + grain, then 24->30fps by frame duplication (matches source cadence)\nffmpeg -v error -y -i video_24.mp4 -vf \"crop=iw-24:ih-42:12+6*sin(90*t)*between(t,21.57,21.90):21+8*cos(110*t)*between(t,21.57,21.90),scale=1080:1920,eq=saturation=0.95:contrast=0.97,noise=alls=4:allf=t,fps=30\" -c:v libx264 -crf 16 -pix_fmt yuv420p video_30.mp4 < /dev/null\n# audio: bgm + sfx at exact times (ms delays)\nffmpeg -v error -y -i video_30.mp4 -i bgm.mp3 \\\n -i sfx/wind_bed.wav -i sfx/gust_wing.wav -i sfx/armor_rattle.wav -i sfx/growl_low.wav -i sfx/whoosh_wing.wav \\\n -i sfx/wing_flap.wav -i sfx/wing_downstroke.wav -i sfx/wind_rush.wav -i sfx/dive_riser.wav -i sfx/roar_short.wav \\\n -i sfx/wind_blast.wav -i sfx/grunt.wav -i sfx/impact.wav -i sfx/skid.wav -i sfx/debris.wav -i sfx/land_mew.wav \\\n -i sfx/footsteps.wav -i sfx/eye_rumble.wav -i sfx/puff_chime.wav \\\n -filter_complex \"\\\n[1:a]volume=-18dB,atrim=0:36.57[bgm];\\\n[2:a]adelay=210|210,volume=-14dB,atrim=0:23[a2];\\\n[3:a]adelay=2510|2510,volume=-6dB[a3];\\\n[4:a]adelay=3250|3250,volume=-10dB[a4];\\\n[5:a]adelay=4480|4480,volume=-9dB[a5];\\\n[6:a]adelay=6530|6530,volume=-6dB[a6];\\\n[7:a]adelay=7060|7060,volume=-9dB[a7];\\\n[8:a]adelay=10900|10900,volume=-7dB[a8];\\\n[9:a]adelay=12700|12700,volume=-8dB[a9];\\\n[10:a]adelay=15310|15310,volume=-4dB[a10];\\\n[11:a]adelay=15700|15700,volume=-6dB[a11];\\\n[12:a]adelay=16570|16570,volume=-6dB[a12];\\\n[13:a]adelay=20750|20750,volume=-8dB[a13];\\\n[14:a]adelay=21490|21490,volume=-3dB[a14];\\\n[15:a]adelay=21700|21700,volume=-7dB[a15];\\\n[16:a]adelay=22050|22050,volume=-12dB[a16];\\\n[17:a]adelay=23100|23100,volume=-10dB[a17];\\\n[18:a]adelay=24060|24060,volume=-16dB[a18];\\\n[19:a]adelay=30900|30900,volume=-12dB[a19];\\\n[20:a]adelay=33900|33900,volume=-10dB[a20];\\\n[bgm][a2][a3][a4][a5][a6][a7][a8][a9][a10][a11][a12][a13][a14][a15][a16][a17][a18][a19][a20]amix=inputs=20:normalize=0,alimiter=limit=0.9,afade=t=out:st=36.22:d=0.35,atrim=0:36.57[aout]\" \\\n -map 0:v -map \"[aout]\" -c:v copy -c:a aac -b:a 192k -shortest \"$OUT\" < /dev/null\nrm -f p?.mp4 list.txt video_24.mp4 video_30.mp4\necho \"done -> $OUT\"\n"
+ },
+ "hyperframes": {
+  "prompt_en": "Use the HyperFrames skill to build a 1080x1920, 30fps, 36.57-second vertical short that exactly reproduces this edit. Author the timeline at 24fps and render at 30fps. Assets: s01.mp4 (9:16 portrait), s02.mp4-s08.mp4 (16:9 landscape 1920x1080), bgm.mp3, sfx/*.wav. IMPORTANT orientation rule: s01 plays upright; every clip s02-s08 must be placed in a 1920x1080 box rotated 90 degrees clockwise (transform: rotate(90deg), centered) so it exactly fills the 1080x1920 stage with the sky on the right and ground on the left. All transitions are hard cuts, no fades. Timeline: s01 0.00-6.53 (source 0-6.53, rider cam, kitten looks into lens); s02 6.53-9.33 (source 0-2.80, rotated, side view of dragon neck); s03 9.33-12.70 (source 0-3.37, rotated, chase cam, wings fill frame height); s04 12.70-16.57 (source 0-3.87, rotated, over-the-shoulder POV above farmland, dive starts); s05 16.57-21.57 (source 0-5.00, rotated, barrel-roll dive); s06 21.57-26.57 (source 0-5.00, rotated, crash landing; add a 0.33s camera shake 21.57-21.90 with 6-8px amplitude); s07 26.57-29.20 (source 0-2.63, rotated, kitten peers at unconscious dragon); s08 29.20-36.57 (source 0-7.37, rotated, eye opens at 30.9, smoky red heart puffs at 33.9 and rises until 36.3). If s08 has no heart, add an overlay: a soft red smoke heart PNG/alpha video, 220px wide, appearing at 33.90 at stage position x=58%, y=50%, scale 0.6 to 1.0 over 0.4s, drifting +180px to the RIGHT (which is 'up' in the rotated world) until 36.30 while fading from 0.9 to 0 opacity, 6px blur. Global grade: saturation 0.95, contrast 0.97, subtle film grain. No text, no captions, no watermark. Audio: bgm.mp3 at -18dB full length (cinematic wind-and-strings first 23s, gentle piano from 28.5s with chords at 28.50, 30.69, 32.88, 35.07). SFX cues (time, file, gain): 0.21 wind_bed -14dB (until 23.0); 2.51 gust_wing -6; 3.25 armor_rattle -10; 4.48 growl_low -9; 6.53 whoosh_wing -6; 7.06 wing_flap -9; 10.90 wing_downstroke -7; 12.70 wind_rush -8; 15.31 dive_riser -4; 15.70 roar_short -6; 16.57 wind_blast -6; 20.75 grunt -8; 21.49 impact -3; 21.70 skid -7; 22.05 debris -12; 23.10 land_mew -10; 24.06 footsteps -16; 30.90 eye_rumble -12; 33.90 puff_chime -10. Duck everything to about -20dB within 0.5s after the 21.49 impact to create a sudden quiet. Fade audio out over the last 0.35s. Validate with hyperframes check, preview, then render final_v08.mp4.",
+  "notes_ko": [
+   "회전은 각 클립 래퍼 div에 width:1920px;height:1080px; 중앙 정렬 후 rotate(90deg) — 1080x1920 스테이지에 정확히 맞음",
+   "하트 오버레이 이동 방향은 화면 '오른쪽'(회전된 세계의 위쪽)이어야 자연스러움",
+   "24fps 타임라인 → 30fps 렌더로 원본의 미세한 끊김 케이던스까지 재현",
+   "모든 컷은 하드컷 — 디졸브/페이드 넣지 말 것"
+  ]
+ },
+ "replication_checklist_ko": [
+  "샷 8개 / 생성 클립 8개 / 총 36.57s, 컷 지점 6.53·9.33·12.70·16.57·21.57·26.57·29.20s 일치",
+  "1번 샷만 세로 네이티브, 2~8번은 16:9 생성 후 시계방향 90도 회전(하늘=오른쪽, 땅=왼쪽)",
+  "리본은 캐릭터의 왼쪽 귀, 갑옷은 은색 플로럴 필리그리, 망토는 아이보리 흰색",
+  "용: 크림슨 비늘, 붉은 앞뿔 2 + 검은 뒤로 뻗은 뿔 2, 호박색 세로동공, 반투명 반짝이는 날개막, 검은 가죽 안장",
+  "1번 샷 1~2s 렌즈 아이컨택 + 2.3~5.8s 난기류 롤",
+  "16.57s 동작 중 컷(다이브), 21.57s 충돌 + 고양이 튕겨남, 23s 이후 사운드 급감",
+  "30.9s 용 눈 뜸 → 32.6s 감음 → 33.9s 연기 하트 → 36.3s 소멸",
+  "텍스트/자막/워터마크 없음",
+  "24fps 편집 → 30fps 출력",
+  "캡션에 'pt.N' + 'Comment \"guide\" for the prompts' 사용"
+ ],
+ "confidence_notes_ko": [
+  "확실: 컷 위치 7개(픽셀차 스파이크 45~104), 샷 길이, 90도 회전(지면/하늘 방향이 2~8번 샷 모두 일관), 텍스트 없음, 24→30fps 중복 프레임 케이던스",
+  "확실: 자동검출 's05'(16.57-16.97)는 별도 샷이 아니라 다이브 샷의 시작부 — 8샷으로 통합",
+  "추정: 1번(6.53s)·8번(7.37s) 샷은 10s 생성을 트림한 것(5s 초과, 내부에 컷 흔적 없음). 5s 생성 후 extend일 수도 있음",
+  "추정: 1번 샷은 세로 네이티브 생성(피사체가 똑바로 서 있고 해상도 손실 없음)",
+  "추정: 연기 하트는 생성 모델 결과 또는 후반 오버레이 둘 다 가능(형태가 매우 깔끔한 하트라 오버레이 가능성도 있음)",
+  "추정(오디오 전체): 전사 불가. 110BPM, 23s 이후 2.19s 간격 온셋=마디 다운비트 코드, 2.5s/15.7s/21.5s 음량 피크를 근거로 바람·날갯짓·충돌 SFX와 후반 피아노를 추정. 실제 악기/곡은 확인 불가",
+  "모델 추천은 영상 특성 기반 추천이며 원본 채널이 실제 사용한 모델(Higgsfield 계열 가능)은 확인 불가"
+ ]
+}

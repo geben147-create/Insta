@@ -1,0 +1,1792 @@
+{
+ "id": "v05",
+ "title_ko": "갑옷 새끼고양이의 '고양이 감각' 급식실 구출",
+ "one_line_ko": "급식실에서 복서팬츠 입은 휘핏 Candy가 주스에 미끄러지자 갑옷 입은 새끼고양이가 한 발로 트레이를 받아내고, 이후 흑백 비트 몽타주로 어디서나 Candy 곁을 지키는 모습을 보여주는 22.5초 AI 숏폼",
+ "format": {
+  "aspect": "9:16",
+  "resolution": "1080x1920",
+  "fps": 30,
+  "duration": 22.5,
+  "shot_count": 24,
+  "gen_clip_count": 21,
+  "avg_shot_len": 0.94,
+  "orientation_trick_ko": "없음 (90도 회전 없음). 대신 9번·11번은 천장을 수직으로 올려다보는 웜즈아이 POV, 7번은 바닥 10cm 높이 인서트로 시점 대비를 줌",
+  "watermark_ko": "좌상단: 라임그린 박스에 검정 'HIGGSFIELD' + 아래 흰색 'GENJUTSU'(x1~21%, y1~4%, 불투명 100%). 우상단: 흰색 'SICKMANAI' 고양이귀 로고(x86~99%, y1~4%, 불투명 100%, 흰 배경에선 안 보이는 것처럼 느껴짐). 두 로고 모두 흑백 구간에서도 컬러 유지 → 그레이드 후 오버레이한 것",
+  "on_screen_text_ko": "자막/문구 없음. 화면 속 글자는 휘핏 반바지의 'CANDY' 로고뿐 (캡션: 'saved candy with my cat senses😹 made with @higgsfield.ai Genjetsu')"
+ },
+ "viral_analysis": {
+  "hook_0_3s_ko": "0~0.3s 9프레임짜리 초귀여운 갑옷 새끼고양이 정면 얼굴(썸네일 역할) → 0.3s부터 고양이 어깨 너머로 두 발로 걸어오는 'CANDY' 복서팬츠 휘핏. '갑옷 입은 고양이 + 사람처럼 걷는 개'라는 두 개의 이상한 요소를 3초 안에 모두 제시",
+  "pattern_interrupts_ko": [
+   "0.30s 티저 플래시 → 오버숄더 점프",
+   "5.63s 초접사 컷인 + 고음 '감각 발동' 효과",
+   "6.23s 바닥 높이 인서트(시점 급변)",
+   "7.23s 천장 수직 POV 슬로모션",
+   "13.73s 음악 완전 무음 후 컬러→흑백 + 새 음악 드롭",
+   "13.73~22.5s 0.72s마다 장소가 바뀌는 비트 컷 12연타"
+  ],
+  "story_arc": [
+   {
+    "beat": "Setup",
+    "range": "0.00-4.50",
+    "desc_ko": "급식실에서 갑옷 새끼고양이가 트레이를 든 휘핏 Candy를 지켜봄"
+   },
+   {
+    "beat": "Inciting",
+    "range": "4.50-6.23",
+    "desc_ko": "고양이가 반해서 미소 → 갑자기 '고양이 감각'으로 위험 감지(ECU, 입 벌림)"
+   },
+   {
+    "beat": "Escalation",
+    "range": "6.23-9.30",
+    "desc_ko": "Candy가 주황 주스를 밟고 미끄러짐, 트레이·음식이 슬로모션으로 공중에"
+   },
+   {
+    "beat": "Climax",
+    "range": "9.30-10.80",
+    "desc_ko": "고양이가 한 발로 트레이를 잡고 음식이 하나씩 정확히 제자리에 착지"
+   },
+   {
+    "beat": "Payoff",
+    "range": "10.80-13.73",
+    "desc_ko": "Candy가 고양이를 사랑스럽게 바라봄(고양이는 무표정) — 쉽/케미 완성"
+   },
+   {
+    "beat": "Loop",
+    "range": "13.73-22.50",
+    "desc_ko": "흑백 '그날 이후' 몽타주: 공원·병실·부엌·복도·사무실·식탁 등 어디서나 곁을 지키는 기사 고양이(평생 경호 추정). 끝 포즈가 첫 프레임 정면 고양이와 이어져 루프"
+   }
+  ],
+  "retention_devices_ko": [
+   "교차편집(POV 낙하물 ↔ 고양이 리액션 ↔ POV)으로 결과를 지연",
+   "순서대로 떨어지는 음식 착지(사과→우유→빵)의 만족감",
+   "13.35~13.73 무음 0.38초 = 청각적 절벽, 다음을 기다리게 함",
+   "흑백 몽타주 0.72s 비트 컷으로 리듬 쾌감 + '다음 장소는?' 호기심",
+   "뒤로 갈수록 병실·사무실 등 인생 단계가 흘러가는 암시 → 감정 상승"
+  ],
+  "why_viral_ko": [
+   "갑옷 새끼고양이(귀여움 극대) × 복서팬츠 입고 걷는 휘핏(병맛) 조합",
+   "짧은 액션 영웅담 + 로맨스(쉽) + 감성 몽타주의 3단 장르 전환이 22초 안에",
+   "B&W 'ever since that day' 밈 포맷을 AI 동물에 적용 — 익숙한 포맷 + 새로운 주인공",
+   "캡션 'cat senses' 말장난이 스파이더센스 연상",
+   "의상·소품(리본, 칼, 망토, CANDY 팬츠)의 디테일이 반복 시청 유도"
+  ],
+  "comment_bait_ko": "'지켜주는 거야 스토킹이야?', 'Candy 반바지 어디서 사요', '고양이 무표정 레전드' 같은 해석형 댓글 유도 — 흑백 몽타주의 의미를 모호하게 둔 것이 핵심(추정)",
+  "loop_design_ko": "마지막 컷(흑백, 정면 응시하는 고양이 전신)에서 첫 프레임(컬러 정면 고양이 MCU)로 돌아가면 같은 표정·같은 시선이라 흑백→컬러 '회상 루프'처럼 이어짐. 오디오는 끝에서 페이드아웃돼 0.10s 첫 비트로 자연 재시작",
+  "editing_terms": [
+   {
+    "term": "Teaser flash / cold open",
+    "ko": "9프레임 미리보기 플래시",
+    "where": "0.00-0.30s"
+   },
+   {
+    "term": "Over-the-shoulder + crane-up rack focus",
+    "ko": "어깨 너머 크레인업 + 초점 이동",
+    "where": "0.30-1.20s"
+   },
+   {
+    "term": "Reaction shot cross-cutting",
+    "ko": "리액션 교차편집",
+    "where": "2.67-5.63s, 7.23-9.30s"
+   },
+   {
+    "term": "Foreground wipe",
+    "ko": "전경 물체로 가리며 전환",
+    "where": "3.63-3.67s, 6.93s"
+   },
+   {
+    "term": "Cut-in / punch-in",
+    "ko": "같은 축 초접사 컷인",
+    "where": "5.63s"
+   },
+   {
+    "term": "Insert shot",
+    "ko": "바닥 인서트 컷",
+    "where": "6.23s"
+   },
+   {
+    "term": "Slow motion POV",
+    "ko": "천장 수직 POV 슬로모션",
+    "where": "7.23s, 8.83s"
+   },
+   {
+    "term": "Dolly-in two-shot",
+    "ko": "돌리인 투샷",
+    "where": "10.5-13.73s"
+   },
+   {
+    "term": "Audio drop-out / hard silence",
+    "ko": "무음 절벽",
+    "where": "13.35-13.73s"
+   },
+   {
+    "term": "Beat-synced montage (1 cut per beat)",
+    "ko": "1박 1컷 비트 몽타주",
+    "where": "13.73-22.50s"
+   },
+   {
+    "term": "Monochrome grade",
+    "ko": "흑백 그레이드(시간 경과/회상 표시)",
+    "where": "13.73-22.50s"
+   }
+  ]
+ },
+ "style_bible": {
+  "character_sheet_en": "MAIN: a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders. Height about the size of a real 7-week kitten (fits on a cafeteria table), behaves deadpan and stoic, stands bipedal in later shots. CO-STAR: 'Candy', an adult whippet with a short thin white coat showing pink skin, a blue-grey patch over its LEFT eye and ear (viewer's right), long narrow snout, black nose, rose ears, standing upright on its hind legs like a person, wearing small black boxing gloves and black Muay Thai boxing shorts with a black waistband and the word 'CANDY' in multicolor bubble letters surrounded by colorful gummy-candy shapes.",
+  "wardrobe_props_en": "Kitten: silver plate armor with fleur-de-lis breastplate, brass rosette shoulder rivets, chainmail sleeves and skirt, steel vambraces, brown leather diagonal belt with brass buckle, short sword with round pommel on left hip, ivory satin cape/hood, pale-pink satin bow on left ear. Dog: small black boxing gloves, black Muay Thai shorts with multicolor 'CANDY' bubble letters and gummy-candy shapes. Props: dark brown plastic cafeteria tray, red apple, blue-and-white half-pint milk carton, two slices of white bread, orange juice puddle.",
+  "environment_en": "an American high-school cafeteria: drop ceiling with square fluorescent panels, white globe pendant lamps, beige walls and square beige columns, backlit menu screens above the serving line, long laminate tables with attached benches, speckled cream VCT tile floor, teenagers eating in the background. Montage locations (B&W): park path, under a tree, hospital room with IV pole, breakfast table with dark cabinets, home kitchen with hanging pans, school hallway, dim living room, office break room, dining table, office glass door, office desk with blinds, living room with white column.",
+  "lighting_en": "Color part: overhead fluorescent + globe pendants, soft top light, slight warm-neutral white balance (~4300K), gentle specular highlights on armor. B&W part: soft window/ambient light, medium contrast.",
+  "color_grade_en": "Color part: natural, slightly desaturated (mean saturation ~60-90/255), warm beige cafeteria, no heavy LUT. Montage: full monochrome (saturation ~4/255), slightly lifted contrast, soft highlights, fine grain; logos stay in color on top.",
+  "camera_lens_en": "Mostly 35-85mm equivalents with shallow depth of field (f/1.8-2.8); low angles (table height) for the dog, eye-level for the kitten, 20-24mm for the floor insert and ceiling POV; gimbal-smooth moves, slow dolly-ins, light handheld in action beats.",
+  "realism_style_en": "Photorealistic live-action pet photography look, real fur strands, real metal reflections, no cartoon features except the anthropomorphic poses.",
+  "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "start": 0.0,
+   "end": 0.3,
+   "dur": 0.3,
+   "gen_clip": 1,
+   "frames": [
+    "frames/s01_in_00.07.jpg",
+    "frames/x_00.00.jpg"
+   ],
+   "shot_size": "Medium close-up (MCU)",
+   "angle": "eye-level at table height",
+   "lens_mm": "85mm equiv",
+   "camera_move_ko": "고정(락오프). 0.30s(9프레임)짜리 티저 플래시 — 3번 컷과 같은 생성 클립에서 잘라 맨 앞에 붙인 '썸네일 프레임'",
+   "composition_ko": "새끼고양이 얼굴 중심 x42%, y44%, 머리~가슴이 프레임 높이 60%, 테이블 상판 y78%, 좌측 1/3 선, 배경 인물 우측 보케",
+   "subject_action_ko": "무표정으로 정면 응시, 거의 정지",
+   "background_ko": "보케 처리된 급식실(기둥, 형광등, 청록 스웨터 여학생 뒷모습)",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "하드컷 — 9프레임 티저 후 오버숄더 샷으로 점프 (첫 온셋 0.10s 이후 6프레임 늦게 컷)",
+    "ffmpeg": "trim=0:0.30 then concat",
+    "hyperframes": "clip 0.00-0.30, hard cut"
+   },
+   "sound": {
+    "bgm_ko": "음악 시작 0.10s 첫 비트",
+    "sfx": [
+     {
+      "t": 0.0,
+      "sfx_en": "cafeteria crowd murmur room tone (bed)",
+      "ko": "급식실 웅성거림 앰비언스"
+     }
+    ]
+   },
+   "image_prompt_en": "Medium close-up of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, sitting at a wooden-laminate cafeteria table with both armored forearms resting on the table, paws flat, looking straight into the lens with a calm neutral face. Kitten head centered slightly left (x 42%, y 44%), table edge across lower fifth, folded paper napkin at right. Background: out-of-focus an American high-school cafeteria: drop ceiling with square fluorescent panels, white globe pendant lamps, beige walls and square beige columns, backlit menu screens above the serving line, long laminate tables with attached benches, speckled cream VCT tile floor, teenagers eating in the background, a man in a navy sweater and a long-haired girl in a teal top blurred at right. 85mm lens, f/1.8, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "Almost static locked-off shot; the kitten breathes softly and blinks once, whiskers twitch; background people drift slightly out of focus. No camera move. Keep armor, bow position and face identical. 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    },
+    {
+     "model": "seedance-2-5",
+     "role": "alt",
+     "why_ko": "크레인·푸시인 등 카메라 무빙과 다중 피사체 동작이 자연스러움"
+    }
+   ],
+   "gen_settings_ko": "image2video 5s 1080x1920, 이 클립 하나로 1·3·5번 컷을 모두 잘라 씀(0-0.3 / 0.3-1.3 / 2.0-3.13). 시드 고정.",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium close-up of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), sitting at a cafeteria table, forearms on the table, looking into the lens with a calm neutral face, same framing and background as the kitten version, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+    "video_prompt_en": "Nearly static; the hamster blinks once, nose twitches, cheek pouches puff slightly. Locked camera. 5 s.",
+    "notes_ko": "햄스터는 작아서 테이블 위 비율이 작아짐 — 프롬프트에 'hamster sized like a kitten, head filling 35% of frame'로 크기 고정"
+   }
+  },
+  {
+   "n": 2,
+   "start": 0.3,
+   "end": 2.67,
+   "dur": 2.37,
+   "gen_clip": 2,
+   "frames": [
+    "frames/s02_in_00.37.jpg",
+    "frames/s02_mid_01.48.jpg",
+    "frames/x_00.20.jpg",
+    "frames/x_01.80.jpg"
+   ],
+   "shot_size": "OTS → Wide shot (WS)",
+   "angle": "eye-level → slightly high",
+   "lens_mm": "35mm equiv",
+   "camera_move_ko": "오버숄더(고양이 뒤통수+갑옷 어깨 전경)에서 시작 → 0.8~1.2s에 카메라가 어깨 위로 크레인 업하며 전진, 전경 고양이가 좌하단으로 빠지고 초점이 휘핏에게 랙포커스 → 이후 거의 고정된 와이드로 걸어오는 휘핏",
+   "composition_ko": "시작: 고양이 머리 좌측 x15%, 프레임 높이 55% 전경 블러, 갑옷 어깨 우하단. 이후: 휘핏 x77%, y45%, 전신 높이 58%, 좌측 파란티 금발 여학생 x20%, 천장 펜던트등 x45% y12%, 수평(테이블 라인) y55%",
+   "subject_action_ko": "Candy(휘핏)가 두 발로 트레이를 들고 테이블 사이 통로를 카메라 쪽으로 도도하게 걸어옴",
+   "background_ko": "급식실 서빙 라인과 메뉴 스크린, 식사 중인 학생들",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "하드컷 → 고양이 정면 MCU (리액션 컷). 비트 2.83보다 5프레임 앞",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut"
+   },
+   "sound": {
+    "bgm_ko": "섹션A 비트(83.3BPM, 0.72s 펄스, 저역 위주 808/킥) 진행 중 (추정)",
+    "sfx": [
+     {
+      "t": 0.3,
+      "sfx_en": "soft whoosh as camera cranes over shoulder",
+      "ko": "은은한 휙"
+     }
+    ]
+   },
+   "image_prompt_en": "Over-the-shoulder shot from behind a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders: the fluffy back of the kitten's head fills the left foreground out of focus, ivory cape and engraved silver pauldron with chainmail at bottom. In the background, in soft focus, 'Candy', an adult whippet with a short thin white coat showing pink skin, a blue-grey patch over its LEFT eye and ear (viewer's right), long narrow snout, black nose, rose ears, standing upright on its hind legs like a person, wearing small black boxing gloves and black Muay Thai boxing shorts with a black waistband and the word 'CANDY' in multicolor bubble letters surrounded by colorful gummy-candy shapes walks toward camera down the aisle carrying a dark brown plastic cafeteria tray holding a shiny red apple, a small blue-and-white milk carton and two slices of white sandwich bread. Setting: an American high-school cafeteria: drop ceiling with square fluorescent panels, white globe pendant lamps, beige walls and square beige columns, backlit menu screens above the serving line, long laminate tables with attached benches, speckled cream VCT tile floor, teenagers eating in the background, blonde girl in a blue T-shirt sitting at the left table. 35mm lens, f/2.8, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "Camera starts over the kitten's shoulder, then cranes up and pushes forward over the shoulder so the kitten slides out of frame bottom-left while focus racks from the kitten fur to the dog; then the camera settles into a stable wide shot as the upright whippet walks confidently toward the lens, tray level, hips swaying, students keep eating. Smooth gimbal move, 5 s. Dog must stay bipedal, tray contents must not change.",
+   "end_frame_prompt_en": "Wide shot of the cafeteria aisle, 'Candy', an adult whippet with a short thin white coat showing pink skin, a blue-grey patch over its LEFT eye and ear (viewer's right), long narrow snout, black nose, rose ears, standing upright on its hind legs like a person, wearing small black boxing gloves and black Muay Thai boxing shorts with a black waistband and the word 'CANDY' in multicolor bubble letters surrounded by colorful gummy-candy shapes walking upright toward camera holding a dark brown plastic cafeteria tray holding a shiny red apple, a small blue-and-white milk carton and two slices of white sandwich bread, dog at right third, blonde girl in blue T-shirt at left table, pendant lamp top center, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "seedance-2-5",
+     "role": "alt",
+     "why_ko": "크레인·푸시인 등 카메라 무빙과 다중 피사체 동작이 자연스러움"
+    },
+    {
+     "model": "kling-video-o1",
+     "role": "alt",
+     "why_ko": "첫/끝 프레임 제어로 트레이 캐치 결과 프레임 고정 가능"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "first-last frame 5s (시작=OTS, 끝=와이드). 2.37s만 사용. 크레인 표현은 seedance가 유리",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Over-the-shoulder shot from behind a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), back of its golden fluffy head and armor pauldron in the left foreground, 'Candy', an adult whippet with a short thin white coat showing pink skin, a blue-grey patch over its LEFT eye and ear (viewer's right), long narrow snout, black nose, rose ears, standing upright on its hind legs like a person, wearing small black boxing gloves and black Muay Thai boxing shorts with a black waistband and the word 'CANDY' in multicolor bubble letters surrounded by colorful gummy-candy shapes walking toward camera with the tray in the background, an American high-school cafeteria: drop ceiling with square fluorescent panels, white globe pendant lamps, beige walls and square beige columns, backlit menu screens above the serving line, long laminate tables with attached benches, speckled cream VCT tile floor, teenagers eating in the background, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+    "video_prompt_en": "Camera cranes up over the hamster's shoulder and pushes forward, focus racks to the upright whippet walking toward the lens with the tray; settles into a stable wide shot. 5 s.",
+    "notes_ko": "휘핏(Candy)은 그대로 유지 — 주인공만 교체"
+   }
+  },
+  {
+   "n": 3,
+   "start": 2.67,
+   "end": 3.67,
+   "dur": 1.0,
+   "gen_clip": 1,
+   "frames": [
+    "frames/s03_in_02.74.jpg",
+    "frames/s03_mid_03.17.jpg",
+    "frames/s03_out_03.60.jpg",
+    "frames/x_02.40.jpg"
+   ],
+   "shot_size": "Medium close-up (MCU)",
+   "angle": "eye-level",
+   "lens_mm": "85mm equiv",
+   "camera_move_ko": "고정. 마지막 2프레임(3.63~3.67)에 Candy가 지나가며 트레이+우유팩이 렌즈 앞을 좌→우로 가리는 '전경 와이프'",
+   "composition_ko": "1번과 동일 구도: 얼굴 x42% y42%, 높이 60%",
+   "subject_action_ko": "무표정으로 정면을 봄 → 거의 미동 없음(시선 추적)",
+   "background_ko": "보케 급식실, 뒤 남성이 걸어감",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Foreground wipe + hard cut",
+    "ko": "트레이·우유팩이 렌즈 앞을 2프레임 가린 뒤 하드컷(모션 매치 컷) → 휘핏 로우앵글. 비트 3.55 뒤 3.6프레임",
+    "ffmpeg": "concat (wipe is in-camera; optional: overlay tray PNG sliding x:-1080→0 over 2 frames)",
+    "hyperframes": "hard cut at 3.67; optional tray-PNG wipe layer 3.60-3.67"
+   },
+   "sound": {
+    "bgm_ko": "섹션A 비트(83.3BPM, 0.72s 펄스, 저역 위주 808/킥) 진행 중 (추정)",
+    "sfx": [
+     {
+      "t": 3.6,
+      "sfx_en": "quick close whoosh of tray passing lens",
+      "ko": "트레이 스치는 휙"
+     }
+    ]
+   },
+   "image_prompt_en": "Medium close-up of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, sitting at a wooden-laminate cafeteria table with both armored forearms resting on the table, paws flat, looking straight into the lens with a calm neutral face. Kitten head centered slightly left (x 42%, y 44%), table edge across lower fifth, folded paper napkin at right. Background: out-of-focus an American high-school cafeteria: drop ceiling with square fluorescent panels, white globe pendant lamps, beige walls and square beige columns, backlit menu screens above the serving line, long laminate tables with attached benches, speckled cream VCT tile floor, teenagers eating in the background, a man in a navy sweater and a long-haired girl in a teal top blurred at right. 85mm lens, f/1.8, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "Kitten stays still looking at the lens; at the very end a brown cafeteria tray with a blue milk carton swings across the foreground from left to right, briefly covering the lens. Locked camera. 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    },
+    {
+     "model": "seedance-2-5",
+     "role": "alt",
+     "why_ko": "크레인·푸시인 등 카메라 무빙과 다중 피사체 동작이 자연스러움"
+    }
+   ],
+   "gen_settings_ko": "1번과 같은 클립(g01) 0.3~1.3s 구간 사용. 끝 와이프는 별도 PNG 합성이 더 쉽다",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium close-up of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), sitting at a cafeteria table, forearms on the table, looking into the lens with a calm neutral face, same framing and background as the kitten version, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+    "video_prompt_en": "Hamster stays still staring at the lens; at the end a cafeteria tray swings across the foreground, covering the lens. 5 s.",
+    "notes_ko": ""
+   }
+  },
+  {
+   "n": 4,
+   "start": 3.67,
+   "end": 4.5,
+   "dur": 0.83,
+   "gen_clip": 3,
+   "frames": [
+    "frames/s04_in_03.74.jpg",
+    "frames/s04_mid_04.08.jpg",
+    "frames/x_03.90.jpg"
+   ],
+   "shot_size": "Medium shot (MS)",
+   "angle": "low angle (table height looking up)",
+   "lens_mm": "28mm equiv",
+   "camera_move_ko": "로우앵글, 아주 느린 페데스탈 다운/전진(콘텐츠가 아래로 1px/f). 4.17~4.33 휘핏 고개를 살짝 돌림",
+   "composition_ko": "휘핏 머리 x72% y15%, 상체+반바지가 프레임 높이 90% (우측 2/3), 좌측 가장자리 남학생 어깨 전경, 천장 형광등·펜던트 좌상단, 트레이 y67%",
+   "subject_action_ko": "Candy가 트레이를 들고 도도하게 서서 주위를 흘끗 봄(자신만만한 표정)",
+   "background_ko": "형광등 천장, 메뉴 스크린, 학생들",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "하드컷 → 고양이 미소 MCU (비트 4.27과 4.99 사이 오프비트)",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut"
+   },
+   "sound": {
+    "bgm_ko": "섹션A 비트(83.3BPM, 0.72s 펄스, 저역 위주 808/킥) 진행 중 (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Low-angle medium shot of 'Candy', an adult whippet with a short thin white coat showing pink skin, a blue-grey patch over its LEFT eye and ear (viewer's right), long narrow snout, black nose, rose ears, standing upright on its hind legs like a person, wearing small black boxing gloves and black Muay Thai boxing shorts with a black waistband and the word 'CANDY' in multicolor bubble letters surrounded by colorful gummy-candy shapes, standing upright at the end of a cafeteria table holding a dark brown plastic cafeteria tray holding a shiny red apple, a small blue-and-white milk carton and two slices of white sandwich bread at waist height with both gloved paws, head at top right third looking slightly down with a smug confident face, 'CANDY' shorts clearly readable at bottom. Foreground left edge: blurred shoulder of a seated student. Background: an American high-school cafeteria: drop ceiling with square fluorescent panels, white globe pendant lamps, beige walls and square beige columns, backlit menu screens above the serving line, long laminate tables with attached benches, speckled cream VCT tile floor, teenagers eating in the background, fluorescent ceiling panels and a globe pendant lamp at upper left. 28mm lens, f/2.8, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "Slow subtle push-in/pedestal down; the whippet stands tall, glances left then back to camera with a smug look, tray stays perfectly level, ears flick. 5 s. Keep 'CANDY' lettering, gloves and tray contents unchanged.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    },
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "미끄러짐·낙하·잡기 같은 물리 동작과 슬로모션 표현이 강함"
+    }
+   ],
+   "gen_settings_ko": "image2video 5s, 0.83s만 사용. 반바지 글자 뭉개지면 nano-banana-pro 로 시작프레임 재생성 후 kling",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Dog-only shot: reuse the original image prompt unchanged.",
+    "video_prompt_en": "Same as original (dog-only shot).",
+    "notes_ko": "휘핏 단독 컷 — 교체 불필요"
+   }
+  },
+  {
+   "n": 5,
+   "start": 4.5,
+   "end": 5.63,
+   "dur": 1.13,
+   "gen_clip": 1,
+   "frames": [
+    "frames/s05_in_04.57.jpg",
+    "frames/s05_mid_05.07.jpg",
+    "frames/s05_out_05.56.jpg"
+   ],
+   "shot_size": "Medium close-up (MCU)",
+   "angle": "eye-level",
+   "lens_mm": "85mm equiv",
+   "camera_move_ko": "고정. 1·3번과 같은 셋업(같은 생성 클립 추정)",
+   "composition_ko": "얼굴 x40% y40%, 높이 60%, 뒤 남성 우상단 x80% y20%",
+   "subject_action_ko": "새끼고양이가 Candy를 보고 입꼬리를 올려 수줍게 미소(반함)",
+   "background_ko": "보케 급식실, 뒤 남성이 웃으며 걸어감",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Cut-in (punch-in cut)",
+    "ko": "같은 축으로 ECU로 점프 컷인(스케일 약 2배). 비트 5.71보다 2.4프레임 앞",
+    "ffmpeg": "concat (or: crop=540:960:270:300,scale=1080:1920 if using a digital punch-in)",
+    "hyperframes": "hard cut; or scale 1→2 instant punch-in on same clip"
+   },
+   "sound": {
+    "bgm_ko": "섹션A 비트(83.3BPM, 0.72s 펄스, 저역 위주 808/킥) 진행 중 (추정)",
+    "sfx": [
+     {
+      "t": 4.55,
+      "sfx_en": "tiny sparkle chime / soft 'aww' sting",
+      "ko": "반짝 효과음(추정)"
+     }
+    ]
+   },
+   "image_prompt_en": "Medium close-up of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, sitting at a wooden-laminate cafeteria table with both armored forearms resting on the table, paws flat, looking straight into the lens with a calm neutral face. Kitten head centered slightly left (x 42%, y 44%), table edge across lower fifth, folded paper napkin at right. Background: out-of-focus an American high-school cafeteria: drop ceiling with square fluorescent panels, white globe pendant lamps, beige walls and square beige columns, backlit menu screens above the serving line, long laminate tables with attached benches, speckled cream VCT tile floor, teenagers eating in the background, a man in a navy sweater and a long-haired girl in a teal top blurred at right. 85mm lens, f/1.8, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "The kitten slowly curls the corners of its mouth into a shy, smitten little smile, eyes soften, head tilts 5 degrees; locked camera, background man walks past smiling. 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    },
+    {
+     "model": "seedance-2-5",
+     "role": "alt",
+     "why_ko": "크레인·푸시인 등 카메라 무빙과 다중 피사체 동작이 자연스러움"
+    }
+   ],
+   "gen_settings_ko": "g01 2.0~3.13s 구간(또는 별도 5s 생성). 미소는 'subtle smile' 강조, 과장 금지",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium close-up of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), sitting at a cafeteria table, forearms on the table, looking into the lens with a calm neutral face, same framing and background as the kitten version, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+    "video_prompt_en": "The hamster slowly gives a shy smitten little smile, cheeks puff, head tilts slightly; locked camera. 5 s.",
+    "notes_ko": ""
+   }
+  },
+  {
+   "n": 6,
+   "start": 5.63,
+   "end": 6.23,
+   "dur": 0.6,
+   "gen_clip": 4,
+   "frames": [
+    "frames/s06_in_05.70.jpg",
+    "frames/s06_out_06.16.jpg"
+   ],
+   "shot_size": "Extreme close-up (ECU)",
+   "angle": "eye-level",
+   "lens_mm": "100mm macro equiv",
+   "camera_move_ko": "고정, 아주 미세한 푸시인. 6.0s 부근 눈이 커지고 입을 벌림('고양이 감각' 발동)",
+   "composition_ko": "얼굴이 프레임 폭 100%, 눈 라인 y40%, 코 x55% y48%, 흉갑 하단 1/3",
+   "subject_action_ko": "갑자기 무언가를 감지 — 눈 동그래지고 입을 벌려 놀람/경계",
+   "background_ko": "배경 거의 날아간 보케(따뜻한 색 조각)",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "하드컷 → 바닥 ECU (원인 제시 컷). 비트 6.45보다 6.6프레임 앞",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut"
+   },
+   "sound": {
+    "bgm_ko": "음악 위 고음역 '감각 발동' 효과 (스펙트럼 중심 2.9kHz로 급상승 — 5.6~6.6s) (추정)",
+    "sfx": [
+     {
+      "t": 5.63,
+      "sfx_en": "high-pitched tingling 'sixth sense' ring / shimmering whine rising",
+      "ko": "띠링~ 감각 발동음(고음 윙)"
+     }
+    ]
+   },
+   "image_prompt_en": "Extreme close-up of the face of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, face filling the whole frame width, huge glossy black eyes at 40% height, pink bow at top right, top of the fleur-de-lis breastplate and brass rosettes in the lower third. Warm blurred cafeteria bokeh background. 100mm macro, f/2, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "Micro push-in; the kitten's pupils dilate, eyes widen, ears perk forward, then its mouth drops open in a small alarmed gasp showing tiny teeth, as if sensing danger. 5 s. No head turn, no camera shake.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    },
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "미끄러짐·낙하·잡기 같은 물리 동작과 슬로모션 표현이 강함"
+    }
+   ],
+   "gen_settings_ko": "5s 생성 후 마지막 0.6s(입 벌리는 순간)만 사용",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Extreme close-up of the face of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), huge glossy black eyes, pink bow, top of the armor in the lower third, warm cafeteria bokeh, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+    "video_prompt_en": "Micro push-in; the hamster's eyes widen, whiskers twitch forward, then its mouth opens in a small alarmed gasp showing tiny front teeth. 5 s.",
+    "notes_ko": "햄스터 앞니 2개가 보이도록 — '햄스터 감각' 컷"
+   }
+  },
+  {
+   "n": 7,
+   "start": 6.23,
+   "end": 6.67,
+   "dur": 0.44,
+   "gen_clip": 5,
+   "frames": [
+    "frames/s07_in_06.30.jpg",
+    "frames/s07_out_06.60.jpg"
+   ],
+   "shot_size": "Insert / ECU (floor level)",
+   "angle": "ground-level, 10cm above floor",
+   "lens_mm": "24mm equiv",
+   "camera_move_ko": "바닥 높이 고정, 미세 핸드헬드",
+   "composition_ko": "주황 웅덩이 x65% y57%, 프레임 폭 60%, 수평(테이블 다리 라인) y20%, 바닥 전면",
+   "subject_action_ko": "화면 우측에서 Candy의 흰 뒷발이 주황색(오렌지주스/소스) 웅덩이를 밟고 미끄러지며 소스가 튐",
+   "background_ko": "테이블 다리들이 보케로 줄지어 선 급식실 바닥",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "하드컷 → 휘핏 로우앵글 미끄러짐. 비트 6.45 뒤 6.6프레임",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut"
+   },
+   "sound": {
+    "bgm_ko": "섹션A 비트(83.3BPM, 0.72s 펄스, 저역 위주 808/킥) 진행 중 (추정)",
+    "sfx": [
+     {
+      "t": 6.3,
+      "sfx_en": "wet squelch and squeaky slip on vinyl floor",
+      "ko": "찍- 미끄러지는 소리"
+     }
+    ]
+   },
+   "image_prompt_en": "Floor-level insert shot of a glossy bright-orange liquid puddle (spilled orange juice) on a speckled cream VCT cafeteria floor, puddle at center-right, rows of blurred table legs and benches in the background at the top fifth, cool fluorescent reflections on the floor. A white whippet hind foot enters from the right edge. 24mm lens at 10 cm height, f/2.8, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "The white whippet's bare hind foot steps into the orange puddle from the right and immediately slides forward, liquid splashes and smears in a long streak, the leg shoots out of frame to the left. Fast, physical, 5 s; camera locked at floor level.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "미끄러짐·낙하·잡기 같은 물리 동작과 슬로모션 표현이 강함"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "5s, 0.44s만 사용. 액체 물리는 veo-3-1 우선",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Same floor-level insert (dog foot) — unchanged.",
+    "video_prompt_en": "Unchanged.",
+    "notes_ko": "휘핏 발 컷 — 교체 불필요"
+   }
+  },
+  {
+   "n": 8,
+   "start": 6.67,
+   "end": 7.23,
+   "dur": 0.56,
+   "gen_clip": 6,
+   "frames": [
+    "frames/s08_in_06.74.jpg",
+    "frames/s08_mid_06.83.jpg",
+    "frames/s09_in_07.07.jpg",
+    "frames/x_06.60.jpg"
+   ],
+   "shot_size": "Medium close-up (MCU)",
+   "angle": "extreme low angle looking up",
+   "lens_mm": "24mm equiv",
+   "camera_move_ko": "로우앵글 고정 → 6.93s 트레이가 아래에서 위로 렌즈 앞을 휙 지나감(자연 와이프) → 몸이 뒤로 넘어가며 앞발을 번쩍 듦, 카메라 살짝 틸트업",
+   "composition_ko": "휘핏 머리 x60% y35%, 목~가슴 프레임 높이 70%, 천장 형광등 상단 y10~25%",
+   "subject_action_ko": "놀라 입 벌림 → 트레이가 튀어오름 → 두 팔을 번쩍 들고 뒤로 넘어가며 고개가 젖혀짐",
+   "background_ko": "천장과 메뉴 스크린",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "하드컷 → 천장을 보는 POV(물건 낙하). 비트 7.12 뒤 3.3프레임",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut"
+   },
+   "sound": {
+    "bgm_ko": "섹션A 비트(83.3BPM, 0.72s 펄스, 저역 위주 808/킥) 진행 중 (추정)",
+    "sfx": [
+     {
+      "t": 6.7,
+      "sfx_en": "dog yelp / surprised gasp",
+      "ko": "깨갱"
+     },
+     {
+      "t": 6.93,
+      "sfx_en": "tray flip whoosh",
+      "ko": "트레이 튕기는 휙"
+     }
+    ]
+   },
+   "image_prompt_en": "Extreme low-angle medium close-up of 'Candy', an adult whippet with a short thin white coat showing pink skin, a blue-grey patch over its LEFT eye and ear (viewer's right), long narrow snout, black nose, rose ears, standing upright on its hind legs like a person, wearing small black boxing gloves and black Muay Thai boxing shorts with a black waistband and the word 'CANDY' in multicolor bubble letters surrounded by colorful gummy-candy shapes's face and chest from table height, holding a dark brown plastic cafeteria tray holding a shiny red apple, a small blue-and-white milk carton and two slices of white sandwich bread at the bottom edge, ceiling fluorescent panels and a globe pendant lamp behind its head, an American high-school cafeteria: drop ceiling with square fluorescent panels, white globe pendant lamps, beige walls and square beige columns, backlit menu screens above the serving line, long laminate tables with attached benches, speckled cream VCT tile floor, teenagers eating in the background. 24mm, f/2.8, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "The whippet's feet slip: its mouth opens in shock, the tray flips upward past the lens, milk carton flying, and the dog throws both gloved arms up and falls backward, head tilting back toward the ceiling. Fast 0.5 s action then slight slow motion. Camera locked low, slight tilt up. 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "미끄러짐·낙하·잡기 같은 물리 동작과 슬로모션 표현이 강함"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    },
+    {
+     "model": "seedance-2-5",
+     "role": "alt",
+     "why_ko": "크레인·푸시인 등 카메라 무빙과 다중 피사체 동작이 자연스러움"
+    }
+   ],
+   "gen_settings_ko": "5s, 0.56s만 사용. 필요 시 60fps로 생성해 느리게",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Dog-only shot — unchanged.",
+    "video_prompt_en": "Unchanged.",
+    "notes_ko": "휘핏 단독 — 교체 불필요"
+   }
+  },
+  {
+   "n": 9,
+   "start": 7.23,
+   "end": 7.9,
+   "dur": 0.67,
+   "gen_clip": 7,
+   "frames": [
+    "frames/s09_out_07.83.jpg",
+    "frames/x_06.60.jpg"
+   ],
+   "shot_size": "POV / low angle looking straight up",
+   "angle": "worm's-eye (90° up)",
+   "lens_mm": "20mm equiv",
+   "camera_move_ko": "천장을 올려다보는 POV 고정, 물건들이 슬로모션으로 공중에 떠 있다가 떨어지기 시작",
+   "composition_ko": "트레이 x62% y68% 프레임 폭 60%, 사과 x48% y36%, 우유팩 x77% y25%, 빵 x57% y28% / x78% y46%, 펜던트등 좌측 y40%, 형광 패널 우하단",
+   "subject_action_ko": "트레이·사과·우유팩·식빵 2장이 천장을 배경으로 슬로모션 공중 회전",
+   "background_ko": "석고보드 천장 타일, 형광등, 펜던트등",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut (cross-cut)",
+    "ko": "하드컷 → 고양이 리액션. 비트 7.89에 정확히(0.3프레임) — 이 영상 전반부에서 비트에 맞춘 드문 컷",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut on beat"
+   },
+   "sound": {
+    "bgm_ko": "슬로모션 구간 — 음악 위 저역 '시간 느려짐' 효과 (추정)",
+    "sfx": [
+     {
+      "t": 7.23,
+      "sfx_en": "slow-motion whoosh / time-slow bass drop",
+      "ko": "슬로모 우웅"
+     }
+    ]
+   },
+   "image_prompt_en": "Worm's-eye POV looking straight up at a white acoustic-tile drop ceiling with a square fluorescent panel at the bottom-right corner and a white globe pendant lamp at the left edge. Floating in mid-air in slow motion: a dark brown plastic cafeteria tray (large, lower center, tilted), a red apple, a blue-and-white milk carton and two slices of white bread spinning above it. 20mm lens, deep focus, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "Super slow motion (about 25% speed): the tray, apple, milk carton and bread slices tumble and rotate in the air, then begin to fall toward the camera, the tray growing larger and exiting the bottom of frame at the end. Camera perfectly static. 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "미끄러짐·낙하·잡기 같은 물리 동작과 슬로모션 표현이 강함"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "5s 하나 생성해 9번(0~0.67s)과 11번(1.6~2.07s)에 나눠 사용(교차편집)",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Unchanged (object-only POV).",
+    "video_prompt_en": "Unchanged.",
+    "notes_ko": "사물 컷 — 교체 불필요"
+   }
+  },
+  {
+   "n": 10,
+   "start": 7.9,
+   "end": 8.83,
+   "dur": 0.93,
+   "gen_clip": 8,
+   "frames": [
+    "frames/s10_in_07.97.jpg",
+    "frames/s10_mid_08.37.jpg",
+    "frames/s10_out_08.76.jpg"
+   ],
+   "shot_size": "Medium shot (MS)",
+   "angle": "low side angle",
+   "lens_mm": "35mm equiv",
+   "camera_move_ko": "빠른 핸드헬드(흐름 3.9px/f), 휘핏의 팔이 전경을 블러로 휩쓸고 지나감(자연 와이프) → 고양이 3/4 측면으로 재프레이밍",
+   "composition_ko": "고양이 머리 x30% y25% → 끝 x50% y40%, 몸 프레임 높이 75%, 천장 상단 1/3",
+   "subject_action_ko": "고양이가 위를 올려다보며 벌떡 일어나 반응, 눈으로 낙하물을 추적",
+   "background_ko": "급식실 테이블과 트레이(샐러드, 우유), 학생들",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut (cross-cut)",
+    "ko": "하드컷 → 다시 천장 POV. 비트 8.51 뒤 9.6프레임(액션 기준 컷)",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut"
+   },
+   "sound": {
+    "bgm_ko": "섹션A 비트(83.3BPM, 0.72s 펄스, 저역 위주 808/킥) 진행 중 (추정)",
+    "sfx": [
+     {
+      "t": 7.9,
+      "sfx_en": "armor clank as the kitten springs up",
+      "ko": "갑옷 철컥"
+     }
+    ]
+   },
+   "image_prompt_en": "Low side-angle medium shot of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, seated at the edge of a cafeteria table with a tray of salad in front of it, head turned up looking at the ceiling with wide alert eyes, gauntleted paw on the table. an American high-school cafeteria: drop ceiling with square fluorescent panels, white globe pendant lamps, beige walls and square beige columns, backlit menu screens above the serving line, long laminate tables with attached benches, speckled cream VCT tile floor, teenagers eating in the background behind, fluorescent panels above. 35mm, f/2, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "Handheld, energetic: the kitten snaps its head upward tracking falling objects and rises onto its hind legs; the whippet's white arm swings through the foreground as a motion-blurred wipe; camera re-frames to a 3/4 profile of the determined kitten. 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    },
+    {
+     "model": "seedance-2-5",
+     "role": "alt",
+     "why_ko": "크레인·푸시인 등 카메라 무빙과 다중 피사체 동작이 자연스러움"
+    }
+   ],
+   "gen_settings_ko": "5s, 0.93s 사용. 팔 스윕은 프롬프트로 안 나오면 생략 가능",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Low side-angle medium shot of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), seated at a cafeteria table, looking up at the ceiling with wide alert eyes, an American high-school cafeteria: drop ceiling with square fluorescent panels, white globe pendant lamps, beige walls and square beige columns, backlit menu screens above the serving line, long laminate tables with attached benches, speckled cream VCT tile floor, teenagers eating in the background, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+    "video_prompt_en": "Handheld: the hamster snaps its head up tracking falling objects and rises onto its hind legs; a white whippet arm swipes through the foreground; camera reframes to a determined 3/4 profile. 5 s.",
+    "notes_ko": ""
+   }
+  },
+  {
+   "n": 11,
+   "start": 8.83,
+   "end": 9.3,
+   "dur": 0.47,
+   "gen_clip": 7,
+   "frames": [
+    "frames/s11_in_08.90.jpg",
+    "frames/x_08.70.jpg"
+   ],
+   "shot_size": "POV / worm's-eye",
+   "angle": "90° up",
+   "lens_mm": "20mm equiv",
+   "camera_move_ko": "9번과 동일 POV 계속(같은 생성 클립 후반부). 트레이가 커지며 아래로 빠짐",
+   "composition_ko": "9번과 동일, 트레이가 y68%→하단 밖",
+   "subject_action_ko": "물건들이 계속 떨어지고 트레이가 카메라 쪽으로 낙하해 프레임 아래로 빠짐",
+   "background_ko": "천장",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut",
+    "ko": "하드컷 → 캐치 2샷. 비트 9.33에 정확히(-0.9프레임)",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut on beat"
+   },
+   "sound": {
+    "bgm_ko": "섹션A 비트(83.3BPM, 0.72s 펄스, 저역 위주 808/킥) 진행 중 (추정)",
+    "sfx": [
+     {
+      "t": 8.83,
+      "sfx_en": "whoosh of falling tray",
+      "ko": "휙"
+     }
+    ]
+   },
+   "image_prompt_en": "Worm's-eye POV looking straight up at a white acoustic-tile drop ceiling with a square fluorescent panel at the bottom-right corner and a white globe pendant lamp at the left edge. Floating in mid-air in slow motion: a dark brown plastic cafeteria tray (large, lower center, tilted), a red apple, a blue-and-white milk carton and two slices of white bread spinning above it. 20mm lens, deep focus, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "Super slow motion (about 25% speed): the tray, apple, milk carton and bread slices tumble and rotate in the air, then begin to fall toward the camera, the tray growing larger and exiting the bottom of frame at the end. Camera perfectly static. 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "미끄러짐·낙하·잡기 같은 물리 동작과 슬로모션 표현이 강함"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "g07 1.6~2.07s 구간",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Unchanged.",
+    "video_prompt_en": "Unchanged.",
+    "notes_ko": ""
+   }
+  },
+  {
+   "n": 12,
+   "start": 9.3,
+   "end": 13.73,
+   "dur": 4.43,
+   "gen_clip": 9,
+   "frames": [
+    "frames/g_10.00.jpg",
+    "frames/s11_mid_11.28.jpg",
+    "frames/g_12.00.jpg",
+    "frames/s11_out_13.66.jpg",
+    "frames/x_09.90.jpg"
+   ],
+   "shot_size": "Medium two-shot → Close two-shot",
+   "angle": "low angle → eye-level",
+   "lens_mm": "35mm → 50mm equiv",
+   "camera_move_ko": "로우앵글 미디엄 2샷으로 시작, 트레이 캐치 후 약 4초 동안 천천히 푸시인(돌리인)하여 두 얼굴 클로즈 2샷으로",
+   "composition_ko": "시작: 고양이 x25% y30%, 휘핏 x80% y20%, 트레이 y60% 좌측. 끝: 고양이 얼굴 x28% y38%, 휘핏 얼굴 x68% y40%, 두 얼굴이 좌우 1/3선, 높이 각 35%",
+   "subject_action_ko": "9.3 트레이가 위에서 떨어짐 → 9.5 고양이가 한 앞발로 트레이 캐치 → 9.7 사과, 9.9 우유팩, 10.1~10.3 식빵이 차례로 정확히 트레이에 착지 → 고양이는 무표정 정면, Candy는 옆에서 서서 12.3부터 고개를 돌려 고양이를 사랑스럽게 바라봄",
+   "background_ko": "급식실 천장 형광등, 메뉴 스크린 보케",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut + audio drop",
+    "ko": "하드컷 + 13.35~13.73 음악 페이드아웃→완전 무음(-120dB) 후, 13.73 정확히 흑백 몽타주+새 음악 섹션 동시 시작 (컬러→흑백 대비 전환)",
+    "ffmpeg": "concat; audio: afade=t=out:st=13.35:d=0.38 on section A, section B starts adelay=13730",
+    "hyperframes": "hard cut at 13.73; audio A fade-out 13.35-13.73, audio B at 13.73"
+   },
+   "sound": {
+    "bgm_ko": "9.3~10.8 캐치 효과음 연타(온셋 0.22~0.3s 간격), 12.9 잠깐 딥, 13.35부터 페이드아웃 → 13.72 완전 무음",
+    "sfx": [
+     {
+      "t": 9.33,
+      "sfx_en": "plastic tray caught with metal gauntlet clack",
+      "ko": "탁! 트레이 캐치"
+     },
+     {
+      "t": 9.63,
+      "sfx_en": "apple thud onto plastic tray",
+      "ko": "사과 툭"
+     },
+     {
+      "t": 9.87,
+      "sfx_en": "milk carton light tap",
+      "ko": "우유팩 톡"
+     },
+     {
+      "t": 10.05,
+      "sfx_en": "bread slice soft pat",
+      "ko": "식빵 퍽"
+     },
+     {
+      "t": 10.29,
+      "sfx_en": "second bread slice soft pat",
+      "ko": "식빵 퍽"
+     },
+     {
+      "t": 10.51,
+      "sfx_en": "small armor rattle",
+      "ko": "갑옷 찰랑"
+     },
+     {
+      "t": 10.78,
+      "sfx_en": "tiny satisfied chime / ding",
+      "ko": "완벽 착지 딩(추정)"
+     }
+    ]
+   },
+   "image_prompt_en": "Low-angle medium two-shot in the cafeteria: at left a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders stands upright holding a dark brown plastic cafeteria tray holding a shiny red apple, a small blue-and-white milk carton and two slices of white sandwich bread balanced on one gauntleted paw, at right 'Candy', an adult whippet with a short thin white coat showing pink skin, a blue-grey patch over its LEFT eye and ear (viewer's right), long narrow snout, black nose, rose ears, standing upright on its hind legs like a person, wearing small black boxing gloves and black Muay Thai boxing shorts with a black waistband and the word 'CANDY' in multicolor bubble letters surrounded by colorful gummy-candy shapes stands upright beside it, both facing camera. Fluorescent ceiling panels above, blurred menu screens behind. 35mm, f/2.2, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "video_prompt_en": "Starts with the tray falling from above into frame; the kitten snaps out one paw and catches it perfectly level; the apple, then the milk carton, then two bread slices drop one by one exactly onto the tray in their original spots. The kitten stays deadpan staring at the lens. Then a slow 4-second dolly-in to a close two-shot; the whippet slowly turns its head toward the kitten and gazes at it adoringly with soft eyes and a slight smile. Realistic physics, no extra objects. 5 s.",
+   "end_frame_prompt_en": "Close two-shot: a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders at left third looking into the lens deadpan, 'Candy', an adult whippet with a short thin white coat showing pink skin, a blue-grey patch over its LEFT eye and ear (viewer's right), long narrow snout, black nose, rose ears, standing upright on its hind legs like a person, wearing small black boxing gloves and black Muay Thai boxing shorts with a black waistband and the word 'CANDY' in multicolor bubble letters surrounded by colorful gummy-candy shapes at right third turned toward the kitten gazing lovingly, cafeteria ceiling light bokeh behind, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-video-o1",
+     "role": "alt",
+     "why_ko": "첫/끝 프레임 제어로 트레이 캐치 결과 프레임 고정 가능"
+    },
+    {
+     "model": "veo-3-1",
+     "role": "alt",
+     "why_ko": "미끄러짐·낙하·잡기 같은 물리 동작과 슬로모션 표현이 강함"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "first-last frame 5s(끝=클로즈 2샷). 캐치 물리는 veo-3-1, 캐릭터 유지는 kling-video-o1. 4.43s 사용",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Low-angle medium two-shot: at left a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape) standing upright holding a dark brown plastic cafeteria tray holding a shiny red apple, a small blue-and-white milk carton and two slices of white sandwich bread on one paw, at right 'Candy', an adult whippet with a short thin white coat showing pink skin, a blue-grey patch over its LEFT eye and ear (viewer's right), long narrow snout, black nose, rose ears, standing upright on its hind legs like a person, wearing small black boxing gloves and black Muay Thai boxing shorts with a black waistband and the word 'CANDY' in multicolor bubble letters surrounded by colorful gummy-candy shapes, cafeteria, photorealistic, shot on a full-frame cinema camera, natural overhead fluorescent light, slightly warm neutral white balance, shallow depth of field, fine film grain, 9:16 vertical.",
+    "video_prompt_en": "The tray falls in; the hamster catches it on one paw perfectly level; apple, milk, bread land one by one on the tray. Hamster stays deadpan; slow dolly-in to a close two-shot as the whippet turns and gazes at the hamster adoringly. 5 s.",
+    "notes_ko": "햄스터가 트레이보다 작으므로 'tray scaled down / hamster as tall as the dog's chest'로 비율 조정 — 과장된 크기 대비가 오히려 웃음 포인트"
+   }
+  },
+  {
+   "n": 13,
+   "start": 13.73,
+   "end": 14.43,
+   "dur": 0.7,
+   "gen_clip": 10,
+   "frames": [
+    "frames/s12_in_13.80.jpg",
+    "frames/s12_out_14.36.jpg",
+    "frames/x_13.60.jpg"
+   ],
+   "shot_size": "Full shot (FS)",
+   "angle": "eye-level",
+   "lens_mm": "50mm equiv",
+   "camera_move_ko": "좌측 전경 흐린 갑옷/망토 실루엣 앞을 카메라가 우측으로 트럭하며 고양이 공개(첫 4프레임 모션블러)",
+   "composition_ko": "고양이 x50% y45%, 전신 높이 85%, 좌측 20% 전경 블러",
+   "subject_action_ko": "야외 공원 길에서 망토 두른 채 두 발로 서서 정면 응시",
+   "background_ko": "흐린 하늘, 나무 숲, 아스팔트 길",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 14.43s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": [
+     {
+      "t": 13.73,
+      "sfx_en": "music drop downbeat (no SFX)",
+      "ko": "새 음악 섹션 첫 다운비트"
+     }
+    ]
+   },
+   "image_prompt_en": "Full shot (FS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in outdoor park path at the edge of a lawn, dark tree line behind, overcast sky; blurred armored shoulder and cape in the left foreground. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Camera trucks right past a blurred foreground shoulder to reveal the kitten standing guard on a park path, it turns slightly toward camera; 1 s of motion is enough. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Full shot (FS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in outdoor park path at the edge of a lawn, dark tree line behind, overcast sky; blurred armored shoulder and cape in the left foreground, looking into the lens with a calm loyal expression, 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Camera trucks right past a blurred foreground shoulder to reveal the hamster standing guard on a park path, it turns slightly toward camera; 1 s of motion is enough. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 14,
+   "start": 14.43,
+   "end": 15.17,
+   "dur": 0.74,
+   "gen_clip": 11,
+   "frames": [
+    "frames/s13_in_14.50.jpg",
+    "frames/s13_mid_14.80.jpg",
+    "frames/s13_out_15.10.jpg"
+   ],
+   "shot_size": "Medium full shot (MFS)",
+   "angle": "eye-level",
+   "lens_mm": "50mm equiv",
+   "camera_move_ko": "느린 좌→우 트럭(콘텐츠 좌로 이동)",
+   "composition_ko": "고양이 x40% y45%, 높이 85%, 우측 배경에 검은 옷 행인",
+   "subject_action_ko": "큰 나무 아래 서서 3/4 방향으로 서 있음(경호하듯)",
+   "background_ko": "나무 그늘, 벤치, 행인",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 15.17s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Medium full shot (MFS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in under a large leafy tree in a park, a person in dark clothes standing behind at right, a dark tent/bag at right edge. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Slow truck left-to-right; kitten stands guard in 3/4 view, cape moving gently in the breeze. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium full shot (MFS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in under a large leafy tree in a park, a person in dark clothes standing behind at right, a dark tent/bag at right edge, looking into the lens with a calm loyal expression, 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Slow truck left-to-right; hamster stands guard in 3/4 view, cape moving gently in the breeze. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 15,
+   "start": 15.17,
+   "end": 15.9,
+   "dur": 0.73,
+   "gen_clip": 12,
+   "frames": [
+    "frames/s14_in_15.24.jpg",
+    "frames/s14_mid_15.53.jpg",
+    "frames/s14_out_15.83.jpg"
+   ],
+   "shot_size": "Medium shot (MS)",
+   "angle": "eye-level",
+   "lens_mm": "50mm equiv",
+   "camera_move_ko": "미세 핸드헬드 푸시",
+   "composition_ko": "고양이 x45% y40%, 높이 70%, 전경 하단 흰 이불/후드 인물(침대), 우측 링거 폴",
+   "subject_action_ko": "병실 침대 곁에서 칼자루에 앞발을 얹고 지키며 서 있음",
+   "background_ko": "링거 폴, 병실 벽, 탁자 위 우유팩",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 15.90s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Medium shot (MS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in a hospital room: IV pole with a pump behind the kitten, a patient bed in the blurred foreground with a figure under a white hooded blanket, a small milk carton on the bedside table. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Tiny handheld push-in; the kitten stands vigil beside the hospital bed, paw on sword hilt, blinks slowly. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium shot (MS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in a hospital room: IV pole with a pump behind the kitten, a patient bed in the blurred foreground with a figure under a white hooded blanket, a small milk carton on the bedside table, looking into the lens with a calm loyal expression, 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Tiny handheld push-in; the hamster stands vigil beside the hospital bed, paw on sword hilt, blinks slowly. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 16,
+   "start": 15.9,
+   "end": 16.6,
+   "dur": 0.7,
+   "gen_clip": 13,
+   "frames": [
+    "frames/s15_in_15.97.jpg",
+    "frames/s15_mid_16.25.jpg",
+    "frames/s15_out_16.53.jpg"
+   ],
+   "shot_size": "Medium shot (MS)",
+   "angle": "eye-level",
+   "lens_mm": "50mm equiv",
+   "camera_move_ko": "고정",
+   "composition_ko": "고양이 x45% y35%, 머그컵 y62%, 전경 하단 컵들",
+   "subject_action_ko": "두 앞발로 흰 머그컵을 들고 정면 응시(아침 식탁)",
+   "background_ko": "어두운 원목 캐비닛 문",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 16.60s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Medium shot (MS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in a breakfast table in front of dark wooden cabinet doors; the kitten holds a white ceramic mug with both paws, cups and a pastry in the blurred foreground. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Locked shot; the kitten holds the white mug with both paws and lifts it slightly, looking at camera. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium shot (MS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in a breakfast table in front of dark wooden cabinet doors; the kitten holds a white ceramic mug with both paws, cups and a pastry in the blurred foreground, looking into the lens with a calm loyal expression, 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Locked shot; the hamster holds the white mug with both paws and lifts it slightly, looking at camera. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 17,
+   "start": 16.6,
+   "end": 17.33,
+   "dur": 0.73,
+   "gen_clip": 14,
+   "frames": [
+    "frames/s16_in_16.67.jpg",
+    "frames/s16_mid_16.97.jpg",
+    "frames/s16_out_17.26.jpg"
+   ],
+   "shot_size": "Medium shot (MS)",
+   "angle": "eye-level",
+   "lens_mm": "50mm equiv",
+   "camera_move_ko": "느린 좌→우 트럭",
+   "composition_ko": "고양이 x40% y40%, 높이 80%, 우상단 걸린 프라이팬",
+   "subject_action_ko": "부엌에 칼을 차고 서서 정면을 봄",
+   "background_ko": "상부 장, 걸린 프라이팬·주방도구, 유리병",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 17.33s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Medium shot (MS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in a home kitchen: upper cabinets with glass doors, a frying pan and utensils hanging on a rail at right, glass jars on the counter. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Slow truck left-to-right; kitten stands still in the kitchen, sword at hip, looking into the lens. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium shot (MS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in a home kitchen: upper cabinets with glass doors, a frying pan and utensils hanging on a rail at right, glass jars on the counter, looking into the lens with a calm loyal expression, 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Slow truck left-to-right; hamster stands still in the kitchen, sword at hip, looking into the lens. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 18,
+   "start": 17.33,
+   "end": 18.0,
+   "dur": 0.67,
+   "gen_clip": 15,
+   "frames": [
+    "frames/s17_in_17.40.jpg",
+    "frames/s17_mid_17.67.jpg",
+    "frames/s17_out_17.93.jpg"
+   ],
+   "shot_size": "Medium full shot (MFS)",
+   "angle": "eye-level",
+   "lens_mm": "35mm equiv",
+   "camera_move_ko": "미세 푸시",
+   "composition_ko": "고양이 x45% y40%, 높이 80%, 복도 소실점 x80% y40%",
+   "subject_action_ko": "학교 복도에서 망토 두르고 서 있음",
+   "background_ko": "긴 학교 복도, 형광등 줄, 끝의 문, 반사되는 바닥",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 18.00s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Medium full shot (MFS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in a long school hallway with a row of ceiling fluorescent lights, glossy reflective floor, a door at the far end, a fire alarm on the wall. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 35mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Slight push-in; the kitten stands in the school hallway, cape settling, looking at camera. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium full shot (MFS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in a long school hallway with a row of ceiling fluorescent lights, glossy reflective floor, a door at the far end, a fire alarm on the wall, looking into the lens with a calm loyal expression, 35mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Slight push-in; the hamster stands in the school hallway, cape settling, looking at camera. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 19,
+   "start": 18.0,
+   "end": 18.77,
+   "dur": 0.77,
+   "gen_clip": 16,
+   "frames": [
+    "frames/s18_in_18.07.jpg",
+    "frames/s18_mid_18.38.jpg",
+    "frames/s18_out_18.70.jpg"
+   ],
+   "shot_size": "Medium shot (MS)",
+   "angle": "eye-level",
+   "lens_mm": "50mm equiv",
+   "camera_move_ko": "미세 핸드헬드",
+   "composition_ko": "고양이 x50% y40%, 높이 75%, 좌측 전경 흰 블러(사람 어깨)",
+   "subject_action_ko": "어두운 방에서 살짝 고개 숙이고 시선을 아래로(걱정스러운 표정)",
+   "background_ko": "어두운 거실/침실, 액자, 어두운 소파",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 18.77s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Medium shot (MS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in a dim living room at night with a dark sofa and a picture frame; a blurred white shoulder in the left foreground. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Subtle handheld; the kitten lowers its gaze with a worried look, ears soften. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium shot (MS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in a dim living room at night with a dark sofa and a picture frame; a blurred white shoulder in the left foreground, looking into the lens with a calm loyal expression, 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Subtle handheld; the hamster lowers its gaze with a worried look, ears soften. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 20,
+   "start": 18.77,
+   "end": 19.5,
+   "dur": 0.73,
+   "gen_clip": 17,
+   "frames": [
+    "frames/s19_in_18.84.jpg",
+    "frames/s19_mid_19.13.jpg",
+    "frames/s19_out_19.43.jpg"
+   ],
+   "shot_size": "Medium shot (MS)",
+   "angle": "eye-level",
+   "lens_mm": "50mm equiv",
+   "camera_move_ko": "느린 좌→우 트럭",
+   "composition_ko": "고양이 x40% y40%, 우유팩 x60% y62%, 우측 커피머신",
+   "subject_action_ko": "사무실 탕비실에서 우유팩을 들고 서 있음",
+   "background_ko": "창문 블라인드, 커피머신, 우유팩들",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 19.50s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Medium shot (MS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in an office break room: window with blinds, a steel coffee machine at right, milk cartons on the counter; the kitten holds a small milk carton. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Slow truck; the kitten stands holding a small milk carton near the coffee machine. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium shot (MS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in an office break room: window with blinds, a steel coffee machine at right, milk cartons on the counter; the kitten holds a small milk carton, looking into the lens with a calm loyal expression, 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Slow truck; the hamster stands holding a small milk carton near the coffee machine. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 21,
+   "start": 19.5,
+   "end": 20.17,
+   "dur": 0.67,
+   "gen_clip": 18,
+   "frames": [
+    "frames/s20_in_19.57.jpg",
+    "frames/s20_mid_19.83.jpg",
+    "frames/s20_out_20.10.jpg"
+   ],
+   "shot_size": "Medium shot (MS)",
+   "angle": "eye-level, over foreground head",
+   "lens_mm": "50mm equiv",
+   "camera_move_ko": "고정",
+   "composition_ko": "고양이 x45% y35%, 좌하단 전경 어두운 뒤통수(마주 앉은 상대) 블러, 하단 빵 접시",
+   "subject_action_ko": "식탁 맞은편에서 앞발을 들어 흔들며 인사",
+   "background_ko": "벽 액자, 은색 주전자, 빵 롤",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 20.17s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Medium shot (MS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in a dining table: framed picture on the wall behind, a silver thermos, bread rolls on a plate in the foreground, the blurred dark back of someone's head in the lower-left foreground. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Locked shot; the kitten raises one gauntleted paw and gives a small wave toward the blurred person opposite. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium shot (MS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in a dining table: framed picture on the wall behind, a silver thermos, bread rolls on a plate in the foreground, the blurred dark back of someone's head in the lower-left foreground, looking into the lens with a calm loyal expression, 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Locked shot; the hamster raises one gauntleted paw and gives a small wave toward the blurred person opposite. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 22,
+   "start": 20.17,
+   "end": 20.93,
+   "dur": 0.76,
+   "gen_clip": 19,
+   "frames": [
+    "frames/s21_in_20.24.jpg",
+    "frames/s21_mid_20.55.jpg",
+    "frames/s21_out_20.86.jpg"
+   ],
+   "shot_size": "Medium full shot (MFS)",
+   "angle": "eye-level",
+   "lens_mm": "35mm equiv",
+   "camera_move_ko": "느린 좌→우 트럭",
+   "composition_ko": "고양이 x50% y45%, 높이 85%, 유리문 프레임 좌측",
+   "subject_action_ko": "사무실 유리문을 열어주며(손잡이 잡음) 서 있음 — 문지기처럼",
+   "background_ko": "사무실 유리문, 액자, 의자",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 20.93s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Medium full shot (MFS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in an office doorway with a dark-framed glass door, a framed print on the wall, an office chair at left; the kitten holds the door handle. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 35mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Slow truck; the kitten holds the office door open with one paw like a doorman, looking at camera. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium full shot (MFS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in an office doorway with a dark-framed glass door, a framed print on the wall, an office chair at left; the kitten holds the door handle, looking into the lens with a calm loyal expression, 35mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Slow truck; the hamster holds the office door open with one paw like a doorman, looking at camera. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 23,
+   "start": 20.93,
+   "end": 21.63,
+   "dur": 0.7,
+   "gen_clip": 20,
+   "frames": [
+    "frames/s22_in_21.00.jpg",
+    "frames/s22_mid_21.28.jpg",
+    "frames/s22_out_21.56.jpg"
+   ],
+   "shot_size": "Medium shot (MS)",
+   "angle": "eye-level",
+   "lens_mm": "50mm equiv",
+   "camera_move_ko": "미세 핸드헬드",
+   "composition_ko": "고양이 x45% y35%, 우하단 전경 어두운 블러(책상 앞 인물/Candy 뒷머리 추정)",
+   "subject_action_ko": "사무실 책상 위에서 앞발을 들어 흔듦",
+   "background_ko": "창 블라인드, 데스크 램프, 연필꽂이",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "Hard cut on beat",
+    "ko": "비트 컷 — 다음 온셋 21.63s와 0~2프레임 이내(전부 온셋 직전 컷). 0.72s = 1박",
+    "ffmpeg": "concat",
+    "hyperframes": "hard cut exactly on beat marker"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Medium shot (MS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in an office desk by a window with horizontal blinds, a desk lamp at left, a pencil cup at right, a dark blurred head in the lower-right foreground. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Subtle handheld; the kitten raises a paw and waves at the person at the desk. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Medium shot (MS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in an office desk by a window with horizontal blinds, a desk lamp at left, a pencil cup at right, a dark blurred head in the lower-right foreground, looking into the lens with a calm loyal expression, 50mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Subtle handheld; the hamster raises a paw and waves at the person at the desk. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  },
+  {
+   "n": 24,
+   "start": 21.63,
+   "end": 22.5,
+   "dur": 0.87,
+   "gen_clip": 21,
+   "frames": [
+    "frames/s23_in_21.70.jpg",
+    "frames/s23_mid_22.07.jpg",
+    "frames/s23_out_22.43.jpg"
+   ],
+   "shot_size": "Full shot (FS)",
+   "angle": "eye-level",
+   "lens_mm": "35mm equiv",
+   "camera_move_ko": "거의 고정(미세 푸시), 영상 끝까지",
+   "composition_ko": "고양이 x50% y45%, 전신 높이 90%, 우측 기둥",
+   "subject_action_ko": "거실에 전신으로 서서 칼자루 잡고 정면 응시 — 엔딩 포즈",
+   "background_ko": "거실 기둥, 꽃병 올린 사이드테이블, 창",
+   "on_screen_text_ko": "없음 (상단 좌 HIGGSFIELD GENJUTSU 배지, 상단 우 SICKMANAI 로고만 상시)",
+   "transition_out": {
+    "type": "End (hard stop)",
+    "ko": "영상 끝 22.50 — 오디오 페이드아웃 후 -120dB, 루프 시 1번(컬러 새끼고양이 정면)으로 돌아감",
+    "ffmpeg": "tpad none; afade=t=out:st=22.2:d=0.3",
+    "hyperframes": "end"
+   },
+   "sound": {
+    "bgm_ko": "섹션B 드롭 후 감성 비트 진행, 이 컷은 정확히 한 박(0.72s) (추정)",
+    "sfx": []
+   },
+   "image_prompt_en": "Full shot (FS) of a tiny 7-week-old fluffy golden-shaded British Longhair kitten (cream-apricot fur with faint darker tabby ticking and an 'M' on the forehead, round flat face, huge round glossy near-black eyes, small pink nose, soft white whiskers, fluffy cheek ruff), a small pale-pink satin bow on its LEFT ear (viewer's right), wearing a polished silver medieval plate armor sized for a kitten: breastplate embossed with a fleur-de-lis and scrollwork, round brass rosette rivets on both shoulders, engraved filigree pauldrons, chainmail sleeves and chainmail skirt, smooth steel vambraces ending at the furry grey-brown paws, a brown leather diagonal belt with brass buckle, a short sword with round pommel on its left hip, and an ivory satin cape/hood draped over the shoulders, standing upright on its hind legs like a tiny knight, the ivory cape falling to the floor behind it, in a living room with a square white column at right, a side table with white flowers at left, bright window light. Kitten centered, looking into the lens with a calm, loyal, slightly melancholic expression. 35mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+   "video_prompt_en": "Nearly static; the kitten stands full-body in a heroic pose, paw on the sword hilt, looking at camera, cape still. Keep the kitten's face, bow and armor identical to the reference; only subtle motion (0.7 s will be used). 5 s.",
+   "end_frame_prompt_en": "",
+   "negative_prompt_en": "cartoon, 3D render, plastic fur, extra limbs, extra ears, deformed paws, human hands, text artifacts, misspelled letters, bow on wrong ear, helmet, changing armor design, blurry face, watermark, logo, subtitles, oversaturated, fisheye distortion",
+   "recommended_models": [
+    {
+     "model": "kling-v3-omni",
+     "role": "1st choice",
+     "why_ko": "캐릭터 레퍼런스(ref2video)로 새끼고양이 기사/휘핏 정체성을 컷마다 고정"
+    },
+    {
+     "model": "minimax-h3",
+     "role": "alt",
+     "why_ko": "짧은 0.7초 컷용 미세 동작(서 있기, 손 흔들기) 저비용 대량 생성"
+    },
+    {
+     "model": "kling-v3",
+     "role": "1st choice",
+     "why_ko": "캐릭터 얼굴·털 디테일 유지력과 미세한 표정 연기가 가장 안정적"
+    }
+   ],
+   "gen_settings_ko": "캐릭터 레퍼런스 시트 + nano-banana-pro로 컬러 시작프레임 생성 → kling-v3-omni 5s → 편집에서 흑백 그레이드(hue=s=0). 0.7s만 쓰므로 5s 중 가장 안정된 구간 선택",
+   "animal_swap": {
+    "animal_en": "baby golden hamster",
+    "image_prompt_en": "Full shot (FS) of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on its hind legs like a tiny knight, cape to the floor, in a living room with a square white column at right, a side table with white flowers at left, bright window light, looking into the lens with a calm loyal expression, 35mm lens, black-and-white photograph look, rich silver-gelatin monochrome, soft window light, gentle contrast, deep but not crushed blacks, subtle grain, shallow depth of field, 9:16 vertical.",
+    "video_prompt_en": "Nearly static; the hamster stands full-body in a heroic pose, paw on the sword hilt, looking at camera, cape still. 5 s.",
+    "notes_ko": "흑백은 생성 후 편집에서 입히는 게 캐릭터 일관성에 유리"
+   }
+  }
+ ],
+ "audio_design": {
+  "bgm_ko": "추정: 83.3BPM(0.72s 간격, 더블타임으로 들으면 166BPM) 저역이 강한 비트(0~5.5s 에너지의 53%가 150Hz 이하 → 808/킥 중심). 매 박마다 RMS가 -8dB→-38dB로 떨어지는 스타카토/펌핑 패턴. 5.6~6.6s 고음 효과로 스펙트럼 중심 2.9kHz 급등. 13.35~13.73 페이드아웃 후 완전 무음, 13.73에 같은 템포의 다음 섹션(드롭/후렴, 위상이 약 80ms 어긋남 → 편집으로 곡을 잘라 붙인 것)이 흑백 컷과 동시에 시작. 원곡은 알 수 없음(트랜스크립트·트랙 메타 없음).",
+  "bpm_est": 83.3,
+  "bgm_timeline_ko": [
+   "0.00-0.10: 무음→첫 비트",
+   "0.10-5.63: 섹션A 인트로 비트, 박마다 펌핑",
+   "5.63-6.60: 비트 + 고음 '감각' 효과",
+   "6.60-9.30: 비트 + 미끄러짐/낙하 효과",
+   "9.30-10.80: 캐치 효과음 연타",
+   "10.80-13.35: 섹션A 계속(12.9 짧은 딥)",
+   "13.35-13.73: 페이드아웃 → 완전 무음",
+   "13.73-22.38: 섹션B(드롭) — 12박, 매 박 컷",
+   "22.38-22.50: 페이드아웃/종료"
+  ],
+  "music_prompt_en": "Slow 83 BPM emotional hip-hop / lo-fi trap instrumental, deep round 808 bass and soft kick on every beat with tight sidechain pumping, sparse felt-piano and warm pad, cinematic and slightly melancholic but cute, first part minimal and bouncy, then a short 0.4-second silence and a fuller heartfelt drop with the same tempo, no vocals, 25 seconds",
+  "sfx_list": [
+   {
+    "t": 0.0,
+    "sfx_en": "cafeteria crowd murmur room tone",
+    "search_kw_en": "school cafeteria ambience crowd murmur",
+    "gen_prompt_en": "busy school cafeteria ambience, distant chatter, trays clinking, 14 seconds",
+    "gain_db": -24
+   },
+   {
+    "t": 3.6,
+    "sfx_en": "close whoosh of tray passing lens",
+    "search_kw_en": "fast whoosh pass by close",
+    "gen_prompt_en": "short close whoosh of an object passing the camera",
+    "gain_db": -14
+   },
+   {
+    "t": 4.55,
+    "sfx_en": "tiny sparkle chime",
+    "search_kw_en": "cute sparkle chime twinkle",
+    "gen_prompt_en": "tiny cute sparkle twinkle chime, 0.5 seconds",
+    "gain_db": -18
+   },
+   {
+    "t": 5.63,
+    "sfx_en": "sixth-sense tingling high whine",
+    "search_kw_en": "spider sense tingle high pitch ring",
+    "gen_prompt_en": "high-pitched shimmering tingling sense alert, rising whine, 0.8 seconds",
+    "gain_db": -10
+   },
+   {
+    "t": 6.3,
+    "sfx_en": "wet squelch slip",
+    "search_kw_en": "wet slip squelch floor squeak",
+    "gen_prompt_en": "foot slipping on spilled juice, wet squelch and rubbery squeak",
+    "gain_db": -8
+   },
+   {
+    "t": 6.7,
+    "sfx_en": "dog surprised yelp",
+    "search_kw_en": "dog yelp short surprised",
+    "gen_prompt_en": "short surprised dog yelp",
+    "gain_db": -10
+   },
+   {
+    "t": 6.93,
+    "sfx_en": "tray flip whoosh",
+    "search_kw_en": "plastic tray flip whoosh",
+    "gen_prompt_en": "plastic tray flipping into the air with a whoosh",
+    "gain_db": -10
+   },
+   {
+    "t": 7.23,
+    "sfx_en": "slow-motion time-slow bass whoosh",
+    "search_kw_en": "slow motion whoosh time slow down",
+    "gen_prompt_en": "cinematic slow motion time-slow whoosh with low bass swell, 1 second",
+    "gain_db": -8
+   },
+   {
+    "t": 7.9,
+    "sfx_en": "armor clank",
+    "search_kw_en": "small armor clank chainmail",
+    "gen_prompt_en": "small metal armor clank and chainmail jingle",
+    "gain_db": -10
+   },
+   {
+    "t": 8.83,
+    "sfx_en": "falling whoosh",
+    "search_kw_en": "falling object whoosh",
+    "gen_prompt_en": "short whoosh of a tray falling",
+    "gain_db": -12
+   },
+   {
+    "t": 9.33,
+    "sfx_en": "tray catch clack",
+    "search_kw_en": "plastic tray catch hit",
+    "gen_prompt_en": "plastic cafeteria tray caught by a metal gauntlet, sharp clack",
+    "gain_db": -6
+   },
+   {
+    "t": 9.63,
+    "sfx_en": "apple thud",
+    "search_kw_en": "apple drop on tray thud",
+    "gen_prompt_en": "apple landing on a plastic tray, soft thud",
+    "gain_db": -8
+   },
+   {
+    "t": 9.87,
+    "sfx_en": "milk carton tap",
+    "search_kw_en": "carton drop tap",
+    "gen_prompt_en": "small milk carton landing on a tray, light tap",
+    "gain_db": -10
+   },
+   {
+    "t": 10.05,
+    "sfx_en": "bread pat",
+    "search_kw_en": "bread slice drop soft",
+    "gen_prompt_en": "slice of bread landing softly",
+    "gain_db": -14
+   },
+   {
+    "t": 10.29,
+    "sfx_en": "bread pat",
+    "search_kw_en": "bread slice drop soft",
+    "gen_prompt_en": "slice of bread landing softly",
+    "gain_db": -14
+   },
+   {
+    "t": 10.51,
+    "sfx_en": "armor rattle",
+    "search_kw_en": "armor rattle small",
+    "gen_prompt_en": "light armor rattle",
+    "gain_db": -14
+   },
+   {
+    "t": 10.78,
+    "sfx_en": "satisfied ding",
+    "search_kw_en": "success ding soft",
+    "gen_prompt_en": "soft satisfying success ding",
+    "gain_db": -16
+   }
+  ],
+  "mix_ko": "BGM -12 LUFS 근처(피크 -8dBFS), 효과음은 비트 사이에 배치해 BGM 위 3~6dB 튀게. 5.63 감각음 구간은 BGM -4dB 덕킹. 13.35~13.73 BGM 0.38s 페이드아웃 후 완전 무음(앰비언스도 같이 끔), 13.73 섹션B를 0dB로 바로 시작(페이드인 없음). 몽타주 구간엔 효과음 없음. 끝 22.2~22.5 0.3s 페이드아웃. 모두 추정(음성 전사 불가)."
+ },
+ "animal_swap_plan": {
+  "default_animal_en": "baby golden hamster (Syrian), same armor/bow/cape",
+  "alternatives_en": [
+   "fluffy baby red panda cub in the same silver knight armor with pink bow",
+   "tiny baby Holland Lop bunny (cream-orange, floppy ears) in the same silver knight armor with pink bow"
+  ],
+  "character_sheet_prompt_en": "Character reference sheet, 3 views (front, 3/4, side) plus a back view and a close-up face, of a tiny baby golden hamster (Syrian hamster, 3 weeks old) with plush golden-orange fur, cream-white belly and cheeks, tiny round pink-lined ears, huge round glossy black eyes, pink nose and whiskers, puffy cheek pouches, a small pale-pink satin bow on its LEFT ear, wearing the SAME kitten-sized polished silver plate armor (fleur-de-lis breastplate, brass shoulder rosettes, chainmail sleeves and skirt, steel vambraces, brown leather belt, tiny sword, ivory satin cape), standing upright on hind legs, neutral pose, plain light-grey studio background, even soft light, photorealistic fur and metal, consistent proportions, 9:16 layout, labeled nothing",
+  "consistency_tips_ko": [
+   "nano-banana-pro로 캐릭터 시트 1장 + 정면 MCU 1장을 먼저 확정하고 모든 컷의 레퍼런스로 사용(kling-v3-omni ref2video)",
+   "리본은 항상 '왼쪽 귀(화면 오른쪽)' — 프롬프트에 방향 명시",
+   "갑옷 요소(피르드리스, 황동 로제트, 체인메일, 벨트, 칼) 문장을 모든 프롬프트에 복붙",
+   "흑백 컷도 컬러로 생성 후 편집에서 흑백 처리 → 동일 인물 확인이 쉬움",
+   "휘핏 Candy는 원본 그대로 재사용하되 'CANDY' 글자가 깨지면 flux-kontext-max로 반바지 글자만 수정",
+   "캡션도 'saved candy with my hamster senses 🐹'로 바꿔 말장난 유지"
+  ]
+ },
+ "ffmpeg": {
+  "steps_ko": [
+   "g01~g21 생성 클립을 shots.txt의 in-point/길이대로 잘라 1080x1920·30fps로 정규화",
+   "13~24번은 hue=s=0 + contrast 1.12 + 그레인으로 흑백 처리(로고보다 먼저)",
+   "전 컷 하드컷이므로 concat demuxer로 무손실 연결",
+   "자기 로고만 우상단에 오버레이(Higgsfield 배지는 실제 사용 시에만)",
+   "섹션A BGM 13.35~13.73 페이드아웃→무음, 섹션B 13.73에 바로 시작",
+   "효과음 17개 adelay로 배치 후 amix+limiter, 비디오와 먹싱"
+  ],
+  "script": "#!/usr/bin/env bash\n# v05 rebuild: gen clips g01.mp4..g21.mp4 (any res), bgm_a.mp3 (section A), bgm_b.mp3 (section B / drop), sfx_00.wav..sfx_16.wav, logo.png (your own logo)\nset -euo pipefail\nW=1080; H=1920; FPS=30\nmkdir -p parts\n# shot  gen  in(s)  dur(s)  bw\ncat > shots.txt <<'EOF'\n1 01 0.00 0.30 0\n2 02 0.00 2.37 0\n3 01 0.30 1.00 0\n4 03 0.00 0.83 0\n5 01 2.00 1.13 0\n6 04 4.40 0.60 0\n7 05 0.50 0.44 0\n8 06 0.40 0.56 0\n9 07 0.00 0.67 0\n10 08 0.00 0.93 0\n11 07 1.60 0.47 0\n12 09 0.00 4.43 0\n13 10 1.00 0.70 1\n14 11 1.00 0.74 1\n15 12 1.00 0.73 1\n16 13 1.00 0.70 1\n17 14 1.00 0.73 1\n18 15 1.00 0.67 1\n19 16 1.00 0.77 1\n20 17 1.00 0.73 1\n21 18 1.00 0.67 1\n22 19 1.00 0.76 1\n23 20 1.00 0.70 1\n24 21 1.00 0.87 1\nEOF\n> list.txt\nwhile read -r n g in dur bw; do\n  GRADE=\"eq=saturation=0.95:contrast=1.02\"\n  if [ \"$bw\" = \"1\" ]; then GRADE=\"hue=s=0,eq=contrast=1.12:brightness=0.01:gamma=0.97,noise=alls=6:allf=t\"; fi\n  ffmpeg -v error -y -ss \"$in\" -t \"$dur\" -i \"g$g.mp4\" -an \\\n    -vf \"scale=$W:$H:force_original_aspect_ratio=increase,crop=$W:$H,fps=$FPS,$GRADE,setsar=1,format=yuv420p\" \\\n    -c:v libx264 -crf 16 -preset medium \"parts/s$(printf %02d $n).mp4\" < /dev/null\n  echo \"file 'parts/s$(printf %02d $n).mp4'\" >> list.txt\ndone < shots.txt\n# all transitions are hard cuts (wipes are in-camera) -> lossless concat\nffmpeg -v error -y -f concat -safe 0 -i list.txt -c copy video_nologo.mp4 < /dev/null\n# own logo top-right (do NOT fake the Higgsfield badge unless you really used Higgsfield)\nffmpeg -v error -y -i video_nologo.mp4 -i logo.png -filter_complex \"[1]scale=150:-1[l];[0][l]overlay=W-w-16:14\" -c:v libx264 -crf 16 -an video_v.mp4 < /dev/null\n# audio: section A 0-13.73 with fade-out 13.35-13.73 (silence at 13.73), section B from 13.73, SFX with adelay\ncat > sfx.txt <<'EOF'\n0.00 sfx_00.wav -24\n3.60 sfx_01.wav -14\n4.55 sfx_02.wav -18\n5.63 sfx_03.wav -10\n6.30 sfx_04.wav -8\n6.70 sfx_05.wav -10\n6.93 sfx_06.wav -10\n7.23 sfx_07.wav -8\n7.90 sfx_08.wav -10\n8.83 sfx_09.wav -12\n9.33 sfx_10.wav -6\n9.63 sfx_11.wav -8\n9.87 sfx_12.wav -10\n10.05 sfx_13.wav -14\n10.29 sfx_14.wav -14\n10.51 sfx_15.wav -14\n10.78 sfx_16.wav -16\nEOF\nIN=\"-i bgm_a.mp3 -i bgm_b.mp3\"; FC=\"[0]atrim=0:13.73,afade=t=out:st=13.35:d=0.38,asetpts=PTS-STARTPTS[a];[1]atrim=0:8.77,afade=t=out:st=8.47:d=0.3,adelay=13730|13730[b];\"\nMIX=\"[a][b]\"; k=2; cnt=2\nwhile read -r t f g; do\n  IN=\"$IN -i $f\"; ms=$(python -c \"print(int($t*1000))\")\n  FC=\"$FC[$k]volume=${g}dB,adelay=$ms|$ms[s$k];\"; MIX=\"$MIX[s$k]\"; k=$((k+1)); cnt=$((cnt+1))\ndone < sfx.txt\nFC=\"$FC${MIX}amix=inputs=$cnt:normalize=0:duration=longest,atrim=0:22.5,alimiter=limit=0.9[aout]\"\nffmpeg -v error -y $IN -filter_complex \"$FC\" -map \"[aout]\" -ar 48000 -ac 2 audio_mix.wav < /dev/null\nffmpeg -v error -y -i video_v.mp4 -i audio_mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest -movflags +faststart final_v05_remake.mp4 < /dev/null\necho done\n"
+ },
+ "hyperframes": {
+  "prompt_en": "Use the HyperFrames skill to build a 1080x1920, 30 fps, 22.50 s vertical composition that exactly reproduces this edit (reel 'saved candy with my hamster senses'). Assets in ./assets: g01.mp4..g21.mp4 (AI gen clips), bgm_a.mp3, bgm_b.mp3, sfx_00..sfx_16.wav, logo.png.\nTIMELINE (all hard cuts, no crossfades; clip = gen file, source in-point, duration):\n- 0.00-0.30  shot 01: g01.mp4 from 0.00s, Medium close-up (MCU)\n- 0.30-2.67  shot 02: g02.mp4 from 0.00s, OTS → Wide shot (WS)\n- 2.67-3.67  shot 03: g01.mp4 from 0.30s, Medium close-up (MCU)\n- 3.67-4.50  shot 04: g03.mp4 from 0.00s, Medium shot (MS)\n- 4.50-5.63  shot 05: g01.mp4 from 2.00s, Medium close-up (MCU)\n- 5.63-6.23  shot 06: g04.mp4 from 4.40s, Extreme close-up (ECU)\n- 6.23-6.67  shot 07: g05.mp4 from 0.50s, Insert / ECU (floor level)\n- 6.67-7.23  shot 08: g06.mp4 from 0.40s, Medium close-up (MCU)\n- 7.23-7.90  shot 09: g07.mp4 from 0.00s, POV / low angle looking straight up\n- 7.90-8.83  shot 10: g08.mp4 from 0.00s, Medium shot (MS)\n- 8.83-9.30  shot 11: g07.mp4 from 1.60s, POV / worm's-eye\n- 9.30-13.73  shot 12: g09.mp4 from 0.00s, Medium two-shot → Close two-shot\n- 13.73-14.43  shot 13: g10.mp4 from 1.00s, Full shot (FS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 14.43-15.17  shot 14: g11.mp4 from 1.00s, Medium full shot (MFS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 15.17-15.90  shot 15: g12.mp4 from 1.00s, Medium shot (MS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 15.90-16.60  shot 16: g13.mp4 from 1.00s, Medium shot (MS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 16.60-17.33  shot 17: g14.mp4 from 1.00s, Medium shot (MS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 17.33-18.00  shot 18: g15.mp4 from 1.00s, Medium full shot (MFS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 18.00-18.77  shot 19: g16.mp4 from 1.00s, Medium shot (MS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 18.77-19.50  shot 20: g17.mp4 from 1.00s, Medium shot (MS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 19.50-20.17  shot 21: g18.mp4 from 1.00s, Medium shot (MS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 20.17-20.93  shot 22: g19.mp4 from 1.00s, Medium full shot (MFS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 20.93-21.63  shot 23: g20.mp4 from 1.00s, Medium shot (MS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\n- 21.63-22.50  shot 24: g21.mp4 from 1.00s, Full shot (FS) , BLACK-AND-WHITE (CSS filter: grayscale(1) contrast(1.12))\nRULES: every video clip muted, object-fit: cover. Shots 13-24 get filter grayscale(1) contrast(1.12) plus a subtle animated film-grain overlay (opacity 0.06). Logo.png pinned top-right (right 16px, top 14px, width 150px) for the whole 22.5 s, NOT grayscaled.\nAUDIO: bgm_a.mp3 at 0.00 s, volume 1, fade out linearly 13.35-13.73 to silence; bgm_b.mp3 starts at exactly 13.73 s (no fade-in), fade out 22.20-22.50. SFX cues (start time, file, gain dB): 0.00s sfx_00.wav -24dB, 3.60s sfx_01.wav -14dB, 4.55s sfx_02.wav -18dB, 5.63s sfx_03.wav -10dB, 6.30s sfx_04.wav -8dB, 6.70s sfx_05.wav -10dB, 6.93s sfx_06.wav -10dB, 7.23s sfx_07.wav -8dB, 7.90s sfx_08.wav -10dB, 8.83s sfx_09.wav -12dB, 9.33s sfx_10.wav -6dB, 9.63s sfx_11.wav -8dB, 9.87s sfx_12.wav -10dB, 10.05s sfx_13.wav -14dB, 10.29s sfx_14.wav -14dB, 10.51s sfx_15.wav -14dB, 10.78s sfx_16.wav -16dB. Duck bgm_a by 4 dB between 5.63 and 6.60.\nBEAT CHECK: montage cuts at 13.73, 14.43, 15.17, 15.90, 16.60, 17.33, 18.00, 18.77, 19.50, 20.17, 20.93, 21.63 must sit 0-2 frames BEFORE each bgm_b beat (83.3 BPM, 0.72 s). Run the beats command on bgm_b.mp3 and nudge cuts to beat-minus-1-frame if the new music differs.\nNo captions, no on-screen text. Validate with check, snapshot at 0.15, 1.5, 6.4, 7.5, 9.6, 12.5, 14.0, 22.0 s, then render MP4.",
+  "notes_ko": [
+   "몽타주 컷 12개는 '비트 직전 0~2프레임'이 핵심 — 새 음악을 쓰면 beats 명령으로 박 위치를 다시 뽑아 컷을 맞출 것",
+   "흑백은 CSS filter로 클립에만 적용, 로고 레이어엔 적용 금지",
+   "3.63 트레이 와이프는 생성 클립 안에 없으면 트레이 PNG를 2프레임 동안 좌→우로 슬라이드해 대체"
+  ]
+ },
+ "replication_checklist_ko": [
+  "총 24컷 / 생성 클립 21개(g01은 1·3·5번, g07은 9·11번에 재사용)",
+  "0.00-0.30 9프레임 티저 플래시로 시작",
+  "전반부(0-13.73)는 액션 기준 컷, 비트 일치는 7.90·9.30 두 곳뿐",
+  "13.35-13.73 오디오 완전 무음 → 13.73 흑백+새 섹션 동시",
+  "흑백 12컷은 각 0.67~0.87s, 모두 온셋 0~2프레임 전",
+  "리본 위치(왼쪽 귀), 피르드리스 흉갑, 칼·망토 모든 컷 동일",
+  "휘핏 'CANDY' 반바지 글자 판독 가능",
+  "자막 없음, 로고 2개만(컬러 유지)",
+  "마지막 컷 정면 응시 → 첫 프레임과 루프"
+ ],
+ "confidence_notes_ko": [
+  "확실: 컷 시점(프레임 단위 확인), 흑백 전환 13.73, 몽타주 12컷 모두 실제 하드컷(서로 다른 장소의 다른 생성물) — 플리커가 아님",
+  "확실: 몽타주 컷과 오디오 온셋의 오차 0~1.8프레임(모두 온셋 직전), 템포 0.72s=83.3BPM",
+  "확실: 13.35~13.73 페이드아웃 후 13.72 부근 -120dB 디지털 무음",
+  "추정: BGM 장르/악기(저역 53% 에너지 기반), 5.6~6.6 고음 효과의 정체, 9.3~10.8 효과음 종류 — 음성/전사 없음",
+  "추정: 섹션B가 같은 곡의 뒷부분(템포 동일, 위상 약 80ms 어긋남 → 편집 흔적)",
+  "추정: 흑백 몽타주의 의미(평생 곁을 지키는 경호/동반자) 및 전경 어두운 블러가 Candy인지 사람인지",
+  "추정: 생성 클립 경계(1·3·5번 동일 클립, 9·11번 동일 클립)"
+ ]
+}

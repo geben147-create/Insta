@@ -1,0 +1,124 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>5위 벨리댄스 쥐 &amp; 고양이 관객 분석</title><style>
+:root{--bg:#0d0f14;--panel:#151922;--panel2:#1c2130;--line:#2a3142;--tx:#e8ecf4;--mut:#9aa4b8;
+--acc:#ff4d6d;--acc2:#4dd4ff;--ok:#5be3a0;--warn:#ffc24d;--vio:#b18cff}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--tx);
+font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;line-height:1.6}
+a{color:var(--acc2)}.wrap{max-width:1240px;margin:0 auto;padding:24px 16px 80px}
+nav.top{position:sticky;top:0;z-index:9;background:#0d0f14ee;backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.top .wrap{padding:10px 16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+nav.top a{padding:4px 10px;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:13px;color:var(--tx)}
+nav.top a.on{background:var(--acc);border-color:var(--acc)}
+h1{font-size:30px;margin:8px 0 4px}h2{font-size:22px;margin:40px 0 12px;padding-left:10px;border-left:4px solid var(--acc)}
+h3{font-size:17px;margin:18px 0 8px}.mut{color:var(--mut)}.small{font-size:13px}
+.hero{display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:start}
+.hero img{width:100%;border-radius:14px;border:1px solid var(--line)}
+.badge{display:inline-block;background:var(--acc);color:#fff;font-weight:800;border-radius:8px;padding:2px 10px;margin-right:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.chip{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:3px 9px;font-size:13px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
+.formula{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.formula .card b{display:block;color:var(--acc2);font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+th{color:var(--mut);font-weight:600;white-space:nowrap}
+.scene{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;margin:18px 0}
+.scene .head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.scene .tc{font-family:ui-monospace,Consolas,monospace;background:#000;padding:3px 10px;border-radius:6px;color:var(--warn)}
+.frames{display:flex;gap:8px;overflow-x:auto;padding:10px 0}.frames figure{margin:0;flex:0 0 150px}
+.frames img{width:150px;border-radius:8px;border:1px solid var(--line);display:block}
+.frames figcaption{font-size:12px;color:var(--mut);text-align:center;font-family:ui-monospace,Consolas,monospace}
+.sgrid{display:grid;grid-template-columns:200px 1fr;gap:16px}
+.comp{position:relative;width:180px;aspect-ratio:9/16;border-radius:10px;border:1px solid var(--line);background:#000 center/cover no-repeat}
+.comp .g{position:absolute;inset:0;background-image:linear-gradient(to right,transparent 33.2%,#ffffff55 33.3%,transparent 33.4%,transparent 66.5%,#ffffff55 66.6%,transparent 66.7%),linear-gradient(to bottom,transparent 33.2%,#ffffff55 33.3%,transparent 33.4%,transparent 66.5%,#ffffff55 66.6%,transparent 66.7%)}
+.comp .box{position:absolute;border:2px solid var(--acc);background:#ff4d6d22;border-radius:6px}
+.comp .box span{position:absolute;top:-18px;left:0;font-size:11px;background:var(--acc);color:#fff;padding:0 4px;border-radius:4px;white-space:nowrap}
+.kv{display:grid;grid-template-columns:120px 1fr;gap:4px 10px;font-size:14px}.kv b{color:var(--mut);font-weight:600}
+.pbox{position:relative;background:#0a0c10;border:1px solid var(--line);border-radius:10px;padding:12px 12px 12px;margin:8px 0;
+font-family:ui-monospace,Consolas,monospace;font-size:12.5px;white-space:pre-wrap;word-break:break-word;color:#d6dcec}
+.pbox .lbl{display:block;font-family:inherit;color:var(--acc2);font-weight:700;margin-bottom:6px;font-size:12px}
+.pbox.swap .lbl{color:var(--ok)}.pbox.neg .lbl{color:var(--warn)}
+.cp{position:absolute;top:8px;right:8px;background:var(--panel2);color:var(--tx);border:1px solid var(--line);border-radius:6px;font-size:12px;padding:2px 8px;cursor:pointer}
+.cp.done{background:var(--ok);color:#000}
+.models{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px}
+.m{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13px}
+.m .t{font-size:11px;font-weight:800;letter-spacing:.04em}.m.t1 .t{color:var(--ok)}.m.t2 .t{color:var(--acc2)}.m.t3 .t{color:var(--vio)}
+.m code{font-size:13px;color:#fff;font-weight:700}
+details{margin:8px 0}summary{cursor:pointer;color:var(--acc2);font-weight:600}
+.tl{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;overflow-x:auto}
+.sheets{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.sheets img{width:100%;border-radius:10px;border:1px solid var(--line)}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:999px;background:#ff4d6d33;color:#ffb3c1;margin-right:4px}
+.tag.b{background:#4dd4ff22;color:#aeeaff}.tag.g{background:#5be3a022;color:#b4f5d5}
+.idx{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.idx a.card{text-decoration:none;color:var(--tx);display:block}.idx img{width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover}
+.bar{height:8px;border-radius:4px;background:linear-gradient(90deg,var(--acc),var(--vio))}
+@media (max-width:820px){.hero,.sgrid,.grid2,.grid3,.formula,.models,.sheets{grid-template-columns:1fr}.hero img{max-width:260px}
+table{display:block;overflow-x:auto}nav.top .wrap{flex-wrap:nowrap;overflow-x:auto}nav.top a{white-space:nowrap;flex:0 0 auto}}
+</style></head><body><nav class="top"><div class="wrap"><a href="index.html" class="">🏠 전체 순위</a><a href="01_rank1_power_slap_cat.html" class="">1위 · 파워슬랩 고양이</a><a href="02_rank2_ufc_choke_cat.html" class="">2위 · UFC 초크 고양이</a><a href="03_rank3_blue_glow_cat.html" class="">3위 · 파란 방사능 페인트 고양이</a><a href="04_rank4_tipsy_youmi_rap_duo.html" class="">4위 · Tipsy &amp; Youmi 랩 듀오</a><a href="05_rank5_belly_dance_rat.html" class="on">5위 · 벨리댄스 쥐 &amp; 고양이 관객</a><a href="06_rank6_rainbow_glow_cat.html" class="">6위 · 무지개 방사능 페인트 고양이</a><a href="07_rank7_cat_family_road_trip.html" class="">7위 · 고양이 가족 드라이브</a></div></nav><div class="wrap">
+<div class="hero"><img src="assets/v7_0500.jpg"><div>
+<div><span class="badge">좋아요 순위 5위</span><span class="mut">@1fluffychaos (Pico on duty 🫡) · 2026-08-24</span></div>
+<h1>주방 조리대 위에서 벨리댄스를 추는 쥐, 뒤에서 진지하게 감상하는 고양이 3마리</h1><p class="mut" style="margin:0">원본 캡션: “unexpected partnership 🤣 #viralreels #animals #cuteanimals”</p>
+<div class="chips"><span class="chip">좋아요: <b>519,700</b></span><span class="chip">댓글: <b>3,391</b></span><span class="chip">길이: <b>10.04초</b></span><span class="chip">해상도: <b>720×1280 · 24fps</b></span><span class="chip">컷 수: <b>1컷 (원테이크, 전환 없음)</b></span><span class="chip">핵심 반전 시점: <b>0초부터 (상황 자체가 반전)</b></span><span class="chip">화면 자막: <b>없음 (오른쪽 아래 ‘Dola AI’ 워터마크)</b></span><span class="chip">음악: <b>벨리댄스 음악 약 100 BPM (실측)</b></span><span class="chip">음량 평균: <b>-15.8 LUFS</b></span></div>
+<p><a href="https://www.instagram.com/p/DcaWcSvN0Uf/" target="_blank">원본 영상 열기 ↗</a></p>
+<div class="card"><b>한 줄 결론</b><br>‘고양이 = 쥐 사냥꾼’이라는 상식을 뒤집어, 쥐가 무대 주인공이고 고양이 셋은 얌전한 관객. 사건은 없고 상황 하나 + 음악 + 춤으로 10초를 채운 ‘상황 코미디’형. 루프가 쉬워 반복 재생이 쌓인다.</div></div></div>
+
+<h2>1. 왜 떡상했나 — 4단 공식</h2><div class="formula"><div class="card"><b>① 훅 (0초)</b>벨리댄스 의상 입은 쥐 + 뒤에 고양이 3마리. ‘쥐가 왜 고양이 앞에서?’ 궁금증이 즉시 생김.</div><div class="card"><b>② 전개 (0~10초)</b>쥐가 어깨·골반 쉐이크, 팔 벌려 웨이브. 비트마다 동작 전환.</div><div class="card"><b>③ 반응</b>고양이 셋은 끝까지 무표정·정지 → 관객 역할, 대비가 웃음.</div><div class="card"><b>④ 루프</b>시작과 끝 자세가 비슷해 반복 재생 시 이음매가 거의 안 보임.</div></div>
+<div class="card" style="margin-top:12px"><b>감독 노트</b><p style="margin:6px 0">카메라는 조리대 높이에 고정, 10초 동안 아주 천천히 앞으로 다가간다(돌리 인 — 쥐 크기가 약 130%로 커짐). 쥐는 가운데, 고양이 셋은 뒤에 흐릿하게(얕은 심도) 한 줄로 앉아 ‘객석’ 역할. 고양이들이 전혀 움직이지 않는 것이 핵심 웃음 — 사냥 본능을 참고 공연을 감상하는 모습. 쥐의 코인 벨트가 흔들리며 음악과 합쳐지고, 동작이 비트(0.6초)마다 바뀐다.</p></div>
+
+<h2>2. 타임라인 (실측)</h2><div class="tl"><svg viewBox="0 0 1180 250" width="100%" style="min-width:760px" font-family="Consolas,monospace" font-size="11"><rect x="40.0" y="18" width="1100.0" height="36" fill="#ff4d6d" opacity=".85" rx="3"/><text x="44.0" y="40" fill="#000" font-weight="700">S1</text><text x="0" y="40" fill="#9aa4b8">씬</text><polyline points="40.0,159.7 51.0,170.5 61.9,151.0 72.9,131.1 83.8,160.2 94.8,116.5 105.7,129.0 116.7,157.5 127.6,155.4 138.6,127.8 149.6,138.6 160.5,112.6 171.5,145.5 182.4,156.1 193.4,159.0 204.3,124.4 215.3,134.7 226.3,111.4 237.2,140.7 248.2,123.7 259.1,126.6 270.1,146.7 281.0,123.9 292.0,116.0 302.9,141.9 313.9,127.0 324.9,128.5 335.8,151.5 346.8,121.8 357.7,108.6 368.7,133.8 379.6,139.0 390.6,157.8 401.6,126.8 412.5,121.8 423.5,123.2 434.4,129.2 445.4,121.5 456.3,123.0 467.3,146.7 478.2,112.9 489.2,111.0 500.2,135.7 511.1,125.4 522.1,138.3 533.0,136.6 544.0,118.9 554.9,121.5 565.9,130.6 576.9,124.2 587.8,121.0 598.8,147.2 609.7,114.1 620.7,111.7 631.6,135.7 642.6,124.2 653.5,133.8 664.5,133.8 675.5,117.9 686.4,123.7 697.4,128.0 708.3,117.7 719.3,122.5 730.2,147.2 741.2,110.7 752.2,113.8 763.1,128.2 774.1,140.5 785.0,156.1 796.0,117.9 806.9,115.3 817.9,128.7 828.8,128.0 839.8,116.0 850.8,131.8 861.7,146.0 872.7,105.9 883.6,123.0 894.6,145.3 905.5,126.1 916.5,134.7 927.5,140.2 938.4,121.3 949.4,129.9 960.3,143.4 971.3,117.7 982.2,125.4 993.2,144.1 1004.1,108.1 1015.1,120.3 1026.1,135.4 1037.0,147.2 1048.0,123.7 1058.9,129.0 1069.9,114.3 1080.8,129.2 1091.8,145.5 1102.7,112.4 1113.7,128.0 1124.7,175.3" fill="none" stroke="#4dd4ff" stroke-width="1.5"/><line x1="40" y1="200" x2="1140" y2="200" stroke="#2a3142"/><text x="0" y="140" fill="#9aa4b8">음량</text><circle cx="40.0" cy="66" r="4" fill="#ffc24d"/><circle cx="40.0" cy="66" r="4" fill="#ffc24d"/><circle cx="587.8" cy="66" r="4" fill="#ffc24d"/><circle cx="1140.0" cy="66" r="4" fill="#ffc24d"/><text x="34.0" y="222" fill="#9aa4b8">0s</text><text x="143.6" y="222" fill="#9aa4b8">1s</text><text x="253.1" y="222" fill="#9aa4b8">2s</text><text x="362.7" y="222" fill="#9aa4b8">3s</text><text x="472.2" y="222" fill="#9aa4b8">4s</text><text x="581.8" y="222" fill="#9aa4b8">5s</text><text x="691.4" y="222" fill="#9aa4b8">6s</text><text x="800.9" y="222" fill="#9aa4b8">7s</text><text x="910.5" y="222" fill="#9aa4b8">8s</text><text x="1020.1" y="222" fill="#9aa4b8">9s</text><text x="1129.6" y="222" fill="#9aa4b8">10s</text><text x="40" y="244" fill="#9aa4b8">■ 색 막대 = 씬 구간 · 점선 = 자동 감지된 화면 전환 · 노란 점 = 효과음 큐 · 파란 선 = 실제 음량(0.1초 단위 RMS)</text></svg></div>
+<table style="margin-top:10px"><tr><th>씬</th><th>시간</th><th>길이</th><th>샷</th><th>카메라</th><th>다음으로 넘어가는 방식</th></tr><tr><td>S1</td><td class='tc'>0.00–10.04</td><td>10.04s</td><td>미디엄 (쥐 전신) → 미디엄 클로즈업 (끝에서 쥐 상체가 크게)</td><td>10초 동안 느린 돌리 인 (약 130%까지), 미세 흔들림 없음 — 삼각대/짐벌 느낌</td><td>영상 끝 → 루프 (페이드 없음)</td></tr></table>
+
+<h2>3. 장면별 완전 분해 + 프롬프트</h2>
+<div class="card small"><b>제작 원칙 (똑같이 만들기 위한 핵심)</b><br>원테이크 10초 한 번 생성이 정답. 첫 프레임에서 의상 디테일(코인, 비즈, 시스루 치마)과 고양이 3마리 배치를 완벽하게 만든 뒤, 영상 단계에서는 ‘쥐만 춤추고 고양이는 거의 정지’를 강하게 지시. 음악을 먼저 정하고(100 BPM) 프롬프트에 ‘on the beat’를 넣으면 동작 리듬이 좋아진다. 원본은 720p라 1080p로 만들면 오히려 더 좋아짐.</div>
+
+<div class="scene" id="v7-s1"><div class="head"><h3 style="margin:0">S1. 공연 — 벨리댄스 쥐와 움직이지 않는 고양이 관객 (원테이크)</h3>
+<span class="tc">0.00s → 10.04s · 10.04초</span></div>
+<p class="mut" style="margin:6px 0">포식자·먹이 관계 역전 + 정교한 의상 + 춤. 이 세 가지가 한 화면에 동시에 있어서 스크롤을 멈추게 함.</p>
+<div class="frames"><figure><a href="assets/v7_0030.jpg" target="_blank"><img src="assets/v7_0030.jpg" loading="lazy"></a><figcaption>0.30s</figcaption></figure><figure><a href="assets/v7_0300.jpg" target="_blank"><img src="assets/v7_0300.jpg" loading="lazy"></a><figcaption>3.00s</figcaption></figure><figure><a href="assets/v7_0500.jpg" target="_blank"><img src="assets/v7_0500.jpg" loading="lazy"></a><figcaption>5.00s</figcaption></figure><figure><a href="assets/v7_0700.jpg" target="_blank"><img src="assets/v7_0700.jpg" loading="lazy"></a><figcaption>7.00s</figcaption></figure><figure><a href="assets/v7_0900.jpg" target="_blank"><img src="assets/v7_0900.jpg" loading="lazy"></a><figcaption>9.00s</figcaption></figure><figure><a href="assets/v7_0990.jpg" target="_blank"><img src="assets/v7_0990.jpg" loading="lazy"></a><figcaption>9.90s</figcaption></figure></div>
+<div class="sgrid"><div class="comp" style="background-image:url(assets/v7_0700.jpg)"><div class="g"></div><div class="box" style="left:33%;top:38%;width:34%;height:42%"><span>쥐 (의상)</span></div><div class="box" style="left:0%;top:5%;width:100%;height:30%"><span>고양이 관객 3</span></div></div><div class="kv"><b>샷 크기</b><span>미디엄 (쥐 전신) → 미디엄 클로즈업 (끝에서 쥐 상체가 크게)</span><b>앵글</b><span>조리대 높이 눈높이, 정면</span><b>카메라 무빙</b><span>10초 동안 느린 돌리 인 (약 130%까지), 미세 흔들림 없음 — 삼각대/짐벌 느낌</span><b>렌즈/심도</b><span>50mm 느낌, 얕은 심도 f/1.8 (고양이들 흐림)</span><b>피사체 위치</b><span>쥐 = 가로 가운데(35~65%), 세로 38~78% → 끝에 30~70%/28~85% / 고양이 셋 = 위쪽 1/3 가로로 한 줄 (왼 주황, 가운데 고등어, 오른 검정)</span><b>동물 자세·연기</b><span>뒷발로 서서 골반 좌우 쉐이크, 팔(앞발) 양옆으로 벌려 손목 웨이브, 어깨 들썩, 코인이 찰랑. 3초·5초·7초·9초 부근에서 팔 위치 변화. 고양이들은 정지, 가끔 눈만 깜빡.</span><b>배경·소품</b><span>흰 석영 주방 조리대, 흰 타일 벽, 위쪽 나무 수납장, 스테인리스 채반·볼 (고양이 앞)</span><b>조명·색감</b><span>밝은 주방 자연광, 부드러운 그림자, 따뜻한 화이트 밸런스</span><b>들어올 때 전환</b><span>영상 시작</span><b>나갈 때 전환</b><span>영상 끝 → 루프 (페이드 없음)</span><b>소리</b><span>벨리댄스 음악 (다르부카 타악기 + 코인 찰랑), 약 100 BPM (비트 0.6초)</span></div></div>
+<h3>초 단위 연기 타이밍</h3><table><tr><th>시간</th><th>일어나는 일</th></tr><tr><td class='tc'>0.0–3.0s</td><td>골반 쉐이크 + 팔 반쯤 벌림</td></tr><tr><td class='tc'>3.0–5.0s</td><td>팔을 옆으로 쭉 펴서 손목 웨이브</td></tr><tr><td class='tc'>5.0–7.0s</td><td>어깨 들썩 + 몸 좌우 이동</td></tr><tr><td class='tc'>7.0–9.0s</td><td>팔 높이 올려 흔들며 골반 쉐이크 크게</td></tr><tr><td class='tc'>9.0–10.0s</td><td>정면 보며 팔 벌린 포즈 (루프 연결)</td></tr></table>
+<h3>🎨 첫 프레임 이미지 프롬프트 (원본 재현)</h3><div class="pbox "><span class="lbl">IMAGE · 9:16 · 첫 프레임</span><span class="txt">Vertical 9:16 photo at countertop eye level in a bright modern kitchen: a small brown rat standing upright on its hind legs, pink ears, pink paws, long pink tail, wearing a detailed teal belly-dance costume: a beaded teal bra top with dangling silver coins, a teal hip scarf belt covered in rows of silver coins and turquoise beads, a flowing sheer teal chiffon skirt, and a jeweled headband with a turquoise gem on its forehead, standing in the center of a white quartz counter with arms slightly out as if about to dance. Behind it, three cats sitting in a row on the counter behind it, watching intently with serious faces: an orange tabby on the left, a brown mackerel tabby in the center, and a fluffy black long-haired cat with green eyes on the right, blurred by shallow depth of field, next to a stainless steel colander and metal bowls. White tile wall, wooden cabinets above. Soft natural daylight, 50mm lens, f/1.8, ultra-detailed costume, photorealistic.</span></div>
+<div class="pbox "><span class="lbl">IMAGE · 끝 프레임 (imageTail 용)</span><span class="txt">Same kitchen, the camera now closer: a small brown rat standing upright on its hind legs, pink ears, pink paws, long pink tail, wearing a detailed teal belly-dance costume: a beaded teal bra top with dangling silver coins, a teal hip scarf belt covered in rows of silver coins and turquoise beads, a flowing sheer teal chiffon skirt, and a jeweled headband with a turquoise gem on its forehead fills the center of the frame from the knees up, arms spread wide mid belly-dance move, coins swinging; the three cats behind are still sitting perfectly still, blurred. Vertical 9:16, photorealistic.</span></div>
+<h3>🎬 영상 프롬프트 (이미지 → 영상)</h3><div class="pbox "><span class="lbl">VIDEO · 10초 한 번 (시작/끝 프레임 지정)</span><span class="txt">Single continuous shot, 10 seconds, vertical 9:16, locked-off camera slowly dollying in toward the subject (ending about 30% closer). a small brown rat standing upright on its hind legs, pink ears, pink paws, long pink tail, wearing a detailed teal belly-dance costume: a beaded teal bra top with dangling silver coins, a teal hip scarf belt covered in rows of silver coins and turquoise beads, a flowing sheer teal chiffon skirt, and a jeweled headband with a turquoise gem on its forehead performs an energetic belly dance on the kitchen counter to a darbuka rhythm at 100 BPM: hip shimmies left and right, shoulder shimmies, arms extended to the sides with flowing wrist waves, coins on the belt and top swinging and jingling on every beat, the sheer skirt swirling. Behind it, the three cats sit perfectly still in a row and watch seriously, only blinking occasionally. Bright natural kitchen light, shallow depth of field, no cuts.</span></div>
+<div class="pbox neg"><span class="lbl">NEGATIVE (금지 요소)</span><span class="txt">cartoon, 3D render look, CGI plastic fur, anime, illustration, text, subtitles, captions, logo watermark, extra limbs, extra paws, deformed paws, fused fingers, human hand touching the animal, slow motion, camera cut, scene change, jump cut, blurry face, distorted face, oversaturated colors, cats moving, cats attacking, cats walking away, rat running on four legs, costume changing, extra tails</span></div>
+<h3>🔁 다른 동물로 바꾸기</h3><div class="pbox swap"><span class="lbl">SWAP IMAGE · {ANIMAL} 기본값 = 골든 햄스터</span><span class="txt">Vertical 9:16 photo at countertop eye level in a bright modern kitchen: a chubby golden hamster ({ANIMAL}) standing upright in the center of a white quartz counter, wearing a tiny detailed teal belly-dance costume with a beaded coin bra top, a coin hip-scarf belt, a sheer teal chiffon skirt and a jeweled headband with a turquoise gem. Behind it, three cats sitting in a row on the counter behind it, watching intently with serious faces: an orange tabby on the left, a brown mackerel tabby in the center, and a fluffy black long-haired cat with green eyes on the right, blurred by shallow depth of field. Soft daylight, 50mm f/1.8, photorealistic.
+(관객 교체 아이디어: 햄스터가 주인공이면 뒤 관객을 ‘고양이 3마리’ 그대로 두는 게 가장 강함 — 포식자 대비 유지. 주인공을 병아리/도마뱀으로 바꿔도 같은 공식.)</span></div>
+<div class="pbox swap"><span class="lbl">SWAP VIDEO</span><span class="txt">Single continuous 10s shot, slow dolly in. The golden hamster in the teal belly-dance costume shimmies its hips, spreads its tiny arms and waves its paws on every beat, coins jingling, skirt swirling. The three cats behind sit perfectly still and watch seriously, only blinking. No cuts.</span></div>
+<h3>🤖 이 장면에 맞는 모델</h3><div class="models"><div class="m t1"><div class="t">1순위</div><code>seedance-2-5 (10초)</code><div class="mut">10초 원테이크 + 시작/끝 프레임 → 돌리 인 거리까지 고정. 음악 맞춘 반복 동작 안정적</div></div><div class="m t2"><div class="t">2순위</div><code>kling-v3 (pro, 10초)</code><div class="mut">의상 코인·치마 흔들림 디테일, 네거티브로 고양이 움직임 억제</div></div><div class="m t3"><div class="t">대안</div><code>hailuo-2-3</code><div class="mut">댄스 동작 다양성 비교 테스트 (원본은 Dola AI 제작)</div></div></div>
+</div>
+
+<h2>4. 소리 설계 (배경음악 · 효과음)</h2><div class="card"><b>배경음악</b><p style="margin:6px 0">벨리댄스(아랍풍) 음악, 실측 약 100 BPM (비트 간격 0.599초). 타악기(다르부카) 패턴이 선명하고 코인 찰랑 소리가 얹힘. Suno(suno-v5-5) 프롬프트: &quot;Upbeat Middle Eastern belly dance instrumental, 100 BPM, darbuka and riq percussion, oud and qanun melody, playful and catchy, loopable 10-second section, no vocals&quot;. 10초가 정확히 4마디(100 BPM 4/4 = 2.4초/마디 → 9.6초)에 가깝도록 자르면 루프가 매끄럽다.</p></div>
+<table style="margin-top:10px"><tr><th>시간</th><th>소리</th><th>크기</th><th>생성/검색 프롬프트</th></tr><tr><td class='tc'>0.00s</td><td>벨리댄스 음악 시작 (다르부카 + 우드/신스 멜로디)</td><td>-17dB 평균</td><td><span class='small'>Suno: 아래 BGM 프롬프트</span></td></tr><tr><td class='tc'>0.00s</td><td>코인 벨트 찰랑 (비트마다)</td><td>-24dB</td><td><span class='small'>&#x27;belly dance coin hip scarf jingling in rhythm&#x27;</span></td></tr><tr><td class='tc'>5.00s</td><td>(선택) 고양이 한 마리 작게 ‘냥’</td><td>-30dB</td><td><span class='small'>&#x27;single soft cat meow, distant&#x27; — 원본엔 없음, 쓰지 않는 것이 더 원본에 가까움</span></td></tr><tr><td class='tc'>10.04s</td><td>음악 컷 (루프 지점)</td><td>-</td><td><span class='small'>마디 끝에서 자르기</span></td></tr></table>
+
+<h2>5. 편집 — FFmpeg 레시피</h2><div class="pbox "><span class="lbl">FFmpeg · 복붙 실행용 (파일명만 바꾸기)</span><span class="txt"># full.mp4 = 10초 한 번 생성본, music.wav = BGM
+# 1) 규격화 (원본은 720x1280 24fps였지만 1080x1920 30fps 권장)
+ffmpeg -i full.mp4 -vf &quot;scale=1080:1920:flags=lanczos,fps=30,setsar=1,trim=0:10.04,setpts=PTS-STARTPTS&quot; -an -c:v libx264 -crf 16 body.mp4
+
+# 2) (생성 결과에 돌리 인이 약할 때) 후반에서 10초간 100%→130% 부드러운 줌
+ffmpeg -i body.mp4 -vf &quot;scale=2160:3840,zoompan=z=&#x27;1+0.3*on/301&#x27;:x=&#x27;iw/2-(iw/zoom/2)&#x27;:y=&#x27;ih*0.55-(ih/zoom*0.55)&#x27;:d=1:s=1080x1920:fps=30&quot; -c:v libx264 -crf 16 body_dolly.mp4
+
+# 3) 음악 입히고 루프용으로 마지막 0.15초만 살짝 페이드 (음악만)
+ffmpeg -i body_dolly.mp4 -i music.wav -filter_complex &quot;[1:a]atrim=0:10.04,afade=t=out:st=9.89:d=0.15,loudnorm=I=-14:TP=-1:LRA=11[a]&quot; -map 0:v -map &quot;[a]&quot; -c:v copy -c:a aac -b:a 192k -shortest final.mp4</span></div>
+<h2>6. 편집 — HyperFrames 제작 지시문</h2><div class="pbox "><span class="lbl">Claude Code에 붙여넣기 · /hyperframes</span><span class="txt">/hyperframes 로 10초 세로 쇼츠 조립 (승인 전 렌더 금지 · 수정 범위: 새 프로젝트 폴더만)
+[캔버스] 1080x1920, 30fps, data-duration=10.04
+[트랙1] body.mp4 start 0 dur 10.04 — 래퍼 div에 GSAP scale 1→1.3 (0~10.04초, ease: none, transformOrigin 50% 55%)로 돌리 인 보강
+[오디오] music.wav id=bgm start 0 volume 1 (마지막 0.15초 볼륨 1→0)
+[텍스트·워터마크] 없음 (원본의 ‘Dola AI’ 워터마크는 복제하지 말 것)
+[검증] check 0건 → snapshot --at 0.3,5.0,9.9 캡처 후 멈춤</span></div>
+
+<h2>7. 떡상 편집 기법 해설 (전문 용어)</h2><table><tr><th>기법</th><th>이 영상에서</th><th>쉬운 비유</th></tr><tr><td><b>역할 반전 (Role reversal)</b></td><td>포식자(고양이)가 관객, 먹이(쥐)가 스타</td><td class='mut'>호랑이가 토끼 콘서트에서 응원봉 흔드는 상황</td></tr><tr><td><b>정적인 조연 (Still background actors)</b></td><td>고양이 셋이 끝까지 정지</td><td class='mut'>개그 콩트에서 표정 안 바꾸는 옆 사람</td></tr><tr><td><b>느린 돌리 인</b></td><td>10초 동안 30% 다가감 → 몰입감</td><td class='mut'>공연장에서 무대 쪽으로 천천히 걸어가는 느낌</td></tr><tr><td><b>얕은 심도 (Shallow DOF)</b></td><td>주인공만 선명, 관객은 흐림</td><td class='mut'>사진관 인물 사진처럼 배경이 뭉개짐</td></tr><tr><td><b>디테일 페티시</b></td><td>코인·비즈·시스루 등 의상 디테일</td><td class='mut'>미니어처 인형 옷이 정교할수록 신기함</td></tr><tr><td><b>심리스 루프</b></td><td>시작/끝 자세 유사</td><td class='mut'>회전목마 — 끝나는 지점이 곧 시작</td></tr></table>
+
+<h2>8. 복제 품질 체크리스트</h2><div class="card"><ol style="margin:0;padding-left:20px"><li>고양이 3마리가 10초 내내 제자리에 앉아 있는가 (일어나거나 다가오면 실패)</li><li>쥐가 끝까지 두 발로 서서 춤추는가</li><li>의상(코인 브라·코인 벨트·시스루 치마·보석 머리띠)이 처음과 끝이 같은가</li><li>동작 변화가 비트(0.6초)와 맞는가</li><li>카메라가 흔들리지 않고 부드럽게 다가가는가</li><li>워터마크·자막 없음, -14 LUFS</li></ol></div>
+
+<h2>9. 마스터 프롬프트 (이것 하나로 전체 제작 지시)</h2><div class="pbox "><span class="lbl">MASTER · Claude Code / 작업 지시</span><span class="txt">[목표] 5위 ‘벨리댄스 쥐 &amp; 고양이 관객’(좋아요 52만)을 {ANIMAL}(기본: 골든 햄스터)로 복제, 10초 원테이크.
+[수정 가능 범위] 새 작업 폴더만. 승인 전 유료 생성·렌더 금지. 단계별로 보여주고 멈춤.
+1) 이미지 2장 (nano-banana-pro 9:16): 시작 = 조리대 위 청록 벨리댄스 의상 {ANIMAL}(가운데) + 뒤 고양이 3마리(주황·고등어·검정 장모) 얕은 심도 / 끝 = 30% 더 가까이, 팔 벌린 춤 동작
+2) 음악 (suno-v5-5): 100 BPM 벨리댄스 인스트루멘털, 10초 루프
+3) 영상 (seedance-2-5 10초, 시작/끝 프레임, AI 소리 끔): {ANIMAL} 골반·어깨 쉐이크·팔 웨이브, 코인 찰랑, 고양이는 정지·눈 깜빡만, 느린 돌리 인
+4) 편집: 1080x1920 30fps, 음악 입히기, 마지막 0.15초 음악만 페이드, -14 LUFS
+5) 체크리스트 6개 결과 표로 보고</span></div>
+
+<h2>10. 원본 0.25초 간격 전체 프레임 (참고)</h2><div class="sheets"><a href="sheets/v7_sheet_01.jpg" target="_blank"><img src="sheets/v7_sheet_01.jpg" loading="lazy"></a><a href="sheets/v7_sheet_02.jpg" target="_blank"><img src="sheets/v7_sheet_02.jpg" loading="lazy"></a></div>
+<p style="margin-top:30px"><a href="04_rank4_tipsy_youmi_rap_duo.html">← 4위 Tipsy &amp; Youmi 랩 듀오</a>  <a href="06_rank6_rainbow_glow_cat.html" style="float:right">6위 무지개 방사능 페인트 고양이 →</a></p></div><script>
+document.querySelectorAll('.pbox').forEach(b=>{const btn=document.createElement('button');btn.className='cp';btn.textContent='복사';
+btn.onclick=()=>{const t=b.querySelector('.txt').innerText;navigator.clipboard.writeText(t).then(()=>{btn.textContent='복사됨';btn.classList.add('done');
+setTimeout(()=>{btn.textContent='복사';btn.classList.remove('done')},1400)})};b.appendChild(btn)});
+</script></body></html>

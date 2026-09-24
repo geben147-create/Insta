@@ -1,0 +1,178 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2위 UFC 초크 고양이 분석</title><style>
+:root{--bg:#0d0f14;--panel:#151922;--panel2:#1c2130;--line:#2a3142;--tx:#e8ecf4;--mut:#9aa4b8;
+--acc:#ff4d6d;--acc2:#4dd4ff;--ok:#5be3a0;--warn:#ffc24d;--vio:#b18cff}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--tx);
+font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;line-height:1.6}
+a{color:var(--acc2)}.wrap{max-width:1240px;margin:0 auto;padding:24px 16px 80px}
+nav.top{position:sticky;top:0;z-index:9;background:#0d0f14ee;backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.top .wrap{padding:10px 16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+nav.top a{padding:4px 10px;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:13px;color:var(--tx)}
+nav.top a.on{background:var(--acc);border-color:var(--acc)}
+h1{font-size:30px;margin:8px 0 4px}h2{font-size:22px;margin:40px 0 12px;padding-left:10px;border-left:4px solid var(--acc)}
+h3{font-size:17px;margin:18px 0 8px}.mut{color:var(--mut)}.small{font-size:13px}
+.hero{display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:start}
+.hero img{width:100%;border-radius:14px;border:1px solid var(--line)}
+.badge{display:inline-block;background:var(--acc);color:#fff;font-weight:800;border-radius:8px;padding:2px 10px;margin-right:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.chip{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:3px 9px;font-size:13px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
+.formula{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.formula .card b{display:block;color:var(--acc2);font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+th{color:var(--mut);font-weight:600;white-space:nowrap}
+.scene{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;margin:18px 0}
+.scene .head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.scene .tc{font-family:ui-monospace,Consolas,monospace;background:#000;padding:3px 10px;border-radius:6px;color:var(--warn)}
+.frames{display:flex;gap:8px;overflow-x:auto;padding:10px 0}.frames figure{margin:0;flex:0 0 150px}
+.frames img{width:150px;border-radius:8px;border:1px solid var(--line);display:block}
+.frames figcaption{font-size:12px;color:var(--mut);text-align:center;font-family:ui-monospace,Consolas,monospace}
+.sgrid{display:grid;grid-template-columns:200px 1fr;gap:16px}
+.comp{position:relative;width:180px;aspect-ratio:9/16;border-radius:10px;border:1px solid var(--line);background:#000 center/cover no-repeat}
+.comp .g{position:absolute;inset:0;background-image:linear-gradient(to right,transparent 33.2%,#ffffff55 33.3%,transparent 33.4%,transparent 66.5%,#ffffff55 66.6%,transparent 66.7%),linear-gradient(to bottom,transparent 33.2%,#ffffff55 33.3%,transparent 33.4%,transparent 66.5%,#ffffff55 66.6%,transparent 66.7%)}
+.comp .box{position:absolute;border:2px solid var(--acc);background:#ff4d6d22;border-radius:6px}
+.comp .box span{position:absolute;top:-18px;left:0;font-size:11px;background:var(--acc);color:#fff;padding:0 4px;border-radius:4px;white-space:nowrap}
+.kv{display:grid;grid-template-columns:120px 1fr;gap:4px 10px;font-size:14px}.kv b{color:var(--mut);font-weight:600}
+.pbox{position:relative;background:#0a0c10;border:1px solid var(--line);border-radius:10px;padding:12px 12px 12px;margin:8px 0;
+font-family:ui-monospace,Consolas,monospace;font-size:12.5px;white-space:pre-wrap;word-break:break-word;color:#d6dcec}
+.pbox .lbl{display:block;font-family:inherit;color:var(--acc2);font-weight:700;margin-bottom:6px;font-size:12px}
+.pbox.swap .lbl{color:var(--ok)}.pbox.neg .lbl{color:var(--warn)}
+.cp{position:absolute;top:8px;right:8px;background:var(--panel2);color:var(--tx);border:1px solid var(--line);border-radius:6px;font-size:12px;padding:2px 8px;cursor:pointer}
+.cp.done{background:var(--ok);color:#000}
+.models{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px}
+.m{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13px}
+.m .t{font-size:11px;font-weight:800;letter-spacing:.04em}.m.t1 .t{color:var(--ok)}.m.t2 .t{color:var(--acc2)}.m.t3 .t{color:var(--vio)}
+.m code{font-size:13px;color:#fff;font-weight:700}
+details{margin:8px 0}summary{cursor:pointer;color:var(--acc2);font-weight:600}
+.tl{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;overflow-x:auto}
+.sheets{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.sheets img{width:100%;border-radius:10px;border:1px solid var(--line)}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:999px;background:#ff4d6d33;color:#ffb3c1;margin-right:4px}
+.tag.b{background:#4dd4ff22;color:#aeeaff}.tag.g{background:#5be3a022;color:#b4f5d5}
+.idx{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.idx a.card{text-decoration:none;color:var(--tx);display:block}.idx img{width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover}
+.bar{height:8px;border-radius:4px;background:linear-gradient(90deg,var(--acc),var(--vio))}
+@media (max-width:820px){.hero,.sgrid,.grid2,.grid3,.formula,.models,.sheets{grid-template-columns:1fr}.hero img{max-width:260px}
+table{display:block;overflow-x:auto}nav.top .wrap{flex-wrap:nowrap;overflow-x:auto}nav.top a{white-space:nowrap;flex:0 0 auto}}
+</style></head><body><nav class="top"><div class="wrap"><a href="index.html" class="">🏠 전체 순위</a><a href="01_rank1_power_slap_cat.html" class="">1위 · 파워슬랩 고양이</a><a href="02_rank2_ufc_choke_cat.html" class="on">2위 · UFC 초크 고양이</a><a href="03_rank3_blue_glow_cat.html" class="">3위 · 파란 방사능 페인트 고양이</a><a href="04_rank4_tipsy_youmi_rap_duo.html" class="">4위 · Tipsy &amp; Youmi 랩 듀오</a><a href="05_rank5_belly_dance_rat.html" class="">5위 · 벨리댄스 쥐 &amp; 고양이 관객</a><a href="06_rank6_rainbow_glow_cat.html" class="">6위 · 무지개 방사능 페인트 고양이</a><a href="07_rank7_cat_family_road_trip.html" class="">7위 · 고양이 가족 드라이브</a></div></nav><div class="wrap">
+<div class="hero"><img src="assets/v3_0300.jpg"><div>
+<div><span class="badge">좋아요 순위 2위</span><span class="mut">@oscar_beingoscar (Oscar Things) · 2026-09-01</span></div>
+<h1>UFC 케이지 바닥에서 선수 머리를 조르는 고양이 → 탭아웃 → 심판이 고양이 손을 들어줌</h1><p class="mut" style="margin:0">원본 캡션: “Oscar has a pretty good ground game 😼😼💥 · Created in @higgsfield.ai”</p>
+<div class="chips"><span class="chip">좋아요: <b>1,237,442</b></span><span class="chip">댓글: <b>9,480</b></span><span class="chip">길이: <b>10.02초</b></span><span class="chip">해상도: <b>1080×1920 · 60fps</b></span><span class="chip">컷 수: <b>1컷 (원테이크, 전환 없음)</b></span><span class="chip">핵심 반전 시점: <b>7.5초 심판 개입 / 9.0초 승리 손 들기</b></span><span class="chip">화면 자막: <b>없음</b></span><span class="chip">제작 도구: <b>Higgsfield (캡션 표기)</b></span><span class="chip">음량 평균: <b>-15.4 LUFS</b></span></div>
+<p><a href="https://www.instagram.com/oscar_beingoscar/reel/DcvaaMexCHs/" target="_blank">원본 영상 열기 ↗</a></p>
+<div class="card"><b>한 줄 결론</b><br>고양이가 근육질 격투기 선수의 머리를 ‘꼭 끌어안은’ 모습 자체가 격투기 ‘초크’로 보이게 연출. 선수 탭아웃 → 심판 뜯어말림 → 심판이 무표정 고양이의 앞발을 들어 ‘승자 선언’으로 끝나는 3단 스포츠 문법 패러디.</div></div></div>
+
+<h2>1. 왜 떡상했나 — 4단 공식</h2><div class="formula"><div class="card"><b>① 훅 (0초)</b>하얀 고양이가 선수 머리를 감싸 안고 있는 ‘초크’ 장면으로 바로 시작. 선수 얼굴은 붉게 눌려 있음.</div><div class="card"><b>② 긴장 (0~7.4초)</b>고양이는 눈을 가늘게 뜨고 조르기 유지, 선수 팔이 버둥. 관중 소리 점점 커짐.</div><div class="card"><b>③ 폭발 (7.5초)</b>줄무늬 심판이 뛰어들어 떼어냄 → 선수는 굴러 나가고 고양이는 바닥에 누운 채 카메라를 봄.</div><div class="card"><b>④ 버튼 (9.0초)</b>심판이 고양이 앞발을 들어올려 ‘승자!’ — 고양이 표정은 끝까지 무심. 이 대비가 마지막 웃음.</div></div>
+<div class="card" style="margin-top:12px"><b>감독 노트</b><p style="margin:6px 0">1위와 같은 ‘경기장 직캠’ 시리즈지만, 카메라를 케이지 철망 옆 바닥에 놓고 약 15° 기울인(더치 앵글) 것이 차이다. 기울어진 화면은 ‘급하게 찍은 현장 영상’ 느낌을 준다. 웃음 포인트는 두 번: ① 선수가 바닥을 치며 항복(탭)하는 7초대, ② 심판이 고양이 앞발을 번쩍 들어주는데 고양이는 시큰둥한 9초대. 마지막 장면이 ‘승리 포즈 정지’라서 처음(끌어안은 장면)으로 돌아가도 자연스럽게 루프된다.</p></div>
+
+<h2>2. 타임라인 (실측)</h2><div class="tl"><svg viewBox="0 0 1180 250" width="100%" style="min-width:760px" font-family="Consolas,monospace" font-size="11"><rect x="40.0" y="18" width="680.6" height="36" fill="#ff4d6d" opacity=".85" rx="3"/><text x="44.0" y="40" fill="#000" font-weight="700">S1</text><rect x="720.6" y="18" width="131.7" height="36" fill="#4dd4ff" opacity=".85" rx="3"/><text x="724.6" y="40" fill="#000" font-weight="700">S2</text><rect x="852.4" y="18" width="87.8" height="36" fill="#5be3a0" opacity=".85" rx="3"/><text x="856.4" y="40" fill="#000" font-weight="700">S3</text><rect x="940.2" y="18" width="199.8" height="36" fill="#ffc24d" opacity=".85" rx="3"/><text x="944.2" y="40" fill="#000" font-weight="700">S4</text><text x="0" y="40" fill="#9aa4b8">씬</text><polyline points="40.0,143.4 51.0,146.5 62.0,146.5 72.9,144.1 83.9,142.4 94.9,142.6 105.9,152.7 116.8,149.8 127.8,150.3 138.8,146.0 149.8,150.6 160.8,153.7 171.7,143.1 182.7,147.9 193.7,153.2 204.7,156.1 215.6,146.7 226.6,146.5 237.6,153.2 248.6,151.3 259.6,143.8 270.5,141.7 281.5,137.1 292.5,133.0 303.5,132.1 314.5,128.2 325.4,137.6 336.4,142.4 347.4,128.5 358.4,128.5 369.3,129.9 380.3,141.4 391.3,147.4 402.3,142.9 413.3,129.0 424.2,129.2 435.2,144.1 446.2,148.9 457.2,150.6 468.1,150.6 479.1,147.2 490.1,152.5 501.1,151.8 512.1,141.2 523.0,144.3 534.0,144.8 545.0,152.5 556.0,155.1 566.9,154.9 577.9,142.9 588.9,155.4 599.9,150.8 610.9,152.5 621.8,139.5 632.8,139.8 643.8,126.1 654.8,125.8 665.7,148.6 676.7,140.2 687.7,130.6 698.7,144.6 709.7,136.2 720.6,108.8 731.6,127.5 742.6,150.1 753.6,153.0 764.6,134.5 775.5,142.2 786.5,149.1 797.5,129.7 808.5,133.0 819.4,110.5 830.4,113.8 841.4,150.3 852.4,146.2 863.4,116.0 874.3,124.2 885.3,110.2 896.3,104.2 907.3,106.2 918.2,114.3 929.2,119.4 940.2,105.4 951.2,105.9 962.2,106.4 973.1,106.6 984.1,102.8 995.1,115.3 1006.1,119.6 1017.0,116.2 1028.0,123.7 1039.0,123.0 1050.0,121.8 1061.0,119.1 1071.9,124.9 1082.9,131.6 1093.9,131.6 1104.9,118.6 1115.8,105.2 1126.8,113.6" fill="none" stroke="#4dd4ff" stroke-width="1.5"/><line x1="40" y1="200" x2="1140" y2="200" stroke="#2a3142"/><text x="0" y="140" fill="#9aa4b8">음량</text><circle cx="40.0" cy="66" r="4" fill="#ffc24d"/><circle cx="281.5" cy="66" r="4" fill="#ffc24d"/><circle cx="720.6" cy="66" r="4" fill="#ffc24d"/><circle cx="852.4" cy="66" r="4" fill="#ffc24d"/><circle cx="863.4" cy="66" r="4" fill="#ffc24d"/><circle cx="1028.0" cy="66" r="4" fill="#ffc24d"/><text x="34.0" y="222" fill="#9aa4b8">0s</text><text x="143.8" y="222" fill="#9aa4b8">1s</text><text x="253.6" y="222" fill="#9aa4b8">2s</text><text x="363.3" y="222" fill="#9aa4b8">3s</text><text x="473.1" y="222" fill="#9aa4b8">4s</text><text x="582.9" y="222" fill="#9aa4b8">5s</text><text x="692.7" y="222" fill="#9aa4b8">6s</text><text x="802.5" y="222" fill="#9aa4b8">7s</text><text x="912.2" y="222" fill="#9aa4b8">8s</text><text x="1022.0" y="222" fill="#9aa4b8">9s</text><text x="1131.8" y="222" fill="#9aa4b8">10s</text><text x="40" y="244" fill="#9aa4b8">■ 색 막대 = 씬 구간 · 점선 = 자동 감지된 화면 전환 · 노란 점 = 효과음 큐 · 파란 선 = 실제 음량(0.1초 단위 RMS)</text></svg></div>
+<table style="margin-top:10px"><tr><th>씬</th><th>시간</th><th>길이</th><th>샷</th><th>카메라</th><th>다음으로 넘어가는 방식</th></tr><tr><td>S1</td><td class='tc'>0.00–6.20</td><td>6.20s</td><td>미디엄 클로즈업 (고양이 상반신 + 선수 머리·등)</td><td>핸드헬드, 미세한 흔들림 + 아주 느린 앞으로 밀기</td><td>연속</td></tr><tr><td>S2</td><td class='tc'>6.20–7.40</td><td>1.20s</td><td>S1과 동일</td><td>동일 (살짝 흔들림 증가)</td><td>연속</td></tr><tr><td>S3</td><td class='tc'>7.40–8.20</td><td>0.80s</td><td>미디엄 → 미디엄 풀</td><td>핸드헬드 흔들림 커짐, 살짝 뒤로 물러남</td><td>연속</td></tr><tr><td>S4</td><td class='tc'>8.20–10.02</td><td>1.82s</td><td>미디엄 (고양이 전신 + 심판 팔)</td><td>핸드헬드, 고양이 쪽으로 약간 다가감</td><td>영상 끝 → 루프 (페이드 없음)</td></tr></table>
+
+<h2>3. 장면별 완전 분해 + 프롬프트</h2>
+<div class="card small"><b>제작 원칙 (똑같이 만들기 위한 핵심)</b><br>컷이 전혀 없는 10초 원테이크. 첫 프레임(조르기)과 끝 프레임(심판이 앞발 들어올림)을 만든 뒤 시작/끝 프레임 지정으로 한 번에 생성한다. 사람 2명(선수·심판)+동물 1마리가 얽히는 복잡한 장면이라 AI가 손·팔을 뭉개기 쉽다 → 끝 프레임을 반드시 지정하고, 실패하면 0~7.4초 / 7.4~10초 두 클립으로 나눈다.</div>
+
+<div class="scene" id="v3-s1"><div class="head"><h3 style="margin:0">S1. 그라운드 초크 — 고양이가 선수 머리를 감싸 조름</h3>
+<span class="tc">0.00s → 6.20s · 6.20초</span></div>
+<p class="mut" style="margin:6px 0">‘고양이가 사람 머리를 껴안은 귀여운 장면’이 격투기 맥락에서 ‘목 조르기’로 재해석되는 순간. 같은 그림이 문맥 때문에 웃긴 것.</p>
+<div class="frames"><figure><a href="assets/v3_0050.jpg" target="_blank"><img src="assets/v3_0050.jpg" loading="lazy"></a><figcaption>0.50s</figcaption></figure><figure><a href="assets/v3_0300.jpg" target="_blank"><img src="assets/v3_0300.jpg" loading="lazy"></a><figcaption>3.00s</figcaption></figure></div>
+<div class="sgrid"><div class="comp" style="background-image:url(assets/v3_0300.jpg)"><div class="g"></div><div class="box" style="left:8%;top:15%;width:40%;height:40%"><span>고양이</span></div><div class="box" style="left:10%;top:45%;width:30%;height:20%"><span>선수 머리</span></div><div class="box" style="left:45%;top:10%;width:55%;height:55%"><span>선수 등</span></div></div><div class="kv"><b>샷 크기</b><span>미디엄 클로즈업 (고양이 상반신 + 선수 머리·등)</span><b>앵글</b><span>바닥 높이, 더치 앵글 약 15° (케이지 철망 선이 왼쪽에 대각선)</span><b>카메라 무빙</b><span>핸드헬드, 미세한 흔들림 + 아주 느린 앞으로 밀기</span><b>렌즈/심도</b><span>스마트폰 광각, 약간 얕은 심도(뒤 관중 흐림)</span><b>피사체 위치</b><span>고양이 = 왼쪽 1/3 위쪽 (가로 10~45%, 세로 20~55%) / 선수 등 = 오른쪽 55% / 아래 40% = 연한 하늘색 매트</span><b>동물 자세·연기</b><span>흰 장모 고양이가 앞발로 선수 머리·목을 감싸 안고 몸통으로 누름. 눈은 가늘게, 입 꾹. 선수는 옆으로 누워 얼굴이 고양이 밑에 눌려 붉어짐, 근육질 등과 팔, 검은 MMA 글러브. 선수 팔이 조금씩 버둥.</span><b>배경·소품</b><span>검은 케이지 철망(왼쪽 세로), 위쪽 철망 너머 관중·카메라맨, 옥타곤 모서리 기둥 패드</span><b>조명·색감</b><span>경기장 상부 조명, 매트가 밝게 반사, 선수 피부 주황빛, 전체적으로 따뜻한 대비</span><b>들어올 때 전환</b><span>영상 시작</span><b>나갈 때 전환</b><span>연속</span><b>소리</b><span>0~2초 낮은 관중(-27dB) → 2.2초부터 점점 고조(-20dB)</span></div></div>
+<h3>초 단위 연기 타이밍</h3><table><tr><th>시간</th><th>일어나는 일</th></tr><tr><td class='tc'>0.0–2.2s</td><td>조르기 유지, 선수 팔 늘어짐</td></tr><tr><td class='tc'>2.2–6.2s</td><td>고양이 몸에 힘이 들어가듯 미세하게 조임, 오른쪽 위 철망 너머로 심판 검은 장갑이 보이기 시작 (2.5s)</td></tr></table>
+<h3>🎨 첫 프레임 이미지 프롬프트 (원본 재현)</h3><div class="pbox "><span class="lbl">IMAGE · 9:16 · 첫 프레임</span><span class="txt">Vertical 9:16 smartphone photo taken from floor level just outside an MMA octagon cage, the camera tilted about 15 degrees (Dutch angle) so the black chain-link cage runs diagonally along the left edge. A fluffy pure-white Persian cat lies on top of a muscular shirtless MMA fighter who is lying on his side on the pale blue canvas; the cat wraps both front legs tightly around the fighter&#x27;s head and neck like a rear-naked choke, the fighter&#x27;s red strained face squashed under the cat&#x27;s chest. The fighter&#x27;s broad tanned back and arm fill the right half, black MMA gloves. The cat&#x27;s eyes are narrowed and focused. Beyond the cage at the top: blurred crowd and arena lights. Realistic sports photo, shallow depth of field, warm arena lighting.</span></div>
+<div class="pbox "><span class="lbl">IMAGE · 끝 프레임 (imageTail 용)</span><span class="txt">Same Dutch-angle floor-level shot beside the cage: the fighter has rolled away out of frame. The white Persian cat lies on its side on the pale blue canvas against the cage, looking at the camera with a bored, unimpressed face, while a kneeling referee in a black-and-white striped shirt and black gloves holds up the cat&#x27;s right front paw in the air like announcing the winner. Vertical 9:16 phone photo.</span></div>
+<h3>🎬 영상 프롬프트 (이미지 → 영상)</h3><div class="pbox "><span class="lbl">VIDEO · 10초 한 번 (시작=조르기, 끝=승리 손 들기)</span><span class="txt">Single continuous handheld smartphone shot from floor level beside the octagon cage, Dutch angle, no cuts, 10 seconds, vertical 9:16.
+0-6.2s: The white Persian cat keeps a tight choke hold around the MMA fighter&#x27;s head, squeezing slightly; the fighter&#x27;s arm weakly struggles. The crowd noise grows.
+6.2-7.4s: The fighter frantically taps the canvas with his gloved hand to submit.
+7.5-8.0s: A referee in a striped shirt rushes in from the top right, grabs the fighter and pulls him away; the fighter rolls out of frame to the right.
+8.0-8.8s: The cat is left lying on its side on the canvas, looking at the camera, unimpressed; the referee pats the cat.
+9.0-10.0s: The referee lifts the cat&#x27;s front paw high into the air, declaring it the winner. The cat stays deadpan. Crowd roaring.</span></div>
+<div class="pbox neg"><span class="lbl">NEGATIVE (금지 요소)</span><span class="txt">cartoon, 3D render look, CGI plastic fur, anime, illustration, text, subtitles, captions, logo watermark, extra limbs, extra paws, deformed paws, fused fingers, human hand touching the animal, slow motion, camera cut, scene change, jump cut, blurry face, distorted face, oversaturated colors, cat biting, blood, cat hurt, referee hitting the cat, fighter&#x27;s face fully visible, fused human and cat bodies</span></div>
+<h3>🔁 다른 동물로 바꾸기</h3><div class="pbox swap"><span class="lbl">SWAP IMAGE · {ANIMAL} 기본값 = 골든 햄스터</span><span class="txt">Floor-level Dutch-angle phone photo beside an MMA octagon cage: a chubby golden hamster ({ANIMAL}) clings with all four tiny paws around the head of a muscular MMA fighter lying on his side on the pale blue canvas, its fluffy body pressed over his ear like a choke hold, its black eyes narrowed and determined; the fighter&#x27;s red strained face squashed under it, his big tanned back filling the right half. Blurred crowd beyond the cage. Vertical 9:16.
+(크기 규칙: 햄스터는 목을 감을 수 없으니 ‘귀와 관자놀이를 몸으로 누르는 헤드록’으로 바꾸고 카메라를 더 가까이 — 햄스터가 화면 가로 30% 이상.)</span></div>
+<div class="pbox swap"><span class="lbl">SWAP VIDEO</span><span class="txt">Single continuous floor-level Dutch-angle shot, no cuts, 10s. 0-6.2s the golden hamster squeezes its headlock on the fighter&#x27;s head, the fighter weakly struggles. 6.2-7.4s the fighter frantically taps the canvas. 7.5s the referee rushes in and pulls the fighter away. 8.0-8.8s the hamster sits alone on the canvas, cheeks puffed, unimpressed. 9.0-10s the referee gently lifts the hamster&#x27;s tiny paw between two fingers, declaring it the winner. Crowd roaring.</span></div>
+<h3>🤖 이 장면에 맞는 모델</h3><div class="models"><div class="m t1"><div class="t">1순위</div><code>seedance-2-5</code><div class="mut">10초 원테이크 + 끝 프레임(승리 포즈) 지정. 사람 2명+동물 동선을 한 번에</div></div><div class="m t2"><div class="t">2순위</div><code>kling-v3 (pro)</code><div class="mut">선수·심판 손동작이 뭉개질 때 대안. 네거티브 프롬프트로 신체 융합 방지</div></div><div class="m t3"><div class="t">대안</div><code>kling-v3-omni</code><div class="mut">고양이/햄스터 참조 이미지로 캐릭터 고정 (ref2video)</div></div></div>
+</div>
+<div class="scene" id="v3-s2"><div class="head"><h3 style="margin:0">S2. 탭아웃 — 선수가 바닥을 치며 항복</h3>
+<span class="tc">6.20s → 7.40s · 1.20초</span></div>
+<p class="mut" style="margin:6px 0">격투기 팬이면 누구나 아는 ‘항복 신호’. 이 동작 하나로 ‘고양이가 이겼다’가 확정된다.</p>
+<div class="frames"><figure><a href="assets/v3_0630.jpg" target="_blank"><img src="assets/v3_0630.jpg" loading="lazy"></a><figcaption>6.30s</figcaption></figure><figure><a href="assets/v3_0700.jpg" target="_blank"><img src="assets/v3_0700.jpg" loading="lazy"></a><figcaption>7.00s</figcaption></figure></div>
+<div class="sgrid"><div class="comp" style="background-image:url(assets/v3_0700.jpg)"><div class="g"></div><div class="box" style="left:38%;top:48%;width:25%;height:18%"><span>탭하는 손</span></div><div class="box" style="left:8%;top:12%;width:40%;height:42%"><span>고양이</span></div></div><div class="kv"><b>샷 크기</b><span>S1과 동일</span><b>앵글</b><span>동일</span><b>카메라 무빙</b><span>동일 (살짝 흔들림 증가)</span><b>렌즈/심도</b><span>동일</span><b>피사체 위치</b><span>선수 글러브 손 = 화면 가운데 아래 (가로 40~60%, 세로 50~65%)</span><b>동물 자세·연기</b><span>선수의 빨간 손목밴드+검은 글러브 손이 매트를 빠르게 두세 번 침. 고양이는 여전히 꼭 붙어 있음.</span><b>배경·소품</b><span>동일</span><b>조명·색감</b><span>동일</span><b>들어올 때 전환</b><span>연속</span><b>나갈 때 전환</b><span>연속</span><b>소리</b><span>6.2초 관중 급상승(-12dB), 탭 소리</span></div></div>
+
+<h3>🎨 첫 프레임 이미지 프롬프트 (원본 재현)</h3><div class="pbox "><span class="lbl">IMAGE · 9:16 · 첫 프레임</span><span class="txt">Same shot: the MMA fighter&#x27;s gloved hand with a red wrist wrap slaps the pale blue canvas to tap out while the white Persian cat keeps its choke hold on his head, motion blur on the hand. Vertical 9:16 Dutch angle phone photo.</span></div>
+
+<h3>🎬 영상 프롬프트 (이미지 → 영상)</h3><div class="pbox "><span class="lbl">VIDEO · S1 클립 안</span><span class="txt">(S1 10초 클립에 포함) The fighter taps the canvas rapidly three times with his gloved hand while the cat holds on.</span></div>
+<div class="pbox neg"><span class="lbl">NEGATIVE (금지 요소)</span><span class="txt">cartoon, 3D render look, CGI plastic fur, anime, illustration, text, subtitles, captions, logo watermark, extra limbs, extra paws, deformed paws, fused fingers, human hand touching the animal, slow motion, camera cut, scene change, jump cut, blurry face, distorted face, oversaturated colors</span></div>
+<h3>🔁 다른 동물로 바꾸기</h3><div class="pbox swap"><span class="lbl">SWAP IMAGE · {ANIMAL} 기본값 = 골든 햄스터</span><span class="txt">Same, with the golden hamster ({ANIMAL}) holding its headlock while the fighter taps the canvas.</span></div>
+<div class="pbox swap"><span class="lbl">SWAP VIDEO</span><span class="txt">(S1 클립에 포함) The fighter taps the canvas three times while the hamster holds on.</span></div>
+<h3>🤖 이 장면에 맞는 모델</h3><div class="models"><div class="m t1"><div class="t">1순위</div><code>(S1 클립에 포함)</code><div class="mut">분할 시 A클립 끝부분</div></div><div class="m t2"><div class="t">2순위</div><code>minimax-h3-max</code><div class="mut">손 동작 물리 테스트</div></div><div class="m t3"><div class="t">대안</div><code>-</code><div class="mut">-</div></div></div>
+</div>
+<div class="scene" id="v3-s3"><div class="head"><h3 style="margin:0">S3. 심판 개입 — 떼어내기</h3>
+<span class="tc">7.40s → 8.20s · 0.80초</span></div>
+<p class="mut" style="margin:6px 0">화면 밖에서 사람이 뛰어드는 ‘난입’은 정지된 화면에 에너지를 확 준다. 관중 함성 최고조와 동시.</p>
+<div class="frames"><figure><a href="assets/v3_0750.jpg" target="_blank"><img src="assets/v3_0750.jpg" loading="lazy"></a><figcaption>7.50s</figcaption></figure><figure><a href="assets/v3_0780.jpg" target="_blank"><img src="assets/v3_0780.jpg" loading="lazy"></a><figcaption>7.80s</figcaption></figure></div>
+<div class="sgrid"><div class="comp" style="background-image:url(assets/v3_0780.jpg)"><div class="g"></div><div class="box" style="left:55%;top:0%;width:45%;height:35%"><span>심판</span></div><div class="box" style="left:5%;top:20%;width:45%;height:45%"><span>고양이</span></div></div><div class="kv"><b>샷 크기</b><span>미디엄 → 미디엄 풀</span><b>앵글</b><span>동일 더치</span><b>카메라 무빙</b><span>핸드헬드 흔들림 커짐, 살짝 뒤로 물러남</span><b>렌즈/심도</b><span>동일</span><b>피사체 위치</b><span>심판 = 오른쪽 위에서 진입 (가로 55~100%, 세로 0~35%)</span><b>동물 자세·연기</b><span>심판(흑백 줄무늬 셔츠, 검은 장갑)이 무릎 꿇고 들어와 선수를 잡아당김 → 선수 굴러서 오른쪽 아래로 퇴장. 고양이가 드러남.</span><b>배경·소품</b><span>동일</span><b>조명·색감</b><span>동일</span><b>들어올 때 전환</b><span>연속</span><b>나갈 때 전환</b><span>연속</span><b>소리</b><span>관중 함성 최고조 7.1~8.6초 (-9.5dB)</span></div></div>
+
+<h3>🎨 첫 프레임 이미지 프롬프트 (원본 재현)</h3><div class="pbox "><span class="lbl">IMAGE · 9:16 · 첫 프레임</span><span class="txt">A referee in a black-and-white striped shirt and black gloves rushes in from the top right and grabs the MMA fighter to separate him from the white Persian cat on the canvas beside the cage. Dutch angle floor-level phone photo, vertical 9:16.</span></div>
+
+<h3>🎬 영상 프롬프트 (이미지 → 영상)</h3><div class="pbox "><span class="lbl">VIDEO · 분할 시 B클립 시작 (7.4~10초, 3~5초 생성)</span><span class="txt">(Clip B, starts from the frame at 7.4s) A referee in a striped shirt rushes in from the top right, kneels, and pulls the MMA fighter away from the white cat; the fighter rolls out of frame to the right. The cat is left lying on its side on the canvas.</span></div>
+<div class="pbox neg"><span class="lbl">NEGATIVE (금지 요소)</span><span class="txt">cartoon, 3D render look, CGI plastic fur, anime, illustration, text, subtitles, captions, logo watermark, extra limbs, extra paws, deformed paws, fused fingers, human hand touching the animal, slow motion, camera cut, scene change, jump cut, blurry face, distorted face, oversaturated colors, referee grabbing the cat roughly</span></div>
+<h3>🔁 다른 동물로 바꾸기</h3><div class="pbox swap"><span class="lbl">SWAP IMAGE · {ANIMAL} 기본값 = 골든 햄스터</span><span class="txt">Same, the referee pulling the fighter away and revealing the golden hamster ({ANIMAL}) sitting on the canvas.</span></div>
+<div class="pbox swap"><span class="lbl">SWAP VIDEO</span><span class="txt">(Clip B) The referee rushes in and pulls the fighter away; the golden hamster is revealed sitting on the canvas, cheeks puffed.</span></div>
+<h3>🤖 이 장면에 맞는 모델</h3><div class="models"><div class="m t1"><div class="t">1순위</div><code>kling-v3 (pro)</code><div class="mut">분할 B클립 — 시작/끝 프레임으로 심판 동선 고정</div></div><div class="m t2"><div class="t">2순위</div><code>seedance-2-5</code><div class="mut">한 번 생성 시 포함</div></div><div class="m t3"><div class="t">대안</div><code>minimax-h3</code><div class="mut">저비용 대안</div></div></div>
+</div>
+<div class="scene" id="v3-s4"><div class="head"><h3 style="margin:0">S4. 승자 선언 — 심판이 고양이 앞발을 들어줌</h3>
+<span class="tc">8.20s → 10.02s · 1.82초</span></div>
+<p class="mut" style="margin:6px 0">스포츠 승리 의식(손 들어주기)을 동물에게 적용. 고양이의 ‘나 원래 이김’ 무표정이 최종 펀치라인이며 루프 시작점과도 이어진다.</p>
+<div class="frames"><figure><a href="assets/v3_0830.jpg" target="_blank"><img src="assets/v3_0830.jpg" loading="lazy"></a><figcaption>8.30s</figcaption></figure><figure><a href="assets/v3_0880.jpg" target="_blank"><img src="assets/v3_0880.jpg" loading="lazy"></a><figcaption>8.80s</figcaption></figure><figure><a href="assets/v3_0950.jpg" target="_blank"><img src="assets/v3_0950.jpg" loading="lazy"></a><figcaption>9.50s</figcaption></figure></div>
+<div class="sgrid"><div class="comp" style="background-image:url(assets/v3_0880.jpg)"><div class="g"></div><div class="box" style="left:10%;top:28%;width:65%;height:45%"><span>고양이</span></div><div class="box" style="left:45%;top:0%;width:30%;height:25%"><span>심판 손</span></div></div><div class="kv"><b>샷 크기</b><span>미디엄 (고양이 전신 + 심판 팔)</span><b>앵글</b><span>더치 유지, 조금 더 위에서</span><b>카메라 무빙</b><span>핸드헬드, 고양이 쪽으로 약간 다가감</span><b>렌즈/심도</b><span>동일</span><b>피사체 위치</b><span>고양이 = 가운데 아래 (가로 10~75%, 세로 25~75%) / 심판 손 = 위 가운데</span><b>동물 자세·연기</b><span>고양이가 옆으로 드러누운 채 카메라를 봄, 눈 반쯤 감김. 심판이 쓰다듬은 뒤(8.5) 고양이 오른쪽 앞발을 잡아 위로 들어올림(9.0~10). 고양이 표정 변화 없음.</span><b>배경·소품</b><span>케이지 철망, 매트, 심판 무릎</span><b>조명·색감</b><span>동일</span><b>들어올 때 전환</b><span>연속</span><b>나갈 때 전환</b><span>영상 끝 → 루프 (페이드 없음)</span><b>소리</b><span>관중 환호 계속 (-15dB 전후), 끝까지 줄지 않음</span></div></div>
+
+<h3>🎨 첫 프레임 이미지 프롬프트 (원본 재현)</h3><div class="pbox "><span class="lbl">IMAGE · 9:16 · 첫 프레임</span><span class="txt">The white Persian cat lies on its side on the pale blue canvas against the black cage, looking into the camera with a bored deadpan face, while a kneeling referee in a striped shirt and black gloves holds the cat&#x27;s front paw up high like announcing the winner of the fight. Dutch angle floor-level phone photo, vertical 9:16.</span></div>
+
+<h3>🎬 영상 프롬프트 (이미지 → 영상)</h3><div class="pbox "><span class="lbl">VIDEO · S1~S4 한 번 생성의 끝 프레임</span><span class="txt">(끝부분) The referee pats the cat, then lifts its front paw high into the air like declaring the winner. The cat stays completely unimpressed and deadpan, looking at the camera. Crowd cheering.</span></div>
+<div class="pbox neg"><span class="lbl">NEGATIVE (금지 요소)</span><span class="txt">cartoon, 3D render look, CGI plastic fur, anime, illustration, text, subtitles, captions, logo watermark, extra limbs, extra paws, deformed paws, fused fingers, human hand touching the animal, slow motion, camera cut, scene change, jump cut, blurry face, distorted face, oversaturated colors, cat smiling, cat struggling</span></div>
+<h3>🔁 다른 동물로 바꾸기</h3><div class="pbox swap"><span class="lbl">SWAP IMAGE · {ANIMAL} 기본값 = 골든 햄스터</span><span class="txt">The golden hamster ({ANIMAL}) sits on the pale blue canvas by the cage, cheeks puffed, deadpan, while the kneeling referee gently lifts its tiny front paw between two gloved fingers like announcing the winner. Dutch angle phone photo, vertical 9:16.</span></div>
+<div class="pbox swap"><span class="lbl">SWAP VIDEO</span><span class="txt">The referee gently lifts the hamster&#x27;s tiny paw between two fingers, declaring it the winner; the hamster stays deadpan, chewing. Crowd cheering.</span></div>
+<h3>🤖 이 장면에 맞는 모델</h3><div class="models"><div class="m t1"><div class="t">1순위</div><code>(S1 한 번 생성 끝 프레임)</code><div class="mut">끝 프레임 이미지로 포즈 확정</div></div><div class="m t2"><div class="t">2순위</div><code>veo-3-1 (6초)</code><div class="mut">분할 B클립을 소리 포함해 만들 때</div></div><div class="m t3"><div class="t">대안</div><code>kling-v3</code><div class="mut">손 들기 동작 정확도</div></div></div>
+</div>
+
+<h2>4. 소리 설계 (배경음악 · 효과음)</h2><div class="card"><b>배경음악</b><p style="margin:6px 0">배경음악 없음 (현장음만). 1위와 같은 이유로 음악을 넣으면 ‘진짜 경기 영상’ 느낌이 깨진다. Whisper가 ‘Ready?/Go!’로 오인식한 부분은 관중·해설 웅성임이며 실제 대사는 없음 (신뢰도 0~0.2).</p></div>
+<table style="margin-top:10px"><tr><th>시간</th><th>소리</th><th>크기</th><th>생성/검색 프롬프트</th></tr><tr><td class='tc'>0.00s</td><td>경기장 관중 베드 (UFC 규모)</td><td>-27dB에서 시작</td><td><span class='small'>&#x27;UFC arena crowd ambience, tense, mid-fight, no music&#x27;</span></td></tr><tr><td class='tc'>2.20s</td><td>관중 고조 (‘우우~’ 점점 커짐)</td><td>-20dB까지</td><td><span class='small'>&#x27;crowd tension rising, people shouting encouragement&#x27;</span></td></tr><tr><td class='tc'>6.20s</td><td>탭 소리 ‘탁탁탁’ + 관중 ‘오!’</td><td>-12dB</td><td><span class='small'>&#x27;gloved hand slapping canvas mat three times&#x27; + &#x27;crowd shouts&#x27;</span></td></tr><tr><td class='tc'>7.40s</td><td>심판 뛰어드는 발소리/옷 스침</td><td>-18dB</td><td><span class='small'>&#x27;referee rushing in, fabric rustle, knees hitting mat&#x27;</span></td></tr><tr><td class='tc'>7.50s</td><td>관중 함성 최고조</td><td>-9dB</td><td><span class='small'>&#x27;arena crowd erupts cheering after submission&#x27;</span></td></tr><tr><td class='tc'>9.00s</td><td>환호 유지 + (선택) 휘파람</td><td>-15dB</td><td><span class='small'>&#x27;crowd cheering and whistling&#x27;</span></td></tr></table>
+
+<h2>5. 편집 — FFmpeg 레시피</h2><div class="pbox "><span class="lbl">FFmpeg · 복붙 실행용 (파일명만 바꾸기)</span><span class="txt"># full.mp4 = 10초 한 번 생성본 (또는 clipA 0~7.4초 + clipB 7.4~10초)
+# (분할 시) 이어붙이기
+ffmpeg -i clipA.mp4 -i clipB.mp4 -filter_complex &quot;[0:v]scale=1080:1920,fps=60,setsar=1,trim=0:7.40,setpts=PTS-STARTPTS[a];[1:v]scale=1080:1920,fps=60,setsar=1,trim=0:2.62,setpts=PTS-STARTPTS[b];[a][b]concat=n=2:v=1[v]&quot; -map &quot;[v]&quot; -an -c:v libx264 -crf 16 body.mp4
+
+# (한 번 생성 시) 소리 빼고 규격 맞추기
+ffmpeg -i full.mp4 -vf &quot;scale=1080:1920,fps=60,setsar=1,trim=0:10.02,setpts=PTS-STARTPTS&quot; -an -c:v libx264 -crf 16 body.mp4
+
+# 효과음 믹스 (관중 베드는 2.2초부터 볼륨 자동 상승)
+ffmpeg -i body.mp4 -i crowd_bed.wav -i tap.wav -i ref_rush.wav -i crowd_roar.wav -filter_complex &quot;[1:a]atrim=0:10.02,volume=&#x27;if(lt(t,2.2),0.35,0.35+0.35*min((t-2.2)/4,1))&#x27;:eval=frame[c];[2:a]adelay=6200|6200,volume=0.9[t];[3:a]adelay=7400|7400,volume=0.5[r];[4:a]adelay=7500|7500,volume=0.9[h];[c][t][r][h]amix=inputs=4:normalize=0,atrim=0:10.02,loudnorm=I=-14:TP=-1:LRA=11[a]&quot; -map 0:v -map &quot;[a]&quot; -c:v copy -c:a aac -b:a 192k -shortest final.mp4
+
+# (선택) 더치 앵글이 약하게 나왔을 때 후반에서 기울이기 (+12°) — 가장자리 잘림 보정 위해 확대
+ffmpeg -i final.mp4 -vf &quot;rotate=12*PI/180:ow=iw:oh=ih:c=black,scale=iw*1.25:ih*1.25,crop=1080:1920&quot; -c:a copy final_dutch.mp4</span></div>
+<h2>6. 편집 — HyperFrames 제작 지시문</h2><div class="pbox "><span class="lbl">Claude Code에 붙여넣기 · /hyperframes</span><span class="txt">/hyperframes 로 세로 쇼츠 조립. (승인 전 렌더 금지 · 수정 범위: 새 프로젝트 폴더만)
+[캔버스] 1080x1920, 60fps, data-duration=10.02
+[트랙1] body.mp4 (무음) 0~10.02
+[트랙2 오디오 · 모든 audio에 id]
+ crowd_bed.wav 0~10.02 volume 0.35 (GSAP로 2.2~6.2초 동안 0.35→0.7 볼륨 상승은 불가하므로 두 개로 나눠: bed_low 0~2.2 / bed_high 2.2~10.02 volume 0.6)
+ tap.wav start 6.20 / ref_rush.wav start 7.40 / crowd_roar.wav start 7.50 volume 0.9
+[텍스트] 없음
+[루프] 마지막 프레임 페이드 금지 (하드 엔드)
+[검증] check 0건 → snapshot --at 1.0,6.5,7.6,9.6 캡처 후 멈춤</span></div>
+
+<h2>7. 떡상 편집 기법 해설 (전문 용어)</h2><table><tr><th>기법</th><th>이 영상에서</th><th>쉬운 비유</th></tr><tr><td><b>더치 앵글 (Dutch angle)</b></td><td>카메라 15° 기울임 → 불안정·현장감</td><td class='mut'>급하게 폰 들고 찍을 때 화면이 삐뚤어진 느낌</td></tr><tr><td><b>문맥 재해석 (Recontextualization)</b></td><td>고양이가 머리를 껴안는 흔한 행동 → 격투기 초크로</td><td class='mut'>같은 사진도 제목을 바꾸면 다른 이야기가 되는 것</td></tr><tr><td><b>스포츠 의식 패러디</b></td><td>탭아웃 → 심판 스톱 → 손 들어주기</td><td class='mut'>누구나 아는 순서라서 설명이 필요 없음</td></tr><tr><td><b>난입 (Frame entry)</b></td><td>심판이 화면 밖에서 들어옴</td><td class='mut'>조용한 교실에 선생님이 문 열고 들어올 때의 긴장</td></tr><tr><td><b>데드팬 버튼</b></td><td>승리 선언에도 무심한 고양이 얼굴</td><td class='mut'>개그맨이 웃긴 말 하고 표정 안 바뀌는 것</td></tr><tr><td><b>정지 포즈 루프</b></td><td>승리 포즈 → 첫 장면(조르기)로 자연스럽게</td><td class='mut'>시작과 끝이 같은 느낌의 원형 구조</td></tr></table>
+
+<h2>8. 복제 품질 체크리스트</h2><div class="card"><ol style="margin:0;padding-left:20px"><li>컷 0개 (원테이크)인가</li><li>화면이 약 15° 기울어져 있고 케이지 철망이 왼쪽에 보이는가</li><li>선수 얼굴이 고양이에 가려 정면으로 드러나지 않는가 (얼굴 노출 시 AI 티 증가)</li><li>6.2~7.4초에 탭아웃 동작이 보이는가</li><li>심판이 7.5초 전후에 오른쪽 위에서 들어오는가</li><li>마지막 1초에 고양이 앞발이 들려 있고 표정이 무심한가</li><li>음악 없음, -14 LUFS</li></ol></div>
+
+<h2>9. 마스터 프롬프트 (이것 하나로 전체 제작 지시)</h2><div class="pbox "><span class="lbl">MASTER · Claude Code / 작업 지시</span><span class="txt">[목표] 2위 ‘UFC 초크 고양이’(좋아요 124만)를 {ANIMAL}(기본: 골든 햄스터)로 구조 복제한 10초 세로 원테이크 영상.
+[수정 가능 범위] 새 작업 폴더만. 승인 전 유료 생성/렌더 금지. 단계마다 결과 보여주고 멈춤.
+1) 이미지 2장 (nano-banana-pro, 9:16): 첫 프레임 = 케이지 옆 바닥·15° 기울임, {ANIMAL}가 누운 선수 머리를 감싸 조름 / 끝 프레임 = 선수 퇴장, 심판이 {ANIMAL} 앞발을 들어올림, {ANIMAL} 무표정
+2) 영상 (seedance-2-5, 10초, 시작/끝 프레임 지정, AI 소리 끔): 0~6.2 조르기 / 6.2~7.4 선수 탭아웃 / 7.5 심판 난입·떼어냄 / 8.0~8.8 {ANIMAL} 혼자 누워 카메라 응시 / 9.0~10 승리 손 들기
+   실패 시 kling-v3로 0~7.4 / 7.4~10.02 분할
+3) 소리: 관중 베드(2.2초부터 고조), 6.2 탭 소리, 7.4 심판 발소리, 7.5 함성 최고조. 음악 없음
+4) 편집: 1080x1920 60fps, 하드 엔드, -14 LUFS (페이지 5·6번 레시피)
+5) 체크리스트 7개 결과를 표로 보고</span></div>
+
+<h2>10. 원본 0.25초 간격 전체 프레임 (참고)</h2><div class="sheets"><a href="sheets/v3_sheet_01.jpg" target="_blank"><img src="sheets/v3_sheet_01.jpg" loading="lazy"></a><a href="sheets/v3_sheet_02.jpg" target="_blank"><img src="sheets/v3_sheet_02.jpg" loading="lazy"></a></div>
+<p style="margin-top:30px"><a href="01_rank1_power_slap_cat.html">← 1위 파워슬랩 고양이</a>  <a href="03_rank3_blue_glow_cat.html" style="float:right">3위 파란 방사능 페인트 고양이 →</a></p></div><script>
+document.querySelectorAll('.pbox').forEach(b=>{const btn=document.createElement('button');btn.className='cp';btn.textContent='복사';
+btn.onclick=()=>{const t=b.querySelector('.txt').innerText;navigator.clipboard.writeText(t).then(()=>{btn.textContent='복사됨';btn.classList.add('done');
+setTimeout(()=>{btn.textContent='복사';btn.classList.remove('done')},1400)})};b.appendChild(btn)});
+</script></body></html>

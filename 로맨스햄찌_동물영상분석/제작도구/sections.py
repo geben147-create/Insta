@@ -26,7 +26,7 @@ def local_ctx(v: dict) -> dict:
 
 
 def head(title: str, css: str) -> str:
-    return f"""<!doctype html><html lang="ko"><head><meta charset="utf-8">
+    return f"""<!doctype html><html lang="ko"><head><meta charset="utf-8"><link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">

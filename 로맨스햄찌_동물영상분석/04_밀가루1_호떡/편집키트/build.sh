@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# 밀가루와 물방울이 부딪혀 호떡이 되기까지 — 재조립 스크립트 (Git Bash에서 실행)
+# 폴더 구조: clips/shot01.mp4 … (AI로 생성한 원본), audio/bgm.mp3, sfx/sfx01.wav …, subs.srt, fonts/Pretendard-Bold.ttf
+set -euo pipefail
+mkdir -p norm
+
+# ① 규격 통일: 1080x1920 · 30fps · SAR1 · 소리 제거 + 필요한 길이만큼만 트림
+ffmpeg -y -i clips/shot01.mp4 -t 3.17 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p" -an -c:v libx264 -crf 16 -preset slow norm/s01.mp4   # 화면 3.17s + 전환여유 0.0s
+ffmpeg -y -i clips/shot02.mp4 -t 3.6 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p" -an -c:v libx264 -crf 16 -preset slow norm/s02.mp4   # 화면 3.6s + 전환여유 0.0s
+ffmpeg -y -i clips/shot03.mp4 -t 3.11 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p" -an -c:v libx264 -crf 16 -preset slow norm/s03.mp4   # 화면 3.11s + 전환여유 0.0s
+ffmpeg -y -i clips/shot04.mp4 -t 2.99 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p" -an -c:v libx264 -crf 16 -preset slow norm/s04.mp4   # 화면 2.99s + 전환여유 0.0s
+ffmpeg -y -i clips/shot05.mp4 -t 2.71 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p" -an -c:v libx264 -crf 16 -preset slow norm/s05.mp4   # 화면 2.71s + 전환여유 0.0s
+ffmpeg -y -i clips/shot06.mp4 -t 3.47 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p" -an -c:v libx264 -crf 16 -preset slow norm/s06.mp4   # 화면 3.47s + 전환여유 0.0s
+ffmpeg -y -i clips/shot07.mp4 -t 0.4 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p" -an -c:v libx264 -crf 16 -preset slow norm/s07.mp4   # 화면 0.4s + 전환여유 0.0s
+ffmpeg -y -i clips/shot08.mp4 -t 1.05 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,setsar=1,format=yuv420p" -an -c:v libx264 -crf 16 -preset slow norm/s08.mp4   # 화면 1.05s + 전환여유 0.0s
+
+# ② 컷/디졸브 조립 + 색보정  (완성 길이 ≈ 20.5s)
+ffmpeg -y -i norm/s01.mp4 -i norm/s02.mp4 -i norm/s03.mp4 -i norm/s04.mp4 -i norm/s05.mp4 -i norm/s06.mp4 -i norm/s07.mp4 -i norm/s08.mp4 -filter_complex "[0:v]setpts=PTS-STARTPTS[v1];[1:v]setpts=PTS-STARTPTS[v2];[2:v]setpts=PTS-STARTPTS[v3];[3:v]setpts=PTS-STARTPTS[v4];[4:v]setpts=PTS-STARTPTS[v5];[5:v]setpts=PTS-STARTPTS[v6];[6:v]setpts=PTS-STARTPTS[v7];[7:v]setpts=PTS-STARTPTS[v8];[v1][v2]concat=n=2:v=1:a=0[j1];[j1][v3]concat=n=2:v=1:a=0[j2];[j2][v4]concat=n=2:v=1:a=0[j3];[j3][v5]concat=n=2:v=1:a=0[j4];[j4][v6]concat=n=2:v=1:a=0[j5];[j5][v7]concat=n=2:v=1:a=0[j6];[j6][v8]concat=n=2:v=1:a=0[j7];[j7]eq=contrast=1.03:saturation=1.12:gamma=1.02,colorbalance=rm=0.03:gm=0.01:bm=-0.03,unsharp=5:5:0.3[vout]" -map "[vout]" -c:v libx264 -crf 17 -preset slow -pix_fmt yuv420p video_only.mp4
+
+# ③ 사운드: BGM(-dB 베이스) + 효과음을 타임코드에 정확히 배치 → -14 LUFS (쇼츠/릴스 표준)
+ffmpeg -y -i audio/bgm.mp3 -i sfx/sfx01.wav -i sfx/sfx02.wav -i sfx/sfx03.wav -i sfx/sfx04.wav -i sfx/sfx05.wav -i sfx/sfx06.wav -i sfx/sfx07.wav -i sfx/sfx08.wav -i sfx/sfx09.wav -i sfx/sfx10.wav -i sfx/sfx11.wav -i sfx/sfx12.wav -filter_complex "[0:a]atrim=0:20.5,volume=-12dB,afade=t=out:st=19.70:d=0.8[bgm];[1:a]adelay=100|100,volume=0dB[s1];[2:a]adelay=1500|1500,volume=0dB[s2];[3:a]adelay=2200|2200,volume=0dB[s3];[4:a]adelay=3300|3300,volume=0dB[s4];[5:a]adelay=7400|7400,volume=0dB[s5];[6:a]adelay=10500|10500,volume=0dB[s6];[7:a]adelay=13000|13000,volume=0dB[s7];[8:a]adelay=15800|15800,volume=0dB[s8];[9:a]adelay=17200|17200,volume=0dB[s9];[10:a]adelay=18500|18500,volume=0dB[s10];[11:a]adelay=19100|19100,volume=0dB[s11];[12:a]adelay=19500|19500,volume=0dB[s12];[bgm][s1][s2][s3][s4][s5][s6][s7][s8][s9][s10][s11][s12]amix=inputs=13:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[aout]" -map "[aout]" -ar 48000 mix.wav
+
+# ④ 합치기 (인스타/쇼츠 업로드용: H.264 High, AAC 320k, faststart)
+ffmpeg -y -i video_only.mp4 -i mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 320k -shortest -movflags +faststart final.mp4

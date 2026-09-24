@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      body { margin: 0; background: #000; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; }
+      .inner { position: absolute; inset: 0; }
+      .inner video { width: 100%; height: 100%; object-fit: cover; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="ref3" data-start="0" data-width="1080" data-height="1920" data-duration="8.01">
+      <div id="w01" class="inner">
+        <video id="s01" src="clips/shot01.mp4" data-start="0.0" data-duration="8.01" data-track-index="0" muted playsinline></video>
+      </div>
+      <audio id="bgm" src="audio/bgm.mp3" data-start="0" data-duration="8.01" data-track-index="10" data-volume="0.5"></audio>
+      <audio id="sfx01" src="sfx/sfx01.wav" data-start="0.4" data-duration="2" data-track-index="11"></audio>  <!-- 리퀴드 라이너 붓 스치는 소리 -->
+      <audio id="sfx02" src="sfx/sfx02.wav" data-start="1.9" data-duration="2" data-track-index="12"></audio>  <!-- 두 번째 붓 스트로크 -->
+      <audio id="sfx03" src="sfx/sfx03.wav" data-start="3.9" data-duration="2" data-track-index="13"></audio>  <!-- 휙 돌아보는 소리 -->
+      <audio id="sfx04" src="sfx/sfx04.wav" data-start="4.05" data-duration="2" data-track-index="14"></audio>  <!-- 반전 스팅 -->
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      // 전부 하드컷 — 트윈 불필요
+      window.__timelines["ref3"] = tl;
+    </script>
+  </body>
+</html>

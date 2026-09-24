@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      body { margin: 0; background: #000; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; }
+      .inner { position: absolute; inset: 0; }
+      .inner video { width: 100%; height: 100%; object-fit: cover; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="ref4" data-start="0" data-width="1080" data-height="1920" data-duration="20.5">
+      <div id="w01" class="inner">
+        <video id="s01" src="clips/shot01.mp4" data-start="0.0" data-duration="3.17" data-track-index="0" muted playsinline></video>
+      </div>
+      <div id="w02" class="inner">
+        <video id="s02" src="clips/shot02.mp4" data-start="3.17" data-duration="3.6" data-track-index="1" muted playsinline></video>
+      </div>
+      <div id="w03" class="inner">
+        <video id="s03" src="clips/shot03.mp4" data-start="6.77" data-duration="3.11" data-track-index="0" muted playsinline></video>
+      </div>
+      <div id="w04" class="inner">
+        <video id="s04" src="clips/shot04.mp4" data-start="9.88" data-duration="2.99" data-track-index="1" muted playsinline></video>
+      </div>
+      <div id="w05" class="inner">
+        <video id="s05" src="clips/shot05.mp4" data-start="12.87" data-duration="2.71" data-track-index="0" muted playsinline></video>
+      </div>
+      <div id="w06" class="inner">
+        <video id="s06" src="clips/shot06.mp4" data-start="15.58" data-duration="3.47" data-track-index="1" muted playsinline></video>
+      </div>
+      <div id="w07" class="inner">
+        <video id="s07" src="clips/shot07.mp4" data-start="19.05" data-duration="0.4" data-track-index="0" muted playsinline></video>
+      </div>
+      <div id="w08" class="inner">
+        <video id="s08" src="clips/shot08.mp4" data-start="19.45" data-duration="1.05" data-track-index="1" muted playsinline></video>
+      </div>
+      <audio id="bgm" src="audio/bgm.mp3" data-start="0" data-duration="20.5" data-track-index="10" data-volume="0.5"></audio>
+      <audio id="sfx01" src="sfx/sfx01.wav" data-start="0.1" data-duration="2" data-track-index="11"></audio>  <!-- 물방울 뛰어오는 발소리 + 비명 -->
+      <audio id="sfx02" src="sfx/sfx02.wav" data-start="1.5" data-duration="2" data-track-index="12"></audio>  <!-- 밀가루 충돌 퍽 -->
+      <audio id="sfx03" src="sfx/sfx03.wav" data-start="2.2" data-duration="2" data-track-index="13"></audio>  <!-- 반죽 뭉쳐지는 소리 -->
+      <audio id="sfx04" src="sfx/sfx04.wav" data-start="3.3" data-duration="2" data-track-index="14"></audio>  <!-- 이스트 퐁 -->
+      <audio id="sfx05" src="sfx/sfx05.wav" data-start="7.4" data-duration="2" data-track-index="15"></audio>  <!-- 흑설탕 꿀꺽 -->
+      <audio id="sfx06" src="sfx/sfx06.wav" data-start="10.5" data-duration="2" data-track-index="16"></audio>  <!-- 시나몬 톡톡 + 점프 -->
+      <audio id="sfx07" src="sfx/sfx07.wav" data-start="13.0" data-duration="2" data-track-index="17"></audio>  <!-- 견과 종종걸음 -->
+      <audio id="sfx08" src="sfx/sfx08.wav" data-start="15.8" data-duration="2" data-track-index="18"></audio>  <!-- 기름 다이빙 -->
+      <audio id="sfx09" src="sfx/sfx09.wav" data-start="17.2" data-duration="2" data-track-index="19"></audio>  <!-- 지글지글 -->
+      <audio id="sfx10" src="sfx/sfx10.wav" data-start="18.5" data-duration="2" data-track-index="20"></audio>  <!-- 꾹 누르기 -->
+      <audio id="sfx11" src="sfx/sfx11.wav" data-start="19.1" data-duration="2" data-track-index="21"></audio>  <!-- 뒤집기 휙 -->
+      <audio id="sfx12" src="sfx/sfx12.wav" data-start="19.5" data-duration="2" data-track-index="22"></audio>  <!-- 완성 반짝 -->
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      // 전부 하드컷 — 트윈 불필요
+      window.__timelines["ref4"] = tl;
+    </script>
+  </body>
+</html>

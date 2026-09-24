@@ -1,0 +1,73 @@
+:root{--bg:#faf7f4;--panel:#ffffff;--ink:#1d1b1a;--muted:#6b6560;--line:#e7e1da;--accent:#d9467a;--accent2:#2f7de1;--cut:#1d1b1a;--xf:#d9467a;--cont:#9bb7d8;--code:#f3efe9;--chip:#f6eef1}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141213;--panel:#1d1a1b;--ink:#f1ebe7;--muted:#a79f99;--line:#332e2f;--accent:#ff6f9f;--accent2:#6fa8ff;--cut:#f1ebe7;--xf:#ff6f9f;--cont:#4a6a8f;--code:#231f20;--chip:#2a2124}}
+:root[data-theme="dark"]{--bg:#141213;--panel:#1d1a1b;--ink:#f1ebe7;--muted:#a79f99;--line:#332e2f;--accent:#ff6f9f;--accent2:#6fa8ff;--cut:#f1ebe7;--xf:#ff6f9f;--cont:#4a6a8f;--code:#231f20;--chip:#2a2124}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 "Noto Sans KR",system-ui,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:0 16px 80px}
+a{color:var(--accent2)}
+nav.top{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;gap:12px;padding:10px 16px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);font-weight:700}
+nav.top a{text-decoration:none}
+.hero{padding:36px 0 12px}
+.hero h1{font-size:clamp(24px,4vw,40px);line-height:1.25;margin:6px 0;font-weight:900;letter-spacing:-.02em}
+.rank{display:inline-block;background:var(--accent);color:#fff;font-weight:900;padding:3px 12px;border-radius:999px;font-size:13px}
+.sub{color:var(--muted);margin:4px 0 14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.chip{background:var(--chip);border:1px solid var(--line);border-radius:10px;padding:6px 12px;display:flex;flex-direction:column;min-width:96px}
+.chip b{font-size:11px;color:var(--muted);font-weight:500}.chip span{font-weight:700}
+.note{background:var(--panel);border-left:4px solid var(--accent2);padding:8px 14px;margin:8px 0;border-radius:6px}
+.note b{margin-right:8px}
+section{margin-top:44px}
+h2{font-size:22px;font-weight:900;border-bottom:2px solid var(--ink);padding-bottom:6px;letter-spacing:-.01em}
+h3{font-size:16px;margin:18px 0 8px}h4{font-size:14px;margin:12px 0 6px;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:12px 0;position:relative;min-width:0}
+.formula{font-weight:700;color:var(--accent)}
+.strip{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px}
+.strip figure{margin:0;flex:0 0 auto;text-align:center}
+.strip img{width:96px;border-radius:6px;display:block}
+.strip figcaption{font:600 11px "JetBrains Mono",monospace;color:var(--muted)}
+.tl{display:flex;height:40px;border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+.seg{display:flex;align-items:center;justify-content:center;font:700 11px "JetBrains Mono",monospace;color:#fff;text-decoration:none;border-right:2px solid var(--bg);min-width:3px;overflow:hidden}
+.seg.cut{background:var(--cut);color:var(--bg)}.seg.xf{background:var(--xf)}.seg.cont{background:var(--cont)}
+.ticks{position:relative;height:18px;font:11px "JetBrains Mono",monospace;color:var(--muted)}
+.ticks span{position:absolute;transform:translateX(-50%)}
+.legend{font-size:13px;color:var(--muted)}.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin:0 4px 0 12px;vertical-align:-1px}
+.legend i.cut{background:var(--cut)}.legend i.xf{background:var(--xf)}.legend i.cont{background:var(--cont)}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13.5px;background:var(--panel)}
+th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+thead th{background:var(--chip)}
+table.kv th{width:190px;background:var(--chip);white-space:nowrap}
+pre{white-space:pre-wrap;word-break:break-word;margin:0}
+pre.prompt,pre.code{background:var(--code);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font:12.5px/1.6 "JetBrains Mono",monospace;max-height:520px;overflow:auto}
+pre.code{white-space:pre;overflow-x:auto}
+button.copy{position:relative;margin-top:6px;background:var(--ink);color:var(--bg);border:0;border-radius:8px;padding:5px 14px;font-weight:700;cursor:pointer}
+button.copy.done{background:var(--accent)}
+code{font-family:"JetBrains Mono",monospace;font-size:12.5px;background:var(--code);padding:1px 5px;border-radius:4px;word-break:break-all}
+.swapbar{display:flex;flex-wrap:wrap;gap:12px;background:var(--panel);border:2px solid var(--accent);border-radius:14px;padding:12px 14px;position:sticky;top:46px;z-index:4}
+.swapbar label{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-weight:700}
+select,input{font:inherit;padding:4px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);max-width:100%}
+article.shot{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;margin:18px 0}
+article.shot h3{margin-top:0;font-size:18px}
+.frames{display:flex;gap:10px;overflow-x:auto}
+.frames figure{margin:0;flex:0 0 auto;text-align:center}
+.frames img{width:200px;border-radius:10px;display:block}
+.frames figcaption{font:700 12px "JetBrains Mono",monospace;color:var(--accent)}
+dl{display:grid;grid-template-columns:140px 1fr;gap:4px 12px;margin:12px 0}
+dt{font-weight:700;color:var(--muted);font-size:13px}dd{margin:0}
+ul.models{padding-left:18px;margin:4px 0}ul.models li{margin:2px 0}
+ul.checks{list-style:none;padding:0}ul.checks li{padding:4px 0;border-bottom:1px dashed var(--line)}
+.vlist{display:grid;gap:14px}
+.vcard{display:flex;gap:14px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px;text-decoration:none;color:var(--ink)}
+.vcard img{width:96px;height:170px;object-fit:cover;border-radius:10px;flex:0 0 auto}
+.vcard h3{margin:6px 0}.vcard p{margin:2px 0;color:var(--muted);font-size:13.5px}
+@media (max-width:640px){dl{grid-template-columns:1fr}.frames img{width:150px}table.kv th{white-space:normal;width:auto}.swapbar{position:static}}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.btn{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:#fff;border:0;border-radius:10px;padding:9px 16px;font:700 14px "Noto Sans KR",sans-serif;cursor:pointer;text-decoration:none}
+.btn.ghost{background:var(--panel);color:var(--ink);border:1px solid var(--line)}
+.btn.done{background:#2e9d5b;color:#fff}
+.toolbar.big .btn{font-size:16px;padding:12px 20px}
+.toc{columns:2 280px;padding-left:22px}.toc li{margin:3px 0}
+hr.vsep{border:0;border-top:4px double var(--line);margin:70px 0 10px}
+.strip a,.frames a{display:block;cursor:zoom-in}
+.frames img:hover,.strip img:hover{outline:3px solid var(--accent)}

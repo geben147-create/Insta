@@ -1,0 +1,55 @@
+{
+ "rhythm": {
+  "bpm_est": 76.0,
+  "strong_onsets_s": [
+   0.12,
+   0.37,
+   0.63,
+   0.91,
+   1.42,
+   2.21,
+   2.46,
+   2.74,
+   3.51,
+   3.78,
+   4.32,
+   4.57,
+   4.83,
+   5.64,
+   5.87,
+   6.15,
+   6.66,
+   6.8,
+   6.94,
+   7.22
+  ],
+  "loudness_db_per_sec": [
+   -16.2,
+   -17.9,
+   -17.7,
+   -16.3,
+   -18.1,
+   -16.6,
+   -17.6,
+   -16.4
+  ]
+ },
+ "transcript": [
+  {
+   "lang": "en",
+   "lang_prob": 0.45
+  },
+  {
+   "start": 0.0,
+   "end": 4.0,
+   "text": "I already know, and it's you that I want",
+   "no_speech": 0.82
+  },
+  {
+   "start": 4.0,
+   "end": 8.0,
+   "text": "I miss girls, boy, you already know",
+   "no_speech": 0.82
+  }
+ ]
+}

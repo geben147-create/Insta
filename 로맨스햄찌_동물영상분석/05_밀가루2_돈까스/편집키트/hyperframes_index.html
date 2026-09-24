@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      body { margin: 0; background: #000; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; }
+      .inner { position: absolute; inset: 0; }
+      .inner video { width: 100%; height: 100%; object-fit: cover; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="ref5" data-start="0" data-width="1080" data-height="1920" data-duration="20.27">
+      <div id="w01" class="inner">
+        <video id="s01" src="clips/shot01.mp4" data-start="0.0" data-duration="7.6" data-track-index="0" muted playsinline></video>
+      </div>
+      <div id="w02" class="inner">
+        <video id="s02" src="clips/shot02.mp4" data-start="7.6" data-duration="1.47" data-track-index="1" muted playsinline></video>
+      </div>
+      <div id="w03" class="inner">
+        <video id="s03" src="clips/shot03.mp4" data-start="9.07" data-duration="3.1" data-track-index="0" muted playsinline></video>
+      </div>
+      <div id="w04" class="inner">
+        <video id="s04" src="clips/shot04.mp4" data-start="12.17" data-duration="1.6" data-track-index="1" muted playsinline></video>
+      </div>
+      <div id="w05" class="inner">
+        <video id="s05" src="clips/shot05.mp4" data-start="13.77" data-duration="1.16" data-track-index="0" muted playsinline></video>
+      </div>
+      <div id="w06" class="inner">
+        <video id="s06" src="clips/shot06.mp4" data-start="14.93" data-duration="5.34" data-track-index="1" muted playsinline></video>
+      </div>
+      <audio id="bgm" src="audio/bgm.mp3" data-start="0" data-duration="20.27" data-track-index="10" data-volume="0.5"></audio>
+      <audio id="sfx01" src="sfx/sfx01.wav" data-start="0.3" data-duration="2" data-track-index="11"></audio>  <!-- 고기망치 통통 (마사지) -->
+      <audio id="sfx02" src="sfx/sfx02.wav" data-start="4.0" data-duration="2" data-track-index="12"></audio>  <!-- 밀가루 푸슉 -->
+      <audio id="sfx03" src="sfx/sfx03.wav" data-start="5.5" data-duration="2" data-track-index="13"></audio>  <!-- 계란 점프 + 깨짐 -->
+      <audio id="sfx04" src="sfx/sfx04.wav" data-start="6.5" data-duration="2" data-track-index="14"></audio>  <!-- 빵가루 사르륵 + 발소리 -->
+      <audio id="sfx05" src="sfx/sfx05.wav" data-start="9.3" data-duration="2" data-track-index="15"></audio>  <!-- 바삭 발걸음 -->
+      <audio id="sfx06" src="sfx/sfx06.wav" data-start="11.5" data-duration="2" data-track-index="16"></audio>  <!-- 비장한 효과음 -->
+      <audio id="sfx07" src="sfx/sfx07.wav" data-start="12.2" data-duration="2" data-track-index="17"></audio>  <!-- 튀김 지글지글 -->
+      <audio id="sfx08" src="sfx/sfx08.wav" data-start="13.8" data-duration="2" data-track-index="18"></audio>  <!-- 슬라이스 방긋 -->
+      <audio id="sfx09" src="sfx/sfx09.wav" data-start="16.5" data-duration="2" data-track-index="19"></audio>  <!-- 양배추 사르르 -->
+      <audio id="sfx10" src="sfx/sfx10.wav" data-start="18.2" data-duration="2" data-track-index="20"></audio>  <!-- 밥 톡 -->
+      <audio id="sfx11" src="sfx/sfx11.wav" data-start="19.6" data-duration="2" data-track-index="21"></audio>  <!-- 소스 주르륵 -->
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      // 전부 하드컷 — 트윈 불필요
+      window.__timelines["ref5"] = tl;
+    </script>
+  </body>
+</html>

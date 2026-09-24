@@ -1,0 +1,185 @@
+﻿[Script Info]
+; 김햄찌 분석 키트 — 원본 자막 규격(위치·크기·색) 재현용 템플릿. 텍스트는 새로 쓴 예시 대본
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: LabelHero,Malgun Gothic,40,&H00463F3F,&H00463F3F,&H38FFFFFF,&H38FFFFFF,0,0,0,0,100,100,0,0,3,7,0,2,20,20,158,1
+Style: LabelName,Malgun Gothic,40,&H00FFFFFF,&H00FFFFFF,&H1E000000,&H1E000000,0,0,0,0,100,100,0,0,3,7,0,2,20,20,158,1
+Style: LineHero,Malgun Gothic,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,20,20,58,1
+Style: LineCW1,Malgun Gothic,64,&H0038EF2E,&H0038EF2E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,20,20,58,1
+Style: LineCW2,Malgun Gothic,64,&H00DE9019,&H00DE9019,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,20,20,58,1
+Style: LineLeader,Malgun Gothic,64,&H0034E5D7,&H0034E5D7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,20,20,58,1
+Style: Emph,Malgun Gothic,140,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,8,0,2,20,20,70,1
+Style: EmphCW1,Malgun Gothic,120,&H0038EF2E,&H0038EF2E,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,8,0,2,20,20,70,1
+Style: Bracket,Malgun Gothic,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,20,20,62,1
+Style: Paren,Malgun Gothic,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,20,20,70,1
+Style: Pointer,Malgun Gothic,32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,2,7,20,20,20,1
+Style: CardSmall,Malgun Gothic,36,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,20,20,0,1
+Style: CardBig,Malgun Gothic,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,20,20,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:00.14,LineHero,,0,0,0,,영
+Dialogue: 1,0:00:00.14,0:00:00.29,LineHero,,0,0,0,,영차
+Dialogue: 1,0:00:00.29,0:00:00.73,LineHero,,0,0,0,,영차!
+Dialogue: 1,0:00:01.70,0:00:01.77,LineLeader,,0,0,0,,오
+Dialogue: 1,0:00:01.77,0:00:01.85,LineLeader,,0,0,0,,오~
+Dialogue: 1,0:00:01.85,0:00:01.93,LineLeader,,0,0,0,,오~ 
+Dialogue: 1,0:00:01.93,0:00:02.00,LineLeader,,0,0,0,,오~ 왔
+Dialogue: 1,0:00:02.00,0:00:02.20,LineLeader,,0,0,0,,오~ 왔네
+Dialogue: 1,0:00:02.20,0:00:02.34,LineLeader,,0,0,0,,{이름}
+Dialogue: 1,0:00:02.34,0:00:02.97,LineLeader,,0,0,0,,{이름}!
+Dialogue: 1,0:00:02.97,0:00:03.04,LineHero,,0,0,0,,좋
+Dialogue: 1,0:00:03.04,0:00:03.12,LineHero,,0,0,0,,좋은
+Dialogue: 1,0:00:03.12,0:00:03.20,LineHero,,0,0,0,,좋은 
+Dialogue: 1,0:00:03.20,0:00:03.28,LineHero,,0,0,0,,좋은 아
+Dialogue: 1,0:00:03.28,0:00:03.35,LineHero,,0,0,0,,좋은 아침
+Dialogue: 1,0:00:03.35,0:00:03.43,LineHero,,0,0,0,,좋은 아침이
+Dialogue: 1,0:00:03.43,0:00:03.51,LineHero,,0,0,0,,좋은 아침이에
+Dialogue: 1,0:00:03.51,0:00:03.59,LineHero,,0,0,0,,좋은 아침이에용
+Dialogue: 1,0:00:03.59,0:00:03.66,LineHero,,0,0,0,,좋은 아침이에용~
+Dialogue: 1,0:00:03.66,0:00:04.00,LineHero,,0,0,0,,좋은 아침이에용~!
+Dialogue: 1,0:00:04.00,0:00:04.14,LineLeader,,0,0,0,,휴
+Dialogue: 1,0:00:04.14,0:00:04.29,LineLeader,,0,0,0,,휴가
+Dialogue: 1,0:00:04.29,0:00:04.43,LineLeader,,0,0,0,,휴가 
+Dialogue: 1,0:00:04.43,0:00:04.57,LineLeader,,0,0,0,,휴가 동
+Dialogue: 1,0:00:04.57,0:00:04.97,LineLeader,,0,0,0,,휴가 동안
+Dialogue: 1,0:00:04.97,0:00:05.05,LineLeader,,0,0,0,,휴가 동안 재
+Dialogue: 1,0:00:05.05,0:00:05.13,LineLeader,,0,0,0,,휴가 동안 재충
+Dialogue: 1,0:00:05.13,0:00:05.21,LineLeader,,0,0,0,,휴가 동안 재충전
+Dialogue: 1,0:00:05.21,0:00:05.29,LineLeader,,0,0,0,,휴가 동안 재충전 
+Dialogue: 1,0:00:05.29,0:00:05.37,LineLeader,,0,0,0,,휴가 동안 재충전 좀
+Dialogue: 1,0:00:05.37,0:00:05.45,LineLeader,,0,0,0,,휴가 동안 재충전 좀 
+Dialogue: 1,0:00:05.45,0:00:05.53,LineLeader,,0,0,0,,휴가 동안 재충전 좀 했
+Dialogue: 1,0:00:05.53,0:00:05.61,LineLeader,,0,0,0,,휴가 동안 재충전 좀 했어
+Dialogue: 1,0:00:05.61,0:00:05.93,LineLeader,,0,0,0,,휴가 동안 재충전 좀 했어?
+Dialogue: 0,0:00:05.93,0:00:06.37,LineHero,,0,0,0,,앗
+Dialogue: 1,0:00:06.37,0:00:06.44,LineHero,,0,0,0,,앗 그
+Dialogue: 1,0:00:06.44,0:00:06.52,LineHero,,0,0,0,,앗 그럼
+Dialogue: 1,0:00:06.52,0:00:06.59,LineHero,,0,0,0,,앗 그럼요
+Dialogue: 1,0:00:06.59,0:00:06.77,LineHero,,0,0,0,,앗 그럼요!
+Dialogue: 0,0:00:06.77,0:00:08.50,LabelHero,,0,0,0,,연차 5일 몰아 쓴 {PUN}
+Dialogue: 1,0:00:06.77,0:00:06.90,LineHero,,0,0,0,,제
+Dialogue: 1,0:00:06.90,0:00:07.03,LineHero,,0,0,0,,제 
+Dialogue: 1,0:00:07.03,0:00:07.17,LineHero,,0,0,0,,제 배
+Dialogue: 1,0:00:07.17,0:00:07.30,LineHero,,0,0,0,,제 배터
+Dialogue: 1,0:00:07.30,0:00:07.43,LineHero,,0,0,0,,제 배터리
+Dialogue: 1,0:00:07.43,0:00:07.83,LineHero,,0,0,0,,제 배터리는
+Dialogue: 1,0:00:07.83,0:00:07.90,LineHero,,0,0,0,,제 배터리는 1
+Dialogue: 1,0:00:07.90,0:00:07.96,LineHero,,0,0,0,,제 배터리는 10
+Dialogue: 1,0:00:07.96,0:00:08.02,LineHero,,0,0,0,,제 배터리는 100
+Dialogue: 1,0:00:08.02,0:00:08.08,LineHero,,0,0,0,,제 배터리는 100%
+Dialogue: 1,0:00:08.08,0:00:08.15,LineHero,,0,0,0,,제 배터리는 100%입
+Dialogue: 1,0:00:08.15,0:00:08.21,LineHero,,0,0,0,,제 배터리는 100%입니
+Dialogue: 1,0:00:08.21,0:00:08.27,LineHero,,0,0,0,,제 배터리는 100%입니당
+Dialogue: 1,0:00:08.27,0:00:08.50,LineHero,,0,0,0,,제 배터리는 100%입니당!
+Dialogue: 0,0:00:08.50,0:00:09.93,LabelHero,,0,0,0,,환영 간식 말고 환영 업무
+Dialogue: 1,0:00:08.50,0:00:08.62,LineLeader,,0,0,0,,결
+Dialogue: 1,0:00:08.62,0:00:08.74,LineLeader,,0,0,0,,결재
+Dialogue: 1,0:00:08.74,0:00:08.86,LineLeader,,0,0,0,,결재가
+Dialogue: 1,0:00:08.86,0:00:08.98,LineLeader,,0,0,0,,결재가 
+Dialogue: 1,0:00:08.98,0:00:09.10,LineLeader,,0,0,0,,결재가 산
+Dialogue: 1,0:00:09.10,0:00:09.22,LineLeader,,0,0,0,,결재가 산더
+Dialogue: 1,0:00:09.22,0:00:09.34,LineLeader,,0,0,0,,결재가 산더미
+Dialogue: 1,0:00:09.34,0:00:09.46,LineLeader,,0,0,0,,결재가 산더미인
+Dialogue: 1,0:00:09.46,0:00:09.93,LineLeader,,0,0,0,,결재가 산더미인데
+Dialogue: 0,0:00:09.93,0:00:11.23,LabelHero,,0,0,0,,일복 터트리는 팀장님
+Dialogue: 1,0:00:09.93,0:00:10.03,LineLeader,,0,0,0,,바
+Dialogue: 1,0:00:10.03,0:00:10.13,LineLeader,,0,0,0,,바로
+Dialogue: 1,0:00:10.13,0:00:10.23,LineLeader,,0,0,0,,바로 
+Dialogue: 1,0:00:10.23,0:00:10.32,LineLeader,,0,0,0,,바로 풀
+Dialogue: 1,0:00:10.32,0:00:10.42,LineLeader,,0,0,0,,바로 풀가
+Dialogue: 1,0:00:10.42,0:00:10.52,LineLeader,,0,0,0,,바로 풀가동
+Dialogue: 1,0:00:10.52,0:00:10.62,LineLeader,,0,0,0,,바로 풀가동 
+Dialogue: 1,0:00:10.62,0:00:10.71,LineLeader,,0,0,0,,바로 풀가동 가
+Dialogue: 1,0:00:10.71,0:00:10.81,LineLeader,,0,0,0,,바로 풀가동 가능
+Dialogue: 1,0:00:10.81,0:00:11.23,LineLeader,,0,0,0,,바로 풀가동 가능?
+Dialogue: 1,0:00:11.23,0:00:11.35,LineHero,,0,0,0,,아
+Dialogue: 1,0:00:11.35,0:00:11.53,LineHero,,0,0,0,,아…
+Dialogue: 1,0:00:11.53,0:00:11.65,LineHero,,0,0,0,,넵
+Dialogue: 1,0:00:11.65,0:00:11.83,LineHero,,0,0,0,,넵!
+Dialogue: 0,0:00:11.83,0:00:13.97,LabelHero,,0,0,0,,몸만 출근한 {PUN}
+Dialogue: 1,0:00:11.83,0:00:11.98,LineHero,,0,0,0,,당
+Dialogue: 1,0:00:11.98,0:00:12.33,LineHero,,0,0,0,,당장
+Dialogue: 1,0:00:12.33,0:00:12.45,LineHero,,0,0,0,,당장 메
+Dialogue: 1,0:00:12.45,0:00:12.56,LineHero,,0,0,0,,당장 메일
+Dialogue: 1,0:00:12.56,0:00:12.67,LineHero,,0,0,0,,당장 메일부
+Dialogue: 1,0:00:12.67,0:00:12.78,LineHero,,0,0,0,,당장 메일부터
+Dialogue: 1,0:00:12.78,0:00:12.90,LineHero,,0,0,0,,당장 메일부터 
+Dialogue: 1,0:00:12.90,0:00:13.23,LineHero,,0,0,0,,당장 메일부터 싹
+Dialogue: 1,0:00:13.23,0:00:13.32,LineHero,,0,0,0,,당장 메일부터 싹 확
+Dialogue: 1,0:00:13.32,0:00:13.42,LineHero,,0,0,0,,당장 메일부터 싹 확인
+Dialogue: 1,0:00:13.42,0:00:13.51,LineHero,,0,0,0,,당장 메일부터 싹 확인할
+Dialogue: 1,0:00:13.51,0:00:13.60,LineHero,,0,0,0,,당장 메일부터 싹 확인할게
+Dialogue: 1,0:00:13.60,0:00:13.69,LineHero,,0,0,0,,당장 메일부터 싹 확인할게용
+Dialogue: 1,0:00:13.69,0:00:13.97,LineHero,,0,0,0,,당장 메일부터 싹 확인할게용!
+Dialogue: 1,0:00:13.97,0:00:14.09,LineHero,,0,0,0,,끄
+Dialogue: 1,0:00:14.09,0:00:14.20,LineHero,,0,0,0,,끄응
+Dialogue: 1,0:00:14.20,0:00:14.32,LineHero,,0,0,0,,끄응차
+Dialogue: 1,0:00:14.32,0:00:14.60,LineHero,,0,0,0,,끄응차!
+Dialogue: 0,0:00:17.03,0:00:17.63,LineHero,,0,0,0,,?
+Dialogue: 0,0:00:17.63,0:00:19.10,Bracket,,0,0,0,,[…]
+Dialogue: 1,0:00:19.10,0:00:19.24,LineHero,,0,0,0,,흐
+Dialogue: 1,0:00:19.24,0:00:19.39,LineHero,,0,0,0,,흐음
+Dialogue: 1,0:00:19.39,0:00:19.90,LineHero,,0,0,0,,흐음?
+Dialogue: 1,0:00:19.90,0:00:20.04,LineHero,,0,0,0,,엥
+Dialogue: 1,0:00:20.04,0:00:20.19,LineHero,,0,0,0,,엥?
+Dialogue: 1,0:00:20.19,0:00:20.83,LineHero,,0,0,0,,엥??
+Dialogue: 0,0:00:20.83,0:00:21.97,LabelHero,,0,0,0,,나는 재충전, 노트북은 방전
+Dialogue: 0,0:00:20.83,0:00:21.97,Bracket,,0,0,0,,[배터리 0%]
+Dialogue: 1,0:00:21.97,0:00:22.02,LineHero,,0,0,0,,어
+Dialogue: 1,0:00:22.02,0:00:22.07,LineHero,,0,0,0,,어…
+Dialogue: 1,0:00:22.07,0:00:22.12,LineHero,,0,0,0,,어… 
+Dialogue: 1,0:00:22.12,0:00:22.17,LineHero,,0,0,0,,어… 그
+Dialogue: 1,0:00:22.17,0:00:22.22,LineHero,,0,0,0,,어… 그러
+Dialogue: 1,0:00:22.22,0:00:22.27,LineHero,,0,0,0,,어… 그러니
+Dialogue: 1,0:00:22.27,0:00:22.32,LineHero,,0,0,0,,어… 그러니까
+Dialogue: 1,0:00:22.32,0:00:22.37,LineHero,,0,0,0,,어… 그러니까…
+Dialogue: 1,0:00:22.37,0:00:22.42,LineHero,,0,0,0,,어… 그러니까… 
+Dialogue: 1,0:00:22.42,0:00:22.47,LineHero,,0,0,0,,어… 그러니까… ㅇ
+Dialogue: 1,0:00:22.47,0:00:22.52,LineHero,,0,0,0,,어… 그러니까… ㅇㅅ
+Dialogue: 1,0:00:22.52,0:00:22.77,LineHero,,0,0,0,,어… 그러니까… ㅇㅅㅇ
+Dialogue: 0,0:00:22.77,0:00:23.60,Bracket,,0,0,0,,[뇌 부팅 중…]
+Dialogue: 1,0:00:23.60,0:00:23.64,Emph,,0,0,0,,ㅇ
+Dialogue: 1,0:00:23.64,0:00:23.68,Emph,,0,0,0,,ㅇ 
+Dialogue: 1,0:00:23.68,0:00:23.72,Emph,,0,0,0,,ㅇ ㅏ
+Dialogue: 1,0:00:23.72,0:00:23.76,Emph,,0,0,0,,ㅇ ㅏ 
+Dialogue: 1,0:00:23.76,0:00:23.80,Emph,,0,0,0,,ㅇ ㅏ ㅎ
+Dialogue: 1,0:00:23.80,0:00:23.84,Emph,,0,0,0,,ㅇ ㅏ ㅎ 
+Dialogue: 1,0:00:23.84,0:00:23.88,Emph,,0,0,0,,ㅇ ㅏ ㅎ ㅏ
+Dialogue: 1,0:00:23.88,0:00:24.03,Emph,,0,0,0,,ㅇ ㅏ ㅎ ㅏ!
+Dialogue: 0,0:00:24.03,0:00:24.67,LabelHero,,0,0,0,,급 떠오른 기억
+Dialogue: 1,0:00:24.03,0:00:24.07,LineHero,,0,0,0,,아
+Dialogue: 1,0:00:24.07,0:00:24.11,LineHero,,0,0,0,,아 
+Dialogue: 1,0:00:24.11,0:00:24.15,LineHero,,0,0,0,,아 맞
+Dialogue: 1,0:00:24.15,0:00:24.19,LineHero,,0,0,0,,아 맞다
+Dialogue: 1,0:00:24.19,0:00:24.30,LineHero,,0,0,0,,아 맞다!
+Dialogue: 1,0:00:24.30,0:00:24.37,LineHero,,0,0,0,,아 맞다! 충
+Dialogue: 1,0:00:24.37,0:00:24.44,LineHero,,0,0,0,,아 맞다! 충전
+Dialogue: 1,0:00:24.44,0:00:24.51,LineHero,,0,0,0,,아 맞다! 충전기
+Dialogue: 1,0:00:24.51,0:00:24.67,LineHero,,0,0,0,,아 맞다! 충전기!
+Dialogue: 0,0:00:24.97,0:00:26.23,LabelHero,,0,0,0,,노동 모드 다시 ON
+Dialogue: 1,0:00:24.97,0:00:25.11,LineHero,,0,0,0,,됐
+Dialogue: 1,0:00:25.11,0:00:25.25,LineHero,,0,0,0,,됐다
+Dialogue: 1,0:00:25.25,0:00:25.40,LineHero,,0,0,0,,됐다!
+Dialogue: 1,0:00:25.40,0:00:26.23,LineHero,,0,0,0,,됐다!!
+Dialogue: 0,0:00:26.23,0:00:27.53,Bracket,,0,0,0,,[들키지 않게 작은 환호]
+Dialogue: 0,0:00:27.53,0:00:28.90,LabelHero,,0,0,0,,출근 7분 만에
+Dialogue: 0,0:00:27.53,0:00:28.90,Bracket,,0,0,0,,[2차 위기 도착]
+Dialogue: 0,0:00:28.90,0:00:30.93,LabelHero,,0,0,0,,바싹바싹 타는 입술
+Dialogue: 0,0:00:28.90,0:00:30.93,Bracket,,0,0,0,,[…]
+Dialogue: 0,0:00:30.93,0:00:32.30,Bracket,,0,0,0,,[옛 비밀번호 로딩 실패]
+Dialogue: 0,0:00:32.30,0:00:33.37,Bracket,,0,0,0,,[정신은 이미 로그아웃]
+Dialogue: 1,0:00:33.37,0:00:33.49,Emph,,0,0,0,,포
+Dialogue: 1,0:00:33.49,0:00:33.61,Emph,,0,0,0,,포맷
+Dialogue: 1,0:00:33.61,0:00:33.73,Emph,,0,0,0,,포맷 
+Dialogue: 1,0:00:33.73,0:00:33.85,Emph,,0,0,0,,포맷 완
+Dialogue: 1,0:00:33.85,0:00:33.97,Emph,,0,0,0,,포맷 완료
+Dialogue: 1,0:00:33.97,0:00:34.10,Emph,,0,0,0,,포맷 완료.
+Dialogue: 1,0:00:34.10,0:00:34.50,Emph,,0,0,0,,포맷 완료..
+Dialogue: 0,0:00:34.50,0:00:35.40,Bracket,,0,0,0,,[뇌까지 포맷된 {PUN}]

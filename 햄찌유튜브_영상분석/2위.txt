@@ -1,0 +1,491 @@
+> 기본 동물: 수달 · 소품: 사원증 목걸이 (추천) · 이름: 김OO (한 페이지판 index.html 에서 다른 동물로 바꿔 '📋 전체 복사' 하면 전부 바뀐 상태로 복사됩니다)
+
+(햄찌 유튜브 영상 분석 — 2위 「여름이여따」 상세. 공통 개요·모델 가이드는 개요.txt)
+
+---
+
+# 2위 「여름이여따」 — 여름휴가 보고 · 폰카 여행 브이로그(사진첩 덤프)형
+
+- 원본: https://www.youtube.com/watch?v=BCJT5RkluvI · 업로드 2026-09-18 17:45 KST
+- 조회수 407,644 · 일평균 77,794 · 길이 41.7초 · 21컷 · 평균 컷 1.99초(60프레임) · 분당 30컷
+- 대사 비율 70% · 원본 음량 -24.0 LUFS(권장 -14) · 가장 짧은 컷 0.20초 · 가장 긴 컷 5.67초 · 중앙값 1.47초
+
+## 한 줄 요약
+친구와 떠난 여름 여행을 휴대폰으로 찍은 셀카·먹방·풍경 영상으로 느긋하게 보여 주다가, 마지막에 '이번 휴가의 진짜 하이라이트'로 게임 랭크 승급 화면을 자랑하며 허를 찌르는 42초짜리 휴가 보고 영상.
+
+## 떡상 공식
+셀카 인사(초점 헌팅 훅) → 랜드마크 인증 → 먹방 1 → 풍경 패닝 공개 → 먹방 2(인터뷰) → 사진 찍어주기 굴욕(사진 4연속) → 먹방 3(평론가 이름표) → 낮잠 → 작별 인사 → 암전 → 진짜 하이라이트 반전 → 엔딩 요약 카드
+
+## 왜 떡상했나
+1. 진짜 휴대폰으로 찍은 것 같은 질감(초점 헌팅, 흔들림, 1:1 정사각 화면, 친구 얼굴 이모지 가림) → AI 영상인데도 '실제 브이로그' 같은 몰입감
+2. 귀여운 동물 + 여행 + 먹방 3번 = 동물 채널에서 가장 오래 보는 조합. 먹는 장면이 전체의 40% 이상
+3. 평균 컷 2.0초로 느긋하게 가다가 사진 4장을 0.47초 간격으로 몰아치는 구간(18~22초)에서 리듬 변화
+4. 마지막 반전(여행보다 게임 승급이 더 자랑)이 게이머·직장인 공감 댓글을 유도하는 자기 비하 개그
+5. 엔딩 카드에 휴가를 한 줄로 요약해 공유하기 좋은 마무리
+6. 사무실 콩트가 대부분인 채널에서 분위기를 바꾼 '힐링 회차'라 구독자 반응(조회수 증가 속도)이 빠름
+
+## 편집 리듬
+- 배경 리듬 추정 129.2 BPM(참고용) · 컷-박자 일치 25.0% (우연 기준 21%) · 무음 21%
+- 해석: 컷과 박자 일치율이 우연 수준과 비슷하므로 음악 박자가 아니라 대사·리액션 타이밍으로 자른 편집입니다. 따라 만들 때는 '문장 하나 = 컷 2~3개, 리액션 컷은 0.4~0.7초'를 기준으로 자르세요.
+
+## 스토리 비트
+| 비트 | 구간(초) | 감정 | 내용 |
+|---|---|---|---|
+| 훅 · 셀카 인사 | 0.00–3.07 | +0.6 | 초점이 안 맞은 초근접 셀카(0.2초) → 초점이 잡히며 랜드마크 앞 인사. 폰 촬영 질감으로 몰입 |
+| 먹방 1 | 3.07–8.00 | +0.7 | 꽃밭 앞에서 보라색 소프트아이스크림. 4.9초 롱테이크로 천천히 맛봄 |
+| 풍경 공개 | 8.00–13.10 | +0.8 | 뒷모습 → 뒤돌아 앞발로 가리킴 → 카메라가 호수로 패닝해 풍경만 보여 줌 |
+| 먹방 2 · 인터뷰 | 13.10–18.30 | +0.7 | 줄 서서 산 디저트를 껴안고 먹음. 인터뷰어 말투 자막으로 먹방 리뷰 |
+| 사진 찍어주기 굴욕 | 18.30–21.77 | +0.9 | '찍어 줄게' → 로우앵글 굴욕 사진 3장 → 주인공 셀카 난입. 사진 4장을 0.47초씩 몰아침 |
+| 먹방 3 · 평론가 | 21.77–26.40 | +0.7 | 카페 파르페를 숟가락으로 떠먹으며 '전문 평론가' 이름표 등장 |
+| 낮잠 · 작별 | 26.40–35.67 | +0.4 | 초근접 낮잠 → 깨어나 카메라 봄 → 숲길에서 앞발 흔들며 작별 |
+| 암전 | 35.67–36.37 | +0.0 | 0.7초 완전 검은 화면 = 밤으로 시간 점프 |
+| 진짜 하이라이트 | 36.37–40.53 | +1.0 | 어두운 방 웹캠 얼굴 '이거 봐!' → 휩 팬 → 모니터 속 게임 랭크 승급 화면(초점 맞으며 공개) |
+| 엔딩 카드 | 40.53–41.70 | +0.5 | 검은 화면 요약 자막 '휴가 보고: 여행 + 승급' + 끝 인사 타이핑 |
+
+## 자막 시스템 (원본 측정값)
+브이로그형 자막. 주인공 속마음은 괄호 자막, 장소는 화살표 라벨, 인물 소개는 이름표, 마지막은 검은 배경 요약 카드. 영상이 1:1 정사각이라 자막도 정사각 안쪽 하단에 둠
+- **괄호 속마음**: 흰 글씨 + 검정 외곽선 약 4px, 약 54px, 정사각 화면 하단 중앙(y≈0.92) — (친구랑 놀러 옴~!) 같은 혼잣말·상황 설명
+- **장소 화살표 라벨**: 작은 흰 글씨 + 그림자, 약 30px, 랜드마크 옆 위쪽, 끝에 >>>> 화살표 — 랜드마크 이름 가리키기
+- **대사**: 흰 글씨 + 검정 외곽선, 약 54px, 하단 중앙 — 주인공이 실제로 말하는 대사
+- **인물 이름표**: 검정 박스 + 흰 글씨 약 30px, '직함 | 이름' — 먹방 평론가 콘셉트 소개
+- **엔딩 요약 카드**: 검은 배경, 작은 제목(약 36px) + 큰 요약(약 64px) 가운데 정렬, 하단에 끝 인사 타이핑 — 영상 전체를 한 줄로 정리
+- **타자 효과**: 대부분 즉시 표시. 엔딩 카드 인사만 타자 효과
+- **장식**: 의성어(쩝쩝쩝)와 짧은 감탄사(YA 같은 한마디)를 크게 쓰지 않고 같은 크기로 담백하게 처리 → 브이로그 톤 유지
+
+## 컷별 분석 (21컷)
+위치(3×3) 칸 번호: 1=왼쪽 위 … 5=가운데 … 9=오른쪽 아래
+
+### #01 0.00–0.20s (0.20초, 6프레임) · 주인공 · ECU(초점 안 맞음) · 셀카(팔 길이) · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 핸드헬드, 카메라가 얼굴에 너무 가까워 초점이 흐림
+- 위치(3×3): 4, 5, 6 · 대표 색: #000000, #a38277, #93accc, #c8a084
+- 동작·표정: 분홍 모자를 쓴 얼굴이 흐릿하게 화면을 가득 채움
+- 배경: 파란 하늘
+- 자막: 없음
+- 전환: 오프닝(0.2초 흐린 화면으로 시작) · 효과음: 바람 소리 + 휴대폰 조작 '툭'
+- 편집 기법: 초점 헌팅(오토포커스가 잡히기 전) — 진짜 폰으로 찍기 시작한 순간 같은 현실감. 0.2초라 호기심만 자극
+- 새 대본 예시: (자막 없음)
+- 이미지 프롬프트: Out-of-focus extreme close-up selfie of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a small pink baseball cap, face too close to the phone camera, blue sky behind, blurry. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Handheld selfie camera pulls back slightly and the autofocus hunts from blurry to sharp. Use the first 0.2 seconds of the next shot's generation. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.20초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames)
+
+### #02 0.20–1.67s (1.47초, 44프레임) · 주인공 · CU 셀카 · 살짝 로우앵글 셀카 · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 핸드헬드, 초점이 잡히며 살짝 뒤로 빠짐
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #010000, #dbb69d, #a37667, #85baef
+- 동작·표정: 분홍 모자를 쓰고 카메라를 보며 인사. 뒤에 붉은 철탑
+- 배경: TV 타워, 파란 하늘, 나무
+- 자막: 대사 [여행지에 인사하는 대사] (주인공(흰색) · 기본)
+- 전환: 초점 헌팅이 이어지는 연속 동작(사실상 같은 테이크) · 효과음: 도시 앰비언스, 매미 소리
+- 편집 기법: 셀카 오프닝 = 시청자와 눈 맞춤 — 주인공이 시청자에게 직접 말을 거는 1인칭 시작
+- 새 대본 예시: 안녕 제주~
+- 이미지 프롬프트: Handheld smartphone selfie close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a small pink baseball cap, looking into the lens, in front of the red-and-white lattice Sapporo TV Tower under a clear blue summer sky with green trees. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Natural handheld selfie wobble, the autofocus settles on the face, the otter blinks and greets the camera, cap brim moves slightly in the wind. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.47초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Seedance 2.5(시작·끝 프레임, 4~30초, 최대 1080p, 오디오)
+
+### #03 1.67–3.07s (1.40초, 42프레임) · 주인공 · MCU 셀카 · 셀카 · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 핸드헬드, 조금 더 넓게
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #010101, #8bbaeb, #9d796c, #d7b49b
+- 동작·표정: 앞발을 흔들며 인사, 오른쪽에 철탑 전체
+- 배경: TV 타워, 나무
+- 자막: 라벨 [[화살표 라벨] 랜드마크 이름 >>>>] 대사 [(친구와 여행 왔다는 괄호 속마음)] (주인공(흰색) · 화살표 라벨 + 괄호 자막)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 화살표 라벨로 장소 인증 — 여행지를 한눈에 알림
+- 새 대본 예시: (라벨) 성산일출봉 >>>> / (친구랑 놀러 온 제주~!)
+- 이미지 프롬프트: Handheld smartphone selfie medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon in a small pink cap waving one tiny paw, the whole tower visible on the right, in front of the red-and-white lattice Sapporo TV Tower under a clear blue summer sky with green trees. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter waves its paw at the camera cheerfully, slight handheld shake. Keep the tower in frame. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.40초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+
+### #04 3.07–8.00s (4.93초, 148프레임) · 주인공 · MS · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 핸드헬드 고정(4.9초 롱테이크)
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #000100, #917d62, #d5bca1, #53522b
+- 동작·표정: 베이지 버킷햇을 쓰고 보라색 소프트아이스크림을 들고 맛봄, 눈 동그랗게
+- 배경: 무지개 줄무늬 꽃밭
+- 자막: 대사 [(맛 분석 중) → 먹는 의성어] (주인공(흰색) · 괄호 자막 → 의성어)
+- 전환: 하드컷 · 효과음: 바람, 새소리, 쩝쩝 먹는 소리
+- 편집 기법: 먹방 롱테이크 — 천천히 보는 힐링 구간. 먹는 소리 ASMR
+- 새 대본 예시: (맛 감별 중) → 쩝쩝쩝 / 목소리만: 한라봉 맛이다?
+- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a small beige bucket hat, holding a lavender soft-serve ice cream cone with both paws, a hillside of vivid rainbow-striped flower fields (orange marigolds, purple lavender, red salvia, white and yellow rows) in Hokkaido summer. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter licks the ice cream twice, pauses with wide surprised eyes, then munches happily. Gentle handheld sway, flowers move in the breeze. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 4.93초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Hailuo 2.3(시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만)) / 대안 Seedance 2.5(시작·끝 프레임, 4~30초, 최대 1080p, 오디오)
+
+### #05 8.00–13.10s (5.10초, 153프레임) · 주인공 · MS→WS(패닝) · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 뒷모습에서 시작 → 주인공이 뒤돌아 가리키면 카메라가 오른쪽으로 패닝해 호수만 보여 줌(5.1초)
+- 위치(3×3): 4, 7 · 대표 색: #010100, #8eaba3, #8a855d, #565933
+- 동작·표정: 버킷햇 뒷모습 → 뒤돌아 앞발로 호수를 가리킴 → 화면 밖으로
+- 배경: 청록색 호수와 물에 선 나무들
+- 자막: 대사 [(색이 정말 고운 호수라는 괄호 자막)] (주인공(흰색) · 괄호 자막)
+- 전환: 하드컷 · 효과음: 물·새·바람 앰비언스
+- 편집 기법: 가리키기 → 패닝 공개(Reveal pan) — 캐릭터가 시선을 안내해 풍경으로 자연스럽게 넘어감
+- 새 대본 예시: (진짜 에메랄드 바다) / 목소리만: 저 색깔 좀 봐 · 완전 예쁘다
+- 이미지 프롬프트: Medium shot from behind of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a beige bucket hat looking at a turquoise-blue pond with dead larch tree trunks standing in the water, surrounded by green forest (Biei Blue Pond style). shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter turns around, points its tiny paw at the pond, then the handheld camera pans right to reveal only the turquoise pond with standing tree trunks. Smooth phone-video pan. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 5.10초
+- 추천 모델: 1순위 Seedance 2.5(시작·끝 프레임, 4~30초, 최대 1080p, 오디오) / 대안 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+
+### #06 13.10–16.80s (3.70초, 111프레임) · 주인공 · CU · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 핸드헬드, 사람 손이 디저트를 들고 있음
+- 위치(3×3): 4, 5, 6 · 대표 색: #010001, #b89478, #e4cebb, #c07231
+- 동작·표정: 분홍 모자를 쓰고 거대한 크림 샌드 케이크를 껴안고 베어 묾
+- 배경: 어두운 실내
+- 자막: 대사 [줄 서서 산 디저트 소개 → 인터뷰어 말투로 맛을 물음] (주인공(흰색) · 기본)
+- 전환: 하드컷 · 효과음: 바삭·폭신 먹는 소리
+- 편집 기법: 인터뷰 형식 자막 — 먹방을 '맛 인터뷰'로 만들어 대사 개그
+- 새 대본 예시: (한 시간 줄 서서 사 먹는) → 빵 맛은 어떻습니까?
+- 이미지 프롬프트: Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a small pink cap, hugging and biting a huge cream-filled sandwich cake held by a human hand, dark background, inside a car or dim room with a dark background, a human hand holding a huge cream-filled sandwich cake. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter hugs the cake and takes big bites, cream smears on its whiskers. Slight handheld movement. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 3.70초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Hailuo 2.3(시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만))
+
+### #07 16.80–18.30s (1.50초, 45프레임) · 주인공 · MCU · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 핸드헬드
+- 위치(3×3): 5, 8 · 대표 색: #020203, #58585d, #ba9d8c, #e1cbbe
+- 동작·표정: 입가에 크림을 묻힌 채 오물거리며 카메라를 봄
+- 배경: 어두운 실내, 케이크 단면
+- 자막: 대사 [짧은 감탄 한마디 → 괄호 츳코미] (주인공(흰색) · 기본 → 괄호)
+- 전환: 하드컷 · 효과음: 오물오물
+- 편집 기법: 먹방 리액션 클로즈업 — 크림 묻은 얼굴 = 귀여움 정점
+- 새 대본 예시: 야 → (입가에 크림 묻음) / 목소리만: 야 이거 인생빵이야
+- 이미지 프롬프트: Medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon in a small pink cap chewing with cream on its mouth, looking into the camera, cake beside it, inside a car or dim room with a dark background, a human hand holding a huge cream-filled sandwich cake. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Chews with puffed cheeks, licks cream off its lips, stares at the camera. Handheld. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.50초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도))
+
+### #08 18.30–19.90s (1.60초, 48프레임) · 주인공 · MS · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 핸드헬드, 주인공이 카메라로 다가오며 앞발을 뻗음
+- 위치(3×3): 5, 8 · 대표 색: #010100, #3e3e32, #6d675a, #a19180
+- 동작·표정: 숲길에서 크로스백을 멘 채 카메라를 달라며 앞발을 뻗음
+- 배경: 자작나무 숲길
+- 자막: 대사 [카메라를 달라는 말 → 찍어 주겠다는 말] (주인공(흰색) · 기본)
+- 전환: 하드컷 · 효과음: 숲 앰비언스, 발소리
+- 편집 기법: 앞발이 렌즈를 가리며 다음 컷으로(와이프 느낌) — 다음 사진 구간을 예고
+- 새 대본 예시: 카메라 줘 봐 → 찍어 줄게~
+- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a beige bucket hat and a tiny light-blue crossbody bag standing on a birch-tree forest path with tall white trunks and a dirt trail, soft summer light, reaching both paws toward the camera. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter walks toward the camera and reaches its paws up to grab the phone, paws come close to the lens. Handheld. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.60초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오)
+
+### #09 19.90–20.37s (0.47초, 14프레임) · 친구 · 사진(3:4) 로우앵글 · 바닥에서 올려다봄 · 전환: 하드컷 · 효과: 화면비 3x4
+- 카메라: 정지 사진
+- 위치(3×3): 2, 5, 8 · 대표 색: #000000, #3d3a38, #626056, #90907f
+- 동작·표정: 친구의 다리와 신발만 크게 나온 굴욕 사진
+- 배경: 자작나무 숲
+- 자막: 대사 [(구도 문제를 꼬집는 괄호 자막)] (주인공(흰색) · 괄호 자막)
+- 전환: 하드컷(사진 화면비 3:4로 바뀜) · 효과음: 카메라 셔터 '찰칵'
+- 편집 기법: 포토 덤프(사진 연속 0.47초) — 동물이 찍어서 로우앵글인 설정 개그
+- 새 대본 예시: (구도 이슈)
+- 이미지 프롬프트: Smartphone photo, 3:4 portrait, extreme low angle from the ground looking up at the legs of a young woman traveler in a black t-shirt, loose grey cargo pants and hiking shoes, her face hidden behind a round yellow googly-eyed emoji sticker added in the edit, grey cargo pants and hiking shoes dominating the frame, birch forest. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing.
+- 영상 프롬프트: Still photo (no motion).
+- 생성 설정: 영상 생성 불필요: 이미지 1장 → 편집에서 줌/푸시인 · 편집 사용 길이 0.47초
+- 추천 모델: 1순위 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+
+### #10 20.37–20.83s (0.47초, 14프레임) · 친구 · 사진(3:4) 로우앵글 전신 · 극단적 로우앵글 · 전환: 하드컷 · 효과: 이모지 얼굴 가림, 화면비 3x4
+- 카메라: 정지 사진
+- 위치(3×3): 2, 5, 8 · 대표 색: #000000, #6b6a5a, #47463d, #8f8f7e
+- 동작·표정: 친구 전신, 얼굴은 노란 눈알 이모지 스티커로 가림
+- 배경: 자작나무 숲
+- 자막: 대사 [(같은 괄호 자막 유지)] (주인공(흰색) · 괄호)
+- 전환: 하드컷 · 효과음: 셔터 '찰칵'
+- 편집 기법: 이모지 스티커로 사람 얼굴 가림 — 실제 브이로그 관행(친구 얼굴 가림) 흉내 → 현실감
+- 새 대본 예시: (구도 이슈)
+- 이미지 프롬프트: Smartphone photo, 3:4 portrait, extreme low-angle full-body shot of a young woman traveler in a black t-shirt, loose grey cargo pants and hiking shoes, her face hidden behind a round yellow googly-eyed emoji sticker added in the edit standing among tall birch trees. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing.
+- 영상 프롬프트: Still photo (no motion). Add the round yellow googly-eye emoji over the face in the edit.
+- 생성 설정: 영상 생성 불필요: 이미지 1장 → 편집에서 줌/푸시인 · 편집 사용 길이 0.47초
+- 추천 모델: 1순위 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+
+### #11 20.83–21.30s (0.47초, 14프레임) · 친구 · 사진(3:4) 초광각 · 극단적 로우앵글 · 전환: 하드컷 · 효과: 화면비 3x4
+- 카메라: 정지 사진
+- 위치(3×3): 5, 8 · 대표 색: #000000, #666956, #454837, #8b907c
+- 동작·표정: 친구가 아주 작게, 나무가 하늘로 치솟은 사진
+- 배경: 자작나무 숲
+- 자막: 대사 [(다리가 비현실적으로 길게 나온 사진을 놀리는 자막)] (주인공(흰색) · 괄호)
+- 전환: 하드컷 · 효과음: 셔터 '찰칵'
+- 편집 기법: 3연속 변주 — 같은 굴욕 사진 3장으로 3의 법칙
+- 새 대본 예시: (8등신 → 2등신샷)
+- 이미지 프롬프트: Smartphone photo, 3:4 portrait, ultra-wide extreme low angle of a tiny a young woman traveler in a black t-shirt, loose grey cargo pants and hiking shoes, her face hidden behind a round yellow googly-eyed emoji sticker added in the edit far away under towering birch trees reaching into the sky. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing.
+- 영상 프롬프트: Still photo (no motion). Emoji sticker over the face in the edit.
+- 생성 설정: 영상 생성 불필요: 이미지 1장 → 편집에서 줌/푸시인 · 편집 사용 길이 0.47초
+- 추천 모델: 1순위 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+
+### #12 21.30–21.77s (0.47초, 14프레임) · 주인공 · 사진(3:4) 셀카 · 셀카 로우앵글 · 전환: 하드컷 · 효과: 화면비 3x4
+- 카메라: 정지 사진
+- 위치(3×3): 7, 8, 9 · 대표 색: #000000, #7c7264, #595240, #a39283
+- 동작·표정: 주인공 얼굴이 화면 아래를 가득 채우고 친구는 뒤에 조그맣게
+- 배경: 자작나무 숲
+- 자막: 대사 [(미안하다는 괄호 자막, 말끝 달)] (주인공(흰색) · 괄호)
+- 전환: 하드컷 · 효과음: 셔터 '찰칵'
+- 편집 기법: 펀치라인 사진(셀카 난입) — 3장 굴욕 후 4번째 사진에서 결국 자기 셀카 → 반전 웃음
+- 새 대본 예시: (미안달...)
+- 이미지 프롬프트: Smartphone photo, 3:4 portrait, low-angle selfie of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon in a bucket hat filling the bottom of the frame, tiny a young woman traveler in a black t-shirt, loose grey cargo pants and hiking shoes, her face hidden behind a round yellow googly-eyed emoji sticker added in the edit far behind in the birch forest. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Still photo (no motion).
+- 생성 설정: 영상 생성 불필요: 이미지 1장 → 편집에서 줌/푸시인 · 편집 사용 길이 0.47초
+- 추천 모델: 1순위 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+
+### #13 21.77–26.40s (4.63초, 139프레임) · 주인공 · MS→CU · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 핸드헬드, 천천히 다가감(4.6초)
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #000000, #422817, #be986e, #90683c
+- 동작·표정: 카페에서 파르페를 숟가락으로 떠먹고 웃으며 평가
+- 배경: 나무 카페, 바구니, 물잔
+- 자막: 라벨 [[이름표] 직함 | 이름(먹방 평론가 콘셉트)] 대사 [(하루 종일 먹는 고수) → 평론가 말투 평가] (주인공(흰색) · 괄호 → 이름표 + 대사)
+- 전환: 하드컷(1:1로 복귀) · 효과음: 카페 앰비언스, 숟가락 소리
+- 편집 기법: 이름표로 캐릭터 콘셉트 부여 — 먹방을 '전문가 리뷰' 콩트로
+- 새 대본 예시: (하루 종일 먹는 고수) → [이름표] 전문 먹방평론가 | 김OO / 내가 보니까 → [이름표 유지] / 제주는 귤을 잘하네
+- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a beige bucket hat sitting at a cozy wooden cafe table with a wicker basket, a glass of water and a parfait with whipped cream, berries, mint and melon, holding a tiny spoon. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter scoops cream with the spoon, eats it, then smiles widely at the camera and nods like a critic. Slow handheld push-in. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 4.63초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Hailuo 2.3(시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만)) / 대안 Seedance 2.5(시작·끝 프레임, 4~30초, 최대 1080p, 오디오)
+
+### #14 26.40–32.07s (5.67초, 170프레임) · 주인공 · ECU · 위에서 내려다봄 · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 핸드헬드 고정(5.7초 롱테이크)
+- 위치(3×3): 4, 5, 6 · 대표 색: #000000, #c89c73, #a77e59, #e7d8cd
+- 동작·표정: 하얀 수건 위에서 눈 감고 자다가 → 끝에서 눈 뜨고 카메라를 봄
+- 배경: 흰 수건
+- 자막: 대사 [(낮잠 필수라는 괄호) → (다시 나가기 싫다는 괄호)] (주인공(흰색) · 괄호 2개 연속)
+- 전환: 하드컷 · 효과음: 고요함, 새근새근 숨소리
+- 편집 기법: 슬로 비트(쉼표 구간) — 반전 직전 가장 느린 구간 → 뒤 반전의 낙차
+- 새 대본 예시: (여행 3일 차 체력 방전) → (숙소가 제일 좋아)
+- 이미지 프롬프트: Extreme close-up from above of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon sleeping on a soft white towel or bed sheet, morning light, eyes closed, peaceful. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Slow breathing, tiny twitch of whiskers, then the otter opens its eyes and looks up at the camera sleepily. Very subtle handheld drift. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 5.67초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Hailuo 2.3(시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만))
+
+### #15 32.07–35.67s (3.60초, 108프레임) · 주인공 · WS · 아이레벨(낮게) · 전환: 하드컷 · 효과: 화면비 1x1
+- 카메라: 핸드헬드 고정
+- 위치(3×3): 5, 8 · 대표 색: #010100, #666154, #97897a, #36382a
+- 동작·표정: 숲길 한가운데 서서 앞발을 흔들며 작별 인사
+- 배경: 자작나무 숲길
+- 자막: 대사 [작별 인사(물결 늘임)] (주인공(흰색) · 기본)
+- 전환: 하드컷 · 효과음: 숲 앰비언스
+- 편집 기법: 가짜 엔딩(Fake ending) — 끝난 줄 알게 만든 뒤 반전
+- 새 대본 예시: 안뇽~~
+- 이미지 프롬프트: Wide shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a beige bucket hat and a tiny light-blue crossbody bag standing in the middle of a birch-tree forest path with tall white trunks and a dirt trail, soft summer light. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter waves its tiny paw goodbye at the camera several times. Gentle handheld. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 3.60초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오)
+
+### #16 35.67–35.97s (0.30초, 9프레임) · 암전 · 암전 · - · 전환: 하드컷
+- 카메라: -
+- 위치(3×3): - · 대표 색: #000000, #000000, #000000, #000000
+- 동작·표정: 완전 검은 화면 0.3초
+- 배경: 검정
+- 자막: 없음
+- 전환: 하드컷 투 블랙 · 효과음: 정적
+- 편집 기법: 암전으로 시간 점프 — 낮→밤, 여행→집 전환을 설명 없이
+- 새 대본 예시: (암전)
+- 이미지 프롬프트: (No image — pure black frame)
+- 영상 프롬프트: Edit: 0.3 s of black.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.30초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames)
+
+### #17 35.97–36.37s (0.40초, 12프레임) · 암전 · 암전 · - · 전환: 하드컷
+- 카메라: -
+- 위치(3×3): - · 대표 색: #000000, #000000, #000000, #000000
+- 동작·표정: 검은 화면 0.4초(총 0.7초 암전)
+- 배경: 검정
+- 자막: 없음
+- 전환: - · 효과음: 정적 끝에 방 안 소음 페이드인
+- 편집 기법: - — -
+- 새 대본 예시: (암전)
+- 이미지 프롬프트: (No image — pure black frame)
+- 영상 프롬프트: Edit: 0.4 s of black.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.40초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames)
+
+### #18 36.37–37.97s (1.60초, 48프레임) · 주인공 · ECU(웹캠) · 정면, 아주 가까이 · 전환: 하드컷 · 효과: 화면비 p088
+- 카메라: 핸드헬드, 흔들리며 들이댐
+- 위치(3×3): 4, 5, 6 · 대표 색: #000000, #9a8074, #8b6546, #574438
+- 동작·표정: 어두운 방에서 모니터 불빛을 받은 얼굴을 카메라에 들이대며 흥분
+- 배경: 어두운 방, 초록 게이밍 헤드셋
+- 자막: 대사 [팬들을 부름 → '이거 봐!'] (주인공(흰색) · 기본)
+- 전환: 암전에서 하드컷 · 효과음: 키보드·마우스 클릭, 방 소음
+- 편집 기법: 톤 급변(힐링→흥분) — 진짜 하이라이트 예고
+- 새 대본 예시: 여러분!!! → 이거 봐~!
+- 이미지 프롬프트: Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon leaning very close to a phone camera in a dark room, face lit by cool monitor light, a green gaming headset visible, excited expression. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter pushes its face toward the lens excitedly and talks fast. Shaky handheld, flickering monitor light. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.60초
+- 추천 모델: 1순위 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도)) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+
+### #19 37.97–38.47s (0.50초, 15프레임) · 인서트 · 휩 팬 · - · 전환: 하드컷 · 효과: 휩 팬, 화면비 p088
+- 카메라: 빠르게 옆으로 휘두르는 팬(모션블러)
+- 위치(3×3): 4, 5, 6 · 대표 색: #000000, #2c2724, #41342a, #1e1b19
+- 동작·표정: 초록 불빛이 번지며 모니터 쪽으로 휙 돌아감
+- 배경: 흐릿한 방
+- 자막: 없음
+- 전환: 휩 팬(0.5초) · 효과음: '휙' 스윙
+- 편집 기법: 휩 팬 전환 — 두 공간을 에너지 있게 연결
+- 새 대본 예시: (휩 팬)
+- 이미지 프롬프트: (Motion-blurred frame of a dark room)
+- 영상 프롬프트: Edit: fast horizontal whip pan with heavy motion blur for 0.5 s (or generate a 1 s whip-pan clip).
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.50초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 Vidu Q3 Pro(시작·끝 프레임, 1~16초(1초 가능), 최대 2K, 오디오)
+
+### #20 38.47–40.53s (2.07초, 62프레임) · 인서트 · 모니터 화면(폰으로 촬영) · 정면 · 전환: 하드컷 · 효과: 휩 팬, 화면비 p088
+- 카메라: 흐린 상태 → 초점이 잡힘(랙 포커스), 폰으로 모니터를 찍은 질감
+- 위치(3×3): 2, 5 · 대표 색: #000000, #111721, #3a343f, #4a5475
+- 동작·표정: 게임 랭크 승급 화면이 모니터에 떠 있음
+- 배경: 모니터, 어두운 방
+- 자막: 대사 [승급 자랑 → (만년 하위 티어 셀프 츳코미)] (주인공(흰색) · 기본 → 괄호)
+- 전환: 휩 팬에서 이어짐 · 효과음: 승급 팡파레(직접 만든 효과음 사용)
+- 편집 기법: 랙 포커스 공개 — 진짜 하이라이트를 초점 잡히는 순간에 공개
+- 새 대본 예시: 골드 승급했다! → (3년 만의 승급임)
+- 이미지 프롬프트: Smartphone photo of a computer monitor in a dark room showing your OWN game rank-up screen (replace with your screenshot), slight moire and screen glare. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing.
+- 영상 프롬프트: Edit: start blurred and rack-focus to sharp over 0.6 s, slight handheld drift. Use your own game screen capture.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 2.07초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames)
+
+### #21 40.53–41.70s (1.17초, 35프레임) · 타이틀 카드 · 타이틀 카드 · - · 전환: 하드컷
+- 카메라: -
+- 위치(3×3): 5 · 대표 색: #000000, #f8f8f8, #575757, #939393
+- 동작·표정: 검은 화면에 휴가 요약 + 끝 인사 타이핑 → 마지막 한 글자 '끝'
+- 배경: 검정
+- 자막: 라벨 [작은 제목: 여름휴가 보고] 대사 [큰 요약: 여행지 + 승급] (주인공(흰색) · 요약 카드 + 타이핑)
+- 전환: 하드컷 · 효과음: 타자 소리 + 마지막 '뿅'
+- 편집 기법: 엔딩 요약 카드 — 공유하기 좋은 한 줄 정리 + 깔끔한 마무리
+- 새 대본 예시: (카드 작게) 여름휴가 보고 / (카드) 제주 여행 + 랭크 승급 야호 → (카드) 끝!
+- 이미지 프롬프트: (Black title card made in the edit)
+- 영상 프롬프트: Edit: small title + big summary text, then a sign-off line types in, then cut to a one-word 'end' card.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 1.17초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames)
+
+## 사운드
+브이로그형 사운드. 대사는 띄엄띄엄(주인공 혼잣말 + 친구 목소리), 장소마다 앰비언스(바람·새·카페)가 바뀜. 무음 비율 21%로 1위보다 조용함(암전 0.7초 포함). 컷과 음악 박자의 일치율 25%는 우연 수준 → 박자에 맞춰 자르지 않음
+| 역할 | 원본 측정 | 재현 방법 |
+|---|---|---|
+| 주인공 | 약 350~670Hz(중앙값 약 450Hz), 여행 들뜬 톤, 먹방 평론가 흉내 | 밝은 여성 또는 어린이 목소리 → 피치 +7~+8반음, 속도 1.05배 |
+| 친구(화면 밖) | 일반 성인 톤, 짧은 맞장구 | 20대 여성, 자연스러운 대화체 |
+| 내레이터 느낌 한 줄 | 약 256Hz, 다큐 흉내 말투(26~29초) | 주인공 목소리를 낮고 진지하게(피치 +3반음) |
+- BGM 원본 추정: 여름 여행 느낌의 밝은 BGM이 깔린 것으로 추정(정확한 곡은 청취 확인 필요). 암전 이후 게임 구간은 분위기가 바뀜
+- BGM 권장 구성: ①여행 구간: 시티팝/트로피컬 하우스 100~120BPM, 기타 커팅 ②낮잠: 음악 거의 끄고 앰비언스만 ③게임 구간: 짧은 신스 팡파레 → 엔딩 카드에서 컷
+- BGM 볼륨: 대사 대비 약 -16~-20dB, 대사 없는 풍경 구간은 -10dB까지 올림
+- Suno 메인: `Bright summer travel vlog background music, 112 BPM, city pop, clean electric guitar cutting, soft synth pads, light percussion, carefree and sunny, no vocals, 40 seconds`
+- Suno 구간2: `Very soft ambient lullaby pad for a nap scene, warm and quiet, 70 BPM, no drums, no vocals, 8 seconds`
+- Suno 구간3: `Short triumphant 8-bit synth fanfare for a game rank-up moment, energetic, 3 seconds, no vocals`
+
+| 시각 | 효과음 | 이유 | 키트 파일 |
+|---|---|---|---|
+| 0.00s | 바람 + 폰 조작 '툭' | 셀카 시작 | amb_wind.wav |
+| 3.10s | 꽃밭 바람 + 새소리 | 장소 전환 | amb_birds.wav |
+| 5.00s | 쩝쩝 먹는 소리 | 먹방 | munch.wav |
+| 8.00s | 물가 앰비언스 | 호수 | amb_water.wav |
+| 13.10s | 바삭·폭신 먹는 소리 | 디저트 | munch.wav |
+| 19.90s | 셔터 '찰칵' | 사진 1 | shutter.wav |
+| 20.37s | 셔터 '찰칵' | 사진 2 | shutter.wav |
+| 20.83s | 셔터 '찰칵' | 사진 3 | shutter.wav |
+| 21.30s | 셔터 '찰칵' | 셀카 사진 | shutter.wav |
+| 21.80s | 카페 앰비언스 + 숟가락 | 먹방 3 | amb_cafe.wav |
+| 26.40s | 새근새근 숨소리 | 낮잠 | breath_vo.wav |
+| 35.67s | 정적(0.7초) | 암전 | - |
+| 36.40s | 키보드·마우스 클릭 | 게임 방 | click.wav |
+| 37.97s | '휙' 스윙 | 휩 팬 | whoosh.wav |
+| 38.50s | 승급 팡파레(자작) | 진짜 하이라이트 | fanfare.wav |
+| 40.53s | 타자 소리 + '뿅' | 엔딩 카드 | typing.wav |
+- 믹스: -14 LUFS / -1dBTP. 원본은 약 -24 LUFS. 게임 화면의 원래 효과음·음악은 저작권이 있으니 쓰지 말고 자작 효과음 사용 (원본 -24.0 LUFS, LRA 12.0, 트루피크 -5.4)
+
+## 편집 (FFmpeg · HyperFrames)
+30fps, 1920×1080 캔버스 안에 1:1 정사각(1080×1080, 가로 420px 위치) 영상을 가운데 두고 양옆 검정. 친구 사진 4장은 3:4(810×1080), 게임 구간은 약 0.88:1. 21컷, 평균 2.0초. 롱테이크(3.6~5.7초)와 사진 연타(0.47초)가 섞임
+- AI 영상은 16:9로 뽑아도 되지만 편집에서 1:1로 잘라 가운데 배치(검은 여백) → 폰 브이로그 느낌
+- 롱테이크 컷은 AI 생성물을 거의 통째로 쓰고(5초), 핸드헬드 흔들림이 있는 모델/프롬프트를 사용
+- 사진 연타 구간은 정지 이미지 4장 × 0.47초 + 셔터음 4번
+- 사람 얼굴은 이모지 스티커로 가림(편집에서 얹기)
+- 암전 0.7초로 시간 점프, 그 뒤 휩 팬 → 랙 포커스로 반전 공개
+- 엔딩은 검은 요약 카드 + 끝 인사 타이핑
+- 키트 폴더: 햄찌유튜브_영상분석/편집키트/2위 (edl.csv/edl.json/captions.ass/sfx_cues.csv/build_ffmpeg.py/hyperframes/편집프롬프트.md)
+- 검증: 임시 화면으로 전체 조립 성공 — 길이 41.70초(목표 41.70초), 하드컷 20개 중 19개가 ±2프레임 이내 검출(검은 화면→검은 화면 컷 1개는 화면 변화가 없어 원래 검출 불가), 출력 h264,1920,1080,30/1 / aac,0/0
+
+### Claude Code 프롬프트 A — FFmpeg
+```
+[작업 폴더] 햄찌유튜브_영상분석/편집키트/2위  (이 폴더 밖의 파일은 수정 금지)
+[목표] clips/ 의 AI 생성 영상(s01.mp4~s21.mp4)을 edl.json 규격 그대로 조립해 out/v2_final.mp4 를 만든다.
+[정답 규격] 컷 길이·전환·효과 = edl.json / 자막 = captions.ass(스타일 13종, 위치·크기·색은 원본 측정값) / 효과음 = sfx_cues.csv
+[순서]
+1) python build_ffmpeg.py --check  → 누락 클립 목록 보고
+2) 누락이 있으면 목록만 보고하고 멈춘다 (임의 생성·대체 금지)
+3) python build_ffmpeg.py --name "<주인공 이름>" --pun "<말장난 글자>" --bgm audio/bgm.mp3 --verify
+4) ffprobe 로 길이 41.70초(±0.05), 1920x1080, 30fps, 오디오 존재 확인
+5) --verify 결과(하드컷 검출 수)를 표로 보고. 누락 컷이 있으면 해당 컷 번호와 원인 추정
+[수정 가능 범위] captions.ass 의 텍스트, sfx_cues.csv 의 파일명·볼륨, build 옵션
+[승인 전 수정 금지] edl.json 의 컷 길이·순서·전환 (바꿔야 하면 이유와 함께 먼저 보고)
+```
+
+### Claude Code 프롬프트 B — HyperFrames
+```
+/hyperframes 스킬을 먼저 읽고 진행해.
+[작업 폴더] 햄찌유튜브_영상분석/편집키트/2위/hyperframes
+[목표] index.html 컴포지션(영상 15개 슬롯·자막·효과음 트랙이 원본 타이밍으로 이미 배치됨)에 실제 소스를 연결해 렌더.
+[순서]
+1) assets/clips/s01.mp4~, assets/audio/bgm.mp3, assets/voice/sNN.wav, assets/sfx/*.wav, assets/fonts/Pretendard-*.woff2 존재 확인 → 없는 파일은 목록 보고 후, 해당 <audio>/<video> 는 data-hidden 처리
+2) npx hyperframes lint → 오류 0
+3) npx hyperframes check → 0 findings
+4) npx hyperframes snapshot --at 0.3, 3.4, 8.3, 13.4, 18.6, 22.1 로 프레임 확인 (라벨 y≈878px, 대사 y≈952px)
+5) npx hyperframes preview --background → URL 보고 후 내 승인 대기
+6) 승인 후 npx hyperframes render --quality delivery --output out/v2_hf.mp4
+[규칙] data-start/data-duration 은 edl.json 과 일치해야 함. 자막 텍스트·스티커 좌표만 수정 가능.
+```
+
+| 컷 | 시작 | 길이 | 전환 | 효과 | 화면비 |
+|---|---|---|---|---|---|
+| #01 | 0.00 | 0.20 | cut |  | 1x1 |
+| #02 | 0.20 | 1.47 | cut |  | 1x1 |
+| #03 | 1.67 | 1.40 | cut |  | 1x1 |
+| #04 | 3.07 | 4.93 | cut |  | 1x1 |
+| #05 | 8.00 | 5.10 | cut |  | 1x1 |
+| #06 | 13.10 | 3.70 | cut |  | 1x1 |
+| #07 | 16.80 | 1.50 | cut |  | 1x1 |
+| #08 | 18.30 | 1.60 | cut |  | 1x1 |
+| #09 | 19.90 | 0.47 | cut |  | 3x4 |
+| #10 | 20.37 | 0.47 | cut | emoji | 3x4 |
+| #11 | 20.83 | 0.47 | cut |  | 3x4 |
+| #12 | 21.30 | 0.47 | cut |  | 3x4 |
+| #13 | 21.77 | 4.63 | cut |  | 1x1 |
+| #14 | 26.40 | 5.67 | cut |  | 1x1 |
+| #15 | 32.07 | 3.60 | cut |  | 1x1 |
+| #18 | 36.37 | 1.60 | cut |  | p088 |
+| #19 | 37.97 | 0.50 | cut | whip | p088 |
+| #20 | 38.47 | 2.07 | cut | whip | p088 |
+
+## 떡상 편집 기법 해설
+| 기법 | 위치 | 설명 |
+|---|---|---|
+| 초점 헌팅 오프닝 | #1→#2 | 흐린 화면 0.2초로 '지금 막 폰을 켠' 현실감 |
+| 1:1 필러박스(pillarbox) | 전체 | 가로 영상 안에 정사각 화면을 넣어 인스타 게시물·폰 사진첩 느낌 |
+| 장소 화살표 라벨 | #3 | 랜드마크 옆에 '이름 >>>>' 라벨로 인증샷 문법 |
+| 롱테이크 먹방 | #4, #13 | 4~5초를 끊지 않아 먹는 동작·소리로 힐링 |
+| 가리키기 → 패닝 공개 | #5 | 캐릭터가 시선을 안내하고 카메라가 따라가 풍경 공개 |
+| 인터뷰 자막 | #6 | 먹는 장면에 기자 말투 자막을 붙여 콩트화 |
+| 포토 덤프(사진 4연타 + 셔터음) | #9~#12 | 0.47초 간격의 사진으로 리듬 급가속, 3번 굴욕 + 4번째 반전(3의 법칙) |
+| 이모지 얼굴 가림 | #10~#11 | 실제 브이로그 관행을 따라 해 진짜처럼 보이게 |
+| 이름표 콘셉트 | #13 | 주인공에게 '전문 평론가' 직함을 붙여 역할 놀이 |
+| 가짜 엔딩 | #15 | 작별 인사로 끝난 척 → 암전 후 진짜 하이라이트 |
+| 암전 시간 점프 | #16~#17 | 0.7초 검정으로 낮→밤 전환 |
+| 휩 팬 + 랙 포커스 공개 | #19→#20 | 빠른 스윙 후 흐린 화면에서 초점이 잡히며 반전 공개 |
+| 엔딩 요약 카드 | #21 | 영상 전체를 한 줄로 요약해 공유·기억하기 쉽게 |
+
+## 다른 동물로 바꾸기 · 생성 계획
+- 예시 각색: 예시 각색: 여행지를 제주로(성산일출봉 셀카 → 유채꽃밭 한라봉 아이스크림 → 에메랄드 바다 패닝 → 줄 서는 빵집 → 비자림 친구 사진 굴욕 → 카페 파르페 → 숙소 낮잠) + 진짜 하이라이트는 '내 게임 랭크 승급'(직접 녹화한 화면)
+- 그대로 지킬 것: 1:1 필러박스 폰 브이로그 질감 / 먹방 3회 + 풍경 1회 + 사진 굴욕 1회 + 낮잠 + 가짜 엔딩 + 암전 반전 + 요약 카드 순서 / 사진 4연타 0.47초 리듬 / 괄호 속마음 자막 톤
+- 바꿀 것: 여행지·음식·모자 색 / 진짜 하이라이트 소재(게임 화면은 반드시 본인 화면) / 대사 전문 / 끝 인사말(원본 채널 인사 대신 내 채널 인사)
+- 의상 교체용 묘사: a small straw bucket hat and a tiny mint crossbody bag
+| 배치 | 컷 | 방법 |
+|---|---|---|
+| A. 셀카(랜드마크) | #1, #2, #3 | 셀카 키프레임 1장 → 5초 1~2회. 첫 0.2초가 흐린 테이크를 골라 #1로 사용 |
+| B. 먹방 3종 | #4, #6, #7, #13 | 음식별 키프레임 3장 → 각 5초 1~2회(먹는 동작이 자연스러운 모델) |
+| C. 풍경 패닝 | #5 | 뒷모습 키프레임 → 긴 카메라 무빙이 되는 모델로 6~8초 1회 |
+| D. 숲(작별·카메라 요청) | #8, #15 | 숲길 키프레임 → 5초 2회 |
+| E. 사진 굴욕 4장 | #9, #10, #11, #12 | 이미지 모델로 3:4 사진 4장, 영상 생성 불필요 |
+| F. 낮잠 | #14 | 초근접 키프레임 → 6초 1회(아주 미세한 움직임) |
+| G. 게임 방 | #18, #19, #20 | 웹캠 얼굴 5초 1회 + 휩 팬은 편집 + 게임 화면은 본인 캡처 |
+| H. 편집 전용 | #16, #17, #21 | 암전·엔딩 카드는 FFmpeg/HyperFrames로 제작 |
+- 비용 절약: 21컷 중 10컷은 정지 이미지·편집 효과로 충분, 나머지는 배치별 5초 생성 후 잘라 쓰기 → 약 5회 생성
+
+| 이 영상에 쓰는 모델 | 종류 | 사양 | 이럴 때 | 추천 컷 수 |
+|---|---|---|---|---|
+| Kling 3.0 | 이미지→영상 | 시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성 | 실사 털·미세 표정·손동작이 안정적인 기본 주력 | 11 |
+| 편집 효과 | 편집 | FFmpeg / HyperFrames | 암전·휩 팬·글리치·스티커·타이틀 카드 | 6 |
+| Veo 3.1 | 이미지→영상 | 시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오 | 사람 손·상반신 실사, 폰 핸드헬드 질감 | 5 |
+| Seedance 2.5 | 이미지→영상 | 시작·끝 프레임, 4~30초, 최대 1080p, 오디오 | 긴 롱테이크·카메라 패닝(풍경·브이로그) | 4 |
+| Hailuo 2.3 | 이미지→영상 | 시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만) | 표정 연기·가성비 리액션 컷 | 4 |
+| 정지 이미지 + 편집 줌 | 이미지 | Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델 | 0.5초 이하 인서트·초근접은 영상 생성 없이 편집 줌으로 충분 | 4 |
+| MiniMax H3 | 이미지→영상 | 시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도) | 과장된 표정·코믹 리액션 1순위 후보(사양 기준 추천 — A/B 테스트 권장) | 2 |
+| Vidu Q3 Pro | 이미지→영상 | 시작·끝 프레임, 1~16초(1초 가능), 최대 2K, 오디오 | 0.5~1초 초단컷을 싸게, 시작→끝 동작 지정 | 1 |

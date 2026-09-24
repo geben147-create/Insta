@@ -1,0 +1,458 @@
+[
+ {
+  "style": "LineHero",
+  "text": "팀장님~?",
+  "start": 0.0,
+  "end": 1.4,
+  "type_from": 0,
+  "shot": 1
+ },
+ {
+  "style": "LineHero",
+  "text": "엇",
+  "start": 1.4,
+  "end": 2.0,
+  "type_from": 0,
+  "shot": 2
+ },
+ {
+  "style": "LabelHero",
+  "text": "9시 5분, 비어 있는 팀장님 자리",
+  "start": 2.0,
+  "end": 3.4,
+  "type_from": 0,
+  "shot": 3
+ },
+ {
+  "style": "LineHero",
+  "text": "아직 안 오셨낭?",
+  "start": 2.0,
+  "end": 3.4,
+  "type_from": 0,
+  "shot": 3
+ },
+ {
+  "style": "LabelName",
+  "text": "희소식 배달부 1 | 박민지",
+  "start": 3.4,
+  "end": 5.467,
+  "type_from": 0,
+  "shot": 5
+ },
+ {
+  "style": "LineCW1",
+  "text": "{이름}씨~!",
+  "start": 3.4,
+  "end": 4.3,
+  "type_from": 0,
+  "shot": 5
+ },
+ {
+  "style": "LineCW1",
+  "text": "팀장님 오늘부터",
+  "start": 4.3,
+  "end": 4.933,
+  "type_from": 0,
+  "shot": 6
+ },
+ {
+  "style": "LineCW1",
+  "text": "팀장님 오늘부터 해외 출장이래",
+  "start": 4.933,
+  "end": 5.467,
+  "type_from": 9,
+  "shot": 7
+ },
+ {
+  "style": "LineCW1",
+  "text": "°*.2주 동안~°*.",
+  "start": 5.467,
+  "end": 6.2,
+  "type_from": 0,
+  "shot": 8
+ },
+ {
+  "style": "Emph",
+  "text": "꺄아아앙??",
+  "start": 6.2,
+  "end": 7.333,
+  "type_from": 0,
+  "shot": 9
+ },
+ {
+  "style": "LabelHero",
+  "text": "급 평온해지는 얼굴",
+  "start": 7.333,
+  "end": 8.333,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LineHero",
+  "text": "지, 진짜요?",
+  "start": 7.333,
+  "end": 8.333,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LabelHero",
+  "text": "메신저 급히 확인하는 {PUN}",
+  "start": 8.333,
+  "end": 9.533,
+  "type_from": 0,
+  "shot": 12
+ },
+ {
+  "style": "LineHero",
+  "text": "왜 나만 몰랐지",
+  "start": 8.333,
+  "end": 9.533,
+  "type_from": 0,
+  "shot": 12
+ },
+ {
+  "style": "LineCW1",
+  "text": "지난주 {이름}씨 반차 때",
+  "start": 9.533,
+  "end": 10.7,
+  "type_from": 0,
+  "shot": 14
+ },
+ {
+  "style": "LineCW1",
+  "text": "지난주 {이름}씨 반차 때 공지 나왔어~",
+  "start": 10.7,
+  "end": 11.533,
+  "type_from": 12,
+  "shot": 15
+ },
+ {
+  "style": "LabelName",
+  "text": "소식통 2 | 최도윤",
+  "start": 11.533,
+  "end": 13.067,
+  "type_from": 0,
+  "shot": 16
+ },
+ {
+  "style": "LineCW2",
+  "text": "다다음 주",
+  "start": 11.533,
+  "end": 12.3,
+  "type_from": 0,
+  "shot": 16
+ },
+ {
+  "style": "LineCW2",
+  "text": "다다음 주 월요일에 오신대",
+  "start": 12.3,
+  "end": 13.067,
+  "type_from": 6,
+  "shot": 17
+ },
+ {
+  "style": "LabelHero",
+  "text": "믿기지 않는 2주의 자유",
+  "start": 13.067,
+  "end": 14.067,
+  "type_from": 0,
+  "shot": 18
+ },
+ {
+  "style": "LineHero",
+  "text": "2, 2주나?",
+  "start": 13.067,
+  "end": 14.067,
+  "type_from": 0,
+  "shot": 18
+ },
+ {
+  "style": "LineCW1",
+  "text": "(끄덕끄덕)",
+  "start": 14.067,
+  "end": 14.767,
+  "type_from": 0,
+  "shot": 20
+ },
+ {
+  "style": "LabelHero",
+  "text": "꼼꼼히 더블 체크",
+  "start": 14.767,
+  "end": 15.867,
+  "type_from": 0,
+  "shot": 21
+ },
+ {
+  "style": "LineHero",
+  "text": "다다음 주??",
+  "start": 14.767,
+  "end": 15.867,
+  "type_from": 0,
+  "shot": 21
+ },
+ {
+  "style": "LineCW2",
+  "text": "(끄덕끄덕2)",
+  "start": 15.867,
+  "end": 16.4,
+  "type_from": 0,
+  "shot": 23
+ },
+ {
+  "style": "LabelHero",
+  "text": "엄청난 뉴스",
+  "start": 16.4,
+  "end": 18.233,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "LineHero",
+  "text": "아하...",
+  "start": 16.4,
+  "end": 18.233,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "LineHero",
+  "text": "룰루~",
+  "start": 18.233,
+  "end": 19.533,
+  "type_from": 0,
+  "shot": 26
+ },
+ {
+  "style": "LabelHero",
+  "text": "출장 전 베짱이 모드 ON",
+  "start": 19.533,
+  "end": 20.867,
+  "type_from": 0,
+  "shot": 27
+ },
+ {
+  "style": "LineHero",
+  "text": "이게 자유의 맛이구나~",
+  "start": 19.533,
+  "end": 20.867,
+  "type_from": 0,
+  "shot": 27
+ },
+ {
+  "style": "LabelHero",
+  "text": "구내식당 말고 오마카세",
+  "start": 20.867,
+  "end": 22.167,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "LineHero",
+  "text": "입에서 살살 녹아요~",
+  "start": 20.867,
+  "end": 22.167,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "LabelHero",
+  "text": "눈치 안 보는 점심시간",
+  "start": 22.167,
+  "end": 24.1,
+  "type_from": 0,
+  "shot": 30
+ },
+ {
+  "style": "LineHero",
+  "text": "아하항",
+  "start": 22.167,
+  "end": 22.6,
+  "type_from": 0,
+  "shot": 30
+ },
+ {
+  "style": "LineHero",
+  "text": "아하항하하",
+  "start": 22.6,
+  "end": 23.167,
+  "type_from": 3,
+  "shot": 31
+ },
+ {
+  "style": "LineHero",
+  "text": "아하항하하하하항",
+  "start": 23.167,
+  "end": 24.1,
+  "type_from": 5,
+  "shot": 32
+ },
+ {
+  "style": "LineHero",
+  "text": "아잇",
+  "start": 24.1,
+  "end": 24.467,
+  "type_from": 0,
+  "shot": 33
+ },
+ {
+  "style": "LineHero",
+  "text": "큰일이넹",
+  "start": 24.467,
+  "end": 25.367,
+  "type_from": 0,
+  "shot": 34
+ },
+ {
+  "style": "LineHero",
+  "text": "결재 올릴 거",
+  "start": 25.367,
+  "end": 26.333,
+  "type_from": 0,
+  "shot": 35
+ },
+ {
+  "style": "LabelHero",
+  "text": "표정관리 실패한 {PUN}",
+  "start": 26.333,
+  "end": 27.5,
+  "type_from": 0,
+  "shot": 36
+ },
+ {
+  "style": "LineHero",
+  "text": "한가득인뎅~",
+  "start": 26.333,
+  "end": 26.967,
+  "type_from": 0,
+  "shot": 36
+ },
+ {
+  "style": "LineHero",
+  "text": "한가득인뎅~☆",
+  "start": 26.967,
+  "end": 27.5,
+  "type_from": 6,
+  "shot": 37
+ },
+ {
+  "style": "LineCW1",
+  "text": "그치 그치",
+  "start": 27.5,
+  "end": 28.7,
+  "type_from": 0,
+  "shot": 38
+ },
+ {
+  "style": "LabelHero",
+  "text": "급습하는 진실",
+  "start": 28.7,
+  "end": 30.167,
+  "type_from": 0,
+  "shot": 40
+ },
+ {
+  "style": "LineCW2",
+  "text": "출장 동안 본부장님이",
+  "start": 28.7,
+  "end": 29.567,
+  "type_from": 0,
+  "shot": 40
+ },
+ {
+  "style": "LineCW2",
+  "text": "출장 동안 본부장님이 직접 보고 받으신대",
+  "start": 29.567,
+  "end": 30.167,
+  "type_from": 12,
+  "shot": 41
+ },
+ {
+  "style": "Emph",
+  "text": "?!?!?!",
+  "start": 30.167,
+  "end": 30.667,
+  "type_from": 0,
+  "shot": 42
+ },
+ {
+  "style": "LabelHero",
+  "text": "팀장님 대신 본부장님 직보",
+  "start": 30.667,
+  "end": 32.633,
+  "type_from": 0,
+  "shot": 43
+ },
+ {
+  "style": "LineHero",
+  "text": "상상만 해도",
+  "start": 30.667,
+  "end": 32.633,
+  "type_from": 0,
+  "shot": 43
+ },
+ {
+  "style": "LabelHero",
+  "text": "기다리고 있는 험난한 2주",
+  "start": 32.633,
+  "end": 34.333,
+  "type_from": 0,
+  "shot": 45
+ },
+ {
+  "style": "LineHero",
+  "text": "앞이 캄캄해지는 소식",
+  "start": 32.633,
+  "end": 34.333,
+  "type_from": 0,
+  "shot": 45
+ },
+ {
+  "style": "LabelHero",
+  "text": "점심 메뉴 고르는 동료",
+  "start": 34.333,
+  "end": 35.567,
+  "type_from": 0,
+  "shot": 48
+ },
+ {
+  "style": "LineCW1",
+  "text": "팀장님 안 계시니까",
+  "start": 34.333,
+  "end": 35.0,
+  "type_from": 0,
+  "shot": 48
+ },
+ {
+  "style": "LineCW1",
+  "text": "팀장님 안 계시니까 파스타 콜?",
+  "start": 35.0,
+  "end": 35.567,
+  "type_from": 11,
+  "shot": 49
+ },
+ {
+  "style": "EmphCW1",
+  "text": "흐엉",
+  "start": 35.567,
+  "end": 36.133,
+  "type_from": 0,
+  "shot": 50
+ },
+ {
+  "style": "LabelHero",
+  "text": "벅찬 앞날에 감동받은 {PUN}",
+  "start": 36.133,
+  "end": 37.3,
+  "type_from": 0,
+  "shot": 51
+ },
+ {
+  "style": "LineCW1",
+  "text": "울어?",
+  "start": 36.133,
+  "end": 37.3,
+  "type_from": 0,
+  "shot": 51
+ }
+]

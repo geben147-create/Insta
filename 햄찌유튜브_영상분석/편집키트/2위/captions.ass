@@ -1,0 +1,123 @@
+﻿[Script Info]
+; 김햄찌 분석 키트 — 원본 자막 규격(위치·크기·색) 재현용 템플릿. 텍스트는 새로 쓴 예시 대본
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: LabelHero,Malgun Gothic,40,&H00463F3F,&H00463F3F,&H38FFFFFF,&H38FFFFFF,0,0,0,0,100,100,0,0,3,7,0,2,20,20,158,1
+Style: LabelName,Malgun Gothic,40,&H00FFFFFF,&H00FFFFFF,&H1E000000,&H1E000000,0,0,0,0,100,100,0,0,3,7,0,2,20,20,158,1
+Style: LineHero,Malgun Gothic,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,20,20,58,1
+Style: LineCW1,Malgun Gothic,64,&H0038EF2E,&H0038EF2E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,20,20,58,1
+Style: LineCW2,Malgun Gothic,64,&H00DE9019,&H00DE9019,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,20,20,58,1
+Style: LineLeader,Malgun Gothic,64,&H0034E5D7,&H0034E5D7,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,20,20,58,1
+Style: Emph,Malgun Gothic,140,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,8,0,2,20,20,70,1
+Style: EmphCW1,Malgun Gothic,120,&H0038EF2E,&H0038EF2E,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,8,0,2,20,20,70,1
+Style: Bracket,Malgun Gothic,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,20,20,62,1
+Style: Paren,Malgun Gothic,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,20,20,70,1
+Style: Pointer,Malgun Gothic,32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,2,7,20,20,20,1
+Style: CardSmall,Malgun Gothic,36,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,20,20,0,1
+Style: CardBig,Malgun Gothic,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,20,20,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.20,0:00:00.34,LineHero,,0,0,0,,안
+Dialogue: 1,0:00:00.34,0:00:00.49,LineHero,,0,0,0,,안녕
+Dialogue: 1,0:00:00.49,0:00:00.63,LineHero,,0,0,0,,안녕 
+Dialogue: 1,0:00:00.63,0:00:00.77,LineHero,,0,0,0,,안녕 제
+Dialogue: 1,0:00:00.77,0:00:00.91,LineHero,,0,0,0,,안녕 제주
+Dialogue: 1,0:00:00.91,0:00:01.67,LineHero,,0,0,0,,안녕 제주~
+Dialogue: 0,0:00:01.67,0:00:03.07,Pointer,,0,0,0,,{\pos(760,120)}성산일출봉 >>>>
+Dialogue: 0,0:00:01.67,0:00:03.07,Paren,,0,0,0,,(친구랑 놀러 온 제주~!)
+Dialogue: 0,0:00:03.07,0:00:05.53,Paren,,0,0,0,,(맛 감별 중)
+Dialogue: 1,0:00:05.53,0:00:05.68,LineHero,,0,0,0,,쩝
+Dialogue: 1,0:00:05.68,0:00:05.82,LineHero,,0,0,0,,쩝쩝
+Dialogue: 1,0:00:05.82,0:00:08.00,LineHero,,0,0,0,,쩝쩝쩝
+Dialogue: 0,0:00:08.00,0:00:13.10,Paren,,0,0,0,,(진짜 에메랄드 바다)
+Dialogue: 0,0:00:13.10,0:00:14.95,Paren,,0,0,0,,(한 시간 줄 서서 사 먹는)
+Dialogue: 1,0:00:14.95,0:00:15.08,LineHero,,0,0,0,,빵
+Dialogue: 1,0:00:15.08,0:00:15.20,LineHero,,0,0,0,,빵 
+Dialogue: 1,0:00:15.20,0:00:15.33,LineHero,,0,0,0,,빵 맛
+Dialogue: 1,0:00:15.33,0:00:15.45,LineHero,,0,0,0,,빵 맛은
+Dialogue: 1,0:00:15.45,0:00:15.58,LineHero,,0,0,0,,빵 맛은 
+Dialogue: 1,0:00:15.58,0:00:15.71,LineHero,,0,0,0,,빵 맛은 어
+Dialogue: 1,0:00:15.71,0:00:15.83,LineHero,,0,0,0,,빵 맛은 어떻
+Dialogue: 1,0:00:15.83,0:00:15.96,LineHero,,0,0,0,,빵 맛은 어떻습
+Dialogue: 1,0:00:15.96,0:00:16.09,LineHero,,0,0,0,,빵 맛은 어떻습니
+Dialogue: 1,0:00:16.09,0:00:16.21,LineHero,,0,0,0,,빵 맛은 어떻습니까
+Dialogue: 1,0:00:16.21,0:00:16.80,LineHero,,0,0,0,,빵 맛은 어떻습니까?
+Dialogue: 0,0:00:16.80,0:00:17.55,LineHero,,0,0,0,,야
+Dialogue: 0,0:00:17.55,0:00:18.30,Paren,,0,0,0,,(입가에 크림 묻음)
+Dialogue: 1,0:00:18.30,0:00:18.39,LineHero,,0,0,0,,카
+Dialogue: 1,0:00:18.39,0:00:18.47,LineHero,,0,0,0,,카메
+Dialogue: 1,0:00:18.47,0:00:18.56,LineHero,,0,0,0,,카메라
+Dialogue: 1,0:00:18.56,0:00:18.64,LineHero,,0,0,0,,카메라 
+Dialogue: 1,0:00:18.64,0:00:18.73,LineHero,,0,0,0,,카메라 줘
+Dialogue: 1,0:00:18.73,0:00:18.81,LineHero,,0,0,0,,카메라 줘 
+Dialogue: 1,0:00:18.81,0:00:19.10,LineHero,,0,0,0,,카메라 줘 봐
+Dialogue: 1,0:00:19.10,0:00:19.20,LineHero,,0,0,0,,찍
+Dialogue: 1,0:00:19.20,0:00:19.30,LineHero,,0,0,0,,찍어
+Dialogue: 1,0:00:19.30,0:00:19.40,LineHero,,0,0,0,,찍어 
+Dialogue: 1,0:00:19.40,0:00:19.50,LineHero,,0,0,0,,찍어 줄
+Dialogue: 1,0:00:19.50,0:00:19.60,LineHero,,0,0,0,,찍어 줄게
+Dialogue: 1,0:00:19.60,0:00:19.90,LineHero,,0,0,0,,찍어 줄게~
+Dialogue: 0,0:00:19.90,0:00:20.37,Paren,,0,0,0,,(구도 이슈)
+Dialogue: 0,0:00:20.37,0:00:20.83,Paren,,0,0,0,,(구도 이슈)
+Dialogue: 0,0:00:20.83,0:00:21.07,Paren,,0,0,0,,(8등신
+Dialogue: 1,0:00:21.07,0:00:21.10,LineHero,,0,0,0,,2
+Dialogue: 1,0:00:21.10,0:00:21.14,LineHero,,0,0,0,,2등
+Dialogue: 1,0:00:21.14,0:00:21.17,LineHero,,0,0,0,,2등신
+Dialogue: 1,0:00:21.17,0:00:21.21,LineHero,,0,0,0,,2등신샷
+Dialogue: 1,0:00:21.21,0:00:21.30,LineHero,,0,0,0,,2등신샷)
+Dialogue: 0,0:00:21.30,0:00:21.77,Paren,,0,0,0,,(미안{PUN}...)
+Dialogue: 0,0:00:21.77,0:00:23.31,Paren,,0,0,0,,(하루 종일 먹는 고수)
+Dialogue: 0,0:00:23.31,0:00:26.40,LabelName,,0,0,0,,전문 먹방평론가 | {이름}
+Dialogue: 1,0:00:23.31,0:00:23.45,LineHero,,0,0,0,,내
+Dialogue: 1,0:00:23.45,0:00:23.60,LineHero,,0,0,0,,내가
+Dialogue: 1,0:00:23.60,0:00:23.74,LineHero,,0,0,0,,내가 
+Dialogue: 1,0:00:23.74,0:00:23.88,LineHero,,0,0,0,,내가 보
+Dialogue: 1,0:00:23.88,0:00:24.03,LineHero,,0,0,0,,내가 보니
+Dialogue: 1,0:00:24.03,0:00:24.86,LineHero,,0,0,0,,내가 보니까
+Dialogue: 1,0:00:24.86,0:00:24.97,LineHero,,0,0,0,,제
+Dialogue: 1,0:00:24.97,0:00:25.09,LineHero,,0,0,0,,제주
+Dialogue: 1,0:00:25.09,0:00:25.20,LineHero,,0,0,0,,제주는
+Dialogue: 1,0:00:25.20,0:00:25.32,LineHero,,0,0,0,,제주는 
+Dialogue: 1,0:00:25.32,0:00:25.44,LineHero,,0,0,0,,제주는 귤
+Dialogue: 1,0:00:25.44,0:00:25.55,LineHero,,0,0,0,,제주는 귤을
+Dialogue: 1,0:00:25.55,0:00:25.67,LineHero,,0,0,0,,제주는 귤을 
+Dialogue: 1,0:00:25.67,0:00:25.78,LineHero,,0,0,0,,제주는 귤을 잘
+Dialogue: 1,0:00:25.78,0:00:25.90,LineHero,,0,0,0,,제주는 귤을 잘하
+Dialogue: 1,0:00:25.90,0:00:26.40,LineHero,,0,0,0,,제주는 귤을 잘하네
+Dialogue: 0,0:00:26.40,0:00:29.23,Paren,,0,0,0,,(여행 3일 차 체력 방전)
+Dialogue: 0,0:00:29.23,0:00:32.07,Paren,,0,0,0,,(숙소가 제일 좋아)
+Dialogue: 1,0:00:32.07,0:00:32.21,LineHero,,0,0,0,,안
+Dialogue: 1,0:00:32.21,0:00:32.35,LineHero,,0,0,0,,안뇽
+Dialogue: 1,0:00:32.35,0:00:32.50,LineHero,,0,0,0,,안뇽~
+Dialogue: 1,0:00:32.50,0:00:35.67,LineHero,,0,0,0,,안뇽~~
+Dialogue: 1,0:00:36.37,0:00:36.47,LineHero,,0,0,0,,여
+Dialogue: 1,0:00:36.47,0:00:36.57,LineHero,,0,0,0,,여러
+Dialogue: 1,0:00:36.57,0:00:36.67,LineHero,,0,0,0,,여러분
+Dialogue: 1,0:00:36.67,0:00:36.77,LineHero,,0,0,0,,여러분!
+Dialogue: 1,0:00:36.77,0:00:36.87,LineHero,,0,0,0,,여러분!!
+Dialogue: 1,0:00:36.87,0:00:37.17,LineHero,,0,0,0,,여러분!!!
+Dialogue: 1,0:00:37.17,0:00:37.27,LineHero,,0,0,0,,이
+Dialogue: 1,0:00:37.27,0:00:37.37,LineHero,,0,0,0,,이거
+Dialogue: 1,0:00:37.37,0:00:37.47,LineHero,,0,0,0,,이거 
+Dialogue: 1,0:00:37.47,0:00:37.57,LineHero,,0,0,0,,이거 봐
+Dialogue: 1,0:00:37.57,0:00:37.67,LineHero,,0,0,0,,이거 봐~
+Dialogue: 1,0:00:37.67,0:00:37.97,LineHero,,0,0,0,,이거 봐~!
+Dialogue: 1,0:00:38.47,0:00:38.56,LineHero,,0,0,0,,골
+Dialogue: 1,0:00:38.56,0:00:38.66,LineHero,,0,0,0,,골드
+Dialogue: 1,0:00:38.66,0:00:38.76,LineHero,,0,0,0,,골드 
+Dialogue: 1,0:00:38.76,0:00:38.85,LineHero,,0,0,0,,골드 승
+Dialogue: 1,0:00:38.85,0:00:38.95,LineHero,,0,0,0,,골드 승급
+Dialogue: 1,0:00:38.95,0:00:39.05,LineHero,,0,0,0,,골드 승급했
+Dialogue: 1,0:00:39.05,0:00:39.14,LineHero,,0,0,0,,골드 승급했다
+Dialogue: 1,0:00:39.14,0:00:39.50,LineHero,,0,0,0,,골드 승급했다!
+Dialogue: 0,0:00:39.50,0:00:40.53,Paren,,0,0,0,,(3년 만의 승급임)
+Dialogue: 0,0:00:40.53,0:00:41.12,CardSmall,,0,0,0,,{\pos(960,470)}여름휴가 보고
+Dialogue: 0,0:00:40.53,0:00:41.12,CardBig,,0,0,0,,{\pos(960,545)}제주 여행 + 랭크 승급 야호
+Dialogue: 0,0:00:41.12,0:00:41.70,CardBig,,0,0,0,,{\pos(960,545)}끝!

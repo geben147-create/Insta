@@ -1,0 +1,430 @@
+{
+ "key": "v2",
+ "id": "BCJT5RkluvI",
+ "title": "여름이여따",
+ "duration": 41.7,
+ "fps": 30,
+ "shots": [
+  {
+   "n": 1,
+   "t_in": 0.0,
+   "t_out": 0.2,
+   "dur": 0.2,
+   "frames": 6,
+   "who": "hero",
+   "size": "ECU(초점 안 맞음)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s01.mp4"
+  },
+  {
+   "n": 2,
+   "t_in": 0.2,
+   "t_out": 1.667,
+   "dur": 1.467,
+   "frames": 44,
+   "who": "hero",
+   "size": "CU 셀카",
+   "gen": "i2v",
+   "models": [
+    "veo-3-1",
+    "kling-v3",
+    "seedance-2-5"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s02.mp4"
+  },
+  {
+   "n": 3,
+   "t_in": 1.667,
+   "t_out": 3.067,
+   "dur": 1.4,
+   "frames": 42,
+   "who": "hero",
+   "size": "MCU 셀카",
+   "gen": "i2v",
+   "models": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s03.mp4"
+  },
+  {
+   "n": 4,
+   "t_in": 3.067,
+   "t_out": 8.0,
+   "dur": 4.933,
+   "frames": 148,
+   "who": "hero",
+   "size": "MS",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "hailuo-2-3",
+    "seedance-2-5"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s04.mp4"
+  },
+  {
+   "n": 5,
+   "t_in": 8.0,
+   "t_out": 13.1,
+   "dur": 5.1,
+   "frames": 153,
+   "who": "hero",
+   "size": "MS→WS(패닝)",
+   "gen": "i2v",
+   "models": [
+    "seedance-2-5",
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s05.mp4"
+  },
+  {
+   "n": 6,
+   "t_in": 13.1,
+   "t_out": 16.8,
+   "dur": 3.7,
+   "frames": 111,
+   "who": "hero",
+   "size": "CU",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "hailuo-2-3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s06.mp4"
+  },
+  {
+   "n": 7,
+   "t_in": 16.8,
+   "t_out": 18.3,
+   "dur": 1.5,
+   "frames": 45,
+   "who": "hero",
+   "size": "MCU",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "minimax-h3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s07.mp4"
+  },
+  {
+   "n": 8,
+   "t_in": 18.3,
+   "t_out": 19.9,
+   "dur": 1.6,
+   "frames": 48,
+   "who": "hero",
+   "size": "MS",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "veo-3-1"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s08.mp4"
+  },
+  {
+   "n": 9,
+   "t_in": 19.9,
+   "t_out": 20.367,
+   "dur": 0.467,
+   "frames": 14,
+   "who": "friend",
+   "size": "사진(3:4) 로우앵글",
+   "gen": "still",
+   "models": [
+    "still"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "3x4",
+   "src_in": 0.5,
+   "clip": "clips/s09.mp4"
+  },
+  {
+   "n": 10,
+   "t_in": 20.367,
+   "t_out": 20.833,
+   "dur": 0.467,
+   "frames": 14,
+   "who": "friend",
+   "size": "사진(3:4) 로우앵글 전신",
+   "gen": "still",
+   "models": [
+    "still"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "emoji"
+   ],
+   "frame": "3x4",
+   "src_in": 0.5,
+   "clip": "clips/s10.mp4"
+  },
+  {
+   "n": 11,
+   "t_in": 20.833,
+   "t_out": 21.3,
+   "dur": 0.467,
+   "frames": 14,
+   "who": "friend",
+   "size": "사진(3:4) 초광각",
+   "gen": "still",
+   "models": [
+    "still"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "3x4",
+   "src_in": 0.5,
+   "clip": "clips/s11.mp4"
+  },
+  {
+   "n": 12,
+   "t_in": 21.3,
+   "t_out": 21.767,
+   "dur": 0.467,
+   "frames": 14,
+   "who": "hero",
+   "size": "사진(3:4) 셀카",
+   "gen": "still",
+   "models": [
+    "still"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "3x4",
+   "src_in": 0.5,
+   "clip": "clips/s12.mp4"
+  },
+  {
+   "n": 13,
+   "t_in": 21.767,
+   "t_out": 26.4,
+   "dur": 4.633,
+   "frames": 139,
+   "who": "hero",
+   "size": "MS→CU",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "hailuo-2-3",
+    "seedance-2-5"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s13.mp4"
+  },
+  {
+   "n": 14,
+   "t_in": 26.4,
+   "t_out": 32.067,
+   "dur": 5.667,
+   "frames": 170,
+   "who": "hero",
+   "size": "ECU",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "hailuo-2-3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s14.mp4"
+  },
+  {
+   "n": 15,
+   "t_in": 32.067,
+   "t_out": 35.667,
+   "dur": 3.6,
+   "frames": 108,
+   "who": "hero",
+   "size": "WS",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "veo-3-1"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "1x1",
+   "src_in": 0.5,
+   "clip": "clips/s15.mp4"
+  },
+  {
+   "n": 16,
+   "t_in": 35.667,
+   "t_out": 35.967,
+   "dur": 0.3,
+   "frames": 9,
+   "who": "black",
+   "size": "암전",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s16.mp4"
+  },
+  {
+   "n": 17,
+   "t_in": 35.967,
+   "t_out": 36.367,
+   "dur": 0.4,
+   "frames": 12,
+   "who": "black",
+   "size": "암전",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s17.mp4"
+  },
+  {
+   "n": 18,
+   "t_in": 36.367,
+   "t_out": 37.967,
+   "dur": 1.6,
+   "frames": 48,
+   "who": "hero",
+   "size": "ECU(웹캠)",
+   "gen": "i2v",
+   "models": [
+    "minimax-h3",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "p088",
+   "src_in": 0.5,
+   "clip": "clips/s18.mp4"
+  },
+  {
+   "n": 19,
+   "t_in": 37.967,
+   "t_out": 38.467,
+   "dur": 0.5,
+   "frames": 15,
+   "who": "insert",
+   "size": "휩 팬",
+   "gen": "edit",
+   "models": [
+    "edit",
+    "viduq3-pro"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "whip"
+   ],
+   "frame": "p088",
+   "src_in": 0.5,
+   "clip": "clips/s19.mp4"
+  },
+  {
+   "n": 20,
+   "t_in": 38.467,
+   "t_out": 40.533,
+   "dur": 2.067,
+   "frames": 62,
+   "who": "insert",
+   "size": "모니터 화면(폰으로 촬영)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "whip"
+   ],
+   "frame": "p088",
+   "src_in": 0.5,
+   "clip": "clips/s20.mp4"
+  },
+  {
+   "n": 21,
+   "t_in": 40.533,
+   "t_out": 41.7,
+   "dur": 1.167,
+   "frames": 35,
+   "who": "card",
+   "size": "타이틀 카드",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s21.mp4"
+  }
+ ]
+}

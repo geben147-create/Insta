@@ -1,0 +1,250 @@
+[
+ {
+  "style": "LineHero",
+  "text": "안녕 제주~",
+  "start": 0.2,
+  "end": 1.667,
+  "type_from": 0,
+  "shot": 2
+ },
+ {
+  "style": "Pointer",
+  "text": "성산일출봉 >>>>",
+  "start": 1.667,
+  "end": 3.067,
+  "type_from": 0,
+  "shot": 3
+ },
+ {
+  "style": "Paren",
+  "text": "(친구랑 놀러 온 제주~!)",
+  "start": 1.667,
+  "end": 3.067,
+  "type_from": 0,
+  "shot": 3
+ },
+ {
+  "style": "Paren",
+  "text": "(맛 감별 중)",
+  "start": 3.067,
+  "end": 5.534,
+  "type_from": 0,
+  "shot": 4
+ },
+ {
+  "style": "LineHero",
+  "text": "쩝쩝쩝",
+  "start": 5.534,
+  "end": 8.0,
+  "type_from": 0,
+  "shot": 4
+ },
+ {
+  "style": "Paren",
+  "text": "(진짜 에메랄드 바다)",
+  "start": 8.0,
+  "end": 13.1,
+  "type_from": 0,
+  "shot": 5
+ },
+ {
+  "style": "Paren",
+  "text": "(한 시간 줄 서서 사 먹는)",
+  "start": 13.1,
+  "end": 14.95,
+  "type_from": 0,
+  "shot": 6
+ },
+ {
+  "style": "LineHero",
+  "text": "빵 맛은 어떻습니까?",
+  "start": 14.95,
+  "end": 16.8,
+  "type_from": 0,
+  "shot": 6
+ },
+ {
+  "style": "LineHero",
+  "text": "야",
+  "start": 16.8,
+  "end": 17.55,
+  "type_from": 0,
+  "shot": 7
+ },
+ {
+  "style": "Paren",
+  "text": "(입가에 크림 묻음)",
+  "start": 17.55,
+  "end": 18.3,
+  "type_from": 0,
+  "shot": 7
+ },
+ {
+  "style": "LineHero",
+  "text": "카메라 줘 봐",
+  "start": 18.3,
+  "end": 19.1,
+  "type_from": 0,
+  "shot": 8
+ },
+ {
+  "style": "LineHero",
+  "text": "찍어 줄게~",
+  "start": 19.1,
+  "end": 19.9,
+  "type_from": 0,
+  "shot": 8
+ },
+ {
+  "style": "Paren",
+  "text": "(구도 이슈)",
+  "start": 19.9,
+  "end": 20.367,
+  "type_from": 0,
+  "shot": 9
+ },
+ {
+  "style": "Paren",
+  "text": "(구도 이슈)",
+  "start": 20.367,
+  "end": 20.833,
+  "type_from": 0,
+  "shot": 10
+ },
+ {
+  "style": "Paren",
+  "text": "(8등신",
+  "start": 20.833,
+  "end": 21.066,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LineHero",
+  "text": "2등신샷)",
+  "start": 21.066,
+  "end": 21.3,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "Paren",
+  "text": "(미안{PUN}...)",
+  "start": 21.3,
+  "end": 21.767,
+  "type_from": 0,
+  "shot": 12
+ },
+ {
+  "style": "Paren",
+  "text": "(하루 종일 먹는 고수)",
+  "start": 21.767,
+  "end": 23.311,
+  "type_from": 0,
+  "shot": 13
+ },
+ {
+  "style": "LabelName",
+  "text": "전문 먹방평론가 | {이름}",
+  "start": 23.311,
+  "end": 26.4,
+  "type_from": 0,
+  "shot": 13
+ },
+ {
+  "style": "LineHero",
+  "text": "내가 보니까",
+  "start": 23.311,
+  "end": 24.856,
+  "type_from": 0,
+  "shot": 13
+ },
+ {
+  "style": "LineHero",
+  "text": "제주는 귤을 잘하네",
+  "start": 24.856,
+  "end": 26.4,
+  "type_from": 0,
+  "shot": 13
+ },
+ {
+  "style": "Paren",
+  "text": "(여행 3일 차 체력 방전)",
+  "start": 26.4,
+  "end": 29.233,
+  "type_from": 0,
+  "shot": 14
+ },
+ {
+  "style": "Paren",
+  "text": "(숙소가 제일 좋아)",
+  "start": 29.233,
+  "end": 32.067,
+  "type_from": 0,
+  "shot": 14
+ },
+ {
+  "style": "LineHero",
+  "text": "안뇽~~",
+  "start": 32.067,
+  "end": 35.667,
+  "type_from": 0,
+  "shot": 15
+ },
+ {
+  "style": "LineHero",
+  "text": "여러분!!!",
+  "start": 36.367,
+  "end": 37.167,
+  "type_from": 0,
+  "shot": 18
+ },
+ {
+  "style": "LineHero",
+  "text": "이거 봐~!",
+  "start": 37.167,
+  "end": 37.967,
+  "type_from": 0,
+  "shot": 18
+ },
+ {
+  "style": "LineHero",
+  "text": "골드 승급했다!",
+  "start": 38.467,
+  "end": 39.5,
+  "type_from": 0,
+  "shot": 20
+ },
+ {
+  "style": "Paren",
+  "text": "(3년 만의 승급임)",
+  "start": 39.5,
+  "end": 40.533,
+  "type_from": 0,
+  "shot": 20
+ },
+ {
+  "style": "CardSmall",
+  "text": "여름휴가 보고",
+  "start": 40.533,
+  "end": 41.117,
+  "type_from": 0,
+  "shot": 21
+ },
+ {
+  "style": "CardBig",
+  "text": "제주 여행 + 랭크 승급 야호",
+  "start": 40.533,
+  "end": 41.117,
+  "type_from": 0,
+  "shot": 21
+ },
+ {
+  "style": "CardBig",
+  "text": "끝!",
+  "start": 41.117,
+  "end": 41.7,
+  "type_from": 0,
+  "shot": 21
+ }
+]

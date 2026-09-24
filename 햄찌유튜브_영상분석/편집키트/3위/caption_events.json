@@ -1,0 +1,362 @@
+[
+ {
+  "style": "LineHero",
+  "text": "영차!",
+  "start": 0.0,
+  "end": 0.733,
+  "type_from": 0,
+  "shot": 1
+ },
+ {
+  "style": "LineLeader",
+  "text": "오~ 왔네",
+  "start": 1.7,
+  "end": 2.2,
+  "type_from": 0,
+  "shot": 3
+ },
+ {
+  "style": "LineLeader",
+  "text": "{이름}!",
+  "start": 2.2,
+  "end": 2.967,
+  "type_from": 0,
+  "shot": 4
+ },
+ {
+  "style": "LineHero",
+  "text": "좋은 아침이에용~!",
+  "start": 2.967,
+  "end": 4.0,
+  "type_from": 0,
+  "shot": 5
+ },
+ {
+  "style": "LineLeader",
+  "text": "휴가 동안",
+  "start": 4.0,
+  "end": 4.967,
+  "type_from": 0,
+  "shot": 7
+ },
+ {
+  "style": "LineLeader",
+  "text": "휴가 동안 재충전 좀 했어?",
+  "start": 4.967,
+  "end": 5.933,
+  "type_from": 6,
+  "shot": 8
+ },
+ {
+  "style": "LineHero",
+  "text": "앗",
+  "start": 5.933,
+  "end": 6.367,
+  "type_from": 0,
+  "shot": 9
+ },
+ {
+  "style": "LineHero",
+  "text": "앗 그럼요!",
+  "start": 6.367,
+  "end": 6.767,
+  "type_from": 2,
+  "shot": 10
+ },
+ {
+  "style": "LabelHero",
+  "text": "연차 5일 몰아 쓴 {PUN}",
+  "start": 6.767,
+  "end": 8.5,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LineHero",
+  "text": "제 배터리는",
+  "start": 6.767,
+  "end": 7.833,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LineHero",
+  "text": "제 배터리는 100%입니당!",
+  "start": 7.833,
+  "end": 8.5,
+  "type_from": 7,
+  "shot": 12
+ },
+ {
+  "style": "LabelHero",
+  "text": "환영 간식 말고 환영 업무",
+  "start": 8.5,
+  "end": 9.933,
+  "type_from": 0,
+  "shot": 13
+ },
+ {
+  "style": "LineLeader",
+  "text": "결재가 산더미인데",
+  "start": 8.5,
+  "end": 9.933,
+  "type_from": 0,
+  "shot": 13
+ },
+ {
+  "style": "LabelHero",
+  "text": "일복 터트리는 팀장님",
+  "start": 9.933,
+  "end": 11.233,
+  "type_from": 0,
+  "shot": 14
+ },
+ {
+  "style": "LineLeader",
+  "text": "바로 풀가동 가능?",
+  "start": 9.933,
+  "end": 11.233,
+  "type_from": 0,
+  "shot": 14
+ },
+ {
+  "style": "LineHero",
+  "text": "아…",
+  "start": 11.233,
+  "end": 11.533,
+  "type_from": 0,
+  "shot": 16
+ },
+ {
+  "style": "LineHero",
+  "text": "넵!",
+  "start": 11.533,
+  "end": 11.833,
+  "type_from": 0,
+  "shot": 16
+ },
+ {
+  "style": "LabelHero",
+  "text": "몸만 출근한 {PUN}",
+  "start": 11.833,
+  "end": 13.967,
+  "type_from": 0,
+  "shot": 17
+ },
+ {
+  "style": "LineHero",
+  "text": "당장",
+  "start": 11.833,
+  "end": 12.333,
+  "type_from": 0,
+  "shot": 17
+ },
+ {
+  "style": "LineHero",
+  "text": "당장 메일부터 싹",
+  "start": 12.333,
+  "end": 13.233,
+  "type_from": 3,
+  "shot": 18
+ },
+ {
+  "style": "LineHero",
+  "text": "당장 메일부터 싹 확인할게용!",
+  "start": 13.233,
+  "end": 13.967,
+  "type_from": 10,
+  "shot": 19
+ },
+ {
+  "style": "LineHero",
+  "text": "끄응차!",
+  "start": 13.967,
+  "end": 14.6,
+  "type_from": 0,
+  "shot": 20
+ },
+ {
+  "style": "LineHero",
+  "text": "?",
+  "start": 17.033,
+  "end": 17.633,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "Bracket",
+  "text": "[…]",
+  "start": 17.633,
+  "end": 19.1,
+  "type_from": 0,
+  "shot": 25
+ },
+ {
+  "style": "LineHero",
+  "text": "흐음?",
+  "start": 19.1,
+  "end": 19.9,
+  "type_from": 0,
+  "shot": 26
+ },
+ {
+  "style": "LineHero",
+  "text": "엥??",
+  "start": 19.9,
+  "end": 20.833,
+  "type_from": 0,
+  "shot": 27
+ },
+ {
+  "style": "LabelHero",
+  "text": "나는 재충전, 노트북은 방전",
+  "start": 20.833,
+  "end": 21.967,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "Bracket",
+  "text": "[배터리 0%]",
+  "start": 20.833,
+  "end": 21.967,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "LineHero",
+  "text": "어… 그러니까… ㅇㅅㅇ",
+  "start": 21.967,
+  "end": 22.767,
+  "type_from": 0,
+  "shot": 29
+ },
+ {
+  "style": "Bracket",
+  "text": "[뇌 부팅 중…]",
+  "start": 22.767,
+  "end": 23.6,
+  "type_from": 0,
+  "shot": 30
+ },
+ {
+  "style": "Emph",
+  "text": "ㅇ ㅏ ㅎ ㅏ!",
+  "start": 23.6,
+  "end": 24.033,
+  "type_from": 0,
+  "shot": 31
+ },
+ {
+  "style": "LabelHero",
+  "text": "급 떠오른 기억",
+  "start": 24.033,
+  "end": 24.667,
+  "type_from": 0,
+  "shot": 32
+ },
+ {
+  "style": "LineHero",
+  "text": "아 맞다!",
+  "start": 24.033,
+  "end": 24.3,
+  "type_from": 0,
+  "shot": 32
+ },
+ {
+  "style": "LineHero",
+  "text": "아 맞다! 충전기!",
+  "start": 24.3,
+  "end": 24.667,
+  "type_from": 6,
+  "shot": 33
+ },
+ {
+  "style": "LabelHero",
+  "text": "노동 모드 다시 ON",
+  "start": 24.967,
+  "end": 26.233,
+  "type_from": 0,
+  "shot": 35
+ },
+ {
+  "style": "LineHero",
+  "text": "됐다!!",
+  "start": 24.967,
+  "end": 26.233,
+  "type_from": 0,
+  "shot": 35
+ },
+ {
+  "style": "Bracket",
+  "text": "[들키지 않게 작은 환호]",
+  "start": 26.233,
+  "end": 27.533,
+  "type_from": 0,
+  "shot": 36
+ },
+ {
+  "style": "LabelHero",
+  "text": "출근 7분 만에",
+  "start": 27.533,
+  "end": 28.9,
+  "type_from": 0,
+  "shot": 38
+ },
+ {
+  "style": "Bracket",
+  "text": "[2차 위기 도착]",
+  "start": 27.533,
+  "end": 28.9,
+  "type_from": 0,
+  "shot": 38
+ },
+ {
+  "style": "LabelHero",
+  "text": "바싹바싹 타는 입술",
+  "start": 28.9,
+  "end": 30.933,
+  "type_from": 0,
+  "shot": 39
+ },
+ {
+  "style": "Bracket",
+  "text": "[…]",
+  "start": 28.9,
+  "end": 30.933,
+  "type_from": 0,
+  "shot": 39
+ },
+ {
+  "style": "Bracket",
+  "text": "[옛 비밀번호 로딩 실패]",
+  "start": 30.933,
+  "end": 32.3,
+  "type_from": 0,
+  "shot": 42
+ },
+ {
+  "style": "Bracket",
+  "text": "[정신은 이미 로그아웃]",
+  "start": 32.3,
+  "end": 33.367,
+  "type_from": 0,
+  "shot": 43
+ },
+ {
+  "style": "Emph",
+  "text": "포맷 완료..",
+  "start": 33.367,
+  "end": 34.5,
+  "type_from": 0,
+  "shot": 44
+ },
+ {
+  "style": "Bracket",
+  "text": "[뇌까지 포맷된 {PUN}]",
+  "start": 34.5,
+  "end": 35.4,
+  "type_from": 0,
+  "shot": 45
+ }
+]

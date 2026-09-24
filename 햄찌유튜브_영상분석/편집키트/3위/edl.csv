@@ -1,0 +1,46 @@
+﻿컷,시작(초),끝(초),길이(초),프레임,대상,사이즈,전환(들어올 때),효과,화면비,생성 방식,추천 모델
+1,0.0,0.733,0.733,22,hero,MS(하이앵글),cut,,full,i2v-fl,kling-v3 > seedance-2-5 > viduq3-pro
+2,0.733,1.7,0.967,29,hero,CU,cut,,full,ref,kling-v3-omni > seedance-2-0 > kling-v3
+3,1.7,2.2,0.5,15,leader,MS(로우앵글),cut,,full,i2v,veo-3-1 > kling-v3
+4,2.2,2.967,0.767,23,leader,CU(손 인서트),cut,,full,i2v,veo-3-1 > kling-v3
+5,2.967,3.433,0.467,14,hero,MCU,cut,,full,ref,kling-v3-omni > seedance-2-0
+6,3.433,4.0,0.567,17,hero,CU,cut,,full,i2v,kling-v3 > still
+7,4.0,4.967,0.967,29,leader,MS(로우앵글),cut,,full,i2v,veo-3-1 > kling-v3
+8,4.967,5.933,0.967,29,leader,MCU,cut,,full,i2v,veo-3-1 > kling-v3
+9,5.933,6.367,0.433,13,hero,MS,cut,push_in_slow,full,still,still > kling-v3-omni
+10,6.367,6.767,0.4,12,hero,CU,cut,push_in_slow,full,still,still > kling-v3
+11,6.767,7.833,1.067,32,hero,MS(하이앵글),cut,sparkle,full,ref,kling-v3-omni > seedance-2-0 > edit
+12,7.833,8.5,0.667,20,hero,CU,cut,sparkle,full,ref,kling-v3-omni > minimax-h3 > edit
+13,8.5,9.933,1.433,43,leader,MS,cut,,full,i2v,veo-3-1 > kling-v3
+14,9.933,10.6,0.667,20,hero,MS(하이앵글),cut,,full,ref,kling-v3-omni > seedance-2-0
+15,10.6,11.233,0.633,19,leader,MCU,cut,,full,i2v,veo-3-1 > kling-v3
+16,11.233,11.833,0.6,18,hero,MS(하이앵글),cut,,full,ref,kling-v3-omni > minimax-h3
+17,11.833,12.333,0.5,15,hero,CU,cut,,full,ref,kling-v3-omni > minimax-h3
+18,12.333,13.233,0.9,27,hero,MS(하이앵글),cut,,full,ref,kling-v3-omni > seedance-2-0
+19,13.233,13.967,0.733,22,hero,CU(3/4 측면),cut,,full,ref,kling-v3-omni > minimax-h3
+20,13.967,14.6,0.633,19,hero,MS,cut,,full,i2v-fl,kling-v3 > seedance-2-5 > kling-v3-omni
+21,14.6,15.167,0.567,17,hero,OTS(뒷모습),cut,,full,i2v,kling-v3 > seedance-2-0
+22,15.167,16.167,1.0,30,hero,CU(노트북 뒤편),cut,,full,i2v,kling-v3 > seedance-2-5 > minimax-h3
+23,16.167,17.033,0.867,26,hero,OTS(근접),cut,,full,i2v,kling-v3 > still
+24,17.033,17.633,0.6,18,hero,CU(3/4),cut,,full,ref,kling-v3-omni > minimax-h3
+25,17.633,19.1,1.467,44,hero,OTS(와이드),cut,push_in_slow,full,still,still > kling-v3
+26,19.1,19.9,0.8,24,hero,CU,cut,,full,i2v,minimax-h3 > hailuo-2-3
+27,19.9,20.833,0.933,28,hero,CU,cut,,full,i2v,minimax-h3 > hailuo-2-3
+28,20.833,21.967,1.133,34,hero,OTS(와이드),cut,push_in_slow,full,still,still > kling-v3
+29,21.967,22.767,0.8,24,hero,MS,cut,spinner,full,ref,kling-v3-omni > seedance-2-0 > edit
+30,22.767,23.6,0.833,25,hero,CU,cut,math,full,ref,kling-v3-omni > still > edit
+31,23.6,24.033,0.433,13,hero,MCU,dissolve,,full,i2v,minimax-h3 > hailuo-2-3 > edit
+32,24.033,24.3,0.267,8,hero,MS,cut,push_in_slow,full,still,still > kling-v3-omni
+33,24.3,24.667,0.367,11,hero,CU,cut,push_in_slow,full,still,still > kling-v3
+34,24.667,24.967,0.3,9,hero,MS,cut,push_in_slow,full,still,still > kling-v3-omni
+35,24.967,26.233,1.267,38,hero,ECU→OTS,cut,,full,i2v,kling-v3 > still > edit
+36,26.233,26.7,0.467,14,hero,MS,cut,,full,ref,kling-v3-omni > minimax-h3
+37,26.7,27.533,0.833,25,hero,CU,cut,,full,ref,kling-v3-omni > minimax-h3
+38,27.533,28.9,1.367,41,hero,OTS(와이드),cut,push_in_slow,full,still,still > kling-v3 > edit
+39,28.9,29.633,0.733,22,hero,MS,cut,,full,ref,kling-v3-omni > seedance-2-0
+40,29.633,30.333,0.7,21,hero,MCU,cut,push_in_slow,full,still,still > kling-v3
+41,30.333,30.933,0.6,18,hero,ECU,cut,push_in_slow,full,still,still > kling-v3
+42,30.933,32.3,1.367,41,insert,OTS(화면 초근접),cut,push_in_slow,full,still,still > edit
+43,32.3,33.367,1.067,32,hero,CU,cut,,full,i2v,minimax-h3 > hailuo-2-3
+44,33.367,34.5,1.133,34,hero,MS,cut,glitch,full,ref,kling-v3-omni > minimax-h3 > edit
+45,34.5,35.4,0.9,27,hero,ECU,cut,push_in_slow,full,still,still > kling-v3

@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+{% block pagejs %}<script>window.PAGE = {{ page_js | safe }};</script>{% endblock %}
+{% block content %}
+<div class="hero">
+  <div>
+    <span class="rankbadge">기간 대비 성과 {{ v.rank }}위</span>
+    <h1>「{{ v.title }}」</h1>
+    <p class="lead">{{ an.fmt }}</p>
+    <p>{{ an.logline }}</p>
+    <p><a href="{{ v.url }}" target="_blank" rel="noopener">▶ 원본 영상 보기 (YouTube)</a> · 업로드 {{ v.upload_time_kst }} KST</p>
+  </div>
+  <div class="thumbs">{% for t in thumbs %}<img src="{{ t }}" alt="대표 장면 {{ loop.index }}" loading="lazy">{% endfor %}</div>
+</div>
+
+<div class="kpis">
+  <div class="kpi"><div class="v">{{ "{:,}".format(v.views) }}</div><div class="k">조회수</div></div>
+  <div class="kpi"><div class="v">{{ "{:,}".format(v.vpd|int) }}</div><div class="k">일평균 조회수</div></div>
+  <div class="kpi"><div class="v">{{ st.dur }}초</div><div class="k">길이</div></div>
+  <div class="kpi"><div class="v">{{ st.n }}컷</div><div class="k">컷 수</div></div>
+  <div class="kpi"><div class="v">{{ st.asl }}초</div><div class="k">평균 컷 길이 ({{ st.asl_f }}프레임)</div></div>
+  <div class="kpi"><div class="v">{{ st.cpm }}</div><div class="k">분당 컷 수</div></div>
+  <div class="kpi"><div class="v">{{ st.speech }}%</div><div class="k">대사가 나오는 시간 비율</div></div>
+  <div class="kpi"><div class="v">{{ st.lufs }}</div><div class="k">원본 음량(LUFS) → 권장 -14</div></div>
+</div>
+
+<nav class="toc" aria-label="목차">
+  <a href="#why">1 왜 떡상했나</a><a href="#rhythm">2 편집 리듬</a><a href="#beats">3 스토리 비트</a><a href="#captions">4 자막 시스템</a>
+  <a href="#step0">5 캐릭터 시트</a><a href="#shots">6 컷별 분석·프롬프트</a><a href="#sound">7 사운드</a><a href="#edit">8 편집(FFmpeg·HyperFrames)</a>
+  <a href="#tech">9 편집 기법 해설</a><a href="#adapt">10 동물 바꾸기·생성 계획</a><a href="#models">11 모델 가이드</a>
+</nav>
+
+<section class="block" id="why">
+  <h2><span class="num">1</span>왜 떡상했나</h2>
+  <div class="chips" style="margin-bottom:12px">{% for f in an.formula %}<span class="chip accent">{{ f }}</span>{% if not loop.last %}<span class="arrow">→</span>{% endif %}{% endfor %}</div>
+  <ol class="why">{% for w in an.why %}<li>{{ w }}</li>{% endfor %}</ol>
+</section>
+
+<section class="block" id="rhythm">
+  <h2><span class="num">2</span>편집 리듬 타임라인</h2>
+  <p class="muted">위에서부터 스토리 비트 · 컷(색 = 누가 나오는지, 클릭하면 해당 컷으로 이동) · 효과음 위치(▼) · 대사 구간 · 소리 크기 곡선. 가장 짧은 컷 {{ st.min }}초, 가장 긴 컷 {{ st.max }}초, 중앙값 {{ st.med }}초.</p>
+  <div class="svgbox">{{ timeline_svg | safe }}</div>
+  <div class="legend">{% for k, c in legend %}<span><i style="background:{{ c }}"></i>{{ k }}</span>{% endfor %}</div>
+  <div class="grid3" style="margin-top:14px">
+    <div class="kpi"><div class="v">{{ st.bpm }} BPM</div><div class="k">배경 리듬 추정치(온셋 자기상관, 참고용)</div></div>
+    <div class="kpi"><div class="v">{{ st.sync }}%</div><div class="k">컷이 소리 박자(±0.08초)와 겹친 비율 · 우연 기준 {{ st.base }}%</div></div>
+    <div class="kpi"><div class="v">{{ st.silence }}%</div><div class="k">거의 무음(-45dB 이하) 구간</div></div>
+  </div>
+  <p class="note" style="margin-top:12px">{% if an.rhythm_note %}{{ an.rhythm_note | safe }}{% else %}해석: 컷과 박자 일치율이 우연 수준과 비슷하므로 <b>음악 박자가 아니라 대사·리액션 타이밍으로 자른 편집</b>입니다. 따라 만들 때는 "문장 하나 = 컷 2~3개, 리액션 컷은 0.4~0.7초"를 기준으로 자르세요.{% endif %}</p>
+</section>
+
+<section class="block" id="beats">
+  <h2><span class="num">3</span>스토리 비트와 감정 곡선</h2>
+  <div class="svgbox">{{ emotion_svg | safe }}</div>
+  <div class="tablewrap" style="margin-top:10px"><table>
+    <thead><tr><th>비트</th><th class="num">구간(초)</th><th class="num">감정</th><th>내용</th></tr></thead>
+    <tbody>{% for b in an.beats %}<tr><td><b>{{ b.k }}</b></td><td class="num">{{ '%.2f'|format(b.t[0]) }}–{{ '%.2f'|format(b.t[1]) }}</td><td class="num">{{ '%+.1f'|format(b.e) }}</td><td>{{ b.ko }}</td></tr>{% endfor %}</tbody>
+  </table></div>
+</section>
+
+<section class="block" id="captions">
+  <h2><span class="num">4</span>자막 시스템 (원본 측정값)</h2>
+  <p>{{ an.captions.summary }}</p>
+  <div class="grid2">
+    <div class="grid2" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:8px;align-content:start">
+      {% for d in cap_demos %}<div class="capdemo" style="background-image:url('{{ d.bg }}')">
+        {% for it in d.caps %}<span class="c {{ it.cls }}" data-tpl="{{ it.text }}">{{ it.text }}</span>{% endfor %}
+      </div>{% endfor %}
+    </div>
+    <div class="capspec">
+      {% for s in an.captions.styles %}<p><b>{{ s.name }}</b> {{ s.spec }}<br><span class="muted">{{ s.use }}</span></p>{% endfor %}
+      <p><b>타자 효과</b> {{ an.captions.typing }}</p>
+      <p><b>장식</b> {{ an.captions.decor }}</p>
+    </div>
+  </div>
+  <p class="muted" style="margin-top:8px">왼쪽 미리보기는 원본 화면 위에 <b>새로 쓴 예시 문구</b>를 측정한 위치·크기·색으로 올린 것입니다. 편집 키트의 captions.ass·HyperFrames 파일도 같은 값을 씁니다.</p>
+</section>
+
+<section class="block" id="step0">
+  <h2><span class="num">5</span>0단계: 캐릭터 시트 먼저 만들기</h2>
+  <p>모든 컷의 일관성은 이 한 장에서 시작합니다. 이미지 모델(Nano Banana Pro 권장)로 아래 프롬프트를 생성한 뒤, 이 시트를 모든 컷의 <b>참조 이미지</b>로 넣으세요. 지금 선택한 동물: <b data-kind="animalname"></b></p>
+  <div class="pbox"><div class="plabel">캐릭터 시트 프롬프트 <button class="copy" data-target="sheet-prompt">복사</button></div><pre id="sheet-prompt" data-kind="sheet"></pre></div>
+  <div class="pbox"><div class="plabel">공통 네거티브(영상·이미지 모두) <button class="copy" data-target="neg-prompt">복사</button></div><pre id="neg-prompt" data-kind="neg"></pre></div>
+  {% if human_cast %}<p class="muted">사람 역할(얼굴은 항상 입 위로 잘림):</p>
+  <ul class="clean">{% for k, c in human_cast %}<li><b>{{ c.role }}</b> — 자막 색 {{ c.cap }} · 목소리: {{ c.voice }}<br><code>{{ c.en }}</code></li>{% endfor %}</ul>{% endif %}
+</section>
+
+<section class="block" id="shots">
+  <h2><span class="num">6</span>컷별 분석 · 이미지/영상 프롬프트 · 추천 모델 ({{ st.n }}컷)</h2>
+  <p class="muted">큰 사진 = watch 스킬로 캡처한 <b>전환 직후 프레임</b>, 작은 사진 = 컷 중간·끝. 프롬프트는 상단에서 고른 동물·소품으로 자동으로 바뀝니다. 원본 대사는 옮기지 않고 <b>의도만 요약</b>했고, 초록 상자는 새로 쓴 예시 대본입니다.</p>
+  <div class="shotfilters">
+    <button class="on" data-who="all">전체</button><button data-who="hero">주인공</button><button data-who="human">사람</button><button data-who="other">인서트·편집</button>
+    <button class="copy" data-all="1">전체 프롬프트 복사</button><button class="copy" data-download="{{ an.key }}_prompts.txt">전체 프롬프트 .txt 저장</button>
+  </div>
+  {% for s in shots %}
+  <article class="shot" id="s{{ s.n }}" data-who="{{ s.who }}">
+    <div class="shot-h">
+      <span class="n">#{{ '%02d'|format(s.n) }}</span>
+      <span class="t">{{ '%.2f'|format(s.t_in) }}s → {{ '%.2f'|format(s.t_out) }}s · <b>{{ '%.2f'|format(s.dur) }}초</b> ({{ s.frames }}프레임)</span>
+      <span class="who" style="background:{{ s.color }}">{{ s.who_ko }}</span>
+      <span class="chip">{{ s.sz }}</span><span class="chip">{{ s.ang }}</span>
+      <span class="chip">들어올 때: {{ s.tr_label }}</span>
+      {% for f in s.fx_labels %}<span class="chip accent">{{ f }}</span>{% endfor %}
+    </div>
+    <div class="shot-body">
+      <div class="frames">
+        <div class="main"><img src="{{ s.img_a }}" alt="#{{ s.n }} 전환 직후" loading="lazy"><span class="tag">전환 직후 (watch 캡처)</span></div>
+        <div class="sub">
+          <figure style="margin:0"><img src="{{ s.img_m }}" alt="#{{ s.n }} 중간" loading="lazy"><figcaption>중간</figcaption></figure>
+          <figure style="margin:0"><img src="{{ s.img_z }}" alt="#{{ s.n }} 끝" loading="lazy"><figcaption>끝</figcaption></figure>
+          <figure style="margin:0"><div class="gridbox" title="주인공 위치(3×3)">{% for c in range(1,10) %}<span class="{{ 'on' if c in s.grid else '' }}"></span>{% endfor %}</div><figcaption>피사체 위치</figcaption></figure>
+        </div>
+        <div class="chips" style="margin-top:4px" title="대표 색">{% for p in s.palette %}<span class="chip"><i style="display:inline-block;width:12px;height:12px;border-radius:3px;background:{{ p.hex }}"></i>{{ p.hex }} {{ p.pct|int }}%</span>{% endfor %}</div>
+      </div>
+      <div>
+        <dl class="facts">
+          <dt>카메라</dt><dd>{{ s.cam }}</dd>
+          <dt>동작·표정</dt><dd data-tpl="{{ s.act }}">{{ s.act }}</dd>
+          <dt>배경</dt><dd>{{ s.bg }}</dd>
+          <dt>자막</dt><dd>{% if s.cap.lb %}<span class="chip">라벨</span> <span data-tpl="{{ s.cap.lb }}">{{ s.cap.lb }}</span><br>{% endif %}{% if s.cap.ln %}<span class="chip">대사</span> {{ s.cap.ln }} <span class="muted">({{ s.sp_ko }} 색 · {{ s.cap.fx }})</span>{% endif %}{% if not s.cap.lb and not s.cap.ln %}<span class="muted">없음</span>{% endif %}</dd>
+          <dt>전환</dt><dd>{{ s.tr }}</dd>
+          <dt>효과음</dt><dd>{{ s.sfx }}</dd>
+          <dt>편집 기법</dt><dd><b>{{ s.tech }}</b> — {{ s.why }}</dd>
+        </dl>
+        <div class="newline"><b>새 대본 예시</b> <span data-tpl="{{ s.new }}">{{ s.new }}</span>{% if s.vo %}<br><b>목소리만(자막 없음)</b> <span data-tpl="{{ s.vo }}">{{ s.vo }}</span>{% endif %}</div>
+        <details class="prompts" {% if loop.index <= 3 %}open{% endif %}>
+          <summary>프롬프트 · 추천 모델 · 생성 설정</summary>
+          <div class="pbox"><div class="plabel">① 이미지(키프레임) 프롬프트 <button class="copy" data-target="img-{{ s.n }}">복사</button></div><pre id="img-{{ s.n }}" data-kind="img" data-who="{{ s.who }}" data-tpl="{{ s.img }}">{{ s.img }}</pre></div>
+          <div class="pbox"><div class="plabel">② 영상(움직임) 프롬프트 <button class="copy" data-target="vid-{{ s.n }}">복사</button></div><pre id="vid-{{ s.n }}" data-kind="vid" data-who="{{ s.who }}" data-tpl="{{ s.mot }}">{{ s.mot }}</pre></div>
+          <p style="margin:6px 0 2px"><b>생성 설정</b> {{ s.gen_hint }} · <b>편집 사용 길이 {{ '%.2f'|format(s.dur) }}초</b></p>
+          <div class="models">{% for m in s.models %}<div class="model"><span class="rk {{ '' if loop.first else 'alt' }}">{{ '1순위' if loop.first else '대안' }}</span><b>{{ m.name }}</b><span class="muted">{{ m.kind }} · {{ m.spec }}</span><br>{{ m.best }}</div>{% endfor %}</div>
+        </details>
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</section>
+
+<section class="block" id="sound">
+  <h2><span class="num">7</span>사운드 디자인 (대사·BGM·효과음·믹스)</h2>
+  <p>{{ an.sound.summary }}</p>
+  <div class="grid2">
+    <div>
+      <h3>목소리(TTS) 설계</h3>
+      <div class="tablewrap"><table><thead><tr><th>역할</th><th>원본 측정</th><th>재현 방법</th></tr></thead>
+      <tbody>{% for x in an.sound.voices %}<tr><td><b>{{ x.who }}</b></td><td>{{ x.spec }}</td><td>{{ x.tts }}</td></tr>{% endfor %}</tbody></table></div>
+      <p class="muted">피치 올리기(FFmpeg, 길이 유지): <code>ffmpeg -i in.wav -af "rubberband=pitch=1.498" out.wav</code> (+7반음 = 1.498배)</p>
+    </div>
+    <div>
+      <h3>배경음악(BGM)</h3>
+      <p><b>원본 추정</b> {{ an.sound.bgm.guess }}</p>
+      <p><b>권장 구성</b> {{ an.sound.bgm.rec }}</p>
+      <p><b>볼륨</b> {{ an.sound.bgm.level }}</p>
+      {% for key, label in suno_list %}<div class="pbox"><div class="plabel">Suno 프롬프트 · {{ label }} <button class="copy" data-target="{{ key }}">복사</button></div><pre id="{{ key }}">{{ an.sound[key] }}</pre></div>{% endfor %}
+    </div>
+  </div>
+  <h3 style="margin-top:14px">효과음 큐 시트 (추천 — 영상에서 추정)</h3>
+  <div class="tablewrap"><table><thead><tr><th class="num">시각</th><th>효과음</th><th>이유</th><th>키트 파일명</th></tr></thead>
+  <tbody>{% for c in sfx_table %}<tr><td class="num">{{ '%.2f'|format(c.t) }}s</td><td>{{ c.s }}</td><td>{{ c.why }}</td><td><code>{{ c.file }}</code></td></tr>{% endfor %}</tbody></table></div>
+  <p class="note" style="margin-top:10px"><b>믹스 목표</b> {{ an.sound.mix }} · 원본 측정: 통합 {{ st.lufs }} LUFS, 음량 범위 {{ st.lra }} LU, 트루피크 {{ st.tp }} dBFS</p>
+  <p class="warn">효과음·BGM은 <b>저작권이 해결된 소스</b>만 쓰세요(유튜브 오디오 보관함, 직접 생성한 Suno 곡 등). 원본 영상의 소리를 잘라 쓰면 안 됩니다.</p>
+</section>
+
+<section class="block" id="edit">
+  <h2><span class="num">8</span>편집: FFmpeg · HyperFrames 키트</h2>
+  <p>{{ an.edit.timeline }}</p>
+  <ul class="clean">{% for r in an.edit.rules %}<li>{{ r }}</li>{% endfor %}</ul>
+  <div class="grid2" style="margin-top:12px">
+    <div>
+      <h3>키트 파일 ({{ kit_rel }})</h3>
+      <ul class="clean">
+        <li><a href="{{ kit_rel }}/edl.json">edl.json</a> · <a href="{{ kit_rel }}/edl.csv">edl.csv</a> — 컷 길이·전환·효과·화면비 (정답표)</li>
+        <li><a href="{{ kit_rel }}/captions.ass">captions.ass</a> — 자막 스타일 13종 + 예시 대본(타자 효과 포함)</li>
+        <li><a href="{{ kit_rel }}/sfx_cues.csv">sfx_cues.csv</a> — 효과음 위치</li>
+        <li><a href="{{ kit_rel }}/build_ffmpeg.py">build_ffmpeg.py</a> — 자동 조립 + 컷 검증</li>
+        <li><a href="{{ kit_rel }}/hyperframes/index.html">hyperframes/index.html</a> — 컴포지션(영상·자막·스티커·효과음 트랙)</li>
+        <li><a href="{{ kit_rel }}/PROMPTS.md">PROMPTS.md</a> — Claude Code 붙여넣기용 편집 프롬프트</li>
+      </ul>
+      <p class="note"><b>검증 완료:</b> {{ kit_test }}</p>
+    </div>
+    <div>
+      <h3>FFmpeg 빠른 실행</h3>
+      <pre class="code">cd {{ kit_rel }}
+python build_ffmpeg.py --check
+python build_ffmpeg.py --name "김수달" --pun "달" --bgm audio/bgm.mp3 --verify</pre>
+      <p class="muted">clips/ 폴더에 s01.mp4 형식으로 AI 영상을 넣으면 됩니다. 아직 없으면 번호가 적힌 임시 화면으로 조립돼 타이밍부터 확인할 수 있습니다.</p>
+    </div>
+  </div>
+  <div class="pbox"><div class="plabel">Claude Code 프롬프트 A — FFmpeg로 조립 <button class="copy" data-target="prompt-ff">복사</button></div><pre id="prompt-ff">{{ prompt_ff }}</pre></div>
+  <div class="pbox"><div class="plabel">Claude Code 프롬프트 B — HyperFrames로 조립 <button class="copy" data-target="prompt-hf">복사</button></div><pre id="prompt-hf">{{ prompt_hf }}</pre></div>
+  <h3>EDL 요약 (전환·효과가 있는 컷)</h3>
+  <div class="tablewrap"><table><thead><tr><th>컷</th><th class="num">시작</th><th class="num">길이</th><th>전환</th><th>효과</th><th>화면비</th></tr></thead>
+  <tbody>{% for e in edl_special %}<tr><td><a href="#s{{ e.n }}">#{{ '%02d'|format(e.n) }}</a></td><td class="num">{{ '%.2f'|format(e.t_in) }}</td><td class="num">{{ '%.2f'|format(e.dur) }}</td><td>{{ e.tr }}{% if e.tr_dur %} ({{ e.tr_dur }}초){% endif %}</td><td>{{ e.fx|join(', ') }}</td><td>{{ e.frame }}</td></tr>{% endfor %}</tbody></table></div>
+  <h3 style="margin-top:12px">HyperFrames 컴포지션 미리보기 (앞부분)</h3>
+  <pre class="code">{{ hf_excerpt }}</pre>
+</section>
+
+<section class="block" id="tech">
+  <h2><span class="num">9</span>떡상 편집 기법 해설 (이 영상 속 위치)</h2>
+  <div class="tablewrap"><table><thead><tr><th>기법</th><th>위치</th><th>설명</th></tr></thead>
+  <tbody>{% for t in an.tech %}<tr><td><b>{{ t.t }}</b></td><td>{{ t.w }}</td><td>{{ t.d }}</td></tr>{% endfor %}</tbody></table></div>
+</section>
+
+<section class="block" id="adapt">
+  <h2><span class="num">10</span>다른 동물로 바꾸기 · 생성 계획</h2>
+  <p><b>예시 각색</b> {{ an.adapt.premise }}</p>
+  <div class="grid2">
+    <div><h3>그대로 지킬 것</h3><ul class="clean">{% for k in an.adapt.keep %}<li>{{ k }}</li>{% endfor %}</ul></div>
+    <div><h3>바꿀 것</h3><ul class="clean">{% for k in an.adapt.change %}<li>{{ k }}</li>{% endfor %}</ul></div>
+  </div>
+  {% if an.adapt.costume %}<p><b>상상/의상 교체용 묘사</b> <code>{{ an.adapt.costume }}</code></p>{% endif %}
+  <h3>생성 배치 계획 — 비슷한 컷을 묶어 한 번에 뽑기</h3>
+  <div class="tablewrap"><table><thead><tr><th>배치</th><th>컷</th><th>방법</th></tr></thead>
+  <tbody>{% for b in an.batches %}<tr><td><b>{{ b.name }}</b></td><td>{% for n in b.shots %}<a href="#s{{ n }}">#{{ n }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</td><td>{{ b.how }}</td></tr>{% endfor %}</tbody></table></div>
+  <p class="note" style="margin-top:10px">비용 절약: {{ st.n }}컷 중 <b>{{ st.still_n }}컷</b>은 영상 생성 없이 정지 이미지·편집 효과로 충분합니다. 나머지도 컷마다 따로 만들지 말고 배치별 5초 생성 → 잘라 쓰기로 약 <b>{{ st.gen_est }}회 생성</b>이면 됩니다.</p>
+</section>
+
+<section class="block" id="models">
+  <h2><span class="num">11</span>이 영상에 쓰는 모델 가이드 (Pollo 사양 기준)</h2>
+  <div class="tablewrap"><table><thead><tr><th>모델</th><th>종류</th><th>사양</th><th>이럴 때</th><th class="num">추천 컷 수</th></tr></thead>
+  <tbody>{% for m in model_rows %}<tr><td><b>{{ m.name }}</b></td><td>{{ m.kind }}</td><td>{{ m.spec }}</td><td>{{ m.best }}</td><td class="num">{{ m.count }}</td></tr>{% endfor %}</tbody></table></div>
+  <p class="muted">"사양 기준 추천"은 참조 개수·길이·해상도 같은 공개 사양으로 고른 것입니다. 같은 컷을 1순위·대안 모델로 한 번씩 뽑아 비교(A/B)한 뒤 배치 전체에 적용하세요.</p>
+  <p class="warn">⚠️ 원본 채널의 캐릭터 이름·헤드폰 같은 상징 소품·대사를 그대로 쓰면 '따라 하기 채널'로 신고되거나 유튜브 재사용 콘텐츠 정책에 걸릴 수 있습니다. 구조·리듬·편집 문법은 가져오고, 캐릭터·대사·소품은 바꾸세요.</p>
+</section>
+{% endblock %}

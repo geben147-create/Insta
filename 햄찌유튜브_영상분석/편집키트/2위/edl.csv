@@ -1,0 +1,22 @@
+﻿컷,시작(초),끝(초),길이(초),프레임,대상,사이즈,전환(들어올 때),효과,화면비,생성 방식,추천 모델
+1,0.0,0.2,0.2,6,hero,ECU(초점 안 맞음),cut,,1x1,edit,edit
+2,0.2,1.667,1.467,44,hero,CU 셀카,cut,,1x1,i2v,veo-3-1 > kling-v3 > seedance-2-5
+3,1.667,3.067,1.4,42,hero,MCU 셀카,cut,,1x1,i2v,veo-3-1 > kling-v3
+4,3.067,8.0,4.933,148,hero,MS,cut,,1x1,i2v,kling-v3 > hailuo-2-3 > seedance-2-5
+5,8.0,13.1,5.1,153,hero,MS→WS(패닝),cut,,1x1,i2v,seedance-2-5 > veo-3-1 > kling-v3
+6,13.1,16.8,3.7,111,hero,CU,cut,,1x1,i2v,kling-v3 > hailuo-2-3
+7,16.8,18.3,1.5,45,hero,MCU,cut,,1x1,i2v,kling-v3 > minimax-h3
+8,18.3,19.9,1.6,48,hero,MS,cut,,1x1,i2v,kling-v3 > veo-3-1
+9,19.9,20.367,0.467,14,friend,사진(3:4) 로우앵글,cut,,3x4,still,still
+10,20.367,20.833,0.467,14,friend,사진(3:4) 로우앵글 전신,cut,emoji,3x4,still,still
+11,20.833,21.3,0.467,14,friend,사진(3:4) 초광각,cut,,3x4,still,still
+12,21.3,21.767,0.467,14,hero,사진(3:4) 셀카,cut,,3x4,still,still
+13,21.767,26.4,4.633,139,hero,MS→CU,cut,,1x1,i2v,kling-v3 > hailuo-2-3 > seedance-2-5
+14,26.4,32.067,5.667,170,hero,ECU,cut,,1x1,i2v,kling-v3 > hailuo-2-3
+15,32.067,35.667,3.6,108,hero,WS,cut,,1x1,i2v,kling-v3 > veo-3-1
+16,35.667,35.967,0.3,9,black,암전,cut,,full,edit,edit
+17,35.967,36.367,0.4,12,black,암전,cut,,full,edit,edit
+18,36.367,37.967,1.6,48,hero,ECU(웹캠),cut,,p088,i2v,minimax-h3 > kling-v3
+19,37.967,38.467,0.5,15,insert,휩 팬,cut,whip,p088,edit,edit > viduq3-pro
+20,38.467,40.533,2.067,62,insert,모니터 화면(폰으로 촬영),cut,whip,p088,edit,edit
+21,40.533,41.7,1.167,35,card,타이틀 카드,cut,,full,edit,edit

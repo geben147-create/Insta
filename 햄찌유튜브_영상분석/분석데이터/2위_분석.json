@@ -1,0 +1,1139 @@
+{
+ "key": "v2",
+ "rank": 2,
+ "id": "BCJT5RkluvI",
+ "fmt": "여름휴가 보고 · 폰카 여행 브이로그(사진첩 덤프)형",
+ "logline": "친구와 떠난 여름 여행을 휴대폰으로 찍은 셀카·먹방·풍경 영상으로 느긋하게 보여 주다가, 마지막에 '이번 휴가의 진짜 하이라이트'로 게임 랭크 승급 화면을 자랑하며 허를 찌르는 42초짜리 휴가 보고 영상.",
+ "formula": [
+  "셀카 인사(초점 헌팅 훅)",
+  "랜드마크 인증",
+  "먹방 1",
+  "풍경 패닝 공개",
+  "먹방 2(인터뷰)",
+  "사진 찍어주기 굴욕(사진 4연속)",
+  "먹방 3(평론가 이름표)",
+  "낮잠",
+  "작별 인사",
+  "암전",
+  "진짜 하이라이트 반전",
+  "엔딩 요약 카드"
+ ],
+ "why": [
+  "진짜 휴대폰으로 찍은 것 같은 질감(초점 헌팅, 흔들림, 1:1 정사각 화면, 친구 얼굴 이모지 가림) → AI 영상인데도 '실제 브이로그' 같은 몰입감",
+  "귀여운 동물 + 여행 + 먹방 3번 = 동물 채널에서 가장 오래 보는 조합. 먹는 장면이 전체의 40% 이상",
+  "평균 컷 2.0초로 느긋하게 가다가 사진 4장을 0.47초 간격으로 몰아치는 구간(18~22초)에서 리듬 변화",
+  "마지막 반전(여행보다 게임 승급이 더 자랑)이 게이머·직장인 공감 댓글을 유도하는 자기 비하 개그",
+  "엔딩 카드에 휴가를 한 줄로 요약해 공유하기 좋은 마무리",
+  "사무실 콩트가 대부분인 채널에서 분위기를 바꾼 '힐링 회차'라 구독자 반응(조회수 증가 속도)이 빠름"
+ ],
+ "look": "shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing",
+ "cast": {
+  "hero": {
+   "role": "주인공 동물(여행자)",
+   "cap": "#FFFFFF",
+   "voice": "아주 높은 톤(약 440Hz), 들뜬 여행 말투, 먹방 평론가 흉내"
+  },
+  "friend": {
+   "role": "여행 친구(사람)",
+   "cap": "-",
+   "en": "a young woman traveler in a black t-shirt, loose grey cargo pants and hiking shoes, her face hidden behind a round yellow googly-eyed emoji sticker added in the edit",
+   "voice": "화면 밖 목소리로 가끔 대화"
+  }
+ },
+ "sets": {
+  "tower": "in front of the red-and-white lattice Sapporo TV Tower under a clear blue summer sky with green trees",
+  "flowers": "a hillside of vivid rainbow-striped flower fields (orange marigolds, purple lavender, red salvia, white and yellow rows) in Hokkaido summer",
+  "pond": "a turquoise-blue pond with dead larch tree trunks standing in the water, surrounded by green forest (Biei Blue Pond style)",
+  "car": "inside a car or dim room with a dark background, a human hand holding a huge cream-filled sandwich cake",
+  "forest": "a birch-tree forest path with tall white trunks and a dirt trail, soft summer light",
+  "cafe": "a cozy wooden cafe table with a wicker basket, a glass of water and a parfait with whipped cream, berries, mint and melon",
+  "bed": "a soft white towel or bed sheet, morning light",
+  "gaming": "a dark room at night lit only by a computer monitor, a green gaming headset"
+ },
+ "beats": [
+  {
+   "k": "훅 · 셀카 인사",
+   "t": [
+    0,
+    3.07
+   ],
+   "e": 0.6,
+   "ko": "초점이 안 맞은 초근접 셀카(0.2초) → 초점이 잡히며 랜드마크 앞 인사. 폰 촬영 질감으로 몰입"
+  },
+  {
+   "k": "먹방 1",
+   "t": [
+    3.07,
+    8.0
+   ],
+   "e": 0.7,
+   "ko": "꽃밭 앞에서 보라색 소프트아이스크림. 4.9초 롱테이크로 천천히 맛봄"
+  },
+  {
+   "k": "풍경 공개",
+   "t": [
+    8.0,
+    13.1
+   ],
+   "e": 0.8,
+   "ko": "뒷모습 → 뒤돌아 앞발로 가리킴 → 카메라가 호수로 패닝해 풍경만 보여 줌"
+  },
+  {
+   "k": "먹방 2 · 인터뷰",
+   "t": [
+    13.1,
+    18.3
+   ],
+   "e": 0.7,
+   "ko": "줄 서서 산 디저트를 껴안고 먹음. 인터뷰어 말투 자막으로 먹방 리뷰"
+  },
+  {
+   "k": "사진 찍어주기 굴욕",
+   "t": [
+    18.3,
+    21.77
+   ],
+   "e": 0.9,
+   "ko": "'찍어 줄게' → 로우앵글 굴욕 사진 3장 → 주인공 셀카 난입. 사진 4장을 0.47초씩 몰아침"
+  },
+  {
+   "k": "먹방 3 · 평론가",
+   "t": [
+    21.77,
+    26.4
+   ],
+   "e": 0.7,
+   "ko": "카페 파르페를 숟가락으로 떠먹으며 '전문 평론가' 이름표 등장"
+  },
+  {
+   "k": "낮잠 · 작별",
+   "t": [
+    26.4,
+    35.67
+   ],
+   "e": 0.4,
+   "ko": "초근접 낮잠 → 깨어나 카메라 봄 → 숲길에서 앞발 흔들며 작별"
+  },
+  {
+   "k": "암전",
+   "t": [
+    35.67,
+    36.37
+   ],
+   "e": 0.0,
+   "ko": "0.7초 완전 검은 화면 = 밤으로 시간 점프"
+  },
+  {
+   "k": "진짜 하이라이트",
+   "t": [
+    36.37,
+    40.53
+   ],
+   "e": 1.0,
+   "ko": "어두운 방 웹캠 얼굴 '이거 봐!' → 휩 팬 → 모니터 속 게임 랭크 승급 화면(초점 맞으며 공개)"
+  },
+  {
+   "k": "엔딩 카드",
+   "t": [
+    40.53,
+    41.7
+   ],
+   "e": 0.5,
+   "ko": "검은 화면 요약 자막 '휴가 보고: 여행 + 승급' + 끝 인사 타이핑"
+  }
+ ],
+ "captions": {
+  "summary": "브이로그형 자막. 주인공 속마음은 괄호 자막, 장소는 화살표 라벨, 인물 소개는 이름표, 마지막은 검은 배경 요약 카드. 영상이 1:1 정사각이라 자막도 정사각 안쪽 하단에 둠",
+  "styles": [
+   {
+    "name": "괄호 속마음",
+    "css": "paren",
+    "spec": "흰 글씨 + 검정 외곽선 약 4px, 약 54px, 정사각 화면 하단 중앙(y≈0.92)",
+    "use": "(친구랑 놀러 옴~!) 같은 혼잣말·상황 설명"
+   },
+   {
+    "name": "장소 화살표 라벨",
+    "css": "pointer",
+    "spec": "작은 흰 글씨 + 그림자, 약 30px, 랜드마크 옆 위쪽, 끝에 >>>> 화살표",
+    "use": "랜드마크 이름 가리키기"
+   },
+   {
+    "name": "대사",
+    "css": "line-hero",
+    "spec": "흰 글씨 + 검정 외곽선, 약 54px, 하단 중앙",
+    "use": "주인공이 실제로 말하는 대사"
+   },
+   {
+    "name": "인물 이름표",
+    "css": "label-name",
+    "spec": "검정 박스 + 흰 글씨 약 30px, '직함 | 이름'",
+    "use": "먹방 평론가 콘셉트 소개"
+   },
+   {
+    "name": "엔딩 요약 카드",
+    "css": "card",
+    "spec": "검은 배경, 작은 제목(약 36px) + 큰 요약(약 64px) 가운데 정렬, 하단에 끝 인사 타이핑",
+    "use": "영상 전체를 한 줄로 정리"
+   }
+  ],
+  "typing": "대부분 즉시 표시. 엔딩 카드 인사만 타자 효과",
+  "decor": "의성어(쩝쩝쩝)와 짧은 감탄사(YA 같은 한마디)를 크게 쓰지 않고 같은 크기로 담백하게 처리 → 브이로그 톤 유지"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "who": "hero",
+   "sz": "ECU(초점 안 맞음)",
+   "ang": "셀카(팔 길이)",
+   "cam": "핸드헬드, 카메라가 얼굴에 너무 가까워 초점이 흐림",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "분홍 모자를 쓴 얼굴이 흐릿하게 화면을 가득 채움",
+   "bg": "파란 하늘",
+   "set": "tower",
+   "cap": {
+    "lb": null,
+    "ln": null,
+    "sp": "hero",
+    "fx": "없음"
+   },
+   "tr": "오프닝(0.2초 흐린 화면으로 시작)",
+   "sfx": "바람 소리 + 휴대폰 조작 '툭'",
+   "tech": "초점 헌팅(오토포커스가 잡히기 전)",
+   "why": "진짜 폰으로 찍기 시작한 순간 같은 현실감. 0.2초라 호기심만 자극",
+   "img": "Out-of-focus extreme close-up selfie of {HERO} wearing a small pink baseball cap, face too close to the phone camera, blue sky behind, blurry",
+   "mot": "Handheld selfie camera pulls back slightly and the autofocus hunts from blurry to sharp. Use the first 0.2 seconds of the next shot's generation.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(자막 없음)"
+  },
+  {
+   "n": 2,
+   "who": "hero",
+   "sz": "CU 셀카",
+   "ang": "살짝 로우앵글 셀카",
+   "cam": "핸드헬드, 초점이 잡히며 살짝 뒤로 빠짐",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "분홍 모자를 쓰고 카메라를 보며 인사. 뒤에 붉은 철탑",
+   "bg": "TV 타워, 파란 하늘, 나무",
+   "set": "tower",
+   "cap": {
+    "lb": null,
+    "ln": "여행지에 인사하는 대사",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "초점 헌팅이 이어지는 연속 동작(사실상 같은 테이크)",
+   "sfx": "도시 앰비언스, 매미 소리",
+   "tech": "셀카 오프닝 = 시청자와 눈 맞춤",
+   "why": "주인공이 시청자에게 직접 말을 거는 1인칭 시작",
+   "img": "Handheld smartphone selfie close-up of {HERO} wearing a small pink baseball cap, looking into the lens, {TOWER}",
+   "mot": "Natural handheld selfie wobble, the autofocus settles on the face, the {ANIMAL} blinks and greets the camera, cap brim moves slightly in the wind.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3",
+    "seedance-2-5"
+   ],
+   "new": "안녕 제주~"
+  },
+  {
+   "n": 3,
+   "who": "hero",
+   "sz": "MCU 셀카",
+   "ang": "셀카",
+   "cam": "핸드헬드, 조금 더 넓게",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "앞발을 흔들며 인사, 오른쪽에 철탑 전체",
+   "bg": "TV 타워, 나무",
+   "set": "tower",
+   "cap": {
+    "lb": "[화살표 라벨] 랜드마크 이름 >>>>",
+    "ln": "(친구와 여행 왔다는 괄호 속마음)",
+    "sp": "hero",
+    "fx": "화살표 라벨 + 괄호 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "화살표 라벨로 장소 인증",
+   "why": "여행지를 한눈에 알림",
+   "img": "Handheld smartphone selfie medium close-up of {HERO} in a small pink cap waving one tiny paw, the whole tower visible on the right, {TOWER}",
+   "mot": "The {ANIMAL} waves its paw at the camera cheerfully, slight handheld shake. Keep the tower in frame.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(라벨) 성산일출봉 >>>> / (친구랑 놀러 온 제주~!)"
+  },
+  {
+   "n": 4,
+   "who": "hero",
+   "sz": "MS",
+   "ang": "아이레벨",
+   "cam": "핸드헬드 고정(4.9초 롱테이크)",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "베이지 버킷햇을 쓰고 보라색 소프트아이스크림을 들고 맛봄, 눈 동그랗게",
+   "bg": "무지개 줄무늬 꽃밭",
+   "set": "flowers",
+   "cap": {
+    "lb": null,
+    "ln": "(맛 분석 중) → 먹는 의성어",
+    "sp": "hero",
+    "fx": "괄호 자막 → 의성어"
+   },
+   "tr": "하드컷",
+   "sfx": "바람, 새소리, 쩝쩝 먹는 소리",
+   "tech": "먹방 롱테이크",
+   "why": "천천히 보는 힐링 구간. 먹는 소리 ASMR",
+   "img": "Medium shot of {HERO} wearing a small beige bucket hat, holding a lavender soft-serve ice cream cone with both paws, {FLOWERS}",
+   "mot": "The {ANIMAL} licks the ice cream twice, pauses with wide surprised eyes, then munches happily. Gentle handheld sway, flowers move in the breeze.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "hailuo-2-3",
+    "seedance-2-5"
+   ],
+   "new": "(맛 감별 중) → 쩝쩝쩝",
+   "vo": "한라봉 맛이다?"
+  },
+  {
+   "n": 5,
+   "who": "hero",
+   "sz": "MS→WS(패닝)",
+   "ang": "아이레벨",
+   "cam": "뒷모습에서 시작 → 주인공이 뒤돌아 가리키면 카메라가 오른쪽으로 패닝해 호수만 보여 줌(5.1초)",
+   "grid": [
+    4,
+    7
+   ],
+   "act": "버킷햇 뒷모습 → 뒤돌아 앞발로 호수를 가리킴 → 화면 밖으로",
+   "bg": "청록색 호수와 물에 선 나무들",
+   "set": "pond",
+   "cap": {
+    "lb": null,
+    "ln": "(색이 정말 고운 호수라는 괄호 자막)",
+    "sp": "hero",
+    "fx": "괄호 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "물·새·바람 앰비언스",
+   "tech": "가리키기 → 패닝 공개(Reveal pan)",
+   "why": "캐릭터가 시선을 안내해 풍경으로 자연스럽게 넘어감",
+   "img": "Medium shot from behind of {HERO} wearing a beige bucket hat looking at {POND}",
+   "mot": "The {ANIMAL} turns around, points its tiny paw at the pond, then the handheld camera pans right to reveal only the turquoise pond with standing tree trunks. Smooth phone-video pan.",
+   "gen": "i2v",
+   "m": [
+    "seedance-2-5",
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(진짜 에메랄드 바다)",
+   "vo": "저 색깔 좀 봐 · 완전 예쁘다"
+  },
+  {
+   "n": 6,
+   "who": "hero",
+   "sz": "CU",
+   "ang": "아이레벨",
+   "cam": "핸드헬드, 사람 손이 디저트를 들고 있음",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "분홍 모자를 쓰고 거대한 크림 샌드 케이크를 껴안고 베어 묾",
+   "bg": "어두운 실내",
+   "set": "car",
+   "cap": {
+    "lb": null,
+    "ln": "줄 서서 산 디저트 소개 → 인터뷰어 말투로 맛을 물음",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷",
+   "sfx": "바삭·폭신 먹는 소리",
+   "tech": "인터뷰 형식 자막",
+   "why": "먹방을 '맛 인터뷰'로 만들어 대사 개그",
+   "img": "Close-up of {HERO} wearing a small pink cap, hugging and biting a huge cream-filled sandwich cake held by a human hand, dark background, {CAR}",
+   "mot": "The {ANIMAL} hugs the cake and takes big bites, cream smears on its whiskers. Slight handheld movement.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "hailuo-2-3"
+   ],
+   "new": "(한 시간 줄 서서 사 먹는) → 빵 맛은 어떻습니까?"
+  },
+  {
+   "n": 7,
+   "who": "hero",
+   "sz": "MCU",
+   "ang": "아이레벨",
+   "cam": "핸드헬드",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "입가에 크림을 묻힌 채 오물거리며 카메라를 봄",
+   "bg": "어두운 실내, 케이크 단면",
+   "set": "car",
+   "cap": {
+    "lb": null,
+    "ln": "짧은 감탄 한마디 → 괄호 츳코미",
+    "sp": "hero",
+    "fx": "기본 → 괄호"
+   },
+   "tr": "하드컷",
+   "sfx": "오물오물",
+   "tech": "먹방 리액션 클로즈업",
+   "why": "크림 묻은 얼굴 = 귀여움 정점",
+   "img": "Medium close-up of {HERO} in a small pink cap chewing with cream on its mouth, looking into the camera, cake beside it, {CAR}",
+   "mot": "Chews with puffed cheeks, licks cream off its lips, stares at the camera. Handheld.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "minimax-h3"
+   ],
+   "new": "야 → (입가에 크림 묻음)",
+   "vo": "야 이거 인생빵이야"
+  },
+  {
+   "n": 8,
+   "who": "hero",
+   "sz": "MS",
+   "ang": "아이레벨",
+   "cam": "핸드헬드, 주인공이 카메라로 다가오며 앞발을 뻗음",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "숲길에서 크로스백을 멘 채 카메라를 달라며 앞발을 뻗음",
+   "bg": "자작나무 숲길",
+   "set": "forest",
+   "cap": {
+    "lb": null,
+    "ln": "카메라를 달라는 말 → 찍어 주겠다는 말",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷",
+   "sfx": "숲 앰비언스, 발소리",
+   "tech": "앞발이 렌즈를 가리며 다음 컷으로(와이프 느낌)",
+   "why": "다음 사진 구간을 예고",
+   "img": "Medium shot of {HERO} wearing a beige bucket hat and a tiny light-blue crossbody bag standing on {FOREST}, reaching both paws toward the camera",
+   "mot": "The {ANIMAL} walks toward the camera and reaches its paws up to grab the phone, paws come close to the lens. Handheld.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "veo-3-1"
+   ],
+   "new": "카메라 줘 봐 → 찍어 줄게~"
+  },
+  {
+   "n": 9,
+   "who": "friend",
+   "sz": "사진(3:4) 로우앵글",
+   "ang": "바닥에서 올려다봄",
+   "cam": "정지 사진",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "친구의 다리와 신발만 크게 나온 굴욕 사진",
+   "bg": "자작나무 숲",
+   "set": "forest",
+   "cap": {
+    "lb": null,
+    "ln": "(구도 문제를 꼬집는 괄호 자막)",
+    "sp": "hero",
+    "fx": "괄호 자막"
+   },
+   "tr": "하드컷(사진 화면비 3:4로 바뀜)",
+   "sfx": "카메라 셔터 '찰칵'",
+   "tech": "포토 덤프(사진 연속 0.47초)",
+   "why": "동물이 찍어서 로우앵글인 설정 개그",
+   "img": "Smartphone photo, 3:4 portrait, extreme low angle from the ground looking up at the legs of {FRIEND}, grey cargo pants and hiking shoes dominating the frame, birch forest",
+   "mot": "Still photo (no motion).",
+   "gen": "still",
+   "m": [
+    "still"
+   ],
+   "new": "(구도 이슈)"
+  },
+  {
+   "n": 10,
+   "who": "friend",
+   "sz": "사진(3:4) 로우앵글 전신",
+   "ang": "극단적 로우앵글",
+   "cam": "정지 사진",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "친구 전신, 얼굴은 노란 눈알 이모지 스티커로 가림",
+   "bg": "자작나무 숲",
+   "set": "forest",
+   "cap": {
+    "lb": null,
+    "ln": "(같은 괄호 자막 유지)",
+    "sp": "hero",
+    "fx": "괄호"
+   },
+   "tr": "하드컷",
+   "sfx": "셔터 '찰칵'",
+   "tech": "이모지 스티커로 사람 얼굴 가림",
+   "why": "실제 브이로그 관행(친구 얼굴 가림) 흉내 → 현실감",
+   "img": "Smartphone photo, 3:4 portrait, extreme low-angle full-body shot of {FRIEND} standing among tall birch trees",
+   "mot": "Still photo (no motion). Add the round yellow googly-eye emoji over the face in the edit.",
+   "gen": "still",
+   "m": [
+    "still"
+   ],
+   "new": "(구도 이슈)"
+  },
+  {
+   "n": 11,
+   "who": "friend",
+   "sz": "사진(3:4) 초광각",
+   "ang": "극단적 로우앵글",
+   "cam": "정지 사진",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "친구가 아주 작게, 나무가 하늘로 치솟은 사진",
+   "bg": "자작나무 숲",
+   "set": "forest",
+   "cap": {
+    "lb": null,
+    "ln": "(다리가 비현실적으로 길게 나온 사진을 놀리는 자막)",
+    "sp": "hero",
+    "fx": "괄호"
+   },
+   "tr": "하드컷",
+   "sfx": "셔터 '찰칵'",
+   "tech": "3연속 변주",
+   "why": "같은 굴욕 사진 3장으로 3의 법칙",
+   "img": "Smartphone photo, 3:4 portrait, ultra-wide extreme low angle of a tiny {FRIEND} far away under towering birch trees reaching into the sky",
+   "mot": "Still photo (no motion). Emoji sticker over the face in the edit.",
+   "gen": "still",
+   "m": [
+    "still"
+   ],
+   "new": "(8등신 → 2등신샷)"
+  },
+  {
+   "n": 12,
+   "who": "hero",
+   "sz": "사진(3:4) 셀카",
+   "ang": "셀카 로우앵글",
+   "cam": "정지 사진",
+   "grid": [
+    7,
+    8,
+    9
+   ],
+   "act": "주인공 얼굴이 화면 아래를 가득 채우고 친구는 뒤에 조그맣게",
+   "bg": "자작나무 숲",
+   "set": "forest",
+   "cap": {
+    "lb": null,
+    "ln": "(미안하다는 괄호 자막, 말끝 {PUN})",
+    "sp": "hero",
+    "fx": "괄호"
+   },
+   "tr": "하드컷",
+   "sfx": "셔터 '찰칵'",
+   "tech": "펀치라인 사진(셀카 난입)",
+   "why": "3장 굴욕 후 4번째 사진에서 결국 자기 셀카 → 반전 웃음",
+   "img": "Smartphone photo, 3:4 portrait, low-angle selfie of {HERO} in a bucket hat filling the bottom of the frame, tiny {FRIEND} far behind in the birch forest",
+   "mot": "Still photo (no motion).",
+   "gen": "still",
+   "m": [
+    "still"
+   ],
+   "new": "(미안{PUN}...)"
+  },
+  {
+   "n": 13,
+   "who": "hero",
+   "sz": "MS→CU",
+   "ang": "아이레벨",
+   "cam": "핸드헬드, 천천히 다가감(4.6초)",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "카페에서 파르페를 숟가락으로 떠먹고 웃으며 평가",
+   "bg": "나무 카페, 바구니, 물잔",
+   "set": "cafe",
+   "cap": {
+    "lb": "[이름표] 직함 | 이름(먹방 평론가 콘셉트)",
+    "ln": "(하루 종일 먹는 고수) → 평론가 말투 평가",
+    "sp": "hero",
+    "fx": "괄호 → 이름표 + 대사"
+   },
+   "tr": "하드컷(1:1로 복귀)",
+   "sfx": "카페 앰비언스, 숟가락 소리",
+   "tech": "이름표로 캐릭터 콘셉트 부여",
+   "why": "먹방을 '전문가 리뷰' 콩트로",
+   "img": "Medium shot of {HERO} wearing a beige bucket hat sitting at {CAFE}, holding a tiny spoon",
+   "mot": "The {ANIMAL} scoops cream with the spoon, eats it, then smiles widely at the camera and nods like a critic. Slow handheld push-in.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "hailuo-2-3",
+    "seedance-2-5"
+   ],
+   "new": "(하루 종일 먹는 고수) → [이름표] 전문 먹방평론가 | {이름} / 내가 보니까 → [이름표 유지] / 제주는 귤을 잘하네"
+  },
+  {
+   "n": 14,
+   "who": "hero",
+   "sz": "ECU",
+   "ang": "위에서 내려다봄",
+   "cam": "핸드헬드 고정(5.7초 롱테이크)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "하얀 수건 위에서 눈 감고 자다가 → 끝에서 눈 뜨고 카메라를 봄",
+   "bg": "흰 수건",
+   "set": "bed",
+   "cap": {
+    "lb": null,
+    "ln": "(낮잠 필수라는 괄호) → (다시 나가기 싫다는 괄호)",
+    "sp": "hero",
+    "fx": "괄호 2개 연속"
+   },
+   "tr": "하드컷",
+   "sfx": "고요함, 새근새근 숨소리",
+   "tech": "슬로 비트(쉼표 구간)",
+   "why": "반전 직전 가장 느린 구간 → 뒤 반전의 낙차",
+   "img": "Extreme close-up from above of {HERO} sleeping on {BED}, eyes closed, peaceful",
+   "mot": "Slow breathing, tiny twitch of whiskers, then the {ANIMAL} opens its eyes and looks up at the camera sleepily. Very subtle handheld drift.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "hailuo-2-3"
+   ],
+   "new": "(여행 3일 차 체력 방전) → (숙소가 제일 좋아)"
+  },
+  {
+   "n": 15,
+   "who": "hero",
+   "sz": "WS",
+   "ang": "아이레벨(낮게)",
+   "cam": "핸드헬드 고정",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "숲길 한가운데 서서 앞발을 흔들며 작별 인사",
+   "bg": "자작나무 숲길",
+   "set": "forest",
+   "cap": {
+    "lb": null,
+    "ln": "작별 인사(물결 늘임)",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷",
+   "sfx": "숲 앰비언스",
+   "tech": "가짜 엔딩(Fake ending)",
+   "why": "끝난 줄 알게 만든 뒤 반전",
+   "img": "Wide shot of {HERO} wearing a beige bucket hat and a tiny light-blue crossbody bag standing in the middle of {FOREST}",
+   "mot": "The {ANIMAL} waves its tiny paw goodbye at the camera several times. Gentle handheld.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "veo-3-1"
+   ],
+   "new": "안뇽~~"
+  },
+  {
+   "n": 16,
+   "who": "black",
+   "sz": "암전",
+   "ang": "-",
+   "cam": "-",
+   "grid": [],
+   "act": "완전 검은 화면 0.3초",
+   "bg": "검정",
+   "set": "gaming",
+   "cap": {
+    "lb": null,
+    "ln": null,
+    "sp": "hero",
+    "fx": "없음"
+   },
+   "tr": "하드컷 투 블랙",
+   "sfx": "정적",
+   "tech": "암전으로 시간 점프",
+   "why": "낮→밤, 여행→집 전환을 설명 없이",
+   "img": "(No image — pure black frame)",
+   "mot": "Edit: 0.3 s of black.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(암전)"
+  },
+  {
+   "n": 17,
+   "who": "black",
+   "sz": "암전",
+   "ang": "-",
+   "cam": "-",
+   "grid": [],
+   "act": "검은 화면 0.4초(총 0.7초 암전)",
+   "bg": "검정",
+   "set": "gaming",
+   "cap": {
+    "lb": null,
+    "ln": null,
+    "sp": "hero",
+    "fx": "없음"
+   },
+   "tr": "-",
+   "sfx": "정적 끝에 방 안 소음 페이드인",
+   "tech": "-",
+   "why": "-",
+   "img": "(No image — pure black frame)",
+   "mot": "Edit: 0.4 s of black.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(암전)"
+  },
+  {
+   "n": 18,
+   "who": "hero",
+   "sz": "ECU(웹캠)",
+   "ang": "정면, 아주 가까이",
+   "cam": "핸드헬드, 흔들리며 들이댐",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "어두운 방에서 모니터 불빛을 받은 얼굴을 카메라에 들이대며 흥분",
+   "bg": "어두운 방, 초록 게이밍 헤드셋",
+   "set": "gaming",
+   "cap": {
+    "lb": null,
+    "ln": "팬들을 부름 → '이거 봐!'",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "암전에서 하드컷",
+   "sfx": "키보드·마우스 클릭, 방 소음",
+   "tech": "톤 급변(힐링→흥분)",
+   "why": "진짜 하이라이트 예고",
+   "img": "Extreme close-up of {HERO} leaning very close to a phone camera in a dark room, face lit by cool monitor light, a green gaming headset visible, excited expression",
+   "mot": "The {ANIMAL} pushes its face toward the lens excitedly and talks fast. Shaky handheld, flickering monitor light.",
+   "gen": "i2v",
+   "m": [
+    "minimax-h3",
+    "kling-v3"
+   ],
+   "new": "여러분!!! → 이거 봐~!"
+  },
+  {
+   "n": 19,
+   "who": "insert",
+   "sz": "휩 팬",
+   "ang": "-",
+   "cam": "빠르게 옆으로 휘두르는 팬(모션블러)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "초록 불빛이 번지며 모니터 쪽으로 휙 돌아감",
+   "bg": "흐릿한 방",
+   "set": "gaming",
+   "cap": {
+    "lb": null,
+    "ln": null,
+    "sp": "hero",
+    "fx": "없음"
+   },
+   "tr": "휩 팬(0.5초)",
+   "sfx": "'휙' 스윙",
+   "tech": "휩 팬 전환",
+   "why": "두 공간을 에너지 있게 연결",
+   "img": "(Motion-blurred frame of a dark room)",
+   "mot": "Edit: fast horizontal whip pan with heavy motion blur for 0.5 s (or generate a 1 s whip-pan clip).",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "viduq3-pro"
+   ],
+   "new": "(휩 팬)"
+  },
+  {
+   "n": 20,
+   "who": "insert",
+   "sz": "모니터 화면(폰으로 촬영)",
+   "ang": "정면",
+   "cam": "흐린 상태 → 초점이 잡힘(랙 포커스), 폰으로 모니터를 찍은 질감",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "게임 랭크 승급 화면이 모니터에 떠 있음",
+   "bg": "모니터, 어두운 방",
+   "set": "gaming",
+   "cap": {
+    "lb": null,
+    "ln": "승급 자랑 → (만년 하위 티어 셀프 츳코미)",
+    "sp": "hero",
+    "fx": "기본 → 괄호"
+   },
+   "tr": "휩 팬에서 이어짐",
+   "sfx": "승급 팡파레(직접 만든 효과음 사용)",
+   "tech": "랙 포커스 공개",
+   "why": "진짜 하이라이트를 초점 잡히는 순간에 공개",
+   "img": "Smartphone photo of a computer monitor in a dark room showing your OWN game rank-up screen (replace with your screenshot), slight moire and screen glare",
+   "mot": "Edit: start blurred and rack-focus to sharp over 0.6 s, slight handheld drift. Use your own game screen capture.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "골드 승급했다! → (3년 만의 승급임)"
+  },
+  {
+   "n": 21,
+   "who": "card",
+   "sz": "타이틀 카드",
+   "ang": "-",
+   "cam": "-",
+   "grid": [
+    5
+   ],
+   "act": "검은 화면에 휴가 요약 + 끝 인사 타이핑 → 마지막 한 글자 '끝'",
+   "bg": "검정",
+   "set": "gaming",
+   "cap": {
+    "lb": "작은 제목: 여름휴가 보고",
+    "ln": "큰 요약: 여행지 + 승급",
+    "sp": "hero",
+    "fx": "요약 카드 + 타이핑"
+   },
+   "tr": "하드컷",
+   "sfx": "타자 소리 + 마지막 '뿅'",
+   "tech": "엔딩 요약 카드",
+   "why": "공유하기 좋은 한 줄 정리 + 깔끔한 마무리",
+   "img": "(Black title card made in the edit)",
+   "mot": "Edit: small title + big summary text, then a sign-off line types in, then cut to a one-word 'end' card.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(카드 작게) 여름휴가 보고 / (카드) 제주 여행 + 랭크 승급 야호 → (카드) 끝!"
+  }
+ ],
+ "sound": {
+  "summary": "브이로그형 사운드. 대사는 띄엄띄엄(주인공 혼잣말 + 친구 목소리), 장소마다 앰비언스(바람·새·카페)가 바뀜. 무음 비율 21%로 1위보다 조용함(암전 0.7초 포함). 컷과 음악 박자의 일치율 25%는 우연 수준 → 박자에 맞춰 자르지 않음",
+  "voices": [
+   {
+    "who": "주인공",
+    "spec": "약 350~670Hz(중앙값 약 450Hz), 여행 들뜬 톤, 먹방 평론가 흉내",
+    "tts": "밝은 여성 또는 어린이 목소리 → 피치 +7~+8반음, 속도 1.05배"
+   },
+   {
+    "who": "친구(화면 밖)",
+    "spec": "일반 성인 톤, 짧은 맞장구",
+    "tts": "20대 여성, 자연스러운 대화체"
+   },
+   {
+    "who": "내레이터 느낌 한 줄",
+    "spec": "약 256Hz, 다큐 흉내 말투(26~29초)",
+    "tts": "주인공 목소리를 낮고 진지하게(피치 +3반음)"
+   }
+  ],
+  "bgm": {
+   "guess": "여름 여행 느낌의 밝은 BGM이 깔린 것으로 추정(정확한 곡은 청취 확인 필요). 암전 이후 게임 구간은 분위기가 바뀜",
+   "rec": "①여행 구간: 시티팝/트로피컬 하우스 100~120BPM, 기타 커팅 ②낮잠: 음악 거의 끄고 앰비언스만 ③게임 구간: 짧은 신스 팡파레 → 엔딩 카드에서 컷",
+   "level": "대사 대비 약 -16~-20dB, 대사 없는 풍경 구간은 -10dB까지 올림"
+  },
+  "sfx": [
+   {
+    "t": 0.0,
+    "s": "바람 + 폰 조작 '툭'",
+    "why": "셀카 시작"
+   },
+   {
+    "t": 3.1,
+    "s": "꽃밭 바람 + 새소리",
+    "why": "장소 전환"
+   },
+   {
+    "t": 5.0,
+    "s": "쩝쩝 먹는 소리",
+    "why": "먹방"
+   },
+   {
+    "t": 8.0,
+    "s": "물가 앰비언스",
+    "why": "호수"
+   },
+   {
+    "t": 13.1,
+    "s": "바삭·폭신 먹는 소리",
+    "why": "디저트"
+   },
+   {
+    "t": 19.9,
+    "s": "셔터 '찰칵'",
+    "why": "사진 1"
+   },
+   {
+    "t": 20.37,
+    "s": "셔터 '찰칵'",
+    "why": "사진 2"
+   },
+   {
+    "t": 20.83,
+    "s": "셔터 '찰칵'",
+    "why": "사진 3"
+   },
+   {
+    "t": 21.3,
+    "s": "셔터 '찰칵'",
+    "why": "셀카 사진"
+   },
+   {
+    "t": 21.8,
+    "s": "카페 앰비언스 + 숟가락",
+    "why": "먹방 3"
+   },
+   {
+    "t": 26.4,
+    "s": "새근새근 숨소리",
+    "why": "낮잠"
+   },
+   {
+    "t": 35.67,
+    "s": "정적(0.7초)",
+    "why": "암전"
+   },
+   {
+    "t": 36.4,
+    "s": "키보드·마우스 클릭",
+    "why": "게임 방"
+   },
+   {
+    "t": 37.97,
+    "s": "'휙' 스윙",
+    "why": "휩 팬"
+   },
+   {
+    "t": 38.5,
+    "s": "승급 팡파레(자작)",
+    "why": "진짜 하이라이트"
+   },
+   {
+    "t": 40.53,
+    "s": "타자 소리 + '뿅'",
+    "why": "엔딩 카드"
+   }
+  ],
+  "suno": "Bright summer travel vlog background music, 112 BPM, city pop, clean electric guitar cutting, soft synth pads, light percussion, carefree and sunny, no vocals, 40 seconds",
+  "suno2": "Very soft ambient lullaby pad for a nap scene, warm and quiet, 70 BPM, no drums, no vocals, 8 seconds",
+  "suno3": "Short triumphant 8-bit synth fanfare for a game rank-up moment, energetic, 3 seconds, no vocals",
+  "mix": "-14 LUFS / -1dBTP. 원본은 약 -24 LUFS. 게임 화면의 원래 효과음·음악은 저작권이 있으니 쓰지 말고 자작 효과음 사용"
+ },
+ "edit": {
+  "timeline": "30fps, 1920×1080 캔버스 안에 1:1 정사각(1080×1080, 가로 420px 위치) 영상을 가운데 두고 양옆 검정. 친구 사진 4장은 3:4(810×1080), 게임 구간은 약 0.88:1. 21컷, 평균 2.0초. 롱테이크(3.6~5.7초)와 사진 연타(0.47초)가 섞임",
+  "rules": [
+   "AI 영상은 16:9로 뽑아도 되지만 편집에서 1:1로 잘라 가운데 배치(검은 여백) → 폰 브이로그 느낌",
+   "롱테이크 컷은 AI 생성물을 거의 통째로 쓰고(5초), 핸드헬드 흔들림이 있는 모델/프롬프트를 사용",
+   "사진 연타 구간은 정지 이미지 4장 × 0.47초 + 셔터음 4번",
+   "사람 얼굴은 이모지 스티커로 가림(편집에서 얹기)",
+   "암전 0.7초로 시간 점프, 그 뒤 휩 팬 → 랙 포커스로 반전 공개",
+   "엔딩은 검은 요약 카드 + 끝 인사 타이핑"
+  ]
+ },
+ "tech": [
+  {
+   "t": "초점 헌팅 오프닝",
+   "w": "#1→#2",
+   "d": "흐린 화면 0.2초로 '지금 막 폰을 켠' 현실감"
+  },
+  {
+   "t": "1:1 필러박스(pillarbox)",
+   "w": "전체",
+   "d": "가로 영상 안에 정사각 화면을 넣어 인스타 게시물·폰 사진첩 느낌"
+  },
+  {
+   "t": "장소 화살표 라벨",
+   "w": "#3",
+   "d": "랜드마크 옆에 '이름 >>>>' 라벨로 인증샷 문법"
+  },
+  {
+   "t": "롱테이크 먹방",
+   "w": "#4, #13",
+   "d": "4~5초를 끊지 않아 먹는 동작·소리로 힐링"
+  },
+  {
+   "t": "가리키기 → 패닝 공개",
+   "w": "#5",
+   "d": "캐릭터가 시선을 안내하고 카메라가 따라가 풍경 공개"
+  },
+  {
+   "t": "인터뷰 자막",
+   "w": "#6",
+   "d": "먹는 장면에 기자 말투 자막을 붙여 콩트화"
+  },
+  {
+   "t": "포토 덤프(사진 4연타 + 셔터음)",
+   "w": "#9~#12",
+   "d": "0.47초 간격의 사진으로 리듬 급가속, 3번 굴욕 + 4번째 반전(3의 법칙)"
+  },
+  {
+   "t": "이모지 얼굴 가림",
+   "w": "#10~#11",
+   "d": "실제 브이로그 관행을 따라 해 진짜처럼 보이게"
+  },
+  {
+   "t": "이름표 콘셉트",
+   "w": "#13",
+   "d": "주인공에게 '전문 평론가' 직함을 붙여 역할 놀이"
+  },
+  {
+   "t": "가짜 엔딩",
+   "w": "#15",
+   "d": "작별 인사로 끝난 척 → 암전 후 진짜 하이라이트"
+  },
+  {
+   "t": "암전 시간 점프",
+   "w": "#16~#17",
+   "d": "0.7초 검정으로 낮→밤 전환"
+  },
+  {
+   "t": "휩 팬 + 랙 포커스 공개",
+   "w": "#19→#20",
+   "d": "빠른 스윙 후 흐린 화면에서 초점이 잡히며 반전 공개"
+  },
+  {
+   "t": "엔딩 요약 카드",
+   "w": "#21",
+   "d": "영상 전체를 한 줄로 요약해 공유·기억하기 쉽게"
+  }
+ ],
+ "adapt": {
+  "premise": "예시 각색: 여행지를 제주로(성산일출봉 셀카 → 유채꽃밭 한라봉 아이스크림 → 에메랄드 바다 패닝 → 줄 서는 빵집 → 비자림 친구 사진 굴욕 → 카페 파르페 → 숙소 낮잠) + 진짜 하이라이트는 '내 게임 랭크 승급'(직접 녹화한 화면)",
+  "keep": [
+   "1:1 필러박스 폰 브이로그 질감",
+   "먹방 3회 + 풍경 1회 + 사진 굴욕 1회 + 낮잠 + 가짜 엔딩 + 암전 반전 + 요약 카드 순서",
+   "사진 4연타 0.47초 리듬",
+   "괄호 속마음 자막 톤"
+  ],
+  "change": [
+   "여행지·음식·모자 색",
+   "진짜 하이라이트 소재(게임 화면은 반드시 본인 화면)",
+   "대사 전문",
+   "끝 인사말(원본 채널 인사 대신 내 채널 인사)"
+  ],
+  "costume": "a small straw bucket hat and a tiny mint crossbody bag"
+ },
+ "batches": [
+  {
+   "name": "A. 셀카(랜드마크)",
+   "shots": [
+    1,
+    2,
+    3
+   ],
+   "how": "셀카 키프레임 1장 → 5초 1~2회. 첫 0.2초가 흐린 테이크를 골라 #1로 사용"
+  },
+  {
+   "name": "B. 먹방 3종",
+   "shots": [
+    4,
+    6,
+    7,
+    13
+   ],
+   "how": "음식별 키프레임 3장 → 각 5초 1~2회(먹는 동작이 자연스러운 모델)"
+  },
+  {
+   "name": "C. 풍경 패닝",
+   "shots": [
+    5
+   ],
+   "how": "뒷모습 키프레임 → 긴 카메라 무빙이 되는 모델로 6~8초 1회"
+  },
+  {
+   "name": "D. 숲(작별·카메라 요청)",
+   "shots": [
+    8,
+    15
+   ],
+   "how": "숲길 키프레임 → 5초 2회"
+  },
+  {
+   "name": "E. 사진 굴욕 4장",
+   "shots": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "how": "이미지 모델로 3:4 사진 4장, 영상 생성 불필요"
+  },
+  {
+   "name": "F. 낮잠",
+   "shots": [
+    14
+   ],
+   "how": "초근접 키프레임 → 6초 1회(아주 미세한 움직임)"
+  },
+  {
+   "name": "G. 게임 방",
+   "shots": [
+    18,
+    19,
+    20
+   ],
+   "how": "웹캠 얼굴 5초 1회 + 휩 팬은 편집 + 게임 화면은 본인 캡처"
+  },
+  {
+   "name": "H. 편집 전용",
+   "shots": [
+    16,
+    17,
+    21
+   ],
+   "how": "암전·엔딩 카드는 FFmpeg/HyperFrames로 제작"
+  }
+ ]
+}

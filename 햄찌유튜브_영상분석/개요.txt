@@ -1,0 +1,109 @@
+> 기본 동물: 수달 · 소품: 사원증 목걸이 (추천) · 이름: 김OO (한 페이지판 index.html 에서 다른 동물로 바꿔 '📋 전체 복사' 하면 전부 바뀐 상태로 복사됩니다)
+
+# 햄찌 유튜브 영상 분석 — 전체 (기준일 2026-09-23)
+정서불안 김햄찌 채널 동영상 탭 최근 30개를 일평균 조회수(조회수 ÷ 올린 뒤 지난 날수)로 순위를 매기고, 상위 3개를 컷 단위로 분석해 다른 동물로 재현할 수 있게 정리한 자료입니다.
+원본 대사는 옮기지 않고 의도만 요약했으며, '새 대본 예시'는 새로 쓴 문장입니다.
+
+## 채널 개요
+- 구독자 71.7만 · 동영상 탭 114개 중 최근 30개 분석 · 최근 30개 조회수 중앙값 30.1만 · 길이 중앙값 44초
+- 가장 많은 업로드 시각 17:45 (28/30) KST · 영어·일본어 자막 제공 23/30
+
+## 기간 대비 성과 Top 10 (최근 30개 기준)
+| 순위 | 제목 | 링크 | 업로드 | 경과일 | 길이 | 조회수 | 일평균 | 중앙값 대비 | 댓글/1천뷰 | 자막 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 직장인의 감정 기복 | https://www.youtube.com/watch?v=IZDhVG3Spio | 2026-09-22 | 1.2 | 37초 | 558,233 | 450,187 | ×1.86 | 0.92 | 한국어 (원문 비공개) |
+| 2 | 여름이여따 | https://www.youtube.com/watch?v=BCJT5RkluvI | 2026-09-18 | 5.2 | 42초 | 407,644 | 77,794 | ×1.36 | 1.05 | 한국어 (원문 비공개) |
+| 3 | 휴가에서 누가 돌아왓햄 | https://www.youtube.com/watch?v=njC9X57Hjqw | 2026-09-15 | 8.2 | 35초 | 281,860 | 34,206 | ×0.94 | 3.36 | 한국어 (원문 비공개) |
+| 4 | 잠깐만 안녕! | https://www.youtube.com/watch?v=uZ3mV8oCObc | 2026-08-14 | 40.2 | 90초 | 367,481 | 9,132 | ×1.22 | 0.01 | 한국어 (원문 비공개) |
+| 5 | 꼽을주면 곱으로 받는다 | https://www.youtube.com/watch?v=tO22EaAEwsA | 2026-07-31 | 54.2 | 25초 | 330,430 | 6,092 | ×1.1 | 2.08 | 한국어·영어·일본어 (원문 비공개) |
+| 6 | [약혐주의] 일상의 파괴자 | https://www.youtube.com/watch?v=iUrnhZDyqBU | 2026-08-07 | 47.2 | 51초 | 276,525 | 5,857 | ×0.92 | 0.0 | 한국어·영어·일본어 (원문 비공개) |
+| 7 | 궁극기 같은 모먼트 | https://www.youtube.com/watch?v=TsXhvfQwjtE | 2026-08-11 | 43.2 | 50초 | 224,622 | 5,194 | ×0.75 | 2.59 | 한국어·영어·일본어 (원문 비공개) |
+| 8 | 집에서 해 먹는 행위 | https://www.youtube.com/watch?v=0tIvYgJYC9I | 2026-06-26 | 89.2 | 38초 | 434,070 | 4,864 | ×1.44 | 1.46 | 한국어·영어·일본어 (원문 비공개) |
+| 9 | 먹을게 있긴하다 | https://www.youtube.com/watch?v=RAUP1Hxaa1M | 2026-07-21 | 64.2 | 53초 | 307,348 | 4,784 | ×1.02 | 2.3 | 한국어·영어·일본어 (원문 비공개) |
+| 10 | 야르하지아니한가 | https://www.youtube.com/watch?v=WeOxwdkKGDQ | 2026-07-14 | 71.2 | 43초 | 325,587 | 4,570 | ×1.08 | 1.5 | 한국어·영어·일본어 (원문 비공개) |
+- 순위 읽는 법: 일평균 조회수는 최근 영상이 유리 → 1~3위는 지금 알고리즘이 밀어주는 포맷, 4~10위는 꾸준히 성과를 낸 영상. 좋아요는 비공개라 댓글로 참여도 측정
+
+## 채널 공식(3개 영상 공통점과 차이)
+| 항목 | 1위 직장인의 감정 기복 | 2위 여름이여따 | 3위 휴가에서 누가 돌아왓햄 |
+|---|---|---|---|
+| 형식 | 오피스 시트콤 · 감정 롤러코스터형 | 여름휴가 보고 · 폰카 여행 브이로그(사진첩 덤프)형 | 오피스 시트콤 · 이중 위기 + 콜백 펀치라인형 |
+| 길이 · 컷 · 평균 컷 | 37.3초 · 51컷 · 0.73초 | 41.7초 · 21컷 · 1.99초 | 35.4초 · 45컷 · 0.79초 |
+| 분당 컷 수 | 82 | 30 | 76 |
+| 대사 비율 · 원본 음량 | 69% · -23.3 LUFS | 70% · -24.0 LUFS | 57% · -25.4 LUFS |
+| 핵심 구조 | 호출(훅) → 부재 확인 → 희소식 → 폭발 리액션 … | 셀카 인사(초점 헌팅 훅) → 랜드마크 인증 → 먹방 1 → 풍경 패닝 공개 … | 복귀 등장(훅) → 셋업 질문(리프레시?) → 자신만만 대답+반짝이 → 업무 폭탄 … |
+| 자막 스타일 | 상황 라벨(주인공), 인물 이름표, 대사(주인공), 대사(동료1) | 괄호 속마음, 장소 화살표 라벨, 대사, 인물 이름표 | 상황 라벨, 대사(주인공), 대사(팀장), 대괄호 내레이션 |
+| 사람 처리 | 동료1(여) · 희소식 전달자, 동료2(남) · 추가 정보 전달자, 더 높은 상사(실장) | 여행 친구(사람) | 팀장(남) · 환영 인사 겸 업무 폭탄 전달자 |
+- 실사풍 동물 × 한국 직장인·일상 공감 소재. 동물은 진짜 동물처럼, 상황은 사람처럼
+- 30~45초 가로 16:9(4K 업로드). 쇼츠 탭이 아닌 일반 동영상 탭에서도 짧은 길이로 승부
+- 자막 3층 구조(상황 라벨 · 화자별 색 대사 · 강조)로 소리 없이 봐도 100% 이해
+- 사람은 입 아래로 얼굴을 자르거나(오피스) 이모지로 가림(브이로그) → 시선 집중 + AI 얼굴 일관성 문제 회피
+- 업로드 시각 고정: 최근 30개 중 28개가 17:45(퇴근 직전). 영어·일본어 자막으로 해외 시청까지 확장
+- 반전 설계: 기대 → 더 나쁜 현실(1위) / 가짜 엔딩 → 진짜 하이라이트(2위) / 복선 → 회수(3위)
+- 대화 구간은 대사·리액션 타이밍으로 자르고, 3위 위기 구간만 저음 박동에 맞춤
+
+## 제작 순서
+1. 캐릭터 시트 — 선택한 동물의 정면·측면·뒷모습·전신을 한 장에. 모든 컷의 참조 이미지
+2. 세트·인물 기준 이미지 — 책상, 파티션, 동료(얼굴 크롭) 등 반복되는 배경·인물을 먼저 1장씩
+3. 컷별 키프레임 — 각 컷의 ① 이미지 프롬프트로 첫 장면 생성(참조: 시트 + 세트)
+4. 영상 생성 — ② 영상 프롬프트 + 1순위 모델로 5초 생성. 배치별로 묶어 생성하고 잘라 쓰기
+5. 목소리·음악·효과음 — TTS(주인공은 피치 +7반음), Suno BGM, 효과음 큐 시트대로 준비
+6. 편집 — 햄찌유튜브_영상분석/편집키트/N위 의 FFmpeg 또는 HyperFrames 키트로 조립 → 컷 검증
+7. 업로드 — 평일 17:45, 짧은 감정형 제목, 영어·일본어 자막, AI 합성 콘텐츠 공개 체크
+
+## 0단계 캐릭터 시트 프롬프트
+Character reference sheet of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon: front view, three-quarter view, side view, back view and a full-body standing pose, plain light-grey studio background, soft even lighting, photorealistic, identical design in every view, 16:9.
+
+## 공통 네거티브 프롬프트
+cartoon, 3D render, plastic toy, plush toy, deformed paws, extra limbs, extra fingers, human hands on the animal, visible human face or eyes, text, subtitles, watermark, logo, flicker, morphing, warping background, low resolution, oversaturated
+
+## Claude Code 생성 총괄 프롬프트
+```
+[작업 폴더] 햄찌유튜브_영상분석 (GitHub geben147-create/Insta 를 받아서 사용. 1위 기준 예시 — 2위·3위도 같은 방식)
+[목표] index.html(한 페이지)에서 동물을 고른 뒤 '📋 전체 복사' 또는 '.md 저장'으로 받은 내용으로 1위 영상을 다른 동물로 재현할 이미지·영상을 만든다.
+[도구] pollo-generate 스킬(또는 Pollo MCP)
+[순서]
+1) 캐릭터 시트 1장 생성 (nano-banana-pro, 16:9, 2K) → 파일 경로 보고 → 🔴 내 승인 대기
+2) 세트·인물 기준 이미지 생성(책상, 파티션, 동료1, 동료2, 상사 — 사람은 얼굴이 입 위로 잘리게) → 승인 대기
+3) 배치 A부터 컷별 키프레임 이미지 생성 (참조: 캐릭터 시트 + 해당 세트 이미지)
+4) 🔴 영상 생성 전에 pollo_estimate_generation_cost 로 배치별 예상 크레딧 표를 보여주고, 내 승인 후에만 진행
+5) 컷마다 1순위 모델로 5초·1080p 생성 → 햄찌유튜브_영상분석/편집키트/1위/clips/sNN.mp4 로 저장 (NN = 컷 번호)
+6) 대안 모델 비교는 배치별 대표 컷 1개만 (A/B 결과 표로 보고)
+7) 끝나면 햄찌유튜브_영상분석/편집키트/1위 에서 python build_ffmpeg.py --check 결과 보고
+[금지] 승인 없는 크레딧 사용, 원본 영상 캡처를 참조 이미지로 업로드, 원본 대사·캐릭터 이름 사용
+```
+
+---
+
+## 모델 가이드 (Pollo에서 조회한 사양, 2026-09-23)
+| 영상 모델 | 종류 | 사양 | 이럴 때 |
+|---|---|---|---|
+| Kling 3.0 | 이미지→영상 | 시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성 | 실사 털·미세 표정·손동작이 안정적인 기본 주력 |
+| Kling 3.0 Omni | 참조→영상 | 참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K | 캐릭터 시트+의상·세트 참조로 같은 동물을 여러 컷에 고정 |
+| Seedance 2.0 | 참조→영상 | 참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오 | 참조를 가장 많이 넣을 수 있어 여러 인물·세트가 한 화면에 나올 때 유리 |
+| Seedance 2.5 | 이미지→영상 | 시작·끝 프레임, 4~30초, 최대 1080p, 오디오 | 긴 롱테이크·카메라 패닝(풍경·브이로그) |
+| MiniMax H3 | 이미지→영상 | 시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도) | 과장된 표정·코믹 리액션 1순위 후보(사양 기준 추천 — A/B 테스트 권장) |
+| Hailuo 2.3 | 이미지→영상 | 시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만) | 표정 연기·가성비 리액션 컷 |
+| Veo 3.1 | 이미지→영상 | 시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오 | 사람 손·상반신 실사, 폰 핸드헬드 질감 |
+| Gemini Omni 1.1 Flash | 참조→영상 | 참조 최대 13개(이미지·영상), 3~10초, 최대 4K, 16:9·9:16 | 참조를 많이 넣어 세트·소품·인물 동시 고정(사양 기준 추천) |
+| Vidu Q3 Pro | 이미지→영상 | 시작·끝 프레임, 1~16초(1초 가능), 최대 2K, 오디오 | 0.5~1초 초단컷을 싸게, 시작→끝 동작 지정 |
+- 이미지 모델: Nano Banana Pro(nano-banana-pro) — 참조 이미지 최대 8장, 1K~4K, 다양한 비율 — 캐릭터 시트를 넣고 컷별 키프레임 만들기 1순위 / Seedream 5.0 Pro(seedream-5-0-pro) — 실사 질감·조명 — 대안 / GPT Image 2.5(gpt-image-2-5) — 지시 이해력·소품 배치 — 대안 / Kling 3.0 Image(kling-v3-image) — Kling 영상과 같은 계열 — 영상 변환 시 톤 일치 / FLUX Kontext Max(flux-kontext-max) — 기존 이미지 부분 수정(의상만 바꾸기 등)
+- 목소리·음악·입모양: ElevenLabs v3(eleven-v3) — 목소리(TTS) — 감정 표현 풍부, 주인공 목소리 1순위 / MiniMax Speech 2.8 HD(speech-2-8-hd) — 목소리(TTS) — 한국어 자연스러움, 사람 역할 / Seed Audio 1.0(seed-audio-1-0) — 목소리(TTS) — 대안 / Suno v5.5(suno-v5-5) — 배경음악(BGM) — 페이지의 Suno 프롬프트 그대로 사용 / H3 Lipsync(h3-lipsync) — 입 모양 맞추기 — 동물이 크게 말하는 컷에만
+
+## 동물 선택지 (영어 외형 묘사 — 프롬프트의 주인공 묘사를 이것으로 바꾸면 됨)
+- 수달: a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers (말장난 글자: 달)
+- 친칠라: a fluffy grey chinchilla with ultra-soft silver-grey fur, a white belly, large round ears, big glossy black eyes and long whiskers (말장난 글자: 칠)
+- 다람쥐: a small Korean chipmunk with warm orange-brown fur, five dark stripes down its back, white cheek stripes, big glossy black eyes, tiny paws and a bushy tail (말장난 글자: 람)
+- 아기 고양이: a fluffy cream-colored British Shorthair kitten with round copper eyes, a short round face, tiny ears and soft plush fur (말장난 글자: 냥)
+- 말티즈 강아지: a fluffy white Maltese puppy with a round face, big glossy black eyes, a black button nose and soft cotton-like fur (말장난 글자: 멍)
+- 아기 펭귄: a fluffy baby emperor penguin chick with soft silver-grey down, a white face mask, a black head cap, tiny flippers and big glossy eyes (말장난 글자: 펭)
+- 토끼: a small Holland Lop bunny with creamy-white fur, floppy ears, a twitching pink nose and big glossy dark eyes (말장난 글자: 토)
+- 레서판다: a fluffy red panda cub with rusty red-orange fur, white facial markings, dark legs, a ringed bushy tail and big glossy eyes (말장난 글자: 판)
+- 카피바라: a small baby capybara with coarse warm-brown fur, a blunt square muzzle, tiny rounded ears and calm half-closed eyes (말장난 글자: 바라)
+- 기니피그: a fluffy tri-color guinea pig with white, ginger and black patches, a round body, tiny ears and big glossy eyes (말장난 글자: 뀨)
+- 고슴도치: a tiny African pygmy hedgehog with soft cream-and-brown quills, a white fluffy face, a pointed pink nose and small glossy black eyes (말장난 글자: 슴)
+- 햄스터(원본 참고용): a fluffy golden Syrian hamster with cream-orange fur, a white heart-shaped patch on its chest, tiny pink paws, big glossy black eyes, a pink nose and long whiskers (말장난 글자: 햄)
+- 소품: 사원증 목걸이 (추천) = wearing a tiny navy lanyard with a white employee ID card on its chest / 동그란 뿔테 안경 = wearing tiny round tortoiseshell glasses / 머스타드 비니 = wearing a tiny mustard-yellow knitted beanie / 빨간 스카프 = wearing a tiny red neckerchief / 은색 헤드폰 (원본 상징 — 비추천) = wearing silver over-ear headphones / 소품 없음 = 없음
+
+## 저작권·정책
+- 편집 문법(구조·리듬·구도·자막 규격)만 가져오고, 원본 장면·소리·대사·캐릭터 이름·은색 헤드폰·'-햄' 말장난은 쓰지 않기
+- 게임 화면·음악·효과음은 본인 소유 또는 허가된 것만. AI 합성 실사 영상은 업로드 때 합성 콘텐츠 공개 체크

@@ -5,7 +5,7 @@ body{margin:0;background:var(--bg);color:var(--tx);font-family:"Pretendard","Mal
 .wrap{max-width:900px;margin:0 auto;padding:32px 16px}a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:14px;
 padding:18px;color:var(--tx);text-decoration:none;margin:12px 0;font-size:18px;font-weight:700}a.card:hover{border-color:var(--acc)}.mut{color:var(--mut)}</style></head>
 <body><div class="wrap"><h1>Insta 영상 분석 모음</h1><p class="mut">폴더를 누르면 분석 페이지가 열립니다. (새 폴더가 올라오면 자동으로 목록에 추가됩니다)</p>
-<div id="list"><a class="card" href="큐티냥갑옷_동물영상분석/">큐티냥갑옷_동물영상분석</a><a class="card" href="격투발광냥_동물영상분석/">격투발광냥_동물영상분석</a><a class="card" href="뷰티실패햄찌_동물영상분석/">뷰티실패햄찌_동물영상분석</a><a class="card" href="로맨스햄찌_동물영상분석/">로맨스햄찌_동물영상분석</a><a class="card" href="냥기사_뉴욕로맨스_영상분석/">냥기사_뉴욕로맨스_영상분석</a></div></div>
+<div id="list"><a class="card" href="큐티냥갑옷_동물영상분석/">큐티냥갑옷_동물영상분석</a><a class="card" href="격투발광냥_동물영상분석/">격투발광냥_동물영상분석</a><a class="card" href="뷰티실패햄찌_동물영상분석/">뷰티실패햄찌_동물영상분석</a><a class="card" href="로맨스햄찌_동물영상분석/">로맨스햄찌_동물영상분석</a><a class="card" href="냥기사_뉴욕로맨스_영상분석/">냥기사_뉴욕로맨스_영상분석</a><a class="card" href="알간지_영어드라마_채널분석/">알간지_영어드라마_채널분석</a></div></div>
 <script>fetch('https://api.github.com/repos/geben147-create/Insta/contents').then(r=>r.ok?r.json():Promise.reject()).then(a=>{
 const d=a.filter(x=>x.type==='dir'&&!x.name.startsWith('.'));if(!d.length)return;
 document.getElementById('list').innerHTML=d.map(x=>`<a class="card" href="${encodeURIComponent(x.name)}/">${x.name}</a>`).join('')}).catch(()=>{});</script></body></html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>Dc051CjSK60 remake</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      body { margin: 0; background: #000; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: #000; }
+      .shot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+      #whip { position: absolute; inset: 0; pointer-events: none; }
+      #whip-streak { position: absolute; inset: 0; background: linear-gradient(90deg, transparent, rgba(90,60,40,.85) 45%, rgba(90,60,40,.85) 55%, transparent); filter: blur(24px); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-width="1920" data-height="1080" data-duration="30.017">
+      <video id="s01" class="clip shot" src="clips/s01.mp4" data-start="0.000" data-duration="2.623" data-media-start="0" data-track-index="0" muted playsinline></video>
+      <video id="s02" class="clip shot" src="clips/s02.mp4" data-start="2.623" data-duration="4.288" data-media-start="0" data-track-index="0" muted playsinline></video>
+      <video id="s03" class="clip shot" src="clips/s03.mp4" data-start="6.911" data-duration="1.374" data-media-start="0" data-track-index="0" muted playsinline></video>
+      <video id="s04" class="clip shot" src="clips/s04.mp4" data-start="8.285" data-duration="1.332" data-media-start="0" data-track-index="0" muted playsinline></video>
+      <video id="s05" class="clip shot" src="clips/s05.mp4" data-start="9.617" data-duration="3.383" data-media-start="0" data-track-index="0" muted playsinline></video>
+      <video id="s06" class="clip shot" src="clips/s06.mp4" data-start="13.000" data-duration="5.818" data-media-start="0" data-track-index="0" muted playsinline></video>
+      <video id="s07" class="clip shot" src="clips/s07.mp4" data-start="18.818" data-duration="4.163" data-media-start="0" data-track-index="0" muted playsinline></video>
+      <video id="s08" class="clip shot" src="clips/s08.mp4" data-start="22.981" data-duration="7.036" data-media-start="0" data-track-index="0" muted playsinline></video>
+      <audio id="a01" src="clips/s01.mp4" data-start="0.000" data-duration="2.623" data-media-start="0" data-track-index="10" data-volume="1"></audio>
+      <audio id="a02" src="clips/s02.mp4" data-start="2.623" data-duration="4.288" data-media-start="0" data-track-index="10" data-volume="1"></audio>
+      <audio id="a03" src="clips/s03.mp4" data-start="6.911" data-duration="1.374" data-media-start="0" data-track-index="10" data-volume="1"></audio>
+      <audio id="a04" src="clips/s04.mp4" data-start="8.285" data-duration="1.332" data-media-start="0" data-track-index="10" data-volume="1"></audio>
+      <audio id="a05" src="clips/s05.mp4" data-start="9.617" data-duration="3.383" data-media-start="0" data-track-index="10" data-volume="1"></audio>
+      <audio id="a06" src="clips/s06.mp4" data-start="13.000" data-duration="5.818" data-media-start="0" data-track-index="10" data-volume="1"></audio>
+      <audio id="a07" src="clips/s07.mp4" data-start="18.818" data-duration="4.163" data-media-start="0" data-track-index="10" data-volume="1"></audio>
+      <audio id="a08" src="clips/s08.mp4" data-start="22.981" data-duration="7.036" data-media-start="0" data-track-index="10" data-volume="1"></audio>
+      <div id="whip" class="clip" data-start="12.8" data-duration="0.4" data-track-index="2">
+        <div id="whip-streak"></div>
+      </div>
+      <audio id="sfx-whoosh" src="sfx/whoosh.wav" data-start="12.9" data-duration="0.6" data-track-index="11" data-volume="0.8"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      // 헤어 휘핑 보조: 갈색 모션 스트릭이 0.4초 동안 좌→우로 화면을 쓸고 지나감
+      tl.fromTo("#whip-streak", { xPercent: -110 }, { xPercent: 110, duration: 0.4, ease: "power2.inOut" }, 12.8);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,281 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>알간지 쇼츠 TOP10 — 대본만 모음</title><style>
+:root{--bg:#0d0f14;--panel:#151922;--panel2:#1c2130;--line:#2a3142;--tx:#e8ecf4;--mut:#9aa4b8;
+--acc:#ff4d6d;--acc2:#4dd4ff;--ok:#5be3a0;--warn:#ffc24d;--vio:#b18cff}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--tx);
+font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;line-height:1.6}
+a{color:var(--acc2)}.wrap{max-width:1240px;margin:0 auto;padding:24px 16px 80px}
+nav.top{position:sticky;top:0;z-index:9;background:#0d0f14ee;backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.top .wrap{padding:10px 16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+nav.top a{padding:4px 10px;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:13px;color:var(--tx)}
+nav.top a.on{background:var(--acc);border-color:var(--acc)}
+h1{font-size:30px;margin:8px 0 4px}h2{font-size:22px;margin:40px 0 12px;padding-left:10px;border-left:4px solid var(--acc)}
+h3{font-size:17px;margin:18px 0 8px}.mut{color:var(--mut)}.small{font-size:13px}
+.hero{display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:start}
+.hero img{width:100%;border-radius:14px;border:1px solid var(--line)}
+.badge{display:inline-block;background:var(--acc);color:#fff;font-weight:800;border-radius:8px;padding:2px 10px;margin-right:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.chip{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:3px 9px;font-size:13px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px}
+.formula{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.formula .card b{display:block;color:var(--acc2);font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top}
+th{color:var(--mut);font-weight:600;white-space:nowrap}
+.scene{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;margin:18px 0}
+.scene .head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.scene .tc{font-family:ui-monospace,Consolas,monospace;background:#000;padding:3px 10px;border-radius:6px;color:var(--warn)}
+.frames{display:flex;gap:8px;overflow-x:auto;padding:10px 0}.frames figure{margin:0;flex:0 0 150px}
+.frames img{width:150px;border-radius:8px;border:1px solid var(--line);display:block}
+.frames figcaption{font-size:12px;color:var(--mut);text-align:center;font-family:ui-monospace,Consolas,monospace}
+.sgrid{display:grid;grid-template-columns:200px 1fr;gap:16px}
+.comp{position:relative;width:180px;aspect-ratio:9/16;border-radius:10px;border:1px solid var(--line);background:#000 center/cover no-repeat}
+.comp .g{position:absolute;inset:0;background-image:linear-gradient(to right,transparent 33.2%,#ffffff55 33.3%,transparent 33.4%,transparent 66.5%,#ffffff55 66.6%,transparent 66.7%),linear-gradient(to bottom,transparent 33.2%,#ffffff55 33.3%,transparent 33.4%,transparent 66.5%,#ffffff55 66.6%,transparent 66.7%)}
+.comp .box{position:absolute;border:2px solid var(--acc);background:#ff4d6d22;border-radius:6px}
+.comp .box span{position:absolute;top:-18px;left:0;font-size:11px;background:var(--acc);color:#fff;padding:0 4px;border-radius:4px;white-space:nowrap}
+.kv{display:grid;grid-template-columns:120px 1fr;gap:4px 10px;font-size:14px}.kv b{color:var(--mut);font-weight:600}
+.pbox{position:relative;background:#0a0c10;border:1px solid var(--line);border-radius:10px;padding:12px 12px 12px;margin:8px 0;
+font-family:ui-monospace,Consolas,monospace;font-size:12.5px;white-space:pre-wrap;word-break:break-word;color:#d6dcec}
+.pbox .lbl{display:block;font-family:inherit;color:var(--acc2);font-weight:700;margin-bottom:6px;font-size:12px}
+.pbox.swap .lbl{color:var(--ok)}.pbox.neg .lbl{color:var(--warn)}
+.cp{position:absolute;top:8px;right:8px;background:var(--panel2);color:var(--tx);border:1px solid var(--line);border-radius:6px;font-size:12px;padding:2px 8px;cursor:pointer}
+.cp.done{background:var(--ok);color:#000}
+.models{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px}
+.m{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:13px}
+.m .t{font-size:11px;font-weight:800;letter-spacing:.04em}.m.t1 .t{color:var(--ok)}.m.t2 .t{color:var(--acc2)}.m.t3 .t{color:var(--vio)}
+.m code{font-size:13px;color:#fff;font-weight:700}
+details{margin:8px 0}summary{cursor:pointer;color:var(--acc2);font-weight:600}
+.tl{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;overflow-x:auto}
+.sheets{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.sheets img{width:100%;border-radius:10px;border:1px solid var(--line)}
+.tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:999px;background:#ff4d6d33;color:#ffb3c1;margin-right:4px}
+.tag.b{background:#4dd4ff22;color:#aeeaff}.tag.g{background:#5be3a022;color:#b4f5d5}
+.idx{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.idx a.card{text-decoration:none;color:var(--tx);display:block}.idx img{width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover}
+.bar{height:8px;border-radius:4px;background:linear-gradient(90deg,var(--acc),var(--vio))}
+@media (max-width:820px){.hero,.sgrid,.grid2,.grid3,.formula,.models,.sheets{grid-template-columns:1fr}.hero img{max-width:260px}
+table{display:block;overflow-x:auto}nav.top .wrap{flex-wrap:nowrap;overflow-x:auto}nav.top a{white-space:nowrap;flex:0 0 auto}}
+
+.bar-top{position:sticky;top:0;z-index:10;background:#0d0f14f2;border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+.bar-top .wrap{padding:10px 16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-block;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel2);color:var(--tx);
+text-decoration:none;font-weight:700;font-size:14px;cursor:pointer}.btn.main{background:var(--acc);border-color:var(--acc);color:#fff}
+.btn.done{background:var(--ok);color:#000}.video{border-top:3px solid var(--acc);margin-top:60px;padding-top:10px}
+.toc a{margin-right:10px}
+
+.btn{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);color:var(--tx);
+text-decoration:none;font-size:13px;cursor:pointer}
+.vhead{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:6px 0 12px}
+.grp{margin:56px 0 8px;font-size:26px;color:var(--acc2)}
+.lb{position:fixed;inset:0;background:#000d;display:none;z-index:50;align-items:center;justify-content:center;flex-direction:column;gap:12px;padding:16px}
+.lb.on{display:flex}.lb img{max-width:96vw;max-height:80vh;border-radius:10px}
+.lb .row{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+img.zm{cursor:zoom-in}
+.sheetimg{width:100%;border-radius:10px;border:1px solid var(--line);margin:6px 0}
+.tr{font-size:13.5px}.tr td:first-child{white-space:nowrap;color:var(--mut)}
+.kv{grid-template-columns:120px minmax(0,1fr)}.kv span,.card,td{min-width:0;overflow-wrap:anywhere}
+table{display:block;overflow-x:auto;max-width:100%}.comp .box span{max-width:100%;overflow:hidden;text-overflow:ellipsis}.sgrid>div,.hero>div{min-width:0}.comp.land{aspect-ratio:16/9;width:100%}.sgrid:has(.land){grid-template-columns:380px 1fr}
+@media(max-width:760px){.hero,.sgrid,.grid2,.grid3,.formula,.models{grid-template-columns:1fr!important}
+.comp{width:100%;max-width:280px}.comp.land{max-width:100%}h1{font-size:24px}.kv{grid-template-columns:80px minmax(0,1fr)}}
+</style></head><body><div class="bar-top"><div class="wrap"><button class="btn main" data-copy="all">📋 대본 전체 한 번에 복사</button><a class="btn" href="대본_전체.txt" download>⬇ 대본_전체.txt</a><span class="toc small"><a href="#v1">1위</a> <a href="#v2">2위</a> <a href="#v3">3위</a> <a href="#v4">4위</a> <a href="#v5">5위</a> <a href="#v6">6위</a> <a href="#v7">7위</a> <a href="#v8">8위</a> <a href="#v9">9위</a> <a href="#v10">10위</a></span></div></div><div class="wrap"><h1>알간지 쇼츠 TOP10 — 대본만 모음</h1><p class="mut">말한 내용만 정리했습니다(제목·댓글 카드·장면 설명·타임코드 제외). 화면에 박힌 자막과 음성 자막을 대조해 오탈자를 고쳤고, 등장인물이 여럿이면 화자를 표시했습니다. 영상 분석은 알간지_쇼츠_채널분석 폴더에 있습니다.</p><section id="v1"><h2><span class="badge">1위</span>멍청해보이는 사람이 사실은 가장 똑똑한 이유</h2><div class="vhead"><a class="btn" href="https://www.youtube.com/shorts/JkMiqr12JDU" target="_blank" rel="noopener">▶ 원본 쇼츠</a><button class="btn main" data-copy="v1">📋 이 대본 복사</button><a class="btn" href="대본_01위.txt" download>⬇ txt</a><span class="chip">조회수 1,484,012</span><span class="chip">단독 내레이션</span></div><div class="pbox "><span class="lbl">대본</span><span class="txt">우선 감히 제가 &#x27;멍청하다&#x27; 말하는 사람은 어떤 사람일까요?
+문해력이 떨어지는 사람?
+아뇨.
+학력이 좋지 않은 사람?
+아뇨.
+돈을 못 버는 사람?
+아니요.
+아닙니다.
+제가 생각하는 정말 멍청한 사람은 바로, 문명 속에 살아가며 다수가 쥐여주는 혜택은 모두 누리면서 다수와 살아가는 값은 치르지 않으려는 사람입니다.
+뭐라는 거야?
+네, 지금부터 아주 쉽게 설명을 해볼게요.
+그럼 시작할까요?
+앞서 언급된 멍청이를 경제 용어로 아주 간단하게 정의를 해보면 바로 체리 피커입니다.
+체리 피커가 뭐냐고요?
+케이크에 체리만 쏙쏙 빼먹는 사람이요.
+님들, 진-짜 개맛있게 생긴 체리 생크림 케이크가 있는데 누가 체리만 쏙쏙 빼먹어요.
+그럼 어떤 감정이 들 거 같으세요?
+진짜 양아치 ㅅㄲ 아니야?
+이런 말이 나오시나요?
+혹은 야, 체리만 쏙쏙 빼먹을 수 있으면 그렇게 하는 게 똑똑한 거 아니야? 라는 말이 나오시나요?
+후자로 생각하는 분들이 꽤 계실지도 모르겠습니다.
+왜냐하면 체리 피커들이 사람을 그렇게 세뇌하거든요.
+체리만 쏙쏙 빼먹는 체리 피커들은 본인이 그 누구보다 똑똑한 줄 압니다.
+그들은 진심으로…</span></div><details><summary>확인 방법·고친 부분</summary><p class="small mut">화면 하단 문장 자막(0.25~0.5초 프레임 + EasyOCR) + 유튜브 자동자막 + Whisper large-v3 구간 재전사로 대조</p><ul class="small"><li>자동자막 &#x27;인내력이&#x27; → 화면 &#x27;문해력이&#x27;</li><li>자동자막 &#x27;지어주는&#x27; → &#x27;쥐여주는&#x27;</li><li>자동자막 &#x27;양아치 새끼&#x27; → 화면 &#x27;양아치 ㅅㄲ&#x27;</li><li>자동자막 &#x27;체리 피커 있니다&#x27; → &#x27;체리 피커입니다&#x27;</li><li>자동자막 &#x27;아니요 아니&#x27; → 화면 &#x27;아니요. / 아닙니다.&#x27;</li><li>&#x27;케이크에 체리만 쏙쏙 빼먹는 사람이요&#x27; 어미는 자동자막 &#x27;사람이야&#x27; / Whisper &#x27;사람이요&#x27;로 갈리고 화면 자막 없음 → Whisper large-v3 채택</li><li>&#x27;그들은 진심으로…&#x27;는 엔드카드 직전 음성(자막 없음, 자동자막·Whisper 일치)</li></ul></details></section><section id="v2"><h2><span class="badge">2위</span>지금 내가 어떤 사람인지 적나라하게 아는 법</h2><div class="vhead"><a class="btn" href="https://www.youtube.com/shorts/gLE5fOfzfwk" target="_blank" rel="noopener">▶ 원본 쇼츠</a><button class="btn main" data-copy="v2">📋 이 대본 복사</button><a class="btn" href="대본_02위.txt" download>⬇ txt</a><span class="chip">조회수 1,369,940</span><span class="chip">단독 내레이션</span></div><div class="pbox "><span class="lbl">대본</span><span class="txt">제가 감히 장담하건대, 이 영화를 보면 지금의 내가 어떤 사람인지 아주 적나라하게 알 수 있습니다.
+참고로 저는 이 영화를 처음 봤을 때 두려움과 위기감을 느꼈고요, 두 번째로 봤을 때는 감동과 사랑을 느꼈고, 마지막으로 봤을 때는 역겨움을 가장 크게 느꼈어요.
+자, 궁금하시죠?
+영상의 본론으로 들어가기 전에 우선 이 질문에 한 번 답해보시죠.
+여러분, 만약 어떤 사람이 고의로 스스로를 망치고 있어요.
+여러분이 진실을 말하면 그 사람을 구할 수 있습니다.
+여러분은 진실을 말하고 그 사람을 구할 건가요?
+혹은 그냥 그대로 두실 건가요?
+예를 들어 지금 법정에서는 살인에 대한 재판이 진행되고 있습니다.
+범인으로 지목된 사람은 A고, 여러분은 A와 사랑하는 사이입니다.
+가족, 친구, 연인 중에 잘 이입되는 거로 하나 골라잡아서 생각해 보시죠.
+여러분은, 여러분이 사랑하는 A의 비밀을 알고 있습니다.
+바로 A가 문맹이라는 사실이죠.
+님들 빼고는 아무도 A가 문맹이라는 그 비밀을 모릅니다.
+그런데 경찰이 살인 현장에서 수집한 증거에 따르면 범인은 글을 읽고 쓸 수 있는…</span></div><details><summary>확인 방법·고친 부분</summary><p class="small mut">화면 하단 문장 자막(0.3~0.5초 프레임 + EasyOCR) + 유튜브 자동자막 + Whisper large-v3(마지막 구간) 대조</p><ul class="small"><li>자동자막 &#x27;장담하건데이&#x27; → &#x27;장담하건대, 이&#x27;</li><li>자동자막 &#x27;적나하게&#x27; → &#x27;적나라하게&#x27;</li><li>자동자막 &#x27;사람은고 / 와 사랑하는 사회&#x27; → 화면 &#x27;사람은 A고 / A와 사랑하는 사이&#x27;</li><li>자동자막 &#x27;바로가 문맹이 사실&#x27; → 화면 &#x27;A가 문맹이라는 사실&#x27;</li><li>화면 자막 &#x27;영상이 본론으로&#x27;는 오기로 판단, 음성(자동자막 &#x27;영상에&#x27;)에 맞춰 &#x27;영상의&#x27;</li><li>마지막 &#x27;쓸 수 있는…&#x27;은 엔드카드 아래 음성(Whisper large-v3 확인)</li></ul></details></section><section id="v3"><h2><span class="badge">3위</span>전세계를 홀려버린 윤여정 오스카 수상 소감</h2><div class="vhead"><a class="btn" href="https://www.youtube.com/shorts/w_WdmzeNY-o" target="_blank" rel="noopener">▶ 원본 쇼츠</a><button class="btn main" data-copy="v3">📋 이 대본 복사</button><a class="btn" href="대본_03위.txt" download>⬇ txt</a><span class="chip">조회수 1,255,290</span><span class="chip">시상자(브래드 피트) / 수상자(윤여정)</span></div><div class="pbox "><span class="lbl">대본</span><span class="txt">시상자: And the Oscar goes to…
+(여우조연상 수상자는)
+시상자: Yuh-Jung Youn.
+(윤여정)
+시상자: Yuh-Jung Youn.
+수상자: Mr. Brad Pitt, finally.
+(브래드 피트씨..! 드디어...!)
+수상자: Nice to meet you.
+(만나서 반가워요)
+수상자: Where were you while we were filming?
+(영화 촬영 때 어디 계셨어요)
+수상자: As you know, I&#x27;m from Korea, and actually my name is Yuh-Jung Youn.
+(다들 아시겠지만 저는 한국에서 왔고요 / 제 이름은 &#x27;윤여정&#x27;입니다)
+수상자: Most of European people call me Yuh-Young, and some of them call me Yoo-Jung.
+(대부분의 유럽인들은 저를 &#x27;여영&#x27;이라 부르고 / 어떤 이들은 &#x27;유정&#x27;이라 부르지만요)
+수상자: But tonight, you are all forgiven.
+(하지만 오늘만큼은 / 모두 용서하겠습니다)
+수상자: I&#x27;m living in the other part of the world.
+(전 지구 반대편에 살고 있고)
+수상자: I just watch the television.
+(TV에서 봤습니다)
+수상자: It is the Oscar.
+(바로 이 오스카 시상식을요)
+수상자: Like a television program for us.
+(그냥 TV 프로그램이었죠)
+수상자: But me being here by myself, I cannot believe I&#x27;m here.
+(그런데 / 제가 지금 그 곳에 와있다니 / 정말 믿을 수가 없습니다)
+수상자: That&#x27;s…
+(그게 참...)
+수상자: Okay, let me pull myself together.
+(그래요 / 정신 좀 차릴게요)
+수상자: Thank you.
+(감사합니다)
+수상자: Tremendous thanks to the Academy members who voted for me.
+(저를 위해 투표해주신 분들에게 진심으로 감사드립니다)</span></div><details><summary>확인 방법·고친 부분</summary><p class="small mut">영어 원음: 로컬 mp4를 Whisper large-v3·medium(영어)로 2회 전사해 일치 확인. 괄호 한국어: 채널 화면 자막(EasyOCR + 프레임 확인)</p><ul class="small"><li>기존 captions.txt(Whisper 한국어 번역 전사) &#x27;여정윤&#x27; → 원음 영어 이름 &#x27;Yuh-Jung Youn&#x27;</li><li>화면 자막 기준 &#x27;영화 촬영 때 어디 계셨어요&#x27;</li><li>36~48초 &#x27;I just watch the television / It is the Oscar / Like a television program for us / me being here by myself&#x27;는 두 Whisper 결과가 일치하나 발음이 흐려 원문과 다를 수 있음</li><li>마지막 &#x27;voted for me&#x27;(medium) / &#x27;vote for me&#x27;(large-v3) 중 medium 채택</li></ul></details></section><section id="v4"><h2><span class="badge">4위</span>ㅈ 된 상황 똑똑하게 벗어나는 심리학 기술</h2><div class="vhead"><a class="btn" href="https://www.youtube.com/shorts/VUOl7lFwliM" target="_blank" rel="noopener">▶ 원본 쇼츠</a><button class="btn main" data-copy="v4">📋 이 대본 복사</button><a class="btn" href="대본_04위.txt" download>⬇ txt</a><span class="chip">조회수 1,186,859</span><span class="chip">단독 내레이션</span></div><div class="pbox "><span class="lbl">대본</span><span class="txt">아- 지금 혹시 ㅈ 되셨나요?
+걱정 마세요.
+8명의 판사 실험을 이용하면 되거든요.
+컬럼비아 비즈니스 스쿨의 연구팀은 이스라엘의 숙련된 판사 8명의 가석방 판결을 연구했습니다.
+쉽게 말해 범죄자를 빨리 풀어줄지 말지 판단을 했다는 거죠.
+그런데 여기서 신기한 점이 발견됐습니다.
+판사들이 &#x27;이것&#x27;을 한 이후에는 65%의 케이스에 가석방 허가를 내렸거든요.
+&#x27;이것&#x27;은 무엇일까요?
+바로 after a snack or lunch break, 간식 섭취 혹은 점심시간 후였습니다.
+긍정적인 판결 확률은 점진적으로 떨어지고, 때때로 0에 이르다가, 휴식 이후 65%로 돌아온다.
+8인의 판사 실험은 판사가 계속해서 판결을 내릴 때는 현 상태를 유지하는 판결을 내릴 때가 많은데, 짧은 휴식, 음식, 간식이라는 변수를 넣어주면 그 흐름이 끊길 수도 있다는 결과를 보여줍니다.
+여기서 키포인트는 흐름을 끊고 연료를 넣어주면 결과가 바뀔 수도 있다는 거죠.
+업무 관련 미팅을 하는데 흐름이 쎄하거나, 연인이랑 싸우다가 &#x27;아 이렇게 계속 대화하다 보면 ㅈ 될 것 같은데, 헤어질 것 같은데&#x27;라는 생각이 든다면 잊지 마세요.
+간식 먹고 하자! 쉬고 하즈아!!</span></div><details><summary>확인 방법·고친 부분</summary><p class="small mut">화면 단어 자막(10fps EasyOCR 전수 + 프레임 확인) + 유튜브 자동자막 + Whisper medium 대조</p><ul class="small"><li>자동자막 &#x27;가족관&#x27; → &#x27;가석방&#x27;</li><li>자동자막 &#x27;65% Pro&#x27; → &#x27;65%로&#x27;</li><li>자동자막 &#x27;파인의&#x27; → &#x27;8인의&#x27;</li><li>자동자막 &#x27;선 상태&#x27; → 화면 &#x27;현 상태&#x27;</li><li>자동자막 &#x27;세하나&#x27; → 화면 &#x27;쎄하거나&#x27;</li><li>기존 대본에서 빠진 &#x27;음식&#x27; 복원(화면 &#x27;짧은 / 휴식 / 음식 / 간식이라는&#x27;)</li><li>마지막 줄 화면 기준 &#x27;간식 먹고 하자! 쉬고 하즈아!!&#x27;(기존 &#x27;간식 먹고 쉬고 하즈아!!&#x27;)</li><li>욕설은 화면대로 &#x27;ㅈ&#x27; 초성 표기</li></ul></details></section><section id="v5"><h2><span class="badge">5위</span>정치질에서 벗어날 수 있는 똑똑한 심리학 기술</h2><div class="vhead"><a class="btn" href="https://www.youtube.com/shorts/NJad2PWoSMg" target="_blank" rel="noopener">▶ 원본 쇼츠</a><button class="btn main" data-copy="v5">📋 이 대본 복사</button><a class="btn" href="대본_05위.txt" download>⬇ txt</a><span class="chip">조회수 689,505</span><span class="chip">단독 내레이션</span></div><div class="pbox "><span class="lbl">대본</span><span class="txt">이것을 잘 사용하면 사람들의 마음을 마음대로 조종할 수 있다고 하는데요.
+뭘까요?
+바로 metaphor, 비유법입니다.
+스탠포드 대학 연구팀은 1482명의 학생들에게 도시의 범죄에 관한 2가지 보고서를 보여주고 해결 방법을 제시하게 했습니다.
+여기서 재밌는 변수를 하나 주는데요.
+A는 범죄를 짐승이라고 비유했고, B는 바이러스로 비유를 한 거죠.
+둘 중 어느 쪽을 읽은 학생들이 더 강력한 처벌을 해결법으로 제시했을까요?
+바로 A입니다.
+A를 읽은 학생 중 75%가 감옥 건설 등 처벌 중심의 해결책을 제안했고, 25%만이 교육과 같은 사회적 개혁을 제시했습니다.
+반면 B를 읽은 학생들은 56%가 처벌 중심의 해결책을 제안했고, 44%가 사회적 개혁을 제안했습니다.
+이는 A보다 20%나 높은 수치입니다.
+비유법은 사람의 무의식에 엄청난 영향을 줍니다.
+심지어 정치적 성향보다요.
+성별과 정치적 성향은 8~9%의 영향을 주는 반면, 비유법은 18~22%의 영향을 줬다고 합니다.
+그러니 여러분, 어떠한 새로운 정보를 접하거나 이간질이나 정치판 속에서 혼란스럽다면, 이상한 metaphor, 비유가 얹어져 인지적 왜곡이 일어나고 있는 것은 아닌지 파악할 필요가 있겠습니다.
+후후..</span></div><details><summary>확인 방법·고친 부분</summary><p class="small mut">화면 단어 자막(10fps EasyOCR 전수 + 프레임 확인) + 유튜브 자동자막 + Whisper medium 대조</p><ul class="small"><li>자동자막 &#x27;매대로&#x27; → &#x27;마음대로&#x27;</li><li>자동자막 &#x27;메타포 비법&#x27; → 화면 &#x27;metaphor, 비유법&#x27;</li><li>자동자막 &#x27;1882년의&#x27; → &#x27;1482명의&#x27;</li><li>자동자막 &#x27;제한했습니다&#x27; → &#x27;제안했습니다&#x27;</li><li>자동자막 &#x27;8에서 99%&#x27; → &#x27;8~9%&#x27;</li><li>자동자막 &#x27;인지적 외국&#x27; → &#x27;인지적 왜곡&#x27;</li><li>기존 대본 &#x27;따져 볼 필요가&#x27; → 화면·음성 &#x27;파악할 필요가&#x27;</li><li>&#x27;두 가지&#x27; → 화면 &#x27;2가지&#x27;</li></ul></details></section><section id="v6"><h2><span class="badge">6위</span>요즘 미국 애들 휴가 안 쓰는 이유</h2><div class="vhead"><a class="btn" href="https://www.youtube.com/shorts/BluAalPAPqg" target="_blank" rel="noopener">▶ 원본 쇼츠</a><button class="btn main" data-copy="v6">📋 이 대본 복사</button><a class="btn" href="대본_06위.txt" download>⬇ txt</a><span class="chip">조회수 631,336</span><span class="chip">단독 내레이션(영어 문장도 같은 내레이터가 읽음)</span></div><div class="pbox "><span class="lbl">대본</span><span class="txt">요즘 미국 직장인들은 휴가를 안 쓴다고 합니다.
+왤까요?
+I feel stressed asking my boss for time off,
+(상사한테 일정 조율하는 거 스트레스야)
+so I just take secret PTO.
+(그래서 그냥 비밀 유급 휴가 쓰는 거지)
+자, 여기서 PTO는 Paid Time Off, 즉 유급 휴가를 의미합니다.
+최근 미국 CNBC 뉴스에 따르면 밀레니얼 세대 10명 중 4명은 상사에게 알리지 않고 secret PTO, 즉 비밀 유급 휴가를 쓰고 있다고 하는데요.
+비밀 유급 휴가?
+뭔 말이야?
+I move my mouse to show I&#x27;m active, even when I&#x27;m not really working.
+(일하지 않을 때도 마우스를 움직여서 일하는 중인 것처럼 하는 거지)
+한국어로 월급 루팡, 월급 도둑이라고 하죠.
+일을 안 하는데 하는 척하는.
+이걸 미국에서는 I&#x27;m taking secret PTO, 나 비밀 유급 휴가 쓰는 중이라고 말하는 겁니다.
+해리스 폴 조사에 따르면 78%의 미국 노동자들이 PTO를 모두 사용하지 않는다고 답했으며, 특히 Gen Z와 밀레니얼 세대에서 높게 나타났습니다.
+왤까요?
+해리스 폴의 최고 전략 책임자 리비 로드니에 따르면, 젊은 직장인들은 일을 멈추면 안 된다는 강한 압박을 느끼고 게으름뱅이로 보이는 것을 두려워하기 때문입니다.
+휴가 쓰기엔 눈치가 보인다는 거죠.
+그래서 휴가 쓰겠다고는 못 하고 secret PTO를 쓰는 사람만 늘어나는 겁니다.
+여러분은 휴가 잘 쓰고 계신가요?
+아님 혹시 taking secret PTO 하고 계신가요?</span></div><details><summary>확인 방법·고친 부분</summary><p class="small mut">화면 단어·영문 자막(10fps EasyOCR 전수 + 프레임 확인) + Whisper medium(한국어·영어) 대조. 괄호 속 한국어 번역도 내레이터가 소리 내 읽음</p><ul class="small"><li>Whisper &#x27;secure/sickle PTO&#x27; → 화면 &#x27;secret PTO&#x27;</li><li>Whisper &#x27;pay time off&#x27; → 화면 &#x27;Paid Time Off&#x27;</li><li>Whisper &#x27;CNBS&#x27; → 화면 &#x27;CNBC&#x27;</li><li>Whisper &#x27;월급노통&#x27; → 화면 &#x27;월급 루팡&#x27;</li><li>Whisper &#x27;헤리스포르&#x27; → 화면 &#x27;해리스 폴&#x27;</li><li>&#x27;뭘까요?&#x27; → 화면 &#x27;왤까요?&#x27;(2회)</li><li>기존 대본에서 가린 실명 복원: 화면 &#x27;리비 로드니&#x27;</li><li>Whisper &#x27;게으름된 걸&#x27; → 화면 &#x27;게으름뱅이로&#x27;</li><li>마지막 &#x27;아니면&#x27; → 화면 &#x27;아님&#x27;</li></ul></details></section><section id="v7"><h2><span class="badge">7위</span>집착 광공에서 벗어나게 해주는 똑똑한 심리학 기술</h2><div class="vhead"><a class="btn" href="https://www.youtube.com/shorts/ObsQ_IGyI_c" target="_blank" rel="noopener">▶ 원본 쇼츠</a><button class="btn main" data-copy="v7">📋 이 대본 복사</button><a class="btn" href="대본_07위.txt" download>⬇ txt</a><span class="chip">조회수 528,360</span><span class="chip">단독 내레이션</span></div><div class="pbox "><span class="lbl">대본</span><span class="txt">너 없이 못 살아, 날 떠나지 마! 하는 소모적인 집착을 하게 돼 힘드신가요?
+여기 집착에서 벗어나게 해주는 개꿀팁 심리학 기술이 있습니다.
+뭘까요?
+바로 New Look 이론이죠.
+제롬 브루너와 하버드 대학 심리학 연구팀은 실험을 진행합니다.
+그들은 10세 어린이 30명을 모아 경제 상태에 따라 A그룹, B그룹으로 나눴죠.
+그리고는 동전을 보여줍니다.
+아이들은 동전을 보고 다른 방에 들어가 동전과 똑같은 크기의 원을 골라야 했습니다.
+빈곤층인 아이들은 실제 동전보다 더 큰 크기의 원을 골랐고, 부유층인 아이들은 실제 동전과 비슷한 크기의 원을 고르며 차이를 보였습니다.
+연구진은 사람은 주어진 정보만을 보고 객관적으로 판단하는 존재가 아닌 본인의 환경을 토대로 주관적인 판단을 내리는 존재이며, 아이들의 환경 차이에 따라 돈에 대한 인식과 욕망이 달랐기 때문에 이러한 차이가 발생했다고 말했습니다.
+그러니 내가 누군가에 과도하게 집착을 하고 있다면 나의 특정 욕망이 투영되어 그 사람을 객관적으로 판단한 게 아니라 주관적으로 판단하고 있을 확률이 높습니다.
+그러니 누군가에게 집착하고 싶은 욕구가 마구 올라오고 불안감에 허덕이고 계신다면, 나는 나의 어떤 환경 때문에 무슨 욕망을 갖게 되었는지, 그 사람이 내 어떤 욕망을 충족시켜주길 기대하고 있는지 인지할 필요가 있습니다.
+모든 변화는 현상을 인지하는 데서 시작하니까요!</span></div><details><summary>확인 방법·고친 부분</summary><p class="small mut">화면 단어 자막(10fps EasyOCR 전수 + 0.1초 프레임 확인) + Whisper medium 대조</p><ul class="small"><li>Whisper &#x27;재론브루너&#x27; → 화면 &#x27;제롬 브루너&#x27;</li><li>Whisper &#x27;교육층인&#x27; → 화면 &#x27;부유층인&#x27;</li><li>Whisper &#x27;욕망을 받게&#x27; → 화면 &#x27;욕망을 갖게&#x27;</li><li>Whisper &#x27;하게 되어&#x27; → 화면 &#x27;하게 돼&#x27;</li><li>Whisper &#x27;연구팀의&#x27; → 화면 &#x27;연구팀은&#x27;</li><li>Whisper·기존 대본 &#x27;항상 인지하는&#x27; → 화면 &#x27;현상을 인지하는&#x27;</li></ul></details></section><section id="v8"><h2><span class="badge">8위</span>한국 갈비를 처음 들은 미국 마트 직원 반응</h2><div class="vhead"><a class="btn" href="https://www.youtube.com/shorts/AH02zR-wNmw" target="_blank" rel="noopener">▶ 원본 쇼츠</a><button class="btn main" data-copy="v8">📋 이 대본 복사</button><a class="btn" href="대본_08위.txt" download>⬇ txt</a><span class="chip">조회수 496,949</span><span class="chip">촬영자(유튜버) / 직원(마트 점원)</span></div><div class="pbox "><span class="lbl">대본</span><span class="txt">촬영자: Excuse me?
+직원: Okay, sweetie~
+(아랏어 스위티~)
+직원: As soon as someone gives me a floor sign, I can go check on the computer.
+(내 동료가 바닥 사인 가져다주면 / 바로 컴퓨터로 확인해 줄게)
+촬영자: Thank you.
+(고마워)
+직원: [불명확]
+(천만에~!)
+직원: I&#x27;m gonna check now, okay?
+(지금 확인해 볼게!)
+촬영자: Okay, thank you.
+(ㅇㅋ 고마워!!)
+직원: [불명확]
+(천만에~!)
+촬영자: 한국 김밥 품절 됐냐고 물어봐서 점원 분이 체크해주신대요.
+촬영자: [불명확] 갈비…
+촬영자: short rib 어쩌구일 텐데…
+직원: It says it should be orderable at 18, so it won&#x27;t be in the store until about 20.
+(김밥은 2주 뒤에 주문 가능하다고 하고 / 이번 달 말에나 들어올 듯)
+촬영자: Oh, can you check on the Korean galbi thing?
+(한국 갈비도 확인해 줄 수 있어?)
+직원: Galbi?
+(갈,,,ㅍ비,,,?)
+직원: Give me a second.
+(잠시 ㄱㄷ)
+직원: You can keep shopping. I&#x27;ll find you.
+(일단 쇼핑하고 있으셈ㄱㄱ)
+직원: I think the name is like… Korean… beef short ribs.
+(내 생각에는 그 제품 이름이... / 한국...소고기 뭐시기... / Beef Short Rip.)
+촬영자: Thank you!
+(오 ㄲ~~~)
+촬영자: Korean style beef short ribs.
+(코뤼안 스따~일 / 비-이f / 숖 / 립)
+촬영자: [불명확]
+(뿌-듯)</span></div><details><summary>확인 방법·고친 부분</summary><p class="small mut">영어 원음: 로컬 mp4를 Whisper large-v3(전체+구간, 영어·한국어)로 재전사. 괄호 한국어: 채널 화면 자막(프레임 확인). 화면에만 있고 음성이 없는 &#x27;아무리 찾아도 / 김밥이 안 보임 / (물어봐야 겠어...)&#x27;는 제외</p><ul class="small"><li>기존 captions.txt(Whisper가 영어를 한국어로 오역: &#x27;참치예요?&#x27; 등) 폐기</li><li>Whisper &#x27;Okay, I&#x27;m pretty&#x27; → 화면 &#x27;아랏어 스위티~&#x27;에 맞춰 &#x27;Okay, sweetie~&#x27;</li><li>Whisper &#x27;Korean coffee / Kalbi&#x27; → &#x27;Korean galbi&#x27;</li><li>촬영자 한국어 혼잣말은 화면 자막 표기 채택(음성은 &#x27;코리안 김밥 솔드 아웃 됐냐고 물어봐 가지고…&#x27;에 가까움)</li><li>&#x27;천만에~!&#x27; 2회, 20~22초 혼잣말, 마지막 &#x27;뿌-듯&#x27; 구간 음성은 판독 불가 → [불명확]</li></ul></details></section><section id="v9"><h2><span class="badge">9위</span>최고의 선택을 내리게 만드는 똑똑한 심리학 기술</h2><div class="vhead"><a class="btn" href="https://www.youtube.com/shorts/JVQQWXo06K0" target="_blank" rel="noopener">▶ 원본 쇼츠</a><button class="btn main" data-copy="v9">📋 이 대본 복사</button><a class="btn" href="대본_09위.txt" download>⬇ txt</a><span class="chip">조회수 372,609</span><span class="chip">단독 내레이션</span></div><div class="pbox "><span class="lbl">대본</span><span class="txt">으아아아악!
+최선의 선택을 내려야 해!!! 하는 압박감을 해결하고 최선의 선택을 내릴 수 있는 과학적 개꿀팁이 있습니다.
+뭘까요?
+바로 Unconscious Mind, 무의식을 이용하는 방법이죠.
+암스테르담 대학교의 연구진은 실험을 진행합니다.
+연비, 발아래 공간 등 4개의 조건을 줄 테니까 가장 좋은 차를 골라보셔.
+시간은 4분 드릴게.
+A 그룹은 하나하나 잘 따져가며 의식적인 선택을 내렸고 55%의 확률로 정답을 맞힙니다.
+그런데 B 그룹한테는 연구진이 퍼즐 놀이를 시킵니다.
+퍼즐을 맞추느라 시간이 없었던 B 그룹은 무의식적으로 빠르게 결정을 내렸고, A 그룹보다 15%p 낮은 40%만이 정답을 맞힙니다.
+여기까지 보면 &#x27;야 그래, 의식적으로 하나하나 다 따져가며 선택 내려야 되는 거잖아ㅋ&#x27; 하기 쉽지만 반전이 있습니다.
+앞선 연구에서는 4개의 조건만 줬죠?
+이번에는 12개의 조건을 줍니다.
+그리고 이번에는 A가 23%, B가 60%의 정답률을 보였습니다.
+선택이 복잡해지자 의식적으로 판단하기보다는 무의식, 직감에 의존했을 때 더 나은 판단을 하게 된 거죠.
+핵심은 이성적으로 행동하려는 노력이 잘못됐다는 게 아니라, 직감을 근거 없는 감정으로 하대하며 무시할 필요는 없다는 겁니다.
+Unconscious Mind, 무의식은 오히려 복잡한 문제를 아주 잘 해결하는 존재일 수도 있으니까요.</span></div><details><summary>확인 방법·고친 부분</summary><p class="small mut">화면 단어 자막(10fps EasyOCR 전수 + 0.1초 프레임 확인) + 유튜브 자동자막 + Whisper medium 대조</p><ul class="small"><li>자동자막 &#x27;연비 달 아래 공간&#x27; → 화면 &#x27;연비, 발아래 공간&#x27;</li><li>자동자막 &#x27;차례 골라보셔요&#x27; → 화면 &#x27;차를 골라보셔&#x27;</li><li>자동자막 &#x27;4분 들릴게&#x27; → 화면 &#x27;4분 드릴게&#x27;</li><li>자동자막 &#x27;15%&#x27; → 화면 &#x27;15%p&#x27;</li><li>자동자막 &#x27;강전이&#x27; → &#x27;반전이&#x27;</li><li>기존 대본에서 빠진 &#x27;확률로&#x27;(55%의 확률로), &#x27;조건만&#x27;, &#x27;대학교의&#x27;, &#x27;거잖아ㅋ&#x27; 화면 기준 복원</li></ul></details></section><section id="v10"><h2><span class="badge">10위</span>영어 유튜버의 직업 정신</h2><div class="vhead"><a class="btn" href="https://www.youtube.com/shorts/3nwwLhqtL_g" target="_blank" rel="noopener">▶ 원본 쇼츠</a><button class="btn main" data-copy="v10">📋 이 대본 복사</button><a class="btn" href="대본_10위.txt" download>⬇ txt</a><span class="chip">조회수 336,451</span><span class="chip">촬영자(유튜버 본인) / 아바타(원래 하던 멘트 컷)</span></div><div class="pbox "><span class="lbl">대본</span><span class="txt">촬영자: 이거는 양파랑 파예요~!
+촬영자: 그린 어니언, 스프링 어니언이라고 하는데 영어로.
+촬영자: 알아두시면 좋겠죠~?
+촬영자: 그 나 하는 거 뭐더라?
+촬영자: 오늘~의~ 오늘의~
+아바타: 자, 여기서 쓰인 표현.
+촬영자: 자, 여기서 쓰인 표현.
+촬영자: Spring onion.
+(Spring Onion: 파!)
+촬영자: 자, 여기서 쓰인 표현.
+촬영자: 스쁘링 어니언~!
+촬영자: 트하하핡.</span></div><details><summary>확인 방법·고친 부분</summary><p class="small mut">화면 자막(0.5초 프레임 + EasyOCR) + Whisper large-v3·medium(한국어) 대조</p><ul class="small"><li>Whisper &#x27;그가/그거 하는 거 보더라?&#x27; → 화면 &#x27;그 나 하는 거 뭐더라?&#x27;</li><li>아바타 컷 &#x27;(원래 하던 멘트)&#x27; 구간의 실제 음성 &#x27;자, 여기서 쓰인 표현&#x27; 확인(Whisper 2회 일치)</li><li>&#x27;Spring Onion: 파!&#x27;는 화면 표기, 음성은 &#x27;Spring onion&#x27;</li><li>2.5~5초 &#x27;Green Onion / Spring Onion&#x27;은 화면에 영문 라벨만 있어 음성대로 한글 표기</li></ul></details></section></div><div class="lb" id="lb"><img alt=""><div class="row"><a class="btn orig" target="_blank">🔍 원본 크기로 열기</a><a class="btn main zip" download>🗂 ZIP</a><button class="btn x">✕ 닫기</button></div></div><script type="application/json" id="T_v1">"1위 · 멍청해보이는 사람이 사실은 가장 똑똑한 이유\nhttps://www.youtube.com/shorts/JkMiqr12JDU\n\n우선 감히 제가 '멍청하다' 말하는 사람은 어떤 사람일까요?\n문해력이 떨어지는 사람?\n아뇨.\n학력이 좋지 않은 사람?\n아뇨.\n돈을 못 버는 사람?\n아니요.\n아닙니다.\n제가 생각하는 정말 멍청한 사람은 바로, 문명 속에 살아가며 다수가 쥐여주는 혜택은 모두 누리면서 다수와 살아가는 값은 치르지 않으려는 사람입니다.\n뭐라는 거야?\n네, 지금부터 아주 쉽게 설명을 해볼게요.\n그럼 시작할까요?\n앞서 언급된 멍청이를 경제 용어로 아주 간단하게 정의를 해보면 바로 체리 피커입니다.\n체리 피커가 뭐냐고요?\n케이크에 체리만 쏙쏙 빼먹는 사람이요.\n님들, 진-짜 개맛있게 생긴 체리 생크림 케이크가 있는데 누가 체리만 쏙쏙 빼먹어요.\n그럼 어떤 감정이 들 거 같으세요?\n진짜 양아치 ㅅㄲ 아니야?\n이런 말이 나오시나요?\n혹은 야, 체리만 쏙쏙 빼먹을 수 있으면 그렇게 하는 게 똑똑한 거 아니야? 라는 말이 나오시나요?\n후자로 생각하는 분들이 꽤 계실지도 모르겠습니다.\n왜냐하면 체리 피커들이 사람을 그렇게 세뇌하거든요.\n체리만 쏙쏙 빼먹는 체리 피커들은 본인이 그 누구보다 똑똑한 줄 압니다.\n그들은 진심으로…"</script><script type="application/json" id="T_v2">"2위 · 지금 내가 어떤 사람인지 적나라하게 아는 법\nhttps://www.youtube.com/shorts/gLE5fOfzfwk\n\n제가 감히 장담하건대, 이 영화를 보면 지금의 내가 어떤 사람인지 아주 적나라하게 알 수 있습니다.\n참고로 저는 이 영화를 처음 봤을 때 두려움과 위기감을 느꼈고요, 두 번째로 봤을 때는 감동과 사랑을 느꼈고, 마지막으로 봤을 때는 역겨움을 가장 크게 느꼈어요.\n자, 궁금하시죠?\n영상의 본론으로 들어가기 전에 우선 이 질문에 한 번 답해보시죠.\n여러분, 만약 어떤 사람이 고의로 스스로를 망치고 있어요.\n여러분이 진실을 말하면 그 사람을 구할 수 있습니다.\n여러분은 진실을 말하고 그 사람을 구할 건가요?\n혹은 그냥 그대로 두실 건가요?\n예를 들어 지금 법정에서는 살인에 대한 재판이 진행되고 있습니다.\n범인으로 지목된 사람은 A고, 여러분은 A와 사랑하는 사이입니다.\n가족, 친구, 연인 중에 잘 이입되는 거로 하나 골라잡아서 생각해 보시죠.\n여러분은, 여러분이 사랑하는 A의 비밀을 알고 있습니다.\n바로 A가 문맹이라는 사실이죠.\n님들 빼고는 아무도 A가 문맹이라는 그 비밀을 모릅니다.\n그런데 경찰이 살인 현장에서 수집한 증거에 따르면 범인은 글을 읽고 쓸 수 있는…"</script><script type="application/json" id="T_v3">"3위 · 전세계를 홀려버린 윤여정 오스카 수상 소감\nhttps://www.youtube.com/shorts/w_WdmzeNY-o\n\n시상자: And the Oscar goes to…\n(여우조연상 수상자는)\n시상자: Yuh-Jung Youn.\n(윤여정)\n시상자: Yuh-Jung Youn.\n수상자: Mr. Brad Pitt, finally.\n(브래드 피트씨..! 드디어...!)\n수상자: Nice to meet you.\n(만나서 반가워요)\n수상자: Where were you while we were filming?\n(영화 촬영 때 어디 계셨어요)\n수상자: As you know, I'm from Korea, and actually my name is Yuh-Jung Youn.\n(다들 아시겠지만 저는 한국에서 왔고요 / 제 이름은 '윤여정'입니다)\n수상자: Most of European people call me Yuh-Young, and some of them call me Yoo-Jung.\n(대부분의 유럽인들은 저를 '여영'이라 부르고 / 어떤 이들은 '유정'이라 부르지만요)\n수상자: But tonight, you are all forgiven.\n(하지만 오늘만큼은 / 모두 용서하겠습니다)\n수상자: I'm living in the other part of the world.\n(전 지구 반대편에 살고 있고)\n수상자: I just watch the television.\n(TV에서 봤습니다)\n수상자: It is the Oscar.\n(바로 이 오스카 시상식을요)\n수상자: Like a television program for us.\n(그냥 TV 프로그램이었죠)\n수상자: But me being here by myself, I cannot believe I'm here.\n(그런데 / 제가 지금 그 곳에 와있다니 / 정말 믿을 수가 없습니다)\n수상자: That's…\n(그게 참...)\n수상자: Okay, let me pull myself together.\n(그래요 / 정신 좀 차릴게요)\n수상자: Thank you.\n(감사합니다)\n수상자: Tremendous thanks to the Academy members who voted for me.\n(저를 위해 투표해주신 분들에게 진심으로 감사드립니다)"</script><script type="application/json" id="T_v4">"4위 · ㅈ 된 상황 똑똑하게 벗어나는 심리학 기술\nhttps://www.youtube.com/shorts/VUOl7lFwliM\n\n아- 지금 혹시 ㅈ 되셨나요?\n걱정 마세요.\n8명의 판사 실험을 이용하면 되거든요.\n컬럼비아 비즈니스 스쿨의 연구팀은 이스라엘의 숙련된 판사 8명의 가석방 판결을 연구했습니다.\n쉽게 말해 범죄자를 빨리 풀어줄지 말지 판단을 했다는 거죠.\n그런데 여기서 신기한 점이 발견됐습니다.\n판사들이 '이것'을 한 이후에는 65%의 케이스에 가석방 허가를 내렸거든요.\n'이것'은 무엇일까요?\n바로 after a snack or lunch break, 간식 섭취 혹은 점심시간 후였습니다.\n긍정적인 판결 확률은 점진적으로 떨어지고, 때때로 0에 이르다가, 휴식 이후 65%로 돌아온다.\n8인의 판사 실험은 판사가 계속해서 판결을 내릴 때는 현 상태를 유지하는 판결을 내릴 때가 많은데, 짧은 휴식, 음식, 간식이라는 변수를 넣어주면 그 흐름이 끊길 수도 있다는 결과를 보여줍니다.\n여기서 키포인트는 흐름을 끊고 연료를 넣어주면 결과가 바뀔 수도 있다는 거죠.\n업무 관련 미팅을 하는데 흐름이 쎄하거나, 연인이랑 싸우다가 '아 이렇게 계속 대화하다 보면 ㅈ 될 것 같은데, 헤어질 것 같은데'라는 생각이 든다면 잊지 마세요.\n간식 먹고 하자! 쉬고 하즈아!!"</script><script type="application/json" id="T_v5">"5위 · 정치질에서 벗어날 수 있는 똑똑한 심리학 기술\nhttps://www.youtube.com/shorts/NJad2PWoSMg\n\n이것을 잘 사용하면 사람들의 마음을 마음대로 조종할 수 있다고 하는데요.\n뭘까요?\n바로 metaphor, 비유법입니다.\n스탠포드 대학 연구팀은 1482명의 학생들에게 도시의 범죄에 관한 2가지 보고서를 보여주고 해결 방법을 제시하게 했습니다.\n여기서 재밌는 변수를 하나 주는데요.\nA는 범죄를 짐승이라고 비유했고, B는 바이러스로 비유를 한 거죠.\n둘 중 어느 쪽을 읽은 학생들이 더 강력한 처벌을 해결법으로 제시했을까요?\n바로 A입니다.\nA를 읽은 학생 중 75%가 감옥 건설 등 처벌 중심의 해결책을 제안했고, 25%만이 교육과 같은 사회적 개혁을 제시했습니다.\n반면 B를 읽은 학생들은 56%가 처벌 중심의 해결책을 제안했고, 44%가 사회적 개혁을 제안했습니다.\n이는 A보다 20%나 높은 수치입니다.\n비유법은 사람의 무의식에 엄청난 영향을 줍니다.\n심지어 정치적 성향보다요.\n성별과 정치적 성향은 8~9%의 영향을 주는 반면, 비유법은 18~22%의 영향을 줬다고 합니다.\n그러니 여러분, 어떠한 새로운 정보를 접하거나 이간질이나 정치판 속에서 혼란스럽다면, 이상한 metaphor, 비유가 얹어져 인지적 왜곡이 일어나고 있는 것은 아닌지 파악할 필요가 있겠습니다.\n후후.."</script><script type="application/json" id="T_v6">"6위 · 요즘 미국 애들 휴가 안 쓰는 이유\nhttps://www.youtube.com/shorts/BluAalPAPqg\n\n요즘 미국 직장인들은 휴가를 안 쓴다고 합니다.\n왤까요?\nI feel stressed asking my boss for time off,\n(상사한테 일정 조율하는 거 스트레스야)\nso I just take secret PTO.\n(그래서 그냥 비밀 유급 휴가 쓰는 거지)\n자, 여기서 PTO는 Paid Time Off, 즉 유급 휴가를 의미합니다.\n최근 미국 CNBC 뉴스에 따르면 밀레니얼 세대 10명 중 4명은 상사에게 알리지 않고 secret PTO, 즉 비밀 유급 휴가를 쓰고 있다고 하는데요.\n비밀 유급 휴가?\n뭔 말이야?\nI move my mouse to show I'm active, even when I'm not really working.\n(일하지 않을 때도 마우스를 움직여서 일하는 중인 것처럼 하는 거지)\n한국어로 월급 루팡, 월급 도둑이라고 하죠.\n일을 안 하는데 하는 척하는.\n이걸 미국에서는 I'm taking secret PTO, 나 비밀 유급 휴가 쓰는 중이라고 말하는 겁니다.\n해리스 폴 조사에 따르면 78%의 미국 노동자들이 PTO를 모두 사용하지 않는다고 답했으며, 특히 Gen Z와 밀레니얼 세대에서 높게 나타났습니다.\n왤까요?\n해리스 폴의 최고 전략 책임자 리비 로드니에 따르면, 젊은 직장인들은 일을 멈추면 안 된다는 강한 압박을 느끼고 게으름뱅이로 보이는 것을 두려워하기 때문입니다.\n휴가 쓰기엔 눈치가 보인다는 거죠.\n그래서 휴가 쓰겠다고는 못 하고 secret PTO를 쓰는 사람만 늘어나는 겁니다.\n여러분은 휴가 잘 쓰고 계신가요?\n아님 혹시 taking secret PTO 하고 계신가요?"</script><script type="application/json" id="T_v7">"7위 · 집착 광공에서 벗어나게 해주는 똑똑한 심리학 기술\nhttps://www.youtube.com/shorts/ObsQ_IGyI_c\n\n너 없이 못 살아, 날 떠나지 마! 하는 소모적인 집착을 하게 돼 힘드신가요?\n여기 집착에서 벗어나게 해주는 개꿀팁 심리학 기술이 있습니다.\n뭘까요?\n바로 New Look 이론이죠.\n제롬 브루너와 하버드 대학 심리학 연구팀은 실험을 진행합니다.\n그들은 10세 어린이 30명을 모아 경제 상태에 따라 A그룹, B그룹으로 나눴죠.\n그리고는 동전을 보여줍니다.\n아이들은 동전을 보고 다른 방에 들어가 동전과 똑같은 크기의 원을 골라야 했습니다.\n빈곤층인 아이들은 실제 동전보다 더 큰 크기의 원을 골랐고, 부유층인 아이들은 실제 동전과 비슷한 크기의 원을 고르며 차이를 보였습니다.\n연구진은 사람은 주어진 정보만을 보고 객관적으로 판단하는 존재가 아닌 본인의 환경을 토대로 주관적인 판단을 내리는 존재이며, 아이들의 환경 차이에 따라 돈에 대한 인식과 욕망이 달랐기 때문에 이러한 차이가 발생했다고 말했습니다.\n그러니 내가 누군가에 과도하게 집착을 하고 있다면 나의 특정 욕망이 투영되어 그 사람을 객관적으로 판단한 게 아니라 주관적으로 판단하고 있을 확률이 높습니다.\n그러니 누군가에게 집착하고 싶은 욕구가 마구 올라오고 불안감에 허덕이고 계신다면, 나는 나의 어떤 환경 때문에 무슨 욕망을 갖게 되었는지, 그 사람이 내 어떤 욕망을 충족시켜주길 기대하고 있는지 인지할 필요가 있습니다.\n모든 변화는 현상을 인지하는 데서 시작하니까요!"</script><script type="application/json" id="T_v8">"8위 · 한국 갈비를 처음 들은 미국 마트 직원 반응\nhttps://www.youtube.com/shorts/AH02zR-wNmw\n\n촬영자: Excuse me?\n직원: Okay, sweetie~\n(아랏어 스위티~)\n직원: As soon as someone gives me a floor sign, I can go check on the computer.\n(내 동료가 바닥 사인 가져다주면 / 바로 컴퓨터로 확인해 줄게)\n촬영자: Thank you.\n(고마워)\n직원: [불명확]\n(천만에~!)\n직원: I'm gonna check now, okay?\n(지금 확인해 볼게!)\n촬영자: Okay, thank you.\n(ㅇㅋ 고마워!!)\n직원: [불명확]\n(천만에~!)\n촬영자: 한국 김밥 품절 됐냐고 물어봐서 점원 분이 체크해주신대요.\n촬영자: [불명확] 갈비…\n촬영자: short rib 어쩌구일 텐데…\n직원: It says it should be orderable at 18, so it won't be in the store until about 20.\n(김밥은 2주 뒤에 주문 가능하다고 하고 / 이번 달 말에나 들어올 듯)\n촬영자: Oh, can you check on the Korean galbi thing?\n(한국 갈비도 확인해 줄 수 있어?)\n직원: Galbi?\n(갈,,,ㅍ비,,,?)\n직원: Give me a second.\n(잠시 ㄱㄷ)\n직원: You can keep shopping. I'll find you.\n(일단 쇼핑하고 있으셈ㄱㄱ)\n직원: I think the name is like… Korean… beef short ribs.\n(내 생각에는 그 제품 이름이... / 한국...소고기 뭐시기... / Beef Short Rip.)\n촬영자: Thank you!\n(오 ㄲ~~~)\n촬영자: Korean style beef short ribs.\n(코뤼안 스따~일 / 비-이f / 숖 / 립)\n촬영자: [불명확]\n(뿌-듯)"</script><script type="application/json" id="T_v9">"9위 · 최고의 선택을 내리게 만드는 똑똑한 심리학 기술\nhttps://www.youtube.com/shorts/JVQQWXo06K0\n\n으아아아악!\n최선의 선택을 내려야 해!!! 하는 압박감을 해결하고 최선의 선택을 내릴 수 있는 과학적 개꿀팁이 있습니다.\n뭘까요?\n바로 Unconscious Mind, 무의식을 이용하는 방법이죠.\n암스테르담 대학교의 연구진은 실험을 진행합니다.\n연비, 발아래 공간 등 4개의 조건을 줄 테니까 가장 좋은 차를 골라보셔.\n시간은 4분 드릴게.\nA 그룹은 하나하나 잘 따져가며 의식적인 선택을 내렸고 55%의 확률로 정답을 맞힙니다.\n그런데 B 그룹한테는 연구진이 퍼즐 놀이를 시킵니다.\n퍼즐을 맞추느라 시간이 없었던 B 그룹은 무의식적으로 빠르게 결정을 내렸고, A 그룹보다 15%p 낮은 40%만이 정답을 맞힙니다.\n여기까지 보면 '야 그래, 의식적으로 하나하나 다 따져가며 선택 내려야 되는 거잖아ㅋ' 하기 쉽지만 반전이 있습니다.\n앞선 연구에서는 4개의 조건만 줬죠?\n이번에는 12개의 조건을 줍니다.\n그리고 이번에는 A가 23%, B가 60%의 정답률을 보였습니다.\n선택이 복잡해지자 의식적으로 판단하기보다는 무의식, 직감에 의존했을 때 더 나은 판단을 하게 된 거죠.\n핵심은 이성적으로 행동하려는 노력이 잘못됐다는 게 아니라, 직감을 근거 없는 감정으로 하대하며 무시할 필요는 없다는 겁니다.\nUnconscious Mind, 무의식은 오히려 복잡한 문제를 아주 잘 해결하는 존재일 수도 있으니까요."</script><script type="application/json" id="T_v10">"10위 · 영어 유튜버의 직업 정신\nhttps://www.youtube.com/shorts/3nwwLhqtL_g\n\n촬영자: 이거는 양파랑 파예요~!\n촬영자: 그린 어니언, 스프링 어니언이라고 하는데 영어로.\n촬영자: 알아두시면 좋겠죠~?\n촬영자: 그 나 하는 거 뭐더라?\n촬영자: 오늘~의~ 오늘의~\n아바타: 자, 여기서 쓰인 표현.\n촬영자: 자, 여기서 쓰인 표현.\n촬영자: Spring onion.\n(Spring Onion: 파!)\n촬영자: 자, 여기서 쓰인 표현.\n촬영자: 스쁘링 어니언~!\n촬영자: 트하하핡."</script><script type="application/json" id="T_all">"# 알간지 쇼츠 TOP10 — 대본만 모음\n\n## 1위 · 멍청해보이는 사람이 사실은 가장 똑똑한 이유\nhttps://www.youtube.com/shorts/JkMiqr12JDU\n\n우선 감히 제가 '멍청하다' 말하는 사람은 어떤 사람일까요?\n문해력이 떨어지는 사람?\n아뇨.\n학력이 좋지 않은 사람?\n아뇨.\n돈을 못 버는 사람?\n아니요.\n아닙니다.\n제가 생각하는 정말 멍청한 사람은 바로, 문명 속에 살아가며 다수가 쥐여주는 혜택은 모두 누리면서 다수와 살아가는 값은 치르지 않으려는 사람입니다.\n뭐라는 거야?\n네, 지금부터 아주 쉽게 설명을 해볼게요.\n그럼 시작할까요?\n앞서 언급된 멍청이를 경제 용어로 아주 간단하게 정의를 해보면 바로 체리 피커입니다.\n체리 피커가 뭐냐고요?\n케이크에 체리만 쏙쏙 빼먹는 사람이요.\n님들, 진-짜 개맛있게 생긴 체리 생크림 케이크가 있는데 누가 체리만 쏙쏙 빼먹어요.\n그럼 어떤 감정이 들 거 같으세요?\n진짜 양아치 ㅅㄲ 아니야?\n이런 말이 나오시나요?\n혹은 야, 체리만 쏙쏙 빼먹을 수 있으면 그렇게 하는 게 똑똑한 거 아니야? 라는 말이 나오시나요?\n후자로 생각하는 분들이 꽤 계실지도 모르겠습니다.\n왜냐하면 체리 피커들이 사람을 그렇게 세뇌하거든요.\n체리만 쏙쏙 빼먹는 체리 피커들은 본인이 그 누구보다 똑똑한 줄 압니다.\n그들은 진심으로…\n\n## 2위 · 지금 내가 어떤 사람인지 적나라하게 아는 법\nhttps://www.youtube.com/shorts/gLE5fOfzfwk\n\n제가 감히 장담하건대, 이 영화를 보면 지금의 내가 어떤 사람인지 아주 적나라하게 알 수 있습니다.\n참고로 저는 이 영화를 처음 봤을 때 두려움과 위기감을 느꼈고요, 두 번째로 봤을 때는 감동과 사랑을 느꼈고, 마지막으로 봤을 때는 역겨움을 가장 크게 느꼈어요.\n자, 궁금하시죠?\n영상의 본론으로 들어가기 전에 우선 이 질문에 한 번 답해보시죠.\n여러분, 만약 어떤 사람이 고의로 스스로를 망치고 있어요.\n여러분이 진실을 말하면 그 사람을 구할 수 있습니다.\n여러분은 진실을 말하고 그 사람을 구할 건가요?\n혹은 그냥 그대로 두실 건가요?\n예를 들어 지금 법정에서는 살인에 대한 재판이 진행되고 있습니다.\n범인으로 지목된 사람은 A고, 여러분은 A와 사랑하는 사이입니다.\n가족, 친구, 연인 중에 잘 이입되는 거로 하나 골라잡아서 생각해 보시죠.\n여러분은, 여러분이 사랑하는 A의 비밀을 알고 있습니다.\n바로 A가 문맹이라는 사실이죠.\n님들 빼고는 아무도 A가 문맹이라는 그 비밀을 모릅니다.\n그런데 경찰이 살인 현장에서 수집한 증거에 따르면 범인은 글을 읽고 쓸 수 있는…\n\n## 3위 · 전세계를 홀려버린 윤여정 오스카 수상 소감\nhttps://www.youtube.com/shorts/w_WdmzeNY-o\n\n시상자: And the Oscar goes to…\n(여우조연상 수상자는)\n시상자: Yuh-Jung Youn.\n(윤여정)\n시상자: Yuh-Jung Youn.\n수상자: Mr. Brad Pitt, finally.\n(브래드 피트씨..! 드디어...!)\n수상자: Nice to meet you.\n(만나서 반가워요)\n수상자: Where were you while we were filming?\n(영화 촬영 때 어디 계셨어요)\n수상자: As you know, I'm from Korea, and actually my name is Yuh-Jung Youn.\n(다들 아시겠지만 저는 한국에서 왔고요 / 제 이름은 '윤여정'입니다)\n수상자: Most of European people call me Yuh-Young, and some of them call me Yoo-Jung.\n(대부분의 유럽인들은 저를 '여영'이라 부르고 / 어떤 이들은 '유정'이라 부르지만요)\n수상자: But tonight, you are all forgiven.\n(하지만 오늘만큼은 / 모두 용서하겠습니다)\n수상자: I'm living in the other part of the world.\n(전 지구 반대편에 살고 있고)\n수상자: I just watch the television.\n(TV에서 봤습니다)\n수상자: It is the Oscar.\n(바로 이 오스카 시상식을요)\n수상자: Like a television program for us.\n(그냥 TV 프로그램이었죠)\n수상자: But me being here by myself, I cannot believe I'm here.\n(그런데 / 제가 지금 그 곳에 와있다니 / 정말 믿을 수가 없습니다)\n수상자: That's…\n(그게 참...)\n수상자: Okay, let me pull myself together.\n(그래요 / 정신 좀 차릴게요)\n수상자: Thank you.\n(감사합니다)\n수상자: Tremendous thanks to the Academy members who voted for me.\n(저를 위해 투표해주신 분들에게 진심으로 감사드립니다)\n\n## 4위 · ㅈ 된 상황 똑똑하게 벗어나는 심리학 기술\nhttps://www.youtube.com/shorts/VUOl7lFwliM\n\n아- 지금 혹시 ㅈ 되셨나요?\n걱정 마세요.\n8명의 판사 실험을 이용하면 되거든요.\n컬럼비아 비즈니스 스쿨의 연구팀은 이스라엘의 숙련된 판사 8명의 가석방 판결을 연구했습니다.\n쉽게 말해 범죄자를 빨리 풀어줄지 말지 판단을 했다는 거죠.\n그런데 여기서 신기한 점이 발견됐습니다.\n판사들이 '이것'을 한 이후에는 65%의 케이스에 가석방 허가를 내렸거든요.\n'이것'은 무엇일까요?\n바로 after a snack or lunch break, 간식 섭취 혹은 점심시간 후였습니다.\n긍정적인 판결 확률은 점진적으로 떨어지고, 때때로 0에 이르다가, 휴식 이후 65%로 돌아온다.\n8인의 판사 실험은 판사가 계속해서 판결을 내릴 때는 현 상태를 유지하는 판결을 내릴 때가 많은데, 짧은 휴식, 음식, 간식이라는 변수를 넣어주면 그 흐름이 끊길 수도 있다는 결과를 보여줍니다.\n여기서 키포인트는 흐름을 끊고 연료를 넣어주면 결과가 바뀔 수도 있다는 거죠.\n업무 관련 미팅을 하는데 흐름이 쎄하거나, 연인이랑 싸우다가 '아 이렇게 계속 대화하다 보면 ㅈ 될 것 같은데, 헤어질 것 같은데'라는 생각이 든다면 잊지 마세요.\n간식 먹고 하자! 쉬고 하즈아!!\n\n## 5위 · 정치질에서 벗어날 수 있는 똑똑한 심리학 기술\nhttps://www.youtube.com/shorts/NJad2PWoSMg\n\n이것을 잘 사용하면 사람들의 마음을 마음대로 조종할 수 있다고 하는데요.\n뭘까요?\n바로 metaphor, 비유법입니다.\n스탠포드 대학 연구팀은 1482명의 학생들에게 도시의 범죄에 관한 2가지 보고서를 보여주고 해결 방법을 제시하게 했습니다.\n여기서 재밌는 변수를 하나 주는데요.\nA는 범죄를 짐승이라고 비유했고, B는 바이러스로 비유를 한 거죠.\n둘 중 어느 쪽을 읽은 학생들이 더 강력한 처벌을 해결법으로 제시했을까요?\n바로 A입니다.\nA를 읽은 학생 중 75%가 감옥 건설 등 처벌 중심의 해결책을 제안했고, 25%만이 교육과 같은 사회적 개혁을 제시했습니다.\n반면 B를 읽은 학생들은 56%가 처벌 중심의 해결책을 제안했고, 44%가 사회적 개혁을 제안했습니다.\n이는 A보다 20%나 높은 수치입니다.\n비유법은 사람의 무의식에 엄청난 영향을 줍니다.\n심지어 정치적 성향보다요.\n성별과 정치적 성향은 8~9%의 영향을 주는 반면, 비유법은 18~22%의 영향을 줬다고 합니다.\n그러니 여러분, 어떠한 새로운 정보를 접하거나 이간질이나 정치판 속에서 혼란스럽다면, 이상한 metaphor, 비유가 얹어져 인지적 왜곡이 일어나고 있는 것은 아닌지 파악할 필요가 있겠습니다.\n후후..\n\n## 6위 · 요즘 미국 애들 휴가 안 쓰는 이유\nhttps://www.youtube.com/shorts/BluAalPAPqg\n\n요즘 미국 직장인들은 휴가를 안 쓴다고 합니다.\n왤까요?\nI feel stressed asking my boss for time off,\n(상사한테 일정 조율하는 거 스트레스야)\nso I just take secret PTO.\n(그래서 그냥 비밀 유급 휴가 쓰는 거지)\n자, 여기서 PTO는 Paid Time Off, 즉 유급 휴가를 의미합니다.\n최근 미국 CNBC 뉴스에 따르면 밀레니얼 세대 10명 중 4명은 상사에게 알리지 않고 secret PTO, 즉 비밀 유급 휴가를 쓰고 있다고 하는데요.\n비밀 유급 휴가?\n뭔 말이야?\nI move my mouse to show I'm active, even when I'm not really working.\n(일하지 않을 때도 마우스를 움직여서 일하는 중인 것처럼 하는 거지)\n한국어로 월급 루팡, 월급 도둑이라고 하죠.\n일을 안 하는데 하는 척하는.\n이걸 미국에서는 I'm taking secret PTO, 나 비밀 유급 휴가 쓰는 중이라고 말하는 겁니다.\n해리스 폴 조사에 따르면 78%의 미국 노동자들이 PTO를 모두 사용하지 않는다고 답했으며, 특히 Gen Z와 밀레니얼 세대에서 높게 나타났습니다.\n왤까요?\n해리스 폴의 최고 전략 책임자 리비 로드니에 따르면, 젊은 직장인들은 일을 멈추면 안 된다는 강한 압박을 느끼고 게으름뱅이로 보이는 것을 두려워하기 때문입니다.\n휴가 쓰기엔 눈치가 보인다는 거죠.\n그래서 휴가 쓰겠다고는 못 하고 secret PTO를 쓰는 사람만 늘어나는 겁니다.\n여러분은 휴가 잘 쓰고 계신가요?\n아님 혹시 taking secret PTO 하고 계신가요?\n\n## 7위 · 집착 광공에서 벗어나게 해주는 똑똑한 심리학 기술\nhttps://www.youtube.com/shorts/ObsQ_IGyI_c\n\n너 없이 못 살아, 날 떠나지 마! 하는 소모적인 집착을 하게 돼 힘드신가요?\n여기 집착에서 벗어나게 해주는 개꿀팁 심리학 기술이 있습니다.\n뭘까요?\n바로 New Look 이론이죠.\n제롬 브루너와 하버드 대학 심리학 연구팀은 실험을 진행합니다.\n그들은 10세 어린이 30명을 모아 경제 상태에 따라 A그룹, B그룹으로 나눴죠.\n그리고는 동전을 보여줍니다.\n아이들은 동전을 보고 다른 방에 들어가 동전과 똑같은 크기의 원을 골라야 했습니다.\n빈곤층인 아이들은 실제 동전보다 더 큰 크기의 원을 골랐고, 부유층인 아이들은 실제 동전과 비슷한 크기의 원을 고르며 차이를 보였습니다.\n연구진은 사람은 주어진 정보만을 보고 객관적으로 판단하는 존재가 아닌 본인의 환경을 토대로 주관적인 판단을 내리는 존재이며, 아이들의 환경 차이에 따라 돈에 대한 인식과 욕망이 달랐기 때문에 이러한 차이가 발생했다고 말했습니다.\n그러니 내가 누군가에 과도하게 집착을 하고 있다면 나의 특정 욕망이 투영되어 그 사람을 객관적으로 판단한 게 아니라 주관적으로 판단하고 있을 확률이 높습니다.\n그러니 누군가에게 집착하고 싶은 욕구가 마구 올라오고 불안감에 허덕이고 계신다면, 나는 나의 어떤 환경 때문에 무슨 욕망을 갖게 되었는지, 그 사람이 내 어떤 욕망을 충족시켜주길 기대하고 있는지 인지할 필요가 있습니다.\n모든 변화는 현상을 인지하는 데서 시작하니까요!\n\n## 8위 · 한국 갈비를 처음 들은 미국 마트 직원 반응\nhttps://www.youtube.com/shorts/AH02zR-wNmw\n\n촬영자: Excuse me?\n직원: Okay, sweetie~\n(아랏어 스위티~)\n직원: As soon as someone gives me a floor sign, I can go check on the computer.\n(내 동료가 바닥 사인 가져다주면 / 바로 컴퓨터로 확인해 줄게)\n촬영자: Thank you.\n(고마워)\n직원: [불명확]\n(천만에~!)\n직원: I'm gonna check now, okay?\n(지금 확인해 볼게!)\n촬영자: Okay, thank you.\n(ㅇㅋ 고마워!!)\n직원: [불명확]\n(천만에~!)\n촬영자: 한국 김밥 품절 됐냐고 물어봐서 점원 분이 체크해주신대요.\n촬영자: [불명확] 갈비…\n촬영자: short rib 어쩌구일 텐데…\n직원: It says it should be orderable at 18, so it won't be in the store until about 20.\n(김밥은 2주 뒤에 주문 가능하다고 하고 / 이번 달 말에나 들어올 듯)\n촬영자: Oh, can you check on the Korean galbi thing?\n(한국 갈비도 확인해 줄 수 있어?)\n직원: Galbi?\n(갈,,,ㅍ비,,,?)\n직원: Give me a second.\n(잠시 ㄱㄷ)\n직원: You can keep shopping. I'll find you.\n(일단 쇼핑하고 있으셈ㄱㄱ)\n직원: I think the name is like… Korean… beef short ribs.\n(내 생각에는 그 제품 이름이... / 한국...소고기 뭐시기... / Beef Short Rip.)\n촬영자: Thank you!\n(오 ㄲ~~~)\n촬영자: Korean style beef short ribs.\n(코뤼안 스따~일 / 비-이f / 숖 / 립)\n촬영자: [불명확]\n(뿌-듯)\n\n## 9위 · 최고의 선택을 내리게 만드는 똑똑한 심리학 기술\nhttps://www.youtube.com/shorts/JVQQWXo06K0\n\n으아아아악!\n최선의 선택을 내려야 해!!! 하는 압박감을 해결하고 최선의 선택을 내릴 수 있는 과학적 개꿀팁이 있습니다.\n뭘까요?\n바로 Unconscious Mind, 무의식을 이용하는 방법이죠.\n암스테르담 대학교의 연구진은 실험을 진행합니다.\n연비, 발아래 공간 등 4개의 조건을 줄 테니까 가장 좋은 차를 골라보셔.\n시간은 4분 드릴게.\nA 그룹은 하나하나 잘 따져가며 의식적인 선택을 내렸고 55%의 확률로 정답을 맞힙니다.\n그런데 B 그룹한테는 연구진이 퍼즐 놀이를 시킵니다.\n퍼즐을 맞추느라 시간이 없었던 B 그룹은 무의식적으로 빠르게 결정을 내렸고, A 그룹보다 15%p 낮은 40%만이 정답을 맞힙니다.\n여기까지 보면 '야 그래, 의식적으로 하나하나 다 따져가며 선택 내려야 되는 거잖아ㅋ' 하기 쉽지만 반전이 있습니다.\n앞선 연구에서는 4개의 조건만 줬죠?\n이번에는 12개의 조건을 줍니다.\n그리고 이번에는 A가 23%, B가 60%의 정답률을 보였습니다.\n선택이 복잡해지자 의식적으로 판단하기보다는 무의식, 직감에 의존했을 때 더 나은 판단을 하게 된 거죠.\n핵심은 이성적으로 행동하려는 노력이 잘못됐다는 게 아니라, 직감을 근거 없는 감정으로 하대하며 무시할 필요는 없다는 겁니다.\nUnconscious Mind, 무의식은 오히려 복잡한 문제를 아주 잘 해결하는 존재일 수도 있으니까요.\n\n## 10위 · 영어 유튜버의 직업 정신\nhttps://www.youtube.com/shorts/3nwwLhqtL_g\n\n촬영자: 이거는 양파랑 파예요~!\n촬영자: 그린 어니언, 스프링 어니언이라고 하는데 영어로.\n촬영자: 알아두시면 좋겠죠~?\n촬영자: 그 나 하는 거 뭐더라?\n촬영자: 오늘~의~ 오늘의~\n아바타: 자, 여기서 쓰인 표현.\n촬영자: 자, 여기서 쓰인 표현.\n촬영자: Spring onion.\n(Spring Onion: 파!)\n촬영자: 자, 여기서 쓰인 표현.\n촬영자: 스쁘링 어니언~!\n촬영자: 트하하핡.\n"</script><script>
+const LB=document.getElementById('lb'),LBI=LB.querySelector('img'),LBZ=LB.querySelector('.zip'),LBO=LB.querySelector('.orig');
+document.querySelectorAll('img.zm').forEach(i=>i.onclick=()=>{LBI.src=i.src;LBO.href=i.src;LBZ.href=i.dataset.zip;LBZ.textContent='🗂 '+i.dataset.zipname+' 사진 ZIP 받기';LB.classList.add('on')});
+LB.onclick=e=>{if(e.target===LB||e.target.classList.contains('x'))LB.classList.remove('on')};
+function copyText(t,btn,label){const ok=()=>{btn.textContent='✅ 복사됨';btn.classList.add('done');setTimeout(()=>{btn.textContent=label;btn.classList.remove('done')},1600)};
+function fb(){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();ok()}
+if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(ok,fb)}else fb();}
+document.querySelectorAll('.pbox').forEach(b=>{const btn=document.createElement('button');btn.className='cp';btn.textContent='복사';
+btn.onclick=()=>copyText(b.querySelector('.txt').innerText,btn,'복사');b.appendChild(btn)});
+document.querySelectorAll('[data-copy]').forEach(b=>{const label=b.textContent;b.onclick=()=>{
+const el=document.getElementById('T_'+b.dataset.copy);copyText(JSON.parse(el.textContent),b,label)}});
+</script></body></html>

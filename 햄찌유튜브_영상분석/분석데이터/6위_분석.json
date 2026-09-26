@@ -1,0 +1,2410 @@
+{
+ "key": "v6",
+ "rank": 6,
+ "id": "iUrnhZDyqBU",
+ "fmt": "생활 공포 콩트 · 보이지 않는 벌레 1인칭 시점 반전형",
+ "logline": "평화로운 금요일 밤 소파에서 베이글을 먹던 주인공에게, 바닥 높이 1인칭 시점으로만 존재하는 정체불명의 침입자가 중후한 외국어 저음으로 '파티 가다 길을 잃었다'며 정중하게 출구를 묻는다 → 주인공은 몸만 한 페트병을 끌어안고 비명과 오타투성이 협박으로 폭주하다 병 투척·덮치기로 그 시점을 기절시키고 투명 컵에 가둔다 → 울면서 엄마에게 전화하지만 벌레 한 마리로 유난이라는 핀잔, 휴지·변기 처리법, 그럼 같이 살라는 황당 제안만 돌아오고, 배경에 쓰러져 있던 컵은 이미 비어 있다 → 전화기 속 '여보세요?'만 남기고 뚝 끊기는 51초 생활 공포 콩트.",
+ "formula": [
+  "썸네일 플래시 훅",
+  "먹방 평화(셋업)",
+  "보이지 않는 시점의 첫마디",
+  "공손한 사정 설명 vs 얼음",
+  "몸만 한 무기 들고 대치",
+  "동문서답 2층 자막 폭주",
+  "폭력행사 → 시점 기절 암전",
+  "컵 감옥 + 울며 엄마 통화",
+  "휩 팬 속 탈출(숨은 복선)",
+  "황당 제안 → 빈 컵 반전",
+  "무응답 전화 + 뚝 엔딩(루프)"
+ ],
+ "why": [
+  "벌레를 끝까지 안 보여 줌: #4~#32(1.53→37.07초, 전체의 70%)가 바닥 1~2cm 높이 초광각 1인칭 시점이라 '약혐' 대상은 목소리·노랑 자막·카메라 높이로만 존재. 혐오 이미지 없이 공포를 상상하게 하고, 반대로 20cm짜리 주인공이 거대한 괴물처럼 올려다보여 '포식자' 반어 라벨(#9)이 먹힘",
+  "3옥타브 차이의 말투 대비: 침입자는 약 82~135Hz 중후한 외국어 저음으로 정중하게, 주인공은 501~848Hz(성인 여성 평균 210Hz보다 최대 23.5반음 위) 비명과 자모 오타로 폭주 → 큰 쪽이 겁먹는 역전 구도. 유튜브 '가장 많이 다시 본 구간'이 5.1~5.6초(히트맵 1.0) — 화면 밖 목소리가 처음 말을 거는 #4 순간",
+  "2층 자막: #9~#31(13.4→36.4초) 동안 위층 작은 노랑 줄(약 36px, y≈0.775)은 끝까지 공손한 해명, 아래층 큰 흰 줄(약 80px, y≈0.868)은 비명 — 두 목소리를 한 화면에서 동시에 읽는 동문서답 개그 + 무음 시청 대응",
+  "복선 → 이중 반전: 탈출은 0.7초 휩 팬(#32) 속에 숨기고, 쓰러진 빈 컵을 #34~#39 배경에 약 5초 계속 보여 준 뒤 #41에서 그 컵으로 디지털 푸시인 + 공포 드론. 먼저 발견한 시청자는 댓글·재시청, 마지막은 대답 없는 전화 + 0.23초 암전으로 뚝 끊겨 루프",
+  "혼자 사는 사람의 벌레 공포와 무심한 엄마 반응(유난 핀잔 → 처리법 → 같이 살라는 제안)은 누구나 겪은 상황이라 공감·공유. 업로드도 금요일 18:30(KST)로 첫 괄호 라벨의 '금요일 저녁'과 같은 시간대",
+  "48컷·평균 1.05초(분당 57컷)의 빠른 편집인데 실제 영상 생성 소스는 11개: 한 테이크를 와이드↔1.2~4.3배 크롭으로 번갈아 자르는 '가짜 멀티캠'(#4~#7, #9~#21, #28~#32, #33~#41, #42~#47, 경계 프레임 상관도 0.84~0.998)으로 제작비를 줄이면서 리액션 컷 수를 늘림. 크롭 컷끼리도 동작이 이어져 한 번에 찍은 것처럼 보임"
+ ],
+ "look": "photorealistic live-action look as if a real tiny animal was filmed in a real Korean apartment at night, full-frame cinema camera, a 16mm ultra-wide lens placed about 1 cm above the floor for the intruder's point of view and a 50mm macro-capable lens for close-ups, warm dim lamp and cove LED light indoors, blue night city lights through the windows, shallow depth of field, soft natural color grade, crisp fur and whisker detail, 16:9, 4K",
+ "cast": {
+  "hero": {
+   "role": "주인공 동물 · 금요일 밤 먹방 중 침입자를 만난 집주인",
+   "cap": "#FFFFFF",
+   "voice": "먹방 감탄 약 280Hz → 협박·비명 구간 중앙값 501~848Hz(성인 여성 평균 210Hz보다 15~23.5반음 높음) → 암전 속 울음 약 735Hz → 마지막 '없다' 속삭임 약 253Hz. 날카로운 샤우팅과 힘 빠진 속삭임의 대비"
+  },
+  "cw1": {
+   "role": "정체불명의 침입자(벌레) · 화면에 한 번도 안 나오는 1인칭 시점 + 목소리",
+   "cap": "#ECFF1A",
+   "en": "never shown on screen: the intruder exists only as the extreme floor-level point-of-view camera (about 1 cm above the floor) and an off-screen voice; do not render any insect",
+   "voice": "중년 남성 저음(약 82~135Hz, 여성 평균 대비 -9~-16반음). 외국어(음성 인식이 'Bitte'류를 잡아 독일어로 추정)로 느리고 정중하게 말하고 한국어 노랑 자막이 번역 역할"
+  },
+  "cw2": {
+   "role": "전화 속 엄마 · 목소리만 등장",
+   "cap": "#EE78C1",
+   "en": "never shown on screen: a voice heard only through the hero's smartphone",
+   "voice": "전화 음성(저음 컷, 1~4kHz 강조), 무심하고 빠른 말투. 끝의 '여보세요?' 구간 약 353~387Hz"
+  }
+ },
+ "speaker_colors": {
+  "cw1": "#ECFF1A",
+  "cw2": "#EE78C1"
+ },
+ "sets": {
+  "livingroom": "a cozy modern Korean apartment living room at night with a low beige boucle sofa, a round light-oak coffee table holding a brown paper takeout bag and a clear plastic food container, light oak plank flooring, white walls, a recessed cove LED ceiling light and tall windows showing blurred night city lights",
+  "sofa": "a large low beige boucle sofa seen from floor level, its armrest towering like a cliff, a round light-oak coffee table with a brown paper takeout bag on the right, tall dark windows with city lights behind, warm dim evening light",
+  "floor": "an extreme floor-level view about 1 cm above light oak plank flooring through a 16mm ultra-wide lens, the wood grain stretching into the foreground, a beige sofa and a round light-oak coffee table with a brown paper takeout bag in the background, tall windows with blurred night city lights",
+  "cup": "the view from inside an upside-down clear plastic cup sitting on a light oak floor: curved transparent plastic walls with tiny droplets and scratches, a bright rim arc across the bottom of the frame, and the night living room with a beige sofa and a round coffee table seen through the plastic",
+  "hallway": "a bright white apartment entrance hallway: a dark grey front door, black coats and a canvas tote bag hanging on a wall rack, a brown cardboard delivery box on light oak flooring, and an empty clear plastic cup lying on its side on the floor"
+ },
+ "beats": [
+  {
+   "k": "훅 · 썸네일 플래시 + 먹방",
+   "t": [
+    0,
+    1.533
+   ],
+   "e": 0.5,
+   "ko": "0.1초 썸네일(제목) 프레임 → 입·빵 매크로 → 오물오물 MCU. 1.5초 안에 '귀여운 먹방'으로 경계를 풀게 함"
+  },
+  {
+   "k": "평화 → 정체불명의 목소리",
+   "t": [
+    1.533,
+    6.333
+   ],
+   "e": 0.1,
+   "ko": "바닥 높이 와이드(누군가의 시점)로 소파 위 작은 주인공을 멀리서 보여 주며 평온한 저녁 괄호 라벨 → 화면 밖 노랑 목소리가 처음 말을 걺(가장 많이 돌려 본 5.1~5.6초)"
+  },
+  {
+   "k": "공손한 길 묻기 vs 얼음",
+   "t": [
+    6.333,
+    13.367
+   ],
+   "e": -0.4,
+   "ko": "침입자는 파티 가다 길을 잃었다며 정중하게 출구를 묻고, 주인공은 얼음 → 작게 웅얼대는 패닉 → 빵을 떨어뜨리고 소파 끝에서 내려다봄. 시점 카메라가 소파 쪽으로 기어감"
+  },
+  {
+   "k": "병 들고 대치",
+   "t": [
+    13.367,
+    19.6
+   ],
+   "e": -0.6,
+   "ko": "바닥에 내려온 주인공이 몸만 한 페트병을 무기처럼 안고 떪. 겁먹은 포식자 반어 라벨, 침입자는 말이 안 통하나 고민. 0.5초 완전 무음 뒤 오타투성이 협박과 비명"
+  },
+  {
+   "k": "동문서답 폭주",
+   "t": [
+    19.6,
+    25.333
+   ],
+   "e": -0.9,
+   "ko": "위 작은 노랑 줄은 계속 공손한 해명, 아래 흰 줄은 화면 밖까지 넘치는 비명 타이핑. 같은 테이크를 와이드↔2배 크롭으로 0.5~1.8초마다 번갈아"
+  },
+  {
+   "k": "폭력행사 → 시점 기절",
+   "t": [
+    25.333,
+    28.833
+   ],
+   "e": -1.0,
+   "ko": "병 투척(렌즈 명중) → 덮치기 → 시점이 나뒹굴며 점점 어두워짐 → 1.4초 암전 속 신음과 울먹임"
+  },
+  {
+   "k": "컵 감옥 + 엄마 통화",
+   "t": [
+    28.833,
+    36.367
+   ],
+   "e": -0.6,
+   "ko": "1.8초 페이드 인으로 깨어나 보니 투명 컵 안. 컵 너머 뒷모습의 주인공이 울며 엄마와 통화하고, 엄마는 유난이라며 휴지·변기 처리법을 알려 줌. 갇힌 침입자는 늦었다고 속삭임"
+  },
+  {
+   "k": "휩 팬 → 황당 제안",
+   "t": [
+    36.367,
+    42.4
+   ],
+   "e": -0.5,
+   "ko": "컵 속 시점이 휙 돌아가며(탈출을 숨김) 복도 역방향 시점으로. 주인공은 발을 동동, 엄마는 못 하면 같이 살라는 제안. '크다'는 외침에 크래시 줌"
+  },
+  {
+   "k": "빈 컵 공포",
+   "t": [
+    42.4,
+    43.8
+   ],
+   "e": -1.0,
+   "ko": "배경에 계속 보이던 쓰러진 컵으로 디지털 푸시인 — 비어 있음. 음악이 공포 드론으로 바뀜"
+  },
+  {
+   "k": "멍한 초근접 + 무응답 엔딩",
+   "t": [
+    43.8,
+    50.6
+   ],
+   "e": -0.9,
+   "ko": "3단 디지털 줌인으로 멍한 얼굴, 사라졌다는 속삭임, 전화기 속 엄마만 두 번 부름 → 0.23초 암전으로 뚝"
+  }
+ ],
+ "captions": {
+  "summary": "자막은 '대사 3색 + 괄호 라벨 + 2층 속삭임' 구조. ①괄호 상황 라벨(흰 큰 글씨, 대사 자리에 괄호째) ②화자 색 대사(주인공 흰색 · 침입자 노랑 기울임 · 엄마 분홍) ③침입자 속삭임(작은 노랑 기울임 한 줄이 메인 줄 바로 위, #9~#31) ④감정 정점 강조(흰 기울임 초대형, 떨림). 여기에 얼굴 옆 작은 포인터 자막, 반투명 흰 박스 라벨 1회(#34~#35), 오프닝 썸네일 제목이 더해짐. 거의 모든 자막이 컷과 함께 통째로 등장하고, 주인공의 폭주 문장만 타이핑되며 화면 밖으로 넘침",
+  "styles": [
+   {
+    "name": "괄호 상황 라벨(편집자 코멘트)",
+    "css": "paren",
+    "spec": "흰 글씨 #FFFCFA + 검정 외곽선 약 5px, 괄호 포함 글자 높이 약 91px(글꼴 약 76~80px, 1080p 기준), 중심 y≈0.868(대사 자리), 가로 가운데, 기울임 없는 정자체, 컷과 함께 통째로 등장. 무력 사용 라벨(#23~#25)만 기울임·글자 높이 약 107px의 강조형",
+    "use": "상황·속마음을 제3자 시점으로 설명(평온한 저녁, 겁먹은 포식자, 패닉, 발 동동, 공포 등). 동물 이름 말장난(원본: -햄)은 #19에서 1회"
+   },
+   {
+    "name": "대사(주인공)",
+    "css": "line-hero",
+    "spec": "흰 글씨 + 검정 외곽선 약 4px, 중간 굵기, 글자 높이 약 81~83px(글꼴 약 84px), 중심 y≈0.868, 기울임 없음. 폭주 문장(#16~#18)만 왼쪽 x≈196px 정렬로 타이핑",
+    "use": "주인공 대사·비명·울음. 받침 빠짐·모음 분리 같은 자모 오타로 패닉을 표현"
+   },
+   {
+    "name": "대사(침입자·단독)",
+    "css": "line-cw1",
+    "spec": "형광 노랑 #ECFF1A(측정 #EBFF12~#EDFF22) + 검정 외곽선 약 4px, 기울임, 글자 높이 약 78~87px, 중심 y≈0.86, 통째로 등장",
+    "use": "#4~#8 침입자가 혼자 말할 때. 첫 줄은 '???:' 화자 미상 표기로 정체를 숨김"
+   },
+   {
+    "name": "침입자 속삭임(위층 작은 줄)",
+    "css": "line-cw1",
+    "spec": "같은 노랑 #ECFF1A 기울임, 글자 높이 약 34px(글꼴 약 36px), 얇은 검정 외곽선 약 2px, 중심 y≈0.775(메인 줄 바로 위), 가로 가운데, 통째로 등장",
+    "use": "#9~#31 주인공이 비명 지르는 동안에도 침입자는 위에서 작게 공손한 해명·신음을 계속 → 두 목소리를 동시에 읽게 함. 키트 자막은 같은 줄 위치만 지원해 새 대본은 순차 표시로 근사(편집에서 위층으로 올릴 것)"
+   },
+   {
+    "name": "대사(엄마·전화)",
+    "css": "line-cw2",
+    "spec": "분홍 #EE78C1 + 검정 외곽선 약 5px, 굵게, 글자 높이 약 82px, 중심 y≈0.867, 기울임 없음. 엄마를 소개하는 괄호 라벨(#28)도 같은 분홍·같은 크기",
+    "use": "얼굴 없는 전화 상대를 색으로 고정. 괄호 라벨까지 화자 색으로 칠함"
+   },
+   {
+    "name": "강조(비명·투척)",
+    "css": "emph",
+    "spec": "흰 글씨 + 검정 외곽선 약 7px(바깥 회색 테두리), 기울임, 글자 높이 약 96~112px(글꼴 약 100~115px), 중심 y≈0.87~0.88. #15·#20은 약 5프레임 주기로 떨리는 진동, 느낌표 20~30개로 가로 약 1,200~1,320px까지 늘어남",
+    "use": "감정 정점 4회(길게 늘인 비명, 투척 외침, 크기 외침)"
+   },
+   {
+    "name": "상황 라벨(박스)",
+    "css": "label-hero",
+    "spec": "반투명 흰 둥근 박스(가로 약 408px·세로 약 72px) + 짙은 회색 글씨 약 42px, 박스 중심 y≈0.78, 가로 가운데, 기울임 없는 정자체, 통째로 등장",
+    "use": "#34~#35 단 한 번: 엄마의 황당 제안을 한 줄로 요약"
+   },
+   {
+    "name": "얼굴 옆 포인터 자막",
+    "css": "pointer",
+    "spec": "작은 흰 글씨 + 얇은 검정 외곽선, 글자 높이 약 22~39px, 주인공 머리 옆(y≈0.2~0.46, x≈0.27~0.56)에 붙음. #8은 약 28px 두 줄로 같은 걱정 단어를 12번 반복",
+    "use": "작게 새어 나오는 속마음·의성어(헉, 얼음, 당황, 중얼중얼, 무력감)"
+   },
+   {
+    "name": "썸네일 제목(#1)",
+    "css": "card",
+    "spec": "흰 초굵은 고딕 + 두꺼운 검정 외곽선·그림자, 글자 높이 약 278px, 왼쪽 위(x 80~925px, y 99~376px)",
+    "use": "0.1초 썸네일 프레임에만 등장하는 한 단어 제목"
+   }
+  ],
+  "typing": "원본은 거의 모든 자막이 컷과 함께 통째로 등장(타이핑 없음). 예외는 #16~#18 주인공 폭주 문장 하나 — 왼쪽 x≈196px에 붙여 초당 약 8글자로 타이핑되며 x≈1,723px까지 늘어나 화면 밖으로 넘칠 기세, #18 끝에서 지워지고 다시 짧게 타이핑. #19 끝의 긴 문장은 양옆이 화면 밖으로 잘린 채 통째로 등장. 키트 자막은 대사를 기본 타이핑으로 만들므로 원본처럼 하려면 #16~#18 외 대사는 타이핑을 끌 것",
+  "decor": "✦ 스티커 같은 그래픽 장식은 없음. 대신 ①자모 오타(받침 빠짐·모음 분리)로 패닉 표현 ②단어 가운데 ☆ 문자(#37) ③느낌표 20~30개 연타 ④ㅠㅠ 이모티콘 ⑤#27~#28 흰 자막이 흐리게 번졌다가 화면 초점과 함께 선명해짐(시점 기절 표현) ⑥침입자 첫 줄 '???:' 화자 미상 표기 ⑦엄마 소개 괄호 라벨까지 화자 색(분홍)"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "who": "insert",
+   "sz": "CU(썸네일 프레임)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정 — 편집으로 끼운 정지 이미지",
+   "grid": [
+    1,
+    2,
+    5,
+    6
+   ],
+   "act": "플래시/전환 프레임: 폰을 볼에 댄 주인공 얼굴 + 왼쪽 위 초대형 한 단어 제목의 썸네일 이미지가 3프레임만 번쩍",
+   "bg": "흐린 거실 소파(썸네일)",
+   "set": "livingroom",
+   "cap": {
+    "lb": "초대형 썸네일 제목(한 단어)",
+    "ln": null,
+    "sp": "hero",
+    "fx": "썸네일 제목(흰 초굵은 글씨 + 검정 외곽선·그림자)"
+   },
+   "tr": "오프닝 — 첫 3프레임에 썸네일 이미지를 끼움",
+   "sfx": "무음(첫 소리는 0.21초 씹는 소리)",
+   "tech": "썸네일 플래시 프레임(3프레임 전환 프레임)",
+   "why": "클릭한 썸네일과 같은 그림을 0.1초 보여 줘 '제대로 들어왔다'는 연속감을 주고 제목을 한 번 더 각인",
+   "img": "Close-up of {HERO} holding a tiny silver smartphone to its cheek with one tiny pink paw, big round glossy black eyes looking straight into the lens, mouth slightly open, a tiny tuft of fur on top of its head tied into a little topknot with a tiny hair tie; blurred beige sofa behind; leave empty space at the top-left for a huge bold title",
+   "mot": "Edit: insert this still for only 3 frames (0.1 s) at the very start; add the huge white title word with a thick black outline and drop shadow at the top-left in the edit.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "still"
+   ],
+   "new": "(카드) 불청객",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "사람 같은 행동(통화)",
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 2,
+   "who": "hero",
+   "sz": "ECU(입·빵 매크로)",
+   "ang": "아이레벨 매크로",
+   "cam": "고정, 아주 얕은 심도(수염 끝까지 선명)",
+   "grid": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "act": "분홍 코와 입이 화면을 채운 채 크림치즈·오이가 든 작은 베이글을 앙 깨묾, 아래 가장자리에 분홍 앞발",
+   "bg": "없음(얼굴·빵이 화면 전체)",
+   "set": "livingroom",
+   "cap": {
+    "lb": null,
+    "ln": "씹는 소리 의성어",
+    "sp": "hero",
+    "fx": "기본(흰 대사)"
+   },
+   "tr": "하드컷(썸네일 → 매크로)",
+   "sfx": "빵 씹는 ASMR(0.21초 온셋)",
+   "tech": "매크로 먹방 인서트(ASMR)",
+   "why": "첫 0.6초를 가장 귀여운 '먹는 입' 초근접으로 채워 경계를 풀게 함 → 뒤의 공포와 대비",
+   "img": "Macro extreme close-up of {HERO}'s pink nose, long whiskers and tiny mouth biting into a small cream-cheese and cucumber bagel sandwich held in its tiny pink paws, cheeks puffed full, every fur strand crisp; warm evening lamp light",
+   "mot": "The {ANIMAL} takes small rapid nibbles, cheeks puffing in and out, whiskers twitching, the bagel rotating slightly in its tiny paws. Static camera, macro lens.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "new": "앙냠",
+   "cute": [
+    "볼 빵빵·오물오물",
+    "앞발 모으기·흔들기"
+   ]
+  },
+  {
+   "n": 3,
+   "who": "hero",
+   "sz": "MCU",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "두 앞발로 베이글을 들고 한 입 가득 문 채 카메라를 봄(정수리 털을 작은 헤어끈으로 묶음)",
+   "bg": "베이지 소파, 창밖 야경 보케",
+   "set": "livingroom",
+   "cap": {
+    "lb": null,
+    "ln": "만족 감탄사",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷(매크로 → MCU로 사이즈 백)",
+   "sfx": "씹는 소리 + 만족한 콧소리(1.0초 중역 버스트)",
+   "tech": "리빌 컷(초근접 → 전체 얼굴)",
+   "why": "누가 먹고 있었는지 공개하며 캐릭터를 소개. 동그란 눈·빵빵한 볼로 호감 확보",
+   "img": "Medium close-up of {HERO} sitting on a beige sofa, holding a small cream-cheese and cucumber bagel sandwich with both tiny pink paws and biting it, cheeks puffed full, big round glossy black eyes looking into the lens, a tiny tuft of fur on top of its head tied into a little topknot with a tiny hair tie; {LIVINGROOM} softly blurred behind",
+   "mot": "The {ANIMAL} chews happily with puffed cheeks, blinks once, ears relaxed. Static camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "크림치즈 최고~",
+   "cute": [
+    "볼 빵빵·오물오물",
+    "앞발 모으기·흔들기",
+    "동그란 눈 클로즈업",
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 4,
+   "who": "hero",
+   "sz": "WS(바닥 초저각)",
+   "ang": "바닥 높이 초저각(누군가의 시점, 올려다봄)",
+   "cam": "고정 바닥 카메라, 아주 느린 푸시인(4.8초 동안 약 1.07배) — 같은 원본 디지털 줌(2단): 원본 화면은 #6(#4~#7이 한 테이크를 시간순으로 잘라 씀), 이 컷은 그 앞 4.8초",
+   "grid": [
+    1,
+    2
+   ],
+   "act": "거실 바닥 높이에서 올려다본 넓은 화면. 멀리 소파 팔걸이 위에서 작게 빵을 먹던 주인공이 끝에서 멈칫하며 머리 옆 작은 포인터 자막으로 놀람을 표시",
+   "bg": "베이지 소파, 둥근 원목 테이블 위 종이 쇼핑백, 통창 밖 도시 야경",
+   "set": "sofa",
+   "cap": {
+    "lb": "평온한 저녁 시간 괄호 라벨",
+    "ln": "화면 밖 노랑 목소리의 첫마디('???' 화자 미상) → 정중한 인사",
+    "sp": "cw1",
+    "fx": "괄호 라벨 → 노랑 기울임 대사 + 얼굴 옆 포인터 자막"
+   },
+   "tr": "하드컷(MCU → 바닥 와이드로 크기·높이 급변)",
+   "sfx": "음악 없는 밤 룸톤 → 3.0초부터 화면 밖 낮은 남성 목소리 + 저음 BGM(추정)",
+   "tech": "보이지 않는 1인칭 시점(POV) + 오프스크린 보이스",
+   "why": "카메라가 바닥에 붙어 있다는 것 자체가 '누군가 보고 있다'는 공포. 가장 긴 4.8초 컷으로 목소리가 나올 때까지 긴장을 쌓고, 가장 많이 돌려 본 5.1~5.6초가 여기",
+   "img": "(Same frame as the shot 6 source) Extreme low-angle ultra-wide shot from about 1 cm above the floor: tiny {HERO} sitting on the armrest of a big low beige sofa far away, nibbling a bagel held in its tiny paws with puffed cheeks, the huge sofa towering like a cliff; {SOFA}",
+   "mot": "Edit: use the first 4.8 s of the shot 6 source clip with a barely noticeable push-in (about 1.07x); the tiny {ANIMAL} keeps nibbling, then suddenly freezes and looks down toward the camera.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(월요병 오기 전 마지막 평화) → (초록) ???: 흠흠… → (초록) 저기요, 시뇨리나?",
+   "cute": [
+    "큰 가구와 크기 대비",
+    "볼 빵빵·오물오물"
+   ]
+  },
+  {
+   "n": 5,
+   "who": "hero",
+   "sz": "MS(약 2.2배 크롭)",
+   "ang": "바닥 높이 로우앵글",
+   "cam": "같은 원본 디지털 줌(2단) — #6 원본을 약 2.2~2.4배 크롭(카메라 움직임 없음)",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "소파 팔걸이 위에서 빵을 가슴에 꼭 안은 채 그대로 얼어붙음, 머리 옆에 작은 얼음 표시 포인터",
+   "bg": "소파 팔걸이, 흰 벽",
+   "set": "sofa",
+   "cap": {
+    "lb": "얼굴 옆 작은 얼음 표시",
+    "ln": "파티 초대를 받았다는 사정 설명(노랑)",
+    "sp": "cw1",
+    "fx": "노랑 기울임 대사 + 포인터 자막"
+   },
+   "tr": "하드컷(와이드 → 2.2배 크롭 점프)",
+   "sfx": "침입자 외국어 저음(독일어 추정) + BGM",
+   "tech": "자막 교체 컷(새 문장 = 새 컷) + 크롭 리액션",
+   "why": "침입자가 너무 정중해서 더 무섭다는 부조리. 얼음 리액션은 크롭으로 크게",
+   "img": "(Crop of the shot 6 source, about 2.3x) Floor-level low-angle medium shot of {HERO} sitting frozen on the armrest of a big beige sofa, hugging a bagel to its chest with its tiny paws, round glossy eyes wide, completely still; {SOFA}",
+   "mot": "Edit: crop about 2.3x into the shot 6 clip right after the shot 4 section; the {ANIMAL} stays frozen, only its whiskers tremble.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(초록) 가을밤 연주회에 가던 길인데",
+   "cute": [
+    "얼음(굳음) 리액션",
+    "앞발 모으기·흔들기"
+   ]
+  },
+  {
+   "n": 6,
+   "who": "hero",
+   "sz": "WS",
+   "ang": "바닥 높이 초저각(벌레 시점)",
+   "cam": "고정 바닥 카메라 — 같은 원본 디지털 줌(2단)의 원본 화면(#4~#7이 이 테이크를 잘라 씀)",
+   "grid": [
+    1,
+    2
+   ],
+   "act": "다시 넓은 화면. 주인공은 멀리서 굳어 있고 머리 옆 작은 포인터로 당황을 표시",
+   "bg": "소파, 원목 테이블, 야경 창",
+   "set": "sofa",
+   "cap": {
+    "lb": "얼굴 옆 작은 당황 표시",
+    "ln": "길을 잘못 들었다는 해명(노랑)",
+    "sp": "cw1",
+    "fx": "노랑 기울임 대사 + 포인터 자막"
+   },
+   "tr": "하드컷(크롭 → 와이드)",
+   "sfx": "침입자 목소리 + BGM",
+   "tech": "와이드↔크롭 스위칭(가짜 멀티캠)의 원본 테이크",
+   "why": "거리감을 다시 보여 줘 둘 사이의 크기·거리 대비를 확인시킴",
+   "img": "Extreme low-angle ultra-wide floor-level shot from about 1 cm above the floor: tiny {HERO} sitting on the armrest of a big low beige sofa, clutching a bagel to its chest with both tiny pink paws, frozen with big round glossy eyes, the huge sofa towering like a cliff; {SOFA}",
+   "mot": "Generate one static 9 s take from the floor-level camera: the tiny {ANIMAL} nibbles the bagel with puffed cheeks, suddenly freezes at about 3 s and stays frozen clutching the bagel, eyes darting with tiny nervous twitches. Shots 4, 5 and 7 are cut from this same clip.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "new": "(초록) 창문 틈을 잘못 탔지 뭡니까",
+   "cute": [
+    "큰 가구와 크기 대비",
+    "얼음(굳음) 리액션"
+   ]
+  },
+  {
+   "n": 7,
+   "who": "hero",
+   "sz": "MS(약 2배 크롭)",
+   "ang": "바닥 높이 로우앵글",
+   "cam": "같은 원본 디지털 줌(2단) — #6 원본을 약 1.9~2배 크롭",
+   "grid": [
+    1,
+    4
+   ],
+   "act": "빵을 든 채 눈만 굴리며 작게 웅얼거림(머리 옆 포인터)",
+   "bg": "소파 팔걸이, 흰 벽, 창틀",
+   "set": "sofa",
+   "cap": {
+    "lb": "얼굴 옆 작은 웅얼거림",
+    "ln": "출구 방향을 묻는 말(노랑)",
+    "sp": "cw1",
+    "fx": "노랑 기울임 대사"
+   },
+   "tr": "하드컷",
+   "sfx": "침입자 목소리",
+   "tech": "리액션 크롭 인서트",
+   "why": "0.67초 짧은 크롭으로 떨림을 한 번 더 강조",
+   "img": "(Crop of the shot 6 source, about 2x) Low-angle medium shot of {HERO} on a beige sofa armrest holding a bagel with both tiny paws, round glossy eyes darting nervously, fur slightly puffed; {SOFA}",
+   "mot": "Edit: crop about 2x into the shot 6 clip right after the shot 6 section; tiny nervous head movement only.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(초록) 혹시 출구가 어느 쪽인지",
+   "cute": [
+    "앞발 모으기·흔들기",
+    "얼음(굳음) 리액션"
+   ]
+  },
+  {
+   "n": 8,
+   "who": "hero",
+   "sz": "WS→MS(전진)",
+   "ang": "바닥 높이 초저각(벌레 시점)",
+   "cam": "고정으로 시작(#6과 같은 화면) → 약 2초 뒤 바닥을 타고 소파 쪽으로 전진하며 살짝 왼쪽으로 팬(3.8초 동안 약 1.23배) — 시점의 주인이 기어가는 움직임(별도 생성)",
+   "grid": [
+    2,
+    8
+   ],
+   "act": "머리 옆에 같은 걱정 단어가 두 줄로 12번 반복(작은 포인터) → 팔걸이 위에 일어서다 빵을 바닥으로 떨어뜨림 → 소파 끝에서 고개만 내밀어 바닥(카메라)을 내려다봄",
+   "bg": "소파 옆면, 원목 테이블 다리, 바닥에 떨어진 베이글",
+   "set": "sofa",
+   "cap": {
+    "lb": "같은 걱정 단어 반복 포인터(2줄)",
+    "ln": "출구를 알려 달라는 정중한 부탁(노랑)",
+    "sp": "cw1",
+    "fx": "노랑 기울임 대사 + 반복 포인터 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "빵이 떨어지는 작은 낙하음(11.52초) + 12.5초 무렵 BGM 저역 빠짐",
+   "tech": "시점 전진(POV 트래킹) + 소품 낙하로 긴장 전환",
+   "why": "시점이 실제로 다가오며 거리가 좁혀지고, 빵을 떨어뜨리는 순간 평화가 끝났음을 소품으로 선언",
+   "img": "Extreme low floor-level shot creeping toward a big beige sofa: tiny {HERO} standing on the sofa edge, peeking down over the edge with only its round head and tiny paws showing, frightened round glossy eyes, a dropped bagel lying on the floor near the sofa legs; {SOFA}",
+   "mot": "Static at first, then the floor-level camera slowly creeps forward across the floor toward the sofa with a slight left pan. The {ANIMAL} stands up in panic, the bagel slips from its tiny paws and falls to the floor, then it peeks down over the sofa edge. Use start and end frames.",
+   "gen": "i2v-fl",
+   "m": [
+    "kling-v3",
+    "viduq3-pro",
+    "seedance-2-5"
+   ],
+   "new": "(초록) 알려 주실 수 있을까요? → (망했다 망했다 망했다)",
+   "cute": [
+    "빼꼼 내려다보기",
+    "들고 있던 것 떨어뜨리기"
+   ]
+  },
+  {
+   "n": 9,
+   "who": "hero",
+   "sz": "FS(전신)",
+   "ang": "바닥 높이 초저각(벌레 시점)",
+   "cam": "바닥을 타고 빠르게 전진(1초에 약 1.46배 커짐), 초점이 잠깐 흐려졌다 잡힘 — 같은 원본 디지털 줌(2단): 원본 화면은 #21(#9~#21 한 테이크), 이 컷은 그 첫 1초를 약 1.7배 크롭",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "바닥으로 내려온 주인공이 몸만 한 투명 페트병을 짧은 두 팔로 끌어안고 서서 벌벌 떪",
+   "bg": "나무 바닥, 소파, 원목 테이블과 종이봉투, 야경 창",
+   "set": "floor",
+   "cap": {
+    "lb": "겁먹은 '포식자' 반어 괄호 라벨",
+    "ln": "위층 작은 노랑 속삭임(고민하는 한숨)",
+    "sp": "narr",
+    "fx": "괄호 라벨 + 위층 노랑 속삭임(2층 자막)"
+   },
+   "tr": "하드컷(장면 전환: 소파 → 바닥 대치)",
+   "sfx": "컷 0.07초 뒤 짧은 긴장 스팅(온셋) → 14.0초 0.5초 거의 정적",
+   "tech": "반어 라벨 + 2층 자막 시작",
+   "why": "쥐만 한 주인공을 '포식자'라 부르는 반어와 몸만 한 무기의 귀여움이 동시에 터짐",
+   "img": "(Crop of the shot 21 source, about 1.7x) Extreme low-angle floor-level full shot of {HERO} standing upright on its hind legs on a wooden floor, hugging an empty clear plastic water bottle almost as tall as its own body with its short arms like a weapon, round glossy eyes wide with fear, fur trembling; {FLOOR}",
+   "mot": "Edit: crop about 1.7x into the first 1 s of the shot 21 source clip (the camera scurries forward with a brief focus hunt); the {ANIMAL} trembles hugging the bottle.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(먹이사슬 꼭대기의 위엄)",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "짧은 팔 춤·제스처"
+   ]
+  },
+  {
+   "n": 10,
+   "who": "hero",
+   "sz": "MCU(약 2배 크롭)",
+   "ang": "바닥 높이 로우앵글",
+   "cam": "같은 원본 디지털 줌(2단) — #21 원본을 약 3.8배 크롭, 끝에서 초점이 배경으로 빠짐",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "페트병을 끌어안은 얼굴 클로즈업, 동그란 눈으로 카메라(침입자)를 노려보다 초점이 흐려짐",
+   "bg": "흐린 거실",
+   "set": "floor",
+   "cap": {
+    "lb": "(괄호 라벨 유지)",
+    "ln": "말이 안 통하나 고민하는 속삭임(노랑)",
+    "sp": "cw1",
+    "fx": "2층 자막"
+   },
+   "tr": "하드컷(축 방향 크롭)",
+   "sfx": "14.3~15.8초 떨리는 짧은 펄스음 + 침입자 중얼거림",
+   "tech": "축 방향 크롭 컷인",
+   "why": "겁먹은 표정을 크게 보여 주고 위층 속삭임의 '언어 문제' 개그를 읽을 시간 확보",
+   "img": "(Crop of the shot 21 source, about 3.8x) Low-angle medium close-up of {HERO} hugging a clear plastic bottle bigger than its torso, big round glossy black eyes staring into the lens, whiskers trembling, a tiny tuft of fur on top of its head tied with a tiny hair tie",
+   "mot": "Edit: crop about 3.8x into the shot 21 clip; let the focus drift to the background at the end.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(초록) 이런, 번역기를 두고 나왔군",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "몸보다 큰 물건 안기",
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 11,
+   "who": "hero",
+   "sz": "FS→MS(전진)",
+   "ang": "바닥 높이 초저각(벌레 시점)",
+   "cam": "바닥을 타고 전진(1.7초에 약 1.44배) — 같은 원본 디지털 줌(2단): 원본 화면은 #21(#9~#21 한 테이크)과 같은 넓이",
+   "grid": [
+    5
+   ],
+   "act": "시점이 다가오자 주인공이 병을 치켜들며 움찔, 0.5초 정적 뒤 입을 벌려 협박",
+   "bg": "나무 바닥, 소파, 테이블",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "헉 하는 소리 → 오타 섞인 협박",
+    "sp": "hero",
+    "fx": "기본(흰 대사), 중간 0.5초는 자막도 사라짐"
+   },
+   "tr": "하드컷",
+   "sfx": "16.0~16.5초 완전 무음(-113dB) → 첫 비명(약 612Hz)",
+   "tech": "진공 비트(0.5초 완전 무음) → 폭발",
+   "why": "소리와 자막을 동시에 빼는 0.5초가 가장 큰 긴장 → 바로 뒤 비명이 두 배로 크게 들림",
+   "img": "(Same frame as the shot 21 source) Extreme low-angle floor-level full shot of {HERO} standing on a wooden floor raising a clear plastic bottle as tall as itself with its short arms, tiny mouth wide open in a scream, tiny feet planted wide; {FLOOR}",
+   "mot": "Edit: use the shot 21 source clip right after the shot 10 section (the camera creeps forward about 1.44x); the {ANIMAL} flinches, then lifts the bottle and shouts.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "히끅 → 오기만 해 봐!!",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "입 벌려 비명"
+   ]
+  },
+  {
+   "n": 12,
+   "who": "hero",
+   "sz": "MCU(약 1.8배 크롭)",
+   "ang": "바닥 높이 로우앵글",
+   "cam": "같은 원본 디지털 줌(2단) — #21 원본을 약 2.8배 크롭",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "병을 안고 입을 크게 벌린 얼굴 클로즈업",
+   "bg": "흐린 거실, 종이봉투",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "되묻는 짧은 비명(모음 늘임 오타)",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷",
+   "sfx": "비명(약 649Hz)",
+   "tech": "크롭 펀치인",
+   "why": "0.6초 리액션으로 비명 지르는 얼굴을 크게",
+   "img": "(Crop of the shot 21 source, about 2.8x) Low-angle medium close-up of {HERO} hugging a clear plastic bottle, tiny mouth wide open, big round glossy eyes, fur puffed, a tiny tuft of fur on top of its head tied with a tiny hair tie",
+   "mot": "Edit: crop about 2.8x into the shot 21 clip.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "minimax-h3"
+   ],
+   "new": "지, 진짜",
+   "cute": [
+    "입 벌려 비명",
+    "동그란 눈 클로즈업",
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 13,
+   "who": "hero",
+   "sz": "FS",
+   "ang": "바닥 높이 초저각(벌레 시점)",
+   "cam": "같은 원본 디지털 줌(2단) — 넓은 쪽 약 1.8배(와이드 복귀)",
+   "grid": [
+    5
+   ],
+   "act": "전신으로 돌아와 병을 들고 소리침",
+   "bg": "나무 바닥, 소파, 테이블",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "오타 섞인 협박(받침 틀림)",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷",
+   "sfx": "비명 계속",
+   "tech": "와이드↔크롭 스위칭",
+   "why": "협박은 크게 외치는데 몸은 작다는 대비를 전신으로",
+   "img": "(Crop of the shot 21 source, about 1.8x) Extreme low-angle floor-level full shot of {HERO} holding up a clear plastic bottle with its short arms and shouting; {FLOOR}",
+   "mot": "Edit: crop about 1.8x into the shot 21 clip (the wide side of the alternation).",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "이걸로 팬다아!!",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "입 벌려 비명"
+   ]
+  },
+  {
+   "n": 14,
+   "who": "hero",
+   "sz": "MCU(약 1.6배 크롭)",
+   "ang": "바닥 높이 로우앵글",
+   "cam": "같은 원본 디지털 줌(2단) — 약 2.8배 크롭",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "같은 협박을 외치는 얼굴(입 크게)",
+   "bg": "흐린 거실",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "(앞 대사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "자막 브릿지 + 크롭",
+   "why": "0.37초 초단 컷으로 템포 가속",
+   "img": "(Crop of the shot 21 source, about 2.8x) Low-angle medium close-up of {HERO} shouting with its tiny mouth wide open, hugging a clear plastic bottle, a tiny tuft of fur on top of its head tied with a tiny hair tie",
+   "mot": "Edit: crop about 2.8x into the shot 21 clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "입 벌려 비명",
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 15,
+   "who": "hero",
+   "sz": "FS",
+   "ang": "바닥 높이 초저각(벌레 시점)",
+   "cam": "같은 원본 디지털 줌(2단) — 넓은 쪽 약 1.2배(#21 원본), 아주 느린 전진",
+   "grid": [
+    5
+   ],
+   "act": "병을 안고 온몸으로 비명",
+   "bg": "나무 바닥, 소파, 테이블, 야경 창",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "길게 늘인 비명(떨리는 강조) + 위층 노랑 호칭 한 단어",
+    "sp": "hero",
+    "fx": "강조 자막(떨림 진동) + 2층 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "길게 늘인 비명(약 760Hz)",
+   "tech": "떨리는 강조 자막(진동 애니메이션)",
+   "why": "자막 자체가 덜덜 떨려 공포를 글자로 표현",
+   "img": "(Crop of the shot 21 source, about 1.2x) Extreme low-angle floor-level full shot of {HERO} screaming with its whole little body while clutching a clear plastic bottle almost as tall as itself, tiny feet stamping; {FLOOR}",
+   "mot": "Edit: crop about 1.2x into the shot 21 clip; the {ANIMAL} screams, trembling all over, tiny feet stamping.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "minimax-h3"
+   ],
+   "new": "(강조) 끼야아악",
+   "cute": [
+    "입 벌려 비명",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 16,
+   "who": "hero",
+   "sz": "MCU(약 2.2배 크롭)",
+   "ang": "바닥 높이 로우앵글",
+   "cam": "같은 원본 디지털 줌(2단) — #21 원본을 약 2.8배 크롭",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "병을 흔들며 외치는 얼굴. 위층에 공손한 속삭임, 아래 흰 문장이 왼쪽부터 타이핑되며 길어짐",
+   "bg": "흐린 거실",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "애원·사과가 뒤섞인 폭주 문장(왼쪽 정렬 타이핑) + 위층 안심시키는 속삭임",
+    "sp": "hero",
+    "fx": "왼쪽 정렬 타이핑 + 2층 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "타자 효과음 + 비명(약 817Hz)",
+   "tech": "넘치는 타이핑(화면 밖까지 이어지는 문장)",
+   "why": "문장이 멈추지 않고 늘어나 '말이 폭주하는' 패닉을 시각화",
+   "img": "(Crop of the shot 21 source, about 2.8x) Low-angle medium close-up of {HERO} shaking a clear plastic bottle with its short arms, tiny mouth open mid-shout, big round glossy eyes wide",
+   "mot": "Edit: crop about 2.8x into the shot 21 clip.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "minimax-h3"
+   ],
+   "new": "(초록) 해칠 생각은 없습니다만",
+   "cute": [
+    "입 벌려 비명",
+    "짧은 팔 춤·제스처"
+   ]
+  },
+  {
+   "n": 17,
+   "who": "hero",
+   "sz": "FS",
+   "ang": "바닥 높이 초저각(벌레 시점)",
+   "cam": "같은 원본 디지털 줌(2단) — 넓은 쪽 약 1.3배",
+   "grid": [
+    5
+   ],
+   "act": "전신, 병을 안고 제자리에서 버둥댐",
+   "bg": "나무 바닥, 소파, 테이블",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "폭주 문장 계속 타이핑 + 위층 속삭임 교체",
+    "sp": "hero",
+    "fx": "타이핑 브릿지 + 2층 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "비명",
+   "tech": "타이핑 브릿지",
+   "why": "컷은 바뀌어도 문장이 계속 늘어나 한 호흡처럼 이어짐",
+   "img": "(Crop of the shot 21 source, about 1.3x) Extreme low-angle floor-level full shot of {HERO} hugging a clear plastic bottle and flailing its short arms in panic; {FLOOR}",
+   "mot": "Edit: crop about 1.3x into the shot 21 clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "훠이 훠이 훠이",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "짧은 팔 춤·제스처"
+   ]
+  },
+  {
+   "n": 18,
+   "who": "hero",
+   "sz": "MCU(약 2배 크롭)",
+   "ang": "바닥 높이 로우앵글",
+   "cam": "같은 원본 디지털 줌(2단) — 약 3배 크롭",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "비명 지르는 얼굴. 흰 문장이 화면 오른쪽 끝까지 차오른 뒤 지워지고 짧게 다시 시작",
+   "bg": "흐린 거실",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "폭주 문장이 화면 끝까지 → 리셋 후 재시작 + 위층 '목적지만 가면 된다'는 속삭임",
+    "sp": "hero",
+    "fx": "타이핑(화면 밖 넘침) + 2층 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "비명(약 817Hz) + 타자 효과음",
+   "tech": "텍스트 오버플로(자막이 프레임을 넘침)",
+   "why": "자막이 화면을 넘칠 만큼 말이 많다 = 이성을 잃었다",
+   "img": "(Crop of the shot 21 source, about 3x) Low-angle medium close-up of {HERO} screaming with its tiny mouth wide open, hugging a clear plastic bottle, big round glossy eyes",
+   "mot": "Edit: crop about 3x into the shot 21 clip.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "minimax-h3"
+   ],
+   "new": "+나 하나도 맛없어 진짜로오",
+   "cute": [
+    "입 벌려 비명",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 19,
+   "who": "hero",
+   "sz": "FS",
+   "ang": "바닥 높이 초저각(벌레 시점)",
+   "cam": "같은 원본 디지털 줌(2단) — 넓은 쪽 약 1.6배(1.8초 동안 약 1.2배로 아주 느린 전진)",
+   "grid": [
+    5
+   ],
+   "act": "전신, 병을 머리 위로 치켜든 채 발을 구름. 짧은 외마디 → 패닉 괄호 라벨 → 양옆이 화면 밖으로 잘린 긴 문장이 통째로 뜸",
+   "bg": "나무 바닥, 소파, 테이블",
+   "set": "floor",
+   "cap": {
+    "lb": "완전 패닉 + 동물 이름 말장난 괄호 라벨",
+    "ln": "짧은 외마디 → 양옆이 잘린 긴 애원 문장 + 위층 '늦었다'는 속삭임",
+    "sp": "hero",
+    "fx": "괄호 라벨 → 화면보다 긴 문장 + 2층 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "가장 높은 비명(약 817~848Hz)",
+   "tech": "동물 이름 말장난 라벨 + 화면보다 긴 자막",
+   "why": "말장난 라벨로 캐릭터성을 한 번 찍고, 읽을 수 없는 긴 문장으로 패닉의 양을 보여 줌",
+   "img": "(Crop of the shot 21 source, about 1.6x) Extreme low-angle floor-level full shot of {HERO} lifting a clear plastic bottle above its head with both short arms, stamping its tiny feet; {FLOOR}",
+   "mot": "Edit: crop about 1.6x into the shot 21 clip with its slow forward creep.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(초록) 제 바이올린이 저쪽에 있어서요 → (멘탈 가출{PUN})",
+   "cute": [
+    "짧은 팔 춤·제스처",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 20,
+   "who": "hero",
+   "sz": "MCU(약 2.7배 크롭)",
+   "ang": "바닥 높이 로우앵글",
+   "cam": "같은 원본 디지털 줌(2단) — 약 4.3배 크롭(가장 타이트)",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "병을 머리 위로 든 채 입을 찢어져라 벌린 얼굴",
+   "bg": "흐린 거실, 흰 수납장",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "느낌표 20개짜리 비명(떨리는 강조)",
+    "sp": "hero",
+    "fx": "강조 자막(떨림 진동) + 2층 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "비명 최고조",
+   "tech": "떨리는 강조 자막",
+   "why": "투척 직전의 최고조",
+   "img": "(Crop of the shot 21 source, about 4.3x) Low-angle medium close-up of {HERO} holding a clear plastic bottle over its head with both short arms, tiny mouth wide open in a battle cry, big round glossy eyes",
+   "mot": "Edit: crop about 4.3x into the shot 21 clip.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "minimax-h3"
+   ],
+   "new": "(강조) 끄아아아아!!!",
+   "cute": [
+    "짧은 팔 춤·제스처",
+    "입 벌려 비명"
+   ]
+  },
+  {
+   "n": 21,
+   "who": "hero",
+   "sz": "FS → 렌즈 가림",
+   "ang": "바닥 높이 초저각(벌레 시점)",
+   "cam": "고정 바닥 카메라(테이크 앞부분은 빠르게·천천히 전진) — 같은 원본 디지털 줌(2단)의 원본 화면(#9~#21이 이 테이크를 잘라 씀), 끝에서 날아온 병이 렌즈를 덮으며 흐려짐",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "주인공이 머리 위의 페트병을 카메라(침입자) 쪽으로 던짐 — 병이 렌즈에 부딪힘",
+   "bg": "나무 바닥, 소파, 야경 창",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "다가오지 말라는 초대형 외침",
+    "sp": "hero",
+    "fx": "강조 자막(흰 기울임 초대형, 느낌표 연타)"
+   },
+   "tr": "하드컷",
+   "sfx": "휙 스윙 → 병 명중 임팩트",
+   "tech": "렌즈를 향해 날아오는 오브젝트(카메라 명중) + 롱테이크 원본",
+   "why": "관객 쪽으로 물건이 날아와 몰입 최고조",
+   "img": "Extreme low-angle floor-level full shot of {HERO} throwing a clear plastic bottle straight at the camera with both short arms, the bottle flying toward the lens; {FLOOR}",
+   "mot": "Generate one continuous 12-13 s take from the extreme floor-level camera: the camera scurries forward with a brief focus hunt, then creeps slowly toward the {ANIMAL}, which trembles hugging a clear bottle as tall as itself, screams with its tiny mouth wide open, lifts the bottle overhead with its short arms and finally hurls it straight at the lens so the bottle fills the frame with a blurry plastic smear. This shot is the last 0.33 s; shots 9-20 are crops of the same clip.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "new": "(강조) 받아라아아!!!",
+   "cute": [
+    "짧은 팔 춤·제스처",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 22,
+   "who": "hero",
+   "sz": "FS",
+   "ang": "바닥 높이 초저각(벌레 시점)",
+   "cam": "흔들리며 앞으로 쏠림(렌즈 앞을 흐린 플라스틱이 쓸고 지나감)",
+   "grid": [
+    5
+   ],
+   "act": "빈손이 된 주인공이 짧은 두 팔을 들고 카메라를 향해 뛰어듦",
+   "bg": "나무 바닥, 소파",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "(외침 유지) + 위층 노랑 신음",
+    "sp": "hero",
+    "fx": "강조 유지 + 2층 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "침입자 신음 + 타격",
+   "tech": "흔들림(맞은 시점)",
+   "why": "맞은 쪽의 시점이 흔들려 타격감을 몸으로 느끼게 함",
+   "img": "Extreme low-angle floor-level full shot of {HERO} lunging toward the camera with both short arms raised, a blurry plastic bottle smear crossing the foreground; {FLOOR}",
+   "mot": "The {ANIMAL} leaps toward the camera with its short arms raised; the camera shakes violently as if hit.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "minimax-h3",
+    "viduq3-pro"
+   ],
+   "new": "(강조 유지)",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
+  },
+  {
+   "n": 23,
+   "who": "hero",
+   "sz": "CU(모션블러)",
+   "ang": "바닥 시점, 기울어짐(더치 앵글)",
+   "cam": "크게 흔들림 + 모션블러(앞발이 렌즈를 내려침)",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "흐릿하게 번진 주인공의 앞발·몸이 카메라를 내려찍음(괄호 라벨로 무력 사용을 에둘러 표현)",
+   "bg": "번진 벽·바닥",
+   "set": "floor",
+   "cap": {
+    "lb": "무력 사용을 알리는 기울임 괄호 라벨",
+    "ln": null,
+    "sp": "narr",
+    "fx": "기울임 괄호 라벨(강조형)"
+   },
+   "tr": "하드컷",
+   "sfx": "쿵 내려찍기",
+   "tech": "주관적 타격 샷(모션블러)",
+   "why": "폭력은 흐린 번짐으로만 보여 줘 귀여움·수위를 지킴",
+   "img": "Heavily motion-blurred close-up of {HERO}'s tiny paw and fluffy body swooping down toward the camera, tilted frame, bright room behind",
+   "mot": "Fast downward swipe of a tiny paw toward the lens with heavy motion blur; the camera jolts and tilts.",
+   "gen": "i2v",
+   "m": [
+    "viduq3-pro",
+    "kling-v3",
+    "edit"
+   ],
+   "new": "(초록) 끄억!",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
+  },
+  {
+   "n": 24,
+   "who": "insert",
+   "sz": "POV(나뒹굶)",
+   "ang": "뒤집히는 바닥 시점(더치 앵글)",
+   "cam": "흔들리며 회전(시점이 나뒹굶), 강한 모션블러",
+   "grid": [
+    5,
+    6
+   ],
+   "act": "맞은 시점이 굴러가며 천장·창문·테이블 다리가 비스듬히 휙휙 지나감",
+   "bg": "기울어진 나무 바닥, 원목 테이블 다리, 창",
+   "set": "floor",
+   "cap": {
+    "lb": "(괄호 라벨 유지)",
+    "ln": null,
+    "sp": "narr",
+    "fx": "라벨 유지"
+   },
+   "tr": "하드컷",
+   "sfx": "나뒹구는 휙 회전음",
+   "tech": "POV 회전(나뒹구는 시점)",
+   "why": "맞은 쪽이 굴러가는 느낌을 카메라로 대신 표현",
+   "img": "Tilted, motion-blurred floor-level point-of-view shot tumbling sideways: wooden floorboards, the legs of a round light-oak coffee table and a dark window rushing diagonally across the frame",
+   "mot": "Point of view rolls over sideways: the frame spins about 60 degrees with heavy motion blur, floor and table legs sweeping across.",
+   "gen": "i2v",
+   "m": [
+    "viduq3-pro",
+    "seedance-2-5",
+    "edit"
+   ],
+   "new": "(물리적 설득 중)",
+   "cute": []
+  },
+  {
+   "n": 25,
+   "who": "insert",
+   "sz": "POV(누운 시점)",
+   "ang": "옆으로 누운 바닥 시점",
+   "cam": "움직임이 멎으며 화면이 점점 어두워짐(약 0.7초 만에 완전 암전)",
+   "grid": [
+    3,
+    6
+   ],
+   "act": "옆으로 누운 시점으로 테이블 다리가 세로로 보이고 화면이 서서히 꺼짐. 위층 노랑 신음, 아래 흰 울먹임",
+   "bg": "옆으로 누운 테이블 다리·창",
+   "set": "floor",
+   "cap": {
+    "lb": "(괄호 라벨 유지)",
+    "ln": "노랑 신음 → 주인공의 울먹이는 한마디",
+    "sp": "hero",
+    "fx": "2층 자막"
+   },
+   "tr": "하드컷 → 컷 끝에서 딥 투 블랙(암전)",
+   "sfx": "모든 소리가 점점 줄어듦",
+   "tech": "시점 기절(딥 투 블랙)",
+   "why": "맞은 쪽의 '의식이 꺼지는' 경험을 암전으로 체험",
+   "img": "Floor-level point of view lying on its side: the legs of a round light-oak coffee table appear vertical and blurred, a dark window with city lights beyond, dim and hazy",
+   "mot": "Still image of the sideways blurry point of view; in the edit fade the picture to black over about 0.7 seconds while captions stay readable.",
+   "gen": "still",
+   "m": [
+    "still",
+    "edit"
+   ],
+   "new": "(대사 유지) → (초록) 끄응…",
+   "cute": []
+  },
+  {
+   "n": 26,
+   "who": "black",
+   "sz": "암전",
+   "ang": "-",
+   "cam": "-",
+   "grid": [],
+   "act": "완전 검은 화면 위에 주인공의 울먹이는 흰 대사와 노랑 신음만 남음",
+   "bg": "검정",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "울먹이는 한마디(외곽선 없는 흰 글씨) + 노랑 신음",
+    "sp": "hero",
+    "fx": "암전 위 자막"
+   },
+   "tr": "암전 유지(앞 컷에서 꺼진 화면이 이어짐)",
+   "sfx": "훌쩍이는 울음(약 735Hz)",
+   "tech": "암전 + 소리만(블랙 스크린 대사)",
+   "why": "화면을 끄고 소리만 남겨 '기절한 동안 들리는 것'을 상상하게 함",
+   "img": "(No image — pure black frame)",
+   "mot": "Edit: 0.6 s of pure black with captions only.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "흐엉 미안해애",
+   "cute": []
+  },
+  {
+   "n": 27,
+   "who": "black",
+   "sz": "암전",
+   "ang": "-",
+   "cam": "-",
+   "grid": [],
+   "act": "검은 화면 위 흰 대사가 흐리게 번진 채 떠 있음(초점 나간 자막), 노랑 신음",
+   "bg": "검정",
+   "set": "floor",
+   "cap": {
+    "lb": null,
+    "ln": "통화 중 울며 하소연(흐리게 번진 자막)",
+    "sp": "hero",
+    "fx": "블러 자막(다음 컷에서 초점과 함께 선명해짐)"
+   },
+   "tr": "하드컷(자막만 바뀜)",
+   "sfx": "무음에 가까움 → 28.5초 BGM 재개(추정)",
+   "tech": "흐린 자막(의식이 돌아오는 중)",
+   "why": "자막까지 흐리게 처리해 시점 캐릭터의 몽롱함을 글자로 전달",
+   "img": "(No image — pure black frame)",
+   "mot": "Edit: 0.87 s of black; blur the caption with a strong gaussian blur that clears as the next shot fades in.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "흐어엉 갑자기 튀어나왔다니까아",
+   "cute": []
+  },
+  {
+   "n": 28,
+   "who": "hero",
+   "sz": "FS 뒷모습(컵 속 시점)",
+   "ang": "바닥 높이(뒤집힌 컵 안)",
+   "cam": "고정 — 암전에서 1.8초 페이드 인 + 흐림→선명 초점, 같은 원본 디지털 줌(2단): 원본 화면은 #30(#28~#32 한 테이크의 앞부분)",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "투명 컵 벽 너머로 주인공이 등을 보인 채 폰을 귀에 대고 울며 통화. 컵 테두리가 화면 아래를 둥글게 가림",
+   "bg": "투명 플라스틱 곡면·물방울, 소파, 테이블, 야경 창",
+   "set": "cup",
+   "cap": {
+    "lb": "전화 상대 소개 분홍 괄호 라벨(놀란 엄마)",
+    "ln": "흐린 하소연 → 분홍 엄마 핀잔 → 흰 흐느낌 + 위층 노랑 부름",
+    "sp": "cw2",
+    "fx": "분홍 대사 + 분홍 괄호 라벨 + 2층 자막"
+   },
+   "tr": "디졸브(약 54프레임) — 암전에서 서서히 밝아지는 페이드 인(기절했다 깨어나는 시점), 초점도 흐림→선명",
+   "sfx": "클래식풍 BGM 재개 + 전화 음성 + 흐느낌, 32.0~33.4초 BGM 멈춤",
+   "tech": "프레임 속 프레임(투명 컵 속 시점) + 페이드 인 각성",
+   "why": "눈을 떠 보니 갇혀 있다는 상황을 컵 곡면과 테두리로 한 번에 설명",
+   "img": "(Same frame as the shot 30 source) View from inside an upside-down clear plastic cup on a wooden floor: through the curved transparent wall, {HERO} seen from behind standing upright, holding a tiny smartphone to its ear with both paws, its round fluffy rear and tiny feet visible, shoulders hunched as if sobbing; {CUP}",
+   "mot": "Edit: use the first 4.6 s of the shot 30 source clip; fade in from black over about 1.8 s and pull the focus from blurry to sharp in the edit. The {ANIMAL}, seen from behind through the plastic, sobs into the phone.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(대사 유지) → (파랑) 귀뚜라미면 가을 손님이네~ → (대사) 흐어어엉 → (파랑) (야근하다 전화 받은 언니)",
+   "cute": [
+    "뒷모습·엉덩이",
+    "사람 같은 행동(통화)"
+   ]
+  },
+  {
+   "n": 29,
+   "who": "hero",
+   "sz": "MS 뒷모습(약 2배 크롭)",
+   "ang": "바닥 높이(컵 안)",
+   "cam": "같은 원본 디지털 줌(2단) — #30 원본을 약 2배 크롭",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "통화하는 뒷모습을 가까이, 어깨를 들썩이며 흐느낌",
+   "bg": "흐린 소파·테이블",
+   "set": "cup",
+   "cap": {
+    "lb": null,
+    "ln": "울음 섞인 흰 대사(모음 분리 오타) + 위층 노랑 한숨",
+    "sp": "hero",
+    "fx": "2층 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "흐느낌 + BGM",
+   "tech": "뒷모습 크롭 리액션",
+   "why": "얼굴 없이 등·엉덩이만으로 우는 감정을 보여 주는 귀여움",
+   "img": "(Crop of the shot 30 source, about 2x) Medium shot from behind of {HERO} holding a tiny phone to its ear, round fluffy back and rear, tiny paws, little shoulders shaking, seen through clear curved plastic",
+   "mot": "Edit: crop about 2x into the shot 30 clip.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "나 진짜 무섭단 말이야아",
+   "cute": [
+    "뒷모습·엉덩이",
+    "사람 같은 행동(통화)"
+   ]
+  },
+  {
+   "n": 30,
+   "who": "hero",
+   "sz": "FS 뒷모습",
+   "ang": "바닥 높이(컵 안)",
+   "cam": "고정 — 같은 원본 디지털 줌(2단)의 원본 화면(#28~#32가 이 테이크를 잘라 씀, 컵 테두리 보임)",
+   "grid": [
+    5
+   ],
+   "act": "컵 너머 전신 뒷모습, 폰을 귀에 댄 채 서 있음",
+   "bg": "투명 곡면, 소파, 테이블, 야경 창",
+   "set": "cup",
+   "cap": {
+    "lb": null,
+    "ln": "분홍 엄마의 처리법 지시 2단 + 위층 노랑 재촉",
+    "sp": "cw2",
+    "fx": "분홍 대사 2단 + 2층 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "전화 음성 + BGM",
+   "tech": "화자 색 대사(분홍)로 얼굴 없는 인물 구분",
+   "why": "현실 엄마의 무심한 해결책이 공포와 대비돼 웃음",
+   "img": "View from inside an upside-down clear plastic cup on a wooden floor: through the curved transparent wall, {HERO} seen from behind standing upright, holding a tiny smartphone to its ear with both paws, its round fluffy rear and tiny feet visible, little shoulders shaking as it sobs; {CUP}",
+   "mot": "Generate one static 9 s take from inside the cup: the {ANIMAL}, seen from behind through the plastic, sobs into the phone with little shoulders shaking and tiny feet shuffling, then freezes; in the last 0.7 s the view whips hard to the right with heavy motion blur. Shots 28, 29, 31 and 32 are cut from this same clip.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(파랑) 종이컵에 쏙 담아서 → (파랑) 창밖에 내놓으면 끝이잖아",
+   "cute": [
+    "뒷모습·엉덩이"
+   ]
+  },
+  {
+   "n": 31,
+   "who": "hero",
+   "sz": "MS 뒷모습(약 1.9배 크롭)",
+   "ang": "바닥 높이(컵 안)",
+   "cam": "같은 원본 디지털 줌(2단) — #30 원본을 약 1.9배 크롭",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "뒷모습 가까이, 폰을 꼭 쥔 채 굳음",
+   "bg": "흐린 소파·테이블",
+   "set": "cup",
+   "cap": {
+    "lb": null,
+    "ln": "(분홍 지시 유지) + 위층 노랑 재촉",
+    "sp": "cw2",
+    "fx": "대사 유지 + 2층 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "BGM",
+   "tech": "크롭 리액션",
+   "why": "지시를 듣고 굳는 등 뒤 모습으로 '못 한다'를 예고",
+   "img": "(Crop of the shot 30 source, about 1.9x) Medium shot from behind of {HERO} gripping a tiny phone to its ear with both paws, round fluffy rear, frozen",
+   "mot": "Edit: crop about 1.9x into the shot 30 clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(초록) 저기… 앵콜만이라도 보게 해 주시면",
+   "cute": [
+    "뒷모습·엉덩이"
+   ]
+  },
+  {
+   "n": 32,
+   "who": "insert",
+   "sz": "휩 팬(컵 속 POV)",
+   "ang": "바닥 높이(컵 안)",
+   "cam": "#30 원본 테이크의 끝부분(크롭 없음) — 컵 속 시점이 오른쪽으로 급회전하며 강한 모션블러, 주인공이 화면 왼쪽으로 빠지고 창·테이블이 휙 지나감",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "갇혀 있던 시점이 갑자기 휙 돌아감(탈출 순간을 휩 속에 숨김)",
+   "bg": "번진 거실·창",
+   "set": "cup",
+   "cap": {
+    "lb": null,
+    "ln": null,
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "휩 팬(컵 속 시점이 오른쪽으로 급회전하며 다음 장면으로 넘어감)",
+   "sfx": "휙 스윙 + 자막 없는 외침(약 668Hz)",
+   "tech": "휩 팬 속 사건 은폐(탈출)",
+   "why": "무슨 일이 있었는지 보여 주지 않고 넘어가 뒤의 빈 컵 반전을 가능하게 함",
+   "img": "(Motion-blurred tail of the cup take: the night living room with a round coffee table and dark windows smeared horizontally)",
+   "mot": "Edit: use the last 0.7 s of the shot 30 source clip where the view whips to the right; if the clip has no whip, add a horizontal whip-pan blur in the edit.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "viduq3-pro"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 33,
+   "who": "hero",
+   "sz": "MCU",
+   "ang": "로우앵글(주인공 가슴 높이)",
+   "cam": "초점이 흐림→선명으로 잡힘(랙 포커스), 살짝 뒤로 빠짐 — 같은 원본 디지털 줌(5단): 원본 화면은 #39(#33~#41 한 테이크), 왼쪽을 약 1.3배 크롭",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "복도에서 정면으로 선 주인공이 폰을 볼에 대고 다른 앞발은 입에 문 채 초조하게 제자리걸음",
+   "bg": "흰 복도, 짙은 회색 현관문, 옷걸이, 택배 상자",
+   "set": "hallway",
+   "cap": {
+    "lb": "초조한 발놀림 괄호 라벨",
+    "ln": null,
+    "sp": "narr",
+    "fx": "괄호 라벨 + 자막 없는 목소리"
+   },
+   "tr": "하드컷(휩 팬 끝에서 역방향 객관 시점으로)",
+   "sfx": "자막 없는 외침(약 668Hz) + BGM",
+   "tech": "시점 전환(1인칭 → 객관 시점) + 랙 포커스",
+   "why": "처음으로 주인공 정면 얼굴을 또렷하게 보여 줘 감정 이입 대상을 바꿈",
+   "img": "(Crop of the shot 39 source, about 1.3x) Low-angle medium close-up of {HERO} standing upright in a bright hallway, pressing a tiny silver smartphone to its cheek with one paw and nibbling the tip of its other tiny paw anxiously, big round glossy eyes, white chest patch, a tiny tuft of fur on top of its head tied with a tiny hair tie; {HALLWAY}",
+   "mot": "Edit: crop about 1.3x (left part) into the start of the shot 39 clip and add a rack focus from blurry to sharp in the edit; the {ANIMAL} anxiously stamps its tiny feet and nibbles its paw.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(초조해서 탭댄스 중)",
+   "vo": "주인공: 걔랑 눈 마주쳤단 말이야!",
+   "cute": [
+    "사람 같은 행동(통화)",
+    "발 동동",
+    "앞발 입에 물기",
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 34,
+   "who": "hero",
+   "sz": "FS(전신)",
+   "ang": "로우앵글(바닥 가까이)",
+   "cam": "고정(아주 느리게 뒤로 빠짐, 약 0.93배) — 같은 원본 디지털 줌(5단): 원본 화면(#39)과 같은 와이드",
+   "grid": [
+    1,
+    4,
+    7
+   ],
+   "act": "복도 바닥에 선 주인공 전신: 폰을 귀에 대고 앞발을 입에 댄 채 초조. 오른쪽 뒤 바닥에 쓰러진 빈 투명 컵이 보임(복선)",
+   "bg": "현관문, 옷걸이, 택배 상자, 쓰러진 빈 컵",
+   "set": "hallway",
+   "cap": {
+    "lb": "황당 제안 요약 박스 라벨",
+    "ln": "분홍 엄마의 같이 살라는 제안",
+    "sp": "cw2",
+    "fx": "박스 라벨 + 분홍 대사"
+   },
+   "tr": "하드컷",
+   "sfx": "전화 음성 + BGM",
+   "tech": "배경 복선(쓰러진 빈 컵을 계속 노출)",
+   "why": "관객이 먼저 빈 컵을 발견할 수 있게 약 5초간 배경에 둠 → 발견한 사람은 댓글",
+   "img": "(Same frame as the shot 39 source) Low-angle full shot of {HERO} standing on a light oak floor in a bright hallway, holding a tiny smartphone to its ear with one paw and a tiny paw at its mouth, tiny feet together; an empty clear plastic cup lying on its side in the background on the right; {HALLWAY}",
+   "mot": "Edit: use the shot 39 clip at its original framing; keep the tipped cup visible in the background.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(라벨) 급 입양 권유 / (파랑) 그럼 이름 지어 주고 키우든가",
+   "cute": [
+    "사람 같은 행동(통화)",
+    "앞발 입에 물기",
+    "발 동동"
+   ]
+  },
+  {
+   "n": 35,
+   "who": "hero",
+   "sz": "MCU(약 1.75배 크롭)",
+   "ang": "로우앵글",
+   "cam": "같은 원본 디지털 줌(5단) — #39 원본을 약 1.75배 크롭",
+   "grid": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "act": "폰을 댄 얼굴 가까이, 앞발을 입에 문 채 눈을 깜빡임",
+   "bg": "현관문, 흰 벽",
+   "set": "hallway",
+   "cap": {
+    "lb": "(박스 라벨 유지)",
+    "ln": "분홍 짧은 체념 한마디",
+    "sp": "cw2",
+    "fx": "라벨 유지 + 분홍 대사"
+   },
+   "tr": "하드컷",
+   "sfx": "전화 음성",
+   "tech": "크롭 리액션",
+   "why": "황당 제안을 듣는 얼굴을 크게",
+   "img": "(Crop of the shot 39 source, about 1.75x) Medium close-up of {HERO} holding a tiny phone to its cheek, nibbling its tiny paw, big round glossy eyes blinking, a tiny tuft of fur on top of its head tied with a tiny hair tie",
+   "mot": "Edit: crop about 1.75x into the shot 39 clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨 유지) / (파랑) 귀뚜라미 밥은 오이래",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "앞발 입에 물기",
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 36,
+   "who": "hero",
+   "sz": "MS(약 1.3배 크롭)",
+   "ang": "로우앵글",
+   "cam": "같은 원본 디지털 줌(5단) — #39 원본을 약 1.3배 크롭",
+   "grid": [
+    1,
+    4,
+    5
+   ],
+   "act": "상반신, 폰에 대고 항변하기 시작",
+   "bg": "현관문, 옷걸이",
+   "set": "hallway",
+   "cap": {
+    "lb": null,
+    "ln": "항변 시작 흰 대사",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷",
+   "sfx": "주인공 외침(약 649Hz)",
+   "tech": "크롭 단계 바꾸기",
+   "why": "대사마다 줌 단계를 바꿔 한 테이크를 여러 컷처럼",
+   "img": "(Crop of the shot 39 source, about 1.3x) Medium shot of {HERO} talking into a tiny phone held to its cheek, its other tiny paw at its mouth",
+   "mot": "Edit: crop about 1.3x into the shot 39 clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "아니 걔 뒷다리가",
+   "cute": [
+    "사람 같은 행동(통화)"
+   ]
+  },
+  {
+   "n": 37,
+   "who": "hero",
+   "sz": "FS",
+   "ang": "로우앵글",
+   "cam": "같은 원본 디지털 줌(5단) — 와이드(원본 화면)",
+   "grid": [
+    1,
+    4
+   ],
+   "act": "전신, 폰을 든 채 몸을 들썩이며 강조",
+   "bg": "현관문, 옷걸이, 택배 상자, 쓰러진 컵",
+   "set": "hallway",
+   "cap": {
+    "lb": null,
+    "ln": "단어 가운데 별표를 끼운 강조 부사",
+    "sp": "hero",
+    "fx": "별표(☆) 문자 삽입"
+   },
+   "tr": "하드컷",
+   "sfx": "BGM 멈춤(40.5초)",
+   "tech": "별표 끼운 강조어",
+   "why": "글자 장식 하나로 말의 과장을 표현",
+   "img": "(Same frame as the shot 39 source) Low-angle full shot of {HERO} in the hallway holding a tiny phone to its ear, bouncing slightly as it stresses a word; {HALLWAY}",
+   "mot": "Edit: use the shot 39 clip at its original framing.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "완☆전",
+   "cute": [
+    "사람 같은 행동(통화)"
+   ]
+  },
+  {
+   "n": 38,
+   "who": "hero",
+   "sz": "MCU(줌인)",
+   "ang": "로우앵글",
+   "cam": "크래시 줌(0.6초 동안 약 1.4배→2배로 빠르게 확대) — 같은 원본 디지털 줌(5단)",
+   "grid": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "act": "크기를 과장하는 한 글자 외침과 함께 얼굴로 빠르게 줌인",
+   "bg": "현관문, 흰 벽",
+   "set": "hallway",
+   "cap": {
+    "lb": null,
+    "ln": "크기를 과장하는 한 글자 + 느낌표 연타(큰 글씨)",
+    "sp": "hero",
+    "fx": "큰 흰 글씨"
+   },
+   "tr": "하드컷",
+   "sfx": "가장 큰 외침(순간 최대 -14.3dB) + 줌 효과음(권장)",
+   "tech": "크래시 줌",
+   "why": "과장된 말에 카메라도 같이 과장",
+   "img": "(Crop of the shot 39 source, about 1.4x, zooming to 2x) Medium close-up of {HERO} shouting into a tiny phone, big round glossy eyes wide, one tiny paw at its mouth",
+   "mot": "Edit: crop from about 1.4x and zoom quickly to about 2x over 0.6 s on the shot 39 clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(강조) 내 키만 해!!!!!!",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "사람 같은 행동(통화)"
+   ]
+  },
+  {
+   "n": 39,
+   "who": "hero",
+   "sz": "FS",
+   "ang": "로우앵글",
+   "cam": "고정 — 같은 원본 디지털 줌(5단)의 원본 화면(#33~#41이 이 테이크를 잘라 씀)",
+   "grid": [
+    1,
+    4
+   ],
+   "act": "전신, 폰에 대고 오타 섞인 문장으로 크기를 강조",
+   "bg": "현관문, 옷걸이, 택배 상자, 쓰러진 컵",
+   "set": "hallway",
+   "cap": {
+    "lb": null,
+    "ln": "자모가 섞인 오타 문장(크기 강조)",
+    "sp": "hero",
+    "fx": "큰 흰 글씨"
+   },
+   "tr": "하드컷",
+   "sfx": "주인공 외침",
+   "tech": "자모 오타 자막",
+   "why": "급해서 오타가 난 듯한 글자가 패닉을 표현",
+   "img": "Low-angle full shot of {HERO} standing on a light oak floor in a bright hallway, holding a tiny smartphone to its ear with one paw and nibbling the tip of its other tiny paw, tiny feet stamping, white chest patch; an empty clear plastic cup lying on its side on the floor in the background on the right; {HALLWAY}",
+   "mot": "Generate one static 7 s take in the hallway: the {ANIMAL} fidgets on the phone, nibbles its paw, stamps its tiny feet and bounces on shouted words; keep the tipped empty cup visible at the right the whole time. Shots 33-38 and 41 are crops of this same clip.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "gemini-omni-1-1-flash"
+   ],
+   "new": "ㅈ점프도 한다니까",
+   "cute": [
+    "사람 같은 행동(통화)"
+   ]
+  },
+  {
+   "n": 40,
+   "who": "hero",
+   "sz": "ECU(흐림)",
+   "ang": "아이레벨",
+   "cam": "초점이 완전히 나간 초근접(눈·코) — 원본을 크게 확대한 디지털 초확대로 추정",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈과 코만 흐릿하게 화면을 채움, 오른쪽 가장자리에 폰",
+   "bg": "없음(얼굴이 화면 전체)",
+   "set": "livingroom",
+   "cap": {
+    "lb": null,
+    "ln": "(앞 대사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "과확대 블러 인서트",
+   "why": "0.33초 흐린 초근접으로 공포 직전의 멍함을 예고",
+   "img": "Blurry, out-of-focus extreme close-up of {HERO}'s face: two big round glossy black eyes and a pink nose filling the frame, a silver phone edge at the right",
+   "mot": "Still image with heavy blur held for 0.33 s (or crop about 4x into the shot 42 clip and blur it).",
+   "gen": "still",
+   "m": [
+    "still",
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 41,
+   "who": "insert",
+   "sz": "INSERT(빈 컵)",
+   "ang": "바닥 높이 로우앵글",
+   "cam": "같은 원본 디지털 줌(5단) — #39 원본을 약 2.7배 크롭한 뒤 1.4초 동안 약 4.2배까지 푸시인",
+   "grid": [
+    5,
+    6
+   ],
+   "act": "쓰러진 빈 투명 컵이 바닥에 놓여 있음 — 안에 아무것도 없음(탈출)",
+   "bg": "나무 바닥, 택배 상자, 흰 벽",
+   "set": "hallway",
+   "cap": {
+    "lb": "소름 끼치는 공포 괄호 라벨",
+    "ln": null,
+    "sp": "narr",
+    "fx": "괄호 라벨"
+   },
+   "tr": "하드컷",
+   "sfx": "음악이 공포 드론으로 교체(100~200Hz 잡음 대역)",
+   "tech": "복선 회수 + 디지털 푸시인 + 음악 교체",
+   "why": "배경에 있던 컵이 주인공이 되는 순간. 드론으로 장르가 코미디→공포로 전환",
+   "img": "(Crop of the shot 39 source, about 2.7x) Low floor-level close shot of an empty clear plastic cup lying on its side on a light oak floor in a bright hallway, a brown cardboard box blurred behind, nothing inside the cup; {HALLWAY}",
+   "mot": "Edit: crop about 2.7x into the shot 39 clip around the tipped cup and slowly push in to about 4.2x over 1.4 s.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "still"
+   ],
+   "new": "(텅 빈 감옥)",
+   "cute": []
+  },
+  {
+   "n": 42,
+   "who": "hero",
+   "sz": "CU",
+   "ang": "아이레벨(정면)",
+   "cam": "고정 — 같은 원본 디지털 줌(5단): 원본 화면은 #46(#42~#47 한 테이크), 약 1.9배 크롭(3단 줌인 1단계)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "폰을 볼에 댄 채 입을 살짝 벌리고 멍하게 정면을 봄",
+   "bg": "밝게 흐린 방",
+   "set": "livingroom",
+   "cap": {
+    "lb": null,
+    "ln": "넋 나간 짧은 감탄(모음 분리)",
+    "sp": "hero",
+    "fx": "작은 흰 대사"
+   },
+   "tr": "하드컷",
+   "sfx": "공포 드론 계속",
+   "tech": "3단 디지털 줌인 시작",
+   "why": "공포를 깨달은 순간의 멍한 얼굴을 정면으로",
+   "img": "(Crop of the shot 46 source, about 1.9x) Close-up of {HERO} facing the camera with a blank dazed stare, big round glossy black eyes with catchlights, pink nose, long whiskers, mouth slightly open, a tiny silver smartphone pressed to its cheek by a tiny pink paw at the right; softly blurred bright room behind",
+   "mot": "Edit: crop about 1.9x into the start of the shot 46 source clip; almost still, a slow blink and a tiny nose twitch.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "어…",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "멍한 눈",
+    "사람 같은 행동(통화)"
+   ]
+  },
+  {
+   "n": 43,
+   "who": "hero",
+   "sz": "ECU(약 1.5배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "같은 원본 디지털 줌(5단) — #46 원본을 약 2.9배 크롭(3단 줌인 2단계)",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "더 가까이, 눈과 코만 크게, 말없음",
+   "bg": "없음(얼굴)",
+   "set": "livingroom",
+   "cap": {
+    "lb": null,
+    "ln": "말없음표",
+    "sp": "hero",
+    "fx": "작은 흰 대사"
+   },
+   "tr": "하드컷(축 방향 크롭)",
+   "sfx": "공포 드론",
+   "tech": "3단 디지털 줌인 2단계",
+   "why": "움직임 없이 크기만 커져 시간이 멈춘 느낌",
+   "img": "(Crop of the shot 46 source, about 2.9x) Extreme close-up of {HERO}'s blank face: two big round glossy black eyes, pink nose and whiskers, phone edge at the right",
+   "mot": "Edit: crop about 2.9x into the shot 46 clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "…",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "멍한 눈"
+   ]
+  },
+  {
+   "n": 44,
+   "who": "hero",
+   "sz": "ECU(약 1.9배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "같은 원본 디지털 줌(5단) — #46 원본을 약 3.7배 크롭(3단 줌인 3단계)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈 두 개가 화면 위쪽을 채운 초근접, 작게 사라졌다는 한마디",
+   "bg": "없음(얼굴)",
+   "set": "livingroom",
+   "cap": {
+    "lb": null,
+    "ln": "사라졌다는 한마디(속삭임)",
+    "sp": "hero",
+    "fx": "작은 흰 대사"
+   },
+   "tr": "하드컷(축 방향 크롭)",
+   "sfx": "공포음 끊김 → 속삭임(약 253Hz)",
+   "tech": "3단 디지털 줌인 3단계 + 음악 드롭",
+   "why": "가장 가까운 순간에 가장 작은 목소리 — 비명과 정반대의 공포",
+   "img": "(Crop of the shot 46 source, about 3.7x) Extreme close-up of {HERO}'s two big round glossy black eyes and pink nose filling the frame, blank stare",
+   "mot": "Edit: crop about 3.7x into the shot 46 clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "비었어",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "멍한 눈"
+   ]
+  },
+  {
+   "n": 45,
+   "who": "hero",
+   "sz": "CU(약 1.1배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "같은 원본 디지털 줌(5단) — #46 원본을 약 2.2배로 다시 빠짐",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "조금 물러난 얼굴, 입을 벌린 채 말없음(전화기에서 엄마 목소리)",
+   "bg": "밝게 흐린 방",
+   "set": "livingroom",
+   "cap": {
+    "lb": null,
+    "ln": "말없음표",
+    "sp": "hero",
+    "fx": "작은 흰 대사 + 자막 없는 전화 목소리"
+   },
+   "tr": "하드컷",
+   "sfx": "전화기 속 엄마 목소리(전화 EQ, 자막 없음)",
+   "tech": "줌 아웃 한 단계(숨 돌림)",
+   "why": "엄마 목소리만 들리고 주인공은 대답 못 함 → 무력감",
+   "img": "(Crop of the shot 46 source, about 2.2x) Close-up of {HERO} with a blank stare and mouth slightly open, a tiny silver phone pressed to its cheek by a tiny pink paw",
+   "mot": "Edit: crop about 2.2x into the shot 46 clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "…",
+   "vo": "언니(전화): 여보세요? 오이 사 갈까?",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "멍한 눈",
+    "사람 같은 행동(통화)"
+   ]
+  },
+  {
+   "n": 46,
+   "who": "hero",
+   "sz": "MCU",
+   "ang": "아이레벨(정면)",
+   "cam": "고정 — 같은 원본 디지털 줌(5단)의 원본 화면(#42~#47이 이 테이크를 잘라 씀), 여기서 처음 넓게 빠져 거실이 보임",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "거실을 배경으로 폰을 볼에 댄 상반신, 얼굴 옆에 작은 무력감 포인터",
+   "bg": "거실 소파, 원목 테이블과 종이봉투, 야경 창",
+   "set": "livingroom",
+   "cap": {
+    "lb": "얼굴 옆 작은 무력감 포인터(괄호)",
+    "ln": null,
+    "sp": "narr",
+    "fx": "작은 포인터 괄호 자막"
+   },
+   "tr": "하드컷",
+   "sfx": "무음에 가까움(-66dB)",
+   "tech": "포인터 자막 + 정적",
+   "why": "머리가 하얘진 상태를 소리 없이",
+   "img": "Medium close-up of {HERO} standing in a cozy night living room holding a tiny silver phone to its cheek, frozen with a blank stare, big round glossy eyes, white chest patch, fluffy cheeks, a tiny tuft of fur on top of its head tied into a little topknot with a tiny hair tie; {LIVINGROOM}",
+   "mot": "Generate one static 7 s take: the {ANIMAL} stands frozen with a tiny phone at its cheek and a blank stare; only slow blinks, a tiny nose twitch and trembling whiskers. Shots 42-45 and 47 are crops of this same clip.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "hailuo-2-3"
+   ],
+   "new": "(머릿속 새하얘짐)",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "멍한 눈",
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 47,
+   "who": "hero",
+   "sz": "CU(약 2배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "같은 원본 디지털 줌(5단) — #46 원본을 약 2배 크롭",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "얼굴 클로즈업, 멍한 눈 그대로(전화기 속 목소리가 한 번 더 부름)",
+   "bg": "흐린 거실",
+   "set": "livingroom",
+   "cap": {
+    "lb": null,
+    "ln": null,
+    "sp": "hero",
+    "fx": "자막 없음(목소리만)"
+   },
+   "tr": "하드컷",
+   "sfx": "전화기 속 부름(약 387Hz, 전화 EQ)",
+   "tech": "무응답 엔딩(목소리만)",
+   "why": "대답 없는 전화가 여운 대신 불안을 남김 → 루프",
+   "img": "(Crop of the shot 46 source, about 2x) Close-up of {HERO}'s blank face, big round glossy black eyes, pink nose, a tiny phone pressed to its cheek",
+   "mot": "Edit: crop about 2x into the shot 46 clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(자막 없음)",
+   "vo": "언니(전화): 여보세요~? 이름은 지었어?",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "멍한 눈"
+   ]
+  },
+  {
+   "n": 48,
+   "who": "black",
+   "sz": "암전",
+   "ang": "-",
+   "cam": "-",
+   "grid": [],
+   "act": "완전 검은 화면 0.23초 후 종료",
+   "bg": "검정",
+   "set": "livingroom",
+   "cap": {
+    "lb": null,
+    "ln": null,
+    "sp": "hero",
+    "fx": "없음"
+   },
+   "tr": "하드컷 투 블랙 → 0.23초 후 종료",
+   "sfx": "하드 컷아웃",
+   "tech": "하드 아웃(루프 유도)",
+   "why": "끝났다는 신호 없이 끊겨 다시 처음(썸네일 플래시)으로 이어지게 함",
+   "img": "(No image — pure black frame)",
+   "mot": "Edit: 0.23 s of black, then end.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  }
+ ],
+ "cute_moments": [
+  {
+   "moment": "오물오물 먹방 매크로",
+   "shots": [
+    2,
+    3
+   ],
+   "why": "코·수염·분홍 앞발이 화면을 채운 초근접에서 볼이 빵빵하게 움직임 — 사람 먹방을 동물 크기로 옮긴 ASMR. 공포 전에 '귀여움 잔고'를 채워 두는 셋업",
+   "prompt": "macro close-up of {HERO} holding a tiny bagel sandwich sized to its paws with both tiny pink paws, cheeks puffed full, pink nose and whiskers crisp, big round glossy black eyes, warm lamp light",
+   "motion": "small rapid nibbles, cheeks puffing in and out, whiskers twitching, tiny paws rotating the food"
+  },
+  {
+   "moment": "소파 위 얼음 → 빵 떨어뜨리고 빼꼼",
+   "shots": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "why": "거대한 소파 위 작은 몸이 그대로 굳었다가 빵을 놓치고 가장자리에서 고개만 내미는 느린 반응 — 가구와의 크기 대비 + 사람 같은 '멈칫'",
+   "prompt": "tiny {HERO} sitting on the armrest of a huge low sofa, frozen mid-bite with a bagel clutched to its chest, then peeking down over the sofa edge with only its round head and tiny paws showing, extreme low floor-level ultra-wide view",
+   "motion": "freezes completely with trembling whiskers, the food slips from its tiny paws and drops, then it slowly peeks over the edge"
+  },
+  {
+   "moment": "몸만 한 페트병 무기",
+   "shots": [
+    9,
+    10,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21
+   ],
+   "why": "짧은 팔로 자기 키만 한 병을 끌어안고 '포식자' 라벨까지 붙어 반어가 극대화 — 크기 대비 + 사람처럼 무기를 드는 행동",
+   "prompt": "{HERO} standing upright on its hind legs on a wooden floor, hugging an empty clear plastic bottle almost as tall as its own body with its short arms, tiny feet planted wide, big round glossy eyes wide with fear, seen from an extreme low floor-level angle",
+   "motion": "trembles all over, shuffles its tiny feet, lifts the bottle like a club with its short arms, then hurls it forward"
+  },
+  {
+   "moment": "입 크게 벌린 비명 크롭",
+   "shots": [
+    12,
+    14,
+    16,
+    18,
+    20
+   ],
+   "why": "와이드 뒤에 2배 크롭으로 입을 한껏 벌린 얼굴을 끼워 넣는 리듬 — 과장 표정이지만 작은 동물이라 무섭지 않고 웃김",
+   "prompt": "low-angle medium close-up of {HERO} screaming with its tiny mouth wide open, big glossy eyes, fur puffed out, short arms hugging a clear bottle bigger than its torso",
+   "motion": "shrill scream with the whole little body shaking, head tilting back, paws squeezing the bottle"
+  },
+  {
+   "moment": "뒷모습 울먹 통화",
+   "shots": [
+    28,
+    29,
+    30,
+    31
+   ],
+   "why": "얼굴 없이 동그란 등·엉덩이와 작은 발만으로 우는 감정 — 사람처럼 폰을 귀에 대고 엄마에게 하소연하는 행동",
+   "prompt": "{HERO} seen from behind standing upright on a wooden floor, round fluffy back and rear, tiny feet, holding a tiny smartphone sized to its head against its ear with both paws, shoulders hunched, seen through the curved wall of a clear plastic cup",
+   "motion": "shoulders shake with little sobs, tiny feet shuffle in place, head nods as it listens to the phone"
+  },
+  {
+   "moment": "발 동동 + 앞발 깨물기 통화",
+   "shots": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+   ],
+   "why": "한 앞발은 폰, 다른 앞발은 입에 문 채 제자리에서 발을 구르는 초조한 사람 몸짓을 작은 동물이 그대로",
+   "prompt": "{HERO} standing upright in a bright hallway, pressing a tiny smartphone against its cheek with one paw and nibbling the tip of its other tiny paw, white chest patch, big round glossy eyes",
+   "motion": "anxiously stamps its tiny feet in place, nibbles its paw, bounces slightly on a shouted word"
+  },
+  {
+   "moment": "동그란 눈 멍 초근접",
+   "shots": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "why": "움직임을 거의 없애고 반짝이는 큰 눈·분홍 코만 확대하는 3단 줌 — 멍한 표정 자체가 밈이 되는 엔딩",
+   "prompt": "extreme close-up of {HERO}'s face: two big round glossy black eyes with catchlights, pink nose, long whiskers, mouth slightly open, a tiny smartphone pressed to its cheek, blank dazed stare",
+   "motion": "nearly still; one slow blink, a tiny nose twitch, whiskers trembling"
+  },
+  {
+   "moment": "앞머리 헤어끈(작은 소품)",
+   "shots": [
+    1,
+    3,
+    10,
+    12,
+    33,
+    35,
+    46
+   ],
+   "why": "정수리 털을 작은 헤어끈으로 묶은 앙증맞은 앞머리가 모든 클로즈업에서 캐릭터를 알아보게 하는 시그니처(각색 시 다른 소품으로 교체)",
+   "prompt": "{HERO} with a tiny tuft of fur on top of its head gathered into a little topknot with a tiny hair tie sized to the animal (or swap it for your own signature accessory)",
+   "motion": "the little topknot bobs and wobbles whenever it moves its head"
+  }
+ ],
+ "sound": {
+  "summary": "소리는 4막 구조. ①0~3초 음악 없이 빵 씹는 ASMR과 룸톤만(저역 20~80Hz -78~-109dB) ②3.0~12.5초·28.5~40.5초 침입자·엄마 대사 밑에 지속음 저음이 겹겹이 깔린 우아한 클래식풍 BGM(20~250Hz -29~-45dB, 약 4.5초 프레이즈 반복, 추정) ③16.5~27.4초 음악 저역이 빠지고 주인공 비명(501~848Hz)과 타격음만 — 바로 앞 16.0~16.5초에 0.5초 완전 무음(모든 대역 -113dB) ④42.4~46.1초 공포 드론(100~200Hz 잡음 대역) → 이후 음악 없이 전화기 속 목소리만. 무음 비율 12.3%, 대사 구간 비율 약 56%. 컷과 소리 시작점 일치율 23.4%는 우연 기준(온셋 69개 → 21.8%)과 비슷 → 음악 박자가 아니라 자막 교체·비명 타이밍으로 자름(비명 구간만 보면 53%지만 온셋이 촘촘해 우연 기준도 59%)",
+  "voices": [
+   {
+    "who": "주인공",
+    "spec": "구간별 기본 주파수 중앙값: 먹방 감탄 약 280Hz(+5반음) → 협박·비명 612~848Hz(성인 여성 평균 210Hz보다 18.5~23.5반음, 약 2옥타브 위) → 암전 속 울음 약 735Hz → 통화 흐느낌 약 501Hz → 마지막 '없다' 속삭임 약 253Hz(+3.3반음). 날카로운 샤우팅 뒤 힘 빠진 저음 속삭임으로 끝나는 대비",
+    "tts": "밝은 20대 여성 목소리 → 평상시 피치 +5~+7반음. 비명·울음은 ElevenLabs v3 감정 태그([screaming], [sobbing])로 만든 뒤 +10~+14반음, 마지막 속삭임은 피치 변경 없이 [whispering]"
+   },
+   {
+    "who": "침입자(벌레)",
+    "spec": "중년 남성 저음, 기본 주파수 약 82~135Hz(여성 평균 대비 -9~-16반음, 주인공 비명보다 약 3옥타브 아래). 외국어(독일어로 추정)로 느리고 정중하게 말하고 한국어 노랑 자막이 번역. 맞은 뒤 신음도 같은 톤으로 작게",
+    "tts": "40~60대 남성 바리톤 외국어 낭독(독일어·이탈리아어 등), 속도 0.9배, 공손한 집사 톤, 가까운 마이크. 주인공 비명 위에 겹칠 때는 -6dB 작게"
+   },
+   {
+    "who": "엄마(전화)",
+    "spec": "전화 음성(저음 컷, 1~4kHz 대역 우세 — 47.0초·49.5초 측정), 무심하고 빠른 말투. 끝의 '여보세요?' 구간 약 353~387Hz",
+    "tts": "50대 여성, 무심하고 빠른 말투 → 전화 EQ(300~3,400Hz 밴드패스) + 약한 압축. 동물 세계관에 맞게 피치 +4~+6반음"
+   }
+  ],
+  "bgm": {
+   "guess": "(장르는 추정 — 청취 확인 필요) 침입자가 말하는 구간(3.0~12.5초)과 엄마 통화 구간(28.5~31.9초, 33.4~40.5초)에만 약 55·80·110·165·220Hz 대역의 지속음 가로줄이 겹겹이 깔린 느리고 우아한 클래식풍 BGM(현악·오르간/하프시코드 계열로 추정). 약 4.5초 프레이즈가 반복되는 모양이라 3/4박 약 80BPM 왈츠일 가능성. 12.5초 무렵과 32.0~33.4초에 저역이 빠졌다(-50→-76dB) 다시 이어지고, 40.5초 '크다' 대목에서 멈춤 → 42.4~46.1초 저역 잡음 드론 → 이후 음악 없음. 비명 구간(16.5~27.4초)은 저역 -57~-76dB로 사실상 음악 없이 목소리·타격음만. 자동 추정 184.6BPM은 비명·타격 온셋에 끌린 값이라 신뢰도 낮음",
+   "rec": "4큐 구성 권장: ①오프닝은 음악 없이 ASMR(무음이 오히려 평화) ②침입자·통화용 '신사 테마'(3/4박 약 80BPM 챔버 왈츠: 피치카토 첼로·하프시코드·현악 패드) ③비명 구간은 원본처럼 음악을 빼고 비명·타격·휙 소리만 — 필요하면 아주 작은 긴장 트레몰로 ④빈 컵 공포 드론 약 4초 → 엔딩은 음악 없이 전화 음성만",
+   "level": "대사 대비 약 -16~-20dB(저음이 많은 곡이라 대사 명료도를 위해 150Hz 이하를 살짝 컷). 공포 드론 구간은 -10dB 안팎까지 올려 장르 전환을 확실히"
+  },
+  "sfx": [
+   {
+    "t": 0.21,
+    "s": "빵 씹는 쩝쩝 ASMR(0.2·1.0·2.0초 중역 -36dB 버스트, 측정)",
+    "why": "먹방 오프닝(#2~#3)"
+   },
+   {
+    "t": 1.53,
+    "s": "음악 없는 밤 거실 룸톤 앰비언스",
+    "why": "평온한 저녁 바닥 와이드(#4)"
+   },
+   {
+    "t": 3.0,
+    "s": "화면 밖 낮은 남성 목소리 첫마디(약 135Hz) + 클래식풍 BGM 시작(저역 -30dB대로 상승, 추정)",
+    "why": "보이지 않는 존재 등장(#4)"
+   },
+   {
+    "t": 6.33,
+    "s": "굳는 순간 '띵?' 물음표(권장)",
+    "why": "얼음 리액션 크롭(#5)"
+   },
+   {
+    "t": 11.52,
+    "s": "빵이 바닥에 떨어지는 작은 낙하음(11.52초 온셋 측정) — 키트에서는 클릭음으로 대체",
+    "why": "평화 종료 선언(#8)"
+   },
+   {
+    "t": 13.44,
+    "s": "바닥 시점 전진 '두둥' 긴장 스팅(컷 0.07초 뒤 온셋, 권장)",
+    "why": "대치 시작(#9)"
+   },
+   {
+    "t": 14.0,
+    "s": "약 0.5초 거의 정적(-65dB)",
+    "why": "협박 직전 숨 멈춤(#9~#10)"
+   },
+   {
+    "t": 16.0,
+    "s": "0.5초 완전 무음(모든 대역 -113dB, 측정) — 자막도 함께 사라짐",
+    "why": "비명 직전 진공(#11)"
+   },
+   {
+    "t": 16.5,
+    "s": "첫 비명(약 612Hz)",
+    "why": "협박 폭발(#11)"
+   },
+   {
+    "t": 18.9,
+    "s": "길게 늘인 비명(약 760Hz) + 자막 진동",
+    "why": "떨리는 강조 자막(#15)"
+   },
+   {
+    "t": 19.73,
+    "s": "타자 효과음(폭주 문장이 초당 약 8글자로 타이핑, 권장)",
+    "why": "넘치는 타이핑 자막(#16~#18)"
+   },
+   {
+    "t": 22.06,
+    "s": "가장 높은 비명(약 817Hz, 23.5반음 위)",
+    "why": "완전 패닉(#18~#19)"
+   },
+   {
+    "t": 25.35,
+    "s": "병 던지는 휙 스윙",
+    "why": "투척(#21)"
+   },
+   {
+    "t": 25.6,
+    "s": "병이 렌즈에 맞는 임팩트 + 짧은 신음",
+    "why": "명중(#21~#22)"
+   },
+   {
+    "t": 26.1,
+    "s": "앞발로 내려찍는 쿵 + 화면 흔들림",
+    "why": "덮치기(#23)"
+   },
+   {
+    "t": 26.4,
+    "s": "나뒹구는 휙 회전음",
+    "why": "시점 뒤집힘(#24)"
+   },
+   {
+    "t": 27.4,
+    "s": "암전 속 훌쩍이는 울먹임(약 735Hz)",
+    "why": "주인공 울음(#26)"
+   },
+   {
+    "t": 28.5,
+    "s": "클래식풍 BGM 재개(저역 -36dB, 추정) + 흐리게 들리는 하소연",
+    "why": "깨어남·통화 시작(#27~#28)"
+   },
+   {
+    "t": 31.5,
+    "s": "주인공 흐느낌(약 501Hz)",
+    "why": "울며 통화(#28)"
+   },
+   {
+    "t": 32.0,
+    "s": "BGM 1.4초 멈춤(저역 -50→-76dB, 측정)",
+    "why": "엄마 소개 라벨 강조(#28)"
+   },
+   {
+    "t": 36.37,
+    "s": "휩 팬 휙 + 자막 없는 외침(약 668Hz)",
+    "why": "컵 속 시점 급회전(#32)"
+   },
+   {
+    "t": 41.0,
+    "s": "크래시 줌 쭈욱 + 가장 큰 외침(순간 최대 -14.3dB 구간)",
+    "why": "'크다' 강조(#38)"
+   },
+   {
+    "t": 42.4,
+    "s": "공포 드론 시작(100~200Hz 잡음 대역, 42.5~46.0초 측정)",
+    "why": "빈 컵 공포(#41)"
+   },
+   {
+    "t": 46.1,
+    "s": "공포음이 끊기고 전화기 속 목소리만(1~4kHz 전화 대역)",
+    "why": "무응답 엔딩(#44~#47)"
+   },
+   {
+    "t": 50.37,
+    "s": "하드 컷아웃(암전)",
+    "why": "루프 유도(#48)"
+   }
+  ],
+  "suno": "Elegant comedic chamber waltz in 3/4 time at 80 BPM, pizzicato cello and double bass holding long low notes, harpsichord arpeggios, soft sustained string pad, polite and pompous like a gentleman entering a ballroom, no drums, no vocals, loopable 9 seconds",
+  "suno2": "Creeping horror bed, low rumbling noise drone between 100 and 200 Hz, faint dissonant high string harmonics, one distant heartbeat, no melody, no vocals, 4 seconds, abrupt stop",
+  "suno3": "Very quiet tense standoff underscore, soft tremolo strings and a ticking clock, sparse low piano hits, slowly rising suspense, no vocals, 6 seconds, loopable, to sit far under screaming dialogue",
+  "mix": "최종 -14 LUFS(유튜브 기준), 트루피크 -1dBTP. 원본은 통합 -21.6 LUFS, 라우드니스 범위 11.9LU, 트루피크 -0.3dBFS — 평균은 작은데 비명 피크가 0dB 가까이 치솟는 구조. 비명 구간(16.5~27.4초)은 리미터로 -1dBTP 안에 누르고 대사·BGM을 올려 전체를 -14로 맞춤. 16.0~16.5초 완전 무음과 46초 이후의 조용함은 그대로 살려 대비 유지. 엄마 목소리는 전화 EQ(300~3,400Hz)로 방 소리와 구분"
+ },
+ "edit": {
+  "timeline": "30fps, 1920×1080(원본 업로드 1080p). 48컷, 평균 1.05초(약 32프레임), 중앙값 0.80초, 분당 57컷. 가장 짧은 컷 0.10초(#1, 3프레임 썸네일 플래시), 가장 긴 컷 4.80초(#4). 실제 영상 생성 소스는 11개 + 정지 이미지 2장이고, 나머지 35컷은 같은 원본의 디지털 크롭·암전·편집",
+  "rules": [
+   "벌레는 끝까지 보여 주지 않는다 — #4~#32는 전부 바닥 1~2cm 높이 16mm 초광각 1인칭 시점, 존재는 목소리·노랑 자막·카메라 움직임으로만",
+   "AI 영상은 장면당 한 테이크를 길게(5~11초) 만들고, 편집에서 와이드↔1.2~4.3배 크롭을 번갈아 써서 컷 수를 늘린다(같은 원본 디지털 줌). 묶음에서 가장 넓은 컷 슬롯에 원본 클립을 넣고 나머지 컷은 그 클립을 시간순으로 잘라 씀",
+   "침입자 해명 구간은 '새 자막 한 줄 = 새 컷', 비명 구간(16.5~27.4초)은 0.27~0.7초 컷으로 몰아친다",
+   "비명 직전에는 소리와 자막을 동시에 뺀 0.5초 진공을 둔다",
+   "기절: 딥 투 블랙 0.7초 → 암전 1.4초(자막만) → 1.8초 페이드 인 + 초점 흐림→선명",
+   "장소 전환은 휩 팬 한 번(0.7초). 휩 속에서 일어난 일(탈출)은 보여 주지 않는다",
+   "반전 소품(빈 컵)은 공개 약 5초 전부터 배경에 두고, 공개는 같은 원본 디지털 푸시인으로",
+   "2층 자막(위 작은 노랑 속삭임 + 아래 메인 줄)은 편집에서 별도 트랙으로 올린다 — 키트 자막은 같은 줄 위치만 지원해 새 대본은 순차 표시로 근사",
+   "엔딩은 음악 없이 전화 음성만 두 번 → 0.23초 암전으로 여백 없이 끝낸다(루프)"
+  ]
+ },
+ "tech": [
+  {
+   "t": "썸네일 플래시 오프닝",
+   "w": "#1",
+   "d": "썸네일 이미지를 첫 3프레임(0.1초)에만 끼워 클릭한 그림과 영상을 이어 붙이고 제목을 한 번 더 각인"
+  },
+  {
+   "t": "먹방 셋업 → 공포 대비",
+   "w": "#2~#3",
+   "d": "매크로 먹방으로 1.5초간 귀여움·평화를 쌓아 두고 바로 다음 컷부터 긴장으로 뒤집음"
+  },
+  {
+   "t": "보이지 않는 1인칭 시점(벌레 시점)",
+   "w": "#4~#32",
+   "d": "카메라를 바닥 1~2cm 높이·초광각에 두고 대상(벌레)을 끝까지 안 보여 줌. 약혐 대상은 목소리·노랑 자막·카메라 높이로만 존재"
+  },
+  {
+   "t": "자막 교체 = 컷",
+   "w": "#5~#8",
+   "d": "침입자의 새 문장이 뜰 때마다 컷(와이드↔크롭)을 바꿔 대사만 있는 구간에도 리듬을 만듦"
+  },
+  {
+   "t": "반어 괄호 라벨",
+   "w": "#9, #19, #41",
+   "d": "겁먹은 작은 주인공을 '포식자'로 부르고, 동물 이름 말장난으로 패닉을 요약하고, 공포를 과장된 관용구로 — 편집자가 한마디씩 거드는 예능 자막"
+  },
+  {
+   "t": "2층 자막(속삭임 vs 비명)",
+   "w": "#9~#31",
+   "d": "위 작은 노랑 줄(약 36px, y≈0.775)은 계속 공손한 해명, 아래 큰 줄(약 80px, y≈0.868)은 비명. 두 목소리를 동시에 읽게 해 동문서답 개그를 완성"
+  },
+  {
+   "t": "진공 비트(0.5초 완전 무음)",
+   "w": "#11 (16.0~16.5초)",
+   "d": "소리(-113dB)와 자막을 동시에 없앤 0.5초 뒤 비명 폭발 — 영상에서 가장 큰 대비"
+  },
+  {
+   "t": "떨리는 강조 자막 + 넘치는 타이핑",
+   "w": "#15, #20 / #16~#19",
+   "d": "강조 자막이 약 5프레임 주기로 진동하고, 주인공의 폭주 문장은 왼쪽 정렬로 초당 약 8글자 타이핑되다 화면 밖까지 넘침"
+  },
+  {
+   "t": "같은 원본 디지털 줌(가짜 멀티캠)",
+   "w": "#4~#7, #9~#21, #28~#32, #33~#41, #42~#47",
+   "d": "한 테이크를 와이드와 1.2~4.3배 크롭으로 번갈아 잘라 48컷을 11개 생성 소스로 제작. 각 묶음에서 가장 넓은 컷(#6·#21·#30·#39·#46)이 원본 클립이고 나머지는 그 클립을 시간순으로 잘라 씀(경계 프레임 상관도 0.84~0.998)"
+  },
+  {
+   "t": "렌즈를 향한 액션 + 흔들림",
+   "w": "#21~#24",
+   "d": "병이 렌즈에 명중하고 앞발이 카메라를 내려찍으며 시점이 나뒹굶. 폭력은 모션블러로만 보여 줘 수위를 지킴"
+  },
+  {
+   "t": "시점 기절 → 깨어남",
+   "w": "#25~#28",
+   "d": "0.7초 딥 투 블랙 → 1.4초 암전(자막만) → 1.8초 페이드 인 + 흐림→선명 초점. 흐린 자막까지 함께 선명해짐"
+  },
+  {
+   "t": "프레임 속 프레임(투명 컵 시점)",
+   "w": "#28~#32",
+   "d": "컵 곡면·물방울·테두리 호로 '갇혔다'를 설명 없이 전달"
+  },
+  {
+   "t": "휩 팬 속 사건 은폐",
+   "w": "#32",
+   "d": "탈출 순간을 0.7초 급회전 모션블러 안에 숨겨 두고 장소를 전환 — 뒤의 빈 컵 반전을 가능하게 함"
+  },
+  {
+   "t": "배경 복선 → 디지털 푸시인 회수",
+   "w": "#34~#39 → #41",
+   "d": "쓰러진 빈 컵을 약 5초간 배경에 노출한 뒤 같은 원본을 약 2.7→4.2배로 밀어 들어가며 공개. 음악도 공포 드론으로 교체"
+  },
+  {
+   "t": "화자 색 괄호 라벨",
+   "w": "#28",
+   "d": "전화 상대를 소개하는 괄호 라벨까지 분홍으로 칠해 얼굴 없는 인물을 색으로 고정"
+  },
+  {
+   "t": "크래시 줌 + 3단 디지털 줌인",
+   "w": "#38 / #42→#43→#44",
+   "d": "과장된 외침에 0.6초 급확대, 공포 뒤에는 움직임 없이 같은 원본을 약 1.9→2.9→3.7배로 한 단계씩 조여 시간이 멈춘 느낌 → #46에서 처음 넓게 빠짐"
+  },
+  {
+   "t": "무응답 전화 엔딩 + 하드 아웃",
+   "w": "#45~#48",
+   "d": "음악을 빼고 전화기 속 목소리만 두 번 부르게 한 뒤 0.23초 암전으로 뚝 — 루프 시 썸네일 플래시로 자연스럽게 연결"
+  }
+ ],
+ "adapt": {
+  "premise": "예시 각색: '월요병 오기 전 일요일 밤' 베이글 먹방 중, 가을밤 연주회에 가다 창문 틈을 잘못 탄 이탈리아 신사 귀뚜라미(외국어 저음 + 노랑 번역 자막, 호칭 '시뇨리나')가 바닥 1인칭 시점으로 길을 묻는다 → 주인공은 '나 맛없다'고 외치며 페트병을 던져 기절시키고 컵에 가둠 → 야근 중인 언니(분홍 슬롯)에게 울며 전화 → '종이컵에 담아 창밖에 내놔' → 눈이 마주쳐서 못 만진다고 버티자 '그럼 이름 지어 주고 키워'(급 입양 권유) → 컵은 텅 비어 있음 → 전화 속 언니만 '오이 사 갈까?', '이름은 지었어?' → 암전 속 '귀뚤' 한 번(권장). 벌레는 원본처럼 끝까지 화면에 보여 주지 않음(시점·목소리·자막으로만)",
+  "keep": [
+   "10단계 비트와 타이밍(표의 초 단위 그대로)",
+   "침입자를 한 번도 보여 주지 않는 바닥 높이 1인칭 시점(#4~#32)",
+   "침입자 노랑 기울임 + 위층 속삭임 줄 / 주인공 흰색 / 전화 상대 분홍의 화자 색 체계",
+   "0.5초 완전 무음 → 비명 폭주, 딥 투 블랙 기절 → 페이드 인 깨어남",
+   "휩 팬 속에 탈출을 숨기고 배경에 빈 컵을 약 5초 노출하는 복선",
+   "한 테이크 + 와이드↔2배 크롭 스위칭(같은 원본 디지털 줌)",
+   "대답 없는 전화 음성 + 0.23초 암전 엔딩"
+  ],
+  "change": [
+   "침입자 종류·언어·목적지(벌레·독일어·파티 → 귀뚜라미·이탈리아어·가을밤 연주회)",
+   "전화 상대와 조언(엄마·휴지·변기·같이 살기 → 언니·종이컵·창밖·이름 지어 키우기)",
+   "주인공 시그니처 소품(원본의 앞머리 헤어끈은 채널 상징이라 다른 소품 권장)",
+   "대사·괄호 라벨·박스 라벨 문구 전부(예시 각색 대사를 새로 제공)",
+   "썸네일 제목 한 단어"
+  ],
+  "costume": "no fantasy costume in this video; optional cozy-night prop instead of the original tiny hair-tie topknot: a tiny pastel-yellow terry-cloth spa headband that pushes the forehead fur up into a little tuft"
+ },
+ "batches": [
+  {
+   "name": "A. 오프닝 먹방·썸네일",
+   "shots": [
+    1,
+    2,
+    3
+   ],
+   "how": "#1은 썸네일 이미지 1장(제목 글자는 편집) → 3프레임만 사용. #2 매크로 입·빵 초근접 5초 1회, #3 MCU 오물오물 5초 1회(참조형)"
+  },
+  {
+   "name": "B. 소파 와이드 테이크(바닥 시점)",
+   "shots": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "how": "#6 슬롯에 바닥 1cm 16mm 와이드 정지 테이크 1개(9초: 먹다 굳고 눈만 굴림) 생성 → #4(앞 4.8초, 아주 느린 푸시인)·#5(약 2.3배)·#7(약 2배)은 이 클립을 시간순으로 잘라 씀. #8 전진은 시작·끝 프레임 지정 4초 1회"
+  },
+  {
+   "name": "C. 페트병 대치 롱테이크(바닥 시점)",
+   "shots": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "how": "#21 슬롯에 12~13초 롱테이크 1개(빠르게 다가오며 초점 헌팅 → 천천히 다가오는 바닥 시점 앞에서 병을 안고 떨다 비명 → 병을 머리 위로 들어 렌즈로 던짐) → #9~#20은 이 클립을 시간순으로 1.05~4.3배 크롭(넓은 쪽↔타이트 교대). 15초 제한 모델(kling-v3-omni·seedance-2-0)로 한 번에, 비명 표정은 minimax-h3 테이크로 A/B"
+  },
+  {
+   "name": "D. 덮치기·나뒹굴기",
+   "shots": [
+    22,
+    23,
+    24,
+    25
+   ],
+   "how": "짧은 액션 3클립(각 3~4초): 렌즈를 향해 덮치기, 모션블러 앞발, 옆으로 구르는 시점. #25는 옆으로 누운 흐린 시점 정지 이미지 + 편집 어두워짐"
+  },
+  {
+   "name": "E. 암전",
+   "shots": [
+    26,
+    27,
+    48
+   ],
+   "how": "편집 검정 화면 + 자막만(#27은 자막에 강한 가우시안 블러 → 다음 컷 페이드 인과 함께 선명하게)"
+  },
+  {
+   "name": "F. 컵 속 시점 테이크",
+   "shots": [
+    28,
+    29,
+    30,
+    31,
+    32
+   ],
+   "how": "#30 슬롯에 투명 컵 안 시점 9초 1개(뒷모습 울며 통화 → 마지막 0.7초 오른쪽 급회전) → #28(앞 4.6초 + 편집 페이드 인·블러)·#29(약 2배)·#31(약 1.9배)·#32(끝부분 휩, 부족하면 편집 휩 블러)"
+  },
+  {
+   "name": "G. 복도 통화 테이크",
+   "shots": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "how": "#39 슬롯에 복도 전신 7초 1개(발 동동·폰 통화, 배경에 쓰러진 빈 컵) → #33(약 1.3배 + 편집 랙 포커스)·#34·#37(원본 화면)·#35(1.75배)·#36(1.3배)·#38(1.4→2배 급확대)·#41(2.7→4.2배 빈 컵 푸시인). #40은 초근접 정지 이미지 + 블러"
+  },
+  {
+   "name": "H. 멍한 엔딩(전화 얼굴)",
+   "shots": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "how": "#46 슬롯에 거실 배경 MCU 7초 1개(볼에 폰, 멍하게 굳음, 느린 눈 깜빡임만) → #42(약 1.9배)·#43(2.9배)·#44(3.7배)·#45(2.2배)·#47(2배)은 이 클립을 시간순으로 잘라 3단 줌인 → 넓게 빠짐 → 다시 조임"
+  }
+ ],
+ "rhythm_note": "해석: 전체 컷-박자 일치율 23.4%는 우연 기준(21.8%)과 비슷해 음악 박자와는 무관합니다. 대신 <b>새 자막 줄이 뜨는 순간 컷을 바꾸는</b> 편집(침입자 해명 #5~#8), 비명 구간(16.5~27.4초)의 <b>0.27~0.7초 초단 컷 몰아치기</b>, 통화 구간의 <b>같은 테이크 줌 단계 바꾸기</b>가 리듬을 만듭니다. 따라 만들 때는 '자막 한 줄 = 컷 하나', 비명은 0.3~0.7초, 폭발 직전엔 0.5초 완전 무음으로 자르세요."
+}

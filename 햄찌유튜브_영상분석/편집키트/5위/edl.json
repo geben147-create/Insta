@@ -1,0 +1,886 @@
+{
+ "key": "v5",
+ "id": "tO22EaAEwsA",
+ "title": "꼽을주면 곱으로 받는다",
+ "duration": 25.1,
+ "fps": 30,
+ "shots": [
+  {
+   "n": 1,
+   "t_in": 0.0,
+   "t_out": 0.1,
+   "dur": 0.1,
+   "frames": 3,
+   "who": "insert",
+   "size": "ECU(타이틀 카드)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s36.mp4",
+   "setup": 36,
+   "source": 36,
+   "zoom": 1.6,
+   "cx": 0.312,
+   "cy": 0.49
+  },
+  {
+   "n": 2,
+   "t_in": 0.1,
+   "t_out": 0.833,
+   "dur": 0.733,
+   "frames": 22,
+   "who": "group",
+   "size": "MS(투샷 · 책상 높이)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s06.mp4",
+   "setup": 6,
+   "source": 6,
+   "zoom": 1.24,
+   "cx": 0.47,
+   "cy": 0.5
+  },
+  {
+   "n": 3,
+   "t_in": 0.833,
+   "t_out": 1.8,
+   "dur": 0.967,
+   "frames": 29,
+   "who": "cw2",
+   "size": "MS(가슴 위 · 얼굴 프레임 밖)",
+   "gen": "i2v",
+   "models": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s03.mp4",
+   "setup": 3
+  },
+  {
+   "n": 4,
+   "t_in": 1.8,
+   "t_out": 2.267,
+   "dur": 0.467,
+   "frames": 14,
+   "who": "hero",
+   "size": "CU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s05.mp4",
+   "setup": 5,
+   "source": 5,
+   "zoom": 1.56,
+   "cx": 0.486,
+   "cy": 0.406
+  },
+  {
+   "n": 5,
+   "t_in": 2.267,
+   "t_out": 2.733,
+   "dur": 0.467,
+   "frames": 14,
+   "who": "hero",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.967,
+   "clip": "clips/s05.mp4",
+   "setup": 5
+  },
+  {
+   "n": 6,
+   "t_in": 2.733,
+   "t_out": 3.567,
+   "dur": 0.833,
+   "frames": 25,
+   "who": "group",
+   "size": "MS(투샷 · 책상 높이)",
+   "gen": "ref",
+   "models": [
+    "seedance-2-0",
+    "kling-v3-omni",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.233,
+   "clip": "clips/s06.mp4",
+   "setup": 6
+  },
+  {
+   "n": 7,
+   "t_in": 3.567,
+   "t_out": 4.167,
+   "dur": 0.6,
+   "frames": 18,
+   "who": "hero",
+   "size": "ECU",
+   "gen": "i2v",
+   "models": [
+    "minimax-h3",
+    "hailuo-2-3",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s07.mp4",
+   "setup": 9
+  },
+  {
+   "n": 8,
+   "t_in": 4.167,
+   "t_out": 5.033,
+   "dur": 0.867,
+   "frames": 26,
+   "who": "insert",
+   "size": "INSERT(POV · 컵 속)",
+   "gen": "still",
+   "models": [
+    "still",
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s08.mp4",
+   "setup": 8
+  },
+  {
+   "n": 9,
+   "t_in": 5.033,
+   "t_out": 5.667,
+   "dur": 0.633,
+   "frames": 19,
+   "who": "hero",
+   "size": "ECU",
+   "gen": "i2v",
+   "models": [
+    "minimax-h3",
+    "hailuo-2-3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s09.mp4",
+   "setup": 9
+  },
+  {
+   "n": 10,
+   "t_in": 5.667,
+   "t_out": 6.1,
+   "dur": 0.433,
+   "frames": 13,
+   "who": "hero",
+   "size": "MS(측면)",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s10.mp4",
+   "setup": 10
+  },
+  {
+   "n": 11,
+   "t_in": 6.1,
+   "t_out": 6.7,
+   "dur": 0.6,
+   "frames": 18,
+   "who": "hero",
+   "size": "MCU(측면)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.933,
+   "clip": "clips/s10.mp4",
+   "setup": 10,
+   "source": 10,
+   "zoom": 1.63,
+   "cx": 0.485,
+   "cy": 0.454
+  },
+  {
+   "n": 12,
+   "t_in": 6.7,
+   "t_out": 7.367,
+   "dur": 0.667,
+   "frames": 20,
+   "who": "insert",
+   "size": "INSERT(POV · 컵 속 근접)",
+   "gen": "still",
+   "models": [
+    "still",
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "push_in_slow"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s12.mp4",
+   "setup": 8
+  },
+  {
+   "n": 13,
+   "t_in": 7.367,
+   "t_out": 7.8,
+   "dur": 0.433,
+   "frames": 13,
+   "who": "hero",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "minimax-h3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s13.mp4"
+  },
+  {
+   "n": 14,
+   "t_in": 7.8,
+   "t_out": 8.3,
+   "dur": 0.5,
+   "frames": 15,
+   "who": "cw2",
+   "size": "MCU(입술·턱)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.467,
+   "clip": "clips/s03.mp4",
+   "setup": 3,
+   "source": 3,
+   "zoom": 1.17,
+   "cx": 0.478,
+   "cy": 0.428
+  },
+  {
+   "n": 15,
+   "t_in": 8.3,
+   "t_out": 9.067,
+   "dur": 0.767,
+   "frames": 23,
+   "who": "hero",
+   "size": "MS(동료 어깨 너머)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s18.mp4",
+   "setup": 18,
+   "source": 18,
+   "zoom": 1.44,
+   "cx": 0.612,
+   "cy": 0.529
+  },
+  {
+   "n": 16,
+   "t_in": 9.067,
+   "t_out": 10.067,
+   "dur": 1.0,
+   "frames": 30,
+   "who": "hero",
+   "size": "ECU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.133,
+   "clip": "clips/s09.mp4",
+   "setup": 9,
+   "source": 9,
+   "zoom": 1.05,
+   "cx": 0.476,
+   "cy": 0.498
+  },
+  {
+   "n": 17,
+   "t_in": 10.067,
+   "t_out": 11.167,
+   "dur": 1.1,
+   "frames": 33,
+   "who": "cw2",
+   "size": "MS(상반신 · 얼굴 프레임 밖)",
+   "gen": "i2v",
+   "models": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s17.mp4",
+   "setup": 3
+  },
+  {
+   "n": 18,
+   "t_in": 11.167,
+   "t_out": 11.933,
+   "dur": 0.767,
+   "frames": 23,
+   "who": "hero",
+   "size": "MS(동료 어깨 너머)",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.267,
+   "clip": "clips/s18.mp4",
+   "setup": 18,
+   "push": {
+    "scale": 1.039,
+    "cx": 0.5,
+    "cy": 0.495
+   }
+  },
+  {
+   "n": 19,
+   "t_in": 11.933,
+   "t_out": 12.767,
+   "dur": 0.833,
+   "frames": 25,
+   "who": "hero",
+   "size": "MS→MCU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "push_in_slow"
+   ],
+   "frame": "full",
+   "src_in": 2.034,
+   "clip": "clips/s18.mp4",
+   "setup": 18,
+   "source": 18,
+   "zoom": 1.53,
+   "cx": 0.507,
+   "cy": 0.515
+  },
+  {
+   "n": 20,
+   "t_in": 12.767,
+   "t_out": 13.333,
+   "dur": 0.567,
+   "frames": 17,
+   "who": "hero",
+   "size": "CU(3/4)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 2.867,
+   "clip": "clips/s18.mp4",
+   "setup": 18,
+   "source": 18,
+   "zoom": 3.03,
+   "cx": 0.531,
+   "cy": 0.46
+  },
+  {
+   "n": 21,
+   "t_in": 13.333,
+   "t_out": 14.133,
+   "dur": 0.8,
+   "frames": 24,
+   "who": "cw2",
+   "size": "MCU(상반신 · 입술 위 크롭)",
+   "gen": "i2v",
+   "models": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s21.mp4"
+  },
+  {
+   "n": 22,
+   "t_in": 14.133,
+   "t_out": 14.5,
+   "dur": 0.367,
+   "frames": 11,
+   "who": "hero",
+   "size": "CU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s24.mp4",
+   "setup": 30,
+   "source": 24,
+   "zoom": 1.9,
+   "cx": 0.474,
+   "cy": 0.481
+  },
+  {
+   "n": 23,
+   "t_in": 14.5,
+   "t_out": 15.1,
+   "dur": 0.6,
+   "frames": 18,
+   "who": "insert",
+   "size": "INSERT(OTS 화면 근접)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s25.mp4",
+   "setup": 25,
+   "source": 25,
+   "zoom": 1.72,
+   "cx": 0.5,
+   "cy": 0.5
+  },
+  {
+   "n": 24,
+   "t_in": 15.1,
+   "t_out": 15.6,
+   "dur": 0.5,
+   "frames": 15,
+   "who": "hero",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "seedance-2-0",
+    "kling-v3-omni",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.867,
+   "clip": "clips/s24.mp4",
+   "setup": 30
+  },
+  {
+   "n": 25,
+   "t_in": 15.6,
+   "t_out": 16.067,
+   "dur": 0.467,
+   "frames": 14,
+   "who": "insert",
+   "size": "INSERT(OTS 화면 와이드)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "veo-3-1"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.1,
+   "clip": "clips/s25.mp4",
+   "setup": 25
+  },
+  {
+   "n": 26,
+   "t_in": 16.067,
+   "t_out": 17.033,
+   "dur": 0.967,
+   "frames": 29,
+   "who": "hero",
+   "size": "CU",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "veo-3-1"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s26.mp4"
+  },
+  {
+   "n": 27,
+   "t_in": 17.033,
+   "t_out": 17.667,
+   "dur": 0.633,
+   "frames": 19,
+   "who": "insert",
+   "size": "INSERT(OTS 화면)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.567,
+   "clip": "clips/s25.mp4",
+   "setup": 25,
+   "source": 25,
+   "zoom": 1.05,
+   "cx": 0.5,
+   "cy": 0.5,
+   "push": {
+    "scale": 1.037,
+    "cx": 0.5,
+    "cy": 0.5
+   }
+  },
+  {
+   "n": 28,
+   "t_in": 17.667,
+   "t_out": 17.967,
+   "dur": 0.3,
+   "frames": 9,
+   "who": "hero",
+   "size": "ECU",
+   "gen": "still",
+   "models": [
+    "still",
+    "minimax-h3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s28.mp4",
+   "setup": 28
+  },
+  {
+   "n": 29,
+   "t_in": 17.967,
+   "t_out": 18.333,
+   "dur": 0.367,
+   "frames": 11,
+   "who": "hero",
+   "size": "ECU(더 가까이)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.8,
+   "clip": "clips/s28.mp4",
+   "setup": 28,
+   "source": 28,
+   "zoom": 1.44,
+   "cx": 0.478,
+   "cy": 0.506
+  },
+  {
+   "n": 30,
+   "t_in": 18.333,
+   "t_out": 19.467,
+   "dur": 1.133,
+   "frames": 34,
+   "who": "group",
+   "size": "MS(와이드 투샷)",
+   "gen": "ref",
+   "models": [
+    "seedance-2-0",
+    "kling-v3-omni",
+    "gemini-omni-1-1-flash"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s30.mp4",
+   "setup": 30,
+   "push": {
+    "scale": 1.04,
+    "cx": 0.504,
+    "cy": 0.501
+   }
+  },
+  {
+   "n": 31,
+   "t_in": 19.467,
+   "t_out": 20.1,
+   "dur": 0.633,
+   "frames": 19,
+   "who": "insert",
+   "size": "INSERT(OTS 화면)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 2.2,
+   "clip": "clips/s25.mp4",
+   "setup": 25,
+   "source": 25,
+   "zoom": 1.16,
+   "cx": 0.5,
+   "cy": 0.524,
+   "push": {
+    "scale": 0.968,
+    "cx": 0.5,
+    "cy": 0.499
+   }
+  },
+  {
+   "n": 32,
+   "t_in": 20.1,
+   "t_out": 20.7,
+   "dur": 0.6,
+   "frames": 18,
+   "who": "cw2",
+   "size": "MCU(입술·가슴)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s34.mp4",
+   "setup": 34,
+   "source": 34,
+   "zoom": 1.89,
+   "cx": 0.329,
+   "cy": 0.207
+  },
+  {
+   "n": 33,
+   "t_in": 20.7,
+   "t_out": 21.133,
+   "dur": 0.433,
+   "frames": 13,
+   "who": "hero",
+   "size": "ECU",
+   "gen": "still",
+   "models": [
+    "still",
+    "minimax-h3",
+    "hailuo-2-3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s33.mp4"
+  },
+  {
+   "n": 34,
+   "t_in": 21.133,
+   "t_out": 22.3,
+   "dur": 1.167,
+   "frames": 35,
+   "who": "group",
+   "size": "MS(와이드 투샷)",
+   "gen": "ref",
+   "models": [
+    "seedance-2-0",
+    "kling-v3-omni",
+    "gemini-omni-1-1-flash"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.1,
+   "clip": "clips/s34.mp4",
+   "setup": 34
+  },
+  {
+   "n": 35,
+   "t_in": 22.3,
+   "t_out": 23.633,
+   "dur": 1.333,
+   "frames": 40,
+   "who": "cw2",
+   "size": "MS(상반신 · 얼굴 프레임 밖)",
+   "gen": "i2v",
+   "models": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s35.mp4"
+  },
+  {
+   "n": 36,
+   "t_in": 23.633,
+   "t_out": 24.2,
+   "dur": 0.567,
+   "frames": 17,
+   "who": "hero",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "minimax-h3",
+    "hailuo-2-3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.6,
+   "clip": "clips/s36.mp4",
+   "setup": 36
+  },
+  {
+   "n": 37,
+   "t_in": 24.2,
+   "t_out": 25.1,
+   "dur": 0.9,
+   "frames": 27,
+   "who": "hero",
+   "size": "ECU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.167,
+   "clip": "clips/s36.mp4",
+   "setup": 36,
+   "source": 36,
+   "zoom": 1.98,
+   "cx": 0.482,
+   "cy": 0.508
+  }
+ ],
+ "reuse": {
+  "shots": 37,
+  "setups": 12,
+  "chains": 11,
+  "reused_shots": 16,
+  "zoom_steps": 14,
+  "three_step": 3,
+  "video_sources": 21,
+  "image_sources": 17,
+  "inshot_zoom_shots": 5,
+  "from_analysis_hints": 4
+ }
+}

@@ -1,0 +1,469 @@
+﻿[Script Info]
+; 김햄찌 분석 키트 — 원본 자막 규격(위치·크기·색) 재현용 템플릿. 텍스트는 새로 쓴 예시 대본
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: LabelHero,Malgun Gothic,40,&H00463F3F,&H00463F3F,&H38FFFFFF,&H38FFFFFF,0,0,0,0,100,100,0,0,3,7,0,2,20,20,158,1
+Style: LabelName,Malgun Gothic,40,&H00FFFFFF,&H00FFFFFF,&H1E000000,&H1E000000,0,0,0,0,100,100,0,0,3,7,0,2,20,20,158,1
+Style: LineHero,Malgun Gothic,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,20,20,58,1
+Style: LineCW1,Malgun Gothic,64,&H0038EF2E,&H0038EF2E,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,20,20,58,1
+Style: LineCW2,Malgun Gothic,64,&H00DE9019,&H00DE9019,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,20,20,58,1
+Style: LineLeader,Malgun Gothic,64,&H00F6FF17,&H00F6FF17,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,20,20,58,1
+Style: Emph,Malgun Gothic,140,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,8,0,2,20,20,70,1
+Style: EmphCW1,Malgun Gothic,120,&H0038EF2E,&H0038EF2E,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,8,0,2,20,20,70,1
+Style: Bracket,Malgun Gothic,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,20,20,62,1
+Style: Paren,Malgun Gothic,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,20,20,70,1
+Style: Pointer,Malgun Gothic,32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,2,7,20,20,20,1
+Style: CardSmall,Malgun Gothic,36,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,20,20,0,1
+Style: CardBig,Malgun Gothic,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,20,20,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.10,CardBig,,0,0,0,,{\pos(960,545)}해외 간다며?
+Dialogue: 0,0:00:00.10,0:00:02.50,LabelName,,0,0,0,,소문 빠른 동료 1 | 오지현
+Dialogue: 1,0:00:00.10,0:00:00.24,LineCW1,,0,0,0,,저
+Dialogue: 1,0:00:00.24,0:00:00.90,LineCW1,,0,0,0,,저기
+Dialogue: 1,0:00:00.90,0:00:01.00,LineCW1,,0,0,0,,저기 올
+Dialogue: 1,0:00:01.00,0:00:01.10,LineCW1,,0,0,0,,저기 올해
+Dialogue: 1,0:00:01.10,0:00:01.20,LineCW1,,0,0,0,,저기 올해 
+Dialogue: 1,0:00:01.20,0:00:01.30,LineCW1,,0,0,0,,저기 올해 해
+Dialogue: 1,0:00:01.30,0:00:01.40,LineCW1,,0,0,0,,저기 올해 해외
+Dialogue: 1,0:00:01.40,0:00:01.50,LineCW1,,0,0,0,,저기 올해 해외 
+Dialogue: 1,0:00:01.50,0:00:01.60,LineCW1,,0,0,0,,저기 올해 해외 워
+Dialogue: 1,0:00:01.60,0:00:01.70,LineCW1,,0,0,0,,저기 올해 해외 워크
+Dialogue: 1,0:00:01.70,0:00:01.80,LineCW1,,0,0,0,,저기 올해 해외 워크숍
+Dialogue: 1,0:00:01.80,0:00:01.90,LineCW1,,0,0,0,,저기 올해 해외 워크숍 
+Dialogue: 1,0:00:01.90,0:00:02.00,LineCW1,,0,0,0,,저기 올해 해외 워크숍 간
+Dialogue: 1,0:00:02.00,0:00:02.50,LineCW1,,0,0,0,,저기 올해 해외 워크숍 간대
+Dialogue: 1,0:00:02.50,0:00:02.58,LineHero,,0,0,0,,ㅇ
+Dialogue: 1,0:00:02.58,0:00:02.66,LineHero,,0,0,0,,ㅇ 
+Dialogue: 1,0:00:02.66,0:00:02.74,LineHero,,0,0,0,,ㅇ ㅓ
+Dialogue: 1,0:00:02.74,0:00:02.93,LineHero,,0,0,0,,ㅇ ㅓ?
+Dialogue: 0,0:00:02.93,0:00:03.53,LabelHero,,0,0,0,,귀가 쫑긋 선 {PUN}
+Dialogue: 1,0:00:02.93,0:00:02.99,LineHero,,0,0,0,,해
+Dialogue: 1,0:00:02.99,0:00:03.05,LineHero,,0,0,0,,해,
+Dialogue: 1,0:00:03.05,0:00:03.10,LineHero,,0,0,0,,해, 
+Dialogue: 1,0:00:03.10,0:00:03.16,LineHero,,0,0,0,,해, 해
+Dialogue: 1,0:00:03.16,0:00:03.21,LineHero,,0,0,0,,해, 해외
+Dialogue: 1,0:00:03.21,0:00:03.27,LineHero,,0,0,0,,해, 해외요
+Dialogue: 1,0:00:03.27,0:00:03.33,LineHero,,0,0,0,,해, 해외요?
+Dialogue: 1,0:00:03.33,0:00:03.53,LineHero,,0,0,0,,해, 해외요?!
+Dialogue: 0,0:00:03.53,0:00:04.73,LabelName,,0,0,0,,현실파 동료 2 | 강태준
+Dialogue: 1,0:00:03.53,0:00:03.68,LineCW2,,0,0,0,,에
+Dialogue: 1,0:00:03.68,0:00:03.93,LineCW2,,0,0,0,,에이
+Dialogue: 1,0:00:03.93,0:00:03.98,LineCW2,,0,0,0,,에이 작
+Dialogue: 1,0:00:03.98,0:00:04.03,LineCW2,,0,0,0,,에이 작년
+Dialogue: 1,0:00:04.03,0:00:04.08,LineCW2,,0,0,0,,에이 작년에
+Dialogue: 1,0:00:04.08,0:00:04.13,LineCW2,,0,0,0,,에이 작년에도
+Dialogue: 1,0:00:04.13,0:00:04.18,LineCW2,,0,0,0,,에이 작년에도 
+Dialogue: 1,0:00:04.18,0:00:04.23,LineCW2,,0,0,0,,에이 작년에도 그
+Dialogue: 1,0:00:04.23,0:00:04.28,LineCW2,,0,0,0,,에이 작년에도 그 
+Dialogue: 1,0:00:04.28,0:00:04.33,LineCW2,,0,0,0,,에이 작년에도 그 소
+Dialogue: 1,0:00:04.33,0:00:04.38,LineCW2,,0,0,0,,에이 작년에도 그 소리
+Dialogue: 1,0:00:04.38,0:00:04.43,LineCW2,,0,0,0,,에이 작년에도 그 소리 
+Dialogue: 1,0:00:04.43,0:00:04.48,LineCW2,,0,0,0,,에이 작년에도 그 소리 했
+Dialogue: 1,0:00:04.48,0:00:04.73,LineCW2,,0,0,0,,에이 작년에도 그 소리 했어
+Dialogue: 0,0:00:04.73,0:00:06.67,LabelName,,0,0,0,,연말에만 뵙는 대표님 | 윤재석
+Dialogue: 1,0:00:04.73,0:00:04.85,LineLeader,,0,0,0,,반
+Dialogue: 1,0:00:04.85,0:00:04.96,LineLeader,,0,0,0,,반갑
+Dialogue: 1,0:00:04.96,0:00:05.08,LineLeader,,0,0,0,,반갑습
+Dialogue: 1,0:00:05.08,0:00:05.19,LineLeader,,0,0,0,,반갑습니
+Dialogue: 1,0:00:05.19,0:00:05.50,LineLeader,,0,0,0,,반갑습니다
+Dialogue: 1,0:00:05.50,0:00:05.64,LineLeader,,0,0,0,,올
+Dialogue: 1,0:00:05.64,0:00:05.79,LineLeader,,0,0,0,,올 
+Dialogue: 1,0:00:05.79,0:00:05.93,LineLeader,,0,0,0,,올 한
+Dialogue: 1,0:00:05.93,0:00:06.07,LineLeader,,0,0,0,,올 한 
+Dialogue: 1,0:00:06.07,0:00:06.67,LineLeader,,0,0,0,,올 한 해
+Dialogue: 0,0:00:06.67,0:00:07.47,LabelHero,,0,0,0,,받아쓰기 모드 {PUN}
+Dialogue: 1,0:00:06.67,0:00:06.77,LineLeader,,0,0,0,,우
+Dialogue: 1,0:00:06.77,0:00:06.87,LineLeader,,0,0,0,,우리
+Dialogue: 1,0:00:06.87,0:00:06.97,LineLeader,,0,0,0,,우리 
+Dialogue: 1,0:00:06.97,0:00:07.07,LineLeader,,0,0,0,,우리 회
+Dialogue: 1,0:00:07.07,0:00:07.17,LineLeader,,0,0,0,,우리 회사
+Dialogue: 1,0:00:07.17,0:00:07.47,LineLeader,,0,0,0,,우리 회사는
+Dialogue: 1,0:00:07.47,0:00:07.54,LineLeader,,0,0,0,,쉴
+Dialogue: 1,0:00:07.54,0:00:07.62,LineLeader,,0,0,0,,쉴 
+Dialogue: 1,0:00:07.62,0:00:07.69,LineLeader,,0,0,0,,쉴 틈
+Dialogue: 1,0:00:07.69,0:00:07.77,LineLeader,,0,0,0,,쉴 틈 
+Dialogue: 1,0:00:07.77,0:00:07.84,LineLeader,,0,0,0,,쉴 틈 없
+Dialogue: 1,0:00:07.84,0:00:08.07,LineLeader,,0,0,0,,쉴 틈 없이
+Dialogue: 1,0:00:08.07,0:00:08.18,LineLeader,,0,0,0,,달
+Dialogue: 1,0:00:08.18,0:00:08.30,LineLeader,,0,0,0,,달리
+Dialogue: 1,0:00:08.30,0:00:08.41,LineLeader,,0,0,0,,달리고
+Dialogue: 1,0:00:08.41,0:00:08.53,LineLeader,,0,0,0,,달리고 
+Dialogue: 1,0:00:08.53,0:00:08.83,LineLeader,,0,0,0,,달리고 또
+Dialogue: 1,0:00:08.83,0:00:08.98,LineLeader,,0,0,0,,달
+Dialogue: 1,0:00:08.98,0:00:09.12,LineLeader,,0,0,0,,달렸
+Dialogue: 1,0:00:09.12,0:00:09.26,LineLeader,,0,0,0,,달렸습
+Dialogue: 1,0:00:09.26,0:00:09.40,LineLeader,,0,0,0,,달렸습니
+Dialogue: 1,0:00:09.40,0:00:10.07,LineLeader,,0,0,0,,달렸습니다
+Dialogue: 1,0:00:10.07,0:00:10.17,LineLeader,,0,0,0,,환
+Dialogue: 1,0:00:10.17,0:00:10.27,LineLeader,,0,0,0,,환율
+Dialogue: 1,0:00:10.27,0:00:10.38,LineLeader,,0,0,0,,환율은
+Dialogue: 1,0:00:10.38,0:00:10.48,LineLeader,,0,0,0,,환율은 
+Dialogue: 1,0:00:10.48,0:00:10.58,LineLeader,,0,0,0,,환율은 치
+Dialogue: 1,0:00:10.58,0:00:10.69,LineLeader,,0,0,0,,환율은 치솟
+Dialogue: 1,0:00:10.69,0:00:11.03,LineLeader,,0,0,0,,환율은 치솟고
+Dialogue: 1,0:00:11.03,0:00:11.11,LineLeader,,0,0,0,,원
+Dialogue: 1,0:00:11.11,0:00:11.20,LineLeader,,0,0,0,,원자
+Dialogue: 1,0:00:11.20,0:00:11.28,LineLeader,,0,0,0,,원자재
+Dialogue: 1,0:00:11.28,0:00:11.36,LineLeader,,0,0,0,,원자재까
+Dialogue: 1,0:00:11.36,0:00:11.44,LineLeader,,0,0,0,,원자재까지
+Dialogue: 1,0:00:11.44,0:00:11.52,LineLeader,,0,0,0,,원자재까지 
+Dialogue: 1,0:00:11.52,0:00:11.61,LineLeader,,0,0,0,,원자재까지 올
+Dialogue: 1,0:00:11.61,0:00:11.69,LineLeader,,0,0,0,,원자재까지 올랐
+Dialogue: 1,0:00:11.69,0:00:11.77,LineLeader,,0,0,0,,원자재까지 올랐지
+Dialogue: 1,0:00:11.77,0:00:11.85,LineLeader,,0,0,0,,원자재까지 올랐지만
+Dialogue: 1,0:00:11.85,0:00:12.23,LineLeader,,0,0,0,,원자재까지 올랐지만,
+Dialogue: 1,0:00:12.23,0:00:12.38,LineLeader,,0,0,0,,결
+Dialogue: 1,0:00:12.38,0:00:12.52,LineLeader,,0,0,0,,결국
+Dialogue: 1,0:00:12.52,0:00:12.66,LineLeader,,0,0,0,,결국.
+Dialogue: 1,0:00:12.66,0:00:13.07,LineLeader,,0,0,0,,결국..
+Dialogue: 1,0:00:13.07,0:00:13.15,LineLeader,,0,0,0,,우
+Dialogue: 1,0:00:13.15,0:00:13.23,LineLeader,,0,0,0,,우리
+Dialogue: 1,0:00:13.23,0:00:13.32,LineLeader,,0,0,0,,우리는
+Dialogue: 1,0:00:13.32,0:00:13.40,LineLeader,,0,0,0,,우리는 
+Dialogue: 1,0:00:13.40,0:00:13.48,LineLeader,,0,0,0,,우리는 해
+Dialogue: 1,0:00:13.48,0:00:13.57,LineLeader,,0,0,0,,우리는 해냈
+Dialogue: 1,0:00:13.57,0:00:13.65,LineLeader,,0,0,0,,우리는 해냈습
+Dialogue: 1,0:00:13.65,0:00:13.73,LineLeader,,0,0,0,,우리는 해냈습니
+Dialogue: 1,0:00:13.73,0:00:14.07,LineLeader,,0,0,0,,우리는 해냈습니다
+Dialogue: 0,0:00:14.07,0:00:14.80,LabelHero,,0,0,0,,풀가동하는 희망 회로
+Dialogue: 1,0:00:14.07,0:00:14.18,LineHero,,0,0,0,,설
+Dialogue: 1,0:00:14.18,0:00:14.29,LineHero,,0,0,0,,설마
+Dialogue: 1,0:00:14.29,0:00:14.40,LineHero,,0,0,0,,설마 
+Dialogue: 1,0:00:14.40,0:00:14.51,LineHero,,0,0,0,,설마 진
+Dialogue: 1,0:00:14.51,0:00:14.80,LineHero,,0,0,0,,설마 진짜
+Dialogue: 0,0:00:14.80,0:00:15.80,LabelHero,,0,0,0,,발리 워크숍설 유력
+Dialogue: 1,0:00:14.80,0:00:14.93,LineHero,,0,0,0,,설마 진짜 발
+Dialogue: 1,0:00:14.93,0:00:15.05,LineHero,,0,0,0,,설마 진짜 발리
+Dialogue: 1,0:00:15.05,0:00:15.18,LineHero,,0,0,0,,설마 진짜 발리 
+Dialogue: 1,0:00:15.18,0:00:15.30,LineHero,,0,0,0,,설마 진짜 발리 가
+Dialogue: 1,0:00:15.30,0:00:15.43,LineHero,,0,0,0,,설마 진짜 발리 가요
+Dialogue: 1,0:00:15.43,0:00:15.80,LineHero,,0,0,0,,설마 진짜 발리 가요?
+Dialogue: 1,0:00:15.80,0:00:15.92,LineLeader,,0,0,0,,연
+Dialogue: 1,0:00:15.92,0:00:16.03,LineLeader,,0,0,0,,연간
+Dialogue: 1,0:00:16.03,0:00:16.15,LineLeader,,0,0,0,,연간 
+Dialogue: 1,0:00:16.15,0:00:16.27,LineLeader,,0,0,0,,연간 매
+Dialogue: 1,0:00:16.27,0:00:16.38,LineLeader,,0,0,0,,연간 매출
+Dialogue: 1,0:00:16.38,0:00:16.50,LineLeader,,0,0,0,,연간 매출 
+Dialogue: 1,0:00:16.50,0:00:16.62,LineLeader,,0,0,0,,연간 매출 목
+Dialogue: 1,0:00:16.62,0:00:16.73,LineLeader,,0,0,0,,연간 매출 목표
+Dialogue: 1,0:00:16.73,0:00:17.20,LineLeader,,0,0,0,,연간 매출 목표를
+Dialogue: 1,0:00:17.20,0:00:17.25,LineLeader,,0,0,0,,훌
+Dialogue: 1,0:00:17.25,0:00:17.30,LineLeader,,0,0,0,,훌쩍
+Dialogue: 1,0:00:17.30,0:00:17.35,LineLeader,,0,0,0,,훌쩍 
+Dialogue: 1,0:00:17.35,0:00:17.40,LineLeader,,0,0,0,,훌쩍 넘
+Dialogue: 1,0:00:17.40,0:00:17.45,LineLeader,,0,0,0,,훌쩍 넘어
+Dialogue: 1,0:00:17.45,0:00:17.60,LineLeader,,0,0,0,,훌쩍 넘어!
+Dialogue: 0,0:00:17.60,0:00:18.10,LabelHero,,0,0,0,,따라 하기 장인 {PUN}
+Dialogue: 1,0:00:17.60,0:00:17.73,LineHero,,0,0,0,,훌
+Dialogue: 1,0:00:17.73,0:00:17.85,LineHero,,0,0,0,,훌쩍
+Dialogue: 1,0:00:17.85,0:00:18.10,LineHero,,0,0,0,,훌쩍?
+Dialogue: 1,0:00:18.10,0:00:18.24,LineLeader,,0,0,0,,무
+Dialogue: 1,0:00:18.24,0:00:18.53,LineLeader,,0,0,0,,무려
+Dialogue: 1,0:00:18.53,0:00:18.64,LineHero,,0,0,0,,무
+Dialogue: 1,0:00:18.64,0:00:18.75,LineHero,,0,0,0,,무려
+Dialogue: 1,0:00:18.75,0:00:18.97,LineHero,,0,0,0,,무려?
+Dialogue: 1,0:00:18.97,0:00:19.03,LineLeader,,0,0,0,,역
+Dialogue: 1,0:00:19.03,0:00:19.09,LineLeader,,0,0,0,,역.
+Dialogue: 1,0:00:19.09,0:00:19.15,LineLeader,,0,0,0,,역.대
+Dialogue: 1,0:00:19.15,0:00:19.21,LineLeader,,0,0,0,,역.대.
+Dialogue: 1,0:00:19.21,0:00:19.27,LineLeader,,0,0,0,,역.대.최
+Dialogue: 1,0:00:19.27,0:00:19.33,LineLeader,,0,0,0,,역.대.최.
+Dialogue: 1,0:00:19.33,0:00:19.53,LineLeader,,0,0,0,,역.대.최.고
+Dialogue: 1,0:00:19.53,0:00:19.61,LineHero,,0,0,0,,ㅎ
+Dialogue: 1,0:00:19.61,0:00:19.69,LineHero,,0,0,0,,ㅎ 
+Dialogue: 1,0:00:19.69,0:00:19.77,LineHero,,0,0,0,,ㅎ ㅓ
+Dialogue: 1,0:00:19.77,0:00:19.85,LineHero,,0,0,0,,ㅎ ㅓ 
+Dialogue: 1,0:00:19.85,0:00:20.07,LineHero,,0,0,0,,ㅎ ㅓ ㄹ
+Dialogue: 1,0:00:20.07,0:00:20.20,LineLeader,,0,0,0,,매
+Dialogue: 1,0:00:20.20,0:00:20.33,LineLeader,,0,0,0,,매출
+Dialogue: 1,0:00:20.33,0:00:20.60,LineLeader,,0,0,0,,매출을
+Dialogue: 1,0:00:20.60,0:00:20.68,LineLeader,,0,0,0,,찍
+Dialogue: 1,0:00:20.68,0:00:20.75,LineLeader,,0,0,0,,찍었
+Dialogue: 1,0:00:20.75,0:00:20.82,LineLeader,,0,0,0,,찍었습
+Dialogue: 1,0:00:20.82,0:00:20.90,LineLeader,,0,0,0,,찍었습니
+Dialogue: 1,0:00:20.90,0:00:20.98,LineLeader,,0,0,0,,찍었습니다
+Dialogue: 1,0:00:20.98,0:00:21.20,LineLeader,,0,0,0,,찍었습니다.
+Dialogue: 1,0:00:21.20,0:00:21.31,LineHero,,0,0,0,,와
+Dialogue: 1,0:00:21.31,0:00:21.43,LineHero,,0,0,0,,와 
+Dialogue: 1,0:00:21.43,0:00:21.54,LineHero,,0,0,0,,와 실
+Dialogue: 1,0:00:21.54,0:00:21.65,LineHero,,0,0,0,,와 실화
+Dialogue: 1,0:00:21.65,0:00:21.76,LineHero,,0,0,0,,와 실화냐
+Dialogue: 1,0:00:21.76,0:00:22.10,LineHero,,0,0,0,,와 실화냐!
+Dialogue: 1,0:00:22.10,0:00:22.19,LineLeader,,0,0,0,,다
+Dialogue: 1,0:00:22.19,0:00:22.27,LineLeader,,0,0,0,,다 
+Dialogue: 1,0:00:22.27,0:00:22.36,LineLeader,,0,0,0,,다 여
+Dialogue: 1,0:00:22.36,0:00:22.44,LineLeader,,0,0,0,,다 여러
+Dialogue: 1,0:00:22.44,0:00:22.67,LineLeader,,0,0,0,,다 여러분
+Dialogue: 1,0:00:22.67,0:00:22.77,LineLeader,,0,0,0,,다 여러분 덕
+Dialogue: 1,0:00:22.77,0:00:22.88,LineLeader,,0,0,0,,다 여러분 덕분
+Dialogue: 1,0:00:22.88,0:00:22.98,LineLeader,,0,0,0,,다 여러분 덕분입
+Dialogue: 1,0:00:22.98,0:00:23.08,LineLeader,,0,0,0,,다 여러분 덕분입니
+Dialogue: 1,0:00:23.08,0:00:23.19,LineLeader,,0,0,0,,다 여러분 덕분입니다
+Dialogue: 1,0:00:23.19,0:00:23.50,LineLeader,,0,0,0,,다 여러분 덕분입니다!
+Dialogue: 0,0:00:23.50,0:00:24.47,LabelHero,,0,0,0,,강당 온도 급상승
+Dialogue: 1,0:00:23.50,0:00:23.57,LineLeader,,0,0,0,,박
+Dialogue: 1,0:00:23.57,0:00:23.65,LineLeader,,0,0,0,,박수
+Dialogue: 1,0:00:23.65,0:00:23.72,LineLeader,,0,0,0,,박수 
+Dialogue: 1,0:00:23.72,0:00:23.79,LineLeader,,0,0,0,,박수 한
+Dialogue: 1,0:00:23.79,0:00:23.86,LineLeader,,0,0,0,,박수 한번
+Dialogue: 1,0:00:23.86,0:00:23.94,LineLeader,,0,0,0,,박수 한번 
+Dialogue: 1,0:00:23.94,0:00:24.01,LineLeader,,0,0,0,,박수 한번 주
+Dialogue: 1,0:00:24.01,0:00:24.08,LineLeader,,0,0,0,,박수 한번 주세
+Dialogue: 1,0:00:24.08,0:00:24.15,LineLeader,,0,0,0,,박수 한번 주세요
+Dialogue: 1,0:00:24.15,0:00:24.47,LineLeader,,0,0,0,,박수 한번 주세요!
+Dialogue: 1,0:00:24.47,0:00:24.61,LineHero,,0,0,0,,짝
+Dialogue: 1,0:00:24.61,0:00:24.75,LineHero,,0,0,0,,짝짝
+Dialogue: 1,0:00:24.75,0:00:24.90,LineHero,,0,0,0,,짝짝짝
+Dialogue: 1,0:00:24.90,0:00:25.04,LineHero,,0,0,0,,짝짝짝짝
+Dialogue: 1,0:00:25.04,0:00:25.73,LineHero,,0,0,0,,짝짝짝짝!
+Dialogue: 0,0:00:25.73,0:00:27.57,LabelName,,0,0,0,,계획형 동료 1 | 오지현
+Dialogue: 1,0:00:25.73,0:00:25.87,LineCW1,,0,0,0,,해
+Dialogue: 1,0:00:25.87,0:00:26.01,LineCW1,,0,0,0,,해외
+Dialogue: 1,0:00:26.01,0:00:26.15,LineCW1,,0,0,0,,해외 
+Dialogue: 1,0:00:26.15,0:00:26.29,LineCW1,,0,0,0,,해외 가
+Dialogue: 1,0:00:26.29,0:00:26.67,LineCW1,,0,0,0,,해외 가면
+Dialogue: 1,0:00:26.67,0:00:26.74,LineCW1,,0,0,0,,해외 가면 어
+Dialogue: 1,0:00:26.74,0:00:26.82,LineCW1,,0,0,0,,해외 가면 어디
+Dialogue: 1,0:00:26.82,0:00:26.89,LineCW1,,0,0,0,,해외 가면 어디 
+Dialogue: 1,0:00:26.89,0:00:26.97,LineCW1,,0,0,0,,해외 가면 어디 가
+Dialogue: 1,0:00:26.97,0:00:27.04,LineCW1,,0,0,0,,해외 가면 어디 가고
+Dialogue: 1,0:00:27.04,0:00:27.12,LineCW1,,0,0,0,,해외 가면 어디 가고 
+Dialogue: 1,0:00:27.12,0:00:27.19,LineCW1,,0,0,0,,해외 가면 어디 가고 싶
+Dialogue: 1,0:00:27.19,0:00:27.27,LineCW1,,0,0,0,,해외 가면 어디 가고 싶어
+Dialogue: 1,0:00:27.27,0:00:27.57,LineCW1,,0,0,0,,해외 가면 어디 가고 싶어?
+Dialogue: 1,0:00:27.57,0:00:27.61,LineHero,,0,0,0,,음
+Dialogue: 1,0:00:27.61,0:00:27.65,LineHero,,0,0,0,,음 
+Dialogue: 1,0:00:27.65,0:00:27.70,LineHero,,0,0,0,,음 저
+Dialogue: 1,0:00:27.70,0:00:27.74,LineHero,,0,0,0,,음 저는
+Dialogue: 1,0:00:27.74,0:00:27.79,LineHero,,0,0,0,,음 저는요
+Dialogue: 1,0:00:27.79,0:00:27.83,LineHero,,0,0,0,,음 저는요.
+Dialogue: 1,0:00:27.83,0:00:27.87,LineHero,,0,0,0,,음 저는요..
+Dialogue: 1,0:00:27.87,0:00:28.03,LineHero,,0,0,0,,음 저는요..!
+Dialogue: 0,0:00:28.03,0:00:29.80,LabelHero,,0,0,0,,스케일이 남다른 버킷리스트
+Dialogue: 1,0:00:28.03,0:00:28.18,LineHero,,0,0,0,,남
+Dialogue: 1,0:00:28.18,0:00:28.32,LineHero,,0,0,0,,남극
+Dialogue: 1,0:00:28.32,0:00:28.46,LineHero,,0,0,0,,남극에
+Dialogue: 1,0:00:28.46,0:00:29.13,LineHero,,0,0,0,,남극에서
+Dialogue: 1,0:00:29.13,0:00:29.18,LineHero,,0,0,0,,남극에서 펭
+Dialogue: 1,0:00:29.18,0:00:29.22,LineHero,,0,0,0,,남극에서 펭귄
+Dialogue: 1,0:00:29.22,0:00:29.27,LineHero,,0,0,0,,남극에서 펭귄이
+Dialogue: 1,0:00:29.27,0:00:29.31,LineHero,,0,0,0,,남극에서 펭귄이랑
+Dialogue: 1,0:00:29.31,0:00:29.36,LineHero,,0,0,0,,남극에서 펭귄이랑 
+Dialogue: 1,0:00:29.36,0:00:29.41,LineHero,,0,0,0,,남극에서 펭귄이랑 사
+Dialogue: 1,0:00:29.41,0:00:29.45,LineHero,,0,0,0,,남극에서 펭귄이랑 사진
+Dialogue: 1,0:00:29.45,0:00:29.50,LineHero,,0,0,0,,남극에서 펭귄이랑 사진 
+Dialogue: 1,0:00:29.50,0:00:29.54,LineHero,,0,0,0,,남극에서 펭귄이랑 사진 찍
+Dialogue: 1,0:00:29.54,0:00:29.59,LineHero,,0,0,0,,남극에서 펭귄이랑 사진 찍기
+Dialogue: 1,0:00:29.59,0:00:29.80,LineHero,,0,0,0,,남극에서 펭귄이랑 사진 찍기요
+Dialogue: 1,0:00:29.80,0:00:29.88,LineLeader,,0,0,0,,그
+Dialogue: 1,0:00:29.88,0:00:29.95,LineLeader,,0,0,0,,그런
+Dialogue: 1,0:00:29.95,0:00:30.03,LineLeader,,0,0,0,,그런 
+Dialogue: 1,0:00:30.03,0:00:30.10,LineLeader,,0,0,0,,그런 의
+Dialogue: 1,0:00:30.10,0:00:30.18,LineLeader,,0,0,0,,그런 의미
+Dialogue: 1,0:00:30.18,0:00:30.25,LineLeader,,0,0,0,,그런 의미에
+Dialogue: 1,0:00:30.25,0:00:30.50,LineLeader,,0,0,0,,그런 의미에서
+Dialogue: 1,0:00:30.50,0:00:30.64,LineHero,,0,0,0,,혹
+Dialogue: 1,0:00:30.64,0:00:30.79,LineHero,,0,0,0,,혹시
+Dialogue: 1,0:00:30.79,0:00:30.93,LineHero,,0,0,0,,혹시…
+Dialogue: 1,0:00:30.93,0:00:31.30,LineHero,,0,0,0,,혹시…?
+Dialogue: 0,0:00:31.30,0:00:33.30,LabelHero,,0,0,0,,벌써 여권 챙기는 {PUN}
+Dialogue: 1,0:00:31.30,0:00:31.40,LineLeader,,0,0,0,,내
+Dialogue: 1,0:00:31.40,0:00:31.51,LineLeader,,0,0,0,,내년
+Dialogue: 1,0:00:31.51,0:00:31.61,LineLeader,,0,0,0,,내년엔
+Dialogue: 1,0:00:31.61,0:00:31.71,LineLeader,,0,0,0,,내년엔 
+Dialogue: 1,0:00:31.71,0:00:31.82,LineLeader,,0,0,0,,내년엔 더
+Dialogue: 1,0:00:31.82,0:00:31.92,LineLeader,,0,0,0,,내년엔 더 
+Dialogue: 1,0:00:31.92,0:00:32.02,LineLeader,,0,0,0,,내년엔 더 멀
+Dialogue: 1,0:00:32.02,0:00:32.40,LineLeader,,0,0,0,,내년엔 더 멀리
+Dialogue: 1,0:00:32.40,0:00:32.47,LineLeader,,0,0,0,,날
+Dialogue: 1,0:00:32.47,0:00:32.53,LineLeader,,0,0,0,,날아
+Dialogue: 1,0:00:32.53,0:00:32.60,LineLeader,,0,0,0,,날아오
+Dialogue: 1,0:00:32.60,0:00:32.67,LineLeader,,0,0,0,,날아오르
+Dialogue: 1,0:00:32.67,0:00:32.74,LineLeader,,0,0,0,,날아오르자
+Dialogue: 1,0:00:32.74,0:00:32.80,LineLeader,,0,0,0,,날아오르자는
+Dialogue: 1,0:00:32.80,0:00:32.87,LineLeader,,0,0,0,,날아오르자는 
+Dialogue: 1,0:00:32.87,0:00:32.94,LineLeader,,0,0,0,,날아오르자는 뜻
+Dialogue: 1,0:00:32.94,0:00:33.01,LineLeader,,0,0,0,,날아오르자는 뜻에
+Dialogue: 1,0:00:33.01,0:00:33.30,LineLeader,,0,0,0,,날아오르자는 뜻에서
+Dialogue: 1,0:00:33.30,0:00:33.38,Emph,,0,0,0,,설
+Dialogue: 1,0:00:33.38,0:00:33.46,Emph,,0,0,0,,설마
+Dialogue: 1,0:00:33.46,0:00:33.54,Emph,,0,0,0,,설마아
+Dialogue: 1,0:00:33.54,0:00:33.62,Emph,,0,0,0,,설마아?
+Dialogue: 1,0:00:33.62,0:00:33.83,Emph,,0,0,0,,설마아?!
+Dialogue: 1,0:00:33.83,0:00:33.93,LineLeader,,0,0,0,,작
+Dialogue: 1,0:00:33.93,0:00:34.03,LineLeader,,0,0,0,,작은
+Dialogue: 1,0:00:34.03,0:00:34.13,LineLeader,,0,0,0,,작은 
+Dialogue: 1,0:00:34.13,0:00:34.23,LineLeader,,0,0,0,,작은 선
+Dialogue: 1,0:00:34.23,0:00:34.33,LineLeader,,0,0,0,,작은 선물
+Dialogue: 1,0:00:34.33,0:00:34.63,LineLeader,,0,0,0,,작은 선물을
+Dialogue: 1,0:00:34.63,0:00:34.72,LineLeader,,0,0,0,,작은 선물을 준
+Dialogue: 1,0:00:34.72,0:00:34.80,LineLeader,,0,0,0,,작은 선물을 준비
+Dialogue: 1,0:00:34.80,0:00:34.89,LineLeader,,0,0,0,,작은 선물을 준비했
+Dialogue: 1,0:00:34.89,0:00:34.98,LineLeader,,0,0,0,,작은 선물을 준비했습
+Dialogue: 1,0:00:34.98,0:00:35.06,LineLeader,,0,0,0,,작은 선물을 준비했습니
+Dialogue: 1,0:00:35.06,0:00:35.15,LineLeader,,0,0,0,,작은 선물을 준비했습니다
+Dialogue: 1,0:00:35.15,0:00:35.43,LineLeader,,0,0,0,,작은 선물을 준비했습니다.
+Dialogue: 0,0:00:35.43,0:00:36.60,LabelHero,,0,0,0,,들썩이는 직원들 (기대 편)
+Dialogue: 1,0:00:35.43,0:00:35.54,LineHero,,0,0,0,,비
+Dialogue: 1,0:00:35.54,0:00:35.65,LineHero,,0,0,0,,비,
+Dialogue: 1,0:00:35.65,0:00:35.76,LineHero,,0,0,0,,비, 
+Dialogue: 1,0:00:35.76,0:00:35.87,LineHero,,0,0,0,,비, 비
+Dialogue: 1,0:00:35.87,0:00:35.98,LineHero,,0,0,0,,비, 비행
+Dialogue: 1,0:00:35.98,0:00:36.09,LineHero,,0,0,0,,비, 비행기
+Dialogue: 1,0:00:36.09,0:00:36.20,LineHero,,0,0,0,,비, 비행기요
+Dialogue: 1,0:00:36.20,0:00:36.60,LineHero,,0,0,0,,비, 비행기요?
+Dialogue: 0,0:00:36.60,0:00:36.97,Paren,,0,0,0,,(머릿속은 이미 기내식)
+Dialogue: 1,0:00:36.97,0:00:37.08,LineLeader,,0,0,0,,오
+Dialogue: 1,0:00:37.08,0:00:37.18,LineLeader,,0,0,0,,오늘
+Dialogue: 1,0:00:37.18,0:00:37.29,LineLeader,,0,0,0,,오늘 
+Dialogue: 1,0:00:37.29,0:00:37.40,LineLeader,,0,0,0,,오늘 저
+Dialogue: 1,0:00:37.40,0:00:37.51,LineLeader,,0,0,0,,오늘 저녁
+Dialogue: 1,0:00:37.51,0:00:37.83,LineLeader,,0,0,0,,오늘 저녁!
+Dialogue: 0,0:00:37.83,0:00:38.77,LabelHero,,0,0,0,,캐리어 싸던 손 멈춤
+Dialogue: 1,0:00:37.83,0:00:37.92,LineLeader,,0,0,0,,법
+Dialogue: 1,0:00:37.92,0:00:38.01,LineLeader,,0,0,0,,법카
+Dialogue: 1,0:00:38.01,0:00:38.10,LineLeader,,0,0,0,,법카 
+Dialogue: 1,0:00:38.10,0:00:38.18,LineLeader,,0,0,0,,법카 긁
+Dialogue: 1,0:00:38.18,0:00:38.27,LineLeader,,0,0,0,,법카 긁습
+Dialogue: 1,0:00:38.27,0:00:38.36,LineLeader,,0,0,0,,법카 긁습니
+Dialogue: 1,0:00:38.36,0:00:38.45,LineLeader,,0,0,0,,법카 긁습니다
+Dialogue: 1,0:00:38.45,0:00:38.77,LineLeader,,0,0,0,,법카 긁습니다!
+Dialogue: 1,0:00:38.77,0:00:38.91,LineHero,,0,0,0,,네
+Dialogue: 1,0:00:38.91,0:00:39.53,LineHero,,0,0,0,,네?
+Dialogue: 0,0:00:39.53,0:00:41.23,LabelHero,,0,0,0,,가깝고도 먼 해외
+Dialogue: 1,0:00:39.53,0:00:39.60,LineLeader,,0,0,0,,지
+Dialogue: 1,0:00:39.60,0:00:39.67,LineLeader,,0,0,0,,지하
+Dialogue: 1,0:00:39.67,0:00:39.75,LineLeader,,0,0,0,,지하 
+Dialogue: 1,0:00:39.75,0:00:39.82,LineLeader,,0,0,0,,지하 1
+Dialogue: 1,0:00:39.82,0:00:39.89,LineLeader,,0,0,0,,지하 1층
+Dialogue: 1,0:00:39.89,0:00:39.96,LineLeader,,0,0,0,,지하 1층 
+Dialogue: 1,0:00:39.96,0:00:40.03,LineLeader,,0,0,0,,지하 1층 식
+Dialogue: 1,0:00:40.03,0:00:40.10,LineLeader,,0,0,0,,지하 1층 식당
+Dialogue: 1,0:00:40.10,0:00:40.17,LineLeader,,0,0,0,,지하 1층 식당에
+Dialogue: 1,0:00:40.17,0:00:40.24,LineLeader,,0,0,0,,지하 1층 식당에서
+Dialogue: 1,0:00:40.24,0:00:40.31,LineLeader,,0,0,0,,지하 1층 식당에서.
+Dialogue: 1,0:00:40.31,0:00:40.67,LineLeader,,0,0,0,,지하 1층 식당에서..
+Dialogue: 1,0:00:40.67,0:00:40.74,LineLeader,,0,0,0,,치
+Dialogue: 1,0:00:40.74,0:00:40.81,LineLeader,,0,0,0,,치킨
+Dialogue: 1,0:00:40.81,0:00:40.88,LineLeader,,0,0,0,,치킨 
+Dialogue: 1,0:00:40.88,0:00:40.95,LineLeader,,0,0,0,,치킨 파
+Dialogue: 1,0:00:40.95,0:00:41.02,LineLeader,,0,0,0,,치킨 파티
+Dialogue: 1,0:00:41.02,0:00:41.23,LineLeader,,0,0,0,,치킨 파티!
+Dialogue: 0,0:00:41.23,0:00:42.40,LabelHero,,0,0,0,,목적지 변경 안내
+Dialogue: 1,0:00:41.23,0:00:41.29,LineHero,,0,0,0,,인
+Dialogue: 1,0:00:41.29,0:00:41.35,LineHero,,0,0,0,,인천
+Dialogue: 1,0:00:41.35,0:00:41.42,LineHero,,0,0,0,,인천공
+Dialogue: 1,0:00:41.42,0:00:41.48,LineHero,,0,0,0,,인천공항
+Dialogue: 1,0:00:41.48,0:00:41.54,LineHero,,0,0,0,,인천공항 
+Dialogue: 1,0:00:41.54,0:00:41.60,LineHero,,0,0,0,,인천공항 말
+Dialogue: 1,0:00:41.60,0:00:41.80,LineHero,,0,0,0,,인천공항 말고
+Dialogue: 1,0:00:41.80,0:00:41.86,LineHero,,0,0,0,,인천공항 말고 지
+Dialogue: 1,0:00:41.86,0:00:41.91,LineHero,,0,0,0,,인천공항 말고 지하
+Dialogue: 1,0:00:41.91,0:00:41.97,LineHero,,0,0,0,,인천공항 말고 지하 
+Dialogue: 1,0:00:41.97,0:00:42.02,LineHero,,0,0,0,,인천공항 말고 지하 식
+Dialogue: 1,0:00:42.02,0:00:42.08,LineHero,,0,0,0,,인천공항 말고 지하 식당
+Dialogue: 1,0:00:42.08,0:00:42.14,LineHero,,0,0,0,,인천공항 말고 지하 식당이
+Dialogue: 1,0:00:42.14,0:00:42.19,LineHero,,0,0,0,,인천공항 말고 지하 식당이요
+Dialogue: 1,0:00:42.19,0:00:42.40,LineHero,,0,0,0,,인천공항 말고 지하 식당이요?
+Dialogue: 0,0:00:42.40,0:00:44.20,LabelHero,,0,0,0,,치킨 = 내년 연료
+Dialogue: 1,0:00:42.40,0:00:42.52,LineLeader,,0,0,0,,늦
+Dialogue: 1,0:00:42.52,0:00:42.63,LineLeader,,0,0,0,,늦게
+Dialogue: 1,0:00:42.63,0:00:42.75,LineLeader,,0,0,0,,늦게 
+Dialogue: 1,0:00:42.75,0:00:42.87,LineLeader,,0,0,0,,늦게 오
+Dialogue: 1,0:00:42.87,0:00:42.98,LineLeader,,0,0,0,,늦게 오시
+Dialogue: 1,0:00:42.98,0:00:43.33,LineLeader,,0,0,0,,늦게 오시면
+Dialogue: 1,0:00:43.33,0:00:43.43,LineLeader,,0,0,0,,늦게 오시면 뼈
+Dialogue: 1,0:00:43.43,0:00:43.52,LineLeader,,0,0,0,,늦게 오시면 뼈만
+Dialogue: 1,0:00:43.52,0:00:43.61,LineLeader,,0,0,0,,늦게 오시면 뼈만 
+Dialogue: 1,0:00:43.61,0:00:43.70,LineLeader,,0,0,0,,늦게 오시면 뼈만 남
+Dialogue: 1,0:00:43.70,0:00:43.80,LineLeader,,0,0,0,,늦게 오시면 뼈만 남습
+Dialogue: 1,0:00:43.80,0:00:43.89,LineLeader,,0,0,0,,늦게 오시면 뼈만 남습니
+Dialogue: 1,0:00:43.89,0:00:44.20,LineLeader,,0,0,0,,늦게 오시면 뼈만 남습니다
+Dialogue: 0,0:00:44.20,0:00:46.10,LabelHero,,0,0,0,,들썩이는 직원들 (현실 편)
+Dialogue: 0,0:00:44.20,0:00:44.90,LineHero,,0,0,0,,허
+Dialogue: 1,0:00:44.90,0:00:44.99,LineHero,,0,0,0,,해
+Dialogue: 1,0:00:44.99,0:00:45.08,LineHero,,0,0,0,,해외
+Dialogue: 1,0:00:45.08,0:00:45.17,LineHero,,0,0,0,,해외가
+Dialogue: 1,0:00:45.17,0:00:45.26,LineHero,,0,0,0,,해외가 
+Dialogue: 1,0:00:45.26,0:00:45.35,LineHero,,0,0,0,,해외가 치
+Dialogue: 1,0:00:45.35,0:00:45.44,LineHero,,0,0,0,,해외가 치킨
+Dialogue: 1,0:00:45.44,0:00:45.53,LineHero,,0,0,0,,해외가 치킨이
+Dialogue: 1,0:00:45.53,0:00:45.62,LineHero,,0,0,0,,해외가 치킨이 
+Dialogue: 1,0:00:45.62,0:00:45.71,LineHero,,0,0,0,,해외가 치킨이 됐
+Dialogue: 1,0:00:45.71,0:00:46.10,LineHero,,0,0,0,,해외가 치킨이 됐네
+Dialogue: 1,0:00:46.10,0:00:46.17,LineCW1,,0,0,0,,ㅋ
+Dialogue: 1,0:00:46.17,0:00:46.24,LineCW1,,0,0,0,,ㅋㅋ
+Dialogue: 1,0:00:46.24,0:00:46.30,LineCW1,,0,0,0,,ㅋㅋ 
+Dialogue: 1,0:00:46.30,0:00:46.37,LineCW1,,0,0,0,,ㅋㅋ 그
+Dialogue: 1,0:00:46.37,0:00:46.44,LineCW1,,0,0,0,,ㅋㅋ 그러
+Dialogue: 1,0:00:46.44,0:00:46.51,LineCW1,,0,0,0,,ㅋㅋ 그러니
+Dialogue: 1,0:00:46.51,0:00:46.73,LineCW1,,0,0,0,,ㅋㅋ 그러니까
+Dialogue: 0,0:00:46.73,0:00:48.80,LabelHero,,0,0,0,,설레발 끝에 삐진 {PUN}
+Dialogue: 1,0:00:46.73,0:00:46.82,LineHero,,0,0,0,,우
+Dialogue: 1,0:00:46.82,0:00:46.91,LineHero,,0,0,0,,우리
+Dialogue: 1,0:00:46.91,0:00:47.00,LineHero,,0,0,0,,우리가
+Dialogue: 1,0:00:47.00,0:00:47.08,LineHero,,0,0,0,,우리가 
+Dialogue: 1,0:00:47.08,0:00:47.17,LineHero,,0,0,0,,우리가 치
+Dialogue: 1,0:00:47.17,0:00:47.26,LineHero,,0,0,0,,우리가 치킨
+Dialogue: 1,0:00:47.26,0:00:47.35,LineHero,,0,0,0,,우리가 치킨 
+Dialogue: 1,0:00:47.35,0:00:47.43,LineHero,,0,0,0,,우리가 치킨 한
+Dialogue: 1,0:00:47.43,0:00:47.52,LineHero,,0,0,0,,우리가 치킨 한 
+Dialogue: 1,0:00:47.52,0:00:47.61,LineHero,,0,0,0,,우리가 치킨 한 마
+Dialogue: 1,0:00:47.61,0:00:47.70,LineHero,,0,0,0,,우리가 치킨 한 마리
+Dialogue: 1,0:00:47.70,0:00:48.13,LineHero,,0,0,0,,우리가 치킨 한 마리에
+Dialogue: 1,0:00:48.13,0:00:48.19,LineHero,,0,0,0,,우리가 치킨 한 마리에 넘
+Dialogue: 1,0:00:48.19,0:00:48.24,LineHero,,0,0,0,,우리가 치킨 한 마리에 넘어
+Dialogue: 1,0:00:48.24,0:00:48.30,LineHero,,0,0,0,,우리가 치킨 한 마리에 넘어갈
+Dialogue: 1,0:00:48.30,0:00:48.36,LineHero,,0,0,0,,우리가 치킨 한 마리에 넘어갈 
+Dialogue: 1,0:00:48.36,0:00:48.41,LineHero,,0,0,0,,우리가 치킨 한 마리에 넘어갈 줄
+Dialogue: 1,0:00:48.41,0:00:48.47,LineHero,,0,0,0,,우리가 치킨 한 마리에 넘어갈 줄 
+Dialogue: 1,0:00:48.47,0:00:48.52,LineHero,,0,0,0,,우리가 치킨 한 마리에 넘어갈 줄 알
+Dialogue: 1,0:00:48.52,0:00:48.58,LineHero,,0,0,0,,우리가 치킨 한 마리에 넘어갈 줄 알고
+Dialogue: 1,0:00:48.58,0:00:48.80,LineHero,,0,0,0,,우리가 치킨 한 마리에 넘어갈 줄 알고!
+Dialogue: 0,0:00:48.80,0:00:50.13,LabelHero,,0,0,0,,치킨 한 마리에 넘어간 1{PUN}
+Dialogue: 1,0:00:48.80,0:00:48.91,LineHero,,0,0,0,,지
+Dialogue: 1,0:00:48.91,0:00:49.01,LineHero,,0,0,0,,지현
+Dialogue: 1,0:00:49.01,0:00:49.12,LineHero,,0,0,0,,지현씨
+Dialogue: 1,0:00:49.12,0:00:49.37,LineHero,,0,0,0,,지현씨!
+Dialogue: 1,0:00:49.37,0:00:49.44,LineHero,,0,0,0,,지
+Dialogue: 1,0:00:49.44,0:00:49.51,LineHero,,0,0,0,,지현
+Dialogue: 1,0:00:49.51,0:00:49.58,LineHero,,0,0,0,,지현씨
+Dialogue: 1,0:00:49.58,0:00:49.65,LineHero,,0,0,0,,지현씨!
+Dialogue: 1,0:00:49.65,0:00:49.73,LineHero,,0,0,0,,지현씨!!
+Dialogue: 1,0:00:49.73,0:00:49.80,LineHero,,0,0,0,,지현씨!! 
+Dialogue: 1,0:00:49.80,0:00:49.87,LineHero,,0,0,0,,지현씨!! x
+Dialogue: 1,0:00:49.87,0:00:50.13,LineHero,,0,0,0,,지현씨!! x2
+Dialogue: 1,0:00:50.13,0:00:50.18,LineHero,,0,0,0,,저
+Dialogue: 1,0:00:50.18,0:00:50.23,LineHero,,0,0,0,,저기
+Dialogue: 1,0:00:50.23,0:00:50.27,LineHero,,0,0,0,,저기 
+Dialogue: 1,0:00:50.27,0:00:50.32,LineHero,,0,0,0,,저기 창
+Dialogue: 1,0:00:50.32,0:00:50.37,LineHero,,0,0,0,,저기 창가
+Dialogue: 1,0:00:50.37,0:00:50.41,LineHero,,0,0,0,,저기 창가 
+Dialogue: 1,0:00:50.41,0:00:50.46,LineHero,,0,0,0,,저기 창가 쪽
+Dialogue: 1,0:00:50.46,0:00:50.63,LineHero,,0,0,0,,저기 창가 쪽에
+Dialogue: 0,0:00:50.63,0:00:51.67,LabelHero,,0,0,0,,닭다리 두 개 확보한 {PUN}
+Dialogue: 1,0:00:50.63,0:00:50.71,LineHero,,0,0,0,,양
+Dialogue: 1,0:00:50.71,0:00:50.79,LineHero,,0,0,0,,양념
+Dialogue: 1,0:00:50.79,0:00:50.87,LineHero,,0,0,0,,양념 
+Dialogue: 1,0:00:50.87,0:00:50.94,LineHero,,0,0,0,,양념 반
+Dialogue: 1,0:00:50.94,0:00:51.02,LineHero,,0,0,0,,양념 반반
+Dialogue: 1,0:00:51.02,0:00:51.10,LineHero,,0,0,0,,양념 반반 
+Dialogue: 1,0:00:51.10,0:00:51.18,LineHero,,0,0,0,,양념 반반 있
+Dialogue: 1,0:00:51.18,0:00:51.25,LineHero,,0,0,0,,양념 반반 있대
+Dialogue: 1,0:00:51.25,0:00:51.33,LineHero,,0,0,0,,양념 반반 있대요
+Dialogue: 1,0:00:51.33,0:00:51.67,LineHero,,0,0,0,,양념 반반 있대요!
+Dialogue: 0,0:00:51.67,0:00:52.50,LabelHero,,0,0,0,,발걸음부터 신난 {PUN}
+Dialogue: 1,0:00:51.67,0:00:51.77,LineHero,,0,0,0,,얼
+Dialogue: 1,0:00:51.77,0:00:51.88,LineHero,,0,0,0,,얼른
+Dialogue: 1,0:00:51.88,0:00:51.98,LineHero,,0,0,0,,얼른 
+Dialogue: 1,0:00:51.98,0:00:52.08,LineHero,,0,0,0,,얼른 와
+Dialogue: 1,0:00:52.08,0:00:52.19,LineHero,,0,0,0,,얼른 와요
+Dialogue: 1,0:00:52.19,0:00:52.50,LineHero,,0,0,0,,얼른 와요!

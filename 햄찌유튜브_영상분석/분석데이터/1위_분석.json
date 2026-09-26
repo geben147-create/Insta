@@ -232,7 +232,11 @@
     "veo-3-1",
     "viduq3-pro"
    ],
-   "new": "팀장님~?"
+   "new": "팀장님~?",
+   "cute": [
+    "빼꼼 고개 내밀기",
+    "헤드폰·시그니처 소품"
+   ]
   },
   {
    "n": 2,
@@ -264,7 +268,10 @@
     "kling-v3",
     "still"
    ],
-   "new": "엇"
+   "new": "엇",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
   },
   {
    "n": 3,
@@ -297,7 +304,8 @@
     "still",
     "viduq3-pro"
    ],
-   "new": "(라벨) 9시 5분, 비어 있는 팀장님 자리 / 아직 안 오셨낭?"
+   "new": "(라벨) 9시 5분, 비어 있는 팀장님 자리 / 아직 안 오셨낭?",
+   "cute": []
   },
   {
    "n": 4,
@@ -329,7 +337,10 @@
     "kling-v3",
     "minimax-h3"
    ],
-   "new": "(라벨·대사 유지)"
+   "new": "(라벨·대사 유지)",
+   "cute": [
+    "빼꼼 고개 내밀기"
+   ]
   },
   {
    "n": 5,
@@ -364,7 +375,10 @@
     "seedance-2-0",
     "kling-v3"
    ],
-   "new": "[이름표] 희소식 배달부 1 | 박민지 / (초록) {이름}씨~!"
+   "new": "[이름표] 희소식 배달부 1 | 박민지 / (초록) {이름}씨~!",
+   "cute": [
+    "사람과 크기 대비"
+   ]
   },
   {
    "n": 6,
@@ -397,7 +411,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "[이름표 유지] / (초록) 팀장님 오늘부터"
+   "new": "[이름표 유지] / (초록) 팀장님 오늘부터",
+   "cute": []
   },
   {
    "n": 7,
@@ -430,7 +445,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "[이름표 유지] / +(초록) 해외 출장이래"
+   "new": "[이름표 유지] / +(초록) 해외 출장이래",
+   "cute": []
   },
   {
    "n": 8,
@@ -462,7 +478,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(초록) °*.2주 동안~°*."
+   "new": "(초록) °*.2주 동안~°*.",
+   "cute": []
   },
   {
    "n": 9,
@@ -495,7 +512,11 @@
     "hailuo-2-3",
     "kling-v3"
    ],
-   "new": "(강조) 꺄아아앙??"
+   "new": "(강조) 꺄아아앙??",
+   "cute": [
+    "앞발로 입 가리기",
+    "동그란 눈 클로즈업"
+   ]
   },
   {
    "n": 10,
@@ -528,7 +549,11 @@
     "still",
     "kling-v3"
    ],
-   "new": "(강조 유지)"
+   "new": "(강조 유지)",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "앞발로 입 가리기"
+   ]
   },
   {
    "n": 11,
@@ -561,7 +586,8 @@
     "seedance-2-0",
     "hailuo-2-3"
    ],
-   "new": "(라벨) 급 평온해지는 얼굴 / 지, 진짜요?"
+   "new": "(라벨) 급 평온해지는 얼굴 / 지, 진짜요?",
+   "cute": []
   },
   {
    "n": 12,
@@ -594,7 +620,10 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨) 메신저 급히 확인하는 {PUN} / 왜 나만 몰랐지"
+   "new": "(라벨) 메신저 급히 확인하는 {PUN} / 왜 나만 몰랐지",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 13,
@@ -626,7 +655,10 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 14,
@@ -659,7 +691,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(초록) 지난주 {이름}씨 반차 때"
+   "new": "(초록) 지난주 {이름}씨 반차 때",
+   "cute": []
   },
   {
    "n": 15,
@@ -691,7 +724,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "+(초록) 공지 나왔어~"
+   "new": "+(초록) 공지 나왔어~",
+   "cute": []
   },
   {
    "n": 16,
@@ -727,7 +761,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "[이름표] 소식통 2 | 최도윤 / (파랑) 다다음 주"
+   "new": "[이름표] 소식통 2 | 최도윤 / (파랑) 다다음 주",
+   "cute": []
   },
   {
    "n": 17,
@@ -759,7 +794,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "[이름표 유지] / +(파랑) 월요일에 오신대"
+   "new": "[이름표 유지] / +(파랑) 월요일에 오신대",
+   "cute": []
   },
   {
    "n": 18,
@@ -791,7 +827,11 @@
     "minimax-h3",
     "kling-v3-omni"
    ],
-   "new": "(라벨) 믿기지 않는 2주의 자유 / 2, 2주나?"
+   "new": "(라벨) 믿기지 않는 2주의 자유 / 2, 2주나?",
+   "cute": [
+    "고개 갸웃",
+    "윙크·반짝이"
+   ]
   },
   {
    "n": 19,
@@ -824,7 +864,8 @@
     "kling-v3",
     "still"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": []
   },
   {
    "n": 20,
@@ -857,7 +898,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(초록) (끄덕끄덕)"
+   "new": "(초록) (끄덕끄덕)",
+   "cute": []
   },
   {
    "n": 21,
@@ -889,7 +931,8 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨) 꼼꼼히 더블 체크 / 다다음 주??"
+   "new": "(라벨) 꼼꼼히 더블 체크 / 다다음 주??",
+   "cute": []
   },
   {
    "n": 22,
@@ -921,7 +964,8 @@
     "still",
     "kling-v3"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": []
   },
   {
    "n": 23,
@@ -954,7 +998,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(파랑) (끄덕끄덕2)"
+   "new": "(파랑) (끄덕끄덕2)",
+   "cute": []
   },
   {
    "n": 24,
@@ -987,7 +1032,10 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨) 엄청난 뉴스 / 아하..."
+   "new": "(라벨) 엄청난 뉴스 / 아하...",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 25,
@@ -1019,7 +1067,10 @@
     "kling-v3-omni",
     "hailuo-2-3"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 26,
@@ -1053,7 +1104,11 @@
     "seedance-2-0",
     "kling-v3"
    ],
-   "new": "(대사) 룰루~"
+   "new": "(대사) 룰루~",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "볼 빵빵·오물오물"
+   ]
   },
   {
    "n": 27,
@@ -1087,7 +1142,11 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨) 출장 전 베짱이 모드 ON / 이게 자유의 맛이구나~"
+   "new": "(라벨) 출장 전 베짱이 모드 ON / 이게 자유의 맛이구나~",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "볼 빵빵·오물오물"
+   ]
   },
   {
    "n": 28,
@@ -1120,7 +1179,12 @@
     "seedance-2-0",
     "kling-v3"
    ],
-   "new": "(라벨) 구내식당 말고 오마카세 / 입에서 살살 녹아요~"
+   "new": "(라벨) 구내식당 말고 오마카세 / 입에서 살살 녹아요~",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "볼 빵빵·오물오물",
+    "몸보다 큰 물건 안기"
+   ]
   },
   {
    "n": 29,
@@ -1154,7 +1218,11 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "볼 빵빵·오물오물"
+   ]
   },
   {
    "n": 30,
@@ -1186,7 +1254,11 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨) 눈치 안 보는 점심시간 / 아하항"
+   "new": "(라벨) 눈치 안 보는 점심시간 / 아하항",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "몸보다 큰 물건 안기"
+   ]
   },
   {
    "n": 31,
@@ -1223,7 +1295,11 @@
     "kling-v3-omni",
     "gemini-omni-1-1-flash"
    ],
-   "new": "(라벨 유지) / ++하하"
+   "new": "(라벨 유지) / ++하하",
+   "cute": [
+    "사람과 크기 대비",
+    "의상(꿀벌 옷 등)"
+   ]
   },
   {
    "n": 32,
@@ -1255,7 +1331,11 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨 유지) / ++하하항"
+   "new": "(라벨 유지) / ++하하항",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "볼 빵빵·오물오물"
+   ]
   },
   {
    "n": 33,
@@ -1287,7 +1367,10 @@
     "kling-v3-omni",
     "minimax-h3"
    ],
-   "new": "아잇"
+   "new": "아잇",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 34,
@@ -1319,7 +1402,10 @@
     "minimax-h3",
     "hailuo-2-3"
    ],
-   "new": "큰일이넹"
+   "new": "큰일이넹",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 35,
@@ -1351,7 +1437,10 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "결재 올릴 거"
+   "new": "결재 올릴 거",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 36,
@@ -1384,7 +1473,10 @@
     "hailuo-2-3",
     "kling-v3"
    ],
-   "new": "(라벨) 표정관리 실패한 {PUN} / 한가득인뎅~"
+   "new": "(라벨) 표정관리 실패한 {PUN} / 한가득인뎅~",
+   "cute": [
+    "윙크·반짝이"
+   ]
   },
   {
    "n": 37,
@@ -1416,7 +1508,11 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨 유지) / ++☆"
+   "new": "(라벨 유지) / ++☆",
+   "cute": [
+    "윙크·반짝이",
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 38,
@@ -1448,7 +1544,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(초록) 그치 그치"
+   "new": "(초록) 그치 그치",
+   "cute": []
   },
   {
    "n": 39,
@@ -1481,7 +1578,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": []
   },
   {
    "n": 40,
@@ -1514,7 +1612,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(라벨) 급습하는 진실 / (파랑) 출장 동안 본부장님이"
+   "new": "(라벨) 급습하는 진실 / (파랑) 출장 동안 본부장님이",
+   "cute": []
   },
   {
    "n": 41,
@@ -1546,7 +1645,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(라벨 유지) / +(파랑) 직접 보고 받으신대"
+   "new": "(라벨 유지) / +(파랑) 직접 보고 받으신대",
+   "cute": []
   },
   {
    "n": 42,
@@ -1580,7 +1680,10 @@
     "kling-v3",
     "still"
    ],
-   "new": "(강조) ?!?!?!"
+   "new": "(강조) ?!?!?!",
+   "cute": [
+    "질끈 감은 눈"
+   ]
   },
   {
    "n": 43,
@@ -1611,7 +1714,12 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨) 팀장님 대신 본부장님 직보 / 상상만 해도"
+   "new": "(라벨) 팀장님 대신 본부장님 직보 / 상상만 해도",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "사람과 크기 대비",
+    "몸보다 큰 물건 안기"
+   ]
   },
   {
    "n": 44,
@@ -1644,7 +1752,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": []
   },
   {
    "n": 45,
@@ -1678,7 +1787,12 @@
     "gemini-omni-1-1-flash",
     "kling-v3-omni"
    ],
-   "new": "(라벨) 기다리고 있는 험난한 2주 / 앞이 캄캄해지는 소식"
+   "new": "(라벨) 기다리고 있는 험난한 2주 / 앞이 캄캄해지는 소식",
+   "cute": [
+    "사람과 크기 대비",
+    "뒷모습·엉덩이",
+    "의상(꿀벌 옷 등)"
+   ]
   },
   {
    "n": 46,
@@ -1711,7 +1825,11 @@
     "still",
     "kling-v3"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "동그란 눈 클로즈업"
+   ]
   },
   {
    "n": 47,
@@ -1743,7 +1861,11 @@
    "m": [
     "edit"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "동그란 눈 클로즈업"
+   ]
   },
   {
    "n": 48,
@@ -1776,7 +1898,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(라벨) 점심 메뉴 고르는 동료 / (초록) 팀장님 안 계시니까"
+   "new": "(라벨) 점심 메뉴 고르는 동료 / (초록) 팀장님 안 계시니까",
+   "cute": []
   },
   {
    "n": 49,
@@ -1809,7 +1932,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(라벨 유지) / +(초록) 파스타 콜?"
+   "new": "(라벨 유지) / +(초록) 파스타 콜?",
+   "cute": []
   },
   {
    "n": 50,
@@ -1841,7 +1965,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(초록 강조) 흐엉"
+   "new": "(초록 강조) 흐엉",
+   "cute": []
   },
   {
    "n": 51,
@@ -1876,7 +2001,10 @@
     "seedance-2-0",
     "kling-v3"
    ],
-   "new": "(라벨) 벅찬 앞날에 감동받은 {PUN} / (초록) 울어?"
+   "new": "(라벨) 벅찬 앞날에 감동받은 {PUN} / (초록) 울어?",
+   "cute": [
+    "엎드려 울기"
+   ]
   }
  ],
  "sound": {
@@ -2204,6 +2332,84 @@
     47
    ],
    "how": "결재판·상사·크기 대비 와이드 3장 → 각 5초 1회, 47번은 편집 암전"
+  }
+ ],
+ "cute_moments": [
+  {
+   "moment": "파티션 위로 빼꼼",
+   "shots": [
+    1,
+    4
+   ],
+   "why": "몸이 작아 파티션 위로 귀·눈·앞발만 먼저 올라오는 등장. 숨바꼭질 같은 아기 행동이 첫 1초 훅이 되고, 빠른 두리번(모션블러)이 '몰래' 느낌을 더함",
+   "prompt": "{HERO} peeking over the top edge of a grey fabric office cubicle partition, only its round ears, big round glossy eyes and two tiny front paws gripping the edge visible",
+   "motion": "The {ANIMAL} slowly rises from behind the partition, tiny paws gripping the edge, then snaps its head left and right looking around; small head bob."
+  },
+  {
+   "moment": "앞발로 입 가리고 놀람 → 초근접",
+   "shots": [
+    9,
+    10
+   ],
+   "why": "사람 같은 리액션(입 가리기)을 짧은 앞발로 해서 겨우 입에 닿는 비율이 포인트. 곧바로 크래시 줌으로 동그란 눈을 화면 가득 채워 감정 정점",
+   "prompt": "Close-up of {HERO} pressing both tiny stubby front paws over its mouth, huge round glossy black eyes with bright catchlights, ears pinned back",
+   "motion": "The {ANIMAL} gasps and presses both paws to its mouth, trembling with excitement, eyes widening. Hold still at the end for the crash zoom."
+  },
+  {
+   "moment": "꿀벌 잠옷 상상 3연속(빨대·피자·버블티)",
+   "shots": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    32
+   ],
+   "why": "몸에 딱 맞는 진짜 천 재질 미니 의상(더듬이 방울·날개) 하나로 상상 장면 전체를 통일. 빨대 쪽쪽·피자 두 손 먹기로 볼이 빵빵해지는 먹방 귀여움",
+   "prompt": "{HERO} wearing a tiny real-fabric fuzzy {COSTUME} tailored exactly to its small round body, holding a pizza slice bigger than its head with both tiny paws, cheeks stuffed and puffed",
+   "motion": "The {ANIMAL} nibbles quickly with puffed cheeks, tiny paws gripping the food, costume antennae bobbing with each bite."
+  },
+  {
+   "moment": "짧은 팔로 팔짱·설명",
+   "shots": [
+    33,
+    34,
+    35
+   ],
+   "why": "짧은 팔로 팔짱을 끼려다 겨우 닿는 어색함 + 사람처럼 손짓. 같은 원본을 넓게→가깝게→넓게 잘라 3번 보여 줌(디지털 줌 체인)",
+   "prompt": "{HERO} trying to fold its short stubby arms across its round fluffy belly like an annoyed office worker, paws barely meeting",
+   "motion": "The {ANIMAL} crosses its tiny arms with effort, huffs, then raises one paw to explain something."
+  },
+  {
+   "moment": "뻔뻔한 윙크 + 반짝 별",
+   "shots": [
+    36,
+    37
+   ],
+   "why": "표정 연기(윙크)를 흰 4각 별 스티커가 증폭. 같은 원본을 2.3배 당겨 얼굴만 보여 준 뒤 다시 넓게",
+   "prompt": "Close-up of {HERO} giving a playful wink with a tiny smug smile, one short paw raised to its cheek, big round glossy eye",
+   "motion": "A slow playful wink and a smug little smile, then hold. (White 4-point sparkle stickers are added in the edit.)"
+  },
+  {
+   "moment": "결재판 끌어안은 작은 꿀벌 vs 큰 상사",
+   "shots": [
+    43,
+    45,
+    46,
+    47
+   ],
+   "why": "몸만 한 결재판을 두 팔로 꼭 안고 큰 책상 앞에 선 크기 대비 — 약자 연민. 겁먹은 눈 초근접 후 화면이 어두워지며 좌절",
+   "prompt": "High-angle shot of tiny {HERO} in a {COSTUME} standing on grey carpet hugging a brown approval folder almost as big as its body, in front of a huge dark desk",
+   "motion": "The {ANIMAL} clutches the folder tighter and gulps, costume antennae trembling slightly."
+  },
+  {
+   "moment": "책상에 엎드려 엉엉",
+   "shots": [
+    51
+   ],
+   "why": "작은 둥근 등이 들썩이며 책상에 푹 엎어지는 좌절 — 뚝 끊는 엔딩의 여운",
+   "prompt": "{HERO} lying face-down on an office desk, both tiny paws covering its face, round fluffy back hunched",
+   "motion": "The {ANIMAL} slumps forward and sobs, its small round back shaking."
   }
  ]
 }

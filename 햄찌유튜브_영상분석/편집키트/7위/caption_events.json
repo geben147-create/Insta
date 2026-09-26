@@ -1,0 +1,634 @@
+[
+ {
+  "style": "CardBig",
+  "text": "각성",
+  "start": 0.0,
+  "end": 0.1,
+  "type_from": 0,
+  "shot": 1
+ },
+ {
+  "style": "LineLeader",
+  "text": "{이름}씨!",
+  "start": 0.1,
+  "end": 0.633,
+  "type_from": 0,
+  "shot": 2
+ },
+ {
+  "style": "LineHero",
+  "text": "헉, 저요?",
+  "start": 0.633,
+  "end": 1.167,
+  "type_from": 0,
+  "shot": 3
+ },
+ {
+  "style": "LineLeader",
+  "text": "저번 워크숍 때 말한 거",
+  "start": 1.167,
+  "end": 1.867,
+  "type_from": 0,
+  "shot": 4
+ },
+ {
+  "style": "LineLeader",
+  "text": "기억나지?",
+  "start": 1.867,
+  "end": 2.567,
+  "type_from": 0,
+  "shot": 4
+ },
+ {
+  "style": "LabelHero",
+  "text": "기억 창고 검색 중",
+  "start": 2.567,
+  "end": 3.3,
+  "type_from": 0,
+  "shot": 5
+ },
+ {
+  "style": "LineHero",
+  "text": "워, 워크숍…",
+  "start": 2.567,
+  "end": 3.3,
+  "type_from": 0,
+  "shot": 5
+ },
+ {
+  "style": "LineHero",
+  "text": "어느 거요…?",
+  "start": 3.3,
+  "end": 4.4,
+  "type_from": 0,
+  "shot": 6
+ },
+ {
+  "style": "LineLeader",
+  "text": "설문지 백이십 장",
+  "start": 4.4,
+  "end": 5.5,
+  "type_from": 0,
+  "shot": 7
+ },
+ {
+  "style": "LineLeader",
+  "text": "그거 (흐릿)",
+  "start": 5.5,
+  "end": 5.983,
+  "type_from": 0,
+  "shot": 8
+ },
+ {
+  "style": "LineLeader",
+  "text": "엑셀로",
+  "start": 5.983,
+  "end": 6.467,
+  "type_from": 0,
+  "shot": 8
+ },
+ {
+  "style": "LineLeader",
+  "text": "싹 정리해서",
+  "start": 6.467,
+  "end": 7.333,
+  "type_from": 0,
+  "shot": 9
+ },
+ {
+  "style": "LineLeader",
+  "text": "달라고 했잖아?",
+  "start": 7.333,
+  "end": 8.5,
+  "type_from": 0,
+  "shot": 10
+ },
+ {
+  "style": "LineLeader",
+  "text": "그거 다",
+  "start": 8.5,
+  "end": 8.9,
+  "type_from": 0,
+  "shot": 12
+ },
+ {
+  "style": "LineLeader",
+  "text": "그거 다 해 놨지?",
+  "start": 8.9,
+  "end": 9.433,
+  "type_from": 5,
+  "shot": 13
+ },
+ {
+  "style": "LineHero",
+  "text": "아 그거…",
+  "start": 9.433,
+  "end": 10.033,
+  "type_from": 0,
+  "shot": 14
+ },
+ {
+  "style": "LineHero",
+  "text": "다, 당연하죠!",
+  "start": 10.033,
+  "end": 10.4,
+  "type_from": 0,
+  "shot": 15
+ },
+ {
+  "style": "LabelHero",
+  "text": "오늘 4시 회의에서",
+  "start": 10.4,
+  "end": 11.767,
+  "type_from": 0,
+  "shot": 16
+ },
+ {
+  "style": "LineLeader",
+  "text": "같이 보자고",
+  "start": 10.4,
+  "end": 11.2335,
+  "type_from": 0,
+  "shot": 16
+ },
+ {
+  "style": "LineLeader",
+  "text": "오케이?",
+  "start": 11.233,
+  "end": 11.5,
+  "type_from": 0,
+  "shot": 17
+ },
+ {
+  "style": "LineHero",
+  "text": "옙!",
+  "start": 11.5,
+  "end": 11.767,
+  "type_from": 0,
+  "shot": 18
+ },
+ {
+  "style": "LabelHero",
+  "text": "목소리만 우렁참",
+  "start": 11.767,
+  "end": 12.633,
+  "type_from": 0,
+  "shot": 19
+ },
+ {
+  "style": "LineHero",
+  "text": "준비해 가겠습니다!",
+  "start": 11.767,
+  "end": 12.633,
+  "type_from": 0,
+  "shot": 19
+ },
+ {
+  "style": "Paren",
+  "text": "(흐읍~ 크게 들이쉬고)",
+  "start": 12.633,
+  "end": 13.433,
+  "type_from": 0,
+  "shot": 21
+ },
+ {
+  "style": "Paren",
+  "text": "(후우~ 길게 내쉬고)",
+  "start": 13.433,
+  "end": 14.433,
+  "type_from": 0,
+  "shot": 22
+ },
+ {
+  "style": "LineHero",
+  "text": "흐음…",
+  "start": 14.433,
+  "end": 15.033,
+  "type_from": 0,
+  "shot": 23
+ },
+ {
+  "style": "LabelHero",
+  "text": "1도 기억 안 나는 {PUN}",
+  "start": 15.033,
+  "end": 16.2,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "LineHero",
+  "text": "ㅁㅏㅇ했ㄷㅏ",
+  "start": 15.033,
+  "end": 15.767,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "Paren",
+  "text": "(한 글자도 안 썼음)",
+  "start": 15.767,
+  "end": 16.2,
+  "type_from": 0,
+  "shot": 25
+ },
+ {
+  "style": "LabelHero",
+  "text": "됐다고 해 버림 됐다고 해 버림",
+  "start": 16.2,
+  "end": 16.967,
+  "type_from": 0,
+  "shot": 26
+ },
+ {
+  "style": "Bracket",
+  "text": "실패하면 끝나는 작전",
+  "start": 16.2,
+  "end": 16.967,
+  "type_from": 0,
+  "shot": 26
+ },
+ {
+  "style": "Paren",
+  "text": "(비상 두뇌 부팅)",
+  "start": 16.967,
+  "end": 17.6,
+  "type_from": 0,
+  "shot": 27
+ },
+ {
+  "style": "Paren",
+  "text": "(마감이 코앞까지 온 상태)",
+  "start": 17.6,
+  "end": 18.567,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "Paren",
+  "text": "(야생의 본능이 깨어나는 중입니다)",
+  "start": 18.567,
+  "end": 19.633,
+  "type_from": 0,
+  "shot": 29
+ },
+ {
+  "style": "Paren",
+  "text": "(차원을 뚫는 각성의 순간)",
+  "start": 19.633,
+  "end": 20.267,
+  "type_from": 0,
+  "shot": 30
+ },
+ {
+  "style": "LineCW1",
+  "text": "{이름}씨이~☆",
+  "start": 20.267,
+  "end": 20.767,
+  "type_from": 0,
+  "shot": 32
+ },
+ {
+  "style": "LineCW1",
+  "text": "나 이거 샀다~!",
+  "start": 20.767,
+  "end": 21.6,
+  "type_from": 0,
+  "shot": 33
+ },
+ {
+  "style": "LineCW1",
+  "text": "°.✧ 이거 완전",
+  "start": 21.6,
+  "end": 22.2,
+  "type_from": 0,
+  "shot": 35
+ },
+ {
+  "style": "LineCW1",
+  "text": "°.✧ 이거 완전 말랑하지이이 °.✧",
+  "start": 22.2,
+  "end": 22.867,
+  "type_from": 10,
+  "shot": 36
+ },
+ {
+  "style": "LineHero",
+  "text": "아하하…",
+  "start": 22.867,
+  "end": 23.367,
+  "type_from": 0,
+  "shot": 37
+ },
+ {
+  "style": "Paren",
+  "text": "(속 타는 영업용 미소)",
+  "start": 23.367,
+  "end": 23.867,
+  "type_from": 0,
+  "shot": 38
+ },
+ {
+  "style": "LineHero",
+  "text": "말. 랑. 하. 네. 요",
+  "start": 23.867,
+  "end": 24.833,
+  "type_from": 0,
+  "shot": 39
+ },
+ {
+  "style": "LabelHero",
+  "text": "1초가 아까우니 자랑은 짧게",
+  "start": 24.833,
+  "end": 25.367,
+  "type_from": 0,
+  "shot": 40
+ },
+ {
+  "style": "Paren",
+  "text": "(제발 지금 가 주세요)",
+  "start": 24.833,
+  "end": 25.367,
+  "type_from": 0,
+  "shot": 40
+ },
+ {
+  "style": "Paren",
+  "text": "(다시 목숨 걸고 초집중)",
+  "start": 25.367,
+  "end": 26.4,
+  "type_from": 0,
+  "shot": 41
+ },
+ {
+  "style": "Paren",
+  "text": "(나도 모르게 슈퍼{PUN} 강림☆)",
+  "start": 26.4,
+  "end": 27.533,
+  "type_from": 0,
+  "shot": 43
+ },
+ {
+  "style": "Paren",
+  "text": "(평소엔 봉인해 둔 업무 속도)",
+  "start": 27.533,
+  "end": 28.767,
+  "type_from": 0,
+  "shot": 44
+ },
+ {
+  "style": "Paren",
+  "text": "(시간을 추월하는 {PUN})",
+  "start": 28.767,
+  "end": 29.733,
+  "type_from": 0,
+  "shot": 45
+ },
+ {
+  "style": "Paren",
+  "text": "(1초를 10초처럼 쪼개 쓰는 중)",
+  "start": 29.733,
+  "end": 30.6,
+  "type_from": 0,
+  "shot": 47
+ },
+ {
+  "style": "Paren",
+  "text": "(펑크 난 일정 메우는 {PUN})",
+  "start": 30.6,
+  "end": 31.533,
+  "type_from": 0,
+  "shot": 48
+ },
+ {
+  "style": "LineHero",
+  "text": "으☆쌰☆쌰",
+  "start": 31.533,
+  "end": 32.6,
+  "type_from": 0,
+  "shot": 49
+ },
+ {
+  "style": "Emph",
+  "text": "철컥",
+  "start": 32.6,
+  "end": 32.9,
+  "type_from": 0,
+  "shot": 50
+ },
+ {
+  "style": "Paren",
+  "text": "(실제 속도와 다를 수 있음)",
+  "start": 32.9,
+  "end": 33.9,
+  "type_from": 0,
+  "shot": 51
+ },
+ {
+  "style": "Emph",
+  "text": "탁",
+  "start": 33.9,
+  "end": 34.433,
+  "type_from": 0,
+  "shot": 52
+ },
+ {
+  "style": "LabelHero",
+  "text": "3시 59분 겨우 세이프",
+  "start": 35.667,
+  "end": 36.9,
+  "type_from": 0,
+  "shot": 56
+ },
+ {
+  "style": "LineHero",
+  "text": "ㅅㅓㄹ문",
+  "start": 35.667,
+  "end": 36.333,
+  "type_from": 0,
+  "shot": 56
+ },
+ {
+  "style": "LineHero",
+  "text": "허억..헉",
+  "start": 36.333,
+  "end": 36.9,
+  "type_from": 0,
+  "shot": 57
+ },
+ {
+  "style": "LineHero",
+  "text": "설문 결.과.입;니.다",
+  "start": 36.9,
+  "end": 37.667,
+  "type_from": 0,
+  "shot": 58
+ },
+ {
+  "style": "LineHero",
+  "text": "휴우…",
+  "start": 37.667,
+  "end": 38.333,
+  "type_from": 0,
+  "shot": 59
+ },
+ {
+  "style": "LineCW1",
+  "text": "어라?",
+  "start": 38.333,
+  "end": 38.8,
+  "type_from": 0,
+  "shot": 60
+ },
+ {
+  "style": "LineCW1",
+  "text": "그 설문 결과",
+  "start": 38.8,
+  "end": 39.467,
+  "type_from": 0,
+  "shot": 61
+ },
+ {
+  "style": "LabelHero",
+  "text": "마른하늘에 날벼락",
+  "start": 39.467,
+  "end": 40.8,
+  "type_from": 0,
+  "shot": 61
+ },
+ {
+  "style": "LineCW1",
+  "text": "어제",
+  "start": 39.467,
+  "end": 40.133,
+  "type_from": 0,
+  "shot": 61
+ },
+ {
+  "style": "LineCW1",
+  "text": "어제 제가 드렸는데요?",
+  "start": 40.133,
+  "end": 40.8,
+  "type_from": 3,
+  "shot": 61
+ },
+ {
+  "style": "LabelHero",
+  "text": "이미 끝난 숙제였음",
+  "start": 40.8,
+  "end": 41.667,
+  "type_from": 0,
+  "shot": 62
+ },
+ {
+  "style": "LineHero",
+  "text": "허, 헐…",
+  "start": 40.8,
+  "end": 41.667,
+  "type_from": 0,
+  "shot": 62
+ },
+ {
+  "style": "LabelHero",
+  "text": "기억이 돌아온 팀장",
+  "start": 41.667,
+  "end": 42.4,
+  "type_from": 0,
+  "shot": 64
+ },
+ {
+  "style": "LineLeader",
+  "text": "아! 맞다",
+  "start": 41.667,
+  "end": 42.4,
+  "type_from": 0,
+  "shot": 64
+ },
+ {
+  "style": "LineLeader",
+  "text": "아! 맞다 소연씨가 어제 줬지?",
+  "start": 42.4,
+  "end": 43.6,
+  "type_from": 6,
+  "shot": 65
+ },
+ {
+  "style": "LineLeader",
+  "text": "…어?",
+  "start": 43.6,
+  "end": 44.6,
+  "type_from": 0,
+  "shot": 66
+ },
+ {
+  "style": "LineLeader",
+  "text": "잠깐, 이 보고서는 뭐지?",
+  "start": 44.6,
+  "end": 45.267,
+  "type_from": 0,
+  "shot": 67
+ },
+ {
+  "style": "LabelHero",
+  "text": "한 번만 물어볼걸",
+  "start": 45.267,
+  "end": 46.433,
+  "type_from": 0,
+  "shot": 68
+ },
+ {
+  "style": "LineHero",
+  "text": "으으…",
+  "start": 45.267,
+  "end": 46.433,
+  "type_from": 0,
+  "shot": 68
+ },
+ {
+  "style": "LabelHero",
+  "text": "초집중으로 반나절 증발",
+  "start": 46.433,
+  "end": 47.4,
+  "type_from": 0,
+  "shot": 70
+ },
+ {
+  "style": "Paren",
+  "text": "(민망함 한도 초과)",
+  "start": 46.433,
+  "end": 47.4,
+  "type_from": 0,
+  "shot": 70
+ },
+ {
+  "style": "Paren",
+  "text": "(눈치 보는 중)",
+  "start": 47.4,
+  "end": 47.85,
+  "type_from": 0,
+  "shot": 71
+ },
+ {
+  "style": "LineHero",
+  "text": "…",
+  "start": 47.85,
+  "end": 48.3,
+  "type_from": 0,
+  "shot": 71
+ },
+ {
+  "style": "LabelHero",
+  "text": "뜻밖의 1+1 보고서",
+  "start": 48.3,
+  "end": 49.733,
+  "type_from": 0,
+  "shot": 72
+ },
+ {
+  "style": "LineHero",
+  "text": "°✩.보너스예요.✩°",
+  "start": 48.3,
+  "end": 49.733,
+  "type_from": 0,
+  "shot": 72
+ }
+]

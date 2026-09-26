@@ -1,0 +1,706 @@
+[
+ {
+  "style": "CardBig",
+  "text": "해외 간다며?",
+  "start": 0.0,
+  "end": 0.1,
+  "type_from": 0,
+  "shot": 1
+ },
+ {
+  "style": "LabelName",
+  "text": "소문 빠른 동료 1 | 오지현",
+  "start": 0.1,
+  "end": 2.5,
+  "type_from": 0,
+  "shot": 2
+ },
+ {
+  "style": "LineCW1",
+  "text": "저기",
+  "start": 0.1,
+  "end": 0.9,
+  "type_from": 0,
+  "shot": 2
+ },
+ {
+  "style": "LineCW1",
+  "text": "저기 올해 해외 워크숍 간대",
+  "start": 0.9,
+  "end": 2.5,
+  "type_from": 3,
+  "shot": 3
+ },
+ {
+  "style": "LineHero",
+  "text": "ㅇ ㅓ?",
+  "start": 2.5,
+  "end": 2.933,
+  "type_from": 0,
+  "shot": 5
+ },
+ {
+  "style": "LabelHero",
+  "text": "귀가 쫑긋 선 {PUN}",
+  "start": 2.933,
+  "end": 3.533,
+  "type_from": 0,
+  "shot": 6
+ },
+ {
+  "style": "LineHero",
+  "text": "해, 해외요?!",
+  "start": 2.933,
+  "end": 3.533,
+  "type_from": 0,
+  "shot": 6
+ },
+ {
+  "style": "LabelName",
+  "text": "현실파 동료 2 | 강태준",
+  "start": 3.533,
+  "end": 4.733,
+  "type_from": 0,
+  "shot": 7
+ },
+ {
+  "style": "LineCW2",
+  "text": "에이",
+  "start": 3.533,
+  "end": 3.933,
+  "type_from": 0,
+  "shot": 7
+ },
+ {
+  "style": "LineCW2",
+  "text": "에이 작년에도 그 소리 했어",
+  "start": 3.933,
+  "end": 4.733,
+  "type_from": 3,
+  "shot": 8
+ },
+ {
+  "style": "LabelName",
+  "text": "연말에만 뵙는 대표님 | 윤재석",
+  "start": 4.733,
+  "end": 6.667,
+  "type_from": 0,
+  "shot": 9
+ },
+ {
+  "style": "LineLeader",
+  "text": "반갑습니다",
+  "start": 4.733,
+  "end": 5.5,
+  "type_from": 0,
+  "shot": 9
+ },
+ {
+  "style": "LineLeader",
+  "text": "올 한 해",
+  "start": 5.5,
+  "end": 6.667,
+  "type_from": 0,
+  "shot": 10
+ },
+ {
+  "style": "LabelHero",
+  "text": "받아쓰기 모드 {PUN}",
+  "start": 6.667,
+  "end": 7.467,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LineLeader",
+  "text": "우리 회사는",
+  "start": 6.667,
+  "end": 7.467,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LineLeader",
+  "text": "쉴 틈 없이",
+  "start": 7.467,
+  "end": 8.067,
+  "type_from": 0,
+  "shot": 12
+ },
+ {
+  "style": "LineLeader",
+  "text": "달리고 또",
+  "start": 8.067,
+  "end": 8.833,
+  "type_from": 0,
+  "shot": 13
+ },
+ {
+  "style": "LineLeader",
+  "text": "달렸습니다",
+  "start": 8.833,
+  "end": 10.067,
+  "type_from": 0,
+  "shot": 14
+ },
+ {
+  "style": "LineLeader",
+  "text": "환율은 치솟고",
+  "start": 10.067,
+  "end": 11.033,
+  "type_from": 0,
+  "shot": 15
+ },
+ {
+  "style": "LineLeader",
+  "text": "원자재까지 올랐지만,",
+  "start": 11.033,
+  "end": 12.233,
+  "type_from": 0,
+  "shot": 16
+ },
+ {
+  "style": "LineLeader",
+  "text": "결국..",
+  "start": 12.233,
+  "end": 13.067,
+  "type_from": 0,
+  "shot": 17
+ },
+ {
+  "style": "LineLeader",
+  "text": "우리는 해냈습니다",
+  "start": 13.067,
+  "end": 14.067,
+  "type_from": 0,
+  "shot": 18
+ },
+ {
+  "style": "LabelHero",
+  "text": "풀가동하는 희망 회로",
+  "start": 14.067,
+  "end": 14.8,
+  "type_from": 0,
+  "shot": 19
+ },
+ {
+  "style": "LineHero",
+  "text": "설마 진짜",
+  "start": 14.067,
+  "end": 14.8,
+  "type_from": 0,
+  "shot": 19
+ },
+ {
+  "style": "LabelHero",
+  "text": "발리 워크숍설 유력",
+  "start": 14.8,
+  "end": 15.8,
+  "type_from": 0,
+  "shot": 20
+ },
+ {
+  "style": "LineHero",
+  "text": "설마 진짜 발리 가요?",
+  "start": 14.8,
+  "end": 15.8,
+  "type_from": 6,
+  "shot": 20
+ },
+ {
+  "style": "LineLeader",
+  "text": "연간 매출 목표를",
+  "start": 15.8,
+  "end": 17.2,
+  "type_from": 0,
+  "shot": 22
+ },
+ {
+  "style": "LineLeader",
+  "text": "훌쩍 넘어!",
+  "start": 17.2,
+  "end": 17.6,
+  "type_from": 0,
+  "shot": 23
+ },
+ {
+  "style": "LabelHero",
+  "text": "따라 하기 장인 {PUN}",
+  "start": 17.6,
+  "end": 18.1,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "LineHero",
+  "text": "훌쩍?",
+  "start": 17.6,
+  "end": 18.1,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "LineLeader",
+  "text": "무려",
+  "start": 18.1,
+  "end": 18.533,
+  "type_from": 0,
+  "shot": 25
+ },
+ {
+  "style": "LineHero",
+  "text": "무려?",
+  "start": 18.533,
+  "end": 18.967,
+  "type_from": 0,
+  "shot": 26
+ },
+ {
+  "style": "LineLeader",
+  "text": "역.대.최.고",
+  "start": 18.967,
+  "end": 19.533,
+  "type_from": 0,
+  "shot": 27
+ },
+ {
+  "style": "LineHero",
+  "text": "ㅎ ㅓ ㄹ",
+  "start": 19.533,
+  "end": 20.067,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "LineLeader",
+  "text": "매출을",
+  "start": 20.067,
+  "end": 20.6,
+  "type_from": 0,
+  "shot": 29
+ },
+ {
+  "style": "LineLeader",
+  "text": "찍었습니다.",
+  "start": 20.6,
+  "end": 21.2,
+  "type_from": 0,
+  "shot": 30
+ },
+ {
+  "style": "LineHero",
+  "text": "와 실화냐!",
+  "start": 21.2,
+  "end": 22.1,
+  "type_from": 0,
+  "shot": 31
+ },
+ {
+  "style": "LineLeader",
+  "text": "다 여러분",
+  "start": 22.1,
+  "end": 22.667,
+  "type_from": 0,
+  "shot": 33
+ },
+ {
+  "style": "LineLeader",
+  "text": "다 여러분 덕분입니다!",
+  "start": 22.667,
+  "end": 23.5,
+  "type_from": 6,
+  "shot": 34
+ },
+ {
+  "style": "LabelHero",
+  "text": "강당 온도 급상승",
+  "start": 23.5,
+  "end": 24.467,
+  "type_from": 0,
+  "shot": 35
+ },
+ {
+  "style": "LineLeader",
+  "text": "박수 한번 주세요!",
+  "start": 23.5,
+  "end": 24.467,
+  "type_from": 0,
+  "shot": 35
+ },
+ {
+  "style": "LineHero",
+  "text": "짝짝짝짝!",
+  "start": 24.467,
+  "end": 25.733,
+  "type_from": 0,
+  "shot": 36
+ },
+ {
+  "style": "LabelName",
+  "text": "계획형 동료 1 | 오지현",
+  "start": 25.733,
+  "end": 27.567,
+  "type_from": 0,
+  "shot": 37
+ },
+ {
+  "style": "LineCW1",
+  "text": "해외 가면",
+  "start": 25.733,
+  "end": 26.667,
+  "type_from": 0,
+  "shot": 37
+ },
+ {
+  "style": "LineCW1",
+  "text": "해외 가면 어디 가고 싶어?",
+  "start": 26.667,
+  "end": 27.567,
+  "type_from": 6,
+  "shot": 38
+ },
+ {
+  "style": "LineHero",
+  "text": "음 저는요..!",
+  "start": 27.567,
+  "end": 28.033,
+  "type_from": 0,
+  "shot": 39
+ },
+ {
+  "style": "LabelHero",
+  "text": "스케일이 남다른 버킷리스트",
+  "start": 28.033,
+  "end": 29.8,
+  "type_from": 0,
+  "shot": 40
+ },
+ {
+  "style": "LineHero",
+  "text": "남극에서",
+  "start": 28.033,
+  "end": 29.133,
+  "type_from": 0,
+  "shot": 40
+ },
+ {
+  "style": "LineHero",
+  "text": "남극에서 펭귄이랑 사진 찍기요",
+  "start": 29.133,
+  "end": 29.8,
+  "type_from": 5,
+  "shot": 41
+ },
+ {
+  "style": "LineLeader",
+  "text": "그런 의미에서",
+  "start": 29.8,
+  "end": 30.5,
+  "type_from": 0,
+  "shot": 42
+ },
+ {
+  "style": "LineHero",
+  "text": "혹시…?",
+  "start": 30.5,
+  "end": 31.3,
+  "type_from": 0,
+  "shot": 43
+ },
+ {
+  "style": "LabelHero",
+  "text": "벌써 여권 챙기는 {PUN}",
+  "start": 31.3,
+  "end": 33.3,
+  "type_from": 0,
+  "shot": 45
+ },
+ {
+  "style": "LineLeader",
+  "text": "내년엔 더 멀리",
+  "start": 31.3,
+  "end": 32.4,
+  "type_from": 0,
+  "shot": 45
+ },
+ {
+  "style": "LineLeader",
+  "text": "날아오르자는 뜻에서",
+  "start": 32.4,
+  "end": 33.3,
+  "type_from": 0,
+  "shot": 46
+ },
+ {
+  "style": "Emph",
+  "text": "설마아?!",
+  "start": 33.3,
+  "end": 33.833,
+  "type_from": 0,
+  "shot": 47
+ },
+ {
+  "style": "LineLeader",
+  "text": "작은 선물을",
+  "start": 33.833,
+  "end": 34.633,
+  "type_from": 0,
+  "shot": 48
+ },
+ {
+  "style": "LineLeader",
+  "text": "작은 선물을 준비했습니다.",
+  "start": 34.633,
+  "end": 35.433,
+  "type_from": 7,
+  "shot": 49
+ },
+ {
+  "style": "LabelHero",
+  "text": "들썩이는 직원들 (기대 편)",
+  "start": 35.433,
+  "end": 36.6,
+  "type_from": 0,
+  "shot": 50
+ },
+ {
+  "style": "LineHero",
+  "text": "비, 비행기요?",
+  "start": 35.433,
+  "end": 36.6,
+  "type_from": 0,
+  "shot": 50
+ },
+ {
+  "style": "Paren",
+  "text": "(머릿속은 이미 기내식)",
+  "start": 36.6,
+  "end": 36.967,
+  "type_from": 0,
+  "shot": 52
+ },
+ {
+  "style": "LineLeader",
+  "text": "오늘 저녁!",
+  "start": 36.967,
+  "end": 37.833,
+  "type_from": 0,
+  "shot": 53
+ },
+ {
+  "style": "LabelHero",
+  "text": "캐리어 싸던 손 멈춤",
+  "start": 37.833,
+  "end": 38.767,
+  "type_from": 0,
+  "shot": 54
+ },
+ {
+  "style": "LineLeader",
+  "text": "법카 긁습니다!",
+  "start": 37.833,
+  "end": 38.767,
+  "type_from": 0,
+  "shot": 54
+ },
+ {
+  "style": "LineHero",
+  "text": "네?",
+  "start": 38.767,
+  "end": 39.533,
+  "type_from": 0,
+  "shot": 55
+ },
+ {
+  "style": "LabelHero",
+  "text": "가깝고도 먼 해외",
+  "start": 39.533,
+  "end": 41.233,
+  "type_from": 0,
+  "shot": 57
+ },
+ {
+  "style": "LineLeader",
+  "text": "지하 1층 식당에서..",
+  "start": 39.533,
+  "end": 40.667,
+  "type_from": 0,
+  "shot": 57
+ },
+ {
+  "style": "LineLeader",
+  "text": "치킨 파티!",
+  "start": 40.667,
+  "end": 41.233,
+  "type_from": 0,
+  "shot": 58
+ },
+ {
+  "style": "LabelHero",
+  "text": "목적지 변경 안내",
+  "start": 41.233,
+  "end": 42.4,
+  "type_from": 0,
+  "shot": 59
+ },
+ {
+  "style": "LineHero",
+  "text": "인천공항 말고",
+  "start": 41.233,
+  "end": 41.8,
+  "type_from": 0,
+  "shot": 59
+ },
+ {
+  "style": "LineHero",
+  "text": "인천공항 말고 지하 식당이요?",
+  "start": 41.8,
+  "end": 42.4,
+  "type_from": 8,
+  "shot": 60
+ },
+ {
+  "style": "LabelHero",
+  "text": "치킨 = 내년 연료",
+  "start": 42.4,
+  "end": 44.2,
+  "type_from": 0,
+  "shot": 61
+ },
+ {
+  "style": "LineLeader",
+  "text": "늦게 오시면",
+  "start": 42.4,
+  "end": 43.333,
+  "type_from": 0,
+  "shot": 61
+ },
+ {
+  "style": "LineLeader",
+  "text": "늦게 오시면 뼈만 남습니다",
+  "start": 43.333,
+  "end": 44.2,
+  "type_from": 7,
+  "shot": 62
+ },
+ {
+  "style": "LabelHero",
+  "text": "들썩이는 직원들 (현실 편)",
+  "start": 44.2,
+  "end": 46.1,
+  "type_from": 0,
+  "shot": 63
+ },
+ {
+  "style": "LineHero",
+  "text": "허",
+  "start": 44.2,
+  "end": 44.9,
+  "type_from": 0,
+  "shot": 63
+ },
+ {
+  "style": "LineHero",
+  "text": "해외가 치킨이 됐네",
+  "start": 44.9,
+  "end": 46.1,
+  "type_from": 0,
+  "shot": 63
+ },
+ {
+  "style": "LineCW1",
+  "text": "ㅋㅋ 그러니까",
+  "start": 46.1,
+  "end": 46.733,
+  "type_from": 0,
+  "shot": 65
+ },
+ {
+  "style": "LabelHero",
+  "text": "설레발 끝에 삐진 {PUN}",
+  "start": 46.733,
+  "end": 48.8,
+  "type_from": 0,
+  "shot": 66
+ },
+ {
+  "style": "LineHero",
+  "text": "우리가 치킨 한 마리에",
+  "start": 46.733,
+  "end": 48.133,
+  "type_from": 0,
+  "shot": 66
+ },
+ {
+  "style": "LineHero",
+  "text": "우리가 치킨 한 마리에 넘어갈 줄 알고!",
+  "start": 48.133,
+  "end": 48.8,
+  "type_from": 13,
+  "shot": 67
+ },
+ {
+  "style": "LabelHero",
+  "text": "치킨 한 마리에 넘어간 1{PUN}",
+  "start": 48.8,
+  "end": 50.133,
+  "type_from": 0,
+  "shot": 68
+ },
+ {
+  "style": "LineHero",
+  "text": "지현씨!",
+  "start": 48.8,
+  "end": 49.367,
+  "type_from": 0,
+  "shot": 68
+ },
+ {
+  "style": "LineHero",
+  "text": "지현씨!! x2",
+  "start": 49.367,
+  "end": 50.133,
+  "type_from": 0,
+  "shot": 69
+ },
+ {
+  "style": "LineHero",
+  "text": "저기 창가 쪽에",
+  "start": 50.133,
+  "end": 50.633,
+  "type_from": 0,
+  "shot": 70
+ },
+ {
+  "style": "LabelHero",
+  "text": "닭다리 두 개 확보한 {PUN}",
+  "start": 50.633,
+  "end": 51.667,
+  "type_from": 0,
+  "shot": 71
+ },
+ {
+  "style": "LineHero",
+  "text": "양념 반반 있대요!",
+  "start": 50.633,
+  "end": 51.667,
+  "type_from": 0,
+  "shot": 71
+ },
+ {
+  "style": "LabelHero",
+  "text": "발걸음부터 신난 {PUN}",
+  "start": 51.667,
+  "end": 52.5,
+  "type_from": 0,
+  "shot": 72
+ },
+ {
+  "style": "LineHero",
+  "text": "얼른 와요!",
+  "start": 51.667,
+  "end": 52.5,
+  "type_from": 0,
+  "shot": 72
+ }
+]

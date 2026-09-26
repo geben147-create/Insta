@@ -1,0 +1,116 @@
+{
+ "summary": {
+  "shots": 21,
+  "setups": 1,
+  "chains": 1,
+  "reused_shots": 1,
+  "zoom_steps": 0,
+  "three_step": 0,
+  "video_sources": 20,
+  "image_sources": 19,
+  "inshot_zoom_shots": 2,
+  "from_analysis_hints": 1
+ },
+ "groups": [
+  {
+   "base": 3,
+   "members": [
+    {
+     "n": 1,
+     "zoom": 1.62,
+     "cx": 0.535,
+     "cy": 0.563
+    },
+    {
+     "n": 2,
+     "zoom": 1.54,
+     "cx": 0.542,
+     "cy": 0.494
+    },
+    {
+     "n": 3,
+     "zoom": 1.0,
+     "cx": 0.5,
+     "cy": 0.5
+    }
+   ],
+   "chains": [
+    {
+     "source": 2,
+     "shots": [
+      {
+       "n": 1,
+       "zoom": 1.05,
+       "cx": 0.487,
+       "cy": 0.606,
+       "dur": 0.2,
+       "same_moment": 0.92
+      },
+      {
+       "n": 2,
+       "zoom": 1.0,
+       "cx": 0.5,
+       "cy": 0.5,
+       "dur": 1.467
+      }
+     ],
+     "need_sec": 2.17
+    },
+    {
+     "source": 3,
+     "shots": [
+      {
+       "n": 3,
+       "zoom": 1.0,
+       "cx": 0.5,
+       "cy": 0.5,
+       "dur": 1.4
+      }
+     ],
+     "need_sec": 1.9
+    }
+   ]
+  }
+ ],
+ "shot_map": {
+  "1": {
+   "group": 3,
+   "source": 2,
+   "zoom": 1.05,
+   "cx": 0.487,
+   "cy": 0.606,
+   "order": 0,
+   "use_from": 0.0
+  },
+  "2": {
+   "group": 3,
+   "source": 2,
+   "zoom": 1.0,
+   "cx": 0.5,
+   "cy": 0.5,
+   "order": 1,
+   "use_from": 0.2
+  },
+  "3": {
+   "group": 3,
+   "source": 3,
+   "zoom": 1.0,
+   "cx": 0.5,
+   "cy": 0.5,
+   "order": 0,
+   "use_from": 0.0
+  }
+ },
+ "inshot": {
+  "5": {
+   "scale": 2.764,
+   "cx": 0.586,
+   "cy": 0.537
+  },
+  "15": {
+   "scale": 1.139,
+   "cx": 0.501,
+   "cy": 0.506
+  }
+ }
+}

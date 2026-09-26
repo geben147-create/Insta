@@ -1,0 +1,2012 @@
+{
+ "key": "v5",
+ "rank": 5,
+ "id": "tO22EaAEwsA",
+ "fmt": "오피스 시트콤 · 주고받기 대칭(되갚음) 콩트형",
+ "logline": "동료 책상에 놀러 간 주인공이 그의 머그컵 속 곰팡이를 발견하고 '키우는 거냐, 몇 살이냐, 곧 말도 하겠다'는 식으로 신나게 놀리지만, 며칠 뒤 그 동료가 아이콘으로 빈틈없이 덮인 주인공의 바탕화면을 발견해 머리를 콕콕 찌르며 곱절로 되갚음 → 주인공은 동료가 했던 변명을 그대로 되풀이하며 억지 미소 → 동료가 떠나자 속으로 험한 말을 삼키고 부채 너머로 째려보는 얼굴로 끝나, 첫 프레임 타이틀 카드로 다시 이어지는 25초 직장인 '내로남불' 콩트.",
+ "formula": [
+  "썸네일 플래시(0.1초 훅)",
+  "평화로운 협업(셋업)",
+  "냄새 → 발견(크래시 줌 + 스팅)",
+  "놀림 1: 키우는 거냐",
+  "동료의 변명(콜백 재료)",
+  "놀림 2·3: 반려·나이·곧 말하겠다(3단 줌)",
+  "시간 점프(며칠 후)",
+  "역발견(같은 스팅)",
+  "곱절 반격(찌르기 + 펀치 3발)",
+  "콜백 굴욕(같은 변명 되풀이)",
+  "퇴장 한 방",
+  "험한 마음 → 타이틀 카드 루프"
+ ],
+ "why": [
+  "주고받기 대칭 구조: 앞 13.2초(#2~#20)는 주인공이 동료 컵 곰팡이를 놀리고, 뒤 11.8초(#21~#37)는 같은 문법으로 곱절 반격을 당함. 물건 발견은 둘 다 2프레임 크래시 줌 + 같은 A음 스팅(#8 4.18초, #23 14.56초), 동료의 변명(#14~#15)은 주인공이 거의 그대로 되풀이(#34). 제목('꼽→곱')을 구조로 증명해 결말이 보여도 '당하는 맛'으로 끝까지 봄",
+  "완전 루프: 첫 0.1초 타이틀 카드(#1)는 마지막 두 컷(#36~#37)과 같은 원본에서 잘라낸 째려보는 얼굴 + 속담 제목. 25초가 끝나면 결말 표정 위에 제목이 번쩍 붙은 채 처음으로 돌아가 반복 재생을 유도",
+  "다시 보기 데이터: 유튜브 '가장 많이 다시 본 구간'이 18.5~20.8초(#30~#32, 아이콘으로 꽉 찬 바탕화면을 두고 원래 그런 디자인이냐고 비꼬는 반격)에서 평균 0.95·최고 1.0으로, 1부 놀림 구간(5.2~13초 평균 0.14)의 약 7배. 화면 속 '숨은그림찾기'를 멈춰 보고 반격 펀치라인을 다시 봄. 13.0초(#21 며칠 후, 0.31)와 23.7초(#36 험한 마음, 0.63)도 작은 봉우리",
+  "'내로남불' 직장인 공감: 남의 컵 곰팡이는 비웃지만 내 바탕화면은 엉망인 상황은 누구나 찔림. 댓글 687개·참여율 2.08%로 같은 채널 1·2위(0.92%·1.05%)의 약 2배 → '내 바탕화면 얘기' 같은 자기 고백형 댓글을 부르는 소재",
+  "편집 리듬: 37컷·평균 0.68초(분당 약 88컷)로 빠르지만 연속 BGM 없이 대사가 69%를 채우고, 효과음 히트 6개(#8, #21, #23, #28, #29, #33)를 전부 컷 시작 ±0.07초에 붙이고 그중 5개에 2~3프레임 크래시 줌을 겹쳐 컷 자체가 '타격'이 됨. 컷-소리 일치율 33.3%는 우연 기준선 22.3%의 1.5배",
+  "제작 효율 + 얼굴 크롭: 생성 원본 20개로 37컷을 만듦 — 화면 인서트 1개를 4단 디지털 줌으로 #23·#25·#27·#31에, 서 있는 주인공 1개를 #15·#18·#19·#20에 재사용(원본 업로드 4K라 2~3배 확대도 선명). 사람은 입 위로 잘라 목소리·손가락·셔츠만으로 캐릭터를 만들고 시선은 동물 표정에 고정"
+ ],
+ "look": "photorealistic live-action look as if a real tiny animal was filmed on a film set, shot on a full-frame cinema camera, 50mm lens at f/2, shallow depth of field with creamy office bokeh, soft diffused daylight from large office windows mixed with overhead LED panels, clean neutral-warm color grade, crisp fur and whisker detail, 16:9, 4K",
+ "cast": {
+  "hero": {
+   "role": "주인공 동물 · 동료 컵 곰팡이를 놀렸다가 곱절로 돌려받는 디자이너(1부는 소품 없이, 2부는 은색 헤드폰 + 몸보다 큰 컬러칩 부채)",
+   "cap": "#FFFFFF",
+   "voice": "높은 톤(대사 구간 중앙값 약 259~394Hz, 성인 여성 평균 210Hz보다 4~11반음 높음). 대답이 가장 높고 놀리는 긴 문장은 한 톤 내려 능청. 애교 말끝(-용/-여), 마지막 욕 중얼거림은 음정 없는 속삭임"
+  },
+  "cw2": {
+   "role": "옆자리 동료(남) · 시안 정리 담당, 놀림당한 뒤 며칠 만에 곱절로 되갚는 사람(파랑 대사)",
+   "cap": "#0C96F8",
+   "en": "a slim young Korean man office worker, in the first scene wearing a plain charcoal-grey crew-neck T-shirt, in the later scene a light-blue linen button-up shirt with the sleeves rolled up, his face always cropped out of frame above the lips (only lips, chin, torso, arms and hands visible)",
+   "voice": "구간 중앙값 약 172~232Hz — 일반 성인 남성보다 높은 부드럽고 가벼운 톤. 변명은 평이하게, 반격은 오히려 낮고 느긋하게(차분할수록 얄미움)"
+  }
+ },
+ "sets": {
+  "cwdesk": "a bright modern Korean open-plan office by large windows, a light-oak desk with an open silver laptop, a matte black ceramic mug and a crumpled yellow snack wrapper, coworkers blurred at their monitors in the background",
+  "mug": "a matte black ceramic mug seen from directly above: dark stained inner walls with faint concentric rings and, at the very bottom, a round fuzzy off-white mold colony about the size of a coin",
+  "herodesk": "a light-oak office desk with an open silver laptop and a white ceramic mug at the left edge, a black mesh office chair, and a bright open-plan office with blurred coworkers at their monitors behind",
+  "screen": "a silver laptop display whose desktop is completely buried under a dense grid of blue folders and white file icons over a dark-blue mountain wallpaper"
+ },
+ "beats": [
+  {
+   "k": "훅 · 평화로운 셋업",
+   "t": [
+    0,
+    2.73
+   ],
+   "e": 0.2,
+   "ko": "0.1초 타이틀 카드(결말의 째려보는 얼굴 + 속담 제목)가 번쩍 → 동료가 시안을 정리하고, 책상 위 주인공은 두 발로 서서 맞장구. 검정 이름표로 동료 소개"
+  },
+  {
+   "k": "냄새 → 발견",
+   "t": [
+    2.73,
+    5.67
+   ],
+   "e": -0.4,
+   "ko": "머그컵 쪽으로 킁킁 → 앞발로 입을 막는 초근접 → 컵 속 곰팡이 POV에 2프레임 크래시 줌 + 스팅, 곰팡이에 무표정 얼굴 스티커 → 음절마다 점 찍은 정색 혐오 표현"
+  },
+  {
+   "k": "놀림 1 · 키우세요?",
+   "t": [
+    5.67,
+    7.8
+   ],
+   "e": 0.3,
+   "ko": "컵 가장자리에 매달려 들여다보며 동료 이름을 부르고, 초롱초롱한 얼굴로 바뀐 곰팡이 위에 '키우는 거냐'는 질문 + 편견 없는 동물이라는 반어 라벨"
+  },
+  {
+   "k": "변명",
+   "t": [
+    7.8,
+    9.07
+   ],
+   "e": 0.2,
+   "ko": "동료가 멋쩍게 웃으며 오늘 치운다고 변명(마지막 콜백 재료). 듣는 주인공 얼굴 옆에 '경멸의 눈빛' 작은 주석"
+  },
+  {
+   "k": "놀림 2·3 · 반려 곰팡이",
+   "t": [
+    9.07,
+    13.33
+   ],
+   "e": 0.7,
+   "ko": "'반려' 라벨과 나이 질문 → 동료가 컵을 슬쩍 치우며 얼마 안 됐다고 둘러댐 → 같은 원본 3단 디지털 줌(#18→#19→#20)으로 '곧 말도 하겠다' 펀치라인 + 말하는 동물이 할 말이냐는 아이러니 라벨"
+  },
+  {
+   "k": "시간 점프 · 역습 개시",
+   "t": [
+    13.33,
+    15.6
+   ],
+   "e": -0.3,
+   "ko": "'며칠 후' 라벨 + 크래시 줌 + 전환음, 셔츠가 바뀐 동료 → 헤드폰 쓴 주인공 머리를 콕 → 아이콘으로 꽉 찬 바탕화면에 #8과 같은 스팅·크래시 줌 + 여기서 일이 되냐는 질문"
+  },
+  {
+   "k": "곱절 반격",
+   "t": [
+    15.6,
+    20.7
+   ],
+   "e": -0.7,
+   "ko": "화면 인서트와 찌르기 컷을 번갈아 난이도를 비꼬고 → 무표정 초근접 2단 줌 + 펀치 효과음 2발('맞는 중' 괄호) → '고마운 동료' 반어 라벨 + 바탕화면이 원래 그런 디자인이냐는 확인 사살(다시 보기 최고점)"
+  },
+  {
+   "k": "먹임당함 · 콜백",
+   "t": [
+    20.7,
+    22.3
+   ],
+   "e": -0.5,
+   "ko": "펀치 3발째 + 크래시 줌으로 억지 눈웃음 → 부채를 방패처럼 들고 동료가 했던 변명을 그대로 되풀이 + 웃는 이모티콘"
+  },
+  {
+   "k": "마무리 한 방 · 퇴장",
+   "t": [
+    22.3,
+    23.63
+   ],
+   "e": -0.6,
+   "ko": "동료가 허리를 펴고 걸어 나가며 감탄하는 척 마지막 한마디 — '끝까지 제대로 돌려준다'는 라벨"
+  },
+  {
+   "k": "험한 마음 · 루프",
+   "t": [
+    23.63,
+    25.1
+   ],
+   "e": -0.8,
+   "ko": "저음 드론 + 눈 감고 참다가 욕을 우회 표기로 중얼 → 같은 원본 2배 줌으로 부채 너머 째려보는 초근접 '(험한 속마음)' → 뚝 끊기고 첫 프레임 타이틀 카드로 루프"
+  }
+ ],
+ "captions": {
+  "summary": "자막 5층 구조 + 타이틀 카드. ①검정 이름표(동료 첫 등장 1회, #2~#3) ②반투명 상황 라벨(거의 매 컷 새 문구 — 상황·속마음·반어 논평, 대사 바로 위 y≈0.78) ③화자 색 대사(주인공 흰색·동료 밝은 파랑 #0C96F8, y≈0.867 — v1·v3보다 약 1.2배 크고 조금 위) ④괄호 자막(의성어·속마음을 대사 자리에 흰 글씨로) ⑤얼굴 옆 작은 괄호 주석(#15, #30). v1·v3의 초대형 강조 자막·대괄호 내레이션은 없고, 강조는 음절 점 찍기(#9)·자모 분리(#26~#28)·말끝 이모티콘(#34)으로 처리",
+  "styles": [
+   {
+    "name": "타이틀 카드(첫 3프레임)",
+    "css": "card",
+    "spec": "흰 굵은 고딕 + 두꺼운 검정 외곽선, 한 줄 글자 높이 약 195px(1080p 기준), 왼쪽 위 두 줄(x≈0.04~0.47, 줄 중심 y≈0.17·0.42), 기울임 없는 정자체",
+    "use": "#1 썸네일 겸 루프 연결용 속담 제목. 0.1초라 첫 재생보다 반복 재생 때 읽힘"
+   },
+   {
+    "name": "인물 이름표",
+    "css": "label-name",
+    "spec": "검정 박스(불투명도 약 90%) + 흰 글씨, 기울임 없는 정자체, 글자 높이 약 40px(1080p 기준), 박스 높이 약 72px·중심 y≈0.78, 가로 가운데. '하는 일 + 이름' 한 줄",
+    "use": "동료 첫 등장 1회(#2~#3)만. 이후 인물 소개·정리는 반투명 라벨이 대신함"
+   },
+   {
+    "name": "상황 라벨",
+    "css": "label-hero",
+    "spec": "반투명 밝은 회백색 둥근 박스(불투명도 약 70% — 배경에 따라 #A7A5A6~#DFD4CF로 측정) + 거의 검정 글씨(#090300 안팎), 기울임 없는 정자체, 글자 높이 약 40px(1080p 기준), 박스 높이 약 64~72px, 박스 중심 y≈0.78(대사 바로 위), 가로 가운데. 컷과 함께 통째로 등장(타이핑 없음)",
+    "use": "상황·속마음·반어 논평(편견 없는 동물, 고마운 동료 등). 거의 매 컷 새 문구로 바뀌고 명사형(…한 동료 / …한 주인공 이름)으로 끝남. 시간 점프(며칠 후)도 이 스타일"
+   },
+   {
+    "name": "대사(주인공)",
+    "css": "line-hero",
+    "spec": "흰 글씨 + 검정 외곽선 약 6px, 굵게, 기울임 없음, 글자 채움 높이 약 82~85px(v1·v3 대사보다 약 1.2배 — 약 76px급), 중심 y≈0.867, 자모 단위 타이핑",
+    "use": "주인공 대사·감탄사. 애교 말끝(-용/-여), 음절 사이 점 찍기, 말끝 웃는 이모티콘"
+   },
+   {
+    "name": "대사(동료)",
+    "css": "line-cw2",
+    "spec": "밝은 파랑 #0C96F8(측정 #0A96F9~#0D95F6) + 검정 외곽선 약 6~8px, 굵게, 크기·위치는 주인공 대사와 같음(중심 y≈0.867), 자모 단위 타이핑",
+    "use": "동료 전용 색. 2부 반격 대사 대부분이 주인공 얼굴·화면 인서트 위에 뜨므로(L컷) 색만 보고 화자를 구분"
+   },
+   {
+    "name": "괄호 자막(의성어·속마음)",
+    "css": "paren",
+    "spec": "흰 글씨 + 검정 외곽선 약 6px, 대사와 같은 크기·위치(y≈0.867), ( )로 감쌈, 컷과 함께 통째로 등장",
+    "use": "#6 냄새 맡는 소리, #8 곰팡이 소개, #28~#29 맞고 있는 속마음, #37 험한 속마음"
+   },
+   {
+    "name": "얼굴 옆 작은 주석",
+    "css": "pointer",
+    "spec": "작은 흰 글씨(글자 높이 약 26~30px) + 얇은 검정 외곽선, 박스 없음, ( )로 감쌈, 인물 얼굴 바로 오른쪽에 떠 있음(#15 y≈0.30 · x≈0.45~0.61, #30 y≈0.44 · x≈0.57~0.70)",
+    "use": "표정 해설(경멸의 눈빛, 게임 스탯처럼 +숫자를 붙인 억지 미소). 키트에서는 라벨 자리로 근사"
+   }
+  ],
+  "typing": "대사(흰색·파랑)만 자모 단위로 타이핑 — 받침·모음이 조합되는 과정이 그대로 보임(#4, #17, #18, #21). 속도 약 초당 6~9글자, 말소리와 거의 동시. 한 문장을 두 컷에 나눌 때는 앞 컷 자막을 지우고 새로 치거나(#2→#3, #14→#15, #30→#31) 이어 쳐서 완성(#19→#20, #23→#24). 라벨·이름표·괄호 자막·얼굴 옆 주석은 컷과 함께 통째로 등장",
+  "decor": "#8·#12 곰팡이에 표정 스티커(무표정 동그란 눈·일자 입 → 초롱초롱 큰 눈·볼터치·ω 입으로 교체) / #9 음절 사이 점 찍기 / #26~#28 비속 접두어를 자모로 띄어 써서 순화 + 강조 / #34 말끝 웃는 이모티콘 / #36 욕을 영문자 + 한글로 우회 표기 / #15·#30 얼굴 옆 작은 괄호 주석(#30은 게임 스탯처럼 +숫자)"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "who": "insert",
+   "sz": "ECU(타이틀 카드)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 3프레임(0.1초) 정지 화면 — 같은 원본 디지털 줌(3단) 중 하나(#36 원본을 약 1.6배로 자른 째려보는 얼굴)",
+   "grid": [
+    1,
+    4,
+    5,
+    6
+   ],
+   "act": "헤드폰 쓴 주인공이 컬러칩 부채 너머로 눈을 가늘게 뜨고 째려보는 얼굴 위에 왼쪽 위 두 줄 초대형 속담 제목 — 0.1초 플래시 프레임처럼 지나감",
+   "bg": "검정 메시 의자 등받이(어두운 격자 무늬)",
+   "set": "herodesk",
+   "cap": {
+    "lb": null,
+    "ln": "속담 제목 2줄(주고받기 뜻)",
+    "sp": "hero",
+    "fx": "타이틀 카드(흰 굵은 글씨 + 두꺼운 검정 외곽선, 한 줄 높이 약 195px, 왼쪽 위)"
+   },
+   "tr": "오프닝: 첫 프레임이 타이틀 카드(3프레임) — 본편은 다음 컷부터",
+   "sfx": "무음(대사는 0.12초부터)",
+   "tech": "썸네일 프레임 삽입 / 플래시 프레임(0.2초 미만 초단 컷) — 결말 컷과 같은 원본이라 루프 연결",
+   "why": "반복 재생 때 결말 표정 바로 뒤에 제목이 번쩍 → 이야기 요약 + 루프. 첫 프레임이 썸네일 역할도 함",
+   "img": "(Same source as shot 36, cropped about 1.6x) Extreme close-up of {HERO} peeking over the top edge of an open paper color-swatch fan that is bigger than its body, big glossy eyes narrowed into a sly sideways glare, fluffy cheeks, round ears; dark black mesh chair behind. Leave empty space at the top left for a two-line title",
+   "mot": "Edit: freeze one frame from the shot 36 source clip cropped about 1.6x, add the two-line title text at the top left and hold it for 3 frames (0.1 s).",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(카드) 놀린 값은 곱빼기",
+   "cute": [
+    "헤드폰·시그니처 소품",
+    "몸보다 큰 물건 안기",
+    "부채 너머 째려보기"
+   ]
+  },
+  {
+   "n": 2,
+   "who": "group",
+   "sz": "MS(투샷 · 책상 높이)",
+   "ang": "아이레벨(책상 높이)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) — #6 원본을 약 1.24배로 잘라 먼저 사용",
+   "grid": [
+    3,
+    5,
+    6
+   ],
+   "act": "동료(얼굴은 프레임 밖, 짙은 회색 티셔츠)가 노트북으로 작업하며 설명, 책상 위 주인공은 노트북과 검정 머그컵 사이에 두 발로 서서 올려다봄",
+   "bg": "밝은 오픈 오피스, 뒤쪽 동료들, 앞쪽 노란 과자 봉지",
+   "set": "cwdesk",
+   "cap": {
+    "lb": "[이름표] 동료가 하는 일 + 이름(검정 박스)",
+    "ln": "정리해 주겠다는 업무 대사 앞부분 — 타이핑",
+    "sp": "cw2",
+    "fx": "이름표+타이핑"
+   },
+   "tr": "하드컷(타이틀 카드 → 본편)",
+   "sfx": "대사 시작(0.12초) + 옅은 사무실 앰비언스, 음악 없음",
+   "tech": "인물 이름표(이 영상 유일) + 크기 대비 투샷",
+   "why": "첫 0.7초에 '동료 책상에 놀러 온 작은 동물'이라는 관계·장소·크기 대비를 한 번에",
+   "img": "(Same source as shot 6, cropped about 1.24x) Medium two-shot at desk height: {CW2} sitting behind an open silver laptop, his head out of frame above the chin, hands on the keyboard; in front of him tiny {HERO} standing upright on its hind legs on the desk between the laptop and a matte black mug, tiny front paws held together at its chest, looking up at him with big round glossy eyes; {CWDESK}",
+   "mot": "Edit: crop about 1.24x from the first second of the shot 6 source clip, while the {ANIMAL} is still standing and listening before it turns to the mug.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "[이름표] 파일 정리 중인 옆자리 | 서도윤 / (파랑) 그럼 이 순서대로",
+   "cute": [
+    "사람과 크기 대비",
+    "두 발로 서기",
+    "앞발 모으기·흔들기"
+   ]
+  },
+  {
+   "n": 3,
+   "who": "cw2",
+   "sz": "MS(가슴 위 · 얼굴 프레임 밖)",
+   "ang": "살짝 로우앵글(책상 위 주인공 눈높이)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 중 원본(#14는 이 클립을 위로 리프레임)",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "짙은 회색 티셔츠 상반신이 턱 아래만 보인 채 말함(얼굴은 프레임 위로 잘림)",
+   "bg": "밝은 창가, 흐린 모니터·동료",
+   "set": "cwdesk",
+   "cap": {
+    "lb": "[이름표 유지]",
+    "ln": "업무 대사 뒷부분(앞 컷 자막을 지우고 새로 타이핑)",
+    "sp": "cw2",
+    "fx": "이름표 유지+타이핑"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "얼굴 크롭(목 아래만) — 동물 눈높이에서 올려다본 사람",
+   "why": "사람은 목소리·옷·손으로만 존재 → 시선이 동물에게 집중되고 AI 얼굴 일관성 문제도 피함",
+   "img": "Slightly low-angle medium shot of {CW2} from the chest up in a charcoal-grey T-shirt, his face out of frame above the chin, sitting at the desk and talking; bright office windows and blurred coworkers behind; {CWDESK}",
+   "mot": "He talks calmly with small shoulder movements, then gives a small awkward smile (the later part is reused for shot 14); his face stays out of frame above the lips. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "[이름표 유지] / (파랑) 묶어서 보내드릴게요",
+   "cute": []
+  },
+  {
+   "n": 4,
+   "who": "hero",
+   "sz": "CU",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) — #5 원본을 약 1.57배로 잘라 먼저 사용",
+   "grid": [
+    4,
+    5,
+    8
+   ],
+   "act": "왼쪽 위(동료)를 올려다보며 입을 벌려 짧게 두 번 대답",
+   "bg": "흐린 회색 티셔츠·팔(동료)",
+   "set": "cwdesk",
+   "cap": {
+    "lb": null,
+    "ln": "짧은 대답 두 번 — 자모 단위 타이핑",
+    "sp": "hero",
+    "fx": "타이핑(자모 단위)"
+   },
+   "tr": "하드컷",
+   "sfx": "주인공 대답(약 394Hz, 영상 최고음)",
+   "tech": "리액션 CU(같은 원본 확대)",
+   "why": "대답하는 입 모양을 크게 보여 '말하는 동물' 설정을 확인",
+   "img": "(Same source as shot 5, cropped about 1.57x) Close-up of {HERO} standing upright on the desk, looking up to the upper left at a person off-screen with big round glossy eyes, mouth slightly open mid-answer, whiskers forward, a blurred grey T-shirt behind",
+   "mot": "Edit: crop about 1.57x from the shot 5 source clip while the {ANIMAL} answers with two quick mouth movements.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "넵 넵",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "두 발로 서기",
+    "올려다보기"
+   ]
+  },
+  {
+   "n": 5,
+   "who": "hero",
+   "sz": "MS",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 중 원본(가장 넓은 화면)",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "노트북 팜레스트 위에 두 발로 서서 앞발을 가슴 앞에 모으고 밝게 대답",
+   "bg": "노트북 키보드, 오른쪽 검정 머그컵, 흐린 회색 티셔츠",
+   "set": "cwdesk",
+   "cap": {
+    "lb": null,
+    "ln": "좋다는 애교 대답",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷",
+   "sfx": "밝은 애교 대답",
+   "tech": "CU→MS 역순(당겨서 위치 보여 주기)",
+   "why": "대답 직후 한 발 물러난 화면으로 책상 위 위치(노트북·머그컵)를 알려 다음 '냄새' 컷을 준비",
+   "img": "Medium shot of {HERO} standing upright on its hind legs on the palm rest of an open silver laptop, tiny front paws held together at its chest, answering cheerfully with a small smile and big round glossy eyes; a matte black mug towering on the right; a blurred grey T-shirt behind; {CWDESK}",
+   "mot": "The {ANIMAL} looks up, gives two quick happy nods and answers with a bright little smile, tiny paws wiggling at its chest. Static camera. Shot 4 is a crop of this clip.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "new": "감사해용!",
+   "cute": [
+    "두 발로 서기",
+    "앞발 모으기·흔들기",
+    "사람과 크기 대비"
+   ]
+  },
+  {
+   "n": 6,
+   "who": "group",
+   "sz": "MS(투샷 · 책상 높이)",
+   "ang": "아이레벨(책상 높이)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 중 원본(#2보다 넓은 화면)",
+   "grid": [
+    5,
+    6,
+    8
+   ],
+   "act": "주인공이 몸을 돌려 옆의 검정 머그컵 쪽으로 코를 대고 킁킁 냄새를 맡음, 동료는 계속 작업",
+   "bg": "#2와 같은 책상(노트북·머그컵·과자 봉지)",
+   "set": "cwdesk",
+   "cap": {
+    "lb": null,
+    "ln": "(냄새 맡는 의성어) 괄호 자막",
+    "sp": "hero",
+    "fx": "괄호 의성어"
+   },
+   "tr": "하드컷",
+   "sfx": "코 킁킁 3번(작은 숨소리)",
+   "tech": "괄호 의성어 자막 + 행동으로 다음 장면 예고",
+   "why": "0.8초 동안 대사 없이 호기심 행동만 → '컵 안에 뭐가 있다'는 궁금증",
+   "img": "Medium two-shot at desk height: {CW2} typing behind an open silver laptop, his head out of frame; tiny {HERO} on the desk turning toward a matte black mug almost as tall as itself and sniffing the rim, tiny pink nose twitching, whiskers forward, round ears perked; {CWDESK}",
+   "mot": "First the {ANIMAL} stands still on its hind legs listening (used for shot 2), then it turns to the mug, leans in and sniffs three times with a twitching nose and vibrating whiskers while the man keeps typing. Static camera.",
+   "gen": "ref",
+   "m": [
+    "seedance-2-0",
+    "kling-v3-omni",
+    "kling-v3"
+   ],
+   "new": "(코끝 간질간질)",
+   "cute": [
+    "코 킁킁 냄새 맡기",
+    "사람과 크기 대비"
+   ]
+  },
+  {
+   "n": 7,
+   "who": "hero",
+   "sz": "ECU",
+   "ang": "아이레벨(정면)",
+   "cam": "고정(피사체만 움찔)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "얼굴이 화면을 꽉 채운 초근접, 두 앞발을 입에 가져다 대며 역겨운 소리",
+   "bg": "없음(얼굴이 화면 전체)",
+   "set": "cwdesk",
+   "cap": {
+    "lb": null,
+    "ln": "역겨움 감탄사",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷(사이즈 급변 MS→ECU)",
+   "sfx": "높은 치찰음 섞인 비명(목소리) — 3.62초 시작, 컷 0.06초 뒤",
+   "tech": "ECU 펀치인 + 앞발로 입 가리기",
+   "why": "무엇을 봤는지 보여 주기 전에 표정부터 → 궁금증 최대치에서 다음 컷 공개",
+   "img": "Extreme close-up of {HERO}'s face filling the frame, big round glossy black eyes wide open in disgust, both tiny pink front paws pressed against its mouth, whiskers pulled back, fluffy cheeks",
+   "mot": "The {ANIMAL} recoils slightly and snaps both tiny paws up over its mouth, eyes widening in disgust, then lowers the paws. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "minimax-h3",
+    "hailuo-2-3",
+    "kling-v3"
+   ],
+   "new": "에…에취!!",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "앞발로 입 가리기"
+   ]
+  },
+  {
+   "n": 8,
+   "who": "insert",
+   "sz": "INSERT(POV · 컵 속)",
+   "ang": "탑샷(컵 속을 내려다봄)",
+   "cam": "크래시 줌(진입 2프레임 동안 컵 전체→컵 바닥으로 약 1.26배 급확대) 후 고정. 같은 원본 디지털 줌(2단) 중 원본",
+   "grid": [
+    5
+   ],
+   "act": "검정 머그컵 바닥의 동그란 흰 곰팡이 덩어리, 그 위에 무표정한 동그란 눈·일자 입 스티커",
+   "bg": "얼룩진 컵 안쪽 벽의 동심원",
+   "set": "mug",
+   "cap": {
+    "lb": null,
+    "ln": "(곰팡이를 친구처럼 소개하는 괄호 자막)",
+    "sp": "hero",
+    "fx": "괄호 자막 + 표정 스티커(무표정)"
+   },
+   "tr": "하드컷 + 크래시 줌",
+   "sfx": "발견 스팅 '두둥'(A음 110·220·440Hz + E음, 저역 강함 — 4.18초, 컷 0.01초 뒤)",
+   "tech": "POV 리빌 + 크래시 줌 + 스팅, 사물에 얼굴 스티커(캐릭터화)",
+   "why": "징그러운 물건에 얼굴을 붙여 '캐릭터'로 만들어 불쾌감 대신 웃음 — 뒤의 '반려' 개그 셋업",
+   "img": "Top-down POV shot looking straight into {MUG}; soft window light from above. (A simple cartoon face sticker with two round eyes and a flat mouth is added on the mold in the edit.)",
+   "mot": "Still image. Edit: start on the whole mug and crash-zoom about 1.26x into the bottom over 2 frames, then hold; overlay a blank-stare cartoon face sticker on the mold.",
+   "gen": "still",
+   "m": [
+    "still",
+    "edit"
+   ],
+   "new": "(컵 속 먼지 원주민)",
+   "cute": [
+    "사물 얼굴 스티커(무표정)"
+   ]
+  },
+  {
+   "n": 9,
+   "who": "hero",
+   "sz": "ECU",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 재사용(#16과 같은 초근접 클립, 배율 거의 같음)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈을 가늘게 찡그리며 입을 삐죽 — 극혐 표정",
+   "bg": "흐린 책상",
+   "set": "cwdesk",
+   "cap": {
+    "lb": null,
+    "ln": "음절마다 점을 찍은 3음절 혐오 표현",
+    "sp": "hero",
+    "fx": "음절 점 찍기 강조"
+   },
+   "tr": "하드컷",
+   "sfx": "정색한 주인공 목소리(약 276Hz)",
+   "tech": "음절 점 찍기 자막(또박또박 끊어 읽기)",
+   "why": "점으로 끊어 읽게 만들어 정색한 말투를 글자로 표현",
+   "img": "Extreme close-up of {HERO}'s face, big round glossy eyes squinting into a disgusted frown, mouth pursed, whiskers twitching, fluffy cheeks; blurred warm desk background",
+   "mot": "The {ANIMAL} slowly narrows its eyes into a disgusted squint and purses its mouth, then opens its eyes wide with a serious look (the later part is reused for shot 16). Static camera.",
+   "gen": "i2v",
+   "m": [
+    "minimax-h3",
+    "hailuo-2-3"
+   ],
+   "new": "먼.지.폭.탄",
+   "cute": [
+    "찡그린 실눈",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 10,
+   "who": "hero",
+   "sz": "MS(측면)",
+   "ang": "아이레벨(측면)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 중 원본",
+   "grid": [
+    4,
+    5,
+    8
+   ],
+   "act": "머그컵 가장자리에 앞발을 걸고 까치발로 매달려 컵 속에 머리를 넣어 들여다보며 동료 이름을 부름",
+   "bg": "동료의 회색 티셔츠·팔",
+   "set": "cwdesk",
+   "cap": {
+    "lb": null,
+    "ln": "동료 이름 부르기",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "몸만 한 소품에 매달리기(크기 대비)",
+   "why": "컵이 몸만큼 커서 매달린 자세 자체가 귀여움 + 파고드는 캐릭터성",
+   "img": "Side medium shot of {HERO} standing on tiptoe on its hind legs and clinging to the rim of a matte black ceramic mug nearly as tall as its body with both tiny front paws, dipping its head over the rim to peer inside, round ears perked, fluffy side profile with long whiskers; {CW2}'s grey T-shirt and forearm blurred behind",
+   "mot": "The {ANIMAL} pulls itself up on tiptoe with little scrabbling paws, dips its head into the mug to look, then lifts its head and calls out. Static camera. Shot 11 is a crop of this clip.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "new": "도윤씨",
+   "cute": [
+    "컵 가장자리에 매달리기",
+    "몸만 한 물건",
+    "기어오르기"
+   ]
+  },
+  {
+   "n": 11,
+   "who": "hero",
+   "sz": "MCU(측면)",
+   "ang": "아이레벨(측면)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) — #10 원본을 약 1.6배로 잘라 붙임",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "컵 가장자리에 매달린 채 옆모습 볼·코·수염이 크게, 질문을 시작",
+   "bg": "회색 티셔츠",
+   "set": "cwdesk",
+   "cap": {
+    "lb": null,
+    "ln": "'혹시' 하고 질문 시작",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷(같은 원본 확대 컷인)",
+   "sfx": "-",
+   "tech": "같은 원본 디지털 줌 컷인(축 방향)",
+   "why": "새로 찍지 않고 확대만으로 '다가가며 묻는' 느낌",
+   "img": "(Same source as shot 10, cropped about 1.6x) Side medium close-up of {HERO} clinging to the rim of a black mug with tiny paws, its fluffy cheek, pink nose and long whiskers large in frame, one curious glossy eye",
+   "mot": "Edit: crop about 1.6x from the shot 10 source clip as the {ANIMAL} starts asking a question.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "이 컵 설마",
+   "cute": [
+    "컵 가장자리에 매달리기",
+    "옆모습 볼·수염 클로즈업"
+   ]
+  },
+  {
+   "n": 12,
+   "who": "insert",
+   "sz": "INSERT(POV · 컵 속 근접)",
+   "ang": "탑샷",
+   "cam": "고정. 같은 원본 디지털 줌(2단) — #8 이미지를 약 1.22배로 잘라 재사용",
+   "grid": [
+    5
+   ],
+   "act": "같은 곰팡이, 이번엔 초롱초롱한 큰 눈·볼터치·ω 입의 귀여운 표정 스티커로 바뀜",
+   "bg": "컵 바닥",
+   "set": "mug",
+   "cap": {
+    "lb": "주인공을 비꼬는 반어 라벨(편견 없는 동물)",
+    "ln": "키우는 거냐는 질문 — 자모 단위 타이핑",
+    "sp": "hero",
+    "fx": "라벨+타이핑 + 표정 스티커 교체"
+   },
+   "tr": "하드컷",
+   "sfx": "스티커 표정 바뀔 때 '뾰롱'(권장)",
+   "tech": "스티커 표정 교체(무표정→초롱초롱)로 사물 캐릭터에 감정 부여",
+   "why": "'키우냐'는 질문과 동시에 곰팡이가 귀여운 척 → 반려동물 개그로 전환",
+   "img": "(Same image as shot 8, cropped about 1.22x) Top-down POV looking into {MUG}. (In the edit a cute cartoon face sticker goes on the mold: big sparkly teary eyes, pink blush and a small ω mouth.)",
+   "mot": "Still image of the shot 8 frame cropped about 1.22x; swap in the cute face sticker on the first frame; slow push-in in the edit.",
+   "gen": "still",
+   "m": [
+    "still",
+    "edit"
+   ],
+   "new": "(라벨) 오지랖 스위치 켜진 {PUN} / 먼지 전용 컵이에요?",
+   "cute": [
+    "사물 얼굴 스티커(초롱초롱 눈·볼터치)"
+   ]
+  },
+  {
+   "n": 13,
+   "who": "hero",
+   "sz": "MS",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "컵 가장자리에 앞발을 올린 채 동료 쪽(왼쪽 위)을 올려다보며 능청스러운 미소",
+   "bg": "회색 티셔츠(동료 몸통)",
+   "set": "cwdesk",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "hero",
+    "fx": "브릿지"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "질문 끝을 얼굴로 받기(리액션 유지)",
+   "why": "질문 뒤 능청스러운 표정으로 '놀리는 중'임을 확정",
+   "img": "Medium shot of {HERO} standing upright with one tiny front paw resting on the rim of a black mug, turned toward a person off-screen to the upper left, with a smug little closed-mouth smile and big round glossy eyes, whiskers fanned out; {CW2}'s grey T-shirt blurred behind",
+   "mot": "The {ANIMAL} tilts its head slightly and holds a smug little smile, whiskers twitching. Static camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "minimax-h3"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "컵 가장자리 앞발 걸치기",
+    "능청 미소",
+    "두 발로 서기"
+   ]
+  },
+  {
+   "n": 14,
+   "who": "cw2",
+   "sz": "MCU(입술·턱)",
+   "ang": "살짝 로우앵글",
+   "cam": "고정. 같은 원본 디지털 줌(2단) — #3 원본을 약 1.05배 확대하고 위로 올려 입술이 보이게 리프레임",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "입술·턱이 프레임 위에 걸린 채 멋쩍게 웃으며 변명 시작",
+   "bg": "밝은 창가",
+   "set": "cwdesk",
+   "cap": {
+    "lb": null,
+    "ln": "'오늘' 하고 변명 앞부분",
+    "sp": "cw2",
+    "fx": "타이핑"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "립 컷(입만 보여 주기)",
+   "why": "변명하는 입꼬리만으로 민망함 전달 — 이 대사가 마지막 콜백 재료",
+   "img": "(Same source as shot 3, reframed slightly up) Slightly low-angle medium close-up of {CW2}: only his lips, chin and charcoal-grey T-shirt visible, lips at the top edge of the frame, smiling awkwardly; bright office windows behind",
+   "mot": "Edit: crop about 1.05x from the shot 3 source clip, shifted up so his lips show, while he smiles awkwardly and starts an excuse.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(파랑) 아 오늘",
+   "cute": []
+  },
+  {
+   "n": 15,
+   "who": "hero",
+   "sz": "MS(동료 어깨 너머)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌 — #18 원본을 약 1.45배로 잘라 먼저 사용(#18→#19→#20 3단 줌과 같은 소스)",
+   "grid": [
+    4,
+    5,
+    7
+   ],
+   "act": "책상 위에 두 발로 서서 앞발을 모으고 동료를 빤히 바라봄, 얼굴 옆에 '경멸의 눈빛' 작은 괄호 주석",
+   "bg": "오른쪽 끝 동료의 뺨(전경), 뒤쪽 책상·모니터, 왼쪽 끝 머그컵",
+   "set": "cwdesk",
+   "cap": {
+    "lb": null,
+    "ln": "변명 뒷부분(동료 대사가 주인공 화면 위로 — L컷)",
+    "sp": "cw2",
+    "fx": "대사 + 얼굴 옆 작은 괄호 주석(키트는 라벨 자리로 근사)"
+   },
+   "tr": "하드컷, 동료 목소리 계속(L컷)",
+   "sfx": "-",
+   "tech": "L컷 + 얼굴 옆 괄호 주석(표정 해설)",
+   "why": "변명을 듣는 쪽의 미세한 표정을 주석으로 콕 집어 웃음 한 번 더",
+   "img": "(Same source as shot 18, cropped about 1.45x) Medium shot over {CW2}'s shoulder, his cheek blurred at the right edge: tiny {HERO} standing upright on the desk facing him, tiny front paws together at its chest, giving a subtle judging look with slightly narrowed big glossy eyes; a black mug at the left edge; {CWDESK}",
+   "mot": "Edit: crop about 1.45x from the shot 18 source clip while the {ANIMAL} stares with a subtle judging look.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) (콧방귀 장전) / (파랑) 닦으려고 했어요",
+   "cute": [
+    "두 발로 서기",
+    "앞발 모으기·흔들기",
+    "사람과 크기 대비"
+   ]
+  },
+  {
+   "n": 16,
+   "who": "hero",
+   "sz": "ECU",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 재사용(#9 초근접 클립, 배율 거의 같음)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "초근접 정면 얼굴, 동그란 눈을 뜨고 진지하게 나이를 물음",
+   "bg": "흐린 책상",
+   "set": "cwdesk",
+   "cap": {
+    "lb": "반려동물 취급 라벨(반려 + 곰팡이)",
+    "ln": "나이를 묻는 질문",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷",
+   "sfx": "주인공 질문(약 368Hz)",
+   "tech": "진지한 ECU + 반려동물 라벨(의인화 말장난)",
+   "why": "곰팡이를 반려동물처럼 대하는 질문을 정색한 초근접으로 해서 웃음이 커짐",
+   "img": "(Same source as shot 9) Extreme close-up of {HERO}'s face, big round glossy black eyes wide open with a serious, curious expression, pink nose and long whiskers, mouth open asking a question",
+   "mot": "Edit: reuse the later part of the shot 9 source clip, when the eyes are open, while the {ANIMAL} asks a question.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) 반려 먼지 / 이름은 지어 주셨어요?",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 17,
+   "who": "cw2",
+   "sz": "MS(상반신 · 얼굴 프레임 밖)",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    5,
+    6,
+    8,
+    9
+   ],
+   "act": "동료가 손을 뻗어 머그컵을 잡고 화면 밖으로 슬쩍 끌어 치움",
+   "bg": "밝은 창가, 흐린 동료들",
+   "set": "cwdesk",
+   "cap": {
+    "lb": "컵을 슬쩍 치우는 상황 라벨",
+    "ln": "얼마 안 됐다는 변명 — 자모 단위 타이핑",
+    "sp": "cw2",
+    "fx": "라벨+타이핑"
+   },
+   "tr": "하드컷",
+   "sfx": "머그컵 끄는 달그락(권장)",
+   "tech": "행동으로 변명(증거 인멸)",
+   "why": "말로는 괜찮다면서 손은 컵을 숨기는 표리부동",
+   "img": "Medium shot of {CW2} in a charcoal-grey T-shirt from the chest down to the desk, his face out of frame, reaching out and sliding a matte black mug off the right edge of the frame; bright office windows and blurred coworkers behind; {CWDESK}",
+   "mot": "His hand grabs the mug and casually slides it out of frame to the right while he talks. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(라벨) 슬그머니 증거 인멸 / (파랑) 어제 생긴 거예요",
+   "cute": []
+  },
+  {
+   "n": 18,
+   "who": "hero",
+   "sz": "MS(동료 어깨 너머)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 1단계(원본 그대로) — #15도 같은 소스",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "노트북 옆에 두 발로 서서 동료를 올려다보며 신나서 한마디 더 시작",
+   "bg": "왼쪽 노트북, 뒤쪽 머그컵, 오른쪽 끝 동료 뺨",
+   "set": "cwdesk",
+   "cap": {
+    "lb": "기회를 놓치지 않고 놀린다는 상황 라벨",
+    "ln": "'좀 있으면' 하고 타이핑 시작",
+    "sp": "hero",
+    "fx": "라벨+타이핑"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "3단 디지털 줌 시작(같은 원본 MS)",
+   "why": "펀치라인 문장을 3컷에 나눠 점점 다가가며 긴장을 쌓음",
+   "img": "Medium shot over {CW2}'s shoulder, his cheek blurred at the right edge: tiny {HERO} standing upright on its hind legs on a light-oak desk beside an open laptop, tiny front paws at its chest, looking up at him with big round glossy eyes and a teasing open-mouthed grin; a black mug behind; {CWDESK}",
+   "mot": "The {ANIMAL} stands on its hind legs, looks up and talks with a teasing grin, a slight head bob and wiggling paws. Static camera. Generate about 5 seconds in 4K — shots 15, 19 and 20 are crops of this same clip.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "new": "(라벨) 기회는 놓치지 않는 {PUN} / 하루 만에 이 정도면",
+   "cute": [
+    "두 발로 서기",
+    "사람과 크기 대비",
+    "앞발 모으기·흔들기"
+   ]
+  },
+  {
+   "n": 19,
+   "who": "hero",
+   "sz": "MS→MCU",
+   "ang": "아이레벨",
+   "cam": "같은 원본 디지털 줌(3단) 2단계(#18 원본 약 1.56배) + 컷 안에서 느린 푸시인(약 1.15배)",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "같은 자세로 말을 이어 가며 점점 크게 보임",
+   "bg": "뒤쪽 머그컵, 흐린 책상",
+   "set": "cwdesk",
+   "cap": {
+    "lb": "주인공 자신도 '말하는 동물'이라는 아이러니 라벨",
+    "ln": "'곧 말도 하겠다' 앞부분 — 타이핑",
+    "sp": "hero",
+    "fx": "라벨+타이핑"
+   },
+   "tr": "하드컷(같은 원본 확대 컷인)",
+   "sfx": "-",
+   "tech": "3단 디지털 줌 2단계 + 느린 푸시인, 아이러니 라벨",
+   "why": "'곧 말하겠다'는 놀림을 말하는 동물이 한다는 모순을 라벨이 짚어 줌",
+   "img": "(Same source as shot 18, cropped about 1.56x) Medium close-up of {HERO} standing upright, looking up with big round glossy eyes and an open-mouthed teasing grin, tiny paws at its chest, whiskers forward",
+   "mot": "Edit: crop about 1.56x from the shot 18 source clip and slowly push in about 1.15x over the shot.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) 털 날리기로는 본인이 1등 / 곧 분양 보내도",
+   "cute": [
+    "두 발로 서기",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 20,
+   "who": "hero",
+   "sz": "CU(3/4)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 3단계(#18 원본 약 3.1배)",
+   "grid": [
+    4,
+    5
+   ],
+   "act": "3/4 얼굴 클로즈업, 고개를 살짝 오른쪽으로 돌린 채 입을 벌리고 문장을 끝맺음",
+   "bg": "흐린 배경",
+   "set": "cwdesk",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "문장 완성(이어 타이핑)",
+    "sp": "hero",
+    "fx": "타이핑 브릿지"
+   },
+   "tr": "하드컷(같은 원본 확대 컷인)",
+   "sfx": "-",
+   "tech": "3단 디지털 줌 3단계(펀치라인에서 가장 가까이)",
+   "why": "펀치라인 마지막 음절에 얼굴이 가장 커져 '한 방' 느낌",
+   "img": "(Same source as shot 18, cropped about 3.1x) Three-quarter close-up of {HERO}'s face turned slightly to the right: big round glossy eye, fluffy cheek, pink nose, long whiskers, mouth open finishing a teasing sentence",
+   "mot": "Edit: crop about 3.1x from the shot 18 source clip on the last words of the sentence.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨 유지) / +되겠는데요?",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "볼·수염 클로즈업"
+   ]
+  },
+  {
+   "n": 21,
+   "who": "cw2",
+   "sz": "MCU(상반신 · 입술 위 크롭)",
+   "ang": "아이레벨(측면)",
+   "cam": "크래시 줌(진입 3프레임 약 1.29배) 후 고정",
+   "grid": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "act": "하늘색 리넨 셔츠로 바뀐 동료가 무언가를 내려다보고 놀라 손을 입가로 가져감(입술만 왼쪽 위에)",
+   "bg": "흐린 사무실",
+   "set": "herodesk",
+   "cap": {
+    "lb": "시간 경과 라벨(며칠 뒤)",
+    "ln": "놀란 감탄사 — 자모 단위 타이핑",
+    "sp": "cw2",
+    "fx": "라벨+타이핑"
+   },
+   "tr": "하드컷 + 크래시 줌(시간 점프)",
+   "sfx": "전환음: 저음 '둥'(약 75Hz) + 약 0.7초 '띠잉' 지속음(575·1150Hz, 측정) — 13.35초, 컷 0.02초 뒤",
+   "tech": "시간 점프 3종 세트(라벨 + 의상 교체 + 크래시 줌·전환음)",
+   "why": "셔츠만 바꿔 '며칠 뒤'를 1초 안에 설명하고, 2부(되갚기) 시작을 소리로 알림",
+   "img": "Side medium close-up of {CW2} in a light-blue linen button-up shirt with rolled sleeves, only his lips and chin visible at the top left edge, raising one hand to his mouth in surprise as he looks down at something; blurred office behind",
+   "mot": "He stops, leans in slightly and brings a hand up to his mouth in exaggerated surprise; his face stays cropped above the lips. Static camera; add a 3-frame crash zoom in the edit.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(라벨) 사흘 뒤 / (파랑) 헐 대박",
+   "cute": []
+  },
+  {
+   "n": 22,
+   "who": "hero",
+   "sz": "CU",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) — #24 원본을 약 1.9배로 잘라 먼저 사용",
+   "grid": [
+    2,
+    4,
+    5,
+    8
+   ],
+   "act": "헤드폰을 쓰고 컬러칩 부채를 든 주인공 머리 위로 동료 검지가 내려와 콕 찌름, 주인공은 앞만 봄",
+   "bg": "검정 메시 의자, 노트북 가장자리",
+   "set": "herodesk",
+   "cap": {
+    "lb": null,
+    "ln": "주인공 이름 부르기(동료)",
+    "sp": "cw2",
+    "fx": "기본"
+   },
+   "tr": "하드컷",
+   "sfx": "머리 찌르기 '톡톡'(권장)",
+   "tech": "손가락 찌르기(크기 대비) + 역할 반전 시작",
+   "why": "1부와 입장이 뒤집힘 — 이번엔 동료가 주인공 자리로 '놀러 옴'",
+   "img": "(Same source as shot 24, cropped about 1.9x) Close-up of {HERO} sitting in a black mesh office chair hugging an open paper color-swatch fan bigger than its body, looking ahead with big round glossy eyes while a giant human index finger pokes the top of its fluffy head from above",
+   "mot": "Edit: crop about 1.9x from the shot 24 source clip during the first poke.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(파랑) {이름}씨",
+   "cute": [
+    "헤드폰·시그니처 소품",
+    "머리 콕 찔림",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 23,
+   "who": "insert",
+   "sz": "INSERT(OTS 화면 근접)",
+   "ang": "아이레벨(주인공 뒤통수 너머)",
+   "cam": "크래시 줌(진입 2프레임 약 1.74배 — 모니터 전체→아이콘 화면) 후 고정. 같은 원본 디지털 줌(4단) 중 가장 가까운 단계(#25 원본 약 1.72배)",
+   "grid": [
+    4,
+    5,
+    8
+   ],
+   "act": "폴더·파일 아이콘으로 빈틈없이 덮인 바탕화면을 동료 검지가 짚으며 이동, 아래에 주인공 헤드폰 뒤통수",
+   "bg": "노트북 화면(짙은 파랑 산 배경화면 + 아이콘 격자)",
+   "set": "screen",
+   "cap": {
+    "lb": "숨은그림찾기 같은 바탕화면이라는 라벨",
+    "ln": "여기서 일이 되냐는 질문 앞부분 — 타이핑",
+    "sp": "cw2",
+    "fx": "라벨+타이핑"
+   },
+   "tr": "하드컷 + 크래시 줌",
+   "sfx": "발견 스팅 '두둥' 재사용(#8과 같은 A음 스팅, 14.56초 — 컷 0.06초 뒤)",
+   "tech": "OTS 리빌 + 크래시 줌 + 같은 스팅(1부 곰팡이 발견과 소리 운율)",
+   "why": "1부에서 주인공이 곰팡이를 발견한 문법을 그대로 되돌려 '이번엔 네 차례'를 소리·화면으로 선언",
+   "img": "(Same source as shot 25, cropped about 1.72x) Over-the-shoulder close shot from behind {HERO}'s head and round ears at the bottom of the frame: {SCREEN}, filling the frame; {CW2}'s index finger in a light-blue sleeve pointing at the icons from the lower left",
+   "mot": "Edit: crop about 1.72x from the shot 25 source clip and add a 2-frame crash zoom at the start while the finger slides across the icons. (For the adaptation, composite a browser with about 200 tiny tabs onto the screen.)",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) 탭 200개 열린 모니터 / (파랑) 이거 탭이",
+   "cute": [
+    "뒷모습(헤드폰 뒤통수)"
+   ]
+  },
+  {
+   "n": 24,
+   "who": "hero",
+   "sz": "MS",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 중 원본(#22는 이 클립의 약 1.9배 확대)",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "검정 메시 의자에 앉아 컬러칩 부채를 안은 주인공 머리를 동료 손가락이 위에서 콕콕, 앞에는 노트북",
+   "bg": "흐린 오픈 오피스, 흰 머그컵",
+   "set": "herodesk",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "질문 완성 — 이어 타이핑",
+    "sp": "cw2",
+    "fx": "타이핑 브릿지"
+   },
+   "tr": "하드컷",
+   "sfx": "머리 찌르기 '톡톡'(권장)",
+   "tech": "손가락 찌르기 반복 + 크기 대비",
+   "why": "사람 손가락 하나가 주인공 머리만 해서 크기 대비만으로 귀여움과 굴욕을 동시에",
+   "img": "Medium shot of tiny {HERO} sitting in a black mesh office chair at a light-oak desk, hugging an open paper color-swatch fan bigger than its body, facing an open silver laptop with big round glossy eyes, while {CW2}'s hand in a light-blue sleeve reaches in from above and pokes the top of its fluffy head with one finger; {HERODESK}",
+   "mot": "The finger pokes the top of the head twice; the {ANIMAL}'s head bobs down slightly with each poke but it keeps staring at the screen and blinks slowly. Static camera. Shot 22 is a crop of this clip.",
+   "gen": "ref",
+   "m": [
+    "seedance-2-0",
+    "kling-v3-omni",
+    "kling-v3"
+   ],
+   "new": "(라벨 유지) / +(파랑) 몇 개예요?",
+   "cute": [
+    "머리 콕 찔림",
+    "몸보다 큰 물건 안기",
+    "사람과 크기 대비",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 25,
+   "who": "insert",
+   "sz": "INSERT(OTS 화면 와이드)",
+   "ang": "아이레벨(주인공 뒤통수 너머)",
+   "cam": "고정(아주 느린 드리프트). 같은 원본 디지털 줌(4단) 중 원본(가장 넓은 화면)",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "모니터 전체가 보이는 넓은 화면, 동료 검지가 아이콘들을 짚고 아래에 주인공 헤드폰 뒤통수",
+   "bg": "노트북 화면 + 화면 아래 테두리",
+   "set": "screen",
+   "cap": {
+    "lb": null,
+    "ln": "어이없다는 감탄 — 타이핑",
+    "sp": "cw2",
+    "fx": "타이핑"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "같은 화면 인서트 반복(4회 중 2)",
+   "why": "대사 사이마다 화면을 다시 보여 줘 '증거'를 계속 들이밈",
+   "img": "Wide over-the-shoulder shot from behind {HERO}'s head and round ears at the bottom of the frame, looking at {SCREEN}; {CW2}'s index finger in a light-blue sleeve pointing at the icons from the left",
+   "mot": "His finger moves slowly across the icons, pointing at one after another; the {ANIMAL} stays still. Static camera. Generate about 5 seconds in 4K — shots 23, 27 and 31 are crops of this same clip. (For the adaptation, composite a browser with about 200 tiny tabs onto the screen.)",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "veo-3-1"
+   ],
+   "new": "(파랑) 아니 진짜",
+   "cute": [
+    "뒷모습(헤드폰 뒤통수)"
+   ]
+  },
+  {
+   "n": 26,
+   "who": "hero",
+   "sz": "CU",
+   "ang": "아이레벨(정면)",
+   "cam": "고정",
+   "grid": [
+    4,
+    5,
+    8
+   ],
+   "act": "정면 클로즈업, 동료 검지가 왼쪽에서 이마를 꾹 누르는데 주인공은 컬러칩 부채를 든 채 눈만 동그랗게 뜨고 버팀",
+   "bg": "검정 메시 의자",
+   "set": "herodesk",
+   "cap": {
+    "lb": "찌르는 손가락이 은근 신나 보인다는 반어 라벨",
+    "ln": "난이도 비난 → 자모를 띄어 쓴 비속 강조로 한 컷 안에서 교체",
+    "sp": "cw2",
+    "fx": "라벨+타이핑(한 컷 안에서 대사 교체)"
+   },
+   "tr": "하드컷",
+   "sfx": "이마 누르기 '톡톡'(권장)",
+   "tech": "무반응 리액션(느린 반응 개그) + 반어 라벨",
+   "why": "찔려도 표정 변화 없이 눈만 끔뻑 → 체념한 얼굴이 웃음 포인트",
+   "img": "Frontal close-up of {HERO} holding an open paper color-swatch fan bigger than its body, big round glossy eyes staring straight ahead without reacting while a giant human index finger presses into its fluffy forehead from the left",
+   "mot": "The finger presses and wiggles on its forehead twice; the {ANIMAL} blinks slowly and does not react at all. Static camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "veo-3-1"
+   ],
+   "new": "(라벨) 사흘 만에 복수 모드 ON / (파랑) 너무 많아서 → (라벨 유지) / (파랑) 바코드인 줄?",
+   "cute": [
+    "머리 콕 찔림",
+    "동그란 눈 클로즈업",
+    "몸보다 큰 물건 안기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 27,
+   "who": "insert",
+   "sz": "INSERT(OTS 화면)",
+   "ang": "아이레벨(주인공 뒤통수 너머)",
+   "cam": "고정. 같은 원본 디지털 줌(4단) 중 2단계(#25 원본 약 1.05배)",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "#25와 같은 화면 인서트, 검지가 계속 아이콘을 짚음",
+   "bg": "노트북 화면",
+   "set": "screen",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "cw2",
+    "fx": "브릿지"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "같은 화면 인서트 반복(4회 중 3)",
+   "why": "대사 끝을 다시 증거 화면에 걸어 둠",
+   "img": "(Same source as shot 25, cropped about 1.05x) Over-the-shoulder shot from behind {HERO}'s head: {SCREEN}; {CW2}'s index finger pointing at the icons",
+   "mot": "Edit: crop about 1.05x from a later moment of the shot 25 source clip.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "뒷모습(헤드폰 뒤통수)"
+   ]
+  },
+  {
+   "n": 28,
+   "who": "hero",
+   "sz": "ECU",
+   "ang": "아이레벨(정면)",
+   "cam": "크래시 줌(2~3프레임 약 1.15배 펀치인) 후 고정. 같은 원본 디지털 줌(2단) 중 원본",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "헤드폰 쓴 얼굴 초근접, 입을 꾹 다문 무표정 — 멍하게 말로 두드려 맞는 중",
+   "bg": "검정 메시 의자, 아래 컬러칩 부채",
+   "set": "herodesk",
+   "cap": {
+    "lb": null,
+    "ln": "(맞고 있는 중이라는 괄호 속마음 — 자모 분리 비속 강조 포함)",
+    "sp": "hero",
+    "fx": "괄호 자막"
+   },
+   "tr": "하드컷 + 크래시 줌",
+   "sfx": "펀치 임팩트 '퍽' 1(약 32Hz 저음, 17.60초 — 컷 0.07초 앞)",
+   "tech": "효과음 히트 + 펀치인(말로 맞는 걸 타격처럼)",
+   "why": "말싸움을 권투처럼 연출 — 한 방 맞을 때마다 화면이 튐",
+   "img": "Extreme close-up of {HERO}'s face filling the frame, big round glossy black eyes staring blankly, mouth pressed into a tiny flat line, fluffy cheeks, whiskers perfectly still; a color-swatch fan edge at the bottom right",
+   "mot": "Still image of the blank stare (or a 2-second clip with one slow blink); in the edit add a 2–3 frame punch-in about 1.15x on an impact sound. Shot 29 is a 1.4x crop of the same image.",
+   "gen": "still",
+   "m": [
+    "still",
+    "minimax-h3"
+   ],
+   "new": "(탈탈 털리는 중)",
+   "cute": [
+    "멍한 눈",
+    "동그란 눈 클로즈업",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 29,
+   "who": "hero",
+   "sz": "ECU(더 가까이)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) — #28 원본을 약 1.4배로 더 잘라 붙임",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "같은 무표정 초근접이 한 단계 더 커짐",
+   "bg": "없음(얼굴이 화면 전체)",
+   "set": "herodesk",
+   "cap": {
+    "lb": null,
+    "ln": "(괄호 자막 유지)",
+    "sp": "hero",
+    "fx": "브릿지"
+   },
+   "tr": "하드컷(같은 원본 확대 컷인)",
+   "sfx": "펀치 임팩트 '퍽' 2(18.02초 — 컷 0.05초 뒤)",
+   "tech": "2단 디지털 줌 + 두 번째 타격",
+   "why": "두 번째 히트에 화면이 더 가까워져 '연타' 느낌",
+   "img": "(Same source as shot 28, cropped about 1.4x) Extreme close-up of {HERO}'s blank face: big round glossy eyes staring, pink nose, long whiskers",
+   "mot": "Edit: crop about 1.4x from the shot 28 source on the second impact sound.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "멍한 눈",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 30,
+   "who": "group",
+   "sz": "MS(와이드 투샷)",
+   "ang": "아이레벨",
+   "cam": "고정(아주 느린 드리프트). #34와 같은 와이드 구도(같은 키프레임)",
+   "grid": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "act": "동료가 의자 등받이에 팔짱을 끼고 허리를 숙여 들여다보고, 주인공은 부채를 안은 채 억지로 입꼬리를 올림 — 얼굴 옆 작은 괄호 주석(억지 미소에 게임 스탯처럼 +숫자)",
+   "bg": "오픈 오피스, 노트북, 흰 머그컵",
+   "set": "herodesk",
+   "cap": {
+    "lb": "고마운 동료라는 반어 라벨",
+    "ln": "바탕화면 디자인을 비꼬는 질문 앞부분 — 타이핑",
+    "sp": "cw2",
+    "fx": "라벨+타이핑 + 얼굴 옆 작은 괄호 주석"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "반어 라벨 + 게임 스탯식 주석 + 크기 대비 와이드",
+   "why": "다시 보기 최고점 구간(18.5~20.8초)의 시작 — 공격하는 사람과 억지로 웃는 작은 동물을 한 화면에",
+   "img": "Medium wide shot at desk height: {CW2} in a light-blue linen shirt bending over with his arms folded on the back of a black mesh office chair, his face out of frame above the lips; tiny {HERO} sitting in the chair hugging an open paper color-swatch fan bigger than its body, forcing a stiff polite smile with squeezed eyes and puffed cheeks; an open silver laptop and a white mug on the desk; {HERODESK}",
+   "mot": "He leans in with folded arms and talks smugly; the {ANIMAL} holds a stiff forced smile, cheeks twitching. Static camera.",
+   "gen": "ref",
+   "m": [
+    "seedance-2-0",
+    "kling-v3-omni",
+    "gemini-omni-1-1-flash"
+   ],
+   "new": "(라벨) 걱정하는 척 확인 사살 / (파랑) 이거 계산대에 찍으면",
+   "cute": [
+    "억지 미소(눈웃음)",
+    "사람과 크기 대비",
+    "몸보다 큰 물건 안기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 31,
+   "who": "insert",
+   "sz": "INSERT(OTS 화면)",
+   "ang": "아이레벨(주인공 뒤통수 너머)",
+   "cam": "고정(살짝 뒤로 빠짐). 같은 원본 디지털 줌(4단) 중 3단계(#25 원본 약 1.16배)",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "화면 인서트 4번째, 검지가 아이콘을 짚음",
+   "bg": "노트북 화면",
+   "set": "screen",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "질문 뒷부분(앞 자막을 지우고 새로 타이핑)",
+    "sp": "cw2",
+    "fx": "라벨 유지+타이핑"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "같은 화면 인서트 반복(4회 중 4)",
+   "why": "펀치라인 순간 시청자도 화면을 '숨은그림찾기'처럼 다시 봄(다시 보기 최고점)",
+   "img": "(Same source as shot 25, cropped about 1.16x) Over-the-shoulder shot from behind {HERO}'s head: {SCREEN}; {CW2}'s index finger pointing at the icons",
+   "mot": "Edit: crop about 1.16x from the shot 25 source clip with a very slight pull-back.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨 유지) / (파랑) 얼마 나와요?",
+   "cute": [
+    "뒷모습(헤드폰 뒤통수)"
+   ]
+  },
+  {
+   "n": 32,
+   "who": "cw2",
+   "sz": "MCU(입술·가슴)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) — #34 와이드 원본을 약 1.9배로 잘라 사용",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "허리를 숙인 동료의 입꼬리가 얄밉게 올라간 채 말함(입술만 보임), 아래에 주인공 헤드폰 끝",
+   "bg": "흐린 사무실",
+   "set": "herodesk",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "cw2",
+    "fx": "브릿지"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "립 컷(얄미운 입꼬리)",
+   "why": "공격하는 쪽의 여유로운 미소를 입만으로 보여 줌",
+   "img": "(Same source as shot 34, cropped about 1.9x) Medium close-up of {CW2} in a light-blue linen shirt bending forward, only his smirking lips and chin visible at the top of the frame; the top of tiny {HERO}'s head at the bottom edge",
+   "mot": "Edit: crop about 1.9x from the shot 34 source clip while he smirks and finishes his line.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": []
+  },
+  {
+   "n": 33,
+   "who": "hero",
+   "sz": "ECU",
+   "ang": "아이레벨(정면)",
+   "cam": "크래시 줌(2~4프레임 약 1.15배 펀치인) 후 고정",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈을 초승달로 접고 볼을 부풀린 채 입을 꾹 다문 억지 눈웃음 — 헛웃음",
+   "bg": "검정 메시 의자, 아래 컬러칩 부채",
+   "set": "herodesk",
+   "cap": {
+    "lb": "방심하다 당했다는 라벨",
+    "ln": "짧은 헛웃음",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷 + 크래시 줌",
+   "sfx": "펀치 임팩트 '퍽' 3(20.67초 — 컷 0.03초 앞) + 헛웃음 숨소리",
+   "tech": "효과음 히트 + 펀치인(결정타)",
+   "why": "마지막 한 방을 맞고도 웃으며 버티는 얼굴 — 사회생활 미소 공감",
+   "img": "Extreme close-up of {HERO} forcing a polite smile: big glossy eyes squeezed into happy crescents, fluffy cheeks puffed up, mouth closed in a tight little smile, whiskers stiff; a color-swatch fan at the bottom",
+   "mot": "Still image of the forced smile (or a short clip where the eyes squeeze into crescents); in the edit add a 2–3 frame punch-in about 1.15x on an impact sound.",
+   "gen": "still",
+   "m": [
+    "still",
+    "minimax-h3",
+    "hailuo-2-3"
+   ],
+   "new": "(라벨) 방심하다 역으로 털린 {PUN} / 헤헷…",
+   "cute": [
+    "억지 미소(눈웃음)",
+    "볼 빵빵·오물오물",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 34,
+   "who": "group",
+   "sz": "MS(와이드 투샷)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 중 원본(#32는 이 클립의 약 1.9배 확대) · #30과 같은 와이드 구도",
+   "grid": [
+    4,
+    5,
+    7
+   ],
+   "act": "주인공이 컬러칩 부채를 방패처럼 들어 몸을 가리고 동료를 올려다보며 변명, 동료는 뒤에서 숙인 채",
+   "bg": "노트북, 흰 머그컵, 오픈 오피스",
+   "set": "herodesk",
+   "cap": {
+    "lb": null,
+    "ln": "동료가 했던 변명을 거의 그대로 되풀이 + 웃는 이모티콘",
+    "sp": "hero",
+    "fx": "기본(말끝 이모티콘)"
+   },
+   "tr": "하드컷",
+   "sfx": "주인공 대사(약 324Hz, 애써 밝게)",
+   "tech": "대사 콜백(#14~#15 변명 되돌려주기)",
+   "why": "1부에서 동료가 한 변명을 주인공이 그대로 하게 돼 '되갚음'이 완성",
+   "img": "Medium wide shot at desk height: tiny {HERO} sitting in a black mesh office chair holding an open paper color-swatch fan bigger than its body up in front of itself like a shield, peeking over it at {CW2} with big round glossy eyes and an awkward smile; {CW2} bends over behind the chair, his face out of frame above the lips; an open silver laptop and a white mug; {HERODESK}",
+   "mot": "The {ANIMAL} raises the fan up to its chin and answers with an awkward, overly bright smile; the man stays bent over and smirks. Static camera. Shot 32 is a crop of this clip.",
+   "gen": "ref",
+   "m": [
+    "seedance-2-0",
+    "kling-v3-omni",
+    "gemini-omni-1-1-flash"
+   ],
+   "new": "오늘 닫으려고 했어요^^",
+   "cute": [
+    "부채 뒤에 숨기",
+    "몸보다 큰 물건 안기",
+    "사람과 크기 대비",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 35,
+   "who": "cw2",
+   "sz": "MS(상반신 · 얼굴 프레임 밖)",
+   "ang": "아이레벨",
+   "cam": "고정. 인물이 몸을 펴고 돌아서 오른쪽으로 걸어 나가며 프레임 아웃(끝에 밝은 창만 남음)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "동료가 허리를 펴고 돌아서 걸어 나가며 감탄하는 척 마지막 한마디",
+   "bg": "밝은 창가, 흐린 사무실",
+   "set": "herodesk",
+   "cap": {
+    "lb": "끝까지 제대로 되갚는다는 라벨",
+    "ln": "감탄하는 척 비꼬는 마무리 — 타이핑",
+    "sp": "cw2",
+    "fx": "라벨+타이핑"
+   },
+   "tr": "하드컷",
+   "sfx": "의자 삐걱 + 발소리(권장)",
+   "tech": "퇴장 컷(말하며 프레임 아웃)",
+   "why": "마지막 말을 남기고 떠나 반박할 틈을 없앰 — 얄미움 최고조",
+   "img": "Medium shot of {CW2} in a light-blue linen shirt straightening up and turning away to walk out of frame to the right, his face out of frame; bright office windows behind",
+   "mot": "He straightens up, turns and walks out of frame to the right while saying a last line over his shoulder; the frame ends on bright blurred windows. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(라벨) 받은 만큼 이자 쳐서 갚는 도윤씨 / (파랑) 역시 멀티태스킹 장인~",
+   "cute": []
+  },
+  {
+   "n": 36,
+   "who": "hero",
+   "sz": "MS",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 중 원본(#1 타이틀 카드 약 1.6배, #37 약 2.1배가 같은 소스)",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "혼자 남은 주인공이 부채를 끌어안고 눈을 질끈 감은 채 입을 꾹 — 참으며 욕을 중얼",
+   "bg": "검정 메시 의자, 노트북",
+   "set": "herodesk",
+   "cap": {
+    "lb": "괜히 놀렸다가 곱절로 돌려받았다는 정리 라벨",
+    "ln": "욕을 영문자 + 한글로 우회한 중얼거림",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷",
+   "sfx": "험한 마음 저음 드론 시작(약 48Hz, 배음 96·145Hz — 23.7초) + 속삭이는 중얼거림(음정 없음)",
+   "tech": "저음 드론 + 욕 우회 표기(소리 대신 글자로)",
+   "why": "직접 욕하지 않고 표정·글자만으로 속마음을 보여 줘 귀여움을 유지",
+   "img": "Medium shot of {HERO} alone in a black mesh office chair hugging an open paper color-swatch fan bigger than its body, eyes squeezed shut and mouth pressed tight, cheeks puffed, trembling with suppressed anger; an open silver laptop at the right edge; {HERODESK}",
+   "mot": "The {ANIMAL} squeezes its eyes shut, trembles slightly and mutters, then opens its eyes into a narrow grudging glare over the fan (that part is cropped for shot 37 and the title card). Static camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "minimax-h3",
+    "hailuo-2-3"
+   ],
+   "new": "(라벨) 먼지 놀렸다가 탭으로 맞은 {PUN} / 십장생…",
+   "cute": [
+    "눈 꼭 감고 참기",
+    "몸보다 큰 물건 안기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 37,
+   "who": "hero",
+   "sz": "ECU",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(3단) — #36 원본을 약 2.1배로 잘라 붙임(첫 프레임 타이틀 카드와 같은 구도)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "부채 너머로 눈썹을 내리깔고 째려보는 초근접 — 험한 속마음",
+   "bg": "검정 메시 의자",
+   "set": "herodesk",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(험한 속마음 괄호 자막)",
+    "sp": "hero",
+    "fx": "라벨 유지 + 괄호 자막"
+   },
+   "tr": "하드컷 → 0.9초 후 뚝 끊고 종료(다음 반복의 첫 프레임 타이틀 카드와 같은 구도라 루프 연결)",
+   "sfx": "저음 드론 지속 → 하드 컷아웃",
+   "tech": "루프 엔딩(마지막 구도 = 첫 프레임 타이틀 카드)",
+   "why": "귀여운 얼굴의 악당 눈빛(갭 모에)으로 끝내고, 반복 재생 때 제목이 붙어 다시 시작",
+   "img": "(Same source as shot 36, cropped about 2.1x) Extreme close-up of {HERO} peeking over the top edge of an open paper color-swatch fan, big glossy eyes narrowed into a sly grudging glare, brows lowered, fluffy cheeks, round ears; dark mesh chair behind",
+   "mot": "Edit: crop about 2.1x from the end of the shot 36 source clip when the eyes open into a glare; hold 0.9 s and end with a hard cut.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨 유지) / (복수 계획 저장 중…)",
+   "cute": [
+    "째려보기(악당 눈빛)",
+    "부채 뒤에 숨기",
+    "헤드폰·시그니처 소품"
+   ]
+  }
+ ],
+ "sound": {
+  "summary": "대사 + 효과음 히트로만 구성, 연속 BGM은 측정상 거의 없음: 25~90Hz 저역이 대사 구간 내내 비어 있고(기준 -10dB 안팎) 효과음 순간에만 +17~+39dB로 튐, 대사 사이 공백은 룸톤 수준의 잡음(스펙트럼 평탄도 0.29~0.43). 말소리 약 69%(17.2초/25.1초), 거의 무음 7.5%. 효과음은 ①4.18초 곰팡이 발견과 14.56초 바탕화면 발견에 같은 A음 스팅(110·220·440Hz + E 165·330Hz) ②13.35초 '며칠 후'에 저음 '둥'(75Hz) + 0.7초 '띠잉' 지속음(575·1150Hz) ③17.60·18.02·20.67초 펀치 저음 히트(약 32Hz) ④23.7초부터 약 48Hz(G1 근처) 저음 지속음 → 끝까지. 컷-소리 시작점 일치율 33.3%(12/36)로 우연 기준선 22.3%(온셋 35개×0.16초÷25.1초)의 1.5배 — 일치한 12컷 중 6컷은 효과음 히트를 컷 시작에 붙인 자리, 나머지 6컷은 대사 음절 시작. 자동 추정 템포 129.2BPM은 음악이 아니라 대사·효과음에 끌린 값. 통합 라우드니스 -27.0 LUFS",
+  "voices": [
+   {
+    "who": "주인공",
+    "spec": "구간별 기본 주파수 중앙값 약 259~394Hz(성인 여성 평균 210Hz보다 4~11반음 높음). 대답이 가장 높고(약 394Hz, +10.9반음), 나이 묻기 약 368Hz, 정색한 혐오 표현 약 276Hz, 놀리는 긴 문장 약 259Hz로 한 톤 낮춰 능청. 콜백 대사는 약 324Hz로 애써 밝게. 마지막 욕 중얼거림은 음정이 잡히지 않는 속삭임",
+    "tts": "밝은 20대 여성 목소리 → 피치 +5~+9반음, 속도 1.1배. 대답·질문 줄은 +9반음, 놀리는 줄은 +4반음에 말끝을 늘여 능청스럽게, 마지막 줄은 속삭임(whisper) 스타일로 작게"
+   },
+   {
+    "who": "동료(남)",
+    "spec": "구간별 중앙값 약 172~232Hz — 일반 성인 남성(약 120Hz)보다 높은 부드럽고 가벼운 톤. 업무·변명 대사는 184~211Hz로 평이하게, 반격 대사는 172~183Hz로 오히려 낮고 느긋하게(차분할수록 얄미움), 퇴장 감탄은 232Hz로 살짝 올림",
+    "tts": "20~30대 남성, 나긋한 존댓말, 속도 0.95배, 피치 +2~+3반음. 반격 대사는 미소 섞인 톤(smiling voice)으로"
+   },
+   {
+    "who": "내레이션",
+    "spec": "음성 없음 — 라벨·괄호 자막으로만 존재",
+    "tts": "생성하지 않음. 라벨이 뜨는 순간은 효과음(스팅·히트)으로 채움"
+   }
+  ],
+  "bgm": {
+   "guess": "(추정 — 청취 확인 필요) 연속 BGM 없이 대사·룸톤·효과음만으로 구성. 음악적 요소는 짧은 스팅과 지속음뿐: 발견 스팅(A 루트 파워코드 계열, 약 0.6초 감쇠) 2회, 시간 점프 '띠잉' 지속음 1회, 엔딩 G1 근처 저음 드론 1.5초. 자동 템포 129.2BPM은 신뢰도 없음",
+   "rec": "BGM 없이 효과음 4종으로 구성 권장: ①발견 스팅(같은 소리를 #8·#23에 두 번 — 소리로 '주고받기' 대칭) ②시간 점프 전환음(저음 '둥' + 0.7초 반짝 지속음) ③펀치 히트 3발(#28·#29·#33 컷 시작에 정확히) ④엔딩 저음 드론(G1, 1.5초, 루프 직전 뚝). 꼭 BGM을 넣는다면 대사 대비 -24dB 이하의 아주 옅은 오피스 룸톤 느낌만",
+   "level": "스팅·펀치 히트는 대사와 비슷한 크기(0.1초 창 RMS 약 -20~-25dB), 엔딩 드론은 대사보다 약 10dB 작게(-30~-35dB), 대사 사이 룸톤은 -45dB 안팎"
+  },
+  "sfx": [
+   {
+    "t": 0.0,
+    "s": "무음 3프레임(타이틀 카드)",
+    "why": "#1 썸네일 프레임 — 대사는 0.12초부터"
+   },
+   {
+    "t": 0.12,
+    "s": "옅은 사무실 앰비언스(먼 대화·룸톤, 음악 없음)",
+    "why": "1부 대화의 바닥 소리"
+   },
+   {
+    "t": 2.8,
+    "s": "코 킁킁 3번(작은 숨소리)",
+    "why": "#6 냄새 맡기 — 괄호 의성어와 동기"
+   },
+   {
+    "t": 3.62,
+    "s": "역겨움 비명(높은 치찰음 섞인 목소리)",
+    "why": "#7 앞발로 입 가리기"
+   },
+   {
+    "t": 4.18,
+    "s": "발견 스팅 '두둥'(A음 110·220·440Hz + E음, 측정)",
+    "why": "#8 컵 속 곰팡이 크래시 줌(컷 0.01초 뒤)"
+   },
+   {
+    "t": 5.05,
+    "s": "정색한 목소리(약 276Hz)",
+    "why": "#9 음절 점 찍기 혐오 표현"
+   },
+   {
+    "t": 6.7,
+    "s": "표정 스티커 바뀔 때 '뾰롱'(권장)",
+    "why": "#12 곰팡이가 귀여운 얼굴로 변신"
+   },
+   {
+    "t": 10.1,
+    "s": "머그컵 끄는 달그락(권장)",
+    "why": "#17 컵 슬쩍 치우기"
+   },
+   {
+    "t": 13.35,
+    "s": "시간 점프 저음 '둥'(약 75Hz, 측정)",
+    "why": "#21 며칠 후 크래시 줌(컷 0.02초 뒤)"
+   },
+   {
+    "t": 13.4,
+    "s": "'띠잉' 차임 지속음(약 575·1150Hz, 0.7초, 측정)",
+    "why": "시간 경과 표시 — 2부 시작 신호"
+   },
+   {
+    "t": 14.15,
+    "s": "머리 찌르기 '톡톡'(권장)",
+    "why": "#22 손가락 콕"
+   },
+   {
+    "t": 14.56,
+    "s": "발견 스팅 '두둥' 재사용(#8과 같은 A음, 측정)",
+    "why": "#23 바탕화면 크래시 줌 — 1부 발견과 소리 운율"
+   },
+   {
+    "t": 15.15,
+    "s": "머리 찌르기 '톡톡'(권장)",
+    "why": "#24 반복 찌르기"
+   },
+   {
+    "t": 16.1,
+    "s": "이마 누르기 '톡톡'(권장)",
+    "why": "#26 무반응 찌르기"
+   },
+   {
+    "t": 17.6,
+    "s": "펀치 임팩트 '퍽' 1(약 32Hz 저음, 측정)",
+    "why": "#28 무표정 초근접 펀치인(컷 0.07초 앞)"
+   },
+   {
+    "t": 18.02,
+    "s": "펀치 임팩트 '퍽' 2(측정)",
+    "why": "#29 2단 디지털 줌 — 연타"
+   },
+   {
+    "t": 20.67,
+    "s": "펀치 임팩트 '퍽' 3(측정)",
+    "why": "#33 결정타 크래시 줌(컷 0.03초 앞)"
+   },
+   {
+    "t": 20.8,
+    "s": "헛웃음 숨소리",
+    "why": "#33 억지 눈웃음"
+   },
+   {
+    "t": 22.35,
+    "s": "의자 삐걱 + 발소리(권장)",
+    "why": "#35 동료 퇴장"
+   },
+   {
+    "t": 23.7,
+    "s": "험한 마음 저음 드론(약 48Hz, 배음 96·145Hz, 측정)",
+    "why": "#36~#37 악당 눈빛 엔딩"
+   },
+   {
+    "t": 24.02,
+    "s": "속삭이는 욕 중얼거림(음정 없음)",
+    "why": "#36 우회 표기 욕과 동기"
+   },
+   {
+    "t": 25.1,
+    "s": "하드 컷아웃(모든 소리 뚝)",
+    "why": "루프 — 첫 프레임 타이틀 카드로 연결"
+   }
+  ],
+  "suno": "Short comedic discovery sting, a punchy orchestral dun-dun hit on A with low brass, timpani and a dry string stab, quick decay, 1.5 seconds, no vocals",
+  "suno2": "Time-skip transition sound, a soft low boom followed by a sustained shimmering bell tone that fades out over one second, clean and bright, no vocals, 2 seconds",
+  "suno3": "Ominous comedic grudge drone, one sustained deep synth bass note around G1 with a dark organ-like overtone and slight tremolo, tense but cute villain vibe, 2 seconds then abrupt stop, no vocals",
+  "mix": "최종 -14 LUFS(유튜브 기준), 트루피크 -1dBTP. 원본은 통합 -27.0 LUFS·트루피크 -7.7dBFS로 작게 마스터링, 라우드니스 범위 5.9LU로 좁음(대사가 쉬지 않아 고른 편). 올릴 때 저역이 큰 스팅·펀치(30~110Hz)가 리미터에 먼저 걸리므로 효과음 버스에 저역 리미터를 따로 걸고, 엔딩 드론은 -1dBTP 안에서 살려 둘 것"
+ },
+ "edit": {
+  "timeline": "30fps, 1920×1080 분석본(원본 업로드는 3840×2160 — 4K로 만들어야 2~3배 디지털 줌에도 선명). 37컷, 평균 0.68초(약 20프레임), 중앙값 0.63초(19프레임), 분당 약 88컷. 가장 짧은 컷 0.10초(#1 타이틀 카드 3프레임), 본편 최단 0.30초(#28, 9프레임), 최장 1.33초(#35, 40프레임). 전환은 전부 하드컷(디졸브 0), 크래시 줌 5회(#8, #21, #23, #28, #33). 생성 원본 20개 → 디지털 줌·재사용으로 37컷",
+  "rules": [
+   "AI 영상은 4K·4~5초로 생성하고, 한 클립을 1.0~3배 디지털 줌으로 잘라 여러 컷에 나눠 쓴다(화면 인서트 1개 → 4컷, 서 있는 주인공 1개 → 4컷)",
+   "대사 한 줄 = 컷 1~3개. 같은 원본의 줌 단계를 올리며 펀치라인에 다가간다(#18→#19→#20)",
+   "동료 대사는 주인공 얼굴·화면 인서트 위에 얹는다(L컷) — 공격받는 쪽 표정을 계속 보여 주기",
+   "발견·시간 점프·타격 순간에만 2~3프레임 크래시 줌 + 저음 효과음을 컷 시작 ±0.07초에 붙인다. 나머지는 전부 하드컷",
+   "1부와 2부를 같은 문법으로 맞춘다: 발견 크래시 줌 + 같은 스팅, 변명 대사 → 되돌려주기",
+   "라벨은 거의 매 컷 새 문구(반어 논평), 대사만 자모 단위로 타이핑, 괄호 자막·주석은 통째로",
+   "마지막 컷은 첫 프레임 타이틀 카드와 같은 원본·같은 구도로 끝내고 여백 없이 뚝 끊는다(루프)"
+  ]
+ },
+ "tech": [
+  {
+   "t": "썸네일 프레임 삽입(3프레임 타이틀 카드)",
+   "w": "#1",
+   "d": "0.1초짜리 첫 프레임에 결말과 같은 얼굴 + 속담 제목. 썸네일·첫 프레임 역할과 루프 연결을 한 번에"
+  },
+  {
+   "t": "인물 이름표(1회)",
+   "w": "#2~#3",
+   "d": "검정 박스 이름표로 동료가 하는 일과 이름을 0.7초 만에 소개. 이후 소개·정리는 반투명 라벨이 대신"
+  },
+  {
+   "t": "괄호 의성어 + 초근접 리액션",
+   "w": "#6→#7",
+   "d": "냄새 맡는 행동을 괄호 자막으로 들려 주고, 무엇을 봤는지 공개하기 전에 표정부터 ECU로"
+  },
+  {
+   "t": "POV 리빌 + 크래시 줌 + 같은 스팅",
+   "w": "#8, #23",
+   "d": "발견 순간 2프레임 급확대와 같은 A음 스팅. 1부와 2부에서 똑같이 써서 '주고받기'를 소리·화면으로 운율 맞춤"
+  },
+  {
+   "t": "사물 얼굴 스티커(캐릭터화)",
+   "w": "#8→#12",
+   "d": "곰팡이에 무표정 → 초롱초롱 표정 스티커. 같은 이미지를 1.22배 확대하며 표정만 바꿔 감정 변화를 줌"
+  },
+  {
+   "t": "반어·논평 라벨",
+   "w": "#12, #16~#19, #26, #30, #33, #35, #36",
+   "d": "거의 매 컷 편집자의 비꼬는 논평을 라벨로(편견 없는 동물, 고마운 동료 등). 대사가 없는 순간에도 웃음 유지"
+  },
+  {
+   "t": "아이러니 라벨",
+   "w": "#19~#20",
+   "d": "'곧 말하겠다'고 놀리는 주인공 자신이 말하는 동물이라는 모순을 라벨이 짚음"
+  },
+  {
+   "t": "같은 원본 디지털 줌(2~4단)",
+   "w": "#18→#19→#20(+#15), #25·#27·#31·#23, #24→#22, #36→#1·#37, #34→#32, #5→#4, #6→#2, #10→#11, #28→#29",
+   "d": "생성 클립 하나를 1.0~3.1배로 잘라 여러 컷에 재사용. 3단 줌은 펀치라인 문장을 나눠 점점 다가감 — 생성 원본 20개로 37컷"
+  },
+  {
+   "t": "L컷(듣는 쪽 화면 + 말하는 쪽 대사)",
+   "w": "#15, #22, #24, #26, #30",
+   "d": "동료 대사를 주인공 얼굴·화면 인서트 위에 얹어 공격받는 쪽 표정을 계속 보여 줌"
+  },
+  {
+   "t": "얼굴 옆 괄호 주석",
+   "w": "#15, #30",
+   "d": "표정을 해설하는 작은 괄호 글자를 얼굴 바로 옆에(경멸의 눈빛, 게임 스탯처럼 +숫자를 붙인 억지 미소)"
+  },
+  {
+   "t": "시간 점프 3종 세트",
+   "w": "#21",
+   "d": "'며칠 후' 라벨 + 동료 셔츠 교체 + 크래시 줌·전환음. 1초 안에 2부 시작"
+  },
+  {
+   "t": "효과음 히트 = 컷(펀치인)",
+   "w": "#28, #29, #33",
+   "d": "말싸움을 권투처럼: 저음 '퍽' 3발을 컷 시작에 붙이고 2~3프레임 펀치인. 2단 디지털 줌(#28→#29)으로 연타"
+  },
+  {
+   "t": "대사 콜백(변명 되돌려주기)",
+   "w": "#14~#15 → #34",
+   "d": "1부에서 동료가 한 변명을 2부에서 주인공이 거의 그대로 되풀이 — 제목의 '곱으로 받는다'를 대사로 완성"
+  },
+  {
+   "t": "자모 단위 타이핑 + 자모 분리 강조",
+   "w": "#4, #17, #18, #21, #26, #28",
+   "d": "대사가 자모 조합 과정까지 보이며 타이핑되고, 비속 접두어는 자모를 띄어 써서 순화 + 강조"
+  },
+  {
+   "t": "퇴장 컷",
+   "w": "#35",
+   "d": "마지막 한마디를 남기고 프레임 밖으로 걸어 나가 반박할 틈을 없앰"
+  },
+  {
+   "t": "루프 엔딩",
+   "w": "#36~#37 → #1",
+   "d": "저음 드론 + 째려보는 초근접으로 뚝 끊고, 같은 원본의 첫 프레임 타이틀 카드로 돌아감"
+  }
+ ],
+ "adapt": {
+  "premise": "예시 각색: 곰팡이 → '안 쓰는 머그컵 속에 쌓인 회색 먼지 뭉치(반려 먼지)'. 주인공이 컵 냄새를 맡다 재채기 → 컵 속 먼지 뭉치에 얼굴 스티커 → 먼지 전용 컵이냐, 이름은 지었냐, 하루 만에 이 정도면 곧 분양 보내도 되겠다며 놀림(아이러니 라벨: 털 날리기는 본인이 1등) → 동료는 오늘 닦으려 했다고 변명 → 사흘 뒤 동료가 주인공 브라우저의 탭 200개(바코드처럼 보임)를 발견 → 탭이 몇 개냐, 너무 많아서 바코드인 줄, 계산대에 찍으면 얼마 나오냐로 곱절 반격 → 주인공 '오늘 닫으려고 했어요^^'(닦다↔닫다 한 글자 말장난 콜백) → 동료 '역시 멀티태스킹 장인~' 하고 퇴장 → 주인공 우회 욕 + '(복수 계획 저장 중…)' → 첫 프레임 타이틀 카드 '놀린 값은 곱빼기'로 루프. 컵 속 내용물과 화면 내용만 바꾸면 원본 컷 구성을 그대로 쓸 수 있음",
+  "keep": [
+   "주고받기 대칭 구조(1부 13.2초 놀리기 / 2부 11.8초 되갚기)와 컷 타이밍(표의 초 단위 그대로)",
+   "발견 순간 크래시 줌 + 같은 스팅 2회(#8·#23), 시간 점프 전환음(#21), 펀치 효과음 3발(#28·#29·#33)",
+   "변명 대사 → 마지막 콜백(#14~#15 → #34)",
+   "같은 원본 디지털 줌 재사용(화면 4단, 서 있는 주인공 3단 등) — 생성 원본 20개로 37컷",
+   "자막 5층(이름표·반어 라벨·흰/파랑 대사·괄호 자막·얼굴 옆 주석), 자모 단위 타이핑",
+   "사람 얼굴 입 위 크롭",
+   "마지막 구도 = 첫 프레임 타이틀 카드(루프)"
+  ],
+  "change": [
+   "주인공 동물·시그니처 소품(원본 은색 헤드폰은 채널 상징이라 다른 소품 권장 — 원본은 1부에서 소품이 빠지지만 각색에서는 1·2부 모두 같은 소품으로 통일)",
+   "컵 속 내용물: 곰팡이 → 회색 먼지 뭉치(sets.mug 의 'fuzzy off-white mold colony' 를 'fluffy grey dust bunny' 로 바꿔 생성, 표정 스티커 2종은 그대로)",
+   "#23·#25·#27·#31 화면: 아이콘 바탕화면 → 작은 탭 약 200개가 바코드처럼 늘어선 브라우저(편집에서 화면 합성)",
+   "#7 역겨움 리액션 → 재채기(앞발로 입 가리는 동작은 유지)",
+   "대사·라벨·괄호 문구·동료 이름·#1 타이틀 카드 문구 전부(예시 각색 대사를 새로 제공)",
+   "컬러칩 부채는 유지하거나 작은 스프링 플래너로 교체(몸을 가리는 방패 역할만 유지)"
+  ],
+  "costume": "no fantasy costume in this video; optional signature prop instead of the original silver headphones: a tiny navy lanyard with a white employee ID card, worn in every shot for continuity"
+ },
+ "batches": [
+  {
+   "name": "A. 동료 책상 투샷",
+   "shots": [
+    2,
+    6
+   ],
+   "how": "세트 키프레임(동료 상반신 + 책상 위 서 있는 주인공 + 머그컵) 1장 → 참조형 5초 1~2회. 앞 1초는 서서 듣기(#2로 약 1.24배 크롭), 뒤는 컵 쪽으로 돌아 킁킁(#6)"
+  },
+  {
+   "name": "B. 책상 위 서서 대답",
+   "shots": [
+    4,
+    5
+   ],
+   "how": "#5 원본 5초 1회(두 발로 서서 끄덕이며 대답) → #4는 약 1.57배 크롭"
+  },
+  {
+   "name": "C. 동료 상반신(회색 티셔츠)",
+   "shots": [
+    3,
+    14,
+    17
+   ],
+   "how": "동료 기준 이미지(얼굴은 입 위 크롭) → 5초 2회(말하기 / 컵 치우기). #14는 #3 원본을 위로 리프레임"
+  },
+  {
+   "name": "D. 얼굴 초근접(1부)",
+   "shots": [
+    7,
+    9,
+    16
+   ],
+   "how": "표정 과장 모델로 4~6초 2회(앞발로 입 가리기 / 찡그림→정색 질문). #16은 #9 원본 뒷부분 재사용"
+  },
+  {
+   "name": "E. 머그컵 매달리기",
+   "shots": [
+    10,
+    11,
+    13
+   ],
+   "how": "측면 매달리기 5초 1회(#11은 약 1.6배 크롭) + 컵에 앞발 걸친 능청 미소 1회"
+  },
+  {
+   "name": "F. 컵 속 POV 이미지",
+   "shots": [
+    8,
+    12
+   ],
+   "how": "이미지 1장 + 편집(크래시 줌, 표정 스티커 2종). #12는 같은 이미지 약 1.22배"
+  },
+  {
+   "name": "G. 서서 놀리기 3단 줌",
+   "shots": [
+    15,
+    18,
+    19,
+    20
+   ],
+   "how": "#18 원본 4K 5초 1회 → #15(약 1.45배)·#19(약 1.56배 + 느린 푸시인)·#20(약 3.1배) 전부 디지털 크롭"
+  },
+  {
+   "name": "H. 동료(하늘색 셔츠)",
+   "shots": [
+    21,
+    35
+   ],
+   "how": "같은 동료 기준 이미지에 셔츠만 교체 → 5초 2회(놀라 입 가리기 / 허리 펴고 퇴장). #21은 편집 크래시 줌"
+  },
+  {
+   "name": "I. 머리 찌르기",
+   "shots": [
+    22,
+    24,
+    26
+   ],
+   "how": "#24 MS 원본 5초 1회(#22는 약 1.9배 크롭) + 정면 CU 이마 누르기 1회(#26). 손가락은 사람 손이 잘 나오는 모델로"
+  },
+  {
+   "name": "J. 화면 OTS(아이콘 바탕화면)",
+   "shots": [
+    23,
+    25,
+    27,
+    31
+   ],
+   "how": "#25 와이드 클립 1개(4K 5초) → 4단 디지털 줌(1.0/1.05/1.16/1.72배)으로 네 번 사용. 화면 내용은 편집 합성, #23만 크래시 줌"
+  },
+  {
+   "name": "K. 무표정·억지 미소 초근접(2부)",
+   "shots": [
+    28,
+    29,
+    33
+   ],
+   "how": "정지 이미지 2장(멍한 무표정 / 초승달 눈웃음) + 편집 펀치인·임팩트. #29는 #28 이미지 약 1.4배"
+  },
+  {
+   "name": "L. 와이드 투샷(숙인 동료 + 부채 든 주인공)",
+   "shots": [
+    30,
+    32,
+    34
+   ],
+   "how": "같은 키프레임으로 5초 2회(억지 미소 / 부채 들어 변명). #32는 #34 원본 약 1.9배 크롭"
+  },
+  {
+   "name": "M. 엔딩·타이틀 카드",
+   "shots": [
+    1,
+    36,
+    37
+   ],
+   "how": "#36 원본 5초 1회(눈 감고 참기 → 째려보기) → #37(약 2.1배)·#1(약 1.6배 + 제목 텍스트 3프레임)은 편집"
+  }
+ ],
+ "cute_moments": [
+  {
+   "moment": "두 발로 서서 올려다보는 작은 직장인",
+   "shots": [
+    2,
+    4,
+    5,
+    15,
+    18,
+    19
+   ],
+   "why": "20cm 동물이 책상 위에 두 발로 서서 앞발을 가슴 앞에 모으고 사람을 올려다보며 존댓말로 대답 — 사람 같은 행동 + 노트북·머그컵과의 크기 대비. 같은 원본을 1.0~3.1배로 잘라 계속 보여 줘 자세 자체가 캐릭터가 됨",
+   "prompt": "{HERO} standing upright on its hind legs on a light-oak office desk beside an open laptop, tiny front paws held together at its chest, looking up at a person off-screen with big round glossy eyes, mouth slightly open as if answering politely, the laptop and a mug towering over it",
+   "motion": "Gives two small eager nods, bounces lightly on its hind legs and wiggles its tiny paws at its chest while answering; whiskers twitch."
+  },
+  {
+   "moment": "코 킁킁 → 앞발로 입 틀어막기",
+   "shots": [
+    6,
+    7
+   ],
+   "why": "작은 코를 실룩이며 냄새를 맡다가 초근접에서 두 앞발을 입에 가져가는 과장 리액션 — 동물 행동(킁킁)과 사람 리액션(입 막기)을 연달아 붙인 갭",
+   "prompt": "Extreme close-up of {HERO}'s face filling the frame, big round glossy eyes wide open, both tiny pink front paws pressed against its mouth in disgust, whiskers pulled back, fluffy cheeks",
+   "motion": "Sniffs quickly with a twitching nose, then snaps both tiny paws up over its mouth and recoils slightly, eyes widening."
+  },
+  {
+   "moment": "몸만 한 머그컵 가장자리에 매달리기",
+   "shots": [
+    10,
+    11,
+    13
+   ],
+   "why": "컵이 몸만큼 커서 까치발로 매달려 머리를 넣는 자세만으로 크기 대비·호기심이 전달됨. 옆모습 볼·수염 확대(#11)로 털 질감까지",
+   "prompt": "{HERO} standing on tiptoe and clinging to the rim of a black ceramic mug nearly as tall as its body with both tiny front paws, dipping its head over the rim to peek inside, round ears perked, fluffy side profile with long whiskers",
+   "motion": "Pulls itself up on tiptoe with little scrabbling paws, dips its head into the mug, then pops back up and turns to talk."
+  },
+  {
+   "moment": "사물 얼굴 스티커(곰팡이 캐릭터화)",
+   "shots": [
+    8,
+    12
+   ],
+   "why": "징그러운 곰팡이에 무표정 얼굴 → '키우냐'는 말과 동시에 초롱초롱 눈·볼터치 얼굴로 바꿔 불쾌감을 귀여움으로 뒤집음(같은 이미지 1.22배 확대 + 스티커 교체)",
+   "prompt": "Top-down POV from {HERO}'s eye level into a black ceramic mug: a round fuzzy blob at the bottom wearing a cartoon face sticker with big sparkly teary eyes, pink blush and a tiny ω mouth",
+   "motion": "Still image; crash-zoom 2 frames into the mug, then pop the cute face sticker on with a tiny bounce."
+  },
+  {
+   "moment": "거대한 손가락에 머리 콕콕 찔리기",
+   "shots": [
+    22,
+    24,
+    26
+   ],
+   "why": "사람 검지 하나가 머리만 한 크기 대비. 찔려도 표정 변화 없이 눈만 끔뻑이는 '느린 반응'이 체념 개그가 됨",
+   "prompt": "{HERO} sitting in a black mesh office chair hugging an open paper color-swatch fan bigger than its body, big round glossy eyes staring straight ahead while a giant human index finger pokes the top of its fluffy head between its round ears",
+   "motion": "The finger pokes two or three times; its head bobs down slightly with each poke but it keeps staring ahead and blinks slowly, completely unbothered."
+  },
+  {
+   "moment": "멍한 눈 초근접(말로 맞는 중)",
+   "shots": [
+    28,
+    29
+   ],
+   "why": "말로 두드려 맞는 동안 동그란 눈만 크게 뜬 무표정 초근접을 2단 확대 — '영혼 가출' 밈 얼굴. 펀치 효과음과 펀치인이 붙어 귀여운 얼굴이 샌드백이 됨",
+   "prompt": "Extreme close-up of {HERO}'s face filling the frame, big round glossy black eyes staring blankly, mouth pressed into a tiny flat line, fluffy cheeks, long whiskers perfectly still",
+   "motion": "Almost still, a single slow blink; the head jolts very slightly on each impact beat."
+  },
+  {
+   "moment": "억지 눈웃음(사회생활 미소)",
+   "shots": [
+    30,
+    33
+   ],
+   "why": "눈을 초승달로 접고 볼을 부풀린 채 입을 꾹 다문 억지 미소 — 사람의 '사회적 웃음'을 동물 얼굴로 하는 의인화. 얼굴 옆 게임 스탯 주석이 과장을 더함",
+   "prompt": "Close-up of {HERO} forcing a polite smile: big glossy eyes squeezed into happy crescents, fluffy cheeks puffed up, mouth closed in a tight little smile, holding an open color-swatch fan bigger than its body",
+   "motion": "Eyes slowly squeeze into crescents while the cheeks puff up in a stiff fake smile; a tiny nervous shoulder shrug."
+  },
+  {
+   "moment": "몸보다 큰 부채 뒤에 숨어 째려보기",
+   "shots": [
+    1,
+    34,
+    36,
+    37
+   ],
+   "why": "몸보다 큰 컬러칩 부채를 방패처럼 들고 눈만 내밀다가, 눈을 질끈 감고 참은 뒤 눈썹을 내리깔고 째려보는 악당 눈빛 — 귀여운 얼굴과 험한 속마음의 갭. 이 얼굴이 첫 프레임 타이틀 카드와 같아 루프가 됨",
+   "prompt": "{HERO} half-hidden behind an open paper color-swatch fan larger than its body, only its fluffy forehead, round ears and big glossy eyes above the fan, eyes narrowed into a sly grudging glare",
+   "motion": "Slowly raises the fan up to its nose, squeezes its eyes shut in suppressed anger, then opens them into a narrow sideways glare and holds."
+  }
+ ],
+ "rhythm_note": "해석: 연속 BGM이 거의 없어 음악 박자로 자른 편집이 아닙니다. 컷-소리 일치율 33.3%는 우연 기준선 22.3%의 1.5배인데, 일치한 12컷 중 6컷이 <b>효과음 히트를 컷 시작에 정확히 붙인 자리</b>(#8·#21·#23·#28·#29·#33, ±0.07초)이고 나머지 6컷은 대사 음절 시작점입니다. 따라 만들 때는 <b>대사 단위로 컷을 정한 뒤, 발견·시간 점프·타격 순간의 효과음을 컷 시작에 맞춰</b> 놓으세요.",
+ "speaker_colors": {
+  "cw2": "#0C96F8"
+ }
+}

@@ -215,7 +215,11 @@
     "seedance-2-5",
     "viduq3-pro"
    ],
-   "new": "영차!"
+   "new": "영차!",
+   "cute": [
+    "기어오르기",
+    "몸보다 큰 물건 안기"
+   ]
   },
   {
    "n": 2,
@@ -248,7 +252,10 @@
     "seedance-2-0",
     "kling-v3"
    ],
-   "new": "(자막 없음)"
+   "new": "(자막 없음)",
+   "cute": [
+    "몸보다 큰 물건 안기"
+   ]
   },
   {
    "n": 3,
@@ -280,7 +287,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(라임) 오~ 왔네"
+   "new": "(라임) 오~ 왔네",
+   "cute": []
   },
   {
    "n": 4,
@@ -313,7 +321,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(라임) {이름}!"
+   "new": "(라임) {이름}!",
+   "cute": []
   },
   {
    "n": 5,
@@ -345,7 +354,10 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "좋은 아침이에용~!"
+   "new": "좋은 아침이에용~!",
+   "cute": [
+    "몸보다 큰 물건 안기"
+   ]
   },
   {
    "n": 6,
@@ -378,7 +390,10 @@
     "kling-v3",
     "still"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": [
+    "볼 빵빵·오물오물"
+   ]
   },
   {
    "n": 7,
@@ -410,7 +425,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(라임) 휴가 동안"
+   "new": "(라임) 휴가 동안",
+   "cute": []
   },
   {
    "n": 8,
@@ -442,7 +458,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "+(라임) 재충전 좀 했어?"
+   "new": "+(라임) 재충전 좀 했어?",
+   "cute": []
   },
   {
    "n": 9,
@@ -474,7 +491,11 @@
     "still",
     "kling-v3-omni"
    ],
-   "new": "앗"
+   "new": "앗",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "몸보다 큰 물건 안기"
+   ]
   },
   {
    "n": 10,
@@ -507,7 +528,8 @@
     "still",
     "kling-v3"
    ],
-   "new": "+그럼요!"
+   "new": "+그럼요!",
+   "cute": []
   },
   {
    "n": 11,
@@ -540,7 +562,11 @@
     "seedance-2-0",
     "edit"
    ],
-   "new": "(라벨) 연차 5일 몰아 쓴 {PUN} / 제 배터리는"
+   "new": "(라벨) 연차 5일 몰아 쓴 {PUN} / 제 배터리는",
+   "cute": [
+    "윙크·반짝이",
+    "몸보다 큰 물건 안기"
+   ]
   },
   {
    "n": 12,
@@ -574,7 +600,10 @@
     "minimax-h3",
     "edit"
    ],
-   "new": "(라벨 유지) / +100%입니당!"
+   "new": "(라벨 유지) / +100%입니당!",
+   "cute": [
+    "윙크·반짝이"
+   ]
   },
   {
    "n": 13,
@@ -606,7 +635,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(라벨) 환영 간식 말고 환영 업무 / (라임) 결재가 산더미인데"
+   "new": "(라벨) 환영 간식 말고 환영 업무 / (라임) 결재가 산더미인데",
+   "cute": []
   },
   {
    "n": 14,
@@ -638,7 +668,11 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨) 일복 터트리는 팀장님 / (라임) 바로 풀가동 가능?"
+   "new": "(라벨) 일복 터트리는 팀장님 / (라임) 바로 풀가동 가능?",
+   "cute": [
+    "멍한 눈",
+    "몸보다 큰 물건 안기"
+   ]
   },
   {
    "n": 15,
@@ -671,7 +705,8 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": []
   },
   {
    "n": 16,
@@ -703,7 +738,10 @@
     "kling-v3-omni",
     "minimax-h3"
    ],
-   "new": "아…→넵!"
+   "new": "아…→넵!",
+   "cute": [
+    "몸보다 큰 물건 안기"
+   ]
   },
   {
    "n": 17,
@@ -735,7 +773,8 @@
     "kling-v3-omni",
     "minimax-h3"
    ],
-   "new": "(라벨) 몸만 출근한 {PUN} / 당장"
+   "new": "(라벨) 몸만 출근한 {PUN} / 당장",
+   "cute": []
   },
   {
    "n": 18,
@@ -767,7 +806,8 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨 유지) / +메일부터 싹"
+   "new": "(라벨 유지) / +메일부터 싹",
+   "cute": []
   },
   {
    "n": 19,
@@ -799,7 +839,8 @@
     "kling-v3-omni",
     "minimax-h3"
    ],
-   "new": "(라벨 유지) / +확인할게용!"
+   "new": "(라벨 유지) / +확인할게용!",
+   "cute": []
   },
   {
    "n": 20,
@@ -834,7 +875,10 @@
     "seedance-2-5",
     "kling-v3-omni"
    ],
-   "new": "끄응차!"
+   "new": "끄응차!",
+   "cute": [
+    "낑낑 힘쓰기"
+   ]
   },
   {
    "n": 21,
@@ -867,7 +911,11 @@
     "kling-v3",
     "seedance-2-0"
    ],
-   "new": "(자막 없음)"
+   "new": "(자막 없음)",
+   "cute": [
+    "뒷모습·엉덩이",
+    "낑낑 힘쓰기"
+   ]
   },
   {
    "n": 22,
@@ -900,7 +948,11 @@
     "seedance-2-5",
     "minimax-h3"
    ],
-   "new": "(자막 없음)"
+   "new": "(자막 없음)",
+   "cute": [
+    "빼꼼 고개 내밀기",
+    "낑낑 힘쓰기"
+   ]
   },
   {
    "n": 23,
@@ -933,7 +985,10 @@
     "kling-v3",
     "still"
    ],
-   "new": "(자막 없음)"
+   "new": "(자막 없음)",
+   "cute": [
+    "뒷모습·엉덩이"
+   ]
   },
   {
    "n": 24,
@@ -965,7 +1020,8 @@
     "kling-v3-omni",
     "minimax-h3"
    ],
-   "new": "?"
+   "new": "?",
+   "cute": []
   },
   {
    "n": 25,
@@ -999,7 +1055,10 @@
     "still",
     "kling-v3"
    ],
-   "new": "[…]"
+   "new": "[…]",
+   "cute": [
+    "뒷모습·엉덩이"
+   ]
   },
   {
    "n": 26,
@@ -1031,7 +1090,10 @@
     "minimax-h3",
     "hailuo-2-3"
    ],
-   "new": "흐음?"
+   "new": "흐음?",
+   "cute": [
+    "실눈 의심"
+   ]
   },
   {
    "n": 27,
@@ -1063,7 +1125,10 @@
     "minimax-h3",
     "hailuo-2-3"
    ],
-   "new": "엥??"
+   "new": "엥??",
+   "cute": [
+    "고개 갸웃"
+   ]
   },
   {
    "n": 28,
@@ -1097,7 +1162,10 @@
     "still",
     "kling-v3"
    ],
-   "new": "(라벨) 나는 재충전, 노트북은 방전 / [배터리 0%]"
+   "new": "(라벨) 나는 재충전, 노트북은 방전 / [배터리 0%]",
+   "cute": [
+    "뒷모습·엉덩이"
+   ]
   },
   {
    "n": 29,
@@ -1130,7 +1198,10 @@
     "seedance-2-0",
     "edit"
    ],
-   "new": "어… 그러니까… ㅇㅅㅇ"
+   "new": "어… 그러니까… ㅇㅅㅇ",
+   "cute": [
+    "멍한 눈"
+   ]
   },
   {
    "n": 30,
@@ -1163,7 +1234,10 @@
     "still",
     "edit"
    ],
-   "new": "[뇌 부팅 중…]"
+   "new": "[뇌 부팅 중…]",
+   "cute": [
+    "멍한 눈"
+   ]
   },
   {
    "n": 31,
@@ -1196,7 +1270,10 @@
     "hailuo-2-3",
     "edit"
    ],
-   "new": "(강조) ㅇ ㅏ ㅎ ㅏ!"
+   "new": "(강조) ㅇ ㅏ ㅎ ㅏ!",
+   "cute": [
+    "앞발 모으기·흔들기"
+   ]
   },
   {
    "n": 32,
@@ -1228,7 +1305,10 @@
     "still",
     "kling-v3-omni"
    ],
-   "new": "(라벨) 급 떠오른 기억 / 아 맞다!"
+   "new": "(라벨) 급 떠오른 기억 / 아 맞다!",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
   },
   {
    "n": 33,
@@ -1260,7 +1340,10 @@
     "still",
     "kling-v3"
    ],
-   "new": "(라벨 유지) / +충전기!"
+   "new": "(라벨 유지) / +충전기!",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
   },
   {
    "n": 34,
@@ -1292,7 +1375,10 @@
     "still",
     "kling-v3-omni"
    ],
-   "new": "(자막 없음)"
+   "new": "(자막 없음)",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 35,
@@ -1325,7 +1411,8 @@
     "still",
     "edit"
    ],
-   "new": "(라벨) 노동 모드 다시 ON / 됐다!!"
+   "new": "(라벨) 노동 모드 다시 ON / 됐다!!",
+   "cute": []
   },
   {
    "n": 36,
@@ -1357,7 +1444,11 @@
     "kling-v3-omni",
     "minimax-h3"
    ],
-   "new": "[들키지 않게 작은 환호]"
+   "new": "[들키지 않게 작은 환호]",
+   "cute": [
+    "앞발 모으기·흔들기",
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 37,
@@ -1389,7 +1480,10 @@
     "kling-v3-omni",
     "minimax-h3"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": [
+    "앞발 모으기·흔들기"
+   ]
   },
   {
    "n": 38,
@@ -1424,7 +1518,10 @@
     "kling-v3",
     "edit"
    ],
-   "new": "(라벨) 출근 7분 만에 / [2차 위기 도착]"
+   "new": "(라벨) 출근 7분 만에 / [2차 위기 도착]",
+   "cute": [
+    "뒷모습·엉덩이"
+   ]
   },
   {
    "n": 39,
@@ -1456,7 +1553,10 @@
     "kling-v3-omni",
     "seedance-2-0"
    ],
-   "new": "(라벨) 바싹바싹 타는 입술 / […]"
+   "new": "(라벨) 바싹바싹 타는 입술 / […]",
+   "cute": [
+    "멍한 눈"
+   ]
   },
   {
    "n": 40,
@@ -1488,7 +1588,10 @@
     "still",
     "kling-v3"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": [
+    "멍한 눈"
+   ]
   },
   {
    "n": 41,
@@ -1520,7 +1623,11 @@
     "still",
     "kling-v3"
    ],
-   "new": "(유지)"
+   "new": "(유지)",
+   "cute": [
+    "멍한 눈",
+    "동그란 눈 클로즈업"
+   ]
   },
   {
    "n": 42,
@@ -1552,7 +1659,8 @@
     "still",
     "edit"
    ],
-   "new": "[옛 비밀번호 로딩 실패]"
+   "new": "[옛 비밀번호 로딩 실패]",
+   "cute": []
   },
   {
    "n": 43,
@@ -1583,7 +1691,11 @@
     "minimax-h3",
     "hailuo-2-3"
    ],
-   "new": "[정신은 이미 로그아웃]"
+   "new": "[정신은 이미 로그아웃]",
+   "cute": [
+    "혀 빼꼼",
+    "멍한 눈"
+   ]
   },
   {
    "n": 44,
@@ -1616,7 +1728,11 @@
     "minimax-h3",
     "edit"
    ],
-   "new": "(강조) 포맷 완료.."
+   "new": "(강조) 포맷 완료..",
+   "cute": [
+    "혀 빼꼼",
+    "멍한 눈"
+   ]
   },
   {
    "n": 45,
@@ -1649,7 +1765,11 @@
     "still",
     "kling-v3"
    ],
-   "new": "[뇌까지 포맷된 {PUN}]"
+   "new": "[뇌까지 포맷된 {PUN}]",
+   "cute": [
+    "멍한 눈",
+    "동그란 눈 클로즈업"
+   ]
   }
  ],
  "sound": {
@@ -2037,5 +2157,71 @@
    "how": "표정 과장 모델로 실눈·갸웃·깨달음·블렙 4~6초 4~5회 + ECU(#41, #45)는 정지 이미지 + 편집 줌. #30 수식, #31 디졸브는 편집"
   }
  ],
- "rhythm_note": "해석: 전체 일치율은 우연 수준이라 <b>대화 파트는 대사·리액션 타이밍</b>으로 잘랐습니다. 다만 두 위기 구간(17.6~21.9초, 27.5~32.3초)은 약 0.7초 간격 저음 박동이 깔리고 컷 10개 중 7개가 박동과 겹칩니다(우연 기대 약 28%). 따라 만들 때는 <b>대화는 문장 기준, 위기 구간은 저음 박동에 맞춰</b> 자르세요."
+ "rhythm_note": "해석: 전체 일치율은 우연 수준이라 <b>대화 파트는 대사·리액션 타이밍</b>으로 잘랐습니다. 다만 두 위기 구간(17.6~21.9초, 27.5~32.3초)은 약 0.7초 간격 저음 박동이 깔리고 컷 10개 중 7개가 박동과 겹칩니다(우연 기대 약 28%). 따라 만들 때는 <b>대화는 문장 기준, 위기 구간은 저음 박동에 맞춰</b> 자르세요.",
+ "cute_moments": [
+  {
+   "moment": "백팩 끌어안고 의자 기어오르기",
+   "shots": [
+    1,
+    2
+   ],
+   "why": "자기 몸만 한 의자를 낑낑 기어오르는 첫 컷 — 크기 대비 + 서툰 동작이 첫 1초 훅",
+   "prompt": "High-angle shot of {HERO} clambering up onto a big black mesh office chair seat, hind legs scrabbling, hugging a tiny navy backpack to its chest with short arms",
+   "motion": "The {ANIMAL} scrambles up onto the seat, slips once, then settles upright clutching the backpack."
+  },
+  {
+   "moment": "반짝이 속 뿌듯 가슴 펴기",
+   "shots": [
+    11,
+    12
+   ],
+   "why": "허세 대답과 함께 가슴을 펴고 흰 4각 별이 깜빡 — 곧 올 위기와 대비",
+   "prompt": "{HERO} puffing out its round chest proudly while hugging a tiny backpack, eyes closed in a smug smile",
+   "motion": "The {ANIMAL} puffs its chest and nods proudly. (White 4-point sparkles blink in the edit.)"
+  },
+  {
+   "moment": "노트북 뚜껑과 씨름",
+   "shots": [
+    20,
+    21,
+    22
+   ],
+   "why": "자기보다 큰 노트북 뚜껑을 두 앞발로 밀어 올리는 힘쓰기 + 동그란 뒷모습",
+   "prompt": "{HERO} standing on a desk pushing up a laptop lid taller than itself with both tiny paws, straining, seen from behind with its round fluffy rear",
+   "motion": "The {ANIMAL} pushes the heavy lid up with a little grunt, wobbling on its hind legs."
+  },
+  {
+   "moment": "로딩·수식 멍때림",
+   "shots": [
+    29,
+    30
+   ],
+   "why": "완전히 멈춘 멍한 눈 + 머리 옆 로딩 스피너·수식 그래픽 — 생각이 멈춘 걸 그래픽으로 보여 줌",
+   "prompt": "{HERO} staring blankly ahead with glassy unfocused round eyes, mouth slightly open",
+   "motion": "The {ANIMAL} stays completely still except for slow blinks. (Spinner or math overlay added in the edit.)"
+  },
+  {
+   "moment": "들킬까 봐 소심한 주먹 세레머니",
+   "shots": [
+    36,
+    37
+   ],
+   "why": "작은 앞발 두 개를 가슴 앞에서 조물조물 흔드는 몰래 기쁨",
+   "prompt": "{HERO} doing a tiny secret celebration, two small paws clenched and shaking in front of its chest, suppressing a grin",
+   "motion": "The {ANIMAL} shakes its tiny fists quickly at chest height, bouncing slightly, trying not to be noticed."
+  },
+  {
+   "moment": "3단 줌 멍 → 혀 빼꼼(블렙)",
+   "shots": [
+    39,
+    40,
+    41,
+    43,
+    44
+   ],
+   "why": "같은 굳은 얼굴을 MS→MCU→ECU 로 3번 당긴 뒤 혀끝이 쏙 — 사고 정지를 표정 하나로",
+   "prompt": "Close-up of {HERO} frozen with a blank stare and the tip of its tiny pink tongue sticking out (blep)",
+   "motion": "The {ANIMAL} stays frozen, then the tip of its tongue slowly pokes out; nothing else moves."
+  }
+ ]
 }

@@ -213,7 +213,9 @@ SFX_MAP = [("뾰롱", "pop.wav"), ("팝", "pop.wav"), ("띠용", "boing.wav"), (
            ("심장", "heartbeat.wav"), ("드론", "drone_low.wav"), ("둥", "boom_low.wav"), ("저음", "boom_low.wav"), ("새소리", "amb_birds.wav"),
            ("바람", "amb_wind.wav"), ("물가", "amb_water.wav"), ("레스토랑", "amb_restaurant.wav"), ("카페", "amb_cafe.wav"), ("앰비언스", "amb_room.wav"),
            ("웃음", "laugh_vo.wav"), ("흐느", "sob_vo.wav"), ("훌쩍", "sob_vo.wav"), ("숨소리", "breath_vo.wav"), ("먹는", "munch.wav"),
-           ("쩝쩝", "munch.wav"), ("노트북", "laptop_open.wav"), ("로그인", "login_chime.wav"), ("띠링", "login_chime.wav"), ("글리치", "glitch.wav")]
+           ("쩝쩝", "munch.wav"), ("노트북", "laptop_open.wav"), ("로그인", "login_chime.wav"), ("띠링", "login_chime.wav"), ("글리치", "glitch.wav"),
+           ("달그락", "clatter.wav"), ("삐걱", "creak.wav"), ("펄럭", "paper_flap.wav"), ("쪼르륵", "pour.wav"), ("지글", "sizzle.wav"),
+           ("치이익", "sizzle.wav"), ("챙", "clink.wav"), ("박수", "applause.wav"), ("환호", "cheer.wav"), ("발소리", "footsteps.wav")]
 SKIP_SFX = ("BGM", "정적")
 
 def sfx_rows(an):
@@ -232,7 +234,7 @@ def sfx_rows(an):
 # ---------- HyperFrames ----------
 CAP_CSS = """
       #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: #000; }
-      .shotwrap { position: absolute; inset: 0; transform-origin: 50% 50%; }
+      .shotwrap { position: absolute; inset: 0; transform-origin: 50% 50%; overflow: hidden; }
       .shotwrap video { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; object-fit: cover; }
       .shotwrap.f-1x1 video { left: 420px; width: 1080px; }
       .shotwrap.f-3x4 video { left: 555px; width: 810px; }
@@ -264,6 +266,19 @@ CAP_CSS = """
       .flash { position: absolute; inset: 0; background: #fff; }
 """
 
+def hf_crop_style(s, W=1920, H=1080):
+    """재사용 컷: 원본 영상의 (중심 cx,cy · 배율 zoom) 영역이 화면을 채우도록 video 에 이동+확대 (FFmpeg crop 과 같은 영역)"""
+    z = max(1.0, float(s["zoom"]))
+    cw, ch = W / z, H / z
+    x0 = min(max(s["cx"] * W - cw / 2, 0), W - cw)
+    y0 = min(max(s["cy"] * H - ch / 2, 0), H - ch)
+    return f' style="transform-origin: 0 0; transform: translate({-z * x0:.1f}px, {-z * y0:.1f}px) scale({z:.3f});"'
+
+def push_origin(p):
+    """측정한 컷 안 줌 → 확대 고정점(0~1). 좁은 화면의 중심이 측정 위치(cx,cy)에 오도록 계산 (build_ffmpeg 와 동일)"""
+    k = p["scale"] if p["scale"] > 1 else 1 / p["scale"]
+    return [min(max((0.5 - k * c) / (1 - k), 0.0), 1.0) for c in (p["cx"], p["cy"])]
+
 def hf_html(an, edl, events, rows):
     total = edl["duration"]
     vid, caps, fxo, auds, tw = [], [], [], [], []
@@ -271,6 +286,9 @@ def hf_html(an, edl, events, rows):
     for i, s in enumerate(shots):
         n = s["n"]
         if s["who"] in ("black", "card") and s.get("gen") == "edit":
+            continue
+        if s["who"] == "insert" and s.get("gen") == "edit" and "source" not in s and s["dur"] <= 0.2:  # 1~6프레임 전환 섬광
+            fxo.append(f'      <div id="fi-s{n:02d}" class="clip fxo flash" data-start="{s["t_in"]:.3f}" data-duration="{s["dur"]:.3f}" data-track-index="5"><div class="flash"></div></div>')
             continue
         start, dur = s["t_in"], s["dur"]
         nxt = shots[i + 1] if i + 1 < len(shots) else None
@@ -280,8 +298,17 @@ def hf_html(an, edl, events, rows):
             start -= s["tr_dur"] / 2
             dur += s["tr_dur"] / 2
         fcls = "" if s.get("frame", "full") == "full" else f" f-{s['frame']}"
-        vid.append(f'      <div class="shotwrap{fcls}" id="w-s{n:02d}"><video id="s{n:02d}" src="assets/clips/s{n:02d}.mp4" '
-                   f'data-start="{start:.3f}" data-duration="{dur:.3f}" data-media-start="0.5" data-track-index="0" muted playsinline></video></div>')
+        clip = s.get("clip") or f"clips/s{n:02d}.mp4"
+        vstyle = hf_crop_style(s) if "source" in s else ""  # 같은 원본 클립을 잘라 확대(디지털 줌 한 단)
+        wstyle = ""
+        if "push" in s:  # 원본에서 측정한 컷 안 줌: 배율·방향 그대로
+            ox, oy = push_origin(s["push"])
+            sc = s["push"]["scale"]
+            z0, z1 = (1.0, sc) if sc > 1 else (1 / sc, 1.0)
+            wstyle = f' style="transform-origin: {ox * 100:.1f}% {oy * 100:.1f}%;"'
+            tw.append(f'tl.fromTo("#w-s{n:02d}", {{ scale: {z0:.4f} }}, {{ scale: {z1:.4f}, duration: {s["dur"]:.3f}, ease: "none" }}, {s["t_in"]:.3f});')
+        vid.append(f'      <div class="shotwrap{fcls}" id="w-s{n:02d}"{wstyle}><video id="s{n:02d}" src="assets/{clip}" '
+                   f'data-start="{start:.3f}" data-duration="{dur:.3f}" data-media-start="{s.get("src_in", 0.5):.3f}" data-track-index="0" muted playsinline{vstyle}></video></div>')
         fx = s.get("fx", [])
         if "crash_zoom" in fx:
             tw.append(f'tl.fromTo("#w-s{n:02d}", {{ scale: 1 }}, {{ scale: 1.25, duration: 0.12, ease: "power2.out" }}, {s["t_in"]:.3f});')
@@ -377,7 +404,8 @@ def prompts_md(an, edl, rows, kitrel):
 ## A. FFmpeg 경로 (가장 빠름, 설치 불필요)
 ```
 [작업 폴더] {kitrel}  (이 폴더 밖의 파일은 수정 금지)
-[목표] clips/ 의 AI 생성 영상(s01.mp4~s{n:02d}.mp4)을 edl.json 규격 그대로 조립해 out/{an['key']}_final.mp4 를 만든다.
+[목표] clips/ 의 AI 생성 영상을 edl.json 규격 그대로 조립해 out/{an['key']}_final.mp4 를 만든다.
+       (edl.json 에 source 가 있는 컷은 원본 클립을 잘라 확대해 쓰므로 파일이 없어도 됨 — 아래 D 표)
 [정답 규격] 컷 길이·전환·효과 = edl.json / 자막 = captions.ass(스타일 13종, 위치·크기·색은 원본 측정값) / 효과음 = sfx_cues.csv
 [순서]
 1) python build_ffmpeg.py --check  → 누락 클립 목록 보고
@@ -395,7 +423,7 @@ def prompts_md(an, edl, rows, kitrel):
 [작업 폴더] {kitrel}/hyperframes
 [목표] index.html 컴포지션(영상 {len(need)}개 슬롯·자막·효과음 트랙이 원본 타이밍으로 이미 배치됨)에 실제 소스를 연결해 렌더.
 [순서]
-1) assets/clips/s01.mp4~, assets/audio/bgm.mp3, assets/voice/sNN.wav, assets/sfx/*.wav, assets/fonts/Pretendard-*.woff2 존재 확인 → 없는 파일은 목록 보고 후, 해당 <audio>/<video> 는 data-hidden 처리
+1) assets/clips/(키트 clips 폴더와 같은 원본 클립 — 재사용 컷의 <video> 는 원본 파일을 잘라 확대하도록 이미 설정됨), assets/audio/bgm.mp3, assets/voice/sNN.wav, assets/sfx/*.wav, assets/fonts/Pretendard-*.woff2 존재 확인 → 없는 파일은 목록 보고 후, 해당 <audio>/<video> 는 data-hidden 처리
 2) npx hyperframes lint → 오류 0
 3) npx hyperframes check → 0 findings
 4) npx hyperframes snapshot --at {', '.join(f'{b["t"][0] + 0.3:.1f}' for b in an['beats'][:6])} 로 프레임 확인 (라벨 y≈878px, 대사 y≈952px)
@@ -407,7 +435,51 @@ def prompts_md(an, edl, rows, kitrel):
 ## C. 효과음 준비 목록 (sfx/ 폴더에 같은 이름으로 저장)
 | 시각(초) | 파일 | 설명 | 이유 |
 |---|---|---|---|
-""" + "\n".join(f"| {r['t']} | {r['file']} | {r['desc']} | {r['why']} |" for r in rows) + "\n"
+""" + "\n".join(f"| {r['t']} | {r['file']} | {r['desc']} | {r['why']} |" for r in rows) + "\n" + reuse_md(edl)
+
+
+def reuse_md(edl):
+    """D. 같은 원본 줌 재사용표 — 어떤 클립 하나로 어떤 컷들을 잘라 만드는지"""
+    by_src = {}
+    for s in edl["shots"]:
+        if "source" in s:
+            by_src.setdefault(s["source"], []).append(s)
+    if not by_src:
+        return ""
+    sn = {s["n"]: s for s in edl["shots"]}
+    L = ["", "## D. 같은 원본 줌 재사용 (이 컷들은 생성하지 않음)",
+         "원본 클립 하나를 확대 배율(zoom)·중심(cx, cy: 화면 가로·세로 0~1)만 바꿔 여러 컷으로 씁니다. build_ffmpeg.py·hyperframes/index.html 이 edl.json 대로 자동 처리합니다.",
+         "| 원본 클립 | 원본 컷 | 이 클립으로 만드는 컷 (배율 · 중심 · 클립 안 시작초) |", "|---|---|---|"]
+    for src, items in sorted(by_src.items()):
+        L.append(f"| clips/s{src:02d}.mp4 | #{src:02d} (클립 {sn[src].get('src_in', 0.5):.2f}초부터) | "
+                 + " · ".join(f"#{s['n']:02d} ×{s['zoom']} ({s['cx']:.2f}, {s['cy']:.2f}) {s['src_in']:.2f}초~" for s in items) + " |")
+    return "\n".join(L) + "\n"
+
+def reuse_fields(n, zg, fx, frame="full", shot=None):
+    """같은 원본 재사용(디지털 줌 체인)·컷 안 줌 측정값(zoom_groups.json) → EDL 필드.
+    체인 = 영상 1개를 여러 컷이 시간순으로 이어 씀(src_in 이 이어짐), 원본이 아닌 컷은 배율·중심으로 잘라 확대.
+    필러박스(1:1·3:4 등) 컷은 화면 비율이 달라 재사용·줌을 적용하지 않음."""
+    out = {}
+    m = zg.get("shot_map", {}).get(str(n))
+    if frame != "full":  # 필러박스 컷은 확대 없이(1배) 같은 클립을 이어 쓸 때만 허용
+        if not (m and m["zoom"] <= 1.1):
+            return out
+        m = dict(m, zoom=1.0, cx=0.5, cy=0.5)
+    if m:
+        out["src_in"] = round(0.5 + m["use_from"], 3)
+        out["setup"] = m["group"]
+        if m["source"] != n:
+            out.update({"source": m["source"], "zoom": m["zoom"], "cx": m["cx"], "cy": m["cy"], "clip": f"clips/s{m['source']:02d}.mp4"})
+        elif shot and shot.get("gen") == "edit" and shot.get("who") not in ("black", "card", "insert") and m["group"] != n:
+            # 분석상 '생성 안 함(크롭)'인데 체인 원본이 된 컷 → 같은 세팅의 기준 컷 클립에서 잘라 씀
+            g = next((g for g in zg.get("groups", []) if g["base"] == m["group"]), None)
+            me = next((x for x in (g or {}).get("members", []) if x["n"] == n), None)
+            if me:
+                out.update({"source": m["group"], "zoom": me["zoom"], "cx": me["cx"], "cy": me["cy"], "clip": f"clips/s{m['group']:02d}.mp4"})
+    p = zg.get("inshot", {}).get(str(n))
+    if p and frame == "full" and not {"crash_zoom", "whip", "dip_out"} & set(fx):
+        out["push"] = p
+    return out
 
 # ---------- 메인 ----------
 def build(vkey):
@@ -421,21 +493,39 @@ def build(vkey):
         os.makedirs(os.path.join(kit, sub), exist_ok=True)
     shots_t = {s["idx"]: (s["t_in"], s["t_out"]) for s in cuts["shots"]}
     by_n = {s["n"]: s for s in an["shots"]}
+    zpath = os.path.join(vdir, "zoom_groups.json")
+    zg = json.load(open(zpath, encoding="utf-8")) if os.path.exists(zpath) else {}
     eshots = []
     for c in cuts["shots"]:
         s = by_n[c["idx"]]
         tr, trd = classify_tr(s)
         frame = measure_frame(vdir, c) if vkey == "v2" else "full"
-        eshots.append({"n": c["idx"], "t_in": c["t_in"], "t_out": c["t_out"], "dur": c["dur"], "frames": round(c["dur"] * FPS),
-                       "who": s["who"], "size": s["sz"], "gen": s["gen"], "models": s["m"], "tr": tr, "tr_dur": trd,
-                       "fx": classify_fx(s), "frame": frame, "src_in": 0.5, "clip": f"clips/s{c['idx']:02d}.mp4"})
-    edl = {"key": vkey, "id": an["id"], "title": meta.get("title"), "duration": cuts["shots"][-1]["t_out"], "fps": FPS, "shots": eshots}
+        fx = classify_fx(s)
+        e = {"n": c["idx"], "t_in": c["t_in"], "t_out": c["t_out"], "dur": c["dur"], "frames": round(c["dur"] * FPS),
+             "who": s["who"], "size": s["sz"], "gen": s["gen"], "models": s["m"], "tr": tr, "tr_dur": trd,
+             "fx": fx, "frame": frame, "src_in": 0.5, "clip": f"clips/s{c['idx']:02d}.mp4"}
+        e.update(reuse_fields(c["idx"], zg, fx, frame, s))
+        if "push" in e and "push_in_slow" in e["fx"]:
+            e["fx"] = [f for f in e["fx"] if f != "push_in_slow"]  # 측정한 실제 배율로 대체
+        eshots.append(e)
+    for i, e in enumerate(eshots[:-1]):  # 휩 팬 인서트(편집 컷)는 다음 컷 클립의 앞부분을 가로로 번지게 해서 만듦
+        nxt = eshots[i + 1]
+        if e["who"] == "insert" and e["gen"] == "edit" and "whip" in e["fx"] and "source" not in e and nxt["who"] not in ("black", "card"):
+            e.update({"source": nxt.get("source", nxt["n"]), "zoom": 1.0, "cx": 0.5, "cy": 0.5, "clip": nxt["clip"],
+                      "src_in": round(max(0.0, nxt["src_in"] - e["dur"]), 3)})
+    edl = {"key": vkey, "id": an["id"], "title": meta.get("title"), "duration": cuts["shots"][-1]["t_out"], "fps": FPS, "shots": eshots,
+           "reuse": zg.get("summary", {})}
     json.dump(edl, open(os.path.join(kit, "edl.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     with open(os.path.join(kit, "edl.csv"), "w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["컷", "시작(초)", "끝(초)", "길이(초)", "프레임", "대상", "사이즈", "전환(들어올 때)", "효과", "화면비", "생성 방식", "추천 모델"])
+        w.writerow(["컷", "시작(초)", "끝(초)", "길이(초)", "프레임", "대상", "사이즈", "전환(들어올 때)", "효과", "화면비", "생성 방식", "추천 모델",
+                    "쓰는 클립", "클립 시작(초)", "디지털 줌(배율@중심)", "컷 안 줌(시작→끝 배율)"])
         for s in eshots:
-            w.writerow([s["n"], s["t_in"], s["t_out"], s["dur"], s["frames"], s["who"], s["size"], s["tr"], "|".join(s["fx"]), s["frame"], s["gen"], " > ".join(s["models"])])
+            dz = f"x{s['zoom']}@{s['cx']:.2f},{s['cy']:.2f}" if "source" in s else ""
+            ps = f"x{s['push']['scale']}" if "push" in s else ""
+            w.writerow([s["n"], s["t_in"], s["t_out"], s["dur"], s["frames"], s["who"], s["size"], s["tr"], "|".join(s["fx"]), s["frame"],
+                        "재사용" if "source" in s else s["gen"], "생성 불필요" if "source" in s else " > ".join(s["models"]),
+                        s["clip"], s["src_in"], dz, ps])
     events = build_events(an, shots_t, vkey)
     # 상황 라벨이 기울임체인지는 영상별 분석값을 따름 (3위는 정자체)
     italic = any("기울임" in st.get("spec", "") and "기울임 없는" not in st.get("spec", "")
@@ -444,6 +534,19 @@ def build(vkey):
     if not italic:
         head = head.replace("&H38FFFFFF,&H38FFFFFF,0,-1,0,0,100,100,0,0,3,7,0,2,20,20,158,1",
                             "&H38FFFFFF,&H38FFFFFF,0,0,0,0,100,100,0,0,3,7,0,2,20,20,158,1", 1)
+    # 상황 라벨이 '검정 박스 + 흰 글씨'로 측정된 영상(8위 등)은 라벨 색을 뒤집음
+    dark_label = any(re.search(r"검정|검은", st.get("spec", "")) and re.search(r"흰\s?(글씨|글자)", st.get("spec", ""))
+                     for st in an["captions"]["styles"] if st.get("css") == "label-hero")
+    if dark_label:
+        head = head.replace("&H00463F3F,&H00463F3F,&H38FFFFFF,&H38FFFFFF", "&H00FFFFFF,&H00FFFFFF,&H10000000,&H10000000", 1)
+    # 영상마다 실제 화자 대사 색이 다르면 분석값(speaker_colors)으로 교체
+    colors = {k: v for k, v in (an.get("speaker_colors") or {}).items() if re.fullmatch(r"#[0-9A-Fa-f]{6}", str(v))}
+    ass_col = lambda h: "&H00" + (h[5:7] + h[3:5] + h[1:3]).upper()
+    base_ass = {"cw1": "&H0038EF2E", "cw2": "&H00DE9019", "leader": "&H0034E5D7"}
+    base_css = {"cw1": "#2EEF38", "cw2": "#1990DE", "leader": "#D7E534"}
+    for k, c in colors.items():
+        if k in base_ass:
+            head = head.replace(f"{base_ass[k]},{base_ass[k]},", f"{ass_col(c)},{ass_col(c)},")
     with open(os.path.join(kit, "captions.ass"), "w", encoding="utf-8-sig") as f:
         f.write(head + "\n".join(ass_events(events)) + "\n")
     rows = sfx_rows(an)
@@ -453,6 +556,11 @@ def build(vkey):
     hf = hf_html(an, edl, events, rows)
     if not italic:
         hf = hf.replace("color: #3f3f46; font-style: italic; }", "color: #3f3f46; font-style: normal; }")
+    if dark_label:
+        hf = hf.replace("background: rgba(255,255,255,.78); color: #3f3f46;", "background: rgba(0,0,0,.92); color: #ffffff;", 1)
+    for k, c in colors.items():
+        if k in base_css:
+            hf = hf.replace(f"color: {base_css[k]};", f"color: {c};")
     with open(os.path.join(kit, "hyperframes", "index.html"), "w", encoding="utf-8") as f:
         f.write(hf)
     kitrel = f"kimhamzzi_analysis/kits/{vkey}"

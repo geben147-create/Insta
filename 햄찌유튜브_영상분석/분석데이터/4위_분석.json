@@ -1,0 +1,5072 @@
+{
+ "key": "v4",
+ "rank": 4,
+ "id": "uZ3mV8oCObc",
+ "fmt": "휴식 공지 브이로그 → 킬러 액션 패러디 반전형(2부 구성)",
+ "logline": "야간 퇴근 버스에서 팬들을 부르며 시작하는 90초 '휴식 공지' 브이로그 — 지난 활동 회상과 번아웃 고백, 한 달 휴식 계획(영화·가족·게임 분노)을 털어놓고 손을 흔들며 작별하더니, 옥상에서 여행 가방을 열자 저격총이 나오는 반전 → 팝업스토어에서 팬들이 붙이고 간 사직서를 '대신 제출'하러 떠나는 킬러 액션 패러디로 뒤집혀, 150BPM 음악 위에서 사직서 탄환이 야근 직장인·임원·간호사·옆 팀 직원에게 차례로 배달되고 조용한 검정 엔딩 카드로 끝나는 영상.",
+ "formula": [
+  "팬 호명 훅(야간 버스 셀카)",
+  "안심 예고(별일 아님)",
+  "지난 활동 회상 몽타주(액자)",
+  "번아웃 고백",
+  "휴식 선언(기간 명시)",
+  "휴식 계획 상상(힐링 → 게임 폭주)",
+  "작별 인사 → 복귀 날짜",
+  "복선 회수 · 장르 반전(가방 속 저격총)",
+  "팬 참여 회수(팬이 쓴 사직서 대리 제출)",
+  "무음 → 발사 → 탄환 시점",
+  "배달 액션 몽타주(4곳, 150BPM)",
+  "몸짓 펀치라인 → 조용한 엔딩 카드"
+ ],
+ "why": [
+  "첫 프레임 팬 호명 + 셀카 브이로그 구도: 0초부터 주인공이 카메라에 대고 팬을 부르고(#1), 같은 버스 원본을 1.0~4.0배로 당긴 11컷(#1~#9, #18~#19)이 18초 동안 동그란 눈을 점점 가까이 보여 줌 → '공지'인데도 나에게 온 영상 편지처럼 친밀하게 들림",
+  "2부 구성의 낙차: 앞 46초는 말소리 비율 84%(38.7초)의 진지한 고백, 뒤 40초(46~86초)는 대사 0%의 액션 뮤직비디오. 30초 무렵 옥상에서 케이스를 열고(#40) 저격총이 나오는(#41) 반전이 '휴식 공지'를 끝까지 보게 만드는 이야기로 바꿈",
+  "팬 참여 회수: 실제 팝업 현장(#15)과 팬들이 붙이고 간 사직서 벽(#48)을 보여 준 뒤, 그 서류들이 탄환·권총·손바닥으로 '배달'되는 장면(#73~#75, #89, #93, #96~#97, #104)으로 이어짐 → 자기 글이 나왔는지 찾아보는 재시청과 댓글을 유도",
+  "직장인 공감 펀치라인: 서류마다 적힌 과장된 퇴사 사유를 손글씨 클로즈업(#73~#75, #89, #104)으로 '읽게' 하고, 수신자를 야근 직장인·임원·간호사·옆 팀 직원 4종으로 넓혀 누구나 자기 직장을 떠올리게 함",
+  "소리 설계: 발사 직전 0.7초 완전 무음(45.75~46.46초) → 총성(46.63초) → 탄환 시점·유리 파열 → 53.2초 150BPM 음악 드롭. 음악 구간 컷 40개 중 21개(52.5%)가 4분음표 박 ±0.08초 안(우연 40%)이라 후반은 저절로 '박자감 있는 뮤직비디오'가 됨",
+  "귀여움 × 킬러 장르의 부조화: 20cm 동물이 몸만 한 저격총을 들고(#41~#47) 엎드려 앞발을 흔들며 작별하고(#54~#58), 양손 권총으로 슬로모션 다이브(#97~#98)까지 — 평균 0.82초·109컷 속도에 캡처·밈으로 퍼지기 좋은 장면이 촘촘함"
+ ],
+ "look": "photorealistic live-action look as if a real tiny animal was filmed on location with a cinema camera and, in vlog moments, a phone held at arm's length: shallow depth of field, creamy night-city bokeh, cool blue-hour and neon tones balanced with warm practical lights, natural color grade, crisp fur and whisker detail, 16:9, 4K",
+ "cast": {
+  "hero": {
+   "role": "주인공 동물 · 채널 호스트(시청자에게 직접 말을 거는 브이로그 화자 → 후반 '서류 배달' 킬러 액션 패러디의 주인공)",
+   "cap": "#FFFFFF",
+   "voice": "구간별 기본 주파수(대역통과 재측정) — 버스 고백 구간 약 260~390Hz(중앙값 약 300Hz, 차분하게 속삭이는 톤), 게임 분노 약 630Hz, 옥상 작별 인사 525~630Hz. 전체 중앙값 약 345Hz(성인 여성 평균 210Hz보다 약 8.6반음 높음). 말끝을 늘이거나 받침을 붙이는 애교 말투"
+  },
+  "cw1": {
+   "role": "직장인1(남) · 첫 번째 수신자 — 밤늦게 야근하다 창문을 뚫고 날아온 '서류 탄환'을 맞고 의자째 나동그라지는 관리자",
+   "cap": "-",
+   "en": "a Korean office worker in his mid-30s with short neat black hair and thin black-rimmed glasses, wearing a crisp white long-sleeve dress shirt, a navy tie with small dots, a silver wristwatch and a wedding ring; his face is shown only in wide or impact-reaction shots, and in chest and hand close-ups it is cropped out of frame above the lips",
+   "voice": "대사 없음(놀란 숨소리만)"
+  },
+  "boss": {
+   "role": "임원(남) · 사장실에서 서류를 받는 윗선 — 차를 마시다 얼어붙음",
+   "cap": "-",
+   "en": "a stern Korean executive in his late 50s with thinning grey hair, wearing a charcoal-grey suit, a white shirt and a dark patterned tie, sipping green tea from a small white porcelain cup; mostly seen from behind over the shoulder, his face appears only in one frozen reaction shot or is covered by a sheet of paper",
+   "voice": "대사 없음"
+  },
+  "leader": {
+   "role": "수간호사(여) · 병원 간호사실에서 서류 봉투를 받는 관리자(슬롯 이름만 leader, 대사 없음)",
+   "cap": "-",
+   "en": "a Korean head nurse in her 30s wearing teal-green hospital scrubs and white latex gloves, dark hair tied back, her face always cropped out of frame above the lips",
+   "voice": "대사 없음"
+  },
+  "cw2": {
+   "role": "직장인2(여) · 복사기에서 쪽지를 받고 창밖을 보는 마지막 수신자",
+   "cap": "-",
+   "en": "a Korean woman office worker with shoulder-length straight dark hair wearing a soft grey cable-knit sweater, always seen from behind or over the shoulder so her face is never visible",
+   "voice": "대사 없음"
+  }
+ },
+ "sets": {
+  "bus": "the window seat of a city bus at night: a dark navy woven-fabric seat back filling the background, a large window on the right with blurred neon signs, office towers and car lights streaming past, dim warm cabin light",
+  "street": "a busy downtown Korean street at night seen from sidewalk level: a green city bus pulling away, street trees, tall office towers with lit windows, vertical neon shop signs and car headlights in soft bokeh",
+  "elevator": "inside a brushed stainless-steel elevator car: vertical steel wall panels with soft reflections, a slotted ventilation grille, a speckled grey stone floor and cool even overhead light",
+  "rooftop": "an empty concrete rooftop at blue hour: a rough grey concrete floor, a low weathered parapet with a metal handrail, a dense skyline of glass office towers with lit windows under a deep-blue dusk sky",
+  "ledge": "the gravel-covered edge of a high-rise rooftop at night, a low prone vantage point overlooking a vast glittering skyline of skyscrapers melting into heavy bokeh",
+  "flashback": "a past-episode memory shown like an old home video: the picture sits inside a rounded-corner frame with a soft black vignette border, slightly faded warm colors and light film grain (frame and grade are added in the edit); the actual location changes per shot",
+  "latenight": "a dark room late at night lit only by a laptop screen: a wooden desk with a white ceramic mug and crumpled papers, faint city lights through a window far behind, cold blue screen glow",
+  "sofa": "a cozy living-room sofa at night: mauve velvet cushions, a floral throw pillow, a warm table lamp glowing behind, movie-night mood",
+  "family": "a cozy home in soft afternoon light: a cream cable-knit sweater on someone's lap, a gentle human hand, a warm blurred living room behind",
+  "gameroom": "a dark gamer room at night: tall bookshelves in deep shadow, a backlit mechanical keyboard, a pink iced drink with a red straw, lit by a cool monitor glow",
+  "popup": "a crowded pop-up store event hall: a wide LED screen with a cartoon character banner, photo booths, and a wall completely covered with handwritten letter forms decorated with colorful smiley stickers",
+  "letterpile": "a desk buried under a messy pile of handwritten letter forms and envelopes with colorful round stickers, bright window light behind",
+  "office": "a dim blue-grey Korean corporate office at night: grey cubicle partitions, grey filing cabinets topped with beige storage boxes, fluorescent ceiling panels and a large glass window facing the city",
+  "dayoffice": "a bright modern open-plan office in daytime: grey carpet, dark-grey cubicle desks with monitors, white ceiling panels with square lights, papers scattered on the floor",
+  "exec": "an executive office: a large dark-wood desk with stacks of documents and a black nameplate, a Korean national flag on a stand, wooden cabinets with trophies and framed certificates",
+  "hospital": "a hospital nurse station: a white counter in the foreground, patient beds with blue-grey privacy curtains and medical monitors softly blurred behind, cool clinical light",
+  "copier": "a bright high-rise office by floor-to-ceiling windows on an overcast day: a large white multifunction copier near the glass, grey city towers outside and a narrow ledge with a metal railing just beyond the window",
+  "cityair": "an aerial rush over a night city at blue hour: glittering streets and highways far below, heading toward a tall glass office tower with a few lit office windows"
+ },
+ "beats": [
+  {
+   "k": "훅 · 팬 호명",
+   "t": [
+    0,
+    5.833
+   ],
+   "e": 0.3,
+   "ko": "야간 버스 창가 셀카로 팬을 부르며 시작. 같은 원본을 1.5→2.1배, 1.45→1.9→3.1배로 당기는 펀치인과 '별일 아님' 라벨로 가볍게 예고"
+  },
+  {
+   "k": "감사 · 지난 활동 회상",
+   "t": [
+    5.833,
+    11.833
+   ],
+   "e": 0.6,
+   "ko": "팬 덕분이라는 말과 함께 둥근 액자 속 지난 에피소드 5컷(쌀국수·피자·기타·도시 뒷모습·실제 팝업 현장)이 0.3~1.6초씩 빠르게 지나감"
+  },
+  {
+   "k": "번아웃 고백",
+   "t": [
+    11.833,
+    18.067
+   ],
+   "e": -0.5,
+   "ko": "어두운 방 노트북 앞의 멍한 얼굴 → 두 앞발로 눈을 누르는 지친 제스처 → 버스로 돌아와 '행사가 끝나고서야 알았다'는 고백"
+  },
+  {
+   "k": "휴식 선언",
+   "t": [
+    18.067,
+    20.9
+   ],
+   "e": 0.1,
+   "ko": "미러 슬라이드로 밤거리 셀카 전환, '짧다면 짧은 시간' 라벨과 함께 한 달 휴식을 선언"
+  },
+  {
+   "k": "휴식 계획 상상",
+   "t": [
+    20.9,
+    27.267
+   ],
+   "e": 0.7,
+   "ko": "수건 두르고 아이스크림 먹으며 영화 정주행 → 가족 손길에 눈 감기 → 엘리베이터 3단 줌 → 액자 없는 풀화면 게임 폭주(초성 욕 개그)"
+  },
+  {
+   "k": "작별 인사",
+   "t": [
+    27.267,
+    29.6
+   ],
+   "e": 0.3,
+   "ko": "엘리베이터에서 '어쨌든' 번역 개그로 정리하고 초점이 흐렸다 맞는 셀카로 손을 흔들며 작별 — 여기서 끝나는 것처럼 보임"
+  },
+  {
+   "k": "옥상 · 가방 속 반전",
+   "t": [
+    29.6,
+    34.233
+   ],
+   "e": 0.6,
+   "ko": "0.4초 무음 뒤 옥상 인서트, 복귀 날짜 라벨 → 케이스 '딸깍' → 몸만 한 저격총 등장 → (장전) 괄호 자막 → '지금 뭐 하는지' 자문"
+  },
+  {
+   "k": "팬 사직서 회수 · 결심",
+   "t": [
+    34.233,
+    41.1
+   ],
+   "e": 0.7,
+   "ko": "팝업 때 팬들이 붙이고 간 사직서 벽과 서류 더미 회상 → 크래시 줌·눈만 꽉 찬 초근접 + 영상 유일의 강조 자막으로 '대신 제출' 결심 → 대행 서비스 라벨"
+  },
+  {
+   "k": "저격 자세 작별 인사",
+   "t": [
+    41.1,
+    46.233
+   ],
+   "e": 0.5,
+   "ko": "밤 옥상 끝에 엎드려 앞발을 흔들며 인사·감사 → 눈빛 돌변 → (준비) → 0.7초 완전 무음"
+  },
+  {
+   "k": "발사 · 탄환 시점",
+   "t": [
+    46.233,
+    51.2
+   ],
+   "e": 0.9,
+   "ko": "방아쇠 인서트 → 총성 → 줌 블러로 야경 위를 나는 탄환 시점 → 사무실 창 관통 슬로모션(3.07초, 최장 영상 컷)"
+  },
+  {
+   "k": "첫 배달 확인",
+   "t": [
+    51.2,
+    59.633
+   ],
+   "e": 0.8,
+   "ko": "야근 직장인이 의자째 나동그라짐 → 53.2초 150BPM 음악 드롭 → 가슴 주머니에서 서류를 꺼내 펼치면 과장된 퇴사 사유 손글씨 클로즈업"
+  },
+  {
+   "k": "배달 액션 몽타주 1",
+   "t": [
+    59.633,
+    72.4
+   ],
+   "e": 1.0,
+   "ko": "임원 책상 위 서류 시위 → 양손 권총 연사와 슬로모션으로 흩날리는 서류 → 병원 간호사실 봉투 전달('건강을 위해') → 엄지척"
+  },
+  {
+   "k": "배달 액션 몽타주 2",
+   "t": [
+    72.4,
+    78.9
+   ],
+   "e": 0.9,
+   "ko": "날아가는 서류 다발 → 임원 이마에 손바닥으로 서류를 붙이는 '물리적 암기법' → 천장 아래 슬로모션 다이브"
+  },
+  {
+   "k": "창밖 펀치라인",
+   "t": [
+    78.9,
+    85.833
+   ],
+   "e": 0.8,
+   "ko": "복사기에서 나온 '창밖을 보시오' 쪽지 → 창밖 난간에 선 주인공의 서류 시위 → 무표정 → 몸짓 한 방으로 마무리"
+  },
+  {
+   "k": "엔딩 카드",
+   "t": [
+    85.833,
+    89.8
+   ],
+   "e": 0.2,
+   "ko": "검정 화면에 자모 타자로 다음 만남 약속 → 감사 → FIN, 저음 여운 2초 뒤 완전 무음"
+  }
+ ],
+ "captions": {
+  "summary": "자막은 3층 + 카드. ①상황 라벨: 흰 대사 바로 위의 작은 반투명 회색 박스(속마음·기간·날짜·영어 번역 개그) ②주인공 흰 대사(하단 중앙 — 사람은 대사가 없어 화자 색 없음) ③괄호 상황 자막: 대사 자리에 '(…)'로 동작·효과음을 설명 — 대사가 사라지는 후반 40초의 내레이션 ④검정 엔딩 카드. 강조 자막은 결심 순간 1회(#52)뿐이고 v1의 이름표·화자 색은 쓰지 않음",
+  "styles": [
+   {
+    "name": "상황 라벨",
+    "css": "label-hero",
+    "spec": "반투명 밝은 회색 둥근 박스(불투명도 약 75~80%, 뒤 배경색이 살짝 비침 — 털 위 실측 #C5B8AF 부근, 모서리 반경 약 10px, 박스 약 216×72px) + 거의 검정 글씨(#100600 부근), 기울임 없는 정자체, 자간을 넓힌 고딕, 글자 크기 약 40px(1080p 기준), 박스 중심 y≈0.768(대사 바로 위), 가로 가운데. 컷과 함께 통째로 등장(타이핑 없음)",
+    "use": "대사 위에서 속마음·정보·번역 개그를 덧붙임(기간, 복귀 날짜, 행사 이름, 대사와 같은 뜻의 영어 한 단어, 눈빛 설명 등). 여러 컷에 걸쳐 유지되며 대사만 바뀜"
+   },
+   {
+    "name": "대사(주인공)",
+    "css": "line-hero",
+    "spec": "흰 글씨 #FFFFFF + 검정 외곽선 약 5px(#000000), 중간 굵기 고딕, 흰 글자 면 높이 약 80px(폰트 크기 약 84px 추정 — v1·v3보다 큼), 중심 y≈0.868, 가로 가운데. 짧은 구절은 컷과 함께 통째로, 긴 구절은 음절 단위 타이핑",
+    "use": "주인공 목소리 전용. 받침을 붙인 애교 표기(-엉/-땅/-궁)와 말끝 ☆·~로 귀여움 유지"
+   },
+   {
+    "name": "괄호 상황 자막",
+    "css": "paren",
+    "spec": "대사와 같은 위치·크기(중심 y≈0.868, 글자 높이 약 80px)·색(흰 글씨 #FFFFFF + 검정 외곽선 약 5px), 괄호 포함, 기울임 없음, 타이핑 없이 통째로 등장",
+    "use": "효과음·행동 해설(장전, 잔업 마무리, 눈빛 돌변, 준비, 발사, 엄지척, 몸짓 등). 대사가 없는 후반 40초의 내레이션 역할"
+   },
+   {
+    "name": "강조(결심 한마디)",
+    "css": "emph",
+    "spec": "#52 1회: 흰 글씨 #FFFFFF + 두꺼운 검정 외곽선 약 9px, 굵은 고딕, 글자 높이 약 138px(일반 대사의 약 1.7배), 중심 y≈0.865, 기울임 없음, 반짝이·흔들림 없음",
+    "use": "영상 전체에서 결심 순간(대신 제출하겠다) 한 번만 크게"
+   },
+   {
+    "name": "엔딩 카드",
+    "css": "card",
+    "spec": "#109: 완전 검정 화면(#000000) + 흰 보통 굵기 글씨 #EFEFEF 부근(외곽선 없음), 글자 높이 약 66px, 중심 y≈0.887, 3문장(다음 만남 약속 → 감사 → FIN)이 약 1.3초씩 교체, 첫 문장은 자모가 조립되는 타자 효과",
+    "use": "작별 인사와 복귀 약속을 조용히 마무리(음악 없이 저음 여운만)"
+   }
+  ],
+  "typing": "대사는 말소리에 맞춰 음절 단위로 드러남(말 빠르기 그대로, 초당 약 5~11음절). 짧은 구절(버스 파트 #1~#9, #20~#22 등)은 컷 시작과 함께 통째로 뜨고, 긴 구절(#10, #12, #32, #36, #44, #51, #54 등)만 타이핑. 한 구절이 컷 2~4개에 걸쳐 유지되는 자막 브릿지(#1→#2, #6→#7→#8, #27→#28→#29, #44→#45). 라벨·괄호·강조·엔딩 카드는 통째로 등장(엔딩 카드 첫 문장만 자모 타자)",
+  "decor": "말끝 ☆(#37~#41)와 받침을 붙인 애교 표기, 물결 ~. 반짝이 스티커·이모지 없음. 회상·상상 클립(#10~#17, #23~#26, #48~#50)에는 둥근 모서리 검정 액자 + 비네트 + 빛바랜 색보정(편집 그래픽)을 씌우고, 게임 상상(#30~#34)만 액자 없이 풀화면. 엔딩 카드는 자모가 조립되는 타자 효과"
+ },
+ "shots": [
+  {
+   "n": 1,
+   "who": "hero",
+   "sz": "MCU(버스 원본 약 1.5배 크롭)",
+   "ang": "아이레벨(셀카 높이, 정면)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 1단계 — 버스 원본(#6 구도)의 약 1.5배",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "창가 좌석에 앉아 작은 가방을 안은 채 카메라를 똑바로 보며 입을 벌려 인사",
+   "bg": "남색 버스 좌석 등받이, 오른쪽 창밖 흐린 도시 불빛",
+   "set": "bus",
+   "cap": {
+    "lb": null,
+    "ln": "팬 애칭을 부르며 건네는 첫인사(대사 훅)",
+    "sp": "hero",
+    "fx": "기본(컷과 함께 통째로)"
+   },
+   "tr": "오프닝: 첫 프레임부터 말하는 중(인트로·로고 없음)",
+   "sfx": "버스 엔진 저음 룸톤 시작 + 목소리",
+   "tech": "첫 프레임 팬 호명 훅 + 셀카 브이로그 정면 구도",
+   "why": "0.4초 만에 '주인공이 나에게 직접 말을 건다'는 친밀감을 만들고 공지 영상의 딱딱함을 없앰",
+   "img": "Medium close-up at selfie height of {HERO} sitting in the window seat of a night city bus, facing the camera like a vlogger holding a phone at arm's length, hugging a tiny dark-navy mini backpack with its short stubby arms, big round glossy black eyes looking straight into the lens, mouth slightly open mid-greeting; {BUS} (crop of the shot 6 master frame at about 1.5x)",
+   "mot": "Edit: digital crop of the bus master take (shot 6 framing) at about 1.5x, centered on the face; use the first 0.4 s of the take. No new generation needed.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "{PUN}친구들~ 퇴근했어?",
+   "cute": [
+    "셀카 초근접",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 2,
+   "who": "hero",
+   "sz": "CU(버스 원본 약 2.1배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 2단계 — 약 2.1배(#1과 같은 순간을 축 방향으로 당김)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "얼굴이 화면을 채운 채 인사를 이어 가며 눈을 깜빡",
+   "bg": "남색 좌석(얼굴에 거의 가려짐)",
+   "set": "bus",
+   "cap": {
+    "lb": null,
+    "ln": "(앞 컷 첫인사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(같은 원본 확대 — 펀치인)",
+   "sfx": "-",
+   "tech": "디지털 펀치인(같은 원본 확대 크롭)",
+   "why": "같은 문장 안에서 얼굴을 크게 당겨 첫인사에 힘을 싣고 동그란 눈을 각인",
+   "img": "Close-up of {HERO}'s face filling the frame in a night bus, big round glossy black eyes with bright catchlights looking straight into the lens, pink nose and long whiskers sharp, dark navy seat fabric behind (crop of the shot 6 master frame at about 2.1x)",
+   "mot": "Edit: digital crop of the bus master take at about 2.1x, continuing right after shot 1's source time. No new generation needed.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(대사 유지)",
+   "cute": [
+    "셀카 초근접",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 3,
+   "who": "hero",
+   "sz": "MCU(버스 원본 약 1.45배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 1단계 — 약 1.45배(줌 아웃으로 리셋한 뒤 다시 당길 준비)",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "가방을 안고 카메라를 보며 두 번째 문장을 말함, 창밖 불빛이 흘러감",
+   "bg": "남색 좌석, 오른쪽 창밖 도시 불빛 보케",
+   "set": "bus",
+   "cap": {
+    "lb": null,
+    "ln": "갑작스러운 등장에 대해 묻는 말 — 앞부분",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷(줌 아웃 리셋)",
+   "sfx": "버스 룸톤 계속",
+   "tech": "줌 리셋 → 3단 펀치인의 출발점",
+   "why": "한 번 넓혔다가 다시 당겨야 다음 펀치인이 '확' 느껴짐",
+   "img": "Medium close-up of {HERO} in the window seat of a night bus, hugging a tiny dark-navy mini backpack to its round chest with short stubby arms, talking to the camera with big round glossy eyes, neon city lights streaking past the window on the right; {BUS} (crop of the shot 6 master frame at about 1.45x)",
+   "mot": "Edit: digital crop of the bus master take at about 1.45x. No new generation needed.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "난 지금 퇴근 버스",
+   "cute": [
+    "셀카 초근접",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 4,
+   "who": "hero",
+   "sz": "CU(버스 원본 약 1.9배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 2단계 — 약 1.9배",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈을 동그랗게 뜨고 묻는 표정",
+   "bg": "남색 좌석",
+   "set": "bus",
+   "cap": {
+    "lb": null,
+    "ln": "놀랐는지 묻는 짧은 물음(애교 받침)",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "3단 펀치인 2단계",
+   "why": "짧은 물음 한마디를 사이즈 변화로 강조",
+   "img": "Close-up of {HERO} in a night bus seat with a curious questioning look, big round glossy eyes wide open, whiskers pointing forward (crop of the shot 6 master frame at about 1.9x)",
+   "mot": "Edit: digital crop of the bus master take at about 1.9x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "몰래 찍는 중~",
+   "cute": [
+    "셀카 초근접",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 5,
+   "who": "hero",
+   "sz": "ECU(버스 원본 약 3.1배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 3단계 — 약 3.1배(눈·코만)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈과 코만 화면 가득, 가만히 카메라를 응시",
+   "bg": "없음(얼굴이 화면 전체)",
+   "set": "bus",
+   "cap": {
+    "lb": null,
+    "ln": "(앞 컷 물음 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "3단 펀치인 3단계(ECU)",
+   "why": "0.47초 초근접으로 '진짜 놀랐지?' 하는 눈빛을 밈처럼 남김",
+   "img": "Extreme close-up of {HERO}'s face: two big round glossy black eyes with bright catchlights and a pink nose filling the whole frame, fine whiskers, soft cream fur texture (crop of the shot 6 master frame at about 3x - generate the master in 4K so this stays sharp)",
+   "mot": "Edit: digital crop of the bus master take at about 3.1x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(대사 유지)",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 6,
+   "who": "hero",
+   "sz": "MS(버스 원본 전체 1.0배)",
+   "ang": "아이레벨(셀카 높이)",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 1단계 — 버스 원본 전체 화면. #1~#5·#7~#9·#18~#19가 모두 이 구도의 확대 크롭",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "창가 좌석에서 작은 남색 가방을 두 앞발로 꼭 끌어안고 카메라를 보며 말함. 좌석 오른쪽 아래에 검은 하드 케이스",
+   "bg": "남색 버스 좌석, 오른쪽 큰 창 너머 야간 도심 불빛·차량 빛줄기",
+   "set": "bus",
+   "cap": {
+    "lb": "별일 아니라는 안심 라벨",
+    "ln": "할 말이 있어 영상을 찍었다는 도입 — 앞부분",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(줌 아웃: 원본 전체 공개)",
+   "sfx": "버스 엔진 룸톤 + 창밖 차량 소음",
+   "tech": "원본 전체 공개 + 복선 소품(좌석 옆 검은 하드 케이스)",
+   "why": "장소(야간 퇴근 버스)와 소품(가방·케이스)을 처음 보여 주고, 후반 옥상에서 열릴 케이스를 조용히 심어 둠",
+   "img": "Medium shot at selfie height of {HERO} sitting upright in the window seat of a city bus at night, hugging a tiny dark-navy mini backpack with a little red tag against its round chest using both short stubby arms, big round glossy black eyes looking straight into the camera like a vlogger, a small black ridged hard-shell case lying on the seat beside it at the lower right; {BUS}",
+   "mot": "The {ANIMAL} talks softly to the camera in short phrases, blinks slowly and squeezes the backpack a little tighter; gentle bus vibration, neon lights sliding past the window. Static camera. Generate this master take in 4K for 12-15 seconds so shots 1-5, 7-9, 18 and 19 can be cropped from it.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "new": "(라벨) 은퇴 아님 주의 / 여름 특보 하나 있어",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 7,
+   "who": "hero",
+   "sz": "CU(버스 원본 약 2.1배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 2단계 — 버스 원본의 약 2.1배",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "얼굴 클로즈업, 말을 이어 가며 살짝 고개를 기울임",
+   "bg": "남색 좌석",
+   "set": "bus",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "영상을 만들었다는 문장 마무리(애교 받침)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "3단 펀치인 2단계 + 라벨 브릿지",
+   "why": "라벨은 그대로 두고 사이즈만 바꿔 문장을 끝까지 읽히게 함",
+   "img": "Close-up of {HERO} in a night bus seat, its face and the top of the tiny backpack in frame, talking sweetly to the camera with big round glossy eyes (crop of the shot 6 master frame at about 2.1x)",
+   "mot": "Edit: digital crop of the bus master take at about 2.1x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨 유지) / 두구두구두구",
+   "cute": [
+    "셀카 초근접",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 8,
+   "who": "hero",
+   "sz": "ECU(버스 원본 약 4배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 3단계 — 약 4.0배(업스케일로 털이 뭉개짐)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈·코 초근접, 입만 조금 움직임",
+   "bg": "없음",
+   "set": "bus",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "4배 디지털 크롭(원본 화질의 한계)",
+   "why": "문장 끝에서 가장 가깝게 붙어 본론 직전 주목도를 최대로",
+   "img": "Extreme close-up of {HERO}'s big round glossy eyes and pink nose filling the frame, soft cream fur (crop of the shot 6 master frame at about 4x - needs a 4K master)",
+   "mot": "Edit: digital crop of the bus master take at about 4x; add light sharpening.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 9,
+   "who": "hero",
+   "sz": "MS(버스 원본 약 1.55배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(1단) — 버스 원본(#6)의 약 1.55배(줌 아웃 리셋)",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "한쪽 앞발을 얼굴 옆으로 들어 올리며 본론을 꺼냄",
+   "bg": "남색 좌석, 창밖 불빛",
+   "set": "bus",
+   "cap": {
+    "lb": "본론으로 넘어가는 라벨",
+    "ln": "팬 덕분이라는 말의 시작",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(줌 아웃 리셋)",
+   "sfx": "-",
+   "tech": "줌 아웃으로 이야기 단락 전환 + 작은 제스처",
+   "why": "넓게 빠지며 이야기 단락이 바뀌었음을 알림",
+   "img": "Medium shot of {HERO} in the window seat of a night bus, hugging its tiny backpack with one short arm and raising the other tiny paw beside its cheek as it starts to explain, big round glossy eyes on the camera; {BUS} (crop of the shot 6 master frame at about 1.55x)",
+   "mot": "Edit: digital crop of the bus master take at about 1.55x at the moment the {ANIMAL} lifts one paw; if the master take has no paw lift, generate this beat from the shot 6 keyframe.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) 먼저 자랑부터 / 이번 시즌 우리",
+   "cute": [
+    "짧은 팔 춤·제스처",
+    "셀카 초근접"
+   ]
+  },
+  {
+   "n": 10,
+   "who": "hero_costume",
+   "sz": "MCU(회상 액자 안)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 1단계 — 액자 안 원본 전체",
+   "grid": [
+    2,
+    4,
+    5,
+    6,
+    8
+   ],
+   "act": "작은 삼각 밀짚모자를 쓰고 몸통만 한 쌀국수 그릇을 두 앞발로 받쳐 들고 카메라를 봄",
+   "bg": "따뜻한 식당 실내(초록 화분) 흐림",
+   "set": "flashback",
+   "cap": {
+    "lb": null,
+    "ln": "재미있는 일이 많았다는 문장 시작",
+    "sp": "hero",
+    "fx": "타이핑"
+   },
+   "tr": "하드컷(회상 액자 진입: 둥근 모서리 검정 테두리·비네트·빛바랜 색)",
+   "sfx": "필름 넘김 '찰칵'(권장)",
+   "tech": "회상 액자(빈티지 비네트 프레임)로 과거 영상 표시",
+   "why": "지난 에피소드를 '추억 앨범'처럼 보여 줘 오래 본 팬에게는 보상, 새 시청자에게는 채널 소개",
+   "img": "Medium close-up of {HERO} wearing a tiny woven conical straw hat sized exactly to its head, holding up a blue-and-white porcelain bowl of rice-noodle soup with fresh basil and bean sprouts that is almost as wide as its body, big round glossy eyes looking into the camera; a warm street-food restaurant with green plants blurred behind",
+   "mot": "The {ANIMAL} lifts the bowl slightly and blinks, the tiny hat wobbling. Static camera. Add the rounded vintage frame, vignette and faded grade in the edit. If you have a clip from your own past episode, use it instead.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "국수 먹방에",
+   "cute": [
+    "작은 모자·소품 착용",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 11,
+   "who": "hero_costume",
+   "sz": "CU(회상 액자 안, 약 1.4배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 2단계 — 액자 안 화면만 약 1.4배",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "모자 쓴 얼굴 클로즈업, 입을 오물거림",
+   "bg": "흐린 식당",
+   "set": "flashback",
+   "cap": {
+    "lb": null,
+    "ln": "(문장 이어짐)",
+    "sp": "hero",
+    "fx": "타이핑 브릿지"
+   },
+   "tr": "하드컷(펀치인, 액자 크기는 그대로)",
+   "sfx": "-",
+   "tech": "액자 안쪽만 확대하는 펀치인",
+   "why": "0.3초 초단컷으로 몽타주 속도를 올림",
+   "img": "Close-up of {HERO} wearing a tiny woven conical straw hat, cheeks slightly puffed, big round glossy eyes, the rim of a blue-and-white noodle bowl at the bottom of the frame (crop of shot 10 at about 1.4x)",
+   "mot": "Edit: digital crop of shot 10's clip at about 1.4x inside the same vintage frame.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(대사 유지)",
+   "cute": [
+    "작은 모자·소품 착용",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 12,
+   "who": "hero_costume",
+   "sz": "MCU(기울어진 구도, 회상 액자 안)",
+   "ang": "살짝 기울어진 더치 앵글",
+   "cam": "핸드헬드처럼 살짝 움직임",
+   "grid": [
+    1,
+    2,
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "청록 야구모자를 쓰고 몸만 한 청록 피자 상자를 렌즈 앞으로 들이밀며 입을 크게 벌려 외침",
+   "bg": "밝은 하늘색 스튜디오 배경, 오른쪽 아래 큰 로고 글자 일부",
+   "set": "flashback",
+   "cap": {
+    "lb": null,
+    "ln": "많이 했다는 문장(타이핑)",
+    "sp": "hero",
+    "fx": "타이핑"
+   },
+   "tr": "하드컷(회상 몽타주)",
+   "sfx": "-",
+   "tech": "지난 협업·광고 클립 재사용(몽타주)",
+   "why": "화면 톤(하늘색)과 구도(기울기)를 바꿔 한 컷마다 다른 에피소드임을 즉시 알림",
+   "img": "Tilted medium close-up of {HERO} wearing a tiny teal baseball cap sized to its head, clutching a turquoise pizza box as big as its body right up to the lens with its short stubby arms, mouth wide open in an excited shout, bright pale-blue studio light, a made-up cartoon pizza logo on the box",
+   "mot": "The {ANIMAL} pushes the pizza box toward the lens and shouts happily, the box wobbling. Slight handheld drift. Add the vintage frame in the edit.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "minimax-h3"
+   ],
+   "new": "피자 먹방에",
+   "cute": [
+    "작은 모자·소품 착용",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 13,
+   "who": "hero_costume",
+   "sz": "MS(회상 액자 안)",
+   "ang": "살짝 로우앵글",
+   "cam": "고정",
+   "grid": [
+    2,
+    4,
+    5,
+    6,
+    8
+   ],
+   "act": "밀짚 챙모자에 흰 러플 옷깃, 작은 기타를 치며 입을 벌려 노래",
+   "bg": "초록 알프스 초원과 눈 덮인 산, 파란 하늘",
+   "set": "flashback",
+   "cap": {
+    "lb": null,
+    "ln": "(앞 문장 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(회상 몽타주)",
+   "sfx": "-",
+   "tech": "장소 점프 몽타주(식당 → 스튜디오 → 산)",
+   "why": "0.5~0.8초마다 장소가 바뀌어 '정말 바빴다'를 말 없이 증명",
+   "img": "Medium shot of {HERO} wearing a tiny woven straw sun hat and a small white ruffled collar, strumming a tiny acoustic ukulele sized to its short arms and singing with its mouth open, a green alpine meadow and snowy mountains under a clear blue sky behind",
+   "mot": "The {ANIMAL} strums the ukulele and sways while singing, the hat brim bobbing. Static camera. Add the vintage frame in the edit.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(대사 유지)",
+   "cute": [
+    "작은 모자·소품 착용",
+    "짧은 팔 춤·제스처"
+   ]
+  },
+  {
+   "n": 14,
+   "who": "hero",
+   "sz": "MS(뒷모습, 회상 액자 안)",
+   "ang": "아이레벨(뒤에서)",
+   "cam": "고정",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "시그니처 소품을 쓴 뒷모습으로 노을 진 빌딩 숲을 바라봄(원본은 음원 서비스 로고가 겹침)",
+   "bg": "노을 도시 스카이라인, 발코니 난간",
+   "set": "flashback",
+   "cap": {
+    "lb": null,
+    "ln": "엄청 바쁘게 지냈다는 말(두 구절)",
+    "sp": "hero",
+    "fx": "타이핑"
+   },
+   "tr": "하드컷(회상 몽타주)",
+   "sfx": "-",
+   "tech": "뒷모습 컷 + 협업 로고 오버레이(원본)",
+   "why": "얼굴 없이도 시그니처 실루엣만으로 캐릭터를 알아보게 함",
+   "img": "Back view medium shot of {HERO} sitting on a balcony ledge with its round fluffy back and small ears toward the camera, looking out over a glittering city skyline at sunset with pink and orange clouds",
+   "mot": "The {ANIMAL} slowly turns its head a little to the side while gazing at the city, a light breeze moving its fur. Static camera. Add the vintage frame in the edit (add a partner logo only for your own real collaboration).",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-5"
+   ],
+   "new": "쉴 틈 없이",
+   "cute": [
+    "뒷모습·엉덩이",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 15,
+   "who": "insert",
+   "sz": "WS(실사 행사장 영상, 회상 액자 안)",
+   "ang": "아이레벨(휴대폰 촬영)",
+   "cam": "핸드헬드(휴대폰 기록 영상)",
+   "grid": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "act": "실제 팝업 행사장: 대형 LED 화면에 캐릭터 배너, 사진 벽, 오른쪽에 스태프 한 명",
+   "bg": "행사장 천장 트러스·조명",
+   "set": "popup",
+   "cap": {
+    "lb": null,
+    "ln": "바쁘게 지낼 수 있었다는 문장 완성",
+    "sp": "hero",
+    "fx": "타이핑 브릿지"
+   },
+   "tr": "하드컷(회상 몽타주)",
+   "sfx": "-",
+   "tech": "실사 비하인드 인서트(현장 증거)",
+   "why": "AI 캐릭터 채널이 실제 오프라인 행사를 했다는 증거 → 후반 팬 참여 서사의 출발점",
+   "img": "Handheld phone-footage wide shot of a crowded indoor pop-up store event hall: a wide LED screen showing a cartoon {ANIMAL} character banner, photo booths and a wall of fan photos, a staff member at a table on the right; {POPUP}; documentary real-event feel",
+   "mot": "Slow handheld drift across the hall, people moving in the background. Use your own event footage if you have it.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "+달렸잖아",
+   "cute": []
+  },
+  {
+   "n": 16,
+   "who": "hero",
+   "sz": "MS(회상 액자 안)",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "정수리 털을 작은 머리끈으로 묶은 채 어두운 방에서 노트북 앞에 앉아 멍하니 화면을 봄",
+   "bg": "노트북 빛만 있는 어두운 방, 머그잔·구겨진 종이, 먼 창밖 불빛",
+   "set": "latenight",
+   "cap": {
+    "lb": "쉬지 않고 달렸다는 라벨",
+    "ln": "그러다 보니 → 내가 좀(두 구절)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(회상 액자)",
+   "sfx": "노트북 키보드 '타닥'(작게, 권장)",
+   "tech": "조명 대비(차가운 화면 빛)로 번아웃 표현",
+   "why": "밝은 회상 몽타주 직후 어두운 야근 장면으로 감정 온도를 뚝 떨어뜨림",
+   "img": "Medium shot of {HERO} with a tiny tuft of fur on top of its head tied up with a little hair tie, sitting at a silver laptop in a dark room late at night, its tired face lit by cold blue screen glow, short stubby paws resting on the keyboard, a white mug and crumpled papers beside it; {LATENIGHT}",
+   "mot": "The {ANIMAL} stares at the screen, blinks slowly and slumps a little. Static camera. Add the vintage frame in the edit.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(라벨) 밤샘 편집 3주째 / 달리고 또 달리다 → (라벨 유지) / +어느새",
+   "cute": [
+    "작은 모자·소품 착용",
+    "멍한 눈"
+   ]
+  },
+  {
+   "n": 17,
+   "who": "hero",
+   "sz": "CU(회상 액자 안)",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "두 앞발로 눈을 꾹 누르며 얼굴을 가림(지쳐서 아무것도 못 하겠다는 제스처)",
+   "bg": "어두운 방, 차가운 빛",
+   "set": "latenight",
+   "cap": {
+    "lb": "어느 순간 멈춰 버렸다는 라벨",
+    "ln": "지친 것 같다는 고백(말줄임)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷",
+   "sfx": "작은 한숨(권장)",
+   "tech": "사람 같은 제스처(얼굴 감싸기)로 감정 전달",
+   "why": "짧은 앞발로 얼굴을 다 못 가리는 크기 차이가 짠하면서도 귀여움",
+   "img": "Close-up of {HERO} with a tiny top-knot tuft, pressing both short stubby paws over its eyes in exhaustion, cheeks squished by the paws, dim cold laptop light in a dark room; {LATENIGHT}",
+   "mot": "The {ANIMAL} rubs its eyes with both tiny paws and slowly lowers its head. Static camera. Add the vintage frame in the edit.",
+   "gen": "ref",
+   "m": [
+    "minimax-h3",
+    "hailuo-2-3",
+    "kling-v3-omni"
+   ],
+   "new": "(라벨) 배터리 1% / 나 좀 방전됐나 봐...",
+   "cute": [
+    "앞발로 얼굴 가리기"
+   ]
+  },
+  {
+   "n": 18,
+   "who": "hero",
+   "sz": "MCU(버스 원본 약 1.5배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 1단계 — 버스 원본(#6 구도)의 약 1.5배",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "현재로 돌아와 담담하게 카메라를 보며 고백을 이어 감",
+   "bg": "남색 좌석, 창밖 불빛",
+   "set": "bus",
+   "cap": {
+    "lb": "본인도 몰랐다는 라벨",
+    "ln": "바빠서 몰랐다는 말(애교 받침)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(회상 → 현재 복귀, 액자 사라짐)",
+   "sfx": "버스 룸톤 복귀",
+   "tech": "액자 유무로 과거/현재 구분",
+   "why": "액자가 사라지는 것만으로 '다시 지금 이야기'임을 알림",
+   "img": "Medium close-up of {HERO} back in the night bus window seat, hugging its tiny backpack, calm sincere face looking into the camera with big round glossy eyes; {BUS} (crop of the shot 6 master frame at about 1.5x)",
+   "mot": "Edit: digital crop of the bus master take at about 1.5x (a later part of the take, or a second take from the same keyframe).",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) 충전 경고등 무시 / 계속 괜찮은 줄 알았는데",
+   "cute": [
+    "셀카 초근접",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 19,
+   "who": "hero",
+   "sz": "CU(버스 원본 약 2.2배 크롭)",
+   "ang": "아이레벨(정면)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 2단계 — 약 2.2배",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "얼굴 클로즈업, 조금 풀 죽은 눈으로 설명",
+   "bg": "남색 좌석",
+   "set": "bus",
+   "cap": {
+    "lb": "피로가 한꺼번에 왔다는 라벨",
+    "ln": "행사가 끝나고서야 알았다는 말",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "고백 핵심 문장은 펀치인으로",
+   "why": "가장 솔직한 한 문장을 가장 가까운 사이즈로",
+   "img": "Close-up of {HERO} in a night bus seat with slightly droopy, honest eyes, big round glossy pupils, whiskers relaxed (crop of the shot 6 master frame at about 2.2x)",
+   "mot": "Edit: digital crop of the bus master take at about 2.2x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) 전시회 끝나자마자 / 침대랑 한 몸이 됐어",
+   "cute": [
+    "셀카 초근접",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 20,
+   "who": "hero",
+   "sz": "MCU(셀카)",
+   "ang": "아이레벨(셀카, 살짝 로우)",
+   "cam": "핸드헬드 셀카(걸음에 따라 흔들림)",
+   "grid": [
+    2,
+    5,
+    6,
+    8,
+    9
+   ],
+   "act": "밤거리를 걸으며 가방끈을 멘 채 카메라에 대고 말을 꺼냄",
+   "bg": "야간 도심 인도, 초록 버스, 네온 간판, 가로수",
+   "set": "street",
+   "cap": {
+    "lb": null,
+    "ln": "그래서(접속사, 말줄임)",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "미러 슬라이드 전환(약 5프레임, 앞 화면이 왼쪽으로 밀려나며 가장자리가 거울처럼 반사) — 버스에서 거리로 장면 전환",
+   "sfx": "버스 룸톤이 뚝 끊기고 거리 소음으로(저역 49→22dB) + 슬라이드 '휙'(권장)",
+   "tech": "미러 슬라이드 장면 전환(이 영상 유일의 특수 전환)",
+   "why": "버스에서 내려 걷는다는 시간 경과를 전환 한 번으로 처리",
+   "img": "Handheld selfie-style medium close-up of {HERO} walking along a downtown sidewalk at night, tiny backpack straps over its round shoulders, big round glossy eyes looking into the phone lens, mouth slightly open as it talks; {STREET}",
+   "mot": "The {ANIMAL} walks toward the camera with a small bobbing step while talking; natural handheld sway, neon bokeh drifting behind. Handheld camera.",
+   "gen": "i2v",
+   "m": [
+    "seedance-2-5",
+    "kling-v3",
+    "veo-3-1"
+   ],
+   "new": "그리하여!",
+   "cute": [
+    "셀카 초근접",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 21,
+   "who": "hero",
+   "sz": "MS(거리 원본 1.0배)",
+   "ang": "아이레벨(살짝 로우)",
+   "cam": "핸드헬드 셀카. 같은 원본 디지털 줌(2단) 1단계 — 거리 원본 전체",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "멈춰 서서 카메라를 보며 휴식 기간을 말함",
+   "bg": "야간 거리 전체(버스·빌딩 불빛·네온)",
+   "set": "street",
+   "cap": {
+    "lb": "짧다면 짧고 길다면 긴 시간이라는 라벨",
+    "ln": "쉬는 기간(한 달)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷",
+   "sfx": "밤거리 차량·사람 소음",
+   "tech": "숫자(기간)는 넓은 컷에서 라벨과 함께",
+   "why": "도시 전체가 보이는 넓은 화면으로 '잠시 떠난다'는 여운",
+   "img": "Medium shot of {HERO} standing on a downtown sidewalk at night wearing tiny backpack straps, looking into the camera with big round glossy eyes, a green city bus, lit office towers and neon signs in soft bokeh behind; {STREET}",
+   "mot": "The {ANIMAL} stops, talks to the camera and gives a small nod; gentle handheld sway. Generate in 4K so shot 22 can be cropped from it.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "seedance-2-5"
+   ],
+   "new": "(라벨) 딱 보름 / 2주 동안",
+   "cute": [
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 22,
+   "who": "hero",
+   "sz": "MCU(거리 원본 약 1.5배 크롭)",
+   "ang": "아이레벨(살짝 로우)",
+   "cam": "핸드헬드 셀카. 같은 원본 디지털 줌(2단) 2단계 — 약 1.5배",
+   "grid": [
+    4,
+    5,
+    6,
+    8
+   ],
+   "act": "얼굴 가까이, 쉬겠다는 말을 또박또박",
+   "bg": "흐린 네온",
+   "set": "street",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "쉬는 시간을 갖겠다는 선언",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "선언 문장은 펀치인으로 마무리",
+   "why": "휴식 선언의 핵심 문장을 가깝게 보여 진심을 강조",
+   "img": "Medium close-up of {HERO} on a neon-lit night street, earnest face with big round glossy eyes, tiny backpack straps visible (crop of shot 21 at about 1.5x)",
+   "mot": "Edit: digital crop of shot 21's clip at about 1.5x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨 유지) / 여름 방학 할게!",
+   "cute": [
+    "셀카 초근접",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 23,
+   "who": "hero_costume",
+   "sz": "MS(상상 액자 안)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 1단계 — 액자 안 원본 전체",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "보라색 수건을 머리에 두르고 소파에 앉아 숟가락으로 몸통만 한 아이스크림 통을 퍼 먹음",
+   "bg": "모브색 소파·꽃무늬 쿠션, 따뜻한 스탠드",
+   "set": "sofa",
+   "cap": {
+    "lb": "특정 배우 작품 정주행 계획 라벨",
+    "ln": "밀린 영화를 보겠다는 계획",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(상상 액자 — 첫 프레임 필름 노출 깜빡임)",
+   "sfx": "필름 넘김 '찰칵'(권장)",
+   "tech": "계획을 '미리 보기 상상'으로 시각화(액자 재사용)",
+   "why": "말로만 하는 계획을 귀여운 장면으로 바로 보여 줘 몰입",
+   "img": "Medium shot of {HERO} wearing {COSTUME}, sitting on a cozy mauve sofa, holding a tiny spoon in one short paw and hugging a pint of ice cream almost as big as its body with the other, cheeks puffed while eating, big round glossy eyes on an off-screen TV; {SOFA}",
+   "mot": "The {ANIMAL} scoops ice cream and chews with puffed cheeks, eyes glued to an off-screen TV, the towel turban wobbling. Static camera. Add the vintage frame in the edit.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(라벨) 리모컨 독점 예정 / 드라마 몰아 보구",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "볼 빵빵·오물오물",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 24,
+   "who": "hero_costume",
+   "sz": "CU(상상 액자 안, 약 2배 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 2단계 — 액자 안 약 2배",
+   "grid": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "act": "수건 두른 얼굴 클로즈업, 숟가락을 입에 물고 오물오물",
+   "bg": "흐린 소파",
+   "set": "sofa",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "액자 안 펀치인",
+   "why": "먹는 얼굴로 당겨 볼 빵빵 귀여움을 강조",
+   "img": "Close-up of {HERO} wearing {COSTUME}, a tiny spoon at its mouth, cheeks puffed, big round glossy eyes (crop of shot 23 at about 2x)",
+   "mot": "Edit: digital crop of shot 23's clip at about 2x (a slightly later moment of the same take).",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "의상(꿀벌 옷 등)",
+    "볼 빵빵·오물오물",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 25,
+   "who": "hero",
+   "sz": "MCU(상상 액자 안)",
+   "ang": "살짝 하이앵글",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 1단계",
+   "grid": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "act": "크림색 니트 무릎 위에 엎드려 사람 손가락이 머리를 쓰다듬자 눈을 스르르 감음",
+   "bg": "따뜻한 거실, 크림 니트",
+   "set": "family",
+   "cap": {
+    "lb": "가족을 줄줄이 부르는 라벨",
+    "ln": "가족을 만나겠다는 계획",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "사람 손과의 크기 대비 + 행복한 표정",
+   "why": "쓰다듬 받는 장면은 누구나 '가족 품'을 떠올리는 가장 쉬운 감정 코드",
+   "img": "Medium close-up of {HERO} lying on a cream cable-knit sweater on someone's lap, eyes closing in bliss as a gentle human finger strokes the top of its head, tiny paws tucked under its chin, the human hand huge next to it; {FAMILY}",
+   "mot": "A human finger slowly strokes the {ANIMAL}'s head from front to back; the {ANIMAL} squints and melts into the sweater. Static camera. Add the vintage frame in the edit.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "veo-3-1"
+   ],
+   "new": "(라벨) 할머니 무릎 예약 / 할머니 댁도 가구",
+   "cute": [
+    "졸림·낮잠",
+    "사람과 크기 대비",
+    "쓰다듬 받기"
+   ]
+  },
+  {
+   "n": 26,
+   "who": "hero",
+   "sz": "ECU(상상 액자 안, 약 2배 크롭)",
+   "ang": "살짝 하이앵글",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 2단계 — 약 2배(손가락이 움직여 일치도 0.78, 추정)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈을 감은 얼굴 초근접, 손가락이 이마를 넘겨 쓰다듬음",
+   "bg": "흐린 니트",
+   "set": "family",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "행복한 표정 펀치인",
+   "why": "눈 감은 얼굴을 크게 보여 '쉬고 싶다'는 감정을 완성",
+   "img": "Extreme close-up of {HERO}'s blissful face with eyes closed, a human fingertip resting on its forehead fur, soft warm light (crop of shot 25 at about 2x)",
+   "mot": "Edit: digital crop of shot 25's clip at about 2x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "졸림·낮잠",
+    "쓰다듬 받기"
+   ]
+  },
+  {
+   "n": 27,
+   "who": "hero",
+   "sz": "MS(엘리베이터 원본 1.0배)",
+   "ang": "아이레벨(살짝 로우)",
+   "cam": "아주 느린 푸시인(컷 안 약 3%). 같은 원본 디지털 줌(3단) 1단계 — 엘리베이터 원본 전체",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "엘리베이터 안, 가방을 멘 채 앞발을 입가에 대고 생각하는 표정. 앞에 몸만 한 검은 하드 케이스",
+   "bg": "스테인리스 엘리베이터 벽, 환기구, 회색 바닥",
+   "set": "elevator",
+   "cap": {
+    "lb": "주말 내내 아무것도 안 하겠다는 라벨",
+    "ln": "하루 종일(계획 나열 이어짐)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(상상 → 현재, 액자 사라짐)",
+   "sfx": "엘리베이터 룸톤(낮게)",
+   "tech": "복선 소품 재등장(검은 케이스)",
+   "why": "케이스를 화면 앞에 크게 두어 '저건 뭐지?' 하는 궁금증을 쌓음",
+   "img": "Medium shot of {HERO} standing on its hind legs inside a stainless-steel elevator, a tiny navy backpack on its back, one short stubby paw raised to its mouth in a thinking pose, big round glossy eyes, a black ridged hard-shell case almost as long as its body standing on the floor in front of it; {ELEVATOR}",
+   "mot": "The {ANIMAL} taps its mouth with one tiny paw while thinking and blinks. Very slow push-in. Generate in 4K so shots 28 and 29 can be cropped from it.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(라벨) 알람 없는 아침 / 늦잠도 실컷 자구",
+   "cute": [
+    "앞발 입가에 대고 생각",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 28,
+   "who": "hero",
+   "sz": "MCU(엘리베이터 원본 약 2.3배 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 2단계 — 약 2.3배",
+   "grid": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "act": "앞발을 입에 댄 얼굴 클로즈업, 속셈이 있는 눈빛",
+   "bg": "스테인리스 벽",
+   "set": "elevator",
+   "cap": {
+    "lb": "게임 복귀를 알리는 라벨(영어+한글 말장난)",
+    "ln": "게임도 하겠다는 계획",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "3단 펀치인 2단계",
+   "why": "계획이 '진짜 하고 싶은 것'으로 좁혀질수록 화면도 좁혀짐",
+   "img": "Medium close-up of {HERO} in a steel elevator with one tiny paw at its mouth and a sly look, big round glossy eyes (crop of shot 27 at about 2.3x)",
+   "mot": "Edit: digital crop of shot 27's clip at about 2.3x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) 방구석 용사 출격 / 밤새 게임도 하구",
+   "cute": [
+    "앞발 입가에 대고 생각",
+    "셀카 초근접"
+   ]
+  },
+  {
+   "n": 29,
+   "who": "hero",
+   "sz": "ECU(엘리베이터 원본 약 3배 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 3단계 — 약 3.0배",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈·코 초근접",
+   "bg": "없음",
+   "set": "elevator",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "3단 펀치인 3단계(0.37초)",
+   "why": "게임 상상으로 넘어가기 직전 눈빛을 당겨 '딴사람'이 될 예고",
+   "img": "Extreme close-up of {HERO}'s big round glossy eyes and pink nose, one tiny paw touching its mouth at the bottom edge (crop of shot 27 at about 3x)",
+   "mot": "Edit: digital crop of shot 27's clip at about 3x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "앞발 입가에 대고 생각"
+   ]
+  },
+  {
+   "n": 30,
+   "who": "hero_costume",
+   "sz": "MCU(게임 원본 약 1.4배 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(4단) — #32 게임 원본의 약 1.4배",
+   "grid": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "act": "초록 불빛 게이밍 헤드셋(마이크 달림)을 쓰고 화면을 노려보며 입을 벌려 외치기 시작",
+   "bg": "어두운 방, 책장, 분홍 음료",
+   "set": "gameroom",
+   "cap": {
+    "lb": "게이머 초성 은어 라벨",
+    "ln": "게임 용어로 지시하는 외침",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(액자 없는 풀화면 상상 — 앞의 회상과 구분)",
+   "sfx": "게임 효과음 + 마우스 '클릭'(25.30초 온셋)",
+   "tech": "상상 장면인데 액자를 빼 '현재형 폭주'로 표현",
+   "why": "차분하던 주인공이 게임에서만 딴사람이 되는 반전 캐릭터 개그",
+   "img": "Medium close-up of {HERO} wearing a tiny black gaming headset with glowing green ear rings and a boom mic sized to its head, glaring at an off-screen monitor with its mouth open mid-shout, big round glossy eyes lit by cool monitor glow; {GAMEROOM} (crop of shot 32 at about 1.4x)",
+   "mot": "Edit: digital crop of shot 32's clip at about 1.4x (a moment just before shot 32).",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) 게임만 하면 딴사람 / 힐 좀 줘!",
+   "cute": [
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 31,
+   "who": "hero_costume",
+   "sz": "ECU(게임 원본 약 3.45배 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(4단) — #32 원본의 약 3.45배(끝에서 움직임 흐림)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈 초근접, 화면을 노려봄 → 끝에서 몸을 움직여 흐려짐",
+   "bg": "없음",
+   "set": "gameroom",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "초근접 펀치인으로 분노 직전 긴장",
+   "why": "눈빛만 보여 줘 다음 컷 폭발의 예열",
+   "img": "Extreme close-up of {HERO}'s big round glossy eyes glaring at a screen, green headset light glowing at the edges of the frame (crop of shot 32 at about 3.45x)",
+   "mot": "Edit: digital crop of shot 32's clip at about 3.45x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 32,
+   "who": "hero_costume",
+   "sz": "MS(게임 원본 1.0배)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(4단) 원본 — #30·#31·#33·#34가 이 클립의 확대 크롭",
+   "grid": [
+    2,
+    4,
+    5,
+    7,
+    8,
+    9
+   ],
+   "act": "키보드 앞에서 한쪽 짧은 팔을 휘두르며 화면에 대고 소리침, 옆에 분홍 음료",
+   "bg": "어두운 방 책장, 빛나는 키보드, 분홍 음료와 빨간 빨대",
+   "set": "gameroom",
+   "cap": {
+    "lb": null,
+    "ln": "팀원에게 무언가를 해 오라는 외침(타이핑)",
+    "sp": "hero",
+    "fx": "타이핑"
+   },
+   "tr": "하드컷(줌 아웃: 원본 전체 공개)",
+   "sfx": "키보드 연타(26.0~27.1초 온셋 7개 밀집) + 높은 괴성(약 660Hz 배음)",
+   "tech": "원본 전체로 빠져 몸 전체 동작(팔 휘두르기)을 보여 줌",
+   "why": "초근접 뒤 넓은 컷으로 몸 전체의 과장된 분노를 드러내 웃음",
+   "img": "Medium shot of {HERO} wearing a tiny black gaming headset with glowing green ear rings and a boom mic sized to its head, sitting at a backlit mechanical keyboard, one short stubby arm flung up mid-rant and mouth wide open shouting at the monitor, a pink iced drink with a red straw beside it; {GAMEROOM}",
+   "mot": "The {ANIMAL} bangs the keyboard with its tiny paws and flails one short arm while shouting in a squeaky rage, the headset mic bobbing. Static camera. Generate in 4K for about 5 seconds so shots 30, 31, 33 and 34 can be cropped from it.",
+   "gen": "ref",
+   "m": [
+    "minimax-h3",
+    "kling-v3-omni",
+    "hailuo-2-3"
+   ],
+   "new": "부활 좀 시켜줘",
+   "cute": [
+    "짧은 팔 춤·제스처",
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 33,
+   "who": "hero_costume",
+   "sz": "MCU(게임 원본 약 1.7배 크롭)",
+   "ang": "아이레벨",
+   "cam": "같은 원본 디지털 줌(4단) — 약 1.7배 + 편집 흔들림(분노 강조, 추정)",
+   "grid": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "act": "키보드를 마구 두드리며 몸을 들썩, 모션 블러",
+   "bg": "어두운 책장",
+   "set": "gameroom",
+   "cap": {
+    "lb": null,
+    "ln": "외침 반복 + 느낌표 연타",
+    "sp": "hero",
+    "fx": "타이핑 브릿지"
+   },
+   "tr": "하드컷",
+   "sfx": "키보드 연타 계속",
+   "tech": "화면 흔들림으로 분노 증폭",
+   "why": "흔들림+블러로 폭발한 분노 에너지를 시각화",
+   "img": "Medium close-up of {HERO} in a tiny gaming headset pounding the keyboard with both tiny paws, motion blur on the paws, mouth open mid-shout (crop of shot 32 at about 1.7x)",
+   "mot": "Edit: digital crop of shot 32's clip at about 1.7x plus a quick 3-4 frame camera-shake effect.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "++!!!",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
+  },
+  {
+   "n": 34,
+   "who": "hero_costume",
+   "sz": "MCU(게임 원본 약 1.75배 크롭, 0.23초)",
+   "ang": "아이레벨",
+   "cam": "같은 원본 디지털 줌(4단) — 약 1.75배 + 흔들림",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "분노로 부들부들 떪(원본은 욕설을 초성으로 가린 자막)",
+   "bg": "어두운 방",
+   "set": "gameroom",
+   "cap": {
+    "lb": null,
+    "ln": "욕설을 초성으로 가린 한마디",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷",
+   "sfx": "짧은 괴성",
+   "tech": "초성 자막으로 욕을 가리는 검열 개그",
+   "why": "0.23초 초단컷 + 초성으로 수위를 지키며 웃음",
+   "img": "Medium close-up of {HERO} in a tiny gaming headset trembling with rage, whiskers bristling, tiny paws clenched (crop of shot 32 at about 1.75x)",
+   "mot": "Edit: digital crop of shot 32's clip at about 1.75x plus shake.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "ㅂㄷㅂㄷ",
+   "cute": [
+    "짧은 팔 춤·제스처"
+   ]
+  },
+  {
+   "n": 35,
+   "who": "hero",
+   "sz": "MCU(엘리베이터 원본 1.0배)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 1단계 — #36이 이 클립의 약 1.25배 확대",
+   "grid": [
+    2,
+    4,
+    5,
+    6,
+    8
+   ],
+   "act": "엘리베이터에서 검은 케이스 위에 두 앞발을 올리고 몸을 내밀어 카메라를 봄",
+   "bg": "스테인리스 벽",
+   "set": "elevator",
+   "cap": {
+    "lb": "'어쨌든'을 영어로 쓴 번역 개그 라벨",
+    "ln": "어쨌든(말 정리)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(상상 → 현재)",
+   "sfx": "-",
+   "tech": "라벨 번역 개그(대사와 같은 뜻을 다른 언어로)",
+   "why": "폭주하던 게임 장면을 한마디로 끊고 본론 복귀",
+   "img": "Medium close-up of {HERO} inside a steel elevator leaning forward over the lid of a black ridged hard-shell case, both tiny paws resting on the case edge, big round glossy eyes on the camera, a tiny backpack strap on its shoulder; {ELEVATOR}",
+   "mot": "The {ANIMAL} leans on the case and looks up at the camera, then straightens a little. Static camera. Generate in 4K; shot 36 is a 1.25x crop of this take.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(라벨) 본론으로 / 그래서 결론은",
+   "cute": [
+    "빼꼼 고개 내밀기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 36,
+   "who": "hero",
+   "sz": "CU(엘리베이터 원본 약 1.25배 크롭)",
+   "ang": "아이레벨",
+   "cam": "같은 원본 디지털 줌(2단) 2단계 — 약 1.25배. 시작 0.3초는 초점이 나갔다가 맞고, 끝에서 앞발을 흔들며 다가와 다시 흐려짐(셀카 핸드헬드 느낌)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "카메라에 얼굴을 들이민 채 작별 인사를 하고 끝에서 작은 앞발을 흔듦",
+   "bg": "스테인리스 벽(흐림)",
+   "set": "elevator",
+   "cap": {
+    "lb": null,
+    "ln": "조금만 쉬고 오겠다는 작별 인사(타이핑)",
+    "sp": "hero",
+    "fx": "타이핑"
+   },
+   "tr": "하드컷(흐린 초점으로 진입 → 약 0.3초 뒤 초점이 맞음)",
+   "sfx": "-",
+   "tech": "초점 이동(랙 포커스)으로 셀카 현장감 + 손 흔들기",
+   "why": "1.67초로 전반부에서 가장 긴 작별 컷 — 여기서 영상이 끝날 것처럼 속임",
+   "img": "Close-up of {HERO} leaning very close to the lens inside a steel elevator, big round glossy eyes, waving one tiny pink paw goodbye beside its cheek (crop of shot 35 at about 1.25x)",
+   "mot": "Edit: digital crop of shot 35's clip at about 1.25x; start with a 0.3 s defocus that snaps into focus and let the waving paw blur the end. If the source has no wave, generate a 2-second wave clip from the shot 35 keyframe.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "2주만 충전하고 올게~",
+   "cute": [
+    "앞발 모으기·흔들기",
+    "셀카 초근접"
+   ]
+  },
+  {
+   "n": 37,
+   "who": "hero",
+   "sz": "INSERT(앞발 CU, 옥상 원본 약 1.75배 크롭)",
+   "ang": "로우앵글(바닥 높이)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 2단계 — #38 원본의 약 1.75배",
+   "grid": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "act": "검은 케이스 위에 작은 앞발 두 개가 톡 얹힘(주둥이 끝만 보임)",
+   "bg": "옥상 콘크리트, 흐린 도시 불빛",
+   "set": "rooftop",
+   "cap": {
+    "lb": null,
+    "ln": "케이스에 기대며 내는 짧은 기합(☆)",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷(장소 점프: 엘리베이터 → 옥상, 직전 약 0.4초 무음)",
+   "sfx": "케이스에 기대는 '쿵'(저역 약 79Hz) + 짧은 기합",
+   "tech": "선 인서트 → 전체(작은 디테일로 새 장면을 여는 순서)",
+   "why": "작별한 줄 알았는데 다른 장소에서 다시 등장 — 0.33초 인서트로 '아직 안 끝났다'를 알림",
+   "img": "Low-angle insert close-up of two tiny pink paws resting on the lid of a small black ridged hard-shell case on a concrete rooftop, the tip of {HERO}'s fluffy muzzle and whiskers at the top of the frame, blue-hour city lights blurred behind; {ROOFTOP} (crop of shot 38 at about 1.75x)",
+   "mot": "Edit: digital crop of shot 38's clip at about 1.75x on the paws.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "영차☆",
+   "cute": [
+    "작은 앞발 클로즈업"
+   ]
+  },
+  {
+   "n": 38,
+   "who": "hero",
+   "sz": "MS(옥상 원본 1.0배)",
+   "ang": "로우앵글(바닥 높이)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 1단계 — 옥상 원본 전체(#37이 이 클립의 확대)",
+   "grid": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "act": "옥상 바닥의 검은 케이스 위에 턱과 앞발을 올리고 엎드려 카메라를 봄",
+   "bg": "블루아워 도시 스카이라인 보케, 콘크리트 바닥",
+   "set": "rooftop",
+   "cap": {
+    "lb": null,
+    "ln": "(앞 기합 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(줌 아웃)",
+   "sfx": "옥상 바람(아주 작게)",
+   "tech": "새 장소 전체 공개 + 복선 소품이 화면 중앙으로",
+   "why": "케이스가 화면 한가운데로 — 이제 열릴 차례임을 암시",
+   "img": "Low-angle medium shot of {HERO} flopped forward over a small black ridged hard-shell case lying on a concrete rooftop, its chin and tiny paws resting on the lid, big round glossy eyes on the camera, a blue-hour city skyline with glowing windows blurred behind; {ROOFTOP}",
+   "mot": "The {ANIMAL} flops onto the case, rests its chin on the lid and blinks. Static camera. Generate in 4K; shot 37 is a crop of this take.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 39,
+   "who": "hero",
+   "sz": "MS(옥상 원본 약 1.1배 크롭)",
+   "ang": "로우앵글",
+   "cam": "고정. 같은 원본 디지털 줌(3단) — #41 원본의 약 1.1배(같은 고정 카메라의 앞 순간)",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "옥상 난간 앞, 닫힌 케이스 옆에 서서 복귀 시기를 말함",
+   "bg": "옥상 난간, 블루아워 빌딩 숲",
+   "set": "rooftop",
+   "cap": {
+    "lb": "복귀 시기(9월 중순)를 알리는 라벨",
+    "ln": "돌아오면(문장 시작)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷",
+   "sfx": "-",
+   "tech": "라벨로 날짜 정보 전달",
+   "why": "구체적 복귀 날짜를 라벨로 따로 적어 공지 기능을 챙김",
+   "img": "Medium shot of {HERO} standing on its hind legs on a concrete rooftop at blue hour next to a closed black hard-shell case, talking to the camera with big round glossy eyes, a metal railing and a skyline of lit office towers behind; {ROOFTOP}",
+   "mot": "Edit: take the opening moment of the shot 41 take (before the case is opened) and crop it about 1.1x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) 개학은 8월 마지막 주 / 방학 끝나면",
+   "cute": [
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 40,
+   "who": "hero",
+   "sz": "CU(케이스 뚜껑)",
+   "ang": "로우앵글",
+   "cam": "고정(뚜껑이 열리며 모션 블러). 원본을 크게 확대한 크롭일 가능성(화질이 매우 흐림, 불확실)",
+   "grid": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "act": "작은 앞발로 검은 케이스 뚜껑을 힘껏 밀어 올려 엶(털과 뚜껑이 흐리게 움직임)",
+   "bg": "흐린 옥상",
+   "set": "rooftop",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "돌아오면 계절이 바뀌어 있을 거라는 말장난(☆)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷",
+   "sfx": "잠금쇠 '딸깍' 클릭(31.58초 온셋, 이 구간 최강 효과음)",
+   "tech": "개봉 순간 인서트(복선 회수)",
+   "why": "18초 넘게 따라다닌 케이스가 드디어 열림 — 관객이 기다린 순간",
+   "img": "Low-angle close-up of the lid of a small black ridged hard-shell case being pushed open by {HERO}'s tiny pink paws, cream fur blurred on the right, rooftop concrete and city lights in soft focus",
+   "mot": "The {ANIMAL} strains to push the heavy lid up with both tiny paws; the lid swings open with motion blur. Static camera. One second is enough.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "viduq3-pro"
+   ],
+   "new": "(라벨 유지) / 배터리 만땅일거얌☆",
+   "cute": [
+    "낑낑 힘쓰기"
+   ]
+  },
+  {
+   "n": 41,
+   "who": "hero",
+   "sz": "MS(옥상 원본 1.0배)",
+   "ang": "로우앵글",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 1단계 — 옥상 원본 전체(#39·#42·#43이 이 클립)",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "열린 케이스 옆에서 몸만 한 나무 개머리판 소총을 두 팔로 들어 올림",
+   "bg": "열린 케이스(검은 스펀지), 난간, 스카이라인",
+   "set": "rooftop",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(앞 말장난 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(줌 아웃)",
+   "sfx": "총을 꺼내는 '스르륵'(권장)",
+   "tech": "장르 반전 리빌(가방 속 저격총)",
+   "why": "휴식 공지 영상이 킬러 영화로 뒤집히는 순간 — 여기서 끝까지 볼 이유가 생김",
+   "img": "Medium shot of {HERO} standing on its hind legs on a concrete rooftop at blue hour beside an open black hard-shell case, lifting out a miniature wooden bolt-action prop rifle almost as long as its body with its short stubby arms, big round glossy eyes; {ROOFTOP}",
+   "mot": "Start: the {ANIMAL} stands beside the closed case. End: it holds the prop rifle diagonally across its round body next to the open case. Static camera, 5 seconds, 4K (shots 39, 42 and 43 are cut from this take).",
+   "gen": "i2v-fl",
+   "m": [
+    "kling-v3",
+    "veo-3-1"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 42,
+   "who": "hero",
+   "sz": "MCU(옥상 원본 약 1.75배 크롭)",
+   "ang": "로우앵글",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 2단계 — 약 1.75배",
+   "grid": [
+    2,
+    4,
+    5,
+    6,
+    8
+   ],
+   "act": "소총을 대각선으로 안고 힘주는 짧은 기합",
+   "bg": "흐린 스카이라인",
+   "set": "rooftop",
+   "cap": {
+    "lb": null,
+    "ln": "짧은 기합 한 음절",
+    "sp": "hero",
+    "fx": "기본"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "펀치인",
+   "why": "총을 든 작은 몸을 가까이 보여 부조화 웃음",
+   "img": "Medium close-up of {HERO} hugging a miniature wooden bolt-action prop rifle diagonally against its round chest with short stubby arms, determined big round glossy eyes (crop of shot 41 at about 1.75x)",
+   "mot": "Edit: digital crop of shot 41's clip at about 1.75x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "읏챠",
+   "cute": [
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 43,
+   "who": "hero",
+   "sz": "ECU(옥상 원본 약 3배 크롭, 추정)",
+   "ang": "로우앵글",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 3단계 — 약 3.0배(일치도 0.84, 추정)",
+   "grid": [
+    4,
+    5,
+    6,
+    8,
+    9
+   ],
+   "act": "얼굴 초근접, 작은 앞발이 노리쇠를 당겨 장전",
+   "bg": "없음",
+   "set": "rooftop",
+   "cap": {
+    "lb": null,
+    "ln": "(장전 완료) 괄호 상황 자막",
+    "sp": "narr",
+    "fx": "괄호 자막"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "노리쇠 '철컥-철컥' 클릭(32.77·32.94·33.07초 3연속, 사이 0.1~0.2초 무음)",
+   "tech": "괄호 효과 자막(소리를 글자로)",
+   "why": "장전 소리를 괄호 자막으로 한 번 더 찍어 '이제 진짜다'를 확정",
+   "img": "Extreme close-up of {HERO}'s big round glossy eyes and pink nose, one tiny pink paw on the wooden stock of a miniature prop rifle crossing the lower right of the frame (crop of shot 41 at about 3x)",
+   "mot": "Edit: digital crop of shot 41's clip at about 3x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(신청서 장전)",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 44,
+   "who": "hero",
+   "sz": "WS(옥상 원본 1.0배)",
+   "ang": "로우앵글",
+   "cam": "아주 느린 푸시인(컷 안 약 4%). 같은 원본 디지털 줌(3단) 1단계 — #45·#46·#47이 이 클립의 확대(약 4배·1.6배·4.25배)",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "열린 케이스(스펀지 속 조준경) 뒤에 서서 소총을 대각선으로 들고 카메라에 물음",
+   "bg": "넓은 옥상 바닥, 난간, 블루아워 빌딩 숲",
+   "set": "rooftop",
+   "cap": {
+    "lb": null,
+    "ln": "지금 뭘 하는지 묻는 자문(타이핑)",
+    "sp": "hero",
+    "fx": "타이핑"
+   },
+   "tr": "하드컷(줌 아웃: 전체 상황 공개)",
+   "sfx": "옥상 바람(작게), 말 사이 짧은 무음",
+   "tech": "와이드 리빌(작은 동물 + 무기 케이스 전체)",
+   "why": "넓은 화면에서 작은 동물과 총의 크기 대비를 한 번에 보여 줌",
+   "img": "Wide low-angle shot of {HERO} standing on its hind legs on an empty concrete rooftop at blue hour, holding a miniature wooden bolt-action prop rifle diagonally across its round body with short stubby arms, an open black hard-shell case with grey foam cut-outs and a small scope at its feet; {ROOFTOP}",
+   "mot": "The {ANIMAL} tilts its head and talks to the camera while holding the rifle. Very slow push-in. Generate in 4K so shots 45-47 can be cropped (up to 4x).",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "가방에 웬 총이냐구?",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 45,
+   "who": "hero",
+   "sz": "ECU(옥상 원본 약 4배 크롭, 추정)",
+   "ang": "로우앵글",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 3단계 — 약 4배(추정)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈·코 초근접, 묻는 표정",
+   "bg": "흐린 하늘",
+   "set": "rooftop",
+   "cap": {
+    "lb": null,
+    "ln": "(자문 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "와이드 → 초근접 점프",
+   "why": "물음표 순간을 초근접으로 — 시청자도 같은 질문을 하게 됨",
+   "img": "Extreme close-up of {HERO}'s big round glossy eyes and pink nose, the wooden stock of a miniature prop rifle at the lower right (crop of shot 44 at about 4x)",
+   "mot": "Edit: digital crop of shot 44's clip at about 4x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(대사 유지)",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 46,
+   "who": "hero",
+   "sz": "MS(옥상 원본 약 1.6배 크롭)",
+   "ang": "로우앵글",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 2단계 — 약 1.6배",
+   "grid": [
+    2,
+    4,
+    5,
+    6,
+    8
+   ],
+   "act": "소총을 든 채 설명을 시작",
+   "bg": "옥상 난간, 빌딩",
+   "set": "rooftop",
+   "cap": {
+    "lb": "행사(팝업) 이름 라벨",
+    "ln": "팝업스토어를 했을 때(회상 도입)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(줌 아웃)",
+   "sfx": "-",
+   "tech": "줌 핑퐁(1.0→4→1.6→4.25배)으로 설명 대사에 리듬",
+   "why": "같은 원본을 넓게·좁게 번갈아 써 설명 대사도 지루하지 않게",
+   "img": "Medium shot of {HERO} on a blue-hour rooftop holding a miniature wooden prop rifle across its chest, starting to explain something with big round glossy eyes (crop of shot 44 at about 1.6x)",
+   "mot": "Edit: digital crop of shot 44's clip at about 1.6x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) {PUN}네 첫 전시회 / 전시회 방명록 코너에~",
+   "cute": [
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 47,
+   "who": "hero",
+   "sz": "ECU(옥상 원본 약 4.25배 크롭)",
+   "ang": "로우앵글",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 3단계 — 약 4.25배",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "눈 초근접, 회상하는 눈빛",
+   "bg": "없음",
+   "set": "rooftop",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "회상 직전 초근접",
+   "why": "눈 속으로 들어가듯 다음 회상 컷으로 연결",
+   "img": "Extreme close-up of {HERO}'s big round glossy eyes looking slightly up as if remembering, soft cream fur (crop of shot 44 at about 4.25x)",
+   "mot": "Edit: digital crop of shot 44's clip at about 4.25x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 48,
+   "who": "insert",
+   "sz": "INSERT(행사장 벽, 회상 액자 안)",
+   "ang": "아이레벨",
+   "cam": "편집에서 느린 푸시인",
+   "grid": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "act": "팬들이 손글씨로 써서 붙인 서류가 벽을 가득 덮음, 앞에 벙거지 모자 쓴 관람객 뒷모습",
+   "bg": "종이 벽, 스마일 스티커",
+   "set": "popup",
+   "cap": {
+    "lb": "팬들이 붙이고 간 것이라는 라벨",
+    "ln": "팬들이 내고 간(대상 설명)",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(회상 액자, 진입 2~3프레임 밝기 튐)",
+   "sfx": "회상 진입 '찰칵'(36.17초 온셋)",
+   "tech": "실사 증거 인서트(팬 참여 결과물)",
+   "why": "팬이 직접 쓴 서류를 보여 줘 '내 글도 있나?' 찾게 만듦",
+   "img": "A wall completely covered with dozens of handwritten letter forms in colorful markers, decorated with round smiley-face stickers, a visitor in a beige bucket hat seen from behind in the foreground reading them; {POPUP}",
+   "mot": "Still image with a slow push-in in the edit. Use a photo from your own event if you have one.",
+   "gen": "still",
+   "m": [
+    "still"
+   ],
+   "new": "(라벨) 방명록 벽 / 너희가 쓰고 간",
+   "cute": []
+  },
+  {
+   "n": 49,
+   "who": "hero",
+   "sz": "MS(회상 액자 안)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 1단계",
+   "grid": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "act": "정수리 털을 묶은 주인공이 산더미 같은 서류 더미 속에 앉아 한 장을 두 앞발로 들고 읽음",
+   "bg": "서류·봉투 더미, 밝은 창",
+   "set": "letterpile",
+   "cap": {
+    "lb": "분노가 가득 담긴 서류라는 라벨",
+    "ln": "그 서류들이 있다는 말",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(회상)",
+   "sfx": "종이 바스락(권장)",
+   "tech": "서류 더미 크기 대비",
+   "why": "서류가 산처럼 쌓인 그림 하나로 '이만큼 많다'를 전달",
+   "img": "Medium shot of {HERO} with a tiny top-knot tuft sitting in the middle of a messy mountain of handwritten letter forms and envelopes with colorful round stickers, holding up one sheet nearly as big as its torso with both tiny paws and reading it seriously; {LETTERPILE}",
+   "mot": "The {ANIMAL} reads the sheet, eyes moving line by line, then lowers it slightly. Static camera. Add the vintage frame in the edit.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(라벨) 절박함 한도 초과 / 연차 신청서 한가득",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "작은 모자·소품 착용"
+   ]
+  },
+  {
+   "n": 50,
+   "who": "hero",
+   "sz": "MCU(회상 액자 안, 약 2.25배 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 2단계 — 약 2.25배",
+   "grid": [
+    2,
+    4,
+    5,
+    6,
+    8
+   ],
+   "act": "서류를 든 얼굴 클로즈업, 진지하게 읽는 눈",
+   "bg": "흐린 서류 더미",
+   "set": "letterpile",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "펀치인",
+   "why": "읽는 표정을 가까이 보여 서류 내용에 대한 궁금증",
+   "img": "Medium close-up of {HERO} with a tiny top-knot tuft holding a handwritten sheet with both tiny paws, serious big round glossy eyes reading it (crop of shot 49 at about 2.25x)",
+   "mot": "Edit: digital crop of shot 49's clip at about 2.25x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 51,
+   "who": "hero",
+   "sz": "MCU→ECU(컷 안 확대)",
+   "ang": "아이레벨",
+   "cam": "크래시 줌(컷 안 약 0.4초 동안 1.0→약 1.8배). 같은 원본 디지털 줌(3단) — #53 원본",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "소총을 든 채 카메라를 보다 얼굴로 확 당겨짐",
+   "bg": "흐린 스카이라인",
+   "set": "rooftop",
+   "cap": {
+    "lb": null,
+    "ln": "그걸 자기가 대신하겠다는 말(타이핑)",
+    "sp": "hero",
+    "fx": "타이핑"
+   },
+   "tr": "하드컷(회상 → 옥상)",
+   "sfx": "말 사이 짧은 무음(37.64~37.77초 직후)",
+   "tech": "컷 안 크래시 줌(디지털)",
+   "why": "결심 문장에서 화면이 얼굴로 빨려 들어가며 긴장 상승",
+   "img": "Medium close-up of {HERO} on a blue-hour rooftop holding a miniature wooden prop rifle, big round glossy eyes fixed on the camera, city lights blurred behind; {ROOFTOP} (same master as shot 53)",
+   "mot": "Edit: use shot 53's source and animate a digital zoom from 1.0x to about 1.8x over the first 0.4 s.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "이번엔 내가 직접",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 52,
+   "who": "hero",
+   "sz": "ECU(옥상 원본 약 2.45배 크롭, 눈만)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(3단) — #53 원본의 약 2.45배(눈만 꽉 채움)",
+   "grid": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "act": "두 눈만 화면 가득, 깜빡임 없이 결연하게 응시",
+   "bg": "없음",
+   "set": "rooftop",
+   "cap": {
+    "lb": "살짝 이성을 잃은 눈빛이라는 라벨",
+    "ln": "대신 제출하겠다는 결심 한마디(초대형 강조)",
+    "sp": "hero",
+    "fx": "라벨+강조 자막"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "말 사이 초단 무음 3번(39.32~39.72초)",
+   "tech": "영상 유일의 강조 자막(결심 순간)",
+   "why": "1.03초 동안 눈만 보여 주는 정지된 초근접 + 큰 글씨로 '진짜 한다'는 결심을 못 박음",
+   "img": "Extreme close-up of {HERO}'s two big round glossy black eyes filling the frame, a steady, slightly crazed determined stare, fine whiskers at the bottom edge (crop of shot 53 at about 2.45x)",
+   "mot": "Edit: digital crop of shot 53's clip at about 2.45x; hold still.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(라벨) 눈빛 결재 완료 / (강조) 도장 받아 올게",
+   "cute": [
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 53,
+   "who": "hero",
+   "sz": "MCU(옥상 원본 1.0배)",
+   "ang": "아이레벨",
+   "cam": "고정. 같은 원본 디지털 줌(3단) 원본 — #51·#52가 이 클립의 확대",
+   "grid": [
+    2,
+    4,
+    5,
+    6,
+    8,
+    9
+   ],
+   "act": "소총을 가슴에 안고 카메라를 정면으로 봄",
+   "bg": "블루아워 스카이라인 보케",
+   "set": "rooftop",
+   "cap": {
+    "lb": "서류 제출 대행 서비스라는 라벨",
+    "ln": "(휴가 전 남은 일 마무리) 괄호 자막",
+    "sp": "narr",
+    "fx": "라벨+괄호 자막"
+   },
+   "tr": "하드컷(줌 아웃)",
+   "sfx": "짧은 무음(40.58~40.65초)",
+   "tech": "라벨로 '서비스 이름'을 붙여 콘셉트 확정",
+   "why": "킬러 콘셉트에 '대행 서비스'라는 직장인 말투를 붙여 웃음 포인트를 명확히",
+   "img": "Medium close-up of {HERO} on a rooftop at blue hour, hugging a miniature wooden bolt-action prop rifle against its chest with short stubby arms, big round glossy black eyes staring straight into the camera with a determined look, city lights blurred behind; {ROOFTOP}",
+   "mot": "The {ANIMAL} holds the rifle and stares into the lens with one slow blink. Static camera. Generate in 4K for about 4 seconds; shots 51 and 52 are crops of this take.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(라벨) 도장 배달 특급 요원 / (방학 숙제 먼저 끝내기)",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 54,
+   "who": "hero",
+   "sz": "MS(엎드린 저격 자세, 야간 원본 1.0배)",
+   "ang": "아이레벨(엎드린 눈높이)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 1단계 — 야간 옥상 원본 전체(#55·#56·#58·#61이 이 클립)",
+   "grid": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "act": "옥상 끝 자갈 바닥에 엎드려 조준경 달린 소총 뒤에서 작은 앞발을 흔들며 인사",
+   "bg": "밤의 초고층 빌딩 숲 보케",
+   "set": "ledge",
+   "cap": {
+    "lb": null,
+    "ln": "다녀와서 보자는 인사 + 총소리 말장난(타이핑)",
+    "sp": "hero",
+    "fx": "타이핑"
+   },
+   "tr": "하드컷(시간 점프: 블루아워 → 밤)",
+   "sfx": "먼 도시 소음(아주 작게)",
+   "tech": "저격 자세 + 귀여운 손 인사의 부조화",
+   "why": "킬러 자세로 다정하게 손 흔드는 대비 — 이 영상의 대표 썸네일감",
+   "img": "Medium shot of {HERO} lying prone on the gravel edge of a high-rise rooftop at night behind a miniature wooden prop rifle with a small brass scope, waving one tiny pink paw at the camera, big round glossy eyes, mouth open in a cheerful goodbye; {LEDGE}",
+   "mot": "The {ANIMAL} waves its tiny paw side to side while chattering, then rests its cheek against the rifle stock. Static camera. Generate in 4K for about 8 seconds; shots 55, 56, 58 and 61 are crops of this take.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "2주 뒤에 보자탕!",
+   "cute": [
+    "앞발 모으기·흔들기",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 55,
+   "who": "hero",
+   "sz": "CU(야간 원본 약 1.8배 크롭)",
+   "ang": "아이레벨(엎드린 눈높이)",
+   "cam": "고정. 같은 원본 디지털 줌(2단) 2단계 — 약 1.8배",
+   "grid": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "act": "엎드린 채 얼굴 가까이, 앞발 흔들기 계속",
+   "bg": "흐린 야경",
+   "set": "ledge",
+   "cap": {
+    "lb": null,
+    "ln": "(인사 유지)",
+    "sp": "hero",
+    "fx": "자막 브릿지"
+   },
+   "tr": "하드컷(펀치인)",
+   "sfx": "-",
+   "tech": "펀치인",
+   "why": "작별 인사의 끝말(말장난)에서 얼굴을 당겨 웃음 타이밍",
+   "img": "Close-up of {HERO} lying prone with its cheek near a small brass rifle scope, waving one tiny pink paw beside its face, big round glossy eyes, glittering night city bokeh (crop of shot 54 at about 1.8x)",
+   "mot": "Edit: digital crop of shot 54's clip at about 1.8x.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(대사 유지)",
+   "cute": [
+    "앞발 모으기·흔들기",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 56,
+   "who": "hero",
+   "sz": "MS",
+   "ang": "아이레벨(엎드린 눈높이, 지면 가까이)",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 1단계: #54 원본(1배)을 약 1.17배로 살짝 당긴 화면. #54~#59는 한 번 찍은 엎드려쏴 클립을 잘라 씀(zoom_groups 기준)",
+   "grid": [
+    4,
+    5,
+    6,
+    8
+   ],
+   "act": "옥상 바닥에 납작 엎드려 몸보다 큰 저격총 개머리판에 볼을 기댄 채, 작은 앞발 하나를 들어 카메라에 흔들며 인사",
+   "bg": "밤 옥상 콘크리트 턱, 뒤로 불빛 보케가 가득한 고층 빌딩 숲",
+   "set": "ledge",
+   "cap": {
+    "lb": "재회 시점(한 달 뒤)을 약속하는 작별 라벨",
+    "ln": "늘 고마웠다는 인사",
+    "sp": "hero",
+    "fx": "라벨+대사"
+   },
+   "tr": "하드컷(#55 CU → MS로 한 단계 빠짐)",
+   "sfx": "대사(구간 중앙값 약 525Hz, 기준 210Hz보다 +15.9반음) + 밤바람 룸톤",
+   "tech": "작별 인사 제스처 × 저격 자세 병치(갭 연출)",
+   "why": "귀여운 손 인사와 저격총을 한 화면에 겹쳐 '다정한데 위험한' 캐릭터를 완성. 전반부 휴식 공지(따뜻함)에서 후반부 액션(반전)으로 넘어가는 경첩 컷",
+   "img": "(Digital zoom crop of shot 54's take, about 1.17x — no new generation) Medium shot at ground level of {HERO} lying flat on its fluffy round belly on a gravel-covered rooftop edge behind a scoped bolt-action rifle much bigger than its body, chubby cheek squished against the wooden stock, one tiny front paw with little fingers raised and waving at the camera, big round glossy black eyes; {LEDGE}",
+   "mot": "Edit: use shot 54's take cropped about 1.17x (continue its timecode): the tiny paw waves twice at the camera, whiskers twitch, city lights twinkle in the bokeh.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(라벨) 방학 전 마지막 배달 / 신청서 꼭 전해 줄게!",
+   "cute": [
+    "앞발 모으기·흔들기",
+    "몸보다 큰 물건 안기",
+    "납작 엎드린 자세",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 57,
+   "who": "hero",
+   "sz": "CU(디지털 크롭)",
+   "ang": "아이레벨(지면 가까이)",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 2단계: #56 화면을 다시 약 2.7배(#54 원본 대비 약 3.1배) 크롭(상관 0.96)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "얼굴과 스코프가 화면을 채운 초근접. 동그란 눈으로 카메라를 보며 인사를 이어 감(흔드는 앞발은 화면 밖)",
+   "bg": "흐린 도시 불빛",
+   "set": "ledge",
+   "cap": {
+    "lb": "(라벨 유지)",
+    "ln": "(대사 유지)",
+    "sp": "hero",
+    "fx": "브릿지"
+   },
+   "tr": "하드컷(같은 축 컷인)",
+   "sfx": "대사 계속(42.86~44.08초 한 문장이 #56~#57 두 컷에 걸침)",
+   "tech": "디지털 크롭 컷인(한 클립으로 두 사이즈)",
+   "why": "한 문장을 MS·CU 두 사이즈로 나눠 인사의 진심을 클로즈업으로 한 번 더 누름. 새로 찍지 않고 같은 클립을 확대해 추가 생성 비용 0",
+   "img": "(Digital zoom crop of shot 54's take — no new generation) Close-up of {HERO}'s face beside the rifle scope: two huge round glossy black eyes, soft fluffy cheeks, tiny nose and fine whiskers, night city bokeh behind",
+   "mot": "Edit: crop the same take about 3.1x around the face and scope (continue its timecode) and upscale; keep the tiny whisker motion.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "still"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 58,
+   "who": "hero",
+   "sz": "MS→MCU",
+   "ang": "아이레벨(지면 가까이)",
+   "cam": "고정 — 같은 원본 디지털 줌(3단) 1·2단계: #54 원본 약 1.2배 화면으로 복귀 → 약 0.9초 지점 약 1.33배 더 당긴 점프(검출은 1컷)",
+   "grid": [
+    4,
+    5,
+    6,
+    8
+   ],
+   "act": "다시 손을 흔들며 마지막 인사 → 앞발을 내리고 볼을 개머리판에 딱 붙여 조준 자세로 전환(눈빛이 진지해짐)",
+   "bg": "밤 옥상, 도시 불빛 보케",
+   "set": "ledge",
+   "cap": {
+    "lb": null,
+    "ln": "'많이'를 되풀이한 애교 인사 → 눈빛이 돌변했다는 괄호 지문으로 교체",
+    "sp": "hero",
+    "fx": "대사 → 괄호 지문(같은 자리에서 교체)"
+   },
+   "tr": "하드컷(CU → MS 복귀)",
+   "sfx": "인사 대사(구간 중앙값 약 630Hz, +19반음 — 파트 B 최고음, 44.32~45.0초) → 대사가 끝나며 배경음이 빠지기 시작",
+   "tech": "모드 전환(귀여움→살벌) + 괄호 지문 + 숨은 점프 컷",
+   "why": "영상의 마지막 대사와 첫 '살벌한 눈빛'을 한 컷에 붙여, 대사 없는 후반 40초로 넘어가는 문을 연다. 괄호 지문이 표정 변화를 대신 말해 줘 무음 시청에도 반전이 읽힘",
+   "img": "(Same take as shot 54 — crop about 1.2x) Medium shot of {HERO} lying flat behind the scoped rifle, waving one tiny paw once more with a sweet face, then snuggling its chubby cheek against the wooden stock with a suddenly serious squint, big round eyes; {LEDGE}",
+   "mot": "Edit: continue shot 54's take at about 1.2x (the paw waves, drops, the cheek presses to the stock and the eyes narrow), then jump to a 1.33x tighter crop at about 0.9 s. If that take has no aiming move, generate it separately as i2v with start frame = waving, end frame = cheek on the stock.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3"
+   ],
+   "new": "진심이야~! → (귀여움 모드 OFF)",
+   "cute": [
+    "앞발 모으기·흔들기",
+    "진지한 척 표정 전환(갭)",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 59,
+   "who": "hero",
+   "sz": "ECU(스코프 옆 얼굴)",
+   "ang": "아이레벨(총 옆)",
+   "cam": "고정 + 미세한 푸시인(약 3%) — 같은 원본 디지털 줌(3단) 3단계: #58 끝 화면을 약 1.67배 더 크롭(#54 원본 대비 약 2.7배, 상관 0.97)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "스코프에 눈을 붙이고 숨죽여 조준 — 수염 하나 움직이지 않음",
+   "bg": "흐린 도시 불빛",
+   "set": "ledge",
+   "cap": {
+    "lb": null,
+    "ln": "괄호 지문: 준비 신호(옛 추첨 방송 구호의 앞부분)",
+    "sp": "narr",
+    "fx": "괄호 지문(흰 글씨·검정 외곽선, 대사 자리)"
+   },
+   "tr": "하드컷(같은 축 컷인)",
+   "sfx": "노리쇠 '철컥'으로 들리는 짧은 타격음 3개(45.37~45.63초 측정, 추정) → 배경음이 급격히 줄어듦",
+   "tech": "밈 구호 2단 분할(준비 → 발사) + 3단 디지털 푸시인 완성",
+   "why": "누구나 아는 구호를 두 컷에 나눠 '다음 컷에 쏜다'를 관객이 먼저 예상하게 만드는 카운트다운. MS→MCU→ECU 3단 확대로 1.1초 만에 긴장을 끌어올림",
+   "img": "(Digital zoom crop of shot 54's take — no new generation) Extreme close-up of {HERO}'s fluffy face pressed against a rifle scope, one big round glossy black eye focused in a serious little squint, tiny nose squished on the wooden stock",
+   "mot": "Edit: crop the end of shot 58's moment about 1.67x more (about 2.7x of the base take) around the eye and scope, add a 3% slow push-in; almost still, tiny breathing.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "still"
+   ],
+   "new": "(레디~)",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "진지한 척 표정 전환(갭)"
+   ]
+  },
+  {
+   "n": 60,
+   "who": "hero",
+   "sz": "INSERT(ECU)",
+   "ang": "아이레벨(총 옆)",
+   "cam": "고정",
+   "grid": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "act": "작은 앞발 손가락이 방아쇠에 걸려 천천히 당김(방아쇠울·총몸 초근접)",
+   "bg": "흐린 옥상 바닥",
+   "set": "ledge",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "완전 무음(46.0~46.5초 RMS 평균 -69dB, 최저 -95dB) — 발사 직전 숨 멈춤",
+   "tech": "사운드 드롭 + 방아쇠 인서트",
+   "why": "0.33초 무음 인서트로 숨을 멈추게 한 뒤 다음 컷의 총성을 최대로 들리게 함. 작은 손가락이 방아쇠를 당기는 그림 자체가 귀여움 포인트",
+   "img": "Extreme close-up insert of a tiny {ANIMAL} paw with delicate little fingers curled around the trigger of a wooden-stocked bolt-action rifle, a tuft of soft fur at the edge of the frame, blurred gravel rooftop behind, cool night light",
+   "mot": "Still image: the tiny finger squeezes the trigger by a millimeter (add a 3% push-in in the edit).",
+   "gen": "still",
+   "m": [
+    "still",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": [
+    "작은 앞발 클로즈업"
+   ]
+  },
+  {
+   "n": 61,
+   "who": "hero",
+   "sz": "MS",
+   "ang": "아이레벨(지면 가까이)",
+   "cam": "고정 + 발사 순간 3~4프레임 반동으로 화면 흔들림 — 같은 원본 디지털 줌(2단) 1단계(#54와 같은 구도로 따로 생성한 발사 클립)",
+   "grid": [
+    4,
+    5,
+    8,
+    9
+   ],
+   "act": "엎드린 채 방아쇠를 당김 → 총구에서 주황 불꽃과 회색 연기가 뿜어지고 작은 몸이 반동으로 움찔",
+   "bg": "밤 옥상, 도시 불빛 보케",
+   "set": "ledge",
+   "cap": {
+    "lb": null,
+    "ln": "괄호 지문: 발사 신호(구호의 뒷부분)",
+    "sp": "narr",
+    "fx": "괄호 지문"
+   },
+   "tr": "하드컷",
+   "sfx": "총성 '탕!' + 음악 드롭(46.57초, 직전 무음에서 RMS 약 -23dB로 약 46dB 점프). 여기서부터 150BPM 액션 음악이 85.8초까지 이어짐",
+   "tech": "사운드 드롭 + 반동 흔들림 + 구호 완성",
+   "why": "정적 → 총성 대비로 후반 액션 파트의 '드롭'을 만든다. 이 컷부터 대사 없이 음악과 괄호 지문만으로 약 40초를 끌고 감",
+   "img": "Ground-level medium shot of {HERO} lying flat on its fluffy belly behind a scoped bolt-action rifle bigger than its body on a rooftop ledge, tiny paws gripping the stock, big round eyes, the muzzle erupting in a bright orange flame and a puff of grey smoke at the lower right; {LEDGE}",
+   "mot": "The rifle fires: a bright orange muzzle flame, the {ANIMAL}'s round body jolts back from the recoil and its ears flick, smoke drifts across the frame. Static camera with a 3-frame recoil shake.",
+   "gen": "i2v",
+   "m": [
+    "kling-v3",
+    "seedance-2-0",
+    "kling-v3-omni"
+   ],
+   "new": "(액션!)",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "납작 엎드린 자세"
+   ]
+  },
+  {
+   "n": 62,
+   "who": "hero",
+   "sz": "CU(디지털 크롭)",
+   "ang": "아이레벨(총 옆)",
+   "cam": "고정(진입 직후 반동 잔흔들림) — 같은 원본 디지털 줌(2단) 2단계: #61 원본 약 2.9배 크롭(상관 0.97)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "발사 직후 스코프에 눈을 붙인 채 결과를 지켜봄, 총연기가 얼굴 앞을 스침",
+   "bg": "흐린 도시 불빛",
+   "set": "ledge",
+   "cap": {
+    "lb": null,
+    "ln": "(괄호 지문 유지)",
+    "sp": "narr",
+    "fx": "브릿지"
+   },
+   "tr": "하드컷(같은 축 컷인)",
+   "sfx": "총성 잔향 + 탄피 '팅'(추정)",
+   "tech": "발사 후 리액션 홀드(디지털 크롭)",
+   "why": "탄환을 따라가기 전 0.43초 동안 무표정 저격수 얼굴을 보여 줘 '프로' 캐릭터를 도장 찍음. 원인(발사) → 결과(탄환 비행) 사이의 짧은 쉼표",
+   "img": "(Digital zoom crop of shot 61's take — no new generation) Close-up of {HERO}'s chubby cheek squished against the rifle stock, one big round eye behind the scope, a wisp of grey gun smoke drifting past its whiskers",
+   "mot": "Edit: crop shot 61's take about 2.9x around the face and scope; keep the tail of the recoil shake for 3 frames, then hold.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "볼 빵빵·오물오물"
+   ]
+  },
+  {
+   "n": 63,
+   "who": "insert",
+   "sz": "POV(총알 시점 항공)",
+   "ang": "하이앵글(도시 상공)",
+   "cam": "급가속 전진 비행 + 방사형 줌 블러, 가장자리에 주황빛 흐린 비네트(탄환 시점)",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "황혼의 도시 상공을 총알처럼 날아가 한 고층 빌딩으로 돌진",
+   "bg": "짙은 파랑 하늘, 불빛이 켜진 빌딩 숲, 지평선의 산 능선",
+   "set": "cityair",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "줌 블러 전환(약 4프레임) — 첫 프레임부터 방사형 블러가 걸린 총알 시점으로 진입",
+   "sfx": "총알 비행 '슈우웅' + 바람 가르는 소리(추정), 150BPM 비트가 본격적으로 달리기 시작",
+   "tech": "불릿 캠(총알 시점 POV) + 방사형 줌 블러",
+   "why": "옥상과 목표 사무실 사이의 먼 거리를 0.57초 비행 한 번으로 연결 — 설명 없는 공간 이동. 액션 영화의 '탄환 추적' 문법을 그대로 빌려 와 햄스터 이야기를 순식간에 장르물로 바꿈",
+   "img": "Aerial dusk view speeding low over a sprawling Korean city toward a tall dark glass skyscraper with lit windows, deep blue sky with a faint orange haze on the horizon, strong radial zoom blur streaking from the center, a warm orange out-of-focus vignette glowing at the frame edges; {CITYAIR}",
+   "mot": "Extremely fast forward flight toward the skyscraper, accelerating, light streaks from radial motion blur, the tower grows to fill the center. (Add the orange edge vignette in the edit.)",
+   "gen": "i2v",
+   "m": [
+    "seedance-2-5",
+    "veo-3-1",
+    "viduq3-pro"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 64,
+   "who": "insert",
+   "sz": "POV(창문 급접근)",
+   "ang": "아이레벨(빌딩 외벽 정면)",
+   "cam": "크래시 줌(빌딩 외벽 → 불 켜진 사무실 창으로 6프레임 만에 약 1.7배 급접근)",
+   "grid": [
+    5
+   ],
+   "act": "빌딩 외벽의 불 켜진 창 하나로 돌진 — 창 안에 홀로 야근하는 직장인이 보임",
+   "bg": "어두운 유리 외벽, 불 켜진 사무실 층",
+   "set": "cityair",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷(0.2초 초단컷)",
+   "sfx": "비행음 최고조 → 유리에 닿기 직전 '휙'",
+   "tech": "초단 컷(6프레임) 크래시 줌",
+   "why": "0.2초 만에 '누가 맞을지'를 보여 줘 다음 컷의 유리 파편 슬로모션이 설명 없이 이해됨",
+   "img": "Exterior night view of a dark glass office tower facade with rows of windows, one brightly lit office window in the center showing a lone office worker at his desk, radial zoom blur, warm orange blurred vignette at the edges; {CITYAIR}",
+   "mot": "Still image of the lit-window facade; add a 6-frame crash zoom (about 1.7x) with radial blur in the edit, or use the tail of shot 63's flight clip.",
+   "gen": "still",
+   "m": [
+    "still",
+    "edit"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 65,
+   "who": "cw1",
+   "sz": "MS→MCU",
+   "ang": "아이레벨(창밖에서 안으로)",
+   "cam": "초슬로모션 + 느린 푸시인(파편 구름을 뚫고 인물 쪽으로)",
+   "grid": [
+    4,
+    5,
+    8
+   ],
+   "act": "통유리에 총알 구멍과 방사형 금이 생김 → 유리가 산산조각 나며 파편이 공중에 떠다님 → 키보드를 치던 안경 쓴 직장인이 창 쪽으로 천천히 고개를 돌림(얼굴에 동그란 자국)",
+   "bg": "푸른빛 도는 야간 사무실: 파티션, 서류 상자 선반, 모니터, 유선 전화",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "유리 '쨍그랑' 폭발(48.1~49.0초 RMS 약 -22dB) → 슬로모션 잔향이 잦아듦(50~51초 약 -30~-34dB)",
+   "tech": "초슬로모션 유리 파편 + 푸시인(3.07초, 파트 B 최장 실사 컷)",
+   "why": "0.2~0.6초 초단 컷 행진 뒤 3초 슬로모션으로 시간을 늘려 '진짜 액션 영화' 몰입을 만든 다음 웃음으로 뒤집을 준비. 사람 얼굴이 처음 제대로 보이는 컷이라 충격감이 큼",
+   "img": "Medium shot through a floor-to-ceiling office window at night: a round bullet hole with radiating cracks in the glass at the left, behind it {CW1} typing at his desk; {OFFICE}",
+   "mot": "Super slow motion: the cracked pane bursts into a cloud of glittering shards floating toward the camera while the camera slowly pushes in; the man stops typing and slowly turns his head toward the window in surprise; a small round mark appears on his cheek (use a harmless round rubber-dart mark, no blood).",
+   "gen": "i2v-fl",
+   "m": [
+    "veo-3-1",
+    "seedance-2-5",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 66,
+   "who": "cw1",
+   "sz": "ECU",
+   "ang": "아이레벨",
+   "cam": "고정(슬로모션 유지)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "뺨에 동그란 자국이 박힌 채 얼어붙은 얼굴(안경 아래 눈가~입술), 입이 살짝 벌어짐",
+   "bg": "흐린 청록 사무실",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "음악이 가라앉은 정적감(51.0~51.5초 약 -34dB) + '삐-' 이명 같은 고음(추정)",
+   "tech": "ECU 충격 리액션",
+   "why": "맞았다는 사실을 0.53초 초근접으로 확정 → 곧 이어질 '멀쩡함' 반전의 셋업",
+   "img": "Extreme close-up of {CW1}'s stunned face under thin black-rimmed glasses: a small round rubber-dart mark stuck on his cheek (comedic, no blood), lips parted in shock, cool teal office light",
+   "mot": "Frozen stare in slow motion, a tiny blink behind the glasses, lips trembling. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 67,
+   "who": "cw1",
+   "sz": "WS",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 1단계(와이드 원본, #68이 이 클립의 뒷부분 크롭)",
+   "grid": [
+    5,
+    6
+   ],
+   "act": "의자째 뒤로 튕겨 나가며 두 팔을 번쩍 들고 발버둥, 책상 서류가 공중으로 흩날림(과장된 피격 액션)",
+   "bg": "야간 사무실 전경: 파티션, 캐비닛, 서류 상자 선반, 형광등 천장",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷(ECU → WS 급변)",
+   "sfx": "'퍽' 충격 + 의자 바퀴 굴러가는 소리 + 종이 흩날림(52.0초 RMS 약 -22.5dB로 다시 커짐)",
+   "tech": "과장된 피격 리액션(래그돌) + 사이즈 급변",
+   "why": "ECU 정지 → 와이드 폭발 동작으로 사이즈와 에너지를 동시에 뒤집음. 사무실 서류가 날리는 그림이 '사직서' 주제를 미리 시각화",
+   "img": "Wide shot of a dim night office: {CW1} flung backward in his rolling office chair with both arms thrown up and legs kicking, papers bursting into the air above the desks; {OFFICE}",
+   "mot": "The man is thrown backward in his chair, arms flailing and legs kicking up, papers burst and flutter down, the chair rolls back and he tumbles to the carpet at the end. Static camera, action-movie slow motion at about 50%.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 68,
+   "who": "cw1",
+   "sz": "WS(디지털 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 2단계: #67 클립 뒷부분을 약 1.7배 크롭(쓰러진 뒤의 순간, zoom_groups 기준)",
+   "grid": [
+    7,
+    8,
+    9
+   ],
+   "act": "의자에서 굴러떨어져 파티션 옆 바닥에 쓰러짐, 빈 의자만 덩그러니 남고 종이가 떨어짐",
+   "bg": "야간 사무실, 서류 상자 선반·캐비닛",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷(같은 축 점프 컷 — 시간도 건너뜀)",
+   "sfx": "바닥에 '쿵' + 종이 사락사락",
+   "tech": "점프 컷(같은 클립 크롭 + 시간 생략)",
+   "why": "쓰러지는 동작을 0.73+0.77초 두 컷으로 늘려 '진짜 당했다'를 믿게 한 뒤 다음 컷에서 멀쩡함으로 뒤집음. 한 클립을 잘라 두 컷을 만든 절약형 편집",
+   "img": "(Digital zoom crop of shot 67's take — no new generation) Wide shot of the night office: an empty grey office chair standing alone while {CW1} lies sprawled on the carpet beside a cubicle, loose papers drifting down",
+   "mot": "Edit: crop the later part of shot 67's take about 1.7x (after he hits the floor); papers keep floating down.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "veo-3-1"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 69,
+   "who": "cw1",
+   "sz": "MS(가슴, 부감)",
+   "ang": "하이앵글(누운 몸 위)",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 1단계(#69~#72가 한 클립)",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "바닥에 누운 채 입을 벌리고 두 손으로 가슴·배를 더듬으며 맞은 곳을 찾음(얼굴은 입 위로 잘림)",
+   "bg": "청회색 카펫·파티션",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "헉헉 숨소리 + 셔츠 바스락(추정)",
+   "tech": "얼굴 크롭 + 손 연기(상처 더듬기)",
+   "why": "쓰러진 사람이 멀쩡히 몸을 더듬는 순간부터 슬랩스틱 반전 시작 — 관객도 같이 '어디 맞았지?'를 찾게 됨",
+   "img": "High-angle medium shot looking down at {CW1} lying on his back on the office carpet, frantically patting his chest and belly with both hands, mouth open in shock",
+   "mot": "Base take for shots 69-72 (generate 5 s): both hands frantically pat his chest and stomach searching for a wound, stop on the shirt pocket, pull out a small folded paper and start to unfold it. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 70,
+   "who": "cw1",
+   "sz": "CU(가슴 주머니, 디지털 크롭)",
+   "ang": "하이앵글",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 2단계: #69 클립 약 1.8배 크롭(상관 0.98)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "셔츠 가슴 주머니 속 딱딱한 것을 손가락으로 더듬어 확인",
+   "bg": "흰 셔츠",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷(같은 축 컷인)",
+   "sfx": "종이 '바스락'",
+   "tech": "디지털 크롭 인서트(단서 발견)",
+   "why": "총알이 아니라 '뭔가가 배달됐다'는 궁금증을 던지는 단서 컷",
+   "img": "(Digital zoom crop of shot 69's take — no new generation) Close-up of {CW1}'s white shirt chest pocket: fingers pressing a folded paper visible through the thin pocket fabric",
+   "mot": "Edit: crop shot 69's take about 1.8x around the chest pocket and hands (continue its timecode).",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "veo-3-1"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 71,
+   "who": "cw1",
+   "sz": "MS(디지털 크롭)",
+   "ang": "하이앵글",
+   "cam": "고정 — 같은 원본 디지털 줌(2단): #72 화면을 약 1.3배 당긴 크롭(같은 클립 뒷부분, 상관 0.89)",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "주머니에서 접힌 작은 종이를 두 손가락으로 꺼냄",
+   "bg": "청회색 파티션",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "종이 꺼내는 '스윽'",
+   "tech": "행동 분할(발견 → 꺼내기 → 펼치기)",
+   "why": "리빌을 컷마다 한 단계씩만 진행시켜 궁금증을 1초씩 연장(서스펜스). 음악 박자 위에 손동작을 올려 지루하지 않음",
+   "img": "(Same take as shot 69 — no new generation) Medium shot of {CW1} lying on the floor pulling a small folded white paper out of his shirt pocket with two fingers",
+   "mot": "Edit: use the later part of shot 69's take, cropped about 1.3x tighter than shot 72.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "veo-3-1"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 72,
+   "who": "cw1",
+   "sz": "MS",
+   "ang": "하이앵글",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 기준 화면(#71보다 약 1.3배 넓음)",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "접힌 종이를 두 손으로 펼치기 시작",
+   "bg": "청회색 파티션",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷(같은 축 컷아웃)",
+   "sfx": "종이 펼치는 '파락'",
+   "tech": "초단 컷(0.3초)",
+   "why": "0.3초로 손동작을 빠르게 넘겨 리빌 직전 템포를 한 번 더 올림",
+   "img": "(Same take as shot 69 — no new generation) Medium shot of {CW1} holding the small folded paper at chest height with both hands, starting to unfold it",
+   "mot": "Edit: use the end of shot 69's take at its base framing for 9 frames.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "veo-3-1"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 73,
+   "who": "insert",
+   "sz": "INSERT(손+서류 CU)",
+   "ang": "아이레벨(읽는 사람 시점)",
+   "cam": "고정 — 같은 원본 디지털 줌(3단) 1단계(서류 전체)",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "두 손이 구겨진 종이를 펼치자 사직서 양식이 드러남(사유 체크 칸 + 갈색 마커 손글씨 한 줄)",
+   "bg": "어두운 사무실",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음 — 화면 속 손글씨가 대사 역할)",
+    "sp": "hero",
+    "fx": "자막 없음(글씨는 화면 속 소품)"
+   },
+   "tr": "하드컷",
+   "sfx": "종이 펼치는 '파락'",
+   "tech": "리빌 인서트(총알의 정체 공개)",
+   "why": "앞 12컷 액션의 정체 = 대신 제출된 사직서. 종이 한 장으로 저격 시퀀스를 회수하는 첫 번째 펀치라인",
+   "img": "Close-up insert from the reader's point of view: two male hands unfolding a creased white Korean paper form with a printed title, a small grid of reason checkboxes with one ticked in red, and a short handwritten reason in brown felt-tip marker; dark office background",
+   "mot": "The hands unfold the paper and hold it flat toward the camera. Static camera. (Write the new reason text for the adaptation in the edit.)",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 74,
+   "who": "insert",
+   "sz": "ECU(서류 제목·체크 칸)",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(3단) 2단계: #73 서류의 제목·체크 칸을 약 5배 크롭(상관 0.92), 첫 몇 프레임 종이가 움직이다 정지",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "'사직 사유' 제목과 번호 매긴 선택지, 빨간 펜 체크 초근접",
+   "bg": "흰 종이",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음 — 화면 속 손글씨가 대사 역할)",
+    "sp": "hero",
+    "fx": "자막 없음(글씨는 화면 속 소품)"
+   },
+   "tr": "하드컷(같은 축 컷인)",
+   "sfx": "음악 볼륨이 내려가기 시작(58.0초~)",
+   "tech": "텍스트 ECU(읽는 순서대로 쪼개기 1: 제목·체크)",
+   "why": "제목 → 체크 항목 → 손글씨 순서로 컷을 나눠 시청자에게 읽을 시간을 줌. 체크된 칸 하나로 '누구 때문에'가 먼저 전달됨",
+   "img": "Extreme close-up of a white Korean form: a printed section header and numbered reason options in black type, one option ticked with a red pen check mark, shallow depth of field",
+   "mot": "Still image: hold with a very slight drift (crop of shot 73's paper, or rebuild the form as a graphic in the edit).",
+   "gen": "still",
+   "m": [
+    "still",
+    "edit"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 75,
+   "who": "insert",
+   "sz": "ECU(손글씨)",
+   "ang": "아이레벨",
+   "cam": "같은 원본 디지털 줌(3단) 3단계: #73 서류를 약 3.3배 크롭(상관 0.92)한 정지 화면을 글 읽는 순서대로 약 0.45초마다 왼쪽 → 오른쪽 → 아랫줄로 점프 이동",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "갈색 마커 손글씨 사유를 앞부분 → 뒷부분 → 마지막 '퇴사' 줄 순서로 끊어 보여 줌",
+   "bg": "흰 종이 질감",
+   "set": "office",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음 — 화면 속 손글씨가 대사 역할)",
+    "sp": "hero",
+    "fx": "자막 없음(글씨는 화면 속 소품)"
+   },
+   "tr": "하드컷",
+   "sfx": "음악 브레이크(58.0~59.3초 RMS 약 -35dB, 비트만 남음)",
+   "tech": "스텝 크롭(정지 이미지를 끊어 읽히기)",
+   "why": "음악이 빠지는 1.3초 동안 손글씨를 끊어 읽혀 첫 사유 펀치라인을 조용히 착지 → 다음 컷에서 음악과 함께 배달처 2로 점프",
+   "img": "Extreme close-up of handwritten Korean text in brown felt-tip marker on a white leave-request form, two short lines ending with a wish for a proper vacation, paper texture visible",
+   "mot": "Still image: three hard-cut crops that step along the handwriting (left half, right half, last line) about every 0.45 s. (Write new reason text for the adaptation.)",
+   "gen": "still",
+   "m": [
+    "still",
+    "edit"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 76,
+   "who": "group",
+   "sz": "MS(OTS)",
+   "ang": "아이레벨(책상 높이)",
+   "cam": "고정",
+   "grid": [
+    3,
+    4,
+    6,
+    7
+   ],
+   "act": "윗선 집무실(명패의 '校' 글자로 보아 교장실) 큰 나무 책상 위에 두 발로 선 주인공(이 장면은 헤드폰 없음)이 초록 스마일 스티커가 붙은 사직서를 두 손으로 펼쳐 들고 멀뚱히 서 있음, 오른쪽 앞에 교장의 흰머리 뒤통수와 어깨",
+   "bg": "태극기(금색 술), 서류 더미, 검은 명패, 나무 벽",
+   "set": "exec",
+   "cap": {
+    "lb": null,
+    "ln": "멀뚱한 얼굴을 자모로 그린 이모티콘",
+    "sp": "hero",
+    "fx": "이모티콘 자막(흰 글씨, 대사 자리)"
+   },
+   "tr": "하드컷(장소 점프: 야간 사무실 → 교장실)",
+   "sfx": "음악 복귀(59.5초부터 RMS 약 -27 → -25dB) + 종이 펄럭",
+   "tech": "장소 점프 몽타주(배달처 2) + OTS",
+   "why": "배달처를 회사 → 학교 → 사무실 → 병원 → 창가로 계속 바꿔 '사직서 배달 서비스'를 리스트처럼 쌓음. 몸보다 큰 서류를 든 작은 몸 = 크기 대비 귀여움",
+   "img": "Over-the-shoulder medium shot past the grey-haired head and shoulder of {BOSS}: {HERO} standing upright on tiny hind legs on a large dark wooden desk, holding up with both short stubby arms a white handwritten letter form almost as tall as its body with a green smiley sticker, big round eyes in a blank deadpan stare, fluffy round belly; {EXEC}",
+   "mot": "The {ANIMAL} holds the paper up with slightly trembling tiny arms and stares blankly, a small nose twitch. Static camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(대사) ・ㅅ・",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "사람과 크기 대비",
+    "멍한 눈",
+    "짧은 팔 춤·제스처"
+   ]
+  },
+  {
+   "n": 77,
+   "who": "boss",
+   "sz": "MS(역 OTS)",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "찻잔을 입에 대려다 그대로 얼어붙은 교장(입 벌림), 앞쪽 아래에 주인공의 동그란 뒤통수·귀가 크게 흐리게 걸림",
+   "bg": "임명장 액자, 검은 가죽 의자, 나무 벽",
+   "set": "exec",
+   "cap": {
+    "lb": null,
+    "ln": "깜짝 놀란 얼굴 이모티콘",
+    "sp": "boss",
+    "fx": "이모티콘 자막(흰 글씨, 대사 자리)"
+   },
+   "tr": "하드컷(180도 리버스 샷)",
+   "sfx": "찻잔 '달그락'(추정) + 음악",
+   "tech": "리버스 샷 + 얼음 리액션",
+   "why": "받는 사람이 시청자 대신 놀라 주는 컷. 앞쪽의 둥근 뒤통수·귀가 크기 대비와 귀여움을 동시에 전달",
+   "img": "Reverse over-the-shoulder medium shot past the big blurred round back of {HERO}'s fluffy head and little ears in the foreground: {BOSS} sitting behind a dark wooden desk, frozen with a small white teacup raised near his mouth, mouth open in shock; framed certificates on the wall; {EXEC}",
+   "mot": "He freezes mid-sip, the teacup trembles slightly, a thin wisp of steam rises; the {ANIMAL}'s ears twitch in the foreground. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(대사) ⊙ㅁ⊙",
+   "cute": [
+    "뒷모습·엉덩이",
+    "사람과 크기 대비"
+   ]
+  },
+  {
+   "n": 78,
+   "who": "hero",
+   "sz": "FS(로우앵글)",
+   "ang": "로우앵글(바닥 높이)",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 1단계(와이드 기준 화면, #79·#80이 이 클립 크롭)",
+   "grid": [
+    5,
+    8
+   ],
+   "act": "밝은 사무실 카펫 바닥에 두 발로 서서 짧은 두 팔로 권총 두 자루를 양옆으로 들고 정면을 봄(헤드폰 착용)",
+   "bg": "낮 사무실: 회색 파티션, 모니터, 바닥에 흩어진 종이",
+   "set": "dayoffice",
+   "cap": {
+    "lb": null,
+    "ln": "구독자들의 편한 퇴사를 빌어 주는 괄호 지문(파트 B 최장 문장)",
+    "sp": "narr",
+    "fx": "괄호 지문"
+   },
+   "tr": "하드컷(장소 점프: 교장실 → 낮 사무실)",
+   "sfx": "권총 장전 '철컥'(추정) + 음악 최고조(61.5~64.5초 RMS 약 -22dB, 파트 최대)",
+   "tech": "영웅 등장 로우앵글(쌍권총 대칭 포즈)",
+   "why": "바닥 높이 로우앵글 + 좌우 대칭 쌍권총 = 액션 영화 포스터 구도. 가장 작은 몸을 가장 크게 보이게 만들고, 괄호 지문의 따뜻한 문장과 총의 대비로 웃음",
+   "img": "Low-angle full shot from floor level of {HERO} standing upright on stubby hind legs on grey office carpet, short little arms stretched out to both sides each holding a black pistol almost as big as its body, big round eyes, fluffy white chest, scattered papers on the floor; {DAYOFFICE}",
+   "mot": "Base take for shots 78-80 (generate 5 s): the {ANIMAL} raises both pistols into a symmetric hero pose, tiny arms wobbling, then fires both guns repeatedly with bright orange muzzle flames, sparks off the partition behind and brass casings flying, stone-faced. Static low camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(여러분 연차 승인을 빌며)",
+   "cute": [
+    "짧은 팔 춤·제스처",
+    "몸보다 큰 물건 안기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 79,
+   "who": "hero",
+   "sz": "FS→MS",
+   "ang": "로우앵글",
+   "cam": "고정 — 첫 3~4프레임은 #78과 같은 와이드(첫 총구 불꽃) → 같은 원본 디지털 줌(2단) 2단계로 약 1.9배 점프(검출은 1컷)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "쌍권총 연사 시작: 양쪽 총구 불꽃, 뒤쪽 파티션에 불똥, 황동 탄피가 튀어 오름 — 얼굴은 끝까지 무표정",
+   "bg": "낮 사무실 파티션·모니터",
+   "set": "dayoffice",
+   "cap": {
+    "lb": null,
+    "ln": "(괄호 지문 유지)",
+    "sp": "narr",
+    "fx": "브릿지"
+   },
+   "tr": "하드컷",
+   "sfx": "쌍권총 연사 '탕탕탕' + 탄피 '짤랑'",
+   "tech": "숨은 점프 컷(와이드 3프레임 → MS)",
+   "why": "와이드로 첫 발의 불꽃을 보여 주고 곧바로 MS로 튀어 들어가 타격감을 두 번 전달",
+   "img": "(Same take as shot 78 — no new generation) Low-angle medium shot of {HERO} firing two black pistols held out to both sides with short stubby arms, bright orange muzzle flames, brass casings flying, stone-faced with big round eyes",
+   "mot": "Edit: first 3-4 frames from shot 78's wide take at the first muzzle flash, then jump to a 1.9x crop of the same take; keep the flying casings.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "짧은 팔 춤·제스처",
+    "몸보다 큰 물건 안기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 80,
+   "who": "hero",
+   "sz": "MS(디지털 크롭)",
+   "ang": "로우앵글",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 2단계 유지: #78 원본 약 2배 크롭",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "계속 연사 — 뒤쪽 파티션 위로 불똥이 튀고 주황 불빛이 털에 번쩍, 탄피가 날아감",
+   "bg": "낮 사무실 파티션·모니터",
+   "set": "dayoffice",
+   "cap": {
+    "lb": null,
+    "ln": "(괄호 지문 유지)",
+    "sp": "narr",
+    "fx": "브릿지"
+   },
+   "tr": "하드컷(같은 화면 이어 붙이기)",
+   "sfx": "총성 연타 + 불똥 '파직'",
+   "tech": "1박 컷(0.4초 = 150BPM 한 박)",
+   "why": "한 박 길이 컷으로 총성과 음악 박자를 겹쳐 리듬감을 만든 뒤 다음 컷의 슬로모션으로 급감속",
+   "img": "(Same take as shot 78 — no new generation) Medium shot of {HERO} still firing both pistols with its short arms, sparks bursting off the cubicle partition behind, warm orange light flickering on its fluffy cheeks",
+   "mot": "Edit: crop shot 78's take about 2x (continue its timecode); sparks and casings keep flying.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "짧은 팔 춤·제스처",
+    "몸보다 큰 물건 안기",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 81,
+   "who": "group",
+   "sz": "WS(슬로모션)",
+   "ang": "아이레벨(허리 높이)",
+   "cam": "슬로모션 + 탄환을 따라 느리게 옆으로 이동",
+   "grid": [
+    4,
+    5,
+    6,
+    7,
+    9
+   ],
+   "act": "정장 남직원·흰 블라우스 여직원이 몸을 날려 피함 → 빈 책상 사이로 황동 탄환이 천천히 날아감 → 쓰러지는 다리 + 오른쪽에서 구겨진 손글씨 사직서 그래픽 2장이 차례로 미끄러져 들어와 겹침",
+   "bg": "밝은 낮 사무실, 파티션·모니터",
+   "set": "dayoffice",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음 — 사직서 그래픽의 손글씨가 대사 역할)",
+    "sp": "hero",
+    "fx": "자막 없음 + 종이 그래픽 합성"
+   },
+   "tr": "하드컷",
+   "sfx": "슬로모션 총알 '슈우웅' + 종이가 '착' 붙는 효과음(추정)",
+   "tech": "불릿 타임 + 종이 스티커 콜라주(팬 사직서 쇼케이스 시작)",
+   "why": "팝업스토어에서 팬들이 실제로 쓴 사직서를 총알 궤적 끝에 한 장씩 붙여 보여 주는 '팬 참여 쇼케이스' — 자기 글을 찾으려는 반복 시청과 댓글을 부름",
+   "img": "Wide slow-motion shot in a bright open-plan office: an office worker in a navy suit and a woman in a white blouse and black pencil skirt diving to the floor, a single brass bullet flying between the desks toward the camera; {DAYOFFICE}",
+   "mot": "Super slow motion: the two workers dive out of the way, the bullet glides slowly across the frame, a man's legs fall into frame on the carpet. Slow sideways tracking following the bullet. (Composite two crumpled handwritten forms sliding in from the right in the edit.)",
+   "gen": "i2v",
+   "m": [
+    "seedance-2-5",
+    "veo-3-1"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 82,
+   "who": "hero",
+   "sz": "ECU(턱 밑 로우앵글)",
+   "ang": "로우앵글(턱 아래)",
+   "cam": "고정",
+   "grid": [
+    2,
+    7,
+    9
+   ],
+   "act": "턱 밑에서 올려다본 주인공 — 보송한 흰 가슴털과 작은 턱, 양옆으로 권총 두 자루가 위를 향함",
+   "bg": "흐린 사무실 천장",
+   "set": "dayoffice",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷(슬로모션 → 정지 포즈)",
+   "sfx": "권총 '철컥'(추정)",
+   "tech": "초단 영웅 포즈 컷(0.33초)",
+   "why": "2.7초 슬로모션 직후 0.33+0.30초 초단 2컷으로 급브레이크 — '쿨한 척' 마무리 포즈",
+   "img": "Extreme low-angle close-up from under {HERO}'s chin: soft fluffy white chest fur and a tiny round chin at the top, two black pistol muzzles pointing upward on both sides of the frame held by little paws, blurred office ceiling",
+   "mot": "Still image: tiny breathing, the pistols lift a few millimeters (3% push-in in the edit).",
+   "gen": "still",
+   "m": [
+    "still",
+    "kling-v3-omni"
+   ],
+   "new": "(자막 없음)",
+   "cute": [
+    "보송한 턱·가슴털",
+    "몸보다 큰 물건 안기"
+   ]
+  },
+  {
+   "n": 83,
+   "who": "hero",
+   "sz": "ECU",
+   "ang": "아이레벨(정면)",
+   "cam": "고정",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "정면 얼굴 초근접 — 동그란 두 눈과 작은 코, 완전 무표정",
+   "bg": "없음(얼굴이 화면 전체)",
+   "set": "dayoffice",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "비트만 유지",
+   "tech": "무표정 ECU(드라이한 마무리)",
+   "why": "액션 직후 무표정 한 컷으로 '아무 일 없었다는 듯' 시치미 → 다음 배달처로 넘어가는 쉼표",
+   "img": "Extreme close-up of {HERO}'s face head-on: two huge round glossy black eyes, tiny nose, fluffy cheeks and fine whiskers, completely expressionless",
+   "mot": "Still image: add one slow blink or a 3% push-in in the edit.",
+   "gen": "still",
+   "m": [
+    "still",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "멍한 눈"
+   ]
+  },
+  {
+   "n": 84,
+   "who": "hero",
+   "sz": "MCU(카운터 높이)",
+   "ang": "로우앵글(카운터 표면 높이)",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 1단계",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "병원 간호사실 흰 카운터 너머로 얼굴만 빼꼼 내밀고(헤드폰 없음) 작은 앞발로 흰 봉투를 앞으로 쓱 밀어 줌",
+   "bg": "흐린 병원 벽",
+   "set": "hospital",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷(장소 점프: 사무실 → 병원)",
+   "sfx": "봉투 미끄러지는 '스윽'",
+   "tech": "장소 점프(배달처 3) + 로우앵글 전달",
+   "why": "총 대신 '정중한 손 배달'로 방식까지 바꿔 반복의 지루함을 막음. 카운터에 걸친 작은 앞발이 귀여움 포인트",
+   "img": "Low counter-level close shot: {HERO} peeking over the edge of a glossy white hospital counter so only its fluffy head and two tiny front paws show, one little paw pushing a white envelope forward toward the camera, big round hopeful eyes; {HOSPITAL}",
+   "mot": "Base take for shots 84-85: the {ANIMAL} slides the envelope forward with one tiny paw, pats it once and looks up hopefully, whiskers twitching. Static camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(자막 없음)",
+   "cute": [
+    "기어오르기",
+    "앞발 모으기·흔들기",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 85,
+   "who": "hero",
+   "sz": "MCU(디지털 크롭)",
+   "ang": "로우앵글(카운터 높이)",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 2단계: #84 원본 약 1.7배 크롭(상관 0.89)",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "봉투를 끝까지 밀어 두고 앞발을 봉투 위에 얹은 채 올려다봄",
+   "bg": "흐린 병원 벽",
+   "set": "hospital",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷(같은 축 컷인)",
+   "sfx": "비트만 유지",
+   "tech": "디지털 크롭 컷인",
+   "why": "전달 동작을 0.5+0.9초로 한 번 더 보여 줘 '제발 받아 주세요' 하는 간절함 = 귀여움",
+   "img": "(Digital zoom crop of shot 84's take — no new generation) Medium close-up of {HERO} resting one tiny paw on the envelope at the counter edge, chubby cheeks, big round pleading eyes",
+   "mot": "Edit: crop shot 84's take about 1.7x around the face and paw (continue its timecode).",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(자막 없음)",
+   "cute": [
+    "앞발 모으기·흔들기",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 86,
+   "who": "group",
+   "sz": "WS",
+   "ang": "아이레벨(카운터 높이)",
+   "cam": "고정",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "간호사실 카운터 끝에 작은 주인공이 턱과 앞발을 걸치고 있고, 오른쪽에서 라텍스 장갑 낀 간호사 손이 봉투를 집어 감",
+   "bg": "병상·파란 커튼·수액 거치대가 흐리게 보이는 병동",
+   "set": "hospital",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "병동 앰비언스(모니터 '삐-' 추정)",
+   "tech": "크기 대비 와이드(작은 동물 vs 큰 장갑 손)",
+   "why": "공간 전체를 한 번 보여 줘 '병원'임을 확정하고, 작은 몸과 큰 손의 크기 대비로 귀여움",
+   "img": "Wide shot along a glossy white hospital counter at counter height: tiny {HERO} at the far end with its chin and little paws resting on the counter edge, the white-latex-gloved hand of {LEADER} reaching in from the right to take the white envelope; ward beds and blue curtains blurred behind; {HOSPITAL}",
+   "mot": "The gloved hand slides the envelope away across the counter while the {ANIMAL} watches with big round eyes. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3-omni"
+   ],
+   "new": "(자막 없음)",
+   "cute": [
+    "사람과 크기 대비",
+    "기어오르기"
+   ]
+  },
+  {
+   "n": 87,
+   "who": "leader",
+   "sz": "MS(얼굴 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "청록 스크럽 간호사가 봉투를 받아 가슴 앞으로 가져감(얼굴은 입술 위로 잘림)",
+   "bg": "흐린 병동",
+   "set": "hospital",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "비트만 유지",
+   "tech": "얼굴 크롭(유니폼으로 신분 전달)",
+   "why": "받는 사람의 직업을 옷만으로 즉시 전달 — 대사 없이도 '병원 배달'이 성립",
+   "img": "Medium shot of {LEADER} standing behind the counter holding a white envelope at chest height; {HOSPITAL}",
+   "mot": "She lifts the envelope to her chest and looks down at it. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 88,
+   "who": "insert",
+   "sz": "CU(손)",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "손가락으로 흰 봉투 입구를 열어 젖힘",
+   "bg": "청록 스크럽이 흐리게",
+   "set": "hospital",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "봉투 여는 '사각'",
+   "tech": "손 인서트",
+   "why": "개봉을 받기 → 열기 → 펼치기 3단으로 쪼개 리빌을 늦춤(회사편과 같은 문법의 2회차)",
+   "img": "Close-up of fingers opening the flap of a white envelope, teal scrubs blurred behind",
+   "mot": "Fingers lift and fold back the envelope flap. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 89,
+   "who": "insert",
+   "sz": "CU(서류)",
+   "ang": "아이레벨(읽는 사람 시점)",
+   "cam": "고정",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "접힌 종이를 펼치면 사직서 — 연장근무 칸에 체크, 초록 마커로 건강을 위한다는 사유와 꽃 낙서",
+   "bg": "흰 종이",
+   "set": "hospital",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음 — 화면 속 손글씨가 대사 역할)",
+    "sp": "hero",
+    "fx": "자막 없음(글씨는 화면 속 소품)"
+   },
+   "tr": "하드컷",
+   "sfx": "종이 펼치는 '파락'",
+   "tech": "리빌 인서트 2회차",
+   "why": "같은 리빌 문법을 반복해 '이번엔 무슨 사유?' 기대를 만들고, 의료진 과로라는 현실 공감 포인트를 찌름",
+   "img": "Close-up of two hands unfolding a white Korean paper form: one reason box ticked in green and a short handwritten reason in green marker with a little flower doodle",
+   "mot": "The paper unfolds and is held flat toward the camera. Static camera. (Write the new reason text for the adaptation in the edit.)",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "still"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 90,
+   "who": "leader",
+   "sz": "MS",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "간호사가 종이를 내려다보며 굳음(코 아래만 보임)",
+   "bg": "흐린 병동 장비",
+   "set": "hospital",
+   "cap": {
+    "lb": null,
+    "ln": "어리둥절한 말줄임+물음표",
+    "sp": "leader",
+    "fx": "이모티콘 자막(흰 글씨, 대사 자리)"
+   },
+   "tr": "하드컷",
+   "sfx": "음악 브레이크 시작(70.5~71.8초 RMS 약 -29~-32dB)",
+   "tech": "무음 리액션 + 음악 브레이크",
+   "why": "음악이 빠지는 1초 동안 '이게 뭐지?'의 공백을 줘 다음 컷의 엄지척이 터지게 함",
+   "img": "Medium shot of {LEADER} behind the white counter looking down at a paper, puzzled; {HOSPITAL}",
+   "mot": "She tilts her head slightly and freezes, puzzled. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(대사) ??",
+   "cute": []
+  },
+  {
+   "n": 91,
+   "who": "hero",
+   "sz": "MCU",
+   "ang": "아이레벨(카운터 높이)",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 1단계",
+   "grid": [
+    4,
+    5,
+    6,
+    9
+   ],
+   "act": "카운터 모서리에 턱을 괴어 볼이 빵빵하게 눌린 채 작은 엄지를 척 세움",
+   "bg": "흐린 병원 벽",
+   "set": "hospital",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "'띵!' 짧은 효과음(추정) — 음악 브레이크 속 포인트",
+   "tech": "제스처 대답(엄지척)",
+   "why": "간호사의 물음표에 말 대신 제스처로 답함 — 짧은 팔로 엄지를 세우는 그림이 병원편 최고의 귀여움 포인트",
+   "img": "Medium close-up of {HERO} resting its chin on the edge of a glossy white counter so its chubby cheeks puff out, one short stubby arm raised in a tiny thumbs-up, big round eyes; {HOSPITAL}",
+   "mot": "Base take for shots 91-92: the {ANIMAL} pops up a tiny thumbs-up and holds it proudly, cheeks squishing on the counter. Static camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "minimax-h3"
+   ],
+   "new": "(자막 없음)",
+   "cute": [
+    "볼 빵빵·오물오물",
+    "짧은 팔 춤·제스처",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 92,
+   "who": "hero",
+   "sz": "CU(디지털 크롭)",
+   "ang": "아이레벨(카운터 높이)",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 2단계: #91 원본 약 1.6배 크롭(상관 0.98)",
+   "grid": [
+    4,
+    5,
+    9
+   ],
+   "act": "빵빵한 볼과 엄지척 클로즈업",
+   "bg": "흐린 병원 벽",
+   "set": "hospital",
+   "cap": {
+    "lb": null,
+    "ln": "엄지 제스처에 이름을 붙인 괄호 지문",
+    "sp": "narr",
+    "fx": "괄호 지문"
+   },
+   "tr": "하드컷(같은 축 컷인)",
+   "sfx": "음악 복귀 직전의 짧은 공백",
+   "tech": "디지털 크롭 컷인 + 제스처 라벨링",
+   "why": "제스처에 이름을 붙여 웃음을 한 번 더 — 같은 클립을 확대해 추가 생성 없이 한 컷을 더 만듦",
+   "img": "(Digital zoom crop of shot 91's take — no new generation) Close-up of {HERO}'s puffy squished cheeks and big round eyes with a tiny thumbs-up paw at the lower right",
+   "mot": "Edit: crop shot 91's take about 1.6x (continue its timecode).",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(응원의 따봉)",
+   "cute": [
+    "볼 빵빵·오물오물",
+    "짧은 팔 춤·제스처",
+    "동그란 눈 클로즈업"
+   ]
+  },
+  {
+   "n": 93,
+   "who": "group",
+   "sz": "WS(슬로모션)",
+   "ang": "아이레벨(바닥 가까이)",
+   "cam": "슬로모션 + 느린 옆 이동 (#96과 같은 세팅)",
+   "grid": [
+    3,
+    4,
+    6,
+    9
+   ],
+   "act": "밝은 사무실 바닥으로 쓰러지는 직원의 다리 사이로 탄환이 느리게 날아가고, 오른쪽에 손글씨 사직서 그래픽 3장이 차례로 겹쳐 쌓임",
+   "bg": "밝은 낮 사무실, 빈 책상·모니터",
+   "set": "dayoffice",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음 — 사직서 그래픽의 손글씨가 대사 역할)",
+    "sp": "hero",
+    "fx": "자막 없음 + 종이 그래픽 합성"
+   },
+   "tr": "하드컷(장소 점프: 병원 → 낮 사무실)",
+   "sfx": "음악 복귀(72.5초 약 -24.5dB) + 슬로모션 총알 + 종이 '착착'",
+   "tech": "종이 콜라주 누적(1장 → 3장)",
+   "why": "사직서 수를 늘려 '이만큼 많은 사람이 퇴사를 꿈꾼다'는 공감을 증폭 — 글을 읽으려고 멈추고 되감게 만드는 장치",
+   "img": "Wide slow-motion shot at floor level in a bright open-plan office: a brass bullet gliding past empty desks and monitors, the legs of a fallen office worker in grey trousers and black shoes on the carpet; {DAYOFFICE}",
+   "mot": "Super slow motion: the bullet glides slowly, a man's legs slide into frame as he falls. Slow sideways tracking. (Composite three crumpled handwritten forms sliding in and stacking on the right in the edit.)",
+   "gen": "i2v",
+   "m": [
+    "seedance-2-5",
+    "veo-3-1"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 94,
+   "who": "group",
+   "sz": "MS(OTS)",
+   "ang": "아이레벨(책상 높이)",
+   "cam": "고정",
+   "grid": [
+    3,
+    4,
+    6,
+    7
+   ],
+   "act": "교장실 책상 위에 선 주인공이 차를 마시는 교장의 이마에 사직서를 두 앞발로 찰싹찰싹 붙임(교장은 뒤통수)",
+   "bg": "태극기, 트로피 장식장, 서류 더미",
+   "set": "exec",
+   "cap": {
+    "lb": null,
+    "ln": "종이를 붙이는 소리 의성어",
+    "sp": "hero",
+    "fx": "의성어 자막(흰 글씨, 대사 자리)"
+   },
+   "tr": "하드컷(교장실 콜백)",
+   "sfx": "'찰싹' 두 번(의성어 자막과 싱크)",
+   "tech": "콜백(교장실 재방문) + 의성어 자막",
+   "why": "앞서 얼어붙었던 교장에게 돌아가 한 번 더 — 반복 개그 2회차는 더 과감하게(들고 있기 → 이마에 붙이기)",
+   "img": "Over-the-shoulder medium shot from behind a balding {BOSS} sipping tea at a dark wooden desk: {HERO} standing on tiny hind legs on the desk, pressing a white paper against his forehead with both short stubby arms, determined little face with big round eyes; Korean flag and trophy cabinet behind; {EXEC}",
+   "mot": "The {ANIMAL} slaps the paper onto the man's forehead twice with both tiny paws; he keeps sipping tea without reacting. Static camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(대사) 착! 착!",
+   "cute": [
+    "짧은 팔 춤·제스처",
+    "사람과 크기 대비"
+   ]
+  },
+  {
+   "n": 95,
+   "who": "group",
+   "sz": "MS(역 OTS)",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "이마에 사직서가 붙어 얼굴이 가려진 채 태연하게 차를 마시는 교장, 앞쪽에 주인공의 동그란 뒷모습",
+   "bg": "임명장 액자, 가죽 의자",
+   "set": "exec",
+   "cap": {
+    "lb": null,
+    "ln": "몸으로 외우게 한다는 반어 괄호 지문",
+    "sp": "narr",
+    "fx": "괄호 지문"
+   },
+   "tr": "하드컷(리버스 샷)",
+   "sfx": "'후루룩' 차 마시는 소리(추정)",
+   "tech": "리버스 샷 + 반어 지문",
+   "why": "종이가 얼굴을 덮었는데도 차를 마시는 태연함 = 부조리 웃음. 사람 얼굴이 자연스럽게 가려지는 연출이기도 함",
+   "img": "Reverse medium shot past the big blurred round back of {HERO}'s fluffy body and little ears in the foreground: {BOSS} calmly sipping tea from a small white cup while a white paper form is stuck on his face covering it; framed certificates and a leather chair behind; {EXEC}",
+   "mot": "He keeps sipping tea as if nothing happened, the paper flutters slightly with his breath, steam rises; the {ANIMAL}'s ears twitch in the foreground. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(이마에 바로 결재)",
+   "cute": [
+    "뒷모습·엉덩이",
+    "사람과 크기 대비"
+   ]
+  },
+  {
+   "n": 96,
+   "who": "group",
+   "sz": "WS(슬로모션·얕은 심도)",
+   "ang": "아이레벨(바닥 가까이)",
+   "cam": "슬로모션 + 얕은 초점(배경 흐림) — #93과 같은 세팅의 별도 클립",
+   "grid": [
+    3,
+    4,
+    6,
+    9
+   ],
+   "act": "흐린 사무실 바닥에 쓰러지는 직원 몸 위로 탄환이 떠가고, 오른쪽에 사직서 그래픽 3장이 더 쌓임",
+   "bg": "흐린 낮 사무실",
+   "set": "dayoffice",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음 — 사직서 그래픽의 손글씨가 대사 역할)",
+    "sp": "hero",
+    "fx": "자막 없음 + 종이 그래픽 합성"
+   },
+   "tr": "하드컷",
+   "sfx": "슬로모션 총알 + 종이 '착착'",
+   "tech": "종이 콜라주 2회차(1장 → 3장)",
+   "why": "같은 콜라주 문법을 한 번 더 반복해 팬 글을 최대한 많이 소개 — 팬이 주인공이 되는 구간",
+   "img": "Blurred wide slow-motion shot of an office worker in a light-blue shirt slumping onto the carpet, a brass bullet in the soft-focus foreground; {DAYOFFICE}",
+   "mot": "Slow motion: the worker slumps to the floor in soft focus, the bullet drifts across. (Composite three more crumpled handwritten forms sliding in on the right in the edit.)",
+   "gen": "i2v",
+   "m": [
+    "seedance-2-5",
+    "veo-3-1"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 97,
+   "who": "hero",
+   "sz": "WS(천장 앙각)",
+   "ang": "로우앵글(바닥에서 천장)",
+   "cam": "진입 5프레임 동안 위로 빠르게 틸트해 천장에서 멈춤 → 고정",
+   "grid": [
+    5,
+    6,
+    7,
+    9
+   ],
+   "act": "파티션 너머 천장을 올려다보는 화면으로 주인공이 권총을 겨눈 채 뛰어올라 날아 들어오고, 사직서 그래픽 5~6장이 사방에서 튀어나와 화면을 채움",
+   "bg": "흰 천장 타일, 갈매기 모양 형광등, 회색 파티션",
+   "set": "dayoffice",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음 — 사직서 그래픽의 손글씨가 대사 역할)",
+    "sp": "hero",
+    "fx": "자막 없음 + 종이 그래픽 합성"
+   },
+   "tr": "하드컷",
+   "sfx": "'휘익' 틸트 + 종이 휘날림 + 음악 짧은 브레이크(77.5~78.0초 약 -31dB)",
+   "tech": "빠른 틸트 업 + 공중 점프 + 종이 콜라주 최대치",
+   "why": "화면을 사직서로 가득 채워 몽타주의 정점을 찍음 — 작은 몸이 날아오르는 그림이 액션 파트의 클라이맥스",
+   "img": "Low-angle shot looking straight up past grey cubicle partitions at a white office ceiling with fluorescent light panels, tiny {HERO} leaping through the air with short arms stretched forward aiming a pistol at the camera, stubby little legs dangling, fluffy belly, sheets of paper floating; {DAYOFFICE}",
+   "mot": "Fast tilt up to the ceiling in the first 5 frames, then static: the {ANIMAL} springs up from behind a partition and flies across in a heroic leap, papers swirl. (Composite many crumpled handwritten forms popping in around the frame in the edit.)",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(자막 없음)",
+   "cute": [
+    "공중 점프·날기",
+    "짧은 팔 춤·제스처",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 98,
+   "who": "hero",
+   "sz": "MS(공중)",
+   "ang": "로우앵글",
+   "cam": "고정 + 느린 푸시인(약 7%)",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "공중에 뜬 채 짧은 두 팔로 권총을 모아 쥐고 카메라를 정조준, 짧은 뒷다리는 대롱대롱, 주변에 종이가 휘날림",
+   "bg": "흰 천장, 휘날리는 종이",
+   "set": "dayoffice",
+   "cap": {
+    "lb": null,
+    "ln": "권투 명언을 '쏘다'의 두 뜻으로 비튼 괄호 지문",
+    "sp": "narr",
+    "fx": "괄호 지문"
+   },
+   "tr": "하드컷",
+   "sfx": "'탕' 한 발 + 종이 휘날림",
+   "tech": "슬로모션 공중 샷 + 명언 패러디 지문",
+   "why": "유명한 명언의 '쏘다'를 벌침 → 총으로 비틀어 액션 파트를 한 줄로 요약. 다리가 대롱대롱한 점프 자세가 귀여움 포인트",
+   "img": "Low-angle medium shot of {HERO} floating in mid-air with its short stubby arms held together aiming a small black pistol straight at the camera, tiny hind legs dangling, fluffy round belly, big round eyes, white papers swirling around, office ceiling lights behind; {DAYOFFICE}",
+   "mot": "Floating in slow motion, the {ANIMAL} steadies the pistol at the lens, little legs dangling, papers drift past. Slow 7% push-in.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(총알 배송, 당일 도착)",
+   "cute": [
+    "공중 점프·날기",
+    "짧은 팔 춤·제스처",
+    "헤드폰·시그니처 소품"
+   ]
+  },
+  {
+   "n": 99,
+   "who": "insert",
+   "sz": "CU(디지털 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(2단): #100 원본 약 1.9배 크롭(상관 0.98) — 좁게 먼저 보여 주고 다음 컷에서 넓힘",
+   "grid": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "act": "복사기 출력 트레이로 종이 한 장이 나오고 오른쪽 끝에 손가락이 들어오기 시작",
+   "bg": "창가 자연광",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷(장소 점프: 사무실 공중 → 창가 복사기)",
+   "sfx": "복사기 출력 '위잉~'",
+   "tech": "사물 인서트 + 역순 크롭(좁게 → 넓게)",
+   "why": "마지막 배달은 총이 아닌 '복사기 출력' — 다섯 번째 변주를 사물부터 보여 줘 궁금하게 함",
+   "img": "(Digital zoom crop of shot 100's take — no new generation) Close-up of the output tray of a white office copier with a freshly printed sheet sliding out, soft daylight",
+   "mot": "Edit: crop the start of shot 100's take about 1.9x around the output tray.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "still"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 100,
+   "who": "cw2",
+   "sz": "MS",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 기준 화면(1배)",
+   "grid": [
+    5,
+    6
+   ],
+   "act": "회색 니트 소매의 손이 들어와 출력된 종이를 집어 감(얼굴 없음)",
+   "bg": "창가 복사기, 흐린 빌딩",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷(같은 축 컷아웃)",
+   "sfx": "종이 집는 '스륵'",
+   "tech": "손 연기(인물 정체 숨기기)",
+   "why": "새 인물을 손만으로 등장시켜 '누구에게 배달되나' 궁금증 유지",
+   "img": "Medium shot of a white multifunction copier beside a large window, the hand of {CW2} in a grey knit sleeve reaching in to take the printed sheet from the output tray; {COPIER}",
+   "mot": "Base take for shots 99-100: a sheet slides out onto the tray, then the hand slides it out. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 101,
+   "who": "insert",
+   "sz": "INSERT(종이 CU)",
+   "ang": "아이레벨(읽는 사람 시점)",
+   "cam": "고정",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "하얀 종이 한가운데 굵은 빨간 글씨 한 줄: 창밖을 보라는 지시(손끝이 오른쪽에 살짝)",
+   "bg": "흰 종이",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음 — 종이 속 빨간 글씨가 지시문 역할)",
+    "sp": "hero",
+    "fx": "자막 없음(글씨는 화면 속 소품)"
+   },
+   "tr": "하드컷",
+   "sfx": "비트만 유지",
+   "tech": "텍스트 인서트(화면 속 글씨 = 지시문)",
+   "why": "자막 대신 종이 글씨가 명령해 인물과 시청자가 동시에 창밖을 보게 만듦 — 시선 유도",
+   "img": "Close-up of a white printed sheet with one short line of bold red Korean text in the center, a fingertip holding the right edge, soft daylight",
+   "mot": "Still image: the paper sways slightly. (Print a new one-line instruction for the adaptation.)",
+   "gen": "still",
+   "m": [
+    "still",
+    "edit"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 102,
+   "who": "cw2",
+   "sz": "MS(뒷모습)",
+   "ang": "아이레벨",
+   "cam": "고정",
+   "grid": [
+    2,
+    5,
+    8
+   ],
+   "act": "긴 머리 여성이 창가에 서서 흐린 빌딩 숲을 내다봄(뒷모습)",
+   "bg": "흐린 날 유리 빌딩, 창틀",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "(자막 없음)",
+    "sp": "hero",
+    "fx": "자막 없음"
+   },
+   "tr": "하드컷",
+   "sfx": "비트만 유지",
+   "tech": "뒷모습 시선 유도",
+   "why": "뒷모습으로 시선을 창밖으로 보내 다음 컷의 '창밖 주인공' 리빌을 준비",
+   "img": "Medium shot from behind of {CW2} standing at a large office window looking out at grey high-rise buildings on an overcast day; {COPIER}",
+   "mot": "She stands still looking out, a tiny head tilt. Static camera.",
+   "gen": "i2v",
+   "m": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "new": "(자막 없음)",
+   "cute": []
+  },
+  {
+   "n": 103,
+   "who": "hero",
+   "sz": "MS(OTS, 디지털 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(2단): #104 원본 약 1.9배 크롭(상관 0.98) — 좁게 먼저, 다음 컷에서 넓혀 사유 공개",
+   "grid": [
+    5,
+    6,
+    9
+   ],
+   "act": "여성의 머리 너머 창밖 난간에 선 주인공(헤드폰 없음)이 자기 키만 한 사직서 옆에서 멀뚱히 안을 들여다봄",
+   "bg": "흐린 날 유리 빌딩, 창밖 난간",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "말없음표",
+    "sp": "hero",
+    "fx": "기본(작은 말없음표)"
+   },
+   "tr": "하드컷",
+   "sfx": "비트만 유지",
+   "tech": "OTS 리빌(창밖 등장) + 디지털 크롭",
+   "why": "창밖 고층 난간에 동물이 서 있다는 비현실 리빌 + 무표정 말없음이 웃음. 마지막 6컷(#103~#108)을 클립 2개의 크롭으로 만든 절약형 연출의 시작",
+   "img": "(Digital zoom crop of shot 104's take — no new generation) Over-the-shoulder shot past the dark blurred hair of {CW2}: outside the window {HERO} stands upright on tiny hind legs on the metal ledge next to a large white form, big round eyes staring in blankly, fluffy round belly and little paws resting on the paper edge",
+   "mot": "Edit: crop the first 0.77 s of shot 104's take about 1.9x around the {ANIMAL}.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "kling-v3-omni"
+   ],
+   "new": "(빼꼼)",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "멍한 눈",
+    "사람과 크기 대비"
+   ]
+  },
+  {
+   "n": 104,
+   "who": "hero",
+   "sz": "MS(OTS 와이드)",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(2단) 기준 화면(1배)",
+   "grid": [
+    5,
+    6,
+    8,
+    9
+   ],
+   "act": "한 단계 넓게: 난간 위 주인공 옆에 세워 둔 사직서의 사유 칸에 굵은 빨간 기호 한 획(욕 제스처를 뜻하는 자모)만 적혀 있음",
+   "bg": "흐린 날 유리 빌딩, 창밖 난간",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "간단명료한 사유라는 괄호 지문",
+    "sp": "narr",
+    "fx": "괄호 지문"
+   },
+   "tr": "하드컷(같은 축 컷아웃 — 사유 전체 공개)",
+   "sfx": "비트만 유지",
+   "tech": "컷아웃 리빌(넓혀서 글 전체 공개)",
+   "why": "앞 사유들은 문장이었는데 마지막은 기호 한 획 — 가장 짧은 사유가 가장 큰 웃음(점층을 뒤집는 마무리)",
+   "img": "Wider over-the-shoulder shot past the dark hair of {CW2}: outside the office window {HERO} stands on tiny hind legs on the metal ledge beside a large white Korean leave-request form whose approval box is still empty, overcast glass towers behind; {COPIER}",
+   "mot": "Base take for shots 103-104: the {ANIMAL} stands still beside the form with little paws on its edge, one slow blink. Static camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "new": "(마지막 한 장: 내 방학 신청서)",
+   "cute": [
+    "몸보다 큰 물건 안기",
+    "사람과 크기 대비"
+   ]
+  },
+  {
+   "n": 105,
+   "who": "hero",
+   "sz": "MCU",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(3단) 1단계: #105~#108은 이 화면을 1배·3.1배·1.28배·2.6배로 잘라 씀(#104를 약 1.7배 당긴 것과 같은 구도, 상관 0.90)",
+   "grid": [
+    2,
+    5
+   ],
+   "act": "사직서를 옆으로 내려놓고 무표정하게 창 안쪽(카메라)을 빤히 봄",
+   "bg": "흐린 날 유리 빌딩",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "말없음표",
+    "sp": "hero",
+    "fx": "기본(작은 말없음표)"
+   },
+   "tr": "하드컷(같은 축 컷인)",
+   "sfx": "음악 브레이크(83.5~84.4초 RMS 약 -31~-33dB)",
+   "tech": "정적 홀드 + 음악 브레이크",
+   "why": "마지막 한 방 전 1.4초(#105~#106) 정적으로 기대를 모음",
+   "img": "Medium close-up of {HERO} standing outside the window glass holding a tiny red rubber approval stamp in both little paws, deadpan blank stare with big round eyes, fluffy cheeks and round belly, overcast city blur; {COPIER}",
+   "mot": "Base take for shots 105-108 (generate 5 s): the {ANIMAL} stares blankly into the lens for a beat, one slow blink, then lifts the tiny red stamp and presses it firmly against the window glass, leaving a red approval stamp mark. Static camera.",
+   "gen": "ref",
+   "m": [
+    "kling-v3-omni",
+    "minimax-h3"
+   ],
+   "new": "(대사) 흠…",
+   "cute": [
+    "멍한 눈"
+   ]
+  },
+  {
+   "n": 106,
+   "who": "hero",
+   "sz": "ECU(디지털 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(3단) 2단계: #105 화면 약 3.1배 크롭(상관 0.99)",
+   "grid": [
+    4,
+    5,
+    6
+   ],
+   "act": "무표정 얼굴 초근접 — 동그란 눈과 코, 수염",
+   "bg": "없음(얼굴이 화면 전체)",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "(말없음 유지)",
+    "sp": "hero",
+    "fx": "브릿지"
+   },
+   "tr": "하드컷(같은 축 컷인)",
+   "sfx": "브레이크 유지(정적감)",
+   "tech": "축 방향 2단 펀치인(MCU → ECU)",
+   "why": "정적 속 초근접으로 '뭔가 한다'를 예고 — 동그란 눈이 화면을 채우는 순간이 창밖편 귀여움 최고조",
+   "img": "(Digital zoom crop of shot 105's take — no new generation) Extreme close-up of {HERO}'s deadpan face through the window glass: two huge round glossy black eyes, tiny nose, fluffy cheeks and fine whiskers",
+   "mot": "Edit: crop shot 105's take about 3.1x around the face (upscale); near-still, one slow blink.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "still"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "멍한 눈"
+   ]
+  },
+  {
+   "n": 107,
+   "who": "hero",
+   "sz": "MCU(디지털 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(3단): #105 화면 약 1.28배 크롭(상관 0.99)",
+   "grid": [
+    5,
+    8,
+    9
+   ],
+   "act": "무표정 그대로 작은 앞발을 들어 손가락 하나를 세움(무례한 손짓 암시)",
+   "bg": "흐린 날 유리 빌딩",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "몸짓으로도 전달한다는 괄호 지문",
+    "sp": "narr",
+    "fx": "괄호 지문"
+   },
+   "tr": "하드컷(같은 축 컷아웃)",
+   "sfx": "음악 복귀 '빰!'(84.7초~)",
+   "tech": "제스처 펀치라인(글 → 몸짓 콜백)",
+   "why": "사유(기호 한 획)를 몸짓으로 한 번 더 — 같은 메시지를 두 매체로 반복하는 콜백 펀치. 무표정 + 작은 앞발의 대비가 핵심",
+   "img": "(Digital zoom crop of shot 105's take — no new generation) Medium close-up of {HERO} outside the window, deadpan, pressing a tiny red rubber stamp against the glass with both little paws, big round eyes",
+   "mot": "Edit: crop shot 105's take about 1.28x (continue its timecode).",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "minimax-h3"
+   ],
+   "new": "(셀프 승인 쾅!)",
+   "cute": [
+    "짧은 팔 춤·제스처",
+    "멍한 눈"
+   ]
+  },
+  {
+   "n": 108,
+   "who": "hero",
+   "sz": "ECU(디지털 크롭)",
+   "ang": "아이레벨",
+   "cam": "고정 — 같은 원본 디지털 줌(3단) 3단계: #107 화면을 다시 2배(#105 대비 약 2.6배) 크롭(상관 0.99)",
+   "grid": [
+    4,
+    5,
+    6,
+    9
+   ],
+   "act": "같은 손짓을 얼굴 초근접으로 — 앞발 손가락이 오른쪽 아래에 걸림",
+   "bg": "없음(얼굴이 화면 전체)",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "(괄호 지문 유지)",
+    "sp": "narr",
+    "fx": "브릿지"
+   },
+   "tr": "하드컷(같은 축 컷인)",
+   "sfx": "마지막 박자 → 85.83초 저음 '붐'으로 연결",
+   "tech": "MCU → ECU 펀치인 후 하드 아웃",
+   "why": "마지막 표정을 가장 가까이서 박제한 뒤 검은 엔딩 카드로 뚝 끊음",
+   "img": "(Digital zoom crop of shot 105's take — no new generation) Extreme close-up of {HERO}'s deadpan face with big round glossy eyes next to a fresh red approval stamp mark on the glass",
+   "mot": "Edit: crop shot 107's moment 2x more (about 2.6x of the base take); near-still.",
+   "gen": "edit",
+   "m": [
+    "edit",
+    "still"
+   ],
+   "new": "(유지)",
+   "cute": [
+    "동그란 눈 클로즈업",
+    "짧은 팔 춤·제스처"
+   ]
+  },
+  {
+   "n": 109,
+   "who": "card",
+   "sz": "타이틀 카드(검정)",
+   "ang": "-",
+   "cam": "-",
+   "grid": [
+    8
+   ],
+   "act": "검은 화면 하단에 작은 흰 글씨가 약 1.3초마다 3단계로 바뀜: 재회 약속(마지막 글자를 자모로 풀어 쓴 '타자 중' 표기) → 동물 말장난 말끝의 감사 인사 → 끝 표시",
+   "bg": "검정",
+   "set": "copier",
+   "cap": {
+    "lb": null,
+    "ln": "재회 약속 → 감사 인사(동물 말장난 말끝) → 끝 표시",
+    "sp": "hero",
+    "fx": "엔딩 카드: 검은 화면 하단 가운데(y≈0.89) 얇은 흰 글씨, 외곽선 없음, 3단 교체"
+   },
+   "tr": "하드컷(마지막 저음 '붐'과 동시에 검은 화면)",
+   "sfx": "저음 붐이 약 2초간 잦아듦(85.8~87.8초, 스펙트럼 중심 약 2kHz → 118Hz) → 88.0초부터 완전 무음 1.8초",
+   "tech": "엔딩 카드 3단 교체 + 무음 아웃",
+   "why": "요란한 액션 직후 검은 화면·무음으로 급전환해 여운을 남기고, 처음의 '다녀올게' 약속과 감사 인사로 착지 — 휴식 공지 영상의 본래 목적을 마지막 4초에 회수",
+   "img": "(Black title card made in the edit)",
+   "mot": "Edit: black screen with small thin white text at the bottom center, three lines replacing each other every ~1.3 s (sign-off promise typed with split letters → thank-you → THE END); the music tail fades, then 1.8 s of silence.",
+   "gen": "edit",
+   "m": [
+    "edit"
+   ],
+   "new": "(대사) 2주 뒤에 만나ㅇㅛ! → (대사) 늘 고마워{PUN}! → (대사) FIN",
+   "cute": []
+  }
+ ],
+ "sound": {
+  "summary": "세 구간 사운드. ①0~18.07초 야간 버스: 저역(120Hz 이하) 에너지 약 49dB의 엔진 룸톤 위에 조곤조곤한 목소리 — 18.07초 거리 장면으로 넘어가는 순간 저역이 22dB로 뚝 떨어짐 ②18~46초 대사 + 효과음(키보드 연타, 케이스 딸깍, 노리쇠 철컥): 29초 이후 옥상 파트는 배경음까지 비워 말 사이에 진짜 무음이 생김(0.05~0.2초, 7곳) ③45.75~46.46초 0.7초 완전 무음 → 46.63초 총성 → 유리·충돌 효과음 → 53.2초부터 150BPM 액션 음악(8분음표 0.2초 간격 온셋)이 85.2초까지. 말소리 비율 43%(38.7초, 전부 0~45초). 무음 비율 3.4%. 전체 컷-온셋 일치율 36.1%는 우연 기준선 32.6%(온셋 183개×0.16÷89.8초)와 비슷 — 다만 0~24초는 온셋이 1개뿐(버스 룸톤이 고르게 깔려 있어서)이라 의미가 없고, 대화 파트는 구절, 액션 파트는 박과 효과음에 맞춘 3중 리듬",
+  "voices": [
+   {
+    "who": "주인공",
+    "spec": "원본 pitch.json은 0~21초 버스 소음 때문에 측정 실패(null) → 대역통과(180~2500Hz) 재측정: 버스 고백 약 260~390Hz(중앙값 약 300Hz, 차분한 속삭임 톤), 게임 분노 약 630Hz(영상 최고음), 옥상 작별 인사 525~630Hz. 전체 중앙값 약 345Hz(성인 여성 평균 210Hz보다 약 8.6반음 높음)",
+    "tts": "20대 여성 목소리로 생성 → 피치 +8반음, 속도 1.0배. 버스 구간은 속삭임·숨 섞인 스타일(ElevenLabs v3 whisper 태그), 게임 분노·작별 인사 줄만 +3~4반음 더 올려 높고 들뜨게"
+   },
+   {
+    "who": "사람 인물(직장인·임원·간호사·옆 팀 직원)",
+    "spec": "대사 없음 — 놀란 숨소리·넘어지는 소리 정도, 후반은 음악과 효과음이 이야기를 끌고 감",
+    "tts": "생성하지 않음(필요하면 짧은 '헉' 숨소리만 효과음으로)"
+   },
+   {
+    "who": "괄호 자막(내레이션)",
+    "spec": "음성 없음 — 괄호 자막이 편집자 내레이션 역할",
+    "tts": "생성하지 않음. 괄호가 뜨는 순간을 효과음(장전·총성·손바닥)으로 채움"
+   }
+  ],
+  "bgm": {
+   "guess": "(추정 — 정확한 곡은 청취 확인 필요) 0~46초에는 음악이 거의 없음: 0~18초는 버스 엔진 룸톤, 18~29초는 -35dB 안팎의 낮은 거리·실내 배경음, 29~46초 옥상은 배경음까지 비워 말 사이 무음이 들림. 53.2초에 템포 150BPM(박 0.400초, 온셋 격자 평균 오차 8.6ms)의 힘 있는 액션 트랙이 들어오고 59.6초 무렵 RMS가 약 -35→-23dB로 커지며 풀편성, 85.2초 마지막 타격 뒤 엔딩 카드 아래 저음 E(약 41Hz, 배음 82·124·166Hz) 여운 약 2초 → 88초 완전 무음. 자동 추정 템포 152BPM",
+   "rec": "3큐 구성 권장: ①0~46초 음악 없이 앰비언스만(버스 룸톤 → 밤거리 소음 → 옥상 바람 아주 작게) — 고백의 진정성 ②46.6~53.2초 무음 뒤 총성·슬로모션 효과음만(음악 없음) ③53.2~85.8초 150BPM 스파이 액션(서프 기타 리프·브라스 스탭·브레이크비트), 59.6초에 풀편성 진입, 85.2초 마지막 히트 뒤 저음 한 음 2초 여운",
+   "level": "대사 구간은 음악 없이 앰비언스 -30~-35dB(대사 대비 약 -15dB). 액션 음악 구간은 대사가 없으므로 음악을 앞에 세우고(-16~-18 LUFS 구간 음량) 효과음은 음악보다 +3~6dB"
+  },
+  "sfx": [
+   {
+    "t": 0.0,
+    "s": "버스 엔진 룸톤 앰비언스(저역 웅웅 — 120Hz 이하 약 49dB, 0~18.07초)",
+    "why": "야간 퇴근 버스 현장감(#1~#9, #18~#19)"
+   },
+   {
+    "t": 7.3,
+    "s": "필름 넘김 '찰칵'(권장)",
+    "why": "회상 액자 진입(#10)"
+   },
+   {
+    "t": 11.83,
+    "s": "노트북 키보드 '타닥'(작게, 권장)",
+    "why": "밤샘 야근 회상(#16)"
+   },
+   {
+    "t": 18.07,
+    "s": "미러 슬라이드 '휙' + 버스 룸톤 뚝 끊김(저역 49→22dB)",
+    "why": "버스 → 거리 장면 전환(#20)"
+   },
+   {
+    "t": 18.1,
+    "s": "밤거리 앰비언스(차량·사람, 약 -30~-35dB)",
+    "why": "거리 셀카(#20~#22)"
+   },
+   {
+    "t": 20.9,
+    "s": "필름 넘김 '찰칵'(권장)",
+    "why": "상상 액자 진입(#23)"
+   },
+   {
+    "t": 25.3,
+    "s": "게임 효과음 + 마우스 '클릭'(25.30초 온셋)",
+    "why": "게이머 상상 시작(#30)"
+   },
+   {
+    "t": 26.41,
+    "s": "키보드 연타(26.0~27.1초 온셋 7개 밀집) + 높은 괴성(약 660Hz 배음)",
+    "why": "게임 분노(#32~#34)"
+   },
+   {
+    "t": 29.21,
+    "s": "0.4초 정적(29.21~29.58초)",
+    "why": "엘리베이터 → 옥상 장소 점프 직전 숨 고르기"
+   },
+   {
+    "t": 29.6,
+    "s": "케이스에 기대는 '쿵'(저역 약 79Hz) + 짧은 기합",
+    "why": "옥상 첫 인서트(#37)"
+   },
+   {
+    "t": 31.58,
+    "s": "하드 케이스 잠금쇠 '딸깍' 클릭(이 구간 최강 온셋)",
+    "why": "케이스 개봉(#40→#41)"
+   },
+   {
+    "t": 32.77,
+    "s": "노리쇠 '철컥-철컥' 클릭(32.77·32.94·33.07초 3연속, 사이 0.1~0.2초 무음)",
+    "why": "(장전) 괄호 자막(#43)"
+   },
+   {
+    "t": 36.17,
+    "s": "회상 진입 '찰칵'(36.17초 온셋)",
+    "why": "행사장 벽 회상(#48)"
+   },
+   {
+    "t": 39.32,
+    "s": "말 사이 초단 무음 3번(39.32~39.72초, 각 0.05~0.07초)",
+    "why": "결심 초근접(#52)의 긴장"
+   },
+   {
+    "t": 45.37,
+    "s": "재장전 '철컥' + 저음 히트 '쿵'(45.37~45.66초, 약 -15dB — 후반 최대급)",
+    "why": "눈빛 돌변·준비(#58~#59)"
+   },
+   {
+    "t": 45.75,
+    "s": "0.7초 완전 무음(45.75~46.46초)",
+    "why": "발사 직전 정적(#59~#60)"
+   },
+   {
+    "t": 46.63,
+    "s": "총성 '탕!' 임팩트(저역 63~123Hz, 컷 0.06초 뒤)",
+    "why": "발사(#61)"
+   },
+   {
+    "t": 47.37,
+    "s": "탄환 비행 '휙' 우쉬(도시 위 줌 블러)",
+    "why": "탄환 시점(#63~#64)"
+   },
+   {
+    "t": 48.13,
+    "s": "유리창 파열 임팩트(48.02·48.41초 온셋, 슬로모션으로 낮게 늘어짐)",
+    "why": "창문 관통(#65)"
+   },
+   {
+    "t": 51.8,
+    "s": "의자째 나동그라지는 '쿵' + 종이 휘날림(51.80·51.97초)",
+    "why": "첫 수신자 넘어짐(#67~#68)"
+   },
+   {
+    "t": 53.2,
+    "s": "액션 BGM 드롭(150BPM, 8분음표 0.2초 간격 온셋 시작)",
+    "why": "후반 음악 파트 시작(#69)"
+   },
+   {
+    "t": 59.63,
+    "s": "BGM 풀편성 진입(RMS 약 -35→-23dB)",
+    "why": "임원실 배달부터 몽타주 가속(#76)"
+   },
+   {
+    "t": 61.97,
+    "s": "양손 권총 연사 임팩트(권장)",
+    "why": "양손 권총 패러디(#79~#80)"
+   },
+   {
+    "t": 74.63,
+    "s": "손바닥으로 서류 붙이는 '톡톡'(찰싹 두 번)",
+    "why": "임원 이마에 서류(#94)"
+   },
+   {
+    "t": 85.83,
+    "s": "엔딩 카드 자모 '타자' 소리(권장) + 저음 E(약 41Hz) 여운 약 2초 → 88초부터 완전 무음",
+    "why": "조용한 마무리(#109)"
+   }
+  ],
+  "suno": "High-energy spy action instrumental, 150 BPM, surf-rock electric guitar riff, punchy brass stabs, tight breakbeat drums with rolling toms, playful heist-movie swagger, sparse intro then full band after 6 seconds, ends on one big hit and a low sustained E bass note, no vocals, 35 seconds",
+  "suno2": "Minimal tense sniper standoff cue, sparse low piano notes, a faint ticking clock and wind over a rooftop, slowly rising tension, ends in complete silence, no drums, no vocals, 8 seconds",
+  "suno3": "Soft lo-fi farewell bed for a vlog, warm electric piano and a tiny music box melody, gentle vinyl crackle, 75 BPM, heartfelt and calm, very quiet mix meant to sit under speech, no vocals, 20 seconds, loopable (optional — the original uses no music here)",
+  "mix": "최종 -14 LUFS(유튜브 기준), 트루피크 -1dBTP. 원본은 통합 -21.2 LUFS·LRA 7.5LU인데 트루피크가 +0.3dBFS로 0dB를 넘음(가장 큰 곳은 13.7초 부근 대사) → 리미터 필수. 전반 버스 파트(RMS 약 -15dB)가 후반 음악 파트(약 -25dB)보다 커서, 버스 룸톤을 3dB 줄이거나 음악 파트를 올려 체감 음량을 맞추기. 발사 직전 0.7초 무음은 반드시 디지털 무음으로 유지"
+ },
+ "edit": {
+  "timeline": "30fps, 1920×1080(업로드는 4K 업스케일 권장). 109컷, 평균 0.82초(약 25프레임), 중앙값 0.70초. 가장 짧은 컷 0.20초(#64, 6프레임), 가장 긴 컷 3.97초(#109 엔딩 카드) / 영상 컷 중 최장 3.07초(#65 유리 슬로모션). 분당 약 73컷. 같은 원본을 확대 크롭해 재사용한 컷이 많음(버스 11컷·게임 5컷·옥상 3~4컷씩)",
+  "rules": [
+   "대화 파트(0~45초)는 말 구절이 시작되는 순간에 자른다 — 58컷 중 42컷(72%)이 단어 시작 -0.12~+0.25초 안. 나머지는 구절 중간 펀치인",
+   "원본 1개를 1.0~4.0배로 크롭해 3~11컷으로 쪼갠다(생성 비용↓ 컷 수↑). 4배 크롭은 뭉개지므로 원본은 4K로 생성",
+   "펀치인은 같은 문장 안에서 MS→CU→ECU(3단) 또는 넓게·좁게 번갈아(줌 핑퐁), 문단이 바뀌면 줌 아웃으로 리셋",
+   "회상·상상 클립은 둥근 모서리 검정 액자 + 비네트 + 빛바랜 색으로 통일(편집에서 입힘), 게임 상상(#30~#34)만 액자 없이 풀화면",
+   "라벨·괄호 자막은 컷과 함께 통째로, 대사는 말소리에 맞춰 음절 단위 타이핑",
+   "후반 40초(46~86초)는 대사 0% — 괄호 자막 + 효과음 + 150BPM 음악으로만 이야기 진행",
+   "발사 직전 0.7초 완전 무음(45.75~46.46초) → 총성과 동시에 컷",
+   "음악 구간 컷은 4분음표(0.4초) 격자 근처에 두되, 총성·타격·손바닥 같은 액션 순간을 우선",
+   "마지막은 검정 엔딩 카드 약 4초(자모 타자 → 감사 → FIN) 뒤 1.8초 무음으로 끝"
+  ]
+ },
+ "tech": [
+  {
+   "t": "첫 프레임 팬 호명 훅",
+   "w": "#1",
+   "d": "인트로·로고 없이 0초부터 팬 애칭으로 말을 걺. 공지 영상을 '나에게 온 영상 편지'로 바꿈"
+  },
+  {
+   "t": "같은 원본 디지털 줌 재사용(11컷)",
+   "w": "#1~#9, #18, #19",
+   "d": "야간 버스 셀카 한 구도를 1.0~4.0배로 잘라 11컷을 만듦. 생성 1번으로 18초를 채우고, 컷마다 사이즈가 바뀌어 빠르게 느껴짐(4배 크롭은 뭉개지므로 4K 원본 필수)"
+  },
+  {
+   "t": "3단 펀치인",
+   "w": "#3→#4→#5(1.45→1.9→3.1배), #6→#7→#8(1.0→2.1→4.0배), #27→#28→#29(1.0→2.3→3.0배)",
+   "d": "같은 문장 안에서 MS→CU→ECU로 좁혀 한 구절을 끝까지 붙잡음"
+  },
+  {
+   "t": "줌 핑퐁",
+   "w": "#44→#45→#46→#47(1.0→4→1.6→4.25배), #30~#34(1.0~3.45배)",
+   "d": "한 원본을 넓게·좁게 번갈아 잘라 설명 대사와 분노 연기에 리듬을 줌"
+  },
+  {
+   "t": "회상·상상 액자 프레임",
+   "w": "#10~#17, #23~#26, #48~#50",
+   "d": "둥근 모서리 검정 테두리 + 비네트 + 빛바랜 색으로 과거·상상을 표시, 액자가 사라지면 현재(#18, #27). 게임 상상(#30~#34)만 액자 없이 풀화면으로 폭주감"
+  },
+  {
+   "t": "대사 위 라벨(속마음·정보·번역 개그)",
+   "w": "#6~#9, #16~#29, #35, #39~#41, #46~#53, #56~#57",
+   "d": "흰 대사 바로 위 작은 회색 박스가 기간·날짜·속마음·영어 번역을 덧붙여 한 컷의 정보 밀도를 두 배로"
+  },
+  {
+   "t": "미러 슬라이드 장면 전환",
+   "w": "#19→#20",
+   "d": "영상 유일의 특수 전환(약 5프레임). 버스에서 내려 거리로 나온 시간 경과를 한 번에"
+  },
+  {
+   "t": "복선 소품(검은 하드 케이스)",
+   "w": "#6 → #27, #35~#38 → #40~#41",
+   "d": "버스 좌석 구석에 있던 케이스가 엘리베이터·옥상까지 따라오다 열리며 장르가 뒤집힘(체호프의 총)"
+  },
+  {
+   "t": "장르 반전 리빌",
+   "w": "#41, #44",
+   "d": "작별 인사 직후 몸만 한 저격총을 꺼내 휴식 공지 브이로그를 킬러 액션으로 전환"
+  },
+  {
+   "t": "괄호 효과 자막",
+   "w": "#43, #53, #58~#62, #78~#80, #92, #95, #98, #104, #107~#108",
+   "d": "(장전)·(발사)처럼 소리와 동작을 괄호 글자로 — 대사 없는 후반 40초의 내레이션"
+  },
+  {
+   "t": "강조 자막 1회",
+   "w": "#52",
+   "d": "눈만 꽉 찬 초근접 + 일반 대사 1.7배 글씨로 결심 순간만 크게"
+  },
+  {
+   "t": "0.7초 완전 무음 → 총성",
+   "w": "#59~#61(45.75~46.63초)",
+   "d": "발사 직전 소리를 완전히 비웠다가 총성과 함께 컷 — 긴장에서 폭발로"
+  },
+  {
+   "t": "탄환 시점(불릿 캠)",
+   "w": "#63~#64",
+   "d": "줌 블러로 야경 위를 날아 사무실 창으로 돌진, 0.2초 초단컷(#64)으로 창 진입"
+  },
+  {
+   "t": "슬로모션 유리 파열 + 실사 배우 리액션",
+   "w": "#65~#68",
+   "d": "3.07초 슬로모션(영상 컷 중 최장)으로 파편을 보여 주고 과장된 넘어짐으로 웃음 회수"
+  },
+  {
+   "t": "손글씨 인서트로 '읽히는' 펀치라인",
+   "w": "#73~#75, #89, #101, #104",
+   "d": "서류를 펼치는 손 → 체크 칸 초근접 → 손글씨를 따라 패닝. 글자를 읽을 시간만큼 컷을 길게(1.1~1.5초)"
+  },
+  {
+   "t": "150BPM 음악 드롭 & 박 편집",
+   "w": "#69~#108(53.2~85.2초)",
+   "d": "음악이 들어온 뒤 컷 40개 중 21개가 4분음표 박 ±0.08초 안(우연 40%). 액션 순간(총성·손바닥)이 우선"
+  },
+  {
+   "t": "영화 패러디(양손 권총·공중 다이브)",
+   "w": "#78~#80, #97~#98",
+   "d": "작은 동물이 몸만 한 권총 두 자루로 슬로모션 다이브 — 크기 대비와 장르 패러디"
+  },
+  {
+   "t": "몸짓 펀치라인 + 조용한 엔딩 카드",
+   "w": "#107~#109",
+   "d": "마지막 한 방은 말 없이 몸짓으로, 이어 검정 카드에 자모 타자로 다음 만남 약속 → 감사 → FIN, 1.8초 무음"
+  }
+ ],
+ "adapt": {
+  "premise": "예시 각색: '한 달 휴식 공지 + 팬 사직서 대리 제출' → '2주 여름 방학 공지 + 팬들이 쓴 연차 신청서에 도장 받아 주기'. 퇴근 버스에서 시청자에게 '은퇴 아님' 여름 특보를 전하고(두구두구) → 이번 시즌 자랑(국수·피자 먹방, 산 위 노래, 첫 전시회) → 밤샘 편집 끝 '배터리 1%' 고백 → 밤거리에서 '2주 여름 방학' 선언 → 방학 계획 상상(리모컨 독점 드라마 몰아 보기, 할머니 무릎, 늦잠, 게임만 하면 딴사람) → 엘리베이터에서 '2주만 충전하고 올게' 작별 → 옥상에서 케이스를 열면 서류를 쏘는 장난감 저격총 → 전시회 방명록 벽에 시청자들이 쓰고 간 연차 신청서 한가득 → '이번엔 내가 직접 도장 받아 올게'(도장 배달 특급 요원) → 엎드려 '2주 뒤에 보자탕!' 인사 후 발사. 후반(#56~#108)은 신청서 탄환이 야근 팀장·임원·수간호사·옆 팀 직원에게 배달되고 모두 얼떨결에 '승인' 도장을 찍게 되는 흐름, 마지막 창밖 펀치라인은 손가락 욕 대신 주인공이 '승인' 도장을 유리창에 쾅 찍는 몸짓. 엔딩 카드: 2주 뒤에 만나요 → 고마워요 → FIN",
+  "keep": [
+   "15비트 구조와 타이밍(표의 초 단위 그대로) — 앞 46초 고백 브이로그 + 뒤 40초 대사 없는 액션",
+   "첫 프레임 팬 호명 훅, 대사 위 작은 라벨 + 흰 대사 2층 자막, 괄호 상황 자막, 강조 자막은 결심 순간 1회",
+   "같은 원본 디지털 줌 재사용(버스 11컷, 엘리베이터·옥상·게임 3~5컷씩)과 3단 펀치인",
+   "회상·상상은 둥근 액자 프레임으로 구분, 게임 폭주만 풀화면",
+   "복선 소품(하드 케이스) → 옥상 개봉 → 장르 반전",
+   "발사 직전 0.7초 완전 무음 → 총성 → 탄환 시점 → 150BPM 음악 드롭",
+   "마지막 검정 엔딩 카드(자모 타자 → 감사 → FIN)와 무음 끝"
+  ],
+  "change": [
+   "주인공 동물·시그니처 소품(원본의 은색 헤드폰은 채널 상징이라 쓰지 않음)",
+   "대사·라벨·괄호 문구 전부(예시 각색 대사를 새로 제공)",
+   "사직서 → 연차 신청서(서류의 성격), 실총 → 서류를 쏘는 장난감 소품 총(영상 모델 정책에도 안전)",
+   "회상 클립은 자기 채널의 지난 영상으로 교체(협업 로고·실제 행사 장면은 본인 것만 사용)",
+   "마지막 손가락 욕 몸짓 → '승인' 도장 쾅 또는 엄지 척 같은 순한 몸짓",
+   "배달 대상(야근 직장인·임원·간호사·옆 팀 직원)의 구성은 유지하되 서류 문구는 새로"
+  ],
+  "costume": "a fluffy lilac terry-cloth towel turban and a tiny white waffle bathrobe tailored to its round body (stay-home vacation outfit)"
+ },
+ "batches": [
+  {
+   "name": "A. 야간 버스 셀카 원본(4K 1테이크 → 11컷 크롭)",
+   "shots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    18,
+    19
+   ],
+   "how": "#6 구도 키프레임 1장(창가 좌석·가방·옆자리 검은 케이스) → 참조형 모델로 4K 12~15초 1~2테이크. 1.0/1.45/1.5/1.9/2.1/2.2/3.1/4.0배로 크롭해 11컷 배치(4배 컷은 샤프닝)"
+  },
+  {
+   "name": "B. 지난 시즌 회상 클립(자기 채널 영상 재사용 우선)",
+   "shots": [
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "how": "있으면 지난 영상에서 0.5~1초씩 발췌, 없으면 작은 모자 의상 키프레임 4장(쌀국수·피자 상자·기타·도시 뒷모습) → 각 5초 1회. #11은 #10의 1.4배 크롭. 액자·비네트·빛바랜 색은 편집"
+  },
+  {
+   "name": "C. 실제 행사 인서트",
+   "shots": [
+    15,
+    48
+   ],
+   "how": "본인 행사 사진·영상 사용(#48은 정지 사진 + 느린 푸시인). 없으면 폰 기록 영상 느낌으로 1장씩 생성"
+  },
+  {
+   "name": "D. 번아웃 야근 회상",
+   "shots": [
+    16,
+    17
+   ],
+   "how": "어두운 방 노트북 키프레임 1장 → 멍한 표정 5초 + 두 앞발로 눈 누르기 5초(표정 모델)"
+  },
+  {
+   "name": "E. 밤거리 셀카",
+   "shots": [
+    20,
+    21,
+    22
+   ],
+   "how": "걷는 셀카 5초 1회(#20) + 멈춰 선 MS 4K 5초 1회(#21) → #22는 #21의 1.5배 크롭. #20 앞에 미러 슬라이드 전환"
+  },
+  {
+   "name": "F. 방학 계획 상상(수건 머리·쓰다듬)",
+   "shots": [
+    23,
+    24,
+    25,
+    26
+   ],
+   "how": "각색 의상(수건 터번·목욕 가운) 소파 키프레임 + 니트 무릎·손가락 키프레임 → 각 5초 1회, #24·#26은 약 2배 크롭(액자는 편집)"
+  },
+  {
+   "name": "G. 엘리베이터(케이스 복선·작별)",
+   "shots": [
+    27,
+    28,
+    29,
+    35,
+    36
+   ],
+   "how": "케이스 앞 서 있는 MS 4K 5초(#27 → #28·#29 크롭) + 케이스에 기댄 MCU 4K 5초(#35 → #36 1.25배 크롭, 끝에 손 흔들기)"
+  },
+  {
+   "name": "H. 게이머 분노(원본 1개 → 5컷)",
+   "shots": [
+    30,
+    31,
+    32,
+    33,
+    34
+   ],
+   "how": "게이밍 헤드셋 MS 키프레임 → 과장 표정 모델로 4K 5초 1~2회 → 1.0/1.4/1.7/1.75/3.45배 크롭, #33·#34는 편집 흔들림"
+  },
+  {
+   "name": "I. 블루아워 옥상(케이스 개봉·총 공개·결심)",
+   "shots": [
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    51,
+    52,
+    53
+   ],
+   "how": "4개 원본: ①케이스에 엎드린 MS(#38 → #37 크롭) ②서 있다 총 꺼내기 시작·끝 프레임 5초(#41 → #39·#42·#43 크롭) ③와이드(#44 → #45·#46·#47 크롭) ④총 안은 MCU(#53 → #51 크래시 줌·#52 눈 크롭) + #40 뚜껑 여는 1초 클로즈업"
+  },
+  {
+   "name": "J. 서류 더미 회상",
+   "shots": [
+    49,
+    50
+   ],
+   "how": "서류 산 속에서 한 장 읽는 키프레임 → 5초 1회, #50은 2.25배 크롭(액자는 편집)"
+  },
+  {
+   "name": "K. 야간 저격 자세(작별·발사)",
+   "shots": [
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+   ],
+   "how": "엎드려 손 흔드는 MS 4K 8초(#54 → #55·#56·#58 크롭) + 조준경 ECU(#57·#59·#62) + 방아쇠 앞발 인서트(#60) + 발사 총구 섬광·연기(#61)"
+  },
+  {
+   "name": "L. 탄환 시점·유리 파열 VFX",
+   "shots": [
+    63,
+    64,
+    65
+   ],
+   "how": "야경 드론 하강 5초 + 사무실 창 줌 인(편집 줌 블러) → 유리 파열 슬로모션 3초(유리 파편은 VFX 합성 권장)"
+  },
+  {
+   "name": "M. 야근 직장인 반응(cw1)",
+   "shots": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+   ],
+   "how": "cw1 기준 이미지 1장(안경·흰 셔츠·남색 넥타이) → 얼굴 초근접·의자째 넘어짐·가슴 주머니에서 서류 꺼내기 5초 3~4회, #68은 #67의 1.7배 크롭"
+  },
+  {
+   "name": "N. 서류 손글씨 인서트",
+   "shots": [
+    73,
+    74,
+    75,
+    89,
+    101
+   ],
+   "how": "새 문구로 서류 실물을 인쇄·손글씨로 만들어 직접 촬영하거나 이미지 1장씩 + 편집 패닝(텍스트가 정확해야 하므로 생성보다 실물 권장)"
+  },
+  {
+   "name": "O. 임원실(boss)",
+   "shots": [
+    76,
+    77,
+    94,
+    95
+   ],
+   "how": "임원 책상·태극기 세트 + boss 기준 이미지 → 책상 위 서류 시위, 놀라 굳은 얼굴, 이마에 서류 붙이기, 서류 붙은 채 차 마시기 5초 4회"
+  },
+  {
+   "name": "P. 양손 권총 액션(dayoffice)",
+   "shots": [
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    93,
+    96,
+    97,
+    98
+   ],
+   "how": "밝은 사무실 통로 로우앵글 키프레임 → 권총 두 자루 연사 5초 2회 + 천장 아래 공중 다이브 5초 1회 + 엑스트라가 몸을 던지는 슬로모션 2회. 날아가는 서류는 편집 합성"
+  },
+  {
+   "name": "Q. 병원 간호사실(leader)",
+   "shots": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    90,
+    91,
+    92
+   ],
+   "how": "흰 카운터 세트 + leader 기준 이미지 → 카운터 너머 봉투 밀기 5초, 장갑 손이 받기 5초, 봉투 열기 인서트, 엄지척 5초(#92는 #91의 1.6배 크롭)"
+  },
+  {
+   "name": "R. 복사기·창밖 펀치라인(cw2)",
+   "shots": [
+    99,
+    100,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+   ],
+   "how": "복사기·창가 세트 → 종이 꺼내는 손(#100 → #99 크롭), 창밖 보는 뒷모습, 창밖 난간의 주인공 서류 시위 4K 5초(#104 → #103 크롭), 무표정 → 마지막 몸짓 5초(#105 → #107 크롭)"
+  },
+  {
+   "name": "S. 엔딩 카드",
+   "shots": [
+    109
+   ],
+   "how": "편집 그래픽: 검정 배경 + 자모 타자 문장 → 감사 → FIN, 저음 여운 뒤 무음"
+  }
+ ],
+ "rhythm_note": "해석: 전체 일치율 36.1%는 우연(32.6%)과 비슷하지만 구간마다 자르는 기준이 다릅니다. <b>0~45초 고백 파트는 말 구절이 시작되는 순간</b>(58컷 중 42컷이 단어 시작 -0.12~+0.25초 안)과 구절 중간 펀치인으로, <b>46~53초는 총성·유리·충돌 효과음</b>(8컷 중 4컷, 우연 29%)으로, <b>53.2~85.2초 액션 파트는 150BPM 박</b>(40컷 중 21컷이 4분음표 ±0.08초 안, 우연 40%)으로 잘랐습니다. 따라 만들 때는 앞은 문장, 뒤는 박자와 액션 순간에 맞추세요.",
+ "cute_moments": [
+  {
+   "moment": "야간 버스 셀카 속삭임",
+   "shots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    18,
+    19
+   ],
+   "why": "20cm 동물이 휴대폰을 든 브이로거처럼 카메라에 바짝 붙어 조곤조곤 말하는 '사람 같은 행동' + 같은 원본을 1.0→4.0배로 당기며 동그란 눈을 반복 노출. 가방을 두 팔로 꼭 끌어안은 자세가 작고 소심한 느낌을 더함",
+   "prompt": "{HERO} sitting in the window seat of a night bus, hugging a tiny backpack against its round chest with both short stubby arms, face close to a phone camera, big round glossy black eyes with bright catchlights looking straight into the lens, neon city lights streaking past the window",
+   "motion": "The {ANIMAL} talks softly to the camera, blinks slowly and hugs the backpack a little tighter; tiny whisker twitches and a gentle bus vibration."
+  },
+  {
+   "moment": "작은 모자 쓴 먹방·노래 회상",
+   "shots": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "why": "머리에 딱 맞는 진짜 같은 작은 모자(삼각 밀짚모자·야구모자·챙모자)와 몸만 한 그릇·피자 상자·기타의 크기 대비. 0.3~0.8초씩 빠르게 바뀌어 '귀여운 순간 모음집'처럼 보임",
+   "prompt": "{HERO} wearing a tiny woven straw hat sized exactly to its head, holding a bowl of noodle soup almost as wide as its body with its short stubby arms, cheeks slightly puffed, big round glossy eyes",
+   "motion": "The {ANIMAL} lifts the bowl a little and chews, the tiny hat wobbling with each bite."
+  },
+  {
+   "moment": "번아웃 얼굴 감싸기",
+   "shots": [
+    16,
+    17
+   ],
+   "why": "정수리 털을 머리끈으로 묶은 작은 상투 + 짧은 앞발로 눈을 꾹 누르는 사람 같은 '현타' 제스처. 앞발이 얼굴을 다 못 가리는 크기 차이가 짠하면서 귀여움",
+   "prompt": "{HERO} with a tiny tuft of fur tied up on top of its head, pressing both short stubby paws over its eyes at a laptop in a dark room, cheeks squished, cold blue screen glow",
+   "motion": "The {ANIMAL} rubs its eyes with both tiny paws and slowly lowers its head with a small sigh."
+  },
+  {
+   "moment": "방학 상상: 수건 머리·쓰다듬 낮잠",
+   "shots": [
+    23,
+    24,
+    25,
+    26
+   ],
+   "why": "수건 터번을 두르고 몸만 한 아이스크림 통을 끌어안은 채 볼 빵빵, 이어 사람 손가락에 머리를 맡기고 눈을 스르르 감는 느린 반응 — 쉬는 모습 자체가 힐링 컷",
+   "prompt": "{HERO} wearing a fluffy towel turban, sitting on a cozy sofa hugging a pint of ice cream almost as big as its body, a tiny spoon in one short paw, cheeks puffed",
+   "motion": "The {ANIMAL} scoops ice cream and chews with puffed cheeks, then a human finger strokes its head and it slowly closes its eyes in bliss."
+  },
+  {
+   "moment": "작은 게이머의 분노",
+   "shots": [
+    30,
+    31,
+    32,
+    33,
+    34
+   ],
+   "why": "머리에 맞춘 게이밍 헤드셋과 마이크, 짧은 팔로 키보드를 두드리며 높은 목소리(약 630Hz)로 화내는 과장 연기. 차분하던 캐릭터의 반전 + 흔들림·초근접 연타",
+   "prompt": "{HERO} wearing a tiny black gaming headset with glowing green ear rings and a boom mic sized to its head, sitting at a backlit keyboard, one short stubby arm flung up mid-rant, mouth wide open",
+   "motion": "The {ANIMAL} bangs the keyboard with its tiny paws and flails one short arm while shouting in a squeaky rage, the headset mic bobbing."
+  },
+  {
+   "moment": "몸만 한 저격총",
+   "shots": [
+    37,
+    38,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    51,
+    52,
+    53
+   ],
+   "why": "20cm 동물이 자기 몸만 한 나무 개머리판 소총을 짧은 팔로 끌어안는 크기 대비와 킬러 장르의 부조화. 케이스 뚜껑을 낑낑 여는 동작과 진지한 초근접 눈빛(#52)이 웃음 포인트",
+   "prompt": "{HERO} on a concrete rooftop at blue hour, hugging a miniature wooden bolt-action prop rifle almost as long as its body diagonally against its round chest with short stubby arms, big round glossy eyes staring seriously into the camera",
+   "motion": "The {ANIMAL} lifts the heavy prop rifle with a small wobble, settles it against its chest and stares into the lens with one slow blink."
+  },
+  {
+   "moment": "엎드려 앞발 흔드는 작별",
+   "shots": [
+    54,
+    55,
+    56,
+    57,
+    58
+   ],
+   "why": "저격 자세로 엎드린 채 분홍 앞발을 살랑살랑 흔드는 다정함 — 킬러 자세와 손 인사의 대비가 대표 썸네일감",
+   "prompt": "{HERO} lying prone on a rooftop ledge at night behind a miniature prop rifle with a small scope, waving one tiny pink paw at the camera, big round glossy eyes, glittering city bokeh",
+   "motion": "The {ANIMAL} waves its tiny paw side to side while chattering, then rests its cheek on the rifle stock and its eyes turn serious."
+  },
+  {
+   "moment": "양손 권총 슬로모션 다이브",
+   "shots": [
+    78,
+    79,
+    80,
+    82,
+    83,
+    97,
+    98
+   ],
+   "why": "몸보다 큰 권총 두 자루를 짧은 팔로 겨누는 로우앵글 + 서류가 흩날리는 천장 아래 슬로모션 다이브. 영화 패러디를 작은 몸으로 해내는 과장",
+   "prompt": "Low-angle shot of {HERO} standing in an office aisle holding two toy-sized pistols out to both sides with its short stubby arms, the pistols almost as big as its arms, big round glossy eyes, papers flying",
+   "motion": "The {ANIMAL} leaps sideways in slow motion with both tiny arms outstretched, its fluffy fur rippling as papers swirl around."
+  },
+  {
+   "moment": "카운터 너머 빼꼼 엄지척",
+   "shots": [
+    84,
+    85,
+    91,
+    92
+   ],
+   "why": "하얀 카운터 모서리에 턱을 걸치고 봉투를 쓱 밀어 넣는 빼꼼 자세 + 짧은 엄지를 척 드는 사람 같은 제스처",
+   "prompt": "{HERO} peeking over the edge of a white counter with only its round ears, big round eyes, chin and tiny paws visible, pushing a white envelope forward with one paw",
+   "motion": "The {ANIMAL} slides the envelope forward, then raises one tiny paw in a thumbs-up and blinks."
+  },
+  {
+   "moment": "창밖 무표정 서류 시위",
+   "shots": [
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+   ],
+   "why": "창밖 난간에 서서 몸만 한 서류를 들고 끝까지 무표정한 느린 반응 → 마지막에 작은 손으로 한 방. 각색 때는 손가락 욕 대신 '승인' 도장 쾅이나 엄지 척으로 순화",
+   "prompt": "{HERO} standing on a window ledge outside a high-rise office, holding up a document as big as its body against the glass, blank deadpan stare with big round glossy eyes",
+   "motion": "The {ANIMAL} holds the paper still with a deadpan face, lets it drop, then slowly raises one tiny paw to press a red approval stamp against the glass."
+  },
+  {
+   "moment": "손 흔드는 꼬마 저격수",
+   "shots": [
+    56,
+    58
+   ],
+   "why": "몸보다 큰 저격총 뒤에 납작 엎드린 채 작은 앞발로 빠이빠이 — 무기와 작별 인사의 갭. 개머리판에 눌린 볼이 동글동글함을 강조",
+   "prompt": "{HERO} lying flat on its fluffy round belly behind a scoped rifle much bigger than its body, chubby cheek squished against the wooden stock, one tiny front paw with little fingers raised and waving at the camera, big round glossy black eyes",
+   "motion": "The tiny paw waves twice, whiskers twitch, then it snuggles its cheek back against the stock with a sudden serious squint."
+  },
+  {
+   "moment": "진지한 척하는 동그란 눈 초근접",
+   "shots": [
+    57,
+    59,
+    62,
+    83,
+    106,
+    108
+   ],
+   "why": "화면을 꽉 채운 동그란 눈이 '프로 저격수'·무표정을 연기하는 갭. 대부분 같은 클립을 2~3배 디지털 확대해 추가 생성 없이 만든 초근접",
+   "prompt": "Extreme close-up of {HERO}'s fluffy face: two huge round glossy black eyes, tiny nose, soft cheeks and fine whiskers, a very serious deadpan stare",
+   "motion": "Near-still; the eyes narrow slightly into a 'serious' squint, one slow blink, whiskers stop moving."
+  },
+  {
+   "moment": "카운터 빼꼼 + 엄지척",
+   "shots": [
+    84,
+    85,
+    91,
+    92
+   ],
+   "why": "카운터 모서리에 턱을 걸쳐 볼이 빵빵하게 눌린 얼굴, 작은 앞발로 봉투를 밀고 짧은 팔로 엄지를 세우는 '작은 배달부'",
+   "prompt": "{HERO} peeking over the edge of a glossy white counter with its chubby cheeks squished on the edge, one short stubby arm raised in a tiny thumbs-up, big round hopeful eyes",
+   "motion": "It slides an envelope forward with one tiny paw, then pops up a tiny thumbs-up and holds it proudly, cheeks squishing."
+  },
+  {
+   "moment": "쌍권총 영웅 포즈 · 공중 점프",
+   "shots": [
+    78,
+    79,
+    80,
+    97,
+    98
+   ],
+   "why": "짧은 두 팔로 몸만 한 권총을 들고 좌우 대칭 포즈, 짧은 다리를 대롱대롱 늘어뜨린 채 날아오르는 액션 영화 패러디 — 작을수록 웃긴 크기 대비",
+   "prompt": "Low-angle shot of {HERO} standing upright on stubby hind legs, short little arms stretched out holding two black pistols almost as big as its body, fluffy white chest, big round eyes, stone-faced",
+   "motion": "Tiny arms wobble with each recoil while the fluffy body stays stiff; then it leaps into the air with little legs dangling."
+  },
+  {
+   "moment": "책상 위 작은 배달부(크기 대비)",
+   "shots": [
+    76,
+    77,
+    94,
+    95
+   ],
+   "why": "큰 책상 위에 선 작은 몸이 자기 키만 한 서류를 두 손으로 들고 멀뚱히 서 있거나 사람 이마에 찰싹 붙임. 리버스 샷 앞쪽의 동그란 뒤통수·귀까지 귀여움",
+   "prompt": "{HERO} standing upright on tiny hind legs on a large wooden desk, holding up with both short stubby arms a sheet of paper almost as tall as its body, big round blank eyes, a man towering beside it",
+   "motion": "It holds the paper up with trembling tiny arms, then slaps it onto the man's forehead twice with both paws."
+  },
+  {
+   "moment": "창밖 무표정 대기",
+   "shots": [
+    103,
+    104,
+    105,
+    107
+   ],
+   "why": "고층 창밖 난간에 두 발로 서서 멀뚱히 들여다보는 무표정 + 작은 앞발 손짓 — '귀여운데 할 말은 하는' 반전 캐릭터",
+   "prompt": "{HERO} standing upright on a metal window ledge outside an office window, big round eyes staring in blankly, fluffy round belly, one tiny paw resting on a large sheet of paper",
+   "motion": "Stares without moving, one slow blink, then slowly raises one tiny paw near its cheek."
+  }
+ ],
+ "zoom_families": [
+  {
+   "base": 54,
+   "shots": [
+    56,
+    57,
+    58,
+    59
+   ],
+   "how": "#54 원본 한 클립: #56 1.17배, #57 약 3.1배, #58 1.2배→1.6배 점프, #59 약 2.7배"
+  },
+  {
+   "base": 61,
+   "shots": [
+    61,
+    62
+   ],
+   "how": "#62 = #61 약 2.9배"
+  },
+  {
+   "base": 67,
+   "shots": [
+    67,
+    68
+   ],
+   "how": "#68 = #67 뒷부분 약 1.7배"
+  },
+  {
+   "base": 69,
+   "shots": [
+    69,
+    70,
+    71,
+    72
+   ],
+   "how": "#70 약 1.8배, #71 = #72보다 1.3배 좁게, 같은 클립 순서대로"
+  },
+  {
+   "base": 73,
+   "shots": [
+    73,
+    74,
+    75
+   ],
+   "how": "#74 약 5배(제목·체크), #75 약 3.3배 정지 크롭 3단 점프"
+  },
+  {
+   "base": 78,
+   "shots": [
+    78,
+    79,
+    80
+   ],
+   "how": "#79 첫 3~4프레임 1배 → 1.9배 점프, #80 약 2배"
+  },
+  {
+   "base": 84,
+   "shots": [
+    84,
+    85
+   ],
+   "how": "#85 약 1.7배"
+  },
+  {
+   "base": 91,
+   "shots": [
+    91,
+    92
+   ],
+   "how": "#92 약 1.6배"
+  },
+  {
+   "base": 100,
+   "shots": [
+    99,
+    100
+   ],
+   "how": "#99 = #100 약 1.9배(좁게 먼저)"
+  },
+  {
+   "base": 104,
+   "shots": [
+    103,
+    104
+   ],
+   "how": "#103 = #104 약 1.9배(좁게 먼저)"
+  },
+  {
+   "base": 105,
+   "shots": [
+    105,
+    106,
+    107,
+    108
+   ],
+   "how": "#106 약 3.1배, #107 약 1.28배, #108 약 2.6배"
+  }
+ ]
+}

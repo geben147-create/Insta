@@ -7,6 +7,9 @@
 
 입력 폴더 규칙:
   clips/sNN.mp4   각 컷의 AI 생성 영상(5초 권장). 없으면 번호가 적힌 임시 화면으로 대체
+                  정지 컷(still)은 clips/sNN.png·jpg·webp 이미지 1장만 넣어도 됨(컷 길이만큼 늘여 쓰고 줌은 편집으로)
+                  edl.json 에 "source" 가 있는 컷은 따로 생성하지 않고 원본 컷 클립을 잘라 확대해 씀
+                  (zoom=배율, cx·cy=원본 화면 기준 중심 0~1, src_in=클립 안 시작 초 — 한 클립을 여러 컷이 이어 씀)
   voice/sNN.wav   (선택) 그 컷 시작 시점에 놓을 대사 음성
   sfx/<이름>.wav  (선택) sfx_cues.csv 의 file 열 이름과 같은 효과음. 없으면 짧은 '삑' 소리로 위치만 표시
   audio/bgm.mp3   (선택) 배경음악 — 대사가 나올 때 자동으로 줄어듦(사이드체인 덕킹)
@@ -45,20 +48,49 @@ def esc(path):  # filtergraph 안 경로 이스케이프 (윈도우 드라이브
     return path.replace("\\", "/").replace(":", "\\:").replace("'", "\\'")
 
 
+def reuse_crop(shot):
+    """같은 원본 재사용: 원본 화면에서 중심(cx,cy)·배율(zoom)만큼 잘라 1920x1080 으로 확대 (디지털 줌 한 단)"""
+    z = max(1.0, float(shot.get("zoom", 1)))
+    cw, ch = int(W / z) // 2 * 2, int(H / z) // 2 * 2
+    x0 = int(min(max(shot["cx"] * W - cw / 2, 0), W - cw))
+    y0 = int(min(max(shot["cy"] * H - ch / 2, 0), H - ch))
+    return f"crop={cw}:{ch}:{x0}:{y0},scale={W}:{H}:flags=lanczos"
+
+
+def push_origin(p):
+    """측정한 컷 안 줌 → 확대 고정점(0~1). 좁은 화면의 중심이 측정 위치(cx,cy)에 오도록 계산"""
+    k = p["scale"] if p["scale"] > 1 else 1 / p["scale"]
+    return [min(max((0.5 - k * c) / (1 - k), 0.0), 1.0) for c in (p["cx"], p["cy"])]
+
+
+def zoompan(z0, z1, ramp, ox=0.5, oy=0.5):
+    """z0→z1 배율로 ramp 초 동안 확대(이후 유지), 고정점(ox,oy). 2배 업스케일 후 잘라 떨림(정수 좌표 반올림)을 줄임"""
+    z = f"{z0:.4f}+({z1 - z0:.4f})*min(on/{FPS * ramp:.3f}\\,1)"
+    return (f"scale={W * 2}:{H * 2},zoompan=z='{z}':x='{ox:.4f}*iw*(1-1/zoom)':y='{oy:.4f}*ih*(1-1/zoom)'"
+            f":d=1:s={W}x{H}:fps={FPS}")
+
+
 def frame_filter(shot, length):
     """컷 하나의 화면 규격·효과 필터."""
     fx = shot.get("fx", [])
     frame = shot.get("frame", "full")
-    chain = []
+    chain = [f"fps={FPS}"]  # 24fps 클립도 30fps 로 맞춘 뒤 줌 계산 (zoompan 은 입력 1프레임=출력 1프레임)
     if frame == "full":
         chain.append(f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}")
     else:  # 1:1, 3:4 등 필러박스(가운데 배치 + 양옆 검정)
         fw = {"1x1": 1080, "3x4": 810, "p088": 954}.get(frame, 1080)
         chain.append(f"scale={fw}:{H}:force_original_aspect_ratio=increase,crop={fw}:{H},pad={W}:{H}:(ow-iw)/2:0:black")
+    if "source" in shot and not shot.get("placeholder"):  # 같은 원본 클립을 잘라 확대해 다른 컷처럼 사용
+        chain.append(reuse_crop(shot))
     if "crash_zoom" in fx:  # 처음 0.12초 동안 1.0→1.25배 급확대 후 유지
-        chain.append(f"scale=w='trunc({W}*(1+0.25*min(t/0.12\\,1))/2)*2':h='trunc({H}*(1+0.25*min(t/0.12\\,1))/2)*2':eval=frame,crop={W}:{H}")
-    if "push_in_slow" in fx:  # 컷 전체에 걸쳐 1.0→1.08배
-        chain.append(f"scale=w='trunc({W}*(1+0.08*t/{length:.3f})/2)*2':h='trunc({H}*(1+0.08*t/{length:.3f})/2)*2':eval=frame,crop={W}:{H}")
+        chain.append(zoompan(1.0, 1.25, 0.12))
+    elif "push" in shot:  # 원본에서 측정한 컷 안 줌(배율·방향 그대로)
+        p = shot["push"]
+        ox, oy = push_origin(p)
+        z0, z1 = (1.0, p["scale"]) if p["scale"] > 1 else (1 / p["scale"], 1.0)
+        chain.append(zoompan(z0, z1, length, ox, oy))
+    elif "push_in_slow" in fx:  # 컷 전체에 걸쳐 1.0→1.08배
+        chain.append(zoompan(1.0, 1.08, length))
     if "shake" in fx:
         chain.append(f"crop={W-40}:{H-40}:20+14*sin(47*t):20+12*cos(39*t),scale={W}:{H}")
     if "dip_out" in fx:  # 컷 끝으로 갈수록 검게
@@ -71,9 +103,51 @@ def frame_filter(shot, length):
     return ",".join(chain)
 
 
+_DUR = {}
+
+
+def src_start(src, want, length):
+    """클립 안 시작 위치. 여러 컷이 한 클립을 이어 쓰다 끝을 넘으면 앞쪽으로 되감아 사용"""
+    if src not in _DUR:
+        r = run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src])
+        try:
+            _DUR[src] = float(r.stdout.strip())
+        except ValueError:
+            _DUR[src] = 0.0
+    room = _DUR[src] - length - 0.05
+    if room <= 0:
+        return 0.0
+    return want if want <= room else want % room
+
+
+IMG_EXT = (".png", ".jpg", ".jpeg", ".webp")
+
+
+def is_flash(shot):
+    """0.2초 이하 편집용 인서트(썸네일 번쩍·전환 프레임) — 파일이 없으면 흰 섬광"""
+    return shot.get("gen") == "edit" and shot.get("who") == "insert" and "source" not in shot and shot["dur"] <= 0.2
+
+
+def needs_file(shot):
+    """직접 넣어야 하는 파일이 있는 컷: 생성 컷 + 편집용 그래픽·녹화 화면(0.2초 초과 인서트). 재사용 컷·암전·카드는 제외"""
+    if shot.get("who") in ("black", "card") or "source" in shot:
+        return False
+    return shot.get("gen") != "edit" or (shot.get("who") == "insert" and shot["dur"] > 0.2)
+
+
+def clip_path(shot):
+    """이 컷이 쓰는 클립 (재사용 컷은 원본 컷의 클립). mp4 가 없고 같은 이름의 이미지가 있으면 이미지(정지 컷)"""
+    p = os.path.join(HERE, shot.get("clip") or f"clips/s{shot['n']:02d}.mp4")
+    if not os.path.exists(p):
+        for ext in IMG_EXT:
+            if os.path.exists(p[:-4] + ext):
+                return p[:-4] + ext
+    return p
+
+
 def make_segment(shot, length, out, args):
     n = shot["n"]
-    src = os.path.join(HERE, "clips", f"s{n:02d}.mp4")
+    src = clip_path(shot)
     ff = ["ffmpeg", "-y", "-v", "error"]
     if shot.get("who") == "black":
         ff += ["-f", "lavfi", "-i", f"color=black:s={W}x{H}:r={FPS}:d={length:.3f}"]
@@ -81,14 +155,23 @@ def make_segment(shot, length, out, args):
     elif shot.get("who") == "card" and not os.path.exists(src):
         ff += ["-f", "lavfi", "-i", f"color=black:s={W}x{H}:r={FPS}:d={length:.3f}"]
         vf = "format=yuv420p,setsar=1"  # 카드 글자는 자막(ASS)으로 올라감
-    elif os.path.exists(src):
-        ff += ["-ss", f"{shot.get('src_in', 0.5):.3f}", "-t", f"{length:.3f}", "-i", src]
+    elif is_flash(shot) and not os.path.exists(src):
+        ff += ["-f", "lavfi", "-i", f"color=white:s={W}x{H}:r={FPS}:d={length:.3f}"]  # 1~6프레임 전환 섬광(썸네일 이미지를 넣으면 그 이미지)
+        vf = "format=yuv420p,setsar=1"
+    elif os.path.exists(src) and src.lower().endswith(IMG_EXT):  # 정지 이미지 컷: 이미지 1장을 컷 길이만큼
+        ff += ["-loop", "1", "-framerate", str(FPS), "-t", f"{length:.3f}", "-i", src]
         vf = frame_filter(shot, length)
-    else:  # 임시 화면: 컷 번호·대상·사이즈를 크게 표시 (타이밍 검증용)
+    elif os.path.exists(src):
+        ff += ["-ss", f"{src_start(src, shot.get('src_in', 0.5), length):.3f}", "-t", f"{length:.3f}", "-i", src]
+        vf = frame_filter(shot, length)
+    else:  # 임시 화면: 컷 번호·대상·사이즈를 크게 표시 (타이밍 검증용, 재사용 컷은 원본 번호·배율 표시)
         label = f"S{n:02d} {shot.get('who', '')} {shot.get('size', '')} {shot['dur']:.2f}s".replace(":", " ")
+        if "source" in shot:
+            label = f"S{n:02d} = S{shot['source']:02d} x{shot['zoom']} {shot['dur']:.2f}s"
+        shot = {**shot, "placeholder": True}
         pal = ["0x2f5d8a", "0xd9a441", "0x3c8d5a", "0xb6485c", "0x6a4c93", "0xe07b39", "0x1f8a8a", "0x9c9c3a"]
         ff += ["-f", "lavfi", "-i", f"color=c={pal[n % len(pal)]}:s={W}x{H}:r={FPS}:d={length:.3f}"]
-        vf = (f"drawbox=x='mod(t*600\,{W})':y=900:w=120:h=120:color=white@0.8:t=fill,drawbox=x=0:y=380:w={W}:h=320:color=black@0.55:t=fill,"
+        vf = (f"drawbox=x='mod(t*600\\,{W})':y=900:w=120:h=120:color=white@0.8:t=fill,drawbox=x=0:y=380:w={W}:h=320:color=black@0.55:t=fill,"
               f"drawtext=fontfile='{esc(args.font)}':text='{label}':fontsize=96:fontcolor=white:x=(w-tw)/2:y=470,"
               + frame_filter({**shot, "frame": shot.get("frame", "full")}, length))
     ff += ["-an", "-vf", vf, "-t", f"{length:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", out]
@@ -226,12 +309,18 @@ def main():
     if not shutil.which("ffmpeg"):
         raise SystemExit("ffmpeg 가 PATH 에 없습니다")
     edl = json.load(open(os.path.join(HERE, "edl.json"), encoding="utf-8"))
-    need = [s for s in edl["shots"] if s.get("gen") not in ("edit",) and s.get("who") not in ("black", "card")]
-    missing = [f"clips/s{s['n']:02d}.mp4" for s in need if not os.path.exists(os.path.join(HERE, "clips", f"s{s['n']:02d}.mp4"))]
-    print(f"{edl['title']} | 컷 {len(edl['shots'])}개 | 총 {edl['duration']:.2f}초 | 필요한 클립 {len(need)}개 중 누락 {len(missing)}개")
+    need = [s for s in edl["shots"] if needs_file(s)]
+    clips = sorted({s.get("clip") or f"clips/s{s['n']:02d}.mp4" for s in need})  # 재사용 컷은 원본 클립 하나로 해결
+    missing = [c for c in clips if not os.path.exists(clip_path({"n": 0, "clip": c}))]
+    reused = sum(1 for s in edl["shots"] if "source" in s)
+    print(f"{edl['title']} | 컷 {len(edl['shots'])}개 | 총 {edl['duration']:.2f}초 | 필요한 원본 클립 {len(clips)}개"
+          f"(재사용 컷 {reused}개는 원본을 잘라 확대) 중 누락 {len(missing)}개")
     if args.check:
         for m in missing:
-            print("  누락:", m)
+            feeds = [f"s{s['n']:02d}" for s in edl["shots"] if s.get("clip") == m and "source" in s]
+            own = next((s for s in need if (s.get("clip") or f"clips/s{s['n']:02d}.mp4") == m), {})
+            kind = " [직접 만드는 화면: 그래픽·본인 녹화]" if own.get("gen") == "edit" else (" [정지 이미지 가능: .png]" if own.get("gen") == "still" else "")
+            print("  누락:", m + kind, f"(이 클립으로 {', '.join(feeds)} 도 만듦)" if feeds else "")
         return
     tmp = os.path.join(HERE, "out", "_tmp")
     os.makedirs(tmp, exist_ok=True)

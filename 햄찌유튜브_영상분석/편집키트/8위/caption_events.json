@@ -1,0 +1,482 @@
+[
+ {
+  "style": "LabelHero",
+  "text": "오늘도 방전된 직장인",
+  "start": 0.1,
+  "end": 1.233,
+  "type_from": 0,
+  "shot": 2
+ },
+ {
+  "style": "LineCW1",
+  "text": "냉장고 속 고기 한 팩으로!",
+  "start": 0.1,
+  "end": 1.233,
+  "type_from": 0,
+  "shot": 2
+ },
+ {
+  "style": "LineCW1",
+  "text": "밥도둑 덮밥이",
+  "start": 1.233,
+  "end": 1.733,
+  "type_from": 0,
+  "shot": 4
+ },
+ {
+  "style": "LineCW1",
+  "text": "밥도둑 덮밥이 10분 컷이에요!",
+  "start": 1.733,
+  "end": 2.433,
+  "type_from": 8,
+  "shot": 5
+ },
+ {
+  "style": "LineHero",
+  "text": "오호…",
+  "start": 2.433,
+  "end": 3.5,
+  "type_from": 0,
+  "shot": 6
+ },
+ {
+  "style": "LineCW1",
+  "text": "간장 두 스푼 넣고",
+  "start": 3.5,
+  "end": 4.1,
+  "type_from": 0,
+  "shot": 7
+ },
+ {
+  "style": "LineCW1",
+  "text": "올리고당 쭈욱",
+  "start": 4.1,
+  "end": 4.7,
+  "type_from": 0,
+  "shot": 8
+ },
+ {
+  "style": "LineCW1",
+  "text": "설탕은 반 스푼만",
+  "start": 4.7,
+  "end": 5.267,
+  "type_from": 0,
+  "shot": 9
+ },
+ {
+  "style": "Paren",
+  "text": "(몰래 시식)",
+  "start": 5.267,
+  "end": 6.3,
+  "type_from": 0,
+  "shot": 10
+ },
+ {
+  "style": "LineCW1",
+  "text": "골고루 저어 주세요!",
+  "start": 6.3,
+  "end": 6.833,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LabelHero",
+  "text": "벌써 셰프 된 기분",
+  "start": 6.833,
+  "end": 7.933,
+  "type_from": 0,
+  "shot": 12
+ },
+ {
+  "style": "LineHero",
+  "text": "룰루~ 랄라~",
+  "start": 6.833,
+  "end": 7.933,
+  "type_from": 0,
+  "shot": 12
+ },
+ {
+  "style": "LineCW1",
+  "text": "굴소스 한 바퀴!",
+  "start": 7.933,
+  "end": 9.15,
+  "type_from": 0,
+  "shot": 13
+ },
+ {
+  "style": "LineHero",
+  "text": "엥?",
+  "start": 9.15,
+  "end": 9.8,
+  "type_from": 0,
+  "shot": 14
+ },
+ {
+  "style": "LineHero",
+  "text": "굴…소스?",
+  "start": 9.8,
+  "end": 10.967,
+  "type_from": 0,
+  "shot": 15
+ },
+ {
+  "style": "LineHero",
+  "text": "우리 집에 그런 게 있었나",
+  "start": 10.967,
+  "end": 11.833,
+  "type_from": 0,
+  "shot": 16
+ },
+ {
+  "style": "LabelHero",
+  "text": "레시피 청구서 계속 추가",
+  "start": 11.833,
+  "end": 13.0,
+  "type_from": 0,
+  "shot": 17
+ },
+ {
+  "style": "LineCW1",
+  "text": "다진 생강도",
+  "start": 11.833,
+  "end": 12.467,
+  "type_from": 0,
+  "shot": 17
+ },
+ {
+  "style": "LineCW1",
+  "text": "다진 생강도 톡톡 넣어 주세요!",
+  "start": 12.467,
+  "end": 13.0,
+  "type_from": 7,
+  "shot": 18
+ },
+ {
+  "style": "LineHero",
+  "text": "어디 보자…",
+  "start": 13.0,
+  "end": 13.833,
+  "type_from": 0,
+  "shot": 19
+ },
+ {
+  "style": "LineHero",
+  "text": "찾았다!",
+  "start": 13.833,
+  "end": 14.333,
+  "type_from": 0,
+  "shot": 21
+ },
+ {
+  "style": "Paren",
+  "text": "(통 하나 드는 데 온몸 동원)",
+  "start": 14.333,
+  "end": 15.167,
+  "type_from": 0,
+  "shot": 22
+ },
+ {
+  "style": "LabelHero",
+  "text": "3년 숙성 빈티지",
+  "start": 15.167,
+  "end": 16.4,
+  "type_from": 0,
+  "shot": 23
+ },
+ {
+  "style": "Paren",
+  "text": "(와인도 아닌데 빈티지)",
+  "start": 15.167,
+  "end": 16.4,
+  "type_from": 0,
+  "shot": 23
+ },
+ {
+  "style": "LabelHero",
+  "text": "먹는 순간 모험 시작",
+  "start": 16.4,
+  "end": 17.7,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "LineHero",
+  "text": "이거 살아",
+  "start": 16.4,
+  "end": 17.067,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "LineHero",
+  "text": "이거 살아 있는 거 아니지?",
+  "start": 17.067,
+  "end": 17.7,
+  "type_from": 6,
+  "shot": 25
+ },
+ {
+  "style": "LineCW1",
+  "text": "고기는 센 불에",
+  "start": 17.7,
+  "end": 18.4,
+  "type_from": 0,
+  "shot": 26
+ },
+ {
+  "style": "LineCW1",
+  "text": "고기는 센 불에 달달 볶아 주고~",
+  "start": 18.4,
+  "end": 19.167,
+  "type_from": 9,
+  "shot": 27
+ },
+ {
+  "style": "LabelHero",
+  "text": "기름 공포증 걸린 {PUN}",
+  "start": 19.167,
+  "end": 20.667,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "Paren",
+  "text": "(방패 장착)",
+  "start": 19.167,
+  "end": 19.8,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "Paren",
+  "text": "(주방은 오늘 전쟁터)",
+  "start": 19.8,
+  "end": 20.667,
+  "type_from": 0,
+  "shot": 29
+ },
+ {
+  "style": "LabelHero",
+  "text": "선제공격하는 고기",
+  "start": 20.667,
+  "end": 21.1,
+  "type_from": 0,
+  "shot": 30
+ },
+ {
+  "style": "Emph",
+  "text": "파바박!",
+  "start": 20.667,
+  "end": 21.1,
+  "type_from": 0,
+  "shot": 30
+ },
+ {
+  "style": "Emph",
+  "text": "앗뜨ㄱ",
+  "start": 21.1,
+  "end": 21.916,
+  "type_from": 0,
+  "shot": 31
+ },
+ {
+  "style": "LabelHero",
+  "text": "인내심 0% {PUN}",
+  "start": 21.916,
+  "end": 22.733,
+  "type_from": 0,
+  "shot": 31
+ },
+ {
+  "style": "LineHero",
+  "text": "왜 나만 공격해 진짜",
+  "start": 21.916,
+  "end": 22.733,
+  "type_from": 0,
+  "shot": 31
+ },
+ {
+  "style": "LabelHero",
+  "text": "드디어 보이는 결승선",
+  "start": 22.733,
+  "end": 24.2,
+  "type_from": 0,
+  "shot": 32
+ },
+ {
+  "style": "LineCW1",
+  "text": "따끈한 쌀밥에",
+  "start": 22.733,
+  "end": 23.433,
+  "type_from": 0,
+  "shot": 32
+ },
+ {
+  "style": "LineCW1",
+  "text": "따끈한 쌀밥에 소복이 얹으면~!",
+  "start": 23.433,
+  "end": 24.2,
+  "type_from": 8,
+  "shot": 33
+ },
+ {
+  "style": "LineHero",
+  "text": "쌀 어딨지…",
+  "start": 24.2,
+  "end": 24.833,
+  "type_from": 0,
+  "shot": 34
+ },
+ {
+  "style": "Paren",
+  "text": "(쌀 한 톨 수색 중)",
+  "start": 24.833,
+  "end": 25.467,
+  "type_from": 0,
+  "shot": 35
+ },
+ {
+  "style": "LineHero",
+  "text": "어… 어라?",
+  "start": 25.467,
+  "end": 26.233,
+  "type_from": 0,
+  "shot": 36
+ },
+ {
+  "style": "LineHero",
+  "text": "없…어?",
+  "start": 26.233,
+  "end": 26.9,
+  "type_from": 0,
+  "shot": 37
+ },
+ {
+  "style": "LabelHero",
+  "text": "밥 없는 덮밥은 그냥 볶음",
+  "start": 26.9,
+  "end": 27.767,
+  "type_from": 0,
+  "shot": 38
+ },
+ {
+  "style": "LineHero",
+  "text": "으아아아아아악!!!",
+  "start": 26.9,
+  "end": 27.767,
+  "type_from": 0,
+  "shot": 38
+ },
+ {
+  "style": "LabelHero",
+  "text": "요리 괜히 시작한 {PUN}",
+  "start": 27.767,
+  "end": 28.633,
+  "type_from": 0,
+  "shot": 39
+ },
+ {
+  "style": "LineHero",
+  "text": "하아… 진짜",
+  "start": 27.767,
+  "end": 28.633,
+  "type_from": 0,
+  "shot": 39
+ },
+ {
+  "style": "LabelHero",
+  "text": "밤 11시 즉석밥 원정",
+  "start": 28.633,
+  "end": 30.333,
+  "type_from": 0,
+  "shot": 40
+ },
+ {
+  "style": "LineHero",
+  "text": "10분 요리라며",
+  "start": 28.633,
+  "end": 29.367,
+  "type_from": 0,
+  "shot": 40
+ },
+ {
+  "style": "LineHero",
+  "text": "10분 요리라며 왜 2시간째야",
+  "start": 29.367,
+  "end": 30.333,
+  "type_from": 9,
+  "shot": 41
+ },
+ {
+  "style": "Paren",
+  "text": "(요리 10분, 설거지 1시간)",
+  "start": 30.333,
+  "end": 31.367,
+  "type_from": 0,
+  "shot": 42
+ },
+ {
+  "style": "LabelHero",
+  "text": "영혼까지 털린 {PUN}",
+  "start": 31.367,
+  "end": 32.533,
+  "type_from": 0,
+  "shot": 43
+ },
+ {
+  "style": "LineHero",
+  "text": "흐어엉",
+  "start": 31.367,
+  "end": 32.533,
+  "type_from": 0,
+  "shot": 43
+ },
+ {
+  "style": "LabelHero",
+  "text": "떨리는 첫 시식",
+  "start": 32.533,
+  "end": 33.8,
+  "type_from": 0,
+  "shot": 45
+ },
+ {
+  "style": "Paren",
+  "text": "(2시간 걸린 10분 요리)",
+  "start": 32.533,
+  "end": 33.8,
+  "type_from": 0,
+  "shot": 45
+ },
+ {
+  "style": "LabelHero",
+  "text": "버릴 순 없으니까",
+  "start": 33.8,
+  "end": 35.7,
+  "type_from": 0,
+  "shot": 46
+ },
+ {
+  "style": "Paren",
+  "text": "(생강 원액의 맛)",
+  "start": 33.8,
+  "end": 35.7,
+  "type_from": 0,
+  "shot": 46
+ },
+ {
+  "style": "LineHero",
+  "text": "…",
+  "start": 35.7,
+  "end": 37.0,
+  "type_from": 0,
+  "shot": 47
+ },
+ {
+  "style": "Paren",
+  "text": "(물 세 컵 부르는 짠맛)",
+  "start": 37.0,
+  "end": 37.633,
+  "type_from": 0,
+  "shot": 48
+ }
+]

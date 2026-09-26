@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>v7 rebuild — 궁극기 같은 모먼트</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      /* Pretendard(OFL) 파일을 assets/fonts/ 에 넣으세요: https://github.com/orioncactus/pretendard/releases */
+      @font-face { font-family: "Pretendard"; src: url("assets/fonts/Pretendard-SemiBold.woff2") format("woff2"); font-weight: 600; }
+      @font-face { font-family: "Pretendard"; src: url("assets/fonts/Pretendard-ExtraBold.woff2") format("woff2"); font-weight: 800; }
+      @font-face { font-family: "Pretendard"; src: url("assets/fonts/Pretendard-Regular.woff2") format("woff2"); font-weight: 400; }
+      body { margin: 0; background: #000; }
+
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: #000; }
+      .shotwrap { position: absolute; inset: 0; transform-origin: 50% 50%; overflow: hidden; }
+      .shotwrap video { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; object-fit: cover; }
+      .shotwrap.f-1x1 video { left: 420px; width: 1080px; }
+      .shotwrap.f-3x4 video { left: 555px; width: 810px; }
+      .shotwrap.f-p088 video { left: 483px; width: 954px; }
+      .cap { position: absolute; left: 0; width: 1920px; display: flex; justify-content: center; pointer-events: none; font-family: "Pretendard", sans-serif; }
+      .cap span { display: block; white-space: nowrap; }
+      .LabelHero { top: 878px; } .LabelHero span { font-size: 40px; padding: 6px 18px; border-radius: 8px; background: rgba(255,255,255,.78); color: #3f3f46; font-style: normal; }
+      .LabelName { top: 878px; } .LabelName span { font-size: 40px; padding: 6px 18px; border-radius: 8px; background: rgba(0,0,0,.88); color: #fff; }
+      .LineHero, .LineCW1, .LineCW2, .LineLeader { top: 952px; }
+      .LineHero span { font-size: 64px; font-weight: 600; color: #fff; -webkit-text-stroke: 8px #000; paint-order: stroke fill; }
+      .LineCW1 span { font-size: 64px; font-weight: 800; color: #1EFF2A; -webkit-text-stroke: 10px #000; paint-order: stroke fill; }
+      .LineCW2 span { font-size: 64px; font-weight: 800; color: #1990DE; -webkit-text-stroke: 10px #000; paint-order: stroke fill; }
+      .LineLeader span { font-size: 64px; font-weight: 800; color: #EAFF12; -webkit-text-stroke: 10px #000; paint-order: stroke fill; }
+      .Emph, .EmphCW1 { top: 850px; } .Emph span, .EmphCW1 span { font-size: 140px; font-weight: 800; font-style: italic; color: #fff; -webkit-text-stroke: 16px #000; paint-order: stroke fill; }
+      .EmphCW1 span { font-size: 120px; color: #1EFF2A; }
+      .Bracket { top: 956px; } .Bracket span { font-size: 56px; color: #fff; -webkit-text-stroke: 8px #000; paint-order: stroke fill; }
+      .Paren { top: 950px; } .Paren span { font-size: 56px; color: #fff; -webkit-text-stroke: 8px #000; paint-order: stroke fill; }
+      .Pointer { top: 100px; justify-content: flex-start; padding-left: 760px; } .Pointer span { font-size: 32px; color: #fff; text-shadow: 0 0 6px #000; }
+      .CardSmall { top: 440px; } .CardSmall span { font-size: 36px; color: #fff; }
+      .CardBig { top: 505px; } .CardBig span { font-size: 64px; color: #fff; }
+      .fxo { position: absolute; pointer-events: none; }
+      .sparkle span { position: absolute; color: #fff; font-size: 64px; text-shadow: 0 0 12px rgba(255,255,255,.9); }
+      .spinner i { position: absolute; width: 70px; height: 70px; border-radius: 50%; border: 8px solid rgba(255,255,255,.25); border-top-color: #fff; }
+      .math span { position: absolute; color: rgba(255,255,255,.85); font: 40px/1 serif; }
+      .emoji i { position: absolute; width: 150px; height: 150px; border-radius: 50%; background: #ffd21f; box-shadow: inset -8px -10px 0 rgba(0,0,0,.08); }
+      .emoji i::before, .emoji i::after { content: ""; position: absolute; top: 38px; width: 40px; height: 40px; border-radius: 50%; background: #fff; border: 12px solid #111; box-sizing: border-box; }
+      .emoji i::before { left: 28px; } .emoji i::after { right: 28px; }
+      .blackout { position: absolute; inset: 0; background: #000; }
+      .flash { position: absolute; inset: 0; background: #fff; }
+
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-width="1920" data-height="1080" data-duration="49.733">
+      <!-- 1) 영상 트랙: 컷 72개 (길이·위치는 edl.json 과 동일) -->
+      <div class="shotwrap" id="w-s02"><video id="s02" src="assets/clips/s02.mp4" data-start="0.100" data-duration="0.533" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s03"><video id="s03" src="assets/clips/s03.mp4" data-start="0.633" data-duration="0.533" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s04"><video id="s04" src="assets/clips/s04.mp4" data-start="1.167" data-duration="1.400" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s05"><video id="s05" src="assets/clips/s05.mp4" data-start="2.567" data-duration="0.733" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s06"><video id="s06" src="assets/clips/s05.mp4" data-start="3.300" data-duration="1.100" data-media-start="1.233" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-591.1px, -322.6px) scale(1.530);"></video></div>
+      <div class="shotwrap" id="w-s07" style="transform-origin: 50.0% 50.0%;"><video id="s07" src="assets/clips/s07.mp4" data-start="4.400" data-duration="1.100" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s08"><video id="s08" src="assets/clips/s03.mp4" data-start="5.500" data-duration="0.967" data-media-start="1.033" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-249.6px, -140.4px) scale(1.260);"></video></div>
+      <div class="shotwrap" id="w-s09" style="transform-origin: 50.0% 47.7%;"><video id="s09" src="assets/clips/s09.mp4" data-start="6.467" data-duration="0.867" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s10"><video id="s10" src="assets/clips/s14.mp4" data-start="7.333" data-duration="0.700" data-media-start="0.500" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-806.5px, -248.7px) scale(1.790);"></video></div>
+      <div class="shotwrap" id="w-s11"><video id="s11" src="assets/clips/s09.mp4" data-start="8.033" data-duration="0.467" data-media-start="1.367" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-496.1px, -215.1px) scale(1.600);"></video></div>
+      <div class="shotwrap" id="w-s12"><video id="s12" src="assets/clips/s14.mp4" data-start="8.500" data-duration="0.400" data-media-start="1.200" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-3843.7px, -1489.2px) scale(4.830);"></video></div>
+      <div class="shotwrap" id="w-s13"><video id="s13" src="assets/clips/s13.mp4" data-start="8.900" data-duration="0.533" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s14"><video id="s14" src="assets/clips/s14.mp4" data-start="9.433" data-duration="0.600" data-media-start="1.600" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s15" style="transform-origin: 47.3% 52.7%;"><video id="s15" src="assets/clips/s14.mp4" data-start="10.033" data-duration="0.367" data-media-start="2.200" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-648.6px, -285.6px) scale(1.630);"></video></div>
+      <div class="shotwrap" id="w-s16"><video id="s16" src="assets/clips/s16.mp4" data-start="10.400" data-duration="0.567" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s17"><video id="s17" src="assets/clips/s16.mp4" data-start="10.967" data-duration="0.533" data-media-start="1.067" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-1220.2px, -61.0px) scale(1.880);"></video></div>
+      <div class="shotwrap" id="w-s18"><video id="s18" src="assets/clips/s18.mp4" data-start="11.500" data-duration="0.267" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s19"><video id="s19" src="assets/clips/s18.mp4" data-start="11.767" data-duration="0.433" data-media-start="0.767" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-837.3px, -387.1px) scale(1.850);"></video></div>
+      <div class="shotwrap" id="w-s20"><video id="s20" src="assets/clips/s18.mp4" data-start="12.200" data-duration="0.433" data-media-start="1.200" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-2004.9px, -1144.3px) scale(3.070);"></video></div>
+      <div class="shotwrap" id="w-s21" style="transform-origin: 46.6% 56.9%;"><video id="s21" src="assets/clips/s21.mp4" data-start="12.633" data-duration="0.800" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s22"><video id="s22" src="assets/clips/s21.mp4" data-start="13.433" data-duration="1.000" data-media-start="1.300" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-561.6px, -108.6px) scale(1.560);"></video></div>
+      <div class="shotwrap" id="w-s23"><video id="s23" src="assets/clips/s23.mp4" data-start="14.433" data-duration="0.600" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s24"><video id="s24" src="assets/clips/s24.mp4" data-start="15.033" data-duration="0.733" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s25"><video id="s25" src="assets/clips/s25.mp4" data-start="15.767" data-duration="0.433" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s26"><video id="s26" src="assets/clips/s26.mp4" data-start="16.200" data-duration="0.767" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s27"><video id="s27" src="assets/clips/s27.mp4" data-start="16.967" data-duration="0.633" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s28"><video id="s28" src="assets/clips/s28.mp4" data-start="17.600" data-duration="1.027" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s29"><video id="s29" src="assets/clips/s29.mp4" data-start="18.507" data-duration="1.127" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s30"><video id="s30" src="assets/clips/s30.mp4" data-start="19.633" data-duration="0.267" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s31"><video id="s31" src="assets/clips/s29.mp4" data-start="19.900" data-duration="0.367" data-media-start="1.567" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-413.1px, -149.5px) scale(1.370);"></video></div>
+      <div class="shotwrap" id="w-s32"><video id="s32" src="assets/clips/s32.mp4" data-start="20.267" data-duration="0.500" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s33"><video id="s33" src="assets/clips/s33.mp4" data-start="20.767" data-duration="0.367" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s34"><video id="s34" src="assets/clips/s33.mp4" data-start="21.133" data-duration="0.467" data-media-start="0.867" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-1262.7px, -715.3px) scale(2.320);"></video></div>
+      <div class="shotwrap" id="w-s35"><video id="s35" src="assets/clips/s35.mp4" data-start="21.600" data-duration="0.600" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s36"><video id="s36" src="assets/clips/s36.mp4" data-start="22.200" data-duration="0.667" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s37" style="transform-origin: 47.3% 47.3%;"><video id="s37" src="assets/clips/s37.mp4" data-start="22.867" data-duration="0.500" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s38"><video id="s38" src="assets/clips/s37.mp4" data-start="23.367" data-duration="0.500" data-media-start="1.000" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-935.0px, -519.5px) scale(1.970);"></video></div>
+      <div class="shotwrap" id="w-s39"><video id="s39" src="assets/clips/s39.mp4" data-start="23.867" data-duration="0.967" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s40"><video id="s40" src="assets/clips/s39.mp4" data-start="24.833" data-duration="0.533" data-media-start="1.467" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-2691.5px, -1226.2px) scale(3.700);"></video></div>
+      <div class="shotwrap" id="w-s41"><video id="s41" src="assets/clips/s41.mp4" data-start="25.367" data-duration="0.500" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s42"><video id="s42" src="assets/clips/s41.mp4" data-start="25.867" data-duration="0.533" data-media-start="1.000" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-1473.5px, -763.0px) scale(2.540);"></video></div>
+      <div class="shotwrap" id="w-s43"><video id="s43" src="assets/clips/s43.mp4" data-start="26.400" data-duration="1.133" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s44"><video id="s44" src="assets/clips/s44.mp4" data-start="27.533" data-duration="1.293" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s45"><video id="s45" src="assets/clips/s45.mp4" data-start="28.707" data-duration="0.353" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s46"><video id="s46" src="assets/clips/s46.mp4" data-start="28.940" data-duration="0.793" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s47"><video id="s47" src="assets/clips/s47.mp4" data-start="29.733" data-duration="0.867" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s48"><video id="s48" src="assets/clips/s47.mp4" data-start="30.600" data-duration="0.933" data-media-start="1.367" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-701.8px, -317.3px) scale(1.630);"></video></div>
+      <div class="shotwrap" id="w-s49"><video id="s49" src="assets/clips/s49.mp4" data-start="31.533" data-duration="1.067" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s50"><video id="s50" src="assets/clips/s50.mp4" data-start="32.600" data-duration="0.300" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s51"><video id="s51" src="assets/clips/s51.mp4" data-start="32.900" data-duration="1.000" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s52"><video id="s52" src="assets/clips/s52.mp4" data-start="33.900" data-duration="0.233" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s53" style="transform-origin: 69.5% 24.6%;"><video id="s53" src="assets/clips/s53.mp4" data-start="34.133" data-duration="0.360" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s54"><video id="s54" src="assets/clips/s54.mp4" data-start="34.373" data-duration="0.860" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s55" style="transform-origin: 50.0% 46.6%;"><video id="s55" src="assets/clips/s55.mp4" data-start="35.233" data-duration="0.433" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s56"><video id="s56" src="assets/clips/s56.mp4" data-start="35.667" data-duration="0.667" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s57"><video id="s57" src="assets/clips/s57.mp4" data-start="36.333" data-duration="0.567" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s58" style="transform-origin: 40.3% 72.6%;"><video id="s58" src="assets/clips/s59.mp4" data-start="36.900" data-duration="0.767" data-media-start="0.500" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-591.1px, -315.9px) scale(1.530);"></video></div>
+      <div class="shotwrap" id="w-s59"><video id="s59" src="assets/clips/s59.mp4" data-start="37.667" data-duration="0.667" data-media-start="1.267" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s60"><video id="s60" src="assets/clips/s60.mp4" data-start="38.333" data-duration="0.467" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s61"><video id="s61" src="assets/clips/s61.mp4" data-start="38.800" data-duration="2.000" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s62"><video id="s62" src="assets/clips/s68.mp4" data-start="40.800" data-duration="0.400" data-media-start="0.500" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-636.4px, -595.3px) scale(1.690);"></video></div>
+      <div class="shotwrap" id="w-s63"><video id="s63" src="assets/clips/s68.mp4" data-start="41.200" data-duration="0.467" data-media-start="0.900" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-2581.7px, -1921.7px) scale(3.780);"></video></div>
+      <div class="shotwrap" id="w-s64"><video id="s64" src="assets/clips/s64.mp4" data-start="41.667" data-duration="0.733" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s65"><video id="s65" src="assets/clips/s65.mp4" data-start="42.400" data-duration="1.200" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s66"><video id="s66" src="assets/clips/s66.mp4" data-start="43.600" data-duration="1.000" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s67"><video id="s67" src="assets/clips/s66.mp4" data-start="44.600" data-duration="0.667" data-media-start="1.500" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-408.6px, -378.0px) scale(1.350);"></video></div>
+      <div class="shotwrap" id="w-s68"><video id="s68" src="assets/clips/s68.mp4" data-start="45.267" data-duration="0.633" data-media-start="1.367" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s69"><video id="s69" src="assets/clips/s69.mp4" data-start="45.900" data-duration="0.533" data-media-start="0.500" data-track-index="0" muted playsinline></video></div>
+      <div class="shotwrap" id="w-s70"><video id="s70" src="assets/clips/s72.mp4" data-start="46.433" data-duration="0.967" data-media-start="0.500" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-156.1px, -58.8px) scale(1.120);"></video></div>
+      <div class="shotwrap" id="w-s71"><video id="s71" src="assets/clips/s69.mp4" data-start="47.400" data-duration="0.900" data-media-start="1.033" data-track-index="0" muted playsinline style="transform-origin: 0 0; transform: translate(-905.8px, -290.5px) scale(1.690);"></video></div>
+      <div class="shotwrap" id="w-s72" style="transform-origin: 82.5% 60.3%;"><video id="s72" src="assets/clips/s72.mp4" data-start="48.300" data-duration="1.433" data-media-start="1.467" data-track-index="0" muted playsinline></video></div>
+      <!-- 2) 그래픽 오버레이 (스티커·스피너·수식·이모지·플래시) — 좌표는 실제 클립을 보고 조정 -->
+      <div id="fi-s01" class="clip fxo flash" data-start="0.000" data-duration="0.100" data-track-index="5"><div class="flash"></div></div>
+      <div id="mt-s28" class="clip fxo math" data-start="17.600" data-duration="0.967" data-track-index="6"><span style="left:1300px;top:260px">∫ x² dx</span><span style="left:1420px;top:470px">Δy/Δx</span><span style="left:260px;top:360px">√(a²+b²)</span><span style="left:1560px;top:700px">π r²</span></div>
+      <div id="fl-s30" class="clip fxo flash" data-start="19.633" data-duration="0.15" data-track-index="6"><div class="flash" id="fli-s30"></div></div>
+      <div id="fl-s31" class="clip fxo flash" data-start="19.900" data-duration="0.15" data-track-index="6"><div class="flash" id="fli-s31"></div></div>
+      <!-- 3) 자막 트랙 (새 예시 대본, 원본 규격 위치·크기·색) -->
+      <div id="c001" class="clip cap CardBig" data-start="0.000" data-duration="0.100" data-track-index="7"><span id="c001t">각성</span></div>
+      <div id="c002" class="clip cap LineLeader" data-start="0.100" data-duration="0.533" data-track-index="7"><span id="c002t">{이름}씨!</span></div>
+      <div id="c003" class="clip cap LineHero" data-start="0.633" data-duration="0.534" data-track-index="7"><span id="c003t">헉, 저요?</span></div>
+      <div id="c004" class="clip cap LineLeader" data-start="1.167" data-duration="0.700" data-track-index="7"><span id="c004t">저번 워크숍 때 말한 거</span></div>
+      <div id="c005" class="clip cap LineLeader" data-start="1.867" data-duration="0.700" data-track-index="7"><span id="c005t">기억나지?</span></div>
+      <div id="c006" class="clip cap LabelHero" data-start="2.567" data-duration="0.733" data-track-index="7"><span id="c006t">기억 창고 검색 중</span></div>
+      <div id="c007" class="clip cap LineHero" data-start="2.567" data-duration="0.733" data-track-index="7"><span id="c007t">워, 워크숍…</span></div>
+      <div id="c008" class="clip cap LineHero" data-start="3.300" data-duration="1.100" data-track-index="7"><span id="c008t">어느 거요…?</span></div>
+      <div id="c009" class="clip cap LineLeader" data-start="4.400" data-duration="1.100" data-track-index="7"><span id="c009t">설문지 백이십 장</span></div>
+      <div id="c010" class="clip cap LineLeader" data-start="5.500" data-duration="0.483" data-track-index="7"><span id="c010t">그거 (흐릿)</span></div>
+      <div id="c011" class="clip cap LineLeader" data-start="5.983" data-duration="0.484" data-track-index="7"><span id="c011t">엑셀로</span></div>
+      <div id="c012" class="clip cap LineLeader" data-start="6.467" data-duration="0.866" data-track-index="7"><span id="c012t">싹 정리해서</span></div>
+      <div id="c013" class="clip cap LineLeader" data-start="7.333" data-duration="1.167" data-track-index="7"><span id="c013t">달라고 했잖아?</span></div>
+      <div id="c014" class="clip cap LineLeader" data-start="8.500" data-duration="0.400" data-track-index="7"><span id="c014t">그거 다</span></div>
+      <div id="c015" class="clip cap LineLeader" data-start="8.900" data-duration="0.533" data-track-index="7"><span id="c015t">그거 다 해 놨지?</span></div>
+      <div id="c016" class="clip cap LineHero" data-start="9.433" data-duration="0.600" data-track-index="7"><span id="c016t">아 그거…</span></div>
+      <div id="c017" class="clip cap LineHero" data-start="10.033" data-duration="0.367" data-track-index="7"><span id="c017t">다, 당연하죠!</span></div>
+      <div id="c018" class="clip cap LabelHero" data-start="10.400" data-duration="1.367" data-track-index="7"><span id="c018t">오늘 4시 회의에서</span></div>
+      <div id="c019" class="clip cap LineLeader" data-start="10.400" data-duration="0.833" data-track-index="7"><span id="c019t">같이 보자고</span></div>
+      <div id="c020" class="clip cap LineLeader" data-start="11.233" data-duration="0.267" data-track-index="7"><span id="c020t">오케이?</span></div>
+      <div id="c021" class="clip cap LineHero" data-start="11.500" data-duration="0.267" data-track-index="7"><span id="c021t">옙!</span></div>
+      <div id="c022" class="clip cap LabelHero" data-start="11.767" data-duration="0.866" data-track-index="7"><span id="c022t">목소리만 우렁참</span></div>
+      <div id="c023" class="clip cap LineHero" data-start="11.767" data-duration="0.866" data-track-index="7"><span id="c023t">준비해 가겠습니다!</span></div>
+      <div id="c024" class="clip cap Paren" data-start="12.633" data-duration="0.800" data-track-index="7"><span id="c024t">(흐읍~ 크게 들이쉬고)</span></div>
+      <div id="c025" class="clip cap Paren" data-start="13.433" data-duration="1.000" data-track-index="7"><span id="c025t">(후우~ 길게 내쉬고)</span></div>
+      <div id="c026" class="clip cap LineHero" data-start="14.433" data-duration="0.600" data-track-index="7"><span id="c026t">흐음…</span></div>
+      <div id="c027" class="clip cap LabelHero" data-start="15.033" data-duration="1.167" data-track-index="7"><span id="c027t">1도 기억 안 나는 {PUN}</span></div>
+      <div id="c028" class="clip cap LineHero" data-start="15.033" data-duration="0.734" data-track-index="7"><span id="c028t">ㅁㅏㅇ했ㄷㅏ</span></div>
+      <div id="c029" class="clip cap Paren" data-start="15.767" data-duration="0.433" data-track-index="7"><span id="c029t">(한 글자도 안 썼음)</span></div>
+      <div id="c030" class="clip cap LabelHero" data-start="16.200" data-duration="0.767" data-track-index="7"><span id="c030t">됐다고 해 버림 됐다고 해 버림</span></div>
+      <div id="c031" class="clip cap Bracket" data-start="16.200" data-duration="0.767" data-track-index="7"><span id="c031t">실패하면 끝나는 작전</span></div>
+      <div id="c032" class="clip cap Paren" data-start="16.967" data-duration="0.633" data-track-index="7"><span id="c032t">(비상 두뇌 부팅)</span></div>
+      <div id="c033" class="clip cap Paren" data-start="17.600" data-duration="0.967" data-track-index="7"><span id="c033t">(마감이 코앞까지 온 상태)</span></div>
+      <div id="c034" class="clip cap Paren" data-start="18.567" data-duration="1.066" data-track-index="7"><span id="c034t">(야생의 본능이 깨어나는 중입니다)</span></div>
+      <div id="c035" class="clip cap Paren" data-start="19.633" data-duration="0.634" data-track-index="7"><span id="c035t">(차원을 뚫는 각성의 순간)</span></div>
+      <div id="c036" class="clip cap LineCW1" data-start="20.267" data-duration="0.500" data-track-index="7"><span id="c036t">{이름}씨이~☆</span></div>
+      <div id="c037" class="clip cap LineCW1" data-start="20.767" data-duration="0.833" data-track-index="7"><span id="c037t">나 이거 샀다~!</span></div>
+      <div id="c038" class="clip cap LineCW1" data-start="21.600" data-duration="0.600" data-track-index="7"><span id="c038t">°.✧ 이거 완전</span></div>
+      <div id="c039" class="clip cap LineCW1" data-start="22.200" data-duration="0.667" data-track-index="7"><span id="c039t">°.✧ 이거 완전 말랑하지이이 °.✧</span></div>
+      <div id="c040" class="clip cap LineHero" data-start="22.867" data-duration="0.500" data-track-index="7"><span id="c040t">아하하…</span></div>
+      <div id="c041" class="clip cap Paren" data-start="23.367" data-duration="0.500" data-track-index="7"><span id="c041t">(속 타는 영업용 미소)</span></div>
+      <div id="c042" class="clip cap LineHero" data-start="23.867" data-duration="0.966" data-track-index="7"><span id="c042t">말. 랑. 하. 네. 요</span></div>
+      <div id="c043" class="clip cap LabelHero" data-start="24.833" data-duration="0.534" data-track-index="7"><span id="c043t">1초가 아까우니 자랑은 짧게</span></div>
+      <div id="c044" class="clip cap Paren" data-start="24.833" data-duration="0.534" data-track-index="7"><span id="c044t">(제발 지금 가 주세요)</span></div>
+      <div id="c045" class="clip cap Paren" data-start="25.367" data-duration="1.033" data-track-index="7"><span id="c045t">(다시 목숨 걸고 초집중)</span></div>
+      <div id="c046" class="clip cap Paren" data-start="26.400" data-duration="1.133" data-track-index="7"><span id="c046t">(나도 모르게 슈퍼{PUN} 강림☆)</span></div>
+      <div id="c047" class="clip cap Paren" data-start="27.533" data-duration="1.234" data-track-index="7"><span id="c047t">(평소엔 봉인해 둔 업무 속도)</span></div>
+      <div id="c048" class="clip cap Paren" data-start="28.767" data-duration="0.966" data-track-index="7"><span id="c048t">(시간을 추월하는 {PUN})</span></div>
+      <div id="c049" class="clip cap Paren" data-start="29.733" data-duration="0.867" data-track-index="7"><span id="c049t">(1초를 10초처럼 쪼개 쓰는 중)</span></div>
+      <div id="c050" class="clip cap Paren" data-start="30.600" data-duration="0.933" data-track-index="7"><span id="c050t">(펑크 난 일정 메우는 {PUN})</span></div>
+      <div id="c051" class="clip cap LineHero" data-start="31.533" data-duration="1.067" data-track-index="7"><span id="c051t">으☆쌰☆쌰</span></div>
+      <div id="c052" class="clip cap Emph" data-start="32.600" data-duration="0.300" data-track-index="7"><span id="c052t">철컥</span></div>
+      <div id="c053" class="clip cap Paren" data-start="32.900" data-duration="1.000" data-track-index="7"><span id="c053t">(실제 속도와 다를 수 있음)</span></div>
+      <div id="c054" class="clip cap Emph" data-start="33.900" data-duration="0.533" data-track-index="7"><span id="c054t">탁</span></div>
+      <div id="c055" class="clip cap LabelHero" data-start="35.667" data-duration="1.233" data-track-index="7"><span id="c055t">3시 59분 겨우 세이프</span></div>
+      <div id="c056" class="clip cap LineHero" data-start="35.667" data-duration="0.666" data-track-index="7"><span id="c056t">ㅅㅓㄹ문</span></div>
+      <div id="c057" class="clip cap LineHero" data-start="36.333" data-duration="0.567" data-track-index="7"><span id="c057t">허억..헉</span></div>
+      <div id="c058" class="clip cap LineHero" data-start="36.900" data-duration="0.767" data-track-index="7"><span id="c058t">설문 결.과.입;니.다</span></div>
+      <div id="c059" class="clip cap LineHero" data-start="37.667" data-duration="0.666" data-track-index="7"><span id="c059t">휴우…</span></div>
+      <div id="c060" class="clip cap LineCW1" data-start="38.333" data-duration="0.467" data-track-index="7"><span id="c060t">어라?</span></div>
+      <div id="c061" class="clip cap LineCW1" data-start="38.800" data-duration="0.667" data-track-index="7"><span id="c061t">그 설문 결과</span></div>
+      <div id="c062" class="clip cap LabelHero" data-start="39.467" data-duration="1.333" data-track-index="7"><span id="c062t">마른하늘에 날벼락</span></div>
+      <div id="c063" class="clip cap LineCW1" data-start="39.467" data-duration="0.666" data-track-index="7"><span id="c063t">어제</span></div>
+      <div id="c064" class="clip cap LineCW1" data-start="40.133" data-duration="0.667" data-track-index="7"><span id="c064t">어제 제가 드렸는데요?</span></div>
+      <div id="c065" class="clip cap LabelHero" data-start="40.800" data-duration="0.867" data-track-index="7"><span id="c065t">이미 끝난 숙제였음</span></div>
+      <div id="c066" class="clip cap LineHero" data-start="40.800" data-duration="0.867" data-track-index="7"><span id="c066t">허, 헐…</span></div>
+      <div id="c067" class="clip cap LabelHero" data-start="41.667" data-duration="0.733" data-track-index="7"><span id="c067t">기억이 돌아온 팀장</span></div>
+      <div id="c068" class="clip cap LineLeader" data-start="41.667" data-duration="0.733" data-track-index="7"><span id="c068t">아! 맞다</span></div>
+      <div id="c069" class="clip cap LineLeader" data-start="42.400" data-duration="1.200" data-track-index="7"><span id="c069t">아! 맞다 소연씨가 어제 줬지?</span></div>
+      <div id="c070" class="clip cap LineLeader" data-start="43.600" data-duration="1.000" data-track-index="7"><span id="c070t">…어?</span></div>
+      <div id="c071" class="clip cap LineLeader" data-start="44.600" data-duration="0.667" data-track-index="7"><span id="c071t">잠깐, 이 보고서는 뭐지?</span></div>
+      <div id="c072" class="clip cap LabelHero" data-start="45.267" data-duration="1.166" data-track-index="7"><span id="c072t">한 번만 물어볼걸</span></div>
+      <div id="c073" class="clip cap LineHero" data-start="45.267" data-duration="1.166" data-track-index="7"><span id="c073t">으으…</span></div>
+      <div id="c074" class="clip cap LabelHero" data-start="46.433" data-duration="0.967" data-track-index="7"><span id="c074t">초집중으로 반나절 증발</span></div>
+      <div id="c075" class="clip cap Paren" data-start="46.433" data-duration="0.967" data-track-index="7"><span id="c075t">(민망함 한도 초과)</span></div>
+      <div id="c076" class="clip cap Paren" data-start="47.400" data-duration="0.450" data-track-index="7"><span id="c076t">(눈치 보는 중)</span></div>
+      <div id="c077" class="clip cap LineHero" data-start="47.850" data-duration="0.450" data-track-index="7"><span id="c077t">…</span></div>
+      <div id="c078" class="clip cap LabelHero" data-start="48.300" data-duration="1.433" data-track-index="7"><span id="c078t">뜻밖의 1+1 보고서</span></div>
+      <div id="c079" class="clip cap LineHero" data-start="48.300" data-duration="1.433" data-track-index="7"><span id="c079t">°✩.보너스예요.✩°</span></div>
+      <!-- 4) 오디오: BGM(덕킹은 data-automation 볼륨 레인으로 조정) · 컷별 대사 · 효과음 -->
+      <audio id="bgm" src="assets/audio/bgm.mp3" data-start="0" data-duration="49.733" data-track-index="10" data-volume="0.35"></audio>
+      <audio id="vo-s01" src="assets/voice/s01.wav" data-start="0.000" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s02" src="assets/voice/s02.wav" data-start="0.100" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s03" src="assets/voice/s03.wav" data-start="0.633" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s04" src="assets/voice/s04.wav" data-start="1.167" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s05" src="assets/voice/s05.wav" data-start="2.567" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s06" src="assets/voice/s06.wav" data-start="3.300" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s07" src="assets/voice/s07.wav" data-start="4.400" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s08" src="assets/voice/s08.wav" data-start="5.500" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s09" src="assets/voice/s09.wav" data-start="6.467" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s10" src="assets/voice/s10.wav" data-start="7.333" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s11" src="assets/voice/s11.wav" data-start="8.033" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s12" src="assets/voice/s12.wav" data-start="8.500" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s13" src="assets/voice/s13.wav" data-start="8.900" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s14" src="assets/voice/s14.wav" data-start="9.433" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s15" src="assets/voice/s15.wav" data-start="10.033" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s16" src="assets/voice/s16.wav" data-start="10.400" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s17" src="assets/voice/s17.wav" data-start="10.967" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s18" src="assets/voice/s18.wav" data-start="11.500" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s19" src="assets/voice/s19.wav" data-start="11.767" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s20" src="assets/voice/s20.wav" data-start="12.200" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s21" src="assets/voice/s21.wav" data-start="12.633" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s22" src="assets/voice/s22.wav" data-start="13.433" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s23" src="assets/voice/s23.wav" data-start="14.433" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s24" src="assets/voice/s24.wav" data-start="15.033" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s25" src="assets/voice/s25.wav" data-start="15.767" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s26" src="assets/voice/s26.wav" data-start="16.200" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s27" src="assets/voice/s27.wav" data-start="16.967" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s28" src="assets/voice/s28.wav" data-start="17.600" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s29" src="assets/voice/s29.wav" data-start="18.567" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s30" src="assets/voice/s30.wav" data-start="19.633" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s31" src="assets/voice/s31.wav" data-start="19.900" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s32" src="assets/voice/s32.wav" data-start="20.267" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s33" src="assets/voice/s33.wav" data-start="20.767" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s34" src="assets/voice/s34.wav" data-start="21.133" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s35" src="assets/voice/s35.wav" data-start="21.600" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s36" src="assets/voice/s36.wav" data-start="22.200" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s37" src="assets/voice/s37.wav" data-start="22.867" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s38" src="assets/voice/s38.wav" data-start="23.367" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s39" src="assets/voice/s39.wav" data-start="23.867" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s40" src="assets/voice/s40.wav" data-start="24.833" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s41" src="assets/voice/s41.wav" data-start="25.367" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s42" src="assets/voice/s42.wav" data-start="25.867" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s43" src="assets/voice/s43.wav" data-start="26.400" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s44" src="assets/voice/s44.wav" data-start="27.533" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s45" src="assets/voice/s45.wav" data-start="28.767" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s46" src="assets/voice/s46.wav" data-start="29.000" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s47" src="assets/voice/s47.wav" data-start="29.733" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s48" src="assets/voice/s48.wav" data-start="30.600" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s49" src="assets/voice/s49.wav" data-start="31.533" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s50" src="assets/voice/s50.wav" data-start="32.600" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s51" src="assets/voice/s51.wav" data-start="32.900" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s52" src="assets/voice/s52.wav" data-start="33.900" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s53" src="assets/voice/s53.wav" data-start="34.133" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s54" src="assets/voice/s54.wav" data-start="34.433" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s55" src="assets/voice/s55.wav" data-start="35.233" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s56" src="assets/voice/s56.wav" data-start="35.667" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s57" src="assets/voice/s57.wav" data-start="36.333" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s58" src="assets/voice/s58.wav" data-start="36.900" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s59" src="assets/voice/s59.wav" data-start="37.667" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s60" src="assets/voice/s60.wav" data-start="38.333" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s61" src="assets/voice/s61.wav" data-start="38.800" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s62" src="assets/voice/s62.wav" data-start="40.800" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s63" src="assets/voice/s63.wav" data-start="41.200" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s64" src="assets/voice/s64.wav" data-start="41.667" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s65" src="assets/voice/s65.wav" data-start="42.400" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s66" src="assets/voice/s66.wav" data-start="43.600" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s67" src="assets/voice/s67.wav" data-start="44.600" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s68" src="assets/voice/s68.wav" data-start="45.267" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s69" src="assets/voice/s69.wav" data-start="45.900" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s70" src="assets/voice/s70.wav" data-start="46.433" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s71" src="assets/voice/s71.wav" data-start="47.400" data-track-index="11" data-volume="1"></audio>
+      <audio id="vo-s72" src="assets/voice/s72.wav" data-start="48.300" data-track-index="11" data-volume="1"></audio>
+      <audio id="sfx-01" src="assets/sfx/boom_low.wav" data-start="0.000" data-track-index="20" data-volume="0.8"></audio>
+      <audio id="sfx-02" src="assets/sfx/breath_vo.wav" data-start="12.630" data-track-index="21" data-volume="0.8"></audio>
+      <audio id="sfx-03" src="assets/sfx/breath_vo.wav" data-start="13.430" data-track-index="22" data-volume="0.8"></audio>
+      <audio id="sfx-04" src="assets/sfx/typing.wav" data-start="15.030" data-track-index="23" data-volume="0.8"></audio>
+      <audio id="sfx-05" src="assets/sfx/boom_low.wav" data-start="16.200" data-track-index="24" data-volume="0.8"></audio>
+      <audio id="sfx-06" src="assets/sfx/keyboard.wav" data-start="16.250" data-track-index="25" data-volume="0.8"></audio>
+      <audio id="sfx-07" src="assets/sfx/whoosh.wav" data-start="18.570" data-track-index="26" data-volume="0.8"></audio>
+      <audio id="sfx-08" src="assets/sfx/impact.wav" data-start="19.630" data-track-index="27" data-volume="0.8"></audio>
+      <audio id="sfx-09" src="assets/sfx/glitch.wav" data-start="20.270" data-track-index="28" data-volume="0.8"></audio>
+      <audio id="sfx-10" src="assets/sfx/sparkle.wav" data-start="21.600" data-track-index="29" data-volume="0.8"></audio>
+      <audio id="sfx-11" src="assets/sfx/laugh_vo.wav" data-start="22.870" data-track-index="30" data-volume="0.8"></audio>
+      <audio id="sfx-12" src="assets/sfx/boom_low.wav" data-start="25.430" data-track-index="31" data-volume="0.8"></audio>
+      <audio id="sfx-13" src="assets/sfx/keyboard.wav" data-start="26.400" data-track-index="32" data-volume="0.8"></audio>
+      <audio id="sfx-14" src="assets/sfx/whoosh.wav" data-start="28.770" data-track-index="33" data-volume="0.8"></audio>
+      <audio id="sfx-15" src="assets/sfx/whoosh.wav" data-start="29.000" data-track-index="34" data-volume="0.8"></audio>
+      <audio id="sfx-16" src="assets/sfx/paper_flap.wav" data-start="31.530" data-track-index="35" data-volume="0.8"></audio>
+      <audio id="sfx-17" src="assets/sfx/click.wav" data-start="32.600" data-track-index="36" data-volume="0.8"></audio>
+      <audio id="sfx-18" src="assets/sfx/whoosh.wav" data-start="32.900" data-track-index="37" data-volume="0.8"></audio>
+      <audio id="sfx-19" src="assets/sfx/click.wav" data-start="33.900" data-track-index="38" data-volume="0.8"></audio>
+      <audio id="sfx-20" src="assets/sfx/whoosh.wav" data-start="34.430" data-track-index="39" data-volume="0.8"></audio>
+      <audio id="sfx-21" src="assets/sfx/breath_vo.wav" data-start="35.670" data-track-index="40" data-volume="0.8"></audio>
+      <audio id="sfx-22" src="assets/sfx/boing.wav" data-start="40.800" data-track-index="41" data-volume="0.8"></audio>
+      <audio id="sfx-23" src="assets/sfx/fanfare.wav" data-start="48.300" data-track-index="42" data-volume="0.8"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      
+      tl.fromTo("#w-s07", { scale: 1.0000 }, { scale: 1.0390, duration: 1.100, ease: "none" }, 4.400);      tl.fromTo("#w-s09", { scale: 1.0000 }, { scale: 1.0460, duration: 0.867, ease: "none" }, 6.467);      tl.fromTo("#w-s15", { scale: 1.0000 }, { scale: 1.0380, duration: 0.367, ease: "none" }, 10.033);      tl.fromTo("#w-s21", { scale: 1.0000 }, { scale: 1.0300, duration: 0.800, ease: "none" }, 12.633);      tl.fromTo("#w-s25", { scale: 1 }, { scale: 1.08, duration: 0.433, ease: "none" }, 15.767);      tl.fromTo("#mt-s28 span", { y: 20, opacity: 0 }, { y: -20, opacity: 1, duration: 0.967, stagger: 0.05, ease: "none" }, 17.600);      tl.fromTo("#w-s29", { opacity: 0, scale: 1.35, filter: "blur(12px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.120, ease: "power2.out" }, 18.507);      tl.fromTo("#fli-s30", { opacity: 0.9 }, { opacity: 0, duration: 0.15 }, 19.633);      tl.fromTo("#fli-s31", { opacity: 0.9 }, { opacity: 0, duration: 0.15 }, 19.900);      tl.fromTo("#w-s37", { scale: 1.0000 }, { scale: 1.0390, duration: 0.500, ease: "none" }, 22.867);      tl.fromTo("#w-s45", { opacity: 0, scale: 1.35, filter: "blur(12px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.120, ease: "power2.out" }, 28.707);      tl.fromTo("#w-s46", { opacity: 0, scale: 1.35, filter: "blur(12px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.120, ease: "power2.out" }, 28.940);      tl.fromTo("#w-s51", { xPercent: 0, filter: "blur(0px)" }, { xPercent: -35, filter: "blur(28px)", duration: 1.000, ease: "power2.in" }, 32.900);      tl.fromTo("#w-s53", { scale: 1.0000 }, { scale: 1.0540, duration: 0.300, ease: "none" }, 34.133);      tl.fromTo("#w-s54", { opacity: 0, scale: 1.35, filter: "blur(12px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.120, ease: "power2.out" }, 34.373);      tl.fromTo("#w-s55", { scale: 1.0000 }, { scale: 1.0620, duration: 0.433, ease: "none" }, 35.233);      tl.fromTo("#w-s58", { scale: 1.0320 }, { scale: 1.0000, duration: 0.767, ease: "none" }, 36.900);      tl.fromTo("#w-s65", { scale: 1 }, { scale: 1.08, duration: 1.200, ease: "none" }, 42.400);      tl.fromTo("#w-s72", { scale: 1.0000 }, { scale: 1.8660, duration: 1.433, ease: "none" }, 48.300);      tl.fromTo("#c002t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.400, ease: "steps(3)" }, 0.100);      tl.fromTo("#c003t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.401, ease: "steps(6)" }, 0.633);      tl.fromTo("#c004t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.525, ease: "steps(13)" }, 1.167);      tl.fromTo("#c005t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.525, ease: "steps(5)" }, 1.867);      tl.fromTo("#c007t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.550, ease: "steps(7)" }, 2.567);      tl.fromTo("#c008t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.825, ease: "steps(7)" }, 3.300);      tl.fromTo("#c009t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.825, ease: "steps(9)" }, 4.400);      tl.fromTo("#c010t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.362, ease: "steps(7)" }, 5.500);      tl.fromTo("#c011t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.363, ease: "steps(3)" }, 5.983);      tl.fromTo("#c012t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.650, ease: "steps(6)" }, 6.467);      tl.fromTo("#c013t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.875, ease: "steps(8)" }, 7.333);      tl.fromTo("#c014t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.300, ease: "steps(4)" }, 8.500);      tl.fromTo("#c015t", { clipPath: "inset(0 50% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.400, ease: "steps(5)" }, 8.900);      tl.fromTo("#c016t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.450, ease: "steps(5)" }, 9.433);      tl.fromTo("#c017t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.275, ease: "steps(8)" }, 10.033);      tl.fromTo("#c019t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.625, ease: "steps(6)" }, 10.400);      tl.fromTo("#c020t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.200, ease: "steps(4)" }, 11.233);      tl.fromTo("#c021t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.200, ease: "steps(2)" }, 11.500);      tl.fromTo("#c023t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.649, ease: "steps(10)" }, 11.767);      tl.fromTo("#c026t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.429, ease: "steps(3)" }, 14.433);      tl.fromTo("#c028t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.550, ease: "steps(6)" }, 15.033);      tl.fromTo("#c036t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.375, ease: "steps(5)" }, 20.267);      tl.fromTo("#c037t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.625, ease: "steps(9)" }, 20.767);      tl.fromTo("#c038t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.450, ease: "steps(9)" }, 21.600);      tl.fromTo("#c039t", { clipPath: "inset(0 50% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.500, ease: "steps(10)" }, 22.200);      tl.fromTo("#c040t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.375, ease: "steps(4)" }, 22.867);      tl.fromTo("#c042t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.724, ease: "steps(13)" }, 23.867);      tl.fromTo("#c051t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.714, ease: "steps(5)" }, 31.533);      tl.fromTo("#c052t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.225, ease: "steps(2)" }, 32.600);      tl.fromTo("#c056t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.499, ease: "steps(4)" }, 35.667);      tl.fromTo("#c057t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.425, ease: "steps(5)" }, 36.333);      tl.fromTo("#c058t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.575, ease: "steps(12)" }, 36.900);      tl.fromTo("#c059t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.429, ease: "steps(3)" }, 37.667);      tl.fromTo("#c060t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.350, ease: "steps(3)" }, 38.333);      tl.fromTo("#c061t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.500, ease: "steps(7)" }, 38.800);      tl.fromTo("#c063t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.286, ease: "steps(2)" }, 39.467);      tl.fromTo("#c064t", { clipPath: "inset(0 75% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.500, ease: "steps(9)" }, 40.133);      tl.fromTo("#c066t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.650, ease: "steps(5)" }, 40.800);      tl.fromTo("#c068t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.550, ease: "steps(5)" }, 41.667);      tl.fromTo("#c069t", { clipPath: "inset(0 65% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.900, ease: "steps(11)" }, 42.400);      tl.fromTo("#c070t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.429, ease: "steps(3)" }, 43.600);      tl.fromTo("#c071t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.500, ease: "steps(14)" }, 44.600);      tl.fromTo("#c073t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 0.429, ease: "steps(3)" }, 45.267);      tl.fromTo("#c079t", { clipPath: "inset(0 100% 0 0)" }, { clipPath: "inset(0 0% 0 0)", duration: 1.075, ease: "steps(11)" }, 48.300);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

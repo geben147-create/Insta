@@ -62,12 +62,15 @@
    ],
    "tr": "cut",
    "tr_dur": 0.0,
-   "fx": [
-    "push_in_slow"
-   ],
+   "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s03.mp4"
+   "clip": "clips/s03.mp4",
+   "push": {
+    "scale": 1.036,
+    "cx": 0.501,
+    "cy": 0.502
+   }
   },
   {
    "n": 4,
@@ -108,7 +111,8 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s05.mp4"
+   "clip": "clips/s05.mp4",
+   "setup": 24
   },
   {
    "n": 6,
@@ -148,7 +152,8 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s07.mp4"
+   "clip": "clips/s07.mp4",
+   "setup": 7
   },
   {
    "n": 8,
@@ -167,8 +172,13 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s08.mp4"
+   "src_in": 1.033,
+   "clip": "clips/s07.mp4",
+   "setup": 7,
+   "source": 7,
+   "zoom": 1.97,
+   "cx": 0.489,
+   "cy": 0.287
   },
   {
    "n": 9,
@@ -189,7 +199,8 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s09.mp4"
+   "clip": "clips/s09.mp4",
+   "setup": 9
   },
   {
    "n": 10,
@@ -210,8 +221,13 @@
     "crash_zoom"
    ],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s10.mp4"
+   "src_in": 1.033,
+   "clip": "clips/s09.mp4",
+   "setup": 9,
+   "source": 9,
+   "zoom": 1.97,
+   "cx": 0.51,
+   "cy": 0.461
   },
   {
    "n": 11,
@@ -232,7 +248,17 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s11.mp4"
+   "clip": "clips/s12.mp4",
+   "setup": 24,
+   "source": 12,
+   "zoom": 1.59,
+   "cx": 0.447,
+   "cy": 0.374,
+   "push": {
+    "scale": 1.035,
+    "cx": 0.503,
+    "cy": 0.505
+   }
   },
   {
    "n": 12,
@@ -251,8 +277,9 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s12.mp4"
+   "src_in": 1.5,
+   "clip": "clips/s12.mp4",
+   "setup": 24
   },
   {
    "n": 13,
@@ -271,8 +298,13 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s13.mp4"
+   "src_in": 2.0,
+   "clip": "clips/s12.mp4",
+   "setup": 24,
+   "source": 12,
+   "zoom": 1.45,
+   "cx": 0.5,
+   "cy": 0.53
   },
   {
    "n": 14,
@@ -292,7 +324,12 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s14.mp4"
+   "clip": "clips/s14.mp4",
+   "push": {
+    "scale": 1.034,
+    "cx": 0.498,
+    "cy": 0.498
+   }
   },
   {
    "n": 15,
@@ -332,7 +369,12 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s16.mp4"
+   "clip": "clips/s17.mp4",
+   "setup": 17,
+   "source": 17,
+   "zoom": 1.35,
+   "cx": 0.497,
+   "cy": 0.544
   },
   {
    "n": 17,
@@ -351,8 +393,9 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s17.mp4"
+   "src_in": 1.267,
+   "clip": "clips/s17.mp4",
+   "setup": 17
   },
   {
    "n": 18,
@@ -372,7 +415,17 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s18.mp4"
+   "clip": "clips/s24.mp4",
+   "setup": 24,
+   "source": 24,
+   "zoom": 1.18,
+   "cx": 0.45,
+   "cy": 0.487,
+   "push": {
+    "scale": 0.788,
+    "cx": 0.486,
+    "cy": 0.46
+   }
   },
   {
    "n": 19,
@@ -391,8 +444,13 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s19.mp4"
+   "src_in": 1.067,
+   "clip": "clips/s24.mp4",
+   "setup": 24,
+   "source": 24,
+   "zoom": 3.02,
+   "cx": 0.411,
+   "cy": 0.345
   },
   {
    "n": 20,
@@ -431,8 +489,13 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s21.mp4"
+   "src_in": 1.5,
+   "clip": "clips/s24.mp4",
+   "setup": 24,
+   "source": 24,
+   "zoom": 1.19,
+   "cx": 0.5,
+   "cy": 0.469
   },
   {
    "n": 22,
@@ -453,8 +516,13 @@
     "push_in_slow"
    ],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s22.mp4"
+   "src_in": 2.133,
+   "clip": "clips/s24.mp4",
+   "setup": 24,
+   "source": 24,
+   "zoom": 1.94,
+   "cx": 0.522,
+   "cy": 0.405
   },
   {
    "n": 23,
@@ -493,8 +561,9 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s24.mp4"
+   "src_in": 2.6,
+   "clip": "clips/s24.mp4",
+   "setup": 24
   },
   {
    "n": 25,
@@ -513,8 +582,18 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s25.mp4"
+   "src_in": 3.333,
+   "clip": "clips/s24.mp4",
+   "setup": 24,
+   "source": 24,
+   "zoom": 1.76,
+   "cx": 0.5,
+   "cy": 0.449,
+   "push": {
+    "scale": 1.046,
+    "cx": 0.505,
+    "cy": 0.514
+   }
   },
   {
    "n": 26,
@@ -535,7 +614,17 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s26.mp4"
+   "clip": "clips/s27.mp4",
+   "setup": 27,
+   "source": 27,
+   "zoom": 1.57,
+   "cx": 0.438,
+   "cy": 0.384,
+   "push": {
+    "scale": 1.056,
+    "cx": 0.507,
+    "cy": 0.503
+   }
   },
   {
    "n": 27,
@@ -554,8 +643,14 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s27.mp4"
+   "src_in": 1.8,
+   "clip": "clips/s27.mp4",
+   "setup": 27,
+   "push": {
+    "scale": 1.107,
+    "cx": 0.508,
+    "cy": 0.504
+   }
   },
   {
    "n": 28,
@@ -576,7 +671,12 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s28.mp4"
+   "clip": "clips/s29.mp4",
+   "setup": 29,
+   "source": 29,
+   "zoom": 1.48,
+   "cx": 0.561,
+   "cy": 0.464
   },
   {
    "n": 29,
@@ -595,8 +695,9 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s29.mp4"
+   "src_in": 1.167,
+   "clip": "clips/s29.mp4",
+   "setup": 29
   },
   {
    "n": 30,
@@ -616,7 +717,12 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s30.mp4"
+   "clip": "clips/s31.mp4",
+   "setup": 31,
+   "source": 31,
+   "zoom": 2.24,
+   "cx": 0.475,
+   "cy": 0.523
   },
   {
    "n": 31,
@@ -636,8 +742,9 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s31.mp4"
+   "src_in": 0.933,
+   "clip": "clips/s31.mp4",
+   "setup": 31
   },
   {
    "n": 32,
@@ -677,7 +784,8 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s33.mp4"
+   "clip": "clips/s33.mp4",
+   "setup": 33
   },
   {
    "n": 34,
@@ -696,8 +804,13 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s34.mp4"
+   "src_in": 0.867,
+   "clip": "clips/s33.mp4",
+   "setup": 33,
+   "source": 33,
+   "zoom": 1.65,
+   "cx": 0.459,
+   "cy": 0.411
   },
   {
    "n": 35,
@@ -716,8 +829,18 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s35.mp4"
+   "src_in": 1.767,
+   "clip": "clips/s33.mp4",
+   "setup": 33,
+   "source": 33,
+   "zoom": 1.06,
+   "cx": 0.499,
+   "cy": 0.502,
+   "push": {
+    "scale": 1.064,
+    "cx": 0.5,
+    "cy": 0.5
+   }
   },
   {
    "n": 36,
@@ -739,8 +862,13 @@
     "sparkle"
    ],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s36.mp4"
+   "src_in": 2.734,
+   "clip": "clips/s33.mp4",
+   "setup": 33,
+   "source": 33,
+   "zoom": 2.29,
+   "cx": 0.483,
+   "cy": 0.42
   },
   {
    "n": 37,
@@ -759,8 +887,13 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s37.mp4"
+   "src_in": 3.367,
+   "clip": "clips/s33.mp4",
+   "setup": 33,
+   "source": 33,
+   "zoom": 1.02,
+   "cx": 0.5,
+   "cy": 0.501
   },
   {
    "n": 38,
@@ -780,7 +913,12 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s38.mp4"
+   "clip": "clips/s39.mp4",
+   "setup": 39,
+   "source": 39,
+   "zoom": 1.97,
+   "cx": 0.534,
+   "cy": 0.268
   },
   {
    "n": 39,
@@ -799,8 +937,9 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s39.mp4"
+   "src_in": 0.933,
+   "clip": "clips/s39.mp4",
+   "setup": 39
   },
   {
    "n": 40,
@@ -883,7 +1022,12 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s43.mp4"
+   "clip": "clips/s43.mp4",
+   "push": {
+    "scale": 1.085,
+    "cx": 0.5,
+    "cy": 0.505
+   }
   },
   {
    "n": 44,
@@ -987,7 +1131,12 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s48.mp4"
+   "clip": "clips/s49.mp4",
+   "setup": 49,
+   "source": 49,
+   "zoom": 1.89,
+   "cx": 0.508,
+   "cy": 0.443
   },
   {
    "n": 49,
@@ -1006,8 +1155,9 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "full",
-   "src_in": 0.5,
-   "clip": "clips/s49.mp4"
+   "src_in": 1.167,
+   "clip": "clips/s49.mp4",
+   "setup": 49
   },
   {
    "n": 50,
@@ -1048,7 +1198,24 @@
    "fx": [],
    "frame": "full",
    "src_in": 0.5,
-   "clip": "clips/s51.mp4"
+   "clip": "clips/s51.mp4",
+   "push": {
+    "scale": 1.034,
+    "cx": 0.5,
+    "cy": 0.513
+   }
   }
- ]
+ ],
+ "reuse": {
+  "shots": 51,
+  "setups": 10,
+  "chains": 11,
+  "reused_shots": 19,
+  "zoom_steps": 17,
+  "three_step": 3,
+  "video_sources": 32,
+  "image_sources": 30,
+  "inshot_zoom_shots": 10,
+  "from_analysis_hints": 0
+ }
 }

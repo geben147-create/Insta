@@ -15,7 +15,8 @@
   }
   function acc() { return KIT.ACCESSORIES.find(a => a.id === state.acc) || KIT.ACCESSORIES[0]; }
   function ctx(v) {
-    const a = animal(), c = { HERO: [a.en, acc().en, KIT.HERO_SUFFIX].filter(Boolean).join(", "), ANIMAL: a.noun, PUN: a.pun };
+    // {HERO} = 동물 외형 + 소품 (귀여움 기본값 KIT.HERO_SUFFIX 는 프롬프트 끝 'Character details' 에 이미 들어 있음)
+    const a = animal(), c = { HERO: [a.en, acc().en].filter(Boolean).join(", "), ANIMAL: a.noun, PUN: a.pun };
     const p = PAGES[v];
     if (p) {
       c.COSTUME = p.costume || "";
@@ -67,6 +68,12 @@
     document.addEventListener("click", e => {
       const all = e.target.closest("[data-copyall]");
       if (all) { copyText(fullText(), all); return; }
+      const one = e.target.closest("[data-copyv]");
+      if (one) {
+        const v = one.getAttribute("data-copyv");
+        const txt = CHUNKS.filter(ch => ch.v === v).map(ch => fill(ch.md, ctx(v))).join("\n");
+        copyText(`(선택한 동물: ${animal().ko} / 소품: ${acc().ko} / 이름: ${state.name})\n` + txt, one); return;
+      }
       const dl = e.target.closest("[data-downloadall]");
       if (dl) { download(dl.getAttribute("data-downloadall"), fullText()); return; }
       const b = e.target.closest(".copy[data-target]");

@@ -204,13 +204,17 @@
    "sfx": "바람 소리 + 휴대폰 조작 '툭'",
    "tech": "초점 헌팅(오토포커스가 잡히기 전)",
    "why": "진짜 폰으로 찍기 시작한 순간 같은 현실감. 0.2초라 호기심만 자극",
-   "img": "Out-of-focus extreme close-up selfie of {HERO} wearing a small pink baseball cap, face too close to the phone camera, blue sky behind, blurry",
-   "mot": "Handheld selfie camera pulls back slightly and the autofocus hunts from blurry to sharp. Use the first 0.2 seconds of the next shot's generation.",
+   "img": "(Same take as shot 2 — use its first 0.2 s while the autofocus is still hunting) Out-of-focus extreme close-up selfie of {HERO} wearing a small pink baseball cap, face too close to the phone camera, blue sky behind, blurry",
+   "mot": "Edit: use the first 0.2 seconds of shot 2's generation (the autofocus still hunting from blurry to sharp); no separate generation.",
    "gen": "edit",
    "m": [
     "edit"
    ],
-   "new": "(자막 없음)"
+   "new": "(자막 없음)",
+   "cute": [
+    "셀카 초근접",
+    "작은 모자·소품 착용"
+   ]
   },
   {
    "n": 2,
@@ -245,7 +249,11 @@
     "kling-v3",
     "seedance-2-5"
    ],
-   "new": "안녕 제주~"
+   "new": "안녕 제주~",
+   "cute": [
+    "작은 모자·소품 착용",
+    "셀카 초근접"
+   ]
   },
   {
    "n": 3,
@@ -279,7 +287,11 @@
     "veo-3-1",
     "kling-v3"
    ],
-   "new": "(라벨) 성산일출봉 >>>> / (친구랑 놀러 온 제주~!)"
+   "new": "(라벨) 성산일출봉 >>>> / (친구랑 놀러 온 제주~!)",
+   "cute": [
+    "작은 모자·소품 착용",
+    "앞발 모으기·흔들기"
+   ]
   },
   {
    "n": 4,
@@ -315,7 +327,12 @@
     "seedance-2-5"
    ],
    "new": "(맛 감별 중) → 쩝쩝쩝",
-   "vo": "한라봉 맛이다?"
+   "vo": "한라봉 맛이다?",
+   "cute": [
+    "작은 모자·소품 착용",
+    "동그란 눈 클로즈업",
+    "볼 빵빵·오물오물"
+   ]
   },
   {
    "n": 5,
@@ -349,7 +366,12 @@
     "kling-v3"
    ],
    "new": "(진짜 에메랄드 바다)",
-   "vo": "저 색깔 좀 봐 · 완전 예쁘다"
+   "vo": "저 색깔 좀 봐 · 완전 예쁘다",
+   "cute": [
+    "작은 모자·소품 착용",
+    "뒷모습·엉덩이",
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 6,
@@ -382,7 +404,12 @@
     "kling-v3",
     "hailuo-2-3"
    ],
-   "new": "(한 시간 줄 서서 사 먹는) → 빵 맛은 어떻습니까?"
+   "new": "(한 시간 줄 서서 사 먹는) → 빵 맛은 어떻습니까?",
+   "cute": [
+    "작은 모자·소품 착용",
+    "몸보다 큰 물건 안기",
+    "볼 빵빵·오물오물"
+   ]
   },
   {
    "n": 7,
@@ -415,7 +442,11 @@
     "minimax-h3"
    ],
    "new": "야 → (입가에 크림 묻음)",
-   "vo": "야 이거 인생빵이야"
+   "vo": "야 이거 인생빵이야",
+   "cute": [
+    "볼 빵빵·오물오물",
+    "작은 모자·소품 착용"
+   ]
   },
   {
    "n": 8,
@@ -447,7 +478,11 @@
     "kling-v3",
     "veo-3-1"
    ],
-   "new": "카메라 줘 봐 → 찍어 줄게~"
+   "new": "카메라 줘 봐 → 찍어 줄게~",
+   "cute": [
+    "작은 모자·소품 착용",
+    "짧은 팔 춤·제스처"
+   ]
   },
   {
    "n": 9,
@@ -479,7 +514,8 @@
    "m": [
     "still"
    ],
-   "new": "(구도 이슈)"
+   "new": "(구도 이슈)",
+   "cute": []
   },
   {
    "n": 10,
@@ -511,7 +547,8 @@
    "m": [
     "still"
    ],
-   "new": "(구도 이슈)"
+   "new": "(구도 이슈)",
+   "cute": []
   },
   {
    "n": 11,
@@ -542,7 +579,8 @@
    "m": [
     "still"
    ],
-   "new": "(8등신 → 2등신샷)"
+   "new": "(8등신 → 2등신샷)",
+   "cute": []
   },
   {
    "n": 12,
@@ -574,7 +612,10 @@
    "m": [
     "still"
    ],
-   "new": "(미안{PUN}...)"
+   "new": "(미안{PUN}...)",
+   "cute": [
+    "셀카 초근접"
+   ]
   },
   {
    "n": 13,
@@ -609,7 +650,11 @@
     "hailuo-2-3",
     "seedance-2-5"
    ],
-   "new": "(하루 종일 먹는 고수) → [이름표] 전문 먹방평론가 | {이름} / 내가 보니까 → [이름표 유지] / 제주는 귤을 잘하네"
+   "new": "(하루 종일 먹는 고수) → [이름표] 전문 먹방평론가 | {이름} / 내가 보니까 → [이름표 유지] / 제주는 귤을 잘하네",
+   "cute": [
+    "볼 빵빵·오물오물",
+    "작은 모자·소품 착용"
+   ]
   },
   {
    "n": 14,
@@ -642,7 +687,10 @@
     "kling-v3",
     "hailuo-2-3"
    ],
-   "new": "(여행 3일 차 체력 방전) → (숙소가 제일 좋아)"
+   "new": "(여행 3일 차 체력 방전) → (숙소가 제일 좋아)",
+   "cute": [
+    "졸림·낮잠"
+   ]
   },
   {
    "n": 15,
@@ -674,7 +722,11 @@
     "kling-v3",
     "veo-3-1"
    ],
-   "new": "안뇽~~"
+   "new": "안뇽~~",
+   "cute": [
+    "앞발 모으기·흔들기",
+    "작은 모자·소품 착용"
+   ]
   },
   {
    "n": 16,
@@ -702,7 +754,8 @@
    "m": [
     "edit"
    ],
-   "new": "(암전)"
+   "new": "(암전)",
+   "cute": []
   },
   {
    "n": 17,
@@ -730,7 +783,8 @@
    "m": [
     "edit"
    ],
-   "new": "(암전)"
+   "new": "(암전)",
+   "cute": []
   },
   {
    "n": 18,
@@ -763,7 +817,11 @@
     "minimax-h3",
     "kling-v3"
    ],
-   "new": "여러분!!! → 이거 봐~!"
+   "new": "여러분!!! → 이거 봐~!",
+   "cute": [
+    "셀카 초근접",
+    "동그란 눈 클로즈업"
+   ]
   },
   {
    "n": 19,
@@ -796,7 +854,8 @@
     "edit",
     "viduq3-pro"
    ],
-   "new": "(휩 팬)"
+   "new": "(휩 팬)",
+   "cute": []
   },
   {
    "n": 20,
@@ -817,7 +876,7 @@
     "sp": "hero",
     "fx": "기본 → 괄호"
    },
-   "tr": "휩 팬에서 이어짐",
+   "tr": "앞 컷 휩 팬에서 바로 이어짐(하드컷)",
    "sfx": "승급 팡파레(직접 만든 효과음 사용)",
    "tech": "랙 포커스 공개",
    "why": "진짜 하이라이트를 초점 잡히는 순간에 공개",
@@ -827,7 +886,8 @@
    "m": [
     "edit"
    ],
-   "new": "골드 승급했다! → (3년 만의 승급임)"
+   "new": "골드 승급했다! → (3년 만의 승급임)",
+   "cute": []
   },
   {
    "n": 21,
@@ -857,7 +917,8 @@
    "m": [
     "edit"
    ],
-   "new": "(카드 작게) 여름휴가 보고 / (카드) 제주 여행 + 랭크 승급 야호 → (카드) 끝!"
+   "new": "(카드 작게) 여름휴가 보고 / (카드) 제주 여행 + 랭크 승급 야호 → (카드) 끝!",
+   "cute": []
   }
  ],
  "sound": {
@@ -1134,6 +1195,68 @@
     21
    ],
    "how": "암전·엔딩 카드는 FFmpeg/HyperFrames로 제작"
+  }
+ ],
+ "cute_moments": [
+  {
+   "moment": "렌즈에 코 박는 셀카",
+   "shots": [
+    1,
+    2,
+    12,
+    18
+   ],
+   "why": "카메라에 너무 가까이 들이대 초점이 날아간 얼굴 — 폰이 서툰 작은 동물 연기. 시작 1초 훅, 마지막 반전(웹캠)에서도 반복",
+   "prompt": "Extreme close-up selfie of {HERO} wearing a tiny pink bucket hat sized exactly to its head, face pressed too close to the phone lens, slightly out of focus, big curious glossy eyes",
+   "motion": "The {ANIMAL} leans into the lens, then pulls back as the focus snaps in, blinking."
+  },
+  {
+   "moment": "몸만 한 디저트 껴안고 한입",
+   "shots": [
+    6,
+    7,
+    13
+   ],
+   "why": "몸보다 큰 음식을 짧은 팔로 끌어안는 크기 대비 + 입가 크림 묻히고 오물오물",
+   "prompt": "{HERO} in a tiny pink hat hugging a giant cream sandwich cake as big as its body with both short arms, biting into it, cream smeared on its whiskers",
+   "motion": "The {ANIMAL} hugs the cake tighter and takes a big bite, cheeks puffing, chewing fast."
+  },
+  {
+   "moment": "아이스크림 맛보고 동그래진 눈",
+   "shots": [
+    4
+   ],
+   "why": "4.9초 롱테이크 동안 한입 → 멈칫 → 눈이 동그래지는 느린 반응",
+   "prompt": "{HERO} in a tiny beige bucket hat licking a purple soft-serve ice cream held by a human hand, eyes going perfectly round in surprise",
+   "motion": "The {ANIMAL} licks once, freezes, and its eyes slowly widen."
+  },
+  {
+   "moment": "뒤돌아 짧은 팔로 가리키기",
+   "shots": [
+    5
+   ],
+   "why": "동그란 뒷모습·작은 꼬리 → 뒤돌아 짧은 팔로 호수를 가리키는 가이드 흉내",
+   "prompt": "Back view of {HERO} in a tiny bucket hat, round fluffy back and tiny tail toward the camera, turning to point at a lake with one stubby arm",
+   "motion": "The {ANIMAL} turns around, points with a short arm, then waddles out of frame."
+  },
+  {
+   "moment": "수건 위 낮잠 → 눈 번쩍",
+   "shots": [
+    14
+   ],
+   "why": "5.7초 동안 숨 쉬는 털만 움직이다 마지막에 눈을 떠 카메라를 봄 — 느린 반응의 귀여움",
+   "prompt": "Extreme close-up of {HERO} asleep on a white towel, eyes closed, tiny paws tucked under its chin, fur gently rising and falling",
+   "motion": "The {ANIMAL} sleeps peacefully, then slowly opens its eyes and looks straight at the camera."
+  },
+  {
+   "moment": "작은 앞발로 인사",
+   "shots": [
+    3,
+    15
+   ],
+   "why": "앞발이 짧아 손 흔들기가 파닥파닥 빨라 보임 — 시작·끝 인사로 대칭",
+   "prompt": "{HERO} standing on a forest path waving with one tiny paw, wearing a tiny crossbody bag",
+   "motion": "The {ANIMAL} waves a tiny paw rapidly with a slight bounce."
   }
  ]
 }

@@ -1,0 +1,426 @@
+[
+ {
+  "style": "CardBig",
+  "text": "싱글벙글",
+  "start": 0.0,
+  "end": 0.1,
+  "type_from": 0,
+  "shot": 1
+ },
+ {
+  "style": "LineCW1",
+  "text": "{이름}씨~",
+  "start": 0.1,
+  "end": 0.933,
+  "type_from": 0,
+  "shot": 2
+ },
+ {
+  "style": "LineHero",
+  "text": "ㅇㅔ?",
+  "start": 0.933,
+  "end": 1.5,
+  "type_from": 0,
+  "shot": 3
+ },
+ {
+  "style": "LineCW1",
+  "text": "주말 잘 쉬었어요?",
+  "start": 1.5,
+  "end": 2.667,
+  "type_from": 0,
+  "shot": 4
+ },
+ {
+  "style": "Emph",
+  "text": "뽀짜뽀짜뽀짝짝",
+  "start": 2.667,
+  "end": 4.133,
+  "type_from": 0,
+  "shot": 6
+ },
+ {
+  "style": "Emph",
+  "text": "뽀로롱뽀짝뽀짜",
+  "start": 4.133,
+  "end": 5.733,
+  "type_from": 0,
+  "shot": 8
+ },
+ {
+  "style": "LineHero",
+  "text": "총총 걸음 뽀짝",
+  "start": 5.733,
+  "end": 7.0,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LineHero",
+  "text": "콧노래도 뽀짝",
+  "start": 7.0,
+  "end": 8.4,
+  "type_from": 0,
+  "shot": 13
+ },
+ {
+  "style": "LineHero",
+  "text": "뽀",
+  "start": 8.4,
+  "end": 8.666,
+  "type_from": 0,
+  "shot": 15
+ },
+ {
+  "style": "LineHero",
+  "text": "뽀짝",
+  "start": 8.666,
+  "end": 8.933,
+  "type_from": 1,
+  "shot": 15
+ },
+ {
+  "style": "LineHero",
+  "text": "뽀짝 뽀로",
+  "start": 8.933,
+  "end": 9.25,
+  "type_from": 3,
+  "shot": 16
+ },
+ {
+  "style": "LineHero",
+  "text": "뽀짝 뽀로롱",
+  "start": 9.25,
+  "end": 9.567,
+  "type_from": 5,
+  "shot": 16
+ },
+ {
+  "style": "LineHero",
+  "text": "뽀짝 뽀로롱롱롱~",
+  "start": 9.567,
+  "end": 11.333,
+  "type_from": 6,
+  "shot": 17
+ },
+ {
+  "style": "LineHero",
+  "text": "앞발로",
+  "start": 11.333,
+  "end": 12.0,
+  "type_from": 0,
+  "shot": 18
+ },
+ {
+  "style": "LineHero",
+  "text": "앞발로 꼬옥 뽀짝",
+  "start": 12.0,
+  "end": 12.7,
+  "type_from": 4,
+  "shot": 19
+ },
+ {
+  "style": "LineHero",
+  "text": "눈웃음도",
+  "start": 12.7,
+  "end": 13.333,
+  "type_from": 0,
+  "shot": 21
+ },
+ {
+  "style": "LineHero",
+  "text": "눈웃음도 뽀짝",
+  "start": 13.333,
+  "end": 13.967,
+  "type_from": 5,
+  "shot": 22
+ },
+ {
+  "style": "LineHero",
+  "text": "뽀로롱",
+  "start": 13.967,
+  "end": 14.517,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "LineHero",
+  "text": "뽀짝짝 뽀로롱~",
+  "start": 14.517,
+  "end": 15.633,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "Emph",
+  "text": "읏챠!",
+  "start": 15.633,
+  "end": 16.5,
+  "type_from": 0,
+  "shot": 26
+ },
+ {
+  "style": "Emph",
+  "text": "뽀짝!",
+  "start": 16.5,
+  "end": 17.033,
+  "type_from": 0,
+  "shot": 27
+ },
+ {
+  "style": "Emph",
+  "text": "퐁!",
+  "start": 17.033,
+  "end": 17.4,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "Emph",
+  "text": "뽀짝!",
+  "start": 17.4,
+  "end": 17.833,
+  "type_from": 0,
+  "shot": 29
+ },
+ {
+  "style": "Emph",
+  "text": "퐁!",
+  "start": 17.833,
+  "end": 18.267,
+  "type_from": 0,
+  "shot": 30
+ },
+ {
+  "style": "Emph",
+  "text": "뽀짝!",
+  "start": 18.267,
+  "end": 18.733,
+  "type_from": 0,
+  "shot": 31
+ },
+ {
+  "style": "Emph",
+  "text": "뽀짝!",
+  "start": 18.733,
+  "end": 19.633,
+  "type_from": 0,
+  "shot": 32
+ },
+ {
+  "style": "Emph",
+  "text": "PONG!",
+  "start": 19.633,
+  "end": 20.033,
+  "type_from": 0,
+  "shot": 34
+ },
+ {
+  "style": "Emph",
+  "text": "뽀짝!!",
+  "start": 20.033,
+  "end": 20.933,
+  "type_from": 0,
+  "shot": 35
+ },
+ {
+  "style": "LabelName",
+  "text": "오늘 첫 킬 딴 {이름}",
+  "start": 20.933,
+  "end": 22.0,
+  "type_from": 0,
+  "shot": 36
+ },
+ {
+  "style": "LineHero",
+  "text": "뽀짝뽀짝한 첫 킬",
+  "start": 20.933,
+  "end": 22.0,
+  "type_from": 0,
+  "shot": 36
+ },
+ {
+  "style": "Emph",
+  "text": "킼킼킼ㅋ",
+  "start": 22.0,
+  "end": 22.667,
+  "type_from": 0,
+  "shot": 38
+ },
+ {
+  "style": "Paren",
+  "text": "(운명의 1대1)",
+  "start": 22.667,
+  "end": 23.833,
+  "type_from": 0,
+  "shot": 39
+ },
+ {
+  "style": "Paren",
+  "text": "(현실 손놀림)",
+  "start": 23.833,
+  "end": 24.5,
+  "type_from": 0,
+  "shot": 40
+ },
+ {
+  "style": "Paren",
+  "text": "(장렬하게 드러누움)",
+  "start": 24.5,
+  "end": 25.567,
+  "type_from": 0,
+  "shot": 41
+ },
+ {
+  "style": "Paren",
+  "text": "(단단히 화난 우리 팀)",
+  "start": 25.567,
+  "end": 27.1,
+  "type_from": 0,
+  "shot": 42
+ },
+ {
+  "style": "LabelName",
+  "text": "혼나서 살짝 {PUN}무룩",
+  "start": 27.1,
+  "end": 28.3,
+  "type_from": 0,
+  "shot": 43
+ },
+ {
+  "style": "LineHero",
+  "text": "…",
+  "start": 27.1,
+  "end": 28.3,
+  "type_from": 0,
+  "shot": 43
+ },
+ {
+  "style": "LineHero",
+  "text": "영차!",
+  "start": 28.3,
+  "end": 29.633,
+  "type_from": 0,
+  "shot": 45
+ },
+ {
+  "style": "LabelName",
+  "text": "시키는 대로 성실하게",
+  "start": 29.633,
+  "end": 31.033,
+  "type_from": 0,
+  "shot": 47
+ },
+ {
+  "style": "Paren",
+  "text": "(도토리 덫 심는 {PUN}농부)",
+  "start": 29.633,
+  "end": 31.033,
+  "type_from": 0,
+  "shot": 47
+ },
+ {
+  "style": "Paren",
+  "text": "(남의 킬을 날름한 {이름})",
+  "start": 31.033,
+  "end": 31.833,
+  "type_from": 0,
+  "shot": 48
+ },
+ {
+  "style": "Paren",
+  "text": "(날름했다고 또 혼나는 {이름})",
+  "start": 31.833,
+  "end": 32.633,
+  "type_from": 0,
+  "shot": 49
+ },
+ {
+  "style": "Paren",
+  "text": "(그저 간식이 급했던 {이름})",
+  "start": 33.567,
+  "end": 35.167,
+  "type_from": 0,
+  "shot": 51
+ },
+ {
+  "style": "Paren",
+  "text": "(탈탈 털리는 {이름})",
+  "start": 35.167,
+  "end": 36.567,
+  "type_from": 0,
+  "shot": 53
+ },
+ {
+  "style": "LineHero",
+  "text": "으악!!! 미안{PUN}",
+  "start": 35.167,
+  "end": 36.567,
+  "type_from": 0,
+  "shot": 53
+ },
+ {
+  "style": "Emph",
+  "text": "잘못했어!!!!!",
+  "start": 36.567,
+  "end": 37.167,
+  "type_from": 0,
+  "shot": 54
+ },
+ {
+  "style": "LabelName",
+  "text": "순한 맛 번역",
+  "start": 37.967,
+  "end": 39.0,
+  "type_from": 0,
+  "shot": 56
+ },
+ {
+  "style": "Paren",
+  "text": "(져도 귀여우니 괜찮다는 뜻)",
+  "start": 37.967,
+  "end": 39.0,
+  "type_from": 0,
+  "shot": 56
+ },
+ {
+  "style": "LineHero",
+  "text": "???!?",
+  "start": 39.0,
+  "end": 39.933,
+  "type_from": 0,
+  "shot": 57
+ },
+ {
+  "style": "LineHero",
+  "text": "^ㅅ^",
+  "start": 39.933,
+  "end": 40.667,
+  "type_from": 0,
+  "shot": 59
+ },
+ {
+  "style": "Paren",
+  "text": "(뽀짝하게 7연패)",
+  "start": 40.667,
+  "end": 41.333,
+  "type_from": 0,
+  "shot": 60
+ },
+ {
+  "style": "LineHero",
+  "text": "뭐 그냥",
+  "start": 41.333,
+  "end": 41.633,
+  "type_from": 0,
+  "shot": 61
+ },
+ {
+  "style": "LineHero",
+  "text": "푹 잤죠 ㅎ",
+  "start": 41.633,
+  "end": 42.9,
+  "type_from": 0,
+  "shot": 61
+ }
+]

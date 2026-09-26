@@ -64,115 +64,125 @@
 - 전환: 오프닝(0.2초 흐린 화면으로 시작) · 효과음: 바람 소리 + 휴대폰 조작 '툭'
 - 편집 기법: 초점 헌팅(오토포커스가 잡히기 전) — 진짜 폰으로 찍기 시작한 순간 같은 현실감. 0.2초라 호기심만 자극
 - 새 대본 예시: (자막 없음)
-- 이미지 프롬프트: Out-of-focus extreme close-up selfie of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a small pink baseball cap, face too close to the phone camera, blue sky behind, blurry. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
-- 영상 프롬프트: Handheld selfie camera pulls back slightly and the autofocus hunts from blurry to sharp. Use the first 0.2 seconds of the next shot's generation. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 이미지 프롬프트: (Same take as shot 2 — use its first 0.2 s while the autofocus is still hunting) Out-of-focus extreme close-up selfie of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest wearing a small pink baseball cap, face too close to the phone camera, blue sky behind, blurry
+- 영상 프롬프트: Edit: use the first 0.2 seconds of shot 2's generation (the autofocus still hunting from blurry to sharp); no separate generation.
 - 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.20초
 - 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames)
+- 귀여운 포인트: 셀카 초근접, 작은 모자·소품 착용
+- 🔁 재사용(생성 불필요): #02 클립을 1.0배 확대 · 중심 가로 50% 세로 50% · 클립 0.50초부터
 
 ### #02 0.20–1.67s (1.47초, 44프레임) · 주인공 · CU 셀카 · 살짝 로우앵글 셀카 · 전환: 하드컷 · 효과: 화면비 1x1
 - 카메라: 핸드헬드, 초점이 잡히며 살짝 뒤로 빠짐
 - 위치(3×3): 4, 5, 7, 8 · 대표 색: #010000, #dbb69d, #a37667, #85baef
 - 동작·표정: 분홍 모자를 쓰고 카메라를 보며 인사. 뒤에 붉은 철탑
 - 배경: TV 타워, 파란 하늘, 나무
-- 자막: 대사 [여행지에 인사하는 대사] (주인공(흰색) · 기본)
+- 자막: 대사 [여행지에 인사하는 대사] (주인공 동물(여행자)(흰색) · 기본)
 - 전환: 초점 헌팅이 이어지는 연속 동작(사실상 같은 테이크) · 효과음: 도시 앰비언스, 매미 소리
 - 편집 기법: 셀카 오프닝 = 시청자와 눈 맞춤 — 주인공이 시청자에게 직접 말을 거는 1인칭 시작
 - 새 대본 예시: 안녕 제주~
-- 이미지 프롬프트: Handheld smartphone selfie close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a small pink baseball cap, looking into the lens, in front of the red-and-white lattice Sapporo TV Tower under a clear blue summer sky with green trees. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Handheld smartphone selfie close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest wearing a small pink baseball cap, looking into the lens, in front of the red-and-white lattice Sapporo TV Tower under a clear blue summer sky with green trees. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: Natural handheld selfie wobble, the autofocus settles on the face, the otter blinks and greets the camera, cap brim moves slightly in the wind. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.47초
 - 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Seedance 2.5(시작·끝 프레임, 4~30초, 최대 1080p, 오디오)
+- 귀여운 포인트: 작은 모자·소품 착용, 셀카 초근접
+- 🎥 이 클립 하나로 #01 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
 
 ### #03 1.67–3.07s (1.40초, 42프레임) · 주인공 · MCU 셀카 · 셀카 · 전환: 하드컷 · 효과: 화면비 1x1
 - 카메라: 핸드헬드, 조금 더 넓게
 - 위치(3×3): 4, 5, 7, 8 · 대표 색: #010101, #8bbaeb, #9d796c, #d7b49b
 - 동작·표정: 앞발을 흔들며 인사, 오른쪽에 철탑 전체
 - 배경: TV 타워, 나무
-- 자막: 라벨 [[화살표 라벨] 랜드마크 이름 >>>>] 대사 [(친구와 여행 왔다는 괄호 속마음)] (주인공(흰색) · 화살표 라벨 + 괄호 자막)
+- 자막: 라벨 [[화살표 라벨] 랜드마크 이름 >>>>] 대사 [(친구와 여행 왔다는 괄호 속마음)] (주인공 동물(여행자)(흰색) · 화살표 라벨 + 괄호 자막)
 - 전환: 하드컷 · 효과음: -
 - 편집 기법: 화살표 라벨로 장소 인증 — 여행지를 한눈에 알림
 - 새 대본 예시: (라벨) 성산일출봉 >>>> / (친구랑 놀러 온 제주~!)
-- 이미지 프롬프트: Handheld smartphone selfie medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon in a small pink cap waving one tiny paw, the whole tower visible on the right, in front of the red-and-white lattice Sapporo TV Tower under a clear blue summer sky with green trees. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Handheld smartphone selfie medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a small pink cap waving one tiny paw, the whole tower visible on the right, in front of the red-and-white lattice Sapporo TV Tower under a clear blue summer sky with green trees. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: The otter waves its paw at the camera cheerfully, slight handheld shake. Keep the tower in frame. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.40초
 - 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 귀여운 포인트: 작은 모자·소품 착용, 앞발 모으기·흔들기
 
 ### #04 3.07–8.00s (4.93초, 148프레임) · 주인공 · MS · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
 - 카메라: 핸드헬드 고정(4.9초 롱테이크)
 - 위치(3×3): 4, 5, 7, 8 · 대표 색: #000100, #917d62, #d5bca1, #53522b
 - 동작·표정: 베이지 버킷햇을 쓰고 보라색 소프트아이스크림을 들고 맛봄, 눈 동그랗게
 - 배경: 무지개 줄무늬 꽃밭
-- 자막: 대사 [(맛 분석 중) → 먹는 의성어] (주인공(흰색) · 괄호 자막 → 의성어)
+- 자막: 대사 [(맛 분석 중) → 먹는 의성어] (주인공 동물(여행자)(흰색) · 괄호 자막 → 의성어)
 - 전환: 하드컷 · 효과음: 바람, 새소리, 쩝쩝 먹는 소리
 - 편집 기법: 먹방 롱테이크 — 천천히 보는 힐링 구간. 먹는 소리 ASMR
 - 새 대본 예시: (맛 감별 중) → 쩝쩝쩝 / 목소리만: 한라봉 맛이다?
-- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a small beige bucket hat, holding a lavender soft-serve ice cream cone with both paws, a hillside of vivid rainbow-striped flower fields (orange marigolds, purple lavender, red salvia, white and yellow rows) in Hokkaido summer. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest wearing a small beige bucket hat, holding a lavender soft-serve ice cream cone with both paws, a hillside of vivid rainbow-striped flower fields (orange marigolds, purple lavender, red salvia, white and yellow rows) in Hokkaido summer. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: The otter licks the ice cream twice, pauses with wide surprised eyes, then munches happily. Gentle handheld sway, flowers move in the breeze. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 4.93초
 - 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Hailuo 2.3(시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만)) / 대안 Seedance 2.5(시작·끝 프레임, 4~30초, 최대 1080p, 오디오)
+- 귀여운 포인트: 작은 모자·소품 착용, 동그란 눈 클로즈업, 볼 빵빵·오물오물
 
 ### #05 8.00–13.10s (5.10초, 153프레임) · 주인공 · MS→WS(패닝) · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
 - 카메라: 뒷모습에서 시작 → 주인공이 뒤돌아 가리키면 카메라가 오른쪽으로 패닝해 호수만 보여 줌(5.1초)
 - 위치(3×3): 4, 7 · 대표 색: #010100, #8eaba3, #8a855d, #565933
 - 동작·표정: 버킷햇 뒷모습 → 뒤돌아 앞발로 호수를 가리킴 → 화면 밖으로
 - 배경: 청록색 호수와 물에 선 나무들
-- 자막: 대사 [(색이 정말 고운 호수라는 괄호 자막)] (주인공(흰색) · 괄호 자막)
+- 자막: 대사 [(색이 정말 고운 호수라는 괄호 자막)] (주인공 동물(여행자)(흰색) · 괄호 자막)
 - 전환: 하드컷 · 효과음: 물·새·바람 앰비언스
 - 편집 기법: 가리키기 → 패닝 공개(Reveal pan) — 캐릭터가 시선을 안내해 풍경으로 자연스럽게 넘어감
 - 새 대본 예시: (진짜 에메랄드 바다) / 목소리만: 저 색깔 좀 봐 · 완전 예쁘다
-- 이미지 프롬프트: Medium shot from behind of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a beige bucket hat looking at a turquoise-blue pond with dead larch tree trunks standing in the water, surrounded by green forest (Biei Blue Pond style). shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Medium shot from behind of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest wearing a beige bucket hat looking at a turquoise-blue pond with dead larch tree trunks standing in the water, surrounded by green forest (Biei Blue Pond style). shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: The otter turns around, points its tiny paw at the pond, then the handheld camera pans right to reveal only the turquoise pond with standing tree trunks. Smooth phone-video pan. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 5.10초
 - 추천 모델: 1순위 Seedance 2.5(시작·끝 프레임, 4~30초, 최대 1080p, 오디오) / 대안 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 귀여운 포인트: 작은 모자·소품 착용, 뒷모습·엉덩이, 짧은 팔 춤·제스처
 
 ### #06 13.10–16.80s (3.70초, 111프레임) · 주인공 · CU · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
 - 카메라: 핸드헬드, 사람 손이 디저트를 들고 있음
 - 위치(3×3): 4, 5, 6 · 대표 색: #010001, #b89478, #e4cebb, #c07231
 - 동작·표정: 분홍 모자를 쓰고 거대한 크림 샌드 케이크를 껴안고 베어 묾
 - 배경: 어두운 실내
-- 자막: 대사 [줄 서서 산 디저트 소개 → 인터뷰어 말투로 맛을 물음] (주인공(흰색) · 기본)
+- 자막: 대사 [줄 서서 산 디저트 소개 → 인터뷰어 말투로 맛을 물음] (주인공 동물(여행자)(흰색) · 기본)
 - 전환: 하드컷 · 효과음: 바삭·폭신 먹는 소리
 - 편집 기법: 인터뷰 형식 자막 — 먹방을 '맛 인터뷰'로 만들어 대사 개그
 - 새 대본 예시: (한 시간 줄 서서 사 먹는) → 빵 맛은 어떻습니까?
-- 이미지 프롬프트: Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a small pink cap, hugging and biting a huge cream-filled sandwich cake held by a human hand, dark background, inside a car or dim room with a dark background, a human hand holding a huge cream-filled sandwich cake. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest wearing a small pink cap, hugging and biting a huge cream-filled sandwich cake held by a human hand, dark background, inside a car or dim room with a dark background, a human hand holding a huge cream-filled sandwich cake. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: The otter hugs the cake and takes big bites, cream smears on its whiskers. Slight handheld movement. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 3.70초
 - 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Hailuo 2.3(시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만))
+- 귀여운 포인트: 작은 모자·소품 착용, 몸보다 큰 물건 안기, 볼 빵빵·오물오물
 
 ### #07 16.80–18.30s (1.50초, 45프레임) · 주인공 · MCU · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
 - 카메라: 핸드헬드
 - 위치(3×3): 5, 8 · 대표 색: #020203, #58585d, #ba9d8c, #e1cbbe
 - 동작·표정: 입가에 크림을 묻힌 채 오물거리며 카메라를 봄
 - 배경: 어두운 실내, 케이크 단면
-- 자막: 대사 [짧은 감탄 한마디 → 괄호 츳코미] (주인공(흰색) · 기본 → 괄호)
+- 자막: 대사 [짧은 감탄 한마디 → 괄호 츳코미] (주인공 동물(여행자)(흰색) · 기본 → 괄호)
 - 전환: 하드컷 · 효과음: 오물오물
 - 편집 기법: 먹방 리액션 클로즈업 — 크림 묻은 얼굴 = 귀여움 정점
 - 새 대본 예시: 야 → (입가에 크림 묻음) / 목소리만: 야 이거 인생빵이야
-- 이미지 프롬프트: Medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon in a small pink cap chewing with cream on its mouth, looking into the camera, cake beside it, inside a car or dim room with a dark background, a human hand holding a huge cream-filled sandwich cake. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a small pink cap chewing with cream on its mouth, looking into the camera, cake beside it, inside a car or dim room with a dark background, a human hand holding a huge cream-filled sandwich cake. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: Chews with puffed cheeks, licks cream off its lips, stares at the camera. Handheld. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.50초
 - 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도))
+- 귀여운 포인트: 볼 빵빵·오물오물, 작은 모자·소품 착용
 
 ### #08 18.30–19.90s (1.60초, 48프레임) · 주인공 · MS · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
 - 카메라: 핸드헬드, 주인공이 카메라로 다가오며 앞발을 뻗음
 - 위치(3×3): 5, 8 · 대표 색: #010100, #3e3e32, #6d675a, #a19180
 - 동작·표정: 숲길에서 크로스백을 멘 채 카메라를 달라며 앞발을 뻗음
 - 배경: 자작나무 숲길
-- 자막: 대사 [카메라를 달라는 말 → 찍어 주겠다는 말] (주인공(흰색) · 기본)
+- 자막: 대사 [카메라를 달라는 말 → 찍어 주겠다는 말] (주인공 동물(여행자)(흰색) · 기본)
 - 전환: 하드컷 · 효과음: 숲 앰비언스, 발소리
 - 편집 기법: 앞발이 렌즈를 가리며 다음 컷으로(와이프 느낌) — 다음 사진 구간을 예고
 - 새 대본 예시: 카메라 줘 봐 → 찍어 줄게~
-- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a beige bucket hat and a tiny light-blue crossbody bag standing on a birch-tree forest path with tall white trunks and a dirt trail, soft summer light, reaching both paws toward the camera. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest wearing a beige bucket hat and a tiny light-blue crossbody bag standing on a birch-tree forest path with tall white trunks and a dirt trail, soft summer light, reaching both paws toward the camera. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: The otter walks toward the camera and reaches its paws up to grab the phone, paws come close to the lens. Handheld. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.60초
 - 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오)
+- 귀여운 포인트: 작은 모자·소품 착용, 짧은 팔 춤·제스처
 
 ### #09 19.90–20.37s (0.47초, 14프레임) · 친구 · 사진(3:4) 로우앵글 · 바닥에서 올려다봄 · 전환: 하드컷 · 효과: 화면비 3x4
 - 카메라: 정지 사진
 - 위치(3×3): 2, 5, 8 · 대표 색: #000000, #3d3a38, #626056, #90907f
 - 동작·표정: 친구의 다리와 신발만 크게 나온 굴욕 사진
 - 배경: 자작나무 숲
-- 자막: 대사 [(구도 문제를 꼬집는 괄호 자막)] (주인공(흰색) · 괄호 자막)
+- 자막: 대사 [(구도 문제를 꼬집는 괄호 자막)] (주인공 동물(여행자)(흰색) · 괄호 자막)
 - 전환: 하드컷(사진 화면비 3:4로 바뀜) · 효과음: 카메라 셔터 '찰칵'
 - 편집 기법: 포토 덤프(사진 연속 0.47초) — 동물이 찍어서 로우앵글인 설정 개그
 - 새 대본 예시: (구도 이슈)
@@ -186,7 +196,7 @@
 - 위치(3×3): 2, 5, 8 · 대표 색: #000000, #6b6a5a, #47463d, #8f8f7e
 - 동작·표정: 친구 전신, 얼굴은 노란 눈알 이모지 스티커로 가림
 - 배경: 자작나무 숲
-- 자막: 대사 [(같은 괄호 자막 유지)] (주인공(흰색) · 괄호)
+- 자막: 대사 [(같은 괄호 자막 유지)] (주인공 동물(여행자)(흰색) · 괄호)
 - 전환: 하드컷 · 효과음: 셔터 '찰칵'
 - 편집 기법: 이모지 스티커로 사람 얼굴 가림 — 실제 브이로그 관행(친구 얼굴 가림) 흉내 → 현실감
 - 새 대본 예시: (구도 이슈)
@@ -200,7 +210,7 @@
 - 위치(3×3): 5, 8 · 대표 색: #000000, #666956, #454837, #8b907c
 - 동작·표정: 친구가 아주 작게, 나무가 하늘로 치솟은 사진
 - 배경: 자작나무 숲
-- 자막: 대사 [(다리가 비현실적으로 길게 나온 사진을 놀리는 자막)] (주인공(흰색) · 괄호)
+- 자막: 대사 [(다리가 비현실적으로 길게 나온 사진을 놀리는 자막)] (주인공 동물(여행자)(흰색) · 괄호)
 - 전환: 하드컷 · 효과음: 셔터 '찰칵'
 - 편집 기법: 3연속 변주 — 같은 굴욕 사진 3장으로 3의 법칙
 - 새 대본 예시: (8등신 → 2등신샷)
@@ -214,56 +224,60 @@
 - 위치(3×3): 7, 8, 9 · 대표 색: #000000, #7c7264, #595240, #a39283
 - 동작·표정: 주인공 얼굴이 화면 아래를 가득 채우고 친구는 뒤에 조그맣게
 - 배경: 자작나무 숲
-- 자막: 대사 [(미안하다는 괄호 자막, 말끝 달)] (주인공(흰색) · 괄호)
+- 자막: 대사 [(미안하다는 괄호 자막, 말끝 달)] (주인공 동물(여행자)(흰색) · 괄호)
 - 전환: 하드컷 · 효과음: 셔터 '찰칵'
 - 편집 기법: 펀치라인 사진(셀카 난입) — 3장 굴욕 후 4번째 사진에서 결국 자기 셀카 → 반전 웃음
 - 새 대본 예시: (미안달...)
-- 이미지 프롬프트: Smartphone photo, 3:4 portrait, low-angle selfie of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon in a bucket hat filling the bottom of the frame, tiny a young woman traveler in a black t-shirt, loose grey cargo pants and hiking shoes, her face hidden behind a round yellow googly-eyed emoji sticker added in the edit far behind in the birch forest. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Smartphone photo, 3:4 portrait, low-angle selfie of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a bucket hat filling the bottom of the frame, tiny a young woman traveler in a black t-shirt, loose grey cargo pants and hiking shoes, her face hidden behind a round yellow googly-eyed emoji sticker added in the edit far behind in the birch forest. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: Still photo (no motion).
 - 생성 설정: 영상 생성 불필요: 이미지 1장 → 편집에서 줌/푸시인 · 편집 사용 길이 0.47초
 - 추천 모델: 1순위 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 셀카 초근접
 
 ### #13 21.77–26.40s (4.63초, 139프레임) · 주인공 · MS→CU · 아이레벨 · 전환: 하드컷 · 효과: 화면비 1x1
 - 카메라: 핸드헬드, 천천히 다가감(4.6초)
 - 위치(3×3): 4, 5, 7, 8 · 대표 색: #000000, #422817, #be986e, #90683c
 - 동작·표정: 카페에서 파르페를 숟가락으로 떠먹고 웃으며 평가
 - 배경: 나무 카페, 바구니, 물잔
-- 자막: 라벨 [[이름표] 직함 | 이름(먹방 평론가 콘셉트)] 대사 [(하루 종일 먹는 고수) → 평론가 말투 평가] (주인공(흰색) · 괄호 → 이름표 + 대사)
+- 자막: 라벨 [[이름표] 직함 | 이름(먹방 평론가 콘셉트)] 대사 [(하루 종일 먹는 고수) → 평론가 말투 평가] (주인공 동물(여행자)(흰색) · 괄호 → 이름표 + 대사)
 - 전환: 하드컷(1:1로 복귀) · 효과음: 카페 앰비언스, 숟가락 소리
 - 편집 기법: 이름표로 캐릭터 콘셉트 부여 — 먹방을 '전문가 리뷰' 콩트로
 - 새 대본 예시: (하루 종일 먹는 고수) → [이름표] 전문 먹방평론가 | 김OO / 내가 보니까 → [이름표 유지] / 제주는 귤을 잘하네
-- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a beige bucket hat sitting at a cozy wooden cafe table with a wicker basket, a glass of water and a parfait with whipped cream, berries, mint and melon, holding a tiny spoon. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest wearing a beige bucket hat sitting at a cozy wooden cafe table with a wicker basket, a glass of water and a parfait with whipped cream, berries, mint and melon, holding a tiny spoon. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: The otter scoops cream with the spoon, eats it, then smiles widely at the camera and nods like a critic. Slow handheld push-in. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 4.63초
 - 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Hailuo 2.3(시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만)) / 대안 Seedance 2.5(시작·끝 프레임, 4~30초, 최대 1080p, 오디오)
+- 귀여운 포인트: 볼 빵빵·오물오물, 작은 모자·소품 착용
 
 ### #14 26.40–32.07s (5.67초, 170프레임) · 주인공 · ECU · 위에서 내려다봄 · 전환: 하드컷 · 효과: 화면비 1x1
 - 카메라: 핸드헬드 고정(5.7초 롱테이크)
 - 위치(3×3): 4, 5, 6 · 대표 색: #000000, #c89c73, #a77e59, #e7d8cd
 - 동작·표정: 하얀 수건 위에서 눈 감고 자다가 → 끝에서 눈 뜨고 카메라를 봄
 - 배경: 흰 수건
-- 자막: 대사 [(낮잠 필수라는 괄호) → (다시 나가기 싫다는 괄호)] (주인공(흰색) · 괄호 2개 연속)
+- 자막: 대사 [(낮잠 필수라는 괄호) → (다시 나가기 싫다는 괄호)] (주인공 동물(여행자)(흰색) · 괄호 2개 연속)
 - 전환: 하드컷 · 효과음: 고요함, 새근새근 숨소리
 - 편집 기법: 슬로 비트(쉼표 구간) — 반전 직전 가장 느린 구간 → 뒤 반전의 낙차
 - 새 대본 예시: (여행 3일 차 체력 방전) → (숙소가 제일 좋아)
-- 이미지 프롬프트: Extreme close-up from above of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon sleeping on a soft white towel or bed sheet, morning light, eyes closed, peaceful. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Extreme close-up from above of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sleeping on a soft white towel or bed sheet, morning light, eyes closed, peaceful. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: Slow breathing, tiny twitch of whiskers, then the otter opens its eyes and looks up at the camera sleepily. Very subtle handheld drift. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 5.67초
 - 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Hailuo 2.3(시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만))
+- 귀여운 포인트: 졸림·낮잠
 
 ### #15 32.07–35.67s (3.60초, 108프레임) · 주인공 · WS · 아이레벨(낮게) · 전환: 하드컷 · 효과: 화면비 1x1
 - 카메라: 핸드헬드 고정
 - 위치(3×3): 5, 8 · 대표 색: #010100, #666154, #97897a, #36382a
 - 동작·표정: 숲길 한가운데 서서 앞발을 흔들며 작별 인사
 - 배경: 자작나무 숲길
-- 자막: 대사 [작별 인사(물결 늘임)] (주인공(흰색) · 기본)
+- 자막: 대사 [작별 인사(물결 늘임)] (주인공 동물(여행자)(흰색) · 기본)
 - 전환: 하드컷 · 효과음: 숲 앰비언스
 - 편집 기법: 가짜 엔딩(Fake ending) — 끝난 줄 알게 만든 뒤 반전
 - 새 대본 예시: 안뇽~~
-- 이미지 프롬프트: Wide shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon wearing a beige bucket hat and a tiny light-blue crossbody bag standing in the middle of a birch-tree forest path with tall white trunks and a dirt trail, soft summer light. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Wide shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest wearing a beige bucket hat and a tiny light-blue crossbody bag standing in the middle of a birch-tree forest path with tall white trunks and a dirt trail, soft summer light. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: The otter waves its tiny paw goodbye at the camera several times. Gentle handheld. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 3.60초
 - 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오)
+- 귀여운 포인트: 앞발 모으기·흔들기, 작은 모자·소품 착용
 
 ### #16 35.67–35.97s (0.30초, 9프레임) · 암전 · 암전 · - · 전환: 하드컷
 - 카메라: -
@@ -298,14 +312,15 @@
 - 위치(3×3): 4, 5, 6 · 대표 색: #000000, #9a8074, #8b6546, #574438
 - 동작·표정: 어두운 방에서 모니터 불빛을 받은 얼굴을 카메라에 들이대며 흥분
 - 배경: 어두운 방, 초록 게이밍 헤드셋
-- 자막: 대사 [팬들을 부름 → '이거 봐!'] (주인공(흰색) · 기본)
+- 자막: 대사 [팬들을 부름 → '이거 봐!'] (주인공 동물(여행자)(흰색) · 기본)
 - 전환: 암전에서 하드컷 · 효과음: 키보드·마우스 클릭, 방 소음
 - 편집 기법: 톤 급변(힐링→흥분) — 진짜 하이라이트 예고
 - 새 대본 예시: 여러분!!! → 이거 봐~!
-- 이미지 프롬프트: Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest, about 20 cm tall, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon leaning very close to a phone camera in a dark room, face lit by cool monitor light, a green gaming headset visible, excited expression. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 이미지 프롬프트: Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest leaning very close to a phone camera in a dark room, face lit by cool monitor light, a green gaming headset visible, excited expression. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
 - 영상 프롬프트: The otter pushes its face toward the lens excitedly and talks fast. Shaky handheld, flickering monitor light. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
 - 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.60초
 - 추천 모델: 1순위 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도)) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 귀여운 포인트: 셀카 초근접, 동그란 눈 클로즈업
 
 ### #19 37.97–38.47s (0.50초, 15프레임) · 인서트 · 휩 팬 · - · 전환: 하드컷 · 효과: 휩 팬, 화면비 p088
 - 카메라: 빠르게 옆으로 휘두르는 팬(모션블러)
@@ -320,27 +335,29 @@
 - 영상 프롬프트: Edit: fast horizontal whip pan with heavy motion blur for 0.5 s (or generate a 1 s whip-pan clip).
 - 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.50초
 - 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 Vidu Q3 Pro(시작·끝 프레임, 1~16초(1초 가능), 최대 2K, 오디오)
+- 🔁 재사용(생성 불필요): #20 클립을 1.0배 확대 · 중심 가로 50% 세로 50% · 클립 0.00초부터
 
-### #20 38.47–40.53s (2.07초, 62프레임) · 인서트 · 모니터 화면(폰으로 촬영) · 정면 · 전환: 하드컷 · 효과: 휩 팬, 화면비 p088
+### #20 38.47–40.53s (2.07초, 62프레임) · 인서트 · 모니터 화면(폰으로 촬영) · 정면 · 전환: 하드컷 · 효과: 화면비 p088
 - 카메라: 흐린 상태 → 초점이 잡힘(랙 포커스), 폰으로 모니터를 찍은 질감
 - 위치(3×3): 2, 5 · 대표 색: #000000, #111721, #3a343f, #4a5475
 - 동작·표정: 게임 랭크 승급 화면이 모니터에 떠 있음
 - 배경: 모니터, 어두운 방
-- 자막: 대사 [승급 자랑 → (만년 하위 티어 셀프 츳코미)] (주인공(흰색) · 기본 → 괄호)
-- 전환: 휩 팬에서 이어짐 · 효과음: 승급 팡파레(직접 만든 효과음 사용)
+- 자막: 대사 [승급 자랑 → (만년 하위 티어 셀프 츳코미)] (주인공 동물(여행자)(흰색) · 기본 → 괄호)
+- 전환: 앞 컷 휩 팬에서 바로 이어짐(하드컷) · 효과음: 승급 팡파레(직접 만든 효과음 사용)
 - 편집 기법: 랙 포커스 공개 — 진짜 하이라이트를 초점 잡히는 순간에 공개
 - 새 대본 예시: 골드 승급했다! → (3년 만의 승급임)
 - 이미지 프롬프트: Smartphone photo of a computer monitor in a dark room showing your OWN game rank-up screen (replace with your screenshot), slight moire and screen glare. shot on a smartphone main camera, handheld, natural bright summer daylight, vivid but natural travel-photo colors, slight wide-angle distortion on selfies, realistic phone video texture, 1:1 square framing.
 - 영상 프롬프트: Edit: start blurred and rack-focus to sharp over 0.6 s, slight handheld drift. Use your own game screen capture.
 - 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 2.07초
 - 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames)
+- 🎥 이 클립 하나로 #19 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
 
 ### #21 40.53–41.70s (1.17초, 35프레임) · 타이틀 카드 · 타이틀 카드 · - · 전환: 하드컷
 - 카메라: -
 - 위치(3×3): 5 · 대표 색: #000000, #f8f8f8, #575757, #939393
 - 동작·표정: 검은 화면에 휴가 요약 + 끝 인사 타이핑 → 마지막 한 글자 '끝'
 - 배경: 검정
-- 자막: 라벨 [작은 제목: 여름휴가 보고] 대사 [큰 요약: 여행지 + 승급] (주인공(흰색) · 요약 카드 + 타이핑)
+- 자막: 라벨 [작은 제목: 여름휴가 보고] 대사 [큰 요약: 여행지 + 승급] (주인공 동물(여행자)(흰색) · 요약 카드 + 타이핑)
 - 전환: 하드컷 · 효과음: 타자 소리 + 마지막 '뿅'
 - 편집 기법: 엔딩 요약 카드 — 공유하기 좋은 한 줄 정리 + 깔끔한 마무리
 - 새 대본 예시: (카드 작게) 여름휴가 보고 / (카드) 제주 여행 + 랭크 승급 야호 → (카드) 끝!
@@ -397,7 +414,8 @@
 ### Claude Code 프롬프트 A — FFmpeg
 ```
 [작업 폴더] 햄찌유튜브_영상분석/편집키트/2위  (이 폴더 밖의 파일은 수정 금지)
-[목표] clips/ 의 AI 생성 영상(s01.mp4~s21.mp4)을 edl.json 규격 그대로 조립해 out/v2_final.mp4 를 만든다.
+[목표] clips/ 의 AI 생성 영상을 edl.json 규격 그대로 조립해 out/v2_final.mp4 를 만든다.
+       (edl.json 에 source 가 있는 컷은 원본 클립을 잘라 확대해 쓰므로 파일이 없어도 됨 — 아래 D 표)
 [정답 규격] 컷 길이·전환·효과 = edl.json / 자막 = captions.ass(스타일 13종, 위치·크기·색은 원본 측정값) / 효과음 = sfx_cues.csv
 [순서]
 1) python build_ffmpeg.py --check  → 누락 클립 목록 보고
@@ -415,7 +433,7 @@
 [작업 폴더] 햄찌유튜브_영상분석/편집키트/2위/hyperframes
 [목표] index.html 컴포지션(영상 15개 슬롯·자막·효과음 트랙이 원본 타이밍으로 이미 배치됨)에 실제 소스를 연결해 렌더.
 [순서]
-1) assets/clips/s01.mp4~, assets/audio/bgm.mp3, assets/voice/sNN.wav, assets/sfx/*.wav, assets/fonts/Pretendard-*.woff2 존재 확인 → 없는 파일은 목록 보고 후, 해당 <audio>/<video> 는 data-hidden 처리
+1) assets/clips/(키트 clips 폴더와 같은 원본 클립 — 재사용 컷의 <video> 는 원본 파일을 잘라 확대하도록 이미 설정됨), assets/audio/bgm.mp3, assets/voice/sNN.wav, assets/sfx/*.wav, assets/fonts/Pretendard-*.woff2 존재 확인 → 없는 파일은 목록 보고 후, 해당 <audio>/<video> 는 data-hidden 처리
 2) npx hyperframes lint → 오류 0
 3) npx hyperframes check → 0 findings
 4) npx hyperframes snapshot --at 0.3, 3.4, 8.3, 13.4, 18.6, 22.1 로 프레임 확인 (라벨 y≈878px, 대사 y≈952px)
@@ -443,7 +461,7 @@
 | #15 | 32.07 | 3.60 | cut |  | 1x1 |
 | #18 | 36.37 | 1.60 | cut |  | p088 |
 | #19 | 37.97 | 0.50 | cut | whip | p088 |
-| #20 | 38.47 | 2.07 | cut | whip | p088 |
+| #20 | 38.47 | 2.07 | cut |  | p088 |
 
 ## 떡상 편집 기법 해설
 | 기법 | 위치 | 설명 |
@@ -477,7 +495,23 @@
 | F. 낮잠 | #14 | 초근접 키프레임 → 6초 1회(아주 미세한 움직임) |
 | G. 게임 방 | #18, #19, #20 | 웹캠 얼굴 5초 1회 + 휩 팬은 편집 + 게임 화면은 본인 캡처 |
 | H. 편집 전용 | #16, #17, #21 | 암전·엔딩 카드는 FFmpeg/HyperFrames로 제작 |
-- 비용 절약: 21컷 중 10컷은 정지 이미지·편집 효과로 충분, 나머지는 배치별 5초 생성 후 잘라 쓰기 → 약 5회 생성
+
+## 생성 절약표 — 같은 원본 줌 재사용 (자동 측정 + 분석 확인)
+- 21컷 = 영상 생성 11개 + 정지 이미지 4장 + 편집 효과만 4컷 + **재사용(확대) 2컷** · 키프레임 이미지는 세팅 기준 14장
+- 줌 체인 1개(그중 3단 이상 0개) · 최대 배율 1.05배 → 2배 넘게 확대하는 원본은 4K로 생성하거나 업스케일 후 사용
+| 원본 클립 | 이 클립으로 만드는 컷 (배율 · 중심 가로/세로 % · 길이) | 합계 | 생성 길이 |
+|---|---|---|---|
+| #02 | #01 ×1.05 (49/61) 0.20초 → #02 ×1.0 (50/50) 1.47초 | 1.67초 | 5초 |
+
+## 귀여운 모먼트 (이 영상)
+| 모먼트 | 컷 | 왜 귀여운가 | 이미지 프롬프트 조각 | 움직임 프롬프트 조각 |
+|---|---|---|---|---|
+| 렌즈에 코 박는 셀카 | #1, #2, #12, #18 | 카메라에 너무 가까이 들이대 초점이 날아간 얼굴 — 폰이 서툰 작은 동물 연기. 시작 1초 훅, 마지막 반전(웹캠)에서도 반복 | Extreme close-up selfie of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest wearing a tiny pink bucket hat sized exactly to its head, face pressed too close to the phone lens, slightly out of focus, big curious glossy eyes. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | The otter leans into the lens, then pulls back as the focus snaps in, blinking. |
+| 몸만 한 디저트 껴안고 한입 | #6, #7, #13 | 몸보다 큰 음식을 짧은 팔로 끌어안는 크기 대비 + 입가 크림 묻히고 오물오물 | a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a tiny pink hat hugging a giant cream sandwich cake as big as its body with both short arms, biting into it, cream smeared on its whiskers. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | The otter hugs the cake tighter and takes a big bite, cheeks puffing, chewing fast. |
+| 아이스크림 맛보고 동그래진 눈 | #4 | 4.9초 롱테이크 동안 한입 → 멈칫 → 눈이 동그래지는 느린 반응 | a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a tiny beige bucket hat licking a purple soft-serve ice cream held by a human hand, eyes going perfectly round in surprise. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | The otter licks once, freezes, and its eyes slowly widen. |
+| 뒤돌아 짧은 팔로 가리키기 | #5 | 동그란 뒷모습·작은 꼬리 → 뒤돌아 짧은 팔로 호수를 가리키는 가이드 흉내 | Back view of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a tiny bucket hat, round fluffy back and tiny tail toward the camera, turning to point at a lake with one stubby arm. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | The otter turns around, points with a short arm, then waddles out of frame. |
+| 수건 위 낮잠 → 눈 번쩍 | #14 | 5.7초 동안 숨 쉬는 털만 움직이다 마지막에 눈을 떠 카메라를 봄 — 느린 반응의 귀여움 | Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest asleep on a white towel, eyes closed, tiny paws tucked under its chin, fur gently rising and falling. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | The otter sleeps peacefully, then slowly opens its eyes and looks straight at the camera. |
+| 작은 앞발로 인사 | #3, #15 | 앞발이 짧아 손 흔들기가 파닥파닥 빨라 보임 — 시작·끝 인사로 대칭 | a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest standing on a forest path waving with one tiny paw, wearing a tiny crossbody bag. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | The otter waves a tiny paw rapidly with a slight bounce. |
 
 | 이 영상에 쓰는 모델 | 종류 | 사양 | 이럴 때 | 추천 컷 수 |
 |---|---|---|---|---|

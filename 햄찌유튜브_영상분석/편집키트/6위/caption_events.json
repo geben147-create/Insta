@@ -1,0 +1,410 @@
+[
+ {
+  "style": "CardBig",
+  "text": "불청객",
+  "start": 0.0,
+  "end": 0.1,
+  "type_from": 0,
+  "shot": 1
+ },
+ {
+  "style": "LineHero",
+  "text": "앙냠",
+  "start": 0.1,
+  "end": 0.667,
+  "type_from": 0,
+  "shot": 2
+ },
+ {
+  "style": "LineHero",
+  "text": "크림치즈 최고~",
+  "start": 0.667,
+  "end": 1.533,
+  "type_from": 0,
+  "shot": 3
+ },
+ {
+  "style": "Paren",
+  "text": "(월요병 오기 전 마지막 평화)",
+  "start": 1.533,
+  "end": 3.133,
+  "type_from": 0,
+  "shot": 4
+ },
+ {
+  "style": "LineCW1",
+  "text": "???: 흠흠…",
+  "start": 3.133,
+  "end": 4.733,
+  "type_from": 0,
+  "shot": 4
+ },
+ {
+  "style": "LineCW1",
+  "text": "저기요, 시뇨리나?",
+  "start": 4.733,
+  "end": 6.333,
+  "type_from": 0,
+  "shot": 4
+ },
+ {
+  "style": "LineCW1",
+  "text": "가을밤 연주회에 가던 길인데",
+  "start": 6.333,
+  "end": 7.533,
+  "type_from": 0,
+  "shot": 5
+ },
+ {
+  "style": "LineCW1",
+  "text": "창문 틈을 잘못 탔지 뭡니까",
+  "start": 7.533,
+  "end": 8.933,
+  "type_from": 0,
+  "shot": 6
+ },
+ {
+  "style": "LineCW1",
+  "text": "혹시 출구가 어느 쪽인지",
+  "start": 8.933,
+  "end": 9.6,
+  "type_from": 0,
+  "shot": 7
+ },
+ {
+  "style": "LineCW1",
+  "text": "알려 주실 수 있을까요?",
+  "start": 9.6,
+  "end": 11.483,
+  "type_from": 0,
+  "shot": 8
+ },
+ {
+  "style": "Paren",
+  "text": "(망했다 망했다 망했다)",
+  "start": 11.483,
+  "end": 13.367,
+  "type_from": 0,
+  "shot": 8
+ },
+ {
+  "style": "Paren",
+  "text": "(먹이사슬 꼭대기의 위엄)",
+  "start": 13.367,
+  "end": 14.4,
+  "type_from": 0,
+  "shot": 9
+ },
+ {
+  "style": "LineCW1",
+  "text": "이런, 번역기를 두고 나왔군",
+  "start": 14.4,
+  "end": 15.667,
+  "type_from": 0,
+  "shot": 10
+ },
+ {
+  "style": "LineHero",
+  "text": "히끅",
+  "start": 15.667,
+  "end": 16.5,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LineHero",
+  "text": "오기만 해 봐!!",
+  "start": 16.5,
+  "end": 17.333,
+  "type_from": 0,
+  "shot": 11
+ },
+ {
+  "style": "LineHero",
+  "text": "지, 진짜",
+  "start": 17.333,
+  "end": 17.933,
+  "type_from": 0,
+  "shot": 12
+ },
+ {
+  "style": "LineHero",
+  "text": "이걸로 팬다아!!",
+  "start": 17.933,
+  "end": 18.9,
+  "type_from": 0,
+  "shot": 13
+ },
+ {
+  "style": "Emph",
+  "text": "끼야아악",
+  "start": 18.9,
+  "end": 19.6,
+  "type_from": 0,
+  "shot": 15
+ },
+ {
+  "style": "LineCW1",
+  "text": "해칠 생각은 없습니다만",
+  "start": 19.6,
+  "end": 20.967,
+  "type_from": 0,
+  "shot": 16
+ },
+ {
+  "style": "LineHero",
+  "text": "훠이 훠이 훠이",
+  "start": 20.967,
+  "end": 21.567,
+  "type_from": 0,
+  "shot": 17
+ },
+ {
+  "style": "LineHero",
+  "text": "훠이 훠이 훠이 나 하나도 맛없어 진짜로오",
+  "start": 21.567,
+  "end": 23.033,
+  "type_from": 9,
+  "shot": 18
+ },
+ {
+  "style": "LineCW1",
+  "text": "제 바이올린이 저쪽에 있어서요",
+  "start": 23.033,
+  "end": 23.933,
+  "type_from": 0,
+  "shot": 19
+ },
+ {
+  "style": "Paren",
+  "text": "(멘탈 가출{PUN})",
+  "start": 23.933,
+  "end": 24.833,
+  "type_from": 0,
+  "shot": 19
+ },
+ {
+  "style": "Emph",
+  "text": "끄아아아아!!!",
+  "start": 24.833,
+  "end": 25.333,
+  "type_from": 0,
+  "shot": 20
+ },
+ {
+  "style": "Emph",
+  "text": "받아라아아!!!",
+  "start": 25.333,
+  "end": 26.1,
+  "type_from": 0,
+  "shot": 21
+ },
+ {
+  "style": "LineCW1",
+  "text": "끄억!",
+  "start": 26.1,
+  "end": 26.367,
+  "type_from": 0,
+  "shot": 23
+ },
+ {
+  "style": "Paren",
+  "text": "(물리적 설득 중)",
+  "start": 26.367,
+  "end": 27.0335,
+  "type_from": 0,
+  "shot": 24
+ },
+ {
+  "style": "LineCW1",
+  "text": "끄응…",
+  "start": 27.034,
+  "end": 27.367,
+  "type_from": 0,
+  "shot": 25
+ },
+ {
+  "style": "LineHero",
+  "text": "흐엉 미안해애",
+  "start": 27.367,
+  "end": 27.967,
+  "type_from": 0,
+  "shot": 26
+ },
+ {
+  "style": "LineHero",
+  "text": "흐어엉 갑자기 튀어나왔다니까아",
+  "start": 27.967,
+  "end": 29.982999999999997,
+  "type_from": 0,
+  "shot": 27
+ },
+ {
+  "style": "LineCW2",
+  "text": "귀뚜라미면 가을 손님이네~",
+  "start": 29.983,
+  "end": 31.133,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "LineHero",
+  "text": "흐어어엉",
+  "start": 31.133,
+  "end": 32.283,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "LineCW2",
+  "text": "(야근하다 전화 받은 언니)",
+  "start": 32.283,
+  "end": 33.433,
+  "type_from": 0,
+  "shot": 28
+ },
+ {
+  "style": "LineHero",
+  "text": "나 진짜 무섭단 말이야아",
+  "start": 33.433,
+  "end": 34.267,
+  "type_from": 0,
+  "shot": 29
+ },
+ {
+  "style": "LineCW2",
+  "text": "종이컵에 쏙 담아서",
+  "start": 34.267,
+  "end": 34.934,
+  "type_from": 0,
+  "shot": 30
+ },
+ {
+  "style": "LineCW2",
+  "text": "창밖에 내놓으면 끝이잖아",
+  "start": 34.934,
+  "end": 35.6,
+  "type_from": 0,
+  "shot": 30
+ },
+ {
+  "style": "LineCW1",
+  "text": "저기… 앵콜만이라도 보게 해 주시면",
+  "start": 35.6,
+  "end": 36.367,
+  "type_from": 0,
+  "shot": 31
+ },
+ {
+  "style": "Paren",
+  "text": "(초조해서 탭댄스 중)",
+  "start": 37.067,
+  "end": 37.933,
+  "type_from": 0,
+  "shot": 33
+ },
+ {
+  "style": "LabelHero",
+  "text": "급 입양 권유",
+  "start": 37.933,
+  "end": 39.567,
+  "type_from": 0,
+  "shot": 34
+ },
+ {
+  "style": "LineCW2",
+  "text": "그럼 이름 지어 주고 키우든가",
+  "start": 37.933,
+  "end": 39.1,
+  "type_from": 0,
+  "shot": 34
+ },
+ {
+  "style": "LineCW2",
+  "text": "귀뚜라미 밥은 오이래",
+  "start": 39.1,
+  "end": 39.567,
+  "type_from": 0,
+  "shot": 35
+ },
+ {
+  "style": "LineHero",
+  "text": "아니 걔 뒷다리가",
+  "start": 39.567,
+  "end": 40.367,
+  "type_from": 0,
+  "shot": 36
+ },
+ {
+  "style": "LineHero",
+  "text": "완☆전",
+  "start": 40.367,
+  "end": 41.0,
+  "type_from": 0,
+  "shot": 37
+ },
+ {
+  "style": "Emph",
+  "text": "내 키만 해!!!!!!",
+  "start": 41.0,
+  "end": 41.6,
+  "type_from": 0,
+  "shot": 38
+ },
+ {
+  "style": "LineHero",
+  "text": "ㅈ점프도 한다니까",
+  "start": 41.6,
+  "end": 42.4,
+  "type_from": 0,
+  "shot": 39
+ },
+ {
+  "style": "Paren",
+  "text": "(텅 빈 감옥)",
+  "start": 42.4,
+  "end": 43.8,
+  "type_from": 0,
+  "shot": 41
+ },
+ {
+  "style": "LineHero",
+  "text": "어…",
+  "start": 43.8,
+  "end": 44.933,
+  "type_from": 0,
+  "shot": 42
+ },
+ {
+  "style": "LineHero",
+  "text": "…",
+  "start": 44.933,
+  "end": 46.1,
+  "type_from": 0,
+  "shot": 43
+ },
+ {
+  "style": "LineHero",
+  "text": "비었어",
+  "start": 46.1,
+  "end": 46.9,
+  "type_from": 0,
+  "shot": 44
+ },
+ {
+  "style": "LineHero",
+  "text": "…",
+  "start": 46.9,
+  "end": 47.7,
+  "type_from": 0,
+  "shot": 45
+ },
+ {
+  "style": "Paren",
+  "text": "(머릿속 새하얘짐)",
+  "start": 47.7,
+  "end": 49.0,
+  "type_from": 0,
+  "shot": 46
+ }
+]

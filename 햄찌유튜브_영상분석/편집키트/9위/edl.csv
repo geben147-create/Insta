@@ -1,0 +1,73 @@
+﻿컷,시작(초),끝(초),길이(초),프레임,대상,사이즈,전환(들어올 때),효과,화면비,생성 방식,추천 모델,쓰는 클립,클립 시작(초),디지털 줌(배율@중심),컷 안 줌(시작→끝 배율)
+1,0.0,0.1,0.1,3,insert,INSERT(썸네일 프레임),cut,,full,재사용,생성 불필요,clips/s11.mp4,0.5,"x1.15@0.32,0.59",
+2,0.1,0.9,0.8,24,cw1,MCU,cut,,full,i2v,veo-3-1 > kling-v3,clips/s02.mp4,0.5,,
+3,0.9,2.033,1.133,34,group,MS(투샷),cut,,full,ref,seedance-2-0 > kling-v3-omni > gemini-omni-1-1-flash,clips/s03.mp4,0.5,,x1.031
+4,2.033,2.5,0.467,14,cw1,MS,cut,,full,i2v,veo-3-1 > kling-v3,clips/s04.mp4,0.5,,
+5,2.5,2.933,0.433,13,hero,CU,cut,,full,ref,kling-v3-omni > minimax-h3 > seedance-2-0,clips/s05.mp4,0.5,,
+6,2.933,3.533,0.6,18,hero,ECU,cut,,full,재사용,생성 불필요,clips/s05.mp4,0.933,"x1.53@0.50,0.52",
+7,3.533,3.933,0.4,12,cw2,MS,cut,,full,i2v,veo-3-1 > kling-v3,clips/s07.mp4,0.5,,
+8,3.933,4.733,0.8,24,cw2,MS(조금 가까이),cut,,full,재사용,생성 불필요,clips/s07.mp4,0.9,"x1.13@0.50,0.66",
+9,4.733,5.5,0.767,23,leader,MS,cut,,full,재사용,생성 불필요,clips/s10.mp4,0.5,"x1.43@0.50,0.62",
+10,5.5,6.667,1.167,35,leader,MS(조금 넓게),cut,,full,i2v,veo-3-1 > kling-v3,clips/s10.mp4,1.267,,x1.054
+11,6.667,7.467,0.8,24,hero,WS,cut,,full,ref,kling-v3-omni > seedance-2-0,clips/s11.mp4,0.6,,
+12,7.467,8.067,0.6,18,leader,CU(손 인서트),cut,,full,i2v,veo-3-1 > kling-v3,clips/s12.mp4,0.5,,
+13,8.067,8.833,0.767,23,hero,CU,cut,,full,ref,kling-v3-omni > seedance-2-0,clips/s13.mp4,0.5,,x1.032
+14,8.833,10.067,1.233,37,leader,MS,cut,,full,i2v,veo-3-1 > kling-v3,clips/s14.mp4,0.5,,
+15,10.067,11.033,0.967,29,hero,WS,cut,,full,재사용,생성 불필요,clips/s11.mp4,1.4,"x0.96@0.48,0.52",x1.072
+16,11.033,12.233,1.2,36,leader,MS,cut,,full,i2v,veo-3-1 > kling-v3,clips/s16.mp4,0.5,,
+17,12.233,13.067,0.833,25,hero,CU,cut,,full,재사용,생성 불필요,clips/s13.mp4,1.267,"x0.98@0.50,0.50",x1.054
+18,13.067,14.067,1.0,30,leader,CU(손 인서트),cut,,full,i2v,veo-3-1 > kling-v3,clips/s18.mp4,0.5,,
+19,14.067,14.8,0.733,22,hero,CU,cut,,full,ref,kling-v3-omni > minimax-h3 > seedance-2-0,clips/s19.mp4,0.5,,x1.043
+20,14.8,15.233,0.433,13,hero,ECU,cut,,full,재사용,생성 불필요,clips/s19.mp4,1.233,"x1.63@0.52,0.44",
+21,15.233,15.8,0.567,17,hero,XCU(눈·코 초근접),cut,,full,재사용,생성 불필요,clips/s19.mp4,1.666,"x2.84@0.51,0.40",
+22,15.8,17.2,1.4,42,leader,WS,cut,,full,ref,seedance-2-0 > veo-3-1 > gemini-omni-1-1-flash,clips/s22.mp4,0.5,,x1.049
+23,17.2,17.6,0.4,12,leader,CU(손 인서트),cut,,full,i2v,viduq3-pro > veo-3-1 > still,clips/s23.mp4,0.5,,
+24,17.6,18.1,0.5,15,hero,CU,cut,,full,ref,kling-v3-omni > minimax-h3,clips/s24.mp4,0.5,,
+25,18.1,18.533,0.433,13,leader,MS(로우앵글),cut,,full,i2v,veo-3-1 > kling-v3,clips/s25.mp4,0.5,,
+26,18.533,18.967,0.433,13,hero,XCU(눈·코 초근접),cut,,full,재사용,생성 불필요,clips/s24.mp4,1.0,"x2.7@0.55,0.43",
+27,18.967,19.533,0.567,17,leader,MS(슬라이드+인물),cut,,full,i2v,veo-3-1 > kling-v3 > edit,clips/s27.mp4,0.5,,
+28,19.533,20.067,0.533,16,hero,ECU,cut,,full,재사용,생성 불필요,clips/s31.mp4,0.5,"x1.35@0.49,0.48",
+29,20.067,20.6,0.533,16,insert,INSERT(슬라이드),cut,push_in_slow,full,재사용,생성 불필요,clips/s27.mp4,1.067,"x1.25@0.29,0.44",
+30,20.6,21.2,0.6,18,leader,CU(손 인서트),cut,,full,i2v,veo-3-1 > kling-v3,clips/s30.mp4,0.5,,
+31,21.2,21.633,0.433,13,hero,CU,cut,,full,ref,kling-v3-omni > minimax-h3 > hailuo-2-3,clips/s31.mp4,1.033,,
+32,21.633,22.1,0.467,14,hero,XCU(눈·코 초근접),cut,,full,재사용,생성 불필요,clips/s31.mp4,1.466,"x2.7@0.53,0.41",
+33,22.1,22.667,0.567,17,leader,MS(슬라이드+인물),cut,,full,재사용,생성 불필요,clips/s35.mp4,0.5,"x1.03@0.53,0.55",
+34,22.667,23.5,0.833,25,hero,CU,cut,,full,ref,kling-v3-omni > seedance-2-0,clips/s34.mp4,0.5,,
+35,23.5,24.467,0.967,29,leader,MS(슬라이드+인물),cut,,full,i2v,veo-3-1 > kling-v3,clips/s35.mp4,1.067,,
+36,24.467,25.733,1.267,38,group,WS,cut,,full,ref,seedance-2-0 > gemini-omni-1-1-flash > kling-v3-omni,clips/s36.mp4,0.5,,x1.058
+37,25.733,26.667,0.933,28,cw1,MS,cut,,full,i2v,veo-3-1 > kling-v3,clips/s37.mp4,0.5,,x1.042
+38,26.667,27.567,0.9,27,cw1,MCU,cut,,full,재사용,생성 불필요,clips/s37.mp4,1.433,"x1.85@0.29,0.27",
+39,27.567,28.033,0.467,14,hero,CU(3/4),cut,,full,재사용,생성 불필요,clips/s40.mp4,0.5,"x3.48@0.70,0.33",
+40,28.033,29.133,1.1,33,group,MS(투샷),cut,,full,ref,seedance-2-0 > kling-v3-omni,clips/s40.mp4,0.967,,x1.05
+41,29.133,29.8,0.667,20,hero,CU(3/4),cut,,full,재사용,생성 불필요,clips/s40.mp4,2.067,"x4.7@0.70,0.32",
+42,29.8,30.5,0.7,21,leader,MS(손 인서트),cut,,full,i2v,veo-3-1 > kling-v3,clips/s42.mp4,0.5,,
+43,30.5,30.9,0.4,12,hero,CU,cut,,full,ref,kling-v3-omni > minimax-h3 > hailuo-2-3,clips/s43.mp4,0.5,,
+44,30.9,31.3,0.4,12,hero,ECU,cut,,full,재사용,생성 불필요,clips/s43.mp4,0.9,"x1.85@0.51,0.48",
+45,31.3,32.4,1.1,33,leader,WS,cut,,full,ref,seedance-2-0 > veo-3-1,clips/s45.mp4,0.5,,
+46,32.4,33.3,0.9,27,leader,MS(손 인서트),cut,,full,i2v,veo-3-1 > kling-v3,clips/s46.mp4,0.5,,
+47,33.3,33.833,0.533,16,hero,CU→ECU,cut,crash_zoom,full,ref,minimax-h3 > hailuo-2-3 > kling-v3-omni,clips/s47.mp4,0.5,,
+48,33.833,34.633,0.8,24,leader,WS,cut,,full,ref,seedance-2-0 > veo-3-1,clips/s48.mp4,0.5,,x1.048
+49,34.633,35.433,0.8,24,leader,CU(손 인서트),cut,,full,i2v,veo-3-1 > kling-v3,clips/s49.mp4,0.5,,
+50,35.433,36.033,0.6,18,hero,WS,cut,,full,ref,kling-v3-omni > seedance-2-0,clips/s50.mp4,0.5,,
+51,36.033,36.6,0.567,17,hero,CU,cut,,full,ref,kling-v3-omni > minimax-h3,clips/s51.mp4,0.5,,
+52,36.6,36.967,0.367,11,hero,ECU,cut,,full,재사용,생성 불필요,clips/s51.mp4,1.067,"x1.69@0.54,0.45",
+53,36.967,37.833,0.867,26,leader,MS,cut,,full,i2v,veo-3-1 > kling-v3,clips/s53.mp4,0.5,,
+54,37.833,38.767,0.933,28,leader,MCU,cut,,full,i2v,veo-3-1 > kling-v3,clips/s54.mp4,0.5,,
+55,38.767,39.067,0.3,9,hero,CU,cut,,full,ref,kling-v3-omni > minimax-h3 > still,clips/s55.mp4,0.5,,
+56,39.067,39.533,0.467,14,hero,ECU,cut,,full,재사용,생성 불필요,clips/s55.mp4,0.8,"x1.74@0.50,0.48",
+57,39.533,40.667,1.133,34,leader,MS,cut,,full,i2v,veo-3-1 > kling-v3,clips/s57.mp4,0.5,,
+58,40.667,41.233,0.567,17,insert,INSERT(슬라이드),cut,push_in_slow,full,재사용,생성 불필요,clips/s57.mp4,1.633,"x1.16@0.19,0.17",
+59,41.233,41.8,0.567,17,hero,CU,cut,,full,ref,kling-v3-omni > minimax-h3,clips/s59.mp4,0.5,,
+60,41.8,42.4,0.6,18,hero,ECU,cut,,full,재사용,생성 불필요,clips/s59.mp4,1.067,"x1.74@0.51,0.52",
+61,42.4,43.333,0.933,28,leader,MS,cut,,full,i2v,veo-3-1 > kling-v3,clips/s61.mp4,0.5,,x1.038
+62,43.333,44.2,0.867,26,leader,CU(손 인서트),cut,,full,i2v,veo-3-1 > kling-v3,clips/s62.mp4,0.5,,
+63,44.2,45.6,1.4,42,hero,WS,cut,,full,ref,kling-v3-omni > seedance-2-0,clips/s63.mp4,0.5,,x1.101
+64,45.6,46.1,0.5,15,hero,CU(3/4),cut,,full,ref,minimax-h3 > kling-v3-omni,clips/s64.mp4,0.5,,
+65,46.1,46.733,0.633,19,cw1,MS,cut,,full,i2v,veo-3-1 > kling-v3,clips/s65.mp4,0.5,,
+66,46.733,48.133,1.4,42,group,MS(투샷),cut,,full,ref,seedance-2-0 > kling-v3-omni,clips/s66.mp4,0.5,,x1.059
+67,48.133,48.8,0.667,20,hero,ECU,cut,,full,ref,kling-v3-omni > still,clips/s67.mp4,0.5,,
+68,48.8,49.367,0.567,17,hero,MCU(로우앵글),cut,,full,ref,kling-v3-omni > seedance-2-0,clips/s68.mp4,0.5,,
+69,49.367,50.133,0.767,23,hero,WS(하이앵글),cut,,full,ref,seedance-2-0 > kling-v3-omni > gemini-omni-1-1-flash,clips/s69.mp4,0.5,,
+70,50.133,50.633,0.5,15,hero,MCU(로우앵글),cut,,full,ref,kling-v3-omni > seedance-2-0,clips/s70.mp4,0.5,,
+71,50.633,51.667,1.033,31,hero,CU(로우앵글),cut,,full,재사용,생성 불필요,clips/s70.mp4,1.0,"x1.53@0.50,0.41",
+72,51.667,52.5,0.833,25,hero,WS(하이앵글),cut,,full,ref,kling-v3-omni > seedance-2-0,clips/s72.mp4,0.5,,

@@ -1,0 +1,1372 @@
+> 기본 동물: 수달 · 소품: 사원증 목걸이 (추천) · 이름: 김OO (한 페이지판 index.html 에서 다른 동물로 바꿔 '📋 전체 복사' 하면 전부 바뀐 상태로 복사됩니다)
+
+(햄찌 유튜브 영상 분석 — 7위 「궁극기 같은 모먼트」 상세. 공통 개요·모델 가이드는 개요.txt)
+
+---
+
+# 7위 「궁극기 같은 모먼트」 — 오피스 시트콤 · 착각 헛수고(궁극기 뻘타이밍)형
+
+- 원본: https://www.youtube.com/watch?v=TsXhvfQwjtE · 업로드 2026-08-11 17:45 KST
+- 조회수 224,622 · 일평균 5,194 · 길이 49.7초 · 72컷 · 평균 컷 0.69초(21프레임) · 분당 87컷
+- 대사 비율 47% · 원본 음량 -21.5 LUFS(권장 -14) · 가장 짧은 컷 0.10초 · 가장 긴 컷 2.00초 · 중앙값 0.62초
+
+## 한 줄 요약
+팀장이 몇 주 전 부탁했다는 자료를 다 해 놨냐고 묻자, 기억에도 없는 일을 씩씩한 '넵!'으로 받아 버린 주인공 → 속으로 망했다며 심호흡 → 게임 궁극기처럼 각성(줌 블러·색 섬광)해 몽타주 속도로 자료를 만들고, 중간에 난입한 동료의 키링 자랑까지 영업용 미소로 버텨 냄 → 회의 직전 아슬아슬 세이프 → 알고 보니 애초에 동료 담당 업무였고 팀장도 사람을 착각 → 그럼 이 자료는 뭐냐는 물음에 앞발을 번쩍 들고 깜짝 선물인 척 얼버무리는 50초 직장인 헛수고 콩트.
+
+## 떡상 공식
+썸네일 플래시 훅 → 기습 호출·질문 → 기억 공백(되묻기) → 압박 구체화(L컷 + 3단 줌) → 허세 대답 + 마감 통보 → 현실 자각(속마음 괄호·자모 타이핑) → 궁극기 발동(줌 블러 잔상 → 색 섬광) → 방해꾼 난입 + 영업용 미소 → 재각성 초고속 몽타주 → 아슬아슬 세이프(음악 하드 스톱) → 반전(남의 업무 + 팀장 착각) → 뻔뻔한 서프라이즈 엔딩
+
+## 왜 떡상했나
+1. 게이머 밈 '궁극기'를 직장 공감에 이식: 제목·태그(궁극기·초월)와 첫 0.1초 썸네일 프레임(#1)이 '각성'을 예고하고, #29~#31의 줌 블러 → 색 섬광 1.7초가 그 약속을 화면으로 터뜨림. 그런데 그 궁극기를 '헛타이밍'에 썼다는 반전(#60~#67)이 진짜 펀치라인 — 설명란 한 줄 요약과 정확히 맞물림
+2. 소리의 켜짐·꺼짐이 곧 이야기 구조: 0~12.7초 대화(말소리 약 87%)로 압박을 쌓고, 12.7~16.2초는 저역이 -33dB까지 빠진 거의 무음 속 숨소리·속삭임, 16.2초 저음 히트와 함께 약 123~126BPM 음악이 터졌다가 35.3초에 칼같이 끊김(저역 -18dB·중역 -21dB로 급락) → 헐떡임 → 반전 대화. 무음으로 봐도 자막, 소리로 들어도 구조가 읽힘
+3. 브레이크 한 번: 궁극기 발동 직후(#32) 동료의 키링 자랑으로 가속을 5.1초(#32~#40) 멈추고, 억지 웃음과 어서 가 줬으면 하는 속마음 괄호로 사회생활 공감을 챙김. 멈춤이 있어 #41 이후 재가속(질주·스테이플러·휩 팬)이 더 시원함
+4. 반전이 겹겹이: ①안 해 놓고 했다고 함(#14~#25) → ②초인적으로 해냄(#43~#59) → ③애초에 내 일이 아님(#60~#61) → ④팀장도 사람을 착각(#64~#67). 억울함을 마지막 컷(#72)의 앞발 번쩍 포즈로 귀엽게 뒤집어 댓글(581개)을 부름
+5. 속마음 괄호 자막이 주연: 72컷 중 21컷이 '( )' 속마음·해설 자막이고 대사 글자도 약 80px로 1위 영상(약 64px)보다 큼 → 평균 0.69초(중앙값 0.62초) 초단 컷에서도 한눈에 읽힘. '과장 표현 고지'(#51) 같은 편집자 개입 자막으로 한 번 더 웃김
+6. 제작 효율 + 업로드 타이밍: 72컷 중 17컷이 앞 컷 원본을 1.35~4배 디지털 줌으로 잘라 쓴 컷(#18→#19→#20 등)이라 생성 클립 수를 줄이면서도 MS→CU→ECU 조임 리듬을 만듦. 업로드는 화요일 17:45(퇴근 직전), 태그는 직장인·공감
+
+## 편집 리듬
+- 배경 리듬 추정 129.2 BPM(참고용) · 컷-박자 일치 33.8% (우연 기준 28%) · 무음 14%
+- 해석: 전체 컷-온셋 일치율 33.8%는 우연 기준선 27.7%보다 조금 높은 수준이라 대화·반전 파트는 대사·리액션 타이밍으로 잘랐습니다(0~16.2초 17%, 35.3초 이후 6%). 궁극기 몽타주(16.2~35.3초)는 약 123~126BPM 음악이 깔리지만 온셋이 촘촘해 실제 일치율(64~86%)이 우연 기대치(65~86%)와 같아 '박자 편집'이라 단정하기 어렵고, 대신 효과음을 컷 첫 프레임에 붙이는 방식이 뚜렷합니다 — 스테이플러·돌진 컷 #50·#52·#54는 효과음 시작과 0.001~0.002초 차이. 따라 만들 때는 대화는 문장 기준, 몽타주는 컷마다 효과음 1개를 컷 첫 프레임에 두세요.
+
+## 스토리 비트
+| 비트 | 구간(초) | 감정 | 내용 |
+|---|---|---|---|
+| 훅 · 썸네일 + 호출 | 0.00–1.17 | +0.0 | 0.1초 썸네일 프레임(초대형 두 글자 제목)으로 '각성'을 예고 → 파티션 너머 팀장이 이름을 부르고, 거대한 의자에 파묻힌 주인공이 움찔 |
+| 기습 질문 · 기억 공백 | 1.17–4.40 | -0.2 | 팀장이 예전에 말한 조사를 기억하냐고 묻고, 주인공은 '언제였지' 라벨과 함께 MCU→CU로 되물음 |
+| 압박 구체화 | 4.40–9.43 | -0.4 | 팀장이 시점·내용·완료 여부를 차례로 조임. 팀장 대사를 주인공 얼굴 위로 넘기는 L컷(#8·#10·#12)과 WS→MCU→ECU 3단 디지털 줌으로 압박을 시각화 |
+| 허세 대답 + 마감 통보 | 9.43–12.63 | +0.3 | 잠깐 머뭇거린 뒤 씩씩하게 대답 → 팀장이 오후 회의에서 보자며 못 박음 → 대답만 똑똑하다는 반어 라벨 + WS→MS→CU 3단 디지털 줌 |
+| 현실 자각 | 12.63–16.20 | -0.9 | 들숨·날숨 괄호 자막 → 턱 괸 초근접 → 광각 클로즈업에 '기억 제로' 라벨과 자모로 쪼개 타이핑된 속마음 비속어. 저역이 -33dB까지 빠진 거의 무음 구간 |
+| 궁극기 발동 | 16.20–20.27 | +0.8 | 16.2초 저음 히트와 함께 음악 시작 → 키보드 연타·로봇 두뇌·수식 오버레이 → 줌 블러 잔상 → 빨강·노랑·초록·분홍 색 섬광의 '초월' 순간 |
+| 방해꾼 + 영업용 미소 | 20.27–25.37 | -0.4 | RGB 색 분리와 함께 동료가 키링을 자랑하며 난입 → 억지 웃음·속 타는 사회적 미소·또박또박 끊어 치는 칭찬 → 어서 가 줬으면 하는 속마음 |
+| 재각성 초고속 몽타주 | 25.37–35.23 | +0.9 | 다시 목숨 걸고 집중 → 배경만 빨라지는 타이핑 → 노트북 뒤판 와이프 → 사람 다리 사이 질주(줌 블러·초록 스피드 광선) → 스테이플러 2타 + 휩 팬 + 과장 고지 → 보고서를 물고 돌진 |
+| 아슬아슬 세이프 | 35.23–38.33 | +0.6 | 음악이 뚝 끊기고 보고서 위 앞발 → 눈 질끈 감고 헐떡이며 자모가 깨진 발표 → 안도의 한숨 |
+| 반전 · 남의 업무 | 38.33–41.67 | -0.8 | 동료가 자기를 가리키며 그거 자기 업무 아니냐고 되물음(숨은 펀치인 2회) → '청천벽력' 라벨 → 주인공은 그제야 기억이 없던 이유를 깨달음 |
+| 팀장의 깨달음 | 41.67–45.27 | -0.6 | 팀장이 사람을 착각했음을 깨닫고(주인공 초근접 위 L컷) 펜을 멈춘 채 그럼 이 자료는 뭐냐고 물음 |
+| 민망 → 서프라이즈 엔딩 | 45.27–49.73 | +0.2 | 물어볼걸 후회 라벨 → 난처한 투샷 → 눈치 보는 초근접 → 앞발 번쩍 '깜짝 선물' 포즈로 뻔뻔하게 마무리하고 뚝 끊음 |
+
+## 자막 시스템 (원본 측정값)
+자막은 4층 구조. ①상황 라벨(대사 바로 위 반투명 흰 박스, 기울임 없는 정자체) ②화자 색 대사(주인공 흰색·팀장 레몬 옐로·동료 형광 초록) ③속마음·해설 괄호 자막 '( )'(흰 글씨, 대사 자리) ④의성어·환호용 기울임 강조. 대사는 타이핑, 라벨·괄호는 통째로 등장. 1위 영상보다 대사 자리가 위(y≈0.867)이고 글자가 큼(약 80px). 사람 대사는 말하는 사람 화면을 떠나 주인공 얼굴 위로 넘어가는 L컷 자막이 많음(#8·#10·#12·#33·#34·#65)
+- **상황 라벨**: 반투명 흰 둥근 박스(측정 박스 색 #E1D8D1~#E5DCE1, 배경 대비 불투명도 약 75%) + 짙은 회색~검정 글씨, 글자 높이 약 39~40px(폰트 약 40px, 1080p 기준), 박스 높이 약 67~72px · 박스 중심 y≈0.767(대사 바로 위), 가로 가운데. 기울임 없는 정자체. 컷과 함께 통째로 등장(타이핑 없음) — 속마음·상황 요약(기억 없음, 대답만 똑똑함, 간발의 세이프, 연이은 깨달음 등). 팀장 대사의 앞부분(시간·장소)을 라벨이 대신 말하기도 함(#16~#18). 명사형 말끝을 동물 이름 말장난으로(원본: -햄 → 달)
+- **대사(주인공)**: 흰 글씨(측정 #FFFCFA) + 검정 외곽선 약 5~6px, 중간 굵기, 글자 높이 약 82px(폰트 약 80px), 중심 y≈0.867, 가로 가운데, 한 글자씩 타이핑 — 주인공 대답·감탄사. 더듬기, 자모를 풀어 쓴 타이핑(#24·#56), 마침표로 끊어 치기(#39·#58)로 목소리 상태를 글자로 표현
+- **대사(팀장)**: 레몬 옐로 #EAFF12(측정 중앙값 #E9FF10~#EBFF11) + 검정 외곽선 약 5~6px, 굵게, 글자 높이 약 82~83px, 중심 y≈0.867, 타이핑 — 팀장 대사 전용 색. 주인공 컷 위로 넘어가도(L컷) 색으로 화자 구분. 대사 속에 괄호 한 단어를 끼워 주인공의 흐려지는 기억을 표현(#8)
+- **대사(동료)**: 형광 초록 #1EFF2A(측정 #19FF24~#21FF2D) + 검정 외곽선 약 5px, 굵게, 글자 높이 약 83~90px, 중심 y≈0.867, 타이핑. 앞뒤 °.✧✶· 반짝이 문자(#35·#36), 호출 끝 ☆(#32) — 동료 대사 전용 색. 들뜬 자랑은 반짝이 문자로, 반전 대사는 장식 없이
+- **속마음 괄호 자막**: 흰 글씨 + 검정 외곽선 약 5~6px, 보통 굵기, '( )'로 감쌈, 글자 높이 약 91~92px(괄호 포함), 중심 y≈0.868(대사 자리), 컷과 함께 통째로 등장. 72컷 중 21컷 — 주인공 속마음·편집자 해설·과장 고지(#51). 들숨/날숨 화살표(#21·#22)처럼 몸 상태까지 글자로
+- **의성어 강조**: 흰 글씨 + 두꺼운 검정 외곽선 약 9~10px, 기울임, 글자 높이 약 141px(폰트 약 140px), 중심 y≈0.866, 한 글자 — 스테이플러 타격음(#50, #52~#53). 컷·효과음과 같은 프레임에 등장
+- **기울임 환호·엔딩 대사**: 흰 기울임 글씨, 글자 높이 약 81~92px, 외곽선 약 5~6px, 글자 사이 ☆ 또는 앞뒤 °✩. + 분홍 원·노란 별 컬러 문자 장식(#72), 중심 y≈0.863~0.868 — 몽타주 환호(#49)와 엔딩 깜짝 선물 한마디(#72)
+- **썸네일 타이틀**: 흰 글씨 + 매우 두꺼운 검정 외곽선, 글자 영역 높이 약 380px(y 74~454), 왼쪽 위(가로 중심 x≈0.41), 첫 3프레임(0.1초)만 — 영상 첫 프레임을 썸네일과 똑같이 만들어 미리보기와 본편을 연결(#1)
+- **소품 말풍선(초소형)**: 소품 옆 흰 글씨 약 20px + 얇은 외곽선, 괄호로 감쌈(#35·#36) — 키링이 인사하는 것처럼 작은 괄호 자막을 붙여 소품에 캐릭터를 줌
+- **타자 효과**: 대사(흰·옐로·초록)만 음성 단어 타이밍에 맞춰 약 초당 6~9글자로 타이핑(팀장 #4는 1.4초 동안 두 구절 교체). 한 문장이 컷 2~5개에 걸쳐 완성(#7→#8→#9→#10→#11, #12→#13, #35→#36, #64→#65). 자모 단위로 치다가 멈추는 '입력 중' 표기(#24 속마음 비속어, #56 헐떡이는 발표)와 마침표로 한 글자씩 끊는 억지 대답(#39)이 타이핑 개그. 라벨·괄호·강조 자막은 컷과 함께 통째로 등장
+- **장식**: #1 초대형 썸네일 두 글자 / #28 흰 손글씨 수식·그래프가 반투명하게 떠다님 / #29 방사형 줌 블러 + 반투명 잔상 / #30~#31 빨강→노랑→초록→분홍 색 섬광과 방사형 빛줄기 / #32·#53·#54 RGB 색 분리 / #46 초록 스피드 광선 + 청록 잔상 오라 / #35·#36 °.✧✶· 반짝이 문자 / #43 괄호 속 ☆ / #49 글자 사이 ☆ / #72 분홍 원·노란 별 컬러 문자 장식
+
+## 컷별 분석 (72컷)
+위치(3×3) 칸 번호: 1=왼쪽 위 … 5=가운데 … 9=오른쪽 아래
+
+### #01 0.00–0.10s (0.10초, 3프레임) · 인서트 · CU(썸네일 프레임) · 아이레벨 · 전환: 하드컷
+- 카메라: 고정(3프레임 정지 이미지)
+- 위치(3×3): 1, 2, 5, 6, 8, 9 · 대표 색: #a69486, #776a61, #cebaaa, #2a2929
+- 동작·표정: 썸네일과 같은 그림: 작은 회색 노트를 가슴에 안은 주인공 클로즈업 + 왼쪽 위 초대형 두 글자 제목(0.1초 플래시 프레임)
+- 배경: 흐린 사무실 바닥·서랍장
+- 자막: 대사 [초대형 썸네일 제목(각성을 뜻하는 두 글자)] (주인공 동물(흰색) · 썸네일 타이틀(흰 글씨+매우 두꺼운 검정 외곽선, 왼쪽 위))
+- 전환: 오프닝: 썸네일 프레임 3장(0.1초)으로 시작 → 하드컷 · 효과음: 저음 '둥'(0~0.5초 저역 에너지 최대)
+- 편집 기법: 썸네일 플래시 프레임(첫 프레임 = 썸네일) — 추천 화면 미리보기와 영상 첫 프레임을 같은 그림으로 맞춰 클릭한 기대를 그대로 이어 받고, 0.1초 만에 사라져 본편 템포는 해치지 않음
+- 새 대본 예시: (카드) 각성
+- 이미지 프롬프트: Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest standing upright and hugging a small grey notebook almost as big as its chest with both tiny front paws, big round glossy black eyes looking slightly off-camera, fluffy round cheeks, a determined little face; a bright modern Korean open-plan office with light-oak desks, grey fabric cubicle partitions, grey filing cabinets, black mesh ergonomic chairs and long linear LED ceiling lights, blurred coworkers walking by in the background blurred behind, empty space at the top-left for a huge title. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: Edit: hold one still frame (reuse the keyframe of shot 47) for 3 frames (0.1 s) with a huge two-letter title at the top-left, then hard cut to shot 2.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.10초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames)
+- 귀여운 포인트: 동그란 눈 클로즈업, 몸보다 큰 물건 안기, 헤드폰·시그니처 소품
+
+### #02 0.10–0.63s (0.53초, 16프레임) · 팀장 · MS(로우앵글) · 로우앵글(앉은 주인공 눈높이) · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 1, 2, 3, 5 · 대표 색: #7c6b6a, #4f4540, #242120, #be8269
+- 동작·표정: 파티션 너머에 선 팀장이 한 손을 파티션 위에 걸치고 손가락을 들썩이며 주인공을 부름(얼굴은 턱 위로 잘림)
+- 배경: 흰 사무실 천장과 사선 LED 조명, 앞쪽 아래에 주인공 노트북 뒷면(화면에 흰 고양이 사진 편집 창)
+- 자막: 대사 [주인공 이름을 부르는 호출] (팀장(남)(#EAFF12) · 기본(화자 색 레몬 옐로))
+- 전환: 하드컷 · 효과음: 팀장의 짧은 호출 목소리(구간 f0 약 82Hz로 잡힘 — 저음 효과음과 겹친 것으로 추정)
+- 편집 기법: 로우앵글 + 얼굴 크롭 / 전경에 딴짓 증거(노트북 속 고양이 사진) — 0.5초 만에 '상사가 내려다보며 부름'을 전달. 앞에 걸린 노트북 화면이 주인공이 일 대신 사진을 만지고 있었다는 복선
+- 새 대본 예시: (라임) 김OO씨!
+- 이미지 프롬프트: Low-angle medium shot from the seated eye level of a tiny animal: a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose) standing behind a grey fabric cubicle partition with one hand resting on its top edge; a low-angle view from a seated position: the top edge of a grey fabric cubicle partition across the middle of the frame, a bright white office ceiling with long diagonal linear LED light strips behind, and the back edge of an open silver laptop in the foreground whose screen shows a generic photo-editing window with a white kitten photo. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: He lifts his fingers and taps the partition top twice to get attention, a slight lean forward. His face stays out of frame above the chin. Static camera. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.53초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+
+### #03 0.63–1.17s (0.53초, 16프레임) · 주인공 · WS · 아이레벨(책상 높이 정면) · 전환: 하드컷
+- 카메라: 고정 — #8·#14와 같은 정면 의자 원본 계열(#8이 약 1.25배 크롭)
+- 위치(3×3): 5, 8 · 대표 색: #b79d85, #1c1c17, #655c53, #3a3933
+- 동작·표정: 커다란 검정 메시 의자에 쏙 파묻힌 채 앞발을 책상 끝에 가지런히 올리고 움찔하며 고개를 듦
+- 배경: 의자 등받이·팔걸이, 회색 카펫, 오른쪽 서랍장, 앞쪽 노트북 트랙패드·흰 마우스
+- 자막: 대사 [말을 더듬는 짧은 대답] (주인공 동물(흰색) · 기본(더듬는 자모 표기))
+- 전환: 하드컷 · 효과음: 주인공의 작은 되물음 목소리
+- 편집 기법: 크기 대비 와이드(거대한 의자 vs 작은 주인공) — 첫 리액션을 와이드로 보여 줘 '의자에 파묻힌 작은 직장인' 캐릭터와 자리를 한 번에 설명
+- 새 대본 예시: 헉, 저요?
+- 이미지 프롬프트: Wide frontal shot at desk height of tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sitting upright deep inside a huge black mesh ergonomic office chair, only its head and chest above the desk, two tiny front paws resting neatly side by side on the desk edge, big round glossy black eyes wide open in surprise, small mouth slightly open; a frontal desk-height view of a light-oak office desk: a huge black mesh ergonomic office chair behind, an open silver laptop whose trackpad sits at the bottom edge of the frame, a white mouse on the right, a few papers on the left, grey carpet and a grey drawer cabinet behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter flinches, ears perk up and it looks up with wide eyes, mouth opening to answer; the tiny paws stay on the desk edge. Static camera. Keep going for 8 s (frozen stare, one slow blink): shots 8, 10 and 12 are crops of this clip. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.53초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 귀여운 포인트: 거대한 의자 속 작은 몸(크기 대비), 앞발 가지런히 책상 위
+- 🎥 이 클립 하나로 #08 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #04 1.17–2.57s (1.40초, 42프레임) · 팀장 · MS→MCU(로우앵글) · 로우앵글 · 전환: 하드컷
+- 카메라: 고정. 2.2초에 검출 임계값(4.94) 바로 아래(점수 4.9) 컷인 1회로 가슴 높이까지 당김
+- 위치(3×3): 1, 2, 3, 5, 6 · 대표 색: #81716d, #b39b92, #55483e, #2b2720
+- 동작·표정: 파티션에 손을 얹고 선 팀장이 예전에 말한 일을 꺼냄(1.4초, 대화 파트 최장 컷)
+- 배경: 흰 천장 사선 LED, 파티션, 앞쪽 노트북 화면(고양이 사진 편집 창)
+- 자막: 대사 [예전에 말한 조사를 기억하냐는 질문 — 두 구절로 나눠 타이핑] (팀장(남)(#EAFF12) · 타이핑(구절 교체))
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 숨은 컷인(MS→MCU, 검출 임계값 아래) — 질문의 마지막 구절에서 한 번 더 당겨 압박을 올림. 대사가 길어도 사이즈 변화로 지루함 방지
+- 새 대본 예시: (라임) 저번 워크숍 때 말한 거 → (라임) 기억나지?
+- 이미지 프롬프트: Low-angle medium shot of a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose) standing behind a grey fabric cubicle partition, one hand resting on the partition top, relaxed confident posture; a low-angle view from a seated position: the top edge of a grey fabric cubicle partition across the middle of the frame, a bright white office ceiling with long diagonal linear LED light strips behind, and the back edge of an open silver laptop in the foreground whose screen shows a generic photo-editing window with a white kitten photo. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: He talks casually, shifting his weight and tapping the partition once. His face stays out of frame above the chin. Static camera; cut in to a tighter chest-level framing for the last 0.4 s. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.40초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+
+### #05 2.57–3.30s (0.73초, 22프레임) · 주인공 · MCU · 아이레벨(정면) · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(원본)
+- 위치(3×3): 2, 5, 8 · 대표 색: #1f1f1b, #4a443f, #796a61, #ad907c
+- 동작·표정: 의자에 앉아 입을 오물거리며 되묻기(동그란 눈, 가슴까지)
+- 배경: 검정 메시 의자 등받이, 어두운 배경
+- 자막: 라벨 [시점을 기억해 내려 애쓰는 라벨] 대사 [어떤 일인지 되묻는 말끝 흐림] (주인공 동물(흰색) · 라벨+대사)
+- 전환: 하드컷 · 효과음: 주인공 되묻는 목소리(약 298Hz)
+- 편집 기법: 라벨로 속마음 + 대사로 겉말(2단 자막) — 라벨이 '기억 안 남'을, 대사가 '되묻기'를 동시에 보여 줘 한 컷에 겉과 속을 전달
+- 새 대본 예시: (라벨) 기억 창고 검색 중 / 워, 워크숍…
+- 이미지 프롬프트: Medium close-up at eye level of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sitting in a black mesh office chair, head and fluffy chest filling the frame, big round glossy black eyes, small mouth slightly open mid-question, puffy round cheeks; dark chair back blurred behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter blinks and mumbles a short question, tiny mouth moving, whiskers twitch. Static camera. (Shot 6 is a 1.5× crop of this clip.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.73초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 동그란 눈 클로즈업, 볼 빵빵·오물오물
+- 🎥 이 클립 하나로 #06 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #06 3.30–4.40s (1.10초, 33프레임) · 주인공 · CU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#5의 약 1.5배 크롭)
+- 위치(3×3): 4, 5, 6 · 대표 색: #1f1e1a, #bc9d89, #d0b8a9, #957868
+- 동작·표정: 얼굴이 화면을 채운 채 입을 벌리고 되물음
+- 배경: 흐린 의자
+- 자막: 대사 [무엇을 말하는지 되묻는 말] (주인공 동물(흰색) · 기본)
+- 전환: 하드컷(같은 축 컷인) · 효과음: -
+- 편집 기법: 디지털 줌 컷인(같은 원본 1.5배) — 같은 순간을 한 단계 당겨 '멍함'을 강조. 새 영상 생성 없이 크롭으로 사이즈만 바꿈
+- 새 대본 예시: 어느 거요…?
+- 이미지 프롬프트: (Crop of shot 5 ×1.5 — or generate:) Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face filling the frame: big round glossy black eyes, pink nose, puffy fluffy cheeks, tiny mouth open in a confused question
+- 영상 프롬프트: Edit: digital zoom crop of shot 5's clip at about ×1.5 centered on the face (use the moment the mouth opens). No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 1.10초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 동그란 눈 클로즈업, 멍한 눈
+- 🔁 재사용(생성 불필요): #05 클립을 1.53배 확대 · 중심 가로 53% 세로 52% · 클립 1.23초부터
+
+### #07 4.40–5.50s (1.10초, 33프레임) · 팀장 · MS(로우앵글) · 로우앵글 · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 1, 2, 3, 5 · 대표 색: #806f6c, #b09a92, #5e4d43, #2b2623
+- 동작·표정: 한 손으로 설명하듯 휘젓다가 두 손을 파티션 위에 깍지 낌
+- 배경: 천장 LED, 앞쪽 노트북(고양이 사진 편집 창)
+- 자막: 대사 [몇 주 전이라는 시점 제시] (팀장(남)(#EAFF12) · 타이핑)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 손동작 → 깍지(말하는 태도 변화) — 깍지 낀 손으로 '이제 본론'이라는 압박 자세를 만듦
+- 새 대본 예시: (라임) 설문지 백이십 장
+- 이미지 프롬프트: Low-angle medium shot of a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose) behind a grey fabric partition, gesturing with one hand and then clasping both hands together on the partition top; a low-angle view from a seated position: the top edge of a grey fabric cubicle partition across the middle of the frame, a bright white office ceiling with long diagonal linear LED light strips behind, and the back edge of an open silver laptop in the foreground whose screen shows a generic photo-editing window with a white kitten photo. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: He makes a small explaining wave with one hand, then interlocks his fingers and rests both hands on the partition. His face stays out of frame above the chin. Static camera. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.10초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 컷 안 줌(원본 측정): 시작→끝 1.039배 푸시인
+
+### #08 5.50–6.47s (0.97초, 29프레임) · 주인공 · WS · 아이레벨(책상 높이 정면) · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(3단) 1단(#3 원본을 약 1.25배로 쓴 구도)
+- 위치(3×3): 5, 8 · 대표 색: #1a1b15, #caad8f, #3c3a33, #6a6056
+- 동작·표정: 의자에 파묻혀 앞발을 책상에 올린 채 굳은 얼굴로 듣기
+- 배경: 의자 팔걸이, 회색 카펫, 앞쪽 노트북
+- 자막: 대사 [팀장 대사가 이어짐(대사 끝 괄호로 '기억 흐릿' 표시)] (팀장(남)(#EAFF12) · L컷 타이핑 + 대사 속 괄호)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: L컷(팀장 대사를 주인공 화면 위로) + 대사 속 괄호 개그 — 듣는 쪽 얼굴 위에 말하는 쪽 대사를 올려 압박을 보여 줌. 대사 끝 괄호로 주인공 기억이 흐려지는 걸 한 단어로 표현
+- 새 대본 예시: (라임) 그거 (흐릿) → (라임) 엑셀로
+- 이미지 프롬프트: Wide frontal shot at desk height of tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest deep inside a huge black mesh office chair, two tiny front paws side by side on the desk edge, big round glossy black eyes staring blankly, frozen; a frontal desk-height view of a light-oak office desk: a huge black mesh ergonomic office chair behind, an open silver laptop whose trackpad sits at the bottom edge of the frame, a white mouse on the right, a few papers on the left, grey carpet and a grey drawer cabinet behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Edit: use a later, frozen part of shot 3's clip cropped about ×1.25 (the otter sits still, one slow blink). If generating separately: static camera, the otter freezes and blinks once.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.97초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K)
+- 귀여운 포인트: 거대한 의자 속 작은 몸(크기 대비), 앞발 가지런히 책상 위
+- 🔁 재사용(생성 불필요): #03 클립을 1.26배 확대 · 중심 가로 50% 세로 50% · 클립 1.03초부터
+
+### #09 6.47–7.33s (0.87초, 26프레임) · 팀장 · MS(로우앵글) · 로우앵글 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(원본)
+- 위치(3×3): 1, 2, 3, 5 · 대표 색: #806f6b, #ae968b, #2b2721, #5a4b42
+- 동작·표정: 파티션 위에 두 손을 깍지 낀 채 말함
+- 배경: 천장 LED, 앞쪽 노트북 화면
+- 자막: 대사 [무엇을 정리해 달라 했는지 설명] (팀장(남)(#EAFF12) · 타이핑)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 정적인 깍지 자세 유지 — 움직임을 줄여 대사에 집중시키고, 다음 크롭 컷(#11)과 이어 붙일 원본을 확보
+- 새 대본 예시: (라임) 싹 정리해서
+- 이미지 프롬프트: Low-angle medium shot of a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose) standing behind a grey fabric partition with both hands clasped together on its top edge, muscular forearms; a low-angle view from a seated position: the top edge of a grey fabric cubicle partition across the middle of the frame, a bright white office ceiling with long diagonal linear LED light strips behind, and the back edge of an open silver laptop in the foreground whose screen shows a generic photo-editing window with a white kitten photo. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: He talks with his hands clasped, a small nod. His face stays out of frame above the chin. Static camera. (Shot 11 is a 1.65× crop of this clip.) Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.87초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 🎥 이 클립 하나로 #11 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+- 컷 안 줌(원본 측정): 시작→끝 1.046배 푸시인
+
+### #10 7.33–8.03s (0.70초, 21프레임) · 주인공 · MCU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(3단) 2단(#8의 약 1.65배 크롭)
+- 위치(3×3): 2, 5, 8 · 대표 색: #1f1e1a, #46403c, #b1937c, #cbb3a0
+- 동작·표정: 굳은 표정으로 정면을 봄(얼굴·가슴)
+- 배경: 흐린 의자
+- 자막: 대사 [팀장 대사가 계속 타이핑] (팀장(남)(#EAFF12) · L컷 타이핑)
+- 전환: 하드컷(같은 축 컷인) · 효과음: -
+- 편집 기법: 디지털 줌 3단 중 2단(WS→MCU) — 대사가 이어지는 동안 주인공만 점점 크게 → 압박이 조여 옴
+- 새 대본 예시: (라임) 달라고 했잖아?
+- 이미지 프롬프트: (Crop of shot 8 ×1.65 — or generate:) Medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a black mesh chair, big round glossy black eyes, frozen tense little face, fluffy chest
+- 영상 프롬프트: Edit: digital zoom crop of the shot-3/8 clip at about ×1.65 of shot 8. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.70초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 동그란 눈 클로즈업
+- 🔁 재사용(생성 불필요): #14 클립을 1.79배 확대 · 중심 가로 51% 세로 41% · 클립 0.50초부터
+
+### #11 8.03–8.50s (0.47초, 14프레임) · 팀장 · MCU · 로우앵글 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#9의 약 1.65배 크롭)
+- 위치(3×3): 2, 4, 5, 6 · 대표 색: #7d6862, #514538, #bb876a, #2b261a
+- 동작·표정: 깍지 낀 손과 가슴이 화면을 채움
+- 배경: 천장 조명 일부
+- 자막: 대사 [(앞 컷 대사 유지)] (팀장(남)(#EAFF12) · 자막 브릿지)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 디지털 줌 컷인(2단) — 말하는 쪽도 한 단계 당겨 양쪽이 동시에 조여 오는 느낌
+- 새 대본 예시: (대사 유지)
+- 이미지 프롬프트: (Crop of shot 9 ×1.65 — or generate:) Low-angle medium close-up of a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose)'s clasped hands and chest behind the partition top
+- 영상 프롬프트: Edit: digital zoom crop of shot 9's clip at about ×1.65. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.47초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 🔁 재사용(생성 불필요): #09 클립을 1.6배 확대 · 중심 가로 47% 세로 44% · 클립 1.37초부터
+
+### #12 8.50–8.90s (0.40초, 12프레임) · 주인공 · ECU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(3단) 3단(#10의 약 2.8배 = #8의 약 4.6배 크롭)
+- 위치(3×3): 4, 5, 6 · 대표 색: #d1b097, #b59683, #8c7063, #c9beba
+- 동작·표정: 두 눈과 코가 화면을 가득 채움, 눈만 멀뚱
+- 배경: 없음(얼굴이 화면 전체), 양옆 소품 가장자리
+- 자막: 대사 [팀장의 확인 질문이 타이핑되기 시작] (팀장(남)(#EAFF12) · L컷 타이핑)
+- 전환: 하드컷(축 방향 컷인) · 효과음: -
+- 편집 기법: 디지털 줌 3단 중 3단(ECU) — 0.4초 초근접으로 '들켰다' 순간의 긴장을 최대로
+- 새 대본 예시: (라임) 그거 다
+- 이미지 프롬프트: (Crop of shot 10 ×2.8 — or generate:) Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face filling the frame: two big round glossy black eyes with catchlights, pink nose and whiskers, blank frozen stare
+- 영상 프롬프트: Edit: digital zoom crop of the same clip at about ×4.6 of shot 8. Generate the base clip in 4K so this crop stays sharp.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.40초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 동그란 눈 클로즈업(화면 가득), 멍한 눈
+- 🔁 재사용(생성 불필요): #14 클립을 4.83배 확대 · 중심 가로 52% 세로 39% · 클립 1.20초부터
+
+### #13 8.90–9.43s (0.53초, 16프레임) · 팀장 · MS(로우앵글) · 로우앵글 · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 1, 2, 3, 5 · 대표 색: #7c6c68, #af968b, #574940, #2b2620
+- 동작·표정: 두 주먹을 파티션 위에 올리고 살짝 몸을 기울임(확인 압박)
+- 배경: 천장 LED, 앞쪽 노트북
+- 자막: 대사 [다 해 놨냐는 확인(문장 완성)] (팀장(남)(#EAFF12) · 타이핑 브릿지)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 주먹 자세(압박 제스처) + 자막 브릿지 — 질문의 마침표를 주먹 자세로 찍어 대답을 재촉
+- 새 대본 예시: +(라임) 해 놨지?
+- 이미지 프롬프트: Low-angle medium shot of a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose) leaning slightly forward behind a grey partition with both fists resting on its top edge; a low-angle view from a seated position: the top edge of a grey fabric cubicle partition across the middle of the frame, a bright white office ceiling with long diagonal linear LED light strips behind, and the back edge of an open silver laptop in the foreground whose screen shows a generic photo-editing window with a white kitten photo. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: He leans in a little and presses his fists on the partition as he finishes the question. His face stays out of frame above the chin. Static camera. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.53초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+
+### #14 9.43–10.03s (0.60초, 18프레임) · 주인공 · WS · 아이레벨(정면) · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(#18 원본을 약 1.33배로 쓴 구도, #8과 같은 크기)
+- 위치(3×3): 5, 8 · 대표 색: #1b1b16, #c8ad92, #685f56, #3b3a33
+- 동작·표정: 잠깐 머뭇거리며 입을 오물(대답 준비)
+- 배경: 의자, 카펫, 앞쪽 노트북 트랙패드
+- 자막: 대사 [말끝을 흐리는 머뭇거림] (주인공 동물(흰색) · 기본)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 머뭇거림 비트(0.6초) — 대답 직전 반 박자 멈춤으로 '사실 안 했다'를 표정이 먼저 들킴
+- 새 대본 예시: 아 그거…
+- 이미지 프롬프트: Wide frontal shot at desk height of tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest deep in a huge black mesh chair, tiny paws neatly on the desk edge, big round glossy black eyes darting, mouth pursed in hesitation, puffy cheeks; a frontal desk-height view of a light-oak office desk: a huge black mesh ergonomic office chair behind, an open silver laptop whose trackpad sits at the bottom edge of the frame, a white mouse on the right, a few papers on the left, grey carpet and a grey drawer cabinet behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Same keyframe as shot 18 (widest framing). The otter hesitates with its mouth pursed, eyes darting left and right, then answers brightly. Static camera. Crop ×1.33 in the edit; shot 15 is a further ×1.65 crop of this clip. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.60초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 거대한 의자 속 작은 몸(크기 대비), 볼 빵빵·오물오물
+- 🎥 이 클립 하나로 #10, #12, #15 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #15 10.03–10.40s (0.37초, 11프레임) · 주인공 · MCU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#14의 약 1.65배 크롭)
+- 위치(3×3): 2, 5, 8 · 대표 색: #181913, #c4a486, #4c453c, #806e60
+- 동작·표정: 씩씩하게 입을 벌려 대답(앞발은 책상 위)
+- 배경: 흐린 의자
+- 자막: 대사 [허세 섞인 씩씩한 대답] (주인공 동물(흰색) · 기본)
+- 전환: 하드컷(같은 축 컷인) · 효과음: 밝은 대답 목소리(약 416Hz, 구간 최고 수준)
+- 편집 기법: 디지털 줌 컷인(대답 순간 한 단계 당김) — 허세 대답을 크게 보여 줘 다음 '현실 자각'과의 낙차를 만듦
+- 새 대본 예시: 다, 당연하죠!
+- 이미지 프롬프트: (Crop of shot 14 ×1.65 — or generate:) Medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a black mesh chair answering brightly with its small mouth open, big round glossy black eyes, tiny pink paws on the desk edge
+- 영상 프롬프트: Edit: digital zoom crop of shot 14's clip at about ×1.65 at the moment the mouth opens wide. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.37초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 동그란 눈 클로즈업, 앞발 가지런히 책상 위
+- 🔁 재사용(생성 불필요): #14 클립을 1.63배 확대 · 중심 가로 51% 세로 47% · 클립 2.20초부터
+- 컷 안 줌(원본 측정): 시작→끝 1.038배 푸시인
+
+### #16 10.40–10.97s (0.57초, 17프레임) · 팀장 · MS(로우앵글) · 로우앵글 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(원본)
+- 위치(3×3): 1, 2, 3, 5 · 대표 색: #80716e, #af9d96, #564a40, #d4c9c8
+- 동작·표정: 팔을 파티션에 걸치고 느긋하게 서서 다음 일정을 통보
+- 배경: 천장 LED, 흰 기둥, 앞쪽 노트북 화면
+- 자막: 라벨 [회의 시점을 알려 주는 라벨(대사 앞부분 역할)] 대사 [함께 보자는 통보] (팀장(남)(#EAFF12) · 라벨+타이핑)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 라벨이 대사의 앞부분을 대신 말함(라벨+대사 한 문장) — 시간·장소 정보는 라벨로, 행동 요구는 대사로 나눠 짧은 컷에도 문장이 다 읽힘
+- 새 대본 예시: (라벨) 오늘 4시 회의에서 / (라임) 같이 보자고
+- 이미지 프롬프트: Low-angle medium shot of a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose) standing relaxed behind a grey partition, one forearm resting across its top edge; a low-angle view from a seated position: the top edge of a grey fabric cubicle partition across the middle of the frame, a bright white office ceiling with long diagonal linear LED light strips behind, and the back edge of an open silver laptop in the foreground whose screen shows a generic photo-editing window with a white kitten photo. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: He shifts his weight onto the forearm on the partition and talks casually. His face stays out of frame above the chin. Static camera. (Shot 17 is a 1.8× crop of this clip.) Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.57초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 🎥 이 클립 하나로 #17 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #17 10.97–11.50s (0.53초, 16프레임) · 팀장 · MCU · 로우앵글 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#16의 약 1.8배 크롭)
+- 위치(3×3): 1, 2, 3, 4, 5, 6 · 대표 색: #564b3b, #a99790, #88766f, #c5b6b2
+- 동작·표정: 가슴·턱선 클로즈업, 확인하듯 고개를 까딱
+- 배경: 천장 조명
+- 자막: 라벨 [(라벨 유지)] 대사 [대사 유지 후 다짐 받는 짧은 확인으로 교체] (팀장(남)(#EAFF12) · 라벨 유지 + 대사 교체)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 디지털 줌 컷인 + 다짐 받기 — 마지막 확인을 크게 보여 줘 빠져나갈 길을 막음
+- 새 대본 예시: (라벨 유지) / (대사 유지) → (라벨 유지) / (라임) 오케이?
+- 이미지 프롬프트: (Crop of shot 16 ×1.8 — or generate:) Low-angle medium close-up of a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose)'s chest and olive polo collar, chin at the top edge
+- 영상 프롬프트: Edit: digital zoom crop of shot 16's clip at about ×1.8. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.53초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 🔁 재사용(생성 불필요): #16 클립을 1.88배 확대 · 중심 가로 60% 세로 30% · 클립 1.07초부터
+
+### #18 11.50–11.77s (0.27초, 8프레임) · 주인공 · WS(가장 넓음) · 아이레벨(살짝 위) · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(3단) 1단(원본, 가장 넓은 구도)
+- 위치(3×3): 5, 8 · 대표 색: #b59b81, #1c1d17, #635b51, #393832
+- 동작·표정: 키보드까지 보이는 넓은 구도에서 의자에 파묻힌 채 짧게 대답
+- 배경: 노트북 키보드·트랙패드, 흰 마우스, 서류, 의자, 카펫
+- 자막: 라벨 [(라벨 유지)] 대사 [짧은 네 대답] (주인공 동물(흰색) · 라벨 유지+대사)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 초단 컷(0.27초) 와이드 → 3단 줌 시작 — 가장 작게 보여 준 뒤 0.4초 간격으로 두 번 당겨 대답의 '각오'를 과장
+- 새 대본 예시: (라벨 유지) / 옙!
+- 이미지 프롬프트: Wide shot at desk height of tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sitting deep in a huge black mesh ergonomic chair behind an open silver laptop whose keyboard is visible, tiny front paws neatly on the desk edge, big round glossy black eyes, answering brightly; a frontal desk-height view of a light-oak office desk: a huge black mesh ergonomic office chair behind, an open silver laptop whose trackpad sits at the bottom edge of the frame, a white mouse on the right, a few papers on the left, grey carpet and a grey drawer cabinet behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter answers with a quick nod, then straightens up proudly and puffs out its chest. Static camera. Generate in 4K: shots 19 (×2.0) and 20 (×3.2) are crops of this clip. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.27초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 귀여운 포인트: 거대한 의자 속 작은 몸(크기 대비), 앞발 가지런히 책상 위
+- 🎥 이 클립 하나로 #19, #20 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #19 11.77–12.20s (0.43초, 13프레임) · 주인공 · MS · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(3단) 2단(#18의 약 2.0배 크롭)
+- 위치(3×3): 2, 5, 8 · 대표 색: #191a14, #c6a688, #433f38, #75685c
+- 동작·표정: 가슴을 펴고 또박또박 대답
+- 배경: 흐린 의자
+- 자막: 라벨 [대답만 똑똑하다는 반어 라벨] 대사 [알겠다는 씩씩한 대답] (주인공 동물(흰색) · 라벨+대사)
+- 전환: 하드컷(같은 축 컷인) · 효과음: 씩씩한 대답(약 324Hz)
+- 편집 기법: 디지털 줌 3단 중 2단 + 반어 라벨 — 라벨이 '대답만 똘똘함'을 비꼬아 겉말과 속사정의 차이를 웃음으로
+- 새 대본 예시: (라벨) 목소리만 우렁참 / 준비해 가겠습니다!
+- 이미지 프롬프트: (Crop of shot 18 ×2.0 — or generate:) Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a black mesh chair, fluffy chest puffed out, big round glossy black eyes, answering firmly with a tiny open mouth
+- 영상 프롬프트: Edit: digital zoom crop of shot 18's clip at about ×2.0. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.43초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 동그란 눈 클로즈업, 가슴 쭉 펴기(씩씩한 척)
+- 🔁 재사용(생성 불필요): #18 클립을 1.85배 확대 · 중심 가로 51% 세로 46% · 클립 0.77초부터
+
+### #20 12.20–12.63s (0.43초, 13프레임) · 주인공 · CU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(3단) 3단(#18의 약 3.2배 크롭)
+- 위치(3×3): 4, 5, 6 · 대표 색: #161711, #cbad91, #b1947a, #766356
+- 동작·표정: 대답을 마치고 입을 앙다문 얼굴 클로즈업
+- 배경: 흐린 의자
+- 자막: 라벨 [(유지)] 대사 [(유지)] (주인공 동물(흰색) · 브릿지)
+- 전환: 하드컷(축 방향 컷인) · 효과음: -
+- 편집 기법: 디지털 줌 3단 중 3단 — 같은 대사 안에서 세 번 크기를 바꿔 허세를 최대로 부풀린 뒤 곧바로 현실 자각으로 떨어뜨림
+- 새 대본 예시: (유지)
+- 이미지 프롬프트: (Crop of shot 18 ×3.2 — or generate:) Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face: big round glossy black eyes, pink nose, puffy fluffy cheeks, mouth pressed shut after answering
+- 영상 프롬프트: Edit: digital zoom crop of shot 18's clip at about ×3.2. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.43초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 동그란 눈 클로즈업, 볼 빵빵·오물오물
+- 🔁 재사용(생성 불필요): #18 클립을 3.07배 확대 · 중심 가로 50% 세로 51% · 클립 1.20초부터
+
+### #21 12.63–13.43s (0.80초, 24프레임) · 주인공 · MS(3/4 측면) · 아이레벨(노트북 옆) · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(원본)
+- 위치(3×3): 4, 5, 8 · 대표 색: #605044, #937b69, #b9a292, #2a2520
+- 동작·표정: 노트북 앞에 앉아 위를 보며 크게 숨을 들이쉼(앞발은 키보드 옆)
+- 배경: 밝은 사무실, 회색 파티션·서류장, 뒤쪽 의자
+- 자막: 대사 [숨을 들이쉰다는 괄호 자막(화살표로 방향 표시)] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 하드컷 · 효과음: 크게 들이쉬는 숨소리
+- 편집 기법: 괄호 자막으로 호흡 표시(화살표 방향 개그) — 대사 없이 '마음 가다듬기'를 몸 상태 자막으로. 앞 대화의 빠른 리듬을 한 번 끊음
+- 새 대본 예시: (흐읍~ 크게 들이쉬고)
+- 이미지 프롬프트: Three-quarter medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sitting upright at an open silver laptop, tiny front paws resting beside the keyboard, chin lifted as it takes a deep breath, big round glossy black eyes looking up, fluffy chest; a three-quarter side view at a light-oak desk: the back of an open silver laptop at the left edge, loose printed documents on the right, a black mesh ergonomic chair behind, and the bright open-plan office with grey partitions, filing cabinets and blurred coworkers walking past. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter lifts its chin and inhales deeply, chest rising, then slowly closes its eyes and exhales (the later part is reused as shot 22 at ×1.5). Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.80초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 사람처럼 노트북 앞에 앉기, 심호흡(사람 같은 행동)
+- 🎥 이 클립 하나로 #22 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+- 컷 안 줌(원본 측정): 시작→끝 1.03배 푸시인
+
+### #22 13.43–14.43s (1.00초, 30프레임) · 주인공 · CU(3/4 측면) · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#21 뒷부분을 약 1.5배 크롭)
+- 위치(3×3): 4, 5 · 대표 색: #a68b79, #c8afa0, #826b5b, #2d2823
+- 동작·표정: 눈을 지그시 감고 턱을 든 채 길게 숨을 내쉼
+- 배경: 흐린 사무실
+- 자막: 대사 [숨을 내쉰다는 괄호 자막(반대 방향 화살표)] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 하드컷 · 효과음: 길게 내쉬는 숨소리
+- 편집 기법: 디지털 줌 + 시간차 재사용 — 들숨·날숨을 두 컷으로 나눠 '진정하려 애씀'을 1.8초 동안 보여 줌 — 폭발 전 마지막 고요
+- 새 대본 예시: (후우~ 길게 내쉬고)
+- 이미지 프롬프트: (Crop of shot 21 ×1.5 — or generate:) Three-quarter close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest with its eyes gently closed and chin raised, exhaling calmly, fluffy cheeks and whiskers relaxed
+- 영상 프롬프트: Edit: digital zoom crop (×1.5) of the later part of shot 21's clip where the eyes close. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 1.00초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 눈 감고 심호흡, 볼 빵빵·오물오물
+- 🔁 재사용(생성 불필요): #21 클립을 1.56배 확대 · 중심 가로 51% 세로 38% · 클립 1.30초부터
+
+### #23 14.43–15.03s (0.60초, 18프레임) · 주인공 · ECU(측면) · 아이레벨(옆) · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #a18571, #836c5c, #c39f84, #d8baa7
+- 동작·표정: 옆얼굴 초근접, 앞발을 턱에 대고 눈을 끔뻑이며 곰곰이 생각
+- 배경: 흐린 사무실
+- 자막: 대사 [말없음표] (주인공 동물(흰색) · 기본)
+- 전환: 하드컷 · 효과음: 작게 '흠' 하는 목소리(구간 약 324Hz)
+- 편집 기법: 초근접 사색 컷 — 생각하는 척 멈춘 0.6초가 다음 컷의 '기억 안 남' 폭로를 준비
+- 새 대본 예시: 흐음…
+- 이미지 프롬프트: Extreme close-up profile of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest: one big round glossy black eye, pink nose and long whiskers, one tiny pink paw touching its chin in a thinking pose; a bright modern Korean open-plan office with light-oak desks, grey fabric cubicle partitions, grey filing cabinets, black mesh ergonomic chairs and long linear LED ceiling lights, blurred coworkers walking by in the background blurred. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter taps its chin with a tiny paw and blinks slowly, eye drifting sideways. Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.60초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Hailuo 2.3(시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만)) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 앞발 턱 괴기(고민 포즈), 동그란 눈 클로즈업
+
+### #24 15.03–15.77s (0.73초, 22프레임) · 주인공 · CU(광각) · 아이레벨(정면, 광각 왜곡) · 전환: 하드컷
+- 카메라: 고정(광각 렌즈로 코가 커 보임)
+- 위치(3×3): 2, 4, 5, 6, 8 · 대표 색: #645a53, #948072, #b89c88, #2a2827
+- 동작·표정: 정면 광각 클로즈업, 멍하게 굳은 채 속으로 망했다고 중얼거림
+- 배경: 흐린 사무실 천장 조명
+- 자막: 라벨 [전혀 기억이 안 난다는 라벨(외래어 섞인 귀여운 말투)] 대사 [속마음 비속어를 자모로 쪼개 타이핑(완성 전에 멈춤)] (주인공 동물(흰색) · 라벨+자모 타이핑)
+- 전환: 하드컷 · 효과음: 속삭이는 혼잣말 + 자모 타자 '타닥'(권장)
+- 편집 기법: 광각 왜곡 클로즈업 + 자모 분해 타이핑 — 비속어를 완성하지 않고 자모 상태로 보여 줘 순화하면서도 '입력 중 멘붕'이 그대로 느껴짐. 광각으로 커진 코가 당황을 코믹하게 과장
+- 새 대본 예시: (라벨) 1도 기억 안 나는 달 / ㅁㅏㅇ했ㄷㅏ
+- 이미지 프롬프트: Wide-angle close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest facing the camera, the lens exaggerating its round pink nose and puffy fluffy cheeks, big round glossy black eyes frozen in blank panic, whiskers spread; a bright modern Korean open-plan office with light-oak desks, grey fabric cubicle partitions, grey filing cabinets, black mesh ergonomic chairs and long linear LED ceiling lights, blurred coworkers walking by in the background ceiling lights blurred behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter stays frozen, eyes wide, mouth barely moving as if whispering to itself. Very slight forward drift. Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.73초
+- 추천 모델: 1순위 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도)) / 대안 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K)
+- 귀여운 포인트: 광각 코 클로즈업(코 빵빵), 멍한 눈
+
+### #25 15.77–16.20s (0.43초, 13프레임) · 주인공 · ECU(광각) · 아이레벨(광각) · 전환: 하드컷 · 효과: 느린 줌인(편집)
+- 카메라: 고정(광각 초근접)
+- 위치(3×3): 4, 5, 6 · 대표 색: #c4a18c, #d9beaa, #a18475, #715f57
+- 동작·표정: 코와 입이 화면을 가득 채운 광각 초근접
+- 배경: 없음(얼굴 전체)
+- 자막: 라벨 [(라벨 유지)] 대사 [사실 아직 안 했다는 속마음 괄호] (주인공 동물(흰색) · 라벨 유지+괄호)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 광각 ECU(코 클로즈업) — 속마음 고백을 코앞 초근접으로 — 시청자에게만 털어놓는 비밀 느낌
+- 새 대본 예시: (라벨 유지) / (한 글자도 안 썼음)
+- 이미지 프롬프트: Wide-angle extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face: a huge round pink nose, puffy fluffy cheeks and whiskers filling the frame, big round glossy black eyes at the top edge. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Still image: a tiny nose twitch can be faked with a slow digital push-in. Static camera.
+- 생성 설정: 영상 생성 불필요: 이미지 1장 → 편집에서 줌/푸시인 · 편집 사용 길이 0.43초
+- 추천 모델: 1순위 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델) / 대안 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도))
+- 귀여운 포인트: 광각 코 클로즈업(코 빵빵)
+
+### #26 16.20–16.97s (0.77초, 23프레임) · 주인공 · ECU(앞발 인서트) · 하이앵글(키보드 옆) · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 2, 3, 5, 6 · 대표 색: #645347, #b4947f, #887161, #2e2723
+- 동작·표정: 작은 앞발 두 개가 노트북 키보드를 미친 듯이 두드림(가슴 털 보임)
+- 배경: 키보드, 노트북 옆면
+- 자막: 라벨 [했다고 해 버렸다는 말을 반복하는 초조 라벨] 대사 [실패할 수 없는 임무라는 해설(괄호 없는 흰 글씨)] (내레이션 · 라벨+해설 자막)
+- 전환: 하드컷 · 효과음: 저음 '둥' 히트 + 음악 시작, 키보드 초고속 연타
+- 편집 기법: 미션 선언 인서트 + 반복 라벨(주문처럼) — 16.2초 저음 히트와 첫 행동 컷을 같은 프레임에 맞춰 '작전 개시'를 소리·그림·자막으로 동시에 선언
+- 새 대본 예시: (라벨) 됐다고 해 버림 됐다고 해 버림 / 실패하면 끝나는 작전
+- 이미지 프롬프트: Close-up insert from the side of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's tiny pink front paws rapidly typing on a full-size silver laptop keyboard, fluffy chest fur at the top of the frame; a three-quarter side view at a light-oak desk: the back of an open silver laptop at the left edge, loose printed documents on the right, a black mesh ergonomic chair behind, and the bright open-plan office with grey partitions, filing cabinets and blurred coworkers walking past. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Tiny paws hammer the keys at high speed with slight motion blur, the fluffy chest bobbing. Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.77초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오)
+- 귀여운 포인트: 짧은 앞발로 키보드 타닥
+
+### #27 16.97–17.60s (0.63초, 19프레임) · 주인공 · CU(3/4) · 아이레벨 · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 4, 5, 6 · 대표 색: #897261, #b2937c, #d4b6a1, #605248
+- 동작·표정: 진지한 옆얼굴로 화면을 노려봄, 뒤로 동료들이 지나감
+- 배경: 밝은 사무실, 걸어가는 사람들(흐림)
+- 자막: 대사 [두뇌가 기계처럼 켜진다는 괄호] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 집중 얼굴 + 배경 움직임 대비 — 주인공은 멈춰 있고 배경만 움직여 '몰입 상태'를 표현
+- 새 대본 예시: (비상 두뇌 부팅)
+- 이미지 프롬프트: Three-quarter close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest staring intently at a laptop screen off-frame, big round glossy black eyes focused, whiskers forward, a serious little face; a three-quarter side view at a light-oak desk: the back of an open silver laptop at the left edge, loose printed documents on the right, a black mesh ergonomic chair behind, and the bright open-plan office with grey partitions, filing cabinets and blurred coworkers walking past, coworkers walking past in soft focus. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter stays locked on the screen with tiny eye movements while blurred coworkers walk past behind. Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.63초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 진지한 옆얼굴(사람 같은 집중), 동그란 눈 클로즈업
+
+### #28 17.60–18.57s (0.97초, 29프레임) · 주인공 · MS(3/4) · 아이레벨 · 전환: 하드컷 · 효과: 수식 오버레이
+- 카메라: 고정(수식 레이어만 천천히 떠다님)
+- 위치(3×3): 4, 5, 6, 8 · 대표 색: #625147, #987e6d, #c1a899, #2d2723
+- 동작·표정: 노트북 앞에서 앞발을 키보드에 올린 채 계산 중. 흰 손글씨 수식·그래프가 화면 곳곳에 반투명하게 떠다님
+- 배경: 사무실, 걸어가는 동료들, 식물
+- 자막: 대사 [급한 불이 붙었다는 관용구 괄호] (주인공 동물(흰색) · 괄호 자막 + 수식 오버레이)
+- 전환: 하드컷 · 효과음: '삐빅' 계산 전자음(권장)
+- 편집 기법: 수식 오버레이(머리 풀가동 밈) — 누구나 아는 '계산 중' 밈으로 두뇌 풀가동을 1초 안에 전달
+- 새 대본 예시: (마감이 코앞까지 온 상태)
+- 이미지 프롬프트: Three-quarter medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sitting upright at an open silver laptop with both tiny pink paws on the keyboard, big round glossy black eyes looking up in deep calculation, fluffy chest; a three-quarter side view at a light-oak desk: the back of an open silver laptop at the left edge, loose printed documents on the right, a black mesh ergonomic chair behind, and the bright open-plan office with grey partitions, filing cabinets and blurred coworkers walking past. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter types fast and glances up and down, whiskers twitching. Static camera. (Composite floating white hand-drawn math formulas and graphs in the edit.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.97초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오) / 대안 편집 효과(FFmpeg / HyperFrames)
+- 귀여운 포인트: 사람처럼 노트북 앞에 앉기, 짧은 앞발로 키보드 타닥
+
+### #29 18.57–19.63s (1.07초, 32프레임) · 주인공 · CU · 아이레벨(정면) · 전환: 줌 블러
+- 카메라: 고정 + 반투명 잔상 레이어가 천천히 커짐 — 같은 원본 디지털 줌(2단) 1단(원본)
+- 위치(3×3): 4, 5, 6 · 대표 색: #907d72, #b8a08f, #5c534e, #dfc7b5
+- 동작·표정: 정면 얼굴, 진입 때 방사형 줌 블러 → 얼굴 위에 크게 확대된 반투명 잔상이 겹쳐 일렁임
+- 배경: 흐린 사무실
+- 자막: 대사 [야생 본능이 깨어났다는 과장 해설 괄호] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 줌 블러 전환(방사형 블러로 진입, 약 4프레임) → 반투명 잔상이 겹쳐 커짐 · 효과음: 줌 블러 '휘이익' + 상승 라이저(고역 22→26dB, 온셋이 0.1초 간격으로 빨라짐)
+- 편집 기법: 줌 블러 + 더블 노출 잔상(각성 1단계) — 얼굴에 겹친 잔상이 '뭔가 깨어나는 중'을 보여 주며 1초 동안 긴장을 끌어올림
+- 새 대본 예시: (야생의 본능이 깨어나는 중입니다)
+- 이미지 프롬프트: Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest facing the camera with a fierce focused stare, big round glossy black eyes, whiskers spread, puffy fluffy cheeks; a bright modern Korean open-plan office with light-oak desks, grey fabric cubicle partitions, grey filing cabinets, black mesh ergonomic chairs and long linear LED ceiling lights, blurred coworkers walking by in the background blurred behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Almost still, a slow intense breath and a slight forward lean. Static camera. (Add a radial zoom-blur entrance and a semi-transparent enlarged double-exposure echo layer in the edit; shot 31 is a 1.35× crop of this clip.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 1.07초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도)) / 대안 편집 효과(FFmpeg / HyperFrames)
+- 귀여운 포인트: 동그란 눈 클로즈업
+- 🎥 이 클립 하나로 #31 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #30 19.63–19.90s (0.27초, 8프레임) · 주인공 · ECU · 아이레벨 · 전환: 하드컷 · 효과: 플래시
+- 카메라: 고정 + 방사형 빛줄기
+- 위치(3×3): 4, 5, 6 · 대표 색: #fcfeac, #f4fc82, #c5f36b, #9ab953
+- 동작·표정: 과다 노출된 얼굴 위로 빨강→노랑→초록→분홍 색 섬광이 1~2프레임씩 번갈아 번쩍임(0.27초)
+- 배경: 색 섬광으로 거의 하얗게 날아감
+- 자막: 대사 [차원을 넘는 각성 순간이라는 괄호] (주인공 동물(흰색) · 괄호 자막 + 색 섬광)
+- 전환: 플래시(빨강→노랑→초록→분홍 색 섬광이 1~2프레임씩 바뀜) · 효과음: 섬광 임팩트 '콰앙' + 고역 쉬머
+- 편집 기법: 색 순환 섬광(각성 2단계, 게임 궁극기 문법) — 0.27초 눈부신 색 폭발로 '초월'을 체감하게 함 — 영상에서 가장 밝은 컷(밝기 평균 215)
+- 새 대본 예시: (차원을 뚫는 각성의 순간)
+- 이미지 프롬프트: (Same frame as shot 29, overexposed in the edit)
+- 영상 프롬프트: Edit: take the last frame of shot 29, push the exposure to near white and cycle color tints red → yellow → green → magenta every 1–2 frames with radial light streaks.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.27초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames)
+
+### #31 19.90–20.27s (0.37초, 11프레임) · 주인공 · ECU · 아이레벨 · 전환: 하드컷 · 효과: 플래시, 글리치 자막
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#29의 약 1.35배 크롭)
+- 위치(3×3): 4, 5, 6 · 대표 색: #e0f8fd, #b2c9e8, #8699c4, #607298
+- 동작·표정: 흰 섬광 → 청록 → RGB 색 분리를 거쳐 평소 얼굴로 돌아옴(눈빛만 반짝)
+- 배경: 흐린 사무실
+- 자막: 대사 [(유지)] (주인공 동물(흰색) · 브릿지 + 글리치 복귀)
+- 전환: 플래시 연속(흰 섬광 → 청록 → RGB 색 분리로 정상 화면 복귀) · 효과음: 섬광 잔향
+- 편집 기법: RGB 색 분리로 각성 해제(각성 3단계) — 각성 후 '멀쩡한 척' 원래 얼굴로 돌아와, 바로 다음 방해꾼 등장의 김빠짐을 준비
+- 새 대본 예시: (유지)
+- 이미지 프롬프트: (Crop of shot 29 ×1.35 — or generate:) Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face with glinting big round glossy black eyes, pink nose and whiskers
+- 영상 프롬프트: Edit: digital zoom crop of shot 29's clip at about ×1.35; start fully white, fade through a cyan tint, then an RGB split glitch settling into the normal image.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.37초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames)
+- 귀여운 포인트: 동그란 눈 클로즈업
+- 🔁 재사용(생성 불필요): #29 클립을 1.37배 확대 · 중심 가로 52% 세로 47% · 클립 1.57초부터
+
+### #32 20.27–20.77s (0.50초, 15프레임) · 동료1 · MS · 아이레벨(살짝 로우) · 전환: 하드컷 · 효과: 글리치 자막
+- 카메라: 고정, 진입 4프레임 동안 초점 흐림 + RGB 색 분리
+- 위치(3×3): 2, 3, 5, 6 · 대표 색: #7b7b7c, #b3a5a0, #e1d2ca, #9d7460
+- 동작·표정: 파티션 모서리 옆으로 동료가 손을 흔들며 등장(얼굴은 화면 밖), 다른 손엔 작은 흰 키링
+- 배경: 파티션 모서리, 흐린 사무실, 천장 LED
+- 자막: 대사 [주인공을 부르는 들뜬 호출 + ☆] (동료(여)(#1EFF2A) · 화자 색 + 끝에 ☆)
+- 전환: 하드컷(RGB 색 분리로 진입, 약 4프레임) · 효과음: '지직' 글리치 + 동료의 들뜬 호출
+- 편집 기법: RGB 글리치 등장 전환 — 각성 직후 흐름을 '지직' 끊어 방해꾼 난입을 알림 — 소리·그림 모두 버그처럼
+- 새 대본 예시: (초록) 김OO씨이~☆
+- 이미지 프롬프트: Medium shot of a young Korean woman office worker wearing a beige short-sleeve linen blouse with a band collar and small buttons, long dark hair, her face cropped out of frame above the lips stepping out from behind the corner of a grey fabric cubicle partition, waving one hand cheerfully and holding a tiny generic white squishy keychain charm (no licensed character) in the other, her face out of frame above the lips; a bright modern Korean open-plan office with light-oak desks, grey fabric cubicle partitions, grey filing cabinets, black mesh ergonomic chairs and long linear LED ceiling lights, blurred coworkers walking by in the background. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: She pops out from behind the partition and waves eagerly, the tiny charm swinging. Her face stays out of frame. Static camera. (Add a 4-frame RGB split glitch and defocus on entry in the edit.) Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.50초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 귀여운 포인트: 작은 키링 소품
+
+### #33 20.77–21.13s (0.37초, 11프레임) · 주인공 · MS · 아이레벨(정면) · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(원본, #37·#39와 같은 원본 구도)
+- 위치(3×3): 2, 5, 8 · 대표 색: #1e1e1a, #46423d, #ad8f7b, #c9ae9c
+- 동작·표정: 의자에 앉아 동료 쪽을 보다가 한쪽 눈을 찡긋 깜빡임
+- 배경: 검정 메시 의자, 어두운 사무실
+- 자막: 대사 [동료의 '이거 봐' 류 대사(L컷)] (동료(여)(#1EFF2A) · L컷 타이핑)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: L컷(동료 대사를 주인공 위로) — 동료 얼굴 대신 붙잡힌 주인공 얼굴을 보여 줘 '아 지금은 안 되는데'를 대변
+- 새 대본 예시: (초록) 나 이거 샀다~!
+- 이미지 프롬프트: Medium shot at eye level of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sitting in a black mesh office chair, big round glossy black eyes, one eye blinking shut in a tiny wink, polite little face, fluffy chest; dark office blurred behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter turns its eyes toward an off-screen voice and blinks one eye slowly. Static camera. Use the same keyframe for shots 37 and 39 (shots 34, 38 and 40 are crops). Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.37초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 윙크·반짝이, 동그란 눈 클로즈업
+- 🎥 이 클립 하나로 #34 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #34 21.13–21.60s (0.47초, 14프레임) · 주인공 · CU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#33의 약 2.25배 크롭)
+- 위치(3×3): 4, 5, 6 · 대표 색: #c2a28d, #a68875, #d4baa8, #24231d
+- 동작·표정: 얼굴 클로즈업, 곤란한 듯 입을 다문 채 눈만 끔뻑
+- 배경: 흐림
+- 자막: 대사 [(동료 대사 유지)] (동료(여)(#1EFF2A) · 자막 브릿지)
+- 전환: 하드컷(축 방향 컷인) · 효과음: -
+- 편집 기법: 디지털 줌 컷인 — 곤란함을 얼굴 크기로 과장
+- 새 대본 예시: (대사 유지)
+- 이미지 프롬프트: (Crop of shot 33 ×2.25 — or generate:) Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face: big round glossy black eyes, pink nose, puffy cheeks, mouth pressed shut in a polite awkward expression
+- 영상 프롬프트: Edit: digital zoom crop of shot 33's clip at about ×2.25. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.47초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 동그란 눈 클로즈업
+- 🔁 재사용(생성 불필요): #33 클립을 2.32배 확대 · 중심 가로 50% 세로 50% · 클립 0.87초부터
+
+### #35 21.60–22.20s (0.60초, 18프레임) · 동료1 · INSERT(소품 CU) · 아이레벨 · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 2, 4, 5 · 대표 색: #8a7467, #76503e, #9f928f, #c6ac9e
+- 동작·표정: 동료의 두 손이 작은 흰 키링을 눈앞에 대롱대롱 흔듦, 키링 옆에 작은 인사말 괄호 자막
+- 배경: 동료의 베이지 블라우스(흐림)
+- 자막: 대사 [귀엽지 않냐는 자랑 — 반짝이 문자로 감싸며 타이핑] (동료(여)(#1EFF2A) · 타이핑 + 반짝이 문자 °.✧ + 소품 옆 초소형 괄호 자막)
+- 전환: 하드컷 · 효과음: 반짝 '샤랑'
+- 편집 기법: 소품 인서트 + 초소형 말풍선 자막 — 귀여운 소품을 크게 보여 줘 '거절하기 힘든 자랑'을 설득력 있게
+- 새 대본 예시: (초록) °.✧ 이거 완전
+- 이미지 프롬프트: Close-up of a young Korean woman office worker wearing a beige short-sleeve linen blouse with a band collar and small buttons, long dark hair, her face cropped out of frame above the lips's hands dangling a tiny generic white squishy keychain charm (no licensed character) on a short ball chain right in front of the camera, beige blouse blurred behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: The charm swings gently on its chain as her fingers jiggle it. Static camera. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.60초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 귀여운 포인트: 작은 키링 소품
+
+### #36 22.20–22.87s (0.67초, 20프레임) · 동료1 · INSERT(소품 ECU) · 아이레벨 · 전환: 하드컷
+- 카메라: 고정(소품이 대롱거리며 초점이 앞뒤로 오감)
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #957e6f, #84614f, #af9b92, #d8c7bf
+- 동작·표정: 키링이 화면 가득 대롱거리고, 반짝이 문자가 대사 양끝에 붙음
+- 배경: 베이지 블라우스(흐림)
+- 자막: 대사 [자랑 대사 완성(늘인 말끝 + 반짝이 문자)] (동료(여)(#1EFF2A) · 타이핑 브릿지 + 반짝이 문자)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 소품 ECU + 반짝이 문자 장식 — 말끝을 길게 늘인 자랑과 대롱거리는 소품으로 '빨리 안 끝날 것 같은' 불안을 줌
+- 새 대본 예시: +(초록) 말랑하지이이 °.✧
+- 이미지 프롬프트: Extreme close-up of a tiny generic white squishy keychain charm swinging toward the camera, a young Korean woman office worker wearing a beige short-sleeve linen blouse with a band collar and small buttons, long dark hair, her face cropped out of frame above the lips's fingers holding the chain at the top, beige blouse blurred behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: The charm swings closer and away, slight focus breathing. Static camera. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.67초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 작은 키링 소품, 반짝이 문자
+
+### #37 22.87–23.37s (0.50초, 15프레임) · 주인공 · MS · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(원본, #33과 같은 구도)
+- 위치(3×3): 2, 5, 8 · 대표 색: #1f1e1b, #48413e, #b1927e, #7b6b62
+- 동작·표정: 눈을 가늘게 뜨고 입꼬리만 올린 억지 웃음
+- 배경: 검정 메시 의자
+- 자막: 대사 [어색한 웃음소리] (주인공 동물(흰색) · 기본)
+- 전환: 하드컷 · 효과음: 어색한 억지 웃음 목소리
+- 편집 기법: 억지 미소 리액션 — 사회생활 웃음을 동물 얼굴로 — 누구나 해 본 표정이라 공감이 큼
+- 새 대본 예시: 아하하…
+- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a black mesh office chair giving a forced polite smile: eyes squeezed into happy crescents, tiny mouth corners pulled up, puffy fluffy cheeks; dark office blurred. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter squints into a stiff polite smile and bobs its head slightly with an awkward chuckle. Static camera. (Shot 38 is a 2× crop of this clip.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.50초
+- 추천 모델: 1순위 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도)) / 대안 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K)
+- 귀여운 포인트: 억지 미소(눈웃음), 볼 빵빵·오물오물
+- 🎥 이 클립 하나로 #38 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+- 컷 안 줌(원본 측정): 시작→끝 1.039배 푸시인
+
+### #38 23.37–23.87s (0.50초, 15프레임) · 주인공 · CU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#37의 약 2.0배 크롭)
+- 위치(3×3): 4, 5, 6 · 대표 색: #201f1a, #c3a38d, #a68774, #d4baa8
+- 동작·표정: 억지 웃음 얼굴 클로즈업(눈웃음, 볼 빵빵)
+- 배경: 흐린 의자
+- 자막: 대사 [속이 타들어 가는 사회적 웃음이라는 괄호] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 하드컷(축 방향 컷인) · 효과음: -
+- 편집 기법: 디지털 줌 + 속마음 괄호(겉 웃음 vs 속 탐) — 같은 웃음을 크게 보여 주며 괄호로 속마음을 폭로 — 겉과 속의 대비
+- 새 대본 예시: (속 타는 영업용 미소)
+- 이미지 프롬프트: (Crop of shot 37 ×2.0 — or generate:) Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face in a stiff forced smile: eyes squeezed into crescents, puffed fluffy cheeks, whiskers raised
+- 영상 프롬프트: Edit: digital zoom crop of shot 37's clip at about ×2.0. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.50초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 억지 미소(눈웃음), 볼 빵빵·오물오물
+- 🔁 재사용(생성 불필요): #37 클립을 1.97배 확대 · 중심 가로 50% 세로 50% · 클립 1.00초부터
+
+### #39 23.87–24.83s (0.97초, 29프레임) · 주인공 · MS · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(원본, #33·#37과 같은 구도)
+- 위치(3×3): 2, 5, 8 · 대표 색: #1f1e1a, #48423e, #b1927f, #7c6b61
+- 동작·표정: 앞발을 가슴 앞에 모으고 또박또박 억지 칭찬
+- 배경: 검정 메시 의자
+- 자막: 대사 [한 글자씩 마침표로 끊어 치는 억지 칭찬] (주인공 동물(흰색) · 끊어 치기 타이핑)
+- 전환: 하드컷 · 효과음: 억지 칭찬 목소리(약 432Hz, 영상 최고음)
+- 편집 기법: 마침표 끊어 치기 타이핑 — 글자 사이 마침표가 영혼 없는 말투를 그대로 들려줌
+- 새 대본 예시: 말. 랑. 하. 네. 요
+- 이미지 프롬프트: Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a black mesh office chair with its tiny front paws pressed together at its chest, forced polite face, big round glossy black eyes, fluffy cheeks; dark office blurred. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter clasps its tiny paws and says each syllable slowly with a stiff nod. Static camera. (Shot 40 is a 4× crop of this clip — generate in 4K.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.97초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도))
+- 귀여운 포인트: 앞발 모으기·흔들기, 억지 미소(눈웃음)
+- 🎥 이 클립 하나로 #40 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #40 24.83–25.37s (0.53초, 16프레임) · 주인공 · ECU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#39의 약 4.0배 크롭)
+- 위치(3×3): 4, 5, 6 · 대표 색: #c5a28a, #d4b49e, #b08c76, #846356
+- 동작·표정: 두 눈과 코만 화면 가득, 표정 없이 굳음
+- 배경: 없음(얼굴 전체)
+- 자막: 라벨 [시간 없으니 자랑은 빨리 끝내라는 라벨(혀 짧은 말투)] 대사 [어서 가 줬으면 하는 속마음 괄호] (주인공 동물(흰색) · 라벨+괄호)
+- 전환: 하드컷(축 방향 컷인) · 효과음: -
+- 편집 기법: 디지털 줌 4배 ECU + 라벨·괄호 2단 속마음 — 겉으론 웃고 속으론 '가라'고 비는 대비를 초근접으로 — 방해꾼 파트의 펀치라인
+- 새 대본 예시: (라벨) 1초가 아까우니 자랑은 짧게 / (제발 지금 가 주세요)
+- 이미지 프롬프트: (Crop of shot 39 ×4.0 — or generate:) Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face filling the frame: two big round glossy black eyes and a pink nose, expressionless frozen stare, soft fur
+- 영상 프롬프트: Edit: digital zoom crop of shot 39's clip at about ×4.0 (needs a 4K base). No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.53초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 동그란 눈 클로즈업(화면 가득), 멍한 눈
+- 🔁 재사용(생성 불필요): #39 클립을 3.7배 확대 · 중심 가로 51% 세로 44% · 클립 1.47초부터
+
+### #41 25.37–25.87s (0.50초, 15프레임) · 주인공 · CU(3/4) · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(원본)
+- 위치(3×3): 4, 5, 6 · 대표 색: #8f7664, #bb9a81, #2c2724, #d6baa8
+- 동작·표정: 다시 노트북 화면을 노려보는 옆얼굴, 뒤로 동료가 지나감
+- 배경: 밝은 사무실, 지나가는 사람(흐림)
+- 자막: 대사 [다시 필사적으로 집중한다는 괄호] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 하드컷 · 효과음: 저음 히트 + 음악 재진입
+- 편집 기법: #27 구도 반복(콜백) → 재집중 — 각성 때와 같은 구도로 돌아와 '2라운드 시작'을 알림
+- 새 대본 예시: (다시 목숨 걸고 초집중)
+- 이미지 프롬프트: Three-quarter close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest glaring at a laptop screen off-frame with fierce determination, big round glossy black eyes, whiskers forward, fluffy cheeks; a three-quarter side view at a light-oak desk: the back of an open silver laptop at the left edge, loose printed documents on the right, a black mesh ergonomic chair behind, and the bright open-plan office with grey partitions, filing cabinets and blurred coworkers walking past, a coworker walking past in soft focus. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter narrows its eyes and leans toward the screen. Static camera. (Shot 42 is a 2.5× crop of this clip.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.50초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 진지한 옆얼굴(사람 같은 집중), 동그란 눈 클로즈업
+- 🎥 이 클립 하나로 #42 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #42 25.87–26.40s (0.53초, 16프레임) · 주인공 · ECU(눈) · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#41의 약 2.5배 크롭)
+- 위치(3×3): 4, 5, 6 · 대표 색: #c69f81, #d2b29c, #ac8469, #211a16
+- 동작·표정: 반짝이는 두 눈(화면 반사광) 초근접
+- 배경: 없음
+- 자막: 대사 [(유지)] (주인공 동물(흰색) · 브릿지)
+- 전환: 하드컷(축 방향 컷인) · 효과음: -
+- 편집 기법: 눈 초근접(결의) — 눈에 비친 반사광으로 '모드 전환'을 암시
+- 새 대본 예시: (유지)
+- 이미지 프롬프트: (Crop of shot 41 ×2.5 — or generate:) Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's big round glossy black eyes with bright screen reflections, fluffy fur around them
+- 영상 프롬프트: Edit: digital zoom crop of shot 41's clip at about ×2.5. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.53초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 동그란 눈 클로즈업(눈동자 반사광)
+- 🔁 재사용(생성 불필요): #41 클립을 2.54배 확대 · 중심 가로 50% 세로 48% · 클립 1.00초부터
+
+### #43 26.40–27.53s (1.13초, 34프레임) · 주인공 · MS(3/4) · 아이레벨 · 전환: 하드컷
+- 카메라: 고정(배경 사람만 빨리 지나가는 타임랩스 느낌)
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #5f4d43, #26201d, #937a6b, #baa192
+- 동작·표정: 앞발을 키보드에 올리고 입을 벌린 채 초고속 작업, 뒤로 동료들이 빨리감기처럼 지나감
+- 배경: 사무실, 빠르게 오가는 사람들
+- 자막: 대사 [무의식중에 슈퍼 동물로 변신했다는 말장난 괄호 + ☆] (주인공 동물(흰색) · 괄호 자막 + ☆)
+- 전환: 하드컷 · 효과음: 키보드 초고속 연타
+- 편집 기법: 타임랩스 배경(주인공만 정상 속도) — 주변만 빨라지는 그림으로 '시간이 멈춘 듯한 몰입'을 표현
+- 새 대본 예시: (나도 모르게 슈퍼달 강림☆)
+- 이미지 프롬프트: Three-quarter medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sitting upright at an open silver laptop, tiny pink paws on the keyboard, mouth open in intense focus, big round glossy black eyes, fluffy chest; a three-quarter side view at a light-oak desk: the back of an open silver laptop at the left edge, loose printed documents on the right, a black mesh ergonomic chair behind, and the bright open-plan office with grey partitions, filing cabinets and blurred coworkers walking past with coworkers rushing past. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter types steadily while coworkers behind it move at 3–4× speed (speed-ramp the background plate or prompt a time-lapse crowd). Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 1.13초
+- 추천 모델: 1순위 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오) / 대안 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K)
+- 귀여운 포인트: 사람처럼 노트북 앞에 앉기, 짧은 앞발로 키보드 타닥
+
+### #44 27.53–28.77s (1.23초, 37프레임) · 주인공 · MCU→(와이프) · 아이레벨(노트북 뒤) · 전환: 하드컷
+- 카메라: 천천히 오른쪽으로 트래킹 → 노트북 뒤판이 화면을 덮음(전경 와이프)
+- 위치(3×3): 5, 6 · 대표 색: #655044, #93715f, #d8b5a0, #c19a83
+- 동작·표정: 노트북 뒤에서 얼굴을 내밀다 오른쪽으로 쏙 빠져나가고, 노트북 뒤판이 화면을 가림
+- 배경: 노트북 뒤판(어두운 회색), 흐린 사무실
+- 자막: 대사 [평소보다 몇 배 빠른 작업 속도라는 괄호] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 전경 물체 와이프(노트북 뒤판) — 다음 컷(바닥 질주)으로 넘어가는 문을 화면 안의 물체로 만들어 전환이 매끄러움
+- 새 대본 예시: (평소엔 봉인해 둔 업무 속도)
+- 이미지 프롬프트: Medium close-up from behind the edge of an open silver laptop lid of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest peeking around it, big round glossy black eyes, fluffy cheeks, whiskers; a three-quarter side view at a light-oak desk: the back of an open silver laptop at the left edge, loose printed documents on the right, a black mesh ergonomic chair behind, and the bright open-plan office with grey partitions, filing cabinets and blurred coworkers walking past. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter leans toward the lens and darts out of frame to the right while the camera tracks slowly right until the dark back of the laptop lid fills the frame. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.23초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Seedance 2.5(시작·끝 프레임, 4~30초, 최대 1080p, 오디오)
+- 귀여운 포인트: 빼꼼 내다보기, 동그란 눈 클로즈업
+
+### #45 28.77–29.00s (0.23초, 7프레임) · 주인공 · WS(바닥 높이) · 로우앵글(바닥) · 전환: 줌 블러
+- 카메라: 고정, 방사형 스피드 블러
+- 위치(3×3): 4, 7, 8 · 대표 색: #a0998e, #bcb5a8, #716c67, #313131
+- 동작·표정: 노트를 안은 주인공이 사람 다리 사이를 쏜살같이 달려옴
+- 배경: 회색 카펫, 걸어가는 사람 다리, 사무실 책상
+- 자막: 대사 [유명 애니 영화 제목을 비튼 시간 질주 괄호] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 줌 블러(방사형 스피드 블러로 진입) · 효과음: '휙' 대시
+- 편집 기법: 줌 블러 스피드 컷(0.23초) — 0.23초 초단 컷으로 속도를 체감시키고 바닥 높이 앵글로 '작은 몸이 큰 세상을 뚫고 달림'을 보여 줌
+- 새 대본 예시: (시간을 추월하는 달)
+- 이미지 프롬프트: Floor-level wide shot of tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest running on its hind legs toward the camera while hugging a small grey notebook bigger than its chest, short legs mid-stride, between the striding legs of office workers in dark trousers; a floor-level wide-angle view on grey office carpet in a busy open-plan office: legs of office workers in dark suit trousers and black leather shoes striding past, desks and mesh chairs blurred behind, loose sheets of paper fluttering in the air. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter sprints forward with quick little steps, fur bouncing; legs stride past. Static camera. (Add a radial speed blur in the edit.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.23초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오) / 대안 Vidu Q3 Pro(시작·끝 프레임, 1~16초(1초 가능), 최대 2K, 오디오)
+- 귀여운 포인트: 종종걸음 달리기, 몸보다 큰 물건 안기, 사람과 크기 대비
+
+### #46 29.00–29.73s (0.73초, 22프레임) · 주인공 · WS(바닥 높이) · 로우앵글(바닥) · 전환: 줌 블러
+- 카메라: 고정
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #b4b1a5, #959187, #53615f, #dfdcd4
+- 동작·표정: 초록 스피드 광선이 화면 위쪽을 쓸고 지나간 뒤, 청록 잔상 오라를 두른 주인공이 동료 다리 옆을 달려 지나감
+- 배경: 회색 카펫, 다리, 사무실
+- 자막: 대사 [(유지)] (주인공 동물(흰색) · 브릿지 + 스피드 광선·잔상 오라)
+- 전환: 잔상 전환(초록 스피드 광선이 화면을 쓸고 지나감) · 효과음: '슈웅' 스피드 휙
+- 편집 기법: 스피드 광선 + 잔상 오라(게임 대시 이펙트) — 게임 캐릭터 대시처럼 잔상을 남겨 '궁극기 지속 중'을 시각화
+- 새 대본 예시: (유지)
+- 이미지 프롬프트: Floor-level wide shot of tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest running past the legs of an office worker in dark trousers and black shoes, hugging a small grey notebook with both tiny paws, short legs mid-stride; a floor-level wide-angle view on grey office carpet in a busy open-plan office: legs of office workers in dark suit trousers and black leather shoes striding past, desks and mesh chairs blurred behind, loose sheets of paper fluttering in the air. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter dashes left to right past the legs. Static camera. (Add a green speed-light streak sweeping across and a fading cyan afterimage aura trailing the otter in the edit.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.73초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 종종걸음 달리기, 사람과 크기 대비, 몸보다 큰 물건 안기
+
+### #47 29.73–30.60s (0.87초, 26프레임) · 주인공 · MS(바닥 높이) · 로우앵글 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(원본)
+- 위치(3×3): 2, 5, 8 · 대표 색: #c4b4a6, #a18e82, #292626, #70655e
+- 동작·표정: 바닥에 두 발로 서서 노트를 가슴에 안고 비장하게 정면을 봄
+- 배경: 흐린 사무실 바닥·서랍장
+- 자막: 대사 [시간을 잘게 나눠 쓴다는 괄호] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 호흡 컷(몽타주 중간 쉼표) — 달리기 사이에 서 있는 컷을 넣어 속도의 대비를 만듦
+- 새 대본 예시: (1초를 10초처럼 쪼개 쓰는 중)
+- 이미지 프롬프트: Low-angle medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest standing upright on grey office carpet, hugging a small grey notebook that covers its whole chest with both tiny paws, big round glossy black eyes, puffy cheeks, determined little face; a floor-level wide-angle view on grey office carpet in a busy open-plan office: legs of office workers in dark suit trousers and black leather shoes striding past, desks and mesh chairs blurred behind, loose sheets of paper fluttering in the air. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter catches its breath, hugging the notebook tighter, whiskers quivering. Static camera. (Shot 48 is a 1.65× crop of this clip; the shot-1 thumbnail frame reuses it.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.87초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 몸보다 큰 물건 안기, 동그란 눈 클로즈업
+- 🎥 이 클립 하나로 #48 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #48 30.60–31.53s (0.93초, 28프레임) · 주인공 · CU · 로우앵글 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#47의 약 1.65배 크롭)
+- 위치(3×3): 4, 5, 6 · 대표 색: #b99e8a, #d7c2b0, #8f796c, #2b2724
+- 동작·표정: 노트를 안은 채 입을 살짝 벌리고 숨을 고르는 얼굴
+- 배경: 흐린 사무실
+- 자막: 대사 [구멍 난 일을 막는 동물 말장난 괄호] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 하드컷(축 방향 컷인) · 효과음: -
+- 편집 기법: 디지털 줌 + 동물 말장난 괄호 — 명사형 말끝을 동물 이름으로 바꾸는 채널 시그니처 말장난
+- 새 대본 예시: (펑크 난 일정 메우는 달)
+- 이미지 프롬프트: (Crop of shot 47 ×1.65 — or generate:) Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest catching its breath with a tiny open mouth, big round glossy black eyes, puffy cheeks, the top of a small notebook at the bottom edge
+- 영상 프롬프트: Edit: digital zoom crop of shot 47's clip at about ×1.65. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.93초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 동그란 눈 클로즈업, 몸보다 큰 물건 안기
+- 🔁 재사용(생성 불필요): #47 클립을 1.63배 확대 · 중심 가로 53% 세로 49% · 클립 1.37초부터
+
+### #49 31.53–32.60s (1.07초, 32프레임) · 주인공 · WS(바닥 높이) · 로우앵글(바닥) · 전환: 하드컷
+- 카메라: 고정, 끝 2프레임 모션 블러
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #b6aea1, #999287, #1c1b1e, #e1dbd5
+- 동작·표정: 종이가 흩날리는 가운데 노트를 안고 걸어가는 사람 다리 사이를 달려 화면 밖으로 사라짐
+- 배경: 카펫, 검은 구두, 날리는 서류
+- 자막: 대사 [기합 섞인 환호(글자 사이 ☆)] (주인공 동물(흰색) · 기울임 대사 + ☆)
+- 전환: 하드컷 · 효과음: 종이 펄럭이는 소리 + 기합 환호(추정)
+- 편집 기법: 프레임 아웃(달려 나가 빈 화면) + 날리는 종이 — 주인공이 빠져나간 빈 화면에 종이만 날려 '폭풍처럼 지나감'을 보여 줌
+- 새 대본 예시: 으☆쌰☆쌰
+- 이미지 프롬프트: Floor-level wide shot of tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest scampering between the legs of an office worker in dark trousers and black shoes, hugging a small grey notebook, fur bouncing, sheets of paper fluttering in the air; a floor-level wide-angle view on grey office carpet in a busy open-plan office: legs of office workers in dark suit trousers and black leather shoes striding past, desks and mesh chairs blurred behind, loose sheets of paper fluttering in the air. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter scampers through and exits frame right; the worker keeps walking and papers flutter down. Static camera, slight motion blur at the end. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.07초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 종종걸음 달리기, 사람과 크기 대비, 몸보다 큰 물건 안기
+
+### #50 32.60–32.90s (0.30초, 9프레임) · 주인공 · ECU(앞발 인서트) · 하이앵글 · 전환: 하드컷
+- 카메라: 고정(모션 블러)
+- 위치(3×3): 1, 2, 4, 5 · 대표 색: #55120c, #d9d1d6, #8e7e75, #b0a29c
+- 동작·표정: 작은 앞발이 빨간 스테이플러를 힘껏 내리찍음
+- 배경: 흰 종이, 흐린 사무실
+- 자막: 대사 [스테이플러 타격 의성어 1타] (주인공 동물(흰색) · 강조 자막(기울임 초대형))
+- 전환: 하드컷(효과음과 같은 프레임) · 효과음: 스테이플러 '철컥' 클릭(온셋 32.601초 = 컷 32.600초)
+- 편집 기법: 의성어 강조 + 효과음 동기 — 0.3초 인서트에 소리·글자·동작을 한 점에 모아 '팍팍 해치운다'는 쾌감
+- 새 대본 예시: (강조) 철컥
+- 이미지 프롬프트: Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's tiny pink front paw slamming down on a big red office stapler on white paper, short arm stretched, motion blur. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: One quick hard press of the stapler with the tiny paw, a small bounce back. Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.30초
+- 추천 모델: 1순위 Vidu Q3 Pro(시작·끝 프레임, 1~16초(1초 가능), 최대 2K, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 작은 앞발로 큰 스테이플러 누르기
+
+### #51 32.90–33.90s (1.00초, 30프레임) · 주인공 · WS(휩 팬) · 아이레벨 · 전환: 하드컷 · 효과: 휩 팬
+- 카메라: 빠르게 오른쪽으로 패닝(모션 블러), 앞쪽에 흐릿한 주인공이 스쳐 지나감
+- 위치(3×3): 4, 5, 6 · 대표 색: #ac9989, #877869, #1e211e, #524d45
+- 동작·표정: 사무실을 가로지르는 빠른 패닝, 앞쪽으로 주인공이 휙 지나가고 책상 위 서류 더미에서 멈춤
+- 배경: 사무실 책상·모니터·서류 더미
+- 자막: 대사 [연출이 과장됐다는 셀프 고지 괄호] (주인공 동물(흰색) · 괄호 자막)
+- 전환: 휩 팬(사무실을 가로지르는 빠른 패닝, 모션 블러) · 효과음: '휙' 휩 팬
+- 편집 기법: 휩 팬 + 자막 셀프 디스클레이머 — 광고 고지 문구 패러디로 편집자가 끼어들어 과장 연출 자체를 웃음 포인트로
+- 새 대본 예시: (실제 속도와 다를 수 있음)
+- 이미지 프롬프트: Wide eye-level view across a bright open-plan office with desks, black monitors and a tall stack of papers on a desk, a blurred tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest streaking through the foreground; a bright modern Korean open-plan office with light-oak desks, grey fabric cubicle partitions, grey filing cabinets, black mesh ergonomic chairs and long linear LED ceiling lights, blurred coworkers walking by in the background. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Very fast whip pan to the right with heavy motion blur, a blurred small otter crossing the foreground, settling on a stack of papers. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.00초
+- 추천 모델: 1순위 Seedance 2.5(시작·끝 프레임, 4~30초, 최대 1080p, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+
+### #52 33.90–34.13s (0.23초, 7프레임) · 주인공 · ECU(앞발 인서트) · 하이앵글 · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #7c573c, #a27e63, #c8ae9d, #711e15
+- 동작·표정: 통통한 배와 가슴 털 앞에서 앞발이 스테이플러를 꾹 누름
+- 배경: 흐린 사무실
+- 자막: 대사 [스테이플러 타격 의성어 2타] (주인공 동물(흰색) · 강조 자막(기울임 초대형))
+- 전환: 하드컷(효과음과 같은 프레임) · 효과음: 스테이플러 '철컥' 클릭(온셋 33.901초 = 컷 33.900초)
+- 편집 기법: 의성어 강조 2타 — 같은 동작을 다른 각도로 반복해 리듬감
+- 새 대본 예시: (강조) 탁
+- 이미지 프롬프트: Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's round fluffy chest and one tiny pink paw pressing down hard on a big red stapler, its small chin at the top of the frame. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The tiny paw presses the stapler with effort, the fluffy body leaning in. Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.23초
+- 추천 모델: 1순위 Vidu Q3 Pro(시작·끝 프레임, 1~16초(1초 가능), 최대 2K, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 귀여운 포인트: 작은 앞발로 큰 스테이플러 누르기
+
+### #53 34.13–34.43s (0.30초, 9프레임) · 주인공 · CU · 아이레벨(살짝 광각) · 전환: 하드컷 · 효과: 글리치 자막
+- 카메라: 고정, 끝 3프레임 RGB 색 분리
+- 위치(3×3): 4, 5, 6, 8 · 대표 색: #bf9d7f, #927963, #6a3f2f, #ccc1be
+- 동작·표정: 스테이플러를 누른 채 정면을 보는 비장한 얼굴
+- 배경: 사무실, 모니터
+- 자막: 대사 [(의성어 유지)] (주인공 동물(흰색) · 강조 유지 + 끝에 글리치)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: RGB 색 분리 글리치로 다음 컷 연결 — 스테이플러 연타를 얼굴로 마무리하고 색 분리로 돌진 컷에 붙임
+- 새 대본 예시: (강조 유지)
+- 이미지 프롬프트: Close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest leaning over a big red stapler with one tiny paw on it, big round glossy black eyes staring into the camera with fierce focus, puffy cheeks; a bright modern Korean open-plan office with light-oak desks, grey fabric cubicle partitions, grey filing cabinets, black mesh ergonomic chairs and long linear LED ceiling lights, blurred coworkers walking by in the background. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter presses once more and looks straight into the lens. Static camera. (Add a 3-frame RGB split at the end in the edit.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.30초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도))
+- 귀여운 포인트: 작은 앞발로 큰 스테이플러 누르기, 동그란 눈 클로즈업
+- 컷 안 줌(원본 측정): 시작→끝 1.054배 푸시인
+
+### #54 34.43–35.23s (0.80초, 24프레임) · 주인공 · MS(광각 로우) · 로우앵글(광각) · 전환: 줌 블러
+- 카메라: 광각 고정, 주변 사람만 빨리 지나감
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #aa9888, #967d68, #c3b7b2, #6e5b4b
+- 동작·표정: 완성된 보고서 묶음을 입에 물고 앞발로 받친 채 카메라 쪽으로 돌진, 뒤로 동료들이 빠르게 지나감
+- 배경: 사무실 통로, 걸어가는 사람들
+- 자막: 대사 [(자막 없음)] (주인공 동물(흰색) · 자막 없음)
+- 전환: 줌 블러(방사형 블러 + RGB 색 분리로 진입) · 효과음: '휙' 돌진 + 색 분리(온셋 34.435초 = 컷 34.433초)
+- 편집 기법: 광각 돌진 + 타임랩스 배경 — 자막을 비워 그림만으로 '완성해서 달려감'을 보여 주고, 물고 가는 동작으로 귀여움 최고조
+- 새 대본 예시: (자막 없음)
+- 이미지 프롬프트: Low wide-angle medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest running toward the camera carrying a thick bound stack of white printed report pages in its mouth, supporting it with both tiny paws, big round glossy black eyes, fluffy cheeks stretched around the paper; a bright modern Korean open-plan office with light-oak desks, grey fabric cubicle partitions, grey filing cabinets, black mesh ergonomic chairs and long linear LED ceiling lights, blurred coworkers walking by in the background aisle with coworkers striding past. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter hurries toward the lens with the report clamped in its mouth while blurred coworkers rush past at double speed. Static wide-angle camera. (Add a radial blur + RGB split entrance in the edit.) Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.80초
+- 추천 모델: 1순위 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오) / 대안 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K)
+- 귀여운 포인트: 입에 물고 나르기, 몸보다 큰 물건 안기, 종종걸음 달리기
+
+### #55 35.23–35.67s (0.43초, 13프레임) · 주인공 · INSERT(앞발 CU) · 하이앵글(책상 위) · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 4, 5, 6, 7, 8, 9 · 대표 색: #dcd6d8, #957e73, #a89791, #7a5f4f
+- 동작·표정: 책상 위 보고서 표지 위에 작은 분홍 앞발 두 개를 탁 올려놓음(표지 글씨는 카메라 쪽에서 거꾸로)
+- 배경: 어두운 회의 테이블
+- 자막: 대사 [(자막 없음)] (주인공 동물(흰색) · 자막 없음)
+- 전환: 하드컷 · 효과음: 음악 완전 정지(저역 -18dB·중역 -21dB로 급락)
+- 편집 기법: 음악 하드 스톱 + 앞발 인서트 — 몽타주가 끝나는 순간 소리를 싹 비워 '도착' 안도감과 다음 반전의 정적을 동시에
+- 새 대본 예시: (자막 없음)
+- 이미지 프롬프트: Close-up from the front of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's two tiny pink front paws resting side by side on the plain white cover of a thick printed report on a dark walnut conference table, its fluffy chin and whiskers at the top edge; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The tiny paws pat the report cover once and settle, a small breathing bob. Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.43초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오)
+- 귀여운 포인트: 분홍 앞발 클로즈업
+- 컷 안 줌(원본 측정): 시작→끝 1.062배 푸시인
+
+### #56 35.67–36.33s (0.67초, 20프레임) · 주인공 · ECU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 2, 4, 5, 6 · 대표 색: #dcbaa3, #c9a38c, #816e67, #ae8672
+- 동작·표정: 눈을 질끈 감고 입으로 헐떡이는 얼굴 초근접
+- 배경: 없음(얼굴 전체), 흐린 의자
+- 자막: 라벨 [간발의 차로 마감을 지켰다는 라벨] 대사 [숨이 차 자모가 끊긴 첫 단어 타이핑] (주인공 동물(흰색) · 라벨+자모 타이핑)
+- 전환: 하드컷 · 효과음: 헐떡이는 숨소리(음악 없음)
+- 편집 기법: 자모 분해 타이핑(숨참) — 헐떡임을 소리와 깨진 글자로 동시에 — 해냈다는 안도를 과장
+- 새 대본 예시: (라벨) 3시 59분 겨우 세이프 / ㅅㅓㄹ문
+- 이미지 프롬프트: Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face with its eyes squeezed shut, panting through a tiny open mouth, fluffy cheeks puffing in and out, pink nose; black mesh chair blurred behind. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter pants rapidly with its eyes squeezed shut, cheeks puffing. Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.67초
+- 추천 모델: 1순위 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도)) / 대안 Hailuo 2.3(시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만))
+- 귀여운 포인트: 눈 질끈·헐떡임, 볼 빵빵·오물오물
+
+### #57 36.33–36.90s (0.57초, 17프레임) · 주인공 · MCU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 2, 5, 7, 8 · 대표 색: #e4dcdc, #af8e7a, #c9aa98, #4b4543
+- 동작·표정: 보고서 위에 앞발을 올린 채 헐떡이며 말을 이으려 함(입가·앞발만)
+- 배경: 보고서 표지 글씨, 흐린 의자
+- 자막: 라벨 [(라벨 유지)] 대사 [헐떡이는 숨소리 표기] (주인공 동물(흰색) · 라벨 유지+대사)
+- 전환: 하드컷 · 효과음: 헐떡임 계속
+- 편집 기법: 자막으로 숨소리 표기 — 말이 안 나오는 상태를 글자로 보여 줘 무음으로 봐도 숨참이 느껴짐
+- 새 대본 예시: (라벨 유지) / 허억..헉
+- 이미지 프롬프트: Medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's lower face and two tiny pink paws resting on a thick printed report on a dark walnut table, tiny mouth open, panting, fluffy cheeks; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Panting little breaths, the tiny paws press the report down. Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.57초
+- 추천 모델: 1순위 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성) / 대안 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도))
+- 귀여운 포인트: 분홍 앞발 클로즈업, 눈 질끈·헐떡임
+
+### #58 36.90–37.67s (0.77초, 23프레임) · 주인공 · MS · 아이레벨(테이블 높이) · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#59 원본의 약 1.5배 크롭, 줌 컷이 먼저 나옴)
+- 위치(3×3): 2, 5, 8 · 대표 색: #c7a693, #454242, #685f5d, #8a766e
+- 동작·표정: 회의실 의자에 앉아 보고서 뒤에서 숨찬 목소리로 발표 시작(시그니처 소품 없이 등장)
+- 배경: 회의실 회색 벽, 검정 메시 의자
+- 자막: 대사 [헐떡이며 끊기는 발표 첫마디(자모·기호 섞임)] (주인공 동물(흰색) · 깨진 타이핑)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 디지털 줌(역순: 크롭 → 원본 와이드) — 숨찬 발표를 먼저 크게 보여 준 뒤 다음 컷에서 넓혀 안도감으로 이어 감
+- 새 대본 예시: 설문 결.과.입;니.다
+- 이미지 프롬프트: (Crop of shot 59 ×1.5 — or generate:) Medium shot of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sitting in a black mesh executive chair behind a thick printed report on a dark walnut table, tiny paws on the report, mouth open mid-breath, big round glossy black eyes; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight
+- 영상 프롬프트: Edit: digital zoom crop of shot 59's clip at about ×1.5 (use the earlier part where it pants and talks). No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.77초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K)
+- 귀여운 포인트: 동그란 눈 클로즈업, 앞발 가지런히 서류 위
+- 🔁 재사용(생성 불필요): #59 클립을 1.53배 확대 · 중심 가로 53% 세로 52% · 클립 0.50초부터
+- 컷 안 줌(원본 측정): 시작→끝 0.969배 풀아웃
+
+### #59 37.67–38.33s (0.67초, 20프레임) · 주인공 · WS · 아이레벨(테이블 높이) · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(원본)
+- 위치(3×3): 5, 8 · 대표 색: #786a66, #b19d93, #4c4747, #e6dddd
+- 동작·표정: 커다란 회의 의자에 앉아 보고서 뒤에서 눈을 가늘게 감으며 안도의 한숨
+- 배경: 회의실 회색 벽, 거대한 검정 의자
+- 자막: 대사 [안도의 한숨] (주인공 동물(흰색) · 기본)
+- 전환: 하드컷 · 효과음: 안도의 한숨
+- 편집 기법: 와이드로 빠지며 호흡(크기 대비) — 작은 몸과 두꺼운 보고서의 크기 대비로 '해냈다'를 그림으로 정리 — 반전 직전의 평화
+- 새 대본 예시: 휴우…
+- 이미지 프롬프트: Wide shot at table height of tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest deep inside a huge black mesh executive chair behind a thick printed report on a dark walnut table, tiny paws resting on the report, eyes squeezed into relieved crescents, puffy cheeks; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter pants, then lets out a long relieved sigh, eyes closing into happy crescents, shoulders dropping. Static camera. Generate in 4K (shot 58 is a 1.5× crop). Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.67초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 거대한 의자 속 작은 몸(크기 대비), 몸보다 큰 서류 앞, 눈 질끈 안도
+- 🎥 이 클립 하나로 #58 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #60 38.33–38.80s (0.47초, 14프레임) · 동료1 · MCU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 2, 5, 8 · 대표 색: #cfb5a7, #e0cbbf, #c09c89, #a97b61
+- 동작·표정: 회의 테이블의 동료가 검지로 자기 가슴을 가리키며 의아해함(얼굴은 입 위로 잘림)
+- 배경: 회색 벽
+- 자막: 대사 [의아한 짧은 감탄사] (동료(여)(#1EFF2A) · 화자 색)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 자기 가리키기 제스처(누구 일인지 암시) — 대사보다 손가락이 먼저 '그거 내 일 아닌가?'를 말함
+- 새 대본 예시: (초록) 어라?
+- 이미지 프롬프트: Medium close-up of a young Korean woman office worker wearing a beige short-sleeve linen blouse with a band collar and small buttons, long dark hair, her face cropped out of frame above the lips sitting at a dark walnut conference table, pointing at her own chest with her index finger in confusion, beige blouse, her face out of frame above the lips; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: She tilts slightly and taps her chest with her index finger, puzzled. Her face stays out of frame. Static camera. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.47초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+
+### #61 38.80–40.80s (2.00초, 60프레임) · 동료1 · MS→CU→MS · 아이레벨 · 전환: 하드컷
+- 카메라: 고정. 검출 임계값(4.94) 아래 컷 2회가 숨어 있음: MS(0.8초) → 가슴 CU 펀치인(39.6초, 0.6초, 자기를 가리킴) → MS 복귀(40.2초, 0.6초)
+- 위치(3×3): 2, 4, 5, 6, 8 · 대표 색: #d1b5a6, #ddc6b9, #c4a08c, #b0846c
+- 동작·표정: 앉아서 손짓하며 설명 → 가슴 클로즈업으로 자기를 가리킴 → 다시 두 손을 테이블에 모음
+- 배경: 회색 벽, 검정 의자
+- 자막: 라벨 [청천벽력을 뜻하는 사자성어 라벨(중간부터)] 대사 [그 업무는 원래 자기 것 아니냐는 반문] (동료(여)(#1EFF2A) · 타이핑 + 중간 라벨 등장)
+- 전환: 하드컷 · 효과음: 동료의 담담한 반문
+- 편집 기법: 숨은 펀치인 2회(검출 임계값 아래) — 결정적 단어에서만 짧게 당겨 반전을 찍고 곧바로 원래 크기로 돌아와 담담함 유지
+- 새 대본 예시: (초록) 그 설문 결과 → (라벨) 마른하늘에 날벼락 / (초록) 어제 → (라벨 유지) / +(초록) 제가 드렸는데요?
+- 이미지 프롬프트: Medium shot of a young Korean woman office worker wearing a beige short-sleeve linen blouse with a band collar and small buttons, long dark hair, her face cropped out of frame above the lips sitting at a dark walnut conference table in a black mesh chair, gesturing with one hand as she speaks calmly, beige short-sleeve blouse, her face out of frame above the lips; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: She explains with a small hand gesture, then points to her own chest, then rests both hands on the table. Her face stays out of frame. Static camera; cut in to a chest close-up for the middle 0.6 s. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 2.00초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+
+### #62 40.80–41.20s (0.40초, 12프레임) · 주인공 · WS · 아이레벨(테이블 높이) · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 1단(#68 원본을 약 1.65배로 쓴 구도)
+- 위치(3×3): 5, 8 · 대표 색: #5b5352, #b7a59f, #7b6b65, #3c3b3b
+- 동작·표정: 보고서 뒤 의자에서 앞발을 입가로 가져가며 굳음
+- 배경: 회색 벽, 거대한 검정 의자
+- 자막: 라벨 [기억이 없던 이유를 깨닫는 라벨] 대사 [당황해 말을 삼키는 소리(자모로 끊김)] (주인공 동물(흰색) · 라벨+자모 타이핑)
+- 전환: 하드컷 · 효과음: 당황 '띠용'(권장)
+- 편집 기법: 기억 공백의 회수(초반 '기억 안 남' 라벨의 콜백) — 15초 지점 '기억 안 남'이 사실은 당연했다는 걸 라벨 한 줄로 회수
+- 새 대본 예시: (라벨) 이미 끝난 숙제였음 / 허, 헐…
+- 이미지 프롬프트: Wide shot at table height of tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest in a huge black mesh executive chair behind a thick report, lifting one tiny pink paw to its mouth in shock, big round glossy black eyes; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Edit: crop (×1.65) from shot 68's clip at the moment the paw rises to the mouth. If generating separately: static camera, the otter freezes and raises a tiny paw to its mouth.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.40초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K)
+- 귀여운 포인트: 거대한 의자 속 작은 몸(크기 대비), 앞발 입가에(당황)
+- 🔁 재사용(생성 불필요): #68 클립을 1.69배 확대 · 중심 가로 49% 세로 62% · 클립 0.50초부터
+
+### #63 41.20–41.67s (0.47초, 14프레임) · 주인공 · MCU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(2단) 2단(#62의 약 2.25배 크롭, 시간차)
+- 위치(3×3): 2, 4, 5, 6 · 대표 색: #57504f, #7e706a, #dab6a0, #bc9783
+- 동작·표정: 앞발을 턱에 댄 채 눈만 굴림
+- 배경: 회색 줄무늬 벽
+- 자막: 라벨 [(유지)] 대사 [(유지)] (주인공 동물(흰색) · 브릿지)
+- 전환: 하드컷(축 방향 컷인) · 효과음: -
+- 편집 기법: 디지털 줌 컷인 — 당황한 얼굴을 한 단계 당겨 강조
+- 새 대본 예시: (유지)
+- 이미지 프롬프트: (Crop of shot 62 ×2.25 — or generate:) Medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest with one tiny pink paw at its chin, big round glossy black eyes shifting, puffy cheeks; grey ribbed wall behind
+- 영상 프롬프트: Edit: digital zoom crop of the same clip at about ×2.25 of shot 62. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.47초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 앞발 턱 괴기(고민 포즈), 멍한 눈
+- 🔁 재사용(생성 불필요): #68 클립을 3.78배 확대 · 중심 가로 49% 세로 60% · 클립 0.90초부터
+
+### #64 41.67–42.40s (0.73초, 22프레임) · 팀장 · MS · 아이레벨(살짝 로우) · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 2, 3, 5, 6, 8, 9 · 대표 색: #584a3e, #836f61, #bbc1c4, #ae907c
+- 동작·표정: 회의 테이블에서 노트북 앞에 앉은 팀장이 뭔가 떠오른 듯 입을 벌리며 손짓(입·턱만 보이고 코 위로 잘림)
+- 배경: 회의실 벽, 벽걸이 모니터
+- 자막: 라벨 [깨달음이 연달아 온다는 라벨] 대사 [아차 싶은 감탄 + 말 시작] (팀장(남)(#EAFF12) · 라벨+타이핑)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 사람 얼굴 크롭 완화(입까지 공개) — 감정 표현이 필요한 컷만 — 팀장의 '아차'는 입 모양이 필요해 이 컷에서만 입을 보여 줌
+- 새 대본 예시: (라벨) 기억이 돌아온 팀장 / (라임) 아! 맞다
+- 이미지 프롬프트: Medium shot of a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose) sitting at a dark walnut conference table behind an open silver laptop, mouth open in sudden realization, one hand gesturing, the frame cropped just below his nose; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: He opens his mouth in an 'oh!' of realization and waves one hand toward the screen. The frame stays cropped below the nose. Static camera. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.73초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+
+### #65 42.40–43.60s (1.20초, 36프레임) · 주인공 · ECU · 아이레벨 · 전환: 하드컷 · 효과: 느린 줌인(편집)
+- 카메라: 고정
+- 위치(3×3): 4, 5, 6 · 대표 색: #dab39a, #c29a83, #a97f68, #796359
+- 동작·표정: 두 눈·코가 화면을 채운 초근접, 멀뚱히 팀장 말을 들음
+- 배경: 없음
+- 자막: 대사 [다른 직원에게 부탁했었다는 팀장의 깨달음(L컷)] (팀장(남)(#EAFF12) · L컷 타이핑 브릿지)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: L컷(팀장 대사를 주인공 초근접 위로) — 사실을 듣는 쪽의 멍한 눈을 1.2초 붙잡아 '헛수고 확정'을 체감시킴
+- 새 대본 예시: +(라임) 소연씨가 어제 줬지?
+- 이미지 프롬프트: Extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face filling the frame: two big round glossy black eyes with catchlights, a pink nose and soft whiskers, blank stunned stare. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Still image with a slow digital push-in; optionally one slow blink. Static camera.
+- 생성 설정: 영상 생성 불필요: 이미지 1장 → 편집에서 줌/푸시인 · 편집 사용 길이 1.20초
+- 추천 모델: 1순위 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델) / 대안 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K)
+- 귀여운 포인트: 동그란 눈 클로즈업(화면 가득), 멍한 눈
+
+### #66 43.60–44.60s (1.00초, 30프레임) · 팀장 · MS · 하이앵글(테이블 위) · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 4, 5, 6, 8, 9 · 대표 색: #594a3f, #2e291f, #b08f7e, #8b7366
+- 동작·표정: 펜으로 서류를 짚던 손이 멈춤(얼굴은 턱 아래로 잘림), 노트북 옆
+- 배경: 회의 테이블, 노트북, 서류
+- 자막: 대사 [말없음표 + 물음표] (팀장(남)(#EAFF12) · 화자 색)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 손 연기(멈춘 펜) — 펜이 멈추는 손동작으로 '잠깐, 그럼 저건?'이라는 생각의 전환을 보여 줌
+- 새 대본 예시: (라임) …어?
+- 이미지 프롬프트: Medium shot from slightly above of a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose)'s arms and hands at a dark walnut conference table, holding a pen over a printed document next to an open silver laptop, his face out of frame; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: His pen stops mid-note and hovers over the paper. Static camera. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 1.00초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 🎥 이 클립 하나로 #67 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #67 44.60–45.27s (0.67초, 20프레임) · 팀장 · CU(손) · 하이앵글 · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 4, 5, 7, 8 · 대표 색: #58473c, #b4927e, #906e59, #2b2419
+- 동작·표정: 펜 든 손과 서류 클로즈업, 펜으로 보고서를 가리키듯 멈춤
+- 배경: 테이블, 노트북 모서리
+- 자막: 대사 [그럼 이 자료는 무엇이냐는 질문] (팀장(남)(#EAFF12) · 타이핑)
+- 전환: 하드컷 · 효과음: 짧은 정적(44~47초 저역 -40~-52dB)
+- 편집 기법: 질문을 손 클로즈업에 얹음 — 얼굴 없이 손과 서류만으로 질문의 대상(주인공의 헛수고)을 가리킴
+- 새 대본 예시: (라임) 잠깐, 이 보고서는 뭐지?
+- 이미지 프롬프트: Close-up of a fit Korean man in his late 30s wearing a fitted olive-green short-sleeve polo shirt, muscular forearms, his face always cropped out of frame above the chin (in seated meeting shots only his mouth and chin are visible, cropped just below the nose)'s hand holding a pen above a printed document on a dark walnut table, the corner of a silver laptop at the left. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K.
+- 영상 프롬프트: He taps the pen once on the document and holds still. Static camera. Realistic natural motion, no morphing.
+- 생성 설정: 이미지→영상: 이 컷 키프레임 이미지를 시작 프레임으로 5초 생성 → 가장 좋은 구간만 사용 · 편집 사용 길이 0.67초
+- 추천 모델: 1순위 Veo 3.1(시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오) / 대안 Kling 3.0(시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성)
+- 🔁 재사용(생성 불필요): #66 클립을 1.35배 확대 · 중심 가로 53% 세로 69% · 클립 1.50초부터
+
+### #68 45.27–45.90s (0.63초, 19프레임) · 주인공 · WS · 아이레벨(테이블 높이) · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(3단) 1단(원본, #62·#63·#69·#71의 원본)
+- 위치(3×3): 5, 8 · 대표 색: #746561, #a19390, #b2a4a2, #4a4747
+- 동작·표정: 거대한 회의 의자에 앉은 작은 주인공이 보고서 뒤에서 앞발을 입가에 대고 난처해함
+- 배경: 회색 벽, 거대한 검정 의자, 보고서
+- 자막: 라벨 [먼저 확인만 했어도 됐다는 후회 라벨] 대사 [난처한 신음] (주인공 동물(흰색) · 라벨+대사)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 크기 대비 와이드(가장 작게) — 가장 작게 보여 줘 민망함을 극대화
+- 새 대본 예시: (라벨) 한 번만 물어볼걸 / 으으…
+- 이미지 프롬프트: Wide shot at table height of tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sitting deep in a huge black mesh executive chair behind a thick printed report, one tiny pink paw raised to its mouth, embarrassed face, big round glossy black eyes; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter shrinks a little and brings a tiny paw to its mouth with an embarrassed whimper, then rests the paw on its chin and slides its eyes sideways. Static camera. Generate in 4K: shots 62, 63, 69 and 71 crop from this clip. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.63초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 거대한 의자 속 작은 몸(크기 대비), 앞발 입가에(당황)
+- 🎥 이 클립 하나로 #62, #63 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #69 45.90–46.43s (0.53초, 16프레임) · 주인공 · MCU · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(3단) 2단(#68의 약 3.5배 크롭, 추정)
+- 위치(3×3): 2, 4, 5, 6 · 대표 색: #746865, #c9aa96, #474444, #e3d3cd
+- 동작·표정: 앞발을 턱에 댄 채 눈을 굴리며 난처해함
+- 배경: 회색 줄무늬 벽
+- 자막: 라벨 [(유지)] 대사 [(유지)] (주인공 동물(흰색) · 브릿지)
+- 전환: 하드컷(축 방향 컷인) · 효과음: -
+- 편집 기법: 디지털 줌 컷인 — 난처한 얼굴을 한 단계 가까이
+- 새 대본 예시: (유지)
+- 이미지 프롬프트: (Crop of shot 68 — or generate:) Medium close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest with one tiny pink paw at its chin, big round glossy black eyes sliding sideways, puffy cheeks, a thick report at the bottom edge; grey ribbed wall behind
+- 영상 프롬프트: Edit: digital zoom crop of shot 68's clip (about ×3.5) at the moment the paw touches the chin. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.53초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 정지 이미지 + 편집 줌(Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델)
+- 귀여운 포인트: 앞발 턱 괴기(고민 포즈)
+- 🎥 이 클립 하나로 #71 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+
+### #70 46.43–47.40s (0.97초, 29프레임) · 여럿 · WS(투샷) · 아이레벨(테이블 높이) · 전환: 하드컷
+- 카메라: 고정
+- 위치(3×3): 1, 4, 5, 6, 8, 9 · 대표 색: #beaa9f, #977a6a, #695950, #343230
+- 동작·표정: 왼쪽엔 두 손을 모은 동료(얼굴 잘림), 오른쪽엔 거대한 의자 속 작은 주인공과 보고서 — 어색한 침묵
+- 배경: 회의실 벽, 테이블
+- 자막: 라벨 [몰입한 시간이 헛수고가 됐다는 라벨] 대사 [매우 난처해진 처지라는 괄호] (주인공 동물(흰색) · 라벨+괄호)
+- 전환: 하드컷 · 효과음: 정적(대사 없음)
+- 편집 기법: 투샷 크기 대비 + 침묵 홀드(0.97초) — 같은 테이블의 사람과 작은 동물을 나란히 놓아 '민망한 공기'를 그림으로
+- 새 대본 예시: (라벨) 초집중으로 반나절 증발 / (민망함 한도 초과)
+- 이미지 프롬프트: Wide shot at table height across a dark walnut conference table: a young Korean woman office worker wearing a beige short-sleeve linen blouse with a band collar and small buttons, long dark hair, her face cropped out of frame above the lips seated on the left with her hands folded on a notebook, her face out of frame above the lips, and tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest on the right sitting deep in a huge black mesh chair behind a thick printed report, awkward still pose, big round glossy black eyes; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: Both sit still in an awkward silence; the otter slides its eyes toward her. Static camera. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 0.97초
+- 추천 모델: 1순위 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오) / 대안 Gemini Omni 1.1 Flash(참조 최대 13개(이미지·영상), 3~10초, 최대 4K, 16:9·9:16) / 대안 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K)
+- 귀여운 포인트: 사람과 크기 대비, 거대한 의자 속 작은 몸(크기 대비)
+- 🔁 재사용(생성 불필요): #72 클립을 1.12배 확대 · 중심 가로 52% 세로 50% · 클립 0.50초부터
+
+### #71 47.40–48.30s (0.90초, 27프레임) · 주인공 · ECU(3/4) · 아이레벨 · 전환: 하드컷
+- 카메라: 고정 — 같은 원본 디지털 줌(3단) 3단(#69의 약 1.65배 크롭, 추정 — 고개를 돌리는 뒷부분)
+- 위치(3×3): 4, 5, 6 · 대표 색: #cba58c, #766a66, #e0bfa8, #ad8470
+- 동작·표정: 앞발을 턱에 댄 채 고개를 살짝 돌리고 눈동자만 굴려 눈치를 봄
+- 배경: 회색 줄무늬 벽
+- 자막: 대사 [눈치 보는 괄호 → 말없음표] (주인공 동물(흰색) · 괄호 자막 → 대사)
+- 전환: 하드컷 · 효과음: -
+- 편집 기법: 눈동자 연기 초근접 — 대사 없이 눈동자만 움직이는 0.9초로 '어떡하지' 계산 중임을 보여 주고 마지막 한 방을 준비
+- 새 대본 예시: (눈치 보는 중) → …
+- 이미지 프롬프트: (Crop of shot 69 ×1.65 — or generate:) Three-quarter extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest with a tiny pink paw at its chin, one big round glossy black eye sliding sideways, puffy cheek and whiskers
+- 영상 프롬프트: Edit: digital zoom crop of the later part of shot 68's clip where the head turns slightly and the eyes slide sideways. No new generation.
+- 생성 설정: 영상 생성 불필요: 편집 효과로 제작 · 편집 사용 길이 0.90초
+- 추천 모델: 1순위 편집 효과(FFmpeg / HyperFrames) / 대안 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K)
+- 귀여운 포인트: 앞발 턱 괴기(고민 포즈), 눈치 보는 눈동자, 동그란 눈 클로즈업
+- 🔁 재사용(생성 불필요): #69 클립을 1.69배 확대 · 중심 가로 57% 세로 46% · 클립 1.03초부터
+
+### #72 48.30–49.73s (1.43초, 43프레임) · 여럿 · WS(투샷)→MS(주인공 단독) · 아이레벨(테이블 높이) · 전환: 하드컷
+- 카메라: 고정(투샷) → 검출 임계값(4.94) 아래 컷인 1회(49.17초, 점수 4.3)로 주인공 단독 MS
+- 위치(3×3): 5, 6, 8, 9 · 대표 색: #92756a, #b8a19a, #695752, #353030
+- 동작·표정: 투샷에서 주인공이 앞발 두 개를 번쩍 들고 앞니를 드러내며 활짝 웃음 → 주인공 단독으로 당겨 같은 포즈 유지
+- 배경: 회의실 벽, 거대한 의자, 보고서
+- 자막: 라벨 [실수를 선물로 포장하는 반어 라벨] 대사 [깜짝 선물이라는 외침(기울임 + 컬러 별·원 장식)] (주인공 동물(흰색) · 라벨+기울임 대사+컬러 문자 장식)
+- 전환: 하드컷 → 1.43초 후 뚝 끊고 종료 · 효과음: 미니 팡파레 '짜잔' + 하드 컷아웃
+- 편집 기법: 뻔뻔한 재즈핸즈 엔딩 + 숨은 컷인 + 하드 아웃(루프) — 억울한 헛수고를 '선물'로 뒤집는 뻔뻔함이 마지막 웃음. 여운 없이 끝나 첫 썸네일 프레임으로 루프
+- 새 대본 예시: (라벨) 뜻밖의 1+1 보고서 / °✩.보너스예요.✩°
+- 이미지 프롬프트: Wide shot at table height: a young Korean woman office worker wearing a beige short-sleeve linen blouse with a band collar and small buttons, long dark hair, her face cropped out of frame above the lips seated on the left, face out of frame, and tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest on the right in a huge black mesh executive chair behind a thick printed report, throwing both tiny front paws up in a 'ta-da' pose beside its face with a big toothy grin, big round glossy black eyes and puffed cheeks; a bright conference room: a long dark walnut table, black mesh executive chairs, a light grey vertically ribbed fabric wall panel, a wall-mounted screen and soft daylight. photorealistic live-action look as if a real tiny animal was filmed on a film set in a modern Korean office, shot on a full-frame cinema camera, 35-50mm lens at f/2 with shallow depth of field, occasional wide-angle 18-24mm close-ups with strong perspective distortion for panic beats, soft diffused daylight-balanced light from linear LED ceiling fixtures, clean neutral-warm grade with beige and grey tones, crisp fur and whisker detail, 16:9, 4K. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly (same fur color, markings and accessory).
+- 영상 프롬프트: The otter pops both tiny paws up beside its face with a proud grin and holds the pose with a tiny bounce. Static camera; cut in to a medium single of the otter for the last 0.55 s. Keep the otter's appearance, fur color and accessory identical to the reference. Realistic animal motion, no morphing.
+- 생성 설정: 참조형: 캐릭터 시트(정면·측면·전신) + 이 컷 세트 이미지를 참조로 넣고 5초 생성 → 편집에서 필요한 길이만 사용 · 편집 사용 길이 1.43초
+- 추천 모델: 1순위 Kling 3.0 Omni(참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K) / 대안 MiniMax H3(시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도)) / 대안 Seedance 2.0(참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오)
+- 귀여운 포인트: 짧은 팔 춤·제스처(앞발 번쩍 재즈핸즈), 사람과 크기 대비, 뻔뻔한 미소(앞니)
+- 🎥 이 클립 하나로 #70 도 잘라 만듦(같은 원본 줌) → 생성할 때 길게(5~10초) 뽑기
+- 컷 안 줌(원본 측정): 시작→끝 1.866배 푸시인
+
+## 사운드
+소리 구조가 곧 이야기 구조. 0~12.7초 대화(말소리 약 87%) → 12.7~16.2초 거의 무음(저역 -33dB, 숨소리·속삭임만) → 16.2~35.3초 음악 몽타주(말소리 약 22%, 약 123~126BPM, 20.3~25.4초 동료 대사 구간만 저역이 빠짐) → 35.3초 음악 완전 정지(36초 RMS 중앙값 -63dB) → 37.6~45.4초 반전 대화 → 44~47초 다시 거의 무음 → 48.3초 짧은 엔딩. 무음 비율 14.4%, 통합 -21.5 LUFS·LRA 12.8LU·트루피크 -3.0dBFS. 컷-온셋 일치율 33.8% vs 우연 기준선 27.7%(온셋 86개×0.16/49.7초) → 전체로는 대사·리액션 타이밍 편집. 몽타주 구간은 온셋이 촘촘해 실제 64%와 우연 기대 65%가 같아 박자 편집이라 보기 어렵고, 대신 스테이플러·돌진 효과음이 컷과 같은 프레임(#50·#52·#54, 0.001~0.002초 차)에 붙음
+| 역할 | 원본 측정 | 재현 방법 |
+|---|---|---|
+| 주인공 | 구간 기본 주파수 중앙값 약 298~432Hz(210Hz 대비 +6.1~+12.5반음). 씩씩한 대답 약 416Hz, 억지 칭찬 약 432Hz로 최고, 속마음 혼잣말 약 306~324Hz | 밝은 20대 여성 목소리로 생성 → 피치 +7~+9반음, 속도 1.1배. 대답·칭찬 줄은 +2반음 추가, 속마음 혼잣말(#23~#25)은 속삭임 모드로 -6dB |
+| 팀장(남) | 구간 중앙값 약 152~165Hz(210Hz 대비 -4.2~-5.6반음), 질문 끝은 약 210~235Hz로 올림. 친근하지만 밀어붙이는 말투 | 30~40대 남성, 밝고 에너지 있는 말투, 속도 1.05배, 피치 변경 없음. 마지막 질문(#67)은 어리둥절한 억양 |
+| 동료(여) | 구간 중앙값 약 286~313Hz(210Hz 대비 +5.4~+6.9반음), 콧소리 섞인 들뜬 말투 | 20대 여성, 귀엽고 밝은 말투, 피치 +2반음, 말끝 늘이기(~). 반전 줄(#61)은 속도 1.0배로 담백하게 |
+- BGM 원본 추정: (추정 — 정확한 곡은 청취 확인 필요) 설명란 크레딧에 Eurythmics 'Sweet Dreams (Are Made Of This)'가 적혀 있고, 16.2~20초·25.4~35.3초 몽타주 구간 온셋 자기상관 템포가 약 123~126BPM으로 그 곡의 템포대와 맞음 → 궁극기 구간에 이 곡(또는 편곡)을 깐 것으로 추정. 18.5~20초는 온셋이 0.1초 간격으로 빨라지고 고역이 22→26dB로 치솟는 라이저, 19.63초 색 섬광에서 정점. 0~12초 대화 구간은 저역이 약하게 깔린 잔잔한 배경음악, 20.3~25.4초 동료 구간은 저역이 빠진 가벼운 소리(저역 -8~-10dB), 45.6초 이후 높은 음이 지속되는 수평 줄무늬(스펙트로그램) = 엔딩용 짧은 징글
+- BGM 권장 구성: ⚠️ 원곡은 저작권 곡이므로 그대로 쓰지 말 것 → 분위기만 닮은 새 곡으로 7큐 구성: ①대화(잔잔한 피치카토·마림바, 저음 약하게, 12초) ②현실 자각(음악 없이 룸톤 + 숨소리, 3.5초) ③궁극기(저음 히트 → 1.5초 라이저 → 섬광에서 드롭, 123BPM 어두운 신스 베이스 오스티나토) ④동료 방해(저음 뺀 글로켄슈필 짧은 루프, 5초) ⑤재가속 몽타주(③ 재사용, 10초) ⑥세이프·반전(음악 없음, 대사만) ⑦엔딩(0.8초 '짜잔' 징글 후 뚝)
+- BGM 볼륨: 대사 대비 약 -18~-22dB(사이드체인 덕킹). 대사가 거의 없는 몽타주(25.4~35.3초)는 -8~-10dB까지 올려 음악이 주도하고, 35.3초에서 페이드 없이 완전히 끊음
+- Suno 메인: `Dark driving synth-pop instrumental, 123 BPM, pulsing analog synth bass ostinato in a minor key, crisp drum machine with claps, cold pad chords, heroic power-up energy, no vocals, loopable 12 seconds`
+- Suno 구간2: `Cute light office comedy underscore, 100 BPM, pizzicato strings, marimba and soft finger snaps, very light bass, curious and slightly tense, no vocals, 12 seconds`
+- Suno 구간3: `Short cartoon ta-da surprise jingle, bright glockenspiel and toy piano with twinkle chimes, cheerful then abrupt stop, no vocals, 2 seconds`
+
+| 시각 | 효과음 | 이유 | 키트 파일 |
+|---|---|---|---|
+| 0.00s | 저음 '둥'(0~0.5초 저역 에너지 최대) | 썸네일 프레임 오프닝 | boom_low.wav |
+| 12.63s | 크게 들이쉬는 숨소리 | 들숨 괄호 자막 | breath_vo.wav |
+| 13.43s | 길게 내쉬는 숨소리 | 날숨 괄호 자막 | breath_vo.wav |
+| 15.03s | 자모 타자 '타닥'(타자 효과음, 권장) | 속마음 자모 타이핑 | typing.wav |
+| 16.20s | 저음 '둥' 히트 + 음악 시작(저역 -33→+17dB 급상승) | 작전 개시(키보드 인서트) | boom_low.wav |
+| 16.25s | 키보드 초고속 연타 | 앞발 타이핑 인서트 | keyboard.wav |
+| 18.57s | 줌 블러 '휘이익' + 상승 라이저(고역 22→26dB, 온셋 0.1초 간격) | 각성 빌드업 | whoosh.wav |
+| 19.63s | 섬광 임팩트 '콰앙' + 고역 쉬머 | 색 섬광 '초월' 순간 | impact.wav |
+| 20.27s | '지직' 글리치 | RGB 색 분리로 동료 난입 | glitch.wav |
+| 21.60s | 반짝 '샤랑' | 키링 인서트 + 반짝이 문자 | sparkle.wav |
+| 22.87s | 어색한 웃음(억지 미소) | 영업용 웃음 리액션 | laugh_vo.wav |
+| 25.43s | 저음 히트 + 음악 재진입 | 다시 목숨 걸고 집중 | boom_low.wav |
+| 26.40s | 키보드 연타(배경 빨리감기) | 배경만 빨라지는 타이핑 | keyboard.wav |
+| 28.77s | '휙' 대시 | 줌 블러 바닥 질주 | whoosh.wav |
+| 29.00s | '슈웅' 스피드 휙 | 초록 스피드 광선 + 잔상 오라 | whoosh.wav |
+| 31.53s | 종이 펄럭 + 기합 환호(추정) | 다리 사이 질주, 날리는 서류 | paper_flap.wav |
+| 32.60s | 스테이플러 '철컥' 클릭(온셋 32.601초 = 컷) | 의성어 강조 1타 | click.wav |
+| 32.90s | '휙' 휩 팬 | 사무실 가로지르기 | whoosh.wav |
+| 33.90s | 스테이플러 '철컥' 클릭(온셋 33.901초 = 컷) | 의성어 강조 2타 | click.wav |
+| 34.43s | '휙' 돌진 + 색 분리(온셋 34.435초) | 보고서 물고 달리기 | whoosh.wav |
+| 35.32s | 음악 완전 정지(저역 -18dB·중역 -21dB로 급락) | 세이프 순간의 정적 | - |
+| 35.67s | 헐떡이는 숨소리 | 숨찬 발표 | breath_vo.wav |
+| 40.80s | 당황 '띠용'(권장) | 이미 끝난 일이었다는 깨달음 | boing.wav |
+| 48.30s | 미니 팡파레 '짜잔'(45.6초 이후 고음 지속 줄무늬) | 앞발 번쩍 엔딩 | fanfare.wav |
+| 49.73s | 하드 컷아웃 | 뚝 끊는 엔딩(루프 유도) | - |
+- 믹스: 최종 라우드니스 -14 LUFS(유튜브 기준), 트루피크 -1dBTP. 원본은 통합 -21.5 LUFS·트루피크 -3.0dBFS·LRA 12.8LU로 조용한 구간(12.7~16.2초, 35.3~37.6초, 44~47초)과 센 몽타주 구간 차이가 큼 → 대사는 컴프레서로 고르게, 무음 구간은 룸톤을 -45dB 안팎으로 살려 '빈 소리'가 되지 않게, 스테이플러·섬광 임팩트는 -1dBTP 안에서 살림 (원본 -21.5 LUFS, LRA 12.8, 트루피크 -3.0)
+
+## 편집 (FFmpeg · HyperFrames)
+30fps, 1920×1080(업로드는 4K 업스케일 권장). 72컷, 평균 0.69초(약 21프레임), 중앙값 0.62초. 가장 짧은 컷 0.10초(#1, 3프레임 썸네일), 그다음 0.23초(#45·#52, 7프레임). 가장 긴 컷 2.00초(#61 — 실제로는 검출 임계값 4.94 아래 펀치인 2회가 숨은 3컷). #4(2.2초)·#72(49.17초)에도 임계값 아래 컷인이 1회씩 있음. 구간별 평균: 대화 0.63초 · 동료 방해 0.57초 · 몽타주 0.72초 · 반전 0.88초(끝으로 갈수록 느려짐)
+- AI 영상은 4~8초로 생성하고 가장 좋은 0.3~1.2초만 잘라 쓴다(핸들 확보)
+- 같은 구도 원본 한 개를 1.35~4배 디지털 줌으로 잘라 2~3컷을 만든다(WS→MS→CU, MS→ECU). 크롭할 원본은 4K로 생성
+- 대화 파트는 말하는 사람↔듣는 주인공을 번갈아 붙이고, 사람 대사는 주인공 얼굴 컷 위로 넘겨(L컷) 압박을 보여 준다
+- 속마음은 괄호 자막으로 통째로 띄우고 대사만 타이핑한다. 자모 단위 타이핑은 '말이 안 나오는 순간'(당황·헐떡임)에만
+- 궁극기 연출은 편집 효과 3단: 줌 블러 잔상(#29) → 색 섬광 1~2프레임씩 교체(#30) → 흰 섬광에서 RGB 색 분리로 복귀(#31). 생성 영상에는 효과를 넣지 않는다
+- 몽타주는 컷마다 효과음 1개(휙·철컥)를 컷 첫 프레임에 붙이고, 스피드 표현은 줌 블러·스피드 광선·휩 팬을 번갈아 쓴다
+- 음악은 35.3초(세이프 순간)에 페이드 없이 끊고, 반전 대사는 음악 없이 간다
+- 마지막 컷 뒤에 여백 없이 끝낸다(루프 재생 유도)
+- 키트 폴더: 햄찌유튜브_영상분석/편집키트/7위 (edl.csv/edl.json/captions.ass/sfx_cues.csv/build_ffmpeg.py/hyperframes/편집프롬프트.md)
+- 검증: 임시 화면으로 전체 조립 성공 — 길이 49.73초(목표 49.73초), 하드컷 67개 중 67개가 ±2프레임 이내 검출, 출력 h264,1920,1080,30/1 / aac,0/0
+
+### Claude Code 프롬프트 A — FFmpeg
+```
+[작업 폴더] 햄찌유튜브_영상분석/편집키트/7위  (이 폴더 밖의 파일은 수정 금지)
+[목표] clips/ 의 AI 생성 영상을 edl.json 규격 그대로 조립해 out/v7_final.mp4 를 만든다.
+       (edl.json 에 source 가 있는 컷은 원본 클립을 잘라 확대해 쓰므로 파일이 없어도 됨 — 아래 D 표)
+[정답 규격] 컷 길이·전환·효과 = edl.json / 자막 = captions.ass(스타일 13종, 위치·크기·색은 원본 측정값) / 효과음 = sfx_cues.csv
+[순서]
+1) python build_ffmpeg.py --check  → 누락 클립 목록 보고
+2) 누락이 있으면 목록만 보고하고 멈춘다 (임의 생성·대체 금지)
+3) python build_ffmpeg.py --name "<주인공 이름>" --pun "<말장난 글자>" --bgm audio/bgm.mp3 --verify
+4) ffprobe 로 길이 49.73초(±0.05), 1920x1080, 30fps, 오디오 존재 확인
+5) --verify 결과(하드컷 검출 수)를 표로 보고. 누락 컷이 있으면 해당 컷 번호와 원인 추정
+[수정 가능 범위] captions.ass 의 텍스트, sfx_cues.csv 의 파일명·볼륨, build 옵션
+[승인 전 수정 금지] edl.json 의 컷 길이·순서·전환 (바꿔야 하면 이유와 함께 먼저 보고)
+```
+
+### Claude Code 프롬프트 B — HyperFrames
+```
+/hyperframes 스킬을 먼저 읽고 진행해.
+[작업 폴더] 햄찌유튜브_영상분석/편집키트/7위/hyperframes
+[목표] index.html 컴포지션(영상 49개 슬롯·자막·효과음 트랙이 원본 타이밍으로 이미 배치됨)에 실제 소스를 연결해 렌더.
+[순서]
+1) assets/clips/(키트 clips 폴더와 같은 원본 클립 — 재사용 컷의 <video> 는 원본 파일을 잘라 확대하도록 이미 설정됨), assets/audio/bgm.mp3, assets/voice/sNN.wav, assets/sfx/*.wav, assets/fonts/Pretendard-*.woff2 존재 확인 → 없는 파일은 목록 보고 후, 해당 <audio>/<video> 는 data-hidden 처리
+2) npx hyperframes lint → 오류 0
+3) npx hyperframes check → 0 findings
+4) npx hyperframes snapshot --at 0.3, 1.5, 4.7, 9.7, 12.9, 16.5 로 프레임 확인 (라벨 y≈878px, 대사 y≈952px)
+5) npx hyperframes preview --background → URL 보고 후 내 승인 대기
+6) 승인 후 npx hyperframes render --quality delivery --output out/v7_hf.mp4
+[규칙] data-start/data-duration 은 edl.json 과 일치해야 함. 자막 텍스트·스티커 좌표만 수정 가능.
+```
+
+| 컷 | 시작 | 길이 | 전환 | 효과 | 화면비 |
+|---|---|---|---|---|---|
+| #25 | 15.77 | 0.43 | cut | push_in_slow | full |
+| #28 | 17.60 | 0.97 | cut | math | full |
+| #29 | 18.57 | 1.07 | zoomblur (0.12초) |  | full |
+| #30 | 19.63 | 0.27 | cut | flash_in | full |
+| #31 | 19.90 | 0.37 | cut | flash_in, glitch | full |
+| #32 | 20.27 | 0.50 | cut | glitch | full |
+| #45 | 28.77 | 0.23 | zoomblur (0.12초) |  | full |
+| #46 | 29.00 | 0.73 | zoomblur (0.12초) |  | full |
+| #51 | 32.90 | 1.00 | cut | whip | full |
+| #53 | 34.13 | 0.30 | cut | glitch | full |
+| #54 | 34.43 | 0.80 | zoomblur (0.12초) |  | full |
+| #65 | 42.40 | 1.20 | cut | push_in_slow | full |
+
+## 떡상 편집 기법 해설
+| 기법 | 위치 | 설명 |
+|---|---|---|
+| 썸네일 플래시 프레임 | #1 | 첫 3프레임을 썸네일과 똑같이(초대형 제목+주인공) 만들어 미리보기·추천 화면과 본편을 이어 줌 |
+| 로우앵글 + 얼굴 크롭(사람) | #2, #4, #7, #9, #11, #13, #16, #17 | 앉은 주인공 눈높이에서 올려다본 팀장, 얼굴은 턱 위로 잘라 시선을 동물에게. 전경의 주인공 노트북 화면(고양이 사진 편집 창)으로 '딴짓 중'을 대사 없이 심음 |
+| L컷 자막(사람 대사를 주인공 얼굴 위로) | #8, #10, #12, #33, #34, #65 | 팀장·동료의 화자 색 대사가 주인공 리액션 컷 위에서 계속 타이핑돼 듣는 쪽의 압박·당황이 보임 |
+| 같은 원본 디지털 줌(2~3단) | #8→#10→#12, #18→#19→#20, #5→#6, #9→#11, #16→#17, #37→#38, #39→#40, #41→#42, #47→#48, #62→#63 등 17컷 | 한 원본 클립을 1.35~4배로 잘라 WS→MS→CU→ECU로 조여 감. 생성 클립 수를 줄이면서 긴장 리듬을 만듦 |
+| 속마음 괄호 자막 + 신체 상태 표기 | #21, #22, #25, #38, #40, #70, #71 | 들숨/날숨 화살표, 억지 미소, 제발 가 달라는 속마음을 '( )'로 — 대사 없는 컷도 이야기를 끌고 감 |
+| 자모 분해 타이핑 | #24, #56, #57, #58 | 한글이 조합되지 않은 자모 상태로 타이핑돼 '말문이 막힘·숨이 참'을 글자 모양으로 표현(비속어는 완성하지 않아 순화 효과) |
+| 광각 왜곡 초근접 | #24, #25 | 광각으로 코가 커 보이는 초근접으로 패닉을 코믹하게 과장 |
+| 궁극기 3단 이펙트(줌 블러 잔상 → 색 섬광 → RGB 색 분리 복귀) | #29, #30, #31 | 게임 필살기 연출 문법을 1.7초에 압축. 섬광 컷은 0.27초로 짧게 끊어 눈부심만 남김 |
+| 수식 오버레이 | #28 | '머리 풀가동' 밈 — 반투명 손글씨 수식·도형이 떠다님 |
+| RGB 색 분리 전환 | #32, #53→#54 | 화면이 버그처럼 색 분리되며 방해꾼 난입·장면 전환을 표시 |
+| 타임랩스 배경(주인공만 정상 속도) | #43, #54 | 뒤의 사람들만 빨리 지나가 '주인공 혼자 시간 밖에 있음'을 표현 |
+| 전경 물체 와이프 | #44 | 노트북 뒤판이 화면을 덮으며 다음 컷(질주)으로 이어짐 |
+| 스피드 이펙트 연타(줌 블러·스피드 광선·휩 팬) | #45, #46, #51, #54 | 컷마다 다른 속도 표현을 써서 몽타주가 단조롭지 않게 |
+| 의성어 강조 + 효과음 동기 | #50, #52, #53 | 스테이플러 타격 컷과 효과음·초대형 기울임 의성어가 같은 프레임에 등장 |
+| 자막 셀프 디스클레이머 | #51 | '과장 표현' 고지 문구를 패러디한 괄호 자막으로 편집자가 직접 개입해 웃음 |
+| 음악 하드 스톱 | #55(35.3초) | 몽타주 음악을 칼같이 끊어 '끝났다'는 안도와 다음 반전의 정적을 동시에 |
+| 숨은 펀치인(검출 임계값 아래) | #4, #61, #72 | 같은 인물 안에서 사이즈만 바꾸는 컷인을 짧게 넣어 결정적 단어·포즈에 맞춤 |
+| 하드 아웃(루프 유도) | #72 | 앞발 번쩍 포즈에서 여운 없이 끝나 반복 재생 시 첫 썸네일 프레임으로 자연스럽게 연결 |
+
+## 다른 동물로 바꾸기 · 생성 계획
+- 예시 각색: 예시 각색: 원본의 '알고 보니 동료 담당 업무' 대신 '팀장이 이미 받은 자료를 까먹고 또 물어봄'으로 전제를 바꿈. 팀장이 워크숍 설문지 120장을 엑셀로 정리했냐고 묻자 주인공은 기억도 없이 '당연하죠!' → 4시 회의 확정 → 자모로 쪼개진 '망했다' → 각성 모드(썸네일 제목 '각성') → 동료가 새로 산 말랑이 키링 자랑으로 방해 → 영업용 미소 → 초고속 몽타주 → 3시 59분 세이프 → 동료가 그 자료는 어제 이미 드렸다고 함 → 팀장이 착각 인정 → 이 보고서는 뭐냐는 물음에 주인공이 앞발을 번쩍 들고 '보너스예요'. 새 대본(new)은 이 전제로 새로 씀
+- 그대로 지킬 것: 12단계 비트와 타이밍(표의 초 단위 그대로) / 첫 0.1초 썸네일 프레임 → 마지막 뚝 끊는 엔딩(루프) / 소리 구조: 대화 → 무음 → 음악 몽타주 → 음악 하드 스톱 → 반전 대화 / 자막 4층(라벨·화자 색 대사·속마음 괄호·의성어 강조)과 L컷 자막 / 궁극기 3단 이펙트(줌 블러 잔상 → 색 섬광 → RGB 색 분리)와 방해꾼 브레이크 / 같은 원본 디지털 줌(2~3단) 제작 방식 / 사람 얼굴 입 위 크롭 규칙(팀장 깨달음 컷만 입까지)
+- 바꿀 것: 주인공 동물·시그니처 소품(원본 은색 헤드폰은 채널 상징이라 사원증 목걸이 등으로) / 업무 내용과 반전 원인(모아 둔 사례 자료·다른 담당자 → 설문 정리·이미 제출됨) / 동료 소품(특정 캐릭터 인형 키링 → 캐릭터 없는 말랑이 키링) / 대사·라벨·괄호 문구 전부(동물 말장난은 달) / 궁극기 구간 음악(원곡 저작권 → Suno 새 곡) / 썸네일 제목 두 글자
+- 의상 교체용 묘사: no fantasy costume in this video; the 'ultimate mode' is shown only with edit effects (radial zoom blur, double-exposure echo, color flashes, a green speed-light streak and a fading cyan afterimage aura). Optional signature prop instead of headphones: a tiny navy lanyard with a white employee ID card
+| 배치 | 컷 | 방법 |
+|---|---|---|
+| A. 정면 의자 와이드 원본(대화 파트) | #3, #8, #10, #12, #14, #15, #18, #19, #20 | 키프레임 1장(가장 넓은 #18 구도, 4K) → 같은 키프레임으로 참조형 6~8초 3회(놀람·굳음 / 머뭇→씩씩한 대답 / 짧은 대답→가슴 펴기) 생성 → #8·#10·#12·#15·#19·#20은 편집에서 1.25~4.6배 크롭(생성 3회로 9컷) |
+| B. 의자 MS·어두운 배경(되묻기·방해꾼 리액션) | #5, #6, #33, #34, #37, #38, #39, #40 | #5 구도 1회 + #33 구도 키프레임 1장으로 윙크 / 억지 미소 / 앞발 모으기 3회(4K) → #6·#34·#38·#40은 1.5~4배 크롭 |
+| C. 팀장(파티션 로우앵글) | #2, #4, #7, #9, #11, #13, #16, #17 | 팀장 기준 이미지 1장(올리브 폴로, 턱 위 크롭, 전경에 노트북 화면) → 부르기 / 설명 / 깍지 / 주먹 / 팔 걸치기 5초 5회. #11·#17은 크롭 |
+| D. 노트북 3/4 측면(현실 자각·각성·재집중) | #21, #22, #23, #27, #28, #41, #42, #43, #44 | 3/4 측면 키프레임 1장 → 심호흡 / 턱 괴기 / 노려보기 / 초고속 타이핑(배경 타임랩스) / 프레임 아웃 트래킹 5초 5~6회. #22·#42는 크롭, #28 수식은 편집 |
+| E. 광각 패닉 클로즈업 | #24, #25 | 광각 렌즈 정면 CU 1회 생성 + 코 ECU(#25)는 정지 이미지 + 편집 푸시 |
+| F. 궁극기 이펙트 | #29, #30, #31 | #29 정면 CU 1회 생성 → 줌 블러·잔상·색 섬광·RGB 색 분리는 전부 편집(HyperFrames/FFmpeg). #31은 #29 1.35배 크롭 |
+| G. 앞발 인서트(키보드·스테이플러·보고서) | #26, #50, #52, #53, #55 | 앞발 전용 참조 이미지(작은 분홍 앞발 + 사람 크기 사무용품) → 1~5초 짧게 5회(0.3초 이하 컷은 Vidu Q3 Pro 1초 생성) |
+| H. 바닥 높이 질주 몽타주 | #45, #46, #47, #48, #49, #51, #54 | 바닥 높이 광각 키프레임 2장(다리 사이 질주·서 있는 컷) + 휩 팬 1회 + 보고서 물고 돌진 1회. 스피드 블러·스피드 광선·잔상 오라는 편집. #48은 #47 크롭 |
+| I. 동료(여) | #32, #35, #36, #60, #61 | 동료 기준 이미지 1장(베이지 블라우스, 입 위 크롭) → 손 흔들기 / 키링 흔들기 / 자기 가리키기 / 설명 5초 4회. 키링은 캐릭터 없는 일반 소품으로 |
+| J. 회의실 주인공 | #56, #57, #58, #59, #62, #63, #68, #69, #71 | 회의실 와이드 키프레임 1장(거대한 의자 + 두꺼운 보고서, 4K) → 헐떡임→안도 / 당황→턱 괴기→눈치 2회 + 초근접 헐떡임 1회 + 앞발 MCU 1회. #58·#62·#63·#69·#71은 크롭 |
+| K. 회의실 팀장·투샷·엔딩 | #64, #65, #66, #67, #70, #72 | 팀장 앉은 샷 3회(깨달음 / 펜 멈춤 / 손 CU) + #65 초근접 정지 이미지 + 투샷 2회(어색한 침묵 / 재즈핸즈, 참조를 많이 넣는 모델) |
+| L. 편집 전용 | #1 | #1 썸네일 프레임은 #47 키프레임에 초대형 제목만 합성(3프레임) |
+
+## 생성 절약표 — 같은 원본 줌 재사용 (자동 측정 + 분석 확인)
+- 72컷 = 영상 생성 45개 + 정지 이미지 2장 + 편집 효과만 3컷 + **재사용(확대) 22컷** · 키프레임 이미지는 세팅 기준 41장
+- 줌 체인 18개(그중 3단 이상 3개) · 최대 배율 4.83배 → 2배 넘게 확대하는 원본은 4K로 생성하거나 업스케일 후 사용
+| 원본 클립 | 이 클립으로 만드는 컷 (배율 · 중심 가로/세로 % · 길이) | 합계 | 생성 길이 |
+|---|---|---|---|
+| #03 | #03 ×1.0 (50/50) 0.53초 → #08 ×1.26 (50/50) 0.97초 | 1.50초 | 5초 |
+| #05 | #05 ×1.0 (50/50) 0.73초 → #06 ×1.53 (53/52) 1.10초 | 1.83초 | 5초 |
+| #09 | #09 ×1.0 (50/50) 0.87초 → #11 ×1.6 (47/44) 0.47초 | 1.33초 | 5초 |
+| #14 | #10 ×1.79 (51/41) 0.70초 → #12 ×4.83 (52/39) 0.40초 → #14 ×1.0 (50/50) 0.60초 → #15 ×1.63 (51/47) 0.37초 | 2.07초 | 5초 |
+| #16 | #16 ×1.0 (50/50) 0.57초 → #17 ×1.88 (60/30) 0.53초 | 1.10초 | 5초 |
+| #18 | #18 ×1.0 (50/50) 0.27초 → #19 ×1.85 (51/46) 0.43초 → #20 ×3.07 (50/51) 0.43초 | 1.13초 | 5초 |
+| #21 | #21 ×1.0 (50/50) 0.80초 → #22 ×1.56 (51/38) 1.00초 | 1.80초 | 5초 |
+| #29 | #29 ×1.0 (50/50) 1.07초 → #31 ×1.37 (52/47) 0.37초 | 1.43초 | 5초 |
+| #33 | #33 ×1.0 (50/50) 0.37초 → #34 ×2.32 (50/50) 0.47초 | 0.83초 | 5초 |
+| #37 | #37 ×1.0 (50/50) 0.50초 → #38 ×1.97 (50/50) 0.50초 | 1.00초 | 5초 |
+| #39 | #39 ×1.0 (50/50) 0.97초 → #40 ×3.7 (51/44) 0.53초 | 1.50초 | 5초 |
+| #41 | #41 ×1.0 (50/50) 0.50초 → #42 ×2.54 (50/48) 0.53초 | 1.03초 | 5초 |
+| #47 | #47 ×1.0 (50/50) 0.87초 → #48 ×1.63 (53/49) 0.93초 | 1.80초 | 5초 |
+| #59 | #58 ×1.53 (53/52) 0.77초 → #59 ×1.0 (50/50) 0.67초 | 1.43초 | 5초 |
+| #68 | #62 ×1.69 (49/62) 0.40초 → #63 ×3.78 (49/60) 0.47초 → #68 ×1.0 (50/50) 0.63초 | 1.50초 | 5초 |
+| #66 | #66 ×1.0 (50/50) 1.00초 → #67 ×1.35 (53/69) 0.67초 | 1.67초 | 5초 |
+| #69 | #69 ×1.0 (50/50) 0.53초 → #71 ×1.69 (57/46) 0.90초 | 1.43초 | 5초 |
+| #72 | #70 ×1.12 (52/50) 0.97초 → #72 ×1.0 (50/50) 1.43초 | 2.40초 | 5초 |
+- 컷 안 줌(시작→끝 배율, 원본 측정): #07 ×1.039, #09 ×1.046, #15 ×1.038, #21 ×1.03, #37 ×1.039, #53 ×1.054, #55 ×1.062, #58 ×0.969, #72 ×1.866
+
+## 귀여운 모먼트 (이 영상)
+| 모먼트 | 컷 | 왜 귀여운가 | 이미지 프롬프트 조각 | 움직임 프롬프트 조각 |
+|---|---|---|---|---|
+| 거대한 의자 속 작은 직장인 | #3, #8, #14, #18, #59, #62, #68, #70, #72 | 크기 대비: 사람용 메시 의자에 머리·가슴만 겨우 올라온 작은 몸 + 책상 끝에 가지런히 올린 앞발이 '진짜 직원' 같은 사람 행동과 겹침. 가장 넓은 와이드로 반복해 '작음'을 계속 상기시킴 | tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest sitting upright deep inside a huge black mesh ergonomic office chair, only its head and chest showing above the desk edge, two tiny front paws placed neatly side by side on the desk, big round glossy black eyes looking up, fluffy round cheeks, human-sized office furniture towering around it. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | The tiny animal shifts its weight in the oversized chair, blinks slowly and looks up; its small paws stay neatly on the desk edge while the huge chair stays still. |
+| 화면을 채우는 동그란 눈 | #6, #12, #20, #40, #42, #65 | 디지털 줌으로 눈·코만 남긴 초근접: 반사광이 맺힌 까만 두 눈과 분홍 코가 표정 없이 굳어 있어 '멍함·당황'이 말 없이 전달되고, 과장된 크기 자체가 귀여움 | extreme close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's face filling the frame, two big round glossy black eyes with bright catchlights, a small pink nose and soft whiskers, fluffy cheeks, a blank frozen stare. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | Near-still; one slow blink and a tiny whisker twitch, eyes glistening. Can be a 4K still with a slow digital push-in. |
+| 광각 코 클로즈업 | #24, #25 | 광각 렌즈로 코가 커지고 얼굴이 둥글게 부풀어 당황이 코믹하게 과장됨(과장 표정) | wide-angle close-up of a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest facing the lens, the lens exaggerating a round pink nose and puffy fluffy cheeks, big round glossy black eyes wide in panic, whiskers spread. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | The animal stays frozen, nose twitching once, a tiny forward drift toward the lens. |
+| 억지 영업용 미소 | #37, #38, #39 | 사람 사회생활 표정(눈웃음 + 입꼬리만 올림 + 앞발 모으기)을 동물이 해내는 아이러니. 끊어 치는 억지 칭찬 자막과 묶여 공감 웃음 | a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest giving a stiff forced polite smile, eyes squeezed into happy crescents, tiny mouth corners pulled up, puffed fluffy cheeks, tiny front paws pressed together at its chest. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | A stiff little smile with a slow awkward nod, the tiny paws fidgeting together at the chest. |
+| 짧은 앞발로 업무 처리 | #21, #26, #28, #43, #50, #52, #53 | 사람 크기 키보드·빨간 스테이플러를 작은 분홍 앞발로 힘껏 누르는 사람 같은 행동 + 크기 대비. 짧은 팔로 온몸을 실어 누르는 동작이 귀여움 | a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest's tiny pink front paws pressing hard on a full-size laptop keyboard and a big red office stapler, short arms stretched, fluffy chest fur, human-sized office supplies. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | Tiny paws hammer the keys rapidly, then slam the stapler with the whole little body leaning in and bouncing back. |
+| 몸보다 큰 서류 들고 종종걸음 | #45, #46, #47, #48, #49, #54 | 사람 다리 사이를 달리는 작은 몸(크기 대비) + 몸통만 한 노트를 끌어안거나 보고서를 입에 문 필사적인 모습. 종종걸음과 출렁이는 털 | tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest running on its hind legs with quick little steps, hugging a notebook as big as its chest or carrying a thick report clamped in its mouth, fur bouncing, between the legs of office workers in dark trousers. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | The animal scampers forward with fast tiny steps, fur bouncing, the oversized paper bundle wobbling; human legs stride past. |
+| 헐떡이는 발표 | #55, #56, #57, #58, #59 | 눈을 질끈 감고 볼을 들썩이며 헐떡이는 얼굴 + 서류 위에 가지런히 놓인 분홍 앞발. 숨찬 자막과 결합해 '열심히 한 작은 존재' | a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest panting with its eyes squeezed shut and a tiny open mouth, fluffy cheeks puffing, two tiny pink paws resting neatly on a thick printed report. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | Rapid little panting breaths, cheeks puffing in and out, the paws pressing the report down, then one long relieved sigh. |
+| 앞발 턱 괴고 눈치 | #23, #63, #69, #71 | 사람의 고민 포즈를 작은 앞발로 하고, 고개는 그대로 둔 채 눈동자만 굴리는 느린 반응이 웃김 | a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest with one tiny pink paw touching its chin in a thinking pose, big round glossy black eyes sliding sideways, fluffy cheek, whiskers. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | The paw taps the chin once; only the eyes slide slowly to the side and back. |
+| 뻔뻔한 재즈핸즈 서프라이즈 | #72 | 민망한 순간을 앞발 번쩍 + 앞니 보이는 활짝 웃음으로 뒤집는 뻔뻔함. 옆의 사람과의 크기 대비 | tiny a fluffy baby Asian small-clawed otter with glossy chocolate-brown fur, a cream-colored face, throat and chest, tiny rounded ears, big glossy black eyes, a dark button nose and long whiskers, wearing a tiny navy lanyard with a white employee ID card on its chest throwing both tiny front paws up beside its face in a ta-da pose with a big toothy grin and big round glossy black eyes, sitting in a huge office chair behind a thick report. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. | Both tiny paws pop up at once with a proud grin and a small bounce, then hold the pose. |
+
+| 이 영상에 쓰는 모델 | 종류 | 사양 | 이럴 때 | 추천 컷 수 |
+|---|---|---|---|---|
+| Kling 3.0 Omni | 참조→영상 | 참조 이미지 최대 7장(영상 참조 시 4장), 3~15초, 16:9·9:16·1:1, 최대 4K | 캐릭터 시트+의상·세트 참조로 같은 동물을 여러 컷에 고정 | 27 |
+| Kling 3.0 | 이미지→영상 | 시작·끝 프레임, 3~15초, std/pro/4K 모드, 오디오 생성 | 실사 털·미세 표정·손동작이 안정적인 기본 주력 | 26 |
+| 편집 효과 | 편집 | FFmpeg / HyperFrames | 암전·휩 팬·글리치·스티커·타이틀 카드 | 25 |
+| 정지 이미지 + 편집 줌 | 이미지 | Nano Banana Pro(참조 8장, 최대 4K) 등 이미지 모델 | 0.5초 이하 인서트·초근접은 영상 생성 없이 편집 줌으로 충분 | 21 |
+| Seedance 2.0 | 참조→영상 | 참조 이미지 9장+영상 3+오디오 3, 4~15초, 최대 4K, 오디오 | 참조를 가장 많이 넣을 수 있어 여러 인물·세트가 한 화면에 나올 때 유리 | 19 |
+| Veo 3.1 | 이미지→영상 | 시작·끝 프레임, 4·6·8초, 최대 4K, 16:9·9:16, 오디오 | 사람 손·상반신 실사, 폰 핸드헬드 질감 | 16 |
+| MiniMax H3 | 이미지→영상 | 시작·끝 프레임, 4~15초, 480p·768p·2K (참조형 버전 별도) | 과장된 표정·코믹 리액션 1순위 후보(사양 기준 추천 — A/B 테스트 권장) | 9 |
+| Vidu Q3 Pro | 이미지→영상 | 시작·끝 프레임, 1~16초(1초 가능), 최대 2K, 오디오 | 0.5~1초 초단컷을 싸게, 시작→끝 동작 지정 | 3 |
+| Hailuo 2.3 | 이미지→영상 | 시작 프레임, 6초 또는 10초, 768p/1080p(1080p는 6초만) | 표정 연기·가성비 리액션 컷 | 2 |
+| Seedance 2.5 | 이미지→영상 | 시작·끝 프레임, 4~30초, 최대 1080p, 오디오 | 긴 롱테이크·카메라 패닝(풍경·브이로그) | 2 |
+| Gemini Omni 1.1 Flash | 참조→영상 | 참조 최대 13개(이미지·영상), 3~10초, 최대 4K, 16:9·9:16 | 참조를 많이 넣어 세트·소품·인물 동시 고정(사양 기준 추천) | 1 |

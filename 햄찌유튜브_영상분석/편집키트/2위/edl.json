@@ -22,7 +22,12 @@
    "fx": [],
    "frame": "1x1",
    "src_in": 0.5,
-   "clip": "clips/s01.mp4"
+   "clip": "clips/s02.mp4",
+   "setup": 3,
+   "source": 2,
+   "zoom": 1.0,
+   "cx": 0.5,
+   "cy": 0.5
   },
   {
    "n": 2,
@@ -42,8 +47,9 @@
    "tr_dur": 0.0,
    "fx": [],
    "frame": "1x1",
-   "src_in": 0.5,
-   "clip": "clips/s02.mp4"
+   "src_in": 0.7,
+   "clip": "clips/s02.mp4",
+   "setup": 3
   },
   {
    "n": 3,
@@ -63,7 +69,8 @@
    "fx": [],
    "frame": "1x1",
    "src_in": 0.5,
-   "clip": "clips/s03.mp4"
+   "clip": "clips/s03.mp4",
+   "setup": 3
   },
   {
    "n": 4,
@@ -383,8 +390,12 @@
     "whip"
    ],
    "frame": "p088",
-   "src_in": 0.5,
-   "clip": "clips/s19.mp4"
+   "src_in": 0.0,
+   "clip": "clips/s20.mp4",
+   "source": 20,
+   "zoom": 1.0,
+   "cx": 0.5,
+   "cy": 0.5
   },
   {
    "n": 20,
@@ -400,9 +411,7 @@
    ],
    "tr": "cut",
    "tr_dur": 0.0,
-   "fx": [
-    "whip"
-   ],
+   "fx": [],
    "frame": "p088",
    "src_in": 0.5,
    "clip": "clips/s20.mp4"
@@ -426,5 +435,17 @@
    "src_in": 0.5,
    "clip": "clips/s21.mp4"
   }
- ]
+ ],
+ "reuse": {
+  "shots": 21,
+  "setups": 1,
+  "chains": 1,
+  "reused_shots": 1,
+  "zoom_steps": 0,
+  "three_step": 0,
+  "video_sources": 20,
+  "image_sources": 19,
+  "inshot_zoom_shots": 2,
+  "from_analysis_hints": 1
+ }
 }

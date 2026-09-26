@@ -1,0 +1,1407 @@
+{
+ "key": "v10",
+ "id": "WeOxwdkKGDQ",
+ "title": "야르하지아니한가",
+ "duration": 42.9,
+ "fps": 30,
+ "shots": [
+  {
+   "n": 1,
+   "t_in": 0.0,
+   "t_out": 0.1,
+   "dur": 0.1,
+   "frames": 3,
+   "who": "insert",
+   "size": "INSERT(썸네일)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s01.mp4"
+  },
+  {
+   "n": 2,
+   "t_in": 0.1,
+   "t_out": 0.933,
+   "dur": 0.833,
+   "frames": 25,
+   "who": "cw1",
+   "size": "MS",
+   "gen": "i2v",
+   "models": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s04.mp4",
+   "setup": 4,
+   "source": 4,
+   "zoom": 1.12,
+   "cx": 0.57,
+   "cy": 0.673,
+   "push": {
+    "scale": 1.09,
+    "cx": 0.512,
+    "cy": 0.504
+   }
+  },
+  {
+   "n": 3,
+   "t_in": 0.933,
+   "t_out": 1.5,
+   "dur": 0.567,
+   "frames": 17,
+   "who": "hero",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s03.mp4",
+   "setup": 3
+  },
+  {
+   "n": 4,
+   "t_in": 1.5,
+   "t_out": 2.0,
+   "dur": 0.5,
+   "frames": 15,
+   "who": "cw1",
+   "size": "MS",
+   "gen": "i2v",
+   "models": [
+    "veo-3-1",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.333,
+   "clip": "clips/s04.mp4",
+   "setup": 4
+  },
+  {
+   "n": 5,
+   "t_in": 2.0,
+   "t_out": 2.667,
+   "dur": 0.667,
+   "frames": 20,
+   "who": "hero",
+   "size": "CU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.067,
+   "clip": "clips/s03.mp4",
+   "setup": 3,
+   "source": 3,
+   "zoom": 2.1,
+   "cx": 0.515,
+   "cy": 0.427
+  },
+  {
+   "n": 6,
+   "t_in": 2.667,
+   "t_out": 3.2,
+   "dur": 0.533,
+   "frames": 16,
+   "who": "hero",
+   "size": "MS→CU",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s06.mp4"
+  },
+  {
+   "n": 7,
+   "t_in": 3.2,
+   "t_out": 4.133,
+   "dur": 0.933,
+   "frames": 28,
+   "who": "hero",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s07.mp4"
+  },
+  {
+   "n": 8,
+   "t_in": 4.133,
+   "t_out": 4.767,
+   "dur": 0.633,
+   "frames": 19,
+   "who": "hero_costume",
+   "size": "CU",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s08.mp4"
+  },
+  {
+   "n": 9,
+   "t_in": 4.767,
+   "t_out": 5.233,
+   "dur": 0.467,
+   "frames": 14,
+   "who": "hero",
+   "size": "ECU(앞발)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "viduq3-pro"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "push_in_slow"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s09.mp4"
+  },
+  {
+   "n": 10,
+   "t_in": 5.233,
+   "t_out": 5.733,
+   "dur": 0.5,
+   "frames": 15,
+   "who": "hero",
+   "size": "MS(3/4)",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s10.mp4"
+  },
+  {
+   "n": 11,
+   "t_in": 5.733,
+   "t_out": 6.233,
+   "dur": 0.5,
+   "frames": 15,
+   "who": "hero_costume",
+   "size": "MS(뒷모습)",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s11.mp4"
+  },
+  {
+   "n": 12,
+   "t_in": 6.233,
+   "t_out": 7.0,
+   "dur": 0.767,
+   "frames": 23,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s12.mp4",
+   "setup": 12
+  },
+  {
+   "n": 13,
+   "t_in": 7.0,
+   "t_out": 7.9,
+   "dur": 0.9,
+   "frames": 27,
+   "who": "hero_costume",
+   "size": "CU",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "minimax-h3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s13.mp4"
+  },
+  {
+   "n": 14,
+   "t_in": 7.9,
+   "t_out": 8.4,
+   "dur": 0.5,
+   "frames": 15,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "still"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.267,
+   "clip": "clips/s12.mp4",
+   "setup": 12,
+   "source": 12,
+   "zoom": 1.4,
+   "cx": 0.506,
+   "cy": 0.442
+  },
+  {
+   "n": 15,
+   "t_in": 8.4,
+   "t_out": 8.933,
+   "dur": 0.533,
+   "frames": 16,
+   "who": "hero",
+   "size": "ECU",
+   "gen": "still",
+   "models": [
+    "still",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "push_in_slow"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s16.mp4",
+   "setup": 16,
+   "source": 16,
+   "zoom": 1.53,
+   "cx": 0.511,
+   "cy": 0.47
+  },
+  {
+   "n": 16,
+   "t_in": 8.933,
+   "t_out": 9.567,
+   "dur": 0.633,
+   "frames": 19,
+   "who": "hero",
+   "size": "CU",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "push_in_slow"
+   ],
+   "frame": "full",
+   "src_in": 1.033,
+   "clip": "clips/s16.mp4",
+   "setup": 16
+  },
+  {
+   "n": 17,
+   "t_in": 9.567,
+   "t_out": 11.333,
+   "dur": 1.767,
+   "frames": 53,
+   "who": "hero_costume",
+   "size": "WS(게임 화면 + 합성)",
+   "gen": "ref",
+   "models": [
+    "seedance-2-0",
+    "kling-v3-omni",
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s17.mp4"
+  },
+  {
+   "n": 18,
+   "t_in": 11.333,
+   "t_out": 12.0,
+   "dur": 0.667,
+   "frames": 20,
+   "who": "hero_costume",
+   "size": "MS→CU",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s18.mp4",
+   "setup": 26
+  },
+  {
+   "n": 19,
+   "t_in": 12.0,
+   "t_out": 12.333,
+   "dur": 0.333,
+   "frames": 10,
+   "who": "hero_costume",
+   "size": "CU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.167,
+   "clip": "clips/s18.mp4",
+   "setup": 26,
+   "source": 18,
+   "zoom": 1.13,
+   "cx": 0.536,
+   "cy": 0.504
+  },
+  {
+   "n": 20,
+   "t_in": 12.333,
+   "t_out": 12.7,
+   "dur": 0.367,
+   "frames": 11,
+   "who": "hero_costume",
+   "size": "ECU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.5,
+   "clip": "clips/s18.mp4",
+   "setup": 26,
+   "source": 18,
+   "zoom": 1.97,
+   "cx": 0.543,
+   "cy": 0.453
+  },
+  {
+   "n": 21,
+   "t_in": 12.7,
+   "t_out": 13.333,
+   "dur": 0.633,
+   "frames": 19,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s21.mp4"
+  },
+  {
+   "n": 22,
+   "t_in": 13.333,
+   "t_out": 13.667,
+   "dur": 0.333,
+   "frames": 10,
+   "who": "hero_costume",
+   "size": "CU",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "minimax-h3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s22.mp4",
+   "setup": 26
+  },
+  {
+   "n": 23,
+   "t_in": 13.667,
+   "t_out": 13.967,
+   "dur": 0.3,
+   "frames": 9,
+   "who": "hero_costume",
+   "size": "ECU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.833,
+   "clip": "clips/s22.mp4",
+   "setup": 26,
+   "source": 22,
+   "zoom": 1.85,
+   "cx": 0.501,
+   "cy": 0.477
+  },
+  {
+   "n": 24,
+   "t_in": 13.967,
+   "t_out": 15.067,
+   "dur": 1.1,
+   "frames": 33,
+   "who": "hero_costume",
+   "size": "CU→WS",
+   "gen": "ref",
+   "models": [
+    "seedance-2-0",
+    "kling-v3-omni",
+    "seedance-2-5"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s24.mp4"
+  },
+  {
+   "n": 25,
+   "t_in": 15.067,
+   "t_out": 15.633,
+   "dur": 0.567,
+   "frames": 17,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s25.mp4",
+   "setup": 29
+  },
+  {
+   "n": 26,
+   "t_in": 15.633,
+   "t_out": 16.5,
+   "dur": 0.867,
+   "frames": 26,
+   "who": "hero_costume",
+   "size": "MS→MCU→CU",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s26.mp4",
+   "setup": 26
+  },
+  {
+   "n": 27,
+   "t_in": 16.5,
+   "t_out": 17.033,
+   "dur": 0.533,
+   "frames": 16,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "viduq3-pro"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s27.mp4"
+  },
+  {
+   "n": 28,
+   "t_in": 17.033,
+   "t_out": 17.4,
+   "dur": 0.367,
+   "frames": 11,
+   "who": "hero_costume",
+   "size": "ECU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s30.mp4",
+   "setup": 26,
+   "source": 30,
+   "zoom": 1.88,
+   "cx": 0.525,
+   "cy": 0.433
+  },
+  {
+   "n": 29,
+   "t_in": 17.4,
+   "t_out": 17.833,
+   "dur": 0.433,
+   "frames": 13,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "viduq3-pro"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s29.mp4",
+   "setup": 29
+  },
+  {
+   "n": 30,
+   "t_in": 17.833,
+   "t_out": 18.267,
+   "dur": 0.433,
+   "frames": 13,
+   "who": "hero_costume",
+   "size": "MCU",
+   "gen": "i2v",
+   "models": [
+    "minimax-h3",
+    "hailuo-2-3",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.867,
+   "clip": "clips/s30.mp4",
+   "setup": 26
+  },
+  {
+   "n": 31,
+   "t_in": 18.267,
+   "t_out": 18.733,
+   "dur": 0.467,
+   "frames": 14,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "viduq3-pro"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s31.mp4"
+  },
+  {
+   "n": 32,
+   "t_in": 18.733,
+   "t_out": 18.933,
+   "dur": 0.2,
+   "frames": 6,
+   "who": "hero",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s32.mp4",
+   "setup": 32
+  },
+  {
+   "n": 33,
+   "t_in": 18.933,
+   "t_out": 19.633,
+   "dur": 0.7,
+   "frames": 21,
+   "who": "hero",
+   "size": "CU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.7,
+   "clip": "clips/s32.mp4",
+   "setup": 32,
+   "source": 32,
+   "zoom": 2.0,
+   "cx": 0.5,
+   "cy": 0.5
+  },
+  {
+   "n": 34,
+   "t_in": 19.633,
+   "t_out": 20.033,
+   "dur": 0.4,
+   "frames": 12,
+   "who": "hero_costume",
+   "size": "ECU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.3,
+   "clip": "clips/s30.mp4",
+   "setup": 26,
+   "source": 30,
+   "zoom": 2.21,
+   "cx": 0.532,
+   "cy": 0.475
+  },
+  {
+   "n": 35,
+   "t_in": 20.033,
+   "t_out": 20.933,
+   "dur": 0.9,
+   "frames": 27,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s35.mp4"
+  },
+  {
+   "n": 36,
+   "t_in": 20.933,
+   "t_out": 21.467,
+   "dur": 0.533,
+   "frames": 16,
+   "who": "hero",
+   "size": "CU",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "minimax-h3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s36.mp4"
+  },
+  {
+   "n": 37,
+   "t_in": 21.467,
+   "t_out": 22.0,
+   "dur": 0.533,
+   "frames": 16,
+   "who": "insert",
+   "size": "INSERT(게임 배너)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s37.mp4"
+  },
+  {
+   "n": 38,
+   "t_in": 22.0,
+   "t_out": 22.667,
+   "dur": 0.667,
+   "frames": 20,
+   "who": "hero_costume",
+   "size": "ECU",
+   "gen": "i2v",
+   "models": [
+    "minimax-h3",
+    "hailuo-2-3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "crash_zoom"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s38.mp4"
+  },
+  {
+   "n": 39,
+   "t_in": 22.667,
+   "t_out": 23.833,
+   "dur": 1.167,
+   "frames": 35,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s39.mp4",
+   "setup": 39
+  },
+  {
+   "n": 40,
+   "t_in": 23.833,
+   "t_out": 24.5,
+   "dur": 0.667,
+   "frames": 20,
+   "who": "hero",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s40.mp4"
+  },
+  {
+   "n": 41,
+   "t_in": 24.5,
+   "t_out": 25.567,
+   "dur": 1.067,
+   "frames": 32,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.667,
+   "clip": "clips/s39.mp4",
+   "setup": 39,
+   "source": 39,
+   "zoom": 1.02,
+   "cx": 0.492,
+   "cy": 0.513
+  },
+  {
+   "n": 42,
+   "t_in": 25.567,
+   "t_out": 27.1,
+   "dur": 1.533,
+   "frames": 46,
+   "who": "insert",
+   "size": "INSERT(채팅 확대)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s42.mp4"
+  },
+  {
+   "n": 43,
+   "t_in": 27.1,
+   "t_out": 27.733,
+   "dur": 0.633,
+   "frames": 19,
+   "who": "hero",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "minimax-h3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s43.mp4",
+   "setup": 43
+  },
+  {
+   "n": 44,
+   "t_in": 27.733,
+   "t_out": 28.3,
+   "dur": 0.567,
+   "frames": 17,
+   "who": "hero",
+   "size": "CU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.133,
+   "clip": "clips/s43.mp4",
+   "setup": 43,
+   "source": 43,
+   "zoom": 1.98,
+   "cx": 0.481,
+   "cy": 0.467
+  },
+  {
+   "n": 45,
+   "t_in": 28.3,
+   "t_out": 28.733,
+   "dur": 0.433,
+   "frames": 13,
+   "who": "hero_costume",
+   "size": "ECU(앞발)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s46.mp4",
+   "setup": 46,
+   "source": 46,
+   "zoom": 2.7,
+   "cx": 0.529,
+   "cy": 0.715
+  },
+  {
+   "n": 46,
+   "t_in": 28.733,
+   "t_out": 29.633,
+   "dur": 0.9,
+   "frames": 27,
+   "who": "hero_costume",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.933,
+   "clip": "clips/s46.mp4",
+   "setup": 46
+  },
+  {
+   "n": 47,
+   "t_in": 29.633,
+   "t_out": 31.033,
+   "dur": 1.4,
+   "frames": 42,
+   "who": "hero_costume",
+   "size": "CU→MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0",
+    "minimax-h3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s47.mp4",
+   "push": {
+    "scale": 0.589,
+    "cx": 0.474,
+    "cy": 0.349
+   }
+  },
+  {
+   "n": 48,
+   "t_in": 31.033,
+   "t_out": 31.833,
+   "dur": 0.8,
+   "frames": 24,
+   "who": "insert",
+   "size": "INSERT(게임 배너)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s48.mp4"
+  },
+  {
+   "n": 49,
+   "t_in": 31.833,
+   "t_out": 32.633,
+   "dur": 0.8,
+   "frames": 24,
+   "who": "insert",
+   "size": "INSERT(채팅 확대)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s49.mp4"
+  },
+  {
+   "n": 50,
+   "t_in": 32.633,
+   "t_out": 33.567,
+   "dur": 0.933,
+   "frames": 28,
+   "who": "hero",
+   "size": "ECU(앞발)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "veo-3-1"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s50.mp4",
+   "push": {
+    "scale": 1.032,
+    "cx": 0.5,
+    "cy": 0.5
+   }
+  },
+  {
+   "n": 51,
+   "t_in": 33.567,
+   "t_out": 34.567,
+   "dur": 1.0,
+   "frames": 30,
+   "who": "insert",
+   "size": "INSERT(채팅 확대)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s51.mp4"
+  },
+  {
+   "n": 52,
+   "t_in": 34.567,
+   "t_out": 35.167,
+   "dur": 0.6,
+   "frames": 18,
+   "who": "hero",
+   "size": "CU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.7,
+   "clip": "clips/s43.mp4",
+   "setup": 43,
+   "source": 43,
+   "zoom": 2.01,
+   "cx": 0.48,
+   "cy": 0.466
+  },
+  {
+   "n": 53,
+   "t_in": 35.167,
+   "t_out": 36.567,
+   "dur": 1.4,
+   "frames": 42,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "kling-v3",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s53.mp4",
+   "push": {
+    "scale": 0.885,
+    "cx": 0.735,
+    "cy": 0.523
+   }
+  },
+  {
+   "n": 54,
+   "t_in": 36.567,
+   "t_out": 37.167,
+   "dur": 0.6,
+   "frames": 18,
+   "who": "hero_costume",
+   "size": "CU(광각 초근접)",
+   "gen": "i2v",
+   "models": [
+    "minimax-h3",
+    "hailuo-2-3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [
+    "shake"
+   ],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s54.mp4"
+  },
+  {
+   "n": 55,
+   "t_in": 37.167,
+   "t_out": 37.967,
+   "dur": 0.8,
+   "frames": 24,
+   "who": "insert",
+   "size": "INSERT(게임 화면)",
+   "gen": "i2v",
+   "models": [
+    "seedance-2-0",
+    "kling-v3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s55.mp4"
+  },
+  {
+   "n": 56,
+   "t_in": 37.967,
+   "t_out": 39.0,
+   "dur": 1.033,
+   "frames": 31,
+   "who": "insert",
+   "size": "INSERT(채팅 확대)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s56.mp4",
+   "setup": 56
+  },
+  {
+   "n": 57,
+   "t_in": 39.0,
+   "t_out": 39.533,
+   "dur": 0.533,
+   "frames": 16,
+   "who": "hero",
+   "size": "MS",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "minimax-h3"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s57.mp4",
+   "setup": 57
+  },
+  {
+   "n": 58,
+   "t_in": 39.533,
+   "t_out": 39.933,
+   "dur": 0.4,
+   "frames": 12,
+   "who": "hero",
+   "size": "CU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.033,
+   "clip": "clips/s57.mp4",
+   "setup": 57,
+   "source": 57,
+   "zoom": 2.38,
+   "cx": 0.508,
+   "cy": 0.447
+  },
+  {
+   "n": 59,
+   "t_in": 39.933,
+   "t_out": 40.667,
+   "dur": 0.733,
+   "frames": 22,
+   "who": "insert",
+   "size": "INSERT(채팅 입력창)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s59.mp4",
+   "setup": 56
+  },
+  {
+   "n": 60,
+   "t_in": 40.667,
+   "t_out": 41.333,
+   "dur": 0.667,
+   "frames": 20,
+   "who": "insert",
+   "size": "INSERT(패배 화면)",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s60.mp4"
+  },
+  {
+   "n": 61,
+   "t_in": 41.333,
+   "t_out": 41.933,
+   "dur": 0.6,
+   "frames": 18,
+   "who": "hero",
+   "size": "MCU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 0.5,
+   "clip": "clips/s63.mp4",
+   "setup": 63,
+   "source": 63,
+   "zoom": 1.74,
+   "cx": 0.55,
+   "cy": 0.391
+  },
+  {
+   "n": 62,
+   "t_in": 41.933,
+   "t_out": 42.333,
+   "dur": 0.4,
+   "frames": 12,
+   "who": "hero",
+   "size": "CU",
+   "gen": "edit",
+   "models": [
+    "edit"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.1,
+   "clip": "clips/s63.mp4",
+   "setup": 63,
+   "source": 63,
+   "zoom": 2.7,
+   "cx": 0.558,
+   "cy": 0.352
+  },
+  {
+   "n": 63,
+   "t_in": 42.333,
+   "t_out": 42.9,
+   "dur": 0.567,
+   "frames": 17,
+   "who": "hero",
+   "size": "MS(와이드)",
+   "gen": "ref",
+   "models": [
+    "kling-v3-omni",
+    "seedance-2-0"
+   ],
+   "tr": "cut",
+   "tr_dur": 0.0,
+   "fx": [],
+   "frame": "full",
+   "src_in": 1.5,
+   "clip": "clips/s63.mp4",
+   "setup": 63
+  }
+ ],
+ "reuse": {
+  "shots": 63,
+  "setups": 13,
+  "chains": 13,
+  "reused_shots": 17,
+  "zoom_steps": 16,
+  "three_step": 3,
+  "video_sources": 46,
+  "image_sources": 41,
+  "inshot_zoom_shots": 6,
+  "from_analysis_hints": 3
+ }
+}

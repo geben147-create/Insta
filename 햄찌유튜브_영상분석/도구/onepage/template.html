@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>햄찌 유튜브 영상 분석 — 전체 한 페이지</title>
-<meta name="description" content="정서불안 김햄찌 채널 최근 30개 중 기간 대비 성과 Top10과 상위 3개 영상의 컷 단위 분석, 다른 동물로 재현하는 이미지·영상 프롬프트, 추천 AI 모델, 사운드·편집(FFmpeg·HyperFrames) 가이드를 한 페이지에 모았습니다.">
+<meta name="description" content="정서불안 김햄찌 채널 최근 30개 중 기간 대비 성과 Top10 영상의 컷 단위 분석, 다른 동물로 재현하는 이미지·영상 프롬프트, 추천 AI 모델, 사운드·편집(FFmpeg·HyperFrames) 가이드를 한 페이지에 모았습니다.">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
 {{ css | safe }}
@@ -22,6 +22,32 @@ img[data-zoom] { cursor: zoom-in; }
 .navbig { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
 .navbig a { text-decoration: none; background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; color: var(--ink); }
 .navbig a b { color: var(--accent); }
+.chip.cute { background: #fde7f3; color: #9d174d; border-color: #f9a8d4; }
+.chip.reuse { background: #e0f2fe; color: #075985; border-color: #7dd3fc; }
+.chip.feed { background: #ecfccb; color: #3f6212; border-color: #bef264; }
+[data-theme="dark"] .chip.cute { background: #4a1d35; color: #fbcfe8; border-color: #9d174d; }
+[data-theme="dark"] .chip.reuse { background: #0c3448; color: #bae6fd; border-color: #0369a1; }
+[data-theme="dark"] .chip.feed { background: #26340e; color: #d9f99d; border-color: #4d7c0f; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chip.cute { background: #4a1d35; color: #fbcfe8; border-color: #9d174d; }
+  :root:not([data-theme="light"]) .chip.reuse { background: #0c3448; color: #bae6fd; border-color: #0369a1; }
+  :root:not([data-theme="light"]) .chip.feed { background: #26340e; color: #d9f99d; border-color: #4d7c0f; } }
+.reusebox { border: 1px dashed var(--line); border-radius: 10px; padding: 8px 12px; margin: 8px 0; font-size: .9rem; background: var(--panel2); }
+.strip { display: flex; gap: 6px; flex-wrap: wrap; align-items: flex-end; margin: 6px 0; }
+.strip figure { margin: 0; text-align: center; font-size: .75rem; }
+.strip img { width: 150px; border-radius: 6px; display: block; }
+.cutegrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.cutecard { border: 1px solid var(--line); border-radius: 12px; padding: 12px; background: var(--panel); }
+.cutecard h4 { margin: 0 0 6px; }
+.distbar { height: 12px; background: var(--accent); border-radius: 6px; min-width: 2px; }
+#cute td:first-child, #cute th:first-child { min-width: 120px; }
+#cute td:nth-child(3), #cute th:nth-child(3) { min-width: 90px; }
+#cute td:nth-child(4), #cute td:nth-child(5) { min-width: 260px; }
+#cute td code { font-size: .78rem; }
+#sfxlib td:first-child, #sfxlib th:first-child { min-width: 110px; }
+#sfxlib td:nth-child(4), #sfxlib td:nth-child(5) { min-width: 150px; }
+.guide h3 { margin-top: 16px; }
+.guide li { margin: 4px 0; }
+.guide code, .guide li { word-break: break-word; }
 </style>
 <script>window.KIT = {{ kit_json | safe }}; window.PAGES = {{ pages_json | safe }}; window.CHUNKS = {{ chunks_json | safe }};</script>
 <script>{{ js | safe }}</script>
@@ -30,7 +56,7 @@ img[data-zoom] { cursor: zoom-in; }
 <header class="topbar">
   <div class="wrap">
     <a class="brand" href="#top">🐹 햄찌 유튜브 분석</a>
-    <nav class="pagenav"><a href="#overview">개요·Top10</a>{% for v in videos %}<a href="#{{ v.key }}">{{ v.rank }}위</a>{% endfor %}<a href="#models">모델</a></nav>
+    <nav class="pagenav"><a href="#overview">개요·Top10</a><a href="#cute">귀여움</a><a href="#zoom">3단 줌</a><a href="#guide">편집법</a><a href="#sfxlib">효과음</a>{% for v in videos %}<a href="#{{ v.key }}">{{ v.rank }}위</a>{% endfor %}<a href="#models">모델</a></nav>
     <div class="controls">
       <label for="animal">바꿀 동물</label><select id="animal" aria-label="바꿀 동물"></select>
       <span id="customWrap" class="hide"><input id="customAnimal" placeholder="영어 외형 묘사 (a fluffy ...)" aria-label="직접 입력 동물 묘사"><input id="customPun" placeholder="말장난 글자" style="width:6em" aria-label="말장난 글자"></span>
@@ -45,8 +71,8 @@ img[data-zoom] { cursor: zoom-in; }
 <main class="wrap" id="top">
 <div style="margin-top:22px">
   <span class="rankbadge">채널 분석 · 기준일 {{ today }}</span>
-  <h1>정서불안 김햄찌 — 기간 대비 성과 Top 10 & 상위 3개 완전 해부 (한 페이지)</h1>
-  <p class="lead">최근 올린 30개 영상 중 <b>일평균 조회수(조회수 ÷ 올린 뒤 지난 날수)</b>로 순위를 매기고, 상위 3개는 컷 단위로 분해해 <b>다른 동물로 똑같이 만들 수 있는</b> 이미지·영상 프롬프트, 추천 AI 모델, 사운드·편집 키트로 바꿨습니다. 맨 위 <b>📋 전체 복사</b> 한 번이면 이 페이지의 모든 내용이 텍스트로 복사됩니다(선택한 동물로 바뀐 상태).</p>
+  <h1>정서불안 김햄찌 — 기간 대비 성과 Top 10 · {{ videos|length }}개 영상 완전 해부 (한 페이지)</h1>
+  <p class="lead">최근 올린 30개 영상 중 <b>일평균 조회수(조회수 ÷ 올린 뒤 지난 날수)</b>로 순위를 매기고, 상위 {{ videos|length }}개를 컷 단위로 분해해 <b>다른 동물로 똑같이 만들 수 있는</b> 이미지·영상 프롬프트, 추천 AI 모델, 사운드·편집 키트로 바꿨습니다. 맨 위 <b>📋 전체 복사</b> 한 번이면 이 페이지의 모든 내용이 텍스트로 복사됩니다(선택한 동물로 바뀐 상태).</p>
   {% if mode == 'public' %}<p class="note">이 공개판에는 <b>원본 영상 캡처 사진과 자막 원문을 넣지 않았습니다</b>(김햄찌 채널 저작물 — 공개 저장소에 올리면 신고로 링크가 막힐 수 있음). 사진·자막은 개인용 ZIP의 <b>전체분석_사진포함.html</b>에 같은 구성으로 들어 있습니다.</p>
   {% else %}<p class="note">개인 보관용입니다(원본 캡처·자막 원문 포함). <b>사진을 누르면 크게</b> 보이고, 원본 크기 사진은 같은 ZIP의 <b>사진</b> 폴더에 있습니다. 외부 공유·재업로드는 하지 마세요.</p>{% endif %}
   <div class="navbig">{% for v in videos %}<a href="#{{ v.key }}"><b>{{ v.rank }}위</b> 「{{ v.title }}」<br><small>{{ v.an.fmt }} · {{ v.st.n }}컷 · {{ v.st.dur }}초</small></a>{% endfor %}</div>
@@ -77,10 +103,10 @@ img[data-zoom] { cursor: zoom-in; }
 </section>
 
 <section class="block" id="dna">
-  <h2><span class="num">B</span>채널 공식 — 3개 영상 공통점과 차이</h2>
+  <h2><span class="num">B</span>채널 공식 — {{ videos|length }}개 영상 공통점과 차이</h2>
   <div class="tablewrap"><table>
-    <thead><tr><th>항목</th>{% for v in videos %}<th>{{ v.rank }}위 {{ v.title }}</th>{% endfor %}</tr></thead>
-    <tbody>{% for row in compare %}<tr><td><b>{{ row[0] }}</b></td>{% for c in row[1] %}<td>{{ c }}</td>{% endfor %}</tr>{% endfor %}</tbody>
+    <thead><tr><th class="num">순위</th><th>제목</th><th>형식</th><th>길이 · 컷 · 평균 컷</th><th class="num">분당 컷</th><th>대사 · 원본 음량</th><th>핵심 구조</th><th>사람 처리</th></tr></thead>
+    <tbody>{% for r in compare_rows %}<tr><td class="num"><b>{{ r.rank }}</b></td><td><a href="#{{ r.key }}">{{ r.title }}</a></td><td>{{ r.fmt }}</td><td>{{ r.size }}</td><td class="num">{{ r.cpm }}</td><td>{{ r.speech }}</td><td>{{ r.formula }}</td><td>{{ r.people }}</td></tr>{% endfor %}</tbody>
   </table></div>
   <ul class="clean" style="margin-top:12px">{% for d in dna %}<li>{{ d }}</li>{% endfor %}</ul>
 </section>
@@ -94,6 +120,59 @@ img[data-zoom] { cursor: zoom-in; }
   <div class="pbox"><div class="plabel">Claude Code 생성 총괄 프롬프트 (Pollo · 비용 승인 게이트 포함) <button class="copy" data-target="genmaster">복사</button></div><pre id="genmaster">{{ gen_master }}</pre></div>
 </section>
 
+<section class="block" id="cute">
+  <h2><span class="num">C2</span>🧸 귀여운 모먼트 사전 — {{ cute.total }}컷 중 {{ cute.tagged }}컷에서 찾은 귀여움</h2>
+  <p>햄찌 채널은 다른 동물 채널보다 <b>귀여운 순간의 밀도</b>가 높습니다. 공통점은 ① 몸에 딱 맞춘 <b>진짜 천 재질 미니 소품·의상</b>(작은 모자, 꿀벌 옷, 헤드폰) ② <b>짧은 팔</b>로 하는 사람 흉내(팔짱, 입 가리기, 춤, 주먹 세레머니) ③ 화면을 채우는 <b>동그란 눈</b> 초근접 ④ <b>몸보다 큰 물건</b>·사람과의 크기 대비 ⑤ 느린 반응(멍, 혀 빼꼼, 벌러덩)입니다. 아기 같은 비율(큰 눈·둥근 몸·짧은 팔다리)이 사람 행동을 할 때 귀여움이 가장 커집니다.</p>
+  <div class="pbox"><div class="plabel">모든 주인공 프롬프트에 자동으로 붙는 '귀여움 기본값'</div><pre>{{ hero_suffix }}</pre></div>
+  <div class="tablewrap"><table><thead><tr><th>귀여운 모먼트</th><th class="num">등장 컷</th><th>대표 컷</th><th>이미지 문구 (동물 선택 반영)</th><th>움직임 문구</th><th>편집 팁</th><th>효과음</th></tr></thead>
+  <tbody>{% for r in cute.rows %}<tr><td><b>{{ r.tag }}</b></td><td class="num">{{ r.count }}</td>
+    <td>{% for e in r.ex %}<a href="#{{ e.key }}-s{{ e.n }}">{{ e.rank }}위 #{{ e.n }}</a>{% if e.img %}<br><img src="{{ e.img }}" alt="{{ r.tag }} {{ e.rank }}위 #{{ e.n }}" data-zoom="1" loading="lazy" style="width:120px;border-radius:6px">{% endif %}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>
+    <td><code data-tpl="{{ r.img }}" data-v="common">{{ r.img_default }}</code></td><td><code data-tpl="{{ r.mot }}" data-v="common">{{ r.mot_default }}</code></td><td>{{ r.edit }}</td><td>{{ r.sfx }}</td></tr>{% endfor %}</tbody></table></div>
+  {% if cute.other %}<p class="muted">그 밖의 태그: {% for t, c in cute.other %}{{ t }}({{ c }}){% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+  <p class="note">영상마다 '귀여운 모먼트' 카드(왜 귀여운지 + 바로 쓰는 프롬프트)가 각 영상의 2번 섹션에 있습니다. 컷 카드의 🧸 칩은 그 컷의 귀여운 포인트입니다.</p>
+</section>
+
+<section class="block" id="zoom">
+  <h2><span class="num">C3</span>🔁 같은 원본 3단 줌 — 적게 만들고 많아 보이게</h2>
+  <p><b>휴대폰 사진을 두 손가락으로 벌려 확대하는 것</b>과 같습니다. 새로 찍지 않고 같은 장면을 1배 → 1.7배 → 1배 → 2.5배처럼 오가며 잘라 보여 주면, 시청자는 매번 다른 컷으로 느낍니다. 자동 측정(특징점·템플릿 매칭)과 분석 에이전트의 눈 확인을 합친 결과입니다.</p>
+  <div class="kpis">
+    <div class="kpi"><div class="v">{{ zoom.tot.reused }} / {{ zoom.tot.n }}컷</div><div class="k">다른 컷 원본을 확대해 재사용한 컷</div></div>
+    <div class="kpi"><div class="v">{{ zoom.tot.video }}개</div><div class="k">실제로 만들 영상 (+ 정지 이미지 {{ zoom.tot.still }}장)</div></div>
+    <div class="kpi"><div class="v">{{ zoom.tot.images }}장</div><div class="k">키프레임 이미지(세팅 기준)</div></div>
+    <div class="kpi"><div class="v">{{ zoom.med_zoom }}배</div><div class="k">재사용 컷 배율 중앙값 (최대 {{ zoom.max_zoom }}배)</div></div>
+    <div class="kpi"><div class="v">{{ zoom.med_dur }}초</div><div class="k">재사용 컷 길이 중앙값</div></div>
+    <div class="kpi"><div class="v">{{ zoom.tot.chains }}개 ({{ zoom.tot.three }})</div><div class="k">줌 체인 (3단 이상)</div></div>
+  </div>
+  <div class="grid2">
+    <div class="tablewrap"><table><thead><tr><th class="num">순위</th><th class="num">컷</th><th class="num">재사용</th><th class="num">영상 생성</th><th class="num">정지</th><th class="num">편집만</th><th class="num">이미지</th><th class="num">체인(3단+)</th><th class="num">최대 배율</th></tr></thead>
+    <tbody>{% for r in zoom.rows %}<tr><td class="num"><a href="#{{ r.key }}-plan">{{ r.rank }}</a></td><td class="num">{{ r.n }}</td><td class="num"><b>{{ r.reused }}</b></td><td class="num">{{ r.video }}</td><td class="num">{{ r.still }}</td><td class="num">{{ r.edit }}</td><td class="num">{{ r.images }}</td><td class="num">{{ r.chains }}({{ r.three }})</td><td class="num">{{ r.max_zoom }}</td></tr>{% endfor %}</tbody></table></div>
+    <div><h3>재사용 컷의 확대 배율 분포</h3>
+      {% for b in zoom.dist %}<div style="display:grid;grid-template-columns:150px 1fr 40px;gap:8px;align-items:center;margin:4px 0"><span>{{ b.label }}</span><div class="distbar" style="width:{{ b.bar }}%"></div><span class="num">{{ b.n }}</span></div>{% endfor %}
+      <h3 style="margin-top:12px">연출 규칙</h3>
+      <ul class="clean"><li>넓게(1배) → 가깝게(1.5~2배) → 넓게 → 더 가깝게(2.5~4배, 눈·표정만)처럼 <b>오가며</b> 대사 한 문장·리액션 하나마다 한 단</li>
+      <li>한 단은 0.4~1.2초. 가장 센 대사·충격은 가장 큰 배율로</li><li>같은 클립을 시간순으로 이어 쓰므로 동작이 자연스럽게 이어짐(점프컷 느낌)</li></ul></div>
+  </div>
+  <h3>대표 줌 체인 (단계가 많은 순)</h3>
+  <div class="tablewrap"><table><thead><tr><th>영상</th><th>원본</th><th>순서 (컷 ×배율)</th><th class="num">합계</th></tr></thead>
+  <tbody>{% for x in zoom.top %}<tr><td><a href="#{{ x.key }}-plan">{{ x.rank }}위</a></td><td>#{{ x.source }}</td><td>{{ x.seq }}{% if x['items'][0].img %}<div class="strip">{% for it in x['items'] %}<figure><img src="{{ it.img }}" alt="#{{ it.n }} ×{{ it.zoom }}" data-zoom="1" loading="lazy"><figcaption>#{{ it.n }} ×{{ it.zoom }}</figcaption></figure>{% endfor %}</div>{% endif %}</td><td class="num">{{ '%.2f'|format(x.total) }}초</td></tr>{% endfor %}</tbody></table></div>
+  <p class="note"><b>만드는 법</b> ① 체인의 원본(가장 넓은 컷)만 이미지 생성 → ② 그 이미지로 영상 1개를 체인 합계 길이 + 0.5초 이상(보통 5~10초) 생성 → ③ 편집 키트가 edl.json 의 <code>source · zoom · cx · cy · src_in</code> 대로 자동으로 잘라 확대합니다. 2배 넘게 확대할 원본은 4K로 만들거나 업스케일하세요.</p>
+</section>
+
+<section class="block guide" id="guide">
+  <h2><span class="num">C4</span>🎬 이미지·클립을 편집에 넣는 법 (FFmpeg · HyperFrames 상세)</h2>
+  {% for title, items in guide %}<h3>{{ title }}</h3><ul class="clean">{% for x in items %}<li>{{ x }}</li>{% endfor %}</ul>{% endfor %}
+</section>
+
+<section class="block" id="sfxlib">
+  <h2><span class="num">C5</span>🔊 효과음 사전 — 언제·무엇을·얼마나</h2>
+  <p>{{ videos|length }}개 영상 편집 키트의 효과음 큐 <b>{{ sfx.n }}개</b>(분석 전체 {{ sfx.total_an }}개, BGM 변화·정적 포함)를 모아 종류별로 정리했습니다. 효과음의 <b>{{ sfx.within01 }}%가 가장 가까운 컷 시작 ±0.1초 안</b>, {{ sfx.within03 }}%가 ±0.3초 안에 있습니다 → <b>효과음은 컷에 붙입니다.</b></p>
+  <ul class="clean"><li>볼륨(키트 vol 0~1): 대사 1.0 · 효과음 0.6~0.8 · 앰비언스 0.3~0.5 · BGM 0.35(대사 나올 때 자동 덕킹) · 최종 -14 LUFS</li>
+  <li>무료 소스: Pixabay 효과음(상업 이용 무료·출처 표기 불필요), Freesound(CC0 필터), YouTube 오디오 보관함 — 표의 영문 검색어 그대로 검색 → 키트 파일명으로 저장(sfx/파일명.wav)</li>
+  <li>없는 파일은 조립할 때 짧은 '삑' 소리로 자리만 표시되므로, 먼저 조립해 타이밍을 보고 나중에 채워도 됩니다</li></ul>
+  <div class="tablewrap"><table><thead><tr><th>효과음</th><th>키트 파일</th><th class="num">사용</th><th>쓰는 때</th><th>컷 기준 타이밍(권장)</th><th class="num">측정 중앙값</th><th class="num">±0.1초 안</th><th class="num">볼륨</th><th>길이</th><th>검색어</th></tr></thead>
+  <tbody>{% for r in sfx.rows %}<tr><td><b>{{ r.ko }}</b></td><td><code>{{ r.file }}</code></td><td class="num">{{ r.count }}</td><td>{{ r.when }}</td><td>{{ r.timing }}</td><td class="num">{{ r.med }}</td><td class="num">{{ r.within }}</td><td class="num">{{ r.vol }}</td><td>{{ r.len }}</td><td><code>{{ r.kw }}</code></td></tr>{% endfor %}</tbody></table></div>
+</section>
+
 {% for v in videos %}
 <section id="{{ v.key }}">
 <div class="vsec-head">
@@ -104,6 +183,7 @@ img[data-zoom] { cursor: zoom-in; }
       <p class="lead">{{ v.an.fmt }}</p>
       <p>{{ v.an.logline }}</p>
       <p><a href="{{ v.row.url }}" target="_blank" rel="noopener">▶ 원본 영상 (YouTube)</a> · 업로드 {{ v.row.upload_time_kst }} KST</p>
+      <p><button class="btn ghost" type="button" data-copyv="{{ v.key }}">📋 이 영상만 복사</button></p>
     </div>
     {% if mode == 'private' %}<div class="thumbs">{% for t in v.thumbs %}<img src="{{ t }}" alt="{{ v.rank }}위 대표 장면" data-zoom="1" loading="lazy">{% endfor %}</div>{% endif %}
   </div>
@@ -123,8 +203,20 @@ img[data-zoom] { cursor: zoom-in; }
   <ol class="why">{% for w in v.an.why %}<li>{{ w }}</li>{% endfor %}</ol>
 </section>
 
+<section class="block" id="{{ v.key }}-cute">
+  <h2><span class="num">{{ v.rank }}-2</span>🧸 귀여운 모먼트 ({{ v.cute_moments|length }}개)</h2>
+  <div class="cutegrid">{% for m in v.cute_moments %}<div class="cutecard">
+    <h4>{{ m.moment }}</h4>
+    <p class="muted" style="margin:0 0 6px">컷 {% for k in m.shots %}<a href="#{{ v.key }}-s{{ k }}">#{{ k }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
+    {% if m.thumbs %}<div class="strip">{% for t in m.thumbs %}<img src="{{ t }}" alt="{{ m.moment }}" data-zoom="1" loading="lazy" style="width:100px">{% endfor %}</div>{% endif %}
+    <p>{{ m.why }}</p>
+    <div class="pbox"><div class="plabel">이미지 문구 <button class="copy" data-target="{{ v.key }}-cm{{ loop.index }}i">복사</button></div><pre id="{{ v.key }}-cm{{ loop.index }}i" data-tpl="{{ m.prompt }}" data-v="{{ v.key }}">{{ m.prompt_default }}</pre></div>
+    <div class="pbox"><div class="plabel">움직임 문구 <button class="copy" data-target="{{ v.key }}-cm{{ loop.index }}m">복사</button></div><pre id="{{ v.key }}-cm{{ loop.index }}m" data-tpl="{{ m.motion }}" data-v="{{ v.key }}">{{ m.motion_default }}</pre></div>
+  </div>{% endfor %}</div>
+</section>
+
 <section class="block" id="{{ v.key }}-rhythm">
-  <h2><span class="num">{{ v.rank }}-2</span>편집 리듬 타임라인</h2>
+  <h2><span class="num">{{ v.rank }}-3</span>편집 리듬 타임라인</h2>
   <p class="muted">위에서부터 스토리 비트 · 컷(색 = 누가 나오는지, 누르면 해당 컷으로 이동) · 효과음(▼) · 대사 구간 · 소리 크기. 가장 짧은 컷 {{ v.st.min }}초, 가장 긴 컷 {{ v.st.max }}초, 중앙값 {{ v.st.med }}초.</p>
   <div class="svgbox">{{ v.timeline_svg | safe }}</div>
   <div class="legend">{% for k, c in v.legend %}<span><i style="background:{{ c }}"></i>{{ k }}</span>{% endfor %}</div>
@@ -137,7 +229,7 @@ img[data-zoom] { cursor: zoom-in; }
 </section>
 
 <section class="block" id="{{ v.key }}-beats">
-  <h2><span class="num">{{ v.rank }}-3</span>스토리 비트와 감정 곡선</h2>
+  <h2><span class="num">{{ v.rank }}-4</span>스토리 비트와 감정 곡선</h2>
   <div class="svgbox">{{ v.emotion_svg | safe }}</div>
   <div class="tablewrap" style="margin-top:10px"><table>
     <thead><tr><th>비트</th><th class="num">구간(초)</th><th class="num">감정</th><th>내용</th></tr></thead>
@@ -146,12 +238,12 @@ img[data-zoom] { cursor: zoom-in; }
 </section>
 
 <section class="block" id="{{ v.key }}-captions">
-  <h2><span class="num">{{ v.rank }}-4</span>자막 시스템 (원본 측정값)</h2>
+  <h2><span class="num">{{ v.rank }}-5</span>자막 시스템 (원본 측정값)</h2>
   <p>{{ v.an.captions.summary }}</p>
   <div class="grid2">
     <div class="grid2" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:8px;align-content:start">
       {% for d in v.cap_demos %}<div class="capdemo{{ '' if d.bg else ' neutral' }}"{% if d.bg %} style="background-image:url('{{ d.bg }}')"{% endif %}>
-        {% for it in d.caps %}<span class="c {{ it.cls }}" data-tpl="{{ it.text }}" data-v="{{ v.key }}">{{ it.text_default }}</span>{% endfor %}
+        {% for it in d.caps %}<span class="c {{ it.cls }}"{% if it.style %} style="{{ it.style }}"{% endif %} data-tpl="{{ it.text }}" data-v="{{ v.key }}">{{ it.text_default }}</span>{% endfor %}
       </div>{% endfor %}
     </div>
     <div class="capspec">
@@ -163,8 +255,26 @@ img[data-zoom] { cursor: zoom-in; }
   <p class="muted" style="margin-top:8px">미리보기 문구는 새로 쓴 예시이고, 위치·크기·색은 원본에서 잰 값입니다(편집 키트의 captions.ass와 동일).</p>
 </section>
 
+<section class="block" id="{{ v.key }}-plan">
+  <h2><span class="num">{{ v.rank }}-6</span>🔁 생성 절약표 — 같은 원본 줌 재사용</h2>
+  <div class="kpis">
+    <div class="kpi"><div class="v">{{ v.plan.n }}컷</div><div class="k">편집에 나오는 컷</div></div>
+    <div class="kpi"><div class="v">{{ v.plan.video }}개</div><div class="k">영상 생성</div></div>
+    <div class="kpi"><div class="v">{{ v.plan.still }}장 · {{ v.plan.edit }}컷</div><div class="k">정지 이미지 · 편집 효과만</div></div>
+    <div class="kpi"><div class="v">{{ v.plan.reused }}컷</div><div class="k">🔁 원본 확대 재사용(생성 0)</div></div>
+    <div class="kpi"><div class="v">{{ v.plan.images }}장</div><div class="k">키프레임 이미지(세팅 기준)</div></div>
+    <div class="kpi"><div class="v">{{ v.plan.max_zoom }}배</div><div class="k">최대 확대 → 2배↑ 원본은 4K</div></div>
+  </div>
+  {% if v.chains %}<div class="tablewrap"><table><thead><tr><th>원본 클립</th><th>이 클립 하나로 만드는 컷 (배율 · 중심 가로/세로 % · 길이)</th><th class="num">합계</th><th class="num">생성 길이</th></tr></thead>
+  <tbody>{% for c in v.chains %}<tr><td><a href="#{{ v.key }}-s{{ c.source }}"><b>#{{ '%02d'|format(c.source) }}</b></a>{% if c.steps >= 3 %}<br><span class="chip accent">{{ c.steps }}단 줌</span>{% endif %}</td>
+    <td>{% for x in c['items'] %}<a href="#{{ v.key }}-s{{ x.n }}">#{{ '%02d'|format(x.n) }}</a> ×{{ x.zoom }} <span class="muted">({{ '%.0f'|format(x.cx * 100) }}/{{ '%.0f'|format(x.cy * 100) }}) {{ '%.2f'|format(x.dur) }}초</span>{% if not loop.last %} → {% endif %}{% endfor %}
+    {% if c['items'][0].img %}<div class="strip">{% for x in c['items'] %}<figure><img src="{{ x.img }}" alt="#{{ x.n }} ×{{ x.zoom }}" data-zoom="1" loading="lazy"><figcaption>#{{ x.n }} ×{{ x.zoom }}</figcaption></figure>{% endfor %}</div>{% endif %}</td>
+    <td class="num">{{ '%.2f'|format(c.total) }}초</td><td class="num">{{ [5, (c.need|round(0, 'ceil'))|int]|max }}초</td></tr>{% endfor %}</tbody></table></div>{% else %}<p class="muted">이 영상에는 같은 원본을 확대해 다시 쓴 컷이 거의 없습니다(컷마다 따로 생성).</p>{% endif %}
+  {% if v.pushes %}<p class="note">컷 안 줌(원본에서 시작→끝 배율 측정, 키트에 그대로 들어감): {% for x in v.pushes %}<a href="#{{ v.key }}-s{{ x.n }}">#{{ x.n }}</a> ×{{ x.scale }}{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
+</section>
+
 <section class="block" id="{{ v.key }}-shots">
-  <h2><span class="num">{{ v.rank }}-5</span>컷별 분석 · 이미지/영상 프롬프트 · 추천 모델 ({{ v.st.n }}컷)</h2>
+  <h2><span class="num">{{ v.rank }}-7</span>컷별 분석 · 이미지/영상 프롬프트 · 추천 모델 ({{ v.st.n }}컷)</h2>
   <p class="muted">원본 대사는 옮기지 않고 <b>의도만 요약</b>했고, 초록 상자는 새로 쓴 예시 대본입니다. 프롬프트는 맨 위에서 고른 동물·소품으로 바뀝니다.{% if mode == 'private' %} 큰 사진 = watch 스킬로 캡처한 <b>전환 직후</b>, 작은 사진 = 중간·끝. 사진을 누르면 크게 보입니다.{% endif %}</p>
   <div class="shotfilters"><button class="on" data-who="all">전체</button><button data-who="hero">주인공</button><button data-who="human">사람</button><button data-who="other">인서트·편집</button></div>
   {% for s in v.shots %}
@@ -175,6 +285,10 @@ img[data-zoom] { cursor: zoom-in; }
       <span class="who" style="background:{{ s.color }}">{{ s.who_ko }}</span>
       <span class="chip">{{ s.sz }}</span><span class="chip">{{ s.ang }}</span><span class="chip">들어올 때: {{ s.tr_label }}</span>
       {% for f in s.fx_labels %}<span class="chip accent">{{ f }}</span>{% endfor %}
+      {% if s.reuse %}<span class="chip reuse" title="새로 만들지 않고 원본 클립을 확대">🔁 #{{ '%02d'|format(s.reuse.source) }} ×{{ s.reuse.zoom }} 재사용</span>{% endif %}
+      {% if s.feeds %}<span class="chip feed" title="이 클립 하나로 다른 컷도 잘라 만듦">🎥 원본 → {% for k in s.feeds %}#{{ k }}{% if not loop.last %}·{% endif %}{% endfor %}</span>{% endif %}
+      {% if s.push %}<span class="chip" title="원본에서 측정한 컷 안 확대/축소">컷 안 줌 ×{{ s.push.scale }}</span>{% endif %}
+      {% for t in s.cute %}<span class="chip cute">🧸 {{ t }}</span>{% endfor %}
     </div>
     <div class="shot-body"{% if mode == 'public' %} style="grid-template-columns:120px 1fr"{% endif %}>
       <div class="frames">
@@ -201,6 +315,8 @@ img[data-zoom] { cursor: zoom-in; }
           <dt>편집 기법</dt><dd><b>{{ s.tech }}</b> — {{ s.why }}</dd>
         </dl>
         <div class="newline"><b>새 대본 예시</b> <span data-tpl="{{ s.new }}" data-v="{{ v.key }}">{{ s.new_default }}</span>{% if s.vo %}<br><b>목소리만</b> <span data-tpl="{{ s.vo }}" data-v="{{ v.key }}">{{ s.vo_default }}</span>{% endif %}</div>
+        {% if s.reuse %}<div class="reusebox">🔁 <b>생성 불필요</b> — <a href="#{{ v.key }}-s{{ s.reuse.source }}">#{{ '%02d'|format(s.reuse.source) }}</a> 클립을 <b>{{ s.reuse.zoom }}배</b> 확대(중심 가로 {{ '%.0f'|format(s.reuse.cx * 100) }}% · 세로 {{ '%.0f'|format(s.reuse.cy * 100) }}%), 클립 {{ '%.2f'|format(s.reuse.src_in) }}초부터 {{ '%.2f'|format(s.dur) }}초 사용. 편집 키트가 자동으로 잘라 씁니다(아래 프롬프트는 따로 만들고 싶을 때만).</div>
+        {% elif s.feeds %}<div class="reusebox">🎥 이 컷의 클립 하나로 {% for k in s.feeds %}<a href="#{{ v.key }}-s{{ k }}">#{{ k }}</a>{% if not loop.last %}, {% endif %}{% endfor %} 도 확대해서 만듭니다 → 생성할 때 <b>길게(5~10초), 가장 넓은 구도</b>로 뽑으세요.</div>{% endif %}
         <details class="prompts"{% if loop.index <= 2 %} open{% endif %}>
           <summary>프롬프트 · 추천 모델 · 생성 설정</summary>
           <div class="pbox"><div class="plabel">① 이미지(키프레임) 프롬프트 <button class="copy" data-target="{{ v.key }}-img-{{ s.n }}">복사</button></div><pre id="{{ v.key }}-img-{{ s.n }}" data-tpl="{{ s.img_tpl }}" data-v="{{ v.key }}">{{ s.img_default }}</pre></div>
@@ -215,7 +331,7 @@ img[data-zoom] { cursor: zoom-in; }
 </section>
 
 <section class="block" id="{{ v.key }}-sound">
-  <h2><span class="num">{{ v.rank }}-6</span>사운드 (대사·BGM·효과음·믹스)</h2>
+  <h2><span class="num">{{ v.rank }}-8</span>사운드 (대사·BGM·효과음·믹스)</h2>
   <p>{{ v.an.sound.summary }}</p>
   <div class="grid2">
     <div><h3>목소리(TTS)</h3>
@@ -233,7 +349,7 @@ img[data-zoom] { cursor: zoom-in; }
 </section>
 
 <section class="block" id="{{ v.key }}-edit">
-  <h2><span class="num">{{ v.rank }}-7</span>편집: FFmpeg · HyperFrames</h2>
+  <h2><span class="num">{{ v.rank }}-9</span>편집: FFmpeg · HyperFrames</h2>
   <p>{{ v.an.edit.timeline }}</p>
   <ul class="clean">{% for r in v.an.edit.rules %}<li>{{ r }}</li>{% endfor %}</ul>
   <p style="margin-top:10px"><b>키트 파일</b> ({{ v.kit_rel }}): {% for f in v.kit_files %}<a href="{{ v.kit_rel }}/{{ f[0] }}">{{ f[0] }}</a> <span class="muted">{{ f[1] }}</span>{% if not loop.last %} · {% endif %}{% endfor %}</p>
@@ -246,20 +362,20 @@ img[data-zoom] { cursor: zoom-in; }
 </section>
 
 <section class="block" id="{{ v.key }}-tech">
-  <h2><span class="num">{{ v.rank }}-8</span>떡상 편집 기법 해설</h2>
+  <h2><span class="num">{{ v.rank }}-10</span>떡상 편집 기법 해설</h2>
   <div class="tablewrap"><table><thead><tr><th>기법</th><th>위치</th><th>설명</th></tr></thead>
   <tbody>{% for t in v.an.tech %}<tr><td><b>{{ t.t }}</b></td><td>{{ t.w }}</td><td>{{ t.d }}</td></tr>{% endfor %}</tbody></table></div>
 </section>
 
 <section class="block" id="{{ v.key }}-adapt">
-  <h2><span class="num">{{ v.rank }}-9</span>다른 동물로 바꾸기 · 생성 계획</h2>
+  <h2><span class="num">{{ v.rank }}-11</span>다른 동물로 바꾸기 · 생성 계획</h2>
   <p><b>예시 각색</b> {{ v.an.adapt.premise }}</p>
   <div class="grid2"><div><h3>그대로 지킬 것</h3><ul class="clean">{% for k in v.an.adapt.keep %}<li>{{ k }}</li>{% endfor %}</ul></div>
   <div><h3>바꿀 것</h3><ul class="clean">{% for k in v.an.adapt.change %}<li>{{ k }}</li>{% endfor %}</ul></div></div>
   {% if v.an.adapt.costume %}<p><b>의상 교체용 묘사</b> <code>{{ v.an.adapt.costume }}</code></p>{% endif %}
   <div class="tablewrap"><table><thead><tr><th>배치</th><th>컷</th><th>방법</th></tr></thead>
   <tbody>{% for b in v.an.batches %}<tr><td><b>{{ b.name }}</b></td><td>{% for n in b.shots %}<a href="#{{ v.key }}-s{{ n }}">#{{ n }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</td><td>{{ b.how }}</td></tr>{% endfor %}</tbody></table></div>
-  <p class="note" style="margin-top:10px">비용 절약: {{ v.st.n }}컷 중 <b>{{ v.st.still_n }}컷</b>은 영상 생성 없이 정지 이미지·편집 효과로 충분하고, 나머지는 배치별 5초 생성 후 잘라 쓰면 약 <b>{{ v.st.gen_est }}회 생성</b>이면 됩니다.</p>
+  <p class="note" style="margin-top:10px">비용 절약: {{ v.plan.n }}컷 = <b>영상 생성 {{ v.plan.video }}개</b> + 정지 이미지 {{ v.plan.still }}장 + 편집 효과 {{ v.plan.edit }}컷 + <b>🔁 원본 확대 재사용 {{ v.plan.reused }}컷(생성 0)</b>. 자세한 표는 <a href="#{{ v.key }}-plan">{{ v.rank }}-6 생성 절약표</a>.</p>
   <div class="tablewrap" style="margin-top:10px"><table><thead><tr><th>이 영상에 쓰는 모델</th><th>종류</th><th>사양</th><th>이럴 때</th><th class="num">추천 컷 수</th></tr></thead>
   <tbody>{% for m in v.model_rows %}<tr><td><b>{{ m.name }}</b></td><td>{{ m.kind }}</td><td>{{ m.spec }}</td><td>{{ m.best }}</td><td class="num">{{ m.count }}</td></tr>{% endfor %}</tbody></table></div>
 </section>

@@ -38,10 +38,24 @@ def copy_kits(dst_root, keys):
             "s01.mp4 ~ sNN.mp4 형식으로 컷 번호에 맞춰 AI 생성 영상을 넣으세요. (voice/sNN.wav, sfx/효과음.wav, audio/bgm.mp3 는 선택)\n")
 
 
+def run_shotlib_public(dst):
+    """샷 도감 공개판(원본 화면 없이 유튜브 해당 장면 링크) → dst/샷도감.html·md·txt"""
+    if not glob.glob(os.path.join(ROOT, "shotlib", "batches", "B[0-9][0-9].json")):
+        return False
+    r = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "build_shotlib.py"), "public", dst], capture_output=True, text=True,
+                       encoding="utf-8", errors="replace", stdin=subprocess.DEVNULL, creationflags=FLAGS, timeout=900,
+                       env={**os.environ, "PYTHONUTF8": "1"})
+    if r.returncode:
+        raise SystemExit(r.stderr[-2000:])
+    print(r.stdout.strip())
+    return True
+
+
 def public(dst):
     keys = ready_keys()
     os.makedirs(dst, exist_ok=True)
     run_onepage(dst, "public")
+    has_shotlib = run_shotlib_public(dst)
     copy_kits(dst, keys)
     data = os.path.join(dst, "분석데이터")
     os.makedirs(data, exist_ok=True)
@@ -67,6 +81,8 @@ def public(dst):
     raw = f"https://raw.githubusercontent.com/geben147-create/Insta/main/{quote(D)}/"
     ranks = [v[1:] + "위" for v in keys]
     total = sum(len(json.load(open(os.path.join(ROOT, "videos", v, "cuts.json")))["shots"]) for v in keys)
+    shot_rows = (f"| 🐹 샷 도감 (내가 고른 장면 → 샷 종류별 · 유튜브 해당 장면 링크) | [샷도감.html]({pages}{quote('샷도감.html')}) |\n"
+                 f"| 샷 도감 텍스트 | [샷도감.txt]({pages}{quote('샷도감.txt')}) |\n") if has_shotlib else ""
     readme = f"""# {D}
 
 정서불안 김햄찌(유튜브) 동영상 탭 최근 30개 중 **기간 대비 성과(일평균 조회수) Top 10** — {len(keys)}개 영상 **{total}컷 완전 분해**
@@ -78,13 +94,14 @@ def public(dst):
 | 전체 텍스트 (웹·AI가 바로 읽는 txt) | [전체분석.txt]({pages}{quote('전체분석.txt')}) |
 | 나눈 텍스트 | [개요.txt]({pages}{quote('개요.txt')}) · """ + " · ".join(f"[{r}.txt]({pages}{quote(r + '.txt')})" for r in ranks) + f""" |
 | 원문 그대로(raw) | [전체분석.md]({raw}{quote('전체분석.md')}) |
-
+{shot_rows}
 ## 한 페이지에 들어 있는 것
 - 채널 공통: Top10 · 채널 공식 · 제작 순서 · 🧸 **귀여운 모먼트 사전**(태그별 등장 수·대표 컷·이미지/움직임 프롬프트 조각) · 🔁 **같은 원본 3단 줌**(재사용 컷 통계·배율 분포·대표 줌 체인) · 🎬 **이미지·클립을 편집에 넣는 법**(FFmpeg·HyperFrames 상세) · 🔊 **효과음 사전**(종류·컷 기준 타이밍·볼륨·무료 검색어)
 - 영상별: 왜 떡상했나 · 귀여운 모먼트 · 편집 리듬 · 스토리 비트 · 자막 규격 · **생성 절약표(원본 1개로 여러 컷)** · 컷별 분석과 프롬프트 · 사운드 · 편집 키트 · 편집 기법 · 다른 동물로 바꾸기
 
 ## 폴더 구성
 - `index.html` — 위 내용 전부(동물 바꾸기 · 📋 전체 복사 · 영상별 복사)
+- `샷도감.html` — 사용자가 고른 스크린샷을 원본 컷과 1:1 대조해 샷 종류별로 모은 사전(공개판은 사진 대신 유튜브 해당 장면 링크)
 - `편집키트/N위` — edl(컷 길이·전환·**같은 원본 재사용 source/zoom/cx/cy/src_in**), captions.ass(원본 측정 자막 규격), sfx_cues.csv, build_ffmpeg.py(자동 조립·재사용 크롭·컷 안 줌·컷 검증), hyperframes/index.html, 편집프롬프트.md
 - `분석데이터` — 컷별 분석 JSON, 컷 타이밍, 소리 특징, 목소리 높이, 순위표
 - `도구` — 분석·생성 파이썬 스크립트, 분석 지침서
@@ -96,10 +113,13 @@ def public(dst):
     open(os.path.join(dst, "README.md"), "w", encoding="utf-8").write(readme)
     row = (f"| [{D}](./{quote(D)}/) | 정서불안 김햄찌(유튜브) 최근 30개 기간 대비 성과 Top10 — {len(keys)}개 영상 {total}컷 완전 분해 "
            f"(귀여운 모먼트 사전·같은 원본 3단 줌 재사용·효과음 사전·동물 바꾸기·전체/영상별 복사·이미지/영상 프롬프트·추천 모델·FFmpeg/HyperFrames 편집 키트, 원본 사진·자막은 저작권으로 비공개) | "
-           f"[한 페이지 전체]({pages}) · [텍스트 전체]({pages}{quote('전체분석.txt')}) |")
+           f"[한 페이지 전체]({pages}) · [텍스트 전체]({pages}{quote('전체분석.txt')})"
+           + (f" · [샷 도감]({pages}{quote('샷도감.html')})" if has_shotlib else "") + " |")
     open(os.path.join(dst, "..", "_row.txt"), "w", encoding="utf-8").write(row)
-    # 공개본에 이 PC의 임시 작업 경로가 남지 않게 치환
+    # 공개본에 이 PC의 작업 경로(현재 폴더·예전 임시 폴더)가 남지 않게 치환
+    import re
     root_bs, root_fs = ROOT, ROOT.replace("\\", "/")
+    scratch = re.compile(r"[A-Za-z]:[\\/]Users[\\/][^\\/\s]+[\\/]AppData[\\/]Roaming[\\/]Claude[\\/]scratch-workspaces[\\/][^\s\"'<>|]*?kimhamzzi_analysis")
     hits = 0
     for base, _, files in os.walk(dst):
         for fn in files:
@@ -107,8 +127,9 @@ def public(dst):
                 continue
             p = os.path.join(base, fn)
             s = open(p, encoding="utf-8", errors="ignore").read()
-            if root_bs in s or root_fs in s:
-                open(p, "w", encoding="utf-8").write(s.replace(root_bs, "<작업폴더>").replace(root_fs, "<작업폴더>")); hits += 1
+            t = scratch.sub("<작업폴더>", s.replace(root_bs, "<작업폴더>").replace(root_fs, "<작업폴더>"))
+            if t != s:
+                open(p, "w", encoding="utf-8").write(t); hits += 1
     print("public ready:", len(keys), "videos,", total, "shots | 경로 치환 파일", hits)
 
 

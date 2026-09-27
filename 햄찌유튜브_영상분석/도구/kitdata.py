@@ -28,9 +28,12 @@ ANIMALS = [
 ]
 
 # 주인공을 '작은 직장인'처럼 보이게 하는 공통 문구 (실사 동물 해부 구조 유지)
-# 채널의 '귀여움 기본값'(모든 주인공 프롬프트에 자동으로 붙음): 동글한 몸·짧은 팔·큰 눈·실제 천 재질 미니 소품
+# 사용자 요청(2026-09-27): 정수리 털을 작은 머리끈(기본 까만색, 대안 노란색)으로 묶어 삐죽 튀어나오게
+HAIR_TOPKNOT = ("a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up "
+                "like a baby's topknot, a few loose spiky hairs poking out")
+# 채널의 '귀여움 기본값'(모든 주인공 프롬프트에 자동으로 붙음): 동글한 몸·짧은 팔·큰 눈·실제 천 재질 미니 소품·정수리 삐죽 머리
 HERO_SUFFIX = ("about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, "
-               "soft fluffy fur, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, "
+               "soft fluffy fur, " + HAIR_TOPKNOT + ", any clothing or props are real-fabric miniatures tailored exactly to its tiny body, "
                "sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon")
 
 ACCESSORIES = [

@@ -1,0 +1,296 @@
+# 햄찌 샷 도감 — 새 에피소드 만들 때 참고하는 샷·귀여움·판매 소품 사전
+배치 B01(16장) · 스크린샷 16장 · 원본 영상 컷과 1:1 대조
+
+## 캐릭터 기본값 (모든 주인공 프롬프트 끝에 자동으로 붙음)
+about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon
+
+## 3단 줌 초근접 — 같은 원본을 1배→1.5배→3배→5배로 잘라 '탁탁탁'
+- 만드는 법: 원본 영상 1개만 가장 넓은 구도·4K로 생성 → 편집에서 1배→1.5배→3배→5배로 잘라 대사 한 문장을 2~4컷에 나눔. 컷당 0.3~0.8초, 자막은 컷마다 다음 어절. 얼굴 중심을 컷마다 살짝 옮겨 단조롭지 않게. 편집 키트가 edl.json 의 source·zoom·cx·cy 로 자동 처리
+- 프롬프트 요령: …, generated wide enough for a 5x digital zoom-in (4K), subject centered, almost static
+- 이 요소가 함께 들어간 컷: B01-06, B01-07, B01-15
+
+### B01-03 「1.여행의시작」 컷 #63 0:42.30–0:42.67 (0.37초) · MS(전신) · 동물 눈높이(바닥 가까이)
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=41s
+- 화면: 밝은 공항 터미널 바닥에 두 발로 서서 작은 은색 캐리어 손잡이를 한 손으로 잡고 멍하니 선 주인공(백팩·헤드폰), 뒤로 사람 다리들
+- 귀여운 포인트: 캐리어 손잡이 잡고 서기, 캐리어와 크기 대비, 멍한 표정
+- 자막: 'ㅇr,,,,,' — 모음을 늘여 쓴 한숨(자모 분해 자막)
+- 편집: ★ 4단 줌 체인의 원본: #63 전신(1배, 0.37초) → #64 1.53배 → #65 3.07배 → #66 5.34배, 그리고 #61(4.7배)도 같은 원본 — 영상 1개로 5컷. 자막은 컷마다 다음 어절
+- 같은 원본 줌 체인: #61 ×4.7(0.27초, 0:41.27) → #63 ×1.0(0.37초, 0:42.30) → #64 ×1.53(0.97초, 0:42.67) → #65 ×3.07(0.30초, 0:43.63) → #66 ×5.34(0.80초, 0:43.93)
+- 소품: 은색 미니 캐리어 — ★ 판매 후보 1순위: 기내용 하드 캐리어 / 미니 백팩 — 판매 후보
+- 이미지 프롬프트: Eye-level floor shot in a bright airport terminal of {HERO} standing upright on its hind legs, one tiny paw holding the extended handle of a small ribbed silver hard-shell carry-on suitcase sized to its body, a tiny navy backpack on its back, travelers' legs blurred behind, dazed expression, generated wide enough for a 5x digital zoom-in (4K), subject centered. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} stares ahead and lets out a long sigh, shoulders dropping slightly; almost static so the edit can crop 1x→1.5x→3x→5x.
+- 추천 모델: Kling 3.0 Omni > Seedance 2.0
+
+### B01-04 「1.여행의시작」 컷 #53 0:35.77–0:36.50 (0.73초) · ECU(얼굴이 화면 가득) · 정면, 렌즈에 코 박기
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=34s
+- 화면: 공항 도착 환호(#51 초대형 자막, #52 두 팔 번쩍) 직후 카메라에 얼굴을 들이밀며 공손하게 말 거는 초근접 — 두 눈·분홍 코·헤드폰 가장자리
+- 귀여운 포인트: 동그란 눈 초근접, 카메라에 코 박기, 공손한 말투와 표정 대비
+- 자막: '실례합니다~!' — 이 문장이 #53~#56 초근접 4컷에 한 어절씩 나뉨
+- 편집: 두 팔 번쩍(#52) → 초근접 4연타(#53 '실례합니다~!' #54 '도쿄를' #55 '어떻게' #56 '가시져???'), 컷당 0.4~0.7초, 컷마다 얼굴 위치를 조금씩 이동. 대표 댓글이 바로 이 구간(0:33~)을 '귀여워 죽겠다'로 지목
+- 이미지 프롬프트: Extreme close-up of {HERO}'s face pressed close to the lens in a bright airport terminal, two big round glossy black eyes, soft cream fur, a pink nose, the edges of its headwear at both sides, curious polite expression. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} leans into the lens and blinks, nose twitching, mouth moving as if speaking.
+- 추천 모델: MiniMax H3 > Hailuo 2.3
+
+### B01-05 「1.여행의시작」 컷 #43 0:28.00–0:29.23 (1.23초) · ECU(한쪽 눈·코) · 정면 초근접
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=27s
+- 화면: 버스 안, 한쪽 큰 눈과 분홍 코만 보이는 초근접 — 컷 중간에 한쪽 눈을 찡긋(윙크)하며 생각하는 척
+- 귀여운 포인트: 반짝이는 큰 눈 하나, 느린 윙크
+- 자막: '흠...' — 생각 중
+- 편집: 버스 인사 전신(#40) → 초근접 '안녕하세여'(#41) → 초근접 '...'(#42) → 윙크 초근접 '흠...'(#43, 1.23초): 초근접 3연타 마지막 컷만 길게
+- 이미지 프롬프트: Extreme close-up of one big glossy black eye and the pink nose of {HERO} inside a bus, fine fur detail, a sliver of its headwear at the frame edge. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: A slow playful wink, whiskers twitching; static camera.
+- 추천 모델: MiniMax H3 > 정지 이미지 + 편집 줌
+
+### B01-09 「1.여행의시작」 컷 #76 0:51.73–0:52.27 (0.53초) · ECU · 정면 초근접
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=50s
+- 화면: 환전을 겨우 끝내고 지친 얼굴 초근접 — 두 눈·분홍 코
+- 귀여운 포인트: 동그란 눈 + 지친 표정
+- 자막: '(에너지 다씀)' 괄호 속마음
+- 편집: 환전소 시퀀스(#69 카운터 너머 빼꼼 → #72 '엔화로' → #74~75 엔화 쟁반) 끝을 초근접 한 방(0.53초)으로 마무리 — 환전 고생이 광고 제품(해외 간편결제)이 필요한 이유
+- 소품: 엔화 쟁반 — 스토리 장치(광고 제품의 '문제')
+- 이미지 프롬프트: Extreme close-up of {HERO}'s tired face filling the frame, two big round glossy eyes slightly droopy, pink nose, soft fur, bright airport light. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} slowly blinks, eyelids heavy, a tiny sigh.
+- 추천 모델: MiniMax H3 > 정지 이미지 + 편집 줌
+
+### B01-13 「1.여행의시작」 컷 #98 1:10.23–1:11.27 (1.03초) · ECU · 정면 초근접
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=69s
+- 화면: 기내 좌석에서 정면 초근접, 멍하게 앞을 봄(이륙 직전)
+- 귀여운 포인트: 멍한 동그란 눈
+- 자막: '......' → '가나봐...'
+- 편집: 다음 #99 1.6초 암전(이륙 = 검은 화면 + 소리) → #100 창밖 야경: 초근접 멍 → 암전 → 하늘로 시간 점프
+- 이미지 프롬프트: Extreme close-up of {HERO}'s face in an airplane seat, two big round eyes staring blankly ahead, soft cabin light. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: Almost still, one slow blink as the engines rumble.
+- 추천 모델: 정지 이미지 + 편집 줌 > MiniMax H3
+
+## 하이앵글 부감 (위→아래) — 위에서 내려다봐 작은 몸·바닥·소품을 한 번에
+- 만드는 법: 사람 눈높이에서 45~90° 내려다봄 → 작은 몸과 바닥 질감, 들고 있는 소품이 한 화면에. 인사(올려다보기)·지침(누워 있기)·도착 장면에 사용
+- 프롬프트 요령: High-angle shot looking down at … / Top-down shot of …
+
+### B01-01 「1.여행의시작」 컷 #40 0:25.53–0:26.27 (0.73초) · MS(전신) · 하이앵글 약 45°
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=24s
+- 화면: 공항버스 출입문 바닥(회색 돌기 매트 + 노란 안전선)에 두 발로 선 주인공이 고개를 들어 카메라(기사님 시선)를 올려다보며 인사. 헤드폰 + 남색 미니 백팩
+- 귀여운 포인트: 올려다보는 동그란 눈, 두 발로 서기, 몸에 맞춘 미니 백팩, 사람처럼 공손한 인사
+- 자막: 흰 글씨 + 검정 외곽선 대사, 화면 아래 가운데 ('안녕하세여')
+- 편집: 다음 컷부터 초근접 3연타: #41 초근접 같은 인사 → #42 초근접 '...' → #43 한쪽 눈 초근접 윙크 '흠...' — 전신 인사 1번 뒤 얼굴로 몰아침
+- 소품: 미니 백팩 — 판매 후보: 여행용 미니 백팩 / 헤드폰 — 원본 상징 — 쓰지 말 것(대체 소품)
+- 이미지 프롬프트: High-angle shot looking down at {HERO} standing upright on the grey studded rubber floor of an airport bus doorway with a yellow safety edge strip and a yellow grab pole, a tiny navy backpack sized exactly to its body on its back, looking up into the lens with big round glossy eyes, front paws at its sides. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} looks up at the driver, gives a tiny polite bow and a small wave with one paw; slight handheld sway.
+- 추천 모델: Kling 3.0 Omni > Hailuo 2.3
+
+### B01-16 「직장인의 내적 푸념」 컷 #29 0:15.37–0:16.93 (1.57초) · MS · 위에서 수직에 가깝게(탑다운)
+- 원본 이 장면: https://www.youtube.com/watch?v=nS5t0i4KXAM&t=14s
+- 화면: 소파 쿠션 위에 벌러덩 누워 눈을 질끈 감고 남색 백팩을 배 위에 두 팔로 꼭 끌어안은 주인공(헤드폰)
+- 귀여운 포인트: 벌러덩 눕기, 가방 끌어안기, 지친 얼굴
+- 자막: 2층 자막: 상황 라벨('집에있는데도 집에가고시픔') + 자모 분해 대사('죽ㄱ게따')
+- 편집: 1.57초 — 푸념 짤 중 가장 긴 컷. 위에서 내려다봐 몸 전체와 가방이 한 번에
+- 소품: 미니 백팩 — ★ 판매 후보 — 가방 패치를 우리 로고로 바꾸면 굿즈 / 소파 쿠션 — 판매 후보
+- 이미지 프롬프트: Top-down high-angle shot of {HERO} lying flat on its back on a beige sofa cushion, eyes squeezed shut, hugging a tiny navy backpack on its round belly with both short arms, exhausted. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} squeezes the backpack tighter and wriggles with a long sigh.
+- 추천 모델: Kling 3.0 Omni > Hailuo 2.3
+
+## 뒷모습 — 동그란 뒤통수·등·가방 + 목적지를 같이
+- 만드는 법: 바닥 높이 카메라로 바로 뒤에서. 동그란 뒤통수·등·가방이 화면 아래를 채우고 앞에 목적지(인파·창밖 야경)가 보임. 대사는 설렘·다짐("나도 빨리!")
+- 프롬프트 요령: Low floor-level shot from directly behind … its round fluffy back and tiny backpack filling the lower frame
+
+### B01-02 「1.여행의시작」 컷 #67 0:44.73–0:45.30 (0.57초) · 뒷모습 CU(뒤통수~등) · 바닥 높이 로우, 바로 뒤
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=43s
+- 화면: 공항 출국장 인파 속으로 뛰어드는 뒷모습 — 동그란 뒤통수 + 헤드폰 + 손잡이 달린 검정 백팩이 화면 아래를 채우고, 앞에는 샌들·청바지 차림 사람 다리들
+- 귀여운 포인트: 동그란 뒷모습, 사람 다리 사이 작은 몸, 종종걸음으로 서두르기
+- 자막: '나도 빨리!' — 다짐형 대사
+- 편집: 다음 #68 와이드(1.4초): 캐리어 끌고 인파 속으로 달려가는 작은 몸 '앙대!' — 뒷모습 CU → 와이드로 크기 대비를 한 번에 확장
+- 소품: 손잡이 달린 미니 백팩 — 판매 후보: 여행용 백팩
+- 이미지 프롬프트: Low floor-level shot from directly behind {HERO} in a busy airport departure hall, its round fluffy head and back filling the lower frame, a tiny black backpack with a top handle on its back, blurred legs of travelers in sandals and jeans walking ahead at human scale. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} hurries forward after the crowd with quick little steps, backpack bouncing; the camera follows at floor level.
+- 추천 모델: Kling 3.0 Omni > Seedance 2.0
+
+### B01-12 「1.여행의시작」 컷 #101 1:13.80–1:14.20 (0.40초) · MS 뒷모습 · 비스듬히 뒤에서
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=72s
+- 화면: 비행기 창가에 올라앉아 창밖 도시 야경을 내려다보는 뒷모습 — 동그란 등 + 헤드폰
+- 귀여운 포인트: 동그란 뒷모습, 창밖 구경하는 몸짓
+- 자막: '요쓰요쓰' — 같은 대사를 두 컷(#101·#102)에 반복
+- 편집: 옆모습 '떴당..!'(#100) → 뒷모습(#101) → 다른 각도(#102): 같은 순간을 세 각도로 0.3~0.9초씩
+- 이미지 프롬프트: Back view of {HERO} perched by an airplane window at night, its round fluffy back to the camera, looking down at glittering city lights far below, soft cabin light. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} presses closer to the window and wiggles happily.
+- 추천 모델: Kling 3.0 Omni > Seedance 2.0
+
+## 현실 속 작은 몸 (크기 대비) — 사람 다리·캐리어·가구 옆 실제 크기
+- 만드는 법: 동물 눈높이 카메라, 배경 사람은 다리만(얼굴 안 보이게) 흐리게. 실제 크기 소품(캐리어·가방)과 나란히 → 귀여움 + 현실감
+- 프롬프트 요령: … at real animal scale, blurred legs of people walking past at human scale
+- 이 요소가 함께 들어간 컷: B01-01, B01-02, B01-03, B01-08
+
+## 소품 디테일 (여권·캐리어 들기) — 몸만 한 진짜 소품을 들어 보이기 — 판매 상품 노출 1순위
+- 만드는 법: 소품 초근접 → 얼굴 → 전체 순서로 공개(1편 #79→#80→#81). 소품은 동물 몸에 맞춘 실제 질감. 판매할 상품이면 실제 제품 사진을 참조 이미지로
+- 프롬프트 요령: … proudly holding up a real … almost as big as its body
+- 이 요소가 함께 들어간 컷: B01-03
+
+### B01-08 「1.여행의시작」 컷 #81 0:54.93–0:56.20 (1.27초) · MS · 눈높이, 무빙워크 원근선
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=53s
+- 화면: 공항 무빙워크 위에서 남색 여권(탑승권 꽂힘)을 한 손으로 들어 보이며 뿌듯 — 여권이 몸통만 함
+- 귀여운 포인트: 몸만 한 여권 들기, 뿌듯한 표정
+- 자막: '(괜히 뿌듯)' 괄호 속마음 → 같은 컷 안에서 '수속도 했구~'로 교체
+- 편집: 공개 순서가 거꾸로: #79 여권 초근접(원본 2.88배 크롭) → #80 얼굴 초근접 → #81 전체(원본) — 소품 → 얼굴 → 전체
+- 같은 원본 줌 체인: #79 ×2.88(0.53초, 0:53.90) → #81 ×1.0(1.27초, 0:54.93)
+- 소품: 여권 — 판매 대상 아님 / 여권 케이스·여권 지갑 — ★ 판매 후보(여권 대신 케이스를 보이게)
+- 이미지 프롬프트: {HERO} riding an airport moving walkway, proudly holding up a navy-blue passport with a boarding pass tucked inside, the passport almost as big as its body, a tiny backpack on its back, glass railings and perspective lines receding behind. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} lifts the passport a little higher with a proud nod while the walkway glides forward.
+- 추천 모델: Kling 3.0 Omni > Hailuo 2.3
+
+## 물건 끌어안기 — 짧은 팔로 가방·베개를 꼭
+- 만드는 법: 지침·위로 감정. 하이앵글·누워 있기와 궁합. 가방 패치에 자체 로고 → 굿즈로 연결 가능
+- 프롬프트 요령: … hugging a tiny … on its round belly with both short arms
+- 이 요소가 함께 들어간 컷: B01-16
+
+## 앞발 제스처 (입 가리기·모으기) — 놀람=입 가리기, 설렘·긴장=가슴 앞 모으기
+- 만드는 법: 입 가리기(놀람·걱정·들킴), 가슴 앞 모으기(설렘·긴장), 턱 괴기(생각). 볼이 빵빵해지게 앞발을 볼에 밀착
+- 프롬프트 요령: both tiny paws pressed over its mouth, cheeks puffed / both tiny paws clasped together at its chest
+- 이 요소가 함께 들어간 컷: B01-14
+
+### B01-06 「1.여행의시작」 컷 #93 1:05.87–1:06.87 (1.00초) · MS · 눈높이 3/4 측면
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=64s
+- 화면: 비행기 창가 좌석에 앉아 진짜 안전벨트(검정 끈 + 금속 버클)를 맨 채 두 앞발을 가슴 앞에 꼭 모으고 설렘·긴장. 앞 컷 #92는 앞발로 버클 채우는 인서트
+- 귀여운 포인트: 앞발 가슴 앞에 모으기, 안전벨트 맨 작은 몸, 설렘 옹알이
+- 자막: '호요용요ㅛ요,,,...' — 설렘 옹알이를 자모로 늘임
+- 편집: 버클 인서트(#92, 0.63초) → 원본 MS(#93, 1.0초) → 1.74배 '진짜..'(#94) → 3.66배 침 삼킴 '끄ㅜㄹ꺽'(#95): 같은 원본 3단 줌
+- 같은 원본 줌 체인: #93 ×1.0(1.00초, 1:05.87) → #94 ×1.74(1.03초, 1:06.87) → #95 ×3.66(1.03초, 1:07.90)
+- 소품: 기내 목베개·담요 — 판매 후보(이 장면에 추가하기 좋음) / 안전벨트 — 판매 대상 아님
+- 이미지 프롬프트: Eye-level three-quarter shot of {HERO} sitting upright in an airplane window seat, a real airplane seatbelt with a metal buckle fastened across its tiny lap, both tiny paws clasped together at its chest, nervous-excited face, the cabin window softly lit behind, generated wide enough for a 3.7x crop. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} rubs its tiny paws together nervously, gulps and wiggles slightly as the plane taxis.
+- 추천 모델: Kling 3.0 Omni > Hailuo 2.3
+
+## 셀카·브이로그 (REC 화면) — 카메라에 말 걸기 + 캠코더 REC 오버레이
+- 만드는 법: 정면 CU로 카메라에 말함 + 편집에서 REC 캠코더 오버레이(REC·배터리·30fps·모서리 괄호). 한 클립(약 7~8초)을 1.0배/1.27배로 번갈아 잘라 8컷 점프컷(1편 #84~#91)
+- 프롬프트 요령: Selfie-style close-up of … talking straight into the camera, handheld vlog feel
+
+### B01-07 「1.여행의시작」 컷 #87 1:00.17–1:01.50 (1.33초) · CU · 정면 셀카(눈높이)
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=59s
+- 화면: 탑승구 의자에서 셀카 브이로그 — 캠코더 화면(REC□ · RAW 16:9[F] HD · 배터리 막대 · 30fps · 모서리 괄호) 안에서 카메라에 말하는 주인공, 옆에 남색 백팩
+- 귀여운 포인트: 카메라에 말 거는 입·볼, 시청자 호칭으로 인사
+- 자막: 브이로그 말투 — '나 도쿄 여행가려구'
+- 편집: ★ #84~#91 8컷이 전부 같은 클립(1.0배/1.27배 번갈아) — 7초 남짓 영상 1개를 점프컷 8개로. REC 오버레이는 편집(HyperFrames)에서 얹음
+- 같은 원본 줌 체인: #84 ×1.27(0.80초, 0:57.87) → #85 ×1.27(0.60초, 0:58.67) → #86 ×1.27(0.90초, 0:59.27) → #87 ×1.0(1.33초, 1:00.17) → #88 ×1.27(1.03초, 1:01.50) → #89 ×1.0(1.63초, 1:02.53) → #90 ×1.27(0.47초, 1:04.17) → #91 ×1.27(0.60초, 1:04.63)
+- 소품: 셀카 폰 — 판매 후보: 폰케이스·미니 삼각대/셀카봉 / 백팩 — 판매 후보
+- 이미지 프롬프트: Selfie-style close-up of {HERO} talking straight into the camera at an airport departure gate, grey gate seats and a tiny navy backpack beside it, soft daylight, handheld vlog feel. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} chatters happily to the camera with little head bobs; handheld micro-shake. Generate about 8 seconds so the edit can cut 8 jump-cuts.
+- 추천 모델: Kling 3.0 > Veo 3.1
+
+## 프레임 속 프레임 (창문·틀) — 창틀 안의 얼굴·뒷모습 — 감정 절정
+- 만드는 법: 창틀·문틀로 얼굴을 한 번 더 감쌈. 따뜻한 조명, 에피소드에서 가장 긴 컷(약 2초)으로 숨 고르기 후 ECU 3연타로 엔딩
+- 프롬프트 요령: Frame-within-a-frame close-up of … framed by the rounded bezel of a window
+- 이 요소가 함께 들어간 컷: B01-12
+
+### B01-11 「1.여행의시작」 컷 #105 1:16.37–1:18.37 (2.00초) · MCU · 눈높이, 창틀 안
+- 원본 이 장면: https://www.youtube.com/watch?v=cYQeP3zFY4s&t=75s
+- 화면: 밤 비행기, 둥근 창틀 안에 쏙 들어앉은 얼굴 — 따뜻한 금빛 기내 조명
+- 귀여운 포인트: 틀 속 동그란 얼굴, 감격한 눈빛
+- 자막: '드디어...' → 같은 컷 안에서 '(실감나기 시작)'
+- 편집: 에피소드에서 가장 긴 컷(2.0초)으로 숨 고르기 → #106~#108 초근접 '간다!!' '간다!!' '다음화에' 3연타로 엔딩
+- 이미지 프롬프트: Frame-within-a-frame close-up of {HERO} framed by the rounded bezel of an airplane cabin window at night, warm golden cabin light on its face, emotional 'finally' expression. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} lets out a small breath, eyes glistening, a tiny smile forming.
+- 추천 모델: Kling 3.0 Omni > MiniMax H3
+
+## 졸림·잠 — 담요 속 잠든 얼굴 + 담요 위 작은 앞발
+- 만드는 법: 눈 감은 미소, 담요 가장자리에 앞발 두 개. 정수리 삐죽 머리(머리끈)가 가장 잘 보이는 구도
+- 프롬프트 요령: … fast asleep tucked under a fluffy blanket, two tiny paws resting on the blanket edge
+
+### B01-15 「직장인의 내적 푸념」 컷 #32 0:19.27–0:19.97 (0.70초) · CU · 눈높이 초근접
+- 원본 이 장면: https://www.youtube.com/watch?v=nS5t0i4KXAM&t=18s
+- 화면: 푹신한 베이지 담요 속 잠든 얼굴 — 눈 감은 미소, 담요 가장자리에 작은 앞발 두 개, 정수리에 작게 묶은 털
+- 귀여운 포인트: 잠든 얼굴, 담요 위 작은 앞발, ★ 정수리 삐죽 머리(묶은 털)
+- 자막: '...' (말줄임만)
+- 편집: #31 원본 → #32 1.85배 확대(같은 원본 2단 줌)
+- 같은 원본 줌 체인: #31 ×1.0(1.37초, 0:17.90) → #32 ×1.85(0.70초, 0:19.27) → #33 ×1.12(0.43초, 0:19.97) → #34 ×4.15(0.63초, 0:20.40) → #35 ×1.05(0.33초, 0:21.03)
+- 소품: 담요 — 판매 후보: 극세사 담요 / 머리끈 — 캐릭터 굿즈 후보
+- 이미지 프롬프트: Close-up of {HERO} fast asleep tucked under a fluffy beige blanket, eyes closed in a blissful smile, two tiny paws resting on the blanket edge, a little tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} breathes slowly, paws twitching once in its sleep.
+- 추천 모델: Kling 3.0 Omni > 정지 이미지 + 편집 줌
+
+## POV 훔쳐보기 + 느린 푸시인 — 흐린 전경 너머 → 초점 맞으며 5초 다가가기
+- 만드는 법: 파티션·모니터 가장자리 너머로 흐리게 시작 → 초점이 주인공에 맞으며 5초 동안 천천히 다가감. 빠른 컷 대신 한 번의 느린 움직임으로 '서늘함'(쇼츠 7초 구조)
+- 프롬프트 요령: Starts out of focus through a dark foreground edge, focus racks onto …; slow continuous push-in
+
+### B01-14 「등골이 서늘한 그 찰나」 컷 #3 0:01.30–0:06.83 (5.53초) · CU(푸시인 끝) · 책상 높이, 앞쪽 흐린 전경 너머
+- 원본 이 장면: https://www.youtube.com/watch?v=5b7uCsHSOhg&t=0s
+- 화면: 세로 쇼츠('POV.' + 노란 핵심 문장). 사무실 책상: 흰 키보드 너머 두 앞발로 입을 가린 주인공, 오른쪽에 투명 아이스 음료 컵 + 검정 빨대
+- 귀여운 포인트: 앞발로 입 가리기, 볼 빵빵, 들킨 듯 굳기
+- 자막: 제목이 상황을 다 설명 — 영상 속 자막 없음
+- 편집: ★ 7초 = 0.1초 썸네일(#1) + 1.2초 파티션 너머 훔쳐보는 와이드(#2) + 5.5초 롱테이크(#3: 흐림 → 초점 → 느린 푸시인). 스크린샷은 약 3.8초 지점
+- 같은 원본 줌 체인: #2 ×1.0(1.20초, 0:00.10) → #3 ×1.0(5.53초, 0:01.30)
+- 소품: 키보드 — 판매 후보(데스크테리어) / 아이스 음료 컵 — 판매 후보: 텀블러·아이스컵
+- 이미지 프롬프트: Desk-level shot of {HERO} sitting behind a white computer keyboard at an office desk, both tiny paws pressed over its mouth in sudden alarm, cheeks puffed, a clear iced-drink cup with a black straw on the right. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 9:16 vertical. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: Starts out of focus through a dark partition edge, then focus racks onto the {ANIMAL}; slow continuous push-in over 5 seconds while it freezes with paws over its mouth.
+- 추천 모델: Seedance 2.5 > Kling 3.0
+
+## 쇼츠 레이아웃 — 검은 배경 + 2줄 제목(흰/노랑) + 가운데 영상 + 채널명
+- 만드는 법: 가로 영상을 세로 쇼츠로 재가공: 1080×1920 검은 배경, 위 2줄 제목(1줄 흰색·2줄 노란색, 초굵은 글씨), 가운데 영상 박스, 아래 채널명. 첫 0.1초는 썸네일 이미지 번쩍
+- 프롬프트 요령: (편집 레이아웃 — 생성 프롬프트 없음)
+- 이 요소가 함께 들어간 컷: B01-14, B01-15, B01-16
+
+### B01-10 「직장인의 내적 푸념」 컷 #4 0:01.10–0:02.00 (0.90초) · CU · 눈높이
+- 원본 이 장면: https://www.youtube.com/watch?v=nS5t0i4KXAM&t=0s
+- 화면: 세로 쇼츠 레이아웃(검은 배경 + 위 2줄 제목 흰/노랑 + 가운데 영상 + 아래 채널명). 영상: 한여름 거리, 사람 엄지(엄지척)가 볼 옆에 올라온 채 찡그린 주인공
+- 귀여운 포인트: 찡그린 표정, 사람 엄지와 크기 대비
+- 자막: 2층 자막: 회색 반투명 상황 라벨('환멸나는 날씨') + 흰 대사('더워 뒤지겠네')
+- 편집: #3 원본 → #4 1.74배 확대 — 짤 한 장면도 2단 줌으로 두 번 씀
+- 같은 원본 줌 체인: #3 ×1.0(0.47초, 0:00.63) → #4 ×1.74(0.90초, 0:01.10)
+- 이미지 프롬프트: Close-up of {HERO} on a scorching summer city street, squinting with a grumpy-smug face, a human thumb raised in a thumbs-up right next to its cheek for scale, heat haze. photorealistic live-action look as if a real tiny animal was filmed on location, cinematic shallow depth of field, natural light, crisp fur detail, 16:9. Character details: about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, soft fluffy fur, a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up like a baby's topknot, a few loose spiky hairs poking out, any clothing or props are real-fabric miniatures tailored exactly to its tiny body, sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon. The animal must match the character reference sheet exactly.
+- 영상 프롬프트: The {ANIMAL} squints harder in the heat, cheeks twitching; the thumb gives a tiny wiggle.
+- 추천 모델: Hailuo 2.3 > Kling 3.0
+
+## 사람 손과 상호작용 — 사람 손가락·엄지가 들어와 크기 대비
+- 만드는 법: 사람은 손·팔만 프레임에 들어옴(얼굴 없음). 엄지척·볼 콕·손바닥 위 등으로 크기 대비와 스킨십
+- 프롬프트 요령: … a human thumb raised right next to its cheek for scale
+- 이 요소가 함께 들어간 컷: B01-10
+
+## 에피소드 「1.여행의시작」 https://www.youtube.com/watch?v=cYQeP3zFY4s
+- 가로 16:9 · 81초 · 햄찌여행(도쿄) 3부작 1편 — 카카오페이 해외결제 유료광고 시리즈(#유료광고)
+- 조회수 901,748 · 좋아요 23,120 · 댓글 1,700 · 2025-08-01 업로드
+- 110컷 · 평균 0.74초 · 같은 원본 확대 재사용 38컷(35%) · 3단 이상 줌 체인 7개
+- AI: Sora / Hailuo Premium / Kling · BGM: CapCut sound / Suno (설명란 공개)
+  - 0:00 썸네일 0.1초 번쩍(제목 '여행의 시작' + 두 팔 번쩍 환호)
+  - 0:00–0:10 사무실: 휴가 달력 → '오후부터 휴가' → 동료 '환전은?' → 동료 손에 든 폰 화면으로 결제 앱 등장(1.1초, 광고 제품)
+  - 0:10–0:22 퇴근 인사 · 동료의 기념품 부탁 '올 때.. 바나나빵..!'(일본 명물 과자 훅)
+  - 0:22–0:32 캐리어 끌고 공항버스 탑승 '으쌰' → 기사님께 인사 → 창가 '나도 이제 어른인가..'
+  - 0:32–0:47 공항 도착 환호(초대형 자막) → 초근접 4컷으로 한 문장 쪼개기 → 인파 속 4단 줌 → 뒷모습 '나도 빨리!'
+  - 0:47–0:53 환전소: 카운터 너머 빼꼼 → 엔화 쟁반 → '(에너지 다씀)' — 환전 고생 = 광고 제품이 필요한 이유
+  - 0:53–1:03 출국 수속: 여권 들고 무빙워크 '(괜히 뿌듯)' → 탑승구 REC 브이로그 8컷(한 클립)
+  - 1:03–1:12 기내: 벨트 버클 인서트 → 앞발 모으고 설렘 옹알이 → 3단 줌 '끄ㅜㄹ꺽' → 1.6초 암전(이륙)
+  - 1:12–1:21 밤하늘: 창밖 야경 뒷모습 '요쓰요쓰' → 창틀 속 '드디어...'(2초, 가장 긴 컷) → 초근접 '간다!!' ×2 → '다음화에' → 클래퍼보드 아웃트로
+- 광고 구조: 1편은 '문제 제기'(환전 안 함 → 동료가 결제 앱 제안 → 그래도 환전소에서 고생)만 보여 주고, 해결(해외 매장 결제)은 3편 쇼핑에서 — 3부작 전체가 하나의 광고 아크
+- 제품 노출은 단 1.1초(동료 손에 든 폰 화면) — 광고처럼 안 보이게 대화 속 '해결 아이디어'로 등장
+- 대표 댓글이 0:33(공항 도착 환호→초근접) 구간을 '너무 웃겨, 귀여워 죽겠다'로 지목 → 이 편의 최고 반응 구간
+- 사람(동료)은 늘 가슴 아래·손만 — 얼굴 없음. 기도하는 손 '바나나빵..!' 부탁처럼 손 연기로 감정 전달
+
+## 에피소드 「직장인의 내적 푸념」 https://www.youtube.com/watch?v=nS5t0i4KXAM
+- 가로판 21초(분석용) · 폰에서 본 것은 세로 쇼츠판(103만 회) · 일상 짤 모음 — 같은 내용을 가로판과 세로 쇼츠판(검은 배경+2줄 제목)으로 따로 올림
+- 가로판 조회수 약 21.9만 · 세로 쇼츠판 103만(사용자 폰 화면 기준)
+- 35컷 · 평균 0.61초 · 같은 원본 확대 재사용 10컷
+- 설명란 확인 필요
+  - 짧은 푸념 짤을 0.5~1.5초씩 이어 붙임: 더위 '더워 뒤지겠네' → 소파에 가방 끌어안고 벌러덩 '죽ㄱ게따' → 담요 속 잠든 얼굴 '...'
+- 상황 라벨(회색 반투명 박스) + 흰 대사의 2층 자막 — 라벨이 '상황', 대사가 '속마음'
+- 세로 쇼츠판은 위 2줄 제목이 영상 전체의 한 줄 요약('하루 종일 내적으로 / 찡찡거리는 중')
+
+## 에피소드 「등골이 서늘한 그 찰나」 https://www.youtube.com/shorts/5b7uCsHSOhg
+- 세로 쇼츠 · 7초 · 직장 공감 쇼츠
+- 조회수 1,091,315 · 좋아요 18,707 · 2026-07-28 업로드
+- 3컷 — 0.1초 썸네일 번쩍 + 1.2초 훔쳐보기 와이드 + 5.5초 롱테이크(흐림→초점→느린 푸시인)
+- AI: GPT2 / Nano Banana / Kling 3.0 / Seedance 2.0 · 소리: CapCut sound / Suno / ElevenLabs (설명란 공개) — 현재 채널이 쓰는 도구
+  - 0.0 썸네일(제목 다른 버전) 0.1초
+  - 0.1–1.3 파티션 너머 멀리서 훔쳐보는 와이드(POV)
+  - 1.3–6.8 흐린 전경 → 초점이 주인공에 → 5초 느린 푸시인, 앞발로 입 가린 채 굳음
+- 7초 안에 컷은 사실상 2개 — '빠른 컷'이 아니라 '느린 한 번'으로 서늘함을 만듦(롱폼과 정반대 리듬)
+- 제목 1줄 'POV.' + 2줄 노란 핵심 문장 — 상황 설명을 제목이 다 해 주므로 영상엔 자막 거의 없음
+
+## 판매 소품 후보 (이번 배치에서 나온 것)
+| 소품 | 메모 | 나온 컷 |
+|---|---|---|
+| 미니 백팩 | 판매 후보: 여행용 미니 백팩 | B01-01, B01-03, B01-16 |
+| 손잡이 달린 미니 백팩 | 판매 후보: 여행용 백팩 | B01-02 |
+| 은색 미니 캐리어 | ★ 판매 후보 1순위: 기내용 하드 캐리어 | B01-03 |
+| 기내 목베개·담요 | 판매 후보(이 장면에 추가하기 좋음) | B01-06 |
+| 셀카 폰 | 판매 후보: 폰케이스·미니 삼각대/셀카봉 | B01-07 |
+| 백팩 | 판매 후보 | B01-07 |
+| 여권 케이스·여권 지갑 | ★ 판매 후보(여권 대신 케이스를 보이게) | B01-08 |
+| 키보드 | 판매 후보(데스크테리어) | B01-14 |
+| 아이스 음료 컵 | 판매 후보: 텀블러·아이스컵 | B01-14 |
+| 담요 | 판매 후보: 극세사 담요 | B01-15 |
+| 소파 쿠션 | 판매 후보 | B01-16 |

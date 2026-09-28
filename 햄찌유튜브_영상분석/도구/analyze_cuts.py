@@ -2,7 +2,7 @@
 사용: python tools/analyze_cuts.py videos/v1"""
 import sys, json, os
 import cv2, numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 vdir = sys.argv[1]
 src = os.path.join(vdir, 'src.mp4')
@@ -61,7 +61,8 @@ for s in shots:
     picks = {'a': min(a + 2, b), 'm': (a + b) // 2, 'z': max(b - 2, a)}
     for tag, fi in picks.items():
         im = Image.fromarray(grab(fi))
-        im.resize((960, 540), Image.LANCZOS).save(os.path.join(vdir, 'shots', f"s{s['idx']:02d}_{tag}.jpg"), quality=86)
+        # 비율 유지(16:9 는 그대로 960×540, 쇼츠 영상 칸 4:3 은 736×540) — 늘어난 프레임은 스크린샷 대조를 망침
+        ImageOps.contain(im, (960, 540), Image.LANCZOS).save(os.path.join(vdir, 'shots', f"s{s['idx']:02d}_{tag}.jpg"), quality=86)
 cap.release()
 
 # 콘택트시트 (검토용): 6샷/장, 행 = 샷(시작·중간·끝)
@@ -79,8 +80,8 @@ for page in range(0, len(shots), 6):
         y = r * (TH + LH)
         d.text((8, y + 3), f"#{s['idx']:02d}  {s['t_in']:.2f}s → {s['t_out']:.2f}s  ({s['dur']:.2f}s)   [시작 | 중간 | 끝]", fill=(255, 220, 0), font=font)
         for c, tag in enumerate('amz'):
-            im = Image.open(os.path.join(vdir, 'shots', f"s{s['idx']:02d}_{tag}.jpg")).resize((TW - 4, TH - 4))
-            sheet.paste(im, (c * TW + 2, y + LH + 2))
+            im = ImageOps.contain(Image.open(os.path.join(vdir, 'shots', f"s{s['idx']:02d}_{tag}.jpg")), (TW - 4, TH - 4))
+            sheet.paste(im, (c * TW + 2 + (TW - 4 - im.width) // 2, y + LH + 2 + (TH - 4 - im.height) // 2))
     sheet.save(os.path.join(vdir, 'sheets', f"sheet_{page // 6 + 1:02d}.jpg"), quality=85)
 print(f"{vdir}: fps={fps} frames={n} thr={thr:.2f} shots={len(shots)}")
 for s in shots:

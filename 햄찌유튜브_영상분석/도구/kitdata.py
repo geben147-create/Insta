@@ -31,9 +31,14 @@ ANIMALS = [
 # 사용자 요청(2026-09-27): 정수리 털을 작은 머리끈(기본 까만색, 대안 노란색)으로 묶어 삐죽 튀어나오게
 HAIR_TOPKNOT = ("a tiny tuft of fur on top of its head tied up with a tiny black hair elastic so it sticks straight up "
                 "like a baby's topknot, a few loose spiky hairs poking out")
-# 채널의 '귀여움 기본값'(모든 주인공 프롬프트에 자동으로 붙음): 동글한 몸·짧은 팔·큰 눈·실제 천 재질 미니 소품·정수리 삐죽 머리
+# 사용자 요청(2026-09-27 B02): 내 캐릭터는 동그란 엉덩이에 조그만 하트 모양 꼬리가 있음(뒷모습에서 보이게)
+HEART_TAIL = "a tiny fluffy heart-shaped tail on its round little bottom"
+# 사용자 요청(2026-09-27 B02): '귀엽게' 하면 촌스러워질 때가 있음 → 실제 반려동물 사진 같은 담백한 귀여움으로
+CUTE_LOOK = ("cute in a natural, understated way like a real pet photo, soft natural colors, "
+             "no cartoon sparkles, no exaggerated kawaii styling, no glossy plastic look")
+# 채널의 '귀여움 기본값'(모든 주인공 프롬프트에 자동으로 붙음): 동글한 몸·짧은 팔·큰 눈·실제 천 재질 미니 소품·정수리 삐죽 머리·하트 꼬리
 HERO_SUFFIX = ("about 20 cm tall, chubby round body, short stubby arms with tiny paws, big round glossy eyes with bright catchlights, "
-               "soft fluffy fur, " + HAIR_TOPKNOT + ", any clothing or props are real-fabric miniatures tailored exactly to its tiny body, "
+               "soft fluffy fur, " + HAIR_TOPKNOT + ", " + HEART_TAIL + ", any clothing or props are real-fabric miniatures tailored exactly to its tiny body, "
                "sitting or standing upright like a tiny office worker, realistic animal anatomy, not a cartoon")
 
 ACCESSORIES = [

@@ -59,7 +59,8 @@ def main(batch, pairs):
                 for ch in g["chains"]:
                     if ch["source"] == m["source"] and any(x["n"] == n for x in ch["shots"]):
                         chain = [{"n": x["n"], "zoom": x["zoom"], "dur": x["dur"]} for x in ch["shots"]]
-        out.append({"no": i, "file": path, "video": vid, "shot": n, "t_in": shot["t_in"], "t_out": shot["t_out"], "dur": shot["dur"],
+        stem = os.path.splitext(os.path.basename(path))[0]  # 파일 이름 = 통번호(inbox_sheets.py)
+        out.append({"no": int(stem) if stem.isdigit() else i, "file": path, "video": vid, "shot": n, "t_in": shot["t_in"], "t_out": shot["t_out"], "dur": shot["dur"],
                     "time": f"{fmt(shot['t_in'])}–{fmt(shot['t_out'])}", "matched_frame": {"a": "시작", "m": "중간", "z": "끝"}[where],
                     "inliers": score, "reuse": m, "chain": chain})
         print(f"{i:02d} {os.path.basename(path)} -> {vid} #{n:03d} {fmt(shot['t_in'])}-{fmt(shot['t_out'])} ({where}) inliers={score}"

@@ -28,6 +28,7 @@ img[data-zoom] { cursor: zoom-in; }
 .chainstrip figure { margin: 0; text-align: center; font-size: .72rem; color: var(--muted); }
 .chainstrip img { width: 92px; border-radius: 6px; display: block; }
 .chainstrip figure.me img { outline: 3px solid var(--accent); }
+.facts dd.memo { background: color-mix(in srgb, var(--accent) 12%, transparent); border-left: 3px solid var(--accent); padding: 4px 8px; border-radius: 4px; }
 .recipe { background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 10px 0 14px; }
 .cutstrip { display: flex; gap: 3px; flex-wrap: wrap; }
 .cutstrip figure { margin: 0; width: 96px; font-size: .68rem; color: var(--muted); text-align: center; }
@@ -119,6 +120,7 @@ img[data-zoom] { cursor: zoom-in; }
         </div>
         <div>
           <dl class="facts">
+            {% if e.memo %}<dt>⭐ 내 메모</dt><dd class="memo">{{ e.memo }}</dd>{% endif %}
             <dt>화면</dt><dd>{{ e.what }}</dd>
             <dt>귀여운 포인트</dt><dd>{% for c2 in e.cute %}<span class="chip cute">🧸 {{ c2 }}</span> {% endfor %}</dd>
             <dt>자막</dt><dd>{{ e.caption }}</dd>
@@ -160,6 +162,13 @@ img[data-zoom] { cursor: zoom-in; }
     <li><b>3편 '해결'</b>: 쇼핑 편(설명란: "지금 안 사면 언제 사") — 해외 매장에서 간편결제로 해결하는 구조(설명란 링크 + #유료광고 표기)</li>
     <li><b>기념품 훅</b>: 1편에서 동료가 "올 때.. 바나나빵..!"(일본 명물 과자)을 부탁 → 쇼핑 편으로 가는 이유를 미리 심어 둠</li>
     <li>교훈: <b>광고 제품은 스토리의 '해결사'로 1개</b>, 노출은 짧게, 여러 편에 걸쳐 문제→해결 아크</li>
+  </ul>
+  <h3 style="margin-top:14px">인생사 새옹지마 = 스포티파이 '포춘 쿠키 믹스' 유료광고 (쇼츠판 1,269만 회)</h3>
+  <ul class="clean">
+    <li><b>광고가 이야기의 계기</b>: 기획안 반려 → 주인공이 직접 폰으로 '오늘의 운세'(광고 제품)를 열고 → 운세를 믿고 상상 여행. 운세가 영상에서 3번 등장(포춘쿠키 오픈 → 두 번째 쿠키 → 옥상의 마지막 운세)</li>
+    <li><b>협찬 배지</b>: 오른쪽 위 작은 플레이리스트 카드가 장면 분위기마다 바뀌며 영상 내내 떠 있음 + 마지막 엔드카드 + 설명란 이벤트 링크(#유료광고)</li>
+    <li><b>폰 화면 = 돈 버는 자리</b>: 제품을 주인공 폰 화면 속 콘텐츠로 합성 → 광고처럼 안 보이면서 1~1.5초씩 여러 번 노출(샷 종류 '폰 화면 속 유행 콘텐츠')</li>
+    <li>교훈: 실물 상품은 옷·모자·소품으로(판매 링크), 앱·서비스 협찬은 폰 화면으로 — 둘을 한 에피소드에 같이 넣을 수 있음</li>
   </ul>
   <h3 style="margin-top:14px">이번 배치에서 나온 판매 후보 소품</h3>
   <div class="tablewrap"><table><thead><tr><th>소품</th><th>메모</th><th>잘 보이는 컷</th></tr></thead>

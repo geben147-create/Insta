@@ -7,7 +7,7 @@ from collections import Counter, OrderedDict
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from kitdata import ANIMALS, ACCESSORIES, MODELS, NEGATIVE, HERO_SUFFIX, HAIR_TOPKNOT  # noqa: E402
+from kitdata import ANIMALS, ACCESSORIES, MODELS, NEGATIVE, HERO_SUFFIX, HAIR_TOPKNOT, CUTE_LOOK  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIB = os.path.join(ROOT, "shotlib")
@@ -36,7 +36,7 @@ def frame(vid, t, out):
 
 
 def compose(prompt, vertical):
-    return (re.sub(r"[.\s]+$", "", prompt) + ". " + LOOK + (", 9:16 vertical" if vertical else ", 16:9") +
+    return (re.sub(r"[.\s]+$", "", prompt) + ". " + LOOK + ", " + CUTE_LOOK + (", 9:16 vertical" if vertical else ", 16:9") +
             ". Character details: " + HERO_SUFFIX + ". The animal must match the character reference sheet exactly.")
 
 
@@ -72,7 +72,7 @@ def main(mode="private", out=LIB):
             cuts = {s["idx"]: s for s in jload(os.path.join(vdir, "cuts.json"))["shots"]}
             cut = cuts[e["cut"]]
             zg = jload(os.path.join(vdir, "zoom_groups.json")) if os.path.exists(os.path.join(vdir, "zoom_groups.json")) else {}
-            reuse, chain = chain_of(zg, e["cut"])
+            reuse, chain = (None, None) if e.get("no_chain") else chain_of(zg, e["cut"])  # no_chain: 자동 줌 탐지가 틀린 컷
             t = e.get("t", (cut["t_in"] + cut["t_out"]) / 2)
             vertical = eps.get(vid, {}).get("format", "").startswith("세로")
             chain_items = [dict(x, yt=yt(vid, cuts[x["n"]]["t_in"]), at=fmt(cuts[x["n"]]["t_in"]),
@@ -83,7 +83,7 @@ def main(mode="private", out=LIB):
                                 frame_img=None if public else frame(vid, t, os.path.join(LIB, "frames", vid, f"c{e['cut']:03d}_m.jpg")),
                                 yt=yt(vid, cut["t_in"]), at=fmt(cut["t_in"]),
                                 time=f"{fmt(cut['t_in'])}–{fmt(cut['t_out'])}", dur=cut["dur"], reuse=reuse, chain=chain_items,
-                                prompt_full=compose(e["prompt"], vertical), model_names=[MODELS[m]["name"] for m in e["models"] if m in MODELS]))
+                                prompt_full=e["prompt"] if e.get("graphic") else compose(e["prompt"], vertical), model_names=[MODELS[m]["name"] for m in e["models"] if m in MODELS]))
     # 샷 종류별 장: 주 분류 = types[0], 다른 장에는 '함께 해당' 링크만
     chapters = []
     for t in tax:
@@ -135,6 +135,7 @@ def render_md(batches, entries, chapters, ep_list, sell):
         for e in c["primary"]:
             L += [f"\n### {e['id']} 「{e['ep']}」 컷 #{e['cut']} {e['time']} ({e['dur']:.2f}초) · {e['size']} · {e['angle']}",
                   f"- 원본 이 장면: {e['yt']}",
+                  *([f"- ⭐ 내 메모: {e['memo']}"] if e.get("memo") else []),
                   f"- 화면: {e['what']}", f"- 귀여운 포인트: {', '.join(e['cute'])}", f"- 자막: {e['caption']}", f"- 편집: {e['edit']}"]
             if e["chain"]:
                 L.append("- 같은 원본 줌 체인: " + " → ".join(f"#{x['n']} ×{x['zoom']}({x['dur']:.2f}초, {x['at']})" for x in e["chain"]))

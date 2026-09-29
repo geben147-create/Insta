@@ -1,0 +1,131 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Box,Arial,52,&H00FFFFFF,&H00FFFFFF,&H00B0702C,&H00B0702C,1,0,0,0,100,100,0,0,3,10,0,2,60,60,46,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.40,Box,,0,0,0,,Hey, come and look at this!
+Dialogue: 0,0:00:01.40,0:00:04.50,Box,,0,0,0,,Someone made a whole house out of squishy toys!
+Dialogue: 0,0:00:04.97,0:00:07.23,Box,,0,0,0,,Ooh, look how soft it is!
+Dialogue: 0,0:00:07.23,0:00:10.23,Box,,0,0,0,,I wish I could live inside a soft butter house!
+Dialogue: 0,0:00:10.23,0:00:11.67,Box,,0,0,0,,It would be so much fun!
+Dialogue: 0,0:00:11.67,0:00:14.43,Box,,0,0,0,,It feels like a cloud, and it has every color!
+Dialogue: 0,0:00:14.53,0:00:17.30,Box,,0,0,0,,Mom, Dad, could we get lots of these to make a real house?
+Dialogue: 0,0:00:17.30,0:00:20.83,Box,,0,0,0,,Please? We will take good care of them!
+Dialogue: 0,0:00:20.97,0:00:24.83,Box,,0,0,0,,Hmm, let me check the price.
+Dialogue: 0,0:00:24.83,0:00:27.47,Box,,0,0,0,,Each little squishy is about five dollars.
+Dialogue: 0,0:00:27.47,0:00:31.27,Box,,0,0,0,,For a big house, we need four hundred of them.
+Dialogue: 0,0:00:31.27,0:00:34.37,Box,,0,0,0,,So that is two thousand dollars in total.
+Dialogue: 0,0:00:34.50,0:00:39.20,Box,,0,0,0,,Two thousand?!
+Dialogue: 0,0:00:39.20,0:00:41.80,Box,,0,0,0,,We could buy a mountain of toys with that!
+Dialogue: 0,0:00:42.13,0:00:45.87,Box,,0,0,0,,Sweetie, that is too much money for toys.
+Dialogue: 0,0:00:45.87,0:00:48.43,Box,,0,0,0,,We can't buy four hundred of them.
+Dialogue: 0,0:00:48.43,0:00:55.20,Box,,0,0,0,,So we will never have our house. I feel so sad.
+Dialogue: 0,0:00:55.20,0:00:58.40,Box,,0,0,0,,Hey, don't be sad! I have an idea.
+Dialogue: 0,0:00:58.40,0:01:01.63,Box,,0,0,0,,Let's make our own squishies with stuff from home!
+Dialogue: 0,0:01:01.83,0:01:06.20,Box,,0,0,0,,We can really make them by ourselves?
+Dialogue: 0,0:01:06.20,0:01:08.37,Box,,0,0,0,,But what do we need to make them?
+Dialogue: 0,0:01:08.53,0:01:12.43,Box,,0,0,0,,I found a big soft sponge block!
+Dialogue: 0,0:01:12.43,0:01:15.40,Box,,0,0,0,,Push it down, and it comes back up slowly.
+Dialogue: 0,0:01:15.40,0:01:16.20,Box,,0,0,0,,Perfect!
+Dialogue: 0,0:01:16.20,0:01:22.53,Box,,0,0,0,,Look! Soft clay in four pretty colors!
+Dialogue: 0,0:01:22.53,0:01:26.07,Box,,0,0,0,,And foam from the bathroom, plus white glue!
+Dialogue: 0,0:01:26.07,0:01:29.87,Box,,0,0,0,,Mix them, and the outside gets extra soft!
+Dialogue: 0,0:01:30.03,0:01:34.73,Box,,0,0,0,,Our toy workshop is all set up!
+Dialogue: 0,0:01:34.73,0:01:36.67,Box,,0,0,0,,So what color should our butter be?
+Dialogue: 0,0:01:36.67,0:01:37.57,Box,,0,0,0,,Hmm, let me think.
+Dialogue: 0,0:01:37.57,0:01:42.73,Box,,0,0,0,,Let's make plain yellow ones.
+Dialogue: 0,0:01:42.73,0:01:44.93,Box,,0,0,0,,They will look like the butter at the store!
+Dialogue: 0,0:01:45.03,0:01:45.83,Box,,0,0,0,,Nope!
+Dialogue: 0,0:01:45.83,0:01:48.90,Box,,0,0,0,,Rainbow ones are way, way cuter!
+Dialogue: 0,0:01:48.90,0:01:51.83,Box,,0,0,0,,Our house has to be a rainbow house!
+Dialogue: 0,0:01:51.83,0:01:53.07,Box,,0,0,0,,Okay, okay!
+Dialogue: 0,0:01:53.07,0:01:58.37,Box,,0,0,0,,A rainbow house, then! Let's start cutting.
+Dialogue: 0,0:01:58.37,0:02:00.57,Box,,0,0,0,,Cut it nice and straight, fifteen centimeters.
+Dialogue: 0,0:02:00.57,0:02:04.70,Box,,0,0,0,,Now it looks just like a butter block!
+Dialogue: 0,0:02:04.70,0:02:08.23,Box,,0,0,0,,Press, press! So much fun!
+Dialogue: 0,0:02:08.23,0:02:12.20,Box,,0,0,0,,It feels like whipped cream on a cake!
+Dialogue: 0,0:02:12.20,0:02:14.93,Box,,0,0,0,,Slowly, I mix the pink and the purple.
+Dialogue: 0,0:02:14.93,0:02:20.17,Box,,0,0,0,,Rainbow colors make me happy!
+Dialogue: 0,0:02:20.17,0:02:24.77,Box,,0,0,0,,It needs some dark blue to look cool!
+Dialogue: 0,0:02:25.03,0:02:25.90,Box,,0,0,0,,Hey! Stop!
+Dialogue: 0,0:02:25.90,0:02:28.40,Box,,0,0,0,,You spoiled my pink colors!
+Dialogue: 0,0:02:28.40,0:02:32.57,Box,,0,0,0,,Now it looks all dirty and brown!
+Dialogue: 0,0:02:32.57,0:02:40.20,Box,,0,0,0,,Sorry! I can clean it... oh no, it is getting bigger!
+Dialogue: 0,0:02:40.20,0:02:41.40,Box,,0,0,0,,Mine!
+Dialogue: 0,0:02:41.40,0:02:43.43,Box,,0,0,0,,I need the yellow for my stripes!
+Dialogue: 0,0:02:43.43,0:02:44.73,Box,,0,0,0,,Give it to me!
+Dialogue: 0,0:02:44.73,0:02:47.03,Box,,0,0,0,,No way, it is for my sunshine roof!
+Dialogue: 0,0:02:47.27,0:02:54.73,Box,,0,0,0,,Let it go! — No, you let it go!
+Dialogue: 0,0:02:54.73,0:02:55.93,Box,,0,0,0,,Uh-oh...
+Dialogue: 0,0:02:55.93,0:03:01.63,Box,,0,0,0,,Your nose is all yellow! — Your face is yellow too!
+Dialogue: 0,0:03:01.73,0:03:04.23,Box,,0,0,0,,This glue is mine now. You can't use it!
+Dialogue: 0,0:03:04.23,0:03:06.47,Box,,0,0,0,,Okay, fine!
+Dialogue: 0,0:03:06.47,0:03:09.00,Box,,0,0,0,,I will make my own bricks, all by myself!
+Dialogue: 0,0:03:09.00,0:03:12.00,Box,,0,0,0,,Fast is the best way!
+Dialogue: 0,0:03:12.00,0:03:15.80,Box,,0,0,0,,Look, ten bricks in only five minutes!
+Dialogue: 0,0:03:15.80,0:03:17.60,Box,,0,0,0,,Pretty things need time.
+Dialogue: 0,0:03:17.60,0:03:22.90,Box,,0,0,0,,My colors must melt together, not sit in hard lines.
+Dialogue: 0,0:03:22.90,0:03:27.90,Box,,0,0,0,,You are too slow! We need so many bricks!
+Dialogue: 0,0:03:28.00,0:03:30.53,Box,,0,0,0,,Yours are hard and not pretty at all!
+Dialogue: 0,0:03:30.63,0:03:35.80,Box,,0,0,0,,A real butter block needs a name and a size on top.
+Dialogue: 0,0:03:35.80,0:03:37.90,Box,,0,0,0,,That is how the real ones look!
+Dialogue: 0,0:03:37.90,0:03:42.73,Box,,0,0,0,,Small words? No one looks at those.
+Dialogue: 0,0:03:42.73,0:03:45.47,Box,,0,0,0,,One big letter is fine. Let's start building!
+Dialogue: 0,0:03:45.47,0:03:52.17,Box,,0,0,0,,Let me see if it pops back up... push!
+Dialogue: 0,0:03:52.17,0:03:58.20,Box,,0,0,0,,Oh no! It is still wet. The color is all over my hand!
+Dialogue: 0,0:03:58.20,0:03:59.77,Box,,0,0,0,,Brother! Look what you did!
+Dialogue: 0,0:03:59.77,0:04:03.50,Box,,0,0,0,,I spent so long mixing those colors!
+Dialogue: 0,0:04:03.50,0:04:05.30,Box,,0,0,0,,You touched it way too soon!
+Dialogue: 0,0:04:05.30,0:04:10.03,Box,,0,0,0,,Sorry, Sis. I only wanted to feel how soft it was.
+Dialogue: 0,0:04:10.03,0:04:11.97,Box,,0,0,0,,Here, you can have my best brick.
+Dialogue: 0,0:04:12.10,0:04:18.60,Box,,0,0,0,,We wait until it is dry. No touching! — Deal!
+Dialogue: 0,0:04:18.70,0:04:21.70,Box,,0,0,0,,Look! Fifty bricks, all done!
+Dialogue: 0,0:04:23.77,0:04:26.23,Box,,0,0,0,,Now let us build our dream house!
+Dialogue: 0,0:04:26.40,0:04:28.33,Box,,0,0,0,,Slowly, Brother! Go slow.
+Dialogue: 0,0:04:28.33,0:04:31.15,Box,,0,0,0,,The wall is squishy. It moves when you push it!
+Dialogue: 0,0:04:31.15,0:04:36.47,Box,,0,0,0,,Ow! Brother, you are too big. Move over!
+Dialogue: 0,0:04:36.47,0:04:43.30,Box,,0,0,0,,I want to sit too! — Hey, stop pulling it, Sis!
+Dialogue: 0,0:04:45.23,0:04:50.20,Box,,0,0,0,,Hold it! It is going to fall this way!
+Dialogue: 0,0:04:50.20,0:04:56.57,Box,,0,0,0,,The last special brick! I will put it on the top!
+Dialogue: 0,0:04:56.57,0:05:03.00,Box,,0,0,0,,No! I made this one. It goes on the roof, and I will do it!
+Dialogue: 0,0:05:03.00,0:05:10.27,Box,,0,0,0,,Give it to me! You cannot reach! — I can! Stop pulling!
+Dialogue: 0,0:05:10.27,0:05:15.27,Box,,0,0,0,,Oh no, look out! Everything is coming down!
+Dialogue: 0,0:05:17.63,0:05:20.53,Box,,0,0,0,,Our pretty house is gone. It is all broken.
+Dialogue: 0,0:05:21.80,0:05:24.37,Box,,0,0,0,,All my beautiful bricks are flat now.
+Dialogue: 0,0:05:24.93,0:05:30.97,Box,,0,0,0,,Please do not cry. That was my mistake. I am sorry, Sis.
+Dialogue: 0,0:05:31.18,0:05:34.87,Box,,0,0,0,,Kids? Are you both all right?
+Dialogue: 0,0:05:34.87,0:05:36.70,Box,,0,0,0,,Wow, what happened in here?
+Dialogue: 0,0:05:36.70,0:05:39.13,Box,,0,0,0,,These bricks are soft on purpose. That is why they are fun.
+Dialogue: 0,0:05:39.13,0:05:44.47,Box,,0,0,0,,But soft bricks need a strong frame inside, or they fall.
+Dialogue: 0,0:05:45.23,0:05:47.27,Box,,0,0,0,,But look at these colors. They are so pretty!
+Dialogue: 0,0:05:47.63,0:05:51.13,Box,,0,0,0,,Brother made strong bricks, and you made the pretty ones.
+Dialogue: 0,0:05:51.43,0:05:54.30,Box,,0,0,0,,Put them together, and your castle will be super strong!
+Dialogue: 0,0:05:54.47,0:05:57.10,Box,,0,0,0,,Hey, why not build it again?
+Dialogue: 0,0:05:57.10,0:06:01.37,Box,,0,0,0,,I have big strong boxes. We can make a frame that stays up!
+Dialogue: 0,0:06:01.50,0:06:04.50,Box,,0,0,0,,Let us do it together this time, Sis.
+Dialogue: 0,0:06:04.50,0:06:06.33,Box,,0,0,0,,And Mom and Dad can help us too!
+Dialogue: 0,0:06:06.47,0:06:13.17,Box,,0,0,0,,The box posts are strong now. This house will stand!
+Dialogue: 0,0:06:14.30,0:06:17.20,Box,,0,0,0,,My rainbow bricks go around the windows!
+Dialogue: 0,0:06:17.20,0:06:19.67,Box,,0,0,0,,It feels so smooth and squishy!
+Dialogue: 0,0:06:19.83,0:06:23.17,Box,,0,0,0,,My striped bricks make the corners strong!
+Dialogue: 0,0:06:24.20,0:06:26.77,Box,,0,0,0,,Dad, it looks just like a cake house!
+Dialogue: 0,0:06:26.97,0:06:31.87,Box,,0,0,0,,Everyone together! One, two, three!
+Dialogue: 0,0:06:31.87,0:06:34.40,Box,,0,0,0,,Yay! The special brick is on top!
+Dialogue: 0,0:06:37.93,0:06:40.97,Box,,0,0,0,,Come in! This is our rainbow house!
+Dialogue: 0,0:06:41.47,0:06:45.37,Box,,0,0,0,,It is cozy, soft, and it will not fall now!
+Dialogue: 0,0:06:46.60,0:06:50.07,Box,,0,0,0,,Our best family build ever!
+Dialogue: 0,0:06:50.30,0:06:55.10,Box,,0,0,0,,Here is what we learned today. Fun does not need lots of money!
+Dialogue: 0,0:06:55.30,0:06:58.13,Box,,0,0,0,,Old boxes and big ideas can make the best toys.
+Dialogue: 0,0:06:58.30,0:07:01.53,Box,,0,0,0,,When we help each other and really listen,
+Dialogue: 0,0:07:02.10,0:07:05.28,Box,,0,0,0,,our family can fix anything together!
+Dialogue: 0,0:07:05.28,0:07:10.30,Box,,0,0,0,,Quiz time!
+Dialogue: 0,0:07:10.30,0:07:12.77,Box,,0,0,0,,Sis, why did our new house stay up?
+Dialogue: 0,0:07:12.77,0:07:20.73,Box,,0,0,0,,Pick one: A, B, C, or D! — Hmm... three, two, one... B!
+Dialogue: 0,0:07:21.67,0:07:24.80,Box,,0,0,0,,You got it! The answer is B, boxes and teamwork!
+Dialogue: 0,0:07:24.80,0:07:28.43,Box,,0,0,0,,Thanks for watching! Bye for now!

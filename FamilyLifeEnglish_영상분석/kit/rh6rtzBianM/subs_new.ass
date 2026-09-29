@@ -1,0 +1,91 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Box,Arial,52,&H00FFFFFF,&H00FFFFFF,&H00AA6E24,&H00AA6E24,1,0,0,0,100,100,0,0,3,10,0,2,60,60,46,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.27,Box,,0,0,0,,Hop higher, Sis!
+Dialogue: 0,0:00:01.27,0:00:04.20,Box,,0,0,0,,Let's play! This couch is a big jumping castle!
+Dialogue: 0,0:00:04.30,0:00:10.87,Box,,0,0,0,,Ow! This couch is so hard. It's no fun at all.
+Dialogue: 0,0:00:10.87,0:00:13.33,Box,,0,0,0,,Get your hats, kids!
+Dialogue: 0,0:00:13.33,0:00:16.17,Box,,0,0,0,,We are going to the giant balloon playground today!
+Dialogue: 0,0:00:16.17,0:00:18.10,Box,,0,0,0,,Yay! Let's go!
+Dialogue: 0,0:00:18.30,0:00:25.23,Box,,0,0,0,,Whoa! Look at that huge rainbow castle!
+Dialogue: 0,0:00:25.23,0:00:33.13,Box,,0,0,0,,Two surprise boxes are hiding inside. Find them as a team, okay?
+Dialogue: 0,0:00:33.13,0:00:39.63,Box,,0,0,0,,Okay, Dad! We will do it together!
+Dialogue: 0,0:00:40.05,0:00:42.92,Box,,0,0,0,,A team? No thanks!
+Dialogue: 0,0:00:42.92,0:00:46.77,Box,,0,0,0,,Both boxes will be mine. I won't share!
+Dialogue: 0,0:00:47.20,0:00:54.83,Box,,0,0,0,,He is so fast! I will take the little tunnel and win.
+Dialogue: 0,0:00:54.83,0:00:56.00,Box,,0,0,0,,Oh! There it is!
+Dialogue: 0,0:00:56.00,0:00:58.60,Box,,0,0,0,,The purple box is up high!
+Dialogue: 0,0:00:58.77,0:01:06.33,Box,,0,0,0,,Super jump power! Up you go, Sis!
+Dialogue: 0,0:01:06.33,0:01:12.73,Box,,0,0,0,,Whoa! The floor threw me up!
+Dialogue: 0,0:01:12.73,0:01:19.17,Box,,0,0,0,,Ha! This box is all mine now. Bye-bye!
+Dialogue: 0,0:01:19.37,0:01:25.73,Box,,0,0,0,,Down I go! You can't catch me!
+Dialogue: 0,0:01:25.73,0:01:30.90,Box,,0,0,0,,You bumped me before. Now roll, roll, roll!
+Dialogue: 0,0:01:30.90,0:01:37.70,Box,,0,0,0,,Oh no! The big roll hit me. I lost my box!
+Dialogue: 0,0:01:40.43,0:01:46.07,Box,,0,0,0,,Where did my box go? It was right here!
+Dialogue: 0,0:01:46.07,0:01:53.00,Box,,0,0,0,,Rainbow ball storm! Here you go, bossy brother!
+Dialogue: 0,0:01:53.00,0:01:59.00,Box,,0,0,0,,Stop it! Balls in my eyes!
+Dialogue: 0,0:01:59.00,0:02:00.77,Box,,0,0,0,,Got it!
+Dialogue: 0,0:02:00.77,0:02:04.63,Box,,0,0,0,,Clever girls win the purple box!
+Dialogue: 0,0:02:04.63,0:02:10.07,Box,,0,0,0,,Look, the yellow box! This one is mine.
+Dialogue: 0,0:02:10.47,0:02:15.83,Box,,0,0,0,,Wait! I want the yellow box too!
+Dialogue: 0,0:02:15.83,0:02:21.60,Box,,0,0,0,,Ready... spring trap! Back you go!
+Dialogue: 0,0:02:21.60,0:02:28.43,Box,,0,0,0,,Hey! That pillar bumped me!
+Dialogue: 0,0:02:28.43,0:02:33.00,Box,,0,0,0,,Yes! I have the yellow one. One box each!
+Dialogue: 0,0:02:33.00,0:02:38.97,Box,,0,0,0,,I'm going through the hidden tunnel. Bye!
+Dialogue: 0,0:02:38.97,0:02:43.87,Box,,0,0,0,,Hidden tunnel? Now you are stuck, big brother!
+Dialogue: 0,0:02:43.87,0:02:48.93,Box,,0,0,0,,Sis! Move this big pillow now!
+Dialogue: 0,0:02:48.93,0:02:53.23,Box,,0,0,0,,Okay... if you give me the yellow box!
+Dialogue: 0,0:02:54.13,0:03:01.07,Box,,0,0,0,,No pillow can stop me! Super push!
+Dialogue: 0,0:03:01.45,0:03:02.73,Box,,0,0,0,,Water bomb!
+Dialogue: 0,0:03:02.73,0:03:06.83,Box,,0,0,0,,Chill out, big brother!
+Dialogue: 0,0:03:06.83,0:03:13.00,Box,,0,0,0,,A little water can't stop me! Give me the purple box!
+Dialogue: 0,0:03:13.00,0:03:19.13,Box,,0,0,0,,Try to catch me! This box stays with me!
+Dialogue: 0,0:03:19.13,0:03:25.57,Box,,0,0,0,,Give it! I'm older!\NNo! I saw it first!
+Dialogue: 0,0:03:25.57,0:03:29.90,Box,,0,0,0,,Hands off!\NYou first!
+Dialogue: 0,0:03:30.70,0:03:33.47,Box,,0,0,0,,I'll hide both boxes in a super secret place!
+Dialogue: 0,0:03:33.47,0:03:35.13,Box,,0,0,0,,Hee hee! Nobody will see me over here.
+Dialogue: 0,0:03:35.57,0:03:42.30,Box,,0,0,0,,Ooh, a tiny door in the wall! Nobody will look in here.
+Dialogue: 0,0:03:42.30,0:03:48.00,Box,,0,0,0,,Look, a zipper! This must be a secret treasure bag.
+Dialogue: 0,0:03:50.37,0:03:56.17,Box,,0,0,0,,I'll lock them inside. You can't get them, Brother!
+Dialogue: 0,0:03:56.17,0:04:00.23,Box,,0,0,0,,No, wait! Don't put it in there!
+Dialogue: 0,0:04:05.03,0:04:06.00,Box,,0,0,0,,Huh? Hold on...
+Dialogue: 0,0:04:06.00,0:04:10.30,Box,,0,0,0,,Brr! Something is blowing air at us!
+Dialogue: 0,0:04:10.30,0:04:14.93,Box,,0,0,0,,Uh-oh! My feet are going down, down, down!
+Dialogue: 0,0:04:17.47,0:04:23.47,Box,,0,0,0,,That's not for toys! That zipper lets all the air out!
+Dialogue: 0,0:04:23.47,0:04:30.07,Box,,0,0,0,,Oh no... I didn't know. I only wanted to hide them.
+Dialogue: 0,0:04:30.07,0:04:34.73,Box,,0,0,0,,Hold my hand! Let's get out, fast!
+Dialogue: 0,0:04:34.90,0:04:39.03,Box,,0,0,0,,Look! The big castle is getting smaller and smaller.
+Dialogue: 0,0:04:40.23,0:04:47.03,Box,,0,0,0,,Oh no, the castle fell down! Where are the kids?
+Dialogue: 0,0:04:47.03,0:04:52.57,Box,,0,0,0,,Is anybody hurt? Why is the castle so flat?
+Dialogue: 0,0:04:52.57,0:04:56.57,Box,,0,0,0,,Mom, Dad... we made a big mistake. Sorry.
+Dialogue: 0,0:04:56.57,0:05:00.50,Box,,0,0,0,,Hmm. Somebody opened this big zipper.
+Dialogue: 0,0:05:00.50,0:05:02.97,Box,,0,0,0,,Who pulled it? You can tell me the truth.
+Dialogue: 0,0:05:02.97,0:05:04.77,Box,,0,0,0,,Daddy... I did it.
+Dialogue: 0,0:05:04.77,0:05:07.80,Box,,0,0,0,,I didn't want Brother to get my present.
+Dialogue: 0,0:05:08.17,0:05:10.73,Box,,0,0,0,,The zipper looked like a treasure bag to me.
+Dialogue: 0,0:05:10.73,0:05:12.77,Box,,0,0,0,,Mom, I did wrong things too.
+Dialogue: 0,0:05:12.77,0:05:15.97,Box,,0,0,0,,I wanted both presents, so I grabbed hers.
+Dialogue: 0,0:05:15.97,0:05:18.35,Box,,0,0,0,,I pushed you. I'm sorry, Sis.
+Dialogue: 0,0:05:18.35,0:05:24.57,Box,,0,0,0,,Remember? We asked you to help each other. Fighting made today sad for everyone.
+Dialogue: 0,0:05:25.73,0:05:31.43,Box,,0,0,0,,Look closely. This box has only one piece of the shield.
+Dialogue: 0,0:05:31.87,0:05:35.37,Box,,0,0,0,,And here in Sis's box is the missing piece!
+Dialogue: 0,0:05:35.83,0:05:37.93,Box,,0,0,0,,They were made for two. You need each other to play!
+Dialogue: 0,0:05:38.47,0:05:44.90,Box,,0,0,0,,We only needed to share. Fighting was so silly!
+Dialogue: 0,0:05:44.90,0:05:52.23,Box,,0,0,0,,Here is your job: close the zipper together and help fold this big mat.
+Dialogue: 0,0:05:52.23,0:05:58.53,Box,,0,0,0,,Zip it up... and press! Nice teamwork!
+Dialogue: 0,0:05:58.53,0:06:04.07,Box,,0,0,0,,Ready? One, two, push! Yay, all tidy again!
+Dialogue: 0,0:06:04.07,0:06:08.90,Box,,0,0,0,,Click! It fits! Now our shield is one big circle.
+Dialogue: 0,0:06:08.90,0:06:10.73,Box,,0,0,0,,Hee hee!
+Dialogue: 0,0:06:10.73,0:06:16.53,Box,,0,0,0,,Games are fun, but loving and sharing together is worth more than any toy.
+Dialogue: 0,0:06:18.22,0:06:25.50,Box,,0,0,0,,It's word time! Say the words with us, okay?
+Dialogue: 0,0:06:25.50,0:06:32.20,Box,,0,0,0,,Let's read! Bouncy castle... obstacle... tunnel!
+Dialogue: 0,0:06:32.20,0:06:39.37,Box,,0,0,0,,Now my turn! Zipper... deflate... puzzle!
+Dialogue: 0,0:06:39.37,0:06:46.87,Box,,0,0,0,,Be careful when you play, be kind and share. See you soon, friends!

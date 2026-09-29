@@ -1,0 +1,87 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Box,Arial,52,&H00FFFFFF,&H00FFFFFF,&H00AC6D2C,&H00AC6D2C,1,0,0,0,100,100,0,0,3,10,0,2,60,60,46,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.47,Box,,0,0,0,,This is our new ice cream maker.\NPlease don't open it until we come back!
+Dialogue: 0,0:00:07.93,0:00:11.23,Box,,0,0,0,,Wow, it has every color of the rainbow!
+Dialogue: 0,0:00:11.23,0:00:13.20,Box,,0,0,0,,It is so awesome!
+Dialogue: 0,0:00:13.63,0:00:16.03,Box,,0,0,0,,Mom and Dad are too slow. I can't wait!
+Dialogue: 0,0:00:16.37,0:00:19.20,Box,,0,0,0,,Building it is super easy. Watch this!
+Dialogue: 0,0:00:20.30,0:00:27.50,Box,,0,0,0,,Pour everything out! Let's build it now!
+Dialogue: 0,0:00:27.50,0:00:31.57,Box,,0,0,0,,Give me that! I can read. You're too little!
+Dialogue: 0,0:00:33.33,0:00:35.33,Box,,0,0,0,,Hmph. Look, you tore it!
+Dialogue: 0,0:00:35.33,0:00:37.77,Box,,0,0,0,,Fine! Build it all by yourself, then!
+Dialogue: 0,0:00:40.23,0:00:45.93,Box,,0,0,0,,Don't spin it! The big side is the front.\NNo! The stars go on this side!
+Dialogue: 0,0:00:45.93,0:00:50.40,Box,,0,0,0,,Let it go! You have it the wrong way!
+Dialogue: 0,0:00:50.57,0:00:53.40,Box,,0,0,0,,The pink one goes in the center!
+Dialogue: 0,0:00:56.67,0:01:01.13,Box,,0,0,0,,No way! Chocolate is the best. It goes in the middle!
+Dialogue: 0,0:01:07.57,0:01:11.50,Box,,0,0,0,,We don't need those little pieces. It will be fine!
+Dialogue: 0,0:01:13.27,0:01:19.17,Box,,0,0,0,,My turn with the screwdriver! I want to do my side!
+Dialogue: 0,0:01:19.17,0:01:21.23,Box,,0,0,0,,Your hands are too small for this.
+Dialogue: 0,0:01:21.23,0:01:24.37,Box,,0,0,0,,You will break the screws. Step back!
+Dialogue: 0,0:01:26.60,0:01:29.23,Box,,0,0,0,,I can do it without you!
+Dialogue: 0,0:01:29.23,0:01:32.70,Box,,0,0,0,,My spoon will push the gears in!
+Dialogue: 0,0:01:35.33,0:01:37.33,Box,,0,0,0,,Hey! Those tubes are mine!
+Dialogue: 0,0:01:37.33,0:01:39.77,Box,,0,0,0,,Mom said the toppings are my job!
+Dialogue: 0,0:01:40.80,0:01:46.97,Box,,0,0,0,,I'm bigger, so I can push harder!\NThat's not how you do it!
+Dialogue: 0,0:01:46.97,0:01:53.70,Box,,0,0,0,,I got the blue handle first! I get to put it on!
+Dialogue: 0,0:01:55.00,0:02:02.13,Box,,0,0,0,,Shh! Don't tell Mom. Just push it in. It will hold.
+Dialogue: 0,0:02:02.13,0:02:08.57,Box,,0,0,0,,It's not straight!\NIt's okay. We're all finished!
+Dialogue: 0,0:02:08.57,0:02:15.58,Box,,0,0,0,,Ta-da! Our machine is done! Let's get some snacks!
+Dialogue: 0,0:02:15.58,0:02:18.47,Box,,0,0,0,,Get the jam, the chocolate, and the milk!
+Dialogue: 0,0:02:18.47,0:02:22.77,Box,,0,0,0,,Quick, before Mom comes home!
+Dialogue: 0,0:02:22.77,0:02:27.50,Box,,0,0,0,,Jam goes in this one, and a big chocolate bar goes in that one!
+Dialogue: 0,0:02:27.73,0:02:31.20,Box,,0,0,0,,Milk, green tea powder, and lots and lots of sprinkles!
+Dialogue: 0,0:02:31.20,0:02:34.17,Box,,0,0,0,,Fill them all the way up!
+Dialogue: 0,0:02:36.07,0:02:37.53,Box,,0,0,0,,Push it down!
+Dialogue: 0,0:02:37.53,0:02:40.23,Box,,0,0,0,,Push really hard so it clicks shut!
+Dialogue: 0,0:02:44.10,0:02:45.67,Box,,0,0,0,,Ready? Here it comes!
+Dialogue: 0,0:02:45.67,0:02:48.23,Box,,0,0,0,,Yummy ice cream is on the way!
+Dialogue: 0,0:02:48.90,0:02:52.47,Box,,0,0,0,,Wait... the blue handle won't move at all!
+Dialogue: 0,0:02:54.80,0:02:58.47,Box,,0,0,0,,Move! You always mess everything up!
+Dialogue: 0,0:03:11.80,0:03:15.27,Box,,0,0,0,,Oh no! It is going everywhere!
+Dialogue: 0,0:03:17.20,0:03:22.97,Box,,0,0,0,,Whoa! The floor is so sticky!
+Dialogue: 0,0:03:22.97,0:03:23.93,Box,,0,0,0,,Hmm, wait a second...
+Dialogue: 0,0:03:23.93,0:03:26.83,Box,,0,0,0,,But yum! It is really sweet!
+Dialogue: 0,0:03:27.90,0:03:30.03,Box,,0,0,0,,Hey! Do not eat that!
+Dialogue: 0,0:03:30.03,0:03:33.87,Box,,0,0,0,,You broke the handle! You did it!
+Dialogue: 0,0:03:34.10,0:03:36.00,Box,,0,0,0,,No way! You did it!
+Dialogue: 0,0:03:36.00,0:03:39.77,Box,,0,0,0,,The screws were loose! That is why it popped!
+Dialogue: 0,0:03:39.77,0:03:40.80,Box,,0,0,0,,Hmph!
+Dialogue: 0,0:03:40.80,0:03:43.20,Box,,0,0,0,,You stuffed in too many gummies!
+Dialogue: 0,0:03:45.03,0:03:48.07,Box,,0,0,0,,You pushed a big chocolate bar inside!
+Dialogue: 0,0:03:52.77,0:03:57.53,Box,,0,0,0,,Uh-oh. They are home!
+Dialogue: 0,0:03:57.53,0:04:04.53,Box,,0,0,0,,We are home with the cones! ... Oh my goodness!
+Dialogue: 0,0:04:06.43,0:04:09.17,Box,,0,0,0,,Kids, what happened to our room?
+Dialogue: 0,0:04:09.37,0:04:13.87,Box,,0,0,0,,Brother and\NSorry... we are really sorry.
+Dialogue: 0,0:04:14.20,0:04:15.67,Box,,0,0,0,,Do you remember our one rule?
+Dialogue: 0,0:04:16.43,0:04:18.30,Box,,0,0,0,,We asked you to wait for us, right?
+Dialogue: 0,0:04:18.40,0:04:20.37,Box,,0,0,0,,Dad, I am really sorry.
+Dialogue: 0,0:04:20.37,0:04:24.77,Box,,0,0,0,,I wanted to do it alone. I was mean to my sister.
+Dialogue: 0,0:04:25.03,0:04:27.43,Box,,0,0,0,,Mommy, I am sorry too.
+Dialogue: 0,0:04:27.43,0:04:30.73,Box,,0,0,0,,I pushed in too many candies and grabbed the handle.
+Dialogue: 0,0:04:30.93,0:04:32.20,Box,,0,0,0,,Look what I found on the floor.
+Dialogue: 0,0:04:32.20,0:04:35.07,Box,,0,0,0,,You forgot this little ring and this pin.
+Dialogue: 0,0:04:35.07,0:04:37.17,Box,,0,0,0,,So that is why it went boom.
+Dialogue: 0,0:04:37.17,0:04:40.60,Box,,0,0,0,,Clean it all up first. Then we can have ice cream.
+Dialogue: 0,0:04:40.60,0:04:43.67,Box,,0,0,0,,Okay, start now, you two!
+Dialogue: 0,0:04:44.53,0:04:47.77,Box,,0,0,0,,I will clean the sofa. You do the floor, okay?
+Dialogue: 0,0:04:50.33,0:04:52.40,Box,,0,0,0,,There. Now you are clean too!
+Dialogue: 0,0:04:52.40,0:04:54.70,Box,,0,0,0,,I am sorry I shouted at you before.
+Dialogue: 0,0:04:54.70,0:04:57.23,Box,,0,0,0,,It is okay! High five!
+Dialogue: 0,0:04:57.23,0:05:01.33,Box,,0,0,0,,First the ring, then click the pin. Step by step.
+Dialogue: 0,0:05:04.27,0:05:08.00,Box,,0,0,0,,Turn it slowly. Not too hard.
+Dialogue: 0,0:05:11.60,0:05:12.43,Box,,0,0,0,,Here you go!
+Dialogue: 0,0:05:12.43,0:05:15.77,Box,,0,0,0,,Doing it the right way makes it taste even sweeter.
+Dialogue: 0,0:05:18.17,0:05:20.83,Box,,0,0,0,,Now it is word time! Let us learn!
+Dialogue: 0,0:05:20.83,0:05:24.87,Box,,0,0,0,,Say the words with us!
+Dialogue: 0,0:05:24.87,0:05:31.53,Box,,0,0,0,,Number one, ice cream! Number two, machine! Number three, cone!
+Dialogue: 0,0:05:31.53,0:05:37.23,Box,,0,0,0,,Number four, sprinkles! Number five, handle!
+Dialogue: 0,0:05:37.33,0:05:44.48,Box,,0,0,0,,Listen to Mom and Dad and help each other! See you soon, bye-bye!

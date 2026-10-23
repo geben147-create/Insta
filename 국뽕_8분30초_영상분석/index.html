@@ -1,0 +1,1544 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>국뽕 8분 30초 영상 분석</title><style>
+:root{--bg:#0d0f14;--panel:#151922;--line:#2a3142;--tx:#e8ecf4;--mut:#9aa4b8;--acc:#ff4d6d;--blue:#00b7ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Pretendard","Malgun Gothic",system-ui,sans-serif;line-height:1.65}
+.wrap{max-width:980px;margin:0 auto;padding:24px 16px 80px}
+h1{font-size:26px;margin:.6em 0 .4em}h2{font-size:20px;margin:1.6em 0 .5em;color:var(--blue)}h3{font-size:17px}
+a{color:var(--blue)}a:hover{color:var(--acc)}
+.top a.back{color:var(--mut);text-decoration:none;font-size:14px}
+nav{position:sticky;top:0;background:var(--bg);padding:10px 0;display:flex;gap:8px;flex-wrap:wrap;z-index:2;border-bottom:1px solid var(--line)}
+nav button{background:var(--panel);color:var(--tx);border:1px solid var(--line);border-radius:999px;padding:8px 16px;font:inherit;font-weight:700;cursor:pointer}
+nav button.on{border-color:var(--acc);color:var(--acc)}
+.panel{display:none}.panel.on{display:block}
+.tw{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:var(--panel);white-space:nowrap}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;overflow-x:auto;position:relative;font-size:13px;line-height:1.55}
+code{font-family:ui-monospace,Consolas,monospace}
+p code,li code,td code{background:var(--panel);padding:1px 5px;border-radius:5px}
+.cp{position:absolute;top:8px;right:8px;background:var(--acc);color:#fff;border:0;border-radius:8px;padding:5px 10px;font:inherit;font-size:12px;font-weight:700;cursor:pointer}
+.bar{display:flex;gap:8px;margin:10px 0;flex-wrap:wrap}.bar button{background:var(--acc);color:#fff;border:0;border-radius:10px;padding:9px 14px;font:inherit;font-weight:700;cursor:pointer}
+.note{color:var(--mut);font-size:14px}
+</style></head><body><div class="wrap">
+<div class="top"><a class="back" href="../">← Insta 영상 분석 모음</a></div>
+<h1>국뽕 8분 30초 영상 분석</h1>
+<p class="note">외국이 직접 매긴 점수만 모아 "왜 한국이 연달아 터졌나"를 푸는 해설 영상. 원본 영상·완성본·자막 원문·음성은 저작권과 개인정보 때문에 올리지 않았습니다.</p>
+<nav id="nav"><button data-p="sum" class="on">요약·정정</button><button data-p="script">대본 102컷</button><button data-p="orig">독창성 측정</button><button data-p="desc">설명란 초안</button><button data-p="tools">제작 도구</button></nav>
+<section class="panel on" id="sum"><h1>국뽕_8분30초_영상분석</h1>
+<p>외국이 직접 매긴 점수(상, 차트, 국제기구 결정, 통계)만 모아서 "왜 한국이 연달아 터졌나"를 푸는 <strong>8분 30초 해설 영상</strong>의 대본, 제작 결과, 사실 검증을 모았습니다.</p>
+<p>웹으로 보기: https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95_8%EB%B6%8430%EC%B4%88_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/</p>
+<h2>들어 있는 것</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>파일</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>index.html</td>
+<td>한 페이지 전체 (요약 · 102컷 대본 · 독창성 측정 · 설명란 초안 · 제작 도구 탭, 복사 버튼)</td>
+</tr>
+<tr>
+<td>작업요약.md</td>
+<td>폴더 구성, 이번에 한 것, 알아둘 점(정정 반영), 다른 세션용 복붙 프롬프트</td>
+</tr>
+<tr>
+<td>대본_국뽕_8분30초.md</td>
+<td>102컷 대본 표 (컷별 화면 종류, 소스, 키워드 24자 이하, 나레이션) + 사실 출처</td>
+</tr>
+<tr>
+<td>독창성_측정.md</td>
+<td>의견·배경·비하인드 비중 측정 (내 분류 60.8% / 독립 분류 47.1%)</td>
+</tr>
+<tr>
+<td>설명란_출처.md</td>
+<td>유튜브 설명란 초안 (클립 출처, 사실 출처, AI 음성 안내)</td>
+</tr>
+<tr>
+<td>tools/</td>
+<td>제작 스크립트 (음성 생성, 카드 렌더, 컷 조립 등, 경로가 작성 PC 기준이라 참고용)</td>
+</tr>
+<tr>
+<td>작업기록.md</td>
+<td>작업 기록</td>
+</tr>
+</tbody>
+</table></div>
+<h2>올리지 않은 것 (공개판 규칙)</h2>
+<ul>
+<li>원본 영상 4개, 완성본 영상(원본 클립 포함), 영어 자막 원문: 저작권 때문에 비공개</li>
+<li>보이스클론 참조 음성과 생성 음성: 개인 음성이라 비공개</li>
+<li>유튜브 해당 영상은 주소로만 표기했습니다.</li>
+</ul>
+<h2>검증 결과 (2026-10-24)</h2>
+<ul>
+<li>한강 노벨문학상 "한국인 최초·아시아 여성 최초": 확인 (New York Times, Los Angeles Times)</li>
+<li>강남스타일 "유튜브 최초 10억 뷰, 2012.12.21": 확인 (Guinness World Records, YouTube 공식 블로그)</li>
+<li><strong>정정</strong>: BTS 아르헨티나 공연은 10/23~24가 아니라 <strong>10/21·23·24 세 차례</strong>이고, 21일 첫 공연은 이미 열렸습니다. 대본 문장은 그대로 맞습니다.</li>
+</ul><hr><h1>작업요약 — 국뽕 8분 30초 영상 (2026-10-24 검증·정정 반영)</h1>
+<h2>폴더 구성 (작성 PC의 로컬 폴더. 깃허브에는 텍스트 문서와 스크립트만 올림)</h2>
+<pre><code>videos/  원본 영상 4개: GANGNAM.mp4(189MB), BTS_RETURN.mp4(81MB), BTS_ARG.mp4(466MB), BIRTH.mp4(33MB)
+         AV1 720p, 영상만 있고 소리 없음
+subs/    영어 자막 3개 (각각 .srt 타임코드판 + .txt 읽기판): GANGNAM, BTS_RETURN, BTS_ARG
+         BIRTH는 나레이션이 없어서 자막 파일이 없음
+final/   완성본 국뽕_8분30초.mp4 (157.5MB)
+tools/   제작 스크립트 (경로가 작성 PC 기준으로 박혀 있어 참고용)
+README.md, 대본_국뽕_8분30초.md  (소스 주소, 클립 시작 초 목록, 102컷 대본 표)
+</code></pre>
+<h2>이번에 한 것</h2>
+<ul>
+<li>음성: Qwen3-TTS 1.7B 보이스클론(미누음성 샘플), 무료·로컬. 102컷 생성 후 받아쓰기로 재검증 → 대본과 평균 98.4% 일치, 85% 미만 0컷</li>
+<li>컷마다 5.000초에 맞춤. 11컷만 속도를 올림 (최대 1.25배)</li>
+<li>키워드 카드 79장: 24자 이하, 형광 파랑 #00B7FF + 강조 단어 형광 빨강 #FF1F4B</li>
+<li>클립 23컷: 원본 5초씩, 컷마다 프레임으로 확인해 고름</li>
+<li>소리 크기 -16.6 LUFS로 고르게 맞춤</li>
+</ul>
+<h2>알아둘 점</h2>
+<ul>
+<li>자막: 유튜브 자막 서버가 계속 막아서(429) 영상 소리를 받아 직접 받아쓴 영어 자막입니다. 고유명사는 틀릴 수 있음 (예: Arirang → "Erarrang")</li>
+<li>BTS_ARG 공항 영상은 "LOS ANGELES" 표지가 보여서 남미 설명 컷에는 안 썼고, 컷 013 한 곳만 사용. 대본의 "칠레를 마치고 아르헨티나 도착"은 그 팬 채널의 "reportedly" 설명을 따른 것</li>
+<li>클립 속 BTS 공연 영상은 채널 허락과 별개로 방송사·소속사 권리가 걸려 있을 수 있고, "Elle's Kpop Channel" 워터마크가 일부 보임</li>
+<li>완성본은 30MB 제한 때문에 폰·웹으로는 못 보내고, 작성 PC의 데스크톱 앱과 final 폴더에서만 열림</li>
+</ul>
+<h2>정정과 검증 (2026-10-24 재확인)</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>이전 메모</th>
+<th>재확인 결과</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>아르헨티나 공연(10/23~24)은 아직 열리지 않아 "도착"까지만 말함</td>
+<td><strong>틀림</strong>. 라플라타 공연은 10/21·23·24 세 차례 (21일은 4월 8일에 추가 편성). 21일 첫 공연은 이미 열렸고(23곡), 24일 공연은 전 세계 극장에 생중계됨. 대본 문장("도착", "남미 스타디움에 울려 퍼집니다")은 그대로 맞음. 확인처: Latin Times, El Planeta Urbano, Ohlalá, Rolling Stone en Español</td>
+</tr>
+<tr>
+<td>한강 "아시아 여성 최초"는 확인 못 함</td>
+<td><strong>확인됨</strong>. 한국인 최초이자 아시아 여성 최초. 확인처: New York Times, Los Angeles Times, Wikipedia</td>
+</tr>
+<tr>
+<td>강남스타일 "최초 10억 뷰"는 확인 못 함</td>
+<td><strong>확인됨</strong>. 2012.12.21, 어떤 영상도 못 넘은 첫 10억 뷰. 확인처: Guinness World Records, YouTube 공식 블로그, History</td>
+</tr>
+<tr>
+<td>폴더 구성, 음성 98.4%, 컷·카드 수, -16.6 LUFS 등</td>
+<td>실제 파일과 측정값 그대로 맞음</td>
+</tr>
+</tbody>
+</table></div>
+<h2>다른 세션용 복붙 프롬프트</h2>
+<pre><code>작업 폴더 C:\Users\llorr\Videos\kpride_8m30s_sources 의 README.md와 대본_국뽕_8분30초.md를 먼저 읽고, videos/의 영상 4개와 subs/ 자막을 기반으로 같은 편집을 하세요.
+규격: 102컷 × 5초 = 510초, 1920x1080 30fps. 컷 종류는 대본 표의 화면 열(CLIP/CARD)을 따름. 키워드는 24자 이하, 형광 파랑 #00B7FF + 형광 빨강 #FF1F4B, Pretendard. 클립 시작 초는 README 표 그대로.
+음성: Qwen3-TTS 이미 설치됨 (가상환경 C:\Users\llorr\qwen3tts_venv, 모델 C:\Users\llorr\qwen3tts_models\Qwen3-TTS-12Hz-1.7B-Base, 참조 음성 C:\Users\llorr\Music\미누음성data_cinema_canary_ko.mp3). 배치는 6까지만, 그 이상은 GPU 메모리 부족.
+수정 가능 범위: 새 작업 폴더 안만. videos/ 원본 삭제·덮어쓰기 금지. 승인 전에는 파일 삭제 금지.
+</code></pre></section>
+<section class="panel" id="script"><div class="bar"><button id="copyNar">나레이션만 전체 복사</button></div><h1>한국 노래가 유튜브를 고장 냈다 — 외국이 점수를 매긴 진짜 이유</h1>
+<ul>
+<li>썸네일: <strong>운이 아니다</strong></li>
+<li>선택 전개: C형 (충격 판정 + 근거 쇼크)</li>
+<li>핵심 관점: 한국이 세계를 놀라게 하는 건 타고난 재능이 아니라, 폐허와 위기를 빠르게 판 갈아엎는 방식으로 바꿔 온 이력이 문화와 산업 전체에서 한꺼번에 드러나기 때문이다.</li>
+<li>길이: 102컷 × 5초 = 8분 30초 (510초)</li>
+<li>구조: 통념(한 번의 운) → 1차 반전(분야가 다 다르다) → 잠정 가설(천재 민족) → 2차 반전(재능이 아니라 위기를 다루는 방식)</li>
+</ul>
+<h2>제작 규격</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>음성</td>
+<td>Qwen3-TTS 보이스클론 (참조: 미누음성data_cinema_canary_ko.mp3), 컷마다 1개 파일 생성 후 5초에 맞춰 길이 보정</td>
+</tr>
+<tr>
+<td>키워드 카드</td>
+<td>PPT식 전체 화면, 글자 24자 이하(공백 포함), 컷당 키워드 1개</td>
+</tr>
+<tr>
+<td>색</td>
+<td>배경 #0B0B12, 형광 파랑 #00B7FF (기본), 형광 빨강 #FF1F4B (강조 단어 1개만)</td>
+</tr>
+<tr>
+<td>글꼴</td>
+<td>Pretendard (ExtraBold/Bold)</td>
+</tr>
+<tr>
+<td>참고 이미지</td>
+<td>카드 우측 또는 배경에 선택 삽입 (권리가 확인된 것만)</td>
+</tr>
+<tr>
+<td>클립</td>
+<td>원본 영상에서 5초씩 잘라 사용, 원본 음성은 끄고 내 음성만 사용</td>
+</tr>
+</tbody>
+</table></div>
+<h2>소스 영상 (사용 4개 / 제외 2개)</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>코드</th>
+<th>영상</th>
+<th>길이</th>
+<th>상태</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GANGNAM</td>
+<td>The Unbelievable Story Beyond Gangnam Style (plutoopictures, -441RF78mSY)</td>
+<td>29:24</td>
+<td>사용</td>
+</tr>
+<tr>
+<td>BTS_RETURN</td>
+<td>Why Did BTS Come Back BIGGER After Almost 4 Years Away? (K-STAR STORY, xxPmlDAHSDE)</td>
+<td>10:00</td>
+<td>사용</td>
+</tr>
+<tr>
+<td>BTS_ARG</td>
+<td>BTS Arrive in Argentina After Chile (V2K Pop, zTFaqgn8BpE)</td>
+<td>32:48</td>
+<td>컷 013만 사용 (공항 영상에 "LOS ANGELES" 표지가 읽히는 구간이 많아 남미 설명 컷에는 쓰지 않음)</td>
+</tr>
+<tr>
+<td>BIRTH</td>
+<td>Are Nations Dying? Birth Rates by Country, Mapped (The Counting Map, xgu4AItR_Fk)</td>
+<td>10:10</td>
+<td>사용</td>
+</tr>
+<tr>
+<td>(제외)</td>
+<td>The Reality of Idol Diets (iINAYZJAFCc)</td>
+<td>17:11</td>
+<td>국뽕 톤과 맞지 않음</td>
+</tr>
+<tr>
+<td>(제외)</td>
+<td>Korean Honor Student, Muslim Prom Prince... (XwKfttLFy5k)</td>
+<td>38:06</td>
+<td>실제 사건 피해자가 있는 내용</td>
+</tr>
+</tbody>
+</table></div>
+<p>클립 구간은 영상을 내려받아 프레임을 확인하고 확정했습니다 (컷별 시작 초는 작업 폴더의 build_segments.py PICKS 참고).</p>
+<h2>컷별 대본</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>No</th>
+<th>시각</th>
+<th>구간</th>
+<th>화면</th>
+<th>소스</th>
+<th>키워드(24자 이하)</th>
+<th>참고 이미지</th>
+<th>나레이션</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>001</td>
+<td>0:00</td>
+<td>HOOK</td>
+<td>CLIP</td>
+<td>GANGNAM</td>
+<td>유튜브가 멈췄다</td>
+<td>-</td>
+<td>한국 노래 하나가 유튜브를 고장 냈습니다. 비유가 아니라 진짜로요.</td>
+</tr>
+<tr>
+<td>002</td>
+<td>0:05</td>
+<td>HOOK</td>
+<td>CARD</td>
+<td>-</td>
+<td>2014.12 조회수 한계</td>
+<td>조회수 카운터</td>
+<td>2014년 12월, 유튜브는 조회수 숫자를 통째로 뜯어고쳐야 했습니다.</td>
+</tr>
+<tr>
+<td>003</td>
+<td>0:10</td>
+<td>HOOK</td>
+<td>CARD</td>
+<td>-</td>
+<td>21억 번의 벽</td>
+<td>2,147,483,647</td>
+<td>컴퓨터가 셀 수 있는 한계가 21억 번인데, 한 곡이 그걸 넘었거든요.</td>
+</tr>
+<tr>
+<td>004</td>
+<td>0:15</td>
+<td>HOOK</td>
+<td>CLIP</td>
+<td>GANGNAM</td>
+<td>-</td>
+<td>-</td>
+<td>유튜브가 공식 인정했습니다. 이렇게 많이 볼 줄 몰랐다고요.</td>
+</tr>
+<tr>
+<td>005</td>
+<td>0:20</td>
+<td>HOOK</td>
+<td>CARD</td>
+<td>-</td>
+<td>싸이 한 명의 운?</td>
+<td>-</td>
+<td>근데 다들 그러죠. 싸이 한 명의 운이었다고요.</td>
+</tr>
+<tr>
+<td>006</td>
+<td>0:25</td>
+<td>HOOK</td>
+<td>CARD</td>
+<td>-</td>
+<td>운이면 한 번이면 끝</td>
+<td>-</td>
+<td>운이면 한 번에 끝나야 정상인데, 한국은 분야를 바꿔 계속 터졌어요.</td>
+</tr>
+<tr>
+<td>007</td>
+<td>0:30</td>
+<td>HOOK</td>
+<td>CARD</td>
+<td>-</td>
+<td>외국이 매긴 점수</td>
+<td>-</td>
+<td>오늘은 외국이 직접 매긴 점수만 모았습니다. 끝에 진짜 이유가 나와요.</td>
+</tr>
+<tr>
+<td>008</td>
+<td>0:35</td>
+<td>현실</td>
+<td>CLIP</td>
+<td>GANGNAM</td>
+<td>유튜브 최초 10억 뷰</td>
+<td>-</td>
+<td>그 노래가 2012년 12월, 유튜브 최초로 조회수 10억을 찍습니다.</td>
+</tr>
+<tr>
+<td>009</td>
+<td>0:40</td>
+<td>현실</td>
+<td>CLIP</td>
+<td>GANGNAM</td>
+<td>-</td>
+<td>-</td>
+<td>유튜브가 생긴 뒤 어떤 영상도 거기까지 간 적이 없었어요.</td>
+</tr>
+<tr>
+<td>010</td>
+<td>0:45</td>
+<td>현실</td>
+<td>CLIP</td>
+<td>BTS_RETURN</td>
+<td>4년 만의 귀환</td>
+<td>-</td>
+<td>그리고 지금 2026년 10월, BTS가 4년 가까운 공백 끝에 돌아왔습니다.</td>
+</tr>
+<tr>
+<td>011</td>
+<td>0:50</td>
+<td>현실</td>
+<td>CLIP</td>
+<td>BTS_RETURN</td>
+<td>아리랑 월드투어</td>
+<td>-</td>
+<td>새 앨범 아리랑을 들고 4월 고양에서 스타디움 투어를 시작했죠.</td>
+</tr>
+<tr>
+<td>012</td>
+<td>0:55</td>
+<td>현실</td>
+<td>CARD</td>
+<td>-</td>
+<td>몇 시간 만에 매진</td>
+<td>티켓 화면</td>
+<td>한국, 북미, 유럽 티켓은 판매 몇 시간 만에 매진됐습니다.</td>
+</tr>
+<tr>
+<td>013</td>
+<td>1:00</td>
+<td>현실</td>
+<td>CLIP</td>
+<td>BTS_ARG</td>
+<td>칠레 → 아르헨티나</td>
+<td>-</td>
+<td>지금은 남미를 돌고 있습니다. 칠레를 마치고 아르헨티나에 도착했어요.</td>
+</tr>
+<tr>
+<td>014</td>
+<td>1:05</td>
+<td>현실</td>
+<td>CLIP</td>
+<td>BTS_RETURN</td>
+<td>지구 반대편 스타디움</td>
+<td>-</td>
+<td>한국어 노래 하나 들으려고 지구 반대편이 스타디움을 채웁니다.</td>
+</tr>
+<tr>
+<td>015</td>
+<td>1:10</td>
+<td>통념</td>
+<td>CARD</td>
+<td>-</td>
+<td>반짝 유행일 뿐?</td>
+<td>-</td>
+<td>솔직히 의심할 만합니다. 반짝 뜨고 사라진 문화는 많았으니까요.</td>
+</tr>
+<tr>
+<td>016</td>
+<td>1:15</td>
+<td>통념</td>
+<td>CLIP</td>
+<td>BTS_RETURN</td>
+<td>-</td>
+<td>-</td>
+<td>BTS도 군 복무로 몇 년을 쉬었죠. 보통은 그사이 식는 게 상식입니다.</td>
+</tr>
+<tr>
+<td>017</td>
+<td>1:20</td>
+<td>통념</td>
+<td>CARD</td>
+<td>-</td>
+<td>스타 몇 명의 성공?</td>
+<td>-</td>
+<td>그래서 이렇게들 설명합니다. 스타 몇 명이 잘한 거라고요.</td>
+</tr>
+<tr>
+<td>018</td>
+<td>1:25</td>
+<td>통념</td>
+<td>CARD</td>
+<td>-</td>
+<td>기획사 마케팅 덕?</td>
+<td>-</td>
+<td>대형 기획사 마케팅이 좋았던 거지, 나라가 대단한 건 아니라고요.</td>
+</tr>
+<tr>
+<td>019</td>
+<td>1:30</td>
+<td>통념</td>
+<td>CLIP</td>
+<td>GANGNAM</td>
+<td>한 곡짜리 신기록?</td>
+<td>-</td>
+<td>싸이도 마찬가지입니다. 말춤 한 곡으로 한 방 터진 거라고요.</td>
+</tr>
+<tr>
+<td>020</td>
+<td>1:35</td>
+<td>통념</td>
+<td>CARD</td>
+<td>-</td>
+<td>한 번은 우연이다</td>
+<td>-</td>
+<td>이 논리, 꽤 튼튼합니다. 한 번 터진 건 우연이라 부를 수 있으니까요.</td>
+</tr>
+<tr>
+<td>021</td>
+<td>1:40</td>
+<td>통념</td>
+<td>CARD</td>
+<td>-</td>
+<td>우연은 딱 한 번까지</td>
+<td>-</td>
+<td>그런데 우연이라는 말은 딱 한 번까지만 쓸 수 있습니다.</td>
+</tr>
+<tr>
+<td>022</td>
+<td>1:45</td>
+<td>통념</td>
+<td>CARD</td>
+<td>-</td>
+<td>두 번째부터는 의심</td>
+<td>-</td>
+<td>두 번째부터는 의심해야 해요. 세 번째면 이미 우연이 아니고요.</td>
+</tr>
+<tr>
+<td>023</td>
+<td>1:50</td>
+<td>통념</td>
+<td>CARD</td>
+<td>-</td>
+<td>다른 분야에서 연달아?</td>
+<td>-</td>
+<td>그럼 같은 일이 전혀 다른 분야에서 연달아 일어났다면요?</td>
+</tr>
+<tr>
+<td>024</td>
+<td>1:55</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>기생충 · 오스카 작품상</td>
+<td>포스터</td>
+<td>2020년 기생충, 아카데미 작품상. 외국어 영화로는 역사상 처음입니다.</td>
+</tr>
+<tr>
+<td>025</td>
+<td>2:00</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>1인치 자막의 벽</td>
+<td>수상 소감 장면</td>
+<td>봉준호 감독은 말했죠. 1인치 자막의 벽만 넘으면 된다고요.</td>
+</tr>
+<tr>
+<td>026</td>
+<td>2:05</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>오징어 게임 16.5억 시간</td>
+<td>포스터</td>
+<td>2021년 오징어 게임. 28일 동안 16억 5천만 시간이 재생됐습니다.</td>
+</tr>
+<tr>
+<td>027</td>
+<td>2:10</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>넷플릭스 역대 1위</td>
+<td>순위 차트</td>
+<td>당시 넷플릭스 역대 1위 시리즈. 시즌2는 데뷔 기록까지 깼습니다.</td>
+</tr>
+<tr>
+<td>028</td>
+<td>2:15</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>한강 · 노벨문학상</td>
+<td>도서 표지</td>
+<td>2024년 한강 작가가 노벨문학상. 한국인 최초, 아시아 여성 최초예요.</td>
+</tr>
+<tr>
+<td>029</td>
+<td>2:20</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>BTS · 빌보드 핫100 1위</td>
+<td>차트</td>
+<td>음악은요. 2020년 BTS가 빌보드 핫100 1위. 한국 가수 최초예요.</td>
+</tr>
+<tr>
+<td>030</td>
+<td>2:25</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>케이팝 데몬 헌터스</td>
+<td>포스터</td>
+<td>2025년엔 케이팝 데몬 헌터스가 넷플릭스 역대 최다 시청 영화가 됩니다.</td>
+</tr>
+<tr>
+<td>031</td>
+<td>2:30</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>골든 · 핫100 8주 1위</td>
+<td>차트</td>
+<td>주제곡 골든은 빌보드 핫100 1위에 8주나 머물렀습니다.</td>
+</tr>
+<tr>
+<td>032</td>
+<td>2:35</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>다섯 분야, 전부 다르다</td>
+<td>아이콘 5개</td>
+<td>영화, 드라마, 문학, 음악, 애니. 전혀 다른 다섯 분야입니다.</td>
+</tr>
+<tr>
+<td>033</td>
+<td>2:40</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>이게 우연일까?</td>
+<td>-</td>
+<td>스타 한 명의 운이라면, 이게 같은 나라에서 연달아 터질 수 있을까요?</td>
+</tr>
+<tr>
+<td>034</td>
+<td>2:45</td>
+<td>균열</td>
+<td>CARD</td>
+<td>-</td>
+<td>스타가 아니라 나라</td>
+<td>-</td>
+<td>그럼 이건 스타 이야기가 아니라, 나라 전체의 이야기라는 뜻이죠.</td>
+</tr>
+<tr>
+<td>035</td>
+<td>2:50</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>재능이 아니라 속도</td>
+<td>-</td>
+<td>제가 보는 공통점은 하나입니다. 재능이 아니라 속도예요.</td>
+</tr>
+<tr>
+<td>036</td>
+<td>2:55</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>만들고 · 고치고 · 갈아엎기</td>
+<td>-</td>
+<td>만들고, 고치고, 안 되면 갈아엎는 속도. 한국의 기본값이죠.</td>
+</tr>
+<tr>
+<td>037</td>
+<td>3:00</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>저녁 주문, 아침 도착</td>
+<td>택배 상자</td>
+<td>저녁에 주문한 물건이 아침에 문 앞에 와 있는 일, 한국엔 흔하죠.</td>
+</tr>
+<tr>
+<td>038</td>
+<td>3:05</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>당연하지 않은 속도</td>
+<td>-</td>
+<td>우리한테는 평범하지만, 이 속도가 당연하지 않은 나라도 많아요.</td>
+</tr>
+<tr>
+<td>039</td>
+<td>3:10</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>엘리베이터를 만든 나라</td>
+<td>일러스트</td>
+<td>남들이 계단으로 5층을 오를 때, 한국은 엘리베이터부터 만들었어요.</td>
+</tr>
+<tr>
+<td>040</td>
+<td>3:15</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>불평 전에 일단 만든다</td>
+<td>-</td>
+<td>불평하기 전에 일단 만든다. 이게 한국식 문제 해결입니다.</td>
+</tr>
+<tr>
+<td>041</td>
+<td>3:20</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>세종 · 한글 · 1443</td>
+<td>훈민정음</td>
+<td>아주 오래된 습관이에요. 세종대왕은 쉽게 익히라고 한글을 만들었죠.</td>
+</tr>
+<tr>
+<td>042</td>
+<td>3:25</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>어려움을 쉬움으로</td>
+<td>-</td>
+<td>어려운 글자를 쉬운 글자로 갈아엎은 겁니다. 속도가 달라질 수밖에요.</td>
+</tr>
+<tr>
+<td>043</td>
+<td>3:30</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>70여 년 전, 폐허</td>
+<td>전후 사진</td>
+<td>그리고 70여 년 전, 한국은 전쟁으로 폐허가 된 나라였습니다.</td>
+</tr>
+<tr>
+<td>044</td>
+<td>3:35</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>기다릴 여유가 없었다</td>
+<td>-</td>
+<td>기다릴 여유가 없으니 배우고, 따라 하고, 고쳐서 먼저 달렸어요.</td>
+</tr>
+<tr>
+<td>045</td>
+<td>3:40</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>한 방이 아니라 반복</td>
+<td>-</td>
+<td>한 방이 아니라 반복. 실패하면 바로 고쳐서 다시 내놓는 거죠.</td>
+</tr>
+<tr>
+<td>046</td>
+<td>3:45</td>
+<td>원리</td>
+<td>CARD</td>
+<td>-</td>
+<td>강력한 반박 등장</td>
+<td>-</td>
+<td>그런데 여기에 아주 강한 반박이 하나 따라붙습니다.</td>
+</tr>
+<tr>
+<td>047</td>
+<td>3:50</td>
+<td>반론</td>
+<td>CLIP</td>
+<td>BIRTH</td>
+<td>출산율 세계 꼴찌?</td>
+<td>-</td>
+<td>그렇게 대단하면 왜 출산율은 세계 꼴찌냐고요. 맞는 말이에요.</td>
+</tr>
+<tr>
+<td>048</td>
+<td>3:55</td>
+<td>반론</td>
+<td>CLIP</td>
+<td>BIRTH</td>
+<td>2023년 0.72명</td>
+<td>-</td>
+<td>2023년 한국 합계출산율은 0.72명. 세계에서 가장 낮았습니다.</td>
+</tr>
+<tr>
+<td>049</td>
+<td>4:00</td>
+<td>반론</td>
+<td>CLIP</td>
+<td>BIRTH</td>
+<td>-</td>
+<td>-</td>
+<td>여성 한 명이 평생 낳는 아이가 평균 한 명도 안 된다는 뜻이에요.</td>
+</tr>
+<tr>
+<td>050</td>
+<td>4:05</td>
+<td>반론</td>
+<td>CARD</td>
+<td>-</td>
+<td>국뽕으로 못 덮는 숙제</td>
+<td>-</td>
+<td>이건 국뽕으로 덮을 수 없는 숙제입니다. 인정할 건 인정해요.</td>
+</tr>
+<tr>
+<td>051</td>
+<td>4:10</td>
+<td>반론</td>
+<td>CLIP</td>
+<td>BIRTH</td>
+<td>빠른 성장의 그림자</td>
+<td>-</td>
+<td>빠른 성장에는 그림자가 있습니다. 집값, 경쟁, 쫓기는 시간이요.</td>
+</tr>
+<tr>
+<td>052</td>
+<td>4:15</td>
+<td>반론</td>
+<td>CARD</td>
+<td>-</td>
+<td>약점을 숨기면 거짓</td>
+<td>-</td>
+<td>그래서 약점을 모른 척하는 순간부터 이야기는 거짓이 됩니다.</td>
+</tr>
+<tr>
+<td>053</td>
+<td>4:20</td>
+<td>반론</td>
+<td>CLIP</td>
+<td>BIRTH</td>
+<td>-</td>
+<td>-</td>
+<td>근데 이 숫자가 계속 떨어지기만 했을까요? 아닙니다.</td>
+</tr>
+<tr>
+<td>054</td>
+<td>4:25</td>
+<td>반론</td>
+<td>CARD</td>
+<td>-</td>
+<td>2024년 0.75명, 9년 만에 반등</td>
+<td>차트</td>
+<td>2024년 0.75명. 9년 만의 첫 반등이었고 혼인은 15% 가까이 뛰었죠.</td>
+</tr>
+<tr>
+<td>055</td>
+<td>4:30</td>
+<td>반론</td>
+<td>CARD</td>
+<td>-</td>
+<td>2025년 0.80명(잠정)</td>
+<td>차트</td>
+<td>2025년은 잠정 0.80명. 2년 연속 반등이고 혼인도 또 늘었습니다.</td>
+</tr>
+<tr>
+<td>056</td>
+<td>4:35</td>
+<td>반론</td>
+<td>CLIP</td>
+<td>BIRTH</td>
+<td>방향이 바뀌었다</td>
+<td>-</td>
+<td>아직 1명도 안 되는 낮은 숫자지만, 방향이 바뀐 건 사실입니다.</td>
+</tr>
+<tr>
+<td>057</td>
+<td>4:40</td>
+<td>반론</td>
+<td>CARD</td>
+<td>-</td>
+<td>위기를 알고 방향을 튼다</td>
+<td>-</td>
+<td>위기를 모르는 나라와 위기를 알고 방향 트는 나라는 완전히 달라요.</td>
+</tr>
+<tr>
+<td>058</td>
+<td>4:45</td>
+<td>잠정</td>
+<td>CARD</td>
+<td>-</td>
+<td>한국인은 천재 민족?</td>
+<td>-</td>
+<td>여기까지 들으면 결론이 나오죠. 한국인은 타고난 천재들이다.</td>
+</tr>
+<tr>
+<td>059</td>
+<td>4:50</td>
+<td>잠정</td>
+<td>CARD</td>
+<td>-</td>
+<td>듣기 좋은 결론</td>
+<td>-</td>
+<td>솔직히 듣기 좋은 결론입니다. 국뽕 채널이면 여기서 끝낼 거예요.</td>
+</tr>
+<tr>
+<td>060</td>
+<td>4:55</td>
+<td>잠정</td>
+<td>CLIP</td>
+<td>GANGNAM</td>
+<td>재능으로 설명하면?</td>
+<td>-</td>
+<td>싸이는 끼가 있었고, 봉준호는 천재고, 한강은 타고났다. 깔끔하죠.</td>
+</tr>
+<tr>
+<td>061</td>
+<td>5:00</td>
+<td>잠정</td>
+<td>CARD</td>
+<td>-</td>
+<td>설명엔 구멍이 있다</td>
+<td>-</td>
+<td>그런데 이 설명엔 구멍이 하나 있습니다. 천재는 어느 나라에나 있어요.</td>
+</tr>
+<tr>
+<td>062</td>
+<td>5:05</td>
+<td>잠정</td>
+<td>CARD</td>
+<td>-</td>
+<td>왜 하필 지금, 한국?</td>
+<td>-</td>
+<td>그럼 왜 하필 지금일까요? 왜 하필 한국이었을까요?</td>
+</tr>
+<tr>
+<td>063</td>
+<td>5:10</td>
+<td>잠정</td>
+<td>CARD</td>
+<td>-</td>
+<td>70년 전에도 재능은 있었다</td>
+<td>-</td>
+<td>70년 전에도 재능은 있었을 텐데, 왜 세계는 몰랐을까요?</td>
+</tr>
+<tr>
+<td>064</td>
+<td>5:15</td>
+<td>잠정</td>
+<td>CARD</td>
+<td>-</td>
+<td>재능이 정답이면 모순</td>
+<td>-</td>
+<td>재능이 정답이라면 시간 순서가 맞지 않습니다. 뭔가 더 있어요.</td>
+</tr>
+<tr>
+<td>065</td>
+<td>5:20</td>
+<td>잠정</td>
+<td>CARD</td>
+<td>-</td>
+<td>외국이 매긴 점수만</td>
+<td>-</td>
+<td>이제 증거를 보겠습니다. 이번에도 외국이 매긴 점수만 쓸게요.</td>
+</tr>
+<tr>
+<td>066</td>
+<td>5:25</td>
+<td>잠정</td>
+<td>CARD</td>
+<td>-</td>
+<td>증거 1 유엔 · 증거 2 IMF</td>
+<td>-</td>
+<td>증거는 딱 두 개. 하나는 유엔, 하나는 IMF입니다.</td>
+</tr>
+<tr>
+<td>067</td>
+<td>5:30</td>
+<td>잠정</td>
+<td>CARD</td>
+<td>-</td>
+<td>재능 이야기가 틀린 이유</td>
+<td>-</td>
+<td>이 두 장면을 보면 재능 이야기가 왜 틀렸는지 보입니다.</td>
+</tr>
+<tr>
+<td>068</td>
+<td>5:35</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>정답은 재능이 아니다</td>
+<td>-</td>
+<td>아닙니다. 한국이 터진 이유는 재능이 아니라, 위기를 다루는 방식이었어요.</td>
+</tr>
+<tr>
+<td>069</td>
+<td>5:40</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>증거 1 · 유엔 2021</td>
+<td>UNCTAD 로고</td>
+<td>첫 번째 증거. 2021년 7월, 유엔무역개발회의가 한국의 지위를 바꿉니다.</td>
+</tr>
+<tr>
+<td>070</td>
+<td>5:45</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>1964년 이후 최초</td>
+<td>-</td>
+<td>개발도상국에서 선진국 그룹으로. 1964년 이 기구 설립 이후 처음이었어요.</td>
+</tr>
+<tr>
+<td>071</td>
+<td>5:50</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>만장일치</td>
+<td>-</td>
+<td>그것도 만장일치였습니다. 외국이 직접 손을 들어 준 거예요.</td>
+</tr>
+<tr>
+<td>072</td>
+<td>5:55</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>원조받던 나라가 선진국으로</td>
+<td>-</td>
+<td>원조를 받던 나라가, 이제 선진국 그룹에 이름을 올렸다는 얘기죠.</td>
+</tr>
+<tr>
+<td>073</td>
+<td>6:00</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>증거 2 · IMF 195억 달러</td>
+<td>IMF 로고</td>
+<td>두 번째 증거. 1997년 외환위기 때 IMF에서 약 195억 달러를 빌렸죠.</td>
+</tr>
+<tr>
+<td>074</td>
+<td>6:05</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>금 모으기 227톤</td>
+<td>금 모으기 사진</td>
+<td>그때 국민 351만 명이 장롱 속 금을 들고 나왔습니다. 227톤이었죠.</td>
+</tr>
+<tr>
+<td>075</td>
+<td>6:10</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>3년 앞당겨 완납</td>
+<td>-</td>
+<td>그리고 2001년 8월, 예정보다 3년이나 앞당겨 빚을 전부 갚았습니다.</td>
+</tr>
+<tr>
+<td>076</td>
+<td>6:15</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>IMF 총재도 축하</td>
+<td>-</td>
+<td>IMF 총재가 직접 축하했어요. 다른 나라의 모범 사례라면서요.</td>
+</tr>
+<tr>
+<td>077</td>
+<td>6:20</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>위기 → 방식을 바꾼다</td>
+<td>-</td>
+<td>공통점이 보이시나요? 한국은 위기를 만나면 방식을 통째로 바꿨습니다.</td>
+</tr>
+<tr>
+<td>078</td>
+<td>6:25</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>재능은 흔하다</td>
+<td>-</td>
+<td>재능은 어느 나라에나 있어요. 판을 갈아엎는 속도는 아무나 못 갖죠.</td>
+</tr>
+<tr>
+<td>079</td>
+<td>6:30</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>같은 방식이 문화로</td>
+<td>-</td>
+<td>그 속도가 지금은 영화, 드라마, 음악, 소설에서 똑같이 작동 중입니다.</td>
+</tr>
+<tr>
+<td>080</td>
+<td>6:35</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>세계 수준까지 파고든다</td>
+<td>-</td>
+<td>한 분야를 정하면 세계 수준이 될 때까지 파고드는 방식이요.</td>
+</tr>
+<tr>
+<td>081</td>
+<td>6:40</td>
+<td>반전</td>
+<td>CARD</td>
+<td>-</td>
+<td>한국의 힘 = 극복의 이력</td>
+<td>-</td>
+<td>그러니까 한국의 힘은 천재성이 아니라, 위기를 힘으로 바꿔 온 이력입니다.</td>
+</tr>
+<tr>
+<td>082</td>
+<td>6:45</td>
+<td>결론</td>
+<td>CARD</td>
+<td>-</td>
+<td>스타 때문만이 아니다</td>
+<td>-</td>
+<td>정리합니다. 외국인이 놀라는 건 화려한 스타 때문만이 아니에요.</td>
+</tr>
+<tr>
+<td>083</td>
+<td>6:50</td>
+<td>결론</td>
+<td>CARD</td>
+<td>-</td>
+<td>폐허에서 여기까지</td>
+<td>-</td>
+<td>폐허에서 여기까지 온 이력이 노래와 영화와 소설로 보이는 겁니다.</td>
+</tr>
+<tr>
+<td>084</td>
+<td>6:55</td>
+<td>결론</td>
+<td>CLIP</td>
+<td>BTS_RETURN</td>
+<td>4년 쉬고도 스타디움</td>
+<td>-</td>
+<td>BTS가 4년 가까이 쉬고도 스타디움을 채우는 것도 같은 힘입니다.</td>
+</tr>
+<tr>
+<td>085</td>
+<td>7:00</td>
+<td>결론</td>
+<td>CLIP</td>
+<td>BTS_RETURN</td>
+<td>-</td>
+<td>-</td>
+<td>쉬는 동안에도 세계 팬덤은 자랐고, 돌아오자 한꺼번에 드러났죠.</td>
+</tr>
+<tr>
+<td>086</td>
+<td>7:05</td>
+<td>결론</td>
+<td>CARD</td>
+<td>-</td>
+<td>같은 속도가 시험받는다</td>
+<td>-</td>
+<td>출산율도 바닥을 찍고 올라오는 중이니, 같은 속도가 또 시험받는 겁니다.</td>
+</tr>
+<tr>
+<td>087</td>
+<td>7:10</td>
+<td>결론</td>
+<td>CARD</td>
+<td>-</td>
+<td>자랑이 아니라 질문</td>
+<td>-</td>
+<td>그래서 이 이야기의 결론은 자랑이 아니라 질문입니다.</td>
+</tr>
+<tr>
+<td>088</td>
+<td>7:15</td>
+<td>결론</td>
+<td>CARD</td>
+<td>-</td>
+<td>오스카 · 노벨상 · 빌보드 · 유엔</td>
+<td>-</td>
+<td>오스카, 노벨상, 빌보드, 유엔. 전부 외국이 직접 준 점수입니다.</td>
+</tr>
+<tr>
+<td>089</td>
+<td>7:20</td>
+<td>결론</td>
+<td>CARD</td>
+<td>-</td>
+<td>운은 한 번, 실력은 계속</td>
+<td>-</td>
+<td>운은 한 번만 통합니다. 분야를 바꿔 이어진다면 그건 실력이에요.</td>
+</tr>
+<tr>
+<td>090</td>
+<td>7:25</td>
+<td>결론</td>
+<td>CARD</td>
+<td>-</td>
+<td>한 곡이 아니라 한 나라</td>
+<td>-</td>
+<td>그래서 외국인들은 말문이 막힙니다. 한 곡이 아니라 한 나라가 보이니까요.</td>
+</tr>
+<tr>
+<td>091</td>
+<td>7:30</td>
+<td>결론</td>
+<td>CARD</td>
+<td>-</td>
+<td>자랑스러워해도 된다</td>
+<td>-</td>
+<td>그러니 이번만큼은 마음 편히 자랑스러워하셔도 됩니다.</td>
+</tr>
+<tr>
+<td>092</td>
+<td>7:35</td>
+<td>회수</td>
+<td>CLIP</td>
+<td>GANGNAM</td>
+<td>2014년 12월</td>
+<td>-</td>
+<td>처음 장면으로 돌아가죠. 2014년 12월, 유튜브가 숫자 칸을 늘리던 날.</td>
+</tr>
+<tr>
+<td>093</td>
+<td>7:40</td>
+<td>회수</td>
+<td>CLIP</td>
+<td>GANGNAM</td>
+<td>-</td>
+<td>-</td>
+<td>그땐 노래 한 곡이 이긴 날 같았죠. 지금은 다르게 보입니다.</td>
+</tr>
+<tr>
+<td>094</td>
+<td>7:45</td>
+<td>회수</td>
+<td>CARD</td>
+<td>-</td>
+<td>세상의 칸을 넘다</td>
+<td>-</td>
+<td>한국이 세상이 만든 칸을 넘기 시작한 신호였던 겁니다.</td>
+</tr>
+<tr>
+<td>095</td>
+<td>7:50</td>
+<td>회수</td>
+<td>CLIP</td>
+<td>BTS_RETURN</td>
+<td>-</td>
+<td>-</td>
+<td>지금 지구 반대편 남미 스타디움엔 한국어 노래가 울려 퍼집니다.</td>
+</tr>
+<tr>
+<td>096</td>
+<td>7:55</td>
+<td>회수</td>
+<td>CLIP</td>
+<td>BTS_RETURN</td>
+<td>-</td>
+<td>-</td>
+<td>가난한 나라라고 배웠던 이야기가 이렇게 이어질 줄 누가 알았겠어요.</td>
+</tr>
+<tr>
+<td>097</td>
+<td>8:00</td>
+<td>회수</td>
+<td>CARD</td>
+<td>-</td>
+<td>우리가 넘을 다음 칸</td>
+<td>-</td>
+<td>그럼 이제 우리는 어떤 칸을 넘고 있을까요? 다음 위기는 뭘까요?</td>
+</tr>
+<tr>
+<td>098</td>
+<td>8:05</td>
+<td>회수</td>
+<td>CARD</td>
+<td>-</td>
+<td>나라의 이야기 = 나의 이야기</td>
+<td>-</td>
+<td>이건 나라 얘기지만 사실 각자의 이야기이기도 합니다.</td>
+</tr>
+<tr>
+<td>099</td>
+<td>8:10</td>
+<td>회수</td>
+<td>CARD</td>
+<td>-</td>
+<td>막힘은 방식을 바꿀 타이밍</td>
+<td>-</td>
+<td>지금 막힌 일이 있다면 끝이 아니라, 방식을 갈아엎을 타이밍일 수 있어요.</td>
+</tr>
+<tr>
+<td>100</td>
+<td>8:15</td>
+<td>회수</td>
+<td>CARD</td>
+<td>-</td>
+<td>폐허에서 시작해 여기까지</td>
+<td>-</td>
+<td>폐허에서 시작한 나라도 여기까지 왔는데, 못 넘을 칸이 어디 있겠어요.</td>
+</tr>
+<tr>
+<td>101</td>
+<td>8:20</td>
+<td>회수</td>
+<td>CARD</td>
+<td>-</td>
+<td>자랑으로만 끝내지 말자</td>
+<td>-</td>
+<td>오늘의 이야기가 자랑으로만 끝나지 않았으면 좋겠습니다.</td>
+</tr>
+<tr>
+<td>102</td>
+<td>8:25</td>
+<td>회수</td>
+<td>CARD</td>
+<td>-</td>
+<td>당신의 다음 칸은?</td>
+<td>-</td>
+<td>한국이 넘어온 칸처럼, 당신이 다음에 넘을 칸은 어디인가요?</td>
+</tr>
+</tbody>
+</table></div>
+<h2>출처 (본문에 쓴 핵심 사실)</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>사실</th>
+<th>확인처</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>강남스타일이 유튜브 조회수 카운터 한계(2,147,483,647)를 넘어 유튜브가 64비트로 교체 (2014.12)</td>
+<td>BBC News, Ars Technica</td>
+</tr>
+<tr>
+<td>케이팝 데몬 헌터스 넷플릭스 역대 최다 시청 영화, 골든 핫100 8주 1위</td>
+<td>Netflix Tudum, Forbes, Billboard</td>
+</tr>
+<tr>
+<td>오징어 게임 공개 28일 16.5억 시간, 당시 넷플릭스 1위 시리즈</td>
+<td>Variety, Korea Herald</td>
+</tr>
+<tr>
+<td>유엔무역개발회의(UNCTAD) 2021.7 개도국→선진국 그룹 변경, 1964년 설립 이후 처음, 만장일치</td>
+<td>Yonhap, Korea Times</td>
+</tr>
+<tr>
+<td>2001.8 IMF 차입금 조기 상환(약 195억 달러, 3년 앞당김), IMF 총재 축하</td>
+<td>IMF News Brief, Wikipedia 금 모으기 운동</td>
+</tr>
+<tr>
+<td>금 모으기 351만 명·227톤</td>
+<td>Wikipedia 금 모으기 운동 (2차 자료)</td>
+</tr>
+<tr>
+<td>합계출산율 2023 0.72 / 2024 0.75 / 2025 0.80(잠정), 혼인 2024 +14.9%·2025 +8.1%</td>
+<td>Reuters, NBC News</td>
+</tr>
+<tr>
+<td>BTS 앨범 아리랑(2026.3), 4.9 고양 시작 스타디움 투어, 한국·북미·유럽 티켓 수 시간 내 매진</td>
+<td>Wikipedia Arirang World Tour, Consequence</td>
+</tr>
+<tr>
+<td>BTS 아르헨티나(라플라타) 공연은 2026.10.21·23·24 세 차례. 21일 첫 공연은 이미 열림(23곡), 24일 공연은 전 세계 극장 생중계. 대본은 "도착"과 "남미 스타디움에 울려 퍼짐"까지만 말함</td>
+<td>Latin Times, El Planeta Urbano, Ohlalá, Rolling Stone en Español</td>
+</tr>
+<tr>
+<td>기생충 아카데미 작품상(제92회, 외국어 영화 최초), 봉준호 "1인치 자막의 벽" 발언</td>
+<td>World Economic Forum, Washington Post, Guardian</td>
+</tr>
+<tr>
+<td>BTS 다이너마이트 빌보드 핫100 1위(2020.8, 한국 가수 최초)</td>
+<td>Billboard, Korea.net</td>
+</tr>
+<tr>
+<td>한강 노벨문학상(2024, 한국인 최초, 아시아 여성 최초)</td>
+<td>New York Times, Los Angeles Times, Wikipedia (2026.10.24 검색으로 확인)</td>
+</tr>
+<tr>
+<td>강남스타일 유튜브 최초 10억 뷰(2012.12.21)</td>
+<td>Guinness World Records, YouTube 공식 블로그, History (2026.10.24 검색으로 확인)</td>
+</tr>
+</tbody>
+</table></div>
+<h2>확인이 필요한 점</h2>
+<ul>
+<li>여섯 번째 영상(미국 한인 사건)과 아이돌 다이어트 영상은 톤이 맞지 않아 제외했습니다.</li>
+<li>레이더 표의 "BTS 아르헨티나 공연 반응"은 실제로는 공연 전 도착 소식 영상입니다 (업로드 10/18, 첫 공연 10/21 이전). 공연 후기처럼 쓰지 않았습니다.</li>
+<li>정정: 이전 메모에는 아르헨티나 공연이 10/23~24라고 적었으나, 실제로는 10/21·23·24 세 차례입니다 (21일 추가 편성). 대본 문장("칠레를 마치고 아르헨티나에 도착", "남미 스타디움에 한국어 노래가 울려 퍼집니다")은 그대로 맞습니다.</li>
+<li>컷 85, 79, 78, 80, 44, 45는 제 해석(의견)입니다. 사실 주장이 아니라 해설로 말합니다.</li>
+<li>클립 속 BTS 공연 영상은 원 채널 허락과 별개로 방송사·소속사 권리가 걸려 있을 수 있습니다.</li>
+</ul></section>
+<section class="panel" id="orig"><h1>독창성 비중 측정 (2026-10-21)</h1>
+<p>대본 102컷의 나레이션을 문장 중심 기준으로 분류했습니다. 플랫폼 심사 기준이 아니라 대본의 해설 비중을 가늠하는 자체 기준입니다.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>분류</th>
+<th>뜻</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O</td>
+<td>제작자 고유의 의견·해석·평론·논증·비유</td>
+</tr>
+<tr>
+<td>C</td>
+<td>사회·역사적 배경을 풀어 설명</td>
+</tr>
+<tr>
+<td>B</td>
+<td>비하인드·일화·발언 인용으로 푼 사연</td>
+</tr>
+<tr>
+<td>F</td>
+<td>외부 출처의 사실·수치·날짜·수상 기록 전달</td>
+</tr>
+<tr>
+<td>Q</td>
+<td>질문·전환·통념 제시·예고·마무리 같은 구성 문장</td>
+</tr>
+</tbody>
+</table></div>
+<h2>결과 (컷 비중, 컷당 5초라 시간 비중과 같음)</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>항목</th>
+<th>내 분류</th>
+<th>독립 분류</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>독창 (O+C+B)</td>
+<td>60.8%</td>
+<td>47.1%</td>
+</tr>
+<tr>
+<td>의견·평론만 (O)</td>
+<td>49.0%</td>
+<td>37.3%</td>
+</tr>
+<tr>
+<td>사회·역사 배경 (C)</td>
+<td>5.9%</td>
+<td>6.9%</td>
+</tr>
+<tr>
+<td>비하인드 (B)</td>
+<td>5.9%</td>
+<td>2.9%</td>
+</tr>
+<tr>
+<td>외부 사실 전달 (F)</td>
+<td>22.5%</td>
+<td>24.5%</td>
+</tr>
+<tr>
+<td>구성 (Q)</td>
+<td>16.7%</td>
+<td>28.4%</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>독립 분류는 내 분류를 모르는 별도 에이전트가 같은 기준으로 매긴 것입니다. 두 분류가 같은 컷은 84/102 (82.4%).</li>
+<li>보수적으로는 독립 분류의 약 47%를 기준으로 보세요.</li>
+<li>제3자 영상 클립: 23컷 = 115초 / 510초 = 22.5% (원본 소리는 모두 제거, 내 음성만 사용)</li>
+<li>나머지 77.5%는 직접 만든 키워드 카드입니다 (내용의 사실은 공개 출처).</li>
+</ul>
+<h2>구간별 독창(O+C+B) 비중 (내 분류 / 독립 분류)</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>구간</th>
+<th>컷</th>
+<th>비중</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HOOK</td>
+<td>7</td>
+<td>71.4% / 28.6%</td>
+</tr>
+<tr>
+<td>현실 장면</td>
+<td>7</td>
+<td>14.3% / 0.0%</td>
+</tr>
+<tr>
+<td>통념</td>
+<td>9</td>
+<td>33.3% / 33.3%</td>
+</tr>
+<tr>
+<td>첫 균열</td>
+<td>11</td>
+<td>36.4% / 27.3%</td>
+</tr>
+<tr>
+<td>쉬운 원리</td>
+<td>12</td>
+<td>91.7% / 91.7%</td>
+</tr>
+<tr>
+<td>반론</td>
+<td>11</td>
+<td>54.5% / 54.5%</td>
+</tr>
+<tr>
+<td>잠정 결론</td>
+<td>10</td>
+<td>60.0% / 20.0%</td>
+</tr>
+<tr>
+<td>두 번째 반전</td>
+<td>14</td>
+<td>64.3% / 57.1%</td>
+</tr>
+<tr>
+<td>결론</td>
+<td>10</td>
+<td>100% / 70.0%</td>
+</tr>
+<tr>
+<td>회수</td>
+<td>11</td>
+<td>63.6% / 54.5%</td>
+</tr>
+</tbody>
+</table></div>
+<p>약한 곳: 현실 장면, 첫 균열, HOOK (사실을 나열하는 구간), 그리고 비하인드 스토리 (3~6컷).</p>
+<h2>컷별 분류 (1번부터 102번)</h2>
+<ul>
+<li>내 분류: BBBBQOQFFFFFFOQFQQQOOOQFBFFFFFFOOOOOOOOOCOCOOQQFCOCOQFFOOQOOOQOOQQOOFFFCFCFBOOOOOOOOOOOOOOOQOOFOQOOOOQ</li>
+<li>독립 분류: QFFBQOQFFFFFFFQQQQQOOOQFBFFFFFFOQOOOCCOOCOCOOQQFCOCOQFFOOQQQOQQOQQQOFFFCFFFBOOOOOOOOOOQQOOQQOOQOQOOOQQ</li>
+</ul></section>
+<section class="panel" id="desc"><h1>설명란 초안 — 출처·제작 안내</h1>
+<p>아래 칸을 그대로 복사해 설명란에 붙이고, [대괄호] 부분은 직접 채워 주세요. 이 파일은 글만 만든 것이고, 업로드 API나 메타데이터 DB에는 연결하지 않았습니다.</p>
+<pre><code>■ 이 영상에 대해
+한국이 세계에서 받은 평가를 외국 기관이 직접 매긴 기록(상, 차트, 국제기구 결정, 통계)만 모아서, 왜 이런 일이 연달아 일어났는지 제 해석을 덧붙인 해설 영상입니다.
+
+■ 제작 안내
+- 내레이션은 AI 보이스클론(Qwen3-TTS)으로 만든 합성 음성입니다. (유튜브 업로드 화면의 &quot;변경되거나 합성된 콘텐츠&quot; 항목을 확인하세요)
+- 키워드 화면은 직접 디자인한 그래픽입니다.
+- 일부 구간에 아래 영상의 장면을 사용했습니다.
+- 사용 허락: [허락을 받은 날짜·방법·상대방을 여기에 직접 기입]
+
+■ 사용한 클립 (영상 내 위치 / 원본)
+- 0:00, 0:15, 0:35, 0:40, 1:30, 4:55, 7:35, 7:40
+  The Unbelievable Story Beyond Gangnam Style — plutoopictures
+  https://www.youtube.com/watch?v=-441RF78mSY
+- 0:45, 0:50, 1:05, 1:15, 6:55, 7:00, 7:50, 7:55
+  Why Did BTS Come Back BIGGER After Almost 4 Years Away? — K-STAR STORY
+  https://www.youtube.com/watch?v=xxPmlDAHSDE
+- 1:00
+  BTS Arrive in Argentina After Chile — V2K Pop
+  https://www.youtube.com/watch?v=zTFaqgn8BpE
+- 3:50, 3:55, 4:00, 4:10, 4:20, 4:35
+  Are Nations Dying? Birth Rates by Country, Mapped (1800–2100) — The Counting Map
+  https://www.youtube.com/watch?v=xgu4AItR_Fk
+
+■ 본문에서 쓴 사실의 출처
+- 강남스타일이 유튜브 조회수 카운터 한계(2,147,483,647)를 넘어 유튜브가 64비트로 교체 (2014.12): BBC News, Ars Technica
+- 기생충 아카데미 작품상(제92회, 외국어 영화 최초), 봉준호 &quot;1인치 자막의 벽&quot; 발언: World Economic Forum, Washington Post, The Guardian
+- 오징어 게임 공개 28일 16.5억 시간: Variety, Korea Herald
+- 한강 노벨문학상(2024, 한국인 최초·아시아 여성 최초): New York Times, Los Angeles Times
+- BTS 다이너마이트 빌보드 핫100 1위(2020): Billboard, Korea.net
+- 케이팝 데몬 헌터스 넷플릭스 역대 최다 시청 영화, 골든 핫100 8주 1위: Netflix Tudum, Forbes, Billboard
+- 유엔무역개발회의(UNCTAD) 2021.7 한국 선진국 그룹 변경: Yonhap, Korea Times
+- 2001.8 IMF 차입금 조기 상환, IMF 총재 축하: IMF News Brief
+- 금 모으기 351만 명·227톤: Wikipedia 금 모으기 운동
+- 합계출산율 2023 0.72 / 2024 0.75 / 2025 0.80(잠정), 혼인 증가: Reuters, NBC News
+- BTS 월드투어 ARIRANG(2026), 티켓 매진, 남미 일정(아르헨티나 10/21·23·24): Wikipedia Arirang World Tour, Billboard, Consequence, Latin Times
+
+■ 참고
+- 강남스타일 유튜브 최초 10억 뷰(2012.12.21): Guinness World Records, YouTube 공식 블로그
+- 영상 속 해석(재능이 아니라 위기를 다루는 방식)은 제 의견입니다.
+</code></pre></section>
+<section class="panel" id="tools"><h1>제작 도구</h1><p>제작에 쓴 스크립트입니다. 경로가 작성 PC 기준으로 박혀 있어 그대로 돌리기보다 참고용입니다.</p><ul><li><a href="tools/assemble.py">assemble.py</a></li><li><a href="tools/build_page.py">build_page.py</a></li><li><a href="tools/build_segments.py">build_segments.py</a></li><li><a href="tools/check_voice.py">check_voice.py</a></li><li><a href="tools/common.py">common.py</a></li><li><a href="tools/download_model.py">download_model.py</a></li><li><a href="tools/fit_voice.py">fit_voice.py</a></li><li><a href="tools/gen_voice.py">gen_voice.py</a></li><li><a href="tools/originality.py">originality.py</a></li><li><a href="tools/qa_clips.py">qa_clips.py</a></li><li><a href="tools/qa_segments.py">qa_segments.py</a></li><li><a href="tools/render_cards.py">render_cards.py</a></li><li><a href="tools/sheets.ps1">sheets.ps1</a></li><li><a href="tools/transcribe_audio.py">transcribe_audio.py</a></li></ul></section>
+</div>
+<script>
+const btns=[...document.querySelectorAll('#nav button')],panels=[...document.querySelectorAll('.panel')];
+function show(id){btns.forEach(b=>b.classList.toggle('on',b.dataset.p===id));panels.forEach(p=>p.classList.toggle('on',p.id===id));try{history.replaceState(null,'','#'+id)}catch(e){}}
+btns.forEach(b=>b.onclick=()=>show(b.dataset.p));
+if(location.hash&&document.getElementById(location.hash.slice(1)))show(location.hash.slice(1));
+function copy(t,el,label){const done=()=>{const o=el.textContent;el.textContent='복사됨';setTimeout(()=>el.textContent=o,1200)};
+ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,()=>fb(t,done))}else fb(t,done)}
+function fb(t,done){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');done()}catch(e){}a.remove()}
+document.querySelectorAll('pre').forEach(pre=>{const b=document.createElement('button');b.className='cp';b.textContent='복사';b.onclick=()=>copy(pre.innerText.replace(/\n복사$/,''),b);pre.appendChild(b)});
+document.getElementById('copyNar').onclick=e=>{const rows=[...document.querySelectorAll('#script tbody tr')];
+ copy(rows.map(r=>r.cells[r.cells.length-1].textContent.trim()).join('\n'),e.target)};
+</script></body></html>

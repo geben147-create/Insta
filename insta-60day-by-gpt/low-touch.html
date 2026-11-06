@@ -111,7 +111,8 @@ function monthRange(a,b){return monthNum(a)+'~'+monthNum(b)+'개월'}
 function sortedModels(){
  const key=$('rankSort').value,dir=$('rankDirection').value;
  const asc=dir==='auto'?['rank','firstMin','targetMin','hours'].includes(key):dir==='asc';
- return M.slice().sort((a,b)=>((Number(a[key]||0)-Number(b[key]||0))*(asc?1:-1))||a.rank-b.rank);
+ const valueOf=m=>key==='hours'?Number(m.monthlyHours||0):key==='hourly'?(m.monthlyHours>0?m.net/m.monthlyHours:0):Number(m[key]||0);
+ return M.slice().sort((a,b)=>((valueOf(a)-valueOf(b))*(asc?1:-1))||a.rank-b.rank);
 }
 function renderRankcards(){
  const list=sortedModels(),label=$('rankSort').selectedOptions[0].textContent;

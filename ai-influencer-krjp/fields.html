@@ -59,7 +59,7 @@ const med=a=>{a=a.filter(x=>x!=null&&!isNaN(x)).sort((x,y)=>x-y);if(!a.length)re
 D.forEach(d=>{d.cr=d.m!=null&&d.v?d.m/d.v:null;d.lr=d.l!=null&&d.v?d.l/d.v:null});
 [...new Set(D.map(d=>d.f))].sort().forEach(f=>$('#ff').insertAdjacentHTML('beforeend','<option>'+f+'</option>'));
 [...new Set(D.flatMap(d=>d.cta))].concat(['없음']).forEach(f=>$('#fta').insertAdjacentHTML('beforeend','<option>'+f+'</option>'));
-$('#ntot').textContent=D.length;
+if($('#ntot'))$('#ntot').textContent=D.length;
 function filt(){const c=$('#fc').value,k=$('#fk').value,f=$('#ff').value,ta=$('#fta').value,q=$('#q').value.trim().toLowerCase();
  let a=D.filter(d=>(!c||d.n==c)&&(!k||d.k==k)&&(!f||d.f==f)&&(!ta||(ta=='없음'?!d.cta.length:d.cta.includes(ta)))&&(!q||(d.u+' '+d.cap).toLowerCase().includes(q)));
  a.sort((x,y)=>((y[sortKey]??-1)-(x[sortKey]??-1)));

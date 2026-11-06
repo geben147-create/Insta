@@ -1,0 +1,352 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>개발 실행 가이드 1·2·3·4 — 인스타 릴스 자동화 (by claude)</title><style>:root{--bg:#0d1017;--card:#161b26;--line:#273042;--tx:#e9edf5;--mut:#98a2b3}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",sans-serif;line-height:1.65}
+a{color:#7cc4ff}.wrap{max-width:1180px;margin:auto;padding:0 20px 80px}
+.hero{padding:42px 20px 28px;background:linear-gradient(135deg,#ff6d00 0%,#c2185b 55%,#4527a0 100%)}.hero h1{margin:0;font-size:30px}.hero p{margin:8px 0 0}
+nav.top{position:sticky;top:0;z-index:9;background:#0d1017ee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:10px 20px;display:flex;gap:8px;flex-wrap:wrap}
+nav.top a{text-decoration:none;color:#fff;padding:6px 12px;border-radius:20px;font-weight:700;font-size:14px}
+h2{font-size:24px;margin:46px 0 12px}h3{font-size:18px;margin:26px 0 8px}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.mcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;border-top:6px solid}.mcard .num{font-size:36px;font-weight:900;line-height:1}.mcard h4{margin:6px 0 10px;font-size:16px}
+.row{display:grid;grid-template-columns:90px 1fr;gap:8px;align-items:center;font-size:13px;margin:5px 0}.mt{height:10px;background:#263043;border-radius:6px;overflow:hidden}.mt div{height:100%;background:currentColor}
+.badge{display:inline-block;padding:2px 9px;border-radius:12px;font-size:12px;font-weight:700;color:#fff}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;margin-top:22px;border-left:8px solid}
+.flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px;margin:14px 0}.node{flex:1 1 120px;min-width:120px;border-radius:12px;padding:10px;font-size:13px;display:flex;flex-direction:column;gap:3px}
+.node .who{font-size:11px;font-weight:800}.node small{color:#cfd6e4}
+.node.ai{background:#123524;border:1px solid #22c55e}.node.ai .who{color:#4ade80}.node.aside{background:#13284a;border:1px solid #3b82f6}.node.aside .who{color:#60a5fa}
+.node.man{background:#4a1520;border:1px solid #f43f5e}.node.man .who{color:#fb7185}.node.api{background:#3a2a0b;border:1px solid #f59e0b}.node.api .who{color:#fbbf24}
+.arr{align-self:center;color:var(--mut);font-size:20px}
+.code{margin:12px 0;border-radius:12px;overflow:hidden;border:1px solid var(--line)}.ch{display:flex;gap:10px;align-items:center;background:#1e2533;padding:8px 12px;font-size:13px}.ch b{flex:1}
+.ch button{background:#ff6d00;color:#fff;border:0;border-radius:8px;padding:6px 12px;font-weight:700;cursor:pointer}.ch button.ok{background:#16a34a}
+pre{margin:0;padding:14px;background:#0a0d13;overflow:auto;font-size:12.5px;line-height:1.5;max-height:420px;white-space:pre-wrap;word-break:break-all}
+.tag{font-size:11px;font-weight:800;padding:2px 8px;border-radius:10px}.tag.cmd{background:#334155}.tag.prompt{background:#7c3aed}.tag.json{background:#0e7490}.tag.aside{background:#2563eb}
+figure{margin:12px 0;background:#0a0d13;border:1px solid var(--line);border-radius:12px;padding:8px}figure img{width:100%;border-radius:8px;cursor:zoom-in;max-height:360px;object-fit:cover;object-position:top}
+figure img.big{max-height:none;cursor:zoom-out}figcaption{font-size:12.5px;color:#cfd6e4;margin-top:6px}.mut{color:var(--mut)}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}
+ol.steps{counter-reset:s;list-style:none;padding:0}ol.steps>li{counter-increment:s;position:relative;padding:10px 12px 10px 52px;margin:8px 0;background:#111723;border-radius:10px}
+ol.steps>li:before{content:counter(s);position:absolute;left:12px;top:10px;width:28px;height:28px;border-radius:50%;background:#ff6d00;color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center}
+table{width:100%;border-collapse:collapse;font-size:13.5px}td,th{border-bottom:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}th{color:var(--mut)}
+.tl{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}.tl div{border-radius:10px;padding:10px;font-size:13px}
+.warn{background:#3b0d14;border:1px solid #f43f5e;border-radius:12px;padding:14px}.dec{display:grid;grid-template-columns:1fr 1fr;gap:10px}.dec div{border-radius:12px;padding:14px;font-size:14px}</style></head><body>
+<div class="hero"><h1>개발 실행 가이드: 방법 1 · 2 · 3 · 4</h1><p>인스타 릴스를 매일 만들고 올리는 자동화를 실시간·무료 토큰 기준으로 비교하고, 그대로 따라 할 수 있게 만든 페이지입니다. 코드와 프롬프트는 📋 버튼으로 복사하세요.<br><span style="opacity:.85">by claude · 2026-11-07 · 가격·제한은 아래 출처 기준이고, 나머지 수치는 예시나 추정입니다</span></p></div>
+<nav class="top"><a href="#cmp" style="background:#334155">한눈 비교</a><a href="#m1" style="background:#16a34a">① 추천</a><a href="#m2" style="background:#2563eb">②</a><a href="#m3" style="background:#9333ea">③</a><a href="#m4" style="background:#d97706">④</a><a href="#day" style="background:#475569">하루 일정</a><a href="#prompts" style="background:#7c3aed">프롬프트 모음</a><a href="#warn" style="background:#be123c">주의</a><a href="../index.html" style="background:#1f2937">← 갤러리</a></nav>
+<div class="wrap">
+<h2 id="cmp">한눈 비교 (막대가 길수록 좋음)</h2><div class="grid4"><a href="#m1" style="text-decoration:none;color:inherit"><div class="mcard" style="border-top-color:#22c55e;color:#22c55e"><div class="num">1</div><h4 style="color:var(--tx)">n8n 셀프 + 로컬 Qwen + 인스타 API + Aside 수집</h4><div class="row"><span style="color:var(--mut)">비용 절약</span><div class="mt"><div style="width:100%"></div></div></div><div class="row"><span style="color:var(--mut)">실시간</span><div class="mt"><div style="width:100%"></div></div></div><div class="row"><span style="color:var(--mut)">토큰 무료</span><div class="mt"><div style="width:100%"></div></div></div><div class="row"><span style="color:var(--mut)">쉬움</span><div class="mt"><div style="width:60%"></div></div></div><div class="row"><span style="color:var(--mut)">추천도</span><div class="mt"><div style="width:100%"></div></div></div><div style="color:var(--tx);font-size:13px;margin-top:8px">월 비용: <b>0원(전기료)</b></div></div></a><a href="#m2" style="text-decoration:none;color:inherit"><div class="mcard" style="border-top-color:#3b82f6;color:#3b82f6"><div class="num">2</div><h4 style="color:var(--tx)">n8n 셀프 + 로컬 Qwen + Meta 플래너 수동 예약</h4><div class="row"><span style="color:var(--mut)">비용 절약</span><div class="mt"><div style="width:80%"></div></div></div><div class="row"><span style="color:var(--mut)">실시간</span><div class="mt"><div style="width:80%"></div></div></div><div class="row"><span style="color:var(--mut)">토큰 무료</span><div class="mt"><div style="width:100%"></div></div></div><div class="row"><span style="color:var(--mut)">쉬움</span><div class="mt"><div style="width:80%"></div></div></div><div class="row"><span style="color:var(--mut)">추천도</span><div class="mt"><div style="width:80%"></div></div></div><div style="color:var(--tx);font-size:13px;margin-top:8px">월 비용: <b>0원</b></div></div></a><a href="#m3" style="text-decoration:none;color:inherit"><div class="mcard" style="border-top-color:#a855f7;color:#a855f7"><div class="num">3</div><h4 style="color:var(--tx)">Aside 루틴만</h4><div class="row"><span style="color:var(--mut)">비용 절약</span><div class="mt"><div style="width:40%"></div></div></div><div class="row"><span style="color:var(--mut)">실시간</span><div class="mt"><div style="width:40%"></div></div></div><div class="row"><span style="color:var(--mut)">토큰 무료</span><div class="mt"><div style="width:20%"></div></div></div><div class="row"><span style="color:var(--mut)">쉬움</span><div class="mt"><div style="width:100%"></div></div></div><div class="row"><span style="color:var(--mut)">추천도</span><div class="mt"><div style="width:60%"></div></div></div><div style="color:var(--tx);font-size:13px;margin-top:8px">월 비용: <b>Aside 크레딧</b></div></div></a><a href="#m4" style="text-decoration:none;color:inherit"><div class="mcard" style="border-top-color:#f59e0b;color:#f59e0b"><div class="num">4</div><h4 style="color:var(--tx)">n8n Cloud + 외부 LLM API</h4><div class="row"><span style="color:var(--mut)">비용 절약</span><div class="mt"><div style="width:100%"></div></div></div><div class="row"><span style="color:var(--mut)">실시간</span><div class="mt"><div style="width:100%"></div></div></div><div class="row"><span style="color:var(--mut)">토큰 무료</span><div class="mt"><div style="width:20%"></div></div></div><div class="row"><span style="color:var(--mut)">쉬움</span><div class="mt"><div style="width:80%"></div></div></div><div class="row"><span style="color:var(--mut)">추천도</span><div class="mt"><div style="width:60%"></div></div></div><div style="color:var(--tx);font-size:13px;margin-top:8px">월 비용: <b>€20~50/월 + API비</b></div></div></a></div>
+<h3>어떤 걸 고를까? (30초 결정)</h3>
+<div class="dec"><div style="background:#123524;border:1px solid #22c55e">그래픽카드 8GB 이상 + PC를 켜둘 수 있다 → <b>① (완전 자동, 0원)</b><br><span class="mut">API 앱 설정이 부담되면 → ②</span></div><div style="background:#3a2a0b;border:1px solid #f59e0b">그래픽카드가 없다 → <b>④</b> 또는 <b>③</b><br><span class="mut">개발 없이 오늘 바로 → ③ (Aside에게 말로 지시)</span></div></div>
+<div class="figs"><figure><img src="img/my_gallery.jpg" loading="lazy" onclick="this.classList.toggle('big')"><figcaption>지금 쓰는 데이터: 분야별 TOP60 페이지(벤치마크 원천) <span class="mut">(눌러서 크게)</span></figcaption></figure><figure><img src="img/my_sheet.jpg" loading="lazy" onclick="this.classList.toggle('big')"><figcaption>시트 by claude_자동화비교 탭 (같은 내용 요약) <span class="mut">(눌러서 크게)</span></figcaption></figure></div>
+<div class="sec" id="m1" style="border-left-color:#22c55e"><h2 style="margin-top:0;color:#4ade80">① n8n 셀프호스팅 + 로컬 Qwen3.5 + 인스타 공식 API + Aside 수집 <span class="badge" style="background:#16a34a">추천</span></h2>
+<p>무료이고 실시간이며 토큰도 무료입니다. n8n과 Qwen은 내 PC에서 돌고, 로그인이 필요한 수집만 Aside가 합니다.</p>
+<div class="flow"><div class="node aside"><div class="who">Aside</div><b>상위 릴스·키워드 수집</b><small>07:00 Aside 루틴 → 시트</small></div><div class="arr">➜</div><div class="node man"><div class="who">필수 수동</div><b>주제 고르기</b><small>5분</small></div><div class="arr">➜</div><div class="node ai"><div class="who">AI 자동</div><b>대본·훅·댓글CTA</b><small>n8n + Qwen 27B</small></div><div class="arr">➜</div><div class="node man"><div class="who">필수 수동</div><b>캐릭터 이미지</b><small>검수만 (생성은 툴)</small></div><div class="arr">➜</div><div class="node ai"><div class="who">AI 자동</div><b>영상화·자막</b><small>Kling/Seedance + FFmpeg</small></div><div class="arr">➜</div><div class="node api"><div class="who">API 자동</div><b>예약 게시</b><small>인스타 API</small></div><div class="arr">➜</div><div class="node ai"><div class="who">AI 자동</div><b>성과 → 다음 기획</b><small>n8n 매일</small></div></div>
+<div class="figs"><figure><img src="img/n8n_home.jpg" loading="lazy" onclick="this.classList.toggle('big')"><figcaption>n8n 공식 사이트 <span class="mut">(눌러서 크게)</span></figcaption></figure><figure><img src="img/n8n_docker.jpg" loading="lazy" onclick="this.classList.toggle('big')"><figcaption>n8n 도커 설치 문서(공식) <span class="mut">(눌러서 크게)</span></figcaption></figure><figure><img src="img/ollama_qwen.jpg" loading="lazy" onclick="this.classList.toggle('big')"><figcaption>Ollama의 qwen3.5 페이지: 9b·27b 있음 <span class="mut">(눌러서 크게)</span></figcaption></figure><figure><img src="img/docker_desktop.jpg" loading="lazy" onclick="this.classList.toggle('big')"><figcaption>Docker Desktop 다운로드 <span class="mut">(눌러서 크게)</span></figcaption></figure><figure><img src="img/meta_publish.jpg" loading="lazy" onclick="this.classList.toggle('big')"><figcaption>Meta 공식 문서: 콘텐츠 게시(API) <span class="mut">(눌러서 크게)</span></figcaption></figure></div>
+<h3>따라 하기</h3><ol class="steps">
+<li><b>Ollama + Qwen 설치</b> (30분) <div class="code cmd"><div class="ch"><span class="tag cmd">명령어</span><b>Qwen3.5 9B·27B 받기</b><button onclick="cp('c1',this)">📋 복사</button></div><pre id="c1"># ① Ollama 설치: https://ollama.com/download (Windows 설치 파일)
+# ② Qwen 받기 (PowerShell)
+ollama pull qwen3.5:9b      # 약 6.6GB VRAM (8GB 그래픽카드 OK)
+ollama pull qwen3.5:27b     # 약 17~18GB VRAM (24GB 그래픽카드 권장)
+
+# ③ 잘 되는지 테스트
+ollama run qwen3.5:9b "인스타 릴스 훅 5개를 써줘. 주제: 배당주"</pre></div></li>
+<li><b>Docker Desktop 설치 → n8n 실행</b> (20분) <div class="code cmd"><div class="ch"><span class="tag cmd">명령어</span><b>n8n 도커 실행 (PowerShell)</b><button onclick="cp('c2',this)">📋 복사</button></div><pre id="c2"># Docker Desktop 설치 후 (PowerShell)
+docker volume create n8n_data
+docker run -d --name n8n --restart unless-stopped -p 5678:5678 `
+  -e GENERIC_TIMEZONE="Asia/Seoul" -e TZ="Asia/Seoul" `
+  -e N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true `
+  -v n8n_data:/home/node/.n8n n8nio/n8n
+
+# 브라우저에서 열기
+start http://localhost:5678</pre></div><div class="code aside"><div class="ch"><span class="tag aside">Aside에게 붙여넣기 (show me)</span><b>Aside에게: n8n 설치 화면 같이 보기</b><button onclick="cp('c3',this)">📋 복사</button></div><pre id="c3">n8n 설치를 같이 하자. 내 화면에서 Docker Desktop이 켜져 있는지 확인하고,
+http://localhost:5678 을 열어서 화면을 보여줘(show me). 계정 만들기 화면이면 어디에 뭘 넣는지 알려줘.
+그다음 'Import from file'로 dev 페이지의 JSON을 가져오는 위치를 스크린샷으로 표시해줘.</pre></div></li>
+<li><b>n8n에서 Qwen 연결 테스트</b> <div class="code cmd"><div class="ch"><span class="tag cmd">명령어</span><b>Ollama API 테스트</b><button onclick="cp('c4',this)">📋 복사</button></div><pre id="c4"># n8n(도커) 안에서 내 PC의 Ollama 부르는 주소: http://host.docker.internal:11434
+# PowerShell에서 Ollama API 직접 테스트
+$body = @{ model="qwen3.5:9b"; prompt="배당주 릴스 훅 3개"; stream=$false } | ConvertTo-Json
+Invoke-RestMethod -Uri http://localhost:11434/api/generate -Method Post -Body $body -ContentType "application/json"</pre></div></li>
+<li><b>샘플 워크플로 가져오기</b>: n8n → 오른쪽 위 ⋯ → Import from file(또는 Ctrl+V로 붙여넣기). 인스타 노드 3개는 꺼진(disabled) 상태로 들어갑니다. 토큰을 넣은 뒤 켜세요. <div class="code json"><div class="ch"><span class="tag json">n8n 가져오기 JSON</span><b>n8n 워크플로 JSON (매일 07시 → Qwen 대본 → IG 예약)</b><button onclick="cp('c5',this)">📋 복사</button></div><pre id="c5">{
+  "name": "인스타 릴스 대본 자동생성 + 예약 게시 (by claude 샘플)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 7 * * *"
+            }
+          ]
+        }
+      },
+      "name": "매일 07시",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// 오늘 주제: 실제로는 Google Sheets 노드로 'by claude_분야별TOP60' 상위 훅을 읽어 오세요\nreturn [{json:{field:'주식', benchmark_hook:'1,000만원으로 1억? 이건 가능한 시나리오입니다', keyword:'배당주 추천'}}];"
+      },
+      "name": "오늘 주제",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:11434/api/generate",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({model:'qwen3.5:27b', stream:false, prompt:'너는 인스타 릴스 작가다. 분야: '+$json.field+' / 벤치마크 훅: '+$json.benchmark_hook+' / 키워드: '+$json.keyword+'\\n30초 릴스 대본을 JSON으로만 출력: {hook, scenes:[{sec, visual, caption}], cta_comment, caption, hashtags}'}) }}",
+        "options": {
+          "timeout": 300000
+        }
+      },
+      "name": "Qwen 27B 대본",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const t=$json.response||'';const m=t.match(/\\{[\\s\\S]*\\}/);let o={};try{o=JSON.parse(m[0])}catch(e){o={raw:t}}\nreturn [{json:o}];"
+      },
+      "name": "JSON 정리",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/{{API_VERSION}}/{{IG_USER_ID}}/media",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "media_type",
+              "value": "REELS"
+            },
+            {
+              "name": "video_url",
+              "value": "https://내-공개-서버/오늘영상.mp4"
+            },
+            {
+              "name": "caption",
+              "value": "={{$json.caption}}"
+            },
+            {
+              "name": "access_token",
+              "value": "{{IG_TOKEN}}"
+            }
+          ]
+        }
+      },
+      "name": "IG 릴스 컨테이너 생성",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        0
+      ],
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "amount": 90
+      },
+      "name": "영상 처리 대기",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1100,
+        0
+      ],
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/{{API_VERSION}}/{{IG_USER_ID}}/media_publish",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "creation_id",
+              "value": "={{$('IG 릴스 컨테이너 생성').item.json.id}}"
+            },
+            {
+              "name": "access_token",
+              "value": "{{IG_TOKEN}}"
+            }
+          ]
+        }
+      },
+      "name": "IG 게시",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1320,
+        0
+      ],
+      "disabled": true
+    }
+  ],
+  "connections": {
+    "매일 07시": {
+      "main": [
+        [
+          {
+            "node": "오늘 주제",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "오늘 주제": {
+      "main": [
+        [
+          {
+            "node": "Qwen 27B 대본",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Qwen 27B 대본": {
+      "main": [
+        [
+          {
+            "node": "JSON 정리",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "JSON 정리": {
+      "main": [
+        [
+          {
+            "node": "IG 릴스 컨테이너 생성",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IG 릴스 컨테이너 생성": {
+      "main": [
+        [
+          {
+            "node": "영상 처리 대기",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "영상 처리 대기": {
+      "main": [
+        [
+          {
+            "node": "IG 게시",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}</pre></div></li>
+<li><b>Meta 앱 만들기 + 인스타 비즈니스/크리에이터 계정 연결</b> (처음 한 번, 1~2시간) <div class="code aside"><div class="ch"><span class="tag aside">Aside에게 붙여넣기 (show me)</span><b>Aside에게: Meta 앱 만들기 같이 보기 (토큰은 내가 복사)</b><button onclick="cp('c6',this)">📋 복사</button></div><pre id="c6">Meta 개발자 앱 만들기를 같이 하자. developers.facebook.com 에서 '내 앱 &gt; 앱 만들기' 화면을 열고 단계마다 show me(스크린샷)해줘.
+토큰이나 비밀키가 나오는 화면에서는 멈추고 읽지 마. 복사는 내가 할게.</pre></div><div class="code cmd"><div class="ch"><span class="tag cmd">명령어</span><b>인스타 API 릴스 게시 2단계</b><button onclick="cp('c7',this)">📋 복사</button></div><pre id="c7"># 인스타 공식 API로 릴스 게시 = 2단계
+# 1) 컨테이너 만들기 (video_url은 공개 URL이어야 함)
+POST https://graph.facebook.com/{API_VERSION}/{IG_USER_ID}/media
+     ?media_type=REELS&amp;video_url={공개영상URL}&amp;caption={캡션}&amp;access_token={토큰}
+# → {"id":"컨테이너ID"}  (영상 처리에 1~몇 분)
+# 2) 게시
+POST https://graph.facebook.com/{API_VERSION}/{IG_USER_ID}/media_publish
+     ?creation_id={컨테이너ID}&amp;access_token={토큰}
+# 제한: 계정당 24시간 100개. 비즈니스/크리에이터 계정 + Meta 앱 필요</pre></div></li>
+<li><b>Aside 수집 루틴 등록</b> <div class="code aside"><div class="ch"><span class="tag aside">Aside에게 붙여넣기 (show me)</span><b>Aside에게: 매일 07시 수집 루틴</b><button onclick="cp('c8',this)">📋 복사</button></div><pre id="c8">매일 아침 7시에 이 작업을 해줘(루틴으로 등록):
+1) 인스타 해시태그(분야별 목록은 시트 'by claude_분야별TOP60'과 같게)에서 최근 7일 릴스 중 조회수·댓글·좋아요 상위 20개씩 모아줘.
+2) 구글 트렌드에서 한국·일본 상위 검색어 20개를 가져와줘.
+3) 결과를 시트 1YPROG1XoSr827nq7o_LfczoO0M5IatXoRj_snSGCzYE 의 'by claude_오늘수집' 탭에 날짜별로 추가해줘.
+4) 끝나면 상위 5개 링크를 알림으로 보내줘.
+너무 빨리 요청하지 말고 2~3초 간격으로 천천히.</pre></div></li>
+<li><b>편집 자동화(FFmpeg)</b> <div class="code cmd"><div class="ch"><span class="tag cmd">명령어</span><b>자막·9:16·이어붙이기</b><button onclick="cp('c9',this)">📋 복사</button></div><pre id="c9"># 자막(SRT) 입히고 9:16 맞추기 (FFmpeg)
+ffmpeg -i scene.mp4 -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,subtitles=sub.srt:force_style='FontName=Pretendard,FontSize=14,Outline=2'" -c:a copy out.mp4
+# 여러 장면 이어붙이기
+ffmpeg -f concat -safe 0 -i list.txt -c copy final.mp4</pre></div></li></ol>
+<table><tr><th>Qwen 역할 분담</th><th>9B (빠름, 8GB GPU)</th><th>27B (품질, 24GB GPU 권장)</th></tr><tr><td>쓰는 곳</td><td>훅 변형 10개, 해시태그, 분류, 댓글 답장</td><td>대본, 캐릭터 설정, 주간 성과 분석</td></tr><tr><td>팁</td><td>여러 번 돌려서 고르기</td><td>JSON 출력 형식을 고정하기</td></tr></table></div>
+<div class="sec" id="m2" style="border-left-color:#3b82f6"><h2 style="margin-top:0;color:#60a5fa">② n8n 셀프 + 로컬 Qwen + Meta 플래너에서 수동 예약</h2>
+<p>①에서 인스타 API만 뺀 방식입니다. 앱 심사나 토큰 관리가 필요 없습니다. 영상·캡션·해시태그까지는 자동으로 만들고, 예약은 Meta Business Suite 플래너에서 클릭으로 합니다(무료).</p>
+<div class="flow"><div class="node aside"><div class="who">Aside</div><b>수집</b><small>Aside 07:00</small></div><div class="arr">➜</div><div class="node ai"><div class="who">AI 자동</div><b>대본·캡션</b><small>n8n + Qwen</small></div><div class="arr">➜</div><div class="node ai"><div class="who">AI 자동</div><b>영상·자막</b><small>툴 + FFmpeg</small></div><div class="arr">➜</div><div class="node man"><div class="who">필수 수동</div><b>플래너에 예약</b><small>하루 3분 클릭</small></div><div class="arr">➜</div><div class="node aside"><div class="who">Aside</div><b>성과 기록</b><small>Aside 주 1회</small></div></div>
+<div class="figs"><figure><img src="img/meta_suite.jpg" loading="lazy" onclick="this.classList.toggle('big')"><figcaption>Meta Business Suite 플래너: "게시물 만들기"로 릴스 예약 <span class="mut">(눌러서 크게)</span></figcaption></figure><figure><img src="img/n8n_pricing.jpg" loading="lazy" onclick="this.classList.toggle('big')"><figcaption>n8n 요금: 셀프호스팅 Community는 무료 <span class="mut">(눌러서 크게)</span></figcaption></figure></div>
+<ol class="steps"><li>①의 1~4단계를 그대로 하되, 인스타 노드 3개는 지웁니다.</li><li>n8n 마지막에 "Google Sheets에 캡션 저장" 노드를 붙입니다.</li><li>Aside가 플래너에 채워 두면 직접 예약을 클릭합니다. <div class="code aside"><div class="ch"><span class="tag aside">Aside에게 붙여넣기 (show me)</span><b>Aside에게: 업로드 화면만 채우고 멈추기</b><button onclick="cp('c10',this)">📋 복사</button></div><pre id="c10">오늘 영상 업로드 준비만 해줘. 공유 버튼은 누르지 마.
+1) 인스타그램 웹(또는 Meta Business Suite 플래너)에서 '게시물 만들기 &gt; 릴스'를 열어줘.
+2) 파일: {영상 경로}, 캡션: 시트 'by claude_60일계획' 오늘 행의 캡션, 해시태그 5개, 'AI 정보' 라벨 켜기.
+3) 예약 시간: 오늘 19:00.
+4) 다 채운 화면을 스크린샷으로 보여주고 멈춰. 내가 확인하고 직접 클릭할게.</pre></div></li></ol></div>
+<div class="sec" id="m3" style="border-left-color:#a855f7"><h2 style="margin-top:0;color:#c084fc">③ Aside 루틴만 (개발 0, 오늘 바로)</h2>
+<p>말로 지시하면 끝입니다. 다만 토큰은 Aside 크레딧으로 나가고, 실시간 반응(댓글 즉시 답장)은 안 됩니다. 정해진 시각에만 돕니다. 브라우저가 켜져 있어야 하고, 탭을 너무 많이 열면 연결이 끊길 수 있습니다(실제로 겪음).</p>
+<div class="flow"><div class="node aside"><div class="who">Aside</div><b>수집 07:00</b><small></small></div><div class="arr">➜</div><div class="node aside"><div class="who">Aside</div><b>기획·대본 07:30</b><small>시트 저장</small></div><div class="arr">➜</div><div class="node man"><div class="who">필수 수동</div><b>영상 제작</b><small>툴에서 직접</small></div><div class="arr">➜</div><div class="node aside"><div class="who">Aside</div><b>업로드 준비 18:30</b><small>화면 채우기</small></div><div class="arr">➜</div><div class="node man"><div class="who">필수 수동</div><b>공유 클릭</b><small></small></div></div>
+<div class="code aside"><div class="ch"><span class="tag aside">Aside에게 붙여넣기 (show me)</span><b>Aside에게: 루틴 3개 한 번에 만들기</b><button onclick="cp('c11',this)">📋 복사</button></div><pre id="c11">루틴 3개를 만들어줘.
+(1) 매일 07:00 '수집': 위 수집 작업.
+(2) 매일 07:30 '기획': 수집 결과로 분야별 오늘 주제 3개 + 대본 + 훅 + 댓글 유도 문구를 만들어 시트 'by claude_오늘기획'에 저장.
+(3) 매일 18:30 '업로드 준비': 업로드 화면을 채워두고 알림. 공유는 내가 누름.</pre></div></div>
+<div class="sec" id="m4" style="border-left-color:#f59e0b"><h2 style="margin-top:0;color:#fbbf24">④ n8n Cloud + 외부 LLM API</h2>
+<p>PC나 그래픽카드가 없을 때 씁니다. n8n Cloud Starter는 연 결제 시 월 €20(실행 2,500회), Pro는 월 €50(1만 회)입니다. 무료 플랜은 없습니다. 클라우드에서는 내 PC의 Qwen을 부를 수 없어서 외부 API 비용이 추가됩니다.</p>
+<div class="flow"><div class="node aside"><div class="who">Aside</div><b>수집</b><small>Aside</small></div><div class="arr">➜</div><div class="node api"><div class="who">API 자동</div><b>대본</b><small>외부 LLM API</small></div><div class="arr">➜</div><div class="node man"><div class="who">필수 수동</div><b>영상</b><small>툴</small></div><div class="arr">➜</div><div class="node api"><div class="who">API 자동</div><b>예약 게시</b><small>인스타 API</small></div></div>
+<div class="code cmd"><div class="ch"><span class="tag cmd">명령어</span><b>n8n HTTP 노드로 외부 LLM 부르기</b><button onclick="cp('c12',this)">📋 복사</button></div><pre id="c12"># n8n Cloud에서는 내 PC의 Ollama를 못 부르므로 외부 API 사용
+# HTTP Request 노드 예시 (OpenAI 호환 API라면 공통)
+POST {API_BASE}/v1/chat/completions
+Authorization: Bearer {API_KEY}
+{"model":"{모델명}","messages":[{"role":"user","content":"{대본 프롬프트}"}]}</pre></div>
+<p class="mut">하루 3편 기준 실행은 한 달 약 100~150회로, Starter 한도 안에 들어갑니다(추정).</p></div>
+<h2>부록: 5·6번 (비추천)</h2><table><tr><th>방법</th><th>비용</th><th>한 줄 평</th></tr><tr><td>5. 파이썬 직접 개발(크론 + 인스타 API + Ollama)</td><td>0원</td><td>가장 자유롭지만 유지보수가 큼. ①을 쓰다가 필요할 때</td></tr><tr><td>6. Make·Zapier</td><td>유료</td><td>작업 수 과금이라 매일 릴스에는 비쌈</td></tr></table>
+<h2 id="day">하루 일정 (①·② 기준)</h2>
+<div class="tl"><div style="background:#13284a">07:00<br><b>Aside 수집</b><br>상위 릴스·키워드</div><div style="background:#123524">07:30<br><b>Qwen 기획</b><br>주제 3 + 대본</div><div style="background:#4a1520">09:00<br><b>나: 5분 선택</b><br>주제 1개 고르기</div><div style="background:#123524">10:00~<br><b>이미지·영상 생성</b><br>툴 대기열</div><div style="background:#4a1520">17:00<br><b>나: 10분 검수</b><br>얼굴·자막·사실</div><div style="background:#3a2a0b">19:00<br><b>게시</b><br>API 또는 클릭</div><div style="background:#123524">다음날 07:00<br><b>성과 수집</b><br>→ 기획에 반영</div></div>
+<h3>첫 7일 설치 로드맵</h3><table><tr><th>일</th><th>할 일</th><th>결과</th></tr><tr><td>1</td><td>Ollama + Qwen 9B·27B 설치, 프롬프트 테스트</td><td>대본이 나옴</td></tr><tr><td>2</td><td>Docker + n8n, 샘플 JSON 가져오기</td><td>매일 07시 대본 자동</td></tr><tr><td>3</td><td>캐릭터 설정 시트 + 5각도 레퍼런스</td><td>얼굴 고정</td></tr><tr><td>4</td><td>영상 툴 테스트 + FFmpeg 자막 템플릿</td><td>30초 릴스 1편</td></tr><tr><td>5</td><td>Aside 수집 루틴, 플래너 예약(②)</td><td>매일 1편 업로드</td></tr><tr><td>6~7</td><td>Meta 앱·토큰 → API 예약(①), 성과 수집</td><td>완전 자동화</td></tr></table>
+<h2 id="prompts">프롬프트 모음 (Qwen·Claude·GPT 공통)</h2>
+<div class="code prompt"><div class="ch"><span class="tag prompt">프롬프트</span><b>① 릴스 대본 (JSON 출력)</b><button onclick="cp('c13',this)">📋 복사</button></div><pre id="c13">너는 한국 인스타 릴스 전문 작가다.
+[분야] {분야}  [타깃] 30~50대, 자산 1억 이상, 바쁜 직장인·자영업자
+[벤치마크 훅(조회 상위)] {벤치마크_첫줄}
+[구글 상위 키워드] {키워드1}, {키워드2}
+[캐릭터] {캐릭터 이름/직업/말버릇}
+
+규칙
+1) 첫 1.5초 훅: 숫자 또는 반전("○○하면 손해입니다") 한 문장, 12자 안팎
+2) 30초, 장면 6개. 장면마다 화면 설명(visual), 자막(caption 15자 이내)
+3) 마지막 장면: 댓글 유도 1개 (예: "댓글에 [배당] 남기면 표 보내드려요")
+4) 사실이 아닌 수치 금지. 수치는 {출처} 범위 안에서만
+5) 금융: 특정 종목 매수 권유 금지, "정보" 톤
+
+출력(JSON만): {"hook":"","scenes":[{"sec":"0-3","visual":"","caption":""}],"cta_comment":"","caption":"","hashtags":[]}</pre></div><div class="code prompt"><div class="ch"><span class="tag prompt">프롬프트</span><b>② 상위 훅 → 새 훅 10개</b><button onclick="cp('c14',this)">📋 복사</button></div><pre id="c14">아래 조회수 상위 릴스 첫줄 10개를 보고, 같은 구조의 새 훅 10개를 {분야}용으로 만들어줘.
+구조 이름(질문형/숫자형/반전형/공감형/논란형)을 각 훅 앞에 붙이고, 각 훅이 왜 먹히는지 한 줄 설명.
+[상위 훅 10개]
+{시트에서 복사한 첫줄 10개}</pre></div><div class="code prompt"><div class="ch"><span class="tag prompt">프롬프트</span><b>③ 댓글 늘리는 장치 3개</b><button onclick="cp('c15',this)">📋 복사</button></div><pre id="c15">이 릴스에 달릴 댓글을 늘리는 장치를 3개 설계해줘.
+① 댓글 키워드→DM 자료(무엇을 줄지: 표/체크리스트/전자책 1쪽)
+② 투표형 질문(A vs B)
+③ 공감형 한 줄("이거 나만 그래?")
+각각 고정댓글 문구와 DM 자동응답 문구까지. 대본: {대본}</pre></div><div class="code prompt"><div class="ch"><span class="tag prompt">프롬프트</span><b>④ 초사실주의 캐릭터 설정 시트</b><button onclick="cp('c16',this)">📋 복사</button></div><pre id="c16">초사실주의 AI 인플루언서 캐릭터 설정 시트를 만들어줘.
+분야: {분야} / 타깃: {타깃}
+항목: 이름, 나이, 직업, 성격 3단어, 말버릇 1개, 옷 스타일 고정값, 배경(스튜디오/장소) 고정값, 금지사항, 매주 고정 코너 3개, 팬 호칭.
+그리고 이미지 생성용 '고정 외모 프롬프트'(영어, 120단어)와 '정면/좌45/우45/좌90/우90' 5각도 프롬프트를 따로 출력.</pre></div><div class="code prompt"><div class="ch"><span class="tag prompt">프롬프트</span><b>⑤ 초사실 이미지 프롬프트(영문 템플릿)</b><button onclick="cp('c17',this)">📋 복사</button></div><pre id="c17">photorealistic portrait of {고정 외모}, shot on iPhone 15 Pro, natural skin texture with pores, slight imperfections, soft window light, imperfect lighting, candid moment, {장면}, 9:16 vertical, no text, no watermark</pre></div><div class="code prompt"><div class="ch"><span class="tag prompt">프롬프트</span><b>⑥ 이미지→영상 모션 프롬프트</b><button onclick="cp('c18',this)">📋 복사</button></div><pre id="c18">(이미지→영상) {캐릭터}가 카메라를 보며 자연스럽게 말하기 시작, 0-2초 살짝 앞으로 다가옴, 2-5초 손짓으로 화면 오른쪽 차트를 가리킴, 카메라 고정, 얼굴·손 왜곡 없이, 자연스러운 눈 깜박임, 9:16</pre></div><div class="code prompt"><div class="ch"><span class="tag prompt">프롬프트</span><b>⑦ 성과 리뷰 → 다음 3편</b><button onclick="cp('c19',this)">📋 복사</button></div><pre id="c19">어제 올린 릴스 성과: {조회, 3초 이탈률, 평균 시청시간, 좋아요, 댓글, 저장, 공유}
+같은 분야 상위 10개 평균과 비교해서 ① 문제 1개 ② 내일 바꿀 것 1개(훅/길이/자막/CTA 중) ③ 다음 3편 주제를 제안해줘. 표로.</pre></div>
+<h2 id="warn">주의</h2><div class="warn">· <b>AI 라벨:</b> 사실적인 AI 인물 영상에는 인스타 "AI 정보" 라벨을 켜세요. 실존 연예인 얼굴 합성은 금지입니다.<br>· <b>금융:</b> 특정 종목 매수 권유나 리딩방 연결은 유사투자자문 규제 대상이 될 수 있습니다. 미등록 해외 거래소 레퍼럴은 금융당국이 불법 영업 방조로 봅니다(2026-06 권고).<br>· <b>인스타 보너스:</b> 일본·한국·미국 크리에이터 중 <b>초대받은 사람만</b> 받습니다. 릴스 한 개당 최대 28일 동안 적립됩니다. 한국어 도움말에는 만 19세 이상이라고 적혀 있습니다.<figure><img src="img/ig_bonus.jpg" loading="lazy" onclick="this.classList.toggle('big')"><figcaption>인스타 보너스 규정(공식 도움말) <span class="mut">(눌러서 크게)</span></figcaption></figure>· <b>토큰·비밀키:</b> 화면에 나오면 Aside는 읽지 않고 멈춥니다. 복사는 직접 하세요.<br>· <b>인스타 API:</b> 계정당 24시간에 100개까지 게시할 수 있습니다. video_url은 공개 URL이어야 합니다.</div>
+<h3>출처</h3><p class="mut">n8n 요금·에디션: n8n.io/pricing, docs.n8n.io · 도커 설치: docs.n8n.io/hosting/installation/docker · 인스타 콘텐츠 게시 API: developers.facebook.com (Instagram Platform › 콘텐츠 게시) · 보너스: help.instagram.com/708013994693013 · Qwen3.5 VRAM: llmrun.dev, vLLM recipes · 확인일 2026-11-07</p></div>
+<script>function cp(id,b){const t=document.getElementById(id).innerText;const done=()=>{b.textContent='✅ 복사됨';b.classList.add('ok');setTimeout(()=>{b.textContent='📋 복사';b.classList.remove('ok')},1500)};if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,()=>{fb(t);done()})}else{fb(t);done()}}function fb(t){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()}</script></body></html>

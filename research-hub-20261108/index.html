@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101a35">
+<meta name="description" content="해외반응 원자료, 급등 국뽕 유튜브 분석, 저작권·허락, 데이터 수집 및 프롬프트를 한 화면에서 탐색하는 통합 연구 허브">
+<title>해외반응 × 국뽕 유튜브 | 통합 연구 허브</title>
+<style>
+:root{--bg:#0a1123;--side:#0d1930;--panel:#111f3c;--panel2:#152746;--line:#293c5e;--tx:#f0f4ff;--mut:#a9bdd5;--gold:#f4c677;--cyan:#62dcde;--green:#7ce6ae;--pink:#ff9cba;--purple:#b8b4ff;--danger:#ff9b92;--shadow:0 18px 44px #0003}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--tx);background:var(--bg);font-family:system-ui,-apple-system,"Malgun Gothic","Apple SD Gothic Neo",sans-serif;line-height:1.65}button,input,a{font:inherit}a{color:#8bcdff}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}::selection{background:#f4c677;color:#132540}
+.topbar{height:70px;background:#101b34;position:sticky;top:0;z-index:40;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 21px;gap:14px}
+.brand{display:flex;gap:12px;align-items:center;min-width:0;text-decoration:none;color:var(--tx)}.brandmark{display:grid;place-items:center;width:42px;height:42px;border-radius:15px;background:linear-gradient(145deg,#eec88c,#a0dce5);color:#0c2444;font-size:23px;box-shadow:0 7px 18px #e6b76430}.brand strong{font-size:17px;letter-spacing:-.45px}.brand small{display:block;font-size:11px;color:var(--mut);line-height:1.3}.topright{display:flex;align-items:center;gap:9px}.toplabel{font-size:12px;color:var(--mut)}.toplink,.mobilebutton{background:#192a4b;color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:7px 12px;text-decoration:none;font-size:12px}.mobilebutton{display:none}
+.shell{display:grid;grid-template-columns:286px minmax(0,1fr);height:calc(100dvh - 70px);min-height:600px}.sidebar{background:var(--side);border-right:1px solid var(--line);overflow:auto;padding:21px 12px 40px;scrollbar-color:#466184 transparent}.sidebar::-webkit-scrollbar{width:7px}.sidebar::-webkit-scrollbar-thumb{background:#425778;border-radius:7px}
+.navsearch{width:100%;border:1px solid #354f75;background:#09152d;color:white;padding:11px 13px;border-radius:10px;outline:none;margin-bottom:18px;font-size:13px}.navgroup{margin:16px 0 22px}.grouptitle{font-size:11px;text-transform:uppercase;color:#a6c1e0;font-weight:800;letter-spacing:1px;margin:0 7px 9px}.navbtn{display:flex;text-align:left;gap:9px;align-items:center;width:100%;color:#c9d8ec;border:1px solid transparent;background:transparent;border-radius:10px;padding:9px 10px;margin:3px 0;font-size:13px;line-height:1.4}.navbtn:hover{background:#213451;color:#fff}.navbtn.active{background:linear-gradient(110deg,#2b4b70,#223c64);border-color:#577da0;color:#fff;font-weight:800;box-shadow:inset 3px 0 0 var(--gold)}.navbtn .i{width:22px;text-align:center;font-size:15px;flex:none}.navbtn.sub{padding-left:27px;font-size:12.5px}.subdot{width:7px;height:7px;border-radius:99px;background:#6d86b5;flex:none}.navbtn.active .subdot{background:var(--gold)}.sidenote{color:#acc3d9;font-size:12px;border:1px solid #304968;border-radius:12px;padding:12px;background:#122540;margin:22px 4px}
+.stage{overflow:auto;min-width:0;scrollbar-color:#395479 transparent}.mainwrap{width:100%;max-width:1660px;margin:0 auto;padding:25px clamp(15px,2.9vw,36px) 42px}
+.eyebrow{font-weight:800;color:var(--gold);letter-spacing:.6px;font-size:11px;text-transform:uppercase}.pagetop{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;margin-bottom:18px}.pagetop h1{font-size:clamp(23px,2.5vw,35px);letter-spacing:-1px;line-height:1.3;margin:7px 0}.pagetop p{margin:5px 0;max-width:840px;color:var(--mut);font-size:13px}.pageactions{display:flex;gap:7px;flex-wrap:wrap;align-items:center}.openlink,.smallbtn{background:#1b3153;border:1px solid #426282;color:#e5f2ff;text-decoration:none;border-radius:9px;padding:8px 12px;font-size:12px;font-weight:700;white-space:nowrap}.openlink:hover,.smallbtn:hover{border-color:var(--gold);color:var(--gold)}.hidden{display:none!important}
+.panel{display:none}.panel.on{display:block}.lead{font-size:15px;color:#d6e4f5;max-width:1040px}.muted{color:var(--mut)}.accent{color:var(--gold)}.flower{color:#ffaac8}
+.hero{background:radial-gradient(circle at 88% 10%,#4361a45d,transparent 35%),linear-gradient(130deg,#1a3157,#162441 64%,#292a57);border:1px solid #425f85;border-radius:20px;padding:clamp(18px,3vw,32px);box-shadow:var(--shadow);position:relative;overflow:hidden}.hero:after{content:"✦";position:absolute;font-size:180px;right:-5px;bottom:-117px;opacity:.1;color:#fff;pointer-events:none}.hero h2{font-size:clamp(21px,2.5vw,30px);margin:0 0 10px;letter-spacing:-.6px}.hero p{color:#d0e0f5;margin:0;max-width:830px}.chips{display:flex;gap:7px;flex-wrap:wrap;margin:14px 0}.chip{display:inline-flex;align-items:center;background:#233d62;color:#cce2ff;border:1px solid #426185;border-radius:100px;padding:4px 10px;font-size:11px;font-weight:750}.chip.gold{background:#5e481b;color:#ffe2a3;border-color:#9f7734}.chip.green{background:#154d42;color:#c5ffe3;border-color:#2b8a6e}.chip.pink{background:#503248;color:#ffd5e5;border-color:#995a7a}
+.stats,.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0}.stat{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:15px}.stat strong{font-size:28px;display:block;line-height:1.3;color:var(--cyan)}.stat:nth-child(2) strong{color:var(--gold)}.stat:nth-child(3) strong{color:var(--green)}.stat:nth-child(4) strong{color:var(--pink)}.stat span{font-size:12px;color:var(--mut)}
+.sectionhead{font-size:20px;letter-spacing:-.5px;margin:27px 0 13px}.tile{background:linear-gradient(155deg,#182b4c,#10203a);border:1px solid var(--line);border-radius:15px;padding:17px;text-align:left;color:var(--tx);min-height:147px;transition:transform .15s,border .15s}.tile:hover{transform:translateY(-3px);border-color:var(--gold)}.tile .emoji{font-size:27px}.tile strong{display:block;font-size:17px;margin:6px 0}.tile small{color:var(--mut);font-size:12px}.tile:nth-child(1){border-top:3px solid var(--cyan)}.tile:nth-child(2){border-top:3px solid var(--gold)}.tile:nth-child(3){border-top:3px solid var(--pink)}.tile:nth-child(4){border-top:3px solid var(--green)}
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:18px 0}.step{background:#142a4c;border:1px solid #385377;border-radius:12px;padding:14px;min-width:0}.step .no{font-size:21px;color:var(--gold);font-weight:900}.step strong{display:block}.step small{display:block;color:var(--mut);font-size:12px;margin-top:4px}
+.notice{background:#1b2d4d;border:1px solid #385776;border-left:4px solid var(--cyan);border-radius:11px;padding:13px 16px;margin:14px 0;font-size:13px;color:#d6e6fa}.notice.warn{border-left-color:#f3a38d;background:#3a2735;border-color:#674451}.notice.good{border-left-color:var(--green)}.notice.gold{border-left-color:var(--gold)}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:19px;margin:15px 0}.box h3{font-size:17px;margin:0 0 9px;color:#f4f5ff}.box p{margin:7px 0;color:#d5e3f3}.cols2{display:grid;grid-template-columns:1fr 1fr;gap:13px}.cleanlist{margin:9px 0;padding-left:23px}.cleanlist li{margin:8px 0;color:#cfdeef}.cleanlist li::marker{color:var(--gold)}
+.tablewrap{width:100%;overflow:auto;border:1px solid var(--line);border-radius:12px;background:#13223d;margin:13px 0;scrollbar-color:#465d80 transparent}table{border-collapse:collapse;min-width:740px;width:100%;font-size:12.5px}td,th{padding:10px 12px;text-align:left;border-bottom:1px solid #2b4264;vertical-align:top}th{background:#1b3559;color:#d7eeff;font-weight:850;position:sticky;top:0;z-index:1;white-space:nowrap}tbody tr:hover{background:#1a3458}td strong{color:#fff}td b{color:#e6f4ff}.status{border-radius:6px;font-weight:800;font-size:11px;padding:3px 7px;white-space:nowrap}.status.new{background:#513149;color:#ffd5e8}.status.yes{background:#155745;color:#b9ffe4}.status.no{background:#64373b;color:#ffd1c8}.status.estimate{background:#6e521e;color:#fff2bf}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}.searchbox{width:min(100%,425px);background:#0d1d37;color:#fff;border-radius:9px;border:1px solid #3b577d;padding:10px 12px;font-size:13px}.prompt{background:#0b172d;border:1px solid #3b5678;border-radius:13px;margin:13px 0;overflow:hidden}.prompthead{padding:11px 13px;background:#192f50;border-bottom:1px solid #335070;display:flex;justify-content:space-between;align-items:center;gap:12px}.prompthead strong{font-size:13px;color:#f7e1ac}.copybtn{background:#d5e9ff;border:0;color:#0c2547;border-radius:8px;font-weight:850;font-size:12px;padding:6px 11px}.copybtn:hover{background:#f9d899}.prompt pre{white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;font-size:12.5px;color:#dce9f6;margin:0;padding:17px;line-height:1.85;font-family:ui-monospace,"D2Coding",Consolas,monospace;tab-size:2}
+.framehead{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:#19365b;border:1px solid #476c91;border-bottom:0;padding:11px 14px;border-radius:12px 12px 0 0;color:#d5e4f4;font-size:12px}.frameouter{border:1px solid #476c91;border-radius:0 0 14px 14px;overflow:hidden;background:#fff;box-shadow:var(--shadow)}#sourceFrame{width:100%;height:calc(100dvh - 225px);min-height:660px;border:0;display:block;background:#13253f}.framehint{font-size:12px;color:var(--mut);margin-top:11px}
+.meter{background:#0b1b34;border-radius:8px;height:12px;overflow:hidden;margin:5px 0 10px}.meter span{height:100%;display:block;background:linear-gradient(90deg,#3e9cda,#6cdfc6);border-radius:8px}.meter.g span{background:linear-gradient(90deg,#d8a44b,#ffe0a0)}.meter.p span{background:linear-gradient(90deg,#935cba,#f3a2ca)}
+details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9px 0}summary{cursor:pointer;padding:11px 15px;font-weight:800;color:#eaf3ff}details>div{padding:2px 15px 14px;color:#d1e1f5;font-size:13px}.notefoot{font-size:11px;color:#8ea6c2;margin-top:28px}
+.toast{position:fixed;bottom:20px;right:20px;background:#246449;color:#fff;padding:11px 17px;border-radius:9px;font-weight:850;box-shadow:var(--shadow);z-index:100;opacity:0;transform:translateY(12px);transition:.2s;pointer-events:none}.toast.show{opacity:1;transform:none}
+@media(max-width:1180px){.stats,.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.flow{grid-template-columns:repeat(2,minmax(0,1fr))}.cols2{grid-template-columns:1fr}}
+@media(max-width:860px){.mobilebutton{display:block}.toplabel{display:none}.shell{display:block;height:auto;min-height:calc(100dvh - 70px)}.sidebar{position:fixed;top:70px;left:0;width:min(86vw,308px);height:calc(100dvh - 70px);transform:translateX(-110%);transition:transform .2s;box-shadow:var(--shadow);z-index:35}.sidebar.open{transform:translateX(0)}.stage{height:calc(100dvh - 70px)}.pagetop{flex-direction:column}.mainwrap{padding:18px 13px 35px}#sourceFrame{height:calc(100dvh - 260px);min-height:590px}}
+@media(max-width:550px){.brand strong{font-size:14px}.brandmark{height:36px;width:36px}.topbar{padding:0 10px}.toplink{display:none}.stats,.tiles{grid-template-columns:1fr 1fr;gap:7px}.stat{padding:12px}.stat strong{font-size:23px}.tile{min-height:130px;padding:13px}.tile strong{font-size:14px}.flow{grid-template-columns:1fr 1fr}.flow .step{padding:11px;font-size:12px}.hero{padding:19px}}
+</style>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#home"><span class="brandmark">✦</span><span><strong>해외반응 × 국뽕 연구 허브</strong><small>자료 찾기 · 급등 분석 · 저작권 · 실행 프롬프트</small></span></a><div class="topright"><span class="toplabel">2026.11.08 기준 · 기존 연구 보존</span><a class="toplink" href="https://github.com/geben147-create/Insta/tree/main/research-hub-20261108" target="_blank" rel="noopener">GitHub 원본</a><button class="mobilebutton" id="menuToggle" type="button">☰ 메뉴</button></div></header>
+<div class="shell">
+<aside class="sidebar" id="sidebar" aria-label="자료 목차">
+<input class="navsearch" id="navSearch" type="search" placeholder="🔍 메뉴 검색 (자막, 저작권, 급등…)" aria-label="메뉴 검색">
+<div class="navgroup"><div class="grouptitle">00 · 시작</div><button class="navbtn" data-to="home"><span class="i">🏠</span> 통합 대시보드</button><button class="navbtn" data-to="operations"><span class="i">📌</span> 현재 상황 · 자료 위치</button></div>
+<div class="navgroup"><div class="grouptitle">01 · 해외 원자료 수집</div>
+<button class="navbtn" data-to="keywords"><span class="i">🌸</span> 통합 키워드 · 다국가 검색</button>
+<button class="navbtn" data-to="discovery"><span class="i">🔎</span> 기존 Aside 자료 찾기</button>
+<button class="navbtn sub" data-to="discovery-sort"><span class="subdot"></span>등급 분류 · 시트 정리</button>
+<button class="navbtn sub" data-to="discovery-copyright"><span class="subdot"></span>원본의 저작권 편집 지침</button>
+<button class="navbtn sub" data-to="discovery-subs"><span class="subdot"></span>자막 없음 보완</button>
+<button class="navbtn" data-to="collection"><span class="i">🌸</span> 영상·자막·댓글 수집</button>
+<button class="navbtn" data-to="global-data"><span class="i">🌍</span> 136개 해외반응 원본 DB</button></div>
+<div class="navgroup"><div class="grouptitle">02 · 국뽕 YouTube</div>
+<button class="navbtn" data-to="rising"><span class="i">🚀</span> 신생 · 급등 채널 분석</button>
+<button class="navbtn" data-to="longrun"><span class="i">🏆</span> 장수 채널 8곳 분석</button>
+<button class="navbtn sub" data-to="longrun-emotion"><span class="subdot"></span>대본 전개 · 감정 곡선</button>
+<button class="navbtn sub" data-to="longrun-permission"><span class="subdot"></span>허락·계약·연락 방법</button>
+<button class="navbtn" data-to="top1"><span class="i">🎞️</span> TOP1 편집 심층 분석</button>
+<button class="navbtn" data-to="youtube-score"><span class="i">🌸</span> Threads 로직 → YouTube 환산</button>
+<button class="navbtn" data-to="longform"><span class="i">🎬</span> 8분 30초 대본 · 제작</button></div>
+<div class="navgroup"><div class="grouptitle">03 · 저작권 · 사용 허락</div>
+<button class="navbtn" data-to="copyright-old"><span class="i">⚖️</span> 기존 저작권 메가 가이드</button>
+<button class="navbtn sub" data-to="copyright-script"><span class="subdot"></span>대본·편집 프롬프트</button>
+<button class="navbtn" data-to="copyright-new"><span class="i">🌸</span> 추가 검증 · 위험 정정</button></div>
+<div class="navgroup"><div class="grouptitle">04 · 실행 · 시트</div>
+<button class="navbtn" data-to="master-prompt"><span class="i">📋</span> 통합 실행 프롬프트 복사</button>
+<button class="navbtn" data-to="sheets"><span class="i">📊</span> Google Sheets 2개</button>
+<button class="navbtn" data-to="history"><span class="i">🧷</span> 수집·전송 인수인계</button></div>
+<div class="sidenote">🌸 = 이번 통합에서 새로 붙인 설명·검증·프롬프트. 원본 페이지·기존 분석 내용은 그대로 유지했습니다.<br><br>✅ 관측값 · 🧮 계산값 · ⚠️ 추정 · ⛔ 확인 불가를 구분합니다.</div>
+</aside>
+<main class="stage" id="stage"><div class="mainwrap">
+<div class="pagetop"><div><div id="eyebrow" class="eyebrow">RESEARCH COMMAND CENTER</div><h1 id="pageTitle">해외반응 · 국뽕 콘텐츠 통합 연구실</h1><p id="pageDesc">흩어진 GitHub 자료를 한 화면에서 읽고, 추가 검색 및 저작권 보완을 바로 실행할 수 있도록 묶었습니다.</p></div><div class="pageactions"><a id="openOriginal" class="openlink hidden" target="_blank" rel="noopener">↗ 원본 화면 크게 보기</a><button type="button" id="backHome" class="smallbtn">⌂ 처음으로</button></div></div>
+<section class="panel on" data-panel="home">
+<div class="hero"><div class="eyebrow">ONE LINK · SEVEN EXISTING REPORTS</div><h2>하나의 주소, 여러 연구 화면. <span class="accent">자료는 원본 그대로.</span></h2><p>샤오홍슈·빌리빌리·해외 SNS에서 원본을 찾고, 유튜브에서 급등과 수익 가능성을 살펴보고, 마지막에 사용 허락과 저작권을 검사하는 흐름으로 재배열했습니다.</p><div class="chips"><span class="chip gold">🎯 40~80대 · 8분 30초형</span><span class="chip">🇰🇷 🇯🇵 🇺🇸 🇨🇳 비교</span><span class="chip green">원본 7개 연결</span><span class="chip pink">🌸 신규 보완</span></div></div>
+<div class="stats"><div class="stat"><strong>7</strong><span>연결된 기존 GitHub 연구 화면</span></div><div class="stat"><strong>2</strong><span>역할별 Google Sheets 원본</span></div><div class="stat"><strong>26</strong><span>참조 GitHub의 Threads 공식 수, YouTube 전용은 아님</span></div><div class="stat"><strong>4</strong><span>탐색 → 검증 → 점수 → 편집 흐름</span></div></div>
+<h2 class="sectionhead">한 번에 찾는 작업 흐름</h2><div class="flow"><div class="step"><div class="no">01 🔎</div><strong>해외 원문 찾기</strong><small>XHS·더우인·BILI·틱톡·언론·원출처</small></div><div class="step"><div class="no">02 🧪</div><strong>원본·타임코드 검증</strong><small>자막·댓글·번역·중복 ID·자료 등급</small></div><div class="step"><div class="no">03 📈</div><strong>유튜브 상승 신호</strong><small>VPH·조회/구독·댓글·상대 급등률</small></div><div class="step"><div class="no">04 🎬</div><strong>권리 확인 후 제작</strong><small>사용 허락·출처·자체 해설·8:30 편집</small></div></div>
+<div class="tiles"><button class="tile" data-to="keywords"><span class="emoji">🌸</span><strong>추가 키워드 통합</strong><small>플랫폼·국가·대조 키워드를 한눈에</small></button><button class="tile" data-to="rising"><span class="emoji">🚀</span><strong>신생 급등 국뽕</strong><small>기존 영상·채널 분석 전체를 화면 안에서</small></button><button class="tile" data-to="copyright-new"><span class="emoji">⚖️</span><strong>저작권 정정 사항</strong><small>5초 안전설·광고=수익화 같은 오해 방지</small></button><button class="tile" data-to="master-prompt"><span class="emoji">📋</span><strong>통합 프롬프트</strong><small>해외반응용 / 유튜브 분석용 각각 복사</small></button></div>
+<div class="notice warn"><b>🌸 중요 정정:</b> 3~6초, 20초 이하 등의 컷 길이는 안전한 법적 기준이 아닙니다. 출처 표기만으로 사용 허락이 되지 않으며, YouTube에 광고가 붙었다고 그 채널의 수익화 승인을 확인한 것도 아닙니다. 기존 분석 아래에 검토 의견으로 보완했습니다.</div>
+<div class="notice good"><b>기존 데이터 보존:</b> 지금 만든 것은 통합 <b>열람 허브</b>입니다. Google Sheets 값이나 원본 GitHub의 대형 분석 페이지는 수정·삭제하지 않았습니다. 새 영상·댓글·자막을 수집했다고 주장하지 않습니다.</div>
+</section>
+<section class="panel" data-panel="frame">
+<div class="framehead"><span>📄 원본 페이지를 이 화면 안에서 열람 중 · 기존 내용 그대로</span><span><span class="flower">🌸</span> 긴 표의 한 글자씩 줄바꿈을 완화하는 표시 스타일 적용</span></div>
+<div class="frameouter"><iframe id="sourceFrame" title="기존 GitHub 연구 자료" loading="lazy"></iframe></div><p class="framehint">화면이 좁으면 자료 안에서 가로로 스크롤하세요. 원본의 이미지와 표가 크면 렌더링이 늦을 수 있습니다. 화면이 비면 오른쪽 위 '원본 화면 크게 보기'를 누르세요. 문서 내용과 수치는 해당 페이지 작성일 기준입니다.</p>
+</section>
+<section class="panel" data-panel="keywords">
+<div class="hero"><div class="eyebrow">🌸 ADD-ON · SEARCH MASTER</div><h2>검색어는 <span class="accent">국가 × 플랫폼 × 반응 유형</span>으로 조합</h2><p>기존 자료 찾기 프롬프트 4종을 보존하고, 상위 원자료부터 찾도록 검색 키워드를 확장했습니다. 🇨🇳 원어를 먼저 검색하고 한국어로 번역하되, 원문과 URL을 반드시 남깁니다.</p></div>
+<div class="controls"><input id="kwSearch" class="searchbox" type="search" placeholder="플랫폼 / 국가 / 원어 키워드 필터" aria-label="키워드 검색"><button class="smallbtn" data-copy="allKeywords">🌸 키워드 목록 복사</button><button class="smallbtn" data-to="discovery">기존 20개 검색어 보기</button></div>
+<div class="tablewrap"><table id="keywordsTable"><thead><tr><th>우선</th><th>플랫폼 · 대상</th><th>원어 검색 키워드</th><th>찾을 것 / 관찰 기준</th><th>구분</th></tr></thead><tbody>
+<tr><td>🥇</td><td><strong>小红书 XHS · 한국</strong></td><td>韩国旅游 真实体验 / 第一次来韩国 / 首尔旅行 感受</td><td>여행 초반 충격·직접 촬영·본인 발화</td><td><span class="status new">🌸 확장</span></td></tr>
+<tr><td>🥇</td><td><strong>XHS · 한국 생활</strong></td><td>韩国生活 对比 中国 / 韩国物价 / 韩国便利店 / 韩国超市</td><td>한국과 중국 실제 물가·생활 비교</td><td><span class="status new">🌸 확장</span></td></tr>
+<tr><td>🥇</td><td><strong>XHS · 한국의 선행</strong></td><td>韩国人 帮助外国人 / 韩国人 很热情 / 韩国丢东西 找回</td><td>감동·선행 당사자 경험, 날짜 확인</td><td><span class="status new">🌸 신규</span></td></tr>
+<tr><td>🥇</td><td><strong>XHS · 한국 교통</strong></td><td>韩国地铁 震惊 / 韩国高铁 体验 / 首尔公交 体验</td><td>편의·문화 차이, 외국인 첫 반응</td><td><span class="status new">🌸 신규</span></td></tr>
+<tr><td>🥇</td><td><strong>XHS · 한국 의료</strong></td><td>韩国医院 初体验 / 韩国药店 / 韩国皮肤科 体验</td><td>진료비·경험담은 개인 경험으로 구분</td><td><span class="status new">🌸 신규</span></td></tr>
+<tr><td>🥇</td><td><strong>XHS · 일본</strong></td><td>中国人在日本 真实体验 / 日本物价 对比 韩国 / 日本便利店</td><td>CN→일본 원자료와 메인 시트 ID 중복 확인</td><td><span class="status new">🌸 추가</span></td></tr>
+<tr><td>🥇</td><td><strong>XHS · 영국</strong></td><td>中国人在英国 生活 / 英国地铁 对比 / 英国物价 震惊</td><td>CN→영국 탭과 대조</td><td><span class="status new">🌸 추가</span></td></tr>
+<tr><td>🥇</td><td><strong>XHS · 프랑스</strong></td><td>中国人在法国 生活 / 巴黎 真实体验 / 法国物价</td><td>기존 프랑스 375건과 source ID 중복 검사</td><td><span class="status new">🌸 추가</span></td></tr>
+<tr><td>🥇</td><td><strong>XHS · 독일</strong></td><td>中国人在德国 / 德国超市 物价 / 德国生活 震惊</td><td>기존 독일 94건과 source ID 중복 검사</td><td><span class="status new">🌸 추가</span></td></tr>
+<tr><td>🥈</td><td><strong>抖音 Douyin · 한국</strong></td><td>韩国初体验 / 韩国旅行 遇到好人 / 韩国真实生活</td><td>원본 게시자·영상 ID·워터마크·사용권</td><td><span class="status new">🌸 확장</span></td></tr>
+<tr><td>🥈</td><td><strong>Bilibili · 한국</strong></td><td>韩国留学 vlog / 韩国旅行 反差 / 韩国生活 日本比较</td><td>타임코드 있는 원어 발언, AI 자막 여부</td><td><span class="status new">🌸 확장</span></td></tr>
+<tr><td>🥈</td><td><strong>TikTok · 첫 한국 방문</strong></td><td>first time in Korea / Korea culture shock / Seoul first impressions</td><td>영어 원음·조회 급등·재업로드 여부</td><td><span class="status new">🌸 확장</span></td></tr>
+<tr><td>🥈</td><td><strong>Instagram Reels</strong></td><td>living in South Korea / foreigners try Korean food / Busan travel reaction</td><td>직접 체험 리액션·원 제작자 확인</td><td><span class="status new">🌸 신규</span></td></tr>
+<tr><td>🥈</td><td><strong>YouTube · 미국</strong></td><td>American in Korea first time / South Korea vs USA travel / American tries Korean hospital</td><td>미국의 관점, 실제 국적은 출처로 검증</td><td><span class="status new">🌸 추가</span></td></tr>
+<tr><td>🥈</td><td><strong>YouTube · 일본</strong></td><td>韓国旅行 初めて / 韓国人 親切 体験 / 韓国と日本 比較</td><td>일본인 원본 브이로그·자동자막 분리</td><td><span class="status new">🌸 추가</span></td></tr>
+<tr><td>🥈</td><td><strong>YouTube · 중국</strong></td><td>韩国旅游 中国人反应 / 首尔 生活 成本 / 中韩比较 旅行</td><td>국가 비교 사실과 감정 구분</td><td><span class="status new">🌸 추가</span></td></tr>
+<tr><td>🥈</td><td><strong>YouTube · 한국 칭찬</strong></td><td>Korean kindness stranger / foreigners shocked by Korean technology / KTX reaction</td><td>실제 발언과 원본 5초 시점 수집</td><td><span class="status new">🌸 신규</span></td></tr>
+<tr><td>🥈</td><td><strong>Reddit · 커뮤니티</strong></td><td>first time Seoul site:reddit.com/r/koreatravel / Korea vs Japan site:reddit.com</td><td>원문 댓글·링크·게시일, 영상으로 오인 금지</td><td><span class="status new">🌸 신규</span></td></tr>
+<tr><td>🥉</td><td><strong>RuTube · 러시아</strong></td><td>Корея глазами иностранцев / Южная Корея путешествие / Сеул впечатления</td><td>채널·원본 확인, 기존 RU ID 중복 점검</td><td><span class="status new">🌸 추가</span></td></tr>
+<tr><td>🥉</td><td><strong>VK · 러시아</strong></td><td>путешествие в Корею / Корея жизнь / корейские технологии</td><td>러시아어 반응, 원영상 vs 재게시 구분</td><td><span class="status new">🌸 추가</span></td></tr>
+<tr><td>🥉</td><td><strong>Dzen · 러시아</strong></td><td>Южная Корея отзывы / японцы в Корее / Корея и Япония</td><td>글·동영상 분리, 출처 사이트 기록</td><td><span class="status new">🌸 추가</span></td></tr>
+<tr><td>🥉</td><td><strong>영문 해외 언론·기관</strong></td><td>Korea tourism statistics / Korean rail passenger data / South Korea innovation report</td><td>주장 검증용 통계·연도·공식 발표 PDF</td><td><span class="status new">🌸 신규</span></td></tr>
+<tr><td>🥉</td><td><strong>일본 언론·기관</strong></td><td>韓国 観光 統計 / 韓国 経済 比較 / 韓国 技術 ニュース</td><td>한국 관련 비교 수치 검증·출처 보강</td><td><span class="status new">🌸 신규</span></td></tr>
+<tr><td>🥉</td><td><strong>해외 댓글 심화</strong></td><td>反转 / 没想到 / 震惊 / 感动 / I didn't expect / surprising twist</td><td>반전·놀람·반론·유머를 발언 증거와 분리</td><td><span class="status new">🌸 신규</span></td></tr>
+</tbody></table></div>
+<div class="cols2"><div class="box"><h3>검색 순서</h3><ol class="cleanlist"><li>최근 30일 우선 → 최대 180일까지 확대</li><li>원 게시자·영상 ID·게시일을 먼저 고정</li><li>기존 MASTER·일일DB와 URL/ID/제목 중복 제거</li><li>원어 발언·댓글·자막 타임코드 저장</li><li>언론·공식기관으로 사실 교차 검증</li><li>사용 허락이 확인된 소재만 제작 후보로</li></ol></div><div class="box"><h3>상위 키워드 발굴 기준</h3><div class="muted">첫 체험의 놀라움</div><div class="meter"><span style="width:90%"></span></div><div class="muted">생활·물가·교통의 비교 가능성</div><div class="meter g"><span style="width:81%"></span></div><div class="muted">선행·감동의 원본 증명성</div><div class="meter p"><span style="width:72%"></span></div><p class="muted" style="font-size:11px">막대는 강조용 시각 예시입니다. 실제 측정 점수가 아닙니다.</p></div></div>
+<div class="notice gold">🌸 자료의 중복 판단은 <b>플랫폼 ID → 원본 URL → 정규화 제목 → 파일 해시</b> 순서로 수행하세요. 같은 장면을 재편집한 별개 게시물은 삭제하지 말고 원본 그룹 ID로 연결합니다.</div>
+</section>
+<section class="panel" data-panel="collection">
+<div class="notice good">이 메뉴는 <b>재사용 가능한 작업 지침</b>입니다. 이 페이지를 만드는 동안 yt-dlp 다운로드나 YouTube Data API 수집을 새로 실행하지 않았습니다. 수집값에는 수집일을 남기고 추정값을 섞지 않습니다.</div>
+<div class="box"><h3>① 영상별 자막 지원 여부 확인 · 실제 저장</h3><div class="prompt"><div class="prompthead"><strong>yt-dlp 명령 (영상 URL을 입력 후 실행)</strong><button class="copybtn" data-copy="ydl">복사</button></div><pre id="ydl">yt-dlp --list-subs "영상URL"
+yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs "ko.*,en.*,ja.*" --sub-format "vtt/srt/best" -o "%(id)s.%(ext)s" "영상URL"</pre></div><p>실패 시 <b>youtube-transcript-api</b> 재시도. 공식/자동, 언어, 오류코드, 403/429·비공개·삭제·자막 미제공 등 실제 확인 결과를 구분합니다. 전체 타임코드 원본은 접근 통제된 보관소에 저장하고, 공개 GitHub에는 허락 없는 자막 전문을 넣지 않습니다.</p></div>
+<div class="box"><h3>② 댓글 좋아요 TOP5 · 대댓글 TOP6</h3><div class="tablewrap"><table><thead><tr><th>단계</th><th>수집 내용</th><th>정렬·기록 원칙</th></tr></thead><tbody><tr><td>영상 댓글</td><td>commentThreads.list: topLevelComment, totalReplyCount</td><td>가능한 페이지를 수집하고 좋아요 수 기준으로 TOP5, 답글 수 기준으로 TOP6을 <b>따로</b> 정렬</td></tr><tr><td>답글 원문</td><td>comments.list(parentId)</td><td>필요할 때 전체 답글 페이징. commentThreads에 포함된 답글은 일부일 수 있음</td></tr><tr><td>출처</td><td>comment ID · 원문 · 번역 · video ID · 수집일</td><td>댓글 영구링크, 변경·삭제 가능성, 원문과 번역 분리</td></tr><tr><td>연락처</td><td>채널의 공개 비즈니스 문의 창구</td><td>공개된 공식 연락처만. CAPTCHA 우회·비공개 이메일 수집 금지</td></tr></tbody></table></div><a href="https://developers.google.com/youtube/data/reference/rest/v3/commentThreads/list" target="_blank" rel="noopener">YouTube 댓글 API 공식 문서</a></div>
+<div class="box"><h3>③ 검증 데이터 표준</h3><div class="prompt"><div class="prompthead"><strong>CSV/TSV 공통 열 헤더 예시</strong><button class="copybtn" data-copy="headers">복사</button></div><pre id="headers">source_id	platform	channel_id	video_id	url	published_at	collected_at	language	subtitle_kind	subtitle_file	t_start	t_end	speaker	original_quote	translation_ko	comment_id	comment_url	comment_likes	reply_count	views	likes	comments	shares_if_observed	public_contact	rights_holder	license_type	permission_status	permission_proof	hook_5s_score	emotion_score	reversal_score	data_kind	verification_status	error_reason</pre></div><p><span class="status yes">COLLECTED</span> API/원출처 직접 확보 · <span class="status estimate">COMPUTED</span> 실제 원자료에서 수식 계산 · <span class="status no">INFERRED</span> 관찰 기반 추정 · <span class="status no">UNAVAILABLE</span> 제공되지 않는 수치.</p><p>시청자 유지율은 소유자만 확인할 수 있으므로 타인 영상에서 추정 retention을 실제 retention으로 기록하지 않습니다. 훅·감정·반전 점수는 별도의 주관적 분석 칸에만 둡니다.</p></div>
+<div class="box"><h3>④ 5초 조합 후보</h3><p>영상 A·B·C의 <b>t_start / t_end / 원본 URL / 원 발언 / 출처 / 권리자 / 허락증빙 / 사용 맥락</b>을 각각 기록합니다. 5초 이내라는 이유로 사용 허락을 '확보'로 표시하지 않습니다.</p></div>
+</section>
+<section class="panel" data-panel="youtube-score">
+<div class="hero"><div class="eyebrow">🌸 BRIDGE · THREADS → YOUTUBE</div><h2>26개 공식의 <span class="accent">공통 계산 원리</span>만 이식</h2><p>기존 GitHub <b>only-thread-logic-42326</b>은 Threads용 순수 점수 라이브러리입니다. 그대로 유튜브 수익이나 시청지속률을 알려주는 도구가 아닙니다. 아래는 실측 가능한 신호만으로 만든 YouTube 분석 <b>설계안</b>입니다.</p><div class="chips"><span class="chip">17개 공통 확산 공식</span><span class="chip">9개 Threads 전용</span><span class="chip gold">유튜브 동일 공식 아님</span></div></div>
+<div class="tablewrap"><table><thead><tr><th>순위 기준</th><th>유튜브 환산/계산</th><th>의미</th><th>데이터</th></tr></thead><tbody><tr><td>🥇 VPH</td><td>조회수 ÷ 게시 후 경과시간(h)</td><td>현재 얼마나 빠르게 성장 중인가, <b>누적 평균</b> 속도</td><td><span class="status yes">🧮 가능</span></td></tr><tr><td>🥈 조회/구독 배수</td><td>조회수 ÷ 공개 구독자 수</td><td>작은 채널이 구독자 규모를 넘어 퍼졌는가</td><td><span class="status yes">🧮 가능</span></td></tr><tr><td>🥉 계정 대비 이상치</td><td>(영상 VPH − 채널 최근 영상 평균 VPH) ÷ 표준편차</td><td>작성자의 평소 기록과 비교한 급등 신호, 표본 수·분산 보정 필요</td><td><span class="status estimate">🧮 조건부</span></td></tr><tr><td>좋아요율</td><td>좋아요 ÷ 조회수 × 100</td><td>조회 중 긍정 반응 비중의 근사치</td><td><span class="status yes">🧮 가능</span></td></tr><tr><td>댓글률</td><td>댓글 수 ÷ 조회수 × 1000</td><td>1천 조회당 대화량</td><td><span class="status yes">🧮 가능</span></td></tr><tr><td>대댓글 활성도</td><td>상위 댓글의 totalReplyCount 비교</td><td>논쟁·토론 가능성. 호감도와 동일하지 않음</td><td><span class="status estimate">🧮 수집 범위 의존</span></td></tr><tr><td>공유 수</td><td>소유자 제공 또는 신뢰할 수 있는 공개 수치만</td><td>일반 YouTube Data API는 공유 수를 제공하지 않음</td><td><span class="status no">⛔ 기본값 없음</span></td></tr><tr><td>RPM · 실제 수익</td><td>채널 Studio 공개/권한 기반일 때만 실측</td><td>광고 노출=YPP 가입/실수익이 아님</td><td><span class="status no">⛔ 타인 실측 불가</span></td></tr><tr><td>수익 시나리오</td><td>(조회수 ÷ 1000) × <b>가정</b> RPM</td><td>가정치별 가능성 비교, 절대 '벌어들인 돈' 순위 아님</td><td><span class="status estimate">⚠️ 추정</span></td></tr><tr><td>시청 지속률</td><td>소유자 Studio/Analytics 접근시에만</td><td>훅 점수로 대체해 실제값처럼 쓰지 않음</td><td><span class="status no">⛔ 타인 실측 불가</span></td></tr></tbody></table></div>
+<div class="cols2"><div class="box"><h3>30일 / 180일 신생 채널 찾기</h3><ol class="cleanlist"><li>30일 이내 게시·개설 채널부터 후보 추출, 180일 이내로 확대</li><li>채널 가입일과 첫 게시일 별도 기록</li><li>조회수·VPH·구독 배수의 TOP N을 각각 계산</li><li>좋아요 TOP5 · 댓글 답글 TOP6을 분리 수집</li><li>주제별: AI 창업·지원금, 경제·ETF·코인, 부동산, 국뽕</li><li>수익은 가정 RPM 시나리오로만 정렬</li></ol></div><div class="box"><h3>중요한 비교 원칙</h3><p>동일 채널 내 이상치가 중요합니다. Threads의 <b>final_score</b>를 YouTube 영상에 그대로 적용하거나, 서로 다른 플랫폼의 점수를 숫자 그대로 비교하면 안 됩니다.</p><p>제외: 공개되지 않은 공유수·RPM·실제 retention. <b>영상 길이, 장르, 조회수 집계 방식</b>에 따른 차이를 주석으로 남깁니다.</p><a href="https://github.com/geben147-create/only-thread-logic-42326" target="_blank" rel="noopener">GitHub 공통 확산 로직 보기</a></div></div>
+<div class="notice gold">🌸 수익성 분석 순위의 라벨을 명확히: <b>① 실측 조회 순위 ② 실측 댓글·좋아요 순위 ③ 상대 급등 순위 ④ 가정 RPM 수익 추정 순위</b>. '돈을 가장 많이 번 순위'는 Studio 수익 데이터 없이는 작성하지 않습니다.</div>
+</section>
+<section class="panel" data-panel="copyright-new">
+<div class="hero"><div class="eyebrow">🌸 COPYRIGHT AUDIT ADDENDUM</div><h2>기존 저작권 분석은 보존하고,<br><span class="accent">오해하기 쉬운 규칙만 명확하게 정정</span></h2><p>원본 저작권 가이드와 장수 채널 보고서는 별도 메뉴에 그대로 있습니다. 아래는 사용 전에 우선 적용할 보완 주석입니다.</p></div>
+<div class="tablewrap"><table><thead><tr><th>🌸 새 검토 항목</th><th>기존 자료에서 오해할 수 있는 점</th><th>보완 판단</th></tr></thead><tbody><tr><td><b>🌸 1. 5초·20초 안전설</b></td><td>영상 3~6초, 원음 20초 이하 등 숫자</td><td>법적 면책 기준이 <b>아님</b>. 몇 초 사용해도 문제가 될 수 있으므로 허락·명확한 예외 법리 검토</td></tr><tr><td><b>🌸 2. 자체 해설 60%</b></td><td>자체 제작 비율이 높으면 자동 안전</td><td>독창성을 설명하는 편집 참고치일 뿐, 원본 권리가 사라지지 않음</td></tr><tr><td><b>🌸 3. URL 출처 표기</b></td><td>출처만 적으면 영상 사용 가능</td><td>출처는 추적성. 허락·라이선스는 별개</td></tr><tr><td><b>🌸 4. 광고 표시</b></td><td>광고=YPP 승인=수익 증거</td><td>광고 노출만으로 수익화 가입·RPM·실수령액 확인 불가</td></tr><tr><td><b>🌸 5. 공정 이용</b></td><td>뉴스·해설이면 무조건 공정 이용</td><td>국가별 예외 요건과 개별 맥락 다름. 최종 판단은 법적 절차에 달림</td></tr><tr><td><b>🌸 6. 번역·더빙</b></td><td>한국어 자막을 달면 새로운 내 콘텐츠</td><td>번역·더빙은 2차적 저작물 문제 가능. 별도 허락 확인</td></tr><tr><td><b>🌸 7. 재업로드 원본</b></td><td>플랫폼에 올라온 계정이면 권리자</td><td>방송·음악·스포츠·브이로그의 실제 권리자 체인 확인</td></tr><tr><td><b>🌸 8. 음원·초상·상표</b></td><td>영상 사용 허락이 모든 권리를 해결</td><td>음악·공연·초상·상표·제3자 소재 권리는 별도 점검</td></tr><tr><td><b>🌸 9. CC·무료소스</b></td><td>무료라고 상업 이용 가능</td><td>라이선스 버전, 상업 이용, 개작 허용, 저작자 표시, 증빙 저장</td></tr><tr><td><b>🌸 10. AI 재현</b></td><td>AI로 재현하면 법적 위험 0</td><td>기존 저작물 복제·실존 인물 사칭·허위 뉴스처럼 보이는 결과물 주의</td></tr></tbody></table></div>
+<div class="notice warn"><b>권장 워크플로:</b> ① 권리자 찾기 → ② 사용 범위·매체·기간·지역·수익화가 포함된 서면 허락 → ③ 음악·인물 등 부수 권리 확인 → ④ 설명란에 원본 출처 → ⑤ 게시 후 Content ID/플랫폼 정책 확인. ⑤만 통과해도 ①~③이 해결된 것은 아닙니다.</div>
+<div class="box"><h3>허락 요청 메일 초안 🌸</h3><div class="prompt"><div class="prompthead"><strong>원작자에게 보내는 라이선스 문의 문안</strong><button class="copybtn" data-copy="permission">복사</button></div><pre id="permission">안녕하세요. 귀하의 영상 [원본 제목/URL] 중 [시작~종료 구간]을 출처를 표기하고 한국어 해설 콘텐츠에 인용·사용하려 합니다.
+
+사용 예정 범위: YouTube [채널명] / 롱폼 및 쇼츠 [해당 여부] / 한국어 번역·자막 / 상업적 수익화 [예/아니오] / 게시 기간·지역 [기입].
+
+해당 구간을 위 범위로 사용할 수 있는지, 귀하가 영상·음성·음악·출연자 관련 권리를 직접 보유하거나 허락할 권한이 있는지 확인 부탁드립니다. 허용 조건과 출처 표기 방식, 사용료가 있다면 회신 부탁드립니다.
+
+감사합니다.</pre></div><p>계약·메일은 권리자 허락 증빙 보관소에 저장. 확인 전에는 permission_status=UNCONFIRMED를 유지합니다. 연락처는 공식 공개 연락창구만 사용합니다.</p></div>
+<div class="box"><h3>공식 확인 자료</h3><p><a href="https://support.google.com/youtube/answer/2797449" target="_blank" rel="noopener">YouTube 저작권에 관한 흔한 오해</a> · <a href="https://support.google.com/youtube/answer/9783148" target="_blank" rel="noopener">공정 이용 안내</a> · <a href="https://support.google.com/youtube/answer/1311392" target="_blank" rel="noopener">YouTube 채널 수익 창출 정책</a></p><p class="muted">이 내용은 위험 점검을 돕는 일반 정보이며 법률 자문이 아닙니다.</p></div>
+</section>
+<section class="panel" data-panel="master-prompt">
+<div class="notice good">복사 버튼으로 Aside·Hermes·Claude Code 등에 전달할 수 있는 <b>두 개의 독립 프롬프트</b>입니다. 실제 실행 시 인증·접근·API 키는 실행 환경에서 설정하고, 허락 없는 크롤링·CAPTCHA 우회·저작권 침해는 금지합니다.</div>
+<div class="prompt"><div class="prompthead"><strong>① 🌸 해외반응 전체 검색·자막·댓글·저작권 프롬프트</strong><button class="copybtn" data-copy="promptOverseas">전체 복사</button></div><pre id="promptOverse">역할: 한국 관련 해외 원자료 조사 에이전트. 기존 원본은 덮어쓰지 않는다.
+
+[참조] MASTER: https://docs.google.com/spreadsheets/d/1z_Ys-QfkRY3GDuD2vQ5N7CDt-RGXcrMyUESst8cQDAY/edit
+GitHub 통합 허브: https://geben147-create.github.io/Insta/research-hub-20261108/
+기존 자료 찾기: https://geben147-create.github.io/Insta/haeoe-prompts-sheet-20261108/
+
+[탐색]
+- XHS(小红书) 1순위, Douyin·TikTok 2순위, Bilibili 3순위. 보조로 YouTube, Instagram, Reddit, Rutube, VK, Dzen, 해외 언론·공식기관을 조사한다.
+- 최근 30일을 우선하고, 자료가 부족할 때 최근 180일로 확장한다. 한국·일본·미국·중국, 중국인이 본 일본·영국·프랑스·독일 등 기존 나라별 탭과 중복 대조한다.
+- 검색어는 허브 '🌸 통합 키워드'의 국가·언어·플랫폼 조합을 참조하고 새로 찾은 쿼리는 🌸신규 태그로 로그에 남긴다.
+
+[보존·검증]
+- source_id, 플랫폼, 영상ID, URL, 원게시일, 수집일, 원어/한국어 번역, 원문 발언, 타임코드, 감정·반전 근거, 실제 조회/좋아요/댓글 수, 자막 종류와 제공 언어를 분리한다.
+- 영상별 좋아요 댓글 TOP5, 대댓글 많은 댓글 TOP6을 구분한다. 댓글 원문/원본 URL/수집 시각을 반드시 남긴다.
+- 원본 URL/플랫폼 ID, 제목 정규화, 파일 SHA-256으로 기존 자료 및 2개 시트를 대조한다. 재업로드는 원본 그룹 ID로 연결한다.
+- 부정적 반응·허위 주장은 사실로 포장하지 않는다. 확인되지 않은 국적·발언·표정·타임코드·수익을 만들지 않는다.
+- CAPTCHA가 나오면 수동 해결을 요청하고 자동 우회를 시도하지 않는다. 플랫폼 약관·접근 제한을 준수한다.
+
+[권리]
+- 5초 구간이라고 자동 사용 가능하지 않다. rights_holder, permission_status, proof_url, 사용 조건, 배경음악·초상 권리를 기록한다.
+- 허락 없는 원영상·자막 원문 전문·개인 이메일은 공개 GitHub에 올리지 않는다.
+
+[최종]
+① 중복 제거된 신규 주제 TOP15 ② 국가·플랫폼별 반응 요약 ③ 실제 외국인 발언 원문+번역+타임코드 ④ 좋아요 TOP5·답글 TOP6 ⑤ 5초 후보 구간과 허락 상태 ⑥ 원문 링크 ⑦ CSV/TSV ⑧ COLLECTED/COMPUTED/INFERRED/UNAVAILABLE 구분 ⑨ 실패·보류 로그.
+시트에는 먼저 읽기만 하고, 쓰기 전 대상 탭·행·열과 변경 요약을 보고한다.</pre></div>
+<div class="prompt"><div class="prompthead"><strong>② 🌸 유튜브 신생 급등·수익 가능성·경쟁 벤치마크 프롬프트</strong><button class="copybtn" data-copy="promptYoutube">전체 복사</button></div><pre id="promptYoutube">역할: YouTube 경쟁 채널 상승 신호·원본 발언·수익 가능성 분석 에이전트.
+
+[참조] 경쟁 일일DB: https://docs.google.com/spreadsheets/d/1-LosbZfgNCYH5b-W3_ePBJc5bE1Bq97kCZP4UnLQcBc/edit
+GitHub 순수 Threads 로직: https://github.com/geben147-create/only-thread-logic-42326
+기존 급등 페이지: https://geben147-create.github.io/Insta/youtube-kukppong-rising-20261108/
+
+[주제 분리] (A) 국뽕·해외반응 (B) AI 창업·지원금·정부사업 (C) 주식·ETF·경제·코인 (D) 부동산. 주제별 최근 30일, 180일에 신생·소형 채널을 먼저 발굴한다.
+[자료] 가입일, 첫 영상일, 영상 URL/ID, 공개 구독자, 업로드 시간, 조회수, 좋아요, 댓글 수, 채널 최근 영상의 baseline을 수집한다. 조회수 TOPN, VPH TOPN, 조회/구독 배수 TOPN, 댓글 TOPN을 별도 탭으로 낸다.
+[YouTube 수식] VPH=조회수/업로드 이후 시간, subscriber_lift=조회수/구독자, like_rate=좋아요/조회수, comment_rate=댓글/조회수. modified z-score는 충분한 채널 표본이 있을 때만 적용하고, Threads final_score를 그대로 유튜브 점수로 사용하지 않는다.
+[자막] 각 영상에 yt-dlp --list-subs를 실행, 공식/자동자막과 지원언어 확인. 다운로드 가능한 자막은 ko.*,en.*,ja.* 우선으로 실제 저장하며, 실패 시 youtube-transcript-api로 대체 시도 후 오류를 기록한다.
+[댓글] YouTube Data API로 가능한 범위의 댓글을 페이징 수집하고 좋아요 상위 5개, 대댓글 상위 6개를 각각 정렬한다. 원문·번역·링크·수집일 기록. 수집 범위가 제한되면 전체 TOP이라고 쓰지 않는다.
+[기획] 한국·일본·미국·중국 비교, 첫 5초 훅 후보, 반전·감정 후보, 5초 구간과 권리 상태. 실제 시청지속률은 임의 작성 금지.
+[수익] RPM·CPM·실수익은 채널 소유자 제공값이 없으면 확인 불가로 표시. (조회수/1000)×가정 RPM은 시나리오로만 표시. YPP는 광고 노출만으로 확정하지 않는다.
+[연락처] 채널이 공식적으로 공개한 비즈니스 이메일 또는 문의 링크만. 없으면 미확인 처리. CAPTCHA 우회 금지.
+[산출] 분야별 조회 TOP10, 댓글 TOP10, 급상승 소형 채널 TOPN, 가정 RPM 시나리오, 반응 댓글, 훅 후보, 출처 검증표, CSV/TSV, 수집일. COLLECTED/COMPUTED/INFERRED/UNAVAILABLE 표시. 기존 원본 시트는 삭제/덮어쓰기 금지.</pre></div>
+</section>
+<section class="panel" data-panel="sheets">
+<div class="hero"><div class="eyebrow">TWO SHEETS · DIFFERENT PURPOSES</div><h2>두 시트는 합치지 않고 <span class="accent">역할별로 연결</span></h2><p>원본 데이터와 대본 작업은 MASTER, 국내 경쟁 채널 성과와 급등 추적은 일일DB. 한 허브 메뉴에서 둘 다 열리지만 데이터 원본은 따로 유지합니다.</p></div>
+<div class="cols2"><div class="box"><h3>🟦 MASTER · 해외 원자료</h3><p>샤오홍슈·빌리빌리·틱톡·RuTube, 자막·댓글·나라별 자료, 8분 30초 대본, 정리 탭.</p><p class="muted">2026-11-08 메타데이터 읽기 결과: 158개 탭</p><a class="openlink" href="https://docs.google.com/spreadsheets/d/1z_Ys-QfkRY3GDuD2vQ5N7CDt-RGXcrMyUESst8cQDAY/edit?gid=981929086" target="_blank" rel="noopener">정리된 최상위 탭 열기</a></div><div class="box"><h3>🟨 일일DB · YouTube 벤치마킹</h3><p>N1 조회수 · N2 댓글 · N3 RPM 비교 · N4 수익 추정 · N5 소형 급상승 · N6 환산 로직 · N7 국뽕 급등 · N8 해외반응.</p><p class="muted">2026-11-08 메타데이터 읽기 결과: 32개 탭</p><a class="openlink" href="https://docs.google.com/spreadsheets/d/1-LosbZfgNCYH5b-W3_ePBJc5bE1Bq97kCZP4UnLQcBc/edit?gid=1319137692" target="_blank" rel="noopener">상황 메모 탭 열기</a></div></div>
+<div class="notice warn">MASTER의 이전 인덱스 탭은 프랑스·독일 데이터와 한국 점수 등이 어긋나 있다는 기존 분석이 있습니다. 우선 <b>by claude_통합자료_정리</b> 탭을 사용하고, 옛 인덱스를 정답처럼 쓰지 마세요. 이 허브는 기존 스프레드시트 셀을 변경하지 않았습니다.</div>
+<div class="box"><h3>🌸 시트 정리 원칙</h3><p>행 높이는 한 줄·두 줄 중심, 핵심 열을 앞에 고정, 점수와 검증 상태는 다른 색, 빈 열은 숨김 검토, 링크는 ▶ 표시, 긴 원문은 별도 탭/셀 링크로 분리합니다. <b>원본 댓글·자막·수식·숨김 시트는 삭제하지 않습니다.</b></p></div>
+</section>
+<section class="panel" data-panel="history">
+<div class="notice gold">아래는 <b>사용자가 전달한 이전 세션의 인수인계 기록</b>입니다. 이 페이지를 만들면서 다운로드·파일 해시·원격 PC 상태를 새로 실측하지 않았습니다.</div>
+<div class="tablewrap"><table><thead><tr><th>작업</th><th>마지막 전달된 상태</th><th>다음 안전 조치</th></tr></thead><tbody><tr><td>XHS</td><td>추가분 33개 수집 보고, XHS-297~300 미완료</td><td>중복 ID 확인 후 재시도, 보안 퍼즐은 수동, 서버 제한 존중</td></tr><tr><td>Bilibili 영상</td><td>BILI-150 복구, BILI-188 조각 1개 실패, BILI-146 병합 대기</td><td>부분 파일 보호, 디스크 확인 후 재개</td></tr><tr><td>Bilibili 댓글·자막</td><td>75개 중 63개 완료 보고, 12개 남음</td><td>완료 ID 보존, 미완료 ID만 재개</td></tr><tr><td>C: → D: 전송</td><td>한국 관련 영상 206개(23.15GB) 해시/전송 목록 작성 보고</td><td>복사 → 수신 PC 해시 확인 → 사용자 삭제 승인 후 원본 삭제</td></tr><tr><td>중복 RuTube</td><td>RU-223 / RU-224 중복 후보</td><td>원본 확인 전 어느 파일도 삭제하지 않음</td></tr><tr><td>시트</td><td>나라별 추가 탭, 일부 TSV는 로컬에만 보관</td><td>업로드된 데이터만 검증된 시트 값으로 표시</td></tr></tbody></table></div>
+<div class="notice warn">원격 다운로드 재개, CAPTCHA 해제, 파일 삭제 또는 Tailscale 전송을 이 웹페이지 자체가 수행하지는 않습니다. 자동 삭제나 실행을 허용하지 않도록 분리한 상태입니다.</div>
+</section>
+<section class="panel" data-panel="operations"><div class="hero"><div class="eyebrow">🌸 PROJECT STATUS BOARD</div><h2>2026.11.08 기준 작업 구조와 자료의 신뢰 수준</h2><p>이 화면은 현황 메모를 맨 위에 모은 <b>정적 안내판</b>입니다. 다음 실행 시에는 실제 PC와 각 시트 최신값을 다시 검사해야 합니다.</p></div>
+<div class="tiles"><button class="tile" data-to="sheets"><span class="emoji">📊</span><strong>시트 연결</strong><small>MASTER 158개 탭 · 일일DB 32개 탭</small></button><button class="tile" data-to="history"><span class="emoji">💾</span><strong>다운로드 인수인계</strong><small>XHS·BILI·Tailscale·중복 방지</small></button><button class="tile" data-to="collection"><span class="emoji">🧾</span><strong>수집/검증 기준</strong><small>CSV/TSV 열·COLLECTED/COMPUTED</small></button><button class="tile" data-to="master-prompt"><span class="emoji">📋</span><strong>재실행 지침</strong><small>독립 프롬프트 2종 복사</small></button></div>
+<div class="box"><h3>소스 신뢰도 규칙</h3><div class="chips"><span class="chip green">✅ VERIFIED · 원본/공식 확인</span><span class="chip gold">🧮 COMPUTED · 실측 계산</span><span class="chip pink">⚠️ INFERRED · 관찰 추정</span><span class="chip">⛔ UNAVAILABLE · 제공 없음</span></div><p>프랑스·독일 469건, 한국 300건 등은 기존 연구 페이지의 보고값이며, 이 허브에서 독립 전수 재검증한 숫자는 아닙니다. 실제로 추가 수집된 신규 영상·채널이 있다면 별도 collection log가 있어야 합니다.</p></div></section>
+<div class="notefoot">통합 허브: 2026-11-08 · GitHub Pages 정적 사이트 · 원본 자료 보존 · 공개 데이터 외 개인 연락처와 전체 자막 원문 비공개 · 자료 추가 시 🌸 표시</div>
+</div></main>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite">복사 완료</div>
+<script>
+(function(){
+'use strict';
+var framePaths={
+ discovery:'../haeoe-prompts-sheet-20261108/',
+ longrun:'../kukppong-longrun-audit-20261108/',
+ top1:'../kukppong-top1-editing-20261108/',
+ copyright:'../kukppong-copyright-prompt-20261108/',
+ rising:'../youtube-kukppong-rising-20261108/',
+ global:'../글로벌한국반응_국뽕영상_분석/',
+ longform:'../국뽕_8분30초_영상분석/'
+};
+var routes={
+ home:['home','통합 대시보드','흩어진 연구 자료와 새 보완 내용을 한 화면에서 탐색합니다.'],
+ operations:['operations','현재 상황 · 자료 위치','이전 세션 보고와 실측을 구분한 작업 현황입니다.'],
+ keywords:['keywords','🌸 통합 검색 키워드 · 다국가','중국어·영어·일본어·러시아어 검색어를 플랫폼별로 모았습니다.'],
+ discovery:['frame','① 해외반응 원본 찾기 · Aside 프롬프트','기존 검색 프롬프트의 모든 내용, TOP10 결과 및 시트 정리표입니다.','discovery','p1'],
+ 'discovery-sort':['frame','② 자료 등급 · 시트 정리','기존 등급 규칙과 원본 자료 정리 방식을 그대로 보여줍니다.','discovery','p2'],
+ 'discovery-copyright':['frame','③ 기존 저작권 안전 편집 지침','아래 원본 수치형 규칙은 편집 참고이며 법적 면책 기준이 아닙니다.','discovery','p3'],
+ 'discovery-subs':['frame','④ 자막 없음 보완','기존 자막 추출 프롬프트와 작업 순서입니다.','discovery','p4'],
+ collection:['collection','🌸 영상·자막·댓글 수집 절차','실행 명령·CSV/TSV 열·YouTube 댓글 TOP 순위를 하나로 표준화했습니다.'],
+ 'global-data':['frame','해외 한국반응 영상 136개 분석','기존 CSV/TSV 수집 분석 대시보드를 그대로 열람합니다.','global',''],
+ rising:['frame','급등 신생 국뽕 채널 분석','기존 급상승 영상과 채널 분석 표를 그대로 열람합니다.','rising',''],
+ longrun:['frame','장수 국뽕 채널 8곳 분석','오래 살아남은 채널의 출처 비중, 편집 구조와 위험 분석입니다.','longrun','ch'],
+ 'longrun-emotion':['frame','장수 채널 대본 · 감정 곡선','시니어 타깃 대본 전개와 감정 아크를 원본 그래프로 봅니다.','longrun','rh'],
+ 'longrun-permission':['frame','원작자 사용 허락 · 계약 · 연락 방법','기존 라이선스 문의 방법과 증빙 체크리스트입니다.','longrun','perm'],
+ top1:['frame','TOP1 국뽕 영상 심층 편집 분석','기존 대형 원본 편집 보고서를 열람합니다. 이미지가 많아 로딩될 수 있습니다.','top1',''],
+ 'youtube-score':['youtube-score','🌸 GitHub 26개 공식 → YouTube 환산','Threads 전용 로직의 공통 개념을 YouTube 실측 가능한 지표로 변환했습니다.'],
+ longform:['frame','국뽕 8분 30초 제작 · 102컷','기존 제작 대본·독창성·출처·작업 도구를 열람합니다.','longform',''],
+ 'copyright-old':['frame','기존 저작권 체크 · 메가 프롬프트','기존 채널 분석 및 4단계 대본·편집 프롬프트입니다.','copyright','tldr'],
+ 'copyright-script':['frame','기존 대본 · 편집 프롬프트','기존 메가 가이드의 원본 프롬프트를 바로 열람합니다.','copyright','script'],
+ 'copyright-new':['copyright-new','🌸 저작권 추가 검증 · 위험 정정','원본은 유지하고, 오해하기 쉬운 부분을 공식 근거로 정정합니다.'],
+ 'master-prompt':['master-prompt','🌸 자료 수집 · 유튜브 분석 실행 프롬프트','플랫폼 전체검색과 신생 유튜브 분석 두 흐름을 각각 복사할 수 있습니다.'],
+ sheets:['sheets','Google Sheets 2개 · 역할별 원본','해외 원자료 MASTER와 국뽕 유튜브 경쟁 DB를 구분해 연결합니다.'],
+ history:['history','수집·전송·중복 방지 인수인계','이전 세션 보고를 현재 실측과 혼동하지 않고 보관합니다.']
+};
+var frame=document.getElementById('sourceFrame'), original=document.getElementById('openOriginal'), sidebar=document.getElementById('sidebar');
+function openRoute(){
+ var name=decodeURIComponent((location.hash||'#home').slice(1)).split('?')[0];
+ if(!routes[name])name='home';var r=routes[name],kind=r[0];
+ document.getElementById('pageTitle').textContent=r[1];
+ document.getElementById('pageDesc').textContent=r[2];
+ document.getElementById('eyebrow').textContent=kind==='frame'?'ARCHIVED RESEARCH · ORIGINAL PAGE':'INTEGRATED RESEARCH · '+(name==='home'?'OVERVIEW':'🌸 REVIEW & GUIDE');
+ document.querySelectorAll('.panel').forEach(function(el){el.classList.toggle('on',el.dataset.panel===kind)});
+ document.querySelectorAll('[data-to].navbtn').forEach(function(el){el.classList.toggle('active',el.dataset.to===name)});
+ if(kind==='frame'){
+  var src=framePaths[r[3]]+(r[4]?'#'+r[4]:'');
+  original.href=new URL(src,location.href).href;original.classList.remove('hidden');
+  if(frame.getAttribute('src')!==src)frame.setAttribute('src',src);
+ }else{original.classList.add('hidden');}
+ sidebar.classList.remove('open');document.getElementById('stage').scrollTop=0;
+}
+document.addEventListener('click',function(e){var el=e.target.closest('[data-to]');if(el){e.preventDefault();location.hash=encodeURIComponent(el.dataset.to);if(location.hash.slice(1)===el.dataset.to)openRoute();}});
+document.getElementById('backHome').addEventListener('click',function(){location.hash='home';});
+document.getElementById('menuToggle').addEventListener('click',function(){sidebar.classList.toggle('open');});
+document.getElementById('navSearch').addEventListener('input',function(e){var q=e.target.value.trim().toLowerCase();document.querySelectorAll('.navbtn').forEach(function(b){b.style.display=!q||b.textContent.toLowerCase().includes(q)?'':'none';});});
+document.getElementById('kwSearch').addEventListener('input',function(e){var q=e.target.value.trim().toLowerCase();document.querySelectorAll('#keywordsTable tbody tr').forEach(function(tr){tr.style.display=!q||tr.textContent.toLowerCase().includes(q)?'':'none';});});
+function showToast(m){var t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(window._toastTimer);window._toastTimer=setTimeout(function(){t.classList.remove('show');},2000);}
+document.addEventListener('click',async function(e){var el=e.target.closest('[data-copy]');if(!el)return;var id=el.dataset.copy;var node=document.getElementById(id);var txt=id==='allKeywords'?Array.from(document.querySelectorAll('#keywordsTable tbody tr')).map(function(tr){return Array.from(tr.cells).map(function(td){return td.textContent.trim();}).join('\t');}).join('\n'):node?node.textContent:'';if(!txt)return;try{if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(txt);}else{var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();}showToast('✅ 복사 완료');}catch(err){showToast('복사 실패: 직접 텍스트 선택');}});
+frame.addEventListener('load',function(){
+ try{
+  var d=frame.contentDocument;if(!d||!d.head)return;
+  var s=d.getElementById('researchHubLayoutFix');if(!s){s=d.createElement('style');s.id='researchHubLayoutFix';s.textContent='html,body{overflow-wrap:normal!important} .wrap{max-width:100%!important} table{table-layout:auto!important} table th,table td{word-break:keep-all!important;overflow-wrap:break-word!important;min-width:74px!important} pre{white-space:pre-wrap!important;overflow-wrap:anywhere!important} img{max-width:100%;height:auto} .vh{flex-wrap:wrap!important} .vh .th{max-width:100%!important}';d.head.appendChild(s);}
+ }catch(err){/* if origin changes, keep original rendering */}
+});
+window.addEventListener('hashchange',openRoute);openRoute();
+})();
+</script>
+</body></html>

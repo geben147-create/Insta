@@ -1,0 +1,422 @@
+{
+ "id": "V4_104",
+ "title": "[리디자인 대기] 폐업이력 있어도 최대 2억, 재도전 지원금 4총사 (5장)",
+ "canvas": [
+  1080,
+  1350
+ ],
+ "fonts": {
+  "title": "Gmarket Sans Bold",
+  "body": "Pretendard",
+  "fallback": "Noto Sans CJK KR"
+ },
+ "palette": {
+  "bg": "#FBF5E8",
+  "ink": "#111111",
+  "orange": "#E8312F",
+  "navy": "#14396E",
+  "gold": "#B8902F",
+  "yellow": "#FFD34D",
+  "memo": "#FFFFFF",
+  "c1": "#F2C318",
+  "c2": "#46B4F5",
+  "c3": "#D9A6F0",
+  "c4": "#7FDDB8",
+  "photo": "#8A5A34",
+  "purple": "#6A4CD6"
+ },
+ "metrics_note": "표지: @kt.corp 실사 매장 + 하단 흰 2줄 제목(108px), 좌측 여백 60px, @boram_4823 보라 알약. 2장: @etflove11 원 분기 구조(원 232px 4개). 3~5장: 남색 제목 띠 + 흰 메모",
+ "text_bench": [
+  {
+   "url": "https://www.instagram.com/p/DXsjgvFko0L/",
+   "who": "@consultant_ocy1013",
+   "take": "폐업이력 있으면 최대 1억 지원금 준다",
+   "metric": "좋아요 1,194 · 댓글 5,233"
+  },
+  {
+   "url": "https://www.instagram.com/p/DUaR4VxmUmP/",
+   "who": "@etflove11",
+   "take": "절세 계좌 3총사 완벽 정리",
+   "metric": "좋아요 4,002 · 댓글 2,001"
+  },
+  {
+   "url": "https://www.yna.co.kr/view/AKR20260831147400030",
+   "who": "연합뉴스 2026-09-01",
+   "take": "[2027예산] 실패 기업 재도전 지원 강화",
+   "metric": ""
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=MhBLA3XpkY0",
+   "who": "스타트업TV",
+   "take": "2026 희망리턴패키지 재기사업화(재창업) 지원 안내",
+   "metric": "조회 6,082"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=k1RM-Pq1aD4",
+   "who": "한국경제TV",
+   "take": "폐업을 재창업으로…희망리턴패키지",
+   "metric": "조회 7,102"
+  },
+  {
+   "url": "https://news.google.com/search?q=%EC%84%B1%EC%8B%A4%EA%B2%BD%EC%98%81%ED%8F%89%EA%B0%80%20%ED%99%95%EC%9D%B8%EC%84%9C%20%EC%9C%A0%ED%9A%A8%EA%B8%B0%EA%B0%84%205%EB%85%84",
+   "who": "뉴스1·경제타임스 2026-11-06",
+   "take": "성실경영평가 확인서 유효기간 5년으로",
+   "metric": ""
+  }
+ ],
+ "visual_bench": [
+  {
+   "sector": "소상공인·창업(통신사 브랜드)",
+   "url": "https://www.instagram.com/p/DSE9hTRk77q/",
+   "who": "@kt.corp",
+   "metric": "좋아요 1,888 · 댓글 1,900",
+   "take": "따뜻한 실사 매장 사진 + 'OPEN' 간판 + 하단 흰색 굵은 2줄 질문형 제목"
+  },
+  {
+   "sector": "해외여행·항공",
+   "url": "https://www.instagram.com/p/Dd2iiriE8Ve/",
+   "who": "@boram_4823",
+   "metric": "좋아요 958 · 댓글 4,900",
+   "take": "2줄 제목(흰+빨강 강조)과 보라 알약 배지('조식 석식 포함!')"
+  }
+ ],
+ "caption": "폐업했다고 지원금이 끝나는 게 아닙니다.\n오히려 '폐업 이력'이 조건인 지원이 있어요.\n\n✔ 재도전성공패키지: 2026 최대 1억(평균 6,700만원) → 2027 예산안 최대 1.5억\n✔ 재도전응원프로젝트: 우수 기업 최대 2억 바우처\n✔ 재도전성공학교: 입주형 재창업 지원\n✔ 희망리턴 재기사업화: 소상공인 최대 2,000만원 (못 받아도 1,400만원)\n\n🔹 공고는 보통 연초에 몰립니다 (2026: 1~2월, 4~5월)\n🔹 의무교육 안 들으면 선정 불가\n🔹 2027 금액은 예산안 기준이라 국회 통과 후 공고로 꼭 확인하세요\n\n👇 댓글에 '재도전' 남기시면 4총사 신청 일정표 DM으로 보내드립니다.",
+ "first_comment": "📌 2027년 금액은 9월 발표된 중기부 예산안 기준이에요. 업종·폐업 시기를 댓글로 남겨주시면 해당되는 사업 알려드릴게요.",
+ "hashtags": "#재창업 #재도전성공패키지 #희망리턴패키지 #폐업지원금 #소상공인지원금 #정부지원사업 #창업지원금 #재도전",
+ "dm": "4총사 사업별 공고 시기·신청처·준비서류 일정표 (제작 필요)",
+ "image_prompts": {
+  "1": "1080x1350 photorealistic warm evening photo: a fictional Korean small-business owner (not resembling any real person) lifting a shop shutter and hanging a red 'OPEN' sign on a renovated cafe, string lights, a small Taegukgi on the door. Lower 35% darker for a big white two-line headline (added later). Tiny Mr. Navy at bottom-right corner clapping, cup with pinky raised nearby. No brand logos.",
+  "2-5": "cream paper background #FBF5E8, no text"
+ },
+ "facts_to_verify": [
+  "2027 금액·대상 수는 예산안(국회 통과 전)",
+  "희망리턴 금액·일정은 2026 공고 기준(유튜브 스타트업TV) — 2027 공고 확인",
+  "성실경영평가 확인서 5년 연장은 '추진' 보도"
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "els": [
+    {
+     "t": "box",
+     "x": 0,
+     "y": 0,
+     "w": 1080,
+     "h": 1350,
+     "fill": "photo",
+     "src": "사진 자리: 셔터 올리며 OPEN 다는 가상 사장님(@kt.corp 비주얼)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 860,
+     "w": 768,
+     "h": 300,
+     "text": "폐업이력 있어도\n최대 {2억}까지",
+     "size": 108,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "l",
+     "lh": 1.12,
+     "src": "A '폐업이력 있으면' → 조건을 '있어도'로 바꿔 진입장벽 낮춤 / A '최대 1억' → N1 재도전응원프로젝트 '기업당 최대 2억원 바우처'(2027 예산안)로 금액 상향, 근거 있음"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 1190,
+     "w": 700,
+     "h": 86,
+     "fill": "purple",
+     "text": "재도전 지원금 4총사 · 2027 예산안",
+     "size": 36,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "B '절세 계좌 3총사 완벽 정리' → 4총사(+1, 규칙 A2) / 보라 알약은 @boram_4823(여행) 비주얼"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 60,
+     "w": 300,
+     "h": 76,
+     "fill": "gold",
+     "text": "[긴급정리]",
+     "size": 40,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "A '[긴급속보]' 뉴스 태그 형식 유지, 속보가 아니므로 '정리'로 변경"
+    },
+    {
+     "t": "char",
+     "x": 844,
+     "y": 1046,
+     "w": 200,
+     "h": 280,
+     "note": "Mr. Navy: 박수"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "els": [
+    {
+     "t": "text",
+     "x": 60,
+     "y": 90,
+     "w": 960,
+     "h": 140,
+     "text": "재도전 지원금 {4총사}",
+     "size": 92,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "B 원 분기 다이어그램 구조 / N1 '3대 사업 1,398억' + Y1 희망리턴 = 4개"
+    },
+    {
+     "t": "tree",
+     "x": 90,
+     "y": 290,
+     "w": 900,
+     "h": 150
+    },
+    {
+     "t": "circle",
+     "x": 40,
+     "y": 460,
+     "w": 232,
+     "h": 232,
+     "fill": "c1",
+     "text": "재도전\n성공패키지\n최대 1.5억*",
+     "size": 30,
+     "color": "ink",
+     "font": "title",
+     "align": "c"
+    },
+    {
+     "t": "circle",
+     "x": 300,
+     "y": 460,
+     "w": 232,
+     "h": 232,
+     "fill": "c2",
+     "text": "재도전\n응원프로젝트\n최대 2억*",
+     "size": 30,
+     "color": "ink",
+     "font": "title",
+     "align": "c"
+    },
+    {
+     "t": "circle",
+     "x": 560,
+     "y": 460,
+     "w": 232,
+     "h": 232,
+     "fill": "c3",
+     "text": "재도전\n성공학교\n입주형",
+     "size": 30,
+     "color": "ink",
+     "font": "title",
+     "align": "c"
+    },
+    {
+     "t": "circle",
+     "x": 818,
+     "y": 460,
+     "w": 232,
+     "h": 232,
+     "fill": "c4",
+     "text": "희망리턴\n재기사업화\n최대 2천만",
+     "size": 30,
+     "color": "ink",
+     "font": "title",
+     "align": "c"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 760,
+     "w": 960,
+     "h": 300,
+     "fill": "memo",
+     "line": 5,
+     "text": "① 재도전성공패키지 (재창업 기업)\n② 재도전응원프로젝트 (우수 재도전 기업)\n③ 재도전성공학교 (입주형 교육·지원)\n④ 희망리턴패키지 재기사업화 (소상공인)",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "B 원 분기 다이어그램 구조 / N1 '3대 사업 1,398억' + Y1 희망리턴 = 4개"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 760,
+     "h": 70,
+     "text": "* 2027 중기부 예산안 기준 · 국회 통과·공고로 확인",
+     "size": 28,
+     "color": "#666666",
+     "font": "body",
+     "align": "l"
+    },
+    {
+     "t": "char",
+     "x": 840,
+     "y": 1060,
+     "w": 200,
+     "h": 270,
+     "note": "Mr. Navy: 원 가리킴"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 960,
+     "h": 110,
+     "fill": "navy",
+     "text": "얼마까지 주나 (최대 금액)",
+     "size": 50,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "l",
+     "src": "① 2026 수치 = A 캡션(평균 6,700만원·최대 1억), 2027 = N1 / ②③ = N1 / ④ = Y1 14:00~16:30"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 220,
+     "w": 960,
+     "h": 800,
+     "fill": "memo",
+     "line": 5,
+     "text": "① 재도전성공패키지: 2026 최대 1억·평균 6,700만원 → 2027 예산안 최대 1.5억, 185곳→320곳\n② 재도전응원프로젝트: 130곳, 기업당 최대 2억 바우처 + 컨설팅\n③ 재도전성공학교: 595억 편성, 청년창업사관학교식 입주 지원\n④ 희망리턴 재기사업화: 최대 2,000만원 (2026 기준)",
+     "size": 44,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.6,
+     "src": "① 2026 수치 = A 캡션(평균 6,700만원·최대 1억), 2027 = N1 / ②③ = N1 / ④ = Y1 14:00~16:30"
+    },
+    {
+     "t": "char",
+     "x": 840,
+     "y": 1060,
+     "w": 200,
+     "h": 270,
+     "note": "Mr. Navy"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 960,
+     "h": 110,
+     "fill": "navy",
+     "text": "희망리턴, 실제로 얼마 받나",
+     "size": 50,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "l",
+     "src": "Y1 03:00~16:30 구간 발언 정리 (2026 공고 기준, 2027 공고로 재확인 필요)"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 220,
+     "w": 960,
+     "h": 800,
+     "fill": "memo",
+     "line": 5,
+     "text": "평가 상위 30% → 2,000만원\n30~70% → 1,700만원\n그 외 → 1,400만원 (못 받아도 1,400만원)\n자부담: 지원금의 절반 (2,000 받으면 1,000 부담)\n대상: 폐업 후 공고 마감일까지 사업자 미등록 = 재창업 트랙\n2026년엔 1/30~2/27, 선착순 2,400곳 진단 신청 · 의무교육 이수 필수",
+     "size": 44,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.6,
+     "src": "Y1 03:00~16:30 구간 발언 정리 (2026 공고 기준, 2027 공고로 재확인 필요)"
+    },
+    {
+     "t": "char",
+     "x": 840,
+     "y": 1060,
+     "w": 200,
+     "h": 270,
+     "note": "Mr. Navy"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 960,
+     "h": 110,
+     "fill": "navy",
+     "text": "놓치면 못 받는 체크 5개",
+     "size": 50,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "l",
+     "src": "1 = A 캡션 신청기간 + Y1 / 2·3 = Y1 / 4 = N2 / 5 = N1(예산안) / CTA = A '댓글 1 → 요약본 DM' 구조"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 220,
+     "w": 960,
+     "h": 800,
+     "fill": "memo",
+     "line": 5,
+     "text": "1. 공고는 연초에 몰림 (2026: 희망리턴 1~2월, 재도전성공패키지 4~5월)\n2. 폐업 사실 증빙 먼저 준비\n3. 의무교육 미이수 = 선정 불가\n4. 재창업 서류 '성실경영평가 확인서' 유효기간 5년으로 연장 추진 (11월 보도)\n5. 2027은 '예산안' → 국회 통과·공고 금액 확인\n댓글에 '재도전' → 4총사 신청 일정표 보내드려요",
+     "size": 44,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.6,
+     "src": "1 = A 캡션 신청기간 + Y1 / 2·3 = Y1 / 4 = N2 / 5 = N1(예산안) / CTA = A '댓글 1 → 요약본 DM' 구조"
+    },
+    {
+     "t": "char",
+     "x": 840,
+     "y": 1060,
+     "w": 200,
+     "h": 270,
+     "note": "Mr. Navy"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1180,
+     "w": 760,
+     "h": 90,
+     "text": "출처: 중소벤처기업부 2027 예산안 보도, 스타트업TV · 공고는 바뀔 수 있어요",
+     "size": 26,
+     "color": "#666666",
+     "font": "body",
+     "align": "l",
+     "src": "규칙 A3-2 출처 표기 (편집기 규칙 검사에서 추가)"
+    }
+   ]
+  }
+ ],
+ "from_v3": "V3_04",
+ "style_ref": "PENDING_USER_STYLE"
+}

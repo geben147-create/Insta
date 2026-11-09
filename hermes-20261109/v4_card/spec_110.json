@@ -1,0 +1,819 @@
+{
+ "id": "V4_110",
+ "title": "[리디자인 대기] 블프·올영 연말 뷰티 할인, 제대로 담는 순서 (단위가격·쿠폰) (7장)",
+ "field": "뷰티(K뷰티·화장품)",
+ "canvas": [
+  1080,
+  1350
+ ],
+ "fonts": {
+  "title": "Gmarket Sans Bold",
+  "body": "Pretendard",
+  "fallback": "Noto Sans CJK KR"
+ },
+ "palette": {
+  "bg": "#14161B",
+  "ink": "#FFFFFF",
+  "red": "#9BF04A",
+  "orange": "#9BF04A",
+  "memo": "#262A33",
+  "bubble": "#9BF04A",
+  "dark": "#14161B",
+  "sub": "#BFC3CC",
+  "c1": "#9BF04A",
+  "c2": "#F2F2F2",
+  "c3": "#7FD3FF",
+  "c4": "#FF9EC7"
+ },
+ "metrics_note": "비주얼 벤치마크 @econ.genz 통장쪼개기 캐러셀(임베드 540px 폭 실측: 좌측 여백 47px=8.7%, 제목 글자높이 약 33px=폭의 6.1%, 줄간격 약 1.25, 제목 2줄이 폭의 약 64%, 어두운 배경 + 흰 글씨 + 형광 연두 강조)을 1080 기준으로 환산: 좌우 여백 60~90px, 표지 제목 104px·내지 제목 90~100px, 줄간격 1.15~1.25, 강조색 연두 #9BF04A. 같은 분야(뷰티) 원본의 핑크 실사·제품 사진 톤은 따르지 않음(A3-1).",
+ "ad_disclosure": "제휴·제품 제공 없음(정보 정리형). 이후 제휴 링크·제품 제공이 붙으면 표지 태그와 캡션 첫 줄에 '#광고'(또는 #제품제공) 표기 필수 — 원본 @eyesmag '#광고', @hunichichi '#제품제공' 방식.",
+ "rules_note": "할인율 단정 금지(기사 인용 시 '기사 표현'으로만), 브랜드명·로고 미사용(기사 예시도 '틴트'로 일반화), 확인 안 된 12월 일정·쿠폰은 facts_to_verify",
+ "visual_bench": [
+  {
+   "url": "https://www.instagram.com/p/DaFPEFljOD9/",
+   "who": "@econ.genz",
+   "sector": "재테크·절약 (카드뉴스·캐러셀)",
+   "실측": "좋아요 18,419 (임베드 2026-11-09 확인), 캐러셀 7장 이상(점 7개)",
+   "take": "어두운 배경 위 흰 굵은 제목 + 핵심어만 형광 연두, 좌측 정렬·큰 여백, '이대로만 따라해' 순서형 구성. 원본의 만화 캐릭터 캡처는 쓰지 않고 Mr. Navy 캐릭터로 대체",
+   "cap": "refcaps_private/ref10_DaFPEFljOD9.png"
+  }
+ ],
+ "text_bench": [
+  {
+   "key": "A",
+   "url": "https://www.instagram.com/p/DdV0CLvCcFC/",
+   "who": "@eyesmag",
+   "sector": "뷰티",
+   "format": "캐러셀 5장",
+   "실측": "좋아요 6,200(시트) / 임베드 표시 5,525 · 댓글 54",
+   "take": "'1차 굿즈를 놓치고 울고 있었다면 주목' 손실회피 훅 → '올영 블프 놓치고 울고 있었다면 주목'. 캡션 첫머리 #광고 표기 방식",
+   "cap": "refcaps_private/ref10_DdV0CLvCcFC.png"
+  },
+  {
+   "key": "B",
+   "url": "https://www.instagram.com/reel/DcoDGbzmhzT/",
+   "who": "@hunichichi",
+   "sector": "뷰티",
+   "format": "릴스(문구만 참고, 형식 차용 안 함)",
+   "실측": "조회 91만(시트) · 댓글 450",
+   "take": "'올영세일 특가 17,900원 → 13,050원 + 단독 추가 증정' → 증정품은 '쓸 것만 계산' 장치로 변형, 캡션에 세일 기간 명시 방식"
+  },
+  {
+   "key": "C",
+   "url": "https://www.instagram.com/p/Db5OV1kEpvw/",
+   "who": "@oliveyoung_official",
+   "sector": "뷰티",
+   "format": "캐러셀 4장",
+   "실측": "좋아요 928 · 댓글 748",
+   "take": "'가장 필요한 케어의 이모티콘을 댓글로' 댓글 참여 CTA → '댓글에 단가'",
+   "cap": "refcaps_private/ref10_Db5OV1kEpvw.png"
+  },
+  {
+   "key": "D",
+   "url": "https://www.instagram.com/p/DaFPEFljOD9/",
+   "who": "@econ.genz",
+   "sector": "재테크",
+   "format": "캐러셀",
+   "실측": "좋아요 18,419",
+   "take": "캡션 '통장쪼개기 이대로만 따라해' → '담는 순서 이대로만 따라해'"
+  }
+ ],
+ "yt_bench": [
+  {
+   "key": "Y1",
+   "url": "https://www.youtube.com/watch?v=rRF4v2o6h8E",
+   "who": "티벳동생",
+   "views": 93256,
+   "tips": "[00:00] 올영세일 1년 4번, 매장 앞 70% 매대 따로 / [01:30] 더블 기획 4만원대 → 개당 2만원 초반, 미니어처는 잘 안 씀, 쿠팡에서도 싸게 팖 / [09:00] 일부 라인은 블프 할인 안 들어감 / [09:45] 할인율 높은 것만 골라가라"
+  },
+  {
+   "key": "Y2",
+   "url": "https://www.youtube.com/watch?v=O17sbNrKAJk",
+   "who": "호기심대장 김몽몽",
+   "views": 694106,
+   "tips": "[00:00] 올해 마지막 올영세일·연말 어워즈, 1위가 광고발인지 의문 / [00:45] 브랜드·순위 무시, 내 피부 기준 / [01:30] 1위 토너에 각질제거 성분 → 예민 피부 따가움"
+  },
+  {
+   "key": "Y3",
+   "url": "https://www.youtube.com/watch?v=IIv19M9DZBQ",
+   "who": "지냐 Jinyaa",
+   "views": 552903,
+   "tips": "[04:30] 거의 다 써가서 올영세일 때 한 개 더 쟁일 생각 (쓰던 것 재구매 원칙)"
+  },
+  {
+   "key": "Y4",
+   "url": "https://www.youtube.com/watch?v=i2fF0flkufw",
+   "who": "민와와",
+   "views": 518343,
+   "tips": "[00:45] 올리브영에서 잔뜩 주문하느라 20만원이나 더 썼다 (과소비 경고 문구)"
+  }
+ ],
+ "news": [
+  {
+   "key": "N1",
+   "url": "https://www.esquirekorea.co.kr/article/1912434",
+   "who": "에스콰이어 코리아 2026-11-03",
+   "facts": "올리브영 블프 11/1(일)~7(토), 매일 0시·오후 6시 최대 1만원 선착순 랜덤 쿠폰, 결제수단별 최대 2만원 즉시할인. '평소 가격 확인 후 비교, 쿠폰·카드·무료배송 조건까지 확인', '필요한 제품을 미리 정해두는 것이 충동구매를 줄이는 가장 좋은 방법'. 자라 11/27~12/1, H&M 11/27~30"
+  },
+  {
+   "key": "N2",
+   "url": "https://www.greened.kr/news/articleView.html?idxno=353645",
+   "who": "녹색경제신문 2026-11-02",
+   "facts": "라스트픽: 매장별 주요 상품 선별, '최대 70%' 할인(기사 표현), 매장마다 품목 다름, 온라인은 일부 품목·오프라인이 더 다양. 예: 틴트 정상가 18,000원 → 5,400원, 하이라이터 30,000원 → 9,000원. 블프 11/7까지 7일, 랜덤 쿠폰·결제 혜택"
+  },
+  {
+   "key": "N3",
+   "url": "https://contents.premium.naver.com/firstnews/9firstnews9/contents/261021220149636tv",
+   "who": "네이버 프리미엄콘텐츠(퍼스트뉴스) 2026-10-22",
+   "facts": "미국 블프 다음 사이버먼데이 11/30(월), 국내 일정은 미국과 다름. '가장 먼저 확인할 것은 할인율이 아니라 동일 용량 기준 최종 가격', 50mL 2만원 vs 70mL 기획 2만5천원 → 70mL는 100mL당 약 35,714원, '사용하지 않을 제품까지 포함된 대용량 기획세트를 무조건 구매할 필요 없음'. 쿠폰 최대 할인액 예시(12만원+10% → 10만8천원, 한도 5천원이면 11만5천원)"
+  },
+  {
+   "key": "N4",
+   "url": "https://brunch.co.kr/@buzzvil/134",
+   "who": "버즈빌 브런치 2026-10-14 (기업 블로그)",
+   "facts": "올영세일 3·6·9·12월, '고객은 세일 전에 고르고 세일 날 결제', 9월 세일 이틀 전 클릭 1,000건당 장바구니 담기 평소의 6.4배(6월 3.0배)"
+  }
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "els": [
+    {
+     "t": "box",
+     "x": 90,
+     "y": 80,
+     "w": 560,
+     "h": 80,
+     "fill": "red",
+     "line": 0,
+     "text": "저장 필수 · 연말 뷰티 장바구니",
+     "size": 36,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "[A 캡션 '놓치고 울고 있었다면 주목'의 긴급감] + [D 저장 유도] → 저장 태그. 시즌어 '연말'은 N1·Y2 '올해 마지막 올영세일'"
+    },
+    {
+     "t": "text",
+     "x": 90,
+     "y": 200,
+     "w": 900,
+     "h": 140,
+     "text": "올영 블프 놓치고\n울고 있었다면 주목",
+     "size": 52,
+     "color": "sub",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.25,
+     "src": "[A: '올리브영 X 산리오캐릭터즈 1차 굿즈를 놓치고 울고 있었다면 주목'] → 대상만 '올영 블프(11/1~7, N1)'로 교체"
+    },
+    {
+     "t": "text",
+     "x": 90,
+     "y": 370,
+     "w": 940,
+     "h": 280,
+     "text": "12월엔 {담는 순서}\n이대로만 따라해",
+     "size": 104,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.2,
+     "src": "[D 캡션 '통장쪼개기 이대로만 따라해'] → '담는 순서 이대로만 따라해' + [N4 '3·6·9·12월' / Y2 '올해 마지막 올영세일'] → '12월엔'"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 760,
+     "w": 740,
+     "h": 210,
+     "fill": "bubble",
+     "line": 0,
+     "text": "할인율 말고\n100mL당 가격부터!",
+     "size": 54,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "[N3: '가장 먼저 확인할 것은 할인율이 아니라 동일 용량 기준 최종 가격'] → 말풍선 구어체로 압축 (규칙 B3: 독자가 아끼는 기준을 표지에)"
+    },
+    {
+     "t": "text",
+     "x": 90,
+     "y": 1040,
+     "w": 700,
+     "h": 110,
+     "text": "단위가격 · 쿠폰 한도 · 라스트픽까지 7장 정리\n내돈내산 정보 정리 · 광고 아님",
+     "size": 28,
+     "color": "sub",
+     "font": "body",
+     "align": "l",
+     "src": "저장 이유(B4) = 장별 목차 요약. 광고 표기 원칙은 A·B 캡션의 #광고/#제품제공 방식 → 제휴 없으므로 '광고 아님' 명시"
+    },
+    {
+     "t": "char",
+     "x": 820,
+     "y": 1010,
+     "w": 230,
+     "h": 310,
+     "note": "Mr. Navy: 쇼핑바구니 들고 돋보기로 가격표 보기, 새끼손가락 들고"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "els": [
+    {
+     "t": "box",
+     "x": 340,
+     "y": 70,
+     "w": 400,
+     "h": 80,
+     "fill": "red",
+     "line": 0,
+     "text": "한눈에 보기",
+     "size": 40,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "V3_06 2장 구조 그대로"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 140,
+     "text": "담는 순서 {4단계}",
+     "size": 100,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "[D '이대로만 따라해' 순서형] → 4단계 (원본 C 4장·A 5장 대비 내용 단계 +, 규칙 A2)"
+    },
+    {
+     "t": "tree",
+     "x": 90,
+     "y": 350,
+     "w": 900,
+     "h": 150
+    },
+    {
+     "t": "circle",
+     "x": 34,
+     "y": 520,
+     "w": 232,
+     "h": 232,
+     "fill": "c1",
+     "text": "①\n다 써가는\n것만",
+     "size": 32,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "lh": 1.15,
+     "src": "Y3 [04:30] '거의 다 써가서 세일 때 한 개 더 쟁일' + N1 '꾸준히 구매하는 제품 중심'"
+    },
+    {
+     "t": "circle",
+     "x": 294,
+     "y": 520,
+     "w": 232,
+     "h": 232,
+     "fill": "c2",
+     "text": "②\n100mL당\n가격",
+     "size": 32,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "lh": 1.15,
+     "src": "N3 '동일 용량 기준 최종 가격'"
+    },
+    {
+     "t": "circle",
+     "x": 554,
+     "y": 520,
+     "w": 232,
+     "h": 232,
+     "fill": "c3",
+     "text": "③\n쿠폰\n한도",
+     "size": 32,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "lh": 1.15,
+     "src": "N3 '쿠폰 최대 할인 한도 확인' + N1 랜덤 쿠폰"
+    },
+    {
+     "t": "circle",
+     "x": 814,
+     "y": 520,
+     "w": 232,
+     "h": 232,
+     "fill": "c4",
+     "text": "④\n매장\n라스트픽",
+     "size": 32,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "lh": 1.15,
+     "src": "N2 라스트픽 + Y1 [00:00] '매장 앞에 70% 매대가 따로'"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 810,
+     "w": 960,
+     "h": 180,
+     "fill": "memo",
+     "line": 0,
+     "text": "올영 블프(11/1~7)는 끝 → 다음은 12월 올영세일\n날짜는 앱 공지로 확인 · 미국 블프는 11/27(금)",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "N1 '11월 1일(일)~7일(토)', N3 '사이버먼데이 11/30(월)'(블프 11/27 금), N4 3·6·9·12월. 12월 날짜는 미확인 → '공지로 확인'으로만 표기"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1020,
+     "w": 740,
+     "h": 110,
+     "text": "세일 이틀 전부터 장바구니 담기가 확 늘어요\n→ 고르는 건 세일 전에, 결제는 세일 날에",
+     "size": 28,
+     "color": "sub",
+     "font": "body",
+     "align": "l",
+     "src": "N4 '고르는 일은 세일 전에, 세일 날에는 결제', '세일 이틀 전 장바구니 담기 평소의 6.4배' → 숫자 대신 행동 문장으로"
+    },
+    {
+     "t": "char",
+     "x": 820,
+     "y": 1040,
+     "w": 220,
+     "h": 280,
+     "note": "Mr. Navy: 손가락으로 4단계 원을 가리킴"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 460,
+     "h": 80,
+     "fill": "c1",
+     "line": 0,
+     "text": "① 다 써가는 것만",
+     "size": 40,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "2장 원①"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 190,
+     "w": 960,
+     "h": 260,
+     "text": "랭킹 1위 말고\n{바닥 보이는 것}부터",
+     "size": 90,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "[Y2 00:00 '1위 제품들은 제품이 좋아서일까? 광고발일까?'] + [Y3 04:30 '다 써가서 한 개 더 쟁일'] → 대비 문구로 결합"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 500,
+     "w": 960,
+     "h": 300,
+     "fill": "memo",
+     "line": 0,
+     "text": "· 반 이상 쓴 스킨케어·클렌저부터 담기\n· 1위템도 내 피부엔 따가울 수 있어요\n　(각질 제거 성분 → 예민 피부는 성분 확인)\n· 새 제품은 1개만, 쟁이기는 쓰던 것만",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "N1 '클렌저·보습 크림처럼 꾸준히 구매하는 제품 중심' / Y2 [01:30] '1위 토너에 각질 제거 성분 → 피부가 따가워' / N1 '필요한 제품을 미리 정해두는 것이 충동구매를 줄이는 방법' → 규칙화"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 850,
+     "w": 720,
+     "h": 190,
+     "fill": "bubble",
+     "line": 0,
+     "text": "'20만원 더 썼다'\n후기 안 되려면!",
+     "size": 50,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "Y4 [00:45] '잔뜩 주문하느라 20만 원이나 더 썼습니다' → 손실회피형(B3)"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 거의 빈 크림통을 흔들어 보는 모습"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 460,
+     "h": 80,
+     "fill": "c2",
+     "line": 0,
+     "text": "② 100mL당 가격",
+     "size": 40,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "2장 원②"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 190,
+     "w": 960,
+     "h": 260,
+     "text": "할인율 말고\n{100mL당 얼마?}",
+     "size": 100,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "N3 '할인율이 아니라 동일 용량 기준 최종 가격' → 질문형"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 500,
+     "w": 960,
+     "h": 320,
+     "fill": "memo",
+     "line": 0,
+     "text": "가격 ÷ 용량(mL) × 100 = {100mL당 가격}\n· 50mL 20,000원 → 40,000원\n· 70mL 기획 25,000원 → 약 35,714원\n→ 기획이 100mL당 약 4,300원 싸요",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "N3 예시 수치 그대로(50mL 2만원 / 70mL 2만5천원 → 35,714원). 50mL쪽 40,000원과 차액 4,286원은 계산값"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 860,
+     "w": 720,
+     "h": 190,
+     "fill": "bubble",
+     "line": 0,
+     "text": "미니어처·안 쓸 증정품은\n계산에서 빼기!",
+     "size": 46,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "[Y1 01:30 '미니어처는 잘 안 쓰니까'] + [N3 '사용하지 않을 제품까지 포함된 기획세트를 무조건 구매할 필요 없음'] + [B '단독 추가 증정' 문구의 반대 시각]"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 90,
+     "text": "본품 2개 '더블 기획'이면 → 개당 가격으로 비교\n(같은 제품을 다른 곳 평소가와도)",
+     "size": 26,
+     "color": "sub",
+     "font": "body",
+     "align": "l",
+     "src": "Y1 [01:30] '더블 4만원대 → 개당 2만원 초반', '쿠팡에서 싸게 많이 팔잖아요' → 브랜드명·쇼핑몰명 빼고 일반화"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 계산기와 줄자로 크림통 재기"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 400,
+     "h": 80,
+     "fill": "c3",
+     "line": 0,
+     "text": "③ 쿠폰 한도",
+     "size": 40,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "2장 원③"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 190,
+     "w": 960,
+     "h": 260,
+     "text": "10% 쿠폰도\n{최대 얼마까지?}",
+     "size": 100,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "N3 '추가 쿠폰이 중복 적용되는지, 최대 할인 한도가 얼마인지는 반드시 확인' → 질문형"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 500,
+     "w": 960,
+     "h": 320,
+     "fill": "memo",
+     "line": 0,
+     "text": "예) 장바구니 60,000원 + 10% 쿠폰\n· 한도 없으면 → 54,000원\n· '최대 3,000원'이면 → 57,000원\n→ '%'보다 '최대 ○원'부터 확인",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "N3 패딩 예시(12만원+10% → 10만8천원, 한도 5천원이면 11만5천원)를 뷰티 장바구니 금액으로 바꾼 계산 예시(가상 금액, 실제 쿠폰 조건 아님)"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 860,
+     "w": 720,
+     "h": 190,
+     "fill": "bubble",
+     "line": 0,
+     "text": "블프 땐 0시·오후 6시\n선착순 랜덤 쿠폰이었어요",
+     "size": 44,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "N1 '매일 0시와 오후 6시에는 최대 1만원의 선착순 랜덤 쿠폰' (11월 블프 기준, 과거형으로)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 90,
+     "text": "12월 쿠폰 시간·결제수단 즉시할인 조건은\n세일 공지로 다시 확인",
+     "size": 26,
+     "color": "sub",
+     "font": "body",
+     "align": "l",
+     "src": "N1 '결제 수단에 따라 최대 2만원 즉시 할인'(블프 기준) → 12월 미확인이라 확인 행동만 제시"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 알람시계(0시) 옆에서 쿠폰 티켓 들기"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 480,
+     "h": 80,
+     "fill": "c4",
+     "line": 0,
+     "text": "④ 매장 라스트픽",
+     "size": 40,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "2장 원④"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 190,
+     "w": 960,
+     "h": 260,
+     "text": "매장마다 다른\n{라스트픽} 스티커",
+     "size": 96,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "N2 '매장마다 라스트픽에 해당하는 제품이 다르기 때문에', '라스트픽 스티커'"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 500,
+     "w": 960,
+     "h": 320,
+     "fill": "memo",
+     "line": 0,
+     "text": "· 매장별로 고른 상품을 크게 할인\n　(기사 표현 '최대 70%' · 품목 매장별 상이)\n· 온라인은 일부만 → 매장 매대가 더 다양\n· 예) 틴트 18,000원 → 5,400원 (11/2 기사)",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "N2 본문: '최대 70%', '온라인 홈페이지에서도 일부 품목 판매하지만 오프라인 매장이 더 다양', '정상가 1만8000원 → 5400원'(브랜드명 삭제). 할인율은 기사 인용으로만 표기"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 860,
+     "w": 720,
+     "h": 190,
+     "fill": "bubble",
+     "line": 0,
+     "text": "결제 전, 다른 곳\n평소가랑 한 번 더 비교",
+     "size": 46,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "N1 '평소 가격을 확인하고, 행사 기간에 실제로 얼마나 저렴해졌는지 비교'"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 90,
+     "text": "세일인데 할인 안 들어간 라인도 있어요\n→ 원하는 제품이 대상인지 먼저 확인",
+     "size": 26,
+     "color": "sub",
+     "font": "body",
+     "align": "l",
+     "src": "Y1 [09:00] '이 라인은 요번에 블프에 할인이 안 들어갔더라고요' → 일반화"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 매대 앞에서 스티커 붙은 상자 집기"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "els": [
+    {
+     "t": "box",
+     "x": 300,
+     "y": 70,
+     "w": 480,
+     "h": 84,
+     "fill": "red",
+     "line": 0,
+     "text": "결제 전 꼭 체크",
+     "size": 42,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "V3_06 7장 구조 그대로"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 200,
+     "w": 960,
+     "h": 560,
+     "fill": "memo",
+     "line": 0,
+     "text": "✔ 장바구니 = 다 써가는 것 + 새 제품 1개\n\n✔ 100mL당 가격으로 비교\n　(안 쓸 증정품은 빼고)\n\n✔ 쿠폰은 '최대 ○원' 한도 확인\n\n✔ 매장 라스트픽 · 다른 곳 평소가 비교",
+     "size": 42,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "3~6장 요약 (N1 '쿠폰과 카드 할인, 무료 배송 조건까지 확인하면 최종 결제 금액이 달라짐')"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 810,
+     "w": 740,
+     "h": 210,
+     "fill": "bubble",
+     "line": 0,
+     "text": "100mL당 계산표 필요하면\n댓글에 '단가' 남겨주세요!",
+     "size": 44,
+     "color": "dark",
+     "font": "title",
+     "align": "c",
+     "src": "[C: '가장 필요한 케어의 이모티콘을 댓글로 남겨주세요'] + [V3_06 댓글 키워드 CTA] → 키워드 '단가'"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1070,
+     "w": 740,
+     "h": 150,
+     "text": "출처: 에스콰이어 11/3 · 녹색경제신문 11/2\n네이버 프리미엄콘텐츠 10/22 · 유튜브 티벳동생·김몽몽\n가격·쿠폰·행사는 매장과 기간마다 달라요",
+     "size": 26,
+     "color": "sub",
+     "font": "body",
+     "align": "l",
+     "src": "출처 표기"
+    },
+    {
+     "t": "char",
+     "x": 820,
+     "y": 1000,
+     "w": 230,
+     "h": 320,
+     "note": "Mr. Navy: 엄지척 + 컵(새끼손가락)"
+    }
+   ]
+  }
+ ],
+ "caption": "올영 블프(11/1~7) 놓치고 울고 있었다면 주목 🛒\n12월 올영세일 전에 장바구니 담는 순서, 이대로만 따라해요.\n\n① 다 써가는 것만 담기 — 랭킹 1위라도 내 피부엔 안 맞을 수 있어요\n② 할인율 말고 100mL당 가격 — 가격 ÷ 용량 × 100\n   예) 50mL 2만원 = 100mL당 4만원 / 70mL 기획 2만5천원 = 약 3만5,714원\n③ 쿠폰은 '최대 ○원' 한도부터 — 10% 쿠폰도 한도가 있으면 실제 할인은 줄어요\n④ 매장 라스트픽 — 매장마다 품목이 달라요. 결제 전 다른 곳 평소가와 한 번 더 비교!\n\n미니어처·안 쓸 증정품은 계산에서 빼는 게 진짜 단가예요.\n12월 세일 날짜·쿠폰 조건은 올리브영 공지로 꼭 확인하세요.\n\n👉 100mL당 가격 계산표 필요하면 댓글에 '단가' 남겨주세요!\n\n(제휴·협찬 없는 정보 정리입니다)",
+ "attrib_caption": [
+  [
+   "놓치고 울고 있었다면 주목",
+   "A 캡션 첫 문장"
+  ],
+  [
+   "이대로만 따라해",
+   "D 캡션"
+  ],
+  [
+   "100mL당 가격 예시",
+   "N3"
+  ],
+  [
+   "쿠폰 한도",
+   "N3"
+  ],
+  [
+   "라스트픽 매장마다",
+   "N2"
+  ],
+  [
+   "댓글 키워드 CTA",
+   "C 댓글 참여 + V3_06"
+  ],
+  [
+   "협찬 표기",
+   "A '#광고' / B '#제품제공' 관행 → 제휴 없음 명시"
+  ]
+ ],
+ "first_comment": "📌 100mL당 가격 = 가격 ÷ 용량(mL) × 100. 장바구니에 담아둔 제품 가격·용량 댓글로 남겨주시면 단가 계산해 드릴게요! (12월 올영세일 일정 뜨면 이 댓글에 추가해 둘게요)",
+ "hashtags": "#올영세일 #올리브영 #올리브영추천템 #올영블프 #블랙프라이데이 #연말세일 #장바구니 #화장품추천 #뷰티꿀팁 #라스트픽",
+ "dm": "'단가' 댓글 → 100mL당 가격·쿠폰 한도 반영 최종가 계산 시트 (가격·용량·쿠폰%·쿠폰 한도 입력 → 100mL당 가격 자동 계산, 제작 필요)",
+ "image_prompts": {
+  "common": "No text, no letters, no numbers, no logos, no brand names, no real product packaging, no real people. Dark charcoal background (#14161B) with subtle grain, clean flat illustration, neon lime (#9BF04A) accent light. Leave the top 60% of the canvas empty for Korean typography (added later). Include the attached Mr. Navy character sheet (navy body, round glasses, raising pinky finger while holding a cup) small in the bottom-right corner (about 230x310px area of 1080x1350). Visual reference: attached @econ.genz carousel (dark, high-contrast, meme-like mood) — mood only, do not copy its characters.",
+  "1": "1080x1350. Dark charcoal background, a small shopping basket with generic unbranded skincare bottles and tubes glowing softly in lime light near the lower-left, Mr. Navy bottom-right holding a magnifying glass over a blank price tag, pinky raised.",
+  "2": "1080x1350. Dark charcoal background, minimal, faint lime grid lines, four blank round spotlights on the floor in the middle area, Mr. Navy bottom-right pointing upward with one finger.",
+  "3": "1080x1350. Dark background, a nearly empty cream jar and an almost empty cleanser tube (unbranded, blank labels) lying near the bottom-left, Mr. Navy bottom-right shaking an empty jar, pinky raised.",
+  "4": "1080x1350. Dark background, two blank unbranded bottles of different sizes standing side by side with a measuring tape and a simple calculator (blank screen), Mr. Navy bottom-right measuring a jar with a tape.",
+  "5": "1080x1350. Dark background, a blank paper coupon ticket with dotted border and a retro alarm clock (no numbers on dial), lime glow, Mr. Navy bottom-right holding the coupon ticket.",
+  "6": "1080x1350. Dark background, a store display shelf seen from the front with unbranded boxes, some boxes have blank round lime stickers, Mr. Navy bottom-right picking up a stickered box.",
+  "7": "1080x1350. Dark charcoal background, a blank checklist clipboard with four empty checkboxes in lime, confetti dots, Mr. Navy bottom-right giving a thumbs up and holding a cup with pinky raised."
+ },
+ "facts_to_verify": [
+  "2026년 12월 올영세일 정확한 날짜(시작·종료) — 기사 미확인. N4(버즈빌 블로그)는 3·6·9·12월 패턴만 언급, Y2는 '올해 마지막 올영세일'(영상 연도 확인 필요)",
+  "12월 올영세일의 쿠폰 지급 시간·최대 금액(블프의 0시·오후 6시 최대 1만원 랜덤 쿠폰이 반복되는지), 결제수단 즉시할인 조건",
+  "라스트픽이 12월 세일에도 운영되는지, 상시 운영인지 — N2는 11월 블프 기간 기사",
+  "라스트픽 '최대 70%'는 녹색경제신문 기사 표현 — 공식 공지 문구 확인 전까지 카드에서는 '기사 표현'으로만 유지",
+  "녹색경제 기사 예시 '틴트 18,000원 → 5,400원'은 특정 매장·특정 시점 가격 — 재게시 시 '11/2 기사 예시' 표기 유지",
+  "미국 블랙프라이데이 2026-11-27(금): 추수감사절(11/26 목) 다음 날, N3 사이버먼데이 11/30(월)과 정합 — 달력으로 재확인",
+  "@eyesmag 좋아요: 시트 6,200 vs 임베드 표시 5,525 — 시트 값 재확인"
+ ],
+ "from_v3": "V3_10",
+ "style_ref": "PENDING_USER_STYLE"
+}

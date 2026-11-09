@@ -1,0 +1,873 @@
+{
+ "id": "V3_07",
+ "title": "이번 달부터 코인도 압류 + 거래소 해킹 대비 (8장)",
+ "canvas": [
+  1080,
+  1350
+ ],
+ "fonts": {
+  "title": "Gmarket Sans Bold",
+  "body": "Pretendard",
+  "fallback": "Noto Sans CJK KR"
+ },
+ "palette": {
+  "bg": "#0E1116",
+  "ink": "#FFFFFF",
+  "red": "#FF4D4F",
+  "orange": "#FFC83D",
+  "memo": "#1C2533",
+  "panel2": "#3A1F24",
+  "bubble": "#FFC83D",
+  "c1": "#C9D3E3",
+  "c2": "#8FB4FF",
+  "c3": "#7FDDB8",
+  "c4": "#FF8A8A"
+ },
+ "metrics_note": "비주얼 벤치마크 @ai.trend.kr 표지(임베드 540px 폭 실측 → 1080 기준 2배 환산): 좌측 여백 약 26px→52px(4.8%), 제목 2줄 글자 높이 약 40px→84~104px, 줄간격 약 1.15, 태그 pill 높이 약 32px→66px, 어두운 배경 위 흰 제목 + 강조색 1개. 표지는 벤치마크처럼 위 45%를 이미지 영역으로 비우고 제목을 아래쪽 좌측 정렬에 둠",
+ "visual_bench": [
+  {
+   "url": "https://www.instagram.com/p/DbczDnSESqq/",
+   "who": "@ai.trend.kr",
+   "sector": "AI도구·자동화 (카드뉴스 캐러셀, 점 10개)",
+   "실측": "좋아요 33,521 (임베드) · 댓글 약 15,000 (시트 DB) · 팔로워 270K",
+   "take": "어두운 실사풍 배경 + 3D 캐릭터, 하단 좌측 흰 굵은 제목 2줄, 테두리 태그 pill('AI TIPS | TEXT'), 질문형 훅 '왜 나만 몰랐어?'",
+   "capture": "refcaps_private/ref07_vis_DbczDnSESqq.png (비공개)"
+  },
+  {
+   "url": "https://www.instagram.com/p/DXsjgvFko0L/",
+   "who": "@consultant_ocy1013",
+   "sector": "소상공인·창업 (캐러셀)",
+   "실측": "좋아요 1,194 (임베드) · 댓글 약 5,200 (시트 DB)",
+   "take": "보조: '[긴급속보]' 라벨 + 노랑/흰 2색 제목 → 표지 '긴급 | 11월 1일 시행' 태그와 노랑 강조색",
+   "capture": "refcaps_private/ref07_vis_DXsjgvFko0L.png (비공개)"
+  }
+ ],
+ "text_bench": [
+  {
+   "url": "https://www.instagram.com/reel/DQ6C0ZHAHhZ/",
+   "who": "@kbsnews",
+   "sector": "뉴스 (릴스, 코인 해킹)",
+   "실측": "조회 723만 (부모 제공) · 댓글 427 (임베드)",
+   "take": "'하루아침에 … 해킹을 당한 것으로 보입니다' 즉시·경고 톤 → 표지·7장 톤",
+   "capture": "refcaps_private/ref07_DQ6C0ZHAHhZ.png"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DVSckz0kfS5/",
+   "who": "@tommy.park",
+   "sector": "주식 (릴스)",
+   "실측": "조회 241만 (부모 제공) · 댓글 398 (임베드)",
+   "take": "'뒤집어 보면' 숫자 해석 + '핵심은 네 가지' 번호 리스트 → 2장 숫자 해석·5장 4가지",
+   "capture": "refcaps_private/ref07_DVSckz0kfS5.png"
+  },
+  {
+   "url": "https://www.instagram.com/p/DTkqd1LiQYG/",
+   "who": "@hodu.money",
+   "sector": "주식·ETF (캐러셀, 같은 분야 카드뉴스)",
+   "실측": "좋아요 4,545 · 댓글 1,782 (임베드)",
+   "take": "'총정리' 표지 + '추가 정리본이 필요하신 분들은 댓글' CTA",
+   "capture": "refcaps_private/ref07_txt_DTkqd1LiQYG.png"
+  },
+  {
+   "url": "https://www.instagram.com/p/DZ3iVnNj4XI/",
+   "who": "@xoxo.coin",
+   "sector": "코인 (캐러셀)",
+   "실측": "좋아요 900 · 댓글 800 (시트 DB). 임베드는 '삭제됐거나 링크 깨짐'으로 표시 → 캡션·장수 직접 확인 불가",
+   "take": "참고만(시트 DB 캡션 앞부분 '캐시 우드 비트코인 125만 달러'), 문구 차용 없음"
+  },
+  {
+   "url": "https://www.yna.co.kr/view/AKR20261109115200004",
+   "who": "연합뉴스 2026-11-09",
+   "take": "압류·현금화 규칙 수치·절차 전부"
+  },
+  {
+   "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000524",
+   "who": "IT조선 2026-11-09",
+   "take": "해킹 사례·배상(5%, 30억, 무과실 논의)"
+  },
+  {
+   "url": "https://www.boannews.com/news/articleView.html?idxno=147086",
+   "who": "보안뉴스 2026-11-08",
+   "take": "11/19 CISO 소집, 고팍스·빗썸·프라뱅"
+  }
+ ],
+ "youtube": [
+  {
+   "url": "https://www.youtube.com/watch?v=X4ILL5nDbCI",
+   "who": "채권추심 김사부",
+   "views": 609,
+   "tips": "02:15 제3채무자=거래소 법인명, 5대 거래소 지정 / 05:15 결정문 도달 시 출금·매도 불가 / 07:30 청구액 분배·진술최고 / 09:00 별도 현금화 명령 필요"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=hObKFMvhjcQ",
+   "who": "코인만랩",
+   "views": 2251,
+   "tips": "01:30 패스키·OTP 2중 보안 / 05:15~09:00 출금 화이트리스트 ON / 09:45 1회 출금 한도"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=6WWJFS1vtzI",
+   "who": "아카이브포인티",
+   "views": 8020,
+   "tips": "03:45 구글 계정 털린 뒤 30분 만에 OTP 추가·출금 / 07:30·09:00 OTP 클라우드 동기화 끄기, 새 지갑 출금 지연 72시간"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=-MC0Ee6El1c",
+   "who": "코인만랩",
+   "views": 1944,
+   "tips": "00:00 거래소별 비번 다르게 / 00:45 OTP 필수 / 01:30 복구구문 종이 보관 / 02:15 가짜 공식계정 링크 주의"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=Hw8ES280V0c",
+   "who": "대한민국 대법원",
+   "views": 32933,
+   "tips": "자막 다운로드 HTTP 429로 실패 → 미사용"
+  }
+ ],
+ "trend": {
+  "date": "2026-11-09",
+  "source": "구글 트렌드 KR",
+  "items": [
+   "가상자산 1000+",
+   "해커 1000+"
+  ]
+ },
+ "slides": [
+  {
+   "n": 1,
+   "els": [
+    {
+     "t": "pill",
+     "x": 798,
+     "y": 60,
+     "w": 230,
+     "h": 66,
+     "fill": "bubble",
+     "text": "저장 필수",
+     "size": 32,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[@ggang_bubu 캡션 '(저장@@)'] 저장 유도 장치 → 배지로"
+    },
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 620,
+     "w": 430,
+     "h": 66,
+     "fill": "red",
+     "text": "긴급 | 11월 1일 시행",
+     "size": 32,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "[비주얼 @ai.trend.kr 'AI TIPS | TEXT' 태그 pill] + [@consultant_ocy1013 '[긴급속보]' 라벨] → 날짜 태그. 시행일=연합뉴스 11/9 '이달 1일부터 시행'"
+    },
+    {
+     "t": "text",
+     "x": 52,
+     "y": 710,
+     "w": 976,
+     "h": 290,
+     "text": "이번 달부터\n{코인도 압류}됩니다",
+     "size": 104,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "[연합뉴스 제목 '코인도 압류·현금화'] + [@kbsnews 릴스 '하루아침에 삭제됐습니다' 즉시성 톤] → '이번 달부터 … 됩니다'(11/1 시행이라 날짜 결합 정당, 규칙 B5)"
+    },
+    {
+     "t": "box",
+     "x": 52,
+     "y": 1040,
+     "w": 720,
+     "h": 170,
+     "fill": "memo",
+     "text": "거래소 코인 · 개인지갑 코인 모두\n+ 해킹 대비 보안설정 5가지 총정리",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "연합뉴스 본문 '거래소 이용 / 개인 지갑' 구분 + [@hodu.money '총정리'] 저장 장치(B4) + 트렌드 '해커' 1000+ 결합"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1010,
+     "w": 240,
+     "h": 310,
+     "note": "Mr. Navy: 금고 앞에서 놀라는 표정, 구석에서 새끼손가락 들고 커피"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "els": [
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 60,
+     "w": 300,
+     "h": 66,
+     "fill": "bubble",
+     "text": "숫자로 보면",
+     "size": 32,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[@tommy.park '뒤집어 보면'] 숫자 해석형 도입 → 짧은 라벨"
+    },
+    {
+     "t": "text",
+     "x": 52,
+     "y": 160,
+     "w": 976,
+     "h": 260,
+     "text": "코인 압류 신청\n2년 새 {7배↑}",
+     "size": 100,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "연합뉴스: 2023년 423건 → 2025년 3,136건 (3,136/423=7.4배) → '7배↑'로 보수적 반올림 내림"
+    },
+    {
+     "t": "tree",
+     "x": 90,
+     "y": 440,
+     "w": 900,
+     "h": 150
+    },
+    {
+     "t": "circle",
+     "x": 34,
+     "y": 610,
+     "w": 232,
+     "h": 232,
+     "fill": "c1",
+     "text": "2023\n423건",
+     "size": 38,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "연합뉴스 본문"
+    },
+    {
+     "t": "circle",
+     "x": 294,
+     "y": 610,
+     "w": 232,
+     "h": 232,
+     "fill": "c2",
+     "text": "2024\n958건",
+     "size": 38,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "연합뉴스 본문"
+    },
+    {
+     "t": "circle",
+     "x": 554,
+     "y": 610,
+     "w": 232,
+     "h": 232,
+     "fill": "c3",
+     "text": "2025\n3,136건",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "연합뉴스 본문"
+    },
+    {
+     "t": "circle",
+     "x": 814,
+     "y": 610,
+     "w": 232,
+     "h": 232,
+     "fill": "c4",
+     "text": "2026.9\n3,186건",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "연합뉴스 본문 '올해 들어선 9월까지 3천186건'"
+    },
+    {
+     "t": "box",
+     "x": 52,
+     "y": 900,
+     "w": 740,
+     "h": 180,
+     "fill": "memo",
+     "text": "· 국내 28개 거래소 상대 민사집행 접수\n· 올해는 9월에 이미 작년 전체 넘음",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "연합뉴스 '국내 28개 가상자산사업자(거래소)가 제3채무자인 민사집행사건' + 3,186>3,136 비교"
+    },
+    {
+     "t": "text",
+     "x": 52,
+     "y": 1110,
+     "w": 720,
+     "h": 60,
+     "text": "출처: 대법원 법원행정처 (연합뉴스 2026.11.9)",
+     "size": 26,
+     "color": "#9AA4B2",
+     "font": "body",
+     "align": "l",
+     "src": "기사 출처 표기"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1010,
+     "w": 240,
+     "h": 310,
+     "note": "Mr. Navy: 막대그래프가 계단처럼 치솟는 걸 올려다봄"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "els": [
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 60,
+     "w": 400,
+     "h": 66,
+     "fill": "c2",
+     "text": "① 거래소에 둔 코인",
+     "size": 32,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "연합뉴스 '거래소 이용한 경우' 구분"
+    },
+    {
+     "t": "text",
+     "x": 52,
+     "y": 160,
+     "w": 976,
+     "h": 260,
+     "text": "압류 대상은\n{가상자산이전청구권}",
+     "size": 92,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "연합뉴스 '거래소 등을 통해 보관·관리되는 가상자산의 경우 가상자산이전청구권이 압류 대상'"
+    },
+    {
+     "t": "box",
+     "x": 52,
+     "y": 470,
+     "w": 976,
+     "h": 330,
+     "fill": "memo",
+     "text": "· 거래소에 '내 코인 이 주소로 보내줘'라고\n    요구할 수 있는 권리를 묶는 것\n· 압류되면 출금(이전)·처분 못 함\n· 현금화: 양도명령 · 매각명령 등",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "연합뉴스 본문 이전청구권 정의 + '처분하거나 이전받을 수 없게' + '양도명령, 매각명령, 그 밖에 정당한 방법' → 쉬운 말로"
+    },
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 850,
+     "w": 720,
+     "h": 190,
+     "fill": "bubble",
+     "text": "결정문이 거래소에 닿는 순간\n출금·매도가 막혀요",
+     "size": 42,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "유튜브 채권추심 김사부 X4ILL5nDbCI 05:15 '결정문이 거래소에 도달하는 순간 … 출금하거나 매도해서 현금화할 수 없게' → 말풍선"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1010,
+     "w": 240,
+     "h": 310,
+     "note": "Mr. Navy: 거래소 창구 셔터가 내려진 앞에서 당황"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "els": [
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 60,
+     "w": 360,
+     "h": 66,
+     "fill": "c3",
+     "text": "② 개인지갑 코인",
+     "size": 32,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "연합뉴스 '개인 지갑을 통해 직접 보유한 경우' 구분"
+    },
+    {
+     "t": "text",
+     "x": 52,
+     "y": 160,
+     "w": 976,
+     "h": 260,
+     "text": "개인지갑이면\n{코인 자체}를 압류",
+     "size": 100,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "연합뉴스 '개인 지갑 등을 이용해 직접 관리한 경우는 가상자산 자체가 강제집행 대상'"
+    },
+    {
+     "t": "box",
+     "x": 52,
+     "y": 470,
+     "w": 976,
+     "h": 330,
+     "fill": "memo",
+     "text": "· 법원: 처분 금지 + 집행관에게 이전 명령\n· 압류명령이 채무자에게 가기 전에도\n    집행관에게 이전 가능\n· 집행관이 넘겨받는 순간 압류 효력",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "연합뉴스 '처분을 금지하고 집행관에게 이전할 것을 명령' + '송달되기 전에도 할 수 있으며 … 이전을 받은 경우 그때 압류 효력'"
+    },
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 850,
+     "w": 720,
+     "h": 190,
+     "fill": "bubble",
+     "text": "코인은 바로 옮길 수 있어서\n'먼저 이전'이 핵심",
+     "size": 42,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "연합뉴스 '즉시 이전이 가능하고, 언제든 처분할 수 있는 만큼' 규정 취지 요약"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1010,
+     "w": 240,
+     "h": 310,
+     "note": "Mr. Navy: 하드웨어 지갑을 든 채 집행관 캐릭터에게 건넴"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "els": [
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 60,
+     "w": 320,
+     "h": 66,
+     "fill": "c4",
+     "text": "③ 현금화 방법",
+     "size": 32,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "연합뉴스 '현금화 … 방법 등이다' 4가지 열거"
+    },
+    {
+     "t": "text",
+     "x": 52,
+     "y": 160,
+     "w": 976,
+     "h": 120,
+     "text": "압류 후 {현금화} 4가지",
+     "size": 84,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "src": "[spec_06 '4총사' 원 분기] + 연합뉴스 4가지 → 원 4개"
+    },
+    {
+     "t": "tree",
+     "x": 90,
+     "y": 300,
+     "w": 900,
+     "h": 140
+    },
+    {
+     "t": "circle",
+     "x": 34,
+     "y": 450,
+     "w": 232,
+     "h": 232,
+     "fill": "c1",
+     "text": "①\n거래소에\n매각 맡김",
+     "size": 28,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "lh": 1.25,
+     "src": "연합뉴스 '거래소에 매각을 위탁'"
+    },
+    {
+     "t": "circle",
+     "x": 294,
+     "y": 450,
+     "w": 232,
+     "h": 232,
+     "fill": "c2",
+     "text": "②\n집행관 계정\n옮겨 매각",
+     "size": 28,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "lh": 1.25,
+     "src": "연합뉴스 '해당 거래소에 개설된 집행관 계정으로 이전한 뒤 집행관이 매각'"
+    },
+    {
+     "t": "circle",
+     "x": 554,
+     "y": 450,
+     "w": 232,
+     "h": 232,
+     "fill": "c3",
+     "text": "③\n집행관이\n타 거래소 매각",
+     "size": 28,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "lh": 1.25,
+     "src": "연합뉴스 '집행관에게 이전하도록 명령하고 집행관이 다른 거래소를 통해 매각'"
+    },
+    {
+     "t": "circle",
+     "x": 814,
+     "y": 450,
+     "w": 232,
+     "h": 232,
+     "fill": "c4",
+     "text": "④\n쉬운 코인으로\n바꿔 매각",
+     "size": 28,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "lh": 1.25,
+     "src": "연합뉴스 '현금화가 쉬운 가상자산 또는 이전청구권으로 교환한 후 매각'"
+    },
+    {
+     "t": "box",
+     "x": 52,
+     "y": 730,
+     "w": 976,
+     "h": 230,
+     "fill": "memo",
+     "text": "· 통장 압류처럼 바로 돈으로 못 받아요\n    → 시세가 계속 변해서 현금화 명령이 따로 필요\n· 채권자 신청에 따라 양도명령도 가능",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "김사부 X4ILL5nDbCI 09:00 '은행 예금은 바로 추심 … 가상자산은 압류만으로 바로 현금으로 받을 수 없다, 가격이 변동' + 연합뉴스 양도명령"
+    },
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 1010,
+     "w": 720,
+     "h": 180,
+     "fill": "bubble",
+     "text": "그래서 '압류 → 현금화'\n두 단계예요",
+     "size": 42,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "김사부 09:00 '절차가 하나 더 필요한 겁니다' → 요약"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1020,
+     "w": 240,
+     "h": 300,
+     "note": "Mr. Navy: 동전 모양 코인을 지폐로 바꾸는 저울"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "els": [
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 60,
+     "w": 470,
+     "h": 66,
+     "fill": "bubble",
+     "text": "떼인 돈 받을 사람이라면",
+     "size": 32,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[@ai.trend.kr '나만 몰랐어?' 독자 지목형] → 채권자 독자 지목"
+    },
+    {
+     "t": "text",
+     "x": 52,
+     "y": 160,
+     "w": 976,
+     "h": 260,
+     "text": "신청서에 {거래소}를\n제3채무자로",
+     "size": 92,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "김사부 X4ILL5nDbCI 02:15 '제3채무자는 채무자가 이용하는 가상자산 거래소가 됩니다 … 여기가 핵심'"
+    },
+    {
+     "t": "box",
+     "x": 52,
+     "y": 470,
+     "w": 976,
+     "h": 350,
+     "fill": "memo",
+     "text": "· 업비트=두나무㈜, 빗썸=㈜빗썸 (법인명으로)\n· 어디 쓰는지 모르면 5대 거래소 모두 지정\n    → 청구액 나눠 적기 (합계 ≤ 채권액)\n· '제3채무자 진술최고'도 같이 신청\n    → 거래소가 코인 있는지 법원에 회신",
+     "size": 33,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "김사부 02:15 법인명 예시·5대 거래소(업비트·빗썸·코빗·코인원·고팍스) 지정 / 07:30 '전체 청구 금액이 채권액을 초과하지 않도록' / 07:30~08:15 진술최고 신청 → 회신"
+    },
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 870,
+     "w": 720,
+     "h": 190,
+     "fill": "bubble",
+     "text": "판결문 등 집행권원이 있어야!\n내 상황은 법률 상담 먼저",
+     "size": 40,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "김사부 03:00 '판결문 등 각자 집행 권원에 따라' + 규칙 F 법률 단정 금지 문구"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1010,
+     "w": 240,
+     "h": 310,
+     "note": "Mr. Navy: 서류봉투에 도장 찍기"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "els": [
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 60,
+     "w": 260,
+     "h": 66,
+     "fill": "red",
+     "text": "해킹 경보",
+     "size": 32,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "[@kbsnews '해킹을 당한 것으로 보입니다' 경고 톤] + 트렌드 '해커' 1000+"
+    },
+    {
+     "t": "text",
+     "x": 52,
+     "y": 160,
+     "w": 976,
+     "h": 260,
+     "text": "최근 두 달,\n거래소 {3곳} 해킹 사고",
+     "size": 92,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "IT조선 11/9 '최근 두달간 빗썸·고팍스·프라뱅 등 가상자산 거래소 3곳 … 해킹에 따른 개인정보 유출 사고'"
+    },
+    {
+     "t": "box",
+     "x": 52,
+     "y": 470,
+     "w": 976,
+     "h": 330,
+     "fill": "memo",
+     "text": "· 빗썸: 고객 844명 개인정보 유출\n· 프라뱅: 1억원 상당 가상자산 탈취\n· 고팍스: 11/6 협박 메일 → 입출금·매매 중단\n· 11/19 금감원, 업계 보안책임자(CISO) 소집",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "IT조선 11/9 + 보안뉴스 11/8 본문 (844명, 1억원, 6일 협박 메일·서비스 중단, 19일 CISO 회의)"
+    },
+    {
+     "t": "box",
+     "x": 52,
+     "y": 850,
+     "w": 740,
+     "h": 200,
+     "fill": "panel2",
+     "text": "배상은? 핫월렛 자산의 5% 이상\n보험·준비금 의무 (원화거래소 최소 30억)\n'과실 없어도 배상'은 아직 논의 중",
+     "size": 31,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "IT조선 '핫월렛 … 5% 이상 … 원화 거래소 최소 30억원' + '무과실 배상 책임이 명시돼 있지 않다 … 디지털자산기본법 논의'"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1010,
+     "w": 240,
+     "h": 310,
+     "note": "Mr. Navy: 후드 쓴 해커 그림자에 놀라 금고 문 잠그기"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "els": [
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 60,
+     "w": 380,
+     "h": 66,
+     "fill": "bubble",
+     "text": "오늘 3분 보안설정",
+     "size": 32,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[@ggang_bubu '어렵게 생각하지 마세요'] → 시간 부담 낮추기"
+    },
+    {
+     "t": "text",
+     "x": 52,
+     "y": 160,
+     "w": 976,
+     "h": 120,
+     "text": "털리기 전에 {5가지}",
+     "size": 84,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "src": "[코인만랩 -MC0Ee6El1c 제목 '6가지 내 코인 털리지 않기 위해'] → 5가지로 압축(실행 가능한 것만)"
+    },
+    {
+     "t": "box",
+     "x": 52,
+     "y": 310,
+     "w": 976,
+     "h": 480,
+     "fill": "memo",
+     "text": "① 거래소마다 비밀번호 다르게\n② OTP 켜고 OTP앱 '계정 동기화'는 끄기\n③ 출금 화이트리스트 ON\n    (새 주소 출금 지연도 걸기)\n④ 1회 출금 한도 정하기\n⑤ 지갑 복구문구는 종이에만\n    사진·메모앱 저장 금지",
+     "size": 37,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "① 코인만랩 -MC0Ee6El1c 00:00 / ② 같은 영상 00:45 'OTP 반드시' + 아카이브포인티 6WWJFS1vtzI 07:30·09:00 '구글 OTP 클라우드 연동 끄기' / ③ 코인만랩 hObKFMvhjcQ 05:15~09:00 화이트리스트 + 6WWJFS1vtzI 09:00 '새 지갑 출금 지연 72시간' / ④ hObKFMvhjcQ 09:45 '1회 출금 한도 1000 USDT' / ⑤ -MC0Ee6El1c 01:30 복구 구문 디지털화 금지"
+    },
+    {
+     "t": "pill",
+     "x": 52,
+     "y": 830,
+     "w": 740,
+     "h": 190,
+     "fill": "bubble",
+     "text": "댓글에 '보안' 남기면\n설정 위치 정리본 보내드려요",
+     "size": 40,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[@hodu.money '추가 정리본이 필요하신 분들은 댓글'] + [@ai.trend.kr '받아가세요'] → 댓글 키워드형 CTA"
+    },
+    {
+     "t": "text",
+     "x": 52,
+     "y": 1060,
+     "w": 730,
+     "h": 160,
+     "text": "출처: 연합뉴스·뉴시스 11.9 / 보안뉴스 11.8 / IT조선 11.9\n유튜브 코인만랩 · 아카이브포인티 · 채권추심 김사부\n법률·투자 판단은 전문가와 상의하세요",
+     "size": 24,
+     "color": "#9AA4B2",
+     "font": "body",
+     "align": "l",
+     "src": "출처·면책 (규칙 F)"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1010,
+     "w": 240,
+     "h": 310,
+     "note": "Mr. Navy: 엄지척 + 휴대폰 OTP 화면, 새끼손가락 들고 컵"
+    }
+   ]
+  }
+ ],
+ "caption": "(저장 필수) 이번 달 1일부터 코인도 '압류 → 현금화' 절차가 생겼어요.\n\n✔ 거래소에 둔 코인 → '가상자산이전청구권' 압류 (출금·처분 막힘)\n✔ 개인지갑 코인 → 코인 자체를 집행관에게 이전\n✔ 현금화 4가지: 거래소 매각 위탁 / 집행관 계정 매각 / 다른 거래소 매각 / 쉬운 코인으로 교환 후 매각\n✔ 압류 신청은 2023년 423건 → 2025년 3,136건, 올해는 9월까지 3,186건\n\n그리고 요즘 거래소 해킹 소식도 계속 나오죠. 털리기 전에 오늘 3분만 쓰세요.\n① 거래소마다 비밀번호 다르게 ② OTP + 동기화 끄기 ③ 출금 화이트리스트 ④ 1회 출금 한도 ⑤ 복구문구는 종이에만\n\n댓글에 '보안' 남겨주시면 설정 위치 정리본 보내드려요.\n\n출처: 대법원 법원행정처(연합뉴스 11.9), IT조선 11.9, 보안뉴스 11.8\n※ 법률·투자 판단이 아닌 정보 정리예요. 내 상황은 전문가와 상의하세요.",
+ "first_comment": "📌 요약: 거래소 코인=이전청구권 압류 / 개인지갑=코인 자체 / 11월 1일 시행. 보안설정 정리본은 '보안' 댓글 👇",
+ "hashtags": [
+  "#가상자산",
+  "#코인압류",
+  "#민사집행규칙",
+  "#비트코인",
+  "#코인해킹",
+  "#거래소보안",
+  "#OTP",
+  "#화이트리스트",
+  "#재테크",
+  "#돈공부",
+  "#경제뉴스",
+  "#코인초보"
+ ],
+ "dm": "'보안' 남겨주셔서 감사해요! 거래소 보안설정 정리본이에요.\n1) 비밀번호: 거래소마다 다르게 (기본 비번 + 거래소별 문구)\n2) OTP: 거래소 보안 메뉴에서 OTP 등록 → OTP 앱의 클라우드/계정 동기화는 끄기 (폰 분실 대비 백업코드는 종이에)\n3) 출금 화이트리스트: 보안(Security) 메뉴 → 출금 주소 관리/화이트리스트 → 자주 쓰는 주소만 등록 후 '사용' 켜기\n4) 1회 출금 한도: 지원하는 거래소에서 한도 낮게\n5) 개인지갑 복구문구: 종이 2장 이상, 서로 다른 곳에 보관. 사진·클라우드·메모앱 금지\n+ 압류 규칙 요약: 거래소 코인은 이전청구권 압류, 개인지갑은 코인 자체 압류 (2026.11.1 시행)\n※ 메뉴 이름은 거래소마다 달라요. 거래소 공지에서 꼭 확인하세요.",
+ "image_prompts": [
+  "Slide 1 cover, 1080x1350, dark cinematic night scene, a glowing gold bitcoin-like coin locked inside a translucent steel vault with a court seal stamp shadow, soft rim light, deep navy-black background, top 45% holds the main subject, bottom 55% fades to near-black empty space for text, small cute 3D mascot 'Mr. Navy' (round white head, round glasses, navy body) in the lower right corner looking surprised and holding a cup with pinky raised, no text, no letters, no logos",
+  "Slide 2, dark navy background, subtle 3D bar chart of four glowing bars rising like stairs on the right edge, lots of empty dark space on the left and center, Mr. Navy small in lower right corner looking up at the bars, no text, no numbers, no logos",
+  "Slide 3, dark background, minimal 3D illustration of a crypto exchange counter with a metal shutter half closed and a padlock, placed small in the upper right, rest empty dark space, Mr. Navy in lower right corner startled, no text, no logos",
+  "Slide 4, dark background, 3D hardware wallet device being handed from one gloved hand to another official hand, small in upper right, empty dark space elsewhere, Mr. Navy lower right, no text, no logos",
+  "Slide 5, dark background, very subtle 3D scale converting coins into paper money, faint and low contrast so circles can sit on top, Mr. Navy lower right, no text, no logos",
+  "Slide 6, dark background, 3D envelope with a red court-style stamp and a fountain pen, small in upper right, empty space, Mr. Navy lower right stamping a document, no text, no logos",
+  "Slide 7, dark moody background, shadowy hooded hacker silhouette behind a glowing monitor with red warning glow, placed upper right, empty dark space for text, Mr. Navy lower right locking a safe door, no text, no letters on screen, no logos",
+  "Slide 8, dark background, 3D smartphone showing an abstract shield icon (no digits, no letters), green glow, small in upper right, empty space, Mr. Navy lower right giving a thumbs up with pinky raised holding a cup, no text, no logos"
+ ],
+ "facts_to_verify": [
+  "보안뉴스 '바이낸스 63억달러(약 8조4천억원) 해킹 피해' — 규모가 매우 커서 원문·다른 매체 교차 확인 전까지 카드에 미사용",
+  "고팍스 개인정보 유출 인원: 보안뉴스 '이용자 7000'(단위 불명확) vs IT조선은 프라뱅 '고객 7명' — 카드에 미사용, 확인 필요",
+  "김사부 영상 '인지·송달료 1, 20만 원 이내' 자막 불명확 → 비용은 카드에 미사용",
+  "김사부 영상은 신청서 제목을 '가상자산 반환청구권'으로 부름(규칙 시행 전 실무). 개정 규칙상 명칭은 '가상자산이전청구권' — 카드는 기사 명칭 사용, 신청서 양식 명칭은 법원 전자소송에서 확인",
+  "화이트리스트·1회 출금 한도·새 주소 출금 지연(72시간)은 바이낸스·비트겟 사례. 업비트·빗썸 등 국내 거래소 메뉴 존재·명칭 확인 필요(DM 정리본 전)",
+  "5대 원화거래소 보험·준비금 총 1,854억원(9월말, 민병덕 의원실) — 카드 미사용, 필요시 확인",
+  "같은 분야 캐러셀 원본(@hodu.money, @xoxo.coin) 장수 미확인 → 8장이 원본 +1~2인지 확인 필요 (@ai.trend.kr 비주얼 원본은 점 10개)",
+  "@kbsnews 723만·@tommy.park 241만 조회수는 부모 제공값(임베드에서 조회수 미노출)"
+ ]
+}

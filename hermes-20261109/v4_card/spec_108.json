@@ -1,0 +1,988 @@
+{
+ "id": "V4_108",
+ "title": "[리디자인 대기] 퍼스널컬러 셀프 진단, 결과가 매번 다른 이유 + 집에서 하는 6단계 (9장)",
+ "canvas": [
+  1080,
+  1350
+ ],
+ "fonts": {
+  "title": "Gmarket Sans Bold",
+  "body": "Pretendard",
+  "fallback": "Noto Sans CJK KR"
+ },
+ "palette": {
+  "bg": "#141414",
+  "ink": "#FFFFFF",
+  "soft": "#E6E6E6",
+  "gray": "#9A9A9A",
+  "red": "#E8312F",
+  "orange": "#D7F53C",
+  "lime": "#D7F53C",
+  "panel": "#262626",
+  "okpanel": "#25331A",
+  "ngpanel": "#3A2222",
+  "memo": "#262626",
+  "bubble": "#D7F53C",
+  "warm": "#F6B26B",
+  "cool": "#9CC3F5",
+  "photoA": "#4A3324",
+  "photoB": "#23324A",
+  "c1": "#F6B26B",
+  "c2": "#F4A7B9",
+  "c3": "#C9B6F2",
+  "c4": "#9CC3F5"
+ },
+ "metrics_note": "비주얼 벤치마크 @ai_newpd 'GPT Image2 뽕뽑는 프롬프트' 표지(540px 임베드 캡처 실측 → 1080 환산): 어두운 사진 배경, 좌우 전후 분할(정확히 50:50), 좌 여백 약 6.5%(≈70px→60px 적용), 제목 1줄 높이 약 9% 폭(≈90px), 둘째 줄 형광 라임 강조, 상단 소형 라임 라벨 ≈32px. 행간 1.15, 칸 간격 25~30px.",
+ "visual_bench": [
+  {
+   "url": "https://www.instagram.com/p/DYHRdxlkQ_W/",
+   "who": "@ai_newpd",
+   "sector": "AI도구·자동화 (카드뉴스/캐러셀)",
+   "실측": "좋아요 8,076(임베드) · 댓글 7,100(시트 by claude_전체DB 2331행) · 캐러셀 약 10장(점 표시) · 2026-05-09",
+   "take": "검정 배경 + 좌우 전후 분할 사진 + 형광 라임 강조 + 굵은 흰 제목 2줄. 같은 사람 얼굴이 조명에 따라 달라 보이는 '전후' 구도로 '결과가 매번 다른 이유'를 표지에서 보여줌. 실제 얼굴 대신 가상 인물.",
+   "cap": "refcaps_private/ref08_DYHRdxlkQ_W.png"
+  }
+ ],
+ "text_bench": [
+  {
+   "url": "https://www.instagram.com/reel/DUHceK3gROb/",
+   "who": "@milkish.mag",
+   "sector": "퍼스널컬러·눈썹 (릴스)",
+   "실측": "조회 4,300,000 · 좋아요 28,000 · 댓글 600 (시트 108행, 2026-01-30)",
+   "take": "'나 웜톤이야 쿨톤이야?' 질문 훅 + 손가락 올려 비교 + 댓글 '웜톤/쿨톤' DM CTA",
+   "cap": "refcaps_private/ref08_DUHceK3gROb.png"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DZPrU9ph4Qa/",
+   "who": "@dew.color",
+   "sector": "퍼스널컬러·눈썹 (릴스)",
+   "실측": "조회 792,000 · 좋아요 15,000(임베드 15,831) · 댓글 40 (시트 755행, 2026-06-06)",
+   "take": "'같은 사람인데 진단받는 곳마다 결과가 다르다면?' + 보드 '퍼컬 오진 피하는 법 1·2·3' → 이유 4가지",
+   "cap": "refcaps_private/ref08_DZPrU9ph4Qa.png"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Da7ZyZ4z_0w/",
+   "who": "@nanabaappofficial",
+   "sector": "퍼스널컬러·눈썹 (릴스)",
+   "실측": "조회 264,000 · 좋아요 4,500 · 댓글 6,000 (시트 1470행, 2026-07-18). 임베드는 '삭제되었거나 링크 깨짐'으로 캡션 직접 확인 불가 → 시트 캡션 앞부분 '집에서 사진 한 장으로 내 퍼스널컬러 확인하기' 사용",
+   "take": "'집에서' 셀프 확인 + 댓글 폭발형 CTA"
+  },
+  {
+   "url": "https://www.instagram.com/p/C9WMggzSUKN/",
+   "who": "@cosmopolitankorea",
+   "sector": "퍼스널컬러·눈썹 (캐러셀, 같은 형식)",
+   "실측": "좋아요 4,542 · 댓글 42 (시트 2594행, 2024-07-13) · 2장",
+   "take": "'톤그로'·'퍼컬 자가 진단' 단계형(1️⃣~4️⃣) 캡션, '맨 얼굴로 셀카' 조건",
+   "cap": "refcaps_private/ref08_C9WMggzSUKN.png"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=pr7k2zDQsr0",
+   "who": "잼페이스 (YT1)",
+   "실측": "조회 561,638 · 2021-09-15 · 8분51초",
+   "take": "자가진단 5가지(피부톤: 장표·색종이·파운데이션 / 모발 / 눈동자 / 혈관 / 립) + FAQ → 6단계·오답노트 대부분의 근거",
+   "subs": "yt_subs/pr7k2zDQsr0.txt"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=TiwXEhRBQU4",
+   "who": "컬러요정, 원더은아 (YT2)",
+   "실측": "조회 373,285 · 2023-02-10 · 2분51초",
+   "take": "한 사람이 두 타입으로 나오는 이유: 비교색 범위·메이크업·이미지(분위기) → '보는 기준' 이유. 영상 속 실존 연예인 예시는 카드에 쓰지 않음",
+   "subs": "yt_subs/TiwXEhRBQU4.txt"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=MZZ41R03Trw",
+   "who": "이미지 브랜더 팽대표 (YT3)",
+   "실측": "조회 935,657 · 2019-11-10 · 8분40초",
+   "take": "'예쁜 색 ≠ 나를 빛내는 색', 웜(옐로 베이스)/쿨(블루 베이스) 정의, 사계절 구분",
+   "subs": "yt_subs/MZZ41R03Trw.txt"
+  }
+ ],
+ "news_note": "news_fulltext.py로 '퍼스널컬러 자가진단', '퍼스널컬러 진단 결과 다르다' 검색 → 기사 2건(perfectcorp.com 2026-06-02, 케이트렌디뉴스 2026-08-19) 본문 추출 실패(chars 0). 기사 수치는 쓰지 않음. 이 주제는 수치·제도형이 아니라 방법형이라 유튜브 자막을 1차 근거로 사용.",
+ "slides": [
+  {
+   "n": 1,
+   "els": [
+    {
+     "t": "box",
+     "x": 30,
+     "y": 24,
+     "w": 540,
+     "h": 580,
+     "fill": "photoA",
+     "note": "사진 자리: 가상 인물 왼쪽 반(따뜻한 조명)"
+    },
+    {
+     "t": "box",
+     "x": 510,
+     "y": 24,
+     "w": 540,
+     "h": 580,
+     "fill": "photoB",
+     "note": "사진 자리: 같은 가상 인물 오른쪽 반(차가운 조명)"
+    },
+    {
+     "t": "pill",
+     "x": 50,
+     "y": 600,
+     "w": 280,
+     "h": 84,
+     "fill": "warm",
+     "text": "A샵: 봄웜",
+     "size": 38,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[원본B @dew.color DZPrU9ph4Qa: '진단받는 곳마다 결과가 다르다면?'] → 서로 다른 결과 두 개를 전후비교 라벨로 시각화"
+    },
+    {
+     "t": "pill",
+     "x": 750,
+     "y": 600,
+     "w": 280,
+     "h": 84,
+     "fill": "cool",
+     "text": "B샵: 여름쿨",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[원본B @dew.color DZPrU9ph4Qa] + [YT2 원더은아 TiwXEhRBQU4 00:00 '여름 라이트와 가을 뮤트가 같이 나오는데요'] → 결과 엇갈림 예시(타입명은 일반 명칭)"
+    },
+    {
+     "t": "box",
+     "x": 70,
+     "y": 770,
+     "w": 420,
+     "h": 76,
+     "fill": "lime",
+     "text": "퍼컬 셀프진단 총정리",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[원본D @cosmopolitankorea C9WMggzSUKN (같은 분야 캐러셀) '스마트폰 하나로 퍼컬 자가 진단'] '퍼컬' 줄임말 + 규칙 B4 저장 장치 '총정리'"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 862,
+     "w": 960,
+     "h": 250,
+     "text": "같은 얼굴인데\n{결과가 매번 다른} 이유",
+     "size": 86,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "[원본B @dew.color DZPrU9ph4Qa: '같은 사람인데 진단받는 곳마다 결과가 다르다면?'] → '같은 얼굴인데 … 이유'로 압축, '곳마다'→'매번'(셀프 진단 포함)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1130,
+     "w": 740,
+     "h": 130,
+     "text": "나 웜톤이야 쿨톤이야?\n집에서 하는 6단계까지 (저장 필수)",
+     "size": 38,
+     "color": "soft",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[원본A @milkish.mag DUHceK3gROb: '나 웜톤이야 쿨톤이야?' 그대로] + [원본C @nanabaappofficial Da7ZyZ4z_0w: '집에서 사진 한 장으로'] → '집에서 하는' + [YT1 잼페이스 pr7k2zDQsr0 5가지 진단] 5→6단계(규칙 A2)"
+    },
+    {
+     "t": "char",
+     "x": 840,
+     "y": 1120,
+     "w": 200,
+     "h": 220,
+     "note": "Mr. Navy: 왼손엔 노란 천, 오른손엔 파란 천 들고 고개 갸웃(새끼손가락 살짝)"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "els": [
+    {
+     "t": "box",
+     "x": 70,
+     "y": 70,
+     "w": 380,
+     "h": 76,
+     "fill": "lime",
+     "text": "왜 매번 다를까?",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[원본B @dew.color DZPrU9ph4Qa 캡션 질문형] → 장 제목 라벨"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 140,
+     "text": "결과가 갈리는 {이유 4가지}",
+     "size": 80,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "[원본B @dew.color DZPrU9ph4Qa 보드 '퍼컬 오진 피하는 법' 1·2·3 (3항목)] → 4가지(+1, 규칙 A2)"
+    },
+    {
+     "t": "tree",
+     "x": 90,
+     "y": 345,
+     "w": 900,
+     "h": 150
+    },
+    {
+     "t": "circle",
+     "x": 40,
+     "y": 515,
+     "w": 232,
+     "h": 232,
+     "fill": "c1",
+     "text": "① 조명\n·필터",
+     "size": 33,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[YT2 원더은아 TiwXEhRBQU4 00:45 '조명 효과와 사진임을 감안하더라도'] + [YT1 잼페이스 pr7k2zDQsr0 03:45 '역광이 돌지 않게']"
+    },
+    {
+     "t": "circle",
+     "x": 300,
+     "y": 515,
+     "w": 232,
+     "h": 232,
+     "fill": "c2",
+     "text": "② 화장\n·컨디션",
+     "size": 33,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[원본D @cosmopolitankorea C9WMggzSUKN (같은 분야 캐러셀) '1️⃣맨 얼굴로 셀카 촬영!'] 역으로 → 화장이 결과를 흔드는 이유"
+    },
+    {
+     "t": "circle",
+     "x": 560,
+     "y": 515,
+     "w": 232,
+     "h": 232,
+     "fill": "c3",
+     "text": "③ 좋아하는\n색으로 고름",
+     "size": 29,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 01:30 '좋아하는 컬러와 잘 어울리는 컬러를 명확히 구분'] + [YT3 팽대표 MZZ41R03Trw 00:45 '예쁜 컬러를 골라서 입고 다녔거든요']"
+    },
+    {
+     "t": "circle",
+     "x": 818,
+     "y": 515,
+     "w": 232,
+     "h": 232,
+     "fill": "c4",
+     "text": "④ 웜·쿨\n둘 다 OK",
+     "size": 33,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 07:15 '웜 쿨이 모두 어울린다면 … 라이트 톤일 확률'] + [YT2 원더은아 TiwXEhRBQU4 02:15 '어떤 면을 보느냐에 따라 컬러 타입은 모두 다르게']"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 800,
+     "w": 960,
+     "h": 190,
+     "fill": "panel",
+     "text": "같은 사람도 빛 · 화장 · 보는 기준이 바뀌면\n다른 톤으로 보일 수 있어요",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT2 원더은아 TiwXEhRBQU4 02:15 '그 사람의 어떤 면을 보느냐에 따라 컬러 타입은 모두 다르게 나올 수 있습니다'] 쉬운 말로"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1020,
+     "w": 740,
+     "h": 70,
+     "text": "컬러 전문가 유튜브 3편 자막을 정리했어요",
+     "size": 28,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "YT1·YT2·YT3 자막 추출 근거 표기"
+    },
+    {
+     "t": "char",
+     "x": 830,
+     "y": 1040,
+     "w": 220,
+     "h": 290,
+     "note": "Mr. Navy: 원 4개를 손가락으로 가리킴"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "els": [
+    {
+     "t": "box",
+     "x": 70,
+     "y": 70,
+     "w": 280,
+     "h": 76,
+     "fill": "lime",
+     "text": "이유 ① ②",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "장 번호 라벨"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 220,
+     "text": "빛과 화장이 바뀌면\n{피부색도 달라 보여요}",
+     "size": 80,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "[YT2 원더은아 TiwXEhRBQU4 00:45 '조명 효과와 사진임을 감안하더라도'] + [원본D @cosmopolitankorea C9WMggzSUKN (같은 분야 캐러셀) '맨 얼굴로 셀카'] → 원인 2개를 한 문장으로"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 440,
+     "w": 960,
+     "h": 330,
+     "fill": "panel",
+     "text": "· 노란 조명 · 보정 필터 → 조명 색이 피부에 얹혀요\n· 역광이면 눈동자·머리색도 다르게 보여요\n· 파운데이션 · 톤업크림 → 원래 피부색을 가려요\n· 매장마다 조명이 다르면 결과도 흔들려요",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 03:45 '역광이 돌지 않게 거울을 위로 들어'] + [원본D @cosmopolitankorea C9WMggzSUKN (같은 분야 캐러셀) 맨얼굴 조건] / 1·3·4줄은 일반 원리(facts_to_verify)"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 820,
+     "w": 740,
+     "h": 200,
+     "fill": "lime",
+     "text": "준비물: 맨얼굴 · 낮 창가 자연광\n흰 티 · 머리 뒤로 묶기",
+     "size": 40,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 01:00 '진단 전 준비 사항'(자막 일부 깨짐: 의상·피부)] + [원본D @cosmopolitankorea C9WMggzSUKN (같은 분야 캐러셀) '맨 얼굴'] → 오늘 할 행동 1개(규칙 C5)"
+    },
+    {
+     "t": "char",
+     "x": 830,
+     "y": 1040,
+     "w": 220,
+     "h": 290,
+     "note": "Mr. Navy: 창가에서 커튼 걷는 중"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "els": [
+    {
+     "t": "box",
+     "x": 70,
+     "y": 70,
+     "w": 280,
+     "h": 76,
+     "fill": "lime",
+     "text": "이유 ③ ④",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "장 번호 라벨"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 220,
+     "text": "좋아하는 색 ≠\n{어울리는 색}",
+     "size": 86,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 01:30 '좋아하는 컬러와 잘 어울리는 컬러를 명확히 구분'] → 부등호로 압축"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 430,
+     "w": 960,
+     "h": 210,
+     "fill": "panel",
+     "text": "③ 마음에 드는 색 쪽으로 고르면 결과가 흔들려요\n→ '예쁜 색' 말고 '내 얼굴이 맑아 보이는 색'",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT3 팽대표 MZZ41R03Trw 00:45 '예쁜 컬러를 골라서 입고 다녔거든요 … 그 컬러가 나를 빛내주진 않더라구요'] 변형"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 670,
+     "w": 960,
+     "h": 250,
+     "fill": "panel",
+     "text": "④ 웜·쿨 둘 다 괜찮다면 세부톤일 수 있어요\n→ 밝고 화사한 색이 다 어울리면 '라이트' 가능성\n→ 분위기까지 보면 진단하는 사람마다 달라요",
+     "size": 33,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 07:15 '웜 쿨이 모두 어울린다면 … 라이트 톤일 확률이 높아요'] + [YT2 원더은아 TiwXEhRBQU4 01:30~02:15 '이미지를 같이 고려했을 때 판단하는 사람에 따라']"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 960,
+     "w": 740,
+     "h": 170,
+     "fill": "lime",
+     "text": "정답 1개보다\n'어떤 색이 날 살리는지'!",
+     "size": 40,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[YT2 원더은아 TiwXEhRBQU4 02:15 '단 하나의 정답을 찾는 것이 아니라 … 어떤 효과를 주는지'] + [원본B @dew.color DZPrU9ph4Qa '왜 그 컬러가 어울리는지 이해하는 것']"
+    },
+    {
+     "t": "char",
+     "x": 830,
+     "y": 1040,
+     "w": 220,
+     "h": 290,
+     "note": "Mr. Navy: 하트 표시된 옷걸이와 거울 사이에서 고민"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "els": [
+    {
+     "t": "box",
+     "x": 70,
+     "y": 70,
+     "w": 300,
+     "h": 76,
+     "fill": "lime",
+     "text": "STEP 1 · 2",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "장 번호 라벨"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 130,
+     "text": "얼굴 옆에 {색 대보기}",
+     "size": 88,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 02:15 '웜 쿨 색종이를 양쪽 얼굴 옆에 동시에 대고'] 압축"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 340,
+     "w": 465,
+     "h": 420,
+     "fill": "okpanel",
+     "text": "✔ 내 톤일 때\n\n혈색이 자연스럽고\n피부톤이 고르게\n결점이 덜 보임",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 02:45 '자연스러운 혈색이 돌고 피부톤이 균일하게 보이면 내 퍼스널 컬러에 가깝다'] / 비주얼 벤치 전후 분할 구도"
+    },
+    {
+     "t": "box",
+     "x": 555,
+     "y": 340,
+     "w": 465,
+     "h": 420,
+     "fill": "ngpanel",
+     "text": "✘ 안 맞을 때\n\n창백·회끼 or 누렇게\n다크서클이\n더 도드라짐",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 02:30 '다크서클 같은 결점이 도드라지며 얼굴이 창백하게 회끼가 돌거나 피부톤이 누렇게']"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 790,
+     "w": 960,
+     "h": 210,
+     "fill": "panel",
+     "text": "STEP 2  손 올려보기\n웜·쿨 색 위에 양손을 올리고 손이 더 고르고\n주름이 덜 보이는 쪽 체크",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 03:00 '양손을 동시에 올리고 … 손에 주름이 덜 부각되어 보이는 쪽'] + [원본A @milkish.mag DUHceK3gROb '손가락을 올리고 어느쪽 손가락이 더 화사해보이는지']"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1030,
+     "w": 750,
+     "h": 110,
+     "text": "색종이 없으면 노란끼 · 푸른끼 옷이나 천도 OK\n둘을 꼭 '동시에' 대고 비교하기",
+     "size": 30,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 02:15 '동시에'] 강조 + 대체물 제안(자체 팁)"
+    },
+    {
+     "t": "char",
+     "x": 830,
+     "y": 1040,
+     "w": 220,
+     "h": 290,
+     "note": "Mr. Navy: 노란 천·파란 천을 얼굴 양옆에 대고 거울 보기"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "els": [
+    {
+     "t": "box",
+     "x": 70,
+     "y": 70,
+     "w": 300,
+     "h": 76,
+     "fill": "lime",
+     "text": "STEP 3 · 4",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "장 번호 라벨"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 130,
+     "text": "파데 & {립으로 확인}",
+     "size": 88,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 03:00 파운데이션 진단 + 04:30 립스틱 진단] 두 항목 묶음"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 340,
+     "w": 960,
+     "h": 290,
+     "fill": "panel",
+     "text": "STEP 3  파운데이션 2색\n옐로 베이스 · 핑크 베이스를 턱선에 나란히\n→ 거울을 멀리 두고 덜 떠 보이는 쪽\n→ 손목에도 한 번 더 발라 비교",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 03:00~03:45 '옐로우 핑크 베이스의 파운데이션을 턱 쪽에 나란히 바른 뒤 거울을 멀리서 … 손목에도 한번 더']"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 660,
+     "w": 960,
+     "h": 290,
+     "fill": "panel",
+     "text": "STEP 4  립 2색 (선명한 색으로!)\n웜: 오렌지 레드  vs  쿨: 체리 레드\n→ 얼굴이 깨끗·화사해지면 내 쪽\n→ 회끼가 돌고 색만 둥둥 뜨면 반대쪽",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 04:30~05:15 '웜톤은 오렌지 레드 쿨톤은 체리 레드와 같이 선명한 컬러' / '회끼가 돌고 컬러만 둥둥 떠 보인다면']"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 990,
+     "w": 740,
+     "h": 150,
+     "fill": "lime",
+     "text": "연한 오렌지 · 핑크는\n오히려 헷갈려요!",
+     "size": 40,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 04:45 '밝은 오렌지와 핑크로 진단하는 경우가 많은데 … 오히려 헷갈릴 수 있어요']"
+    },
+    {
+     "t": "char",
+     "x": 830,
+     "y": 1040,
+     "w": 220,
+     "h": 290,
+     "note": "Mr. Navy: 립스틱 두 개를 양손에 들고 비교"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "els": [
+    {
+     "t": "box",
+     "x": 70,
+     "y": 70,
+     "w": 300,
+     "h": 76,
+     "fill": "lime",
+     "text": "STEP 5 · 6",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "장 번호 라벨"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 220,
+     "text": "머리카락 · 눈동자는\n{보조 체크}",
+     "size": 84,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 03:45~04:30 모발·홍채·혈관 진단] → 단독 판단 말고 '보조'로 낮춤(오진 방지)"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 430,
+     "w": 960,
+     "h": 170,
+     "fill": "panel",
+     "text": "STEP 5  모발 뿌리 쪽을 빛에 비춰보기\n밤색·노란빛 → 웜  /  붉은끼·회끼·검정 → 쿨",
+     "size": 32,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 03:45 '모발을 손가락 한마디 정도 들어 조명에 비췄을 때 짙은 밤색 갈 노란빛이 돈다면 웜톤 … 회끼 검은색에 가까우면 쿨톤']"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 625,
+     "w": 960,
+     "h": 170,
+     "fill": "panel",
+     "text": "STEP 6-1  눈동자: 역광 없이 거울을 위로\n밤색·카키 → 웜  /  적갈·그레이브라운 → 쿨",
+     "size": 32,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 04:00 '역광이 들지 않게 거울을 위로 들어 … 짙은 밤색 자연 갈색 카키색 웜 / 적갈색 그레이 브라운 검은색 쿨']"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 820,
+     "w": 960,
+     "h": 170,
+     "fill": "panel",
+     "text": "STEP 6-2  손목 안쪽 혈관 색\n청록·초록 → 웜  /  파랑·보라 → 쿨",
+     "size": 32,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 04:15~04:30 '청록색 초록색 … 웜톤 / 푸른색 보라색 혈관 … 쿨톤의 확률이 높습니다']"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 1020,
+     "w": 740,
+     "h": 150,
+     "fill": "lime",
+     "text": "6개 중 한쪽이 확실히 많으면\n그쪽 경향!",
+     "size": 38,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "자체 집계법(전문가 진단 대체 아님) + [YT1 잼페이스 pr7k2zDQsr0 '확률이 높습니다' 표현 유지]"
+    },
+    {
+     "t": "char",
+     "x": 830,
+     "y": 1040,
+     "w": 220,
+     "h": 290,
+     "note": "Mr. Navy: 돋보기로 머리카락 끝 관찰"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "els": [
+    {
+     "t": "box",
+     "x": 70,
+     "y": 70,
+     "w": 340,
+     "h": 76,
+     "fill": "lime",
+     "text": "헷갈림 오답노트",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 05:15 '잼풀들이 남긴 대표적인 질문'] → 오답노트 형식"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 130,
+     "text": "이건 {오해}예요",
+     "size": 92,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 05:45 '…생각하는데 아닙니다'] 압축"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 340,
+     "w": 960,
+     "h": 600,
+     "fill": "panel",
+     "text": "Q. 오렌지 립이 안 어울리면 쿨톤?\n→ 아니요. 가을웜은 오렌지브라운이 더 맞기도\n\nQ. 핑크 립이 안 어울리면 웜톤?\n→ 아니요. 핑크도 밝기·선명도마다 달라요\n\nQ. 피부가 어두운 편이면 무조건 웜톤?\n→ 아니요. 쿨톤일 수도 있어요\n\nQ. 금·은 주얼리로 판단?\n→ 반짝이는 소재라 기준 삼기 어려워요",
+     "size": 31,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 05:45~07:00 Q&A 4개(오렌지립·핑크립·까만 피부·주얼리)] 요약"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 980,
+     "w": 740,
+     "h": 160,
+     "fill": "lime",
+     "text": "톤은 단기간엔 안 바뀌어요\n(나이 들며 변할 순 있어요)",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[YT1 잼페이스 pr7k2zDQsr0 07:30~08:00 '노화가 진행되면 … 바뀔 수 있어요 / 단기간에 퍼스널 컬러가 바뀌기는 어려워요']"
+    },
+    {
+     "t": "char",
+     "x": 830,
+     "y": 1040,
+     "w": 220,
+     "h": 290,
+     "note": "Mr. Navy: 빨간 펜으로 X 표시"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "els": [
+    {
+     "t": "box",
+     "x": 70,
+     "y": 70,
+     "w": 360,
+     "h": 76,
+     "fill": "lime",
+     "text": "저장용 체크리스트",
+     "size": 36,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "규칙 B4 저장 장치"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 560,
+     "fill": "panel",
+     "text": "✔ 맨얼굴 · 낮 창가 자연광 · 흰 티\n\n✔ 색 대보기 + 손 올리기 (동시에!)\n\n✔ 파데 2색 · 립 2색 (선명한 색)\n\n✔ 모발 · 눈동자 · 혈관은 보조로만\n\n✔ 반반이면 세부톤 → 전문가 진단",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "3~8장 요약 + [YT1 잼페이스 pr7k2zDQsr0 07:30 '세부 톤인 분들은 자가진단으로는 정확히 판단하기 어려워서 전문가의 진단을 받아 보는걸 추천']"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 790,
+     "w": 760,
+     "h": 200,
+     "fill": "lime",
+     "text": "내 결과 헷갈리면\n댓글에 '퍼컬' 남겨주세요!",
+     "size": 46,
+     "color": "#111111",
+     "font": "title",
+     "align": "c",
+     "src": "[원본A @milkish.mag DUHceK3gROb '댓글에 웜톤 또는 쿨톤 남겨주시면 … DM으로'] + [원본C @nanabaappofficial Da7ZyZ4z_0w 댓글 6,000(댓글 유도형)] → 키워드 '퍼컬'"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1040,
+     "w": 740,
+     "h": 150,
+     "text": "참고: 잼페이스 · 컬러요정 원더은아 · 이미지 브랜더 팽대표\n(YouTube 자막) · 셀프 진단은 참고용 · 광고 아님",
+     "size": 26,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "D2 근거 표기 + 협찬 없음 표시"
+    },
+    {
+     "t": "char",
+     "x": 830,
+     "y": 1040,
+     "w": 220,
+     "h": 290,
+     "note": "Mr. Navy: 엄지척 + 찻잔(새끼손가락)"
+    }
+   ]
+  }
+ ],
+ "caption": "같은 얼굴인데 A샵은 봄웜, B샵은 여름쿨? 😵\n나 웜톤이야 쿨톤이야… 헷갈렸던 데는 이유가 있어요.\n\n결과가 갈리는 이유 4가지\n① 조명·필터 ② 화장·컨디션 ③ 좋아하는 색으로 고름 ④ 웜·쿨 둘 다 어울리는 세부톤\n\n집에서 하는 6단계\n1️⃣ 얼굴 옆에 웜·쿨 색 '동시에' 대보기\n2️⃣ 웜·쿨 색 위에 양손 올려보기\n3️⃣ 옐로·핑크 파운데이션 턱선에 나란히\n4️⃣ 오렌지 레드 vs 체리 레드 립 (선명한 색으로!)\n5️⃣ 모발 뿌리 빛에 비춰보기\n6️⃣ 눈동자 · 손목 혈관 색 (보조)\n\n✔ 맨얼굴 + 낮 창가 자연광 + 흰 티에서 하기\n✔ 반반이면 세부톤일 수 있어요 → 전문가 진단 추천\n\n셀프 진단은 참고용이에요. 정답 하나보다 '어떤 색이 내 얼굴을 맑게 해주는지'가 핵심!\n\n📌 잊기 전에 저장하고, 톤 궁금해하던 친구에게 공유하기\n👉 내 결과가 헷갈리면 댓글에 '퍼컬' 남겨주세요! 기록용 체크표 보내드려요\n\n(광고 아님 · 참고: 잼페이스, 컬러요정 원더은아, 이미지 브랜더 팽대표 YouTube)",
+ "attrib_caption": [
+  [
+   "같은 얼굴인데 A샵은 봄웜, B샵은 여름쿨?",
+   "원본B '같은 사람인데 진단받는 곳마다 결과가 다르다면?'"
+  ],
+  [
+   "나 웜톤이야 쿨톤이야",
+   "원본A 첫 줄 그대로"
+  ],
+  [
+   "6단계",
+   "YT1 자가진단 5가지 → 6(+1)"
+  ],
+  [
+   "📌 잊기 전에 저장하고 … 친구에게 공유하기",
+   "원본A '📌잊기전에 저장하고 🫶🏻궁금한 친구에게 공유하기'"
+  ],
+  [
+   "댓글에 '퍼컬'",
+   "원본A 댓글 키워드 DM CTA + 원본C 댓글 6,000"
+  ]
+ ],
+ "first_comment": "📌 결과 기록 팁: 6단계마다 '웜/쿨/모르겠음' 중 하나만 적어보세요. 한쪽이 확실히 많으면 그쪽 경향, 반반이면 세부톤일 수 있어요. 댓글로 결과 알려주시면 다음 편(톤별 립 고르는 법)에 반영할게요!",
+ "hashtags": "#퍼스널컬러 #퍼스널컬러자가진단 #웜톤 #쿨톤 #퍼컬 #퍼스널컬러진단 #웜톤쿨톤구별법 #톤그로 #셀프진단",
+ "dm": "'퍼컬' 댓글 → 6단계 셀프진단 기록용 체크표(웜/쿨/모르겠음 표기 + 준비물 체크) 이미지 1장 (제작 필요)",
+ "ad_disclosure": "협찬 없음 → 캡션·9장에 '광고 아님' 표기. 협찬 붙으면 표지 상단 '광고' 표기 + 캡션 첫 줄 '#광고' 추가",
+ "safety_notes": "의학적 주장 없음(혈관 색은 진단 참고용 '확률' 표현만, 시술·건강 효과 언급 없음). 실존 인물 얼굴·이름 미사용(YT2의 연예인 예시 제외), 사진은 가상 인물로 생성.",
+ "image_prompts": [
+  {
+   "n": 1,
+   "prompt": "1080x1350 vertical Instagram carousel cover, NO TEXT, no letters, no logos. Split-screen before/after composition exactly 50:50: the SAME fictional young Korean woman (not a real person, natural bare skin, hair tied back, plain white t-shirt), photo area is the top 43% only (580px), left half lit by warm yellowish tungsten light, right half lit by cool bluish daylight-fluorescent light, front-facing portrait, face fills that top area. Below it a solid to near-black (#141414) empty area for typesetting. Thin vertical seam between halves. Photorealistic, soft, clean. Small cute flat illustrated mascot 'Mr. Navy' (navy suit, round glasses, white round face) in bottom-right corner holding a yellow cloth and a blue cloth, head tilted, pinky finger raised."
+  },
+  {
+   "n": 2,
+   "prompt": "1080x1350 solid near-black (#141414) background, NO TEXT. Empty layout; only a tiny flat mascot 'Mr. Navy' (navy suit, round glasses) in bottom-right pointing up-left with his index finger. Minimal, flat vector style."
+  },
+  {
+   "n": 3,
+   "prompt": "1080x1350 near-black background, NO TEXT. Bottom-right: flat illustrated mascot 'Mr. Navy' (navy suit, round glasses) opening a curtain by a sunny window, soft daylight beam. Rest of canvas empty dark for text boxes."
+  },
+  {
+   "n": 4,
+   "prompt": "1080x1350 near-black background, NO TEXT. Bottom-right: flat mascot 'Mr. Navy' (navy suit, round glasses) standing between a clothing rack with a heart tag and a standing mirror, thinking pose, pinky raised. Rest empty."
+  },
+  {
+   "n": 5,
+   "prompt": "1080x1350 near-black background, NO TEXT. Bottom-right: flat mascot 'Mr. Navy' (navy suit, round glasses) holding a yellow cloth and a blue cloth on each side of his face, looking into a small hand mirror. Optional: two subtle color swatches (warm yellow, cool blue) as abstract shapes only, no letters."
+  },
+  {
+   "n": 6,
+   "prompt": "1080x1350 near-black background, NO TEXT. Bottom-right: flat mascot 'Mr. Navy' (navy suit, round glasses) holding two lipsticks, one orange-red and one cherry-red, comparing them. Rest empty."
+  },
+  {
+   "n": 7,
+   "prompt": "1080x1350 near-black background, NO TEXT. Bottom-right: flat mascot 'Mr. Navy' (navy suit, round glasses) examining a strand of hair with a magnifying glass against a light. Rest empty."
+  },
+  {
+   "n": 8,
+   "prompt": "1080x1350 near-black background, NO TEXT. Bottom-right: flat mascot 'Mr. Navy' (navy suit, round glasses) holding a big red marker drawing an X mark in the air. Rest empty."
+  },
+  {
+   "n": 9,
+   "prompt": "1080x1350 near-black background, NO TEXT. Bottom-right: flat mascot 'Mr. Navy' (navy suit, round glasses) giving a thumbs-up while holding a tea cup with pinky raised. Rest empty."
+  }
+ ],
+ "facts_to_verify": [
+  "3장 '노란 조명·보정 필터 → 조명 색이 피부에 얹힘', '톤업크림·파운데이션이 원래 피부색을 가림', '매장마다 조명이 다르면 결과도 흔들림'은 일반 원리로 쓴 문장(자막 직접 근거 없음) → 컬러 전문가 자료로 확인",
+  "3장 준비물(낮 창가 자연광·흰 티·머리 묶기): YT1 01:00 준비사항 자막이 깨져 있음('의상 해요 종영 피부') → 영상 01:00~01:30 직접 시청해 준비물 항목 확인",
+  "1장 'A샵: 봄웜 / B샵: 여름쿨'은 연출 예시(실제 사례 아님) → 그대로 쓸지 결정",
+  "7장 '6개 중 한쪽이 확실히 많으면 그쪽 경향'은 자체 집계법 → 전문가 기준 아님 표기 유지 여부",
+  "6장 립 기준 '웜=오렌지 레드, 쿨=체리 레드'는 YT1 1개 출처 → 다른 출처 1개 더 확인 권장",
+  "@nanabaappofficial 원본 임베드가 '삭제/링크 깨짐' → 게시물 생존 여부 확인 후 근거에서 유지·교체",
+  "폰트: Gmarket Sans Bold·Pretendard 렌더 PC 미설치 시 Noto Sans CJK로 미리보기됨 → 편집기에서 최종 폰트로 재확인"
+ ],
+ "format_note": "원본 형식: 같은 분야 상위는 릴스(A·B·C), 같은 형식 캐러셀 D는 2장. 원본 구조(B 보드 3항목·YT1 진단 5가지)를 이유 4가지(+1)·6단계(+1)로 늘려 9장 구성. 표지 비주얼은 다른 섹터 캐러셀(@ai_newpd) 전후 분할.",
+ "from_v3": "V3_08",
+ "style_ref": "PENDING_USER_STYLE"
+}

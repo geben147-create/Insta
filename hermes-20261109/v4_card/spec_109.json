@@ -1,0 +1,630 @@
+{
+ "id": "V4_109",
+ "title": "[리디자인 대기] 피부과 시술 전 꼭 물어볼 6가지 + 피해 시 대처 (6장)",
+ "canvas": [
+  1080,
+  1350
+ ],
+ "fonts": {
+  "title": "Gmarket Sans Bold",
+  "body": "Pretendard",
+  "fallback": "Noto Sans CJK KR"
+ },
+ "palette": {
+  "bg": "#EADBC8",
+  "ink": "#2B211C",
+  "red": "#E8312F",
+  "orange": "#FF8A3D",
+  "panel": "rgba(43,33,28,0.88)",
+  "cream": "#FFF6EA",
+  "soft": "#E9DED2",
+  "grey": "#6E5F55"
+ },
+ "metrics_note": "비주얼 벤치마크 @korea.abllife 표지(1080 폭 실측): 좌우 여백 약 70px(6.5%), 메인 제목 글자 크기 약 80px(폭의 7.4%)·행간 약 1.15, 소제목 약 44px, 글씨 블록은 화면 아래 30% 안쪽, 배경은 따뜻한 베이지 거실 3D 일러스트 + 걱정하는 3D 캐릭터가 중앙~오른쪽. 이를 1080x1350에 그대로 환산: 여백 60~70px, 제목 76~88px/lh 1.12~1.15, 본문 34~36px/lh 1.35, 어두운 반투명 패널(rgba 43,33,28,0.88)에 흰 글씨.",
+ "text_bench": [
+  {
+   "url": "https://www.instagram.com/reel/DdTm4HAAtOC/",
+   "who": "@jtbcnews",
+   "sector": "뷰티(피부과·시술) 뉴스 릴스",
+   "실측": "조회 약 317만(시트) · 댓글 1,354(임베드 표시)",
+   "take": "숫자 훅 '15분·143만원 → 깨어나 보니 9시간·1640만원' → 표지 서브 문구, 16개 항목 동의서·마취 기록 없음 → 질문 ①②"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DWGbq72Dz3l/",
+   "who": "@kbsnews",
+   "sector": "뷰티(피부과·시술) 뉴스 릴스",
+   "실측": "조회 약 103만(시트) · 댓글 121(임베드 표시)",
+   "take": "'미용 시술 빙자 프로포폴 끼워팔기' → 질문 ② 수면마취 필요성 확인"
+  },
+  {
+   "url": "https://www.instagram.com/p/DS6HxOqj6f2/",
+   "who": "@seria_980",
+   "sector": "뷰티(피부과·시술) 캐러셀(협찬 후기)",
+   "실측": "캐러셀 4장(점 4개) · 좋아요 약 800(시트) · 댓글 458(임베드)",
+   "take": "형식 기준(캐러셀 4장 → 6장, 규칙 A2) + 댓글 키워드 CTA '댓글로 \"정보\"' → '댓글에 \"체크\"'. 협찬 후기 톤은 반대로 뒤집어 '결제 전 질문'으로"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=s-5hgOyRUbM",
+   "who": "동네 의사 이상욱",
+   "sector": "유튜브",
+   "실측": "조회 972,317",
+   "take": "16:30~17:15 '나한테 꼭 필요한 관리인지 고민, 담당 원장님과 꼭 상담, 다른 병원도 비교 상담' → 질문 ⑤⑥"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=2zwxaYgVnjc",
+   "who": "박지윤의 피부 설명서",
+   "sector": "유튜브",
+   "실측": "조회 1,008,742",
+   "take": "00:45 '병원 옮기며 받은 시술 기록을 안 남겨 중복 시술, 싸 보여도 합치면 안 싸다' / 20대에게 불필요한 시술 사례 → 질문 ⑥ 기록 팁"
+  },
+  {
+   "url": "https://www.youtube.com/watch?v=wRJR2kY2x9w",
+   "who": "민카롱",
+   "sector": "유튜브",
+   "실측": "조회 1,816,088",
+   "take": "00:45 '부작용 없는 시술이라고 해서 결제', 02:15 다른 피부과에서 알레르기 반응 진단, 13:30 일주일째 회복 중 → 질문 ③ ('부작용 없다' 대신 '생기면 어떻게?')"
+  },
+  {
+   "url": "https://news.jtbc.co.kr/article/NB12318508",
+   "who": "JTBC 뉴스룸 2026.9.15",
+   "sector": "기사",
+   "실측": "본문 전문 확보",
+   "take": "7월 논현동, 143만원 동의 → 16개 시술·1,640만원 결제, 프로포폴·미다졸람, 960만원 원장 개인계좌 3회, CCTV 없는 시술실, '마취 기록 없다', A씨가 진료기록 요청해 확인, 경찰 고소 준비 (병원 측은 '동의 하에 안전하게' 반박)"
+  },
+  {
+   "url": "YTN 2025.6.20 똑똑한 소비생활 (Google News 경유)",
+   "who": "한국소비자원 윤현주 차장",
+   "sector": "기사",
+   "실측": "본문 전문 확보",
+   "take": "선납진료비 피해구제 2022 192건 → 2023 424 → 2024 453 → 2025 1분기 129건, 3년 1,198건 중 피부과 35.8%(429건), 해지·위약금 83.7%, '정가로 공제하면 돌려받을 금액이 거의 없다', '해지 제한 조항 있으면 계약하지 않는 것이 좋다', 제모 150만원 멤버십 환급 불가 사례"
+  },
+  {
+   "url": "https://www.mt.co.kr/thebio/2026/06/22/2026062216462984497",
+   "who": "머니투데이 2026.6.22",
+   "sector": "기사",
+   "실측": "본문 전문 확보",
+   "take": "상담실장 설명 믿었다가 피해, 입증 어려워 신고 포기, 리프팅 피해구제 연 14건, 의료소송 착수금 1,000만원 넘기도·피부미용 배상 100만~300만원 → 대처 장 '증거부터'"
+  }
+ ],
+ "visual_bench": [
+  {
+   "url": "https://www.instagram.com/p/DaAF0yqFkV2/",
+   "who": "@korea.abllife",
+   "sector": "건강·헬스 (카드뉴스 캐러셀, 5장)",
+   "실측": "좋아요 1,474 · 댓글 1,564 (임베드 표시) / 시트: 좋아요 1,400 · 댓글 1,500",
+   "take": "따뜻한 베이지 거실 3D 일러스트 + 땀 흘리며 걱정하는 3D 캐릭터(곰·꿀벌), 하단 30%에 흰 글씨 2단(작은 소제목 + 큰 제목), 좌측 정렬, 우상단 빨간 원형 라벨. → 피해자 사진 대신 Mr. Navy가 걱정하는 3D 장면, 아래 어두운 반투명 패널에 흰 제목, 빨간 라벨",
+   "screenshot_private": "refcaps_private/vb09_DaAF0yqFkV2_big.png"
+  }
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "els": [
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 60,
+     "w": 440,
+     "h": 80,
+     "fill": "red",
+     "text": "저장 필수 · 체크리스트",
+     "size": 36,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "abllife 우상단 빨간 원형 라벨 위치·색 → 좌상단으로 / ram.zee·V3_06 '정리본' 라벨 톤 / 규칙 B4 저장 장치"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 190,
+     "w": 660,
+     "h": 300,
+     "fill": "cream",
+     "text": "15분 · 143만원 시술\n깨어나 보니 9시간,\n결제는 {1,640만원}",
+     "size": 48,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.3,
+     "src": "[JTBC 캡션: '15분 정도 걸리는 143만원짜리 시술… 깨어나 보니 9시간이 흘렀고 결제 금액은 1640만원'] → 3줄로 압축, 금액만 강조(규칙 B3: 손실 숫자 앞에)"
+    },
+    {
+     "t": "char",
+     "x": 804,
+     "y": 1021,
+     "w": 240,
+     "h": 305,
+     "note": "Mr. Navy 3D: 영수증 두루마리가 바닥까지 길게 늘어진 걸 보고 땀 흘리며 놀람, 한 손엔 찻잔(새끼손가락)"
+    },
+    {
+     "t": "box",
+     "x": 30,
+     "y": 660,
+     "w": 758,
+     "h": 440,
+     "fill": "panel",
+     "text": "피부과 시술 전\n{꼭 물어볼 6가지}",
+     "size": 100,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "[abllife 표지 하단 흰 제목 2줄 구조] + [V3_06 '4총사 정리' → 개수 제목] / 개수 6 = JTBC·KBS(①②) + 민카롱(③) + 소비자원(④) + 머니투데이·이상욱(⑤⑥)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1130,
+     "w": 728,
+     "h": 90,
+     "text": "+ 피해 났을 때 {대처 4단계}",
+     "size": 50,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "src": "주제 후반부. JTBC 'A씨는 진료기록 요청해 확인…경찰 고소 준비' + 소비자원·머니투데이 절차를 단계로"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1240,
+     "w": 728,
+     "h": 60,
+     "text": "출처: JTBC 뉴스룸 2026.9.15 · KBS · 한국소비자원 · 머니투데이",
+     "size": 26,
+     "color": "grey",
+     "font": "body",
+     "align": "l",
+     "src": "규칙 F: 확인된 숫자의 출처 표기"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "els": [
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 60,
+     "w": 360,
+     "h": 80,
+     "fill": "red",
+     "text": "결제 전 질문 ①②",
+     "size": 36,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "번호 라벨(V3_06 ①②③ 라벨 구조)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 170,
+     "w": 690,
+     "h": 300,
+     "text": "돈·마취 얘기는\n{시술 전에}\n끝내기",
+     "size": 76,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "JTBC: 결제·서명이 전부 시술실(마취 후)에서 이뤄짐 → '시술 전에' 핵심 행동으로 (규칙 C5)"
+    },
+    {
+     "t": "char",
+     "x": 804,
+     "y": 1021,
+     "w": 240,
+     "h": 305,
+     "note": "Mr. Navy 3D: 계산서를 한 줄씩 손가락으로 짚으며 확인"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 520,
+     "w": 960,
+     "h": 350,
+     "fill": "panel",
+     "text": "{① 오늘 받을 시술·총액,\n항목별로 적어 주세요}\n· 143만원 동의 → 16개 항목 1,640만원 결제 사례\n· 회원권·추가 시술 권유엔 \"오늘은 이것만요\"",
+     "size": 40,
+     "color": "#FFFFFF",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.4,
+     "src": "[JTBC 본문: '143만원 상당 시술 동의서', '회원권 등록을 권유했지만 거절', '16개 시술 항목과 수액, 주사, 화장품들이 빼곡히', '1640만원'] → 질문형으로 + 거절 문장 그대로('그냥 저는 이것만 하겠습니다' → '오늘은 이것만요')"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 900,
+     "w": 728,
+     "h": 350,
+     "fill": "panel",
+     "text": "{② 수면마취 꼭 필요한가요?\n누가 지켜보고, 기록 남나요?}\n· 마취 뒤 서명은 판단이 흐려진 상태일 수 있어요\n· 미용 시술 빙자 프로포폴 끼워팔기 보도(KBS)",
+     "size": 40,
+     "color": "#FFFFFF",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.4,
+     "src": "[JTBC: '마취 기록이 없기 때문에', '수면마취 뒤 받은 서명은 낙서처럼 삐뚤빼뚤', 프로포폴·미다졸람 포함] + [KBS 캡션: '미용 시술을 빙자해 프로포폴을 사실상 끼워 팔고'] → 질문 + 근거 2줄. 의료 판단(마취 필요 여부)은 단정하지 않고 '물어보기'로만"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "els": [
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 60,
+     "w": 360,
+     "h": 80,
+     "fill": "red",
+     "text": "결제 전 질문 ③④",
+     "size": 36,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "번호 라벨"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 170,
+     "w": 690,
+     "h": 300,
+     "text": "부작용·환불\n{말로만 듣지}\n말기",
+     "size": 76,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "민카롱 00:45 '부작용 없는 시술이다 라고 해서 결제' + 소비자원 '계약 구성·조건·세부 비용 미리 확인' → '말로만 듣지 말기'"
+    },
+    {
+     "t": "char",
+     "x": 804,
+     "y": 1021,
+     "w": 240,
+     "h": 305,
+     "note": "Mr. Navy 3D: 계약서를 돋보기로 들여다봄"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 520,
+     "w": 960,
+     "h": 350,
+     "fill": "panel",
+     "text": "{③ 부작용 생기면\n어떻게 해 주시나요?}\n· \"부작용 없다\" 듣고 결제 → 알레르기 반응 후기\n· 연락처·재방문 조치·추가 비용 미리 확인",
+     "size": 40,
+     "color": "#FFFFFF",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.4,
+     "src": "[민카롱 00:45 '부작용은 없고… 해서 흔쾌히 결제', 02:15 '알러지 반응이 심하게 올라온 것 같다', 13:30 일주일째 주사 치료] → '없나요?' 대신 '생기면 어떻게?'로 질문 전환. 시술명·병원명 미표기"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 900,
+     "w": 728,
+     "h": 350,
+     "fill": "panel",
+     "text": "{④ 중간에 해지하면\n얼마 돌려받나요?}\n· 받은 회차를 '정가'로 빼면 환급이 거의 0원\n· '환불 불가' 조항 있으면 계약 보류(소비자원)",
+     "size": 40,
+     "color": "#FFFFFF",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.4,
+     "src": "[YTN·소비자원: '정가로 이행된 시술비를 공제하면 돌려받을 금액이 거의 없어', '해지를 제한하는 조항… 해당 의료기관과는 계약을 체결하지 않는 것이 좋다', 제모 멤버십 150만원 환급 불가 사례] → 2줄 요약"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "els": [
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 60,
+     "w": 360,
+     "h": 80,
+     "fill": "red",
+     "text": "결제 전 질문 ⑤⑥",
+     "size": 36,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "번호 라벨"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 170,
+     "w": 690,
+     "h": 300,
+     "text": "누가 하는지,\n{왜 하는지}\n묻기",
+     "size": 76,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "이상욱 17:15 '담당 원장님과 꼭 상담' + 16:30 '나한테 꼭 필요한 관리인지' → 2축 제목"
+    },
+    {
+     "t": "char",
+     "x": 804,
+     "y": 1021,
+     "w": 240,
+     "h": 305,
+     "note": "Mr. Navy 3D: 두 개의 상담 카드 중 하나를 고르며 고민"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 520,
+     "w": 960,
+     "h": 350,
+     "fill": "panel",
+     "text": "{⑤ 의사 선생님과 직접\n상담할 수 있나요?}\n· 상담실장 설명만 믿었다가 피해 호소(머니투데이)\n· 시술하는 의사·상담한 사람 이름 메모",
+     "size": 40,
+     "color": "#FFFFFF",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.4,
+     "src": "[머니투데이: '상담실장이 지방 소실이 없는 리프팅 시술이라고 해 이를 믿었지만'] + [이상욱 17:15 '단 꼭 의사 선생하고 상담을 꼭 하시는 거'] → 질문 + 메모 행동"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 900,
+     "w": 728,
+     "h": 350,
+     "fill": "panel",
+     "text": "{⑥ 이 시술, 지금 저한테\n꼭 필요한가요?}\n· 애매하면 다른 곳 비교 상담도 OK(의사 유튜버)\n· 받은 시술·날짜 기록 → 중복 시술 막기",
+     "size": 40,
+     "color": "#FFFFFF",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.4,
+     "src": "[이상욱 17:15 '갸우뚱 하면 다른 병원가서 상담 받아보시면서 비교'] + [박지윤 00:45 '내가 어떤 시술을 얼마나 했는지 기록을 안 해 겹치는 중복 시술'] → 행동 2개"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "els": [
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 60,
+     "w": 420,
+     "h": 80,
+     "fill": "red",
+     "text": "피해 났다면 이 순서로",
+     "size": 36,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "주제 후반 '피해 시 대처' / 순서형"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 170,
+     "w": 690,
+     "h": 220,
+     "text": "따지기 전에\n{증거부터}",
+     "size": 80,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "[머니투데이: '입증이 어렵고… 신고를 하지 않고 그냥 넘겼다', 환자가 입증해야 하는 구조] → '증거부터'"
+    },
+    {
+     "t": "char",
+     "x": 804,
+     "y": 1021,
+     "w": 240,
+     "h": 305,
+     "note": "Mr. Navy 3D: 서류 파일철을 품에 안고 체크리스트에 체크"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 500,
+     "w": 960,
+     "h": 170,
+     "fill": "panel",
+     "text": "{1 기록 받기}  진료기록·동의서·영수증 사본 요청",
+     "size": 38,
+     "color": "#FFFFFF",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[JTBC: 'A씨는 병원측에 진료 기록을 요청해 확인… 16개 시술 항목'] → 첫 단계. 사본 발급 근거 조항은 facts_to_verify"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 690,
+     "w": 960,
+     "h": 170,
+     "fill": "panel",
+     "text": "{2 증거 저장}  날짜별 사진·문자·결제내역 캡처",
+     "size": 38,
+     "color": "#FFFFFF",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[JTBC: 960만원 원장 개인계좌 3회 송금, 병원-A씨 대화 녹취] + [민카롱: 날짜별 피부 상태 기록] → 증거 3종"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 880,
+     "w": 960,
+     "h": 170,
+     "fill": "panel",
+     "text": "{3 돈·환불}  1372 상담 → 한국소비자원 피해구제",
+     "size": 38,
+     "color": "#FFFFFF",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "[YTN·소비자원: 선납진료비 피해구제 3년 1,198건, 피부과 429건(35.8%)] → 창구 안내. 1372 번호는 facts_to_verify"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 1070,
+     "w": 728,
+     "h": 170,
+     "fill": "panel",
+     "text": "{4 부작용·사고}  의료분쟁조정중재원\n범죄 의심(동의 없는 결제·투약) → 경찰",
+     "size": 34,
+     "color": "#FFFFFF",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.35,
+     "src": "[머니투데이: 한국의료분쟁조정중재원 언급] + [JTBC: 'A씨는 경찰에 고소를 준비 중'] → 창구 2갈래. 법률 판단은 단정하지 않음"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1255,
+     "w": 728,
+     "h": 70,
+     "text": "미용 배상액 100~300만원인데 소송 착수금은 1,000만원 넘기도 (머니투데이)",
+     "size": 26,
+     "color": "grey",
+     "font": "body",
+     "align": "l",
+     "src": "머니투데이 강태언 의료소비자연대 사무총장 발언 그대로"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "els": [
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 60,
+     "w": 420,
+     "h": 80,
+     "fill": "red",
+     "text": "캡처해서 들고 가기",
+     "size": 36,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "규칙 B4 저장 장치 → 현장에서 쓰는 행동으로"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 170,
+     "w": 690,
+     "h": 220,
+     "text": "{결제 전}\n6문장 체크",
+     "size": 80,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "요약 장 (V3_06 7장 '받기 전 꼭 체크' 구조)"
+    },
+    {
+     "t": "char",
+     "x": 804,
+     "y": 1021,
+     "w": 240,
+     "h": 305,
+     "note": "Mr. Navy 3D: 엄지척 + 찻잔(새끼손가락)"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 500,
+     "w": 960,
+     "h": 450,
+     "fill": "cream",
+     "text": "☐ 시술·총액, 항목별로 적어 주세요\n☐ 수면마취 꼭 필요한가요? 기록 남나요?\n☐ 부작용 생기면 어떻게 해 주시나요?\n☐ 중간 해지 시 얼마 돌려받나요?\n☐ 의사 선생님과 직접 상담할 수 있나요?\n☐ 지금 저한테 꼭 필요한 시술인가요?",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.55,
+     "src": "2~4장 질문 6개 원문 축약"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 980,
+     "w": 760,
+     "h": 200,
+     "fill": "panel",
+     "text": "질문 리스트 PDF 필요하면\n댓글에 {'체크'} 남겨주세요",
+     "size": 44,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "lh": 1.3,
+     "src": "[seria_980 캡션: '병원정보가 궁금하신분들은 댓글로 \"정보\"라고 달아주세요'] → 병원 홍보 대신 질문 리스트로 바꿈 (특정 병원 언급 금지)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1200,
+     "w": 728,
+     "h": 120,
+     "text": "특정 병원과 무관한 소비자 정보예요. 시술 여부·방법은 전문의 상담으로.\n출처: JTBC 2026.9.15 · KBS · 한국소비자원(YTN 2025.6.20) · 머니투데이 2026.6.22",
+     "size": 24,
+     "color": "grey",
+     "font": "body",
+     "align": "l",
+     "lh": 1.4,
+     "src": "규칙 F: 의료·법률 단정 금지 고지 + 출처"
+    }
+   ]
+  }
+ ],
+ "caption": "15분짜리 143만원 시술이 1,640만원이 됐다는 보도(JTBC) 보셨나요?\n결제·서명이 전부 수면마취 뒤에 이뤄졌다는 게 핵심이었어요.\n\n그래서 결제 전에 꼭 물어볼 6가지 정리했어요 👇\n① 오늘 받을 시술·총액, 항목별로 적어 주세요\n② 수면마취 꼭 필요한가요? 누가 지켜보고 기록 남나요?\n③ 부작용 생기면 어떻게 해 주시나요?\n④ 중간에 해지하면 얼마 돌려받나요?\n⑤ 의사 선생님과 직접 상담할 수 있나요?\n⑥ 이 시술, 지금 저한테 꼭 필요한가요?\n\n피해가 났다면 따지기 전에 증거부터\n1 진료기록·동의서·영수증 사본 → 2 사진·문자·결제내역 → 3 돈·환불은 1372·한국소비자원 → 4 부작용·사고는 의료분쟁조정중재원\n\n소비자원에 접수된 선납 진료비 피해 3년 1,198건 중 피부과가 429건(35.8%)으로 가장 많았대요.\n\n📌 특정 병원과 무관한 소비자 정보예요. 시술 여부는 전문의와 상담하세요.\n👉 질문 리스트 PDF 필요하면 댓글에 '체크' 남겨주세요!",
+ "first_comment": "📌 표지 사례는 JTBC 2026.9.15 보도 속 피해 주장이고, 병원 측은 '모든 시술은 동의 하에 이뤄졌다'고 반박했어요. 여러분은 결제 전에 어떤 질문 해보셨어요? 댓글로 같이 채워봐요.",
+ "hashtags": "#피부과 #피부과시술 #시술전체크 #수면마취 #피부과환불 #선결제주의 #소비자원 #의료분쟁 #뷰티정보",
+ "dm": "'체크' 댓글 → 질문 6개 + 피해 대처 4단계 1장 PDF (휴대폰 캡처용 세로형, 제작 필요)",
+ "image_prompts": {
+  "common": "1080x1350 vertical card background, NO TEXT, NO LETTERS, NO LOGOS anywhere. Style: soft cozy 3D render like a friendly insurance/health brand Instagram card — warm beige living room / calm clinic waiting lounge, soft daylight, rounded clay-like 3D characters. Main character is Mr. Navy (attach character sheet): round head, round glasses, navy suit, always holding a tea cup with pinky finger raised somewhere in the scene. No real people, no patients, no injury or blood, no needles close-up, no hospital names or signage. Keep the lower 60% calm and slightly darker (text panels will be added later).",
+  "1": "Mr. Navy standing at upper-right, sweating and shocked, looking at an extremely long paper receipt that unrolls from his hand down to the floor and across the room; small sleep-mask and wall clock showing late night in the background as subtle hints. Upper-left area plain beige wall for a cream text box.",
+  "2": "Mr. Navy at upper-right, calmly pointing a finger at a bill line by line with a pen, sitting at a small consultation table; tea cup with pinky raised beside. Upper-left plain beige wall.",
+  "3": "Mr. Navy at upper-right looking through a large magnifying glass at a thick contract document; a tiny worried 3D bee mascot peeking from behind. Upper-left plain beige wall.",
+  "4": "Mr. Navy at upper-right holding two consultation cards (blank, no text) in both hands, tilting head thoughtfully, small question-mark shaped cushion nearby. Upper-left plain beige wall.",
+  "5": "Mr. Navy at upper-right hugging a folder of documents and a phone, checking items off a blank clipboard with confident expression; organized document trays in background. Upper-left plain beige wall.",
+  "6": "Mr. Navy at upper-right giving a thumbs-up, other hand holding tea cup with pinky raised, relaxed smile; blank notepad on table. Upper-left plain beige wall."
+ },
+ "facts_to_verify": [
+  "JTBC 사례는 피해자 주장 + 병원 반박이 공존하는 단계(경찰 고소 '준비 중', 2026.9.15 기준) — 이후 수사·후속 보도 확인 후 표현 유지 여부 결정",
+  "KBS 프로포폴 끼워팔기: 릴스 캡션만 확인, KBS 기사 본문·보도일 미확보(news.kbs.co.kr 검색 결과 '페이지 없음') → 원문 날짜·내용 확인 필요",
+  "진료기록 사본 발급: 의료법 제21조(환자 본인 요청 시 열람·사본 발급) 조문·발급 수수료 확인",
+  "1372 소비자상담센터 번호, 한국의료분쟁조정중재원 대표번호(1670-2545로 알려짐) 및 신청 방법(온라인) 최신 확인 — 카드엔 번호 1372만 표기",
+  "선납진료비 통계는 2025.6.20 YTN 인터뷰 기준(2022~2025.1분기). 2026년 최신 통계 있으면 교체",
+  "'환불 불가' 약관 공정위 시정 보도(코메디닷컴 2026.7.24, 한겨레·연합) 본문은 사이트 차단(WAF)으로 미확보 — 확인되면 ④에 '공정위 시정' 근거 추가 가능",
+  "소비자분쟁해결기준상 피부과 다회권 환급 계산(정가 vs 할인가 공제) 현행 기준 확인",
+  "민카롱 영상은 2022.8 업로드(오래된 사례) — 시술명·병원명은 의도적으로 미표기",
+  "@korea.abllife 장 수 5장은 임베드 점(dot) 기준 추정"
+ ],
+ "from_v3": "V3_09",
+ "style_ref": "PENDING_USER_STYLE"
+}

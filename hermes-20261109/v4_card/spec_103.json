@@ -1,0 +1,1070 @@
+{
+ "id": "V4_103",
+ "title": "[리디자인 대기] AI 그림으로 부업, 팔기 전에 확인할 것 — 실제 판매 방식 4 + 권리·세금 (10장)",
+ "canvas": [
+  1080,
+  1350
+ ],
+ "fonts": {
+  "title": "Gmarket Sans Bold",
+  "body": "Pretendard",
+  "fallback": "Noto Sans CJK KR"
+ },
+ "palette": {
+  "bg": "#FFFFFF",
+  "ink": "#222222",
+  "red": "#E5484D",
+  "orange": "#E8590C",
+  "memo": "#FFF4C2",
+  "bubble": "#FFFFFF",
+  "c1": "#FFD6D6",
+  "c2": "#D6ECFF",
+  "c3": "#E3F7D4",
+  "c4": "#EDE0FF",
+  "gray": "#777777"
+ },
+ "metrics_note": "비주얼 벤치마크(@seungatoon_pharm 약사툰 낙서형 캐러셀) 실측을 1080px 기준으로 환산: 좌우 여백 약 5%(=56~60px), 손글씨 한 줄 글자 높이 약 폭의 5.5%(=60px) → 본문 강조 문구 크기 기준, 줄 간격 약 1.6배(줄 사이 여백 넉넉), 선 굵기 약 3px@540 → 6px@1080 대신 테두리 5px, 흰 배경 + 검정 선 + 색 최소화(강조 1색). 말풍선은 흰 바탕·검정 테두리(만화 말풍선). 손글씨 폰트가 필요하면 Canva에서 제목만 손글씨체로 바꿔 비교(규칙 G4 기본은 Gmarket Sans/Pretendard 유지).",
+ "visual_bench": [
+  {
+   "url": "https://www.instagram.com/p/DdDr92zEnZV/",
+   "who": "@seungatoon_pharm",
+   "sector": "건강·헬스 (약사툰, 카드뉴스/캐러셀)",
+   "실측": "좋아요 11,110 (임베드 2026-11-09) · 시트 댓글 78 · 1장 이상 캐러셀",
+   "take": "흰 배경 + 검정 낙서 선 캐릭터 + 문장형 손글씨, 글 위·캐릭터 아래 배치, 여백 많음, 화살표 하나로 시선 유도. '그림 못 그려도 된다'는 주제와 맞게 일부러 '서툰 낙서' 톤을 빌림 (영상 Y1 03:45 '이 정도는 여러분 다 그릴 수 있잖아요'와 연결). 같은 분야 원본(@sdk.kim.builds·@ai.trend.kr)의 어두운 사진+흰 고딕 제목은 따라 하지 않음(규칙 A3-1)."
+  }
+ ],
+ "text_bench": [
+  {
+   "url": "https://www.instagram.com/reel/DYhGnLtyQaV/",
+   "who": "@ai_creatorart",
+   "sector": "AI창업·수익화 (릴스)",
+   "실측": "조회 184,000 · 좋아요 1,700 · 댓글 14,000 (시트 claude_전체DB 1719행, 2026-05-19 게시). 2026-11-09 임베드 재확인 시 '게시물이 삭제됐거나 링크가 깨짐' → 캡션은 시트 기록 기준",
+   "take": "고백형 훅 '챗GPT로 그림 팔았어요 저는 진짜로 그림 못 그립니다 그래서 그림으로 돈버는 건 남 얘기인 줄 알았거든요' → 표지 '그림 못 그려도'"
+  },
+  {
+   "url": "https://www.instagram.com/p/DfD44s4iIxL/",
+   "who": "@sdk.kim.builds",
+   "sector": "AI창업·수익화 (캐러셀 8장)",
+   "실측": "좋아요 195 · 댓글 1,232 (임베드 2026-11-09), 슬라이드 점 8개",
+   "take": "'만들어 파는 쪽은 어떨까요 → 실제 플랫폼·금액 사례' 구조 + '미리 알아둘 것도 있어요. 수익 사례는 본인이 공개한 것이라 누구나 같은 금액을 받는다는 뜻은 아니에요' 주의 문장 → 2~6장 방식별 사례 + 금액은 '영상 속 주장' 표기. 장 수 8 → 10 (규칙 A2)"
+  },
+  {
+   "url": "https://www.instagram.com/p/DeGTVfhjw8v/",
+   "who": "@ai.trend.kr",
+   "sector": "AI창업·수익화 (캐러셀, 영상 위주)",
+   "실측": "좋아요 1,405 · 댓글 860 (임베드 2026-11-09)",
+   "take": "표지 물음형 'AI 캐릭터로 200만 원? 해외 신종 수익화 방법' + 캡션 '조건은 캠페인마다 다르니 꼭 확인해 보세요' + 댓글 키워드 CTA('캐릭터') → 표지 물음표, 5장 '판매처 규정 확인', 마지막 장 '부업' 댓글 CTA"
+  }
+ ],
+ "youtube": [
+  {
+   "key": "Y1",
+   "url": "https://www.youtube.com/watch?v=DBGfHRzI33M",
+   "who": "성장하는 사람들",
+   "title": "그림 아예 못 그리지만, 챗GPT로 그림 만들어서 인스타 부업으로 1년에 4억씩 버는 주부의 하루",
+   "views": "531,335 (yt-dlp 2026-11-09)",
+   "tips": "01:30 캐릭터 6개를 만들어 '도장처럼' 재사용 / 02:15 콘텐츠 1개 1.5~2시간, AI로는 2~3분 / 03:45 본인 손그림 수준 공개 / 04:30 홈택스 화면: 작년 약 4억 2~3천(영상 속 주장) / 05:15 팔로워 1만 미만도 협찬 사례 주장 / 06:45 수익화(광고주) 생각하고 주제·컨셉 먼저 / 07:30~09:00 GPT로 주제 찾기 → 대본 → 그림 / 10:30 AI툰 10개 올려 광고 3건 주장 / 15:00 무료 라이브·PDF 판매 유도(강의 판매 영상임 유의)"
+  },
+  {
+   "key": "Y2",
+   "url": "https://www.youtube.com/watch?v=keFQhcF8ul4",
+   "who": "돈 버는 사람들",
+   "title": "AI가 만든 그림 팔아서 건당 150 버는 89년생 여자 | 부업",
+   "views": "55,032 (yt-dlp 2026-11-09)",
+   "tips": "02:15 부수입 월 약 500 왔다갔다(영상 속 주장) / 04:30 쿠팡 진출 농장 상세페이지 1건 100~150만원(영상 속 주장), 재구매 많음 / 05:15 1차 시안 '예상 작업시간 + 하루' 여유 두고 약속 / 05:15~06:45 챗GPT로 섹션(도시락 칸) 기획 → 기존 템플릿에 글·이미지 교체 / 06:45~08:15 참고 이미지 캡처해 챗GPT·미드저니에 첨부해 생성 / 08:15~09:00 포토샵 생성형 채우기로 배경 / 09:45 섹션 1개 몇만~20만원(영상 속 주장) / 10:30~11:15 4·50대 비전공자도 많다는 주장"
+  },
+  {
+   "key": "Y3",
+   "url": "https://www.youtube.com/watch?v=nK61PcgCmO0",
+   "who": "Art ClasShoo 클라슈",
+   "title": "Ai 그림 판매자 인터뷰 / 판매자의 반전. 끝까지 보세요",
+   "views": "116,323 (yt-dlp 2026-11-09)",
+   "tips": "01:30~02:15 스테이블 디퓨전(본인 그래픽카드)·노벨AI / 02:15 의뢰인이 원하는 이미지를 빠르게 뽑아 주는 의뢰 작업 / 03:00 손가락은 인페인팅으로 부분 재생성, LoRA / 03:45 잘 안 나오면 몇 시간~며칠 '노가다' / 04:30 '연예인 이미지 학습시켜 달라'는 요청도 옴 / 06:00~06:45 AI만으로는 수입 크지 않고 직접 그림 작업 보조로 씀, 'AI 그림만 뽑아내는 건 한계' / 09:00 저작권법 정해진 게 없어 지켜봐야 한다는 판매자 인식"
+  }
+ ],
+ "news": [
+  {
+   "key": "N1",
+   "url": "https://lawtalknews.co.kr/article/TD4FG0VG50V7",
+   "who": "로톡뉴스 2026-10-28",
+   "title": "아이돌 AI 커버·AI 그림·유명인 챗봇, 어디까지 저작권 침해일까",
+   "facts": "그림체·화풍 자체는 아이디어라 보호 대상 아님 / 특정 작가의 특정 작품을 실질적으로 복제한 수준이면 표절·2차적저작물작성권 침해 여지 / 유명인 이름·얼굴·목소리를 허락 없이 영업에 이용 → 부정경쟁방지법 제2조제1호 (타)목(퍼블리시티권, 2021.12 신설·2022.6 시행) / 무료로 올려도 침해 여부와 별개, 수익화하면 더 무거워짐 / 사람의 창작적 기여가 거의 없으면 굿즈·전자책으로 팔아도 저작권 보호 못 받을 위험 / AI 학습·생성물 저작권은 법원·입법 미정리"
+  },
+  {
+   "key": "N2",
+   "url": "https://www.etnews.com/20260617000142",
+   "who": "전자신문 2026-06-17 (한국저작권위원회 공동 기획, 문체부·저작권위 '생성형 AI 저작권 안내서' 인용)",
+   "title": "[사례로 보는 저작권]〈1〉AI가 만든 콘텐츠도 내 창작물로 등록할 수 있을까?",
+   "facts": "인간의 창작적 기여 없는 AI 산출물은 저작권 등록 불가 / 인정되는 3가지: ①내 저작물을 프롬프트로 넣어 그 창작성이 결과물에 나타난 경우 ②수정·증감 추가 작업 ③선택·배열·구성(편집저작물, 개별 AI 산출물에는 효력 X) / 색 조금 조정 같은 '사소한 개변'은 인정 어려움 / AI 산출물을 사람이 만든 것처럼 속여 등록하면 저작권법 제136조 제2항 제2호로 처벌 가능, 직권 말소 / 2022.11 시를 프롬프트로 만든 AI 영상 등록 반려"
+  },
+  {
+   "key": "N3",
+   "url": "https://weekly.donga.com/economy/article/all/11/6387937/1",
+   "who": "주간동아 2026-09-15",
+   "title": "인기 부업으로 뜨는 AI 활용 이모티콘, 저작권 침해 소송 땐 다툼 가능성",
+   "facts": "카카오 이모티콘: AI 활용 이모티콘 출품 원칙적 금지 유지 / 네이버 OGQ마켓: 출품 가능, 'AI 미사용·AI 활용(일부)·AI 생성(전부)' 3단계 중 선택, 기여도 따라 정산 비율 다르고 판매 페이지에 표시 / 사례: 강씨(48) 챗GPT로 이모티콘, '수익이 몇천 원' / 김씨(34) 예전엔 한 달, AI로 하루 / 변호사: 인간 기여 있으면 상업 라이선스 문제없음, 소송 시 피고는 AI 개발사와 창작자로 좁혀질 가능성"
+  },
+  {
+   "key": "N4",
+   "url": "https://www.hinews.co.kr/view.php?ud=202602081103436116cd8b879b3c_48",
+   "who": "하이뉴스 2026-02-08",
+   "title": "프리랜서·1인 사업자·N잡러, 3.3%만 믿었다가 세금 폭탄 맞는다",
+   "facts": "직장인 겸업 소득도 자동 정산 안 됨 → 종합소득세(5월) 본업과 합산 신고 / 3.3% 원천징수는 '미리 낸 세금', 부족분 추가 납부 / 누락 시 가산세 / 경비 증빙(재료비·온라인 서비스 비용 등) / 과세표준 1,400만원 이하 6%, 5,000만원 이하 15% 누진"
+  }
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "els": [
+    {
+     "t": "box",
+     "x": 290,
+     "y": 70,
+     "w": 500,
+     "h": 84,
+     "fill": "red",
+     "line": 5,
+     "text": "AI 부업 정리본.zip",
+     "size": 40,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "@ram.zee 계열 '정리본' 라벨은 06에서 썼으므로 짧게 변형. [원본B 캡션 '레포 링크와 … 정리해뒀어요'] → 저장 유도 라벨 (규칙 B4)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 190,
+     "w": 960,
+     "h": 330,
+     "text": "그림 못 그려도\n{AI 그림} 판다?",
+     "size": 120,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "lh": 1.15,
+     "src": "[원본A @ai_creatorart '저는 진짜로 그림 못 그립니다'] + [Y1 제목 '그림 아예 못 그리지만'] + [원본C 표지 'AI 캐릭터로 200만 원?' 물음형] → 고백형을 독자 질문형으로"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 570,
+     "w": 900,
+     "h": 180,
+     "fill": "memo",
+     "line": 5,
+     "text": "의뢰 · 인스타툰 · 이모티콘 · 작업보조\n실제 파는 방식 4가지 정리했는데..",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "Y2(상세페이지 의뢰)·Y1(인스타툰 광고)·N3(이모티콘 마켓)·Y3(의뢰 생성·작업 보조)에서 실제 확인된 방식 4개만 나열. 끝말 '..'은 @ram.zee 메모 말투"
+    },
+    {
+     "t": "pill",
+     "x": 50,
+     "y": 800,
+     "w": 730,
+     "h": 220,
+     "fill": "bubble",
+     "line": 5,
+     "text": "근데 모르고 팔면\n내 그림도 못 지킨다고?!",
+     "size": 52,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "N2 '인간의 창작적 기여 없으면 저작권 등록 불가' + N1 '저작권 보호를 받지 못할 위험' → 손실회피형 반전 (규칙 B3, 금액 대신 권리 손실)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1070,
+     "w": 700,
+     "h": 60,
+     "text": "수익 보장 X · 법률 자문 아님 · 판매 전 체크용",
+     "size": 28,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "규칙 F(수익 보장·법률 단정 금지) 고지"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 990,
+     "w": 250,
+     "h": 330,
+     "note": "Mr. Navy: 낙서 스케치북을 들고 머리 긁적, 다른 손 컵(새끼손가락)"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "els": [
+    {
+     "t": "box",
+     "x": 340,
+     "y": 70,
+     "w": 400,
+     "h": 80,
+     "fill": "red",
+     "line": 5,
+     "text": "한눈에 보기",
+     "size": 40,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "spec_06 2장 라벨 구조 유지"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 150,
+     "text": "어디서 {어떻게} 파나?",
+     "size": 96,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "[원본B '그럼 이걸 만들어 파는 쪽은 어떨까요'] → 질문형 소제목"
+    },
+    {
+     "t": "tree",
+     "x": 90,
+     "y": 350,
+     "w": 900,
+     "h": 150
+    },
+    {
+     "t": "circle",
+     "x": 40,
+     "y": 520,
+     "w": 232,
+     "h": 232,
+     "fill": "c1",
+     "text": "①\n의뢰 제작",
+     "size": 38,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "Y2 04:30 상세페이지 의뢰"
+    },
+    {
+     "t": "circle",
+     "x": 300,
+     "y": 520,
+     "w": 232,
+     "h": 232,
+     "fill": "c2",
+     "text": "②\n인스타툰",
+     "size": 38,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "Y1 04:30~06:45 인스타툰 광고·협찬"
+    },
+    {
+     "t": "circle",
+     "x": 560,
+     "y": 520,
+     "w": 232,
+     "h": 232,
+     "fill": "c3",
+     "text": "③\n이모티콘",
+     "size": 38,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "N3 OGQ마켓·카카오 규정"
+    },
+    {
+     "t": "circle",
+     "x": 818,
+     "y": 520,
+     "w": 232,
+     "h": 232,
+     "fill": "c4",
+     "text": "④\n작업 보조",
+     "size": 38,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "Y3 06:00 'AI는 참고·보조, 직접 그린 작업이 수입 대부분'"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 810,
+     "w": 960,
+     "h": 210,
+     "fill": "memo",
+     "line": 5,
+     "text": "공통점: AI 그림 '그 자체'보다\n기획·수정·고객 응대에 돈이 붙어요",
+     "size": 40,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "Y2 09:45 '사진을 어떻게 빠르게 뽑아내서 접목시키느냐' + Y3 06:45 'AI를 뽑아내는 것만으로는 한계' + Y1 06:45 '컨셉 잡는 게 가장 중요' → 공통점 요약 (해석 문장)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1060,
+     "w": 720,
+     "h": 90,
+     "text": "영상·기사 속 사례 기준 · 금액은 본인 주장이라\n누구나 같은 돈을 번다는 뜻 아님",
+     "size": 28,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "[원본B '수익 사례는 본인이 공개한 것이라 누구나 같은 금액을 받는다는 뜻은 아니에요'] 거의 그대로"
+    },
+    {
+     "t": "char",
+     "x": 820,
+     "y": 1040,
+     "w": 220,
+     "h": 290,
+     "note": "Mr. Navy: 손가락으로 원 4개 가리킴"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 380,
+     "h": 80,
+     "fill": "c1",
+     "line": 5,
+     "text": "① 의뢰 제작",
+     "size": 42,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "2장 원 ①"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 300,
+     "text": "쿠팡 상세페이지\n1건 {100~150만원}?",
+     "size": 96,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "Y2 04:30 '100만 원에서 150 사이로 한 건' (영상 속 주장, 디자이너 출신 회사원) → 물음표로 단정 회피"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 510,
+     "w": 960,
+     "h": 330,
+     "fill": "memo",
+     "line": 5,
+     "text": "1. 챗GPT로 '칸(섹션)'별 기획\n2. 비슷한 참고 이미지 캡처 → 첨부해 생성\n3. 포토샵 '생성형 채우기'로 배경\n4. 만들어 둔 템플릿에 글·사진만 교체",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "Y2 06:00 '도시락 칸처럼 섹션… 채GPT가 1·2·3번 짜 줌' / 07:30~08:15 캡처 첨부·미드저니 참고 이미지 / 08:15~09:00 포토샵 생성형 채우기 / 06:00 '템플릿에 이미지랑 글만 바꾸면 완성' → 작업 순서 4단계"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 880,
+     "w": 720,
+     "h": 180,
+     "fill": "bubble",
+     "line": 5,
+     "text": "마감은 '예상 + 하루'로\n약속하기!",
+     "size": 48,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "Y2 05:15 '예상 작업 시간보다 플러스 하루를 더 여유 있게 말씀드려요' → 오늘 할 행동 1개 (규칙 C5)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 90,
+     "text": "영상 속 주장: 섹션 1칸 몇만~20만원, 재구매 많음\n(Y2 09:45 · 04:30)",
+     "size": 26,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "Y2 09:45 '한 섹션만도 적게는 몇 만 원부터 많게 20만 원' / 04:30 '재구매를 많이 하시거든요'"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 고구마 상자 앞에서 노트북 (도시락 칸 그림)"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 380,
+     "h": 80,
+     "fill": "c2",
+     "line": 5,
+     "text": "② 인스타툰",
+     "size": 42,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "2장 원 ②"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 300,
+     "text": "그림 실력보다\n{광고 붙는 주제}",
+     "size": 96,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "Y1 06:45 '채널 주제와 컨셉을 잘 잡는 게 진짜 중요… 결혼정보 광고가 붙을 수 있는 콘텐츠' → 한 줄 원칙"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 510,
+     "w": 960,
+     "h": 330,
+     "fill": "memo",
+     "line": 5,
+     "text": "1. 챗GPT에 '내 상황 + 광고주' 주제 묻기\n2. 고른 주제로 대본까지 받기\n3. 캐릭터 몇 개 만들어 도장처럼 재사용\n4. 일기 말고 '정보 + 공감'으로",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "Y1 07:30 'GPT로 물어봐서 주제 찾기·협찬 타겟' / 09:00 '대본까지 다 써 줌' / 01:30 '여섯 개의 캐릭터를 만들어 도장처럼' / 06:45 '일기가 아니라 콘텐츠·정보'"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 880,
+     "w": 720,
+     "h": 180,
+     "fill": "bubble",
+     "line": 5,
+     "text": "오늘은 주제 3개만\n뽑아 보기!",
+     "size": 48,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "Y1 09:00 '4번 5번 7번 주제가 좋은 거 같아서' → 오늘 할 행동 1개"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 90,
+     "text": "영상 속 주장: 작년 약 4억(홈택스 화면), 팔로워 1만 미만도\n협찬 · 강의 홍보 영상이라 감안해서 보기 (Y1)",
+     "size": 26,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "Y1 04:30 '작년 토탈해서 한 4억 2~3천' / 05:15 '팔로어가 1만이 안 돼도' / 15:00 무료 라이브·PDF 홍보 → 금액은 영상 속 주장으로만"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 같은 얼굴 캐릭터 도장을 찍는 모습"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 380,
+     "h": 80,
+     "fill": "c3",
+     "line": 5,
+     "text": "③ 이모티콘",
+     "size": 42,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "2장 원 ③"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 300,
+     "text": "카카오는 {안 되고}\n네이버 OGQ는 된다",
+     "size": 92,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "N3 '카카오 이모티콘의 경우 원칙적으로 AI를 활용한 이모티콘 출품을 금지' / '네이버 OGQ마켓에서는 AI를 활용한 이모티콘 출품이 가능' → VS 대비"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 510,
+     "w": 960,
+     "h": 330,
+     "fill": "memo",
+     "line": 5,
+     "text": "· OGQ는 출품 때 AI 기여도 3단계 선택\n  (미사용 / 일부 활용 / 전부 생성)\n· 기여도 따라 정산 비율이 다르고\n  판매 페이지에도 표시돼요",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "N3 ''AI 미사용, AI 활용(일부), AI 생성(전부)' 3단계… 기여도에 따라 정산 비율이 달라지며, 판매 페이지에도 표시'"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 880,
+     "w": 720,
+     "h": 180,
+     "fill": "bubble",
+     "line": 5,
+     "text": "올리기 전에 판매처\n규정부터 읽기!",
+     "size": 48,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "[원본C '조건은 캠페인마다 다르니 꼭 확인해 보세요'] → 판매처 규정 확인 행동"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 90,
+     "text": "기사 속 사례: '수익이 몇천 원' (시장 포화 언급)\n주간동아 2026.9.15 · 규정은 바뀔 수 있음",
+     "size": 26,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "N3 강씨 '수익이 몇천 원 안 되지만… 지금은 시장이 포화' → 기대치 조절"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 두 갈래 표지판(X / O) 앞"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 380,
+     "h": 80,
+     "fill": "c4",
+     "line": 5,
+     "text": "④ 작업 보조",
+     "size": 42,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "2장 원 ④"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 300,
+     "text": "한 번에 안 나와요\n{노가다}가 기본",
+     "size": 96,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "Y3 03:00 '100% 원하는 그림이 나오진 않고 계속 노가다를 통해서 잘 나올 때까지 돌린다'"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 510,
+     "w": 960,
+     "h": 330,
+     "fill": "memo",
+     "line": 5,
+     "text": "· 손가락이 이상하면 그 부분만 칠해서\n  다시 생성 (인페인팅)\n· 잘 안 되면 몇 시간~며칠도 걸림\n· 판매자 본인도 'AI만으론 한계'",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "Y3 03:00 '손가락만 까맣게 칠해서 임페인팅' / 03:45 '몇 시간… 며칠 동안 하기도' / 06:45 'ai를 뽑아내는 것만으로… 한계가 있다'"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 880,
+     "w": 720,
+     "h": 180,
+     "fill": "bubble",
+     "line": 5,
+     "text": "'연예인 얼굴로 해 주세요'\n의뢰는 거절!",
+     "size": 46,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "Y3 04:30 '원하는 연예인 이미지를 학습시켜서 해 주실 수 있냐고 물어보시는 분들도' + N1 퍼블리시티권 → 8장으로 연결"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 90,
+     "text": "영상 속 주장: AI 그림만으로 지난달 약 450만원,\n수입 대부분은 직접 그린 작업 (Y3 06:45)",
+     "size": 26,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "Y3 06:45 'ai만 따졌을 때 저번 달 한 450만원 정도' / 06:00 'AI 통해서 수입이 별로 되진 않아요'"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 주사위 여러 번 굴리는 모습(재생성)"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 460,
+     "h": 80,
+     "fill": "red",
+     "line": 5,
+     "text": "체크 1 · 내 권리",
+     "size": 42,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "체크 구간 시작 (빨간 라벨로 구분)"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 300,
+     "text": "버튼만 눌렀다면\n{저작권 등록 불가}",
+     "size": 96,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "N2 '어떠한 표현 행위에도 인간의 창작적 기여가 있었다고 볼 수 없는 AI 산출물에 대해서는 저작권 등록이 불가'"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 510,
+     "w": 960,
+     "h": 330,
+     "fill": "memo",
+     "line": 5,
+     "text": "사람 기여로 인정되는 3가지\n· 내 그림·글을 넣어 그 창작성이 남을 때\n· 직접 고치고 더한 '추가 작업'\n· 여러 장을 고르고 배열한 구성",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "N2 '인간의 창작적 기여가 인정되는 세 가지 경우' 쉬운 말로 변환 (색 조금 조정 같은 '사소한 개변'은 제외)"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 880,
+     "w": 720,
+     "h": 180,
+     "fill": "bubble",
+     "line": 5,
+     "text": "스케치·수정본은\n버리지 말고 저장!",
+     "size": 48,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "N2 전현수 변호사 '어떠한 창작적 기여를 했는지 구체적으로 입증하는 것이 권리 보호의 중요한 기준' → 행동"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 90,
+     "text": "AI 그림을 직접 그린 척 등록하면 처벌·말소 가능\n문체부·저작권위 '생성형 AI 저작권 안내서' (전자신문)",
+     "size": 26,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "N2 '저작권법 제136조 제2항 제2호에 따라 처벌… 직권으로 말소'"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 스케치 폴더를 금고에 넣음"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 460,
+     "h": 80,
+     "fill": "red",
+     "line": 5,
+     "text": "체크 2 · 남의 권리",
+     "size": 42,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "체크 구간"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 300,
+     "text": "그림체는 OK,\n{특정 작품 베끼기}는 X",
+     "size": 92,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "N1 '그림체·화풍은 아이디어 영역이라 그 자체로는 저작권 보호 대상은 아니다. 그러나 특정 작가의 특정 작품을 실질적으로 복제한 수준이면 표절·2차적저작물작성권 침해'"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 510,
+     "w": 960,
+     "h": 330,
+     "fill": "memo",
+     "line": 5,
+     "text": "· 유명인 얼굴·이름을 허락 없이 팔면\n  부정경쟁방지법(퍼블리시티권) 문제\n· 무료로 올려도 침해는 침해\n· 돈 받고 팔면 책임이 더 무거워져요",
+     "size": 38,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "N1 '부정경쟁방지법 제2조제1호 (타)목… 2022년 6월부터 시행' / '무료로 올려도 침해 여부와는 별개다. 수익화까지 하면 침해 무게가 더 커진다'"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 880,
+     "w": 720,
+     "h": 180,
+     "fill": "bubble",
+     "line": 5,
+     "text": "아이돌·캐릭터·로고는\n아예 빼고 시작!",
+     "size": 46,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "N1 제목 '아이돌 AI 커버·AI 그림·유명인 챗봇' + Y3 04:30 연예인 학습 의뢰 → 행동"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 90,
+     "text": "AI 학습·생성물 저작권은 법원·입법 모두 정리 중\n로톡뉴스 2026.10.28 · 법률 자문 아님",
+     "size": 26,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "N1 'AI 학습 자체가 허용되는지, AI 생성물에 저작권을 인정할지는 아직 법원 판단도 입법도 정리되지 않아'"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 왕관·마이크 그림에 X 표시"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "els": [
+    {
+     "t": "box",
+     "x": 60,
+     "y": 70,
+     "w": 460,
+     "h": 80,
+     "fill": "red",
+     "line": 5,
+     "text": "체크 3 · 세금",
+     "size": 42,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "체크 구간"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 180,
+     "w": 960,
+     "h": 300,
+     "text": "직장인 부업 소득도\n{5월에 합산 신고}",
+     "size": 92,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.15,
+     "src": "N4 '직장인이라도 겸업 소득이 있으면 반드시 종합소득세 신고' / '5월… 모든 소득과 경비를 신고'"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 510,
+     "w": 960,
+     "h": 330,
+     "fill": "memo",
+     "line": 5,
+     "text": "· 3.3% 떼였어도 끝이 아니라 '미리 낸 세금'\n· 빠뜨리면 가산세\n· AI 구독료·재료비 영수증은 모아 두기\n· 과표 1,400만원 이하 6%, 5,000만원 이하 15%",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "src": "N4 '3.3% 원천징수는 세금 예치금 정도' / '누락하면 가산세' / '온라인 서비스 비용 등 업무 관련 지출은 경비' (AI 구독료는 예시로 적용, 경비 인정 여부는 facts_to_verify) / 세율 구간 N4 본문"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 880,
+     "w": 720,
+     "h": 180,
+     "fill": "bubble",
+     "line": 5,
+     "text": "첫 판매 날부터\n입금·지출 기록 시작!",
+     "size": 46,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "N4 세무 전문가 '모든 소득과 경비를 정확히 기록' → 행동"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 90,
+     "text": "사업자 등록·회사 겸업 규정은 사람마다 다름\n하이뉴스 2026.2.8 · 국세청·세무사 확인",
+     "size": 26,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "N4 '세법이 어렵다면 세무 전문가 도움' + 사업자등록 여부는 미확인 → facts_to_verify"
+    },
+    {
+     "t": "char",
+     "x": 800,
+     "y": 1000,
+     "w": 240,
+     "h": 320,
+     "note": "Mr. Navy: 영수증 뭉치를 클립으로 묶음"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "els": [
+    {
+     "t": "box",
+     "x": 290,
+     "y": 70,
+     "w": 500,
+     "h": 84,
+     "fill": "red",
+     "line": 5,
+     "text": "팔기 전 체크리스트",
+     "size": 42,
+     "color": "#FFFFFF",
+     "font": "title",
+     "align": "c",
+     "src": "spec_06 마지막 장 '받기 전 꼭 체크' 구조"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 200,
+     "w": 960,
+     "h": 580,
+     "fill": "memo",
+     "line": 5,
+     "text": "☐ 쓰는 AI 도구 약관에 '상업 이용' 되나\n☐ 판매처 AI 규정 (카카오 X / OGQ 표기)\n☐ 실존 인물·캐릭터·로고 없나\n☐ 특정 작가 작품을 베끼진 않았나\n☐ 스케치·수정본 저장했나\n☐ 입금·지출 기록 시작했나",
+     "size": 40,
+     "color": "ink",
+     "font": "body",
+     "bold": true,
+     "align": "l",
+     "lh": 1.6,
+     "src": "3~9장 요약. 도구 약관 항목은 영상·기사에서 직접 확인 못 함 → '확인할 것'으로만 제시 (facts_to_verify). lh 1.6은 비주얼 벤치마크 줄 간격"
+    },
+    {
+     "t": "pill",
+     "x": 60,
+     "y": 830,
+     "w": 740,
+     "h": 220,
+     "fill": "bubble",
+     "line": 5,
+     "text": "체크리스트 이미지 받고 싶으면\n댓글에 '부업' 남겨 주세요!",
+     "size": 44,
+     "color": "ink",
+     "font": "title",
+     "align": "c",
+     "src": "[원본C '댓글에 '캐릭터'를 남겨주세요. 가이드를 DM으로'] + [원본B '궁금한 건 댓글로… DM으로 함께 보내드릴게요'] → 키워드 '부업'"
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 1090,
+     "w": 720,
+     "h": 120,
+     "text": "출처: 로톡뉴스 10.28 · 전자신문(저작권위) 6.17 · 주간동아 9.15\n하이뉴스 2.8 · 유튜브 3편 · 수익 보장·법률 자문 아님",
+     "size": 26,
+     "color": "gray",
+     "font": "body",
+     "align": "l",
+     "src": "N1~N4, Y1~Y3"
+    },
+    {
+     "t": "char",
+     "x": 820,
+     "y": 1000,
+     "w": 230,
+     "h": 320,
+     "note": "Mr. Navy: 체크리스트에 펜으로 V + 컵(새끼손가락)"
+    }
+   ]
+  }
+ ],
+ "caption": "그림 못 그려도 AI 그림으로 부업한다는 얘기, 영상으로 많이 보셨죠?\n실제로 어떻게 파는지 영상 3편이랑 기사 4개를 다 읽고 정리했어요.\n\n✔ 의뢰 제작: 챗GPT로 칸별 기획 → 참고 이미지 첨부해서 생성 → 템플릿에 교체 (쿠팡 상세페이지 1건 100~150만원이라는 건 영상 속 본인 주장)\n✔ 인스타툰: 그림 실력보다 '광고 붙는 주제'가 먼저\n✔ 이모티콘: 카카오는 AI 이모티콘 출품 원칙적 금지, 네이버 OGQ는 AI 기여도 표시하고 출품 가능\n✔ 작업 보조: 한 번에 안 나와요. 판매자 본인도 'AI만으론 한계'라고 해요\n\n팔기 전에 이 3가지는 꼭 보세요.\n① 버튼만 눌러 만든 그림은 저작권 등록이 안 될 수 있어요 (스케치·수정본 저장!)\n② 그림체는 괜찮아도 특정 작품 베끼기, 연예인 얼굴은 안 돼요\n③ 직장인 부업 소득도 5월 종합소득세 때 합산 신고예요\n\n영상 속 수익은 본인이 공개한 금액이라 누구나 같은 돈을 번다는 뜻은 아니에요. 이 글은 법률·세무 자문이 아니니 판매 전 플랫폼 규정과 국세청 안내를 꼭 확인하세요.\n\n👉 저장용 '팔기 전 체크리스트' 받고 싶으면 댓글에 '부업' 남겨 주세요!",
+ "first_comment": "📌 여러분은 어디서 팔 생각이세요? 의뢰 / 인스타툰 / 이모티콘 / 기타 중에 댓글로 알려 주시면 판매처 규정 확인할 곳을 같이 정리해 드릴게요.",
+ "hashtags": "#AI부업 #AI그림 #챗GPT그림 #인스타툰 #이모티콘만들기 #상세페이지 #AI저작권 #N잡러 #종합소득세",
+ "dm": "'팔기 전 체크리스트' 1장 PNG(10장 내용 요약) + 출처 링크 4개 (로톡뉴스·전자신문·주간동아·하이뉴스). 제작 필요.",
+ "image_prompts": [
+  {
+   "n": 1,
+   "prompt": "1080x1350 portrait, pure white background, hand-drawn black doodle line art (thin wobbly marker lines like a casual pharmacist webtoon), lots of empty white space in the top 75% for typeset text. Bottom-right corner: small simple line-drawn Mr. Navy (navy suit, round glasses) holding a messy sketchbook with a clumsy doodle on it, scratching his head, other hand holding a tea cup with pinky raised. No text, no letters, no logos. Attach character sheet and visual reference @seungatoon_pharm style."
+  },
+  {
+   "n": 2,
+   "prompt": "1080x1350, white background, black doodle line style. Leave the middle band empty for four pastel circles that will be added later. Bottom-right: tiny line-drawn Mr. Navy pointing upward with one finger, tea cup with pinky raised. Few small doodle sparkles. No text."
+  },
+  {
+   "n": 3,
+   "prompt": "1080x1350, white background, black doodle line style. Bottom-right: tiny Mr. Navy sitting with a laptop next to a doodled box of sweet potatoes, laptop screen shows a lunchbox-like grid of empty panels. No text, no brand logos (no Coupang logo)."
+  },
+  {
+   "n": 4,
+   "prompt": "1080x1350, white background, black doodle line style. Bottom-right: tiny Mr. Navy stamping the same simple cartoon face several times on paper with a rubber stamp, pinky raised. No text."
+  },
+  {
+   "n": 5,
+   "prompt": "1080x1350, white background, black doodle line style. Bottom-right: tiny Mr. Navy standing at a two-way signpost, one arm with an X mark and one with an O mark (no letters). No app logos. No text."
+  },
+  {
+   "n": 6,
+   "prompt": "1080x1350, white background, black doodle line style. Bottom-right: tiny Mr. Navy rolling dice over and over, a doodled hand with too many fingers crossed out next to him. No text."
+  },
+  {
+   "n": 7,
+   "prompt": "1080x1350, white background, black doodle line style. Bottom-right: tiny Mr. Navy putting a folder of sketches into a small safe, pinky raised. No text."
+  },
+  {
+   "n": 8,
+   "prompt": "1080x1350, white background, black doodle line style. Bottom-right: tiny Mr. Navy next to doodles of a crown, a microphone and a generic star mascot, each with a big X over it. No real people, no real characters or logos. No text."
+  },
+  {
+   "n": 9,
+   "prompt": "1080x1350, white background, black doodle line style. Bottom-right: tiny Mr. Navy clipping a stack of receipts together with a paper clip, a calendar doodle behind him (no numbers). No text."
+  },
+  {
+   "n": 10,
+   "prompt": "1080x1350, white background, black doodle line style. Bottom-right: tiny Mr. Navy ticking a checklist with a pen, holding a tea cup with pinky raised, thumbs-up vibe. Upper area empty for typeset checklist. No text."
+  }
+ ],
+ "facts_to_verify": [
+  "원본A(@ai_creatorart DYhGnLtyQaV) 2026-11-09 임베드에서 '삭제/링크 깨짐' 표시 → 게시물 존재·실측 재확인, 캡션은 시트(1719행) 기록 사용",
+  "카카오 이모티콘 AI 출품 금지·OGQ 3단계 기여도/정산 규정: 주간동아 2026-09-15 기준. 게시 직전 각 스튜디오 공지로 현행 확인",
+  "AI 도구(챗GPT·미드저니·스테이블 디퓨전 등) 상업 이용 약관: 이번 자료에서 직접 확인 안 함 → 10장 체크리스트에는 '확인할 것'으로만 표기, 단정 문구 넣지 말 것",
+  "AI 구독료의 필요경비 인정 여부: N4는 '온라인 서비스 비용' 일반 언급뿐. 세무 확인 필요",
+  "부업 사업자등록 의무·기준, 회사 겸업 금지 규정: 미확인 (9장 회색 문구로만 처리)",
+  "종합소득세 세율 구간(1,400만원 이하 6%, 5,000만원 이하 15%)은 N4 기사 기준, 지방소득세 별도 — 국세청 표로 재확인",
+  "영상 속 금액(Y1 작년 약 4억, Y2 건당 100~150만원·월 약 500·섹션 몇만~20만원, Y3 지난달 약 450만원)은 본인 주장, 검증 불가 → 반드시 '영상 속 주장' 표기 유지",
+  "비주얼 벤치마크 @seungatoon_pharm 게시물의 장 수(임베드 첫 장만 확인)"
+ ],
+ "render_check": "2026-11-09 card_build.py 렌더(전용 크롬 프로필 래퍼 사용, 스크립트 무수정) 10장 preview 육안 확인: 글씨 넘침·겹침 없음, 좌표 겹침 자동검사 0건. contact: out_03/contact_03.png",
+ "from_v3": "V3_03",
+ "style_ref": "PENDING_USER_STYLE"
+}

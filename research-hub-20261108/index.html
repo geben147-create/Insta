@@ -63,6 +63,15 @@ details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9p
 <button class="navbtn" data-to="master-prompt"><span class="i">📋</span> 통합 실행 프롬프트 복사</button>
 <button class="navbtn" data-to="sheets"><span class="i">📊</span> Google Sheets 2개</button>
 <button class="navbtn" data-to="history"><span class="i">🧷</span> 수집·전송 인수인계</button></div>
+<div class="navgroup"><div class="grouptitle">05 · 🧠 GPT 독립 분석 · 2026.11.09</div>
+<button class="navbtn" data-to="gpt-main"><span class="i">🧠</span> GPT 새 연구 · 전체 개요</button>
+<button class="navbtn sub" data-to="gpt-metrics"><span class="subdot"></span>플랫폼 수 · 조회수 · 시의성</button>
+<button class="navbtn sub" data-to="gpt-hooks"><span class="subdot"></span>오프닝 훅 12종 공식</button>
+<button class="navbtn sub" data-to="gpt-arcs"><span class="subdot"></span>대본 전개 8종 · Q/A</button>
+<button class="navbtn sub" data-to="gpt-top5"><span class="subdot"></span>TOP5 분석 · 대본 유무</button>
+<button class="navbtn sub" data-to="gpt-creators"><span class="subdot"></span>외국인 브이로그 허락 후보</button>
+<button class="navbtn sub" data-to="gpt-copyright"><span class="subdot"></span>클립 편집 · 저작권 검사</button>
+<button class="navbtn" data-to="gpt-prompts"><span class="i">📋</span> GPT 실행 프롬프트 5종</button></div>
 <div class="sidenote">🌸 = 이번 통합에서 새로 붙인 설명·검증·프롬프트. 원본 페이지·기존 분석 내용은 그대로 유지했습니다.<br><br>✅ 관측값 · 🧮 계산값 · ⚠️ 추정 · ⛔ 확인 불가를 구분합니다.</div>
 </aside>
 <main class="stage" id="stage"><div class="mainwrap">
@@ -210,9 +219,10 @@ var framePaths={
  copyright:'../kukppong-copyright-prompt-20261108/',
  rising:'../youtube-kukppong-rising-20261108/',
  global:'../글로벌한국반응_국뽕영상_분석/',
- longform:'../국뽕_8분30초_영상분석/'
+ longform:'../국뽕_8분30초_영상분석/',
+ gpt:'./gpt-lab.html'
 };
-var sourceReviews={storydna:'🌸 2026-11-09 신규 분석실입니다. 14개 훅·9개 전개와 영상 중심 TOP5, 자막 추출 지시서를 추가했습니다. 실제 자막·시청지속률 미확보는 별도로 표시합니다.',discovery:'🌸 한국·일본·미국·중국 대조 키워드와 러시아권 플랫폼 키워드를 새 메뉴에 보완했습니다. 기존 20개 검색어와 시트 정리 결과는 원본에 남겨두었습니다.',longrun:'🌸 광고 노출은 YPP 승인이나 실제 RPM 증명이 아닙니다. 클립이 짧고 자체 해설이 많아도 저작권 허락이 자동으로 생기지 않습니다. 기존 감정곡선·출처 분석은 관찰 결과로 보존했습니다.',top1:'🌸 화면·컷 구성의 참고와 원본 영상 사용 허락은 별개입니다. 기존 TOP1 편집 사례는 장면 재현용 참고로 보고, 원본 권리자·음악·초상권을 각각 확인하세요.',copyright:'🌸 원음 20초 이하, 동일 원본 60초 이하, 화면 자체 제작 60% 등은 실무 편집 기준이지 법률상 안전 지대가 아닙니다. 서면 허락·개별 법적 예외 검토가 먼저입니다.',rising:'🌸 급등 채널의 조회수·구독자·광고 상태는 날짜가 지나면 달라집니다. 최신 재측정 전에는 과거 스냅샷으로만 보고, 실수익은 채널 소유자 자료가 없으면 확인 불가입니다.',global:'🌸 이 136개 영상 연구 README는 125개 자막 저장, 11개 미확보를 보고합니다. 유튜브 실측 retention이나 실제 RPM이 아니며, 공개 GitHub에 전체 자막 원문·비공개 이메일을 싣지 않은 원칙을 유지합니다.',longform:'🌸 기존 102컷 대본·편집 구조는 그대로 보존합니다. 국가별 최신 사실은 업로드 전 다시 검증하고, 사용되는 원영상·음악·얼굴의 권리를 별도로 확인하세요.'};
+var sourceReviews={gpt:'🧠 2026-11-09 GPT가 작성한 별도 연구 보강판입니다. 기존 Claude 연구는 보존했으며, 대본 원문 유무와 사용 허가 미확인 사항을 구별합니다.',storydna:'🌸 2026-11-09 신규 분석실입니다. 14개 훅·9개 전개와 영상 중심 TOP5, 자막 추출 지시서를 추가했습니다. 실제 자막·시청지속률 미확보는 별도로 표시합니다.',discovery:'🌸 한국·일본·미국·중국 대조 키워드와 러시아권 플랫폼 키워드를 새 메뉴에 보완했습니다. 기존 20개 검색어와 시트 정리 결과는 원본에 남겨두었습니다.',longrun:'🌸 광고 노출은 YPP 승인이나 실제 RPM 증명이 아닙니다. 클립이 짧고 자체 해설이 많아도 저작권 허락이 자동으로 생기지 않습니다. 기존 감정곡선·출처 분석은 관찰 결과로 보존했습니다.',top1:'🌸 화면·컷 구성의 참고와 원본 영상 사용 허락은 별개입니다. 기존 TOP1 편집 사례는 장면 재현용 참고로 보고, 원본 권리자·음악·초상권을 각각 확인하세요.',copyright:'🌸 원음 20초 이하, 동일 원본 60초 이하, 화면 자체 제작 60% 등은 실무 편집 기준이지 법률상 안전 지대가 아닙니다. 서면 허락·개별 법적 예외 검토가 먼저입니다.',rising:'🌸 급등 채널의 조회수·구독자·광고 상태는 날짜가 지나면 달라집니다. 최신 재측정 전에는 과거 스냅샷으로만 보고, 실수익은 채널 소유자 자료가 없으면 확인 불가입니다.',global:'🌸 이 136개 영상 연구 README는 125개 자막 저장, 11개 미확보를 보고합니다. 유튜브 실측 retention이나 실제 RPM이 아니며, 공개 GitHub에 전체 자막 원문·비공개 이메일을 싣지 않은 원칙을 유지합니다.',longform:'🌸 기존 102컷 대본·편집 구조는 그대로 보존합니다. 국가별 최신 사실은 업로드 전 다시 검증하고, 사용되는 원영상·음악·얼굴의 권리를 별도로 확인하세요.'};
 var routes={
  home:['home','통합 대시보드','흩어진 연구 자료와 새 보완 내용을 한 화면에서 탐색합니다.'],
  operations:['operations','현재 상황 · 자료 위치','이전 세션 보고와 실측을 구분한 작업 현황입니다.'],
@@ -236,7 +246,15 @@ var routes={
  'copyright-new':['copyright-new','🌸 저작권 추가 검증 · 위험 정정','원본은 유지하고, 오해하기 쉬운 부분을 공식 근거로 정정합니다.'],
  'master-prompt':['master-prompt','🌸 자료 수집 · 유튜브 분석 실행 프롬프트','플랫폼 전체검색과 신생 유튜브 분석 두 흐름을 각각 복사할 수 있습니다.'],
  sheets:['sheets','Google Sheets 2개 · 역할별 원본','해외 원자료 MASTER와 국뽕 유튜브 경쟁 DB를 구분해 연결합니다.'],
- history:['history','수집·전송·중복 방지 인수인계','이전 세션 보고를 현재 실측과 혼동하지 않고 보관합니다.']
+ history:['history','수집·전송·중복 방지 인수인계','이전 세션 보고를 현재 실측과 혼동하지 않고 보관합니다.'],
+ 'gpt-main':['frame','🧠 GPT 독립 분석실 · 총괄','2026.11.09 GPT 별도 연구. Claude 원본은 보존됩니다.','gpt','intro'],
+ 'gpt-metrics':['frame','🧠 GPT · 플랫폼·조회수 검증','769행 원자료와 조회수·업로드 날짜·신선도 비교입니다.','gpt','metrics'],
+ 'gpt-hooks':['frame','🧠 GPT · 오프닝 훅 12종','감탄·편견·숫자·질문·은유·역설·직접 실험의 유형별 공식입니다.','gpt','hooks'],
+ 'gpt-arcs':['frame','🧠 GPT · 전개 8종 및 Q/A','질문답의 횟수와 타이밍, 반전·회수·8분30초 구성법입니다.','gpt','arcs'],
+ 'gpt-top5':['frame','🧠 GPT · TOP5 해부와 대본 유무','편집·외부 영상 의존도·자막·저작권 위험의 공통점을 분리합니다.','gpt','top5'],
+ 'gpt-creators':['frame','🧠 GPT · 외국인 원작자 허락 후보','직접 연락 가능한 공개 링크와 소속·사용권 미확인 표시입니다.','gpt','creators'],
+ 'gpt-copyright':['frame','🧠 GPT · 컷 길이와 저작권','클립 길이를 법적 안전선으로 오해하지 않고 권리 검증을 설계합니다.','gpt','copyright'],
+ 'gpt-prompts':['frame','🧠 GPT · 단계별+통합 실행 프롬프트','조회 비교·전사·대본·허락과 전체 작업 지시를 복사할 수 있습니다.','gpt','prompts']
 };
 var frame=document.getElementById('sourceFrame'), original=document.getElementById('openOriginal'), sidebar=document.getElementById('sidebar');
 function openRoute(){

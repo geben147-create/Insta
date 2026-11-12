@@ -1,0 +1,43 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>국뽕 유튜브 리서치 허브 (2026-11-08)</title><style>
+*{box-sizing:border-box}body{margin:0;background:#101418;color:#e8edf2;font-family:'Malgun Gothic',Arial,sans-serif;height:100vh;display:flex}
+#side{width:310px;background:#17202a;border-right:2px solid #2f4a63;overflow:auto;flex:none;transition:margin-left .2s}
+body.hide #side{margin-left:-310px}
+#side h1{font-size:16px;margin:0;padding:14px;background:#0f3b2e;color:#b9ffd9}
+#side .g{padding:8px 12px;background:#243b53;color:#ffd54f;font-weight:800;font-size:13px;position:sticky;top:0}
+#side a{display:block;padding:9px 14px;color:#dbe7f3;text-decoration:none;border-bottom:1px solid #223344;font-size:13.5px;cursor:pointer}
+#side a:hover{background:#25405a}#side a.on{background:#ffd54f;color:#111;font-weight:800}
+#side a .tag{font-size:10px;padding:1px 6px;border-radius:8px;margin-right:6px;font-weight:800;color:#111}
+.t-csv{background:#4ade80}.t-md{background:#7fdbff}.t-page{background:#ff9f1c}
+#main{flex:1;display:flex;flex-direction:column;min-width:0}
+#bar{display:flex;gap:8px;align-items:center;padding:8px 12px;background:#1d2b3a;border-bottom:1px solid #2f4a63}
+#bar button{background:#2f4a63;color:#fff;border:0;border-radius:6px;padding:6px 12px;cursor:pointer;font-weight:700}#bar button.act{background:#ffd54f;color:#111}
+#ttl{font-weight:800;color:#ffd54f;flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+#q{background:#0e1620;color:#fff;border:1px solid #2f4a63;border-radius:6px;padding:6px 10px;width:220px}
+#view{flex:1;overflow:auto;position:relative}iframe{width:100%;height:100%;border:0;background:#fff}
+table{border-collapse:collapse;font-size:12.5px;min-width:100%}td,th{border:1px solid #2f4a63;padding:5px 8px;vertical-align:top;max-width:380px;overflow:hidden;text-overflow:ellipsis}th{background:#0f3b2e;color:#fff;position:sticky;top:0;white-space:nowrap}tr:nth-child(even) td{background:#161f29}
+td a{color:#9fd3ff}pre.md{white-space:pre-wrap;padding:20px;font-size:14px;line-height:1.7;max-width:1000px;margin:auto}
+.md h1,.md h2,.md h3{color:#ffd54f}.hint{padding:30px;color:#9fb6c9}
+</style></head><body>
+<div id="side"><h1>🌸 국뽕 유튜브 리서치 허브<br><span style="font-size:11px;font-weight:400">2026-11-08 · 클릭하면 오른쪽에 바로 열립니다</span></h1><div id="menu"></div></div>
+<div id="main"><div id="bar"><button id="tg">☰ 메뉴</button><button id="pin" class="act">📌 고정</button><span id="ttl">왼쪽 메뉴에서 선택하세요</span><input id="q" placeholder="표 안에서 검색"><a id="op" target="_blank" style="color:#9fd3ff;font-size:12px">새 탭</a></div><div id="view"><div class="hint">왼쪽 메뉴를 누르면 분석 페이지, 표(CSV), 문서(MD)가 바로 열립니다.<br><br>📌 고정을 끄면 항목을 누를 때 메뉴가 자동으로 접히고, ☰ 메뉴로 다시 열 수 있습니다.</div></div></div>
+<script>
+const ITEMS=[{"g":"🌐 분석 페이지","t":"🇰🇷 시트·프롬프트 4종 (와인색)","f":"../haeoe-prompts-sheet-20261108/","type":"page"},{"g":"🌐 분석 페이지","t":"🛡 장수 채널 저작권·대본·감정 (녹색)","f":"../kukppong-longrun-audit-20261108/","type":"page"},{"g":"🌐 분석 페이지","t":"⚖ 저작권 체크리스트·메가 프롬프트","f":"../kukppong-copyright-prompt-20261108/","type":"page"},{"g":"🌐 분석 페이지","t":"🎬 코리아국뽕한사발 편집·자막 분석","f":"../kukppong-top1-editing-20261108/","type":"page"},{"g":"🌐 분석 페이지","t":"📈 급등 신생 국뽕 채널 148편 (썸네일 그리드)","f":"../youtube-kukppong-rising-20261108/","type":"page"},{"g":"📊 데이터 표(CSV)","t":"MASTER_통합자료_정리_769건 (한국300+프랑스·독일469)","f":"data/MASTER_통합자료_정리_769건.csv","type":"csv"},{"g":"📊 데이터 표(CSV)","t":"★00_지금상황_메모","f":"data/★00_지금상황_메모.csv","type":"csv"},{"g":"📊 데이터 표(CSV)","t":"N1_분야별_조회수TOP10","f":"data/N1_분야별_조회수TOP10.csv","type":"csv"},{"g":"📊 데이터 표(CSV)","t":"N2_분야별_댓글TOP10","f":"data/N2_분야별_댓글TOP10.csv","type":"csv"},{"g":"📊 데이터 표(CSV)","t":"N3_분야비교_RPM","f":"data/N3_분야비교_RPM.csv","type":"csv"},{"g":"📊 데이터 표(CSV)","t":"N4_수익추정TOP30","f":"data/N4_수익추정TOP30.csv","type":"csv"},{"g":"📊 데이터 표(CSV)","t":"N5_급상승소형_분야별","f":"data/N5_급상승소형_분야별.csv","type":"csv"},{"g":"📊 데이터 표(CSV)","t":"N6_GitHub로직_유튜브환산","f":"data/N6_GitHub로직_유튜브환산.csv","type":"csv"},{"g":"📊 데이터 표(CSV)","t":"N7_급등신생_국뽕채널","f":"data/N7_급등신생_국뽕채널.csv","type":"csv"},{"g":"📊 데이터 표(CSV)","t":"N8_추가해외반응_81건","f":"data/N8_추가해외반응_81건.csv","type":"csv"},{"g":"📊 데이터 표(CSV)","t":"숏폼출처_유튜브중복_🌸","f":"data/숏폼출처_유튜브중복_🌸.csv","type":"csv"},{"g":"📝 분석 문서(MD)","t":"대본 분석 전문(안전 5편)","f":"docs/script_analysis_safe5.md","type":"md"},{"g":"📝 분석 문서(MD)","t":"편집 분석 전문(안전 5편)","f":"docs/editing_analysis_safe5.md","type":"md"}];
+const menu=document.getElementById('menu'),view=document.getElementById('view'),ttl=document.getElementById('ttl'),q=document.getElementById('q'),op=document.getElementById('op');
+let pin=localStorage.getItem('hubPin')!=='0';let cur=null,tbl=null;
+function setPin(v){pin=v;localStorage.setItem('hubPin',v?'1':'0');document.getElementById('pin').className=v?'act':'';document.getElementById('pin').textContent=v?'📌 고정':'📍 자동접힘'}
+document.getElementById('pin').onclick=()=>setPin(!pin);document.getElementById('tg').onclick=()=>document.body.classList.toggle('hide');setPin(pin);
+let last='';ITEMS.forEach((it,i)=>{if(it.g!==last){last=it.g;const d=document.createElement('div');d.className='g';d.textContent=it.g;menu.appendChild(d)}
+ const a=document.createElement('a');a.dataset.i=i;a.innerHTML='<span class="tag t-'+it.type+'">'+it.type.toUpperCase()+'</span>'+it.t;a.onclick=()=>open(i);menu.appendChild(a)});
+function parse(t){const r=[];let row=[],f='',qq=false;t=t.replace(/^\ufeff/,'');for(let i=0;i<t.length;i++){const c=t[i];if(qq){if(c=='"'){if(t[i+1]=='"'){f+='"';i++}else qq=false}else f+=c}else{if(c=='"')qq=true;else if(c==','){row.push(f);f=''}else if(c=='\n'){row.push(f);r.push(row);row=[];f=''}else if(c!='\r')f+=c}}if(f||row.length){row.push(f);r.push(row)}return r}
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+async function open(i){const it=ITEMS[i];cur=it;[...menu.querySelectorAll('a')].forEach(a=>a.className=a.dataset.i==i?'on':'');ttl.textContent=it.t;op.href=it.f;tbl=null;
+ if(!pin)document.body.classList.add('hide');
+ if(it.type=='page'){view.innerHTML='<iframe src="'+it.f+'"></iframe>';return}
+ view.innerHTML='<div class="hint">불러오는 중…</div>';const txt=await (await fetch(it.f)).text();
+ if(it.type=='md'){view.innerHTML='<pre class="md">'+esc(txt).replace(/^(#{1,3}) (.*)$/gm,(m,h,t)=>'<h'+h.length+'>'+t+'</h'+h.length+'>')+'</pre>';return}
+ const rows=parse(txt);const head=rows[0]||[];const body=rows.slice(1);
+ const cell=c=>/^https?:\/\//.test(c)?'<a href="'+esc(c)+'" target="_blank">링크</a>':esc(c).slice(0,300);
+ view.innerHTML='<table><tr>'+head.map(h=>'<th>'+esc(h)+'</th>').join('')+'</tr>'+body.map(r=>'<tr>'+r.map(c=>'<td>'+cell(c)+'</td>').join('')+'</tr>').join('')+'</table>';tbl=view.querySelector('table')}
+q.oninput=()=>{if(!tbl)return;const k=q.value.toLowerCase();[...tbl.rows].slice(1).forEach(r=>r.style.display=!k||r.innerText.toLowerCase().includes(k)?'':'none')};
+open(0);
+</script></body></html>

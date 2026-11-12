@@ -1,26 +1,28 @@
 {
  "id": "V4_106",
- "title": "[리디자인 대기] 절세계좌 4총사 정리 (7장)",
+ "title": "[디자인 시안] 절세계좌 4총사 정리 (7장)",
  "canvas": [
   1080,
   1350
  ],
  "fonts": {
-  "title": "Gmarket Sans Bold",
+  "title": "Noto Serif CJK KR",
   "body": "Pretendard",
   "fallback": "Noto Sans CJK KR"
  },
  "palette": {
-  "bg": "#FFFFFF",
-  "ink": "#111111",
-  "red": "#E8312F",
-  "orange": "#FF8A1F",
-  "memo": "#FFE07A",
-  "bubble": "#FFB15C",
-  "c1": "#F2C318",
-  "c2": "#46B4F5",
-  "c3": "#D9A6F0",
-  "c4": "#7FDDB8"
+  "bg": "#F2EDE3",
+  "ink": "#172629",
+  "red": "#D8322C",
+  "orange": "#D8322C",
+  "memo": "#FAF7EF",
+  "bubble": "#E6EEEA",
+  "c1": "#E6EEEA",
+  "c2": "#E9E1D1",
+  "c3": "#F1DEDA",
+  "c4": "#E1E9E4",
+  "gray": "#5B6462",
+  "photo": "#E7DFD0"
  },
  "metrics_note": "여백·글자 크기는 비주얼 벤치마크(@ram.zee 손글씨형 카드: 좌우 여백 약 6%, 제목이 화면 폭의 약 85%, 메모·말풍선 테두리 5px)를 1080px 기준으로 환산한 값",
  "visual_bench": [
@@ -49,540 +51,1170 @@
    "els": [
     {
      "t": "box",
-     "x": 300,
-     "y": 70,
-     "w": 480,
-     "h": 84,
-     "fill": "red",
-     "line": 5,
+     "x": 30,
+     "y": 24,
+     "w": 1020,
+     "h": 1302,
+     "fill": "#F2EDE3",
+     "line": 2
+    },
+    {
+     "t": "box",
+     "x": 39,
+     "y": 33,
+     "w": 1002,
+     "h": 1284,
+     "fill": "#F2EDE3",
+     "line": 1
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 705,
+     "w": 960,
+     "h": 595,
+     "fill": "photo",
+     "img": "assets/11_saving_habit.png",
+     "img_position": "left bottom",
+     "img_size": "147% auto"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 695,
+     "w": 960,
+     "h": 2,
+     "fill": "#B7B5A8"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 65,
+     "w": 960,
+     "h": 63,
+     "fill": "#F2EDE3",
+     "line": 0,
      "text": "정리본 최최최종.zip",
-     "size": 40,
-     "color": "#FFFFFF",
-     "font": "title",
-     "align": "c"
+     "size": 36,
+     "color": "red",
+     "font": "body",
+     "align": "l",
+     "origin_index": 0,
+     "origin_text": "정리본 최최최종.zip",
+     "lh": 1.24,
+     "bold": false
     },
     {
      "t": "text",
      "x": 60,
-     "y": 190,
+     "y": 148,
      "w": 960,
-     "h": 360,
+     "h": 207,
      "text": "절세계좌\n{4총사} 정리",
-     "size": 142,
+     "size": 76,
      "color": "ink",
      "font": "title",
-     "align": "c",
-     "lh": 1.1
+     "align": "l",
+     "lh": 1.24,
+     "origin_index": 1,
+     "origin_text": "절세계좌\n{4총사} 정리",
+     "line": 0
     },
     {
      "t": "box",
-     "x": 90,
-     "y": 590,
-     "w": 720,
-     "h": 170,
-     "fill": "memo",
-     "line": 5,
+     "x": 60,
+     "y": 375,
+     "w": 960,
+     "h": 108,
+     "fill": "#F2EDE3",
+     "line": 0,
      "text": "연금저축 · IRP · ISA · ISA→연금\n싹 다 정리했는데..",
-     "size": 40,
+     "size": 36,
      "color": "ink",
      "font": "body",
-     "bold": true,
-     "align": "l"
+     "bold": false,
+     "align": "l",
+     "origin_index": 2,
+     "origin_text": "연금저축 · IRP · ISA · ISA→연금\n싹 다 정리했는데..",
+     "lh": 1.24
     },
     {
-     "t": "pill",
-     "x": 50,
-     "y": 810,
-     "w": 740,
-     "h": 220,
-     "fill": "bubble",
-     "line": 5,
+     "t": "box",
+     "x": 60,
+     "y": 503,
+     "w": 960,
+     "h": 147,
+     "fill": "#F2EDE3",
+     "line": 0,
      "text": "이거 모르면 최대\n198만원 못 받는다고?!",
      "size": 52,
      "color": "ink",
      "font": "title",
-     "align": "c"
+     "align": "l",
+     "origin_index": 3,
+     "origin_text": "이거 모르면 최대\n198만원 못 받는다고?!",
+     "lh": 1.24
+    },
+    {
+     "t": "circle",
+     "x": 835,
+     "y": 1125,
+     "w": 190,
+     "h": 190,
+     "fill": "#F2EDE3"
     },
     {
      "t": "char",
-     "x": 790,
-     "y": 980,
-     "w": 260,
-     "h": 330,
-     "note": "Mr. Navy: '확인 필수' 팻말"
+     "x": 845,
+     "y": 1135,
+     "w": 175,
+     "h": 175,
+     "img": "assets/navy_cutout.png",
+     "note": "사용자 4번 캐릭터 → 낙서풍 투명 컷. AI 자동 배치, 사람 손편집 아님."
     }
-   ]
+   ],
+   "design_image": "assets/11_saving_habit.png"
   },
   {
    "n": 2,
    "els": [
     {
      "t": "box",
-     "x": 340,
-     "y": 70,
-     "w": 400,
-     "h": 80,
-     "fill": "red",
-     "line": 5,
+     "x": 30,
+     "y": 24,
+     "w": 1020,
+     "h": 1302,
+     "fill": "#F2EDE3",
+     "line": 2
+    },
+    {
+     "t": "box",
+     "x": 39,
+     "y": 33,
+     "w": 1002,
+     "h": 1284,
+     "fill": "#F2EDE3",
+     "line": 1
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 960,
+     "w": 960,
+     "h": 340,
+     "fill": "photo",
+     "img": "assets/12_emergency_fund.png",
+     "img_position": "left bottom",
+     "img_size": "147% auto"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 950,
+     "w": 960,
+     "h": 2,
+     "fill": "#B7B5A8"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 65,
+     "w": 960,
+     "h": 63,
+     "fill": "#F2EDE3",
+     "line": 0,
      "text": "한눈에 보기",
-     "size": 40,
-     "color": "#FFFFFF",
-     "font": "title",
-     "align": "c"
+     "size": 36,
+     "color": "red",
+     "font": "body",
+     "align": "l",
+     "origin_index": 0,
+     "origin_text": "한눈에 보기",
+     "lh": 1.24,
+     "bold": false
     },
     {
      "t": "text",
      "x": 60,
-     "y": 180,
+     "y": 148,
      "w": 960,
-     "h": 150,
+     "h": 100,
      "text": "절세계좌 {4총사}",
-     "size": 104,
+     "size": 66,
      "color": "ink",
      "font": "title",
-     "align": "c"
-    },
-    {
-     "t": "tree",
-     "x": 90,
-     "y": 360,
-     "w": 900,
-     "h": 150
-    },
-    {
-     "t": "circle",
-     "x": 40,
-     "y": 530,
-     "w": 232,
-     "h": 232,
-     "fill": "c1",
-     "text": "연금저축\n600만원",
-     "size": 36,
-     "color": "ink",
-     "font": "title",
-     "align": "c"
-    },
-    {
-     "t": "circle",
-     "x": 300,
-     "y": 530,
-     "w": 232,
-     "h": 232,
-     "fill": "c2",
-     "text": "IRP\n+300만원",
-     "size": 36,
-     "color": "ink",
-     "font": "title",
-     "align": "c"
-    },
-    {
-     "t": "circle",
-     "x": 560,
-     "y": 530,
-     "w": 232,
-     "h": 232,
-     "fill": "c3",
-     "text": "ISA\n번 돈 절세",
-     "size": 36,
-     "color": "ink",
-     "font": "title",
-     "align": "c"
-    },
-    {
-     "t": "circle",
-     "x": 818,
-     "y": 530,
-     "w": 232,
-     "h": 232,
-     "fill": "c4",
-     "text": "ISA→연금\n+300만원",
-     "size": 34,
-     "color": "ink",
-     "font": "title",
-     "align": "c"
+     "align": "l",
+     "origin_index": 1,
+     "origin_text": "절세계좌 {4총사}",
+     "line": 0,
+     "lh": 1.24
     },
     {
      "t": "box",
-     "x": 90,
-     "y": 830,
-     "w": 900,
-     "h": 200,
-     "fill": "memo",
-     "line": 5,
-     "text": "연금저축+IRP 900만원 → 최대 148만 5천원\n+ ISA 만기 이전 300만원 → 최대 198만원",
-     "size": 40,
+     "x": 60,
+     "y": 268,
+     "w": 226,
+     "h": 108,
+     "fill": "#F2EDE3",
+     "text": "연금저축\n600만원",
+     "size": 36,
      "color": "ink",
      "font": "body",
-     "bold": true,
-     "align": "l"
+     "align": "c",
+     "origin_index": 3,
+     "origin_text": "연금저축\n600만원",
+     "line": 0,
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "box",
+     "x": 304,
+     "y": 268,
+     "w": 226,
+     "h": 108,
+     "fill": "#F2EDE3",
+     "text": "IRP\n+300만원",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "align": "c",
+     "origin_index": 4,
+     "origin_text": "IRP\n+300만원",
+     "line": 0,
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "box",
+     "x": 548,
+     "y": 268,
+     "w": 226,
+     "h": 108,
+     "fill": "#F2EDE3",
+     "text": "ISA\n번 돈 절세",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "align": "c",
+     "origin_index": 5,
+     "origin_text": "ISA\n번 돈 절세",
+     "line": 0,
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "box",
+     "x": 792,
+     "y": 268,
+     "w": 226,
+     "h": 108,
+     "fill": "#F2EDE3",
+     "text": "ISA→연금\n+300만원",
+     "size": 34,
+     "color": "ink",
+     "font": "body",
+     "align": "c",
+     "origin_index": 6,
+     "origin_text": "ISA→연금\n+300만원",
+     "line": 0,
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 396,
+     "w": 960,
+     "h": 108,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "연금저축+IRP 900만원 → 최대 148만 5천원\n+ ISA 만기 이전 300만원 → 최대 198만원",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": false,
+     "align": "l",
+     "origin_index": 7,
+     "origin_text": "연금저축+IRP 900만원 → 최대 148만 5천원\n+ ISA 만기 이전 300만원 → 최대 198만원",
+     "lh": 1.24
     },
     {
      "t": "text",
-     "x": 90,
-     "y": 1060,
-     "w": 700,
-     "h": 60,
+     "x": 60,
+     "y": 524,
+     "w": 960,
+     "h": 53,
      "text": "총급여 5,500만원 이하 16.5% 기준 (초과 13.2%)",
      "size": 28,
-     "color": "#666666",
+     "color": "ink",
      "font": "body",
-     "align": "l"
+     "align": "l",
+     "origin_index": 8,
+     "origin_text": "총급여 5,500만원 이하 16.5% 기준 (초과 13.2%)",
+     "line": 0,
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "circle",
+     "x": 835,
+     "y": 1125,
+     "w": 190,
+     "h": 190,
+     "fill": "#F2EDE3"
     },
     {
      "t": "char",
-     "x": 820,
-     "y": 1050,
-     "w": 220,
-     "h": 280,
-     "note": "Mr. Navy: 손가락으로 원 가리킴"
+     "x": 845,
+     "y": 1135,
+     "w": 175,
+     "h": 175,
+     "img": "assets/navy_cutout.png",
+     "note": "사용자 4번 캐릭터 → 낙서풍 투명 컷. AI 자동 배치, 사람 손편집 아님."
     }
-   ]
+   ],
+   "design_image": "assets/12_emergency_fund.png"
   },
   {
    "n": 3,
    "els": [
     {
      "t": "box",
-     "x": 60,
-     "y": 70,
-     "w": 360,
-     "h": 80,
-     "fill": "c1",
-     "line": 5,
-     "text": "① 연금저축",
-     "size": 42,
-     "color": "ink",
-     "font": "title",
-     "align": "c"
+     "x": 30,
+     "y": 24,
+     "w": 1020,
+     "h": 1302,
+     "fill": "#F2EDE3",
+     "line": 2
     },
     {
-     "t": "text",
-     "x": 60,
-     "y": 190,
-     "w": 960,
-     "h": 300,
-     "text": "600만원 넣으면\n최대 {99만원}",
-     "size": 110,
-     "color": "ink",
-     "font": "title",
-     "align": "l",
-     "lh": 1.15
+     "t": "box",
+     "x": 39,
+     "y": 33,
+     "w": 1002,
+     "h": 1284,
+     "fill": "#F2EDE3",
+     "line": 1
     },
     {
      "t": "box",
      "x": 60,
-     "y": 560,
+     "y": 960,
      "w": 960,
-     "h": 260,
-     "fill": "memo",
-     "line": 5,
-     "text": "· 총급여 5,500만원 이하 → 16.5% (99만원)\n· 초과 → 13.2% (79만 2천원)\n· 수익 세금은 나중에, 연금으로 받으면 3.3~5.5%",
-     "size": 38,
-     "color": "ink",
-     "font": "body",
-     "bold": true,
-     "align": "l"
+     "h": 340,
+     "fill": "photo",
+     "img": "assets/13_diversification.png",
+     "img_position": "left bottom",
+     "img_size": "147% auto"
     },
     {
-     "t": "pill",
+     "t": "box",
      "x": 60,
-     "y": 870,
-     "w": 720,
-     "h": 190,
-     "fill": "bubble",
-     "line": 5,
+     "y": 950,
+     "w": 960,
+     "h": 2,
+     "fill": "#B7B5A8"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 65,
+     "w": 960,
+     "h": 63,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "① 연금저축",
+     "size": 36,
+     "color": "red",
+     "font": "body",
+     "align": "l",
+     "origin_index": 0,
+     "origin_text": "① 연금저축",
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 148,
+     "w": 960,
+     "h": 182,
+     "text": "600만원 넣으면\n최대 {99만원}",
+     "size": 66,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.24,
+     "origin_index": 1,
+     "origin_text": "600만원 넣으면\n최대 {99만원}",
+     "line": 0
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 350,
+     "w": 960,
+     "h": 152,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "· 총급여 5,500만원 이하 → 16.5% (99만원)\n· 초과 → 13.2% (79만 2천원)\n· 수익 세금은 나중에, 연금으로 받으면 3.3~5.5%",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": false,
+     "align": "l",
+     "origin_index": 2,
+     "origin_text": "· 총급여 5,500만원 이하 → 16.5% (99만원)\n· 초과 → 13.2% (79만 2천원)\n· 수익 세금은 나중에, 연금으로 받으면 3.3~5.5%",
+     "lh": 1.24
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 522,
+     "w": 960,
+     "h": 142,
+     "fill": "#F2EDE3",
+     "line": 0,
      "text": "급하면 해지 안 하고\n일부만 출금 OK!",
      "size": 50,
      "color": "ink",
      "font": "title",
-     "align": "c"
+     "align": "l",
+     "origin_index": 3,
+     "origin_text": "급하면 해지 안 하고\n일부만 출금 OK!",
+     "lh": 1.24
+    },
+    {
+     "t": "circle",
+     "x": 835,
+     "y": 1125,
+     "w": 190,
+     "h": 190,
+     "fill": "#F2EDE3"
     },
     {
      "t": "char",
-     "x": 800,
-     "y": 1000,
-     "w": 240,
-     "h": 320,
-     "note": "Mr. Navy: 돼지저금통에 동전"
+     "x": 845,
+     "y": 1135,
+     "w": 175,
+     "h": 175,
+     "img": "assets/navy_cutout.png",
+     "note": "사용자 4번 캐릭터 → 낙서풍 투명 컷. AI 자동 배치, 사람 손편집 아님."
     }
-   ]
+   ],
+   "design_image": "assets/13_diversification.png"
   },
   {
    "n": 4,
    "els": [
     {
      "t": "box",
-     "x": 60,
-     "y": 70,
-     "w": 300,
-     "h": 80,
-     "fill": "c2",
-     "line": 5,
-     "text": "② IRP",
-     "size": 42,
-     "color": "ink",
-     "font": "title",
-     "align": "c"
+     "x": 30,
+     "y": 24,
+     "w": 1020,
+     "h": 1302,
+     "fill": "#F2EDE3",
+     "line": 2
     },
     {
-     "t": "text",
-     "x": 60,
-     "y": 190,
-     "w": 960,
-     "h": 300,
-     "text": "300만원 더 넣으면\n합계 최대 {148만 5천원}",
-     "size": 96,
-     "color": "ink",
-     "font": "title",
-     "align": "l",
-     "lh": 1.15
+     "t": "box",
+     "x": 39,
+     "y": 33,
+     "w": 1002,
+     "h": 1284,
+     "fill": "#F2EDE3",
+     "line": 1
     },
     {
      "t": "box",
      "x": 60,
-     "y": 560,
+     "y": 960,
      "w": 960,
-     "h": 260,
-     "fill": "memo",
-     "line": 5,
-     "text": "· 연금저축 600 + IRP 300 = 900만원\n· IRP는 집 구입·질병 등 법정 사유 아니면\n  해지해야 출금 · 위험자산 70%까지만",
-     "size": 38,
-     "color": "ink",
-     "font": "body",
-     "bold": true,
-     "align": "l"
+     "h": 340,
+     "fill": "photo",
+     "img": "assets/11_saving_habit.png",
+     "img_position": "left bottom",
+     "img_size": "147% auto"
     },
     {
-     "t": "pill",
+     "t": "box",
      "x": 60,
-     "y": 870,
-     "w": 720,
-     "h": 190,
-     "fill": "bubble",
-     "line": 5,
+     "y": 950,
+     "w": 960,
+     "h": 2,
+     "fill": "#B7B5A8"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 65,
+     "w": 960,
+     "h": 63,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "② IRP",
+     "size": 36,
+     "color": "red",
+     "font": "body",
+     "align": "l",
+     "origin_index": 0,
+     "origin_text": "② IRP",
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 148,
+     "w": 960,
+     "h": 182,
+     "text": "300만원 더 넣으면\n합계 최대 {148만 5천원}",
+     "size": 66,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.24,
+     "origin_index": 1,
+     "origin_text": "300만원 더 넣으면\n합계 최대 {148만 5천원}",
+     "line": 0
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 350,
+     "w": 960,
+     "h": 152,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "· 연금저축 600 + IRP 300 = 900만원\n· IRP는 집 구입·질병 등 법정 사유 아니면\n  해지해야 출금 · 위험자산 70%까지만",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": false,
+     "align": "l",
+     "origin_index": 2,
+     "origin_text": "· 연금저축 600 + IRP 300 = 900만원\n· IRP는 집 구입·질병 등 법정 사유 아니면\n  해지해야 출금 · 위험자산 70%까지만",
+     "lh": 1.24
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 522,
+     "w": 960,
+     "h": 142,
+     "fill": "#F2EDE3",
+     "line": 0,
      "text": "그래서 600 + 300으로\n나눠 넣는 거예요",
      "size": 50,
      "color": "ink",
      "font": "title",
-     "align": "c"
+     "align": "l",
+     "origin_index": 3,
+     "origin_text": "그래서 600 + 300으로\n나눠 넣는 거예요",
+     "lh": 1.24
+    },
+    {
+     "t": "circle",
+     "x": 835,
+     "y": 1125,
+     "w": 190,
+     "h": 190,
+     "fill": "#F2EDE3"
     },
     {
      "t": "char",
-     "x": 800,
-     "y": 1000,
-     "w": 240,
-     "h": 320,
-     "note": "Mr. Navy: 자물쇠 달린 금고"
+     "x": 845,
+     "y": 1135,
+     "w": 175,
+     "h": 175,
+     "img": "assets/navy_cutout.png",
+     "note": "사용자 4번 캐릭터 → 낙서풍 투명 컷. AI 자동 배치, 사람 손편집 아님."
     }
-   ]
+   ],
+   "design_image": "assets/11_saving_habit.png"
   },
   {
    "n": 5,
    "els": [
     {
      "t": "box",
-     "x": 60,
-     "y": 70,
-     "w": 300,
-     "h": 80,
-     "fill": "c3",
-     "line": 5,
-     "text": "③ ISA",
-     "size": 42,
-     "color": "ink",
-     "font": "title",
-     "align": "c"
+     "x": 30,
+     "y": 24,
+     "w": 1020,
+     "h": 1302,
+     "fill": "#F2EDE3",
+     "line": 2
     },
     {
-     "t": "text",
-     "x": 60,
-     "y": 190,
-     "w": 960,
-     "h": 300,
-     "text": "같은 수익인데 세금\n107.8만 → {29.7만원}",
-     "size": 96,
-     "color": "ink",
-     "font": "title",
-     "align": "l",
-     "lh": 1.15
+     "t": "box",
+     "x": 39,
+     "y": 33,
+     "w": 1002,
+     "h": 1284,
+     "fill": "#F2EDE3",
+     "line": 1
     },
     {
      "t": "box",
      "x": 60,
-     "y": 560,
+     "y": 960,
      "w": 960,
-     "h": 260,
-     "fill": "memo",
-     "line": 5,
-     "text": "· 이익 700 · 손실 200 → 순이익 500만 계산\n· 200만원 비과세 + 나머지 9.9%\n· 연 2,000만원, 최대 1억 / 남은 한도 이월",
-     "size": 38,
-     "color": "ink",
-     "font": "body",
-     "bold": true,
-     "align": "l"
+     "h": 340,
+     "fill": "photo",
+     "img": "assets/12_emergency_fund.png",
+     "img_position": "left bottom",
+     "img_size": "147% auto"
     },
     {
-     "t": "pill",
+     "t": "box",
      "x": 60,
-     "y": 870,
-     "w": 720,
-     "h": 190,
-     "fill": "bubble",
-     "line": 5,
+     "y": 950,
+     "w": 960,
+     "h": 2,
+     "fill": "#B7B5A8"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 65,
+     "w": 960,
+     "h": 63,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "③ ISA",
+     "size": 36,
+     "color": "red",
+     "font": "body",
+     "align": "l",
+     "origin_index": 0,
+     "origin_text": "③ ISA",
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 148,
+     "w": 960,
+     "h": 182,
+     "text": "같은 수익인데 세금\n107.8만 → {29.7만원}",
+     "size": 66,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.24,
+     "origin_index": 1,
+     "origin_text": "같은 수익인데 세금\n107.8만 → {29.7만원}",
+     "line": 0
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 350,
+     "w": 960,
+     "h": 152,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "· 이익 700 · 손실 200 → 순이익 500만 계산\n· 200만원 비과세 + 나머지 9.9%\n· 연 2,000만원, 최대 1억 / 남은 한도 이월",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": false,
+     "align": "l",
+     "origin_index": 2,
+     "origin_text": "· 이익 700 · 손실 200 → 순이익 500만 계산\n· 200만원 비과세 + 나머지 9.9%\n· 연 2,000만원, 최대 1억 / 남은 한도 이월",
+     "lh": 1.24
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 522,
+     "w": 960,
+     "h": 142,
+     "fill": "#F2EDE3",
+     "line": 0,
      "text": "번 돈이랑 잃은 돈을\n합쳐서 계산!",
      "size": 50,
      "color": "ink",
      "font": "title",
-     "align": "c"
+     "align": "l",
+     "origin_index": 3,
+     "origin_text": "번 돈이랑 잃은 돈을\n합쳐서 계산!",
+     "lh": 1.24
+    },
+    {
+     "t": "circle",
+     "x": 835,
+     "y": 1125,
+     "w": 190,
+     "h": 190,
+     "fill": "#F2EDE3"
     },
     {
      "t": "char",
-     "x": 800,
-     "y": 1000,
-     "w": 240,
-     "h": 320,
-     "note": "Mr. Navy: 계산기"
+     "x": 845,
+     "y": 1135,
+     "w": 175,
+     "h": 175,
+     "img": "assets/navy_cutout.png",
+     "note": "사용자 4번 캐릭터 → 낙서풍 투명 컷. AI 자동 배치, 사람 손편집 아님."
     }
-   ]
+   ],
+   "design_image": "assets/12_emergency_fund.png"
   },
   {
    "n": 6,
    "els": [
     {
      "t": "box",
-     "x": 60,
-     "y": 70,
-     "w": 480,
-     "h": 80,
-     "fill": "c4",
-     "line": 5,
-     "text": "④ ISA 만기 → 연금",
-     "size": 42,
-     "color": "ink",
-     "font": "title",
-     "align": "c"
+     "x": 30,
+     "y": 24,
+     "w": 1020,
+     "h": 1302,
+     "fill": "#F2EDE3",
+     "line": 2
     },
     {
-     "t": "text",
-     "x": 60,
-     "y": 190,
-     "w": 960,
-     "h": 300,
-     "text": "옮기기만 해도\n공제 한도 {+300만원}",
-     "size": 100,
-     "color": "ink",
-     "font": "title",
-     "align": "l",
-     "lh": 1.15
+     "t": "box",
+     "x": 39,
+     "y": 33,
+     "w": 1002,
+     "h": 1284,
+     "fill": "#F2EDE3",
+     "line": 1
     },
     {
      "t": "box",
      "x": 60,
-     "y": 560,
+     "y": 960,
      "w": 960,
-     "h": 260,
-     "fill": "memo",
-     "line": 5,
-     "text": "· 만기 60일 안에 연금계좌로 이전\n· 이전 금액의 10%, 최대 300만원 추가\n· 900 + 300 = 1,200만원 × 16.5% = 198만원",
-     "size": 38,
-     "color": "ink",
-     "font": "body",
-     "bold": true,
-     "align": "l"
+     "h": 340,
+     "fill": "photo",
+     "img": "assets/13_diversification.png",
+     "img_position": "left bottom",
+     "img_size": "147% auto"
     },
     {
-     "t": "pill",
+     "t": "box",
      "x": 60,
-     "y": 870,
-     "w": 720,
-     "h": 190,
-     "fill": "bubble",
-     "line": 5,
+     "y": 950,
+     "w": 960,
+     "h": 2,
+     "fill": "#B7B5A8"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 65,
+     "w": 960,
+     "h": 63,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "④ ISA 만기 → 연금",
+     "size": 36,
+     "color": "red",
+     "font": "body",
+     "align": "l",
+     "origin_index": 0,
+     "origin_text": "④ ISA 만기 → 연금",
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "text",
+     "x": 60,
+     "y": 148,
+     "w": 960,
+     "h": 182,
+     "text": "옮기기만 해도\n공제 한도 {+300만원}",
+     "size": 66,
+     "color": "ink",
+     "font": "title",
+     "align": "l",
+     "lh": 1.24,
+     "origin_index": 1,
+     "origin_text": "옮기기만 해도\n공제 한도 {+300만원}",
+     "line": 0
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 350,
+     "w": 960,
+     "h": 152,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "· 만기 60일 안에 연금계좌로 이전\n· 이전 금액의 10%, 최대 300만원 추가\n· 900 + 300 = 1,200만원 × 16.5% = 198만원",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": false,
+     "align": "l",
+     "origin_index": 2,
+     "origin_text": "· 만기 60일 안에 연금계좌로 이전\n· 이전 금액의 10%, 최대 300만원 추가\n· 900 + 300 = 1,200만원 × 16.5% = 198만원",
+     "lh": 1.24
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 522,
+     "w": 960,
+     "h": 142,
+     "fill": "#F2EDE3",
+     "line": 0,
      "text": "모르면 그냥\n못 받는 300만원!",
      "size": 50,
      "color": "ink",
      "font": "title",
-     "align": "c"
+     "align": "l",
+     "origin_index": 3,
+     "origin_text": "모르면 그냥\n못 받는 300만원!",
+     "lh": 1.24
+    },
+    {
+     "t": "circle",
+     "x": 835,
+     "y": 1125,
+     "w": 190,
+     "h": 190,
+     "fill": "#F2EDE3"
     },
     {
      "t": "char",
-     "x": 800,
-     "y": 1000,
-     "w": 240,
-     "h": 320,
-     "note": "Mr. Navy: 상자를 옆 계좌로 옮김"
+     "x": 845,
+     "y": 1135,
+     "w": 175,
+     "h": 175,
+     "img": "assets/navy_cutout.png",
+     "note": "사용자 4번 캐릭터 → 낙서풍 투명 컷. AI 자동 배치, 사람 손편집 아님."
     }
-   ]
+   ],
+   "design_image": "assets/13_diversification.png"
   },
   {
    "n": 7,
    "els": [
     {
      "t": "box",
-     "x": 300,
-     "y": 70,
-     "w": 480,
-     "h": 84,
-     "fill": "red",
-     "line": 5,
-     "text": "받기 전 꼭 체크",
-     "size": 42,
-     "color": "#FFFFFF",
-     "font": "title",
-     "align": "c"
+     "x": 30,
+     "y": 24,
+     "w": 1020,
+     "h": 1302,
+     "fill": "#F2EDE3",
+     "line": 2
+    },
+    {
+     "t": "box",
+     "x": 39,
+     "y": 33,
+     "w": 1002,
+     "h": 1284,
+     "fill": "#F2EDE3",
+     "line": 1
     },
     {
      "t": "box",
      "x": 60,
-     "y": 210,
+     "y": 960,
      "w": 960,
-     "h": 560,
-     "fill": "memo",
-     "line": 5,
-     "text": "✔ 연금이 아닌 방식으로 찾으면\n   (나이 무관) 기타소득세 16.5%\n\n✔ 생활비·비상금은 넣지 말기\n   3~5년 쓸 돈은 ISA로\n\n✔ 올해 공제는 올해 납입분만\n   금융사 12월 마감일 확인",
-     "size": 44,
-     "color": "ink",
-     "font": "body",
-     "bold": true,
-     "align": "l"
+     "h": 340,
+     "fill": "photo",
+     "img": "assets/11_saving_habit.png",
+     "img_position": "left bottom",
+     "img_size": "147% auto"
     },
     {
-     "t": "pill",
+     "t": "box",
      "x": 60,
-     "y": 830,
-     "w": 760,
-     "h": 220,
-     "fill": "bubble",
-     "line": 5,
+     "y": 950,
+     "w": 960,
+     "h": 2,
+     "fill": "#B7B5A8"
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 65,
+     "w": 960,
+     "h": 63,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "받기 전 꼭 체크",
+     "size": 36,
+     "color": "red",
+     "font": "body",
+     "align": "l",
+     "origin_index": 0,
+     "origin_text": "받기 전 꼭 체크",
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 148,
+     "w": 960,
+     "h": 376,
+     "fill": "#F2EDE3",
+     "line": 0,
+     "text": "✔ 연금이 아닌 방식으로 찾으면\n   (나이 무관) 기타소득세 16.5%\n\n✔ 생활비·비상금은 넣지 말기\n   3~5년 쓸 돈은 ISA로\n\n✔ 올해 공제는 올해 납입분만\n   금융사 12월 마감일 확인",
+     "size": 36,
+     "color": "ink",
+     "font": "body",
+     "bold": false,
+     "align": "l",
+     "origin_index": 1,
+     "origin_text": "✔ 연금이 아닌 방식으로 찾으면\n   (나이 무관) 기타소득세 16.5%\n\n✔ 생활비·비상금은 넣지 말기\n   3~5년 쓸 돈은 ISA로\n\n✔ 올해 공제는 올해 납입분만\n   금융사 12월 마감일 확인",
+     "lh": 1.24
+    },
+    {
+     "t": "box",
+     "x": 60,
+     "y": 544,
+     "w": 960,
+     "h": 138,
+     "fill": "#F2EDE3",
+     "line": 0,
      "text": "내 연봉으로 얼마 받는지\n댓글에 '절세' 남겨주세요!",
      "size": 48,
      "color": "ink",
      "font": "title",
-     "align": "c"
+     "align": "l",
+     "origin_index": 2,
+     "origin_text": "내 연봉으로 얼마 받는지\n댓글에 '절세' 남겨주세요!",
+     "lh": 1.24
     },
     {
      "t": "text",
      "x": 60,
-     "y": 1100,
-     "w": 700,
-     "h": 120,
+     "y": 702,
+     "w": 960,
+     "h": 83,
      "text": "출처: 뉴스웍스 2026.11.7 · 박곰희TV · 세법은 바뀔 수 있어요\n개인 상황마다 다르니 금융사·국세청 안내 확인",
      "size": 26,
-     "color": "#666666",
+     "color": "ink",
      "font": "body",
-     "align": "l"
+     "align": "l",
+     "origin_index": 3,
+     "origin_text": "출처: 뉴스웍스 2026.11.7 · 박곰희TV · 세법은 바뀔 수 있어요\n개인 상황마다 다르니 금융사·국세청 안내 확인",
+     "line": 0,
+     "lh": 1.24,
+     "bold": false
+    },
+    {
+     "t": "circle",
+     "x": 835,
+     "y": 1125,
+     "w": 190,
+     "h": 190,
+     "fill": "#F2EDE3"
     },
     {
      "t": "char",
-     "x": 820,
-     "y": 1000,
-     "w": 230,
-     "h": 320,
-     "note": "Mr. Navy: 엄지척 + 컵(새끼손가락)"
+     "x": 845,
+     "y": 1135,
+     "w": 175,
+     "h": 175,
+     "img": "assets/navy_cutout.png",
+     "note": "사용자 4번 캐릭터 → 낙서풍 투명 컷. AI 자동 배치, 사람 손편집 아님."
     }
-   ]
+   ],
+   "design_image": "assets/11_saving_habit.png"
   }
  ],
  "from_v3": "V3_06",
- "style_ref": "PENDING_USER_STYLE"
+ "style_ref": {
+  "references": [
+   "user attachment 1",
+   "user attachment 3",
+   "user attachment 8",
+   "user attachment 4 (character)",
+   "user attachment 5 (doodle)"
+  ],
+  "palette": "cream, charcoal, teal, vermilion",
+  "application": "fine double border, editorial serif headlines, red emphasis, small navy mascot; original content blocks retained"
+ },
+ "layout_status": "디자인 시안 · 사실 확인 및 사용자 최종 편집 대기",
+ "redesign_metrics": {
+  "canvas": [
+   1080,
+   1350
+  ],
+  "outer_margin": 30,
+  "text_margin": 60,
+  "minimum_font_px": 26,
+  "body_font": "Pretendard",
+  "title_font": "Noto Serif CJK KR",
+  "letter_spacing_em": -0.03,
+  "inherited_benchmark_note": "여백·글자 크기는 비주얼 벤치마크(@ram.zee 손글씨형 카드: 좌우 여백 약 6%, 제목이 화면 폭의 약 85%, 메모·말풍선 테두리 5px)를 1080px 기준으로 환산한 값",
+  "note": "사용자 제공 이미지에서 추출한 스타일이며 신규 상위 게시물 실측으로 주장하지 않음"
+ },
+ "redesign_audit": {
+  "original_texts_unchanged": true,
+  "missing_original_src": [
+   {
+    "slide": 1,
+    "element": 0,
+    "text": "정리본 최최최종.zip"
+   },
+   {
+    "slide": 1,
+    "element": 1,
+    "text": "절세계좌\n{4총사} 정리"
+   },
+   {
+    "slide": 1,
+    "element": 2,
+    "text": "연금저축 · IRP · ISA · ISA→연금\n싹 다 정리했는데.."
+   },
+   {
+    "slide": 1,
+    "element": 3,
+    "text": "이거 모르면 최대\n198만원 못 받는다고?!"
+   },
+   {
+    "slide": 2,
+    "element": 0,
+    "text": "한눈에 보기"
+   },
+   {
+    "slide": 2,
+    "element": 1,
+    "text": "절세계좌 {4총사}"
+   },
+   {
+    "slide": 2,
+    "element": 3,
+    "text": "연금저축\n600만원"
+   },
+   {
+    "slide": 2,
+    "element": 4,
+    "text": "IRP\n+300만원"
+   },
+   {
+    "slide": 2,
+    "element": 5,
+    "text": "ISA\n번 돈 절세"
+   },
+   {
+    "slide": 2,
+    "element": 6,
+    "text": "ISA→연금\n+300만원"
+   },
+   {
+    "slide": 2,
+    "element": 7,
+    "text": "연금저축+IRP 900만원 → 최대 148만 5천원\n+ ISA 만기 이전 300만원 → 최대 198만원"
+   },
+   {
+    "slide": 2,
+    "element": 8,
+    "text": "총급여 5,500만원 이하 16.5% 기준 (초과 13.2%)"
+   },
+   {
+    "slide": 3,
+    "element": 0,
+    "text": "① 연금저축"
+   },
+   {
+    "slide": 3,
+    "element": 1,
+    "text": "600만원 넣으면\n최대 {99만원}"
+   },
+   {
+    "slide": 3,
+    "element": 2,
+    "text": "· 총급여 5,500만원 이하 → 16.5% (99만원)\n· 초과 → 13.2% (79만 2천원)\n· 수익 세금은 나중에, 연금으로 받으면 3.3~5.5%"
+   },
+   {
+    "slide": 3,
+    "element": 3,
+    "text": "급하면 해지 안 하고\n일부만 출금 OK!"
+   },
+   {
+    "slide": 4,
+    "element": 0,
+    "text": "② IRP"
+   },
+   {
+    "slide": 4,
+    "element": 1,
+    "text": "300만원 더 넣으면\n합계 최대 {148만 5천원}"
+   },
+   {
+    "slide": 4,
+    "element": 2,
+    "text": "· 연금저축 600 + IRP 300 = 900만원\n· IRP는 집 구입·질병 등 법정 사유 아니면\n  해지해야 출금 · 위험자산 70%까지만"
+   },
+   {
+    "slide": 4,
+    "element": 3,
+    "text": "그래서 600 + 300으로\n나눠 넣는 거예요"
+   },
+   {
+    "slide": 5,
+    "element": 0,
+    "text": "③ ISA"
+   },
+   {
+    "slide": 5,
+    "element": 1,
+    "text": "같은 수익인데 세금\n107.8만 → {29.7만원}"
+   },
+   {
+    "slide": 5,
+    "element": 2,
+    "text": "· 이익 700 · 손실 200 → 순이익 500만 계산\n· 200만원 비과세 + 나머지 9.9%\n· 연 2,000만원, 최대 1억 / 남은 한도 이월"
+   },
+   {
+    "slide": 5,
+    "element": 3,
+    "text": "번 돈이랑 잃은 돈을\n합쳐서 계산!"
+   },
+   {
+    "slide": 6,
+    "element": 0,
+    "text": "④ ISA 만기 → 연금"
+   },
+   {
+    "slide": 6,
+    "element": 1,
+    "text": "옮기기만 해도\n공제 한도 {+300만원}"
+   },
+   {
+    "slide": 6,
+    "element": 2,
+    "text": "· 만기 60일 안에 연금계좌로 이전\n· 이전 금액의 10%, 최대 300만원 추가\n· 900 + 300 = 1,200만원 × 16.5% = 198만원"
+   },
+   {
+    "slide": 6,
+    "element": 3,
+    "text": "모르면 그냥\n못 받는 300만원!"
+   },
+   {
+    "slide": 7,
+    "element": 0,
+    "text": "받기 전 꼭 체크"
+   },
+   {
+    "slide": 7,
+    "element": 1,
+    "text": "✔ 연금이 아닌 방식으로 찾으면\n   (나이 무관) 기타소득세 16.5%\n\n✔ 생활비·비상금은 넣지 말기\n   3~5년 쓸 돈은 ISA로\n\n✔ 올해 공제는 올해 납입분만\n   금융사 12월 마감일 확인"
+   },
+   {
+    "slide": 7,
+    "element": 2,
+    "text": "내 연봉으로 얼마 받는지\n댓글에 '절세' 남겨주세요!"
+   },
+   {
+    "slide": 7,
+    "element": 3,
+    "text": "출처: 뉴스웍스 2026.11.7 · 박곰희TV · 세법은 바뀔 수 있어요\n개인 상황마다 다르니 금융사·국세청 안내 확인"
+   }
+  ],
+  "human_final_edit": false,
+  "inherited_facts_count": 0
+ }
 }

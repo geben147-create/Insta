@@ -1,0 +1,48 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>인스타 카드뉴스·릴스 벤치마크 뷰어</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0f1115;color:#eee;font-family:"Malgun Gothic",sans-serif}
+#side{position:fixed;left:0;top:0;bottom:0;width:250px;background:#151922;border-right:1px solid #2b3040;overflow:auto;transition:transform .2s;z-index:5;padding:10px 0}
+body.hide #side{transform:translateX(-250px)}#main{margin-left:250px;transition:margin .2s}body.hide #main{margin-left:0}
+.grp{color:#ffd166;font-size:12px;padding:10px 14px 4px;font-weight:700}
+.mi{display:block;padding:8px 14px;cursor:pointer;font-size:13px;color:#ccd;border-left:3px solid transparent}.mi:hover{background:#1d2330}.mi.on{background:#232b3c;border-left-color:#ffd166;color:#fff}.mi small{color:#889;margin-left:4px}
+#bar{position:sticky;top:0;background:#0f1115ee;z-index:4;padding:10px 14px;border-bottom:1px solid #2b3040;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button,select{background:#1a1d24;color:#eee;border:1px solid #2b3040;border-radius:6px;padding:5px 10px;cursor:pointer;font-size:13px}button.on{background:#ffd166;color:#000;font-weight:700}
+#t{font-weight:700;margin-right:10px}.lab{color:#9aa;font-size:12px}
+#g{display:grid;gap:8px;padding:12px 14px 40px;grid-template-columns:repeat(6,1fr)}
+.c{background:#1a1d24;border-radius:8px;overflow:hidden;border:1px solid #2b3040;position:relative}.c img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover;background:#000}
+.b{padding:6px;font-size:11px;line-height:1.45;word-break:break-all}.k{color:#ffd166;font-weight:700}.ko{color:#9fe3a8}.ja{color:#778;font-size:10px}.tag{position:absolute;top:4px;left:4px;background:#000a;border-radius:4px;padding:1px 5px;font-size:10px}.rl{color:#ff9b9b}.nr{color:#9fe3a8}
+a{color:#8ab4ff;text-decoration:none}#tg{position:fixed;left:256px;bottom:12px;z-index:6;opacity:.85}body.hide #tg{left:6px}
+@media(max-width:700px){#side{width:200px}#main{margin-left:0}body:not(.hide) #side{box-shadow:4px 0 12px #000}}
+</style></head><body>
+<div id="side"></div><button id="tg" title="메뉴 열기/닫기">☰</button>
+<div id="main"><div id="bar"><span id="t"></span>
+<span class="lab">열</span><span id="cols"></span>
+<span class="lab">정렬</span><select id="key"><option value="d">날짜</option><option value="l">좋아요</option><option value="m">댓글</option><option value="p">조회수(릴스)</option></select>
+<button id="dir">내림차순 ▼</button><label class="lab"><input type="checkbox" id="pin" checked> 메뉴 고정</label></div>
+<div id="g"></div></div>
+<script>
+const MENU=[["인스타 사진·카드(국내)",[["A","AI창업·지원금 80"],["B","주식·ETF·경제 80"],["C","부동산 80"],["F","총정리·TOP형 카드뉴스"]]],["릴스·고조회(수백만~천만뷰)",[["G","국내 섹터 릴스"],["D","해외 릴스(미·영·불·일·한)"]]],["해외·일본",[["E","해외 사진·카드"],["H","일본 (한글번역)"]]]];
+let cur=null,cols=+localStorage.cols||6,desc=true,key='d';
+const side=document.getElementById('side');
+side.innerHTML='<div style="padding:4px 14px 6px;font-weight:700">인스타 수익화 연구소</div>'+MENU.map(([g,a])=>'<div class="grp">'+g+'</div>'+a.map(([k,n])=>'<a class="mi" data-k="'+k+'">'+n+'<small id="n'+k+'"></small></a>').join('')).join('');
+const colsEl=document.getElementById('cols');[3,4,5,6,7,8,10].forEach(n=>{const b=document.createElement('button');b.textContent=n;b.dataset.n=n;b.onclick=()=>{cols=n;localStorage.cols=n;render()};colsEl.appendChild(b)});
+document.getElementById('key').onchange=e=>{key=e.target.value;render()};
+document.getElementById('dir').onclick=()=>{desc=!desc;render()};
+document.getElementById('tg').onclick=()=>document.body.classList.toggle('hide');
+document.getElementById('pin').onchange=e=>{if(!e.target.checked)document.body.classList.add('hide')};
+function fmt(n){if(n==null)return'-';return n>=1e8?(n/1e8).toFixed(1)+'억':n>=1e4?(n/1e4).toFixed(1)+'만':n.toLocaleString()}
+function esc(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function load(k){return new Promise(r=>{if(window.DATA&&DATA[k])return r();const s=document.createElement('script');s.src='data_'+k+'.js';s.onload=r;document.body.appendChild(s)})}
+async function open_(k){cur=k;document.querySelectorAll('.mi').forEach(e=>e.classList.toggle('on',e.dataset.k===k));document.getElementById('g').innerHTML='<div style="padding:30px">불러오는 중...</div>';await load(k);location.hash=k;
+ if(k==='G'||k==='D'){key='p';document.getElementById('key').value='p'}else if(key==='p'){key='l';document.getElementById('key').value='l'}render();
+ if(!document.getElementById('pin').checked)document.body.classList.add('hide')}
+function render(){if(!cur)return;const arr=[...DATA[cur]];const v=x=>x[key]==null?(key==='d'?'':-1):x[key];
+ arr.sort((a,b)=>{const A=v(a),B=v(b);const c=A<B?-1:A>B?1:0;return desc?-c:c});
+ const name=MENU.flatMap(m=>m[1]).find(x=>x[0]===cur)[1];document.getElementById('t').textContent=name+' ('+arr.length+')';
+ document.getElementById('dir').textContent=desc?'내림차순 ▼':'오름차순 ▲';
+ document.querySelectorAll('#cols button').forEach(b=>b.classList.toggle('on',+b.dataset.n===cols));
+ const g=document.getElementById('g');g.style.gridTemplateColumns='repeat('+cols+',1fr)';
+ g.innerHTML=arr.map((x,i)=>'<div class="c"><span class="tag">'+(i+1)+' · '+esc(x.t)+'</span><a href="'+x.u+'" target="_blank"><img loading="lazy" src="'+x.i+'"></a><div class="b"><a href="'+x.u+'" target="_blank">@'+esc(x.a)+'</a><br>'+(x.p?'<span class="k">▶'+fmt(x.p)+'</span> ':'')+'♥'+fmt(x.l)+' 💬'+fmt(x.m)+'<br>'+esc(x.d||'')+(x.x?' <span class="rl">실사</span>':(x.p?' <span class="nr">카드형</span>':''))+(x.ko?'<div class="ko">'+esc(x.ko)+'</div><div class="ja">'+esc(x.ja)+'</div>':'<div>'+esc(x.h)+'</div>')+(x.r?'<div class="k">예상수익 ₩'+esc(x.r)+'</div>':'')+'</div></div>').join('')}
+side.querySelectorAll('.mi').forEach(e=>e.onclick=()=>open_(e.dataset.k));
+open_(location.hash.slice(1)||'A');
+</script></body></html>

@@ -1,0 +1,20 @@
+GitHub 수식 ID,수식 이름,원래 의미(Threads),YouTube로 환산한 식,이번 조사 적용 결과(중앙값/상태),수치 해석 방법,적용 가능,검증
+D-3b,modified_z,조회수가 같은 그룹 중앙값 대비 얼마나 튀나,0.6745×(log조회수−중앙값)/MAD (MAD=0이면 평균절대편차 폴백),"분야별 계산. 대부분 2 이하로 ""none""(후보가 모두 상위 조회수 집합이라 편차 작음), 큰 채널 1개 surge 3.52"," >5 viral, >3.5 surge, >3 trending, >2 watch",O,VERIFIED(식 확인)
+D-4a,alert_level,z와 7일 성장률로 라벨,z 기준만 적용(7일 성장률은 2시점 조회수가 없어 UNKNOWN),대부분 none,viral/surge/trending/watch/none,부분,NEEDS_REVIEW
+A-1,z_vph,계정 평균 VPH 대비 현재 VPH z,(영상 평균VPH−채널 평균VPH)/표준편차. 실시간 VPH는 2시점 측정이 없어 불가,평균VPH(생애평균)만 기록. 실시간 VPH=UNKNOWN,생애평균 VPH는 참고용,부분,NOT_MEASURED
+A-2,red_ocean_multiplier,레드오션 주제일수록 가점,"1+min(포화도×0.5,0.5). 포화도=분야 키워드 검색 상위 중 동일 주제 비율로 근사 가능하나 이번엔 미측정",UNKNOWN,포화 주제에서 터지면 수요 증거,X,UNKNOWN
+B-4a,engagement_rate,(좋아요+댓글)/조회수,(좋아요+댓글)/조회수,전 분야 중앙값 1.14%,"1%↑ 양호, 3%↑ 매우 강함(휴리스틱)",O,VERIFIED(식)
+C-1a,like_ratio,좋아요/조회수,좋아요(근사)/조회수,중앙값 0.96%,분야 비교용,O,VERIFIED(식)
+T-4,reply_ratio,댓글/조회수,댓글/조회수(comment_ratio),중앙값 0.12%,0.3%↑면 토론·질문 유발형,O,VERIFIED(식)
+T-7,share_rate,공유/조회수,YouTube는 공유수 비공개,UNKNOWN,대체 지표: 댓글율·좋아요율(공유 아님),X,UNKNOWN
+"T-1,T-2",repost/quote rate,리포스트·인용률,YouTube에 없음,해당 없음,-,X,해당없음
+CH-2,views_per_follower,평균조회/팔로워,조회수/구독자 (영상 기준),전체 중앙값 0.626배; 급상승 기준 10배↑,10배↑ = 구독자 밖으로 확산,O,VERIFIED(식)
+CH-3,outlier_ratio,영상조회/계정 평균조회,영상 조회/채널 최근 영상 평균(반올림 값),전체 중앙값 1.92배,3배↑ = 채널내 급등,O,"VERIFIED(식, 평균은 근사)"
+CH-1,account_momentum,30일 조회성장×구독성장,2시점 구독자·조회수 필요,UNKNOWN(이번 1회 관측),다음 조사에서 재측정 필요,X,NOT_MEASURED
+CH-4,content_efficiency,30일 조회/게시물수,채널 30일 조회/업로드수,신생채널 일부만 근사 가능,-,부분,NEEDS_REVIEW
+CH-5,posting_consistency,업로드 간격 규칙성,영상 업로드 간격 표준편차,미수집,-,부분,NOT_MEASURED
+CH-6,audience_credibility,팔로워 참여율 5%↑면 REAL,(좋아요+댓글)/조회수 5%↑ 근사,대부분 5% 미만(YouTube 특성상 기준 재조정 필요),Threads 기준 그대로 쓰면 오판,부분,NEEDS_REVIEW
+C-2b,follower_conversion,구독 전환율,구독자 증가/조회수. 영상별 구독 증가는 공개되지 않음,UNKNOWN,-,X,UNKNOWN
+D-4b,growth_trigger,7일 성장 2배 초과,7일 간격 2시점 조회수 필요,UNKNOWN,다음 일일보도에서 스냅샷 추가,X,NOT_MEASURED
+(YouTube 전용),RPM 수익 추정,Threads에는 없음,"조회수/1000×RPM. 시트 06 가정 LONG 1000/2500/5000원, SHORTS 20/70/150원 + 분야 보정(가정)",분야별 RPM은 N3 참고,실제 수익·RPM·시청지속률은 UNKNOWN. 가정값임,O,가정
+(참고),Threads 만족도 점수 T-5,댓글/리포스트/인용/팔로워 가중,YouTube 불가,-,-,X,해당없음

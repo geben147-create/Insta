@@ -55,8 +55,8 @@ function draw(){const L=filt();$('cnt').textContent=L.length+'개';$('g').innerH
 window.tog=(id,v)=>{v?SEL.add(id):SEL.delete(id);$('selc').textContent=SEL.size;const c=document.querySelector('.c[data-id="'+id+'"]');if(c)c.classList.toggle('sel',v)};
 window.subs=async(id,btn)=>{const box=$('s_'+id);if(box.classList.contains('on')){box.classList.remove('on');btn.textContent='📄 자막 보기';return}
  btn.textContent='⏳';const txt=await getSub(id);const tr=TR[id]||{};
- const lines=txt.split('\n').filter(l=>/^\[/.test(l));let k=-1;
- box.innerHTML='<div class="hint">🔴 외국어 발화(붉은 배경)는 번역이 있으면 아래 빨간 칸에 한국어 번역이 붙습니다. 번역 전 구간은 원문만 표시.</div>'+lines.map(l=>{const m=l.match(/^\[(\d+:\d+)\] \((.+?)\) (.*)$/);if(!m)return '';const fo=/원음/.test(m[2]);let trn='';if(fo){k++;if(tr[k]!==undefined)trn='<span class="tr">🇰🇷 '+esc(tr[k])+'</span>'}return '<div class="ln '+(fo?'fo':'ko')+'"><span class="t">'+m[1]+'</span>'+esc(m[3])+trn+'</div>'}).join('');
+ const lines=txt.split('\n').filter(l=>/^\[/.test(l));
+ box.innerHTML='<div class="hint">🔴 외국어 발화(붉은 배경) 중 번역된 구간은 빨간 칸에 한국어 번역이 붙습니다. 번역 안 된 구간은 원문만.</div>'+lines.map(l=>{const m=l.match(/^\[(\d+:\d+)\] \((.+?)\) (.*)$/);if(!m)return '';const fo=/원음/.test(m[2]);let trn='';if(fo&&tr[m[1]]!==undefined)trn='<span class="tr">🇰🇷 '+esc(tr[m[1]])+'</span>';return '<div class="ln '+(fo?'fo':'ko')+'"><span class="t">'+m[1]+'</span>'+esc(m[3])+trn+'</div>'}).join('');
  box.classList.add('on');btn.textContent='📄 자막 접기'};
 window.cp=async id=>{const t=await getSub(id);await navigator.clipboard.writeText(t.replace(/^\ufeff/,''));alert('자막 복사됨 → 구글 시트 탭 셀 A1에 붙여넣기')};
 $('dl').onclick=async()=>{const ids=[...SEL];if(!ids.length){alert('먼저 카드 우하단 체크박스로 영상을 선택하세요');return}let out='';for(const id of ids){const t=await getSub(id);out+='\n\n==================================================\n'+t.replace(/^\ufeff/,'')}

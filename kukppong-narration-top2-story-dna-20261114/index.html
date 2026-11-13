@@ -12,7 +12,7 @@ h2{font-size:25px;letter-spacing:-.7px;margin:9px 0 14px;line-height:1.3}h3{font
 .beats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.beat{border:1px solid #36516f;border-radius:15px;background:#18273d;padding:17px;position:relative;scroll-margin-top:85px}.beat .top{display:flex;justify-content:space-between;gap:9px;align-items:center}.beat .time{font-size:12px;font-weight:900;color:var(--gold)}.beat .pill{padding:2px 8px;border:1px solid #546e8b;border-radius:99px;font-size:10px;color:#d4e7f5}.beat .role{font-size:11px;color:#8bdfe1;font-weight:800;margin-top:6px}.beat h3{font-size:17px;margin:3px 0 7px}.beat p{font-size:13px;line-height:1.73;margin:0;color:#cdd9eb}.evidence{border-top:1px solid #39516d;margin-top:14px;padding-top:10px}.evidence label{font-size:10px;font-weight:900;letter-spacing:.2px;color:#f5cd71}.evidence blockquote{margin:5px 0 4px;color:#fbe3a6;font-size:15px;font-weight:750;line-height:1.45}.evidence a{font-size:11px;text-decoration:none;color:#98cdf5}.moodline{display:flex;flex-wrap:wrap;gap:7px}.mood{background:#1d3550;border:1px solid #3e6684;padding:4px 10px;border-radius:10px;font-size:11px;font-weight:800}.device-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}.device{border:1px solid #364d69;background:#13243b;border-radius:12px;padding:15px}.device .number{color:var(--gold);font-size:11px;font-weight:900}.device h3{font-size:15px;margin:5px 0}.device p{font-size:12px;color:#bacadd;line-height:1.7}.device a{font-size:11px;font-weight:800}.barlabel{display:flex;align-items:center;justify-content:space-between;gap:7px;font-size:11px;color:#b8d1e4}.leg{display:flex;gap:10px;flex-wrap:wrap;font-size:10px;color:#adbfdb;margin:8px 0 0}.dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:4px}.sources{display:flex;flex-wrap:wrap;gap:9px}.sources a{font-size:12px;text-decoration:none;border:1px solid #466b90;border-radius:9px;padding:7px 10px;background:#1b3653}.footer{margin-top:38px;padding-top:20px;border-top:1px solid #304663;color:#92a8c3;font-size:11px}.meta{display:flex;flex-wrap:wrap;gap:9px;color:#9bb3cb;font-size:11px;font-weight:800;margin:9px 0}
 @media(max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}.timeline{grid-template-columns:repeat(2,1fr)}.device-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:680px){main{padding:21px 12px 60px}.twocol,.beats,.device-grid{grid-template-columns:1fr}.timeline{grid-template-columns:repeat(2,1fr)}.hero h1{letter-spacing:-1px}.navlinks a{font-size:10px;padding:4px 6px}.stat strong{font-size:22px}.stat{padding:12px}.beat{padding:13px}}
 </style></head><body>
-<nav><div class="navinner"><div class="brand">🎙️ <b>NARRATION DNA</b> | 국뽕 TOP 2</div><div class="navlinks"><a href="#compare">두 편 비교</a><a href="#details">대본 20구간</a><a href="#devices">시청 지속 장치</a><a href="#sources">원본 근거</a><a href="../kukppong-thumbnail-formulas-20261113/">썸네일 분석</a></div></div></nav>
+<nav><div class="navinner"><div class="brand">🎙️ <b>NARRATION DNA</b> | 국뽕 TOP 2</div><div class="navlinks"><a href="#compare">두 편 비교</a><a href="#details">대본 20구간</a><a href="#devices">시청 지속 장치</a><a href="#language">나레이션·자막</a><a href="#sources">원본 근거</a><a href="../kukppong-thumbnail-formulas-20261113/">썸네일 분석</a></div></div></nav>
 <main>
 <div class="hero"><span class="eyebrow">2026 · KUKPPONG STORY DNA / CASE STUDY</span><h1>외국인 영상보다<br><strong>나레이션이 이야기를 끄는 TOP 2</strong></h1><p>외국인 리액션·방송 원음 위주의 영상 대신, <b>한국어 해설 + AI 일러스트 + 그래픽</b>으로 시청자를 약 30분 동안 이끄는 두 작품을 해부했습니다. 영상별 총 10구간의 전개, 의문을 만든 지점, 답을 돌려준 지점, 정서 변화, 실제 자막 발췌를 분석 <b>바로 아래</b>에 배치했습니다.</p></div>
 <div class="important"><strong>자료 상태:</strong> 2026-11-08 기존 GitHub의 <b>자동자막 전문을 바탕으로 작성된 대본 분석 보고서</b>와 첫 90초 장면표·편집 분석을 근거로 재구성했습니다. 이번 작업이 별도 자막 전문을 신규 다운로드·재전사한 것은 아닙니다. <b>원본 ASR 전문(txt)은 해당 GitHub에서 확인되지 않아</b> 웹에는 보고서에서 검증 가능한 짧은 발췌만 싣습니다. '시청 유지 장치'는 구조상 유도 전략으로서 실제 YouTube 시청지속률 수치가 아닙니다.</div>
@@ -30,7 +30,34 @@ h2{font-size:25px;letter-spacing:-.7px;margin:9px 0 14px;line-height:1.3}h3{font
 <section class="section"><h2>🎯 4. 두 영상에서 확인된 제작 원칙</h2><div class="twocol"><article class="panel"><h3>🟡 두산형: 숫자 → 의문 → 해결 증명</h3><p class="tiny">먼저 숫자 두 개를 충돌시켜 위기를 제시합니다. 왜 그런 선택을 했는지 질문하고, 3단계 선택과 지표로 풀어냅니다. 중간에 두 번 이상 새 위기·새 정보를 넣고, 엔딩은 제품·사람 이야기로 돌아옵니다.</p><p class="tiny"><b>쓰임새:</b> 기업, 기술 성공사, 국가 산업 이야기, 경제 다큐</p></article><article class="panel"><h3>🔵 한글형: 도발 → 미스터리 → 체험 → 역사</h3><p class="tiny">독특한 평가 문장을 훅에 두고, 실물·역사·원리의 질문을 병렬로 겁니다. 1분대에 따라 할 수 있는 데모로 작은 보상을 제공한 뒤, 현재 장점·과거 고난·최종 회수를 번갈아 배치합니다.</p><p class="tiny"><b>쓰임새:</b> 한국 문화, 생활 습관, 역사·과학, 기술 원리 다큐</p></article></div>
 <div class="important"><strong>재현할 것은 표현 자체가 아니라 구조입니다.</strong> 후속 제작에서는 실제 주제에 맞는 독립 원문·권리 확보 자료·출처 검증을 사용해야 하며 외국 학자의 발언·수치·실화 여부를 확정하지 않은 상태에서 직접 인용처럼 제시하면 안 됩니다.</div>
 </section>
-<section class="section" id="sources"><h2>📎 5. 검증용 근거 자료</h2><div class="sources">
+<section class="section" id="language"><h2>🗣️ 5. 자막·나레이션 문장 자체의 공식</h2><p class="sec-intro">두 영상은 30분에 가까운 이야기를 긴 대사 한 덩어리로 전달하지 않습니다. 문장 길이와 어미, 강조 수단, 자막 교체 규칙을 함께 봐야 합니다.</p>
+<div class="twocol">
+<article class="panel"><div class="eyebrow">① 두산 밥캣 · 숫자형 서사</div><h3>‘확정 사실 → 쉬운 해석 → 짧은 단정’ 반복</h3>
+<p class="tiny"><b>문체:</b> 분석 보고서의 ‘합니다:해요’ 계열 어미 수는 약 <b>166:160</b>, 문장 길이 중앙값 <b>26자</b>, 나레이션 문자수 속도 약 <b>323자/분</b>입니다. 객관식 사실 진술 다음에 ‘거죠·거예요’ 식의 친근한 해석을 붙여 어렵게 들리는 경제 정보를 이야기로 바꿉니다.</p>
+<p class="tiny"><b>질문:</b> 17개(약 0.60개/분). 질문을 계속 남발하지 않고 팔지 않은 이유, 자금 조달, 반전 국면처럼 <b>챕터가 방향을 바꾸는 순간</b>에 집중합니다.</p>
+<p class="tiny"><b>숫자:</b> 244회(약 8.59회/분). 금액·일자리·점유율이 많아 피로해질 수 있으므로 475명의 직원을 가정의 생활비로, 대출을 상가·통장에 빗대는 방식으로 정서적 의미를 추가합니다.</p>
+<div class="evidence"><label>🎙️ 대본 발췌 + 기능</label><blockquote>“열 배입니다.”</blockquote><span class="tiny">긴 설명 뒤 짧은 수치 단정으로 정보의 무게를 정리합니다. <a href="https://www.youtube.com/watch?v=EJ2r3NyoYlw&t=108s" target="_blank" rel="noopener">해당 구간 ↗</a></span></div>
+</article>
+<article class="panel"><div class="eyebrow">② 한글 · 참여형 역사 서사</div><h3>‘도발 → 설명 → 청중 질문 → 뒤집기’ 반복</h3>
+<p class="tiny"><b>문체:</b> ‘합니다:해요’ 계열 어미 수 약 <b>180:162</b>, 문장 길이 중앙값 <b>24자</b>, 나레이션 속도 약 <b>314자/분</b>. 단정형 역사 설명에 곧장 독자의 감각을 묻는 문장을 붙여 교실형 설명과 이야기형 감탄 사이를 오갑니다.</p>
+<p class="tiny"><b>질문:</b> 31개(약 1.03개/분). ‘왜 그랬을까’와 ‘직접 써 보라’는 지시를 번갈아 사용합니다. 청중은 외부 방송 장면이 없어도 머릿속에서 화면을 구성할 수 있습니다.</p>
+<p class="tiny"><b>숫자:</b> 83회(약 2.75회/분). 두산보다 수치 밀도가 낮고, 연도·잃어버린 기간·문자 조합 규모처럼 이야기의 증거 또는 놀라움 포인트에 쓰입니다.</p>
+<div class="evidence"><label>🎙️ 대본 발췌 + 기능</label><blockquote>“키읔이 됩니다.”</blockquote><span class="tiny">개념을 말로 주장하지 않고 곧장 따라 해 볼 수 있는 데모로 보상합니다. <a href="https://www.youtube.com/watch?v=o-5qsCCSVyo&t=72s" target="_blank" rel="noopener">해당 구간 ↗</a></span></div>
+</article>
+</div>
+<div class="table-wrap" style="margin-top:15px"><table class="comparison"><thead><tr><th>문장·화면 규칙</th><th>두산 밥캣</th><th>한글</th></tr></thead><tbody>
+<tr><td>말하기 속도(글자/분)</td><td>323자/분</td><td>314자/분</td></tr>
+<tr><td>‘합니다:해요’ 어미</td><td>166:160</td><td>180:162</td></tr>
+<tr><td>자막 배치</td><td>하단 중앙 흰 굵은 글씨 + 검정 둥근 박스</td><td>동일</td></tr>
+<tr><td>한 줄 길이·줄 수</td><td>약 10~18자·최대 2줄</td><td>약 10~18자·최대 2줄</td></tr>
+<tr><td>자막 교체</td><td>대략 2~3초 주기</td><td>대략 2~3초 주기</td></tr>
+<tr><td>큰 글씨 강조 방식</td><td>금액을 신문·현수막·계약서에 배치</td><td>‘반칙?’ 카드·‘494년’ 궤짝·‘한 획’ 종이</td></tr>
+<tr><td>외부 방송 원본</td><td>분석 기록상 없음</td><td>분석 기록상 없음</td></tr>
+<tr><td>호스트 캐릭터가 화면에 있는 비율</td><td>약 30% (화면 샘플 추정)</td><td>약 35% (화면 샘플 추정)</td></tr>
+<tr><td>엔딩 참여 방식</td><td>‘당신이라면 매각할까?’ 선택 질문</td><td>한글을 처음 익힌 기억을 떠올리게 하는 댓글 질문</td></tr>
+</tbody></table></div>
+<div class="important"><strong>나레이션 편집 핵심:</strong> 화면은 계속 바뀌지만 자막이 지나치게 화려하지 않습니다. <b>한 문장당 1~3장면</b>과 이미지 속 소품 텍스트로 보조하고, 실제 전개는 목소리가 끌고 갑니다. 위 속도·컷·화면 비율은 기존 보고서 기준이며 새 음성 분석으로 재검증한 값은 아닙니다.</div></section>
+<section class="section" id="sources"><h2>📎 6. 검증용 근거 자료</h2><div class="sources">
 <a href="https://github.com/geben147-create/Insta/blob/main/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/docs/script_analysis_safe5.md" target="_blank" rel="noopener">📄 5편 대본·질문·반전·원문 정밀 분석</a>
 <a href="https://github.com/geben147-create/Insta/blob/main/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/docs/editing_analysis_safe5.md" target="_blank" rel="noopener">🖼 첫 90초 장면·자막·컷 편집 기록</a>
 <a href="https://geben147-create.github.io/Insta/kukppong-copyright-prompt-20261108/" target="_blank" rel="noopener">🎞 기존 화면 캡처·저작권 비교</a>

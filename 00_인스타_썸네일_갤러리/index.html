@@ -1,12 +1,12 @@
 <!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>인스타 썸네일 갤러리</title>
 <style>*{box-sizing:border-box}body{margin:0;background:#111;color:#eee;font:14px sans-serif;display:flex;height:100vh;overflow:hidden}
-#side{width:230px;background:#1b1b1b;overflow:auto;padding:10px;flex:none;transition:margin .2s}#side.hide{margin-left:-230px}
+#side{width:230px;background:#1b1b1b;overflow:auto;padding:10px;flex:none}#side.hide{display:none}
 #side h4{margin:12px 0 4px;color:#8ab4ff;font-size:12px}#side a{display:block;padding:5px 8px;border-radius:5px;color:#ddd;cursor:pointer}#side a.on,#side a:hover{background:#2c3e66}
 #main{flex:1;display:flex;flex-direction:column;min-width:0}#bar{padding:8px;background:#1b1b1b;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-bottom:1px solid #333}
 #bar select,#bar button,#bar input{background:#2a2a2a;color:#eee;border:1px solid #444;border-radius:5px;padding:4px 8px}#bar button.on{background:#2c3e66}
-#grid{flex:1;overflow:auto;display:grid;gap:8px;padding:8px;align-content:start}
-.card{background:#1e1e1e;border-radius:8px;overflow:hidden;cursor:pointer;position:relative}.th{aspect-ratio:4/5;background:#333 center/cover;display:flex;align-items:flex-end;justify-content:center;color:#aaa;font-size:11px;padding:6px;text-align:center;overflow:hidden}
-.th img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.m{padding:6px;font-size:12px;line-height:1.4}.m b{color:#ffd37a}.tag{display:inline-block;background:#333;border-radius:3px;padding:0 4px;margin:1px;font-size:10px}
+#grid{flex:1;overflow:auto;display:grid;gap:10px;padding:10px;align-content:start}
+.card{background:#1e1e1e;border-radius:8px;overflow:hidden;cursor:pointer}.th{width:100%;aspect-ratio:2/3;background-color:#000;background-repeat:no-repeat;display:flex;align-items:center;justify-content:center;color:#777;font-size:12px}
+.m{padding:7px;font-size:12px;line-height:1.5}.v{color:#ff4d4d;font-weight:bold;font-size:14px}.tag{display:inline-block;background:#333;border-radius:3px;padding:0 4px;margin:1px;font-size:10px}.u{color:#ffd37a;word-break:break-all}
 #modal{position:fixed;inset:0;background:#000c;display:none;align-items:center;justify-content:center;z-index:9}#modal.on{display:flex}#box{background:#222;padding:10px;border-radius:8px;max-height:96vh;overflow:auto;width:min(420px,96vw)}#box iframe{width:100%;height:600px;border:0;background:#fff}#box a{color:#8ab4ff}
 </style></head><body>
 <div id="side"></div><div id="main"><div id="bar"></div><div id="grid"></div></div>
@@ -15,7 +15,7 @@
 const TN={A01:'K뷰티·화장품',A02:'피부과·시술',A03:'탈모·모발이식',A04:'퍼스널컬러·눈썹',A05:'주식',A06:'ETF·배당·연금',A07:'코인·블록체인',A08:'투자대가·기법',A09:'재테크·절약',A10:'부산경남 상가',A11:'부동산·경매',A12:'호텔·리조트',A13:'한국·부산 관광',A14:'해외여행·항공',A15:'AI도구·자동화',A16:'AI창업·수익화',A17:'소상공인·창업',A18:'건강·헬스',A19:'금·환율·거시',A20:'국뽕·해외반응'};
 const HN=['스토리(하몬서클형)','문제해결','리스트·랭킹','비교VS','경고·손실회피','호기심','질문-답','성과증명','속보·뉴스','공감·밈','자료요청CTA'];
 const MK={A:'A 코드 애니메이션으로 쉽게 가능',B:'B AI 영상 생성(Hailuo·Kling·Veo류)으로 가능',C:'C AI 이미지·원페이지로 쉽게 가능',D:'D 어려움(실제 촬영 필요)',E:'E 부분 가능(클립+나레이션)',X:'X 불가에 가까움(실제 보도)'};
-const S={cat:'ALL',grp:'ALL',type:'',mk:'',hk:'',g:'',col:5,key:'d',dir:-1,q:''};
+const S={cat:'ALL',grp:'ALL',type:'',mk:'',hk:'',g:'',col:6,key:'d',dir:-1,q:''};
 const kr=v=>{if(v==null)return'비공개';v=Math.floor(v);if(v<100)return''+v;if(v<1e4){const t=Math.floor(v/1000),h=Math.floor(v%1000/100);return(t?t+'천':'')+(h?h+'백':'')||''+v}if(v<1e8){const m=Math.floor(v/1e4),t=m>=100?0:Math.floor(v%1e4/1000);return m+'만'+(t?t+'천':'')}return Math.floor(v/1e8)+'억'};
 const $=s=>document.querySelector(s);
 function side(){let h='<a onclick="S.cat=\'ALL\';S.grp=\'ALL\';go()" class="'+(S.cat=='ALL'&&S.grp=='ALL'?'on':'')+'">전체 ('+DATA.length+')</a>';
@@ -35,9 +35,14 @@ function bar(){const o=(arr,cur,f)=>arr.map(([v,t])=>'<option value="'+v+'"'+(cu
 function list(){let a=DATA.filter(d=>(S.cat=='ALL'||d.a==S.cat)&&(S.grp=='ALL'||(S.grp=='kook')==(d.a=='A20'))&&(!S.type||d.t==S.type)&&(!S.g||d.g==S.g)&&(!S.mk||d.k==S.mk)&&(S.hk===''||d.h.includes(+S.hk))&&(!S.q||(d.u+d.x).toLowerCase().includes(S.q.toLowerCase())));
  const k=S.key;a.sort((x,y)=>{const A=x[k],B=y[k];if(A==null&&B==null)return 0;if(A==null)return 1;if(B==null)return -1;return (A-B)*S.dir});return a}
 const url=d=>'https://www.instagram.com/'+(d.t=='r'?'reel':'p')+'/'+d.c+'/';
-function draw(){const a=list();const g=$('#grid');g.style.gridTemplateColumns='repeat('+S.col+',1fr)';
- g.innerHTML=a.slice(0,600).map((d,i)=>'<div class="card" onclick="show('+DATA.indexOf(d)+')"><div class="th"><img loading="lazy" referrerpolicy="no-referrer" src="'+url(d)+'media/?size=m" onerror="this.remove()"><span>'+(d.t=='r'?'▶ 릴스':'🖼 사진·캐러셀')+'<br>'+d.x.slice(0,50).replace(/</g,'&lt;')+'</span></div><div class="m"><b>'+d.u+'</b><br>'+new Date(d.d*1000).toISOString().slice(0,10)+' · 조회 '+kr(d.v)+'<br>댓글 '+kr(d.m)+' · 좋아요 '+kr(d.l)+'<br>'+(d.h||[]).map(i=>'<span class="tag">'+HN[i]+'</span>').join('')+'<span class="tag">'+d.k+'</span></div></div>').join('');
- document.title='인스타 갤러리 ('+a.length+')'}
+function card(d){const c=d.i%30%6,r=Math.floor(d.i%30/6),s=Math.floor(d.i/30);
+ const th=d.o?'<div class="th" style="background-image:url(sheets/s'+s+'.jpg);background-size:600% 500%;background-position:'+(c*20)+'% '+(r*25)+'%"></div>':'<div class="th">'+(d.t=='r'?'▶ 릴스':'🖼 사진')+' · 이미지 없음</div>';
+ return '<div class="card" onclick="show('+d.i+')">'+th+'<div class="m"><div class="u">'+d.u+'</div><div class="v">조회 '+kr(d.v)+'</div>'+new Date(d.d*1000).toISOString().slice(0,10)+'<br>댓글 '+kr(d.m)+' · 좋아요 '+kr(d.l)+'<br>'+(d.h||[]).map(i=>'<span class="tag">'+HN[i]+'</span>').join('')+'<span class="tag">'+d.k+'</span></div></div>'}
+let CUR=[],SHOWN=0;
+function more(){const g=$('#grid');CUR.slice(SHOWN,SHOWN+90).forEach(d=>g.insertAdjacentHTML('beforeend',card(d)));SHOWN+=90}
+function draw(){CUR=list();SHOWN=0;const g=$('#grid');g.style.gridTemplateColumns='repeat('+S.col+',minmax(0,1fr))';g.innerHTML='';more();g.scrollTop=0;document.title='인스타 갤러리 ('+CUR.length+')'}
+document.addEventListener('DOMContentLoaded',()=>{});
+setTimeout(()=>$('#grid').addEventListener('scroll',e=>{const g=e.target;if(g.scrollTop+g.clientHeight>g.scrollHeight-600&&SHOWN<CUR.length)more()}),0);
 function show(i){const d=DATA[i];$('#box').innerHTML='<div style="margin-bottom:6px"><b>'+d.u+'</b> · '+TN[d.a]+' · '+MK[d.k]+' · <a href="'+url(d)+'" target="_blank" rel="noopener noreferrer">인스타 원본 열기 ↗</a></div><iframe src="'+url(d)+'embed/" allowfullscreen></iframe><p>'+d.x.replace(/</g,'&lt;')+'</p><p style="font-size:12px;color:#aaa">임베드가 비어 있으면 위 "원본 열기" 링크를 누르세요. (인스타 로그인 필요할 수 있음)</p>';$('#modal').classList.add('on')}
 function go(){side();bar();draw()}go();
 </script></body></html>

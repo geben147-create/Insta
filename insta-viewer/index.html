@@ -24,7 +24,7 @@ a{color:#8ab4ff;text-decoration:none}.acc{cursor:pointer;color:#8ab4ff}.go{float
 <div id="main"><div id="bar">
 <div class="row"><button id="tgb">☰ 메뉴</button><button id="pinb" class="on">📌 고정</button><span id="t"></span>
 <span class="lab">열</span><input type="range" id="rg" min="2" max="14" step="1"><b id="cn"></b><span id="cols"></span>
-<label><input type="checkbox" id="stx"> 제목·본문</label><label><input type="checkbox" id="crp"> 4:5 자르기</label></div>
+<label><input type="checkbox" id="stx"> 제목·본문</label><label><input type="checkbox" id="crp"> 4:5 자르기</label><a id="shb" target="_blank" rel="noopener" style="margin-left:auto;background:#0f9d58;color:#fff;border-radius:6px;padding:3px 10px;font-weight:700">📊 구글 시트 ↗</a></div>
 <div class="row"><span class="lab">정렬</span><select id="key"><option value="d">최신순(날짜)</option><option value="l">좋아요</option><option value="m">댓글</option><option value="cr">댓글율(댓글/좋아요)</option><option value="p">조회수(릴스)</option></select><button id="dir">내림 ▼</button>
 <span class="lab">형식</span><select id="fmt"><option value="">전체</option><option value="사진">사진</option><option value="캐러셀">캐러셀</option><option value="릴스">릴스</option></select>
 <select id="rl"><option value="">실사+카드형</option><option value="card">카드·그래픽형만</option><option value="real">실사만</option></select>
@@ -33,7 +33,8 @@ a{color:#8ab4ff;text-decoration:none}.acc{cursor:pointer;color:#8ab4ff}.go{float
 <input type="date" id="d1"><span class="lab">~</span><input type="date" id="d2"><button id="dok">적용</button><button id="dx">기간해제</button><span id="cnt" class="lab"></span></div>
 </div><div id="g"></div></div>
 <script>
-const MENU=[["인스타 사진·카드",[["A","AI창업·지원금"],["B","주식·ETF·경제"],["C","부동산"],["F","총정리·TOP형"]]],["릴스·고조회",[["G","국내 섹터 릴스"],["D","해외 릴스"]]],["해외·일본",[["E","해외 사진·카드"],["H","일본(한글번역)"]]]];
+const MENU=[["📈 트렌드 분석 2026-11-13",[["T1","📈 구글트렌드·네이버·이슈 11/13","../trend-20261113/#combo"],["T2","💡 콘텐츠 아이디어 550","../trend-20261113/#ideas"],["T4","📸 섹터별 인스타 TOP10","../trend-20261113/#ig"]]],["인스타 사진·카드",[["A","AI창업·지원금"],["B","주식·ETF·경제"],["C","부동산"],["F","총정리·TOP형"]]],["릴스·고조회",[["G","국내 섹터 릴스"],["D","해외 릴스"]]],["해외·일본",[["E","해외 사진·카드"],["H","일본(한글번역)"]]],["▶ 유튜브 (11/13)",[["T3","▶ 유튜브 급상승·소형채널","../trend-20261113/#yt"]]]];
+const SHEETS={"A": "https://docs.google.com/spreadsheets/d/1jseV3I0tK7xF9reWUe9g6_V081kOdbWSRruR0U7coG8/edit#gid=195079604&range=A2", "B": "https://docs.google.com/spreadsheets/d/1jseV3I0tK7xF9reWUe9g6_V081kOdbWSRruR0U7coG8/edit#gid=195079604&range=A82", "C": "https://docs.google.com/spreadsheets/d/1jseV3I0tK7xF9reWUe9g6_V081kOdbWSRruR0U7coG8/edit#gid=195079604&range=A162", "F": "https://docs.google.com/spreadsheets/d/1jseV3I0tK7xF9reWUe9g6_V081kOdbWSRruR0U7coG8/edit#gid=195079604&range=A242", "G": "https://docs.google.com/spreadsheets/d/1jseV3I0tK7xF9reWUe9g6_V081kOdbWSRruR0U7coG8/edit#gid=195079604&range=A374", "D": "https://docs.google.com/spreadsheets/d/1jseV3I0tK7xF9reWUe9g6_V081kOdbWSRruR0U7coG8/edit#gid=195079604&range=A404", "E": "https://docs.google.com/spreadsheets/d/1jseV3I0tK7xF9reWUe9g6_V081kOdbWSRruR0U7coG8/edit#gid=195079604&range=A444", "H": "https://docs.google.com/spreadsheets/d/1jseV3I0tK7xF9reWUe9g6_V081kOdbWSRruR0U7coG8/edit#gid=195079604&range=A484"};
 const $=id=>document.getElementById(id);
 let cur=null,cols=+localStorage.cols||6,desc=true,key='d',pf={m:0,d1:'',d2:'',mode:''},acc='';
 if(localStorage.sw)document.body.style.setProperty('--sw',localStorage.sw+'px');
@@ -63,7 +64,7 @@ function fmtN(n){if(n==null)return'-';return n>=1e8?(n/1e8).toFixed(1)+'억':n>=
 function dec(s){return String(s||'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"')}
 function esc(s){return dec(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function load(k){return new Promise(r=>{if(window.DATA&&DATA[k])return r();const s=document.createElement('script');s.src='data_'+k+'.js';s.onload=r;document.body.appendChild(s)})}
-async function open_(k){cur=k;acc='';document.querySelectorAll('.mi').forEach(e=>e.classList.toggle('on',e.dataset.k===k));$('g').innerHTML='<div style="padding:30px">불러오는 중...</div>';await load(k);location.hash=k;
+async function open_(k){if(!SHEETS[k])k='A';cur=k;$('shb').href=SHEETS[k];$('shb').textContent='📊 구글 시트: '+MENU.flatMap(m=>m[1]).find(x=>x[0]===k)[1]+' ↗';acc='';document.querySelectorAll('.mi').forEach(e=>e.classList.toggle('on',e.dataset.k===k));$('g').innerHTML='<div style="padding:30px">불러오는 중...</div>';await load(k);location.hash=k;
  DATA[k].forEach(x=>{x.cr=x.l?(x.m||0)/x.l:0});
  if(k==='G'||k==='D')key='p';else if(key==='p')key='l';$('key').value=key;render();
  if(document.body.classList.contains('unpin'))document.body.classList.remove('open')}
@@ -82,6 +83,6 @@ function render(){if(!cur)return;let arr=[...DATA[cur]];
  document.querySelectorAll('#per button').forEach(b=>{const p=PER[+b.dataset.i];b.classList.toggle('on',!pf.d1&&!pf.d2&&(p[2]||'')===pf.mode&&(p[1]||0)===pf.m)});
  $('g').innerHTML=arr.map((x,i)=>'<div class="c"><span class="tag">'+(i+1)+(x.t?' '+esc(x.t):'')+'</span><a href="'+x.u+'" target="_blank" rel="noopener"><img loading="lazy" src="'+x.i+'"></a><div class="b"><div class="r1">'+(x.p?'<span class="k">▶'+fmtN(x.p)+'</span> ':'')+'♥'+fmtN(x.l)+' 💬'+fmtN(x.m)+' <span title="댓글율">('+Math.round(x.cr*100)+'%)</span><a class="go" href="'+x.u+'" target="_blank" rel="noopener">열기↗</a></div><div class="r1">'+esc((x.d||'').slice(2))+' <span class="acc" data-a="'+esc(x.a)+'">@'+esc(x.a)+'</span>'+(x.x?' <span class="rl">실사</span>':'')+'</div><div class="txt">'+(x.ko?'<div class="ko">'+esc(x.ko)+'</div><div class="ja">'+esc(x.ja)+'</div>':'<div>'+esc(x.h)+'</div>')+(x.r?'<div class="k">예상수익 ₩'+esc(x.r)+'</div>':'')+'</div></div></div>').join('')}
 $('g').onclick=e=>{const a=e.target.closest('.acc');if(a){acc=a.dataset.a;render();window.scrollTo(0,0)}};
-document.querySelectorAll('.mi').forEach(e=>e.onclick=()=>open_(e.dataset.k));
+document.querySelectorAll('.mi').forEach(e=>e.onclick=()=>{const it=MENU.flatMap(m=>m[1]).find(x=>x[0]===e.dataset.k);if(it&&it[2]){location.href=it[2];return}open_(e.dataset.k)});
 open_(location.hash.slice(1)||'A');
 </script></body></html>

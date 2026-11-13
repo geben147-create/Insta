@@ -4,8 +4,8 @@
 #side h4{margin:12px 0 4px;color:#8ab4ff;font-size:12px}#side a{display:block;padding:5px 8px;border-radius:5px;color:#ddd;cursor:pointer}#side a.on,#side a:hover{background:#2c3e66}
 #main{flex:1;display:flex;flex-direction:column;min-width:0}#bar{padding:8px;background:#1b1b1b;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-bottom:1px solid #333}
 #bar select,#bar button,#bar input{background:#2a2a2a;color:#eee;border:1px solid #444;border-radius:5px;padding:4px 8px}#bar button.on{background:#2c3e66}
-#grid{flex:1;overflow:auto;display:grid;gap:10px;padding:10px;align-content:start}
-.card{background:#1e1e1e;border-radius:8px;overflow:hidden;cursor:pointer}.th{width:100%;aspect-ratio:2/3;background-color:#000;background-repeat:no-repeat;display:flex;align-items:center;justify-content:center;color:#777;font-size:12px}
+#grid{flex:1;overflow:auto;display:grid;gap:10px;padding:10px;align-content:start;grid-auto-rows:max-content}
+.card{display:block;height:max-content;background:#1e1e1e;border-radius:8px;overflow:hidden;cursor:pointer}.th{width:100%;height:0;padding-top:150%;background-color:#000;background-repeat:no-repeat;position:relative;color:#777;font-size:12px}.th>span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
 .m{padding:7px;font-size:12px;line-height:1.5}.v{color:#ff4d4d;font-weight:bold;font-size:14px}.tag{display:inline-block;background:#333;border-radius:3px;padding:0 4px;margin:1px;font-size:10px}.u{color:#ffd37a;word-break:break-all}
 #modal{position:fixed;inset:0;background:#000c;display:none;align-items:center;justify-content:center;z-index:9}#modal.on{display:flex}#box{background:#222;padding:10px;border-radius:8px;max-height:96vh;overflow:auto;width:min(420px,96vw)}#box iframe{width:100%;height:600px;border:0;background:#fff}#box a{color:#8ab4ff}
 </style></head><body>
@@ -36,7 +36,7 @@ function list(){let a=DATA.filter(d=>(S.cat=='ALL'||d.a==S.cat)&&(S.grp=='ALL'||
  const k=S.key;a.sort((x,y)=>{const A=x[k],B=y[k];if(A==null&&B==null)return 0;if(A==null)return 1;if(B==null)return -1;return (A-B)*S.dir});return a}
 const url=d=>'https://www.instagram.com/'+(d.t=='r'?'reel':'p')+'/'+d.c+'/';
 function card(d){const c=d.i%30%6,r=Math.floor(d.i%30/6),s=Math.floor(d.i/30);
- const th=d.o?'<div class="th" style="background-image:url(sheets/s'+s+'.jpg);background-size:600% 500%;background-position:'+(c*20)+'% '+(r*25)+'%"></div>':'<div class="th">'+(d.t=='r'?'▶ 릴스':'🖼 사진')+' · 이미지 없음</div>';
+ const th=d.o?'<div class="th" style="background-image:url(sheets/s'+s+'.jpg);background-size:600% 500%;background-position:'+(c*20)+'% '+(r*25)+'%"></div>':'<div class="th"><span>'+(d.t=='r'?'▶ 릴스':'🖼 사진')+' · 이미지 없음</span></div>';
  return '<div class="card" onclick="show('+d.i+')">'+th+'<div class="m"><div class="u">'+d.u+'</div><div class="v">조회 '+kr(d.v)+'</div>'+new Date(d.d*1000).toISOString().slice(0,10)+'<br>댓글 '+kr(d.m)+' · 좋아요 '+kr(d.l)+'<br>'+(d.h||[]).map(i=>'<span class="tag">'+HN[i]+'</span>').join('')+'<span class="tag">'+d.k+'</span></div></div>'}
 let CUR=[],SHOWN=0;
 function more(){const g=$('#grid');CUR.slice(SHOWN,SHOWN+90).forEach(d=>g.insertAdjacentHTML('beforeend',card(d)));SHOWN+=90}

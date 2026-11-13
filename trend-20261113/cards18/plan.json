@@ -1,0 +1,80 @@
+{
+ "job": "T1113_18",
+ "made": "2026-11-14",
+ "rule": "글자는 이 파일의 문장을 그대로 쓴다(요약·축약 금지). 이미지는 글자 없이 생성. 최종 카드 = 글자 없는 이미지 + 글자 데이터 합성.",
+ "style": "@alerts 레퍼런스: 어두운 사진 위 굵은 압축체 제목, 흰색·회색 글자 + 초록 강조, 위쪽 BREAKING식 알약 라벨",
+ "accounts": {
+  "AI_1": "1minssecondbrain",
+  "AI_2": "미정_AI2",
+  "ECON_1": "investcutkr",
+  "ECON_2": "미정_경제2"
+ },
+ "posts": [
+  {"id": "T1113_01", "slot": "ECON_1", "src": "C01", "title": "젠슨 황 사임, 50대 계좌 지키는 법",
+   "music": "인스타 추천곡 첫 번째",
+   "caption": "젠슨 황 엔비디아 CEO 사임 소식에 시장이 흔들렸습니다.\n美 개미는 30분 만에 1500억을 샀다는 보도도 나왔죠.\n50대 계좌라면 지금은 '무엇을 사느냐'보다 '어떻게 지키느냐'가 먼저입니다.\n※ 특정 종목 매수·매도 권유가 아닙니다.\n\n#젠슨황 #엔비디아 #주식 #50대재테크 #미국주식",
+   "slides": [
+    {"n": 1, "kind": "cover", "pill": "속보", "lines": ["젠슨 황 사임", "50대 계좌는", "이렇게 지켜라"], "hl": "이렇게 지켜라", "sub": "美 개미, 30분 만에 1500억 줍줍",
+     "img": "Dramatic editorial photo: a Korean man in his early 50s in a dark navy suit looking down at a smartphone showing a red falling candlestick chart, night city office window with blue and green bokeh behind him, moody cinematic lighting, high contrast, deep navy-black tones. Subject fills the upper 60% of the frame; the bottom 40% fades smoothly into near-black empty space. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos, no watermark."},
+    {"n": 2, "kind": "list", "pill": "하지 말 것 3가지", "head": "흔들릴 때\n이것만은 피하세요", "items": ["① 한 종목에 몰빵 물타기", "② 겁나서 한꺼번에 던지는 공포 매도", "③ 빚내서 하는 레버리지 투자"], "foot": "급할수록 계좌 전체 비중부터 확인",
+     "img": "Dark moody still life on a black slate desk: a cracked glass piggy bank, scattered coins, a smartphone face-down, a red warning light glow, dramatic top-down lighting with green and red rim light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos, no screens showing text."},
+    {"n": 3, "kind": "list", "pill": "해도 되는 1가지", "head": "나눠서 사고\n비중을 정하라", "items": ["한 번에 사지 말고 여러 번 나눠서", "한 종목이 계좌의 일정 비율을 넘지 않게", "이 원칙을 메모해 두고 지키기"], "foot": "댓글에 '공급망' → 체크표 보내드려요",
+     "img": "Calm dark editorial still life: a leather notebook with a pen, a cup of coffee, a small stack of coins arranged into neat equal piles, soft green rim light on a deep navy-black background. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos."}
+   ]},
+  {"id": "T1113_02", "slot": "ECON_1", "src": "C05", "title": "배당백수의 현금흐름",
+   "music": "인스타 추천곡 첫 번째",
+   "caption": "월급 대신 배당이 들어오는 노후, 다들 꿈꾸시죠.\n배당으로 생활비를 만든 사례가 화제지만, 수익이 보장되는 건 아닙니다.\n은퇴 5년 전부터 준비할 것 3가지만 정리했어요.\n※ 투자 권유가 아닙니다.\n\n#배당 #배당주 #월배당 #노후준비 #은퇴",
+   "slides": [
+    {"n": 1, "kind": "cover", "pill": "시니어 필독", "lines": ["배당으로 사는", "노후를 위한", "준비 3가지"], "hl": "배당으로 사는", "sub": "은퇴 5년 전부터 시작하세요",
+     "img": "Editorial photo: a relaxed Korean couple in their late 50s having coffee on an apartment balcony at golden hour, one holding a tablet, warm peaceful mood, cinematic contrast with deep shadows. Subjects fill the upper 60% of the frame; the bottom 40% fades smoothly into near-black empty space. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos, no watermark."},
+    {"n": 2, "kind": "list", "pill": "준비 1·2", "head": "배당도\n종류가 다릅니다", "items": ["① 배당을 꾸준히 늘려온 기업인지 확인", "② 월배당 ETF는 분배금과 가격 변화를 함께 보기", "※ 분배율이 높다고 총수익이 높은 건 아님"], "foot": "커버드콜형은 상승장에서 수익이 제한될 수 있어요",
+     "img": "Dark still life: a glass jar filled with coins with a small green plant sprouting from it, a calendar page and a cup of tea on a black wooden table, soft green rim light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos."},
+    {"n": 3, "kind": "list", "pill": "준비 3", "head": "세금과 건보료까지\n계산해 두기", "items": ["③ 배당소득세와 건강보험료를 미리 계산", "절세계좌(연금저축·ISA)로 받을 수 있는지 확인", "매달 들어올 현금흐름표 만들기"], "foot": "댓글에 '배당' → 현금흐름표 보내드려요",
+     "img": "Dark editorial still life: a calculator, reading glasses, a fountain pen and neatly stacked envelopes on a deep navy desk, soft green accent light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers on any object, no logos."}
+   ]},
+  {"id": "T1113_03", "slot": "ECON_2", "src": "C12", "title": "시니어 1억 모으기",
+   "music": "인스타 추천곡 첫 번째",
+   "caption": "60에 시작해도 늦지 않습니다.\n시니어가 1억을 모으려면 '많이 버는 것'보다 '새는 돈을 막고, 오래 굴리는 것'이 핵심이에요.\n현실 루틴 3가지를 정리했습니다.\n\n#시니어 #1억모으기 #노후준비 #재테크 #은퇴준비",
+   "slides": [
+    {"n": 1, "kind": "cover", "pill": "시니어 필독", "lines": ["60에 시작해도", "늦지 않은", "1억 모으기"], "hl": "1억 모으기", "sub": "현실 루틴 3가지",
+     "img": "Editorial photo: an energetic Korean woman in her early 60s walking briskly in a city park at dawn in sportswear, confident smile, cinematic contrast, deep shadows. Subject fills the upper 60% of the frame; the bottom 40% fades smoothly into near-black empty space. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos, no watermark."},
+    {"n": 2, "kind": "list", "pill": "루틴 1·2", "head": "새는 돈부터\n막으세요", "items": ["① 매달 나가는 고정비(보험·통신·구독) 점검", "② 연금을 언제부터 받을지 시기 비교", "작은 고정비가 1년이면 큰돈이 됩니다"], "foot": "",
+     "img": "Dark still life: a wallet with a small leak of coins flowing out onto a black table, a phone and a pair of glasses beside it, dramatic top light with green rim light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos."},
+    {"n": 3, "kind": "list", "pill": "루틴 3", "head": "안전하게\n오래 굴리기", "items": ["③ 원금이 크게 흔들리지 않는 자산 위주로", "매달 자동이체로 꾸준히", "가족과 목표 금액을 공유하기"], "foot": "댓글에 '시니어' → 1억 루틴표 보내드려요",
+     "img": "Dark editorial still life: a small potted tree growing from a stack of coins, a wristwatch and a notebook on a deep navy table, warm green accent light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos."}
+   ]},
+  {"id": "T1113_04", "slot": "AI_1", "src": "C33", "title": "60대도 되는 AI 부업",
+   "music": "인스타 추천곡 첫 번째",
+   "caption": "제미나이, 클로드 같은 AI 검색이 1년 새 크게 늘었습니다.\n경험이 많은 50·60대일수록 AI를 '도구'로 쓰면 할 수 있는 일이 많아요.\n시작하기 쉬운 AI 부업을 정리했습니다.\n※ 수익은 사람마다 다릅니다.\n\n#AI부업 #노후부업 #챗GPT #제미나이 #시니어",
+   "slides": [
+    {"n": 1, "kind": "cover", "pill": "노후 부업", "lines": ["60대도 되는", "AI 부업", "이렇게 시작"], "hl": "AI 부업", "sub": "제미나이 검색 1년 새 +750%",
+     "img": "Editorial photo: a cheerful Korean man in his early 60s with reading glasses typing on a laptop in a dim home study at night, the laptop screen glow lighting his face in cool blue-green, cinematic contrast. Subject fills the upper 60% of the frame; the bottom 40% fades smoothly into near-black empty space. Photorealistic, vertical 4:5. No text on screen, no letters, no numbers, no logos, no watermark."},
+    {"n": 2, "kind": "list", "pill": "부업 1·2·3", "head": "경험을\nAI로 옮기세요", "items": ["① 내 경험을 담은 전자책 쓰기", "② 동네 가게 블로그 글 대행", "③ 오래된 가족사진 AI 복원"], "foot": "",
+     "img": "Dark still life: an old faded family photograph next to a modern tablet, an open notebook and a pen on a black wooden desk, soft green rim light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos, no readable screen content."},
+    {"n": 3, "kind": "list", "pill": "부업 4·5·6", "head": "작게 시작해서\n키우기", "items": ["④ 동네 가게 홍보물·메뉴판 만들기", "⑤ 내 분야 상담·강의 자료 만들기", "⑥ 번역·요약으로 정리해 주기"], "foot": "댓글에 '부업' → 시작 가이드 보내드려요",
+     "img": "Dark editorial still life: a small printed poster blank sheet, scissors, colored markers and a smartphone on a deep navy desk, soft green accent light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos."}
+   ]},
+  {"id": "T1113_05", "slot": "AI_1", "src": "C39", "title": "사장님 가게에 AI 직원",
+   "music": "인스타 추천곡 첫 번째",
+   "caption": "젠슨 황은 떠나도 'GPU 26만장 공급은 유지'된다는 발표가 나왔습니다.\nAI는 큰 회사만의 이야기가 아니에요.\n동네 가게 사장님이 바로 써볼 수 있는 'AI 직원'을 정리했습니다.\n\n#AI직원 #소상공인 #사장님 #챗GPT #AI활용",
+   "slides": [
+    {"n": 1, "kind": "cover", "pill": "AI 직원", "lines": ["사장님 가게에", "AI 직원", "들이는 법"], "hl": "AI 직원", "sub": "GPU 26만장 공급 유지 발표",
+     "img": "Editorial photo: a Korean restaurant owner in his early 50s wearing an apron, smiling while looking at a tablet in his small diner kitchen at night, warm practical light with cool green accents, cinematic contrast. Subject fills the upper 60% of the frame; the bottom 40% fades smoothly into near-black empty space. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos, no signage, no watermark."},
+    {"n": 2, "kind": "list", "pill": "AI 직원 1·2·3", "head": "손님 응대는\nAI에게", "items": ["① 예약·문의 답장 초안 쓰기", "② 메뉴판·홍보 문구 만들기", "③ 리뷰 답글 정리하기"], "foot": "",
+     "img": "Dark still life: a restaurant order bell, a tablet, a small menu holder with a blank card and a cup on a black counter, soft green rim light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos."},
+    {"n": 3, "kind": "list", "pill": "AI 직원 4·5", "head": "뒷일도\nAI가 돕습니다", "items": ["④ 장부·매출 메모 정리하기", "⑤ 새 직원 교육 자료 만들기", "무료 플랜 범위부터 써보세요"], "foot": "댓글에 'AI직원' → 세팅법 보내드려요",
+     "img": "Dark editorial still life: a cash receipt pile, a calculator, a laptop and a cup of coffee on a deep navy desk, soft green accent light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers, no readable receipts, no logos."}
+   ]},
+  {"id": "T1113_06", "slot": "AI_2", "src": "C34", "title": "가게 차리기 전 AI에게 먼저",
+   "music": "인스타 추천곡 첫 번째",
+   "caption": "GPT가 시키는 대로 7일간 음식점을 창업해 본 영상이 50만 회 넘게 봤어요.\n은퇴 후 창업, 돈 들이기 전에 AI에게 먼저 계산을 맡겨 보세요.\n※ AI 결과는 참고용입니다.\n\n#은퇴창업 #창업 #AI창업 #소상공인 #챗GPT",
+   "slides": [
+    {"n": 1, "kind": "cover", "pill": "은퇴 창업", "lines": ["가게 차리기 전", "AI에게", "먼저 물어라"], "hl": "AI에게", "sub": "돈 들이기 전에 해볼 계산",
+     "img": "Editorial photo: a Korean couple in their late 50s standing inside an empty small shop space under renovation at dusk, looking at a tablet together, hopeful but careful, cinematic contrast with deep shadows and a cool green accent light. Subjects fill the upper 60% of the frame; the bottom 40% fades smoothly into near-black empty space. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos, no signage, no watermark."},
+    {"n": 2, "kind": "list", "pill": "계산 1·2", "head": "본전부터\n계산하세요", "items": ["① 월세·인건비를 넣고 손익분기 매출 묻기", "② 상권 유동인구를 어디서 확인할지 묻기", "숫자는 공식 자료로 다시 확인"], "foot": "",
+     "img": "Dark still life: a set of shop keys, a measuring tape, a calculator and a folded floor plan sheet with no writing on a black table, soft green rim light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers, no logos."},
+    {"n": 3, "kind": "list", "pill": "계산 3·4·5", "head": "망하지 않는\n준비", "items": ["③ 메뉴 원가율 계산하기", "④ 직원 몇 명까지 감당되는지", "⑤ 폐업하면 얼마를 잃는지"], "foot": "댓글에 '창업' → 계산 프롬프트 보내드려요",
+     "img": "Dark editorial still life: kitchen ingredients neatly arranged in small bowls beside a digital scale and a notebook on a deep navy counter, soft green accent light. Objects occupy the upper 45% of the frame; the lower 55% is empty smooth near-black surface. Photorealistic, vertical 4:5. No text, no letters, no numbers on the scale, no logos."}
+   ]}
+ ]
+}

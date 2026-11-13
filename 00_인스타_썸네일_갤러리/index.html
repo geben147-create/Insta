@@ -1,48 +1,87 @@
-<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>인스타 썸네일 갤러리</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#111;color:#eee;font:14px sans-serif;display:flex;height:100vh;overflow:hidden}
-#side{width:230px;background:#1b1b1b;overflow:auto;padding:10px;flex:none}#side.hide{display:none}
-#side h4{margin:12px 0 4px;color:#8ab4ff;font-size:12px}#side a{display:block;padding:5px 8px;border-radius:5px;color:#ddd;cursor:pointer}#side a.on,#side a:hover{background:#2c3e66}
-#main{flex:1;display:flex;flex-direction:column;min-width:0}#bar{padding:8px;background:#1b1b1b;display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-bottom:1px solid #333}
-#bar select,#bar button,#bar input{background:#2a2a2a;color:#eee;border:1px solid #444;border-radius:5px;padding:4px 8px}#bar button.on{background:#2c3e66}
-#grid{flex:1;overflow:auto;display:grid;gap:10px;padding:10px;align-content:start;grid-auto-rows:max-content}
-.card{display:block;height:max-content;background:#1e1e1e;border-radius:8px;overflow:hidden;cursor:pointer}.th{width:100%;height:0;padding-top:150%;background-color:#000;background-repeat:no-repeat;position:relative;color:#777;font-size:12px}.th>span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
-.m{padding:7px;font-size:12px;line-height:1.5}.v{color:#ff4d4d;font-weight:bold;font-size:14px}.tag{display:inline-block;background:#333;border-radius:3px;padding:0 4px;margin:1px;font-size:10px}.u{color:#ffd37a;word-break:break-all}
-#modal{position:fixed;inset:0;background:#000c;display:none;align-items:center;justify-content:center;z-index:9}#modal.on{display:flex}#box{background:#222;padding:10px;border-radius:8px;max-height:96vh;overflow:auto;width:min(420px,96vw)}#box iframe{width:100%;height:600px;border:0;background:#fff}#box a{color:#8ab4ff}
-</style></head><body>
-<div id="side"></div><div id="main"><div id="bar"></div><div id="grid"></div></div>
-<div id="modal" onclick="if(event.target==this)this.classList.remove('on')"><div id="box"></div></div>
-<script src="data.js"></script><script>
-const TN={A01:'K뷰티·화장품',A02:'피부과·시술',A03:'탈모·모발이식',A04:'퍼스널컬러·눈썹',A05:'주식',A06:'ETF·배당·연금',A07:'코인·블록체인',A08:'투자대가·기법',A09:'재테크·절약',A10:'부산경남 상가',A11:'부동산·경매',A12:'호텔·리조트',A13:'한국·부산 관광',A14:'해외여행·항공',A15:'AI도구·자동화',A16:'AI창업·수익화',A17:'소상공인·창업',A18:'건강·헬스',A19:'금·환율·거시',A20:'국뽕·해외반응'};
-const HN=['스토리(하몬서클형)','문제해결','리스트·랭킹','비교VS','경고·손실회피','호기심','질문-답','성과증명','속보·뉴스','공감·밈','자료요청CTA'];
-const MK={A:'A 코드 애니메이션으로 쉽게 가능',B:'B AI 영상 생성(Hailuo·Kling·Veo류)으로 가능',C:'C AI 이미지·원페이지로 쉽게 가능',D:'D 어려움(실제 촬영 필요)',E:'E 부분 가능(클립+나레이션)',X:'X 불가에 가까움(실제 보도)'};
-const S={cat:'ALL',grp:'ALL',type:'',mk:'',hk:'',g:'',col:6,key:'d',dir:-1,q:''};
-const kr=v=>{if(v==null)return'비공개';v=Math.floor(v);if(v<100)return''+v;if(v<1e4){const t=Math.floor(v/1000),h=Math.floor(v%1000/100);return(t?t+'천':'')+(h?h+'백':'')||''+v}if(v<1e8){const m=Math.floor(v/1e4),t=m>=100?0:Math.floor(v%1e4/1000);return m+'만'+(t?t+'천':'')}return Math.floor(v/1e8)+'억'};
-const $=s=>document.querySelector(s);
-function side(){let h='<a onclick="S.cat=\'ALL\';S.grp=\'ALL\';go()" class="'+(S.cat=='ALL'&&S.grp=='ALL'?'on':'')+'">전체 ('+DATA.length+')</a>';
- h+='<h4>대분류</h4><a onclick="S.grp=\'insta\';S.cat=\'ALL\';go()" class="'+(S.grp=='insta'?'on':'')+'">인스타 수익화 연구소</a><a onclick="S.grp=\'kook\';S.cat=\'ALL\';go()" class="'+(S.grp=='kook'?'on':'')+'">국뽕·해외반응</a><h4>분야</h4>';
- for(const k in TN){h+='<a onclick="S.cat=\''+k+'\';S.grp=\'ALL\';go()" class="'+(S.cat==k?'on':'')+'">'+TN[k]+' ('+DATA.filter(d=>d.a==k).length+')</a>'}
- $('#side').innerHTML=h}
-function bar(){const o=(arr,cur,f)=>arr.map(([v,t])=>'<option value="'+v+'"'+(cur==v?' selected':'')+'>'+t+'</option>').join('');
- let h='<button onclick="$(\'#side\').classList.toggle(\'hide\')">☰ 메뉴</button><span>열</span>';
- for(const n of [3,4,5,6,7,8,10])h+='<button class="'+(S.col==n?'on':'')+'" onclick="S.col='+n+';go()">'+n+'</button>';
- h+='<select onchange="S.key=this.value;go()">'+o([['d','날짜'],['v','조회수'],['m','댓글'],['l','좋아요'],['s','공유']],S.key)+'</select>';
- h+='<button onclick="S.dir*=-1;go()">'+(S.dir<0?'내림차순 ↓':'오름차순 ↑')+'</button>';
- h+='<select onchange="S.type=this.value;go()">'+o([['','릴스+사진'],['r','릴스만'],['p','사진·캐러셀만']],S.type)+'</select>';
- h+='<select onchange="S.g=this.value;go()">'+o([['','전체 국가'],['한국','한국'],['일본','일본'],['영어권·기타','영어권·기타'],['중화권','중화권'],['기타','기타']],S.g)+'</select>';
- h+='<select onchange="S.mk=this.value;go()">'+o([['','AI제작 가능성 전체'],...Object.entries(MK)],S.mk)+'</select>';
- h+='<select onchange="S.hk=this.value;go()">'+o([['','훅 유형 전체'],...HN.map((n,i)=>[''+i,n])],S.hk)+'</select>';
- h+='<input placeholder="검색(작성자·본문)" oninput="S.q=this.value;draw()" value="'+S.q+'">';$('#bar').innerHTML=h}
-function list(){let a=DATA.filter(d=>(S.cat=='ALL'||d.a==S.cat)&&(S.grp=='ALL'||(S.grp=='kook')==(d.a=='A20'))&&(!S.type||d.t==S.type)&&(!S.g||d.g==S.g)&&(!S.mk||d.k==S.mk)&&(S.hk===''||d.h.includes(+S.hk))&&(!S.q||(d.u+d.x).toLowerCase().includes(S.q.toLowerCase())));
- const k=S.key;a.sort((x,y)=>{const A=x[k],B=y[k];if(A==null&&B==null)return 0;if(A==null)return 1;if(B==null)return -1;return (A-B)*S.dir});return a}
-const url=d=>'https://www.instagram.com/'+(d.t=='r'?'reel':'p')+'/'+d.c+'/';
-function card(d){const c=d.i%30%6,r=Math.floor(d.i%30/6),s=Math.floor(d.i/30);
- const th=d.o?'<div class="th" style="background-image:url(sheets/s'+s+'.jpg);background-size:600% 500%;background-position:'+(c*20)+'% '+(r*25)+'%"></div>':'<div class="th"><span>'+(d.t=='r'?'▶ 릴스':'🖼 사진')+' · 이미지 없음</span></div>';
- return '<div class="card" onclick="show('+d.i+')">'+th+'<div class="m"><div class="u">'+d.u+'</div><div class="v">조회 '+kr(d.v)+'</div>'+new Date(d.d*1000).toISOString().slice(0,10)+'<br>댓글 '+kr(d.m)+' · 좋아요 '+kr(d.l)+'<br>'+(d.h||[]).map(i=>'<span class="tag">'+HN[i]+'</span>').join('')+'<span class="tag">'+d.k+'</span></div></div>'}
-let CUR=[],SHOWN=0;
-function more(){const g=$('#grid');CUR.slice(SHOWN,SHOWN+90).forEach(d=>g.insertAdjacentHTML('beforeend',card(d)));SHOWN+=90}
-function draw(){CUR=list();SHOWN=0;const g=$('#grid');g.style.gridTemplateColumns='repeat('+S.col+',minmax(0,1fr))';g.innerHTML='';more();g.scrollTop=0;document.title='인스타 갤러리 ('+CUR.length+')'}
-document.addEventListener('DOMContentLoaded',()=>{});
-setTimeout(()=>$('#grid').addEventListener('scroll',e=>{const g=e.target;if(g.scrollTop+g.clientHeight>g.scrollHeight-600&&SHOWN<CUR.length)more()}),0);
-function show(i){const d=DATA[i];$('#box').innerHTML='<div style="margin-bottom:6px"><b>'+d.u+'</b> · '+TN[d.a]+' · '+MK[d.k]+' · <a href="'+url(d)+'" target="_blank" rel="noopener noreferrer">인스타 원본 열기 ↗</a></div><iframe src="'+url(d)+'embed/" allowfullscreen></iframe><p>'+d.x.replace(/</g,'&lt;')+'</p><p style="font-size:12px;color:#aaa">임베드가 비어 있으면 위 "원본 열기" 링크를 누르세요. (인스타 로그인 필요할 수 있음)</p>';$('#modal').classList.add('on')}
-function go(){side();bar();draw()}go();
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>인스타 썸네일 갤러리</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0f1115;color:#eee;font-family:"Malgun Gothic",sans-serif;--sw:150px}
+#side{position:fixed;left:0;top:0;bottom:0;width:var(--sw);background:#151922;border-right:1px solid #2b3040;overflow:auto;z-index:8;padding:6px 0;font-size:12px;transition:transform .15s}
+#rs{position:fixed;left:calc(var(--sw) - 3px);top:0;bottom:0;width:6px;cursor:col-resize;z-index:9}#rs:hover{background:#ffd16688}
+#edge{position:fixed;left:0;top:0;bottom:0;width:10px;z-index:7;display:none}
+body.unpin #side{transform:translateX(calc(-1 * var(--sw)))}body.unpin.open #side{transform:none;box-shadow:4px 0 14px #000}body.unpin #rs{display:none}body.unpin.open #rs{display:block}body.unpin #edge{display:block}
+#main{margin-left:var(--sw)}body.unpin #main{margin-left:0}
+.ttl{padding:2px 8px 4px;font-weight:700;font-size:12px;display:flex;justify-content:space-between;align-items:center}.grp{color:#ffd166;font-size:10px;padding:8px 8px 2px;font-weight:700}
+.mi{display:block;padding:4px 8px;cursor:pointer;color:#ccd;border-left:3px solid transparent;line-height:1.25}.mi:hover{background:#1d2330}.mi.on{background:#232b3c;border-left-color:#ffd166;color:#fff}
+#bar{position:sticky;top:0;background:#0f1115f2;z-index:4;padding:6px 10px;border-bottom:1px solid #2b3040;display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;font-size:12px}
+button,select,input[type=text],input[type=date]{background:#1a1d24;color:#eee;border:1px solid #2b3040;border-radius:6px;padding:3px 8px;font-size:12px}button,select{cursor:pointer}button.on{background:#ffd166;color:#000;font-weight:700}
+#t{font-weight:700;font-size:13px}.lab{color:#9aa}label{cursor:pointer}input[type=range]{width:120px;vertical-align:middle}.row{display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;width:100%}
+#g{display:grid;gap:5px;padding:8px 10px 40px;align-items:start}
+.c{background:#1a1d24;border-radius:6px;overflow:hidden;border:1px solid #2b3040;position:relative}.c img{width:100%;display:block;background:#000}
+.im{width:100%;padding-top:150%;background-color:#000;background-size:600% 500%;background-repeat:no-repeat;display:block;position:relative}.im.no{color:#667;font-size:11px;text-align:center;background-image:none;padding-top:0;height:120px;line-height:120px}body.crop .im{padding-top:125%}
+.tag{position:absolute;top:2px;left:2px;background:#000b;border-radius:3px;padding:0 4px;font-size:10px}
+.b{padding:3px 4px;font-size:10.5px;line-height:1.35;overflow:hidden}.r1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.k{color:#ffd166;font-weight:700}.ko{color:#9fe3a8}.ja{color:#778;font-size:9.5px}.rl{color:#ff9b9b}
+.txt{display:none;margin-top:2px;word-break:break-all}body.showtxt .txt{display:block}
+a{color:#8ab4ff;text-decoration:none}.acc{cursor:pointer;color:#8ab4ff}.go{float:right;color:#ffd166}
+#tg{position:fixed;left:6px;bottom:8px;z-index:10;opacity:.9;font-size:14px}
+</style></head><body class="crop">
+<div id="edge"></div><div id="side"></div><div id="rs"></div>
+<div id="main"><div id="bar">
+<div class="row"><button id="tgb">☰ 메뉴</button><button id="pinb" class="on">📌 고정</button><span id="t"></span>
+<span class="lab">열</span><input type="range" id="rg" min="2" max="14" step="1"><b id="cn"></b><span id="cols"></span>
+<label><input type="checkbox" id="stx"> 제목·본문</label><label><input type="checkbox" id="crp"> 4:5 자르기</label></div>
+<div class="row"><span class="lab">정렬</span><select id="key"><option value="d">최신순(날짜)</option><option value="l">좋아요</option><option value="m">댓글</option><option value="cr">댓글율(댓글/좋아요)</option><option value="p">조회수(릴스)</option></select><button id="dir">내림 ▼</button>
+<span class="lab">형식</span><select id="fmt"><option value="">전체</option><option value="사진">사진</option><option value="릴스">릴스</option></select>
+<select id="rl"><option value="">전체 국가</option><option value="한국">한국</option><option value="일본">일본</option><option value="영어권·기타">영어권·기타</option><option value="중화권">중화권</option><option value="기타">기타</option></select>
+<span class="lab">검색</span><input type="text" id="q" placeholder="제목/계정" size="12"><button id="qc">계정해제</button></div>
+<div class="row"><span class="lab">기간</span><span id="per"></span>
+<input type="date" id="d1"><span class="lab">~</span><input type="date" id="d2"><button id="dok">적용</button><button id="dx">기간해제</button><span id="cnt" class="lab"></span></div>
+</div><div id="g"></div></div>
+<script>
+const MENU=[["뷰티·건강",[["a01","K뷰티·화장품"],["a02","피부과·시술"],["a03","탈모·모발이식"],["a04","퍼스널컬러·눈썹"],["a18","건강·헬스"]]],["투자·경제",[["a05","주식"],["a06","ETF·배당·연금"],["a07","코인·블록체인"],["a08","투자대가·기법"],["a09","재테크·절약"],["a19","금·환율·거시"]]],["부동산·창업",[["a10","부산경남 상가"],["a11","부동산·경매"],["a17","소상공인·창업"]]],["여행·숙박",[["a12","호텔·리조트"],["a13","한국·부산 관광"],["a14","해외여행·항공"]]],["AI·부업",[["a15","AI도구·자동화"],["a16","AI창업·수익화"]]],["국뽕·해외반응",[["a20","글로벌 한국반응"]]]];
+const $=id=>document.getElementById(id);
+let cur=null,cols=+localStorage.cols||6,desc=true,key='d',pf={m:0,d1:'',d2:'',mode:''},acc='';
+if(localStorage.sw)document.body.style.setProperty('--sw',localStorage.sw+'px');
+$('side').innerHTML='<div class="ttl"><span>인스타 수익화 연구소</span></div>'+MENU.map(([g,a])=>'<div class="grp">'+g+'</div>'+a.map(([k,n])=>'<a class="mi" data-k="'+k+'">'+n+'</a>').join('')).join('');
+[3,4,6,8,10].forEach(n=>{const b=document.createElement('button');b.textContent=n;b.dataset.n=n;b.onclick=()=>setCols(n);$('cols').appendChild(b)});
+function setCols(n){cols=+n;localStorage.cols=cols;$('rg').value=cols;$('cn').textContent=cols;document.querySelectorAll('#cols button').forEach(b=>b.classList.toggle('on',+b.dataset.n===cols));$('g').style.gridTemplateColumns='repeat('+cols+',1fr)'}
+$('rg').oninput=e=>setCols(e.target.value);
+const PER=[['전체',0,''],['1개월',1],['2개월',2],['3개월',3],['4개월',4],['5개월',5],['6개월',6],['1년',12],['1년 이상 전','','old'],['작년','','last']];
+PER.forEach(p=>{const b=document.createElement('button');b.textContent=p[0];b.dataset.i=PER.indexOf(p);b.onclick=()=>{pf={m:p[1]||0,d1:'',d2:'',mode:p[2]||''};$('d1').value='';$('d2').value='';render()};$('per').appendChild(b)});
+$('dok').onclick=()=>{pf={m:0,d1:$('d1').value,d2:$('d2').value,mode:''};render()};
+$('dx').onclick=()=>{pf={m:0,d1:'',d2:'',mode:''};$('d1').value='';$('d2').value='';render()};
+['key','fmt','rl'].forEach(i=>$(i).onchange=()=>{key=$('key').value;render()});
+$('q').oninput=()=>render();$('qc').onclick=()=>{acc='';$('q').value='';render()};
+$('dir').onclick=()=>{desc=!desc;render()};
+function setPin(p){document.body.classList.toggle('unpin',!p);document.body.classList.remove('open');$('pinb').classList.toggle('on',p);localStorage.pin=p?1:0}
+$('pinb').onclick=()=>setPin(document.body.classList.contains('unpin'));
+$('tgb').onclick=()=>{if(document.body.classList.contains('unpin'))document.body.classList.toggle('open');else setPin(false)};
+$('edge').onmouseenter=()=>document.body.classList.add('open');
+$('side').onmouseleave=()=>{if(document.body.classList.contains('unpin'))document.body.classList.remove('open')};
+$('stx').onchange=e=>document.body.classList.toggle('showtxt',e.target.checked);
+$('crp').onchange=e=>document.body.classList.toggle('crop',e.target.checked);document.body.classList.remove('crop');
+if(localStorage.pin==='0')setPin(false);
+let drag=false;$('rs').onmousedown=()=>{drag=true;document.body.style.userSelect='none'};
+window.onmouseup=()=>{drag=false;document.body.style.userSelect=''};
+window.onmousemove=e=>{if(!drag)return;const w=Math.max(90,Math.min(320,e.clientX));document.body.style.setProperty('--sw',w+'px');localStorage.sw=w};
+function fmtN(n){if(n==null)return'-';return n>=1e8?(n/1e8).toFixed(1)+'억':n>=1e4?(n/1e4).toFixed(1)+'만':n.toLocaleString()}
+function dec(s){return String(s||'').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"')}
+function esc(s){return dec(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function load(k){return new Promise(r=>{if(window.DATA&&DATA[k])return r();const s=document.createElement('script');s.src='data_'+k+'.js';s.onload=r;document.body.appendChild(s)})}
+async function open_(k){cur=k;acc='';document.querySelectorAll('.mi').forEach(e=>e.classList.toggle('on',e.dataset.k===k));$('g').innerHTML='<div style="padding:30px">불러오는 중...</div>';await load(k);location.hash=k;
+ DATA[k].forEach(x=>{x.cr=x.l?(x.m||0)/x.l:0});
+ $('key').value=key;render();
+ if(document.body.classList.contains('unpin'))document.body.classList.remove('open')}
+function inPeriod(x){if(!x.d)return !(pf.m||pf.d1||pf.d2||pf.mode);const d=x.d,now=new Date();
+ if(pf.m){const c=new Date(now);c.setMonth(c.getMonth()-pf.m);return d>=c.toISOString().slice(0,10)}
+ if(pf.mode==='old'){const c=new Date(now);c.setFullYear(c.getFullYear()-1);return d<c.toISOString().slice(0,10)}
+ if(pf.mode==='last'){return d.slice(0,4)===String(now.getFullYear()-1)}
+ if(pf.d1&&d<pf.d1)return false;if(pf.d2&&d>pf.d2)return false;return true}
+function render(){if(!cur)return;let arr=[...DATA[cur]];
+ const f=$('fmt').value,rl=$('rl').value,q=$('q').value.trim().toLowerCase();
+ arr=arr.filter(x=>inPeriod(x)&&(!f||(x.t||'').startsWith(f))&&(!rl||x.g===rl)&&(!acc||x.a===acc)&&(!q||(x.a+' '+dec(x.h)+' '+dec(x.ko)).toLowerCase().includes(q)));
+ const v=x=>x[key]==null?(key==='d'?'':-1):x[key];
+ arr.sort((a,b)=>{const A=v(a),B=v(b);const c=A<B?-1:A>B?1:0;return desc?-c:c});
+ $('t').textContent=MENU.flatMap(m=>m[1]).find(x=>x[0]===cur)[1];$('cnt').textContent=arr.length+' / '+DATA[cur].length+'개'+(acc?' · @'+acc:'');
+ $('dir').textContent=desc?'내림 ▼':'오름 ▲';setCols(cols);
+ document.querySelectorAll('#per button').forEach(b=>{const p=PER[+b.dataset.i];b.classList.toggle('on',!pf.d1&&!pf.d2&&(p[2]||'')===pf.mode&&(p[1]||0)===pf.m)});
+ $('g').innerHTML=arr.map((x,i)=>'<div class="c"><span class="tag">'+(i+1)+(x.t?' '+esc(x.t):'')+'</span><a href="'+x.u+'" target="_blank" rel="noopener">'+(x.o?'<div class="im" style="background-image:url(sheets/s'+x.sh+'.jpg);background-position:'+((x.sp%6)*20)+'% '+(Math.floor(x.sp/6)*25)+'%"></div>':'<div class="im no">이미지 없음</div>')+'</a>'<div class="b"><div class="r1">'+(x.p?'<span class="k">▶'+fmtN(x.p)+'</span> ':'')+'♥'+fmtN(x.l)+' 💬'+fmtN(x.m)+' <span title="댓글율">('+Math.round(x.cr*100)+'%)</span><a class="go" href="'+x.u+'" target="_blank" rel="noopener">열기↗</a></div><div class="r1">'+esc((x.d||'').slice(2))+' <span class="acc" data-a="'+esc(x.a)+'">@'+esc(x.a)+'</span>'+''+'</div><div class="txt">'+(x.ko?'<div class="ko">'+esc(x.ko)+'</div><div class="ja">'+esc(x.ja)+'</div>':'<div>'+esc(x.h)+'</div><div class="ko">'+esc(x.q||'')+'</div>')+(x.r?'<div class="k">예상수익 ₩'+esc(x.r)+'</div>':'')+'</div></div></div>').join('')}
+$('g').onclick=e=>{const a=e.target.closest('.acc');if(a){acc=a.dataset.a;render();window.scrollTo(0,0)}};
+document.querySelectorAll('.mi').forEach(e=>e.onclick=()=>open_(e.dataset.k));
+open_(location.hash.slice(1)||'a05');
 </script></body></html>

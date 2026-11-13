@@ -2,7 +2,7 @@
 <style>
 *{box-sizing:border-box}body{margin:0;background:#0f1115;color:#eee;font-family:"Malgun Gothic",sans-serif;--sw:150px}
 #side{position:fixed;left:0;top:0;bottom:0;width:var(--sw);background:#151922;border-right:1px solid #2b3040;overflow:auto;z-index:8;padding:6px 0;font-size:12px;transition:transform .15s}
-#rs{position:fixed;left:calc(var(--sw) - 3px);top:0;bottom:0;width:6px;cursor:col-resize;z-index:9}#rs:hover{background:#ffd16688}
+#rs{position:fixed;left:calc(var(--sw) - 5px);top:0;bottom:0;width:10px;cursor:col-resize;z-index:9;background:linear-gradient(90deg,transparent 3px,#3a4258 3px,#3a4258 7px,transparent 7px)}#rs::after{content:"⋮";position:absolute;top:50%;left:0;width:10px;text-align:center;color:#ffd166;font-size:16px;transform:translateY(-50%);pointer-events:none}#rs:hover,body.dragging #rs{background:linear-gradient(90deg,transparent 2px,#ffd166 2px,#ffd166 8px,transparent 8px)}
 #edge{position:fixed;left:0;top:0;bottom:0;width:10px;z-index:7;display:none}
 body.unpin #side{transform:translateX(calc(-1 * var(--sw)))}body.unpin.open #side{transform:none;box-shadow:4px 0 14px #000}body.unpin #rs{display:none}body.unpin.open #rs{display:block}body.unpin #edge{display:block}
 #main{margin-left:var(--sw)}body.unpin #main{margin-left:0}
@@ -16,7 +16,7 @@ button,select,input[type=text],input[type=date]{background:#1a1d24;color:#eee;bo
 .th{position:relative;display:block;background:#000;overflow:hidden}.tt,.nt{width:100%;aspect-ratio:9/16;display:block}.nt{display:flex;align-items:center;justify-content:center;color:#778;background:linear-gradient(160deg,#252a36,#141720);font-size:10px}
 body.crop .th{aspect-ratio:4/5}body.crop .tt,body.crop .nt{position:absolute;left:0;top:50%;transform:translateY(-50%)}
 .tag{position:absolute;top:2px;left:2px;background:#000b;border-radius:3px;padding:0 4px;font-size:10px;z-index:2}
-.b{padding:3px 4px;font-size:10.5px;line-height:1.35;overflow:hidden}.r1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.k{color:#ffd166;font-weight:700}.ko{color:#9fe3a8}.v{color:#ff4d4d;font-weight:700}.rl{color:#ff9b9b}
+.b{padding:3px 4px;font-size:11px;line-height:1.4;overflow:hidden}.r1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.m1{font-size:13px}.m2{display:flex;flex-wrap:wrap;gap:0 7px;font-weight:700;cursor:pointer}.m3{display:flex;justify-content:space-between;gap:4px;color:#aab}.m2 small{font-weight:400;color:#9aa}.c.open .txt{display:block}.k{color:#ffd166;font-weight:700}.ko{color:#9fe3a8}.v{color:#ff4d4d;font-weight:700}.rl{color:#ff9b9b}
 .txt{display:none;margin-top:2px;word-break:break-all}body.showtxt .txt{display:block}
 a{color:#8ab4ff;text-decoration:none}.acc{cursor:pointer;color:#8ab4ff}.go{float:right;color:#ffd166}
 #fr{display:none;width:100%;height:100vh;border:0;background:#0f1115}body.frm #fr{display:block}body.frm #bar,body.frm #g{display:none}
@@ -25,7 +25,7 @@ a{color:#8ab4ff;text-decoration:none}.acc{cursor:pointer;color:#8ab4ff}.go{float
 <div id="main"><div id="bar">
 <div class="row"><button id="tgb">☰ 메뉴</button><button id="pinb" class="on">📌 고정</button><span id="t"></span>
 <span class="lab">열</span><input type="range" id="rg" min="2" max="14" step="1"><b id="cn"></b><span id="cols"></span>
-<label><input type="checkbox" id="stx"> 제목·본문</label><label><input type="checkbox" id="crp"> 4:5 자르기</label></div>
+<button id="stb">제목·본문 ▸</button><span class="lab">크기</span><input type="range" id="sz" min="40" max="100" step="5"><b id="szn"></b><label><input type="checkbox" id="crp"> 4:5 자르기</label></div>
 <div class="row"><span class="lab">정렬</span><select id="key"><option value="p">조회수</option><option value="d">최신순(날짜)</option><option value="l">좋아요</option><option value="m">댓글</option><option value="cr">댓글율(댓글/좋아요)</option></select><button id="dir">내림 ▼</button>
 <span class="lab">유형</span><select id="fmt"><option value="">전체</option><option>AI 인물·캐릭터</option><option>AI 툴 강의·홍보</option><option>AI 활용</option><option>일반(사람·실사)</option></select>
 <select id="rl"><option value="">한국+일본+해외</option><option value="KR">한국</option><option value="JP">일본</option><option value="GL">해외</option></select>
@@ -45,6 +45,8 @@ const ITEMS={};MENU.forEach(([g,a])=>a.forEach(x=>ITEMS[x[0]]={n:x[1],t:x[2],u:x
 [3,4,6,8,10].forEach(n=>{const b=document.createElement('button');b.textContent=n;b.dataset.n=n;b.onclick=()=>setCols(n);$('cols').appendChild(b)});
 function setCols(n){cols=+n;localStorage.cols=cols;$('rg').value=cols;$('cn').textContent=cols;document.querySelectorAll('#cols button').forEach(b=>b.classList.toggle('on',+b.dataset.n===cols));$('g').style.gridTemplateColumns='repeat('+cols+',minmax(0,1fr))'}
 $('rg').oninput=e=>setCols(e.target.value);
+function setSz(n){n=+n;localStorage.sz=n;$('sz').value=n;$('szn').textContent=n+'%';$('g').style.width=n+'%'}
+$('sz').oninput=e=>setSz(e.target.value);setSz(+localStorage.sz||100);
 const PER=[['전체',0,''],['1개월',1],['2개월',2],['3개월',3],['4개월',4],['5개월',5],['6개월',6],['1년',12],['1년 이상 전','','old'],['작년','','last']];
 PER.forEach(p=>{const b=document.createElement('button');b.textContent=p[0];b.dataset.i=PER.indexOf(p);b.onclick=()=>{pf={m:p[1]||0,d1:'',d2:'',mode:p[2]||''};$('d1').value='';$('d2').value='';render()};$('per').appendChild(b)});
 $('dok').onclick=()=>{pf={m:0,d1:$('d1').value,d2:$('d2').value,mode:''};render()};
@@ -57,11 +59,12 @@ $('pinb').onclick=()=>setPin(document.body.classList.contains('unpin'));
 $('tgb').onclick=()=>{if(document.body.classList.contains('unpin'))document.body.classList.toggle('open');else setPin(false)};
 $('edge').onmouseenter=()=>document.body.classList.add('open');
 $('side').onmouseleave=()=>{if(document.body.classList.contains('unpin'))document.body.classList.remove('open')};
-$('stx').onchange=e=>document.body.classList.toggle('showtxt',e.target.checked);
+function setTx(on){document.body.classList.toggle('showtxt',on);$('stb').classList.toggle('on',on);$('stb').textContent=on?'제목·본문 ▾':'제목·본문 ▸';localStorage.tx=on?1:0;if(!on)document.querySelectorAll('.c.open').forEach(c=>c.classList.remove('open'))}
+$('stb').onclick=()=>setTx(!document.body.classList.contains('showtxt'));if(localStorage.tx==='1')setTx(true);
 $('crp').onchange=e=>document.body.classList.toggle('crop',e.target.checked);document.body.classList.remove('crop');
 if(localStorage.pin==='0')setPin(false);
-let drag=false;$('rs').onmousedown=()=>{drag=true;document.body.style.userSelect='none'};
-window.onmouseup=()=>{drag=false;document.body.style.userSelect=''};
+let drag=false;$('rs').onmousedown=e=>{e.preventDefault();drag=true;document.body.classList.add('dragging');document.body.style.userSelect='none'};
+window.onmouseup=()=>{drag=false;document.body.classList.remove('dragging');document.body.style.userSelect=''};
 window.onmousemove=e=>{if(!drag)return;const w=Math.max(90,Math.min(320,e.clientX));document.body.style.setProperty('--sw',w+'px');localStorage.sw=w};
 function fmtN(n){if(n==null||n==='')return'-';return n>=1e8?(n/1e8).toFixed(1)+'억':n>=1e4?(n/1e4).toFixed(1)+'만':n.toLocaleString()}
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
@@ -88,8 +91,8 @@ function render(){if(!cur||ITEMS[cur].t==='f'||!window.DATA||!DATA[cur])return;l
  $('t').textContent=ITEMS[cur].n;$('cnt').textContent=arr.length+' / '+DATA[cur].length+'개'+(acc?' · @'+acc:'');
  $('dir').textContent=desc?'내림 ▼':'오름 ▲';setCols(cols);
  document.querySelectorAll('#per button').forEach(b=>{const p=PER[+b.dataset.i];b.classList.toggle('on',!pf.d1&&!pf.d2&&(p[2]||'')===pf.mode&&(p[1]||0)===pf.m)});
- $('g').innerHTML=arr.map((x,i)=>{const u='https://www.instagram.com/reel/'+x.c+'/';return'<div class="c"><span class="tag">'+(i+1)+' '+x.n+'</span><a class="th" href="'+u+'" target="_blank" rel="noopener">'+thumb(x.c)+'</a><div class="b"><div class="r1"><span class="v">▶'+fmtN(x.p)+'</span> ♥'+fmtN(x.l)+' 💬'+fmtN(x.m)+' <span title="댓글율(댓글/좋아요)">('+Math.round(x.cr*100)+'%)</span><a class="go" href="'+u+'" target="_blank" rel="noopener">열기↗</a></div><div class="r1">'+esc((x.d||'').slice(2))+' <span class="acc" data-a="'+esc(x.a)+'">@'+esc(x.a)+'</span> <span class="rl">'+(KS[x.k]||'')+'</span></div><div class="txt"><div class="ko">'+esc(x.h)+'</div><div class="k">'+esc(x.f)+(x.ct&&x.ct.length?' · '+esc(x.ct.join(', ')):'')+'</div></div></div></div>'}).join('')}
-$('g').onclick=e=>{const a=e.target.closest('.acc');if(a){acc=a.dataset.a;render();window.scrollTo(0,0)}};
+ $('g').innerHTML=arr.map((x,i)=>{const u='https://www.instagram.com/reel/'+x.c+'/';return'<div class="c"><span class="tag">'+(i+1)+' '+x.n+'</span><a class="th" href="'+u+'" target="_blank" rel="noopener">'+thumb(x.c)+'</a><div class="b"><div class="m1 r1"><span class="v">▶'+fmtN(x.p)+'</span></div><div class="m2" title="눌러서 제목·본문 펼치기/접기"><span>♥'+fmtN(x.l)+'</span><span>💬'+fmtN(x.m)+'</span><small title="댓글율(댓글/좋아요)">'+Math.round(x.cr*100)+'%</small></div><div class="m3"><span>'+esc((x.d||'').slice(2))+'</span><a class="go" style="float:none" href="'+u+'" target="_blank" rel="noopener">열기↗</a></div><div class="r1"><span class="acc" data-a="'+esc(x.a)+'">@'+esc(x.a)+'</span> <span class="rl">'+(KS[x.k]||'')+'</span></div><div class="txt"><div class="ko">'+esc(x.h)+'</div><div class="k">'+esc(x.f)+(x.ct&&x.ct.length?' · '+esc(x.ct.join(', ')):'')+'</div></div></div></div></div>'}).join('')}
+$('g').onclick=e=>{const a=e.target.closest('.acc');if(a){acc=a.dataset.a;render();window.scrollTo(0,0);return}const m=e.target.closest('.m2');if(m)m.closest('.c').classList.toggle('open')};
 document.querySelectorAll('.mi').forEach(e=>e.onclick=()=>open_(e.dataset.k));
 open_(location.hash.slice(1)||'krai');
 </script></body></html>

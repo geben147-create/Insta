@@ -12,6 +12,14 @@ main{max-width:1290px;padding:29px 20px 80px;margin:0 auto}h1{font-size:clamp(28
 <div class="lead">기존 급등·신생 소형채널 148편에서 <b>한국어 자동자막 비중 70% 이상</b>인 영상을 조회수순으로 선정했습니다. 각 영상별 0~30초를 5단계로 요약하고, 전체 전개를 5~6개 이야기 흐름으로 정리했습니다. 별도 탭에서 <b>기존 연구 순서 1~20</b> 및 <b>전체 조회수 1~20</b>도 그대로 확인할 수 있습니다.</div>
 <div class="note"><b>중요한 구분:</b> 한국어 ASR 비중은 자막 언어의 비중으로, ‘한국어 나레이션 음성 비중’이 아닙니다. 대화극·더빙도 섞일 수 있습니다. <b>5문장 요약</b>은 자막 구간을 자연어로 재정리한 해설이며, <b>자동자막 짧은 발췌</b>와 구분됩니다. ASR 오인식·극화 대본·사실 미확인 주장이 있습니다. 이 페이지는 조회수 및 제작 구조 분석이지 뉴스 사실 확인 보고서가 아닙니다.</div>
 <div class="statgrid"><div class="stat"><small>기준 영상</small><b>148</b><small>급등·신생·소형 목록</small></div><div class="stat"><small>한국어 ASR 비중 기준</small><b>70%↑</b><small>나레이션 실측 아님</small></div><div class="stat"><small>집중 분석</small><b>20편</b><small>첫 30초 5단계</small></div><div class="stat"><small>동일 채널 별도 검토</small><b>7편</b><small>카이랑·조회수 20배 차</small></div></div>
+<section class="section" id="freq"><h2>📊 첫 30초 훅 반복 요소</h2><p class="sub">한국어 ASR 비중 70% 이상 조회수 TOP20의 0~29초 자동자막을 단어 패턴으로 집계했습니다. 한 영상에 여러 요소 중복 가능하며, 구간 전체의 의미 판정이 아니라 단어 출현 횟수입니다.</p>
+<div class="barbox">
+<div class="barrow"><strong>국가·외국 명칭</strong><div class="track"><div class="fill" style="width:90%"></div></div><b>18 / 20</b></div>
+<div class="barrow"><strong>숫자</strong><div class="track"><div class="fill" style="width:65%"></div></div><b>13 / 20</b></div>
+<div class="barrow"><strong>반전·대조 표현</strong><div class="track"><div class="fill" style="width:50%"></div></div><b>10 / 20</b></div>
+<div class="barrow"><strong>문제·위기 표현*</strong><div class="track"><div class="fill" style="width:50%"></div></div><b>10 / 20</b></div>
+<div class="barrow"><strong>질문 표현</strong><div class="track"><div class="fill" style="width:30%"></div></div><b>6 / 20</b></div>
+</div><div class="note">*‘문제·위기’ 검색 규칙에 왜·못·사라짐 등 넓은 범주의 단어가 포함되어 <b>순수 감정어 빈도와는 다릅니다.</b> 카이랑 원본 95 vs 426 고조회·저조회 비교와도 모집단이 다르므로 20% 대 9% 수치와 직접 대조하면 안 됩니다.</div></section>
 <section class="section" id="top20"><h2>🥇 TOP20 표와 대본 상세</h2><div class="tabs" id="tabs"><button class="tab active" data-tab="main">🎙 한국어 ASR 높은 조회수 TOP20</button><button class="tab" data-tab="overall">📊 전체 조회수 TOP20</button><button class="tab" data-tab="original">📚 기존 연구 순서 1~20</button></div>
 <div class="controls"><input id="query" type="search" placeholder="주제·채널·제목 검색"><button id="reset" class="chip">전체 보기</button><button id="copy" class="chip">현재 표 TSV 복사</button></div><div id="summary" class="sub"></div><div class="tablebox" style="margin:12px 0 20px"><table><thead><tr><th>#</th><th>영상 제목 / 채널</th><th>조회수</th><th>게시일</th><th>한국어 ASR%</th><th>원본</th></tr></thead><tbody id="rows"></tbody></table></div><div class="grid" id="cards"></div></section>
 <section class="section" id="kai"><h2>🔥 카이랑 채널 7편 · 왜 20배 차이?</h2><p class="sub">별도 GitHub <a href="https://geben147-create.github.io/Insta/kukppong-top1-editing-20261108/" target="_blank" rel="noopener">49편 프레임 분석</a> 가운데 카이랑 7편을 재정리. 게시일은 기존 2026-11-08 보고서값.</p>

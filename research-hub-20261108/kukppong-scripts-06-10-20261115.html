@@ -31,7 +31,7 @@ let one=tagEl("section","panel green");one.innerHTML='<h2>'+escape(ep.title)+'</
 let copyButton=tagEl("button","primary","📋 대본 전체 복사");copyButton.onclick=async()=>{await copy(allText(ep));copyButton.textContent="복사 완료";setTimeout(()=>copyButton.textContent="📋 대본 전체 복사",1500)};
 let saveButton=tagEl("button","","⬇ 대본 TXT 저장");saveButton.onclick=()=>writeFile(ep.id+"_narration.txt",allText(ep));
 let readButton=tagEl("button","primary","🔊 전체 낭독 시작");readButton.id="play";readButton.onclick=()=>startPlayback(ep);
-let stopButton=tagEl("button","","■ 낭독 중지");stopButton.onclick=stopPlayback;let rate=tagEl("select");rate.id="rate";for(let n of [0.9,1.0,1.2,1.4]){let o=tagEl("option","","속도 "+n+"배");o.value=n;if(n===1.2)o.selected=true;rate.append(o);}
+let stopButton=tagEl("button","","■ 낭독 중지");stopButton.onclick=stopPlayback;let rate=tagEl("select");rate.id="rate";for(let n of [0.9,1.0,1.2,1.4]){let o=tagEl("option","","속도 "+n+"배");o.value=n;if(n===1.0)o.selected=true;rate.append(o);}
 let ex=tagEl("button","","🎬 연출 지시 숨김");ex.onclick=()=>{showStage=!showStage;ex.textContent=showStage?"🎬 연출 지시 숨김":"🎬 연출 지시 보이기";Q("#paragraphs").className=showStage?"display-stage":"hide-stage"};
 let status=tagEl("span","readstatus","음성 지원 브라우저에서 버튼 클릭 시 재생");status.id="readStatus";let prog=tagEl("div","progress");prog.innerHTML='<div id="speechProgress"></div>';
 tools.append(copyButton,saveButton,readButton,stopButton,rate,ex,status,prog);one.append(tools);content.append(one);

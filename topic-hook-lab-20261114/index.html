@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07132b">
+<meta name="description" content="주식과 AI 창업 인스타그램 콘텐츠의 조회수·댓글·좋아요·공유와 기록된 훅 문구를 교차 분석하는 인터랙티브 대시보드">
+<title>HOOK ATLAS | 주식 × AI창업 고반응 공식 실험실</title>
+<style>
+:root{--bg:#080f20;--bg2:#0c1830;--panel:#111f38;--panel2:#172945;--line:#304461;--ink:#f4f7ff;--muted:#aec0d8;--mint:#52ead2;--cyan:#66baff;--purple:#b0a1ff;--gold:#ffce70;--pink:#ff87b7;--red:#ff8f91;--green:#7be7a9;--shadow:0 22px 70px #02081265}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:radial-gradient(ellipse at 15% 0%,#18395a 0%,transparent 33%),radial-gradient(ellipse at 84% 5%,#302954 0%,transparent 26%),var(--bg);font:15px/1.63 -apple-system,BlinkMacSystemFont,"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif}
+button,select,input{font:inherit}button{cursor:pointer}a{color:#90d6ff;text-underline-offset:3px}a:hover{color:#d6f3ff}button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--mint);outline-offset:3px}
+.container{max-width:1480px;margin:auto;padding:0 28px}.headnav{padding:18px 0;border-bottom:1px solid #344d705e;backdrop-filter:blur(16px);background:#091329d0;position:sticky;top:0;z-index:25}
+.navflex{display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;font-weight:900;letter-spacing:.12em}.brand .orb{height:33px;width:33px;border-radius:12px;background:conic-gradient(from 25deg,#59dfea,#b0a1ff,#fd89b9,#f8c976,#59dfea);box-shadow:0 0 28px #66e4ff80}.navright{display:flex;align-items:center;gap:22px;color:var(--muted);font-size:13px}.navright a{text-decoration:none}
+.hero{padding:65px 0 34px;position:relative}.eyebrow{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--mint);font-weight:800}.hero h1{font-size:clamp(39px,5.5vw,76px);line-height:1.13;letter-spacing:-.055em;margin:16px 0 18px;max-width:1030px}.accent{background:linear-gradient(110deg,#65ece0,#80bcff 45%,#c7a8ff);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{color:#cad8ea;font-size:clamp(16px,1.5vw,20px);max-width:1060px;margin-bottom:24px}
+.pills{display:flex;gap:10px;flex-wrap:wrap}.pill{border:1px solid #52708a;background:#102441a0;border-radius:999px;padding:7px 13px;color:#bed7f3;font-size:12px}.pill.gold{color:#ffdc90;border-color:#8d7138}
+.hero-bottom{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:32px 0 0}.status{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}.dot{width:8px;height:8px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 5px #52ead214}
+.tabs{display:flex;gap:9px;flex-wrap:wrap;margin:24px 0}.tab{color:#b5c5d9;background:#13243b;border:1px solid #344b68;border-radius:13px;padding:11px 17px;font-weight:750}.tab[aria-selected=true]{color:#061525;border-color:#65ded9;background:linear-gradient(115deg,#54e6d5,#75b8fa);box-shadow:0 6px 25px #46d7e027}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.kpi{min-height:130px;padding:23px;border:1px solid #334d72;background:linear-gradient(145deg,#172947dc,#101d35);border-radius:20px;box-shadow:var(--shadow)}.kpi small{display:block;font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.02em}.kpi strong{display:block;margin:8px 0 5px;font-size:clamp(22px,2.6vw,38px);line-height:1.15;letter-spacing:-.04em}.kpi span{font-size:12px;color:#adc5d9}.kpi:nth-child(1) strong{color:var(--mint)}.kpi:nth-child(2) strong{color:var(--gold)}.kpi:nth-child(3) strong{color:var(--purple)}.kpi:nth-child(4) strong{color:var(--pink)}
+.section{padding:29px 0}.section-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px;flex-wrap:wrap}.section-head h2{font-size:clamp(22px,2.7vw,31px);margin:0;letter-spacing:-.035em}.section-head p{color:var(--muted);margin:4px 0 0;font-size:13px}.anchor{color:var(--muted);text-decoration:none;font-size:13px}
+.chart-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:15px}.panel{border:1px solid #314b6d;background:linear-gradient(155deg,#12233fdc,#101d35ee);border-radius:20px;padding:22px;min-width:0}.panel h3{margin:0 0 4px;font-size:18px;letter-spacing:-.02em}.sub{font-size:12px;color:var(--muted);margin-bottom:14px}.plot{min-height:320px}.barrow{display:grid;grid-template-columns:34px minmax(0,1fr) 96px;gap:11px;align-items:center;margin:8px 0}.ranknum{font-size:12px;color:#8fabc8;font-weight:850}.barTitle{font-size:12px;color:#dceafb;display:flex;align-items:center;justify-content:space-between;gap:6px;margin-bottom:4px}.barTitle .cut{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:360px}.barbg{height:12px;border-radius:99px;background:#263953;overflow:hidden}.barfill{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#53e7d4,#73bbf5,#a996fd);min-width:3px}.val{font-weight:800;font-variant-numeric:tabular-nums;text-align:right;color:#edecff;font-size:12px}.barrow a{text-decoration:none}
+.scatter svg{width:100%;height:auto;min-height:280px;display:block;overflow:visible}.scatter text{fill:#a9c2df;font-size:12px}.scatter line{stroke:#34506e;stroke-width:1}.scatter circle{fill:#b69ffb;stroke:#e2d6ff;stroke-width:1;opacity:.72;transition:.15s}.scatter circle:hover{fill:#52ead2;opacity:1;r:7}
+.flexgraph{display:grid;grid-template-columns:160px 1fr;align-items:center;gap:18px}.donut{width:156px;height:156px;border-radius:100%;border:7px solid #1e334f;display:grid;place-items:center}.donutinner{width:99px;height:99px;border-radius:100%;background:#11233c;display:flex;align-items:center;justify-content:center;flex-direction:column}.donutinner strong{font-size:29px;color:#fff}.donutinner span{font-size:10px;color:var(--muted)}.legend{display:grid;gap:7px}.legend-item{font-size:12px;color:#cfdbf0;display:grid;grid-template-columns:12px minmax(0,1fr) auto;align-items:center;gap:8px}.colorblock{height:9px;width:9px;border-radius:3px}
+.topiclist{display:grid;gap:12px}.topicrow{width:100%;background:none;border:0;display:grid;grid-template-columns:minmax(0,1fr) 48px;gap:10px;color:#e1edfb;text-align:left;padding:0}.topicrow .line{height:7px;border-radius:8px;background:#233b56;margin-top:5px;overflow:hidden}.topicrow .fill{display:block;height:100%;background:linear-gradient(90deg,#ff9cba,#b7a7fd);border-radius:8px}.topicrow:hover{color:#64ebd3}
+.filters{display:flex;gap:9px;flex-wrap:wrap;margin:20px 0 16px}.filters input,.filters select{background:#162a45;border:1px solid #405a79;border-radius:11px;color:#f1f6ff;padding:11px 12px;min-height:44px}.filters input{flex:1;min-width:180px}.filters select{max-width:230px}.filters select option{background:#12213b}.btn{padding:10px 15px;border-radius:11px;border:1px solid #5c7994;color:#e9f5ff;background:#16314c;font-weight:750}.btn:hover{background:#28496c}.btn.primary{background:linear-gradient(100deg,#50e3cd,#79b6f2);color:#06233a;border:0}.btn.small{font-size:11px;padding:6px 10px}
+.tablewrap{overflow:auto;border-radius:16px;border:1px solid #364d70}table{width:100%;min-width:980px;border-collapse:collapse;background:#102039;font-size:13px}th{position:sticky;top:0;background:#1a3150;z-index:2;color:#c5d5e8;white-space:nowrap;font-size:11px;letter-spacing:.02em;padding:15px;text-align:left}td{border-top:1px solid #314661;padding:15px;vertical-align:middle}tr:hover td{background:#20324d}.topnum{display:inline-grid;place-items:center;width:33px;height:33px;border:1px solid #4c6983;border-radius:10px;font-weight:850;color:#bfdcf4}.topnum.best{color:#132337;background:var(--gold);border-color:var(--gold)}.metrics{font-weight:800;font-variant-numeric:tabular-nums}.soft{color:#aabdd5;font-size:11px}.hook{font-weight:700;color:#f3f8ff;line-height:1.5;max-width:420px}.tight{white-space:nowrap}.typebadge{display:inline-flex;align-items:center;gap:4px;color:#b8dedc;border:1px solid #3e7476;background:#163d46;padding:2px 8px;border-radius:7px;font-size:10px;font-weight:750;white-space:nowrap}.typebadge.warn{border-color:#806044;background:#463126;color:#ffd1a8}.typebadge.muted{border-color:#46607e;background:#24334c;color:#c6d4e9}.fake-stat{color:#ffdf97}.trend{display:inline-block;border-radius:8px;padding:2px 8px;background:#24364f;border:1px solid #526783;color:#d7e3f3;font-size:11px}
+.detail{display:none;margin-top:13px;animation:show .2s ease}.detail.open{display:block}@keyframes show{from{opacity:.3;transform:translateY(4px)}to{opacity:1;transform:none}}.detailhead{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.detailquote{font-size:19px;font-weight:800;line-height:1.55;margin:13px 0}.detailcols{display:grid;grid-template-columns:1fr 1fr;gap:16px}.minibox{border:1px solid #405776;border-radius:12px;padding:16px;background:#132743}.minibox strong{font-size:12px;color:var(--mint)}.minibox p{margin:7px 0 0;color:#d2e1f2;font-size:13px}
+.formulas{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.formula{border:1px solid #395577;background:#152843;border-radius:17px;padding:19px}.formula .no{font-size:12px;color:var(--mint);font-weight:850}.formula h4{font-size:17px;margin:9px 0 10px}.formula p{font-size:13px;color:#bfd2e7;margin:0}.formula code{display:block;margin:12px 0;padding:10px;border-radius:10px;background:#09192f;color:#ffe2aa;font:12px/1.5 inherit;white-space:normal}.formula small{color:#94adca;font-size:11px}
+.insights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.insight{border:1px solid #39536f;border-radius:18px;background:#122540;padding:22px}.insight .num{font-size:29px;font-weight:900;letter-spacing:-.04em;color:var(--gold)}.insight strong{display:block;margin:9px 0;font-size:16px}.insight p{margin:0;color:#bacee4;font-size:13px}.insight .hint{font-size:11px;color:var(--muted);display:block;margin-top:12px}
+.ideagrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.idea{display:grid;grid-template-columns:45px 1fr;gap:12px;border:1px solid #36506c;background:#122641;padding:18px;border-radius:15px}.ideanum{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:#2a3b65;color:#c4b2ff;font-weight:900}.idea h4{font-size:15px;margin:0 0 7px}.idea p{color:#bbd0e7;margin:0;font-size:13px}.idea .ideafoot{margin-top:9px;color:#86e8d8;font-size:12px}
+.foot{padding:40px 0 70px;border-top:1px solid #30435a;color:#aebfd8;font-size:12px}.footergrid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.notice{border:1px solid #6c6a45;background:#4f402828;border-radius:14px;padding:14px 17px;color:#ead7aa;font-size:13px}.hidden{display:none!important}
+@media(max-width:1080px){.formulas{grid-template-columns:repeat(3,1fr)}.chart-grid{grid-template-columns:1fr}.barTitle .cut{max-width:500px}}
+@media(max-width:700px){.container{padding:0 16px}.navright{display:none}.hero{padding:39px 0 25px}.lead{font-size:15px}.kpis{grid-template-columns:repeat(2,1fr)}.kpi{padding:17px;min-height:115px}.kpi strong{font-size:25px}.tabs{display:grid;grid-template-columns:repeat(2,1fr);gap:7px}.tab{padding:11px 6px;font-size:12px}.panel{padding:16px}.formulas{grid-template-columns:1fr}.insights,.ideagrid,.footergrid,.detailcols{grid-template-columns:1fr}.flexgraph{grid-template-columns:130px 1fr}.donut{width:126px;height:126px}.donutinner{width:80px;height:80px}.filters select{flex:1;min-width:128px}.section{padding:25px 0}.plot{min-height:0}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;scroll-behavior:auto!important;animation:none!important}}
+</style></head><body>
+<header class="headnav"><div class="container navflex"><a class="brand" href="#top"><span class="orb" aria-hidden="true"></span> INSTA / HOOK ATLAS <span style="font-weight:500;color:#88a8ca;font-size:10px">V1.0</span></a><nav class="navright"><a href="#patterns">주제·훅 공식</a><a href="#ranking">TOP 25</a><a href="#ideas">다음 콘텐츠</a><span>시트 스냅샷 · 2026.11.14</span></nav></div></header>
+<main id="top">
+<div class="container"><section class="hero"><div class="eyebrow">Creative Intelligence · Public Reel Research</div><h1>조회수보다 중요한<br><span class="accent">‘왜 반응했을까?’</span></h1><p class="lead">주식 × AI 창업 인스타 데이터의 <b>조회수 · 댓글 · 공유 · 좋아요 · 원문 첫줄 훅</b>을 교차 탐색합니다. 실전 주제 공식, 댓글·공유 장치, 다음 제작 아이디어를 한 화면에.</p>
+<div class="pills"><span class="pill">출처: 주식·AI창업 2개 시트 + TOP80 2개 시트</span><span class="pill">조회수 기록값과 추정값 분리</span><span class="pill gold">⚠️ 반응 패턴 ≠ 성공 원인 확정</span></div>
+<div class="hero-bottom"><span class="status"><i class="dot"></i> 공개 게시물의 시트 기록 기준</span><span class="status">훅 = 시트 첫줄 텍스트. 영상 0~3초 자막 원문 아님</span></div>
+</section>
+<nav class="tabs" aria-label="자료 선택">
+<button class="tab" data-group="ai" aria-selected="true">🤖 AI 창업 · 실제 조회수</button>
+<button class="tab" data-group="stock" aria-selected="false">📈 주식 · 실제 조회수</button>
+<button class="tab" data-group="aiCards" aria-selected="false">🎁 AI·창업 카드 · 댓글</button>
+<button class="tab" data-group="stockCards" aria-selected="false">💸 주식 카드 · 댓글</button>
+</nav>
+<div class="kpis" id="kpis"></div>
+<section class="section" id="evidence"><div class="section-head"><div><h2>🔎 데이터에서 바로 보이는 신호</h2><p>표본 내 비교이며 좋아요, 댓글, 공유가 각각 다른 행동임을 분리합니다.</p></div></div><div class="insights" id="insights"></div></section>
+<section class="section" id="plots"><div class="section-head"><div><h2>📊 고반응 구조 시각화</h2><p>현재 선택한 자료의 상위 표본. 다른 지표를 선택하면 차트도 함께 바뀝니다.</p></div></div><div class="chart-grid">
+<div class="panel"><h3>TOP 10 반응 순위</h3><p class="sub" id="barsub"></p><div class="plot" id="bars"></div></div>
+<div class="panel"><h3>반응 분포와 괴리</h3><p class="sub" id="scattersub"></p><div class="scatter" id="scatter"></div></div>
+<div class="panel"><h3>후킹 장치 비중</h3><p class="sub">기록된 문구와 CTA 단어의 자동 분류. 영상 도입부 자체는 미검증입니다.</p><div class="flexgraph"><div class="donut" id="donut"><div class="donutinner"><strong id="sampleCount">0</strong><span>게시물</span></div></div><div class="legend" id="legend"></div></div></div>
+<div class="panel"><h3>반복되는 주제 유형</h3><p class="sub">아래 주제명을 누르면 순위표가 필터링됩니다. 외국어·맥락 부족 사례는 재검토하세요.</p><div class="topiclist" id="topics"></div></div>
+</div></section>
+<section class="section" id="ranking"><div class="section-head"><div><h2>🏆 TOP 25 원문 훅 분석</h2><p id="rankSub">영상 첫 3초의 실제 자막이 아니라 시트에 기록된 캡션 첫줄 또는 제목입니다.</p></div><button class="btn primary" id="download">⬇️ 현재 목록 CSV 저장</button></div>
+<div class="filters"><input id="search" type="search" placeholder="주제·계정·훅 검색 (예: 무료, ETF, AI)" aria-label="검색"><select id="metric" aria-label="순위 지표"></select><select id="topicFilter" aria-label="주제 유형"><option value="all">전체 주제</option></select><select id="styleFilter" aria-label="훅 유형"><option value="all">전체 훅 유형</option></select><select id="relFilter" aria-label="주제 관련도"><option value="all">관련도 전체</option><option>직접 관련</option><option>인접</option><option>검토 필요</option><option>무관·검토</option></select><select id="limit" aria-label="표시 개수"><option value="25">TOP 25</option><option value="50">TOP 50</option><option value="100">TOP 100 / 최대</option></select><button class="btn" id="reset">초기화</button></div>
+<div class="tablewrap"><table><thead><tr><th>순위</th><th>계정 · 게시일</th><th>기록된 첫줄 훅 / 제목</th><th>주제 · 훅 유형</th><th id="viewHead">조회수</th><th>좋아요</th><th>댓글</th><th id="shareHead">공유</th><th>더보기</th></tr></thead><tbody id="rankBody"></tbody></table></div>
+<div class="detail panel" id="detail"></div>
+<p class="soft" id="resultInfo"></p>
+</section>
+<section class="section" id="patterns"><div class="section-head"><div><h2>🧠 재사용할 주제·훅 공식 TOP 5</h2><p>주제와 훅을 먼저 고르고, 그다음 4종 표지 템플릿에 끼우는 순서가 효과적입니다.</p></div></div>
+<div class="formulas">
+<div class="formula"><span class="no">01 · 정보 격차</span><h4>나만 몰랐던 ○○</h4><p>알아야 할 것을 아직 모른다는 느낌 + 실제로 받을 수 있는 구체적 결과.</p><code>“나만 몰랐던 AI 업무 명령어 10개”</code><small>근거 사례: GPT 명령어 100개, 무료 앱 가이드</small></div>
+<div class="formula"><span class="no">02 · 결과·돈·숫자</span><h4>구체적 수치를 선제시</h4><p>큰 금액·기간·하락폭·절약액을 첫 문장에. 과장된 수익 약속은 금지.</p><code>“월배당 100만 원? 필요한 원금부터 계산”</code><small>근거 사례: 하루 10억 달러 거래, 기업 12% 급락</small></div>
+<div class="formula"><span class="no">03 · 무료·자료</span><h4>선물과 행동의 연결</h4><p>댓글 키워드·전달받을 자료·전달 조건을 한 문장으로 설명.</p><code>“검증된 무료 AI 8개, 댓글에 ‘목록’”</code><small>근거 사례: DROP/FREE 댓글 + 가이드 제공</small></div>
+<div class="formula"><span class="no">04 · 비교·손실회피</span><h4>A vs B + 반전</h4><p>어떤 선택이 유리한지 궁금하게 하되 실제 비교 기준을 제공.</p><code>“배당률은 높은데 왜 손해일까?”</code><small>근거 사례: 주가 급락·고점 질문·AI 도구 비교</small></div>
+<div class="formula"><span class="no">05 · 시의성·사건</span><h4>인물 + 의외의 사건</h4><p>이름 있는 인물·새로운 사건·충돌 또는 큰 장면을 확인된 사실로 설명.</p><code>“젠슨 황의 발언, 투자자가 봐야 할 3문장”</code><small>근거 사례: CEO 메시지·시위·기업 신제품 뉴스</small></div>
+</div></section>
+<section class="section" id="cta"><div class="section-head"><div><h2>💬 댓글과 공유를 따로 설계하는 법</h2><p>실제 지표와 CTA 기록에 근거한 실험 가설입니다. 구분 가능한 실험이 필요합니다.</p></div></div>
+<div class="chart-grid">
+<div class="panel"><h3 style="color:var(--mint)">💬 댓글 유도 공식</h3><p class="sub">참여에 대한 대가·선택·개인적 질문을 구체화</p>
+<p><b>① 자료형:</b> “필요한 분은 댓글에 ‘AI목록’. 실제 체크리스트를 보내드립니다.”</p>
+<p><b>② 선택형:</b> “AI 도구 A/B 중 어떤 것이 더 유용했나요?”</p>
+<p><b>③ 자기진단형:</b> “내 상황이 ①초보 ②경험자 중 어디에 가까운가요?”</p>
+<div class="notice">예시 근거: 기록된 “DROP”, “FREE” 댓글 요청, 카드의 높은 댓글/좋아요 비율. 댓글이 많다고 DM 자동화가 확인된 것은 아닙니다.</div></div>
+<div class="panel"><h3 style="color:var(--gold)">↗️ 공유 유도 공식</h3><p class="sub">다른 사람에게 전달할 명분과 재사용 가치 제시</p>
+<p><b>① 팀 공유형:</b> “이번 주 업무에 바로 쓰는 무료 도구 8개”</p>
+<p><b>② 가족·초보형:</b> “부모님·주린이에게 보내는 ETF 위험 비교표”</p>
+<p><b>③ 한눈에 정리형:</b> “달라진 제도, 전·후 비교 한 장”</p>
+<div class="notice">공유 횟수는 일부 릴스만 확보. 어떤 문구가 공유의 직접 원인인지는 별도 테스트 전까지 미확정입니다.</div></div>
+</div></section>
+<section class="section" id="ideas"><div class="section-head"><div><h2>🚀 바로 제작할 콘텐츠 아이디어 10개</h2><p>원본 문장을 복제하지 않은 신규 기획입니다. 수치·제도·기능은 게시 전 확인해야 합니다.</p></div></div><div class="ideagrid" id="ideagrid"></div></section>
+<section class="section" id="method"><div class="section-head"><div><h2>📌 데이터 해석 및 검증 기준</h2></div></div>
+<div class="panel" style="display:grid;gap:11px;color:#cddbed">
+<div><b>1. 실제 조회수:</b> 여기서 '실제'는 Google 시트에 숫자로 기재된 조회수라는 뜻이며, Instagram 실시간 재검증을 뜻하지 않습니다. 릴스 상위 후보 중에는 주제와 직접 관련 없는 바이럴 게시물도 있어 관련도 필터를 제공합니다.</div>
+<div><b>2. 카드뉴스:</b> ‘창업80·주식80’의 <span class="fake-stat">추정조회(중간)</span>은 실측 조회수가 아닙니다. 카드 순위는 기본적으로 댓글 수로 보여줍니다. 공유 수는 비공개라 비어 있습니다.</div>
+<div><b>3. 훅:</b> 원문 칸은 시트의 첫줄 훅/훅 제목을 24단어 이내로 축약한 것입니다. 영상 첫 3초 실제 자막·썸네일 문자 OCR과 일치한다고 보장할 수 없습니다. 외국어 원문은 자동 번역 없이 유지했습니다.</div>
+<div><b>4. 분류:</b> 주제·훅 유형은 편의를 위한 자동·수동 가설 분류이며, 몇몇 애매한 사례는 ‘검토 필요’로 표시됩니다. 주제별 성과 차이는 플랫폼 알고리즘·팔로워·게시일·형식 등으로도 설명될 수 있습니다.</div>
+<div><b>5. 평균의 함정:</b> 원본 탭 제목에 쓰인 ‘평573만’, ‘평692만’은 이 페이지의 전체 조회수 평균과 일치하지 않습니다. 공개한 KPI는 조회수가 확인된 행만 다시 집계했습니다. 중앙값도 함께 표시합니다.</div>
+<div><b>6. 공개 범위:</b> 이 페이지에는 공개 Instagram 링크, 기록된 반응 수치, 짧은 훅만 포함합니다. 원본 Google Sheet의 내부 메모, 비공개 원고, 작업 경로, 계정 인증정보는 공개하지 않았습니다.</div>
+</div></section>
+</div></main>
+<footer class="foot"><div class="container footergrid"><div><strong style="color:#f0f7ff">INSTA / HOOK ATLAS</strong><p>기록 기반 인사이트 · 제작을 위한 가설 · 근거 링크 우선</p></div><div>스냅샷: 2026.11.14 KST · 출처 탭: 주식 (평692만), AI창업 (평573만), 주식80, 창업80.<p>내용은 투자 조언·수익 보장·시의성 뉴스 사실확인 자료가 아닙니다.</p></div></div></footer>
+<script src="./data.js"></script>
+<script>
+(function(){
+"use strict";
+var DATA=window.INSTA_HOOK_LAB;
+if(!DATA){document.getElementById("top").insertAdjacentHTML("afterend",'<p style="padding:25px;color:#ffb6ba">데이터 파일을 열 수 없습니다. index.html과 data.js를 같은 폴더에 두세요.</p>');return;}
+var GROUPS={ai:{name:"AI·창업 릴스",metric:"views",type:"recorded"},stock:{name:"주식 릴스",metric:"views",type:"recorded"},aiCards:{name:"AI·창업 카드",metric:"comments",type:"estimated"},stockCards:{name:"주식 카드",metric:"comments",type:"estimated"}};
+var METRICS={views:"조회수",likes:"좋아요",comments:"댓글",shares:"공유",commentRate:"조회당 댓글률",shareRate:"조회당 공유률",commentLike:"댓글/좋아요 비율"};
+var state={group:"ai",metric:"views",limit:25,topic:"all",style:"all",rel:"all",q:"",selected:null};
+var COLORS=["#5ee6d2","#85bfff","#b7a8fc","#ff8db1","#ffca76","#8fe6a8","#fb9d89","#90b9d6"];
+function el(n){return document.getElementById(n)}
+function esc(s){return String(s===null||s===undefined?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function compact(n){if(n===null||n===undefined||!isFinite(n))return "미수집";if(Math.abs(n)>=1e8)return (n/1e8).toFixed(2).replace(/\.?0+$/,"")+"억";if(Math.abs(n)>=1e4)return (n/1e4).toFixed(n>=1e5?0:1).replace(/\.0$/,"")+"만";return Math.round(n).toLocaleString("ko-KR")}
+function exact(n){return n===null||n===undefined||!isFinite(n)?"미수집":Math.round(n).toLocaleString("ko-KR")}
+function pct(n){return n===null||n===undefined||!isFinite(n)?"미수집":n.toFixed(2)+"%"}
+function val(p,m){if(m==="commentRate")return p.views>0&&!p.publishedEstimate&&p.comments!==null?p.comments/p.views*100:null;if(m==="shareRate")return p.views>0&&!p.publishedEstimate&&p.shares!==null?p.shares/p.views*100:null;if(m==="commentLike")return p.likes>0?p.comments/p.likes*100:null;return p[m]===undefined?null:p[m]}
+function mv(p,m){var n=val(p,m);return n===null?"-":m.toLowerCase().includes("rate")||m==="commentLike"?pct(n):compact(n)}
+function safeUrl(s){return /^https:\/\/www\.instagram\.com\/(?:p|reel)\//.test(s||"")?s:"#"}
+function flag(p){if(p.relevance==="무관·검토"||p.relevance==="검토 필요")return '<span class="typebadge warn">'+esc(p.relevance)+'</span>';if(p.relevance==="인접")return '<span class="typebadge muted">인접 주제</span>';return '<span class="typebadge">직접 관련</span>'}
+function setGroup(g){state.group=g;state.metric=GROUPS[g].metric;state.topic="all";state.style="all";state.rel="all";state.q="";state.selected=null;el("search").value="";el("limit").value="25";state.limit=25;document.querySelectorAll(".tab").forEach(function(b){b.setAttribute("aria-selected",String(b.getAttribute("data-group")===g))});fillOptions();render()}
+function fillOptions(){
+ var card=GROUPS[state.group].type==="estimated";var metrics=card?["comments","likes","views","commentLike"]:["views","comments","likes","shares","commentRate","shareRate","commentLike"];
+ el("metric").innerHTML=metrics.map(function(m){return '<option value="'+m+'">'+esc((card&&m==="views"?"추정 ": "")+METRICS[m])+'</option>'}).join("");el("metric").value=state.metric;
+ var items=DATA.sets[state.group].items;
+ var t=Array.from(new Set(items.map(function(x){return x.topic}))).sort(),h=Array.from(new Set(items.map(function(x){return x.style}))).sort();
+ el("topicFilter").innerHTML='<option value="all">전체 주제</option>'+t.map(function(x){return '<option>'+esc(x)+'</option>'}).join("");
+ el("styleFilter").innerHTML='<option value="all">전체 훅 유형</option>'+h.map(function(x){return '<option>'+esc(x)+'</option>'}).join("");
+ el("relFilter").value="all";
+ el("viewHead").textContent=card?"추정조회":"조회수";el("shareHead").textContent=card?"댓글/좋아요":"공유";
+}
+function ordered(){var all=DATA.sets[state.group].items;var q=state.q.trim().toLocaleLowerCase();return all.filter(function(p){return (state.topic==="all"||p.topic===state.topic)&&(state.style==="all"||p.style===state.style)&&(state.rel==="all"||p.relevance===state.rel)&&(!q||(p.hook+" "+p.account+" "+p.topic+" "+p.style).toLocaleLowerCase().includes(q))}).sort(function(a,b){var v=(val(b,state.metric)??-Infinity)-(val(a,state.metric)??-Infinity);return v||b.views-a.views})}
+function tally(arr,key){return arr.reduce(function(a,p){var k=p[key]||"기타";a[k]=(a[k]||0)+1;return a},{})}
+function drawKpis(){var g=DATA.sets[state.group],card=GROUPS[state.group].type==="estimated";var items=g.items;
+ var total=items.reduce(function(a,p){return a+(p.comments||0)},0);
+ var most=items.reduce(function(a,b){return a.comments>b.comments?a:b},items[0]);
+ var specs=[
+ ["검토 가능한 원천 게시물",exact(g.posts)+"건",card?"TOP80 / 실측 조회 없음":"조회수 숫자 확인 "+exact(g.withViews)+"건"],
+ [card?"최고 추정조회":"최고 기록 조회수",compact(Math.max.apply(null,items.map(function(p){return p.views}))),card?"추정값 · 실측 아님":"시트 기록값 · 실시간 미검증"],
+ [card?"TOP80 누적 댓글":"조회수 중앙값",card?compact(total):compact(g.viewMedian),card?"선택한 80개만 합산":"전체 조회수 기록 행 기준"],
+ [card?"댓글 1위":"TOP100 최고 공유",card?compact(most.comments):compact(Math.max.apply(null,items.map(function(p){return p.shares||0}))),card?"@"+most.account:"공유 수 확인된 릴스만"]
+ ];
+ el("kpis").innerHTML=specs.map(function(k){return '<article class="kpi"><small>'+esc(k[0])+'</small><strong>'+esc(k[1])+'</strong><span>'+esc(k[2])+'</span></article>'}).join("")
+}
+function drawInsights(){var g=state.group;var specs;
+ if(g==="ai")specs=[
+ ["1,705만","댓글을 통한 자료 요청","@kayvon.ai의 ‘DROP’ 안내 게시물: 조회 1,705만 · 댓글 2.9만 · 공유 21.6만.","원문에 댓글 키워드와 자료 제공이 명시됨"],
+ ["4.2만","같은 계정의 댓글 집중","무료 AI 가이드 게시물: 조회 632만 · 댓글 4.2만 · 공유 19.2만.","댓글 요청이 포함된 사례"],
+ ["주의","주제 순도 비교 필수","AI창업 상위권에 일반 코미디·연예·기술 뉴스도 섞여 있습니다.","무관·검토 필터로 확인"]
+ ]; else if(g==="stock")specs=[
+ ["2,680만","금액 규모가 큰 장면","하루 10억 달러 거래 문구의 게시물: 댓글 3천 · 공유 26.1만.","숫자·거대한 금액형"],
+ ["1,167만","주제 밖 바이럴의 함정","삼성 관련 풍자·오락 게시물도 상위에 기록됐습니다.","조회수와 주식 콘텐츠 적합도 구분"],
+ ["시사","공유가 강한 종목 이슈","기업 급락·테슬라·주식 밈·CEO 뉴스 등이 반복됩니다.","댓글보다 공유가 높은 사례도 있음"]
+ ]; else if(g==="aiCards")specs=[
+ ["1.59만","명령어 100개 자료","‘나만 빼고’ GPT 명령어 카드: 좋아요 3.35만 · 댓글 1.59만.","추정조회는 111.8만, 실측 아님"],
+ ["8,826","지원금 신청형","‘빨리 신청’ 카드: 좋아요 4,246 · 댓글 8,826.","댓글/좋아요 약 208%"],
+ ["7,404","운동비 혜택형","‘9월 운동비지원금’ 카드: 좋아요 3,248 · 댓글 7,404.","혜택·행동문구 가설"]
+ ]; else specs=[
+ ["30,703","연금·노후 카드의 댓글","좋아요 11,799 대비 댓글 30,703.","댓글/좋아요 약 260%"],
+ ["6,727","가족 재테크·노후 대비","좋아요 4,855 대비 댓글 6,727.","공감·자료 요청 여부 원본 재검증"],
+ ["주의","추정 조회수 ≠ 실측","카드뉴스에서 실측 조회와 공유는 확보되지 않았습니다.","댓글과 좋아요 중심으로 해석"]
+ ];
+ el("insights").innerHTML=specs.map(function(x,i){return '<article class="insight"><div class="num">'+esc(x[0])+'</div><strong>'+esc(x[1])+'</strong><p>'+esc(x[2])+'</p><span class="hint">'+esc(x[3])+'</span></article>'}).join("");
+}
+function drawBars(items){var m=state.metric;var top=items.slice(0,10);var max=Math.max.apply(null,top.map(function(p){return val(p,m)||0}).concat([1]));el("barsub").textContent="현재 필터 / "+METRICS[m]+" 순위 · 각 막대는 선택 지표 기준";
+ el("bars").innerHTML=top.length?top.map(function(p,i){var v=val(p,m);return '<div class="barrow"><span class="ranknum">#'+(i+1)+'</span><div><div class="barTitle"><span class="cut">'+esc("@"+p.account+" · "+(p.hook||"훅 미수집"))+'</span></div><div class="barbg"><span class="barfill" style="width:'+Math.max(1,Math.round((v||0)/max*100))+'%"></span></div></div><span class="val">'+esc(mv(p,m))+'</span></div>'}).join(""):'<p class="sub">조건에 맞는 게시물이 없습니다.</p>'}
+function drawScatter(items){
+ var card=GROUPS[state.group].type==="estimated", xkey=card?"likes":"views", ykey="comments";
+ var pts=items.filter(function(p){return p[xkey]>0&&p[ykey]!==null}).slice(0,100);
+ el("scattersub").textContent=(card?"좋아요 × 댓글":"기록 조회수 × 댓글")+" · 로그 축 · 점 하나 = 게시물";
+ if(!pts.length){el("scatter").innerHTML='<p class="sub">표시할 데이터가 없습니다.</p>';return;}
+ var W=620,H=320,p=45;var mx=Math.max.apply(null,pts.map(function(a){return a[xkey]})),my=Math.max.apply(null,pts.map(function(a){return a[ykey]}).concat([1]));
+ var coord=function(v,max,span){return Math.log1p(v)/Math.log1p(max)*span};
+ var lines="",dots="";
+ for(var k=0;k<5;k++){var x=p+(W-2*p)*k/4,y=H-p-(H-2*p)*k/4;lines+='<line x1="'+x+'" y1="'+p+'" x2="'+x+'" y2="'+(H-p)+'"/><line x1="'+p+'" y1="'+y+'" x2="'+(W-p)+'" y2="'+y+'"/>'; }
+ pts.forEach(function(item){var cx=p+coord(item[xkey],mx,W-p*2),cy=H-p-coord(Math.max(0,item[ykey]),my,H-p*2);dots+='<a href="'+safeUrl(item.url)+'" target="_blank" rel="noopener noreferrer"><circle cx="'+cx.toFixed(1)+'" cy="'+cy.toFixed(1)+'" r="4.7"><title>'+esc("@"+item.account+" / "+METRICS[xkey]+" "+exact(item[xkey])+" / 댓글 "+exact(item.comments)+" / "+item.hook)+'</title></circle></a>'});
+ el("scatter").innerHTML='<svg viewBox="0 0 620 320" role="img" aria-label="게시물의 '+(card?'좋아요':'조회수')+'와 댓글수 산점도, 로그축"><g>'+lines+'</g><text x="45" y="21">댓글 ↑</text><text x="420" y="315">'+(card?'좋아요 →':'기록 조회수 →')+'</text><text x="46" y="290">0</text><text x="45" y="38">'+compact(my)+'</text><text x="557" y="289">'+compact(mx)+'</text>'+dots+'</svg>';
+}
+function drawGroups(items){var topics=tally(items,"topic"),hooks=tally(items,"style");var topicArr=Object.entries(topics).sort(function(a,b){return b[1]-a[1]}),hookArr=Object.entries(hooks).sort(function(a,b){return b[1]-a[1]});
+var total=items.length||1;var max=topicArr[0]?topicArr[0][1]:1;
+el("topics").innerHTML=topicArr.slice(0,8).map(function(x){return '<button class="topicrow" data-topic="'+esc(x[0])+'"><div><span>'+esc(x[0])+'</span><div class="line"><span class="fill" style="width:'+Math.round(x[1]/max*100)+'%"></span></div></div><span class="val">'+x[1]+'건</span></button>'}).join("")||'<p class="sub">분류할 게시물이 없습니다.</p>';
+var deg=0,grad=[];
+hookArr.slice(0,8).forEach(function(x,i){var next=deg+x[1]/total*360;grad.push(COLORS[i%COLORS.length]+' '+deg.toFixed(1)+'deg '+next.toFixed(1)+'deg');deg=next});if(deg<360)grad.push('#344b68 '+deg.toFixed(1)+'deg 360deg');
+el("donut").style.background="conic-gradient("+grad.join(",")+")";el("sampleCount").textContent=items.length;
+el("legend").innerHTML=hookArr.slice(0,7).map(function(x,i){return '<div class="legend-item"><span class="colorblock" style="background:'+COLORS[i%COLORS.length]+'"></span><span>'+esc(x[0])+'</span><b>'+x[1]+'</b></div>'}).join("");
+}
+function rowHtml(p,i,card){var view='<span class="'+(card?'fake-stat':'metrics')+'">'+compact(p.views)+'</span>',last=card?pct(val(p,"commentLike")):compact(p.shares);
+ return '<tr><td><span class="topnum '+(i<3?'best':'')+'">'+(i+1)+'</span></td><td class="tight"><b>'+esc("@"+p.account)+'</b><div class="soft">'+esc(p.date||"날짜 미기재")+'</div></td><td><div class="hook">'+esc(p.hook||"원문 훅 미수집")+'</div><div class="soft">'+esc(p.format)+' · '+esc(p.hookOriginalKind)+'</div></td><td>'+flag(p)+'<div class="soft">'+esc(p.topic)+'</div><div class="soft">'+esc(p.style)+'</div></td><td>'+view+'</td><td class="metrics">'+compact(p.likes)+'</td><td class="metrics">'+compact(p.comments)+'</td><td class="metrics">'+esc(last)+'</td><td><button class="btn small" data-open="'+esc(p.url)+'">근거 ↗</button></td></tr>'}
+function insightText(p){if(p.cta&&/댓글|DM/.test(p.cta))return "원본 시트에 댓글 키워드·자료 제공·DM 유도 행동이 기록돼 있습니다. 댓글의 직접 원인인지는 별도 검증이 필요합니다.";if(p.style==="숫자·결과")return "금액이나 큰 숫자를 첫 문장에 제시해 결과를 빠르게 이해시키는 방식이라는 가설입니다.";if(p.style==="경고·손실회피")return "위험, 손실 또는 잘못된 선택에 대한 경계심을 자극하는 문장형이라는 가설입니다.";if(p.style==="비교·선택")return "둘 이상의 선택지를 비교하고 어느 쪽이 더 나은지 궁금하게 만드는 구조입니다.";if(p.style==="질문·호기심")return "질문이나 열린 결론으로 다음 내용을 보도록 유도하는 방식입니다.";if(p.style==="댓글·자료 유도")return "댓글 행동과 자료 제공을 결합한 명시적 CTA로 분류했습니다. 약속한 자료가 실제 준비돼 있는지 확인해야 합니다.";return "현재 문구에서 확인되는 반응 신호만 정리한 가설입니다. 실제 영상 첫 3초·이미지·댓글 전문을 확인하면 해석이 달라질 수 있습니다.";}
+function drawTable(items){var card=GROUPS[state.group].type==="estimated",shown=items.slice(0,state.limit);window.__shown=shown;
+ el("rankBody").innerHTML=shown.length?shown.map(function(p,i){return rowHtml(p,i,card)}).join(""):'<tr><td colspan="9" style="padding:35px;text-align:center;color:#bed0e3">조건에 맞는 원본이 없습니다. 필터를 초기화하세요.</td></tr>';
+ el("resultInfo").textContent="현재 필터 "+items.length+"건 / 표시 "+shown.length+"건 · 원본 링크 연결 · "+(card?"추정조회는 시트의 추정값":"조회수는 시트 기록값")+" · 실제 영상 훅 원문은 별도 확인 필요";
+ el("rankSub").textContent=(card?"카드뉴스 댓글·좋아요 중심":"릴스 조회수 중심")+" · 원문 훅/첫줄은 시트에 기록된 텍스트 · 원본 링크와 가설 분리";
+}
+function showDetail(url){var p=DATA.sets[state.group].items.find(function(z){return z.url===url});if(!p)return;var card=GROUPS[state.group].type==="estimated";
+ el("detail").innerHTML='<div class="detailhead"><span class="typebadge">'+esc(p.topic)+'</span>'+flag(p)+'<span class="soft">'+esc(p.format)+" · "+esc(p.date)+'</span></div><h3 style="margin:12px 0 4px">@'+esc(p.account)+'</h3><div class="detailquote">“'+esc(p.hook||"첫줄 훅 미수집")+'”</div><div class="detailcols"><div class="minibox"><strong>반응 수치 · 기록값</strong><p>'+(card?'추정 조회 '+exact(p.views):'조회수 '+exact(p.views))+' · 좋아요 '+exact(p.likes)+' · 댓글 '+exact(p.comments)+(card?'':' · 공유 '+exact(p.shares))+'</p><p>'+(card?'댓글/좋아요 '+pct(val(p,"commentLike")):'조회당 댓글률 '+pct(val(p,"commentRate"))+' · 공유률 '+pct(val(p,"shareRate")))+'</p></div><div class="minibox"><strong>훅·댓글 유도 해석 (가설)</strong><p>'+esc(insightText(p))+'</p><p><b>시트 CTA 기록:</b> '+esc(p.cta||"미수집")+'</p></div></div><p style="margin-top:17px"><a href="'+safeUrl(p.url)+'" target="_blank" rel="noopener noreferrer" class="btn primary" style="display:inline-block;text-decoration:none">Instagram 원본 열기 ↗</a> <button class="btn small" id="closeDetail">닫기</button></p><p class="soft">시트: '+esc(p.sourceSheet)+' / 원본 행 '+p.row+' · 훅 전문·영상 실제 대사 검증 필요</p>';
+ el("detail").classList.add("open");el("detail").scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+function ideas(){var list=[
+ ["🤖 AI","무료 AI 도구를 쓸 때 놓치는 비용 5개","댓글 ‘비용표’ → 실제 비교 체크리스트","무료·혜택 + 주제 검증"],
+ ["🤖 AI","혼자서 AI 에이전트 첫 고객 찾기: 실전 3단계","① 아직 없음 ② 상담 중 ③ 유료 고객, 댓글로 선택","실행 방법 + 자기진단"],
+ ["🤖 AI","GPT 명령어 100개보다 먼저 필요한 10개","복사 가능한 10개를 본문에 공개하고 추가 자료 선택 유도","정보격차 + 무료자료"],
+ ["🤖 AI","바이브코딩, 1일 완성보다 중요한 검증 3가지","실패 사례가 있다면 공유해 달라고 묻기","반전 + 신뢰"],
+ ["📈 주식","월배당 ETF의 분배율과 총수익 차이","초보에게 설명할 1장 계산표, 가족에게 공유","비교·손실회피"],
+ ["📈 주식","주식 고점인지 판단하기 전에 볼 숫자 3개","A 지표 / B 지표 투표 (투자 권유 제외)","질문 + 투자심리"],
+ ["📈 주식","젠슨 황 관련 뉴스, 실적에 영향 주는 사실만","반응보다 공식 발표 확인, 출처 카드 제작","시의성 + 인물"],
+ ["📈 주식","환율 급등·급락 때 해외주식 계좌에서 바뀌는 것","환차손 예시 3가지, 가족 공유용 한 장","실용 정보 + 숫자"],
+ ["🧬 융합","AI 반도체 주식보다 먼저 이해할 GPU 수요 3개","GPU를 모르는 친구에게 공유할 3장 요약","기술 + 시장"],
+ ["🧬 융합","AI 부업 월 ○○원 광고, 실제로 남는 돈 계산","비용·수수료·세금 점검표 제공, 수익 보장 금지","돈 + 반전 + 검증"]
+ ];
+ el("ideagrid").innerHTML=list.map(function(x,i){return '<article class="idea"><div class="ideanum">'+String(i+1).padStart(2,"0")+'</div><div><h4>'+esc(x[0]+" · "+x[1])+'</h4><p>'+esc(x[2])+'</p><div class="ideafoot">'+esc(x[3])+'</div></div></article>'}).join("")
+}
+function render(){drawKpis();drawInsights();var orderedItems=ordered();drawBars(orderedItems);drawScatter(orderedItems);drawGroups(orderedItems);drawTable(orderedItems);el("detail").classList.remove("open")}
+document.querySelectorAll(".tab").forEach(function(b){b.addEventListener("click",function(){setGroup(this.getAttribute("data-group"))})});
+el("search").addEventListener("input",function(){state.q=this.value;render()});
+el("metric").addEventListener("change",function(){state.metric=this.value;render()});
+el("limit").addEventListener("change",function(){state.limit=Number(this.value);render()});
+el("topicFilter").addEventListener("change",function(){state.topic=this.value;render()});
+el("styleFilter").addEventListener("change",function(){state.style=this.value;render()});
+el("relFilter").addEventListener("change",function(){state.rel=this.value;render()});
+el("reset").addEventListener("click",function(){setGroup(state.group)});
+el("topics").addEventListener("click",function(e){var b=e.target.closest("button[data-topic]");if(b){state.topic=b.getAttribute("data-topic");el("topicFilter").value=state.topic;render();el("ranking").scrollIntoView({behavior:"smooth"})}});
+el("rankBody").addEventListener("click",function(e){var b=e.target.closest("button[data-open]");if(b)showDetail(b.getAttribute("data-open"))});
+el("detail").addEventListener("click",function(e){if(e.target.id==="closeDetail")el("detail").classList.remove("open")});
+el("download").addEventListener("click",function(){var rows=window.__shown||[],columns=["rank","account","date","format","views","likes","comments","shares","topic","style","relevance","hook","url"],header=columns.join(","),line=function(v){var s=String(v??"");if(/^[=+\-@]/.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"'};var csv="\uFEFF"+header+"\n"+rows.map(function(p,i){return columns.map(function(k){return line(k==="rank"?i+1:p[k])}).join(",")}).join("\n");var blob=new Blob([csv],{type:"text/csv;charset=utf-8;"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="hook_atlas_"+state.group+"_"+state.metric+"_top"+rows.length+".csv";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url)},3000)});
+ideas();fillOptions();render();
+})();
+</script></body></html>

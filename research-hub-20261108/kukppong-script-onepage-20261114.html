@@ -16,177 +16,386 @@ mark{padding:0 2px;border-radius:3px;font-weight:850}mark.lime{color:#1b370b;bac
 textarea{width:100%;min-height:235px;padding:13px;background:#0d131a;color:#f9f9f9;border:1px solid #537184;border-radius:10px}.note{border-left:3px solid #ffdc72;background:#40341d;padding:9px 12px;border-radius:5px;font-size:13px}
 @media(max-width:1100px){.thumbs{grid-template-columns:repeat(4,minmax(0,1fr))}.three-col{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){main{padding:9px}.thumbs{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.two-col,.three-col{grid-template-columns:1fr}.panel{padding:12px}header.hero{padding:15px}.sticky{padding:7px}.meta{font-size:10px}.storycard{padding:9px}.storymeta>span:not(.rank){padding-right:5px}}
+
+/* v1.3: annotated hooks, mobile OCR cards and editorial red tables */
+.highlight-hook .sample-body{flex:1}.highlight-hook .sample-body small{display:block;font-size:10px;color:#92d3d7;margin-top:3px;font-weight:500}
+.hook-flags{display:flex;gap:6px;flex-wrap:wrap;margin:5px 0}.hook-flags span{border:1px solid #c8996c;background:#493d2a;color:#ffe9ae;border-radius:7px;padding:2px 8px;font-size:11px}
+.origin-note{padding:7px;background:#563525;border-left:3px solid #ffb27c;color:#ffe6c8;font-size:12px}
+.memo{padding:12px 16px;background:linear-gradient(100deg,#252019,#303020);border:1px solid #8b8050;border-radius:11px;margin-bottom:16px}.memo p{font-size:13px}
+.panel.red{background:linear-gradient(120deg,#4a1022,#270a17)}.redbook{background:#2c0b18;border:1px solid #944157;padding:13px;border-radius:11px;margin:11px 0}.redbook h3{background:#5c0c20;border-left:7px solid #ffcb48;padding:12px 15px;margin:0 0 10px;border-radius:7px}.redtable{width:100%;border-collapse:collapse;font-size:13px}.redtable th,.redtable td{padding:10px;border:1px solid #723546;vertical-align:top}.redtable th{background:#5e1828}.redtable tr:nth-child(even) td{background:#451225}.redtable tr:nth-child(1) td{background:#65501c}.redtable .good{color:#b6f58f;font-weight:700}.redtable .warn{color:#ffb5b1}.redtable .key{color:#ffdc89;font-weight:900}
+.thumb-viz{font-size:11px;background:#173443;color:#d4f0fb;padding:7px 8px;margin:5px;border-radius:5px}.ocr-edit{display:block;width:calc(100% - 12px);min-height:70px;resize:vertical;margin:5px 6px;padding:6px;background:#0b1726;color:#ffffff;border:1px solid #537184;font-size:11px}
+.ocr-one{width:calc(100% - 12px);margin:7px 6px;padding:6px 8px;font-size:11px}.ocr-source{color:#ffe29a;font-size:10px;margin:4px 7px}.ocr-progress{font-size:12px;color:#e1d6a5}.ocr-warn{font-size:11px;color:#ffe6ba}
+@media(max-width:650px){.redtable{font-size:11px}.redtable th,.redtable td{padding:6px}.memo{padding:9px}.memo p{font-size:12px}}
+
 </style></head><body><main>
 <div class="topline"><a href="./">← 통합 연구 허브로</a><span>2026-11-14 정리 · 기존 연구 자료 2026-11-08 스냅샷</span></div>
 <header class="hero"><p style="color:#fedb7f;font-weight:900">SOURCE-LINKED ORIGINAL · 1-PAGE COLLECTION</p><h1>🌍 해외반응 × 국뽕 <mark class="gold">훅·전개·감정선</mark> 모음집</h1><p>썸네일 27개 · 실제 도입 훅 22편 · 유형 12+14종 · 전개 8+9종 · 감정선 22편</p><p class="lead">화면 맨 위 썸네일은 사진·조회수·게시일·채널·구독자만 기본 표시합니다. 제목과 썸네일 문구는 체크했을 때만 보입니다. 모든 훅·전개·감정 원문은 유형별로 한곳에 모았습니다.</p></header>
 <div class="sticky"><button id="expandAll" class="strong">☑ 전체 펼치기</button><button id="collapseAll">☐ 전체 접기</button><span class="quiet">영역별 체크로 부분 표시·숨김</span></div>
 <section class="panel dark" id="thumbnails"><div class="panel-head"><h2>🖼️ ① 썸네일 모음 · 27편</h2><label><input class="areaSwitch" data-target="thumbnails" type="checkbox" checked> 영역 표시</label></div><div class="panel-body">
 <p class="quiet">기존 연구 22편은 <b>그 표본 내부 조회수 순위</b>이며, 추가 급등 후보 5편은 ‘후보’로 구분합니다. 댓글 미확인은 댓글 0개라는 뜻이 아닙니다.</p>
-<div class="switches"><label><input type="checkbox" id="showTitles"> 📝 제목 표시</label><label><input type="checkbox" id="showOcr"> 🟡 썸네일 내부 문구 표시</label><button id="hideBoth">사진 중심으로 보기</button></div>
+<div class="switches"><label><input type="checkbox" id="showTitles"> 📝 제목 표시</label><label><input type="checkbox" id="showOcr"> 🟡 OCR 글씨·색감·특징 표시</label><button id="hideBoth">사진 중심으로 보기</button><button id="ocrAllBtn" type="button">🔍 27개 OCR 순차 실행</button><button id="ocrStopBtn" type="button">중지</button><span id="ocrStatus" class="ocr-progress">OCR 미실행 (한국어+영문)</span></div><p class="ocr-warn">OCR은 버튼을 누르면 기기에서 수행합니다. 저화질 썸네일의 한글은 오류가 날 수 있어 직접 수정 칸을 제공하며, 실행 전에는 미확인으로 표시합니다. 휴대폰에서는 1개씩 실행하는 것을 권장합니다.</p>
 <div class="thumbs" id="thumbGrid"><article class="thumb">
  <a href="https://www.youtube.com/watch?v=uM6OlPR-5uM" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/uM6OlPR-5uM/mqdefault.jpg" alt="쓸모왕 · 최근 독일방송을 초토화시킨 한국인들의 놀라운 행동, &quot;한국을 너무 좋아한 프랑스 작가가 일본인을 등장시키면 벌어지는 일&quot;" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 1</span><span>170.3만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2020-05-29 · 쓸모왕 · 구독 78만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=uM6OlPR-5uM" target="_blank" rel="noopener noreferrer">쓸모왕 · 최근 독일방송을 초토화시킨 한국인들의 놀라운 행동, &quot;한국을 너무 좋아한 프랑스 작가가 일본인을 등장시키면 벌어지는 일&quot;</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="uM6OlPR-5uM">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="uM6OlPR-5uM">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="uM6OlPR-5uM" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="uM6OlPR-5uM">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=xJj4qIB8ai4" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/xJj4qIB8ai4/mqdefault.jpg" alt="어썸코리아 클립 · 일본 셰프들이 3대째 이어온 한국 손칼국수 먹고 감탄한 이유 (면발이..)" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 2</span><span>65.4만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-19 · 어썸코리아 클립 · 구독 19.9만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=xJj4qIB8ai4" target="_blank" rel="noopener noreferrer">어썸코리아 클립 · 일본 셰프들이 3대째 이어온 한국 손칼국수 먹고 감탄한 이유 (면발이..)</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="xJj4qIB8ai4">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="xJj4qIB8ai4">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="xJj4qIB8ai4" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="xJj4qIB8ai4">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=cmJYVS1TNJE" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/cmJYVS1TNJE/mqdefault.jpg" alt="단골이슈 · “프랑스는 왜 한국처럼 못하나”프랑스방송 시청률 1위 한국 청계천 / 한국특집방송 나가자 유럽인들 발칵" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 3</span><span>53.8만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-20 · 단골이슈 · 구독 61.2만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=cmJYVS1TNJE" target="_blank" rel="noopener noreferrer">단골이슈 · “프랑스는 왜 한국처럼 못하나”프랑스방송 시청률 1위 한국 청계천 / 한국특집방송 나가자 유럽인들 발칵</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="cmJYVS1TNJE">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="cmJYVS1TNJE">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="cmJYVS1TNJE" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="cmJYVS1TNJE">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=7H-X5FOd2w4" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/7H-X5FOd2w4/mqdefault.jpg" alt="어썸코리아 클립 · 프랑스에서 시위가 끊이지 않는 진짜 이유" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 4</span><span>53.7만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-22 · 어썸코리아 클립 · 구독 19.9만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=7H-X5FOd2w4" target="_blank" rel="noopener noreferrer">어썸코리아 클립 · 프랑스에서 시위가 끊이지 않는 진짜 이유</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="7H-X5FOd2w4">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="7H-X5FOd2w4">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="7H-X5FOd2w4" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="7H-X5FOd2w4">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=uhdOnOWd3m0" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/uhdOnOWd3m0/mqdefault.jpg" alt="단골이슈 · “미국 애플매장 환불요구 대폭발” 아이폰듀오 대규모 환불 난리난 현지상황 // 환불 후 삼성으로 몰려가는 사람들" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 5</span><span>49.2만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-11-07 · 단골이슈 · 구독 61.2만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=uhdOnOWd3m0" target="_blank" rel="noopener noreferrer">단골이슈 · “미국 애플매장 환불요구 대폭발” 아이폰듀오 대규모 환불 난리난 현지상황 // 환불 후 삼성으로 몰려가는 사람들</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="uhdOnOWd3m0">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="uhdOnOWd3m0">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="uhdOnOWd3m0" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="uhdOnOWd3m0">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=x-_y7ZpjhgE" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/x-_y7ZpjhgE/mqdefault.jpg" alt="세계열광 · 에르도안 방한 해외반응 “한국은 생색 한번 안 냈다” 8년 만에 온 튀르키예 대통령, 튀르키예 방송이 놀란 한국" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 6</span><span>43.5만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-11-03 · 세계열광 · 구독 1490</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=x-_y7ZpjhgE" target="_blank" rel="noopener noreferrer">세계열광 · 에르도안 방한 해외반응 “한국은 생색 한번 안 냈다” 8년 만에 온 튀르키예 대통령, 튀르키예 방송이 놀란 한국</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="x-_y7ZpjhgE">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="x-_y7ZpjhgE">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="x-_y7ZpjhgE" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="x-_y7ZpjhgE">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=EJ2r3NyoYlw" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/EJ2r3NyoYlw/mqdefault.jpg" alt="우아한 경제 · &quot;5조 7천억짜리 애물단지&quot; 모두가 비웃었던 두산의 인수합병, 15년 뒤 미국 1위가 된 진짜 이유" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 7</span><span>40.7만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-14 · 우아한 경제 · 구독 1750</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=EJ2r3NyoYlw" target="_blank" rel="noopener noreferrer">우아한 경제 · &quot;5조 7천억짜리 애물단지&quot; 모두가 비웃었던 두산의 인수합병, 15년 뒤 미국 1위가 된 진짜 이유</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="EJ2r3NyoYlw">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="EJ2r3NyoYlw">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="EJ2r3NyoYlw" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="EJ2r3NyoYlw">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=o-5qsCCSVyo" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/o-5qsCCSVyo/mqdefault.jpg" alt="우아한 경제 · &quot;이 문자는 반칙 아닙니까?!&quot; 전 세계 언어학자들이 한글에 고개를 숙인 진짜 이유" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 8</span><span>37.1만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-26 · 우아한 경제 · 구독 1750</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=o-5qsCCSVyo" target="_blank" rel="noopener noreferrer">우아한 경제 · &quot;이 문자는 반칙 아닙니까?!&quot; 전 세계 언어학자들이 한글에 고개를 숙인 진짜 이유</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="o-5qsCCSVyo">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="o-5qsCCSVyo">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="o-5qsCCSVyo" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="o-5qsCCSVyo">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=YPpgk2ywMA8" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/YPpgk2ywMA8/mqdefault.jpg" alt="글로벌공감TV · 울산 동네 골프 레슨을 따라 하는 외국인들 &quot;빠세!&quot; | 빠세골프 해외반응" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 9</span><span>36.5만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-11-01 · 글로벌공감TV · 구독 2420</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=YPpgk2ywMA8" target="_blank" rel="noopener noreferrer">글로벌공감TV · 울산 동네 골프 레슨을 따라 하는 외국인들 &quot;빠세!&quot; | 빠세골프 해외반응</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="YPpgk2ywMA8">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="YPpgk2ywMA8">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="YPpgk2ywMA8" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="YPpgk2ywMA8">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=dx06vfp9nRE" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/dx06vfp9nRE/mqdefault.jpg" alt="트래블튜브 · 우크라, 전후 재건사업 한국 배제 일본과 진행선언 한국반응에 놀란이유 재건사업 하고 싶으면 무기지원해야 900조원 청구서에 싸늘반응" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 10</span><span>36.0만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-29 · 트래블튜브 · 구독 81.6만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=dx06vfp9nRE" target="_blank" rel="noopener noreferrer">트래블튜브 · 우크라, 전후 재건사업 한국 배제 일본과 진행선언 한국반응에 놀란이유 재건사업 하고 싶으면 무기지원해야 900조원 청구서에 싸늘반응</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="dx06vfp9nRE">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="dx06vfp9nRE">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="dx06vfp9nRE" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="dx06vfp9nRE">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=UzaJcC4ezIE" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/UzaJcC4ezIE/mqdefault.jpg" alt="쓸모왕 · 최근 한국인들이 헝가리에 입국하려하자 헝가리 장관이 한 놀라운 행동, 휴지부족한 미국에서는 한국산 제품 주문이 폭증한 상황" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 11</span><span>35.0만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2020-05-27 · 쓸모왕 · 구독 78만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=UzaJcC4ezIE" target="_blank" rel="noopener noreferrer">쓸모왕 · 최근 한국인들이 헝가리에 입국하려하자 헝가리 장관이 한 놀라운 행동, 휴지부족한 미국에서는 한국산 제품 주문이 폭증한 상황</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="UzaJcC4ezIE">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="UzaJcC4ezIE">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="UzaJcC4ezIE" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="UzaJcC4ezIE">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=FWfV8OuEARg" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/FWfV8OuEARg/mqdefault.jpg" alt="트래블튜브 · 속보, 한국초강수 주우크라 대사관철수 예상밖의 상황에 크게당황하는 우크라 유럽도 발칵 “한국 기여해야”그런데  미국조차싸늘" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 12</span><span>27.1만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-20 · 트래블튜브 · 구독 81.6만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=FWfV8OuEARg" target="_blank" rel="noopener noreferrer">트래블튜브 · 속보, 한국초강수 주우크라 대사관철수 예상밖의 상황에 크게당황하는 우크라 유럽도 발칵 “한국 기여해야”그런데  미국조차싸늘</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="FWfV8OuEARg">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="FWfV8OuEARg">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="FWfV8OuEARg" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="FWfV8OuEARg">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=Ue-x6hr6FHU" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/Ue-x6hr6FHU/mqdefault.jpg" alt="국뽕에 취하다 KOREA CULTURE · Ep.165 [해외반응] 40억뷰 전설 'DESPACITO'를 건드린 한국 4인조! 포레스텔라의 미친 클래스에 해외 리액터들 경악!" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 13</span><span>25.2만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-22 · 국뽕에 취하다 KOREA CULTURE · 구독 11.7만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=Ue-x6hr6FHU" target="_blank" rel="noopener noreferrer">국뽕에 취하다 KOREA CULTURE · Ep.165 [해외반응] 40억뷰 전설 'DESPACITO'를 건드린 한국 4인조! 포레스텔라의 미친 클래스에 해외 리액터들 경악!</a></div>
- <div class="thumbocr optional-ocr">40억뷰 전설을 뒤집은 역대급 무대! / 한국 4인조 미친 클래스! (사용자 캡처 육안 확인, 원본 대조 필요)</div>
+ <div class="thumbocr optional-ocr">40억뷰 전설을 뒤집은 역대급 무대! / 한국 4인조 미친 클래스! (사용자 캡처 육안 확인, 원본 대조 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="Ue-x6hr6FHU">스크린샷 확인: 붉은 공연 무대, 한국 4인조와 하단 다수 리액터 얼굴 배치, 밝은 흰색·노란색 굵은 제목</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="Ue-x6hr6FHU">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="Ue-x6hr6FHU" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="Ue-x6hr6FHU">일부 캡처에서 수동 판독, OCR 결과 아님</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=tuc8aXMjXao" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/tuc8aXMjXao/mqdefault.jpg" alt="국뽕특파원 · 외국인 등산객 73만 명 몰린 한국 산, &quot;서울이 세계 최고의 등산 도시&quot; 감탄 쏟아진 이유" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 14</span><span>24.4만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-22 · 국뽕특파원 · 구독 357</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=tuc8aXMjXao" target="_blank" rel="noopener noreferrer">국뽕특파원 · 외국인 등산객 73만 명 몰린 한국 산, &quot;서울이 세계 최고의 등산 도시&quot; 감탄 쏟아진 이유</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="tuc8aXMjXao">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="tuc8aXMjXao">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="tuc8aXMjXao" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="tuc8aXMjXao">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=k9cLrz-a5Sk" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/k9cLrz-a5Sk/mqdefault.jpg" alt="잡식왕 · 日 초비상…러·해킹 동시 강타 기자 구금에 항의도 단호 거부 총리 한밤중 SNS 긴급 공지 해커, 5000만달러 협박 개시" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 15</span><span>21.6만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-11-01 · 잡식왕 · 구독 54.1만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=k9cLrz-a5Sk" target="_blank" rel="noopener noreferrer">잡식왕 · 日 초비상…러·해킹 동시 강타 기자 구금에 항의도 단호 거부 총리 한밤중 SNS 긴급 공지 해커, 5000만달러 협박 개시</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="k9cLrz-a5Sk">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="k9cLrz-a5Sk">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="k9cLrz-a5Sk" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="k9cLrz-a5Sk">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=wkH1sC6pJe4" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/wkH1sC6pJe4/mqdefault.jpg" alt="why?와이튜브 · “보셨죠? 이게 한국의 실체입니다!”14억이 시청한 한국 길거리 영상 쓰레기 길가에 그냥 버리자 난리난 전세계 반응" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 16</span><span>20.8만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-22 · why?와이튜브 · 구독 60.7만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=wkH1sC6pJe4" target="_blank" rel="noopener noreferrer">why?와이튜브 · “보셨죠? 이게 한국의 실체입니다!”14억이 시청한 한국 길거리 영상 쓰레기 길가에 그냥 버리자 난리난 전세계 반응</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="wkH1sC6pJe4">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="wkH1sC6pJe4">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="wkH1sC6pJe4" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="wkH1sC6pJe4">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=a1yTScu3Pds" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/a1yTScu3Pds/mqdefault.jpg" alt="잡식왕 · 속보! 한국, 우크라이나 지원철회 발표 깜짝놀란 젤렌스키 납작 엎드린 상황 / 한국 강경대응에 유럽국가들 당황 아시아의 호랑이 부활했다며 초긴장" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 17</span><span>18.9만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-11-03 · 잡식왕 · 구독 54.1만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=a1yTScu3Pds" target="_blank" rel="noopener noreferrer">잡식왕 · 속보! 한국, 우크라이나 지원철회 발표 깜짝놀란 젤렌스키 납작 엎드린 상황 / 한국 강경대응에 유럽국가들 당황 아시아의 호랑이 부활했다며 초긴장</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="a1yTScu3Pds">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="a1yTScu3Pds">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="a1yTScu3Pds" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="a1yTScu3Pds">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=h-VD_UAJI9o" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/h-VD_UAJI9o/mqdefault.jpg" alt="코리아국뽕한사발 · (대만반응) 한국 깎아내리는 외국패널에 역공 한 방 먹이는 카이랑 참교육" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 18</span><span>13.9만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-30 · 코리아국뽕한사발 · 구독 75</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=h-VD_UAJI9o" target="_blank" rel="noopener noreferrer">코리아국뽕한사발 · (대만반응) 한국 깎아내리는 외국패널에 역공 한 방 먹이는 카이랑 참교육</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="h-VD_UAJI9o">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="h-VD_UAJI9o">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="h-VD_UAJI9o" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="h-VD_UAJI9o">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=Ly6vlepu9PE" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/Ly6vlepu9PE/mqdefault.jpg" alt="why?와이튜브 · &quot;따라한다고 다 같은 줄로 아십니까?&quot; 베트남 경제학자가 말하는 베트남 반도체 성공이 어려운 이유" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 19</span><span>11.4만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-31 · why?와이튜브 · 구독 60.7만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=Ly6vlepu9PE" target="_blank" rel="noopener noreferrer">why?와이튜브 · &quot;따라한다고 다 같은 줄로 아십니까?&quot; 베트남 경제학자가 말하는 베트남 반도체 성공이 어려운 이유</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="Ly6vlepu9PE">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="Ly6vlepu9PE">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="Ly6vlepu9PE" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="Ly6vlepu9PE">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=6FNskgP5qLQ" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/6FNskgP5qLQ/mqdefault.jpg" alt="하루 해외반응 · [속보] 세계 랭킹 1위 vs 말레시아 1위 배드민턴 여왕… 안세영의 압도적인 기량에 해외 난리난 상황" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 20</span><span>6.3만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-11-05 · 하루 해외반응 · 구독 11.4만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=6FNskgP5qLQ" target="_blank" rel="noopener noreferrer">하루 해외반응 · [속보] 세계 랭킹 1위 vs 말레시아 1위 배드민턴 여왕… 안세영의 압도적인 기량에 해외 난리난 상황</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="6FNskgP5qLQ">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="6FNskgP5qLQ">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="6FNskgP5qLQ" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="6FNskgP5qLQ">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=yTgVL1HuPv0" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/yTgVL1HuPv0/mqdefault.jpg" alt="국뽕에 취하다 KOREA CULTURE · Ep.166 [해외반응] 한국 남성 4명이 만들어낸 믿기 힘든 천상의 하모니에 충격받은 외국인들ㅣForestella -  Nella Fantasia" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 21</span><span>6.3만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-31 · 국뽕에 취하다 KOREA CULTURE · 구독 11.7만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=yTgVL1HuPv0" target="_blank" rel="noopener noreferrer">국뽕에 취하다 KOREA CULTURE · Ep.166 [해외반응] 한국 남성 4명이 만들어낸 믿기 힘든 천상의 하모니에 충격받은 외국인들ㅣForestella -  Nella Fantasia</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="yTgVL1HuPv0">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="yTgVL1HuPv0">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="yTgVL1HuPv0" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="yTgVL1HuPv0">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=H9Hfi7MGaiM" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/H9Hfi7MGaiM/mqdefault.jpg" alt="하루 해외반응 · [속보] 세계 랭킹 1위 vs 일본 최고 유망주 안세영 일본 유망주 격파에 난리난 해외" loading="lazy"></a>
  <div class="badges"><span class="rank">TOP 22</span><span>4.2만 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-11-06 · 하루 해외반응 · 구독 11.4만명</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=H9Hfi7MGaiM" target="_blank" rel="noopener noreferrer">하루 해외반응 · [속보] 세계 랭킹 1위 vs 일본 최고 유망주 안세영 일본 유망주 격파에 난리난 해외</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="H9Hfi7MGaiM">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="H9Hfi7MGaiM">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="H9Hfi7MGaiM" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="H9Hfi7MGaiM">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=4AWYckCz99k" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/4AWYckCz99k/mqdefault.jpg" alt="#4 인도 유튜버, 한국의 차별을 확인?" loading="lazy"></a>
  <div class="badges"><span class="rank">후보</span><span>795,307 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-08-18 · 연구 후보 (채널 미확인) · 구독 미확인</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=4AWYckCz99k" target="_blank" rel="noopener noreferrer">#4 인도 유튜버, 한국의 차별을 확인?</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="4AWYckCz99k">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="4AWYckCz99k">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="4AWYckCz99k" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="4AWYckCz99k">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=6tytUWF-i4M" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/6tytUWF-i4M/mqdefault.jpg" alt="#12 영국 커플 서울 처음 방문" loading="lazy"></a>
  <div class="badges"><span class="rank">후보</span><span>987,240 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-14 · 연구 후보 (채널 미확인) · 구독 미확인</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=6tytUWF-i4M" target="_blank" rel="noopener noreferrer">#12 영국 커플 서울 처음 방문</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="6tytUWF-i4M">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="6tytUWF-i4M">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="6tytUWF-i4M" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="6tytUWF-i4M">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=zUGo3CXgHkc" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/zUGo3CXgHkc/mqdefault.jpg" alt="#14 누리호 관련 해외 반응" loading="lazy"></a>
  <div class="badges"><span class="rank">후보</span><span>1,184,404 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-10-09 · 연구 후보 (채널 미확인) · 구독 미확인</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=zUGo3CXgHkc" target="_blank" rel="noopener noreferrer">#14 누리호 관련 해외 반응</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="zUGo3CXgHkc">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="zUGo3CXgHkc">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="zUGo3CXgHkc" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="zUGo3CXgHkc">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=1eBPSEp3mJc" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/1eBPSEp3mJc/mqdefault.jpg" alt="#17 한·중 고속철 직접 비교" loading="lazy"></a>
  <div class="badges"><span class="rank">후보</span><span>2,145,279 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-09-03 · 연구 후보 (채널 미확인) · 구독 미확인</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=1eBPSEp3mJc" target="_blank" rel="noopener noreferrer">#17 한·중 고속철 직접 비교</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="1eBPSEp3mJc">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="1eBPSEp3mJc">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="1eBPSEp3mJc" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="1eBPSEp3mJc">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
  </article><article class="thumb">
  <a href="https://www.youtube.com/watch?v=ltLDmUM7rxs" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/ltLDmUM7rxs/mqdefault.jpg" alt="#1 한국 비판·대만패널 역공" loading="lazy"></a>
  <div class="badges"><span class="rank">후보</span><span>76,187 조회</span><span>💬 미확인</span></div>
  <div class="meta">2026-11-02 · 연구 후보 (채널 미확인) · 구독 미확인</div>
  <div class="thumbtitle optional-title"><a href="https://www.youtube.com/watch?v=ltLDmUM7rxs" target="_blank" rel="noopener noreferrer">#1 한국 비판·대만패널 역공</a></div>
- <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div>
- </article></div></div></section><section class="panel wine" id="hook-collection"><div class="panel-head"><h2>🎣 ② 훅 모음집 · 원문 22편 + 유형 12종·14종</h2><label><input class="areaSwitch" data-target="hook-collection" type="checkbox" checked> 영역 표시</label></div><div class="panel-body">
-<h3>🎙️ 실제 분석 대본의 0~30초 훅 · 각 최대 3문장</h3><p class="quiet">원본 보고서 자동자막(ASR)을 그대로 나누어 표시합니다. 문장 분할이 불가능한 구간은 짧은 문장으로 지어내지 않습니다. <mark class="gold">조회수·날짜·채널·구독자</mark>를 함께 표기합니다.</p><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 1</span><span>👁️ 170.3만 조회</span><span>📅 2020-05-29</span><span>📺 쓸모왕</span><span>👥 구독 78만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=uM6OlPR-5uM" target="_blank" rel="noopener noreferrer">쓸모왕 · 최근 독일방송을 초토화시킨 한국인들의 놀라운 행동, &quot;한국을 너무 좋아한 프랑스 작가가 일본인을 등장시키면 벌어지는 일&quot;</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 어서와</p><p class="sample"><b>문장 2</b> 최근에 전세계에서 화제가 되고 있는 소식들을 어서 빨리 알려드리는 어서왕입니다</p><p class="sample"><b>문장 3</b> 첫 번째도 쓰는 세계적인 소설가 가 한국을 영혼의 고향 이라 부르면 일본을 져 격하고 있다는 소식입니다</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 2</span><span>👁️ 65.4만 조회</span><span>📅 2026-10-19</span><span>📺 어썸코리아 클립</span><span>👥 구독 19.9만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=xJj4qIB8ai4" target="_blank" rel="noopener noreferrer">어썸코리아 클립 · 일본 셰프들이 3대째 이어온 한국 손칼국수 먹고 감탄한 이유 (면발이..)</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 0-4초 제목띠 &quot;면발에 <mark class="lime">감동</mark>한 일본 셰프들&quot; + 문 여는 장면 + &quot;안녕하세요~!</p><p class="sample"><b>문장 2</b> &quot; 스티커 → 4초 &quot;2026.</p><p class="sample"><b>문장 3</b> 03.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 3</span><span>👁️ 53.8만 조회</span><span>📅 2026-10-20</span><span>📺 단골이슈</span><span>👥 구독 61.2만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=cmJYVS1TNJE" target="_blank" rel="noopener noreferrer">단골이슈 · “프랑스는 왜 한국처럼 못하나”프랑스방송 시청률 1위 한국 청계천 / 한국특집방송 나가자 유럽인들 발칵</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 요즘 한국에 온 외국인들 청개천으로 달려가 조금 특별한 행동을 하는게 유행이라고 합니다.</p><p class="sample"><b>문장 2</b> 한국 사람들 사이에 자연스럽게 자리를 잡고 책을 한권 펼치는데요.</p><p class="sample"><b>문장 3</b> 눈앞으로는 깨끗한 물이 흐르고 주변에서는 사람들이 조용히 책장을 넘기고 물가로 새들이 날아들어 잠시 쉬어가기도 합니다.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 4</span><span>👁️ 53.7만 조회</span><span>📅 2026-10-22</span><span>📺 어썸코리아 클립</span><span>👥 구독 19.9만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=7H-X5FOd2w4" target="_blank" rel="noopener noreferrer">어썸코리아 클립 · 프랑스에서 시위가 끊이지 않는 진짜 이유</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 영국사람 바로 옆나라니까 평견이 되게 많아. 프랑스 때</p><p class="sample"><b>문장 2</b> 가기 쉽지.</p><p class="sample"><b>문장 3</b> 가기 쉽지만 가기 싫은. 아, 그래요?</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 5</span><span>👁️ 49.2만 조회</span><span>📅 2026-11-07</span><span>📺 단골이슈</span><span>👥 구독 61.2만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=uhdOnOWd3m0" target="_blank" rel="noopener noreferrer">단골이슈 · “미국 애플매장 환불요구 대폭발” 아이폰듀오 대규모 환불 난리난 현지상황 // 환불 후 삼성으로 몰려가는 사람들</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 애플이 수천 달러짜리 신제품을 내놓았는데 출시 며칠 만에 사람들이 앞다토 매장으로 달려가고 있습니다.</p><p class="sample"><b>문장 2</b> 그런데 이번에는 신제품을 사려고 가는게 아닙니다.</p><p class="sample"><b>문장 3</b> 이미 구매한 폰을 반품하러 가는 건데요.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 6</span><span>👁️ 43.5만 조회</span><span>📅 2026-11-03</span><span>📺 세계열광</span><span>👥 구독 1490</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=x-_y7ZpjhgE" target="_blank" rel="noopener noreferrer">세계열광 · 에르도안 방한 해외반응 “한국은 생색 한번 안 냈다” 8년 만에 온 튀르키예 대통령, 튀르키예 방송이 놀란 한국</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 방금 들으신 마지막 한 마디 한국어 <mark class="lime">감사</mark>합니다였어요.</p><p class="sample"><b>문장 2</b> 티르키의 대통령이 서울의 기자 회견을이 말로 맺은 겁니다.</p><p class="sample"><b>문장 3</b> 그런데 티르키의 방송과 해설가들 입에서는 더 놀라운 말이 나왔습니다.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 7</span><span>👁️ 40.7만 조회</span><span>📅 2026-10-14</span><span>📺 우아한 경제</span><span>👥 구독 1750</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=EJ2r3NyoYlw" target="_blank" rel="noopener noreferrer">우아한 경제 · &quot;5조 7천억짜리 애물단지&quot; 모두가 비웃었던 두산의 인수합병, 15년 뒤 미국 1위가 된 진짜 이유</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 두산이 5조 7,억 원을 주고 샀던 회사가 2년 만에 2조 5,억 원을 까먹었습니다.</p><p class="sample"><b>문장 2</b> 세간에서는이 인수를 승자의 저주라고 불렀을 정도죠.</p><p class="sample"><b>문장 3</b> 노스다코타의 한 공장에서 줄지어 나오던 흰색과 주황색 작은 장비.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 8</span><span>👁️ 37.1만 조회</span><span>📅 2026-10-26</span><span>📺 우아한 경제</span><span>👥 구독 1750</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=o-5qsCCSVyo" target="_blank" rel="noopener noreferrer">우아한 경제 · &quot;이 문자는 반칙 아닙니까?!&quot; 전 세계 언어학자들이 한글에 고개를 숙인 진짜 이유</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 한국 문자 그거 좀 반칙 아닙니까?</p><p class="sample"><b>문장 2</b> 세계 문자 학자들 사이에서 반쯤 농담처럼 도는 말인데요.</p><p class="sample"><b>문장 3</b> 이게 농담에서 끝날 말이 아닙니다.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 9</span><span>👁️ 36.5만 조회</span><span>📅 2026-11-01</span><span>📺 글로벌공감TV</span><span>👥 구독 2420</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=YPpgk2ywMA8" target="_blank" rel="noopener noreferrer">글로벌공감TV · 울산 동네 골프 레슨을 따라 하는 외국인들 &quot;빠세!&quot; | 빠세골프 해외반응</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 골프장에서 미국의 한 차고에서 외국인들이 한국말로 빠세를 외치고 있습니다.</p><p class="sample"><b>문장 2</b> 말레이시아에서도 저 멀리 하와이에서도 같은 소리가 올라오고 있다고 하는데요.</p><p class="sample"><b>문장 3</b> 이 기합을 처음 외친 사람은 울산의 한 동네 골프 연습장 프로입니다.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 10</span><span>👁️ 36.0만 조회</span><span>📅 2026-10-29</span><span>📺 트래블튜브</span><span>👥 구독 81.6만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=dx06vfp9nRE" target="_blank" rel="noopener noreferrer">트래블튜브 · 우크라, 전후 재건사업 한국 배제 일본과 진행선언 한국반응에 놀란이유 재건사업 하고 싶으면 무기지원해야 900조원 청구서에 싸늘반응</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 북한근 포로 송환 폭로 사태로 대한민국가 최악의 외교 <mark class="red">갈등</mark>을 빚고 있는 우크라이나가 향후 10년간 최대 900조원 규모로 추산되는 전후 재건 사업에서 한국을 완전히 배제한다는 의원이 나오고 있습니다.</p><p class="sample"><b>문장 2</b> 또한 그 자리를 일본 기업들로 채우겠다는 의도를 보였다고 전해지고 있는데요.</p><p class="sample"><b>문장 3</b> 특히 천문학적인 돈이 걸린 재건 사업이라는 당근을 흔들며 일본과 손을 잡는 모습을 보여주면 한국 정부와 기업들이 다급해져서 무기 지원을 하게 하려는게 아닌가 하는 우려도 되고 있습니다.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 11</span><span>👁️ 35.0만 조회</span><span>📅 2020-05-27</span><span>📺 쓸모왕</span><span>👥 구독 78만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=UzaJcC4ezIE" target="_blank" rel="noopener noreferrer">쓸모왕 · 최근 한국인들이 헝가리에 입국하려하자 헝가리 장관이 한 놀라운 행동, 휴지부족한 미국에서는 한국산 제품 주문이 폭증한 상황</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 어서와</p><p class="sample"><b>문장 2</b> 최근에 전세계에서 화제가 되고 있는 소식들을 어서 빨리 알려드리는 어서왕입니다</p><p class="sample"><b>문장 3</b> 첫 번째 뉴스는 세계 각국 들이 모두 외국인들을 막아도 한국 기업인 들만 예외적으로 입국시 키고 있다는 소식입니다</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 12</span><span>👁️ 27.1만 조회</span><span>📅 2026-10-20</span><span>📺 트래블튜브</span><span>👥 구독 81.6만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=FWfV8OuEARg" target="_blank" rel="noopener noreferrer">트래블튜브 · 속보, 한국초강수 주우크라 대사관철수 예상밖의 상황에 크게당황하는 우크라 유럽도 발칵 “한국 기여해야”그런데  미국조차싸늘</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 북한군 포로에 한국 송환 사실을 일방적으로 폭로하며 한국의 뒤통수를 쳤던 우크라이나 사태가 결국 대한민국 외교 사상 유례를 찾기 힘든 초대형 외교 파국으로 치닫고 있습니다.</p><p class="sample"><b>문장 2</b> 그동안 우크라이나의 진정성 있는 해명과 공식 사거를 요구하며 인내해 오던 한국 정부가 마침내 주 우크라이나 한국 대사관 인력을 일부 철수시키는 초광주 결단을 내렸기 때문인데요.</p><p class="sample"><b>문장 3</b> 그런데 이러한 한국 움직임에 우크라이나에서는 크게 당황하고 있다고 합니다.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 13</span><span>👁️ 25.2만 조회</span><span>📅 2026-10-22</span><span>📺 국뽕에 취하다 KOREA CULTURE</span><span>👥 구독 11.7만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=Ue-x6hr6FHU" target="_blank" rel="noopener noreferrer">국뽕에 취하다 KOREA CULTURE · Ep.165 [해외반응] 40억뷰 전설 'DESPACITO'를 건드린 한국 4인조! 포레스텔라의 미친 클래스에 해외 리액터들 경악!</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 0-5초 무자막 리액터 웹캠 컷 → 6초 공연 위 <mark class="sky">질문</mark> 자막 &quot;이 한국 4인조는 대체 어디까지 가능한 걸까요?</p><p class="sample"><b>문장 2</b> &quot; → 8-25초 &quot;40억 <mark class="gold">조회</mark>수&quot; 기록과 Despacito MV로 원곡 권위 세팅 → 28초 &quot;그런데 ...</p><p class="sample"><b>문장 3</b> 대한민국의 네 남자가 ...</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 14</span><span>👁️ 24.4만 조회</span><span>📅 2026-10-22</span><span>📺 국뽕특파원</span><span>👥 구독 357</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=tuc8aXMjXao" target="_blank" rel="noopener noreferrer">국뽕특파원 · 외국인 등산객 73만 명 몰린 한국 산, &quot;서울이 세계 최고의 등산 도시&quot; 감탄 쏟아진 이유</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 요즘 외국인들 한국 산에만 오르면 이런 말을 한답니다.</p><p class="sample"><b>문장 2</b> 정상에서 라면 끓여 먹는 한국 사람들을 보고는요.</p><p class="sample"><b>문장 3</b> 도대체 한국산에 뭐가 있길래 외국인들이 이렇게 난리일까요?</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 15</span><span>👁️ 21.6만 조회</span><span>📅 2026-11-01</span><span>📺 잡식왕</span><span>👥 구독 54.1만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=k9cLrz-a5Sk" target="_blank" rel="noopener noreferrer">잡식왕 · 日 초비상…러·해킹 동시 강타 기자 구금에 항의도 단호 거부 총리 한밤중 SNS 긴급 공지 해커, 5000만달러 협박 개시</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 안녕하세요. 잡시광입니다.</p><p class="sample"><b>문장 2</b> 최근 일본과 러시아의 관계가 심상치 않게 흘러가고 있습니다.</p><p class="sample"><b>문장 3</b> 러시아가 일본인 기자를 간첩혐의로 체포한데 이어 일본 정부의 항의까지 거부하면서 양국 사이에 <mark class="red">갈등</mark>이 격화되고 있는데요.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 16</span><span>👁️ 20.8만 조회</span><span>📅 2026-10-22</span><span>📺 why?와이튜브</span><span>👥 구독 60.7만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=wkH1sC6pJe4" target="_blank" rel="noopener noreferrer">why?와이튜브 · “보셨죠? 이게 한국의 실체입니다!”14억이 시청한 한국 길거리 영상 쓰레기 길가에 그냥 버리자 난리난 전세계 반응</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> (0~8초 내레이션 없음, 음악)</p><p class="sample"><b>문장 2</b> 여행자들은 그 인도에서 살다 보니 웬만한 더러움이나 열악한 환경에서도 눈 하나 깜짝하지 않는다고 하죠.</p><p class="sample"><b>문장 3</b> 그런데 그런 인도인들에게조차 중국은 쉽지 않은 여행지였던 거 같습니다.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 17</span><span>👁️ 18.9만 조회</span><span>📅 2026-11-03</span><span>📺 잡식왕</span><span>👥 구독 54.1만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=a1yTScu3Pds" target="_blank" rel="noopener noreferrer">잡식왕 · 속보! 한국, 우크라이나 지원철회 발표 깜짝놀란 젤렌스키 납작 엎드린 상황 / 한국 강경대응에 유럽국가들 당황 아시아의 호랑이 부활했다며 초긴장</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 한국의 도움을 구해 놓고 뒤통수를 쳤습니다.</p><p class="sample"><b>문장 2</b> 그리고 한국은 예상보다 훨씬 강하게 나왔습니다.</p><p class="sample"><b>문장 3</b> 대사를 불러들이고 외교관을 빼고 원조 인력까지 귀곡시키자 우크라이나는 단교설은 사실이 아니다라며 긴급 진화에 나섰습니다.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 18</span><span>👁️ 13.9만 조회</span><span>📅 2026-10-30</span><span>📺 코리아국뽕한사발</span><span>👥 구독 75</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=h-VD_UAJI9o" target="_blank" rel="noopener noreferrer">코리아국뽕한사발 · (대만반응) 한국 깎아내리는 외국패널에 역공 한 방 먹이는 카이랑 참교육</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 한국인들은 외국인한테 특히 불친절해요</p><p class="sample"><b>문장 2</b> 프랑스엔 영어 있어요? 없잖아요!</p><p class="sample"><b>문장 3</b> 당신네 나라가 더 무서워요</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 19</span><span>👁️ 11.4만 조회</span><span>📅 2026-10-31</span><span>📺 why?와이튜브</span><span>👥 구독 60.7만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=Ly6vlepu9PE" target="_blank" rel="noopener noreferrer">why?와이튜브 · &quot;따라한다고 다 같은 줄로 아십니까?&quot; 베트남 경제학자가 말하는 베트남 반도체 성공이 어려운 이유</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 베트남이 야심차게 첫사을 뜬 반도체 공장 부지에 9개월째 잡초만 무성합니다.</p><p class="sample"><b>문장 2</b> 착공 이후 공장 건물이 단한 채도 올라가지 않은 겁니다.</p><p class="sample"><b>문장 3</b> 하노이 외곽 부지를 찾아간 외신 취재진 앞에는 들풀로 뒤덮힌 빈땅만 펼쳐져 있습니다.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 20</span><span>👁️ 6.3만 조회</span><span>📅 2026-11-05</span><span>📺 하루 해외반응</span><span>👥 구독 11.4만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=6FNskgP5qLQ" target="_blank" rel="noopener noreferrer">하루 해외반응 · [속보] 세계 랭킹 1위 vs 말레시아 1위 배드민턴 여왕… 안세영의 압도적인 기량에 해외 난리난 상황</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 훅 없음.</p><p class="sample"><b>문장 2</b> 0~30초 랠리 영상만(해설은 31초부터 &quot;Beautiful sweep that&quot;), 한국어 자막·내레이션 없음.</p><p class="quiet">원본의 발화/ASR 구간이 2개로 나뉘어 있어 임의로 3문장을 만들지 않음.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 21</span><span>👁️ 6.3만 조회</span><span>📅 2026-10-31</span><span>📺 국뽕에 취하다 KOREA CULTURE</span><span>👥 구독 11.7만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=yTgVL1HuPv0" target="_blank" rel="noopener noreferrer">국뽕에 취하다 KOREA CULTURE · Ep.166 [해외반응] 한국 남성 4명이 만들어낸 믿기 힘든 천상의 하모니에 충격받은 외국인들ㅣForestella -  Nella Fantasia</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 0-5초 무자막 리액터 컷 → 8초 &quot;외국인들이 이렇게까지 놀라는 걸까요?</p><p class="sample"><b>문장 2</b> &quot; → 10초 &quot;눈을 크게 뜨고, 입을 다물지 못하는 순간들&quot;(감정 몰입 이미지) → 13-18초 &quot;그 중심에는 대한민국의 크로스오버 그룹, 포레스텔라의 넬라 판타지아가 있습니다&quot; → 21-29초 영화 미션·모리코네 배경 지식 <mark class="sky">예고</mark>(정보 훅).</p><p class="sample"><b>문장 3</b> (<mark class="sky">질문</mark>+이미지 훅+정체 공개)</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article><article class="storycard"><div class="storymeta"><span class="rank">22편 내 조회 TOP 22</span><span>👁️ 4.2만 조회</span><span>📅 2026-11-06</span><span>📺 하루 해외반응</span><span>👥 구독 11.4만명</span></div><div class="storytitle"><a href="https://www.youtube.com/watch?v=H9Hfi7MGaiM" target="_blank" rel="noopener noreferrer">하루 해외반응 · [속보] 세계 랭킹 1위 vs 일본 최고 유망주 안세영 일본 유망주 격파에 난리난 해외</a></div><div class="quote-block"><p class="sample"><b>문장 1</b> 훅 없음.</p><p class="sample"><b>문장 2</b> 0~3초 영어 해설 &quot;So, Gunji gets us underway&quot;(ASR)와 경기 서브 장면뿐, 한국어 자막·썸네일식 문구 없음.</p><p class="quiet">원본의 발화/ASR 구간이 2개로 나뉘어 있어 임의로 3문장을 만들지 않음.</p></div><div class="source">출처: 장수 채널 분석의 해당 영상 ‘0~30초’ 원문/ASR (자동자막 오인식 가능). 표현은 수정하지 않음.</div></article>
+ <div class="thumbocr optional-ocr">썸네일 내부 문구: 미추출 (원본 확인 필요)</div><div class="thumb-viz optional-ocr" data-viz-id="ltLDmUM7rxs">이미지 특징: 자동 색감 분석 전 · 인물/구도는 수동 확인 필요</div>
+ <button type="button" class="ocr-one optional-ocr" data-ocr-id="ltLDmUM7rxs">🔍 이 이미지 OCR 추출</button>
+ <textarea class="ocr-edit optional-ocr" data-ocr-edit="ltLDmUM7rxs" aria-label="인식된 썸네일 글씨 직접 수정" placeholder="추출 결과를 확인하고 글씨를 수정하세요"></textarea>
+ <div class="ocr-source optional-ocr" data-source-id="ltLDmUM7rxs">브라우저 OCR 실행 전 · 추정값은 반드시 교정</div>
+ </article></div></div></section><section class="panel wine" id="hook-collection"><div class="panel-head"><h2>🎣 ② 훅 모음집 · 22편의 도입 + 훅 12종·14종</h2><label><input class="areaSwitch" data-target="hook-collection" type="checkbox" checked> 영역 표시</label></div><div class="panel-body">
+<div class="memo"><strong>📌 도입부 공통 패턴 메모</strong>
+<p>① <mark class="gold">한국의 장점·외국인 호평</mark>을 먼저 보여주고 “왜 그런 반응이 나왔을까?”로 이어지는 사례가 있습니다.</p>
+<p>② <mark class="sky">한국·일본 비교</mark>는 일부 소재에서 긴장·대조의 장치로 쓰입니다. 모든 영상의 필수 공식은 아닙니다.</p>
+<p>③ <mark class="red">반전·숨겨진 이유·후속 질문</mark>을 통해 정보를 순차적으로 공개합니다. 실제 시청 지속률 상승 여부는 미확인입니다.</p>
+<p>④ 기존 22편 도입 분석 텍스트에서 ‘한국’ 언급 14편, ‘일본’ 언급 4편입니다. 주제 편향·ASR 오류가 있을 수 있으므로 공통 공식으로 단정하지 않습니다.</p></div>
+<h3>🎙️ 실전 훅 22편: 도입 원문·후속 연결 <mark class="gold">최대 5문장</mark></h3>
+<p class="quiet">첫 0~30초에 다섯 문장이 없으면, 기존 분석에 기록된 0:30~1:30 후속 연결을 <b>시간을 구분해 추가</b>했습니다. <mark class="gold">궁금증·질문</mark>, <mark class="red">반전·예상 밖 전환</mark>만 형광 강조했습니다.</p>
+<article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 1위</span><span>👁️ 170.3만 조회</span><span>📅 2020-05-29</span><span>📺 쓸모왕</span><span>👥 구독 78만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=uM6OlPR-5uM" target="_blank" rel="noopener noreferrer">쓸모왕 · 최근 독일방송을 초토화시킨 한국인들의 놀라운 행동, &quot;한국을 너무 좋아한 프랑스 작가가 일본인을 등장시키면 벌어지는 일&quot;</a></div>
+ <div class="hook-flags"><span>한국·일본 비교·대조</span><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">어서와<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">최근에 전세계에서 화제가 되고 있는 소식들을 어서 빨리 알려드리는 어서왕입니다<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">첫 번째도 쓰는 세계적인 소설가 가 한국을 영혼의 고향 이라 부르면 일본을 져 격하고 있다는 소식입니다<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">베르베르 인터뷰 영상 + 한글 인용 자막(상단 좌측)<small>후속 연결 0:31 (기존 보고서)</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">베르베르 흑백 사진(밝은 배경)<small>후속 연결 0:39 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 2위</span><span>👁️ 65.4만 조회</span><span>📅 2026-10-19</span><span>📺 어썸코리아 클립</span><span>👥 구독 19.9만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=xJj4qIB8ai4" target="_blank" rel="noopener noreferrer">어썸코리아 클립 · 일본 셰프들이 3대째 이어온 한국 손칼국수 먹고 감탄한 이유 (면발이..)</a></div>
+ <div class="hook-flags"><span>질문·궁금증</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">0-4초 제목띠 &quot;면발에 감동한 일본 셰프들&quot; + 문 여는 장면 + &quot;안녕하세요~!&quot; 스티커 → 4초 &quot;2026.03.12.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">업로드 동대문 60년 장인 손칼국수 먹으러 간 일본 셰프들&quot; 설정 캡션 → 7초 &quot;칼질을 멈추지 않는 사장님..&quot; → 13초 &quot;(사장님) 잘생기셨다!&quot; → 16초 &quot;저게 반죽인가 봐요, 그렇죠<mark class="gold">?</mark>&quot; → 28초 &quot;[대화하면서 면을 써는 사장님 ㄷㄷ]&quot;.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">(결과 제시 제목 + 호기심 질문 + 장인 노동 이미지)<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">EP.1(울산 옹촌해장국) 지난 편 삽입 클립<small>후속 연결 0:44 (기존 보고서)</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">EP.3 본편(경북손칼국수: 미나리전·칼국수 시식)<small>후속 연결 0:47 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 3위</span><span>👁️ 53.8만 조회</span><span>📅 2026-10-20</span><span>📺 단골이슈</span><span>👥 구독 61.2만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=cmJYVS1TNJE" target="_blank" rel="noopener noreferrer">단골이슈 · “프랑스는 왜 한국처럼 못하나”프랑스방송 시청률 1위 한국 청계천 / 한국특집방송 나가자 유럽인들 발칵</a></div>
+ <div class="hook-flags"><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">요즘 한국에 온 외국인들 청개천으로 달려가 조금 특별한 행동을 하는게 유행이라고 합니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">한국 사람들 사이에 자연스럽게 자리를 잡고 책을 한권 펼치는데요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">눈앞으로는 깨끗한 물이 흐르고 주변에서는 사람들이 조용히 책장을 넘기고 물가로 새들이 날아들어 잠시 쉬어가기도 합니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">마치 야외 도서관이 된 것 같은 비현실적인 풍경이 만들어지는 건데요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">야간 랜턴 켜고 독서하는 군중<small>후속 연결 0:32 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 4위</span><span>👁️ 53.7만 조회</span><span>📅 2026-10-22</span><span>📺 어썸코리아 클립</span><span>👥 구독 19.9만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=7H-X5FOd2w4" target="_blank" rel="noopener noreferrer">어썸코리아 클립 · 프랑스에서 시위가 끊이지 않는 진짜 이유</a></div>
+ <div class="hook-flags"><span>질문·궁금증</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">영국사람 바로 옆나라니까 평견이 되게 많아.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">프랑스 때<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">가기 쉽지.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">가기 쉽지만 가기 싫은.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">아, 그래요<mark class="gold">?</mark><small>0~30초 원문·화면 설명</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 5위</span><span>👁️ 49.2만 조회</span><span>📅 2026-11-07</span><span>📺 단골이슈</span><span>👥 구독 61.2만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=uhdOnOWd3m0" target="_blank" rel="noopener noreferrer">단골이슈 · “미국 애플매장 환불요구 대폭발” 아이폰듀오 대규모 환불 난리난 현지상황 // 환불 후 삼성으로 몰려가는 사람들</a></div>
+ <div class="hook-flags"><span>전환·반전</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">애플이 수천 달러짜리 신제품을 내놓았는데 출시 며칠 만에 사람들이 앞다토 매장으로 달려가고 있습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body"><mark class="red">그런데</mark> 이번에는 신제품을 사려고 가는게 아닙니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">이미 구매한 폰을 반품하러 가는 건데요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">사람들이 앞다토 아이폰을 방품하고 있습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">게이밍 룸 여성 유튜버(보라 조명)<small>후속 연결 0:31 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 6위</span><span>👁️ 43.5만 조회</span><span>📅 2026-11-03</span><span>📺 세계열광</span><span>👥 구독 1490</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=x-_y7ZpjhgE" target="_blank" rel="noopener noreferrer">세계열광 · 에르도안 방한 해외반응 “한국은 생색 한번 안 냈다” 8년 만에 온 튀르키예 대통령, 튀르키예 방송이 놀란 한국</a></div>
+ <div class="hook-flags"><span>질문·궁금증</span><span>전환·반전</span><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">방금 들으신 마지막 한 마디 한국어 감사합니다였어요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">티르키의 대통령이 서울의 기자 회견을이 말로 맺은 겁니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body"><mark class="red">그런데</mark> 티르키의 방송과 해설가들 입에서는 더 놀라운 말이 나왔습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">한국은 생색 한번 안 냈다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body"><mark class="gold">무슨</mark> 뜻이었을<mark class="gold">까요?</mark><small>0~30초 원문·화면 설명</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 7위</span><span>👁️ 40.7만 조회</span><span>📅 2026-10-14</span><span>📺 우아한 경제</span><span>👥 구독 1750</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=EJ2r3NyoYlw" target="_blank" rel="noopener noreferrer">우아한 경제 · &quot;5조 7천억짜리 애물단지&quot; 모두가 비웃었던 두산의 인수합병, 15년 뒤 미국 1위가 된 진짜 이유</a></div>
+ <div class="hook-flags"></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">두산이 5조 7,억 원을 주고 샀던 회사가 2년 만에 2조 5,억 원을 까먹었습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">세간에서는이 인수를 승자의 저주라고 불렀을 정도죠.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">노스다코타의 한 공장에서 줄지어 나오던 흰색과 주황색 작은 장비.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">커다란 굴착기라면 몇 번씩 앞뒤로 움직여야 할 좁은 틈에서이 장비는 제자리에서 몸을 휙 돌려 버려요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body"><mark class="red">그런데</mark> 도장을 찍고 1년도 안 돼.<small>후속 연결 0:35 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 8위</span><span>👁️ 37.1만 조회</span><span>📅 2026-10-26</span><span>📺 우아한 경제</span><span>👥 구독 1750</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=o-5qsCCSVyo" target="_blank" rel="noopener noreferrer">우아한 경제 · &quot;이 문자는 반칙 아닙니까?!&quot; 전 세계 언어학자들이 한글에 고개를 숙인 진짜 이유</a></div>
+ <div class="hook-flags"><span>질문·궁금증</span><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">한국 문자 그거 좀 반칙 아닙니까<mark class="gold">?</mark><small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">세계 문자 학자들 사이에서 반쯤 농담처럼 도는 말인데요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">이게 농담에서 끝날 말이 아닙니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">지난 1985년 세계 문자 분류표를 짜던 영국의 언어학자 제프리 샘슨이 한글을 분류하려다가 도저히 넣을 칸이 없자 아예 서랍 하나를 새로 만들었거든요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">그리고이 글자를 인류의 위대한 지적 성취 중 하나라고 적기까지 했죠.<small>0~30초 원문·화면 설명</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 9위</span><span>👁️ 36.5만 조회</span><span>📅 2026-11-01</span><span>📺 글로벌공감TV</span><span>👥 구독 2420</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=YPpgk2ywMA8" target="_blank" rel="noopener noreferrer">글로벌공감TV · 울산 동네 골프 레슨을 따라 하는 외국인들 &quot;빠세!&quot; | 빠세골프 해외반응</a></div>
+ <div class="hook-flags"><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">골프장에서 미국의 한 차고에서 외국인들이 한국말로 빠세를 외치고 있습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">말레이시아에서도 저 멀리 하와이에서도 같은 소리가 올라오고 있다고 하는데요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">이 기합을 처음 외친 사람은 울산의 한 동네 골프 연습장 프로입니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">말 한 마디 없는 그의 레슨 영상이 바다를 건너더니 미국 골프 브랜드 광고에서 PGA 투어 선수와 함께 나오는 데까지 갔거든요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">울산 연습장의 기압 한마디가 <mark class="gold">어떻게</mark> 여기까지 왔을<mark class="gold">까요?</mark><small>후속 연결 0:40 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 10위</span><span>👁️ 36.0만 조회</span><span>📅 2026-10-29</span><span>📺 트래블튜브</span><span>👥 구독 81.6만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=dx06vfp9nRE" target="_blank" rel="noopener noreferrer">트래블튜브 · 우크라, 전후 재건사업 한국 배제 일본과 진행선언 한국반응에 놀란이유 재건사업 하고 싶으면 무기지원해야 900조원 청구서에 싸늘반응</a></div>
+ <div class="hook-flags"><span>한국·일본 비교·대조</span><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">북한근 포로 송환 폭로 사태로 대한민국가 최악의 외교 <mark class="red">갈등</mark>을 빚고 있는 우크라이나가 향후 10년간 최대 900조원 규모로 추산되는 전후 재건 사업에서 한국을 완전히 배제한다는 의원이 나오고 있습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">또한 그 자리를 일본 기업들로 채우겠다는 의도를 보였다고 전해지고 있는데요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">특히 천문학적인 돈이 걸린 재건 사업이라는 당근을 흔들며 일본과 손을 잡는 모습을 보여주면 한국 정부와 기업들이 다급해져서 무기 지원을 하게 하려는게 아닌가 하는 우려도 되고 있습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">도심 고층빌딩 항공 스톡<small>후속 연결 0:39 (기존 보고서)</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">서울 한강 세빛섬 스톡<small>후속 연결 0:42 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 11위</span><span>👁️ 35.0만 조회</span><span>📅 2020-05-27</span><span>📺 쓸모왕</span><span>👥 구독 78만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=UzaJcC4ezIE" target="_blank" rel="noopener noreferrer">쓸모왕 · 최근 한국인들이 헝가리에 입국하려하자 헝가리 장관이 한 놀라운 행동, 휴지부족한 미국에서는 한국산 제품 주문이 폭증한 상황</a></div>
+ <div class="hook-flags"><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">어서와<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">최근에 전세계에서 화제가 되고 있는 소식들을 어서 빨리 알려드리는 어서왕입니다<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">첫 번째 뉴스는 세계 각국 들이 모두 외국인들을 막아도 한국 기업인 들만 예외적으로 입국시 키고 있다는 소식입니다<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">기내 + 헤드라인 박스<small>후속 연결 0:30 (기존 보고서)</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">부다페스트 전경 항공<small>후속 연결 0:36 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 12위</span><span>👁️ 27.1만 조회</span><span>📅 2026-10-20</span><span>📺 트래블튜브</span><span>👥 구독 81.6만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=FWfV8OuEARg" target="_blank" rel="noopener noreferrer">트래블튜브 · 속보, 한국초강수 주우크라 대사관철수 예상밖의 상황에 크게당황하는 우크라 유럽도 발칵 “한국 기여해야”그런데 미국조차싸늘</a></div>
+ <div class="hook-flags"><span>전환·반전</span><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">북한군 포로에 한국 송환 사실을 일방적으로 폭로하며 한국의 뒤통수를 쳤던 우크라이나 사태가 결국 대한민국 외교 사상 유례를 찾기 힘든 초대형 외교 파국으로 치닫고 있습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">그동안 우크라이나의 진정성 있는 해명과 공식 사거를 요구하며 인내해 오던 한국 정부가 마침내 주 우크라이나 한국 대사관 인력을 일부 철수시키는 초광주 결단을 내렸기 때문인데요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body"><mark class="red">그런데</mark> 이러한 한국 움직임에 우크라이나에서는 크게 당황하고 있다고 합니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">이 정도로 사태가 번질 줄 몰랐던 것이죠.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">사무실 장면 스톡(AI 생성 가능성)<small>후속 연결 0:38 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 13위</span><span>👁️ 25.2만 조회</span><span>📅 2026-10-22</span><span>📺 국뽕에 취하다 KOREA CULTURE</span><span>👥 구독 11.7만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=Ue-x6hr6FHU" target="_blank" rel="noopener noreferrer">국뽕에 취하다 KOREA CULTURE · Ep.165 [해외반응] 40억뷰 전설 'DESPACITO'를 건드린 한국 4인조! 포레스텔라의 미친 클래스에 해외 리액터들 경악!</a></div>
+ <div class="hook-flags"><span>질문·궁금증</span><span>전환·반전</span><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">0-5초 무자막 리액터 웹캠 컷 → 6초 공연 위 질문 자막 &quot;이 한국 4인조는 <mark class="gold">대체</mark> 어디까지 가능한 걸<mark class="gold">까요?</mark>&quot; → 8-25초 &quot;40억 조회수&quot; 기록과 Despacito MV로 원곡 권위 세팅 → 28초 &quot;<mark class="red">그런데</mark> ...<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">대한민국의 네 남자가 ...<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">재탄생시켰습니다&quot; <mark class="red">반전</mark>으로 한국 소환.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">(질문 훅 + 숫자 권위 + <mark class="red">반전</mark> 소환 3단)<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">KBS 불후의 명곡 멤버 4인 클로즈업 4분할(각 패널에 불후의명곡 로고)<small>후속 연결 0:34 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 14위</span><span>👁️ 24.4만 조회</span><span>📅 2026-10-22</span><span>📺 국뽕특파원</span><span>👥 구독 357</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=tuc8aXMjXao" target="_blank" rel="noopener noreferrer">국뽕특파원 · 외국인 등산객 73만 명 몰린 한국 산, &quot;서울이 세계 최고의 등산 도시&quot; 감탄 쏟아진 이유</a></div>
+ <div class="hook-flags"><span>질문·궁금증</span><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">요즘 외국인들 한국 산에만 오르면 이런 말을 한답니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">정상에서 라면 끓여 먹는 한국 사람들을 보고는요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body"><mark class="gold">도대체</mark> 한국산에 뭐가 있길래 외국인들이 이렇게 난리일<mark class="gold">까요?</mark><small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">올해 7월까지 국립공원을 찾은 외국인 관광객이 73만 명입니다.<small>후속 연결 0:37 (기존 보고서)</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">명동에서 쇼핑하던 관광객들이 이제는 배낭을 매고 산으로 가는 겁니다.<small>후속 연결 0:52 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 15위</span><span>👁️ 21.6만 조회</span><span>📅 2026-11-01</span><span>📺 잡식왕</span><span>👥 구독 54.1만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=k9cLrz-a5Sk" target="_blank" rel="noopener noreferrer">잡식왕 · 日 초비상…러·해킹 동시 강타 기자 구금에 항의도 단호 거부 총리 한밤중 SNS 긴급 공지 해커, 5000만달러 협박 개시</a></div>
+ <div class="hook-flags"></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">안녕하세요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">잡시광입니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">최근 일본과 러시아의 관계가 심상치 않게 흘러가고 있습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">러시아가 일본인 기자를 간첩혐의로 체포한데 이어 일본 정부의 항의까지 거부하면서 양국 사이에 <mark class="red">갈등</mark>이 격화되고 있는데요.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">일본은 러시아가 주최한 국제 회의에 26년 만에 처음으로 불참하는 등 강경한 태도를 보이고 있습니다.<small>0~30초 원문·화면 설명</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 16위</span><span>👁️ 20.8만 조회</span><span>📅 2026-10-22</span><span>📺 why?와이튜브</span><span>👥 구독 60.7만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=wkH1sC6pJe4" target="_blank" rel="noopener noreferrer">why?와이튜브 · “보셨죠? 이게 한국의 실체입니다!”14억이 시청한 한국 길거리 영상 쓰레기 길가에 그냥 버리자 난리난 전세계 반응</a></div>
+ <div class="hook-flags"><span>전환·반전</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">(0~8초 내레이션 없음, 음악)<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">여행자들은 그 인도에서 살다 보니 웬만한 더러움이나 열악한 환경에서도 눈 하나 깜짝하지 않는다고 하죠.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body"><mark class="red">그런데</mark> 그런 인도인들에게조차 중국은 쉽지 않은 여행지였던 거 같습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">구독자 209만 명을 거느린 인도의 대표 여행 유튜버 모하메드 아나스카니<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">중국 한복판에서 기업하며 뒷걸음질를 쳤습니다.<small>0~30초 원문·화면 설명</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 17위</span><span>👁️ 18.9만 조회</span><span>📅 2026-11-03</span><span>📺 잡식왕</span><span>👥 구독 54.1만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=a1yTScu3Pds" target="_blank" rel="noopener noreferrer">잡식왕 · 속보! 한국, 우크라이나 지원철회 발표 깜짝놀란 젤렌스키 납작 엎드린 상황 / 한국 강경대응에 유럽국가들 당황 아시아의 호랑이 부활했다며 초긴장</a></div>
+ <div class="hook-flags"><span>전환·반전</span><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">한국의 도움을 구해 놓고 뒤통수를 쳤습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">그리고 한국은 예상보다 훨씬 강하게 나왔습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">대사를 불러들이고 외교관을 빼고 원조 인력까지 귀곡시키자 우크라이나는 단교설은 사실이 아니다라며 긴급 진화에 나섰습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">북한군 포로 두 명의 한국 이송을 전 세계 앞에서 공개해 버린 젤렌스키.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">한국이 항의하자 우크라이나 측은 <mark class="red">오히려</mark> 그런 합의는 없었다고 맛았습니다.<small>0~30초 원문·화면 설명</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 18위</span><span>👁️ 13.9만 조회</span><span>📅 2026-10-30</span><span>📺 코리아국뽕한사발</span><span>👥 구독 75</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=h-VD_UAJI9o" target="_blank" rel="noopener noreferrer">코리아국뽕한사발 · (대만반응) 한국 깎아내리는 외국패널에 역공 한 방 먹이는 카이랑 참교육</a></div>
+ <div class="hook-flags"><span>질문·궁금증</span><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">한국인들은 외국인한테 특히 불친절해요<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">프랑스엔 영어 있어요<mark class="gold">?</mark><small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">없잖아요!<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">당신네 나라가 더 무서워요<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">......<small>0~30초 원문·화면 설명</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 19위</span><span>👁️ 11.4만 조회</span><span>📅 2026-10-31</span><span>📺 why?와이튜브</span><span>👥 구독 60.7만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=Ly6vlepu9PE" target="_blank" rel="noopener noreferrer">why?와이튜브 · &quot;따라한다고 다 같은 줄로 아십니까?&quot; 베트남 경제학자가 말하는 베트남 반도체 성공이 어려운 이유</a></div>
+ <div class="hook-flags"></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">베트남이 야심차게 첫사을 뜬 반도체 공장 부지에 9개월째 잡초만 무성합니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">착공 이후 공장 건물이 단한 채도 올라가지 않은 겁니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">하노이 외곽 부지를 찾아간 외신 취재진 앞에는 들풀로 뒤덮힌 빈땅만 펼쳐져 있습니다.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">착공 직후와 최근의 위성 사진에도 땅 위에는 여전히 아무것도 없죠.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">9개월 전만 해도 이곳은 베트남 최초의 반도체 공장으로 온나라의 기대를 한 몸에 받았습니다.<small>0~30초 원문·화면 설명</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 20위</span><span>👁️ 6.3만 조회</span><span>📅 2026-11-05</span><span>📺 하루 해외반응</span><span>👥 구독 11.4만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=6FNskgP5qLQ" target="_blank" rel="noopener noreferrer">하루 해외반응 · [속보] 세계 랭킹 1위 vs 말레시아 1위 배드민턴 여왕… 안세영의 압도적인 기량에 해외 난리난 상황</a></div>
+ <div class="hook-flags"><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">훅 없음.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">0~30초 랠리 영상만(해설은 31초부터 &quot;Beautiful sweep that&quot;), 한국어 자막·내레이션 없음.<small>0~30초 원문·화면 설명</small></span></p><div class="origin-note">⚠ 확인 가능한 원문·후속 연결 2개. 나머지 문장은 추측해 채우지 않았습니다.</div></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 21위</span><span>👁️ 6.3만 조회</span><span>📅 2026-10-31</span><span>📺 국뽕에 취하다 KOREA CULTURE</span><span>👥 구독 11.7만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=yTgVL1HuPv0" target="_blank" rel="noopener noreferrer">국뽕에 취하다 KOREA CULTURE · Ep.166 [해외반응] 한국 남성 4명이 만들어낸 믿기 힘든 천상의 하모니에 충격받은 외국인들ㅣForestella - Nella Fantasia</a></div>
+ <div class="hook-flags"><span>질문·궁금증</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">0-5초 무자막 리액터 컷 → 8초 &quot;외국인들이 이렇게까지 놀라는 걸<mark class="gold">까요?</mark>&quot; → 10초 &quot;눈을 크게 뜨고, 입을 다물지 못하는 순간들&quot;(감정 몰입 이미지) → 13-18초 &quot;그 중심에는 대한민국의 크로스오버 그룹, 포레스텔라의 넬라 판타지아가 있습니다&quot; → 21-29초 영화 미션·모리코네 배경 지식 예고(정보 훅).<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">(질문+이미지 훅+<mark class="gold">정체</mark> 공개)<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>3</b><span class="sample-body">엔니오 모리코네 지휘 연주 영상(출처 표기 없음)<small>후속 연결 0:33 (기존 보고서)</small></span></p><p class="sample highlight-hook"><b>4</b><span class="sample-body">KBS 열린음악회 포레스텔라 클로즈업(KBS 로고 우상단)<small>후속 연결 0:45 (기존 보고서)</small></span></p><p class="sample highlight-hook"><b>5</b><span class="sample-body">KBS 열린음악회 와이드 무대(양옆 어두운 띠)<small>후속 연결 0:48 (기존 보고서)</small></span></p></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article><article class="storycard hook-five">
+ <div class="storymeta"><span class="rank">기존 22편 내 조회 22위</span><span>👁️ 4.2만 조회</span><span>📅 2026-11-06</span><span>📺 하루 해외반응</span><span>👥 구독 11.4만명</span></div>
+ <div class="storytitle"><a href="https://www.youtube.com/watch?v=H9Hfi7MGaiM" target="_blank" rel="noopener noreferrer">하루 해외반응 · [속보] 세계 랭킹 1위 vs 일본 최고 유망주 안세영 일본 유망주 격파에 난리난 해외</a></div>
+ <div class="hook-flags"><span>한국 관련 도입</span></div>
+ <div class="quote-block"><p class="sample highlight-hook"><b>1</b><span class="sample-body">훅 없음.<small>0~30초 원문·화면 설명</small></span></p><p class="sample highlight-hook"><b>2</b><span class="sample-body">0~3초 영어 해설 &quot;So, Gunji gets us underway&quot;(ASR)와 경기 서브 장면뿐, 한국어 자막·썸네일식 문구 없음.<small>0~30초 원문·화면 설명</small></span></p><div class="origin-note">⚠ 확인 가능한 원문·후속 연결 2개. 나머지 문장은 추측해 채우지 않았습니다.</div></div>
+ <div class="source">출처: 장수 채널 분석 ‘0~30초 훅’ + 부족할 때 0:30~1:30 타임코드 원문. ASR 오류·화면 설명은 발언과 구분하며, 하이라이트는 문장 기능에 대한 분석입니다.</div></article>
 <h3 style="margin-top:20px">🧩 기존 GPT 독립 연구의 훅 12종 · 원문 예시 그대로</h3><p class="quiet">원본에는 유형마다 예시가 1개씩 기록돼 있습니다. 한 유형당 3개 예시가 실제로 존재하는 것처럼 채우지 않았습니다.</p><div class="three-col"><article class="typecard"><div class="typehead"><b>H01</b><strong>외국인 감탄 원음</strong></div>
  <p class="quiet">신뢰 가능한 실제 반응이 즉시 들림</p>
  <div class="example">예시 원문: <mark class="gold">검증</mark>된 원음 1문장 → 왜 놀랐는지 <mark class="sky">질문</mark>. 진짜 발언만 사용</div>
@@ -292,7 +501,8 @@ textarea{width:100%;min-height:235px;padding:13px;background:#0d131a;color:#f9f9
  <p class="quiet">말보다 실제 화면이 먼저 <mark class="sky">질문</mark>을 만듦</p>
  <div class="example">예시 원문: 장면→정체→왜 이런 일이?</div>
  
- <div class="source">출처: 전개 DNA 분석실 V2 / story-dna-lab.html#hooks</div></article></div></div></section><section class="panel blue" id="flow-collection"><div class="panel-head"><h2>🧩 ③ 전개 공식 모음집 · 8종 + 9종 모두</h2><label><input class="areaSwitch" data-target="flow-collection" type="checkbox" checked> 영역 표시</label></div><div class="panel-body">
+ <div class="source">출처: 전개 DNA 분석실 V2 / story-dna-lab.html#hooks</div></article></div></div></div></section>
+<section class="panel blue" id="flow-collection"><div class="panel-head"><h2>🧩 ③ 전개 공식 모음집 · 8종 + 9종 모두</h2><label><input class="areaSwitch" data-target="flow-collection" type="checkbox" checked> 영역 표시</label></div><div class="panel-body">
 <h3>GPT 연구에 실려 있던 전개 8종</h3><div class="two-col"><article class="typecard"><div class="typehead"><b>S01 · 편견 반전</b><strong>편견 반전</strong></div><p class="sequence"><mark class="red">편견</mark>→확인→반례→선택→<mark class="gold">재평가</mark></p>
  <p class="quiet">“그렇다면 왜 그렇게 알려졌나?”</p>
  
@@ -438,11 +648,34 @@ textarea{width:100%;min-height:235px;padding:13px;background:#0d131a;color:#f9f9
 [제작] 적법한 자체 촬영·라이선스 영상·직접 제작 지도/도표/일러스트로 기본 장면을 채운다. 외부 클립은 권리가 명확히 확인된 범위에서만, 영상 구간·합산 길이·목적을 기록한다. 클립 3~6초나 화면 60% 변경은 저작권 면책선이라는 표현을 하지 않는다.
 [출력] ① 출처·허가 표 ② 훅 5개 ③ 구조 선택 이유 ④ 전 구간 원고 ⑤ Q/A 타임코드 ⑥ 이미지·소스 편집 지시 ⑦ 팩트체크·저작권·독창성 점검 ⑧ 제목/썸네일 각 3안. VIEWER_RETENTION_UNKNOWN을 반드시 표시. 결과물에는 작품 고유의 새 통찰을 넣는다.</textarea></div>
 <p><a href="./gpt-lab.html#hooks">GPT 훅 12종 원본</a> · <a href="./story-dna-lab.html#hooks">DNA 훅 14종 원본</a> · <a href="./story-dna-lab.html#stories">DNA 전개 9종 원본</a> · <a href="../kukppong-longrun-audit-20261108/#vids">22편 실제 도입·감정선 원본</a></p></div></section><section class="panel black" id="rights"><div class="panel-head"><h2>⚖️ ⑦ 저작권·무상 사용 허락</h2><label><input class="areaSwitch" data-target="rights" type="checkbox" checked> 영역 표시</label></div><div class="panel-body"><div class="note"><mark class="red">3~4초 클립·나레이션 60%·화면 크롭</mark> 모두 저작권 자동 면책이 아닙니다. 독창적 편집을 위해 원본을 활용할 때도 저작권자와 제3자 권리를 확인해야 합니다.</div>
-<p>원작자에게 무상 협업을 제안하고 원본 링크·채널 소개를 제공할 수 있지만, 명시적 허락과 사용 조건이 필요합니다. <a href="./#copyright-new">기존 대시보드 허락 메일 보기</a></p></div></section><section class="panel black" id="editing"><div class="panel-head"><h2>🎬 ⑧ 마지막: 영상 편집 공식 · 관찰 기반</h2><label><input class="areaSwitch" data-target="editing" type="checkbox" checked> 영역 표시</label></div><div class="panel-body">
-<div class="two-col"><article class="micro"><strong>① 한국어 내레이션 60% 이상</strong><p>주도권은 자체 해설에 두고, 실제 외국인 원음은 증거·감정 전환 구간에 배치. 내레이션 비율과 화면 비율은 별도로 측정.</p></article><article class="micro"><strong>② 외부 클립 3~4초 편집 목표</strong><p>기존 장수 영상 일부는 3~9초 중앙값으로 관찰. 3~4초는 실험 편집 단위이지 법적 안전선이 아님.</p></article>
-<article class="micro"><strong>③ 질문 → 작은 답 → 다음 질문</strong><p>훅 → <mark class="sky">큰 질문</mark> → <mark class="sky">작은 답</mark> → 새로운 <mark class="sky">질문</mark> → <mark class="gold">근거</mark>·<mark class="gold">숫자</mark> → <mark class="red">반전</mark> → 감정 <mark class="gold">회수</mark></p></article><article class="micro"><strong>④ 화면 출처 섞기</strong><p>직접 촬영, 저작권 확인된 클립, 자체 제작 지도·일러스트·인용 카드를 사건의 근거에 맞게 사용.</p></article>
-<article class="micro"><strong>⑤ 출처·누적 길이 기록</strong><p>원본 URL, 허락 상태, 구간 시작/종료, 반복 횟수, 합계 길이, 음악과 출연자 권리를 남김.</p></article><article class="micro"><strong>⑥ 사실·표절·수익화 최종 점검</strong><p>자막 원문 오류, 저작권 표시, 표절, 과장 제목, 한국어 해설의 독창성, <code>VIEWER_RETENTION_UNKNOWN</code> 검사.</p></article></div>
-<p class="quiet">현장 관찰 수치와 편집 효과 원문은 <a href="../kukppong-longrun-audit-20261108/#clip">장수 분석 ‘클립 길이·편집 효과’</a> 및 <a href="./gpt-lab.html#copyright">GPT 연구 저작권 분석</a>에서 확인 가능합니다.</p></div></section>
+<p>원작자에게 무상 협업을 제안하고 원본 링크·채널 소개를 제공할 수 있지만, 명시적 허락과 사용 조건이 필요합니다. <a href="./#copyright-new">기존 대시보드 허락 메일 보기</a></p></div></section><section class="panel red" id="editing"><div class="panel-head"><h2>🎬 ⑧ 영상 편집 · 살아남는 노하우 + 권리 위험 줄이기</h2><label><input class="areaSwitch" data-target="editing" type="checkbox" checked> 영역 표시</label></div><div class="panel-body">
+<div class="redbook"><h3>① 살아남은 편집 노하우 (기존 16편 관찰)</h3>
+<table class="redtable"><thead><tr><th>번호</th><th>관찰된 방법</th><th>내 영상 적용</th></tr></thead><tbody>
+<tr><td>①</td><td><strong>외부 영상을 짧게 나눔</strong><p>16편 외부 컷 중앙값은 대략 <mark class="gold">3~9초</mark>. 쓸모왕·단골이슈 일부 영상은 4초 이하 컷 비율이 높음.</p></td><td>각 컷의 원본·이용 권리·시간 기록. <span class="warn">길이만 줄인다고 안전해지지 않음.</span></td></tr>
+<tr><td>②</td><td><strong>내 한국어 해설이 주인공</strong><p>쓸모왕·잡식왕·트래블튜브 일부는 내레이션 중심, 영상은 증거·배경.</p></td><td>내 나레이션 <mark class="gold">60% 이상</mark> 제작 목표.</td></tr>
+<tr><td>③</td><td><strong>스톡·직접 만든 그래픽 섞음</strong><p>쓸모왕 스톡 44~63%, 잡식왕 자체 그래픽 39~51% 등 <em>영상별 관찰값</em>.</p></td><td>직접 촬영·지도·그래프·권리 확보 영상 사용.</td></tr>
+<tr><td>④</td><td><strong>형식 자체를 독창적으로 구성</strong><p>허락된 해외 원음·내 설명·자료검증을 연결해 원본의 단순 대체를 피함.</p></td><td>내 결론·검증·서사를 중심으로 재구성.</td></tr>
+<tr><td>⑤</td><td><strong>살아남았다는 사실은 면책 아님</strong><p>원작자 미표기·방송사 로고·오래된 뉴스·원음 장시간 사용 문제 발견.</p></td><td>권리·원문·시의성 검증을 따로 진행.</td></tr>
+</tbody></table></div>
+<div class="redbook"><h3>② 편집할 때 저작권 위험 줄이기 (중요도 순서)</h3>
+<table class="redtable"><thead><tr><th>순서</th><th>방법</th><th>기대 효과·주의</th></tr></thead><tbody>
+<tr><td class="key">🥇 1</td><td><strong>원작자 서면 허락·라이선스 확보</strong></td><td class="good">적법한 사용 범위를 직접 확보. 음악·초상 등 별도 권리 확인 필수</td></tr>
+<tr><td class="key">🥈 2</td><td><strong>직접 촬영·AI 일러스트·자체 도표로 재구성</strong></td><td class="good">외부 영상 의존 자체를 줄임</td></tr>
+<tr><td class="key">🥉 3</td><td><strong>필요한 짧은 문장만 출처와 함께 인용</strong></td><td>인용의 필요성·범위·출처·법적 요건은 개별 판단</td></tr>
+<tr><td>4</td><td>3~6초 컷 + 내 나레이션 60% 이상</td><td>자체 해설의 리듬 설계. <span class="warn">저작권 면책 수치가 아님</span></td></tr>
+<tr><td>5</td><td>외국인 발언은 출처·맥락 확인, 원음은 필요한 부분만</td><td>의미 왜곡과 원본 대체 위험 줄이기</td></tr>
+<tr><td>6</td><td>여러 합법적 소스와 직접 제작 영상 결합</td><td>단일 소스 과다 의존을 방지하되 소스별 허가 필요</td></tr>
+<tr><td>7</td><td>출처 라벨 + 설명란 원본 링크</td><td>투명성 개선, <span class="warn">표기 자체가 허락은 아님</span></td></tr>
+<tr><td>8</td><td>사용 허락 없으면 그 외부 원본은 사용 보류</td><td class="good">명확한 권리 없는 구간 제외</td></tr>
+<tr><td>9</td><td>썸네일·제목·대본의 사실을 원문과 대조</td><td>허위 과장과 재사용 콘텐츠 문제 점검</td></tr>
+<tr><td>10</td><td>게시 뒤 권리 문제·Content ID 통지 확인</td><td>사후 대응. <span class="warn">업로드 성공은 사용 승인 아님</span></td></tr>
+<tr><td>❌</td><td>좌우반전·크롭·속도 변경·로고 가림만으로 해결 시도</td><td class="warn">권리가 생기지 않으며 탐지 회피를 위한 사용은 권장하지 않음</td></tr>
+</tbody></table>
+<div class="note">📌 <strong>중요:</strong> 3초·6초·내레이션 60%·출처 표기 중 어느 것도 저작권 자동 면책 규칙이 아닙니다. 출처: <a href="../kukppong-longrun-audit-20261108/#know">장수 보고서 살아남은 노하우</a>, <a href="../kukppong-longrun-audit-20261108/#eff">편집 효과 분석</a> 및 사용자가 제공한 표 캡처.</div></div>
+<div class="redbook"><h3>③ 영상 제작 체크</h3>
+<p>🎙️ <mark class="gold">내 해설 60% 이상</mark> → 🎬 허락된 클립의 증거 장면 → <mark class="sky">질문·작은 답</mark> → <mark class="red">반전</mark> → <mark class="lime">감정 회수</mark> → 출처·권리·사실 검증</p>
+<p>영상별 원본 URL·구간·누적 길이·수익화 허가·영상과 음성 출처를 별도 표기하고, <code>VIEWER_RETENTION_UNKNOWN</code>을 유지합니다.</p></div>
+</div></section>
 <footer class="quiet" style="margin:15px 0">출처와 원문은 GitHub 장수 채널 분석, GPT 독립 연구 v1.0, 전개 DNA 분석실 V2. 자동자막 오류 가능성 및 실제 유지율 미확인은 그대로 표시합니다.</footer>
 </main>
 <script>
@@ -453,6 +686,62 @@ toggles.forEach(e=>e.addEventListener('change',draw));titles.addEventListener('c
 document.getElementById('hideBoth').onclick=()=>{titles.checked=false;ocr.checked=false;draw()};
 document.getElementById('expandAll').onclick=()=>{toggles.forEach(e=>e.checked=true);draw()};
 document.getElementById('collapseAll').onclick=()=>{toggles.forEach(e=>e.checked=false);draw()};
-draw()
+draw();
+
+// v1.3 OCR: lazy-load client-side Korean+English OCR; never claim results before recognition.
+const ocrStatus=document.getElementById('ocrStatus');
+let ocrBusy=false,stopOcr=false;
+function cardFor(id){return [...document.querySelectorAll('.thumb')].find(c=>c.querySelector('[data-ocr-id="'+id+'"]'))}
+function readStore(k){try{return localStorage.getItem('ghk-thumbnails-ocr-v1-'+k)}catch(e){return null}}
+function writeStore(k,v){try{localStorage.setItem('ghk-thumbnails-ocr-v1-'+k,v)}catch(e){}}
+document.querySelectorAll('.ocr-edit').forEach(edit=>{
+ const id=edit.dataset.ocrEdit,card=cardFor(id),existing=readStore(id);
+ if(existing!==null){edit.value=existing;card.querySelector('.thumbocr').textContent=existing||'OCR 미인식';card.querySelector('[data-source-id]').textContent='OCR 결과·사용자 교정 (기기에 저장)';}
+ edit.addEventListener('input',()=>{writeStore(id,edit.value);card.querySelector('.thumbocr').textContent=edit.value||'OCR 결과를 입력하세요';card.querySelector('[data-source-id]').textContent='사용자가 교정한 문구 (기기에 저장)'});
+ const viz=readStore('viz-'+id);if(viz)card.querySelector('[data-viz-id]').textContent=viz;
+});
+function setStatus(s){ocrStatus.textContent=s}
+function loadOcrScript(){if(window.Tesseract)return Promise.resolve();
+ return new Promise((resolve,reject)=>{const el=document.createElement('script');el.src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js';el.onload=()=>resolve();el.onerror=()=>reject(Error('OCR 엔진 다운로드 실패'));document.head.appendChild(el)})}
+async function safeImage(url){const img=new Image();img.crossOrigin='anonymous';img.referrerPolicy='no-referrer';img.src=url;await img.decode();return img}
+async function processCardOCR(card,worker){
+ const id=card.querySelector('[data-ocr-id]').dataset.ocrId,src=card.querySelector('img').src;
+ const opts=[src.replace('mqdefault.jpg','maxresdefault.jpg'),src.replace('mqdefault.jpg','hqdefault.jpg'),src];
+ let image=null;
+ for(const url of opts){try{const z=await safeImage(url);if(z.naturalWidth>=300){image=z;break;}}catch(e){}}
+ if(!image)throw Error('썸네일 이미지 접근 제한 또는 CORS 오류');
+ const canvas=document.createElement('canvas'),factor=Math.min(3,1800/image.naturalWidth);
+ canvas.width=Math.round(image.naturalWidth*factor);canvas.height=Math.round(image.naturalHeight*factor);
+ const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(image,0,0,canvas.width,canvas.height);
+ const result=await worker.recognize(canvas);const recognized=(result?.data?.text||'').trim();
+ const target=card.querySelector('.thumbocr'),edit=card.querySelector('.ocr-edit');
+ target.textContent=recognized||'텍스트 인식 실패: 직접 검토 필요';edit.value=recognized;writeStore(id,recognized);
+ card.querySelector('[data-source-id]').textContent='한글·영문 OCR 자동 추정 · 직접 교정 필요';
+ let pixels=ctx.getImageData(0,0,canvas.width,canvas.height).data;
+ let total=0,sat=0,lo=0,hi=0,ct=0;
+ for(let k=0;k<pixels.length;k+=160){
+  const r=pixels[k],g=pixels[k+1],b=pixels[k+2];
+  let luminance=0.2126*r+0.7152*g+0.0722*b;
+  total+=luminance;sat+=Math.max(r,g,b)-Math.min(r,g,b);ct++;
+  if(luminance<50)lo++;if(luminance>210)hi++;
+ }
+ const light=total/ct,contrast=(lo+hi)/ct;
+ let descriptor='색감 자동 추정: '+(light<90?'어두운':light>168?'밝은':'중간 밝기')+' 배경 · '+(contrast>.28?'명암 대비 강함':'명암 대비 보통')+' · '+(sat/ct>70?'선명한 색감':'차분한 색감');
+ descriptor+=' · 인물 수·표정은 직접 확인 필요';
+ if(id==='Ue-x6hr6FHU')descriptor+=' · 캡처 수동 확인: 붉은 무대/4인조/하단 리액터 얼굴';
+ card.querySelector('[data-viz-id]').textContent=descriptor;writeStore('viz-'+id,descriptor);
+}
+async function runOCR(cards){if(ocrBusy)return;ocrBusy=true;stopOcr=false;document.getElementById('ocrAllBtn').disabled=true;let worker=null;
+ try{setStatus('한국어 OCR 엔진 준비 중…');await loadOcrScript();worker=await Tesseract.createWorker('kor+eng');
+ let ok=0;for(let i=0;i<cards.length;i++){if(stopOcr)break;let card=cards[i];setStatus((i+1)+'/'+cards.length+' 분석 중');
+  try{await processCardOCR(card,worker);ok++;}catch(e){let id=card.querySelector('[data-ocr-id]').dataset.ocrId;card.querySelector('[data-source-id]').textContent='OCR 불가: '+(e.message||e);}}
+ setStatus('OCR 완료 '+ok+'/'+cards.length+(stopOcr?' (사용자 중지)':'')+' · 교정 가능');}
+ catch(e){setStatus('OCR 실행 실패: '+(e.message||e)+'. 썸네일별 원문 수동 검토가 필요합니다.');}
+ finally{if(worker)await worker.terminate();ocrBusy=false;document.getElementById('ocrAllBtn').disabled=false;}
+}
+document.querySelectorAll('[data-ocr-id]').forEach(b=>b.addEventListener('click',()=>{const card=cardFor(b.dataset.ocrId);document.getElementById('showOcr').checked=true;draw();runOCR([card])}));
+document.getElementById('ocrAllBtn').addEventListener('click',()=>{document.getElementById('showOcr').checked=true;draw();runOCR([...document.querySelectorAll('.thumb')])});
+document.getElementById('ocrStopBtn').addEventListener('click',()=>{stopOcr=true;setStatus('현재 이미지 처리 뒤 중지 예정');});
+
 })();
 </script></body></html>

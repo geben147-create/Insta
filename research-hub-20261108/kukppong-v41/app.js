@@ -22,6 +22,7 @@ function nav(d,page){
     '</details><details open><summary>🛠 제작·검수</summary><a class="navlink" href="../kukppong-script-onepage-20261114.html"><em>📚</em><span>기존 훅·전개 연구</span></a>'+
     '<a class="navlink" href="../../reactions-downloads/index.html"><em>🎬</em><span>자막·다운로드 원본</span></a>'+
     '<a class="navlink" href="./dataset.json"><em>🧾</em><span>대본·근거 통합 데이터</span></a></details>'+
+    '<details open><summary>⬇️ TTS · 컷 시트 원본 파일</summary>'+d.episodes.map(e=>'<a class="navlink" href="./'+e.id+'-v42-tts.txt" target="_blank"><em>🎙</em><span>'+esc(e.id.toUpperCase())+' 순수 내레이션 TXT</span></a><a class="navlink" href="./'+e.id+'-v42-cuts.csv" download><em>🎞</em><span>'+esc(e.id.toUpperCase())+' 원본 컷 CSV</span></a>').join("")+'</details>'+
     '<p class="mini">최신 자막 수집분의 일부만 대본화<br>원본 허락·음성 검수는 별도</p></aside>'
 }
 function header(d){

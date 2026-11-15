@@ -4,8 +4,14 @@
   {
    "id": "BILI-111",
    "title": "국민 모두 영양제 한국 최대 영양제 공장 탐방",
-   "cat": "쇼핑",
-   "done": false
+   "cat": "의료",
+   "done": true,
+   "dur_ms": 1099690,
+   "n": 436,
+   "good": 12,
+   "bad": 3,
+   "eval": 11,
+   "key": 20
   },
   {
    "id": "BILI-112",
@@ -23,49 +29,97 @@
    "id": "BILI-113",
    "title": "한국 vlog 콘서트 꾸미기 먹기 쇼핑! 한국 너무 쇼핑하기 좋아~",
    "cat": "쇼핑",
-   "done": false
+   "done": true,
+   "dur_ms": 340500,
+   "n": 174,
+   "good": 15,
+   "bad": 3,
+   "eval": 3,
+   "key": 8
   },
   {
    "id": "BILI-114",
    "title": "서울 VLOG 나홀로 3박4일 새벽 혼자 치킨 따뜻한 가게들",
    "cat": "여행",
-   "done": false
+   "done": true,
+   "dur_ms": 3309860,
+   "n": 324,
+   "good": 6,
+   "bad": 0,
+   "eval": 4,
+   "key": 15
   },
   {
    "id": "BILI-117",
    "title": "부산이 이렇게 재밌고 쇼핑하기 좋다고 !",
    "cat": "쇼핑",
-   "done": false
+   "done": true,
+   "dur_ms": 3846790,
+   "n": 1143,
+   "good": 43,
+   "bad": 18,
+   "eval": 17,
+   "key": 61
   },
   {
    "id": "BILI-118",
    "title": "세계 1위 프로팀 PC방에 가봤다! 장비가 별로 ",
    "cat": "게임/PC방",
-   "done": false
+   "done": true,
+   "dur_ms": 755120,
+   "n": 351,
+   "good": 10,
+   "bad": 13,
+   "eval": 9,
+   "key": 18
   },
   {
    "id": "BILI-119",
    "title": "한국 PC방도 급이 나뉜다 T1·강남 부촌·서민 PC방 실사, 차이가 이",
    "cat": "게임/PC방",
-   "done": false
+   "done": true,
+   "dur_ms": 663170,
+   "n": 315,
+   "good": 10,
+   "bad": 17,
+   "eval": 15,
+   "key": 15
   },
   {
    "id": "BILI-120",
    "title": "100위안으로 중·일·한에서 각각 어떤 PC방에 갈 수 있을까 ",
    "cat": "게임/PC방",
-   "done": false
+   "done": true,
+   "dur_ms": 567290,
+   "n": 269,
+   "good": 5,
+   "bad": 0,
+   "eval": 3,
+   "key": 13
   },
   {
    "id": "BILI-121",
    "title": "[전기밥솥 실측] 쿠쿠 트윈프레셔 밥솥 심층 리뷰, 고급 밥솥 살 만한가",
    "cat": "가전",
-   "done": false
+   "done": true,
+   "dur_ms": 371360,
+   "n": 182,
+   "good": 16,
+   "bad": 3,
+   "eval": 6,
+   "key": 8
   },
   {
    "id": "BILI-122",
    "title": "왼쪽은 쿠페 오른쪽은 장보기차, '삐딱선 탄' 현대 벨로스터 N 이야기",
    "cat": "자동차",
-   "done": false
+   "done": true,
+   "dur_ms": 741210,
+   "n": 245,
+   "good": 16,
+   "bad": 16,
+   "eval": 7,
+   "key": 15
   }
  ]
 }

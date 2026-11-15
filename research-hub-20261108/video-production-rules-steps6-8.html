@@ -1,0 +1,53 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>영상 제작 규칙 · STEP 6~8 원문</title><style>:root{color-scheme:dark}body{margin:0;background:#091426;color:#edf6ff;font-family:system-ui,"Malgun Gothic",sans-serif;line-height:1.7}.wrap{max-width:1120px;margin:auto;padding:28px 16px 80px}h1{font-size:clamp(24px,3vw,36px);margin:10px 0}p{color:#acc4da}nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 26px}nav a,.back{color:#102641;background:#d9ff65;padding:8px 12px;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px}section{background:#132540;border:1px solid #345476;border-radius:17px;margin:18px 0;padding:18px;box-shadow:0 12px 30px #0002}section:nth-of-type(2){border-top:4px solid #f5c672}section:nth-of-type(3){border-top:4px solid #d9ff65}section:nth-of-type(4){border-top:4px solid #ffb6d5}h2{font-size:19px;margin:0 0 12px}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#0a192f;border:1px solid #304765;border-radius:12px;padding:16px;line-height:1.85;font-size:13px;font-family:ui-monospace,Consolas,"D2Coding",monospace;color:#f2f6fd}.copy{float:right;background:#273e61;color:#fff;border:1px solid #7196b7;border-radius:8px;padding:7px 12px;cursor:pointer}header{border-bottom:1px solid #304765;padding-bottom:12px}</style></head><body><main class="wrap"><header><a class="back" href="./index.html">← 연구 허브로 돌아가기</a><h1>🎬 영상 제작 규칙 · STEP 6~8</h1><p>원문 보존 · 섹션별 정렬 · 복사</p><nav><a href="#rule1">🎬 영상 컷·내레이션·효과</a><a href="#rule2">🎙️ STEP 6 · TTS (Qwen3-TTS-Base + 새 목소리)</a><a href="#rule3">🎞️ STEP 7 · 영상 편집 (형식 고정)</a><a href="#rule4">🗂️ STEP 8 · 페이지·GitHub·기록</a></nav></header><section id="rule1"><button class="copy" type="button" onclick="copyRule(0)">복사</button><h2>🎬 영상 컷·내레이션·효과</h2><pre id="raw0">영상은 4초 이하 컷    내 나레이션 60% 이상 제작 ... 좌우반전·크롭·속도 변경·로고 가림 (빌리빌리 샤오홍수 등 로고는 모자이크 하기, )
+
+__ 효과음: 책장넘기는소리, 함성소리 ,등 너무 많지 않게 사용, . 댓글이나 언론 은, 타이피ㅇ하는 효과, .. 화면 전화 : 줌인 줌아웃, 책 넘어가는 효과,</pre></section><section id="rule2"><button class="copy" type="button" onclick="copyRule(1)">복사</button><h2>🎙️ STEP 6 · TTS (Qwen3-TTS-Base + 새 목소리)</h2><pre id="raw1">STEP 6 · TTS (Qwen3-TTS-Base + 새 목소리)
+
+복사
+
+# STEP 6 · 음성
+- 최종 대본의 내레이션만 합성한다. 외국인 실제 음성을 가짜 성우로 재현하지 않는다.
+- python3 -I bin/tts_jsonl.py episodes/&lt;이름&gt;
+- bash /home/yh/ai-work/tts_cosy_prod/qwen_tts.sh episodes/&lt;이름&gt;/build/narration.jsonl episodes/&lt;이름&gt;/build/tts -12
+- 줄마다 3번 만들어 받아쓰기로 가장 정확한 것을 고른다. 받아쓰기 오류율이 높은 줄은 다시 받아써서 숫자 표기 차이인지 발음 문제인지 가른다.
+- 🔴 제작용 메모·ID·H/S 코드가 음성에 들어가지 않았는지 검사한다.</pre></section><section id="rule3"><button class="copy" type="button" onclick="copyRule(2)">복사</button><h2>🎞️ STEP 7 · 영상 편집 (형식 고정)</h2><pre id="raw2">STEP 7 · 영상 편집 (형식 고정)
+
+복사
+
+# STEP 7 · 영상
+- 원음 구간: 원본 클립(약 4초) + 한국어 자막 띠. 원본의 중국어 자막은 띠로 덮는다.
+- 🔵 내레이션 구간: 가지고 있는 원본 영상을 소리 없이, 어둡게(반투명) 깔고 재생한다. 그 위에
+    · 키워드 헤드라인: 흰 굵은 글씨 + 형광 강조(참고 사진 4·6번)
+    · 댓글·인용: 흰 말풍선 + 이모지(참고 사진 5번). 실제 댓글이 없으면 지어내지 않는다.
+    · 그래프: 회색 질감 배경 + [ 제목 ] + 큰 숫자 + 출처(참고 사진 3·7번)
+    · 색: 첨부하신 사진에서 추출한 주요 색상은 다음과 같습니다.
+
+연연두 배경
+
+#F5FFDC
+
+형광 연두
+
+#D9FF65
+
+연분홍 배경
+
+#FEE9F2
+
+주의 박스
+
+#FCF1ED
+- 배경 영상은 "다음 원음 클립 직전 구간"을 쓴다. 남의 영상·광고·큰 자막 카드 구간은 BROLL_FORBID에 적어 피한다.
+- 좌우반전·속도 변경.
+- /home/yh/ai-work/tts_eval/venvs/qwen/bin/python bin/render.py episodes/&lt;이름&gt;
+- 결과: out/&lt;이름&gt;.mp4, subtitles-ko.srt, cut-list.csv(원음 IN/OUT), broll-list.csv(배경), timeline.json
+- 표본 프레임을 뽑아 화면을 확인하고, 길이(≥10분)·내레이션 비율(약 60%)·음량을 잰다.</pre></section><section id="rule4"><button class="copy" type="button" onclick="copyRule(3)">복사</button><h2>🗂️ STEP 8 · 페이지·GitHub·기록</h2><pre id="raw3">STEP 8 · 페이지·GitHub·기록
+
+복사
+
+# STEP 8 · 게시
+- python3 -I bin/make_checker_ep.py episodes/&lt;이름&gt; &lt;자막 폴더&gt;   → 검수판용 데이터, 대본 MD
+- python3 -I bin/build_checker.py &lt;Insta 저장소 폴더&gt;              → V4 검수판(탭·형광펜·단계·체크리스트 1:1, 대본 접기/펼치기)
+- bash bin/publish.sh &lt;Insta 저장소 폴더&gt; "&lt;기록 한 줄&gt;"            → research-hub-20261108/kukppong-v4-claude/ 에 올리고 push
+- 🔴 기존 연구 원본을 삭제하거나 간추린 내용으로 바꾸지 않는다. 새 폴더·새 탭으로 추가한다.
+- 완성 MP4는 원본 권리 확인 전까지 GitHub에 올리지 않는다.
+- 🔵 맨 끝에 무엇을 했는지 한 줄 기록 + "by &lt;도구 이름&gt;".</pre></section></main><script>function copyRule(i){navigator.clipboard.writeText(document.getElementById('raw'+i).textContent)}</script></body></html>

@@ -39,6 +39,21 @@ def source_data():
         raise RuntimeError(f"data.js JSON 구조를 읽지 못했습니다: {DATA_JS}")
     payload = json.loads(match.group(1))
     episodes = {e["ep"]: e for e in payload["episodes"]}
+    # V10 new episodes have their own JSON-in-JS loader. Read data, never execute JS.
+    v10_path = PROJECT / "episodes-v10.js"
+    if v10_path.exists():
+        extra = v10_path.read_text(encoding="utf-8")
+        new_match = re.search(
+            r"window\\.FOREIGN_V10_DATA\\s*=\\s*(\\{.*?\\})\\s*;\\s*\\n\\(function",
+            extra, re.DOTALL,
+        )
+        if new_match is None:
+            raise RuntimeError(f"V10 신규 대본 데이터 파싱 실패: {v10_path}")
+        new_payload = json.loads(new_match.group(1))
+        for e in new_payload.get("episodes", []):
+            if e["ep"] in episodes:
+                raise RuntimeError(f"신규 회차가 기존 회차와 중복됩니다: {e['ep']}")
+            episodes[e["ep"]] = e
     return episodes
 
 
@@ -230,6 +245,12 @@ def create_mp3(voice_model, *, ep: dict, model_id: str, args, work: Path, audio_
         dur = media_duration(temp_mp3)
         if dur < 30:
             raise RuntimeError(f"EP{number}: 재생 길이가 {dur:.1f}초로 비정상입니다.")
+        # Do not create an MP3 or ready manifest entry when narration is too short.
+        if dur <= args.min_duration_sec:
+            raise RuntimeError(
+                f"EP{number}: MP3 실제 {dur:.1f}초, 최소 {args.min_duration_sec:.0f}초 초과 조건 FAIL. "
+                "본문 내용을 보강한 뒤 재합성하세요. 무음으로 길이만 채우지 마세요."
+            )
         temp_mp3.replace(final_mp3)
     finally:
         temp_mp3.unlink(missing_ok=True)
@@ -267,6 +288,7 @@ def main() -> int:
     p.add_argument("--workdir", type=Path, default=DEFAULT_WORK)
     p.add_argument("--output", type=Path, default=DEFAULT_AUDIO)
     p.add_argument("--allow-download", action="store_true")
+    p.add_argument("--min-duration-sec", type=float, default=0, help="실제 MP3 길이가 이 초를 초과해야 PASS (EP11~20은 541 사용)")
     p.add_argument("--dry-run", action="store_true")
     args = p.parse_args()
 

@@ -1,8 +1,78 @@
 {
   "schema": 1,
-  "description": "Public playback catalog for foreign-reactions V8.9. Real MP3 files are not uploaded yet.",
+  "description": "Playback catalog EP01-03, EP11-20. Only actual verified MP3 files activate the player.",
   "updated_utc": null,
   "episodes": {
+    "11": {
+      "status": "pending",
+      "title": "EP11 신규 외국인 한국반응 내레이션",
+      "src": null,
+      "min_duration_sec_exclusive": 541,
+      "reason": "사용자 우분투 TTS 미합성 · 9분 초과 실측 검수 필요"
+    },
+    "12": {
+      "status": "pending",
+      "title": "EP12 신규 외국인 한국반응 내레이션",
+      "src": null,
+      "min_duration_sec_exclusive": 541,
+      "reason": "사용자 우분투 TTS 미합성 · 9분 초과 실측 검수 필요"
+    },
+    "13": {
+      "status": "pending",
+      "title": "EP13 신규 외국인 한국반응 내레이션",
+      "src": null,
+      "min_duration_sec_exclusive": 541,
+      "reason": "사용자 우분투 TTS 미합성 · 9분 초과 실측 검수 필요"
+    },
+    "14": {
+      "status": "pending",
+      "title": "EP14 신규 외국인 한국반응 내레이션",
+      "src": null,
+      "min_duration_sec_exclusive": 541,
+      "reason": "사용자 우분투 TTS 미합성 · 9분 초과 실측 검수 필요"
+    },
+    "15": {
+      "status": "pending",
+      "title": "EP15 신규 외국인 한국반응 내레이션",
+      "src": null,
+      "min_duration_sec_exclusive": 541,
+      "reason": "사용자 우분투 TTS 미합성 · 9분 초과 실측 검수 필요"
+    },
+    "16": {
+      "status": "pending",
+      "title": "EP16 신규 외국인 한국반응 내레이션",
+      "src": null,
+      "min_duration_sec_exclusive": 541,
+      "reason": "사용자 우분투 TTS 미합성 · 9분 초과 실측 검수 필요"
+    },
+    "17": {
+      "status": "pending",
+      "title": "EP17 신규 외국인 한국반응 내레이션",
+      "src": null,
+      "min_duration_sec_exclusive": 541,
+      "reason": "사용자 우분투 TTS 미합성 · 9분 초과 실측 검수 필요"
+    },
+    "18": {
+      "status": "pending",
+      "title": "EP18 신규 외국인 한국반응 내레이션",
+      "src": null,
+      "min_duration_sec_exclusive": 541,
+      "reason": "사용자 우분투 TTS 미합성 · 9분 초과 실측 검수 필요"
+    },
+    "19": {
+      "status": "pending",
+      "title": "EP19 신규 외국인 한국반응 내레이션",
+      "src": null,
+      "min_duration_sec_exclusive": 541,
+      "reason": "사용자 우분투 TTS 미합성 · 9분 초과 실측 검수 필요"
+    },
+    "20": {
+      "status": "pending",
+      "title": "EP20 신규 외국인 한국반응 내레이션",
+      "src": null,
+      "min_duration_sec_exclusive": 541,
+      "reason": "사용자 우분투 TTS 미합성 · 9분 초과 실측 검수 필요"
+    },
     "01": {
       "status": "pending",
       "title": "한국 HBM과 중국 해설자의 평가",

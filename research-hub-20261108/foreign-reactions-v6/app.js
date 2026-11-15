@@ -8,12 +8,25 @@ const typeLabel=k=>k==='F'?'🌏 외국인 실제 자막':'🎙 GPT 새 나레�
 const sourceLink=(id)=>{let s=D.sources[id];return s?'<a target="_blank" rel="noopener" href="'+ESC(s.url)+'">'+ESC(id)+' ▶ 원본</a>':ESC(id)};
 const statusHTML=(k)=>k==='F'?'<span class="status warn">원음·화자 재확인</span><span class="status fail">영상 사용권 미확인</span>':'<span class="status info">자체 제작 대사</span>';
 const qkey=([id,n])=>id+'-'+n;
+
+function chooseSound(b,k,kind,q){
+ const music=b.mood<=2?'BGM 긴장: 저음 펄스':b.mood>=4?'BGM 호평: 밝은 앰비언트':'BGM 탐색: 담백한 리듬';
+ const st={interview:'카메라 셔터',quote:'카드 팝',number:'숫자 틱',chat:'채팅 알림',photo:'부드러운 스와이프',transparent:'저음 서브',article:'뉴스 헤드라인 슬라이드',split:'좌우 스와이프',review:'평가 카드 뒤집기'}[b.style]||'절제된 스와이프';
+ const cue=k===0?'0.0~0.18초':k===4?'3.5~3.85초':'0.0~0.12초';
+ if(kind==='F')return '원음 '+(q?(Math.round((q.originalToMs-q.originalFromMs)/100)/10)+'초 후보':'미측정')+' / 권리 전 게시 원음 0초 / 영상 4초는 자막 카드로 대체 / '+music+'(원음보다 22dB 낮춤) / '+st+' '+cue;
+ return '로컬 TTS 4초 가배치 + '+music+'(내레이션보다 20dB 낮춤) / '+st+' '+cue+' / 문장 끝 0.3초 여백 / 긴 문장 TTS 정렬 후 분절';
+}
+function quoteShot(q,b){
+ const t=q.ko||'';
+ const object=/라면|치즈|맛있|향|음료|김치|국물|밥/.test(t)?'허가된 음식 접사·반응 표정':/키보드|그래픽|CPU|사양|장비|컴퓨터|모니터/.test(t)?'게이밍 장비 근접·사양 타이포':/가격|비싸|위안|원짜리|시간당/.test(t)?'영상 기준 금액 카드·원본 날짜':/일본|중국|한국/.test(t)?'화자별 국가 비교 카드':/팬|굿즈|T1|페이커/.test(t)?'e스포츠 팬 문화 이미지·굿즈': '원음 타임코드 기반 시각화 자막 카드';
+ return '원본 사용권 미확인: 외국인 원영상 0초 → '+object+' (직접 제작·허가 자료) / 중국어 원문+한국어 2줄 / ID·출처 고정 / '+b.style+' 스타일';
+}
 function gridFor(ep){
  let rows=[];for(const b of ep.beats){let ii=0,jj=0;
   [...b.order].forEach((kind,k)=>{const start=b.timeStart+4*k;
    if(kind==='F'){const [id,n]=b.q[ii++],q=D.quotes[qkey([id,n])];if(!q)throw Error(id+' #'+n+' 누락');
-    rows.push({i:rows.length+1,start,end:start+4,kind:'F',beat:b.index,beatTitle:b.head,beatArc:b.arc,style:b.style,emotion:b.mood,text:q.ko,zh:q.zh,sourceId:id,cue:n,sourceStart:timeMs(q.originalFromMs),sourceEnd:timeMs(q.originalToMs),sourceLink:D.sources[id].url,srt:q.originalSrt||D.sources[id].jsonSource||'',clipMilliseconds:q.originalToMs-q.originalFromMs,rights:'UNCONFIRMED',evidence:'원문 ASR 번역 후보: 원음 대조 필요',shot:'원작자 영상 위치 후보. 이용허락 전 원영상·원음 0초. 별도 허가 B롤 + 투명 자막/출처 카드',audio:'이용권 확인 후 원음('+((q.originalToMs-q.originalFromMs)/1000).toFixed(1)+'초) / 나머지는 화면 유지',font:'원발언: 노랑·시안 / 출처 28px / 자막 58px'});}
-   else{const text=b.n[jj++];rows.push({i:rows.length+1,start,end:start+4,kind:'N',beat:b.index,beatTitle:b.head,beatArc:b.arc,style:b.style,emotion:b.mood,text,zh:'',sourceId:'EDITORIAL',cue:'',sourceStart:'',sourceEnd:'',sourceLink:'',srt:'',clipMilliseconds:4000,rights:'ORIGINAL',evidence:'본편 해설·분석. 인과·일반화·수치 재검수',shot:visualFor(b,k),audio:'로컬 TTS 4초 가배치 / 질문 끝 0.3초 여백 / BGM ducking',font:'흰색 Black Han Sans / 핵심 노랑·분홍 / 큰 글자 54~72px'});}
+    rows.push({i:rows.length+1,start,end:start+4,kind:'F',beat:b.index,beatTitle:b.head,beatArc:b.arc,style:b.style,emotion:b.mood,text:q.ko,zh:q.zh,sourceId:id,cue:n,sourceStart:timeMs(q.originalFromMs),sourceEnd:timeMs(q.originalToMs),sourceLink:D.sources[id].url,srt:q.originalSrt||D.sources[id].jsonSource||'',clipMilliseconds:q.originalToMs-q.originalFromMs,rights:'UNCONFIRMED',evidence:'원문 ASR 번역 후보: 원음 대조 필요 · 원본 종료 '+(q.originalEndInferred?'⚠ 다음 줄 기준 추정':'SRT 시각 기록'),shot:quoteShot(q,b),audio:chooseSound(b,k,'F',q),font:'원발언: 노랑·시안 / 부정의견 분홍 / 출처 28px / 자막 58px'});}
+   else{const text=b.n[jj++];rows.push({i:rows.length+1,start,end:start+4,kind:'N',beat:b.index,beatTitle:b.head,beatArc:b.arc,style:b.style,emotion:b.mood,text,zh:'',sourceId:'EDITORIAL',cue:'',sourceStart:'',sourceEnd:'',sourceLink:'',srt:'',clipMilliseconds:4000,rights:'ORIGINAL',evidence:'본편 해설·분석. 인과·일반화·수치 재검수',shot:visualFor(b,k),audio:chooseSound(b,k,'N'),font:'흰색 Black Han Sans / 핵심 노랑·분홍 / 2줄 이하 / 큰 글자 54~72px'});}
  });}
  return rows;
 }

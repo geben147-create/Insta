@@ -2,7 +2,7 @@
 
 **이번 신규 10편 모두 한국어 장편 대본, 중국인 원어 자막 후보 타임코드, 실제 로컬 MP4 경로 후보, 30개 20초 편집표, 150개 4초 컷, V4 왼쪽 대본 ↔ 오른쪽 검수표, 전체 한 번 복사를 갖췄습니다.**
 
-**[🎬 V10 통합 작업판 · 왼쪽 신규 10편]( https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/index.html )** · [🎧 신규 EP11~20 MP3 미리듣기 상태](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/index.html#tts-mp3-player) · [🔊 우분투 신규 10편 Qwen3 일괄 생성 방법](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/tts/README_NEW10.md)
+**[🎬 V10 통합 작업판 · 왼쪽 신규 10편](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/index.html)** · [🎧 신규 EP11~20 MP3 미리듣기 상태](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/index.html#tts-mp3-player) · [🔊 우분투 신규 10편 Qwen3 일괄 생성 방법](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/tts/README_NEW10.md)
 
 ## 🆕 신규 EP11~20 결과판
 

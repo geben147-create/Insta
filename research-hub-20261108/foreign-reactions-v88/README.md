@@ -2,6 +2,20 @@
 
 **2026-11-16 | 기존 V8 10편과 중복 없는 신규 10개 주제.** 한국어 원고 및 편집 기획 초안 10편이 저장되어 있습니다. 실제 영상 렌더링·TTS 실측·영상 사용권 검수는 아직 미진행입니다.
 
+## 🎧 EP01~03 MP3 한꺼번에 합성하고 대시보드에서 듣기
+
+- [**MP3 재생판 바로가기**](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/index.html#tts-mp3-player): 1·2·3편을 대시보드에서 바로 재생 (실제 파일 게시 후 활성화).
+- [**우분투 Qwen3-TTS 일괄 실행 가이드**](./tts/README.md): 기존 Sohee 한국어 음성, GPU1 사용, 한 번에 3편 생성 후 GitHub 게시.
+- [**일괄 실행 스크립트**](./tts/run_batch3.sh) · [**Python 합성 본체**](./tts/batch3_qwen.py) · [**MP3 상태 목록**](./audio/manifest.json).
+
+```bash
+# Insta 저장소 최상위 디렉터리에서 실행
+bash research-hub-20261108/foreign-reactions-v88/tts/run_batch3.sh --dry-run
+bash research-hub-20261108/foreign-reactions-v88/tts/run_batch3.sh --publish
+```
+
+우분투에서 실제 음성을 합성하기 전에는 플레이어가 'MP3 미생성'으로 표시됩니다. MP3가 GitHub에 게시되고 Pages 배포가 반영되면 재생 버튼이 켜지고, 파일의 실측 분 단위 재생 시간이 표시됩니다. 작업판에서 실행 명령도 한 번에 복사할 수 있습니다.
+
 ## 1. 첫 화면
 
 - [🏆 10개 아웃라인 및 회차별 작업판](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/index.html)

@@ -1,0 +1,1030 @@
+{
+  "name": "해외반응 대본 검수판 V4.1",
+  "date": "2026-11-15",
+  "dataRule": "국내 관련 원본 자막을 근거로 사용; 한국어 SRT는 자동 번역일 수 있어 중국어 AI 자막을 대조해야 함; 자막 사실만 쓰며 원본 영상·음성 검수 및 사용허락은 별도",
+  "benchmark": {
+    "title": "외국인 등산객 73만 명 몰린 한국 산",
+    "url": "https://www.youtube.com/watch?v=tuc8aXMjXao",
+    "role": "전개 구조 참고만; 본편의 등산객 발언이나 국립공원 수치는 가져오지 않음",
+    "structure": "한국 호평 선공개→의문→해외 1차 체험→생활 디테일→다른 반응→감정 회수"
+  },
+  "inventory": {
+    "videos": 99,
+    "pairs": 69,
+    "korean": 33,
+    "japan": 36,
+    "source": "reactions-downloads/downloads.tsv",
+    "checked": "2026-11-15"
+  },
+  "sources": {
+    "BV1Ty421z7X6": {
+      "id": "BV1Ty421z7X6",
+      "title": "[음식-라면] 한국인도 라면을 좋아해요! 24시간 셀프 라면 가게 체험!",
+      "name": "中国BOY超级大猩猩",
+      "date": "2024-02-24",
+      "views": 7556198,
+      "comments": 2988,
+      "url": "https://www.bilibili.com/video/BV1Ty421z7X6",
+      "cues": 312,
+      "local": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/음식/라면/2024-02-24_BV1Ty421z7X6_[음식-라면]韩国人也太爱吃方便面了吧！24小时营业的自助泡面店体验！/",
+      "rights": "UNCONFIRMED",
+      "country": "한국"
+    },
+    "BV1A8411z7mx": {
+      "id": "BV1A8411z7mx",
+      "title": "[음식-편의점] 한국 편의점에서 100위안으로 얼마나 맛있는 음식을 살 수 있는지 도전해 보세요. 내가 이익을 냈다고 생각하세요?",
+      "name": "-橘子公主",
+      "date": "2023-08-27",
+      "views": 460410,
+      "comments": 275,
+      "url": "https://www.bilibili.com/video/BV1A8411z7mx",
+      "cues": 222,
+      "local": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/음식/편의점/2023-08-27_BV1A8411z7mx_[음식-편의점]挑战100元在韩国便利店能买多少好吃的？大家觉得我赚了吗/",
+      "rights": "UNCONFIRMED",
+      "country": "한국"
+    },
+    "BV1vnTF65EtL": {
+      "id": "BV1vnTF65EtL",
+      "title": "[음식-편의점] 한국 편의점에서 100위안으로 무엇을 살 수 있나요? 어서 구경해 보세요, 잘생긴 남자!",
+      "name": "记录生活的蛋黄派",
+      "date": "2026-07-03",
+      "views": 1305485,
+      "comments": 545,
+      "url": "https://www.bilibili.com/video/BV1vnTF65EtL",
+      "cues": 249,
+      "local": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/음식/편의점/2026-07-03_BV1vnTF65EtL_[음식-편의점]100元人民币在韩国便利店都能买到什么？帅小伙来看看！/",
+      "rights": "UNCONFIRMED",
+      "country": "한국"
+    },
+    "BV1D5HDzhEQN": {
+      "id": "BV1D5HDzhEQN",
+      "title": "[음식-편의점] 7가지 편의점 별미를 한 번에 맛보세요! 김치치즈국수 너무 맛있어요!",
+      "name": "JJAEMI糖果罐",
+      "date": "2025-09-11",
+      "views": 1760760,
+      "comments": 20,
+      "url": "https://www.bilibili.com/video/BV1D5HDzhEQN",
+      "cues": 38,
+      "local": "(미전송)",
+      "rights": "UNCONFIRMED",
+      "country": "한국"
+    },
+    "BV1wvvNztErz": {
+      "id": "BV1wvvNztErz",
+      "title": "[스포츠-야구] 한국의 모든 지역에는 응원할 야구팀이 있습니다! 최근 부산팀이 아주 잘했다는 소식을 듣고 드디어 야구 관람권을 구매했습니다 \\(^ヮ^)/ 우연히 밍진씨도 부산에 경기하러 왔는데, 그녀에게 부산팀의 에너지를 보여주고 싶었습니다!",
+      "name": "基本祐利_",
+      "date": "2025-08-26",
+      "views": 123381,
+      "comments": 180,
+      "url": "https://www.bilibili.com/video/BV1wvvNztErz",
+      "cues": 43,
+      "local": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/스포츠/야구/2025-08-26_BV1wvvNztErz_[스포츠-야구]韩国每个地区都有自己加油的棒球队！听说最近釜山队做的很好，好不容易才买/",
+      "rights": "UNCONFIRMED",
+      "country": "한국"
+    },
+    "BV1spM86EE4j": {
+      "id": "BV1spM86EE4j",
+      "title": "[스포츠-야구] 진지한 스포츠 의식인 야구 킥오프가 아이돌들의 대규모 라이브 이벤트로 변했다 #赵美yan #lee瑞 #baseball #kpop",
+      "name": "Vimmi桃叽",
+      "date": "2026-07-07",
+      "views": 312499,
+      "comments": 2,
+      "url": "https://www.bilibili.com/video/BV1spM86EE4j",
+      "cues": 70,
+      "local": "(미전송)",
+      "rights": "UNCONFIRMED",
+      "country": "한국"
+    },
+    "BV1PB5u6uERg": {
+      "id": "BV1PB5u6uERg",
+      "title": "[문화-문화] 세 살배기 아들을 데리고 한국에 가서 머리 파마를 했는데 친어머니한테 혼났어요... 중국과 한국의 문화적 차이가 너무 현실적이에요!",
+      "name": "糖小幽Umi",
+      "date": "2026-05-12",
+      "views": 1354159,
+      "comments": 533,
+      "url": "https://www.bilibili.com/video/BV1PB5u6uERg",
+      "cues": 140,
+      "local": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/문화/문화/2026-05-12_BV1PB5u6uERg_[문화-문화]带三岁娃在韩国烫头，被亲妈大骂…中韩文化差异太真实！/",
+      "rights": "UNCONFIRMED",
+      "country": "한국"
+    },
+    "BV1yR4y1a7PS": {
+      "id": "BV1yR4y1a7PS",
+      "title": "[뷰티-뷰티] 대한민국 청담동 아줌마와 똑같은 피부관리를 경험해보세요!! 한국의 메디컬 뷰티는 그야말로 천국입니다. 최고의 서비스와 비즈니스 가격, 매우 만족스럽고 행복합니다!!",
+      "name": "首尔小肥羊y",
+      "date": "2023-01-23",
+      "views": 149864,
+      "comments": 71,
+      "url": "https://www.bilibili.com/video/BV1yR4y1a7PS",
+      "cues": 64,
+      "local": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/뷰티/뷰티/2023-01-23_BV1yR4y1a7PS_[뷰티-뷰티]在韩国体验清潭洞贵妇同款皮肤管理!! 韩国医美果然是天堂 顶级服务商务/",
+      "rights": "UNCONFIRMED",
+      "country": "한국"
+    },
+    "BV1cVGy6xEFz": {
+      "id": "BV1cVGy6xEFz",
+      "title": "[교육-유학] 오늘은 한국 원화 가치가 하락한 한국 상품 가격을 직접 경험해 보도록 하겠습니다!",
+      "name": "愚蠢小刘",
+      "date": "2026-05-27",
+      "views": 2036703,
+      "comments": 175,
+      "url": "https://www.bilibili.com/video/BV1cVGy6xEFz",
+      "cues": 237,
+      "local": "(미전송)",
+      "rights": "UNCONFIRMED",
+      "country": "한국"
+    },
+    "BV1et4y1o7xQ": {
+      "id": "BV1et4y1o7xQ",
+      "title": "[교육-교육] 그 한국 남자가 서울에서 52만원에 어떤 집을 빌릴 수 있을까? 루파하우스에서 알고보니 중국 동북왕자님 #草草哥 #roofang #외국인학생",
+      "name": "在澳洲的卢卡斯",
+      "date": "2024-01-12",
+      "views": 1884390,
+      "comments": 927,
+      "url": "https://www.bilibili.com/video/BV1et4y1o7xQ",
+      "cues": 86,
+      "local": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/교육/교육/2024-01-12_BV1et4y1o7xQ_[교육-교육]韩国吃草料那哥们52万韩元在首尔能租到什么样的房？原来是屋塔房的东北世/",
+      "rights": "UNCONFIRMED",
+      "country": "한국"
+    }
+  },
+  "outlines": [
+    {
+      "rank": 1,
+      "id": "O01",
+      "name": "직원이 없는 24시간 한국 라면집",
+      "status": "제작",
+      "priority": 95,
+      "topic": "음식·무인점포",
+      "sourceIds": [
+        "BV1Ty421z7X6"
+      ],
+      "structure": "체험 발견 + 질문 사다리",
+      "hook": "냄새에 감탄 → 직원 없음 → 손님은 많음",
+      "progress": "서로 라면 고르기 → 한글 장벽 → 직접 조리의 귀찮음 → 왜 밖에서 먹을까",
+      "emotion": "호감 4 → 호기심 5 → 난관 3 → 웃음 4 → 자긍심 4",
+      "why": "조회·312컷·실제 질문/반문이 모두 있음; 단일 원본으로도 10분 이야기 설계 가능",
+      "risk": "음식의 긍정·부정 반응 공존, 발언 단정 주의",
+      "ep": "ep01.html"
+    },
+    {
+      "rank": 2,
+      "id": "O02",
+      "name": "한국 편의점 100위안, 두 여행객의 다른 결론",
+      "status": "제작",
+      "priority": 93,
+      "topic": "음식·가성비",
+      "sourceIds": [
+        "BV1A8411z7mx",
+        "BV1vnTF65EtL"
+      ],
+      "structure": "반응 모자이크 + 비교 판정",
+      "hook": "정말 편리하다 → 100위안 예산 → 물가·맛의 반전",
+      "progress": "두 매대 → 쇼핑 기준 → 예산 압박 → 데우기 → 맛의 호불호 → 도전 결과",
+      "emotion": "호감 4 → 기대 4 → 불안 3 → 맛 반전 5 → 공감 4",
+      "why": "두 원본에 합계 471컷 자막, 명확한 목적(100위안)과 실제 칭찬·불만이 있음",
+      "risk": "다른 시점/가게의 경험이므로 공정한 실험처럼 포장 금지",
+      "ep": "ep02.html"
+    },
+    {
+      "rank": 3,
+      "id": "O03",
+      "name": "한국 야구장의 응원은 왜 축제처럼 보일까",
+      "status": "후보",
+      "priority": 78,
+      "topic": "스포츠·K팝",
+      "sourceIds": [
+        "BV1wvvNztErz",
+        "BV1spM86EE4j"
+      ],
+      "structure": "체험 발견 + 다중 사례 퍼즐",
+      "hook": "경기 보러 갔다 → 응원과 공연에 눈길",
+      "progress": "첫 관람 → 구단 응원 → 관객 반응 → 아이돌 시구·공연 → 경기와 축제의 경계",
+      "emotion": "호감 3 → 놀람 4 → 즐거움 5 → 문화적 자부심 4",
+      "why": "야구 현장 43컷과 공연 해설 70컷; 소리·현장 영상 활용도 높음",
+      "risk": "두 영상 시점·행사가 다름, 하나의 현장처럼 붙이지 않기",
+      "ep": null
+    },
+    {
+      "rank": 4,
+      "id": "O04",
+      "name": "아이의 한국 미용실 첫 펌, 가족의 반응까지",
+      "status": "후보",
+      "priority": 73,
+      "topic": "가족·뷰티",
+      "sourceIds": [
+        "BV1PB5u6uERg",
+        "BV1yR4y1a7PS"
+      ],
+      "structure": "인물 감정 + 체험 발견",
+      "hook": "아이의 펌 → 가족의 예상 밖 반응",
+      "progress": "방문 → 시술 과정 → 아이 반응 → 최종 가격 → 가족의 해석",
+      "emotion": "귀여움 4 → 긴장 3 → 웃음 4 → 따뜻함 4",
+      "why": "140컷 원본에 행동과 가격 언급, 시술 장면이라는 선명한 시각 소재",
+      "risk": "아이의 사생활·초상권 및 시술 효과에 대한 과장 주의",
+      "ep": null
+    },
+    {
+      "rank": 5,
+      "id": "O05",
+      "name": "서울에서 살아보니 물가가 다르게 보인다",
+      "status": "후보",
+      "priority": 69,
+      "topic": "생활·비용",
+      "sourceIds": [
+        "BV1cVGy6xEFz",
+        "BV1et4y1o7xQ"
+      ],
+      "structure": "질문 사다리 + 체험 발견",
+      "hook": "한국 상품 가격을 직접 봤더니 → 월세방까지 이어진 고민",
+      "progress": "장바구니 → 가격 체감 → 집 구경 → 생활 동선 → 개인적 결론",
+      "emotion": "호기심 3 → 현실 공감 4 → 고민 4 → 여운 3",
+      "why": "237컷 가격 체험과 86컷 주거 체험, 현실형 공감 소재",
+      "risk": "환율·월세 기준일·매물 조건 검증 필요, '한국이 무조건 싸다' 금지",
+      "ep": null
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ep01",
+      "slug": "ramen",
+      "title": "한국 24시간 무인 라면가게, 중국인 여행객이 끝까지 묻던 질문",
+      "short": "24시간 무인 라면가게",
+      "subtitle": "냄새 좋다는 첫 감탄 → 무인 운영의 반전 → 친구끼리 골라주는 라면 → 집에서 먹는 것과 무엇이 다른가",
+      "mainQuestion": "집에서 끓이면 더 빠른 라면을 왜 굳이 가게에서 먹을까?",
+      "sourceIds": [
+        "BV1Ty421z7X6"
+      ],
+      "hooks": [
+        "라면 냄새를 맡자마자 중국인 여행객의 표정이 달라졌습니다. '이 가게, 진짜 냄새가 좋다'는 말이 먼저 나왔죠. 그런데 안에 들어가 보니 직원이 한 명도 없습니다. 손님이 직접 라면을 고르고 끓여 먹는 24시간 가게였거든요. 이 여행객은 식사를 마칠 즈음, 뜻밖의 질문을 던집니다.",
+        "직원도 없는 라면 가게에 손님은 왜 이렇게 많을까요? 중국인 세 사람이 한국의 24시간 라면 가게를 찾아갔습니다. 한 명은 냄새에 감탄했고, 다른 한 명은 매운 라면을 걱정했죠. 식사를 끝낸 뒤엔 '집에서 끓이면 더 빠르지 않나?'라는 이야기가 나옵니다. 무엇이 그들을 이곳으로 불렀을까요?",
+        "한국에선 라면을 봉지째 사 먹는 대신, 밤에도 문을 여는 무인 라면 가게에서 직접 끓여 먹는 사람들이 있습니다. 중국인 여행객들이 처음엔 신기해했지만, 막상 조리하면서는 꽤 귀찮다는 말도 했죠. 반응이 달라진 이유는 라면 맛만으로는 설명되지 않았습니다."
+      ],
+      "beats": [
+        {
+          "label": "향기에 먼저 반응했다",
+          "type": "질문",
+          "emotion": 4,
+          "scene": "가게 입구·김 오르는 라면·첫 냄새 반응",
+          "q": "무인 라면집에서 가장 먼저 마음을 끈 건 뭘까?",
+          "a": "음식 냄새와 실제 손님이 있는 현장",
+          "next": "그런데 직원은 왜 없을까?",
+          "text": "한국의 작은 라면 가게에 들어선 중국인 여행객이 먼저 반응한 건 가격도, 유명한 브랜드도 아니었습니다. 가게 안에 퍼진 음식 냄새였죠. 문 앞에서 보던 모습과 안쪽 풍경도 달랐습니다. 생각보다 사람이 많았거든요. 그런데 이상합니다. 24시간 영업한다는 이 가게엔 손님을 맞는 직원이 없습니다. 라면을 꺼내는 사람도, 물을 붓는 사람도, 먹고 치우는 사람도 모두 손님입니다. 익숙한 라면 한 봉지가 여행객들에겐 낯선 체험이 된 순간이었습니다. 그들이 가장 먼저 확인한 건 특별한 메뉴가 아니라 가게를 이용하는 방식이었습니다.",
+          "clips": [
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 24,
+              "from": "00:00:47.360",
+              "to": "00:00:49.430",
+              "zh": "这家店其实好香啊",
+              "ko": "이 가게는 실제로 냄새가 정말 좋아요.",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            },
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 4,
+              "from": "00:00:14.610",
+              "to": "00:00:17.610",
+              "zh": "这个店呢就是没有任何的工作人员",
+              "ko": "이 가게에는 직원이 없습니다",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "아무도 일하지 않는데 북적인다",
+          "type": "전개",
+          "emotion": 3,
+          "scene": "무인매장 안내 문구·라면 선반·실제 손님(권리 확보 후)",
+          "q": "직원이 없는데 운영은 어떻게 이루어질까?",
+          "a": "손님이 직접 구매·조리·식사",
+          "next": "어떤 라면을 고르느냐가 다음 사건이 된다",
+          "text": "이 여행객은 영상 첫머리에서 가게의 규칙을 아주 간단하게 설명합니다. 들어가서 라면을 사고, 직접 끓이고, 그 자리에서 먹는다는 겁니다. 우리가 알던 분식집과는 역할이 다르죠. 사장님이 끓여 주는 한 그릇이 아니라 손님이 마지막 조리 과정을 맡는 한 그릇입니다. 이 차이를 알고 나니 처음에 사람이 많아서 놀랐다는 말이 새롭게 들립니다. 무인이라고 해서 텅 빈 공간은 아니었습니다. 사람들은 각자 고른 라면 앞에서 시간을 보내고 있었고, 세 여행객도 그 무리에 합류했습니다. 이제 이들은 그냥 라면을 먹지 않기로 합니다. 서로에게 먹일 라면을 골라주자는 재미있는 제안을 꺼냅니다.",
+          "clips": [
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 3,
+              "from": "00:00:08.999",
+              "to": "00:00:14.610",
+              "zh": "我找了一家24小时营业的自助泡面店",
+              "ko": "24시간 셀프 라면집을 찾았어요",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            },
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 20,
+              "from": "00:00:41.559",
+              "to": "00:00:42.560",
+              "zh": "蛮多人的哦",
+              "ko": "사람이 꽤 많아요",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "서로의 라면을 고르자 분위기가 바뀌었다",
+          "type": "갈등",
+          "emotion": 4,
+          "scene": "진열대에서 서로 제품을 가리키는 손·매운맛 포장 근접촬영",
+          "q": "친구가 골라준 라면을 정말 먹을 수 있을까?",
+          "a": "고르는 사람이 바뀌며 매운맛 실랑이가 시작",
+          "next": "문제는 이름을 읽는 것부터 쉽지 않다",
+          "text": "세 사람은 스스로 먹고 싶은 라면을 고르는 대신 다른 친구의 한 끼를 정해 주기로 합니다. 그러자 평범한 쇼핑이 작은 게임이 됐습니다. 특히 한 사람이 매운 음식을 못 먹는다고 하자 다른 친구는 오히려 가장 매운 것을 골라주겠다고 장난칩니다. 여기서 라면은 단순한 상품이 아닙니다. 상대방 취향을 얼마나 아는지, 어디까지 놀려도 되는지 보여 주는 친구들 사이의 놀이가 됩니다. 한국 라면을 소개하는 긴 설명보다, 매운맛을 두고 실랑이하는 장면 하나가 이 사람들의 관계를 더 또렷하게 보여 줍니다. 그런데 정작 고르려니 예상치 못한 난관이 기다리고 있었습니다. 포장지에 적힌 한글이었습니다.",
+          "clips": [
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 26,
+              "from": "00:00:50.870",
+              "to": "00:00:53.930",
+              "zh": "我们每个人给对方选",
+              "ko": "우리 각자는 서로를 위해 선택합니다",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            },
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 32,
+              "from": "00:01:00.850",
+              "to": "00:01:02.290",
+              "zh": "那我肯定给你选最辣的呀",
+              "ko": "그럼 나는 제일 매운 걸 골라줄게.",
+              "wasCorrected": true,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            },
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 33,
+              "from": "00:01:02.290",
+              "to": "00:01:03.250",
+              "zh": "我不吃辣",
+              "ko": "나는 매운 음식을 먹지 않는다.",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "너구리 한 봉지 앞에서 생긴 문화차이",
+          "type": "반전",
+          "emotion": 3,
+          "scene": "한글 제품명 클로즈업·원문 자막과 번역 그래픽",
+          "q": "익숙한 상품 이름이 외국인에겐 어떻게 보일까?",
+          "a": "언어 장벽이 사소한 구매를 사건으로 바꿈",
+          "next": "결국 세 그릇을 골랐지만 요리 과정은?",
+          "text": "한국 사람에게 너구리는 라면 이름입니다. 하지만 이 여행객들에겐 제품을 읽는 과정부터 작은 수수께끼였습니다. 한글 글자 모양을 보며 바닥에 핀이 흩어진 것 같다고 농담하고, 어떤 라면을 집었는지 서로 확인하느라 한동안 진열대 앞을 떠나지 못합니다. 우스운 장면이지만 그 안에는 여행의 묘미가 있습니다. 우리에겐 아무 설명도 필요 없는 상표와 포장지가 다른 나라 사람에겐 새로운 풍경이 된다는 점입니다. 결국 세 사람이 먹을 라면을 찾아냈습니다. 고르는 일은 끝났지만, 이제부터는 더 현실적인 문제가 시작됩니다. 봉지를 뜯고 물과 양념을 넣어 직접 끓여야 하기 때문입니다.",
+          "clips": [
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 121,
+              "from": "00:03:39.380",
+              "to": "00:03:42.320",
+              "zh": "你这个韩文就像一堆别针洒在了地上",
+              "ko": "네가 보는 한글은 바닥에 핀이 흩어진 것 같아.",
+              "wasCorrected": true,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            },
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 126,
+              "from": "00:03:53.519",
+              "to": "00:03:56.699",
+              "zh": "OKOK3个人的拉面找到了",
+              "ko": "알았어 알았어 3인분 라면을 찾았어",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "편해야 할 가게에서 왜 더 번거로웠을까",
+          "type": "위기",
+          "emotion": 2,
+          "scene": "조리대·양념 봉지·계량 컵·조리 순서 모션그래픽",
+          "q": "직접 만드는 과정은 과연 편리했을까?",
+          "a": "낯선 조리 순서 때문에 번거롭다는 솔직한 반응",
+          "next": "그럼에도 맛은 어땠을까?",
+          "text": "라면을 고를 때까지만 해도 게임이던 식사는 조리대 앞에서 조금 진지해집니다. 양념은 먼저 넣는지, 물은 얼마나 부어야 하는지 서로 묻습니다. 한국에 사는 사람에겐 간단한 과정이지만 처음 이용하는 여행객들에겐 익숙하지 않습니다. 결국 한 사람의 입에서 집에서 끓여 먹는 것보다 더 번거로운 것 같다는 말이 나옵니다. 이 반응을 지우면 영상이 훨씬 단순해지겠죠. 하지만 그러면 진짜 체험담이 아닙니다. 무인 가게의 장점을 보여 주려면, 실제로 손님이 감수해야 할 수고도 함께 보여 줘야 합니다. 이제 중요한 건 그 수고 끝에 나온 라면이 어떤 반응을 얻었느냐입니다.",
+          "clips": [
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 135,
+              "from": "00:04:13.470",
+              "to": "00:04:15.030",
+              "zh": "先放调料是吧",
+              "ko": "양념을 먼저 넣으시죠?",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            },
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 156,
+              "from": "00:04:51.909",
+              "to": "00:04:54.369",
+              "zh": "感觉在这里吃比在家里吃还要麻烦",
+              "ko": "집에서 먹는 것보다 여기서 먹는 것이 더 귀찮은 것 같아요.",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "한 그릇의 맛은 사람마다 달랐다",
+          "type": "후반 보상",
+          "emotion": 4,
+          "scene": "완성된 라면 표면·면발·입에 넣는 손·반응 표정",
+          "q": "어렵게 만든 라면은 맛있었을까?",
+          "a": "누군가는 괜찮다고 하고, 누군가는 맵다고 말함",
+          "next": "그런데 이 공간 자체가 더 큰 질문을 남긴다",
+          "text": "마침내 각자 앞에 한 그릇씩 놓입니다. 매운 라면을 받은 사람은 맵다고 반응하고, 다른 사람은 자신이 고른 라면이 괜찮다고 말합니다. 이곳에 왔다고 모두가 같은 맛을 좋아하는 건 아닙니다. 어떤 사람에겐 익숙한 양념이 다른 사람에겐 새로운 자극이죠. 그래서 이 장면을 일방적인 찬양으로 편집할 필요가 없습니다. 한 그릇을 맛보며 서로에게 먹어 보라고 권하는 모습만으로도 충분히 재미있습니다. 세 사람이 처음에 시작했던 라면 고르기 게임이 식탁에서 다시 이어지거든요. 그런데 배를 채울 만큼 채우고 나자 여행객의 관심이 맛에서 가게 자체로 옮겨갑니다. 왜 이런 곳까지 찾아와 라면을 먹는지 궁금해진 겁니다.",
+          "clips": [
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 163,
+              "from": "00:05:06.600",
+              "to": "00:05:07.440",
+              "zh": "我吃的是辣",
+              "ko": "내가 먹는 것은 매워요",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            },
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 178,
+              "from": "00:05:36.700",
+              "to": "00:05:38.890",
+              "zh": "我这个小浣熊还可以",
+              "ko": "내 작은 너구리는 괜찮아",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "집에서 먹으면 더 빠르지 않나",
+          "type": "질문",
+          "emotion": 4,
+          "scene": "왼쪽 가정의 라면 냄비·오른쪽 무인 라면집 이중 화면",
+          "q": "집보다 느리고 번거로워도 왜 밖에서 먹을까?",
+          "a": "원본에는 질문이 있고, 답은 장면을 통해 조심스럽게 해석",
+          "next": "그 답의 일부는 손님에게 있다",
+          "text": "영상 후반에 여행객은 아주 날카로운 질문을 던집니다. 집에서 끓여 먹는 편이 더 빠르지 않겠느냐는 겁니다. 그리고 한국 사람들은 왜 굳이 밖에서 이런 라면을 먹느냐고 묻습니다. 이 질문이야말로 앞에서 본 장면들을 하나로 묶습니다. 비용만 따지면, 조리 시간만 따지면, 굳이 이런 가게를 찾을 이유가 없어 보일 수도 있습니다. 하지만 세 사람은 이미 그곳에서 꽤 오랫동안 웃고 떠들고, 서로의 라면을 골라주고, 낯선 조리법을 함께 익혔습니다. 영상에 없는 정답을 외국인의 입에 넣을 수는 없습니다. 다만 그들이 보여 준 행동만큼은 분명합니다. 라면을 먹는 과정 자체를 함께 즐겼다는 사실입니다.",
+          "clips": [
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 238,
+              "from": "00:07:51.540",
+              "to": "00:07:54.220",
+              "zh": "那你在家里煮面是不是会更快",
+              "ko": "집에서 국수를 끓이면 더 빨라질까요?",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            },
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 243,
+              "from": "00:08:00.960",
+              "to": "00:08:05.100",
+              "zh": "为什么韩国人会选择到外面来吃这个泡面呢",
+              "ko": "한국인들은 왜 이 라면을 밖에서 먹는 걸까요?",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "관광객도 찾아온다고 느낀 이유",
+          "type": "근거",
+          "emotion": 3,
+          "scene": "오가는 손님·테이블·무인매장 운영 동선 표시",
+          "q": "이 가게에 오는 사람들은 누구일까?",
+          "a": "원본 화자는 관광객이 많다고 관찰했지만 통계는 없음",
+          "next": "그럼 평가는 맛·가격·편리함 중 무엇으로 할까?",
+          "text": "여행객 가운데 한 사람은 이곳에 관광객도 많다는 인상을 받습니다. 또 가게가 여전히 무인 방식으로 운영된다는 점을 다시 확인합니다. 영상 속 특정 가게에 관한 관찰이니, 이 말만으로 한국 전체의 무인 매장 이용객 비율을 계산할 수는 없습니다. 그런 숫자는 애초에 필요하지도 않습니다. 문을 열고 들어왔을 때 들렸던 웅성거림, 앞에서 제품을 고르는 친구들, 자신이 만든 음식을 들고 앉는 모습이 이미 이 장면을 설명합니다. 식당이 요리해 준 음식을 받는 경험과는 다릅니다. 이 공간에선 손님이 동시에 선택하고, 만들고, 먹는 사람입니다. 그 점이 어쩌면 낯선 여행객의 기억에 남은 부분일지 모릅니다.",
+          "clips": [
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 190,
+              "from": "00:06:13.770",
+              "to": "00:06:15.960",
+              "zh": "而且我发现这里游客很多",
+              "ko": "그리고 여기에 관광객이 많다는 것을 알았습니다",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            },
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 283,
+              "from": "00:09:12.630",
+              "to": "00:09:14.190",
+              "zh": "还是无人售货的",
+              "ko": "아직도 파는 사람이 없네",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "한 끼의 가격보다 남은 것",
+          "type": "자긍심",
+          "emotion": 4,
+          "scene": "라면 3그릇 정리·웃는 친구들·운영 방식 3단 그래픽",
+          "q": "이 체험의 장점은 무엇으로 남았을까?",
+          "a": "맛의 절대 평가보다 독특한 이용 경험",
+          "next": "처음의 향기와 마지막 질문을 회수",
+          "text": "결국 이 영상이 재미있는 건 외국인에게 한국 라면이 언제나 최고였다고 말하게 만들지 않기 때문입니다. 냄새가 좋다는 감탄도 있었고, 매운맛을 두고 주고받은 장난도 있었고, 직접 요리하는 일이 귀찮다는 솔직한 말도 있었습니다. 그런 반응들이 함께 있어서 여행기가 살아납니다. 우리가 아무렇지 않게 지나치는 작은 가게 하나가 누군가에겐 긴 시간을 이야기할 만한 장소가 됩니다. 한국의 특별함을 거창한 수식어로 대신할 필요가 없습니다. 이들이 직접 보여 준 한 끼의 풍경을 따라가면 됩니다. 그리고 마지막으로 가장 중요한 질문이 남습니다. 단지 빨리 먹고 나오는 곳이 아니라면, 사람들은 여기서 무엇을 함께 경험하고 싶었던 걸까요?",
+          "clips": [
+            {
+              "id": "BV1Ty421z7X6",
+              "n": 20,
+              "from": "00:00:41.559",
+              "to": "00:00:42.560",
+              "zh": "蛮多人的哦",
+              "ko": "사람이 꽤 많아요",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1Ty421z7X6",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1Ty421z7X6.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "첫 장면으로 돌아오다",
+          "type": "회수",
+          "emotion": 5,
+          "scene": "처음 김 오르는 라면 컷 콜백·조용한 테이블·댓글 유도",
+          "q": "가게의 진짜 매력은 라면일까, 경험일까?",
+          "a": "친구와 함께 만든 기억이라는 해석, 시청자 선택으로 마감",
+          "next": "시청자 질문으로 완결",
+          "text": "처음 문을 열었을 때 여행객이 먼저 알아본 건 고소한 라면 냄새였습니다. 그 뒤로 무인매장의 구조를 살펴보고, 서로 먹일 라면을 고르고, 조리대 앞에서 헤매다가 함께 식탁에 앉았습니다. 마지막에 남은 질문은 집에서 먹는 것과 무엇이 다르냐는 것이었죠. 제 생각엔 그 답의 일부가 이미 영상 속에 나와 있습니다. 집에서 혼자 끓이면 더 빠를지 몰라도, 그날 세 사람은 여기서 서로의 한 끼를 만들어 줬습니다. 평범한 라면이 여행의 한 장면이 된 겁니다. 여러분은 어떠세요? 라면을 빠르고 편하게 먹는 게 더 좋으신가요, 아니면 이런 가게에서 친구와 직접 고르고 끓여 먹는 체험이 더 끌리시나요? 떠오르는 한국의 라면집이 있다면 댓글로 알려 주세요.",
+          "clips": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "BV1Ty421z7X6",
+          "title": "[음식-라면] 한국인도 라면을 좋아해요! 24시간 셀프 라면 가게 체험!",
+          "name": "中国BOY超级大猩猩",
+          "date": "2024-02-24",
+          "views": 7556198,
+          "comments": 2988,
+          "url": "https://www.bilibili.com/video/BV1Ty421z7X6",
+          "cues": 312,
+          "local": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/음식/라면/2024-02-24_BV1Ty421z7X6_[음식-라면]韩国人也太爱吃方便面了吧！24小时营业的自助泡面店体验！/",
+          "rights": "UNCONFIRMED",
+          "country": "한국"
+        }
+      ],
+      "characterCount": 2484,
+      "estimatedMinutes": 8.7
+    },
+    {
+      "id": "ep02",
+      "slug": "convenience",
+      "title": "한국 편의점에서 100위안 쓰기, 중국인 두 팀의 결론이 달랐다",
+      "short": "편의점 100위안 대결",
+      "subtitle": "편리함에 감탄 → 매대 선택 → 예산 압박 → 떡볶이와 라면 시식 → 다른 평가 → 다시 한국의 일상",
+      "mainQuestion": "비슷한 예산을 들고 한국 편의점에 가면 사람들은 무엇을 기억할까?",
+      "sourceIds": [
+        "BV1A8411z7mx",
+        "BV1vnTF65EtL",
+        "BV1D5HDzhEQN"
+      ],
+      "hooks": [
+        "한국 편의점에 들어선 중국인 여행객이 먼저 한 말은 '정말 편리하다'였습니다. 그런데 100위안을 들고 음식을 고르던 중 다른 말도 나옵니다. '그래도 중국 물가가 좋다'는 거였죠. 같은 100위안으로 한국 편의점을 체험한 또 다른 여행객은 맛에 대해 전혀 다른 평가를 남겼습니다. 왜 같은 공간에서 반응이 이렇게 갈렸을까요?",
+        "중국인 여행객 두 팀이 한국 편의점에서 똑같이 100위안을 들고 먹을거리를 골랐습니다. 한 팀은 떡볶이에 치즈까지 얹으며 신이 났고, 다른 팀은 예산을 계산하다 멈칫했죠. 맛있다는 말도 있었지만 평범하다는 평가도 나왔습니다. 두 영상을 나란히 보면 한국 편의점의 진짜 재미가 보입니다.",
+        "한국 편의점의 매대 앞에서 한 중국 여행객이 당황합니다. 고를 것이 너무 많았거든요. 하지만 예산은 100위안으로 정해져 있었습니다. 다른 여행객도 비슷한 도전을 했는데 음식 맛에 대한 답은 달랐습니다. 누가 더 많이 샀느냐보다 흥미로운 건 어떤 음식을 고르고 왜 그랬느냐였습니다."
+      ],
+      "beats": [
+        {
+          "label": "첫 반응은 편리하다는 한마디",
+          "type": "질문",
+          "emotion": 4,
+          "scene": "편의점 문 열리는 장면·안내 표지·라면 진열대",
+          "q": "한국 편의점에서 외국인이 먼저 눈여겨본 것은?",
+          "a": "가까운 위치, 다양한 진열",
+          "next": "그런데 한정된 예산을 들고 고르면?",
+          "text": "한국 편의점에 들어선 중국인 여행객이 짧게 감탄합니다. 정말 편리하다는 말입니다. 다른 여행객은 라면이 이렇게 많으냐며 매대를 바라봅니다. 여기까지만 보면 누구나 예상할 만한 장면입니다. 하지만 두 사람에게는 오늘의 규칙이 있습니다. 준비한 돈은 각각 100위안. 그 안에서 먹을거리를 골라야 합니다. 제품 하나를 집어 들 때마다 다음 선택이 조금 어려워집니다. 이 두 영상은 같은 날 같은 매장에서 촬영한 비교 실험이 아닙니다. 서로 다른 사람이 자기 방식으로 한국 편의점을 체험한 기록이죠. 그래서 더 재미있습니다. 매대 앞에서 무엇에 먼저 손이 가는지, 어느 순간 지갑을 걱정하는지가 사람마다 다르게 나타납니다.",
+          "clips": [
+            {
+              "id": "BV1A8411z7mx",
+              "n": 14,
+              "from": "00:00:28.700",
+              "to": "00:00:29.480",
+              "zh": "超级方便",
+              "ko": "매우 편리함",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1A8411z7mx",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ko.srt"
+            },
+            {
+              "id": "BV1vnTF65EtL",
+              "n": 4,
+              "from": "00:00:08.200",
+              "to": "00:00:09.200",
+              "zh": "这么多泡面啊",
+              "ko": "인스턴트 라면이 너무 많아서",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1vnTF65EtL",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "100위안이라는 작은 제한시간",
+          "type": "전개",
+          "emotion": 3,
+          "scene": "100위안 지폐 상징 그래픽·한국 편의점 위치·구매 바구니",
+          "q": "한정된 돈을 들고 들어가면 첫 물건은?",
+          "a": "라면과 간편식, 익숙하면서 지역 특색이 보이는 제품",
+          "next": "두 여행객의 선택 기준이 달라진다",
+          "text": "첫 번째 여행객은 아예 한국 편의점에서 100위안으로 얼마나 맛있는 음식을 살 수 있는지 시험해 보겠다고 말합니다. 가게는 엘리베이터에서 방향만 틀면 닿을 만큼 가까웠다고 설명하죠. 안으로 들어가자 먼저 라면 코너로 향합니다. 편의점 체험을 시작하기에 가장 익숙한 선택이었을 겁니다. 그런데 물건을 하나씩 고르기 시작하자 질문이 바뀝니다. 단순히 배를 채우는 게 목적이라면 익숙한 것만 담으면 됩니다. 여행의 기억을 남기려면 새로운 맛에도 돈을 써야 하겠죠. 첫 번째 팀은 여러 간편식을 시도하기로 합니다. 이 선택이 나중에 기대를 웃도는 한 그릇과 실망스러운 한입을 모두 만들어 냅니다.",
+          "clips": [
+            {
+              "id": "BV1A8411z7mx",
+              "n": 2,
+              "from": "00:00:00.600",
+              "to": "00:00:04.800",
+              "zh": "在韩国便利店花100块钱到底能吃到什么哇",
+              "ko": "한국 편의점에서 100위안으로 무엇을 살 수 있나요?",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1A8411z7mx",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ko.srt"
+            },
+            {
+              "id": "BV1A8411z7mx",
+              "n": 19,
+              "from": "00:00:37.250",
+              "to": "00:00:39.640",
+              "zh": "先到泡面去看一下",
+              "ko": "먼저 라면부터 볼까요?",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1A8411z7mx",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "강남에서 시작된 두 번째 장바구니",
+          "type": "전개",
+          "emotion": 3,
+          "scene": "서울 강남 위치표시·매대 라면 클로즈업·제품 가격표",
+          "q": "다른 여행객은 무엇을 기준으로 골랐을까?",
+          "a": "중국에서 쉽게 못 사는 한국 특색 제품",
+          "next": "가격이 하나씩 쌓이자 예산 문제가 생긴다",
+          "text": "또 다른 여행객은 서울 강남구의 편의점을 찾았습니다. 마찬가지로 시작 예산은 100위안입니다. 이 사람은 중국에서 쉽게 구하기 어려운 물건을 사 보자고 이야기합니다. 맛도 중요하지만 여행지에서만 경험할 수 있는 상품을 우선 고르는 겁니다. 같은 편의점이라도 여행객의 머릿속엔 서로 다른 장바구니가 만들어집니다. 한 사람은 먹어 볼 수 있는 종류를 늘리고 싶고, 다른 사람은 낯선 상품 하나에 더 눈길을 줍니다. 화면에선 라면과 음료, 과자와 빵이 빠르게 지나갑니다. 시청자 입장에서는 어느 제품을 고를지 함께 고민하게 되죠. 그런데 고민을 길게 할 시간이 없습니다. 장바구니를 채울수록 남은 돈은 줄어들기 때문입니다.",
+          "clips": [
+            {
+              "id": "BV1vnTF65EtL",
+              "n": 1,
+              "from": "00:00:00.000",
+              "to": "00:00:02.640",
+              "zh": "100人民币在韩国便利店究竟能买到多少东西",
+              "ko": "한국 편의점에서 100위안으로 얼마를 살 수 있나요?",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1vnTF65EtL",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ko.srt"
+            },
+            {
+              "id": "BV1vnTF65EtL",
+              "n": 17,
+              "from": "00:00:21.780",
+              "to": "00:00:24.880",
+              "zh": "就买一点他这边特色的就是国内买不到的",
+              "ko": "중국에서는 구할 수 없는 특산품을 구입해 보세요.",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1vnTF65EtL",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "가격표 앞에서 생긴 계산",
+          "type": "갈등",
+          "emotion": 3,
+          "scene": "실제 영상 가격표·계산기에 숫자 누적·선택 취소 아이콘",
+          "q": "어느 순간 예산 압박을 느꼈을까?",
+          "a": "가격을 말하고, 세트·개수를 고민하다가 선택을 바꿈",
+          "next": "예산을 줄여도 맛의 재미는 남을까?",
+          "text": "강남의 여행객은 한 제품 가격을 1,250원이라고 읽어 줍니다. 가격이 나온 순간부터 이 영상은 장보기 게임이 됩니다. 100위안으로 이것도 먹고 저것도 먹으려면 한 가지에 너무 많이 쓸 수 없거든요. 다른 영상에선 세 개를 사지 않으면 오히려 손해를 보는 것 같다는 말도 나옵니다. 묶음 상품 앞에서 흔히 겪는 마음입니다. 더 사면 이득 같고, 그렇다고 모두 먹을 수 있을지는 또 다른 문제죠. 이때 제작 영상에는 계산을 돕는 작은 그래픽만 얹으면 됩니다. 원본에서 확인되지 않은 환율이나 전체 구매액을 새로 만들어 넣을 필요가 없습니다. 중요한 건 여행객이 실제로 집어 든 물건과 잠깐 멈춰 선 손의 움직임입니다.",
+          "clips": [
+            {
+              "id": "BV1vnTF65EtL",
+              "n": 10,
+              "from": "00:00:13.600",
+              "to": "00:00:16.560",
+              "zh": "他这里的这种桶装辛拉面是1250韩元",
+              "ko": "여기 양동이 신라면은 1,250원이에요",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1vnTF65EtL",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ko.srt"
+            },
+            {
+              "id": "BV1A8411z7mx",
+              "n": 29,
+              "from": "00:01:00.100",
+              "to": "00:01:01.600",
+              "zh": "感觉不买三个就亏了",
+              "ko": "3개를 사지 않으면 돈을 잃을 것 같은 느낌이 듭니다.",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1A8411z7mx",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "장바구니에 담긴 건 익숙함과 새로움",
+          "type": "질문",
+          "emotion": 3,
+          "scene": "중국에서 흔치 않은 제품·음료·행사 상품의 교차 컷",
+          "q": "특색을 고르면 만족도도 높아질까?",
+          "a": "선택의 기대는 컸지만 가격과 취향은 계속 충돌",
+          "next": "따뜻하게 먹는 순간 평가가 바뀐다",
+          "text": "한 여행객은 사람들이 많이 추천한 음료를 골라 봅니다. 다른 여행객은 몇 가지 제품을 담은 뒤에도 중국의 물가가 더 마음에 든다고 솔직하게 말합니다. 이 한마디가 꼭 불평만은 아닙니다. 여행자가 새로운 곳에 가면 자기 생활과 비교하는 건 자연스러운 일이니까요. 한국의 편의점이 가깝고 고르기 편하다고 느끼면서도 가격에는 다른 생각을 가질 수 있습니다. 이런 차이를 지우고 감탄사만 남기면 두 영상의 재미가 사라집니다. 가격표에서 잠시 시선이 멈췄던 그 사람이 이제 직접 음식을 조리해 먹으려 합니다. 편의점 음식이 단순한 포장 상품을 넘어 한 끼가 되는 순간입니다. 이번엔 실제 맛이 답을 내줄 차례입니다.",
+          "clips": [
+            {
+              "id": "BV1vnTF65EtL",
+              "n": 20,
+              "from": "00:00:26.220",
+              "to": "00:00:28.180",
+              "zh": "这个饮料也很多人推荐的",
+              "ko": "이 음료도 많은 사람들이 추천하는데요",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1vnTF65EtL",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ko.srt"
+            },
+            {
+              "id": "BV1A8411z7mx",
+              "n": 45,
+              "from": "00:01:28.750",
+              "to": "00:01:30.800",
+              "zh": "还是喜欢中国的物价",
+              "ko": "그래도 중국 물가는 좋아요",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1A8411z7mx",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "전자레인지 4분 30초 뒤의 반응",
+          "type": "부분 보상",
+          "emotion": 4,
+          "scene": "전자레인지 타이머 04:30·치즈 늘어나는 손·떡볶이 근접 컷",
+          "q": "고른 음식을 데워 먹었을 때 어떤 반응일까?",
+          "a": "떡의 식감과 치즈 풍미에 긍정적 반응",
+          "next": "하지만 다른 제품에선 평가가 갈린다",
+          "text": "첫 번째 여행객은 포장 음식을 전자레인지에 넣고 4분 30초를 기다립니다. 데워 나온 음식에서는 치즈가 늘어나고, 떡을 씹은 뒤엔 부드럽고 쫄깃하다는 반응이 나옵니다. 여기서 외부 영상이 가장 빛나는 건 거창한 칭찬의 문장이 아닙니다. 포장을 열고, 치즈를 젓가락으로 들어 올리고, 첫입을 씹는 표정입니다. 시청자는 그 한입만 봐도 음식이 어느 정도 뜨겁고 쫄깃할지 짐작할 수 있습니다. 앞에서 가격표를 살피며 망설이던 사람이 이번에는 식감 이야기를 길게 합니다. 이제 비용보다 맛이 더 중요한 순간이 된 거죠. 하지만 장바구니 안의 모든 물건이 이렇게 좋은 평가를 받은 건 아니었습니다.",
+          "clips": [
+            {
+              "id": "BV1A8411z7mx",
+              "n": 77,
+              "from": "00:02:44.340",
+              "to": "00:02:49.030",
+              "zh": "放进微波炉加热四分半就可以了",
+              "ko": "전자레인지에 넣고 4분 30초만 데워주세요.",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1A8411z7mx",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ko.srt"
+            },
+            {
+              "id": "BV1A8411z7mx",
+              "n": 101,
+              "from": "00:04:22.870",
+              "to": "00:04:24.440",
+              "zh": "年糕软韧Q弹",
+              "ko": "떡이 부드럽고 탄력이 있어요",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1A8411z7mx",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "맛있다는 한 그릇, 별로라는 한입",
+          "type": "반전",
+          "emotion": 4,
+          "scene": "긍정적인 한입·고개 갸웃한 반응 비교 컷",
+          "q": "두 사람 모두 한국 음식을 칭찬했을까?",
+          "a": "한쪽은 한 그릇을 강하게 호평, 다른 쪽은 일부 제품에 불만",
+          "next": "이 상반된 평가를 어떻게 읽을까?",
+          "text": "한 여행객은 먹던 한 그릇이 정말 마음에 들 만큼 맛있다고 표현합니다. 반면 다른 영상에선 어떤 제품을 맛본 뒤 왜 이렇게 맛이 별로냐는 반응도 나옵니다. 두 사람의 말은 서로 모순되지 않습니다. 먹은 음식이 다르고, 취향도 다르고, 기대도 달랐기 때문입니다. 같은 나라의 편의점을 다녀왔다고 모두 똑같은 결론을 말할 필요는 없습니다. 한국의 음식이 자랑스럽게 보이는 순간은 오히려 구체적인 칭찬이 들릴 때입니다. 떡이 쫄깃하다는 말, 면발의 식감이 괜찮다는 말은 실제 한입에서 나왔기 때문에 힘이 있습니다. 그다음엔 마음에 들지 않았다는 반응까지 따라가야 합니다. 그래야 이 도전이 광고가 아니라 여행자의 이야기로 남습니다.",
+          "clips": [
+            {
+              "id": "BV1A8411z7mx",
+              "n": 105,
+              "from": "00:04:40.260",
+              "to": "00:04:42.120",
+              "zh": "一碗真的好吃到心里去了",
+              "ko": "이 한 그릇, 정말 마음에 들 만큼 맛있어.",
+              "wasCorrected": true,
+              "link": "https://www.bilibili.com/video/BV1A8411z7mx",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ko.srt"
+            },
+            {
+              "id": "BV1vnTF65EtL",
+              "n": 83,
+              "from": "00:01:57.180",
+              "to": "00:01:58.660",
+              "zh": "但吃起来怎么那么难吃啊",
+              "ko": "먹어 보니 왜 이렇게 맛이 별로지?",
+              "wasCorrected": true,
+              "link": "https://www.bilibili.com/video/BV1vnTF65EtL",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "서로 다른 평가가 더 오래 남는다",
+          "type": "감정 전환",
+          "emotion": 3,
+          "scene": "원본 양쪽 화면·맛 평점 대신 발언 인용 자막",
+          "q": "어떤 평가가 가장 믿을 만할까?",
+          "a": "구체적인 맛 평가를 발언자별로 분리",
+          "next": "결국 100위안이라는 목표는 달성했을까?",
+          "text": "첫 번째 영상에는 중국의 로손이나 패밀리마트에서 먹는 음식이 더 맛있다고 느낀다는 비교도 나옵니다. 반대로 두 번째 영상에선 한국의 라면을 맛본 뒤 면의 식감이 괜찮다는 평가가 들립니다. 어느 쪽의 말을 삭제할 이유도 없습니다. 이들은 한국 전체의 음식 문화를 판정하는 심사위원이 아니라, 그날 자기 돈으로 고른 음식을 먹는 여행객들입니다. 우리는 그 말을 있는 그대로 보여주면 됩니다. 다만 영상은 어떤 발언이 어느 원본에서 나왔는지 헷갈리지 않게 해야 합니다. 한쪽의 칭찬을 다른 사람의 얼굴에 얹거나, 불만을 감동으로 바꾸어 번역해서는 안 됩니다. 여기서 중요한 건 누가 이겼느냐보다 두 장바구니가 어떻게 다른 이야기로 끝나는가입니다.",
+          "clips": [
+            {
+              "id": "BV1A8411z7mx",
+              "n": 7,
+              "from": "00:00:10.440",
+              "to": "00:00:14.820",
+              "zh": "他的饭就没有我们国内的罗森全家好吃",
+              "ko": "우리나라 로손이나 패밀리마트 음식이 더 맛있는 것 같아.",
+              "wasCorrected": true,
+              "link": "https://www.bilibili.com/video/BV1A8411z7mx",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ko.srt"
+            },
+            {
+              "id": "BV1vnTF65EtL",
+              "n": 207,
+              "from": "00:05:14.400",
+              "to": "00:05:15.960",
+              "zh": "哇他这个面口感还不错",
+              "ko": "와, 이 면의 식감은 꽤 괜찮네.",
+              "wasCorrected": true,
+              "link": "https://www.bilibili.com/video/BV1vnTF65EtL",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "라면이 다시 등장한 순간",
+          "type": "전개",
+          "emotion": 3,
+          "scene": "라면 물 붓기·국물·편의점 진열대 반복 컷",
+          "q": "그래도 공통으로 눈길이 간 음식은?",
+          "a": "두 영상 모두 라면·간편식이 중요한 선택지",
+          "next": "도전 결과를 말할 수 있는 범위는?",
+          "text": "두 체험에는 공통점도 있습니다. 시작부터 끝까지 라면이 여러 번 등장한다는 겁니다. 한 여행객은 한국 라면이 예전부터 유명했다고 말하며 제품을 골랐습니다. 이후에는 몇 가지 음식에 대해 그저 평범하다는 평가도 내립니다. 그 사이엔 음료와 빵, 조리한 음식, 다양한 간식이 지나갑니다. 이 장면을 보면 편의점이 단순히 물 한 병을 급하게 사는 장소로만 등장하지 않습니다. 방문자에게는 짧은 시간 동안 새로운 맛을 시험해 보는 작은 식탁이 됩니다. 물론 두 영상은 같은 날짜의 가격 비교도 아니고, 표본을 모은 소비자 조사도 아닙니다. 우리가 따라갈 수 있는 결론은 어디까지나 두 여행객이 직접 보고 먹고 말한 내용입니다. 그런데 첫 번째 여행객은 마지막에 도전 결과를 스스로 평가합니다.",
+          "clips": [
+            {
+              "id": "BV1vnTF65EtL",
+              "n": 174,
+              "from": "00:04:21.099",
+              "to": "00:04:23.039",
+              "zh": "韩国的泡面一直都是比较出名的",
+              "ko": "한국 라면은 항상 유명했습니다.",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1vnTF65EtL",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ko.srt"
+            },
+            {
+              "id": "BV1vnTF65EtL",
+              "n": 232,
+              "from": "00:05:51.480",
+              "to": "00:05:52.040",
+              "zh": "真的很普通",
+              "ko": "정말 평범하다",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1vnTF65EtL",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1vnTF65EtL.ko.srt"
+            }
+          ]
+        },
+        {
+          "label": "100위안 도전의 결말",
+          "type": "회수",
+          "emotion": 5,
+          "scene": "영수증 또는 실제 장바구니 컷·처음 매대와 마지막 테이블 콜백",
+          "q": "각 여행객은 결국 무엇을 기억할까?",
+          "a": "한 팀은 도전 성공이라고 회고, 다른 팀은 맛의 호불호를 남김",
+          "next": "시청자 선택으로 완결",
+          "text": "첫 번째 여행객은 마지막에 자신의 100위안 도전이 성공적이었다고 돌아봅니다. 편의점 문을 열기 전엔 무엇을 얼마나 살 수 있을지 궁금했지만, 나올 때는 어떤 음식이 기억에 남는지 이야기할 수 있게 된 겁니다. 다른 여행객의 영상엔 맛있다는 말도, 평범하다는 말도 남았습니다. 우리가 이 두 이야기를 함께 보는 이유가 여기 있습니다. 한국 편의점의 매력은 다른 나라보다 무조건 낫다는 판정표에 있지 않습니다. 여행객이 직접 골라 보고, 데워 먹고, 서로 다른 맛을 발견하는 과정에 있습니다. 처음의 '정말 편리하다'는 말은 입구에서 나온 짧은 감탄이었습니다. 그 말 뒤에는 바구니를 채우고 비우는 긴 이야기가 숨어 있었죠. 여러분에게 100위안 정도의 예산이 주어진다면 한국 편의점에서 무엇부터 고르시겠어요?",
+          "clips": [
+            {
+              "id": "BV1A8411z7mx",
+              "n": 213,
+              "from": "00:09:40.680",
+              "to": "00:09:43.880",
+              "zh": "最后我们这个100元挑战应该算是很成功了吧",
+              "ko": "결국, 우리의 100위안 도전은 성공으로 간주되어야 합니다.",
+              "wasCorrected": false,
+              "link": "https://www.bilibili.com/video/BV1A8411z7mx",
+              "srt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ai-zh.srt",
+              "koSrt": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/BV1A8411z7mx.ko.srt"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "BV1A8411z7mx",
+          "title": "[음식-편의점] 한국 편의점에서 100위안으로 얼마나 맛있는 음식을 살 수 있는지 도전해 보세요. 내가 이익을 냈다고 생각하세요?",
+          "name": "-橘子公主",
+          "date": "2023-08-27",
+          "views": 460410,
+          "comments": 275,
+          "url": "https://www.bilibili.com/video/BV1A8411z7mx",
+          "cues": 222,
+          "local": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/음식/편의점/2023-08-27_BV1A8411z7mx_[음식-편의점]挑战100元在韩国便利店能买多少好吃的？大家觉得我赚了吗/",
+          "rights": "UNCONFIRMED",
+          "country": "한국"
+        },
+        {
+          "id": "BV1vnTF65EtL",
+          "title": "[음식-편의점] 한국 편의점에서 100위안으로 무엇을 살 수 있나요? 어서 구경해 보세요, 잘생긴 남자!",
+          "name": "记录生活的蛋黄派",
+          "date": "2026-07-03",
+          "views": 1305485,
+          "comments": 545,
+          "url": "https://www.bilibili.com/video/BV1vnTF65EtL",
+          "cues": 249,
+          "local": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/음식/편의점/2026-07-03_BV1vnTF65EtL_[음식-편의점]100元人民币在韩国便利店都能买到什么？帅小伙来看看！/",
+          "rights": "UNCONFIRMED",
+          "country": "한국"
+        },
+        {
+          "id": "BV1D5HDzhEQN",
+          "title": "[음식-편의점] 7가지 편의점 별미를 한 번에 맛보세요! 김치치즈국수 너무 맛있어요!",
+          "name": "JJAEMI糖果罐",
+          "date": "2025-09-11",
+          "views": 1760760,
+          "comments": 20,
+          "url": "https://www.bilibili.com/video/BV1D5HDzhEQN",
+          "cues": 38,
+          "local": "(미전송)",
+          "rights": "UNCONFIRMED",
+          "country": "한국"
+        }
+      ],
+      "characterCount": 2657,
+      "estimatedMinutes": 9.3
+    }
+  ]
+}

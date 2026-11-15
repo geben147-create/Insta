@@ -17,3 +17,25 @@
 .side a.active{background:#28445d;color:#fff7ae}
 @media(max-width:1040px){.auditpair{grid-template-columns:1fr}.auditcard{position:static}}
 @media(max-width:660px){.header .right{flex-wrap:wrap;justify-content:flex-end;gap:3px}.mastercopy{font-size:10px!important;padding:5px!important}.auditcard{padding:10px}.auditline{font-size:11px}}
+
+
+/* EP01-03 real MP3 audio playback with truthful pending/ready states */
+.tts-preview-panel{scroll-margin-top:90px;margin:18px 0 24px;padding:22px;background:linear-gradient(135deg,#183355,#244048 52%,#293452);border:2px solid #a4d9d0;border-radius:18px;box-shadow:0 12px 36px #0004}
+.tts-preview-panel h2{margin:0 0 6px;color:#ffe8a2;font-size:21px}
+.tts-preview-explain{font-size:13px;line-height:1.8;color:#e3f2f4;margin:5px 0 15px}
+.tts-preview-toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:9px 0 15px}
+.tts-preview-toolbar button,.tts-preview-toolbar a{font:inherit;text-decoration:none;border:1px solid #7291aa;border-radius:10px;padding:8px 12px;background:#1c4266;color:#f5faff;font-size:12px;font-weight:750;cursor:pointer}
+.tts-preview-toolbar button:hover,.tts-preview-toolbar a:hover{background:#315b80;border-color:#f0d084}
+.tts-preview-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:13px}
+.tts-preview-card{background:#11263e;border:1px solid #536f8b;border-radius:14px;padding:15px;display:flex;flex-direction:column;gap:9px;min-width:0}
+.tts-preview-title{color:#ffe29d;font-size:14px;line-height:1.55;font-weight:850;text-decoration:none;display:block}
+.tts-preview-sub{font-size:11px;color:#91deda}
+.tts-preview-status{font-size:12px;min-height:44px;padding:8px 10px;border-radius:8px;display:flex;align-items:center;line-height:1.5}
+.tts-preview-status.pending{color:#fff0bb;background:#59472b;border:1px solid #93794b}
+.tts-preview-status.ready{color:#d9ffe8;background:#1d533e;border:1px solid #5baa80}
+.tts-preview-card .tts-play{width:100%;padding:11px 14px;background:#f6d38c;color:#14243b;border:0;border-radius:10px;font-weight:950;font-size:14px;cursor:pointer}
+.tts-preview-card .tts-play:disabled{cursor:not-allowed;background:#51637b;color:#d2dbe6;opacity:.8}
+.tts-preview-card audio{width:100%;height:44px;max-width:100%;border-radius:12px}
+.tts-preview-card .tts-download{font-size:11px;text-align:center;color:#acdffb;text-decoration:underline}
+.tts-preview-card .tts-download[hidden]{display:none!important}
+@media(max-width:760px){.tts-preview-panel{padding:15px;margin:13px 0 21px}.tts-preview-panel h2{font-size:18px}.tts-preview-grid{grid-template-columns:1fr}}

@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "description": "Public playback catalog for foreign-reactions V8.9. Real MP3 files are not uploaded yet.",
+  "updated_utc": null,
+  "episodes": {
+    "01": {
+      "status": "pending",
+      "title": "한국 HBM과 중국 해설자의 평가",
+      "src": null
+    },
+    "02": {
+      "status": "pending",
+      "title": "중국인이 본 한국 옥탑방",
+      "src": null
+    },
+    "03": {
+      "status": "pending",
+      "title": "중국인이 본 제주 우도·해녀",
+      "src": null
+    }
+  }
+}

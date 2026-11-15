@@ -44,7 +44,7 @@ def source_data():
     if v10_path.exists():
         extra = v10_path.read_text(encoding="utf-8")
         new_match = re.search(
-            r"window\\.FOREIGN_V10_DATA\\s*=\\s*(\\{.*?\\})\\s*;\\s*\\n\\(function",
+            r"window\.FOREIGN_V10_DATA\s*=\s*(\{.*?\})\s*;\s*\n\(function",
             extra, re.DOTALL,
         )
         if new_match is None:

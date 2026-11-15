@@ -301,8 +301,8 @@ def main() -> None:
         path.mkdir(parents=True, exist_ok=True)
         wavs = []
         for idx, chunk in enumerate(src["chunks"], 1):
-            wav = path / f"{idx:04d}-{sha(chunk)[:12]}.wav"
-            if not wav.is_file() or wav.stat().st_size < 10000:
+            wav = path / f"{idx:04d}-{sha(args.model + '|Sohee|' + chunk)[:12]}.wav"
+            if args.force or not wav.is_file() or wav.stat().st_size < 10000:
                 print(f"EP{ep}: TTS {idx}/{len(src['chunks'])}", flush=True)
                 synthesize(model, chunk, wav)
             if duration_wav(wav) < 0.15:

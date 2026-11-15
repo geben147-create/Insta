@@ -134,9 +134,10 @@ function renderEpisode(){
  '<button class="btn" id="exportText">⬇ TTS 대본 TXT</button><button class="btn amber" id="saveEdits">💾 수정본 브라우저 저장</button>'+
  '<button class="btn ghost" id="openAll">전체 펼치기</button><button class="btn ghost" id="closeAll">전체 접기</button></div>'+
  '<div class="split"><div class="maincol">'+
- '<div class="viewnav"><button class="btn active" data-view="script">🎙 대본·근거</button><button class="btn" data-view="timeline">🎞 1:1 영상편집 타임라인</button><button class="btn" data-view="sources">🔎 원문·로컬 경로</button></div>'+
+ '<div class="viewnav"><button class="btn active" data-view="script">🎙 대본·근거</button><button class="btn" data-view="timeline">🎞 1:1 영상편집 타임라인</button><button class="btn" data-view="video">🎨 영상 배경+번역 카드</button><button class="btn" data-view="sources">🔎 원문·로컬 경로</button></div>'+
  '<div class="viewpane" id="pane-script">'+renderScript(e,st)+'</div>'+
  '<div class="viewpane" id="pane-timeline" style="display:none">'+renderTimeline(e,st)+'</div>'+
+ '<div class="viewpane" id="pane-video" style="display:none">'+renderVideoPreview(e)+'</div>'+
  '<div class="viewpane" id="pane-sources" style="display:none">'+renderSources(e)+'</div></div>'+
  '<aside class="right">'+renderChecklist(e,st)+'</aside></div>';
  frame(e.id,html); bindEpisode(e)
@@ -182,6 +183,49 @@ function renderTimeline(e,s){
  '<td>'+(v.sourceId?'<a href="'+esc(v.url)+'" target="_blank" rel="noopener">'+esc(v.sourceId)+'</a><br>'+esc(v.sourceFrom)+' ~ '+esc(v.sourceTo):'자체 제작 화면')+'</td></tr>'});
  return html+'</tbody></table></div><p class="subtle">총 '+s.ev.length+'행 · 내레이션 '+s.ev.filter(x=>x.kind==="narration").length+'행 · 원본 발언 '+s.ev.filter(x=>x.kind==="quote").length+'행</p>'
 }
+
+function renderVideoPreview(e){
+ const cues=e.beats.flatMap(b=>b.clips);
+ const c=cues[0];
+ return '<section class="panel"><h2>🎞 실제 원본 영상 + 반투명 한국어 자막</h2><p class="subtle">🔴 원본 MP4를 브라우저에서 선택해 밑에 깔고, 검증 후보 중국어 발언을 한국어로 표시합니다. 브라우저 내 로컬 미리보기로 영상은 업로드되지 않습니다.</p>'+
+ '<div class="video-preview-stage" id="videoStage"><div class="demo-stills" id="previewFallback"><span>📹 원본 MP4 선택 → 화면 가득 재생<br><small>지금은 스타일 샘플입니다</small></span></div><video id="videoUnderlay" playsinline muted loop controls></video><div class="video-wash" id="videoWash"></div>'+
+ '<div class="video-quote-glass" id="videoQuoteGlass"><span class="video-quote-meta">● 한국을 체험하는 중국인 여행객 · 실제 발언 번역 후보</span><strong id="videoQuoteKo">'+esc(c?.ko||"자막 없음")+'</strong><small id="videoQuoteZh">'+esc(c?.zh||"")+'</small></div>'+
+ '<div class="video-comment-glass"><b>💬 댓글 느낌 디자인</b><span>이 카드는 장식용 예시입니다.<br>실제 댓글 내용이 아니며 게시 시 표시하지 마세요.</span></div><div class="video-proof" id="videoProof">'+esc(c?.id||"")+' · '+esc(c?.from||"")+'</div></div>'+
+ '<div class="preview-control-grid"><label>📂 원본 MP4 선택<input type="file" id="videoLocalFile" accept="video/*"></label><label>중국어 발언 후보 선택<select id="previewQuoteSelect">'+cues.map((v,i)=>'<option value="'+i+'">'+esc(v.id)+' '+esc(v.from)+' · '+esc(v.ko.slice(0,36))+'</option>').join("")+'</select></label>'+
+ '<label>배경 밝기/어둡게<input type="range" id="videoDarkness" min="0" max="85" value="34"></label><label>자막 유리판 불투명도<input type="range" id="videoGlass" min="10" max="95" value="60"></label></div>'+
+ '<div class="cutmap" style="margin:12px 0"><div class="refbox"><b>완성 영상에 적용</b><p>원본 전체화면 · 레터박스 없이 가득 채우기 · 영상 위에 반투명 자막·원본 말투 유지</p></div><div class="refbox"><b>색상 공식</b><p>🟡 질문/기대 · 🩵 원본/정보 · 🟢 감탄 · 🟥 갈등 · 🟣 반전/회수</p></div></div>'+
+ '<div class="alert">원본 영상 편집·배포 권한은 별도로 확인하세요. 영상 음성의 자동 인식은 중국어 SRT 기반으로 아직 실제 음성과 대조하지 않았습니다.</div></section>'
+}
+let videoBlobUrl=null;
+function bindVideoPreview(e){
+ const file=$("#videoLocalFile"),select=$("#previewQuoteSelect"),vid=$("#videoUnderlay");
+ if(!file||!select||!vid)return;
+ const clips=e.beats.flatMap(b=>b.clips);
+ const update=()=>{
+  const c=clips[+select.value]||clips[0];if(!c)return;
+  $("#videoQuoteKo").textContent=c.ko;
+  $("#videoQuoteZh").textContent=c.zh;
+  $("#videoProof").textContent=c.id+" · 원본 "+c.from+" · SRT 검수 후보";
+  if(vid.src){try{vid.currentTime=sec(c.from)}catch(e){}}
+ };
+ select.addEventListener("change",update);
+ file.addEventListener("change",()=>{
+  const f=file.files?.[0];if(!f)return;
+  if(videoBlobUrl)URL.revokeObjectURL(videoBlobUrl);
+  videoBlobUrl=URL.createObjectURL(f);vid.src=videoBlobUrl;
+  vid.style.display="block";$("#previewFallback").style.display="none";
+  vid.play().catch(()=>{});update();toast("로컬 영상을 연결했습니다");
+ });
+ $("#videoDarkness").addEventListener("input",ev=>{
+  const alpha=Number(ev.target.value)/100;
+  $("#videoWash").style.background="linear-gradient(180deg,rgba(7,13,18,0.08),rgba(4,11,18,"+alpha+"))";
+ });
+ $("#videoGlass").addEventListener("input",ev=>{
+  $("#videoQuoteGlass").style.background="rgba(6,23,33,"+(Number(ev.target.value)/100)+")";
+ });
+ update();
+}
+
 function renderSources(e){
  return '<section class="panel"><h2>🔎 원본 영상·자막·로컬 경로</h2><p class="subtle">GitHub에는 자막·인덱스가 있고, 로컬 MP4 경로는 수집표에 기록된 Linux 870번 저장소 경로입니다. 현재 접속 중인 컴퓨터에 원본 파일이 복사됐는지는 확인하지 않았습니다.</p>'+
  e.sources.map(s=>'<div class="source"><b>'+esc(s.id)+' · '+srcLabel(data,s.id)+'</b><p class="subtle">저장 조회 '+comma(s.views)+' · 자막 '+s.cues+'컷 · 저장 수집일 '+esc(s.date)+' · 권리 '+esc(s.rights)+'</p>'+
@@ -219,6 +263,7 @@ function renderChecklist(e,s){
  '<section class="panel"><h2>🔴 편집 전 확인</h2><p class="subtle">라이선스·외국인 원음·화면·TTS 타이밍을 직접 확인하세요. 자동 자막에 잘못된 번역이 일부 포함되어 있습니다. CSV의 시간은 처음 자를 위치를 찾기 위한 후보이며 원본 허락을 대체하지 않습니다.</p></section>'
 }
 function bindEpisode(e){
+ bindVideoPreview(e);
  $$("button[data-view]").forEach(b=>b.addEventListener("click",()=>{
   shown=b.dataset.view;$$("button[data-view]").forEach(x=>x.classList.toggle("active",x.dataset.view===shown));
   $$(".viewpane").forEach(x=>x.style.display=(x.id==="pane-"+shown)?"":"none")

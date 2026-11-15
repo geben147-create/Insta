@@ -7,7 +7,9 @@
   if (!main || !hero || !L || !Array.isArray(L.episodes)) return;
 
   var epId = document.body.getAttribute("data-ep");
-  var targetIds = epId && /^(01|02|03)$/.test(epId) ? [epId] : (!epId ? ["01", "02", "03"] : []);
+  var newIds = ["11","12","13","14","15","16","17","18","19","20"];
+  var targetIds = epId && (/^(01|02|03)$/.test(epId) || newIds.indexOf(epId) >= 0)
+    ? [epId] : (!epId ? newIds.concat(["01", "02", "03"]) : []);
   if (!targetIds.length) return;
   var selected = targetIds.map(function (id) { return L.episodes.find(function (e) { return e.ep === id; }); }).filter(Boolean);
 
@@ -17,12 +19,12 @@
   panel.setAttribute("aria-label", "국뽕 대본 MP3 미리 듣기");
 
   var title = document.createElement("h2");
-  title.textContent = "🎧 MP3 미리듣기 · Qwen3 한국어 음성";
+  title.textContent = "🎧 신규 10편 MP3 · 9분 초과 필수 · Qwen3";
   panel.appendChild(title);
 
   var desc = document.createElement("p");
   desc.className = "tts-preview-explain";
-  desc.textContent = "EP01~03 한국어 내레이션입니다. 우분투에서 합성한 MP3를 GitHub에 게시하면 ▶ 버튼이 활성화됩니다. 원본 영상의 외국인 발언을 녹음한 파일이 아닙니다.";
+  desc.textContent = "신규 EP11~20과 기존 EP01~03 한국어 내레이션입니다. 신규 10편은 실제 MP3 9분 1초 초과를 확인해야 ▶ 버튼이 활성화됩니다. 우분투에서 합성하고 GitHub에 게시하세요. 원본 영상의 외국인 발언을 녹음한 파일이 아닙니다.";
   panel.appendChild(desc);
 
   var toolbar = document.createElement("div");
@@ -35,10 +37,10 @@
   var copy = document.createElement("button");
   copy.type = "button";
   copy.className = "tts-copy-command";
-  copy.textContent = "📋 우분투 일괄 합성 명령 복사";
+  copy.textContent = "📋 신규 10편 MP3 일괄 합성 명령 복사";
   toolbar.appendChild(copy);
   var howto = document.createElement("a");
-  howto.href = "https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/tts/README.md";
+  howto.href = "https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/tts/README_NEW10.md";
   howto.target = "_blank";
   howto.rel = "noopener";
   howto.textContent = "🛠 실행 설명";
@@ -121,7 +123,7 @@
   });
 
   copy.addEventListener("click", function () {
-    var cmd = "bash research-hub-20261108/foreign-reactions-v88/tts/run_batch3.sh --publish";
+    var cmd = "bash research-hub-20261108/foreign-reactions-v88/tts/run_new10.sh --publish";
     if (!navigator.clipboard || !navigator.clipboard.writeText) {
       window.prompt("우분투 Insta 저장소 최상위 폴더에서 실행할 명령", cmd);
       return;
@@ -144,7 +146,7 @@
         var item = cards[e.ep];
         var record = manifest.episodes && manifest.episodes[e.ep];
         var expected = "audio/EP" + e.ep + ".mp3";
-        if (!record || record.status !== "ready" || record.src !== expected) {
+        if (!record || record.status !== "ready" || record.src !== expected || (Number(e.ep)>=11 && Number(record.duration_sec) <= 541)) {
           item.status.className = "tts-preview-status pending";
           item.status.textContent = "⏳ MP3 미생성 · 우분투 스크립트 게시 후 재생 가능";
           item.play.disabled = true;

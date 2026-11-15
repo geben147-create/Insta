@@ -1,0 +1,28 @@
+<h1>📋 대본 형식 비교 · 사용법 <span style="font-size:12px;color:#e7c17b">by Hermes · Opus</span></h1>
+<p class="mut">아래 비교는 편집 도구(Premiere·DaVinci·CapCut·Vrew)의 일반적인 가져오기 방식에 대한 Hermes의 지식으로 정리했습니다. 이번 작업에서 웹 검색으로 새로 확인한 내용은 아닙니다.</p>
+
+<h2>① 영상 편집용 대본 형식 5가지</h2>
+<table><tr><th>#</th><th>형식</th><th>장점</th><th>단점</th><th>쓰는 곳</th></tr>
+<tr><td>1</td><td><b>SRT</b> (한국어 / 중국어)</td><td>모든 편집기에서 바로 가져옴. 타임코드 그대로 자막 트랙</td><td>태그·메모를 넣을 수 없음</td><td>CapCut·Premiere·DaVinci 자막 트랙</td></tr>
+<tr><td>2</td><td><b>이중 SRT</b> (중국어+한국어 2줄)</td><td>원문과 번역을 한 화면에서 대조. "한중 이중자막" 영상에 그대로 사용</td><td>화면에 글자가 많아 가독성이 떨어짐</td><td>검수, 이중자막 영상</td></tr>
+<tr><td>3</td><td><b>대본 TSV/엑셀</b> (번호·시작·끝·중국어·한국어·태그)</td><td>정렬·필터·메모 가능. 구글 시트와 바로 호환</td><td>편집기에 직접 넣을 수 없음</td><td>대본 작성, 장면 고르기</td></tr>
+<tr><td>4</td><td><b>장(챕터) 단락 대본</b> (이 페이지)</td><td>읽기 쉬움. 형광펜·핵심 표시. 흐름 파악이 빠름</td><td>파일로 편집기에 넣을 수 없음</td><td>나레이션 대본 짜기, 훅 찾기</td></tr>
+<tr><td>5</td><td><b>JSON 원본</b> (모든 정보)</td><td>다른 형식을 모두 다시 만들 수 있는 원본. 자동화에 적합</td><td>사람이 읽기 어려움</td><td>재가공, 자동 편집</td></tr></table>
+<p><b>✅ 채택:</b> <b>JSON 한 벌을 원본</b>으로 두고, 나머지 4가지 형식을 자동으로 만듭니다. 영상마다 <i>한국어 SRT, 중국어 SRT, 이중 SRT, TSV</i>를 내려받을 수 있습니다. 편집할 때는 <b>한국어 SRT</b>를 쓰고, 대본을 짤 때는 <b>이 페이지와 TSV</b>를 씁니다.</p>
+
+<h2>② 긴 대본을 페이지에 넣는 방법 3가지</h2>
+<table><tr><th>방법</th><th>장점</th><th>단점</th></tr>
+<tr><td>A. 한 페이지에 전부 나열</td><td>Ctrl+F로 전체 검색. 구현이 단순함</td><td>영상 10개 × 수백 줄이면 너무 길고 느림. 어디까지 읽었는지 잃어버림</td></tr>
+<tr><td>B. 영상별 아코디언(접기/펼치기)</td><td>한 페이지 안에서 깔끔함</td><td>펼치면 결국 길어짐. 처음부터 전부 불러와서 무거움</td></tr>
+<tr><td><b>C. 왼쪽 하위 메뉴 + 영상별 지연 로딩 + 장(챕터) 접기</b></td><td>클릭한 영상만 불러와서 빠름. 분야별 색깔 메뉴. 챕터로 바로 이동. 링크(#BILI-112@줄번호) 공유 가능</td><td>영상 간 통합 검색은 구글 시트에서 해야 함</td></tr></table>
+<p><b>✅ 채택: C</b>. 분야별 배경색은 <span style="background:#5a1a2b;padding:0 6px">여행=와인</span> <span style="background:#123d2a;padding:0 6px">쇼핑=딥그린</span> <span style="background:#0b0b0b;padding:0 6px;border:1px solid #444">게임/PC방=블랙</span> <span style="background:#6b3a12;padding:0 6px">음식=브라운</span> <span style="background:#2a2f3a;padding:0 6px">가전 등</span>입니다. 영상 사이의 통합 검색은 구글 시트 탭에서 합니다.</p>
+
+<h2>③ 표시 규칙</h2>
+<ul><li><mark class="y">노란 형광펜</mark>: 한국 평가 문장입니다. 👍는 좋다, 👎는 나쁘다, ⚖는 중국·일본과의 비교입니다.</li>
+<li><span class="red">빨간 글씨</span>: 대본에 꼭 쓸 핵심 정보, 반전, 결론입니다.</li>
+<li>타임코드를 클릭하면 "타임코드 + 한국어"가 복사됩니다. 편집기에서 그 지점을 찾을 때 씁니다.</li>
+<li>"표시된 문장만 보기"를 켜면 형광펜과 핵심 문장만 남습니다. 대본 뼈대를 빠르게 잡을 때 씁니다.</li></ul>
+
+<h2>④ 주의</h2>
+<ul><li>자막은 기계 음성인식(FunASR)과 로컬 AI 번역(Qwen 27B) 결과입니다. 고유명사와 숫자는 영상을 보며 확인하세요.</li>
+<li>태그(좋음/나쁨/핵심)도 AI 판단이라 틀릴 수 있습니다.</li></ul>

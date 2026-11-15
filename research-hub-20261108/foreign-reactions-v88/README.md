@@ -1,4 +1,45 @@
-# 🇰🇷 신규 해외반응 10편 · 국뽕 V8.9 원클릭 작업판
+# 🏆 V10 신규 EP11~20 · 해외반응 10편 추가 · 총 20편
+
+**이번 신규 10편 모두 한국어 장편 대본, 중국인 원어 자막 후보 타임코드, 실제 로컬 MP4 경로 후보, 30개 20초 편집표, 150개 4초 컷, V4 왼쪽 대본 ↔ 오른쪽 검수표, 전체 한 번 복사를 갖췄습니다.**
+
+**[🎬 V10 통합 작업판 · 왼쪽 신규 10편]( https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/index.html )** · [🎧 신규 EP11~20 MP3 미리듣기 상태](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/index.html#tts-mp3-player) · [🔊 우분투 신규 10편 Qwen3 일괄 생성 방법](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/tts/README_NEW10.md)
+
+## 🆕 신규 EP11~20 결과판
+
+| EP | 주제 | 원고 분량 | 대본 한 페이지 | 편집 전체 복사 파일 한 개 | 음성 |
+|---|---|---:|---|---|---|
+| 11 | 중국인이 서울에서 3만 위안을 써보니, 진짜 놀란 건 가격이 아니었다 | 6,597자 | [원고·1:1 검수](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/script-11.html) | [전체 편집 지시서 1개](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/handoff/EP11_EDIT_MASTER.md) | 🟡 MP3 실측 전 |
+| 12 | 중국인이 한국 미용실에서 머리를 맡겼더니, 거울 앞에서 나온 반응 | 6,298자 | [원고·1:1 검수](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/script-12.html) | [전체 편집 지시서 1개](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/handoff/EP12_EDIT_MASTER.md) | 🟡 MP3 실측 전 |
+| 13 | 중국 해설자가 한국 김 공장을 보고 놀란 이유, 한 장에 숨은 기술 | 6,242자 | [원고·1:1 검수](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/script-13.html) | [전체 편집 지시서 1개](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/handoff/EP13_EDIT_MASTER.md) | 🟡 MP3 실측 전 |
+| 14 | 한국 옷은 예쁘다는 중국인, 배송받은 바지를 보고 놀란 반전 | 6,404자 | [원고·1:1 검수](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/script-14.html) | [전체 편집 지시서 1개](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/handoff/EP14_EDIT_MASTER.md) | 🟡 MP3 실측 전 |
+| 15 | 중국 라면 리뷰어가 한국 불닭면을 먹더니, 비교가 예상과 달라졌다 | 6,476자 | [원고·1:1 검수](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/script-15.html) | [전체 편집 지시서 1개](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/handoff/EP15_EDIT_MASTER.md) | 🟡 MP3 실측 전 |
+| 16 | 한국 피부과를 거부하던 중국인 엄마, 귀국 전 남긴 뜻밖의 말 | 6,617자 | [원고·1:1 검수](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/script-16.html) | [전체 편집 지시서 1개](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/handoff/EP16_EDIT_MASTER.md) | 🟡 MP3 실측 전 |
+| 17 | 중국 7인 가족의 부산 여행, 해변열차 앞줄에서 반응이 달라졌다 | 6,346자 | [원고·1:1 검수](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/script-17.html) | [전체 편집 지시서 1개](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/handoff/EP17_EDIT_MASTER.md) | 🟡 MP3 실측 전 |
+| 18 | 홍대는 이제 별로라는 중국인, 합정·상수에 가더니 뜻밖의 추천 | 6,374자 | [원고·1:1 검수](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/script-18.html) | [전체 편집 지시서 1개](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/handoff/EP18_EDIT_MASTER.md) | 🟡 MP3 실측 전 |
+| 19 | 한국이 지루하다던 중국 대학생, 부산 영도 사장님을 만나자 | 6,603자 | [원고·1:1 검수](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/script-19.html) | [전체 편집 지시서 1개](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/handoff/EP19_EDIT_MASTER.md) | 🟡 MP3 실측 전 |
+| 20 | 한국 연예인이 중국 관광객에게 길을 묻자, 중국 시청자가 폭소한 이유 | 6,549자 | [원고·1:1 검수](https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/script-20.html) | [전체 편집 지시서 1개](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/handoff/EP20_EDIT_MASTER.md) | 🟡 MP3 실측 전 |
+
+**1클릭 전달:** 회차별 대본 페이지 오른쪽 맨 끝 **📋 대본+편집 전체 복사**를 누르면 해당 편의 전문·원본 시간·150컷·편집/검수 메모가 복사됩니다. **🔗 링크 1개 복사** 버튼은 회차 Markdown 한 파일 주소를 복사합니다. Claude/Codex에 그 URL 하나만 주고 `"이 문서 전체를 읽고 우분투 로컬 원본과 중국어 ASR 자막을 검증한 뒤 편집하세요"`라고 지시할 수 있습니다.
+
+**9분 필수:** 작성된 원고의 6,242~6,617자만으로 재생 시간을 확정하지 않습니다. 실제 Sohee Qwen3-TTS MP3가 **541초(9분 1초)를 초과하지 않으면 게시 금지**로 설정했습니다. 음성을 무음으로 늘려 조건을 통과시키지 않습니다. MP3 실측 및 MP4 영상 출력은 이 채팅 환경에서 실행되지 않았습니다.
+
+**첫 6~9초:** 실제 중국인 호평 발언 후보 2~3개, 각 약 2~3초. 원본 BILI ASR과 한국어 번역은 초벌이므로 **원음/화자/영상 사용권 검증 전 게시 불가**. 클립이 허가되지 않았다면 저작권 문제가 없는 출처 표시 재구성 *텍스트* 카드로 대체하며 가짜 외국인 원음을 합성하지 않습니다.
+
+**성문화 주제 판단:** 해당 수집 TSV에 제목·메타 기록만 있고 원본 다운로드 및 본문 자막 확보 여부가 검증되지 않아 이번 추가 10편에서는 제외했습니다. 사용자의 기존 지시(다운로드된 근거가 없으면 다른 주제 선택)에 맞췄습니다.
+
+### 🐧 Ubuntu 신규 MP3 10편 일괄 명령
+
+```bash
+# Insta 저장소의 최상위 폴더에서
+git pull --ff-only origin main
+bash research-hub-20261108/foreign-reactions-v88/tts/run_new10.sh --dry-run
+bash research-hub-20261108/foreign-reactions-v88/tts/run_new10.sh --publish
+```
+
+우분투 **GPU1**, 로컬 Qwen3 CustomVoice **Sohee 한국어**, 유료 TTS API 없음. [일괄 배치 스크립트](https://github.com/geben147-create/Insta/blob/main/research-hub-20261108/foreign-reactions-v88/tts/run_new10.sh).
+
+## 이전 EP01~10 보존
+
 
 **2026-11-16 | 기존 V8 10편과 중복 없는 신규 10개 주제.** 한국어 원고 및 편집 기획 초안 10편이 저장되어 있습니다. 실제 영상 렌더링·TTS 실측·영상 사용권 검수는 아직 미진행입니다.
 

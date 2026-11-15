@@ -371,7 +371,7 @@ var handle=document.createElement('button');
 handle.type='button';handle.className='menu-drag-handle';handle.draggable=true;
 handle.textContent='⠿';handle.title='드래그로 섹션 이동 · 클릭하면 한 칸 아래 · 키보드 ↑↓';
 handle.setAttribute('aria-label',((title&&title.textContent)||'메뉴 섹션').trim()+' 순서 이동');
-if(title)title.insertAdjacentElement('afterend',handle);else g.insertBefore(handle,g.firstChild);
+if(g.tagName==='DETAILS'&&title)title.appendChild(handle);else if(title)title.insertAdjacentElement('afterend',handle);else g.insertBefore(handle,g.firstChild);
 });
 Array.from(menu.querySelectorAll('.navbtn')).forEach(function(btn){
 btn.draggable=true;btn.dataset.menuItemKey=btn.getAttribute('data-to')||btn.getAttribute('href')||btn.textContent.trim();

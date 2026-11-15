@@ -1,0 +1,242 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>국뽕 해외반응 최종 프롬프트 V4.3</title><style>
+:root{--bg:#fff;--ink:#17131a;--mute:#6d6470;--line:#f0dfe7;--pink:#d81b60;--pink2:#f06292;--soft:#fde7ef;--lime:#f1fbc9;--limeh:#d8f55a;--card:#fff;--code:#fbf6f8;--blue:#1e63d6}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#141116;--ink:#f1ecf2;--mute:#a79daa;--line:#3a2b33;--pink:#ff6fa3;--pink2:#ff8fb8;--soft:#33202a;--lime:#2b3413;--limeh:#5b7a00;--card:#1c181f;--code:#221c25;--blue:#8fb4ff}}
+:root[data-theme=dark]{--bg:#141116;--ink:#f1ecf2;--mute:#a79daa;--line:#3a2b33;--pink:#ff6fa3;--pink2:#ff8fb8;--soft:#33202a;--lime:#2b3413;--limeh:#5b7a00;--card:#1c181f;--code:#221c25;--blue:#8fb4ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 "Pretendard","Noto Sans KR","Apple SD Gothic Neo",system-ui,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:22px 16px 80px}
+.topnav{display:flex;flex-wrap:wrap;gap:8px;font-size:13px;margin-bottom:14px}.topnav a{border:1px solid var(--line);border-radius:999px;padding:4px 12px;text-decoration:none;color:var(--ink)}.topnav a.on{border-color:var(--pink);color:var(--pink);font-weight:700}
+h1{font-size:28px;line-height:1.3;margin:6px 0 8px}h2{font-size:20px;margin:36px 0 10px;padding-top:14px;border-top:3px solid var(--pink);color:var(--pink)}h3{font-size:16px;margin:20px 0 6px}
+p{margin:8px 0}a{color:var(--blue)}b{font-weight:800}
+.lead{background:var(--lime);border-radius:16px;padding:14px 18px;margin:12px 0}
+.lead b{background:linear-gradient(transparent 58%,var(--limeh) 58%)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}.chips a{background:var(--soft);color:var(--pink);border-radius:8px;padding:3px 10px;font-size:13px;font-weight:700;text-decoration:none}
+.code{position:relative;background:var(--code);border:1.5px solid var(--pink2);border-radius:14px;margin:10px 0}.code pre{margin:0;padding:14px 16px;white-space:pre-wrap;word-break:break-word;font:13.5px/1.7 ui-monospace,Menlo,Consolas,monospace}
+.copy{position:absolute;top:8px;right:8px;border:0;background:var(--pink);color:#fff;border-radius:8px;padding:3px 10px;font:700 12px inherit;cursor:pointer}
+code{background:var(--soft);border-radius:5px;padding:1px 5px;font-size:.9em;word-break:break-all}
+.tw{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--pink);white-space:nowrap}td:first-child{white-space:nowrap;font-weight:700}
+ul,ol{padding-left:22px;margin:8px 0}li{margin:3px 0}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}.gal figure{margin:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--card)}.gal img{width:100%;display:block;aspect-ratio:16/10;object-fit:cover;object-position:top}.gal figcaption{padding:8px 12px;font-size:13px}.gal figcaption b{color:var(--pink)}
+details{border:1px solid var(--line);border-radius:14px;padding:10px 14px;margin:10px 0;background:var(--card)}summary{cursor:pointer;font-weight:800}
+.warn{background:var(--soft);border-left:5px solid var(--pink);border-radius:0 14px 14px 0;padding:10px 14px;margin:12px 0}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-top:14px;color:var(--mute);font-size:13px}
+.fs{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}.fs a{display:block;border:1.5px solid var(--pink2);border-radius:14px;padding:10px 14px;text-decoration:none;color:var(--ink)}.fs a small{color:var(--pink);font-weight:800;display:block}
+</style></head><body><div class="wrap"><nav class="topnav"><a class="" href="./index.html">V4 검수판</a><a class="on" href="./prompt.html">최종 프롬프트(원페이지)</a><a class="" href="./fewshot.html">좋은 자막 예시</a><a class="" href="./../index.html">연구 허브</a></nav><h1 id="국뽕-해외반응-제작-프롬프트-V4-3-최종-원페이지">🌸 국뽕 해외반응 제작 프롬프트 V4.3 (최종 · 원페이지)</h1><div class="lead"><b>헤르메스에 이 페이지의 "공통 지시문"을 먼저 넣고, STEP 0부터 차례로 실행합니다.</b> 맨 아래 "한 번에 실행"은 스킬로 한 번에 돌리는 문장입니다. 분홍 상자 오른쪽 위 <b>복사</b>를 누르면 그대로 붙여 넣을 수 있습니다.</div><div class="chips"><a href="#0-경로-링크-먼저-확인">0. 경로·링크 (먼저 확인)</a><a href="#공통-지시문-최초-1회-입력">공통 지시문 (최초 1회 입력)</a><a href="#STEP-0-자막-원본-확인-읽기-전용">STEP 0 · 자막·원본 확인 (읽기 전용)</a><a href="#STEP-1-주제-선정">STEP 1 · 주제 선정</a><a href="#STEP-2-훅-전개-설계-Few-shot">STEP 2 · 훅·전개 설계 (Few-shot)</a><a href="#STEP-3-아웃라인">STEP 3 · 아웃라인</a><a href="#STEP-4-대본-작성">STEP 4 · 대본 작성</a><a href="#STEP-5-SEMANTIC-JUDGE-1-1-검수">STEP 5 · SEMANTIC JUDGE 1:1 검수</a><a href="#STEP-6-TTS-Qwen3-TTS-Base-새-목소리">STEP 6 · TTS (Qwen3-TTS-Base + 새 목소리)</a><a href="#STEP-7-영상-편집-형식-고정">STEP 7 · 영상 편집 (형식 고정)</a><a href="#STEP-8-페이지-GitHub-기록">STEP 8 · 페이지·GitHub·기록</a><a href="#금지-표현-V4-0-추가">금지 표현 (V4.0 ⑪ + 추가)</a><a href="#한-번에-실행-헤르메스">한 번에 실행 (헤르메스)</a><a href="#ref">형식 참고 사진</a><a href="#orig">V4.0 원문</a><a href="#log">작업 기록</a></div>
+<p>V4.0(STEP 0~6, 체크리스트 ①~⑪)을 그대로 두고, 2026-11-15에 추가로 주신 지시를 🔵로 넣었습니다.</p>
+<p>🌸 반드시 지킬 핵심 규칙 · 🔴 V4.0에서 추가된 규칙 · 🔵 V4.3에서 추가·변경된 규칙</p>
+<p><b>외국인이 한국을 칭찬한다 → 실제 영상으로 보여준다 → 왜 놀랐는지 설명한다 → 오해·갈등을 반전시킨다 → 한국의 저력과 자긍심으로 끝낸다.</b></p>
+<h2 id="0-경로-링크-먼저-확인">0. 경로·링크 (먼저 확인)</h2>
+<div class="tw"><table><thead><tr><th>무엇</th><th>어디</th></tr></thead><tbody><tr><td>연구 허브(왼쪽 메뉴)</td><td><a href="https://geben147-create.github.io/Insta/research-hub-20261108/" target="_blank" rel="noopener">https://geben147-create.github.io/Insta/research-hub-20261108/</a></td></tr><tr><td>GitHub 저장소</td><td><a href="https://github.com/geben147-create/Insta" target="_blank" rel="noopener">https://github.com/geben147-create/Insta</a></td></tr><tr><td>V4 검수판(대본 1:1)</td><td><a href="https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/" target="_blank" rel="noopener">https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/</a></td></tr><tr><td>이 프롬프트 페이지</td><td><a href="https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/prompt.html" target="_blank" rel="noopener">https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/prompt.html</a></td></tr><tr><td>좋은 자막 예시 분석</td><td><a href="https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/fewshot.html" target="_blank" rel="noopener">https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/fewshot.html</a></td></tr><tr><td>자막 폴더(중국어 + 한국어 srt)</td><td><a href="https://github.com/geben147-create/Insta/tree/main/reactions-downloads/subs" target="_blank" rel="noopener">https://github.com/geben147-create/Insta/tree/main/reactions-downloads/subs</a></td></tr><tr><td>영상 수집표</td><td><a href="https://github.com/geben147-create/Insta/blob/main/reactions-downloads/downloads.tsv" target="_blank" rel="noopener">https://github.com/geben147-create/Insta/blob/main/reactions-downloads/downloads.tsv</a></td></tr><tr><td>해시 목록</td><td><a href="https://github.com/geben147-create/Insta/blob/main/reactions-downloads/SHA256SUMS.txt" target="_blank" rel="noopener">https://github.com/geben147-create/Insta/blob/main/reactions-downloads/SHA256SUMS.txt</a></td></tr><tr><td>일본 후보</td><td><a href="https://github.com/geben147-create/Insta/tree/main/japan-reactions" target="_blank" rel="noopener">https://github.com/geben147-create/Insta/tree/main/japan-reactions</a></td></tr><tr><td>해외 전문가 반응 인덱스</td><td><a href="https://github.com/geben147-create/Insta/tree/main/해외전문가반응-한일-20261115" target="_blank" rel="noopener">https://github.com/geben147-create/Insta/tree/main/해외전문가반응-한일-20261115</a></td></tr><tr><td>훅·전개·감정선 모음집</td><td><a href="https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-script-onepage-20261114.html" target="_blank" rel="noopener">https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-script-onepage-20261114.html</a></td></tr><tr><td>중국 SNS 수집판</td><td><a href="https://geben147-create.github.io/Insta/국뽕해외반응-중국SNS-20261103/" target="_blank" rel="noopener">https://geben147-create.github.io/Insta/국뽕해외반응-중국SNS-20261103/</a></td></tr><tr><td>구글 시트 · MASTER</td><td><a href="https://docs.google.com/spreadsheets/d/1z_Ys-QfkRY3GDuD2vQ5N7CDt-RGXcrMyUESst8cQDAY/edit" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1z_Ys-QfkRY3GDuD2vQ5N7CDt-RGXcrMyUESst8cQDAY/edit</a></td></tr><tr><td>구글 시트 · 통합자료 정리(32개 탭)</td><td><a href="https://docs.google.com/spreadsheets/d/1-LosbZfgNCYH5b-W3_ePBJc5bE1Bq97kCZP4UnLQcBc/edit" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1-LosbZfgNCYH5b-W3_ePBJc5bE1Bq97kCZP4UnLQcBc/edit</a></td></tr><tr><td>원본 영상(자막 있는 것)</td><td><code>/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/</code> — <code>한국/</code> <code>일본/</code> <code>빌리빌리/</code></td></tr><tr><td>원본 영상(이전 수집분 BILI-·IG-)</td><td><code>/run/media/yh/새 볼륨/틱톡/</code></td></tr><tr><td>작업 폴더(스크립트·에피소드)</td><td><code>/home/yh/ai-work/kukppong_v4_pipeline/</code></td></tr><tr><td>완성 영상 저장</td><td><code>/home/yh/ai-work/kukppong_v4_pipeline/episodes/&lt;이름&gt;/out/&lt;이름&gt;.mp4</code> (GitHub에는 올리지 않음)</td></tr><tr><td>좋은 자막 예시 원문(로컬)</td><td><code>/home/yh/ai-work/kukppong_v4_pipeline/fewshot/</code></td></tr><tr><td>형식 참고 사진 9장</td><td><code>/home/yh/ai-work/kukppong_v4_pipeline/style/ref/</code></td></tr><tr><td>대본 스타일 팩</td><td><code>/home/yh/ai_memory_work/packs/PACK_00_목차_먼저읽기.md</code></td></tr><tr><td>TTS (Qwen3-TTS-Base + 새 목소리)</td><td><code>bash /home/yh/ai-work/tts_cosy_prod/qwen_tts.sh &lt;대본.jsonl&gt; &lt;출력폴더&gt; -12</code></td></tr><tr><td>헤르메스 스킬</td><td><code>~/.hermes/skills/media/kukppong-v4-daily/SKILL.md</code></td></tr></tbody></table></div>
+<h2 id="공통-지시문-최초-1회-입력">공통 지시문 (최초 1회 입력)</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre># 🇰🇷 국뽕 해외반응 제작 공통 규칙 V4.3
+
+- 🌸 주인공은 한국을 경험하고 평가하는 외국인이다. 실제 외국인의 호평·놀라움·감동을 먼저 보여주고 내 나레이션이 그 의미를 자연스럽게 연결한다.
+- 🔴🌸 한국인이 한국을 칭찬하거나 국내 기관이 한국을 높이 평가한 자료는 해외 호평의 증거로 사용 금지. 국내 공식 숫자는 객관적 사실 확인용으로만 쓴다.
+- 🌸 첫 30초 훅 5문장, 성공 영상의 훅·전개·감정선 참고, 질문→답→새 궁금증 반복. 한국의 자긍심·감동으로 회수한다.
+- 🔴 실제 외국인 발언이 존재하면 해당 장면을 직접 배치한다. 내레이션이 똑같은 칭찬을 반복하거나 댓글·영상으로 이동한다고 설명하지 않는다.
+- 🔵 자료는 &quot;자막이 추출된 영상&quot;만 쓴다. 먼저 자막이 몇 개인지 세고, 그 안에서 주제를 고른다. 원본 영상은 자막 타임라인으로 잘라 쓴다.
+- 🔵 대본에 플랫폼 이름(샤오홍슈·빌리빌리·틱톡·깃허브)을 말하지 않는다. &quot;중국인이&quot;, &quot;조회수 몇백만 회를 기록한 중국 크리에이터는&quot;처럼 말한다. 깃허브는 자료 창고일 뿐이다.
+- 🔵 &quot;이것만으로 한국이 최고라고 할 수 없습니다&quot;, &quot;확인해 보셔야 합니다&quot; 같은 말을 절대 넣지 않는다. 외국인이 스스로 한국을 대변하게 한다.
+- 🔵 외국인이 하지 않은 칭찬은 만들지 않는다. 서로 다른 사람의 말을 한 사람의 말처럼 잇지 않는다.
+- 🔵 영상 길이는 최소 10분. 내 한국어 해설 음성 약 60%, 외국인 원음 클립 약 40%(클립 1개 약 4초).
+- 🔵 영상에서 중국어로 말하는 부분은 전부 한국어 자막으로 번역한다. 번역은 중국어 원문 자막에서 직접 한다(기계 번역본은 오역이 많다).
+- 🔵 중간에 묻지 않는다. 단계마다 체크리스트를 스스로 확인하고 다음 단계로 간다. 단, 유튜브 등 외부 공개 업로드·유료 호출·원본 수정·삭제는 하지 않는다.
+- 🔵 한 일은 페이지 맨 끝에 &quot;by &lt;작업한 도구 이름&gt;&quot;으로 항상 기록한다(예: by Claude Desktop, by Hermes).
+- 모든 원문을 사실/번역/추정/창작으로 구분한다.</pre></div>
+<h2 id="STEP-0-자막-원본-확인-읽기-전용">STEP 0 · 자막·원본 확인 (읽기 전용)</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre># STEP 0 · 읽기 전용 원본 조사
+- GitHub 자막 폴더(reactions-downloads/subs)를 받아 한국어 자막(.ko.srt)이 있는 영상이 총 몇 개인지 센다. 나라·분야·조회수·자막 컷 수·길이를 표로 만든다.
+- 원본 영상이 이 컴퓨터에 다 옮겨졌는지 확인한다. 수집표의 SHA-256과 파일 해시가 같은 것만 &quot;사용 가능&quot;으로 표시한다(옮기는 중인 파일은 해시가 다르다).
+- 🔴🌸 한국을 긍정적으로 평가하는 외국인의 실제 발언·표정·장면을 우선 분류하고, 비판·비교·감동·반전 자료도 따로 표시한다.
+- 🔴 영상에 등장하는 인물·계정명과 실제 대사, 화면 자막, 댓글을 구분한다. 원문이 없으면 발언을 추측하지 않는다.
+- 🔵 원본 안에 끼워진 남의 영상(광고·다른 크리에이터의 소재)은 프레임을 뽑아 확인하고 사용 금지 구간으로 적는다.
+- 전체 ASR과 원본 수정은 금지.</pre></div>
+<p>명령: <code>python3 -I bin/catalog.py</code> → <code>catalog.json</code>, 사용 가능 영상 수 출력</p>
+<p>통과 기준: 자막 수·사용 가능 영상 수를 숫자로 적었다 / 이미 쓴 영상(<code>episodes/*/script_data.py</code>)을 표시했다</p>
+<h2 id="STEP-1-주제-선정">STEP 1 · 주제 선정</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre># STEP 1 · 주제 선정
+- STEP 0의 &quot;사용 가능&quot; 영상 안에서만 고른다. 조회수가 높고, 호평 원음이 많고, 서로 묶이는 영상이 3개 이상인 주제를 우선한다.
+- 평가가 주로 부정적인 영상은 주제에서 뺀다(갈등·반전 구간의 짧은 인용으로만 쓴다).
+- 비교 축이 될 영상(일본·중국 편)이 있으면 함께 묶는다. 🔵 그 영상이 실제로 어디서 찍힌 것인지 확인한다(예: 중국 안의 일본 브랜드 매장인지, 일본 현지인지).
+- 이전 에피소드와 겹치지 않게 한다.
+- 🔴🌸 해외 언론·전문가의 실제 한국 평가가 있으면 붙인다. 없으면 &quot;없음&quot;으로 적고 지어내지 않는다.
+- (시간이 있을 때) Google Trends 24시간·7일, 네이버 데이터랩으로 시의성을 확인한다. 확인하지 못했으면 &quot;미측정&quot;으로 적는다.
+- 주제 1개와 고른 이유, 쓸 영상 목록을 적고 다음 단계로 간다.</pre></div>
+<p>통과 기준: 주제 한 줄 / 쓸 영상 3~6개 / 뺀 영상과 이유</p>
+<h2 id="STEP-2-훅-전개-설계-Few-shot">STEP 2 · 훅·전개 설계 (Few-shot)</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre># STEP 2 · 훅·전개 설계
+- 먼저 읽는다: 좋은 자막 예시 분석(fewshot/LEARNINGS.md), 훅 12종+14종·전개 8종+9종·실전 훅 22편(모음집 페이지), 대본 스타일 팩.
+- 🌸 첫 0~30초: 외국인의 실제 호평 원음 2~3개 → 궁금증(질문 1개) → 통념 뒤집기 또는 결과 선공개. 훅 5문장을 쓴다.
+- 🔵 초반에 &quot;한국 너무 좋아요&quot;류 호평, &quot;속았어요&quot; 같은 반전 한마디, 그리고 다른 나라(일본 등)와의 비교를 차례로 넣는다.
+- 전개는 메인 1개 + 보조 1개만 고른다(예: 질문 사다리 + 체험 발견). 고른 이유를 한 줄로 적는다.
+- 🔴 30~60초마다 새 정보·새 장면이 나오도록 질문→답→다음 궁금증을 잇는다. 판단이 뒤집히는 대목(Reframe)을 3~4번 둔다.
+- 끝은 Triple Ending: 처음 질문에 답 → 정의를 한 번 더 바꿈 → 처음 장면·물건을 다시 불러 닫음. 마지막 문장은 답하고 싶은 질문.
+- 문장을 베끼지 않는다. 예시에서는 기능(순서·호흡·말맛)만 가져온다.</pre></div>
+<p>통과 기준: 훅 5문장 / 메인·보조 전개 / 중심 질문 1개와 답이 나오는 시각 / Reframe 목록</p>
+<h2 id="STEP-3-아웃라인">STEP 3 · 아웃라인</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre># STEP 3 · 아웃라인 (10~12분, 장편은 17분)
+- 🌸 외국인의 실제 칭찬 → 배경 → 오해·불편 → 외국인 반응으로 반전 → 한국의 저력·자긍심 → 최초 질문 회수.
+- 구간마다: 시간, 내레이션 요지, 쓸 원음 클립(영상 ID·자막 IN/OUT·중국어 원문), 화면 문구, 감정(🟨 질문 🟥 갈등·반전 🟦 근거 🟩 호평·감동).
+- 🔴 숫자는 공식 자료에서 가져오고 출처·날짜를 적는다. 숫자마다 역할(규모·비교·속도)이 있어야 한다.
+- 아웃라인 아래에 &quot;성공 요소 1:1 적용 근거 메모&quot;를 적는다.</pre></div>
+<h2 id="STEP-4-대본-작성">STEP 4 · 대본 작성</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre># STEP 4 · 대본
+- 형식: episodes/&lt;이름&gt;/script_data.py 의 SEQ (예시는 episodes/ramen-20261115/script_data.py).
+    (&#x27;S&#x27;, 구간키, 화면 라벨)
+    (&#x27;N&#x27;, 내레이션 문장, 화면 문구 | &#x27;chart:이름&#x27; | &#x27;&quot;댓글 말풍선 문구&quot;&#x27;, 형광 태그 q|c|e|g|&#x27;&#x27;)
+    (&#x27;C&#x27;, 소스키, IN초, OUT초, 한국어 자막, 형광 태그)
+- 🔴🌸 외국인의 칭찬은 외국인의 실제 목소리로 증명한다. 내 해설은 배경·새 사실·의미를 잇고 같은 칭찬을 반복하지 않는다.
+- 🔵 원음 앞에 소개 1~2문장, 원음 뒤에 의미 한 줄. 약 1분마다 무대(영상·소재)를 바꾼다.
+- 🔵 한국어는 말하듯 쓴다. 한 문장에 생각 하나, 5~18어절. 종결어미(~습니다/~는데요/~거든요/~죠)를 섞고 같은 어미를 세 번 잇지 않는다.
+- 🔵 불리한 평가(비싸다, 별로다)도 실제 발언이면 짧게 넣는다. 그 뒤의 호평이 더 믿음직해진다.
+- 🔴 &quot;영상으로 돌아갑니다&quot;, &quot;댓글을 보겠습니다&quot;, &quot;작은 질문을 드립니다&quot; 같은 진행 설명 금지. ID·H/S 코드·제작 메모를 낭독하지 않는다.
+- 클립은 자막 컷 경계에 맞춰 3~6초(평균 약 4초). 숫자는 READ 표에 한글 읽기를 적는다(예: &#x27;755만 회&#x27; → &#x27;칠백오십오만 회&#x27;).</pre></div>
+<p>명령: <code>python3 -I bin/lint_script.py episodes/&lt;이름&gt;</code> (플랫폼 이름·헤지·메타·클립 길이·자막 일치 검사)</p>
+<h2 id="STEP-5-SEMANTIC-JUDGE-1-1-검수">STEP 5 · SEMANTIC JUDGE 1:1 검수</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre># STEP 5 · 검수
+- 🌸 성공 영상의 훅·전개·감정선 요소별로 새 대본의 문장과 타임코드를 의미 기반 1:1로 맞춘다.
+- 🔴🌸 첫 30초 한국 호평, 외국인 원음 중심의 증거, 반복 질문·답, 반전, 한국의 자긍심이 실제로 전달되는지 본다.
+- 🔴 국내 자화자찬·가짜 발언·다른 인물의 대사 합치기·과장된 해외 열광 표현을 찾아 고친다.
+- 🔵 첫 30초 안에 질문이 있는가 / 질문 사이 간격이 2분을 넘지 않는가 / 플랫폼 이름·헤지 문장이 0개인가.
+- 🔵 원음 클립 프레임을 뽑아 남의 영상·광고가 섞이지 않았는지 눈으로 확인한다.
+- 🟨 질문, 🟥 갈등, 🟦 근거, 🟩 감동을 표시한 1:1 적용표(V4 검수판)를 만든다. 전개 순서를 기계적으로 복제하지 않는다.</pre></div>
+<h2 id="STEP-6-TTS-Qwen3-TTS-Base-새-목소리">STEP 6 · TTS (Qwen3-TTS-Base + 새 목소리)</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre># STEP 6 · 음성
+- 최종 대본의 내레이션만 합성한다. 외국인 실제 음성을 가짜 성우로 재현하지 않는다.
+- python3 -I bin/tts_jsonl.py episodes/&lt;이름&gt;
+- bash /home/yh/ai-work/tts_cosy_prod/qwen_tts.sh episodes/&lt;이름&gt;/build/narration.jsonl episodes/&lt;이름&gt;/build/tts -12
+- 줄마다 3번 만들어 받아쓰기로 가장 정확한 것을 고른다. 받아쓰기 오류율이 높은 줄은 다시 받아써서 숫자 표기 차이인지 발음 문제인지 가른다.
+- 🔴 제작용 메모·ID·H/S 코드가 음성에 들어가지 않았는지 검사한다.</pre></div>
+<h2 id="STEP-7-영상-편집-형식-고정">STEP 7 · 영상 편집 (형식 고정)</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre># STEP 7 · 영상
+- 원음 구간: 원본 클립(약 4초) + 한국어 자막 띠. 원본의 중국어 자막은 띠로 덮는다.
+- 🔵 내레이션 구간: 가지고 있는 원본 영상을 소리 없이, 어둡게(반투명) 깔고 재생한다. 그 위에
+    · 키워드 헤드라인: 흰 굵은 글씨 + 형광 강조(참고 사진 4·6번)
+    · 댓글·인용: 흰 말풍선 + 이모지(참고 사진 5번). 실제 댓글이 없으면 지어내지 않는다.
+    · 그래프: 회색 질감 배경 + [ 제목 ] + 큰 숫자 + 출처(참고 사진 3·7번)
+    · 색: 분홍 + 연두 형광(참고 사진 1·2번)
+- 배경 영상은 &quot;다음 원음 클립 직전 구간&quot;을 쓴다. 남의 영상·광고·큰 자막 카드 구간은 BROLL_FORBID에 적어 피한다.
+- 좌우반전·속도 변경으로 원본을 숨기려 하지 않는다(권리가 생기지 않는다).
+- /home/yh/ai-work/tts_eval/venvs/qwen/bin/python bin/render.py episodes/&lt;이름&gt;
+- 결과: out/&lt;이름&gt;.mp4, subtitles-ko.srt, cut-list.csv(원음 IN/OUT), broll-list.csv(배경), timeline.json
+- 표본 프레임을 뽑아 화면을 확인하고, 길이(≥10분)·내레이션 비율(약 60%)·음량을 잰다.</pre></div>
+<h2 id="STEP-8-페이지-GitHub-기록">STEP 8 · 페이지·GitHub·기록</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre># STEP 8 · 게시
+- python3 -I bin/make_checker_ep.py episodes/&lt;이름&gt; &lt;자막 폴더&gt;   → 검수판용 데이터, 대본 MD
+- python3 -I bin/build_checker.py &lt;Insta 저장소 폴더&gt;              → V4 검수판(탭·형광펜·단계·체크리스트 1:1, 대본 접기/펼치기)
+- bash bin/publish.sh &lt;Insta 저장소 폴더&gt; &quot;&lt;기록 한 줄&gt;&quot;            → research-hub-20261108/kukppong-v4-claude/ 에 올리고 push
+- 🔴 기존 연구 원본을 삭제하거나 간추린 내용으로 바꾸지 않는다. 새 폴더·새 탭으로 추가한다.
+- 완성 MP4는 원본 권리 확인 전까지 GitHub에 올리지 않는다.
+- 🔵 맨 끝에 무엇을 했는지 한 줄 기록 + &quot;by &lt;도구 이름&gt;&quot;.</pre></div>
+<h2 id="금지-표현-V4-0-추가">금지 표현 (V4.0 ⑪ + 추가)</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre>- ❌ &quot;그럼 이제 영상을 보겠습니다.&quot; / &quot;다시 영상으로 돌아가 보겠습니다.&quot; / &quot;댓글을 하나씩 살펴보겠습니다.&quot;
+- ❌ &quot;이제 작은 질문을 드리겠습니다.&quot; / &quot;작은 답이 나왔으니 더 큰 질문으로 넘어갑니다.&quot;
+- ❌ &quot;BILI-118이라는 영상에서 유튜버가 말합니다.&quot; / &quot;제가 영상을 직접 보지는 못했지만…&quot;
+- ❌ &quot;하지만 한국은 이것만이 아닙니다&quot; 같은 전환 문구 반복
+- ❌ 외국인 반응을 다 보여준 뒤 내레이션으로 같은 칭찬을 장황하게 반복
+- ❌ 한국인이나 국내 기관이 한국을 칭찬한 내용을 해외 호평으로 포장
+- ❌ 실제 원문이 없는 외국인 감탄사·인터뷰·해외 방송 내용을 만들어내기
+- ❌ 외국인 한 명의 비판과 다른 사람의 칭찬을 동일 인물의 생각 변화로 편집
+- ❌ &quot;중립적으로 보면&quot; 등의 해설을 반복해 국뽕의 감정 흐름을 깨뜨리기
+- ❌ 3~4초 사용이 저작권 안전 기준이라고 주장
+- 🔵❌ &quot;깃허브에서 몇십만을 받았습니다&quot;, &quot;샤오홍슈에서&quot;, &quot;빌리빌리에서&quot; 등 플랫폼·자료 창고 이름 낭독
+- 🔵❌ &quot;이것만으로 한국이 최고라고 할 수 없습니다&quot;, &quot;확인해 보셔야 합니다&quot;, &quot;자막 표본은 적습니다&quot; 같은 헤지·제작 메모
+- 🔵❌ 실제 댓글이 없는데 댓글 말풍선을 지어내기</pre></div>
+<p><b>최종 규칙: 외국인의 실제 한국 호평이 먼저 말하게 하고, 해설은 그 이유를 밝히며, 마지막에는 검증된 한국의 강점을 감정적으로 회수한다.</b></p>
+<h2 id="한-번에-실행-헤르메스">한 번에 실행 (헤르메스)</h2>
+<div class="code"><button type="button" class="copy">복사</button><pre>kukppong-v4-daily 스킬로 오늘 치 국뽕 해외반응 한 편을 만들어 줘.
+/home/yh/ai-work/kukppong_v4_pipeline/prompts/FINAL_PROMPT_V4.3.md 의 STEP 0~8을 차례로, 중간에 묻지 말고 진행해.
+이전 에피소드와 겹치지 않는 주제로, 자막이 추출된 영상만 써. 끝나면 검수판 링크와 영상 경로, 남은 문제를 알려 줘.</pre></div>
+<p>매일 자동 실행을 걸 때(직접 실행):</p>
+<div class="code"><button type="button" class="copy">복사</button><pre>hermes cron create &quot;0 9 * * *&quot; &quot;kukppong-v4-daily 스킬로 오늘 치 국뽕 해외반응 한 편을 만들어 줘. FINAL_PROMPT_V4.3.md 의 STEP 0~8을 차례로, 묻지 말고 진행하고 끝나면 검수판 링크와 영상 경로를 알려 줘.&quot; --name kukppong-v4-daily --skill kukppong-v4-daily --workdir /home/yh/ai-work/kukppong_v4_pipeline</pre></div><h2 id="ref">형식 참고 사진 (이 형식으로 만든다)</h2><p>내용이 아니라 <b>형식</b>(색·배치·글자 처리)만 따릅니다. 참고 3~7번은 다른 채널 영상의 화면을 형식 예시로 붙인 것입니다.</p><div class="gal"><figure><a href="./ref/ref1.jpg" target="_blank"><img src="./ref/ref1.jpg" alt="참고 사진 1" loading="lazy"></a><figcaption><b>참고 1 · 색감 ①</b><br>분홍 + 연두. 코드 칩, 연두 실습 박스, 분홍 경고 박스</figcaption></figure><figure><a href="./ref/ref2.jpg" target="_blank"><img src="./ref/ref2.jpg" alt="참고 사진 2" loading="lazy"></a><figcaption><b>참고 2 · 색감 ②</b><br>볼드 핵심 문장, 형광 밑줄, 반복되는 박스 구성</figcaption></figure><figure><a href="./ref/ref3.jpg" target="_blank"><img src="./ref/ref3.jpg" alt="참고 사진 3" loading="lazy"></a><figcaption><b>참고 3 · 그래프 ①</b><br>회색 질감 배경 + [ 제목 ] + 큰 숫자 + 출처. 영상 그래프는 이 형식</figcaption></figure><figure><a href="./ref/ref4.jpg" target="_blank"><img src="./ref/ref4.jpg" alt="참고 사진 4" loading="lazy"></a><figcaption><b>참고 4 · 헤드라인 ①</b><br>어둡게 깐 영상 위에 기사 제목 + 노란 형광</figcaption></figure><figure><a href="./ref/ref5.jpg" target="_blank"><img src="./ref/ref5.jpg" alt="참고 사진 5" loading="lazy"></a><figcaption><b>참고 5 · 댓글</b><br>흐리게 깐 영상 위에 흰 말풍선 + 이모지</figcaption></figure><figure><a href="./ref/ref6.jpg" target="_blank"><img src="./ref/ref6.jpg" alt="참고 사진 6" loading="lazy"></a><figcaption><b>참고 6 · 헤드라인 ②</b><br>어둡게 깐 영상 위에 연두 형광 강조</figcaption></figure><figure><a href="./ref/ref7.jpg" target="_blank"><img src="./ref/ref7.jpg" alt="참고 사진 7" loading="lazy"></a><figcaption><b>참고 7 · 그래프 ②</b><br>도넛 두 개 비교 + 검은 라벨</figcaption></figure><figure><a href="./ref/ref8.jpg" target="_blank"><img src="./ref/ref8.jpg" alt="참고 사진 8" loading="lazy"></a><figcaption><b>참고 8 · 대본 페이지 ①</b><br>V4 검수판: 탭, 요약 띠, 전개 흐름, 훅 5문장, 4초 클립 계산</figcaption></figure><figure><a href="./ref/ref9.jpg" target="_blank"><img src="./ref/ref9.jpg" alt="참고 사진 9" loading="lazy"></a><figcaption><b>참고 9 · 대본 페이지 ②</b><br>V4 검수판: 왼쪽 대본(형광펜·단계) ↔ 오른쪽 체크리스트 1:1</figcaption></figure></div><h3>이 형식으로 만든 화면 (라면 편 2판)</h3><p><a href="./ref/result.jpg" target="_blank"><img src="./ref/result.jpg" alt="라면 편 화면 4장" style="width:100%;border-radius:14px;border:1px solid var(--line)"></a></p><h2 id="fewshot">좋은 자막 예시</h2><p>대본을 쓰기 전에 <a href="./fewshot.html">좋은 자막 예시 4편 분석</a>을 읽습니다. 원문 전문은 로컬 <code>/home/yh/ai-work/kukppong_v4_pipeline/fewshot/</code>에 있습니다.</p><h2 id="orig">V4.0 원문 (처음 주신 프롬프트·체크리스트 그대로)</h2><details><summary>펼치기 · 국뽕 해외반응 제작 프롬프트 V4.0 + 최종 제작 체크리스트 V4.0</summary><h1 id="국뽕-해외반응-제작-프롬프트-V4-0"><b>🌸 국뽕 해외반응 제작 프롬프트 V4.0</b></h1>
+<p>기존 <b>STEP 0~5 구조는 그대로 유지</b>하고, 지금까지 요청하신 내용을 추가했습니다. 특히 대본의 방향을 다음처럼 고정하겠습니다.</p>
+<p><b>외국인이 한국을 칭찬한다 → 실제 영상으로 보여준다 → 왜 놀랐는지 해외 평가로 설명한다 → 오해·갈등을 반전시킨다 → 한국의 저력과 자긍심으로 끝낸다.</b></p>
+<p><b>🌸</b></p>
+<p><b>반드시 지킬 핵심 규칙</b></p>
+<p><b>🔴</b></p>
+<p><b>기존 프롬프트에 새로 추가한 규칙</b></p>
+<p>🟩 외국인 호평</p>
+<p>🟨 궁금증</p>
+<p>🟥 갈등·반전</p>
+<p>🟦 해외 근거</p>
+<h2 id="먼저-바뀌는-핵심-5가지"><b>먼저 바뀌는 핵심 5가지</b></h2>
+<div class="tw"><table><thead><tr><th>항목</th><th>새 제작 원칙</th></tr></thead><tbody><tr><td>🌸 해외 평가</td><td><b>외국의 언론·학자·평론가·기자·전문가가 한국을 실제로 평가한 자료</b> 중심</td></tr><tr><td>🌸 외국인 원음</td><td>설명을 길게 반복하지 말고 실제 칭찬하는 장면을 직접 재생</td></tr><tr><td>🌸 감정 전개</td><td>긍정 반응 중심. 실제 비판은 짧게 갈등을 만들고, 근거 있는 호평으로 회수</td></tr><tr><td>🔴 나레이션</td><td>“영상으로 돌아갑시다”, “댓글을 살펴봅시다” 같은 진행 설명 삭제</td></tr><tr><td>🔴 해외 전문성</td><td>해외 논문·IT/게임 전문매체·외국 방송의 평가를 자연스러운 말로 풀어주기</td></tr></tbody></table></div>
+<h2 id="STEP-공통-지시문-최초-1회-입력"><b>STEP 공통 지시문: 최초 1회 입력</b></h2>
+<h1 id="국뽕-해외반응-제작-공통-규칙-V4-0">🇰🇷 국뽕 해외반응 제작 공통 규칙 V4.0</h1>
+<ul><li>🌸 C_ARCHIVE=자료·출처, B_WRITER=대본, SEMANTIC JUDGE=최종 1:1 검수. 기준은 기존 국뽕 연구판과 중국 SNS 수집표, 자막·댓글·성공 영상 분석.</li><li>🌸 주인공은 <b>한국을 경험하고 평가하는 외국인</b>이다. 실제 외국인의 호평·놀라움·감동을 먼저 보여주고 내 나레이션이 그 의미를 자연스럽게 연결한다.</li><li>🔴🌸 <b>한국인이 한국을 칭찬하거나 국내 기관이 한국을 높이 평가한 자료는 해외 호평의 증거로 사용 금지.</b> 해외 기자·언론·방송·게임/IT 전문매체·외국 연구자의 실제 한국 평가만 사용한다. 국내 공식 숫자는 객관적 사실 확인용으로만 제한한다.</li><li>🌸 첫 30초 훅 5문장, 성공 영상 전개·감정선·실제 후기 7개 참고, 질문→답→새 궁금증 반복. 한국의 자긍심·감동으로 회수한다.</li><li>🔴🌸 영상 화면은 권리 확인된 외국인 반응 약 40% + 내 해설·자료화면·그래프·AI 재현 약 60%를 목표로 한다. 음성 시간은 별도로 내 한국어 해설 60% 이상.</li><li>🔴 실제 외국인 발언이 존재하면 해당 장면을 직접 배치한다. 내레이션이 똑같은 칭찬을 반복하거나 댓글·영상으로 이동한다고 설명하지 않는다.</li><li>모든 원문을 사실/번역/추정/창작으로 구분하며, 매 단계 결과 보고 후 중지한다. 승인 전 다음 단계·유료 호출·원본 수정·대량 ASR 금지.</li></ul>
+<p>기준 URL:\</p>
+<p><a href="https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-script-onepage-20261114.html" target="_blank" rel="noopener">https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-script-onepage-20261114.html</a>\</p>
+<p><a href="https://geben147-create.github.io/Insta/국뽕해외반응-중국SNS-20261103/" target="_blank" rel="noopener">https://geben147-create.github.io/Insta/국뽕해외반응-중국SNS-20261103/</a>\</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1z_Ys-QfkRY3GDuD2vQ5N7CDt-RGXcrMyUESst8cQDAY/edit" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1z_Ys-QfkRY3GDuD2vQ5N7CDt-RGXcrMyUESst8cQDAY/edit</a></p>
+<h2 id="STEP-0-3TB-자료-찾기"><b>STEP 0. 📂 3TB 자료 찾기</b></h2>
+<p>권장 모델: LIGHT · 9B</p>
+<h1 id="STEP-0-읽기-전용-원본-조사">STEP 0 · 읽기 전용 원본 조사</h1>
+<ul><li>3TB HDD의 샤오홍슈·틱톡·빌리빌리 MP4/WEBM/WAV 폴더를 실제 경로부터 찾아라.</li><li>GitHub·MASTER 시트의 영상 ID·작성자·원본 URL·자막·댓글·다운로드 이력을 매칭해.</li><li>🔴🌸 <b>한국을 긍정적으로 평가하는 외국인의 실제 발언·표정·장면</b>을 우선 분류하고, 비판·비교·감동·반전 자료도 별도 표시해.</li><li>🔴 영상에 등장하는 인물·계정명과 실제 대사, 화면 자막, 댓글을 구분해. 원문이 없으면 발언을 추측하지 마.</li><li>20개 후보의 파일 위치·길이·활용 가치·권리 상태만 표로 제출하고 중지해. 전체 ASR과 원본 수정은 금지.</li></ul>
+<h2 id="STEP-1-트렌드-TOP-10-해외-평가-조사"><b>STEP 1. 📈 트렌드 TOP 10 + 해외 평가 조사</b></h2>
+<p>권장 모델: HEAVY · 27B</p>
+<h1 id="STEP-1-시의성-해외-호평-주제-선정">STEP 1 · 시의성 × 해외 호평 주제 선정</h1>
+<ul><li>Google Trends 24시간·7일, 네이버 데이터랩, 최신 뉴스에서 한국 관련 급상승과 에버그린 주제 TOP 10을 찾아.</li><li>🔴🌸 각 주제마다 <b>해외 언론·외국 방송·외국 기자·해외 논문·게임/IT 전문매체의 실제 한국 평가</b>를 우선 조사하고 출처·날짜·원문 링크를 붙여.</li><li>🔴 한국 기관의 자화자찬이나 국내 전문가의 한국 칭찬은 해외 호평 근거에서 제외해. 외국 평가와 객관적인 사실 자료를 분리해.</li><li>YouTube VPH는 두 시점의 조회수로만 계산하고, 중국 SNS의 실제 호평 영상·댓글·기존 한국 관련 클립과 연결해.</li><li>시의성·해외 평가의 강도·외국인 원음 확보 가능성·에버그린성으로 TOP 5를 추천하고 근거표 제출 후 중지해.</li></ul>
+<h2 id="STEP-2-실제-후기-7개-훅-전개-Prompt-Pack"><b>STEP 2. 🌸 실제 후기 7개 + 훅·전개 Prompt Pack</b></h2>
+<p>권장 모델: HEAVY · 27B</p>
+<h1 id="STEP-2-Few-shot-Prompt-Pack">STEP 2 · Few-shot / Prompt Pack</h1>
+<ul><li>🌸 기존 성공 영상 상위 1~10위의 훅·전개·감정선·실제 대표 문장을 읽고, 훅 12종+14종과 전개 8종+9종에서 이번 소재에 맞는 구조를 골라.</li><li>🌸 외국인의 한국 호평·감탄·비교·감동을 보여주는 실제 사례 7개를 원문 1~3문장·번역·영상 URL·게시일·조회수·타임코드와 함께 정리해.</li><li>🔴 해외 전문가·언론이 한국을 긍정 평가한 자료 2~5건을 추가하고 실제 발언, 기사 제목, 학술연구의 결론을 구분해.</li><li>🔴 실제 중국인의 긍정 반응을 중심에 놓고 부정 반응은 필요한 갈등·반전 구간에만 사용해. 반박하는 외국인도 다른 실제 외국인의 자료로 연결해.</li><li>훅의 성공 이유·시청자 궁금증·전개 원리·감정 변화·후기 효과를 Prompt Pack/Few-shot으로 만들고 중지해.</li></ul>
+<h2 id="STEP-3-17분-아웃라인-설계"><b>STEP 3. 🌸 17분 아웃라인 설계</b></h2>
+<p>권장 모델: HEAVY · 27B</p>
+<h1 id="STEP-3-17분-아웃라인-승인-전-대본-작성-금지">STEP 3 · 17분 아웃라인 / 승인 전 대본 작성 금지</h1>
+<ul><li>🌸 승인된 주제로 첫 0~30초 <b>한국에 대한 외국인의 호평 + 궁금증</b> 훅 5문장을 만들고, 기존 성공 사례의 전개 주구조·보조구조를 선택해.</li><li>🌸 외국인의 실제 칭찬 → 배경 → 오해·불편 → 해외 자료·외국인 반응으로 반전 → 한국의 저력·자긍심 → 최초 질문 회수로 약 17분을 설계해.</li><li>🔴 30~60초마다 실제 정보나 새로운 장면이 드러나도록 질문→답→다음 궁금증을 연결하고, 감정 변화와 참고 성공 구조를 구간별로 표시해.</li><li>🔴 해외 기사·논문 화면, 공식 숫자의 막대/선그래프, 댓글 카드, 과거 흑백 AI 재현 등 자료 화면과 사용할 외국인 클립 후보 ID를 연결해.</li><li>아웃라인 아래에 <b>성공 요소 1:1 적용 근거 메모</b>와 원본 분초의 확인 여부를 적고, 아웃라인만 제출한 뒤 승인받아.</li></ul>
+<h2 id="STEP-4-17분-대본-실제-해외-영상-연출"><b>STEP 4. 🎬 17분 대본 + 실제 해외 영상 연출</b></h2>
+<p>권장 모델: HEAVY · 27B</p>
+<h1 id="STEP-4-본문-내레이션-화면-편집">STEP 4 · 본문 내레이션 / 화면 편집</h1>
+<ul><li>🌸 승인 아웃라인으로 자연스러운 한국어 17분 대본을 작성하고, 외국인이 한국을 칭찬하는 실제 원음·장면을 중요한 지점에 직접 배치해.</li><li>🔴🌸 <b>외국인의 칭찬은 가능한 한 외국인의 실제 목소리로 증명</b>해. 내 해설은 역사·배경·해외 전문가 평가·새로운 사실을 연결하고 같은 칭찬을 길게 반복하지 마.</li><li>🔴 내레이션에는 “영상으로 돌아갑니다”, “댓글을 보겠습니다”, “작은 질문을 드립니다” 등 제작 진행 설명을 쓰지 말고 장면이 자연스럽게 이어지게 해.</li><li>화면 약 40%는 허가된 해외 영상, 약 60%는 내 자료 화면·해외 기사·그래프·AI 과거 재현으로 구성해. 내 한국어 해설 음성 시간은 별도로 60% 이상을 목표로 해.</li><li>15~30초 장면표에 실제 클립 IN/OUT, 뉴스·논문 캡처, 숫자 카운트업, 줌인·줌아웃·패닝, 감정·출처·권리 상태를 붙여 제출 후 중지해.</li></ul>
+<h2 id="STEP-5-SEMANTIC-JUDGE-1-1-검수"><b>STEP 5. 🌸 SEMANTIC JUDGE 1:1 검수</b></h2>
+<p>권장 모델: ULTRA · 27B</p>
+<h1 id="STEP-5-훅-전개-감정선-의미-기반-검수">STEP 5 · 훅·전개·감정선 의미 기반 검수</h1>
+<ul><li>🌸 성공 참고 영상의 훅·전개·후기·감정선 요소별로 새 대본의 문장과 타임코드를 의미 기반 1:1로 매칭해.</li><li>🔴🌸 첫 30초 한국 호평, 외국인 원음 중심의 증거, 반복 질문·답, 반전, 한국의 자긍심이 실제로 전달되는지 검수해.</li><li>🔴 해외 평가 자료가 정말 외국에서 한국을 평가한 것인지 확인하고, 국내 자화자찬·가짜 발언·다른 인물의 대사 합치기·과장된 해외 열광 표현을 찾아 수정해.</li><li>🔴 “댓글을 보겠습니다”, “이것만이 아닙니다”, “영상으로 돌아갑니다”처럼 반복되는 불필요한 설명과 딱딱한 통계 발표 문장을 제거해.</li><li>🟨 질문, 🟥 갈등, 🟦 근거, 🟩 감동을 표시한 1:1 적용표와 수정 대본을 제출하되, 전개 순서를 기계적으로 복제하지 마.</li></ul>
+<h2 id="STEP-6-승인-대본-무료-TTS-MP3"><b>STEP 6. 🔊 승인 대본 무료 TTS → MP3</b></h2>
+<p>권장 모델: LIGHT 점검 / HEAVY 문제 해결</p>
+<h1 id="STEP-6-음성-완성">STEP 6 · 음성 완성</h1>
+<ul><li>최종 승인된 한국어 대본만 TTS로 합성해. HTTPS 무료 서비스의 상업 조건·과금 여부를 먼저 확인하고, 승인 없으면 기존 로컬 Qwen3-TTS를 사용해.</li><li>🔴 외국인 실제 음성 구간과 내 한국어 해설 구간을 구분해. 실제 외국인 음성을 가짜 성우로 재현하지 마.</li><li>문맥별 WAV 청크를 생성하고 실패 청크만 재시도한 뒤 192kbps MP3·SRT로 병합해.</li><li>실제 길이·발음·빠진 문장·나레이션 비율을 검수하고 narration_master.wav, narration_final.mp3, QC 보고서를 제출해.</li></ul>
+<h2 id="별도-작업-코덱스-OCR-수정"><b>별도 작업. 🛠️ 코덱스 OCR 수정</b></h2>
+<p>대본 제작 단계에는 포함하지 않습니다.</p>
+<h1 id="코덱스-국뽕-연구판-썸네일-OCR-수정">코덱스 · 국뽕 연구판 썸네일 OCR 수정</h1>
+<ul><li>기존 GitHub HTML·데이터·디자인을 보존하고 한국어 OCR의 실제 오인식 원인을 확인해.</li><li>제목 / OCR 추출 글씨 / 이미지 특징을 각각 독립적으로 표시·숨김·접기·삭제·초기화할 수 있게 해.</li><li>기본 화면은 썸네일 사진 + 조회수·날짜·채널만 표시하고, 긴 OCR 결과는 접힌 상태로 유지해.</li><li>한국어·영어 OCR, 이미지 접근 오류, 모바일 동작을 실제 시험하고 추출값·추정값을 구분해 보고해.</li></ul>
+<p>대상:\</p>
+<p><a href="https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-script-onepage-20261114.html" target="_blank" rel="noopener">https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-script-onepage-20261114.html</a></p>
+<h1 id="최종-제작-체크리스트-V4-0"><b>🌸 최종 제작 체크리스트 V4.0</b></h1>
+<p>기존 V3.0의 10개 분야를 유지하고, 새 요구사항을 <b>🔴</b>로 추가했습니다. 중요한 항목에는 <b>🌸</b>를 붙였습니다.</p>
+<h1 id="국뽕-해외반응-영상-제작-체크리스트-V4-0">🇰🇷 국뽕 해외반응 영상 제작 체크리스트 V4.0</h1>
+<h2 id="주제-시의성-조사">① 주제·시의성 조사</h2>
+<ul><li>Google Trends 최근 24시간·7일 관심 급증 주제 조사</li><li>네이버 데이터랩 검색 추이와 주요 뉴스 교차 확인</li><li>관련 영상의 최근 조회 속도 VPH는 두 시점 조회수로 계산</li><li>최신 이슈와 에버그린 주제를 연결</li><li>한국의 문화·기술·음식·서비스 장점이 중심인지 검사</li><li>주제 후보 10개를 먼저 선정하고 사용자 승인 후 진행</li><li>🔴🌸 한국을 높이 평가하는 외국 뉴스·해외 전문가 평가가 있는 소재 우선 선정</li><li>🔴 한국과 무관한 급상승 이슈를 억지로 연결하지 않기</li></ul>
+<h2 id="기존-성공-영상-훅-전개">② 기존 성공 영상·훅·전개</h2>
+<ul><li>기존 GitHub 상위 1~10위 영상의 제목·게시일·조회수 확인</li><li>🌸 기존 연구의 훅 12종·14종, 전개 8종·9종 검토</li><li>높은 성과의 실제 대본 훅·대표 문장·감정선 참고</li><li>주제와 연결되는 실제 참고 사례·후기 7개 선정</li><li>🌸 첫 30초 훅 5문장 구성</li><li>🌸 외국인이 한국을 좋아하거나 놀란 실제 근거로 시작</li><li>🌸 질문 → 해답 → 새로운 의문을 자연스럽게 반복</li><li>억울함·불편·갈등 → 검증 → 반전 → 자긍심 설계</li><li>단순 성공 요소 복제가 아니라 자연스러운 스토리로 재구성</li><li>🔴🌸 성공 영상의 훅·전개가 어떻게 적용됐는지 근거 메모 작성</li><li>🔴 실제 외국인 반응을 훅의 중심에 두고 내 설명은 보조 역할로 사용</li></ul>
+<h2 id="대본-감정선">③ 대본·감정선</h2>
+<ul><li>약 17분 목표 아웃라인을 먼저 작성</li><li>아웃라인을 승인받은 후 전체 대본 작성</li><li>한국어 나레이션·내 의견·해설의 음성 시간 60% 이상</li><li>도입부에 한국의 구체적인 장점과 궁금증 배치</li><li>30~60초마다 정보·의외성·질문 회수 요소 점검</li><li>실제 외국인 반응과 작가의 해석 분리</li><li>중간에 1~2차 감정 반전, 후반에 자긍심 정점 배치</li><li>초반 질문과 약속을 마지막에 회수</li><li>대본에서 ID·제작 단계·메타 설명을 낭독하지 않기</li><li>&#x27;작은 질문입니다&#x27;, &#x27;다음 단계입니다&#x27; 같은 부자연스러운 문장 금지</li><li>🌸 훅·전개·감정선·근거를 문단별 1:1 의미 기반으로 최종 검수</li><li>🔴🌸 외국인이 한국을 칭찬하는 실제 발언을 핵심 감정 구간에 우선 배치</li><li>🔴 긍정 반응이 이야기의 중심이 되도록 하고 부정 반응은 필요한 갈등·반전 구간에서만 활용</li><li>🔴 부정적 인물 한 명을 억지 악역으로 만들지 않기</li><li>🔴 한 문단의 답이 다음 문단의 궁금증으로 자연스럽게 연결되는지 검사</li><li>🔴 나레이션이 외국인 칭찬을 반복 설명하며 흐름을 끊지 않는지 확인</li><li>🔴 해외 평가 자료를 소개할 때 딱딱한 논문 발표 말투 대신 자연스러운 해설 사용</li></ul>
+<h2 id="해외-영상-댓글-수집">④ 해외 영상·댓글 수집</h2>
+<ul><li>3TB HDD의 MP4·WEBM·WAV 자료 목록 확인</li><li>GitHub·Google Sheets의 중국 SNS 수집 자료와 ID 매칭</li><li>기존 자막·번역을 우선 활용하고 필요 구간만 추가 분석</li><li>원본 파일명·URL·게시자·게시일·길이 기록</li><li>실제 사용할 클립의 정확한 IN/OUT 분초 확인</li><li>외국인의 실제 칭찬·비판·놀라움 대사 구분</li><li>댓글은 중국어 원문·한국어 번역·원본 URL 함께 보관</li><li>가상 댓글은 반드시 &#x27;가상 댓글 예시&#x27; 표시</li><li>서로 다른 인물의 경험을 동일 인물의 변화로 편집하지 않기</li><li>🔴🌸 실제 외국인의 칭찬 장면은 말로만 전달하지 말고 가능한 한 영상 자체를 보여주기</li><li>🔴 외국인 원음·화면 자막·번역 댓글의 차이 확인</li><li>🔴 해외 방송·평론가·해설가·전문가의 한국 평가를 긍정·비판으로 구분해 수집</li><li>🔴 실제 한국 비판 → 다른 외국인의 근거 있는 반박 사례가 있다면 연결</li><li>🔴 긍정 발언의 일부만 잘라 원래 취지와 다르게 만들지 않기</li></ul>
+<h2 id="해외-논문-전문성-통계">⑤ 해외 논문·전문성·통계 🌸</h2>
+<ul><li>🌸 소재마다 해외 논문·해외 전문매체·해외 기자의 한국 관련 평가 2~5개 확보</li><li>논문의 제목·저자·발표 연도·주장 검증</li><li>해외 전문매체에 실제 보도된 내용만 인용</li><li>통계 수치·분모·연도·비교 조건 검증</li><li>조회수·좋아요·VPH·매출액을 서로 다른 지표로 표기</li><li>사실과 작가의 해석·성공 이유 가설을 구분</li><li>짧은 숫자 카운트업·막대그래프·선그래프·인포그래픽 설계</li><li>그래프의 원본 데이터·출처를 영상 화면에 표시</li><li>🔴🌸 한국 기관·한국 전문가의 한국 칭찬을 해외 평가 자료로 사용 금지</li><li>🔴 외국 기관이 한국을 단순히 연구한 것과 실제 긍정 평가한 것은 구분</li><li>🔴 해외 게임·IT·과학·경제 전문매체의 실제 한국 평가를 우선 활용</li><li>🔴 해외 자료를 통해 한국 기술·문화가 어떻게 발전했는지 새로운 사실 제공</li><li>🔴 한국 국내 자료는 필요한 객관적 수치의 검증용으로만 사용하고 자화자찬 근거로 사용하지 않기</li><li>🔴 논문·해외 기사 제목과 핵심 내용을 화면 카드로 표시하고 원문·이용 조건 확인</li><li>🔴 전문적인 내용을 어렵게 늘어놓지 말고 외국인 반응의 이유를 밝혀주는 데 사용</li></ul>
+<h2 id="영상-화면-애니메이션">⑥ 영상 화면·애니메이션</h2>
+<ul><li>외국인 자료 영상 약 40% 배치 목표, 사용 허락 확인</li><li>자체 해설·직접 제작 그래픽·합법적 자료 영상 약 60% 배치</li><li>영상 화면 비율과 나레이션 음성 비율은 따로 계산</li><li>주요 질문·반전 순간에만 줌인·줌아웃·패닝 적용</li><li>코딩으로 만든 차트 상승·숫자 카운트·지도 애니메이션 활용</li><li>과거 역사·회상은 저채도·흑백 AI 재현 영상으로 구분</li><li>AI 재현 영상에는 &#x27;AI 재현&#x27; 표시</li><li>외국인 댓글 카드·비포애프터·실제 뉴스 자료를 시각적으로 교차</li><li>15~30초 장면표에 화면·소스·효과·나레이션 연결</li><li>영상 전체의 반복·정적인 구간·시각적 지루함 검토</li><li>🔴🌸 실제 외국인 칭찬 장면은 불필요한 나레이션 없이 바로 재생하도록 편집</li><li>🔴 해외 방송 화면·논문 표지·기사 제목·발표 그래프를 적절히 삽입</li><li>🔴 나레이션 60% 구간에도 직접 만든 그래픽·해외 근거·AI 역사 재현을 적극 사용</li><li>🔴 외국인이 칭찬하는 장면 전후로 같은 내용의 반복 설명을 최소화</li><li>🔴 실제 수치가 없는 그래프 상승 애니메이션은 &#x27;연출 예시&#x27;로 구분</li></ul>
+<h2 id="저작권-상업적-이용">⑦ 저작권·상업적 이용</h2>
+<ul><li>외부 영상 권리자의 명시적 이용 허락 또는 적법한 라이선스 확인</li><li>3~4초 사용이나 나레이션 60%가 면책 규칙이 아님을 확인</li><li>영상 원본·음악·로고·초상 등 별도 권리 확인</li><li>원작자 이름과 출처 링크를 필요한 방식으로 표기</li><li>기사·논문·이미지 캡처의 이용 조건 검토</li><li>무단 재사용 대신 자체 그래픽·AI 오리지널 재현 우선</li><li>Content ID 및 유튜브 재사용 콘텐츠 정책 검토</li><li>🔴 외국인 실제 음성을 변형하거나 가짜 발언으로 재현하지 않기</li><li>🔴 외국인 기사와 학술자료도 인용 범위·이미지 사용 조건 확인</li></ul>
+<h2 id="TTS-오디오-제작">⑧ TTS·오디오 제작</h2>
+<ul><li>최종 승인 원고만 TTS로 변환</li><li>HTTPS 무료 TTS 제공량·상업 조건·과금 여부 확인</li><li>무과금 조건 미확인 시 로컬 Qwen3-TTS 우선</li><li>문맥 단위 오디오 청크 분할 및 실패 청크만 재생성</li><li>narration_master.wav와 narration_final.mp3 생성</li><li>한국어 발음·음량·문장 누락 검수</li><li>SRT 자막과 실제 음성 타임코드 동기화</li><li>목표 17분과 실제 낭독 시간 비교</li><li>🔴 제작용 메모·ID·H/S 코드가 음성에 들어가지 않았는지 검사</li><li>🔴 실제 외국인 클립의 음성과 한국어 나레이션이 중복되지 않게 조정</li></ul>
+<h2 id="HTML-GitHub-최종-결과물">⑨ HTML·GitHub·최종 결과물</h2>
+<ul><li>4색 형광펜: 노랑 질문, 빨강 갈등, 하늘색 근거, 연두 감동</li><li>아웃라인·대본·감정곡선·근거·검수표를 HTML에 통합</li><li>문단별 H/S 코드·참고 영상·적용 근거 표시</li><li>썸네일 사진·제목·OCR 문구·이미지 특징을 독립적으로 숨김/표시</li><li>조회수·채널·게시일은 기본 표시</li><li>모든 영역 펼치기/접기 기능</li><li>MD·HTML·대본·편집표·오디오·출처 링크 함께 보관</li><li>버전별 저장, 기존 원본과 기존 연구 자료 보존</li><li>GitHub 링크와 모바일 화면 실제 작동 확인</li><li>🔴 해외 평가와 국내 객관 자료를 서로 다른 표시로 구분</li><li>🔴 실제 영상·원문 댓글·창작 나레이션을 서로 다른 자료 유형으로 구분</li><li>🔴 기존 연구 원본을 삭제하거나 간추린 내용으로 교체하지 않고 추가·확장</li></ul>
+<h2 id="최종-품질검수">⑩ 최종 품질검수 🌸</h2>
+<ul><li>🌸 첫 30초에서 한국의 긍정 요소와 핵심 궁금증이 명확한가?</li><li>🌸 외국인의 실제 경험과 내 해설이 자연스럽게 이어지는가?</li><li>전문 지식이 어려운 설명이 아니라 새로운 발견으로 작동하는가?</li><li>갈등·반전이 실제 근거에 기반하는가?</li><li>🌸 질문을 던지고 실제 답을 회수하는가?</li><li>🌸 한국의 자긍심이 감정적으로 충분히 전달되는가?</li><li>기존 성공 사례의 훅·전개 원리가 1:1 검수표에 반영됐는가?</li><li>통계·클립·댓글·논문 원문에 허위 표현이 없는가?</li><li>마지막까지 보고 싶게 만드는 다음 궁금증과 감정 회수가 있는가?</li><li>SEMANTIC JUDGE 검수 완료 후 최종 배포 승인받았는가?</li><li>🔴 외국인의 긍정적 평가가 중심이고 내 나레이션이 설명을 독점하지 않는가?</li><li>🔴 해외 논문·언론 평가가 실제로 한국에 대한 것인지 확인했는가?</li><li>🔴 주제가 다르더라도 외국인 호평·갈등·반전·자긍심의 전개 원리가 적용됐는가?</li><li>🔴 영상에 없는 칭찬·부정·극적인 변심을 만들어내지 않았는가?</li></ul>
+<p>---</p>
+<h2 id="반드시-피할-표현-제작-방식">⑪ ❌ 반드시 피할 표현·제작 방식</h2>
+<ul><li>🔴❌ “그럼 이제 영상을 보겠습니다.”</li><li>🔴❌ “다시 영상으로 돌아가 보겠습니다.”</li><li>🔴❌ “댓글을 하나씩 살펴보겠습니다.”</li><li>🔴❌ “이제 작은 질문을 드리겠습니다.”</li><li>🔴❌ “작은 답이 나왔으니 더 큰 질문으로 넘어갑니다.”</li><li>🔴❌ “BILI-118이라는 영상에서 유튜버가 말합니다.”</li><li>🔴❌ “제가 영상을 직접 보지는 못했지만…”</li><li>🔴❌ “하지만 한국은 이것만이 아닙니다”라는 동일한 전환 문구 반복</li><li>🔴❌ 외국인 반응을 다 보여준 뒤 내레이션으로 같은 칭찬을 장황하게 반복</li><li>🔴❌ 모든 구간을 댓글 소개와 댓글 설명만으로 구성</li><li>🔴❌ 한국인이나 국내 기관이 한국을 칭찬한 내용을 해외 호평으로 포장</li><li>🔴❌ 외국 학술지가 한국을 연구했다는 이유만으로 &#x27;세계 석학들이 한국을 극찬&#x27;했다고 과장</li><li>🔴❌ 실제 원문이 없는 외국인 감탄사·인터뷰·해외 방송 내용을 만들어내기</li><li>🔴❌ 외국인 한 명의 비판과 다른 사람의 칭찬을 동일 인물의 생각 변화로 편집</li><li>🔴❌ 부정적인 중국인 의견을 과장해 억지 악역으로 만들기</li><li>🔴❌ 모든 구간에 “중립적으로 보면” 등의 해설을 반복해 국뽕의 감정 흐름을 깨뜨리기</li><li>🔴❌ 17분을 채우기 위해 같은 주장·감정을 표현만 바꿔 반복</li><li>🔴❌ 조회수·VPH·논문 인용을 근거 없이 만들거나 서로 다른 지표를 혼합</li><li>🔴❌ 3~4초 사용이 저작권 안전 기준이라고 주장</li></ul>
+<p><b>최종 규칙: 외국인의 실제 한국 호평이 먼저 말하게 하고, 해설은 그 이유를 밝히며, 마지막에는 검증된 한국의 강점을 감정적으로 회수한다.</b></p>
+<h2 id="최종-운영-방식"><b>최종 운영 방식</b></h2>
+<p><b>0~1</b></p>
+<p>자료·트렌드</p>
+<p><b>2~3</b></p>
+<p>훅·아웃라인</p>
+<p><b>4</b></p>
+<p>대본·영상</p>
+<p><b>5~6</b></p>
+<p>검수·TTS</p>
+<p><b>추천:</b> 위 공통 지시문을 먼저 넣고, <b>STEP 0부터 한 블록씩</b> Hermes에 전달하세요. 작업마다 승인받게 했으므로 자료 수집, 아웃라인, 대본, TTS가 한꺼번에 실행되지 않습니다.</p>
+<p>이번에는 별도의 GitHub나 Google Sheets 파일을 수정하지 않았습니다. 바로 복사해 사용할 수 있는 프롬프트와 체크리스트를 완성했습니다.</p></details><h2 id="log">작업 기록</h2><ul><li>2026-11-15 10:51 · V4 검수판 첫 판(EP01~EP11) — 체크리스트 1:1, 형광펜, 단계 표시, 4초 클립 계산기 — by Claude Desktop</li><li>2026-11-15 15:30 · EP01~EP10 내레이션 TTS(MP4 10개) — Qwen3-TTS CustomVoice — by Claude Desktop</li><li>2026-11-15 17:04 · 라면 편 1판 — 자막 있는 영상 33개 중 5개, 대본·영상(14분 7초)·1:1 페이지 — by Claude Desktop</li><li>2026-11-15 18:36 · 라면 편 2판 — 새 목소리(Qwen3-TTS-Base + voiceB), 내레이션 배경에 원본 영상(어둡게), 댓글 말풍선·그래프 형식, 훅에 일본 비교 추가, &#x27;일본 편의점 브랜드&#x27;로 표현 정정 — by Claude Desktop</li><li>2026-11-15 18:36 · 검수판에 EP12(라면)와 V4.2 두 편 추가, 대본 문단 접기/펼치기, 완성 영상 실측 시간 표시 — by Claude Desktop</li><li>2026-11-15 18:36 · 최종 프롬프트 V4.3 원페이지, 좋은 자막 예시 4편 분석, 헤르메스 스킬(kukppong-v4-daily) 추가 — by Claude Desktop</li><li>2026-11-15 18:37 · 라면 편 2판·V4 검수판·최종 프롬프트 V4.3·좋은 자막 예시를 허브에 게시, 왼쪽 메뉴 맨 위에 추가 — by Claude Desktop</li></ul><footer>by Claude Desktop · 2026-11-15</footer></div><script>document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var t=b.parentNode.querySelector('pre').textContent;
+ (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent='복사됨';setTimeout(function(){b.textContent='복사'},1200)},function(){var r=document.createRange();r.selectNodeContents(b.parentNode.querySelector('pre'));var s=getSelection();s.removeAllRanges();s.addRange(r)})})});</script></body></html>

@@ -70,7 +70,19 @@ function eventsFor(e){
  let insertMap=new Map();b.clips.forEach((c,j)=>{let k=idx[j];insertMap.set(k,[...(insertMap.get(k)||[]),c])});
  lines.forEach((line,i)=>{
   let duration=Math.max(1.2,line.length*60/speed);
-  all.push({from:cur,to:cur+duration,kind:"narration",beat:bi+1,beatName:b.label,text:line,shot:b.scene,asset:"자체 촬영·권리 확보 B-roll / 자체 그래픽",evidence:"각 문장의 내용은 대본·SRT·편집 메모에서 확인",sourceId:"",sourceFrom:"",sourceTo:"",url:"",path:""});
+  const w=b.broll||null, useOriginal=!!w && i%3!==2;
+  const source=data.sources[w?.id]||{};
+  const windowStart=useOriginal?sec(w.start):0;
+  const windowEnd=useOriginal?sec(w.end):0;
+  const sampleLength=Math.min(6,duration,Math.max(1,windowEnd-windowStart));
+  const room=Math.max(0,windowEnd-windowStart-sampleLength);
+  const sampleStart=windowStart+(room?(i*6.5)%room:0);
+  const sampleEnd=sampleStart+sampleLength;
+  const remainder=Math.max(0,duration-sampleLength);
+  all.push({from:cur,to:cur+duration,kind:"narration",beat:bi+1,beatName:b.label,text:line,shot:b.scene,
+    asset:useOriginal?"원본 영상 B-roll 후보, 외국어 원음 OFF "+Math.round(sampleLength*10)/10+"초"+(remainder>0.5?" + 자체 그래픽/보충 화면 "+Math.round(remainder*10)/10+"초":""):"자체 그래픽·지도·직접 제작 화면",
+    evidence:useOriginal?"SRT 시간범위에서 추린 화면 후보. 원본 MP4 프레임·음원/영상 사용권 미검증":"내레이션 주제에 맞춰 자체 그래픽 제작",
+    sourceId:useOriginal?w.id:"",sourceFrom:useOriginal?mm(sampleStart):"",sourceTo:useOriginal?mm(sampleEnd):"",url:useOriginal?(source.url||""):"",path:useOriginal?pathFrom(data,w.id):""});
   cur+=duration;
   for(let c of insertMap.get(i)||[]){
     const from=sec(c.from),cutTo=from+clipDuration;

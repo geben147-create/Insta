@@ -31,12 +31,31 @@ details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9p
 @media(max-width:860px){.mobilebutton{display:block}.toplabel{display:none}.shell{display:block;height:auto;min-height:calc(100dvh - 70px)}.sidebar{position:fixed;top:70px;left:0;width:min(86vw,308px);height:calc(100dvh - 70px);transform:translateX(-110%);transition:transform .2s;box-shadow:var(--shadow);z-index:35}.sidebar.open{transform:translateX(0)}.stage{height:calc(100dvh - 70px)}.pagetop{flex-direction:column}.mainwrap{padding:18px 13px 35px}#sourceFrame{height:calc(100dvh - 260px);min-height:590px}}
 @media(max-width:550px){.brand strong{font-size:14px}.brandmark{height:36px;width:36px}.topbar{padding:0 10px}.toplink{display:none}.stats,.tiles{grid-template-columns:1fr 1fr;gap:7px}.stat{padding:12px}.stat strong{font-size:23px}.tile{min-height:130px;padding:13px}.tile strong{font-size:14px}.flow{grid-template-columns:1fr 1fr}.flow .step{padding:11px;font-size:12px}.hero{padding:19px}}
  .navbtn[data-to="case-study"],.navbtn[data-to="topic-engine"]{background:linear-gradient(90deg,#39205d,#221836);color:#f3dcff;border-color:#7752a4}
+
+/* V6: main research menu is resizable without touching original panels */
+:root{--hub-side-width:286px}
+.shell{grid-template-columns:var(--hub-side-width) 8px minmax(0,1fr)}
+.hub-grip{grid-column:2;position:sticky;top:70px;height:calc(100dvh - 70px);cursor:col-resize;background:linear-gradient(90deg,#152a43,#5999a5,#152a43);border-left:1px solid #385170;border-right:1px solid #385170;opacity:.65;touch-action:none;z-index:42}
+.hub-grip:hover,.hub-grip.drag,.hub-grip:focus-visible{opacity:1;background:linear-gradient(90deg,#354f68,#ffe49f,#354f68);outline:none}
+.sidebar{grid-column:1;min-width:0}
+.stage{grid-column:3}
+@media(max-width:860px){.hub-grip{display:none}.shell{display:block}.stage{grid-column:auto}}
 </style>
 </head>
 <body>
-<header class="topbar"><a class="brand" href="#home"><span class="brandmark">✦</span><span><strong>해외반응 × 국뽕 대본·클립 연구 허브</strong><small>자료 찾기 · 급등 분석 · 저작권 · 실행 프롬프트</small></span></a><div class="topright"><a class="toplink" href="./foreign-reactions-v5/index.html" style="background:#59451f;color:#fff0b5;border-color:#ddbb6e;font-weight:900" title="외국인의 한국 실제 반응 대본 10개·2편 10분">🇰🇷 NEW · 외국인 반응 대본 V5</a><span class="toplabel">2026.11.08 기준 · 기존 연구 보존</span><a class="toplink" href="https://github.com/geben147-create/Insta/tree/main/research-hub-20261108" target="_blank" rel="noopener">GitHub 원본</a><button class="mobilebutton" id="menuToggle" type="button">☰ 메뉴</button></div></header>
+<header class="topbar"><a class="brand" href="#home"><span class="brandmark">✦</span><span><strong>해외반응 × 국뽕 대본·클립 연구 허브</strong><small>자료 찾기 · 급등 분석 · 저작권 · 실행 프롬프트</small></span></a><div class="topright"><a class="toplink" href="./foreign-reactions-v6/index.html" style="background:#2d604d;color:#fff3ae;border-color:#ffc25c;font-weight:900">🇰🇷 V6 · 7분 대본 by GPT</a><a class="toplink" href="./foreign-reactions-v5/index.html" style="background:#59451f;color:#fff0b5;border-color:#ddbb6e;font-weight:900" title="외국인의 한국 실제 반응 대본 10개·2편 10분">🇰🇷 NEW · 외국인 반응 대본 V5</a><span class="toplabel">2026.11.08 기준 · 기존 연구 보존</span><a class="toplink" href="https://github.com/geben147-create/Insta/tree/main/research-hub-20261108" target="_blank" rel="noopener">GitHub 원본</a><button class="mobilebutton" id="menuToggle" type="button">☰ 메뉴</button></div></header>
 <div class="shell">
 <aside class="sidebar" id="sidebar" aria-label="자료 목차">
+<details class="navgroup" open id="v6-foreign-first" style="margin:0 0 13px;padding:10px;background:linear-gradient(128deg,#28473e,#28384f);border:2px solid #f3d57c;border-radius:13px">
+<summary class="grouptitle" style="font-size:13px;color:#ffe9a8;cursor:pointer">🇰🇷 TOP · 외국인 반응 중심 대본 V6 · By GPT</summary>
+<a class="navbtn" href="./foreign-reactions-v6/index.html" style="display:block;text-decoration:none;font-weight:900;color:#fff1c6;background:#4b4334;border:1px solid #928051">🎞 V6 대본 · 7분 2편 / 105컷 1:1 검수</a>
+<details open style="margin:6px 0 0 12px;border-left:2px solid #a8c8d8;padding-left:8px"><summary style="font-weight:850;font-size:11px;cursor:pointer;color:#cdeaff">📜 각 대본을 한 페이지로</summary>
+<a class="navbtn sub" href="./foreign-reactions-v6/ep01.html" style="text-decoration:none;color:#ffeac9">① 중국인의 한국 편의점·라면 반응</a>
+<a class="navbtn sub" href="./foreign-reactions-v6/ep02.html" style="text-decoration:none;color:#ffeac9">② T1 PC방 중국인·한중일 비교</a>
+</details>
+<a class="navbtn sub" href="https://chatgpt.com/share/6af9a531-e180-83e8-a7f5-82de9f9ddcf9" target="_blank" rel="noopener" style="color:#bbdfed;text-decoration:none">✦ By GPT · 대본8.18 프로젝트 원본 대화</a>
+<p style="font-size:11px;color:#b8d6e5;margin:8px">↔ 왼쪽 경계선 드래그: 메뉴 폭 조절</p>
+</details>
 <details class="navgroup" open style="border:2px solid #ffd16c;border-radius:14px;background:linear-gradient(145deg,#2c3850,#172c48);padding:10px;margin:0 0 12px">
 <summary class="grouptitle" style="color:#ffe29b;font-size:13px;cursor:pointer">🇰🇷 최상단 NEW · 외국인이 본 한국 V5</summary>
 <a class="navbtn" href="./foreign-reactions-v5/index.html" style="text-decoration:none;color:#fff5c7;font-weight:900;background:#503f28;padding:10px">🏆 아웃라인 TOP10 · 자료 근거·훅</a>
@@ -128,6 +147,7 @@ details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9p
 <div class="navgroup" id="foreign-praise-outline-menu"><div class="grouptitle">08 · 🇰🇷 외국인 호평 중심 · 17분 아웃라인 10편</div><a class="navbtn" href="./kukppong-17min-foreign-praise-top10-20261115.html" style="display:block;text-decoration:none;color:#eaffdd;background:linear-gradient(95deg,#165447,#352340);border:1px solid #95cbb3;border-radius:9px;padding:12px;font-weight:850">🌍 국뽕 아웃라인 TOP10<br><small>중국인 실제 반응 · 훅 50문장 · 감정선 · 1:1 매칭 · MD</small></a></div>
 <div class="sidenote">🌸 = 이번 통합에서 새로 붙인 설명·검증·프롬프트. 원본 페이지·기존 분석 내용은 그대로 유지했습니다.<br><br>✅ 관측값 · 🧮 계산값 · ⚠️ 추정 · ⛔ 확인 불가를 구분합니다.</div>
 </aside>
+<div class="hub-grip" id="hub-grip" role="separator" aria-label="왼쪽 메뉴 폭 조절" tabindex="0" aria-orientation="vertical" title="드래그로 메뉴 폭 변경 · 더블클릭 초기화"></div>
 <main class="stage" id="stage"><div class="mainwrap">
 <div class="pagetop"><div><div id="eyebrow" class="eyebrow">RESEARCH COMMAND CENTER</div><h1 id="pageTitle">해외반응 · 국뽕 콘텐츠 통합 연구실</h1><p id="pageDesc">흩어진 GitHub 자료를 한 화면에서 읽고, 추가 검색 및 저작권 보완을 바로 실행할 수 있도록 묶었습니다.</p></div><div class="pageactions"><a id="openOriginal" class="openlink hidden" target="_blank" rel="noopener">↗ 원본 화면 크게 보기</a><button type="button" id="backHome" class="smallbtn">⌂ 처음으로</button></div></div>
 <section class="panel on" data-panel="home"><div class="hero" style="background:linear-gradient(110deg,#15513b,#1a2544);border:1px solid #9aca8f"><div class="eyebrow">NEW · SOURCE-BASED OUTLINE · 2026.11.15</div><h2>🇰🇷 외국인에게 사랑받은 한국 · 17분 국뽕 아웃라인 10편</h2><p>실제 중국인 댓글·영상 제목 → 한국 칭찬 → 오해·갈등 → 외국인 경험·근거 → 자긍심 / 훅 50문장 · 80개 구간</p><a class="toplink" href="./kukppong-17min-foreign-praise-top10-20261115.html" style="display:inline-block;margin-top:10px;background:#c8ebb4;color:#163827;font-weight:900">아웃라인 10편 새 연구판 열기 ↗</a></div><div class="hero" style="background:linear-gradient(100deg,#39213a,#124c44);border:1px solid #cdbb8b"><div class="eyebrow">NEW · 17MIN SCRIPT 06–10 · 2026.11.15</div><h2>🎧 남은 국뽕 대본 5편 · 97문단</h2><p>마켓·KTX·대학식당·K드라마·온열 의자 · 훅·감정선·실제 근거 · 브라우저 듣기·1:1 검수</p><a class="toplink" href="./kukppong-scripts-06-10-20261115.html" style="display:inline-block;background:#f4d68d;color:#241b28;font-weight:900;padding:10px">대본 ⑥~⑩ 전체 보기 ↗</a></div><div class="hero" style="background:linear-gradient(110deg,#174434,#251e39);border:1px solid #88ac8a"><div class="eyebrow">NEW · 5 ORIGINAL SCRIPTS · 2026.11.15</div><h2>🎬 국뽕 해외반응 대본 5편 · 89개 문단</h2><p>각 대본의 H/S 훅·전개 매칭, 한국어 나레이션, 감정곡선, 사실 근거, 자체 영상 그래픽·줌 애니메이션 인수인계</p><a class="toplink" href="./kukppong-top5-original-scripts-20261115.html" style="display:inline-block;margin-top:10px;background:#c2e8bd;color:#112b1b;font-weight:900">대본 5편 시각화 대시보드 열기 ↗</a></div><div class="hero" style="background:linear-gradient(110deg,#173547,#2b1732);border:1px solid #4c7695"><div class="eyebrow">TOP 10 · VERIFIED SOURCES · 2026.11.14</div><h2>🇰🇷 중국 SNS 300건 × 최신 트렌드 · 17분 아웃라인 10종</h2><p>훅 5문장 · 17분 구간 설계 · 4색 감정선 · 7개 실제 댓글·후기 구조 · 검증 메모</p><a class="toplink" href="./kukppong-outline-top10-20261114.html" style="display:inline-block;margin-top:10px;background:#b3e8ff;color:#10283b;font-weight:900">17분 TOP10 연구판 열기 ↗</a></div><div class="hero" style="background:linear-gradient(110deg,#0e3a2e,#261420);border:1px solid #7d876f"><div class="eyebrow">NEW · ONE PAGE · 2026.11.14</div><h2>🧠 썸네일 → 훅 → 전개 → 감정 흐름 → 대표 문장 → 영상 편집</h2><p>27편 썸네일 · 훅 원문 22편 · 훅 유형 12+14종 · 전개 8+9종 · 감정선과 대표 문장 22편 · 제목/문구 숨김 체크</p><a class="toplink" href="./kukppong-script-onepage-20261114.html" style="display:inline-block;margin-top:10px;background:#e8ce91;color:#0d2725;font-weight:900">한 페이지 작업판 열기 ↗</a></div>
@@ -265,6 +285,19 @@ GitHub 순수 Threads 로직: https://github.com/geben147-create/only-thread-log
 </div></main>
 </div>
 <div class="toast" id="toast" role="status" aria-live="polite">복사 완료</div>
+<script>
+// Draggable menu boundary: persisted locally, keyboard arrows and double-click reset.
+(function(){var grip=document.getElementById('hub-grip');if(!grip)return;
+var saved=Number(localStorage.getItem('kukppong-hub-side-width')||0);
+function setWidth(n){n=Math.min(640,Math.max(210,Math.round(n)));document.documentElement.style.setProperty('--hub-side-width',n+'px');localStorage.setItem('kukppong-hub-side-width',String(n))}
+if(saved>=210&&saved<=640)setWidth(saved);
+grip.addEventListener('pointerdown',function(e){e.preventDefault();grip.setPointerCapture(e.pointerId);grip.classList.add('drag')});
+grip.addEventListener('pointermove',function(e){if(grip.hasPointerCapture(e.pointerId))setWidth(e.clientX)});
+grip.addEventListener('pointerup',function(e){grip.classList.remove('drag');if(grip.hasPointerCapture(e.pointerId))grip.releasePointerCapture(e.pointerId)});
+grip.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key==='ArrowLeft'||e.key==='Home'){e.preventDefault();setWidth(e.key==='Home'?286:(Number(localStorage.getItem('kukppong-hub-side-width'))||286)+(e.key==='ArrowRight'?16:-16))}});
+grip.addEventListener('dblclick',function(){setWidth(286)});
+})();
+</script>
 <script>
 (function(){
 'use strict';

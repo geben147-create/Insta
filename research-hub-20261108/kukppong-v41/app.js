@@ -63,6 +63,24 @@ function splitSentences(text){
  // Split only at sentence-ending punctuation, preserving all original text in order.
  return (String(text||"").trim().match(/[^.!?。！？]+[.!?。！？]+(?:["”’)]*)|[^.!?。！？]+$/g)||[]).map(s=>s.trim()).filter(Boolean)
 }
+function shotFor(line,fallback){
+ const t=String(line||"");
+ const tests=[
+ [/1,?100원|4,?000원|4,?500원|1만 6,?600원|2만 2,?900원|1,?700원|100위안|96위안|102위안|가격표|잔액/,"숫자·영수증·가격표 비교 그래픽: 출처 영상의 해당 금액을 자막으로 명시"],
+ [/직원|무인|셀프|계산대|문을 열|가게 안/,"가게 입구·무인 안내·계산 동선·직원 없는 조리 공간, 얼굴 사용권 확인"],
+ [/매운|양념|고추|국물|소스|콩나물|물을|조리대|끓일|끓여/,"매운맛 포장·양념 붓기·물 끓기·면발 클로즈업 및 단계별 자막"],
+ [/한글|너구리|옷핀|글자|봉지|진열대|라면을 고르/,"라면 선반·실제 포장 글씨 클로즈업·읽기 어려움 표시"],
+ [/친구|서로|가위바위보|농담|장난|웃음/,"친구들 대화·손짓·가위바위보·리액션 컷, 원음 켜기 전후 호흡 맞춤"],
+ [/치즈|떡|전자레인지|4분 30초|늘어나|조합/,"치즈가 늘어나는 음식 접사·전자레인지 4:30 타이머·조리 순서"],
+ [/단백질|말차|바나나|씹기|첫 시식|질감/,"말차 단백질바·바나나맛 음료·먹기 전후 리액션 대비"],
+ [/2\+1|1\+1|행사|할인|장바구니|음료|컵라면/,"행사 스티커·상품 쌓기·장바구니·프로모션 계산표"],
+ [/돼지고기|김치|반찬|한 그릇|식감|맛을 보|한입/,"완성 음식·먹는 손·표정 변화·긍정/아쉬움 자막 분리"],
+ [/관광객|여행객|집에서|밖에서|어디서|다시 오|방문/,"여행자 시선·식탁과 거리 전환·질문형 전환 컷"],
+ [/여러분|어떻게|하겠습니까|추천/,"도입 장면 콜백 + 시청자 선택 질문 두 갈래 카드"]
+ ];
+ for(const [re,shot] of tests){if(re.test(t))return shot;}
+ return fallback;
+}
 function eventsFor(e){
  let cur=0,all=[];e.beats.forEach((b,bi)=>{
  let lines=splitSentences(b.text),n=lines.length;
@@ -71,7 +89,7 @@ function eventsFor(e){
  let insertMap=new Map();b.clips.forEach((c,j)=>{let k=idx[j];insertMap.set(k,[...(insertMap.get(k)||[]),c])});
  lines.forEach((line,i)=>{
   let duration=Math.max(1.2,line.length*60/speed);
-  const w=b.broll||null, useOriginal=!!w && i%3!==2;
+  const alt=b.broll2||null, w=alt&&new RegExp(alt.match||"(?!x)x").test(line)?alt:(b.broll||null), useOriginal=!!w && i%3!==2;
   const source=data.sources[w?.id]||{};
   const windowStart=useOriginal?sec(w.start):0;
   const windowEnd=useOriginal?sec(w.end):0;
@@ -80,7 +98,7 @@ function eventsFor(e){
   const sampleStart=windowStart+(room?(i*6.5)%room:0);
   const sampleEnd=sampleStart+sampleLength;
   const remainder=Math.max(0,duration-sampleLength);
-  all.push({from:cur,to:cur+duration,kind:"narration",beat:bi+1,beatName:b.label,text:line,shot:b.scene,
+  all.push({from:cur,to:cur+duration,kind:"narration",beat:bi+1,beatName:b.label,text:line,shot:shotFor(line,b.scene),
     asset:useOriginal?"원본 영상 B-roll 후보, 외국어 원음 OFF "+Math.round(sampleLength*10)/10+"초"+(remainder>0.5?" + 자체 그래픽/보충 화면 "+Math.round(remainder*10)/10+"초":""):"자체 그래픽·지도·직접 제작 화면",
     evidence:useOriginal?"SRT 시간범위에서 추린 화면 후보. 원본 MP4 프레임·음원/영상 사용권 미검증":"내레이션 주제에 맞춰 자체 그래픽 제작",
     sourceId:useOriginal?w.id:"",sourceFrom:useOriginal?mm(sampleStart):"",sourceTo:useOriginal?mm(sampleEnd):"",url:useOriginal?(source.url||""):"",path:useOriginal?pathFrom(data,w.id):""});

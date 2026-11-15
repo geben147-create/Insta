@@ -52,6 +52,7 @@ function renderIndex(){
  '<section class="panel" style="margin-top:15px"><h2>📚 제공된 등산 영상: 도입·전개 참고 예시</h2>'+
  '<div class="refbox"><b>「외국인 등산객 73만 명 몰린 한국 산」</b> '+lab("대본에 사실 차용 금지","warn")+
  '<p>참고한 장치는 <strong>호평 선공개 → 한국인의 평범한 일상 → 외국인 시점의 발견 → 작은 감탄 → 다른 사례 → 사람·공간의 의미 → 질문 회수</strong>입니다. 등산객 발언·숫자·국립공원 장면은 라면이나 편의점 이야기의 실제 근거로 쓰지 않았습니다.</p>'+
+ '<details style="margin:12px 0"><summary style="cursor:pointer;color:#f9d28e;font-weight:850">🗣 제공된 등산 자막 예시 8개 펼치기 · 구간별 분석</summary><div class="cuegrid">'+data.benchmarkSamples.map(s=>'<div class="cue"><div class="sourcehead">'+lab(s.time,"info")+' '+lab(s.method,"warn")+'</div><div class="orig">'+esc(s.line)+'</div></div>').join("")+'</div><small>'+esc(data.benchmarkTranscriptStatus)+'</small></details>'+
  '<a href="'+esc(data.benchmark.url)+'" target="_blank" rel="noopener">참고 영상 열기</a></div></section>'+
  '<section class="panel"><h2>🔴 실제 영상 사용 전 필수 확인</h2><p class="subtle">저장 조회수는 현재 조회수가 아닙니다. 외국인의 중국어 원음과 자막 자동인식 오류를 대조한 뒤 컷을 확정하세요. 원본 영상의 사용권한은 <strong>UNCONFIRMED</strong>로 수집표에 기록되어 있습니다. 3~6초 컷, 뒤집기, 크롭, 속도 변경만으로 저작권 문제가 해결되는 것은 아닙니다.</p>'+
  '<p><a href="../../reactions-downloads/index.html">영상 다운로드 목차 열기</a> · <a href="./dataset.json">전체 대본·타임코드 JSON 열기</a></p></section>';

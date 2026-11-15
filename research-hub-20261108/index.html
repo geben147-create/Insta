@@ -40,13 +40,48 @@ details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9p
 .sidebar{grid-column:1;min-width:0}
 .stage{grid-column:3}
 @media(max-width:860px){.hub-grip{display:none}.shell{display:block}.stage{grid-column:auto}}
+
+/* Compact, user-sortable left navigation. Original research content unchanged. */
+.sidebar{padding:8px 8px 18px}
+.sidebar .navsearch{padding:7px 9px;margin:0 0 5px;font-size:12px}
+.menu-toolbar{display:flex;align-items:center;justify-content:space-between;gap:4px;padding:3px 2px 6px;color:#a9c8e1;font-size:10.5px;line-height:1.25}
+.menu-toolbar button{padding:3px 7px;border:1px solid #486687;border-radius:6px;background:#1c3657;color:#e5f4ff;white-space:nowrap;font-size:10.5px}
+.menu-toolbar button:hover{background:#305478}
+#menuGroups>.navgroup{position:relative;margin:0 0 5px!important;padding:5px 7px!important;border:1px solid #314763;border-radius:9px!important;box-shadow:none!important}
+#menuGroups>.navgroup.navpriority{background:linear-gradient(130deg,#44263c,#1c4053)!important;border:2px solid #dcae75!important;padding:7px 8px!important}
+#menuGroups .grouptitle{margin:0 29px 4px 1px!important;font-size:11.5px!important;line-height:1.35;letter-spacing:0!important;text-transform:none}
+#menuGroups summary.grouptitle{padding:3px 0;cursor:pointer}
+#menuGroups .navbtn{padding:5px 7px!important;margin:1px 0!important;min-height:0;border-radius:7px!important;font-size:12px;line-height:1.32;box-shadow:none}
+#menuGroups .navbtn.sub{padding-left:15px!important;font-size:11.5px}
+#menuGroups .navbtn .i{width:17px;font-size:13px}
+#menuGroups .navbtn[draggable="true"]{cursor:grab}
+#menuGroups .navbtn[draggable="true"]:active{cursor:grabbing}
+#menuGroups .navbtn[draggable="true"]::before{content:"⠿";display:inline-block;flex:none;opacity:.65;font-size:11px;margin-right:4px;color:#9ab8d6}
+#menuGroups .navpriority .navpriority-link{font-weight:800;color:#fff2dc;border-left:2px solid #f4c677}
+#menuGroups details details{margin:3px 0 2px 7px!important;padding-left:7px!important;border-radius:4px}
+#menuGroups details details summary{font-size:11px!important;padding:3px 0!important;line-height:1.3}
+#menuGroups .navgroup p{margin:3px 0!important;font-size:10.5px!important;line-height:1.35}
+#menuGroups .navgroup .navbtn small{font-size:10px}
+.menu-drag-handle{position:absolute;top:5px;right:5px;width:23px;height:23px;display:grid;place-items:center;padding:0;border:1px solid #52708a;border-radius:6px;background:#1c2f4f;color:#c7e6f3;font-size:14px;cursor:grab;touch-action:none;z-index:2}
+.menu-drag-handle:hover,.menu-drag-handle:focus-visible{background:#3c5a74;color:white;border-color:#eec784}
+.menu-drag-handle:active{cursor:grabbing}
+#menuGroups .menu-dragging{opacity:.48;outline:2px dashed #f2c475;outline-offset:-2px}
+.sidebar .sidenote{margin:8px 2px;padding:8px;border-radius:8px;font-size:10.5px;line-height:1.45}
+@media(max-width:860px){.sidebar{padding:8px 7px 18px}#menuGroups>.navgroup{margin-bottom:4px!important}}
 </style>
 </head>
 <body>
 <header class="topbar"><a class="brand" href="#home"><span class="brandmark">✦</span><span><strong>해외반응 × 국뽕 대본·클립 연구 허브</strong><small>자료 찾기 · 급등 분석 · 저작권 · 실행 프롬프트</small></span></a><div class="topright"><a class="toplink" href="./foreign-reactions-v88/index.html" style="background:#255e60;color:#fff1b1;border-color:#81d6dd;font-weight:900" title="외국인 한국 반응 V8.8 새 주제 10개와 대본 2편">🇰🇷 NEW V8.8 · 외국인 실제 반응 10편</a><a class="toplink" href="./foreign-reactions-v7-20261115/index.html" style="background:#365c59;color:#fff5cf;border-color:#e7c078;font-weight:900" title="실제 외국인의 한국 평가 · 신규 10편">🌍 NEW · 10편 외국인 평가 V7</a><a class="toplink" href="./foreign-reactions-v6/index.html" style="background:#2d604d;color:#fff3ae;border-color:#ffc25c;font-weight:900">🇰🇷 V6 · 7분 대본 by GPT</a><a class="toplink" href="./foreign-reactions-v5/index.html" style="background:#59451f;color:#fff0b5;border-color:#ddbb6e;font-weight:900" title="외국인의 한국 실제 반응 대본 10개·2편 10분">🇰🇷 NEW · 외국인 반응 대본 V5</a><span class="toplabel">2026.11.08 기준 · 기존 연구 보존</span><a class="toplink" href="https://github.com/geben147-create/Insta/tree/main/research-hub-20261108" target="_blank" rel="noopener">GitHub 원본</a><button class="mobilebutton" id="menuToggle" type="button">☰ 메뉴</button></div></header>
 <div class="shell">
 <aside class="sidebar" id="sidebar" aria-label="자료 목차">
-<details class="navgroup" open id="v88-foreigner-reactions" style="margin:0 0 16px;padding:12px;background:linear-gradient(130deg,#133c57,#28315c 64%,#4e284b);border:2px solid #7adee2;border-radius:15px;box-shadow:0 10px 25px #0004">
+<details class="navgroup navpriority" open id="priority-scripts">
+<summary class="grouptitle">⭐ 대본·클립 필수 메뉴 · V4 검수판 by Claude Desktop</summary>
+<a class="navbtn navpriority-link" href="./kukppong-script-onepage-20261114.html">📌 새 대본·클립 원페이지 작업판</a>
+<a class="navbtn navpriority-link" href="./kukppong-v4-claude/prompt.html">📌 최종 프롬프트 V4.3 · 원페이지 (경로·링크·TTS·참고 사진)</a>
+<a class="navbtn navpriority-link" href="./kukppong-v4-claude/fewshot.html">📝 좋은 자막 예시 4편 분석 (퓨샷)</a>
+<a class="navbtn navpriority-link" href="./kukppong-v4-claude/index.html">✅ V4 검수판 · EP12 라면 편(새 영상) + 대본 13편</a>
+</details>
+<details class="navgroup" id="v88-foreigner-reactions" style="margin:0 0 16px;padding:12px;background:linear-gradient(130deg,#133c57,#28315c 64%,#4e284b);border:2px solid #7adee2;border-radius:15px;box-shadow:0 10px 25px #0004">
 <summary class="grouptitle" style="font-size:14px;color:#fff1b7;cursor:pointer;font-weight:950">🌍🥇 최상단 NEW V8.8 · 외국인의 한국 평가</summary>
 <a class="navbtn" href="./foreign-reactions-v88/index.html" style="display:block;text-decoration:none;color:#ffedb7;font-weight:900;background:#21465e;border:1px solid #b7d8d7;padding:9px;margin:9px 0;border-radius:9px">🏆 중복 없는 신규 아웃라인 10개 · 결과판</a>
 <details open style="margin:7px 0 0 7px;border-left:3px solid #7adee2;padding-left:9px">
@@ -67,9 +102,9 @@ details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9p
 </details>
 <div style="font-size:11px;margin-top:8px;color:#b8dbea">🟨 호평 · 🩷 비판 · 🩵 검증 | 원문 자막·원본 초·편집표</div>
 </details>
-<details class="navgroup" open id="v7-foreign-first" style="margin:0 0 15px;padding:12px;background:linear-gradient(120deg,#24475b,#373051);border:2px solid #f5cb7c;border-radius:14px;box-shadow:0 6px 22px #0003"><summary class="grouptitle" style="font-size:13px;color:#ffe6af;cursor:pointer;font-weight:950">🌍 최상단 NEW V7 · 외국인이 평가한 한국 10편</summary><a class="navbtn" href="./foreign-reactions-v7-20261115/index.html" style="display:block;text-decoration:none;font-weight:900;color:#fff3b8;background:#3c5656;border:1px solid #7bc7ac;border-radius:8px;margin:7px 0">🏆 10개 신규 아웃라인 전체 결과</a><details open style="margin:6px 0 0 8px;border-left:2px solid #8cc8d8;padding-left:8px"><summary style="font-size:12px;font-weight:800;color:#d1f7f3;cursor:pointer">📝 왼쪽 하위 메뉴 · 한 페이지당 한 주제</summary><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep01.html" style="display:block;color:#ffdea9;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">01 · 🛡️ K2 · 중국 비판 vs 폴란드군 <small style="font-size:10px;opacity:.75">(10분 전체 원고)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep02.html" style="display:block;color:#ffdea9;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">02 · 🚘 중국 차주 현대차 8점 <small style="font-size:10px;opacity:.75">(10분 전체 원고)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep03.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">03 · 🔌 한국 가전 OEM·LG <small style="font-size:10px;opacity:.75">(아웃라인)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep04.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">04 · 🏭 한국 제조업·영양제 공장 <small style="font-size:10px;opacity:.75">(아웃라인)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep05.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">05 · 🗳️ 중국인 명동 시위 목격 <small style="font-size:10px;opacity:.75">(자료 보강)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep06.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">06 · 🇷🇺 러시아인의 한국 평가 <small style="font-size:10px;opacity:.75">(아웃라인)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep07.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">07 · ⚽ 박지성 · 중국 축구 <small style="font-size:10px;opacity:.75">(아웃라인)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep08.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">08 · 🏟️ 손흥민 · 중국 평론 <small style="font-size:10px;opacity:.75">(아웃라인)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep09.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">09 · 🏹 한국 양궁·중국 지도자 <small style="font-size:10px;opacity:.75">(자료 보강)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep10.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">10 · 🚴 중국 라이더·서울 자전거 <small style="font-size:10px;opacity:.75">(자료 보강)</small></a></details><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep01.html#timeline" style="display:block;color:#b7f3db;text-decoration:none">🎬 K2 · 30컷 편집표</a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep02.html#timeline" style="display:block;color:#b7f3db;text-decoration:none">🎬 현대차 · 30컷 편집표</a></details>
+<details class="navgroup" id="v7-foreign-first" style="margin:0 0 15px;padding:12px;background:linear-gradient(120deg,#24475b,#373051);border:2px solid #f5cb7c;border-radius:14px;box-shadow:0 6px 22px #0003"><summary class="grouptitle" style="font-size:13px;color:#ffe6af;cursor:pointer;font-weight:950">🌍 최상단 NEW V7 · 외국인이 평가한 한국 10편</summary><a class="navbtn" href="./foreign-reactions-v7-20261115/index.html" style="display:block;text-decoration:none;font-weight:900;color:#fff3b8;background:#3c5656;border:1px solid #7bc7ac;border-radius:8px;margin:7px 0">🏆 10개 신규 아웃라인 전체 결과</a><details open style="margin:6px 0 0 8px;border-left:2px solid #8cc8d8;padding-left:8px"><summary style="font-size:12px;font-weight:800;color:#d1f7f3;cursor:pointer">📝 왼쪽 하위 메뉴 · 한 페이지당 한 주제</summary><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep01.html" style="display:block;color:#ffdea9;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">01 · 🛡️ K2 · 중국 비판 vs 폴란드군 <small style="font-size:10px;opacity:.75">(10분 전체 원고)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep02.html" style="display:block;color:#ffdea9;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">02 · 🚘 중국 차주 현대차 8점 <small style="font-size:10px;opacity:.75">(10분 전체 원고)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep03.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">03 · 🔌 한국 가전 OEM·LG <small style="font-size:10px;opacity:.75">(아웃라인)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep04.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">04 · 🏭 한국 제조업·영양제 공장 <small style="font-size:10px;opacity:.75">(아웃라인)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep05.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">05 · 🗳️ 중국인 명동 시위 목격 <small style="font-size:10px;opacity:.75">(자료 보강)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep06.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">06 · 🇷🇺 러시아인의 한국 평가 <small style="font-size:10px;opacity:.75">(아웃라인)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep07.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">07 · ⚽ 박지성 · 중국 축구 <small style="font-size:10px;opacity:.75">(아웃라인)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep08.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">08 · 🏟️ 손흥민 · 중국 평론 <small style="font-size:10px;opacity:.75">(아웃라인)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep09.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">09 · 🏹 한국 양궁·중국 지도자 <small style="font-size:10px;opacity:.75">(자료 보강)</small></a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep10.html" style="display:block;color:#d8e8ff;text-decoration:none;font-size:12px;padding:7px 8px;margin:2px 0">10 · 🚴 중국 라이더·서울 자전거 <small style="font-size:10px;opacity:.75">(자료 보강)</small></a></details><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep01.html#timeline" style="display:block;color:#b7f3db;text-decoration:none">🎬 K2 · 30컷 편집표</a><a class="navbtn sub" href="./foreign-reactions-v7-20261115/ep02.html#timeline" style="display:block;color:#b7f3db;text-decoration:none">🎬 현대차 · 30컷 편집표</a></details>
 
-<details class="navgroup" open id="v6-foreign-first" style="margin:0 0 13px;padding:10px;background:linear-gradient(128deg,#28473e,#28384f);border:2px solid #f3d57c;border-radius:13px">
+<details class="navgroup" id="v6-foreign-first" style="margin:0 0 13px;padding:10px;background:linear-gradient(128deg,#28473e,#28384f);border:2px solid #f3d57c;border-radius:13px">
 <summary class="grouptitle" style="font-size:13px;color:#ffe9a8;cursor:pointer">🇰🇷 TOP · 외국인 반응 중심 대본 V6 · By GPT</summary>
 <a class="navbtn" href="./foreign-reactions-v6/index.html" style="display:block;text-decoration:none;font-weight:900;color:#fff1c6;background:#4b4334;border:1px solid #928051">🎞 V6 대본 · 7분 2편 / 105컷 1:1 검수</a>
 <details open style="margin:6px 0 0 12px;border-left:2px solid #a8c8d8;padding-left:8px"><summary style="font-weight:850;font-size:11px;cursor:pointer;color:#cdeaff">📜 각 대본을 한 페이지로</summary>
@@ -79,7 +114,7 @@ details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9p
 <a class="navbtn sub" href="https://chatgpt.com/share/6af9a531-e180-83e8-a7f5-82de9f9ddcf9" target="_blank" rel="noopener" style="color:#bbdfed;text-decoration:none">✦ By GPT · 대본8.18 프로젝트 원본 대화</a>
 <p style="font-size:11px;color:#b8d6e5;margin:8px">↔ 왼쪽 경계선 드래그: 메뉴 폭 조절</p>
 </details>
-<details class="navgroup" open style="border:2px solid #ffd16c;border-radius:14px;background:linear-gradient(145deg,#2c3850,#172c48);padding:10px;margin:0 0 12px">
+<details class="navgroup" style="border:2px solid #ffd16c;border-radius:14px;background:linear-gradient(145deg,#2c3850,#172c48);padding:10px;margin:0 0 12px">
 <summary class="grouptitle" style="color:#ffe29b;font-size:13px;cursor:pointer">🇰🇷 최상단 NEW · 외국인이 본 한국 V5</summary>
 <a class="navbtn" href="./foreign-reactions-v5/index.html" style="text-decoration:none;color:#fff5c7;font-weight:900;background:#503f28;padding:10px">🏆 아웃라인 TOP10 · 자료 근거·훅</a>
 <details open style="border-left:2px solid #ebc878;margin:8px 0 5px 10px;padding-left:7px"><summary style="cursor:pointer;color:#bde8ff;font-size:12px;font-weight:900">🎙️ 10분 전체 대본 · 1페이지씩</summary>
@@ -99,13 +134,7 @@ details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9p
 <a class="navbtn sub" style="text-decoration:none;color:#d9ebfa;font-size:12px" href="./foreign-reactions-v5/index.html#topic-10"> 10 · 현대차 벨로스터 N</a>
 </details>
 </details>
-<details class="navgroup" open style="border:1px solid #e6246e;border-radius:12px;background:linear-gradient(145deg,#3d1228,#1c2c3e);padding:7px 8px 10px;margin:0 0 12px">
-<summary class="grouptitle" style="color:#ffd9e8;cursor:pointer;font-size:12px">⭐ 최종 프롬프트 · V4 검수판 <small>by Claude Desktop</small></summary>
-<a class="navbtn" href="./kukppong-v4-claude/prompt.html" style="display:block;text-decoration:none;color:#fff;font-weight:900;padding:10px;border:1px solid #e6246e;border-radius:10px;margin-bottom:6px">📌 최종 프롬프트 V4.3 · 원페이지 (경로·링크·TTS·참고 사진)</a>
-<a class="navbtn" href="./kukppong-v4-claude/fewshot.html" style="display:block;text-decoration:none;color:#eaffb0;padding:8px">📝 좋은 자막 예시 4편 분석 (퓨샷)</a>
-<a class="navbtn" href="./kukppong-v4-claude/index.html" style="display:block;text-decoration:none;color:#ffe6ac;padding:8px">✅ V4 검수판 · EP12 라면 편(새 영상) + 대본 13편</a>
-</details>
-<details class="navgroup" open style="border:1px solid #639b8a;border-radius:12px;background:linear-gradient(120deg,#133f3a,#222d4b);padding:8px 9px 10px;margin-bottom:12px">
+<details class="navgroup" style="border:1px solid #639b8a;border-radius:12px;background:linear-gradient(120deg,#133f3a,#222d4b);padding:8px 9px 10px;margin-bottom:12px">
 <summary class="grouptitle" style="cursor:pointer;color:#aaf6df;font-size:12px">⭐ NEW · 최종 대본 V4.3</summary>
 <a class="navbtn" href="./kukppong-v43/workflow.html" style="text-decoration:none;display:block;color:#fff0ae;font-weight:900;padding:9px">🧠 1순위 · Hermes 최종 프롬프트 원페이지</a>
 <a class="navbtn" href="./kukppong-v43/index.html" style="text-decoration:none;display:block;color:#e7f8ff;padding:9px">🎬 아웃라인 5개 + 새 대본 2편</a>
@@ -114,7 +143,7 @@ details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9p
 <a class="navbtn" href="./kukppong-v43/ep02.html" style="color:#e9f7ff;display:block;text-decoration:none;padding:7px">02 · 편의점 100위안 두 평가</a></details>
 </details>
 
-<details class="navgroup" open style="border:1px solid #557c6c;border-radius:12px;background:linear-gradient(145deg,#133b36,#1c2c3e);padding:7px 8px 10px;margin:0 0 12px">
+<details class="navgroup" style="border:1px solid #557c6c;border-radius:12px;background:linear-gradient(145deg,#133b36,#1c2c3e);padding:7px 8px 10px;margin:0 0 12px">
 <summary class="grouptitle" style="color:#e2fff4;cursor:pointer;font-size:12px">🎬 NEW · 국뽕 대본 검수판 V4.2</summary>
 <a class="navbtn" href="./kukppong-v41/index.html" style="display:block;text-decoration:none;color:#ffe6ac;font-weight:900;padding:10px;border:1px solid #8cab89">🧲 실제 자막 152컷 · 장편 대본 2편 · 1:1 편집</a>
 <details open style="margin:8px 0 0 8px;border-left:2px solid #597e79;padding-left:6px">
@@ -126,7 +155,7 @@ details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9p
 
 <input class="navsearch" id="navSearch" type="search" placeholder="🔍 메뉴 검색 (자막, 저작권, 급등…)" aria-label="메뉴 검색">
 <details class="navgroup" open><summary class="grouptitle" style="cursor:pointer">📥 자막·다운로드 (접기/펼치기)</summary><a class="navbtn" href="../reactions-downloads/index.html" style="display:block;text-decoration:none;color:#ffe9c0;padding:8px 10px">2026-11-15 · 빌리빌리 99건 · 자막 69건 <small>by aside sonnet</small></a></details>
-<div class="navgroup"><div class="grouptitle">00 · 시작</div><a class="navbtn" href="./kukppong-script-onepage-20261114.html" style="display:block;text-decoration:none;color:#ffe9c0;background:linear-gradient(90deg,#184d42,#362033);border:1px solid #af9373;border-radius:10px;padding:10px;margin-bottom:8px;font-weight:800">📌 새 대본·클립 원페이지 작업판</a><button class="navbtn" data-to="home"><span class="i">🏠</span> 통합 대시보드</button><button class="navbtn" data-to="operations"><span class="i">📌</span> 현재 상황 · 자료 위치</button></div>
+<div class="navgroup"><div class="grouptitle">00 · 시작</div><button class="navbtn" data-to="home"><span class="i">🏠</span> 통합 대시보드</button><button class="navbtn" data-to="operations"><span class="i">📌</span> 현재 상황 · 자료 위치</button></div>
 <div class="navgroup"><div class="grouptitle">01 · 해외 원자료 수집</div>
 <button class="navbtn" data-to="keywords"><span class="i">🌸</span> 통합 키워드 · 다국가 검색</button>
 <button class="navbtn" data-to="discovery"><span class="i">🔎</span> 기존 Aside 자료 찾기</button>
@@ -324,6 +353,131 @@ grip.addEventListener('dblclick',function(){setWidth(286)});
 <script>
 (function(){
 'use strict';
+var sidebar=document.getElementById('sidebar');
+var search=document.getElementById('navSearch');
+if(!sidebar||!search)return;
+var groups=Array.from(sidebar.children).filter(function(el){return el.classList&&el.classList.contains('navgroup');});
+var menu=document.createElement('div');menu.id='menuGroups';menu.className='menu-groups';
+var toolbar=document.createElement('div');toolbar.className='menu-toolbar';
+toolbar.innerHTML='<span>⠿ 항목·섹션 드래그 → 자동 저장</span><button type="button" id="menuReset" title="메뉴 순서를 최초 배치로 복원">↺ 순서 초기화</button>';
+sidebar.insertBefore(search,sidebar.firstChild);
+sidebar.insertBefore(toolbar,search.nextSibling);
+sidebar.insertBefore(menu,toolbar.nextSibling);
+groups.forEach(function(g){
+var title=Array.from(g.children).find(function(ch){return ch.classList&&ch.classList.contains('grouptitle');});
+g.dataset.menuKey=g.id||('title:'+((title&&title.textContent)||'').trim());
+menu.appendChild(g);
+var handle=document.createElement('button');
+handle.type='button';handle.className='menu-drag-handle';handle.draggable=true;
+handle.textContent='⠿';handle.title='드래그로 섹션 이동 · 클릭하면 한 칸 아래 · 키보드 ↑↓';
+handle.setAttribute('aria-label',((title&&title.textContent)||'메뉴 섹션').trim()+' 순서 이동');
+if(title)title.insertAdjacentElement('afterend',handle);else g.insertBefore(handle,g.firstChild);
+});
+Array.from(menu.querySelectorAll('.navbtn')).forEach(function(btn){
+btn.draggable=true;btn.dataset.menuItemKey=btn.getAttribute('data-to')||btn.getAttribute('href')||btn.textContent.trim();
+btn.title=(btn.title?btn.title+' · ':'')+'드래그로 같은 묶음 안에서 순서 변경 (Alt+↑↓ 가능)';
+});
+var KEY='kukppong-hub-menu-order-v1';
+function groupKey(el){return el.dataset.menuKey;}
+function itemKey(el){return el.dataset.menuItemKey;}
+function itemParents(){
+var ret=[];
+Array.from(menu.children).forEach(function(group){
+[group].concat(Array.from(group.querySelectorAll('details'))).forEach(function(parent,i){
+if(Array.from(parent.children).some(function(ch){return ch.classList&&ch.classList.contains('navbtn');}))
+ret.push({node:parent,key:group.dataset.menuKey+'::'+i});
+});
+});
+return ret;
+}
+function getOrder(parent,selector,keyFn){return Array.from(parent.children).filter(function(el){return el.matches(selector);}).map(keyFn);}
+function reorder(parent,selector,keyFn,order){
+if(!Array.isArray(order)||!order.length)return;
+var nodes=Array.from(parent.children).filter(function(el){return el.matches(selector);});
+var map=new Map(nodes.map(function(el){return [keyFn(el),el];}));
+var sorted=[];
+order.forEach(function(key){if(map.has(key)){sorted.push(map.get(key));map.delete(key);}});
+nodes.forEach(function(el){if(map.has(keyFn(el))){sorted.push(el);map.delete(keyFn(el));}});
+if(sorted.length!==nodes.length)return;
+var slots=nodes.map(function(el){var mark=document.createComment('menu-order-slot');parent.insertBefore(mark,el);el.remove();return mark;});
+slots.forEach(function(mark,i){mark.replaceWith(sorted[i]);});
+}
+var defaultGroups=getOrder(menu,'.navgroup',groupKey),defaultItems={};
+itemParents().forEach(function(p){defaultItems[p.key]=getOrder(p.node,'.navbtn',itemKey);});
+try{
+var saved=JSON.parse(localStorage.getItem(KEY)||'null');
+if(saved&&Array.isArray(saved.groups)){
+reorder(menu,'.navgroup',groupKey,saved.groups);
+itemParents().forEach(function(p){reorder(p.node,'.navbtn',itemKey,saved.items&&saved.items[p.key]);});
+}
+}catch(err){/* Browser may block local storage: navigation still works. */}
+function saveOrder(){
+var data={groups:getOrder(menu,'.navgroup',groupKey),items:{}};
+itemParents().forEach(function(p){data.items[p.key]=getOrder(p.node,'.navbtn',itemKey);});
+try{localStorage.setItem(KEY,JSON.stringify(data));}catch(err){}
+}
+function announce(message){var toast=document.getElementById('toast');if(!toast)return;toast.textContent=message;toast.classList.add('show');window.setTimeout(function(){toast.classList.remove('show');},1700);}
+function stepGroup(group,delta){
+var nodes=Array.from(menu.children),at=nodes.indexOf(group),other=nodes[at+delta];
+if(!other)return false;
+menu.insertBefore(group,delta<0?other:other.nextSibling);
+saveOrder();announce('✅ 메뉴 섹션 순서 저장');
+return true;
+}
+menu.addEventListener('click',function(e){var handle=e.target.closest('.menu-drag-handle');if(handle){e.preventDefault();stepGroup(handle.closest('.navgroup'),1);}});
+menu.addEventListener('keydown',function(e){
+if(e.key!=='ArrowUp'&&e.key!=='ArrowDown')return;
+var handle=e.target.closest('.menu-drag-handle');
+if(handle){e.preventDefault();stepGroup(handle.closest('.navgroup'),e.key==='ArrowUp'?-1:1);return;}
+var row=e.target.closest('.navbtn[draggable="true"]');
+if(!row||!e.altKey)return;
+var siblings=Array.from(row.parentElement.children).filter(function(ch){return ch.classList&&ch.classList.contains('navbtn');});
+var pos=siblings.indexOf(row),other=siblings[pos+(e.key==='ArrowUp'?-1:1)];
+if(!other)return;
+e.preventDefault();row.parentElement.insertBefore(row,e.key==='ArrowUp'?other:other.nextSibling);
+saveOrder();announce('✅ 메뉴 항목 순서 저장');
+});
+document.getElementById('menuReset').addEventListener('click',function(){
+reorder(menu,'.navgroup',groupKey,defaultGroups);
+itemParents().forEach(function(p){reorder(p.node,'.navbtn',itemKey,defaultItems[p.key]);});
+try{localStorage.removeItem(KEY);}catch(err){}
+announce('↺ 기본 메뉴 순서로 복원했습니다');
+});
+var active=null,moved=false;
+menu.addEventListener('dragstart',function(e){
+var handle=e.target.closest('.menu-drag-handle'),row=e.target.closest('.navbtn[draggable="true"]');
+if(handle)active={type:'group',node:handle.closest('.navgroup')};
+else if(row)active={type:'item',node:row};
+else return;
+moved=false;e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain','menu-reorder');
+window.setTimeout(function(){if(active)active.node.classList.add('menu-dragging');},0);
+});
+menu.addEventListener('dragover',function(e){
+if(!active)return;
+var target=e.target.closest(active.type==='group'?'.navgroup':'.navbtn[draggable="true"]');
+var parent=active.type==='group'?menu:active.node.parentElement;
+if(!target||target===active.node||target.parentElement!==parent)return;
+e.preventDefault();e.dataTransfer.dropEffect='move';
+var bounds=target.getBoundingClientRect(),after=e.clientY>bounds.top+bounds.height/2;
+var ref=after?target.nextSibling:target;
+if(ref!==active.node){parent.insertBefore(active.node,ref);moved=true;}
+var area=sidebar.getBoundingClientRect();
+if(e.clientY<area.top+42)sidebar.scrollTop-=12;
+else if(e.clientY>area.bottom-42)sidebar.scrollTop+=12;
+});
+menu.addEventListener('drop',function(e){
+if(!active)return;e.preventDefault();
+if(moved){saveOrder();announce('✅ 드래그한 메뉴 순서 저장');}
+});
+menu.addEventListener('dragend',function(){
+if(active){active.node.classList.remove('menu-dragging');if(moved)saveOrder();}
+active=null;moved=false;
+});
+})();
+</script>
+<script>
+(function(){
+'use strict';
 var framePaths={
  discovery:'../haeoe-prompts-sheet-20261108/',
  longrun:'../kukppong-longrun-audit-20261108/',
@@ -395,7 +549,24 @@ function openRoute(){
 document.addEventListener('click',function(e){var el=e.target.closest('[data-to]');if(el){e.preventDefault();location.hash=encodeURIComponent(el.dataset.to);if(location.hash.slice(1)===el.dataset.to)openRoute();}});
 document.getElementById('backHome').addEventListener('click',function(){location.hash='home';});
 document.getElementById('menuToggle').addEventListener('click',function(){sidebar.classList.toggle('open');});
-document.getElementById('navSearch').addEventListener('input',function(e){var q=e.target.value.trim().toLowerCase();document.querySelectorAll('.navbtn').forEach(function(b){b.style.display=!q||b.textContent.toLowerCase().includes(q)?'':'none';});});
+var searchOpen=new WeakMap();
+document.getElementById('navSearch').addEventListener('input',function(e){
+var q=e.target.value.trim().toLowerCase(),wrap=document.getElementById('menuGroups');
+if(!wrap)return;
+wrap.querySelectorAll('.navbtn').forEach(function(b){b.style.display=!q||b.textContent.toLowerCase().includes(q)?'':'none';});
+wrap.querySelectorAll('.navgroup').forEach(function(g){
+var matching=Array.from(g.querySelectorAll('.navbtn')).some(function(b){return b.textContent.toLowerCase().includes(q);});
+var head=Array.from(g.children).find(function(x){return x.classList&&x.classList.contains('grouptitle');});
+if(head&&head.textContent.toLowerCase().includes(q))matching=true;
+g.style.display=q&&!matching?'none':'';
+});
+wrap.querySelectorAll('details').forEach(function(d){
+if(q){
+if(!searchOpen.has(d))searchOpen.set(d,d.open);
+if(Array.from(d.querySelectorAll('.navbtn')).some(function(b){return b.textContent.toLowerCase().includes(q);}))d.open=true;
+}else if(searchOpen.has(d)){d.open=searchOpen.get(d);searchOpen.delete(d);}
+});
+});
 document.getElementById('kwSearch').addEventListener('input',function(e){var q=e.target.value.trim().toLowerCase();document.querySelectorAll('#keywordsTable tbody tr').forEach(function(tr){tr.style.display=!q||tr.textContent.toLowerCase().includes(q)?'':'none';});});
 function showToast(m){var t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(window._toastTimer);window._toastTimer=setTimeout(function(){t.classList.remove('show');},2000);}
 document.addEventListener('click',async function(e){var el=e.target.closest('[data-copy]');if(!el)return;var id=el.dataset.copy;var node=document.getElementById(id);var txt=id==='allKeywords'?Array.from(document.querySelectorAll('#keywordsTable tbody tr')).map(function(tr){return Array.from(tr.cells).map(function(td){return td.textContent.trim();}).join('\t');}).join('\n'):node?node.textContent:'';if(!txt)return;try{if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(txt);}else{var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();}showToast('✅ 복사 완료');}catch(err){showToast('복사 실패: 직접 텍스트 선택');}});

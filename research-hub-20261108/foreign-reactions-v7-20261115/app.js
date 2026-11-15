@@ -32,9 +32,9 @@ function nav(){
 var n='<aside class="sidebar" id="side"><div class="sideintro"><div class="sidetag">SOURCE-LINKED · V7</div><div class="sidetitle">🇰🇷 외국인이 본 한국</div><p class="small muted" style="margin-top:6px">10개 새 주제 · 2개 10분 목표 대본 · 실제 자막 1:1</p></div>';
 n+='<div class="navlabel">🏠 결과 · 대본 선택</div><a class="sideitem '+(!t?'active':'')+'" href="./index.html">🏆 10개 주제 · 전체 결과</a>';
 D.topics.forEach(function(v){n+='<a class="sideitem '+(t&&t.id===v.id?'active':'')+'" href="'+epurl(v.id)+'"><span class="num">'+esc(v.id)+'</span>'+esc(v.title)+'<br><span class="tag">'+esc(v.level)+'</span></a>';});
-if(t){n+='<div class="navlabel">📑 이 대본 안쪽 메뉴</div><div class="sidegroup"><a href="#result">📌 결과·핵심 반전</a><a href="#outline">🧲 5문장 훅 · 전개</a>';
+if(t){n+='<div class="navlabel">📑 이 대본 안쪽 메뉴</div><div class="sidegroup"><a href="#result">📌 결과·핵심 반전</a><a href="#evidence">🗣️ 실제 외국인 반응 원문</a><a href="#outline">🧲 5문장 훅 · 전개</a>';
 if(D.scripts[t.id]){n+='<a href="#full">🎙️ 10분 TTS 전체 대본</a><a href="#timeline">🎬 30컷 편집표</a>';}
-n+='<a href="#evidence">🗣️ 실제 원어 자막</a><a href="#sources">🔗 원본 영상·근거</a><a href="#rights">⚖️ 발행 전 권리·검증</a></div>';}
+n+='<a href="#sources">🔗 원본 영상·근거</a><a href="#rights">⚖️ 발행 전 권리·검증</a></div>';}
 n+='<div class="navlabel">🔍 원본 · 참고</div><div class="sidegroup"><a href="../../국뽕해외반응-중국SNS-20261103/script/#guide" target="_blank">📋 자막 작업법</a><a href="../../국뽕해외반응-중국SNS-20261103/script/#BILI-114" target="_blank">🗣️ BILI-114 자막 형식 예시</a><a href="../index.html">↩ 통합 연구 허브</a></div></aside>';
 return n;}
 function topbar(){
@@ -111,7 +111,7 @@ s+='<div class="grid2" style="margin-top:13px"><div class="panel"><h3 class="gol
 if(!D.scripts[t.id]){s+='<p class="note">이 주제는 현재 아웃라인 단계입니다. 10분 완성 나레이션·30컷 편집표는 아직 작성되지 않았습니다.</p>';}
 s+='</div>';return s;
 }
-function epPage(t){return heading(t)+outline(t)+full(t)+timeline(t)+evidence(t)+sources(t)+rights(t);}
+function epPage(t){return heading(t)+evidence(t)+outline(t)+full(t)+timeline(t)+sources(t)+rights(t);}
 function footer(){return '<footer class="footer">🇰🇷 외국인의 한국 평가 · 원문 우선 제작판 | 2026-11-15 | <a href="../index.html">통합 연구 허브</a> | <a href="../../국뽕해외반응-중국SNS-20261103/script/#guide">자막 검수 가이드</a><br>원본 로컬 저장 정보, AI 번역, 주장, 공식 검증, 작가 내레이션은 각각 독립 출처와 역할을 갖습니다. 수록은 출판 허가를 의미하지 않습니다.</footer>';}
 function render(){
 root.innerHTML=topbar()+'<div class="layout">'+nav()+'<main class="main">'+(t?epPage(t):home())+footer()+'</main></div>';

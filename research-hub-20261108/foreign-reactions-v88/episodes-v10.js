@@ -83,7 +83,7 @@ window.FOREIGN_V10_DATA={
       "no": 14,
       "category": "한국 패션·중국 소비자 평가",
       "title": "한국 옷은 예쁘다는 중국인, 배송받은 바지를 보고 놀란 반전",
-      "hook": "그래도 한국 옷이 예쁘긴 해요. / 그래도 다 편해요. / 한국 아디다스의 이런 커스텀 신발도 너무 예뻤어요",
+      "hook": "그래도 한국 옷이 예쁘긴 해요. / 한국 브랜드 매장은 확실히 꽤 훌륭하다고 느껴요. / 한국 아디다스의 이런 커스텀 신발도 너무 예뻤어요",
       "sourceIds": [
         "BILI-131",
         "BILI-117",
@@ -135,7 +135,7 @@ window.FOREIGN_V10_DATA={
       "no": 16,
       "category": "한국 피부과·외국인 가족 체험",
       "title": "한국 피부과를 거부하던 중국인 엄마, 귀국 전 남긴 뜻밖의 말",
-      "hook": "나 주름이 없어진 것 같아. / 한국은 정말 미적 감각이 좋아요 / 김치는 그래도 꽤 좋아하는데",
+      "hook": "나 주름이 없어진 것 같아. / 한국은 정말 미적 감각이 좋아요 / 평소에도 한국 화장품을 좋아해서",
       "sourceIds": [
         "BILI-129",
         "BILI-128",
@@ -161,7 +161,7 @@ window.FOREIGN_V10_DATA={
       "no": 17,
       "category": "부산·가족 해외반응",
       "title": "중국 7인 가족의 부산 여행, 해변열차 앞줄에서 반응이 달라졌다",
-      "hook": "부산 바다 풍경은 정말 좋아요 / 엄마와 이모는 계속 / 바다 위에서 자는 것 같아요",
+      "hook": "부산 바다 풍경은 정말 좋아요 / 너무 예쁘다, 너무 재밌다. / 바다 위에서 자는 것 같아요",
       "sourceIds": [
         "BILI-134",
         "BILI-117",
@@ -187,7 +187,7 @@ window.FOREIGN_V10_DATA={
       "no": 18,
       "category": "홍대·합정·상수 도시 문화",
       "title": "홍대는 이제 별로라는 중국인, 합정·상수에 가더니 뜻밖의 추천",
-      "hook": "저는 개인적으로 이 두 곳을 홍대보다 더 재밌다고 추천해요. / 매장에 굿즈도 많은데 다 예뻐 보여서 / 그래도 다 편해요.",
+      "hook": "저는 개인적으로 이 두 곳을 홍대보다 더 재밌다고 추천해요. / 매장에 굿즈도 많은데 다 예뻐 보여서 / 한국 브랜드 매장은 확실히 꽤 훌륭하다고 느껴요.",
       "sourceIds": [
         "BILI-160",
         "BILI-113",
@@ -281,7 +281,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-117",
           "startMs": 207765,
           "endMs": 210111,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.4,
           "ko": "부산 바다 풍경은 정말 좋아요",
           "original": "釜山的海景啊确实是不错",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-117_부산이_이렇게_재밌고_쇼핑하기_좋다고_!.mp4",
@@ -291,7 +291,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-113",
           "startMs": 69607,
           "endMs": 71725,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.2,
           "ko": "무대 연출이 진짜 너무 멋있었다는 건 인정해야 해요",
           "original": "都不得不说舞美真的太帅了",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-113_한국_vlog_콘서트_꾸미기_먹기_쇼핑!_한국_너무_쇼핑하기_좋아~.mp4",
@@ -301,7 +301,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-110",
           "startMs": 18924,
           "endMs": 21924,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 3,
           "ko": "평소 접하기 어려운 한국 특색 체험을 해볼게요",
           "original": "一些平常大家可能不太能接触到的韩国特色项目",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-110_3만_위안으로_한국에서_하루_부자_여행하면_어떤_느낌_.mp4",
@@ -456,21 +456,21 @@ window.FOREIGN_V10_DATA={
           "at": "03:27:76",
           "original": "釜山的海景啊确实是不错",
           "ko": "부산 바다 풍경은 정말 좋아요",
-          "use": "초반 1번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 1번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-113",
           "at": "01:09:60",
           "original": "都不得不说舞美真的太帅了",
           "ko": "무대 연출이 진짜 너무 멋있었다는 건 인정해야 해요",
-          "use": "초반 2번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 2번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-110",
           "at": "00:18:92",
           "original": "一些平常大家可能不太能接触到的韩国特色项目",
           "ko": "평소 접하기 어려운 한국 특색 체험을 해볼게요",
-          "use": "초반 3번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 3번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         }
       ],
       "evidence": "기존 BILI JSON의 중국어 ASR/Claude 초벌 번역·현지 원본 MP4 경로에 근거한 신규 한국어 창작 내레이션. 원영상·원음·사용권은 재확인 전. 성문화 메타 수집표만으로는 실영상 다운로드를 증명하지 못해 본 편성에서 제외함.",
@@ -497,7 +497,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-159",
           "startMs": 16494,
           "endMs": 19165,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.7,
           "ko": "200위안 중 제일 가치 있던 건 헤어였어요.",
           "original": "我觉得花的最值得两百块钱就是理发了。",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-159_한국_여행_필독!_뷰티_체험_레드_블랙_리스트_3박4일.mp4",
@@ -507,7 +507,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-157",
           "startMs": 625289,
           "endMs": 626938,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.2,
           "ko": "이 헤어스타일은 한국에서 아주 잘 어울려요",
           "original": "这种发型在韩国很融入",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/x유투브재사용_중국영상다운_한국_BILI-157_남자친구가_한국에서_머리를_했더니,_만화_속_그_머리가_진짜였다_.mp4",
@@ -517,7 +517,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-107",
           "startMs": 923501,
           "endMs": 926501,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 3,
           "ko": "왜 이렇게 많은 사람이 부산을 좋아하는지 이해했어요",
           "original": "我就理解为什么有这么多人很喜欢釜山这座城市了",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-107_친구야_너_한국_다녀오더니_왜_안_웃어...mp4",
@@ -672,21 +672,21 @@ window.FOREIGN_V10_DATA={
           "at": "00:16:49",
           "original": "我觉得花的最值得两百块钱就是理发了。",
           "ko": "200위안 중 제일 가치 있던 건 헤어였어요.",
-          "use": "초반 1번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 1번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-157",
           "at": "10:25:28",
           "original": "这种发型在韩国很融入",
           "ko": "이 헤어스타일은 한국에서 아주 잘 어울려요",
-          "use": "초반 2번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 2번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-107",
           "at": "15:23:50",
           "original": "我就理解为什么有这么多人很喜欢釜山这座城市了",
           "ko": "왜 이렇게 많은 사람이 부산을 좋아하는지 이해했어요",
-          "use": "초반 3번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 3번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         }
       ],
       "evidence": "기존 BILI JSON의 중국어 ASR/Claude 초벌 번역·현지 원본 MP4 경로에 근거한 신규 한국어 창작 내레이션. 원영상·원음·사용권은 재확인 전. 성문화 메타 수집표만으로는 실영상 다운로드를 증명하지 못해 본 편성에서 제외함.",
@@ -712,7 +712,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-144",
           "startMs": 11659,
           "endMs": 14302,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.7,
           "ko": "김치 말고도 한국인 밥상의 단골이에요",
           "original": "它可是韩国人餐桌上除了泡菜外的常客",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-144_한국_공장_라인에서_생산되는_김,_월_3천_톤_판매.mp4",
@@ -722,7 +722,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-143",
           "startMs": 69082,
           "endMs": 72082,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 3,
           "ko": "이 짜장면 냄새가 짜장 향이 엄청나요",
           "original": "这这炸酱面闻起来炸酱的味道超顶",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-143_오늘_야식은_한국_편의점_라면_리뷰~.mp4",
@@ -732,7 +732,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-142",
           "startMs": 6151,
           "endMs": 8475,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.4,
           "ko": "마침 한국 불닭볶음면도 하나 있어서요",
           "original": "我这里正好还有一包韩国的这个火鸡面",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-142_불닭볶음면_두_가지_시식,_캉스푸_vs_한국,_차이는_.mp4",
@@ -887,21 +887,21 @@ window.FOREIGN_V10_DATA={
           "at": "00:11:65",
           "original": "它可是韩国人餐桌上除了泡菜外的常客",
           "ko": "김치 말고도 한국인 밥상의 단골이에요",
-          "use": "초반 1번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 1번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-143",
           "at": "01:09:08",
           "original": "这这炸酱面闻起来炸酱的味道超顶",
           "ko": "이 짜장면 냄새가 짜장 향이 엄청나요",
-          "use": "초반 2번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 2번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-142",
           "at": "00:06:15",
           "original": "我这里正好还有一包韩国的这个火鸡面",
           "ko": "마침 한국 불닭볶음면도 하나 있어서요",
-          "use": "초반 3번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 3번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         }
       ],
       "evidence": "기존 BILI JSON의 중국어 ASR/Claude 초벌 번역·현지 원본 MP4 경로에 근거한 신규 한국어 창작 내레이션. 원영상·원음·사용권은 재확인 전. 성문화 메타 수집표만으로는 실영상 다운로드를 증명하지 못해 본 편성에서 제외함.",
@@ -927,7 +927,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-131",
           "startMs": 168476,
           "endMs": 170979,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.6,
           "ko": "그래도 한국 옷이 예쁘긴 해요.",
           "original": "不过我韩国衣服确实蛮好看的",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-131_한국_옷은_대체_누가_사나.mp4",
@@ -935,11 +935,11 @@ window.FOREIGN_V10_DATA={
         },
         {
           "id": "BILI-117",
-          "startMs": 242746,
-          "endMs": 244240,
-          "targetVisualDurationSec": 2.5,
-          "ko": "그래도 다 편해요.",
-          "original": "但也都很方便啦。",
+          "startMs": 2526861,
+          "endMs": 2529514,
+          "targetVisualDurationSec": 2.7,
+          "ko": "한국 브랜드 매장은 확실히 꽤 훌륭하다고 느껴요.",
+          "original": "韩国品牌店铺确实感觉算是很出色的。",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-117_부산이_이렇게_재밌고_쇼핑하기_좋다고_!.mp4",
           "permission": "미확인 (반드시 원본 재생·영상/음성 사용권 확인)"
         },
@@ -947,7 +947,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-113",
           "startMs": 301384,
           "endMs": 304384,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 3,
           "ko": "한국 아디다스의 이런 커스텀 신발도 너무 예뻤어요",
           "original": "我也喜欢阿韩这里的这种DIY的鞋子都好好看啊",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-113_한국_vlog_콘서트_꾸미기_먹기_쇼핑!_한국_너무_쇼핑하기_좋아~.mp4",
@@ -1102,21 +1102,21 @@ window.FOREIGN_V10_DATA={
           "at": "02:48:47",
           "original": "不过我韩国衣服确实蛮好看的",
           "ko": "그래도 한국 옷이 예쁘긴 해요.",
-          "use": "초반 1번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 1번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-117",
-          "at": "04:02:74",
-          "original": "但也都很方便啦。",
-          "ko": "그래도 다 편해요.",
-          "use": "초반 2번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "at": "42:06:86",
+          "original": "韩国品牌店铺确实感觉算是很出色的。",
+          "ko": "한국 브랜드 매장은 확실히 꽤 훌륭하다고 느껴요.",
+          "use": "오프닝 2번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-113",
           "at": "05:01:38",
           "original": "我也喜欢阿韩这里的这种DIY的鞋子都好好看啊",
           "ko": "한국 아디다스의 이런 커스텀 신발도 너무 예뻤어요",
-          "use": "초반 3번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 3번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         }
       ],
       "evidence": "기존 BILI JSON의 중국어 ASR/Claude 초벌 번역·현지 원본 MP4 경로에 근거한 신규 한국어 창작 내레이션. 원영상·원음·사용권은 재확인 전. 성문화 메타 수집표만으로는 실영상 다운로드를 증명하지 못해 본 편성에서 제외함.",
@@ -1142,7 +1142,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-142",
           "startMs": 6151,
           "endMs": 8475,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.4,
           "ko": "마침 한국 불닭볶음면도 하나 있어서요",
           "original": "我这里正好还有一包韩国的这个火鸡面",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-142_불닭볶음면_두_가지_시식,_캉스푸_vs_한국,_차이는_.mp4",
@@ -1152,7 +1152,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-143",
           "startMs": 69082,
           "endMs": 72082,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 3,
           "ko": "이 짜장면 냄새가 짜장 향이 엄청나요",
           "original": "这这炸酱面闻起来炸酱的味道超顶",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-143_오늘_야식은_한국_편의점_라면_리뷰~.mp4",
@@ -1307,14 +1307,14 @@ window.FOREIGN_V10_DATA={
           "at": "00:06:15",
           "original": "我这里正好还有一包韩国的这个火鸡面",
           "ko": "마침 한국 불닭볶음면도 하나 있어서요",
-          "use": "초반 1번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 1번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-143",
           "at": "01:09:08",
           "original": "这这炸酱面闻起来炸酱的味道超顶",
           "ko": "이 짜장면 냄새가 짜장 향이 엄청나요",
-          "use": "초반 2번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 2번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         }
       ],
       "evidence": "기존 BILI JSON의 중국어 ASR/Claude 초벌 번역·현지 원본 MP4 경로에 근거한 신규 한국어 창작 내레이션. 원영상·원음·사용권은 재확인 전. 성문화 메타 수집표만으로는 실영상 다운로드를 증명하지 못해 본 편성에서 제외함.",
@@ -1340,7 +1340,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-129",
           "startMs": 77280,
           "endMs": 80280,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 3,
           "ko": "나 주름이 없어진 것 같아.",
           "original": "나 주름이 없어진 것 같아.",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-129_장하오_엄마가_얼굴_시술_반대했는데_한국_피부과_데려갔더니_주름_줄었다며.mp4",
@@ -1350,7 +1350,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-159",
           "startMs": 12410,
           "endMs": 13824,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.2,
           "ko": "한국은 정말 미적 감각이 좋아요",
           "original": "韩国真的审美很好哈",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-159_한국_여행_필독!_뷰티_체험_레드_블랙_리스트_3박4일.mp4",
@@ -1358,11 +1358,11 @@ window.FOREIGN_V10_DATA={
         },
         {
           "id": "BILI-128",
-          "startMs": 108073,
-          "endMs": 110298,
-          "targetVisualDurationSec": 2.5,
-          "ko": "김치는 그래도 꽤 좋아하는데",
-          "original": "虽然说泡菜我还是蛮喜欢的。",
+          "startMs": 169618,
+          "endMs": 171685,
+          "targetVisualDurationSec": 2.2,
+          "ko": "평소에도 한국 화장품을 좋아해서",
+          "original": "平时我就很喜欢用韩妆",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-128_필링_하려고_일부러_한국_가서_얼굴_시술_!_서울_여행_피부과_후기.mp4",
           "permission": "미확인 (반드시 원본 재생·영상/음성 사용권 확인)"
         }
@@ -1515,21 +1515,21 @@ window.FOREIGN_V10_DATA={
           "at": "01:17:28",
           "original": "나 주름이 없어진 것 같아.",
           "ko": "나 주름이 없어진 것 같아.",
-          "use": "초반 1번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 1번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-159",
           "at": "00:12:41",
           "original": "韩国真的审美很好哈",
           "ko": "한국은 정말 미적 감각이 좋아요",
-          "use": "초반 2번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 2번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-128",
-          "at": "01:48:07",
-          "original": "虽然说泡菜我还是蛮喜欢的。",
-          "ko": "김치는 그래도 꽤 좋아하는데",
-          "use": "초반 3번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "at": "02:49:61",
+          "original": "平时我就很喜欢用韩妆",
+          "ko": "평소에도 한국 화장품을 좋아해서",
+          "use": "오프닝 3번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         }
       ],
       "evidence": "기존 BILI JSON의 중국어 ASR/Claude 초벌 번역·현지 원본 MP4 경로에 근거한 신규 한국어 창작 내레이션. 원영상·원음·사용권은 재확인 전. 성문화 메타 수집표만으로는 실영상 다운로드를 증명하지 못해 본 편성에서 제외함.",
@@ -1555,7 +1555,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-117",
           "startMs": 207765,
           "endMs": 210111,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.4,
           "ko": "부산 바다 풍경은 정말 좋아요",
           "original": "釜山的海景啊确实是不错",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-117_부산이_이렇게_재밌고_쇼핑하기_좋다고_!.mp4",
@@ -1563,11 +1563,11 @@ window.FOREIGN_V10_DATA={
         },
         {
           "id": "BILI-134",
-          "startMs": 650845,
-          "endMs": 652948,
-          "targetVisualDurationSec": 2.5,
-          "ko": "엄마와 이모는 계속",
-          "original": "但是妈妈阿姨都一直在说啊",
+          "startMs": 652948,
+          "endMs": 654351,
+          "targetVisualDurationSec": 2.2,
+          "ko": "너무 예쁘다, 너무 재밌다.",
+          "original": "好漂亮啊啊，好好玩。",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-134_부산여행_솔직히_말할게요!_한국_제2도시_핫플의_'진짜_모습'.mp4",
           "permission": "미확인 (반드시 원본 재생·영상/음성 사용권 확인)"
         },
@@ -1575,7 +1575,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-157",
           "startMs": 21386,
           "endMs": 23745,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.4,
           "ko": "바다 위에서 자는 것 같아요",
           "original": "h哦，好像躺在海上睡觉一样",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/x유투브재사용_중국영상다운_한국_BILI-157_남자친구가_한국에서_머리를_했더니,_만화_속_그_머리가_진짜였다_.mp4",
@@ -1730,21 +1730,21 @@ window.FOREIGN_V10_DATA={
           "at": "03:27:76",
           "original": "釜山的海景啊确实是不错",
           "ko": "부산 바다 풍경은 정말 좋아요",
-          "use": "초반 1번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 1번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-134",
-          "at": "10:50:84",
-          "original": "但是妈妈阿姨都一直在说啊",
-          "ko": "엄마와 이모는 계속",
-          "use": "초반 2번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "at": "10:52:94",
+          "original": "好漂亮啊啊，好好玩。",
+          "ko": "너무 예쁘다, 너무 재밌다.",
+          "use": "오프닝 2번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-157",
           "at": "00:21:38",
           "original": "h哦，好像躺在海上睡觉一样",
           "ko": "바다 위에서 자는 것 같아요",
-          "use": "초반 3번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 3번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         }
       ],
       "evidence": "기존 BILI JSON의 중국어 ASR/Claude 초벌 번역·현지 원본 MP4 경로에 근거한 신규 한국어 창작 내레이션. 원영상·원음·사용권은 재확인 전. 성문화 메타 수집표만으로는 실영상 다운로드를 증명하지 못해 본 편성에서 제외함.",
@@ -1770,7 +1770,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-160",
           "startMs": 110209,
           "endMs": 112787,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.6,
           "ko": "저는 개인적으로 이 두 곳을 홍대보다 더 재밌다고 추천해요.",
           "original": "我个人先去荐这两个地方的比恒大好玩儿",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-160_홍대_공략_홍대에_대한_환상_깨짐.mp4",
@@ -1780,7 +1780,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-113",
           "startMs": 208841,
           "endMs": 211528,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.7,
           "ko": "매장에 굿즈도 많은데 다 예뻐 보여서",
           "original": "而且店里好多小周边我觉得好好看",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-113_한국_vlog_콘서트_꾸미기_먹기_쇼핑!_한국_너무_쇼핑하기_좋아~.mp4",
@@ -1788,11 +1788,11 @@ window.FOREIGN_V10_DATA={
         },
         {
           "id": "BILI-117",
-          "startMs": 242746,
-          "endMs": 244240,
-          "targetVisualDurationSec": 2.5,
-          "ko": "그래도 다 편해요.",
-          "original": "但也都很方便啦。",
+          "startMs": 2526861,
+          "endMs": 2529514,
+          "targetVisualDurationSec": 2.7,
+          "ko": "한국 브랜드 매장은 확실히 꽤 훌륭하다고 느껴요.",
+          "original": "韩国品牌店铺确实感觉算是很出色的。",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-117_부산이_이렇게_재밌고_쇼핑하기_좋다고_!.mp4",
           "permission": "미확인 (반드시 원본 재생·영상/음성 사용권 확인)"
         }
@@ -1945,21 +1945,21 @@ window.FOREIGN_V10_DATA={
           "at": "01:50:20",
           "original": "我个人先去荐这两个地方的比恒大好玩儿",
           "ko": "저는 개인적으로 이 두 곳을 홍대보다 더 재밌다고 추천해요.",
-          "use": "초반 1번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 1번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-113",
           "at": "03:28:84",
           "original": "而且店里好多小周边我觉得好好看",
           "ko": "매장에 굿즈도 많은데 다 예뻐 보여서",
-          "use": "초반 2번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 2번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-117",
-          "at": "04:02:74",
-          "original": "但也都很方便啦。",
-          "ko": "그래도 다 편해요.",
-          "use": "초반 3번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "at": "42:06:86",
+          "original": "韩国品牌店铺确实感觉算是很出色的。",
+          "ko": "한국 브랜드 매장은 확실히 꽤 훌륭하다고 느껴요.",
+          "use": "오프닝 3번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         }
       ],
       "evidence": "기존 BILI JSON의 중국어 ASR/Claude 초벌 번역·현지 원본 MP4 경로에 근거한 신규 한국어 창작 내레이션. 원영상·원음·사용권은 재확인 전. 성문화 메타 수집표만으로는 실영상 다운로드를 증명하지 못해 본 편성에서 제외함.",
@@ -1985,7 +1985,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-182",
           "startMs": 914370,
           "endMs": 916416,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.2,
           "ko": "사장님이 정말 좋은 분이에요.",
           "original": "这个老板人真的好好啊",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-182_가성비_최고_국가_대학생_첫_한국_여행_실제_체험.mp4",
@@ -1995,7 +1995,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-107",
           "startMs": 923501,
           "endMs": 926501,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 3,
           "ko": "왜 이렇게 많은 사람이 부산을 좋아하는지 이해했어요",
           "original": "我就理解为什么有这么多人很喜欢釜山这座城市了",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-107_친구야_너_한국_다녀오더니_왜_안_웃어...mp4",
@@ -2005,7 +2005,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-134",
           "startMs": 650845,
           "endMs": 652948,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.2,
           "ko": "엄마와 이모는 계속",
           "original": "但是妈妈阿姨都一直在说啊",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-134_부산여행_솔직히_말할게요!_한국_제2도시_핫플의_'진짜_모습'.mp4",
@@ -2160,21 +2160,21 @@ window.FOREIGN_V10_DATA={
           "at": "15:14:37",
           "original": "这个老板人真的好好啊",
           "ko": "사장님이 정말 좋은 분이에요.",
-          "use": "초반 1번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 1번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-107",
           "at": "15:23:50",
           "original": "我就理解为什么有这么多人很喜欢釜山这座城市了",
           "ko": "왜 이렇게 많은 사람이 부산을 좋아하는지 이해했어요",
-          "use": "초반 2번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 2번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-134",
           "at": "10:50:84",
           "original": "但是妈妈阿姨都一直在说啊",
           "ko": "엄마와 이모는 계속",
-          "use": "초반 3번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 3번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         }
       ],
       "evidence": "기존 BILI JSON의 중국어 ASR/Claude 초벌 번역·현지 원본 MP4 경로에 근거한 신규 한국어 창작 내레이션. 원영상·원음·사용권은 재확인 전. 성문화 메타 수집표만으로는 실영상 다운로드를 증명하지 못해 본 편성에서 제외함.",
@@ -2200,7 +2200,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-166",
           "startMs": 95102,
           "endMs": 98102,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 3,
           "ko": "한국 사람들 진짜 너무 웃기다.",
           "original": "我说你们韩国人真的别太搞笑了。",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-166_한국인이_한국에서_중국인에게_길을_묻다,_한국_연예인이_고건축_한자를_몰.mp4",
@@ -2210,7 +2210,7 @@ window.FOREIGN_V10_DATA={
           "id": "BILI-113",
           "startMs": 69607,
           "endMs": 71725,
-          "targetVisualDurationSec": 2.5,
+          "targetVisualDurationSec": 2.2,
           "ko": "무대 연출이 진짜 너무 멋있었다는 건 인정해야 해요",
           "original": "都不得不说舞美真的太帅了",
           "sourcePath": "/run/media/yh/새 볼륨/틱톡/BILI-113_한국_vlog_콘서트_꾸미기_먹기_쇼핑!_한국_너무_쇼핑하기_좋아~.mp4",
@@ -2365,14 +2365,14 @@ window.FOREIGN_V10_DATA={
           "at": "01:35:10",
           "original": "我说你们韩国人真的别太搞笑了。",
           "ko": "한국 사람들 진짜 너무 웃기다.",
-          "use": "초반 1번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 1번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         },
         {
           "id": "BILI-113",
           "at": "01:09:60",
           "original": "都不得不说舞美真的太帅了",
           "ko": "무대 연출이 진짜 너무 멋있었다는 건 인정해야 해요",
-          "use": "초반 2번째 2~3초 중국인 실제 발언 후보 (ASR 검증·허가 전)"
+          "use": "오프닝 2번째 2~3초 외국인 반응(실제 자막 ASR/번역 검수 및 음원 사용권 전)"
         }
       ],
       "evidence": "기존 BILI JSON의 중국어 ASR/Claude 초벌 번역·현지 원본 MP4 경로에 근거한 신규 한국어 창작 내레이션. 원영상·원음·사용권은 재확인 전. 성문화 메타 수집표만으로는 실영상 다운로드를 증명하지 못해 본 편성에서 제외함.",

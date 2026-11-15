@@ -39,3 +39,8 @@
 .tts-preview-card .tts-download{font-size:11px;text-align:center;color:#acdffb;text-decoration:underline}
 .tts-preview-card .tts-download[hidden]{display:none!important}
 @media(max-width:760px){.tts-preview-panel{padding:15px;margin:13px 0 21px}.tts-preview-panel h2{font-size:18px}.tts-preview-grid{grid-template-columns:1fr}}
+
+/* V10: complete script + editor master always at far right */
+.header .right{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.header .right #copyLink{order:98}
+.header .right .mastercopy{order:99;box-shadow:0 0 0 2px #fbe3ab55}

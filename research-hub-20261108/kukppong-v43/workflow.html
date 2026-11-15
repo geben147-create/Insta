@@ -1,0 +1,90 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>V4.3 최종 프롬프트 · Hermes 국뽕 자동화</title><style>
+:root{color-scheme:dark;--bg:#0a1119;--panel:#1a2732;--line:#385364;--text:#ebf3fb;--muted:#adbfcd;--gold:#ffca65;--cyan:#7ccffa;--mint:#85deb1;--red:#ff8790}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 86% 0,#263754,#0c141d 34%,#090f15);color:var(--text);font:14px/1.7 system-ui,"Malgun Gothic",sans-serif}a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}
+header{position:sticky;top:0;background:#0c131bfa;z-index:20;padding:12px 19px;display:flex;gap:18px;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}header strong{font-size:17px}header nav{display:flex;gap:7px;flex-wrap:wrap}header nav a{font-size:12px;padding:6px 10px;border:1px solid #476174;border-radius:8px}
+.layout{display:grid;grid-template-columns:250px 1fr}.side{position:sticky;top:62px;height:calc(100dvh - 62px);overflow:auto;background:#101b25ee;border-right:1px solid var(--line);padding:17px 13px}.side h3{font-size:11px;color:var(--gold);letter-spacing:.08em}.side a{display:block;color:#cfdfed;padding:9px 9px;margin:3px 0;border:1px solid transparent;border-radius:8px;font-size:12px}.side a:hover{background:#253b4c;border-color:#4b6d80}
+main{max-width:1310px;padding:22px 28px 80px}.hero,.box{background:rgba(29,43,56,.89);border:1px solid #416073;border-radius:14px;padding:20px;margin-bottom:15px;backdrop-filter:blur(12px)}h1{margin:0;font-size:clamp(24px,3vw,34px);line-height:1.3}h2{font-size:18px;margin:0 0 11px}h3{font-size:15px}.tag{font-size:10px;letter-spacing:.14em;font-weight:900;color:var(--mint)}.lead{color:var(--muted);margin:8px 0 0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.chip{background:#172d3b;border:1px solid #41677e;border-radius:8px;padding:9px 12px}.chip b{color:var(--gold)}
+details{border:1px solid #395266;background:#131f2a;border-radius:10px;overflow:hidden;margin:9px 0}summary{padding:12px 14px;cursor:pointer;color:#f4db98;font-weight:850;background:#1e3040}details pre{padding:18px;white-space:pre-wrap;word-break:break-word;max-height:430px;overflow:auto;line-height:1.65;color:#d5e4f5;font-size:12px;margin:0}button{background:#286485;color:white;border:1px solid #60aed1;border-radius:9px;padding:8px 12px;font:inherit;font-size:12px;font-weight:800;cursor:pointer}button:hover{background:#377ba1}.headrow{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}.headrow p{color:var(--muted);margin:0}.reference{padding:12px;background:#162c36;border:1px solid #416371;border-radius:8px;font-size:12px}.reference b{display:block;font-size:14px;margin:4px 0;color:#effeff}.reference p{margin:3px 0;color:#b6d1dd}
+.red{color:var(--red)}.warn{border-left:4px solid var(--red);padding:13px;background:#35242b;border-radius:8px;font-size:12px}.mini{font-size:12px;color:var(--muted)}.refs{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}code{background:#09202a;padding:2px 4px;border-radius:5px}
+@media(max-width:860px){.layout{grid-template-columns:1fr}.side{height:auto;position:static;display:flex;flex-wrap:wrap;gap:3px;padding:8px}.side a{padding:4px 8px}main{padding:12px}.refs,.grid{grid-template-columns:1fr}header{flex-wrap:wrap}.side h3{display:none}}
+</style></head><body><header><strong>🧠 국뽕 대본·영상 Hermes 마스터 프롬프트 V4.3</strong><nav><a href="../index.html">연구 허브</a><a href="./index.html">아웃라인</a><a href="./ep01.html">대본01</a><a href="./ep02.html">대본02</a></nav></header><div class="layout"><aside class="side"><h3>MASTER PROMPT</h3><a href="#paths">🔗 소스·로컬경로·TTS</a><a href="#references">📚 레퍼런스 DNA 4종</a><a href="#step0">01 · 범용 마스터 프롬프트</a><a href="#step1">02 · 자료 찾기</a><a href="#step2">03 · 5개 아웃라인 먼저</a><a href="#step3">04 · 12단 실제 대본</a><a href="#step4">05 · 원본+투명 영상 편집</a><a href="#step5">06 · 로컬 Qwen3-TTS</a><a href="#step6">07 · 1:1 결과 확인</a><a href="#step7">08 · 저장·버전관리</a><a href="#qc">🔴 필수 수동 입력·주의</a></aside><main><section class="hero"><div class="tag">ONE PAGE · LOCAL FIRST · SOURCE-VERIFIED</div><h1>대본부터 원본 컷·영상편집·TTS까지 한 장에서</h1><p class="lead">단계마다 명령을 복사해 Hermes에 붙여 넣는 작업용입니다. 사용자 원본 자막은 허락받은 범위에서만 이용하고, 외부 API와 모델 설치는 자동 수행하지 않습니다.</p></section><section class="box" id="paths"><h2>🔗 자료·저장 경로 · 한 페이지 목차</h2><div class="grid">
+<div class="chip"><b>GitHub 연구 허브</b><div><a href="https://geben147-create.github.io/Insta/research-hub-20261108/">통합 연구 허브</a> · <a href="./index.html">V4.3 검수판</a></div></div>
+<div class="chip"><b>원본 데이터</b><div><a href="https://github.com/geben147-create/Insta/blob/main/reactions-downloads/downloads.tsv">다운로드 TSV</a> · <a href="https://github.com/geben147-create/Insta/tree/main/reactions-downloads/subs">원문 zh/한국어 ko SRT</a></div></div>
+<div class="chip"><b>영상 HDD 기본 루트</b><div><code>/run/media/yh/새 볼륨/틱톡</code></div><small>개별 MP4의 실제 경로는 downloads.tsv 확인</small></div>
+<div class="chip"><b>로컬 TTS 스크립트</b><div><code>/home/yh/ai-work/tts_cosy_prod/</code></div><small>실행 경로는 사용자 제공, 미실행</small></div>
+<div class="chip"><b>새 대본 두 편</b><div><a href="./ep01.html">01 라면집</a> · <a href="./ep02.html">02 편의점 100위안</a> · <a href="./dataset.json">원문 매칭 데이터</a></div></div>
+<div class="chip"><b>내레이션·원본 컷</b><div><a href="./ep01-v43-tts.txt">01 TTS TXT</a> · <a href="./ep02-v43-tts.txt">02 TTS TXT</a> · <a href="./ep01-v43-cuts.csv">01 컷 CSV</a> · <a href="./ep02-v43-cuts.csv">02 컷 CSV</a></div></div>
+</div></section><section class="box" id="references"><h2>📚 레퍼런스 4종 전개 DNA</h2><div class="refs"><article class="reference"><small>R01 · 외국인 체험 모자이크</small><b>경주 외국인 여행객</b><p>외국인 감탄 선공개 → 우리에게 익숙한 장소 → 낯선 관찰 → 음식·야경 등 단계적 감탄 → 처음 감탄 회수</p><a href="https://www.youtube.com/watch?v=yDJEM2faHh8" target="_blank" rel="noopener">레퍼런스 영상</a></article><article class="reference"><small>R02 · 인물 감정과 역경</small><b>허미미 유도 이야기</b><p>현재 결과 → 오래된 소망 → 선택의 대가 → 좌절 → 반전 → 초반 약속 회수</p><a href="https://www.youtube.com/watch?v=O_GH9Tc73pw" target="_blank" rel="noopener">레퍼런스 영상</a></article><article class="reference"><small>R03 · 질문 사다리·생활 발견</small><b>한국 등산 해외 반응</b><p>한국 호평 → 왜? → 실제 경험 → 또 하나의 작은 발견 → 한국인의 일상 재해석</p><a href="https://www.youtube.com/watch?v=tuc8aXMjXao" target="_blank" rel="noopener">레퍼런스 영상</a></article><article class="reference"><small>R04 · 역순 퍼즐·긴 콜백</small><b>한글 이야기</b><p>이상한 판정 선공개 → 작은 원리 → 숨겨 둔 단서 → 다른 관점 → 마지막 원점 회수</p><a href="https://www.youtube.com/watch?v=o-5qsCCSVyo" target="_blank" rel="noopener">레퍼런스 영상</a></article></div><p class="mini">추가 학습 자막 총 7개 목표 중 현재 제공된 고유 예시 4종, 남은 3종은 <b class="red">🔴 미입력</b>입니다. 레퍼런스의 사건과 대사를 이번 대본의 실제 사실인 것처럼 쓰지 않습니다.</p></section><section class="box" id="prompts"><div class="headrow"><h2>1~8단계 프롬프트, 복사해 실행하기</h2><button id="copyAll">📋 전체 프롬프트 복사</button></div><details id="step0" open><summary>01 · 범용 마스터 프롬프트</summary><div style="text-align:right;padding:9px 12px"><button data-copy="txt0">이 단계 복사</button></div><pre id="txt0"># 국뽕 해외반응 · Hermes 범용 대본/영상 파이프라인 V4.3
+상태: 사용자 승인 전에는 로컬 원본 이동/삭제/다운로드/유료 API 호출/외부 서비스 게시 금지.
+역할: 실제 중국어 자막과 번역자막을 근거로 10분 이상 한국어 내레이션 중심 해외반응 영상을 제작한다.
+성공 레퍼런스: 경주(외국인 호평→발견), 허미미(선택→대가→감정회수), 북한산(질문→작은 답→다음 질문), 한글(단서 선공개→후반 회수). 레퍼런스의 사건·수치·발언은 복제하지 않는다.
+
+🔴 수동 입력 (빈칸은 반드시 작업 시작 전에 메운다)
+- 주제: [🔴 예: 한국의 24시간 무인 라면가게]
+- 영상 범위: [🔴 한국어 자막 SRT/중국어 SRT의 원본 ID·파일명]
+- 원본 영상 경로: [🔴 /run/media/yh/새 볼륨/틱톡/...]
+- 목표 시간: [🔴 기본 10~17분, 수정 가능]
+- 오디오: [🔴 Qwen3-TTS-Base 새 목소리, 기준 참조 음성/재생 방식 확인]
+- 화면 연출: [🔴 가로 16:9, 풀블리드 원본 영상, 반투명 유리 카드, 민트/골드/시안/코랄, 레터박스 방지]
+- 참조 대본: [🔴 7편까지 선택, 현재 4종 분석 완료/3종 비어 있음]
+- 게시/라이선스 승인 여부: [🔴 원본마다 따로 승인]
+
+STEP 0 · 원본 읽기 (읽기 전용)
+1. GitHub downloads.tsv를 읽고 ID/원본 URL/제목/녹화·게시일/로컬경로/자막행·시간을 대조한다.
+2. zh.srt와 ko.srt를 묶고, 원음 검수가 필요한 문장과 기계 번역 오역을 구분한다.
+3. 출처가 없는 외국인 칭찬/비난/댓글을 지어내지 않는다.
+4. 파일이 없는 구간은 &#39;미확인&#39;으로 남긴다.
+
+STEP 1 · 소재 판정
+- 조회수 하나만 보지 말고 실제 발언의 선명성, 화면 다양성, 칭찬+반문/갈등+회수, 사건 순서, 시니어 가독성 등으로 주제 후보 5개 평가.
+- 타임코드 있는 출처 없이 사건을 만들지 않는다.
+
+STEP 2 · 대본 구조
+- 첫 0~30초에 실제 한국 호평 또는 구체적 놀라움 → 반전의 씨앗 → 큰 질문.
+- 전체는 10~12구간, 질문/작은 답/새 질문을 이어 붙인다.
+- 중간 30~60초마다 새로운 정보·행동·표정·시각적 전환을 둔다. 질문만 연달아 나열하지 않는다.
+- 첫 답을 주었다면 다음 실제 문제로 확장하고, 마지막에 도입의 질문/이미지를 회수한다.
+- 도입에서 가격 반전의 숫자를 모두 공개해 버릴지, 뒤에서 공개할지 선택하고 감정 효과의 이유를 적는다.
+
+STEP 3 · 자연스러운 한국어 내레이션
+- 설명체와 발표문체를 줄이고 &#39;누가 무엇을 했고 그래서 어떤 일이 생겼다&#39;를 말하듯 연결한다.
+- &#39;한국이 최고라고 할 수 없습니다&#39;, &#39;그런 말은 만들면 안 됩니다&#39;, &#39;화면에 그래픽을 얹으면 됩니다&#39;, &#39;원본 자료를 보니&#39; 같은 제작자 메타 문구는 내레이션에서 삭제한다.
+- 외국인의 실제 긍정적 말은 있는 그대로, 비판은 비판 그대로 다룬다. 국적·문화 전체의 승부처럼 가공하지 않는다.
+- 내레이션 목표 음성 비중 60% 이상. 분량은 실제 TTS 길이로 확정.
+- 사건 사실/화자의 발언/해설자의 해석을 서로 구별한다.
+
+STEP 4 · 외국인 음성·한국어 자막
+- 모든 사용 후보 원음 컷마다 source_id, SRT 번호, 원음 시작/종료, 중국어 ASR 텍스트, 한국어 번역, 번역교정 여부를 남긴다.
+- 실제 원음 듣기 전에는 SRT &#39;음성 검수 전&#39; 배지를 유지한다.
+- 발언자가 다른 두 영상의 소리를 한 사람의 말처럼 합치지 않는다.
+- 3~6초 컷은 편집 리듬 가이드일 뿐 저작권 면책 조건이 아니다.
+
+STEP 5 · 1:1 편집표
+- 내레이션 문장별 완성 영상 출력 시각, 화면·동작·B-roll, 원본ID, 원본 시작·끝, 번역자막, 전환, SFX/BGM을 저장한다.
+- 중국 SNS를 영상에 문자로 드러내기보다 &#39;중국인 여행객/인플루언서&#39;처럼 실제 맥락에 맞는 소개를 하되, 출처는 하단에 정확히 남긴다.
+- 가능하면 원본 영상을 화면에 크게 두고 검정 레터박스 없이 채운다. 자막/반응 카드는 반투명 유리 배경으로 읽히게 한다.
+- 실제 댓글이 없으면 댓글을 만들지 않는다. 댓글 모양 디자인 샘플에는 &#39;실제 댓글 아님&#39;을 반드시 표시한다.
+
+STEP 6 · 로컬 TTS
+- 사용자 제공 명령:
+  bash /home/yh/ai-work/tts_cosy_prod/qwen_tts.sh 대본.jsonl 출력폴더 -12
+  bash /home/yh/ai-work/tts_cosy_prod/cosy_tts.sh &lt;대본.jsonl&gt; &lt;출력폴더&gt; -12
+- 위 명령은 실행된 사실이 없다. 먼저 shell 스크립트의 입력 JSONL 스키마를 읽기 전용으로 확인한 후 변환한다.
+- 기계 자동번역 원음은 TTS에 넣지 말고, 한국어 내레이션 구간만 TTS로 합성한다.
+- 기존 목소리를 새 목소리로 바꾸려면 참조음성/사용할 모델 경로를 확인하고 기존 파일을 덮어쓰지 않는다.
+
+STEP 7 · 검수
+- 사실 1:1 매칭, 감정선, 훅 회수, 한국 호평 0~30초, 질문/답 연결, 외국인 발언 정확성, 시청 지속, 원본 권리, TTS 싱크, 자막 깨짐, 16:9 크롭, BGM/내레이션 균형을 PASS/보완/미확인으로 기록.
+- 검수 미완료도 완료한 척 표시하지 않는다.
+
+STEP 8 · 산출물
+- outline5.json / voiceover.txt / script_vNN.md / source_evidence.json / one_to_one_cutlist.csv / qc_checklist.md / workflow_log.md
+- 실제 TTS 입력용 narration.jsonl 은 스키마 확인 후 생성.
+- 매번 대본·미디어·결과를 최신 번호로 저장하되 이전 버전을 삭제하지 않는다.
+- GitHub에는 대본·자막 링크·작업판 HTML을 커밋하고, 대용량 원본 MP4는 무단으로 올리지 않는다.
+
+작업 로그 형식: 단계 번호 / 입력 파일 / 출력 파일 / PASS·보완·미확인 / 변경한 항목 / 해결 못 한 문제.
+</pre></details><details id="step1" ><summary>02 · 자료 찾기</summary><div style="text-align:right;padding:9px 12px"><button data-copy="txt1">이 단계 복사</button></div><pre id="txt1">GitHub downloads.tsv 및 지정 SRT만 읽기. 한국 관련 자막 원본 ID·시각·중국어·한국어를 표로 매칭. 원본 MP4 경로는 downloads.tsv에서만 가져오기. 자막 없는 자료는 음성 생성으로 보완하지 말고 미확인으로 표시.</pre></details><details id="step2" ><summary>03 · 5개 아웃라인 먼저</summary><div style="text-align:right;padding:9px 12px"><button data-copy="txt2">이 단계 복사</button></div><pre id="txt2">출처가 확인된 소재에서 5개 후보를 선별. 각 후보의 30초 훅 5문장, 중심 질문, 단계별 작은 답, 위기/전환, 감정선, 원본의 실제 증거 시각, 조회 적합도(조회 예측 아님)를 한 표로 보고. 그중 2개만 최종 대본으로 진행.</pre></details><details id="step3" ><summary>04 · 12단 실제 대본</summary><div style="text-align:right;padding:9px 12px"><button data-copy="txt3">이 단계 복사</button></div><pre id="txt3">외국인의 실제 한국 호평을 초반에 제시. 자막 내용을 도입→문제→작은 답→새 질문→반문/갈등→실제 장면→중간 보상→후반 반전→도입 회수로 자연스럽게 배열. 문단 내부의 &#39;무엇 때문에/그러자/그런데&#39;가 인과적으로 이어지는지 검수. 실제 음성 없는 칭찬 금지. 제작 메모와 내레이션 분리.</pre></details><details id="step4" ><summary>05 · 원본+투명 영상 편집</summary><div style="text-align:right;padding:9px 12px"><button data-copy="txt4">이 단계 복사</button></div><pre id="txt4">원본 MP4를 화면 전체에 배경으로 두고 object-fit:cover 기준 필요 시 피사체 손상 여부를 확인한 크롭. B-roll은 실제 출처 시간에서 선택, 음성 OFF 장면엔 내레이션을 넣고 원음 컷만 중국어 음성 ON. 한국어 자막은 검정 레터박스 대신 블러 처리된 반투명 패널. 강조 색: 노랑=질문, 빨강=위기, 시안=근거, 민트=긍정, 보라=후반 회수. 댓글은 실제 데이터 있을 때만.</pre></details><details id="step5" ><summary>06 · 로컬 Qwen3-TTS</summary><div style="text-align:right;padding:9px 12px"><button data-copy="txt5">이 단계 복사</button></div><pre id="txt5">한국어 순수 내레이션을 TXT로 출력. 먼저 /home/yh/ai-work/tts_cosy_prod/qwen_tts.sh 와 cosy_tts.sh의 JSONL 입력 키를 읽기 전용 확인. 확인한 스키마로 narration.jsonl 변환. 이후 승인된 로컬 명령 한 개만 실행. 외부 API·모델 설치·코드 수정·기존 오디오 덮어쓰기는 하지 말 것.</pre></details><details id="step6" ><summary>07 · 1:1 결과 확인</summary><div style="text-align:right;padding:9px 12px"><button data-copy="txt6">이 단계 복사</button></div><pre id="txt6">문장별 완성 영상 시작·종료, 원본 영상 ID, 원본 SRT 시각, 한국어 번역, 화면 프레임 확인 여부, 자막 일치 여부, 댓글 증거, 음성 비율, 라이선스 상태를 하나의 CSV로 보고. 원음 미청취는 &#39;미확인&#39;, TTS 미생성도 &#39;미확인&#39;.</pre></details><details id="step7" ><summary>08 · 저장·버전관리</summary><div style="text-align:right;padding:9px 12px"><button data-copy="txt7">이 단계 복사</button></div><pre id="txt7">기존 GitHub 연구 허브 왼쪽 최상단 메뉴에 연결. 기존 V4.2는 보존하고 이번 결과는 V4.3으로 별도 보관. 기존 결과를 지우거나 원본을 무단 업로드하지 마세요. 핵심 변경 요약만 실행 로그에 기록.</pre></details></section><section class="box" id="qc"><h2>🔴 반드시 수동으로 확인</h2><p><b>필수:</b> 주제·원본 SRT·원본 MP4·라이선스·목표 길이·TTS 목소리·BGM/영상 분위기.</p><div class="warn">원본을 다운로드해 갖고 있다는 것과 영상·음성 재사용 권한은 별개입니다. 한국어 자동번역은 틀릴 수 있으며 원문 원음 검수 전에는 '검증'으로 표시하지 않습니다.</div><p class="mini">가장 중요한 차이: <b>방송 대본에서는 제작자용 검수 메모를 없애고</b>, 검수 체크·원본 링크·화면 계획은 이 작업판과 컷 시트에만 분리합니다.</p></section><p class="mini">V4.3 · 기존 V4.2 별도 보존 · 2026-11-15 · 로컬 TTS는 실행하지 않았습니다.</p></main></div><script>
+const t=document.querySelectorAll('button[data-copy]');t.forEach(b=>b.addEventListener('click',async()=>{let z=document.getElementById(b.dataset.copy);try{await navigator.clipboard.writeText(z.textContent);b.textContent='✓ 복사 완료'}catch(e){b.textContent='선택해서 복사해 주세요'}}));
+document.getElementById('copyAll').addEventListener('click',async()=>{const z="# 국뽕 해외반응 · Hermes 범용 대본/영상 파이프라인 V4.3\n상태: 사용자 승인 전에는 로컬 원본 이동/삭제/다운로드/유료 API 호출/외부 서비스 게시 금지.\n역할: 실제 중국어 자막과 번역자막을 근거로 10분 이상 한국어 내레이션 중심 해외반응 영상을 제작한다.\n성공 레퍼런스: 경주(외국인 호평→발견), 허미미(선택→대가→감정회수), 북한산(질문→작은 답→다음 질문), 한글(단서 선공개→후반 회수). 레퍼런스의 사건·수치·발언은 복제하지 않는다.\n\n🔴 수동 입력 (빈칸은 반드시 작업 시작 전에 메운다)\n- 주제: [🔴 예: 한국의 24시간 무인 라면가게]\n- 영상 범위: [🔴 한국어 자막 SRT/중국어 SRT의 원본 ID·파일명]\n- 원본 영상 경로: [🔴 /run/media/yh/새 볼륨/틱톡/...]\n- 목표 시간: [🔴 기본 10~17분, 수정 가능]\n- 오디오: [🔴 Qwen3-TTS-Base 새 목소리, 기준 참조 음성/재생 방식 확인]\n- 화면 연출: [🔴 가로 16:9, 풀블리드 원본 영상, 반투명 유리 카드, 민트/골드/시안/코랄, 레터박스 방지]\n- 참조 대본: [🔴 7편까지 선택, 현재 4종 분석 완료/3종 비어 있음]\n- 게시/라이선스 승인 여부: [🔴 원본마다 따로 승인]\n\nSTEP 0 · 원본 읽기 (읽기 전용)\n1. GitHub downloads.tsv를 읽고 ID/원본 URL/제목/녹화·게시일/로컬경로/자막행·시간을 대조한다.\n2. zh.srt와 ko.srt를 묶고, 원음 검수가 필요한 문장과 기계 번역 오역을 구분한다.\n3. 출처가 없는 외국인 칭찬/비난/댓글을 지어내지 않는다.\n4. 파일이 없는 구간은 '미확인'으로 남긴다.\n\nSTEP 1 · 소재 판정\n- 조회수 하나만 보지 말고 실제 발언의 선명성, 화면 다양성, 칭찬+반문/갈등+회수, 사건 순서, 시니어 가독성 등으로 주제 후보 5개 평가.\n- 타임코드 있는 출처 없이 사건을 만들지 않는다.\n\nSTEP 2 · 대본 구조\n- 첫 0~30초에 실제 한국 호평 또는 구체적 놀라움 → 반전의 씨앗 → 큰 질문.\n- 전체는 10~12구간, 질문/작은 답/새 질문을 이어 붙인다.\n- 중간 30~60초마다 새로운 정보·행동·표정·시각적 전환을 둔다. 질문만 연달아 나열하지 않는다.\n- 첫 답을 주었다면 다음 실제 문제로 확장하고, 마지막에 도입의 질문/이미지를 회수한다.\n- 도입에서 가격 반전의 숫자를 모두 공개해 버릴지, 뒤에서 공개할지 선택하고 감정 효과의 이유를 적는다.\n\nSTEP 3 · 자연스러운 한국어 내레이션\n- 설명체와 발표문체를 줄이고 '누가 무엇을 했고 그래서 어떤 일이 생겼다'를 말하듯 연결한다.\n- '한국이 최고라고 할 수 없습니다', '그런 말은 만들면 안 됩니다', '화면에 그래픽을 얹으면 됩니다', '원본 자료를 보니' 같은 제작자 메타 문구는 내레이션에서 삭제한다.\n- 외국인의 실제 긍정적 말은 있는 그대로, 비판은 비판 그대로 다룬다. 국적·문화 전체의 승부처럼 가공하지 않는다.\n- 내레이션 목표 음성 비중 60% 이상. 분량은 실제 TTS 길이로 확정.\n- 사건 사실/화자의 발언/해설자의 해석을 서로 구별한다.\n\nSTEP 4 · 외국인 음성·한국어 자막\n- 모든 사용 후보 원음 컷마다 source_id, SRT 번호, 원음 시작/종료, 중국어 ASR 텍스트, 한국어 번역, 번역교정 여부를 남긴다.\n- 실제 원음 듣기 전에는 SRT '음성 검수 전' 배지를 유지한다.\n- 발언자가 다른 두 영상의 소리를 한 사람의 말처럼 합치지 않는다.\n- 3~6초 컷은 편집 리듬 가이드일 뿐 저작권 면책 조건이 아니다.\n\nSTEP 5 · 1:1 편집표\n- 내레이션 문장별 완성 영상 출력 시각, 화면·동작·B-roll, 원본ID, 원본 시작·끝, 번역자막, 전환, SFX/BGM을 저장한다.\n- 중국 SNS를 영상에 문자로 드러내기보다 '중국인 여행객/인플루언서'처럼 실제 맥락에 맞는 소개를 하되, 출처는 하단에 정확히 남긴다.\n- 가능하면 원본 영상을 화면에 크게 두고 검정 레터박스 없이 채운다. 자막/반응 카드는 반투명 유리 배경으로 읽히게 한다.\n- 실제 댓글이 없으면 댓글을 만들지 않는다. 댓글 모양 디자인 샘플에는 '실제 댓글 아님'을 반드시 표시한다.\n\nSTEP 6 · 로컬 TTS\n- 사용자 제공 명령:\n  bash /home/yh/ai-work/tts_cosy_prod/qwen_tts.sh 대본.jsonl 출력폴더 -12\n  bash /home/yh/ai-work/tts_cosy_prod/cosy_tts.sh <대본.jsonl> <출력폴더> -12\n- 위 명령은 실행된 사실이 없다. 먼저 shell 스크립트의 입력 JSONL 스키마를 읽기 전용으로 확인한 후 변환한다.\n- 기계 자동번역 원음은 TTS에 넣지 말고, 한국어 내레이션 구간만 TTS로 합성한다.\n- 기존 목소리를 새 목소리로 바꾸려면 참조음성/사용할 모델 경로를 확인하고 기존 파일을 덮어쓰지 않는다.\n\nSTEP 7 · 검수\n- 사실 1:1 매칭, 감정선, 훅 회수, 한국 호평 0~30초, 질문/답 연결, 외국인 발언 정확성, 시청 지속, 원본 권리, TTS 싱크, 자막 깨짐, 16:9 크롭, BGM/내레이션 균형을 PASS/보완/미확인으로 기록.\n- 검수 미완료도 완료한 척 표시하지 않는다.\n\nSTEP 8 · 산출물\n- outline5.json / voiceover.txt / script_vNN.md / source_evidence.json / one_to_one_cutlist.csv / qc_checklist.md / workflow_log.md\n- 실제 TTS 입력용 narration.jsonl 은 스키마 확인 후 생성.\n- 매번 대본·미디어·결과를 최신 번호로 저장하되 이전 버전을 삭제하지 않는다.\n- GitHub에는 대본·자막 링크·작업판 HTML을 커밋하고, 대용량 원본 MP4는 무단으로 올리지 않는다.\n\n작업 로그 형식: 단계 번호 / 입력 파일 / 출력 파일 / PASS·보완·미확인 / 변경한 항목 / 해결 못 한 문제.\n";try{await navigator.clipboard.writeText(z);document.getElementById('copyAll').textContent='✓ 복사 완료'}catch(e){alert('복사할 수 없습니다. 첫 번째 프롬프트를 펼쳐 복사하세요.')}});
+</script></body></html>

@@ -65,7 +65,7 @@ function csvEscape(v){return '"'+String(v??'').replace(/"/g,'""')+'"'}
 function csv(rows){const head=['번호','최종 시작','최종 종료','종류','원고·자막','원본 원문','원본 ID','원본줄','원본시작','원본종료','화면 연출','폰트·레이어','소리·효과음','저작권','검수 상태','원본 URL'];let matrix=[head,...rows.map(r=>[r.i,mm(r.start),mm(r.end),r.kind,r.text,r.zh,r.sourceId,r.cue,r.sourceStart,r.sourceEnd,r.shot,r.font,r.audio,r.rights,r.evidence,r.sourceLink])];return '\uFEFF'+matrix.map(row=>row.map(csvEscape).join(',')).join('\r\n')}
 function exportButtons(rows){
  const t=$('ttsOnly'),f=$('fullScript'),c=$('csvOut'),j=$('jsonOut');
- t.onclick=()=>download(rows.filter(x=>x.kind==='N').map(x=>'['+mm(x.start)+'–'+mm(x.end)+'] '+x.text).join('\n'),ep.id+'-tts-narration-v6.txt');
+ t.onclick=()=>download(rows.filter(x=>x.kind==='N').map(x=>x.text).join('\n'),ep.id+'-tts-narration-v6.txt');
  f.onclick=()=>download(rows.map(r=>'['+mm(r.start)+'–'+mm(r.end)+'] '+(r.kind==='F'?'[외국인/ASR 미검수 '+r.sourceId+' '+r.sourceStart+'] ':'[GPT 나레이션] ')+r.text).join('\n'),ep.id+'-full-script-v6.txt');
  c.onclick=()=>download(csv(rows),ep.id+'-105cuts-semantic-audit-v6.csv','text/csv;charset=utf-8');
  j.onclick=()=>download(JSON.stringify({episode:ep,rows,metadata:{sourceRights:D.sourceRights,evidence:D.evidence}},null,2),ep.id+'-1to1-evidence-v6.json','application/json;charset=utf-8');

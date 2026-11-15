@@ -612,8 +612,10 @@
           "country": "한국"
         }
       ],
-      "characterCount": 2484,
-      "estimatedMinutes": 8.7
+      "characterCount": 3292,
+      "estimatedMinutes": 11.18,
+      "characterCountNoSpaces": 2484,
+      "durationBasis": "공백 포함 글자 수÷분당 330자 + 참조 원음 자막컷당 4초; TTS 실측 전 추정"
     },
     {
       "id": "ep02",
@@ -1023,8 +1025,10 @@
           "country": "한국"
         }
       ],
-      "characterCount": 2657,
-      "estimatedMinutes": 9.3
+      "characterCount": 3519,
+      "estimatedMinutes": 11.93,
+      "characterCountNoSpaces": 2657,
+      "durationBasis": "공백 포함 글자 수÷분당 330자 + 참조 원음 자막컷당 4초; TTS 실측 전 추정"
     }
   ]
 }

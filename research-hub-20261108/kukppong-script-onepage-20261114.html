@@ -27,7 +27,91 @@ textarea{width:100%;min-height:235px;padding:13px;background:#0d131a;color:#f9f9
 .ocr-one{width:calc(100% - 12px);margin:7px 6px;padding:6px 8px;font-size:11px}.ocr-source{color:#ffe29a;font-size:10px;margin:4px 7px}.ocr-progress{font-size:12px;color:#e1d6a5}.ocr-warn{font-size:11px;color:#ffe6ba}
 @media(max-width:650px){.redtable{font-size:11px}.redtable th,.redtable td{padding:6px}.memo{padding:9px}.memo p{font-size:12px}}
 
-</style></head><body><main>
+
+
+/* v1.4: 독립 왼쪽 목차 사이드바. 기존 콘텐츠와 패널 표시 로직 보존 */
+:root{--left-menu-width:272px}
+.site-sidebar{position:fixed;inset:0 auto 0 0;width:var(--left-menu-width);padding:16px 12px 20px;z-index:100;overflow-y:auto;overscroll-behavior:contain;background:linear-gradient(174deg,#102d3e 0%,#0b1b2b 52%,#1d182b 100%);border-right:1px solid #66859a6b;box-shadow:8px 0 30px #0005;scrollbar-width:thin}
+.side-brand{display:block;padding:6px 2px 3px;color:#fff;font-size:18px;font-weight:950;text-decoration:none;line-height:1.4}
+.side-brand small{display:block;font-size:11px;color:#b8d3e9;font-weight:600;letter-spacing:.04em}
+.side-top{display:flex;align-items:flex-start;justify-content:space-between;gap:6px;padding:2px 5px 12px;border-bottom:1px solid #ffffff32}
+.side-close{min-width:36px;padding:7px 8px;font-size:15px;background:#224159}
+.side-caption{display:flex;justify-content:space-between;align-items:center;margin:17px 6px 8px;font-size:13px;font-weight:900;color:#ffe6a6}.side-caption span{font-size:10px;color:#a9c4d3;font-weight:600}
+.side-group{margin:8px 0;border:1px solid #68829b4d;background:#04152280;border-radius:12px;overflow:hidden}
+.side-group>summary{list-style:none;cursor:pointer;padding:11px 12px;font-size:12px;font-weight:900;color:#d9f3ff;background:#1f35446e}
+.side-group>summary::-webkit-details-marker{display:none}
+.side-group>summary:after{content:'⌄';float:right;color:#f8d982}
+.side-group:not([open])>summary:after{content:'›'}
+.side-group>a{display:block;margin:4px 6px;padding:8px 11px;border-radius:9px;color:#d2e6f2;text-decoration:none;font-size:12px;line-height:1.45;transition:background .15s,border-color .15s;border-left:3px solid transparent}
+.side-group>a:hover,.side-group>a:focus-visible{background:#27526b;outline:none;color:#fff}
+.side-group>a.is-active{background:linear-gradient(95deg,#2b6466b8,#26435b65);border-left-color:#ffc868;color:#fff;font-weight:900}
+.side-group>a.side-sub{font-size:11px;margin-left:20px;color:#a9d1dc;padding:6px 9px;border-left-color:#476678}
+.side-group>a.side-sub.is-active{border-left-color:#ffce7f;color:#fff}
+.side-group>a.side-external{color:#f8d8a4}
+.side-help{margin:14px 7px;color:#a7b9cb;font-size:11px;line-height:1.7}
+.sidebar-open{display:none;position:fixed;top:12px;left:12px;z-index:111;padding:10px 13px;background:#173c53;box-shadow:0 5px 20px #0006;border:1px solid #a4c7d1;font-weight:900}
+.sidebar-backdrop{display:none}
+.panel[id],.panel h3[id],#page-top{scroll-margin-top:75px}
+@media(min-width:981px){
+ body.has-sidebar main{width:calc(100% - var(--left-menu-width));max-width:none;margin:0 0 0 var(--left-menu-width);padding:15px clamp(16px,2.5vw,40px)}
+ body.has-sidebar.sidebar-collapsed .site-sidebar{transform:translateX(-105%)}
+ body.has-sidebar.sidebar-collapsed main{width:100%;max-width:1500px;margin:0 auto;padding:15px 18px}
+ body.has-sidebar.sidebar-collapsed .sidebar-open{display:inline-flex}
+ body.has-sidebar.sidebar-collapsed .topline{padding-left:98px}
+}
+@media(max-width:980px){
+ .site-sidebar{width:min(310px,88vw);transform:translateX(-105%);transition:transform .2s ease}
+ body.has-sidebar main{width:100%;max-width:1500px;margin:0 auto;padding:54px 12px 14px}
+ .sidebar-open{display:inline-flex}
+ .sidebar-backdrop{position:fixed;inset:0;background:#040a14b8;z-index:99}
+ body.sidebar-mobile-open .site-sidebar{transform:translateX(0)}
+ body.sidebar-mobile-open .sidebar-backdrop{display:block}
+ body.sidebar-mobile-open .sidebar-open{display:none}
+ body.sidebar-mobile-open{overflow:hidden}
+}
+@media(prefers-reduced-motion:reduce){.site-sidebar,.side-group>a{transition:none}html{scroll-behavior:auto}}
+
+</style></head><body class="has-sidebar">
+<aside id="siteSidebar" class="site-sidebar" aria-label="왼쪽 콘텐츠 메뉴">
+ <div class="side-top"><a href="#page-top" class="side-brand">🌍 국뽕 분석 목차<small>썸네일 · 훅 · 전개 · 감정선 · 대본</small></a><button id="sidebarClose" class="side-close" type="button" aria-label="왼쪽 목차 접기">✕</button></div>
+ <div class="side-caption">📑 한눈에 보기 <span>본문 10개 영역</span></div>
+ <nav id="siteNav" aria-label="이 페이지의 영역 바로가기">
+ <details class="side-group" open><summary>🧠 분석 모음집</summary>
+  <a href="#thumbnails">🖼️ ① 썸네일 27편</a>
+  <a href="#hook-collection">🎣 ② 훅 분석 · 22편</a>
+  <a class="side-sub" href="#hook-intros-22">↳ 실전 도입 훅 22편</a>
+  <a class="side-sub" href="#hook-types-12">↳ 훅 공식 12종</a>
+  <a class="side-sub" href="#hook-types-14">↳ 훅 DNA 14종</a>
+  <a href="#flow-collection">🧩 ③ 전개 공식 · 17종</a>
+  <a class="side-sub" href="#flow-types-8">↳ GPT 전개 8종</a>
+  <a class="side-sub" href="#flow-types-9">↳ 전개 DNA 9종</a>
+  <a href="#emotion-collection">💚 ④ 감정선 · 22편</a>
+  <a href="#rep-collection">💬 ⑤ 대표 문장 · 22편</a>
+ </details>
+ <details class="side-group" open><summary>🎬 자료·제작 기준</summary>
+  <a href="#sources">📚 ⑥ 원자료·작성 기준</a>
+  <a href="#rights">⚖️ ⑦ 저작권·사용 허락</a>
+  <a href="#editing">🎥 ⑧ 영상 편집 노하우</a>
+  <a class="side-sub" href="#editing-observed">↳ 편집 관찰 16편</a>
+  <a class="side-sub" href="#editing-copyright">↳ 저작권 위험 줄이기</a>
+  <a class="side-sub" href="#editing-checklist">↳ 제작 체크리스트</a>
+ </details>
+ <details class="side-group" open><summary>📝 국뽕 완성 대본</summary>
+  <a href="#completed-script-collection">🎞️ 대본 ①~⑤ + 감정선</a>
+  <a href="#more-five-scripts-17min">🎙️ 대본 ⑥~⑩ 초안</a>
+ </details>
+ <details class="side-group"><summary>📥 원본 자막·자료 링크</summary>
+  <a class="side-external" target="_blank" rel="noopener noreferrer" href="https://github.com/geben147-create/Insta/tree/main/reactions-downloads/subs">🌐 중국어·한국어 자막 폴더 ↗</a>
+  <a class="side-external" target="_blank" rel="noopener noreferrer" href="https://github.com/geben147-create/Insta/blob/main/reactions-downloads/downloads.tsv">📋 영상 다운로드 목록 ↗</a>
+  <a class="side-external" target="_blank" rel="noopener noreferrer" href="https://github.com/geben147-create/Insta/tree/main/japan-reactions">🇯🇵 일본 후보 자료 ↗</a>
+  <a class="side-external" target="_blank" rel="noopener noreferrer" href="https://github.com/geben147-create/Insta/tree/main/%ED%95%B4%EC%99%B8%EC%A0%84%EB%AC%B8%EA%B0%80%EB%B0%98%EC%9D%91-%ED%95%9C%EC%9D%BC-20261115">🎤 해외전문가 반응 ↗</a>
+ </details>
+ </nav>
+ <p class="side-help">메뉴를 누르면 해당 영역을 자동으로 펼쳐 이동합니다. 긴 페이지에서도 메뉴는 왼쪽에 유지됩니다.</p>
+</aside>
+<div id="sidebarBackdrop" class="sidebar-backdrop" aria-hidden="true"></div>
+<button id="sidebarOpen" class="sidebar-open" type="button" aria-controls="siteSidebar" aria-expanded="true">☰ 목차</button>
+<main id="page-top">
 <div class="topline"><a href="./">← 통합 연구 허브로</a><span>2026-11-14 정리 · 기존 연구 자료 2026-11-08 스냅샷</span></div>
 <header class="hero"><p style="color:#fedb7f;font-weight:900">SOURCE-LINKED ORIGINAL · 1-PAGE COLLECTION</p><h1>🌍 해외반응 × 국뽕 <mark class="gold">훅·전개·감정선</mark> 모음집</h1><p>썸네일 27개 · 실제 도입 훅 22편 · 유형 12+14종 · 전개 8+9종 · 감정선 22편</p><p class="lead">화면 맨 위 썸네일은 사진·조회수·게시일·채널·구독자만 기본 표시합니다. 제목과 썸네일 문구는 체크했을 때만 보입니다. 모든 훅·전개·감정 원문은 유형별로 한곳에 모았습니다.</p></header>
 <div class="sticky"><button id="expandAll" class="strong">☑ 전체 펼치기</button><button id="collapseAll">☐ 전체 접기</button><span class="quiet">영역별 체크로 부분 표시·숨김</span></div>
@@ -745,4 +829,71 @@ document.getElementById('ocrAllBtn').addEventListener('click',()=>{document.getE
 document.getElementById('ocrStopBtn').addEventListener('click',()=>{stopOcr=true;setStatus('현재 이미지 처리 뒤 중지 예정');});
 
 })();
-</script></body></html>
+</script>
+
+<script>
+/* 왼쪽 목차: 열린 패널 자동 펼침, 상세 앵커, 모바일 서랍, 현재 위치 표시 */
+(function(){
+ const body=document.body, sidebar=document.getElementById('siteSidebar');
+ const btnOpen=document.getElementById('sidebarOpen'),btnClose=document.getElementById('sidebarClose');
+ const backdrop=document.getElementById('sidebarBackdrop'),mobile=window.matchMedia('(max-width:980px)');
+ const nested={
+  'hook-collection':['hook-intros-22','hook-types-12','hook-types-14'],
+  'flow-collection':['flow-types-8','flow-types-9'],
+  'editing':['editing-observed','editing-copyright','editing-checklist']
+ };
+ Object.entries(nested).forEach(([sectionId,ids])=>{
+  const panel=document.getElementById(sectionId);if(!panel)return;
+  panel.querySelectorAll('h3').forEach((h,i)=>{if(ids[i]&&!h.id)h.id=ids[i]});
+ });
+ function setMenu(open){
+  if(mobile.matches){body.classList.toggle('sidebar-mobile-open',open);body.classList.remove('sidebar-collapsed')}
+  else{body.classList.toggle('sidebar-collapsed',!open);body.classList.remove('sidebar-mobile-open')}
+  btnOpen.setAttribute('aria-expanded',String(open));
+  sidebar.inert=!open;
+  if(mobile.matches&&!open)btnOpen.focus({preventScroll:true});
+ }
+ function resetMode(){body.classList.remove('sidebar-mobile-open','sidebar-collapsed');btnOpen.setAttribute('aria-expanded',String(!mobile.matches));sidebar.inert=mobile.matches}
+ btnOpen.addEventListener('click',()=>setMenu(true));
+ btnClose.addEventListener('click',()=>setMenu(false));
+ backdrop.addEventListener('click',()=>setMenu(false));
+ mobile.addEventListener('change',resetMode);
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&(body.classList.contains('sidebar-mobile-open')||!body.classList.contains('sidebar-collapsed')&&!mobile.matches))setMenu(false)});
+ resetMode();
+ const navLinks=[...sidebar.querySelectorAll('a[href^="#"]')];
+ function openAndJump(hash,smooth){
+  if(!hash||hash==='#')return;
+  const id=decodeURIComponent(hash.slice(1)), target=document.getElementById(id);
+  if(!target)return;
+  const panel=target.closest('section.panel');
+  const box=panel?.querySelector(':scope > .panel-head .areaSwitch');
+  if(box&&!box.checked){box.checked=true;box.dispatchEvent(new Event('change',{bubbles:true}))}
+  if(mobile.matches)setMenu(false);
+  requestAnimationFrame(()=>target.scrollIntoView({behavior:smooth?'smooth':'instant',block:'start'}));
+ }
+ navLinks.forEach(link=>link.addEventListener('click',e=>{
+  e.preventDefault();
+  history.replaceState(null,'',link.hash);
+  openAndJump(link.hash,true);
+ }));
+ window.addEventListener('hashchange',()=>openAndJump(location.hash,false));
+ if(location.hash)window.addEventListener('load',()=>openAndJump(location.hash,false),{once:true});
+ const panels=[...document.querySelectorAll('section.panel[id]')];
+ let pending=false;
+ function updateActive(){
+  pending=false;
+  let active=panels[0]?.id||'';
+  for(const p of panels){if(p.getBoundingClientRect().top<=165)active=p.id}
+  navLinks.forEach(a=>{
+   const section=document.getElementById(decodeURIComponent(a.hash.slice(1)))?.closest('section.panel');
+   const isCurrent=a.hash==='#'+active && a.hash!=='#page-top';
+   a.classList.toggle('is-active',isCurrent);
+   if(isCurrent)a.setAttribute('aria-current','location');
+   else a.removeAttribute('aria-current');
+  });
+ }
+ window.addEventListener('scroll',()=>{if(!pending){pending=true;requestAnimationFrame(updateActive)}},{passive:true});
+ updateActive();
+})();
+</script>
+</body></html>

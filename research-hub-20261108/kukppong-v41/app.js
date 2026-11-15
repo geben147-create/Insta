@@ -12,7 +12,7 @@ const pathFrom=(d,id)=>d.sources[id]?.local||"원본 로컬경로 미기록";
 const srcLabel=(d,id)=>{let s=d.sources[id];return s?esc(s.title.replace(/^\\[[^\\]]+\\]\\s*/,"").slice(0,90)):esc(id)};
 const rawLink=id=>"https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/"+encodeURIComponent(id)+".ai-zh.srt";
 const krLink=id=>"https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/"+encodeURIComponent(id)+".ko.srt";
-let data,ep,speed=330,clipDuration=4,target=10,cutState=[],shown="script",selectedHook=0;
+let data,ep,speed=330,clipDuration=4,target=10,cutState=[],shown="script",selectedHook=0,manualChecks=[];
 function nav(d,page){
   return '<aside class="left"><div class="tag">V4.2 WORKSPACE</div>'+
     '<details open><summary>📂 시작·아웃라인</summary><a class="navlink '+(page==="index"?"active":"")+'" href="./index.html"><em>🏠</em><span>5개 주제 설계판</span></a>'+
@@ -96,9 +96,9 @@ function eventsFor(e){
 }
 function stat(e){let ev=eventsFor(e),narr=ev.filter(x=>x.kind==="narration").reduce((s,x)=>s+x.to-x.from,0);return {ev,total:ev.length?ev[ev.length-1].to:0,narr,foreign:ev.filter(x=>x.kind==="quote").reduce((s,x)=>s+x.to-x.from,0),ratio:ev.length?narr/ev[ev.length-1].to:0}}
 function loadSettings(e){
- try{let saved=JSON.parse(localStorage.getItem("kuk-v41-"+e.id)||"{}");if(saved.speed)speed=+saved.speed;if(saved.clipDuration)clipDuration=+saved.clipDuration;if(saved.target)target=+saved.target;if(Array.isArray(saved.edits)){e.beats.forEach((b,i)=>{if(saved.edits[i])b.text=saved.edits[i]})};if(Number.isInteger(saved.hook))selectedHook=saved.hook}catch(_){}
+ try{let saved=JSON.parse(localStorage.getItem("kuk-v41-"+e.id)||"{}");if(saved.speed)speed=+saved.speed;if(saved.clipDuration)clipDuration=+saved.clipDuration;if(saved.target)target=+saved.target;if(Array.isArray(saved.edits)){e.beats.forEach((b,i)=>{if(saved.edits[i])b.text=saved.edits[i]})};if(Number.isInteger(saved.hook))selectedHook=saved.hook;if(Array.isArray(saved.checklist))manualChecks=saved.checklist}catch(_){}
 }
-function stored(e){return {speed,clipDuration,target,edits:e.beats.map(b=>b.text),hook:selectedHook,updated:new Date().toISOString()}}
+function stored(e){return {speed,clipDuration,target,edits:e.beats.map(b=>b.text),hook:selectedHook,checklist:manualChecks,updated:new Date().toISOString()}}
 function persist(e){localStorage.setItem("kuk-v41-"+e.id,JSON.stringify(stored(e)))}
 function renderEpisode(){
  const e=ep,st=stat(e),duration=st.total,slip=(target*60-duration);
@@ -189,8 +189,8 @@ function renderChecklist(e,s){
  ];
  let ok=flags.filter(x=>x[2]==="ok").length,w=flags.filter(x=>x[2]==="warn").length,f=flags.filter(x=>x[2]==="fail").length;
  return '<section class="panel"><div class="subhead"><h2>✅ V4.1 체크리스트</h2><small>적용 '+ok+' · 보완 '+w+' · 미확인 '+f+'</small></div>'+
- '<p class="subtle">각 항목은 현재 대본·자료의 작업상태입니다. PASS는 출처 영상 사용허락까지 의미하지 않습니다.</p><div class="checklist">'+flags.map((z,i)=>'<div class="checkrow">'+lab(z[2]==="ok"?"적용":z[2]==="warn"?"보완":"미확인",z[2])+
- '<label>'+esc(z[0])+'<small>'+esc(z[1])+'</small></label><span style="color:#889fac;font-size:11px;text-align:right">'+(i+1)+'</span></div>').join("")+'</div></section>'+
+ '<p class="subtle">각 항목의 적용/보완/미확인은 시스템 점검 상태입니다. 오른쪽 체크는 내가 직접 확인한 항목만 표시하고 이 브라우저에 저장됩니다. 적용 표시는 영상 사용허락을 의미하지 않습니다.</p><div class="checklist">'+flags.map((z,i)=>'<div class="checkrow">'+lab(z[2]==="ok"?"적용":z[2]==="warn"?"보완":"미확인",z[2])+
+ '<label>'+esc(z[0])+'<small>'+esc(z[1])+'</small></label><input type="checkbox" data-qc-id="'+i+'" title="직접 확인 후 체크" '+(manualChecks[i]?'checked':'')+' style="width:17px;height:17px;margin:3px auto;cursor:pointer;accent-color:#62be84" aria-label="'+esc(z[0])+' 직접 검수 완료"></div>').join("")+'</div></section>'+
  '<section class="panel"><h2>⌛ 추정 러닝타임</h2><div class="progressbar"><span class="n" style="width:'+(s.ratio*100)+'%"></span><span class="c" style="width:'+((1-s.ratio)*100)+'%"></span></div>'+
  '<p class="legend"><b>■</b> 나레이션 '+mm(s.narr)+' ('+Math.round(s.ratio*100)+'%) · 원본 음성 '+mm(s.foreign)+' ('+Math.round((1-s.ratio)*100)+'%)</p>'+
  '<p class="subtle">공백 포함 분당 '+speed+'자, 원음 컷 '+clipDuration+'초 적용 · 실측 전 추정치</p></section>'+
@@ -217,7 +217,8 @@ function bindEpisode(e){
  $("#closeAll")?.addEventListener("click",()=>$$(".beat").forEach(x=>x.open=false));
  $("#exportCsv")?.addEventListener("click",()=>downloadCSV(e,stat(e).ev));
  $("#exportText")?.addEventListener("click",()=>downloadText(e));
- $$("button[data-copy]").forEach(b=>b.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(b.dataset.copy);toast("경로를 복사했습니다")}catch(_){toast("복사가 제한된 환경입니다")}}))
+ $("input[data-qc-id]").forEach(b=>b.addEventListener("change",()=>{manualChecks[+b.dataset.qcId]=b.checked;persist(e);toast("검수 체크가 이 브라우저에 저장됐습니다") }));
+ $("button[data-copy]").forEach(b=>b.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(b.dataset.copy);toast("경로를 복사했습니다")}catch(_){toast("복사가 제한된 환경입니다")}}))
 }
 function setView(v){const b=$('button[data-view="'+v+'"]');b?.click()}
 function saveCurrentEditors(e){$$("[data-beat-editor]").forEach(t=>{let i=+t.dataset.beatEditor;if(t.style.display!=="none"||t.value!==e.beats[i].text)e.beats[i].text=t.value.trim()||e.beats[i].text})}

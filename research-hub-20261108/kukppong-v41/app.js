@@ -14,7 +14,7 @@ const rawLink=id=>"https://github.com/geben147-create/Insta/blob/main/reactions-
 const krLink=id=>"https://github.com/geben147-create/Insta/blob/main/reactions-downloads/subs/"+encodeURIComponent(id)+".ko.srt";
 let data,ep,speed=330,clipDuration=4,target=10,cutState=[],shown="script",selectedHook=0;
 function nav(d,page){
-  return '<aside class="left"><div class="tag">V4.1 WORKSPACE</div>'+
+  return '<aside class="left"><div class="tag">V4.2 WORKSPACE</div>'+
     '<details open><summary>📂 시작·아웃라인</summary><a class="navlink '+(page==="index"?"active":"")+'" href="./index.html"><em>🏠</em><span>5개 주제 설계판</span></a>'+
     d.outlines.map(o=>'<a class="navlink" href="./index.html#'+o.id.toLowerCase()+'"><em>'+o.rank+'</em><span>'+esc(o.name)+'</span></a>').join("")+
     '</details><details open><summary>📄 최종 대본 · 1편당 1페이지</summary>'+
@@ -25,7 +25,7 @@ function nav(d,page){
     '<p class="mini">최신 자막 수집분의 일부만 대본화<br>원본 허락·음성 검수는 별도</p></aside>'
 }
 function header(d){
-  return '<header class="top"><div class="toplogo"><small>SEMANTIC JUDGE · SCRIPT & CUT V4.1 · 2026-11-15</small>국뽕 해외반응 대본 검수판</div>'+
+  return '<header class="top"><div class="toplogo"><small>SEMANTIC JUDGE · SCRIPT & CUT V4.2 · 2026-11-15</small>국뽕 해외반응 대본 검수판</div>'+
   '<div class="toplinks"><a class="hot" href="../index.html">◀ 연구 허브</a><a href="./index.html">5개 아웃라인</a><a href="../../reactions-downloads/index.html">자막·원본</a><a href="../kukppong-script-onepage-20261114.html">훅·전개 공식</a></div></header>'
 }
 function tabs(page){
@@ -66,7 +66,8 @@ function splitSentences(text){
 function eventsFor(e){
  let cur=0,all=[];e.beats.forEach((b,bi)=>{
  let lines=splitSentences(b.text),n=lines.length;
- let idx=b.clips.length===1?[Math.min(3,n-1)]:b.clips.length===2?[Math.min(2,n-1),Math.min(n-2,Math.floor(n*.72))]:[Math.min(2,n-1),Math.floor(n*.54),Math.min(n-1,n-2)];
+ // All clips, even when there are more than three, get an ordered place in the beat.
+ let idx=b.clips.map((_,j)=>Math.min(n-1,Math.max(0,Math.floor((j+1)*n/(b.clips.length+1)))));
  let insertMap=new Map();b.clips.forEach((c,j)=>{let k=idx[j];insertMap.set(k,[...(insertMap.get(k)||[]),c])});
  lines.forEach((line,i)=>{
   let duration=Math.max(1.2,line.length*60/speed);

@@ -33,9 +33,21 @@ function tabs(page){
  return '<nav class="episode-tabs"><a class="'+(page==="index"?"active":"")+'" href="./index.html"><strong>OUTLINES · 5개</strong><span>주제·훅·감정선·소스</span></a>'+
  data.episodes.map(e=>'<a class="'+(page===e.id?"active":"")+'" href="./'+e.id+'.html"><strong>'+esc(e.id.toUpperCase())+' · '+esc(e.short)+'</strong><span>10분 이상 · 대본+1:1 영상편집</span></a>').join("")+'</nav>'
 }
+
+function bindV41Resizer(){
+ const grip=document.getElementById('v41-resize');if(!grip)return;
+ const set=n=>{n=Math.min(620,Math.max(190,Math.round(n)));document.documentElement.style.setProperty('--v41-sidebar-width',n+'px');localStorage.setItem('v41-sidebar-width',String(n))};
+ const prior=Number(localStorage.getItem('v41-sidebar-width')||0);if(prior>=190&&prior<=620)set(prior);
+ grip.addEventListener('pointerdown',e=>{e.preventDefault();grip.setPointerCapture(e.pointerId);grip.classList.add('drag')});
+ grip.addEventListener('pointermove',e=>{if(grip.hasPointerCapture(e.pointerId))set(e.clientX)});
+ grip.addEventListener('pointerup',e=>{grip.classList.remove('drag');if(grip.hasPointerCapture(e.pointerId))grip.releasePointerCapture(e.pointerId)});
+ grip.addEventListener('dblclick',()=>set(232));
+ grip.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home'].includes(e.key)){e.preventDefault();set(e.key==='Home'?232:(Number(localStorage.getItem('v41-sidebar-width'))||232)+(e.key==='ArrowRight'?16:-16))}});
+}
 function frame(page,body){
- $("#app").innerHTML=header(data)+'<div class="layout">'+nav(data,page)+'<main class="workspace">'+tabs(page)+body+
+ $("#app").innerHTML=header(data)+'<div class="layout">'+nav(data,page)+'<div id="v41-resize" class="v41-resize" role="separator" tabindex="0" aria-label="왼쪽 메뉴 폭 조절" title="드래그로 너비 조절·더블클릭 초기화"></div><main class="workspace">'+tabs(page)+body+
  '<footer class="foot">© 원본 출처 각 영상의 제작자 · 이 사이트는 원본 영상 자체를 재게시하지 않습니다. AI 자막에는 오역 가능성이 있으며 이용허락은 별도 확인해야 합니다. · '+esc(data.date)+'</footer></main></div>';
+ bindV41Resizer();
 }
 function renderIndex(){
  let inv=data.inventory, html='<section class="hero"><div class="eyebrow">OUTLINE × SOURCE ONLY × 1:1 EDIT</div><h1>5개 아웃라인 · 2개 제작 대본</h1>'+

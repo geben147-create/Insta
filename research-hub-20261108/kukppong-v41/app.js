@@ -217,8 +217,8 @@ function bindEpisode(e){
  $("#closeAll")?.addEventListener("click",()=>$$(".beat").forEach(x=>x.open=false));
  $("#exportCsv")?.addEventListener("click",()=>downloadCSV(e,stat(e).ev));
  $("#exportText")?.addEventListener("click",()=>downloadText(e));
- $("input[data-qc-id]").forEach(b=>b.addEventListener("change",()=>{manualChecks[+b.dataset.qcId]=b.checked;persist(e);toast("검수 체크가 이 브라우저에 저장됐습니다") }));
- $("button[data-copy]").forEach(b=>b.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(b.dataset.copy);toast("경로를 복사했습니다")}catch(_){toast("복사가 제한된 환경입니다")}}))
+ $$("input[data-qc-id]").forEach(b=>b.addEventListener("change",()=>{manualChecks[+b.dataset.qcId]=b.checked;persist(e);toast("검수 체크가 이 브라우저에 저장됐습니다") }));
+ $$("button[data-copy]").forEach(b=>b.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(b.dataset.copy);toast("경로를 복사했습니다")}catch(_){toast("복사가 제한된 환경입니다")}}))
 }
 function setView(v){const b=$('button[data-view="'+v+'"]');b?.click()}
 function saveCurrentEditors(e){$$("[data-beat-editor]").forEach(t=>{let i=+t.dataset.beatEditor;if(t.style.display!=="none"||t.value!==e.beats[i].text)e.beats[i].text=t.value.trim()||e.beats[i].text})}

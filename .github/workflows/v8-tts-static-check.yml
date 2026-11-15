@@ -1,0 +1,28 @@
+name: V8 EP01-03 MP3 script syntax and source validation
+
+on:
+  push:
+    paths:
+      - "research-hub-20261108/foreign-reactions-v8-20261115/tts/**"
+      - "research-hub-20261108/foreign-reactions-v8-20261115/ep02.js"
+      - "research-hub-20261108/foreign-reactions-v8-20261115/ep03.js"
+      - "research-hub-20261108/foreign-reactions-v8-20261115/handoff/EP01_EDIT_MASTER.md"
+      - ".github/workflows/v8-tts-static-check.yml"
+  workflow_dispatch:
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            research-hub-20261108/foreign-reactions-v8-20261115
+          sparse-checkout-cone-mode: true
+      - name: Python syntax
+        run: python3 -m py_compile research-hub-20261108/foreign-reactions-v8-20261115/tts/batch_tts_3.py
+      - name: Extract 3 narrator scripts (no GPU/no model load)
+        run: bash research-hub-20261108/foreign-reactions-v8-20261115/tts/run_batch_mp3.sh --dry-run
+      - name: Dashboard player JavaScript syntax
+        run: node --check research-hub-20261108/foreign-reactions-v8-20261115/tts/player.js

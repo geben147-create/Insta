@@ -10,6 +10,9 @@ on:
       - '.github/workflows/kukppong-wine-edge-tts-20261116.yml'
 permissions:
   contents: write
+concurrency:
+  group: kukppong-edge-tts-two-episodes
+  cancel-in-progress: true
 jobs:
   generate:
     runs-on: ubuntu-latest

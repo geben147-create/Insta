@@ -41,6 +41,17 @@ result.push(["00:00~00:04","외국인 실제 한국 호평 원음 슬롯 A","사
 result.push(["00:04~00:08","외국인 실제 한국 호평 원음 슬롯 B","서로 다른 사람 또는 맥락이 다른 영상","미확정","미확보"]);
 result.push(["00:08~00:12","외국인 실제 한국 호평 원음 슬롯 C","확인된 경우에만 사용, 미확보 시 훅 수정","미확정","미확보"]);
 result.push(["00:12~00:30","나레이션 훅(1~4초씩 5개 이상 화면컷)","실제 뉴스 발표+숫자+중심 질문 그래픽","자체화면","대본 초고"]);
+if(Array.isArray(t.shots)&&t.shots.length===33){
+ for(const x of t.shots){
+   const k=x.time_start_seconds,b=locate(k/60);
+   result.push([time(k)+"~"+time(k+30),
+      "H"+String(b+1).padStart(2,"0")+" / "+ROLES[b]+" · "+x.question,
+      x.visual+" · 3~4초 미니컷 × 8 (권리 확인 후)",
+      x.evidence+" · 화면 출처 원문은 하단 해외 근거 참고",
+      "실제 클립 IN/OUT: "+x.origin_in_out+" / 권리: "+x.permission]);
+ }
+ return result;
+}
 for(let i=30;i<1020;i+=30){const b=locate(i/60),screens=["외국인 평가·시선 후보","현지 자료 영상·연혁","공식숫자·자체 그래프","반론·위기 대비","해외 원문 화면·근거","새로운 정보·비교","인물·현장·역사","감정 회수·핵심 문구"];result.push([time(i)+"~"+time(Math.min(i+30,1020)),ROLES[b]+" · 질문→정보→새 질문",screens[b]+" · 약 3~4초 × 8컷",t.sourceRefs[b%t.sourceRefs.length]?.title||"자료 조사", "IN/OUT 미확정"]) }
 return result}
 function csvFor(t){let arr=[["편집 시간","서사 기능","화면·컷 계획","출처/화면 출처","실제 영상 확정"]].concat(renderShotplan(t));return arr.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\r\n")}

@@ -1,1 +1,32 @@
-{"id": "BV1C3rGYEEb6", "title": "为什么韩国人首尔赚钱上海花？日本网友：再中国消费属于降维打击", "title_orig": "为什么韩国人首尔赚钱上海花？日本网友：再中国消费属于降维打击", "platform": "BILI", "country": "한국", "cat": "여행", "cat_folder": "여행/서울", "date": "2025-01-06", "host": "870컴퓨터(yh-X870-Taichi-Creator)", "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/여행/서울/2025-01-06_BV1C3rGYEEb6_[여행-서울]为什么韩国人首尔赚钱上海花？日本网友：再中国消费属于降维打击/BV1C3rGYEEb6.mp4", "dur_ms": 122000, "lang": "zh", "asr": "FunASR fsmn-vad + paraformer-zh + ct-punc + fa-zh (중국어 재인식)", "asr_s": 0.4, "mt": "Claude 초벌 번역(자막 초안 — 사용 시 한국어 다듬기 필요)", "by": "by Hermes · Opus", "sum": "음성(대사)이 거의 없는 영상(음악·영상 위주). 자막 없음.", "verdict": "평가 없음(대사 없음)", "hooks": [], "chapters": [], "praise": [], "crit": [], "compare": [], "use": "대사 없음 — 영상 소스로만 활용 가능", "lines": [], "frames": []}
+{
+  "id": "BV1C3rGYEEb6",
+  "title": "[여행-서울] 서울 한인들은 왜 상하이에서 돈을 벌까? 일본 네티즌들 “중국 소비는 차원축소 공격”",
+  "title_orig": "[여행-서울] 서울 한인들은 왜 상하이에서 돈을 벌까? 일본 네티즌들 “중국 소비는 차원축소 공격”",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "여행",
+  "done": true,
+  "dur_ms": 122000,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1C3rGYEEb6.mp4",
+  "date": "2025-01-06",
+  "lang": "en",
+  "asr": "faster-whisper large-v3-turbo",
+  "asr_only": true,
+  "translation_status": "not_requested",
+  "asr_status": "ok",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 2.0,
+      "zh": "You",
+      "ko": ""
+    }
+  ],
+  "chapters": []
+}

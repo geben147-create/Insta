@@ -1,0 +1,44 @@
+{
+  "id": "BV1Kb7Dz7Ei2",
+  "title": "在日本买地铁票看不懂“简体中文”不要慌！切换到“日本语”便一目了然",
+  "title_orig": "在日本买地铁票看不懂“简体中文”不要慌！切换到“日本语”便一目了然",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "교통",
+  "done": true,
+  "dur_ms": 0,
+  "n": 3,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1Kb7Dz7Ei2.mp4",
+  "date": "",
+  "lang": "zh",
+  "asr": "faster-whisper large-v3-turbo",
+  "asr_only": true,
+  "translation_status": "not_requested",
+  "asr_status": "ok",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.82,
+      "e": 4.54,
+      "zh": "画面将用简笔中文表示",
+      "ko": ""
+    },
+    {
+      "s": 4.54,
+      "e": 5.24,
+      "zh": "看不懂",
+      "ko": ""
+    },
+    {
+      "s": 5.24,
+      "e": 6.74,
+      "zh": "还是看日本吧",
+      "ko": ""
+    }
+  ],
+  "chapters": []
+}

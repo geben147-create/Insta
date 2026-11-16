@@ -1,0 +1,32 @@
+{
+  "id": "BV1Rw41167xh",
+  "title": "东京急行citywalk吃喝玩乐vlog（完结）购物.RRL.三宅.Visvim.Kith.45R.山本耀司.根津美术馆.麒麟之翼.三越百货.涉谷横丁.寿司美食",
+  "title_orig": "东京急行citywalk吃喝玩乐vlog（完结）购物.RRL.三宅.Visvim.Kith.45R.山本耀司.根津美术馆.麒麟之翼.三越百货.涉谷横丁.寿司美食",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "쇼핑",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1Rw41167xh.mp4",
+  "date": "",
+  "lang": "ko",
+  "asr": "faster-whisper large-v3-turbo",
+  "asr_only": true,
+  "translation_status": "not_requested",
+  "asr_status": "ok",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 350.99,
+      "e": 380.22,
+      "zh": "嫌われちゃうなあ嫌われちゃうなあ泣くのはやめた泣くのはやめた泣くのはやめた泣くのはやめた!",
+      "ko": ""
+    }
+  ],
+  "chapters": []
+}

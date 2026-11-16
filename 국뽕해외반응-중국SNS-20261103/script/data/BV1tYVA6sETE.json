@@ -1,1 +1,25 @@
-{"id": "BV1tYVA6sETE", "title": "去韩国看棒球赛，居然上大屏了（bushi）", "title_orig": "去韩国看棒球赛，居然上大屏了（bushi）", "platform": "BILI", "country": "한국", "cat": "스포츠", "cat_folder": "스포츠/야구", "date": "2026-05-26", "host": "870컴퓨터(yh-X870-Taichi-Creator)", "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/한국/스포츠/야구/2026-05-26_BV1tYVA6sETE_[스포츠-야구]去韩国看棒球赛，居然上大屏了（bushi）/BV1tYVA6sETE.mp4", "dur_ms": 16000, "lang": "en", "asr": "faster-whisper large-v3-turbo", "asr_s": 0.4, "mt": "Claude 초벌 번역(자막 초안 — 사용 시 한국어 다듬기 필요)", "by": "by Hermes · Opus", "sum": "음성(대사)이 거의 없는 영상(음악·영상 위주). 자막 없음.", "verdict": "평가 없음(대사 없음)", "hooks": [], "chapters": [], "praise": [], "crit": [], "compare": [], "use": "대사 없음 — 영상 소스로만 활용 가능", "lines": [], "frames": []}
+{
+  "id": "BV1tYVA6sETE",
+  "title": "[스포츠-야구] 야구 경기를 보러 한국에 갔는데, 실제로 큰 화면으로 볼 수 있었어요(부시)",
+  "title_orig": "[스포츠-야구] 야구 경기를 보러 한국에 갔는데, 실제로 큰 화면으로 볼 수 있었어요(부시)",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "스포츠",
+  "done": true,
+  "dur_ms": 16000,
+  "n": 0,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1tYVA6sETE.mp4",
+  "date": "2026-05-26",
+  "lang": "en",
+  "asr": "faster-whisper large-v3-turbo",
+  "asr_only": true,
+  "translation_status": "not_requested",
+  "asr_status": "no_speech",
+  "sum": "",
+  "verdict": "",
+  "lines": [],
+  "chapters": []
+}

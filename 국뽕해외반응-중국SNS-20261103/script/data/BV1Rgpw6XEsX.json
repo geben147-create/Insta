@@ -1,0 +1,32 @@
+{
+  "id": "BV1Rgpw6XEsX",
+  "title": "【inorog中字】[VLOG] 2晚3天夏日大阪旅行：难波、梅田、三丽鸥之家、唐吉诃德、购物开箱（2026/07/17）",
+  "title_orig": "【inorog中字】[VLOG] 2晚3天夏日大阪旅行：难波、梅田、三丽鸥之家、唐吉诃德、购物开箱（2026/07/17）",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "쇼핑",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1Rgpw6XEsX.mp4",
+  "date": "",
+  "lang": "en",
+  "asr": "faster-whisper large-v3-turbo",
+  "asr_only": true,
+  "translation_status": "not_requested",
+  "asr_status": "ok",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 2.1,
+      "e": 3.1,
+      "zh": "Thank you.",
+      "ko": ""
+    }
+  ],
+  "chapters": []
+}

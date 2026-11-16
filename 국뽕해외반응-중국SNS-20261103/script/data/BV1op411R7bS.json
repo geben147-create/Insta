@@ -1,0 +1,56 @@
+{
+  "id": "BV1op411R7bS",
+  "title": "一个日本人和一个加拿大人在韩国首尔地铁用中文在对话，这才是通用语言",
+  "title_orig": "一个日本人和一个加拿大人在韩国首尔地铁用中文在对话，这才是通用语言",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "교통",
+  "done": true,
+  "dur_ms": 0,
+  "n": 5,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1op411R7bS.mp4",
+  "date": "",
+  "lang": "en",
+  "asr": "faster-whisper large-v3-turbo",
+  "asr_only": true,
+  "translation_status": "not_requested",
+  "asr_status": "ok",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.02,
+      "e": 2.02,
+      "zh": "What do you want to do with T-shirt?",
+      "ko": ""
+    },
+    {
+      "s": 2.02,
+      "e": 4.02,
+      "zh": "What do you want to do with T-shirt?",
+      "ko": ""
+    },
+    {
+      "s": 4.02,
+      "e": 6.02,
+      "zh": "Ah, anyway, um...",
+      "ko": ""
+    },
+    {
+      "s": 6.02,
+      "e": 8.02,
+      "zh": "I don't want to do T-shirt.",
+      "ko": ""
+    },
+    {
+      "s": 8.02,
+      "e": 10.02,
+      "zh": "I don't want to do T-shirt.",
+      "ko": ""
+    }
+  ],
+  "chapters": []
+}

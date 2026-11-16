@@ -1,1 +1,25 @@
-{"id": "BV1oDiDYqECW", "title": "在日本看病真是绝了", "title_orig": "在日本看病真是绝了", "platform": "BILI", "country": "일본", "cat": "의료", "cat_folder": "의료/의료", "date": "2024-12-06", "host": "870컴퓨터(yh-X870-Taichi-Creator)", "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/일본/의료/의료/2024-12-06_BV1oDiDYqECW_[의료-의료]在日本看病真是绝了/BV1oDiDYqECW.mp4", "dur_ms": 89000, "lang": "en", "asr": "faster-whisper large-v3-turbo", "asr_s": 0.6, "mt": "Claude 초벌 번역(자막 초안 — 사용 시 한국어 다듬기 필요)", "by": "by Hermes · Opus", "sum": "음성(대사)이 거의 없는 영상(음악·영상 위주). 자막 없음.", "verdict": "평가 없음(대사 없음)", "hooks": [], "chapters": [], "praise": [], "crit": [], "compare": [], "use": "대사 없음 — 영상 소스로만 활용 가능", "lines": [], "frames": []}
+{
+  "id": "BV1oDiDYqECW",
+  "title": "[의료-의료] 일본에서 의사를 만나는 것은 놀라운 일입니다",
+  "title_orig": "[의료-의료] 일본에서 의사를 만나는 것은 놀라운 일입니다",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "의료",
+  "done": true,
+  "dur_ms": 89000,
+  "n": 0,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1oDiDYqECW.mp4",
+  "date": "2024-12-06",
+  "lang": "en",
+  "asr": "faster-whisper large-v3-turbo",
+  "asr_only": true,
+  "translation_status": "not_requested",
+  "asr_status": "no_speech",
+  "sum": "",
+  "verdict": "",
+  "lines": [],
+  "chapters": []
+}

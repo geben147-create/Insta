@@ -1,0 +1,28 @@
+{
+  "id": "BV1oxnw6REma",
+  "title": "BV1oxnw6REma",
+  "title_orig": "BV1oxnw6REma",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1oxnw6REma.mp4",
+  "date": "",
+  "lang": "zh",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 5.66,
+      "text": "韩网热议,推上海外KPOP粉丝反响很好的新歌登上热门话题。"
+    }
+  ],
+  "chapters": []
+}

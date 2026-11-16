@@ -1,0 +1,38 @@
+{
+  "id": "BV1U14y1G7Ex",
+  "title": "BV1U14y1G7Ex",
+  "title_orig": "BV1U14y1G7Ex",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 3,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1U14y1G7Ex.mp4",
+  "date": "",
+  "lang": "en",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.46,
+      "e": 9.85,
+      "text": "Mr. President, are you just starting to wait and see your exercises for South Korea right now?"
+    },
+    {
+      "s": 9.85,
+      "e": 10.85,
+      "text": "No."
+    },
+    {
+      "s": 10.85,
+      "e": 13.85,
+      "text": "What can you do, seriously, please?"
+    }
+  ],
+  "chapters": []
+}

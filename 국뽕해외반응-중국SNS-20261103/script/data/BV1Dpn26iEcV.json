@@ -1,0 +1,28 @@
+{
+  "id": "BV1Dpn26iEcV",
+  "title": "BV1Dpn26iEcV",
+  "title_orig": "BV1Dpn26iEcV",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1Dpn26iEcV.mp4",
+  "date": "",
+  "lang": "en",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 1.23,
+      "e": 2.17,
+      "text": "Tell the truth"
+    }
+  ],
+  "chapters": []
+}

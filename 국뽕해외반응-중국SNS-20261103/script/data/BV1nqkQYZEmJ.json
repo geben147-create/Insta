@@ -1,0 +1,38 @@
+{
+  "id": "BV1nqkQYZEmJ",
+  "title": "BV1nqkQYZEmJ",
+  "title_orig": "BV1nqkQYZEmJ",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 3,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1nqkQYZEmJ.mp4",
+  "date": "",
+  "lang": "zh",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 2.76,
+      "text": "韩国女子吐槽北京烤鸭男吃,说烤鸭饼像纸一样"
+    },
+    {
+      "s": 2.76,
+      "e": 17.12,
+      "text": "结果对面人指出她把包卷饼的纸也给吃进去了"
+    },
+    {
+      "s": 17.12,
+      "e": 23.26,
+      "text": "关键她不是把饼和纸一起吃,而是把饼给了朋友自己单独吃了纸"
+    }
+  ],
+  "chapters": []
+}

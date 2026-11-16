@@ -1,0 +1,43 @@
+{
+  "id": "BV1AipXezEUG",
+  "title": "BV1AipXezEUG",
+  "title_orig": "BV1AipXezEUG",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 4,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1AipXezEUG.mp4",
+  "date": "",
+  "lang": "en",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.3,
+      "e": 1.74,
+      "text": "Donkey Ikuyo"
+    },
+    {
+      "s": 1.74,
+      "e": 10.61,
+      "text": "Donkey Ikuyo"
+    },
+    {
+      "s": 10.61,
+      "e": 19.45,
+      "text": "Donkey Ikuyo"
+    },
+    {
+      "s": 19.45,
+      "e": 29.09,
+      "text": "Donkey"
+    }
+  ],
+  "chapters": []
+}

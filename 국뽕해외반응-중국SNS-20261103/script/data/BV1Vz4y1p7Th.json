@@ -1,0 +1,33 @@
+{
+  "id": "BV1Vz4y1p7Th",
+  "title": "BV1Vz4y1p7Th",
+  "title_orig": "BV1Vz4y1p7Th",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 2,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1Vz4y1p7Th.mp4",
+  "date": "",
+  "lang": "ko",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.24,
+      "e": 4.44,
+      "text": "꽃향기만 남기고 같단다"
+    },
+    {
+      "s": 4.44,
+      "e": 26.17,
+      "text": "싫듯이 뜨거웠지만"
+    }
+  ],
+  "chapters": []
+}

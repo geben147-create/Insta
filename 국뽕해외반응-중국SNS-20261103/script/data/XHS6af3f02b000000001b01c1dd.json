@@ -1,0 +1,38 @@
+{
+  "id": "XHS6af3f02b000000001b01c1dd",
+  "title": "XHS6af3f02b000000001b01c1dd",
+  "title_orig": "XHS6af3f02b000000001b01c1dd",
+  "platform": "XHS",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 3,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/XHS6af3f02b000000001b01c1dd.mp4",
+  "date": "",
+  "lang": "ru",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 1.74,
+      "text": "Отражение целого зала"
+    },
+    {
+      "s": 1.74,
+      "e": 4.5,
+      "text": "Так что я обнял, потом поцеловал"
+    },
+    {
+      "s": 4.5,
+      "e": 7.46,
+      "text": "Меня там ждут дела, они, они добавят нам"
+    }
+  ],
+  "chapters": []
+}

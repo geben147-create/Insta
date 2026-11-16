@@ -1,0 +1,28 @@
+{
+  "id": "BV13k8j6CE46",
+  "title": "BV13k8j6CE46",
+  "title_orig": "BV13k8j6CE46",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV13k8j6CE46.mp4",
+  "date": "",
+  "lang": "zh",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 1.92,
+      "text": "怎么这么多人排队呢"
+    }
+  ],
+  "chapters": []
+}

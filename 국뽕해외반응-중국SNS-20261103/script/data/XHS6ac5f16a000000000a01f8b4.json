@@ -1,0 +1,28 @@
+{
+  "id": "XHS6ac5f16a000000000a01f8b4",
+  "title": "XHS6ac5f16a000000000a01f8b4",
+  "title_orig": "XHS6ac5f16a000000000a01f8b4",
+  "platform": "XHS",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/XHS6ac5f16a000000000a01f8b4.mp4",
+  "date": "",
+  "lang": "es",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 10.64,
+      "e": 15.14,
+      "text": "Ay papi, ay papi, la fama más la fama, si la pasan días siento casi mal"
+    }
+  ],
+  "chapters": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "BV114F6e2EcP",
+  "title": "BV114F6e2EcP",
+  "title_orig": "BV114F6e2EcP",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV114F6e2EcP.mp4",
+  "date": "",
+  "lang": "zh",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 1.08,
+      "text": "日本便利店的关东竹"
+    }
+  ],
+  "chapters": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "BV1p1WtzfEKB",
+  "title": "BV1p1WtzfEKB",
+  "title_orig": "BV1p1WtzfEKB",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 3,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1p1WtzfEKB.mp4",
+  "date": "",
+  "lang": "en",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 3.58,
+      "text": "I'm saving and we're saving the taxpayer billions of dollars."
+    },
+    {
+      "s": 3.58,
+      "e": 9.18,
+      "text": "They will get you, your family, the caravan, the dog, and all the rest across the street."
+    },
+    {
+      "s": 9.4,
+      "e": 12.86,
+      "text": "The overall project costs will be lower than they would have been with Project Alivea."
+    }
+  ],
+  "chapters": []
+}

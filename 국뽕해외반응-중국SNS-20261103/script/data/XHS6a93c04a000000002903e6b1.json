@@ -1,0 +1,28 @@
+{
+  "id": "XHS6a93c04a000000002903e6b1",
+  "title": "XHS6a93c04a000000002903e6b1",
+  "title_orig": "XHS6a93c04a000000002903e6b1",
+  "platform": "XHS",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/XHS6a93c04a000000002903e6b1.mp4",
+  "date": "",
+  "lang": "en",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.18,
+      "e": 2.18,
+      "text": "Good guys all day"
+    }
+  ],
+  "chapters": []
+}

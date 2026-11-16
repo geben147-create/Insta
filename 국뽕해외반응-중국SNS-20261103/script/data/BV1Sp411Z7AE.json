@@ -1,0 +1,28 @@
+{
+  "id": "BV1Sp411Z7AE",
+  "title": "BV1Sp411Z7AE",
+  "title_orig": "BV1Sp411Z7AE",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1Sp411Z7AE.mp4",
+  "date": "",
+  "lang": "ja",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 22.54,
+      "e": 23.36,
+      "text": "通じた"
+    }
+  ],
+  "chapters": []
+}

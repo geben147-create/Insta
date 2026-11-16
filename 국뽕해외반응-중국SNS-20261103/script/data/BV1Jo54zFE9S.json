@@ -1,0 +1,53 @@
+{
+  "id": "BV1Jo54zFE9S",
+  "title": "BV1Jo54zFE9S",
+  "title_orig": "BV1Jo54zFE9S",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 6,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1Jo54zFE9S.mp4",
+  "date": "",
+  "lang": "zh",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.66,
+      "e": 2.66,
+      "text": "但是"
+    },
+    {
+      "s": 2.66,
+      "e": 4.66,
+      "text": "但是"
+    },
+    {
+      "s": 4.66,
+      "e": 6.66,
+      "text": "这样子男人有点关系"
+    },
+    {
+      "s": 6.66,
+      "e": 8.66,
+      "text": "关系"
+    },
+    {
+      "s": 8.66,
+      "e": 10.66,
+      "text": "这个不是吧"
+    },
+    {
+      "s": 10.66,
+      "e": 12.66,
+      "text": "关系"
+    }
+  ],
+  "chapters": []
+}

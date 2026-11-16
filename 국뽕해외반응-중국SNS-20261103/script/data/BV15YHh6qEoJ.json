@@ -1,0 +1,398 @@
+{
+  "id": "BV15YHh6qEoJ",
+  "title": "BV15YHh6qEoJ",
+  "title_orig": "BV15YHh6qEoJ",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 75,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV15YHh6qEoJ.mp4",
+  "date": "",
+  "lang": "en",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 5.34,
+      "text": "Hey guys, it is time to compare the Apple iPhone Duo with the Samsung Galaxy Z Fold 8"
+    },
+    {
+      "s": 5.34,
+      "e": 8.02,
+      "text": "and see which one of these is a better device."
+    },
+    {
+      "s": 8.34,
+      "e": 15.54,
+      "text": "So the Samsung Z Fold 8 starts at $1899 in the US and $1,79,000 in India."
+    },
+    {
+      "s": 15.62,
+      "e": 21.28,
+      "text": "The iPhone Duo however costs $2,000 in the US and Rs 3,00,000 in India."
+    },
+    {
+      "s": 21.68,
+      "e": 25.82,
+      "text": "So there's a huge price difference in India and this is something you all should note."
+    },
+    {
+      "s": 25.82,
+      "e": 30.2,
+      "text": "Starting with the design, I honestly think Samsung did an amazing job here."
+    },
+    {
+      "s": 30.44,
+      "e": 36.12,
+      "text": "The Fold 8 has a much cleaner and more symmetrical design with those sharp boxy edges and corners."
+    },
+    {
+      "s": 36.46,
+      "e": 41.5,
+      "text": "Here even the software makes full use of the display, the application interface, home screen,"
+    },
+    {
+      "s": 41.64,
+      "e": 44.98,
+      "text": "and application drawer all use an edge-to-edge interface."
+    },
+    {
+      "s": 45.54,
+      "e": 49.7,
+      "text": "So basically Samsung is using more of the display area to show content."
+    },
+    {
+      "s": 49.7,
+      "e": 56.62,
+      "text": "The iPhone Duo however takes a different approach with its asymmetrical D-shaped cover display."
+    },
+    {
+      "s": 56.72,
+      "e": 58.7,
+      "text": "Yeah, I love it too because it's unique."
+    },
+    {
+      "s": 58.9,
+      "e": 63.62,
+      "text": "I also love the opening and closing animations and how seamlessly transition feels."
+    },
+    {
+      "s": 63.96,
+      "e": 67.24,
+      "text": "But practically I think Z Fold 8 looks more balanced."
+    },
+    {
+      "s": 68.14,
+      "e": 72.78,
+      "text": "The iPhone Duo's software interface is made to adapt to that D-shaped cover display"
+    },
+    {
+      "s": 72.78,
+      "e": 75.44,
+      "text": "which means the right side has some limitations."
+    },
+    {
+      "s": 75.96,
+      "e": 80.4,
+      "text": "We have a huge selfie camera on the top right corner, the status bias on the right,"
+    },
+    {
+      "s": 80.64,
+      "e": 83.68,
+      "text": "and we will also have navigation controls on the right."
+    },
+    {
+      "s": 83.78,
+      "e": 88.66,
+      "text": "So definitely a unique UI but I think Samsung has made a better use of the screen."
+    },
+    {
+      "s": 88.94,
+      "e": 93.92,
+      "text": "Samsung is using more of the display area for actual content which is more practical."
+    },
+    {
+      "s": 97.06,
+      "e": 102.78,
+      "text": "Now iOS for the iPhone Duo versus Samsung One UI 9 on the Galaxy Z Fold 8."
+    },
+    {
+      "s": 102.78,
+      "e": 104.62,
+      "text": "See, both are the best of the best."
+    },
+    {
+      "s": 104.74,
+      "e": 107.12,
+      "text": "I love the iPhone Duo software and animation."
+    },
+    {
+      "s": 107.5,
+      "e": 111.28,
+      "text": "Samsung has done an amazing job too but it's nothing completely new."
+    },
+    {
+      "s": 111.46,
+      "e": 117.04,
+      "text": "It's basically same non-foldable phone UI just in a different form factor."
+    },
+    {
+      "s": 117.66,
+      "e": 124.44,
+      "text": "It looks decent and works well but I would appreciate a new UI for a wide folding device."
+    },
+    {
+      "s": 124.78,
+      "e": 128.24,
+      "text": "The iPhone Duo is using titanium which sounds more durable"
+    },
+    {
+      "s": 128.24,
+      "e": 133.42,
+      "text": "but the Samsung Z Fold 8 is lighter and thinner than the iPhone Duo so this is something you"
+    },
+    {
+      "s": 133.42,
+      "e": 134.24,
+      "text": "all should note."
+    },
+    {
+      "s": 134.34,
+      "e": 139.74,
+      "text": "In my usage with the Galaxy Z Fold 8, I haven't had any issue with the hinge or the folding"
+    },
+    {
+      "s": 139.74,
+      "e": 141.14,
+      "text": "or unfolding mechanism."
+    },
+    {
+      "s": 141.3,
+      "e": 146.28,
+      "text": "But the area where the iPhone Duo absolutely beats Samsung is water and dust protection."
+    },
+    {
+      "s": 146.72,
+      "e": 151.24,
+      "text": "The iPhone Duo has IP68 while the Samsung Fold 8 has IP48."
+    },
+    {
+      "s": 152.08,
+      "e": 155.96,
+      "text": "IP68 gives you much better protection against both dust and water."
+    },
+    {
+      "s": 155.96,
+      "e": 161.2,
+      "text": "6 means it's fully dust tight while the second number 8 means it can handle being submerged"
+    },
+    {
+      "s": 161.2,
+      "e": 164.56,
+      "text": "in water under specific testing condition."
+    },
+    {
+      "s": 164.82,
+      "e": 170.0,
+      "text": "The Fold 8 has an IP48 rating which means it has same level of protection against solid"
+    },
+    {
+      "s": 170.0,
+      "e": 173.96,
+      "text": "objects as the first number is 4 but still has an aid for water protection."
+    },
+    {
+      "s": 174.4,
+      "e": 180.08,
+      "text": "So the iPhone Duo has a clear advantage in dust protection which is something must for a"
+    },
+    {
+      "s": 180.08,
+      "e": 180.92,
+      "text": "folding device."
+    },
+    {
+      "s": 180.92,
+      "e": 185.02,
+      "text": "The iPhone Duo also has Apple Pencil support while Samsung doesn't."
+    },
+    {
+      "s": 185.16,
+      "e": 189.78,
+      "text": "Samsung dropped S Pen support on the Fold a few years back to cut the cost so Apple got"
+    },
+    {
+      "s": 189.78,
+      "e": 191.2,
+      "text": "a clear advantage there."
+    },
+    {
+      "s": 191.44,
+      "e": 196.16,
+      "text": "Now Apple has pulled off something quite impressive on the inner display by implementing an under"
+    },
+    {
+      "s": 196.16,
+      "e": 197.12,
+      "text": "display camera."
+    },
+    {
+      "s": 197.34,
+      "e": 201.9,
+      "text": "Yeah of course this will affect image quality compared to a normal camera but it makes a"
+    },
+    {
+      "s": 201.9,
+      "e": 203.72,
+      "text": "lot of sense on the foldable."
+    },
+    {
+      "s": 203.72,
+      "e": 208.84,
+      "text": "But it's the smartest move cause you guys can use the selfie camera on the cover screen or"
+    },
+    {
+      "s": 208.84,
+      "e": 213.74,
+      "text": "you can use the main camera as a selfie camera while using the cover screen as a viewfinder"
+    },
+    {
+      "s": 213.74,
+      "e": 214.84,
+      "text": "for better images."
+    },
+    {
+      "s": 214.84,
+      "e": 220.96,
+      "text": "Plus you also get a full screen inner display with no interruption for watching movies or"
+    },
+    {
+      "s": 220.96,
+      "e": 221.96,
+      "text": "playing games."
+    },
+    {
+      "s": 221.96,
+      "e": 227.78,
+      "text": "So again having a full screen inner display is a very welcome change and with the nano texturizing"
+    },
+    {
+      "s": 227.78,
+      "e": 231.62,
+      "text": "on top, reflections and the crease are much less noticeable."
+    },
+    {
+      "s": 231.62,
+      "e": 236.4,
+      "text": "You do get better control over reflections but the display can have some compromises in"
+    },
+    {
+      "s": 236.4,
+      "e": 244.07,
+      "text": "brightness, colors and overall clarity."
+    },
+    {
+      "s": 244.07,
+      "e": 246.47,
+      "text": "Cameras on both these devices should be decent."
+    },
+    {
+      "s": 246.47,
+      "e": 251.93,
+      "text": "Both have a main and an ultra wide angle camera on the rear with no periscope or telephoto camera."
+    },
+    {
+      "s": 251.93,
+      "e": 253.57,
+      "text": "So the setup is quite similar."
+    },
+    {
+      "s": 253.57,
+      "e": 259.17,
+      "text": "And again both these phones can capture selfies using the rear camera while using the cover screen"
+    },
+    {
+      "s": 259.17,
+      "e": 260.61,
+      "text": "as a viewfinder."
+    },
+    {
+      "s": 260.61,
+      "e": 265.23,
+      "text": "And finally performance is where I think for the first time we may not see a huge difference."
+    },
+    {
+      "s": 265.23,
+      "e": 270.89,
+      "text": "I did a speed test comparison between the A20 Pro and Qualcomm Snapdragon 8 Elite Gen 5"
+    },
+    {
+      "s": 270.89,
+      "e": 276.97,
+      "text": "for Galaxy and Samsung came out much better in video rendering and some other areas."
+    },
+    {
+      "s": 276.97,
+      "e": 281.17,
+      "text": "Even AAA games and emulator work better on Samsung in my testing."
+    },
+    {
+      "s": 281.17,
+      "e": 283.45,
+      "text": "So this where Samsung is better."
+    },
+    {
+      "s": 283.45,
+      "e": 287.59,
+      "text": "Battery life should also be similar but we'll see that in the battery test coming soon."
+    },
+    {
+      "s": 287.59,
+      "e": 292.21,
+      "text": "So I think the Galaxy Z Fold 8 looks like a better device overall for markets like India"
+    },
+    {
+      "s": 292.21,
+      "e": 294.21,
+      "text": "where the price gap is huge."
+    },
+    {
+      "s": 294.21,
+      "e": 299.61,
+      "text": "But if you want the best of the best like IP68 protection, Apple Pencil support, a full"
+    },
+    {
+      "s": 299.61,
+      "e": 304.39,
+      "text": "screen inner display with an under display camera, a better experience for gaming and"
+    },
+    {
+      "s": 304.39,
+      "e": 308.21,
+      "text": "watching movies then the iPhone Duo is the one you should get."
+    },
+    {
+      "s": 308.21,
+      "e": 310.83,
+      "text": "This is all guys thanks so much for watching."
+    },
+    {
+      "s": 310.83,
+      "e": 313.83,
+      "text": "Your thoughts in the comment section below and I'll meet you guys in the next one."
+    },
+    {
+      "s": 313.83,
+      "e": 316.17,
+      "text": "Like, share, subscribe and peace out."
+    }
+  ],
+  "chapters": []
+}

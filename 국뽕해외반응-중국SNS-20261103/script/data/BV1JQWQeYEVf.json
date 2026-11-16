@@ -1,0 +1,53 @@
+{
+  "id": "BV1JQWQeYEVf",
+  "title": "BV1JQWQeYEVf",
+  "title_orig": "BV1JQWQeYEVf",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 6,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1JQWQeYEVf.mp4",
+  "date": "",
+  "lang": "ko",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 1.0,
+      "text": "이쁘리야."
+    },
+    {
+      "s": 1.0,
+      "e": 2.0,
+      "text": "하이."
+    },
+    {
+      "s": 2.0,
+      "e": 3.0,
+      "text": "하이."
+    },
+    {
+      "s": 3.0,
+      "e": 7.9,
+      "text": "하이."
+    },
+    {
+      "s": 7.9,
+      "e": 45.35,
+      "text": "하이."
+    },
+    {
+      "s": 45.35,
+      "e": 46.35,
+      "text": "하이."
+    }
+  ],
+  "chapters": []
+}

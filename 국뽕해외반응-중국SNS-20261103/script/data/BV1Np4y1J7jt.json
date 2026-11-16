@@ -1,0 +1,43 @@
+{
+  "id": "BV1Np4y1J7jt",
+  "title": "BV1Np4y1J7jt",
+  "title_orig": "BV1Np4y1J7jt",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 4,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1Np4y1J7jt.mp4",
+  "date": "",
+  "lang": "ko",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 1.39,
+      "e": 14.33,
+      "text": "수의자의 식민지로 만들려는 기도를 분쇄할 일대 구국 대책을 강구하지 않는다면 우리는 전조선 인민들과 후손들에게 대하여 전투에 있으실 수 없는 죄를 지닌다는 것을 각오해야 하겠습니다."
+    },
+    {
+      "s": 31.39,
+      "e": 37.69,
+      "text": "The invasion of the Republic of Korea was a direct challenge to the principles of the United Nations."
+    },
+    {
+      "s": 38.89,
+      "e": 42.55,
+      "text": "That challenge was met by an overwhelming response."
+    },
+    {
+      "s": 47.37,
+      "e": 59.81,
+      "text": "in that far off land could prove once again that only courage and sacrifice can keep freedom alive upon the earth."
+    }
+  ],
+  "chapters": []
+}

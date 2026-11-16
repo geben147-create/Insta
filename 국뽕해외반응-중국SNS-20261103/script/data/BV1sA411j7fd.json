@@ -1,0 +1,33 @@
+{
+  "id": "BV1sA411j7fd",
+  "title": "BV1sA411j7fd",
+  "title_orig": "BV1sA411j7fd",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 2,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1sA411j7fd.mp4",
+  "date": "",
+  "lang": "ko",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.66,
+      "e": 5.28,
+      "text": "때로는 너랑 가장 먼 곳을 가고 싶었어"
+    },
+    {
+      "s": 5.28,
+      "e": 17.52,
+      "text": "네가 나한테 걸어오던 수리가 기억나"
+    }
+  ],
+  "chapters": []
+}

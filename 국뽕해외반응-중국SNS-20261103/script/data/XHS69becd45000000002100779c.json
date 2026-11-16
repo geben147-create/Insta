@@ -1,0 +1,28 @@
+{
+  "id": "XHS69becd45000000002100779c",
+  "title": "XHS69becd45000000002100779c",
+  "title_orig": "XHS69becd45000000002100779c",
+  "platform": "XHS",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/XHS69becd45000000002100779c.mp4",
+  "date": "",
+  "lang": "en",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.88,
+      "e": 1.56,
+      "text": "We'll be right back."
+    }
+  ],
+  "chapters": []
+}

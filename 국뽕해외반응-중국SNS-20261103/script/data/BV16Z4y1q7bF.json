@@ -1,0 +1,28 @@
+{
+  "id": "BV16Z4y1q7bF",
+  "title": "BV16Z4y1q7bF",
+  "title_orig": "BV16Z4y1q7bF",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV16Z4y1q7bF.mp4",
+  "date": "",
+  "lang": "en",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 2.0,
+      "text": "Oh"
+    }
+  ],
+  "chapters": []
+}

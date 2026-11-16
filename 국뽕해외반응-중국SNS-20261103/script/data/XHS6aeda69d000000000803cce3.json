@@ -1,0 +1,28 @@
+{
+  "id": "XHS6aeda69d000000000803cce3",
+  "title": "XHS6aeda69d000000000803cce3",
+  "title_orig": "XHS6aeda69d000000000803cce3",
+  "platform": "XHS",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/XHS6aeda69d000000000803cce3.mp4",
+  "date": "",
+  "lang": "es",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.0,
+      "e": 1.7,
+      "text": "No hay que cierren, no"
+    }
+  ],
+  "chapters": []
+}

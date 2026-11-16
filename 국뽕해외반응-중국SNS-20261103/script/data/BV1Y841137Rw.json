@@ -1,1 +1,203 @@
-{"id": "BV1Y841137Rw", "title": "폴란드군 K2 전차 인터뷰", "title_orig": "BV1Y841137Rw", "platform": "BILI", "country": "한국", "cat": "기타", "cat_folder": "", "date": "", "host": "870컴퓨터(yh-X870-Taichi-Creator)", "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/빌리빌리/BV1Y841137Rw.mp4", "dur_ms": 173710, "lang": "pl", "asr": "faster-whisper large-v3-turbo", "asr_s": 3.7, "mt": "Claude 초벌 번역(자막 초안 — 사용 시 한국어 다듬기 필요)", "by": "by Hermes · Opus", "sum": "폴란드군 장교가 K2 전차 제원과 인도 상황을 설명.\n승무원 훈련은 한국에서 6주, 현대로템이 인도 준비.\n에이브럼스·T-62보다 지형 적합성과 편의성이 높다고 평가.", "verdict": "긍정: 폴란드 군이 K2의 편의성·지형 적합성을 호평", "hooks": ["엔진은 1,500마력이라 지형을 효율적으로 기동한다.", "현대로템이 승무원이 바로 쓸 수 있게 100% 준비해 준다.", "T-62보다 K2에서는 편의성이 확실히 높아질 것."], "chapters": [{"at": "00:01", "h": "엔진·사격 성능"}, {"at": "00:21", "h": "내부 공간과 여성 승무원"}, {"at": "00:56", "h": "현대로템과 인도 과정"}, {"at": "01:40", "h": "한국 훈련 6주"}, {"at": "01:45", "h": "K2 vs 에이브럼스"}, {"at": "02:27", "h": "T-62와 비교한 편의성"}], "praise": [{"note": "1,500마력 엔진으로 지형 기동 우수", "i": 0}, {"note": "현대로템이 즉시 투입 가능하게 준비", "i": 19}, {"note": "폴란드 북동부 지형에 적합", "i": 28}, {"note": "이전 T-62보다 편의성 대폭 향상", "i": 33}], "crit": [], "compare": [{"vs": "미국", "note": "에이브럼스는 K2보다 훨씬 무거워 지형에 불리", "result": "우세", "i": 26}, {"vs": "기타", "note": "T-62M1R보다 편의성 대폭 향상", "result": "우세", "i": 33}], "use": "폴란드 현직 군인의 K2 호평 증언 소재.", "lines": [{"s": 1010, "e": 8010, "zh": "Silnik to jest 1500 toni mechanicznych, co pozwala, że tak powiem, na bardzo sprawno poruszanie się w terenie tego czołgu.", "ko": "엔진은 1,500마력이라 이 전차가 지형을 아주 효율적으로 기동할 수 있습니다.", "t": "good", "vs": ""}, {"s": 8010, "e": 9010, "zh": "Skuteczność strzały?", "ko": "사격 효율은요?", "t": "", "vs": ""}, {"s": 9010, "e": 17010, "zh": "Jeżeli chodzi o skuteczne prowadzenie ognia za armaty, to jest to, co nas głównie interesuje, to jest to do 3 km.", "ko": "주포로 효과적으로 사격할 수 있는 거리는 우리가 주로 관심 있는 건데, 최대 3km입니다.", "t": "", "vs": ""}, {"s": 17010, "e": 21010, "zh": "Ile otrzymaliście tych czołgów i czy jeszcze otrzymacie jakiś sprzęg?", "ko": "전차를 몇 대 받았고 앞으로 장비를 더 받게 됩니까?", "t": "", "vs": ""}, {"s": 21010, "e": 28010, "zh": "Obraz czołgu wyniesiony z popularnego filmu, serialu. Tego chyba nie można porównać.", "ko": "대중적인 영화나 드라마 속 전차 이미지는 비교할 수 없을 겁니다.", "t": "", "vs": ""}, {"s": 28010, "e": 31150, "zh": "nie bardzo przystaje to już chyba do tych realiów, ponieważ", "ko": "현실과는 잘 맞지 않죠.", "t": "", "vs": ""}, {"s": 31150, "e": 32890, "zh": "wbrew pozorom, ponieważ te czołgów", "ko": "겉보기와 달리 이 전차들은", "t": "", "vs": ""}, {"s": 32890, "e": 34210, "zh": "wydają się bardzo duże, to", "ko": "아주 커 보이지만", "t": "", "vs": ""}, {"s": 34210, "e": 36990, "zh": "w środku", "ko": "내부는", "t": "", "vs": ""}, {"s": 36990, "e": 39010, "zh": "jest dosyć ciasno, więc", "ko": "꽤 좁아서", "t": "", "vs": ""}, {"s": 39010, "e": 40790, "zh": "nie wiedziałbym tam raczej możliwości zmieszczenia psa", "ko": "개를 넣을 공간이나", "t": "", "vs": ""}, {"s": 40790, "e": 43030, "zh": "czy czegokolwiek więcej. Zarówno kobiety", "ko": "다른 건 없습니다. 여성도", "t": "", "vs": ""}, {"s": 43030, "e": 45050, "zh": "jak i mężczyźni mogą tutaj", "ko": "남성도 이 전차에서", "t": "", "vs": ""}, {"s": 45050, "e": 46890, "zh": "zajmować różne stanowiska", "ko": "여러 보직을 맡을 수 있고", "t": "", "vs": ""}, {"s": 46890, "e": 48930, "zh": "przy czołgu, zarówno, nie ma żadnych ograniczeń", "ko": "제한은 전혀 없습니다.", "t": "", "vs": ""}, {"s": 48930, "e": 50970, "zh": "tak naprawdę, kobieta może być zarówno kierowcą tego", "ko": "실제로 여성이 이 전차의 운전수도", "t": "", "vs": ""}, {"s": 50970, "e": 52870, "zh": "czołgu działanowym, jak i dowódcą tego czołgu", "ko": "포수도 될 수 있고", "t": "", "vs": ""}, {"s": 52870, "e": 55010, "zh": "też dowódcą plutonu, a jednocześnie", "ko": "소대장도 되고 동시에", "t": "", "vs": ""}, {"s": 55010, "e": 56510, "zh": "dowódcą załogi. Nie ma tutaj żadnych", "ko": "승무원 지휘관도 됩니다. 아무런", "t": "", "vs": ""}, {"s": 56510, "e": 69450, "zh": "Przeciwwskazań produkowane przez firmę Hyundai Rotem, która w tej chwili nadal w Morongu prowadzi prace nad tymi czołgami i przygotowuje je tak, że były gotowe w 100% do podjęcia pracy przez nasze przeszkolone zawogi.", "ko": "금지 사항이 없습니다. 현대로템이 생산하며, 현재도 모롱(?)에서 작업을 진행해 우리 훈련된 승무원이 바로 쓸 수 있게 100% 준비해 줍니다.", "t": "good", "vs": ""}, {"s": 69450, "e": 85730, "zh": "Właśnie jak wygląda samo wdrożenie tych czołgów w pracę brygiady? Macie te czołgi i jak będzie wyglądało teraz zastosowanie tego, co macie? Jak wygląda takie wdrożenie nowego sprzętu do naszej jednostki?", "ko": "그럼 이 전차들을 여단 임무에 투입하는 건 어떤가요? 전차를 받았는데 이제 어떻게 운용하나요? 새 장비를 부대에 도입하는 과정은 어떤가요?", "t": "", "vs": ""}, {"s": 85730, "e": 95310, "zh": "Oczywiście zaczynamy, dostosowują je do naszych użytków, no i spodziewałem się następnych dostaw, natomiast nie mam szczerze mówiąc informacji o tutaj szczegółach.", "ko": "물론 우리 용도에 맞게 조정하며 시작하고, 다음 인도분을 기대하고 있지만 솔직히 자세한 정보는 없습니다.", "t": "", "vs": ""}, {"s": 95410, "e": 99910, "zh": "A ile trwa takie szkolenie w Korei, na którym mówi Pan, że teraz jest część żołnierzy?", "ko": "지금 일부 병사들이 있다고 하신 한국 훈련은 얼마나 걸리나요?", "t": "", "vs": ""}, {"s": 100630, "e": 104730, "zh": "Aktualnie nadal żołnierze szkolą się i to szkolenie trwa 6 tygodni.", "ko": "현재도 병사들이 훈련 중이며 훈련은 6주입니다.", "t": "key", "vs": ""}, {"s": 105230, "e": 110470, "zh": "Proszę mi powiedzieć, odnośnie czołgów Abrams, jakie jest porównanie między K2 i Abrams?", "ko": "에이브럼스와 비교해서 K2와 에이브럼스는 어떻게 다른가요?", "t": "eval", "vs": ""}, {"s": 110990, "e": 114230, "zh": "Czym się różnią i w czym są lepsze Abrams, a w czym K2?", "ko": "어떤 점에서 에이브럼스가 낫고 어떤 점에서 K2가 낫습니까?", "t": "eval", "vs": ""}, {"s": 115110, "e": 118950, "zh": "Cóż, oczywiście czołgi Abrams są zdecydowanie czołgami cięższymi niż czołgi K2.", "ko": "물론 에이브럼스는 K2보다 훨씬 무거운 전차입니다.", "t": "eval", "vs": "미국"}, {"s": 119410, "e": 127990, "zh": "W związku z tym, z tego co rozumiem, rozlokowanie czołgów K2 na terenie północno-wschodniej Polski", "ko": "그래서 제가 이해하기로 폴란드 북동부에 K2를 배치하는 건", "t": "good", "vs": ""}, {"s": 127990, "e": 132330, "zh": "jest jak najbardziej lubicznym rozwiązaniem, ze względu na to, jakie jest tutaj ukształtowanie terenu.", "ko": "지형 특성상 아주 타당한 해결책입니다.", "t": "good", "vs": ""}, {"s": 133610, "e": 137930, "zh": "Załogi na czołgach Abrams, jak i czołgach Leopard, również bardzo podobne do czołgów Abrams,", "ko": "에이브럼스와 레오파르트 승무원도, 에이브럼스와 아주 비슷하니", "t": "", "vs": "미국"}, {"s": 138030, "e": 140210, "zh": "wpalą sobie również pracę na tych dwóch czołgach.", "ko": "이 두 전차에서도 일하게 될 겁니다.", "t": "", "vs": ""}, {"s": 140210, "e": 146210, "zh": "Muszę powiedzieć, jaka jest różnica między tym, co stoi obecnie na placu, a tym, co miał Pan przyjemność już w swojej służbie?", "ko": "현재 광장에 서 있는 전차와 직접 복무하셨던 전차의 차이는 뭔가요?", "t": "", "vs": ""}, {"s": 147210, "e": 153210, "zh": "Jeżeli mogę wypowiadać się za siebie, to miałem przyjemność służby na czołgach T-62M1R, czyli w wersji zmodyfikowanej.", "ko": "제 입장에서 말하자면 저는 T-62M1R 개량형에서 복무했습니다.", "t": "eval", "vs": ""}, {"s": 154210, "e": 160210, "zh": "Służba na nich była przyjemna, natomiast na pewno na tych czołgach będzie ten komfort zdecydowanie zwiększony.", "ko": "거기서의 복무도 즐거웠지만 이 전차에서는 확실히 편의성이 훨씬 높아질 겁니다.", "t": "good", "vs": "기타"}, {"s": 161210, "e": 163210, "zh": "No i na razie to chyba tyle, co mogę powiedzieć.", "ko": "일단은 제가 말씀드릴 수 있는 건 이 정도입니다.", "t": "", "vs": ""}, {"s": 163210, "e": 164210, "zh": "A zwiększone z jakiego powodu?", "ko": "무엇 때문에 높아지나요?", "t": "", "vs": ""}, {"s": 164210, "e": 173710, "zh": "zwiększone między innymi z tego powodu, jeśli chodzi o samą pracę już na tych czołgach, no nie ma co ukrywać, jest to konstrukcja nowa, więc jest tam już zastosowane, że tak powiem, robię więcej.", "ko": "특히 이 전차에서 일하는 측면에서, 숨길 것 없이 신설계라서 더 많은 게 적용돼 있습니다.", "t": "good", "vs": ""}], "frames": [{"i": 0, "f": "BV1Y841137Rw_0.jpg"}, {"i": 19, "f": "BV1Y841137Rw_19.jpg"}, {"i": 24, "f": "BV1Y841137Rw_24.jpg"}, {"i": 28, "f": "BV1Y841137Rw_28.jpg"}, {"i": 33, "f": "BV1Y841137Rw_33.jpg"}]}
+{
+  "id": "BV1Y841137Rw",
+  "title": "BV1Y841137Rw",
+  "title_orig": "BV1Y841137Rw",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "기타",
+  "done": true,
+  "dur_ms": 0,
+  "n": 36,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1Y841137Rw.mp4",
+  "date": "",
+  "lang": "pl",
+  "asr": "faster-whisper",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 1.01,
+      "e": 8.01,
+      "text": "Silnik to jest 1500 toni mechanicznych, co pozwala, że tak powiem, na bardzo sprawno poruszanie się w terenie tego czołgu."
+    },
+    {
+      "s": 8.01,
+      "e": 9.01,
+      "text": "Skuteczność strzały?"
+    },
+    {
+      "s": 9.01,
+      "e": 17.01,
+      "text": "Jeżeli chodzi o skuteczne prowadzenie ognia za armaty, to jest to, co nas głównie interesuje, to jest to do 3 km."
+    },
+    {
+      "s": 17.01,
+      "e": 21.01,
+      "text": "Ile otrzymaliście tych czołgów i czy jeszcze otrzymacie jakiś sprzęg?"
+    },
+    {
+      "s": 21.01,
+      "e": 28.01,
+      "text": "Obraz czołgu wyniesiony z popularnego filmu, serialu. Tego chyba nie można porównać."
+    },
+    {
+      "s": 28.01,
+      "e": 34.01,
+      "text": "Nie bardzo przystaje to już chyba do tych realiów, ponieważ wbrew pozorom, ponieważ te czołgów widają się bardzo duże,"
+    },
+    {
+      "s": 34.01,
+      "e": 42.01,
+      "text": "to w środku jest dosyć ciasno, więc nie wiedziałbym tam raczej możliwości zmieszczenia psa czy czegokolwiek więcej."
+    },
+    {
+      "s": 42.01,
+      "e": 49.01,
+      "text": "Zarówno kobiety, jak i mężczyźni mogą tutaj zajmować różne stanowiska przy czołgu, nie ma żadnych ograniczeń tak naprawdę."
+    },
+    {
+      "s": 49.01,
+      "e": 53.01,
+      "text": "Kobieta może być zarówno kierowcą tego czołgu działanowym, jak i dowódcą tego czołgu,"
+    },
+    {
+      "s": 53.01,
+      "e": 56.01,
+      "text": "też dowódcą plutonu, a jednocześnie dowódcą załogi."
+    },
+    {
+      "s": 56.01,
+      "e": 60.01,
+      "text": "Ma tutaj żadnych sieci wskazań, produkowane przez firmę Hyundai Rotem,"
+    },
+    {
+      "s": 60.01,
+      "e": 65.01,
+      "text": "która w tej chwili nadal w Morongu prowadzi prace nad tymi czołgami i przygotowuje je tak,"
+    },
+    {
+      "s": 65.01,
+      "e": 70.01,
+      "text": "żeby były gotowe w 100% do podjęcia na nich pracy przez nasze przeszkolone zawogi."
+    },
+    {
+      "s": 70.01,
+      "e": 74.01,
+      "text": "Właśnie jak wygląda samo wdrożenie tych czołgów w prace,"
+    },
+    {
+      "s": 74.01,
+      "e": 81.01,
+      "text": "jakby macie te czołgi i jak będzie wyglądało teraz dostosowanie do tego, co macie?"
+    },
+    {
+      "s": 81.01,
+      "e": 86.01,
+      "text": "Jak wygląda takie wdrożenie nowego sprzętu do naszej jednostki?"
+    },
+    {
+      "s": 86.01,
+      "e": 89.01,
+      "text": "Oczywiście zaczynamy, dostosowują, dostosowują je do naszych użytków."
+    },
+    {
+      "s": 89.01,
+      "e": 95.01,
+      "text": "No i spodziewałem się następnych dostaw, natomiast nie mam szczerze mówiąc informacji o tutaj szczegółach."
+    },
+    {
+      "s": 95.01,
+      "e": 100.01,
+      "text": "A ile trwa takie szkolenie w Korei, na którym mówi Pan, że teraz jest część rozwoju?"
+    },
+    {
+      "s": 100.01,
+      "e": 105.01,
+      "text": "Aktualnie nadal żołnierze szkolą się i to szkolenie trwa 6 tygodni."
+    },
+    {
+      "s": 105.01,
+      "e": 111.01,
+      "text": "Proszę mi powiedzieć, odnośnie czołgów Abrams, jakie jest porównanie między K2 i Abrams?"
+    },
+    {
+      "s": 111.01,
+      "e": 115.01,
+      "text": "Czym się różnią i w czym są lepsze Abrams, a w czym K2?"
+    },
+    {
+      "s": 115.01,
+      "e": 119.01,
+      "text": "Cóż, oczywiście czołgi Abrams są zdecydowanie czołgami cięższymi niż czołgi K2."
+    },
+    {
+      "s": 119.01,
+      "e": 128.01,
+      "text": "W związku z tym, z tego co rozumiem, rozlokowanie czołgów K2 na terenie północno-wschodniej Polski"
+    },
+    {
+      "s": 128.01,
+      "e": 132.01,
+      "text": "jest jak najbardziej lubicznym rozwiązaniem, ze względu na to, jakie jest tutaj ukształtowanie terenu."
+    },
+    {
+      "s": 132.01,
+      "e": 138.01,
+      "text": "Załogi na czołgach Abrams, jak i czołgach Leopard, również bardzo podobne do czołgów Abrams"
+    },
+    {
+      "s": 138.01,
+      "e": 140.01,
+      "text": "wpalą sobie również pracę na tych dwóch czołgach."
+    },
+    {
+      "s": 140.01,
+      "e": 147.01,
+      "text": "Proszę powiedzieć, jaka jest różnica między tym, co stoi obecnie na placu, a tym, co miał Pan przyjemność już w swojej służbie?"
+    },
+    {
+      "s": 147.01,
+      "e": 154.01,
+      "text": "Jeżeli mogę wypowiadać się za siebie, to miałem przyjemność służby na czołgach T-62 M1R, czyli w wersji zmodyfikowanej."
+    },
+    {
+      "s": 154.01,
+      "e": 161.01,
+      "text": "Służba na nich była przyjemna, natomiast na pewno na tych czołgach będzie ten komfort zdecydowanie zwiększony."
+    },
+    {
+      "s": 161.01,
+      "e": 163.01,
+      "text": "No i na razie to chyba tyle, co mogę powiedzieć."
+    },
+    {
+      "s": 163.01,
+      "e": 164.01,
+      "text": "A zwiększone z jakiego powodu?"
+    },
+    {
+      "s": 164.01,
+      "e": 168.01,
+      "text": "Zwiększone między innymi z tego powodu, jeśli chodzi o samą pracę już na tych czołgach."
+    },
+    {
+      "s": 168.01,
+      "e": 173.01,
+      "text": "Nie ma co ukrywać, jest to konstrukcja nowa, więc jest tam już zastosowane, że tak powiem, trochę więcej."
+    },
+    {
+      "s": 173.01,
+      "e": 174.01,
+      "text": "Dziękuję."
+    },
+    {
+      "s": 174.01,
+      "e": 175.01,
+      "text": "Dziękuję."
+    }
+  ],
+  "chapters": []
+}

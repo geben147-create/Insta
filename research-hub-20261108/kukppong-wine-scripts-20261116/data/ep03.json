@@ -168,5 +168,304 @@
       "time": "영상 없음",
       "status": "외국 통신사 보도 요지, 칭찬 원음 아님"
     }
+  ],
+  "shots": [
+    {
+      "time_start_seconds": 30,
+      "visual": "젠슨 황과 한국 경영진의 이전 협력 사진",
+      "question": "2025년 협력 무대는 한 사람의 인맥일까",
+      "evidence": "NVIDIA·SK 공식 2026 연혁",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 60,
+      "visual": "2026년 11월 12일 엔비디아 CEO 사임 보도",
+      "question": "한국 메모리 계약도 사라질까",
+      "evidence": "NVIDIA 공식 CEO 전환",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 90,
+      "visual": "콜레트 크레스 임시 CEO, 제품 로드맵",
+      "question": "기업은 사람과 다른 속도로 움직일까",
+      "evidence": "NVIDIA 공식 CEO 전환",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 120,
+      "visual": "미국 CNBC 기자가 방문한 SK하이닉스 공장",
+      "question": "미국 방송이 굳이 한국을 찾아온 이유는",
+      "evidence": "CNBC 2026-08-13 취재",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 150,
+      "visual": "GPU와 HBM 데이터 병목 모션",
+      "question": "GPU가 아무리 빨라도 부족한 것은",
+      "evidence": "자체 제작 반도체 구조",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 180,
+      "visual": "메모리 칩을 층층이 쌓는 단면 그림",
+      "question": "HBM이 일반 메모리와 다른 점은",
+      "evidence": "HBM 기술 설명",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 210,
+      "visual": "미세 접합·발열·수율 공정 확대",
+      "question": "기술의 진짜 난제는 몇 층을 쌓느냐일까",
+      "evidence": "CNBC HBM 공정 취재",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 240,
+      "visual": "SK 50·삼성33·마이크론18 막대그래프",
+      "question": "해외 조사기관이 본 한국 점유율은",
+      "evidence": "Counterpoint 2026년 2분기",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 270,
+      "visual": "과거 반도체 업황 변동 라인차트",
+      "question": "매출이 높아도 위험이 사라지지 않는 이유는",
+      "evidence": "산업 업황 상식·그래프 예시",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 300,
+      "visual": "한국 반도체 팹과 투자 장비",
+      "question": "거액 설비 투자 뒤에 숨은 불확실성은",
+      "evidence": "CNBC 공장 현장",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 330,
+      "visual": "2026년 6월 7일 NVIDIA 공식 발표 헤드라인",
+      "question": "엔비디아가 한국 업체를 어떻게 평가했나",
+      "evidence": "NVIDIA 2026-06-07",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 360,
+      "visual": "SK하이닉스의 차세대 HBM 공동 개발 도식",
+      "question": "완제품 공급과 공동개발의 차이는",
+      "evidence": "NVIDIA 2026-06-07",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 390,
+      "visual": "7월 24일 한국 AI 산업 역량 평가 카드",
+      "question": "젠슨 황은 한국을 어떤 기술 파트너라 봤나",
+      "evidence": "NVIDIA 2026-07-24",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 420,
+      "visual": "AI 공장 투자 로드맵: 계획과 실행 분리",
+      "question": "발표된 투자금은 이미 집행됐을까",
+      "evidence": "NVIDIA 2026-07-24",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 450,
+      "visual": "대만 TrendForce의 HBM4 경쟁 전망",
+      "question": "2027년 한국 업체 순위가 바뀔 수 있을까",
+      "evidence": "TrendForce 2026-11-05",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 480,
+      "visual": "1차 반전: 인맥이 아니라 공급기술",
+      "question": "CEO 사임과 품질 검증은 왜 다른가",
+      "evidence": "NVIDIA 협력 발표+시장 데이터",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 510,
+      "visual": "11월 13일 GPU 26만 장 협력 계획",
+      "question": "한국 GPU 공급 계획은 유지될까",
+      "evidence": "한국 정부 객관 자료",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 540,
+      "visual": "도착 물량 vs 발표 물량 두 막대 그래픽",
+      "question": "26만 장을 이미 납품했다는 뜻일까",
+      "evidence": "공급·발표 구분",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 570,
+      "visual": "새 CEO와 제품 설계 협업 구조",
+      "question": "제품 설계는 개인이 바뀌면 즉시 멈출까",
+      "evidence": "NVIDIA CEO 전환",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 600,
+      "visual": "미국 Reuters의 공급망 분석 카드",
+      "question": "해외 시장은 어떤 위험을 걱정하나",
+      "evidence": "Reuters 2026-11-12",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 630,
+      "visual": "AMD AI 칩+HBM 구조",
+      "question": "AI 고객은 엔비디아 한 곳뿐일까",
+      "evidence": "해외 기술 업계 동향",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 660,
+      "visual": "구글 자체 AI 칩과 메모리 수요",
+      "question": "자체 칩 시대에도 빠른 메모리는 필요한가",
+      "evidence": "TrendForce 해외 전망",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 690,
+      "visual": "다른 AI 가속기 3종 아이콘 비교",
+      "question": "같은 메모리도 고객마다 요구가 다를까",
+      "evidence": "엔비디아·AMD·구글 제품",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 720,
+      "visual": "2차 반전: 고객 다변화 지도",
+      "question": "위기가 한국에 다른 시장 기회를 만들까",
+      "evidence": "해외 기술 업계 분석",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 750,
+      "visual": "현장 보호복과 반도체 생산 공정",
+      "question": "세계가 관심을 갖는 생산기술은 무엇인가",
+      "evidence": "CNBC 공장 동영상",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 780,
+      "visual": "HBM 수율·전력·발열 품질 점검 표",
+      "question": "기술을 유지하기 위해 무엇을 반복하나",
+      "evidence": "자체 제작 HBM 품질 도해",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 810,
+      "visual": "한국 초기 산업화 흑백 지도·AI 재현 표기",
+      "question": "메모리 강국으로 오는 길은 쉬웠을까",
+      "evidence": "'AI 재현' 명시한 역사 화면",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 840,
+      "visual": "국내 소재·장비·패키징 공정 지도",
+      "question": "완성품 뒤에 숨은 협력사들은",
+      "evidence": "한국 공급망 객관 자료",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 870,
+      "visual": "해외 기자 한국 공장 실사 재등장",
+      "question": "외국인의 감탄을 설명하는 근거는",
+      "evidence": "CNBC 2026-08-13",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 900,
+      "visual": "미국 기업의 한국 기술 공식 호평",
+      "question": "외국인 평가가 기술 납품과 연결된 이유는",
+      "evidence": "NVIDIA 공식 자료",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 930,
+      "visual": "3가지 검증지표: 수율·고객·실적",
+      "question": "앞으로 무엇이 유지되면 더 안전할까",
+      "evidence": "자체 검증 체크리스트",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 960,
+      "visual": "젠슨 황 뉴스에서 제조 현장으로 화면 전환",
+      "question": "CEO가 떠나도 사라지지 않은 것은",
+      "evidence": "NVIDIA·Counterpoint",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 990,
+      "visual": "HBM 제조 현장+한국 기술 인력 감정 회수",
+      "question": "한국이 실력으로 인정받는다는 의미는",
+      "evidence": "미국 해외 취재+검증된 데이터",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    }
   ]
 }

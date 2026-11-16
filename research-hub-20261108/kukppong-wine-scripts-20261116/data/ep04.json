@@ -168,5 +168,304 @@
       "time": "기사 제목, 영상 없음",
       "status": "해외 전문매체의 실제 제목, 방송 원음 아님"
     }
+  ],
+  "shots": [
+    {
+      "time_start_seconds": 30,
+      "visual": "CBS 60 Minutes 미국·한국 조선업 비교",
+      "question": "어째서 세계 최강 해군의 기자가 놀랐나",
+      "evidence": "CBS 2026-03-22",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 60,
+      "visual": "필리조선소 1942년산 크레인",
+      "question": "미국 조선 현장에 옛 장비가 남은 이유는",
+      "evidence": "CBS 60 Minutes",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 90,
+      "visual": "미 해군 항공모함·잠수함과 민간 조선소 대비",
+      "question": "군사 강국인데 상업조선은 왜 어려울까",
+      "evidence": "CBS 60 Minutes",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 120,
+      "visual": "미국 일 년 1~1.5척·한국 일주일 한 척",
+      "question": "두 공장은 동일한 선종일까",
+      "evidence": "CBS Lesley 인터뷰",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 150,
+      "visual": "미국 필리조선소 역사·세계대전 흑백 자료",
+      "question": "세계대전 때의 생산능력은 어디로 갔나",
+      "evidence": "CBS 역사 자료",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 180,
+      "visual": "미국 조선업 고용·설비 변화 인포그래픽",
+      "question": "기술인력을 다시 모으기 어려운 이유는",
+      "evidence": "CBS 노동자 인터뷰",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 210,
+      "visual": "용접·배관·조립 선박 생산 공정",
+      "question": "선박 생산은 몇 단계가 맞물리나",
+      "evidence": "자체 제작 생산 도식",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 240,
+      "visual": "기술직 일자리·훈련 수요",
+      "question": "왜 일자리가 생겨도 숙련공은 모자라나",
+      "evidence": "CBS 2026-03-22",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 270,
+      "visual": "미국 조선비용과 납기 비교",
+      "question": "공장 확대만으로 가격이 내려갈까",
+      "evidence": "CBS 물류 전문가 분석",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 300,
+      "visual": "미국 해운 규제·Jones Act 키워드",
+      "question": "왜 미국에서 배를 만들어야 하나",
+      "evidence": "CBS+CATO 인터뷰",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 330,
+      "visual": "2024년 한화 필리조선소 인수",
+      "question": "한국 기업은 왜 필라델피아를 선택했나",
+      "evidence": "CBS 미국 기업 설명",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 360,
+      "visual": "2025년 현지 투자 계획 50억 달러",
+      "question": "계획과 이미 집행한 돈은 어떻게 다른가",
+      "evidence": "CBS+미 상원의원",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 390,
+      "visual": "2026-10-30 LSM 공식 발표 헤드라인",
+      "question": "계약 규모 2억6900만 달러는 확정인가",
+      "evidence": "미 상원의원 공식 성명",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 420,
+      "visual": "LSM 함정의 역할과 작전 그래픽",
+      "question": "중형 상륙함은 항공모함과 무엇이 다른가",
+      "evidence": "USNI 해군 전문 매체",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 450,
+      "visual": "발주 1척과 옵션 3척 구분",
+      "question": "네 척이 이미 건조됐다는 말이 맞나",
+      "evidence": "한화 USA·USNI",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 480,
+      "visual": "1차 반전: 한국 기술로 미국 현지 건조",
+      "question": "미국이 배 수입보다 현지 생산을 택한 이유는",
+      "evidence": "미 상원의원+CBS",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 510,
+      "visual": "미 상원의원 거제 조선소 방문",
+      "question": "미국 정치인은 왜 한국 공장을 찾았나",
+      "evidence": "Dave McCormick 공식 성명",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 540,
+      "visual": "거제 공장의 대형 선박 블록 도식",
+      "question": "현지에서 본 한국 조선업의 강점은",
+      "evidence": "CBS 거제 취재",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 570,
+      "visual": "로봇과 용접 자동화 공정",
+      "question": "빠르게 만들면서도 품질을 유지하는 방법은",
+      "evidence": "CBS 해외 방송",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 600,
+      "visual": "거제 공장 2만6000명 근무 화면",
+      "question": "자동화가 인력을 없애는 것뿐일까",
+      "evidence": "CBS 취재 사실",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 630,
+      "visual": "한국 교육생 400명과 미국 20명 규모 대비",
+      "question": "기술 전수 속도도 산업력인가",
+      "evidence": "CBS 방송 통계",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 660,
+      "visual": "한국에서 미국으로 간 현장 교육 인력 50명",
+      "question": "한국 사람이 미국 공장에서 가르치는 것은",
+      "evidence": "CBS 2026 인터뷰",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 690,
+      "visual": "미국 현지 훈련생 Meg 인터뷰",
+      "question": "일하면서 기술을 배울 수 있다는 의미는",
+      "evidence": "CBS Meg 실제 증언",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 720,
+      "visual": "미국 훈련생 Jeff 인터뷰",
+      "question": "기술을 배운 노동자는 무엇을 느꼈나",
+      "evidence": "CBS Jeff 실제 증언",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 750,
+      "visual": "2차 반전: 지역 일자리와 교육의 변화",
+      "question": "한 척 계약을 넘어 실제로 변한 것은",
+      "evidence": "CBS 현지 노동자",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 780,
+      "visual": "미국 관세·인력비자 문제 카드",
+      "question": "협력에 걸림돌은 없을까",
+      "evidence": "CBS CATO+한화",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 810,
+      "visual": "2027년 4분기 착공 예정 캘린더",
+      "question": "계약은 언제 실제 함정이 될까",
+      "evidence": "한화 공식 일정",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 840,
+      "visual": "시운전·납품·옵션 조건 그래픽",
+      "question": "사업 선정과 납품 완료의 차이는",
+      "evidence": "한화 USA 발표",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 870,
+      "visual": "미국 현지 공장 작업장 재등장",
+      "question": "생산성을 되살리려면 얼마나 쌓아야 하나",
+      "evidence": "CBS 보고",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 900,
+      "visual": "거제→필라델피아 기술 교류 지도",
+      "question": "한국에서 만든 노하우가 어디로 갔나",
+      "evidence": "CBS 60 Minutes",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 930,
+      "visual": "3가지 검증지표: 인력·생산량·납기",
+      "question": "한 척 이후 미래는 무엇으로 확인하나",
+      "evidence": "자체 체크 그래픽",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 960,
+      "visual": "CBS 기자 놀람 장면 반복 아닌 자료 화면",
+      "question": "한국 조선업의 오랜 힘은 어떤 것인가",
+      "evidence": "CBS 원문 대조",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    },
+    {
+      "time_start_seconds": 990,
+      "visual": "한국·미국 노동자 기술 교류 장면 마무리",
+      "question": "세계 강국이 한국의 경험을 찾는 이유는",
+      "evidence": "미국 CBS 인터뷰·미상원의원",
+      "origin_in_out": "미검증",
+      "permission": "미확보",
+      "cut_policy": "4초 이하 개별컷 목표"
+    }
   ]
 }

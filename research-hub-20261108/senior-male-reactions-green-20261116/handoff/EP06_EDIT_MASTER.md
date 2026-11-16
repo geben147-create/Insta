@@ -69,7 +69,7 @@
 ## 🌐 실제 해외자료·원영상
 
 - BILI-136 · 몰입형 카드지갑 시점 한국 유학생 하루
-  - https://www.bilibili.com/video/BV1LZ411Q7ka
+  - https://www.bilibili.com/video/BV15Vsnz8EjB
   - 근거: GitHub 실제 번역자막 114행, 정확한 플랫폼 URL은 수집표에서 재확인
   - 로컬 기록: /run/media/yh/새 볼륨/틱톡/중국영상다운_한국_BILI-136_몰입형_체험_한국에선_뭘_하든_카드만_되는_유학생활.mp4
 

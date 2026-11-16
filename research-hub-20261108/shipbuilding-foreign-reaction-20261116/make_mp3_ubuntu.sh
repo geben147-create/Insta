@@ -68,3 +68,19 @@ print("\n완료: 3개 MP3가",root,"폴더에 저장되었습니다.")
 PY
 ./.venv/bin/python run_all.py
 echo "🎧 출력 폴더: ${HERE}/EP01.mp3, EP02.mp3, EP03.mp3"
+
+# Optional automatic publication (default on). To only generate locally: PUBLISH_MP3=0 bash make_mp3_ubuntu.sh
+if [[ "${PUBLISH_MP3:-1}" == "1" ]]; then
+  publisher="$HERE/publish_mp3_github_ubuntu.sh"
+  publisher_url="https://raw.githubusercontent.com/geben147-create/Insta/main/research-hub-20261108/shipbuilding-foreign-reaction-20261116/publish_mp3_github_ubuntu.sh"
+  if curl -fsSL "$publisher_url" -o "$publisher"; then
+    if SHIPBUILDING_TTS_DIR="$HERE" bash "$publisher"; then
+      echo "✅ 대시보드 MP3 공개 완료 (GitHub Pages 반영 이후 재생 가능)"
+    else
+      echo "⚠️ MP3 3개는 생성됐지만 GitHub 업로드에 실패했습니다." >&2
+      echo "   Git 인증 설정 후 다시 실행: bash $publisher" >&2
+    fi
+  else
+    echo "⚠️ MP3 생성은 완료. 업로드 스크립트 다운로드에 실패했습니다." >&2
+  fi
+fi

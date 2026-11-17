@@ -1,0 +1,2597 @@
+{
+  "date": "2026-11-18",
+  "by": "by aside sonnet",
+  "sheet": "https://docs.google.com/spreadsheets/d/1Lq1ZUz5sVbt-WYy0yR5x7EmOn_3YInkNVqPGMFeqBCk/edit?gid=76643617#gid=76643617",
+  "coverage_sheet": "https://docs.google.com/spreadsheets/d/1Lq1ZUz5sVbt-WYy0yR5x7EmOn_3YInkNVqPGMFeqBCk/edit?gid=2098781856#gid=2098781856",
+  "records": [
+    {
+      "sector": 1,
+      "sector_name": "반도체",
+      "id": "I10f6Xuqti8",
+      "title": "美日韩存储器战争｜日本半导体行业60年兴衰史：崛起、鼎盛、衰落和转型｜美日韩的存储器战争对中国半导体行业的启示｜上世纪日本半导体成功转型的关键",
+      "url": "https://www.youtube.com/watch?v=I10f6Xuqti8",
+      "publisher": "鵬探長",
+      "published": "2020-07-03",
+      "language": "Chinese",
+      "comparison_evidence": "Original title: 美日韩存储器战争. Inspected description explicitly lists 3.韩国半导体产业崛起的背景，日本和韩国财阀的大混战 and 4.美国如何攫取日韩半导体产业的果实.",
+      "verification": "title and description verified via YouTube metadata and webfetch; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "Chinese_language_YouTube_creator",
+      "source_id": "l-M3Z-RrjpRkNq25GgQZF",
+      "notes": "Japan versus South Korea semiconductor industrial rise and corporate rivalry, within a US-Japan-Korea memory-chip-war discussion. Chinese-language creator viewpoint; not a Chinese TV broadcaster.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "compare-tech-chinese-extra-20261118.json",
+      "sectors": [
+        1
+      ],
+      "evidences": [
+        {
+          "sector": 1,
+          "text": "Original title: 美日韩存储器战争. Inspected description explicitly lists 3.韩国半导体产业崛起的背景，日本和韩国财阀的大混战 and 4.美国如何攫取日韩半导体产业的果实."
+        }
+      ],
+      "sources": [
+        "l-M3Z-RrjpRkNq25GgQZF"
+      ]
+    },
+    {
+      "sector": 1,
+      "sector_name": "반도체",
+      "id": "ywRMVxdJnRM",
+      "title": "台日韓半導體路徑對決台灣靠什麼站穩全球環節聚焦的得與失",
+      "url": "https://www.youtube.com/watch?v=ywRMVxdJnRM",
+      "publisher": "新聞解構室",
+      "published": "2026-02-19",
+      "language": "Chinese",
+      "comparison_evidence": "Title directly says 台日韓半導體路徑對決. Inspected full YouTube description: 並對比台日韓三種半導體發展模式，講透大經濟體「求安全」、小經濟體「求效率」的產業邏輯.",
+      "verification": "title and full description verified via YouTube metadata; webfetch corroborates video permalink and description opening; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "Chinese_language_YouTube_creator",
+      "source_id": "6XKXIrt8GWoEYq1E0NnJx",
+      "notes": "Explicit three-way comparison of Taiwan, Japan and South Korea semiconductor development models. Taiwan-focused framing, but the description promises direct comparison of all three. Creator's nationality and organizational identity UNKNOWN.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "compare-tech-chinese-extra-20261118.json",
+      "sectors": [
+        1
+      ],
+      "evidences": [
+        {
+          "sector": 1,
+          "text": "Title directly says 台日韓半導體路徑對決. Inspected full YouTube description: 並對比台日韓三種半導體發展模式，講透大經濟體「求安全」、小經濟體「求效率」的產業邏輯."
+        }
+      ],
+      "sources": [
+        "6XKXIrt8GWoEYq1E0NnJx"
+      ]
+    },
+    {
+      "sector": 1,
+      "sector_name": "반도체",
+      "id": "hPvyH8XBynM",
+      "title": "How Japan Won Semiconductors, and Lost it",
+      "url": "https://www.youtube.com/watch?v=hPvyH8XBynM",
+      "publisher": "Behind Asia",
+      "published": "2025-07-02",
+      "language": "English",
+      "comparison_evidence": "Inspected description: Japan once dominated the semiconductor industry. Today, their share has fallen behind South Korea and Taiwan.",
+      "verification": "description verified via websearch and YouTube metadata; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "other_foreign_English_YouTube",
+      "source_id": "K6a2DNYFPFxmsvX_7QU6S",
+      "notes": "Japanese semiconductor market-share decline explicitly contrasted with South Korea and Taiwan; multilateral, not exclusively bilateral.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "tech",
+      "sectors": [
+        1
+      ],
+      "evidences": [
+        {
+          "sector": 1,
+          "text": "Inspected description: Japan once dominated the semiconductor industry. Today, their share has fallen behind South Korea and Taiwan."
+        }
+      ],
+      "sources": [
+        "K6a2DNYFPFxmsvX_7QU6S"
+      ]
+    },
+    {
+      "sector": 2,
+      "sector_name": "자동차·전기차",
+      "id": "BV1zr446VEEG",
+      "title": "10万出头入手，性价比高于日系B级车！现代11代索纳塔建议买2.0T",
+      "url": "https://www.bilibili.com/zh-Hans/video/BV1zr446VEEG/",
+      "publisher": "枫行视界",
+      "published": "11月5日",
+      "language": "Chinese",
+      "comparison_evidence": "현대 쏘나타와 일본계 B급차의 가격대비 가치 비교라는 제목; 개별 차종 수준",
+      "verification": "SEARCH_VIDEO_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "Chinese_Bilibili",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "bili-parent",
+      "sectors": [
+        2
+      ],
+      "evidences": [
+        {
+          "sector": 2,
+          "text": "현대 쏘나타와 일본계 B급차의 가격대비 가치 비교라는 제목; 개별 차종 수준"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 2,
+      "sector_name": "자동차·전기차",
+      "id": "6ZDEfFXMiAs",
+      "title": "Toyota Vs Hyundai Hybrid | Is Toyota Still The King of Hybrids?",
+      "url": "https://www.youtube.com/watch?v=6ZDEfFXMiAs",
+      "publisher": "The Car Care Nut",
+      "published": "2022-11-09",
+      "language": "English",
+      "comparison_evidence": "Inspected description: In this video we do a direct comparison of hybrid systems of Toyota Vs Hyundai. Lists engine choices, transmissions, AWD, plug-in hybrid design and maintenance differences. Chapters include 0:45 Hybrid System Design and 21:20 Comparison Results.",
+      "verification": "title and description verified via websearch and YouTube metadata; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "other_foreign_English_YouTube",
+      "source_id": "mmgdAamZI9QZ8tuVYjfWa",
+      "notes": "Direct technical comparison of Japanese Toyota and Korean Hyundai hybrid systems; brand-level comparison, not national industry totals.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "tech",
+      "sectors": [
+        2
+      ],
+      "evidences": [
+        {
+          "sector": 2,
+          "text": "Inspected description: In this video we do a direct comparison of hybrid systems of Toyota Vs Hyundai. Lists engine choices, transmissions, AWD, plug-in hybrid design and maintenance differences. Chapters include 0:45 Hybrid System Design and 21:20 Comparison Results."
+        }
+      ],
+      "sources": [
+        "mmgdAamZI9QZ8tuVYjfWa"
+      ]
+    },
+    {
+      "sector": 2,
+      "sector_name": "자동차·전기차",
+      "id": "BX4z5xAXUzo",
+      "title": "The New Kia Niro Vs Toyota C-HR | Detailed Car Comparison",
+      "url": "https://www.youtube.com/watch?v=BX4z5xAXUzo",
+      "publisher": "Car Comparisons Expert",
+      "published": "2025-08-22",
+      "language": "English",
+      "comparison_evidence": "Inspected description explicitly states: In this video,the Niro is from Korea while the C-HR is from Japan. It then compares length, width, ground clearance, towing capacity and engine performance.",
+      "verification": "title and description verified via websearch and YouTube metadata; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "other_foreign_English_YouTube",
+      "source_id": "B1xE9628J3jqqq5zaj9PA",
+      "notes": "Direct Korean-versus-Japanese vehicle comparison. Descriptive specifications are publisher claims, not independently fact-checked.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "tech",
+      "sectors": [
+        2
+      ],
+      "evidences": [
+        {
+          "sector": 2,
+          "text": "Inspected description explicitly states: In this video,the Niro is from Korea while the C-HR is from Japan. It then compares length, width, ground clearance, towing capacity and engine performance."
+        }
+      ],
+      "sources": [
+        "B1xE9628J3jqqq5zaj9PA"
+      ]
+    },
+    {
+      "sector": 3,
+      "sector_name": "가전·전자제품",
+      "id": "BV1Zq4y157rT",
+      "title": "最近很火的韩国和日本网红电压力锅，对比4方面，看看哪个更好用？",
+      "url": "https://www.bilibili.com/video/BV1Zq4y157rT",
+      "publisher": "阿媚漫时光",
+      "published": "2021-06-13",
+      "language": "Chinese",
+      "comparison_evidence": "最近很火的韩国和日本网红电压力锅，对比4方面，看看哪个更好用？",
+      "verification": "EXISTING_INDEX_TITLE_ONLY; 사용자 한국405건 해시일치 보고 범위",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "기존 Bilibili 전송 원장",
+      "source_id": "korea-direct-latest.tsv",
+      "notes": "신규 아님. 자막 현재상태 재검증 못 함.",
+      "old": true,
+      "rel": "일본/전자/가전/2021-06-13_BV1Zq4y157rT_[전자-가전]最近很火的韩国和日本网红电压力锅，对比4方面，看看哪个更好用？/BV1Zq4y157rT.mp4",
+      "bytes": "23245746",
+      "sha": "3337516ab1736c5ec017fba4ee6c14da205c6bdb6b6fda5b0668e440193a624c",
+      "download": "EXISTING_870_HASH_REPORTED_MATCH",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "existing_index",
+      "sectors": [
+        3
+      ],
+      "evidences": [
+        {
+          "sector": 3,
+          "text": "最近很火的韩国和日本网红电压力锅，对比4方面，看看哪个更好用？"
+        }
+      ],
+      "sources": [
+        "korea-direct-latest.tsv"
+      ]
+    },
+    {
+      "sector": 3,
+      "sector_name": "가전·전자제품",
+      "id": "BOFsGm--uWw",
+      "title": "Sony vs. Samsung: A History | Business Documentary",
+      "url": "https://www.youtube.com/watch?v=BOFsGm--uWw",
+      "publisher": "Dividend Dreams",
+      "published": "2024-10-18",
+      "language": "English",
+      "comparison_evidence": "Inspected description: Business documentary detailing the company histories of Sony and Samsung. From their ups and downs to the competition between them. Asks how Samsung surpassed its rival and how Sony lost its lead in consumer electronics. Explicit chapter: 17:57-26:18 Sony vs. Samsung (The Competition).",
+      "verification": "title and description verified via websearch and YouTube metadata; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "other_foreign_English_YouTube",
+      "source_id": "b7CKyY9H-7Rj3AjJuUtxQ",
+      "notes": "Direct Japanese Sony-versus-Korean Samsung consumer-electronics comparison; brand-level, not every appliance category.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "tech",
+      "sectors": [
+        3
+      ],
+      "evidences": [
+        {
+          "sector": 3,
+          "text": "Inspected description: Business documentary detailing the company histories of Sony and Samsung. From their ups and downs to the competition between them. Asks how Samsung surpassed its rival and how Sony lost its lead in consumer electronics. Explicit chapter: 17:57-26:18 Sony vs. Samsung (The Competition)."
+        }
+      ],
+      "sources": [
+        "b7CKyY9H-7Rj3AjJuUtxQ"
+      ]
+    },
+    {
+      "sector": 4,
+      "sector_name": "조선·제조업",
+      "id": "7P3XLfafUq8",
+      "title": "中国造船业能否称霸全球？| 日韩造船业前景如何？中国“全谱系通吃”背后的残酷真相与隐形危机 | 订单排到2030年却招不到人？40岁焊工荒成中国造船最大灰犀牛",
+      "url": "https://www.youtube.com/watch?v=7P3XLfafUq8",
+      "publisher": "智视界ZVision",
+      "published": "2026-03-05",
+      "language": "Chinese",
+      "comparison_evidence": "Title asks 日韩造船业前景如何. Inspected full YouTube description explicitly contrasts the two: 3. 日韩困境：韩国为何主动退守高端？日本造船业为何陷入“有订单造不出”的死循环？ It also asks why carbon rules help Chinese shipbuilding 甩开日韩.",
+      "verification": "title and full description verified via YouTube metadata; webfetch corroborates video permalink and description opening; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "Chinese_language_YouTube_creator",
+      "source_id": "WHkfPIYUAcKiTbeqHQ3vT",
+      "notes": "Chinese industry-centered video containing explicit comparison of Korean high-end specialization with Japanese production constraints. Not a standalone exclusively bilateral documentary. Promotional numerical claims in the full description are not independently fact-checked.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "compare-tech-chinese-extra-20261118.json",
+      "sectors": [
+        4
+      ],
+      "evidences": [
+        {
+          "sector": 4,
+          "text": "Title asks 日韩造船业前景如何. Inspected full YouTube description explicitly contrasts the two: 3. 日韩困境：韩国为何主动退守高端？日本造船业为何陷入“有订单造不出”的死循环？ It also asks why carbon rules help Chinese shipbuilding 甩开日韩."
+        }
+      ],
+      "sources": [
+        "WHkfPIYUAcKiTbeqHQ3vT"
+      ]
+    },
+    {
+      "sector": 4,
+      "sector_name": "조선·제조업",
+      "id": "Kx9wFWuzJXw",
+      "title": "中日韩造船订单差距断崖，韩国184艘 日本仅31艘，看到中国数据让人大吃一惊！",
+      "url": "https://www.youtube.com/watch?v=Kx9wFWuzJXw",
+      "publisher": "强国工匠",
+      "published": "2026-07-14",
+      "language": "Chinese",
+      "comparison_evidence": "Inspected original title and description both directly compare South Korea and Japan ship orders: 中日韩造船订单差距断崖，韩国184艘 日本仅31艘，看到中国数据让人大吃一惊！本期视频就让我们来详细了解一下.",
+      "verification": "title and description verified via YouTube metadata and webfetch; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "Chinese_language_YouTube_creator",
+      "source_id": "DWodn_xJsML0z_m3PBpva",
+      "notes": "Three-way China-Japan-South Korea ship-order comparison with explicit Korean and Japanese figures. Figures are publisher claims only, not independently verified; description does not identify their measurement period.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "compare-tech-chinese-extra-20261118.json",
+      "sectors": [
+        4
+      ],
+      "evidences": [
+        {
+          "sector": 4,
+          "text": "Inspected original title and description both directly compare South Korea and Japan ship orders: 中日韩造船订单差距断崖，韩国184艘 日本仅31艘，看到中国数据让人大吃一惊！本期视频就让我们来详细了解一下."
+        }
+      ],
+      "sources": [
+        "DWodn_xJsML0z_m3PBpva"
+      ]
+    },
+    {
+      "sector": 4,
+      "sector_name": "조선·제조업",
+      "id": "ZQ6_n9SB5x4",
+      "title": "The Shipbuilding Subsidy War: Korea vs. Japan at the WTO",
+      "url": "https://www.youtube.com/watch?v=ZQ6_n9SB5x4",
+      "publisher": "Behind Asia",
+      "published": "2025-08-09",
+      "language": "English",
+      "comparison_evidence": "Inspected title directly says Korea vs. Japan. Description: Japan has repeatedly accused South Korea of using state-backed restructuring funds to illegally subsidize its giant shipbuilders, allowing them to win global contracts at unfairly low prices.",
+      "verification": "title and description verified via websearch, webfetch and YouTube metadata; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "other_foreign_English_YouTube",
+      "source_id": "Vosmt9feFw2UT1S61-gst",
+      "notes": "Bilateral shipbuilding subsidy and contract-price competition; rivalry/trade-policy comparison rather than vessel-engineering side-by-side. The accusation is attributed, not endorsed as fact.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "tech",
+      "sectors": [
+        4
+      ],
+      "evidences": [
+        {
+          "sector": 4,
+          "text": "Inspected title directly says Korea vs. Japan. Description: Japan has repeatedly accused South Korea of using state-backed restructuring funds to illegally subsidize its giant shipbuilders, allowing them to win global contracts at unfairly low prices."
+        }
+      ],
+      "sources": [
+        "Vosmt9feFw2UT1S61-gst"
+      ]
+    },
+    {
+      "sector": 5,
+      "sector_name": "철도·교통",
+      "id": "BV1wUg3z1EXk",
+      "title": "【釜山行】韩国标准动车组？KTX青龙号釜山-首尔一等座运转乘坐体验",
+      "url": "https://www.bilibili.com/video/BV1wUg3z1EXk",
+      "publisher": "小董热游解说",
+      "published": "2025-07-18",
+      "language": "Chinese",
+      "comparison_evidence": "Inspected description: 本视频拍摄于2025年7月13日的韩国，乘坐KTX青龙9017次列车全程，票价385元。不需要换算啦！里程420千米，相比日本来说韩国铁道公社确实算是良心。",
+      "verification": "description verified via websearch; webfetch confirms Bilibili player with matching BV ID; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "preferred_Chinese_Bilibili",
+      "source_id": "gOza-vLxP0sRaGLpC4kKq",
+      "notes": "NARROW comparison: Korean rail fare/value explicitly compared with Japan in the same video's description; no evidence of detailed engineering or speed comparison. Filming date 2025-07-13 differs from upload date 2025-07-18.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "tech",
+      "sectors": [
+        5
+      ],
+      "evidences": [
+        {
+          "sector": 5,
+          "text": "Inspected description: 本视频拍摄于2025年7月13日的韩国，乘坐KTX青龙9017次列车全程，票价385元。不需要换算啦！里程420千米，相比日本来说韩国铁道公社确实算是良心。"
+        }
+      ],
+      "sources": [
+        "gOza-vLxP0sRaGLpC4kKq"
+      ]
+    },
+    {
+      "sector": 5,
+      "sector_name": "철도·교통",
+      "id": "HtJiVQOuGCw",
+      "title": "Riding South Korea’s 300km/h Bullet Train | Everything you need to know about the KTX",
+      "url": "https://www.youtube.com/watch?v=HtJiVQOuGCw",
+      "publisher": "From the Window Seat",
+      "published": "2026-01-10",
+      "language": "English",
+      "comparison_evidence": "Inspected description: Along the way, I break down how South Korea’s high-speed rail works, what first class and economy is like on the KTX, ticket prices, standing tickets, and how the experience compares with Japan’s Shinkansen.",
+      "verification": "description verified via websearch and YouTube metadata; not listened",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "other_foreign_English_YouTube",
+      "source_id": "THNwQ3fVT2hegqHuIbw7Q",
+      "notes": "KTX trip report explicitly containing comparison with Japan's Shinkansen; not a purely bilateral full-length review.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "tech",
+      "sectors": [
+        5
+      ],
+      "evidences": [
+        {
+          "sector": 5,
+          "text": "Inspected description: Along the way, I break down how South Korea’s high-speed rail works, what first class and economy is like on the KTX, ticket prices, standing tickets, and how the experience compares with Japan’s Shinkansen."
+        }
+      ],
+      "sources": [
+        "THNwQ3fVT2hegqHuIbw7Q"
+      ]
+    },
+    {
+      "sector": 6,
+      "sector_name": "축구",
+      "id": "BV1nZXKBpEv6",
+      "title": "日本足球亚洲独一档？为何顶级球员都是韩国人",
+      "url": "https://www.bilibili.com/video/BV1nZXKBpEv6/",
+      "publisher": "AF足球频道",
+      "published": "2026-03-27 17:35:35",
+      "language": "Chinese",
+      "comparison_evidence": "Original title juxtaposes Japan’s national football strength with Korea’s elite players. Inspected description: 今天这个视频，不只聊足球，要还通过两国社会的底层逻辑，解析两个亚洲足球强国的崛起本质，以及对我们来说该如何看清足球发展的逻辑，找到真正的崛起之路。 Explicit discussion of the two countries’ social foundations and football development.",
+      "verification": "VERIFIED_ORIGINAL_PAGE_TITLE_AND_DESCRIPTION",
+      "comparison_type": "EVALUATIVE_COMPARISON",
+      "source_group": "sports",
+      "source_id": "TO8SJ73VI9gWc6pIZuNAV",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports",
+      "sectors": [
+        6
+      ],
+      "evidences": [
+        {
+          "sector": 6,
+          "text": "Original title juxtaposes Japan’s national football strength with Korea’s elite players. Inspected description: 今天这个视频，不只聊足球，要还通过两国社会的底层逻辑，解析两个亚洲足球强国的崛起本质，以及对我们来说该如何看清足球发展的逻辑，找到真正的崛起之路。 Explicit discussion of the two countries’ social foundations and football development."
+        }
+      ],
+      "sources": [
+        "TO8SJ73VI9gWc6pIZuNAV"
+      ]
+    },
+    {
+      "sector": 6,
+      "sector_name": "축구",
+      "id": "BV1tw411M72n",
+      "title": "日本足球VS韩国足球，谁更强？",
+      "url": "https://www.bilibili.com/video/BV1tw411M72n/",
+      "publisher": "邦邦邦张指导",
+      "published": "2023-11-07 02:07:59",
+      "language": "Chinese",
+      "comparison_evidence": "Inspected original video-page title explicitly asks which is stronger, Japanese football or Korean football. Page tags include 日本, 韩国, 日本足球, 韩国足球. Description is only \"-\". No transcript or playback analysis claimed.",
+      "verification": "VERIFIED_ORIGINAL_PAGE_TITLE",
+      "comparison_type": "EVALUATIVE_COMPARISON",
+      "source_group": "sports",
+      "source_id": "wS6tESK0FKxqsDihaFE6M",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports",
+      "sectors": [
+        6
+      ],
+      "evidences": [
+        {
+          "sector": 6,
+          "text": "Inspected original video-page title explicitly asks which is stronger, Japanese football or Korean football. Page tags include 日本, 韩国, 日本足球, 韩国足球. Description is only \"-\". No transcript or playback analysis claimed."
+        }
+      ],
+      "sources": [
+        "wS6tESK0FKxqsDihaFE6M"
+      ]
+    },
+    {
+      "sector": 7,
+      "sector_name": "야구",
+      "id": "BV1DX4y1X7TR",
+      "title": "日韩之争，谁才是亚洲一哥？",
+      "url": "https://www.bilibili.com/video/BV1DX4y1X7TR/",
+      "publisher": "MLB美职棒大联盟",
+      "published": "2023-02-24 18:00:00",
+      "language": "Chinese",
+      "comparison_evidence": "Inspected original title asks who is Asia’s number one between Japan and Korea. Description explicitly discusses 日本和韩国在棒球项目上的竞争, their rivalry, Ichiro calling out Korea, and their placement in the same WBC group. Historical rivalry discussion/preview, not a claim that a complete quantitative ranking was verified.",
+      "verification": "VERIFIED_ORIGINAL_PAGE_TITLE_AND_DESCRIPTION",
+      "comparison_type": "RIVALRY_DISCUSSION_COMPARISON",
+      "source_group": "sports",
+      "source_id": "B8YZiwFNQr3R9r-9wNzEa",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports",
+      "sectors": [
+        7
+      ],
+      "evidences": [
+        {
+          "sector": 7,
+          "text": "Inspected original title asks who is Asia’s number one between Japan and Korea. Description explicitly discusses 日本和韩国在棒球项目上的竞争, their rivalry, Ichiro calling out Korea, and their placement in the same WBC group. Historical rivalry discussion/preview, not a claim that a complete quantitative ranking was verified."
+        }
+      ],
+      "sources": [
+        "B8YZiwFNQr3R9r-9wNzEa"
+      ]
+    },
+    {
+      "sector": 8,
+      "sector_name": "배드민턴·탁구",
+      "id": "68d9204f0000000013012841",
+      "title": "为什么山口茜能两局带走巅峰安洗莹？",
+      "url": "https://www.rednote.com/discovery/item/68d9204f0000000013012841",
+      "publisher": "羽球小月亮",
+      "published": "2025-09-28",
+      "language": "Chinese",
+      "comparison_evidence": "제목: 야마구치가 최정상 안세영을 두 게임에 꺾을 수 있었던 이유 질문. 본문: 2025韩国公开赛，山口茜vs安洗莹; 羽毛球教学 태그. 양 선수 수준 비교 후보이며 국가 시스템 비교 아님.",
+      "verification": "VIDEO_FILTER_AND_NOTE_TITLE_DESCRIPTION; 원음 미청취",
+      "comparison_type": "EVALUATIVE_TITLE_ATHLETE_LEVEL",
+      "source_group": "rednote 로그인 검색",
+      "source_id": "browser_snapshot:cx13",
+      "notes": "제목이 분석형이라는 확인이며 해설의 실제 논거는 전사 필요",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "xhs-parent-extra",
+      "sectors": [
+        8
+      ],
+      "evidences": [
+        {
+          "sector": 8,
+          "text": "제목: 야마구치가 최정상 안세영을 두 게임에 꺾을 수 있었던 이유 질문. 본문: 2025韩国公开赛，山口茜vs安洗莹; 羽毛球教学 태그. 양 선수 수준 비교 후보이며 국가 시스템 비교 아님."
+        }
+      ],
+      "sources": [
+        "browser_snapshot:cx13"
+      ]
+    },
+    {
+      "sector": 9,
+      "sector_name": "올림픽종목·양궁·빙상",
+      "id": "HcIdwQgsPlA",
+      "title": "浅田真央とキム・ヨナ 比較 【Mao asada  Yona Kim】バンクーバーOlympic",
+      "url": "https://www.youtube.com/watch?v=HcIdwQgsPlA",
+      "publisher": "日本TOP5",
+      "published": "2016-02-29T05:13:22-08:00",
+      "language": "Japanese",
+      "comparison_evidence": "Inspected title explicitly compares Mao Asada and Kim Yuna at Vancouver Olympics. Description states 徹底比較 and enumerates jump, combination jump, sequence, spin, and GOE points. Direct athlete-level technical comparison of Japan and South Korea; uploader’s framing and scores not independently audited.",
+      "verification": "VERIFIED_YOUTUBE_ORIGINAL_METADATA_TITLE_AND_DESCRIPTION",
+      "comparison_type": "TECHNICAL_SCORING_COMPARISON",
+      "source_group": "sports-extra",
+      "source_id": "OF92HAPxKOUm1-DsnjQZS",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports-extra",
+      "sectors": [
+        9
+      ],
+      "evidences": [
+        {
+          "sector": 9,
+          "text": "Inspected title explicitly compares Mao Asada and Kim Yuna at Vancouver Olympics. Description states 徹底比較 and enumerates jump, combination jump, sequence, spin, and GOE points. Direct athlete-level technical comparison of Japan and South Korea; uploader’s framing and scores not independently audited."
+        }
+      ],
+      "sources": [
+        "OF92HAPxKOUm1-DsnjQZS"
+      ]
+    },
+    {
+      "sector": 9,
+      "sector_name": "올림픽종목·양궁·빙상",
+      "id": "hhtyexUt4rs",
+      "title": "Mao Asada vs Yuna Kim: Olympic Showdown",
+      "url": "https://www.youtube.com/watch?v=hhtyexUt4rs",
+      "publisher": "Journey of Icons",
+      "published": "2026-04-11T14:27:03-07:00",
+      "language": "English",
+      "comparison_evidence": "Inspected description contrasts Kim building South Korean skating culture with Asada’s impact on Japanese skaters and creation of MAO RINK in Tokyo. Listed chapters include Two Philosophies Collide (01:29), What They Left Behind (09:11), and Who Was Better? (10:46). Direct rivalry/legacy evaluation of Korean and Japanese athletes, not plain competition footage.",
+      "verification": "VERIFIED_YOUTUBE_ORIGINAL_METADATA_TITLE_AND_DESCRIPTION",
+      "comparison_type": "EVALUATIVE_COMPARISON",
+      "source_group": "sports-extra",
+      "source_id": "9J53j6E7nNi5DfdtpfiBn",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports-extra",
+      "sectors": [
+        9
+      ],
+      "evidences": [
+        {
+          "sector": 9,
+          "text": "Inspected description contrasts Kim building South Korean skating culture with Asada’s impact on Japanese skaters and creation of MAO RINK in Tokyo. Listed chapters include Two Philosophies Collide (01:29), What They Left Behind (09:11), and Who Was Better? (10:46). Direct rivalry/legacy evaluation of Korean and Japanese athletes, not plain competition footage."
+        }
+      ],
+      "sources": [
+        "9J53j6E7nNi5DfdtpfiBn"
+      ]
+    },
+    {
+      "sector": 10,
+      "sector_name": "e스포츠",
+      "id": "_9wmq7xAhpU",
+      "title": "Korea & Japan - eSports, Culture and What Each Can Learn from the Other",
+      "url": "https://www.youtube.com/watch?v=_9wmq7xAhpU",
+      "publisher": "Exjapter",
+      "published": "2020-02-28T01:18:01-08:00",
+      "language": "English",
+      "comparison_evidence": "Inspected title: Korea & Japan - eSports, Culture and What Each Can Learn from the Other. Description identifies an interview with esports caster Clinton Bader and explicitly says differences between life in Korea and Japan, the development of eSports and what the two countries can adopt from each other. True bilateral discussion, not a match.",
+      "verification": "VERIFIED_YOUTUBE_ORIGINAL_METADATA_TITLE_AND_DESCRIPTION",
+      "comparison_type": "INDUSTRY_CULTURE_COMPARISON",
+      "source_group": "sports-extra",
+      "source_id": "CvuBh-qPr-ZQ2OG4IIque",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports-extra",
+      "sectors": [
+        10
+      ],
+      "evidences": [
+        {
+          "sector": 10,
+          "text": "Inspected title: Korea & Japan - eSports, Culture and What Each Can Learn from the Other. Description identifies an interview with esports caster Clinton Bader and explicitly says differences between life in Korea and Japan, the development of eSports and what the two countries can adopt from each other. True bilateral discussion, not a match."
+        }
+      ],
+      "sources": [
+        "CvuBh-qPr-ZQ2OG4IIque"
+      ]
+    },
+    {
+      "sector": 23,
+      "sector_name": "관광·여행만족",
+      "id": "YeAnnMhAlpU",
+      "title": "韩国十天citywalk有感:接触的韩国人怎么看中国?日韩的旅行对比感受,关于外国月亮比中国圆我有话说(小叔TV EP287)",
+      "url": "https://www.youtube.com/watch?v=YeAnnMhAlpU",
+      "publisher": "小叔TV",
+      "published": "2023-11-26T00:09:17-08:00",
+      "language": "Chinese",
+      "comparison_evidence": "Indexed actual title explicitly says 日韩的旅行对比感受. Description/chapter 5:01 和日本比有哪些旅行差异? follows Korean ten-day travel impressions. Description mentions 小红书ID: 油管中V(个人旅行; this is not sufficient to establish exact channel name.",
+      "verification": "VERIFIED_INDEXED_VIDEO_TITLE_DESCRIPTION_ONLY_WATCH_PAGE_BODY_UNAVAILABLE",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "travel",
+      "source_id": "fTs0MbtD40cWixxgLnmRy",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "travel",
+      "sectors": [
+        11,
+        23
+      ],
+      "evidences": [
+        {
+          "sector": 23,
+          "text": "Indexed actual title explicitly says 日韩的旅行对比感受. Description/chapter 5:01 和日本比有哪些旅行差异? follows Korean ten-day travel impressions. Description mentions 小红书ID: 油管中V(个人旅行; this is not sufficient to establish exact channel name."
+        },
+        {
+          "sector": 11,
+          "text": "{\"description\":\"去了韩国的首尔、釜山和大邱市，到底对韩国的综合印象是什么样的？韩国人对中国人的态度如何？与日本和国内比起来，物价如何呢？\",\"chapter\":\"5:01 和日本比有哪些旅行差异?; 9:26 物价和消费对比中国来说有多高?\"}"
+        }
+      ],
+      "sources": [
+        "fTs0MbtD40cWixxgLnmRy",
+        "youtube.getMetadata:YeAnnMhAlpU"
+      ]
+    },
+    {
+      "sector": 11,
+      "sector_name": "물가·장보기",
+      "id": "SiPfliKi-Z8",
+      "title": "Living in Japan vs. Korea Part 1 - Food, Price, Language, Weather",
+      "url": "https://www.youtube.com/watch?v=SiPfliKi-Z8",
+      "publisher": "Daylightful",
+      "published": "2018-10-28T05:45:43-07:00",
+      "language": "English",
+      "comparison_evidence": "{\"title\":\"Living in Japan vs. Korea Part 1 - Food, Price, Language, Weather\",\"description\":\"I took the time to compare them side by side from my personal experience! In this video, I discussed the differences and similarities of price, food, language, and the weather.\"}",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_WATCH",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "ENGLISH_SECONDARY_INDEPENDENT_CREATOR",
+      "source_id": "qbhX5vPPpB53EZeZcLaCm",
+      "notes": "Video existence and explicit country/sector comparison verified from title/description. Claims in video not independently fact-checked.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "life",
+      "sectors": [
+        11
+      ],
+      "evidences": [
+        {
+          "sector": 11,
+          "text": "{\"title\":\"Living in Japan vs. Korea Part 1 - Food, Price, Language, Weather\",\"description\":\"I took the time to compare them side by side from my personal experience! In this video, I discussed the differences and similarities of price, food, language, and the weather.\"}"
+        }
+      ],
+      "sources": [
+        "qbhX5vPPpB53EZeZcLaCm"
+      ]
+    },
+    {
+      "sector": 11,
+      "sector_name": "물가·장보기",
+      "id": "wTOUECqsTyU",
+      "title": "Japan vs South Korea 2026 🇯🇵🇰🇷 | Cost of Living, Healthcare, Safety & Quality of Life Compared",
+      "url": "https://www.youtube.com/watch?v=wTOUECqsTyU",
+      "publisher": "Off Map Travel”",
+      "published": "2026-10-12T20:57:38-07:00",
+      "language": "English",
+      "comparison_evidence": "{\"title\":\"Japan vs South Korea 2026 🇯🇵🇰🇷 | Cost of Living, Healthcare, Safety & Quality of Life Compared\",\"description\":\"Japan vs South Korea in 2026: which country offers a better quality of life? We compare the two nations across critical categories. Understanding the cost of living and daily lifestyle differences is essential for anyone interested in Asia travel.\"}",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_WATCH",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "ENGLISH_SECONDARY_INDEPENDENT_CREATOR",
+      "source_id": "Jh59_dMJv_Cft9MxIMkk4",
+      "notes": "Video existence and explicit country/sector comparison verified from title/description. Claims in video not independently fact-checked.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "life",
+      "sectors": [
+        11,
+        15
+      ],
+      "evidences": [
+        {
+          "sector": 11,
+          "text": "{\"title\":\"Japan vs South Korea 2026 🇯🇵🇰🇷 | Cost of Living, Healthcare, Safety & Quality of Life Compared\",\"description\":\"Japan vs South Korea in 2026: which country offers a better quality of life? We compare the two nations across critical categories. Understanding the cost of living and daily lifestyle differences is essential for anyone interested in Asia travel.\"}"
+        },
+        {
+          "sector": 15,
+          "text": "{\"title\":\"Japan vs South Korea 2026 🇯🇵🇰🇷 | Cost of Living, Healthcare, Safety & Quality of Life Compared\",\"description\":\"Japan vs South Korea in 2026: which country offers a better quality of life? We compare the two nations across critical categories. This analysis examines the major differences between these two Asian powers, looking at technology, transportation, healthcare, and safety.\"}"
+        }
+      ],
+      "sources": [
+        "Jh59_dMJv_Cft9MxIMkk4"
+      ]
+    },
+    {
+      "sector": 12,
+      "sector_name": "주거·집값",
+      "id": "BV1DjeS65Ep5",
+      "title": "中日韩全方位对比：没有赢家只有三种活法",
+      "url": "https://www.bilibili.com/video/BV1DjeS65Ep5/",
+      "publisher": "非说不嗑",
+      "published": "2026-09-19 18:00:00 (platform-displayed; timezone unspecified)",
+      "language": "Chinese",
+      "comparison_evidence": "{\"title\":\"中日韩全方位对比：没有赢家只有三种活法\",\"description\":\"房价收入比中国25.2、日本11.3、韩国22.2，北京上海超34。\"}",
+      "verification": "VERIFIED_VIDEO_PAGE_TITLE_DESCRIPTION_NOT_FULL_WATCH",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "CHINESE_PREFERRED_BILIBILI",
+      "source_id": "browser_snapshot:s11:BV1DjeS65Ep5",
+      "notes": "Also compares China; Japan and South Korea explicitly named in description. Publisher marks personal opinion. Numerical claims not independently fact-checked.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "life",
+      "sectors": [
+        12
+      ],
+      "evidences": [
+        {
+          "sector": 12,
+          "text": "{\"title\":\"中日韩全方位对比：没有赢家只有三种活法\",\"description\":\"房价收入比中国25.2、日本11.3、韩国22.2，北京上海超34。\"}"
+        }
+      ],
+      "sources": [
+        "browser_snapshot:s11:BV1DjeS65Ep5"
+      ]
+    },
+    {
+      "sector": 12,
+      "sector_name": "주거·집값",
+      "id": "4R-p4F3XpJs",
+      "title": "10 UNIQUE Differences Between Japan And  South Korea: Which is Better to Live in as a Foreigner?",
+      "url": "https://www.youtube.com/watch?v=4R-p4F3XpJs",
+      "publisher": "The Bamboo Journey",
+      "published": "2025-05-29T06:40:42-07:00",
+      "language": "English",
+      "comparison_evidence": "{\"title\":\"10 UNIQUE Differences Between Japan And  South Korea: Which is Better to Live in as a Foreigner?\",\"description\":\"7 shocking cultural and lifestyle differences between Japan and South Korea ... Topics we explore: ... Housing and rent\"}",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_WATCH",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "ENGLISH_SECONDARY_INDEPENDENT_CREATOR",
+      "source_id": "youtube.getMetadata:4R-p4F3XpJs",
+      "notes": "Video existence and explicit country/sector comparison verified from title/description. Claims in video not independently fact-checked.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "life",
+      "sectors": [
+        12,
+        13
+      ],
+      "evidences": [
+        {
+          "sector": 12,
+          "text": "{\"title\":\"10 UNIQUE Differences Between Japan And  South Korea: Which is Better to Live in as a Foreigner?\",\"description\":\"7 shocking cultural and lifestyle differences between Japan and South Korea ... Topics we explore: ... Housing and rent\"}"
+        },
+        {
+          "sector": 13,
+          "text": "{\"title\":\"10 UNIQUE Differences Between Japan And  South Korea: Which is Better to Live in as a Foreigner?\",\"description\":\"7 shocking cultural and lifestyle differences between Japan and South Korea ... From cost of living and work culture to social rules and daily conveniences\"}"
+        }
+      ],
+      "sources": [
+        "youtube.getMetadata:4R-p4F3XpJs"
+      ]
+    },
+    {
+      "sector": 13,
+      "sector_name": "급여·직장문화",
+      "id": "BV1oH4y1e7Yc",
+      "title": "纯经验分享，日本韩国打工对比",
+      "url": "https://www.bilibili.com/video/BV1oH4y1e7Yc/",
+      "publisher": "艾伦老师是也",
+      "published": "2024-02-02 17:30:20 (platform-displayed; timezone unspecified)",
+      "language": "Chinese",
+      "comparison_evidence": "{\"title\":\"纯经验分享，日本韩国打工对比\",\"tags\":[\"韩国打工\",\"日本打工\",\"出国打工\"]}",
+      "verification": "VERIFIED_VIDEO_PAGE_TITLE_NOT_FULL_WATCH",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "CHINESE_PREFERRED_BILIBILI",
+      "source_id": "browser_snapshot:s5:BV1oH4y1e7Yc",
+      "notes": "Direct employment comparison confirmed; precise salary figures not verified.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "life",
+      "sectors": [
+        13
+      ],
+      "evidences": [
+        {
+          "sector": 13,
+          "text": "{\"title\":\"纯经验分享，日本韩国打工对比\",\"tags\":[\"韩国打工\",\"日本打工\",\"出国打工\"]}"
+        }
+      ],
+      "sources": [
+        "browser_snapshot:s5:BV1oH4y1e7Yc"
+      ]
+    },
+    {
+      "sector": 14,
+      "sector_name": "교육·대학",
+      "id": "4HN-1hicAKY",
+      "title": "【干货】你更适合韩国留学？还是日本留学？",
+      "url": "https://www.youtube.com/watch?v=4HN-1hicAKY",
+      "publisher": "芥末留学",
+      "published": "2021-06-07T12:18:00-07:00",
+      "language": "Chinese",
+      "comparison_evidence": "{\"title\":\"【干货】你更适合韩国留学？还是日本留学？\",\"description\":\"纠结选择日本留学还是韩国留学？不如看看自己到底适合哪个国家...\"}",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_WATCH",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "CHINESE_OTHER_PLATFORM_YOUTUBE",
+      "source_id": "youtube.getMetadata:4HN-1hicAKY",
+      "notes": "Video existence and explicit country/sector comparison verified from title/description. Claims in video not independently fact-checked.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "life",
+      "sectors": [
+        14
+      ],
+      "evidences": [
+        {
+          "sector": 14,
+          "text": "{\"title\":\"【干货】你更适合韩国留学？还是日本留学？\",\"description\":\"纠结选择日本留学还是韩国留学？不如看看自己到底适合哪个国家...\"}"
+        }
+      ],
+      "sources": [
+        "youtube.getMetadata:4HN-1hicAKY"
+      ]
+    },
+    {
+      "sector": 14,
+      "sector_name": "교육·대학",
+      "id": "6ae85cdd000000002c03a76e",
+      "title": "日本vs韩国，想留学选哪个？",
+      "url": "https://www.rednote.com/search_result/6ae85cdd000000002c03a76e",
+      "publisher": "新东方硕博留学",
+      "published": "11-02",
+      "language": "Chinese",
+      "comparison_evidence": "日本vs韩国，想留学选哪个？",
+      "verification": "VIDEO_FILTER_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "rednote 로그인 검색",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "xhs-parent",
+      "sectors": [
+        14
+      ],
+      "evidences": [
+        {
+          "sector": 14,
+          "text": "日本vs韩国，想留学选哪个？"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 14,
+      "sector_name": "교육·대학",
+      "id": "6af9b93100000000260103f0",
+      "title": "留韩留日请用排除法来选",
+      "url": "https://www.rednote.com/search_result/6af9b93100000000260103f0",
+      "publisher": "siqin",
+      "published": "13小时前",
+      "language": "Chinese",
+      "comparison_evidence": "留韩留日请用排除法来选",
+      "verification": "VIDEO_FILTER_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "rednote 로그인 검색",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "xhs-parent",
+      "sectors": [
+        14
+      ],
+      "evidences": [
+        {
+          "sector": 14,
+          "text": "留韩留日请用排除法来选"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 14,
+      "sector_name": "교육·대학",
+      "id": "N9hm8AKnI3Q",
+      "title": "Considering studying in Japan or South Korea? What you NEED to know",
+      "url": "https://www.youtube.com/watch?v=N9hm8AKnI3Q",
+      "publisher": "educations",
+      "published": "2024-10-09T08:00:32-07:00",
+      "language": "English",
+      "comparison_evidence": "{\"title\":\"Considering studying in Japan or South Korea? What you NEED to know\",\"description\":\"While other countries in the world are accepting fewer international students, Japan and South Korea are going the opposite way and gearing up to take more! Both Japan and South Korea have initiatives to increase their international enrollment numbers in the coming years.\"}",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_WATCH",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "ENGLISH_SECONDARY_EDUCATION_PLATFORM",
+      "source_id": "youtube.getMetadata:N9hm8AKnI3Q",
+      "notes": "Video existence and explicit country/sector comparison verified from title/description. Claims in video not independently fact-checked.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "life",
+      "sectors": [
+        14
+      ],
+      "evidences": [
+        {
+          "sector": 14,
+          "text": "{\"title\":\"Considering studying in Japan or South Korea? What you NEED to know\",\"description\":\"While other countries in the world are accepting fewer international students, Japan and South Korea are going the opposite way and gearing up to take more! Both Japan and South Korea have initiatives to increase their international enrollment numbers in the coming years.\"}"
+        }
+      ],
+      "sources": [
+        "youtube.getMetadata:N9hm8AKnI3Q"
+      ]
+    },
+    {
+      "sector": 15,
+      "sector_name": "의료·복지",
+      "id": "69291065000000000d0376c9",
+      "title": "【行业资讯】干细胞技术：中日韩三国对比",
+      "url": "https://www.rednote.com/search_result/69291065000000000d0376c9",
+      "publisher": "细胞手账",
+      "published": "2025-11-28",
+      "language": "Chinese",
+      "comparison_evidence": "제목의 한국·일본 포함 의료/치과 비교; 의료 주장 자체 미검증",
+      "verification": "VIDEO_FILTER_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "rednote 로그인 검색",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "xhs-parent",
+      "sectors": [
+        15
+      ],
+      "evidences": [
+        {
+          "sector": 15,
+          "text": "제목의 한국·일본 포함 의료/치과 비교; 의료 주장 자체 미검증"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 15,
+      "sector_name": "의료·복지",
+      "id": "69707627000000002203a0d2",
+      "title": "日德美韩发达国家，为何美国人看牙最难?",
+      "url": "https://www.rednote.com/search_result/69707627000000002203a0d2",
+      "publisher": "口腔医生出国那些事",
+      "published": "01-21",
+      "language": "Chinese",
+      "comparison_evidence": "제목의 한국·일본 포함 의료/치과 비교; 의료 주장 자체 미검증",
+      "verification": "VIDEO_FILTER_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "rednote 로그인 검색",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "xhs-parent",
+      "sectors": [
+        15
+      ],
+      "evidences": [
+        {
+          "sector": 15,
+          "text": "제목의 한국·일본 포함 의료/치과 비교; 의료 주장 자체 미검증"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 15,
+      "sector_name": "의료·복지",
+      "id": "69e9d3bd0000000020007002",
+      "title": "日本和韩国的Do牙审美差异到底有多大？",
+      "url": "https://www.rednote.com/search_result/69e9d3bd0000000020007002",
+      "publisher": "杭州马绮君美学修复小助理",
+      "published": "04-23",
+      "language": "Chinese",
+      "comparison_evidence": "제목의 한국·일본 포함 의료/치과 비교; 의료 주장 자체 미검증",
+      "verification": "VIDEO_FILTER_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "rednote 로그인 검색",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "xhs-parent",
+      "sectors": [
+        15
+      ],
+      "evidences": [
+        {
+          "sector": 15,
+          "text": "제목의 한국·일본 포함 의료/치과 비교; 의료 주장 자체 미검증"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 15,
+      "sector_name": "의료·복지",
+      "id": "k2xqo9r21AU",
+      "title": "日韩零缴费福利PK：养老天堂 vs 医疗大国！懒人党选日本，高端派选韩国？",
+      "url": "https://www.youtube.com/watch?v=k2xqo9r21AU",
+      "publisher": "兔哥开讲",
+      "published": "2025-01-14T06:51:31-08:00",
+      "language": "Chinese",
+      "comparison_evidence": "{\"title\":\"日韩零缴费福利PK：养老天堂 vs 医疗大国！懒人党选日本，高端派选韩国？\",\"description\":\"日本和韩国，这两个亚洲发达国家，究竟哪个更适合移民？生娃、看病、养老、失业救济……这些零缴费福利的差距到底有多大？兔哥今天就带你全面对比日韩的四大福利\"}",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_WATCH",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "CHINESE_OTHER_PLATFORM_YOUTUBE",
+      "source_id": "youtube.getMetadata:k2xqo9r21AU",
+      "notes": "Video existence and explicit country/sector comparison verified from title/description. Claims in video not independently fact-checked.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "life",
+      "sectors": [
+        15
+      ],
+      "evidences": [
+        {
+          "sector": 15,
+          "text": "{\"title\":\"日韩零缴费福利PK：养老天堂 vs 医疗大国！懒人党选日本，高端派选韩国？\",\"description\":\"日本和韩国，这两个亚洲发达国家，究竟哪个更适合移民？生娃、看病、养老、失业救济……这些零缴费福利的差距到底有多大？兔哥今天就带你全面对比日韩的四大福利\"}"
+        }
+      ],
+      "sources": [
+        "youtube.getMetadata:k2xqo9r21AU"
+      ]
+    },
+    {
+      "sector": 16,
+      "sector_name": "드라마·영화",
+      "id": "2WwPRnBbABo",
+      "title": "各國觀眾來控訴 日劇韓劇誰騙最大?!  drama  2018-11-21 【WTO姐妹會】│ 歐陽姍、開朗、魯芝善、Atsushi、Kyoda、Honey、Jenny、熙靜、亞實、新井利佳、采兒",
+      "url": "https://www.youtube.com/watch?v=2WwPRnBbABo",
+      "publisher": "WTO姐妹會 官方頻道",
+      "published": "2020-04-14T06:00:00-07:00",
+      "language": "Chinese",
+      "comparison_evidence": "Inspected title explicitly asks 日劇韓劇誰騙最大?! (Japanese versus Korean dramas: which exaggerates reality more?). Description identifies WTO姐妹會 episode 1983 and asks 誰騙得比較大？誰比較浮誇？. Chinese-language Taiwanese TV talk-show episode comparing Japanese and Korean drama portrayals. The 2018-11-21 date in the title is the episode date, not the upload date.",
+      "verification": "VERIFIED_TITLE_AND_DESCRIPTION_YOUTUBE_METADATA; full playback not audited",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "culture",
+      "source_id": "fuVwNCjWOwjIi7urJkjeM",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "culture",
+      "sectors": [
+        16
+      ],
+      "evidences": [
+        {
+          "sector": 16,
+          "text": "Inspected title explicitly asks 日劇韓劇誰騙最大?! (Japanese versus Korean dramas: which exaggerates reality more?). Description identifies WTO姐妹會 episode 1983 and asks 誰騙得比較大？誰比較浮誇？. Chinese-language Taiwanese TV talk-show episode comparing Japanese and Korean drama portrayals. The 2018-11-21 date in the title is the episode date, not the upload date."
+        }
+      ],
+      "sources": [
+        "fuVwNCjWOwjIi7urJkjeM"
+      ]
+    },
+    {
+      "sector": 16,
+      "sector_name": "드라마·영화",
+      "id": "6ad9cf26000000002403ba73",
+      "title": "日韩两版DoctorX对比，女主出场哪版更爽？",
+      "url": "https://www.rednote.com/search_result/6ad9cf26000000002403ba73",
+      "publisher": "阿阮的诚实reaction",
+      "published": "10-22",
+      "language": "Chinese",
+      "comparison_evidence": "제목에 한일 두 판 DoctorX 직접비교 명시",
+      "verification": "VIDEO_FILTER_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "rednote 로그인 검색",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "xhs-parent",
+      "sectors": [
+        16
+      ],
+      "evidences": [
+        {
+          "sector": 16,
+          "text": "제목에 한일 두 판 DoctorX 직접비교 명시"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 16,
+      "sector_name": "드라마·영화",
+      "id": "Bnu1UJVPcoU",
+      "title": "When Japan Remakes a K-Drama: Upgrade or Downgrade?",
+      "url": "https://www.youtube.com/watch?v=Bnu1UJVPcoU",
+      "publisher": "K-Drama List",
+      "published": "2025-08-24T07:00:22-07:00",
+      "language": "English",
+      "comparison_evidence": "Inspected description: 'So… are J-drama remakes of K-dramas an upgrade or a downgrade?' and 'we break down the biggest differences ... what these remakes reveal about the way Korea and Japan tell stories.' It explicitly lists Korean and Japanese versions of Nevertheless and Marry My Husband. English-language secondary source.",
+      "verification": "VERIFIED_TITLE_AND_DESCRIPTION_YOUTUBE_METADATA; full playback not audited",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "culture",
+      "source_id": "LG-bdv9148JWjMeurHFBI",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "culture",
+      "sectors": [
+        16
+      ],
+      "evidences": [
+        {
+          "sector": 16,
+          "text": "Inspected description: 'So… are J-drama remakes of K-dramas an upgrade or a downgrade?' and 'we break down the biggest differences ... what these remakes reveal about the way Korea and Japan tell stories.' It explicitly lists Korean and Japanese versions of Nevertheless and Marry My Husband. English-language secondary source."
+        }
+      ],
+      "sources": [
+        "LG-bdv9148JWjMeurHFBI"
+      ]
+    },
+    {
+      "sector": 17,
+      "sector_name": "K팝·J팝",
+      "id": "aXQwDOTVlbQ",
+      "title": "韩系K-pop大战日系J-pop “偶像”到底是什么样的存在？",
+      "url": "https://www.youtube.com/watch?v=aXQwDOTVlbQ",
+      "publisher": "Poko Itovira",
+      "published": "2018-09-08T01:19:51-07:00",
+      "language": "Chinese",
+      "comparison_evidence": "Title directly contrasts 韩系K-pop and 日系J-pop. Inspected description states 讲述了K-pop（韩国流行音乐）和J-pop（日本流行音乐）的文化背景 and 从《Produce48》这种跨国文化互相碰撞交流分析了日韩偶像的文化差异. Chinese-language video explicitly comparing Korean and Japanese idol cultures.",
+      "verification": "VERIFIED_TITLE_AND_DESCRIPTION_YOUTUBE_METADATA; full playback not audited",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "culture",
+      "source_id": "UU8GexF9W8VsU3N3OpbS8",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "culture",
+      "sectors": [
+        17
+      ],
+      "evidences": [
+        {
+          "sector": 17,
+          "text": "Title directly contrasts 韩系K-pop and 日系J-pop. Inspected description states 讲述了K-pop（韩国流行音乐）和J-pop（日本流行音乐）的文化背景 and 从《Produce48》这种跨国文化互相碰撞交流分析了日韩偶像的文化差异. Chinese-language video explicitly comparing Korean and Japanese idol cultures."
+        }
+      ],
+      "sources": [
+        "UU8GexF9W8VsU3N3OpbS8"
+      ]
+    },
+    {
+      "sector": 17,
+      "sector_name": "K팝·J팝",
+      "id": "BV16CjvzZEKV",
+      "title": "中日韩女团练习室运镜版和固定机位对比",
+      "url": "https://www.bilibili.com/video/BV16CjvzZEKV",
+      "publisher": "zzzcb天生克老公",
+      "published": "2025-05-28 13:39:22",
+      "language": "Chinese",
+      "comparison_evidence": "Live Bilibili page snapshot shows the exact title 中日韩女团练习室运镜版和固定机位对比 (Chinese, Japanese and Korean girl-group practice-room moving-camera and fixed-camera comparison). Page tags include illit, MEOVV, HANA, xg and R.E.D. This is a multi-country performance/camera-style comparison, not an industry market comparison. Description itself is '-'.",
+      "verification": "VERIFIED_TITLE_LIVE_BILIBILI_PAGE_SNAPSHOT; full playback not audited",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "culture",
+      "source_id": "rowur1y4a44WkutrlMkko",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "culture",
+      "sectors": [
+        17
+      ],
+      "evidences": [
+        {
+          "sector": 17,
+          "text": "Live Bilibili page snapshot shows the exact title 中日韩女团练习室运镜版和固定机位对比 (Chinese, Japanese and Korean girl-group practice-room moving-camera and fixed-camera comparison). Page tags include illit, MEOVV, HANA, xg and R.E.D. This is a multi-country performance/camera-style comparison, not an industry market comparison. Description itself is '-'."
+        }
+      ],
+      "sources": [
+        "rowur1y4a44WkutrlMkko"
+      ]
+    },
+    {
+      "sector": 17,
+      "sector_name": "K팝·J팝",
+      "id": "BV1MK4y1H7kQ",
+      "title": "在日本的宮脇咲良 VS 在南韩的宮脇咲良",
+      "url": "https://www.bilibili.com/video/BV1MK4y1H7kQ",
+      "publisher": "一大盒可乐",
+      "published": "2021-02-15",
+      "language": "Chinese",
+      "comparison_evidence": "在日本的宮脇咲良 VS 在南韩的宮脇咲良",
+      "verification": "EXISTING_INDEX_TITLE_ONLY; 사용자 한국405건 해시일치 보고 범위",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "기존 Bilibili 전송 원장",
+      "source_id": "korea-direct-latest.tsv",
+      "notes": "신규 아님. 자막 현재상태 재검증 못 함.",
+      "old": true,
+      "rel": "일본/계절/벚꽃/2021-02-15_BV1MK4y1H7kQ_[계절-벚꽃]在日本的宮脇咲良 VS 在南韩的宮脇咲良/BV1MK4y1H7kQ.mp4",
+      "bytes": "6026927",
+      "sha": "a5bc53dce813b0e90984bdd3e05db37e4597adc0deddd733d49bcc40c82c49cd",
+      "download": "EXISTING_870_HASH_REPORTED_MATCH",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "existing_index",
+      "sectors": [
+        17
+      ],
+      "evidences": [
+        {
+          "sector": 17,
+          "text": "在日本的宮脇咲良 VS 在南韩的宮脇咲良"
+        }
+      ],
+      "sources": [
+        "korea-direct-latest.tsv"
+      ]
+    },
+    {
+      "sector": 18,
+      "sector_name": "예능·방송·토크쇼",
+      "id": "693975b4000000001e017a46",
+      "title": "模仿东大门中日韩三国客人买衣服对比",
+      "url": "https://www.rednote.com/search_result/693975b4000000001e017a46",
+      "publisher": "小萌同学",
+      "published": "2025-12-10",
+      "language": "Chinese",
+      "comparison_evidence": "模仿东大门中日韩三国客人买衣服对比",
+      "verification": "VIDEO_FILTER_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "rednote 로그인 검색",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "xhs-parent",
+      "sectors": [
+        18
+      ],
+      "evidences": [
+        {
+          "sector": 18,
+          "text": "模仿东大门中日韩三国客人买衣服对比"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 18,
+      "sector_name": "예능·방송·토크쇼",
+      "id": "rbjGDtoT0kQ",
+      "title": "中日韓綜藝節目對比視頻 Comparison video of Chinese, Japanese and Korean TV shows",
+      "url": "https://www.youtube.com/watch?v=rbjGDtoT0kQ",
+      "publisher": "BitPC比特資訊",
+      "published": "2022-10-21T17:37:10-07:00",
+      "language": "Chinese",
+      "comparison_evidence": "Inspected title explicitly says 中日韓綜藝節目對比視頻 / Comparison video of Chinese, Japanese and Korean TV shows. Description discusses Japanese variety shows as diverse, including knowledge and social issues, then Korean variety-show creativity and performer pressures versus China. Chinese-language commentary; claims are the uploader's opinions, not independently established facts.",
+      "verification": "VERIFIED_TITLE_AND_DESCRIPTION_YOUTUBE_METADATA; full playback not audited",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "culture",
+      "source_id": "Fc_i1KcyD7FvUP62R4KvU",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "culture",
+      "sectors": [
+        18
+      ],
+      "evidences": [
+        {
+          "sector": 18,
+          "text": "Inspected title explicitly says 中日韓綜藝節目對比視頻 / Comparison video of Chinese, Japanese and Korean TV shows. Description discusses Japanese variety shows as diverse, including knowledge and social issues, then Korean variety-show creativity and performer pressures versus China. Chinese-language commentary; claims are the uploader's opinions, not independently established facts."
+        }
+      ],
+      "sources": [
+        "Fc_i1KcyD7FvUP62R4KvU"
+      ]
+    },
+    {
+      "sector": 19,
+      "sector_name": "뷰티·화장품·패션",
+      "id": "6a62de25000000001b01f4b0",
+      "title": "中日韩妆容印象",
+      "url": "https://www.rednote.com/search_result/6a62de25000000001b01f4b0",
+      "publisher": "Lilico",
+      "published": "07-24",
+      "language": "Chinese",
+      "comparison_evidence": "中日韩妆容印象",
+      "verification": "VIDEO_FILTER_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "rednote 로그인 검색",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "xhs-parent",
+      "sectors": [
+        19
+      ],
+      "evidences": [
+        {
+          "sector": 19,
+          "text": "中日韩妆容印象"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 19,
+      "sector_name": "뷰티·화장품·패션",
+      "id": "6ae47ea10000000025010293",
+      "title": "日韩穿搭风格大不同 同一场合日韩时尚差别",
+      "url": "https://www.rednote.com/search_result/6ae47ea10000000025010293",
+      "publisher": "傲娇的苹果",
+      "published": "11-02",
+      "language": "Chinese",
+      "comparison_evidence": "日韩穿搭风格大不同 同一场合日韩时尚差别",
+      "verification": "VIDEO_FILTER_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "rednote 로그인 검색",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "xhs-parent",
+      "sectors": [
+        19
+      ],
+      "evidences": [
+        {
+          "sector": 19,
+          "text": "日韩穿搭风格大不同 同一场合日韩时尚差别"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 19,
+      "sector_name": "뷰티·화장품·패션",
+      "id": "BV19RWh6uEHY",
+      "title": "日本人和韩国人的长相区别，有点小差异，各有优缺点",
+      "url": "https://www.bilibili.com/video/BV19RWh6uEHY",
+      "publisher": "吴越大人",
+      "published": "2026-11-12",
+      "language": "Chinese",
+      "comparison_evidence": "日本人和韩国人的长相区别，有点小差异，各有优缺点",
+      "verification": "EXISTING_INDEX_TITLE_ONLY; 사용자 한국405건 해시일치 보고 범위",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "기존 Bilibili 전송 원장",
+      "source_id": "korea-direct-latest.tsv",
+      "notes": "신규 아님. 자막 현재상태 재검증 못 함.",
+      "old": true,
+      "rel": "한국/사회/한국재평가/2026-11-12_BV19RWh6uEHY_[사회-한국재평가]日本人和韩国人的长相区别，有点小差异，各有优缺点/BV19RWh6uEHY.mp4",
+      "bytes": "730965",
+      "sha": "dbd088d881fe074483177259d0f27bb1f589e46071533f338b5a8d121d145f82",
+      "download": "EXISTING_870_HASH_REPORTED_MATCH",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "existing_index",
+      "sectors": [
+        19
+      ],
+      "evidences": [
+        {
+          "sector": 19,
+          "text": "日本人和韩国人的长相区别，有点小差异，各有优缺点"
+        }
+      ],
+      "sources": [
+        "korea-direct-latest.tsv"
+      ]
+    },
+    {
+      "sector": 19,
+      "sector_name": "뷰티·화장품·패션",
+      "id": "BV1bP411w7Se",
+      "title": "【中日韩】妆容特征对比|中国美妆文化输出？",
+      "url": "https://www.bilibili.com/video/BV1bP411w7Se",
+      "publisher": "美雨君",
+      "published": "2022-11-03 19:00:00",
+      "language": "Chinese",
+      "comparison_evidence": "Live Bilibili page snapshot shows title 【中日韩】妆容特征对比 (China/Japan/Korea makeup-characteristics comparison). Tags include 韩式妆, 日式妆, 日系时尚 and 中华妆. Description cites magazines ar, vivi, RAY, 美的 and MAQUIA. Explicit multi-country makeup-style comparison including Japan and South Korea.",
+      "verification": "VERIFIED_TITLE_AND_DESCRIPTION_LIVE_BILIBILI_PAGE_SNAPSHOT; full playback not audited",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "culture",
+      "source_id": "6-zJfi_kjQhzACAIG62R-",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "culture",
+      "sectors": [
+        19
+      ],
+      "evidences": [
+        {
+          "sector": 19,
+          "text": "Live Bilibili page snapshot shows title 【中日韩】妆容特征对比 (China/Japan/Korea makeup-characteristics comparison). Tags include 韩式妆, 日式妆, 日系时尚 and 中华妆. Description cites magazines ar, vivi, RAY, 美的 and MAQUIA. Explicit multi-country makeup-style comparison including Japan and South Korea."
+        }
+      ],
+      "sources": [
+        "6-zJfi_kjQhzACAIG62R-"
+      ]
+    },
+    {
+      "sector": 19,
+      "sector_name": "뷰티·화장품·패션",
+      "id": "BV1pDE9zXEQa",
+      "title": "【tiktok】中日韩三国街头穿搭风格对比，各有千秋",
+      "url": "https://www.bilibili.com/zh-Hans/video/BV1pDE9zXEQa/",
+      "publisher": "威士忌today",
+      "published": "2025年5月19日",
+      "language": "Chinese",
+      "comparison_evidence": "중한일 길거리 패션 스타일 직접비교 명시",
+      "verification": "SEARCH_VIDEO_TITLE_ONLY; 원음 미검수",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "Chinese_Bilibili",
+      "source_id": "browser_snapshot",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "bili-parent",
+      "sectors": [
+        19
+      ],
+      "evidences": [
+        {
+          "sector": 19,
+          "text": "중한일 길거리 패션 스타일 직접비교 명시"
+        }
+      ],
+      "sources": [
+        "browser_snapshot"
+      ]
+    },
+    {
+      "sector": 20,
+      "sector_name": "게임·애니·IP",
+      "id": "WSMl4c59I9Y",
+      "title": "Why Do So Many Gacha Games Pretend to Be Japanese? || The East Asian War for Soft Power [Remix]",
+      "url": "https://www.youtube.com/watch?v=WSMl4c59I9Y",
+      "publisher": "Moon Channel",
+      "published": "2025-06-27 (검색 색인 표시)",
+      "language": "English",
+      "comparison_evidence": "검색 색인의 영상 설명은 중국·한국 기업이 제작·배급하는 게임이 일본 미학과 성우를 채택하는 이유 및 일본의 애니·가챠 상업화와의 관계를 분석한다고 명시. 일본과 한국(중국 포함)의 게임 문화·IP 미학 관계 비교이며 양국 시장 수치 비교 아님.",
+      "verification": "INDEXED_VIDEO_TITLE_DESCRIPTION; full playback not audited",
+      "comparison_type": "DESCRIPTION_COMPARISON_CULTURAL_STYLE",
+      "source_group": "추가검증",
+      "source_id": "egx3sfaGj5gt2synzSf4V",
+      "notes": "중국어 자료 아님; 제목·설명의 비교 범위만 확인. 원음·시장수치 미검수.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "parent-websearch",
+      "sectors": [
+        20
+      ],
+      "evidences": [
+        {
+          "sector": 20,
+          "text": "검색 색인의 영상 설명은 중국·한국 기업이 제작·배급하는 게임이 일본 미학과 성우를 채택하는 이유 및 일본의 애니·가챠 상업화와의 관계를 분석한다고 명시. 일본과 한국(중국 포함)의 게임 문화·IP 미학 관계 비교이며 양국 시장 수치 비교 아님."
+        }
+      ],
+      "sources": [
+        "egx3sfaGj5gt2synzSf4V"
+      ]
+    },
+    {
+      "sector": 21,
+      "sector_name": "음식·외식",
+      "id": "BV1aV4y1y7Eu",
+      "title": "日韩旅游优缺点对比，含“吃住行购”经验干货分享！！",
+      "url": "https://www.bilibili.com/zh-Hans/video/BV1aV4y1y7Eu/",
+      "publisher": "美南子哇",
+      "published": "2023-06-26 19:09:28",
+      "language": "Chinese",
+      "comparison_evidence": "Actual watch-page heading explicitly says 日韩旅游优缺点对比 (Japan–Korea travel pros/cons comparison), with 吃住行购 (eating, lodging, transport, shopping). Both 日本旅游 and 韩国旅游 are watch-page tags. Food coverage is stated in the title; individual dishes/restaurants were not inspected.",
+      "verification": "VERIFIED_ACTUAL_WATCH_PAGE_TITLE_PUBLISHER_DATE_BROWSER_SNAPSHOT_NOT_FULL_VIDEO",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "추가검증",
+      "source_id": "yszBY2KNGB8znRO_9Q_J9",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "travel-chinese-extra",
+      "sectors": [
+        21,
+        25
+      ],
+      "evidences": [
+        {
+          "sector": 21,
+          "text": "Actual watch-page heading explicitly says 日韩旅游优缺点对比 (Japan–Korea travel pros/cons comparison), with 吃住行购 (eating, lodging, transport, shopping). Both 日本旅游 and 韩国旅游 are watch-page tags. Food coverage is stated in the title; individual dishes/restaurants were not inspected."
+        },
+        {
+          "sector": 25,
+          "text": "Actual watch-page title explicitly compares Japan–Korea travel pros/cons and names 住 (lodging) within 吃住行购. Supports lodging as a title-declared comparison topic, not a verified onsen comparison or named-hotel field test."
+        }
+      ],
+      "sources": [
+        "yszBY2KNGB8znRO_9Q_J9"
+      ]
+    },
+    {
+      "sector": 21,
+      "sector_name": "음식·외식",
+      "id": "cW9ZCLpZXgU",
+      "title": "Japan vs South Korea: Which Should You Visit First? | The World Traveler",
+      "url": "https://youtube.com/watch?v=cW9ZCLpZXgU",
+      "publisher": "The Worldly Traveler",
+      "published": "2026-05-01",
+      "language": "English",
+      "comparison_evidence": "Description explicitly compares Japan and South Korea across food and other travel factors; chapter Food Culture 05:53.",
+      "verification": "VERIFIED_TITLE_DESCRIPTION_WEBFETCH_AND_INDEXED_CHAPTERS_NOT_FULL_VIDEO",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "travel",
+      "source_id": "Fca5lBa1asDDzzYf8pYAq,hqRSczIxSJDkTQk6wTZHg",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "travel",
+      "sectors": [
+        21,
+        23,
+        24
+      ],
+      "evidences": [
+        {
+          "sector": 21,
+          "text": "Description explicitly compares Japan and South Korea across food and other travel factors; chapter Food Culture 05:53."
+        },
+        {
+          "sector": 23,
+          "text": "Description: Japan vs South Korea — which destination is better for your next trip? Explicitly offers comparison to choose which country to visit. Chapters Top Attractions 02:42; Final Verdict 15:33."
+        },
+        {
+          "sector": 24,
+          "text": "Description explicitly compares Japan and South Korea including safety and ease of getting around. Chapters Ease of Travel 07:30 and Safety Comparison 08:54."
+        }
+      ],
+      "sources": [
+        "Fca5lBa1asDDzzYf8pYAq,hqRSczIxSJDkTQk6wTZHg"
+      ]
+    },
+    {
+      "sector": 22,
+      "sector_name": "편의점·마트",
+      "id": "PMDav-dBrUo",
+      "title": "Japan vs Korea: Which Has the Best Convenience Store?",
+      "url": "https://www.youtube.com/watch?v=PMDav-dBrUo",
+      "publisher": "Jimmy Kim",
+      "published": "2026-06-23",
+      "language": "English",
+      "comparison_evidence": "Actual watch-page heading 일본 vs 한국: 편의점 최강자는 어디일까?; description 이번 영상에서는 세계 최고의 편의점 문화를 자랑하는 두 나라, 일본과 한국의 편의점 음식을 비교해 보겠습니다.",
+      "verification": "VERIFIED_WATCH_PAGE_TITLE_DESCRIPTION_BROWSER_SNAPSHOT_NOT_FULL_VIDEO",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "travel",
+      "source_id": "m8ZARlevWyphqId8TJQjf,JxO-9L6UYqbMrMww3vnBD",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "travel",
+      "sectors": [
+        22
+      ],
+      "evidences": [
+        {
+          "sector": 22,
+          "text": "Actual watch-page heading 일본 vs 한국: 편의점 최강자는 어디일까?; description 이번 영상에서는 세계 최고의 편의점 문화를 자랑하는 두 나라, 일본과 한국의 편의점 음식을 비교해 보겠습니다."
+        }
+      ],
+      "sources": [
+        "m8ZARlevWyphqId8TJQjf,JxO-9L6UYqbMrMww3vnBD"
+      ]
+    },
+    {
+      "sector": 24,
+      "sector_name": "도시·치안·공공서비스",
+      "id": "BV1zY4y1X7uZ",
+      "title": "日本东京&韩国首尔 城市街景对比来了",
+      "url": "https://www.bilibili.com/zh-Hans/video/BV1zY4y1X7uZ/",
+      "publisher": "-小颜在浙江",
+      "published": "2023-03-20 00:22:51",
+      "language": "Chinese",
+      "comparison_evidence": "Actual watch-page heading explicitly compares Japan Tokyo and South Korea Seoul city streets: 日本东京&韩国首尔 城市街景对比来了. Duration 00:50. Tags 韩国, 东京, 日本东京, 街景, 实拍, 韩国首尔. Supports urban streets comparison, not verified crime rates or public-service performance.",
+      "verification": "VERIFIED_ACTUAL_WATCH_PAGE_TITLE_PUBLISHER_DATE_BROWSER_SNAPSHOT_NOT_FULL_VIDEO",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "추가검증",
+      "source_id": "0bljslAMnZBWF6LNJewfX",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "travel-chinese-extra",
+      "sectors": [
+        24
+      ],
+      "evidences": [
+        {
+          "sector": 24,
+          "text": "Actual watch-page heading explicitly compares Japan Tokyo and South Korea Seoul city streets: 日本东京&韩国首尔 城市街景对比来了. Duration 00:50. Tags 韩国, 东京, 日本东京, 街景, 实拍, 韩国首尔. Supports urban streets comparison, not verified crime rates or public-service performance."
+        }
+      ],
+      "sources": [
+        "0bljslAMnZBWF6LNJewfX"
+      ]
+    },
+    {
+      "sector": 25,
+      "sector_name": "숙박·호텔·온천",
+      "id": "60_hYHSf0oU",
+      "title": "【韓国旅行】衝撃事実‼️日本ではあり得ない韓国ホテルに出会わない方法！韓国ホテル安い予約サイトアゴダ注意点🇰🇷明洞,ソウル旅行",
+      "url": "https://www.youtube.com/watch?v=60_hYHSf0oU",
+      "publisher": "아이코 I Korea U",
+      "published": "UNKNOWN",
+      "language": "Japanese",
+      "comparison_evidence": "Actual browser watch-page title explicitly contrasts Korean hotels with Japan: 日本ではあり得ない韓国ホテル. Fetched description chapter 06:38~09:38 日本ではあり得ない韓国ホテル. Comparison concerns hotel booking/conditions, not an onsen comparison or a paired hotel field test.",
+      "verification": "VERIFIED_WATCH_PAGE_TITLE_BROWSER_AND_DESCRIPTION_WEBFETCH_NOT_FULL_VIDEO",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "travel",
+      "source_id": "j7RhspM8AHojkxfOmW86Y,6OjVEMYKOUc5sWtDqV1gY",
+      "notes": "Japanese-language fallback, outside preferred Chinese and secondary English. Browser reported 2 years ago only; exact date UNKNOWN.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "travel",
+      "sectors": [
+        25
+      ],
+      "evidences": [
+        {
+          "sector": 25,
+          "text": "Actual browser watch-page title explicitly contrasts Korean hotels with Japan: 日本ではあり得ない韓国ホテル. Fetched description chapter 06:38~09:38 日本ではあり得ない韓国ホテル. Comparison concerns hotel booking/conditions, not an onsen comparison or a paired hotel field test."
+        }
+      ],
+      "sources": [
+        "j7RhspM8AHojkxfOmW86Y,6OjVEMYKOUc5sWtDqV1gY"
+      ]
+    },
+    {
+      "sector": 26,
+      "sector_name": "경제·성장·GDP",
+      "id": "vApYUy6HyaA",
+      "title": "韓國人均收入超越日本！日本人為何“嫌韓“？日韓的恩恩怨怨【鳳凰李淼】",
+      "url": "https://www.youtube.com/watch?v=vApYUy6HyaA",
+      "publisher": "鳳凰財經 Phoenix Finance",
+      "published": "2022-09-24T19:00:20-07:00",
+      "language": "Chinese",
+      "comparison_evidence": "韓國人均收入超越日本！日本人為何“嫌韓“？日韓的恩恩怨怨【鳳凰李淼】",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "economy",
+      "source_id": "bFXZPKzp46hGHC8SHm60W",
+      "notes": "Phoenix TV finance channel. Title directly compares Korean and Japanese per-capita income; not a GDP-total comparison.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "economy",
+      "sectors": [
+        26
+      ],
+      "evidences": [
+        {
+          "sector": 26,
+          "text": "韓國人均收入超越日本！日本人為何“嫌韓“？日韓的恩恩怨怨【鳳凰李淼】"
+        }
+      ],
+      "sources": [
+        "bFXZPKzp46hGHC8SHm60W"
+      ]
+    },
+    {
+      "sector": 26,
+      "sector_name": "경제·성장·GDP",
+      "id": "9b006vnY3AQ",
+      "title": "Portfolio manager compares Japan and Korea markets and sees opportunities in both",
+      "url": "https://www.youtube.com/watch?v=9b006vnY3AQ",
+      "publisher": "CNBC International Live",
+      "published": "2024-03-22T03:00:07-07:00",
+      "language": "English",
+      "comparison_evidence": "Title explicitly says Portfolio manager compares Japan and Korea markets. Description discusses cheap Korean stocks and Korea discount narrowing through reforms.",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "cnbc-extra",
+      "source_id": "e7B7Y600gC3Wh7l6MhaPb",
+      "notes": "Direct comparison explicitly confirmed in inspected title; description itself focuses on South Korea.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "cnbc-extra",
+      "sectors": [
+        26
+      ],
+      "evidences": [
+        {
+          "sector": 26,
+          "text": "Title explicitly says Portfolio manager compares Japan and Korea markets. Description discusses cheap Korean stocks and Korea discount narrowing through reforms."
+        }
+      ],
+      "sources": [
+        "e7B7Y600gC3Wh7l6MhaPb"
+      ]
+    },
+    {
+      "sector": 26,
+      "sector_name": "경제·성장·GDP",
+      "id": "lHFWo1xO2O0",
+      "title": "How does South Korea's corporate governance reform compare to Japan's? Activist investor explains",
+      "url": "https://www.youtube.com/watch?v=lHFWo1xO2O0",
+      "publisher": "CNBC International Live",
+      "published": "2025-07-17T02:20:43-07:00",
+      "language": "English",
+      "comparison_evidence": "Title explicitly asks how South Korean corporate governance reform compares with Japan. Description: South Korea has taken a more direct approach vis-à-vis Japan to making corporate reforms, through enacted laws.",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "cnbc-extra",
+      "source_id": "RtFUlwe29U61zZVr_07Zk",
+      "notes": "Strong direct differences comparison. Corporate governance reforms and Korea discount; suitable replacement for supplementary joint-valuation video.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "cnbc-extra",
+      "sectors": [
+        26
+      ],
+      "evidences": [
+        {
+          "sector": 26,
+          "text": "Title explicitly asks how South Korean corporate governance reform compares with Japan. Description: South Korea has taken a more direct approach vis-à-vis Japan to making corporate reforms, through enacted laws."
+        }
+      ],
+      "sources": [
+        "RtFUlwe29U61zZVr_07Zk"
+      ]
+    },
+    {
+      "sector": 27,
+      "sector_name": "인구·저출산·고령화",
+      "id": "1xhXN3bA308",
+      "title": "南韓 0.72 對比日本 1.15：東亞生育率 35 年大滑坡",
+      "url": "https://www.youtube.com/watch?v=1xhXN3bA308",
+      "publisher": "曲線背後",
+      "published": "2026-11-11T04:00:32-08:00",
+      "language": "Chinese",
+      "comparison_evidence": "南韓 0.72 對比日本 1.15：東亞生育率 35 年大滑坡. Description: 兩者為何拉開巨大差距？ ... 05:06 日韓軌跡分道揚鑣",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "economy",
+      "source_id": "QC2AH18gogLqgE9EH3Zv1",
+      "notes": "Independent small channel. Fertility figures are publisher-stated and are not independently fact-checked here.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "economy",
+      "sectors": [
+        27
+      ],
+      "evidences": [
+        {
+          "sector": 27,
+          "text": "南韓 0.72 對比日本 1.15：東亞生育率 35 年大滑坡. Description: 兩者為何拉開巨大差距？ ... 05:06 日韓軌跡分道揚鑣"
+        }
+      ],
+      "sources": [
+        "QC2AH18gogLqgE9EH3Zv1"
+      ]
+    },
+    {
+      "sector": 27,
+      "sector_name": "인구·저출산·고령화",
+      "id": "nTreqsYTJA8",
+      "title": "中日韩人口危机, 东亚的衰落之路「低生育率「老龄化」",
+      "url": "https://www.youtube.com/watch?v=nTreqsYTJA8",
+      "publisher": "经济老鲨 Economic Shark",
+      "published": "2024-11-28T16:15:08-08:00",
+      "language": "Chinese",
+      "comparison_evidence": "中日韩人口危机, 东亚的衰落之路「低生育率「老龄化」. Description compares a common framework: 人口结构; 中日韩人口危机的严重性及背后的原因; 人口危机的影响.",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "economy",
+      "source_id": "TYCsiifEDMwxuSaFOEIFn",
+      "notes": "Three-country demographic comparison includes both South Korea and Japan. Independent channel, not CCTV.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "economy",
+      "sectors": [
+        27
+      ],
+      "evidences": [
+        {
+          "sector": 27,
+          "text": "中日韩人口危机, 东亚的衰落之路「低生育率「老龄化」. Description compares a common framework: 人口结构; 中日韩人口危机的严重性及背后的原因; 人口危机的影响."
+        }
+      ],
+      "sources": [
+        "TYCsiifEDMwxuSaFOEIFn"
+      ]
+    },
+    {
+      "sector": 28,
+      "sector_name": "군사·방위산업",
+      "id": "2ac4GFGLTBk",
+      "title": "日本與南韓軍事力量比較",
+      "url": "https://www.youtube.com/watch?v=2ac4GFGLTBk",
+      "publisher": "火力就是正義（資訊頻道）",
+      "published": "2022-04-29T05:00:02-07:00",
+      "language": "Chinese",
+      "comparison_evidence": "Title: 日本與南韓軍事力量比較. Description: 日本與南韓軍力對比（Comparison of military power between Japan and South Korea）",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "economy",
+      "source_id": "A5jElYLyZfB9RwJd35mWu",
+      "notes": "Independent information channel; not a Chinese state TV broadcaster. Military capability comparison, not verified defense-industry export figures.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "economy",
+      "sectors": [
+        28
+      ],
+      "evidences": [
+        {
+          "sector": 28,
+          "text": "Title: 日本與南韓軍事力量比較. Description: 日本與南韓軍力對比（Comparison of military power between Japan and South Korea）"
+        }
+      ],
+      "sources": [
+        "A5jElYLyZfB9RwJd35mWu"
+      ]
+    },
+    {
+      "sector": 28,
+      "sector_name": "군사·방위산업",
+      "id": "dHMPtyX_oVc",
+      "title": "Japan vs South Korea Defence Power",
+      "url": "https://www.youtube.com/watch?v=dHMPtyX_oVc",
+      "publisher": "Battle Data",
+      "published": "2025-11-06T23:51:45-08:00",
+      "language": "English",
+      "comparison_evidence": "Japan vs South Korea Defence Power. Description: detailed Japan vs South Korea Military Power Comparison (2025) ... compare their Army, Navy, and Air Force, along with defense budget, manpower, tanks, aircraft, submarines, and advanced weapon systems.",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "economy",
+      "source_id": "-D2heUj7cSVoCWmxFcAuP",
+      "notes": "Independent channel. Verification covers actual video metadata and comparative scope, not accuracy of military statistics.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "economy",
+      "sectors": [
+        28
+      ],
+      "evidences": [
+        {
+          "sector": 28,
+          "text": "Japan vs South Korea Defence Power. Description: detailed Japan vs South Korea Military Power Comparison (2025) ... compare their Army, Navy, and Air Force, along with defense budget, manpower, tanks, aircraft, submarines, and advanced weapon systems."
+        }
+      ],
+      "sources": [
+        "-D2heUj7cSVoCWmxFcAuP"
+      ]
+    },
+    {
+      "sector": 29,
+      "sector_name": "에너지·원전·환경",
+      "id": "5WMKb9xiH9E",
+      "title": "核能風暴再起！台日韓全面重啟核電 能源政策大逆轉｜#寰宇新聞",
+      "url": "https://www.youtube.com/watch?v=5WMKb9xiH9E",
+      "publisher": "寰宇新聞 頻道",
+      "published": "2026-03-23T05:45:00-07:00",
+      "language": "Chinese",
+      "comparison_evidence": "Description explicitly contrasts nuclear-policy reversals: 日本福島核災後，去核政策只維持了11年，但岸田文雄內閣不僅重啟舊機組，還投入新一代核反應爐。南韓方面，文在寅時期停建核電，但尹錫悅上任後，明確規定核電占比至少三成，並恢復所有核計畫。",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "Taiwan",
+      "source_id": "LmNRr80bB1_wvFXAv7EVt",
+      "notes": "Taiwanese Chinese-language television source, not mainland CCTV/CGTN or Hong Kong Phoenix. Three-country energy-policy comparison includes both Japan and South Korea. Policy claims are publisher-stated, not independently fact-checked.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "compare-economy-chinese-extra-20261118.json",
+      "sectors": [
+        29
+      ],
+      "evidences": [
+        {
+          "sector": 29,
+          "text": "Description explicitly contrasts nuclear-policy reversals: 日本福島核災後，去核政策只維持了11年，但岸田文雄內閣不僅重啟舊機組，還投入新一代核反應爐。南韓方面，文在寅時期停建核電，但尹錫悅上任後，明確規定核電占比至少三成，並恢復所有核計畫。"
+        }
+      ],
+      "sources": [
+        "LmNRr80bB1_wvFXAv7EVt"
+      ]
+    },
+    {
+      "sector": 29,
+      "sector_name": "에너지·원전·환경",
+      "id": "-TI1PxJsuNA",
+      "title": "Energy Insecurity: How Resource-Poor Korea and Japan Powered Their Economies",
+      "url": "https://www.youtube.com/watch?v=-TI1PxJsuNA",
+      "publisher": "Korea Economic Institute of America",
+      "published": "2023-09-21T20:14:27-07:00",
+      "language": "English",
+      "comparison_evidence": "Energy Insecurity: How Resource-Poor Korea and Japan Powered Their Economies. Description: both resource-poor ... fossil fuels, nuclear power, and renewable energy ... different domestic political constraints resulted in differing approaches to achieving energy security.",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "economy",
+      "source_id": "IQJ4GdEz6ZhKjlj0PeQ27",
+      "notes": "KEI expert discussion directly comparing Korean and Japanese energy-security approaches.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "economy",
+      "sectors": [
+        29
+      ],
+      "evidences": [
+        {
+          "sector": 29,
+          "text": "Energy Insecurity: How Resource-Poor Korea and Japan Powered Their Economies. Description: both resource-poor ... fossil fuels, nuclear power, and renewable energy ... different domestic political constraints resulted in differing approaches to achieving energy security."
+        }
+      ],
+      "sources": [
+        "IQJ4GdEz6ZhKjlj0PeQ27"
+      ]
+    },
+    {
+      "sector": 30,
+      "sector_name": "외교·역사·중국과의관계",
+      "id": "vwE7arJPEB8",
+      "title": "The Three Countries That Hate Each Other: China, Japan & Korea",
+      "url": "https://www.youtube.com/watch?v=vwE7arJPEB8",
+      "publisher": "This Is How We Are",
+      "published": "2026-08-11T09:15:42-07:00",
+      "language": "English",
+      "comparison_evidence": "The Three Countries That Hate Each Other: China, Japan & Korea. Description: three deeply intertwined neighbors ... centuries of rivalry over history, invasion and cultural ownership. Chapters compare China (00:51), Japan (02:56), South Korea (05:14), Who invented what? (08:18), The islands (09:53).",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "DIRECT_COMPARISON_TITLE_DESCRIPTION",
+      "source_group": "economy",
+      "source_id": "XtLD4UKySXHgU8oZh09jg",
+      "notes": "Independent historical/regional-relations explainer; not a current-policy comparison or Chinese television source.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "economy",
+      "sectors": [
+        30
+      ],
+      "evidences": [
+        {
+          "sector": 30,
+          "text": "The Three Countries That Hate Each Other: China, Japan & Korea. Description: three deeply intertwined neighbors ... centuries of rivalry over history, invasion and cultural ownership. Chapters compare China (00:51), Japan (02:56), South Korea (05:14), Who invented what? (08:18), The islands (09:53)."
+        }
+      ],
+      "sources": [
+        "XtLD4UKySXHgU8oZh09jg"
+      ]
+    }
+  ],
+  "references_only": [
+    {
+      "sector": 8,
+      "sector_name": "배드민턴·탁구",
+      "id": "VIDEwh7WWFoHdGlONGQIvTJw260929",
+      "title": "[亚运会]羽毛球女单决赛：安洗莹VS山口茜",
+      "url": "https://sports.cctv.com/2026/09/29/VIDEwh7WWFoHdGlONGQIvTJw260929.shtml",
+      "publisher": "央视网",
+      "published": "2026-09-29 15:35",
+      "language": "Chinese",
+      "comparison_evidence": "Inspected CCTV video title and description identify the direct final between An Se-young (South Korea) and Akane Yamaguchi (Japan): 北京时间9月29日，2026年亚运会羽毛球女单决赛展开较量，安洗莹2-0战胜山口茜，夺得金牌。 Individual head-to-head only, not general national-system evaluation.",
+      "verification": "VERIFIED_ORIGINAL_PAGE_TITLE_AND_DESCRIPTION",
+      "comparison_type": "MATCH_ONLY",
+      "source_group": "sports",
+      "source_id": "b32sBjwWMfaZv83ZXILMi",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports"
+    },
+    {
+      "sector": 9,
+      "sector_name": "올림픽종목·양궁·빙상",
+      "id": "42BsMDLFSlk",
+      "title": "Korea v Japan – recurve junior men team gold | World Archery Youth Championships 2019",
+      "url": "https://www.youtube.com/watch?v=42BsMDLFSlk",
+      "publisher": "World Archery",
+      "published": "2019-09-03T07:00:01-07:00",
+      "language": "UNKNOWN",
+      "comparison_evidence": "Inspected YouTube metadata description: Recurve junior men’s team gold medal match between Lee Jinyong, Pil-Joong Kim and Kim Hyeonjong of Korea and Kuwae Yoshito, Ishii Yuta and Tomatsu Daisuke of Japan at the 2019 World Archery Youth Championships in Madrid, Spain. Direct Korea-Japan archery final only.",
+      "verification": "VERIFIED_YOUTUBE_METADATA_TITLE_AND_DESCRIPTION",
+      "comparison_type": "MATCH_ONLY",
+      "source_group": "sports",
+      "source_id": "UBbdDSyytDkNPcFF_Whwm",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports"
+    },
+    {
+      "sector": 10,
+      "sector_name": "e스포츠",
+      "id": "J8vF9OR6FGw",
+      "title": "Japan vs Korea Tekken 7 Final [11th Esports World Championship 2019 SEOUL] Day 3",
+      "url": "https://www.youtube.com/watch?v=J8vF9OR6FGw",
+      "publisher": "IESF - International Esports Federation",
+      "published": "2019-12-22T09:11:57-08:00",
+      "language": "UNKNOWN",
+      "comparison_evidence": "Inspected original YouTube page title and direct YouTube metadata explicitly identify Japan vs Korea in the Tekken 7 final of the 11th Esports World Championship. Description absent. Direct match only, no evaluative discussion claimed.",
+      "verification": "VERIFIED_ORIGINAL_PAGE_AND_YOUTUBE_METADATA_TITLE",
+      "comparison_type": "MATCH_ONLY",
+      "source_group": "sports",
+      "source_id": "SQUEzKAxWaYFK_jZPrwZs",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports"
+    },
+    {
+      "sector": 20,
+      "sector_name": "게임·애니·IP",
+      "id": "1ueq-4pUTeU",
+      "title": "State of the Japanese and Korean Mobile Games Market | GPC Online 3rd Edition",
+      "url": "https://www.youtube.com/watch?v=1ueq-4pUTeU",
+      "publisher": "GamingonPhone Conference",
+      "published": "2025-05-27T06:15:33-07:00",
+      "language": "English",
+      "comparison_evidence": "Inspected title names both Japanese and Korean mobile-game markets. Description: 'The panel explored the mobile games markets in Japan and Korea, focusing on the expansion of local publishers into global markets, the regions' strong dominance in IP-driven content, and the prevalent gacha monetisation strategies in both countries.' A joint two-market industry panel, not separate country clips. English-language secondary source; duration 3826 seconds from metadata.",
+      "verification": "VERIFIED_TITLE_AND_DESCRIPTION_YOUTUBE_METADATA; full playback not audited",
+      "comparison_type": "RELATED_JOINT_ASSESSMENT",
+      "source_group": "culture",
+      "source_id": "89EPE7JH45txXeFgGVHZJ",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "culture"
+    },
+    {
+      "sector": 26,
+      "sector_name": "경제·성장·GDP",
+      "id": "QSA9IhH3rGI",
+      "title": "South Korea and Japan markets are undervalued, says investment director | Street Signs Asia",
+      "url": "https://www.youtube.com/watch?v=QSA9IhH3rGI",
+      "publisher": "CNBC International Live",
+      "published": "2020-02-18T00:00:03-08:00",
+      "language": "English",
+      "comparison_evidence": "South Korea and Japan markets are undervalued ... description: explains why investors should consider companies in South Korea and Japan despite lackluster economic growth in both countries.",
+      "verification": "VERIFIED_VIDEO_METADATA_TITLE_DESCRIPTION_NOT_FULL_PLAYBACK",
+      "comparison_type": "RELATED_JOINT_ASSESSMENT",
+      "source_group": "economy",
+      "source_id": "YQb6zU1mBlU9ZrNfGSNuE",
+      "notes": "CNBC actual video, joint assessment of growth and market valuations, not a GDP ranking.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "economy"
+    },
+    {
+      "sector": 8,
+      "sector_name": "배드민턴·탁구",
+      "id": "hnhPFS2qmbQ",
+      "title": "14 대 21로 졌던 안세영, 다음 게임은 왜 21 대 5였을까? | 야마구치전 실제 랠리 분석",
+      "url": "https://www.youtube.com/watch?v=hnhPFS2qmbQ",
+      "publisher": "안세영파이팅",
+      "published": "2026-11-15T14:02:11-08:00",
+      "language": "Korean",
+      "comparison_evidence": "Inspected title identifies actual-rally analysis of An Se-young versus Akane Yamaguchi. Description directly juxtaposes Yamaguchi’s rear-court diagonal smash at 11–15 in game 1 with An’s attack drawing Yamaguchi forward at 20–5 in game 2; chapters include front court, first step, and simultaneous comparison at 05:27. This is match-based technical analysis, not plain match footage. Athlete-level South Korea/Japan comparison; not national-system comparison.",
+      "verification": "VERIFIED_YOUTUBE_ORIGINAL_METADATA_TITLE_AND_DESCRIPTION",
+      "comparison_type": "KOREAN_LANGUAGE_SUPPLEMENT",
+      "source_group": "sports-extra",
+      "source_id": "EFAF6aKyg5ohiShaYHWjF",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports-extra"
+    },
+    {
+      "sector": 22,
+      "sector_name": "편의점·마트",
+      "id": "BV1Smg66ZEB5",
+      "title": "中日韩的便利店，集体“不务正业”？",
+      "url": "https://www.bilibili.com/zh-Hans/video/BV1Smg66ZEB5/",
+      "publisher": "和山止川一起逛",
+      "published": "2026-07-22 21:30:00",
+      "language": "Chinese",
+      "comparison_evidence": "Actual title jointly covers China/Japan/Korea convenience stores; tags include 日本 韩国 CU 罗森 全家. Description explains shift from selling products to selling time/emotions/scenarios. Neither inspected title nor description explicitly establishes direct Japan-versus-Korea contrast, so exclude under strict direct-comparison criterion.",
+      "verification": "CANDIDATE_ONLY_EXCLUDED_DIRECT_COMPARISON_NOT_ESTABLISHED",
+      "comparison_type": "RELATED_JOINT_ASSESSMENT",
+      "source_group": "추가검증",
+      "source_id": "RfI1WjHFxgXftv_ZiWc66",
+      "notes": "",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "travel-chinese-extra"
+    },
+    {
+      "sector": 9,
+      "sector_name": "올림픽종목·양궁·빙상",
+      "id": "VEbQ_MoL83o",
+      "title": "中国李子君，日本浅田真央，韩国金妍儿，谁是亚洲花滑女神？",
+      "url": "https://www.youtube.com/watch?v=VEbQ_MoL83o",
+      "publisher": "Ikimagah Vape",
+      "published": "2018-08-07T15:53:21-07:00",
+      "language": "Chinese",
+      "comparison_evidence": "Original Chinese title directly compares China’s Li Zijun, Japan’s Mao Asada and South Korea’s Kim Yuna, asking who is Asia’s top figure-skating goddess. Inspected description states the three-country comparison and discusses competitive achievements plus Asada’s triple Axels and appearance/artistry. Not MATCH_ONLY.",
+      "verification": "VERIFIED_ORIGINAL_YOUTUBE_METADATA_TITLE_AND_DESCRIPTION",
+      "comparison_type": "RELATED_JOINT_ASSESSMENT",
+      "source_group": "추가검증",
+      "source_id": "eDYqHLiJ7ZGPkLcPdpNIU",
+      "notes": "True Chinese comparative evaluation but NOT verified as detailed bilateral technique analysis; presentation mixes results, artistry and appearance. Do not label technical-system comparison.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports-chinese-extra"
+    },
+    {
+      "sector": 10,
+      "sector_name": "e스포츠",
+      "id": "BV1U6ZxBPE3a",
+      "title": "为啥CS中日韩的水平都是路边依托",
+      "url": "https://www.bilibili.com/video/BV1U6ZxBPE3a/",
+      "publisher": "MoMo侠-游戏分享",
+      "published": "2026-02-27 22:40:00",
+      "language": "Chinese",
+      "comparison_evidence": "Inspected original Bilibili title and description both explicitly evaluate Counter-Strike skill level in China, Japan and Korea together: 为啥CS中日韩的水平都是路边依托. Commentary/game-discussion tags; not a match. Original page date/publisher verified.",
+      "verification": "VERIFIED_ORIGINAL_PAGE_TITLE_AND_DESCRIPTION",
+      "comparison_type": "RELATED_JOINT_ASSESSMENT",
+      "source_group": "추가검증",
+      "source_id": "idp_-tRQys80VWy5Br2Ey",
+      "notes": "Joint negative evaluation of all three countries is explicit, but metadata does not establish detailed Korea-versus-Japan differences or relative ranking. Keep conditional rather than count as strict bilateral industry/style comparison.",
+      "old": false,
+      "rel": "UNKNOWN",
+      "bytes": "UNKNOWN",
+      "sha": "UNKNOWN",
+      "download": "BLOCKED_RECEIVER_UNREACHABLE",
+      "sub_original": "UNKNOWN",
+      "sub_ko": "UNKNOWN",
+      "sub_sha": "UNKNOWN",
+      "source_file": "sports-chinese-extra"
+    }
+  ]
+}

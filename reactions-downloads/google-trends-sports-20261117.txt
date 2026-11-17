@@ -1,0 +1,207 @@
+# note: interactive (clickable / focusable) elements only.
+- title: "Google 인기 검색어" [url=https://trends.google.com/trending?geo=KR&hl=ko&category=17&sort=search-volume]
+- banner:
+  - button "기본 메뉴" [ref=e1]
+  - link "Trends" [ref=e2]
+  - tab "홈" [ref=e3]
+  - tab "탐색" [ref=e4]
+  - tab "실시간 인기" [ref=e5] [selected]
+  - button "Google 앱" [ref=e6]
+[계정 정보 제외]
+- main:
+  - button "대한민국, 위치 선택" [ref=e8]
+  - button "지난 24시간, 기간 선택" [ref=e9]
+  - button "스포츠, 카테고리 선택" [ref=e143]
+  - button "모든 트렌드, 트렌드 상태 선택" [ref=e11]
+  - button "검색량 기준, 정렬 기준 선택" [ref=e211]
+  - button "내보내기" [ref=e13]
+  - status: "검색량순, 내림차순 정렬"
+  - status
+  - generic [ref=e14] [scrollable]:
+    - grid "실시간 인기":
+      - columnheader:
+        - button "검색 동향" [ref=e15]
+        - button "트렌드" [ref=e16]
+        - text: "26. 11. 17. 오후 9:01"
+      - columnheader:
+        - button "검색량" [ref=e17] [focused]
+      - columnheader:
+        - button "시작일" [ref=e18]
+        - button "트렌드 상태에 대한 추가 정보" [ref=e19]
+      - columnheader:
+        - text: "트렌드 분석"
+        - button "트렌드 분석에 대한 추가 정보" [ref=e20]
+      - columnheader "지난 24시간" [ref=e21]
+      - row [ref=e22]:
+        - checkbox "행 선택" [ref=e23] [hidden]
+        - text: "싱가포르 대 브라질 1만+1,000%"
+        - button "2시간 전" [ref=e24]
+        - text: "활성"
+        - img "검색 관심도 그래프"
+      - row [ref=e154]:
+        - checkbox "행 선택" [ref=e155] [hidden]
+        - text: "한국 카타르 5천+500%"
+        - button "3시간 전" [ref=e156]
+        - text: "활성"
+        - button "카타르 축구 국가 대표팀" [ref=e157]
+        - button "카타르 축구 국가대표팀" [ref=e158]
+        - button "축구" [ref=e159]
+        - img "검색 관심도 그래프"
+      - row [ref=e72]:
+        - checkbox "행 선택" [ref=e73] [hidden]
+        - text: "singapore vs brazil 2천+1,000%"
+        - button "2시간 전" [ref=e74]
+        - text: "활성"
+        - button "singapura vs brasil" [ref=e75]
+        - img "검색 관심도 그래프"
+      - row [ref=e79]:
+        - checkbox "행 선택" [ref=e80] [hidden]
+        - text: "장민기 2천+1,000%"
+        - button "9시간 전" [ref=e81]
+        - text: "활성"
+        - img "검색 관심도 그래프"
+      - row [ref=e166]:
+        - checkbox "행 선택" [ref=e167] [hidden]
+        - text: "뉴올리언스 대 골든 스테이트 2천+1,000%"
+        - button "11시간 전" [ref=e168]
+        - text: "8시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e176]:
+        - checkbox "행 선택" [ref=e177] [hidden]
+        - text: "독일 대 네덜란드 2천+1,000%"
+        - button "16시간 전" [ref=e178]
+        - text: "8시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e76]:
+        - checkbox "행 선택" [ref=e77] [hidden]
+        - text: "신영철 1천+1,000%"
+        - button "4시간 전" [ref=e78]
+        - text: "활성"
+        - img "검색 관심도 그래프"
+      - row [ref=e95]:
+        - checkbox "행 선택" [ref=e96] [hidden]
+        - text: "최지훈 1천+1,000%"
+        - button "3시간 전" [ref=e97]
+        - text: "활성"
+        - img "검색 관심도 그래프"
+      - row [ref=e144]:
+        - checkbox "행 선택" [ref=e145] [hidden]
+        - text: "권순우 1천+1,000%"
+        - button "1시간 전" [ref=e146]
+        - text: "활성"
+        - img "검색 관심도 그래프"
+      - row [ref=e147]:
+        - checkbox "행 선택" [ref=e148] [hidden]
+        - text: "로베르트 모레노 1천+1,000%"
+        - button "1시간 전" [ref=e149]
+        - text: "활성"
+        - button "축구 감독" [ref=e150]
+        - img "검색 관심도 그래프"
+      - row [ref=e169]:
+        - checkbox "행 선택" [ref=e170] [hidden]
+        - text: "sl vs pak 1천+400%"
+        - button "6시간 전" [ref=e171]
+        - text: "5시간 동안 지속됨"
+        - button "sri lanka vs pakistan" [ref=e172]
+        - img "검색 관심도 그래프"
+      - row [ref=e173]:
+        - checkbox "행 선택" [ref=e174] [hidden]
+        - text: "오태곤 1천+500%"
+        - button "10시간 전" [ref=e175]
+        - text: "10시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e179]:
+        - checkbox "행 선택" [ref=e180] [hidden]
+        - text: "브루클린 대 필라데피아 1천+700%"
+        - button "11시간 전" [ref=e181]
+        - text: "6시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e185]:
+        - checkbox "행 선택" [ref=e186] [hidden]
+        - text: "윤이나 1천+900%"
+        - button "16시간 전" [ref=e187]
+        - text: "4시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e151]:
+        - checkbox "행 선택" [ref=e152] [hidden]
+        - text: "원주 db 대 안양 정관장 500+1,000%"
+        - button "2시간 전" [ref=e153]
+        - text: "활성"
+        - img "검색 관심도 그래프"
+      - row [ref=e160]:
+        - checkbox "행 선택" [ref=e161] [hidden]
+        - text: "kt wiz 500+500%"
+        - button "5시간 전" [ref=e162]
+        - text: "활성"
+        - img "검색 관심도 그래프"
+      - row [ref=e182]:
+        - checkbox "행 선택" [ref=e183] [hidden]
+        - text: "쇼트트랙 500+500%"
+        - button "13시간 전" [ref=e184]
+        - text: "10시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e188]:
+        - checkbox "행 선택" [ref=e189] [hidden]
+        - text: "fa 500+200%"
+        - button "12시간 전" [ref=e190]
+        - text: "9시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e191]:
+        - checkbox "행 선택" [ref=e192] [hidden]
+        - text: "자책골 500+400%"
+        - button "22시간 전" [ref=e193]
+        - text: "14시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e197]:
+        - checkbox "행 선택" [ref=e198] [hidden]
+        - text: "다니일 메드베데프 500+1,000%"
+        - button "15시간 전" [ref=e199]
+        - text: "3시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e200]:
+        - checkbox "행 선택" [ref=e201] [hidden]
+        - text: "수원 fc 500+1,000%"
+        - button "12시간 전" [ref=e202]
+        - text: "2시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e203]:
+        - checkbox "행 선택" [ref=e204] [hidden]
+        - text: "germany vs netherlands 500+800%"
+        - button "14시간 전" [ref=e205]
+        - text: "2시간 동안 지속됨"
+        - button "germany national football team vs netherlands national football team standings" [ref=e206]
+        - button "nations league" [ref=e207]
+        - img "검색 관심도 그래프"
+      - row [ref=e208]:
+        - checkbox "행 선택" [ref=e209] [hidden]
+        - text: "월드컵 200+100%"
+        - button "15시간 전" [ref=e210]
+        - text: "4시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+      - row [ref=e163]:
+        - checkbox "행 선택" [ref=e164] [hidden]
+        - text: "singapore đấu với brasil 100+400%"
+        - button "1시간 전" [ref=e165]
+        - text: "활성"
+        - img "검색 관심도 그래프"
+      - row [ref=e194]:
+        - checkbox "행 선택" [ref=e195] [hidden]
+        - text: "bangladesh vs south africa 100+300%"
+        - button "3시간 전" [ref=e196]
+        - text: "1시간 동안 지속됨"
+        - img "검색 관심도 그래프"
+  - text: "페이지당 행 수"
+  - combobox "페이지당 행 수" [ref=e107]: "25"
+  - status "행 26개 중 1행부터 25행까지 표시"
+  - button "첫 페이지로 이동" [ref=e108] [disabled]
+  - button "이전 페이지로 이동" [ref=e109] [disabled]
+  - button "다음 페이지로 이동" [ref=e110]
+  - button "마지막 페이지로 이동" [ref=e111]
+- contentinfo:
+  - text: "Google"
+  - link "개인정보처리방침 새 탭에서 열기" [ref=e112]: "개인정보처리방침"
+  - link "약관 새 탭에서 열기" [ref=e113]: "약관"
+  - button "의견 보내기" [ref=e114]
+  - link "정보 새 탭에서 열기" [ref=e115]: "정보"
+  - link "도움말 새 탭에서 열기" [ref=e116]: "도움말"
+  - combobox "언어 선택" [ref=e117]: "한국어"

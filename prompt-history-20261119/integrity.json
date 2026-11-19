@@ -1,0 +1,91 @@
+{
+  "unique_messages": 18,
+  "original_message_content_equality": "PASS",
+  "source_attachment_hashes": "PASS",
+  "early_blocks_rejoin_original": "PASS",
+  "early_blocks": 10,
+  "attachments": 7,
+  "image_files_unavailable": 10,
+  "duplicate_message_ids": {
+    "30832": [
+      31954,
+      32283,
+      37652
+    ],
+    "31929": [
+      31977,
+      32306,
+      37675
+    ],
+    "31935": [
+      31979,
+      32308,
+      37677
+    ],
+    "31949": [
+      31983,
+      32312,
+      37681
+    ],
+    "32233": [
+      32332,
+      37701
+    ],
+    "32261": [
+      32360,
+      37729
+    ],
+    "32269": [
+      32368,
+      37737
+    ],
+    "32382": [
+      37751
+    ],
+    "32525": [
+      37765
+    ]
+  },
+  "missing_images": [
+    {
+      "path": "/home/yh/.hermes/cache/documents/native-inputs/003e7c4ef3798480e831c42824170d23bc70df400b7f493a2cf47fe86201a599/dashboard_20261117_221707_e9c33dc3_Screenshot_From_2026-11-17_21-24-28_b69c00.png",
+      "status": "기록에 경로는 있으나 현재 파일을 찾지 못함. 원문에 경로를 그대로 보존."
+    },
+    {
+      "path": "/home/yh/.hermes/cache/documents/native-inputs/108997e68cbaec7f487cc8210d55fd897095214da8465485ac2fc3f1ec5a2cbb/dashboard_20261117_221707_88605fff_Screenshot_From_2026-11-17_21-43-18_2b2f5e.png",
+      "status": "기록에 경로는 있으나 현재 파일을 찾지 못함. 원문에 경로를 그대로 보존."
+    },
+    {
+      "path": "/home/yh/.hermes/cache/documents/native-inputs/2cc6e37e849e725143e939682af7f484153cb6e59fce04ceea8cd0b74d0dd6e4/dashboard_20261117_221707_b5c4ae50_Screenshot_From_2026-11-17_21-43-33_9ec5da.png",
+      "status": "기록에 경로는 있으나 현재 파일을 찾지 못함. 원문에 경로를 그대로 보존."
+    },
+    {
+      "path": "/home/yh/.hermes/cache/documents/native-inputs/4e387dd763c4ef1f26843771fb523d73e794d52618921b61473fb90161069c2d/dashboard_20261117_225232_6788ee05_image_c7cf9e.png",
+      "status": "기록에 경로는 있으나 현재 파일을 찾지 못함. 원문에 경로를 그대로 보존."
+    },
+    {
+      "path": "/home/yh/.hermes/cache/documents/native-inputs/762ac79fcde9c4a6a2fa553fe21844e4d0a8a993cfa77229095a99e76475d6e6/dashboard_20261117_221707_781ef5c3_Screenshot_From_2026-11-17_21-43-47_f33c08.png",
+      "status": "기록에 경로는 있으나 현재 파일을 찾지 못함. 원문에 경로를 그대로 보존."
+    },
+    {
+      "path": "/home/yh/.hermes/cache/documents/native-inputs/7b84e28db3b521da3b214d1dd5147c461a42a6f483aa63e2785fb8bac1fde601/dashboard_20261117_225801_c6b932cc_image_41c74a.png",
+      "status": "기록에 경로는 있으나 현재 파일을 찾지 못함. 원문에 경로를 그대로 보존."
+    },
+    {
+      "path": "/home/yh/.hermes/cache/documents/native-inputs/a42eb6eeeeb395602a7c4df3fe09c614b0cba86372f62165690fd98f9622ff76/dashboard_20261117_221707_5de40b75_Screenshot_From_2026-11-17_21-28-55_dc4f8a.png",
+      "status": "기록에 경로는 있으나 현재 파일을 찾지 못함. 원문에 경로를 그대로 보존."
+    },
+    {
+      "path": "/home/yh/.hermes/cache/documents/native-inputs/a80a57a2962065015d04d88bac98f1c840fdeb76d8cd651ca3bebce1efa84827/dashboard_20261117_221707_92fc8e91_Screenshot_From_2026-11-17_21-25-07_e481d5.png",
+      "status": "기록에 경로는 있으나 현재 파일을 찾지 못함. 원문에 경로를 그대로 보존."
+    },
+    {
+      "path": "/home/yh/.hermes/cache/documents/native-inputs/c4f8ee73dbccb40d5681e2af29c2bdad8fe28a1b266e6001fcaa25d3476424a0/dashboard_20261117_221707_73d2ee14_Screenshot_From_2026-11-17_21-27-50_d6bdf5.png",
+      "status": "기록에 경로는 있으나 현재 파일을 찾지 못함. 원문에 경로를 그대로 보존."
+    },
+    {
+      "path": "/home/yh/.hermes/cache/documents/native-inputs/dbe01f1b13cfcd9773d99668e804e2cc9a7b6c24fc92eccb681daf28c8e39cd6/dashboard_20261117_225232_21bb2de1_image_55b29b.png",
+      "status": "기록에 경로는 있으나 현재 파일을 찾지 못함. 원문에 경로를 그대로 보존."
+    }
+  ]
+}

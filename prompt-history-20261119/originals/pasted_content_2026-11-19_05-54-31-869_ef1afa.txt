@@ -1,0 +1,267 @@
+Solo AI 코딩 전담 최종 실행 가이드
+4개 방법론 통합 | 단계별 비율 반영 | 복붙 명령어 완비
+
+Claude Opus 4.6 작성 (교차검증 미실시 — 기존 Solo AI 전략 문서 기반 재구성)
+
+v4.0 — 2026-04-12
+목차
+단계별 방법론 반영 비율 (%)
+모듈 A: 환경 세팅 (1회, 평생)
+A-1. 필수 도구 확인
+A-2. Git SSH 설정
+A-3. 폴더 구조 생성
+A-4. 참고 레포 클론
+A-5. PowerShell 평생 함수 등록
+A-6. GitHub 원격 저장소 연결
+모듈 B: 프로젝트 시작 + 명세 (프로젝트마다)
+B-1. 프로젝트 생성
+B-3. 명세 작성
+B-5. 다중 AI 교차 검증
+모듈 C: 일일 개발 루프 (매일)
+C-1. 작업 시작
+C-2. TDD 실행 루프
+C-3. 마감
+핵심 파일 역할
+평생 명령어 치트시트
+규모별 전체 흐름
+단계별 방법론 반영 비율 (%)
+단계	방1
+명세/보안/TDD
+5단계	방2
+UDM 전체구조
+8단계	방3
+AI프롬프트
+18분자막	방4
+CLI 자동화
+md파일	해석
+1. 환경/저장소 구축	0%	20%	0%	80%	ai-new, cd-repo 등 방4 쉘 스크립트 기반
+2. 명세 및 위협 설계	60%	20%	20%	0%	위협 모델링, Control Matrix 등 방1 리스크 주도 설계
+3. 다중 AI 교차 검증	0%	30%	70%	0%	여러 모델 충돌시키는 프롬프트 엔지니어링(방3)
+4. 마이크로 분해/브랜치	40%	10%	10%	40%	방1 PLAN.md + 방4 ai-start 결합
+5. TDD 기반 정밀 구현	60%	10%	30%	0%	방1 RED-GREEN 강제 + 100줄 제한
+6. 검증 및 단위 커밋	30%	10%	10%	50%	방4 ai-done + 방1 Control Matrix 검증
+7. 문서 동기화 및 병합	20%	10%	30%	40%	방4 -Merge + 방3 문서 자동화
+모듈 A: 환경 세팅 1회 (평생)
+방법론 4 비중 80% — CLI 자동화 기반
+
+A-1. 필수 도구 확인
+# PowerShell에서 하나씩 실행
+claude --version          # Claude Code CLI (v2.1+)
+git --version             # Git (2.40+)
+gh --version              # GitHub CLI (2.40+)
+node --version            # Node.js (18+)
+python --version          # Python (3.11+)
+uv --version              # uv (Python 패키지 매니저)
+없는 것만 설치:
+
+npm install -g @anthropic-ai/claude-code   # Claude Code
+winget install GitHub.cli                   # GitHub CLI
+pip install uv                              # uv
+winget install OpenJS.NodeJS                # Node.js
+A-2. Git SSH 설정 (GitHub 연동)
+# SSH 키 생성
+ssh-keygen -t ed25519 -C "your-email@example.com"
+
+# SSH 에이전트 시작
+Get-Service ssh-agent | Set-Service -StartupType Automatic
+Start-Service ssh-agent
+ssh-add "$HOME\.ssh\id_ed25519"
+
+# GitHub에 키 등록
+gh auth login
+gh ssh-key add "$HOME\.ssh\id_ed25519.pub" -t "my-pc"
+
+# 테스트
+ssh -T git@github.com     # "Hi username!" = 성공
+A-3. 폴더 구조 생성
+mkdir -Force C:\Users\$env:USERNAME\dev\kit-templates
+mkdir -Force C:\Users\$env:USERNAME\dev\repos
+mkdir -Force C:\Users\$env:USERNAME\dev\refs
+mkdir -Force D:\2026airesult_byclaude\outputs
+C:\Users\{나}\dev\
++-- kit-templates\    마스터 템플릿 (읽기전용)
++-- repos\            실제 작업 (모든 git repo)
++-- refs\             참고 레포 (원본 clone)
++-- worktrees\        병렬 브랜치 (필요 시)
+
+D:\2026airesult_byclaude\
++-- outputs\          결과물
+A-4. 참고 레포 클론 (세계 표준)
+cd C:\Users\$env:USERNAME\dev\refs
+
+# 1위: Claude Code 실전 노하우
+git clone https://github.com/shanraisshan/claude-code-best-practice.git cc-best
+
+# 2위: Kent Beck TDD 원본
+git clone https://github.com/KentBeck/BPlusTree3.git kentbeck
+
+# 3위: GitHub 공식 Spec Kit
+git clone https://github.com/github/spec-kit.git spec-kit
+
+# 4위: BMAD 대형 프로젝트 (선택)
+git clone https://github.com/bmadcode/BMAD-METHOD.git bmad
+A-5. PowerShell 평생 함수 등록
+한 번만 하면 평생 사용. notepad $PROFILE 열어서 맨 아래에 붙여넣기.
+# 핵심 6개 함수 + 별칭
+ai-check              # 환경 상태 점검
+ai-new my-tool        # 새 프로젝트 (Mode A)
+ai-new my-saas -Mode B # 중대형 (Spec Kit)
+ai-new huge -Mode C   # 대형 (BMAD)
+ai-start login        # 브랜치 생성
+ai-done "msg"         # 커밋+푸시
+ai-done "msg" -Merge  # +main 병합
+cd-repo my-tool       # 프로젝트 이동
+전체 스크립트는 MD 파일 A-5 섹션 참조
+
+A-6. GitHub 원격 저장소 연결
+# 새 프로젝트를 GitHub에 올리기
+cd-repo my-project
+gh repo create geben147-create/my-project --private --source=. --push
+
+# 기존 repo 가져오기
+git clone git@github.com:geben147-create/existing-repo.git
+모듈 B: 프로젝트 시작 + 명세 프로젝트마다
+방법론 1 비중 60% + 방법론 3 비중 70% (교차검증)
+
+B-1. 프로젝트 생성 (규모별)
+규모	명령어	포함 파일
+소형 (기능 <5)	ai-new my-tool	내 템플릿 7개
+중대형 (5-15개)	ai-new my-saas -Mode B	Spec Kit + 템플릿
+대형 (15개+)	ai-new huge -Mode C	Spec Kit + BMAD + 풀셋
+B-2. GitHub 연결
+cd-repo my-saas
+gh repo create geben147-create/my-saas --private --source=. --push
+B-3. 명세 작성 (방법론 1: 60%)
+Mode A — Claude에게 직접:
+
+# Claude Code 안에서
+spec.md 만들어줘. 이 프로젝트는 [설명].
+Goals 3개, Non-goals 3개, Acceptance criteria 포함.
+Mode B — Spec Kit:
+
+# Claude Code 안에서 (최초 1회)
+/speckit.constitution
+→ 기술 스택, 보안, 테스트 규칙 정의
+
+# 기능마다 반복
+/speckit.specify 사용자 로그인 (이메일+JWT)
+/speckit.clarify
+/speckit.plan
+B-4. 위협 설계 + CONTROL-MAP (컴플라이언스 전용)
+ID	요구사항	통제	구현 표면	증거/로그	테스트
+C01	인증 사용자만 업로드	OAuth+JWT	/api/upload MW	audit_log.upload	test_unauth_blocked
+C02	민감 액션 90일 보존	cron job	DB retention	audit_log rotate	test_retention
+B-5. 다중 AI 교차 검증 (방법론 3: 70%)
+L3 변경(인증/데이터/보안)에서만 실행. 일반 기능은 스킵 가능.
+# PAL MCP 사용
+pal:thinkdeep "이 spec의 보안 취약점 분석" model=gpt-5.2-pro
+pal:consensus "아키텍처 결정 평가" models=[{gpt-5.2-pro,for},{gemini-3-pro,against}]
+변경 수준	예시	교차검증?
+L1 (경미)	UI 텍스트, 스타일	불필요
+L2 (보통)	새 API 엔드포인트	선택
+L3 (핵심)	인증, 결제, 데이터	필수
+모듈 C: 일일 개발 루프 매일
+방법론 1(TDD) 60% + 방법론 4(CLI) 50%
+
+C-1. 작업 시작
+cd-repo my-saas              # 프로젝트 이동
+ai-start login               # feat/login-20260412 생성
+claude                       # Claude Code 시작
+C-2. TDD 실행 루프 (방법론 1: 60%)
+Claude Code 안에서 "go" 한 마디:
+
+1. plan.md에서 첫 미완료 task 찾기
+2. 실패하는 테스트 작성 (RED)
+3. 테스트 실행 → 실패 확인
+4. 최소 코드 작성 (GREEN)
+5. 테스트 실행 → 통과 확인
+6. 리팩토링
+7. plan.md [x] 체크 + 인수인계 메모
+8. STOP
+Kent Beck 규칙	내용
+RED-GREEN	실패 테스트 먼저 → 최소 코드로 통과
+100줄 제한	커밋당 변경 100줄 이하
+Tidy First	구조 변경과 동작 변경은 별도 커밋
+Drift Control	spec에서 벗어나면 즉시 STOP
+C-3. 마감 (방법론 4: 50%)
+# 커밋 + 푸시 (브랜치 유지)
+ai-done "feat(auth): add email login with JWT"
+
+# 커밋 + 푸시 + main 병합 (완료)
+ai-done "feat(auth): add email login with JWT" -Merge
+
+# WIP 저장 (미완료)
+ai-done "wip: login halfway done"
+검증 체크리스트 (커밋 전)
+ 테스트 통과 (0 failures)
+ 린트 클린 (0 errors)
+ 빌드 성공 (exit 0)
+ plan.md 체크박스 업데이트
+ 100줄 이하 변경
+ spec에서 벗어나지 않음
+ 시크릿 하드코딩 없음
+핵심 파일 역할
+Tier 0 — 필수
+CLAUDE.md — AI 시스템 프롬프트 (200줄 이하)
+
+spec.md — 결과물 정답지 (Goals/Non-goals)
+
+plan.md — AI 할 일 (체크박스 to-do)
+
+Tier 1 — 강력 추천
+DECISIONS.md — ADR (왜 이렇게 결정)
+
+LEARN.md — 오답노트
+
+CONTROL-MAP.md — 컴플라이언스 매핑
+
+Tier 2 — 트리거 시
+SECURITY.md — 인증/결제/PII 시
+
+ARCHITECTURE.md — 모듈 3개+ 시
+
+ROADMAP.md — Issues 부족 시
+
+평생 명령어 치트시트
+ai-check
+환경 상태 점검
+ai-new <이름>
+새 프로젝트 (Mode A/B/C)
+ai-start <기능명>
+작업 브랜치 생성
+ai-done "msg"
+커밋 + 푸시
+ai-done "msg" -Merge
+커밋 + 푸시 + main 병합
+cd-repo <이름>
+프로젝트 이동
+claude
+Claude Code 시작
+규모별 전체 흐름
+소형 (5분 세팅)
+ai-new my-tool → cd-repo my-tool → ai-start feat → claude → "go"
+→ ai-done "feat: xxx" -Merge
+중대형 (1시간 세팅)
+ai-new my-saas -Mode B → gh repo create → claude
+→ /speckit.constitution → /speckit.specify → /speckit.plan
+→ ai-start feat → "go" (TDD 루프) → ai-done "feat: xxx"
+→ (리뷰 후) ai-done "feat: xxx" -Merge
+대형 (반나절 세팅)
+ai-new huge -Mode C → gh repo create → claude
+→ bmad-help → /speckit.constitution → BMAD 에이전트 자동 진행
+→ ai-start feat → "go" (TDD 루프) → ai-done
+→ PAL consensus (L3 변경 시) → ai-done -Merge
+참고 리포지토리 (좋은 순)
+순위	리포	핵심 가치
+1	shanraisshan/claude-code-best-practice	실전 노하우, 200줄 룰
+2	KentBeck/BPlusTree3	TDD 창시자 CLAUDE.md
+3	github/spec-kit	GitHub 공식 SDD
+4	bmadcode/BMAD-METHOD	12+ 에이전트
+5	obra/superpowers	Enforced gates
+Solo AI 코딩 전담 최종 실행 가이드 v4.0 | 2026-04-12
+
+4개 방법론: 명세/보안/TDD(방1) + UDM(방2) + AI프롬프트(방3) + CLI자동화(방4)
+
+작성: Claude Opus 4.6 (교차검증 미실시)
+
+GitHub Repository | MD 원본

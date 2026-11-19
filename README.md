@@ -19,3 +19,12 @@
 | [FamilyLifeEnglish_영상분석](./FamilyLifeEnglish_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/) | Family Life English(유튜브, 45분 Slow English A2 가족 애니) 최근 30편 하루 평균 조회수 순위 — 1~3위 새 이야기 구간 컷별 완전 분해 · 4~8위 요약 · 1~20위 첫 1분 훅 분석 탭 (동물 바꾸기·이미지/영상 프롬프트·추천 모델·새 대사·FFmpeg/HyperFrames 편집 키트, 원본 사진·자막 원문은 저작권으로 비공개) | [채널 개요](https://geben147-create.github.io/Insta/FamilyLifeEnglish_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/) · [훅 분석](https://geben147-create.github.io/Insta/FamilyLifeEnglish_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/hook.html) · [1위](https://geben147-create.github.io/Insta/FamilyLifeEnglish_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/top1.html) |
 | [ThisStoryEnglish_영상분석](./ThisStoryEnglish_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/) | This Story English(유튜브, 8~16분 키즈 영어 말하기 3D 애니 — 엄마·아이 대화) 전체 22편 하루 평균 조회수 순위 — 1~3위 전 컷 16칸 분해 · 4~8위 요약 · 1~14위 처음 60초 훅 분석 탭 (동물 바꾸기·이미지/영상 프롬프트·추천 모델·새 대사, 원본 사진·자막 원문은 저작권으로 비공개) | [전체 분석](https://geben147-create.github.io/Insta/ThisStoryEnglish_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/) · [훅 분석 탭](https://geben147-create.github.io/Insta/ThisStoryEnglish_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/hooks.html) |
 | [국뽕_8분30초_영상분석](./%EA%B5%AD%EB%BD%95_8%EB%B6%8430%EC%B4%88_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/) | 외국이 직접 매긴 점수(상·차트·국제기구·통계)만 모아 한국이 연달아 터진 이유를 푸는 8분 30초 해설 영상 — 102컷 대본(컷별 화면·키워드 24자·나레이션), 독창성 비중 측정, 설명란 출처 초안, 사실 검증·정정, 제작 스크립트 (원본 영상·자막 원문·음성은 저작권·개인정보로 비공개) | [한 페이지 전체](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95_8%EB%B6%8430%EC%B4%88_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/) · [대본 MD](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95_8%EB%B6%8430%EC%B4%88_%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/%EB%8C%80%EB%B3%B8_%EA%B5%AD%EB%BD%95_8%EB%B6%8430%EC%B4%88.md) |
+
+
+<!--EGO-LAB-README:BEGIN-->
+## 🧪 Ego 실전 시험 — 임시 보관
+
+[Ego 4종 비교 · 영상 5개 · 타임코드 555개](https://geben147-create.github.io/Insta/ego-web-lab-20261119/) · [폴더](./ego-web-lab-20261119/)
+
+2026-11-19 기존 시험 결과. 자막 전문은 포함하지 않으며, 샤오홍슈 로그인·Instagram 편집 실패·미검증 항목을 별도로 표시합니다. 새 폴더와 이 메뉴는 기존 자료를 건드리지 않고 삭제할 수 있습니다.
+<!--EGO-LAB-README:END-->

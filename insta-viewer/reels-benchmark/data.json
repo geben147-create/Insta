@@ -33,7 +33,13 @@
   ],
   "at": "2026-11-20T11:58:10+09:00",
   "caption": "Renting is not always “throwing money away.”\n\nBuying is not automatically better.\n\nThis chart compares two people starting in January 2000 with the same amount of cash.\n\nOne buys the typical U.S. home.\n\nThe other rents and invests every dollar they save.\n\nThis is one of the most complex simulations I’ve made, so the assumptions matter.\n\nThe buyer puts 5% down, pays 3% closing costs, locks a 30-year fixed mortgage in January 2000, and never moves or refinances.\n\nHomeownership costs include mortgage payments, property taxes, homeowners insurance, maintenance, PMI, and utilities.\n\nThe renter pays rent, utilities, and renters insurance. Rent grows with rent CPI, while utilities and insurance grow with general inflation.\n\nThe renter invests the down payment they didn’t use, the avoided closing costs, and every monthly dollar saved whenever renting is cheaper. Investments use SPY total returns with dividends reinvested.\n\nThe homeowner line shows home equity only: current home value minus the remaining mortgage balance.\n\nThis uses national averages, not a specific city or house, so your result will vary depending on where you live, home prices, rent, mortgage rate, taxes, maintenance, investment returns, and how long you stay.\n\nComment INVEST for the investing resources behind the renter’s portfolio.\n\nFollow @investingandretirement for more finance charts people actually understand.\n\nMethodology/Sources: Zillow Home Value Index, Freddie Mac 30-year mortgage rates, BLS CPI for Rent and CPI-U, SPY adjusted prices. Excludes HOA fees, renovations, major repairs, selling costs, refinancing, tax deductions, and moving costs.",
-  "captionKo": "임대가 항상 \"돈을 버리는\" 것은 아닙니다.\n\n구매가 자동으로 더 좋아지는 것은 아닙니다.\n\n이 차트는 2000년 1월부터 동일한 금액의 현금을 가진 두 사람을 비교합니다.\n\n하나는 전형적인 미국 주택을 구입합니다.\n\n다른 사람들은 저축한 모든 달러를 임대하고 투자합니다.\n\n이것은 제가 만든 가장 복잡한 시뮬레이션 중 하나이므로 가정이 중요합니다.\n\n구매자는 5%를 다운하고 3%의 마감 비용을 지불하며 2000년 1월에 30년 고정 모기지를 고정하고 이사하거나 재융자를 하지 않습니다.\n\n주택 소유 비용에는 모기지 지불금, 재산세, 주택 소유자 보험, 유지 관리, PMI 및 유틸리티가 포함됩니다.\n\n임차인은 임대료, 공과금, 임차인 보험을 지불합니다. 임대료는 임대료 CPI에 따라 증가하는 반면 유틸리티 및 보험은 일반적인 인플레이션에 따라 증가합니다.\n\n임차인은 사용하지 않은 계약금, 피할 수 있는 마감 비용, 임차료가 더 저렴할 때마다 절약된 모든 월 달러를 투자합니다. 투자는 배당금을 재투자한 SPY 총 수익을 사용합니다.\n\n주택 소유자 라인에는 주택 자산(현재 주택 가치에서 남은 모기지 잔액을 뺀 금액)만 표시됩니다.\n\n이는 특정 도시나 주택이 아닌 전국 평균을 사용하므로 거주지, 주택 가격, 임대료, 모기지 금리, 세금, 유지 관리, 투자 수익 및 체류 기간에 따라 결과가 달라집니다.\n\n임차인의 포트폴리오 뒤에 있는 투자 자원에 대해 INVEST라고 코멘트를 남겨주세요.\n\n사람들이 실제로 이해하는 더 많은 금융 차트를 보려면 @investingandretirement를 팔로우하세요.\n\n방법론/출처: Zillow Home Value Index, Freddie Mac 30년 모기지 금리, 임대용 BLS CPI 및 CPI-U, SPY 조정 가격. HOA 수수료, 개조, 주요 수리, 판매 비용, 재융자, 세금 공제 및 이사 비용은 제외됩니다."
+  "captionKo": "임대가 항상 \"돈을 버리는\" 것은 아닙니다.\n\n구매가 자동으로 더 좋아지는 것은 아닙니다.\n\n이 차트는 2000년 1월부터 동일한 금액의 현금을 가진 두 사람을 비교합니다.\n\n하나는 전형적인 미국 주택을 구입합니다.\n\n다른 사람들은 저축한 모든 달러를 임대하고 투자합니다.\n\n이것은 제가 만든 가장 복잡한 시뮬레이션 중 하나이므로 가정이 중요합니다.\n\n구매자는 5%를 다운하고 3%의 마감 비용을 지불하며 2000년 1월에 30년 고정 모기지를 고정하고 이사하거나 재융자를 하지 않습니다.\n\n주택 소유 비용에는 모기지 지불금, 재산세, 주택 소유자 보험, 유지 관리, PMI 및 유틸리티가 포함됩니다.\n\n임차인은 임대료, 공과금, 임차인 보험을 지불합니다. 임대료는 임대료 CPI에 따라 증가하는 반면 유틸리티 및 보험은 일반적인 인플레이션에 따라 증가합니다.\n\n임차인은 사용하지 않은 계약금, 피할 수 있는 마감 비용, 임차료가 더 저렴할 때마다 절약된 모든 월 달러를 투자합니다. 투자는 배당금을 재투자한 SPY 총 수익을 사용합니다.\n\n주택 소유자 라인에는 주택 자산(현재 주택 가치에서 남은 모기지 잔액을 뺀 금액)만 표시됩니다.\n\n이는 특정 도시나 주택이 아닌 전국 평균을 사용하므로 거주지, 주택 가격, 임대료, 모기지 금리, 세금, 유지 관리, 투자 수익 및 체류 기간에 따라 결과가 달라집니다.\n\n임차인의 포트폴리오 뒤에 있는 투자 자원에 대해 INVEST라고 코멘트를 남겨주세요.\n\n사람들이 실제로 이해하는 더 많은 금융 차트를 보려면 @investingandretirement를 팔로우하세요.\n\n방법론/출처: Zillow Home Value Index, Freddie Mac 30년 모기지 금리, 임대용 BLS CPI 및 CPI-U, SPY 조정 가격. HOA 수수료, 개조, 주요 수리, 판매 비용, 재융자, 세금 공제 및 이사 비용은 제외됩니다.",
+  "topics": [
+   "stock",
+   "property"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DadubcAhZmd",
@@ -69,7 +75,12 @@
   ],
   "at": "2026-11-20T11:58:16+09:00",
   "caption": "Comment “Stack” and I’ll send you my updated AI stack for 2026 👇\n\nRating every AI tool I use.\n\nTop Tier:\nClaude → My favorite for automating any business task\nCodex → A straight up cheat code for building\nHiggsfield → My entire creative workflow runs through it\nCytd → The tool you need to get customers with AI\n\nHelpful:\nChatGPT → Better as a personal tool than a business one\nWhisperflow → I use it to write every single prompt now\n\nDecent:\nCopilot → Good if you’re in the M365 ecosystem\nCursor → Great for developers but not for beginners\n\nWaste of time:\nGrok → Gemini gives you the same real-time info\nCanva → Good tool but the AI features are overrated\n\nDo you agree with my picks? Let me know in the comments.\n\n#ai #aitools #chatgpt #claude #productivity",
-  "captionKo": "\"Stack\"이라고 댓글을 달아주시면 업데이트된 2026년 AI 스택을 보내드리겠습니다 👇\n\n내가 사용하는 모든 AI 도구를 평가해 보세요.\n\n최상위 계층:\nClaude → 모든 비즈니스 작업을 자동화하는 데 내가 가장 좋아하는 것\nCodex → 건물을 위한 간단한 치트 코드\nHiggsfield → 내 전체 창작 작업 흐름이 이를 통해 실행됩니다.\nCytd → AI를 통해 고객을 확보하는 데 필요한 도구\n\n도움이 됨:\nChatGPT → 비즈니스 도구보다 개인 도구로 더 좋음\nWhisperflow → 이제 모든 프롬프트를 작성하는 데 사용합니다.\n\n괜찮은:\nCopilot → M365 생태계에 있다면 좋습니다.\n커서 → 개발자에게는 적합하지만 초보자에게는 적합하지 않음\n\n시간 낭비:\nGrok → Gemini는 동일한 실시간 정보를 제공합니다\nCanva → 좋은 도구이지만 AI 기능이 과대평가되었습니다\n\n내 선택에 동의하시나요? 댓글로 알려주세요.\n\n#ai #aitools #chatgpt #claude #생산성"
+  "captionKo": "\"Stack\"이라고 댓글을 달아주시면 업데이트된 2026년 AI 스택을 보내드리겠습니다 👇\n\n내가 사용하는 모든 AI 도구를 평가해 보세요.\n\n최상위 계층:\nClaude → 모든 비즈니스 작업을 자동화하는 데 내가 가장 좋아하는 것\nCodex → 건물을 위한 간단한 치트 코드\nHiggsfield → 내 전체 창작 작업 흐름이 이를 통해 실행됩니다.\nCytd → AI를 통해 고객을 확보하는 데 필요한 도구\n\n도움이 됨:\nChatGPT → 비즈니스 도구보다 개인 도구로 더 좋음\nWhisperflow → 이제 모든 프롬프트를 작성하는 데 사용합니다.\n\n괜찮은:\nCopilot → M365 생태계에 있다면 좋습니다.\n커서 → 개발자에게는 적합하지만 초보자에게는 적합하지 않음\n\n시간 낭비:\nGrok → Gemini는 동일한 실시간 정보를 제공합니다\nCanva → 좋은 도구이지만 AI 기능이 과대평가되었습니다\n\n내 선택에 동의하시나요? 댓글로 알려주세요.\n\n#ai #aitools #chatgpt #claude #생산성",
+  "topics": [
+   "top"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "Da_yl4XNBNY",
@@ -105,7 +116,13 @@
   ],
   "at": "2026-11-20T11:58:43+09:00",
   "caption": "Building a startup in 2026 has never been cheaper.\n\nNo engineers, no designers, no CPA, lawyers to set up the company or raise. Just a laptop, a few tools, and a credit card with a few hundred bucks. \n\n1. Product hunt. Browse hundred of product ideas in 10 minutes. @producthunt \n\n2. Claude Code. Coding. No need for a $200k developer, get the best one for $20 a month (or $200 😅) @claudeai \n\n3. Perplexity. Market research. Know a vertical deep like the palm of your hand in 30 mins. @perplexity \n\n4. Vercel. Deployment. Your webpage and app live in one click. @vercel \n\n5. Clerky. Legal. Incorporate in the US in 24 hours.\n\n6. Mercury. Banking in under 10 minutes. No paperwork.\n\n7. X, IG, LinkedIn. Personal brand. Distribution es free to build.\n\n8. OpenClaw and Houston. Employees. A complete AI team to execute alongside you. @gethouston.ai www.gethouston.ai\n\n5 years ago this setup required $100k in legal fees, lawyers, accountants, and 6 months of paperwork.\n\nIn 2026 you do it in 48 hours with a credit card.\n\nIf you’re still waiting for someone to “fund you” to get started, you’re doing it wrong. Start today. \n\nSend this to your friend who thinks they need to raise capital before getting started. \n\n#startups #ai #sanfrancisco #tech",
-  "captionKo": "2026년에 스타트업을 구축하는 것이 그 어느 때보다 저렴해졌습니다.\n\n회사를 설립하거나 양육할 엔지니어, 디자이너, CPA, 변호사가 없습니다. 노트북과 몇 가지 도구, 그리고 수백 달러짜리 신용카드만 있으면 됩니다. \n\n1. 제품 검색. 10분 안에 수백 가지 제품 아이디어를 찾아보세요. @producthunt \n\n2. 클로드 코드. 코딩. $200,000의 개발자가 필요하지 않습니다. 한 달에 $20(또는 $200 😅)에 최고의 개발자를 얻으세요 @cludeai \n\n3. 당혹감. 시장 조사. 30분만에 손바닥만한 수직깊이를 알아보세요. @당황 \n\n4. 베르셀. 전개. 클릭 한 번으로 웹페이지와 앱이 활성화됩니다. @vercel \n\n5. 사무원. 합법적인. 24시간 안에 미국에 법인을 설립하세요.\n\n6. 수은. 10분 안에 뱅킹이 가능합니다. 서류가 없습니다.\n\n7. X, IG, 링크드인. 개인 브랜드. 배포판은 무료로 구축할 수 있습니다.\n\n8. OpenClaw와 휴스턴. 직원. 당신과 함께 실행할 완전한 AI 팀. @gethouston.ai www.gethouston.ai\n\n5년 전 이 설정에는 법률 비용, 변호사, 회계사 및 6개월의 서류 작업에 10만 달러가 필요했습니다.\n\n2026년에는 신용카드로 48시간 안에 할 수 있습니다.\n\n누군가가 시작하기 위해 \"자금 지원\"을 기다리고 있다면, 당신은 잘못하고 있는 것입니다. 오늘부터 시작하세요. \n\n시작하기 전에 자본을 조달해야 한다고 생각하는 친구에게 이 내용을 보내세요. \n\n#스타트업 #ai #샌프란시스코 #기술"
+  "captionKo": "2026년에 스타트업을 구축하는 것이 그 어느 때보다 저렴해졌습니다.\n\n회사를 설립하거나 양육할 엔지니어, 디자이너, CPA, 변호사가 없습니다. 노트북과 몇 가지 도구, 그리고 수백 달러짜리 신용카드만 있으면 됩니다. \n\n1. 제품 검색. 10분 안에 수백 가지 제품 아이디어를 찾아보세요. @producthunt \n\n2. 클로드 코드. 코딩. $200,000의 개발자가 필요하지 않습니다. 한 달에 $20(또는 $200 😅)에 최고의 개발자를 얻으세요 @cludeai \n\n3. 당혹감. 시장 조사. 30분만에 손바닥만한 수직깊이를 알아보세요. @당황 \n\n4. 베르셀. 전개. 클릭 한 번으로 웹페이지와 앱이 활성화됩니다. @vercel \n\n5. 사무원. 합법적인. 24시간 안에 미국에 법인을 설립하세요.\n\n6. 수은. 10분 안에 뱅킹이 가능합니다. 서류가 없습니다.\n\n7. X, IG, 링크드인. 개인 브랜드. 배포판은 무료로 구축할 수 있습니다.\n\n8. OpenClaw와 휴스턴. 직원. 당신과 함께 실행할 완전한 AI 팀. @gethouston.ai www.gethouston.ai\n\n5년 전 이 설정에는 법률 비용, 변호사, 회계사 및 6개월의 서류 작업에 10만 달러가 필요했습니다.\n\n2026년에는 신용카드로 48시간 안에 할 수 있습니다.\n\n누군가가 시작하기 위해 \"자금 지원\"을 기다리고 있다면, 당신은 잘못하고 있는 것입니다. 오늘부터 시작하세요. \n\n시작하기 전에 자본을 조달해야 한다고 생각하는 친구에게 이 내용을 보내세요. \n\n#스타트업 #ai #샌프란시스코 #기술",
+  "topics": [
+   "grants",
+   "top"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DadBXKkArHE",
@@ -141,7 +158,13 @@
   ],
   "at": "2026-11-20T11:58:10+09:00",
   "caption": "🏠 **Is Renting Really a Waste of Money?**\n\nMost people believe that buying a house as early as possible is the smartest financial decision. But is that always true?\n\nIn this video, we break down one of India's biggest financial myths—**Rent vs Buy**. You'll discover:\n\n* Why buying a house too early can become a financial burden.\n* How a ₹50 lakh home loan can cost you over ₹1.1 crore.\n* Why investing the EMI difference through SIPs could help build wealth.\n* When buying a house actually becomes the right financial decision.\n* How to avoid EMI stress and make smarter money decisions.\n\nRemember, buying a home is both an emotional and financial decision. The key isn't just buying a house—it's buying it at the right time.\n\n💬 What would you choose?\n🏠 Buy a House\n💰 Rent & Invest\n\nComment **\"HOME\"** if you'd like a detailed calculation video on this topic!\n\n👍 Like | 💬 Comment | 🔔 Subscribe for more personal finance and wealth-building content.\n\nrent vs buy, renting vs buying, is renting a waste, buying a house, first home, home loan, home loan EMI, EMI, mortgage, SIP, mutual funds, investing, wealth creation, financial freedom, personal finance, finance tips, money management, smart investing, financial planning, house buying tips, renting benefits, real estate, property investment, Indian finance, finance India, middle class finance, passive income, long term investing, inflation, emergency fund, down payment, financial literacy, investment strategy, money tips, budgeting, savings, financial education, rent or buy, own house, housing myth, home buying mistakes, investment advice, finance reels, Tamil finance, Tamil investment, Tamil business, Tamil entrepreneur, Tamil reels, India finance, wealth building, financial mindset\n\n#rentvsbuy  #personalfinance  #homeloan  #SipagatTiyagaWalangImposible  #mutualfunds  ##ﬁnancialfreedom  #moneymanagement  #investing  #realestategoals  #FinanceIndia  #wealthcreationjourney  #TamilFinance  #financialplanninguk  #emi  #homebuying",
-  "captionKo": "🏠 **렌트가 정말 돈 낭비인가요?**\n\n대부분의 사람들은 가능한 한 빨리 집을 구입하는 것이 가장 현명한 재정적 결정이라고 믿습니다. 하지만 그게 항상 사실인가요?\n\n이 비디오에서는 인도의 가장 큰 금융 신화 중 하나인 **임대 vs 구매**를 분석합니다. 당신은 다음을 발견하게 될 것입니다 :\n\n* 집을 너무 일찍 사면 경제적 부담이 될 수 있는 이유.\n* ₹50 lakh 주택 대출로 인해 ₹11억 이상의 비용이 발생할 수 있는 방법.\n* SIP를 통해 EMI 차이를 투자하면 부를 쌓는 데 도움이 되는 이유.\n* 실제로 집을 구입할 때 올바른 재정적 결정이 됩니다.\n* EMI 스트레스를 피하고 더 현명한 금전적 결정을 내리는 방법.\n\n주택 구입은 감정적, 재정적 결정이라는 점을 기억하십시오. 중요한 것은 단지 집을 사는 것이 아니라 적절한 시기에 구입하는 것입니다.\n\n💬 당신은 무엇을 선택하시겠습니까?\n🏠 집 구입\n💰 임대 및 투자\n\n이 주제에 대한 자세한 계산 영상을 원하시면 **\"HOME\"** 댓글을 달아주세요!\n\n👍 좋아요 | 💬댓글 | 🔔 더 많은 개인 금융 및 부 쌓기 콘텐츠를 구독하세요.\n\n임대 대 구매, 임대 대 구매, 폐기물 임대 중, 집을 구입 중, 첫 번째 주택, 주택 융자, 주택 융자 EMI, EMI, 모기지, SIP, 뮤추얼 펀드, 투자, 부의 창출, 재정적 자유, 개인 금융, 금융 팁, 돈 관리, 현명한 투자, 재정 계획, 주택 구매 팁, 임대 혜택, 부동산, 부동산 투자, 인도 금융, 인도 금융, 중산층 금융, 수동 소득, 장기 투자, 인플레이션, 비상 자금, 계약금, 금융 지식, 투자 전략, 돈 팁, 예산 책정, 저축, 금융 교육, 임대 또는 구매, 주택 소유, 주택 신화, 주택 구입 실수, 투자 조언, 금융 릴, 타밀 금융, 타밀 투자, 타밀 사업, 타밀 기업가, 타밀 릴, 인도 금융, 부의 축적, 금융 사고방식\n\n#rentvsbuy #personalfinance #homeloan #SipagatTiyagaWalangImposible #mutualfunds ##financialfreedom #moneymanagement #investing #realestategoals #FinanceIndia #wealthcreationjourney #TamilFinance #financialplanninguk #emi #homebuying"
+  "captionKo": "🏠 **렌트가 정말 돈 낭비인가요?**\n\n대부분의 사람들은 가능한 한 빨리 집을 구입하는 것이 가장 현명한 재정적 결정이라고 믿습니다. 하지만 그게 항상 사실인가요?\n\n이 비디오에서는 인도의 가장 큰 금융 신화 중 하나인 **임대 vs 구매**를 분석합니다. 당신은 다음을 발견하게 될 것입니다 :\n\n* 집을 너무 일찍 사면 경제적 부담이 될 수 있는 이유.\n* ₹50 lakh 주택 대출로 인해 ₹11억 이상의 비용이 발생할 수 있는 방법.\n* SIP를 통해 EMI 차이를 투자하면 부를 쌓는 데 도움이 되는 이유.\n* 실제로 집을 구입할 때 올바른 재정적 결정이 됩니다.\n* EMI 스트레스를 피하고 더 현명한 금전적 결정을 내리는 방법.\n\n주택 구입은 감정적, 재정적 결정이라는 점을 기억하십시오. 중요한 것은 단지 집을 사는 것이 아니라 적절한 시기에 구입하는 것입니다.\n\n💬 당신은 무엇을 선택하시겠습니까?\n🏠 집 구입\n💰 임대 및 투자\n\n이 주제에 대한 자세한 계산 영상을 원하시면 **\"HOME\"** 댓글을 달아주세요!\n\n👍 좋아요 | 💬댓글 | 🔔 더 많은 개인 금융 및 부 쌓기 콘텐츠를 구독하세요.\n\n임대 대 구매, 임대 대 구매, 폐기물 임대 중, 집을 구입 중, 첫 번째 주택, 주택 융자, 주택 융자 EMI, EMI, 모기지, SIP, 뮤추얼 펀드, 투자, 부의 창출, 재정적 자유, 개인 금융, 금융 팁, 돈 관리, 현명한 투자, 재정 계획, 주택 구매 팁, 임대 혜택, 부동산, 부동산 투자, 인도 금융, 인도 금융, 중산층 금융, 수동 소득, 장기 투자, 인플레이션, 비상 자금, 계약금, 금융 지식, 투자 전략, 돈 팁, 예산 책정, 저축, 금융 교육, 임대 또는 구매, 주택 소유, 주택 신화, 주택 구입 실수, 투자 조언, 금융 릴, 타밀 금융, 타밀 투자, 타밀 사업, 타밀 기업가, 타밀 릴, 인도 금융, 부의 축적, 금융 사고방식\n\n#rentvsbuy #personalfinance #homeloan #SipagatTiyagaWalangImposible #mutualfunds ##financialfreedom #moneymanagement #investing #realestategoals #FinanceIndia #wealthcreationjourney #TamilFinance #financialplanninguk #emi #homebuying",
+  "topics": [
+   "property",
+   "top"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DYKZBrKNjDH",
@@ -177,7 +200,12 @@
   ],
   "at": "2026-11-20T11:58:44+09:00",
   "caption": "Rent vs owning. But not the version people usually show.\n\nThis chart compares monthly rent to the true cost of owning a home.\n\nNot just the mortgage payment.\n\nThe ownership line includes:\n\t•\tPrincipal + interest\n\t•\tProperty taxes\n\t•\tMaintenance\n\t•\tInsurance\n\nIn other words. The all-in cost of holding a home.\n\nRent is straightforward. One monthly payment.\nOwning is layered. And most comparisons ignore that.\n\nWhen rates were low, the gap tightened.\nWhen rates rose, the full cost of ownership moved sharply higher.\n\nSo this is not “rent vs mortgage payment.”\nIt is rent vs everything it actually costs to own.\n\nSources: FRED (CUSR0000SEHA, MSPUS, MORTGAGE30US)\n\nFollow for more charts like this.\n\nComment ‘SYSTEM’ and I’ll send you the full system (viral chart ideas, formats, and captions)",
-  "captionKo": "임대 vs 소유. 하지만 사람들이 일반적으로 보여주는 버전은 아닙니다.\n\n이 차트는 월 임대료를 실제 주택 소유 비용과 비교합니다.\n\n모기지 지불뿐만이 아닙니다.\n\n소유권 라인에는 다음이 포함됩니다.\n\t• 원금+이자\n\t• 재산세\n\t• 유지보수\n\t• 보험\n\n즉. 집을 유지하는 데 드는 모든 비용.\n\n임대는 간단합니다. 한 달에 한 번 지불합니다.\n소유는 계층화되어 있습니다. 그리고 대부분의 비교에서는 이를 무시합니다.\n\n금리가 낮을 때는 격차가 더욱 좁혀졌습니다.\n요금이 인상되면 전체 소유 비용이 급격히 높아졌습니다.\n\n따라서 이것은 \"임대료 대 모기지 지불\"이 아닙니다.\n그것은 임대료와 실제로 소유하는 데 드는 모든 비용입니다.\n\n출처: FRED(CUSR0000SEHA, MSPUS, MORTGAGE30US)\n\n이와 같은 차트를 더 보려면 팔로우하세요.\n\n'SYSTEM'이라고 댓글을 달아주시면 전체 시스템(바이럴 차트 아이디어, 형식, 캡션)을 보내드립니다."
+  "captionKo": "임대 vs 소유. 하지만 사람들이 일반적으로 보여주는 버전은 아닙니다.\n\n이 차트는 월 임대료를 실제 주택 소유 비용과 비교합니다.\n\n모기지 지불뿐만이 아닙니다.\n\n소유권 라인에는 다음이 포함됩니다.\n\t• 원금+이자\n\t• 재산세\n\t• 유지보수\n\t• 보험\n\n즉. 집을 유지하는 데 드는 모든 비용.\n\n임대는 간단합니다. 한 달에 한 번 지불합니다.\n소유는 계층화되어 있습니다. 그리고 대부분의 비교에서는 이를 무시합니다.\n\n금리가 낮을 때는 격차가 더욱 좁혀졌습니다.\n요금이 인상되면 전체 소유 비용이 급격히 높아졌습니다.\n\n따라서 이것은 \"임대료 대 모기지 지불\"이 아닙니다.\n그것은 임대료와 실제로 소유하는 데 드는 모든 비용입니다.\n\n출처: FRED(CUSR0000SEHA, MSPUS, MORTGAGE30US)\n\n이와 같은 차트를 더 보려면 팔로우하세요.\n\n'SYSTEM'이라고 댓글을 달아주시면 전체 시스템(바이럴 차트 아이디어, 형식, 캡션)을 보내드립니다.",
+  "topics": [
+   "property"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DaU8vyBza1z",
@@ -213,7 +241,10 @@
   ],
   "at": "2026-11-20T11:58:20+09:00",
   "caption": "Latest AI tools to use in 2026",
-  "captionKo": "2026년에 사용할 최신 AI 도구"
+  "captionKo": "2026년에 사용할 최신 AI 도구",
+  "topics": [],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "Dc8KkBCtOlu",
@@ -249,7 +280,12 @@
   ],
   "at": "2026-11-20T11:58:21+09:00",
   "caption": "🚀 13 AI TOOLS YOU NEED TO TRY IN 2026! 🤯\n\nWhether you’re studying, creating content, coding, or freelancing, SAVE THIS REEL for your next project! 🔥\n\nHere’s your AI toolkit for different tasks 👇\n\n🎥 AI VIDEO GENERATION\n• Qwen AI\n• Google Flow\n\n🖼 AI IMAGE GENERATION\n• Grok\n• ChatGPT\n\n💼 INTERVIEW PREPARATION\n• Interviews by AI — rehearse interviews and sharpen your answers with AI feedback.\n\n🎨 TEMPLATES & MOTION GRAPHICS\n• Swishy AI — explore creative templates and motion graphics for your content.\n\n🌐 AI WEBSITE CREATION\n• Framer\n• Emergent — turn your prompts into websites.\n\n💡 CONTENT CREATION\n• Meta AI\n• ChatGPT — brainstorm ideas, write hooks, and create scripts for your next post.\n\n🎬 VIDEO EDITING\n• Instagram Edits — edit and polish your videos for social media.\n\n🔎 DEEP RESEARCH\n• Perplexity — explore topics, find sources, and get answers faster.\n\nThe best part? Many of these tools offer free options to get started. 🙌\n\n📌 SAVE this reel so you can find the right tool when you need it.\n\n👥 Share it with a friend who’s always looking for new AI tools!",
-  "captionKo": "🚀 2026년에 시도해야 할 13가지 AI 도구! 🤯\n\n공부 중이든, 콘텐츠 제작 중이든, 코딩 중이든, 프리랜서로 일하고 있든 다음 프로젝트를 위해 이 릴을 저장하세요! 🔥\n\n다양한 작업을 위한 AI 툴킷은 다음과 같습니다 👇\n\n🎥 AI 비디오 생성\n• 퀀 AI\n• 구글 플로우\n\n🖼 AI 이미지 생성\n• 그록\n• 채팅GPT\n\n💼 인터뷰 준비\n• AI 인터뷰 — 인터뷰를 연습하고 AI 피드백을 통해 답변을 다듬습니다.\n\n🎨 템플릿 및 모션 그래픽\n• Swishy AI — 콘텐츠에 대한 창의적인 템플릿과 모션 그래픽을 살펴보세요.\n\n🌐 AI 웹사이트 생성\n• 프레이머\n• 긴급 — 프롬프트를 웹사이트로 전환합니다.\n\n💡 콘텐츠 제작\n• 메타AI\n• ChatGPT — 아이디어를 브레인스토밍하고, 후크를 작성하고, 다음 게시물을 위한 스크립트를 만듭니다.\n\n🎬 비디오 편집\n• Instagram 편집 — 소셜 미디어용 비디오를 편집하고 다듬습니다.\n\n🔎 심층 연구\n• 당혹감 — 주제를 탐색하고, 출처를 찾고, 더 빠르게 답변을 얻을 수 있습니다.\n\n가장 좋은 부분은? 이러한 도구 중 다수는 시작하기 위한 무료 옵션을 제공합니다. 🙌\n\n😀 필요할 때 적합한 도구를 찾을 수 있도록 이 릴을 저장하세요.\n\n👥 항상 새로운 AI 도구를 찾는 친구와 공유하세요!"
+  "captionKo": "🚀 2026년에 시도해야 할 13가지 AI 도구! 🤯\n\n공부 중이든, 콘텐츠 제작 중이든, 코딩 중이든, 프리랜서로 일하고 있든 다음 프로젝트를 위해 이 릴을 저장하세요! 🔥\n\n다양한 작업을 위한 AI 툴킷은 다음과 같습니다 👇\n\n🎥 AI 비디오 생성\n• 퀀 AI\n• 구글 플로우\n\n🖼 AI 이미지 생성\n• 그록\n• 채팅GPT\n\n💼 인터뷰 준비\n• AI 인터뷰 — 인터뷰를 연습하고 AI 피드백을 통해 답변을 다듬습니다.\n\n🎨 템플릿 및 모션 그래픽\n• Swishy AI — 콘텐츠에 대한 창의적인 템플릿과 모션 그래픽을 살펴보세요.\n\n🌐 AI 웹사이트 생성\n• 프레이머\n• 긴급 — 프롬프트를 웹사이트로 전환합니다.\n\n💡 콘텐츠 제작\n• 메타AI\n• ChatGPT — 아이디어를 브레인스토밍하고, 후크를 작성하고, 다음 게시물을 위한 스크립트를 만듭니다.\n\n🎬 비디오 편집\n• Instagram 편집 — 소셜 미디어용 비디오를 편집하고 다듬습니다.\n\n🔎 심층 연구\n• 당혹감 — 주제를 탐색하고, 출처를 찾고, 더 빠르게 답변을 얻을 수 있습니다.\n\n가장 좋은 부분은? 이러한 도구 중 다수는 시작하기 위한 무료 옵션을 제공합니다. 🙌\n\n😀 필요할 때 적합한 도구를 찾을 수 있도록 이 릴을 저장하세요.\n\n👥 항상 새로운 AI 도구를 찾는 친구와 공유하세요!",
+  "topics": [
+   "top"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "Db7vhUPigo4",
@@ -285,7 +321,13 @@
   ],
   "at": "2026-11-20T11:58:17+09:00",
   "caption": "🏠 서울 25개구 집값 순위! 우리 동네는 몇 위?\n\n서울 아파트 가격, 같은 서울이라고 다 비슷할까요? 👀\n25개구를 한눈에 비교해봤습니다.\n\n🥇 강남구\n🥈 서초구\n🥉 용산구\n\n📊 포박사가 한 장으로 정리했습니다 🐶🔍\n\n✔️ 서울 25개구 집값 순위\n✔️ 지역별 평균 매매가격\n✔️ 3.3㎡당 가격\n✔️ 국민평형 84㎡ 환산가격\n✔️ 상대적으로 진입가격이 낮은 지역\n✔️ 최근 상승폭이 큰 지역\n\n👇 여기서 질문!\n\n여러분은 서울 어느 구에 살고 싶으세요?\n\n\"강남 / 마포 / 성동 / 영등포 / 그 외 지역\"\n\n👉 지역 이름만 댓글로 남겨주세요!\n댓글 많은 지역은 포박사가 다음 편에서 따로 분석해볼게요 🐶📊\n\n친구가 살고 있는 지역은 몇 위인지 공유해서 같이 확인해보세요.\n\n📌 나중에 다시 보려면 저장!\n\n※ 가격은 기준시점 및 집계방식에 따라 달라질 수 있으므로 실제 매수 시 최신 실거래가를 확인하세요.\n\n#서울집값 #서울아파트 #서울부동산 #집값순위 #아파트시세",
-  "captionLang": "ko"
+  "captionLang": "ko",
+  "topics": [
+   "property",
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DacVWGYyATv",
@@ -321,7 +363,13 @@
   ],
   "at": "2026-11-20T11:58:16+09:00",
   "caption": "2023년 1월 ~ 2026년 6월 기준\n실거래가로 확인한\n시세차액 TOP 15입니다.\n\n🥇 1위는\n3년 반 만에 약 8억 상승!\n\n우리 동네 아파트는\n몇 위인지 확인해 보세요.\n\n📌 저장해 두면\n집값 비교할 때 도움이 됩니다.\n\n전국 아파트 순위는\n캔실장에서 계속 확인하세요.\n\n#노원구 #노원구아파트#실거래가##노원구인테리어 #노원인테리어 #상계동인테리어 #중계동인테리어 #하계동인테리어#인테리어업체찾기기준#캔실장#다모았어#인테리어랭킹플랫폼",
-  "captionLang": "ko"
+  "captionLang": "ko",
+  "topics": [
+   "property",
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DblhvXvt54i",
@@ -357,7 +405,10 @@
   ],
   "at": "2026-11-20T11:58:24+09:00",
   "caption": "🔥 PAID vs FREE AI TOOLS 🔥\n\n🖼️ 01 IMAGE CREATION: Midjourney (10/month) vs Nano Banana (0/month)\n\n🔍 02 AI RESEARCH: Perplexity (20/month) vs ViralityAI (0/month)\n\n🧑 03 AVATAR CREATION: HeyGen (29/month) vs Hedra (0/month)\n\n💻 04 CODE GENERATION: GitHub Copilot (10/month) vs Cursor (0/month)\n\n🎬 05 CINEMATIC CREATION: Runway ML (15/month) vs Stable Diffusion ($/month)\n\n📸 06 THUMBNAIL / IMAGE EDITING: Adobe Firefly (10/month) vs PhotoRoom (0/month)\n\n🎥 07 VIDEO GENERATION: Higgsfield (49/month) vs Hailuo (0/month)\n\n📅 08 SOCIAL MEDIA SCHEDULING: Buffer (18/month) vs Publer (0/month)\n\n✍️ 09 AI WRITING ASSISTANT: Jasper (39/month) vs QuillBot (0/month)\n\n📊 10 PRESENTATION MAKER: Gamma (10/month) vs Canva (0/month)\n\n🗣️ 11 VOICE GENERATION: ElevenLabs (22/month) vs PlayHT (0/month)\n\n🎵 12 MUSIC GENERATION: Suno ($10/month) vs Udio (0/month)\n\n📌 SAVE THIS TO TRY THEM FOR FREE",
-  "captionKo": "🔥 유료 AI 도구와 무료 AI 도구 🔥\n\n🖼️ 01 이미지 생성: Midjourney(10/월) vs Nano Banana(0/월)\n\n🔍 02 AI 연구: Perplexity(20/월) vs ViralityAI(0/월)\n\n🧑 03 아바타 제작: HeyGen(29/월) vs Hedra(0/월)\n\n💻 04 코드 생성: GitHub Copilot(10/월) vs Cursor(0/월)\n\n🎬 05 영화 제작: Runway ML(15/월) vs Stable Diffusion($/월)\n\n📸 06 THUMBNAIL / 이미지 편집: Adobe Firefly(10/월) vs PhotoRoom(0/월)\n\n🎥 07 비디오 생성: Higgsfield(49/월) vs Hailuo(0/월)\n\n📅 08 소셜 미디어 스케줄링: 버퍼(18/월) vs Publer(0/월)\n\n✍️ 09 AI 글쓰기 도우미: Jasper(39/월) vs QuillBot(0/월)\n\n📊 10명의 프레젠테이션 메이커: Gamma(10/월) vs Canva(0/월)\n\n🗣️ 11개 보이스 생성: ElevenLabs(22/월) vs PlayHT(0/월)\n\n🎵 12 MUSIC GENERATION: Suno($10/월) vs Udio(0/월)\n\n😀 저장해서 무료로 사용해 보세요"
+  "captionKo": "🔥 유료 AI 도구와 무료 AI 도구 🔥\n\n🖼️ 01 이미지 생성: Midjourney(10/월) vs Nano Banana(0/월)\n\n🔍 02 AI 연구: Perplexity(20/월) vs ViralityAI(0/월)\n\n🧑 03 아바타 제작: HeyGen(29/월) vs Hedra(0/월)\n\n💻 04 코드 생성: GitHub Copilot(10/월) vs Cursor(0/월)\n\n🎬 05 영화 제작: Runway ML(15/월) vs Stable Diffusion($/월)\n\n📸 06 THUMBNAIL / 이미지 편집: Adobe Firefly(10/월) vs PhotoRoom(0/월)\n\n🎥 07 비디오 생성: Higgsfield(49/월) vs Hailuo(0/월)\n\n📅 08 소셜 미디어 스케줄링: 버퍼(18/월) vs Publer(0/월)\n\n✍️ 09 AI 글쓰기 도우미: Jasper(39/월) vs QuillBot(0/월)\n\n📊 10명의 프레젠테이션 메이커: Gamma(10/월) vs Canva(0/월)\n\n🗣️ 11개 보이스 생성: ElevenLabs(22/월) vs PlayHT(0/월)\n\n🎵 12 MUSIC GENERATION: Suno($10/월) vs Udio(0/월)\n\n😀 저장해서 무료로 사용해 보세요",
+  "topics": [],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DdOWXiyPmEo",
@@ -393,7 +444,13 @@
   ],
   "at": "2026-11-20T11:58:41+09:00",
   "caption": "💰【100株で配当金いくら？】\n日本株の年間配当金ランキング10選📊✨\n\n「配当金って実際いくらもらえるの？」\n「100株持ったら、年間でどれくらい？」\n\nそんな疑問をまとめました👇😊\n\n今回は、\n100株保有した場合の年間配当金の目安をランキング形式で紹介！\n\n🥇 東京海上HD\n年間配当金：約24,500円\n\n🥈 JT\n年間配当金：約24,200円\n\n🥉 商船三井\n年間配当金：約20,500円\n\nそのほかにも👇\n\n④ 日本郵船　約20,000円\n⑤ SOMPO HD　約20,000円\n⑥ 三井住友FG　約18,000円\n⑦ MS&AD　約17,000円\n⑧ 三井物産　約14,000円\n⑨ 三菱商事　約12,500円\n⑩ 川崎汽船　約12,000円\n\n※2026年9月時点の会社予想などをもとにした目安です。\n\n例えば、\n100株で年間2万円の配当なら…\n\n10年で約20万円✨\n20年なら約40万円✨\n\nさらに配当金を再投資すれば、\n資産形成の力をさらに高められる可能性もあります💰🌱\n\nただし、\n⚠️ 配当金は将来も同じとは限りません\n⚠️ 株価は変動します\n⚠️ 減配・無配になる可能性もあります\n\n「配当金が高い＝絶対におすすめ」\nではないので、\n会社の業績や財務状況などもチェックすることが大切です😊\n\n📌 気になる銘柄があったら\nあとで見返せるように【保存】しておこう！\n\n💬あなたならどの会社の株が気になる？\n「①東京海上」「②JT」みたいに\n番号でコメントしてね👇✨\n\n━━━━━━━━━━━━━━━\n🌱お金くん｜知って得するお金の知識\n\n💰貯金・節約・投資をわかりやすく発信中！\n👉@shin.okanewadaiji フォローしてね😊\n\n「知らなかった…」を減らして\n一緒にお金を育てていこう🌱\n━━━━━━━━━━━━━━━\n\n※配当金・株価・利回りは変動します。掲載情報は投稿作成時点の目安です。投資はご自身の判断・責任でお願いします。\n\n#日本株 #高配当株 #配当金 #株式投資 #投資初心者",
-  "captionKo": "💰【100주로 배당금 얼마? 】\n일본주의 연간 배당금 랭킹 10선 📊✨\n\n「배당금은 실제로 얼마를 받을 수 있는 거야?」\n\"100주가 있으면 연간 얼마나?\"\n\n그런 의문을 정리했습니다 👇😊\n\n이번에는\n100주 보유한 경우의 연간 배당금 기준을 랭킹 형식으로 소개!\n\n🥇 도쿄 해상 HD\n연간 배당금：약 24,500엔\n\n🥈 JT\n연간 배당금：약 24,200엔\n\n🥉 상선 미쓰이\n연간 배당금：약 20,500엔\n\n그 외에도 👇\n\n④ 일본 우선 약 20,000엔\n⑤ SOMPO HD 약 20,000엔\n⑥ 미쓰이 스미토모 FG 약 18,000엔\n⑦ MS&AD 약 17,000엔\n⑧ 미쓰이 물산 약 14,000엔\n⑨ 미쓰비시상사 약 12,500엔\n⑩ 가와사키 기선 약 12,000엔\n\n※2026년 9월 시점의 회사 예상 등을 바탕으로 한 기준입니다.\n\n예를 들어,\n100주로 연간 2만엔 배당이라면…\n\n10년에 약 20만엔✨\n20년이라면 약 40만엔✨\n\n또한 배당금을 재투자하면\n자산 형성의 힘을 더욱 높일 수 있습니다 💰🌱\n\n단,\n⚠️ 배당금은 미래에도 동일하지 않습니다.\n⚠️ 주가는 변동합니다\n⚠️ 감배·무배가 될 가능성도 있습니다\n\n「배당금이 높다=절대로 추천」\n아니기 때문에,\n회사의 실적이나 재무상황 등도 체크하는 것이 중요합니다 😊\n\n📌 신경이 쓰이는 종목이 있다면\n나중에 볼 수 있도록 【저장】 해 두자!\n\n💬 당신이라면 어떤 회사의 주식이 궁금하십니까?\n「①도쿄해상」「②JT」처럼\n번호로 댓글을 달아 👇✨\n\n━━━━━━━━━━━━━━━━\n🌱 돈 군 | 알고 얻는 돈 지식\n\n💰저금·절약·투자를 알기 쉽게 발신중!\n👉@shin.okanewadaiji 팔로우 😊\n\n\"몰랐다...\"를 줄이고\n함께 돈을 키우자 🌱\n━━━━━━━━━━━━━━━━\n\n※배당금・주가・수익률은 변동합니다. 게재 정보는 투고 작성 시점의 기준입니다. 투자는 자신의 판단·책임으로 부탁합니다.\n\n#일본주 #고배당주 #배당금 #주식투자 #투자 초보자"
+  "captionKo": "💰【100주로 배당금 얼마? 】\n일본주의 연간 배당금 랭킹 10선 📊✨\n\n「배당금은 실제로 얼마를 받을 수 있는 거야?」\n\"100주가 있으면 연간 얼마나?\"\n\n그런 의문을 정리했습니다 👇😊\n\n이번에는\n100주 보유한 경우의 연간 배당금 기준을 랭킹 형식으로 소개!\n\n🥇 도쿄 해상 HD\n연간 배당금：약 24,500엔\n\n🥈 JT\n연간 배당금：약 24,200엔\n\n🥉 상선 미쓰이\n연간 배당금：약 20,500엔\n\n그 외에도 👇\n\n④ 일본 우선 약 20,000엔\n⑤ SOMPO HD 약 20,000엔\n⑥ 미쓰이 스미토모 FG 약 18,000엔\n⑦ MS&AD 약 17,000엔\n⑧ 미쓰이 물산 약 14,000엔\n⑨ 미쓰비시상사 약 12,500엔\n⑩ 가와사키 기선 약 12,000엔\n\n※2026년 9월 시점의 회사 예상 등을 바탕으로 한 기준입니다.\n\n예를 들어,\n100주로 연간 2만엔 배당이라면…\n\n10년에 약 20만엔✨\n20년이라면 약 40만엔✨\n\n또한 배당금을 재투자하면\n자산 형성의 힘을 더욱 높일 수 있습니다 💰🌱\n\n단,\n⚠️ 배당금은 미래에도 동일하지 않습니다.\n⚠️ 주가는 변동합니다\n⚠️ 감배·무배가 될 가능성도 있습니다\n\n「배당금이 높다=절대로 추천」\n아니기 때문에,\n회사의 실적이나 재무상황 등도 체크하는 것이 중요합니다 😊\n\n📌 신경이 쓰이는 종목이 있다면\n나중에 볼 수 있도록 【저장】 해 두자!\n\n💬 당신이라면 어떤 회사의 주식이 궁금하십니까?\n「①도쿄해상」「②JT」처럼\n번호로 댓글을 달아 👇✨\n\n━━━━━━━━━━━━━━━━\n🌱 돈 군 | 알고 얻는 돈 지식\n\n💰저금·절약·투자를 알기 쉽게 발신중!\n👉@shin.okanewadaiji 팔로우 😊\n\n\"몰랐다...\"를 줄이고\n함께 돈을 키우자 🌱\n━━━━━━━━━━━━━━━━\n\n※배당금・주가・수익률은 변동합니다. 게재 정보는 투고 작성 시점의 기준입니다. 투자는 자신의 판단·책임으로 부탁합니다.\n\n#일본주 #고배당주 #배당금 #주식투자 #투자 초보자",
+  "topics": [
+   "stock",
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DbTFQh2iqkb",
@@ -429,7 +486,12 @@
   ],
   "at": "2026-11-20T11:58:25+09:00",
   "caption": "🤖 If you’ve used AI for content creation, you’ve probably run into this…\n\nOne website has the best image model. Another has the best video model. A third has a completely different feature. Before you know it, you’ve got multiple subscriptions and way too many browser tabs open. 😅\n\nThat’s why I like using a platform that brings the top AI models together in one place.\n\n🎥 Seedance 2\n🎬 Kling\n✨ Veo\n🖼️ FLUX\n🤖 GPT Image\n🎞️ Runway\n🌄 Imagen\n…and more.\n\nInstead of constantly switching websites, you can compare models, pick the one that works best for your project, and keep everything in a single workflow.\n\n👇 Comment “models” and I’ll send you the link!\n\nHashtags:\n\n#AITools #AIModels #ArtificialIntelligence #GenerativeAI #AIVideo AIImages KlingAI RunwayML GPTImage FLUX Veo ContentCreator VideoEditing CreativeAI TechTools Productivity Innovation TechReels FutureOfAI DigitalCreator",
-  "captionKo": "🤖 콘텐츠 제작에 AI를 사용해 본 적이 있다면 아마도 이런 상황에 직면했을 것입니다…\n\n한 웹사이트에는 최고의 이미지 모델이 있습니다. 다른 하나는 최고의 비디오 모델을 가지고 있습니다. 세 번째는 완전히 다른 기능을 가지고 있습니다. 당신이 알기도 전에 여러 개의 구독이 있고 너무 많은 브라우저 탭이 열려 있습니다. 😅\n\n그래서 나는 최고의 AI 모델을 한곳에 모으는 플랫폼을 사용하는 것을 좋아합니다.\n\n🎥 시드댄스 2\n🎬 클링\n✨ 베오\n🖼️ 플럭스\n🤖 GPT 이미지\n🎞️ 런웨이\n🌄 이미지\n…그리고 더 많은 것.\n\n지속적으로 웹 사이트를 전환하는 대신 모델을 비교하고, 프로젝트에 가장 적합한 모델을 선택하고, 모든 것을 단일 작업 흐름으로 유지할 수 있습니다.\n\n👇 모델명 댓글 달아주시면 링크 보내드려요!\n\n해시태그:\n\n#AITools #AI모델 #인공지능 #GenerativeAI #AIVideo AIImages KlingAI RunwayML GPTImage FLUX Veo ContentCreator VideoEditing CreativeAI TechTools 생산성 혁신 TechReels FutureOfAI DigitalCreator"
+  "captionKo": "🤖 콘텐츠 제작에 AI를 사용해 본 적이 있다면 아마도 이런 상황에 직면했을 것입니다…\n\n한 웹사이트에는 최고의 이미지 모델이 있습니다. 다른 하나는 최고의 비디오 모델을 가지고 있습니다. 세 번째는 완전히 다른 기능을 가지고 있습니다. 당신이 알기도 전에 여러 개의 구독이 있고 너무 많은 브라우저 탭이 열려 있습니다. 😅\n\n그래서 나는 최고의 AI 모델을 한곳에 모으는 플랫폼을 사용하는 것을 좋아합니다.\n\n🎥 시드댄스 2\n🎬 클링\n✨ 베오\n🖼️ 플럭스\n🤖 GPT 이미지\n🎞️ 런웨이\n🌄 이미지\n…그리고 더 많은 것.\n\n지속적으로 웹 사이트를 전환하는 대신 모델을 비교하고, 프로젝트에 가장 적합한 모델을 선택하고, 모든 것을 단일 작업 흐름으로 유지할 수 있습니다.\n\n👇 모델명 댓글 달아주시면 링크 보내드려요!\n\n해시태그:\n\n#AITools #AI모델 #인공지능 #GenerativeAI #AIVideo AIImages KlingAI RunwayML GPTImage FLUX Veo ContentCreator VideoEditing CreativeAI TechTools 생산성 혁신 TechReels FutureOfAI DigitalCreator",
+  "topics": [
+   "top"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "Dcvp4ooDO_j",
@@ -465,7 +527,12 @@
   ],
   "at": "2026-11-20T11:58:28+09:00",
   "caption": "【邊啲私樓屋苑樓價已搶先「返家鄉 」？】樓市喺上半年交投轉旺，咁究竟各大型屋苑樓價係咪已經重返高逢時期？\n\n中原地產研究部高級聯席董事楊明儀用數據同大家分析，仲歸納出反彈較強勁嘅屋苑有咩特徵！\n\n即上中原地產Youtube頻道收看完整版本。\n\n完整研究報告：Link in bio\n◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇\n\n免責條款：以上資訊僅供一般參考，實際情況或有變動。閣下應自行核實資料的準確性及完整性，中原地產不對資料的完整及/或準確性作出任何明示或隱含的保證，對因使用或依賴此內容而引致的任何損失或法律責任，概不負責。如有任何爭議，中原地產代理有限公司保留最終決定權。\n\n中原地產代理有限公司 牌照號碼 C-000227",
-  "captionKo": "['고향 복귀'를 앞두고 집값이 오르는 사유지는? ] 상반기 부동산 시장이 호황으로 전환했는데, 주요 부동산 가격이 최고점으로 돌아왔는가?\n\nCNA 부동산 연구부 수석 공동 이사 Yang Mingyi는 데이터를 사용하여 반등이 더 강한 부동산의 특성을 분석하고 요약합니다!\n\n지금 CNA Real Estate 유튜브 채널에서 풀버전을 시청하세요.\n\n전체 연구 보고서: 약력 링크\n쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬\n\n면책 조항: 위 정보는 일반적인 참고용일 뿐이며 실제 상황은 변경될 수 있습니다. 귀하는 정보의 정확성과 완전성을 직접 확인해야 하며, CNA는 정보의 완전성 및/또는 정확성에 대해 명시적 또는 묵시적 보증을 하며 이 콘텐츠의 사용 또는 의존으로 인해 발생하는 손실이나 책임에 대해 책임을 지지 않습니다. 분쟁이 발생할 경우 CNA Real Estate Agents Limited는 최종 결정을 내릴 권리를 보유합니다.\n\nCNA Real Estate Agents Limited 라이센스 번호 C-000227"
+  "captionKo": "['고향 복귀'를 앞두고 집값이 오르는 사유지는? ] 상반기 부동산 시장이 호황으로 전환했는데, 주요 부동산 가격이 최고점으로 돌아왔는가?\n\nCNA 부동산 연구부 수석 공동 이사 Yang Mingyi는 데이터를 사용하여 반등이 더 강한 부동산의 특성을 분석하고 요약합니다!\n\n지금 CNA Real Estate 유튜브 채널에서 풀버전을 시청하세요.\n\n전체 연구 보고서: 약력 링크\n쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬\n\n면책 조항: 위 정보는 일반적인 참고용일 뿐이며 실제 상황은 변경될 수 있습니다. 귀하는 정보의 정확성과 완전성을 직접 확인해야 하며, CNA는 정보의 완전성 및/또는 정확성에 대해 명시적 또는 묵시적 보증을 하며 이 콘텐츠의 사용 또는 의존으로 인해 발생하는 손실이나 책임에 대해 책임을 지지 않습니다. 분쟁이 발생할 경우 CNA Real Estate Agents Limited는 최종 결정을 내릴 권리를 보유합니다.\n\nCNA Real Estate Agents Limited 라이센스 번호 C-000227",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DaQLvisCDf2",
@@ -501,7 +568,10 @@
   ],
   "at": "2026-11-20T11:58:29+09:00",
   "caption": "This FREE Tool Reveals Hidden Market Edges",
-  "captionKo": "이 무료 도구는 숨겨진 시장 우위를 드러냅니다."
+  "captionKo": "이 무료 도구는 숨겨진 시장 우위를 드러냅니다.",
+  "topics": [],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "Dbc5Ie9BxLW",
@@ -537,7 +607,12 @@
   ],
   "at": "2026-11-20T11:58:29+09:00",
   "caption": "香港樓市正喺度發生 40 年未見嘅「恐怖異象」！業主蝕讓離場，租客卻要面對歷史新高嘅租金！到底是甚麼暗湧在背後推動？ \n睇完完整版影片，你會學到 3 個改變人生嘅重點：\n💡 看完這條完整影片，你將會學到： \n1️⃣ 拆解推動「租金破頂、樓價尋底」背後嘅三股資本與人口暗湧！ \n2️⃣ 2026-2027 年決定樓市走向嘅 4 大核心變數與「供平過租」臨界點！ \n3️⃣ 租客、準備買樓者、現任業主喺 2026 年最精準嘅「現金流保命對策」！ \n\n快啲去我 YouTube Channel 睇完整版！\n⚠️ 免責聲明：本頻道內容僅供參考，並非投資建議\n\n#講經MAN #投資理財 #香港樓市 #香港地產 #高才通 供平過租 樓價 租金 財經分析 香港租樓 置業指南",
-  "captionKo": "홍콩 부동산 시장은 40년 동안 볼 수 없었던 '끔찍한 비전'을 겪고 있다! 집주인은 손해를 보고 집을 떠나지만, 임차인은 사상 최고치의 임대료를 부담해야 합니다! 그 뒤에는 무엇이 운전되고 있습니까? \n전체 버전의 비디오를 시청한 후 인생을 바꾸는 3가지 핵심 사항을 배우게 됩니다.\n💡 이 전체 동영상을 시청한 후 다음 내용을 배우게 됩니다.\n1️⃣ \"임대료 최고점 돌파, 부동산 가격 최저점\" 추진 이면에 있는 자본과 인구의 3주를 해체하라! \n2️⃣ 2026~2027년 부동산시장 방향을 결정하는 4가지 핵심변수이자 '임대료보다 저렴'의 관전 포인트! \n3️⃣ 2026년 임차인, 매수자, 현 집주인을 위한 가장 정확한 '현금흐름 인명구조 대책'! \n\n풀 버전을 보려면 내 YouTube 채널을 방문하세요!\n⚠️ 면책조항: 이 채널의 내용은 참고용일 뿐이며 투자 조언이 아닙니다.\n\n#TalkMAN #InvestmentFinance #HongKongPropertyMarket #HongKongReal Estate #GaocaiTong 임대 부동산 가격보다 저렴하게 지불 임대료 금융 분석 홍콩 임대 부동산 가이드"
+  "captionKo": "홍콩 부동산 시장은 40년 동안 볼 수 없었던 '끔찍한 비전'을 겪고 있다! 집주인은 손해를 보고 집을 떠나지만, 임차인은 사상 최고치의 임대료를 부담해야 합니다! 그 뒤에는 무엇이 운전되고 있습니까? \n전체 버전의 비디오를 시청한 후 인생을 바꾸는 3가지 핵심 사항을 배우게 됩니다.\n💡 이 전체 동영상을 시청한 후 다음 내용을 배우게 됩니다.\n1️⃣ \"임대료 최고점 돌파, 부동산 가격 최저점\" 추진 이면에 있는 자본과 인구의 3주를 해체하라! \n2️⃣ 2026~2027년 부동산시장 방향을 결정하는 4가지 핵심변수이자 '임대료보다 저렴'의 관전 포인트! \n3️⃣ 2026년 임차인, 매수자, 현 집주인을 위한 가장 정확한 '현금흐름 인명구조 대책'! \n\n풀 버전을 보려면 내 YouTube 채널을 방문하세요!\n⚠️ 면책조항: 이 채널의 내용은 참고용일 뿐이며 투자 조언이 아닙니다.\n\n#TalkMAN #InvestmentFinance #HongKongPropertyMarket #HongKongReal Estate #GaocaiTong 임대 부동산 가격보다 저렴하게 지불 임대료 금융 분석 홍콩 임대 부동산 가이드",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "De9PhvCBnKA",
@@ -573,7 +648,12 @@
   ],
   "at": "2026-11-20T11:58:28+09:00",
   "caption": "📊 一週樓市 60 秒：樓價今個月升 0.2%，但鑽石山／黃大仙升咗 3.7%！\n\n• 全港樓價指數：按月 +0.2%、3 個月 +0.8%、12 個月 +11.3%，仍比 2021 年 10 月高峰低 16.3%\n• 近 4 星期登記 4,299 宗（+4.5%），一手約佔 26%，成交價中位數 $611 萬\n• 市況速遞：政府 10 月 15 日公布今季賣地：沙田石門住宅地約 960 伙；今個財政年度私樓土地供應約 15,680 伙，超過全年目標 12,600 伙\n• 1 個月 HIBOR 約 2.70%（10 月 20 日定價）\n\n你層樓而家值幾多？一分鐘估價 👉 https://www.homedash.hk/estimate/market-brief?utm_source=social&utm_medium=organic&utm_campaign=weekly_reel&utm_content=w43\n\n資料截至 2026 年 10 月 14 日；賣地資料來自政府新聞公報（2026-10-15），HIBOR 來自香港銀行公會。只供參考，不構成投資建議。\n#HomeDash家速 #香港樓市 #樓價 #一週樓市 #賣地",
-  "captionKo": "📊 주간 부동산 시장 60초 : 이번 달 부동산 가격은 0.2% 상승했지만, 다이아몬드힐/웡타이신은 3.7% 상승했습니다!\n\n• 국가 부동산 가격 지수: 전월 대비 +0.2%, 3개월 동안 +0.8%, 12개월 동안 +11.3%, 여전히 2021년 10월 최고치보다 16.3% 낮습니다.\n• 지난 4주 동안 4,299건(+4.5%)의 등록이 이루어졌으며 이는 직접 거래의 약 26%를 차지하며 중간 거래 가격은 611만 달러입니다.\n• Market Courier: 정부는 10월 15일 분기 동안 토지를 판매할 것이라고 발표했습니다. Sha Tin, Shek Mun에 약 960개의 주거용 토지;\n• 약 2.70%의 1개월 HIBOR(10월 20일 가격)\n\n지금 당신의 재산 가치는 얼마입니까? 1분 예상👉 https://www.homedash.hk/estimate/market-brief?utm_source=social&utm_medium=organic&utm_campaign=weekly_reel&utm_content=w43\n\n2026년 10월 14일 기준 데이터; 정부 언론 게시판(2026-10-15)의 토지 판매 정보, 홍콩 은행 협회의 HIBOR. 이는 참고용일 뿐 투자 조언이 아닙니다.\n#HomeDash #HongKongPropertyMarket #부동산 가격 #주간 부동산 시장 #토지 매매"
+  "captionKo": "📊 주간 부동산 시장 60초 : 이번 달 부동산 가격은 0.2% 상승했지만, 다이아몬드힐/웡타이신은 3.7% 상승했습니다!\n\n• 국가 부동산 가격 지수: 전월 대비 +0.2%, 3개월 동안 +0.8%, 12개월 동안 +11.3%, 여전히 2021년 10월 최고치보다 16.3% 낮습니다.\n• 지난 4주 동안 4,299건(+4.5%)의 등록이 이루어졌으며 이는 직접 거래의 약 26%를 차지하며 중간 거래 가격은 611만 달러입니다.\n• Market Courier: 정부는 10월 15일 분기 동안 토지를 판매할 것이라고 발표했습니다. Sha Tin, Shek Mun에 약 960개의 주거용 토지;\n• 약 2.70%의 1개월 HIBOR(10월 20일 가격)\n\n지금 당신의 재산 가치는 얼마입니까? 1분 예상👉 https://www.homedash.hk/estimate/market-brief?utm_source=social&utm_medium=organic&utm_campaign=weekly_reel&utm_content=w43\n\n2026년 10월 14일 기준 데이터; 정부 언론 게시판(2026-10-15)의 토지 판매 정보, 홍콩 은행 협회의 HIBOR. 이는 참고용일 뿐 투자 조언이 아닙니다.\n#HomeDash #HongKongPropertyMarket #부동산 가격 #주간 부동산 시장 #토지 매매",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "De4yBepgpBM",
@@ -609,7 +689,12 @@
   ],
   "at": "2026-11-20T11:58:30+09:00",
   "caption": "In 1970, five friends bought the same house in five countries: UK, US, France, Switzerland, Germany. Today, one of them has almost nothing to show for it. Which one? Where do you live, and did homes beat inflation there? #housingmarket #realestate #inflation #investing #personalfinance",
-  "captionKo": "1970년에 5명의 친구가 영국, 미국, 프랑스, ​​스위스, 독일 등 5개국에서 같은 집을 구입했습니다. 오늘날 그들 중 하나는 보여줄 것이 거의 없습니다. 어느 것? 당신은 어디에 살고 있습니까? 그곳에서 주택이 인플레이션을 극복했습니까? #주택시장 #부동산 #인플레이션 #투자 #개인금융"
+  "captionKo": "1970년에 5명의 친구가 영국, 미국, 프랑스, ​​스위스, 독일 등 5개국에서 같은 집을 구입했습니다. 오늘날 그들 중 하나는 보여줄 것이 거의 없습니다. 어느 것? 당신은 어디에 살고 있습니까? 그곳에서 주택이 인플레이션을 극복했습니까? #주택시장 #부동산 #인플레이션 #투자 #개인금융",
+  "topics": [
+   "property"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "Dah2w26IT3M",
@@ -645,7 +730,12 @@
   ],
   "at": "2026-11-20T11:58:31+09:00",
   "caption": "Despite the UK recording its steepest June house price decline in 14 years, London’s property market continues to outperform, with prices remaining resilient and demand for Prime Central London staying strong.\n\nIn this month’s update, we explore the latest trends across London’s sales and rental markets, including house price movements, mortgage rates, rental demand, and how landlords are adapting to the Renters’ Rights Act. We also look at why London remains one of the world’s most attractive destinations for buyers, investors and landlords.\n\nWatch Marc’s Renters’ Rights Act video series here:\nhttps://www.youtube.com/playlist?list=PLeiNU-XjguldXQWda4TFjhpzIDrjiEXSc\n\nWhether you’re buying, selling, investing or letting, this update highlights the key trends shaping London’s property market and what they could mean for you.\n\n#LondonProperty #UKPropertyMarket #PropertyInvestment #RentalMarket",
-  "captionKo": "영국이 14년 만에 가장 가파른 6월 주택 가격 하락을 기록했음에도 불구하고, 런던의 부동산 시장은 가격이 여전히 회복세를 보이고 프라임 센트럴 런던에 대한 수요가 강세를 유지하면서 계속해서 좋은 성과를 보이고 있습니다.\n\n이번 달 업데이트에서는 주택 가격 변동, 모기지 금리, 임대 수요, 집주인이 임차인 권리법에 적응하는 방법 등 런던 판매 및 임대 시장 전반의 최신 동향을 살펴봅니다. 또한 런던이 구매자, 투자자 및 집주인에게 세계에서 가장 매력적인 목적지 중 하나로 남아 있는 이유도 살펴봅니다.\n\n여기에서 Marc의 임차인 권리법 비디오 시리즈를 시청하세요:\nhttps://www.youtube.com/playlist?list=PLeiNU-XjguldXQWda4TFjhpzIDrjiEXSc\n\n구매, 판매, 투자 또는 임대 여부에 관계없이 이 업데이트는 런던의 부동산 시장을 형성하는 주요 동향과 이것이 귀하에게 의미하는 바를 강조합니다.\n\n#LondonProperty #UKPropertyMarket #부동산 투자 #RentalMarket"
+  "captionKo": "영국이 14년 만에 가장 가파른 6월 주택 가격 하락을 기록했음에도 불구하고, 런던의 부동산 시장은 가격이 여전히 회복세를 보이고 프라임 센트럴 런던에 대한 수요가 강세를 유지하면서 계속해서 좋은 성과를 보이고 있습니다.\n\n이번 달 업데이트에서는 주택 가격 변동, 모기지 금리, 임대 수요, 집주인이 임차인 권리법에 적응하는 방법 등 런던 판매 및 임대 시장 전반의 최신 동향을 살펴봅니다. 또한 런던이 구매자, 투자자 및 집주인에게 세계에서 가장 매력적인 목적지 중 하나로 남아 있는 이유도 살펴봅니다.\n\n여기에서 Marc의 임차인 권리법 비디오 시리즈를 시청하세요:\nhttps://www.youtube.com/playlist?list=PLeiNU-XjguldXQWda4TFjhpzIDrjiEXSc\n\n구매, 판매, 투자 또는 임대 여부에 관계없이 이 업데이트는 런던의 부동산 시장을 형성하는 주요 동향과 이것이 귀하에게 의미하는 바를 강조합니다.\n\n#LondonProperty #UKPropertyMarket #부동산 투자 #RentalMarket",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "Da5A6mBCuni",
@@ -681,7 +771,12 @@
   ],
   "at": "2026-11-20T11:58:33+09:00",
   "caption": "This is taken from TikTok from another account based on housing in England, do you think this is accurate?\n\nI think it’s slightly off. UK housing has so many variations of houses / estates it’s hard to pin point classes into particular properties.\n\nWhat’s your thoughts?\n\nComment INVEST if you want help building your portfolio.\nComment LEARN if you want the free training/blueprint.\n\nReturns are not guaranteed and depend on market conditions, property performance, and other factors. This is for informational purposes only and does not constitute financial advice. Past performance does not indicate future results.\n\n#ukpropertyinvestment #propertyinvestoruk #investinginproperty",
-  "captionKo": "이것은 영국 주택에 기반을 둔 다른 계정의 TikTok에서 가져온 것입니다. 이것이 정확하다고 생각하십니까?\n\n조금 벗어난 것 같아요. 영국 주택에는 주택/부동산의 종류가 너무 많아서 특정 부동산에 대한 포인트 등급을 지정하기가 어렵습니다.\n\n당신의 생각은 무엇입니까?\n\n포트폴리오 구축에 도움이 필요하시면 INVEST에 댓글을 달아주세요.\n무료 교육/청사진을 원하시면 LEARN에 댓글을 남겨주세요.\n\n반품은 보장되지 않으며 시장 상황, 부동산 실적 및 기타 요인에 따라 달라집니다. 이는 정보 제공의 목적으로만 제공되며 재정적 조언을 구성하지 않습니다. 과거 성과는 미래 결과를 나타내지 않습니다.\n\n#ukpropertyinvestment #propertyinvestoruk #investinginproperty"
+  "captionKo": "이것은 영국 주택에 기반을 둔 다른 계정의 TikTok에서 가져온 것입니다. 이것이 정확하다고 생각하십니까?\n\n조금 벗어난 것 같아요. 영국 주택에는 주택/부동산의 종류가 너무 많아서 특정 부동산에 대한 포인트 등급을 지정하기가 어렵습니다.\n\n당신의 생각은 무엇입니까?\n\n포트폴리오 구축에 도움이 필요하시면 INVEST에 댓글을 달아주세요.\n무료 교육/청사진을 원하시면 LEARN에 댓글을 남겨주세요.\n\n반품은 보장되지 않으며 시장 상황, 부동산 실적 및 기타 요인에 따라 달라집니다. 이는 정보 제공의 목적으로만 제공되며 재정적 조언을 구성하지 않습니다. 과거 성과는 미래 결과를 나타내지 않습니다.\n\n#ukpropertyinvestment #propertyinvestoruk #investinginproperty",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DbLrDqmiM0v",
@@ -717,7 +812,12 @@
   ],
   "at": "2026-11-20T11:58:30+09:00",
   "caption": "UK House Prices Projected to Surge by 21.6% by 2028! 🏡📈\n\n• £100K property 📈 £121,600\n• £200K property 📈 £243,200\n• £300K property 📈£364,800\n• £400K property 📈 £486,400\n• £500K property 📈£608,000\n\nAre you planning to buy a property this year? 👇🏽\n\nComment INVEST if you want help building your portfolio.\nComment LEARN if you want the free training/blueprint.\n\nReturns are not guaranteed and depend on market conditions, property performance, and other factors. This is for informational purposes only and does not constitute financial advice. Past performance does not indicate future results.\n\n#ukpropertyinvestment #propertyinvestoruk #investinginproperty",
-  "captionKo": "영국 주택 가격은 2028년까지 21.6% 급등할 것으로 예상됩니다! 🏡📈\n\n• £100,000 부동산 📈 £121,600\n• £200K 부동산 📈 £243,200\n• £300K 부동산 📈£364,800\n• £400K 부동산 📈 £486,400\n• £500K 부동산 📈£608,000\n\n올해 부동산을 구입할 계획이신가요? 👇🏻\n\n포트폴리오 구축에 도움이 필요하시면 INVEST에 댓글을 달아주세요.\n무료 교육/청사진을 원하시면 LEARN에 댓글을 남겨주세요.\n\n반품은 보장되지 않으며 시장 상황, 부동산 실적 및 기타 요인에 따라 달라집니다. 이는 정보 제공의 목적으로만 제공되며 재정적 조언을 구성하지 않습니다. 과거 성과는 미래 결과를 나타내지 않습니다.\n\n#ukpropertyinvestment #propertyinvestoruk #investinginproperty"
+  "captionKo": "영국 주택 가격은 2028년까지 21.6% 급등할 것으로 예상됩니다! 🏡📈\n\n• £100,000 부동산 📈 £121,600\n• £200K 부동산 📈 £243,200\n• £300K 부동산 📈£364,800\n• £400K 부동산 📈 £486,400\n• £500K 부동산 📈£608,000\n\n올해 부동산을 구입할 계획이신가요? 👇🏻\n\n포트폴리오 구축에 도움이 필요하시면 INVEST에 댓글을 달아주세요.\n무료 교육/청사진을 원하시면 LEARN에 댓글을 남겨주세요.\n\n반품은 보장되지 않으며 시장 상황, 부동산 실적 및 기타 요인에 따라 달라집니다. 이는 정보 제공의 목적으로만 제공되며 재정적 조언을 구성하지 않습니다. 과거 성과는 미래 결과를 나타내지 않습니다.\n\n#ukpropertyinvestment #propertyinvestoruk #investinginproperty",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DUEIBYMDY-3",
@@ -753,7 +853,13 @@
   ],
   "at": "2026-11-20T11:58:44+09:00",
   "caption": "First-time buyers: know your Stamp Duty 💰\n \nHere’s a quick look at how much Stamp Duty you’ll pay depending on your property price. Planning ahead helps you budget with confidence when buying your first home.\n \n#FirstTimeBuyer #StampDuty #HomeBuying #PropertyTips #UKProperty Setfords",
-  "captionKo": "최초 구매자: 인지세를 알아두세요 💰\n \n부동산 가격에 따라 지불하게 될 인지세 금액을 간단히 살펴보겠습니다. 미리 계획을 세우면 첫 주택 구입 시 자신 있게 예산을 세우는 데 도움이 됩니다.\n \n#첫 번째 구매자 #StampDuty #HomeBuying #PropertyTips #UKProperty Setfords"
+  "captionKo": "최초 구매자: 인지세를 알아두세요 💰\n \n부동산 가격에 따라 지불하게 될 인지세 금액을 간단히 살펴보겠습니다. 미리 계획을 세우면 첫 주택 구입 시 자신 있게 예산을 세우는 데 도움이 됩니다.\n \n#첫 번째 구매자 #StampDuty #HomeBuying #PropertyTips #UKProperty Setfords",
+  "topics": [
+   "etf",
+   "property"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DbC8THMvVXo",
@@ -789,7 +895,12 @@
   ],
   "at": "2026-11-20T11:58:33+09:00",
   "caption": "Compare localities and track price trends to make smarter home-buying decisions, only on Housing.com📉✅\nHar House Ke Liye Housing.🤗🏠\n\n#Housing #smartbuying #pricetrends #localitycomparison #decisionmaking",
-  "captionKo": "Housing.com에서만 지역을 비교하고 가격 추세를 추적하여 더욱 현명한 주택 구입 결정을 내리세요📉✅\nHar House Ke Liye Housing.🤗🏠\n\n#주택 #스마트구매 #가격동향 #지역비교 #의사결정"
+  "captionKo": "Housing.com에서만 지역을 비교하고 가격 추세를 추적하여 더욱 현명한 주택 구입 결정을 내리세요📉✅\nHar House Ke Liye Housing.🤗🏠\n\n#주택 #스마트구매 #가격동향 #지역비교 #의사결정",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DbBOarpT19r",
@@ -825,7 +936,12 @@
   ],
   "at": "2026-11-20T11:58:35+09:00",
   "caption": "This AI tool could SAVE real estate agents thousands on every property.\n\nThe agents who win will be the ones who use it first.\nImagine walking through a property for just two minutes with your phone and instantly getting a precise 3D model, accurate measurements, and a floor plan. No expensive equipment. No waiting days. No repeated site visits.\n\nThis is what AI looks like in the real world. It doesn't just save money. It saves time, removes friction, and helps you close deals faster. The biggest advantage is rarely the tool itself. It's recognizing where the leverage is before everyone else does.\n\nThe agents who adapt early won't just work smarter. They'll build an edge that's hard to catch.",
-  "captionKo": "이 AI 도구는 모든 부동산에 대해 수천 명의 부동산 중개인을 절약할 수 있습니다.\n\n승리하는 에이전트는 이를 먼저 사용하는 에이전트가 됩니다.\n휴대폰을 들고 단 2분 동안 부동산을 둘러보고 즉시 정확한 3D 모델, 정확한 측정값 및 평면도를 얻는다고 상상해 보십시오. 값비싼 장비는 없습니다. 대기일이 없습니다. 반복적인 사이트 방문이 없습니다.\n\n이것이 현실 세계의 AI 모습입니다. 그것은 단지 돈을 절약하는 것이 아닙니다. 시간을 절약하고 마찰을 제거하며 거래를 더 빨리 성사시키는 데 도움이 됩니다. 가장 큰 장점은 도구 자체가 아닙니다. 다른 사람보다 먼저 레버리지가 어디에 있는지 인식하는 것입니다.\n\n일찍 적응한 상담원은 단지 더 똑똑하게 일할 수는 없습니다. 그들은 잡기 어려운 우위를 구축할 것입니다."
+  "captionKo": "이 AI 도구는 모든 부동산에 대해 수천 명의 부동산 중개인을 절약할 수 있습니다.\n\n승리하는 에이전트는 이를 먼저 사용하는 에이전트가 됩니다.\n휴대폰을 들고 단 2분 동안 부동산을 둘러보고 즉시 정확한 3D 모델, 정확한 측정값 및 평면도를 얻는다고 상상해 보십시오. 값비싼 장비는 없습니다. 대기일이 없습니다. 반복적인 사이트 방문이 없습니다.\n\n이것이 현실 세계의 AI 모습입니다. 그것은 단지 돈을 절약하는 것이 아닙니다. 시간을 절약하고 마찰을 제거하며 거래를 더 빨리 성사시키는 데 도움이 됩니다. 가장 큰 장점은 도구 자체가 아닙니다. 다른 사람보다 먼저 레버리지가 어디에 있는지 인식하는 것입니다.\n\n일찍 적응한 상담원은 단지 더 똑똑하게 일할 수는 없습니다. 그들은 잡기 어려운 우위를 구축할 것입니다.",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "Dejt6zjRdPD",
@@ -861,7 +977,12 @@
   ],
   "at": "2026-11-20T11:58:34+09:00",
   "caption": "🏡 Every house has a story. Understanding what’s there today is only part of it.\n\nFor real estate agents, helping a client explore a property means asking better questions about its value, its possibilities, and its limits.\n\n🤖 Breezy brings AI-powered comps and UnderBuilt property insights into that process. From the UnderBuilt Score to maximum home size and building guidelines, the report helps agents explore development potential and have more informed conversations with clients.\n\nYou can also customize the report with your branding and commentary, then download and share it.\n\n🔗 Agents, explore Breezy through the link in my bio, or comment “BREEZY” below and I’ll send you the link to download.\n\n#breezy #newconstructionhomes #luxuryhomesorlando",
-  "captionKo": "🏡 집집마다 이야기가 있어요. 오늘날 존재하는 것을 이해하는 것은 그것의 일부일 뿐입니다.\n\n부동산 중개인에게 있어 고객이 부동산을 탐색하도록 돕는 것은 부동산의 가치, 가능성 및 한계에 대해 더 나은 질문을 하는 것을 의미합니다.\n\n🤖 Breezy는 AI 기반 구성 요소와 UnderBuilt 속성 통찰력을 해당 프로세스에 제공합니다. UnderBuilt 점수부터 최대 주택 크기 및 건물 지침에 이르기까지 보고서는 중개인이 개발 잠재력을 탐색하고 고객과 더 많은 정보를 바탕으로 대화할 수 있도록 도와줍니다.\n\n또한 브랜딩과 설명을 사용하여 보고서를 사용자 정의한 다음 다운로드하고 공유할 수도 있습니다.\n\n🔗 에이전트 여러분, 내 약력의 링크를 통해 Breezy를 살펴보시거나 아래에 \"BREEZY\"라고 댓글을 남겨 주시면 다운로드 링크를 보내드리겠습니다.\n\n#breezy #newconstructionhomes #luxuryhomesorlando"
+  "captionKo": "🏡 집집마다 이야기가 있어요. 오늘날 존재하는 것을 이해하는 것은 그것의 일부일 뿐입니다.\n\n부동산 중개인에게 있어 고객이 부동산을 탐색하도록 돕는 것은 부동산의 가치, 가능성 및 한계에 대해 더 나은 질문을 하는 것을 의미합니다.\n\n🤖 Breezy는 AI 기반 구성 요소와 UnderBuilt 속성 통찰력을 해당 프로세스에 제공합니다. UnderBuilt 점수부터 최대 주택 크기 및 건물 지침에 이르기까지 보고서는 중개인이 개발 잠재력을 탐색하고 고객과 더 많은 정보를 바탕으로 대화할 수 있도록 도와줍니다.\n\n또한 브랜딩과 설명을 사용하여 보고서를 사용자 정의한 다음 다운로드하고 공유할 수도 있습니다.\n\n🔗 에이전트 여러분, 내 약력의 링크를 통해 Breezy를 살펴보시거나 아래에 \"BREEZY\"라고 댓글을 남겨 주시면 다운로드 링크를 보내드리겠습니다.\n\n#breezy #newconstructionhomes #luxuryhomesorlando",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "Dak4sDcImEx",
@@ -897,7 +1018,12 @@
   ],
   "at": "2026-11-20T11:58:33+09:00",
   "caption": "**Find Your Unit.**\n\nFinding the right apartment shouldn’t feel overwhelming.\n\nInstead of searching through floor plans, spreadsheets, and long price lists, buyers can instantly filter and compare available units based on what matters most.\n\nPrice, floor, size, orientation, view, availability... everything is accessible in one interactive experience.\n\nThe result?\n\nLess time searching.\nMore time deciding.\n\n✔ Smart unit search\n✔ Real-time availability\n✔ Instant filtering & comparison\n✔ Faster buyer decisions\n\n**Experience sells.**\n\n#RealEstate #PropTech #UnrealEngine",
-  "captionKo": "**귀하의 장치를 찾으십시오.**\n\n적합한 아파트를 찾는 것이 부담스러워서는 안 됩니다.\n\n평면도, 스프레드시트, 긴 가격표를 검색하는 대신 구매자는 가장 중요한 항목을 기준으로 사용 가능한 단위를 즉시 필터링하고 비교할 수 있습니다.\n\n가격, 층수, 크기, 방향, 전망, 가용성 등 모든 것을 하나의 대화형 환경에서 액세스할 수 있습니다.\n\n결과는?\n\n검색 시간이 단축됩니다.\n결정하는 데 더 많은 시간이 걸립니다.\n\n✔ 스마트 유닛 검색\n✔ 실시간 가용성\n✔ 즉각적인 필터링 및 비교\n✔ 더 빠른 구매자 결정\n\n**경험이 중요합니다.**\n\n#부동산 #PropTech #UnrealEngine"
+  "captionKo": "**귀하의 장치를 찾으십시오.**\n\n적합한 아파트를 찾는 것이 부담스러워서는 안 됩니다.\n\n평면도, 스프레드시트, 긴 가격표를 검색하는 대신 구매자는 가장 중요한 항목을 기준으로 사용 가능한 단위를 즉시 필터링하고 비교할 수 있습니다.\n\n가격, 층수, 크기, 방향, 전망, 가용성 등 모든 것을 하나의 대화형 환경에서 액세스할 수 있습니다.\n\n결과는?\n\n검색 시간이 단축됩니다.\n결정하는 데 더 많은 시간이 걸립니다.\n\n✔ 스마트 유닛 검색\n✔ 실시간 가용성\n✔ 즉각적인 필터링 및 비교\n✔ 더 빠른 구매자 결정\n\n**경험이 중요합니다.**\n\n#부동산 #PropTech #UnrealEngine",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DdWg6bhsyii",
@@ -933,7 +1059,12 @@
   ],
   "at": "2026-11-20T11:58:37+09:00",
   "caption": "400.000 € Kaufpreis heißt eben nicht, dass dich die Immobilie 400.000 € kostet. 👀\n\nIn NRW kommen beim Kauf in diesem Beispiel noch dazu:\n\n🏠 6,5% Grunderwerbsteuer\n✍️ ca. 2% Notar & Gericht\n🤝 3,57% Maklerprovision\n\nMacht insgesamt rund 48.280 € Kaufnebenkosten.\n\nUnd genau diese Kosten werden bei der ersten Finanzierungsplanung gerne mal unterschätzt.\n\nIm Video rechne ich einmal ganz einfach vor, womit du bei einem Kaufpreis von 400.000 € wirklich rechnen solltest.\n\nSpeicher dir das Video ab, wenn ein Immobilienkauf bei dir in nächster Zeit ein Thema ist. 👌",
-  "captionKo": "구매 가격이 €400,000라고 해서 해당 부동산의 가격이 €400,000가 되는 것은 아닙니다. 🙌\n\n이 예에서는 노스라인-웨스트팔리아에서 구매에 다음이 포함됩니다.\n\n🏠 부동산 양도세 6.5%\n✍️ 약. 2% 공증인 및 법원\n🤝 3.57% 브로커 수수료\n\n이로 인해 추가 구매 비용으로 총 약 €48,280가 발생합니다.\n\n그리고 초기 자금 조달 계획 중에 종종 과소평가되는 것은 바로 이러한 비용입니다.\n\n비디오에서는 €400,000의 구매 가격에 대해 실제로 기대해야 할 금액을 간단하게 계산합니다.\n\n가까운 시일 내에 부동산 구입을 염두에 두고 있다면 동영상을 저장하세요. 👌"
+  "captionKo": "구매 가격이 €400,000라고 해서 해당 부동산의 가격이 €400,000가 되는 것은 아닙니다. 🙌\n\n이 예에서는 노스라인-웨스트팔리아에서 구매에 다음이 포함됩니다.\n\n🏠 부동산 양도세 6.5%\n✍️ 약. 2% 공증인 및 법원\n🤝 3.57% 브로커 수수료\n\n이로 인해 추가 구매 비용으로 총 약 €48,280가 발생합니다.\n\n그리고 초기 자금 조달 계획 중에 종종 과소평가되는 것은 바로 이러한 비용입니다.\n\n비디오에서는 €400,000의 구매 가격에 대해 실제로 기대해야 할 금액을 간단하게 계산합니다.\n\n가까운 시일 내에 부동산 구입을 염두에 두고 있다면 동영상을 저장하세요. 👌",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "Dcqy6pko8c6",
@@ -969,7 +1100,12 @@
   ],
   "at": "2026-11-20T11:58:37+09:00",
   "caption": "Bevor du die nächste Immobilie kaufst, solltest du eine Sache unbedingt wissen:\n\n👉 Was verdient diese Immobilie wirklich für dich?\n\nNicht nur die Kaltmiete anschauen und denken „sieht gut aus“.\n\nDenn Kaufpreis, Finanzierung, Zinsen, Tilgung, Nebenkosten, Instandhaltung, Steuern und Abschreibung können aus einer vermeintlich guten Immobilie schnell einen schlechten Deal machen.\n\nGenau deshalb habe ich diesen Rechner gebaut.\n\nDu gibst die wichtigsten Zahlen deiner Immobilie ein und bekommst einen Überblick darüber, ob sich der Kauf wirklich lohnt.\n\nUnd das Beste: Du bekommst ihn von mir geschenkt. 🎁\n\nWenn du gerade suchst, schon eine Immobilie gefunden hast oder einfach endlich verstehen willst, ob ein Deal gut ist:\n\n💬 Kommentiere „RECHNER“ – dann schicke ich ihn dir.",
-  "captionKo": "다음 부동산을 구입하기 전에 반드시 알아야 할 한 가지가 있습니다.\n\n👉 이 부동산이 당신에게 정말로 가치가 있는 것은 무엇입니까?\n\n기본세만 보고 '괜찮아 보인다'라고 생각하지 마세요.\n\n구매 가격, 자금 조달, 이자, 상환, 추가 비용, 유지 관리, 세금 및 감가 상각으로 인해 좋은 부동산이 나쁜 거래로 빠르게 바뀔 수 있습니다.\n\n이것이 바로 제가 이 계산기를 만든 이유입니다.\n\n귀하의 부동산에 대해 가장 중요한 숫자를 입력하고 구매가 실제로 가치가 있는지에 대한 개요를 얻을 수 있습니다.\n\n그리고 가장 좋은 점은 당신이 그것을 나에게서 선물로 받는다는 것입니다. 🎁\n\n현재 찾고 계시거나, 이미 부동산을 찾았거나, 거래가 좋은지 최종적으로 알아보고 싶으신 경우:\n\n💬 “CALCULATOR” 댓글을 남겨주시면 보내드리겠습니다."
+  "captionKo": "다음 부동산을 구입하기 전에 반드시 알아야 할 한 가지가 있습니다.\n\n👉 이 부동산이 당신에게 정말로 가치가 있는 것은 무엇입니까?\n\n기본세만 보고 '괜찮아 보인다'라고 생각하지 마세요.\n\n구매 가격, 자금 조달, 이자, 상환, 추가 비용, 유지 관리, 세금 및 감가 상각으로 인해 좋은 부동산이 나쁜 거래로 빠르게 바뀔 수 있습니다.\n\n이것이 바로 제가 이 계산기를 만든 이유입니다.\n\n귀하의 부동산에 대해 가장 중요한 숫자를 입력하고 구매가 실제로 가치가 있는지에 대한 개요를 얻을 수 있습니다.\n\n그리고 가장 좋은 점은 당신이 그것을 나에게서 선물로 받는다는 것입니다. 🎁\n\n현재 찾고 계시거나, 이미 부동산을 찾았거나, 거래가 좋은지 최종적으로 알아보고 싶으신 경우:\n\n💬 “CALCULATOR” 댓글을 남겨주시면 보내드리겠습니다.",
+  "topics": [
+   "property"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "Dc1kz_GvyJl",
@@ -1005,7 +1141,12 @@
   ],
   "at": "2026-11-20T11:58:37+09:00",
   "caption": "\"AI makes buying a home cheaper.\" I went head to head with the CEO of TurboHome, a discount AI based brokerage on Newsmax. I love AI, but there are things that AI just cannot do as well as a human. How’d I do? ￼👇",
-  "captionKo": "\"AI로 인해 주택 구입 비용이 더 저렴해졌습니다.\" 나는 Newsmax의 AI 기반 할인 중개업체인 TurboHome의 CEO와 직접 대결했습니다. 저는 AI를 좋아하지만 AI가 인간만큼 할 수 없는 일이 있습니다. 난 어땠어? 👇👇"
+  "captionKo": "\"AI로 인해 주택 구입 비용이 더 저렴해졌습니다.\" 나는 Newsmax의 AI 기반 할인 중개업체인 TurboHome의 CEO와 직접 대결했습니다. 저는 AI를 좋아하지만 AI가 인간만큼 할 수 없는 일이 있습니다. 난 어땠어? 👇👇",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "Dci-oDkgtVA",
@@ -1041,7 +1182,13 @@
   ],
   "at": "2026-11-20T11:58:35+09:00",
   "caption": "Immobiliensuche mit ChatGPT? 🤖🏠 Funktioniert super, wenn du der KI die richtigen Fragen stellst!⁠\n⁠\nEgal ob Prioritäten ordnen, einen “Lage-Check” oder wenn du Fachbegriffe verstehen möchtest. Mit den passenden Prompts holst du in Sekunden das Beste aus der KI heraus.⁠\n⁠\nKopiere dir einfach diese Prompts für deinen Start: 👇⁠\n⁠\n📌 Prompt 1: Prioritäten ordnen⁠\n⁠\n\"Ich möchte eine Immobilie kaufen für [Familiensituation/Zukunftspläne]. Stelle mir 10 gezielte Fragen, um herauszufinden, was mir bei Lage, Größe und Ausstattung wichtig ist. Gehe die Fragen bitte einzeln mit mir durch.\"⁠\n⁠\n📌 Prompt 2: Lage & Umfeld checken⁠\n⁠\n\"Worauf sollte ich bei der Infrastruktur, Entwicklung und Lebensqualität achten, wenn ich in [Stadtteil/Region] eine Immobilie kaufen möchte?\"⁠\n⁠\n📌 Prompt 3: Fachbegriffe verstehen⁠\n⁠\n\"Erkläre mir Begriffe wie Grundschuld, Tilgungssatz und Nebenkosten beim Immobilienkauf in einfachen Worten so, dass es ein 12-Jähriger versteht.\"⁠\n⁠\nAber Achtung: KI kann dir beim Brainstorming oder bei der Suche auf Immobilen-Portalen helfen, aber deine Bonität bewerten, Förderungen individuell prüfen oder Zinsen bei über 600 Banken vergleichen? Dafür sind wir da! 😊 Denn da zählen Marktüberblick, persönliche Beratung und echtes Detailwissen.⁠\n⁠\nSpeichere dir diesen Post direkt ab, damit du die Prompts bei deiner Suche griffbereit hast! 💡⁠\n⁠\n#Baufinanzierung #Immobiliensuche #ChatGPT #ImmobilienKauf #Baufi24",
-  "captionKo": "ChatGPT로 부동산을 검색하시나요? 🤖🏠 AI에게 올바른 질문을 하면 훌륭하게 작동합니다!⁠\n⁠\n우선 순위 조정, \"상황 확인\" 또는 기술 용어를 이해하려는 경우. 적절한 메시지를 사용하면 단 몇 초 만에 AI를 최대한 활용할 수 있습니다.⁠\n⁠\n시작하려면 다음 메시지를 복사하세요. 👇⁠\n⁠\n😀 프롬프트 1: 우선순위 정리⁠\n⁠\n\"[가족 상황/향후 계획]을 위해 부동산을 사고 싶습니다. 10가지 구체적인 질문을 통해 위치, 규모, 편의 시설 측면에서 나에게 중요한 것이 무엇인지 알아보세요. 질문을 개별적으로 살펴보시기 바랍니다.\"⁠\n⁠\n😀 프롬프트 2: 위치 및 주변 환경 확인⁠\n⁠\n\"[지구/지역]에서 부동산을 구입하려면 인프라, 개발, 삶의 질 측면에서 무엇에 주의해야 합니까?\"⁠\n⁠\n😀 프롬프트 3: 기술 용어 이해하기⁠\n⁠\n\"부동산 구입 시 모기지론, 상환율, 추가 비용 등의 용어를 12세 어린이도 이해할 수 있는 간단한 용어로 설명해주세요.\"\n⁠\n하지만 조심하세요. AI는 브레인스토밍이나 부동산 포털 검색에 도움을 줄 수 있지만 신용도 평가, 개별 보조금 확인, 600개가 넘는 은행의 이자율 비교에는 도움이 되지 않습니까? 그것이 우리가 여기 있는 이유입니다! 😊 중요한 것은 시장 개요, 개인적인 조언, 실제적인 세부 지식이기 때문입니다.⁠\n⁠\n검색 시 프롬프트를 바로 확인할 수 있도록 이 게시물을 즉시 저장하세요! 💡⁠\n⁠\n#건설금융 #부동산검색 #ChatGPT #ImmobilienKauf #Baufi24"
+  "captionKo": "ChatGPT로 부동산을 검색하시나요? 🤖🏠 AI에게 올바른 질문을 하면 훌륭하게 작동합니다!⁠\n⁠\n우선 순위 조정, \"상황 확인\" 또는 기술 용어를 이해하려는 경우. 적절한 메시지를 사용하면 단 몇 초 만에 AI를 최대한 활용할 수 있습니다.⁠\n⁠\n시작하려면 다음 메시지를 복사하세요. 👇⁠\n⁠\n😀 프롬프트 1: 우선순위 정리⁠\n⁠\n\"[가족 상황/향후 계획]을 위해 부동산을 사고 싶습니다. 10가지 구체적인 질문을 통해 위치, 규모, 편의 시설 측면에서 나에게 중요한 것이 무엇인지 알아보세요. 질문을 개별적으로 살펴보시기 바랍니다.\"⁠\n⁠\n😀 프롬프트 2: 위치 및 주변 환경 확인⁠\n⁠\n\"[지구/지역]에서 부동산을 구입하려면 인프라, 개발, 삶의 질 측면에서 무엇에 주의해야 합니까?\"⁠\n⁠\n😀 프롬프트 3: 기술 용어 이해하기⁠\n⁠\n\"부동산 구입 시 모기지론, 상환율, 추가 비용 등의 용어를 12세 어린이도 이해할 수 있는 간단한 용어로 설명해주세요.\"\n⁠\n하지만 조심하세요. AI는 브레인스토밍이나 부동산 포털 검색에 도움을 줄 수 있지만 신용도 평가, 개별 보조금 확인, 600개가 넘는 은행의 이자율 비교에는 도움이 되지 않습니까? 그것이 우리가 여기 있는 이유입니다! 😊 중요한 것은 시장 개요, 개인적인 조언, 실제적인 세부 지식이기 때문입니다.⁠\n⁠\n검색 시 프롬프트를 바로 확인할 수 있도록 이 게시물을 즉시 저장하세요! 💡⁠\n⁠\n#건설금융 #부동산검색 #ChatGPT #ImmobilienKauf #Baufi24",
+  "topics": [
+   "property",
+   "top"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DQybzcJFRgB",
@@ -1077,7 +1224,13 @@
   ],
   "at": "2026-11-20T11:58:42+09:00",
   "caption": "Welcher ETF für Deinen Vermögensaufbau besonders gut ist?\n\n💡 Marktbreite Aktien-ETFs streuen weltweit und federn Krisen in einzelnen Ländern oder Branchen besser ab.\n\n🔍 Du suchst noch nach einem passenden ETF? Schau in unsereUnser ETF-Finder zeigt Dir:\n\n💰 Welche ETFs aktuell günstig oder als Sparplan bei Banken wie Consorsbank & Flatex verfügbar sind\n\n💸Wie mit Ausschüttungen umgegangen wird\n\n🌍 Ob Schwellenländer wie China & Indien enthalten sind\n\n✅ Ob echte Aktien gekauft oder Werte nur nachgebildet werden\n\n🌱 Ob Nachhaltigkeit berücksichtigt wird\n\n💡 So baust Du Schritt für Schritt Dein Vermögen auf – auch ohne Vorwissen.\n\nSpeicher Dir diesen Post ab und teile ihn mit Freund:innen, die mit ETFs starten wollen! 💪\n\n#ETF #Geldanlage #Vermögensaufbau #Finanzwissen #Sparplan #AktienETF #finanztip #etffinder #finanzbildung #passiveincome\n\nUrheberhinweis für Illustrationen: Finanztip",
-  "captionKo": "자산 구축에 특히 좋은 ETF는 무엇입니까?\n\n💡 시장 전반에 걸친 주식 ETF는 전 세계적으로 확산되어 개별 국가 또는 산업의 위기를 더 잘 완화합니다.\n\n🔍 아직도 적합한 ETF를 찾고 계신가요? ETF 검색기를 살펴보면 다음과 같은 정보가 표시됩니다.\n\n💰 현재 저렴하게 또는 Consorsbank 및 Flatex와 같은 은행에서 저축 계획으로 이용할 수 있는 ETF는 무엇입니까?\n\n💸배포물 처리 방법\n\n🌍 중국, 인도 등 신흥국 포함 여부\n\n✅ 실제 주식을 구매한 것인지, 아니면 가치를 복제한 것인지\n\n🌱 지속 가능성을 고려하는지 여부\n\n💡 사전 지식 없이도 단계별로 부를 쌓는 방법입니다.\n\n이 게시물을 저장하고 ETF를 시작하고 싶은 친구들과 공유하세요! 💪\n\n#ETF #투자 #자산 구축 #금융 지식 #절약 계획 #StockETF #finanztip #etffinder #finanzbildung #passiveincome\n\n일러스트레이션 저작권 고지: Finanztip"
+  "captionKo": "자산 구축에 특히 좋은 ETF는 무엇입니까?\n\n💡 시장 전반에 걸친 주식 ETF는 전 세계적으로 확산되어 개별 국가 또는 산업의 위기를 더 잘 완화합니다.\n\n🔍 아직도 적합한 ETF를 찾고 계신가요? ETF 검색기를 살펴보면 다음과 같은 정보가 표시됩니다.\n\n💰 현재 저렴하게 또는 Consorsbank 및 Flatex와 같은 은행에서 저축 계획으로 이용할 수 있는 ETF는 무엇입니까?\n\n💸배포물 처리 방법\n\n🌍 중국, 인도 등 신흥국 포함 여부\n\n✅ 실제 주식을 구매한 것인지, 아니면 가치를 복제한 것인지\n\n🌱 지속 가능성을 고려하는지 여부\n\n💡 사전 지식 없이도 단계별로 부를 쌓는 방법입니다.\n\n이 게시물을 저장하고 ETF를 시작하고 싶은 친구들과 공유하세요! 💪\n\n#ETF #투자 #자산 구축 #금융 지식 #절약 계획 #StockETF #finanztip #etffinder #finanzbildung #passiveincome\n\n일러스트레이션 저작권 고지: Finanztip",
+  "topics": [
+   "etf",
+   "stock"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DaP2S8dtD0A",
@@ -1112,7 +1265,10 @@
    }
   ],
   "at": "2026-11-20T11:58:40+09:00",
-  "caption": ""
+  "caption": "",
+  "topics": [],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "Dccm5ArTPld",
@@ -1148,7 +1304,12 @@
   ],
   "at": "2026-11-20T11:58:39+09:00",
   "caption": "What makes property prices go up? I asked AI! 🤖📈\n\nWhen we apply AI’s formula to Hyderabad, an interesting pattern emerges: Jobs → People → Housing Demand. Infrastructure, connectivity, businesses, and city growth all play a role in shaping future demand.\n\nRATE AAGADHU. DEMAND THAGGADHU.\n\nExplore multiple projects and options at the CREDAI Hyderabad Property Show — 28–30 August | HITEX, Hyderabad. 🏙️\n\nMultiple credible developers. Multiple projects. Multiple options.\n\nONE PLACE TO SEE WHERE HYDERABAD IS HEADED.\n\n#CREDAIHyderabad #HyderabadPropertyShow #HyderabadRealEstate #RealEstate #PropertyInvestment Hyderabad AI ChatGPT HelloTejaaAI TechCreator",
-  "captionKo": "부동산 가격이 오르는 이유는 무엇입니까? AI한테 물어봤어! 🤖📈\n\n하이데라바드에 AI 공식을 적용하면 일자리 → 사람 → 주택 수요라는 흥미로운 패턴이 나타납니다. 인프라, 연결성, 비즈니스 및 도시 성장은 모두 미래 수요를 형성하는 데 중요한 역할을 합니다.\n\nAAGADHU를 평가하세요. 타가두(THAGGADHU)를 요구하세요.\n\nCREDAI 하이데라바드 부동산 쇼(8월 28~30일)에서 다양한 프로젝트와 옵션을 살펴보세요 | HITEX, 하이데라바드. 🏙️\n\n신뢰할 수 있는 여러 개발자. 여러 프로젝트. 다양한 옵션.\n\n하이데라바드가 어디로 향하는지 볼 수 있는 한 곳.\n\n#CREDAIHyderabad #HyderabadPropertyShow #HyderabadRealEstate #RealEstate #PropertyInvestment 하이데라바드 AI 채팅GPT HelloTejaaAI TechCreator"
+  "captionKo": "부동산 가격이 오르는 이유는 무엇입니까? AI한테 물어봤어! 🤖📈\n\n하이데라바드에 AI 공식을 적용하면 일자리 → 사람 → 주택 수요라는 흥미로운 패턴이 나타납니다. 인프라, 연결성, 비즈니스 및 도시 성장은 모두 미래 수요를 형성하는 데 중요한 역할을 합니다.\n\nAAGADHU를 평가하세요. 타가두(THAGGADHU)를 요구하세요.\n\nCREDAI 하이데라바드 부동산 쇼(8월 28~30일)에서 다양한 프로젝트와 옵션을 살펴보세요 | HITEX, 하이데라바드. 🏙️\n\n신뢰할 수 있는 여러 개발자. 여러 프로젝트. 다양한 옵션.\n\n하이데라바드가 어디로 향하는지 볼 수 있는 한 곳.\n\n#CREDAIHyderabad #HyderabadPropertyShow #HyderabadRealEstate #RealEstate #PropertyInvestment 하이데라바드 AI 채팅GPT HelloTejaaAI TechCreator",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DcCtGrbIMBC",
@@ -1184,7 +1345,12 @@
   ],
   "at": "2026-11-20T11:58:39+09:00",
   "caption": "The real power of AI isn’t generic prompts, email replies or write-ups… it’s building tools!\n\nI’ve built tools that would have literally cost hundreds of thousands before AI. If I had to guess, easily north of $500k. Now each tool has cost me less than $500 to build and pennies to run.\n\nHere’s an example almost every realtor could use. It saves our agents a ton of time talking to sellers about price, while communicating it in a much clearer and more professional way.\n\nWe’ve literally had sellers open this and, without any conversation or prompting, text their agent saying, “This makes perfect sense. Drop the price to $XXX.”\n\nTHIS is where AI can completely transform your business.\n\nThis is our Listing Hub. Through API connections, it connects to Matrix, CREB stats, ShowingTime, etc., pulls the relevant data for that listing and creates a custom dashboard for the seller.\n\nEverything is clickable and explains exactly what’s happening. Why their price is strong and we should hold, OR why they risk ultimately selling for less if they don’t adjust their price or strategy.\n\nIt’s already saved us countless hours while delivering a much better and clearer experience for our clients.\n\nThe other massive win with custom-built tools like this is the ENERGY they save.\n\nSome activities in business are energy draining and others are energy gaining. The price reduction conversation is almost always energy draining 😂. I don’t know anyone who gets excited to have that conversation or feels more energized after one.\n\nBuilding tools like this lets us keep our energy sky high and momentum at full speed, while saving time AND delivering more value.\n\nAI is absolutely changing the game. The people who dig in and build tools that help their clients will get more referrals, do deals faster and easier, and grow their businesses while having more time and money to spend with their families, or however they want.\n\nI don’t have an AI course to sell 😂. But if enough people are interested, I’m happy to host a live demo and walk through exactly how this works!\n\nComment “Listing Hub” if you’d like to see it and share this with someone who’d get value fro",
-  "captionKo": "AI의 진정한 힘은 일반적인 프롬프트, 이메일 답장, 글쓰기가 아니라 도구를 만드는 것입니다!\n\n저는 AI가 등장하기 전에는 문자 그대로 수십만 달러의 비용이 들었을 도구를 만들었습니다. 내가 추측해야 한다면 쉽게 500,000달러를 넘을 것이다. 이제 각 도구를 만드는 데 드는 비용은 500달러 미만이고 실행하는 데는 1센트도 들지 않습니다.\n\n다음은 거의 모든 부동산 중개인이 사용할 수 있는 예입니다. 이를 통해 상담원이 판매자와 가격에 대해 이야기하는 데 많은 시간을 절약하는 동시에 훨씬 더 명확하고 전문적인 방식으로 가격을 전달할 수 있습니다.\n\n말 그대로 판매자가 이 페이지를 열어 아무런 대화나 안내도 없이 에이전트에게 문자 메시지를 보내도록 했습니다. \"이건 정말 말이 됩니다. 가격을 XXX달러로 낮춰주세요.\"\n\nAI가 귀하의 비즈니스를 완전히 변화시킬 수 있는 곳은 바로 여기입니다.\n\n이것이 우리의 리스팅 허브입니다. API 연결을 통해 Matrix, CREB 통계, ShowingTime 등에 연결하고 해당 목록에 대한 관련 데이터를 가져와 판매자를 위한 맞춤형 대시보드를 생성합니다.\n\n모든 것이 클릭 가능하며 무슨 일이 일어나고 있는지 정확하게 설명합니다. 가격이 강하고 보유해야 하는 이유 또는 가격이나 전략을 조정하지 않으면 궁극적으로 더 낮은 가격에 판매될 위험이 있는 이유.\n\n고객에게 훨씬 더 좋고 명확한 경험을 제공하는 동시에 우리는 이미 수많은 시간을 절약했습니다.\n\n이와 같은 맞춤형 도구를 사용하여 얻을 수 있는 또 다른 큰 이점은 에너지 절약입니다.\n\n비즈니스 활동 중 일부 활동은 에너지를 소모하고 다른 활동은 에너지를 얻습니다. 가격 인하 대화는 거의 항상 에너지를 소모시킵니다 😂. 그 대화를 나누는 것이 신나거나 대화를 나눈 후에 더 활력을 느끼는 사람은 없습니다.\n\n이와 같은 도구를 구축하면 에너지를 최고 속도로 유지하면서 시간을 절약하고 더 많은 가치를 제공할 수 있습니다.\n\nAI가 게임을 완전히 바꾸고 있습니다. 고객에게 도움이 되는 도구를 탐구하고 구축하는 사람들은 더 많은 추천을 받고, 더 빠르고 쉽게 거래를 수행하며, 가족과 함께 또는 원하는 방식으로 더 많은 시간과 돈을 쓸 수 있도록 하면서 비즈니스를 성장시킬 것입니다.\n\n판매할 AI 강좌가 없습니다 😂. 하지만 충분한 사람들이 관심을 보인다면 라이브 데모를 주최하고 이것이 어떻게 작동하는지 자세히 설명하게 되어 기쁩니다!\n\n보고 싶다면 \"Listing Hub\"에 댓글을 달고 가치 있는 사람과 공유하세요."
+  "captionKo": "AI의 진정한 힘은 일반적인 프롬프트, 이메일 답장, 글쓰기가 아니라 도구를 만드는 것입니다!\n\n저는 AI가 등장하기 전에는 문자 그대로 수십만 달러의 비용이 들었을 도구를 만들었습니다. 내가 추측해야 한다면 쉽게 500,000달러를 넘을 것이다. 이제 각 도구를 만드는 데 드는 비용은 500달러 미만이고 실행하는 데는 1센트도 들지 않습니다.\n\n다음은 거의 모든 부동산 중개인이 사용할 수 있는 예입니다. 이를 통해 상담원이 판매자와 가격에 대해 이야기하는 데 많은 시간을 절약하는 동시에 훨씬 더 명확하고 전문적인 방식으로 가격을 전달할 수 있습니다.\n\n말 그대로 판매자가 이 페이지를 열어 아무런 대화나 안내도 없이 에이전트에게 문자 메시지를 보내도록 했습니다. \"이건 정말 말이 됩니다. 가격을 XXX달러로 낮춰주세요.\"\n\nAI가 귀하의 비즈니스를 완전히 변화시킬 수 있는 곳은 바로 여기입니다.\n\n이것이 우리의 리스팅 허브입니다. API 연결을 통해 Matrix, CREB 통계, ShowingTime 등에 연결하고 해당 목록에 대한 관련 데이터를 가져와 판매자를 위한 맞춤형 대시보드를 생성합니다.\n\n모든 것이 클릭 가능하며 무슨 일이 일어나고 있는지 정확하게 설명합니다. 가격이 강하고 보유해야 하는 이유 또는 가격이나 전략을 조정하지 않으면 궁극적으로 더 낮은 가격에 판매될 위험이 있는 이유.\n\n고객에게 훨씬 더 좋고 명확한 경험을 제공하는 동시에 우리는 이미 수많은 시간을 절약했습니다.\n\n이와 같은 맞춤형 도구를 사용하여 얻을 수 있는 또 다른 큰 이점은 에너지 절약입니다.\n\n비즈니스 활동 중 일부 활동은 에너지를 소모하고 다른 활동은 에너지를 얻습니다. 가격 인하 대화는 거의 항상 에너지를 소모시킵니다 😂. 그 대화를 나누는 것이 신나거나 대화를 나눈 후에 더 활력을 느끼는 사람은 없습니다.\n\n이와 같은 도구를 구축하면 에너지를 최고 속도로 유지하면서 시간을 절약하고 더 많은 가치를 제공할 수 있습니다.\n\nAI가 게임을 완전히 바꾸고 있습니다. 고객에게 도움이 되는 도구를 탐구하고 구축하는 사람들은 더 많은 추천을 받고, 더 빠르고 쉽게 거래를 수행하며, 가족과 함께 또는 원하는 방식으로 더 많은 시간과 돈을 쓸 수 있도록 하면서 비즈니스를 성장시킬 것입니다.\n\n판매할 AI 강좌가 없습니다 😂. 하지만 충분한 사람들이 관심을 보인다면 라이브 데모를 주최하고 이것이 어떻게 작동하는지 자세히 설명하게 되어 기쁩니다!\n\n보고 싶다면 \"Listing Hub\"에 댓글을 달고 가치 있는 사람과 공유하세요.",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DbtHoV4RNCV",
@@ -1220,7 +1386,12 @@
   ],
   "at": "2026-11-20T11:58:39+09:00",
   "caption": "AI will tell a buyer a home is overpriced, and tell a seller that the exact same home is underpriced. It’s reading your prompt and giving you what you want to hear.\n\nKamini Lane, CEO of Coldwell Banker Realty, connects this to something we’ve seen before: the financial crisis. Ninja loans. People buying homes they couldn’t afford because people were getting questionable advice.\n\nIf millions of people start leaning on LLMs that’s optimized for thumbs-up, not accuracy, for the biggest financial decision of their lives, are we in for a reckoning?\n\nComment KAMINI and I’ll send you the full episode.",
-  "captionKo": "AI는 구매자에게 집 가격이 너무 비싸다고 말하고, 판매자에게는 똑같은 집의 가격이 저렴하다고 알려줍니다. 프롬프트를 읽고 듣고 싶은 내용을 제공하는 것입니다.\n\nColdwell Banker Realty의 CEO인 Kamini Lane은 이것을 우리가 이전에 본 것, 즉 금융 위기와 연결합니다. 닌자대출. 사람들이 의심스러운 조언을 듣고 있었기 때문에 감당할 수 없는 집을 구입하는 사람들.\n\n수백만 명의 사람들이 인생에서 가장 큰 재정적 결정을 내릴 때 정확성이 아닌 추천에 최적화된 LLM에 의존하기 시작한다면 우리는 심판을 받게 될까요?\n\nKAMINI에 댓글을 달아주시면 전체 에피소드를 보내드리겠습니다."
+  "captionKo": "AI는 구매자에게 집 가격이 너무 비싸다고 말하고, 판매자에게는 똑같은 집의 가격이 저렴하다고 알려줍니다. 프롬프트를 읽고 듣고 싶은 내용을 제공하는 것입니다.\n\nColdwell Banker Realty의 CEO인 Kamini Lane은 이것을 우리가 이전에 본 것, 즉 금융 위기와 연결합니다. 닌자대출. 사람들이 의심스러운 조언을 듣고 있었기 때문에 감당할 수 없는 집을 구입하는 사람들.\n\n수백만 명의 사람들이 인생에서 가장 큰 재정적 결정을 내릴 때 정확성이 아닌 추천에 최적화된 LLM에 의존하기 시작한다면 우리는 심판을 받게 될까요?\n\nKAMINI에 댓글을 달아주시면 전체 에피소드를 보내드리겠습니다.",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DBRiaOOInw8",
@@ -1256,7 +1427,12 @@
   ],
   "at": "2026-11-20T11:58:40+09:00",
   "caption": "The world's crazy rich nations have few things in common. They have higher standards of living, high GDP per capita, and higher average and median wealth. GDP per capita measures a country's economic output per person by dividing its total GDP by the population, indicating average prosperity and financial well-being.\nThis video shows the economic progression of the wealthiest nations from 1963 to 2023. Enjoy!\n\n#wealth #richest #wealthy #unitedstates #gdp #economy",
-  "captionKo": "세계의 미친 부자 국가들은 공통점이 거의 없습니다. 그들은 더 높은 생활 수준, 높은 1인당 GDP, 더 높은 평균 및 중간 부를 가지고 있습니다. 1인당 GDP는 총 GDP를 인구로 나누어 국가의 1인당 경제 생산량을 측정하며 평균적인 번영과 재정적 복지를 나타냅니다.\n이 비디오는 1963년부터 2023년까지 가장 부유한 국가의 경제 발전을 보여줍니다. 즐기세요!\n\n#부 #가장 부유한 #부자 #미국 #gdp #경제"
+  "captionKo": "세계의 미친 부자 국가들은 공통점이 거의 없습니다. 그들은 더 높은 생활 수준, 높은 1인당 GDP, 더 높은 평균 및 중간 부를 가지고 있습니다. 1인당 GDP는 총 GDP를 인구로 나누어 국가의 1인당 경제 생산량을 측정하며 평균적인 번영과 재정적 복지를 나타냅니다.\n이 비디오는 1963년부터 2023년까지 가장 부유한 국가의 경제 발전을 보여줍니다. 즐기세요!\n\n#부 #가장 부유한 #부자 #미국 #gdp #경제",
+  "topics": [
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "C5Ud0uYIsXD",
@@ -1292,7 +1468,12 @@
   ],
   "at": "2026-11-20T11:58:40+09:00",
   "caption": "The world's richest countries have high GDP per capita, reflecting their economic prosperity and high living standards. \n\nIn this video, we excluded microstates with a population of less than 100,000. Hope you will love it.\n\nA timeline animation on the Richest Countries in the world based on GDP per capita (current USD) from 1960s to 2022. Hope you will love it!",
-  "captionKo": "세계에서 가장 부유한 국가들은 경제적 번영과 높은 생활 수준을 반영하여 1인당 GDP가 높습니다. \n\n이 비디오에서는 인구가 100,000명 미만인 소규모 주를 제외했습니다. 당신이 그것을 좋아하기를 바랍니다.\n\n1960년대부터 2022년까지 1인당 GDP(현재 USD)를 기준으로 세계에서 가장 부유한 국가에 대한 타임라인 애니메이션입니다. 마음에 드셨으면 좋겠습니다!"
+  "captionKo": "세계에서 가장 부유한 국가들은 경제적 번영과 높은 생활 수준을 반영하여 1인당 GDP가 높습니다. \n\n이 비디오에서는 인구가 100,000명 미만인 소규모 주를 제외했습니다. 당신이 그것을 좋아하기를 바랍니다.\n\n1960년대부터 2022년까지 1인당 GDP(현재 USD)를 기준으로 세계에서 가장 부유한 국가에 대한 타임라인 애니메이션입니다. 마음에 드셨으면 좋겠습니다!",
+  "topics": [
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DaXivj9oAYM",
@@ -1328,7 +1509,12 @@
   ],
   "at": "2026-11-20T11:58:34+09:00",
   "caption": "Estimation immobilière, avis de valeur, prix au mètre carré : l’intelligence artificielle a tout changé pour les agents immobiliers.\nCette semaine, en rendez-vous avec mes clients, le même constat revient : les acquéreurs arrivent informés. Ils connaissent les prix de vente, l’historique des transactions, les tendances du marché immobilier de leur secteur. En quelques minutes, l’IA leur donne ce qui demandait hier des semaines de recherche.\nRésultat : l’avis de valeur, longtemps vu comme la grande démonstration d’expertise de l’agent immobilier, a beaucoup moins d’impact. L’information sur les prix de l’immobilier devient accessible à tout le monde. Et je vais peut-être vous surprendre : je pense que c’est une bonne chose. Cette transparence normalise l’information, assainit la relation entre vendeurs et acquéreurs, et oblige notre profession à se recentrer sur l’essentiel.\nCar notre rôle ne disparaît pas, il se déplace. Là où aucune intelligence artificielle ne nous remplacera : le discernement. Capter les sous-jacents d’un projet de vie. Lire l’émotionnel derrière une vente ou une recherche. Réussir la visite, ce moment où tout se joue. Accompagner la négociation avec finesse. Se souvenir qu’un bien immobilier n’est jamais une simple ligne de données : c’est une histoire qui commence ou qui se termine.\nC’est ma conviction d’agente immobilière BONAPARTE en Bretagne, et j’aimerais connaître la vôtre.\nVous êtes agent immobilier, mandataire ou conseiller immobilier ? Racontez-moi en commentaire comment l’IA a déjà changé votre quotidien. Vous pensez que l’humain fera toujours la différence ? Écrivez HUMAIN, je lis et je réponds à chacun. Enregistrez ce réel pour y revenir, et envoyez-le à un confrère ou une consœur que le sujet concerne.\n#Immobilier #MandataireImmobilier #NegociateurImmobilier #EstimationMaison #IAImmobilier",
-  "captionKo": "부동산 가치 평가, 가치 의견, 평방미터당 가격: 인공지능이 부동산 중개인의 모든 것을 바꿔 놓았습니다.\n이번 주에 고객과의 미팅에서 동일한 관찰이 나왔습니다. 구매자가 정보를 알고 도착했습니다. 그들은 해당 지역의 판매 가격, 거래 내역, 부동산 시장 동향을 알고 있습니다. 몇 분 안에 AI는 어제 몇 주간의 연구가 필요했던 것을 그들에게 제공합니다.\n결과: 오랫동안 부동산 중개인의 전문 지식을 훌륭하게 입증해 준 가치 의견은 영향력이 훨씬 적습니다. 부동산 가격에 대한 정보는 누구나 접근할 수 있습니다. 그리고 나는 당신을 놀라게 할 수도 있습니다. 나는 그것이 좋은 것이라고 생각합니다. 이러한 투명성은 정보를 표준화하고 판매자와 구매자 간의 관계를 정리하며 우리 직업이 본질적인 것에 다시 집중하도록 만듭니다.\n우리의 역할은 사라지는 것이 아니라 바뀌기 때문이다. 어떤 인공지능도 우리를 대신할 수 없는 곳: 분별력. 인생 프로젝트의 기본 요소를 포착하세요. 판매나 검색 뒤에 숨은 감정을 읽어보세요. 모든 것이 위태로운 그 순간, 방문에 성공하세요. 기교 있게 협상을 진행하세요. 부동산은 결코 단순한 데이터 라인이 아니라는 점을 기억하십시오. 부동산은 시작되거나 끝나는 이야기입니다.\n이것이 브리타니의 BONAPARTE 부동산 중개인으로서 나의 믿음이며, 나는 당신의 믿음을 알고 싶습니다.\n당신은 부동산 중개인, 대리인 또는 부동산 자문가이신가요? AI가 여러분의 일상을 어떻게 변화시켰는지 댓글로 알려주세요. 인간이 항상 변화를 가져올 것이라고 생각하시나요? HUMAN이라고 쓰고 모든 사람에게 읽고 응답합니다. 이 현실을 저장하여 다시 돌아올 수 있도록 하고, 해당 주제와 관련된 동료에게 보내십시오.\n#부동산 #부동산중개사 #부동산협상가 #집견적 #IAI부동산"
+  "captionKo": "부동산 가치 평가, 가치 의견, 평방미터당 가격: 인공지능이 부동산 중개인의 모든 것을 바꿔 놓았습니다.\n이번 주에 고객과의 미팅에서 동일한 관찰이 나왔습니다. 구매자가 정보를 알고 도착했습니다. 그들은 해당 지역의 판매 가격, 거래 내역, 부동산 시장 동향을 알고 있습니다. 몇 분 안에 AI는 어제 몇 주간의 연구가 필요했던 것을 그들에게 제공합니다.\n결과: 오랫동안 부동산 중개인의 전문 지식을 훌륭하게 입증해 준 가치 의견은 영향력이 훨씬 적습니다. 부동산 가격에 대한 정보는 누구나 접근할 수 있습니다. 그리고 나는 당신을 놀라게 할 수도 있습니다. 나는 그것이 좋은 것이라고 생각합니다. 이러한 투명성은 정보를 표준화하고 판매자와 구매자 간의 관계를 정리하며 우리 직업이 본질적인 것에 다시 집중하도록 만듭니다.\n우리의 역할은 사라지는 것이 아니라 바뀌기 때문이다. 어떤 인공지능도 우리를 대신할 수 없는 곳: 분별력. 인생 프로젝트의 기본 요소를 포착하세요. 판매나 검색 뒤에 숨은 감정을 읽어보세요. 모든 것이 위태로운 그 순간, 방문에 성공하세요. 기교 있게 협상을 진행하세요. 부동산은 결코 단순한 데이터 라인이 아니라는 점을 기억하십시오. 부동산은 시작되거나 끝나는 이야기입니다.\n이것이 브리타니의 BONAPARTE 부동산 중개인으로서 나의 믿음이며, 나는 당신의 믿음을 알고 싶습니다.\n당신은 부동산 중개인, 대리인 또는 부동산 자문가이신가요? AI가 여러분의 일상을 어떻게 변화시켰는지 댓글로 알려주세요. 인간이 항상 변화를 가져올 것이라고 생각하시나요? HUMAN이라고 쓰고 모든 사람에게 읽고 응답합니다. 이 현실을 저장하여 다시 돌아올 수 있도록 하고, 해당 주제와 관련된 동료에게 보내십시오.\n#부동산 #부동산중개사 #부동산협상가 #집견적 #IAI부동산",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DbK3zl9le-g",
@@ -1364,7 +1550,13 @@
   ],
   "at": "2026-11-20T11:58:34+09:00",
   "caption": "Pourquoi passez-vous à côté des biens que vous recherchez sur les sites d’annonces immobilières ? 🏡\n\nUne ingénieure d’OpenAI, après plusieurs mois de recherches minutieuses, s’est rendu compte qu’elle passait à côté des meilleures offres. \n\nElle avait tout scruté sur les portails classiques, mais ses critères de recherche étaient trop restrictifs. 🔎\n\nMême en étant méthodique et en ayant passé des heures à scroller, elle n’a pas trouvé ce qu’elle recherchait. \n\nC'est là qu’intervient Omny. 💽\n\nElle a entré ses critères dans ce portail soutenu par l’IA et le premier bien qui est ressorti est un immeuble qu’elle n’avait pas encore vu. \n\nLes portails traditionnels ne vous montreront jamais tout. \n\nOmny est une solution qui vous permet d'accéder à 100 % des biens disponibles. 📊\n\nConnaissiez-vous Omny ? Est-ce que vous pourriez utiliser un outil IA pour vous aider dans votre recherche immobilière ?",
-  "captionKo": "부동산 광고사이트에서 찾고 있는 매물을 왜 놓치시나요? 🏡\n\nOpenAI 엔지니어는 몇 달 간의 신중한 연구 끝에 자신이 최고의 제안을 놓치고 있다는 것을 깨달았습니다. \n\n그녀는 클래식 포털에서 모든 것을 검색했지만 검색 기준이 너무 제한적이었습니다. 🔎\n\n그녀는 체계적이고 스크롤하는 데 몇 시간을 보냈음에도 불구하고 원하는 것을 찾지 못했습니다. \n\n이것이 옴니가 들어오는 곳입니다. 💽\n\n그녀는 이 AI 지원 포털에 자신의 기준을 입력했고 가장 먼저 나온 자산은 그녀가 아직 본 적이 없는 건물이었습니다. \n\n기존 포털에서는 모든 것을 보여주지 않습니다. \n\nOmny는 사용 가능한 속성에 100% 접근할 수 있는 솔루션입니다. 📊\n\n옴니를 아시나요? AI 도구를 사용하여 부동산 검색에 도움을 받을 수 있나요?"
+  "captionKo": "부동산 광고사이트에서 찾고 있는 매물을 왜 놓치시나요? 🏡\n\nOpenAI 엔지니어는 몇 달 간의 신중한 연구 끝에 자신이 최고의 제안을 놓치고 있다는 것을 깨달았습니다. \n\n그녀는 클래식 포털에서 모든 것을 검색했지만 검색 기준이 너무 제한적이었습니다. 🔎\n\n그녀는 체계적이고 스크롤하는 데 몇 시간을 보냈음에도 불구하고 원하는 것을 찾지 못했습니다. \n\n이것이 옴니가 들어오는 곳입니다. 💽\n\n그녀는 이 AI 지원 포털에 자신의 기준을 입력했고 가장 먼저 나온 자산은 그녀가 아직 본 적이 없는 건물이었습니다. \n\n기존 포털에서는 모든 것을 보여주지 않습니다. \n\nOmny는 사용 가능한 속성에 100% 접근할 수 있는 솔루션입니다. 📊\n\n옴니를 아시나요? AI 도구를 사용하여 부동산 검색에 도움을 받을 수 있나요?",
+  "topics": [
+   "property",
+   "grants"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "Ddj17wWTkcB",
@@ -1400,7 +1592,12 @@
   ],
   "at": "2026-11-20T12:07:27+09:00",
   "caption": "U.S. home prices have risen dramatically over the past several decades, turning homeownership into a major source of wealth for many existing owners while making the cost of getting into the market much harder for younger buyers.\n\nHarvard’s 2026 State of the Nation’s Housing report found that existing home prices were up 54% nationwide from 2020 to 2025. In 2025, the median existing single-family home price was nearly five times median household income — far above the roughly 3-to-1 ratio that was common in the 1990s.\n\nAnd the affordability math has become brutal.\n\nHarvard estimates that the total monthly cost of owning a median-priced home reached about $3,120 at the end of 2025, including mortgage, property taxes, insurance and mortgage insurance. A household needed roughly $120,800 in annual income to afford that payment under its assumptions.\n\nMeanwhile, mortgage rates remain close to 7%. Freddie Mac reported a 30-year fixed rate of 6.95% on September 17, 2026.\n\nThat doesn't mean every older homeowner bought a house cheaply or that every younger buyer is priced out.\n\nIt does mean the economic landscape has changed dramatically.\n\nFor people who already own homes, rising property values can mean substantial accumulated equity.\n\nFor people trying to buy their first home, those same prices can mean a much larger down payment, higher monthly costs and a much bigger income requirement.\n\nSo yeah, the raspberries are a joke.\n\nThe housing affordability problem isn't.\n\n#Housing #RealEstate #HousingMarket #Homeownership #HomeBuying Mortgage GenZ America Trump USA us money home loan trump Obama CostOfLiving Money Economy PersonalFinance TheAmericanVoice",
-  "captionKo": "미국 주택 가격은 지난 수십 년 동안 극적으로 상승하여 주택 소유가 많은 기존 소유자에게 주요 부의 원천이 된 반면 젊은 구매자에게는 시장 진입 비용이 훨씬 더 어려워졌습니다.\n\n하버드의 2026년 국가 주택 현황 보고서에 따르면 기존 주택 가격은 2020년부터 2025년까지 전국적으로 54% 상승한 것으로 나타났습니다. 2025년에 기존 단독 주택의 중간 가격은 중간 가구 소득의 거의 5배에 달했습니다. 이는 1990년대 일반적이었던 대략 3:1 비율보다 훨씬 높은 수치입니다.\n\n그리고 경제성 계산은 잔인해졌습니다.\n\n하버드는 모기지, 재산세, 보험, 모기지 보험을 포함해 중간 가격 주택을 소유하는 데 드는 월 총 비용이 2025년 말 약 3,120달러에 달할 것으로 추정합니다. 가정에 따라 해당 금액을 지불하려면 가구당 연간 소득이 약 120,800달러가 필요합니다.\n\n반면 모기지 금리는 7% 가까이 유지된다. Freddie Mac은 2026년 9월 17일에 6.95%의 30년 고정 금리를 보고했습니다.\n\n그렇다고 해서 모든 나이든 주택 소유자가 집을 싸게 샀거나 모든 젊은 구매자가 가격이 비싸다는 뜻은 아닙니다.\n\n이는 경제 환경이 극적으로 변화했음을 의미합니다.\n\n이미 주택을 소유한 사람들에게 부동산 가치 상승은 상당한 자산 축적을 의미할 수 있습니다.\n\n첫 주택을 구입하려는 사람들에게 동일한 가격은 훨씬 더 큰 계약금, 더 높은 월 비용 및 훨씬 더 큰 소득 요구 사항을 의미할 수 있습니다.\n\n그래, 라즈베리는 농담이야.\n\n주택 가격 문제는 그렇지 않습니다.\n\n#주택 #부동산 #주택 시장 #주택 소유 #주택 구입 모기지 세대 미국 트럼프 미국 미국 돈 주택 융자 트럼프 오바마 생활비 경제 개인 금융 TheAmericanVoice"
+  "captionKo": "미국 주택 가격은 지난 수십 년 동안 극적으로 상승하여 주택 소유가 많은 기존 소유자에게 주요 부의 원천이 된 반면 젊은 구매자에게는 시장 진입 비용이 훨씬 더 어려워졌습니다.\n\n하버드의 2026년 국가 주택 현황 보고서에 따르면 기존 주택 가격은 2020년부터 2025년까지 전국적으로 54% 상승한 것으로 나타났습니다. 2025년에 기존 단독 주택의 중간 가격은 중간 가구 소득의 거의 5배에 달했습니다. 이는 1990년대 일반적이었던 대략 3:1 비율보다 훨씬 높은 수치입니다.\n\n그리고 경제성 계산은 잔인해졌습니다.\n\n하버드는 모기지, 재산세, 보험, 모기지 보험을 포함해 중간 가격 주택을 소유하는 데 드는 월 총 비용이 2025년 말 약 3,120달러에 달할 것으로 추정합니다. 가정에 따라 해당 금액을 지불하려면 가구당 연간 소득이 약 120,800달러가 필요합니다.\n\n반면 모기지 금리는 7% 가까이 유지된다. Freddie Mac은 2026년 9월 17일에 6.95%의 30년 고정 금리를 보고했습니다.\n\n그렇다고 해서 모든 나이든 주택 소유자가 집을 싸게 샀거나 모든 젊은 구매자가 가격이 비싸다는 뜻은 아닙니다.\n\n이는 경제 환경이 극적으로 변화했음을 의미합니다.\n\n이미 주택을 소유한 사람들에게 부동산 가치 상승은 상당한 자산 축적을 의미할 수 있습니다.\n\n첫 주택을 구입하려는 사람들에게 동일한 가격은 훨씬 더 큰 계약금, 더 높은 월 비용 및 훨씬 더 큰 소득 요구 사항을 의미할 수 있습니다.\n\n그래, 라즈베리는 농담이야.\n\n주택 가격 문제는 그렇지 않습니다.\n\n#주택 #부동산 #주택 시장 #주택 소유 #주택 구입 모기지 세대 미국 트럼프 미국 미국 돈 주택 융자 트럼프 오바마 생활비 경제 개인 금융 TheAmericanVoice",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DcOtDuTRHQv",
@@ -1436,7 +1633,12 @@
   ],
   "at": "2026-11-20T12:07:27+09:00",
   "caption": "Buying a home has gotten EXPENSIVE. 🏡💸\n\nTo put these numbers together, I looked at historical U.S. home values and estimated the hourly income needed to afford them—assuming 20% down, a 30-year mortgage at roughly the prevailing interest rate, and housing costs around 28% of gross income.\n\nThe craziest part? It’s not JUST that houses cost more.\n\nDid any of these numbers surprise you? 👀 \n\n📊 Sources: U.S. Census Bureau historical housing data + HUD/Census home sales data via the Federal Reserve Bank of St. Louis (FRED).\n\n*These are estimates for comparison—not the exact average hourly wage earned during each decade.",
-  "captionKo": "집을 구입하는 데 비용이 많이 들었습니다. 🏡💸\n\n이 수치를 종합하기 위해 나는 과거 미국 주택 가치를 살펴보고 이를 감당하는 데 필요한 시간당 소득을 추정했습니다. 20% 다운, 대략 일반적인 이자율의 30년 모기지, 총 소득의 약 28%에 달하는 주택 비용을 가정했습니다.\n\n가장 미친 부분? 단지 집값이 더 비싸다는 것이 아닙니다.\n\n이 숫자 중 당신을 놀라게 한 것이 있습니까? 🙌 \n\n📊 출처: 미국 인구 조사국의 과거 주택 데이터 + 세인트루이스 연방준비은행(FRED)을 통한 HUD/인구조사 주택 판매 데이터.\n\n*이것은 비교를 위한 추정치이며 각 10년 동안 벌어들인 정확한 평균 시간당 임금이 아닙니다."
+  "captionKo": "집을 구입하는 데 비용이 많이 들었습니다. 🏡💸\n\n이 수치를 종합하기 위해 나는 과거 미국 주택 가치를 살펴보고 이를 감당하는 데 필요한 시간당 소득을 추정했습니다. 20% 다운, 대략 일반적인 이자율의 30년 모기지, 총 소득의 약 28%에 달하는 주택 비용을 가정했습니다.\n\n가장 미친 부분? 단지 집값이 더 비싸다는 것이 아닙니다.\n\n이 숫자 중 당신을 놀라게 한 것이 있습니까? 🙌 \n\n📊 출처: 미국 인구 조사국의 과거 주택 데이터 + 세인트루이스 연방준비은행(FRED)을 통한 HUD/인구조사 주택 판매 데이터.\n\n*이것은 비교를 위한 추정치이며 각 10년 동안 벌어들인 정확한 평균 시간당 임금이 아닙니다.",
+  "topics": [
+   "property"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DeUE87Miu0b",
@@ -1472,7 +1674,12 @@
   ],
   "at": "2026-11-20T12:07:30+09:00",
   "caption": "Your AI startup does not need to pay full price for its cloud.\n\nI checked every official page tonight. Here's what's actually live:\n\nGoogle Cloud: up to $350K if you're AI-first and investor backed. $2,000 if you're pre-funding.\nAWS Activate: up to $200K with an accelerator or VC. $1,000 to start if you're self-funded.\nMicrosoft for Startups: $1,000 to start, up to $150K as you grow.\nElevenLabs: 12 months free and 33M characters.\nClaude: the $1,000 credit is paused (they got hundreds of thousands of applications). The Startup Stack with up to $45K in partner perks is still live.\n\nMost of the big numbers need an investor or accelerator. The small ones don't. Apply for those today.\n\nFounders and business owners, comment CREDITS and I'll DM you the full list with every link and who qualifies.\n\nSave this before you sign your next cloud bill.\n\n#startups #founders #aitools #startupcredits #claude #aws #googlecloud #buildinpublic",
-  "captionKo": "AI 스타트업은 클라우드에 대한 전체 가격을 지불할 필요가 없습니다.\n\n오늘 밤 모든 공식 페이지를 확인했습니다. 실제 라이브 내용은 다음과 같습니다.\n\nGoogle Cloud: AI 우선이고 투자자 지원을 받는 경우 최대 $350,000. 미리 펀딩하는 경우 2,000달러입니다.\nAWS Activate: 액셀러레이터 또는 VC 사용 시 최대 $200,000. 스스로 자금을 조달하는 경우 시작하려면 $1,000입니다.\nMicrosoft for Startups: 시작 비용은 1,000달러, 성장함에 따라 최대 150,000달러까지 가능합니다.\nElevenLabs: 12개월 무료, 3,300만 자.\nClaude: $1,000 크레딧이 일시 중지되었습니다(수십만 건의 신청이 접수되었습니다). 파트너 혜택이 최대 45,000달러까지 제공되는 스타트업 스택은 아직 활성화되어 있습니다.\n\n대부분의 큰 숫자에는 투자자나 액셀러레이터가 필요합니다. 작은 것들은 그렇지 않습니다. 오늘 신청하세요.\n\n창업자와 사업주 여러분, CREDITS에 댓글을 달아주시면 모든 링크와 자격이 있는 사람이 포함된 전체 목록을 DM으로 보내드리겠습니다.\n\n다음 클라우드 청구서에 서명하기 전에 이를 저장하세요.\n\n#startups #founders #aitools #startupcredits #claude #aws #googlecloud #buildinpublic"
+  "captionKo": "AI 스타트업은 클라우드에 대한 전체 가격을 지불할 필요가 없습니다.\n\n오늘 밤 모든 공식 페이지를 확인했습니다. 실제 라이브 내용은 다음과 같습니다.\n\nGoogle Cloud: AI 우선이고 투자자 지원을 받는 경우 최대 $350,000. 미리 펀딩하는 경우 2,000달러입니다.\nAWS Activate: 액셀러레이터 또는 VC 사용 시 최대 $200,000. 스스로 자금을 조달하는 경우 시작하려면 $1,000입니다.\nMicrosoft for Startups: 시작 비용은 1,000달러, 성장함에 따라 최대 150,000달러까지 가능합니다.\nElevenLabs: 12개월 무료, 3,300만 자.\nClaude: $1,000 크레딧이 일시 중지되었습니다(수십만 건의 신청이 접수되었습니다). 파트너 혜택이 최대 45,000달러까지 제공되는 스타트업 스택은 아직 활성화되어 있습니다.\n\n대부분의 큰 숫자에는 투자자나 액셀러레이터가 필요합니다. 작은 것들은 그렇지 않습니다. 오늘 신청하세요.\n\n창업자와 사업주 여러분, CREDITS에 댓글을 달아주시면 모든 링크와 자격이 있는 사람이 포함된 전체 목록을 DM으로 보내드리겠습니다.\n\n다음 클라우드 청구서에 서명하기 전에 이를 저장하세요.\n\n#startups #founders #aitools #startupcredits #claude #aws #googlecloud #buildinpublic",
+  "topics": [
+   "grants"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "Dd6RlXNB7J5",
@@ -1508,7 +1715,13 @@
   ],
   "at": "2026-11-20T12:07:29+09:00",
   "caption": "2026 서울 부동산 계급도\n\n서울 25개 구의 아파트 평당가는\n지역에 따라 얼마나 차이가 날까요?\n\n강남·서초·송파부터\n노원·중랑·구로·도봉까지.\n같은 서울이지만\n아파트 가격에는 상당한 격차가 나타납니다.\n\n특히 강남구는 평당 1억원을 넘어선 수준,\n25개 자치구 가운데서도 높은 가격대를 형성하고 있습니다.\n2026년 8월 기준 공개 실거래 자료를 활용한 지역별 집계에서도 강남구의 평당가는 1억원을 웃도는 것으로 나타납니다.\n\n다만 ‘계급’은 공식적인 분류가 아니라 가격대를 쉽게 비교하기 위한 표현입니다.\n\n※ 출처: 국토교통부 실거래가 공개시스템 자료를 바탕으로 집계\n※ 2026년 8월 기준, 해제 거래 제외\n※ 평당가는 전체 평형의 실거래를 집계한 참고 수치로, 집계 방식·거래량에 따라 차이가 있을 수 있습니다. 국토교통부도 실거래 공개자료는 참고용이며 신고·정정 등에 따라 변동될 수 있다고 안내하고 있습니다.\n\n여러분이 생각하는 서울 부동산 순위와 비슷한가요?\n\n#이슈 #부동산 #뉴스",
-  "captionLang": "ko"
+  "captionLang": "ko",
+  "topics": [
+   "property",
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DY4mQlqSMkb",
@@ -1544,7 +1757,13 @@
   ],
   "at": "2026-11-20T12:07:30+09:00",
   "caption": "서울에서 가장 비싼 동네 TOP25ㄷㄷ\n\n2026 서울 아파트 가격 서열 공개\n\n서울에서 가장 비싼 아파트 지역은 어디일까?\n2026년 5월 기준, 서울 25개 자치구의 아파트 3.3㎡당 평균 매매가 순위를 정리했습니다.\n강남·서초·용산의 압도적인 가격부터\n노도강 지역과의 차이까지 한눈에 확인해보세요.\n\n자료 기준 : 2026.05\n아파트 3.3㎡당 평균 매매가(만원)\n\n#서울 #강남 #서초구 #부동산 #아파트",
-  "captionLang": "ko"
+  "captionLang": "ko",
+  "topics": [
+   "property",
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DZr6nEejG-G",
@@ -1580,7 +1799,12 @@
   ],
   "at": "2026-11-20T12:07:33+09:00",
   "caption": "모두의창업 1라운드 진출하신 분들 축하합니다 🎉\n\nAI 솔루션 지원금 받았는데\n어떻게 써야 할지 모르겠죠?\n\n큐샵에 질문이 많이 들어와서 Q&A 정리해봤어요 👇\n\nQ1. AI 솔루션 예산 한 곳에 다 써야 하나요?\n→ 반은 맞고 반은 틀려요\n→ 심사위원이 예산 효율과 결과물을 함께 봐요\n→ 확신이 드는 곳에 써야 해요\n\nQ2. 네이버 예약·카카오 채널 홈페이지에 연결되나요?\n→ 네, 큐샵에서 연동 가능해요\n\nQ3. 진짜 혼자서 웹사이트 만들 수 있나요?\n→ 네, 큐샵 AI에 아이템 정보 입력하면 자동 완성이에요\n→ 무료 플랜으로 샘플 먼저 확인 가능해요\n\n💬 댓글에 '1라운드' 남기시면\n업종별 큐샵 프롬프트 DM으로 드릴게요!\n\n창업 지원제도에 지원한 가족·친구분들에게 공유해주세요 🙌\n\n#모두의창업 #창업지원금 #예비창업자 #AI솔루션 #청년창업",
-  "captionLang": "ko"
+  "captionLang": "ko",
+  "topics": [
+   "grants"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DeBEVBZTkD7",
@@ -1616,7 +1840,13 @@
   ],
   "at": "2026-11-20T12:07:32+09:00",
   "caption": "10月に配当がもらえる高配当株TOP5📅\n\n1位 ヤガミ 5.56%（権利付き最終日は10/16）\n2位 ナレルグループ 4.80%\n3位 ノバック 4.63%\n4位 アトラエ 4.38%\n5位 学情 4.30%\n\n権利付き最終日は10月28日。\nこの日に株を持っていないと配当はもらえません。\n\n⚠️1位は「減配予想」。利回りが高い＝安全ではありません\n⚠️高配当株は、権利落ち日に株価が下がりやすい点にも注意\n\n10/28の前に見返せるように、保存しておいてね🔖\n気になる銘柄があったらコメントで教えてください💬\n\n※株価・利回りは2026/9/24終値と会社予想配当（出典：ザイ・オンライン）。最新は各自ご確認ください。\n※本投稿は一般的な情報提供で、特定銘柄の勧誘ではありません。投資は自己責任で。\n\n#高配当株 #株式投資 #株初心者 #お金の勉強",
-  "captionKo": "10월 배당을 받을 수 있는 고배당주 TOP5📅\n\n1위 야가미 5.56%(권리 첨부 최종일은 10/16)\n2위 나렐 그룹 4.80%\n3위 노백 4.63%\n4위 아틀라에 4.38%\n5위 학정 4.30%\n\n권리 첨부 최종일은 10월 28일.\n이 날에 주식이 없으면 배당금을 받을 수 없습니다.\n\n⚠️ 1위는 ‘감배 예상’. 수익률이 높다 = 안전하지 않음\n⚠️고배당주는 권리 떨어지는 날에 주가가 하락하기 쉬운 점에도 주의\n\n10/28 전에 보일 수 있도록 저장해 주세요 🔖\n신경이 쓰이는 유명 상표가 있다면 코멘트에서 알려주세요 💬\n\n※주가·수익률은 2026/9/24 종가와 회사 예상 배당(출전:자이·온라인). 최신은 각자 확인해 주십시오.\n※본 투고는 일반적인 정보 제공으로, 특정 종목의 권유가 아닙니다. 투자는 자기 책임입니다.\n\n#고배당주 #주식투자 #주초보자 #돈공부"
+  "captionKo": "10월 배당을 받을 수 있는 고배당주 TOP5📅\n\n1위 야가미 5.56%(권리 첨부 최종일은 10/16)\n2위 나렐 그룹 4.80%\n3위 노백 4.63%\n4위 아틀라에 4.38%\n5위 학정 4.30%\n\n권리 첨부 최종일은 10월 28일.\n이 날에 주식이 없으면 배당금을 받을 수 없습니다.\n\n⚠️ 1위는 ‘감배 예상’. 수익률이 높다 = 안전하지 않음\n⚠️고배당주는 권리 떨어지는 날에 주가가 하락하기 쉬운 점에도 주의\n\n10/28 전에 보일 수 있도록 저장해 주세요 🔖\n신경이 쓰이는 유명 상표가 있다면 코멘트에서 알려주세요 💬\n\n※주가·수익률은 2026/9/24 종가와 회사 예상 배당(출전:자이·온라인). 최신은 각자 확인해 주십시오.\n※본 투고는 일반적인 정보 제공으로, 특정 종목의 권유가 아닙니다. 투자는 자기 책임입니다.\n\n#고배당주 #주식투자 #주초보자 #돈공부",
+  "topics": [
+   "stock",
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DclBsM5sQkG",
@@ -1652,7 +1882,10 @@
   ],
   "at": "2026-11-20T12:07:35+09:00",
   "caption": "AIの世界は、知れば知るほど広がります。\n\nでも、最初から難しいツールを\n全部覚える必要はありません。\n\nまずはChatGPTやGeminiなど、\n質問するだけで使えるAIから始めれば大丈夫です。\n\n慣れてきたら、目的に合わせて少しずつ広げてみましょう。\n\n✅ 文章やアイデア作成\n✅ 情報収集や資料の要約\n✅ デザインや動画制作\n✅ 仕事の自動化\n✅ アプリや画像の制作\n\n大切なのは「人気のAI」ではなく、\n自分の目的に合ったAIを選ぶこと。\n\n60代からでも遅くありません。\n一つずつ試せば、できることは確実に増えていきます。\n\nあとで見返せるように保存して、\n気になるAIから試してみてください。\n\nAIをやさしく学びたい方は\n＠taka_ai_lab をフォローしてください。\n\n#60代からのAI\n#ChatGPT初心者\n#AI活用術\n#生成AI\n#大人の学び",
-  "captionKo": "AI의 세계는 알면 알수록 넓어집니다.\n\n그러나 처음부터 어려운 도구\n모두 기억할 필요는 없습니다.\n\n우선은 ChatGPT나 Gemini 등,\n질문하는 것만으로 사용할 수 있는 AI부터 시작하면 괜찮습니다.\n\n익숙해지면 목적에 따라 조금씩 펼쳐 보자.\n\n✅ 문장이나 아이디어 작성\n✅ 정보 수집 및 자료 요약\n✅ 디자인과 동영상 제작\n✅ 작업 자동화\n✅ 앱 및 이미지 제작\n\n중요한 것은 「인기의 AI」가 아니라,\n자신의 목적에 맞는 AI를 선택하는 것.\n\n60대부터라도 늦지 않습니다.\n하나씩 시도하면 할 수있는 일은 확실히 늘어납니다.\n\n나중에 볼 수 있도록 저장하고,\n궁금한 AI에서 시도해보십시오.\n\nAI를 부드럽게 배우고 싶은 분은\n@taka_ai_lab를 팔로우하십시오.\n\n#60대부터 AI\n#ChatGPT 초보자\n#AI활용술\n#생성AI\n#성인공부"
+  "captionKo": "AI의 세계는 알면 알수록 넓어집니다.\n\n그러나 처음부터 어려운 도구\n모두 기억할 필요는 없습니다.\n\n우선은 ChatGPT나 Gemini 등,\n질문하는 것만으로 사용할 수 있는 AI부터 시작하면 괜찮습니다.\n\n익숙해지면 목적에 따라 조금씩 펼쳐 보자.\n\n✅ 문장이나 아이디어 작성\n✅ 정보 수집 및 자료 요약\n✅ 디자인과 동영상 제작\n✅ 작업 자동화\n✅ 앱 및 이미지 제작\n\n중요한 것은 「인기의 AI」가 아니라,\n자신의 목적에 맞는 AI를 선택하는 것.\n\n60대부터라도 늦지 않습니다.\n하나씩 시도하면 할 수있는 일은 확실히 늘어납니다.\n\n나중에 볼 수 있도록 저장하고,\n궁금한 AI에서 시도해보십시오.\n\nAI를 부드럽게 배우고 싶은 분은\n@taka_ai_lab를 팔로우하십시오.\n\n#60대부터 AI\n#ChatGPT 초보자\n#AI활용술\n#생성AI\n#성인공부",
+  "topics": [],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DW8ggY3peaa",
@@ -1688,7 +1921,10 @@
   ],
   "at": "2026-11-20T12:07:34+09:00",
   "caption": "Manusで画像生成～ストーリー投稿まで！\n\n少し修正指示を出すだけで全部自分で考えてやってくれます💡\n\n【もっとAI活用を学ぶなら】\n\n国内AIトップランナーによる講義を無制限で視聴可能！\n\n最新の情報が集まる「SHIFT AI」\nAIキャリアセミナーに無料でご招待中！\n\nプロフィールのURLから参加できます！\n↓↓こちらから\n@shota.kiuchi_ai\n\n#AI\n#Instagram\n#生成AI\n#人工知能\n#Manus",
-  "captionKo": "Manus에서 이미지 생성~스토리 투고까지!\n\n조금 수정 지시를 내는 것만으로 전부 스스로 생각해 줍니다 💡\n\n【더 AI 활용을 배우면】\n\n국내 AI 톱 러너에 의한 강의를 무제한으로 시청 가능!\n\n최신 정보가 모이는 'SHIFT AI'\nAI 커리어 세미나에 무료로 초대 중!\n\n프로필 URL에서 참여할 수 있습니다!\n↓↓이쪽으로부터\n@shota.kiuchi_ai\n\n#AI\n#Instagram\n#생성AI\n#인공지능\n#Manus"
+  "captionKo": "Manus에서 이미지 생성~스토리 투고까지!\n\n조금 수정 지시를 내는 것만으로 전부 스스로 생각해 줍니다 💡\n\n【더 AI 활용을 배우면】\n\n국내 AI 톱 러너에 의한 강의를 무제한으로 시청 가능!\n\n최신 정보가 모이는 'SHIFT AI'\nAI 커리어 세미나에 무료로 초대 중!\n\n프로필 URL에서 참여할 수 있습니다!\n↓↓이쪽으로부터\n@shota.kiuchi_ai\n\n#AI\n#Instagram\n#생성AI\n#인공지능\n#Manus",
+  "topics": [],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "Dbcq3tkiQYq",
@@ -1724,7 +1960,12 @@
   ],
   "at": "2026-11-20T12:07:38+09:00",
   "caption": "【2026年6月份住宅物业成交数据撮要】普通話版\n\n一手住宅楼盘总销量估计前5位: \n首岸第4期 (73伙)\n海德园第1期 (65伙)\n海堤湾I (64伙)\nMiami Quay I (63伙)\n滶藴 (59伙)\n\n二手住宅买卖合约註册宗数估计头5地区: \n将军澳 (约374宗)\n沙田 (约336宗)\n荃湾 (约328宗)\n屯门 (约2326宗)\n元朗 (约298宗)\n\n📉查看更多：https://res.c21.hk/MarketResearch/doc-20260724172122.pdf\n\n#世纪21 #Century21 #世纪21香港 #市况分析 #楼市研究 #香港楼市 #楼市走势  #物业买卖 #二手私人住宅 #买楼攻略 #上车盘 #香港地产 #数据分析 #置业懒人包\n\n=======================================\n世纪21香港官网：https://c21.hk/\n世纪21香港Facebook专页：https://url.c21.hk/fb\n世纪21按揭计算机：https://url.c21.hk/mortgagecaulator\n=======================================",
-  "captionKo": "[2026년 6월 주거용 부동산 거래 데이터 요약] 중국어 버전\n\n중고 주거용 부동산의 추정 상위 5개 판매:\n퍼스트 쇼어 4단계(73단위)\n하이드가든 1단계(65세대)\n호이티완 I (64 단위)\n마이애미 키 I(63유닛)\n천운(59대)\n\n상위 5개 지역에는 등록된 중고 주택 매매 계약 수가 있는 것으로 추정됩니다.\n정관오(약 374건)\n샤틴(약 336건)\n추엔완(약 328건)\n툰먼(약 2,326건)\n위안롱(약 298건)\n\n📉더 보기: https://res.c21.hk/MarketResearch/doc-20260724172122.pdf\n\n#century21 #Century21 #century21hongkong #시장상황분석 #부동산시장조사 #홍콩부동산시장 #부동산시장동향 #부동산매매 #중고민간주택 #구매가이드 #上车盘 #香港부동산 #데이터분석 #买球人包\n\n========================================\n센추리 21 홍콩 공식 홈페이지: https://c21.hk/\n센추리 21 홍콩 페이스북 페이지: https://url.c21.hk/fb\nCentury 21 모기지 계산기: https://url.c21.hk/mortgagecaulator\n========================================"
+  "captionKo": "[2026년 6월 주거용 부동산 거래 데이터 요약] 중국어 버전\n\n중고 주거용 부동산의 추정 상위 5개 판매:\n퍼스트 쇼어 4단계(73단위)\n하이드가든 1단계(65세대)\n호이티완 I (64 단위)\n마이애미 키 I(63유닛)\n천운(59대)\n\n상위 5개 지역에는 등록된 중고 주택 매매 계약 수가 있는 것으로 추정됩니다.\n정관오(약 374건)\n샤틴(약 336건)\n추엔완(약 328건)\n툰먼(약 2,326건)\n위안롱(약 298건)\n\n📉더 보기: https://res.c21.hk/MarketResearch/doc-20260724172122.pdf\n\n#century21 #Century21 #century21hongkong #시장상황분석 #부동산시장조사 #홍콩부동산시장 #부동산시장동향 #부동산매매 #중고민간주택 #구매가이드 #上车盘 #香港부동산 #데이터분석 #买球人包\n\n========================================\n센추리 21 홍콩 공식 홈페이지: https://c21.hk/\n센추리 21 홍콩 페이스북 페이지: https://url.c21.hk/fb\nCentury 21 모기지 계산기: https://url.c21.hk/mortgagecaulator\n========================================",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DPiGWzuCKk8",
@@ -1760,7 +2001,12 @@
   ],
   "at": "2026-11-20T12:07:38+09:00",
   "caption": "【港房研究所 EP92】 用30年數據煉成中原AI估算 首席科技總監：能減低買賣誤判機會\n\n中原地產早前宣佈推出「中原估算價」，利用AI估價模型，免費提供全港130萬個二手私人住宅單位估算價，涵蓋私人屋苑及單幢舊樓。中原集團行政總裁施俊嶸表示，首階段投資額逾$5000萬。\n\n今集《港房研究所》請來中原數據科技首席科技總監吳煒溢，詳細講解「中原估算價」研發目的及背後運作理念。他表示平台旨在簡化估值流程，提供更快和更全面的物業估價，希望能夠降低交易成本及減少物業決策中的誤判。\n\n吳煒溢又指AI估算可幫助業主了解是否適合持有或出售物業，另外就買家角度而言，則可以利用AI估算比較放盤價格與歷史數據，避免出價過高。\n\n👉 即按此立即搶先體驗「中原估算價」，全民免費：Link in bio\n\n◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇\n【中原地產 🏆】 牌照號碼 C-000227\n🔔想知層樓值幾錢？即上「中原估算」查詢：http://bit.ly/41csoo7",
-  "captionKo": "[홍콩부동산연구소 EP92] 30년간의 데이터를 이용해 Zhongyuan AI 추정치를 개발해 보세요. 최고기술책임자(CTO): 매수, 매도 시 오판의 가능성을 줄일 수 있습니다.\n\nCentaline Real Estate는 최근 AI 평가 모델을 사용하여 개인 주택 단지와 오래된 단일 건물을 포함하여 홍콩 내 130만 개의 중고 개인 주택에 대한 무료 추정 가격을 제공하는 \"Centraline Estimated Price\"의 출시를 발표했습니다. Centaline Group의 CEO인 Shi Junrong은 1단계 투자가 5천만 달러를 초과했다고 말했습니다.\n\n이번 '홍콩 부동산 연구소' 에피소드에서는 Centaline Data Technology의 최고 기술 책임자인 Wu Weiyi가 'Central Plains 예상 가격'의 연구 개발 목적과 그 뒤에 숨은 운영 철학을 자세히 설명합니다. 그는 이 플랫폼이 평가 프로세스를 단순화하고 더 빠르고 포괄적인 부동산 평가를 제공하는 것을 목표로 하며 거래 비용을 줄이고 부동산 결정에 대한 잘못된 판단을 줄이기를 희망한다고 말했습니다.\n\nWu Weiyi는 또한 AI 추정이 소유자가 부동산을 보유하거나 판매하는 데 적합한지 이해하는 데 도움이 될 수 있다고 지적했습니다. 구매자의 관점에서 AI 추정을 사용하면 목록 가격을 과거 데이터와 비교하여 과도한 입찰을 피할 수 있습니다.\n\n👉 모든 사람에게 무료로 제공되는 \"중위안 예상 가격\"을 즉시 경험하려면 여기를 클릭하세요. 약력 링크\n\n쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬\n【중앙부동산 🏆】등록번호 C-000227\n🔔한 층의 가치가 얼마나 되는지 알고 싶으신가요? 지금 \"중원 견적\"을 확인하세요: http://bit.ly/41csoo7"
+  "captionKo": "[홍콩부동산연구소 EP92] 30년간의 데이터를 이용해 Zhongyuan AI 추정치를 개발해 보세요. 최고기술책임자(CTO): 매수, 매도 시 오판의 가능성을 줄일 수 있습니다.\n\nCentaline Real Estate는 최근 AI 평가 모델을 사용하여 개인 주택 단지와 오래된 단일 건물을 포함하여 홍콩 내 130만 개의 중고 개인 주택에 대한 무료 추정 가격을 제공하는 \"Centraline Estimated Price\"의 출시를 발표했습니다. Centaline Group의 CEO인 Shi Junrong은 1단계 투자가 5천만 달러를 초과했다고 말했습니다.\n\n이번 '홍콩 부동산 연구소' 에피소드에서는 Centaline Data Technology의 최고 기술 책임자인 Wu Weiyi가 'Central Plains 예상 가격'의 연구 개발 목적과 그 뒤에 숨은 운영 철학을 자세히 설명합니다. 그는 이 플랫폼이 평가 프로세스를 단순화하고 더 빠르고 포괄적인 부동산 평가를 제공하는 것을 목표로 하며 거래 비용을 줄이고 부동산 결정에 대한 잘못된 판단을 줄이기를 희망한다고 말했습니다.\n\nWu Weiyi는 또한 AI 추정이 소유자가 부동산을 보유하거나 판매하는 데 적합한지 이해하는 데 도움이 될 수 있다고 지적했습니다. 구매자의 관점에서 AI 추정을 사용하면 목록 가격을 과거 데이터와 비교하여 과도한 입찰을 피할 수 있습니다.\n\n👉 모든 사람에게 무료로 제공되는 \"중위안 예상 가격\"을 즉시 경험하려면 여기를 클릭하세요. 약력 링크\n\n쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬\n【중앙부동산 🏆】등록번호 C-000227\n🔔한 층의 가치가 얼마나 되는지 알고 싶으신가요? 지금 \"중원 견적\"을 확인하세요: http://bit.ly/41csoo7",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DWYk3_Eknp6",
@@ -1796,7 +2042,13 @@
   ],
   "at": "2026-11-20T12:07:38+09:00",
   "caption": "【 買樓揀區用數據話事 📊 】\n\n中原地產將全港劃分成191個「樓市片區」，並與政府統計處合作整合人口統計數據，提供歷年成交數據，幫買家深入了解各社區嘅呎價、住戶收入、人口結構等，用大數據幫大家精準揀選安樂窩！\n\n中原樓市片區主要功能：\n\n📍 基礎分區精確到道路\n📊 整合統計處人口統計資料，縱覽片區人口特徵及校網資料\n💰 提供片區最新放盤、成交呎價，掌握即時樓市動態\n🔎 支持查詢最遠1996年至今嘅成交記錄，透視片區樓價走勢\n\n即上中原網站／APP 進入【地區專頁】，發掘心水潛力區！\n\n📲 馬上體驗：Link in bio\n\n◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇◈◇ \n免責條款：以上資訊僅供一般參考，實際情況或有變動。閣下應自行核實資料的準確性及完整性，中原地產不對資料的完整及/或準確性作出任何明示或隱含的保證，對因使用或依賴此內容而引致的任何損失或法律責任，概不負責。如有任何爭議，中原地產代理有限公司保留最終決定權。\n\n中原地產代理有限公司 牌照號碼 C-000227",
-  "captionKo": "[집 구입 시 지역 선택의 핵심은 데이터입니다📊]\n\nCNA는 홍콩을 191개의 \"부동산 시장 지역\"으로 나누고 정부 통계청과 협력하여 인구통계 데이터를 통합하여 구매자가 각 커뮤니티의 평방 피트당 가격, 가계 소득, 인구 구조 등을 이해할 수 있도록 수년간의 거래 데이터를 제공했습니다.\n\n중앙 부동산 지역의 주요 기능:\n\n📍도로에 맞는 기본 구역 설정\n📊 통계학과 인구통계 데이터, 개요 지역 인구통계 특성, 학교 네트워크 데이터 통합\n💰최신 목록 제공, 평방피트당 거래 가격, 실시간 부동산 시장 역학 파악\n🔎 1996년부터 현재까지의 거래기록 조회 지원, 해당 지역 부동산 가격 동향 전망\n\nCNA 웹사이트/APP의 [지역 페이지]를 방문하여 가장 좋아하는 잠재 지역을 찾아보세요!\n\n📲 지금 경험해 보세요: 소개 링크\n\n쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬\n면책 조항: 위 정보는 일반적인 참고용일 뿐이며 실제 상황은 변경될 수 있습니다. 귀하는 정보의 정확성과 완전성을 직접 확인해야 하며, CNA는 정보의 완전성 및/또는 정확성에 대해 명시적 또는 묵시적 보증을 하며 이 콘텐츠의 사용 또는 의존으로 인해 발생하는 손실이나 책임에 대해 책임을 지지 않습니다. 분쟁이 발생할 경우 CNA Real Estate Agents Limited는 최종 결정을 내릴 권리를 보유합니다.\n\nCNA Real Estate Agents Limited 라이센스 번호 C-000227"
+  "captionKo": "[집 구입 시 지역 선택의 핵심은 데이터입니다📊]\n\nCNA는 홍콩을 191개의 \"부동산 시장 지역\"으로 나누고 정부 통계청과 협력하여 인구통계 데이터를 통합하여 구매자가 각 커뮤니티의 평방 피트당 가격, 가계 소득, 인구 구조 등을 이해할 수 있도록 수년간의 거래 데이터를 제공했습니다.\n\n중앙 부동산 지역의 주요 기능:\n\n📍도로에 맞는 기본 구역 설정\n📊 통계학과 인구통계 데이터, 개요 지역 인구통계 특성, 학교 네트워크 데이터 통합\n💰최신 목록 제공, 평방피트당 거래 가격, 실시간 부동산 시장 역학 파악\n🔎 1996년부터 현재까지의 거래기록 조회 지원, 해당 지역 부동산 가격 동향 전망\n\nCNA 웹사이트/APP의 [지역 페이지]를 방문하여 가장 좋아하는 잠재 지역을 찾아보세요!\n\n📲 지금 경험해 보세요: 소개 링크\n\n쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬 쇠사슬\n면책 조항: 위 정보는 일반적인 참고용일 뿐이며 실제 상황은 변경될 수 있습니다. 귀하는 정보의 정확성과 완전성을 직접 확인해야 하며, CNA는 정보의 완전성 및/또는 정확성에 대해 명시적 또는 묵시적 보증을 하며 이 콘텐츠의 사용 또는 의존으로 인해 발생하는 손실이나 책임에 대해 책임을 지지 않습니다. 분쟁이 발생할 경우 CNA Real Estate Agents Limited는 최종 결정을 내릴 권리를 보유합니다.\n\nCNA Real Estate Agents Limited 라이센스 번호 C-000227",
+  "topics": [
+   "property",
+   "grants"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "Da7w5YrNWEI",
@@ -1832,7 +2084,13 @@
   ],
   "at": "2026-11-20T12:07:39+09:00",
   "caption": "📉 The market hasn’t stopped… it’s just become more competitive.\n\nThis graph highlights an important shift in the UK property market.\n\n🏡 Sales agreed in 2026 started strongly but have recently softened, while the number of homes available has risen to around 746,000—giving buyers more choice than they’ve had in years.\n\nWhat does that mean?\n\n✅ Correctly priced homes are still selling.\n❌ Overpriced homes are sitting on the market for longer.\n\nThe most telling statistic?\n\n4 out of 5 homes that sold in 2026 didn’t need a price reduction.\n\nThe lesson is simple: price it right from the start.\n\nLaunching too high doesn’t protect your home’s value and it often helps the well-priced property down the road sell first.\n\nIn today’s market, buyers have options, and they’re making comparisons faster than ever.\n\nIf you’re thinking of selling, getting the pricing strategy right has never been more important.",
-  "captionKo": "📉 시장은 멈추지 않았습니다… 경쟁이 더욱 치열해졌습니다.\n\n이 그래프는 영국 부동산 시장의 중요한 변화를 강조합니다.\n\n🏡 2026년에 합의된 판매는 강하게 시작되었지만 최근 주춤했고, 이용 가능한 주택 수는 약 746,000채로 증가하여 구매자에게 지난 몇 년간보다 더 많은 선택권을 제공했습니다.\n\n그게 무슨 뜻이에요?\n\n✅ 정확한 가격의 주택이 여전히 판매되고 있습니다.\n❌ 가격이 비싼 주택은 더 오랫동안 시장에 나와 있습니다.\n\n가장 확실한 통계는 무엇입니까?\n\n2026년에 판매된 주택 5채 중 4채는 가격 인하가 필요하지 않았습니다.\n\n교훈은 간단합니다. 처음부터 가격을 책정하라는 것입니다.\n\n너무 높은 가격을 책정하는 것은 집의 가치를 보호하지 못하며, 가격이 좋은 부동산이 먼저 팔리는 데 도움이 되는 경우가 많습니다.\n\n오늘날 시장에서는 구매자에게 선택권이 있으며 그 어느 때보다 빠르게 비교하고 있습니다.\n\n판매를 고려하고 있다면 올바른 가격 책정 전략을 수립하는 것이 그 어느 때보다 중요합니다."
+  "captionKo": "📉 시장은 멈추지 않았습니다… 경쟁이 더욱 치열해졌습니다.\n\n이 그래프는 영국 부동산 시장의 중요한 변화를 강조합니다.\n\n🏡 2026년에 합의된 판매는 강하게 시작되었지만 최근 주춤했고, 이용 가능한 주택 수는 약 746,000채로 증가하여 구매자에게 지난 몇 년간보다 더 많은 선택권을 제공했습니다.\n\n그게 무슨 뜻이에요?\n\n✅ 정확한 가격의 주택이 여전히 판매되고 있습니다.\n❌ 가격이 비싼 주택은 더 오랫동안 시장에 나와 있습니다.\n\n가장 확실한 통계는 무엇입니까?\n\n2026년에 판매된 주택 5채 중 4채는 가격 인하가 필요하지 않았습니다.\n\n교훈은 간단합니다. 처음부터 가격을 책정하라는 것입니다.\n\n너무 높은 가격을 책정하는 것은 집의 가치를 보호하지 못하며, 가격이 좋은 부동산이 먼저 팔리는 데 도움이 되는 경우가 많습니다.\n\n오늘날 시장에서는 구매자에게 선택권이 있으며 그 어느 때보다 빠르게 비교하고 있습니다.\n\n판매를 고려하고 있다면 올바른 가격 책정 전략을 수립하는 것이 그 어느 때보다 중요합니다.",
+  "topics": [
+   "property",
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DRROR7PCEEW",
@@ -1868,7 +2126,12 @@
   ],
   "at": "2026-11-20T12:07:41+09:00",
   "caption": "UK House Prices Projected to Surge by 21.6% by 2028! 🏡📈\n\n• £100K property 📈 £121,600 \n• £200K property 📈 £243,200 \n• £300K property 📈£364,800 \n• £400K property 📈 £486,400\n• £500K property 📈£608,000\n\nAre you planning to buy a property this year? 👇🏽\n\nSpeak to the team about UK property investment paths. Book in via our bio.\n\nReturns are not guaranteed and depend on market conditions, property performance, and other factors. This is for informational purposes only and does not constitute financial advice. Past performance does not indicate future results.\n\n#ukpropertyinvestment #propertyinvestoruk #investinginproperty",
-  "captionKo": "영국 주택 가격은 2028년까지 21.6% 급등할 것으로 예상됩니다! 🏡📈\n\n• £100,000 부동산 📈 £121,600 \n• £200K 부동산 📈 £243,200 \n• £300K 부동산 📈£364,800 \n• £400K 부동산 📈 £486,400\n• £500K 부동산 📈£608,000\n\n올해 부동산을 구입할 계획이신가요? 👇🏻\n\n영국 부동산 투자 경로에 대해 팀과 이야기하십시오. 약력을 통해 예약하세요.\n\n반품은 보장되지 않으며 시장 상황, 부동산 실적 및 기타 요인에 따라 달라집니다. 이는 정보 제공의 목적으로만 제공되며 재정적 조언을 구성하지 않습니다. 과거 성과는 미래 결과를 나타내지 않습니다.\n\n#ukpropertyinvestment #propertyinvestoruk #investinginproperty"
+  "captionKo": "영국 주택 가격은 2028년까지 21.6% 급등할 것으로 예상됩니다! 🏡📈\n\n• £100,000 부동산 📈 £121,600 \n• £200K 부동산 📈 £243,200 \n• £300K 부동산 📈£364,800 \n• £400K 부동산 📈 £486,400\n• £500K 부동산 📈£608,000\n\n올해 부동산을 구입할 계획이신가요? 👇🏻\n\n영국 부동산 투자 경로에 대해 팀과 이야기하십시오. 약력을 통해 예약하세요.\n\n반품은 보장되지 않으며 시장 상황, 부동산 실적 및 기타 요인에 따라 달라집니다. 이는 정보 제공의 목적으로만 제공되며 재정적 조언을 구성하지 않습니다. 과거 성과는 미래 결과를 나타내지 않습니다.\n\n#ukpropertyinvestment #propertyinvestoruk #investinginproperty",
+  "topics": [
+   "property"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DZnYDbWiJzt",
@@ -1904,7 +2167,12 @@
   ],
   "at": "2026-11-20T12:07:41+09:00",
   "caption": "UK house prices just had their biggest June drop since 2012 🏡\n\nAverage asking prices fell £2,113 in one month, bringing the average to £376,191. Buyer demand is down 10% year on year. The heatwave, the World Cup, and economic uncertainty all hit at the same time.\n\nBut here is the thing. Demand started recovering as soon as temperatures cooled. So this looks more like a pause than a crash.\n\nIf you are buying right now, this could actually be a window worth paying attention to.\n\nAre you house hunting right now? Let me know below 👇\n\n📌 Sources: Rightmove, Reuters, City A.M., RICS (June 2026)\n\n⚠️ This content is for informational and educational purposes only. It does not constitute financial or property advice. Always do your own research and speak to a qualified professional before making any property decisions.\n\n#UKHousingMarket #HousePrices #FirstTimeBuyer #UKProperty #UKPersonalFinance\n\nUK house prices June 2026, Rightmove asking prices drop, UK housing market 2026, house prices falling UK, buyer demand UK property, best time to buy a house UK, UK property market update, house prices biggest drop since 2012",
-  "captionKo": "영국 주택 가격은 2012년 이후 6월에 가장 큰 폭으로 하락했습니다 🏡\n\n평균 요구 가격은 한 달 만에 £2,113 하락하여 평균 £376,191가 되었습니다. 구매자 수요는 전년 대비 10% 감소했습니다. 폭염과 월드컵, 경제적 불확실성이 동시에 닥쳤다.\n\n그러나 여기에 문제가 있습니다. 기온이 낮아지자마자 수요가 회복되기 시작했다. 그래서 이것은 충돌이라기보다는 일시 정지처럼 보입니다.\n\n지금 당장 구매를 하고 계시다면, 이는 실제로 주목할 만한 창이 될 수 있습니다.\n\n지금 집찾기 중이신가요? 아래에서 알려주세요👇\n\n😀 출처: Rightmove, Reuters, City A.M., RICS(2026년 6월)\n\n⚠️ 이 콘텐츠는 정보 제공 및 교육 목적으로만 사용됩니다. 이는 재정적 또는 재산 관련 조언을 구성하지 않습니다. 부동산 관련 결정을 내리기 전에 항상 스스로 조사하고 자격을 갖춘 전문가와 상담하십시오.\n\n#UKHousingMarket #HousePrices #FirstTimeBuyer #UKProperty #UKPersonalFinance\n\n영국 주택 가격 2026년 6월, Rightmove 요구 가격 하락, 영국 주택 시장 2026, 영국 주택 가격 하락, 구매자 수요 영국 부동산, 주택 구입 최적기 영국, 영국 부동산 시장 업데이트, 주택 가격 2012년 이후 최대 하락"
+  "captionKo": "영국 주택 가격은 2012년 이후 6월에 가장 큰 폭으로 하락했습니다 🏡\n\n평균 요구 가격은 한 달 만에 £2,113 하락하여 평균 £376,191가 되었습니다. 구매자 수요는 전년 대비 10% 감소했습니다. 폭염과 월드컵, 경제적 불확실성이 동시에 닥쳤다.\n\n그러나 여기에 문제가 있습니다. 기온이 낮아지자마자 수요가 회복되기 시작했다. 그래서 이것은 충돌이라기보다는 일시 정지처럼 보입니다.\n\n지금 당장 구매를 하고 계시다면, 이는 실제로 주목할 만한 창이 될 수 있습니다.\n\n지금 집찾기 중이신가요? 아래에서 알려주세요👇\n\n😀 출처: Rightmove, Reuters, City A.M., RICS(2026년 6월)\n\n⚠️ 이 콘텐츠는 정보 제공 및 교육 목적으로만 사용됩니다. 이는 재정적 또는 재산 관련 조언을 구성하지 않습니다. 부동산 관련 결정을 내리기 전에 항상 스스로 조사하고 자격을 갖춘 전문가와 상담하십시오.\n\n#UKHousingMarket #HousePrices #FirstTimeBuyer #UKProperty #UKPersonalFinance\n\n영국 주택 가격 2026년 6월, Rightmove 요구 가격 하락, 영국 주택 시장 2026, 영국 주택 가격 하락, 구매자 수요 영국 부동산, 주택 구입 최적기 영국, 영국 부동산 시장 업데이트, 주택 가격 2012년 이후 최대 하락",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DPHFwvVjAu0",
@@ -1940,7 +2208,12 @@
   ],
   "at": "2026-11-20T12:07:43+09:00",
   "caption": "Un outil génial à te présenter 😍\n\n@lybox_immo \n\nTu passes tes soirées à comparer des annonces, remplir des fichiers Excel interminables et jongler avec des tonnes de données pour trouver une ville rentable où investir ?\nJe connais bien cette galère, je l’ai vécue.\n\n👉 Et c’est exactement pour ça que j’utilise LyBox.\nEn quelques clics, je filtre les villes selon mes critères : prix au m², évolution du marché, proportion de locataires, tension locative… Et je sais immédiatement où il est pertinent d’investir.\n\nExemple concret : depuis Issy-les-Moulineaux, j’ai lancé une recherche dans un rayon de 80 km. Au départ : 480 villes. Après filtres Libox : seulement 7 villes qui collent parfaitement à ma stratégie.\nEt le meilleur ? Je gagne du temps, j’ai des données fiables et j’évite les erreurs qui coûtent cher.\n\nSi tu veux savoir rapidement quelle ville est vraiment rentable pour toi, teste LyBox !\nC’est l’outil que j’aurais rêvé d’avoir quand j’ai commencé à investir.\n\nPartenariat rémunéré* \n\n#immobilier #investissementlocatif #colocation #immobilierrentable #lybox #investissement",
-  "captionKo": "여러분께 소개할 수 있는 훌륭한 도구 😍\n\n@lybox_immo \n\n투자할 수익성 있는 도시를 찾기 위해 광고를 비교하고, 끝없는 Excel 파일을 작성하고, 수많은 데이터를 저글링하면서 저녁 시간을 보내시나요?\n나는 이 투쟁을 잘 알고 있고, 경험해 본 적도 있습니다.\n\n👉 이것이 바로 제가 LyBox를 사용하는 이유입니다.\n단 몇 번의 클릭만으로 m²당 가격, 시장 발전, 임차인 비율, 임대 긴장 등 내 기준에 따라 도시를 필터링합니다. 그리고 어디에 투자해야 하는지 즉시 알 수 있습니다.\n\n구체적인 예: Issy-les-Moulineaux에서 반경 80km 이내에서 검색을 시작했습니다. 초기: 480개 도시. Libox 필터 이후: 내 전략에 완벽하게 맞는 도시는 7개뿐입니다.\n그리고 최고? 시간을 절약하고 신뢰할 수 있는 데이터를 확보하며 비용이 많이 드는 오류를 방지합니다.\n\n어떤 도시가 실제로 수익성이 좋은지 빨리 알고 싶다면 LyBox를 사용해 보세요!\n제가 투자를 시작할 때 꿈꿔왔던 도구입니다.\n\n유료 파트너십* \n\n#부동산 #임대투자 #코로케이션 #수익성있는 부동산 #lybox #투자"
+  "captionKo": "여러분께 소개할 수 있는 훌륭한 도구 😍\n\n@lybox_immo \n\n투자할 수익성 있는 도시를 찾기 위해 광고를 비교하고, 끝없는 Excel 파일을 작성하고, 수많은 데이터를 저글링하면서 저녁 시간을 보내시나요?\n나는 이 투쟁을 잘 알고 있고, 경험해 본 적도 있습니다.\n\n👉 이것이 바로 제가 LyBox를 사용하는 이유입니다.\n단 몇 번의 클릭만으로 m²당 가격, 시장 발전, 임차인 비율, 임대 긴장 등 내 기준에 따라 도시를 필터링합니다. 그리고 어디에 투자해야 하는지 즉시 알 수 있습니다.\n\n구체적인 예: Issy-les-Moulineaux에서 반경 80km 이내에서 검색을 시작했습니다. 초기: 480개 도시. Libox 필터 이후: 내 전략에 완벽하게 맞는 도시는 7개뿐입니다.\n그리고 최고? 시간을 절약하고 신뢰할 수 있는 데이터를 확보하며 비용이 많이 드는 오류를 방지합니다.\n\n어떤 도시가 실제로 수익성이 좋은지 빨리 알고 싶다면 LyBox를 사용해 보세요!\n제가 투자를 시작할 때 꿈꿔왔던 도구입니다.\n\n유료 파트너십* \n\n#부동산 #임대투자 #코로케이션 #수익성있는 부동산 #lybox #투자",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DOPD6wajVIC",
@@ -1976,7 +2249,12 @@
   ],
   "at": "2026-11-20T12:07:43+09:00",
   "caption": "prix du logement En France\n\nle prix des logements a augmenté beaucoup plus vite que les salaires entre 1970 et 2025, rendant l’accession à la propriété nettement moins accessible pour un ménage moyen aujourd’hui qu’il y a un demi-siècle.\n\nPrix d’un logement en 1970 vs 2025\n\nAnnées 1970 : Un appartement neuf coûtait environ 1 000 francs/m² (150 à 200 000 francs pour un bien moyen), soit environ 230 €/m² avec la conversion et l’inflation.\n\n2025 : Le prix moyen en France est d'environ 3 115 €/m² (2 531 €/m² pour une maison, 3 870 €/m² pour un appartement). À Paris, il approche 9 500 €/m².\n\nHausse : Le prix au m² a donc été multiplié par environ 10 à 15 selon les régions, voire davantage à Paris.\n\nSalaire moyen en 1970 et en 2025\n\n1970 : Le salaire annuel moyen était autour de 10 000 francs (soit environ 1 500 à 2 000 € actuels après conversion et ajustement).\n\n2025 : Le salaire net moyen tourne autour de 2 600 à 2 700 € nets par mois, soit environ 31 000 à 32 000 € nets annuels.\n\nMultiplicateur : Le salaire annuel net a été multiplié par environ 2 à 2,5 (voire 3 selon le mode de calcul).\n\nRapport prix du logement / salaire moyen\n\n1970 : Il fallait environ 2 à 3 années de salaire moyen pour acheter un logement « standard » (hors Paris).\n\n2025 : Il faut aujourd’hui autour de 8 à 10 années de salaire moyen pour devenir propriétaire d’un logement équivalent, voire beaucoup plus à Paris.\n\nEn résumé\n\nLes prix de l’immobilier ont été multipliés par 10 à 15 selon les lieux depuis 1970, alors que le salaire moyen a été multiplié par environ 2 à 3.\n\nL’accès à la propriété est donc nettement plus difficile aujourd’hui pour un ménage moyen qu’il y a cinquante ans, particulièrement dans les grandes villes comme Paris.",
-  "captionKo": "프랑스의 주택 가격\n\n1970년에서 2025년 사이에 주택 가격은 임금보다 훨씬 빠르게 상승하여 반세기 전보다 오늘날 일반 가구의 주택 소유 접근성이 훨씬 낮아졌습니다.\n\n1970년과 2025년의 주택 가격\n\n1970년대: 새 아파트 가격은 약 1,000프랑/m²(평균 부동산의 경우 150~200,000프랑), 전환 및 인플레이션을 포함하면 약 €230/m²입니다.\n\n2025년: 프랑스의 평균 가격은 약 €3,115/m²(주택의 경우 €2,531/m², 아파트의 경우 €3,870/m²)입니다. 파리에서는 €9,500/m²에 이릅니다.\n\n인상: 따라서 m²당 가격은 지역에 따라 약 10~15배, 파리에서는 그 이상 인상되었습니다.\n\n1970년과 2025년의 평균 급여\n\n1970년: 평균 연봉은 약 10,000프랑(또는 전환 및 조정 후 현재 약 €1,500~€2,000)이었습니다.\n\n2025년: 평균 순 급여는 월 순액 약 €2,600~€2,700, 연간 순액은 약 €31,000~€32,000입니다.\n\n승수: 순 연봉에 약 2~2.5(또는 계산 방법에 따라 3)를 곱했습니다.\n\n주택 가격/평균 급여 비율\n\n1970년: \"표준\" 주택(파리 외곽)을 구입하는 데 평균 급여가 약 2~3년이 걸렸습니다.\n\n2025년: 오늘날 동등한 주택 소유자가 되려면 평균 급여가 약 8~10년이 걸리며, 파리에서는 훨씬 더 많은 급여가 필요합니다.\n\n요약하면\n\n1970년 이후 부동산 가격은 위치에 따라 10~15배 증가한 반면, 평균 급여는 약 2~3배 증가했습니다.\n\n따라서 오늘날 일반 가구의 재산 접근은 50년 전보다 훨씬 더 어렵습니다. 특히 파리와 같은 대도시에서는 더욱 그렇습니다."
+  "captionKo": "프랑스의 주택 가격\n\n1970년에서 2025년 사이에 주택 가격은 임금보다 훨씬 빠르게 상승하여 반세기 전보다 오늘날 일반 가구의 주택 소유 접근성이 훨씬 낮아졌습니다.\n\n1970년과 2025년의 주택 가격\n\n1970년대: 새 아파트 가격은 약 1,000프랑/m²(평균 부동산의 경우 150~200,000프랑), 전환 및 인플레이션을 포함하면 약 €230/m²입니다.\n\n2025년: 프랑스의 평균 가격은 약 €3,115/m²(주택의 경우 €2,531/m², 아파트의 경우 €3,870/m²)입니다. 파리에서는 €9,500/m²에 이릅니다.\n\n인상: 따라서 m²당 가격은 지역에 따라 약 10~15배, 파리에서는 그 이상 인상되었습니다.\n\n1970년과 2025년의 평균 급여\n\n1970년: 평균 연봉은 약 10,000프랑(또는 전환 및 조정 후 현재 약 €1,500~€2,000)이었습니다.\n\n2025년: 평균 순 급여는 월 순액 약 €2,600~€2,700, 연간 순액은 약 €31,000~€32,000입니다.\n\n승수: 순 연봉에 약 2~2.5(또는 계산 방법에 따라 3)를 곱했습니다.\n\n주택 가격/평균 급여 비율\n\n1970년: \"표준\" 주택(파리 외곽)을 구입하는 데 평균 급여가 약 2~3년이 걸렸습니다.\n\n2025년: 오늘날 동등한 주택 소유자가 되려면 평균 급여가 약 8~10년이 걸리며, 파리에서는 훨씬 더 많은 급여가 필요합니다.\n\n요약하면\n\n1970년 이후 부동산 가격은 위치에 따라 10~15배 증가한 반면, 평균 급여는 약 2~3배 증가했습니다.\n\n따라서 오늘날 일반 가구의 재산 접근은 50년 전보다 훨씬 더 어렵습니다. 특히 파리와 같은 대도시에서는 더욱 그렇습니다.",
+  "topics": [
+   "property"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DcQuzazt9HO",
@@ -2012,7 +2290,12 @@
   ],
   "at": "2026-11-20T12:07:45+09:00",
   "caption": "Immobiliensuche mit KI – jeden Tag automatisch 🔎🏠\nDu suchst eine Immobilie nach ganz bestimmten Kriterien?\nLass die KI jeden Tag automatisch danach suchen und dir passende Angebote zusammenstellen.\nPreis, Lage, Größe, Rendite – du bestimmst die Kriterien.\nKein ständiges Suchen mehr. Die KI erledigt es für dich. 🤖\n👉 Speichere dir den Beitrag, wenn du das ausprobieren möchtest.",
-  "captionKo": "AI를 이용한 부동산 검색 - 매일 자동으로 🔎🏠\n매우 구체적인 기준에 따라 부동산을 찾고 계십니까?\nAI가 매일 자동으로 검색하여 적합한 제안을 제시해 드립니다.\n가격, 위치, 크기, 반품 등 기준은 귀하가 결정합니다.\n더 이상 끊임없는 검색이 필요하지 않습니다. AI가 당신을 위해 그것을합니다. 🤖\n👉 체험해보고 싶다면 게시물을 저장하세요."
+  "captionKo": "AI를 이용한 부동산 검색 - 매일 자동으로 🔎🏠\n매우 구체적인 기준에 따라 부동산을 찾고 계십니까?\nAI가 매일 자동으로 검색하여 적합한 제안을 제시해 드립니다.\n가격, 위치, 크기, 반품 등 기준은 귀하가 결정합니다.\n더 이상 끊임없는 검색이 필요하지 않습니다. AI가 당신을 위해 그것을합니다. 🤖\n👉 체험해보고 싶다면 게시물을 저장하세요.",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DeMv44WD-Nr",
@@ -2048,7 +2331,12 @@
   ],
   "at": "2026-11-20T12:07:46+09:00",
   "caption": "Buying in Europe — Episode 6: Germany.\n\nGrunderwerbsteuer 3.5–6.5% depending on the state (Berlin 6%), notary & land registry ≈ 2%, buyer's agent share ≈ 3.57% incl. VAT. Budget ≈ 12% — among the highest in Europe.\n\nApprox. figures. Free calculator + curated homes in Germany: link in bio.\n\n#europeancribs #movetoeurope #buyinginEurope #europeanrealestate #expatlife #relocation #propertyforsale #europeanhomes #housesforsale #expat #secondhome #buyingabroad",
-  "captionKo": "유럽에서 구매 — 에피소드 6: 독일.\n\nGrunderwerbsteuer 3.5–6.5%(주에 따라 다름)(베를린 6%), 공증인 및 토지 등기부 ≒ 2%, 구매자 대리인 지분 ≒ 3.57% 포함. 큰 통. 예산 12% — 유럽에서 가장 높은 수준입니다.\n\n대략. 수치. 무료 계산기 + 독일의 엄선된 주택: 소개 링크.\n\n#europeancribs #movetoeurope #buyinginEurope #europeanrealestate #expatlife #relocation #propertyforsale #europeanhomes #housesforsale #expat #secondhome #buyingabroad"
+  "captionKo": "유럽에서 구매 — 에피소드 6: 독일.\n\nGrunderwerbsteuer 3.5–6.5%(주에 따라 다름)(베를린 6%), 공증인 및 토지 등기부 ≒ 2%, 구매자 대리인 지분 ≒ 3.57% 포함. 큰 통. 예산 12% — 유럽에서 가장 높은 수준입니다.\n\n대략. 수치. 무료 계산기 + 독일의 엄선된 주택: 소개 링크.\n\n#europeancribs #movetoeurope #buyinginEurope #europeanrealestate #expatlife #relocation #propertyforsale #europeanhomes #housesforsale #expat #secondhome #buyingabroad",
+  "topics": [
+   "property"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DWt-0OIRmFH",
@@ -2084,7 +2372,12 @@
   ],
   "at": "2026-11-20T12:07:45+09:00",
   "caption": "Wenn du irgendwas mit Immobilien machst, dann kann ich dir diese drei Programme empfehlen. Das dritte Programm ist sogar mein Lieblings-, also bleib dran. Erstes Programm, ganz, ganz wichtig ist Gemini. Also wir sind jetzt hier überall im AI Space und ich liebe AI. Und Gemini ist richtig krass. Du schickst einfach ‚n Bild von ‚ner Wohnung rein, ‚ne Messi-Wohnung, kannst du dort die Wohnung einfach clearen und sie ist sauber. Und dann kannst du’s dir vorstellen. Oder du hast ‚ne leere Wohnung, möchtest ‚ne Küche reinsetzen, der setzt dir einfach ‚ne Küche rein. Also super, super geiles Tool, kann ich dir empfehlen. Perplexity auch mega, sehr quellenbasiert, also wirklich für Deep Research. Da kannst du Standortanalysen machen, solche Thematiken, alle, die ‚n bisschen more in depth gehen. Also das ist wirklich ‚n hervorragendes Tool. Und das dritte Tool, mein absoluter Liebling ist Claude. Claude kennt grade jeder, aber es ist extrem nützlich. Man kann PDF-Dokumente erstellen für die Banken in deinem eigenen CI und, und, und. Man muss wissen, wie’s funktioniert und wenn man Claude Code nutzt, dann geht’s richtig ab. Da muss man auch ‚n bisschen, ja ‚n bisschen die Tiefe einsteigen und so weiter. Wenn dich das interessiert, dann folg gerne meinem Channel rein oder komm zu einem der Online-Workshops mit KI für Immobilien-Entrepreneure.",
-  "captionKo": "부동산 관련 일을 하시는 분이라면 이 세 가지 프로그램을 추천해 드릴 수 있습니다. 세 번째 프로그램은 실제로 제가 가장 좋아하는 프로그램이므로 계속 지켜봐 주시기 바랍니다. 첫 번째 프로그램은 매우 매우 중요한 Gemini입니다. 그래서 우리는 지금 여기 AI 공간 전체에 있고 저는 AI를 좋아합니다. 그리고 쌍둥이자리는 정말 멍청해요. 메시 아파트 사진을 보내주시면 그곳의 아파트만 청소하면 깨끗해집니다. 그러면 상상할 수 있습니다. 또는 빈 아파트가 있고 그 안에 주방을 두고 싶으면 그냥 주방을 넣어줄 것입니다. 정말 정말 멋진 도구입니다. 여러분에게 추천해 드릴 수 있습니다. Perplexity는 또한 매우 소스 기반이므로 심층 연구에 적합합니다. 위치 분석, 이와 같은 주제 등 좀 더 깊이 있는 모든 작업을 수행할 수 있습니다. 그래서 이것은 정말 훌륭한 도구입니다. 그리고 제가 가장 좋아하는 세 번째 도구는 Claude입니다. 지금은 누구나 Claude를 알고 있지만 매우 유용합니다. 자신의 CI 및, 및, 및에서 은행용 PDF 문서를 만들 수 있습니다. 그것이 어떻게 작동하는지 알아야 하며 Claude Code를 사용하면 실제로 작동합니다. 또한 조금 더 깊이 들어가야 합니다. 관심이 있으시면 제 채널을 팔로우하시거나 부동산 기업가를 위한 AI 온라인 워크숍에 참여해 주세요."
+  "captionKo": "부동산 관련 일을 하시는 분이라면 이 세 가지 프로그램을 추천해 드릴 수 있습니다. 세 번째 프로그램은 실제로 제가 가장 좋아하는 프로그램이므로 계속 지켜봐 주시기 바랍니다. 첫 번째 프로그램은 매우 매우 중요한 Gemini입니다. 그래서 우리는 지금 여기 AI 공간 전체에 있고 저는 AI를 좋아합니다. 그리고 쌍둥이자리는 정말 멍청해요. 메시 아파트 사진을 보내주시면 그곳의 아파트만 청소하면 깨끗해집니다. 그러면 상상할 수 있습니다. 또는 빈 아파트가 있고 그 안에 주방을 두고 싶으면 그냥 주방을 넣어줄 것입니다. 정말 정말 멋진 도구입니다. 여러분에게 추천해 드릴 수 있습니다. Perplexity는 또한 매우 소스 기반이므로 심층 연구에 적합합니다. 위치 분석, 이와 같은 주제 등 좀 더 깊이 있는 모든 작업을 수행할 수 있습니다. 그래서 이것은 정말 훌륭한 도구입니다. 그리고 제가 가장 좋아하는 세 번째 도구는 Claude입니다. 지금은 누구나 Claude를 알고 있지만 매우 유용합니다. 자신의 CI 및, 및, 및에서 은행용 PDF 문서를 만들 수 있습니다. 그것이 어떻게 작동하는지 알아야 하며 Claude Code를 사용하면 실제로 작동합니다. 또한 조금 더 깊이 들어가야 합니다. 관심이 있으시면 제 채널을 팔로우하시거나 부동산 기업가를 위한 AI 온라인 워크숍에 참여해 주세요.",
+  "topics": [
+   "property"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DO3VmwplebJ",
@@ -2120,7 +2413,12 @@
   ],
   "at": "2026-11-20T12:07:45+09:00",
   "caption": "🔎 Die besten Meta-Searcher für Immobilieninvestoren\n\nWer Immobilien kaufen oder bewerten will, kommt an Meta-Searchern kaum vorbei. Diese Tools vergleichen verschiedene Portale, liefern dir wichtige Kennzahlen und sparen dir enorm Zeit.\n\n✅ Immometrika\nHabe ich selbst viel genutzt – für mich das beste Preis-Leistungs-Verhältnis. Klare Übersicht, verlässliche Kennzahlen und perfekt, wenn du schnell Marktpreise checken willst.\n\n✅ ThinkImmo\nEtwas „flashiger“ im Design: Mit Bildern, Preisbewertung, Standortbewertung und automatischer Berechnung des Quadratmeterpreises. Das ist praktisch, weil du den Taschenrechner getrost liegen lassen kannst. Allerdings sehr individuell – ich persönlich bevorzuge Immometrika.\n\n👉 Wichtig: Sie zeigen dir schnell den Marktwert, aber du solltest immer mit gesundem Menschenverstand und eigener Recherche nachprüfen.\n\n📈 Fazit: Beide Tools helfen dir enorm, schneller Deals zu analysieren. Am Ende ist es Geschmackssache – aber für mich ist Immometrika die Nummer 1.",
-  "captionKo": "🔎 부동산 투자자를 위한 최고의 메타 검색자\n\n부동산을 구매하거나 평가하고 싶다면 메타 검색자를 피할 수 없습니다. 이러한 도구는 다양한 포털을 비교하고 중요한 핵심 수치를 제공하며 많은 시간을 절약해 줍니다.\n\n✅ 비대칭\n나는 그것을 많이 사용해 왔습니다. 나에게는 가격 대비 최고의 가치입니다. 명확한 개요, 신뢰할 수 있는 주요 수치 및 시장 가격을 빠르게 확인하려는 경우에 적합합니다.\n\n✅ ThinkImmo\n디자인이 \"더 화려한\" 것: 이미지, 가격 평가, 위치 평가 및 평방 미터당 가격 자동 계산 기능이 포함됩니다. 계산기를 안전하게 남겨둘 수 있으므로 실용적입니다. 그러나 그것은 매우 개별적입니다. 저는 개인적으로 Immometrika를 선호합니다.\n\n👉 중요: 시장 가치를 신속하게 보여주지만 항상 상식과 자신의 조사를 통해 확인해야 합니다.\n\n📈 결론: 두 도구 모두 거래를 더 빠르게 분석하는 데 도움이 됩니다. 결국 그것은 취향의 문제이지만 나에게는 Immometrika가 1위입니다."
+  "captionKo": "🔎 부동산 투자자를 위한 최고의 메타 검색자\n\n부동산을 구매하거나 평가하고 싶다면 메타 검색자를 피할 수 없습니다. 이러한 도구는 다양한 포털을 비교하고 중요한 핵심 수치를 제공하며 많은 시간을 절약해 줍니다.\n\n✅ 비대칭\n나는 그것을 많이 사용해 왔습니다. 나에게는 가격 대비 최고의 가치입니다. 명확한 개요, 신뢰할 수 있는 주요 수치 및 시장 가격을 빠르게 확인하려는 경우에 적합합니다.\n\n✅ ThinkImmo\n디자인이 \"더 화려한\" 것: 이미지, 가격 평가, 위치 평가 및 평방 미터당 가격 자동 계산 기능이 포함됩니다. 계산기를 안전하게 남겨둘 수 있으므로 실용적입니다. 그러나 그것은 매우 개별적입니다. 저는 개인적으로 Immometrika를 선호합니다.\n\n👉 중요: 시장 가치를 신속하게 보여주지만 항상 상식과 자신의 조사를 통해 확인해야 합니다.\n\n📈 결론: 두 도구 모두 거래를 더 빠르게 분석하는 데 도움이 됩니다. 결국 그것은 취향의 문제이지만 나에게는 Immometrika가 1위입니다.",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DecFw-VBmK_",
@@ -2156,7 +2454,12 @@
   ],
   "at": "2026-11-20T12:07:48+09:00",
   "caption": "Как менялась средняя цена квадратного метра жилья в Минске за последние 3 года?\n\nТакже на графике мы отразили изменение количества предложений, курса доллара и ставки рефинансирования, от которой зависит доступность кредитов.",
-  "captionKo": "지난 3년 동안 민스크의 주택 평방미터당 평균 가격은 어떻게 변했습니까?\n\n우리는 또한 대출 가용성에 따라 제안 수, 달러 환율 및 재융자율의 변화를 그래프에 반영했습니다."
+  "captionKo": "지난 3년 동안 민스크의 주택 평방미터당 평균 가격은 어떻게 변했습니까?\n\n우리는 또한 대출 가용성에 따라 제안 수, 달러 환율 및 재융자율의 변화를 그래프에 반영했습니다.",
+  "topics": [
+   "property"
+  ],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DanZrIANf9C",
@@ -2192,7 +2495,10 @@
   ],
   "at": "2026-11-20T12:07:47+09:00",
   "caption": "📈 Три новостройки, которые вырастут в цене - и это не гадание.\n\nЯ прогнала весь рынок новостроек Москвы через нейросеть и выделила три проекта, у которых есть реальная причина для роста: где-то метро ещё строится, где-то на месте промзоны рождается новый район у воды.\n\nНо у каждого свои особенности - один подходит под жизнь с семьёй, другой под инвестицию, третий под спокойный вход на раннем этапе.\n\n📈 Напишите РОСТ - и я помогу вам выбрать ЖК, который вырастет в цене @yulia_strukova1",
-  "captionKo": "📈 가격이 오를 세 개의 새 건물 - 이는 운세가 아닙니다.\n\n나는 신경망을 통해 모스크바의 전체 신축 건물 시장을 운영하고 실제 성장 이유가 있는 세 가지 프로젝트를 확인했습니다. 어딘가에는 아직 지하철이 건설되고 있고, 어딘가에는 산업 지역 부지에 물 근처의 새로운 지역이 탄생하고 있습니다.\n\n그러나 각각에는 고유한 특성이 있습니다. 하나는 가족과 함께 생활하기에 적합하고, 다른 하나는 투자에 적합하며, 세 번째는 초기 단계의 조용한 진입에 적합합니다.\n\n📈 성장 쓰기 - 가격이 오를 주거 단지를 선택하는 데 도움을 드리겠습니다 @yulia_strukova1"
+  "captionKo": "📈 가격이 오를 세 개의 새 건물 - 이는 운세가 아닙니다.\n\n나는 신경망을 통해 모스크바의 전체 신축 건물 시장을 운영하고 실제 성장 이유가 있는 세 가지 프로젝트를 확인했습니다. 어딘가에는 아직 지하철이 건설되고 있고, 어딘가에는 산업 지역 부지에 물 근처의 새로운 지역이 탄생하고 있습니다.\n\n그러나 각각에는 고유한 특성이 있습니다. 하나는 가족과 함께 생활하기에 적합하고, 다른 하나는 투자에 적합하며, 세 번째는 초기 단계의 조용한 진입에 적합합니다.\n\n📈 성장 쓰기 - 가격이 오를 주거 단지를 선택하는 데 도움을 드리겠습니다 @yulia_strukova1",
+  "topics": [],
+  "mode": "mixed",
+  "visual": "mixed"
  },
  {
   "c": "DSFwUBnjF8m",
@@ -2228,7 +2534,13 @@
   ],
   "at": "2026-11-20T12:07:48+09:00",
   "caption": "🔥 Топ нейросетей, которые облегчают работу риэлтора в 2025 году\n\nСегодня нейросети стали полноценной частью работы риэлтора: они ускоряют продажи, помогают делать качественный контент и снимают рутину. Вот подборка инструментов, которые действительно помогают в 2025 году 👇\n\n⸻\n\n1. GPT-5.1 — универсальный мозг риэлтора\n • Пишет объявления и продающие тексты\n • Делает аналитику и сравнение объектов\n • Создаёт презентации, договоры, скрипты\n • Помогает вести профессиональную переписку\n\n⸻\n\n2. DeepSeek — мощный аналитический инструмент\n • Анализ больших объёмов данных\n • Оценка стоимости объектов и подбор аналогов\n • Прогноз динамики цен по районам\n\n⸻\n\n3. Perplexity — быстрый сбор достоверной информации\n • Ищет данные о новостройках, застройщиках, инфраструктуре\n • Собирает информацию из разных источников\n • Помогает готовить справки и аналитические обзоры\n\n⸻\n\n4. Алиса с нейроподсказками\n • Быстрый голосовой помощник на показах\n • Маршруты, объекты поблизости, инфраструктура\n • Удобно в дороге и при общении с клиентами\n\n⸻\n\n5. Kling — топ для видео\n • Создаёт видео-показы по тексту\n • Улучшает качество снятого контента\n • Подходит для презентаций объектов и рекламы\n\n⸻\n\n6. Nana Banana — креативные визуалы\n • Дизайн интерьеров и рендеры по запросу\n • Яркие визуалы для сторис и рекламы\n • Виртуальный ремонт и оформление помещений\n\n⸻\n\n7. AI-инструменты для документов (DocuAI, RightSig, Lumin AI)\n • Автоматическая подготовка договоров и актов\n • Проверка документов на ошибки\n • Ускорение юридического этапа сделки\n\nМнением поделилась эксперт по нейросетям и основатель школы SMM в недвижимости — Марианна Белькова.\n\nПодпишись, потом забудешь!",
-  "captionKo": "🔥 2025년 부동산 중개인의 업무를 더 쉽게 만들어주는 최고의 신경망\n\n오늘날 신경망은 부동산 중개인 업무의 본격적인 부분이 되었습니다. 판매 속도를 높이고 고품질 콘텐츠를 생성하며 일상적인 업무를 덜어줍니다. 2025년에 정말 도움이 될 도구 모음은 다음과 같습니다 👇\n\n⸻\n\n1. GPT-5.1 - 부동산업자의 보편적인 두뇌\n • 광고 작성 및 텍스트 판매\n • 객체 분석 및 비교 수행\n • 프리젠테이션, 계약서, 스크립트 작성\n • 전문적인 통신을 수행하는 데 도움이 됩니다.\n\n⸻\n\n2. DeepSeek은 강력한 분석 도구입니다.\n • 대용량 데이터 분석\n • 물체 비용 평가 및 유사품 선택\n • 지역별 가격동향 예측\n\n⸻\n\n3. 당혹감 - 신뢰할 수 있는 정보의 빠른 수집\n • 신축 건물, 개발자, 인프라에 대한 데이터 검색\n • 다양한 소스로부터 정보를 수집합니다.\n • 인증서 및 분석 검토 준비에 도움\n\n⸻\n\n4. 신경 단서가 있는 앨리스\n • 쇼에서 빠른 음성 지원\n • 경로, 주변 사물, 인프라\n • 이동 중이나 고객과 소통할 때 편리함\n\n⸻\n\n5. 클링(Kling) - 영상용 상단\n • 텍스트를 기반으로 비디오 쇼를 만듭니다.\n • 캡처된 콘텐츠의 품질을 향상시킵니다.\n • 객체 프리젠테이션 및 광고에 적합\n\n⸻\n\n6. 나나 바나나 - 창의적인 비주얼\n • 요청 시 인테리어 디자인 및 렌더링\n • 스토리와 광고를 위한 생생한 영상\n • 건물의 가상 개조 및 장식\n\n⸻\n\n7. 문서용 AI 도구(DocuAI, RightSig, Lumin AI)\n • 계약 및 행위의 자동 작성\n • 문서 오류 확인\n • 거래의 법적 단계 가속화\n\n신경망 전문가이자 SMM 부동산 학교 창립자인 Marianna Belkova가 자신의 의견을 공유했습니다.\n\n구독하면 잊어버리게 됩니다!"
+  "captionKo": "🔥 2025년 부동산 중개인의 업무를 더 쉽게 만들어주는 최고의 신경망\n\n오늘날 신경망은 부동산 중개인 업무의 본격적인 부분이 되었습니다. 판매 속도를 높이고 고품질 콘텐츠를 생성하며 일상적인 업무를 덜어줍니다. 2025년에 정말 도움이 될 도구 모음은 다음과 같습니다 👇\n\n⸻\n\n1. GPT-5.1 - 부동산업자의 보편적인 두뇌\n • 광고 작성 및 텍스트 판매\n • 객체 분석 및 비교 수행\n • 프리젠테이션, 계약서, 스크립트 작성\n • 전문적인 통신을 수행하는 데 도움이 됩니다.\n\n⸻\n\n2. DeepSeek은 강력한 분석 도구입니다.\n • 대용량 데이터 분석\n • 물체 비용 평가 및 유사품 선택\n • 지역별 가격동향 예측\n\n⸻\n\n3. 당혹감 - 신뢰할 수 있는 정보의 빠른 수집\n • 신축 건물, 개발자, 인프라에 대한 데이터 검색\n • 다양한 소스로부터 정보를 수집합니다.\n • 인증서 및 분석 검토 준비에 도움\n\n⸻\n\n4. 신경 단서가 있는 앨리스\n • 쇼에서 빠른 음성 지원\n • 경로, 주변 사물, 인프라\n • 이동 중이나 고객과 소통할 때 편리함\n\n⸻\n\n5. 클링(Kling) - 영상용 상단\n • 텍스트를 기반으로 비디오 쇼를 만듭니다.\n • 캡처된 콘텐츠의 품질을 향상시킵니다.\n • 객체 프리젠테이션 및 광고에 적합\n\n⸻\n\n6. 나나 바나나 - 창의적인 비주얼\n • 요청 시 인테리어 디자인 및 렌더링\n • 스토리와 광고를 위한 생생한 영상\n • 건물의 가상 개조 및 장식\n\n⸻\n\n7. 문서용 AI 도구(DocuAI, RightSig, Lumin AI)\n • 계약 및 행위의 자동 작성\n • 문서 오류 확인\n • 거래의 법적 단계 가속화\n\n신경망 전문가이자 SMM 부동산 학교 창립자인 Marianna Belkova가 자신의 의견을 공유했습니다.\n\n구독하면 잊어버리게 됩니다!",
+  "topics": [
+   "property",
+   "grants"
+  ],
+  "mode": "live",
+  "visual": "live"
  },
  {
   "c": "DAU748ro_sX",
@@ -2264,7 +2576,13 @@
   ],
   "at": "2026-11-20T12:07:49+09:00",
   "caption": "World's Richest Companies by Revenue from 1996 to 2024 chronicles the evolution of global giants. Revenue is the total money a company generates from its business activities. It's a critical financial indicator and is often reported in financial statements.\n\n#richest #companies #revenue #walmart #apple #ford #toyota #volkswagen #usa #2024",
-  "captionKo": "1996년부터 2024년까지 수익별 세계에서 가장 부유한 기업은 글로벌 거대 기업의 진화를 기록합니다. 수익은 회사가 비즈니스 활동을 통해 창출한 총 수익입니다. 이는 중요한 재무 지표이며 종종 재무제표에 보고됩니다.\n\n#가장 부유한 #회사 #수익 #월마트 #애플 #포드 #도요타 #폭스바겐 #미국 #2024"
+  "captionKo": "1996년부터 2024년까지 수익별 세계에서 가장 부유한 기업은 글로벌 거대 기업의 진화를 기록합니다. 수익은 회사가 비즈니스 활동을 통해 창출한 총 수익입니다. 이는 중요한 재무 지표이며 종종 재무제표에 보고됩니다.\n\n#가장 부유한 #회사 #수익 #월마트 #애플 #포드 #도요타 #폭스바겐 #미국 #2024",
+  "topics": [
+   "stock",
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
  },
  {
   "c": "DEc7lIxoOCq",
@@ -2300,6 +2618,919 @@
   ],
   "at": "2026-11-20T12:07:49+09:00",
   "caption": "Rich Tech companies lead in revenue and influence global markets through innovation and investments in emerging technologies. \n\nThe dominance of companies like Amazon, Apple, Alphabet, and Microsoft reflects the importance of cloud computing, AI, and consumer technology. Hardware-focused companies such as Samsung, Dell, and Sony maintain strong positions due to their leadership in technology and telecommunications.\n\nThis Video shows the Rich Tech Companies by revenue from 2000 to 2024. The 2024 revenue data is a summation of Q4 of 2023 and Q1, Q2, and Q3 of 2024. Enjoy!\n\n#tech #Technology #technews #techcompany",
-  "captionKo": "Rich Tech 기업은 신흥 기술에 대한 혁신과 투자를 통해 수익을 주도하고 글로벌 시장에 영향을 미칩니다. \n\nAmazon, Apple, Alphabet, Microsoft와 같은 기업의 지배력은 클라우드 컴퓨팅, AI 및 소비자 기술의 중요성을 반영합니다. Samsung, Dell, Sony와 같은 하드웨어 중심 기업은 기술 및 통신 분야의 리더십으로 인해 강력한 위치를 유지하고 있습니다.\n\n이 영상은 2000년부터 2024년까지 수익별 리치테크 기업을 보여줍니다. 2024년 수익 데이터는 2023년 4분기와 2024년 1분기, 2분기, 3분기를 합산한 것입니다. 즐거운 시간 보내세요!\n\n#tech #기술 #technews #techcompany"
+  "captionKo": "Rich Tech 기업은 신흥 기술에 대한 혁신과 투자를 통해 수익을 주도하고 글로벌 시장에 영향을 미칩니다. \n\nAmazon, Apple, Alphabet, Microsoft와 같은 기업의 지배력은 클라우드 컴퓨팅, AI 및 소비자 기술의 중요성을 반영합니다. Samsung, Dell, Sony와 같은 하드웨어 중심 기업은 기술 및 통신 분야의 리더십으로 인해 강력한 위치를 유지하고 있습니다.\n\n이 영상은 2000년부터 2024년까지 수익별 리치테크 기업을 보여줍니다. 2024년 수익 데이터는 2023년 4분기와 2024년 1분기, 2분기, 3분기를 합산한 것입니다. 즐거운 시간 보내세요!\n\n#tech #기술 #technews #techcompany",
+  "topics": [
+   "stock",
+   "top"
+  ],
+  "mode": "ai",
+  "visual": "graphic"
+ },
+ {
+  "c": "DQxGeZViFNE",
+  "cc": "GL",
+  "title": "픽셀 고양이 캐릭터 드라마",
+  "level": "easy",
+  "why": "확인한 네 컷은 캐릭터 연출 중심. 원본 제작 도구는 확인하지 않음.",
+  "mode": "ai",
+  "visual": "character",
+  "topics": [
+   "top"
+  ],
+  "p": 1079652,
+  "l": 28920,
+  "m": 482,
+  "d": "2025-11-07",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DQxGeZViFNE/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DQxGeZViFNE/",
+  "a": "cutemeowai",
+  "frames": [
+   {
+    "t": 7.36,
+    "i": "frames/DQxGeZViFNE-1.webp"
+   },
+   {
+    "t": 23.32,
+    "i": "frames/DQxGeZViFNE-2.webp"
+   },
+   {
+    "t": 38.66,
+    "i": "frames/DQxGeZViFNE-3.webp"
+   },
+   {
+    "t": 52.16,
+    "i": "frames/DQxGeZViFNE-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:56+09:00",
+  "caption": "🐾 Stop scrolling! If this orange fluffball doesn’t make you hit ❤️, drop a 📝 comment, and smash that 🔔 follow button… are you even on Instagram? 😹 Let’s dive into the purrfect chaos of AI and whiskers!\n\n---\n\nIn a quiet digital corner of the internet, an AI-generated orange cat named Pixel 🐈‍⬛ was causing a storm. Not a real storm—more like a #Viral moment wrapped in fur and mischief. Pixel wasn’t born in a barn or rescued from a shelter. Nope. He was coded into existence, frame by frame, with the sass of Garfield and the elegance of a tiger 🐅.\n\nEvery morning, Pixel would “wake up” in his virtual sunbeam, stretch his synthetic paws, and leap into action. One day, he decided to chase a laser dot that didn’t exist. The result? A video so hilarious it broke the algorithm. People tagged their friends with #CatsoftInstagram and flooded the comments with #FunnyAnimals and #PetLoversClub. Pixel became the face of #AIart meets #Caturday.\n\nHis signature move? The slow-motion tail flick followed by a dramatic flop. It was pure #Reels magic. Influencers reposted it with #ExplorePage dreams, and even grandma accounts couldn’t resist a cheeky #Meow. Pixel’s fame grew faster than a kitten on catnip 🐾.\n\nSoon, Pixel was sipping “milk” from a holographic bowl, wearing pixelated sunglasses 😎, and dancing to trending sounds. His creators added a twist: he could “talk.” In one clip, he meowed, “Follow me or I’ll knock your phone off the table.” The internet lost it. #InstaDaily, #DigitalPet, and #TrendingNow were all over his feed.\n\nBut Pixel wasn’t just fluff and filters. He became a symbol of how #ArtificialIntelligence could be playful, creative, and oddly relatable. His videos sparked conversations about #TechMeetsArt and the future of #VirtualPets.\n\nSo next time you see an orange cat doing backflips in your feed, remember: it might not be real, but the joy is. And if you haven’t hit that ❤️ yet… Pixel’s watching 👀.\n\n#CatVideo #AIcat #CuteAnimals #Petstagram #FelineFamous #ReelItFeelIt #SocialMediaStar #OrangeCatLove #MustSeeMeow #DigitalWhiskers #InstaFamous #CatsOfTheFuture #FeedGoals #Purrfection #ContentCreatorCat 🧡",
+  "captionKo": "🐾 스크롤을 멈추세요! 이 주황색 솜털볼이 ❤️을 치는 데 도움이 되지 않는다면 📝댓글을 남기고 🔔팔로우 버튼을 부수세요... 혹시 Instagram에 계신가요? 😹 AI와 수염의 완벽한 혼돈 속으로 뛰어들어 봅시다!\n\n---\n\n인터넷의 조용한 디지털 코너에서 Pixel 🐈‍⬛이라는 이름의 AI가 생성한 주황색 고양이가 폭풍을 일으키고 있었습니다. 실제 폭풍이 아니라 모피와 장난으로 뒤덮인 #Viral 순간에 가깝습니다. Pixel은 헛간에서 태어나지도 않았고 보호소에서 구출되지도 않았습니다. 아니요. 그는 가필드의 말투와 호랑이의 우아함을 바탕으로 프레임별로 존재하도록 코딩되었습니다 🐅.\n\n매일 아침 Pixel은 가상의 햇빛 속에서 '깨어나' 합성 발을 쭉 뻗고 행동에 나섰습니다. 어느 날, 그는 존재하지도 않는 레이저 점을 쫓기로 결심했다. 결과는? 너무 재밌어서 알고리즘을 깨뜨린 영상. 사람들은 #CatsoftInstagram으로 친구를 태그했고 #FunnyAnimals 및 #PetLoversClub으로 댓글을 넘쳐났습니다. Pixel이 #AIart와 #Caturday의 얼굴이 되었습니다.\n\n그의 시그니처 움직임? 슬로우 모션 테일 플릭에 이어 극적인 플롭이 이어졌습니다. 그것은 순수한 #Reels 마법이었습니다. 인플루언서들은 #ExplorePage dreams라는 문구를 붙여 다시 게시했고 할머니 계정도 건방진 #야옹을 거부할 수 없었습니다. Pixel의 명성은 캣닢을 먹은 새끼 고양이보다 빠르게 성장했습니다🐾.\n\n곧 Pixel은 홀로그램 그릇에서 '우유'를 마시고 픽셀 선글라스를 착용하고 8 유행하는 음악에 맞춰 춤을 추었습니다. 그의 제작자는 반전을 추가했습니다. 그는 \"말\"을 할 수 있었습니다. 한 영상에서 그는 \"나를 따라오지 않으면 네 휴대폰을 탁자에서 떨어뜨릴 거야\"라고 야유했다. 인터넷이 사라졌습니다. #InstaDaily, #DigitalPet 및 #TrendingNow가 그의 피드 전체에 있었습니다.\n\n하지만 Pixel은 단순한 보풀과 필터가 아니었습니다. 그는 #ArtificialIntelligence가 어떻게 장난스럽고 창의적이며 묘하게 공감할 수 있는지를 보여주는 상징이 되었습니다. 그의 동영상은 #TechMeetsArt와 #VirtualPets의 미래에 대한 대화를 촉발시켰습니다.\n\n따라서 다음에 피드에서 주황색 고양이가 공중제비를 하는 모습을 보게 된다면 기억하세요. 그것이 현실이 아닐 수도 있지만 기쁨은 그 자체입니다. 아직 ❤️에 도달하지 못하셨다면… Pixel이 지켜보고 있습니다 GW.\n\n#고양이비디오 #AIcat #귀여운동물 #Petstagram #고양이유명한 #ReelItFeelIt #소셜미디어스타 #오렌지고양이사랑 #야옹야옹 #디지털수염 #인스타유명 #미래의고양이 #피드목표 #완벽함 #콘텐츠크리에이터고양이 ✌"
+ },
+ {
+  "c": "DTSxsY9Dhc9",
+  "cc": "GL",
+  "title": "비트코인 차트와 공룡 그래픽",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "crypto"
+  ],
+  "p": 19501,
+  "l": 1471,
+  "m": 145,
+  "d": "2026-01-09",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DTSxsY9Dhc9/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DTSxsY9Dhc9/",
+  "a": "coinbase",
+  "frames": [
+   {
+    "t": 1.22,
+    "i": "frames/DTSxsY9Dhc9-1.webp"
+   },
+   {
+    "t": 3.87,
+    "i": "frames/DTSxsY9Dhc9-2.webp"
+   },
+   {
+    "t": 6.42,
+    "i": "frames/DTSxsY9Dhc9-3.webp"
+   },
+   {
+    "t": 8.66,
+    "i": "frames/DTSxsY9Dhc9-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:10+09:00",
+  "caption": "Bow to the orange beast in this week’s bitcoin chArt action.",
+  "captionKo": "이번 주 비트코인 ​​차트 액션에서 주황색 괴물에게 경의를 표하세요."
+ },
+ {
+  "c": "DUS1HX5Db_1",
+  "cc": "GL",
+  "title": "비트코인 가격 역사 설명",
+  "level": "hard",
+  "why": "진행자의 발화·실사 촬영 비중이 높음.",
+  "mode": "live",
+  "visual": "live",
+  "topics": [
+   "crypto"
+  ],
+  "p": 6995,
+  "l": 323,
+  "m": 4,
+  "d": "2026-02-03",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DUS1HX5Db_1/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DUS1HX5Db_1/",
+  "a": "investwithemilie",
+  "frames": [
+   {
+    "t": 2.21,
+    "i": "frames/DUS1HX5Db_1-1.webp"
+   },
+   {
+    "t": 7.0,
+    "i": "frames/DUS1HX5Db_1-2.webp"
+   },
+   {
+    "t": 11.6,
+    "i": "frames/DUS1HX5Db_1-3.webp"
+   },
+   {
+    "t": 15.66,
+    "i": "frames/DUS1HX5Db_1-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:10+09:00",
+  "caption": "Bitcoin Price History 2013-2026 📈 \n\n#bitcoin #crypto",
+  "captionKo": "비트코인 가격 역사 2013-2026 📈 \n\n#비트코인 #암호화폐"
+ },
+ {
+  "c": "DeWI0lWCQW-",
+  "cc": "GL",
+  "title": "비트코인 상승·조정 구간 비교",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "crypto"
+  ],
+  "p": 573,
+  "l": 3,
+  "m": 1,
+  "d": "2026-10-11",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DeWI0lWCQW-/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DeWI0lWCQW-/",
+  "a": "flicker__finance",
+  "frames": [
+   {
+    "t": 4.18,
+    "i": "frames/DeWI0lWCQW--1.webp"
+   },
+   {
+    "t": 13.23,
+    "i": "frames/DeWI0lWCQW--2.webp"
+   },
+   {
+    "t": 21.93,
+    "i": "frames/DeWI0lWCQW--3.webp"
+   },
+   {
+    "t": 29.59,
+    "i": "frames/DeWI0lWCQW--4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:12+09:00",
+  "caption": "In 2020, Bitcoin quadrupled (+305%). Guess how far it fell along the way.\n\nLock in your guess first. The video tears the black bar off; the answer is below.\n\n−53%, in 27 days (Feb 14, 2020 to Mar 12, 2020). More than half, in the year it quadrupled. And that's normal: every year Bitcoin finished up since 2016 (7 of them) fell 20% or more along the way. The typical drop: −36%. The shallowest: −20%, in 2023.\n\nEvery Flicker zone comes with a stop.\n\nSend this to the friend who only remembers the yearly return.\n\nStart free on iOS and Android. Link in bio.\n\nBitcoin daily close in USD, Jan 1, 2016 to Dec 31, 2025. A year's drop is its deepest close under its highest close so far that year, counting from the last close of the year before. History, not a forecast. Not financial advice.\n\n#bitcoin #crypto #btc #tradingpsychology #investing",
+  "captionKo": "2020년에 비트코인은 4배(+305%) 증가했습니다. 도중에 얼마나 멀리 떨어졌는지 추측해 보세요.\n\n먼저 추측을 해보세요. 비디오에서는 검은색 막대가 찢어졌습니다. 대답은 아래에 있습니다.\n\n27일(2020년 2월 14일~2020년 3월 12일) 동안 −53%. 절반 이상, 올해에는 4배나 증가했습니다. 그리고 그것은 정상적인 일입니다. 2016년 이후 매년 비트코인은 20% 이상 하락했습니다(그 중 7개). 일반적인 하락: −36%. 가장 얕은 부분: 2023년 -20%.\n\n모든 깜박임 영역에는 정지 기능이 있습니다.\n\n매년 돌아오는 일만 기억하는 친구에게 보내보세요.\n\niOS와 Android에서 무료로 시작해 보세요. 바이오에 링크하세요.\n\n비트코인 일일 마감일은 2016년 1월 1일부터 2025년 12월 31일입니다. 1년 하락폭은 전년도 마지막 마감일부터 계산하여 그 해 지금까지 최고치 이하의 가장 깊은 마감일입니다. 예측이 아닌 역사. 재정적인 조언이 아닙니다.\n\n#bitcoin #crypto #btc #거래심리학 #투자"
+ },
+ {
+  "c": "Db1rS8ihWpn",
+  "cc": "GL",
+  "title": "가상자산 등급표와 진행자",
+  "level": "mixed",
+  "why": "실제 인물 또는 앱 화면을 그래픽과 결합. 비슷한 형식에 보조 자료 필요.",
+  "mode": "mixed",
+  "visual": "mixed",
+  "topics": [
+   "crypto"
+  ],
+  "p": 11481,
+  "l": 506,
+  "m": 2,
+  "d": "2026-08-10",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/Db1rS8ihWpn/embed/captioned/",
+  "u": "https://www.instagram.com/reel/Db1rS8ihWpn/",
+  "a": "a_ka_sha_na",
+  "frames": [
+   {
+    "t": 3.57,
+    "i": "frames/Db1rS8ihWpn-1.webp"
+   },
+   {
+    "t": 11.32,
+    "i": "frames/Db1rS8ihWpn-2.webp"
+   },
+   {
+    "t": 18.77,
+    "i": "frames/Db1rS8ihWpn-3.webp"
+   },
+   {
+    "t": 25.32,
+    "i": "frames/Db1rS8ihWpn-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:15+09:00",
+  "caption": "虛擬貨幣排名…",
+  "captionKo": "가상화폐 순위…"
+ },
+ {
+  "c": "DdC0dJeCTA9",
+  "cc": "GL",
+  "title": "가상자산 시가총액 성장 차트",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "crypto"
+  ],
+  "p": 1323,
+  "l": 56,
+  "m": 4,
+  "d": "2026-09-08",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DdC0dJeCTA9/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DdC0dJeCTA9/",
+  "a": "coingecko",
+  "frames": [
+   {
+    "t": 1.4,
+    "i": "frames/DdC0dJeCTA9-1.webp"
+   },
+   {
+    "t": 4.45,
+    "i": "frames/DdC0dJeCTA9-2.webp"
+   },
+   {
+    "t": 7.37,
+    "i": "frames/DdC0dJeCTA9-3.webp"
+   },
+   {
+    "t": 9.94,
+    "i": "frames/DdC0dJeCTA9-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:15+09:00",
+  "caption": "How big has crypto actually gotten? Watch it climb the world rankings.",
+  "captionKo": "암호화폐는 실제로 얼마나 커졌나요? 세계 순위 상승을 지켜보세요."
+ },
+ {
+  "c": "Dc6V9eljHjw",
+  "cc": "GL",
+  "title": "6년간 가상자산 순위 흐름",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "crypto",
+   "top"
+  ],
+  "p": 1107,
+  "l": 84,
+  "m": 23,
+  "d": "2026-09-05",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/Dc6V9eljHjw/embed/captioned/",
+  "u": "https://www.instagram.com/reel/Dc6V9eljHjw/",
+  "a": "coingecko",
+  "frames": [
+   {
+    "t": 1.33,
+    "i": "frames/Dc6V9eljHjw-1.webp"
+   },
+   {
+    "t": 4.23,
+    "i": "frames/Dc6V9eljHjw-2.webp"
+   },
+   {
+    "t": 7.01,
+    "i": "frames/Dc6V9eljHjw-3.webp"
+   },
+   {
+    "t": 9.45,
+    "i": "frames/Dc6V9eljHjw-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:15+09:00",
+  "caption": "6 years of the crypto leaderboard in 10 seconds.",
+  "captionKo": "10초 만에 암호화폐 순위표 6년."
+ },
+ {
+  "c": "DdLavyMRW5j",
+  "cc": "KR",
+  "title": "세계 비트코인 보유량 순위",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "crypto",
+   "top"
+  ],
+  "p": 559479,
+  "l": 1520,
+  "m": 95,
+  "d": "2026-09-12",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DdLavyMRW5j/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DdLavyMRW5j/",
+  "a": "tommy.park",
+  "frames": [
+   {
+    "t": 12.11,
+    "i": "frames/DdLavyMRW5j-1.webp"
+   },
+   {
+    "t": 38.34,
+    "i": "frames/DdLavyMRW5j-2.webp"
+   },
+   {
+    "t": 63.56,
+    "i": "frames/DdLavyMRW5j-3.webp"
+   },
+   {
+    "t": 85.75,
+    "i": "frames/DdLavyMRW5j-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:15+09:00",
+  "caption": "비트코인 홀더 순위\n영상 속 순위는 2024년 공개 자료 기준입니다. 직접 비트코인을 산 기업부터 채굴로 모은 곳, 고객 물량을 보관하는 거래소, 범죄 수익을 압수한 정부까지 모두 섞여 있습니다.\n\n특히 거래소와 ETF, 채굴을 위탁받은 기업의 보유량은 대부분 회사가 자기 돈으로 산 비트코인이 아닙니다. 지갑과 장부에는 해당 기업의 물량으로 잡히더라도, 실질적으로는 고객이나 ETF 투자자에게 돌아갈 몫입니다.\n\n여기에 집계조차 어려운 더 큰 물량도 있습니다. 비밀번호를 잃어버렸거나 주인이 사망해 영원히 움직일 수 없는 비트코인인데, 일부 추정치로는 사토시의 보유량보다 많을 수도 있습니다.\n\n비트코인은 총 2,100만 개만 발행되기 때문에, 21만 BTC를 보유하면 전체 물량의 1%를 가진 셈입니다. 인구의 1%는 8천만 명이 넘지만, 비트코인의 1%는 한 기업이 독차지하기도 합니다.\n\n#비트코인순위 #비트코인보유량 #코인랭킹 #비트코인보유량랭킹",
+  "captionLang": "ko"
+ },
+ {
+  "c": "Db5yjPluJ01",
+  "cc": "US",
+  "title": "운용자산 기준 미국 ETF TOP 10",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "etf",
+   "top"
+  ],
+  "p": 29502,
+  "l": 483,
+  "m": 8,
+  "d": "2026-08-11",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/Db5yjPluJ01/embed/captioned/",
+  "u": "https://www.instagram.com/reel/Db5yjPluJ01/",
+  "a": "stocksforwomen",
+  "frames": [
+   {
+    "t": 1.53,
+    "i": "frames/Db5yjPluJ01-1.webp"
+   },
+   {
+    "t": 4.86,
+    "i": "frames/Db5yjPluJ01-2.webp"
+   },
+   {
+    "t": 8.06,
+    "i": "frames/Db5yjPluJ01-3.webp"
+   },
+   {
+    "t": 10.87,
+    "i": "frames/Db5yjPluJ01-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:20+09:00",
+  "caption": "These are the 10 largest ETFs by assets under management. 👀\n\nAnd there’s an interesting takeaway: bigger doesn’t always mean higher returns.\n\nVOO, IVV, and SPY track the same S&P 500, yet their fees and structures differ. Meanwhile, funds like QQQ offer different exposure despite holding many of the same mega-cap companies.\n\nThe lesson? Don’t choose an ETF just because it’s popular. Look at what it owns, how much it costs, and whether it fits your strategy.\n\nFeaturing ETFs from\n@vanguardgroup\n@ishares\n@invescous\n\nComment “ETF” and I’ll send you my exact AI prompt to analyze any ETF in 30 seconds.\n\nComment “START” to get my FREE Investing Beginner’s Guide.\n\nFollow @stocksforwomen for more investing insights. 💜\n\n⚠️ Educational only. Not financial advice.",
+  "captionKo": "이는 운용 자산 기준으로 가장 큰 10개 ETF입니다. 🙌\n\n흥미로운 점은 더 크다고 해서 항상 더 높은 수익을 의미하는 것은 아니라는 점입니다.\n\nVOO, IVV 및 SPY는 동일한 S&P 500을 추적하지만 수수료와 구조는 다릅니다. 한편, QQQ와 같은 펀드는 동일한 대형주를 다수 보유함에도 불구하고 노출도가 다릅니다.\n\n교훈? 단지 인기가 있다는 이유만으로 ETF를 선택하지 마세요. 무엇을 소유하고 있는지, 비용은 얼마인지, 전략에 적합한지 살펴보세요.\n\nETF를 소개합니다\n@뱅가드그룹\n@ishares\n@invescous\n\n\"ETF\"라고 댓글을 달아주시면 30초 안에 모든 ETF를 분석할 수 있는 정확한 AI 프롬프트를 보내드리겠습니다.\n\n무료 투자 초보자 가이드를 받으시려면 \"START\"라고 댓글을 달아주세요.\n\n더 많은 투자 통찰력을 얻으려면 @stocksforwomen을 팔로우하세요. 💜\n\n⚠️ 교육용입니다. 재정적인 조언이 아닙니다."
+ },
+ {
+  "c": "DTa0R5Ej7Sk",
+  "cc": "US",
+  "title": "미국 S&P 500 ETF 차이 설명",
+  "level": "hard",
+  "why": "진행자의 발화·실사 촬영 비중이 높음.",
+  "mode": "live",
+  "visual": "live",
+  "topics": [
+   "etf"
+  ],
+  "p": 101875,
+  "l": 4636,
+  "m": 75,
+  "d": "2026-01-12",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DTa0R5Ej7Sk/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DTa0R5Ej7Sk/",
+  "a": "humphreytalks",
+  "frames": [
+   {
+    "t": 7.5,
+    "i": "frames/DTa0R5Ej7Sk-1.webp"
+   },
+   {
+    "t": 23.73,
+    "i": "frames/DTa0R5Ej7Sk-2.webp"
+   },
+   {
+    "t": 39.35,
+    "i": "frames/DTa0R5Ej7Sk-3.webp"
+   },
+   {
+    "t": 53.09,
+    "i": "frames/DTa0R5Ej7Sk-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:20+09:00",
+  "caption": "What’s the difference between these popular S&P500 ETFs? VOO vs SPY vs IVV. Here, I explain! There are some subtle differences you should be aware of.",
+  "captionKo": "인기 있는 S&P500 ETF의 차이점은 무엇인가요? VOO 대 SPY 대 IVV. 여기, 설명합니다! 당신이 알아야 할 몇 가지 미묘한 차이점이 있습니다."
+ },
+ {
+  "c": "DY8WvlEkptl",
+  "cc": "US",
+  "title": "대표 ETF 목록과 실사 배경",
+  "level": "mixed",
+  "why": "실제 인물 또는 앱 화면을 그래픽과 결합. 비슷한 형식에 보조 자료 필요.",
+  "mode": "mixed",
+  "visual": "mixed",
+  "topics": [
+   "etf"
+  ],
+  "p": 191465,
+  "l": 5617,
+  "m": 132,
+  "d": "2026-05-30",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DY8WvlEkptl/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DY8WvlEkptl/",
+  "a": "braidenshaw",
+  "frames": [
+   {
+    "t": 0.91,
+    "i": "frames/DY8WvlEkptl-1.webp"
+   },
+   {
+    "t": 2.89,
+    "i": "frames/DY8WvlEkptl-2.webp"
+   },
+   {
+    "t": 4.8,
+    "i": "frames/DY8WvlEkptl-3.webp"
+   },
+   {
+    "t": 6.47,
+    "i": "frames/DY8WvlEkptl-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:21+09:00",
+  "caption": "Save this. These are the most popular ETFs you’ll hear about online! \n\nMost people overcomplicate investing. They chase hot stocks, time the market, watch CNBC every morning like it's going to tell them something useful.\n\nMeanwhile the boring, consistent ETF investors are quietly getting rich.\n\nThat said, you do not need all of these. Many of them own a lot of the same companies and have significant overlap. The goal is to understand what each ETF does so you can choose the ones that fit your strategy.\n\nHere are the 7 most popular ETFs and exactly what they do:\n\n1. VOO - S&P 500 | 15.26% avg/year\n\nThe foundation of almost every serious portfolio. Tracks the 500 biggest companies in America. Apple, Microsoft, Google, Nvidia - all in one fund. Low fees, proven track record, set it and forget it.\n\n2. VTI - Total U.S. Market | 14.66% avg/year\n\nEverything VOO has PLUS small and mid-cap companies. Maximum U.S. market exposure in a single ticker.\n\n3. QQQM - Nasdaq-100 | 20.32% avg/year\n\nThe highest performer on this list. Tech-heavy and aggressive. Higher volatility but the long term returns speak for themselves.\n\n4. VUG - Growth ETF | 17.98% avg/year\n\nFocuses on high-growth U.S. companies. Perfect complement to VOO if you want more upside exposure.\n\n5. VWO - Emerging Markets | 3.93% avg/year\n\nLower returns but adds international diversification. Exposure to developing economies like China, India, and Brazil.\n\n6. VT - Total World | 11.93% avg/year\n\nOne fund. Every major market on the planet. The ultimate set-it-and-forget-it diversification play.\n\n7. SCHD - Dividends | 12.23% avg/year\n\nGets paid every quarter just for holding it. Stable blue-chip companies that pay you passive income while your portfolio grows.\n\nAutomate your contributions every month. Never touch it. Let compound interest do the rest.\n\nScreenshot this. Come back when you're ready to build real wealth. 👇",
+  "captionKo": "이것을 저장하세요. 온라인에서 가장 인기 있는 ETF는 다음과 같습니다! \n\n대부분의 사람들은 투자를 지나치게 복잡하게 생각합니다. 그들은 뜨거운 주식을 쫓고, 시장 시간을 측정하고, 매일 아침 CNBC가 유용한 정보를 제공할 것처럼 시청합니다.\n\n그러는 동안 지루하고 꾸준한 ETF 투자자들은 조용히 부자가 되어가고 있습니다.\n\n즉, 이 모든 것이 필요하지는 않습니다. 그들 중 다수는 동일한 회사를 많이 소유하고 있으며 상당한 중복을 갖고 있습니다. 목표는 각 ETF의 기능을 이해하여 전략에 맞는 ETF를 선택하는 것입니다.\n\n가장 인기 있는 7가지 ETF와 그 역할은 다음과 같습니다.\n\n1. VOO - S&P 500 | 연평균 15.26%\n\n거의 모든 진지한 포트폴리오의 기초입니다. 미국 500대 기업을 추적합니다. Apple, Microsoft, Google, Nvidia - 모두 하나의 펀드입니다. 낮은 수수료, 입증된 실적, 설정하고 잊어버리세요.\n\n2. VTI - 전체 미국 시장 | 연평균 14.66%\n\nVOO의 모든 것에는 PLUS 중소기업이 있습니다. 단일 티커에서 최대 미국 시장 노출.\n\n3. QQQM - 나스닥-100 | 연 평균 20.32%\n\n이 목록에서 가장 높은 성과를 냈습니다. 기술이 풍부하고 공격적입니다. 변동성은 높지만 장기 수익률은 그 자체로 입증됩니다.\n\n4. VUG - 성장 ETF | 연평균 17.98%\n\n미국의 고성장 기업에 초점을 맞추고 있습니다. 더 많은 상승 노출을 원한다면 VOO를 완벽하게 보완합니다.\n\n5. VWO - 신흥 시장 | 연평균 3.93%\n\n수익률은 낮지만 국제적 다각화를 추가합니다. 중국, 인도, 브라질과 같은 개발도상국에 대한 노출.\n\n6. VT - 토탈 월드 | 연 평균 11.93%\n\n하나의 펀드. 지구상의 모든 주요 시장. 궁극적인 설정하고 잊어버리는 다양화 플레이.\n\n7. SCHD - 배당금 | 연 평균 12.23%\n\n보유하고 있는 것만으로도 분기마다 급여를 받습니다. 귀하의 포트폴리오가 성장하는 동안 귀하에게 소극적 소득을 지급하는 안정적인 우량 회사입니다.\n\n매달 기부를 자동화하세요. 절대 만지지 마십시오. 나머지는 복리로 처리하도록 하세요.\n\n이것을 스크린샷하세요. 진정한 부를 쌓을 준비가 되면 다시 오세요. 👇"
+ },
+ {
+  "c": "DUrYAMvE_Tv",
+  "cc": "JP",
+  "title": "일본 신NISA 투자신탁 랭킹",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "etf",
+   "top"
+  ],
+  "p": 28295,
+  "l": 371,
+  "m": 1,
+  "d": "2026-02-13",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DUrYAMvE_Tv/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DUrYAMvE_Tv/",
+  "a": "ryoheifree",
+  "frames": [
+   {
+    "t": 8.02,
+    "i": "frames/DUrYAMvE_Tv-1.webp"
+   },
+   {
+    "t": 25.41,
+    "i": "frames/DUrYAMvE_Tv-2.webp"
+   },
+   {
+    "t": 42.12,
+    "i": "frames/DUrYAMvE_Tv-3.webp"
+   },
+   {
+    "t": 56.83,
+    "i": "frames/DUrYAMvE_Tv-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:22+09:00",
+  "caption": "【2026年版】楽天証券の新NISA、おすすめ投信ランキング！\n@ryoheifree",
+  "captionKo": "【2026년판】라쿠텐 증권의 신 NISA, 추천 투신 랭킹!\n@ryoheifree"
+ },
+ {
+  "c": "DbvH-eaSmsR",
+  "cc": "GL",
+  "title": "해외 ETF 비교 설명",
+  "level": "hard",
+  "why": "진행자의 발화·실사 촬영 비중이 높음.",
+  "mode": "live",
+  "visual": "live",
+  "topics": [
+   "etf"
+  ],
+  "p": 33981,
+  "l": 974,
+  "m": 1574,
+  "d": "2026-08-07",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DbvH-eaSmsR/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DbvH-eaSmsR/",
+  "a": "the_aiinvestor",
+  "frames": [
+   {
+    "t": 4.57,
+    "i": "frames/DbvH-eaSmsR-1.webp"
+   },
+   {
+    "t": 14.47,
+    "i": "frames/DbvH-eaSmsR-2.webp"
+   },
+   {
+    "t": 23.99,
+    "i": "frames/DbvH-eaSmsR-3.webp"
+   },
+   {
+    "t": 32.37,
+    "i": "frames/DbvH-eaSmsR-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:24+09:00",
+  "caption": "comment ‘etf’ if you want to know the breakdown of all etfs that I invest in or I think are really good",
+  "captionKo": "내가 투자하는 모든 ETF의 내역을 알고 싶거나 정말 좋다고 생각하는 경우 'ETF'라고 댓글을 달아주세요."
+ },
+ {
+  "c": "Dbk1N7rODFA",
+  "cc": "KR",
+  "title": "AI 서비스 개발용 크레딧 모음",
+  "level": "mixed",
+  "why": "실제 인물 또는 앱 화면을 그래픽과 결합. 비슷한 형식에 보조 자료 필요.",
+  "mode": "mixed",
+  "visual": "mixed",
+  "topics": [
+   "grants"
+  ],
+  "p": 8176,
+  "l": 224,
+  "m": 635,
+  "d": "2026-08-03",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/Dbk1N7rODFA/embed/captioned/",
+  "u": "https://www.instagram.com/reel/Dbk1N7rODFA/",
+  "a": "chloe_et_al",
+  "frames": [
+   {
+    "t": 0.95,
+    "i": "frames/Dbk1N7rODFA-1.webp"
+   },
+   {
+    "t": 3.0,
+    "i": "frames/Dbk1N7rODFA-2.webp"
+   },
+   {
+    "t": 4.97,
+    "i": "frames/Dbk1N7rODFA-3.webp"
+   },
+   {
+    "t": 6.71,
+    "i": "frames/Dbk1N7rODFA-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:24+09:00",
+  "caption": "[댓글에 크레딧] AI 서비스 개발을 꿈꾸신다면 ➡️ 꼭 챙겨야 할 무료 크레딧·지원 프로그램 총정리📌\n\nAI 서비스를 만들다 보면\nGPU, API, 클라우드 비용이 생각보다 \n정말정말 많이 드는데요...🤯\n\n그런데 의외로 많은 스타트업이\n수천만 원~수억 원 상당의 무료 크레딧을 놓치고 있습니다\n\n이번 영상에서는\n국내외 AI 스타트업이 받을 수 있는\n무료 크레딧 프로그램 21개를 한 번에 정리했어요!\n\n✅ Google for Startups Cloud\n✅ AWS Activate\n✅ Microsoft for Startups\n✅ NVIDIA Inception\n✅ Oracle for Startups\n\n🤖 AI API 크레딧\n\nAnthropic (Claude)\nOpenAI\nTogether AI\nHugging Face\nElevenLabs\nDeepgram\nAssemblyAI\nCursor\nCohere\nMistral AI\n\n🇰🇷 국내 프로그램\n\nNAVER Cloud Greenhouse\nNHN Cloud Startup\nKakaoCloud Rocket Launcher\nKT K-PATH\n\n여러 프로그램을 중복 신청할 수 있는 경우도 많으니\n자격 요건을 꼭 확인해 보세요.\n\n💬 댓글에 \"크레딧\" 남겨주시면\n21개 프로그램 신청 링크와 지원 금액을 정리한 \n리스트 보내드릴게요\n\n💯 더 많은 AI 꿀팁은\n➡️ @chloe_et_al 팔로우\n\n#AI #AI크레딧 #구글포스타트업 #스타트업지원사업 #스타트업",
+  "captionLang": "ko"
+ },
+ {
+  "c": "DRLypksFMkg",
+  "cc": "KR",
+  "title": "정부지원금 찾는 사이트 4곳",
+  "level": "mixed",
+  "why": "실제 인물 또는 앱 화면을 그래픽과 결합. 비슷한 형식에 보조 자료 필요.",
+  "mode": "mixed",
+  "visual": "mixed",
+  "topics": [
+   "grants"
+  ],
+  "p": 259,
+  "l": 12,
+  "m": 21,
+  "d": "2025-11-18",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DRLypksFMkg/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DRLypksFMkg/",
+  "a": "qjc.ai",
+  "frames": [
+   {
+    "t": 8.75,
+    "i": "frames/DRLypksFMkg-1.webp"
+   },
+   {
+    "t": 27.72,
+    "i": "frames/DRLypksFMkg-2.webp"
+   },
+   {
+    "t": 45.95,
+    "i": "frames/DRLypksFMkg-3.webp"
+   },
+   {
+    "t": 62.0,
+    "i": "frames/DRLypksFMkg-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:25+09:00",
+  "caption": "2026 정부지원금 최대 90억까지 받는 완벽 가이드 영상이 드디어 공개되었습니다! 🚀\n\n사업을 준비하시거나 운영 중인 사업자 여러분, 희소식입니다! 2026년 정부지원사업 예산이 역대 최대 규모로 편성되어 여러분의 사업자금 확보 기회가 확대되었습니다. 이 영상에서 정부지원금을 받기 위한 구체적인 방법과 창업지원금 신청 전략을 단계별로 자세히 알려드릴게요.\n\n특히, 2026 정부지원사업에서는 R&D 예산이 44.7% 증가하고 AI 활용 지원금 114억이 신규 편성되는 등 중요한 변화가 많습니다. 예비창업패키지부터 스케일업을 위한 팁스 지원금까지, 여러분의 사업 단계에 맞는 정부지원금 가이드를 통해 최대 90억에 달하는 사업자금 확보 전략을 세울 수 있습니다.\n\n성공적인 창업지원금을 받기 위해서는 산업분류코드 업데이트, 벤처기업 인증, 민간투자 유치 전략 수립 등이 필수적입니다. 이 모든 것을 자동화 시스템으로 지원받고 싶다면 어떻게 해야 할까요? 💡\n\n2026 정부지원사업을 완벽하게 정복하고 싶으시다면, 지금 바로 여러분의 사업에 맞는 창업지원금을 찾아보세요. 정부지원금 자동화 시스템을 통해 AI 기반 사업계획서 자동 작성과 맞춤 지원사업 매칭 방법을 더 자세히 알고 싶다면, 댓글에 “궁금”이라고 남겨주세요! 어떤 정부지원사업에 가장 관심이 있으신가요? 🤔\n\n#정부지원금 #창업지원금 #2026정부지원사업",
+  "captionLang": "ko"
+ },
+ {
+  "c": "DenMc3mshFj",
+  "cc": "KR",
+  "title": "모두의창업 AI 솔루션 지원 대상",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "grants"
+  ],
+  "p": 6,
+  "l": 0,
+  "m": 0,
+  "d": "2026-10-17",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DenMc3mshFj/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DenMc3mshFj/",
+  "a": "builderminseo",
+  "frames": [
+   {
+    "t": 3.89,
+    "i": "frames/DenMc3mshFj-1.webp"
+   },
+   {
+    "t": 12.31,
+    "i": "frames/DenMc3mshFj-2.webp"
+   },
+   {
+    "t": 20.4,
+    "i": "frames/DenMc3mshFj-3.webp"
+   },
+   {
+    "t": 27.53,
+    "i": "frames/DenMc3mshFj-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:25+09:00",
+  "caption": "2차 모두의 창업 AI 솔루션 지원, 누가 쓸 수 있을까요?\n\n① 중소벤처기업부가 10월 12일 AI 솔루션 공급기업 50개사, 솔루션 103개를 선정했다고 발표했습니다.\n② 이용 대상은 2차 「모두의 창업」 1라운드 진출자이고, 1인당 100만 원 범위에서 이용할 수 있습니다.\n③ 홈페이지 제작, 홍보 콘텐츠 생성, 계약서 작성 같은 창업 준비 작업을 돕는 솔루션입니다.\n④ 솔루션 목록과 솔루션별 기능·이용 방법은 모두의 창업 플랫폼(www.modoo.or.kr)에서 확인할 수 있습니다.\n\n이용 신청은 10월 16일부터 모두의 창업 플랫폼에서 이미 시작됐습니다.\n\n출처: 중소벤처기업부 보도자료(2026년 10월 12일) 「유망 아이디어를 창업으로, 2차 ｢모두의 창업｣ AI 솔루션 선정」. 선정·이용을 보장하지 않으며, 정확한 대상·일정·이용 방법은 공고 원문을 확인해 주세요.\n※ 중소벤처기업부 표기는 출처를 밝힌 것이며, 중소벤처기업부·모두의 창업 및 AI 솔루션 공급기업과 협찬·제휴 관계가 없습니다.\n\n다음 편은 팔로우하고 보세요.\n\n#모두의창업 #창업지원사업 #예비창업자 #빌더민서",
+  "captionLang": "ko"
+ },
+ {
+  "c": "DNOszMwsRcC",
+  "cc": "GL",
+  "title": "명품 브랜드 티어 랭킹",
+  "level": "mixed",
+  "why": "실제 인물 또는 앱 화면을 그래픽과 결합. 비슷한 형식에 보조 자료 필요.",
+  "mode": "mixed",
+  "visual": "mixed",
+  "topics": [
+   "top"
+  ],
+  "p": 431678,
+  "l": 21277,
+  "m": 298,
+  "d": "2025-08-11",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DNOszMwsRcC/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DNOszMwsRcC/",
+  "a": "antonisuave",
+  "frames": [
+   {
+    "t": 9.3,
+    "i": "frames/DNOszMwsRcC-1.webp"
+   },
+   {
+    "t": 29.45,
+    "i": "frames/DNOszMwsRcC-2.webp"
+   },
+   {
+    "t": 48.83,
+    "i": "frames/DNOszMwsRcC-3.webp"
+   },
+   {
+    "t": 65.88,
+    "i": "frames/DNOszMwsRcC-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:28+09:00",
+  "caption": "Tier Ranking Luxury Brands",
+  "captionKo": "등급 순위 럭셔리 브랜드"
+ },
+ {
+  "c": "DXzPKVugnOq",
+  "cc": "US",
+  "title": "미국 기업 시가총액 순위",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "stock",
+   "top"
+  ],
+  "p": 1429,
+  "l": 16,
+  "m": 0,
+  "d": "2026-05-01",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DXzPKVugnOq/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DXzPKVugnOq/",
+  "a": "globalstatsx",
+  "frames": [
+   {
+    "t": 0.97,
+    "i": "frames/DXzPKVugnOq-1.webp"
+   },
+   {
+    "t": 3.08,
+    "i": "frames/DXzPKVugnOq-2.webp"
+   },
+   {
+    "t": 5.11,
+    "i": "frames/DXzPKVugnOq-3.webp"
+   },
+   {
+    "t": 6.89,
+    "i": "frames/DXzPKVugnOq-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:30+09:00",
+  "caption": "🇺🇸 Largest American Companies by Market Capitalization \n(1 May 2026)\n\n1. 🇺🇸 NVIDIA ➜ $4.850T \n2. 🇺🇸 Alphabet (Google) ➜ $4.620T \n3. 🇺🇸 Apple ➜ $3.983T \n4. 🇺🇸 Microsoft ➜ $3.029T \n5. 🇺🇸 Amazon ➜ $2.850T \n6. 🇺🇸 Broadcom ➜ $1.976T \n7. 🇺🇸 Meta Platforms ➜ $1.553T \n8. 🇺🇸 Tesla ➜ $1.433T \n9. 🇺🇸 Walmart ➜ $1.051T \n10. 🇺🇸 Berkshire Hathaway ➜ $1.021T \n11. 🇺🇸 JPMorgan Chase ➜ $839.29B \n12. 🇺🇸 Eli Lilly ➜ $836.29B \n13. 🇺🇸 Exxon Mobil ➜ $641.48B \n14. 🇺🇸 Visa ➜ $627.27B \n15. 🇺🇸 Micron Technology ➜ $583.21B \n16. 🇺🇸 AMD ➜ $577.96B \n17. 🇺🇸 Johnson & Johnson ➜ $553.29B \n18. 🇺🇸 Intel ➜ $474.85B \n19. 🇺🇸 Oracle ➜ $464.16B \n20. 🇺🇸 Costco ➜ $450.09B \n21. 🇺🇸 Mastercard ➜ $444.77B \n22. 🇺🇸 Caterpillar ➜ $414.15B \n23. 🇺🇸 Netflix ➜ $394.17B \n24. 🇺🇸 Chevron ➜ $385.05B \n25. 🇺🇸 Bank of America ➜ $381.16B \n\n📊 Source: CompaniesMarketCap",
+  "captionKo": "🇺🇸 시가총액 기준 미국 최대 기업 \n(2026년 5월 1일)\n\n1. 🇺🇸 NVIDIA ➜ $4.850T \n2. 🇺🇸 알파벳(Google) ➜ $4.620T \n3. 🇺🇸 사과 ➜ $3.983T \n4. 🇺🇸 마이크로소프트 ➜ $3.029T \n5. 🇺🇸 아마존 ➜ $2.850T \n6. 🇺🇸 브로드컴 ➜ $1.976T \n7. 🇺🇸 메타 플랫폼 ➜ $1.553T \n8. 🇺🇸 테슬라 ➜ $1.433T \n9. 🇺🇸 월마트 ➜ $1.051T \n10. 🇺🇸 버크셔 해서웨이 ➜ $1.021T \n11. 🇺🇸 JPMorgan 체이스 ➜ $839.29B \n12. 🇺🇸 엘리 릴리 ➜ $836.29B \n13. 🇺🇸 엑슨 모빌 ➜ $641.48B \n14. 🇺🇸 비자 ➜ $627.27B \n15. 🇺🇸 마이크론 테크놀로지 ➜ $583.21B \n16. 🇺🇸 AMD ➜ $577.96B \n17. 🇺🇸 존슨 앤 존슨 ➜ $553.29B \n18. 🇺🇸 인텔 ➜ $474.85B \n19. 🇺🇸 오라클 ➜ $464.16B \n20. 🇺🇸 코스트코 ➜ $450.09B \n21. 🇺🇸 마스터카드 ➜ $4447억7천만 \n22. 🇺🇸 애벌레 ➜ $414.15B \n23. 🇺🇸 넷플릭스 ➜ $394.17B \n24. 🇺🇸 쉐브론 ➜ $385.05B \n25. 🇺🇸 뱅크 오브 아메리카 ➜ $381.16B \n\n📊 출처: CompaniesMarketCap"
+ },
+ {
+  "c": "DWpNUliCgJ6",
+  "cc": "US",
+  "title": "2000년 이후 미국 1위 기업 변화",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "stock"
+  ],
+  "p": 3142,
+  "l": 19,
+  "m": 0,
+  "d": "2026-04-02",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DWpNUliCgJ6/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DWpNUliCgJ6/",
+  "a": "globalstatsx",
+  "frames": [
+   {
+    "t": 0.97,
+    "i": "frames/DWpNUliCgJ6-1.webp"
+   },
+   {
+    "t": 3.08,
+    "i": "frames/DWpNUliCgJ6-2.webp"
+   },
+   {
+    "t": 5.11,
+    "i": "frames/DWpNUliCgJ6-3.webp"
+   },
+   {
+    "t": 6.89,
+    "i": "frames/DWpNUliCgJ6-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:32+09:00",
+  "caption": "🇺🇸 America’s Most Valuable Companies (Since 2000)\n\n2000 ➜ 🇺🇸 Microsoft\n2001 ➜ 🇺🇸 General Electric\n2002 ➜ 🇺🇸 General Electr\n2003 ➜ 🇺🇸 Microsoft\n2004 ➜ 🇺🇸 General Electric\n2005 ➜ 🇺🇸 ExxonMobil\n2006 ➜ 🇺🇸 ExxonMobil\n2007 ➜ 🇺🇸 ExxonMobil\n2008 ➜ 🇺🇸 ExxonMobil\n2009 ➜ 🇺🇸 ExxonMobil\n2010 ➜ 🇺🇸 ExxonMobil\n2011 ➜ 🇺🇸 ExxonMobil\n2012 ➜ 🇺🇸 Apple\n2013 ➜ 🇺🇸 Apple\n2014 ➜ 🇺🇸 Apple\n2015 ➜ 🇺🇸 Apple\n2016 ➜ 🇺🇸 Apple\n2017 ➜ 🇺🇸 Apple\n2018 ➜ 🇺🇸 Apple\n2019 ➜ 🇺🇸 Microsoft\n2020 ➜ 🇺🇸 Microsoft\n2021 ➜ 🇺🇸 Apple\n2022 ➜ 🇺🇸 Apple\n2023 ➜ 🇺🇸 Apple\n2024 ➜ 🇺🇸 Microsoft\n2025 ➜ 🇺🇸 Apple\n2026 ➜ 🇺🇸 Nvidia\n\nNote: Based on market capitalization as of March 31 each year.\n\n📊 Source: Visual Capitalist",
+  "captionKo": "🇺🇸 미국에서 가장 가치 있는 기업(2000년 이후)\n\n2000 ➜ 🇺🇸 마이크로소프트\n2001 ➜ 🇺🇸 제너럴 일렉트릭\n2002 ➜ 🇺🇸 총선거\n2003년 ➜ 🇺🇸 마이크로소프트\n2004 ➜ 🇺🇸 제너럴 일렉트릭\n2005 ➜ 🇺🇸 엑슨모빌\n2006 ➜ 🇺🇸 엑슨모빌\n2007 ➜ 🇺🇸 엑슨모빌\n2008 ➜ 🇺🇸 엑슨모빌\n2009 ➜ 🇺🇸 엑슨모빌\n2010 ➜ 🇺🇸 엑슨모빌\n2011 ➜ 🇺🇸 엑슨모빌\n2012 ➜ 🇺🇸 애플\n2013년 ➜ 🇺🇸 애플\n2014 ➜ 🇺🇸 애플\n2015 ➜ 🇺🇸 애플\n2016년 ➜ 🇺🇸 애플\n2017년 ➜ 🇺🇸 애플\n2018 ➜ 🇺🇸 애플\n2019 ➜ 🇺🇸 마이크로소프트\n2020 ➜ 🇺🇸 마이크로소프트\n2021 ➜ 🇺🇸 애플\n2022년 ➜ 🇺🇸 애플\n2023년 ➜ 🇺🇸 애플\n2024년 ➜ 🇺🇸 마이크로소프트\n2025년 ➜ 🇺🇸 애플\n2026년 ➜ 🇺🇸 엔비디아\n\n주: 매년 3월 31일 현재 시가총액 기준.\n\n📊 출처: 비주얼 캐피탈리스트"
+ },
+ {
+  "c": "DXqOdUTCh6v",
+  "cc": "US",
+  "title": "미국 vs 유럽 기업 시총 비교",
+  "level": "easy",
+  "why": "확인한 네 컷에서 차트·텍스트·그래픽이 중심. 데이터는 별도 검증 필요.",
+  "mode": "ai",
+  "visual": "graphic",
+  "topics": [
+   "stock"
+  ],
+  "p": 34591,
+  "l": 266,
+  "m": 4,
+  "d": "2026-04-28",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DXqOdUTCh6v/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DXqOdUTCh6v/",
+  "a": "globalstatsx",
+  "frames": [
+   {
+    "t": 0.97,
+    "i": "frames/DXqOdUTCh6v-1.webp"
+   },
+   {
+    "t": 3.08,
+    "i": "frames/DXqOdUTCh6v-2.webp"
+   },
+   {
+    "t": 5.11,
+    "i": "frames/DXqOdUTCh6v-3.webp"
+   },
+   {
+    "t": 6.89,
+    "i": "frames/DXqOdUTCh6v-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:33+09:00",
+  "caption": "🇺🇸 US vs 🇪🇺 EU - Largest Companies by Market Cap \n(27 April 2026)\n\n🇺🇸 United States\n\n1. 🇺🇸 NVIDIA ➜ $5.061 T\n2. 🇺🇸 Alphabet (Google) ➜ $4.141 T\n3. 🇺🇸 Apple ➜ $3.979 T\n4. 🇺🇸 Microsoft ➜ $3.155 T\n5. 🇺🇸 Amazon ➜ $2.839 T\n6. 🇺🇸 Broadcom ➜ $2.001 T\n7. 🇺🇸 Meta Platforms ➜ $1.713 T\n8. 🇺🇸 Tesla ➜ $1.413 T\n9. 🇺🇸 Walmart ➜ $1.035 T\n10. 🇺🇸 Berkshire Hathaway ➜ $1.012 T\n\n🇺🇸 ➜ Total: $26.349 T\n\n🇪🇺 European Union\n\n1. 🇳🇱 ASML ➜ $561.82 B\n2. 🇫🇷 LVMH ➜ $273.36 B\n3. 🇫🇷 L'Oréal ➜ $236.25 B\n4. 🇩🇪 Siemens ➜ $217.42 B\n5. 🇳🇱 Prosus ➜ $212.81 B\n6. 🇩🇪 SAP ➜ $206.61 B\n7. 🇫🇷 Hermès ➜ $202.59 B\n8. 🇪🇸 Inditex ➜ $191.97 B\n9. 🇫🇷 TotalEnergies ➜ $191.28 B\n10. 🇩🇪 Siemens Energy ➜ $188.56 B\n\n🇪🇺 ➜ Total: $2.482 T\n\n📊 Source: CompaniesMarketCap\nℹ️ Note: Only the top 10 companies are included.",
+  "captionKo": "🇺🇸 미국 대 🇪🇺 EU - 시가총액 기준 최대 기업 \n(2026년 4월 27일)\n\n🇺🇸 미국\n\n1. 🇺🇸 NVIDIA ➜ $5.061 T\n2. 🇺🇸 알파벳(Google) ➜ $4.141 T\n3. 🇺🇸 사과 ➜ $3.979 T\n4. 🇺🇸 마이크로소프트 ➜ $3.155T\n5. 🇺🇸 아마존 ➜ $2.839 T\n6. 🇺🇸 브로드컴 ➜ $2.001 T\n7. 🇺🇸 메타 플랫폼 ➜ $1.713 T\n8. 🇺🇸 테슬라 ➜ $1.413 T\n9. 🇺🇸 월마트 ➜ $1.035 T\n10. 🇺🇸 버크셔 해서웨이 ➜ $1.012 T\n\n🇺🇸 ➜ 총액: $26.349 T\n\n🇪🇺 유럽 연합\n\n1. 🇳🇱 ASML ➜ $561.82 B\n2. 🇫🇷 LVMH ➜ $273.36B\n3. 🇫🇷 로레알 ➜ $236.25 B\n4. 🇩🇪 지멘스 ➜ $217.42 B\n5. 🇳🇱 프로서스 ➜ $212.81B\n6. 🇩🇪 SAP ➜ $206.61B\n7. 🇫🇷 에르메스 ➜ $202.59 B\n8. 🇪🇸 인디텍스 ➜ $191.97B\n9. 🇫🇷 TotalEnergies ➜ $191.28 B\n10. 🇩🇪 지멘스 에너지 ➜ $188.56 B\n\n🇪🇺 ➜ 총액: $2.482 T\n\n📊 출처: CompaniesMarketCap\nℹ️ 참고: 상위 10개 회사만 포함됩니다."
+ },
+ {
+  "c": "DQZ4MdtiOc4",
+  "cc": "GL",
+  "title": "AI 고양이 드라마: 결혼식 장면",
+  "level": "easy",
+  "why": "확인한 네 컷은 캐릭터 연출 중심. 원본 제작 도구는 확인하지 않음.",
+  "mode": "ai",
+  "visual": "character",
+  "topics": [
+   "top"
+  ],
+  "p": 705827,
+  "l": 24750,
+  "m": 66,
+  "d": "2025-10-29",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DQZ4MdtiOc4/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DQZ4MdtiOc4/",
+  "a": "cutemeowai",
+  "frames": [
+   {
+    "t": 7.28,
+    "i": "frames/DQZ4MdtiOc4-1.webp"
+   },
+   {
+    "t": 23.05,
+    "i": "frames/DQZ4MdtiOc4-2.webp"
+   },
+   {
+    "t": 38.21,
+    "i": "frames/DQZ4MdtiOc4-3.webp"
+   },
+   {
+    "t": 51.55,
+    "i": "frames/DQZ4MdtiOc4-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:22:58+09:00",
+  "caption": "🐾 Stop scrolling! If this *orange floof ball* makes you smile, drop a ❤️, leave a 🐱‍💻 in the comments, and follow for more feline chaos! 🧡 Let's make your day fluffier together!\n\n---\n\nLate at night, when the city sleeps and the streets fall silent, an *AI-generated orange cat* sneaks into our digital dreams. 🐈‍⬛ With fur brighter than the sunset and eyes full of pixel-perfect mischief, this kitty isn't just cute — it's built different. 🤖✨\n\nHe doesn’t meow... he *uploads*. He doesn’t chase mice... he *tracks algorithms*. And his favorite toy? A laser pointer made of trending *#catsoftiktok*. 🔥\n\nEach slow blink feels like he's saying: “You just found the *#cutecatclub*, welcome.” 😽 As he jumps from one rooftop to another — smooth as rendered butter — he’s collecting hearts faster than a *#reelitfeelit* video going viral.\n\nBehind every tail flick is a whisper of *#fyp* magic. He’s not just a cat... he’s the *#aestheticvibes* ambassador of your timeline. From sipping pixel milk to doing backflips off the digital couch, this *#petlover* icon knows how to work the camera.\n\nEver wondered what *#cutepetclub* dreams are made of? It’s this: an orange AI cat with sass, style, and enough charisma to make even the grumpiest dog hit that *#followforfollowback* button. 🧡",
+  "captionKo": "🐾 스크롤을 멈추세요! 이 *주황색 털 공*이 당신을 웃게 만든다면, 댓글에 ❤️을 붙이고, 댓글에 🐱‍💻를 남기고, 더 많은 고양이 혼란을 위해 팔로우하세요! 😍 여러분의 하루를 더욱 포근하게 만들어보세요!\n\n---\n\n도시가 잠들고 거리가 조용해지는 늦은 밤, *AI가 생성한 주황색 고양이*가 우리의 디지털 꿈 속으로 몰래 들어옵니다. 🐈‍⬛ 일몰보다 밝은 털과 완벽한 장난으로 가득한 눈을 가진 이 고양이는 귀엽기만 한 것이 아니라, 구조가 다릅니다. 🤖✨\n\n그는 야옹거리지 않습니다... 그는 *업로드*합니다. 그는 쥐를 쫓지 않습니다... 그는 *알고리즘을 추적*합니다. 그리고 그가 가장 좋아하는 장난감은요? 요즘 핫한 *#catsoftiktok*으로 만든 레이저 포인터입니다. 🔥\n\n천천히 깜박일 때마다 그가 \"방금 *#cutecatclub*을 찾았군요. 환영합니다.\"라고 말하는 것처럼 느껴집니다. 😽 그가 한 옥상에서 다른 옥상으로 점프할 때 - 버터처럼 부드럽게 - 입소문이 퍼지는 *#reelitfeelit* 동영상보다 더 빠르게 마음을 모으고 있습니다.\n\n모든 꼬리 움직임 뒤에는 *#fyp* 마법의 속삭임이 있습니다. 그는 단순한 고양이가 아닙니다... 그는 타임라인의 *#미적 분위기* 대사입니다. 픽셀 우유를 마시는 것부터 디지털 소파에서 공중제비를 하는 것까지 이 *#petlover* 아이콘은 카메라 작동 방법을 알고 있습니다.\n\n*#cutepetclub*의 꿈이 무엇으로 만들어지는지 궁금한 적이 있나요? 그것은 바로 이것이다: 가장 심술궂은 개라도 *#followforfollowback* 버튼을 누르게 만들 정도로 뻔뻔함과 스타일, 충분한 카리스마를 갖춘 주황색 AI 고양이입니다. ✌"
+ },
+ {
+  "c": "DVejHf3Eq4W",
+  "cc": "GL",
+  "title": "주황 고양이 자동차 정비 캐릭터",
+  "level": "easy",
+  "why": "확인한 네 컷은 캐릭터 연출 중심. 원본 제작 도구는 확인하지 않음.",
+  "mode": "ai",
+  "visual": "character",
+  "topics": [
+   "top"
+  ],
+  "p": 528944,
+  "l": 35787,
+  "m": 654,
+  "d": "2026-03-04",
+  "dateEstimated": true,
+  "source": "https://www.instagram.com/reel/DVejHf3Eq4W/embed/captioned/",
+  "u": "https://www.instagram.com/reel/DVejHf3Eq4W/",
+  "a": "theslimcat",
+  "frames": [
+   {
+    "t": 1.22,
+    "i": "frames/DVejHf3Eq4W-1.webp"
+   },
+   {
+    "t": 3.87,
+    "i": "frames/DVejHf3Eq4W-2.webp"
+   },
+   {
+    "t": 6.42,
+    "i": "frames/DVejHf3Eq4W-3.webp"
+   },
+   {
+    "t": 8.66,
+    "i": "frames/DVejHf3Eq4W-4.webp"
+   }
+  ],
+  "at": "2026-11-20T12:23:01+09:00",
+  "caption": "The scene presents an AI-generated ginger cat positioned at the front of a car engine, appearing to engage in mechanical repair behavior, while a gray cat is depicted tightening the battery components nearby. The ginger cat’s fur is rendered in vivid orange tones with visible texture, and its posture suggests focused attention on the engine structure. During the interaction, a battery wire makes contact with the ginger cat, prompting an exaggerated physical reaction in which its fur expands outward in a puffed, goosebump-like formation. The sudden shift in body posture is followed by loud meowing and a brief physical altercation between the two cats, characterized by rapid paw movements and heightened animation effects.\n\nThis sequence illustrates how AI-generated animal scenarios combine familiar domestic imagery with improbable technical situations to produce humor through contrast. The mechanical setting juxtaposed with expressive feline reactions creates a playful tension that stimulates curiosity and amusement. The exaggerated fur expansion and synchronized movements emphasize stylized realism, reinforcing a sense of animated spontaneity while maintaining a visually cohesive digital environment. The interaction reflects themes of surprise, rivalry, and exaggerated cause-and-effect within virtual animal storytelling.\n\nAs an example of AI animation and digital art, the depiction aligns with trending AI content that features virtual pets in unconventional roles, blending mechanical environments with expressive character modeling to create engaging and widely shared digital visuals. 🇯🇵🇮🇳🇨🇳\n\n#AICat #AIAnimation #DigitalArt #VirtualPet #TrendingAIContent",
+  "captionKo": "이 장면에는 AI가 생성한 생강 고양이가 자동차 엔진 앞에 위치하여 기계적 수리 동작을 하는 것처럼 보이고, 회색 고양이는 근처의 배터리 구성 요소를 조이는 모습이 그려져 있습니다. 진저캣의 털은 질감이 눈에 띄는 생생한 오렌지 톤으로 표현되었으며, 그 자세는 엔진 구조에 집중한 모습을 암시합니다. 상호 작용하는 동안 배터리 전선이 생강 고양이와 접촉하여 털이 부풀어오르고 소름이 돋는 형태로 바깥쪽으로 팽창하는 과장된 물리적 반응을 촉발합니다. 신체 자세의 갑작스러운 변화에 이어 큰 소리로 야옹거리고 두 고양이 사이에 짧은 신체적 다툼이 이어지며, 빠른 발 움직임과 고조된 애니메이션 효과가 특징입니다.\n\n이 시퀀스는 AI가 생성한 동물 시나리오가 친숙한 국내 이미지와 있을 법하지 않은 기술적 상황을 결합하여 대비를 통해 유머를 만들어내는 방법을 보여줍니다. 고양이의 표현적인 반응과 병치된 기계적인 설정은 호기심과 즐거움을 자극하는 장난스러운 긴장감을 조성합니다. 과장된 모피 확장과 동기화된 움직임은 양식화된 사실성을 강조하여 시각적으로 응집력 있는 디지털 환경을 유지하면서 애니메이션 자발성을 강화합니다. 상호 작용은 가상 동물 스토리텔링 내에서 놀라움, 경쟁, 과장된 원인과 결과라는 주제를 반영합니다.\n\nAI 애니메이션과 디지털 아트의 한 예로서, 묘사는 가상 애완동물이 색다른 역할을 맡는 최신 AI 콘텐츠와 일치하며, 기계적 환경과 표현력이 풍부한 캐릭터 모델링을 혼합하여 매력적이고 널리 공유되는 디지털 비주얼을 만듭니다. 🇯🇵🇮🇳🇨🇳\n\n#AICat #AI애니메이션 #DigitalArt #VirtualPet #TrendingAIContent"
  }
 ]

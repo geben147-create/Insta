@@ -28,3 +28,11 @@
 
 2026-11-19 기존 시험 결과. 자막 전문은 포함하지 않으며, 샤오홍슈 로그인·Instagram 편집 실패·미검증 항목을 별도로 표시합니다. 새 폴더와 이 메뉴는 기존 자료를 건드리지 않고 삭제할 수 있습니다.
 <!--EGO-LAB-README:END-->
+
+<!--VIDEO-PERMISSIONS-20261120:BEGIN-->
+## ✉️ 국뽕 해외 영상 사용허락 · 메일 발송 대장
+
+[컬러 상태판 열기](https://geben147-create.github.io/Insta/research-hub-20261108/outreach-permissions-20261120/) · [GitHub 원본](./research-hub-20261108/outreach-permissions-20261120/) · [중복 방지 CSV](./research-hub-20261108/outreach-permissions-20261120/contacts.csv)
+
+2026-11-20 Gmail 실제 발송 51건을 확인. 긍정(범위 재확인) 1 · 거절 1 · 추가 정보 요청 1 · SMTP 실패 1 · 대기 47. 메일 원문과 수신자 주소는 공개하지 않음.
+<!--VIDEO-PERMISSIONS-20261120:END-->

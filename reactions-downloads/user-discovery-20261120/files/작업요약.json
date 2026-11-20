@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-20T18:46:09.874948",
+  "updated_at": "2026-11-20T19:28:37.743017",
   "channel_rows": 42,
   "channel_names_unique": 41,
   "profile_resolved": 41,
   "explicit_seed_video_ids": 5,
   "video_candidates": 63,
-  "new_video_downloaded": 33,
+  "new_video_downloaded": 36,
   "existing_video_reused": 0,
-  "subtitle_timeline_ready": 30,
+  "subtitle_timeline_ready": 33,
   "missing_url_requests": 27,
   "platform_roadmap_rows": 14,
   "world_source_records_resolved": 21,
-  "research_status": "METADATA_RESEARCH_COMPLETE_MEDIA_AND_CONTENT_REVIEW_IN_PROGRESS",
+  "research_status": "COLLECTION_ATTEMPTS_FINISHED_FAILURES_AND_SEMANTIC_REVIEW_REMAIN",
   "sheet_status": "BLOCKED_LOGIN_REQUIRED",
   "sheet_evidence": "Local OAuth token absent; ego existing Korea sheet redirected to Google sign-in; no write attempted",
   "sheet_url": "https://docs.google.com/spreadsheets/d/1Lq1ZUz5sVbt-WYy0yR5x7EmOn_3YInkNVqPGMFeqBCk/edit#gid=0",
@@ -23,7 +23,7 @@
   "research_channel_records": 41,
   "research_channel_video_rows": 54,
   "channels_with_followup_candidates": 32,
-  "subtitle_artifacts_generated": 33,
+  "subtitle_artifacts_generated": 36,
   "subtitle_duration_review_required": 3,
   "subtitle_bounds_tolerance_seconds": 0.25,
   "world_record_count": 23,
@@ -33,11 +33,13 @@
   "latest_asr_device": "cuda",
   "gpu_runtime_scope": "JOB_LOCAL_CUDA12_CUDNN9_NO_SYSTEM_OR_VENV_CHANGES",
   "final_semantic_verified": 0,
+  "media_batch_finished": true,
+  "subtitle_batch_finished": true,
   "state_counts": {
     "완료": 0,
-    "검수필요": 33,
-    "실패": 11,
+    "검수필요": 36,
+    "실패": 26,
     "차단_제외": 1,
-    "대기_진행중": 18
+    "대기_진행중": 0
   }
 }

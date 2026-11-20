@@ -1,6 +1,6 @@
 {
   "scope": "ALL_CURRENT_VIDEO_RECORDS",
-  "checked_at": "2026-11-20T18:46:09.874948",
+  "checked_at": "2026-11-20T19:28:37.743017",
   "tolerance_seconds": 0.25,
   "decision": "HOLD_FOR_REVIEW_NO_CLAMP_NO_OVERWRITE",
   "records": [

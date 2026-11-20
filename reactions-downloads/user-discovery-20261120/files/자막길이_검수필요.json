@@ -1,0 +1,32 @@
+{
+  "scope": "ALL_CURRENT_VIDEO_RECORDS",
+  "checked_at": "2026-11-20T17:42:27.865357",
+  "tolerance_seconds": 0.25,
+  "decision": "HOLD_FOR_REVIEW_NO_CLAMP_NO_OVERWRITE",
+  "records": [
+    {
+      "ID": "BV1L9bVzREpQ",
+      "video_path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/사용자발굴_한일비교_현지원본_20261120_164550/중국/猛男阿凯奇幻之旅_kay/BV1L9bVzREpQ/BV1L9bVzREpQ.mp4",
+      "video_sha256": "9eb93d973cc1c6d7041aae5dccaab8f58ecf383deb4640970df7ee32946d40e5",
+      "original_path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/사용자발굴_한일비교_현지원본_20261120_164550/중국/猛男阿凯奇幻之旅_kay/BV1L9bVzREpQ/BV1L9bVzREpQ.original.srt",
+      "original_sha256": "89103a9ebeb66adacd46b4a4f6940109bf83adcc39f1a42d308aeee9892634fc",
+      "ko_path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/사용자발굴_한일비교_현지원본_20261120_164550/중국/猛男阿凯奇幻之旅_kay/BV1L9bVzREpQ/BV1L9bVzREpQ.ko.srt",
+      "ko_sha256": "aa8892f69eb06d0429bc2a94ad4d39e8ccfad8eee50fff0c336e996d3e680e14",
+      "video_duration_seconds": 1017.898333,
+      "subtitle_last_end_seconds": 1021.75,
+      "subtitle_bounds": "FAIL_OUTSIDE_VIDEO"
+    },
+    {
+      "ID": "60025b700eca7cd418a96dd58b3db412",
+      "video_path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/사용자발굴_한일비교_현지원본_20261120_164550/러시아/Телеканал 360/60025b700eca7cd418a96dd58b3db412/60025b700eca7cd418a96dd58b3db412.mp4",
+      "video_sha256": "ad2090bdbd782fea20b85fc9af3d653a3f24fafd78e7ce3209706e5e5ceb7f4e",
+      "original_path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/사용자발굴_한일비교_현지원본_20261120_164550/러시아/Телеканал 360/60025b700eca7cd418a96dd58b3db412/60025b700eca7cd418a96dd58b3db412.original.srt",
+      "original_sha256": "cb703adca6536125e1c2a58a1a4efe9a5cea127dc54ac99e56737a6a1f7c1da0",
+      "ko_path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/사용자발굴_한일비교_현지원본_20261120_164550/러시아/Телеканал 360/60025b700eca7cd418a96dd58b3db412/60025b700eca7cd418a96dd58b3db412.ko.srt",
+      "ko_sha256": "95790a44eb5347d087ba0a71eb9cad66924c54cddc80f69c546e599926e0ef43",
+      "video_duration_seconds": 238.92,
+      "subtitle_last_end_seconds": 267.28,
+      "subtitle_bounds": "FAIL_OUTSIDE_VIDEO"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+캡슐 숙소 편 당시 집필 과업과 편집 조건 발췌 · 로컬 작업 경로만 축약
+
+Prepare a complete Korean voice script and source-first cut plan for one 17-minute 1.2x LOCAL review episode: Japan capsule lodgings, compare the space and routines of two specific properties BV1LV4y1k7PY and BV1UL411N7Ue, do not repeat earlier Seoul hotel or wallet topic. Save [작업 폴더]/capsule.json. No synthesis/render/publish. Return quickly.
+
+Both sources are largely silent walkthroughs or background music. Do not fabricate foreign speech or claim 40% original speech; original footage holds can be source-only with natural ambience if verified, mute music if needed. JSON {title,sections:[{title,sticker,text,raw:[{id,in,out,ko}],bg:[{id,in,out}]}]}. 10–12 sections; at least 3600–4200 Korean chars, scene-led with observed changes only, no current rules, hours, pricing, specs or first/best claim. Supply 3–6 exact 8-30 sec visual anchor ranges per section, split final encoder independently. raw optional but source-only visual hook clear. Focus window/corridor/locker/curtain/bed rather than speculative experiences.

@@ -1,0 +1,408 @@
+{
+  "title": "침대 옆 한 칸: 도쿄 캡슐 숙소 두 곳의 하룻밤",
+  "source_archive": "https://geben147-create.github.io/Insta/reactions-downloads/audit-20261120/",
+  "sections": [
+    {
+      "step": 1,
+      "title": "침대 옆에 발을 디딜 자리",
+      "sticker": "같은 캡슐, 다른 입구",
+      "anchors": [
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 136,
+          "out": 147,
+          "visual": "어두운 복도와 겹쳐 놓인 캡슐 입구"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 94,
+          "out": 109,
+          "visual": "커튼 안쪽 침대와 객실 부분"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 114,
+          "out": 134,
+          "visual": "침대 옆 원형 테이블과 커튼"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 165,
+          "out": 185,
+          "visual": "캡슐 안 벽과 검은 테두리"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "title": "길에서 침대까지 바로 가지 않는다",
+      "sticker": "입구 → 안쪽",
+      "anchors": [
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 52,
+          "out": 68,
+          "visual": "거리에서 여성 그림이 있는 9h 입구로"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 65,
+          "out": 79,
+          "visual": "나무색 보관함 열"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 7,
+          "out": 25,
+          "visual": "FIRST CABIN 간판과 건물 진입"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 31,
+          "out": 48,
+          "visual": "안내판 뒤 카운터 쪽"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 76,
+          "out": 95,
+          "visual": "카드가 잡히고 칸이 이어진 복도로"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "title": "보관함 앞에서 한 번 멈춘다",
+      "sticker": "짐은 잠자리와 따로",
+      "anchors": [
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 66,
+          "out": 82,
+          "visual": "보관함 줄과 열린 칸 안쪽"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 81,
+          "out": 99,
+          "visual": "봉투에 든 물건을 들어 보이는 손"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 211,
+          "out": 229,
+          "visual": "캡슐 안 침구 위 가방"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 156,
+          "out": 177,
+          "visual": "아타고야마 침구 위에 옷을 펼침"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "title": "몸이 먼저 방향을 바꾸는 복도",
+      "sticker": "복도에서 바로 캡슐로",
+      "anchors": [
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 134,
+          "out": 154,
+          "visual": "입구가 위아래로 보이는 복도에서 캡슐 안으로"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 165,
+          "out": 184,
+          "visual": "캡슐 안 오목한 벽과 검은 테두리"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 186,
+          "out": 204,
+          "visual": "베개와 매트에 가까워진 시점"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 84,
+          "out": 97,
+          "visual": "세로 칸막이가 이어진 복도"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 111,
+          "out": 129,
+          "visual": "별도 원형 테이블과 침구가 있는 공간"
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "title": "커튼 안에 남는 바닥",
+      "sticker": "테이블과 침대가 따로",
+      "anchors": [
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 113,
+          "out": 131,
+          "visual": "리모컨을 올려놓은 원형 테이블"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 125,
+          "out": 145,
+          "visual": "커튼과 벽 쪽 거울"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 179,
+          "out": 195,
+          "visual": "침대에서 떨어진 발밑과 슬리퍼"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 159,
+          "out": 175,
+          "visual": "침대 위 옷 정리"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 111,
+          "out": 122,
+          "visual": "테이블과 벽면이 함께 보이는 구도"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "title": "누운 다음 손이 가는 곳",
+      "sticker": "빛과 조작부",
+      "anchors": [
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 174,
+          "out": 192,
+          "visual": "조명 주변 검은 테두리와 침구"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 190,
+          "out": 207,
+          "visual": "베개와 침구에 가까운 시점"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 224,
+          "out": 241,
+          "visual": "벽면 다이얼에 손을 뻗음"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 246,
+          "out": 264,
+          "visual": "스위치 부근에서 침대 쪽 화면으로"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 412,
+          "out": 425,
+          "visual": "아침 표기가 있는 조작부 장면"
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "title": "씻으러 나가는 순간",
+      "sticker": "잠자리 밖의 세면 공간",
+      "anchors": [
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 283,
+          "out": 303,
+          "visual": "흰 세면대와 물 쓰는 자리"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 314,
+          "out": 331,
+          "visual": "칸으로 나뉜 샤워 공간"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 332,
+          "out": 348,
+          "visual": "샤워 칸 내부 설비"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 285,
+          "out": 306,
+          "visual": "세면대와 욕장 입구 표지"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 322,
+          "out": 342,
+          "visual": "탕과 씻는 자리"
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "title": "침대 밖에서 보내는 저녁",
+      "sticker": "동네 식사 / 라운지",
+      "anchors": [
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 394,
+          "out": 407,
+          "visual": "저녁 거리로 나옴"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 405,
+          "out": 418,
+          "visual": "가게 메뉴판"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 423,
+          "out": 441,
+          "visual": "카레와 밥이 놓인 식탁"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 355,
+          "out": 372,
+          "visual": "긴 테이블과 라운지 좌석, 음료 자판기"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 373,
+          "out": 387,
+          "visual": "작은 공용 작업 자리로 제시되는 구도"
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "title": "돌아오면 경계가 다시 보인다",
+      "sticker": "둥근 입구 / 천 커튼",
+      "anchors": [
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 484,
+          "out": 497,
+          "visual": "어두운 복도와 캡슐 입구 재등장"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 494,
+          "out": 512,
+          "visual": "안쪽에서 검은 테두리 쪽으로 손을 댐"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 395,
+          "out": 413,
+          "visual": "복도 측 경계에서 잠자리 화면으로 이동"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 123,
+          "out": 139,
+          "visual": "커튼 위쪽과 개구부의 관계"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 135,
+          "out": 146,
+          "visual": "복도 쪽에서 본 입구 형태 리콜"
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "title": "아침에 한 번 더 손을 쓰는 곳",
+      "sticker": "정리하고 밖으로",
+      "anchors": [
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 515,
+          "out": 529,
+          "visual": "보관함 앞으로 돌아온 화면"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 527,
+          "out": 545,
+          "visual": "출입문에서 9h 외관으로"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 415,
+          "out": 435,
+          "visual": "아침 조작부와 베개·침구"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 435,
+          "out": 454,
+          "visual": "침구 위 옷과 칸 입구 표시"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 449,
+          "out": 468,
+          "visual": "칸 표지에서 공용부 안내로"
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "title": "고를 때 사진을 한 장 더 본다면",
+      "sticker": "잠들기 직전, 어디에 있을까",
+      "anchors": [
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 65,
+          "out": 80,
+          "visual": "보관함 열 리콜"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 113,
+          "out": 126,
+          "visual": "테이블과 리모컨 리콜"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 284,
+          "out": 297,
+          "visual": "세면 장면 리콜"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 353,
+          "out": 368,
+          "visual": "라운지 좌석 리콜"
+        },
+        {
+          "id": "BV1LV4y1k7PY",
+          "in": 133,
+          "out": 146,
+          "visual": "간다 캡슐 입구와 복도"
+        },
+        {
+          "id": "BV1UL411N7Ue",
+          "in": 123,
+          "out": 137,
+          "visual": "아타고야마 커튼"
+        }
+      ]
+    }
+  ],
+  "notes": "앵커는 집필 단계에서 쓴 원본 화면 후보 IN/OUT입니다. 로컬 최종 렌더의 컷 기록과는 다릅니다."
+}

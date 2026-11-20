@@ -8,7 +8,7 @@
 
 ## 0. 현재 작업 상태부터 읽기
 
-workspace-registry.json의 verification, source_lock, entries, results를 먼저 읽는다. 자료 수집·분석·원문 전개·제작 결과의 역할을 구분한다. 기존 내용을 삭제하거나 새 버전으로 덮어쓰지 않는다. 원문·대본·MP3·완성 MP4 상태를 각각 기록한다.
+workspace-registry.json의 latest_production, verification, source_lock, entries, results를 먼저 읽는다. 이번 새 결과는 research-hub-20261108/hanil-compare-20261120/comparison.json에 있으며 작업실의 #workspace-new에서 재생한다. 문답디베이트·떡밥회수루프·하몬서클8의 신규 원고와 로컬 Qwen3-TTS voiceB 합성본이다. 기존 MP36개와 혼동하지 않는다. 자료 수집·분석·원문 전개·제작 결과의 역할을 구분한다. 기존 내용을 삭제하거나 새 버전으로 덮어쓰지 않는다. 원문·대본·MP3·완성 MP4 상태를 각각 기록한다.
 
 이미 완료한 KTX·KTX-청룡과 폴란드 방산은 새 주제 후보에서 제외한다. 결과 보관/검토 링크는 남긴다. 미사용 주제를 새로 선정하기 전 기존 제작 기록과 대조한다. MP3가 있다는 이유로 완성 영상이라고 하지 않는다.
 
@@ -40,7 +40,7 @@ workspace-registry.json의 verification, source_lock, entries, results를 먼저
 
 ## 3. 비교 시험
 
-현재 새 비교 주제는 미선택이다. KTX를 임의로 다시 만들지 않는다. 새 미사용 주제1개를 고른 뒤 같은 사실 자료로 전개3~4종만 우선 비교한다. 원문의 모든 구조를 한 번에 돌리지 않는다.
+현재는 한일 혁신·제조업 비교 대본3종과 새 MP3 생성이 완료됐다. 중국어 해설의 실제 일본 재벌 우위 평가에서 시작해 WIPO2025·IFR2024를 나란히 검토한다. 실제 화자가 일본인이라는 설정이나 마음을 바꿨다는 설정은 없다. KTX를 임의로 다시 만들지 않는다. 새 미사용 주제1개를 고른 뒤 같은 사실 자료로 전개3~4종만 우선 비교한다. 원문의 모든 구조를 한 번에 돌리지 않는다.
 
 각 안마다 다음을 별도로 기록한다:
 - 적용한 전개 이름·원문 위치·고른 이유
@@ -54,9 +54,9 @@ workspace-registry.json의 verification, source_lock, entries, results를 먼저
 
 ## 4. TTS는 반드시 먼저 선택
 
-현재 TTS 엔진·목소리는 미선택이다. 이전 질문에 응답이 확정되지 않았다. Qwen3-TTS/Edge TTS/다른 도구 중 사용자의 선택을 받고, 'HTTS'가 다른 도구라면 정확한 명칭 또는 링크를 확인한다. 음질 우열을 실험 없이 단정하지 않는다. 유료 호출·설치·다운로드를 임의로 진행하지 않는다.
+이번 실행은 사용자의 즉시 신규 합성 후속 지시에 따라 설치된 로컬 Qwen3-TTS와 등록 voiceB를 사용했다. 이 실행 가정을 별도 목소리 선호 승인으로 기록하지 않는다. 현재 생성본을 미선택·대기 상태로 되돌리지 않는다. 다음의 다른 합성 작업에서는 Qwen3-TTS/Edge TTS/다른 도구 중 사용자의 선택을 받고, 'HTTS'가 다른 도구라면 정확한 명칭 또는 링크를 확인한다. 음질 우열을 실험 없이 단정하지 않는다. 유료 호출·설치·다운로드를 임의로 진행하지 않는다.
 
-선택 전에는 대본과 화면 정리만 진행하고 신규 MP3는 TTS_PENDING_SELECTION으로 둔다. 기존에 발견한 MP3는 '기존 검토용 음성'으로 표시하고 새 비교 결과인 척하지 않는다.
+다음의 별도 작업에서 엔진 선택이 필요한 경우에만 TTS_PENDING_SELECTION으로 둔다. 이미 실제 생성된 이번3종을 대기로 표시하거나 기존 음성만 모아 신규 제작을 대신하지 않는다. 기존에 발견한 MP3는 '기존 검토용 음성'으로 표시하고 새 비교 결과인 척하지 않는다.
 
 합성은 narration만 사용한다. 실제 파일을 만든 뒤 ffprobe 등으로 길이·포맷·음량·파일 경로를 확인한다. 합성과 받아쓰기/귀로 듣는 검수를 구분한다. 원음 발언을 TTS로 위조하지 않는다.
 
@@ -65,9 +65,11 @@ workspace-registry.json의 verification, source_lock, entries, results를 먼저
 저장소: geben147-create/Insta
 고정 작업실: research-hub-20261108/#workspace
 원장 파일: research-hub-20261108/workspace-registry.json
-결과 파일: 같은 허브 아래 runs/<run_id>/result.json, script.md, outline.json, sources.json, audio/*.mp3
+현재 결과 파일: 같은 허브 아래 hanil-compare-20261120/{comparison.json,comparison-data.js,qc.json,speech-qc.json,각전개.mp3,각전개-narration.mp3,각전개.txt,각전개-timeline.json}. 새로운 작업도 같은 허브 내부의 작업별 폴더에 저장한다.
 
 새 최상위 저장소·새 대시보드를 계속 만들지 않는다. run_id별 결과를 추가하고 원장의 results에 연결한다. 원문 데이터와 다른 세션의 미커밋 파일은 건드리지 않는다. 원장 변경과 workspace-data.js는 동일 데이터로 재생성한다.
+
+왼쪽 목차는 매번 기본 고정·펼침이며 메뉴 숨기기/펼치기 버튼으로만 숨긴다. 화면 크기나 메뉴 이동만으로 자동 숨기지 않고, 새 방문에 접힘 상태를 강제하지 않는다. 기존 폭 조절과 메뉴 순서 이동을 보존한다.
 
 재생기는 페이지 위의 일반 문서 흐름에 모으고 기본 playbackRate/defaultPlaybackRate를 2로 한다. 이는 재생 설정이며 MP3 자체를 두 배속으로 바꾸라는 뜻이 아니다. 대본 본문에는 고정 높이·max-height·overflow:auto를 주지 않는다. 문서 전체가 자연스럽게 스크롤되게 하고 iframe 안에 다시 끼우지 않는다.
 

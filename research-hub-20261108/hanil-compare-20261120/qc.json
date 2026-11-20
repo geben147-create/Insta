@@ -1,0 +1,95 @@
+[
+  {
+    "variant": "debate",
+    "narration_ratio": 0.5998210025388977,
+    "narration_seconds": 372.15679166666666,
+    "original_seconds": 248.289625,
+    "source_clips": 111,
+    "narration_utterances": 27,
+    "tempo_adjustment": 0.9793934595900728,
+    "files": [
+      {
+        "file": "debate.mp3",
+        "bytes": 4964204,
+        "sha256": "28e8cb4a1558dcf5e3920f5a00119213fd87a9db3d726cda6fda7155a55e6d35",
+        "duration": 620.446417
+      },
+      {
+        "file": "debate-narration.mp3",
+        "bytes": 2977964,
+        "sha256": "bf582cd4093f98570407b75110d21b5a6d8a6a33384daf5f1de9c2bfd746f709",
+        "duration": 372.156792
+      }
+    ],
+    "pcm": {
+      "sample_rate": 24000,
+      "samples": 14890714,
+      "finite": true,
+      "rms": 0.11698248982429504,
+      "peak": 0.940000057220459,
+      "clipped_samples": 0
+    }
+  },
+  {
+    "variant": "loop",
+    "narration_ratio": 0.5998210294132955,
+    "narration_seconds": 372.15683333333334,
+    "original_seconds": 248.289625,
+    "source_clips": 111,
+    "narration_utterances": 27,
+    "tempo_adjustment": 0.9795702945202767,
+    "files": [
+      {
+        "file": "loop.mp3",
+        "bytes": 4964204,
+        "sha256": "e761c91cbc38cefb1b2274f6dda82538638ce455b661ccb2a35d04ef1232d237",
+        "duration": 620.446458
+      },
+      {
+        "file": "loop-narration.mp3",
+        "bytes": 2977964,
+        "sha256": "ff3b0903ef048dc042f0d2c7b1dc01e95cac66998e63606d4c80e544f8509b05",
+        "duration": 372.156833
+      }
+    ],
+    "pcm": {
+      "sample_rate": 24000,
+      "samples": 14890715,
+      "finite": true,
+      "rms": 0.11698248982429504,
+      "peak": 0.940000057220459,
+      "clipped_samples": 0
+    }
+  },
+  {
+    "variant": "harmon",
+    "narration_ratio": 0.5998249799104981,
+    "narration_seconds": 372.16295833333334,
+    "original_seconds": 248.289625,
+    "source_clips": 111,
+    "narration_utterances": 27,
+    "tempo_adjustment": 0.9841816053925132,
+    "files": [
+      {
+        "file": "harmon.mp3",
+        "bytes": 4964396,
+        "sha256": "3759aae48e572d7a7266354e8f520517de3cf4e9cc47106d7155a9799b48304c",
+        "duration": 620.452583
+      },
+      {
+        "file": "harmon-narration.mp3",
+        "bytes": 2977964,
+        "sha256": "e353d01919ac915cfa8a4571bbf511004218b263628947905bb7f8a861f11a4b",
+        "duration": 372.162958
+      }
+    ],
+    "pcm": {
+      "sample_rate": 24000,
+      "samples": 14890862,
+      "finite": true,
+      "rms": 0.11698251217603683,
+      "peak": 0.940000057220459,
+      "clipped_samples": 0
+    }
+  }
+]

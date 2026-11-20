@@ -16365,7 +16365,8 @@
     "link_access_statuses": {
       "200": 39,
       "401": 1
-    }
+    },
+    "new_comparison_complete": true
   },
   "source_lock": {
     "main_style": "국뽕·해외반응. 쓸모왕·단골이슈 장수채널 분석과 제공 자막7편을 우선.",
@@ -16374,5 +16375,36 @@
     "tts": "합성 전 사용자의 TTS 엔진·목소리 선택 필수. HTTS 정확한 도구명 미확정. 임의 확정 금지.",
     "comparison": "KTX는 완료 주제. 새 비교시험 제외. 다음 미사용 주제1개+같은 근거로 전개3~4종만 우선 비교.",
     "publication": "정적 페이지의 메뉴/복사 버튼은 실행 엔진이 아님. 제작은 에이전트가 파일에 기록하고 실제 출력 검증 후 결과 목록에 추가."
+  },
+  "latest_production": {
+    "id": "hanil-compare-20261120",
+    "title": "일본 재벌을 높인 해외 해설, 한국의 두 성적표를 나란히 보니",
+    "created": "2026-11-20",
+    "engine": "local Qwen3-TTS-Base",
+    "voice": "registered voiceB",
+    "local_artifact": "/home/yh/ai-work/hanil-compare-20261120-qwen3",
+    "new_tts_utterances": 41,
+    "newly_written_and_synthesized": true,
+    "url": "https://geben147-create.github.io/Insta/research-hub-20261108/#workspace-new",
+    "variants": [
+      {
+        "id": "debate",
+        "duration": 620.446417,
+        "narration_ratio": 0.5998210025388977,
+        "mp3": "./hanil-compare-20261120/debate.mp3"
+      },
+      {
+        "id": "loop",
+        "duration": 620.446458,
+        "narration_ratio": 0.5998210294132955,
+        "mp3": "./hanil-compare-20261120/loop.mp3"
+      },
+      {
+        "id": "harmon",
+        "duration": 620.452583,
+        "narration_ratio": 0.5998249799104981,
+        "mp3": "./hanil-compare-20261120/harmon.mp3"
+      }
+    ]
   }
 }

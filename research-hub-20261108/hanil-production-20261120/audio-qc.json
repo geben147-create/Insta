@@ -1,0 +1,139 @@
+[
+  {
+    "topic": "dining",
+    "id": "a",
+    "title": "한 자리에 대한 네 번의 문답",
+    "seconds": 1227.975958,
+    "seconds_1_2": 1023.313,
+    "target_pass": true,
+    "hook_seconds": 37.03425,
+    "sections": [
+      0.0,
+      125.45,
+      268.15,
+      406.92,
+      543.36,
+      675.88,
+      810.85,
+      949.1,
+      1086.97
+    ],
+    "tempo": 0.9150684039087947,
+    "file": "dining-a.mp3",
+    "hook": "dining-a-hook.mp3"
+  },
+  {
+    "topic": "dining",
+    "id": "b",
+    "title": "서울이 조금 억울했던 한 줄",
+    "seconds": 1227.975708,
+    "seconds_1_2": 1023.313,
+    "target_pass": true,
+    "hook_seconds": 39.397542,
+    "sections": [
+      0.0,
+      110.55,
+      237.54,
+      361.52,
+      476.64,
+      600.3,
+      724.2,
+      891.99,
+      1004.31,
+      1117.85
+    ],
+    "tempo": 0.9077003257328989,
+    "file": "dining-b.mp3",
+    "hook": "dining-b-hook.mp3"
+  },
+  {
+    "topic": "dining",
+    "id": "c",
+    "title": "그릇을 놓으면 보이는 자리",
+    "seconds": 1227.976333,
+    "seconds_1_2": 1023.314,
+    "target_pass": true,
+    "hook_seconds": 36.135125,
+    "sections": [
+      0.0,
+      140.03,
+      285.99,
+      447.9,
+      603.47,
+      756.68,
+      914.01,
+      1071.99
+    ],
+    "tempo": 0.9265602605863192,
+    "file": "dining-c.mp3",
+    "hook": "dining-c-hook.mp3"
+  },
+  {
+    "topic": "payment",
+    "id": "a",
+    "title": "손이 멈춘 자리",
+    "seconds": 1227.97675,
+    "seconds_1_2": 1023.314,
+    "target_pass": true,
+    "hook_seconds": 33.133875,
+    "sections": [
+      0.0,
+      116.98,
+      226.46,
+      340.07,
+      496.56,
+      643.74,
+      751.71,
+      855.62,
+      964.18,
+      1117.2
+    ],
+    "tempo": 0.9402605863192183,
+    "file": "payment-a.mp3",
+    "hook": "payment-a-hook.mp3"
+  },
+  {
+    "topic": "payment",
+    "id": "b",
+    "title": "네 번째 종이는 비어 있다",
+    "seconds": 1227.976917,
+    "seconds_1_2": 1023.314,
+    "target_pass": true,
+    "hook_seconds": 36.198583,
+    "sections": [
+      0.0,
+      138.32,
+      279.88,
+      423.28,
+      622.6,
+      772.54,
+      915.55,
+      1079.31
+    ],
+    "tempo": 0.9461628664495113,
+    "file": "payment-b.mp3",
+    "hook": "payment-b-hook.mp3"
+  },
+  {
+    "topic": "payment",
+    "id": "c",
+    "title": "돌아올 때 지갑에 넣는 것",
+    "seconds": 1227.976792,
+    "seconds_1_2": 1023.314,
+    "target_pass": true,
+    "hook_seconds": 46.252333,
+    "sections": [
+      0.0,
+      148.98,
+      301.73,
+      457.19,
+      610.17,
+      767.14,
+      925.55,
+      1078.72
+    ],
+    "tempo": 0.9408078175895764,
+    "file": "payment-c.mp3",
+    "hook": "payment-c-hook.mp3"
+  }
+]

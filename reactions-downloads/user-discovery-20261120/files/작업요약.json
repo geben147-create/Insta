@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-11-20T17:05:44.604934",
+  "channel_rows": 42,
+  "channel_names_unique": 41,
+  "profile_resolved": 2,
+  "explicit_seed_video_ids": 5,
+  "video_candidates": 5,
+  "new_video_downloaded": 5,
+  "existing_video_reused": 0,
+  "subtitle_timeline_ready": 4,
+  "missing_url_requests": 27,
+  "platform_roadmap_rows": 14,
+  "world_source_records_resolved": 0,
+  "research_status": "RUNNING_OR_REVIEW_REQUIRED",
+  "sheet_status": "BLOCKED_LOGIN_REQUIRED",
+  "sheet_evidence": "Local OAuth token absent; ego existing Korea sheet redirected to Google sign-in; no write attempted",
+  "sheet_url": "https://docs.google.com/spreadsheets/d/1Lq1ZUz5sVbt-WYy0yR5x7EmOn_3YInkNVqPGMFeqBCk/edit#gid=0",
+  "PC_current": "UNKNOWN",
+  "root": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/사용자발굴_한일비교_현지원본_20261120_164550",
+  "youtube_absence_verified": 0,
+  "fulltext_publication": "NOT_PUBLISHED_PENDING_RIGHTS",
+  "no_original_overwrite": true
+}

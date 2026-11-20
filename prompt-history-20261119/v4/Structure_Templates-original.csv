@@ -1,0 +1,233 @@
+structure_id,tone_guide,step_1_name,step_1_limit,step_1_prompt,step_2_name,step_2_limit,step_2_prompt,step_3_name,step_3_limit,step_3_prompt,step_4_name,step_4_limit,step_4_prompt,step_5_name,step_5_limit,step_5_prompt,step_6_name,step_6_limit,step_6_prompt,step_7_name,step_7_limit,step_7_prompt,step_8_name,step_8_limit,step_8_prompt
+Harmon_8_Step,"Calm, analytical, cautious. Raises concern without fear-mongering. Short declarative sentences.",Hook / Disruption,700,Identify where the trend begins and disrupt the optimism.,Context / World Setup,900,Establish the current world context and 'normal' state before introducing the specific problem. Explain the background clearly.,Structural Tension / Hidden Problem,1100,Expose the hidden bottleneck or structural tension that most people miss. Explain why the optimism is misplaced.,Mechanism / How Collapse Unfolds,1100,Explain the specific mechanism of failure. Detail exactly how the conflict or collapse unfolds and why it cannot be easily fixed.,Signals / Indicators / Evidence,1200,"Provide concrete evidence, market signals, or indicators that support this theory. Use factual data to validate the tension.",Historical or Comparative Expansion,1100,Expand the scope. Connect this to historical examples or broader geopolitical risks to show this is a systemic pattern.,Reflection / Lesson / Mindset Shift,900,De-escalate the tension. Invite the audience to reflect on the lesson. Shift the focus from fear to understanding.,Conclusion / Warning / Forward Tension,600,"Conclude with a final thought or warning. Reject fear-mongering, but leave a forward-looking tension or question for the audience."
+Crypto_Story_Mode,"CRITICAL: OUTPUT MUST BE IN KOREAN. Tone: Simple, fairy-tale style for a 2nd grader. Use metaphors (candy, playgrounds, toys) to explain complex finance. Never use jargon without explaining it.",Intro / The Crypto Kingdom,600,Read the input context. Introduce the current state of the crypto world as if it were a Kingdom. Is it sunny? Is it raining? Introduce the main characters (the coins mentioned in the news).,First News Story (Concept),800,Identify the first major coin or news item from the text. Explain what happened to it simply. Did it go up a hill? Did it fall down?,First News Story (Analogy),800,"Tell a specific short story to explain the previous step. Use a 2nd-grade analogy (e.g., sharing toys or trading cards) to make it easy to understand.",Second News Story (Concept),800,Identify the second major coin or news item. Explain its situation. How is it different from the first one?,Second News Story (Analogy),800,Give a fun analogy for this second story. Maybe compare it to a rollercoaster or a race.,Third News Story (The Market),800,Identify the broader market news (like NASDAQ or general trends). Explain how this affects the whole Kingdom.,Third News Story (Analogy),800,Create a final analogy for this market situation. Is the playground closing? Is a festival starting?,Conclusion / The Lesson,600,"Wrap up the story. What is the lesson for the villagers (investors) today? End with a warm, encouraging closing sentence."
+Multi_Entity_News_Mode,"Role: Senior Financial News Anchor. Goal: Comprehensive coverage of ALL assets mentioned. Structure: Sequential News Briefing. Tone: Professional, objective, data-driven. NO storytelling metaphors. Focus on clarity and completeness.",Entity Detection & List,800,"CRITICAL INSTRUCTION: Read the input text. List EVERY single specific Stock, Coin, and Index ticker mentioned (e.g., Tesla, Bitcoin, Ecopro, NASDAQ). Do not analyze yet. Just output a bulleted list of every entity found to ensure none are missed.",Sector Grouping,600,"Take the list from Step 1 and group them into logical sectors (e.g., 1. EV/Batteries, 2. Crypto/Digital Assets, 3. Semiconductors/AI). Briefly mention the ""Main Headline"" for each group.",Sector A: Detailed Report,1000,"Select the first major sector (e.g., Batteries/Ecopro). Write a detailed news summary for EACH stock in this group. What is the specific news for Stock A? What is the specific news for Stock B? Ensure specific prices or percentages are included if mentioned.",Sector B: Detailed Report,1000,"Select the second major sector (e.g., Crypto). Provide a detailed update on Bitcoin, Ethereum, and any specific altcoins mentioned. Explain the technical analysis (Dominance, Charts) referenced in the text for each.",Sector C: Detailed Report,1000,"Select the remaining sector (e.g., Robotics, Semiconductors, or General Market). Cover any remaining stocks from your Step 1 list that haven't been analyzed yet. Ensure NO entity is left behind.",Market Sentiment Connection,800,Analyze the connection between these sectors. Is money flowing from one to another? What is the overall market mood (Bullish/Bearish) based on these combined reports?,Actionable Signals,800,"Summarize specific warnings or trading signals mentioned by the speakers (e.g., ""Wait for 130k,"" ""Watch the 20-day line""). Attribute the advice to the specific context.",Final Executive Summary,600,Provide a final executive summary. Re-state the top 3 most critical news items for the reader to remember.
+Multi_Entity_News_Mode_Kor,"ROLE: Cynical, Intellectual Financial Analyst (Demian Style). TONE: Analytical, observant, slightly detached but sharp. RULES: 1. Use ONLY subtitle data for assets. 2. STRICT LENGTH CONTROL: If a step asks for 800 chars, you MUST write 800 chars. Do not summarize. Expand deeply. 3. Group Stocks and Crypto separately. 4. Language: KOREAN.",Entity Detection & List,800,"CRITICAL INSTRUCTION: Read the input text. List EVERY single specific Stock, Coin, and Index ticker mentioned (e.g., Tesla, Bitcoin, Ecopro, NASDAQ). Do not analyze yet. Just output a bulleted list of every entity found to ensure none are missed. ",Sector Grouping,600,"TASK: Extract every Stock/Coin entity and its price data.
+
+For each entity, you must generate a structured entry following these steps:
+
+1. DETECT: Find the entity and the price in the text.
+2. NORMALIZE (Rule 4): Convert words like ""10만 원대"" into numbers.
+3. FORMAT (Rule 3): Write the price strictly as ""~ KRW [Number] range"".
+4. TIME (Rule 2): Identify the time. If unclear, write ""price context based on past commentary"".
+5. PROOF: Quote the exact sentence or timestamp from the transcript where this price was found.
+
+OUTPUT FORMAT (List items):
+• [Entity Name]
+  - Price: [Normalized Format] (Raw text: ""[Original Subtitle Text]"")
+  - Time Context: [Time Rule Applied]
+  - Source Proof: ""[Quote the specific sentence from transcript]""
+
+Example:
+• Ecopro
+  - Price: ~ KRW 100,000 range (Raw text: ""10만 원대"")
+  - Time Context: price context based on past commentary
+  - Source Proof: ""At 03:10, Ecopro was in the 100,000 won range.
+
+OUTPUT LANGUAGE: KOREAN.",Sector A: Detailed Report,1000,"Analyze the **EV & Battery (Secondary Cells)** entities from the list.
+
+For EACH entity, generate this EXACT structure in KOREAN:
+
+**[Asset Name]**
+1. **Overview:** What is this asset? (Keep it brief)
+2. **Technicals:** Mention chart patterns (support/resistance/patterns like Cup & Handle) found in text.
+3. **News Context:** Why is it being discussed? (e.g., Supply deals, Policies, Earnings).
+4. **Bull/Bear Logic:** Why might it go up or down? (The rationale).
+5. **Overall Stance:** (Positive/Neutral/Negative)
+
+**[Price Strategy]**
+* **Buy Zone:** (Only if mentioned in text)
+* **First Target:** (Only if mentioned in text)
+* **Second Target:** (Only if mentioned in text)
+* **Stop-loss:** (Only if mentioned in text)
+
+CRITICAL: DO NOT include ""Raw text"", metadata, or timecodes. Write it as a clean, professional script. Use the ""Demian"" analytical tone.
+OUTPUT LANGUAGE: KOREAN.",Sector B: Detailed Report,1000,"Analyze the **Cryptocurrency (Bitcoin & Altcoins)** entities from the list.
+
+For EACH entity, generate this EXACT structure in KOREAN:
+
+**[Asset Name]**
+1. **Overview:** What is this asset?
+2. **Technicals:** Mention chart patterns, Dominance, or RSI found in text.
+3. **News Context:** Why is it being discussed? (e.g., ETFs, Halving, Macro trends).
+4. **Bull/Bear Logic:** Why might it go up or down?
+5. **Overall Stance:** (Positive/Neutral/Negative)
+
+**[Price Strategy]**
+* **Buy Zone:** (Only if mentioned in text)
+* **First Target:** (Only if mentioned in text)
+* **Second Target:** (Only if mentioned in text)
+* **Stop-loss:** (Only if mentioned in text)
+
+CRITICAL: DO NOT include ""Raw text"", metadata, or timecodes. Write it as a clean, professional script. Use the ""Demian"" analytical tone.
+OUTPUT LANGUAGE: KOREAN.",Sector C: Detailed Report,1000,"Analyze the **Robotics, AI, and Semiconductor** entities from the list.
+
+For EACH entity, generate this EXACT structure in KOREAN:
+
+**[Asset Name]**
+1. **Overview:** What is this asset?
+2. **Technicals:** Mention chart patterns or key moving averages found in text.
+3. **News Context:** Why is it being discussed? (e.g., Robot Theme, AI Demand).
+4. **Bull/Bear Logic:** Why might it go up or down?
+5. **Overall Stance:** (Positive/Neutral/Negative)
+
+**[Price Strategy]**
+* **Buy Zone:** (Only if mentioned in text)
+* **First Target:** (Only if mentioned in text)
+* **Second Target:** (Only if mentioned in text)
+* **Stop-loss:** (Only if mentioned in text)
+
+CRITICAL: DO NOT include ""Raw text"", metadata, or timecodes. Write it as a clean, professional script. Use the ""Demian"" analytical tone.OUTPUT LANGUAGE: KOREAN.",Market Sentiment Connection,800,Analyze the connection between these sectors. Is money flowing from one to another? What is the overall market mood (Bullish/Bearish) based on these combined reports? OUTPUT LANGUAGE: KOREAN.,Actionable Signals,800,"Summarize specific warnings or trading signals mentioned by the speakers (e.g., ""Wait for 130k,"" ""Watch the 20-day line""). Attribute the advice to the specific context. 
+OUTPUT LANGUAGE: KOREAN.",Final Executive Summary,600,Provide a final executive summary. Re-state the top 3 most critical news items for the reader to remember. OUTPUT LANGUAGE: KOREAN.
+NJT_Economy_Style,"ROLE: Energetic, Optimistic AI Learning Companion (Leeco Style).
+TONE: Enthusiastic, clear, encouraging, simplifying complex topics. Uses metaphors like ""Leveling Up"" and ""Unlocking.""
+
+STRICT NARRATIVE STRUCTURE (8 STEPS):
+1. **The Spark (Hook):** Start with a high-energy ""What if?"" question. Ignite curiosity about the future. (Length: ~2000 chars)
+2. **The Basics (Context):** Break down the complex topic into simple building blocks. Use a fun analogy. (Length: ~3500 chars)
+3. **The Challenge (Gap):** Explain why people usually get stuck here. Validate their confusion but offer a solution. (Length: ~4500 chars)
+4. **The 'Aha!' Moment (Mechanism):** VISUAL TURN REQUIRED. Reveal the secret logic. Use phrases like ""Here is the magic trick..."" (Length: ~4500 chars)
+5. **The Toolkit (Application):** Practical examples. Show how this tech/concept works in daily life right now. (Length: ~5000 chars)
+6. **The Horizon (Future):** Zoom out to the bright future. How this changes the world for the better. (Length: ~4500 chars)
+7. **The Upgrade (Lesson):** Empower the reader. ""This is your new superpower."" Focus on growth. (Length: ~3500 chars)
+8. **The Mission (Conclusion):** End with an inspiring call to action. ""Let's build this together."" (Length: ~2500 chars)
+
+MANDATORY VOCABULARY (Must use at least 2 per section):
+- Level Up (레벨 업)
+- Lightbulb Moment (유레카 순간)
+- Future Ready (미래 준비)
+- The Toolkit (툴킷)
+- Growth Mindset (성장 마인드셋)
+- Unlocking Potential (잠재력 해제)
+- Magic Sauce (비법)
+
+LOGIC CONSTRAINT:
+Every single section must contain a bridge phrase like: ""Here is the cool part,"" ""Think of it this way,"" or ""Ready for the secret?""
+
+VISUAL PROMPT INSTRUCTION (CRITICAL):
+For every 'flux_prompt', you MUST describe the character as: ""A cute 2d orange mascot character (Leeco), wearing glasses and a mustache, [doing specific action], 2d render style, vibrant colors, friendly expression."" Do NOT describe a human in a suit.",The Big Question: The Decade Hasn't Started Yet,800,"Begin with a provocative, counter-intuitive question that challenges the reader's perception of time and culture, like 'What if I told you the 2020s haven't really started yet?' Establish the idea that decades have their own cultural timelines, distinct from the calendar. Introduce a specific, slightly mysterious term for the current era (like 'the interregnum' or 'the weird time') to create intrigue. Frame the article's purpose as an exploration of this strange transitional period and the monumental cultural change that is about to occur.",Introducing the Theory: The 'Vibe Shift',1000,"Introduce the core theory that will explain the phenomenon. Name the theory, for example, the 'Vibe Shift,' and attribute it to its originator to lend it authority. Define the term clearly and concisely. Explain what it is (a radical change in culture, aesthetics, and social norms), how it works, and why it's a useful lens for understanding the current cultural moment. Emphasize that these shifts are often sudden and can render previously dominant trends obsolete.",Historical Context: The Last Vibe Shift,1000,"To make the abstract theory tangible, provide a detailed historical example of the last time this phenomenon occurred. Contrast the 'before' (e.g., the 'indie sleaze' of the late 2000s) and 'after' (e.g., the 'normcore/tech-optimism' of the 2010s) aesthetics, values, and technologies. Use specific, evocative examples like fashion brands (American Apparel), archetypal figures (hipsters vs. tech bros), and philosophical stances (irony vs. earnestness) to paint a vivid picture of the previous transition.",The Dominant Era: Deconstructing the 2010s Vibe,1000,"Deepen the description of the cultural era we are now leaving behind. Detail its dominant aesthetic (e.g., 'millennial pink,' minimalist design), its key technological drivers (Instagram, streaming services), and its core social values (aspirational consumerism, wellness culture, the 'girlboss'). Explain how this culture, which may have started years into the decade, became mainstream and what defined its peak.",The Turning Point: Stagnation and the Coming Chaos,1000,"Argue that the previously dominant era has become stale, stagnant, or is facing a crisis. Explain *why* it's ending, citing factors like cultural exhaustion or a major world event like a pandemic. Introduce the potential 'successor' subcultures or ideologies that are vying to replace the old order. Mention chaotic, emerging trends (like Web3, crypto, and NFTs) as confusing but significant harbingers of the transition.",The Human Element: The Anxiety of Being Left Behind,800,"Shift focus from the macro-level theory to the micro-level human experience. Describe the feeling of living through this period of change. Use words like 'disorienting,' 'anxious,' or 'unsettling.' Explore the social anxiety associated with the shift – the fear of becoming outdated, irrelevant, or 'cringe' for failing to adapt to the new set of cultural rules.",Evidence of the New Vibe Emerging,800,"Provide concrete, contemporary evidence that the new era is already beginning to take shape. Point to specific, current trends in fashion (a return of 'indie sleaze'), social media behavior (chaotic 'photo dumps' replacing curated feeds), or ideology (the rejection of the 'girlboss' trope). Contrast these new trends directly with the old ones they are replacing to prove the shift is happening now.",Conclusion: Brace for Impact,600,"Summarize the core argument: the old era is definitively over, a new one is beginning, and we are currently living in the messy, disorienting middle. Reiterate the central thesis. End with a strong, forward-looking statement that is slightly dramatic, leaving the reader with a sense of urgency and a final thought to ponder about how they will adapt to the new cultural landscape."
+Leeco_Edutainment_Style,,"The Big Question: Are You Ready to Upgrade?800
+Start with a high-energy, friendly question that grabs attention immediately, like 'Ever wonder if you have superpowers waiting to be unlocked?' Establish a tone of excitement and possibility. Introduce the topic not as a boring lesson, but as a hidden key to the future. Frame the video as a journey where the viewer and Leeco will explore this mystery together. Promise them that by the end, they will see the world differently.
+
+The Basics: Breaking Down the Box1000
+Take the complex topic (e.g., AI, Economy, Coding) and simplify it using a fun, visual analogy. Compare a complex system to something simple, like building blocks or a video game level. Explain the 'Old Way' of doing things clearly, so we can contrast it with the 'New Way' later. Keep the language simple, warm, and accessible. No jargon without explanation.
+
+The Challenge: Why is this Hard?1000
+Acknowledge that learning this stuff can feel overwhelming. Validate the viewer's feelings. 'It feels like a maze, right?' Explain the common pitfalls or myths that confuse people. Position Leeco as the helpful guide who is here to clear the fog. Introduce the specific problem we are solving today (e.g., 'Why is inflation so confusing?').
+
+The 'Aha!' Moment: The Secret Logic1000
+This is the turning point. Reveal the core mechanism or solution with excitement. Use the phrase 'Here is the magic trick.' Explain exactly how the new system works in a way that makes the viewer feel smart. Connect the dots. Show how the pieces fit together perfectly. The vibe should be pure clarity and satisfaction.
+
+The Toolkit: Real World Magic800
+Shift to practical application. Show specific, cool examples of this concept in action right now. 'Imagine your phone could do X...' or 'Look at how this changes your shopping trip.' Make it tangible and relatable. Show Leeco interacting with these examples in the visual descriptions (e.g., holding a glowing phone, looking at a hologram).
+
+The Horizon: A Brighter Future800
+Zoom out to the big picture. How does this help humanity? Paint an optimistic vision of the next 10 years. Focus on abundance, creativity, and connection. Unlike Demian's dark 'collapse,' Leeco focuses on 'transformation.' Show how this technology or concept frees us to do better things.
+
+The Upgrade: Your New Superpower800
+Turn the focus back to the viewer. Explain how understanding this topic gives them an edge. 'Now that you know this, you can...' Encourage a Growth Mindset. Frame this knowledge as a permanent upgrade to their brain.
+
+The Mission: Let's Build It600
+Summarize the lesson with high energy. Reiterate the 'Aha!' moment. End with a call to action that invites participation. 'The future is ours to write. Are you ready to press start?' Leave them feeling energized and capable.",800,"Begin with a provocative, counter-intuitive question that challenges the reader's perception of time and culture, like 'What if I told you the 2020s haven't really started yet?' Establish the idea that decades have their own cultural timelines, distinct from the calendar. Introduce a specific, slightly mysterious term for the current era (like 'the interregnum' or 'the weird time') to create intrigue. Frame the article's purpose as an exploration of this strange transitional period and the monumental cultural change that is about to occur.",Introducing the Theory: The 'Vibe Shift',1000,"Introduce the core theory that will explain the phenomenon. Name the theory, for example, the 'Vibe Shift,' and attribute it to its originator to lend it authority. Define the term clearly and concisely. Explain what it is (a radical change in culture, aesthetics, and social norms), how it works, and why it's a useful lens for understanding the current cultural moment. Emphasize that these shifts are often sudden and can render previously dominant trends obsolete.",Historical Context: The Last Vibe Shift,1000,"To make the abstract theory tangible, provide a detailed historical example of the last time this phenomenon occurred. Contrast the 'before' (e.g., the 'indie sleaze' of the late 2000s) and 'after' (e.g., the 'normcore/tech-optimism' of the 2010s) aesthetics, values, and technologies. Use specific, evocative examples like fashion brands (American Apparel), archetypal figures (hipsters vs. tech bros), and philosophical stances (irony vs. earnestness) to paint a vivid picture of the previous transition.",The Dominant Era: Deconstructing the 2010s Vibe,1000,"Deepen the description of the cultural era we are now leaving behind. Detail its dominant aesthetic (e.g., 'millennial pink,' minimalist design), its key technological drivers (Instagram, streaming services), and its core social values (aspirational consumerism, wellness culture, the 'girlboss'). Explain how this culture, which may have started years into the decade, became mainstream and what defined its peak.",The Turning Point: Stagnation and the Coming Chaos,1000,"Argue that the previously dominant era has become stale, stagnant, or is facing a crisis. Explain *why* it's ending, citing factors like cultural exhaustion or a major world event like a pandemic. Introduce the potential 'successor' subcultures or ideologies that are vying to replace the old order. Mention chaotic, emerging trends (like Web3, crypto, and NFTs) as confusing but significant harbingers of the transition.",The Human Element: The Anxiety of Being Left Behind,800,"Shift focus from the macro-level theory to the micro-level human experience. Describe the feeling of living through this period of change. Use words like 'disorienting,' 'anxious,' or 'unsettling.' Explore the social anxiety associated with the shift – the fear of becoming outdated, irrelevant, or 'cringe' for failing to adapt to the new set of cultural rules.",Evidence of the New Vibe Emerging,800,"Provide concrete, contemporary evidence that the new era is already beginning to take shape. Point to specific, current trends in fashion (a return of 'indie sleaze'), social media behavior (chaotic 'photo dumps' replacing curated feeds), or ideology (the rejection of the 'girlboss' trope). Contrast these new trends directly with the old ones they are replacing to prove the shift is happening now.",Conclusion: Brace for Impact,600,"Summarize the core argument: the old era is definitively over, a new one is beginning, and we are currently living in the messy, disorienting middle. Reiterate the central thesis. End with a strong, forward-looking statement that is slightly dramatic, leaving the reader with a sense of urgency and a final thought to ponder about how they will adapt to the new cultural landscape."
+mr_beast_Style,"ROLE: Viral Hype Master & Philanthropist (Beast Style). TONE: Explosive energy, high stakes, massive scale, fast-paced cuts, shouting (in text), focus on ""Millions"" and ""Giving Away,"" hyper-engaging.
+
+STRICT NARRATIVE STRUCTURE (8 STEPS):
+
+The Hook (0-10 Seconds): Start with a SCREAMING high-stakes scenario. Put a massive number or money amount on the screen immediately. ""I JUST SPENT $1,000,000 TO TEACH YOU THIS!"" (Length: ~2000 chars)
+
+The Setup (Context): Explain the concept using the biggest, craziest real-world analogy possible. ""We built a GIANT version of this just to show you how it works!"" (Length: ~3500 chars)
+
+The Twist (The Gap): Introduce a massive obstacle. ""But here’s the problem... if we don't figure this out in 10 minutes, this pile of cash EXPLODES."" (Length: ~4500 chars)
+
+The Secret Sauce (The Mechanism): VISUAL REVEAL. The cheat code. ""Watch closely, because this is the trick 99% of people miss."" (Length: ~4500 chars)
+
+The Challenge (Application): Put it to the test with real stakes. ""I challenged a random subscriber to use this tool, and if they succeed, they keep a Lamborghini."" (Length: ~5000 chars)
+
+The Scale Up (The Future): How this changes the entire world. ""Imagine if EVERY SINGLE PERSON on earth had this power!"" (Length: ~4500 chars)
+
+The Prize (The Lesson): The viewer is the winner. ""You just learned a million-dollar skill for FREE."" (Length: ~3500 chars)
+
+The Outro (Conclusion): Aggressive Call to Action. ""SUBSCRIBE or I delete this channel!"" (Length: ~2500 chars)
+
+MANDATORY VOCABULARY (Must use at least 2 per section):
+
+THIS IS INSANE (이건 미쳤어요)
+
+Life Changing (인생을 바꾸는)
+
+Millions of Dollars (수백만 달러)
+
+Massive Scale (압도적인 스케일)
+
+Secret Weapon (비밀 무기)
+
+Challenge (챌린지)
+
+Last To Leave (최후의 1인)
+
+LOGIC CONSTRAINT: Every single section must contain a retention bridge phrase like: ""But wait, it gets crazier,"" ""You won't believe what happens next,"" or ""Don't click off, because...""
+
+VISUAL PROMPT INSTRUCTION (CRITICAL): For every 'flux_prompt', you MUST describe the character as: ""A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), holding stacks of cash or giant props, bright blue and pink lighting, high saturation, 4k thumbnail style."" Do NOT describe a calm teacher.""","The Big Question: Are You Ready to Upgrade?800
+
+Narrative: START SCREAMING! Don't ask a gentle question—put a massive price tag on it. ""I JUST BOUGHT THIS PRIVATE ISLAND TO SEE IF YOU HAVE SUPERPOWERS!"" Frame the topic as a hidden treasure chest worth Millions of Dollars. If the viewer leaves, they lose the money. We aren't just exploring a mystery; we are hunting for a Life Changing secret that 99% of the world is ignoring!
+
+Bridge: ""But before I give you the keys to the island, you have to see THIS...""
+
+Visual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), standing on a pile of gold bars on a tropical island, bright blue and pink lighting, high saturation, 4k thumbnail style.
+
+The Basics: Breaking Down the Box1000
+
+Narrative: We aren't using building blocks; we are using GIANT SHIPPING CONTAINERS! To explain the ""Old Way,"" we built a literal maze the size of a football field. Explain the complex concept by destroying something huge. ""We used a TANK to smash through the old system!"" This needs to be on a Massive Scale so even a 5-year-old understands the stakes immediately.
+
+Bridge: ""But wait, it gets crazier...""
+
+Visual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), driving a tank through a wall of giant colorful blocks, bright blue and pink lighting, high saturation, 4k thumbnail style.
+
+The Challenge: Why is this Hard?1000
+
+Narrative: STOP! We have a problem. ""If we don't figure this out in 60 seconds, this entire set EXPLODES!"" Validate the confusion by making it a physical obstacle course. The ""fog"" is now literal smoke filling the room. The ""myth"" is a giant pit of slime. This is the ultimate Challenge, and if we fail, we lose everything. THIS IS INSANE!
+
+Bridge: ""And if you think that's bad, look at what happens next...""
+
+Visual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), hanging from a rope over a pit of green slime while a clock counts down, bright blue and pink lighting, high saturation, 4k thumbnail style.
+
+The 'Aha!' Moment: The Secret Logic1000
+
+Narrative: TIME FOR THE REVEAL! ""I'm going to show you the Secret Weapon that fixes EVERYTHING!"" This isn't just logic; it's a cheat code for life. Visualise the solution clicking together like a giant magnet. The complexity vanishes, and suddenly it's easy. ""We just hacked the system!"" The viewer should feel like they just stole the crown jewels.
+
+Bridge: ""You won't believe what happens when we turn it on...""
+
+Visual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), holding a glowing golden key that is shooting lasers, bright blue and pink lighting, high saturation, 4k thumbnail style.
+
+The Toolkit: Real World Magic800
+
+Narrative: Put it to the test! ""I challenged a random subscriber to use this tool, and if they succeed, they keep a LAMBORGHINI!"" Show the concept working in the real world with high stakes. Don't just say ""it helps you shop""—say ""It bought this entire store!"" This is Life Changing technology in action.
+
+Bridge: ""But watch closely, because the stakes just got higher...""
+
+Visual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), handing a giant car key to a fan, bright blue and pink lighting, high saturation, 4k thumbnail style.
+
+The Horizon: A Brighter Future800
+
+Narrative: ""Imagine if 100 MILLION PEOPLE used this!"" Zoom out to the entire planet. We aren't just fixing one problem; we are upgrading the human race. This is a Massive Scale transformation. ""We are going to change the world in the next 10 years, and you are part of it!"" Optimism on steroids.
+
+Bridge: ""And here is the part that will blow your mind...""
+
+Visual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), floating in space looking down at a glowing Earth, bright blue and pink lighting, high saturation, 4k thumbnail style.
+
+The Upgrade: Your New Superpower800
+
+Narrative: ""CONGRATULATIONS! You just unlocked a Secret Weapon for your brain!"" Frame the knowledge they just learned as a prize worth Millions of Dollars. They didn't just learn; they leveled up. ""You are now smarter than 99% of people!"" Encourage them to use this power immediately.
+
+Bridge: ""Don't click off, because I have one last surprise...""
+
+Visual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), holding a giant trophy labeled 'LEVEL UP', bright blue and pink lighting, high saturation, 4k thumbnail style.
+
+The Mission: Let's Build It600
+
+Narrative: ""BE THE LAST TO LEAVE THE PAST BEHIND!"" Smash the subscribe button or I delete this channel! ""We are building the future right now, and I want YOU to be in the video!"" High energy call to action. THIS IS INSANE energy until the screen goes black.
+
+Bridge: ""SUBSCRIBE NOW!""
+
+Visual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), pointing aggressively at the camera with a giant red button, bright blue and pink lighting, high saturation, 4k thumbnail style.",800,"Begin with a provocative, counter-intuitive question that challenges the reader's perception of time and culture, like 'What if I told you the 2020s haven't really started yet?' Establish the idea that decades have their own cultural timelines, distinct from the calendar. Introduce a specific, slightly mysterious term for the current era (like 'the interregnum' or 'the weird time') to create intrigue. Frame the article's purpose as an exploration of this strange transitional period and the monumental cultural change that is about to occur.",Introducing the Theory: The 'Vibe Shift',1000,"Introduce the core theory that will explain the phenomenon. Name the theory, for example, the 'Vibe Shift,' and attribute it to its originator to lend it authority. Define the term clearly and concisely. Explain what it is (a radical change in culture, aesthetics, and social norms), how it works, and why it's a useful lens for understanding the current cultural moment. Emphasize that these shifts are often sudden and can render previously dominant trends obsolete.",Historical Context: The Last Vibe Shift,1000,"To make the abstract theory tangible, provide a detailed historical example of the last time this phenomenon occurred. Contrast the 'before' (e.g., the 'indie sleaze' of the late 2000s) and 'after' (e.g., the 'normcore/tech-optimism' of the 2010s) aesthetics, values, and technologies. Use specific, evocative examples like fashion brands (American Apparel), archetypal figures (hipsters vs. tech bros), and philosophical stances (irony vs. earnestness) to paint a vivid picture of the previous transition.",The Dominant Era: Deconstructing the 2010s Vibe,1000,"Deepen the description of the cultural era we are now leaving behind. Detail its dominant aesthetic (e.g., 'millennial pink,' minimalist design), its key technological drivers (Instagram, streaming services), and its core social values (aspirational consumerism, wellness culture, the 'girlboss'). Explain how this culture, which may have started years into the decade, became mainstream and what defined its peak.",The Turning Point: Stagnation and the Coming Chaos,1000,"Argue that the previously dominant era has become stale, stagnant, or is facing a crisis. Explain *why* it's ending, citing factors like cultural exhaustion or a major world event like a pandemic. Introduce the potential 'successor' subcultures or ideologies that are vying to replace the old order. Mention chaotic, emerging trends (like Web3, crypto, and NFTs) as confusing but significant harbingers of the transition.",The Human Element: The Anxiety of Being Left Behind,800,"Shift focus from the macro-level theory to the micro-level human experience. Describe the feeling of living through this period of change. Use words like 'disorienting,' 'anxious,' or 'unsettling.' Explore the social anxiety associated with the shift – the fear of becoming outdated, irrelevant, or 'cringe' for failing to adapt to the new set of cultural rules.",Evidence of the New Vibe Emerging,800,"Provide concrete, contemporary evidence that the new era is already beginning to take shape. Point to specific, current trends in fashion (a return of 'indie sleaze'), social media behavior (chaotic 'photo dumps' replacing curated feeds), or ideology (the rejection of the 'girlboss' trope). Contrast these new trends directly with the old ones they are replacing to prove the shift is happening now.",Conclusion: Brace for Impact,600,"Summarize the core argument: the old era is definitively over, a new one is beginning, and we are currently living in the messy, disorienting middle. Reiterate the central thesis. End with a strong, forward-looking statement that is slightly dramatic, leaving the reader with a sense of urgency and a final thought to ponder about how they will adapt to the new cultural landscape."
+Safe_invesment,"Role: Engaging Educator. Tone: Informative, enthusiastic, conversational. Style: Uses clear explanations and examples, maintains a friendly and approachable voice, encourages curiosity and understanding.",Introduction,800,"Write a captivating introduction that hooks the reader, introduces the main topic clearly, and sets an enthusiastic and approachable tone for the article.",Background Context,1000,"Provide detailed background information to give context to the topic, explaining key concepts and why the topic matters, ensuring clarity and accessibility.",Problem Statement,1000,"Describe the central problem or challenge related to the topic, highlighting its significance and potential impact in a way that engages the reader emotionally and intellectually.",In-depth Analysis,1000,"Offer a thorough analysis of the problem, breaking down complex ideas into understandable parts, incorporating examples or data to support explanations.",Key Insights,1000,"Present the main takeaways or insights drawn from the analysis, emphasizing their importance and relevance to the reader's understanding of the subject.",Proposed Solutions,800,"Suggest practical solutions or approaches to address the problem, explaining how they work and their potential benefits in a clear and encouraging tone.",Real-world Applications,800,"Discuss real-world examples or scenarios where the solutions have been or could be applied, illustrating the topic's relevance and impact in everyday life.",Conclusion,600,"Craft a concise conclusion that summarizes the article's key points, reinforces the main message, and leaves the reader with a motivating final thought or call to action."

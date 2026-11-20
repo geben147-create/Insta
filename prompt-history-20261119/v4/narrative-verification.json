@@ -1,0 +1,51 @@
+{
+  "f1_source": "/home/yh/migration_20261106/dev_repos/AI_DAEBON_ENGINE/vault/AI_BRAIN/50_YT_SCRIPT_LIBRARY/10_분류체계/F1_전개구조_분류.md",
+  "f1_line_start": 9,
+  "f1_sha256": "2a4c2a8841d7a02584fe6966744915df9d91cd642f016bc230cc5d51cf3a4af1",
+  "sections": 10,
+  "enum_count": 13,
+  "enums": [
+    "하몬서클8",
+    "기승전결4",
+    "3막구조",
+    "액자식",
+    "에피소드체인",
+    "클리프행어체인",
+    "카운트다운리스트",
+    "PAS",
+    "AIDA",
+    "옴니버스병렬",
+    "떡밥회수루프",
+    "문답디베이트",
+    "타임라인연대기"
+  ],
+  "sheet_identifiers_in_history": 31,
+  "read_workbooks": 9,
+  "read_tabs": 638,
+  "http_401": 18,
+  "http_404": 2,
+  "invalid_identifiers_not_repaired": 2,
+  "google_sheet_writes": false,
+  "production_workbooks_checked": [
+    {
+      "id": "1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ",
+      "tabs": 32,
+      "status": "read",
+      "file": "/home/yh/.hermes/cache/scratch/narrative-sheets/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ-all-cells.json"
+    },
+    {
+      "id": "1AlyxMo9KQp1G6o7u4TL67xcd1eqhdpENj6ra888Ffcs",
+      "tabs": 7,
+      "status": "read",
+      "file": "/home/yh/.hermes/cache/scratch/narrative-sheets/1AlyxMo9KQp1G6o7u4TL67xcd1eqhdpENj6ra888Ffcs-all-cells.json"
+    }
+  ],
+  "sheet_templates": 8,
+  "sheet_stage_prompts": 64,
+  "missing_historical_row": "Economy_너진똑-2 was not found in the two production workbook snapshots",
+  "f1_original_file_sha256": "344b570fb71d6fcaec79cabe1988a5eded4616288dfa9b3a117450620b532b2c",
+  "historical_emotion_examples": 22,
+  "preserved_emotion_models": 4,
+  "new_emotion_designs": 8,
+  "new_designs_are_not_original_sheet_cells": true
+}

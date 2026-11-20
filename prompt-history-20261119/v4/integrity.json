@@ -1,0 +1,22 @@
+{
+  "records": 18,
+  "original_records_retained": true,
+  "early_blocks": 10,
+  "early_original_rejoin": "PASS",
+  "reference_transcripts": 7,
+  "reference_hashes": {
+    "R01": "ee8fe0a3ffdc4174c8c67c74397d5ae92826cf3a94dda967ece947eae57dbcef",
+    "R02": "aaa455f5c0e5e8740a0192e2ab9641ab6cd1c7f5295629316c16bc59a768bc56",
+    "R03": "73c6ea933a900523f4694c2a294f73e41fe7470ceb86e6ae80cd7f81fc421828",
+    "R04": "3128b80bf64b5b09fb775e1c055218a5eaf1d6b7691bf83eeb7bf7fabd9e1dd7",
+    "R05": "6cb99f60b1fcb2f947a294f274d25fd8dc11978a6ba29446e78df42ef14c7bdf",
+    "R06": "fa79ea8de2f63c7837f3eec605b0ca0c067bae6dc12bd227eae05bc449e2470c",
+    "R07": "101951826749c6437989c39083e0036f8860445a47db16038a9c7c5b540a8c7b"
+  },
+  "full_reference_input_original_retained": true,
+  "workflow_steps": 15,
+  "new_skills_created": false,
+  "cron_registered": false,
+  "vault_read_only_hash_check": "PASS",
+  "note": "교정본의 의미 보존은 원문·변경표를 함께 검토. 문자열 검증만으로 의미 무손실을 증명한다고 주장하지 않음."
+}

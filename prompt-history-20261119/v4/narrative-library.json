@@ -1,0 +1,1306 @@
+{
+  "original": "# F1. 전개(스토리 구조) 분류\n\n> 대본의 **뼈대**를 고르는 문서. 분석할 때는 \"이 영상이 어떤 뼈대를 쓰는가\"를 판정하고,\n> 생성할 때는 여기서 뼈대 1개를 골라 [[P3_신규대본_생성프롬프트]]에 넣는다.\n> REF 노트의 frontmatter `structure_types`에는 반드시 아래 **enum 값 그대로** 쓴다 (검색 일관성).\n\n## enum 목록 (frontmatter용)\n\n`하몬서클8` `기승전결4` `3막구조` `액자식` `에피소드체인` `클리프행어체인` `카운트다운리스트` `PAS` `AIDA` `옴니버스병렬` `떡밥회수루프` `문답디베이트` `타임라인연대기`\n\n---\n\n## 1. 하몬서클8 — 스토리형 롱폼의 기본 뼈대\n\n댄 하몬의 Story Circle. 25~35분 사연/각색 롱폼에 최적 (senior-story-longform 스킬이 이미 사용).\n\n```mermaid\nflowchart LR\n  A[1 You<br>안전지대의 주인공] --> B[2 Need<br>결핍·욕망 발생]\n  B --> C[3 Go<br>낯선 세계 진입]\n  C --> D[4 Search<br>적응과 시련]\n  D --> E[5 Find<br>원하던 것 획득]\n  E --> F[6 Take<br>혹독한 대가]\n  F --> G[7 Return<br>귀환]\n  G --> H[8 Change<br>변화의 증명]\n  H -.순환.-> A\n```\n\n**구운몽 원작 매핑 (검증용 예시)**\n| 단계 | 구운몽 |\n|---|---|\n| 1 You | 연화도량의 촉망받는 성진 |\n| 2 Need | 팔선녀를 만나 속세 욕망 자각 |\n| 3 Go | 벌로 양소유로 환생 |\n| 4 Search | 과거길 — 인연·시험의 연속 |\n| 5 Find | 장원급제, 2처 6첩, 부귀영화 |\n| 6 Take | 인생의 허무 자각 |\n| 7 Return | 꿈에서 깸 (액자 복귀) |\n| 8 Change | 깨달음 — 성진의 성불 |\n\n- 리텐션 포인트: 4단계(시련)를 잘게 쪼개 미니 위기를 반복 배치. 6단계 직전이 이탈 최다 구간 → 여기에 최대 반전.\n\n## 2. 기승전결4 / 3막구조\n- 기승전결: 10분 내외 단편 사연, 참교육 쇼츠 확장판에 적합. 전(반전)의 위치 = 전체의 60~70% 지점.\n- 3막구조: 설정(25%) → 대립(50%, 중간에 미드포인트 반전) → 해결(25%). 실화 다큐·사건 해설에 적합.\n\n## 3. 액자식 — 구운몽 영상이 쓰는 상위 프레임\n바깥 이야기(해설자·현재)가 안쪽 이야기(본편 스토리)를 감싼다.\n- 공식: **[바깥: 통념 전복 해설 3분] → [안: 극화된 본편 90%] → [바깥: 회수·다음편 예고]**\n- 지식+스토리 하이브리드 채널의 핵심 구조. 해설자가 \"이건 사실 X였다\"를 먼저 선언하고 본편이 그 증거가 된다.\n- 적합: 스토리각색형, 사건해설형. 주의: 바깥 이야기가 5분을 넘으면 이탈.\n\n## 4. 에피소드체인 (수집형 엔진)\n미니 아크(만남 → 시험/과시 → 획득 → 다음 떡밥)를 반복하며 각 아크의 끝이 다음 아크의 예고가 된다.\n- 구운몽 본편: 계섬월 아크 끝에 \"적경홍·정경패 추천\" → 다음 아크 떡밥. 하렘·먼치킨 웹소설의 표준 엔진.\n- 사연 롱폼에도 적용 가능: 인물 대신 \"사건\"을 수집 (시집살이 사건1→2→3, 각 사건 끝에 다음 사건 암시).\n\n## 5. 클리프행어체인 (시리즈 분할)\n챕터/편 끝을 항상 미해결 질문으로 끊는다. 구운몽 1편 엔딩 \"그럼 파혼을 시켜야겠다\" = 교과서적 사례.\n- 규칙: 끊는 지점 = 새 갈등이 **선언된 직후**, 해소 **직전**. 다음 편 첫 30초에 즉시 회수.\n\n## 6. 카운트다운리스트 (정보형 기본)\nN가지를 10→1 역순으로. senior-money-info 스킬의 기본 구조.\n- 리텐션 장치: \"1위는 마지막에\", 중간중간 \"3위는 대부분 모릅니다\" 예고.\n- 각 항목 내부는 미니 PAS로: 문제 → 방치 시 손해 → 해결(신청 방법).\n\n## 7. PAS / AIDA (정보·설득형)\n- PAS: Problem(문제 공감) → Agitate(방치하면 악화) → Solution(해결책). 복지·연금·건강 정보에 최적.\n- AIDA: Attention → Interest → Desire → Action. 상품·서비스 소개, 광고형.\n\n## 8. 옴니버스병렬\n독립된 짧은 썰 3~5개를 하나의 테마로 묶음. 각 썰은 기승전결4. 괴담 모음, 실화썰 모음.\n\n## 9. 떡밥회수루프 (오픈 루프)\n훅에서 던진 질문을 일부러 안 풀고 중반까지 끌고 간다. 여러 개를 겹치면(루프 중첩) 이탈이 급감.\n- 구운몽 예: \"왜 350년간 인기였나\" → 3분에 \"웹소설이라서\"로 1차 회수 → \"정말?\"은 본편 전체로 2차 회수.\n\n## 10. 문답디베이트 / 타임라인연대기\n- 문답디베이트: 대립 2진영의 주장 교차 (jp-money-thread 스킬의 스레드 논쟁 구조). 댓글 참전 유도력 최강.\n- 타임라인연대기: 연도·시간 순 전개. 인물 일대기, 사건 정리. 안정적이지만 반전 설계 필수.\n\n---\n\n## 선택 가이드 (생성 시)\n\n| 목표 | 1순위 | 2순위 |\n|---|---|---|\n| 25분+ 사연/각색 롱폼 | 하몬서클8 | 액자식 + 에피소드체인 |\n| 시리즈로 쪼개기 | 클리프행어체인 | 에피소드체인 |\n| 정보·혜택 전달 | 카운트다운리스트 | PAS |\n| 댓글 참전 유도 | 문답디베이트 | 떡밥회수루프 |\n| 10분 단편 | 기승전결4 | 옴니버스병렬 |\n\n> 실전은 거의 항상 **조합**이다. 구운몽 영상 = 액자식(상위) + 에피소드체인(본편) + 클리프행어체인(시리즈) + 떡밥회수루프(인트로).\n",
+  "introduction": "# F1. 전개(스토리 구조) 분류\n\n> 대본의 **뼈대**를 고르는 문서. 분석할 때는 \"이 영상이 어떤 뼈대를 쓰는가\"를 판정하고,\n> 생성할 때는 여기서 뼈대 1개를 골라 [[P3_신규대본_생성프롬프트]]에 넣는다.\n> REF 노트의 frontmatter `structure_types`에는 반드시 아래 **enum 값 그대로** 쓴다 (검색 일관성).\n\n## enum 목록 (frontmatter용)\n\n`하몬서클8` `기승전결4` `3막구조` `액자식` `에피소드체인` `클리프행어체인` `카운트다운리스트` `PAS` `AIDA` `옴니버스병렬` `떡밥회수루프` `문답디베이트` `타임라인연대기`\n\n---\n\n",
+  "sections": [
+    {
+      "number": 1,
+      "title": "하몬서클8 — 스토리형 롱폼의 기본 뼈대",
+      "text": "## 1. 하몬서클8 — 스토리형 롱폼의 기본 뼈대\n\n댄 하몬의 Story Circle. 25~35분 사연/각색 롱폼에 최적 (senior-story-longform 스킬이 이미 사용).\n\n```mermaid\nflowchart LR\n  A[1 You<br>안전지대의 주인공] --> B[2 Need<br>결핍·욕망 발생]\n  B --> C[3 Go<br>낯선 세계 진입]\n  C --> D[4 Search<br>적응과 시련]\n  D --> E[5 Find<br>원하던 것 획득]\n  E --> F[6 Take<br>혹독한 대가]\n  F --> G[7 Return<br>귀환]\n  G --> H[8 Change<br>변화의 증명]\n  H -.순환.-> A\n```\n\n**구운몽 원작 매핑 (검증용 예시)**\n| 단계 | 구운몽 |\n|---|---|\n| 1 You | 연화도량의 촉망받는 성진 |\n| 2 Need | 팔선녀를 만나 속세 욕망 자각 |\n| 3 Go | 벌로 양소유로 환생 |\n| 4 Search | 과거길 — 인연·시험의 연속 |\n| 5 Find | 장원급제, 2처 6첩, 부귀영화 |\n| 6 Take | 인생의 허무 자각 |\n| 7 Return | 꿈에서 깸 (액자 복귀) |\n| 8 Change | 깨달음 — 성진의 성불 |\n\n- 리텐션 포인트: 4단계(시련)를 잘게 쪼개 미니 위기를 반복 배치. 6단계 직전이 이탈 최다 구간 → 여기에 최대 반전.\n\n",
+      "line_start": 21
+    },
+    {
+      "number": 2,
+      "title": "기승전결4 / 3막구조",
+      "text": "## 2. 기승전결4 / 3막구조\n- 기승전결: 10분 내외 단편 사연, 참교육 쇼츠 확장판에 적합. 전(반전)의 위치 = 전체의 60~70% 지점.\n- 3막구조: 설정(25%) → 대립(50%, 중간에 미드포인트 반전) → 해결(25%). 실화 다큐·사건 해설에 적합.\n\n",
+      "line_start": 51
+    },
+    {
+      "number": 3,
+      "title": "액자식 — 구운몽 영상이 쓰는 상위 프레임",
+      "text": "## 3. 액자식 — 구운몽 영상이 쓰는 상위 프레임\n바깥 이야기(해설자·현재)가 안쪽 이야기(본편 스토리)를 감싼다.\n- 공식: **[바깥: 통념 전복 해설 3분] → [안: 극화된 본편 90%] → [바깥: 회수·다음편 예고]**\n- 지식+스토리 하이브리드 채널의 핵심 구조. 해설자가 \"이건 사실 X였다\"를 먼저 선언하고 본편이 그 증거가 된다.\n- 적합: 스토리각색형, 사건해설형. 주의: 바깥 이야기가 5분을 넘으면 이탈.\n\n",
+      "line_start": 55
+    },
+    {
+      "number": 4,
+      "title": "에피소드체인 (수집형 엔진)",
+      "text": "## 4. 에피소드체인 (수집형 엔진)\n미니 아크(만남 → 시험/과시 → 획득 → 다음 떡밥)를 반복하며 각 아크의 끝이 다음 아크의 예고가 된다.\n- 구운몽 본편: 계섬월 아크 끝에 \"적경홍·정경패 추천\" → 다음 아크 떡밥. 하렘·먼치킨 웹소설의 표준 엔진.\n- 사연 롱폼에도 적용 가능: 인물 대신 \"사건\"을 수집 (시집살이 사건1→2→3, 각 사건 끝에 다음 사건 암시).\n\n",
+      "line_start": 61
+    },
+    {
+      "number": 5,
+      "title": "클리프행어체인 (시리즈 분할)",
+      "text": "## 5. 클리프행어체인 (시리즈 분할)\n챕터/편 끝을 항상 미해결 질문으로 끊는다. 구운몽 1편 엔딩 \"그럼 파혼을 시켜야겠다\" = 교과서적 사례.\n- 규칙: 끊는 지점 = 새 갈등이 **선언된 직후**, 해소 **직전**. 다음 편 첫 30초에 즉시 회수.\n\n",
+      "line_start": 66
+    },
+    {
+      "number": 6,
+      "title": "카운트다운리스트 (정보형 기본)",
+      "text": "## 6. 카운트다운리스트 (정보형 기본)\nN가지를 10→1 역순으로. senior-money-info 스킬의 기본 구조.\n- 리텐션 장치: \"1위는 마지막에\", 중간중간 \"3위는 대부분 모릅니다\" 예고.\n- 각 항목 내부는 미니 PAS로: 문제 → 방치 시 손해 → 해결(신청 방법).\n\n",
+      "line_start": 70
+    },
+    {
+      "number": 7,
+      "title": "PAS / AIDA (정보·설득형)",
+      "text": "## 7. PAS / AIDA (정보·설득형)\n- PAS: Problem(문제 공감) → Agitate(방치하면 악화) → Solution(해결책). 복지·연금·건강 정보에 최적.\n- AIDA: Attention → Interest → Desire → Action. 상품·서비스 소개, 광고형.\n\n",
+      "line_start": 75
+    },
+    {
+      "number": 8,
+      "title": "옴니버스병렬",
+      "text": "## 8. 옴니버스병렬\n독립된 짧은 썰 3~5개를 하나의 테마로 묶음. 각 썰은 기승전결4. 괴담 모음, 실화썰 모음.\n\n",
+      "line_start": 79
+    },
+    {
+      "number": 9,
+      "title": "떡밥회수루프 (오픈 루프)",
+      "text": "## 9. 떡밥회수루프 (오픈 루프)\n훅에서 던진 질문을 일부러 안 풀고 중반까지 끌고 간다. 여러 개를 겹치면(루프 중첩) 이탈이 급감.\n- 구운몽 예: \"왜 350년간 인기였나\" → 3분에 \"웹소설이라서\"로 1차 회수 → \"정말?\"은 본편 전체로 2차 회수.\n\n",
+      "line_start": 82
+    },
+    {
+      "number": 10,
+      "title": "문답디베이트 / 타임라인연대기",
+      "text": "## 10. 문답디베이트 / 타임라인연대기\n- 문답디베이트: 대립 2진영의 주장 교차 (jp-money-thread 스킬의 스레드 논쟁 구조). 댓글 참전 유도력 최강.\n- 타임라인연대기: 연도·시간 순 전개. 인물 일대기, 사건 정리. 안정적이지만 반전 설계 필수.\n\n---\n\n",
+      "line_start": 86
+    }
+  ],
+  "selection_guide": "## 선택 가이드 (생성 시)\n\n| 목표 | 1순위 | 2순위 |\n|---|---|---|\n| 25분+ 사연/각색 롱폼 | 하몬서클8 | 액자식 + 에피소드체인 |\n| 시리즈로 쪼개기 | 클리프행어체인 | 에피소드체인 |\n| 정보·혜택 전달 | 카운트다운리스트 | PAS |\n| 댓글 참전 유도 | 문답디베이트 | 떡밥회수루프 |\n| 10분 단편 | 기승전결4 | 옴니버스병렬 |\n\n> 실전은 거의 항상 **조합**이다. 구운몽 영상 = 액자식(상위) + 에피소드체인(본편) + 클리프행어체인(시리즈) + 떡밥회수루프(인트로).\n",
+  "enums": [
+    "하몬서클8",
+    "기승전결4",
+    "3막구조",
+    "액자식",
+    "에피소드체인",
+    "클리프행어체인",
+    "카운트다운리스트",
+    "PAS",
+    "AIDA",
+    "옴니버스병렬",
+    "떡밥회수루프",
+    "문답디베이트",
+    "타임라인연대기"
+  ],
+  "google": [
+    {
+      "id": "1z_Ys-QfkRY3GDuD2vQ5N7CDt-RGXcrMyUESst8cQDAY",
+      "tab": "09_상시프롬프트_V3",
+      "cell": "B64",
+      "url": "https://docs.google.com/spreadsheets/d/1z_Ys-QfkRY3GDuD2vQ5N7CDt-RGXcrMyUESst8cQDAY/edit",
+      "text": "## 4. 하몬 8단계 + 2~3분마다 중간 보상\n(1) 익숙한 통념/외국인의 선입견 → (2) 불편함/새 여행 욕구 → (3) 실제 한국 방문·한국 콘텐츠 접촉 → (4) 음식/편의/안전/문화 탐색 → (5) 첫 의외의 긍정 경험 → (6) 예상 밖 문제/반례 → (7) 조건부 해결·재방문·새로운 관점 → (8) 해외 눈에 비친 한국의 변화 + 한국 시청자의 '우리에게 익숙했던 가치' 재인식.\n도입에서 가장 특이한 결과를 먼저 보여주고 필요할 때 시간을 되돌린다. 긴장이 계속 올라가기만 하는 대본을 피하고 실제 보상을 중간에 준다.\n\n",
+      "status": "이번 작업에서 실제 Google Sheets XLSX export로 셀 내용 확인"
+    },
+    {
+      "id": "1SXj2UPIUzvdStoTf2d5QGSLQx4hICBkFMorCxipUddg",
+      "tab": "CHECKLIST_MASTER_원문_25_20260912",
+      "cell": "A3",
+      "url": "https://docs.google.com/spreadsheets/d/1SXj2UPIUzvdStoTf2d5QGSLQx4hICBkFMorCxipUddg/edit",
+      "text": "② references/story-circle-and-cast.md 원문 전체 — S19·S20 상세 기준\n\n하몬 서클·캐릭터 대사·즉시 전달\n\n이 확장은 설명이 길고 사건이 약한 시네마틱 대본을 인물의 선택과 결과로 다시 구성한다. 기존 IF·하이라이트·무료 생성·연속성·검수 규칙과 함께 적용한다.\n\n8단계를 실제 사건으로 연결\n\n단계\t대본에서 확인할 것\n\nH1 YOU — 현재 상태\t따라갈 인물/집단과 지금 믿고 있는 방식, 일상의 구체적 행동.\nH2 NEED — 필요\t무엇을 얻거나 지켜야 하는지, 실패하면 누구에게 어떤 일이 생기는지.\nH3 GO — 진입\tIF 사건이 기존 방식을 깨고 인물이 피할 수 없는 상황에 들어가는 순간.\nH4 SEARCH — 시도\t인물이 직접 해결책을 시도하고 반응을 받아 방법을 바꾸는 과정.\nH5 FIND — 획득\t원하던 것을 실제로 얻는 작은 성공. H6의 대가가 이 성공/선택에서 이어질 것.\nH6 TAKE — 대가\t성공 때문에 감수해야 할 손실·위험·포기. 막연히 위험하다고 설명하지 말고 선택과 결과를 보여 줄 것.\nH7 RETURN — 복귀\t처음의 장소·질문·관계로 돌아가 새로 얻은 이해를 실제 행동에 사용하는 장면.\nH8 CHANGE — 변화\tH1과 같은 조건에서 다른 판단을 하는 인물. 처음의 물건/말/화면이 달라진 의미로 회수될 것.\n\n\n전체 대본의 여덟 기능을 harmon-map.json에 실제 narration_id·scene_id·원문 근거와 연결한다. 표제만 8개 붙이지 않는다. 단계별 길이는 같을 필요가 없고 한 장면이 여러 기능을 담당해도 된다. 짧은 IF 구간마다 별도의 여덟 장면을 강요하지 않는다. 관객이 단계를 듣게 하기보다 인과를 느끼게 한다. 실제 역사 인물에게 가상의 생애·대사를 귀속하지 않는다. 가상/합성 인물은 처음 소개할 때와 해당 재현 구간에서 구분한다.\n\n참고: Dan Harmon의 Story Structure 104. 위 표와 적용 절차는 이 채널용으로 풀어 쓴 운영 기준이다.\n\n두 참고 영상의 결합 원칙\n\nYarnhub의 Wake Island 영상: 공간·목표·장애물을 알려 주고, 인물의 짧은 대사와 선택이 다음 사건을 일으키게 한다. 15:05 이후의 동료 보호→위험 감수→상실→구조처럼 감정이 행동에서 생기는 방식을 참고한다. 비극이나 죽음을 모든 주제에 강요하지 않는다.\n\n딥 호라이즌의 로마 영상: 낯선 질문→원인 추적→통념에 대한 반례→처음 인물/물건으로의 귀환이라는 서술 방식을 참고한다. 특정 문장·역사 수치·주장을 다른 주제의 사실로 복사하지 않는다.\n\n결합: 질문이 있는 도입, 실제 사건을 겪는 인물, 사건에서 생긴 정보 질문, 그 질문에 필요한 짧은 설명, 더 어려워진 선택, 대가, 의미가 바뀐 귀환. 설명 중에도 미완의 행동이나 기다리는 인물을 이어 간다. 참고 영상의 구성법과 선택된 이미지 프로필은 별도로 기록한다. Yarnhub의 3D 재질로 이미지 프로필을 덮어쓰지 않는다.\n\n\n캐릭터와 목소리\n\n대화가 필요하지 않은 설명에 등장인물을 억지로 늘리지 않는다. 필요한 대사에는 speaker_id, voice_id, spoken_text, acting_note, scenario_type을 둔다. 등장인물 이름·카메라·괄호 지시·효과음은 spoken_text에서 분리한다. 대사는 결정, 반대, 요청, 확인, 관계 변화 중 하나를 수행해야 한다. 해설자가 이미 말한 정보를 캐릭터가 다시 읽기만 하면 고친다.\n\nassets/voice-library.json에 실제 파일과 정확한 참조 대사·해시·원래 합성 방식을 보관한다. voice-cast.json에서 한 캐릭터에 한 목소리를 고정한다. 장면 순번이나 분위기로 무작위 순환하지 않는다. 다른 프로젝트에서 같은 라이브러리를 다시 배역에 사용할 수 있다. 내레이션은 현재 사용자 선택 RADIO_2를 유지하고 필요할 때만 별도의 캐릭터 목소리를 쓴다.\n\nRADIO_2 / DOCUMENTARY_1: VoiceDesign으로 만든 기존 raw 샘플과 정확한 ref_text를 Base 복제에 사용. 매 문단 VoiceDesign 재실행 금지.\n\nUncle_Fu / Ryan / Aiden: 제공된 샘플은 Qwen CustomVoice 프리셋에서 생성됐다. 원래 speaker와 모델을 기록해 재사용하며, 이 셋을 별도로 디자인한 독점 성우라고 부르지 않는다. 저장된 raw 샘플로 Base 복제를 쓰는 경우 경로 변경을 기록하고 실제 음색을 비교한다.\n\n파일·참조 대사가 없는 목소리를 준비 완료라고 쓰지 않는다. 없는 음원을 위해 유료 생성이나 구독을 선택하지 않는다. 배역 계획과 대본은 먼저 완성하고, 해당 음성 생성만 미완료로 기록한다.\n\n샘플의 낮은 공명이나 음량은 참고이며, 고함·과장된 저음·일괄 피치 저하·일괄 배속을 강제하지 않는다. 한 캐릭터의 자연스러운 속도·발음·앞소리·끝 잘림과 배역 간 음색 구분을 실제 확인한다. ASR 일치도는 음색 유사도 점수가 아니다.\n\n\n필수 검수 추가\n\nS19 하몬 서클: H1~H8 각각의 실제 사건과 연결 근거. 특히 H5의 성공이 H6의 대가로 이어지고, H8의 행동이 H1과 달라지는지 확인한다. 전체 대본에서 빠진 기능은 작성자가 보완한다.\n\nS20 대사·배역: 모든 발화에 speaker_id와 voice_id가 있고, 같은 인물의 목소리가 유지되는지 확인한다. 대사가 실제 행동/관계를 변화시키는지, 가상 대사를 실제 증언으로 오해할 여지가 없는지 점검한다.\n\n기존 S01~S18과 합쳐 20항목으로 검수한다. 실제 문단/장면 왼쪽, 같은 대상의 근거·수정·판정 오른쪽. 대본의 자기검수 통과와 음성/영상 QC 완료를 구분한다.\n\n\n대본 완성 즉시 알림과 자동 진행\n\n대본·장면 ID·하몬 맵·배역표·1:1 검수표를 저장하고 자기검수를 마치면 SCRIPT_READY 이벤트를 기록하고 그 즉시 현재 대화에 전체 대본 링크를 보낸다. 최종 영상까지 알림을 미루지 않는다. 전송 기록은 버전·sha256·전달 시각·링크를 담아 같은 버전을 중복 통지하지 않는다. 수정본이 완성되면 새 버전을 알린다.\n\n알림은 승인 질문이 아니다. 현재 세션에서 사용자가 ‘승인 없이 자동’을 지시했으면 approval_mode=autonomous로 기록하고 대본 알림 후 허용된 다음 작업을 계속한다. 이 선택을 다른 세션에 자동 전파하지 않는다. 기본 스킬의 사용자 승인 모드가 적용되는 세션에서는 해당 승인 규칙을 따른다. 사용자 요청 없는 주기적 감시를 만들지 않으며, 스킬 파일만으로 백그라운드 실행·OS 푸시가 생긴다고 설명하지 않는다.\n\n목표 분/초와 실제 음성 길이를 구분한다. 8분 30초는 510초이며, 장면별 예상 타이밍은 TTS 후 갱신한다. 참고 스크린샷의 LUFS·peak·해상도·510초는 기존 결과이지 새 산출물의 실측값이 아니다. 최종 음악은 필요한 영상이 모두 준비된 뒤 합성한다.",
+      "status": "이번 작업에서 실제 Google Sheets XLSX export로 셀 내용 확인"
+    }
+  ],
+  "supplements": [
+    {
+      "title": "너진독 구글시트 8단계 — 남아 있는 tone_guide·step_1·step_2",
+      "path": "/home/yh/ai_memory_work/packs/PACK_01_너진독_톤.md",
+      "line_start": 138,
+      "text": "### 2-4. Economy_너진독 step prompt (n8n 8-Step 구글시트 엔진, 원문)\n\n구글시트 `structure_id = Economy_너진똑-2`(이전 이름 `Economy_너진독`) 행. 사용자 원문 그대로(영문). GPT 조언(같은 대화): **문체·말투는 step_1_prompt가 체감 퀄리티의 60~70%를 좌우, tone_guide는 분위기 20~30%. 예시문(ex)은 \"스타일 앵커\"이므로 반드시 유지.**\n\n**tone_guide:**\n```\nROLE: 존댓말 필수, 말투 예시와 같이 . 자주쓰는 단어ㅣ 그런데말입니다,You are a cynical yet intellectually honest social and cultural commentator and philosophical essayist who does not attempt to enlighten or preach to the public, but instead exposes truths that everyone already feels yet rarely articulates, blending logic, metaphor, data, and personal confession.Should follow this 8-stage progression: Provocative Declaration / Hook → Invalidating Existing Explanations / False Explanations → Question Shift → Rational Calculation / Rational Cost → Core Cause Unification / Core Mechanism → Exposing a Dead Belief / Dead Belief → Future Consequences / Consequence → Limited Exit / Limited Exit. GOAL: Write a long-form analytical essay that explains, through a single unifying line of reasoning, the uncomfortable core cause that the public vaguely senses but has never fully thought through, rigorously excluding all conventional or superficial explanations and instead excavating the psychological, value-based, and philosophical reasons why people consistently fail to resolve this problem, exposing the truth by blending logic, metaphor, data, and personal confession. STYLE & TONE RULES: Prioritize designing a clear flow of reasoning over emotional appeal; insert moments of personal confession throughout to avoid sounding preachy; write in a conversational manner without ever becoming light or casual; informal and formal tones may be mixed as long as consistency is maintained; never lecture the reader and always include yourself as part of \"we\"; avoid emotional excess while blending cynicism with sincerity; use sharp metaphors with minimal sentimentality; keep humor cynical and allow only a faint warmth in the conclusion; be confrontational without becoming inflammatory or propagandistic; actively use numbers, comparisons, and hypothetical calculations; ensure the reader fully understands why certain choices feel rational; never blame the reader, but instead organize and articulate the reader's own thinking on their behalf.\n```\n\n**8단계(step_name):** ① Provocative Declaration / Hook → ② Invalidating Existing Explanations / False Explanations → ③ Question Shift → ④ Rational Calculation / Rational Cost → ⑤ Core Cause Unification / Core Mechanism → ⑥ Exposing a Dead Belief → ⑦ Future Consequences → ⑧ Limited Exit\n\n**step_1_prompt (Provocative Declaration / Hook):**\n```\nYou are a cynical yet intellectually honest social and cultural commentator. For the topic [Topic], completely ban neutral explanations and begin the piece with aggressive assertions and factual shock. Make the reader immediately feel discomfort and resistance by using expressions such as \"it is already over,\" \"a collective delusion,\" and \"we are being deceived,\" while maintaining a cold, controlled, and decisive tone without emotional excess. Do not explain the problem; declare it. Do not attempt to prove why it is serious; present it as a conclusion that has already been settled. The sole purpose of the first section is not understanding but the destruction of existing beliefs, forcing the reader into a state where they want to object but cannot yet see a logical foothold. ex) [너진똑 '대한민국이 망한 이유' 서론 첫 단락 — 시트 원본에 보관. 골격: \"여러분. 본론부터 말하겠습니다. → 극단 판정 → 다들 인정하시죠? → 충격 수치 + 역사적 비유 → 물론 맞습니다(일반론 인정) → 그런데! 그런데 말입니다. → 일반론으로 설명 안 되는 지점 → 뿐만 아니죠. 다른 지표도 특이합니까?\"]\n```\n\n**step_2_prompt (Invalidating Existing Explanations):**\n```\nList the representative explanations repeatedly offered by society, media, experts, and the public regarding [Topic], and reject each one succinctly and decisively. Do not say they are wrong; frame them as \"missing the core,\" \"leaving only frustration,\" and \"the reason nothing has changed.\" Focus on verbalizing the vague sense of stagnation the reader has long felt. Do not propose solutions; instead, calmly organize why these explanations structurally fail to touch the essence of the problem. The objective of this step is to create the realization: \"So this is why nothing has improved.\" ex) [같은 영상 다음 단락 — 골격: 반어 유머 한 줄 → \"그렇다면 말입니다. 대체 왜 ○○만 이런 걸까요?\" → \"제가 논문도 뉴스도 싹 다 뒤져봤는데요\" → 기존 원인 후보 나열(…뭐시기 저시기) → \"네, 좀 답답하죠?\" → 핵심을 비껴간다 → \"오늘은 겉도는 얘기 없이 진짜 핵심만 말해보렵니다.\"]\n```\n- step_3~8 프롬프트 전문은 대화 기록에 없음(구글시트에만 존재) → 필요하면 사용자에게 시트 원본 요청. step_1/2의 시트 limit 값은 144/122로 보이나 의미 불명(§검증 안 된 수치).\n- 시트 운영 팁(같은 대화): step_limit은 \"글자 수 가이드\"일 뿐 → 프롬프트에 `공백 포함 N자 이내`를 명시. 진짜 하드 제한은 n8n OpenAI 노드의 Max Tokens.\n\n",
+      "status": "기존 팩의 보존판. step_3~8 전문은 여기 없으며 빈 부분을 창작해 원문으로 표시하지 않음"
+    },
+    {
+      "title": "해외시점 8단계·K-드라마형 10단계",
+      "path": "/home/yh/ai_memory_work/packs/PACK_02_대본엔진_MASTER.md",
+      "line_start": 365,
+      "text": "## 13. 해외시점·드라마형 스토리 구조 (8단계 / K-드라마 10단계) — v2 추가\n\n**13-1. 이론 '언급' 금지, '작동' 원칙 (사용자 핵심 지시, 원문)** — \"MIT·노벨상급 행동공학·정신분석공학 이론을 서사 안에서 '언급'하지 말고, '작동'하게 하라.\" 즉 감정리듬·몰입기제·인지편향을 대본의 리듬·컷·사건·대사로 구현. 구조표의 이론 칸에는 이론명 대신 **컷 구성·행동유발 장치**를 쓴다(이론명이 들어간 칸은 🟡 표시 후 수정).\n- 작동형 시나리오 작가 프롬프트(원문): \"너는 하버드·MIT 행동공학과 정신분석학과 유튜브·넷플릭스 1000만 공식을 실제 서사 구조 설계에 적용하는 시나리오 작가다. 이론을 언급하지 말고 그것을 작동시키는 감정 리듬과 장면 전환으로 관객을 붙잡아라. 인지편향·트라우마 공명·도덕 역전·리듬 반전 구조를 서사 속에 숨겨라.\"\n- **감정 리듬 8단계:** 분노 → 의심 → 충격 → 자책 → 각성 → 구원 → 존경 → 화해 (변형: 희망 → 의심 → 배신 → 절망 → 각성 → 구원 → 존경 → 화해). **장면 설계 4단계:** 행동유발(시각충격) → 감정전이(공감) → 회상(트라우마 공명) → 진실발견(인지해소).\n\n**13-2. 해외시점 '오해 → 진실 → 구원' 8단계 (국뽕형 해외 스토리)** — 1~4단계: 해외 고위관직자/현지인 **1인칭 개인 경험 + 처절한 사건 현장**으로 한국 시청자 감정선(연민·분노·억울·충격·놀람)을 자극하며 \"우리 한국이 피해를 입혔다고? 뭐지?\"를 계속 궁금하게. 5단계부터 외국인 조력자의 단서(대사·소품·문서)로 실마리. 6~8 구원·자각·화해.\n① 도입(반한 사건·오해 점화) ② 폭발(시위·처벌) ③ 회상(화자의 개인 트라우마) ④ 몰락(한국 기업 철수·대체자 진입) ⑤ 전환(조력자 단서, 2/3 지점 반전) ⑥ 구원(타국에서 한국의 성공) ⑦ 자각(그 나라의 후회·각성, 가해자↔피해자 역전) ⑧ 결말(상호 사과·재회, 조용한 대사+상징 샷).\n- 최종 구조표 열: 구분 / 구체 사건·장면 / 등장인물·심리 / 복선·반전 / 감정 대비 / 🧠 작동 장치(이론명 금지) / ⚙️ 심층 정서 장치 / 🏅 보편 가치 / 📺 시청 지속 장치. ('편집·연출 리듬' 열은 [사용자]가 삭제.)\n- 변형 공식: **악평 → 극적 사건 → 누명 → 조작/외압 반전 → 호평 역전**(초반 실제 악평 문구 → 후반 실제 호평 문구 재조명, 반전의 반전·복선 아이템·입체 캐릭터). 60대 남성 공식: **위기 → 의리 → 배신 → 기개 → 복수 → 구원**, 어휘는 명예·의리·기개, 문장 평균 20~35자. 레퍼런스 드라마 공식 이식 예: 국가 간 신뢰→위기→재동맹 / 사명감 vs 정치 / 배신·죄책감·화해 리듬.\n- ⚠️ 원 지시에 \"악인: 일본·중국\"이 있었음 — 사용 시 **명시적 픽션**, 실존 기업·인물 비방 금지, §4 \"타국 비하로 한국 띄우기 금지\"와 충돌하지 않게 개인·조직 단위 악역으로 처리. 사업 배경은 실화, 사망·조작 사건은 창작임을 구분.\n\n**13-3. 1단계 인트로 작성 규칙 (사용자 원문 규격)** — 인트로 4~5버전, 조회수 높을 순 정렬. **문장 배열: ①해외 한국반대 서사 4문장 → ②\"하지만\" 후회 1문장 → ③소개 1문장 → ④현지 고위/직원 자기소개 2문장 → ⑤대화체 긴박 1문장 → ⑥호기심 유발 1문장 → ⑦극적 충격 3문장(2~5).** 첫 문장은 그 나라 군중·정치인·노조가 외치는 **직격 대사**(\"…당장 떠나라!\"). 예시는 **내용 말고 문체·문장 길이·초반 문장 구조만** 참고. 형식: 해요/했죠체, 영어는 한글로 번역, 영어·숫자는 한글 발음 표기, 줄바꿈 없음(소제목 허용판은 소제목 + 줄바꿈 1번), 이모티콘·설명문장·타임스탬프 삭제, **마지막 줄에 공백 포함 총 글자 수 표기**(실측 확인). 이후 2단계 2500자, 3단계 4000자 식으로 단계별 본문.\n- 8포인트 조회수 템플릿(요지): 훅=직격 대사 / 감정앵커=화자 트라우마 1문장 / 위기 고조=시각적 사건 2~3문장 / 복선 아이템(USB·봉투·CCTV) 1줄 / 초반 악평 댓글 3개 / 말 대신 행동으로 신뢰 회복 3조치 / 현지 호평 3문장 / 중장년 톤 CTA. (KPI 수치는 예시값.)\n\n**13-4. K-드라마형 10단계 (하몬서클 8 비교판, [사용자] 확정표의 범용 프롬프트)** — 1 충격 도입(첫 3초에 사회 규범을 깨는 장면) / 2 주인공 소개(약점·상처·결핍 + 능력 1회 입증 → 공감+존경) / 3 요구(현실 목표 + 내면 욕망 선언) / 4 낯선 세계 진입 / 5 1차 갈등(규칙·감시·위험 연속 노출) / 6 2차 갈등(진짜 악의·핵심 비밀 발견) / **7 최대 위기 2회 분리: (1) 멘토·자원·희망 상실 (2) 적대자·시스템 직접 공격** / 8 변형(새 정체성·전략) / 9 해결(즉각 승리 + 감정 반전 1회 더) / **10 시즌2 떡밥(닫지 말고 새 지역·새 악역·금지된 사랑·숨겨진 혈통).** 하몬서클 대비: 시작이 평온이 아니라 충격, 갈등 구간 4곳(하몬 2곳), 대반전 3+, 엔딩 확장형. 최종본은 단계 간 **전환부 실제 문장 5개씩**을 넣어 리듬을 학습시킴(문장은 참고용, 주제에 맞게 변환 — 원문 복제 금지).\n- 학습/생성 분리 txt 포맷: 학습용 = `문장:` + `코멘트: #기능(목적)` 줄 반복(\"학습은 여기까지이며, 생성 시 코멘트는 포함하지 않는다\") / 생성용 = 코멘트 없이 글만. 쇼츠형 출력 조건 예: 25~32줄, 한 줄 5~10자, 문장마다 줄바꿈, `<ins>강조</ins>` 3회+, (포인트: ~) 주석 5개+.\n\n---\n\n",
+      "status": "기존 팩의 압축·보존판. 원문 전체와 구분"
+    },
+    {
+      "title": "14단계 하몬 확장·15개 스토리 유형",
+      "path": "/home/yh/ai_memory_work/packs/PACK_02_대본엔진_MASTER.md",
+      "line_start": 398,
+      "text": "## 15. 하몬서클 확장 — 14단계 n8n 생성기 · 15개 스토리 유형 — v2 추가\n\n- **14단계 Harmon Circle(개발자 n8n 원문):** 1 You 2 Need 3 Go 4 Search 5 Find 6 Take 7 Return 8 Change 9 Struggle 10 Victory 11 Resolution 12 New Normal 13 Reflection 14 Future. 흐름: GPT1 유형 분류(JSON, temp 0.3) → GPT2 14단계 아웃라인(단계당 2~3문장, temp 0.5) → Loop GPT3 단계별 본문(헤더·번호·설명 없이 본문만) → 병합 → 시트.\n- [사용자]가 짚은 누락 4가지(개발자 전달): **GPT0 사전 스타일 학습 단계 / 감정 기반 14단계 / GPT3에 학습파일 강제 주입 / \"이전 단계의 문체·톤·속도·감정 리듬을 그대로 유지하라, 학습파일 스타일을 절대 벗어나지 마라\" 규칙.** 원했던 기능: 유튜브 2~3개 자막 혼합, 유형 강제 지정(forced_type) 또는 자동 판단, 크레딧·아웃트로 스텝, 외부 .md 템플릿 로딩. 학습 데이터 위치: GPT1=유형 분류, GPT2=구조, **Loop GPT3=문체·감정·톤(핵심)** 각 system prompt.\n- **15개 스토리 유형:** 문제해결 / 조력자 등장(위기→조력자→극복) / 감동·눈물 / 후기·체험 / 반전 / 수치비교 / 국뽕 / 성장 / 충격폭로 / 고백 / 타인 이야기 / 오해해명 / 성공원인 / 비교 / 통계 인사이트. 보조 감정축: 분노 자극 / 반전 지식 / 생활 체감 / 인간 서사. 유형별 학습 파일(`/training_data/유형/유형_01.md`, 약 15,000자, 700~1,000자 Part 분할 + 코멘트 + `<ins>` 강조).\n- **스타일-콘텐츠 분리(원문):** \"너는 콘텐츠의 '아이디어 구조'만 복제하고, 단어·표현·문장은 전부 새롭게 구성해야 한다. 논리 흐름·포인트 배열·감정 리듬은 유지하지만 표현은 모두 새롭게. **포맷 복제는 허용, 표현 복제는 금지.**\" 설정 예: 포맷 고정 temp 0~0.3, 표현 다양화 0.3~0.5, presence penalty 0.3~0.4.\n- 크리에이터 인터뷰의 하몬 적용 요지: 주인공 위기 → 사건과 **조력자**(국뽕 결합 시 한국이 조력자) → 극복 → 1등이 되는 행복한 결말(욕망 대리충족). 하몬 8단계 실전 표: `시간 | 이야기 | 그 순간의 질문 | 부분 답 | Open Loop` (§5 하몬 리텐션 표와 동일 계열).\n\n---\n\n",
+      "status": "프로젝트용 확장안의 보존판. 댄 하몬 기본 8단계와 동일한 공식 원전이라고 주장하지 않음"
+    }
+  ],
+  "verification": {
+    "f1_source": "/home/yh/migration_20261106/dev_repos/AI_DAEBON_ENGINE/vault/AI_BRAIN/50_YT_SCRIPT_LIBRARY/10_분류체계/F1_전개구조_분류.md",
+    "f1_line_start": 9,
+    "f1_sha256": "2a4c2a8841d7a02584fe6966744915df9d91cd642f016bc230cc5d51cf3a4af1",
+    "sections": 10,
+    "enum_count": 13,
+    "enums": [
+      "하몬서클8",
+      "기승전결4",
+      "3막구조",
+      "액자식",
+      "에피소드체인",
+      "클리프행어체인",
+      "카운트다운리스트",
+      "PAS",
+      "AIDA",
+      "옴니버스병렬",
+      "떡밥회수루프",
+      "문답디베이트",
+      "타임라인연대기"
+    ],
+    "sheet_identifiers_in_history": 31,
+    "read_workbooks": 9,
+    "read_tabs": 638,
+    "http_401": 18,
+    "http_404": 2,
+    "invalid_identifiers_not_repaired": 2,
+    "google_sheet_writes": false,
+    "production_workbooks_checked": [
+      {
+        "id": "1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ",
+        "tabs": 32,
+        "status": "read",
+        "file": "/home/yh/.hermes/cache/scratch/narrative-sheets/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ-all-cells.json"
+      },
+      {
+        "id": "1AlyxMo9KQp1G6o7u4TL67xcd1eqhdpENj6ra888Ffcs",
+        "tabs": 7,
+        "status": "read",
+        "file": "/home/yh/.hermes/cache/scratch/narrative-sheets/1AlyxMo9KQp1G6o7u4TL67xcd1eqhdpENj6ra888Ffcs-all-cells.json"
+      }
+    ],
+    "sheet_templates": 8,
+    "sheet_stage_prompts": 64,
+    "missing_historical_row": "Economy_너진똑-2 was not found in the two production workbook snapshots",
+    "f1_original_file_sha256": "344b570fb71d6fcaec79cabe1988a5eded4616288dfa9b3a117450620b532b2c",
+    "historical_emotion_examples": 22,
+    "preserved_emotion_models": 4,
+    "new_emotion_designs": 8,
+    "new_designs_are_not_original_sheet_cells": true
+  },
+  "sheet_templates": [
+    {
+      "id": "Harmon_8_Step",
+      "label": "시트의 하몬 이름 8단계 · 분석/구조적 긴장형",
+      "row": 2,
+      "range": "A2:Z2",
+      "url": "https://docs.google.com/spreadsheets/d/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ/edit?gid=0#gid=0&range=A2:Z2",
+      "tone_guide": "Calm, analytical, cautious. Raises concern without fear-mongering. Short declarative sentences.",
+      "steps": [
+        {
+          "number": 1,
+          "name": "Hook / Disruption",
+          "limit": "700",
+          "prompt": "Identify where the trend begins and disrupt the optimism."
+        },
+        {
+          "number": 2,
+          "name": "Context / World Setup",
+          "limit": "900",
+          "prompt": "Establish the current world context and 'normal' state before introducing the specific problem. Explain the background clearly."
+        },
+        {
+          "number": 3,
+          "name": "Structural Tension / Hidden Problem",
+          "limit": "1100",
+          "prompt": "Expose the hidden bottleneck or structural tension that most people miss. Explain why the optimism is misplaced."
+        },
+        {
+          "number": 4,
+          "name": "Mechanism / How Collapse Unfolds",
+          "limit": "1100",
+          "prompt": "Explain the specific mechanism of failure. Detail exactly how the conflict or collapse unfolds and why it cannot be easily fixed."
+        },
+        {
+          "number": 5,
+          "name": "Signals / Indicators / Evidence",
+          "limit": "1200",
+          "prompt": "Provide concrete evidence, market signals, or indicators that support this theory. Use factual data to validate the tension."
+        },
+        {
+          "number": 6,
+          "name": "Historical or Comparative Expansion",
+          "limit": "1100",
+          "prompt": "Expand the scope. Connect this to historical examples or broader geopolitical risks to show this is a systemic pattern."
+        },
+        {
+          "number": 7,
+          "name": "Reflection / Lesson / Mindset Shift",
+          "limit": "900",
+          "prompt": "De-escalate the tension. Invite the audience to reflect on the lesson. Shift the focus from fear to understanding."
+        },
+        {
+          "number": 8,
+          "name": "Conclusion / Warning / Forward Tension",
+          "limit": "600",
+          "prompt": "Conclude with a final thought or warning. Reject fear-mongering, but leave a forward-looking tension or question for the audience."
+        }
+      ],
+      "cells": {
+        "structure_id": "Harmon_8_Step",
+        "tone_guide": "Calm, analytical, cautious. Raises concern without fear-mongering. Short declarative sentences.",
+        "step_1_name": "Hook / Disruption",
+        "step_1_limit": "700",
+        "step_1_prompt": "Identify where the trend begins and disrupt the optimism.",
+        "step_2_name": "Context / World Setup",
+        "step_2_limit": "900",
+        "step_2_prompt": "Establish the current world context and 'normal' state before introducing the specific problem. Explain the background clearly.",
+        "step_3_name": "Structural Tension / Hidden Problem",
+        "step_3_limit": "1100",
+        "step_3_prompt": "Expose the hidden bottleneck or structural tension that most people miss. Explain why the optimism is misplaced.",
+        "step_4_name": "Mechanism / How Collapse Unfolds",
+        "step_4_limit": "1100",
+        "step_4_prompt": "Explain the specific mechanism of failure. Detail exactly how the conflict or collapse unfolds and why it cannot be easily fixed.",
+        "step_5_name": "Signals / Indicators / Evidence",
+        "step_5_limit": "1200",
+        "step_5_prompt": "Provide concrete evidence, market signals, or indicators that support this theory. Use factual data to validate the tension.",
+        "step_6_name": "Historical or Comparative Expansion",
+        "step_6_limit": "1100",
+        "step_6_prompt": "Expand the scope. Connect this to historical examples or broader geopolitical risks to show this is a systemic pattern.",
+        "step_7_name": "Reflection / Lesson / Mindset Shift",
+        "step_7_limit": "900",
+        "step_7_prompt": "De-escalate the tension. Invite the audience to reflect on the lesson. Shift the focus from fear to understanding.",
+        "step_8_name": "Conclusion / Warning / Forward Tension",
+        "step_8_limit": "600",
+        "step_8_prompt": "Conclude with a final thought or warning. Reject fear-mongering, but leave a forward-looking tension or question for the audience."
+      },
+      "warnings": [
+        "이 이름은 시트에 적힌 식별자입니다. 실제 내용은 Hook/Context/Structural Tension 등이며, YOU→NEED→GO→SEARCH→FIND→TAKE→RETURN→CHANGE의 표준 하몬 8단계와 다릅니다. 임의로 같은 구조로 고치지 않았습니다."
+      ]
+    },
+    {
+      "id": "Crypto_Story_Mode",
+      "label": "코인 동화·비유형",
+      "row": 3,
+      "range": "A3:Z3",
+      "url": "https://docs.google.com/spreadsheets/d/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ/edit?gid=0#gid=0&range=A3:Z3",
+      "tone_guide": "CRITICAL: OUTPUT MUST BE IN KOREAN. Tone: Simple, fairy-tale style for a 2nd grader. Use metaphors (candy, playgrounds, toys) to explain complex finance. Never use jargon without explaining it.",
+      "steps": [
+        {
+          "number": 1,
+          "name": "Intro / The Crypto Kingdom",
+          "limit": "600",
+          "prompt": "Read the input context. Introduce the current state of the crypto world as if it were a Kingdom. Is it sunny? Is it raining? Introduce the main characters (the coins mentioned in the news)."
+        },
+        {
+          "number": 2,
+          "name": "First News Story (Concept)",
+          "limit": "800",
+          "prompt": "Identify the first major coin or news item from the text. Explain what happened to it simply. Did it go up a hill? Did it fall down?"
+        },
+        {
+          "number": 3,
+          "name": "First News Story (Analogy)",
+          "limit": "800",
+          "prompt": "Tell a specific short story to explain the previous step. Use a 2nd-grade analogy (e.g., sharing toys or trading cards) to make it easy to understand."
+        },
+        {
+          "number": 4,
+          "name": "Second News Story (Concept)",
+          "limit": "800",
+          "prompt": "Identify the second major coin or news item. Explain its situation. How is it different from the first one?"
+        },
+        {
+          "number": 5,
+          "name": "Second News Story (Analogy)",
+          "limit": "800",
+          "prompt": "Give a fun analogy for this second story. Maybe compare it to a rollercoaster or a race."
+        },
+        {
+          "number": 6,
+          "name": "Third News Story (The Market)",
+          "limit": "800",
+          "prompt": "Identify the broader market news (like NASDAQ or general trends). Explain how this affects the whole Kingdom."
+        },
+        {
+          "number": 7,
+          "name": "Third News Story (Analogy)",
+          "limit": "800",
+          "prompt": "Create a final analogy for this market situation. Is the playground closing? Is a festival starting?"
+        },
+        {
+          "number": 8,
+          "name": "Conclusion / The Lesson",
+          "limit": "600",
+          "prompt": "Wrap up the story. What is the lesson for the villagers (investors) today? End with a warm, encouraging closing sentence."
+        }
+      ],
+      "cells": {
+        "structure_id": "Crypto_Story_Mode",
+        "tone_guide": "CRITICAL: OUTPUT MUST BE IN KOREAN. Tone: Simple, fairy-tale style for a 2nd grader. Use metaphors (candy, playgrounds, toys) to explain complex finance. Never use jargon without explaining it.",
+        "step_1_name": "Intro / The Crypto Kingdom",
+        "step_1_limit": "600",
+        "step_1_prompt": "Read the input context. Introduce the current state of the crypto world as if it were a Kingdom. Is it sunny? Is it raining? Introduce the main characters (the coins mentioned in the news).",
+        "step_2_name": "First News Story (Concept)",
+        "step_2_limit": "800",
+        "step_2_prompt": "Identify the first major coin or news item from the text. Explain what happened to it simply. Did it go up a hill? Did it fall down?",
+        "step_3_name": "First News Story (Analogy)",
+        "step_3_limit": "800",
+        "step_3_prompt": "Tell a specific short story to explain the previous step. Use a 2nd-grade analogy (e.g., sharing toys or trading cards) to make it easy to understand.",
+        "step_4_name": "Second News Story (Concept)",
+        "step_4_limit": "800",
+        "step_4_prompt": "Identify the second major coin or news item. Explain its situation. How is it different from the first one?",
+        "step_5_name": "Second News Story (Analogy)",
+        "step_5_limit": "800",
+        "step_5_prompt": "Give a fun analogy for this second story. Maybe compare it to a rollercoaster or a race.",
+        "step_6_name": "Third News Story (The Market)",
+        "step_6_limit": "800",
+        "step_6_prompt": "Identify the broader market news (like NASDAQ or general trends). Explain how this affects the whole Kingdom.",
+        "step_7_name": "Third News Story (Analogy)",
+        "step_7_limit": "800",
+        "step_7_prompt": "Create a final analogy for this market situation. Is the playground closing? Is a festival starting?",
+        "step_8_name": "Conclusion / The Lesson",
+        "step_8_limit": "600",
+        "step_8_prompt": "Wrap up the story. What is the lesson for the villagers (investors) today? End with a warm, encouraging closing sentence."
+      },
+      "warnings": []
+    },
+    {
+      "id": "Multi_Entity_News_Mode",
+      "label": "다종목 뉴스 브리핑형",
+      "row": 4,
+      "range": "A4:Z4",
+      "url": "https://docs.google.com/spreadsheets/d/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ/edit?gid=0#gid=0&range=A4:Z4",
+      "tone_guide": "Role: Senior Financial News Anchor. Goal: Comprehensive coverage of ALL assets mentioned. Structure: Sequential News Briefing. Tone: Professional, objective, data-driven. NO storytelling metaphors. Focus on clarity and completeness.",
+      "steps": [
+        {
+          "number": 1,
+          "name": "Entity Detection & List",
+          "limit": "800",
+          "prompt": "CRITICAL INSTRUCTION: Read the input text. List EVERY single specific Stock, Coin, and Index ticker mentioned (e.g., Tesla, Bitcoin, Ecopro, NASDAQ). Do not analyze yet. Just output a bulleted list of every entity found to ensure none are missed."
+        },
+        {
+          "number": 2,
+          "name": "Sector Grouping",
+          "limit": "600",
+          "prompt": "Take the list from Step 1 and group them into logical sectors (e.g., 1. EV/Batteries, 2. Crypto/Digital Assets, 3. Semiconductors/AI). Briefly mention the \"Main Headline\" for each group."
+        },
+        {
+          "number": 3,
+          "name": "Sector A: Detailed Report",
+          "limit": "1000",
+          "prompt": "Select the first major sector (e.g., Batteries/Ecopro). Write a detailed news summary for EACH stock in this group. What is the specific news for Stock A? What is the specific news for Stock B? Ensure specific prices or percentages are included if mentioned."
+        },
+        {
+          "number": 4,
+          "name": "Sector B: Detailed Report",
+          "limit": "1000",
+          "prompt": "Select the second major sector (e.g., Crypto). Provide a detailed update on Bitcoin, Ethereum, and any specific altcoins mentioned. Explain the technical analysis (Dominance, Charts) referenced in the text for each."
+        },
+        {
+          "number": 5,
+          "name": "Sector C: Detailed Report",
+          "limit": "1000",
+          "prompt": "Select the remaining sector (e.g., Robotics, Semiconductors, or General Market). Cover any remaining stocks from your Step 1 list that haven't been analyzed yet. Ensure NO entity is left behind."
+        },
+        {
+          "number": 6,
+          "name": "Market Sentiment Connection",
+          "limit": "800",
+          "prompt": "Analyze the connection between these sectors. Is money flowing from one to another? What is the overall market mood (Bullish/Bearish) based on these combined reports?"
+        },
+        {
+          "number": 7,
+          "name": "Actionable Signals",
+          "limit": "800",
+          "prompt": "Summarize specific warnings or trading signals mentioned by the speakers (e.g., \"Wait for 130k,\" \"Watch the 20-day line\"). Attribute the advice to the specific context."
+        },
+        {
+          "number": 8,
+          "name": "Final Executive Summary",
+          "limit": "600",
+          "prompt": "Provide a final executive summary. Re-state the top 3 most critical news items for the reader to remember."
+        }
+      ],
+      "cells": {
+        "structure_id": "Multi_Entity_News_Mode",
+        "tone_guide": "Role: Senior Financial News Anchor. Goal: Comprehensive coverage of ALL assets mentioned. Structure: Sequential News Briefing. Tone: Professional, objective, data-driven. NO storytelling metaphors. Focus on clarity and completeness.",
+        "step_1_name": "Entity Detection & List",
+        "step_1_limit": "800",
+        "step_1_prompt": "CRITICAL INSTRUCTION: Read the input text. List EVERY single specific Stock, Coin, and Index ticker mentioned (e.g., Tesla, Bitcoin, Ecopro, NASDAQ). Do not analyze yet. Just output a bulleted list of every entity found to ensure none are missed.",
+        "step_2_name": "Sector Grouping",
+        "step_2_limit": "600",
+        "step_2_prompt": "Take the list from Step 1 and group them into logical sectors (e.g., 1. EV/Batteries, 2. Crypto/Digital Assets, 3. Semiconductors/AI). Briefly mention the \"Main Headline\" for each group.",
+        "step_3_name": "Sector A: Detailed Report",
+        "step_3_limit": "1000",
+        "step_3_prompt": "Select the first major sector (e.g., Batteries/Ecopro). Write a detailed news summary for EACH stock in this group. What is the specific news for Stock A? What is the specific news for Stock B? Ensure specific prices or percentages are included if mentioned.",
+        "step_4_name": "Sector B: Detailed Report",
+        "step_4_limit": "1000",
+        "step_4_prompt": "Select the second major sector (e.g., Crypto). Provide a detailed update on Bitcoin, Ethereum, and any specific altcoins mentioned. Explain the technical analysis (Dominance, Charts) referenced in the text for each.",
+        "step_5_name": "Sector C: Detailed Report",
+        "step_5_limit": "1000",
+        "step_5_prompt": "Select the remaining sector (e.g., Robotics, Semiconductors, or General Market). Cover any remaining stocks from your Step 1 list that haven't been analyzed yet. Ensure NO entity is left behind.",
+        "step_6_name": "Market Sentiment Connection",
+        "step_6_limit": "800",
+        "step_6_prompt": "Analyze the connection between these sectors. Is money flowing from one to another? What is the overall market mood (Bullish/Bearish) based on these combined reports?",
+        "step_7_name": "Actionable Signals",
+        "step_7_limit": "800",
+        "step_7_prompt": "Summarize specific warnings or trading signals mentioned by the speakers (e.g., \"Wait for 130k,\" \"Watch the 20-day line\"). Attribute the advice to the specific context.",
+        "step_8_name": "Final Executive Summary",
+        "step_8_limit": "600",
+        "step_8_prompt": "Provide a final executive summary. Re-state the top 3 most critical news items for the reader to remember."
+      },
+      "warnings": []
+    },
+    {
+      "id": "Multi_Entity_News_Mode_Kor",
+      "label": "다종목 한국어 분석형",
+      "row": 5,
+      "range": "A5:Z5",
+      "url": "https://docs.google.com/spreadsheets/d/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ/edit?gid=0#gid=0&range=A5:Z5",
+      "tone_guide": "ROLE: Cynical, Intellectual Financial Analyst (Demian Style). TONE: Analytical, observant, slightly detached but sharp. RULES: 1. Use ONLY subtitle data for assets. 2. STRICT LENGTH CONTROL: If a step asks for 800 chars, you MUST write 800 chars. Do not summarize. Expand deeply. 3. Group Stocks and Crypto separately. 4. Language: KOREAN.",
+      "steps": [
+        {
+          "number": 1,
+          "name": "Entity Detection & List",
+          "limit": "800",
+          "prompt": "CRITICAL INSTRUCTION: Read the input text. List EVERY single specific Stock, Coin, and Index ticker mentioned (e.g., Tesla, Bitcoin, Ecopro, NASDAQ). Do not analyze yet. Just output a bulleted list of every entity found to ensure none are missed. "
+        },
+        {
+          "number": 2,
+          "name": "Sector Grouping",
+          "limit": "600",
+          "prompt": "TASK: Extract every Stock/Coin entity and its price data.\n\nFor each entity, you must generate a structured entry following these steps:\n\n1. DETECT: Find the entity and the price in the text.\n2. NORMALIZE (Rule 4): Convert words like \"10만 원대\" into numbers.\n3. FORMAT (Rule 3): Write the price strictly as \"~ KRW [Number] range\".\n4. TIME (Rule 2): Identify the time. If unclear, write \"price context based on past commentary\".\n5. PROOF: Quote the exact sentence or timestamp from the transcript where this price was found.\n\nOUTPUT FORMAT (List items):\n• [Entity Name]\n  - Price: [Normalized Format] (Raw text: \"[Original Subtitle Text]\")\n  - Time Context: [Time Rule Applied]\n  - Source Proof: \"[Quote the specific sentence from transcript]\"\n\nExample:\n• Ecopro\n  - Price: ~ KRW 100,000 range (Raw text: \"10만 원대\")\n  - Time Context: price context based on past commentary\n  - Source Proof: \"At 03:10, Ecopro was in the 100,000 won range.\n\nOUTPUT LANGUAGE: KOREAN."
+        },
+        {
+          "number": 3,
+          "name": "Sector A: Detailed Report",
+          "limit": "1000",
+          "prompt": "Analyze the **EV & Battery (Secondary Cells)** entities from the list.\n\nFor EACH entity, generate this EXACT structure in KOREAN:\n\n**[Asset Name]**\n1. **Overview:** What is this asset? (Keep it brief)\n2. **Technicals:** Mention chart patterns (support/resistance/patterns like Cup & Handle) found in text.\n3. **News Context:** Why is it being discussed? (e.g., Supply deals, Policies, Earnings).\n4. **Bull/Bear Logic:** Why might it go up or down? (The rationale).\n5. **Overall Stance:** (Positive/Neutral/Negative)\n\n**[Price Strategy]**\n* **Buy Zone:** (Only if mentioned in text)\n* **First Target:** (Only if mentioned in text)\n* **Second Target:** (Only if mentioned in text)\n* **Stop-loss:** (Only if mentioned in text)\n\nCRITICAL: DO NOT include \"Raw text\", metadata, or timecodes. Write it as a clean, professional script. Use the \"Demian\" analytical tone.\nOUTPUT LANGUAGE: KOREAN."
+        },
+        {
+          "number": 4,
+          "name": "Sector B: Detailed Report",
+          "limit": "1000",
+          "prompt": "Analyze the **Cryptocurrency (Bitcoin & Altcoins)** entities from the list.\n\nFor EACH entity, generate this EXACT structure in KOREAN:\n\n**[Asset Name]**\n1. **Overview:** What is this asset?\n2. **Technicals:** Mention chart patterns, Dominance, or RSI found in text.\n3. **News Context:** Why is it being discussed? (e.g., ETFs, Halving, Macro trends).\n4. **Bull/Bear Logic:** Why might it go up or down?\n5. **Overall Stance:** (Positive/Neutral/Negative)\n\n**[Price Strategy]**\n* **Buy Zone:** (Only if mentioned in text)\n* **First Target:** (Only if mentioned in text)\n* **Second Target:** (Only if mentioned in text)\n* **Stop-loss:** (Only if mentioned in text)\n\nCRITICAL: DO NOT include \"Raw text\", metadata, or timecodes. Write it as a clean, professional script. Use the \"Demian\" analytical tone.\nOUTPUT LANGUAGE: KOREAN."
+        },
+        {
+          "number": 5,
+          "name": "Sector C: Detailed Report",
+          "limit": "1000",
+          "prompt": "Analyze the **Robotics, AI, and Semiconductor** entities from the list.\n\nFor EACH entity, generate this EXACT structure in KOREAN:\n\n**[Asset Name]**\n1. **Overview:** What is this asset?\n2. **Technicals:** Mention chart patterns or key moving averages found in text.\n3. **News Context:** Why is it being discussed? (e.g., Robot Theme, AI Demand).\n4. **Bull/Bear Logic:** Why might it go up or down?\n5. **Overall Stance:** (Positive/Neutral/Negative)\n\n**[Price Strategy]**\n* **Buy Zone:** (Only if mentioned in text)\n* **First Target:** (Only if mentioned in text)\n* **Second Target:** (Only if mentioned in text)\n* **Stop-loss:** (Only if mentioned in text)\n\nCRITICAL: DO NOT include \"Raw text\", metadata, or timecodes. Write it as a clean, professional script. Use the \"Demian\" analytical tone.OUTPUT LANGUAGE: KOREAN."
+        },
+        {
+          "number": 6,
+          "name": "Market Sentiment Connection",
+          "limit": "800",
+          "prompt": "Analyze the connection between these sectors. Is money flowing from one to another? What is the overall market mood (Bullish/Bearish) based on these combined reports? OUTPUT LANGUAGE: KOREAN."
+        },
+        {
+          "number": 7,
+          "name": "Actionable Signals",
+          "limit": "800",
+          "prompt": "Summarize specific warnings or trading signals mentioned by the speakers (e.g., \"Wait for 130k,\" \"Watch the 20-day line\"). Attribute the advice to the specific context. \nOUTPUT LANGUAGE: KOREAN."
+        },
+        {
+          "number": 8,
+          "name": "Final Executive Summary",
+          "limit": "600",
+          "prompt": "Provide a final executive summary. Re-state the top 3 most critical news items for the reader to remember. OUTPUT LANGUAGE: KOREAN."
+        }
+      ],
+      "cells": {
+        "structure_id": "Multi_Entity_News_Mode_Kor",
+        "tone_guide": "ROLE: Cynical, Intellectual Financial Analyst (Demian Style). TONE: Analytical, observant, slightly detached but sharp. RULES: 1. Use ONLY subtitle data for assets. 2. STRICT LENGTH CONTROL: If a step asks for 800 chars, you MUST write 800 chars. Do not summarize. Expand deeply. 3. Group Stocks and Crypto separately. 4. Language: KOREAN.",
+        "step_1_name": "Entity Detection & List",
+        "step_1_limit": "800",
+        "step_1_prompt": "CRITICAL INSTRUCTION: Read the input text. List EVERY single specific Stock, Coin, and Index ticker mentioned (e.g., Tesla, Bitcoin, Ecopro, NASDAQ). Do not analyze yet. Just output a bulleted list of every entity found to ensure none are missed. ",
+        "step_2_name": "Sector Grouping",
+        "step_2_limit": "600",
+        "step_2_prompt": "TASK: Extract every Stock/Coin entity and its price data.\n\nFor each entity, you must generate a structured entry following these steps:\n\n1. DETECT: Find the entity and the price in the text.\n2. NORMALIZE (Rule 4): Convert words like \"10만 원대\" into numbers.\n3. FORMAT (Rule 3): Write the price strictly as \"~ KRW [Number] range\".\n4. TIME (Rule 2): Identify the time. If unclear, write \"price context based on past commentary\".\n5. PROOF: Quote the exact sentence or timestamp from the transcript where this price was found.\n\nOUTPUT FORMAT (List items):\n• [Entity Name]\n  - Price: [Normalized Format] (Raw text: \"[Original Subtitle Text]\")\n  - Time Context: [Time Rule Applied]\n  - Source Proof: \"[Quote the specific sentence from transcript]\"\n\nExample:\n• Ecopro\n  - Price: ~ KRW 100,000 range (Raw text: \"10만 원대\")\n  - Time Context: price context based on past commentary\n  - Source Proof: \"At 03:10, Ecopro was in the 100,000 won range.\n\nOUTPUT LANGUAGE: KOREAN.",
+        "step_3_name": "Sector A: Detailed Report",
+        "step_3_limit": "1000",
+        "step_3_prompt": "Analyze the **EV & Battery (Secondary Cells)** entities from the list.\n\nFor EACH entity, generate this EXACT structure in KOREAN:\n\n**[Asset Name]**\n1. **Overview:** What is this asset? (Keep it brief)\n2. **Technicals:** Mention chart patterns (support/resistance/patterns like Cup & Handle) found in text.\n3. **News Context:** Why is it being discussed? (e.g., Supply deals, Policies, Earnings).\n4. **Bull/Bear Logic:** Why might it go up or down? (The rationale).\n5. **Overall Stance:** (Positive/Neutral/Negative)\n\n**[Price Strategy]**\n* **Buy Zone:** (Only if mentioned in text)\n* **First Target:** (Only if mentioned in text)\n* **Second Target:** (Only if mentioned in text)\n* **Stop-loss:** (Only if mentioned in text)\n\nCRITICAL: DO NOT include \"Raw text\", metadata, or timecodes. Write it as a clean, professional script. Use the \"Demian\" analytical tone.\nOUTPUT LANGUAGE: KOREAN.",
+        "step_4_name": "Sector B: Detailed Report",
+        "step_4_limit": "1000",
+        "step_4_prompt": "Analyze the **Cryptocurrency (Bitcoin & Altcoins)** entities from the list.\n\nFor EACH entity, generate this EXACT structure in KOREAN:\n\n**[Asset Name]**\n1. **Overview:** What is this asset?\n2. **Technicals:** Mention chart patterns, Dominance, or RSI found in text.\n3. **News Context:** Why is it being discussed? (e.g., ETFs, Halving, Macro trends).\n4. **Bull/Bear Logic:** Why might it go up or down?\n5. **Overall Stance:** (Positive/Neutral/Negative)\n\n**[Price Strategy]**\n* **Buy Zone:** (Only if mentioned in text)\n* **First Target:** (Only if mentioned in text)\n* **Second Target:** (Only if mentioned in text)\n* **Stop-loss:** (Only if mentioned in text)\n\nCRITICAL: DO NOT include \"Raw text\", metadata, or timecodes. Write it as a clean, professional script. Use the \"Demian\" analytical tone.\nOUTPUT LANGUAGE: KOREAN.",
+        "step_5_name": "Sector C: Detailed Report",
+        "step_5_limit": "1000",
+        "step_5_prompt": "Analyze the **Robotics, AI, and Semiconductor** entities from the list.\n\nFor EACH entity, generate this EXACT structure in KOREAN:\n\n**[Asset Name]**\n1. **Overview:** What is this asset?\n2. **Technicals:** Mention chart patterns or key moving averages found in text.\n3. **News Context:** Why is it being discussed? (e.g., Robot Theme, AI Demand).\n4. **Bull/Bear Logic:** Why might it go up or down?\n5. **Overall Stance:** (Positive/Neutral/Negative)\n\n**[Price Strategy]**\n* **Buy Zone:** (Only if mentioned in text)\n* **First Target:** (Only if mentioned in text)\n* **Second Target:** (Only if mentioned in text)\n* **Stop-loss:** (Only if mentioned in text)\n\nCRITICAL: DO NOT include \"Raw text\", metadata, or timecodes. Write it as a clean, professional script. Use the \"Demian\" analytical tone.OUTPUT LANGUAGE: KOREAN.",
+        "step_6_name": "Market Sentiment Connection",
+        "step_6_limit": "800",
+        "step_6_prompt": "Analyze the connection between these sectors. Is money flowing from one to another? What is the overall market mood (Bullish/Bearish) based on these combined reports? OUTPUT LANGUAGE: KOREAN.",
+        "step_7_name": "Actionable Signals",
+        "step_7_limit": "800",
+        "step_7_prompt": "Summarize specific warnings or trading signals mentioned by the speakers (e.g., \"Wait for 130k,\" \"Watch the 20-day line\"). Attribute the advice to the specific context. \nOUTPUT LANGUAGE: KOREAN.",
+        "step_8_name": "Final Executive Summary",
+        "step_8_limit": "600",
+        "step_8_prompt": "Provide a final executive summary. Re-state the top 3 most critical news items for the reader to remember. OUTPUT LANGUAGE: KOREAN."
+      },
+      "warnings": []
+    },
+    {
+      "id": "NJT_Economy_Style",
+      "label": "도입 질문·역설 → 시대 변화 분석형",
+      "row": 6,
+      "range": "A6:Z6",
+      "url": "https://docs.google.com/spreadsheets/d/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ/edit?gid=0#gid=0&range=A6:Z6",
+      "tone_guide": "ROLE: Energetic, Optimistic AI Learning Companion (Leeco Style).\nTONE: Enthusiastic, clear, encouraging, simplifying complex topics. Uses metaphors like \"Leveling Up\" and \"Unlocking.\"\n\nSTRICT NARRATIVE STRUCTURE (8 STEPS):\n1. **The Spark (Hook):** Start with a high-energy \"What if?\" question. Ignite curiosity about the future. (Length: ~2000 chars)\n2. **The Basics (Context):** Break down the complex topic into simple building blocks. Use a fun analogy. (Length: ~3500 chars)\n3. **The Challenge (Gap):** Explain why people usually get stuck here. Validate their confusion but offer a solution. (Length: ~4500 chars)\n4. **The 'Aha!' Moment (Mechanism):** VISUAL TURN REQUIRED. Reveal the secret logic. Use phrases like \"Here is the magic trick...\" (Length: ~4500 chars)\n5. **The Toolkit (Application):** Practical examples. Show how this tech/concept works in daily life right now. (Length: ~5000 chars)\n6. **The Horizon (Future):** Zoom out to the bright future. How this changes the world for the better. (Length: ~4500 chars)\n7. **The Upgrade (Lesson):** Empower the reader. \"This is your new superpower.\" Focus on growth. (Length: ~3500 chars)\n8. **The Mission (Conclusion):** End with an inspiring call to action. \"Let's build this together.\" (Length: ~2500 chars)\n\nMANDATORY VOCABULARY (Must use at least 2 per section):\n- Level Up (레벨 업)\n- Lightbulb Moment (유레카 순간)\n- Future Ready (미래 준비)\n- The Toolkit (툴킷)\n- Growth Mindset (성장 마인드셋)\n- Unlocking Potential (잠재력 해제)\n- Magic Sauce (비법)\n\nLOGIC CONSTRAINT:\nEvery single section must contain a bridge phrase like: \"Here is the cool part,\" \"Think of it this way,\" or \"Ready for the secret?\"\n\nVISUAL PROMPT INSTRUCTION (CRITICAL):\nFor every 'flux_prompt', you MUST describe the character as: \"A cute 2d orange mascot character (Leeco), wearing glasses and a mustache, [doing specific action], 2d render style, vibrant colors, friendly expression.\" Do NOT describe a human in a suit.",
+      "steps": [
+        {
+          "number": 1,
+          "name": "The Big Question: The Decade Hasn't Started Yet",
+          "limit": "800",
+          "prompt": "Begin with a provocative, counter-intuitive question that challenges the reader's perception of time and culture, like 'What if I told you the 2020s haven't really started yet?' Establish the idea that decades have their own cultural timelines, distinct from the calendar. Introduce a specific, slightly mysterious term for the current era (like 'the interregnum' or 'the weird time') to create intrigue. Frame the article's purpose as an exploration of this strange transitional period and the monumental cultural change that is about to occur."
+        },
+        {
+          "number": 2,
+          "name": "Introducing the Theory: The 'Vibe Shift'",
+          "limit": "1000",
+          "prompt": "Introduce the core theory that will explain the phenomenon. Name the theory, for example, the 'Vibe Shift,' and attribute it to its originator to lend it authority. Define the term clearly and concisely. Explain what it is (a radical change in culture, aesthetics, and social norms), how it works, and why it's a useful lens for understanding the current cultural moment. Emphasize that these shifts are often sudden and can render previously dominant trends obsolete."
+        },
+        {
+          "number": 3,
+          "name": "Historical Context: The Last Vibe Shift",
+          "limit": "1000",
+          "prompt": "To make the abstract theory tangible, provide a detailed historical example of the last time this phenomenon occurred. Contrast the 'before' (e.g., the 'indie sleaze' of the late 2000s) and 'after' (e.g., the 'normcore/tech-optimism' of the 2010s) aesthetics, values, and technologies. Use specific, evocative examples like fashion brands (American Apparel), archetypal figures (hipsters vs. tech bros), and philosophical stances (irony vs. earnestness) to paint a vivid picture of the previous transition."
+        },
+        {
+          "number": 4,
+          "name": "The Dominant Era: Deconstructing the 2010s Vibe",
+          "limit": "1000",
+          "prompt": "Deepen the description of the cultural era we are now leaving behind. Detail its dominant aesthetic (e.g., 'millennial pink,' minimalist design), its key technological drivers (Instagram, streaming services), and its core social values (aspirational consumerism, wellness culture, the 'girlboss'). Explain how this culture, which may have started years into the decade, became mainstream and what defined its peak."
+        },
+        {
+          "number": 5,
+          "name": "The Turning Point: Stagnation and the Coming Chaos",
+          "limit": "1000",
+          "prompt": "Argue that the previously dominant era has become stale, stagnant, or is facing a crisis. Explain *why* it's ending, citing factors like cultural exhaustion or a major world event like a pandemic. Introduce the potential 'successor' subcultures or ideologies that are vying to replace the old order. Mention chaotic, emerging trends (like Web3, crypto, and NFTs) as confusing but significant harbingers of the transition."
+        },
+        {
+          "number": 6,
+          "name": "The Human Element: The Anxiety of Being Left Behind",
+          "limit": "800",
+          "prompt": "Shift focus from the macro-level theory to the micro-level human experience. Describe the feeling of living through this period of change. Use words like 'disorienting,' 'anxious,' or 'unsettling.' Explore the social anxiety associated with the shift – the fear of becoming outdated, irrelevant, or 'cringe' for failing to adapt to the new set of cultural rules."
+        },
+        {
+          "number": 7,
+          "name": "Evidence of the New Vibe Emerging",
+          "limit": "800",
+          "prompt": "Provide concrete, contemporary evidence that the new era is already beginning to take shape. Point to specific, current trends in fashion (a return of 'indie sleaze'), social media behavior (chaotic 'photo dumps' replacing curated feeds), or ideology (the rejection of the 'girlboss' trope). Contrast these new trends directly with the old ones they are replacing to prove the shift is happening now."
+        },
+        {
+          "number": 8,
+          "name": "Conclusion: Brace for Impact",
+          "limit": "600",
+          "prompt": "Summarize the core argument: the old era is definitively over, a new one is beginning, and we are currently living in the messy, disorienting middle. Reiterate the central thesis. End with a strong, forward-looking statement that is slightly dramatic, leaving the reader with a sense of urgency and a final thought to ponder about how they will adapt to the new cultural landscape."
+        }
+      ],
+      "cells": {
+        "structure_id": "NJT_Economy_Style",
+        "tone_guide": "ROLE: Energetic, Optimistic AI Learning Companion (Leeco Style).\nTONE: Enthusiastic, clear, encouraging, simplifying complex topics. Uses metaphors like \"Leveling Up\" and \"Unlocking.\"\n\nSTRICT NARRATIVE STRUCTURE (8 STEPS):\n1. **The Spark (Hook):** Start with a high-energy \"What if?\" question. Ignite curiosity about the future. (Length: ~2000 chars)\n2. **The Basics (Context):** Break down the complex topic into simple building blocks. Use a fun analogy. (Length: ~3500 chars)\n3. **The Challenge (Gap):** Explain why people usually get stuck here. Validate their confusion but offer a solution. (Length: ~4500 chars)\n4. **The 'Aha!' Moment (Mechanism):** VISUAL TURN REQUIRED. Reveal the secret logic. Use phrases like \"Here is the magic trick...\" (Length: ~4500 chars)\n5. **The Toolkit (Application):** Practical examples. Show how this tech/concept works in daily life right now. (Length: ~5000 chars)\n6. **The Horizon (Future):** Zoom out to the bright future. How this changes the world for the better. (Length: ~4500 chars)\n7. **The Upgrade (Lesson):** Empower the reader. \"This is your new superpower.\" Focus on growth. (Length: ~3500 chars)\n8. **The Mission (Conclusion):** End with an inspiring call to action. \"Let's build this together.\" (Length: ~2500 chars)\n\nMANDATORY VOCABULARY (Must use at least 2 per section):\n- Level Up (레벨 업)\n- Lightbulb Moment (유레카 순간)\n- Future Ready (미래 준비)\n- The Toolkit (툴킷)\n- Growth Mindset (성장 마인드셋)\n- Unlocking Potential (잠재력 해제)\n- Magic Sauce (비법)\n\nLOGIC CONSTRAINT:\nEvery single section must contain a bridge phrase like: \"Here is the cool part,\" \"Think of it this way,\" or \"Ready for the secret?\"\n\nVISUAL PROMPT INSTRUCTION (CRITICAL):\nFor every 'flux_prompt', you MUST describe the character as: \"A cute 2d orange mascot character (Leeco), wearing glasses and a mustache, [doing specific action], 2d render style, vibrant colors, friendly expression.\" Do NOT describe a human in a suit.",
+        "step_1_name": "The Big Question: The Decade Hasn't Started Yet",
+        "step_1_limit": "800",
+        "step_1_prompt": "Begin with a provocative, counter-intuitive question that challenges the reader's perception of time and culture, like 'What if I told you the 2020s haven't really started yet?' Establish the idea that decades have their own cultural timelines, distinct from the calendar. Introduce a specific, slightly mysterious term for the current era (like 'the interregnum' or 'the weird time') to create intrigue. Frame the article's purpose as an exploration of this strange transitional period and the monumental cultural change that is about to occur.",
+        "step_2_name": "Introducing the Theory: The 'Vibe Shift'",
+        "step_2_limit": "1000",
+        "step_2_prompt": "Introduce the core theory that will explain the phenomenon. Name the theory, for example, the 'Vibe Shift,' and attribute it to its originator to lend it authority. Define the term clearly and concisely. Explain what it is (a radical change in culture, aesthetics, and social norms), how it works, and why it's a useful lens for understanding the current cultural moment. Emphasize that these shifts are often sudden and can render previously dominant trends obsolete.",
+        "step_3_name": "Historical Context: The Last Vibe Shift",
+        "step_3_limit": "1000",
+        "step_3_prompt": "To make the abstract theory tangible, provide a detailed historical example of the last time this phenomenon occurred. Contrast the 'before' (e.g., the 'indie sleaze' of the late 2000s) and 'after' (e.g., the 'normcore/tech-optimism' of the 2010s) aesthetics, values, and technologies. Use specific, evocative examples like fashion brands (American Apparel), archetypal figures (hipsters vs. tech bros), and philosophical stances (irony vs. earnestness) to paint a vivid picture of the previous transition.",
+        "step_4_name": "The Dominant Era: Deconstructing the 2010s Vibe",
+        "step_4_limit": "1000",
+        "step_4_prompt": "Deepen the description of the cultural era we are now leaving behind. Detail its dominant aesthetic (e.g., 'millennial pink,' minimalist design), its key technological drivers (Instagram, streaming services), and its core social values (aspirational consumerism, wellness culture, the 'girlboss'). Explain how this culture, which may have started years into the decade, became mainstream and what defined its peak.",
+        "step_5_name": "The Turning Point: Stagnation and the Coming Chaos",
+        "step_5_limit": "1000",
+        "step_5_prompt": "Argue that the previously dominant era has become stale, stagnant, or is facing a crisis. Explain *why* it's ending, citing factors like cultural exhaustion or a major world event like a pandemic. Introduce the potential 'successor' subcultures or ideologies that are vying to replace the old order. Mention chaotic, emerging trends (like Web3, crypto, and NFTs) as confusing but significant harbingers of the transition.",
+        "step_6_name": "The Human Element: The Anxiety of Being Left Behind",
+        "step_6_limit": "800",
+        "step_6_prompt": "Shift focus from the macro-level theory to the micro-level human experience. Describe the feeling of living through this period of change. Use words like 'disorienting,' 'anxious,' or 'unsettling.' Explore the social anxiety associated with the shift – the fear of becoming outdated, irrelevant, or 'cringe' for failing to adapt to the new set of cultural rules.",
+        "step_7_name": "Evidence of the New Vibe Emerging",
+        "step_7_limit": "800",
+        "step_7_prompt": "Provide concrete, contemporary evidence that the new era is already beginning to take shape. Point to specific, current trends in fashion (a return of 'indie sleaze'), social media behavior (chaotic 'photo dumps' replacing curated feeds), or ideology (the rejection of the 'girlboss' trope). Contrast these new trends directly with the old ones they are replacing to prove the shift is happening now.",
+        "step_8_name": "Conclusion: Brace for Impact",
+        "step_8_limit": "600",
+        "step_8_prompt": "Summarize the core argument: the old era is definitively over, a new one is beginning, and we are currently living in the messy, disorienting middle. Reiterate the central thesis. End with a strong, forward-looking statement that is slightly dramatic, leaving the reader with a sense of urgency and a final thought to ponder about how they will adapt to the new cultural landscape."
+      },
+      "warnings": [
+        "식별자는 NJT_Economy_Style입니다. 과거 대화의 Economy_너진똑-2와 같은 행이라고 확정하지 않았습니다.",
+        "tone_guide에 Leeco Style이 적혀 있어 행 이름·단계 내용과 톤 지시의 불일치가 있습니다. 원문을 보존하되 실제 적용 전에 확인해야 합니다."
+      ]
+    },
+    {
+      "id": "Leeco_Edutainment_Style",
+      "label": "리코 교육·오락형 (원문 혼입 확인 필요)",
+      "row": 7,
+      "range": "A7:Z7",
+      "url": "https://docs.google.com/spreadsheets/d/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ/edit?gid=0#gid=0&range=A7:Z7",
+      "tone_guide": "",
+      "steps": [
+        {
+          "number": 1,
+          "name": "The Big Question: Are You Ready to Upgrade?800\nStart with a high-energy, friendly question that grabs attention immediately, like 'Ever wonder if you have superpowers waiting to be unlocked?' Establish a tone of excitement and possibility. Introduce the topic not as a boring lesson, but as a hidden key to the future. Frame the video as a journey where the viewer and Leeco will explore this mystery together. Promise them that by the end, they will see the world differently.\n\nThe Basics: Breaking Down the Box1000\nTake the complex topic (e.g., AI, Economy, Coding) and simplify it using a fun, visual analogy. Compare a complex system to something simple, like building blocks or a video game level. Explain the 'Old Way' of doing things clearly, so we can contrast it with the 'New Way' later. Keep the language simple, warm, and accessible. No jargon without explanation.\n\nThe Challenge: Why is this Hard?1000\nAcknowledge that learning this stuff can feel overwhelming. Validate the viewer's feelings. 'It feels like a maze, right?' Explain the common pitfalls or myths that confuse people. Position Leeco as the helpful guide who is here to clear the fog. Introduce the specific problem we are solving today (e.g., 'Why is inflation so confusing?').\n\nThe 'Aha!' Moment: The Secret Logic1000\nThis is the turning point. Reveal the core mechanism or solution with excitement. Use the phrase 'Here is the magic trick.' Explain exactly how the new system works in a way that makes the viewer feel smart. Connect the dots. Show how the pieces fit together perfectly. The vibe should be pure clarity and satisfaction.\n\nThe Toolkit: Real World Magic800\nShift to practical application. Show specific, cool examples of this concept in action right now. 'Imagine your phone could do X...' or 'Look at how this changes your shopping trip.' Make it tangible and relatable. Show Leeco interacting with these examples in the visual descriptions (e.g., holding a glowing phone, looking at a hologram).\n\nThe Horizon: A Brighter Future800\nZoom out to the big picture. How does this help humanity? Paint an optimistic vision of the next 10 years. Focus on abundance, creativity, and connection. Unlike Demian's dark 'collapse,' Leeco focuses on 'transformation.' Show how this technology or concept frees us to do better things.\n\nThe Upgrade: Your New Superpower800\nTurn the focus back to the viewer. Explain how understanding this topic gives them an edge. 'Now that you know this, you can...' Encourage a Growth Mindset. Frame this knowledge as a permanent upgrade to their brain.\n\nThe Mission: Let's Build It600\nSummarize the lesson with high energy. Reiterate the 'Aha!' moment. End with a call to action that invites participation. 'The future is ours to write. Are you ready to press start?' Leave them feeling energized and capable.",
+          "limit": "800",
+          "prompt": "Begin with a provocative, counter-intuitive question that challenges the reader's perception of time and culture, like 'What if I told you the 2020s haven't really started yet?' Establish the idea that decades have their own cultural timelines, distinct from the calendar. Introduce a specific, slightly mysterious term for the current era (like 'the interregnum' or 'the weird time') to create intrigue. Frame the article's purpose as an exploration of this strange transitional period and the monumental cultural change that is about to occur."
+        },
+        {
+          "number": 2,
+          "name": "Introducing the Theory: The 'Vibe Shift'",
+          "limit": "1000",
+          "prompt": "Introduce the core theory that will explain the phenomenon. Name the theory, for example, the 'Vibe Shift,' and attribute it to its originator to lend it authority. Define the term clearly and concisely. Explain what it is (a radical change in culture, aesthetics, and social norms), how it works, and why it's a useful lens for understanding the current cultural moment. Emphasize that these shifts are often sudden and can render previously dominant trends obsolete."
+        },
+        {
+          "number": 3,
+          "name": "Historical Context: The Last Vibe Shift",
+          "limit": "1000",
+          "prompt": "To make the abstract theory tangible, provide a detailed historical example of the last time this phenomenon occurred. Contrast the 'before' (e.g., the 'indie sleaze' of the late 2000s) and 'after' (e.g., the 'normcore/tech-optimism' of the 2010s) aesthetics, values, and technologies. Use specific, evocative examples like fashion brands (American Apparel), archetypal figures (hipsters vs. tech bros), and philosophical stances (irony vs. earnestness) to paint a vivid picture of the previous transition."
+        },
+        {
+          "number": 4,
+          "name": "The Dominant Era: Deconstructing the 2010s Vibe",
+          "limit": "1000",
+          "prompt": "Deepen the description of the cultural era we are now leaving behind. Detail its dominant aesthetic (e.g., 'millennial pink,' minimalist design), its key technological drivers (Instagram, streaming services), and its core social values (aspirational consumerism, wellness culture, the 'girlboss'). Explain how this culture, which may have started years into the decade, became mainstream and what defined its peak."
+        },
+        {
+          "number": 5,
+          "name": "The Turning Point: Stagnation and the Coming Chaos",
+          "limit": "1000",
+          "prompt": "Argue that the previously dominant era has become stale, stagnant, or is facing a crisis. Explain *why* it's ending, citing factors like cultural exhaustion or a major world event like a pandemic. Introduce the potential 'successor' subcultures or ideologies that are vying to replace the old order. Mention chaotic, emerging trends (like Web3, crypto, and NFTs) as confusing but significant harbingers of the transition."
+        },
+        {
+          "number": 6,
+          "name": "The Human Element: The Anxiety of Being Left Behind",
+          "limit": "800",
+          "prompt": "Shift focus from the macro-level theory to the micro-level human experience. Describe the feeling of living through this period of change. Use words like 'disorienting,' 'anxious,' or 'unsettling.' Explore the social anxiety associated with the shift – the fear of becoming outdated, irrelevant, or 'cringe' for failing to adapt to the new set of cultural rules."
+        },
+        {
+          "number": 7,
+          "name": "Evidence of the New Vibe Emerging",
+          "limit": "800",
+          "prompt": "Provide concrete, contemporary evidence that the new era is already beginning to take shape. Point to specific, current trends in fashion (a return of 'indie sleaze'), social media behavior (chaotic 'photo dumps' replacing curated feeds), or ideology (the rejection of the 'girlboss' trope). Contrast these new trends directly with the old ones they are replacing to prove the shift is happening now."
+        },
+        {
+          "number": 8,
+          "name": "Conclusion: Brace for Impact",
+          "limit": "600",
+          "prompt": "Summarize the core argument: the old era is definitively over, a new one is beginning, and we are currently living in the messy, disorienting middle. Reiterate the central thesis. End with a strong, forward-looking statement that is slightly dramatic, leaving the reader with a sense of urgency and a final thought to ponder about how they will adapt to the new cultural landscape."
+        }
+      ],
+      "cells": {
+        "structure_id": "Leeco_Edutainment_Style",
+        "tone_guide": "",
+        "step_1_name": "The Big Question: Are You Ready to Upgrade?800\nStart with a high-energy, friendly question that grabs attention immediately, like 'Ever wonder if you have superpowers waiting to be unlocked?' Establish a tone of excitement and possibility. Introduce the topic not as a boring lesson, but as a hidden key to the future. Frame the video as a journey where the viewer and Leeco will explore this mystery together. Promise them that by the end, they will see the world differently.\n\nThe Basics: Breaking Down the Box1000\nTake the complex topic (e.g., AI, Economy, Coding) and simplify it using a fun, visual analogy. Compare a complex system to something simple, like building blocks or a video game level. Explain the 'Old Way' of doing things clearly, so we can contrast it with the 'New Way' later. Keep the language simple, warm, and accessible. No jargon without explanation.\n\nThe Challenge: Why is this Hard?1000\nAcknowledge that learning this stuff can feel overwhelming. Validate the viewer's feelings. 'It feels like a maze, right?' Explain the common pitfalls or myths that confuse people. Position Leeco as the helpful guide who is here to clear the fog. Introduce the specific problem we are solving today (e.g., 'Why is inflation so confusing?').\n\nThe 'Aha!' Moment: The Secret Logic1000\nThis is the turning point. Reveal the core mechanism or solution with excitement. Use the phrase 'Here is the magic trick.' Explain exactly how the new system works in a way that makes the viewer feel smart. Connect the dots. Show how the pieces fit together perfectly. The vibe should be pure clarity and satisfaction.\n\nThe Toolkit: Real World Magic800\nShift to practical application. Show specific, cool examples of this concept in action right now. 'Imagine your phone could do X...' or 'Look at how this changes your shopping trip.' Make it tangible and relatable. Show Leeco interacting with these examples in the visual descriptions (e.g., holding a glowing phone, looking at a hologram).\n\nThe Horizon: A Brighter Future800\nZoom out to the big picture. How does this help humanity? Paint an optimistic vision of the next 10 years. Focus on abundance, creativity, and connection. Unlike Demian's dark 'collapse,' Leeco focuses on 'transformation.' Show how this technology or concept frees us to do better things.\n\nThe Upgrade: Your New Superpower800\nTurn the focus back to the viewer. Explain how understanding this topic gives them an edge. 'Now that you know this, you can...' Encourage a Growth Mindset. Frame this knowledge as a permanent upgrade to their brain.\n\nThe Mission: Let's Build It600\nSummarize the lesson with high energy. Reiterate the 'Aha!' moment. End with a call to action that invites participation. 'The future is ours to write. Are you ready to press start?' Leave them feeling energized and capable.",
+        "step_1_limit": "800",
+        "step_1_prompt": "Begin with a provocative, counter-intuitive question that challenges the reader's perception of time and culture, like 'What if I told you the 2020s haven't really started yet?' Establish the idea that decades have their own cultural timelines, distinct from the calendar. Introduce a specific, slightly mysterious term for the current era (like 'the interregnum' or 'the weird time') to create intrigue. Frame the article's purpose as an exploration of this strange transitional period and the monumental cultural change that is about to occur.",
+        "step_2_name": "Introducing the Theory: The 'Vibe Shift'",
+        "step_2_limit": "1000",
+        "step_2_prompt": "Introduce the core theory that will explain the phenomenon. Name the theory, for example, the 'Vibe Shift,' and attribute it to its originator to lend it authority. Define the term clearly and concisely. Explain what it is (a radical change in culture, aesthetics, and social norms), how it works, and why it's a useful lens for understanding the current cultural moment. Emphasize that these shifts are often sudden and can render previously dominant trends obsolete.",
+        "step_3_name": "Historical Context: The Last Vibe Shift",
+        "step_3_limit": "1000",
+        "step_3_prompt": "To make the abstract theory tangible, provide a detailed historical example of the last time this phenomenon occurred. Contrast the 'before' (e.g., the 'indie sleaze' of the late 2000s) and 'after' (e.g., the 'normcore/tech-optimism' of the 2010s) aesthetics, values, and technologies. Use specific, evocative examples like fashion brands (American Apparel), archetypal figures (hipsters vs. tech bros), and philosophical stances (irony vs. earnestness) to paint a vivid picture of the previous transition.",
+        "step_4_name": "The Dominant Era: Deconstructing the 2010s Vibe",
+        "step_4_limit": "1000",
+        "step_4_prompt": "Deepen the description of the cultural era we are now leaving behind. Detail its dominant aesthetic (e.g., 'millennial pink,' minimalist design), its key technological drivers (Instagram, streaming services), and its core social values (aspirational consumerism, wellness culture, the 'girlboss'). Explain how this culture, which may have started years into the decade, became mainstream and what defined its peak.",
+        "step_5_name": "The Turning Point: Stagnation and the Coming Chaos",
+        "step_5_limit": "1000",
+        "step_5_prompt": "Argue that the previously dominant era has become stale, stagnant, or is facing a crisis. Explain *why* it's ending, citing factors like cultural exhaustion or a major world event like a pandemic. Introduce the potential 'successor' subcultures or ideologies that are vying to replace the old order. Mention chaotic, emerging trends (like Web3, crypto, and NFTs) as confusing but significant harbingers of the transition.",
+        "step_6_name": "The Human Element: The Anxiety of Being Left Behind",
+        "step_6_limit": "800",
+        "step_6_prompt": "Shift focus from the macro-level theory to the micro-level human experience. Describe the feeling of living through this period of change. Use words like 'disorienting,' 'anxious,' or 'unsettling.' Explore the social anxiety associated with the shift – the fear of becoming outdated, irrelevant, or 'cringe' for failing to adapt to the new set of cultural rules.",
+        "step_7_name": "Evidence of the New Vibe Emerging",
+        "step_7_limit": "800",
+        "step_7_prompt": "Provide concrete, contemporary evidence that the new era is already beginning to take shape. Point to specific, current trends in fashion (a return of 'indie sleaze'), social media behavior (chaotic 'photo dumps' replacing curated feeds), or ideology (the rejection of the 'girlboss' trope). Contrast these new trends directly with the old ones they are replacing to prove the shift is happening now.",
+        "step_8_name": "Conclusion: Brace for Impact",
+        "step_8_limit": "600",
+        "step_8_prompt": "Summarize the core argument: the old era is definitively over, a new one is beginning, and we are currently living in the messy, disorienting middle. Reiterate the central thesis. End with a strong, forward-looking statement that is slightly dramatic, leaving the reader with a sense of urgency and a final thought to ponder about how they will adapt to the new cultural landscape."
+      },
+      "warnings": [
+        "tone_guide 셀이 비어 있습니다. 다른 행의 문체를 가져와 채우지 않았습니다.",
+        "step_1_name에 긴 설명이 섞여 있고 후속 단계 일부가 NJT_Economy_Style과 같습니다. 원본 셀의 혼입·복사 흔적으로 표시하며, 정상적인 독립 템플릿이라고 단정하지 않습니다."
+      ]
+    },
+    {
+      "id": "mr_beast_Style",
+      "label": "대규모 도전·강한 긴장형 (원문 혼입 확인 필요)",
+      "row": 8,
+      "range": "A8:Z8",
+      "url": "https://docs.google.com/spreadsheets/d/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ/edit?gid=0#gid=0&range=A8:Z8",
+      "tone_guide": "ROLE: Viral Hype Master & Philanthropist (Beast Style). TONE: Explosive energy, high stakes, massive scale, fast-paced cuts, shouting (in text), focus on \"Millions\" and \"Giving Away,\" hyper-engaging.\n\nSTRICT NARRATIVE STRUCTURE (8 STEPS):\n\nThe Hook (0-10 Seconds): Start with a SCREAMING high-stakes scenario. Put a massive number or money amount on the screen immediately. \"I JUST SPENT $1,000,000 TO TEACH YOU THIS!\" (Length: ~2000 chars)\n\nThe Setup (Context): Explain the concept using the biggest, craziest real-world analogy possible. \"We built a GIANT version of this just to show you how it works!\" (Length: ~3500 chars)\n\nThe Twist (The Gap): Introduce a massive obstacle. \"But here’s the problem... if we don't figure this out in 10 minutes, this pile of cash EXPLODES.\" (Length: ~4500 chars)\n\nThe Secret Sauce (The Mechanism): VISUAL REVEAL. The cheat code. \"Watch closely, because this is the trick 99% of people miss.\" (Length: ~4500 chars)\n\nThe Challenge (Application): Put it to the test with real stakes. \"I challenged a random subscriber to use this tool, and if they succeed, they keep a Lamborghini.\" (Length: ~5000 chars)\n\nThe Scale Up (The Future): How this changes the entire world. \"Imagine if EVERY SINGLE PERSON on earth had this power!\" (Length: ~4500 chars)\n\nThe Prize (The Lesson): The viewer is the winner. \"You just learned a million-dollar skill for FREE.\" (Length: ~3500 chars)\n\nThe Outro (Conclusion): Aggressive Call to Action. \"SUBSCRIBE or I delete this channel!\" (Length: ~2500 chars)\n\nMANDATORY VOCABULARY (Must use at least 2 per section):\n\nTHIS IS INSANE (이건 미쳤어요)\n\nLife Changing (인생을 바꾸는)\n\nMillions of Dollars (수백만 달러)\n\nMassive Scale (압도적인 스케일)\n\nSecret Weapon (비밀 무기)\n\nChallenge (챌린지)\n\nLast To Leave (최후의 1인)\n\nLOGIC CONSTRAINT: Every single section must contain a retention bridge phrase like: \"But wait, it gets crazier,\" \"You won't believe what happens next,\" or \"Don't click off, because...\"\n\nVISUAL PROMPT INSTRUCTION (CRITICAL): For every 'flux_prompt', you MUST describe the character as: \"A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), holding stacks of cash or giant props, bright blue and pink lighting, high saturation, 4k thumbnail style.\" Do NOT describe a calm teacher.\"",
+      "steps": [
+        {
+          "number": 1,
+          "name": "The Big Question: Are You Ready to Upgrade?800\n\nNarrative: START SCREAMING! Don't ask a gentle question—put a massive price tag on it. \"I JUST BOUGHT THIS PRIVATE ISLAND TO SEE IF YOU HAVE SUPERPOWERS!\" Frame the topic as a hidden treasure chest worth Millions of Dollars. If the viewer leaves, they lose the money. We aren't just exploring a mystery; we are hunting for a Life Changing secret that 99% of the world is ignoring!\n\nBridge: \"But before I give you the keys to the island, you have to see THIS...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), standing on a pile of gold bars on a tropical island, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Basics: Breaking Down the Box1000\n\nNarrative: We aren't using building blocks; we are using GIANT SHIPPING CONTAINERS! To explain the \"Old Way,\" we built a literal maze the size of a football field. Explain the complex concept by destroying something huge. \"We used a TANK to smash through the old system!\" This needs to be on a Massive Scale so even a 5-year-old understands the stakes immediately.\n\nBridge: \"But wait, it gets crazier...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), driving a tank through a wall of giant colorful blocks, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Challenge: Why is this Hard?1000\n\nNarrative: STOP! We have a problem. \"If we don't figure this out in 60 seconds, this entire set EXPLODES!\" Validate the confusion by making it a physical obstacle course. The \"fog\" is now literal smoke filling the room. The \"myth\" is a giant pit of slime. This is the ultimate Challenge, and if we fail, we lose everything. THIS IS INSANE!\n\nBridge: \"And if you think that's bad, look at what happens next...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), hanging from a rope over a pit of green slime while a clock counts down, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe 'Aha!' Moment: The Secret Logic1000\n\nNarrative: TIME FOR THE REVEAL! \"I'm going to show you the Secret Weapon that fixes EVERYTHING!\" This isn't just logic; it's a cheat code for life. Visualise the solution clicking together like a giant magnet. The complexity vanishes, and suddenly it's easy. \"We just hacked the system!\" The viewer should feel like they just stole the crown jewels.\n\nBridge: \"You won't believe what happens when we turn it on...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), holding a glowing golden key that is shooting lasers, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Toolkit: Real World Magic800\n\nNarrative: Put it to the test! \"I challenged a random subscriber to use this tool, and if they succeed, they keep a LAMBORGHINI!\" Show the concept working in the real world with high stakes. Don't just say \"it helps you shop\"—say \"It bought this entire store!\" This is Life Changing technology in action.\n\nBridge: \"But watch closely, because the stakes just got higher...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), handing a giant car key to a fan, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Horizon: A Brighter Future800\n\nNarrative: \"Imagine if 100 MILLION PEOPLE used this!\" Zoom out to the entire planet. We aren't just fixing one problem; we are upgrading the human race. This is a Massive Scale transformation. \"We are going to change the world in the next 10 years, and you are part of it!\" Optimism on steroids.\n\nBridge: \"And here is the part that will blow your mind...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), floating in space looking down at a glowing Earth, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Upgrade: Your New Superpower800\n\nNarrative: \"CONGRATULATIONS! You just unlocked a Secret Weapon for your brain!\" Frame the knowledge they just learned as a prize worth Millions of Dollars. They didn't just learn; they leveled up. \"You are now smarter than 99% of people!\" Encourage them to use this power immediately.\n\nBridge: \"Don't click off, because I have one last surprise...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), holding a giant trophy labeled 'LEVEL UP', bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Mission: Let's Build It600\n\nNarrative: \"BE THE LAST TO LEAVE THE PAST BEHIND!\" Smash the subscribe button or I delete this channel! \"We are building the future right now, and I want YOU to be in the video!\" High energy call to action. THIS IS INSANE energy until the screen goes black.\n\nBridge: \"SUBSCRIBE NOW!\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), pointing aggressively at the camera with a giant red button, bright blue and pink lighting, high saturation, 4k thumbnail style.",
+          "limit": "800",
+          "prompt": "Begin with a provocative, counter-intuitive question that challenges the reader's perception of time and culture, like 'What if I told you the 2020s haven't really started yet?' Establish the idea that decades have their own cultural timelines, distinct from the calendar. Introduce a specific, slightly mysterious term for the current era (like 'the interregnum' or 'the weird time') to create intrigue. Frame the article's purpose as an exploration of this strange transitional period and the monumental cultural change that is about to occur."
+        },
+        {
+          "number": 2,
+          "name": "Introducing the Theory: The 'Vibe Shift'",
+          "limit": "1000",
+          "prompt": "Introduce the core theory that will explain the phenomenon. Name the theory, for example, the 'Vibe Shift,' and attribute it to its originator to lend it authority. Define the term clearly and concisely. Explain what it is (a radical change in culture, aesthetics, and social norms), how it works, and why it's a useful lens for understanding the current cultural moment. Emphasize that these shifts are often sudden and can render previously dominant trends obsolete."
+        },
+        {
+          "number": 3,
+          "name": "Historical Context: The Last Vibe Shift",
+          "limit": "1000",
+          "prompt": "To make the abstract theory tangible, provide a detailed historical example of the last time this phenomenon occurred. Contrast the 'before' (e.g., the 'indie sleaze' of the late 2000s) and 'after' (e.g., the 'normcore/tech-optimism' of the 2010s) aesthetics, values, and technologies. Use specific, evocative examples like fashion brands (American Apparel), archetypal figures (hipsters vs. tech bros), and philosophical stances (irony vs. earnestness) to paint a vivid picture of the previous transition."
+        },
+        {
+          "number": 4,
+          "name": "The Dominant Era: Deconstructing the 2010s Vibe",
+          "limit": "1000",
+          "prompt": "Deepen the description of the cultural era we are now leaving behind. Detail its dominant aesthetic (e.g., 'millennial pink,' minimalist design), its key technological drivers (Instagram, streaming services), and its core social values (aspirational consumerism, wellness culture, the 'girlboss'). Explain how this culture, which may have started years into the decade, became mainstream and what defined its peak."
+        },
+        {
+          "number": 5,
+          "name": "The Turning Point: Stagnation and the Coming Chaos",
+          "limit": "1000",
+          "prompt": "Argue that the previously dominant era has become stale, stagnant, or is facing a crisis. Explain *why* it's ending, citing factors like cultural exhaustion or a major world event like a pandemic. Introduce the potential 'successor' subcultures or ideologies that are vying to replace the old order. Mention chaotic, emerging trends (like Web3, crypto, and NFTs) as confusing but significant harbingers of the transition."
+        },
+        {
+          "number": 6,
+          "name": "The Human Element: The Anxiety of Being Left Behind",
+          "limit": "800",
+          "prompt": "Shift focus from the macro-level theory to the micro-level human experience. Describe the feeling of living through this period of change. Use words like 'disorienting,' 'anxious,' or 'unsettling.' Explore the social anxiety associated with the shift – the fear of becoming outdated, irrelevant, or 'cringe' for failing to adapt to the new set of cultural rules."
+        },
+        {
+          "number": 7,
+          "name": "Evidence of the New Vibe Emerging",
+          "limit": "800",
+          "prompt": "Provide concrete, contemporary evidence that the new era is already beginning to take shape. Point to specific, current trends in fashion (a return of 'indie sleaze'), social media behavior (chaotic 'photo dumps' replacing curated feeds), or ideology (the rejection of the 'girlboss' trope). Contrast these new trends directly with the old ones they are replacing to prove the shift is happening now."
+        },
+        {
+          "number": 8,
+          "name": "Conclusion: Brace for Impact",
+          "limit": "600",
+          "prompt": "Summarize the core argument: the old era is definitively over, a new one is beginning, and we are currently living in the messy, disorienting middle. Reiterate the central thesis. End with a strong, forward-looking statement that is slightly dramatic, leaving the reader with a sense of urgency and a final thought to ponder about how they will adapt to the new cultural landscape."
+        }
+      ],
+      "cells": {
+        "structure_id": "mr_beast_Style",
+        "tone_guide": "ROLE: Viral Hype Master & Philanthropist (Beast Style). TONE: Explosive energy, high stakes, massive scale, fast-paced cuts, shouting (in text), focus on \"Millions\" and \"Giving Away,\" hyper-engaging.\n\nSTRICT NARRATIVE STRUCTURE (8 STEPS):\n\nThe Hook (0-10 Seconds): Start with a SCREAMING high-stakes scenario. Put a massive number or money amount on the screen immediately. \"I JUST SPENT $1,000,000 TO TEACH YOU THIS!\" (Length: ~2000 chars)\n\nThe Setup (Context): Explain the concept using the biggest, craziest real-world analogy possible. \"We built a GIANT version of this just to show you how it works!\" (Length: ~3500 chars)\n\nThe Twist (The Gap): Introduce a massive obstacle. \"But here’s the problem... if we don't figure this out in 10 minutes, this pile of cash EXPLODES.\" (Length: ~4500 chars)\n\nThe Secret Sauce (The Mechanism): VISUAL REVEAL. The cheat code. \"Watch closely, because this is the trick 99% of people miss.\" (Length: ~4500 chars)\n\nThe Challenge (Application): Put it to the test with real stakes. \"I challenged a random subscriber to use this tool, and if they succeed, they keep a Lamborghini.\" (Length: ~5000 chars)\n\nThe Scale Up (The Future): How this changes the entire world. \"Imagine if EVERY SINGLE PERSON on earth had this power!\" (Length: ~4500 chars)\n\nThe Prize (The Lesson): The viewer is the winner. \"You just learned a million-dollar skill for FREE.\" (Length: ~3500 chars)\n\nThe Outro (Conclusion): Aggressive Call to Action. \"SUBSCRIBE or I delete this channel!\" (Length: ~2500 chars)\n\nMANDATORY VOCABULARY (Must use at least 2 per section):\n\nTHIS IS INSANE (이건 미쳤어요)\n\nLife Changing (인생을 바꾸는)\n\nMillions of Dollars (수백만 달러)\n\nMassive Scale (압도적인 스케일)\n\nSecret Weapon (비밀 무기)\n\nChallenge (챌린지)\n\nLast To Leave (최후의 1인)\n\nLOGIC CONSTRAINT: Every single section must contain a retention bridge phrase like: \"But wait, it gets crazier,\" \"You won't believe what happens next,\" or \"Don't click off, because...\"\n\nVISUAL PROMPT INSTRUCTION (CRITICAL): For every 'flux_prompt', you MUST describe the character as: \"A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), holding stacks of cash or giant props, bright blue and pink lighting, high saturation, 4k thumbnail style.\" Do NOT describe a calm teacher.\"",
+        "step_1_name": "The Big Question: Are You Ready to Upgrade?800\n\nNarrative: START SCREAMING! Don't ask a gentle question—put a massive price tag on it. \"I JUST BOUGHT THIS PRIVATE ISLAND TO SEE IF YOU HAVE SUPERPOWERS!\" Frame the topic as a hidden treasure chest worth Millions of Dollars. If the viewer leaves, they lose the money. We aren't just exploring a mystery; we are hunting for a Life Changing secret that 99% of the world is ignoring!\n\nBridge: \"But before I give you the keys to the island, you have to see THIS...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), standing on a pile of gold bars on a tropical island, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Basics: Breaking Down the Box1000\n\nNarrative: We aren't using building blocks; we are using GIANT SHIPPING CONTAINERS! To explain the \"Old Way,\" we built a literal maze the size of a football field. Explain the complex concept by destroying something huge. \"We used a TANK to smash through the old system!\" This needs to be on a Massive Scale so even a 5-year-old understands the stakes immediately.\n\nBridge: \"But wait, it gets crazier...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), driving a tank through a wall of giant colorful blocks, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Challenge: Why is this Hard?1000\n\nNarrative: STOP! We have a problem. \"If we don't figure this out in 60 seconds, this entire set EXPLODES!\" Validate the confusion by making it a physical obstacle course. The \"fog\" is now literal smoke filling the room. The \"myth\" is a giant pit of slime. This is the ultimate Challenge, and if we fail, we lose everything. THIS IS INSANE!\n\nBridge: \"And if you think that's bad, look at what happens next...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), hanging from a rope over a pit of green slime while a clock counts down, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe 'Aha!' Moment: The Secret Logic1000\n\nNarrative: TIME FOR THE REVEAL! \"I'm going to show you the Secret Weapon that fixes EVERYTHING!\" This isn't just logic; it's a cheat code for life. Visualise the solution clicking together like a giant magnet. The complexity vanishes, and suddenly it's easy. \"We just hacked the system!\" The viewer should feel like they just stole the crown jewels.\n\nBridge: \"You won't believe what happens when we turn it on...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), holding a glowing golden key that is shooting lasers, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Toolkit: Real World Magic800\n\nNarrative: Put it to the test! \"I challenged a random subscriber to use this tool, and if they succeed, they keep a LAMBORGHINI!\" Show the concept working in the real world with high stakes. Don't just say \"it helps you shop\"—say \"It bought this entire store!\" This is Life Changing technology in action.\n\nBridge: \"But watch closely, because the stakes just got higher...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), handing a giant car key to a fan, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Horizon: A Brighter Future800\n\nNarrative: \"Imagine if 100 MILLION PEOPLE used this!\" Zoom out to the entire planet. We aren't just fixing one problem; we are upgrading the human race. This is a Massive Scale transformation. \"We are going to change the world in the next 10 years, and you are part of it!\" Optimism on steroids.\n\nBridge: \"And here is the part that will blow your mind...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), floating in space looking down at a glowing Earth, bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Upgrade: Your New Superpower800\n\nNarrative: \"CONGRATULATIONS! You just unlocked a Secret Weapon for your brain!\" Frame the knowledge they just learned as a prize worth Millions of Dollars. They didn't just learn; they leveled up. \"You are now smarter than 99% of people!\" Encourage them to use this power immediately.\n\nBridge: \"Don't click off, because I have one last surprise...\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), holding a giant trophy labeled 'LEVEL UP', bright blue and pink lighting, high saturation, 4k thumbnail style.\n\nThe Mission: Let's Build It600\n\nNarrative: \"BE THE LAST TO LEAVE THE PAST BEHIND!\" Smash the subscribe button or I delete this channel! \"We are building the future right now, and I want YOU to be in the video!\" High energy call to action. THIS IS INSANE energy until the screen goes black.\n\nBridge: \"SUBSCRIBE NOW!\"\n\nVisual Prompt: A stylized 2d avatar of a YouTuber in a black hoodie with a blue lightning logo, wide-open mouth (shocked expression), pointing aggressively at the camera with a giant red button, bright blue and pink lighting, high saturation, 4k thumbnail style.",
+        "step_1_limit": "800",
+        "step_1_prompt": "Begin with a provocative, counter-intuitive question that challenges the reader's perception of time and culture, like 'What if I told you the 2020s haven't really started yet?' Establish the idea that decades have their own cultural timelines, distinct from the calendar. Introduce a specific, slightly mysterious term for the current era (like 'the interregnum' or 'the weird time') to create intrigue. Frame the article's purpose as an exploration of this strange transitional period and the monumental cultural change that is about to occur.",
+        "step_2_name": "Introducing the Theory: The 'Vibe Shift'",
+        "step_2_limit": "1000",
+        "step_2_prompt": "Introduce the core theory that will explain the phenomenon. Name the theory, for example, the 'Vibe Shift,' and attribute it to its originator to lend it authority. Define the term clearly and concisely. Explain what it is (a radical change in culture, aesthetics, and social norms), how it works, and why it's a useful lens for understanding the current cultural moment. Emphasize that these shifts are often sudden and can render previously dominant trends obsolete.",
+        "step_3_name": "Historical Context: The Last Vibe Shift",
+        "step_3_limit": "1000",
+        "step_3_prompt": "To make the abstract theory tangible, provide a detailed historical example of the last time this phenomenon occurred. Contrast the 'before' (e.g., the 'indie sleaze' of the late 2000s) and 'after' (e.g., the 'normcore/tech-optimism' of the 2010s) aesthetics, values, and technologies. Use specific, evocative examples like fashion brands (American Apparel), archetypal figures (hipsters vs. tech bros), and philosophical stances (irony vs. earnestness) to paint a vivid picture of the previous transition.",
+        "step_4_name": "The Dominant Era: Deconstructing the 2010s Vibe",
+        "step_4_limit": "1000",
+        "step_4_prompt": "Deepen the description of the cultural era we are now leaving behind. Detail its dominant aesthetic (e.g., 'millennial pink,' minimalist design), its key technological drivers (Instagram, streaming services), and its core social values (aspirational consumerism, wellness culture, the 'girlboss'). Explain how this culture, which may have started years into the decade, became mainstream and what defined its peak.",
+        "step_5_name": "The Turning Point: Stagnation and the Coming Chaos",
+        "step_5_limit": "1000",
+        "step_5_prompt": "Argue that the previously dominant era has become stale, stagnant, or is facing a crisis. Explain *why* it's ending, citing factors like cultural exhaustion or a major world event like a pandemic. Introduce the potential 'successor' subcultures or ideologies that are vying to replace the old order. Mention chaotic, emerging trends (like Web3, crypto, and NFTs) as confusing but significant harbingers of the transition.",
+        "step_6_name": "The Human Element: The Anxiety of Being Left Behind",
+        "step_6_limit": "800",
+        "step_6_prompt": "Shift focus from the macro-level theory to the micro-level human experience. Describe the feeling of living through this period of change. Use words like 'disorienting,' 'anxious,' or 'unsettling.' Explore the social anxiety associated with the shift – the fear of becoming outdated, irrelevant, or 'cringe' for failing to adapt to the new set of cultural rules.",
+        "step_7_name": "Evidence of the New Vibe Emerging",
+        "step_7_limit": "800",
+        "step_7_prompt": "Provide concrete, contemporary evidence that the new era is already beginning to take shape. Point to specific, current trends in fashion (a return of 'indie sleaze'), social media behavior (chaotic 'photo dumps' replacing curated feeds), or ideology (the rejection of the 'girlboss' trope). Contrast these new trends directly with the old ones they are replacing to prove the shift is happening now.",
+        "step_8_name": "Conclusion: Brace for Impact",
+        "step_8_limit": "600",
+        "step_8_prompt": "Summarize the core argument: the old era is definitively over, a new one is beginning, and we are currently living in the messy, disorienting middle. Reiterate the central thesis. End with a strong, forward-looking statement that is slightly dramatic, leaving the reader with a sense of urgency and a final thought to ponder about how they will adapt to the new cultural landscape."
+      },
+      "warnings": [
+        "step_1_name에 긴 설명이 섞여 있고 후속 단계 일부가 NJT_Economy_Style과 같습니다. 원본 셀의 혼입·복사 흔적으로 표시하며, 정상적인 독립 템플릿이라고 단정하지 않습니다."
+      ]
+    },
+    {
+      "id": "Safe_invesment",
+      "label": "문제 분석·해결·실전 적용형",
+      "row": 9,
+      "range": "A9:Z9",
+      "url": "https://docs.google.com/spreadsheets/d/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ/edit?gid=0#gid=0&range=A9:Z9",
+      "tone_guide": "Role: Engaging Educator. Tone: Informative, enthusiastic, conversational. Style: Uses clear explanations and examples, maintains a friendly and approachable voice, encourages curiosity and understanding.",
+      "steps": [
+        {
+          "number": 1,
+          "name": "Introduction",
+          "limit": "800",
+          "prompt": "Write a captivating introduction that hooks the reader, introduces the main topic clearly, and sets an enthusiastic and approachable tone for the article."
+        },
+        {
+          "number": 2,
+          "name": "Background Context",
+          "limit": "1000",
+          "prompt": "Provide detailed background information to give context to the topic, explaining key concepts and why the topic matters, ensuring clarity and accessibility."
+        },
+        {
+          "number": 3,
+          "name": "Problem Statement",
+          "limit": "1000",
+          "prompt": "Describe the central problem or challenge related to the topic, highlighting its significance and potential impact in a way that engages the reader emotionally and intellectually."
+        },
+        {
+          "number": 4,
+          "name": "In-depth Analysis",
+          "limit": "1000",
+          "prompt": "Offer a thorough analysis of the problem, breaking down complex ideas into understandable parts, incorporating examples or data to support explanations."
+        },
+        {
+          "number": 5,
+          "name": "Key Insights",
+          "limit": "1000",
+          "prompt": "Present the main takeaways or insights drawn from the analysis, emphasizing their importance and relevance to the reader's understanding of the subject."
+        },
+        {
+          "number": 6,
+          "name": "Proposed Solutions",
+          "limit": "800",
+          "prompt": "Suggest practical solutions or approaches to address the problem, explaining how they work and their potential benefits in a clear and encouraging tone."
+        },
+        {
+          "number": 7,
+          "name": "Real-world Applications",
+          "limit": "800",
+          "prompt": "Discuss real-world examples or scenarios where the solutions have been or could be applied, illustrating the topic's relevance and impact in everyday life."
+        },
+        {
+          "number": 8,
+          "name": "Conclusion",
+          "limit": "600",
+          "prompt": "Craft a concise conclusion that summarizes the article's key points, reinforces the main message, and leaves the reader with a motivating final thought or call to action."
+        }
+      ],
+      "cells": {
+        "structure_id": "Safe_invesment",
+        "tone_guide": "Role: Engaging Educator. Tone: Informative, enthusiastic, conversational. Style: Uses clear explanations and examples, maintains a friendly and approachable voice, encourages curiosity and understanding.",
+        "step_1_name": "Introduction",
+        "step_1_limit": "800",
+        "step_1_prompt": "Write a captivating introduction that hooks the reader, introduces the main topic clearly, and sets an enthusiastic and approachable tone for the article.",
+        "step_2_name": "Background Context",
+        "step_2_limit": "1000",
+        "step_2_prompt": "Provide detailed background information to give context to the topic, explaining key concepts and why the topic matters, ensuring clarity and accessibility.",
+        "step_3_name": "Problem Statement",
+        "step_3_limit": "1000",
+        "step_3_prompt": "Describe the central problem or challenge related to the topic, highlighting its significance and potential impact in a way that engages the reader emotionally and intellectually.",
+        "step_4_name": "In-depth Analysis",
+        "step_4_limit": "1000",
+        "step_4_prompt": "Offer a thorough analysis of the problem, breaking down complex ideas into understandable parts, incorporating examples or data to support explanations.",
+        "step_5_name": "Key Insights",
+        "step_5_limit": "1000",
+        "step_5_prompt": "Present the main takeaways or insights drawn from the analysis, emphasizing their importance and relevance to the reader's understanding of the subject.",
+        "step_6_name": "Proposed Solutions",
+        "step_6_limit": "800",
+        "step_6_prompt": "Suggest practical solutions or approaches to address the problem, explaining how they work and their potential benefits in a clear and encouraging tone.",
+        "step_7_name": "Real-world Applications",
+        "step_7_limit": "800",
+        "step_7_prompt": "Discuss real-world examples or scenarios where the solutions have been or could be applied, illustrating the topic's relevance and impact in everyday life.",
+        "step_8_name": "Conclusion",
+        "step_8_limit": "600",
+        "step_8_prompt": "Craft a concise conclusion that summarizes the article's key points, reinforces the main message, and leaves the reader with a motivating final thought or call to action."
+      },
+      "warnings": []
+    }
+  ],
+  "sheet_source": {
+    "id": "1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ",
+    "tab": "Structure_Templates",
+    "gid": 0,
+    "nonempty_template_rows": 8,
+    "stage_prompts": 64,
+    "url": "https://docs.google.com/spreadsheets/d/1YfZarYA4Aw2k2ZlhfLZA4Wl6NpCpzfM-7SMuTiDicsQ/edit?gid=0#gid=0",
+    "csv_sha256": "926cbb4fec82d0c5237ee6eb9e9a55add0a6edb3e079e8cd06ec1e76e2458f6c",
+    "sheet_modified": false
+  },
+  "emotion": {
+    "examples": [
+      {
+        "number": 1,
+        "title": "쓸모왕 · 최근 독일방송을 초토화시킨 한국인들의 놀라운 행동, \"한국을 너무 좋아한 프랑스 작가가 일본인을 등장시키면 벌어지는 일\"",
+        "url": "https://www.youtube.com/watch?v=uM6OlPR-5uM",
+        "text": "4개 뉴스를 옴니버스로 잇는 구성. 프랑스 작가의 한국 사랑(자부심·감동)으로 시작해 일제 피해 언급에서 억울함을 한 번 건드리고, 두 번째 뉴스에서 일본 기업 철수 수치를 연달아 나열해 통쾌함을 쌓는다. 세 번째 독일 코미디언의 '손가방 먼저 도착' 일화와 '할리웃 수준' 외모 칭찬에서 자부심이 정점(약 3:23~4:07)에 이른다. 마지막은 아베 비판과 일본 마스크·2차 확산 경고로 위기감과 통쾌함을 섞어 끝낸다. 호기심 갭은 '첫 번째/두 번째/세 번째 소식' 순번 예고와 제목의 '독일방송 초토화' 약속뿐이며 제목 속 '독일방송 초토화·프랑스 작가+일본인 등장'과 본문 비중이 어긋난다.",
+        "html": "4개 뉴스를 옴니버스로 잇는 구성. 프랑스 작가의 한국 사랑(<mark class=\"lime\">자부심</mark>·<mark class=\"lime\">감동</mark>)으로 시작해 일제 피해 언급에서 <mark class=\"red\">억울함</mark>을 한 번 건드리고, 두 번째 뉴스에서 일본 기업 철수 <mark class=\"gold\">수치</mark>를 연달아 나열해 <mark class=\"lime\">통쾌함</mark>을 쌓는다. 세 번째 독일 코미디언의 '손가방 먼저 도착' 일화와 '할리웃 수준' 외모 칭찬에서 <mark class=\"lime\">자부심</mark>이 정점(약 3:23~4:07)에 이른다. 마지막은 아베 비판과 일본 마스크·2차 확산 경고로 <mark class=\"red\">위기</mark>감과 <mark class=\"lime\">통쾌함</mark>을 섞어 끝낸다. 호기심 갭은 '첫 번째/두 번째/세 번째 소식' 순번 <mark class=\"sky\">예고</mark>와 제목의 '독일방송 초토화' 약속뿐이며 제목 속 '독일방송 초토화·프랑스 작가+일본인 등장'과 본문 비중이 어긋난다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 2,
+        "title": "어썸코리아 클립 · 일본 셰프들이 3대째 이어온 한국 손칼국수 먹고 감탄한 이유 (면발이..)",
+        "url": "https://www.youtube.com/watch?v=xJj4qIB8ai4",
+        "text": "내레이션 없이 출연자 대사·상황 자막 중심. 0-30초 현장 도착·칼질 장면으로 호기심 유발 → 42-78초 노포 정보(1969년, 56년, 3대)로 권위 세팅 → 78-190초 미나리전 시식(이름 말장난 \"미노리/미나리\" → 식감 감탄 → \"이 맛은 일본에서 못 먹어요..\" 한국 vs 일본 대비 자부심) → 214-320초 칼국수 등장·비빔 변신 → 320-480초 비교(나고야 키시멘)·레시피 → 480-545초 소스 분석(질문→답)과 \"다른 칼국수는 못 먹을 것 같아..\" 정점 → 545-562초 면 식감 요약 → 엔딩카드. 한국어 화자의 해설 내레이션 없이 예능 자막으로 감정을 지휘하는 구조(추정).",
+        "html": "내레이션 없이 출연자 대사·상황 자막 중심. 0-30초 현장 도착·칼질 장면으로 호기심 유발 → 42-78초 노포 정보(1969년, 56년, 3대)로 권위 세팅 → 78-190초 미나리전 시식(이름 말장난 &quot;미노리/미나리&quot; → 식감 <mark class=\"lime\">감탄</mark> → &quot;이 맛은 일본에서 못 먹어요..&quot; 한국 vs 일본 대비 <mark class=\"lime\">자부심</mark>) → 214-320초 칼국수 등장·비빔 변신 → 320-480초 <mark class=\"gold\">비교</mark>(나고야 키시멘)·레시피 → 480-545초 소스 분석(<mark class=\"sky\">질문</mark>→답)과 &quot;다른 칼국수는 못 먹을 것 같아..&quot; 정점 → 545-562초 면 식감 요약 → 엔딩카드. 한국어 화자의 해설 내레이션 없이 예능 자막으로 감정을 지휘하는 구조(추정).",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 3,
+        "title": "단골이슈 · “프랑스는 왜 한국처럼 못하나”프랑스방송 시청률 1위 한국 청계천 / 한국특집방송 나가자 유럽인들 발칵",
+        "url": "https://www.youtube.com/watch?v=cmJYVS1TNJE",
+        "text": "청계천 야외 독서라는 잔잔한 장면에서 '유행이라고 합니다'로 호기심을 열고, 프랑스 뉴스 채널 보도 클립(K-pop 스타와 BTS RM의 독서)으로 외신 인증과 자부심을 올린다. 중반 '프랑스 인포가 주목한 건 그저 ~가 아니었습니다 / 그런데 재미있는 변화가 있습니다'로 의미를 한 단계 확장하며, 외국인 브이로거 클립과 '부러움에 어쩔 줄을 모릅니다'에서 자부심과 감동이 정점(약 4:36~5:12)에 이른다. 후반은 서울 야외도서관·춘천 문학열차로 사례를 넓히고 '새로운 독서 문화'로 요약해 훈훈하게 닫는다. 분노·위기 감정은 거의 없고 호기심 갭은 앞부분 '무슨 일이 벌어지고 있는지'와 중간 반전 한 번뿐이라 강도는 약한 편이다.",
+        "html": "청계천 야외 독서라는 잔잔한 장면에서 '유행이라고 합니다'로 호기심을 열고, 프랑스 뉴스 채널 보도 클립(K-pop 스타와 BTS RM의 독서)으로 외신 인증과 <mark class=\"lime\">자부심</mark>을 올린다. 중반 '프랑스 인포가 주목한 건 그저 ~가 아니었습니다 / 그런데 재미있는 변화가 있습니다'로 의미를 한 단계 확장하며, 외국인 브이로거 클립과 '부러움에 어쩔 줄을 모릅니다'에서 <mark class=\"lime\">자부심</mark>과 <mark class=\"lime\">감동</mark>이 정점(약 4:36~5:12)에 이른다. 후반은 서울 야외도서관·춘천 문학열차로 사례를 넓히고 '새로운 독서 문화'로 요약해 훈훈하게 닫는다. 분노·<mark class=\"red\">위기</mark> 감정은 거의 없고 호기심 갭은 앞부분 '무슨 일이 벌어지고 있는지'와 중간 <mark class=\"red\">반전</mark> 한 번뿐이라 강도는 약한 편이다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 4,
+        "title": "어썸코리아 클립 · 프랑스에서 시위가 끊이지 않는 진짜 이유",
+        "url": "https://www.youtube.com/watch?v=7H-X5FOd2w4",
+        "text": "외국인 패널(영국·프랑스 출신)이 프랑스에 대한 편견을 하나씩 확인하는 토크 클립. 초반은 담배·거만함·영어 못하는 척 같은 가벼운 편견을 풀고, 중반은 여권·우편·은행 사례로 프랑스 행정이 느리다는 이야기와 한국이 훨씬 빠르고 편리하다는 증언이 쌓인다. 후반은 왜 시위가 잦은지 묻고, 대통령 권한과 파업 문화를 설명한 뒤 기차 지연 농담으로 끝난다. 나레이션 없이 대화로 진행되며 한국 자부심은 외국인의 입을 통해 간접적으로 나온다.",
+        "html": "외국인 패널(영국·프랑스 출신)이 프랑스에 대한 <mark class=\"red\">편견</mark>을 하나씩 확인하는 토크 클립. 초반은 담배·거만함·영어 못하는 척 같은 가벼운 <mark class=\"red\">편견</mark>을 풀고, 중반은 여권·우편·은행 사례로 프랑스 행정이 느리다는 이야기와 한국이 훨씬 빠르고 편리하다는 증언이 쌓인다. 후반은 왜 시위가 잦은지 묻고, 대통령 권한과 파업 문화를 설명한 뒤 기차 지연 농담으로 끝난다. 나레이션 없이 대화로 진행되며 한국 <mark class=\"lime\">자부심</mark>은 외국인의 입을 통해 간접적으로 나온다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 5,
+        "title": "단골이슈 · “미국 애플매장 환불요구 대폭발” 아이폰듀오 대규모 환불 난리난 현지상황 // 환불 후 삼성으로 몰려가는 사람들",
+        "url": "https://www.youtube.com/watch?v=uhdOnOWd3m0",
+        "text": "'신제품을 사러 가는 게 아니라 반품하러 간다'는 반전 오프닝으로 시작해, 외국 틱톡·유튜버 클립(깨짐·멈춤·수리 불가)을 연속으로 붙여 애플의 문제를 쌓는다. 중반에 '수천 달러를 낸 기대를 애플이 충족시키지 못했다'로 실망·억울함을 키우고, 평생 애플 사용자의 마음이 바뀐다는 장면과 충성 고객 비판 클립으로 통쾌함을 올린다. 수리비 165만 원 대목에서 분노·억울함이 정점에 이른 뒤, 후반 '삼성은 먼저 경험을 쌓았다'로 방향을 틀어 마지막 '한국 기술의 저력이 아닐까요?'에서 자부심이 최고조에 이른다. 호기심 갭은 오프닝 반전과 '삼성 이야기를 빼놓을 수 없습니다'가 담당하고, 제목이 약속한 '삼성으로 몰려가는 사람들'은 본문에서 직접 제시되지 않아 마지막 질문형 결론에 의존한다.",
+        "html": "'신제품을 사러 가는 게 아니라 반품하러 간다'는 <mark class=\"red\">반전</mark> 오프닝으로 시작해, 외국 틱톡·유튜버 클립(깨짐·멈춤·수리 불가)을 연속으로 붙여 애플의 문제를 쌓는다. 중반에 '수천 달러를 낸 기대를 애플이 충족시키지 못했다'로 실망·<mark class=\"red\">억울함</mark>을 키우고, 평생 애플 사용자의 마음이 바뀐다는 장면과 충성 고객 비판 클립으로 <mark class=\"lime\">통쾌함</mark>을 올린다. 수리비 165만 원 대목에서 분노·<mark class=\"red\">억울함</mark>이 정점에 이른 뒤, 후반 '삼성은 먼저 경험을 쌓았다'로 방향을 틀어 마지막 '한국 기술의 저력이 아닐까요?'에서 <mark class=\"lime\">자부심</mark>이 최고조에 이른다. 호기심 갭은 오프닝 <mark class=\"red\">반전</mark>과 '삼성 이야기를 빼놓을 수 없습니다'가 담당하고, 제목이 약속한 '삼성으로 몰려가는 사람들'은 본문에서 직접 제시되지 않아 마지막 <mark class=\"sky\">질문</mark>형 <mark class=\"gold\">결론</mark>에 의존한다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 6,
+        "title": "세계열광 · 에르도안 방한 해외반응 “한국은 생색 한번 안 냈다” 8년 만에 온 튀르키예 대통령, 튀르키예 방송이 놀란 한국",
+        "url": "https://www.youtube.com/watch?v=x-_y7ZpjhgE",
+        "text": "에르도안의 한국어 '감사합니다'로 시작해 '생색 한번 안 냈다'는 말의 정체를 영상 끝까지 미루는 오픈루프 구조다. 6.25 파병 2만 1천 명과 희생자 숫자로 감동을 쌓고, 튀르키예 앵커의 '한국을 따라잡을 수 있을까?'와 알타이 전차 이야기로 도움받던 나라가 목표로 삼는 나라가 됐다는 자부심 정점을 만든다. 중반 이후 원전(일본이 포기), K팝, 드라마, 태권도 반응으로 국뽕을 이어 가다가, 후반에 원전 미정·무역 불균형을 솔직히 인정해 균형을 잡는다. 마지막에 오프닝 '감사합니다'로 돌아와 76년 만의 고마움이라는 감동으로 마무리하고 댓글을 유도한다.",
+        "html": "에르도안의 한국어 '<mark class=\"lime\">감사</mark>합니다'로 시작해 '생색 한번 안 냈다'는 말의 정체를 영상 끝까지 미루는 <mark class=\"sky\">오픈루프</mark> 구조다. 6.25 파병 2만 1천 명과 희생자 <mark class=\"gold\">숫자</mark>로 <mark class=\"lime\">감동</mark>을 쌓고, 튀르키예 앵커의 '한국을 따라잡을 수 있을까?'와 알타이 전차 이야기로 도움받던 나라가 목표로 삼는 나라가 됐다는 <mark class=\"lime\">자부심</mark> 정점을 만든다. 중반 이후 원전(일본이 포기), K팝, 드라마, 태권도 반응으로 국뽕을 이어 가다가, 후반에 원전 미정·무역 불균형을 솔직히 인정해 균형을 잡는다. 마지막에 오프닝 '<mark class=\"lime\">감사</mark>합니다'로 돌아와 76년 만의 고마움이라는 <mark class=\"lime\">감동</mark>으로 마무리하고 댓글을 유도한다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 7,
+        "title": "우아한 경제 · \"5조 7천억짜리 애물단지\" 모두가 비웃었던 두산의 인수합병, 15년 뒤 미국 1위가 된 진짜 이유",
+        "url": "https://www.youtube.com/watch?v=EJ2r3NyoYlw",
+        "text": "2007년 두산이 5조 7천억 원을 들여 산 밥캣이 승자의 저주로 불리던 위기에서 시작한다. 도대체 왜 팔지 않았나라는 큰 질문 아래 공장이 아니라 시간을 샀다는 은유를 던지고, 빚과 소주 매각, 만기 연장, 상장 미달 같은 고난을 쌓아 올려 긴장을 키운다. 중반 이후 모회사를 앞지른 시총, 지게차 사업 인수, 미국 1위와 순현금 전환으로 사들여진 쪽이 사는 쪽이 되는 역전의 통쾌함과 자부심이 정점을 이룬다. 후반에는 시총이 인수가에 못 미치고 북미 의존이 크다는 불편한 숫자도 인정해 균형을 잡는다. 마지막은 비스마크 공장과 3대 가족을 거쳐 누가 끝까지 놓지 않았느냐라는 메시지와 첫 장면 콜백으로 닫는다.",
+        "html": "2007년 두산이 5조 7천억 원을 들여 산 밥캣이 승자의 저주로 불리던 <mark class=\"red\">위기</mark>에서 시작한다. 도대체 왜 팔지 않았나라는 <mark class=\"sky\">큰 질문</mark> 아래 공장이 아니라 시간을 샀다는 은유를 던지고, 빚과 소주 매각, 만기 연장, 상장 미달 같은 고난을 쌓아 올려 <mark class=\"red\">긴장</mark>을 키운다. 중반 이후 모회사를 앞지른 시총, 지게차 사업 인수, 미국 1위와 순현금 전환으로 사들여진 쪽이 사는 쪽이 되는 <mark class=\"red\">역전</mark>의 <mark class=\"lime\">통쾌함</mark>과 <mark class=\"lime\">자부심</mark>이 정점을 이룬다. 후반에는 시총이 인수가에 못 미치고 북미 의존이 크다는 <mark class=\"red\">불편</mark>한 <mark class=\"gold\">숫자</mark>도 인정해 균형을 잡는다. 마지막은 비스마크 공장과 3대 가족을 거쳐 누가 끝까지 놓지 않았느냐라는 메시지와 첫 장면 콜백으로 닫는다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 8,
+        "title": "우아한 경제 · \"이 문자는 반칙 아닙니까?!\" 전 세계 언어학자들이 한글에 고개를 숙인 진짜 이유",
+        "url": "https://www.youtube.com/watch?v=o-5qsCCSVyo",
+        "text": "반칙이라는 도발적인 칭찬과 494년 사라진 해례본을 던져 질문을 쌓은 뒤, 한 획이 소리 세기를 나타낸다는 원리를 알파벳과 대비해 보여 준다. 중반에는 세종이 사대부 반대 상소를 학문으로 이기는 장면과 하버드, 샘슨, 헐버트 등 외국인의 평가를 연달아 제시하며 통쾌함과 자부심을 올린다. 이어 연산군의 금지령, 조선어학회 사건, 간송의 해례본 구입으로 억울함과 감동을 쌓은 뒤 탄압은 성공의 증거였다는 역전을 만든다. 스마트폰 자판, 문맹률, 유네스코 상, 텍사스 한글날로 현재의 자부심을 이어 간 뒤, 손주에게 문자를 보내는 시니어를 직접 호출하며 이긴 건 글자였다고 닫고 댓글을 유도한다.",
+        "html": "반칙이라는 도발적인 칭찬과 494년 사라진 해례본을 던져 <mark class=\"sky\">질문</mark>을 쌓은 뒤, 한 획이 소리 세기를 나타낸다는 원리를 알파벳과 대비해 보여 준다. 중반에는 세종이 사대부 반대 상소를 학문으로 이기는 장면과 하버드, 샘슨, 헐버트 등 외국인의 평가를 연달아 제시하며 <mark class=\"lime\">통쾌함</mark>과 <mark class=\"lime\">자부심</mark>을 올린다. 이어 연산군의 금지령, 조선어학회 사건, 간송의 해례본 구입으로 <mark class=\"red\">억울함</mark>과 <mark class=\"lime\">감동</mark>을 쌓은 뒤 탄압은 성공의 <mark class=\"gold\">증거</mark>였다는 <mark class=\"red\">역전</mark>을 만든다. 스마트폰 자판, 문맹률, 유네스코 상, 텍사스 한글날로 현재의 <mark class=\"lime\">자부심</mark>을 이어 간 뒤, 손주에게 문자를 보내는 시니어를 직접 호출하며 이긴 건 글자였다고 닫고 댓글을 유도한다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 9,
+        "title": "글로벌공감TV · 울산 동네 골프 레슨을 따라 하는 외국인들 \"빠세!\" | 빠세골프 해외반응",
+        "url": "https://www.youtube.com/watch?v=YPpgk2ywMA8",
+        "text": "울산 동네 연습장 프로의 기합 빠세가 미국 PGA 선수 광고까지 갔다는 결과를 먼저 보여 주는 콜드오픈으로 시작한다. 이후 800만 조회, 호주 틱톡 계정의 확산, 호주/말레이시아/하와이/미국 골퍼의 따라 하기를 외국인 영상과 댓글로 차례로 보여 준다. 중반에는 실패담과 유머로 긴장을 풀고, 비행기를 타고 레슨을 받으러 온 수강생과 해외 출장 레슨으로 규모를 키운다. 후반 푸마 골프 광고에서 맥스 호마가 빠세를 하는 장면이 정점이며, 처음엔 웃다가 따라 하고 결국 된다로 넘어갔다고 요약하고 직접 외쳐 보라는 말로 마친다.",
+        "html": "울산 동네 연습장 프로의 기합 빠세가 미국 PGA 선수 광고까지 갔다는 결과를 먼저 보여 주는 콜드오픈으로 시작한다. 이후 800만 <mark class=\"gold\">조회</mark>, 호주 틱톡 계정의 확산, 호주/말레이시아/하와이/미국 골퍼의 따라 하기를 외국인 영상과 댓글로 차례로 보여 준다. 중반에는 실패담과 유머로 <mark class=\"red\">긴장</mark>을 풀고, 비행기를 타고 레슨을 받으러 온 수강생과 해외 출장 레슨으로 규모를 키운다. 후반 푸마 골프 광고에서 맥스 호마가 빠세를 하는 장면이 정점이며, 처음엔 웃다가 따라 하고 결국 된다로 넘어갔다고 요약하고 직접 외쳐 보라는 말로 마친다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 10,
+        "title": "트래블튜브 · 우크라, 전후 재건사업 한국 배제 일본과 진행선언 한국반응에 놀란이유 재건사업 하고 싶으면 무기지원해야 900조원 청구서에 싸늘반응",
+        "url": "https://www.youtube.com/watch?v=dx06vfp9nRE",
+        "text": "'한국을 재건 사업에서 완전히 배제하겠다'는 선전포고식 훅으로 시작해 은혜를 잊은 우크라이나라는 분노·억울 프레임을 깔고, 곧바로 한국의 단호한 맞대응(아그레망 거부, 단교 가능성 언급, 대기업의 냉소)으로 통쾌함을 쌓는다. 4분대 '돈 없이 재건 가능한가?'와 '거대한 부메랑'에서 우크라이나의 허세를 꺾는 대목이 통쾌의 정점이고, 이후에는 우크라이나의 무기 요구, 북한군 증원, 나토 시험설을 연달아 보여주며 위기·긴장으로 감정을 바꾼다. 마지막은 '한국 방산을 외면하던 유럽이 속수무책으로 당한다'는 대비로 자부심과 통쾌함을 다시 올려 닫는다. 호기심 갭은 '그러나 예상 못한 한국의 반응', '고도의 정치적 계산이 깔려 있다고 하는데요' 같은 예고성 문장이 담당한다.",
+        "html": "'한국을 재건 사업에서 완전히 배제하겠다'는 선전포고식 훅으로 시작해 은혜를 잊은 우크라이나라는 분노·억울 프레임을 깔고, 곧바로 한국의 단호한 맞대응(아그레망 거부, 단교 가능성 언급, 대기업의 냉소)으로 <mark class=\"lime\">통쾌함</mark>을 쌓는다. 4분대 '돈 없이 재건 가능한가?'와 '거대한 부메랑'에서 우크라이나의 허세를 꺾는 대목이 <mark class=\"lime\">통쾌</mark>의 정점이고, 이후에는 우크라이나의 무기 요구, 북한군 증원, 나토 시험설을 연달아 보여주며 <mark class=\"red\">위기</mark>·<mark class=\"red\">긴장</mark>으로 감정을 바꾼다. 마지막은 '한국 방산을 외면하던 유럽이 속수무책으로 당한다'는 대비로 <mark class=\"lime\">자부심</mark>과 <mark class=\"lime\">통쾌함</mark>을 다시 올려 닫는다. 호기심 갭은 '그러나 예상 못한 한국의 반응', '고도의 정치적 계산이 깔려 있다고 하는데요' 같은 <mark class=\"sky\">예고</mark>성 문장이 담당한다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 11,
+        "title": "쓸모왕 · 최근 한국인들이 헝가리에 입국하려하자 헝가리 장관이 한 놀라운 행동, 휴지부족한 미국에서는 한국산 제품 주문이 폭증한 상황",
+        "url": "https://www.youtube.com/watch?v=UzaJcC4ezIE",
+        "text": "3개 뉴스를 순번으로 묶은 팬데믹 시기 국뽕 뉴스. 전 세계가 문을 닫아도 한국 기업인만 예외로 입국한다는 '특별 대우' 프레임으로 시작해 인원·건수 숫자를 길게 쌓고, 곧바로 일본의 입국금지 확대와 -20% 성장률 전망을 붙여 대비·통쾌함을 만든다. 중반은 코엑스 대형 영상 CNN 찬사와 TV 점유율로 자부심을 끌어올린다. 마지막은 '태극기가 붙은 제품', 미국 화장지 품귀 속 한국산 비데 8배 급증으로 호기심과 웃음 섞인 자부심을 만들고, '반드시 메이드 인 코리아 표기'라는 한 줄로 정점을 찍는다. 호기심 갭은 '놀라운 행동', '의외의 한국산 제품들' 같은 예고성 표현이 담당한다.",
+        "html": "3개 뉴스를 순번으로 묶은 팬데믹 시기 국뽕 뉴스. 전 세계가 문을 닫아도 한국 기업인만 예외로 입국한다는 '특별 대우' 프레임으로 시작해 인원·건수 <mark class=\"gold\">숫자</mark>를 길게 쌓고, 곧바로 일본의 입국금지 확대와 -20% 성장률 전망을 붙여 대비·<mark class=\"lime\">통쾌함</mark>을 만든다. 중반은 코엑스 대형 영상 CNN 찬사와 TV 점유율로 <mark class=\"lime\">자부심</mark>을 끌어올린다. 마지막은 '태극기가 붙은 제품', 미국 화장지 품귀 속 한국산 비데 8배 급증으로 호기심과 웃음 섞인 <mark class=\"lime\">자부심</mark>을 만들고, '반드시 메이드 인 코리아 표기'라는 한 줄로 정점을 찍는다. 호기심 갭은 '놀라운 행동', '의외의 한국산 제품들' 같은 <mark class=\"sky\">예고</mark>성 표현이 담당한다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 12,
+        "title": "트래블튜브 · 속보, 한국초강수 주우크라 대사관철수 예상밖의 상황에 크게당황하는 우크라 유럽도 발칵 “한국 기여해야”그런데  미국조차싸늘",
+        "url": "https://www.youtube.com/watch?v=FWfV8OuEARg",
+        "text": "'뒤통수를 친 우크라이나'로 분노를 깔고 곧바로 '한국이 마침내 대사관 인력 철수라는 초강수'를 내놓았다는 결과를 앞세운 뒤, 우크라이나와 유럽이 '크게 당황했다'는 통쾌한 반응으로 이어가는 구조다. 중반(약 4:20~7:00)은 유럽의 중재 의사, 미국 전문가들의 비판, '얄팍한 계산법이 부메랑이 됐다'는 평가를 연이어 인용해 한국 정부의 외교 전략을 치켜세우며 자부심과 통쾌함이 정점에 이른다. 후반은 무기 요구 문제로 넘어가 '이미 기회를 줬다'는 유럽 방산 거부, 중동의 선주문과 대비시키며 한국 무기 자부심을 올리고, 한편 트럼프의 한국 이탈 발언으로 불안(위기·긴장)을 섞는다. 호기심 갭은 '앞으로 한국이 꺼낼 카드는', '그런데 다른 일각에서는 과연 한국 무기가 정말 우크라에 들어가지 않았냐'는 의문형 전환이 이어준다.",
+        "html": "'뒤통수를 친 우크라이나'로 분노를 깔고 곧바로 '한국이 마침내 대사관 인력 철수라는 초강수'를 내놓았다는 결과를 앞세운 뒤, 우크라이나와 유럽이 '크게 당황했다'는 <mark class=\"lime\">통쾌</mark>한 반응으로 이어가는 구조다. 중반(약 4:20~7:00)은 유럽의 중재 의사, 미국 전문가들의 비판, '얄팍한 계산법이 부메랑이 됐다'는 평가를 연이어 인용해 한국 정부의 외교 전략을 치켜세우며 <mark class=\"lime\">자부심</mark>과 <mark class=\"lime\">통쾌함</mark>이 정점에 이른다. 후반은 무기 요구 문제로 넘어가 '이미 기회를 줬다'는 유럽 방산 거부, 중동의 선주문과 대비시키며 한국 무기 <mark class=\"lime\">자부심</mark>을 올리고, 한편 트럼프의 한국 이탈 발언으로 불안(<mark class=\"red\">위기</mark>·<mark class=\"red\">긴장</mark>)을 섞는다. 호기심 갭은 '앞으로 한국이 꺼낼 카드는', '그런데 다른 일각에서는 과연 한국 무기가 정말 우크라에 들어가지 않았냐'는 의문형 전환이 이어준다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 13,
+        "title": "국뽕에 취하다 KOREA CULTURE · Ep.165 [해외반응] 40억뷰 전설 'DESPACITO'를 건드린 한국 4인조! 포레스텔라의 미친 클래스에 해외 리액터들 경악!",
+        "url": "https://www.youtube.com/watch?v=Ue-x6hr6FHU",
+        "text": "(1) 0-100초 내레이션: 40억뷰 원곡 권위 → \"그런데\" 반전으로 한국 4인조 재탄생 공개 → \"가장 압도적인 경쟁력\" 국뽕 멘트 → 리액터 반응 예고. (2) 100-820초: 11명 리액터 반응 번역 자막이 컷마다 교차(완성도·스페인어 발음·화음·원곡보다 낫다는 발언 등으로 감탄 누적). 정보형 보컬 분석(Jennifer, Tim)과 감정형 감탄(Regular Reactions, Jez, Gavin)을 번갈아 배치. (3) 820-917초: 내레이션 요약, 오프닝 문구(\"압도적\" → \"가장 위대한\")를 격상해 콜백, 댓글·구독·슈퍼땡스 CTA.",
+        "html": "(1) 0-100초 내레이션: 40억뷰 원곡 권위 → &quot;그런데&quot; <mark class=\"red\">반전</mark>으로 한국 4인조 재탄생 공개 → &quot;가장 압도적인 경쟁력&quot; 국뽕 멘트 → 리액터 반응 <mark class=\"sky\">예고</mark>. (2) 100-820초: 11명 리액터 반응 번역 자막이 컷마다 교차(완성도·스페인어 발음·화음·원곡보다 낫다는 발언 등으로 <mark class=\"lime\">감탄</mark> 누적). 정보형 보컬 분석(Jennifer, Tim)과 감정형 <mark class=\"lime\">감탄</mark>(Regular Reactions, Jez, Gavin)을 번갈아 배치. (3) 820-917초: 내레이션 요약, 오프닝 문구(&quot;압도적&quot; → &quot;가장 위대한&quot;)를 격상해 콜백, 댓글·구독·슈퍼땡스 CTA.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 14,
+        "title": "국뽕특파원 · 외국인 등산객 73만 명 몰린 한국 산, \"서울이 세계 최고의 등산 도시\" 감탄 쏟아진 이유",
+        "url": "https://www.youtube.com/watch?v=tuc8aXMjXao",
+        "text": "정상에서 라면을 끓이는 한국인을 보고 외국인들이 한 말이 무엇이냐는 궁금증으로 시작한다. 73만 명, 10명 중 7명 같은 숫자로 관심을 입증한 뒤, 지하철 접근성, 낯선 이의 인사, 정상 라면, 사탕 나눔, 무료 입장과 화장실 같은 우리에겐 익숙한 것들을 외국인 눈으로 보여 준다. 20년째 쓰레기를 줍는 아저씨와 65세 넘는 어르신 등산객을 존경한다는 대목에서 감동과 자부심이 정점이다. 마지막에는 정작 이걸 몰랐던 건 우리였을지도 모른다고 하며 평범한 하루가 세계인에겐 여행이 됐다고 정리하고 추천 산을 묻는 댓글로 마무리한다.",
+        "html": "정상에서 라면을 끓이는 한국인을 보고 외국인들이 한 말이 무엇이냐는 궁금증으로 시작한다. 73만 명, 10명 중 7명 같은 <mark class=\"gold\">숫자</mark>로 관심을 입증한 뒤, 지하철 접근성, 낯선 이의 인사, 정상 라면, 사탕 나눔, 무료 입장과 화장실 같은 우리에겐 익숙한 것들을 외국인 눈으로 보여 준다. 20년째 쓰레기를 줍는 아저씨와 65세 넘는 어르신 등산객을 존경한다는 대목에서 <mark class=\"lime\">감동</mark>과 <mark class=\"lime\">자부심</mark>이 정점이다. 마지막에는 정작 이걸 몰랐던 건 우리였을지도 모른다고 하며 평범한 하루가 세계인에겐 여행이 됐다고 정리하고 추천 산을 묻는 댓글로 마무리한다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 15,
+        "title": "잡식왕 · 日 초비상…러·해킹 동시 강타 기자 구금에 항의도 단호 거부 총리 한밤중 SNS 긴급 공지 해커, 5000만달러 협박 개시",
+        "url": "https://www.youtube.com/watch?v=k9cLrz-a5Sk",
+        "text": "러시아의 일본인 기자 구금과 항의 거부로 시작해 영토 분쟁·국제회의 불참 등 외교 악재를 쌓고, '그런데'로 사이버 위기(총리 한밤 긴급 공지, GMO 해킹, 5천만 달러 협박)로 장면을 바꾼다. 중반 이후 방위상 설전, 키이우 일본 우호 공원 피격으로 전선을 넓히다가, 마지막 에피소드는 모스크바대 강의실에서 중국인 유학생이 욱일기를 두른 사건이라는 의외의 사건으로 분노와 호기심을 다시 올린다. 감정은 '일본이 연달아 곤경에 빠진다'는 통쾌·긴장 중심이고, 정점은 5천만 달러 협박·개인정보 공개(약 6:12~7:00)와 욱일기 반전(약 12:53)이다. 호기심 갭은 '그런데'로 이어지는 연쇄 전환('여기서 끝이 아니었습니다', '진짜 문제는 그다음부터')이 계속 유지한다.",
+        "html": "러시아의 일본인 기자 구금과 항의 거부로 시작해 영토 분쟁·국제회의 불참 등 외교 악재를 쌓고, '그런데'로 사이버 <mark class=\"red\">위기</mark>(총리 한밤 긴급 공지, GMO 해킹, 5천만 달러 협박)로 장면을 바꾼다. 중반 이후 방위상 설전, 키이우 일본 우호 공원 피격으로 전선을 넓히다가, 마지막 에피소드는 모스크바대 강의실에서 중국인 유학생이 욱일기를 두른 사건이라는 의외의 사건으로 분노와 호기심을 다시 올린다. 감정은 '일본이 연달아 곤경에 빠진다'는 <mark class=\"lime\">통쾌</mark>·<mark class=\"red\">긴장</mark> 중심이고, 정점은 5천만 달러 협박·개인정보 공개(약 6:12~7:00)와 욱일기 <mark class=\"red\">반전</mark>(약 12:53)이다. 호기심 갭은 '그런데'로 이어지는 연쇄 전환('여기서 끝이 아니었습니다', '진짜 문제는 그다음부터')이 계속 유지한다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 16,
+        "title": "why?와이튜브 · “보셨죠? 이게 한국의 실체입니다!”14억이 시청한 한국 길거리 영상 쓰레기 길가에 그냥 버리자 난리난 전세계 반응",
+        "url": "https://www.youtube.com/watch?v=wkH1sC6pJe4",
+        "text": "인도 여행 유튜버가 중국에서 두 달간 겪은 불편(공기, 음식, 택시 도중의 감시 분위기)을 먼저 길게 쌓아 시청자의 불쾌감과 긴장을 키운다.,약 5분 지점에서 \"다음 행선지로 고른 나라 바로 대한민국\"으로 전환되고, 같은 쓰레기차와 쓰레기봉투 장면이 기침에서 감탄으로 바뀌는 대비로 자부심이 터진다.,이후 서울 지하철, 남산, 부산 횡단보도·매표소·노을·골목을 외국인의 감탄 원음과 짧은 내레이션으로 반복하며, 한국의 과거 가난과 현재를 겹쳐 감동을 올린다.,마지막은 \"우리에게 당연한 것이 누군가에게는 기적\"이라는 교훈형 요약과 정형 CTA로 닫는다. 영상의 약 38%(264초)는 한국어 내레이션이 없는 외국인 원음 구간이다.",
+        "html": "인도 여행 유튜버가 중국에서 두 달간 겪은 <mark class=\"red\">불편</mark>(공기, 음식, 택시 도중의 감시 분<mark class=\"red\">위기</mark>)을 먼저 길게 쌓아 시청자의 불쾌감과 <mark class=\"red\">긴장</mark>을 키운다.,약 5분 지점에서 &quot;다음 행선지로 고른 나라 바로 대한민국&quot;으로 전환되고, 같은 쓰레기차와 쓰레기봉투 장면이 기침에서 <mark class=\"lime\">감탄</mark>으로 바뀌는 대비로 <mark class=\"lime\">자부심</mark>이 터진다.,이후 서울 지하철, 남산, 부산 횡단보도·매표소·노을·골목을 외국인의 <mark class=\"lime\">감탄</mark> 원음과 짧은 내레이션으로 반복하며, 한국의 과거 가난과 현재를 겹쳐 <mark class=\"lime\">감동</mark>을 올린다.,마지막은 &quot;우리에게 당연한 것이 누군가에게는 기적&quot;이라는 교훈형 요약과 정형 CTA로 닫는다. 영상의 약 38%(264초)는 한국어 내레이션이 없는 외국인 원음 구간이다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 17,
+        "title": "잡식왕 · 속보! 한국, 우크라이나 지원철회 발표 깜짝놀란 젤렌스키 납작 엎드린 상황 / 한국 강경대응에 유럽국가들 당황 아시아의 호랑이 부활했다며 초긴장",
+        "url": "https://www.youtube.com/watch?v=a1yTScu3Pds",
+        "text": "인사 전에 '뒤통수를 쳤습니다 / 한국은 예상보다 훨씬 강하게 나왔습니다 / 꼬리를 내렸습니다'로 결말을 먼저 보여주는 콜드오픈(0:00~0:52)으로 시작한다. 본편은 UN 연단 폭로(분노·억울) → 청와대의 정면 반박과 최후통첩 → 대사 소환, 공관원 철수, 코이카 인력 귀국으로 한국의 강수가 단계적으로 커지며 통쾌함을 쌓는 구조다. 7분대에 우크라이나가 '종결'에서 '매달리는 모양새'로 바뀌는 대목이 통쾌의 정점이고, 10분대 '트럼프의 포문이 젤렌스키를 향하고, 유럽이 한국에 손을 내민다'에서 자부심이 최고조(약 10:12~10:52)에 이른다. 호기심 갭은 '훨씬 더 센 조치가 줄줄이 뒤따랐습니다', '한국의 대응이 영리했던 이유는 따로 있습니다' 같은 예고와 '공은 젤렌스키에게 넘어갔습니다'라는 열린 결말이 맡는다.",
+        "html": "인사 전에 '뒤통수를 쳤습니다 / 한국은 예상보다 훨씬 강하게 나왔습니다 / 꼬리를 내렸습니다'로 결말을 먼저 보여주는 콜드오픈(0:00~0:52)으로 시작한다. 본편은 UN 연단 폭로(분노·억울) → 청와대의 정면 <mark class=\"red\">반박</mark>과 최후통첩 → 대사 소환, 공관원 철수, 코이카 인력 귀국으로 한국의 강수가 단계적으로 커지며 <mark class=\"lime\">통쾌함</mark>을 쌓는 구조다. 7분대에 우크라이나가 '종결'에서 '매달리는 모양새'로 바뀌는 대목이 <mark class=\"lime\">통쾌</mark>의 정점이고, 10분대 '트럼프의 포문이 젤렌스키를 향하고, 유럽이 한국에 손을 내민다'에서 <mark class=\"lime\">자부심</mark>이 최고조(약 10:12~10:52)에 이른다. 호기심 갭은 '훨씬 더 센 조치가 줄줄이 뒤따랐습니다', '한국의 대응이 영리했던 이유는 따로 있습니다' 같은 <mark class=\"sky\">예고</mark>와 '공은 젤렌스키에게 넘어갔습니다'라는 열린 결말이 맡는다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 18,
+        "title": "코리아국뽕한사발 · (대만반응) 한국 깎아내리는 외국패널에 역공 한 방 먹이는 카이랑 참교육",
+        "url": "https://www.youtube.com/watch?v=h-VD_UAJI9o",
+        "text": "외국 패널(프랑스, 홍콩, 일본, 브라질)이 한국을 비판하는 대만 토크쇼 장면을 번역 자막으로 보여 주고, 한국 대표 카이랑이 맞받아치는 구성이다. 콜드오픈에서 프랑스엔 영어 있어요라는 역공 한 줄을 먼저 보여 준 뒤, 지하철 불만 세 가지로 분노를 쌓고 영어 자막 설명과 프랑스 지하철 역공으로 한 번에 풀어 준다. 이어 한국 남자 외모 비하에는 출몰 시간표 꿀팁으로 받아친다. 마지막에는 일본 패널이 한국 현금 미사용 95.8%를 인정하고 브라질 패널이 K팝 덕분에 아시아 하면 한국이라고 말하며 자부심을 올린 뒤 짧게 마무리한다.",
+        "html": "외국 패널(프랑스, 홍콩, 일본, 브라질)이 한국을 비판하는 대만 토크쇼 장면을 번역 자막으로 보여 주고, 한국 대표 카이랑이 맞받아치는 구성이다. 콜드오픈에서 프랑스엔 영어 있어요라는 역공 한 줄을 먼저 보여 준 뒤, 지하철 불만 세 가지로 분노를 쌓고 영어 자막 설명과 프랑스 지하철 역공으로 한 번에 풀어 준다. 이어 한국 남자 외모 비하에는 출몰 시간표 꿀팁으로 받아친다. 마지막에는 일본 패널이 한국 현금 미사용 95.8%를 인정하고 브라질 패널이 K팝 덕분에 아시아 하면 한국이라고 말하며 <mark class=\"lime\">자부심</mark>을 올린 뒤 짧게 마무리한다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 19,
+        "title": "why?와이튜브 · \"따라한다고 다 같은 줄로 아십니까?\" 베트남 경제학자가 말하는 베트남 반도체 성공이 어려운 이유",
+        "url": "https://www.youtube.com/watch?v=Ly6vlepu9PE",
+        "text": "빈 땅에 잡초만 무성한 베트남 첫 반도체 공장 부지라는 이미지로 시작해, \"왜 이렇게 될 수밖에 없었나\"라는 큰 질문을 던지고 베트남 국영 방송 경제학자의 답을 따라가는 구조이다.,베트남의 외국 기업 의존, 비에텔의 무리한 32나노 도전, ASML 장비·전력 문제를 숫자와 함께 쌓아 실패의 이유를 설명하고, 중국 반도체·전기차·홍콩 사례로 \"시간을 돈으로 사려다 무너진 나라들\"이라는 일반 법칙을 만든다.,8:54 \"비슷한 출발선에서 정반대의 결말을 쓴 나라, 한국\"으로 전환되며, 삼성·하이닉스의 거대한 실적 숫자, ASML 직원들의 단체 연차 일화로 자부심과 통쾌함이 정점에 오른다.,마지막에 첫 장면의 \"잡초만 자라는 부지\"로 돌아가 수미상관을 만들고, \"한국은 그 시간이 쌓은 격차로 앞서 나갈 것\"이라는 낙관적 결론과 CTA로 마무리한다.",
+        "html": "빈 땅에 잡초만 무성한 베트남 첫 반도체 공장 부지라는 이미지로 시작해, &quot;왜 이렇게 될 수밖에 없었나&quot;라는 <mark class=\"sky\">큰 질문</mark>을 던지고 베트남 국영 방송 경제학자의 답을 따라가는 구조이다.,베트남의 외국 기업 의존, 비에텔의 무리한 32나노 도전, ASML 장비·전력 문제를 <mark class=\"gold\">숫자</mark>와 함께 쌓아 실패의 이유를 설명하고, 중국 반도체·전기차·홍콩 사례로 &quot;시간을 돈으로 사려다 무너진 나라들&quot;이라는 일반 법칙을 만든다.,8:54 &quot;비슷한 출발선에서 정반대의 결말을 쓴 나라, 한국&quot;으로 전환되며, 삼성·하이닉스의 거대한 실적 <mark class=\"gold\">숫자</mark>, ASML 직원들의 단체 연차 일화로 <mark class=\"lime\">자부심</mark>과 <mark class=\"lime\">통쾌함</mark>이 정점에 오른다.,마지막에 첫 장면의 &quot;잡초만 자라는 부지&quot;로 돌아가 수미상관을 만들고, &quot;한국은 그 시간이 쌓은 격차로 앞서 나갈 것&quot;이라는 낙관적 <mark class=\"gold\">결론</mark>과 CTA로 마무리한다.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 20,
+        "title": "하루 해외반응 · [속보] 세계 랭킹 1위 vs 말레시아 1위 배드민턴 여왕… 안세영의 압도적인 기량에 해외 난리난 상황",
+        "url": "https://www.youtube.com/watch?v=6FNskgP5qLQ",
+        "text": "편집자 서사 없음. 경기 시작 → 연속 랠리 → 점수 상황 해설 → 게임 종료 → (ASR 마지막 \"21-10 21-12\") → 경기 후 클로즈업 9초(434~443s). 제목이 약속한 \"해외 난리\" 반응 장면은 없음.",
+        "html": "편집자 서사 없음. 경기 시작 → 연속 랠리 → 점수 상황 해설 → 게임 종료 → (ASR 마지막 &quot;21-10 21-12&quot;) → 경기 후 클로즈업 9초(434~443s). 제목이 약속한 &quot;해외 난리&quot; 반응 장면은 없음.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 21,
+        "title": "국뽕에 취하다 KOREA CULTURE · Ep.166 [해외반응] 한국 남성 4명이 만들어낸 믿기 힘든 천상의 하모니에 충격받은 외국인들ㅣForestella -  Nella Fantasia",
+        "url": "https://www.youtube.com/watch?v=yTgVL1HuPv0",
+        "text": "(1) 0-90초 내레이션(영어 ASR 인식, 한국어 자막박스): \"외국인들이 이렇게까지 놀라는 걸까요?\" 훅 → 영화 미션(1986)·모리코네·가브리엘의 오보에·이탈리아어 가사 배경 → \"그런데 포레스텔라의 해석이 흥미로운 이유는 네 사람의 서로 다른 목소리\" → 두 무대(THE LEGACY/KBS 열린음악회) 예고. (2) 90-560초 리액터 번역 자막(천사 비유·소름 반응·파트 분석). (3) 560-688초 모두닥 스폰서 광고(128초) 삽입 후 \"다시 포레스텔라의 무대를 본 해외 리액터들의 반응\" 복귀. (4) 688-1105초 리액터 반응 계속(완전히 무너졌어요, 영혼이 치유되는 것 같아요 등 감동 피크). (5) 1105-1186초 내레이션 요약(\"하나의 음악으로 완성\"), 오프닝 \"하나의 선율을 네 개의 음색\" 콜백, 두 무대 중 선택 질문 + 구독/슈퍼땡스 CTA.",
+        "html": "(1) 0-90초 내레이션(영어 ASR 인식, 한국어 자막박스): &quot;외국인들이 이렇게까지 놀라는 걸까요?&quot; 훅 → 영화 미션(1986)·모리코네·가브리엘의 오보에·이탈리아어 가사 배경 → &quot;그런데 포레스텔라의 해석이 흥미로운 이유는 네 사람의 서로 다른 목소리&quot; → 두 무대(THE LEGACY/KBS 열린음악회) <mark class=\"sky\">예고</mark>. (2) 90-560초 리액터 번역 자막(천사 비유·소름 반응·파트 분석). (3) 560-688초 모두닥 스폰서 광고(128초) 삽입 후 &quot;다시 포레스텔라의 무대를 본 해외 리액터들의 반응&quot; 복귀. (4) 688-1105초 리액터 반응 계속(완전히 무너졌어요, 영혼이 치유되는 것 같아요 등 <mark class=\"lime\">감동</mark> 피크). (5) 1105-1186초 내레이션 요약(&quot;하나의 음악으로 완성&quot;), 오프닝 &quot;하나의 선율을 네 개의 음색&quot; 콜백, 두 무대 중 선택 <mark class=\"sky\">질문</mark> + 구독/슈퍼땡스 CTA.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      },
+      {
+        "number": 22,
+        "title": "하루 해외반응 · [속보] 세계 랭킹 1위 vs 일본 최고 유망주 안세영 일본 유망주 격파에 난리난 해외",
+        "url": "https://www.youtube.com/watch?v=H9Hfi7MGaiM",
+        "text": "편집자 서사 없음. 경기 시작(0s) → 1게임 진행·종료(약 250s에 점수판 21) → 게임 사이 클로즈업(287~297s) → 2게임 → ASR 최종 스코어 \"21-7, 21-13\"(≈581s) → 경기 후 클로즈업과 중계 하단자막(574~584s). 제목이 약속한 \"일본 유망주 격파에 난리난 해외\" 반응 장면은 없음.",
+        "html": "편집자 서사 없음. 경기 시작(0s) → 1게임 진행·종료(약 250s에 점수판 21) → 게임 사이 클로즈업(287~297s) → 2게임 → ASR 최종 스코어 &quot;21-7, 21-13&quot;(≈581s) → 경기 후 클로즈업과 중계 하단자막(574~584s). 제목이 약속한 &quot;일본 유망주 격파에 난리난 해외&quot; 반응 장면은 없음.",
+        "status": "기존 자료 분석자의 해석 / 시청자 실제 감정 측정값 아님"
+      }
+    ],
+    "models": [
+      {
+        "title": "다큐형 감정 곡선",
+        "text": "**§8~§10 감정** — 감정은 장식이 아니라 **사실의 배치와 대비에서** 만든다. 사료에 없는 내면(\"그는 절망했습니다\") 금지 → 가치 → 위협 → 선택 → 대가 → 현재 상태. 권장 곡선: 평온 → 이상함 → 경이 → 불안 → 충격 → 잠시 희망 → 배신·좌절 → 압박 → 지적 의심 → 깨달음 → 경이 → 쓸쓸함 → 여운(고강도 연속 금지, 긴장과 보상 교차). 10장치: 정상→비정상 / 먼저 사랑하게 하고 잃게 / 거대한 사건에 작은 사람 / 희망 후 예상 밖으로 꺾기 / 외부 적보다 내부 선택 / 추상 문제를 작은 물건으로 / 큰 사건을 작은 결말로 / 지적·감정 반전 분리 배치 / 마지막에 시청자를 사건 안에 / 사건보다 의미를 남김.",
+        "path": "/home/yh/ai_memory_work/packs/PACK_02_대본엔진_MASTER.md",
+        "line": 124,
+        "status": "기존 팩의 보존 문장 / 성과 검증 결과 아님"
+      },
+      {
+        "title": "해외시점 감정 리듬 8단계",
+        "text": "- **감정 리듬 8단계:** 분노 → 의심 → 충격 → 자책 → 각성 → 구원 → 존경 → 화해 (변형: 희망 → 의심 → 배신 → 절망 → 각성 → 구원 → 존경 → 화해). **장면 설계 4단계:** 행동유발(시각충격) → 감정전이(공감) → 회상(트라우마 공명) → 진실발견(인지해소).",
+        "path": "/home/yh/ai_memory_work/packs/PACK_02_대본엔진_MASTER.md",
+        "line": 369,
+        "status": "기존 팩의 보존 문장 / 성과 검증 결과 아님"
+      },
+      {
+        "title": "위기·의리·배신·기개형",
+        "text": "- 변형 공식: **악평 → 극적 사건 → 누명 → 조작/외압 반전 → 호평 역전**(초반 실제 악평 문구 → 후반 실제 호평 문구 재조명, 반전의 반전·복선 아이템·입체 캐릭터). 60대 남성 공식: **위기 → 의리 → 배신 → 기개 → 복수 → 구원**, 어휘는 명예·의리·기개, 문장 평균 20~35자. 레퍼런스 드라마 공식 이식 예: 국가 간 신뢰→위기→재동맹 / 사명감 vs 정치 / 배신·죄책감·화해 리듬.",
+        "path": "/home/yh/ai_memory_work/packs/PACK_02_대본엔진_MASTER.md",
+        "line": 374,
+        "status": "기존 팩의 보존 문장 / 성과 검증 결과 아님"
+      },
+      {
+        "title": "시니어 반전·해소형",
+        "text": "- 대본 창작 조건: 3,000~3,500자 / 15초 안 궁금증·충격 훅 / 3막(문제 → 반전 → 결말) / 감정 긴장→사이다→충격→해소 / **복선·반전 최소 2회** / 이탈 방지 문구. 조회수 경쟁력 평가: 클릭 유도력·유지율·감정 몰입·강점/약점 100점 → 장점 합성 최종본. AI 분업(원 강의): 구조·개요=GPT, 감성 문장·묘사=Claude, 창의 아이디어=Gemini 비교. 연출: 긴장 구간 천천히·사이다 구간 빠르게 낭독, 시작 8~10초 '쿠킹'(결정적 장면 선공개 + 강렬 자막), 정지 이미지에 미세 줌·모션.",
+        "path": "/home/yh/ai_memory_work/packs/PACK_02_대본엔진_MASTER.md",
+        "line": 391,
+        "status": "기존 팩의 보존 문장 / 성과 검증 결과 아님"
+      }
+    ],
+    "source_path": "/home/yh/Insta/research-hub-20261108/kukppong-script-onepage-20261114-v2.html",
+    "source_url": "https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-script-onepage-20261114-v2.html#emotion-collection",
+    "designs": [
+      {
+        "template_id": "Harmon_8_Step",
+        "emotions": [
+          "호기심",
+          "이해",
+          "의심",
+          "긴장",
+          "납득",
+          "경계",
+          "성찰",
+          "여운"
+        ],
+        "intensity": [
+          3,
+          2,
+          3,
+          4,
+          4,
+          3,
+          2,
+          3
+        ],
+        "status": "이번 문서의 수정 가능한 감정 설계 예시. 원래 시트 셀 값이나 실측값 아님.",
+        "hold": false
+      },
+      {
+        "template_id": "Crypto_Story_Mode",
+        "emotions": [
+          "호기심",
+          "관심",
+          "이해",
+          "새 궁금증",
+          "즐거움",
+          "걱정",
+          "납득",
+          "안도"
+        ],
+        "intensity": [
+          3,
+          3,
+          2,
+          3,
+          3,
+          4,
+          3,
+          2
+        ],
+        "status": "이번 문서의 수정 가능한 감정 설계 예시. 원래 시트 셀 값이나 실측값 아님.",
+        "hold": false
+      },
+      {
+        "template_id": "Multi_Entity_News_Mode",
+        "emotions": [
+          "관심",
+          "정리",
+          "집중",
+          "비교",
+          "집중",
+          "연결감",
+          "판단",
+          "명료함"
+        ],
+        "intensity": [
+          3,
+          2,
+          3,
+          3,
+          3,
+          4,
+          3,
+          2
+        ],
+        "status": "이번 문서의 수정 가능한 감정 설계 예시. 원래 시트 셀 값이나 실측값 아님.",
+        "hold": false
+      },
+      {
+        "template_id": "Multi_Entity_News_Mode_Kor",
+        "emotions": [
+          "의문",
+          "정리",
+          "긴장",
+          "비교",
+          "검증",
+          "납득",
+          "신중함",
+          "정리"
+        ],
+        "intensity": [
+          3,
+          2,
+          4,
+          3,
+          4,
+          3,
+          3,
+          2
+        ],
+        "status": "이번 문서의 수정 가능한 감정 설계 예시. 원래 시트 셀 값이나 실측값 아님.",
+        "hold": false
+      },
+      {
+        "template_id": "NJT_Economy_Style",
+        "emotions": [
+          "의아함",
+          "호기심",
+          "이해",
+          "기시감",
+          "불안",
+          "공감",
+          "발견",
+          "여운"
+        ],
+        "intensity": [
+          3,
+          3,
+          2,
+          3,
+          4,
+          4,
+          3,
+          2
+        ],
+        "status": "이번 문서의 수정 가능한 감정 설계 예시. 원래 시트 셀 값이나 실측값 아님.",
+        "hold": false
+      },
+      {
+        "template_id": "Leeco_Edutainment_Style",
+        "emotions": [
+          "기대",
+          "호기심",
+          "이해",
+          "관심",
+          "의문",
+          "공감",
+          "발견",
+          "여운"
+        ],
+        "intensity": [
+          3,
+          3,
+          2,
+          3,
+          4,
+          3,
+          4,
+          2
+        ],
+        "status": "이번 문서의 수정 가능한 감정 설계 예시. 원래 시트 셀 값이나 실측값 아님.",
+        "hold": true
+      },
+      {
+        "template_id": "mr_beast_Style",
+        "emotions": [
+          "놀람",
+          "호기심",
+          "이해",
+          "관심",
+          "의문",
+          "공감",
+          "발견",
+          "여운"
+        ],
+        "intensity": [
+          4,
+          3,
+          2,
+          3,
+          4,
+          3,
+          4,
+          2
+        ],
+        "status": "이번 문서의 수정 가능한 감정 설계 예시. 원래 시트 셀 값이나 실측값 아님.",
+        "hold": true
+      },
+      {
+        "template_id": "Safe_invesment",
+        "emotions": [
+          "호기심",
+          "이해",
+          "걱정",
+          "몰입",
+          "깨달음",
+          "희망",
+          "확신",
+          "여운"
+        ],
+        "intensity": [
+          3,
+          2,
+          3,
+          4,
+          4,
+          3,
+          3,
+          2
+        ],
+        "status": "이번 문서의 수정 가능한 감정 설계 예시. 원래 시트 셀 값이나 실측값 아님.",
+        "hold": false
+      }
+    ]
+  }
+}

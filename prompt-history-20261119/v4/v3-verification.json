@@ -1,0 +1,17 @@
+{
+  "prior_v2_html_content_preserved": "PASS: remove only new appendage to recover original v2 HTML exactly",
+  "prior_request_records": 18,
+  "existing_workflow_steps": 15,
+  "added_modules": [
+    "3-A 역할 예문",
+    "6-A 전개 선택 및 매칭",
+    "7-A 구간별 집필 입력"
+  ],
+  "arc_types": 10,
+  "role_categories": 8,
+  "literal_examples": 24,
+  "reference_sources": 7,
+  "all_quotes_exact_substrings": true,
+  "new_skills_or_cron": false,
+  "v2_sha256": "eada8fb141a3f2359484bc55febe44bac075e382984efd04d0bd3983482b71e5"
+}

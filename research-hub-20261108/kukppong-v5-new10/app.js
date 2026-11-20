@@ -131,6 +131,7 @@
   }
 
   document.getElementById('app').innerHTML = `<div class="layout">${menu()}<main>${page === 'ep' ? epPage() : page === 'rules' ? rulesPage() : indexPage()}</main></div>`;
+  if(page==='index' && window.reviewPlaylist)reviewPlaylist(document.querySelector('#app main'),S.eps.map(e=>({title:`EP${e.ep} · ${e.short}`,url:`./audio/ep${e.ep}.mp3`})));
   window.__seek = t => { const a = document.getElementById('aud'); if (!a) return; a.currentTime = t; a.play(); };
   const cb = document.getElementById('copyall');
   if (cb) cb.onclick = () => { const txt = bundle(); (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => toast('복사됨 · ' + txt.length.toLocaleString() + '자')).catch(() => { const ta = document.createElement('textarea'); ta.value = txt; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); toast('복사됨'); }); };

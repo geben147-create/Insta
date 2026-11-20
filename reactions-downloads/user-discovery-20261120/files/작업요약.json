@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-20T17:42:27.865357",
+  "updated_at": "2026-11-20T18:05:34.488347",
   "channel_rows": 42,
   "channel_names_unique": 41,
   "profile_resolved": 41,
   "explicit_seed_video_ids": 5,
   "video_candidates": 63,
-  "new_video_downloaded": 17,
+  "new_video_downloaded": 24,
   "existing_video_reused": 0,
-  "subtitle_timeline_ready": 10,
+  "subtitle_timeline_ready": 18,
   "missing_url_requests": 27,
   "platform_roadmap_rows": 14,
   "world_source_records_resolved": 21,
@@ -23,19 +23,21 @@
   "research_channel_records": 41,
   "research_channel_video_rows": 54,
   "channels_with_followup_candidates": 32,
-  "subtitle_artifacts_generated": 12,
-  "subtitle_duration_review_required": 2,
+  "subtitle_artifacts_generated": 21,
+  "subtitle_duration_review_required": 3,
   "subtitle_bounds_tolerance_seconds": 0.25,
   "world_record_count": 23,
   "world_original_pages_verified": 13,
   "youtube_embed_excluded": 1,
   "followup_download_queue_count": 57,
+  "latest_asr_device": "cuda",
+  "gpu_runtime_scope": "JOB_LOCAL_CUDA12_CUDNN9_NO_SYSTEM_OR_VENV_CHANGES",
   "final_semantic_verified": 0,
   "state_counts": {
     "완료": 0,
-    "검수필요": 17,
-    "실패": 4,
+    "검수필요": 24,
+    "실패": 2,
     "차단_제외": 1,
-    "대기_진행중": 41
+    "대기_진행중": 36
   }
 }

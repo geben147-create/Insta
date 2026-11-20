@@ -1,6 +1,6 @@
 {
   "scope": "ALL_CURRENT_VIDEO_RECORDS",
-  "checked_at": "2026-11-20T17:42:27.865357",
+  "checked_at": "2026-11-20T18:05:34.488347",
   "tolerance_seconds": 0.25,
   "decision": "HOLD_FOR_REVIEW_NO_CLAMP_NO_OVERWRITE",
   "records": [
@@ -14,6 +14,18 @@
       "ko_sha256": "aa8892f69eb06d0429bc2a94ad4d39e8ccfad8eee50fff0c336e996d3e680e14",
       "video_duration_seconds": 1017.898333,
       "subtitle_last_end_seconds": 1021.75,
+      "subtitle_bounds": "FAIL_OUTSIDE_VIDEO"
+    },
+    {
+      "ID": "BV1CM411s7ai",
+      "video_path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/사용자발굴_한일비교_현지원본_20261120_164550/중국/中韩CP的书房/BV1CM411s7ai/BV1CM411s7ai.mp4",
+      "video_sha256": "cf9a61d5caae0e85dde4cc631fcdec784d1260764e29b6f4e93f8f7ec1c91fda",
+      "original_path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/사용자발굴_한일비교_현지원본_20261120_164550/중국/中韩CP的书房/BV1CM411s7ai/BV1CM411s7ai.original.srt",
+      "original_sha256": "1e9782187235f77db2238cb6ab9b03b37640b2e838842c08e53f33ceb0646ae0",
+      "ko_path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/사용자발굴_한일비교_현지원본_20261120_164550/중국/中韩CP的书房/BV1CM411s7ai/BV1CM411s7ai.ko.srt",
+      "ko_sha256": "1e9782187235f77db2238cb6ab9b03b37640b2e838842c08e53f33ceb0646ae0",
+      "video_duration_seconds": 851.730726,
+      "subtitle_last_end_seconds": 871.82,
       "subtitle_bounds": "FAIL_OUTSIDE_VIDEO"
     },
     {

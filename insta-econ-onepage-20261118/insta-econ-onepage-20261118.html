@@ -1,0 +1,49 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>인스타 경제·주식·ETF 원페이지형 (2026-11-18)</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0f1115;color:#eee;font-family:"Malgun Gothic",sans-serif;display:flex;min-height:100vh}
+#side{width:170px;flex:none;background:#151922;border-right:1px solid #2b3040;padding:8px 0;position:sticky;top:0;height:100vh;overflow:auto;font-size:12px}
+#side .ttl{padding:4px 10px 8px;font-weight:700}#side .grp{color:#ffd166;font-size:11px;padding:8px 10px 2px;font-weight:700}
+#side .mi{display:block;padding:5px 10px;cursor:pointer;color:#ccd;border-left:3px solid transparent}#side .mi.on{background:#232b3c;border-left-color:#ffd166;color:#fff}
+#main{flex:1;min-width:0}
+header{padding:12px 16px;border-bottom:1px solid #2b3040;position:sticky;top:0;background:#0f1115;z-index:3}
+h1{font-size:17px;margin:0 0 6px}.note{font-size:12px;color:#ffd166;line-height:1.5}
+.row{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+button,select{background:#1a1d24;color:#eee;border:1px solid #2b3040;border-radius:6px;padding:4px 9px;cursor:pointer;font-size:12px}
+button.on{background:#ffd166;color:#000;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px;padding:12px 16px}
+.card{background:#1a1d24;border:1px solid #2b3040;border-radius:6px;overflow:hidden;font-size:11px}
+.card img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover;background:#000}
+.cb{padding:6px}.tag{display:inline-block;padding:1px 5px;border-radius:4px;background:#2b3040;margin-right:4px}
+.card a{color:#8ab4ff;word-break:break-all}.n{color:#9aa;margin-top:4px;line-height:1.4}
+details{padding:0 16px 20px}summary{cursor:pointer;color:#ffd166;padding:8px 0}
+</style></head><body>
+<nav id="side"><div class="ttl">인스타 경제·주식 연구</div>
+<div class="grp">원페이지형</div>
+<a class="mi on" data-k="all">전체 원페이지 (한국·일본·미국·러시아)</a>
+<div class="grp">분야별 (원페이지)</div>
+<a class="mi" data-k="econ">경제·재테크</a><a class="mi" data-k="etf">주식·ETF·미국주식</a>
+<div class="grp">랭킹형 · 표 · 총망라 · 100개 명령어</div>
+<a class="mi" data-k="todo">준비 중 (인계 예정)</a>
+</nav>
+<div id="main"><header><h1 id="ttl">인스타 경제·주식·ETF 원페이지형</h1>
+<div class="note">좋아요·댓글·날짜·조회수 실지표는 인스타 차단(429)으로 미확보 (UNKNOWN). 조회수 추정치는 아직 만들지 않았습니다. 해외 자막 한국어 번역은 미적용 (원문).<br>썸네일: 인스타 검색 결과 화면을 캡처한 이미지. 유형은 검색 화면 아이콘 기준 (릴스 / 캐러셀 / 사진).</div>
+<div class="row" id="ctry"></div><div class="row" id="ftype"></div></header>
+<div id="g"></div></div>
+<script src="onepage_data_KR.js"></script><script src="onepage_data_JP.js"></script><script src="onepage_data_US.js"></script><script src="onepage_data_RU.js"></script>
+<script>
+const D=[].concat(window.ONEPAGE_KR||[],window.ONEPAGE_JP||[],window.ONEPAGE_US||[],window.ONEPAGE_RU||[]);
+const C={KR:'한국',JP:'일본',US:'미국',RU:'러시아'};const T=['전체','릴스','캐러셀','사진'];
+let cc='KR',ft='전체',tp='all';
+function setTp(k){tp=k;document.querySelectorAll('#side .mi').forEach(e=>e.classList.toggle('on',e.dataset.k===k));document.getElementById('ttl').textContent=({all:'인스타 경제·주식·ETF 원페이지형',econ:'경제·재테크 (원페이지)',etf:'주식·ETF·미국주식 (원페이지)',todo:'준비 중'})[k];render()}
+document.querySelectorAll('#side .mi').forEach(e=>e.onclick=()=>setTp(e.dataset.k));
+function render(){
+ document.getElementById('ctry').innerHTML=Object.entries(C).map(([k,v])=>'<button class="'+(k===cc?'on':'')+'" onclick="cc=\''+k+'\';render()">'+v+' ('+D.filter(d=>d.cc===k&&(tp==='all'||d.tp===tp)).length+')</button>').join('');
+ document.getElementById('ftype').innerHTML=T.map(t=>'<button class="'+(t===ft?'on':'')+'" onclick="ft=\''+t+'\';render()">'+t+'</button>').join('');
+ if(tp==='todo'){document.getElementById('g').innerHTML='<div style="padding:30px">랭킹형·표·총망라·100개 명령어 탭은 아직 만들지 않았습니다.</div>';return}
+ const arr=D.filter(d=>d.cc===cc&&(tp==='all'||d.tp===tp)&&(ft==='전체'||d.t===ft));
+ const card=d=>'<div class="card"><a href="'+d.u+'" target="_blank" rel="noopener"><img loading="lazy" src="'+d.img+'"></a><div class="cb"><span class="tag">'+d.t+'</span><span class="tag">'+(d.tp==='etf'?'ETF·주식':'경제')+'</span><div class="n">좋아요 UNKNOWN · 댓글 UNKNOWN · 날짜 UNKNOWN · 조회수 UNKNOWN</div><a href="'+d.u+'" target="_blank" rel="noopener">열기↗</a></div></div>';
+ const f=arr.slice(0,100),r=arr.slice(100);
+ document.getElementById('g').innerHTML='<div class="grid">'+f.map(card).join('')+'</div>'+(r.length?'<details><summary>나머지 '+r.length+'개 펼치기</summary><div class="grid">'+r.map(card).join('')+'</div></details>':'')+(arr.length?'':'<div style="padding:30px">항목 없음</div>');
+}
+render();
+</script></body></html>

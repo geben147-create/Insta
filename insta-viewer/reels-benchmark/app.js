@@ -38,6 +38,6 @@ for(const key of ['country','level','period','sort','query','topic','mode','visu
 $('dir').onclick=()=>{asc=!asc;$('dir').textContent=asc?'오름 ▲':'내림 ▼';render();};
 $('openAll').onclick=()=>document.querySelectorAll('#detailBody details').forEach(d=>d.open=true);
 $('closeAll').onclick=()=>document.querySelectorAll('#detailBody details').forEach(d=>d.open=false);
-fetch('data.json?v=liked1').then(r=>{if(!r.ok)throw Error('data');return r.json();}).then(x=>{rows=x;render();}).catch(()=>{$('status').textContent='자료를 불러오지 못했습니다. 새로고침해 주세요.';});
+fetch('data.json?v=drama-plus2').then(r=>{if(!r.ok)throw Error('data');return r.json();}).then(x=>{rows=x;render();}).catch(()=>{$('status').textContent='자료를 불러오지 못했습니다. 새로고침해 주세요.';});
 
-$('discovery').addEventListener('toggle',()=>discover($('topic').value,$('query').value.trim().toLowerCase()));fetch('discovery.json?v=liked1').then(r=>r.ok?r.json():[]).then(x=>{discovery=x;discover($('topic').value,$('query').value.trim().toLowerCase());}).catch(()=>{});
+$('discovery').addEventListener('toggle',()=>discover($('topic').value,$('query').value.trim().toLowerCase()));fetch('discovery.json?v=drama-plus2').then(r=>r.ok?r.json():[]).then(x=>{discovery=x;discover($('topic').value,$('query').value.trim().toLowerCase());}).catch(()=>{});

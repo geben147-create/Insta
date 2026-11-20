@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "channels": [
+    {
+      "id": "world-views-korea",
+      "name": "세계에서 보는 한국",
+      "handle": "@세계에서보는한국",
+      "url": "https://www.youtube.com/@%EC%84%B8%EA%B3%84%EC%97%90%EC%84%9C%EB%B3%B4%EB%8A%94%ED%95%9C%EA%B5%AD"
+    }
+  ],
+  "events": [
+    {
+      "id": "channel-created-20261120",
+      "channel": "world-views-korea",
+      "date": "2026-11-20",
+      "kind": "채널 생성",
+      "title": "세계에서 보는 한국 채널 개설"
+    }
+  ],
+  "videos": [],
+  "samples": [],
+  "experiments": [],
+  "notes": []
+}

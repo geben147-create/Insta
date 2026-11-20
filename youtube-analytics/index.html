@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="YouTube 채널 운영 기록과 공개 성과 대시보드">
+  <title>YouTube 운영 기록 · Insta</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./dashboard.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로</a>
+<div class="layout">
+  <aside aria-label="탐색 및 필터">
+    <p class="brand" lang="en">YOUTUBE / RECORDS</p>
+    <nav class="site-links" aria-label="관련 사이트">
+      <a href="../">← Insta 연구 허브</a>
+      <a href="https://www.youtube.com/@%EC%84%B8%EA%B3%84%EC%97%90%EC%84%9C%EB%B3%B4%EB%8A%94%ED%95%9C%EA%B5%AD">YouTube 채널 <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/geben147-create/Insta">Insta 저장소 <span aria-hidden="true">↗</span></a>
+    </nav>
+    <h2 class="aside-title">기록 필터</h2>
+    <form id="filters" aria-describedby="filter-help">
+      <fieldset id="filter-fields" disabled>
+        <div><label for="channel">채널</label><select id="channel"><option value="">전체 채널</option></select></div>
+        <div><label for="date">기록 날짜 · KST</label><select id="date"><option value="">전체 날짜</option></select></div>
+        <div><label for="topic">영상 주제</label><select id="topic"><option value="">전체 주제</option></select></div>
+        <button type="reset">필터 초기화</button>
+      </fieldset>
+    </form>
+    <p class="muted small" id="filter-help">채널 공통 기록에는 영상 주제를 적용하지 않습니다.</p>
+    <nav class="section-links" aria-label="대시보드 섹션">
+      <a href="#records">운영 기록</a><a href="#charts">성과 그래프</a>
+      <a href="#branding">브랜딩</a><a href="#videos">영상 · 썸네일</a>
+      <a href="#experiments">공식 A/B</a><a href="#rank">영상 순위</a><a href="#notes">회고</a>
+    </nav>
+  </aside>
+  <main id="main" tabindex="-1">
+    <header>
+      <p class="tag">채널 운영 / 공개 요약</p>
+      <h1>YouTube 운영 기록</h1>
+      <p class="channel-line">세계에서 보는 한국 <span class="handle">@세계에서보는한국</span></p>
+    </header>
+    <noscript><p>필터와 운영 기록을 보려면 JavaScript를 켜세요.</p></noscript>
+    <p id="status" role="status">공개 기록을 불러오는 중입니다.</p>
+    <div id="metrics" class="metrics" aria-label="선택 범위 요약"></div>
+    <div class="overview">
+      <section id="records">
+        <h2>운영 타임라인</h2>
+        <div id="event-list"></div>
+      </section>
+      <section id="charts">
+        <h2>성과 그래프</h2>
+        <div id="chart-list" class="chart-grid"></div>
+      </section>
+    </div>
+    <section id="branding">
+      <div class="section-heading"><h2>브랜딩 미리보기</h2><span class="badge">검토용</span></div>
+      <p class="muted section-copy">‘세계선 한국’ 디자인 시안. 실제 채널에 적용됐다는 뜻은 아닙니다.</p>
+      <div class="brand-grid">
+        <figure><div class="brand-art"><img src="./assets/brand/a-logo.png" alt="A 수평선 로고"><span hidden>이미지 준비 중</span></div><figcaption>A 수평선 · 추천<br><a href="./assets/brand/a-banner.png">채널아트</a> · <a href="./assets/brand/a-thumb.png">썸네일</a></figcaption></figure>
+        <figure><div class="brand-art"><img src="./assets/brand/b-logo.png" alt="B 시선의 창 로고"><span hidden>이미지 준비 중</span></div><figcaption>B 시선의 창<br><a href="./assets/brand/b-banner.png">채널아트</a> · <a href="./assets/brand/b-thumb.png">썸네일</a></figcaption></figure>
+        <figure><div class="brand-art"><img src="./assets/brand/c-logo.png" alt="C 시선 신호 로고"><span hidden>이미지 준비 중</span></div><figcaption>C 시선 신호<br><a href="./assets/brand/c-banner.png">채널아트</a> · <a href="./assets/brand/c-thumb.png">썸네일</a></figcaption></figure>
+      </div>
+    </section>
+    <div class="detail-grid">
+      <section id="videos"><h2>영상 · 썸네일</h2><div id="video-list"></div></section>
+      <section id="experiments"><h2>공식 A/B 실험</h2><div id="ab-list"></div></section>
+      <section id="rank"><h2>영상별 순위</h2><div id="rank-list"></div></section>
+      <section id="notes"><h2>성공·실패 회고</h2><div id="note-list"></div></section>
+    </div>
+    <footer>미등록은 0이 아닙니다. 공개가 승인된 기록만 표시하며 실시간 YouTube 통계와 연동하지 않습니다.</footer>
+  </main>
+</div>
+</body>
+</html>

@@ -38,3 +38,8 @@ CUDA_VISIBLE_DEVICES=1 python make_mp3.py --text guide_narration.txt --out myvoi
 - Instagram 공식 API 게시 완료는 container FINISHED뿐 아니라 `media_publish`의 Media ID 및 permalink 확인까지 필요합니다.
 - `share_to_feed=false`는 **비공개 게시 모드가 아닙니다**. 테스트라도 공개 릴스 게시가 될 수 있습니다.
 - 자동 종료는 최초 RTC 기상/원격 접속/복구 경로와 예외 처리 테스트를 통과한 뒤 활성화하세요.
+
+## 큰 MP3 및 예약 게시에 관한 중요한 누락
+
+- 5만 자 음성은 낭독 속도에 따라 2~4시간 이상도 가능하고, 96kbps MP3라면 **약 86~173MB(2~4시간 가정)**가 됩니다. GitHub 일반 파일은 50MiB 초과 시 경고, 100MiB 초과 시 차단됩니다. **Git LFS는 GitHub Pages에서 지원되지 않습니다.** 큰 파일은 여러 편으로 분리하거나 별도 오브젝트 스토리지에 두세요.
+- Instagram Graph API 자체에는 일반적인 ‘몇 주 후 자동 발행’ 예약 파라미터가 없습니다. 컨테이너는 약 24시간 안에 발행하지 않으면 만료될 수 있습니다. **PC가 꺼져 있어도 예약 시간에 게시하려면 Meta Business Suite 예약 또는 별도 클라우드 스케줄러**를 이용해야 합니다. 자체 Ubuntu 작업 큐만 사용할 경우 실제 게시 시점에 PC가 켜져 있어야 합니다.

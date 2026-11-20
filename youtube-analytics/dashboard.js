@@ -85,7 +85,10 @@ function drawChart(metric, rows, titleFor) {
   const chart = el('article', null, 'metric');
   chart.append(el('h3', metric.label));
   if (!series.length) {
-    chart.append(el('p', '관측값 미등록', 'chart-empty'));
+    const help = el('details');
+    help.append(el('summary', '관측값 미등록 · 이유 보기'),
+      el('p', `선택 범위에 공개된 영상별 ${metric.label} 관측값이 없습니다. 미등록은 0${metric.unit}이 아닙니다. 날짜와 측정값이 등록되면 그래프가 표시됩니다.`));
+    chart.append(help);
     return chart;
   }
   const points = series.flatMap(s => s.points);
@@ -135,12 +138,13 @@ function render(data) {
   const scoped = Object.values(filters).some(Boolean);
   byId('status').textContent = scoped ? '선택한 조건의 공개 기록입니다.' : '전체 공개 기록 · 날짜 기준 KST';
   const items = [
-    ['운영 기록', `${picked.events.length}건`], ['등록 영상', `${picked.videos.length}편`],
-    ['성과 관측일', picked.samples.length ? `${new Set(picked.samples.map(r => r.date)).size}일` : '미등록']
+    ['records', '운영 기록', `${picked.events.length}건`], ['videos', '등록 영상', `${picked.videos.length}편`],
+    ['charts', '성과 관측일', picked.samples.length ? `${new Set(picked.samples.map(r => r.date)).size}일` : '미등록']
   ];
-  byId('metrics').replaceChildren(...items.map(([label, value]) => {
-    const item = el('dl', null, 'summary-metric');
-    item.append(el('dt', label), el('dd', value));
+  byId('metrics').replaceChildren(...items.map(([target, label, value]) => {
+    const item = el('a', null, 'summary-metric');
+    item.href = `#${target}`;
+    item.append(el('span', label), el('strong', value));
     return item;
   }));
 

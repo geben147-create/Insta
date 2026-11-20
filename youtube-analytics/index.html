@@ -31,7 +31,7 @@
     <nav class="section-links" aria-label="대시보드 섹션">
       <a href="#records">운영 기록</a><a href="#charts">성과 그래프</a>
       <a href="#branding">브랜딩</a><a href="#videos">영상 · 썸네일</a>
-      <a href="#experiments">공식 A/B</a><a href="#rank">영상 순위</a><a href="#notes">회고</a>
+      <a href="#experiments">공식 A/B</a><a href="#rank">영상 순위</a><a href="#notes">회고</a><a href="#qa">QA 확인</a>
     </nav>
   </aside>
   <main id="main" tabindex="-1">
@@ -50,15 +50,16 @@
       </section>
       <section id="charts">
         <h2>성과 그래프</h2>
+        <p>조회수·노출수·클릭률은 실시간 통계가 아닙니다. 선택한 기간의 공개 관측값만 표시합니다. <a href="./public-data.json">공개 원자료 보기 (JSON)</a></p>
         <div id="chart-list" class="chart-grid"></div>
       </section>
     </div>
     <section id="branding">
-      <div class="section-heading"><h2>브랜딩 미리보기</h2><span class="badge">검토용</span></div>
+      <div class="section-heading"><h2>브랜딩 미리보기</h2><span class="badge">B안 선택 · 채널 미적용</span></div>
       <p class="muted section-copy">‘세계선 한국’ 디자인 시안. 실제 채널에 적용됐다는 뜻은 아닙니다.</p>
       <div class="brand-grid">
-        <figure><div class="brand-art"><img src="./assets/brand/a-logo.png" alt="A 수평선 로고"><span hidden>이미지 준비 중</span></div><figcaption>A 수평선 · 추천<br><a href="./assets/brand/a-banner.png">채널아트</a> · <a href="./assets/brand/a-thumb.png">썸네일</a></figcaption></figure>
-        <figure><div class="brand-art"><img src="./assets/brand/b-logo.png" alt="B 시선의 창 로고"><span hidden>이미지 준비 중</span></div><figcaption>B 시선의 창<br><a href="./assets/brand/b-banner.png">채널아트</a> · <a href="./assets/brand/b-thumb.png">썸네일</a></figcaption></figure>
+        <figure><div class="brand-art"><img src="./assets/brand/a-logo.png" alt="A 수평선 로고"><span hidden>이미지 준비 중</span></div><figcaption>A 수평선<br><a href="./assets/brand/a-banner.png">채널아트</a> · <a href="./assets/brand/a-thumb.png">썸네일</a></figcaption></figure>
+        <figure><div class="brand-art"><img src="./assets/brand/b-logo.png" alt="B 시선의 창 로고"><span hidden>이미지 준비 중</span></div><figcaption>B 시선의 창 · 선택 (미적용)<br><a href="./assets/brand/b-banner.png">채널아트</a> · <a href="./assets/brand/b-thumb.png">썸네일</a></figcaption></figure>
         <figure><div class="brand-art"><img src="./assets/brand/c-logo.png" alt="C 시선 신호 로고"><span hidden>이미지 준비 중</span></div><figcaption>C 시선 신호<br><a href="./assets/brand/c-banner.png">채널아트</a> · <a href="./assets/brand/c-thumb.png">썸네일</a></figcaption></figure>
       </div>
     </section>
@@ -68,6 +69,7 @@
       <section id="rank"><h2>영상별 순위</h2><div id="rank-list"></div></section>
       <section id="notes"><h2>성공·실패 회고</h2><div id="note-list"></div></section>
     </div>
+    <section id="qa"><h2>대시보드 QA · 2026-11-20</h2><p>공개 페이지에서 성과 그래프 링크의 도착 위치와 세 지표의 미등록 표시를 확인했습니다. 채널 실적이나 영상 게시 여부에 대한 검증은 아닙니다.</p></section>
     <footer>미등록은 0이 아닙니다. 공개가 승인된 기록만 표시하며 실시간 YouTube 통계와 연동하지 않습니다.</footer>
   </main>
 </div>

@@ -1,7 +1,7 @@
 'use strict';
 const $=id=>document.getElementById(id);
 const names={US:'미국',KR:'한국',JP:'일본',HK:'홍콩',UK:'영국',FR:'프랑스',DE:'독일',RU:'러시아',GL:'글로벌·시장 미확인'};
-const topics={all:'전체',grants:'AI 창업·지원금',stock:'주식',etf:'ETF',property:'부동산',top:'총정리·TOP형',crypto:'코인'};
+const topics={all:'전체',viral:'전체 인기 · 억뷰',grants:'AI 창업·지원금',stock:'주식',etf:'ETF',property:'부동산',top:'총정리·TOP형',crypto:'코인'};
 const levels={easy:'쉬움',mixed:'보조 자료 필요',hard:'어려움'};
 const fmt=n=>Number.isFinite(n)?n.toLocaleString('ko-KR'):'미확인';let rows=[],asc=false;
 function add(parent,tag,text,cls){const n=document.createElement(tag);if(text!=null)n.textContent=text;if(cls)n.className=cls;parent.append(n);return n;}
@@ -12,10 +12,13 @@ function openDetail(x,i){const a=$('detailBody');a.replaceChildren();add(a,'h2',
 $('exit').onclick=()=>$('detail').close();
 for(const [k,name] of Object.entries(topics)){const opt=add($('topic'),'option',name);opt.value=k;}
 const initial=new URLSearchParams(location.search).get('topic');if(Object.hasOwn(topics,initial))$('topic').value=initial;
+const bestTopics=new Set(['viral','top','grants']);
+if(bestTopics.has(initial))$('sort').value='p';
+$('topic').addEventListener('change',()=>{$('sort').value=bestTopics.has($('topic').value)?'p':'d';asc=false;$('dir').textContent='내림 ▼';});
 
 for(const [cc,name] of [['','전체'],...Object.entries(names)]) {const opt=add($('country'),'option',name);opt.value=cc;}
 for(const key of ['country','level','period','sort','query','topic','mode','visual'])$(key).addEventListener(key==='query'?'input':'change',render);
 $('dir').onclick=()=>{asc=!asc;$('dir').textContent=asc?'오름 ▲':'내림 ▼';render();};
 $('openAll').onclick=()=>document.querySelectorAll('#detailBody details').forEach(d=>d.open=true);
 $('closeAll').onclick=()=>document.querySelectorAll('#detailBody details').forEach(d=>d.open=false);
-fetch('data.json?v=high3').then(r=>{if(!r.ok)throw Error('data');return r.json();}).then(x=>{rows=x;render();}).catch(()=>{$('status').textContent='자료를 불러오지 못했습니다. 새로고침해 주세요.';});
+fetch('data.json?v=viral4').then(r=>{if(!r.ok)throw Error('data');return r.json();}).then(x=>{rows=x;render();}).catch(()=>{$('status').textContent='자료를 불러오지 못했습니다. 새로고침해 주세요.';});

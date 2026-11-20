@@ -15,10 +15,46 @@
       "date": "2026-11-20",
       "kind": "채널 생성",
       "title": "세계에서 보는 한국 채널 개설"
+    },
+    {
+      "id": "published-wKrK6oxHjwE",
+      "video": "wKrK6oxHjwE",
+      "date": "2026-11-20",
+      "kind": "영상 게시",
+      "title": "한국 메모리 찾은 이유 웨이퍼에 남긴 부탁",
+      "detail": "YouTube 공개 게시 확인"
     }
   ],
-  "videos": [],
-  "samples": [],
+  "videos": [
+    {
+      "id": "wKrK6oxHjwE",
+      "title": "한국 메모리 찾은 이유 웨이퍼에 남긴 부탁",
+      "date": "2026-11-20",
+      "channel": "world-views-korea",
+      "url": "https://www.youtube.com/watch?v=wKrK6oxHjwE",
+      "topic": "반도체",
+      "detail": "공개 영상 · 공식 썸네일 A/B/C 미시작"
+    }
+  ],
+  "samples": [
+    {
+      "video": "wKrK6oxHjwE",
+      "date": "2026-11-20",
+      "views": 0,
+      "impressions": null,
+      "ctr": null,
+      "observedAt": "2026-11-20T22:08:41+09:00",
+      "source": "YouTube 공개 영상 페이지"
+    }
+  ],
   "experiments": [],
-  "notes": []
+  "notes": [
+    {
+      "id": "ab-pending-wKrK6oxHjwE",
+      "video": "wKrK6oxHjwE",
+      "date": "2026-11-20",
+      "title": "썸네일 A/B/C 미시작",
+      "detail": "Studio 맞춤 썸네일 전화번호 인증 필요. 후보별 조회수와 우승 결과 없음."
+    }
+  ]
 }

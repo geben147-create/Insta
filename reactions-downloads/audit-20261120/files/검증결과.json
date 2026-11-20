@@ -1,0 +1,30 @@
+{
+  "verification": "PASS",
+  "tsv_row_counts": {
+    "ID별_영상_원어_한국어_경로_SHA256.tsv": 1646,
+    "PC과거290_870현행_ID대조.tsv": 290,
+    "검수필요.tsv": 108,
+    "결과물_SHA256.tsv": 22,
+    "기존자막_품질실패.tsv": 268,
+    "실패.tsv": 0,
+    "실패_시도이력_최종실패와별개.tsv": 11,
+    "영상_중복포함_2064_해시.tsv": 2064,
+    "완료.tsv": 0,
+    "원문_한국어_큐타임코드_대조.tsv": 998,
+    "자막_영상길이_범위검사.tsv": 2489,
+    "자막_전체_품질검사.tsv": 2490,
+    "차단.tsv": 100,
+    "한국어번역_검증완료.tsv": 46,
+    "후보208_ID대조_다운로드판정.tsv": 208,
+    "후속_자막보완_작업큐.tsv": 488
+  },
+  "empty_or_malformed_final_cells": 0,
+  "new_translation_hashes_reverified": 46,
+  "new_subtitles_outside_video": 0,
+  "final_manifest_entries": 24,
+  "bundle": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/동기화점검/20261120_140138_Hermes/중국SNS_870점검_20261120_최종.zip",
+  "bundle_bytes": 1358635,
+  "bundle_sha256": "b095ec7e82edf9839e0266ffb622c2a1d0e6799ba8104fc64191a6aaf3ce63f2",
+  "bundle_members": 111,
+  "bundle_crc_test": "PASS"
+}

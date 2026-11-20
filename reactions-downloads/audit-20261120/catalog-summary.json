@@ -1,0 +1,422 @@
+{
+  "generated_at": "2026-11-20T05:58:53.717704+00:00",
+  "repository": "geben147-create/Insta",
+  "branch": "main",
+  "tree_sha": "a3058c7940d759499d1bc0d9367bfac1dd646a9b",
+  "tree_truncated": false,
+  "unique_file_links": 164,
+  "unique_urls_all_fields": 586,
+  "raw_read_attempted": 164,
+  "raw_read_success": 164,
+  "raw_read_failure": 0,
+  "menu_groups": 11,
+  "menu_link_count": 92,
+  "menu_data_files": 90,
+  "downloads_root_data_documents": 33,
+  "by_category": {
+    "documentation_or_script": 30,
+    "dashboard_or_script_hub": 17,
+    "candidates": 8,
+    "video_download_capture_status": 5,
+    "comments": 30,
+    "mixed_media_status_inventory": 14,
+    "candidates_or_download_queue": 2,
+    "structured_metadata_or_candidate_data": 2,
+    "collected_sources_or_candidates": 50,
+    "dedup_manifest": 1,
+    "analysis_or_coverage": 3,
+    "subtitles": 2
+  },
+  "identical_content_groups": [
+    [
+      "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__UAE_언론보도.tsv",
+      "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__브라질_언론보도.tsv",
+      "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__스페인_언론보도.tsv",
+      "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__체코_언론보도.tsv",
+      "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__호주_언론보도.tsv"
+    ],
+    [
+      "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__스페인_댓글.tsv",
+      "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__체코_댓글.tsv"
+    ]
+  ],
+  "failures": [],
+  "completed_video_total": null,
+  "allcount": null,
+  "count_policy": "파일별 csv.reader 논리적 행수만 제공. 후보·댓글·자막·다운로드상태 분리; 날짜별·latest·비교·추가자료 중복 합산 금지. 영상완료수 산정 안 함. raw URL과 viewer 대상 URL 실읽기 검증; GitHub blob URL은 tree 경로만 검증.",
+  "max_concurrent_fetches": 5,
+  "excluded": [
+    "썸네일·댓글 PNG 전체목록",
+    "개별 SRT 전체목록"
+  ],
+  "pages_http_verified": true,
+  "hub_data_file_count": 91,
+  "tabular_row_width_warning_files": [
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/XHS_한국반응_분석.csv",
+      "logical_data_records": 171,
+      "mismatch_count": 164,
+      "placeholder_records": 0
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/독일_프랑스_영국__독일_수집.tsv",
+      "logical_data_records": 469,
+      "mismatch_count": 1,
+      "placeholder_records": 0
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__UAE_수집.tsv",
+      "logical_data_records": 296,
+      "mismatch_count": 276,
+      "placeholder_records": 0
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__UAE_언론보도.tsv",
+      "logical_data_records": 1,
+      "mismatch_count": 1,
+      "placeholder_records": 1
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__브라질_수집.tsv",
+      "logical_data_records": 280,
+      "mismatch_count": 263,
+      "placeholder_records": 0
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__브라질_언론보도.tsv",
+      "logical_data_records": 1,
+      "mismatch_count": 1,
+      "placeholder_records": 1
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__스페인_수집.tsv",
+      "logical_data_records": 168,
+      "mismatch_count": 168,
+      "placeholder_records": 0
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__스페인_언론보도.tsv",
+      "logical_data_records": 1,
+      "mismatch_count": 1,
+      "placeholder_records": 1
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__체코_수집.tsv",
+      "logical_data_records": 276,
+      "mismatch_count": 276,
+      "placeholder_records": 0
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__체코_언론보도.tsv",
+      "logical_data_records": 1,
+      "mismatch_count": 1,
+      "placeholder_records": 1
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__호주_수집.tsv",
+      "logical_data_records": 287,
+      "mismatch_count": 284,
+      "placeholder_records": 0
+    },
+    {
+      "path": "국뽕해외반응-중국SNS-20261103/data/브라질_호주_체코_스페인_UAE__호주_언론보도.tsv",
+      "logical_data_records": 1,
+      "mismatch_count": 1,
+      "placeholder_records": 1
+    }
+  ],
+  "read_http_status_counts": {
+    "200": 164
+  },
+  "key_file_rows": {
+    "reactions-downloads/PC-remaining-20261117.tsv": 290,
+    "reactions-downloads/comments.tsv": 99,
+    "reactions-downloads/downloads.tsv": 99,
+    "reactions-downloads/japan-direct-latest.tsv": 589,
+    "reactions-downloads/korea-direct-latest.tsv": 405,
+    "reactions-downloads/korea-japan-additional-nonyoutube-queue-20261118.tsv": 181,
+    "reactions-downloads/korea-japan-additional500-20261118.tsv": 500,
+    "reactions-downloads/korea-japan-compare-20261118.tsv": 63,
+    "reactions-downloads/new-sources-20261117.tsv": 27
+  },
+  "viewer_http_checks": {
+    "unique_targets": 42,
+    "success": 42,
+    "failure": 0,
+    "results": {
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/": {
+        "http_status": 200,
+        "bytes": 31255,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/index.html": {
+        "http_status": 200,
+        "bytes": 31255,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/index.html"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/": {
+        "http_status": 200,
+        "bytes": 29391,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/guide.html": {
+        "http_status": 200,
+        "bytes": 4266,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/guide.html"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/prompts.html": {
+        "http_status": 200,
+        "bytes": 4276,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/prompts.html"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/CLAUDE_EDIT_PROMPT.md": {
+        "http_status": 200,
+        "bytes": 7517,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/CLAUDE_EDIT_PROMPT.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/EVIDENCE_EDITORIAL.md": {
+        "http_status": 200,
+        "bytes": 17111,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/EVIDENCE_EDITORIAL.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/OUTLINE_TOP10.md": {
+        "http_status": 200,
+        "bytes": 54215,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/OUTLINE_TOP10.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/SCRIPTS_ALL_10_DRAFT.md": {
+        "http_status": 200,
+        "bytes": 122219,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/SCRIPTS_ALL_10_DRAFT.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/index.html": {
+        "http_status": 200,
+        "bytes": 114474,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/index.html"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/references.html": {
+        "http_status": 200,
+        "bytes": 24395,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/references.html"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP01.md": {
+        "http_status": 200,
+        "bytes": 14774,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP01.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP02.md": {
+        "http_status": 200,
+        "bytes": 13782,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP02.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP03.md": {
+        "http_status": 200,
+        "bytes": 11488,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP03.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP04.md": {
+        "http_status": 200,
+        "bytes": 11498,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP04.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP05.md": {
+        "http_status": 200,
+        "bytes": 11603,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP05.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP06.md": {
+        "http_status": 200,
+        "bytes": 11106,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP06.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP07.md": {
+        "http_status": 200,
+        "bytes": 11989,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP07.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP08.md": {
+        "http_status": 200,
+        "bytes": 11206,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP08.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP09.md": {
+        "http_status": 200,
+        "bytes": 12246,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP09.md"
+      },
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP10.md": {
+        "http_status": 200,
+        "bytes": 11549,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/script/v6-20261115/scripts/EP10.md"
+      },
+      "https://geben147-create.github.io/Insta/%ED%95%B4%EC%99%B8%EC%A0%84%EB%AC%B8%EA%B0%80%EB%B0%98%EC%9D%91-%ED%95%9C%EC%9D%BC-20261115/index.html": {
+        "http_status": 200,
+        "bytes": 60707,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/%ED%95%B4%EC%99%B8%EC%A0%84%EB%AC%B8%EA%B0%80%EB%B0%98%EC%9D%91-%ED%95%9C%EC%9D%BC-20261115/index.html"
+      },
+      "https://geben147-create.github.io/Insta/japan-reactions/README.md": {
+        "http_status": 200,
+        "bytes": 156,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/japan-reactions/README.md"
+      },
+      "https://geben147-create.github.io/Insta/japan-reactions/jp_cn_candidates.html": {
+        "http_status": 200,
+        "bytes": 119397,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/japan-reactions/jp_cn_candidates.html"
+      },
+      "https://geben147-create.github.io/Insta/japan-reactions/jp_cn_candidates.tsv": {
+        "http_status": 200,
+        "bytes": 50197,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/japan-reactions/jp_cn_candidates.tsv"
+      },
+      "https://geben147-create.github.io/Insta/japan-reactions/jp_global_candidates.html": {
+        "http_status": 200,
+        "bytes": 120878,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/japan-reactions/jp_global_candidates.html"
+      },
+      "https://geben147-create.github.io/Insta/japan-reactions/jp_global_candidates.tsv": {
+        "http_status": 200,
+        "bytes": 44117,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/japan-reactions/jp_global_candidates.tsv"
+      },
+      "https://geben147-create.github.io/Insta/japan-reactions/sports_candidates.html": {
+        "http_status": 200,
+        "bytes": 81338,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/japan-reactions/sports_candidates.html"
+      },
+      "https://geben147-create.github.io/Insta/japan-reactions/sports_candidates.tsv": {
+        "http_status": 200,
+        "bytes": 36157,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/japan-reactions/sports_candidates.tsv"
+      },
+      "https://geben147-create.github.io/Insta/reactions-downloads/": {
+        "http_status": 200,
+        "bytes": 79957,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/reactions-downloads/"
+      },
+      "https://geben147-create.github.io/Insta/reactions-downloads/index.html": {
+        "http_status": 200,
+        "bytes": 79957,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/reactions-downloads/index.html"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v5/index.html": {
+        "http_status": 200,
+        "bytes": 607,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v5/index.html"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v6/CLAUDE_CODE_EDIT_GUIDE.md": {
+        "http_status": 200,
+        "bytes": 5640,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v6/CLAUDE_CODE_EDIT_GUIDE.md"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v6/index.html": {
+        "http_status": 200,
+        "bytes": 1138,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v6/index.html"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v7-20261115/README.md": {
+        "http_status": 200,
+        "bytes": 5110,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v7-20261115/README.md"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v7-20261115/index.html": {
+        "http_status": 200,
+        "bytes": 935,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v7-20261115/index.html"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v8-20261115/README.md": {
+        "http_status": 200,
+        "bytes": 6228,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v8-20261115/README.md"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v8-20261115/index.html": {
+        "http_status": 200,
+        "bytes": 21865,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v8-20261115/index.html"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/README.md": {
+        "http_status": 200,
+        "bytes": 15875,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/README.md"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/index.html": {
+        "http_status": 200,
+        "bytes": 964,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v88/index.html"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v9-20261116/README.md": {
+        "http_status": 200,
+        "bytes": 1784,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v9-20261116/README.md"
+      },
+      "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v9-20261116/index.html": {
+        "http_status": 200,
+        "bytes": 821,
+        "error": null,
+        "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/foreign-reactions-v9-20261116/index.html"
+      }
+    },
+    "note": "fragment stripped for HTTP; menu filenames additionally confirmed against repository tree and fetched raw files"
+  },
+  "schema": {
+    "top_level": "items, summary",
+    "primary_fields": [
+      "title",
+      "group",
+      "kind",
+      "path",
+      "rows",
+      "bytes",
+      "http_status",
+      "github_url",
+      "viewer_url",
+      "raw_url",
+      "error"
+    ],
+    "http_status": "raw source HTTP status",
+    "rows": "logical nonempty CSV/TSV records excluding first header; other formats null",
+    "error": "raw source read error or null",
+    "viewer_http_status": "live viewer URL response status (fragment removed)"
+  }
+}

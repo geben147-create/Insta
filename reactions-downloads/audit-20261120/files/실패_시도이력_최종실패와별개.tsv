@@ -1,0 +1,12 @@
+﻿ID	status	action	reason	phase	error
+BV1wWt6zTELB	실패	WHISPER_FALLBACK	Library libcublas.so.12 is not found or cannot be loaded	UNKNOWN	UNKNOWN
+BV1qqk5BkEar	실패	WHISPER_FALLBACK	Library libcublas.so.12 is not found or cannot be loaded	UNKNOWN	UNKNOWN
+BV1S54y1g7fG	실패	WHISPER_FALLBACK	Library libcublas.so.12 is not found or cannot be loaded	UNKNOWN	UNKNOWN
+BV1bh4y1w76f	실패	WHISPER_FALLBACK	Library libcublas.so.12 is not found or cannot be loaded	UNKNOWN	UNKNOWN
+BV1ge8G6YEB1	실패	WHISPER_FALLBACK	Library libcublas.so.12 is not found or cannot be loaded	UNKNOWN	UNKNOWN
+BV1UnLVzgEop	실패	WHISPER_FALLBACK	Library libcublas.so.12 is not found or cannot be loaded	UNKNOWN	UNKNOWN
+BV16BT8zWEoS	실패	WHISPER_FALLBACK	Library libcublas.so.12 is not found or cannot be loaded	UNKNOWN	UNKNOWN
+BV1sQ3yz1E69	실패	WHISPER_FALLBACK	Library libcublas.so.12 is not found or cannot be loaded	UNKNOWN	UNKNOWN
+BV1PBL7zLEUJ	실패	WHISPER_FALLBACK	Library libcublas.so.12 is not found or cannot be loaded	UNKNOWN	UNKNOWN
+BV1oFzEBkEtt	실패	WHISPER_FALLBACK	Library libcublas.so.12 is not found or cannot be loaded	UNKNOWN	UNKNOWN
+UNKNOWN	UNKNOWN	UNKNOWN	UNKNOWN	CUDA_MODEL_LOAD_FAILED	Invalid CPU device index: 1

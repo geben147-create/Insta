@@ -1,0 +1,78 @@
+{
+  "captured": "2026-11-20T14:25:46.246996",
+  "root": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)",
+  "final_output": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/동기화점검/20261120_140138_Hermes/최종장부_v3",
+  "video_files_hashed": 2064,
+  "video_unique_ids": 1486,
+  "video_bytes": 36920792243,
+  "video_container_pass": 2064,
+  "video_stable_during_hash": 2064,
+  "video_no_audio_stream_files": 6,
+  "indexed_hash_comparison": {
+    "MATCH": 1450,
+    "UNKNOWN": 614
+  },
+  "initial_subtitle_files": 2441,
+  "initial_subtitle_structure": {
+    "PASS": 2173,
+    "FAIL": 268
+  },
+  "new_translated_ko": 46,
+  "new_whisper_original": 3,
+  "new_translation_cues": 1326,
+  "empty_new_translation_cues": 0,
+  "candidate_unique": 208,
+  "candidate_status": {
+    "차단": 100,
+    "검수필요": 108
+  },
+  "candidate_action": {
+    "BLOCKED_PC_INVENTORY_UNKNOWN": 99,
+    "REUSE_EXISTING": 108,
+    "EXCLUDE_YOUTUBE": 1
+  },
+  "linked_ids": 1646,
+  "PC_current": "UNKNOWN",
+  "PC_access": "UNAVAILABLE: TCP22 timeout both candidate Tailscale Windows nodes; source PC identity UNKNOWN; no saved host key or usable agent key",
+  "PC_historical_rows": 290,
+  "PC_historical_ids_found_870": 233,
+  "PC_historical_ids_not_found_870": 57,
+  "PC_870_hash_comparison": "UNKNOWN",
+  "new_videos_downloaded": 0,
+  "whole_video_content_completed": 0,
+  "attempt_failures_historical": 11,
+  "original_files_modified_by_this_task": false,
+  "economy_onepage_modified": false,
+  "github_written": false,
+  "notes": [
+    "Video count is paths, unique ID count separately deduplicated.",
+    "Structural PASS is not semantic approval.",
+    "Existing TikTok English captions reused, not mislabeled as Douyin or Chinese original speech.",
+    "Xiaohongshu missing source-post photo/video type remains UNKNOWN.",
+    "Missing-on-both cannot be established without current PC inventory.",
+    "Current PC hash comparison remains UNKNOWN; historical 290 inventory is not current."
+  ],
+  "pending_subtitle_actions": {
+    "TRANSLATE_ONLY": 32,
+    "FETCH_PLATFORM_CAPTIONS_THEN_WHISPER": 424,
+    "CHECK_SILENT_MEDIA_OR_UNMUXED_FRAGMENT_FIRST": 5,
+    "WHISPER_PENDING_AFTER_PLATFORM_ATTEMPT": 27
+  },
+  "subtitle_range_status": {
+    "WITHIN_VIDEO_BOUNDS": 2118,
+    "UNKNOWN": 206,
+    "REVIEW_LARGE_TAIL_GAP": 157,
+    "FAIL_OUTSIDE_VIDEO": 8
+  },
+  "paired_timeline_status": {
+    "MATCH": 951,
+    "DIFFERENT_REVIEW": 47
+  },
+  "existing_subtitle_utf8_decode_failures": 1,
+  "candidate_status_all_categories": {
+    "완료": 0,
+    "실패": 0,
+    "검수필요": 108,
+    "차단": 100
+  }
+}

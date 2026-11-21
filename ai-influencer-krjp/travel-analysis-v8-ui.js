@@ -87,6 +87,28 @@
     html += '</div>';
     return html;
   }
+  const visualData = {
+    Db7QQzpRxPf: {duration: 46.833, frames: 1405, bins: 469, cuts: [], captionEnd: 7.533,
+      scenes: ['도착 · 여행가방', '돌 아치 · 그네', '청록색 풀 · 입수', '풀 주변 시설 · 전망']},
+    DTZ8QPYkWIm: {duration: 13.7, frames: 411, bins: 137, cuts: [1.567, 2.7, 4.2, 5.433, 6.7, 8.2, 9.7, 11.733], captionEnd: 9.7,
+      scenes: ['객실', '사케 잔 · 디스펜서', '족욕 · 물', '야경 · 호텔명']}
+  };
+  const chartStyle = document.createElement('style');
+  chartStyle.textContent = '.ta-method summary{padding:9px 7px;cursor:pointer;color:#a9e7db}.ta-chart{position:relative;height:18px;margin:10px 0;background:#324357;border-radius:4px}.ta-chart span{position:absolute;top:0;height:100%;background:#77d4bc}.ta-chart i{position:absolute;top:-3px;height:24px;border-left:2px solid #ffd166}.ta-scenes{display:grid;gap:4px}.ta-scenes li{background:#223546;padding:5px;border-radius:4px}.ta-method p,.ta-method figure{margin:8px;overflow-wrap:anywhere}';
+  document.head.appendChild(chartStyle);
+  function methodPanels(id) {
+    const clip = visualData[id];
+    const entry = getEntry(id);
+    const scenes = clip.scenes.map(scene => '<li>' + escapeText(scene) + '</li>').join('');
+    const marks = clip.cuts.map(time => '<i style="left:' + (time / clip.duration * 100) + '%" title="' + time + '초"></i>').join('');
+    return '<details class="ta-method"><summary>Watch 분석 펼치기</summary><ol class="ta-scenes">' + scenes +
+      '</ol><p>' + escapeText(entry.watch.summary) + '</p></details>' +
+      '<details class="ta-method"><summary>OpenCV 분석 펼치기</summary><figure><figcaption>' +
+      clip.duration + '초 · ' + clip.frames + '프레임 · 0.1초 측정 ' + clip.bins + '행</figcaption>' +
+      '<div class="ta-chart" aria-hidden="true"><span style="width:' + (clip.captionEnd / clip.duration * 100) + '%"></span>' + marks +
+      '</div><p>초록색은 첫 자막 구간, 노란 선은 확인한 컷 경계입니다.</p></figure><p>' +
+      escapeText(entry.opencv.summary) + '</p><p><a href="analysis-v8/opencv/' + id + '/timeline-0.1s.csv">0.1초 측정 CSV</a></p></details>';
+  }
   function addAnalysis() {
     var isTravel = location.hash === '#f_travel';
     grid.querySelectorAll('.c').forEach(function (card) {
@@ -101,11 +123,17 @@
       details.className = 'ta-v8';
       details.dataset.taV8Id = id;
       details.open = openCards.has(id);
+      if (visualData[id]) {
+      const methods = document.createElement('div');
+      methods.className = 'ta-v8 ta-methods';
+      methods.innerHTML = methodPanels(id);
+      thumb.insertAdjacentElement('afterend', methods);
+      }
       details.innerHTML = '<summary>분석 펼치기 · 숨기기</summary>' + bodyHtml(id, true);
       details.addEventListener('toggle', function () {
         if (details.open) openCards.add(id); else openCards.delete(id);
       });
-      thumb.insertAdjacentElement('afterend', details);
+      (card.querySelector('.ta-methods') || thumb).insertAdjacentElement('afterend', details);
     });
   }
   function closeDialog() { if (dialog.open) dialog.close(); }

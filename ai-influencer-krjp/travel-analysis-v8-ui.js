@@ -109,6 +109,19 @@
       '</div><p>초록색은 첫 자막 구간, 노란 선은 확인한 컷 경계입니다.</p></figure><p>' +
       escapeText(entry.opencv.summary) + '</p><p><a href="analysis-v8/opencv/' + id + '/timeline-0.1s.csv">0.1초 측정 CSV</a></p></details>';
   }
+  function top20Panels(id) {
+    const row = window.TRAVEL_TOP20[id];
+    const bars = (row.luma || []).map(value => '<i style="height:' + Math.max(2, value / 255 * 100) + '%"></i>').join('');
+    const measured = row.duration == null ? escapeText(row.error) :
+      row.duration + '초 · 0.1초 ' + row.bins + '행 · 자동 컷 후보 ' + row.cuts +
+      '개</p><p>저레벨 오디오 구간: ' + (row.silent == null ? '오디오 미확인' : row.silent + '개') +
+      '</p><div class="ta-luma" aria-label="시간순 평균 밝기">' + bars +
+      '</div><p><a href="analysis-v8/top20/' + id + '/timeline.csv">0.1초 CSV</a></p>';
+    return '<details class="ta-method"><summary>Watch · 장면 관찰</summary><p>' +
+      escapeText(row.watch || row.error) + '</p></details><details class="ta-method"><summary>OpenCV · 0.1초 측정</summary><p>' +
+      measured + (row.duration == null ? '</p>' : '') + '</details>';
+  }
+  chartStyle.textContent += '.ta-luma{height:40px;display:flex;align-items:end;gap:1px;margin:6px}.ta-luma i{flex:1;background:#66c4ff}.ta-toplink{display:block;padding:7px}';
   function addAnalysis() {
     var isTravel = location.hash === '#f_travel';
     grid.querySelectorAll('.c').forEach(function (card) {
@@ -123,10 +136,11 @@
       details.className = 'ta-v8';
       details.dataset.taV8Id = id;
       details.open = openCards.has(id);
-      if (visualData[id]) {
+      if (visualData[id] || (window.TRAVEL_TOP20 || {})[id]) {
       const methods = document.createElement('div');
       methods.className = 'ta-v8 ta-methods';
-      methods.innerHTML = methodPanels(id);
+      methods.innerHTML = (visualData[id] ? methodPanels(id) : top20Panels(id)) +
+        '<a class="ta-toplink" href="analysis-v8/top20/index.html">여행 상위 20편 비교 ↗</a>';
       thumb.insertAdjacentElement('afterend', methods);
       }
       details.innerHTML = '<summary>분석 펼치기 · 숨기기</summary>' + bodyHtml(id, true);

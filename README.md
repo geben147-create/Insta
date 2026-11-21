@@ -34,5 +34,5 @@
 
 [컬러 상태판 열기](https://geben147-create.github.io/Insta/research-hub-20261108/outreach-permissions-20261120/) · [GitHub 원본](./research-hub-20261108/outreach-permissions-20261120/) · [중복 방지 CSV](./research-hub-20261108/outreach-permissions-20261120/contacts.csv)
 
-2026-11-20 Gmail 실제 발송 51건을 확인. 긍정(범위 재확인) 1 · 거절 1 · 추가 정보 요청 1 · SMTP 실패 1 · 대기 47. 메일 원문과 수신자 주소는 공개하지 않음.
+2026-11-21 누적 59개 채널에 1차 문의 기록. 긍정(범위 재확인) 1 · 거절 1 · 추가 자료 요청 2 · SMTP 실패 1 · 회신 대기 54. 오늘 신규 8개 채널이며, Soy Daily는 첫 주소 반송 후 공식 주소로 정정해 발송함. 메일 원문과 주소는 공개하지 않음.
 <!--VIDEO-PERMISSIONS-20261120:END-->

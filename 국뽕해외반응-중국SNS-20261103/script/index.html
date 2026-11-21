@@ -80,7 +80,7 @@ window.onhashchange=route;
 $('q').oninput=function(){F.q=this.value.trim().toLowerCase();menu()};
 function chips(el,arr,key){el.innerHTML='';arr.forEach(function(a){var b=E('button',{className:F[key]===a?'on':''},a);b.onclick=function(){F[key]=a;chips(el,arr,key);menu()};el.appendChild(b)})}
 chips($('fc'),['전체','한국','일본','기타'],'country');chips($('fs'),['전체','완료','대기'],'st');
-function nav(){$('nav').innerHTML='<a href="#status">📊 처리 현황 (한 것/안 한 것·경로)</a><a href="#eval">⭐ 한국 평가 모음 (찬양·비판·비교)</a><a href="#prompts">📋 사용 프롬프트</a><a href="#guide">📑 형식 비교·사용법</a><a href="v6-20261115/" style="background:#163f55;color:#aafff1;font-weight:900">🆕 V6 신규10편 대본·뉴스·시트·편집</a>'}
+function nav(){$('nav').innerHTML='<a id="kimchi-script-17" href="kimchi-seoul-tokyo-20261121/">17분 대본 · 일본인이 맛본 한국 김치</a><a href="#status">📊 처리 현황 (한 것/안 한 것·경로)</a><a href="#eval">⭐ 한국 평가 모음 (찬양·비판·비교)</a><a href="#prompts">📋 사용 프롬프트</a><a href="#guide">📑 형식 비교·사용법</a><a href="v6-20261115/" style="background:#163f55;color:#aafff1;font-weight:900">🆕 V6 신규10편 대본·뉴스·시트·편집</a>'}
 function menu(){var m=$('menu');m.innerHTML='';var list=IDX.filter(function(v){return(F.country==='전체'||v.country===F.country||(F.country==='기타'&&!isK(v)))&&(F.st==='전체'||(F.st==='완료')===!!v.done)&&(!F.q||(v.id+' '+(v.title||'')+' '+(v.title_orig||'')).toLowerCase().indexOf(F.q)>=0)});
 var tree={};list.forEach(function(v){var c=isK(v)?v.country:'기타';(tree[c]=tree[c]||{});var k=ncat(v.cat);(tree[c][k]=tree[c][k]||[]).push(v)});
 ['한국','일본','기타'].forEach(function(c){if(!tree[c])return;var n=0;Object.keys(tree[c]).forEach(function(k){n+=tree[c][k].length});m.appendChild(E('div',{className:'cn'},(c==='한국'?'🇰🇷 ':c==='일본'?'🇯🇵 ':'🌐 ')+c+' <span class="mut">'+n+'</span>'));

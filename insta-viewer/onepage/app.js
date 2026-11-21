@@ -35,12 +35,13 @@ for(const [cc,label] of Object.entries(regions)){const b=add($('regions'),'butto
 $('more').onclick=()=>{limit=$('more').textContent.startsWith('더')?limit+24:24;render();};
 $('moreLinks').onclick=()=>{poolLimit=$('moreLinks').textContent.startsWith('후보 더')?poolLimit+40:40;renderPool();};$('pool').ontoggle=renderPool;
 $('dir').onclick=()=>{asc=!asc;$('dir').textContent=asc?'오름 ▲':'내림 ▼';render();};$('layout').onclick=()=>{table=!table;$('layout').textContent=table?'바둑판 보기':'표로 보기';$('layout').setAttribute('aria-pressed',String(table));render();};$('crop').onchange=e=>document.body.classList.toggle('crop',e.target.checked);
+if(['onepage-ai','onepage-startup','onepage-grants'].includes(topic))$('strict').checked=false;
 for(const k of ['query','type','sort','strict','viewRange','likesMin'])$(k).addEventListener(k==='query'?'input':'change',()=>{limit=24;render();});
 for(const b of bands){const el=add($('viewRange'),'option',b[1]);el.value=b[0];}
 $('likes50').onclick=()=>{const set=Number($('likesMin').value)!==50;$('likesMin').value=set?'50':'';if(set){$('sort').value='l';asc=false;$('dir').textContent='내림 ▼';}limit=24;render();};
 $('resetFilters').onclick=()=>{$('viewRange').value='';$('likesMin').value='';$('query').value='';$('type').value='';limit=24;render();};
 async function load(path){const r=await fetch(path);if(!r.ok)throw new Error(path);return r.json();}
-Promise.all([load('posts.json?v=fin12'),load('candidates.json?v=fin12')]).then(([a,b])=>{posts=a;pool=b;render();}).catch(()=>{$('status').textContent='데이터를 불러오지 못했습니다. 새로고침해주세요.';});
+Promise.all([load('posts.json?v=ig1121'),load('candidates.json?v=ig1121')]).then(([a,b])=>{posts=a;pool=b;render();}).catch(()=>{$('status').textContent='데이터를 불러오지 못했습니다. 새로고침해주세요.';});
 
 function enableZoom(img){img.classList.add('mediaZoom');const a=img.closest('a');if(!a)return;a.onclick=e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();const d=$('mediaZoom'),z=d.querySelector('img');z.src=img.currentSrc||img.src;z.alt=img.alt;$('originalImage').href=z.src;d.showModal();};}
 function optionState(id,apply){const a=$(id);const key='insta.grid11.'+location.pathname+id;try{const v=localStorage.getItem(key);if(v!==null){if(a.type==='checkbox')a.checked=v==='true';else if([...a.options].some(o=>o.value===v))a.value=v;}}catch{}const change=()=>{const v=a.type==='checkbox'?a.checked:a.value;apply(v);try{localStorage.setItem(key,String(v));}catch{}};a.addEventListener('change',change);change();}

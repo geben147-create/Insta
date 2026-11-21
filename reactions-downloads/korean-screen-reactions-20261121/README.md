@@ -10,3 +10,7 @@
 - [원어 대본 TXT 및 타임코드 SRT](transcripts/)
 
 MP4는 목록의 로컬 경로에 저장했습니다. 자동 전사 언어는 모델 감지값이며 본문은 수동 검수 전입니다.
+
+## 최신 한국 드라마 · by Codex Desktop
+
+[추가 조사 및 영상 경로](latest.tsv) · [통합 허브](../../reactions-hub/)

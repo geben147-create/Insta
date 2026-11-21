@@ -100,4 +100,7 @@ function render(){if(!cur||ITEMS[cur].t==='f'||!window.DATA||!DATA[cur])return;l
 $('g').onclick=e=>{const a=e.target.closest('.acc');if(a){acc=a.dataset.a;render();window.scrollTo(0,0);return}const m=e.target.closest('.m2');if(m)m.closest('.c').classList.toggle('open')};
 document.querySelectorAll('.mi').forEach(e=>e.onclick=ev=>{ev.preventDefault();open_(e.dataset.k);});
 open_(location.hash.slice(1)||'krai');
-</script></body></html>
+</script>
+<script src="travel-analysis-v8.js"></script>
+<script src="travel-analysis-v8-ui.js"></script>
+</body></html>

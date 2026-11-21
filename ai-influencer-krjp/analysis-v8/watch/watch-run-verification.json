@@ -1,0 +1,21 @@
+{
+  "engine": "local",
+  "transcription": "disabled; no captions available",
+  "upstream": "https://github.com/bradautomates/claude-video/tree/main/skills/watch",
+  "version": "0.3.2",
+  "paid_api_calls": 0,
+  "frames_selected_and_viewed": {
+    "DTZ8QPYkWIm": 9,
+    "Db7QQzpRxPf": 14
+  },
+  "notes": [
+    "All 23 selected frames were opened with view_image.",
+    "Two DTZ cut-neighbor sheets were additionally viewed.",
+    "Watch time labels are rounded; first video PTS is container +0.115s.",
+    "No speech or original SFX library identity is established."
+  ],
+  "directories": [
+    "watch/watch-i1re7xzf",
+    "watch/watch-d3vcseyy"
+  ]
+}

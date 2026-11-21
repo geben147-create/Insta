@@ -1,0 +1,26 @@
+{
+  "luma_gray_mean_0_255": {
+    "mean": 59.58,
+    "median": 56.74,
+    "q10": 10.18,
+    "q90": 109.83
+  },
+  "hsv_saturation_mean_0_255": {
+    "mean": 98.74,
+    "median": 100.16,
+    "q10": 67.3,
+    "q90": 121.09
+  },
+  "flow_p75_px_per_sample_at180w": {
+    "mean": 1.78,
+    "median": 0.29,
+    "q10": 0.0,
+    "q90": 6.22
+  },
+  "audio_rms_dbfs": {
+    "mean": -17.08,
+    "median": -16.26,
+    "q10": -25.06,
+    "q90": -10.05
+  }
+}

@@ -1,0 +1,275 @@
+id,start_s,source_pts_s,frame_index,overlay_label,matched_keywords,positive_keyword_presence,status
+DTZ8QPYkWIm,0.0,0.0,0,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.28}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.0,0.0,0,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.1,0.1,3,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.28}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.1,0.1,3,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.2,0.2,6,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.29}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.2,0.2,6,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.3,0.3,9,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.33}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.3,0.3,9,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.4,0.4,12,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.26}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.4,0.4,12,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.5,0.5,15,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.33}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.5,0.5,15,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.6,0.6,18,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.47}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.6,0.6,18,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.7,0.7,21,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.54}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.7,0.7,21,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.8,0.8,24,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.54}, {""word"": ""sake"", ""confidence"": 50.89}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,0.8,0.8,24,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,0.9,0.9,27,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.5}, {""word"": ""sake"", ""confidence"": 50.89}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,0.9,0.9,27,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,1.0,1.0,30,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.78}, {""word"": ""sake"", ""confidence"": 54.15}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,1.0,1.0,30,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,1.1,1.1,33,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.83}, {""word"": ""sake"", ""confidence"": 56.64}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,1.1,1.1,33,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,1.2,1.2,36,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.85}, {""word"": ""sake"", ""confidence"": 54.8}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,1.2,1.2,36,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,1.3,1.3,39,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.85}, {""word"": ""sake"", ""confidence"": 54.8}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,1.3,1.3,39,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,1.4,1.4,42,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.85}, {""word"": ""sake"", ""confidence"": 54.8}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,1.4,1.4,42,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,1.5,1.5,45,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.85}, {""word"": ""sake"", ""confidence"": 54.8}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,1.5,1.5,45,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,1.6,1.6,48,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.6}, {""word"": ""hotel"", ""confidence"": 95.61}, {""word"": ""sake"", ""confidence"": 93.3}, {""word"": ""foot"", ""confidence"": 96.32}, {""word"": ""bath"", ""confidence"": 96.3}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,1.6,1.6,48,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,1.7,1.7,51,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.71}, {""word"": ""hotel"", ""confidence"": 95.56}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.19}, {""word"": ""bath"", ""confidence"": 96.19}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,1.7,1.7,51,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,1.8,1.8,54,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.53}, {""word"": ""sake"", ""confidence"": 93.25}, {""word"": ""foot"", ""confidence"": 96.5}, {""word"": ""bath"", ""confidence"": 96.68}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,1.8,1.8,54,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,1.9,1.9,57,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 64.62}, {""word"": ""hotel"", ""confidence"": 96.45}, {""word"": ""sake"", ""confidence"": 93.28}, {""word"": ""foot"", ""confidence"": 57.66}, {""word"": ""bath"", ""confidence"": 96.58}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,1.9,1.9,57,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,2.0,2.0,60,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 93.22}, {""word"": ""hotel"", ""confidence"": 96.2}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.24}, {""word"": ""bath"", ""confidence"": 96.85}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,2.0,2.0,60,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,2.1,2.1,63,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 91.3}, {""word"": ""hotel"", ""confidence"": 96.11}, {""word"": ""sake"", ""confidence"": 87.35}, {""word"": ""foot"", ""confidence"": 96.43}, {""word"": ""bath"", ""confidence"": 96.84}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,2.1,2.1,63,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,2.2,2.2,66,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.78}, {""word"": ""sake"", ""confidence"": 92.8}, {""word"": ""foot"", ""confidence"": 96.37}, {""word"": ""bath"", ""confidence"": 96.17}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,2.2,2.2,66,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,2.3,2.3,69,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.52}, {""word"": ""hotel"", ""confidence"": 95.31}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.06}, {""word"": ""bath"", ""confidence"": 96.06}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,2.3,2.3,69,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,2.4,2.4,72,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.7}, {""word"": ""hotel"", ""confidence"": 96.04}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.1}, {""word"": ""bath"", ""confidence"": 96.17}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,2.4,2.4,72,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,2.5,2.5,75,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.68}, {""word"": ""hotel"", ""confidence"": 95.66}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.02}, {""word"": ""bath"", ""confidence"": 96.02}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,2.5,2.5,75,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,2.6,2.6,78,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.57}, {""word"": ""hotel"", ""confidence"": 95.78}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.61}, {""word"": ""bath"", ""confidence"": 96.54}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,2.6,2.6,78,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,2.7,2.7,81,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.55}, {""word"": ""sake"", ""confidence"": 67.25}, {""word"": ""bath"", ""confidence"": 86.72}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,2.7,2.7,81,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,2.8,2.8,84,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.62}, {""word"": ""sake"", ""confidence"": 63.69}, {""word"": ""foot"", ""confidence"": 69.28}, {""word"": ""bath"", ""confidence"": 90.79}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,2.8,2.8,84,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,2.9,2.9,87,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.89}, {""word"": ""sake"", ""confidence"": 51.23}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,2.9,2.9,87,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.0,3.0,90,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.12}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.0,3.0,90,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.1,3.1,93,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.03}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.1,3.1,93,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.2,3.2,96,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.8}, {""word"": ""hotel"", ""confidence"": 62.07}, {""word"": ""sake"", ""confidence"": 63.45}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,3.2,3.2,96,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.3,3.3,99,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 88.48}, {""word"": ""bath"", ""confidence"": 94.19}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,3.3,3.3,99,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.4,3.4,102,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 92.7}, {""word"": ""hotel"", ""confidence"": 76.21}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,3.4,3.4,102,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.5,3.5,105,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.53}, {""word"": ""foot"", ""confidence"": 81.81}, {""word"": ""bath"", ""confidence"": 81.81}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,3.5,3.5,105,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.6,3.6,108,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 95.97}, {""word"": ""hotel"", ""confidence"": 55.3}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,3.6,3.6,108,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.7,3.7,111,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.91}, {""word"": ""foot"", ""confidence"": 82.18}, {""word"": ""bath"", ""confidence"": 82.18}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,3.7,3.7,111,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.8,3.8,114,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.83}, {""word"": ""foot"", ""confidence"": 83.62}, {""word"": ""bath"", ""confidence"": 83.62}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,3.8,3.8,114,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,3.9,3.9,117,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.83}, {""word"": ""sake"", ""confidence"": 92.92}, {""word"": ""foot"", ""confidence"": 96.09}, {""word"": ""bath"", ""confidence"": 91.46}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,3.9,3.9,117,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.0,4.0,120,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.07}, {""word"": ""foot"", ""confidence"": 63.73}, {""word"": ""bath"", ""confidence"": 88.79}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,4.0,4.0,120,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.1,4.1,123,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.85}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.1,4.1,123,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.2,4.2,126,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.66}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.31}, {""word"": ""bath"", ""confidence"": 96.76}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,4.2,4.2,126,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.3,4.3,129,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.44}, {""word"": ""sake"", ""confidence"": 92.61}, {""word"": ""foot"", ""confidence"": 96.67}, {""word"": ""bath"", ""confidence"": 96.98}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,4.3,4.3,129,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.4,4.4,132,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.36}, {""word"": ""sake"", ""confidence"": 93.28}, {""word"": ""foot"", ""confidence"": 96.64}, {""word"": ""bath"", ""confidence"": 96.76}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,4.4,4.4,132,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.5,4.5,135,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.29}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.85}, {""word"": ""bath"", ""confidence"": 96.96}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,4.5,4.5,135,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.6,4.6,138,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.61}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.6,4.6,138,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.7,4.7,141,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.54}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.7,4.7,141,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.8,4.8,144,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.27}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.8,4.8,144,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.9,4.9,147,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.27}]",False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,4.9,4.9,147,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,5.0,5.0,150,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 84.18}, {""word"": ""hotel"", ""confidence"": 96.47}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,5.0,5.0,150,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,5.1,5.1,153,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 84.18}, {""word"": ""hotel"", ""confidence"": 96.47}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.59}, {""word"": ""bath"", ""confidence"": 96.27}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,5.1,5.1,153,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,5.2,5.2,156,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 84.18}, {""word"": ""hotel"", ""confidence"": 96.47}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,5.2,5.2,156,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,5.3,5.3,159,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 84.18}, {""word"": ""hotel"", ""confidence"": 96.47}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 97.0}, {""word"": ""bath"", ""confidence"": 96.88}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,5.3,5.3,159,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,5.4,5.4,162,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 84.18}, {""word"": ""hotel"", ""confidence"": 96.47}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 97.0}, {""word"": ""bath"", ""confidence"": 96.88}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,5.4,5.4,162,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,5.5,5.5,165,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 96.01}, {""word"": ""foot"", ""confidence"": 95.2}, {""word"": ""bath"", ""confidence"": 90.08}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,5.5,5.5,165,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,5.6,5.6,168,pov_hotel_features,"[{""word"": ""hotel"", ""confidence"": 95.85}, {""word"": ""foot"", ""confidence"": 96.38}, {""word"": ""bath"", ""confidence"": 96.78}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,5.6,5.6,168,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,5.7,5.7,171,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 93.1}, {""word"": ""foot"", ""confidence"": 96.3}, {""word"": ""bath"", ""confidence"": 96.51}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,5.7,5.7,171,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,5.8,5.8,174,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 93.3}, {""word"": ""foot"", ""confidence"": 96.5}, {""word"": ""bath"", ""confidence"": 96.4}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,5.8,5.8,174,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,5.9,5.9,177,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 93.1}, {""word"": ""foot"", ""confidence"": 95.45}, {""word"": ""bath"", ""confidence"": 95.45}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,5.9,5.9,177,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,6.0,6.0,180,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 93.2}, {""word"": ""foot"", ""confidence"": 95.58}, {""word"": ""bath"", ""confidence"": 96.87}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,6.0,6.0,180,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,6.1,6.1,183,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 93.17}, {""word"": ""foot"", ""confidence"": 95.48}, {""word"": ""bath"", ""confidence"": 96.89}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,6.1,6.1,183,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,6.2,6.2,186,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 93.21}, {""word"": ""foot"", ""confidence"": 95.81}, {""word"": ""bath"", ""confidence"": 96.88}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,6.2,6.2,186,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,6.3,6.3,189,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 93.28}, {""word"": ""foot"", ""confidence"": 97.0}, {""word"": ""bath"", ""confidence"": 96.9}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,6.3,6.3,189,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,6.4,6.4,192,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 93.28}, {""word"": ""foot"", ""confidence"": 97.0}, {""word"": ""bath"", ""confidence"": 96.81}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,6.4,6.4,192,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,6.5,6.5,195,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 93.28}, {""word"": ""foot"", ""confidence"": 97.0}, {""word"": ""bath"", ""confidence"": 96.84}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,6.5,6.5,195,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,6.6,6.6,198,pov_hotel_features,"[{""word"": ""sake"", ""confidence"": 93.28}, {""word"": ""foot"", ""confidence"": 97.01}, {""word"": ""bath"", ""confidence"": 96.86}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,6.6,6.6,198,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,6.7,6.7,201,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.4}, {""word"": ""hotel"", ""confidence"": 95.08}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 95.98}, {""word"": ""bath"", ""confidence"": 96.37}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,6.7,6.7,201,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,6.8,6.8,204,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.69}, {""word"": ""hotel"", ""confidence"": 96.05}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.21}, {""word"": ""bath"", ""confidence"": 96.62}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,6.8,6.8,204,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,6.9,6.9,207,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.76}, {""word"": ""hotel"", ""confidence"": 95.94}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 95.93}, {""word"": ""bath"", ""confidence"": 96.72}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,6.9,6.9,207,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,7.0,7.0,210,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.67}, {""word"": ""hotel"", ""confidence"": 96.16}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.07}, {""word"": ""bath"", ""confidence"": 96.73}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,7.0,7.0,210,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,7.1,7.1,213,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.57}, {""word"": ""hotel"", ""confidence"": 95.81}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.08}, {""word"": ""bath"", ""confidence"": 96.39}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,7.1,7.1,213,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,7.2,7.2,216,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.58}, {""word"": ""hotel"", ""confidence"": 95.73}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.53}, {""word"": ""bath"", ""confidence"": 96.67}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,7.2,7.2,216,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,7.3,7.3,219,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.64}, {""word"": ""hotel"", ""confidence"": 95.5}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.16}, {""word"": ""bath"", ""confidence"": 96.6}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,7.3,7.3,219,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,7.4,7.4,222,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.37}, {""word"": ""hotel"", ""confidence"": 95.84}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 95.84}, {""word"": ""bath"", ""confidence"": 96.3}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,7.4,7.4,222,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,7.5,7.5,225,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.57}, {""word"": ""hotel"", ""confidence"": 95.87}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 95.8}, {""word"": ""bath"", ""confidence"": 95.8}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,7.5,7.5,225,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,7.6,7.6,228,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.43}, {""word"": ""hotel"", ""confidence"": 95.99}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.05}, {""word"": ""bath"", ""confidence"": 96.11}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,7.6,7.6,228,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,7.7,7.7,231,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.61}, {""word"": ""hotel"", ""confidence"": 95.6}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 95.75}, {""word"": ""bath"", ""confidence"": 96.09}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,7.7,7.7,231,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,7.8,7.8,234,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.57}, {""word"": ""hotel"", ""confidence"": 95.31}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.35}, {""word"": ""bath"", ""confidence"": 96.61}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,7.8,7.8,234,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,7.9,7.9,237,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.72}, {""word"": ""hotel"", ""confidence"": 96.22}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.13}, {""word"": ""bath"", ""confidence"": 96.44}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,7.9,7.9,237,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,8.0,8.0,240,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.63}, {""word"": ""hotel"", ""confidence"": 95.62}, {""word"": ""sake"", ""confidence"": 93.28}, {""word"": ""foot"", ""confidence"": 95.99}, {""word"": ""bath"", ""confidence"": 96.67}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,8.0,8.0,240,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,8.1,8.1,243,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.63}, {""word"": ""hotel"", ""confidence"": 95.39}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.17}, {""word"": ""bath"", ""confidence"": 96.21}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,8.1,8.1,243,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,8.2,8.2,246,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.77}, {""word"": ""hotel"", ""confidence"": 96.71}, {""word"": ""sake"", ""confidence"": 91.8}, {""word"": ""foot"", ""confidence"": 96.18}, {""word"": ""bath"", ""confidence"": 96.71}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,8.2,8.2,246,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,8.3,8.3,249,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.7}, {""word"": ""hotel"", ""confidence"": 95.93}, {""word"": ""sake"", ""confidence"": 91.8}, {""word"": ""foot"", ""confidence"": 95.9}, {""word"": ""bath"", ""confidence"": 96.46}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,8.3,8.3,249,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,8.4,8.4,252,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.69}, {""word"": ""hotel"", ""confidence"": 96.51}, {""word"": ""sake"", ""confidence"": 93.28}, {""word"": ""foot"", ""confidence"": 95.87}, {""word"": ""bath"", ""confidence"": 96.24}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,8.4,8.4,252,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,8.5,8.5,255,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.71}, {""word"": ""hotel"", ""confidence"": 96.25}, {""word"": ""sake"", ""confidence"": 91.13}, {""word"": ""foot"", ""confidence"": 96.89}, {""word"": ""bath"", ""confidence"": 96.36}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,8.5,8.5,255,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,8.6,8.6,258,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.9}, {""word"": ""hotel"", ""confidence"": 96.08}, {""word"": ""sake"", ""confidence"": 93.28}, {""word"": ""foot"", ""confidence"": 96.22}, {""word"": ""bath"", ""confidence"": 96.25}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,8.6,8.6,258,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,8.7,8.7,261,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.75}, {""word"": ""hotel"", ""confidence"": 96.17}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 95.83}, {""word"": ""bath"", ""confidence"": 96.78}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,8.7,8.7,261,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,8.8,8.8,264,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.82}, {""word"": ""hotel"", ""confidence"": 96.39}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.6}, {""word"": ""bath"", ""confidence"": 96.29}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,8.8,8.8,264,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,8.9,8.9,267,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.87}, {""word"": ""hotel"", ""confidence"": 95.95}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 95.61}, {""word"": ""bath"", ""confidence"": 96.17}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,8.9,8.9,267,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.0,9.0,270,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.71}, {""word"": ""hotel"", ""confidence"": 96.2}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.67}, {""word"": ""bath"", ""confidence"": 96.09}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,9.0,9.0,270,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.1,9.1,273,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.18}, {""word"": ""hotel"", ""confidence"": 96.47}, {""word"": ""sake"", ""confidence"": 93.3}, {""word"": ""foot"", ""confidence"": 96.79}, {""word"": ""bath"", ""confidence"": 96.53}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,9.1,9.1,273,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.2,9.2,276,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.39}, {""word"": ""hotel"", ""confidence"": 96.41}, {""word"": ""sake"", ""confidence"": 93.22}, {""word"": ""foot"", ""confidence"": 95.81}, {""word"": ""bath"", ""confidence"": 96.71}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,9.2,9.2,276,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.3,9.3,279,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.79}, {""word"": ""hotel"", ""confidence"": 95.65}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 96.85}, {""word"": ""bath"", ""confidence"": 96.28}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,9.3,9.3,279,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.4,9.4,282,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.65}, {""word"": ""hotel"", ""confidence"": 95.62}, {""word"": ""sake"", ""confidence"": 93.28}, {""word"": ""foot"", ""confidence"": 96.71}, {""word"": ""bath"", ""confidence"": 96.14}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,9.4,9.4,282,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.5,9.5,285,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.81}, {""word"": ""hotel"", ""confidence"": 96.79}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 95.64}, {""word"": ""bath"", ""confidence"": 96.16}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,9.5,9.5,285,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.6,9.6,288,pov_hotel_features,"[{""word"": ""pov"", ""confidence"": 96.7}, {""word"": ""hotel"", ""confidence"": 96.05}, {""word"": ""sake"", ""confidence"": 93.29}, {""word"": ""foot"", ""confidence"": 95.93}, {""word"": ""bath"", ""confidence"": 96.57}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,9.6,9.6,288,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.7,9.7,291,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.7,9.7,291,hotel_location,"[{""word"": ""bar"", ""confidence"": 96.21}, {""word"": ""hotel"", ""confidence"": 96.46}, {""word"": ""asakusa"", ""confidence"": 96.24}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,9.8,9.8,294,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.8,9.8,294,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.51}, {""word"": ""bar"", ""confidence"": 96.75}, {""word"": ""hotel"", ""confidence"": 96.32}, {""word"": ""asakusa"", ""confidence"": 96.88}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,9.9,9.9,297,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,9.9,9.9,297,hotel_location,"[{""word"": ""bar"", ""confidence"": 96.49}, {""word"": ""hotel"", ""confidence"": 96.02}, {""word"": ""asakusa"", ""confidence"": 96.54}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,10.0,10.0,300,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.0,10.0,300,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.14}, {""word"": ""bar"", ""confidence"": 96.97}, {""word"": ""hotel"", ""confidence"": 96.55}, {""word"": ""asakusa"", ""confidence"": 96.55}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,10.1,10.1,303,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.1,10.1,303,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.48}, {""word"": ""bar"", ""confidence"": 96.82}, {""word"": ""hotel"", ""confidence"": 96.18}, {""word"": ""asakusa"", ""confidence"": 96.86}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,10.2,10.2,306,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.2,10.2,306,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.3,10.3,309,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.3,10.3,309,hotel_location,"[{""word"": ""bar"", ""confidence"": 96.84}, {""word"": ""hotel"", ""confidence"": 96.15}, {""word"": ""asakusa"", ""confidence"": 96.16}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,10.4,10.4,312,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.4,10.4,312,hotel_location,"[{""word"": ""bar"", ""confidence"": 96.98}, {""word"": ""hotel"", ""confidence"": 96.55}, {""word"": ""asakusa"", ""confidence"": 96.55}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,10.5,10.5,315,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.5,10.5,315,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.4}, {""word"": ""bar"", ""confidence"": 96.72}, {""word"": ""hotel"", ""confidence"": 96.31}, {""word"": ""asakusa"", ""confidence"": 96.66}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,10.6,10.6,318,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.6,10.6,318,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.06}, {""word"": ""bar"", ""confidence"": 96.8}, {""word"": ""hotel"", ""confidence"": 96.82}, {""word"": ""asakusa"", ""confidence"": 96.69}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,10.7,10.7,321,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.7,10.7,321,hotel_location,"[{""word"": ""sake"", ""confidence"": 95.92}, {""word"": ""bar"", ""confidence"": 96.79}, {""word"": ""hotel"", ""confidence"": 96.35}, {""word"": ""asakusa"", ""confidence"": 96.35}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,10.8,10.8,324,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.8,10.8,324,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.57}, {""word"": ""bar"", ""confidence"": 96.47}, {""word"": ""hotel"", ""confidence"": 96.28}, {""word"": ""asakusa"", ""confidence"": 96.69}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,10.9,10.9,327,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,10.9,10.9,327,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.67}, {""word"": ""bar"", ""confidence"": 96.8}, {""word"": ""hotel"", ""confidence"": 96.01}, {""word"": ""asakusa"", ""confidence"": 96.64}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,11.0,11.0,330,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.0,11.0,330,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.73}, {""word"": ""bar"", ""confidence"": 96.69}, {""word"": ""hotel"", ""confidence"": 95.56}, {""word"": ""asakusa"", ""confidence"": 96.28}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,11.1,11.1,333,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.1,11.1,333,hotel_location,"[{""word"": ""sake"", ""confidence"": 94.8}, {""word"": ""bar"", ""confidence"": 96.52}, {""word"": ""hotel"", ""confidence"": 96.52}, {""word"": ""asakusa"", ""confidence"": 96.48}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,11.2,11.2,336,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.2,11.2,336,hotel_location,"[{""word"": ""sake"", ""confidence"": 91.25}, {""word"": ""bar"", ""confidence"": 96.74}, {""word"": ""hotel"", ""confidence"": 96.6}, {""word"": ""asakusa"", ""confidence"": 96.16}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,11.3,11.3,339,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.3,11.3,339,hotel_location,"[{""word"": ""bar"", ""confidence"": 97.0}, {""word"": ""hotel"", ""confidence"": 96.11}, {""word"": ""asakusa"", ""confidence"": 96.24}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,11.4,11.4,342,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.4,11.4,342,hotel_location,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.5,11.5,345,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.5,11.5,345,hotel_location,"[{""word"": ""sake"", ""confidence"": 95.9}, {""word"": ""bar"", ""confidence"": 95.9}, {""word"": ""hotel"", ""confidence"": 96.74}, {""word"": ""asakusa"", ""confidence"": 96.45}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,11.6,11.6,348,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.6,11.6,348,hotel_location,"[{""word"": ""sake"", ""confidence"": 94.68}, {""word"": ""bar"", ""confidence"": 96.58}, {""word"": ""hotel"", ""confidence"": 96.41}, {""word"": ""asakusa"", ""confidence"": 96.64}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,11.7,11.7,351,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.7,11.7,351,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.69}, {""word"": ""bar"", ""confidence"": 96.95}, {""word"": ""hotel"", ""confidence"": 96.23}, {""word"": ""asakusa"", ""confidence"": 96.4}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,11.8,11.8,354,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.8,11.8,354,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.87}, {""word"": ""hotel"", ""confidence"": 96.67}, {""word"": ""asakusa"", ""confidence"": 96.28}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,11.9,11.9,357,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,11.9,11.9,357,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.82}, {""word"": ""bar"", ""confidence"": 96.99}, {""word"": ""hotel"", ""confidence"": 96.58}, {""word"": ""asakusa"", ""confidence"": 96.29}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,12.0,12.0,360,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,12.0,12.0,360,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.75}, {""word"": ""bar"", ""confidence"": 96.57}, {""word"": ""hotel"", ""confidence"": 96.57}, {""word"": ""asakusa"", ""confidence"": 96.34}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,12.1,12.1,363,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,12.1,12.1,363,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.41}, {""word"": ""bar"", ""confidence"": 96.91}, {""word"": ""hotel"", ""confidence"": 96.52}, {""word"": ""asakusa"", ""confidence"": 96.44}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,12.2,12.2,366,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,12.2,12.2,366,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.75}, {""word"": ""bar"", ""confidence"": 96.94}, {""word"": ""hotel"", ""confidence"": 96.74}, {""word"": ""asakusa"", ""confidence"": 96.03}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,12.3,12.3,369,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,12.3,12.3,369,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.8}, {""word"": ""bar"", ""confidence"": 96.92}, {""word"": ""hotel"", ""confidence"": 96.23}, {""word"": ""asakusa"", ""confidence"": 96.75}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,12.4,12.4,372,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,12.4,12.4,372,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.55}, {""word"": ""bar"", ""confidence"": 96.9}, {""word"": ""hotel"", ""confidence"": 95.88}, {""word"": ""asakusa"", ""confidence"": 96.67}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,12.5,12.5,375,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,12.5,12.5,375,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.86}, {""word"": ""bar"", ""confidence"": 96.91}, {""word"": ""hotel"", ""confidence"": 96.87}, {""word"": ""asakusa"", ""confidence"": 96.56}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,12.6,12.6,378,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,12.6,12.6,378,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.66}, {""word"": ""bar"", ""confidence"": 97.01}, {""word"": ""hotel"", ""confidence"": 95.72}, {""word"": ""asakusa"", ""confidence"": 96.57}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,12.7,12.7,381,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,12.7,12.7,381,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.39}, {""word"": ""bar"", ""confidence"": 96.88}, {""word"": ""hotel"", ""confidence"": 96.87}, {""word"": ""asakusa"", ""confidence"": 96.46}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,12.8,12.8,384,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,12.8,12.8,384,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.43}, {""word"": ""bar"", ""confidence"": 96.4}, {""word"": ""hotel"", ""confidence"": 96.5}, {""word"": ""asakusa"", ""confidence"": 96.34}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,12.9,12.9,387,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,12.9,12.9,387,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.43}, {""word"": ""bar"", ""confidence"": 96.86}, {""word"": ""hotel"", ""confidence"": 96.78}, {""word"": ""asakusa"", ""confidence"": 96.5}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,13.0,13.0,390,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,13.0,13.0,390,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.29}, {""word"": ""bar"", ""confidence"": 97.01}, {""word"": ""hotel"", ""confidence"": 95.78}, {""word"": ""asakusa"", ""confidence"": 96.59}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,13.1,13.1,393,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,13.1,13.1,393,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.26}, {""word"": ""bar"", ""confidence"": 96.86}, {""word"": ""hotel"", ""confidence"": 96.05}, {""word"": ""asakusa"", ""confidence"": 96.26}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,13.2,13.2,396,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,13.2,13.2,396,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.03}, {""word"": ""bar"", ""confidence"": 97.01}, {""word"": ""hotel"", ""confidence"": 96.52}, {""word"": ""asakusa"", ""confidence"": 96.52}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,13.3,13.3,399,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,13.3,13.3,399,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.76}, {""word"": ""bar"", ""confidence"": 96.89}, {""word"": ""hotel"", ""confidence"": 96.15}, {""word"": ""asakusa"", ""confidence"": 96.76}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,13.4,13.4,402,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,13.4,13.4,402,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.84}, {""word"": ""bar"", ""confidence"": 96.88}, {""word"": ""hotel"", ""confidence"": 96.61}, {""word"": ""asakusa"", ""confidence"": 96.64}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,13.5,13.5,405,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,13.5,13.5,405,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.21}, {""word"": ""bar"", ""confidence"": 96.66}, {""word"": ""hotel"", ""confidence"": 96.8}, {""word"": ""asakusa"", ""confidence"": 96.91}]",True,OCR_positive_unverified
+DTZ8QPYkWIm,13.6,13.6,408,pov_hotel_features,[],False,no_keyword_match_presence_unconfirmed
+DTZ8QPYkWIm,13.6,13.6,408,hotel_location,"[{""word"": ""sake"", ""confidence"": 96.73}, {""word"": ""bar"", ""confidence"": 95.39}, {""word"": ""hotel"", ""confidence"": 93.73}, {""word"": ""asakusa"", ""confidence"": 96.54}]",True,OCR_positive_unverified

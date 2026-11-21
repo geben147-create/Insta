@@ -1,0 +1,31 @@
+{
+  "task_space": 128,
+  "url": "http://127.0.0.1:8918/ai-influencer-krjp/#f_travel",
+  "worktree": "/home/yh/Insta-worktrees/travel-analysis-v8",
+  "branch": "codex/travel-analysis-v8-20261121",
+  "checks": {
+    "travel_cards": 60,
+    "travel_panels": 60,
+    "immediately_below_thumbnail": true,
+    "thumbnail_aspect_ratio": "9 / 16",
+    "dialog_opens": true,
+    "initial_focus_on_close_button": true,
+    "escape_closes": true,
+    "focus_returns_to_trigger": true,
+    "expanded_state_survives_sort": true,
+    "other_category_panels": 0,
+    "mobile_dialog_width": 366.59375,
+    "mobile_viewport_width": 390,
+    "mobile_horizontal_overflow": false,
+    "html_text_escaped": true,
+    "unsafe_javascript_href_removed": true,
+    "script_and_image_injection_absent": true,
+    "node_syntax_check": "PASS"
+  },
+  "limits": [
+    "Mobile dialog layout was opened with a DOM click at viewport 390px. A preceding simulated mobile pointer click did not open the dialog; it is not claimed as a passing touch test.",
+    "Data entries were empty during structural UI testing. Report links and final analysis content require parent data integration and another check.",
+    "No commit or push performed. Original /home/yh/Insta dirty files untouched.",
+    "Runtime did not implement documented page.setViewportSize; supported CDP Emulation.setDeviceMetricsOverride used."
+  ]
+}

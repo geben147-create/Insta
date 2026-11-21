@@ -1,0 +1,70 @@
+{
+  "checked_at_utc": "2026-11-21T12:13:23.621897+00:00",
+  "method": "Visual inspection of actual decoded frames at candidate frame_index - 1, frame_index, frame_index + 1",
+  "scope": "Verifies these 8 candidates as hard scene changes. Does not by itself guarantee every cut in the complete video was found.",
+  "verified_candidates": [
+    {
+      "time_s": 1.567,
+      "nearest_0_1_s": 1.6,
+      "frame_index": 47,
+      "status": "hard_scene_change_visually_verified_at_candidate_boundary",
+      "label": "bed_to_wood_cup"
+    },
+    {
+      "time_s": 2.7,
+      "nearest_0_1_s": 2.7,
+      "frame_index": 81,
+      "status": "hard_scene_change_visually_verified_at_candidate_boundary",
+      "label": "wood_cup_to_key_reader"
+    },
+    {
+      "time_s": 4.2,
+      "nearest_0_1_s": 4.2,
+      "frame_index": 126,
+      "status": "hard_scene_change_visually_verified_at_candidate_boundary",
+      "label": "key_reader_to_dispenser"
+    },
+    {
+      "time_s": 5.433,
+      "nearest_0_1_s": 5.4,
+      "frame_index": 163,
+      "status": "hard_scene_change_visually_verified_at_candidate_boundary",
+      "label": "dispenser_wide_to_close"
+    },
+    {
+      "time_s": 6.7,
+      "nearest_0_1_s": 6.7,
+      "frame_index": 201,
+      "status": "hard_scene_change_visually_verified_at_candidate_boundary",
+      "label": "dispenser_to_footbath_entrance"
+    },
+    {
+      "time_s": 8.2,
+      "nearest_0_1_s": 8.2,
+      "frame_index": 246,
+      "status": "hard_scene_change_visually_verified_at_candidate_boundary",
+      "label": "entrance_to_feet_water"
+    },
+    {
+      "time_s": 9.7,
+      "nearest_0_1_s": 9.7,
+      "frame_index": 291,
+      "status": "hard_scene_change_visually_verified_at_candidate_boundary",
+      "label": "feet_to_rooftop_person"
+    },
+    {
+      "time_s": 11.733,
+      "nearest_0_1_s": 11.7,
+      "frame_index": 352,
+      "status": "hard_scene_change_visually_verified_at_candidate_boundary",
+      "label": "rooftop_person_to_tower"
+    }
+  ],
+  "visually_verified_boundary_count": 8,
+  "caption_change_observation": {
+    "time_s": 9.7,
+    "before_frame": 290,
+    "after_frame": 291,
+    "observation": "Top informational overlay replaced by lower hotel-location overlay at this cut. Exact earlier/later caption runs still require OCR or further review."
+  }
+}

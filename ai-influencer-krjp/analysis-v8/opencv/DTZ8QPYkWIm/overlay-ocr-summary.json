@@ -1,0 +1,89 @@
+{
+  "id": "DTZ8QPYkWIm",
+  "tool": "existing Tesseract 5.5.0 eng model",
+  "sampling_s": 0.1,
+  "minimum_word_confidence": 50,
+  "thresholds": {
+    "pov_hotel_features": {
+      "roi_xyxy": [
+        50,
+        220,
+        670,
+        400
+      ],
+      "keywords": [
+        "bath",
+        "flow",
+        "foot",
+        "free",
+        "hotel",
+        "pov",
+        "sake"
+      ],
+      "minimum_distinct_keywords": 2
+    },
+    "hotel_location": {
+      "roi_xyxy": [
+        80,
+        900,
+        640,
+        1100
+      ],
+      "keywords": [
+        "asakusa",
+        "bar",
+        "hotel",
+        "sake"
+      ],
+      "minimum_distinct_keywords": 2
+    }
+  },
+  "rows": 274,
+  "ocr_positive_runs": [
+    {
+      "overlay_label": "pov_hotel_features",
+      "start_s": 0.8,
+      "end_s": 3.0,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "pov_hotel_features",
+      "start_s": 3.2,
+      "end_s": 4.1,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "pov_hotel_features",
+      "start_s": 4.2,
+      "end_s": 4.6,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "pov_hotel_features",
+      "start_s": 5.0,
+      "end_s": 9.7,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "hotel_location",
+      "start_s": 9.7,
+      "end_s": 10.2,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "hotel_location",
+      "start_s": 10.3,
+      "end_s": 11.4,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "hotel_location",
+      "start_s": 11.5,
+      "end_s": 13.7,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    }
+  ],
+  "ocr_positive_run_count": 7,
+  "confirmed_caption_event_count": null,
+  "caveat": "OCR failure is UNKNOWN, not proof of absent caption. Short gaps may be false negatives. Signage is excluded by specific fixed overlay ROI and keyword rules, but confounding remains possible. These are keyword observations, not a full subtitle transcript."
+}

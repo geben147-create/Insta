@@ -1,0 +1,23 @@
+{
+  "id": "Db7QQzpRxPf",
+  "checked_at_utc": "2026-11-21T12:15:20.021636+00:00",
+  "events": [
+    {
+      "label": "greece_room_hook",
+      "start_s": 0.0,
+      "end_s": 7.533,
+      "first_absent_frame_index": 226,
+      "last_present_frame_index": 225,
+      "end_display_0_1_s": 7.5,
+      "boundary_status": "visually verified at adjacent actual frames",
+      "evidence": [
+        "contact.jpg",
+        "caption-boundary.jpg",
+        "caption-neighbor-frames.jpg"
+      ]
+    }
+  ],
+  "observed_main_overlay_elements": 1,
+  "scope": "Main edited text overlays only. Not all scene signage; not subtitle word emphasis counts. OCR gaps are not new caption events.",
+  "status": "manual observed elements with stated boundary evidence"
+}

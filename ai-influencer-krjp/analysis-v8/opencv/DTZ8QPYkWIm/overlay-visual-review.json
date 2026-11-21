@@ -1,0 +1,29 @@
+{
+  "id": "DTZ8QPYkWIm",
+  "checked_at_utc": "2026-11-21T12:15:20.021938+00:00",
+  "events": [
+    {
+      "label": "pov_hotel_features",
+      "start_s": 0.0,
+      "end_s": 9.7,
+      "boundary_status": "0-second frame visually observed by parent; end at cut F290/F291 visually verified",
+      "evidence": [
+        "cut-neighbors-2.jpg",
+        "overlay-ocr-0.1s.json"
+      ]
+    },
+    {
+      "label": "hotel_location",
+      "start_s": 9.7,
+      "end_s": 13.7,
+      "boundary_status": "start at F291 visually verified; OCR positive through last 0.1s sample",
+      "evidence": [
+        "cut-neighbors-2.jpg",
+        "overlay-ocr-0.1s.json"
+      ]
+    }
+  ],
+  "observed_main_overlay_elements": 2,
+  "scope": "Main edited text overlays only. Not all scene signage; not subtitle word emphasis counts. OCR gaps are not new caption events.",
+  "status": "manual observed elements with stated boundary evidence"
+}

@@ -8,10 +8,11 @@
     "count": {
       "POSITIVE_NEEDS_SCOPE": 1,
       "REFUSED": 1,
-      "NEEDS_INFO": 1,
+      "NEEDS_INFO": 2,
       "DELIVERY_FAILED": 1,
-      "SENT_WAITING": 47
-    }
+      "SENT_WAITING": 46
+    },
+    "last_checked_kst": "2026-11-21 17:05"
   },
   "rows": [
     {
@@ -78,9 +79,9 @@
       "source_url": "https://rtrunews.com/about-us/contact-info/",
       "contact_sha256": "6bd23865a198a5e30565e04dbf751d2e18a043a85ef375ee2d657f56b3d4509c",
       "sent_on": "2026-11-20",
-      "status": "SENT_WAITING",
-      "note": "1차 문의 발송됨. 회신 미확인",
-      "next_action": "Gmail 회신을 확인하고 상태 갱신",
+      "status": "NEEDS_INFO",
+      "note": "2026-11-20 밤(KST) 담당자가 RT 방송 자료인지 Ruptly 통신사 자료인지, 구체적인 영상 URL 요청. 허락 아님.",
+      "next_action": "RT/Ruptly 선택 후 실제 사용 희망 영상 URL을 확인하여 기존 메일 스레드에 회신",
       "may_use_video": false,
       "skip_new_outreach": true
     },

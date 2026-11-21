@@ -17,8 +17,22 @@ th{position:sticky;top:0;background:#202838;cursor:pointer;user-select:none;z-in
 tr:nth-child(even) td{background:#121620}td.m{font-variant-numeric:tabular-nums}td.m b{color:#ffd27e;font-weight:600}td.m i{font-style:normal;color:#9bd1a8}td.m u{text-decoration:none;color:#8fc3ff}td.m s{text-decoration:none;color:#c8a6ff}
 a{color:#8fc3ff}.md{max-width:900px;line-height:1.65;font-size:14px;padding:10px}.md pre{background:#10141c;border:1px solid var(--line);padding:10px;border-radius:8px;white-space:pre-wrap}
 #pg{display:flex;gap:6px;align-items:center;margin:5px 0}
+
+#codex-feature{display:grid;gap:5px;margin:7px 8px 5px}
+#codex-feature a{display:block;padding:6px 8px;border-radius:5px;color:inherit;text-decoration:none;font-size:12px;line-height:1.3}
+#codex-feature a:hover{text-decoration:underline}
+#codex-feature .codex-k{background:#711325;color:#fff;border:1px solid #993b4d}
+#codex-feature .codex-j{background:#bae6fd;color:#133b54;border:1px solid #7cc4e7}
+#codex-feature strong{display:block;padding:6px 8px 0;font-size:13px}
+#codex-feature small{font-size:11px}
 </style></head><body><div id="edge"></div><div id="rs" title="드래그해서 메뉴 너비 조절"></div>
-<div id="side"><div id="bar"><b>📂 메뉴</b><label class="mut"><input type="checkbox" id="pin"> 고정</label><button id="close">◀ 접기</button></div><div id="menu"></div></div>
+<div id="side"><div id="bar"><b>📂 메뉴</b><label class="mut"><input type="checkbox" id="pin"> 고정</label><button id="close">◀ 접기</button></div><div id="codex-feature" role="navigation" aria-label="by Codex Desktop 자료">
+<div class="codex-k"><strong>도우인·드라마·예능</strong>
+<a href="../reactions-downloads/korean-screen-reactions-20261121/#douyin-expanded">추가 원본과 영상 상태</a>
+<a href="../reactions-downloads/korean-screen-reactions-20261121/#ko-scripts">원어 대본 · 한국어 번역 <small>by Codex Desktop</small></a></div>
+<div class="codex-j"><strong>일본 긍정 후기</strong>
+<a href="../korea-japan/#japan-perspectives">중국에서 본 일본</a>
+<a href="../korea-japan/#variety-examples">한일 예능 원본 비교</a><a href="../korea-japan/#dating-shows">한일 예능 비교 <small>by Codex Desktop</small></a></div></div><div id="menu"></div></div>
 <div id="main"><div style="display:flex;gap:8px;align-items:center"><button id="open">☰ 메뉴</button><h1 id="ttl" style="margin:0"></h1></div><div id="info" class="mut"></div>
 <div id="tools"></div><div id="pg"></div><div id="wrap"></div></div>
 <script>

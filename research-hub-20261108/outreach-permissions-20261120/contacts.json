@@ -9,13 +9,15 @@
       "POSITIVE_NEEDS_SCOPE": 1,
       "REFUSED": 1,
       "NEEDS_INFO": 2,
-      "DELIVERY_FAILED": 2,
-      "SENT_WAITING": 53
+      "DELIVERY_FAILED": 1,
+      "SENT_WAITING": 54
     },
     "last_checked_kst": "2026-11-21 17:05",
     "last_outreach_date": "2026-11-21",
     "last_outreach_new_contacts": 8,
-    "bounce_checked_kst": "2026-11-21 17:12"
+    "bounce_checked_kst": "2026-11-21 17:12",
+    "outreach_send_attempts_on_2026_11_21": 9,
+    "email_bounce_retried_after_verified_correction": 1
   },
   "rows": [
     {
@@ -808,13 +810,14 @@
       "region": "대만",
       "category": "개인형 창작자",
       "source_url": "https://www.youtube.com/watch?v=wWaRg-e2fEU",
-      "contact_sha256": "603b110302a91987526ecd9ab68909ae2621d411c42ffe207649833d18b1504e",
+      "contact_sha256": "d90895111f4806133970d2ace9aa27e4ccf93fc624fe5992b77b50b40040048d",
       "sent_on": "2026-11-21",
-      "status": "DELIVERY_FAILED",
-      "note": "2026-11-21 17:12 KST 수신 서버가 550 5.1.1: 존재하지 않는 이메일 주소라고 반송. 과거 공개 주소 현재 유효하지 않음.",
-      "next_action": "이 주소 재발송 금지. 채널 공식 최신 업무용 이메일 확인 전 발송 보류.",
+      "status": "SENT_WAITING",
+      "note": "2026-11-21 처음 보낸 주소가 550 5.1.1로 반송됨. 공식 YouTube 소개란의 정확한 업무 연락처를 재확인하여 수정 발송함. 새 주소의 회신 대기.",
+      "next_action": "잘못된 이전 주소 재발송 금지. 공식 주소로 1차 문의 재발송 완료, 회신 기다림.",
       "may_use_video": false,
-      "skip_new_outreach": true
+      "skip_new_outreach": true,
+      "invalid_contact_sha256": "603b110302a91987526ecd9ab68909ae2621d411c42ffe207649833d18b1504e"
     },
     {
       "id": "058",

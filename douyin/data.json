@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-21T12:01:28.013566+09:00",
+  "updated_at": "2026-11-21T17:38:25.818496+09:00",
   "root": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인",
   "sector_count": 50,
   "target_per_sector": 100,
   "target_slots": 5000,
-  "unique_candidates": 1,
+  "unique_candidates": 77,
   "downloaded": 0,
   "subtitle_ready": 0,
   "pilot_blocked": 1,
   "comment_samples": 5,
   "youtube_absence_verified": 0,
-  "phase": "PILOT_BLOCKED_PARALLEL_INITIAL_RESEARCH_RUNNING",
+  "phase": "INITIAL_SEARCH_COMPLETE_DOWNLOAD_BLOCKED_REVIEW_PENDING",
   "sectors": [
     {
       "id": "s01",
@@ -24,10 +24,10 @@
         "日韩对比 中国人看",
         "日韩对比 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s01_한일 종합비교",
       "search_url": "https://www.douyin.com/search/%E6%97%A5%E9%9F%A9%E5%AF%B9%E6%AF%94",
-      "candidate_count": 0,
+      "candidate_count": 3,
       "saved_count": 0
     },
     {
@@ -42,10 +42,10 @@
         "韩国经济分析 中国人看",
         "韩国经济分析 纪录片"
       ],
-      "status": "PILOT_BLOCKED",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s02_한국 경제·성장",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%88%86%E6%9E%90",
-      "candidate_count": 1,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -60,10 +60,10 @@
         "韩国半导体 中国人看",
         "韩国半导体 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s03_반도체·메모리",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%8D%8A%E5%AF%BC%E4%BD%93",
-      "candidate_count": 0,
+      "candidate_count": 3,
       "saved_count": 0
     },
     {
@@ -78,10 +78,10 @@
         "韩国人工智能 中国人看",
         "韩国人工智能 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s04_AI·소프트웨어",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -96,7 +96,7 @@
         "韩国电池电动车 中国人看",
         "韩国电池电动车 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_NO_CANDIDATE",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s05_배터리·전기차",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%94%B5%E6%B1%A0%E7%94%B5%E5%8A%A8%E8%BD%A6",
       "candidate_count": 0,
@@ -114,10 +114,10 @@
         "韩国汽车日本汽车 中国人看",
         "韩国汽车日本汽车 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s06_자동차",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%B1%BD%E8%BD%A6%E6%97%A5%E6%9C%AC%E6%B1%BD%E8%BD%A6",
-      "candidate_count": 0,
+      "candidate_count": 3,
       "saved_count": 0
     },
     {
@@ -132,10 +132,10 @@
         "韩国造船 中国人看",
         "韩国造船 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s07_조선·해운",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E9%80%A0%E8%88%B9",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -150,7 +150,7 @@
         "韩国钢铁材料 中国人看",
         "韩国钢铁材料 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_NO_CANDIDATE",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s08_철강·소재",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E9%92%A2%E9%93%81%E6%9D%90%E6%96%99",
       "candidate_count": 0,
@@ -168,10 +168,10 @@
         "韩国显示屏 中国人看",
         "韩国显示屏 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s09_디스플레이",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%98%BE%E7%A4%BA%E5%B1%8F",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -186,10 +186,10 @@
         "韩国手机电子 中国人看",
         "韩国手机电子 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s10_스마트폰·전자",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%89%8B%E6%9C%BA%E7%94%B5%E5%AD%90",
-      "candidate_count": 0,
+      "candidate_count": 3,
       "saved_count": 0
     },
     {
@@ -204,7 +204,7 @@
         "韩国机器人 中国人看",
         "韩国机器人 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_NO_CANDIDATE",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s11_로봇·자동화",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA",
       "candidate_count": 0,
@@ -222,10 +222,10 @@
         "韩国军工 中国人看",
         "韩国军工 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s12_방산·무기",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%86%9B%E5%B7%A5",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -240,10 +240,10 @@
         "韩国航空航天 中国人看",
         "韩国航空航天 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s13_항공·우주",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -258,7 +258,7 @@
         "韩国核电能源 中国人看",
         "韩国核电能源 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_NO_CANDIDATE",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s14_원전·에너지",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%A0%B8%E7%94%B5%E8%83%BD%E6%BA%90",
       "candidate_count": 0,
@@ -276,7 +276,7 @@
         "韩国新能源环保 中国人看",
         "韩国新能源环保 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_NO_CANDIDATE",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s15_재생에너지·환경",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%96%B0%E8%83%BD%E6%BA%90%E7%8E%AF%E4%BF%9D",
       "candidate_count": 0,
@@ -294,7 +294,7 @@
         "韩国化工 中国人看",
         "韩国化工 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_NO_CANDIDATE",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s16_화학·석유화학",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%8C%96%E5%B7%A5",
       "candidate_count": 0,
@@ -312,7 +312,7 @@
         "韩国生物制药 中国人看",
         "韩国生物制药 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_NO_CANDIDATE",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s17_바이오·제약",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%94%9F%E7%89%A9%E5%88%B6%E8%8D%AF",
       "candidate_count": 0,
@@ -330,10 +330,10 @@
         "韩国医疗日本医疗 中国人看",
         "韩国医疗日本医疗 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s18_의료·병원",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%8C%BB%E7%96%97%E6%97%A5%E6%9C%AC%E5%8C%BB%E7%96%97",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -348,10 +348,10 @@
         "韩国化妆品日本化妆品 中国人看",
         "韩国化妆品日本化妆品 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s19_화장품·뷰티",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%8C%96%E5%A6%86%E5%93%81%E6%97%A5%E6%9C%AC%E5%8C%96%E5%A6%86%E5%93%81",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -366,10 +366,10 @@
         "韩国日本穿搭 中国人看",
         "韩国日本穿搭 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s20_패션·의류",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E7%A9%BF%E6%90%AD",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -384,10 +384,10 @@
         "韩国日本美食 中国人看",
         "韩国日本美食 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s21_식품·외식",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E7%BE%8E%E9%A3%9F",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -402,10 +402,10 @@
         "韩国农业渔业 中国人看",
         "韩国农业渔业 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s22_농업·수산업",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%86%9C%E4%B8%9A%E6%B8%94%E4%B8%9A",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -420,10 +420,10 @@
         "韩国电商零售 中国人看",
         "韩国电商零售 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s23_유통·전자상거래",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%94%B5%E5%95%86%E9%9B%B6%E5%94%AE",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -438,10 +438,10 @@
         "韩国物流快递 中国人看",
         "韩国物流快递 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s24_물류·택배",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%89%A9%E6%B5%81%E5%BF%AB%E9%80%92",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -456,10 +456,10 @@
         "韩国金融银行 中国人看",
         "韩国金融银行 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s25_금융·은행",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E9%87%91%E8%9E%8D%E9%93%B6%E8%A1%8C",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -474,10 +474,10 @@
         "韩国日本房价住房 中国人看",
         "韩国日本房价住房 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s26_부동산·주거",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E6%88%BF%E4%BB%B7%E4%BD%8F%E6%88%BF",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -492,10 +492,10 @@
         "韩国日本物价 中国人看",
         "韩国日本物价 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s27_물가·소비",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E7%89%A9%E4%BB%B7",
-      "candidate_count": 1,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -510,10 +510,10 @@
         "韩国日本工资就业 中国人看",
         "韩国日本工资就业 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s28_임금·고용",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%B7%A5%E8%B5%84%E5%B0%B1%E4%B8%9A",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -528,10 +528,10 @@
         "韩国财阀企业 中国人看",
         "韩国财阀企业 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s29_기업·재벌",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E8%B4%A2%E9%98%80%E4%BC%81%E4%B8%9A",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -546,10 +546,10 @@
         "韩国创业 中国人看",
         "韩国创业 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s30_창업·스타트업",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%88%9B%E4%B8%9A",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -564,10 +564,10 @@
         "韩国日本少子化 中国人看",
         "韩国日本少子化 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s31_인구·저출산",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%B0%91%E5%AD%90%E5%8C%96",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -582,10 +582,10 @@
         "韩国日本养老福利 中国人看",
         "韩国日本养老福利 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s32_고령화·복지",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%85%BB%E8%80%81%E7%A6%8F%E5%88%A9",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -600,10 +600,10 @@
         "韩国日本教育 中国人看",
         "韩国日本教育 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s33_교육·입시",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E6%95%99%E8%82%B2",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -618,10 +618,10 @@
         "韩国科学研究 中国人看",
         "韩国科学研究 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s34_과학·연구",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -636,10 +636,10 @@
         "韩国日本高铁交通 中国人看",
         "韩国日本高铁交通 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s35_교통·철도",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E9%AB%98%E9%93%81%E4%BA%A4%E9%80%9A",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -654,10 +654,10 @@
         "韩国日本城市基建 中国人看",
         "韩国日本城市基建 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s36_도시·인프라",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%9F%8E%E5%B8%82%E5%9F%BA%E5%BB%BA",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -672,10 +672,10 @@
         "韩国日本旅游比较 中国人看",
         "韩国日本旅游比较 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s37_관광·여행",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E6%97%85%E6%B8%B8%E6%AF%94%E8%BE%83",
-      "candidate_count": 1,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -690,10 +690,10 @@
         "韩国日本历史文化 中国人看",
         "韩国日本历史文化 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s38_역사·문화",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96",
-      "candidate_count": 0,
+      "candidate_count": 3,
       "saved_count": 0
     },
     {
@@ -708,10 +708,10 @@
         "韩国日本外交 中国人看",
         "韩国日本外交 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s39_국제관계·외교",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%A4%96%E4%BA%A4",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -726,10 +726,10 @@
         "韩国政治制度 中国人看",
         "韩国政治制度 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s40_정치·제도",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%94%BF%E6%B2%BB%E5%88%B6%E5%BA%A6",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -744,10 +744,10 @@
         "韩国社会生活 中国人看",
         "韩国社会生活 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s41_사회·일상",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%A4%BE%E4%BC%9A%E7%94%9F%E6%B4%BB",
-      "candidate_count": 0,
+      "candidate_count": 3,
       "saved_count": 0
     },
     {
@@ -762,10 +762,10 @@
         "韩国防灾安全 中国人看",
         "韩国防灾安全 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s42_안전·재난",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E9%98%B2%E7%81%BE%E5%AE%89%E5%85%A8",
-      "candidate_count": 0,
+      "candidate_count": 1,
       "saved_count": 0
     },
     {
@@ -780,10 +780,10 @@
         "韩国日本治安 中国人看",
         "韩国日本治安 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s43_치안·범죄",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E6%B2%BB%E5%AE%89",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -798,10 +798,10 @@
         "韩国日本职场 中国人看",
         "韩国日本职场 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s44_노동·직장문화",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E8%81%8C%E5%9C%BA",
-      "candidate_count": 0,
+      "candidate_count": 3,
       "saved_count": 0
     },
     {
@@ -816,10 +816,10 @@
         "韩国日本婚姻家庭 中国人看",
         "韩国日本婚姻家庭 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s45_가족·연애·결혼",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%A9%9A%E5%A7%BB%E5%AE%B6%E5%BA%AD",
-      "candidate_count": 0,
+      "candidate_count": 3,
       "saved_count": 0
     },
     {
@@ -834,10 +834,10 @@
         "韩国日本体育 中国人看",
         "韩国日本体育 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s46_스포츠",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -852,10 +852,10 @@
         "韩国音乐演出 中国人看",
         "韩国音乐演出 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s47_음악·공연",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E9%9F%B3%E4%B9%90%E6%BC%94%E5%87%BA",
-      "candidate_count": 0,
+      "candidate_count": 3,
       "saved_count": 0
     },
     {
@@ -870,10 +870,10 @@
         "韩剧韩国电影分析 中国人看",
         "韩剧韩国电影分析 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s48_드라마·영화",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%89%A7%E9%9F%A9%E5%9B%BD%E7%94%B5%E5%BD%B1%E5%88%86%E6%9E%90",
-      "candidate_count": 0,
+      "candidate_count": 3,
       "saved_count": 0
     },
     {
@@ -888,10 +888,10 @@
         "韩国游戏漫画 中国人看",
         "韩国游戏漫画 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s49_게임·웹툰",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%B8%B8%E6%88%8F%E6%BC%AB%E7%94%BB",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     },
     {
@@ -906,10 +906,10 @@
         "中国媒体韩国分析 中国人看",
         "中国媒体韩国分析 纪录片"
       ],
-      "status": "INITIAL_RESEARCH_RUNNING",
+      "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s50_언론·방송의 한국 분석",
       "search_url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%AA%92%E4%BD%93%E9%9F%A9%E5%9B%BD%E5%88%86%E6%9E%90",
-      "candidate_count": 0,
+      "candidate_count": 2,
       "saved_count": 0
     }
   ],
@@ -961,6 +961,2316 @@
       "source_summary_is_not_transcript": true,
       "PC_current": "UNKNOWN",
       "notes": "Pilot playable without login,5 visible comment bodies preserved; rights and YouTube eligibility not confirmed. No MP4 downloaded and no fake SRT. Comments are opinions, not verified facts."
+    },
+    {
+      "ID": "7648882726380014886",
+      "url": "https://www.douyin.com/video/7648882726380014886",
+      "title": "日本韩国 工业能力对比 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7648882726380014886",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s01"
+      ],
+      "primary_sector": "s01",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7258282667932683572",
+      "url": "https://www.douyin.com/video/7258282667932683572",
+      "title": "发达国家综合国力排行，日本第四，韩国进前十#发达国家 #国家实力,韩国综合国力排名- 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7258282667932683572",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s01"
+      ],
+      "primary_sector": "s01",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7650071265658820328",
+      "url": "https://www.douyin.com/video/7650071265658820328",
+      "title": "中日韩VS美加墨GDP总量，东亚三强GDP增速远超北美三强 世界经济中心之争，笑到最后谁能赢？",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7650071265658820328",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s01"
+      ],
+      "primary_sector": "s01",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7698807221963487690",
+      "url": "https://douyin.com/video/7698807221963487690",
+      "title": "Vibe知识大赏｜2.7万亿去哪里了？ 《涨跌之外》 2026年3月4日，韩国股市约2.7万亿元人民币的市值一天蒸发。这笔钱，真的被谁赚走了吗？ 用一笔999元的模拟成交，看懂1亿元市值如何消失；再看基金抛售和杠杆，怎样让暴跌越滚越大。 财富缩水是真实的，却不需要有人拿走等额现金。曾经的资产标价，和真正到手的钱，究竟差在哪里？ #vibe知识大赏 #股市 #投资 #理财 #金融",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://douyin.com/video/7698807221963487690",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s02"
+      ],
+      "primary_sector": "s02",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7666996643165736218",
+      "url": "https://www.douyin.com/video/7666996643165736218",
+      "title": "伯恩斯坦：三星 HBM 反超预期 # 研报精读｜伯恩斯坦：三星 HBM 反超预期，海关数据比财报早到 1 个季度",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7666996643165736218",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s03"
+      ],
+      "primary_sector": "s03",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7651469793308391346",
+      "url": "https://www.douyin.com/video/7651469793308391346",
+      "title": "6月15日消息，近日，韩国政府正式启动“超级创新经济项目”，计划投入5000亿韩元（约合22.3亿元人民币）国家资金专项攻关下一代功率半导体技术。若算上民间配套资金，该研发项目总规模预计将膨胀至7500亿韩元（约合4.94亿美元）。",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7651469793308391346",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s03",
+        "s34"
+      ],
+      "primary_sector": "s03",
+      "source_record_files": [
+        "research-01-10.json",
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7650106957071797519",
+      "url": "https://www.douyin.com/video/7650106957071797519",
+      "title": "韩国 6 月出口炸了 半导体翻 3 倍 韩国 6 月前 10 天出口炸了。286 亿美金,涨 86%,创历史最高。半导体一项就涨了 205%,翻了 3 倍多。这事儿不光关韩国。韩国是全球 AI 芯片产业链的核心节点,三星和 SK 海力士,给英伟达供 HBM 高带宽内存。韩国出口数据,本质上是 AI 芯片需求的领先指标。半导体出口翻 3 倍,意思是,英伟达、博通、AMD 的下游订单,还在加码。所有讲 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7650106957071797519",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s03"
+      ],
+      "primary_sector": "s03",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7457530599583042854",
+      "url": "https://www.douyin.com/video/7457530599583042854",
+      "title": "买车必看！各国汽车品牌优缺点大汇总！ #带你懂车 #汽车 #内容启发搜索 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7457530599583042854",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s06"
+      ],
+      "primary_sector": "s06",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7646255724414702538",
+      "url": "https://www.douyin.com/video/7646255724414702538",
+      "title": "中国汽车在韩国创下新纪录，4月进口车销量排名第三，领先日系0.2个百分点，史上首超日本车 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7646255724414702538",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s06"
+      ],
+      "primary_sector": "s06",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7648079858194599187",
+      "url": "https://www.douyin.com/video/7648079858194599187",
+      "title": "韩国人很好奇：德国和日本都能行，凭什么韩国车进不了中国市场？#车 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7648079858194599187",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s06"
+      ],
+      "primary_sector": "s06",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7500053537179651338",
+      "url": "https://douyin.com/video/7500053537179651338",
+      "title": "40寸5K120Hz川升CS40X旗舰版评测 今天为大家带来热门产品川升CS40X的评测，这款显示器使用的是LG Nano-IPS面板，显示效果非常清澈、细腻和明亮，我个人是非常的喜欢。视频中不仅有红蜘蛛的测试也有近期热门游戏大作的演示，还有HDR播放的演示等，相信看过本片你一定会对40寸的5K高刷显示器有新的认识。视频中是用了机械臂，如果你也想配备机械臂，记得购机时和客服要一下机械臂专用的延申螺 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://douyin.com/video/7500053537179651338",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s09"
+      ],
+      "primary_sector": "s09",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7351015823194033458",
+      "url": "https://douyin.com/video/7351015823194033458",
+      "title": "拆解三星Galaxy A55：一窥其内部设计与做工细节 #三星手机 #GalaxyA55 #拆解 #拆机",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://douyin.com/video/7351015823194033458",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s10"
+      ],
+      "primary_sector": "s10",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7385571652135898405",
+      "url": "https://douyin.com/video/7385571652135898405",
+      "title": "三星手机如何解决信号网速断流等问题，全是干货 #三星手机 #手机设置 #玩机技巧 #内容启发搜索 #手机信号",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://douyin.com/video/7385571652135898405",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s10"
+      ],
+      "primary_sector": "s10",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7657854442699541810",
+      "url": "https://www.douyin.com/video/7657854442699541810?source=Baiduspider",
+      "title": "李在明谈韩国AI时代的核心战略产业",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_EMBEDDED_LINK_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7657854442699541810?source=Baiduspider",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s04"
+      ],
+      "primary_sector": "s04",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7524630118447303955",
+      "url": "https://www.douyin.com/video/7524630118447303955?source=Baiduspider",
+      "title": "财阀模式下的韩国造船，到底有多“丧心病狂”？",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_EMBEDDED_LINK_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7524630118447303955?source=Baiduspider",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s07"
+      ],
+      "primary_sector": "s07",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7417475739601079603",
+      "url": "https://www.douyin.com/video/7417475739601079603?source=Baiduspider",
+      "title": "走出亏损困扰，韩国船企利润激增428%，中国企业呢？",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_EMBEDDED_LINK_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7417475739601079603?source=Baiduspider",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s07"
+      ],
+      "primary_sector": "s07",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7637292885453281125",
+      "url": "https://www.douyin.com/video/7637292885453281125",
+      "title": "为什么中国能卷死三星，英国却不行？",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7637292885453281125",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "UNKNOWN",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s10"
+      ],
+      "primary_sector": "s10",
+      "source_record_files": [
+        "research-01-10.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7675428857683479871",
+      "url": "https://www.douyin.com/video/7675428857683479871",
+      "title": "俄罗斯倒卖稀土给韩国军工，韩国政坛“自杀式”内爆，三败俱伤！ #零基础看懂全球 #全球创作者计划 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7675428857683479871",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "NOT_FOUND_IN_LIMITED_SEARCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s12"
+      ],
+      "primary_sector": "s12",
+      "source_record_files": [
+        "research-11-20.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7645263088459042086",
+      "url": "https://www.douyin.com/video/7645263088459042086",
+      "title": "韩国官宣要造3-4艘攻击核潜艇 美国开绿灯 法国做参考 预计2030年代末服役 出让核主权的韩国能如愿吗？#韩国 #攻击核潜艇 #军事 #武器装备 #媒体精选计划 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7645263088459042086",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "NOT_FOUND_IN_LIMITED_SEARCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s12"
+      ],
+      "primary_sector": "s12",
+      "source_record_files": [
+        "research-11-20.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7372571770655673650",
+      "url": "https://www.douyin.com/video/7372571770655673650",
+      "title": "对标NASA，火星插旗，韩国航天遭遇俄罗斯“杀猪盘”？ #NASA #韩国航天",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://m.douyin.com/share/user/MS4wLjABAAAA9PfbfkROpxxO9DMn5qbbA7IOs5CrssS7ihhuSHx4IL8",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "NOT_FOUND_IN_LIMITED_SEARCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s13"
+      ],
+      "primary_sector": "s13",
+      "source_record_files": [
+        "research-11-20.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7648581609590918426",
+      "url": "https://www.douyin.com/video/7648581609590918426",
+      "title": "美貌产业化：韩国如何把普通人逼上手术台 #审美内卷  #颜值焦虑  #社会现实  #真实事件  #深度科普 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7648581609590918426",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "NOT_FOUND_IN_LIMITED_SEARCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s18"
+      ],
+      "primary_sector": "s18",
+      "source_record_files": [
+        "research-11-20.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7679351938321253219",
+      "url": "https://www.douyin.com/video/7679351938321253219",
+      "title": "一起来逛韩国美妆店oilveyuong 现场直播 ...",
+      "creator": "关小贞在韩国（关小贞日用品店）",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7679351938321253219",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "NOT_FOUND_IN_LIMITED_SEARCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s19"
+      ],
+      "primary_sector": "s19",
+      "source_record_files": [
+        "research-11-20.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7155417882808143117",
+      "url": "https://www.douyin.com/video/7155417882808143117",
+      "title": "不同国家的模特走秀，韩国模特太清纯，日本走出六亲不认的步伐！ #秀场直击 #t台走秀 #又美又飒 #高贵优雅 ,不同国家大人走秀- 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7155417882808143117",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "NOT_FOUND_IN_LIMITED_SEARCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "TITLE_SUGGESTS_KOREA_JAPAN_COMPARISON_UNVERIFIED",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s20"
+      ],
+      "primary_sector": "s20",
+      "source_record_files": [
+        "research-11-20.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7660133324635433983",
+      "url": "https://www.douyin.com/video/7660133324635433983",
+      "title": "好喜欢她这种干净极简的老钱风，温柔又优雅 ✨被韩国博主jjjangda圈粉了！她的穿搭看似极简，却藏着高级感秘诀👀",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY; ORIGINAL_PAGE_BLOCKED",
+      "evidence_url": "https://www.douyin.com/video/7660133324635433983",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "NOT_FOUND_IN_LIMITED_SEARCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s20"
+      ],
+      "primary_sector": "s20",
+      "source_record_files": [
+        "research-11-20.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7644872537192680758",
+      "url": "https://www.douyin.com/video/7644872537192680758",
+      "title": "为什么中国的饮食，没有像日韩一样被全盘西化？ #抖音精选 #历史 #美食 #面包 #韩国 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY",
+      "evidence_url": "https://www.douyin.com/video/7644872537192680758",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "TITLE_SUGGESTS_CHINA_JAPAN_KOREA_FOOD_COMPARISON_UNVERIFIED",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s21"
+      ],
+      "primary_sector": "s21",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7668373363132649179",
+      "url": "https://www.douyin.com/video/7668373363132649179",
+      "title": "别人去首尔逛街，我却扎在韩国农村的大棚里。每天研究韩式庭院的绿植规划，种花造景，慢悠悠打理日子。所有日常都是实拍，想了解真实的生活，多看看视频就知道啦#韩国生活日常vlog # - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY",
+      "evidence_url": "https://www.douyin.com/video/7668373363132649179",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s22"
+      ],
+      "primary_sector": "s22",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7646667197217131811",
+      "url": "https://www.douyin.com/video/7646667197217131811",
+      "title": "2026年5月31日，韩国门店规模最大的便利店品牌CU正式上线天猫国际：“C...",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY",
+      "evidence_url": "https://www.douyin.com/video/7646667197217131811",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s23"
+      ],
+      "primary_sector": "s23",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7666441560012012963",
+      "url": "https://www.douyin.com/video/7666441560012012963",
+      "title": "韩国考虑为“借钱炒股”封顶20%-韩国年轻人这次真绝望，从一夜暴富到天台排队，只用了20天#股市炒股#韩国#金融思维-抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY",
+      "evidence_url": "https://www.douyin.com/video/7666441560012012963",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s25"
+      ],
+      "primary_sector": "s25",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7647827250930257167",
+      "url": "https://www.douyin.com/video/7647827250930257167",
+      "title": "【黄仁勋造访+高盛看多】为何韩国股市，成了全球焦点 #零距离看懂财经 #真财实学计划 #媒体精选计划 #燃起来了大国重器 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY",
+      "evidence_url": "https://www.douyin.com/video/7647827250930257167",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s25"
+      ],
+      "primary_sector": "s25",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7696327024596917413",
+      "url": "https://www.douyin.com/video/7696327024596917413",
+      "title": "大韩民国排名前十的叉车高手 #coupang #韩国电商#中韩物流#叉车卸货#仓库现场\n为什么同样的时间完成工作内容完全不一样。\n能力 经验 用心程度缺一不可。",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_RELATED_LINK_ONLY",
+      "evidence_url": "https://douyin.com/video/7688120310809234688",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s24"
+      ],
+      "primary_sector": "s24",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7305901665809370387",
+      "url": "https://www.douyin.com/video/7305901665809370387",
+      "title": "韩国房价现状！媳妇想领免费的礼物去看房，结果遇到了喜欢的房源",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_RELATED_LINK_ONLY",
+      "evidence_url": "https://m.douyin.com/share/user/MS4wLjABAAAAMjty4WYdeGMzUx2Ho1JxyqF5_iPe1lVTmAfzfXFzkro",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s26"
+      ],
+      "primary_sector": "s26",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7616967549158721966",
+      "url": "https://douyin.com/video/7616967549158721966",
+      "title": "안녕~韩国人第一次体验自助小火锅！看看100块钱能吃回本吗！ #韩国人 #首尔美食 #首尔火锅 #首尔打卡 #dou上热门 @DOU+上热门 @DOU+小助手 @抖音小助手",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY",
+      "evidence_url": "https://douyin.com/video/7616967549158721966",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s27"
+      ],
+      "primary_sector": "s27",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7647445492959399219",
+      "url": "https://www.douyin.com/video/7647445492959399219",
+      "title": "你涨薪我也要！芯片巨头薪酬攀比失控：全行业被拖下水 三星大手一挥，把员工房贷额度从45万拉到223万，SK海力士员工当场破防。这两家芯片巨头，正在上演一场“给钱竞赛”——你有绩效不封顶，我就搞特别奖金；你给5亿贷款，我绝不给4亿。更魔幻的是，这股攀比风已经卷翻全韩国，造船的要分三成利润，造车的要掏空净利润，制药的干脆罢工。打工人表面赢了，企业却可能输掉未来，当巨头们都忙着用“钞能力”内耗，谁还顾得 - 抖音",
+      "creator": "纵论天下之事",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAc-64QuafdUTlGhSMIgbLf4eKdEYcsASjv4B5jHlzLDA8hTjIa5WdmdynmctfIusu",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7647445492959399219",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s28",
+        "s29",
+        "s44"
+      ],
+      "primary_sector": "s28",
+      "source_record_files": [
+        "research-21-30.json",
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "8b07b68aceccfb19934ce0080a12c5208e016f476795e1f5cd1e93ade0b38ecf"
+    },
+    {
+      "ID": "7618811055132790022",
+      "url": "https://www.douyin.com/video/7618811055132790022",
+      "title": "三星或面临史上最大规模罢工 员工委屈:业绩那么好,却拿不到奖金\"2025年绩效奖金仅3800万韩元\"工会拍桌子:公司应拿出利润的20%给员工发奖金，业内人士:或波及汽车、计算机及智能手机等行业（新华社 澎湃新闻） - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY",
+      "evidence_url": "https://www.douyin.com/video/7618811055132790022",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s28"
+      ],
+      "primary_sector": "s28",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7650092703224466751",
+      "url": "https://www.douyin.com/video/7650092703224466751",
+      "title": "三星办公室因涉嫌内幕交易遭搜查 6月11日，据报道，韩国检方对三星电子总部进行了搜查，原因是其子公司Rainbow Robotics在被这家芯片制造商收购时，涉嫌利用内幕信息获取不正当利益。报道称，金融监管部门已将包括Rainbow Robotics负责人和首席财务官在内的16人移交检察机关。据悉，这些人涉嫌在2022年至2024年三星收购该公司股份期间，利用内幕信息获取约30亿至40亿韩元的不正 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY",
+      "evidence_url": "https://www.douyin.com/video/7650092703224466751",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "POSSIBLE_SAME_EVENT_REQUIRES_CONTENT_COMPARISON",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s29"
+      ],
+      "primary_sector": "s29",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7286439529983053056",
+      "url": "https://www.douyin.com/video/7286439529983053056",
+      "title": "对话在🇰🇷10年餐饮老板：揭秘在韩做餐饮的秘密！#韩国 #韩国创业 #韩国美善美食 #对话吴老板 #吴老板韩国创业圈",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_RELATED_LINK_ONLY",
+      "evidence_url": "https://m.douyin.com/share/video/7689120979758801130",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s30"
+      ],
+      "primary_sector": "s30",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7354226931484642587",
+      "url": "https://www.douyin.com/video/7354226931484642587",
+      "title": "你是“宇宙第一电商运营”吗？#coupang #韩国电商 #酷澎 #跨境电商 #韩国创业",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_RELATED_LINK_ONLY",
+      "evidence_url": "https://m.douyin.com/share/video/7472678748320533796",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_ABSENCE_PROOF",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s23",
+        "s30"
+      ],
+      "primary_sector": "s23",
+      "source_record_files": [
+        "research-21-30.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7507489909180058907",
+      "url": "https://www.douyin.com/video/7507489909180058907",
+      "title": "韩国生育率都这么低了，韩国政府为什么还不想办法提高生育 ...",
+      "creator": "南门锅锅",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7507489909180058907",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s31"
+      ],
+      "primary_sector": "s31",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7449005644239080761",
+      "url": "https://www.douyin.com/video/7449005644239080761",
+      "title": "最近不知道为什么婆婆情绪不好 电话也不爱接",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://douyin.com/video/7615934034123820323",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s32"
+      ],
+      "primary_sector": "s32",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7493036482848902435",
+      "url": "https://www.douyin.com/video/7493036482848902435",
+      "title": "国外博主测评中国、印度、韩国高考试卷，哪个国家的最难？ #高考 #中国 #韩国 #印度 #测评 @DOU+小助手 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7493036482848902435",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "POTENTIAL_YOUTUBE_DUPLICATE_REQUIRES_VISUAL_COMPARISON",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s33"
+      ],
+      "primary_sector": "s33",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7645647205071654144",
+      "url": "https://www.douyin.com/video/7645647205071654144",
+      "title": "光鲜外壳下的反乌托邦：韩国年轻人的生存困境 #全球创作者计划#青年创作者成长计划#抖音精选#掘金计划2026#燃起来了大国重器 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7645647205071654144",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s33"
+      ],
+      "primary_sector": "s33",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7676282068610932338",
+      "url": "https://www.douyin.com/video/7676282068610932338",
+      "title": "8月20日，SK海力士表示已在国际学术期刊《自然·电子学》发表论文，阐述共封装光学（CPO）技术发展路线。",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7676282068610932338",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s34"
+      ],
+      "primary_sector": "s34",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7671689976082536293",
+      "url": "https://www.douyin.com/video/7671689976082536293",
+      "title": "韩国铁道公社KTX-산천-107担当503次（首尔——丽水EXPO）益山站进出站 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7671689976082536293",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s35"
+      ],
+      "primary_sector": "s35",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7650131848873713791",
+      "url": "https://www.douyin.com/video/7650131848873713791",
+      "title": "🇰🇷韩语新闻/首尔市长吴世勋当选后 推出首项交通政策 作为交通不便地区居民长期以来的夙愿工程，6条城市轨道交通线路将重新推进建设，其中最具代表性的项目是江北横贯线。",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7650131848873713791",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s36"
+      ],
+      "primary_sector": "s36",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7652516668594743951",
+      "url": "https://www.douyin.com/video/7652516668594743951",
+      "title": "亚洲五大首府GDP巅峰对决 亚洲五大首府经济实力横向对比#中国北京日本东京韩国首尔印度新德里越南河内#创作者分成计划#上热门 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7652516668594743951",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "TITLE_SUGGESTS_JAPAN_KOREA_COMPARISON_UNVERIFIED",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s36"
+      ],
+      "primary_sector": "s36",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7695675232363748201",
+      "url": "https://douyin.com/video/7695675232363748201",
+      "title": "欢迎收看女孩子在韩国釜山购物vlog #韩国生活记录 #vlog日常分享",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://douyin.com/video/7695675232363748201",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s37"
+      ],
+      "primary_sector": "s37",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7666509437724730057",
+      "url": "https://www.douyin.com/video/7666509437724730057",
+      "title": "韩国文化的根在中国#首尔景福宫博物馆 #福满堂刘恒易师 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7666509437724730057",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s38"
+      ],
+      "primary_sector": "s38",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7617677641906212130",
+      "url": "https://www.douyin.com/video/7617677641906212130",
+      "title": "日韩两国发疯般想去掉的汉字，如果真没了会怎样？ #零基础看懂全球  #硬核深度技术  #抖音精选  #理性看世界 #韩国 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7617677641906212130",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "TITLE_SUGGESTS_JAPAN_KOREA_COMPARISON_UNVERIFIED",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s38"
+      ],
+      "primary_sector": "s38",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7101609443669888263",
+      "url": "https://www.douyin.com/video/7101609443669888263",
+      "title": "美国主导的“印太经济框架13国”里的亚洲国家多数都是中国以前的“藩属国”， 韩国 越南 日本 又是什么时候抛弃的“汉文化”#创作灵感 #历史 #涨知识 #汉文化圈 #印太战略 ,亚太大家庭有几个国家- 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7101609443669888263",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "TITLE_SUGGESTS_JAPAN_KOREA_COMPARISON_UNVERIFIED",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s38"
+      ],
+      "primary_sector": "s38",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7650351317839400219",
+      "url": "https://www.douyin.com/video/7650351317839400219",
+      "title": "李在明：若日本道歉毫无诚意 两国无法实现全面合作 近日，在上任一周年记者会上，韩国总统李在明在对日历史问题上表达了强硬立场，称日本至今并未对其二战期间对朝鲜半岛的侵略罪行真诚道歉。他表示，因为这一原因，韩国民众无法信任与日本进行全面安全合作，即便近年来东京正在加速推进美日韩三边或日韩双边的安全协同。（记者：赵子文）",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7650351317839400219",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s39"
+      ],
+      "primary_sector": "s39",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7641160296685473076",
+      "url": "https://www.douyin.com/video/7641160296685473076",
+      "title": "高市早苗访问韩国  准国宾、故乡宴　日韩升温？ 高市早苗访问韩国，李在明给了“准国宾待遇”。两人互访故乡，日韩大力推进安保合作。",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7641160296685473076",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s39"
+      ],
+      "primary_sector": "s39",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7643715459472423771",
+      "url": "https://www.douyin.com/video/7643715459472423771",
+      "title": "财阀“控制”韩国 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7643715459472423771",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s40"
+      ],
+      "primary_sector": "s40",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7648191845079485748",
+      "url": "https://www.douyin.com/video/7648191845079485748",
+      "title": "韩国财阀是怎么把5000多万人拉下水的？ #全球创作者计划  #韩国财阀 #零基础看懂全球  #人文社科 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "SEARCH_SNIPPET_ONLY_ORIGINAL_PAGE_INTERSTITIAL",
+      "evidence_url": "https://www.douyin.com/video/7648191845079485748",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_DUPLICATE_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "UNKNOWN",
+      "sector_ids": [
+        "s40"
+      ],
+      "primary_sector": "s40",
+      "source_record_files": [
+        "research-31-40.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional."
+    },
+    {
+      "ID": "7571762273941818633",
+      "url": "https://www.douyin.com/video/7571762273941818633",
+      "title": "为什么这几年感觉韩国社会越来越不正常？ - 抖音",
+      "creator": "深海尤观",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAgKMU4MnM8WaPZQiqwZQ2GQweEh9ovLCDUYB8mZMrN-Imes91_0fJ0cfIlXa0bBAp",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7571762273941818633",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "EXCLUDE_FACTUAL_ANALYSIS_FICTION_LABEL",
+      "sector_ids": [
+        "s41"
+      ],
+      "primary_sector": "s41",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "EXCLUDED_FACTUAL_ANALYSIS_FICTION_LABEL",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "a91d5206408dff72f1b27f8f929fd05dd164d536ea573d59686d271e513aa779"
+    },
+    {
+      "ID": "7638235437089529512",
+      "url": "https://www.douyin.com/video/7638235437089529512",
+      "title": "文化差异 在韩国生活 #中韩夫妇 - 抖音",
+      "creator": "韩国飞姐",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAsupMjeE2jvZzBWqx8uzeRAiq4FAbfiiBvxjfVzrnGSA",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7638235437089529512",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s41"
+      ],
+      "primary_sector": "s41",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "d164c933659006bec5ded38d0e3c983ba588db50f2776a5e960b7fdfa41856b4"
+    },
+    {
+      "ID": "7573649939718374080",
+      "url": "https://www.douyin.com/video/7573649939718374080",
+      "title": "开门做了个人口普查倒欠韩国两娃？ 本在韩博士生来说说韩国为了让年轻人生娃能有多拼？ #一开门倒欠两个孩子 #韩国 #海外生活 #博士生 #留学生 @DOU+上热门 @DOU+小助手 - 抖音",
+      "creator": "银珠在韩国（读博版）",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAA4bQiE0d0BgZdJTD3HVoAS9qkHfPrQgzsEjO8SJqbiZ4",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7573649939718374080",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s41"
+      ],
+      "primary_sector": "s41",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "69902ef0ec214e5306c4995a543fe9b0ef076393a7e3ef6bb86a3e4c9a28edfc"
+    },
+    {
+      "ID": "7161139179622026537",
+      "url": "https://www.douyin.com/video/7161139179622026537",
+      "title": "韩国🍉-梨泰院采踏事件 八分钟完整版。#实在不敢相信这是真的 #踩踏事件 #热点新闻事件 #视频来源于网络 #韩国首尔发生踩踏事故 - 抖音",
+      "creator": "彩虹屁",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAOBzyhOp9nrQIbyxvR3gBcA1nqd6UiAA9yl0UQZrRI6g",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7161139179622026537",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s42"
+      ],
+      "primary_sector": "s42",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "4f95123e3bfba45725383cb7a03d631fe8ee57bc32cac7be7fdec99c4e9c07c7"
+    },
+    {
+      "ID": "7569909409237975019",
+      "url": "https://douyin.com/video/7569909409237975019",
+      "title": "韩国网红造谣说中国人在韩国到处杀人引发恐慌，现在日本人不敢来旅游了。 在日韩国网红大宝酱，坐拥近百万粉丝。近日却在自己的频道发布谣言，称中国人利用免签政策来韩旅游后，韩国境内发生大量手段残忍的凶杀案，“仅只剩下半身的尸体就达37具之多，正在调查的案件更是多达150件。”，而评论区还有自称检察官的韩国网友留言:“这是真的。” 大宝酱的视频迅速登上热搜，引发了日本网民的集体恐慌，许多日本人临时取消 - 抖音",
+      "creator": "子夜梦廊",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAI_LHKL-2z0fAHjGmqHjq6FWdqnpX6SF03kiFHvdbAhQRugJDw-7hjD7ZpoHId2hh",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://douyin.com/video/7569909409237975019",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "PRIMARY_CAPTION_JAPAN_KOREA_TOPIC_CONTENT_UNREVIEWED",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s43"
+      ],
+      "primary_sector": "s43",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "a6decba57193fc955951b6199df0e718fd3f11c15cccbd89af7bea31040a3a54"
+    },
+    {
+      "ID": "7681970724961127726",
+      "url": "https://douyin.com/video/7681970724961127726",
+      "title": "25岁中国女留学生在韩国遇害，警方认定，31岁中国籍嫌疑人郑昌圣（音译）与遇害女孩确实曾是恋人关系。遇害女孩家属强调，克服万难也要将凶手引渡回国审判。代理律师臧梵清：韩国是事实上废除死刑的国家。韩方拥有法定的裁量拒绝权，可以拒绝引渡，这是本案最大现实阻碍。 - 抖音",
+      "creator": "生活帮",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAvsnv1yhDlQKYu2NiWI-BZeLD2z95yKSRlEktoT6oUkY",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://douyin.com/video/7681970724961127726",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s43"
+      ],
+      "primary_sector": "s43",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "6ee1e805bc97c94ea76845db67f3a00ee59665a35e5972838492956af9047e13"
+    },
+    {
+      "ID": "7647110037030145315",
+      "url": "https://www.douyin.com/video/7647110037030145315",
+      "title": "财阀世袭无法无天？韩国职场有多窒息？完整版 #零基础看懂全球 #硬核深度计划#全球创作者计划 - 抖音",
+      "creator": "世界见闻录",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAtc_aM4S7lMhOTpBqYy9A9a68b0WWuuK0UM2G0GyGXeA",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7647110037030145315",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s44"
+      ],
+      "primary_sector": "s44",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "b4aad78e537ae223958e6df68502c7564efa4e2e59a2efc358fc97fbf0d5e735"
+    },
+    {
+      "ID": "7643019401838562596",
+      "url": "https://www.douyin.com/video/7643019401838562596",
+      "title": "韩国人的AI红利。 同样是AI爆发， #韩国打工人 拿350万年终奖，我们却担心被优化。差距在哪？今天聊聊怎么在 #AI时代 找到你的“议价权”。看懂这个底层逻辑，你也能吃到第一波红利。 #AI红利 #职场效率 - 抖音",
+      "creator": "魏博士讲AI",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAyFMKDBtFC25RZkLUvBX9bSOAl-Y_2Em0C7wQQ9uJV-o",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7643019401838562596",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s44"
+      ],
+      "primary_sector": "s44",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "8b21bcff0cbd19d55530d5ee1701b43f77d5c23577e3b203d7dc4b44b866ae68"
+    },
+    {
+      "ID": "7641453970526981403",
+      "url": "https://www.douyin.com/video/7641453970526981403",
+      "title": "韩国老人离婚比小年轻还多！英发离婚率35年翻了42倍 韩国人不是不结婚吗？不 他们现在连老婚都离了。2025年韩国结婚30年以上的老夫妻离婚数量第一次超过了结婚不到5年的新婚夫妻，1990年老夫妻离婚只有368对， 短短35年间就翻了42倍，有钱有闲的高学历50后60后女性开始带头追求“第二春”。 #离婚 #韩国 #老人 #银发 #520 - 抖音",
+      "creator": "谷雨数据",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAfWcD8J3om7vajKWBaD1U4VFMATZ3BOlgDcWQv0j_srA",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7641453970526981403",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s45"
+      ],
+      "primary_sector": "s45",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "8cf8e877333b69acc08d41c0b403de9678b29eaa1e5cb59850a1a8fcecf43e3b"
+    },
+    {
+      "ID": "7594688377199365427",
+      "url": "https://www.douyin.com/video/7594688377199365427",
+      "title": "不婚不育当 “反抗武器”？日韩女权怎么把生育率干到全球倒数？ #抖音精选 #全球创作者计划 #日韩女权 #零基础看懂全球 #硬核深度计划 - 抖音",
+      "creator": "戎机谈",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAwEB-eqv2YXaDW0JCOMTBDe8oL7WB9jrJoKJjBUuHoDhIkVT-dDiBdAkvPKpZLIMB",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7594688377199365427",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "PRIMARY_CAPTION_JAPAN_KOREA_TOPIC_CONTENT_UNREVIEWED",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s45"
+      ],
+      "primary_sector": "s45",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "d7229774097c5a12d8de1c866f7255062a25f3f2a35abbd64f0e0197043fabcd"
+    },
+    {
+      "ID": "7026733467916455200",
+      "url": "https://www.douyin.com/video/7026733467916455200",
+      "title": "魔怔的韩国女权：如何走向巅峰，又如何被男权反杀消亡？#女权#内卷#男权#韩国女权#魔怔#科普#奇葩 #婚姻 - 抖音",
+      "creator": "世界球",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAgjAXs13pENybbRpi9-bDRibj6KahpnatTuD7EdA5ElV15837AyVFFMZP6yerWUr2",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7026733467916455200",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s45"
+      ],
+      "primary_sector": "s45",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "11b612aca66ed663945b8288a4f58bcf6e355920f6b082cdf13b1994973594de"
+    },
+    {
+      "ID": "7618570217400177595",
+      "url": "https://www.douyin.com/video/7618570217400177595",
+      "title": "#足球 #女足亚洲杯 #日本足球 今晚日本和韩国的比赛，足够精彩。想着日韩应该可以五五开，最后进球差距不大，没想到这场比赛是日本单方面对韩国的绞杀。全场比赛下来，日本踢得非常流畅，进攻合理，防守积极。所以最后以4：1的比分大胜韩国女足。其中有多达三个进球被裁判吹掉，就是她们胜利的欲望非常强烈。下场决赛以目前各自实力水平来看，日本女足夺冠实力很大，因为澳大利亚昨晚和我们踢得很焦灼，也只是进了两个球。 - 抖音",
+      "creator": "田雨田",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAJlSn4PaEskVtUqQnJIhfQtF0avDxJNJGWJLxlrlwWfA",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7618570217400177595",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "PRIMARY_CAPTION_JAPAN_KOREA_TOPIC_CONTENT_UNREVIEWED",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s46"
+      ],
+      "primary_sector": "s46",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "deea5395ec5fc12639d706d40dc6557ff4c644d1fcb5d234149a7500a3aeb517"
+    },
+    {
+      "ID": "6840771415478668555",
+      "url": "https://www.douyin.com/video/6840771415478668555",
+      "title": "这点不解决，中国足球永远没有希望！日韩这些模式我们值得借鉴 #足球 - 抖音",
+      "creator": "金球维基",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAIppqqE05ZPMvPBF19q8HhVc2a5kFHWtqDWAL-ntxd8c",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/6840771415478668555",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "PRIMARY_CAPTION_JAPAN_KOREA_TOPIC_CONTENT_UNREVIEWED",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s46"
+      ],
+      "primary_sector": "s46",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "b1812bb40166d9b1c22a94f379038086425020d319d2f7a99f413571aadd7d0c"
+    },
+    {
+      "ID": "7321672957816753434",
+      "url": "https://www.douyin.com/video/7321672957816753434",
+      "title": "KPOP五代女团史上的有功之臣们，达成音源/销量等各项成绩的里程碑，开启五代女团盛世新篇章！！#女团 #五代女团 #kpop #ive #aespa #lesserafim #newJeans #itzy #gidle #izone - 抖音",
+      "creator": "Katelyn_lily",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAx1dmX6sM1U_ED3mSxwJsJEPnODRlRYHLiaXrkdMC9EU",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7321672957816753434",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s47"
+      ],
+      "primary_sector": "s47",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "7a54f510a89262ade60b933437b18d68a8b471b1aa42989946175e2f2f632684"
+    },
+    {
+      "ID": "7629216008142967278",
+      "url": "https://www.douyin.com/video/7629216008142967278",
+      "title": "KPOP四大公司合资开公司举办音乐节 #娱乐评论大赏 #kpop #明星 #音乐 #韩国 - 抖音",
+      "creator": "八卦永动机西柚",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAEmHtvlhSqXrQmeywTJfoR_Th2cwHi5rUadL68LrMMZg",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7629216008142967278",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s47"
+      ],
+      "primary_sector": "s47",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "17bd47e06bc5386e60cbefaec58a5f8ea9418db6b0b10ed93b80d07673facc78"
+    },
+    {
+      "ID": "7651956526411812105",
+      "url": "https://www.douyin.com/video/7651956526411812105",
+      "title": "五代回归对决 这一个多月的五代女团回归，究竟谁才是最大赢家？NMIXX登顶刷新纪录，aespa横扫三大市场，LE SSERAFIM持续冲击欧美... #aespa #lesserafim #illit #gidle #抖音音乐客厅 - 抖音",
+      "creator": "peter音乐聚焦",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAA-ZZA8gyILf8g9I39EVjnh-VrGjWU7MOKtq8sxbiSdvd43DZuyQNedu-TQUJI8UwY",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7651956526411812105",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s47"
+      ],
+      "primary_sector": "s47",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "ef056dc8a5f9674bb30e6d24e3eae34af9d7c4008b2c03ad6218f4544f894a0b"
+    },
+    {
+      "ID": "7581861702523014459",
+      "url": "https://douyin.com/video/7581861702523014459",
+      "title": "韩国电影《嫌疑者》：跨越生死才和女儿相遇，女儿三次回眸才认出自己的爸爸！#电影解说推荐 #超长解说 #一剪到底 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "PRIMARY_EVIDENCE_INCOMPLETE_SEARCH_CANDIDATE_ONLY",
+      "evidence_url": "https://douyin.com/video/7581861702523014459",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s48"
+      ],
+      "primary_sector": "s48",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Child metadata claim downgraded: saved primary evidence shows loading/interstitial, not claimed uploader. Requires recheck.",
+      "evidence_record_sha256": "154d486a0bc1c80b9f25ec268fb4607791774555c1e01eb224da81e5e0a7853f"
+    },
+    {
+      "ID": "7644921735364773606",
+      "url": "https://douyin.com/video/7644921735364773606",
+      "title": "#没有廉价跳吓，只有深入骨髓的宿命诅咒。2026深度解说韩国恐怖片杀木地，一群心存侥幸的年轻人踏足百年凶地，幻境缠身、人性崩塌，从狂妄自大到全员惨死，看完后背发凉。 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "PRIMARY_EVIDENCE_INCOMPLETE_SEARCH_CANDIDATE_ONLY",
+      "evidence_url": "https://douyin.com/video/7644921735364773606",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s48"
+      ],
+      "primary_sector": "s48",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Child metadata claim downgraded: saved primary evidence shows loading/interstitial, not claimed uploader. Requires recheck.",
+      "evidence_record_sha256": "281bf2b782f5e919bdef82f72858c8aea6bac7e0b4a20d023e682a356f11fa04"
+    },
+    {
+      "ID": "7696790535494766690",
+      "url": "https://douyin.com/video/7696790535494766690",
+      "title": "2026年韩国科幻巨制，罗泓轸憋了10年的大招，每帧都是暴击（上集） #黄政民 #了不起的精讲团 #影视解说 #电影解说 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "PRIMARY_EVIDENCE_INCOMPLETE_SEARCH_CANDIDATE_ONLY",
+      "evidence_url": "https://douyin.com/video/7696790535494766690",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s48"
+      ],
+      "primary_sector": "s48",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Child metadata claim downgraded: saved primary evidence shows loading/interstitial, not claimed uploader. Requires recheck.",
+      "evidence_record_sha256": "91e960ee78e1f7acdb3218b2be7e077b5e2d5a73f20d85d0cb0b5107dab00a64"
+    },
+    {
+      "ID": "7532493931053976858",
+      "url": "https://douyin.com/video/7532493931053976858",
+      "title": "一段舞蹈说清飞飞无限宇宙 ff.ruiwoo.cn #游戏#手游推荐#一起玩游戏#飞飞#网页飞飞 - 抖音",
+      "creator": "UNKNOWN",
+      "creator_url": "UNKNOWN",
+      "verification": "PRIMARY_EVIDENCE_INCOMPLETE_SEARCH_CANDIDATE_ONLY",
+      "evidence_url": "https://douyin.com/video/7532493931053976858",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s49"
+      ],
+      "primary_sector": "s49",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Child metadata claim downgraded: saved primary evidence shows loading/interstitial, not claimed uploader. Requires recheck.",
+      "evidence_record_sha256": "4c595015142bc352edb35b4841204a16c1885b8f45d2e3a686329ebf00ab8884"
+    },
+    {
+      "ID": "7637848190812720427",
+      "url": "https://douyin.com/video/7637848190812720427",
+      "title": "四月新番~暴君哥哥是赠品 漫画很有看点 女主人设是帝国恶毒的公主，男主是粘人的暴君 男二有着白发碧眼#韩漫 #暴君哥哥是赠品 #韩漫解说 #大女主 - 抖音",
+      "creator": "苏小米说漫",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAASF0qa9GgiYTv1YMrJ0lM_cHPGubxpJbgH_pE5ofpmAaK8emKJll-GvlIOjb1m4Ql",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://douyin.com/video/7637848190812720427",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s49"
+      ],
+      "primary_sector": "s49",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "f111464bfdacc020218754268b84bcdd9f2e8d39325764bcb074d8a23d847b12"
+    },
+    {
+      "ID": "7647912524218751562",
+      "url": "https://www.douyin.com/video/7647912524218751562",
+      "title": "六三选举后续 #韩中经济社会研究所 #SKESI #姜所长讲韩国 乱透了 - 抖音",
+      "creator": "SKESI姜昊求所长",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAAKxoO_516dHPcHylVQDpAdFRikK9RToEx8KhYytVvfPQ",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7647912524218751562",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s50"
+      ],
+      "primary_sector": "s50",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "94195f0206cedc6f085b2791e20040c8c3f7367bb564989adeb089e122c418a8"
+    },
+    {
+      "ID": "7590964667426573609",
+      "url": "https://www.douyin.com/video/7590964667426573609",
+      "title": "新年首个工作日，韩国总统李在明携200人庞大经贸团直奔中国，四大财团掌门人罕见齐齐随行，除了抢订单、谈朝韩，李在明此行还要谈哪些大事？评论员刘和平直言不讳。#李在明 #中韩关系 #半岛局势 #直言不讳 #媒体精选计划 - 抖音",
+      "creator": "直新闻",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAALD5Cr6jj0oenaSmeC22PwJ8b6QeVlZFe8Zm3lIRIKqI",
+      "verification": "PRIMARY_PAGE_METADATA_VERIFIED_CONTENT_UNREVIEWED",
+      "evidence_url": "https://www.douyin.com/video/7590964667426573609",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "KOREA_TOPIC_JAPAN_COMPARISON_UNKNOWN",
+      "download_permission": "UNKNOWN",
+      "candidate_status": "INITIAL_CANDIDATE_NEEDS_CONTENT_AND_RIGHTS_REVIEW",
+      "sector_ids": [
+        "s50"
+      ],
+      "primary_sector": "s50",
+      "source_record_files": [
+        "research-41-50.json"
+      ],
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
+      "evidence_record_sha256": "cdd467026152981e51c7afefe6565bee96edff44cdf8eedc07271b522d220f7f"
     }
   ],
   "rules": [
@@ -970,5 +3280,10 @@
     "Platform subtitles preferred; OCR and Whisper labeled separately",
     "No source media moves, deletions, overwrites or PC absence inference",
     "Public GitHub contains metadata and hashes, not unlicensed full media/subtitles/comment text"
-  ]
+  ],
+  "research_unique_candidates": 76,
+  "research_rows": 78,
+  "sectors_attempted": 50,
+  "research_primary_metadata": 20,
+  "research_search_only": 56
 }

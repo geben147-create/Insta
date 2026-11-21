@@ -1,0 +1,974 @@
+{
+  "updated_at": "2026-11-21T12:01:28.013566+09:00",
+  "root": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인",
+  "sector_count": 50,
+  "target_per_sector": 100,
+  "target_slots": 5000,
+  "unique_candidates": 1,
+  "downloaded": 0,
+  "subtitle_ready": 0,
+  "pilot_blocked": 1,
+  "comment_samples": 5,
+  "youtube_absence_verified": 0,
+  "phase": "PILOT_BLOCKED_PARALLEL_INITIAL_RESEARCH_RUNNING",
+  "sectors": [
+    {
+      "id": "s01",
+      "name": "한일 종합비교",
+      "chinese_topic": "日韩对比",
+      "target": 100,
+      "queries": [
+        "日韩对比",
+        "日韩对比 分析",
+        "日韩对比 日韩对比",
+        "日韩对比 中国人看",
+        "日韩对比 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s01_한일 종합비교",
+      "search_url": "https://www.douyin.com/search/%E6%97%A5%E9%9F%A9%E5%AF%B9%E6%AF%94",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s02",
+      "name": "한국 경제·성장",
+      "chinese_topic": "韩国经济分析",
+      "target": 100,
+      "queries": [
+        "韩国经济分析",
+        "韩国经济分析 分析",
+        "韩国经济分析 日韩对比",
+        "韩国经济分析 中国人看",
+        "韩国经济分析 纪录片"
+      ],
+      "status": "PILOT_BLOCKED",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s02_한국 경제·성장",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%88%86%E6%9E%90",
+      "candidate_count": 1,
+      "saved_count": 0
+    },
+    {
+      "id": "s03",
+      "name": "반도체·메모리",
+      "chinese_topic": "韩国半导体",
+      "target": 100,
+      "queries": [
+        "韩国半导体",
+        "韩国半导体 分析",
+        "韩国半导体 日韩对比",
+        "韩国半导体 中国人看",
+        "韩国半导体 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s03_반도체·메모리",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%8D%8A%E5%AF%BC%E4%BD%93",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s04",
+      "name": "AI·소프트웨어",
+      "chinese_topic": "韩国人工智能",
+      "target": 100,
+      "queries": [
+        "韩国人工智能",
+        "韩国人工智能 分析",
+        "韩国人工智能 日韩对比",
+        "韩国人工智能 中国人看",
+        "韩国人工智能 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s04_AI·소프트웨어",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s05",
+      "name": "배터리·전기차",
+      "chinese_topic": "韩国电池电动车",
+      "target": 100,
+      "queries": [
+        "韩国电池电动车",
+        "韩国电池电动车 分析",
+        "韩国电池电动车 日韩对比",
+        "韩国电池电动车 中国人看",
+        "韩国电池电动车 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s05_배터리·전기차",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%94%B5%E6%B1%A0%E7%94%B5%E5%8A%A8%E8%BD%A6",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s06",
+      "name": "자동차",
+      "chinese_topic": "韩国汽车日本汽车",
+      "target": 100,
+      "queries": [
+        "韩国汽车日本汽车",
+        "韩国汽车日本汽车 分析",
+        "韩国汽车日本汽车 日韩对比",
+        "韩国汽车日本汽车 中国人看",
+        "韩国汽车日本汽车 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s06_자동차",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%B1%BD%E8%BD%A6%E6%97%A5%E6%9C%AC%E6%B1%BD%E8%BD%A6",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s07",
+      "name": "조선·해운",
+      "chinese_topic": "韩国造船",
+      "target": 100,
+      "queries": [
+        "韩国造船",
+        "韩国造船 分析",
+        "韩国造船 日韩对比",
+        "韩国造船 中国人看",
+        "韩国造船 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s07_조선·해운",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E9%80%A0%E8%88%B9",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s08",
+      "name": "철강·소재",
+      "chinese_topic": "韩国钢铁材料",
+      "target": 100,
+      "queries": [
+        "韩国钢铁材料",
+        "韩国钢铁材料 分析",
+        "韩国钢铁材料 日韩对比",
+        "韩国钢铁材料 中国人看",
+        "韩国钢铁材料 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s08_철강·소재",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E9%92%A2%E9%93%81%E6%9D%90%E6%96%99",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s09",
+      "name": "디스플레이",
+      "chinese_topic": "韩国显示屏",
+      "target": 100,
+      "queries": [
+        "韩国显示屏",
+        "韩国显示屏 分析",
+        "韩国显示屏 日韩对比",
+        "韩国显示屏 中国人看",
+        "韩国显示屏 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s09_디스플레이",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%98%BE%E7%A4%BA%E5%B1%8F",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s10",
+      "name": "스마트폰·전자",
+      "chinese_topic": "韩国手机电子",
+      "target": 100,
+      "queries": [
+        "韩国手机电子",
+        "韩国手机电子 分析",
+        "韩国手机电子 日韩对比",
+        "韩国手机电子 中国人看",
+        "韩国手机电子 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s10_스마트폰·전자",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%89%8B%E6%9C%BA%E7%94%B5%E5%AD%90",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s11",
+      "name": "로봇·자동화",
+      "chinese_topic": "韩国机器人",
+      "target": 100,
+      "queries": [
+        "韩国机器人",
+        "韩国机器人 分析",
+        "韩国机器人 日韩对比",
+        "韩国机器人 中国人看",
+        "韩国机器人 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s11_로봇·자동화",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s12",
+      "name": "방산·무기",
+      "chinese_topic": "韩国军工",
+      "target": 100,
+      "queries": [
+        "韩国军工",
+        "韩国军工 分析",
+        "韩国军工 日韩对比",
+        "韩国军工 中国人看",
+        "韩国军工 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s12_방산·무기",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%86%9B%E5%B7%A5",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s13",
+      "name": "항공·우주",
+      "chinese_topic": "韩国航空航天",
+      "target": 100,
+      "queries": [
+        "韩国航空航天",
+        "韩国航空航天 分析",
+        "韩国航空航天 日韩对比",
+        "韩国航空航天 中国人看",
+        "韩国航空航天 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s13_항공·우주",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s14",
+      "name": "원전·에너지",
+      "chinese_topic": "韩国核电能源",
+      "target": 100,
+      "queries": [
+        "韩国核电能源",
+        "韩国核电能源 分析",
+        "韩国核电能源 日韩对比",
+        "韩国核电能源 中国人看",
+        "韩国核电能源 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s14_원전·에너지",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%A0%B8%E7%94%B5%E8%83%BD%E6%BA%90",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s15",
+      "name": "재생에너지·환경",
+      "chinese_topic": "韩国新能源环保",
+      "target": 100,
+      "queries": [
+        "韩国新能源环保",
+        "韩国新能源环保 分析",
+        "韩国新能源环保 日韩对比",
+        "韩国新能源环保 中国人看",
+        "韩国新能源环保 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s15_재생에너지·환경",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%96%B0%E8%83%BD%E6%BA%90%E7%8E%AF%E4%BF%9D",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s16",
+      "name": "화학·석유화학",
+      "chinese_topic": "韩国化工",
+      "target": 100,
+      "queries": [
+        "韩国化工",
+        "韩国化工 分析",
+        "韩国化工 日韩对比",
+        "韩国化工 中国人看",
+        "韩国化工 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s16_화학·석유화학",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%8C%96%E5%B7%A5",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s17",
+      "name": "바이오·제약",
+      "chinese_topic": "韩国生物制药",
+      "target": 100,
+      "queries": [
+        "韩国生物制药",
+        "韩国生物制药 分析",
+        "韩国生物制药 日韩对比",
+        "韩国生物制药 中国人看",
+        "韩国生物制药 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s17_바이오·제약",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%94%9F%E7%89%A9%E5%88%B6%E8%8D%AF",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s18",
+      "name": "의료·병원",
+      "chinese_topic": "韩国医疗日本医疗",
+      "target": 100,
+      "queries": [
+        "韩国医疗日本医疗",
+        "韩国医疗日本医疗 分析",
+        "韩国医疗日本医疗 日韩对比",
+        "韩国医疗日本医疗 中国人看",
+        "韩国医疗日本医疗 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s18_의료·병원",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%8C%BB%E7%96%97%E6%97%A5%E6%9C%AC%E5%8C%BB%E7%96%97",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s19",
+      "name": "화장품·뷰티",
+      "chinese_topic": "韩国化妆品日本化妆品",
+      "target": 100,
+      "queries": [
+        "韩国化妆品日本化妆品",
+        "韩国化妆品日本化妆品 分析",
+        "韩国化妆品日本化妆品 日韩对比",
+        "韩国化妆品日本化妆品 中国人看",
+        "韩国化妆品日本化妆品 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s19_화장품·뷰티",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%8C%96%E5%A6%86%E5%93%81%E6%97%A5%E6%9C%AC%E5%8C%96%E5%A6%86%E5%93%81",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s20",
+      "name": "패션·의류",
+      "chinese_topic": "韩国日本穿搭",
+      "target": 100,
+      "queries": [
+        "韩国日本穿搭",
+        "韩国日本穿搭 分析",
+        "韩国日本穿搭 日韩对比",
+        "韩国日本穿搭 中国人看",
+        "韩国日本穿搭 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s20_패션·의류",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E7%A9%BF%E6%90%AD",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s21",
+      "name": "식품·외식",
+      "chinese_topic": "韩国日本美食",
+      "target": 100,
+      "queries": [
+        "韩国日本美食",
+        "韩国日本美食 分析",
+        "韩国日本美食 日韩对比",
+        "韩国日本美食 中国人看",
+        "韩国日本美食 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s21_식품·외식",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E7%BE%8E%E9%A3%9F",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s22",
+      "name": "농업·수산업",
+      "chinese_topic": "韩国农业渔业",
+      "target": 100,
+      "queries": [
+        "韩国农业渔业",
+        "韩国农业渔业 分析",
+        "韩国农业渔业 日韩对比",
+        "韩国农业渔业 中国人看",
+        "韩国农业渔业 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s22_농업·수산업",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%86%9C%E4%B8%9A%E6%B8%94%E4%B8%9A",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s23",
+      "name": "유통·전자상거래",
+      "chinese_topic": "韩国电商零售",
+      "target": 100,
+      "queries": [
+        "韩国电商零售",
+        "韩国电商零售 分析",
+        "韩国电商零售 日韩对比",
+        "韩国电商零售 中国人看",
+        "韩国电商零售 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s23_유통·전자상거래",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%94%B5%E5%95%86%E9%9B%B6%E5%94%AE",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s24",
+      "name": "물류·택배",
+      "chinese_topic": "韩国物流快递",
+      "target": 100,
+      "queries": [
+        "韩国物流快递",
+        "韩国物流快递 分析",
+        "韩国物流快递 日韩对比",
+        "韩国物流快递 中国人看",
+        "韩国物流快递 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s24_물류·택배",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%89%A9%E6%B5%81%E5%BF%AB%E9%80%92",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s25",
+      "name": "금융·은행",
+      "chinese_topic": "韩国金融银行",
+      "target": 100,
+      "queries": [
+        "韩国金融银行",
+        "韩国金融银行 分析",
+        "韩国金融银行 日韩对比",
+        "韩国金融银行 中国人看",
+        "韩国金融银行 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s25_금융·은행",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E9%87%91%E8%9E%8D%E9%93%B6%E8%A1%8C",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s26",
+      "name": "부동산·주거",
+      "chinese_topic": "韩国日本房价住房",
+      "target": 100,
+      "queries": [
+        "韩国日本房价住房",
+        "韩国日本房价住房 分析",
+        "韩国日本房价住房 日韩对比",
+        "韩国日本房价住房 中国人看",
+        "韩国日本房价住房 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s26_부동산·주거",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E6%88%BF%E4%BB%B7%E4%BD%8F%E6%88%BF",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s27",
+      "name": "물가·소비",
+      "chinese_topic": "韩国日本物价",
+      "target": 100,
+      "queries": [
+        "韩国日本物价",
+        "韩国日本物价 分析",
+        "韩国日本物价 日韩对比",
+        "韩国日本物价 中国人看",
+        "韩国日本物价 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s27_물가·소비",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E7%89%A9%E4%BB%B7",
+      "candidate_count": 1,
+      "saved_count": 0
+    },
+    {
+      "id": "s28",
+      "name": "임금·고용",
+      "chinese_topic": "韩国日本工资就业",
+      "target": 100,
+      "queries": [
+        "韩国日本工资就业",
+        "韩国日本工资就业 分析",
+        "韩国日本工资就业 日韩对比",
+        "韩国日本工资就业 中国人看",
+        "韩国日本工资就业 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s28_임금·고용",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%B7%A5%E8%B5%84%E5%B0%B1%E4%B8%9A",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s29",
+      "name": "기업·재벌",
+      "chinese_topic": "韩国财阀企业",
+      "target": 100,
+      "queries": [
+        "韩国财阀企业",
+        "韩国财阀企业 分析",
+        "韩国财阀企业 日韩对比",
+        "韩国财阀企业 中国人看",
+        "韩国财阀企业 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s29_기업·재벌",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E8%B4%A2%E9%98%80%E4%BC%81%E4%B8%9A",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s30",
+      "name": "창업·스타트업",
+      "chinese_topic": "韩国创业",
+      "target": 100,
+      "queries": [
+        "韩国创业",
+        "韩国创业 分析",
+        "韩国创业 日韩对比",
+        "韩国创业 中国人看",
+        "韩国创业 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s30_창업·스타트업",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%88%9B%E4%B8%9A",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s31",
+      "name": "인구·저출산",
+      "chinese_topic": "韩国日本少子化",
+      "target": 100,
+      "queries": [
+        "韩国日本少子化",
+        "韩国日本少子化 分析",
+        "韩国日本少子化 日韩对比",
+        "韩国日本少子化 中国人看",
+        "韩国日本少子化 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s31_인구·저출산",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%B0%91%E5%AD%90%E5%8C%96",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s32",
+      "name": "고령화·복지",
+      "chinese_topic": "韩国日本养老福利",
+      "target": 100,
+      "queries": [
+        "韩国日本养老福利",
+        "韩国日本养老福利 分析",
+        "韩国日本养老福利 日韩对比",
+        "韩国日本养老福利 中国人看",
+        "韩国日本养老福利 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s32_고령화·복지",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%85%BB%E8%80%81%E7%A6%8F%E5%88%A9",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s33",
+      "name": "교육·입시",
+      "chinese_topic": "韩国日本教育",
+      "target": 100,
+      "queries": [
+        "韩国日本教育",
+        "韩国日本教育 分析",
+        "韩国日本教育 日韩对比",
+        "韩国日本教育 中国人看",
+        "韩国日本教育 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s33_교육·입시",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E6%95%99%E8%82%B2",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s34",
+      "name": "과학·연구",
+      "chinese_topic": "韩国科学研究",
+      "target": 100,
+      "queries": [
+        "韩国科学研究",
+        "韩国科学研究 分析",
+        "韩国科学研究 日韩对比",
+        "韩国科学研究 中国人看",
+        "韩国科学研究 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s34_과학·연구",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s35",
+      "name": "교통·철도",
+      "chinese_topic": "韩国日本高铁交通",
+      "target": 100,
+      "queries": [
+        "韩国日本高铁交通",
+        "韩国日本高铁交通 分析",
+        "韩国日本高铁交通 日韩对比",
+        "韩国日本高铁交通 中国人看",
+        "韩国日本高铁交通 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s35_교통·철도",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E9%AB%98%E9%93%81%E4%BA%A4%E9%80%9A",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s36",
+      "name": "도시·인프라",
+      "chinese_topic": "韩国日本城市基建",
+      "target": 100,
+      "queries": [
+        "韩国日本城市基建",
+        "韩国日本城市基建 分析",
+        "韩国日本城市基建 日韩对比",
+        "韩国日本城市基建 中国人看",
+        "韩国日本城市基建 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s36_도시·인프라",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%9F%8E%E5%B8%82%E5%9F%BA%E5%BB%BA",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s37",
+      "name": "관광·여행",
+      "chinese_topic": "韩国日本旅游比较",
+      "target": 100,
+      "queries": [
+        "韩国日本旅游比较",
+        "韩国日本旅游比较 分析",
+        "韩国日本旅游比较 日韩对比",
+        "韩国日本旅游比较 中国人看",
+        "韩国日本旅游比较 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s37_관광·여행",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E6%97%85%E6%B8%B8%E6%AF%94%E8%BE%83",
+      "candidate_count": 1,
+      "saved_count": 0
+    },
+    {
+      "id": "s38",
+      "name": "역사·문화",
+      "chinese_topic": "韩国日本历史文化",
+      "target": 100,
+      "queries": [
+        "韩国日本历史文化",
+        "韩国日本历史文化 分析",
+        "韩国日本历史文化 日韩对比",
+        "韩国日本历史文化 中国人看",
+        "韩国日本历史文化 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s38_역사·문화",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s39",
+      "name": "국제관계·외교",
+      "chinese_topic": "韩国日本外交",
+      "target": 100,
+      "queries": [
+        "韩国日本外交",
+        "韩国日本外交 分析",
+        "韩国日本外交 日韩对比",
+        "韩国日本外交 中国人看",
+        "韩国日本外交 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s39_국제관계·외교",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%A4%96%E4%BA%A4",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s40",
+      "name": "정치·제도",
+      "chinese_topic": "韩国政治制度",
+      "target": 100,
+      "queries": [
+        "韩国政治制度",
+        "韩国政治制度 分析",
+        "韩国政治制度 日韩对比",
+        "韩国政治制度 中国人看",
+        "韩国政治制度 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s40_정치·제도",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%94%BF%E6%B2%BB%E5%88%B6%E5%BA%A6",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s41",
+      "name": "사회·일상",
+      "chinese_topic": "韩国社会生活",
+      "target": 100,
+      "queries": [
+        "韩国社会生活",
+        "韩国社会生活 分析",
+        "韩国社会生活 日韩对比",
+        "韩国社会生活 中国人看",
+        "韩国社会生活 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s41_사회·일상",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E7%A4%BE%E4%BC%9A%E7%94%9F%E6%B4%BB",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s42",
+      "name": "안전·재난",
+      "chinese_topic": "韩国防灾安全",
+      "target": 100,
+      "queries": [
+        "韩国防灾安全",
+        "韩国防灾安全 分析",
+        "韩国防灾安全 日韩对比",
+        "韩国防灾安全 中国人看",
+        "韩国防灾安全 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s42_안전·재난",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E9%98%B2%E7%81%BE%E5%AE%89%E5%85%A8",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s43",
+      "name": "치안·범죄",
+      "chinese_topic": "韩国日本治安",
+      "target": 100,
+      "queries": [
+        "韩国日本治安",
+        "韩国日本治安 分析",
+        "韩国日本治安 日韩对比",
+        "韩国日本治安 中国人看",
+        "韩国日本治安 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s43_치안·범죄",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E6%B2%BB%E5%AE%89",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s44",
+      "name": "노동·직장문화",
+      "chinese_topic": "韩国日本职场",
+      "target": 100,
+      "queries": [
+        "韩国日本职场",
+        "韩国日本职场 分析",
+        "韩国日本职场 日韩对比",
+        "韩国日本职场 中国人看",
+        "韩国日本职场 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s44_노동·직장문화",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E8%81%8C%E5%9C%BA",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s45",
+      "name": "가족·연애·결혼",
+      "chinese_topic": "韩国日本婚姻家庭",
+      "target": 100,
+      "queries": [
+        "韩国日本婚姻家庭",
+        "韩国日本婚姻家庭 分析",
+        "韩国日本婚姻家庭 日韩对比",
+        "韩国日本婚姻家庭 中国人看",
+        "韩国日本婚姻家庭 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s45_가족·연애·결혼",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E5%A9%9A%E5%A7%BB%E5%AE%B6%E5%BA%AD",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s46",
+      "name": "스포츠",
+      "chinese_topic": "韩国日本体育",
+      "target": 100,
+      "queries": [
+        "韩国日本体育",
+        "韩国日本体育 分析",
+        "韩国日本体育 日韩对比",
+        "韩国日本体育 中国人看",
+        "韩国日本体育 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s46_스포츠",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%97%A5%E6%9C%AC%E4%BD%93%E8%82%B2",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s47",
+      "name": "음악·공연",
+      "chinese_topic": "韩国音乐演出",
+      "target": 100,
+      "queries": [
+        "韩国音乐演出",
+        "韩国音乐演出 分析",
+        "韩国音乐演出 日韩对比",
+        "韩国音乐演出 中国人看",
+        "韩国音乐演出 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s47_음악·공연",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E9%9F%B3%E4%B9%90%E6%BC%94%E5%87%BA",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s48",
+      "name": "드라마·영화",
+      "chinese_topic": "韩剧韩国电影分析",
+      "target": 100,
+      "queries": [
+        "韩剧韩国电影分析",
+        "韩剧韩国电影分析 分析",
+        "韩剧韩国电影分析 日韩对比",
+        "韩剧韩国电影分析 中国人看",
+        "韩剧韩国电影分析 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s48_드라마·영화",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%89%A7%E9%9F%A9%E5%9B%BD%E7%94%B5%E5%BD%B1%E5%88%86%E6%9E%90",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s49",
+      "name": "게임·웹툰",
+      "chinese_topic": "韩国游戏漫画",
+      "target": 100,
+      "queries": [
+        "韩国游戏漫画",
+        "韩国游戏漫画 分析",
+        "韩国游戏漫画 日韩对比",
+        "韩国游戏漫画 中国人看",
+        "韩国游戏漫画 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s49_게임·웹툰",
+      "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E6%B8%B8%E6%88%8F%E6%BC%AB%E7%94%BB",
+      "candidate_count": 0,
+      "saved_count": 0
+    },
+    {
+      "id": "s50",
+      "name": "언론·방송의 한국 분석",
+      "chinese_topic": "中国媒体韩国分析",
+      "target": 100,
+      "queries": [
+        "中国媒体韩国分析",
+        "中国媒体韩国分析 分析",
+        "中国媒体韩国分析 日韩对比",
+        "中国媒体韩国分析 中国人看",
+        "中国媒体韩国分析 纪录片"
+      ],
+      "status": "INITIAL_RESEARCH_RUNNING",
+      "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s50_언론·방송의 한국 분석",
+      "search_url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%AA%92%E4%BD%93%E9%9F%A9%E5%9B%BD%E5%88%86%E6%9E%90",
+      "candidate_count": 0,
+      "saved_count": 0
+    }
+  ],
+  "videos": [
+    {
+      "ID": "7456720788381601061",
+      "url": "https://www.douyin.com/video/7456720788381601061",
+      "title": "在韩国游客的背后，我看到了【经济真相】 #财经 #中国经济八问 #涨知识 #旅游",
+      "sector_ids": [
+        "s02",
+        "s27",
+        "s37"
+      ],
+      "primary_sector": "s02",
+      "creator": "N小黑财经",
+      "creator_url": "https://www.douyin.com/user/MS4wLjABAAAA-_-1yMYb0hBZynuQTpRZ6FPl22UyMPxYOb37Vr-OrSw",
+      "creator_nationality": "UNKNOWN",
+      "platform": "Douyin",
+      "verification": "ORIGINAL_PAGE_TITLE_AUTHOR_PLAYER_AND_VISIBLE_COMMENTS",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "visible_metric_strings": [
+        "492.4K",
+        "105.8K",
+        "47.3K",
+        "234.9K"
+      ],
+      "metric_caution": "unlabeled screenshot counts are not play counts; not mapped without verified labels",
+      "duration_seconds": 361.697007,
+      "posted_display": "2025-01-06 17:46",
+      "checked_at": "2026-11-21T02:58:29.674Z",
+      "youtube_status": "UNKNOWN_SEARCH_INCOMPLETE_GOOGLE_CAPTCHA_OTHER_SEARCH_NO_EXACT_MATCH",
+      "comparison_status": "KOREA_TOURISTS_AND_PRICES_NOT_DIRECT_JAPAN_COMPARISON_VERIFIED",
+      "download_permission": "UNKNOWN_NO_OFFICIAL_DOWNLOAD_CONTROL_OBSERVED",
+      "download_status": "BLOCKED_EXTRACTOR_403_FRESH_COOKIES_REQUIRED",
+      "subtitle_status": "UNKNOWN_NO_HTML_TRACKS_NO_EXTRACTOR_METADATA",
+      "video_path": "UNKNOWN",
+      "video_bytes": "UNKNOWN",
+      "video_sha256": "UNKNOWN",
+      "original_path": "UNKNOWN",
+      "original_sha256": "UNKNOWN",
+      "ko_path": "UNKNOWN",
+      "ko_sha256": "UNKNOWN",
+      "comment_sample_count": 5,
+      "comment_sample_path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s02_한국 경제·성장/7456720788381601061/comments-visible-sample.csv",
+      "comment_sample_sha256": "b2a3b89edfa6f99c8b12539f48cd81c5f40719ca5335bf531752b5758db8392f",
+      "existing_media": [],
+      "source_summary_is_not_transcript": true,
+      "PC_current": "UNKNOWN",
+      "notes": "Pilot playable without login,5 visible comment bodies preserved; rights and YouTube eligibility not confirmed. No MP4 downloaded and no fake SRT. Comments are opinions, not verified facts."
+    }
+  ],
+  "rules": [
+    "5000 is a target, not actual downloaded videos",
+    "Sector overlap deduplicated globally by Douyin ID",
+    "YouTube absence remains UNKNOWN until evidence; no YouTube downloads",
+    "Platform subtitles preferred; OCR and Whisper labeled separately",
+    "No source media moves, deletions, overwrites or PC absence inference",
+    "Public GitHub contains metadata and hashes, not unlicensed full media/subtitles/comment text"
+  ]
+}

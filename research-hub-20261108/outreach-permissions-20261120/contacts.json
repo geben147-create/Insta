@@ -9,12 +9,13 @@
       "POSITIVE_NEEDS_SCOPE": 1,
       "REFUSED": 1,
       "NEEDS_INFO": 2,
-      "DELIVERY_FAILED": 1,
-      "SENT_WAITING": 54
+      "DELIVERY_FAILED": 2,
+      "SENT_WAITING": 53
     },
     "last_checked_kst": "2026-11-21 17:05",
     "last_outreach_date": "2026-11-21",
-    "last_outreach_new_contacts": 8
+    "last_outreach_new_contacts": 8,
+    "bounce_checked_kst": "2026-11-21 17:12"
   },
   "rows": [
     {
@@ -809,9 +810,9 @@
       "source_url": "https://www.youtube.com/watch?v=wWaRg-e2fEU",
       "contact_sha256": "603b110302a91987526ecd9ab68909ae2621d411c42ffe207649833d18b1504e",
       "sent_on": "2026-11-21",
-      "status": "SENT_WAITING",
-      "note": "2026-11-21 실제 Gmail 1차 허락 요청 발송. 대만인 한국 생활 경험, 영상 게시일 추가 확인 필요",
-      "next_action": "답장 대기·영상 개별 권리 확인",
+      "status": "DELIVERY_FAILED",
+      "note": "2026-11-21 17:12 KST 수신 서버가 550 5.1.1: 존재하지 않는 이메일 주소라고 반송. 과거 공개 주소 현재 유효하지 않음.",
+      "next_action": "이 주소 재발송 금지. 채널 공식 최신 업무용 이메일 확인 전 발송 보류.",
       "may_use_video": false,
       "skip_new_outreach": true
     },

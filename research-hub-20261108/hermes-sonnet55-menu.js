@@ -53,7 +53,8 @@
   var note = document.createElement('div'); note.className = 'note';
   note.textContent = '더블클릭=이름 수정 · ⠿ 끌기/Alt+↑↓=순서 · ✕=숨김';
   root.appendChild(bar); root.appendChild(body); root.appendChild(note);
-  if (pin && pin.parentNode === sidebar) sidebar.insertBefore(root, pin.nextSibling); else sidebar.insertBefore(root, sidebar.firstChild);
+  if (pin && pin.tagName === 'DETAILS') pin.appendChild(root);
+  else if (pin && pin.parentNode === sidebar) sidebar.insertBefore(root, pin.nextSibling); else sidebar.insertBefore(root, sidebar.firstChild);
 
   function label(id, def) { return state.labels[id] || def; }
 
@@ -90,7 +91,7 @@
   }
 
   // 맨 위 '총8단게대본=영상기획' 이름도 수정 가능
-  if (pin) {
+  if (pin && pin.tagName !== 'DETAILS') {
     var pinDef = pin.textContent.trim();
     if (state.labels.pin) pin.textContent = state.labels.pin;
     editable(pin, 'pin', pinDef, true);

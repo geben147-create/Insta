@@ -1,0 +1,218 @@
+{
+  "checked_at_utc": "2026-11-21T12:12:05.537845+00:00",
+  "roots": [
+    {
+      "host": "Codex",
+      "path": "/home/yh/.codex/skills/watch",
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true,
+      "help_exit_code": 0,
+      "help_usage_present": true,
+      "setup_exit_code": 0,
+      "setup_json_parsed": true,
+      "setup_selected_fields": {
+        "can_proceed": true,
+        "first_run": true,
+        "engine": "local",
+        "configured_engine": "auto",
+        "binaries_required": true,
+        "missing_binaries": [],
+        "backend_ready": false,
+        "whisperx_ready": false,
+        "whisperx_bin": "",
+        "whisperx_model": "small"
+      }
+    },
+    {
+      "host": "Claude",
+      "path": "/home/yh/.claude/skills/watch",
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true,
+      "help_exit_code": 0,
+      "help_usage_present": true,
+      "setup_exit_code": 0,
+      "setup_json_parsed": true,
+      "setup_selected_fields": {
+        "can_proceed": true,
+        "first_run": true,
+        "engine": "local",
+        "configured_engine": "auto",
+        "binaries_required": true,
+        "missing_binaries": [],
+        "backend_ready": false,
+        "whisperx_ready": false,
+        "whisperx_bin": "",
+        "whisperx_model": "small"
+      }
+    },
+    {
+      "host": "Hermes",
+      "path": "/home/yh/.hermes/skills/media/watch",
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true,
+      "help_exit_code": 0,
+      "help_usage_present": true,
+      "setup_exit_code": 0,
+      "setup_json_parsed": true,
+      "setup_selected_fields": {
+        "can_proceed": true,
+        "first_run": true,
+        "engine": "local",
+        "configured_engine": "auto",
+        "binaries_required": true,
+        "missing_binaries": [],
+        "backend_ready": false,
+        "whisperx_ready": false,
+        "whisperx_bin": "",
+        "whisperx_model": "small"
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "profile": "ai-video-install-auto",
+      "path": "/home/yh/.hermes/profiles/ai-video-install-auto/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "branch--uc0c8---uc601-uc0c1---uc911-uad6d-uc774---ubcf8---ud55c",
+      "path": "/home/yh/.hermes/profiles/branch--uc0c8---uc601-uc0c1---uc911-uad6d-uc774---ubcf8---ud55c/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "claude-directsdk-test",
+      "path": "/home/yh/.hermes/profiles/claude-directsdk-test/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "memsearchtest",
+      "path": "/home/yh/.hermes/profiles/memsearchtest/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "sensitive",
+      "path": "/home/yh/.hermes/profiles/sensitive/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "u3137",
+      "path": "/home/yh/.hermes/profiles/u3137/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "uad6d-ubf55-uc2e0-uc0dd",
+      "path": "/home/yh/.hermes/profiles/uad6d-ubf55-uc2e0-uc0dd/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "uad6d-ubf55-uc7a5-uc218",
+      "path": "/home/yh/.hermes/profiles/uad6d-ubf55-uc7a5-uc218/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "uc778-uc2a4-uce74---ucf54-uc778---uc6d0-ud398-uc774-uc9c0",
+      "path": "/home/yh/.hermes/profiles/uc778-uc2a4-uce74---ucf54-uc778---uc6d0-ud398-uc774-uc9c0/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "uc778-uc2a4-ud0c0-ubd80-ub3d9-uc0b0",
+      "path": "/home/yh/.hermes/profiles/uc778-uc2a4-ud0c0-ubd80-ub3d9-uc0b0/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "ucd1d-uad6d-ubf55-ub300-uc880---uae43-ud5c8-ube0c-uc601-uc0c1",
+      "path": "/home/yh/.hermes/profiles/ucd1d-uad6d-ubf55-ub300-uc880---uae43-ud5c8-ube0c-uc601-uc0c1/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    },
+    {
+      "profile": "yt-uc378-ub12c-ubd84-uc11d---ud1b5-uacc4-uae30-ub85d-_-uae43",
+      "path": "/home/yh/.hermes/profiles/yt-uc378-ub12c-ubd84-uc11d---ud1b5-uacc4-uae30-ub85d-_-uae43/skills/watch",
+      "action": "already_shared",
+      "changed": false,
+      "is_symlink": true,
+      "resolved_path": "/home/yh/.hermes/skills/media/watch",
+      "skill_readable": true,
+      "skill_sha256": "04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb",
+      "all_skill_files_match_global": true
+    }
+  ],
+  "profile_count": 12,
+  "new_links": 0,
+  "all_profiles_share_global": true,
+  "all_roots_equal": true,
+  "all_root_help_pass": true,
+  "all_root_setup_pass": true,
+  "build_video_development_course": "NOT_INSTALLED: public distribution not found; no substitute skill installed under that name.",
+  "limits": [
+    "Filesystem sharing and CLI preflight only; no evidence of a completed watch run in each host app.",
+    "No paid API calls, ASR model downloads, or global shell environment changes performed.",
+    "No existing profile watch path overwritten; future new profiles need the same link step.",
+    "App skill discovery or currently running app refresh not tested."
+  ]
+}

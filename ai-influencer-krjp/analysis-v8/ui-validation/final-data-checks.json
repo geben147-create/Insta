@@ -1,0 +1,16 @@
+{
+  "route": "file:///home/yh/Insta-worktrees/travel-analysis-v8/ai-influencer-krjp/index.html#f_travel",
+  "panels": 60,
+  "entries": 7,
+  "modal_with_real_data": true,
+  "escape_closes": true,
+  "focus_returns": true,
+  "standalone_tables": 9,
+  "standalone_body_characters": 11511,
+  "limitations": [
+    "Browser runtime could not reach root HTTP loopback server; final verification used local file route.",
+    "YouTube external player actual playback not verified."
+  ],
+  "status": "PASS local-file DOM and final data",
+  "recorded_at_utc": "2026-11-21T12:22:35.730044+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "checked_at_utc": "2026-11-21T12:09:44.137274+00:00",
+  "checks": [
+    {
+      "id": "Db7QQzpRxPf",
+      "status": "PASS",
+      "checks": [
+        "CSV/JSON row equality",
+        "0.1s bin count",
+        "continuous non-overlapping coverage",
+        "endpoint equality",
+        "actual input hash",
+        "cut candidate bounds/count",
+        "audio bins present"
+      ],
+      "semantic_watch_validation": "NOT performed by this OpenCV task",
+      "user_video_comparison": "NOT performed: no identified user video input"
+    },
+    {
+      "id": "DTZ8QPYkWIm",
+      "status": "PASS",
+      "checks": [
+        "CSV/JSON row equality",
+        "0.1s bin count",
+        "continuous non-overlapping coverage",
+        "endpoint equality",
+        "actual input hash",
+        "cut candidate bounds/count",
+        "audio bins present"
+      ],
+      "semantic_watch_validation": "NOT performed by this OpenCV task",
+      "user_video_comparison": "NOT performed: no identified user video input"
+    }
+  ],
+  "scope": "Automated measurement validation only, not semantic accuracy.",
+  "additional_checks": {
+    "ocr_rows": {
+      "Db7QQzpRxPf": 469,
+      "DTZ8QPYkWIm": 274
+    },
+    "csv_json_counts": "PASS",
+    "keyword_confidence_threshold": "PASS",
+    "manual_overlay_evidence_files": "PASS",
+    "manual_boundary_reviews": "Db7 main caption ends at F226 7.533s; DTZ 8 candidate hardcut boundaries verified via actual neighbor frames.",
+    "limits": "OCR misses are UNKNOWN. Main overlay element counts are distinct from emphasis or character events."
+  }
+}

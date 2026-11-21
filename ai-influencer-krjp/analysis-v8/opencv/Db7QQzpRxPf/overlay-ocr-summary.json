@@ -1,0 +1,71 @@
+{
+  "id": "Db7QQzpRxPf",
+  "tool": "existing Tesseract 5.5.0 eng model",
+  "sampling_s": 0.1,
+  "minimum_word_confidence": 50,
+  "thresholds": {
+    "greece_room_hook": {
+      "roi_xyxy": [
+        80,
+        220,
+        640,
+        400
+      ],
+      "keywords": [
+        "first",
+        "greece",
+        "room",
+        "time"
+      ],
+      "minimum_distinct_keywords": 2
+    }
+  },
+  "rows": 469,
+  "ocr_positive_runs": [
+    {
+      "overlay_label": "greece_room_hook",
+      "start_s": 0.0,
+      "end_s": 0.7,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "greece_room_hook",
+      "start_s": 1.5,
+      "end_s": 1.6,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "greece_room_hook",
+      "start_s": 2.1,
+      "end_s": 4.3,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "greece_room_hook",
+      "start_s": 4.4,
+      "end_s": 4.5,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "greece_room_hook",
+      "start_s": 5.1,
+      "end_s": 6.5,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "greece_room_hook",
+      "start_s": 6.6,
+      "end_s": 6.9,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    },
+    {
+      "overlay_label": "greece_room_hook",
+      "start_s": 7.3,
+      "end_s": 7.4,
+      "status": "OCR-positive run, not confirmed event boundaries"
+    }
+  ],
+  "ocr_positive_run_count": 7,
+  "confirmed_caption_event_count": null,
+  "caveat": "OCR failure is UNKNOWN, not proof of absent caption. Short gaps may be false negatives. Signage is excluded by specific fixed overlay ROI and keyword rules, but confounding remains possible. These are keyword observations, not a full subtitle transcript."
+}

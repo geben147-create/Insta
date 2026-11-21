@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-21T17:38:25.818496+09:00",
+  "updated_at": "2026-11-21T17:47:10.312744+09:00",
   "root": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인",
   "sector_count": 50,
   "target_per_sector": 100,
   "target_slots": 5000,
-  "unique_candidates": 77,
+  "unique_candidates": 80,
   "downloaded": 0,
   "subtitle_ready": 0,
   "pilot_blocked": 1,
@@ -63,7 +63,7 @@
       "status": "INITIAL_SEARCH_COMPLETE_REVIEW_REQUIRED",
       "folder": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/더우인/s03_반도체·메모리",
       "search_url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%8D%8A%E5%AF%BC%E4%BD%93",
-      "candidate_count": 3,
+      "candidate_count": 6,
       "saved_count": 0
     },
     {
@@ -3271,6 +3271,93 @@
       "video_sha256": "UNKNOWN",
       "notes": "Content, nationality, original authorship, permission and YouTube absence not verified. Topic assignment provisional.",
       "evidence_record_sha256": "cdd467026152981e51c7afefe6565bee96edff44cdf8eedc07271b522d220f7f"
+    },
+    {
+      "ID": "7709062627653143823",
+      "url": "https://jingxuan.douyin.com/m/video/7709062627653143823",
+      "title": "DRAM的风云录（三）",
+      "sector_ids": [
+        "s03"
+      ],
+      "primary_sector": "s03",
+      "creator": "科技碰个头",
+      "creator_nationality": "UNKNOWN",
+      "platform": "Douyin",
+      "verification": "SEARCH_INDEXED_OFFICIAL_PAGE_METADATA",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "duration_seconds": 198,
+      "posted_display": "2026-11-17",
+      "checked_at": "2026-11-21T17:47:10.312744+09:00",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "REVIEW_REQUIRED",
+      "download_permission": "UNKNOWN",
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "existing_media": [],
+      "notes": "삼성 메모리의 성장과 일본 추월을 설명하는 후보입니다. YouTube 제목·제작자 검색에서 동일본을 찾지 못했습니다. 전체 영상과 게시 권한은 검수 전입니다.",
+      "evidence_url": "https://jingxuan.douyin.com/m/video/7709062627653143823",
+      "candidate_status": "REVIEW_REQUIRED"
+    },
+    {
+      "ID": "7691546119582567743",
+      "url": "https://www.douyin.com/video/7691546119582567743",
+      "title": "韩国出口破1200亿，一半是芯片，年度出口破万亿美元在望",
+      "sector_ids": [
+        "s03"
+      ],
+      "primary_sector": "s03",
+      "creator": "胜观研报",
+      "creator_nationality": "UNKNOWN",
+      "platform": "Douyin",
+      "verification": "SEARCH_INDEXED_OFFICIAL_PAGE_METADATA",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "duration_seconds": null,
+      "posted_display": "2026-10-01",
+      "checked_at": "2026-11-21T17:47:10.312744+09:00",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "REVIEW_REQUIRED",
+      "download_permission": "UNKNOWN",
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "existing_media": [],
+      "notes": "한국 수출과 반도체 비중을 분석하는 후보입니다. YouTube 제목·제작자 검색에서 동일본을 찾지 못했습니다. 전체 영상과 게시 권한은 검수 전입니다.",
+      "evidence_url": "https://www.douyin.com/video/7691546119582567743",
+      "candidate_status": "REVIEW_REQUIRED"
+    },
+    {
+      "ID": "7657900872910884136",
+      "url": "https://www.douyin.com/video/7657900872910884136",
+      "title": "韩国半导体努力了40年，为什么反而现在最危险？",
+      "sector_ids": [
+        "s03"
+      ],
+      "primary_sector": "s03",
+      "creator": "UNKNOWN",
+      "creator_nationality": "UNKNOWN",
+      "platform": "Douyin",
+      "verification": "SEARCH_INDEXED_OFFICIAL_PAGE_METADATA",
+      "views": "UNKNOWN",
+      "likes": "UNKNOWN",
+      "comments": "UNKNOWN",
+      "duration_seconds": null,
+      "posted_display": "2026-07-02",
+      "checked_at": "2026-11-21T17:47:10.312744+09:00",
+      "youtube_status": "SEARCHED_NO_CONFIRMED_MATCH_NOT_PROOF_OF_ABSENCE",
+      "comparison_status": "REVIEW_REQUIRED",
+      "download_permission": "UNKNOWN",
+      "download_status": "NOT_ATTEMPTED_PERMISSION_UNVERIFIED",
+      "subtitle_status": "NOT_ACQUIRED",
+      "comment_sample_count": 0,
+      "existing_media": [],
+      "notes": "한국 반도체 산업의 위험 요인을 분석하는 후보입니다. YouTube 제목·제작자 검색에서 동일본을 찾지 못했습니다. 전체 영상과 게시 권한은 검수 전입니다.",
+      "evidence_url": "https://www.douyin.com/video/7657900872910884136",
+      "candidate_status": "REVIEW_REQUIRED"
     }
   ],
   "rules": [
@@ -3281,9 +3368,9 @@
     "No source media moves, deletions, overwrites or PC absence inference",
     "Public GitHub contains metadata and hashes, not unlicensed full media/subtitles/comment text"
   ],
-  "research_unique_candidates": 76,
-  "research_rows": 78,
+  "research_unique_candidates": 79,
+  "research_rows": 81,
   "sectors_attempted": 50,
   "research_primary_metadata": 20,
-  "research_search_only": 56
+  "research_search_only": 59
 }

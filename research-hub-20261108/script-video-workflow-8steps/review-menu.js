@@ -4,11 +4,13 @@
   const prefix = 'script-video-workflow-review-v1:';
   function save(k,v){try{localStorage.setItem(prefix+k,v)}catch{}}
   function load(k){try{return localStorage.getItem(prefix+k)}catch{return null}}
+  if (!group.querySelector('[data-workflow-label=group]')) {
   let order;
   try { order = JSON.parse(localStorage.getItem('kukppong-hub-menu-order-v1') || 'null')?.groups; } catch {}
   if (!Array.isArray(order) || !order.includes(group.id) || order[0] === group.id) group.parentElement.prepend(group);
   group.open = load('open') === 'true' || location.hash.startsWith('#gpt-sol-review');
   group.addEventListener('toggle',()=>save('open',String(group.open)));
+  }
   group.querySelectorAll('[data-label-key]').forEach(label=>{
     const k=label.dataset.labelKey, parent=label.closest('a,summary');
     const stored=load(k);if(stored)label.textContent=stored;

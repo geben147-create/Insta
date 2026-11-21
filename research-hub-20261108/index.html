@@ -68,12 +68,26 @@ details{background:#122747;border-radius:10px;border:1px solid #355476;margin:9p
 #menuGroups .menu-dragging{opacity:.48;outline:2px dashed #f2c475;outline-offset:-2px}
 .sidebar .sidenote{margin:8px 2px;padding:8px;border-radius:8px;font-size:10.5px;line-height:1.45}
 @media(max-width:860px){.sidebar{padding:8px 7px 18px}#menuGroups>.navgroup{margin-bottom:4px!important}}
+
+#menuGroups .workflow-sol-group,.sidebar>.workflow-sol-group{background:#0a0a0a!important;border:1px solid #665235;border-radius:8px;color:#fff3d7;margin:0 0 10px;padding:7px 8px}
+#menuGroups .workflow-sol-group .grouptitle,.sidebar>.workflow-sol-group .grouptitle{color:#ffe2a3;min-height:33px;font-weight:850;padding:3px 5px}
+#menuGroups .workflow-sol-group .navbtn,.sidebar>.workflow-sol-group .navbtn{background:#16140f;border:1px solid #56452e;color:#fff3df;display:flex;padding:9px;white-space:normal;overflow-wrap:anywhere}
+.workflow-sol-hint{display:block;margin:5px;color:#c0b39b;line-height:1.35;font-size:11px}
+.workflow-sol-edit{font:inherit;width:95%;min-width:0;margin:4px 0;padding:4px 6px;border:1px solid #f1bf62;color:#fff3df;background:#171309}
+.workflow-sol-group [data-workflow-label][hidden]{display:none!important}
+.workflow-sol-group :focus-visible{outline:2px solid #e9b85c;outline-offset:2px}
 </style>
 </head>
 <body>
 <header class="topbar"><a class="brand" href="#home"><span class="brandmark">✦</span><span><strong>해외반응 × 국뽕 대본·클립 연구 허브</strong><small>자료 찾기 · 급등 분석 · 저작권 · 실행 프롬프트</small></span></a><div class="topright"><a class="toplink" href="./kpride-new10-deepgreen-20261116/index.html" style="background:#143d2b;color:#d9ff9d;border:1px solid #a7dc8e;font-weight:950">🟩 NEW K PRIDE · 10편 딥그린 제작실</a><a class="toplink" href="./foreign-reactions-v9-20261116/index.html" style="background:#225c4f;color:#ffe9b0;font-weight:950;border-color:#90d9c0" title="실제 외국인 한국 반응 V9: 신규 10주제 + 완성 원고 2개">🇰🇷 NEW V9 · 한국 반응 10편</a><a class="toplink" href="./foreign-reactions-v8-20261115/index.html#tts-3" style="background:#274e68;color:#d4fff3;border:1px solid #71d2b9;font-weight:900">🎧 MP3 3편 · 일괄 합성/듣기</a><a class="toplink" href="./foreign-reactions-v8-20261115/index.html" style="background:#2e6558;color:#fff3b7;font-weight:900;border-color:#d5b179" title="외국인 한국 호평 중심 10편·V4 1:1검수">🏆 NEW V8 · 9편 재작성 + 1:1 검수</a><a class="toplink" href="./foreign-reactions-v88/index.html" style="background:#255e60;color:#fff1b1;border-color:#81d6dd;font-weight:900" title="외국인 한국 반응 V8.9 새 주제 10개 · 원고 10편 · 일괄 복사">🇰🇷 NEW V8.9 · 신규 대본 10편 원클릭</a><a class="toplink" href="./foreign-reactions-v7-20261115/index.html" style="background:#365c59;color:#fff5cf;border-color:#e7c078;font-weight:900" title="실제 외국인의 한국 평가 · 신규 10편">🌍 NEW · 10편 외국인 평가 V7</a><a class="toplink" href="./foreign-reactions-v6/index.html" style="background:#2d604d;color:#fff3ae;border-color:#ffc25c;font-weight:900">🇰🇷 V6 · 7분 대본 by GPT</a><a class="toplink" href="./foreign-reactions-v5/index.html" style="background:#59451f;color:#fff0b5;border-color:#ddbb6e;font-weight:900" title="외국인의 한국 실제 반응 대본 10개·2편 10분">🇰🇷 NEW · 외국인 반응 대본 V5</a><span class="toplabel">2026.11.08 기준 · 기존 연구 보존</span><a class="toplink" href="https://github.com/geben147-create/Insta/tree/main/research-hub-20261108" target="_blank" rel="noopener">GitHub 원본</a><button class="mobilebutton" id="menuToggle" type="button">☰ 메뉴</button></div></header>
 <div class="shell">
-<aside class="sidebar" id="sidebar" aria-label="자료 목차"><details class="navgroup" id="script-video-workflow-pin" style="background:#0c080b;border:1px solid #a96783;border-radius:10px;padding:8px;margin:0 0 9px"><summary class="grouptitle" style="color:#ffe0eb"><span data-label-key="folder" title="더블 클릭으로 이름 수정">총8단게대본=영상기획</span></summary><a class="navbtn" href="./script-video-workflow-8steps/"><span data-label-key="original" title="더블 클릭으로 이름 수정">기존 8단계 프롬프트·자막</span></a><a class="navbtn" data-to="gpt-sol-review" href="./script-video-workflow-8steps/gpt-sol-review/"><span data-label-key="gpt" title="더블 클릭으로 이름 수정">💗 약간 이상 · BTS·화장 · GPT-6.2 Sol XHigh</span></a></details><details class="navgroup navpriority" id="ssulmo-source-deepwine-20261116" open style="background:linear-gradient(135deg,#4c1027,#711d3d);border:2px solid #ffb3c9;border-radius:13px;margin:0 0 12px;padding:12px;color:#ffe4ed">
+<aside class="sidebar" id="sidebar" aria-label="자료 목차"><details class="navgroup workflow-sol-group" id="script-video-workflow-pin" open>
+  <summary class="grouptitle"><span data-workflow-label="group" tabindex="0" title="더블 클릭 또는 F2로 메뉴 이름 변경">총8단게대본=영상기획</span></summary>
+  <a class="navbtn" data-workflow-label="original" href="./script-video-workflow-8steps/">기존 8단계 공정 · 참고 자막</a>
+  <a class="navbtn" data-workflow-label="result" href="./script-video-workflow-8steps/gpt-6-2-sol-20261121/">GPT-6.2-Sol · 8단계 실행 기록</a>
+  <a class="navbtn" data-to="gpt-sol-review" href="./script-video-workflow-8steps/gpt-sol-review/"><span data-label-key="gpt" title="더블 클릭으로 이름 수정">💗 약간 이상 · BTS·화장 · GPT-6.2 Sol XHigh</span></a>
+  <small class="workflow-sol-hint">이름: 더블 클릭/F2 · 이동: 드래그/Alt+↑↓ · 이 브라우저에 저장</small>
+</details><details class="navgroup navpriority" id="ssulmo-source-deepwine-20261116" open style="background:linear-gradient(135deg,#4c1027,#711d3d);border:2px solid #ffb3c9;border-radius:13px;margin:0 0 12px;padding:12px;color:#ffe4ed">
 <summary class="grouptitle" style="color:#ffe3ad;font-size:15px;font-weight:950;cursor:pointer">🍷 by gpt 쓸모 소스 · 10편 대본 · 클릭 펼치기</summary>
 <a class="navbtn" href="./kukppong-deepwine-20261116/" style="display:block;background:#e82f59;border:1px solid #ff89b1;border-radius:9px;padding:12px;font-weight:950;color:white;text-decoration:none">🔴 딥와인 10편 전체 · 8구간 원고 · 영상 51컷</a>
 <a class="navbtn sub" href="./kukppong-deepwine-20261116/#EP03" style="display:block;color:#ffe2ed">🧠 11월 12일 젠슨 황 사임 × 한국 HBM</a>
@@ -468,8 +482,7 @@ itemParents().forEach(function(p){defaultItems[p.key]=getOrder(p.node,'.navbtn',
 try{
 var saved=JSON.parse(localStorage.getItem(KEY)||'null');
 if(saved&&Array.isArray(saved.groups)){
-var priorGroups=saved.groups.includes('script-video-workflow-pin')?saved.groups:['script-video-workflow-pin'].concat(saved.groups);
- reorder(menu,'.navgroup',groupKey,priorGroups);
+reorder(menu,'.navgroup',groupKey,saved.groups.includes('script-video-workflow-pin')?saved.groups:['script-video-workflow-pin'].concat(saved.groups));
 itemParents().forEach(function(p){reorder(p.node,'.navbtn',itemKey,saved.items&&saved.items[p.key]);});
 }
 }catch(err){/* Browser may block local storage: navigation still works. */}
@@ -480,7 +493,7 @@ try{localStorage.setItem(KEY,JSON.stringify(data));}catch(err){}
 }
 function announce(message){var toast=document.getElementById('toast');if(!toast)return;toast.textContent=message;toast.classList.add('show');window.setTimeout(function(){toast.classList.remove('show');},1700);}
 function stepGroup(group,delta){
-var nodes=Array.from(menu.children).filter(function(el){return el.classList.contains('navgroup');}),at=nodes.indexOf(group),other=nodes[at+delta];
+var nodes=Array.from(menu.children).filter(function(el){return el.matches('.navgroup[data-menu-key]');}),at=nodes.indexOf(group),other=nodes[at+delta];
 if(!other)return false;
 menu.insertBefore(group,delta<0?other:other.nextSibling);
 saveOrder();announce('✅ 메뉴 섹션 순서 저장');
@@ -516,7 +529,7 @@ window.setTimeout(function(){if(active)active.node.classList.add('menu-dragging'
 });
 menu.addEventListener('dragover',function(e){
 if(!active)return;
-var target=e.target.closest(active.type==='group'?'.navgroup':'.navbtn[draggable="true"]');
+var target=e.target.closest(active.type==='group'?'.navgroup[data-menu-key]':'.navbtn[draggable="true"]');
 var parent=active.type==='group'?menu:active.node.parentElement;
 if(!target||target===active.node||target.parentElement!==parent)return;
 e.preventDefault();e.dataTransfer.dropEffect='move';
@@ -643,5 +656,24 @@ frame.addEventListener('load',function(){
 window.addEventListener('hashchange',openRoute);openRoute();
 })();
 </script>
-<!-- unified-workspace-module --><link rel="stylesheet" href="./workspace.css?v=20261120-ledger6"><script src="./workspace-data.js?v=20261120-new-qwen"></script><script src="./hanil-compare-20261120/comparison-data.js?v=20261120-new-qwen"></script><link rel="stylesheet" href="./review-player.css?v=4"><script src="./review-player.js?v=7"></script><script src="./workspace.js?v=20261120-writing1"></script><!-- /unified-workspace-module --><script src="./hermes-sonnet55-menu.js?v=20261121-workflow"></script><script src="./script-video-workflow-8steps/review-menu.js" defer></script>
+<!-- unified-workspace-module --><link rel="stylesheet" href="./workspace.css?v=20261120-ledger6"><script src="./workspace-data.js?v=20261120-new-qwen"></script><script src="./hanil-compare-20261120/comparison-data.js?v=20261120-new-qwen"></script><link rel="stylesheet" href="./review-player.css?v=4"><script src="./review-player.js?v=7"></script><script src="./workspace.js?v=20261121-workflow-sol"></script><!-- /unified-workspace-module --><script src="./hermes-sonnet55-menu.js?v=20261121-workflow"></script><script>
+(function(){
+'use strict';
+var group=document.getElementById('script-video-workflow-pin');if(!group)return;
+var key='insta-hub-workflow-sol-labels-v1', fold='insta-hub-workflow-sol-fold-v1',labels=Array.from(group.querySelectorAll('[data-workflow-label]'));
+var defaults=new Map(labels.map(function(el){return [el,el.textContent];}));
+function load(){try{return JSON.parse(localStorage.getItem(key))||{};}catch(_){return {};}}
+function redraw(){var st=load();labels.forEach(function(el){var v=st[el.dataset.workflowLabel];el.textContent=typeof v==='string'&&v?v:defaults.get(el);});}
+var pending=0;
+function clearPending(){window.clearTimeout(pending);pending=0;}
+function rename(el){clearPending();if(group.querySelector('.workflow-sol-edit'))return;var input=document.createElement('input');input.className='workflow-sol-edit';input.maxLength=100;input.setAttribute('aria-label','새 메뉴 이름');input.value=el.textContent;el.after(input);el.hidden=true;var done=false;function finish(save){if(done)return;done=true;var v=input.value.trim();if(save&&v){var st=load();st[el.dataset.workflowLabel]=v;try{localStorage.setItem(key,JSON.stringify(st));}catch(_){}}input.remove();el.hidden=false;redraw();}
+input.addEventListener('blur',function(){finish(true);});input.addEventListener('keydown',function(e){if(e.key!=='Enter'&&e.key!=='Escape')return;e.preventDefault();e.stopPropagation();finish(e.key==='Enter');el.focus();});input.focus();input.select();}
+labels.forEach(function(el){el.addEventListener('dblclick',function(e){e.preventDefault();e.stopPropagation();rename(el);});el.addEventListener('keydown',function(e){if(e.key==='F2'){e.preventDefault();rename(el);}});el.addEventListener('click',function(e){if(e.detail===0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();e.stopPropagation();clearPending();if(e.detail===1)pending=window.setTimeout(function(){if(el.tagName==='A')location.assign(el.href);else group.open=!group.open;},520);});});
+group.addEventListener('dragstart',clearPending);
+try{var f=localStorage.getItem(fold);if(f!==null)group.open=f==='1';}catch(_){}
+group.addEventListener('toggle',function(){try{localStorage.setItem(fold,group.open?'1':'0');}catch(_){}});
+window.addEventListener('storage',function(e){if(e.key===key)redraw();});redraw();
+})();
+</script>
+<script src="./script-video-workflow-8steps/review-menu.js?v=20261121-coexist" defer></script>
 </body></html>

@@ -39,4 +39,4 @@ for(const b of bands){const el=add($('viewRange'),'option',b[1]);el.value=b[0];}
 $('likes50').onclick=()=>{const set=Number($('likesMin').value)!==50;$('likesMin').value=set?'50':'';if(set){$('sort').value='l';asc=false;$('dir').textContent='내림 ▼';}limit=24;render();};
 $('resetFilters').onclick=()=>{$('viewRange').value='';$('likesMin').value='';$('query').value='';$('type').value='';limit=24;render();};
 async function load(path){const r=await fetch(path);if(!r.ok)throw new Error(path);return r.json();}
-Promise.all([load('posts.json?v=travel9'),load('candidates.json?v=travel9')]).then(([a,b])=>{posts=a;pool=b;render();}).catch(()=>{$('status').textContent='데이터를 불러오지 못했습니다. 새로고침해주세요.';});
+Promise.all([load('posts.json?v=ai10'),load('candidates.json?v=travel9')]).then(([a,b])=>{posts=a;pool=b;render();}).catch(()=>{$('status').textContent='데이터를 불러오지 못했습니다. 새로고침해주세요.';});

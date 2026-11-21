@@ -8917,13 +8917,31 @@
   "cc": "JP",
   "d": "2026-05-16",
   "dateEstimated": true,
-  "frames": [],
+  "frames": [
+   {
+    "t": 4.49,
+    "i": "frames/DYY4d2LBQkK-1.webp"
+   },
+   {
+    "t": 14.21,
+    "i": "frames/DYY4d2LBQkK-2.webp"
+   },
+   {
+    "t": 23.56,
+    "i": "frames/DYY4d2LBQkK-3.webp"
+   },
+   {
+    "t": 31.79,
+    "i": "frames/DYY4d2LBQkK-4.webp"
+   }
+  ],
   "cover": "covers/DYY4d2LBQkK.webp",
   "visual": "live",
   "mode": "mixed",
   "level": "mixed",
   "topics": [
-   "travel-scenic"
+   "travel-scenic",
+   "travel-hotel"
   ],
   "commerce": "숙소 제휴",
   "summaryKo": "숲속 프라이빗 료칸",
@@ -8969,13 +8987,31 @@
   "cc": "JP",
   "d": "2025-10-02",
   "dateEstimated": true,
-  "frames": [],
+  "frames": [
+   {
+    "t": 1.38,
+    "i": "frames/DPT6R7wiJAz-1.webp"
+   },
+   {
+    "t": 4.38,
+    "i": "frames/DPT6R7wiJAz-2.webp"
+   },
+   {
+    "t": 7.25,
+    "i": "frames/DPT6R7wiJAz-3.webp"
+   },
+   {
+    "t": 9.79,
+    "i": "frames/DPT6R7wiJAz-4.webp"
+   }
+  ],
   "cover": "covers/DPT6R7wiJAz.webp",
   "visual": "live",
   "mode": "mixed",
   "level": "mixed",
   "topics": [
-   "travel-scenic"
+   "travel-scenic",
+   "travel-hotel"
   ],
   "commerce": "숙소 제휴",
   "summaryKo": "창 너머 풍경을 담은 료칸",
@@ -9027,7 +9063,8 @@
   "mode": "mixed",
   "level": "mixed",
   "topics": [
-   "travel-scenic"
+   "travel-scenic",
+   "travel-hotel"
   ],
   "commerce": "숙소 제휴",
   "summaryKo": "교토의 기억에 남는 숙소",
@@ -9079,7 +9116,8 @@
   "mode": "mixed",
   "level": "mixed",
   "topics": [
-   "travel-scenic"
+   "travel-scenic",
+   "travel-hotel"
   ],
   "commerce": "숙소 제휴",
   "summaryKo": "일본의 이색 료칸",
@@ -9229,13 +9267,31 @@
   "cc": "GL",
   "d": "2026-02-21",
   "dateEstimated": true,
-  "frames": [],
+  "frames": [
+   {
+    "t": 1.35,
+    "i": "frames/DVBqCaoCOof-1.webp"
+   },
+   {
+    "t": 4.27,
+    "i": "frames/DVBqCaoCOof-2.webp"
+   },
+   {
+    "t": 7.08,
+    "i": "frames/DVBqCaoCOof-3.webp"
+   },
+   {
+    "t": 9.55,
+    "i": "frames/DVBqCaoCOof-4.webp"
+   }
+  ],
   "cover": "covers/DVBqCaoCOof.webp",
   "visual": "live",
   "mode": "mixed",
   "level": "mixed",
   "topics": [
-   "travel-scenic"
+   "travel-scenic",
+   "travel-hotel"
   ],
   "commerce": "숙소 제휴",
   "summaryKo": "발리 대나무 리조트",
@@ -9292,5 +9348,199 @@
   "commerce": "교통패스 제휴",
   "summaryKo": "스위스 교통비 — 출연형 비교 사례",
   "why": "지도·텍스트·편집 구조는 AI로 보조 가능. 실제 풍경·숙소의 모습은 실사나 사용 권한을 얻은 자료로 확인. 국가는 여행지 기준. 여행 정보는 게시 당시 기준."
+ },
+ {
+  "c": "DcJ5pd-Om78",
+  "u": "https://www.instagram.com/reel/DcJ5pd-Om78/",
+  "a": "beautifuldestinations",
+  "p": 114528,
+  "m": 83,
+  "l": 29342,
+  "at": "2026-11-21T10:38:06+09:00",
+  "source": "https://www.instagram.com/reel/DcJ5pd-Om78/embed/captioned/",
+  "caption": "Wangxian Valley looks completely different once the sun goes down…\n\nSet among the mountains of Jiangxi Province, Wangxian Valley is known for its traditional-style buildings, dramatic cliffs and waterfalls, but the atmosphere really changes after dark. The valley lights up with thousands of warm lights, illuminating the wooden houses and pathways built into the mountainside.\n\nThe best time to visit is late afternoon, so you can explore in daylight before staying to see the valley transform after sunset.\n\n📽️ Beautiful Destinations Original\n📍Wangxian Valley, China",
+  "title": "왕셴곡 · 산속 마을의 야경",
+  "cc": "GL",
+  "d": "2026-08-17",
+  "dateEstimated": true,
+  "frames": [
+   {
+    "t": 1.81,
+    "i": "frames/DcJ5pd-Om78-1.webp"
+   },
+   {
+    "t": 5.73,
+    "i": "frames/DcJ5pd-Om78-2.webp"
+   },
+   {
+    "t": 9.51,
+    "i": "frames/DcJ5pd-Om78-3.webp"
+   },
+   {
+    "t": 12.83,
+    "i": "frames/DcJ5pd-Om78-4.webp"
+   }
+  ],
+  "cover": "covers/DcJ5pd-Om78.webp",
+  "visual": "live",
+  "mode": "mixed",
+  "level": "mixed",
+  "topics": [
+   "travel-scenic"
+  ],
+  "summaryKo": "왕셴곡 · 산속 마을의 야경",
+  "commerce": "일정·지도 또는 여행 체험 제휴 아이디어",
+  "why": "공개 원본에서 확인한 여행 레퍼런스. 실제 장소와 숙소는 실사나 허가 자료로 확인."
+ },
+ {
+  "c": "DXZc-2LEtcm",
+  "u": "https://www.instagram.com/reel/DXZc-2LEtcm/",
+  "a": "justsimplywander",
+  "p": 102881,
+  "m": 1125,
+  "l": 5330,
+  "at": "2026-11-21T10:38:06+09:00",
+  "source": "https://www.instagram.com/reel/DXZc-2LEtcm/embed/captioned/",
+  "caption": "Planning a trip to Switzerland can be such a struggle because there is so much to see and do! It’s so hard to narrow it down, but we managed to visit some pretty incredible places in just one week. \n\nWe rented a car during our trip and here is the itinerary we used:\n\nDay 1: \n•Old Town Zurich\n•Old Town Lucerne \n•Stay in Lucerne \n\nDay 2:\n•Stoos Ridge Hike\n•Optional: Brienz or Interlaken boat tour and St. Beatus Cave\n•Walk around the town of Grindelwald \n•Stay in Grindelwald @alpinhotelbortgrindelwald \n\nDay 3:\n•Grindelwald First activities (cliff walk, flyer, zipline, mountain carts, and trottibikes)\n•Hike to Bachalpsee\n•Fondue Gondola Dinner at Hotel Belvedere\n•Stay at @hotelsilberhorn in Lauterbrunnen\n\nDay 4:\n•Murren Via Ferrata\n•Staubbach Falls Trail\n•Walk around the town of Lauterbrunnen\n•Stay at Hotel Silberhorn in Lauterbrunnen (If we did it again, we probably would have stayed here 3 nights instead of Grindelwald to make it easier)\n\nDay 5:\n•Ride e-bikes through Lauterbrunnen Valley\n•Trummelbach Falls \n•Oeschinensee row boats\n•Oeschinensee Panorama Trail\n•Stay at @arvaoeschinensee \n\nDay 6:\n•Oeschinensee station luge ride\n•Gelmerbahn Funicular, lake trail, and swing bridge \n•Meiringen meringues and Sherlock Holmes museum\n•Stay in Innertkirchen or Meiringen\n\nDay 7:\n•Aare Gorge\n•Funicular to Reichenbach Falls\n•Hike to top of Reichenbach Falls and ride monster scooters down\n•Säxer Lucke hike\n•Stay in Zurich by airport \n\n*Comment GUIDE and I’ll send you our full 7 day Switzerland itinerary!\n\n#switerlandwonderland #switzerland_vacations #switzerland_destinations #swisstravel #swisstravel",
+  "title": "스위스 7일 · 날짜별 호텔",
+  "cc": "GL",
+  "d": "2026-04-21",
+  "dateEstimated": true,
+  "frames": [],
+  "cover": "covers/DXZc-2LEtcm.webp",
+  "visual": "live",
+  "mode": "mixed",
+  "level": "mixed",
+  "topics": [
+   "travel-scenic",
+   "travel-hotel"
+  ],
+  "summaryKo": "스위스 7일 · 날짜별 호텔",
+  "commerce": "숙소 예약 제휴 아이디어 · 게시자의 제휴 미확인",
+  "why": "공개 원본에서 확인한 여행 레퍼런스. 실제 장소와 숙소는 실사나 허가 자료로 확인."
+ },
+ {
+  "c": "DIOcouJNiBI",
+  "u": "https://www.instagram.com/reel/DIOcouJNiBI/",
+  "a": "chitranshusharmaa",
+  "p": 106162,
+  "m": 473,
+  "l": 9779,
+  "at": "2026-11-21T10:38:06+09:00",
+  "source": "https://www.instagram.com/reel/DIOcouJNiBI/embed/captioned/",
+  "caption": "Best free travel plan from India to Switzerland 🇨🇭 \n\nThese tips will help you plan your trip to Switzerland to the best, non commercial and offbeat places 🇨🇭🚠\n\nFirst of all do not stay in Interlaken, stay in Lautetbrunnen. It is so much better as a base, hikes and have trains for everywhere. \n\nI stayed in schutzenbach backpackers and the price is around 9000 INR for a room for 2 and has waterfalls and mountains views. ⛰️🚞\n\nPurchase a Berese oberland pass rather than Swiss pass because if you’re going for 5-11 days, you should explore Burnese Oberland region. 🚂🚆\n\nBook Brienz Rothorn and Grindelwald passes in advance as they get booked out. \n\nMake sure to explore URI falls ♥️\n\n#switzerland #switzerland🇨🇭 #switzerlandtrip #swissmountains #eurotrip #swisstravel #indiantravelblogger #switzerlandtravel #travelplanner #travelitinerary #travelhacks \n\n[ Switzerland places to see, Switzerland itinerary, Switzerland best places, Switzerland mountains, Switzerland for Indians, food in Switzerland]",
+  "title": "라우터브루넨 · 숙박 거점과 전망",
+  "cc": "GL",
+  "d": "2025-04-09",
+  "dateEstimated": true,
+  "frames": [],
+  "cover": "covers/DIOcouJNiBI.webp",
+  "visual": "live",
+  "mode": "mixed",
+  "level": "mixed",
+  "topics": [
+   "travel-scenic",
+   "travel-hotel"
+  ],
+  "summaryKo": "라우터브루넨 · 숙박 거점과 전망",
+  "commerce": "숙소 예약 제휴 아이디어 · 게시자의 제휴 미확인",
+  "why": "공개 원본에서 확인한 여행 레퍼런스. 실제 장소와 숙소는 실사나 허가 자료로 확인."
+ },
+ {
+  "c": "DZDFD27onPn",
+  "u": "https://www.instagram.com/reel/DZDFD27onPn/",
+  "a": "couplesquest_",
+  "p": 108164,
+  "m": 66,
+  "l": 6294,
+  "at": "2026-11-21T10:38:06+09:00",
+  "source": "https://www.instagram.com/reel/DZDFD27onPn/embed/captioned/",
+  "caption": "The perfect 5 day Dolomites itinerary 🇮🇹⛰️✨\n\n🗺️ Start in the east and stay nearby in Cortina or Dobbiaco Toblach; this is where @luxury.escapes comes in 😍 ad | We've partnered with them to give you an exclusive additional 10% off your next booking! Comment “QUEST” and we’ll DM you the code 📩\n\nWe used Luxury Escapes to book all of our stays in the Dolomites, handpicked luxury hotels at prices we wouldn’t have found anywhere else. If you’re planning a Dolomites trip, their Italy collection is 🤌\n\nDay 1 — Lago di Braies + Lago di Dobbiaco  Day 2 — Cadini di Misurina + Tre Cime de Lavaredo Day 3 — Lago di Sorapis\n→ Move to Ortisei halfway through (check out the @luxury.escapes options & offers ✨) Day 4 — Val di Funes (we LOVED the Adolf Munkel Trail) + Lago di Carezza Day 5 — Seceda Alpe di Siusi \n\nHonestly one of the most beautiful places we’ve ever road tripped through 🤍 Every day feels completely different since north Italy is full of SO much unbelievable destinations. Turquoise lakes, dramatic mountain peaks, rolling alpine meadows and some of the best hikes in Europe 🥾\n\nA few tips if you’re planning your own trip 👇🏼 • Start EARLY(sunrise is 100x better and parking fills up fast) or late afternoon when most are leaving • You have to pay for the toll road to access Tre Cime/Cadini di Misurina if you want to drive and park there, in summer it can sell out early, so pre-booking up to 30 days ahead is definitely worth it • We’d recommend splitting your time and staying in both the east & west during your trip to maximise your exploring time and minimise your driving time  • June & September is probably the best time to visit as you’ll get fewer crowds, beautiful colours and still amazing weather • Always pack layers… even in summer the mountains can get cold unexpectedly (also varying altitudes) • If you want the best experience at places like Lago di Braies or Seceda, avoid the middle of the day if possible\n\n🏷️ Save this itinerary for your Dolomites trip \n\n#dolomitesunesco #dolomitesitinerary #dolomitiunesco #travelinspired #travelitaly",
+  "title": "돌로미티 5일 · 숙소 거점 2곳",
+  "cc": "GL",
+  "d": "2026-06-01",
+  "dateEstimated": true,
+  "frames": [],
+  "cover": "covers/DZDFD27onPn.webp",
+  "visual": "live",
+  "mode": "mixed",
+  "level": "mixed",
+  "topics": [
+   "travel-scenic",
+   "travel-hotel"
+  ],
+  "summaryKo": "돌로미티 5일 · 숙소 거점 2곳",
+  "commerce": "숙소 예약 제휴 아이디어 · 게시자의 제휴 미확인",
+  "why": "공개 원본에서 확인한 여행 레퍼런스. 실제 장소와 숙소는 실사나 허가 자료로 확인."
+ },
+ {
+  "c": "DM2u1gDt2_x",
+  "u": "https://www.instagram.com/reel/DM2u1gDt2_x/",
+  "a": "foratravel",
+  "p": 63636,
+  "m": 69,
+  "l": 2642,
+  "at": "2026-11-21T10:38:07+09:00",
+  "source": "https://www.instagram.com/reel/DM2u1gDt2_x/embed/captioned/",
+  "caption": "@margaretspassport’s dream Dolomites itinerary has landed. And trust us, this isn’t a quick stopover. It’s five+ nights of slow mornings, panoramic saunas, wine-fueled dinners, and bucket-list views from two of the region’s most iconic luxury stays: Adler Lodge Ritten and FORESTIS. Think: private lakeside chalets, firelit spas in the forest, and the kind of cold plunge that makes you feel alive.\n\nHead to the link in bio to book with Margaret now. \n.\n.\n.\n.\n#dolomites #adlerlodgeritten #forestisnding #luxuryitaly #mountainretreat #dolomitesitaly #luxurytraveladvisor #foratravel #dolomiteshotels #italyitinerary #traveladvisor #dolomiteshiking #wellnesstravel",
+  "title": "돌로미티 · 전망·사우나·온천 호텔",
+  "cc": "GL",
+  "d": "2025-08-02",
+  "dateEstimated": true,
+  "frames": [
+   {
+    "t": 20.06,
+    "i": "frames/DM2u1gDt2_x-1.webp"
+   },
+   {
+    "t": 63.51,
+    "i": "frames/DM2u1gDt2_x-2.webp"
+   },
+   {
+    "t": 105.29,
+    "i": "frames/DM2u1gDt2_x-3.webp"
+   },
+   {
+    "t": 142.06,
+    "i": "frames/DM2u1gDt2_x-4.webp"
+   }
+  ],
+  "cover": "covers/DM2u1gDt2_x.webp",
+  "visual": "live",
+  "mode": "mixed",
+  "level": "mixed",
+  "topics": [
+   "travel-scenic",
+   "travel-hotel"
+  ],
+  "summaryKo": "돌로미티 · 전망·사우나·온천 호텔",
+  "commerce": "숙소 예약 제휴 아이디어 · 게시자의 제휴 미확인",
+  "why": "공개 원본에서 확인한 여행 레퍼런스. 실제 장소와 숙소는 실사나 허가 자료로 확인."
+ },
+ {
+  "c": "DX7I6RRvVLx",
+  "u": "https://www.instagram.com/reel/DX7I6RRvVLx/",
+  "a": "adamsafranek",
+  "p": 124090,
+  "m": 35,
+  "l": 3066,
+  "at": "2026-11-21T10:38:07+09:00",
+  "source": "https://www.instagram.com/reel/DX7I6RRvVLx/embed/captioned/",
+  "caption": "LAKE COMO 1-WEEK ITINERARY 🇮🇹🚤\nSave this before you go\n\nLake Como is about slow movement + smart positioning. Don’t switch hotels every night. Pick 1–2 bases and explore by ferry.\n\n⸻\n\nBASE STRATEGY 👇\n\n📍 Varenna (best overall base)\n📍 Menaggio (relaxed, good second base)\n📍 Optional: 1 night in Como (for arrival/departure)\n\n⸻\n\nDAY 1 — ARRIVE + COMO TOWN 🌆\n\n• Train from Milan\n• Walk old town\n• Funicular to Brunate for views\n\n👉 Overnight here or move to Varenna\n\n⸻\n\nDAY 2 — VARENNA SLOW DAY 🌿\n\n📍 Varenna\n\n• Wander the village\n• Villa Monastero early\n• Passeggiata degli Innamorati\n\n🌅 Sunset aperitivo by the water\n\n⸻\n\nDAY 3 — BELLAGIO DONE RIGHT 🌸\n\n📍 Bellagio\n\n• Ferry early morning\n• Explore before crowds\n• Salita Serbelloni\n\n👉 Leave by mid-afternoon or stay until evening when it’s quieter\n\n⸻\n\nDAY 4 — MENAGGIO + RELAX 🌊\n\n📍 Menaggio\n\n• Slower pace\n• Lakefront walk\n• Pool or chill afternoon\n\n👉 Optional: move base here for 2 nights\n\n⸻\n\nDAY 5 — VILLA DAY 🏛\n\nChoose one:\n\n🌿 Villa Carlotta\nor\n🌸 Villa del Balbianello\n\n• Go early\n• Take your time\n\n🚤 Optional: short private boat after\n\n⸻\n\nDAY 6 — BOAT DAY 🚤\n\n• Private boat (1–2 hours is enough)\n• Swim stops + hidden views\n• See villas from the water\n\n👉 One of the best experiences on the lake\n\n⸻\n\nDAY 7 — FLEX + DEPART ✈️\n\nOptions:\n\n• Slow morning + café\n• Return to Como or Milan\n• Last ferry ride\n\n⸻\n\nSMART TIPS ✨\n\n• Book ferries in advance in summer\n• Screenshot schedules (signal drops)\n• Stay lakefront if possible\n• Go out early morning or late evening\n• May, June, September are best\n\n⸻\n\nMISTAKES ❌\n\n• Staying only in Como town\n• Changing hotels every night\n• Visiting Bellagio only midday\n• Overplanning every hour\n\n⸻\n\nLake Como is not about doing more. It’s about doing less, but doing it well. Follow @adamsafranek for more travel tips.",
+  "title": "코모 호수 7일 · 숙박 거점과 페리",
+  "cc": "GL",
+  "d": "2026-05-04",
+  "dateEstimated": true,
+  "frames": [],
+  "cover": "covers/DX7I6RRvVLx.webp",
+  "visual": "live",
+  "mode": "mixed",
+  "level": "mixed",
+  "topics": [
+   "travel-scenic"
+  ],
+  "summaryKo": "코모 호수 7일 · 숙박 거점과 페리",
+  "commerce": "일정·지도 또는 여행 체험 제휴 아이디어",
+  "why": "공개 원본에서 확인한 여행 레퍼런스. 실제 장소와 숙소는 실사나 허가 자료로 확인."
  }
 ]

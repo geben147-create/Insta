@@ -37,7 +37,7 @@ def main() -> int:
     email = args.email.strip().lower()
     digest = hashlib.sha256(email.encode("utf-8")).hexdigest()
     channel = normalize_url(args.channel_url)
-    matches = [r for r in rows if r.get("contact_sha256") == digest or
+    matches = [r for r in rows if (r.get("contact_sha256") == digest or r.get("invalid_contact_sha256") == digest) or
                (channel and normalize_url(r.get("source_url", "")) == channel)]
     if matches:
         for r in matches:

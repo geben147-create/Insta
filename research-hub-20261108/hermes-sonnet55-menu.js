@@ -3,7 +3,7 @@
    - 수정·순서·숨김은 이 브라우저(localStorage)에만 저장됩니다. 기존 허브 메뉴 스크립트는 건드리지 않습니다. */
 (function () {
   'use strict';
-  var KEY = 'h55-menu-v2'; // v2: 기본 순서를 '아웃라인 5안 v2'가 맨 위가 되도록 변경하면서 이전 저장값을 초기화
+  var KEY = 'h55-menu-v3'; // v2: 기본 순서를 '아웃라인 5안 v2'가 맨 위가 되도록 변경하면서 이전 저장값을 초기화
   var sidebar = document.getElementById('sidebar');
   if (!sidebar || document.getElementById('h55-root')) return;
   var pin = document.getElementById('script-video-workflow-pin');
@@ -11,6 +11,7 @@
   var DEFAULT = [{
     id: 'sonnet55', label: '🟣 Sonnet 5.5 · 한일 비교 아웃라인', items: [
       { id: 'outline', label: '🗂 아웃라인 5안 v2 · 줄거리 ↔ 적용 1:1 · 음성', href: BASE + 'outline_5ways.html' },
+      { id: 'p123', label: '🟡 내 프롬프트 ①②③ 원문 · 복사 1개씩', href: BASE + 'prompts_123.html' },
       { id: 'page', label: '📄 내 프롬프트 · 단계별 복사 · 모델 기록', href: BASE + 'index.html' },
       { id: 'ans', label: '🎧 답변 음성 · 2배속 가능', href: BASE + 'outline_5ways.html#tts' },
       { id: 'ol', label: '🎧 아웃라인 음성 · 2배속 가능', href: BASE + 'outline_5ways.html#tts' },

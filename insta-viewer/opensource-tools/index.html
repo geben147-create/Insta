@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>영상 분석 오픈소스</title>
+<style>body{background:#101218;color:#eee;font:15px/1.6 system-ui;margin:0;padding:14px}a{color:#a9ccff}table{width:100%;border-collapse:collapse}th,td{text-align:left;border-bottom:1px solid #49556d;padding:8px;vertical-align:top}summary{cursor:pointer;color:#ffd166}</style>
+<h1>오픈소스 · 영상 분석 도구</h1>
+<p>영상 생성 서비스와 분리한 목록입니다. 프로젝트명은 공식 저장소로 연결됩니다.</p>
+<table><thead><tr><th>도구</th><th>작업</th><th>라이선스</th></tr></thead><tbody>
+<tr><td><a href="https://github.com/Breakthrough/PySceneDetect">PySceneDetect</a></td><td>컷 전환 탐지와 장면 분리</td><td>BSD-3-Clause</td></tr>
+<tr><td><a href="https://github.com/opencv/opencv">OpenCV</a></td><td>프레임·색상·움직임 분석</td><td>Apache-2.0</td></tr>
+<tr><td><a href="https://github.com/tesseract-ocr/tesseract">Tesseract</a></td><td>캡처의 글자 추출. 이 뷰어의 OCR 작업에 사용</td><td>Apache-2.0</td></tr>
+<tr><td><a href="https://github.com/WyattBlue/auto-editor">Auto-Editor</a></td><td>무음 등 조건에 따른 편집 보조</td><td>Unlicense</td></tr>
+</tbody></table>
+<details><summary>벤치마크에 쓰는 순서</summary><p>컷 탐지 → 실제 장면 이미지 확보 → OCR로 화면 글자 추출 → 비전으로 장면·구도·오인식 확인. OCR은 소리를 옮긴 자막이나 대본 프롬프트 원문과 구분합니다.</p></details>
+</html>

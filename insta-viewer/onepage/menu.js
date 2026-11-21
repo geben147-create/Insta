@@ -1,5 +1,5 @@
 'use strict';
-const onepageTopics={onepage:'전체', 'onepage-stocks':'주식·ETF·경제', 'onepage-etf':'ETF', 'onepage-economy':'경제', 'onepage-property':'부동산', 'onepage-ai':'AI 도구', 'onepage-startup':'창업', 'onepage-grants':'지원금','onepage-archive':'기존 806건 통합'};
+const onepageTopics={onepage:'전체', 'onepage-stocks':'주식·ETF·경제', 'onepage-etf':'ETF', 'onepage-economy':'경제', 'onepage-property':'부동산', 'onepage-ai':'AI 도구', 'onepage-prompts':'프롬프트 · OCR·비전', 'onepage-startup':'창업', 'onepage-grants':'지원금','onepage-archive':'기존 806건 통합'};
 const menuNamesKey='insta.menu.names.v1';
 function setupMenuNames(side){
  const labels=[...side.querySelectorAll('.mi[data-k]')]; const folders=[...side.querySelectorAll('.grp')];

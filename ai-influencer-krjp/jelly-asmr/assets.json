@@ -2494,6 +2494,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=0WoU6VSQQLk",
       "creative_reference_use": "얇은 얼음 벽을 깨는 손동작에 파열음과 질감 공개를 맞춤",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "95",
+      "file": "95-박하크림초코우산.png",
+      "local_relative_path": "queue-60/95-박하크림초코우산.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "a4a415e26da6f9d48d9cda9b323b20de1ffd9b3c34d840b69d8c84808e2d3a70",
+      "trip_hotel_id": "9451401",
+      "facility": "아쿠아시스 디럭스 리조트 앤 스파 워터파크",
+      "composition": "곡선 데크 옆 마른 탁자 왼쪽 사선에서 초코 우산과 캐노피 아래 키즈 물놀이 구조물을 담음",
+      "facility_source_url": "https://www.trip.com/hotels/didim-hotel-detail-9451401/hotel/",
+      "trip_public_url": "https://www.trip.com/hotels/didim-hotel-detail-9451401/hotel/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0220s12000r6eneflDE2B_R_600_360_R5.webp",
+      "facility_photo_sha256": "1d7d354ddb30ee2ae8bfcc55e40219045efa7bf820998e31f2fdd6095155c80a",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/95-mint-cream-chocolate-umbrella.md",
+      "flow_prompt_sha256": "40d0b777c7e3172d1dc1e258456fa701e67c65db20aec3448907cd5293820c56",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "코팅을 접어 파열음과 연한 박하 크림 단면 공개",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

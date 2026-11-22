@@ -1077,6 +1077,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "과자를 부러뜨릴 때 나는 짧은 파열음과 단면 공개 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "39",
+      "file": "39-귤모양초콜릿.png",
+      "local_relative_path": "queue-60/39-귤모양초콜릿.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "c84ae608477a9e023d5b8b34e7a7ab8ccf9c9aaa94a0169a2c6bdacc03fe5623",
+      "trip_hotel_id": "10720342",
+      "facility": "마나브가트 알리 베이 클럽 앤 파크 워터파크",
+      "composition": "마른 전망 보행로에 선 인물을 눈높이 정면에서 촬영. 가슴 앞 초콜릿과 뒤쪽 푸른 해적선 풀을 함께 담음",
+      "facility_source_url": "https://www.trip.com/hotels/kizilagac-hotel-detail-10720342/ali-bey-club-park/",
+      "trip_public_url": "https://www.trip.com/hotels/kizilagac-hotel-detail-10720342/ali-bey-club-park/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0224t12000c3vdiwsCF75_R_600_360_R5.webp",
+      "facility_photo_sha256": "19e809bd46e41b859d8fb04a24209cfff20adc7022afaf7d2fbd7224ea7cc6ab",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/39-mandarin-chocolate.md",
+      "flow_prompt_sha256": "940e3ae3003f2f52bf4cfef72f5305d82521b9b0931cd0723ad7112d61436294",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품에서 한 조각이 분리되는 순간의 파열음과 단면 공개 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

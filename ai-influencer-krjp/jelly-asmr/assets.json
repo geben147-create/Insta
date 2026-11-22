@@ -1852,6 +1852,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "대형 소품의 첫 동작과 재질 변화에 촉각음을 맞춤",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "70",
+      "file": "70-레몬껍질볼빙수.png",
+      "local_relative_path": "queue-60/70-레몬껍질볼빙수.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "7b90df29b6a9acbe44ef3695de13695040af4c48ce23243f9f6b6f69da5362ab",
+      "trip_hotel_id": "21868817",
+      "facility": "푼타카나 멜리아 카리베 비치 리조트 워터파크",
+      "composition": "마른 풀사이드 테이블의 낮은 옆 사선에서 얼음 결과 뒤쪽 파란 관형 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/punta-cana-hotel-detail-21868817/melia-caribe-beach-resort/",
+      "trip_public_url": "https://www.trip.com/hotels/punta-cana-hotel-detail-21868817/melia-caribe-beach-resort/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1mc6t12000fr6ea0t2B8B_R_600_360_R5.webp",
+      "facility_photo_sha256": "3d395d618e13af8aea5d5cce12291964024dc042141d04830145d425e136120e",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/70-lemon-rind-shaved-ice.md",
+      "flow_prompt_sha256": "789ce0ff9d53bba64ebfc600213f6dc0b5c8728ab4408a4a24af7f84ecf3249e",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "재료의 질감이 바뀌는 순간과 짧은 촉각음을 맞춤",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

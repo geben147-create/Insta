@@ -1202,6 +1202,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "크기 대비, 첫 손동작의 촉각음과 단면 공개를 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "44",
+      "file": "44-코코넛스노볼.png",
+      "local_relative_path": "queue-60/44-코코넛스노볼.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "9c47b1f1c6125ae710c3b3fdea1073ef2a6ba224924b1320ed7462da57d3ed99",
+      "trip_hotel_id": "2282986",
+      "facility": "더 팰리스 오브 더 로스트 시티 앳 선시티 리조트가 안내하는 밸리 오브 웨이브스",
+      "composition": "마른 작업대의 손 높이에서 열린 반구와 낙하하는 코코넛, 뒤쪽 돌기둥과 밧줄 다리를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/suncity-hotel-detail-2282986/the-palace-of-the-lost-city-sun-city/",
+      "trip_public_url": "https://www.trip.com/hotels/suncity-hotel-detail-2282986/the-palace-of-the-lost-city-sun-city/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/220m0g0000007rughB985_R_600_360_R5.webp",
+      "facility_photo_sha256": "e138854061cc9df820b039f47daadb5e84fea0c95b15066175ddbdf7807e18bf",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/44-coconut-snowball.md",
+      "flow_prompt_sha256": "c6b209894451d80c7a1251173b955f82181fc40327aaee0815674d576444956f",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "겉이 열리는 순간에 내부 질감과 짧은 촉각음을 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

@@ -1752,6 +1752,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품을 열자 안쪽 재료가 보이는 순간에 짧은 촉각음을 맞춤",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "66",
+      "file": "66-복숭아와플토스트.png",
+      "local_relative_path": "queue-60/66-복숭아와플토스트.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "363fc519b04eceeeec8738c9d9038ff6e3921bb72866ddfe969e651669cb0cab",
+      "trip_hotel_id": "100658765",
+      "facility": "사리게르메 투이 블루 트로피컬 워터파크",
+      "composition": "마른 전망대에 선 인물의 가슴 높이 정면에서 펼친 와플과 뒤쪽 두 종류의 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/sarigerme-mahallesi-hotel-detail-100658765/tui-blue-tropical/",
+      "trip_public_url": "https://www.trip.com/hotels/sarigerme-mahallesi-hotel-detail-100658765/tui-blue-tropical/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0582912000hy15j2v4718_R_600_360_R5.webp",
+      "facility_photo_sha256": "a2611531df6f7b230b191baa1018c1a2e656c1ddd17eae780d4c1c5a9ab20f7f",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/66-peach-waffle-toast.md",
+      "flow_prompt_sha256": "52b0704d9a4f7cc5e771d3de3fa448d119c3edf408b11e69b548fb0ff796f5c0",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품을 벌리는 첫 동작과 단면 공개에 짧은 촉각음을 맞춤",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

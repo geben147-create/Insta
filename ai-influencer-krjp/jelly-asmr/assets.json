@@ -1452,6 +1452,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품에서 조각 하나가 분리되는 촉각음과 단면 공개 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "54",
+      "file": "54-대왕귤껍질젤리.png",
+      "local_relative_path": "queue-60/54-대왕귤껍질젤리.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "8afd651a8fec71730af8918a5e6a209cd1b649ae3148d7f01d6c251dc859a150",
+      "trip_hotel_id": "10507200",
+      "facility": "코르푸 아쿠아랜드 리조트 워터파크",
+      "composition": "마른 전망대 돌 테이블 사선에서 나선으로 벗긴 식용 껍질과 뒤쪽 파도풀을 담음",
+      "facility_source_url": "https://www.trip.com/hotels/parelia-hotel-detail-10507200/aqualand-resort/",
+      "trip_public_url": "https://www.trip.com/hotels/parelia-hotel-detail-10507200/aqualand-resort/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0220j12000pqiz33yADB6_R_600_360_R5.webp",
+      "facility_photo_sha256": "ac18cb5015df1bb6b7e2031af8d94e7f44d21be3d1e8861d6ce69d21d6d19e9b",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/54-tangerine-peel-jelly.md",
+      "flow_prompt_sha256": "a8a6b716cb5631792d6ebfbe4e0c3d5d15853bac7f9b05b2e1344060400d4833",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "첫 손동작에 짧은 촉각음과 안쪽 질감 공개를 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

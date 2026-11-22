@@ -183,6 +183,28 @@
       "flow_prompt": "flow-prompts/03-fruit-puzzle.md",
       "flow_video_status": "pending_connection",
       "flow_prompt_sha256": "cfd3b4d8f7eef8d5fc741fdd1c5bf5b81f678706d2c6a0cddb6d6e02b834525d"
+    },
+    {
+      "queue_id": "04",
+      "file": "04-파인애플왕돈가스.png",
+      "local_relative_path": "queue-60/04-파인애플왕돈가스.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "c9439d25bd9f6a8e41a60dd3f6a87915ebfb67241204e424147f3fd42143d8dc",
+      "trip_hotel_id": "7529731",
+      "facility": "그랜드 미라지 리조트 발리 워터파크",
+      "composition": "어린이 물놀이장 가장자리·물바가지와 물커튼",
+      "facility_source_url": "https://www.trip.com/hotels/bali-hotel-detail-7529731/grand-mirage-resort-and-thalasso-bali/",
+      "trip_public_url": "https://www.trip.com/hotels/bali-hotel-detail-7529731/grand-mirage-resort-and-thalasso-bali/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0580w12000ivr59u6768F_R_600_360_R5.webp",
+      "facility_photo_sha256": "3cd8eac33ed0b131dd02311cba65b40f22e11f12bf12424e331336a3cb2fc029",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/04-pineapple-pork-ring.md",
+      "flow_video_status": "pending_connection",
+      "creative_reference_url": "https://www.youtube.com/watch?v=bBzYW7Sf1Mc",
+      "flow_prompt_sha256": "7967b41a491cbe072eaf46dddd8ef44209d5085559b48c3b9e9a61333d428426"
     }
   ]
 }

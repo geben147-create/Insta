@@ -2394,6 +2394,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
       "creative_reference_use": "뚜껑을 여는 동작 한 번에 반죽과 과육의 단면을 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "91",
+      "file": "91-살구크림바게트배.png",
+      "local_relative_path": "queue-60/91-살구크림바게트배.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "c11db32d5fa16ba6f8209575ac2e9243923537d28090d154d736aee7060f9636",
+      "trip_hotel_id": "759333",
+      "facility": "블루 베이 호텔 워터파크",
+      "composition": "수영장 맞은편 마른 탁자 오른쪽 허리 높이에서 바게트 배 너머 흰 다중 슬라이드와 야자수를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/rhodes-hotel-detail-759333/blue-bay-hotel/",
+      "trip_public_url": "https://www.trip.com/hotels/rhodes-hotel-detail-759333/blue-bay-hotel/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0225l12000djrz6ofA4A8_R_600_360_R5.webp",
+      "facility_photo_sha256": "0bcd67fbfba93750511279130ebb3d93295178fa1f45b5b144f91c48db658ecd",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/91-apricot-cream-baguette-boat.md",
+      "flow_prompt_sha256": "33c68a6037691b7a5357fffda587377092f6ef056fdd40358017434cc195a3c3",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "첫 손동작으로 바삭한 소리를 내고 크림과 빵의 질감 차이를 보여줌",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

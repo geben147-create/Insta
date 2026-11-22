@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101524"><meta name="description" content="JTBC 썸네일 9장·36컷 실제 화면 크롭, 리액션 원형 PNG, 스포츠·불꽃·번개·타이포 분석 및 실시간 제작 미리보기">
+<title>JTBC 썸네일 DNA | 놀람·번개·스포츠·타이포 벤치마크 36컷</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap');
+:root{--bg:#0d101c;--panel:#171e2f;--panel2:#1f2940;--line:#33415e;--text:#f8f9ff;--muted:#a8b7cf;--yellow:#ffe447;--pink:#ff73b3;--blue:#73d9fd;--mint:#82edd0;--red:#ff5a68}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:radial-gradient(ellipse at 86% 0%,#362044 0%,#0d101c 42%);font-family:'Noto Sans KR',system-ui,sans-serif;line-height:1.58}
+a{color:#9dddfc}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--yellow);outline-offset:3px}
+button{border:1px solid #536080;border-radius:10px;padding:9px 13px;background:#263650;color:white;font-weight:850;font-size:12px;white-space:nowrap}button:hover{background:#3a4d71}button.primary{background:var(--yellow);color:#28200a;border-color:#e0b82c}button.pink{background:#7a285a;border-color:#c45d97}button.small{padding:6px 9px;font-size:11px}
+header{padding:27px max(17px,calc((100vw - 1440px)/2));background:linear-gradient(115deg,#191c32,#30203b 65%,#172b38);border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--yellow);font-size:11px;font-weight:950;letter-spacing:1.5px}.header-row{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}h1{font-size:clamp(25px,3.5vw,45px);line-height:1.25;margin:9px 0 10px;letter-spacing:-1.8px}h1 em{font-style:normal;color:var(--pink)}.lead{max-width:950px;color:#d7e1f2;font-size:13px}.toplinks{display:flex;gap:7px;align-items:center;flex-wrap:wrap}a.navlink{text-decoration:none;border:1px solid #53627e;color:#d3e8ff;border-radius:9px;padding:8px 12px;font-size:12px;font-weight:800}
+.metric-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:21px}.metric{border:1px solid #4e5573;background:#ffffff0b;padding:13px 17px;border-radius:12px}.metric b{font-size:25px;color:var(--yellow);display:block;line-height:1.15}.metric span{font-size:11px;color:#cad6ec}
+nav.quick{position:sticky;top:0;z-index:30;background:#141d2de8;backdrop-filter:blur(12px);border-bottom:1px solid var(--line);display:flex;gap:8px;flex-wrap:wrap;padding:9px max(15px,calc((100vw - 1440px)/2));align-items:center}
+nav.quick a{color:#dce6ff;text-decoration:none;font-size:12px;font-weight:800;padding:7px 10px;border-radius:7px;background:#263147}
+main{max-width:1440px;margin:auto;padding:25px 17px 70px}section{margin:0 0 42px;scroll-margin-top:77px}
+h2{font-size:clamp(20px,2.4vw,28px);letter-spacing:-.9px;margin:0 0 8px}.section-note{font-size:12.5px;color:var(--muted);margin:0 0 17px}
+.notice{padding:13px 16px;border:1px solid #747147;background:#333324;border-radius:11px;margin:14px 0;font-size:12px;color:#f9ecc1}.notice.green{background:#1b3b37;border-color:#31775f;color:#d1ffed}.notice.warn{background:#3b2730;border-color:#815063;color:#ffd3e0}
+.upload-panel{display:flex;gap:14px;flex-wrap:wrap;align-items:center;justify-content:space-between;border:1px solid #5c617a;background:linear-gradient(100deg,#262742,#172f3f);border-radius:16px;padding:17px 20px;margin-top:17px}
+.upload-panel p{margin:3px 0;color:#c6d4eb;font-size:12px}.upload-panel strong{color:#fff6b3}.upload-actions{display:flex;flex-wrap:wrap;gap:7px}.upload-bar{margin-top:7px;height:7px;background:#35455f;border-radius:10px;overflow:hidden;width:260px;max-width:100%}.upload-bar>i{display:block;width:0%;height:100%;background:linear-gradient(90deg,#ffe447,#80edd6);transition:width .2s}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.feature{background:var(--panel);border:1px solid #445370;border-radius:16px;overflow:hidden;min-width:0;box-shadow:0 10px 30px #0003;transition:border-color .15s}.feature:hover{border-color:#deb771}
+.thumb{aspect-ratio:596/337;width:100%;overflow:hidden;background:radial-gradient(circle at 45% 25%,#764556,#262b46 55%,#151b2c);position:relative;isolation:isolate}.thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.thumb .placeholder{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;color:#f9dfe7;text-align:center;padding:15px;font-size:clamp(10px,1vw,13px)}.placeholder b{font-size:20px}
+.thumb .chipon{position:absolute;top:8px;left:8px;z-index:2;background:#111d2ccc;border-radius:6px;border:1px solid #ffffff55;color:#f9edc1;padding:3px 8px;font-size:10px;font-weight:900}
+.feature .pad{padding:13px 15px 16px}.feature-head{display:flex;gap:8px;align-items:center;justify-content:space-between}.fid{background:#ffe447;color:#1e1c23;font-weight:950;border-radius:8px;padding:4px 7px;white-space:nowrap;font-size:11px}.cat{font-size:10px;font-weight:850;color:#9edcfc}.feature h3{font-size:16px;margin:8px 0 6px;letter-spacing:-.4px}.feature p{color:#c3d0e4;font-size:12px;margin:6px 0}.why{border-left:3px solid var(--pink);padding:5px 9px;background:#ffffff08}.feature .actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.swatches{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0}.sw{display:flex;gap:4px;align-items:center;font:10px ui-monospace,monospace;color:#becbe0}.sw i{width:15px;height:15px;display:inline-block;border-radius:4px;border:1px solid #ffffff55}
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:12px 0 16px}.tools input,.tools select{background:#0c1729;color:white;border:1px solid #485b75;border-radius:9px;padding:10px;min-width:120px}.tools input[type=search]{width:min(330px,100%)}.count{margin-left:auto;color:#9cc6df;font-size:12px}
+.catalog{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.mini{background:#1a2335;border:1px solid #394a65;border-radius:12px;overflow:hidden;min-width:0}.mini h4{font-size:12px;line-height:1.5;margin:10px 10px 4px}.mini p{font-size:10.5px;margin:0 10px 10px;color:#9cb1ce}.mini .thumb{cursor:pointer}.mini .actions{padding:0 10px 11px;display:flex;gap:5px;flex-wrap:wrap}
+.faces{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}.facecard{background:#1a2336;border:1px solid #41516e;border-radius:14px;display:flex;flex-direction:column;align-items:center;text-align:center;padding:14px 9px;min-width:0}.facecard .round{width:min(100%,145px);aspect-ratio:1;border-radius:50%;background:linear-gradient(120deg,#3e486e,#842e51);border:5px solid #f5e9ec;overflow:hidden;display:grid;place-items:center;font-size:37px;box-shadow:0 7px 18px #0005}.round img{width:100%;height:100%;object-fit:cover}.facecard b{margin-top:8px;font-size:11px}.facecard span{font-size:10px;color:#aabbd0}.facecard button{margin-top:8px}
+.editor{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(285px,1fr);gap:16px}.editbox{border-radius:16px;padding:16px;border:1px solid #435375;background:#1b253b}.editbox h3{margin:0 0 10px;font-size:15px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:8px}.fields label{font-size:11px;font-weight:800;color:#b9cce2}.fields input,.fields select{display:block;width:100%;margin-top:5px;padding:9px 10px;background:#0d1a2c;border:1px solid #485b74;border-radius:8px;color:white}.fields label.span{grid-column:1/-1}
+.preview{width:100%;aspect-ratio:16/9;position:relative;overflow:hidden;background:linear-gradient(135deg,#28424b,#7d394b,#322742);border:1px solid #647391;border-radius:12px;isolation:isolate}
+.preview img{width:100%;height:100%;object-fit:cover;display:block}.preview .shade{position:absolute;inset:45% 0 0;background:linear-gradient(0deg,#060b15c9,transparent);pointer-events:none}
+.preview .fx{display:none;position:absolute;inset:0;pointer-events:none}.preview.vs .fx{display:block;background:#ffd72b;clip-path:polygon(47% 0,51% 0,47% 44%,54% 42%,47% 100%,44% 100%,48% 51%,42% 53%);filter:drop-shadow(2px 2px 0 #612b12)}
+.preview.fire .fx{display:block;background:radial-gradient(ellipse at 0% 90%,#fb791d99,transparent 43%),radial-gradient(ellipse at 100% 80%,#ffb33099,transparent 44%)}
+.preview.sport .fx{display:block;inset:auto 0 0;height:33%;background:linear-gradient(0deg,#113563ee,#11356300)}
+.preview .preview-title{position:absolute;bottom:5%;left:3%;right:3%;text-align:center;font-weight:1000;color:var(--captioncolor,#ffe74d);line-height:1.16;font-size:clamp(20px,4.6vw,63px);-webkit-text-stroke:clamp(1px,.3vw,4px) #191c2a;paint-order:stroke fill;text-shadow:3px 4px 0 #1119;white-space:pre-wrap;overflow-wrap:anywhere;z-index:3}
+.preview.letter .preview-title{transform:perspective(400px) rotateX(12deg) skewX(-7deg) scaleY(1.11);transform-origin:bottom;font-family:'Black Han Sans','Noto Sans KR',sans-serif;text-shadow:0 1px 0 #8d330d,0 3px 0 #56240b,1px 7px 5px #000b}
+.preview.no-title .preview-title{display:none}
+.preview .preview-tag{position:absolute;top:5%;left:4%;color:white;background:#cc2942;border:2px solid white;border-radius:7px;padding:2px 9px;font-size:clamp(10px,1.4vw,18px);font-weight:950}
+.rulegrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.rule{background:#1b283c;border:1px solid #40506c;border-radius:14px;padding:17px}.rule strong{font-size:14px;color:#ffdf7e}.rule p{font-size:12px;color:#c7d4e6;margin:8px 0 0}
+.promptbox{background:#10192a;border:1px solid #526180;border-radius:12px;padding:15px;font:12px/1.7 ui-monospace,monospace;white-space:pre-wrap;overflow-wrap:anywhere;max-height:300px;overflow:auto}.plain-table{width:100%;border-collapse:collapse;font-size:11px}.plain-table td,.plain-table th{padding:9px 8px;border-bottom:1px solid #35455c;text-align:left}.plain-table th{color:#ffeea4}footer{padding:18px;text-align:center;color:#90a5be;font-size:11px;border-top:1px solid #34405b}
+#toast{position:fixed;bottom:22px;right:20px;z-index:90;padding:12px 19px;color:#fff;background:#287053;border:1px solid #6fdc9d;box-shadow:0 10px 30px #0009;border-radius:10px;opacity:0;transform:translateY(10px);transition:.2s;pointer-events:none}#toast.on{opacity:1;transform:none}
+@media(max-width:1150px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog{grid-template-columns:repeat(3,1fr)}.faces{grid-template-columns:repeat(5,1fr)}}
+@media(max-width:850px){.editor{grid-template-columns:1fr}.rulegrid{grid-template-columns:repeat(2,1fr)}.faces{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:610px){header{padding:21px 14px}.metric-row{grid-template-columns:repeat(2,1fr);gap:7px}.metric{padding:11px}.cards{grid-template-columns:1fr}.catalog{grid-template-columns:repeat(2,1fr)}.faces{grid-template-columns:repeat(3,1fr)}.rulegrid{grid-template-columns:1fr}main{padding:18px 11px}.fields{grid-template-columns:1fr 1fr}.feature h3{font-size:15px}.feature p{font-size:11px}.preview .preview-title{font-size:7vw}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
+</style></head>
+<body><header>
+<div class="eyebrow">JTBC ENTERTAINMENT × REAL THUMBNAIL BENCHMARK · 2026.11.23</div>
+<div class="header-row"><div><h1>놀람·폭소·번개·스포츠 <em>썸네일 DNA</em></h1>
+<p class="lead">보내주신 <b>9장 스크린샷</b>을 기준으로 36개 썸네일 구도와 표정, 원형 크롭, 불꽃, 번개, 스포츠 선수 크기, 색상·글자 배치를 분류했습니다. 우선순위는 요청하신 장면이 먼저입니다. 아래에서 원본 9장을 선택하면 실제 화면을 자동 크롭하고 PNG를 추출합니다.</p></div>
+<div class="toplinks"><a class="navlink" href="../?page=thumbnail-design">↗ 기존 썸네일 분석</a><a class="navlink" href="../?page=thumbnail-layer-lab">🎨 누끼·화살표 미리보기</a></div></div>
+<div class="metric-row"><div class="metric"><b>9</b><span>원본 스크린샷</span></div><div class="metric"><b>36</b><span>개별 썸네일 크롭</span></div><div class="metric"><b>20</b><span>리액션 원형 PNG 규격</span></div><div class="metric"><b>14</b><span>맨 위 필수 장면</span></div></div>
+<div class="upload-panel"><div><strong>📤 원본 사진 9장 한 번에 불러오기</strong><p>147763 · 147751 · 147767 · 147709 · 147711 · 147719 · 147727 · 147723 · 147743.jpg</p><p>사진을 불러오면 브라우저 안에서 36개 컷·20개 원형 이미지를 즉시 생성합니다. 로컬 저장, 서버 업로드 없음.</p><div class="upload-bar"><i id="progressBar"></i></div></div>
+<div class="upload-actions"><input hidden type="file" id="photoInput" accept="image/jpeg,image/png,image/webp" multiple><button class="primary" id="importBtn">📁 원본 9장 선택</button><button id="clearBtn">🗑️ 로컬 사진 비우기</button><button id="allPromptBtn">📋 핵심 프롬프트 통합 복사</button><span id="importStatus" style="font-size:12px;color:#ffe5a5">0 / 9장</span></div></div>
+<div class="notice warn">원본 방송 폰트명과 원본 제작자의 클릭률 원인은 스크린샷만으로 확인 불가합니다. 색상은 압축된 화면에서 읽은 <b>근사 HEX</b>, 배치·인물 크기는 <b>시각적 측정값</b>, 클릭 유도 이유는 <b>가설</b>로 구분합니다. 출처: JTBC Entertainment 영상 목록 캡처 / 저작권은 원 권리자에게 있습니다.</div>
+</header>
+<nav class="quick"><a href="#must">⭐ 필수 14컷</a><a href="#faces">😱 표정 PNG</a><a href="#catalog">🖼 전체 36컷</a><a href="#editor">🎨 즉시 미리보기</a><a href="#rules">📐 재현 규칙</a><a href="#prompts">📋 복사 프롬프트</a></nav>
+<main>
+<section id="must"><h2>⭐ 1순위 · 말씀하신 장면 최상단 정리</h2><p class="section-note">번개 VS → 귀여운 강아지 → 뒤로 젖힌 빨간 입술 → 불꽃 절규 → 원형 표정 → 이대호 스포츠 → 웃음 분할 → 아래에서 솟는 글자 → 마지막 '충격' 순서입니다.</p><div id="featured" class="cards"></div></section>
+<section id="faces"><h2>😱 표정끼리 모으기 · 원형 크롭 20종</h2><p class="section-note">충격 ㆍ 놀람 ㆍ 절규 ㆍ 웃음 ㆍ 귀여움 ㆍ 선수. PNG는 <b>원 바깥을 투명 처리한 원형 크롭</b>으로, 인물 주변 배경까지 제거한 완전한 누끼와는 다릅니다.</p><div class="tools"><select id="faceFilter"><option value="전체">전체 감정</option><option>충격</option><option>놀람</option><option>웃음</option><option>절규</option><option>기타</option></select><span class="count" id="faceCount"></span></div><div id="faceGallery" class="faces"></div></section>
+<section id="catalog"><h2>🖼 9장 × 4컷 = 전체 썸네일 36컷</h2><p class="section-note">각 썸네일을 개별 JPEG로 내보낼 수 있습니다. 화면에 팝업 동영상이 겹친 부분은 스크린샷 원본의 가림입니다. 복구했다고 표시하지 않습니다.</p><div class="tools"><input type="search" id="search" placeholder="놀람, 스포츠, 분노, JYP, 강아지..." aria-label="썸네일 검색"><select id="categoryFilter"><option value="전체">전체 카테고리</option><option>표정</option><option>VS/대비</option><option>스포츠</option><option>원형</option><option>웃음</option><option>음악</option><option>기타</option></select><span id="catalogCount" class="count">36컷</span></div><div id="catalogGallery" class="catalog"></div></section>
+<section id="editor"><h2>🎨 글씨·색상·효과 즉시 미리보기</h2><p class="section-note">다른 페이지로 이동하지 않고 문구와 효과를 바꿔 비교하세요. 배경은 가져온 실제 썸네일을 우선 사용하며, 원본이 없으면 확인된 공식 영상 썸네일만 표시합니다.</p>
+<div class="editor"><div class="editbox"><h3>16:9 실시간 작업판</h3><div id="livePreview" class="preview vs"><div class="fx"></div><div class="shade"></div><div class="preview-tag">NEW REACTION</div><div id="liveTitle" class="preview-title">한국을 보고
+말문이 막혔다!</div></div><p style="font-size:11px;color:#9dc0db;margin:9px 0">미리보기 비율 16:9 · 출력 기준 1280×720 · CSS 효과는 원본 요소의 근사 재구성입니다.</p><div class="upload-actions"><button class="primary" id="savePreview">🖼 미리보기 PNG 저장</button><button id="copyCurrent">📋 현재 설정 프롬프트 복사</button></div></div>
+<div class="editbox"><h3>요소별 편집</h3><div class="fields">
+<label>예시 원본<select id="edSource"><option value="01-1">01-1 번개 VS</option><option value="01-2">01-2 강아지</option><option value="01-4">01-4 빨간 입술</option><option value="02-1">02-1 불꽃 절규</option><option value="06-1">06-1 이대호</option><option value="06-3">06-3 유재석·강호동</option><option value="07-3">07-3 서장훈</option><option value="09-4">09-4 충격 원형</option></select></label>
+<label>효과<select id="edEffect"><option value="vs">⚡ 번개 분할</option><option value="fire">🔥 불꽃 양옆</option><option value="sport">⚾ 스포츠 하단 띠</option><option value="letter">📣 솟는 입체 글씨</option><option value="no-title">🎭 얼굴만 강조</option><option value="normal">기본 두꺼운 글씨</option></select></label>
+<label class="span">메인 카피<input id="edText" value="한국을 보고&#10;말문이 막혔다!" aria-label="썸네일 메인 카피"></label>
+<label>글자색<input id="edColor" type="color" value="#ffe447"></label>
+<label>작은 레이블<input id="edTag" value="NEW REACTION"></label>
+<label>글자 크기 (%)<input id="edSize" type="range" min="4" max="13" value="8"></label>
+<label>글꼴<select id="edFont"><option value="'Noto Sans KR',sans-serif">두꺼운 고딕 900</option><option value="'Black Han Sans',sans-serif">Black Han Sans</option><option value="Impact,'Noto Sans KR',sans-serif">Impact 느낌</option></select></label>
+</div><div class="notice green" style="margin-top:16px">배치 기본값: 주인공 얼굴은 화면 높이 55~90%, 주요 글씨는 하단 18~28% 차지, 원형 반응은 화면 폭 18~28%. 모두 사례별 권장 범위이며 원본 편집 파일의 측정값은 아닙니다.</div></div></div></section>
+<section id="rules"><h2>📐 왜 눈에 띄나? 제작 규칙 6가지</h2><p class="section-note">지각적 대비를 설명하는 디자인 가설입니다. 특정 효과가 실제 클릭률을 높였다는 인과관계는 검증되지 않았습니다.</p><div class="rulegrid">
+<div class="rule"><strong>⚡ 01 · 번개 분할</strong><p>왼쪽과 오른쪽 얼굴을 47:53로 놓고 노란 지그재그 3~5% 폭으로 충돌감. 2인 대립·전후 변화에 사용.</p></div>
+<div class="rule"><strong>😱 02 · 표정 원형</strong><p>눈·입이 분명한 순간을 선택. 원형 지름은 화면 높이 45~70% 정도, 밝은 5~9px 테두리와 얕은 그림자.</p></div>
+<div class="rule"><strong>🐶 03 · 귀여운 동물</strong><p>가장 귀여운 얼굴을 정중앙에 크게, 작은 반응/상황 컷을 양옆. 강아지 얼굴 35~48% 화면 폭.</p></div>
+<div class="rule"><strong>🔥 04 · 과장된 감탄</strong><p>크게 벌어진 입·눈을 상단 중앙에 확보하고 불꽃은 양옆에만. 눈·입을 글씨로 가리지 않음.</p></div>
+<div class="rule"><strong>⚾ 05 · 스포츠 크기</strong><p>주인공 상반신 높이는 화면의 약 80~95%, 오른쪽 45~58% 점유. 배경에 플레이 순간과 작은 표정 인셋을 보조.</p></div>
+<div class="rule"><strong>📣 06 · 아래에서 솟는 글씨</strong><p>폰트 900, 세로 1.08~1.18배, X기울기 -5~-9°, 진한 검정/와인 외곽선 4~8px, 그림자 3~6px.</p></div></div>
+<div style="overflow:auto;margin-top:15px"><table class="plain-table"><thead><tr><th>요소</th><th>화면 색상 참고 HEX</th><th>복원 방법</th><th>정확도</th></tr></thead><tbody>
+<tr><td>노란 번개 / 강조</td><td><span style="color:#ffe23c">●</span> #FFE23C</td><td>SVG 지그재그 + 짙은 그림자</td><td>스크린샷 근사</td></tr>
+<tr><td>붉은 입술 / 충격</td><td><span style="color:#e83c68">●</span> #E83C68</td><td>입술 채도 대비, 얼굴 노출 유지</td><td>스크린샷 근사</td></tr>
+<tr><td>불꽃 오렌지</td><td><span style="color:#F56B20">●</span> #F56B20</td><td>양옆 밝기 후광·불꽃 오버레이</td><td>스크린샷 근사</td></tr>
+<tr><td>스포츠 레드</td><td><span style="color:#FC2750">●</span> #FC2750</td><td>진한 남색 외곽선 + 흰색 보조</td><td>스크린샷 근사</td></tr>
+<tr><td>충격 팻말 / 흰 글씨</td><td><span style="color:#5C211C">●</span> #5C211C + #FFF8EF</td><td>두 글자 분리한 와인색 사각박스</td><td>스크린샷 근사</td></tr>
+<tr><td>여러 자막 글꼴</td><td>정확한 폰트 미확인</td><td>Black Han Sans / Noto Sans KR Black / Gmarket Sans Bold 후보</td><td>원본 폰트명 미검증</td></tr></tbody></table></div></section>
+<section id="prompts"><h2>📋 제작 프롬프트 · 버튼으로 복사</h2><p class="section-note">각 카드의 '프롬프트 복사'는 바로 해당 효과를 지시합니다. 아래 통합본은 영상 편집 AI·Codex·Hermes 입력용입니다.</p><div class="promptbox" id="allPrompts"></div><div class="tools"><button class="primary" id="copyPrompts">전체 프롬프트 복사</button><button id="copyData">36컷 JSON 데이터 복사</button></div></section>
+</main><footer>사용자 제공 캡처 9장 기반 2026-11-23 개인 디자인 연구 · JTBC Entertainment 원저작권 존중 · 조회수 관찰과 CTR 검증을 혼동하지 않음</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+'use strict';
+const rawRows=[
+'01-1|이특·강호동 번개 VS|VS/대비|MC는 절대 울면 안 된다 / 막 눈물 꾹꾹 / 대성통곡|8Ni3IyHUI8g',
+'01-2|태연 반려견 중앙 확대|동물/귀여움|건전지 넣은 인형인가요? / 태연 누나밖에 모르는 제로|Skb3ds4qYtQ',
+'01-3|희철 정색 표정|표정/정색|느껴지는 한기|zf25s4bUXbI',
+'01-4|울먹임·빨간 입술|감정/슬픔|춥고… 배고프고…|',
+'02-1|민호 절규·불꽃|표정/절규|Knowing BROS Eng Sub / 왜애!!|',
+'02-2|김문호·아내 표정 콜라주|리액션/콜라주|일반인 맞아? ㅋㅋㅋ / 6회 게스트|',
+'02-3|바비 명품 복근|인물/피지컬|한 번 더|',
+'02-4|히토미 동정 이론|표정/놀람|순식간에 퍼진 토미 동정이론|',
+'03-1|JYP·갓세븐 이중 원형|원형/표정|우리 노래엔 JYP 이게 없어 / ...없었나? / 삐짐|',
+'03-2|싱어게인 유미 2분할|음악/듀엣|유미 / 별|',
+'03-3|히든싱어 다섯 얼굴 모음|인물/콜라주|레전드 모창 능력자|',
+'03-4|두 남성 극대화 놀람|표정/놀람|마술 같은 퍼포먼스 / 뿡이요~|',
+'04-1|홍은희 국어 시간 눈물|감정/눈물|한 구절 한 구절|',
+'04-2|서기 춤 원형 반응|원형/댄스|서기의 앙코르 즉흥 댄스|',
+'04-3|전종서 핑크 꽃 자막|자막/핑크|한 명만 만났었어|NWYKJV1zgfE',
+'04-4|사나 너무해 분노 표정|표정/분노|너무해~!!! / 이게 이게 삐지는 거|',
+'05-1|슈퍼주니어·백현 폭소|웃음/과장|예아 / 야모야모얌|',
+'05-2|윤아 요리 3분할|음식/3분할|윤아의 잇템 / 한 번에 잘린 햄|',
+'05-3|싱어게인 양준일 50호|음악/타이포|여자 양준일 50호 가수 / 미니데이트|',
+'05-4|한블리 임종 충격|사연/충격|엄마가 사고 나고 1시간 뒤 / 아빠가 임종하셨다!|',
+'06-1|이대호 4연타석 홈런|스포츠/야구|4연타석 홈런, 이대호|ilHfBY-HPGI',
+'06-2|량현량하 미소 클로즈업|웃음/미소|학교를 안 갔어|',
+'06-3|유재석·강호동 번개 ㅋㅋㅋ|VS/번개|ㅋㅋㅋㅋ / 돈가스 마사지 선물|iMqr-8xLFNE',
+'06-4|황광희 철퍼덕 퍼포먼스|효과/동작|Oh nanana / 철퍼덕!|',
+'07-1|이승윤 Love poem|음악/자막|유명家 라이브 / Love poem|',
+'07-2|윤경신 원샷원킬 28m|스포츠/농구|무려 28m / 원샷 원킬|',
+'07-3|서장훈 왕밤빵 분출 글자|타이포/원근|왕밤빵이 실제로 있어? / 네가 다니는 백화점엔 없어!|',
+'07-4|짜장면 오감 자극|음식/클로즈업|오감 자극!|',
+'08-1|조정석 여자친구 핑크|로맨스/질문|나랑 친한 여자 친구가!?|',
+'08-2|싱어게인 록 스피릿|음악/강조|국민 BGM에 숨겨진 불꽃 샤우팅|',
+'08-3|EXO 왕의 귀환|아이돌/단체|왕의 귀환! EXO|',
+'08-4|아빠의 마음 분할|감정/분할|진짜야 하지 마|',
+'09-1|바라던 바다 티저|감성/콜라주|바라던 바다|',
+'09-2|박준금·지상렬 당황|인물/상황|너무 파이팅(?) 있는 거 아니에요?|',
+'09-3|러블리즈 Eng Sub|예능/자막|Eng Sub / 밤새도록 돌아가는 관람차|',
+'09-4|린 원형 충격 폭발|원형/충격|충 격 / !!!|jCDddpU3hJ0'
+];
+const rows=rawRows.map(s=>{const a=s.split('|');return{id:a[0],title:a[1],cat:a[2],quote:a[3],yt:a[4]||'',screenshot:+a[0].slice(0,2),position:+a[0].slice(3)}});
+const featured=[
+['01-1','⚡ 번개로 대립 장면 분리','좌 45% 우 55%로 얼굴 대조, 노란 지그재그를 화면 정중앙에 세우고 하단에 짧은 대조 문구.','노랑 vs 검정이 시선을 두 인물 사이에 고정시키는 대비 가설.','vs'],
+['01-2','🐶 강아지 얼굴 정중앙 확대','강아지 얼굴을 가운데 크게, 태연 얼굴과 상황 컷을 양옆에 작게 배치. 민트색 테두리 + 주황색 질문형 키워드.','동물의 눈과 질문형 문구가 동시에 궁금증을 만드는 구성.','cute'],
+['01-4','💋 뒤로 젖힌 머리·빨간 입술','울먹이는 얼굴을 화면 오른쪽에 크게 두고 위쪽 제목은 비워둔다. 하단 1줄 작은 텍스트만 사용.','얼굴과 입술만으로 감정이 읽혀 글자를 많이 넣지 않아도 대비가 생김.','face'],
+['02-1','🔥 양옆 불꽃 + 입 벌린 절규','놀라는 남성 얼굴을 중앙 55~65%, 불꽃은 좌우 테두리. 노랑·주황 외곽선과 짧은 감탄사.','큰 입모양과 불꽃이 감정의 방향을 일치시킴.','fire'],
+['02-4','😲 손으로 입 가린 원형 반응','놀란 여성 얼굴을 우측 원형으로 확대하고 나머지는 사건의 맥락을 보여주는 작은 군중 사진.','정보는 상황 컷, 감정은 얼굴 원형으로 역할이 분리됨.','circle'],
+['03-1','😤 JYP·갓세븐 2중 원형','왼쪽 당사자 + 오른쪽 위 당황 원형 + 오른쪽 아래 삐짐 원형. 서로 다른 감정과 색을 나란히.','한 썸네일 안에 사건·반응·결말 3박자 구조.','circle'],
+['03-4','😮 두 남성 입 벌린 놀람','인물 두 명 얼굴을 각각 30~40%로 확대하고 오른쪽 작은 소품으로 사건을 지시.','동시에 놀라는 두 얼굴은 감정의 동시성을 강조.','face'],
+['04-4','💗 “너무해!!!” 핑크 리액션','핑크색 감탄문을 머리 위에 배치하고 오른쪽 여성 표정에 크롭 집중.','분홍색 유머 문구와 실제 표정의 정서적 대비.','circle'],
+['05-1','😂 웃는 표정 모음','같은 화면에서 3명이 서로 다른 표정을 보이는 순간을 채택하고 한 명을 더 크게.','복수 표정은 리액션의 다양성을 한눈에 보여줌.','laugh'],
+['06-1','⚾ 이대호 선수 크게','선수 얼굴·상체를 오른쪽 화면 높이 약 85%, 플레이 장면을 뒤쪽 작게 겹치고 하단에 기록을 숫자로.','주인공 인식과 4연타석이라는 숫자 사건을 즉시 연결.','sport'],
+['06-3','🤣 ㅋㅋㅋㅋ + 유재석·강호동 번개','좌 우 웃는 표정 가운데를 흰 번개로 분리하고 오른쪽 인물 위에 휘어진 노랑 ㅋㅋㅋㅋ.','관계성·충돌·웃음이 한 컷에 들어가는 구성.','vs'],
+['07-2','🏀 스포츠 원샷원킬 28m','선수 45% 이상, 놀라는 사람 2명을 좌우, 상단에 28m + 포물선 화살표, 원형 확대 인셋.','객관적 수치 28m와 현장 반응으로 장면의 크기 전달.','sport'],
+['07-3','📣 아래서 솟는 서장훈 글씨','하단 글씨를 두껍게 900, 살짝 위로 솟는 원근·기울임, 금색·빨간색 그림자. 세로 노란선으로 대화 구분.','시선이 인물 표정에서 하단 큰 발언으로 내려가며 반전을 전달.','letter'],
+['09-4','🚨 마지막 충격! 린 원형 표정','왼쪽에 놀라는 얼굴을 원형으로 크게 오려놓고 흰색 번쩍 기호, 아래에는 와인색 사각 패널에 충 / 격 글자 각각.','시각 기호 3종(원형 얼굴·!!!·사각 단어)이 동시에 감정을 강조.','circle']
+];
+const faceDefs=[
+['울먹·빨간 입술','01-4',288,135,136,'기타'],['절규·불꽃','02-1',306,121,113,'절규'],['아내 놀람','02-4',507,145,103,'놀람'],['JYP 당황','03-1',445,105,96,'놀람'],['갓세븐 삐짐','03-1',503,233,75,'기타'],['왼쪽 놀람','03-4',103,155,94,'놀람'],['오른쪽 놀람','03-4',322,158,99,'놀람'],['사나 너무해','04-4',497,140,91,'기타'],['슈퍼주니어 웃음','05-1',153,94,90,'웃음'],['한블리 착잡','05-4',154,171,94,'기타'],['이대호 선수','06-1',474,135,109,'기타'],['량현량하 미소','06-2',481,137,102,'웃음'],['강호동 웃음','06-3',144,123,95,'웃음'],['유재석 웃음','06-3',496,137,97,'웃음'],['윤경신 놀람','07-2',442,160,98,'놀람'],['서장훈 당황','07-3',475,135,91,'놀람'],['록 가수 열창','08-2',343,135,120,'절규'],['린 충격','09-4',155,141,101,'충격'],['히든싱어 놀람','07-4',495,132,92,'놀람'],['반려견 귀여움','01-2',310,125,123,'기타']
+];
+const originals=['147763.jpg','147751.jpg','147767.jpg','147709.jpg','147711.jpg','147719.jpg','147727.jpg','147723.jpg','147743.jpg'];
+const coords=[[326,852],[283,808],[283,807],[293,816],[283,808],[254,780],[235,760],[245,768],[235,760]];
+const imageCache={},cropCache={},circleCache={};
+let db=null;
+function toast(s){const e=document.getElementById('toast');e.textContent=s;e.classList.add('on');setTimeout(()=>e.classList.remove('on'),2400)}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function getRow(id){return rows.find(r=>r.id===id)}
+function official(id){const r=getRow(id);return r&&r.yt?'https://i.ytimg.com/vi/'+r.yt+'/hqdefault.jpg':''}
+function imageSrc(id){return cropCache[id]||official(id)}
+function htmlThumb(id){const s=imageSrc(id);return '<div class="thumb">'+(s?'<img src="'+esc(s)+'" alt="'+esc(getRow(id).title)+'" loading="lazy">':'<div class="placeholder"><b>📸 '+id+'</b><span>실제 썸네일 사진을 보려면<br>상단에서 원본 9장을 선택</span></div>')+'<div class="chipon">'+id+'</div></div>'}
+function copy(s){if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(s).then(()=>toast('📋 복사 완료'),()=>oldCopy(s))}else oldCopy(s)}
+function oldCopy(s){const a=document.createElement('textarea');a.value=s;document.body.append(a);a.select();document.execCommand('copy');a.remove();toast('📋 복사 완료')}
+function promptFor(id){const r=getRow(id),f=featured.find(v=>v[0]===id);return [
+'유튜브 썸네일 벤치마크 '+id+' ('+r.title+')',
+'원본 레퍼런스: 제공된 JTBC Entertainment 스크린샷 '+r.screenshot+'번, '+(['좌상','우상','좌하','우하'][r.position-1])+'.',
+'구도: '+(f?f[2]:'주인공의 눈·입·감정이 잘 보이도록 16:9 1280×720 재구성.'),
+'관찰 문구: '+r.quote,
+'강조 효과: '+(f?f[3]:'과한 중첩 없이 주요 메시지 1개를 크게 표시.') ,
+'색: 레퍼런스 참고, 실제로 읽히는 대비색 선택. 폰트: Noto Sans KR Black 또는 Black Han Sans (정확한 방송 서체 미확인).',
+'규격: 글씨 900, 짙은 외곽선 3~7px, 배경과 텍스트 분리, 모바일 160px 축소 가독성 시험.',
+'저작권: 방송 화면을 그대로 재사용하지 말고, 독자 촬영/사용 허가된 이미지와 사실인 반응으로 제작.'
+].join('\n')}
+function renderFeatured(){document.getElementById('featured').innerHTML=featured.map(f=>{
+const r=getRow(f[0]);return '<article class="feature">'+htmlThumb(f[0])+
+'<div class="pad"><div class="feature-head"><span class="fid">★ '+f[0]+'</span><span class="cat">'+esc(r.cat)+'</span></div><h3>'+esc(f[1])+'</h3><p><b>추출 문구</b> '+esc(r.quote)+'</p><p>'+esc(f[2])+'</p><p class="why"><b>눈에 띄는 이유(가설)</b> '+esc(f[3])+'</p>'+
+'<div class="swatches">'+['#FFE23C','#E83C68','#F56B20','#FDF4EC','#1B2442'].map(hex=>'<span class="sw"><i style="background:'+hex+'"></i>'+hex+'</span>').join('')+'</div>'+
+'<div class="actions"><button class="small" data-copy="'+f[0]+'">📋 프롬프트</button><button class="small" data-select="'+f[0]+'">🎨 미리보기</button><button class="small" data-save="'+f[0]+'">⬇ JPG</button>'+
+(r.yt?'<a class="navlink" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v='+r.yt+'">원본 영상</a>':'')+'</div></div></article>'
+}).join('')}
+function renderCatalog(){const q=document.getElementById('search').value.trim().toLowerCase(),k=document.getElementById('categoryFilter').value;const arr=rows.filter(r=>(k==='전체'||(k==='기타'?!['표정','VS/대비','스포츠','원형','웃음','음악'].some(v=>r.cat.includes(v)):r.cat.includes(k)))&&(!q||(r.title+' '+r.cat+' '+r.quote+' '+r.id).toLowerCase().includes(q)));
+document.getElementById('catalogCount').textContent=arr.length+' / 36컷';
+document.getElementById('catalogGallery').innerHTML=arr.map(r=>'<article class="mini">'+htmlThumb(r.id)+'<h4><span style="color:#ffe447">'+r.id+'</span> '+esc(r.title)+'</h4><p>'+esc(r.cat)+' · 캡처 '+r.screenshot+' / '+r.position+'분면</p><div class="actions"><button class="small" data-copy="'+r.id+'">프롬프트</button><button class="small" data-save="'+r.id+'">JPG</button><button class="small" data-select="'+r.id+'">미리보기</button></div></article>').join('')}
+function faceBlob(a){const label=a[0],id=a[1],cx=a[2],cy=a[3],rad=a[4];const key=[id,cx,cy,rad].join(':');if(circleCache[key])return circleCache[key];if(!cropCache[id])return '';const im=new Image();im.src=cropCache[id];const n=rad*2,c=document.createElement('canvas');c.width=n;c.height=n;const x=c.getContext('2d');x.beginPath();x.arc(rad,rad,rad-1,0,Math.PI*2);x.clip();x.drawImage(im,cx-rad,cy-rad,n,n,0,0,n,n);circleCache[key]=c.toDataURL('image/png');return circleCache[key]}
+function renderFaces(){const k=document.getElementById('faceFilter').value;const a=faceDefs.filter(v=>k==='전체'||v[5]===k);document.getElementById('faceCount').textContent=a.length+' / 20개';document.getElementById('faceGallery').innerHTML=a.map((v,i)=>{const s=faceBlob(v);return '<article class="facecard"><div class="round">'+(s?'<img src="'+s+'" alt="'+esc(v[0])+'">':'<span>😮</span>')+'</div><b>'+esc(v[0])+'</b><span>'+v[1]+' · '+v[5]+'</span><button class="small" data-face="'+faceDefs.indexOf(v)+'">⬇ 원형 PNG</button></article>'}).join('')}
+function saveData(id){const src=cropCache[id];if(!src){toast('📸 먼저 원본 9장을 선택해 주세요');return}download(src,'JTBC_reference_'+id+'.jpg')}
+function download(url,name){const a=document.createElement('a');a.href=url;a.download=name;a.click()}
+function saveFace(i){const v=faceDefs[+i],u=faceBlob(v);if(!u){toast('📸 먼저 해당 원본 사진을 불러와 주세요');return}download(u,'JTBC_reaction_'+String(+i+1).padStart(2,'0')+'_'+v[1]+'.png')}
+function renderPreview(){const box=document.getElementById('livePreview'),id=document.getElementById('edSource').value,eff=document.getElementById('edEffect').value,src=imageSrc(id);box.className='preview '+eff;box.querySelectorAll('img').forEach(i=>i.remove());if(src){const img=new Image();img.src=src;img.alt='선택한 참조 썸네일';box.prepend(img)}const text=document.getElementById('edText').value.replace(/&#10;/g,'\n');document.getElementById('liveTitle').textContent=text;box.style.setProperty('--captioncolor',document.getElementById('edColor').value);const title=document.getElementById('liveTitle');title.style.fontFamily=document.getElementById('edFont').value;title.style.fontSize=(+document.getElementById('edSize').value)+'%';box.querySelector('.preview-tag').textContent=document.getElementById('edTag').value}
+function editorPrompt(){return '16:9 1280×720 썸네일 제작. 참조 ID '+document.getElementById('edSource').value+' / 효과 '+document.getElementById('edEffect').value+' / 메인 텍스트 '+document.getElementById('edText').value+' / 색상 '+document.getElementById('edColor').value+' / 두꺼운 글자, 검정 외곽선, 얼굴 감정이 가리지 않게. 예시 분석 재현이므로 실제 방송 영상 재사용은 하지 않음.'}
+function savePreview(){const id=document.getElementById('edSource').value,src=cropCache[id];if(!src){toast('📸 PNG 출력은 먼저 원본 사진을 불러와야 합니다');return}
+const c=document.createElement('canvas');c.width=1280;c.height=720;const x=c.getContext('2d'),im=new Image();im.src=src;
+x.drawImage(im,0,0,1280,720);let effect=document.getElementById('edEffect').value;
+if(effect==='vs'){x.fillStyle='#FFDC25';x.beginPath();[[625,0],[662,0],[620,335],[695,315],[620,720],[586,720],[635,376],[563,394]].forEach((p,i)=>i?x.lineTo(...p):x.moveTo(...p));x.closePath();x.fill()}
+if(effect==='fire'){let g=x.createLinearGradient(0,720,180,200);g.addColorStop(0,'#FF6420BD');g.addColorStop(1,'#FF9C0900');x.fillStyle=g;x.fillRect(0,0,180,720);x.translate(1280,0);x.scale(-1,1);x.fillRect(0,0,180,720);x.setTransform(1,0,0,1,0,0)}
+if(effect==='sport'){const g=x.createLinearGradient(0,460,0,720);g.addColorStop(0,'#132A5500');g.addColorStop(1,'#0D2247EE');x.fillStyle=g;x.fillRect(0,450,1280,270)}
+const tag=document.getElementById('edTag').value;
+if(tag){x.fillStyle='#C92744';x.fillRect(39,30,Math.min(540,tag.length*28+22),42);x.fillStyle='white';x.font='800 27px "Noto Sans KR", sans-serif';x.textBaseline='middle';x.fillText(tag,50,53)}
+if(effect!=='no-title'){const lines=document.getElementById('edText').value.split(/\n/).filter(Boolean);const font=document.getElementById('edFont').value.replace(/'/g,'');let sz=Math.round(720*Number(document.getElementById('edSize').value)/100);sz=Math.min(94,Math.max(40,sz));x.font='900 '+sz+'px '+font;x.textAlign='center';x.textBaseline='bottom';x.lineJoin='round';x.lineWidth=9;x.strokeStyle='#121425';x.fillStyle=document.getElementById('edColor').value;x.shadowColor='#090814b8';x.shadowOffsetY=6;x.shadowBlur=5;const gap=sz*1.05;lines.slice(-3).reverse().forEach((l,i)=>{x.strokeText(l,640,693-i*gap,1240);x.fillText(l,640,693-i*gap,1240)})}
+download(c.toDataURL('image/png'),'JTBC_benchmark_preview_'+id+'.png')}
+const PROMPT_TEXT=[
+'【01 번개 분할】주인공 두 명을 45:55로 분리, 노란색 번개 모양 지그재그 중앙 배치, 얼굴 보존, 하단 대조 문구 최대 12자.',
+'【02 빨간 입술·감정】머리를 뒤로 젖힌 강렬한 표정과 붉은 입술에 시선 집중. 상단 헤드라인 생략, 하단에 짧은 한 줄만.',
+'【03 동물 얼굴】가장 귀여운 강아지 얼굴을 정중앙 크게, 양옆 작은 맥락 컷, 민트 테두리 + 주황색 질문형 문장.',
+'【04 절규·불꽃】입을 벌린 얼굴 중앙 60%, 양옆만 불꽃, 오렌지·노랑 텍스트, 얼굴 눈·입 절대 가리지 않음.',
+'【05 원형 리액션】이야기 전개 사진 옆에 놀란 표정을 흰 테두리 두꺼운 원형으로 확대, 적어도 2가지 감정 대비.',
+'【06 스포츠 기록】선수 상반신 크게 85~95% 높이, 뒤편 실제 플레이 장면, 큰 숫자 + 행동동사 1개.',
+'【07 ㅋㅋㅋ 번개】좌우 웃는 표정 번개로 분리, 오른쪽 머리 위에 호 모양 노란 ㅋㅋㅋㅋ 텍스트 배치.',
+'【08 아래서 솟는 글씨】Black Han Sans/Bold 900, 세로 1.12배, X기울기 -7°, 검정 외곽선과 금색 그림자, 인물 하단 25%에 배치.',
+'【09 충격 원형】왼쪽 원형 입 벌린 표정 확대 + 흰 !!!! 폭발 아이콘 + 하단에 와인색 사각판 2개로 충 / 격, 흰색 굵은 글씨.'
+].join('\n\n');
+function refresh(){renderFeatured();renderFaces();renderCatalog();renderPreview();document.getElementById('importStatus').textContent=Object.keys(imageCache).length+' / 9장';document.getElementById('progressBar').style.width=(Object.keys(imageCache).length/9*100)+'%'}
+function openDb(){return new Promise((resolve,reject)=>{if(!('indexedDB' in window)){resolve(null);return}const req=indexedDB.open('jtbc-screenshot-benchmark-v1',1);req.onupgradeneeded=()=>{req.result.createObjectStore('images')};req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)})}
+function dbPut(key,value){return new Promise(resolve=>{if(!db)return resolve();const t=db.transaction('images','readwrite');t.objectStore('images').put(value,key);t.oncomplete=resolve;t.onerror=resolve})}
+function dbGet(key){return new Promise(resolve=>{if(!db)return resolve(null);const t=db.transaction('images');const req=t.objectStore('images').get(key);req.onsuccess=()=>resolve(req.result);req.onerror=()=>resolve(null)})}
+function dbClear(){return new Promise(resolve=>{if(!db)return resolve();const t=db.transaction('images','readwrite');t.objectStore('images').clear();t.oncomplete=resolve;t.onerror=resolve})}
+function imageLoad(src){return new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=reject;im.src=src})}
+async function processOne(n,data){imageCache[n]=data;const im=await imageLoad(data);const [top,bottom]=coords[n-1];for(let quadrant=1;quadrant<=4;quadrant++){const x=quadrant%2===1?29:657;const y=quadrant<=2?top:bottom;const c=document.createElement('canvas');c.width=596;c.height=337;c.getContext('2d').drawImage(im,x,y,596,337,0,0,596,337);cropCache[String(n).padStart(2,'0')+'-'+quadrant]=c.toDataURL('image/jpeg',.91)}}
+async function importFiles(files){const arr=Array.from(files);if(!arr.length)return;let done=0;for(let i=0;i<arr.length;i++){const file=arr[i];let index=originals.findIndex(name=>name.toLowerCase()===file.name.toLowerCase())+1;if(!index)index=i+1;if(index>9){continue}
+try{const data=await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=reject;r.readAsDataURL(file)});await processOne(index,data);await dbPut(String(index),data);done++;refresh()}catch(e){console.warn('image import error',file.name,e)}}toast('✅ 원본 '+done+'장 분석 완료 · 36컷 자동 크롭');}
+function initActions(){document.getElementById('importBtn').onclick=()=>document.getElementById('photoInput').click();document.getElementById('photoInput').onchange=e=>importFiles(e.target.files);
+document.getElementById('clearBtn').onclick=async()=>{await dbClear();Object.keys(imageCache).forEach(k=>delete imageCache[k]);Object.keys(cropCache).forEach(k=>delete cropCache[k]);Object.keys(circleCache).forEach(k=>delete circleCache[k]);refresh();toast('로컬 사진 캐시 비움')};
+document.getElementById('allPromptBtn').onclick=()=>copy(PROMPT_TEXT);
+document.getElementById('copyPrompts').onclick=()=>copy(PROMPT_TEXT);
+document.getElementById('copyData').onclick=()=>copy(JSON.stringify({rows,featured,faces:faceDefs,coords,sourceNames:originals},null,2));
+document.getElementById('search').oninput=renderCatalog;document.getElementById('categoryFilter').onchange=renderCatalog;document.getElementById('faceFilter').onchange=renderFaces;
+document.querySelector('main').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.copy)copy(promptFor(b.dataset.copy));if(b.dataset.save)saveData(b.dataset.save);if(b.dataset.face!==undefined)saveFace(b.dataset.face);if(b.dataset.select){document.getElementById('edSource').value=b.dataset.select;if(document.getElementById('edSource').value!==b.dataset.select){const o=document.createElement('option');o.value=b.dataset.select;o.textContent=b.dataset.select+' · '+getRow(b.dataset.select).title;document.getElementById('edSource').append(o);o.selected=true}renderPreview();document.getElementById('editor').scrollIntoView({behavior:'smooth'})}});
+['edSource','edEffect','edText','edColor','edTag','edSize','edFont'].forEach(id=>document.getElementById(id).addEventListener('input',renderPreview));
+document.getElementById('savePreview').onclick=savePreview;document.getElementById('copyCurrent').onclick=()=>copy(editorPrompt());
+document.getElementById('allPrompts').textContent=PROMPT_TEXT;
+}
+async function init(){initActions();refresh();try{db=await openDb();for(let n=1;n<=9;n++){const src=await dbGet(String(n));if(src){try{await processOne(n,src)}catch(e){console.warn(e)}}}refresh()}catch(e){console.warn('IndexedDB unavailable',e)}}
+init();
+</script></body></html>

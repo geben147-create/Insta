@@ -6,7 +6,7 @@
   const detail = /^kukppong-batch-20261122\/outlines\/outline_(\d{2})\.html$/.exec(path);
   if (detail) {
     query.set('outline', detail[1]);
-    if (/^#(?:sum|hook|cl|s[1-8])$/.test(location.hash)) query.set('section',location.hash);
+    if (/^#(?:sum|hook|cl|s[1-8]|title-thumbnail-four)$/.test(location.hash)) query.set('section',location.hash);
   } else if (/^kukppong-batch-20261122\/listening\/(?:index\.html)?$/.test(path)) query.set('page','tts');
   else if (/^kukppong-batch-20261122\/(?:index\.html)?$/.test(path)) query.set('page', ({'#sc':'scripts','#ev':'evidence'})[location.hash] || 'outlines');
   else if (/^kukppong-hanil-20261121\/(?:index\.html)?$/.test(path)) query.set('page','hanil');
@@ -22,6 +22,11 @@
   };
   const key=decodeURI(path).replace(/index\.html$/,'');
   if(moreRoutes[key])query.set('page',moreRoutes[key]);
+  if (key.endsWith('/thumbnail-copy/four.html')) {
+    query.set('page','four');
+    const t=new URLSearchParams(location.search).get('topic');
+    if (t && /^\d{2}$/.test(t))query.set('topic',t);
+  }
   if (window === window.top && query.size) { location.replace(hub.href); return; }
   // A link back to the full hub should replace the shell, never nest another shell.
   document.addEventListener('click', e => {

@@ -317,5 +317,21 @@
     "boundary_sheets": [],
     "note": "0–7.2초 나무 전경, 호수/안개 중경, 설산 원경이 초기부터 보인다. 마지막 표본까지 산 윤곽이 유지된다. 장소와 합성 방법은 미확인이다.",
     "timeline_csv": "opencv/TYl_HttY6pY/timeline-0.1s.csv"
+  },
+  "dXtcbJTJX_w": {
+    "sampled_bins": 379,
+    "auto_cuts": 12,
+    "hard_cuts": null,
+    "watch_count": 8,
+    "watch_sheets": [
+      "grids/dXtcbJTJX_w/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/dXtcbJTJX_w/boundaries-01.jpg",
+      "grids/dXtcbJTJX_w/boundaries-02.jpg"
+    ],
+    "timeline_csv": "opencv/dXtcbJTJX_w/timeline-0.1s.csv",
+    "metricLabel": "프레임 밝기·전 구간 영상 변화량 CSV",
+    "note": "00:00부터 제목과 비교 라벨을 고정하고, 상단 파란 러프 스케치와 하단 완성 애니메이션을 같은 동작으로 비교한다. 00:05~00:10 표정·몸짓, 00:14 앉은 인물, 00:19 통화 아이콘, 00:24 통화 상대, 00:33 감정 문구로 전개한다. 채색·배경이 다른 두 버전을 동시에 보여 주는 구성이 핵심. 자동 변화 지점은 하드컷 확정이 아니며, 음성·효과음은 미검수."
   }
 }

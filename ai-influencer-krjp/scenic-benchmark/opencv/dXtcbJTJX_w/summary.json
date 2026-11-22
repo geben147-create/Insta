@@ -1,0 +1,9 @@
+{
+  "duration_s": 37.871,
+  "decoded_frames": 1135,
+  "fps": 29.97002997002997,
+  "sampled_bins": 379,
+  "auto_candidates": 12,
+  "hard_cuts": null,
+  "method": "160x284 RGB-to-gray absolute difference at approximately 0.1 seconds, local peaks MAD >= 14"
+}

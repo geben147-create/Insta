@@ -45,7 +45,7 @@
 #thumbnail-font-lab pre{white-space:pre-wrap;overflow-wrap:anywhere}
 @media(max-width:550px){#thumbnail-font-lab .font-lab-layout{grid-template-columns:minmax(0,1fr)}#thumbnail-font-lab .font-lab-choices{display:flex;flex-wrap:wrap}#thumbnail-font-lab .font-lab-fields{grid-template-columns:minmax(0,1fr) auto}#thumbnail-font-lab .font-lab-fields label:nth-child(n+3){grid-column:1/-1}}
 </style>
-<script>
+<script src="../../broadcast-font-subtitle-master-20261121/typography-refs-20261122/font-choices.js"></script><script>
 {
   const root = document.getElementById("thumbnail-font-lab");
   const field = key => root.querySelector('[data-field="' + key + '"]');
@@ -68,23 +68,11 @@
   const fontSource = id => "https://noonnu.cc/font_page/" + id;
   function makeChoices() {
     const key = field("line").value;
-    part("choices").replaceChildren(...fonts[key].map(([name], i) => {
-      const node = document.createElement("button");
-      node.type = "button";
-      node.className = "btn" + (i === settings[key].font ? " btn-primary" : "");
-      node.setAttribute("aria-pressed", String(i === settings[key].font));
-      node.textContent = name;
-      node.onclick = () => {
-        settings[key].font = i;
-        part("choices").querySelectorAll("button").forEach((button, index) => {
-          button.classList.toggle("btn-primary", index === i);
-          button.setAttribute("aria-pressed", String(index === i));
-        });
-        redraw();
-        save();
-      };
-      return node;
-    }));
+    renderFontChoices(part("choices"), fonts[key].map(([name]) => name), settings[key].font, i => {
+      settings[key].font = i;
+      redraw();
+      save();
+    });
   }
   function syncControls() {
     const key = field("line").value;

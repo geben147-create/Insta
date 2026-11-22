@@ -1,0 +1,26 @@
+@font-face{font-family:"ref-394";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff");font-display:swap}
+@font-face{font-family:"ref-740";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff");font-display:swap}
+@font-face{font-family:"ref-363";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff");font-display:swap}
+@font-face{font-family:"ref-330";src:url("https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff");font-display:swap}
+@font-face{font-family:"ref-458";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff");font-display:swap}
+@font-face{font-family:"ref-364";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Black00.woff");font-display:swap}
+@font-face{font-family:"ref-366";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff");font-display:swap}
+@font-face{font-family:"ref-950";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2");font-display:swap}
+@font-face{font-family:"ref-374";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSArirangPPURI-RegularA1.woff");font-display:swap}
+@font-face{font-family:"ref-68";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff");font-display:swap}
+@font-face{font-family:"ref-Anton";src:url("https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm3Kz-Co.ttf");font-display:swap}
+@font-face{font-family:"ref-Bangers";src:url("https://fonts.gstatic.com/s/bangers/v25/FeVQS0BTqb0h60ACH55Q3Q.ttf");font-display:swap}
+@font-face{font-family:"ref-Bebas+Neue";src:url("https://fonts.gstatic.com/s/bebasneue/v16/JTUSjIg69CK48gW7PXoo9Wlhzg.ttf");font-display:swap}
+@font-face{font-family:"ref-106";src:url("https://fonts.gstatic.com/s/blackhansans/v24/ea8Aad44WunzF9a-dL6toA8r8kqSK3A.ttf");font-display:swap}
+@font-face{font-family:"ref-Nanum+Brush+Script";src:url("https://fonts.gstatic.com/s/nanumbrushscript/v26/wXK2E2wfpokopxzthSqPbcR5_gVaxazCiapv.ttf");font-display:swap}
+#ty22 .ty22-item[hidden]{display:none}
+#ty22 .ty22-item>div{min-width:0}
+#ty22 .ty22-jump a[aria-current]{background:#204d91;color:white}
+#ty22 .choices,#ty22 .controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(110px,100%),1fr));gap:6px;margin:10px 0}
+#ty22 .choices button{background:#edf3fb;color:#17345b;overflow:hidden}
+#ty22 .choices button[aria-pressed=true]{box-shadow:inset 0 0 0 2px #175ac6}
+#ty22 .choices span{display:block;font-size:18px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+#ty22 .controls label{display:grid;align-content:start;font-size:12px}
+#ty22 input:not([type=checkbox]){width:100%;min-width:0}
+#ty22 .word{grid-column:1/-1}
+#ty22 .live{display:block;overflow-wrap:anywhere;line-height:1.25;padding:12px 4px;paint-order:stroke fill;min-height:1.5em}

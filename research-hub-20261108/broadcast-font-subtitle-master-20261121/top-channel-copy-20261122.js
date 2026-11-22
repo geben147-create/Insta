@@ -208,7 +208,9 @@
     preview.appendChild(area);
     root.appendChild(preview);
     root.appendChild(make('p', 'tc-warning', '※ 제목 끝의 …는 원본 자료에서도 잘린 부분입니다. K스토리라인 5위 썸네일은 판독 불가로 기록되어 있습니다. 내용의 사실관계는 별도 검증이 필요합니다.'));
-    document.body.prepend(root);
+    const designs = document.getElementById("ty22");
+    if (designs) designs.after(root);
+    else document.body.prepend(root);
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', start, {once:true});

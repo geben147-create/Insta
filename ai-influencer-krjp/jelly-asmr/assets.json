@@ -724,6 +724,34 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "한 번의 명확한 접촉으로 질감과 촉각음을 드러내는 구조 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "25",
+      "file": "25-거품비누구름.png",
+      "local_relative_path": "queue-60/25-거품비누구름.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "893725c3b98df761145376b387f94e298c0eb016031a42502335ff37f925b194",
+      "trip_hotel_id": "58427135",
+      "facility": "아바니+ 카오락 리조트 워터파크",
+      "composition": "얕은 물놀이장 옆 마른 발판에 한쪽 무릎을 대고, 낮은 사선에서 손바닥과 그릇을 담은 구도",
+      "facility_source_url": "https://www.trip.com/hotels/takua-pa-hotel-detail-58427135/avani-plus-khao-lak-resort/",
+      "trip_public_url": "https://www.trip.com/hotels/takua-pa-hotel-detail-58427135/avani-plus-khao-lak-resort/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0584a12000sp3rcjwF146_R_600_360_R5.webp",
+      "facility_photo_sha256": "b7b90ed4090d517fc65bc8bc6711963291e15feb94ae5708d71ee24c1d2b3c2b",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/25-soap-cloud.md",
+      "flow_prompt_sha256": "84bd462e0aa26dec02b8155c206920432734c1c705cd33d2120def7abb30963a",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000012639"
+      ],
+      "product_reference_use": "아이깨끗해 거품형 핸드워시의 거품 질감 참고. 거대한 비누 구름은 별도 비식용 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "한 번의 손동작에서 재질 변화를 보여주고 짧은 소리를 붙이는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

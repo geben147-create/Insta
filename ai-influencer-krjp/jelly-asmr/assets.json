@@ -499,6 +499,34 @@
       "creative_reference_use": "손으로 드러내는 한 가지 재질 변화와 짧은 동작음을 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안",
       "flow_prompt_sha256": "1f34c891e37e42ef81ca310d10230ef7f16a20025d7b5f24788493c641365cc0"
+    },
+    {
+      "queue_id": "17",
+      "file": "17-립글로스컬러칩.png",
+      "local_relative_path": "queue-60/17-립글로스컬러칩.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "ad5e3121a2baf318d8219cc3bb7b22360cddc2fd4e0819e0e04b16ea18e96e93",
+      "trip_hotel_id": "1562773",
+      "facility": "주메이라 비치 호텔 두바이 워터파크",
+      "composition": "얕은 물가의 건조한 차양 테이블·낮은 사선과 파도형 호텔 타워",
+      "facility_source_url": "https://www.trip.com/hotels/dubai-hotel-detail-1562773/jumeirah-beach-hotel-dubai/",
+      "trip_public_url": "https://www.trip.com/hotels/dubai-hotel-detail-1562773/jumeirah-beach-hotel-dubai/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1mc6e12000uhl6b84CF9D_R_600_360_R5.webp",
+      "facility_photo_sha256": "23aedb9343db363ed935b836e8be9c5a8e65b29e94245e8d57b340369488ebc6",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/17-lip-gloss-color-chips.md",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000177984"
+      ],
+      "product_reference_use": "실제 참고 상품은 헤라 센슈얼 누드 글로스. 왕글로스와 컬러칩 팔레트는 별도의 비식용 연출 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "한 가지 손동작에 짧은 촉각음을 연결하는 연출만 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안",
+      "flow_prompt_sha256": "4732df5a8d9fcc3d5024f27d5224d2ea0c94712418590e1ea6fa0484931448a6"
     }
   ]
 }

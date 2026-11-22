@@ -1177,6 +1177,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "파열음과 부러진 단면의 공개를 첫 동작에 맞춤",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "43",
+      "file": "43-곶감버터샌드.png",
+      "local_relative_path": "queue-60/43-곶감버터샌드.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "49c41e8a3c3d4175a7abf3310f49f7785c6c6450d3c41e8c6d874caaae7321c3",
+      "trip_hotel_id": "2197291",
+      "facility": "파라다이스 리조트 골드코스트 워터파크",
+      "composition": "차양 아래 낮은 테이블 끝 사선에서 곶감 테두리와 도심 워터파크를 함께 담음",
+      "facility_source_url": "https://www.trip.com/hotels/benowa-hotel-detail-2197291/paradise-resort-gold-coast/",
+      "trip_public_url": "https://www.trip.com/hotels/benowa-hotel-detail-2197291/paradise-resort-gold-coast/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1mc2712000eyp1ihm7F52_R_600_360_R5.webp",
+      "facility_photo_sha256": "877463b1973c45c558cbb7ade22262287abeb0db651452c9ecbb86fd0d7c382c",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/43-persimmon-butter-sandwich.md",
+      "flow_prompt_sha256": "dad4b68d9b089f86384344067768a2c9b6b985da317d5ed273a27b2fb59462d8",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "크기 대비, 첫 손동작의 촉각음과 단면 공개를 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

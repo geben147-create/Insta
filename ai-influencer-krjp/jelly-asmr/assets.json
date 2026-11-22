@@ -2208,6 +2208,33 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=0WoU6VSQQLk",
       "creative_reference_use": "한 번의 손동작 직후 표면의 점자국과 결을 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "84",
+      "file": "84-파우더브러시부채.png",
+      "local_relative_path": "queue-60/84-파우더브러시부채.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "97e0bd1a645a910f1cb830ae99c99eb1e48ac4ff9f18b73003d7fa5acf8a0b4a",
+      "trip_hotel_id": "7186528",
+      "facility": "호텔 리브보 라고 타우리토 워터파크",
+      "composition": "슬라이드 맞은편 마른 수변에서 낮게 올려 보며 브러시와 바위산 및 수면 반사를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/taurito-hotel-detail-7186528/hotel-livvo-lago-taurito-aquapark/",
+      "trip_public_url": "https://www.trip.com/hotels/taurito-hotel-detail-7186528/hotel-livvo-lago-taurito-aquapark/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0224212000dkentjv53CA_R_600_360_R5.webp",
+      "facility_photo_sha256": "edb9e662773254be221a2e7ed528983237ec368b5d17d0716b9b343bba7877d2",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/84-powder-fan-brush.md",
+      "flow_prompt_sha256": "ee1c94fcc841b5a557be2ed43b0b4719a64754261214f5fcb4a2f76f53a5269d",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000207921"
+      ],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "첫 손동작과 짧은 촉각음을 맞추고 브러시 모 재질을 드러냄",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

@@ -2027,6 +2027,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "대형 소품의 첫 손동작에 짧은 촉각음과 단면 공개를 맞춤",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "77",
+      "file": "77-코코넛오리코팅볼.png",
+      "local_relative_path": "queue-60/77-코코넛오리코팅볼.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "1236ce9fc910b3c22af2c4b8c63423c66275d2455dc91bb77041030e35fd735f",
+      "trip_hotel_id": "5297167",
+      "facility": "롱 비치 리조트 알라니아 해변 워터파크",
+      "composition": "마른 전망 난간 안쪽 가슴 높이 오른쪽 사선에서 코코넛 오리와 야간 물놀이 조명을 담음",
+      "facility_source_url": "https://us.trip.com/hotels/turkler-hotel-detail-5297167/long-beach-resort-spa-deluxe-ultra-all-inclusive/",
+      "trip_public_url": "https://us.trip.com/hotels/turkler-hotel-detail-5297167/long-beach-resort-spa-deluxe-ultra-all-inclusive/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0224c12000trws9b13562_R_600_360_R5.webp",
+      "facility_photo_sha256": "c92a963cd8c811ee91fd818e45382b6086270c50c5927cdb1110bb2cae5c5962",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/77-coconut-duck-shell.md",
+      "flow_prompt_sha256": "1ad3ab447e518c88fd164ba401c2c761dafea71e8acc35ccc3104992f438a1d7",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "첫 손동작이 만드는 짧은 파열음과 속 재료 공개를 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

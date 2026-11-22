@@ -527,6 +527,34 @@
       "creative_reference_use": "한 가지 손동작에 짧은 촉각음을 연결하는 연출만 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안",
       "flow_prompt_sha256": "4732df5a8d9fcc3d5024f27d5224d2ea0c94712418590e1ea6fa0484931448a6"
+    },
+    {
+      "queue_id": "18",
+      "file": "18-아이섀도그라데이션.png",
+      "local_relative_path": "queue-60/18-아이섀도그라데이션.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "63dae095bcbf6ddd2dced42ba509ae34f22295ded1a40e35d3e90f31169c59a0",
+      "trip_hotel_id": "5479786",
+      "facility": "더 랜드 오브 레전드 킹덤 호텔 워터파크",
+      "composition": "건조한 테라스에서 워터파크를 내려다보는 높은 각도",
+      "facility_source_url": "https://www.trip.com/hotels/belek-hotel-detail-5479786/the-land-of-legends-kingdom-hotel/",
+      "trip_public_url": "https://www.trip.com/hotels/belek-hotel-detail-5479786/the-land-of-legends-kingdom-hotel/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0221i12000ae77x5mB1A5_R_600_360_R5.webp",
+      "facility_photo_sha256": "2e7cc51ea46d25ac57e60c6a88c79bc03b26c49aae1316634ee875839a1c8b10",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/18-eyeshadow-gradient.md",
+      "flow_prompt_sha256": "aa58b39ea5c41341e8029e74970c9b5ade4029fdc1ae1b2d80ceb088649054ca",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000150361"
+      ],
+      "product_reference_use": "홀리카홀리카 마이페이브 무드 아이 팔레트 참고. 대형 팔레트와 브러시는 별도의 비식용 연출 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "한 가지 손동작으로 질감 변화를 드러내고 짧은 소리를 붙이는 구조 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

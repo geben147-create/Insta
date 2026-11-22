@@ -2,6 +2,11 @@
 
 세션별 분석 결과를 폴더 하나씩 올립니다. 아래 링크는 웹페이지로 바로 열립니다(GitHub Pages).
 
+
+## 국뽕 리서치 통합 바로가기
+
+[통합 리서치 허브](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/) · [제목·썸네일 4안](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=four) · [기존 문구 240쌍](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=thumbnail) · [아웃라인 30개](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=outlines) · [2배속 MP3 30편](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=tts) · [한일 비교 대본](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=hanil) · [증거 은행](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=evidence) · [프롬프트 ①](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=p1) · [프롬프트 ②](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=p2) · [프롬프트 ③](https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=p3)
+
 | 폴더 | 내용 | 웹으로 보기 |
 |---|---|---|
 | [큐티냥갑옷_동물영상분석](./%ED%81%90%ED%8B%B0%EB%83%A5%EA%B0%91%EC%98%B7_%EB%8F%99%EB%AC%BC%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/) | 큐티냥 갑옷 기사·드래곤 + 햄스터 아이라인 등 릴스 10편 컷별 완전 분해 | [목차](https://geben147-create.github.io/Insta/%ED%81%90%ED%8B%B0%EB%83%A5%EA%B0%91%EC%98%B7_%EB%8F%99%EB%AC%BC%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/index.html) · [한 페이지 전체](https://geben147-create.github.io/Insta/%ED%81%90%ED%8B%B0%EB%83%A5%EA%B0%91%EC%98%B7_%EB%8F%99%EB%AC%BC%EC%98%81%EC%83%81%EB%B6%84%EC%84%9D/all.html) |

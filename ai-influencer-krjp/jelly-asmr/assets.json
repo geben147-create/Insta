@@ -827,6 +827,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "작은 조각을 떼며 단면을 공개하고 짧은 촉각음을 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "29",
+      "file": "29-젤리버튼별자리.png",
+      "local_relative_path": "queue-60/29-젤리버튼별자리.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "50bb5fb9d82d5cbb1a48b2f5edd64d0ed1f3a3cab04ef7db791f69e0ebff5518",
+      "trip_hotel_id": "745289",
+      "facility": "부다페스트 아쿠아월드 리조트 워터파크",
+      "composition": "손끝 가까운 사선에서 별자리 접시와 은빛 돔을 함께 잡는 마른 전망 테이블 구도",
+      "facility_source_url": "https://www.trip.com/hotels/budapest-hotel-detail-745289/aquaworld-resort-budapest/",
+      "trip_public_url": "https://www.trip.com/hotels/budapest-hotel-detail-745289/aquaworld-resort-budapest/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0226412000av63ed215CA_R_600_360_R5.webp",
+      "facility_photo_sha256": "6b77fab4a441dcfa50c7b69438f16529e9244045955b7264bc66a6f22d625e10",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/29-jelly-button-constellation.md",
+      "flow_prompt_sha256": "eb28ed9b49c6aaffa4ae84fbeb988276237fcf182e6361a115a7f48f0d2117a5",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "한 번의 손동작을 선명한 촉각음과 연결해 표면 변화를 강조",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

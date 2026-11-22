@@ -877,6 +877,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "짧은 촉각음을 첫 질감 공개에 맞춘 구성을 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "31",
+      "file": "31-약과와플탑.png",
+      "local_relative_path": "queue-60/31-약과와플탑.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "db614311ae67981a61018defbd890eeb3947236bf0669dad30c5bc7fd7991964",
+      "trip_hotel_id": "7049932",
+      "facility": "올랜도 더 그로브 리조트 워터파크",
+      "composition": "마른 데크 테이블 아래쪽 사선에서 와플 층과 약과를 쌓는 손을 올려다보는 구도",
+      "facility_source_url": "https://www.trip.com/hotels/winter-garden-hotel-detail-7049932/the-grove-resort-orlando/",
+      "trip_public_url": "https://www.trip.com/hotels/winter-garden-hotel-detail-7049932/the-grove-resort-orlando/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0220112000jrbnwxb9EB5_R_600_360_R5.webp",
+      "facility_photo_sha256": "c2aa40b2f3f348e0b3b2e07f41e753084b2701cdd832e773a59b3e24d0de8e2d",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/31-yakgwa-waffle-tower.md",
+      "flow_prompt_sha256": "394c1bf98fd00579a69526b306a1b4a5896e13585878ca5ba63c34582f5b311c",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "질감 변화에 짧은 촉각음을 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

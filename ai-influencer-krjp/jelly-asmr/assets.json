@@ -2102,6 +2102,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품의 첫 손동작과 짧은 촉각음을 맞춤",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "80",
+      "file": "80-오곡팝라이스북극곰.png",
+      "local_relative_path": "queue-60/80-오곡팝라이스북극곰.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "4e4e02efe31ab982196bb9496643a323920ac66a7d9d44d2663a202dce38a89c",
+      "trip_hotel_id": "6079192",
+      "facility": "호시노 리조트 리조나레 야쓰가타케 실내 키즈풀",
+      "composition": "실내 키즈풀 마른 관람 턱의 오른쪽 사선에서 곰 귀와 연꽃 벽화를 함께 담음",
+      "facility_source_url": "https://www.trip.com/hotels/hokuto-hotel-detail-6079192/hoshino-resorts-risonare-yatsugatake/",
+      "trip_public_url": "https://www.trip.com/hotels/hokuto-hotel-detail-6079192/hoshino-resorts-risonare-yatsugatake/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1mc5p12000teepi1z27AA_R_600_360_R5.webp",
+      "facility_photo_sha256": "75b3779033ee843371b3bfdbe7ef1739036e9188922ebed29ae913c64d3bbdf1",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/80-five-grain-puff-polar-bear.md",
+      "flow_prompt_sha256": "474c2c70bdaa9694bc613e0889bc5e9ffd8044ecad56e15a8802ae78a0b927f2",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품의 첫 손동작과 짧은 파열음의 타이밍을 맞춤",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

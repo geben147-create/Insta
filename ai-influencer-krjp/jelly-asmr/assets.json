@@ -272,6 +272,28 @@
       "flow_video_status": "pending_connection",
       "creative_reference_url": "https://www.youtube.com/watch?v=2t1I7H2UYT0",
       "flow_prompt_sha256": "1e826ccc64712f0e2668fd96495b1dbeee12cb8c029899474541cc13a555f550"
+    },
+    {
+      "queue_id": "08",
+      "file": "08-파스타축구골대.png",
+      "local_relative_path": "queue-60/08-파스타축구골대.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "adcae5ca15d5dd4624f3b30d822b4ed6d8d20eadcc8cc5063f66be2ee3b83eb8",
+      "trip_hotel_id": "998318",
+      "facility": "선윙 카말라 비치 야외 수영장과 어린이 물놀이 시설",
+      "composition": "건조한 풀사이드 테이블·비스듬한 낮은 시점",
+      "facility_source_url": "https://www.trip.com/hotels/phuket-hotel-detail-998318/sunwing-kamala-beach/",
+      "trip_public_url": "https://www.trip.com/hotels/phuket-hotel-detail-998318/sunwing-kamala-beach/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/02042120009g7o3j88220_R_600_360_R5.webp",
+      "facility_photo_sha256": "bc11ac2310870915f300512b8dba3a25f17aa3f219a54616c8e00cf2c7ba4998",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/08-pasta-goal.md",
+      "flow_video_status": "pending_connection",
+      "creative_reference_url": "https://www.youtube.com/watch?v=Itpl5Q87-4E",
+      "flow_prompt_sha256": "58fd7ca113747a1bbf86fa0c7ba935d2d9003c264e158d0b4c1bdb35c3253a30"
     }
   ]
 }

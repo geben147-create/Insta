@@ -1,0 +1,988 @@
+{
+ "no": 68,
+ "theme_id": "hanbok",
+ "title": "“일본인 동료 누구도 기모노를 못 입혀 줬다” 같은 전통 의상인데 외국인들이 한복을 입고 궁을 더 오래 걷는 이유",
+ "one_line": "기모노와 한복을 둘 다 입어 본 외국인들의 후기와 일본 쪽 통계를 같은 저울 다섯 개(입는 시간·값·걸음·입을 줄 아는 사람·궁의 문)에 올려, 한복이 ‘입는 문턱이 낮은 전통’이라서 외국인이 입고 궁을 걷는다는 것을 판정한다.",
+ "main_dev": "D04",
+ "sub_dev": "D05",
+ "dev_reason": "자료의 중심이 ‘둘 다 입어 본’ 싱가포르·필리핀·영어권 블로거의 직접 비교와 일본 기모노 대여점·조사 수치라서, 입는 시간·값·걸음·입혀 줄 사람·궁 입장이라는 같은 기준으로 하나씩 판정하는 D04가 뼈대가 되고, 궁 앞에서 나온 필리핀·프랑스·홍콩·중국 여행자와 영국·미국·싱가포르 언론의 반응을 차례로 잇는 대목은 반응 모자이크(D05)로 받친다.",
+ "central_question": "아름답기로는 기모노도 뒤지지 않는데, 왜 외국인들은 한복을 입고 궁을 더 오래 걸을까?",
+ "answer_at_sec": 1290,
+ "hook": {
+  "declaration_ko": "입고 걷는 전통만큼은 한국이 일본보다 한 수 위입니다. 기모노는 40여 년 새 시장이 8분의 1로 줄었는데, 한복은 몇 분이면 입고 궁 문을 지나거든요.",
+  "jp_compare": {
+   "basis": "stat",
+   "line_ko": "일본 영자지 재팬타임스 매거진에 따르면 기모노 소매 시장은 1981년 약 1조 8,000억 엔에서 2023년 2,240억 엔으로 줄어 정점의 8분의 1~9분의 1이 됐다. 일본 관광 매체가 모은 외국인 후기에는 ‘일본인 동료 누구도 기모노를 입혀 주지 못했다’는 독일인의 말이 실렸고, 기모노와 한복을 둘 다 입어 본 영어권 블로거는 한복이 약 10분이면 입히고 몇 시간을 입어도 편하다고 적었다.",
+   "refs": [
+    {
+     "url": "https://sustainable.japantimes.com/magazine/vol40/40-02",
+     "publisher": "The Japan Times 「Sustainable Japan」 매거진 · Taeko Terao(번역 Tony Gonzalez)",
+     "date": "2024-09-27",
+     "orig": "According to the Yano Research Institute publication Kimono Industry 2024, retail sales of kimonos have been declining since their peak of about ¥1.8 trillion ($12.5 billion) in 1981, dropping to ¥224 billion in 2023. So over about 40 years, the kimono market has shrunk to roughly one-eighth or one-ninth of its peak size",
+     "ko": "야노경제연구소의 『기모노 산업 2024』에 따르면 기모노 소매 판매는 1981년 약 1조 8,000억 엔으로 정점을 찍은 뒤 줄곧 감소해 2023년 2,240억 엔까지 떨어졌다. 약 40년 만에 시장이 정점의 8분의 1~9분의 1로 쪼그라든 것이다.",
+     "verified": "fulltext",
+     "role": "규모"
+    },
+    {
+     "url": "https://livejapan.com/en/article-a0005144",
+     "publisher": "LIVE JAPAN(일본 관광 안내 매체) · Ran Tanaka 「13 Quirky Kimono Surprises Foreigners Had in Japan」",
+     "date": "2023-07 갱신",
+     "orig": "When I asked one of my Japanese colleagues to help me put on a kimono shortly after I arrived in Japan, none of them were able to do it. I had assumed that all Japanese people could dress themselves in a kimono!",
+     "ko": "일본에 온 지 얼마 안 됐을 때 일본인 동료에게 기모노 입는 걸 도와 달라고 했는데, 아무도 못 하더라고요. 일본 사람은 다 기모노를 혼자 입을 줄 아는 줄 알았어요!",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "일본에 사는 30대 독일인 여성(LIVE JAPAN 설문 응답)"
+    },
+    {
+     "url": "https://wonderburger.wordpress.com/2021/05/27/the-korean-hanbok-vs-the-japanese-kimono-the-pros-and-cons",
+     "publisher": "Wonderburger Abroad(영어권 여행 블로그) 「The Korean Hanbok vs. the Japanese Kimono the Pros and Cons」",
+     "date": "2021-05-27",
+     "orig": "The dress takes about 10 minutes to put on because it has on 3 pieces: a petite coat, the dress and a long sleeve top.",
+     "ko": "한복은 짧은 겉옷, 치마, 긴소매 저고리 세 벌로 되어 있어서 입는 데 10분 정도면 된다.",
+     "verified": "fulltext",
+     "role": "속도",
+     "who": "2019년 도쿄에서 기모노, 이후 서울에서 한복을 입어 본 영어권 블로거"
+    }
+   ]
+  },
+  "praise3": [
+   {
+    "uid": "Q18022",
+    "ko": "두 사람이 동시에 몇 분만 손봐 주면 완성돼요",
+    "who": "Bilibili 중국 학생 여행자 「(학생 친화판) 한국 여행 vlog2 | 50위안에 한복 체험」(좋아요 323)",
+    "sound": true
+   },
+   {
+    "url": "https://koreatimes.co.kr/www/culture/2019/08/317_255891.html",
+    "publisher": "The Korea Times 「Hip, trendy hanbok stirs authenticity debate」(현장 인터뷰)",
+    "date": "2018-09-20",
+    "orig": "Hanbok's color is nice, very elegant and comfortable to wear,",
+    "ko": "한복은 색이 곱고, 아주 우아하고, 입기에도 편해요.",
+    "verified": "fulltext",
+    "role": "비교",
+    "who": "남편·세 딸과 경복궁을 찾은 필리핀의 45세 어머니 제네베스"
+   },
+   {
+    "url": "https://projectgora.com/hanbok-rental-seoul",
+    "publisher": "Project Gora(필리핀 여행 블로그) 「Hanbok Rental in Seoul: Exploring Joseon Palaces in Hanbok」",
+    "date": "2023-12-17",
+    "orig": "Having tried both Japan’s kimono and South Korea’s hanbok, which do I prefer? While kimonos and hanboks both feature vibrant colors, intricate designs, and embody rich traditions, I personally prefer the hanbok.",
+    "ko": "일본 기모노와 한국 한복을 둘 다 입어 봤는데, 어느 쪽이 더 좋으냐고요? 둘 다 색이 화려하고 무늬가 정교하고 깊은 전통을 품고 있지만, 저는 한복이 더 좋아요.",
+    "verified": "fulltext",
+    "role": "비교",
+    "who": "친구들과 서울 궁을 돈 필리핀 여행 블로거"
+   }
+  ],
+  "twist_line_ko": "그런데 경복궁 한복 체험을 두고 ‘다 사진 찍으러 온 거고 볼 경치가 없다’며 비추한 중국어 게시물도 좋아요 941개를 받았습니다.",
+  "first_question_ko": "아름답기로는 기모노도 뒤지지 않는데, 왜 외국인들은 한복을 입고 궁을 더 오래 걸을까요?",
+  "hook5": [
+   "입고 걷는 전통만큼은 한국이 일본보다 한 수 위입니다.",
+   "일본에 간 독일인은 일본인 동료 누구도 기모노를 입혀 주지 못해 놀랐다고 했죠.",
+   "서울의 중국 학생은 직원 둘이 몇 분 손보면 한복이 완성된다며 신기해했고요.",
+   "기모노와 한복을 다 입어 본 필리핀 블로거의 결론은 짧았습니다. 저는 한복이 더 좋아요.",
+   "그런데 ‘볼 경치가 없다’는 비추도 있었는데, 왜 외국인들은 한복을 입고 궁을 더 오래 걸을까요?"
+  ]
+ },
+ "praise_montage": {
+  "thread": "한복을 입어 본 외국인들의 칭찬은 ‘예쁘다’에서 멈추지 않고 ‘편하다·쉽다·싸다·더 걷고 싶다’로 이어진다 — 입는 몸이 먼저 느낀 한 가지 결",
+  "refs": [
+   {
+    "url": "https://koreatimes.co.kr/www/culture/2019/08/317_255891.html",
+    "publisher": "The Korea Times(현장 인터뷰)",
+    "date": "2018-09-20",
+    "orig": "Walking in the palace in fancy dress in the nice autumn weather make me want to move to this country,",
+    "ko": "좋은 가을 날씨에 고운 옷을 입고 궁을 걸으니 이 나라로 이사 오고 싶어져요.",
+    "verified": "fulltext",
+    "role": "비교",
+    "who": "필리핀에서 온 10대 둘째 딸 스테파니(케이팝 팬)"
+   },
+   {
+    "url": "https://koreatimes.co.kr/www/culture/2019/08/317_255891.html",
+    "publisher": "The Korea Times(현장 인터뷰)",
+    "date": "2018-09-20",
+    "orig": "It's really beautiful and comfortable. I like its color and the embroidery on it,",
+    "ko": "정말 예쁘고 편해요. 색깔도, 수놓은 무늬도 마음에 들어요.",
+    "verified": "fulltext",
+    "role": "비교",
+    "who": "검은 개량 한복을 입은 프랑스의 31세 케이드라마 팬 랑드르"
+   },
+   {
+    "url": "https://nicesthefusspot.blogspot.com/2016/12/kimono-japan-vs-hanbok-korea-my.html",
+    "publisher": "Nices the Fusspot(싱가포르 블로그) 「KIMONO (JAPAN) VS HANBOK (KOREA)」",
+    "date": "2016-12-10",
+    "orig": "Korean Hanbok wearing is a little less complicated.",
+    "ko": "한국 한복은 입는 게 조금 덜 복잡해요.",
+    "verified": "fulltext",
+    "role": "비교",
+    "who": "2016년 교토에서 기모노, 전주에서 한복을 입어 본 싱가포르 블로거"
+   },
+   {
+    "url": "https://lemon8-app.com/@user297449394/7248886093440303617?region=sg",
+    "publisher": "Lemon8(싱가포르 지역 이용자 후기) 「Renting a Hanbok in Seoul Near Gyeongbokgung Palace」",
+    "date": "열람 2026-11",
+    "orig": "For instance, hanbok rentals tend to be more affordable and allow more comfortable footwear options than traditional Japanese slippers, which can be tricky to walk in.",
+    "ko": "예를 들어 한복 대여는 더 저렴한 편이고, 걷기 까다로운 일본 전통 신발보다 훨씬 편한 신발을 신을 수 있어요.",
+    "verified": "fulltext",
+    "role": "비교",
+    "who": "교토에서 기모노를 빌려 본 뒤 어머니와 경복궁에서 한복을 빌린 싱가포르 이용자"
+   },
+   {
+    "url": "https://wonderburger.wordpress.com/2021/05/27/the-korean-hanbok-vs-the-japanese-kimono-the-pros-and-cons",
+    "publisher": "Wonderburger Abroad(영어권 여행 블로그)",
+    "date": "2021-05-27",
+    "orig": "The design is loss fitting and is very comfortable to wear one for many hours.",
+    "ko": "한복은 몸에 붙지 않는 넉넉한 디자인이라 몇 시간을 입어도 아주 편해요.",
+    "verified": "fulltext",
+    "role": "속도",
+    "who": "도쿄에서 기모노, 서울에서 한복을 입어 본 영어권 블로거"
+   },
+   {
+    "uid": "Q18028",
+    "ko": "사진이 아주 예뻐요",
+    "who": "Bilibili 중국 학생 여행자 「50위안에 한복 체험」(좋아요 323)",
+    "sound": true
+   },
+   {
+    "uid": "Q08875",
+    "ko": "진짜 너무너무 예쁘다",
+    "who": "Xiaohongshu(rednote) 「경복궁 한복 한 번은 입어봐」(좋아요 1,500) 게시물의 중국어 댓글"
+   },
+   {
+    "uid": "G19587",
+    "ko": "한국의 문화 홍보는 확실히 잘한다 한복만 입으면 입장료가 무료다.",
+    "who": "Bilibili 중국어 크리에이터 「한국 도착하자마자 필터가 산산조각 났다」",
+    "sound": true
+   },
+   {
+    "uid": "Q19264",
+    "ko": "그래서 한복을 입은 사람이 많아요",
+    "who": "Bilibili 중국 대학생 「가성비 최고 국가? 대학생 첫 한국 여행 실제 체험」",
+    "sound": true
+   },
+   {
+    "url": "https://koreajoongangdaily.joins.com/2018/09/19/features/Has-hanbok-strayed-too-far-from-tradition-Some-worry-Koreas-iconic-dress-has-lost-its-way-in-recent-years/3053442.html",
+    "publisher": "Korea JoongAng Daily(현장 인터뷰)",
+    "date": "2018-09-19",
+    "orig": "“This kind of hanbok with fancy colors and modernized designs seems more suitable for modern people like us,” said a tourist from Hong Kong",
+    "ko": "화려한 색에 현대적으로 손본 이런 한복이 우리 같은 요즘 사람한테 더 잘 맞는 것 같아요.",
+    "verified": "fulltext",
+    "role": "비교",
+    "who": "여자 친구들과 삼청동을 걷던 홍콩 관광객"
+   },
+   {
+    "url": "https://cnn.com/2021/10/05/asia/korean-words-oed-intl-scli",
+    "publisher": "CNN 「‘Korean wave’ sweeps Oxford English Dictionary as new words are added」",
+    "date": "2021-10-05",
+    "orig": "“We are all riding the crest of the Korean wave, and this can be felt not only in film, music, or fashion, but also in our language,",
+    "ko": "우리 모두 한류의 물마루에 올라타 있습니다. 영화·음악·패션뿐 아니라 우리 언어에서도 그것이 느껴집니다.",
+    "verified": "fulltext",
+    "role": "규모",
+    "who": "옥스퍼드 영어사전(OED) 공식 성명"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "n": 1,
+   "name": "첫 번째 저울: 입는 데 걸리는 시간",
+   "dev": "D04",
+   "tag": "e",
+   "emotion": "의외·흥미",
+   "intensity": 7,
+   "target_sec": 150,
+   "question": "같은 대여점 체험이라면, 옷을 입는 데 얼마나 걸릴까?",
+   "answer": "교토 기모노 대여점은 착장만 약 15분, 접수부터 외출까지 여성 1~1.5시간을 안내한다. 한복은 세 벌짜리라 10분 정도, 중국 학생 말로는 직원 둘이 몇 분 손보면 끝난다.",
+   "next_question": "시간은 그렇다 치고, 값은 어떨까?",
+   "story_ko": "첫 번째 저울은 시간입니다. 교토 아라시야마의 기모노 대여점은 안내 페이지에 이렇게 적어 뒀어요. 여성 기모노는 입히는 데만 약 15분, 접수하고 옷 고르고 준비를 마치기까지는 1시간에서 1시간 반을 잡으라고요. 도쿄에서 기모노를, 서울에서 한복을 입어 본 영어권 블로거는 기모노의 단점으로 ‘입기가 어렵고, 겹이 많아서 입고 벗는 데 시간이 걸린다’를 꼽았습니다. 같은 블로거의 한복 칸은 달랐죠. 짧은 겉옷, 치마, 긴소매 저고리 세 벌이라 10분 정도면 된다는 겁니다. 서울에서 한복을 빌린 중국 학생의 영상도 같은 장면을 보여 줍니다. 직원에게 도와 달라고 해서 입는데, 두 사람이 동시에 몇 분만 손봐 주면 완성된다고요. 같은 저울에 올리니 차이가 보입니다. 한 시간 반짜리 준비와 몇 분짜리 준비였어요.",
+   "refs": [
+    {
+     "url": "https://waraku-kimono.jp/en/store-info/kyoto/arashiyama/what-kimono-rental",
+     "publisher": "교토 기모노 대여점 와라쿠(Kyoto Kimono Rental Waraku) 아라시야마점 안내",
+     "date": "2025-05",
+     "orig": "Dressing time is about 15 minutes for women’s kimono. Including check-in, choosing your kimono, and getting ready, expect to spend: ・About 1 to 1.5 hours for women",
+     "ko": "여성 기모노는 입히는 데 약 15분이 걸린다. 접수, 기모노 고르기, 준비까지 포함하면 여성은 약 1시간에서 1시간 반을 예상해야 한다.",
+     "verified": "fulltext",
+     "role": "속도"
+    },
+    {
+     "url": "https://wonderburger.wordpress.com/2021/05/27/the-korean-hanbok-vs-the-japanese-kimono-the-pros-and-cons",
+     "publisher": "Wonderburger Abroad(영어권 여행 블로그)",
+     "date": "2021-05-27",
+     "orig": "It is hard to get into a Kimono. They have many layers, so get dressed/ undressed takes some time.",
+     "ko": "기모노는 입기가 어렵다. 겹이 많아서 입고 벗는 데 시간이 좀 걸린다.",
+     "verified": "fulltext",
+     "role": "속도",
+     "who": "도쿄에서 기모노, 서울에서 한복을 입어 본 영어권 블로거"
+    },
+    {
+     "uid": "Q18020",
+     "ko": "직원에게 도와 달라고 해서 입어요",
+     "who": "Bilibili 중국 학생 여행자 「50위안에 한복 체험」(좋아요 323)",
+     "sound": true
+    },
+    {
+     "uid": "Q18022",
+     "ko": "두 사람이 동시에 몇 분만 손봐 주면 완성돼요",
+     "who": "같은 영상의 중국 학생 여행자",
+     "sound": true
+    }
+   ],
+   "screen_text": "기모노: 착장 15분 · 준비 1~1.5시간(교토 대여점) / 한복: 세 벌 10분 · “몇 분이면 완성”",
+   "visual_silent": "교토 기모노 대여점 안내 페이지 캡처, 오비를 여러 번 감는 기모노 착장 자료 화면, 한복 저고리·치마를 입혀 주는 대여점 장면(원음 4초), 15분·90분 대 10분 막대그래프, 스톱워치 그래픽",
+   "application": "R06 ¶6 ‘같은 항목 수치 비교 → 무려 40초 가량 차이가 난 겁니다로 차이를 다시 말함’ → 입는 시간이라는 한 항목에 교토 대여점의 1~1.5시간과 한복의 몇 분을 나란히 올리고, ‘한 시간 반짜리 준비와 몇 분짜리 준비’로 차이를 다시 말한다."
+  },
+  {
+   "n": 2,
+   "name": "두 번째 저울: 값",
+   "dev": "D04",
+   "tag": "e",
+   "emotion": "통쾌함",
+   "intensity": 6,
+   "target_sec": 145,
+   "question": "시간은 그렇다 치고, 빌리는 값은 어떨까?",
+   "answer": "둘 다 빌려 본 싱가포르 블로거는 기모노 69싱가포르달러, 한복 18싱가포르달러를 썼고, 다른 싱가포르 이용자도 기모노 70싱가포르달러에 예약 없이는 대부분 퇴짜였다고 적었다. 일본 여성 5,097명 조사에서도 44%가 비싼 값을 장벽으로 꼽았다.",
+   "next_question": "값까지 싸다면, 입고 걷기는 어떨까?",
+   "story_ko": "두 번째 저울은 값입니다. 2016년 봄 교토에서 기모노를, 가을 전주에서 한복을 빌린 싱가포르 블로거는 영수증을 나란히 공개했어요. 기모노는 의상에 제일 싼 머리 장식과 간단한 머리 손질을 더해 69싱가포르달러, 한복은 한 시간에 18싱가포르달러였습니다. 다른 싱가포르 이용자도 교토 기모노가 1인당 70싱가포르달러였고, 가게가 적은 데다 예약을 안 했더니 대부분 돌려보냈다고 적었죠. 서울의 중국 학생은 두 시간 빌려 주는 한복집에서 5,000원짜리 C 코스를 골랐다고 했고요. 일본 안에서도 값은 문턱이었습니다. 옥스퍼드대 박사논문이 인용한 일본 경제산업성 위원회 조사에서, 20~49세 여성 5,097명 가운데 44% 가까이가 비싼 가격을 기모노를 입지 못하는 이유로 꼽았거든요. 한 번 입어 보는 데 드는 값부터, 두 옷은 출발선이 달랐습니다.",
+   "refs": [
+    {
+     "url": "https://nicesthefusspot.blogspot.com/2016/12/kimono-japan-vs-hanbok-korea-my.html",
+     "publisher": "Nices the Fusspot(싱가포르 블로그)",
+     "date": "2016-12-10",
+     "orig": "Kimono -> Costume Package + (Cheapest) Hair accessory + (Simple) Hairstyle = SGD $69 Hanbok -> Costume Package = SGD $18 (I rented for an hour only)",
+     "ko": "기모노: 의상 패키지 + (제일 싼) 머리 장식 + (간단한) 머리 손질 = 69싱가포르달러. 한복: 의상 패키지 = 18싱가포르달러(한 시간만 빌림).",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "교토·전주에서 둘 다 빌려 본 싱가포르 블로거"
+    },
+    {
+     "url": "https://lemon8-app.com/@user297449394/7248886093440303617?region=sg",
+     "publisher": "Lemon8(싱가포르 지역 이용자 후기)",
+     "date": "열람 2026-11",
+     "orig": "As for the difference in price… a Kimono cost $70SGD per pax. There were also limited stores and majority turned us away as we didn’t make a reservation.",
+     "ko": "값 차이를 보면, 기모노는 1인당 70싱가포르달러였어요. 가게도 많지 않았고, 예약을 안 했더니 대부분이 우리를 돌려보냈어요.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "교토 기모노와 경복궁 한복을 비교한 싱가포르 이용자"
+    },
+    {
+     "uid": "Q18017",
+     "ko": "두 시간 빌려 주는 한복집이 있어요",
+     "who": "Bilibili 중국 학생 여행자 「50위안에 한복 체험」",
+     "sound": true
+    },
+    {
+     "uid": "Q18021",
+     "ko": "저는 5000원짜리 C 코스로 골랐어요",
+     "who": "같은 영상의 중국 학생 여행자",
+     "sound": true
+    },
+    {
+     "url": "https://ora.ox.ac.uk/objects/uuid%3A80d0a41f-fdf0-41a8-a7cd-16c3b1f07845/files/m12b1a7c89e9661078331e6d16cad3e33",
+     "publisher": "옥스퍼드대 인류학 박사논문 『Survival or Success? The Kimono Retail Industry in Contemporary Japan』(Julie Valk, 2018) · Oxford University Research Archive",
+     "date": "2018",
+     "orig": "Part of a survey conducted by the Committee for the Study on Japanese Dress affiliated with the Ministry for Economy, Trade and Industry (METI) found that, out of 5097 women aged between 20 and 49, nearly 44% cited the kimono’s high price as a barrier to wearing it.",
+     "ko": "일본 경제산업성 산하 일본 의복 연구 위원회의 조사에 따르면, 20~49세 여성 5,097명 가운데 44% 가까이가 기모노의 비싼 가격을 입는 데 장벽으로 꼽았다.",
+     "verified": "fulltext",
+     "role": "규모"
+    }
+   ],
+   "screen_text": "기모노 69싱가포르달러 vs 한복 18싱가포르달러 / 일본 여성 44% “비싸서 못 입는다”",
+   "visual_silent": "싱가포르 블로그의 비교 표 캡처, 교토 기모노 대여점 가격표 자료 화면, 경복궁역 앞 한복 대여점 골목 배경, 69 대 18 동전 그래픽, 44% 원그래프",
+   "application": "R06 ¶11 ‘1차 시험 → 그런데 이보다 더 극적인 반전이 다른 채널에서 등장, 정면으로 맞붙임’ → 입는 시간에 이어 값이라는 두 번째 시험으로 넘어가고, 같은 사람이 두 나라에서 낸 영수증을 정면으로 맞붙인다. R01 ¶3 ‘외국 평가 → 또 다른 매력이 있다고’ → 블로거 후기 뒤에 일본 국내 조사를 ‘일본 안에서도’로 덧붙인다."
+  },
+  {
+   "n": 3,
+   "name": "세 번째 저울: 입고 걷기",
+   "dev": "D04",
+   "tag": "g",
+   "emotion": "공감·뿌듯함",
+   "intensity": 8,
+   "target_sec": 155,
+   "question": "값까지 싸다면, 입고 걷기는 어떨까?",
+   "answer": "기모노를 입은 외국인들은 ‘코르셋처럼 불편해 앉기도 힘들었다’, ‘버선 때문에 물집이 잡혔다’, ‘전통 신발에 발이 얼고 절뚝거렸다’고 했고, 한복을 입은 외국인들은 ‘넉넉해서 몇 시간을 입어도 편하다’, ‘우아하고 편하다’고 했다.",
+   "next_question": "그런데 기모노는 일본 사람들에게도 쉬운 옷일까?",
+   "story_ko": "세 번째 저울은 걸음입니다. 일본 관광 매체가 외국인들에게 기모노를 입어 본 소감을 물었더니, 30대 캐나다인 여성은 코르셋을 입은 것처럼 불편해서 앉기도 힘들었고 저녁을 제대로 먹을 수 있을지 걱정됐다고 했어요. 20대 베트남인 남성은 버선 때문에 발이 아프고 마찰로 물집이 잡혔다고 했죠. 교토에서 기모노를 빌렸던 싱가포르 이용자는 전통 신발 때문에 발이 얼고 불편해서 절뚝거리며 걸어야 했다고 적었습니다. 한복 쪽 후기는 결이 달랐어요. 영어권 블로거는 한복이 몸에 붙지 않는 넉넉한 디자인이라 몇 시간을 입어도 아주 편하다고 했고, 경복궁에서 만난 필리핀 어머니는 색이 곱고 우아하고 입기에도 편하다고 했습니다. 삼청동을 걷던 홍콩 관광객들은 빌린 한복이 옛 전통 한복보다도 훨씬 걷기 편하다고 입을 모았고요. 여러분, 궁은 걸어야 보이는 곳입니다. 걷기 편한 옷이 궁과 어울렸던 거죠.",
+   "refs": [
+    {
+     "url": "https://livejapan.com/en/article-a0005144",
+     "publisher": "LIVE JAPAN(일본 관광 안내 매체) · Ran Tanaka",
+     "date": "2023-07 갱신",
+     "orig": "\"It was as uncomfortable as wearing a corset! It was challenging to even sit down after being dressed (laughs). I was concerned that I wouldn't be able to enjoy my dinner.\" (Canadian / 30s / Female)",
+     "ko": "코르셋을 입은 것만큼 불편했어요! 입고 나니 앉는 것조차 힘들었어요(웃음). 저녁을 제대로 즐길 수 없을까 봐 걱정했죠.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "30대 캐나다인 여성(LIVE JAPAN 설문 응답)"
+    },
+    {
+     "url": "https://livejapan.com/en/article-a0005144",
+     "publisher": "LIVE JAPAN(일본 관광 안내 매체) · Ran Tanaka",
+     "date": "2023-07 갱신",
+     "orig": "\"The tabi socks caused pain in my feet, and I ended up with blisters from the friction.\" (Vietnamese / 20s / Male)",
+     "ko": "버선(다비) 때문에 발이 아팠고, 결국 마찰로 물집이 잡혔어요.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "20대 베트남인 남성(LIVE JAPAN 설문 응답)"
+    },
+    {
+     "url": "https://lemon8-app.com/@user297449394/7248886093440303617?region=sg",
+     "publisher": "Lemon8(싱가포르 지역 이용자 후기)",
+     "date": "열람 2026-11",
+     "orig": "In Japan, we had to wear their traditional slippers which not only left my feet to freeze, but we had to hobble along as it was uncomfortable to walk in.",
+     "ko": "일본에서는 전통 신발을 신어야 했는데, 발이 얼어붙었을 뿐 아니라 걷기 불편해서 절뚝거리며 다녀야 했어요.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "교토 기모노와 경복궁 한복을 비교한 싱가포르 이용자"
+    },
+    {
+     "url": "https://koreajoongangdaily.joins.com/2018/09/19/features/Has-hanbok-strayed-too-far-from-tradition-Some-worry-Koreas-iconic-dress-has-lost-its-way-in-recent-years/3053442.html",
+     "publisher": "Korea JoongAng Daily(현장 인터뷰)",
+     "date": "2018-09-19",
+     "orig": "Holding hands and walking down the street in Samcheong-dong, central Seoul, they all agreed that the hanbok they rented is much more convenient to walk around in than the actual traditional dress worn long ago.",
+     "ko": "서울 삼청동 거리를 손잡고 걷던 그들은, 빌린 한복이 옛날에 입던 실제 전통 옷보다 훨씬 걸어 다니기 편하다고 입을 모았다.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "여자 친구들과 온 홍콩 관광객 일행"
+    }
+   ],
+   "screen_text": "기모노: “코르셋 같다” · “물집” · “발이 얼고 절뚝” / 한복: “몇 시간 입어도 편하다”",
+   "visual_silent": "LIVE JAPAN 설문 응답 문장 카드 3장, 게타·다비 클로즈업 자료 화면, 경복궁 돌길을 걷는 한복 차림 관광객 배경, 넉넉한 한복 치마가 흔들리는 슬로 화면, 삼청동 골목 배경",
+   "application": "R01 ¶6 ‘비교 예고 문장 → 짧은 외국인 댓글을 연속으로’ → ‘한복 쪽 후기는 결이 달랐어요’라는 예고 한 줄 앞뒤로 기모노 후기 셋, 한복 후기 셋을 짧게 연달아 붙인다. R06 ¶43 ‘결론 한 줄’ → ‘걷기 편한 옷이 궁과 어울렸던 거죠’로 판정을 한 줄로 정리한다."
+  },
+  {
+   "n": 4,
+   "name": "네 번째 저울: 입혀 줄 사람",
+   "dev": "D04",
+   "tag": "c",
+   "emotion": "충격·안타까움",
+   "intensity": 9,
+   "target_sec": 160,
+   "question": "그런데 기모노는 일본 사람들에게도 쉬운 옷일까?",
+   "answer": "아니다. 독일인이 부탁한 일본인 동료 누구도 기모노를 입혀 주지 못했고, 일본 여성 5,097명 조사에서 가장 큰 장벽은 ‘입는 법을 모른다’(59%)였다. 일본 관광지에서 기모노 차림은 대부분 빌려 입은 관광객이다.",
+   "next_question": "그럼 한복은 어떻게 다시 거리로, 궁으로 나왔을까?",
+   "story_ko": "여기서 판이 한 번 뒤집힙니다. 일본에 막 도착한 30대 독일인 여성은 일본인 동료에게 기모노 입는 걸 도와 달라고 했어요. 일본 사람이라면 다 혼자 입을 줄 알았으니까요. 그런데 아무도 못 했답니다. 40대 미국인 남성은 기모노 입기 교실 텔레비전 광고를 보고 그렇게 수요가 많다는 데 놀랐다고 했고요. 숫자도 같은 이야기를 합니다. 옥스퍼드대 박사논문이 인용한 일본 경제산업성 위원회 조사에서, 일본 여성 5,097명이 꼽은 가장 큰 장벽은 단연 ‘입는 법을 모른다’, 59%였어요. 논문은 전후 기모노가 일상에서 물러나 예복이 되면서 여성들이 혼자 입는 법을 잃었고, 결국 기모노 학원에서 배워야 했다고 적었습니다. 재팬타임스 매거진은 일본에 온 외국인들이 기모노 입은 일본인이 너무 적어 놀란다고 썼죠. 관광지에서 기모노를 입고 걷는 사람은 대개 빌려 입은 외국인이나 일본인 관광객이라고요. 전통 의상이, 배워야 입는 옷이 된 겁니다.",
+   "refs": [
+    {
+     "url": "https://livejapan.com/en/article-a0005144",
+     "publisher": "LIVE JAPAN(일본 관광 안내 매체) · Ran Tanaka",
+     "date": "2023-07 갱신",
+     "orig": "\"I saw a TV commercial for a kimono dressing class, and I was surprised that there was such a high demand for it. I didn't realize that many people struggled with dressing themselves in a kimono.\" (American / 40s / Male)",
+     "ko": "기모노 입기 교실 텔레비전 광고를 보고 그렇게 수요가 많다는 데 놀랐어요. 기모노를 혼자 입는 데 애먹는 사람이 그렇게 많은 줄 몰랐거든요.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "40대 미국인 남성(LIVE JAPAN 설문 응답)"
+    },
+    {
+     "url": "https://ora.ox.ac.uk/objects/uuid%3A80d0a41f-fdf0-41a8-a7cd-16c3b1f07845/files/m12b1a7c89e9661078331e6d16cad3e33",
+     "publisher": "옥스퍼드대 인류학 박사논문(Julie Valk, 2018) · Oxford University Research Archive",
+     "date": "2018",
+     "orig": "By far the greatest barrier was that they did not know how to wear a kimono (59%).",
+     "ko": "단연 가장 큰 장벽은 기모노를 입는 법을 모른다는 것(59%)이었다.",
+     "verified": "fulltext",
+     "role": "규모"
+    },
+    {
+     "url": "https://ora.ox.ac.uk/objects/uuid%3A80d0a41f-fdf0-41a8-a7cd-16c3b1f07845/files/m12b1a7c89e9661078331e6d16cad3e33",
+     "publisher": "옥스퍼드대 인류학 박사논문(Julie Valk, 2018) · Oxford University Research Archive",
+     "date": "2018",
+     "orig": "As women gradually lost the ability to put on the kimono themselves, they became forced to learn kimono dressing from kitsuke schools (Valk 2017).",
+     "ko": "여성들이 점차 기모노를 혼자 입는 능력을 잃으면서, 기모노 입는 법을 기쓰케(옷 입히기) 학원에서 배울 수밖에 없게 됐다.",
+     "verified": "fulltext",
+     "role": "속도"
+    },
+    {
+     "url": "https://sustainable.japantimes.com/magazine/vol40/40-02",
+     "publisher": "The Japan Times 「Sustainable Japan」 매거진 · Taeko Terao",
+     "date": "2024-09-27",
+     "orig": "Foreign visitors to Japan are often surprised by how few Japanese people wear kimonos. In tourist areas, those seen walking around in kimonos are often foreign or Japanese tourists wearing rented ones.",
+     "ko": "일본을 찾은 외국인들은 기모노를 입은 일본인이 너무 적어서 자주 놀란다. 관광지에서 기모노 차림으로 걷는 사람은 대개 빌려 입은 외국인이나 일본인 관광객이다.",
+     "verified": "fulltext",
+     "role": "비교"
+    }
+   ],
+   "screen_text": "일본 여성 5,097명 조사: 가장 큰 장벽 “입는 법을 모른다” 59% / “일본인 동료 누구도 못 입혀 줬다”",
+   "visual_silent": "LIVE JAPAN 독일인·미국인 응답 카드, 기모노 학원 수업 자료 화면, 59% 막대그래프, 재팬타임스 매거진 원문 캡처, 교토 거리의 대여 기모노 관광객 배경",
+   "application": "R02 ¶3 ‘~못할 것이라고 했습니다(예상) → 하지만 실제 결과’ → 독일인이 원문에서 직접 말한 예상(‘일본 사람은 다 혼자 입을 줄 알았다’) 뒤에 ‘아무도 못 했다’는 실제를 붙여 중반 반전을 만든다. R06 ¶24 ‘결과 먼저 → 그 전 상태로’ → 59%라는 결과를 먼저 말하고 ‘전후 일상에서 물러나 예복이 됐다’는 이전 과정을 뒤에 붙인다."
+  },
+  {
+   "n": 5,
+   "name": "다섯 번째 저울: 궁의 문",
+   "dev": "D05",
+   "tag": "g",
+   "emotion": "흐뭇함·자부심",
+   "intensity": 7,
+   "target_sec": 150,
+   "question": "그럼 한복은 어떻게 다시 거리로, 궁으로 나왔을까?",
+   "answer": "궁이 먼저 문을 열었다. 전통 한복이든 개량 한복이든 입으면 무료로 들어가고, 2015년 한 해에 한복 대여점이 열 배로 늘었으며, 중국 학생들은 ‘한국어를 몰라도 부담 없다’며 드라마 주인공처럼 놀았다.",
+   "next_question": "그렇다면 한복 체험은 흠잡을 데가 없을까?",
+   "story_ko": "다섯 번째 저울은 문입니다. 싱가포르 스트레이츠타임스의 서울 특파원은 팟캐스트에서 서울의 궁은 관광 일정에 빠지지 않는 곳이고, 전통 한복이든 개량 한복이든 입으면 무료로 들어간다며 이것이 정부가 한복 입기를 권하는 방식이라고 설명했어요. 첫 한국 여행을 온 중국 대학생은 궁 앞에서 여기가 한국의 고궁 같은 곳이라 한복 입은 사람이 많고, 서양인들도 한복을 입고 사진을 찍는다고 짚었죠. 영국 BBC는 2015년 한 해에 한복 대여점 수가 열 배로 치솟았다고 전했습니다. 문이 열리자 사람들이 들어갔습니다. 중국 학생 둘은 궁에 들어서자마자 비가 왔는데도 한국 드라마 필터를 켜기로 하고, 드라마 모드로 한참을 놀았다고 했어요. 한국어를 몰라도 부담 없다는 말도 덧붙였고요. 일본에서 전통 의상이 배워야 입는 옷이 되는 동안, 한국의 궁은 입고 들어오라고 손짓하고 있었던 셈입니다.",
+   "refs": [
+    {
+     "url": "https://spoken.md/episode/from-bts-to-jejus-sea-divers-south-koreas-cultural-revival-1000776141265",
+     "publisher": "The Straits Times 팟캐스트 「Asian Insider」 녹취록(spoken.md 게재) · 서울 특파원 Wendy Teo",
+     "date": "2026-07-09",
+     "orig": "So it's a custom to wear, to dress up in a traditional hanboks and then you go to the palace. And if you wear a traditional hanbok or a modern hanbok, you get free entry. So this is the way, the government's way of promoting hanbok wear.",
+     "ko": "그래서 전통 한복을 차려입고 궁에 가는 게 하나의 관습이 됐어요. 전통 한복이든 현대식 한복이든 입으면 무료로 들어가요. 이게 정부가 한복 입기를 장려하는 방식이죠.",
+     "verified": "snippet",
+     "role": "규모",
+     "who": "싱가포르 스트레이츠타임스 서울 특파원 웬디 테오"
+    },
+    {
+     "uid": "Q19263",
+     "ko": "여기가 한국의 고궁 같은 곳이에요",
+     "who": "Bilibili 중국 대학생 「가성비 최고 국가? 대학생 첫 한국 여행 실제 체험」",
+     "sound": true
+    },
+    {
+     "uid": "Q19265",
+     "ko": "많은 서양인도 한복을 입고 사진을 찍어요",
+     "who": "같은 영상의 중국 대학생",
+     "sound": true
+    },
+    {
+     "url": "https://www.bbc.co.uk/culture/article/20180321-korean-hanbok-the-comeback-of-a-600-year-old-garment",
+     "publisher": "BBC Culture 「Korean hanbok: The comeback of a 1600-year-old costume」 · Jason Lai",
+     "date": "2018-03-21",
+     "orig": "people like Miru Kwon are boosting the popularity of the traditional clothing, with the number of hanbok rental shops skyrocketing tenfold in 2015.",
+     "ko": "권미루 씨 같은 사람들이 이 전통 의상의 인기를 끌어올리고 있고, 2015년에는 한복 대여점 수가 열 배로 치솟았다.",
+     "verified": "fulltext",
+     "role": "규모"
+    },
+    {
+     "uid": "Q18032",
+     "ko": "한국 드라마 필터를 켜기로 했어요",
+     "who": "Bilibili 중국 학생 여행자 「50위안에 한복 체험」",
+     "sound": true
+    },
+    {
+     "uid": "Q18034",
+     "ko": "하지만 우리 둘은 한국 드라마 모드로 한참 놀았어요",
+     "who": "같은 영상의 중국 학생 여행자",
+     "sound": true
+    },
+    {
+     "uid": "Q18035",
+     "ko": "한국어를 몰라도 부담 없어요",
+     "who": "같은 영상의 중국 학생 여행자",
+     "sound": true
+    }
+   ],
+   "screen_text": "전통 한복도, 개량 한복도 → 궁 무료 입장 / 2015년 한복 대여점 10배(BBC)",
+   "visual_silent": "경복궁 매표소와 흥례문 앞 한복 관광객 배경, 스트레이츠타임스 팟캐스트 녹취 문장 카드, BBC 원문 캡처, 빗속 궁에서 노는 브이로그 장면(원음 4초), 대여점 간판이 늘어나는 지도 애니메이션",
+   "application": "R01 ¶3 ‘외국 언론 평가 → 또 다른 매력이 있다고 했는데 바로’ → 싱가포르 특파원 → 중국 대학생 → 영국 BBC → 중국 학생 원음 순으로 반응을 한 칸씩 잇는 모자이크(D05)로 짠다. R02 ¶2 ‘해외 네티즌 원음으로 평가 근거’ → ‘한국어를 몰라도 부담 없어요’ 원음을 판정의 근거로 붙인다."
+  },
+  {
+   "n": 6,
+   "name": "그늘: 볼 경치가 없다는 비추",
+   "dev": "D04",
+   "tag": "c",
+   "emotion": "뜨끔함",
+   "intensity": 4,
+   "target_sec": 140,
+   "question": "그렇다면 한복 체험은 흠잡을 데가 없을까?",
+   "answer": "아니다. ‘다 사진 찍으러 온 거고 볼 경치가 없다’는 비추(좋아요 941), 같은 중국인 사장에게 차별받았다는 비추, ‘너무 급하고 허둥지둥했다’는 후기, 대여점 손님 열에 여덟이 금박 퓨전 한복을 고른다는 현장 증언이 있다.",
+   "next_question": "그런데도 한복은 왜 계속 거리로 나왔을까, 누가 먼저 입고 나갔을까?",
+   "story_ko": "물론 이 저울에도 기우는 쪽만 있는 건 아닙니다. 한복 체험을 소소하게 비추한 중국어 게시물은 좋아요 941개를 받았어요. 다 사진 찍으러 온 거고, 사실 볼 경치가 없다는 겁니다. 경복궁 한복 대여점에서 같은 중국인 사장에게 차별 대우를 받았다는 비추 글도 있었죠. 한복을 즐겁게 빌린 중국 학생조차 인터넷에서 그 가게 평이 엇갈리더라고 했고, 직접 입어 보니 너무 급하고 허둥지둥했다고 털어놓았습니다. 상체가 있는 사람은 짧은 저고리를 절대 고르지 말라는 경고도 남겼고요. 옷 자체를 두고도 말이 많습니다. 경복궁 근처에서 10년 넘게 대여점을 한 주인은 손님 열에 여덟이 화려한 퓨전 한복을 고르고, 전통 한복을 일일이 입히려면 시간이 엄청나게 든다고 했어요. 철사 넣은 치마와 금박 장식을 두고 전통이 흐려진다는 비판이 나오는 이유죠. 입는 문턱이 낮다는 장점이, 가볍게 소비된다는 그늘도 함께 데려온 겁니다.",
+   "refs": [
+    {
+     "uid": "Q00233",
+     "ko": "다 사진 찍으러 온 거고, 사실 볼 경치가 없다",
+     "who": "Xiaohongshu(rednote) 煎饼狗子 「한복 체험 소소한 비추」(좋아요 941)"
+    },
+    {
+     "uid": "Q00234",
+     "ko": "같은 중국인인데 차별 대우",
+     "who": "Xiaohongshu(rednote) 可儿 「경복궁 한복 비추! 중국인 사장의 차별대우」(좋아요 220)"
+    },
+    {
+     "uid": "Q18042",
+     "ko": "인터넷에서 보니 이 가게는 평이 엇갈리더라고요",
+     "who": "Bilibili 중국 학생 여행자 「50위안에 한복 체험」",
+     "sound": true
+    },
+    {
+     "uid": "Q18027",
+     "ko": "너무 급하고 허둥지둥했어요",
+     "who": "같은 영상의 중국 학생 여행자",
+     "sound": true
+    },
+    {
+     "uid": "Q16974",
+     "ko": "《여러분 대신 입어봤어요》 상체 있는 분들은 절대 짧은 저고리 고르지 마세요",
+     "who": "Bilibili 중국 학생 여행자 「50위안에 한복 체험」",
+     "sound": true
+    },
+    {
+     "url": "https://koreatimes.co.kr/southkorea/society/20250909/hanbok-rental-boom-by-tourists-sparks-debate-over-preserving-tradition",
+     "publisher": "The Korea Times 「Hanbok rental boom by tourists sparks debate over preserving tradition」 · Lee Hae-rin",
+     "date": "2025-09-09",
+     "orig": "\"About eight in 10 visitors prefer the flashy fusion hanbok. Although most shops offer both traditional and fusion types, almost all visitors choose fusion style,\" she added. \"It would take a tremendous amount of time to dress each tourist in traditional attire.\"",
+     "ko": "손님 열에 여덟은 화려한 퓨전 한복을 원해요. 가게 대부분이 전통 한복과 퓨전 한복을 다 갖췄지만 거의 모두 퓨전을 고르죠. 관광객 한 명 한 명에게 전통 한복을 입히려면 시간이 엄청나게 걸려요.",
+     "verified": "snippet",
+     "role": "규모",
+     "who": "경복궁 근처에서 10년 넘게 대여점을 운영한 65세 정 모 씨"
+    }
+   ],
+   "screen_text": "“볼 경치가 없다”(좋아요 941) · “차별 대우” · “너무 급하고 허둥지둥” / 손님 열에 여덟은 퓨전 한복",
+   "visual_silent": "좋아요 941 비추 게시물 카드, 금박·철사 치마 퓨전 한복 클로즈업 자료 화면, 붐비는 근정전 앞 사진 촬영 인파 배경, ‘평이 엇갈림’ 자막 원음 3초, 전통 한복과 퓨전 한복 좌우 비교 그래픽",
+   "application": "R06 ¶15 ‘결과 확정 직후 삼성의 폴더블폰 역시 처음부터 완벽했던 것은 아닙니다로 인정’과 R05 ¶15 ‘단점 인정 → 상쇄’ → 앞 다섯 저울에서 한복이 앞선 직후, 비추 게시물·차별 후기·퓨전 논란을 원음 그대로 인정한다. R02 ¶4 ‘한계를 먼저 인정 → 그런데 지금’ → 상쇄는 다음 구간 첫 문장으로 넘긴다."
+  },
+  {
+   "n": 7,
+   "name": "거리로 먼저 나간 사람들, 그리고 사전",
+   "dev": "D05",
+   "tag": "g",
+   "emotion": "전율·자부심",
+   "intensity": 8,
+   "target_sec": 155,
+   "question": "그런데도 한복은 왜 계속 거리로 나왔을까, 누가 먼저 입고 나갔을까?",
+   "answer": "BBC는 한복의 귀환이 정부보다 먼저 거리 플래시몹·인스타그램 해시태그·해외에서 한복 입기로 나선 한국 젊은이들 덕분이라고 전했다. 2021년 옥스퍼드 영어사전은 ‘hanbok’을 표제어로 올렸고, 유네스코는 창덕궁을 주변 지형과 조화를 이룬 동아시아 궁궐 건축의 탁월한 사례로 등재했다.",
+   "next_question": "그럼 다섯 저울을 다 달아 보면, 판정은 어떻게 날까?",
+   "story_ko": "그런데 더 놀라운 사실이 있습니다. 한복을 거리로 다시 불러낸 건 궁의 공짜 문만이 아니었어요. 영국 BBC는 한복이 1,600년 된 옷의 귀환이라며, 그 일을 해낸 건 한 무리의 한국 젊은이들이라고 전했습니다. 거리 플래시몹으로, 인스타그램 해시태그로, 해외에 나가서도 한복을 입는 방식으로요. 그렇게 먼저 입고 나간 사람들이 있었고, 2021년 영국 옥스퍼드 영어사전은 ‘hanbok’을 표제어로 올렸습니다. 영국 가디언은 이 갱신에서 전통문화를 대표하는 단어로 한복과 한글을 꼽았죠. 궁도 따로 인정받았습니다. 유네스코는 창덕궁을 고르지 않은 지형을 살린 정원 속 궁궐로, 주변 경관과 조화를 이룬 동아시아 궁궐 건축의 탁월한 사례라고 적었어요. 경복궁에서 만난 프랑스 여성은 조선 시대에 푹 젖어 보고 싶어서 한복을 골랐다고 했습니다. 옷이 길을 열고, 궁이 무대가 된 거죠.",
+   "refs": [
+    {
+     "url": "https://www.bbc.co.uk/culture/article/20180321-korean-hanbok-the-comeback-of-a-600-year-old-garment",
+     "publisher": "BBC Culture 「Korean hanbok: The comeback of a 1600-year-old costume」 · Jason Lai",
+     "date": "2018-03-21",
+     "orig": "The hanbok is a 1600-year-old costume that’s making a comeback, thanks to a group of young Koreans. Through flash mobs in the street, Instagram hashtags and wearing hanboks abroad,",
+     "ko": "한복은 1,600년 된 옷인데, 한 무리의 한국 젊은이들 덕분에 다시 돌아오고 있다. 거리 플래시몹, 인스타그램 해시태그, 그리고 해외에서 한복 입기를 통해서다.",
+     "verified": "fulltext",
+     "role": "속도"
+    },
+    {
+     "url": "https://cnn.com/2021/10/05/asia/korean-words-oed-intl-scli",
+     "publisher": "CNN 「‘Korean wave’ sweeps Oxford English Dictionary as new words are added」",
+     "date": "2021-10-05",
+     "orig": "“Hanbok,” the traditional Korean costume worn by both men and women, “aegyo,” a type of cuteness or charm considered characteristically Korean, and “mukbang,” a video featuring a person eating large amounts of food and talking to an audience, were also included in September’s additions.",
+     "ko": "남녀 모두가 입는 한국 전통 의상 ‘한복’, 한국 특유의 귀여움이나 매력을 뜻하는 ‘애교’, 많은 음식을 먹으며 시청자와 이야기하는 영상 ‘먹방’도 9월 추가 목록에 들어갔다.",
+     "verified": "fulltext",
+     "role": "규모"
+    },
+    {
+     "url": "https://theguardian.com/world/2021/oct/05/k-beauty-hallyu-and-mukbang-ozens-of-korean-words-added-to-oxford-english-dictionary",
+     "publisher": "The Guardian 「K-beauty, hallyu and mukbang: dozens of Korean words added to Oxford English Dictionary」",
+     "date": "2021-10-05",
+     "orig": "Traditional culture is represented by hanbok – formal attire worn by both men and women – and Hangul, the Korean alphabet devised by King Sejong in 1443.",
+     "ko": "전통문화는 남녀 모두가 입는 예복 한복, 그리고 1443년 세종대왕이 만든 한국 문자 한글이 대표한다.",
+     "verified": "fulltext",
+     "role": "규모"
+    },
+    {
+     "url": "https://whc.unesco.org/en/list/816",
+     "publisher": "유네스코 세계유산센터 · 창덕궁 등재 설명(Changdeokgung Palace Complex)",
+     "date": "1997 등재 · 열람 2026-11",
+     "orig": "consisting of a number of official and residential buildings set in a garden that was cleverly adapted to the uneven topography of the 58-ha site. The result is an exceptional example of Far Eastern palace architecture and design, blending harmoniously with the surrounding landscape.",
+     "ko": "58헥타르의 고르지 않은 지형을 솜씨 있게 살린 정원 안에 여러 관청·생활 건물이 자리 잡았다. 그 결과는 주변 경관과 조화롭게 어우러진, 동아시아 궁궐 건축과 설계의 탁월한 사례다.",
+     "verified": "fulltext",
+     "role": "비교"
+    },
+    {
+     "url": "https://koreatimes.co.kr/www/culture/2019/08/317_255891.html",
+     "publisher": "The Korea Times(현장 인터뷰)",
+     "date": "2018-09-20",
+     "orig": "I chose to wear it on my visit to the Gyeongbok Palace because I wanted to be soaked in the Joseon era of old Korea.",
+     "ko": "경복궁에 오면서 한복을 고른 건, 옛 조선 시대에 푹 젖어 보고 싶었기 때문이에요.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "프랑스의 31세 케이드라마 팬 랑드르"
+    }
+   ],
+   "screen_text": "BBC: 한복의 귀환은 “한국 젊은이들 덕분” / 2021 옥스퍼드 영어사전 표제어 ‘hanbok’ / 유네스코: 창덕궁 “경관과 조화”",
+   "visual_silent": "거리 한복 플래시몹 자료 화면, 옥스퍼드 영어사전 ‘hanbok’ 표제어 캡처 그래픽, 가디언·CNN 기사 제목 캡처, 창덕궁 후원 부용지 배경, 유네스코 등재 문장 카드",
+   "application": "R01 ¶16 ‘그런데 더 놀라운 사실이 있습니다 → 예고 문장 바로 뒤에 더 큰 정보’ → 궁의 공짜 문보다 한 칸 큰 새 정보(젊은이들이 먼저 입고 나갔다 → 옥스퍼드 사전 표제어)로 후반 반전을 만든다. R02 ¶17 ‘마지막은 외국 인물의 인용으로’ → 구간 끝을 프랑스 여행자의 원문으로 닫는다."
+  },
+  {
+   "n": 8,
+   "name": "판정: 다섯 개의 저울",
+   "dev": "D04",
+   "tag": "e",
+   "emotion": "납득·뿌듯함",
+   "intensity": 6,
+   "target_sec": 150,
+   "question": "다섯 저울을 다 달아 보면, 판정은 어떻게 날까?",
+   "answer": "시간·값·걸음·입혀 줄 사람·궁의 문에서는 한복이 앞섰고, 고를 수 있는 옷과 정교한 머리 장식, 오래 빌리는 값어치는 기모노가 앞섰다. 기모노 업계 스스로는 비싼 실크 예복만 팔다 ‘사치품’ 이미지가 굳어 일상에서 멀어졌다고 돌아봤다.",
+   "next_question": "그래서 처음 질문, 외국인들은 왜 한복을 입고 궁을 더 오래 걸을까?",
+   "story_ko": "이제 판정할 차례입니다. 공정하게 기모노가 이긴 칸부터 적겠습니다. 경복궁에서 한복을 빌린 싱가포르 이용자는 교토 가게가 고를 옷이 더 많고 머리 장식도 훨씬 정교했다고 인정했어요. 둘 다 빌려 본 싱가포르 블로거도 기모노는 네 시간을 넉넉히 빌려 찻집까지 들렀으니, 값을 쪼개 보면 기모노가 더 남는 장사였다고 적었습니다. 하지만 입는 시간, 값, 걸음, 입혀 줄 사람, 궁의 문. 다섯 저울은 모두 한복 쪽으로 기울었죠. 기모노가 왜 이렇게 됐는지는 일본 안에서 먼저 답이 나왔습니다. 재팬타임스 매거진과 인터뷰한 기모노 연구자는 업계가 전후 수십만 엔짜리 실크 예복만 팔면서 기모노가 사치품이라는 이미지가 생겼고, 생활이 바뀌자 일본인들이 빠르게 기모노를 떠났다고 했어요. 그 사이 시장은 8분의 1로 줄었고요. 필리핀 블로거의 한 줄이 판정을 대신합니다. 둘 다 입어 봤지만, 저는 한복이 더 좋아요.",
+   "refs": [
+    {
+     "url": "https://lemon8-app.com/@user297449394/7248886093440303617?region=sg",
+     "publisher": "Lemon8(싱가포르 지역 이용자 후기)",
+     "date": "열람 2026-11",
+     "orig": "The experience was almost the same but the store we visited in Kyoto definitely had more choices and intricate hair designs!",
+     "ko": "체험 자체는 거의 비슷했지만, 우리가 갔던 교토 가게는 확실히 고를 옷이 더 많고 머리 장식도 더 정교했어요!",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "교토 기모노와 경복궁 한복을 비교한 싱가포르 이용자"
+    },
+    {
+     "url": "https://nicesthefusspot.blogspot.com/2016/12/kimono-japan-vs-hanbok-korea-my.html",
+     "publisher": "Nices the Fusspot(싱가포르 블로그)",
+     "date": "2016-12-10",
+     "orig": "If you really breakdown the cost, Kimono rental seems to be more bang for your buck.",
+     "ko": "비용을 제대로 쪼개 보면, 기모노 대여가 들인 돈에 비해 더 남는 것 같아요.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "교토·전주에서 둘 다 빌려 본 싱가포르 블로거"
+    },
+    {
+     "url": "https://sustainable.japantimes.com/magazine/vol40/40-02",
+     "publisher": "The Japan Times 「Sustainable Japan」 매거진 · 기모노 연구자 Ko Ishizaki 인터뷰",
+     "date": "2024-09-27",
+     "orig": "However, because these were low-priced items, the industry focused on manufacturing and selling silk kimonos for formal occasions, which cost several hundred thousand yen each, to secure sales for their postwar recovery. This led to an image among the Japanese people that kimonos were luxury items.",
+     "ko": "하지만 면·울 기모노는 값이 싸서, 업계는 전후 회복기에 매출을 올리려고 한 벌에 수십만 엔 하는 예복용 실크 기모노를 만들어 파는 데 집중했다. 그 결과 일본인들 사이에 기모노는 사치품이라는 이미지가 생겼다.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "부친도 기모노 연구자였던 기모노 연구자 이시자키 고"
+    },
+    {
+     "url": "https://projectgora.com/hanbok-rental-seoul",
+     "publisher": "Project Gora(필리핀 여행 블로그)",
+     "date": "2023-12-17",
+     "orig": "I personally prefer the hanbok. It’s more forgiving after a big meal—you won’t look like you’re in your second or third trimester. Lol.",
+     "ko": "저는 한복이 더 좋아요. 배불리 먹은 뒤에도 너그러워서, 임신 중기나 말기처럼 보일 일이 없거든요. ㅋㅋ",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "기모노와 한복을 둘 다 입어 본 필리핀 여행 블로거"
+    }
+   ],
+   "screen_text": "기모노 우세: 옷 선택지 · 머리 장식 · 긴 대여 / 한복 우세: 시간 · 값 · 걸음 · 입혀 줄 사람 · 궁의 문",
+   "visual_silent": "다섯 칸 저울 판정표 그래픽, 교토 기모노 머리 장식 자료 화면, 재팬타임스 매거진 인터뷰 문장 카드, 1조 8,000억 엔 → 2,240억 엔 하강 그래프, 저녁 햇빛 속 경복궁 담장을 걷는 한복 관광객 배경",
+   "application": "R06 ¶14–15 ‘결과는 삼성의 완승이었습니다 → 곧바로 삼성도 처음부터 완벽했던 것은 아니라고 인정’ → 기모노가 이긴 칸(선택지·머리 장식·긴 대여)을 먼저 적고 다섯 저울 판정을 내린다. R06 ¶43–44 ‘결론 한 줄 → 마지막은 ¶1 혹평과 대칭되는 해외 네티즌 원음’ → 판정 뒤 마지막 문장을 필리핀 블로거의 원문 ‘저는 한복이 더 좋아요’로 닫는다."
+  }
+ ],
+ "reframes": [
+  "한복의 힘은 화려함이 아니라 ‘입는 문턱이 낮다’는 데 있다 — 몇 분이면 입고, 싸게 빌리고, 넉넉해서 오래 걷는다(1~3구간).",
+  "기모노는 일본 사람에게도 ‘배워야 입는 옷’이 됐다 — 일본인 동료 누구도 입혀 주지 못했고, 일본 여성 59%가 입는 법을 모른다고 답했다(4구간, 중반 반전).",
+  "한복을 거리로 다시 불러낸 건 공짜 문만이 아니라 먼저 입고 나간 한국 젊은이들이었고, 그 끝에 2021년 옥스퍼드 영어사전 표제어 ‘hanbok’이 있었다(7구간, 후반 반전 — 4구간과 다른 새 정보).",
+  "기모노가 거리에서 물러난 이유를 일본 업계 안에서 먼저 짚었다 — 비싼 실크 예복만 팔다 ‘사치품’이 됐다(8구간)."
+ ],
+ "ending": {
+  "answer": "한복은 입는 문턱이 낮은 전통이다. 몇 분이면 입고, 싸게 빌리고, 넉넉한 치마로 오래 걷고, 궁이 공짜로 문을 열어 준다. 기모노도 아름답지만 일본인조차 배워야 입는 예복이 되면서 거리에서 물러났고, 그래서 외국인들은 한복을 입고 궁을 더 오래 걷는다.",
+  "redefine": "한복 체험은 옷 구경이 아니라 ‘궁을 걷는 입장권’이다. 입는 순간 관광객이 궁의 풍경 안으로 들어간다.",
+  "callback": "기모노를 입혀 줄 일본인 동료를 찾지 못한 독일인과, 직원 둘이 몇 분 손보자 한복이 완성됐다며 웃던 중국 학생으로 돌아간다.",
+  "last_question": "여러분이라면 외국인 친구에게 한복을 입혀 궁에 데려갈 때, 어느 궁의 어느 길부터 걷게 하시겠어요?"
+ },
+ "time_budget": {
+  "hook_sec": 85,
+  "ending_sec": 80,
+  "base_sec": 1370,
+  "narration_sec": 1325,
+  "clip_sec": 45,
+  "at_1_2x_sec": 1142
+ },
+ "listen": [
+  {
+   "s": 0,
+   "e": "g",
+   "t": "입고 걷는 전통만큼은 한국이 일본보다 한 수 위입니다."
+  },
+  {
+   "s": 0,
+   "e": "c",
+   "t": "일본에 간 독일인은 일본인 동료 누구도 기모노를 입혀 주지 못해 놀랐다고 했죠."
+  },
+  {
+   "s": 0,
+   "e": "g",
+   "t": "서울의 중국 학생은 직원 둘이 몇 분 손보면 한복이 완성된다며 신기해했고요."
+  },
+  {
+   "s": 0,
+   "e": "c",
+   "t": "그런데 ‘볼 경치가 없다’며 한복 체험을 비추한 글도 좋아요 941개를 받았습니다."
+  },
+  {
+   "s": 0,
+   "e": "q",
+   "t": "아름답기로는 기모노도 뒤지지 않는데, 왜 외국인들은 한복을 입고 궁을 더 오래 걸을까요?"
+  },
+  {
+   "s": 1,
+   "e": "e",
+   "t": "첫 번째 저울은 시간입니다. 교토 대여점은 여성 기모노 준비에 한 시간에서 한 시간 반을 잡으라고 해요."
+  },
+  {
+   "s": 1,
+   "e": "e",
+   "t": "둘 다 입어 본 영어권 블로거는 한복이 세 벌이라 10분 정도면 된다고 적었죠."
+  },
+  {
+   "s": 1,
+   "e": "g",
+   "t": "같은 저울에 올려 보니, 한 시간 반짜리 준비와 몇 분짜리 준비였습니다."
+  },
+  {
+   "s": 2,
+   "e": "e",
+   "t": "두 번째 저울은 값이에요. 싱가포르 블로거의 영수증은 기모노 69달러, 한복 18달러였습니다."
+  },
+  {
+   "s": 2,
+   "e": "e",
+   "t": "일본 여성 5,097명 조사에서도 44% 가까이가 비싼 값을 기모노의 벽으로 꼽았고요."
+  },
+  {
+   "s": 3,
+   "e": "c",
+   "t": "세 번째는 걸음입니다. 기모노를 입은 캐나다인은 코르셋처럼 불편해 앉기도 힘들었다고 했어요."
+  },
+  {
+   "s": 3,
+   "e": "c",
+   "t": "베트남인은 버선에 물집이 잡혔고, 싱가포르 여행자는 신발 때문에 절뚝거렸다고 했죠."
+  },
+  {
+   "s": 3,
+   "e": "g",
+   "t": "반면 한복은 넉넉해서 몇 시간을 입어도 편하다는 후기가 이어졌습니다."
+  },
+  {
+   "s": 3,
+   "e": "g",
+   "t": "여러분, 궁은 걸어야 보이는 곳이잖아요. 걷기 편한 옷이 궁과 어울렸던 겁니다."
+  },
+  {
+   "s": 4,
+   "e": "c",
+   "t": "여기서 판이 뒤집힙니다. 기모노는 일본 사람에게도 쉬운 옷이 아니었거든요."
+  },
+  {
+   "s": 4,
+   "e": "c",
+   "t": "일본 여성 조사에서 가장 큰 벽은 ‘입는 법을 모른다’, 무려 59%였어요."
+  },
+  {
+   "s": 4,
+   "e": "e",
+   "t": "일본 관광지에서 기모노 차림은 대개 빌려 입은 관광객이라고 재팬타임스는 적었습니다."
+  },
+  {
+   "s": 5,
+   "e": "g",
+   "t": "다섯 번째 저울은 궁의 문입니다. 전통 한복이든 개량 한복이든 입으면 무료로 들어가죠."
+  },
+  {
+   "s": 5,
+   "e": "e",
+   "t": "영국 BBC는 2015년 한 해에 한복 대여점이 열 배로 늘었다고 전했어요."
+  },
+  {
+   "s": 5,
+   "e": "e",
+   "t": "궁 앞의 중국 대학생은 서양인들도 한복을 입고 사진을 찍는다고 짚었습니다."
+  },
+  {
+   "s": 5,
+   "e": "g",
+   "t": "중국 학생 둘은 비가 와도 드라마 주인공처럼 한참을 놀았다고 했습니다."
+  },
+  {
+   "s": 6,
+   "e": "c",
+   "t": "물론 그늘도 있습니다. 같은 중국인 사장에게 차별받았다는 비추 글도 올라왔어요."
+  },
+  {
+   "s": 6,
+   "e": "c",
+   "t": "대여점 손님 열에 여덟은 금박 장식 퓨전 한복을 고른다는 현장 증언도 나왔죠."
+  },
+  {
+   "s": 6,
+   "e": "e",
+   "t": "입는 문턱이 낮다는 장점이, 가볍게 소비된다는 그늘도 함께 데려온 겁니다."
+  },
+  {
+   "s": 7,
+   "e": "c",
+   "t": "그런데 더 놀라운 사실이 있습니다."
+  },
+  {
+   "s": 7,
+   "e": "g",
+   "t": "BBC는 한복의 귀환이 거리 플래시몹과 해시태그로 먼저 입고 나간 한국 젊은이들 덕분이라고 했어요."
+  },
+  {
+   "s": 7,
+   "e": "g",
+   "t": "그리고 2021년, 옥스퍼드 영어사전이 ‘hanbok’을 표제어로 올렸습니다."
+  },
+  {
+   "s": 7,
+   "e": "g",
+   "t": "유네스코는 창덕궁을 주변 경관과 조화를 이룬 궁궐 건축의 탁월한 사례로 꼽았고요."
+  },
+  {
+   "s": 8,
+   "e": "e",
+   "t": "공정하게 적자면, 고를 옷의 수와 머리 장식은 교토 쪽이 앞섰습니다."
+  },
+  {
+   "s": 8,
+   "e": "e",
+   "t": "하지만 시간, 값, 걸음, 입혀 줄 사람, 궁의 문까지 다섯 저울은 한복 쪽으로 기울었죠."
+  },
+  {
+   "s": 8,
+   "e": "e",
+   "t": "일본 기모노 연구자는 업계가 비싼 실크 예복만 팔다 사치품 이미지가 굳었다고 돌아봤어요."
+  },
+  {
+   "s": 8,
+   "e": "g",
+   "t": "필리핀 블로거의 한 줄이 판정을 대신합니다. 둘 다 입어 봤지만, 저는 한복이 더 좋아요."
+  },
+  {
+   "s": 9,
+   "e": "g",
+   "t": "이제 답할 수 있습니다. 한복은 입는 문턱이 낮은 전통입니다."
+  },
+  {
+   "s": 9,
+   "e": "g",
+   "t": "몇 분이면 입고, 싸게 빌리고, 오래 걷고, 궁은 문을 열어 주니까요."
+  },
+  {
+   "s": 9,
+   "e": "e",
+   "t": "그래서 한복 체험은 옷 구경이 아니라, 궁을 걷는 입장권인 셈이죠."
+  },
+  {
+   "s": 9,
+   "e": "q",
+   "t": "외국인 친구에게 한복을 입혀 궁에 간다면, 여러분은 어느 길부터 걷게 하시겠어요?"
+  }
+ ],
+ "titles": {
+  "쓸모왕": [
+   {
+    "thumb": [
+     "日 동료 누구도 기모노 못 입혀줘",
+     "독일인 충격받은 일본의 현실",
+     "외국인들 놀란 한국 한복 몇 분"
+    ],
+    "title": "“일본인 동료 누구도 기모노를 못 입혀 줬다” 독일인의 충격 / 韓 한복은 몇 분이면 끝"
+   },
+   {
+    "thumb": [
+     "기모노 69달러 vs 한복 18달러",
+     "둘 다 입어 본 외국인들 결론",
+     "한국 궁은 입으면 공짜"
+    ],
+    "title": "“기모노 69달러, 한복 18달러” 둘 다 빌려 본 외국인들이 놀란 영수증 / 韓 궁은 공짜"
+   },
+   {
+    "thumb": [
+     "日 여성 59% “입는 법 몰라”",
+     "기모노 시장 8분의 1로 경악",
+     "외국인들은 한국 한복 입고 궁으로"
+    ],
+    "title": "“입는 법을 모른다” 일본 여성 59% / 기모노가 8분의 1로 줄 때 韓 한복은 궁으로 갔다"
+   },
+   {
+    "thumb": [
+     "옥스퍼드 사전에 오른 hanbok",
+     "한국 젊은이들이 먼저 입었다",
+     "외국인들도 놀란 귀환"
+    ],
+    "title": "“한국 젊은이들 덕분에 돌아왔다” BBC가 전한 한복의 귀환 / 외국인들 놀란 옥스퍼드 사전 등재"
+   }
+  ],
+  "단골이슈": [
+   {
+    "thumb": [
+     "기모노는 코르셋, 한복은 편안",
+     "둘 다 입어 본 외국인들 반응",
+     "한국 한복 손 들어준 이유"
+    ],
+    "title": "“코르셋처럼 불편했다” 기모노 vs “몇 시간 입어도 편하다” 한복 / 외국인들 판정에 일본 충격"
+   },
+   {
+    "thumb": [
+     "비 오는 경복궁도 드라마 세트",
+     "한복 입고 난리 난 중국인들",
+     "외국인들 몰린 한국 궁의 비밀"
+    ],
+    "title": "“한국어를 몰라도 부담 없어요” 비 오는 경복궁에서 한복 입고 난리 난 중국인들"
+   },
+   {
+    "thumb": [
+     "이 나라로 이사 오고 싶어요",
+     "한국 궁 걷다 놀란 외국인들",
+     "필리핀·프랑스 여행자 고백"
+    ],
+    "title": "“이 나라로 이사 오고 싶다” 한복 입고 한국 궁을 걷던 외국인들이 놀란 이유"
+   },
+   {
+    "thumb": [
+     "볼 경치가 없다는 비추에도",
+     "한국 궁 몰려든 외국인들",
+     "열에 여덟은 퓨전 한복"
+    ],
+    "title": "“볼 경치가 없다” 비추에도 한국 궁으로 몰려든 외국인들 / 퓨전 한복 논란까지 발칵"
+   }
+  ],
+  "K스토리라인": [
+   {
+    "thumb": [
+     "한복 입어 본 일본인들도 놀란",
+     "기모노보다 쉬운 한국 옷",
+     "해외반응 리액션"
+    ],
+    "title": "“한복이 더 좋아요” 기모노 대신 한복 고른 외국인들😱 《한복》 일본 비교 해외반응 리액션"
+   },
+   {
+    "thumb": [
+     "궁 공짜 입장에 놀란 외국인들",
+     "한국 한복 대여 열풍",
+     "해외반응 리액션"
+    ],
+    "title": "입으면 궁이 공짜인 나라🔥 《경복궁 한복》 외국인들 놀란 해외반응 리액션"
+   },
+   {
+    "thumb": [
+     "유럽인들 놀란 조선 궁궐",
+     "한국 창덕궁의 조화",
+     "해외반응 리액션"
+    ],
+    "title": "“조선 시대에 푹 젖고 싶었다” 유럽인들 놀란 한국 궁🔥 《창덕궁·경복궁》 해외반응 리액션"
+   },
+   {
+    "thumb": [
+     "사전까지 바꾼 한국 전통 옷",
+     "옥스퍼드도 놀란 hanbok",
+     "해외반응 리액션"
+    ],
+    "title": "옥스퍼드 영어사전에 오른 한국 한복😭 《hanbok》 외국인들 반응 해외반응 리액션"
+   }
+  ]
+ },
+ "success_memo": [
+  "LEARNINGS 1-3 ‘질문 앞에 이상한 점을 먼저 쌓는다’ → 독일인의 ‘아무도 못 입혀 줬다’, 중국 학생의 ‘몇 분이면 완성’, 필리핀 블로거의 ‘한복이 더 좋다’ 3연타 뒤에 비추 941개로 균형을 잡고 첫 질문을 던진다.",
+  "LEARNINGS 2-5 ‘남이 한 말이라는 점을 못 박는다’ → 판정 근거는 기모노와 한복을 둘 다 입어 본 외국인 블로거·이용자와 일본 대여점·일본 영자지·옥스퍼드 논문의 원문으로만 세운다.",
+  "LEARNINGS 2-6 ‘불리한 사실을 감추지 않는다’ → 볼 경치가 없다는 비추, 차별 후기, 퓨전 한복 논란을 6구간에, 기모노가 이긴 칸(선택지·머리 장식·긴 대여)을 8구간에 그대로 적는다.",
+  "LEARNINGS 2-8 ‘숫자는 역할이 있게’ → 15분·1~1.5시간·10분(속도), 69달러·18달러·44%(비교), 59%·8분의 1·열 배(규모)로 숫자마다 맡은 일을 나눴다.",
+  "D04 판정 구조 → 시간·값·걸음·입혀 줄 사람·궁의 문 다섯 저울을 같은 순서로 달고 8구간에서 판정표로 회수한다.",
+  "엔딩: LEARNINGS 4 → 첫 질문 회수(입는 문턱이 낮다) → 재정의(궁을 걷는 입장권) → 일상 장면(독일인과 중국 학생) → 질문형 마무리(어느 길부터)."
+ ],
+ "excluded": [
+  "BV1QotPetEzq(우씨왕후 한복·한푸 논쟁 영상) — 중국 쪽이 비꼬는 자막으로 편집한 영상이라 칭찬으로 쓸 수 없다.",
+  "묶음 D절 한복 영상 13편(한푸·한복 기원 논쟁, 노래 영상) — 대부분 중국 측 반박·조롱 편집이거나 자막이 노래 가사라 인용할 외국인 칭찬이 없다. 일부는 자막 파일이 0바이트다.",
+  "Q16471·Q16481·Q16485(서울 한 바퀴 틱톡) — ‘한복(漢服)을 입고 한자를 썼다’, ‘베이징 고궁에 가면’처럼 한국을 낮추는 맥락이라 제외.",
+  "G19812(브라질 영부인 한복 Reddit) — 원문이 한국어 번역본만 있고 댓글 작성자 국적이 불분명해 뺐다.",
+  "Q06691(일본 온천 호텔 기모노 체험) — 호텔 계정의 홍보 게시물이라 광고 행으로 보고 제외.",
+  "Q16975·Q19262·Q18038·Q18036(궁 무료 입장 안내판·아기 한복·수문장) — 69번이 이미 중심 장면으로 써서 겹치지 않게 다른 행을 골랐다.",
+  "Reddit r/koreatravel 한복 후기 글 — 작성자가 한국어 용어를 쓰는 한국인으로 보이고, 페이지도 차단돼 원문을 열 수 없었다.",
+  "mysuitcasejourneys·Tokyo Weekender 한복·기모노 비교 글 — 보안 확인 화면에 막혀 원문을 직접 열지 못해 쓰지 않았다.",
+  "Korea Times·아시아경제의 고궁 한복 입장객 200만 명 수치 — 한국 언론 단독 수치라 일본 비교 근거로는 쓰지 않았다."
+ ],
+ "unverified": [
+  "Wonderburger Abroad 블로거의 국적은 글에 명시돼 있지 않다(스페인 비자 갱신·‘Stateside’ 글이 있어 영어권으로만 표기).",
+  "Project Gora 글에는 대여점 제휴 링크가 있다. 대여점 추천 부분은 쓰지 않고 기모노·한복 비교 소감만 인용했다.",
+  "Lemon8 후기는 게시 날짜를 페이지에서 확인하지 못했다.",
+  "스트레이츠타임스 팟캐스트 녹취는 검색 결과로 본 앞부분만이다(유료 전문 미열람, verified=snippet).",
+  "Korea Times 2025-09-09 대여점 주인 발언은 검색 결과 본문으로 확인했다(verified=snippet).",
+  "옥스퍼드 논문의 경제산업성 조사 수치(5,097명·44%·59%)는 2015년 위원회 자료를 논문이 재인용한 것이다.",
+  "Q18021 ‘5,000원 C 코스’는 해당 영상 속 가게 사례이며 서울 대여점의 일반 시세는 아니다.",
+  "Korea Times 2018 기사와 Korea JoongAng Daily 2018 기사는 한국 언론이 외국인 관광객을 인터뷰한 것이다.",
+  "Q19265의 중국어 원문 자막은 음성 인식이 깨져 있다(‘穿穿韩服服服去盖子’). 은행의 한국어 번역 ‘사진을 찍어요’ 그대로만 썼다."
+ ]
+}

@@ -1,0 +1,1194 @@
+{
+ "no": 77,
+ "theme_id": "insta",
+ "title": "“이게 한국이 일본보다 나은 점” 두 나라를 다 가 본 영어권 여행자 13명이 내린 결론",
+ "one_line": "일본과 한국을 둘 다 다녀오거나 살아 본 영어권 크리에이터 13명이 남긴 비교 영상을 이어 붙이고, 혼밥·친절처럼 일본이 이긴 대목까지 그대로 보여 준 뒤 그래도 한국을 고른 사람의 결론으로 닫는다.",
+ "main_dev": "D05",
+ "sub_dev": "D08",
+ "dev_reason": "같은 질문(일본과 한국, 어디가 나은가)에 답한 영어권 크리에이터 13명의 짧은 영상이 묶음의 중심이라 D05 모자이크로 잇고, ‘싸다·빠르다’ 뒤에 ‘혼밥·친절은 일본’이라는 작은 반전, ‘둘 다 필요하다’ 뒤에 ‘그래도 한국에 남았다’는 큰 반전을 D08로 쌓는다.",
+ "central_question": "일본과 한국을 둘 다 겪어 본 영어권 여행자들은 결국 어느 쪽 손을 들었을까?",
+ "answer_at_sec": 1180,
+ "hook": {
+  "declaration_ko": "일본과 한국을 둘 다 가 본 영어권 여행자가 ‘이게 한국이 일본보다 나은 점’이라며 맨 먼저 꼽은 건, 말 그대로 전부 더 싸다는 것이었습니다.",
+  "jp_compare": {
+   "basis": "quote",
+   "line_ko": "@adele.travels는 ‘이게 한국이 일본보다 나은 점’이라며 음식·교통·쇼핑·호텔이 전부 일본보다 싸고, 한국 인터넷은 빠르기로 유명하며 일본은 아직 조금 뒤처져 있다고 말했다. 미국 Ookla 집계로 2026년 9월 모바일 인터넷 중간값은 한국 374.01Mbps(4위), 일본 121.46Mbps(70위)였다.",
+   "refs": [
+    {
+     "video": "7580421469906275614",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+     "tc": "00:00:00–00:00:02",
+     "orig": "This is what South Korea is better at than Japan.",
+     "ko": "이게 한국이 일본보다 나은 점이에요.",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+     "sound": true
+    },
+    {
+     "video": "7580421469906275614",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+     "tc": "00:00:04–00:00:06",
+     "orig": "even hotels are much cheaper than in Japan.",
+     "ko": "호텔까지도 일본보다 훨씬 싸요.",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+     "sound": true
+    },
+    {
+     "video": "7580421469906275614",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+     "tc": "00:00:20–00:00:21",
+     "orig": "Japan's internet is still a bit behind.",
+     "ko": "일본 인터넷은 아직 조금 뒤처져 있어요.",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+     "sound": true
+    },
+    {
+     "url": "https://www.speedtest.net/global-index/south-korea",
+     "publisher": "Ookla Speedtest Global Index(미국 인터넷 속도 측정 기업)",
+     "date": "2026-09 기준",
+     "orig": "South Korea Median Country Speeds Updated September 2026 Mobile Rank 4 - Download 374.01 Mbps",
+     "ko": "한국 모바일 인터넷 중간값 다운로드 속도 374.01Mbps, 세계 4위(2026년 9월 기준).",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "미국 Ookla"
+    },
+    {
+     "url": "https://www.speedtest.net/global-index/japan",
+     "publisher": "Ookla Speedtest Global Index(미국 인터넷 속도 측정 기업)",
+     "date": "2026-09 기준",
+     "orig": "Median Country Speeds Updated September 2026 Mobile Rank 70 -1 Download 121.46 Mbps",
+     "ko": "일본 모바일 인터넷 중간값 다운로드 속도 121.46Mbps, 세계 70위(2026년 9월 기준).",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "미국 Ookla"
+    }
+   ]
+  },
+  "praise3": [
+   {
+    "video": "7580421469906275614",
+    "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+    "tc": "00:00:02–00:00:03",
+    "orig": "Literally everything is cheaper. Food,",
+    "ko": "말 그대로 전부 더 싸요. 음식,",
+    "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+    "sound": true
+   },
+   {
+    "video": "7577662645386579202",
+    "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7577662645386579202/7577662645386579202.eng-US.vtt",
+    "tc": "00:00:07–00:00:09",
+    "orig": "like I had a girl like help me with my luggage.",
+    "ko": "어떤 여자분이 제 짐을 들어 줬어요.",
+    "who": "캐나다에서 온 영어 크리에이터 @matteokorea(일본 석 달 뒤 부산, 2025-11-28, 조회 10만 300·좋아요 2,994)",
+    "sound": true
+   },
+   {
+    "video": "7648180042392030484",
+    "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7648180042392030484/7648180042392030484.eng-US.vtt",
+    "tc": "00:01:49–00:01:53",
+    "orig": "Tokyo gave me comfort and Seoul gave me connection.",
+    "ko": "도쿄는 제게 편안함을, 서울은 연결을 줬어요.",
+    "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)",
+    "sound": true
+   }
+  ],
+  "twist_line_ko": "그런데 그 영상의 마지막 문장은 ‘다음 영상에선 일본이 한국보다 나은 점을 말해 줄게요’였어요.",
+  "first_question_ko": "두 나라를 다 겪어 본 사람들은 결국 어느 쪽 손을 들었을까요?",
+  "hook5": [
+   "일본과 한국을 둘 다 가 본 영어권 여행자가 한국이 나은 점으로 맨 먼저 꼽은 건, 말 그대로 전부 더 싸다였습니다.",
+   "일본에서 석 달을 보낸 캐나다 청년은 부산 첫날, 부탁하지도 않았는데 짐을 들어 준 사람을 만났죠.",
+   "도쿄에서 1년을 산 여성은 도쿄는 편안함을, 서울은 연결을 줬다고 했어요.",
+   "그런데 맨 처음 영상의 마지막 문장은 ‘다음엔 일본이 나은 점을 말해 줄게요’였습니다.",
+   "두 나라를 다 겪어 본 사람들은 결국 어느 쪽 손을 들었을까요?"
+  ]
+ },
+ "praise_montage": {
+  "thread": "일본과 한국을 둘 다 겪어 본 영어권 크리에이터들이 ‘한국 쪽’에 손을 들어 준 한 줄",
+  "refs": [
+   {
+    "uid": "G19532",
+    "ko": "이런 점에서는 한국이 일본보다 낫다. 말 그대로 모든 것이 더 저렴합니다. 음식, 교통, 쇼핑, 심지어 호텔도 일본보다 훨씬 저렴해요. 훨씬 더 현대적입니다.",
+    "orig": "This is what South Korea is better at than Japan. Literally everything is cheaper. Food, transportation, shopping, even hotels are much cheaper than in Japan. It's much more modern.",
+    "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)"
+   },
+   {
+    "uid": "G19723",
+    "ko": "말 그대로 어디에서나 Wi-Fi를 이용할 수 있습니다. 그리고 서울에서는 지금까지 최고의 음식을 맛보았습니다.",
+    "orig": "Wi-Fi literally everywhere. And Seoul, best foods in we have ever been.",
+    "who": "영어 여행 커플 크리에이터 @sagarandami(틱톡 「Japan vs South Korea」, 2025-08-13, 조회 6만 3,200·좋아요 2,581)"
+   },
+   {
+    "uid": "G19500",
+    "ko": "예산이 부족하다면 한국으로 가세요. 두 나라 모두 음식 가격이 꽤 저렴하지만, 교통비와 숙박비는 일반적으로 한국이 더 저렴합니다.",
+    "orig": "If you're on a budget, go to Korea. While food is pretty affordable in both countries, transportation and accommodation are generally cheaper in Korea.",
+    "who": "영어 여행 크리에이터 @jessicaxviana(서양인이라고 밝힘, 일본 5주·한국 3주 여행, 2026-09-10, 조회 9,608)"
+   },
+   {
+    "uid": "G19510",
+    "ko": "반면에 한국의 서울역에서도 완전 괜찮았어요. 마치 2초 만에 A 지점에서 B 지점으로 이동한 것처럼 말이죠. 지도는 매우 간단했습니다. 전혀 혼란스러운 것이 없었습니다. 한국에서 출구를 찾으려고 길을 잃은 적이 없는 것처럼,",
+    "orig": "Whereas like even at Seoul Station in Korea, it was totally fine. Like I got from point a to point B in like 2 seconds. The maps were very straightforward. Nothing was confusing at all. Like I never g",
+    "who": "일본에 사는 영어 크리에이터 @lilptooflee(서울 다녀온 뒤 차이 정리, 2026-11-12, 조회 1만 8,700·좋아요 1,054)"
+   },
+   {
+    "uid": "G19666",
+    "ko": "한국에서는 모든 게 빨라서 정말 편리해요. 정말 편리해요 그것에 대해서는 말할 것도 없어요",
+    "orig": "in Korea it is true everything is fast that's really convenient really convenient nothing to say on that",
+    "who": "한국에 살다 일본으로 옮긴 영어 크리에이터 @lisabydaily(2026-08-04)"
+   },
+   {
+    "uid": "G19559",
+    "ko": "한국은 정말 대단한 나라인 것 같아요 많은 친구들과 즐거운 시간을 보내기 위해,",
+    "orig": "think Korea is a fantastic country for having fun with a large group of friends,",
+    "who": "영어 여행 크리에이터 @alexweldertravels(틱톡 「Cultural differences of Japan vs. Korea」, 2024-11-18, 조회 9,783)"
+   },
+   {
+    "uid": "G19560",
+    "ko": "하지만 감정적으로는 한국이 나에게 더 잘 맞는 것 같다.",
+    "orig": "But emotionally I feel like Korea fits me more.",
+    "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)"
+   },
+   {
+    "uid": "G19471",
+    "ko": "일본이 한국과 기술을 이긴다면 그렇다면 한국은 음악에서 확실히 승리할 것이다. 한국은 BTS와 K팝의 본고장이다.",
+    "orig": "If Japan beats Korea and technology, then Korea definitely wins in music. Korea is the home of BTS and all other things K pop.",
+    "who": "영어 여행 크리에이터 @drewbinsky(틱톡 「JAPAN v KOREA」, 2023-03-24, 조회 11만 8,800·좋아요 6,818)"
+   },
+   {
+    "uid": "G19583",
+    "ko": "한국은 초연결 카드·모바일 결제 사회다.",
+    "orig": "Korea is a hyper connected card and mobile pay society.",
+    "who": "영어 크리에이터 @koreverything2(틱톡 「5 fascinating differences」, 2026-10-24)"
+   },
+   {
+    "video": "7577662645386579202",
+    "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7577662645386579202/7577662645386579202.eng-US.vtt",
+    "tc": "00:00:23–00:00:24",
+    "orig": "it feels more welcoming here,",
+    "ko": "여기가 더 반겨 주는 느낌이에요.",
+    "who": "캐나다에서 온 영어 크리에이터 @matteokorea(일본 석 달 뒤 부산, 2025-11-28, 조회 10만 300·좋아요 2,994)",
+    "sound": true
+   },
+   {
+    "video": "7668240666916343058",
+    "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7668240666916343058/7668240666916343058.eng-US.vtt",
+    "tc": "00:00:49–00:00:51",
+    "orig": "people stay out later because getting home is actually affordable.",
+    "ko": "(한국에선) 집에 가는 비용이 감당할 만해서 사람들이 더 늦게까지 밖에 있어요.",
+    "who": "일본과 한국에 모두 살아 본 영어 크리에이터 @days.with.hana(2026-07-30, 조회 5만 4,100·좋아요 3,073)",
+    "sound": true
+   }
+  ]
+ },
+ "sections": [
+  {
+   "n": 1,
+   "name": "첫 번째 판정: 말 그대로 전부 더 싸다",
+   "dev": "D05",
+   "tag": "g",
+   "emotion": "통쾌함",
+   "intensity": 7,
+   "target_sec": 150,
+   "question": "둘 다 가 본 사람들이 가장 먼저 꼽은 차이는 무엇이었나?",
+   "answer": "돈이다. 음식·교통·쇼핑·호텔이 전부 더 싸다(@adele.travels), 예산이 빠듯하면 한국으로(@jessicaxviana), 일본은 예산을 세게 때렸지만 부산에선 카페를 돌고도 예산 안(@sagarandami), 도쿄가 서울보다 비싸다(@ginaxnana). 단, 서울은 보증금이 높다.",
+   "next_question": "돈 말고, 몸으로 느낀 차이는 무엇이었을까?",
+   "story_ko": "두 나라를 다 가 본 영어권 크리에이터들이 가장 먼저 꺼낸 건 돈 이야기였습니다. 좋아요 3,851개를 받은 여행 크리에이터는 첫 문장부터 이랬어요. 이게 한국이 일본보다 나은 점, 말 그대로 전부 더 싸다. 음식, 교통, 쇼핑, 호텔까지요. 일본 5주, 한국 3주를 여행한 여성도 예산이 빠듯하면 한국으로 가라고 했습니다. 교통비와 숙박비가 대체로 더 싸다는 이유였죠. 여행 커플은 더 생생합니다. 예산 면에선 일본이 우리를 세게 때렸다, 그런데 부산에선 카페를 여기저기 돌고도 예산 안이었다. 도쿄에서 1년 살고 서울로 옮긴 여성은 도쿄가 서울보다 비싸다고 정리했어요. 다만 한 줄을 덧붙였습니다. 서울은 월세가 싸 보여도 보증금이 대개 높다.",
+   "refs": [
+    {
+     "video": "7580421469906275614",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+     "tc": "00:00:02–00:00:03",
+     "orig": "Literally everything is cheaper. Food,",
+     "ko": "말 그대로 전부 더 싸요. 음식,",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+     "sound": true
+    },
+    {
+     "video": "7580421469906275614",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+     "tc": "00:00:04–00:00:06",
+     "orig": "even hotels are much cheaper than in Japan.",
+     "ko": "호텔까지도 일본보다 훨씬 싸요.",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+     "sound": true
+    },
+    {
+     "uid": "G19500",
+     "ko": "예산이 부족하다면 한국으로 가세요. 두 나라 모두 음식 가격이 꽤 저렴하지만, 교통비와 숙박비는 일반적으로 한국이 더 저렴합니다.",
+     "orig": "If you're on a budget, go to Korea. While food is pretty affordable in both countries, transportation and accommodation are generally cheaper in Korea.",
+     "who": "영어 여행 크리에이터 @jessicaxviana(서양인이라고 밝힘, 일본 5주·한국 3주 여행, 2026-09-10, 조회 9,608)"
+    },
+    {
+     "video": "7538223938938129682",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7538223938938129682/7538223938938129682.eng-US.vtt",
+     "tc": "00:00:19–00:00:21",
+     "orig": "Budget wise, Japan hit us hard.",
+     "ko": "예산 면에선 일본이 우리를 세게 때렸어요.",
+     "who": "영어 여행 커플 크리에이터 @sagarandami(틱톡 「Japan vs South Korea」, 2025-08-13, 조회 6만 3,200·좋아요 2,581)",
+     "sound": true
+    },
+    {
+     "uid": "G19556",
+     "ko": "하지만 부산에서는 우리는 다른 카페로 뛰어 다녔지만 여전히 예산에 미치지 못했습니다.",
+     "orig": "But in Busan, we hopped to different cafes and still stayed under budget.",
+     "who": "영어 여행 커플 크리에이터 @sagarandami(틱톡 「Japan vs South Korea」, 2025-08-13, 조회 6만 3,200·좋아요 2,581)"
+    },
+    {
+     "video": "7648180042392030484",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7648180042392030484/7648180042392030484.eng-US.vtt",
+     "tc": "00:00:11–00:00:15",
+     "orig": "For cost, Tokyo is more expensive than Seoul. Food,",
+     "ko": "비용은 도쿄가 서울보다 비싸요. 음식,",
+     "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)",
+     "sound": true
+    },
+    {
+     "video": "7648180042392030484",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7648180042392030484/7648180042392030484.eng-US.vtt",
+     "tc": "00:00:24–00:00:26",
+     "orig": "but the deposit is usually high.",
+     "ko": "하지만 보증금이 대개 높아요.",
+     "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)",
+     "sound": true
+    }
+   ],
+   "screen_text": "“말 그대로 전부 더 싸다” — 음식·교통·쇼핑·호텔",
+   "visual_silent": "부산 카페 거리 자료 화면, 음식·교통·호텔 세 칸 비교 그래픽, 영상 첫 장면 캡처(자막 ‘SOUTH KOREA IS BETTER THAN JAPAN’), 서울 월세·보증금 자막 카드",
+   "application": "R01 ¶3–4의 연타 기능을 옮겨 서로 다른 크리에이터 네 명의 ‘더 싸다’를 잇달아 놓고, R05 ¶15 ‘단점 인정 → 상쇄’ 기능으로 보증금이라는 단서를 같은 구간 끝에 붙였다."
+  },
+  {
+   "n": 2,
+   "name": "신주쿠에선 길을 잃었고, 서울역에선 2초였다",
+   "dev": "D05",
+   "tag": "g",
+   "emotion": "후련함",
+   "intensity": 6,
+   "target_sec": 145,
+   "question": "돈 말고 몸으로 느낀 차이는 무엇이었나?",
+   "answer": "길이다. 일본에 사는 크리에이터는 신주쿠·시부야에선 길을 잃었지만 서울역에선 A에서 B까지 2초였고 출구를 찾다 길을 잃은 적이 없다고 했다. 서울 지하철은 하나의 체계라 논리적이라는 평, 서울 관광지에선 영어가 잘 통했다는 평이 이어졌다.",
+   "next_question": "그 편리함은 숫자로도 확인될까?",
+   "story_ko": "다음은 길 찾기입니다. 지금 일본에 사는 영어 크리에이터가 서울을 다녀온 뒤 이렇게 말했어요. 처음 일본에 갔을 땐 신주쿠, 시부야 같은 큰 역에서 확실히 길을 잃었다. 그런데 서울역에선 완전히 괜찮았다, A 지점에서 B 지점까지 2초 만에 갔다. 지도는 아주 단순했고, 한국에선 출구를 찾다 길을 잃은 적이 없다는 겁니다. 반면 일본 역에선 길을 잃은 적이 정말 많다고 덧붙였죠. 앞의 여행 크리에이터도 서울 지하철은 하나의 체계라 아주 논리적이고 길 찾기가 더 쉽다고 했습니다. 같은 사람은 서울 관광지에선 다들 영어를 정말 잘해서, 준비해 간 한국어를 거의 쓸 일이 없었다고도 했어요.",
+   "refs": [
+    {
+     "uid": "G19510",
+     "ko": "반면에 한국의 서울역에서도 완전 괜찮았어요. 마치 2초 만에 A 지점에서 B 지점으로 이동한 것처럼 말이죠. 지도는 매우 간단했습니다. 전혀 혼란스러운 것이 없었습니다. 한국에서 출구를 찾으려고 길을 잃은 적이 없는 것처럼,",
+     "orig": "Whereas like even at Seoul Station in Korea, it was totally fine. Like I got from point a to point B in like 2 seconds. The maps were very straightforward. Nothing was confusing at all. Like I never g",
+     "who": "일본에 사는 영어 크리에이터 @lilptooflee(서울 다녀온 뒤 차이 정리, 2026-11-12, 조회 1만 8,700·좋아요 1,054)"
+    },
+    {
+     "uid": "G19509",
+     "ko": "이건 내 생각일 뿐이지만 나는 한국의 기차역을 생각했다 일본 기차역보다 탐색하기가 조금 더 쉬웠습니다.",
+     "orig": "this is just my opinion but I thought Korean train stations were a little easier to navigate than Japanese train station.",
+     "who": "일본에 사는 영어 크리에이터 @lilptooflee(서울 다녀온 뒤 차이 정리, 2026-11-12, 조회 1만 8,700·좋아요 1,054)"
+    },
+    {
+     "video": "7707271096810147102",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7707271096810147102/7707271096810147102.eng-US.vtt",
+     "tc": "00:01:10–00:01:12",
+     "orig": "whereas I've gotten lost plenty of times",
+     "ko": "반면 (일본 역에선) 길을 잃은 적이 정말 많아요.",
+     "who": "일본에 사는 영어 크리에이터 @lilptooflee(서울 다녀온 뒤 차이 정리, 2026-11-12, 조회 1만 8,700·좋아요 1,054)",
+     "sound": true
+    },
+    {
+     "video": "7580421469906275614",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+     "tc": "00:00:23–00:00:25",
+     "orig": "The sole metro is one system.",
+     "ko": "서울 지하철은 하나의 체계예요.",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+     "sound": true
+    },
+    {
+     "video": "7580421469906275614",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+     "tc": "00:00:25–00:00:26",
+     "orig": "Super logical and easier to navigate.",
+     "ko": "아주 논리적이고 길 찾기도 더 쉬워요.",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+     "sound": true
+    },
+    {
+     "video": "7707271096810147102",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7707271096810147102/7707271096810147102.eng-US.vtt",
+     "tc": "00:00:13–00:00:14",
+     "orig": "because everyone spoke really good English",
+     "ko": "다들 영어를 정말 잘했거든요.",
+     "who": "일본에 사는 영어 크리에이터 @lilptooflee(서울 다녀온 뒤 차이 정리, 2026-11-12, 조회 1만 8,700·좋아요 1,054)",
+     "sound": true
+    }
+   ],
+   "screen_text": "“한국에선 출구 찾다 길 잃은 적이 없다”",
+   "visual_silent": "서울역 환승 통로 자료 화면, 신주쿠역 혼잡 자료 화면, 서울 지하철 노선도 그래픽, ‘A→B 2초’ 자막 카드",
+   "application": "R02 ¶10의 ‘제3국의 눈으로 한·일 비교’ 기능을 옮겨, 일본에 사는 제3국 사람이 자기가 사는 나라의 역과 서울역을 직접 견주는 원음을 중심에 놓았다."
+  },
+  {
+   "n": 3,
+   "name": "숫자로 보면: 모바일 4위와 70위, 그리고 반대 숫자",
+   "dev": "D08",
+   "tag": "e",
+   "emotion": "확신",
+   "intensity": 5,
+   "target_sec": 150,
+   "question": "그 편리함은 숫자로도 확인되나?",
+   "answer": "된다. 미국 Ookla 집계로 2026년 9월 모바일 인터넷 중간값은 한국 374.01Mbps(4위), 일본 121.46Mbps(70위). 일본 결제 업계 매체가 정리한 캐시리스 비율은 한국 99.0%, 일본 46.3%. 다만 유선 인터넷은 일본 419.20Mbps(9위)가 한국 319.06Mbps(27위)보다 빨랐다.",
+   "next_question": "그렇다면 사람은 어땠을까?",
+   "story_ko": "이 말들은 숫자로도 확인됩니다. 여행 크리에이터는 한국 인터넷은 빠르기로 유명하고 와이파이가 어디서나 잡히는데 일본은 아직 조금 뒤처져 있다고 했어요. 여행 커플도 와이파이가 말 그대로 어디에나 있다고 했죠. 미국 인터넷 속도 측정 기업 Ookla의 2026년 9월 집계를 보면, 모바일 다운로드 중간값은 한국 374.01Mbps로 세계 4위였습니다. 일본은 121.46Mbps, 70위였고요. 결제도 비슷합니다. 일본은 아직 현금과 동전에 크게 기대지만 한국은 초연결 카드 사회라는 영상이 있었죠. 일본 결제 업계 매체가 정리한 캐시리스 비율은 한국 99.0%, 일본 46.3%였습니다. 그런데 반대 숫자도 있어요. 집에서 쓰는 유선 인터넷은 일본이 419.20Mbps로 9위, 한국은 319.06Mbps로 27위였습니다.",
+   "refs": [
+    {
+     "video": "7580421469906275614",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+     "tc": "00:00:17–00:00:20",
+     "orig": "Korea's internet is famously fast and you can find Wi Fi everywhere.",
+     "ko": "한국 인터넷은 빠르기로 유명하고, 와이파이는 어디서나 잡혀요.",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+     "sound": true
+    },
+    {
+     "uid": "G19577",
+     "ko": "더 나은 Wi-Fi 및 모바일 인터넷. 한국의 인터넷은 빠르기로 유명하며 어디에서나 Wi-Fi를 찾을 수 있습니다. 일본의 인터넷은 아직 조금 뒤떨어져 있습니다.",
+     "orig": "Better Wi Fi and mobile internet. Korea's internet is famously fast and you can find Wi Fi everywhere. Japan's internet is still a bit behind.",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)"
+    },
+    {
+     "uid": "G19723",
+     "ko": "말 그대로 어디에서나 Wi-Fi를 이용할 수 있습니다. 그리고 서울에서는 지금까지 최고의 음식을 맛보았습니다.",
+     "orig": "Wi-Fi literally everywhere. And Seoul, best foods in we have ever been.",
+     "who": "영어 여행 커플 크리에이터 @sagarandami(틱톡 「Japan vs South Korea」, 2025-08-13, 조회 6만 3,200·좋아요 2,581)"
+    },
+    {
+     "url": "https://www.speedtest.net/global-index/south-korea",
+     "publisher": "Ookla Speedtest Global Index(미국 인터넷 속도 측정 기업)",
+     "date": "2026-09 기준",
+     "orig": "South Korea Median Country Speeds Updated September 2026 Mobile Rank 4 - Download 374.01 Mbps",
+     "ko": "한국 모바일 인터넷 중간값 다운로드 속도 374.01Mbps, 세계 4위(2026년 9월 기준).",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "미국 Ookla"
+    },
+    {
+     "url": "https://www.speedtest.net/global-index/japan",
+     "publisher": "Ookla Speedtest Global Index(미국 인터넷 속도 측정 기업)",
+     "date": "2026-09 기준",
+     "orig": "Median Country Speeds Updated September 2026 Mobile Rank 70 -1 Download 121.46 Mbps",
+     "ko": "일본 모바일 인터넷 중간값 다운로드 속도 121.46Mbps, 세계 70위(2026년 9월 기준).",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "미국 Ookla"
+    },
+    {
+     "video": "7700214317991333140",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7700214317991333140/7700214317991333140.eng-US.vtt",
+     "tc": "00:00:18–00:00:22",
+     "orig": "While Japan still heavily relies on cash and coin changes,",
+     "ko": "일본은 아직 현금과 동전 거스름돈에 크게 기대는 반면,",
+     "who": "영어 크리에이터 @koreverything2(틱톡 「5 fascinating differences」, 2026-10-24)",
+     "sound": true
+    },
+    {
+     "uid": "G19583",
+     "ko": "한국은 초연결 카드·모바일 결제 사회다.",
+     "orig": "Korea is a hyper connected card and mobile pay society.",
+     "who": "영어 크리에이터 @koreverything2(틱톡 「5 fascinating differences」, 2026-10-24)"
+    },
+    {
+     "url": "https://media.aupay.wallet.auone.jp/articles/5087",
+     "publisher": "au PAY 매거진(일본 KDDI 계열 결제 서비스 매체) 「2025年に58％に到達！日本のキャッシュレス決済比率の最新動向」",
+     "date": "2026-06-12",
+     "orig": "韓国 99.0％（2022年）… 日本（国際比較指標） 46.3％（2025年）",
+     "ko": "국가별 캐시리스 결제 비율: 한국 99.0%(2022년) … 일본(국제 비교 지표) 46.3%(2025년).",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "일본 결제 업계 매체(캐시리스 추진협의회 로드맵 인용)"
+    },
+    {
+     "url": "https://www.speedtest.net/global-index/japan",
+     "publisher": "Ookla Speedtest Global Index(미국 인터넷 속도 측정 기업)",
+     "date": "2026-09 기준",
+     "orig": "Fixed Broadband Rank 9 - Download 419.20 Mbps",
+     "ko": "일본 유선 인터넷 중간값 다운로드 속도 419.20Mbps, 세계 9위. 같은 달 한국 유선은 319.06Mbps로 27위.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "미국 Ookla"
+    },
+    {
+     "url": "https://www.speedtest.net/global-index/south-korea",
+     "publisher": "Ookla Speedtest Global Index(미국 인터넷 속도 측정 기업)",
+     "date": "2026-09 기준",
+     "orig": "Fixed Broadband Rank 27 - Download 319.06 Mbps",
+     "ko": "한국 유선 인터넷 중간값 다운로드 속도 319.06Mbps, 세계 27위.",
+     "verified": "fulltext",
+     "role": "비교",
+     "who": "미국 Ookla"
+    },
+    {
+     "video": "7700214317991333140",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7700214317991333140/7700214317991333140.eng-US.vtt",
+     "tc": "00:00:46–00:00:50",
+     "orig": "In Korea, almost every restaurant uses touch screens and table orders,",
+     "ko": "한국에선 거의 모든 식당이 터치스크린과 테이블 주문을 써요.",
+     "who": "영어 크리에이터 @koreverything2(틱톡 「5 fascinating differences」, 2026-10-24)",
+     "sound": true
+    }
+   ],
+   "screen_text": "모바일 인터넷 韓 374Mbps(4위) · 日 121Mbps(70위)",
+   "visual_silent": "Speedtest 국가 순위 화면 캡처, 모바일·유선 막대그래프(한국·일본), 캐시리스 비율 99.0%·46.3% 원그래프, 식당 테이블 주문 태블릿 자료 화면",
+   "application": "R04 ¶7–8 ‘금액 비교 → 자세히 보면 눈에 띄는 이름’ 기능으로 모바일 속도와 결제 비율을 차례로 보이고, R06 1막(시험 1 → 시험 2)의 D08 구조를 옮겨 ‘모바일은 한국’ 뒤에 ‘유선은 일본’이라는 작은 반전을 같은 출처 숫자로 붙였다."
+  },
+  {
+   "n": 4,
+   "name": "일본 석 달, 부산 첫날",
+   "dev": "D05",
+   "tag": "g",
+   "emotion": "뭉클함",
+   "intensity": 9,
+   "target_sec": 150,
+   "question": "그렇다면 사람은 어땠나?",
+   "answer": "먼저 말을 건다. 일본에서 석 달 동안 아무도 말을 걸지 않았다던 캐나다 청년은 부산 첫날 부탁도 안 했는데 짐을 들어 준 사람을 만났고, 지하철에선 ‘어디서 왔어요?’를 들었다. 젊은 사람들이 먼저 다가왔다는 말, 쳐다보는 건 호기심이자 감탄이라는 말이 이어졌다.",
+   "next_question": "그럼 한국이 전부 이겼을까?",
+   "story_ko": "가장 많은 사람이 오래 말한 건 사람이었습니다. 캐나다에서 온 크리에이터의 영상은 조회 10만 회를 넘겼어요. 저는 일본에서 석 달을 보냈다, 아무도 먼저 다가와 말을 걸지 않았다. 그런데 부산에 온 첫날, 어떤 여자분이 제 짐을 들어 줬다는 겁니다. 부탁하지도 않았는데요. 지하철에선 어디서 왔냐는 질문이 날아왔고, 캐나다라고 하자 밴쿠버에 아는 사람이 있다는 대답이 돌아왔대요. 그러면서도 선을 그었습니다. 일본 사람들이 친절하지 않다는 말이 아니다. 일본 5주를 여행한 여성도 한국에선 젊은 사람들이 먼저 다가와 말을 걸고 싶어 했다고 했죠. 일본에 2년째 사는 미국 출신 여성은 한국 사람들의 시선을 이렇게 풀었습니다. 호기심이에요, 감탄일 수도 있고요.",
+   "refs": [
+    {
+     "video": "7577662645386579202",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7577662645386579202/7577662645386579202.eng-US.vtt",
+     "tc": "00:00:00–00:00:01",
+     "orig": "I spent three months in Japan.",
+     "ko": "저는 일본에서 석 달을 보냈어요.",
+     "who": "캐나다에서 온 영어 크리에이터 @matteokorea(일본 석 달 뒤 부산, 2025-11-28, 조회 10만 300·좋아요 2,994)",
+     "sound": true
+    },
+    {
+     "video": "7577662645386579202",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7577662645386579202/7577662645386579202.eng-US.vtt",
+     "tc": "00:00:01–00:00:04",
+     "orig": "No one ever came up to me and just randomly talk to me.",
+     "ko": "아무도 먼저 다가와 말을 걸지 않았어요.",
+     "who": "캐나다에서 온 영어 크리에이터 @matteokorea(일본 석 달 뒤 부산, 2025-11-28, 조회 10만 300·좋아요 2,994)",
+     "sound": true
+    },
+    {
+     "video": "7577662645386579202",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7577662645386579202/7577662645386579202.eng-US.vtt",
+     "tc": "00:00:07–00:00:09",
+     "orig": "like I had a girl like help me with my luggage.",
+     "ko": "어떤 여자분이 제 짐을 들어 줬어요.",
+     "who": "캐나다에서 온 영어 크리에이터 @matteokorea(일본 석 달 뒤 부산, 2025-11-28, 조회 10만 300·좋아요 2,994)",
+     "sound": true
+    },
+    {
+     "video": "7577662645386579202",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7577662645386579202/7577662645386579202.eng-US.vtt",
+     "tc": "00:00:09–00:00:10",
+     "orig": "I didn't even ask her.",
+     "ko": "부탁하지도 않았는데요.",
+     "who": "캐나다에서 온 영어 크리에이터 @matteokorea(일본 석 달 뒤 부산, 2025-11-28, 조회 10만 300·좋아요 2,994)",
+     "sound": true
+    },
+    {
+     "video": "7577662645386579202",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7577662645386579202/7577662645386579202.eng-US.vtt",
+     "tc": "00:00:17–00:00:19",
+     "orig": "oh, where are you from?",
+     "ko": "어, 어디서 왔어요?",
+     "who": "캐나다에서 온 영어 크리에이터 @matteokorea(일본 석 달 뒤 부산, 2025-11-28, 조회 10만 300·좋아요 2,994)",
+     "sound": true
+    },
+    {
+     "video": "7577662645386579202",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7577662645386579202/7577662645386579202.eng-US.vtt",
+     "tc": "00:00:28–00:00:30",
+     "orig": "I'm not saying Japanese people aren't nice.",
+     "ko": "일본 사람들이 친절하지 않다는 말이 아니에요.",
+     "who": "캐나다에서 온 영어 크리에이터 @matteokorea(일본 석 달 뒤 부산, 2025-11-28, 조회 10만 300·좋아요 2,994)",
+     "sound": true
+    },
+    {
+     "video": "7683832906938207521",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7683832906938207521/7683832906938207521.eng-US.vtt",
+     "tc": "00:00:46–00:00:49",
+     "orig": "the younger people would approach us and want to speak to us",
+     "ko": "젊은 사람들이 먼저 다가와 말을 걸고 싶어 했어요.",
+     "who": "영어 여행 크리에이터 @jessicaxviana(서양인이라고 밝힘, 일본 5주·한국 3주 여행, 2026-09-10, 조회 9,608)",
+     "sound": true
+    },
+    {
+     "uid": "G19620",
+     "ko": "하지만 현지인들과의 만남과 교류를 좋아한다면, 아마 한국이 더 나을 것 같아요. 일본에서는 사람들이 자기 자신을 많이 지키는 경향이 있습니다. 그래서 현지인들과 교류하는 것이 조금 어려웠습니다. 반면 한국에서는 영어를 전혀 못함에도 불구하고 외국인들에게 좀 더 개방적이고 호기심이 많은 사람들을 찾았어요 그리고 저는 사랑스러운 상호작용을 가졌습니다.",
+     "orig": "However, if you like meeting and interacting with locals, I'd probably say Korea is better. In Japan people tend to keep to themselves a lot, so I found it a bit difficult to interact with locals, whe",
+     "who": "영어 여행 크리에이터 @jessicaxviana(서양인이라고 밝힘, 일본 5주·한국 3주 여행, 2026-09-10, 조회 9,608)"
+    },
+    {
+     "video": "7580421469906275614",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+     "tc": "00:00:34–00:00:36",
+     "orig": "The vibe is lighter, people talk to you more,",
+     "ko": "분위기가 더 가볍고, 사람들이 더 많이 말을 걸어요.",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+     "sound": true
+    },
+    {
+     "video": "7361418008801168648",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7361418008801168648/7361418008801168648.eng-US.vtt",
+     "tc": "00:00:28–00:00:30",
+     "orig": "But in Korea, people are more forward,",
+     "ko": "하지만 한국에선 사람들이 더 적극적이에요.",
+     "who": "일본에 2년째 사는 미국 출신 안드레아(@hahasammii, 한국 세 번째 방문, 2024-04-24, 조회 83만 7,500·좋아요 7만 2,000)",
+     "sound": true
+    },
+    {
+     "video": "7361418008801168648",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7361418008801168648/7361418008801168648.eng-US.vtt",
+     "tc": "00:00:56–00:00:58",
+     "orig": "It's curiosity. It can be admiration.",
+     "ko": "호기심이에요. 감탄일 수도 있고요.",
+     "who": "일본에 2년째 사는 미국 출신 안드레아(@hahasammii, 한국 세 번째 방문, 2024-04-24, 조회 83만 7,500·좋아요 7만 2,000)",
+     "sound": true
+    }
+   ],
+   "screen_text": "“부탁하지도 않았는데 짐을 들어 줬다”",
+   "visual_silent": "부산역 플랫폼 자료 화면, 캐리어를 드는 손 클로즈업 재구성 컷, 지하철 객차 안 대화 자료 화면, ‘어디서 왔어요?’ 자막 카드",
+   "application": "R03 ¶4–5 ‘장애 → 해소’ 기능을 옮겨 ‘석 달 동안 아무도’(장애) 뒤에 ‘부산 첫날 짐’(해소)을 붙였고, R01 ¶9–11의 ‘원음을 길게’ 기능으로 한 사람의 말을 끊지 않고 이어 갔다."
+  },
+  {
+   "n": 5,
+   "name": "작은 반전: 고깃집은 2인분부터",
+   "dev": "D08",
+   "tag": "c",
+   "emotion": "멋쩍음",
+   "intensity": 4,
+   "target_sec": 145,
+   "question": "그럼 한국이 전부 이겼나?",
+   "answer": "아니다. 혼자 다니는 사람에겐 일본이 낫다는 말이 여럿이었다. 일본은 혼밥이 아주 흔하고, 한국 식당은 최소 2인분이라 혼자 가면 양도 값도 두 배다. 하지만 서울에 사는 크리에이터는 ‘바뀌고 있다’는 말을 들었다.",
+   "next_question": "일본이 더 나았던 건 혼밥뿐이었을까?",
+   "story_ko": "물론 한국이 전부 이긴 건 아닙니다. 첫 번째 작은 반전은 혼밥이에요. 일본 5주를 여행한 여성은 혼자 여행한다면 일본을 고르라고 했습니다. 일본에선 혼밥이 아주 흔해서 어색할 일이 없다는 거죠. 다른 여행 크리에이터는 더 구체적이었어요. 한국 식당은 많은 곳이 최소 2인분부터 주문을 받는다, 혼자 가면 양도 두 배, 값도 두 배를 낸다. 도쿄에서 1년을 산 여성도 고깃집은 적어도 2인분을 시켜야 해서 혼자 가기 이상했다고 털어놨습니다. 그래서 보통은 안 간다고요. 그런데 그 문장 바로 뒤에 이런 말이 붙어요. 요즘은 혼자 먹는 사람이 점점 늘고 있고, 누군가 이렇게 말해 줬다는 겁니다. 맞아, 바뀌고 있어.",
+   "refs": [
+    {
+     "video": "7683832906938207521",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7683832906938207521/7683832906938207521.eng-US.vtt",
+     "tc": "00:00:18–00:00:21",
+     "orig": "Solo dining is extremely common in Japan,",
+     "ko": "일본에선 혼밥이 아주 흔해요.",
+     "who": "영어 여행 크리에이터 @jessicaxviana(서양인이라고 밝힘, 일본 5주·한국 3주 여행, 2026-09-10, 조회 9,608)",
+     "sound": true
+    },
+    {
+     "video": "7438595738763939094",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7438595738763939094/7438595738763939094.eng-US.vtt",
+     "tc": "00:00:29–00:00:32",
+     "orig": "many places have minimum orders for two people,",
+     "ko": "많은 곳이 최소 2인분부터 주문을 받아요.",
+     "who": "영어 여행 크리에이터 @alexweldertravels(틱톡 「Cultural differences of Japan vs. Korea」, 2024-11-18, 조회 9,783)",
+     "sound": true
+    },
+    {
+     "video": "7438595738763939094",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7438595738763939094/7438595738763939094.eng-US.vtt",
+     "tc": "00:00:33–00:00:36",
+     "orig": "you often have to pay for double the portion and double the price",
+     "ko": "양도 두 배, 값도 두 배를 내야 할 때가 많아요.",
+     "who": "영어 여행 크리에이터 @alexweldertravels(틱톡 「Cultural differences of Japan vs. Korea」, 2024-11-18, 조회 9,783)",
+     "sound": true
+    },
+    {
+     "uid": "G19558",
+     "ko": "일본과 한국은 제가 가장 좋아하는 나라입니다.",
+     "orig": "Japan and Korea are two of my favourite countries",
+     "who": "영어 여행 크리에이터 @alexweldertravels(틱톡 「Cultural differences of Japan vs. Korea」, 2024-11-18, 조회 9,783)"
+    },
+    {
+     "video": "7648180042392030484",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7648180042392030484/7648180042392030484.eng-US.vtt",
+     "tc": "00:01:16–00:01:19",
+     "orig": "you have to order. At least like two portions.",
+     "ko": "적어도 2인분은 시켜야 해요.",
+     "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)",
+     "sound": true
+    },
+    {
+     "video": "7648180042392030484",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7648180042392030484/7648180042392030484.eng-US.vtt",
+     "tc": "00:01:28–00:01:29",
+     "orig": "yeah, it's changing.",
+     "ko": "맞아, 바뀌고 있어.",
+     "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)",
+     "sound": true
+    }
+   ],
+   "screen_text": "작은 반전 ① 혼밥은 일본이 편했다",
+   "visual_silent": "일본 라멘집 카운터석 자료 화면, 한국 고깃집 ‘2인분 이상’ 안내 자료 화면, 혼자 앉은 식탁 컷, ‘바뀌고 있어’ 자막 카드",
+   "application": "R05 ¶15 ‘단점 인정 → 곧바로 상쇄’ 기능과 R07c ¶30 ‘그동안 ~ 이제는’ 역전 기능을 옮겨, 혼밥이라는 한국의 약점을 먼저 인정하고 같은 사람의 ‘바뀌고 있다’로 짧게 회수했다."
+  },
+  {
+   "n": 6,
+   "name": "더 큰 반전: 일본이 이긴 것들",
+   "dev": "D08",
+   "tag": "c",
+   "emotion": "인정",
+   "intensity": 3,
+   "target_sec": 150,
+   "question": "일본이 더 나았던 건 혼밥뿐이었나?",
+   "answer": "아니다. 기술 혁신, 가게 점원의 응대, 깨끗함과 조용함은 일본이 낫다는 말이 나왔다. 서울에선 관광객 피로를 더 느꼈고, 외국인 입장을 거부하는 곳이 많아 충격이었다는 미국인도 있었다. 영어권 인스타그램의 일본 사랑도 크다(좋아요 16만 640개 일본 생리용품 릴스 등).",
+   "next_question": "그렇다면 이들은 결국 일본 손을 들었을까?",
+   "story_ko": "반전은 하나 더 있습니다. 일본이 이긴 것들이 생각보다 많았어요. 한 여행 크리에이터는 한국도 아주 혁신적이지만, 일본은 혁신을 한 단계 더 끌어올린다고 했습니다. 일본에 사는 크리에이터는 관광객 피로를 서울에서 조금 더 느꼈다고 했죠. 일본 점원들은 일부러 신경 써서 응대한다는 겁니다. 일본에 2년째 사는 미국 출신 여성의 말은 더 아픕니다. 한국엔 외국인 입장을 거부하는 곳이 많아 큰 충격이었다고요. 도쿄를 겪은 여성은 도쿄가 더 깨끗하고 조용하고 정돈돼 있었다고 했습니다. 영어권 인스타그램을 열면 일본 사랑은 더 뚜렷해요. 처음 일본에 갔던 때를 생각하면 아직도 못 벗어났다는 릴스, 일본에서 가장 그리울 건 비데라는 릴스가 이어집니다.",
+   "refs": [
+    {
+     "video": "7214225867214490886",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7214225867214490886/7214225867214490886.eng-US.vtt",
+     "tc": "00:00:11–00:00:14",
+     "orig": "but Japan takes innovation to the next level.",
+     "ko": "하지만 일본은 혁신을 한 단계 더 끌어올려요.",
+     "who": "영어 여행 크리에이터 @drewbinsky(틱톡 「JAPAN v KOREA」, 2023-03-24, 조회 11만 8,800·좋아요 6,818)",
+     "sound": true
+    },
+    {
+     "video": "7707271096810147102",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7707271096810147102/7707271096810147102.eng-US.vtt",
+     "tc": "00:00:25–00:00:28",
+     "orig": "but I did feel it a little bit more in Seoul.",
+     "ko": "그런데 서울에서 조금 더 느꼈어요.",
+     "who": "일본에 사는 영어 크리에이터 @lilptooflee(서울 다녀온 뒤 차이 정리, 2026-11-12, 조회 1만 8,700·좋아요 1,054)",
+     "sound": true
+    },
+    {
+     "video": "7361418008801168648",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7361418008801168648/7361418008801168648.eng-US.vtt",
+     "tc": "00:00:06–00:00:09",
+     "orig": "there are a lot of places that deny foreigners entrance",
+     "ko": "외국인 입장을 거부하는 곳이 많아요.",
+     "who": "일본에 2년째 사는 미국 출신 안드레아(@hahasammii, 한국 세 번째 방문, 2024-04-24, 조회 83만 7,500·좋아요 7만 2,000)",
+     "sound": true
+    },
+    {
+     "video": "7648180042392030484",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7648180042392030484/7648180042392030484.eng-US.vtt",
+     "tc": "00:00:38–00:00:41",
+     "orig": "It was cleaner, quieter and more organized.",
+     "ko": "(도쿄는) 더 깨끗하고, 더 조용하고, 더 정돈돼 있었어요.",
+     "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)",
+     "sound": true
+    },
+    {
+     "uid": "Q07409",
+     "ko": "(캡션 요약) 처음 일본 갔던 때를 생각하면 아직도 못 벗어났다",
+     "orig": "Thinking back to my very first time in Japan and honestly, I still haven't recovered. 🥹 There is absolutely nothing like the feeling of landing in Tokyo for the first time, figuring out the Japan tra",
+     "who": "영국(추정) 영어 인스타그램 여행 계정(일본 릴스, 좋아요 5,867개)"
+    },
+    {
+     "uid": "Q07280",
+     "ko": "(캡션 요약) 매일매일(일본 일상의 감동)",
+     "orig": "every single day 🥲🇯🇵  #japantravels #tokyotrip #japanvacation #firsttimeinjapan #lostinjapan",
+     "who": "미국(추정) 영어 인스타그램 여행 계정(도쿄 릴스, 좋아요 1만 1,020개)"
+    },
+    {
+     "uid": "Q07283",
+     "ko": "(캡션 요약) 일본에서 가장 그리울 것: 비데",
+     "orig": "What I’ll miss the MOST about Japan 😝 Have you used a Bidet before? Did you like it!? Y/N? #bidet #japanesetoilets #japan #culture #suprise #comedy #firsttimeinjapan",
+     "who": "미국(추정) 영어 인스타그램 여행 계정(일본 릴스, 좋아요 9,546개)"
+    },
+    {
+     "uid": "Q07244",
+     "ko": "(캡션 요약) 여행 중 생리는 최악…일본만 빼고! 일본 생리용품 소개",
+     "orig": "Getting your period on a trip sucks... unless you are in Japan! 🇯🇵🩸 In the video, I showed you how incredibly detailed Japanese period products are. But I need to talk more about the “disposable pe",
+     "who": "일본에 사는 미국인 영어 인스타그램 계정(릴스, 좋아요 16만 640개)"
+    }
+   ],
+   "screen_text": "작은 반전 ② 기술·응대·조용함은 일본",
+   "visual_silent": "도쿄 거리 야경 자료 화면, 일본 편의점 점원 응대 자료 화면, 영어권 인스타그램 일본 릴스 캡처 네 장 콜라주, ‘외국인 입장 거부’ 자막 카드",
+   "application": "R05 ¶6 ‘상대국 쪽 사람의 반박’과 R07a ¶11 ‘한계 인정 → 의미로 회수’ 기능을 옮겼다. 한국에 불리한 원음(입장 거부, 관광객 피로)을 감추지 않고 영어권 인스타그램의 일본 사랑까지 그대로 보여 준 뒤, 다음 구간 결론의 무게를 키웠다."
+  },
+  {
+   "n": 7,
+   "name": "둘 다 필요하다는 결론",
+   "dev": "D05",
+   "tag": "e",
+   "emotion": "여운",
+   "intensity": 8,
+   "target_sec": 145,
+   "question": "그렇다면 이들은 결국 일본 손을 들었나?",
+   "answer": "대부분 ‘둘 다’였다. 한국의 에너지를 사랑하려면 일본의 고요를 겪어야 한다(@sagarandami), 한국은 빨리빨리라 편하고 일본은 섬세하다(@lisabydaily), 서울은 더 시끌벅적하다(@ritikayourpharmama), 일본은 다시 가고 싶어질 것이다(@jessicaxviana). 첫 영상도 ‘다음엔 일본이 나은 점’을 예고했다.",
+   "next_question": "그럼 두 나라 중 한 곳에 실제로 남은 사람은 누구를 골랐을까?",
+   "story_ko": "그래서 많은 사람이 내린 결론은 둘 다였습니다. 여행 커플은 이렇게 정리했어요. 진실은 이거다, 둘 다 필요하다. 한국의 에너지를 사랑하려면 일본의 고요를 느껴 봐야 하고, 일본의 부드러움을 즐기려면 한국에서 조금 시끄럽게 살아 봐야 한다. 한국에서 살다 일본으로 옮긴 크리에이터는 한국은 빨리빨리 문화라 정말 편하고, 일본은 더 섬세하다고 했죠. 일본 며칠 뒤 서울에 도착한 여행자는 서울이 그냥 더 시끌벅적하다고 했습니다. 일본은 정말 조용하다면서요. 일본 5주를 여행한 여성은 일본에 가면 아마 다시 가고 싶어질 거라고 했어요. 맨 처음 영상의 마지막 문장도 같은 방향이었습니다. 다음엔 일본이 한국보다 나은 점을 말해 주겠다.",
+   "refs": [
+    {
+     "video": "7538223938938129682",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7538223938938129682/7538223938938129682.eng-US.vtt",
+     "tc": "00:00:38–00:00:40",
+     "orig": "here's the truth. You need both.",
+     "ko": "진실은 이거예요. 둘 다 필요해요.",
+     "who": "영어 여행 커플 크리에이터 @sagarandami(틱톡 「Japan vs South Korea」, 2025-08-13, 조회 6만 3,200·좋아요 2,581)",
+     "sound": true
+    },
+    {
+     "video": "7538223938938129682",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7538223938938129682/7538223938938129682.eng-US.vtt",
+     "tc": "00:00:46–00:00:48",
+     "orig": "you need to live a little loud in Korea.",
+     "ko": "한국에서 조금 시끄럽게 살아 봐야 해요.",
+     "who": "영어 여행 커플 크리에이터 @sagarandami(틱톡 「Japan vs South Korea」, 2025-08-13, 조회 6만 3,200·좋아요 2,581)",
+     "sound": true
+    },
+    {
+     "uid": "G19557",
+     "ko": "한국에선 선택지가 너무 많아 우리를 망쳐 놨어요. 정말이지, 한국이 더 사교적이고 더 재미있었어요,",
+     "orig": "In Korea, the option spoiled us. Honestly, Korea felt more social, more fun,",
+     "who": "영어 여행 커플 크리에이터 @sagarandami(틱톡 「Japan vs South Korea」, 2025-08-13, 조회 6만 3,200·좋아요 2,581)"
+    },
+    {
+     "video": "7670131473550298376",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7670131473550298376/7670131473550298376.eng-US.vtt",
+     "tc": "00:00:16–00:00:18",
+     "orig": "it's really the palipali culture",
+     "ko": "정말 빨리빨리 문화예요.",
+     "who": "한국에 살다 일본으로 옮긴 영어 크리에이터 @lisabydaily(2026-08-04)",
+     "sound": true
+    },
+    {
+     "video": "7670131473550298376",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7670131473550298376/7670131473550298376.eng-US.vtt",
+     "tc": "00:00:29–00:00:31",
+     "orig": "it's gonna be more delicate",
+     "ko": "(일본은) 더 섬세해요.",
+     "who": "한국에 살다 일본으로 옮긴 영어 크리에이터 @lisabydaily(2026-08-04)",
+     "sound": true
+    },
+    {
+     "uid": "G19555",
+     "ko": "한국은 여러 가지 이유로 정말 편안하다고 느낍니다.",
+     "orig": "Korea feels really comfortable for many reasons",
+     "who": "한국에 살다 일본으로 옮긴 영어 크리에이터 @lisabydaily(2026-08-04)"
+    },
+    {
+     "video": "7650128347938163998",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7650128347938163998/7650128347938163998.eng-US.vtt",
+     "tc": "00:00:28–00:00:32",
+     "orig": "but just louder. Japan is so quiet.",
+     "ko": "그냥 더 시끌벅적해요. 일본은 정말 조용하거든요.",
+     "who": "일본 며칠 뒤 서울에 도착한 영어 크리에이터 @ritikayourpharmama(2026-06-11, 조회 1만 3,200)",
+     "sound": true
+    },
+    {
+     "video": "7683832906938207521",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7683832906938207521/7683832906938207521.eng-US.vtt",
+     "tc": "00:01:35–00:01:38",
+     "orig": "you probably will want to go back.",
+     "ko": "아마 다시 가고 싶어질 거예요.",
+     "who": "영어 여행 크리에이터 @jessicaxviana(서양인이라고 밝힘, 일본 5주·한국 3주 여행, 2026-09-10, 조회 9,608)",
+     "sound": true
+    },
+    {
+     "video": "7580421469906275614",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7580421469906275614/7580421469906275614.eng-US.vtt",
+     "tc": "00:00:38–00:00:41",
+     "orig": "In the next video, I'll tell you what Japan does better than Korea.",
+     "ko": "다음 영상에선 일본이 한국보다 나은 점을 말해 줄게요.",
+     "who": "영어 여행 크리에이터 @adele.travels(틱톡 「SOUTH KOREA IS BETTER THAN JAPAN」, 2025-12-05, 조회 9만 7,000·좋아요 3,851)",
+     "sound": true
+    }
+   ],
+   "screen_text": "“진실은 이거예요. 둘 다 필요해요”",
+   "visual_silent": "교토 골목 아침 자료 화면, 홍대 밤거리 자료 화면, 한·일 화면 반반 분할 그래픽, ‘다음 영상에선 일본이…’ 자막 카드",
+   "application": "R03 ¶21 ‘처음 장면 회수’ 기능을 옮겨 훅에서 던진 첫 영상의 마지막 문장(‘다음엔 일본이 나은 점’)을 이 구간에서 되살리고, R02 ¶6 ‘그동안 ~ 이제는’의 기대 장치로 다음 구간의 큰 반전을 예고했다."
+  },
+  {
+   "n": 8,
+   "name": "큰 반전: 그래도 한국에 남은 사람",
+   "dev": "D08",
+   "tag": "g",
+   "emotion": "벅참",
+   "intensity": 10,
+   "target_sec": 150,
+   "question": "두 나라 중 한 곳에 실제로 남은 사람은 누구를 골랐나?",
+   "answer": "한국이다. 도쿄에서 1년을 살고 서울로 온 크리에이터는 ‘도쿄는 편안함, 서울은 연결을 줬다. 그래도 나는 한국을 고르겠다. 그래서 아직 여기 있다’고 했다. 두 나라에 모두 살아 본 크리에이터는 한국은 집에 가는 비용이 감당할 만해 늦게까지 밖에 있다고 했다.",
+   "next_question": "그래서, 둘 다 겪어 본 사람들은 어느 쪽 손을 들었을까?",
+   "story_ko": "큰 반전은 실제로 두 나라에 살아 본 사람에게서 나왔습니다. 도쿄에서 1년을 살고 지금 서울에 사는 크리에이터예요. 도쿄는 더 깨끗하고 혼밥도 편했다고 앞에서 인정한 바로 그 사람입니다. 그런데 감정적으로는 한국이 자기에게 더 맞는다고 했어요. 한국에선 누군가 한 번 친구로 받아들이면 정말 따뜻하게 대해 준다면서요. 그리고 이렇게 정리합니다. 도쿄는 제게 편안함을, 서울은 연결을 줬다. 그래도 나는 한국을 고르겠다. 그래서 제가 아직 여기 있는 거다. 두 나라에 모두 살아 본 다른 크리에이터도 한 장면을 보탰어요. 일본에선 막차를 놓치면 끝인데, 한국에선 집에 가는 비용이 감당할 만해서 사람들이 더 늦게까지 밖에 있다고요.",
+   "refs": [
+    {
+     "uid": "G19560",
+     "ko": "하지만 감정적으로는 한국이 나에게 더 잘 맞는 것 같다.",
+     "orig": "But emotionally I feel like Korea fits me more.",
+     "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)"
+    },
+    {
+     "video": "7648180042392030484",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7648180042392030484/7648180042392030484.eng-US.vtt",
+     "tc": "00:01:49–00:01:53",
+     "orig": "Tokyo gave me comfort and Seoul gave me connection.",
+     "ko": "도쿄는 제게 편안함을, 서울은 연결을 줬어요.",
+     "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)",
+     "sound": true
+    },
+    {
+     "uid": "G19561",
+     "ko": "나는 그래도 한국을 선택하겠다.",
+     "orig": "I would still choose Korea.",
+     "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)"
+    },
+    {
+     "video": "7648180042392030484",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7648180042392030484/7648180042392030484.eng-US.vtt",
+     "tc": "00:01:58–00:01:58",
+     "orig": "That's why I'm still here.",
+     "ko": "그래서 제가 아직 여기 있는 거예요.",
+     "who": "도쿄에서 1년 살고 지금 서울에 사는 영어 크리에이터 @ginaxnana(2026-06-06, 조회 7,977)",
+     "sound": true
+    },
+    {
+     "video": "7668240666916343058",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7668240666916343058/7668240666916343058.eng-US.vtt",
+     "tc": "00:00:45–00:00:47",
+     "orig": "In Japan, if you miss the last train,",
+     "ko": "일본에선 막차를 놓치면,",
+     "who": "일본과 한국에 모두 살아 본 영어 크리에이터 @days.with.hana(2026-07-30, 조회 5만 4,100·좋아요 3,073)",
+     "sound": true
+    },
+    {
+     "video": "7668240666916343058",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7668240666916343058/7668240666916343058.eng-US.vtt",
+     "tc": "00:00:49–00:00:51",
+     "orig": "people stay out later because getting home is actually affordable.",
+     "ko": "(한국에선) 집에 가는 비용이 감당할 만해서 사람들이 더 늦게까지 밖에 있어요.",
+     "who": "일본과 한국에 모두 살아 본 영어 크리에이터 @days.with.hana(2026-07-30, 조회 5만 4,100·좋아요 3,073)",
+     "sound": true
+    },
+    {
+     "video": "7577662645386579202",
+     "srt": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/추가수집_20261118/7577662645386579202/7577662645386579202.eng-US.vtt",
+     "tc": "00:00:23–00:00:24",
+     "orig": "it feels more welcoming here,",
+     "ko": "여기가 더 반겨 주는 느낌이에요.",
+     "who": "캐나다에서 온 영어 크리에이터 @matteokorea(일본 석 달 뒤 부산, 2025-11-28, 조회 10만 300·좋아요 2,994)",
+     "sound": true
+    }
+   ],
+   "screen_text": "“도쿄는 편안함을, 서울은 연결을 줬다”",
+   "visual_silent": "서울 밤거리 귀갓길 자료 화면, 도쿄 막차 플랫폼 자료 화면, 친구들과 둘러앉은 식탁 컷, ‘그래서 아직 여기 있다’ 자막 카드",
+   "application": "R07a ¶3 ‘상대의 얕봄 → 결과로 뒤집힘’과 R06 ¶18–21 ‘써 본 사람의 원음’ 기능을 옮겨, 일본의 장점을 가장 먼저 인정한 사람의 입에서 ‘그래도 한국’이라는 결론이 나오게 했다(D08 큰 반전)."
+  }
+ ],
+ "reframes": [
+  "‘말 그대로 전부 더 싸다’로 시작한 영상(훅)은 마지막에 ‘다음엔 일본이 나은 점을 말해 주겠다’로 끝났다(7구간). 한쪽 편을 드는 영상이 아니라 두 나라를 다 본 사람의 비교였다.",
+  "모바일 인터넷은 한국이 4위, 일본이 70위였지만(3구간 앞), 유선 인터넷은 일본이 9위, 한국이 27위였다(3구간 뒤).",
+  "혼밥이 어려운 나라로 보였던 한국(5구간 앞)은, 같은 사람의 입에서 ‘바뀌고 있다’는 말이 나오는 나라였다(5구간 뒤).",
+  "도쿄가 더 깨끗하고 혼밥도 편했다고 인정한 사람(6구간)이, 결국 서울에 남은 사람이었다(8구간)."
+ ],
+ "ending": {
+  "answer": "둘 다 겪어 본 사람 대부분은 ‘둘 다 필요하다’고 했다. 그런데 실제로 한 곳을 골라 살게 된 사람은 편안함을 준 도쿄가 아니라 연결을 준 서울에 남았다.",
+  "redefine": "이들에게 한국은 더 싸고 더 빠른 나라이기 전에, 먼저 말을 걸고 짐을 들어 주는 ‘연결의 나라’였다.",
+  "callback": "훅의 ‘이게 한국이 일본보다 나은 점’과 그 영상의 마지막 문장 ‘다음엔 일본이 나은 점을 말해 줄게요’.",
+  "last_question": "여러분이 일본과 한국을 둘 다 가 본 외국인 친구에게 하나만 고르라고 한다면, 그 친구는 무엇을 이유로 댈까요?"
+ },
+ "time_budget": {
+  "hook_sec": 85,
+  "ending_sec": 85,
+  "base_sec": 1355,
+  "narration_sec": 1300,
+  "clip_sec": 55,
+  "at_1_2x_sec": 1129
+ },
+ "listen": [
+  {
+   "s": 0,
+   "e": "g",
+   "t": "일본과 한국을 둘 다 가 본 여행자가 한국이 나은 점으로 맨 먼저 꼽은 건, 전부 더 싸다였습니다."
+  },
+  {
+   "s": 0,
+   "e": "g",
+   "t": "일본에서 석 달을 보낸 캐나다 청년은 부산 첫날, 부탁도 안 했는데 짐을 들어 준 사람을 만났죠."
+  },
+  {
+   "s": 0,
+   "e": "c",
+   "t": "그런데 맨 처음 영상의 마지막 문장은, 다음엔 일본이 나은 점을 말해 주겠다였어요."
+  },
+  {
+   "s": 0,
+   "e": "q",
+   "t": "두 나라를 다 겪어 본 사람들은 결국 어느 쪽 손을 들었을까요?"
+  },
+  {
+   "s": 1,
+   "e": "g",
+   "t": "첫 판정은 돈이었습니다. 음식, 교통, 쇼핑, 호텔까지 말 그대로 전부 더 싸다는 거예요."
+  },
+  {
+   "s": 1,
+   "e": "e",
+   "t": "여행 커플은 일본에선 예산이 세게 깨졌는데, 부산에선 카페를 돌고도 예산 안이었다고 했죠."
+  },
+  {
+   "s": 1,
+   "e": "c",
+   "t": "다만 서울에 사는 사람은 한 줄을 덧붙였습니다. 월세는 싸 보여도 보증금이 높다."
+  },
+  {
+   "s": 2,
+   "e": "g",
+   "t": "일본에 사는 크리에이터는 신주쿠, 시부야 같은 큰 역에선 확실히 길을 잃었다고 했어요."
+  },
+  {
+   "s": 2,
+   "e": "g",
+   "t": "그런데 서울역에선 A에서 B까지 2초였고, 출구를 찾다 길을 잃은 적이 없었답니다."
+  },
+  {
+   "s": 2,
+   "e": "e",
+   "t": "서울 지하철은 하나의 체계라 아주 논리적이라는 평도 이어졌죠."
+  },
+  {
+   "s": 3,
+   "e": "e",
+   "t": "숫자로도 보입니다. 모바일 인터넷 속도 중간값은 한국이 세계 4위, 일본이 70위였어요."
+  },
+  {
+   "s": 3,
+   "e": "e",
+   "t": "일본 결제 업계 매체가 정리한 캐시리스 비율은 한국 99%, 일본 46.3%였고요."
+  },
+  {
+   "s": 3,
+   "e": "c",
+   "t": "그런데 반대 숫자도 있습니다. 집에서 쓰는 유선 인터넷은 일본이 9위, 한국이 27위였거든요."
+  },
+  {
+   "s": 4,
+   "e": "c",
+   "t": "가장 오래 이야기한 건 사람이었습니다. 일본 석 달 동안 아무도 먼저 말을 걸지 않았대요."
+  },
+  {
+   "s": 4,
+   "e": "g",
+   "t": "부산 첫날엔 부탁도 안 했는데 누군가 짐을 들어 줬고, 지하철에선 어디서 왔냐는 질문을 받았죠."
+  },
+  {
+   "s": 4,
+   "e": "g",
+   "t": "그러면서도 그는 선을 그었습니다. 일본 사람들이 친절하지 않다는 말은 아니라고요."
+  },
+  {
+   "s": 4,
+   "e": "g",
+   "t": "한국 사람들의 시선을 두고는 이런 말이 나왔어요. 호기심이에요, 감탄일 수도 있고요."
+  },
+  {
+   "s": 5,
+   "e": "c",
+   "t": "물론 한국이 전부 이긴 건 아닙니다. 첫 번째 작은 반전은 혼밥이에요."
+  },
+  {
+   "s": 5,
+   "e": "c",
+   "t": "한국 식당은 최소 2인분부터라, 혼자 가면 양도 값도 두 배라는 지적이 나왔죠."
+  },
+  {
+   "s": 5,
+   "e": "e",
+   "t": "그런데 서울에 사는 사람은 이런 말을 들었다고 했어요. 맞아, 바뀌고 있어."
+  },
+  {
+   "s": 6,
+   "e": "c",
+   "t": "반전은 하나 더 있습니다. 기술 혁신과 점원 응대는 일본이 낫다는 말이 나왔거든요."
+  },
+  {
+   "s": 6,
+   "e": "c",
+   "t": "일본에 사는 미국 출신 여성은 한국에 외국인 입장을 거부하는 곳이 많아 충격이었다고 했어요."
+  },
+  {
+   "s": 6,
+   "e": "e",
+   "t": "영어권 인스타그램을 열면 일본 사랑이 더 뚜렷합니다. 처음 간 일본에서 아직 못 벗어났대요."
+  },
+  {
+   "s": 7,
+   "e": "e",
+   "t": "그래서 많은 사람이 내린 결론은 둘 다였습니다. 진실은 이거다, 둘 다 필요하다."
+  },
+  {
+   "s": 7,
+   "e": "e",
+   "t": "한국의 에너지를 사랑하려면, 일본의 고요를 겪어 봐야 한다는 거죠."
+  },
+  {
+   "s": 7,
+   "e": "c",
+   "t": "일본에 가면 다시 가고 싶어질 거라는 말도 있었어요."
+  },
+  {
+   "s": 8,
+   "e": "g",
+   "t": "큰 반전은 두 나라에 실제로 살아 본 사람에게서 나왔습니다."
+  },
+  {
+   "s": 8,
+   "e": "g",
+   "t": "도쿄가 더 깨끗하고 혼밥도 편했다고 인정한, 바로 그 사람이에요."
+  },
+  {
+   "s": 8,
+   "e": "g",
+   "t": "도쿄는 편안함을, 서울은 연결을 줬다. 그래도 나는 한국을 고르겠다."
+  },
+  {
+   "s": 8,
+   "e": "g",
+   "t": "그리고 덧붙였죠. 그래서 제가 아직 여기 있는 거예요."
+  },
+  {
+   "s": 8,
+   "e": "e",
+   "t": "일본에선 막차를 놓치면 끝인데, 한국에선 늦게까지 밖에 있어도 집에 갈 수 있다는 말도 나왔습니다."
+  },
+  {
+   "s": 9,
+   "e": "e",
+   "t": "둘 다 겪어 본 사람 대부분은 둘 다 필요하다고 했습니다."
+  },
+  {
+   "s": 9,
+   "e": "g",
+   "t": "그런데 한 곳을 골라 살게 된 사람은, 편안함의 도쿄가 아니라 연결의 서울에 남았어요."
+  },
+  {
+   "s": 9,
+   "e": "g",
+   "t": "더 싸고 더 빠르기 전에, 먼저 말을 걸고 짐을 들어 주는 나라였던 셈이죠."
+  },
+  {
+   "s": 9,
+   "e": "q",
+   "t": "일본과 한국을 둘 다 가 본 친구에게 하나만 고르라고 하면, 그 친구는 무엇을 이유로 댈까요?"
+  }
+ ],
+ "titles": {
+  "쓸모왕": [
+   {
+    "thumb": [
+     "한국이 일본보다 나은 점",
+     "말 그대로 전부 더 싸다",
+     "외국인들 경악한 비교"
+    ],
+    "title": "“이게 한국이 일본보다 나은 점” 둘 다 가 본 외국인들 경악 / 음식·교통·호텔 전부 더 싸다"
+   },
+   {
+    "thumb": [
+     "모바일 속도 한국 세계 4위",
+     "일본은 70위였다",
+     "외국인들 놀란 인터넷 격차"
+    ],
+    "title": "“한국 인터넷은 빠르기로 유명하다” 모바일 374 대 121 / 일본 다녀온 외국인들 놀란 이유"
+   },
+   {
+    "thumb": [
+     "신주쿠에선 길을 잃었는데",
+     "서울역에선 2초 만에",
+     "외국인들 충격받은 한국 지하철"
+    ],
+    "title": "“한국에선 출구 찾다 길 잃은 적이 없다” 일본 사는 외국인들 충격 / 서울역 2초의 비밀"
+   },
+   {
+    "thumb": [
+     "일본 석 달, 말 건 사람 없었다",
+     "부산 첫날 짐 들어 준 사람",
+     "외국인들 난리난 한국 인심"
+    ],
+    "title": "“일본에선 석 달 동안 아무도 말을 안 걸었다” 한국 부산 첫날에 외국인들 놀란 이유"
+   }
+  ],
+  "단골이슈": [
+   {
+    "thumb": [
+     "도쿄 1년 살고 서울로",
+     "그래도 나는 한국을 고른다",
+     "외국인들 발칵 뒤집힌 결론"
+    ],
+    "title": "“도쿄는 편안함, 서울은 연결” 둘 다 살아 본 외국인들 / 그래도 한국을 고른 충격 이유"
+   },
+   {
+    "thumb": [
+     "일본은 쳐다보고 고개 돌려",
+     "한국은 먼저 말을 건다",
+     "일본인들과 다른 한국 시선"
+    ],
+    "title": "“일본인들은 보고 고개를 돌린다” 한국은 먼저 다가온다 / 일본 사는 외국인들 놀란 차이"
+   },
+   {
+    "thumb": [
+     "한국 고깃집은 2인분부터",
+     "혼밥은 일본이 편했다",
+     "외국인들 충격받은 식당"
+    ],
+    "title": "“고깃집은 최소 2인분” 한국 혼밥에 외국인들 충격 / 일본이 더 편했던 이유와 반전"
+   },
+   {
+    "thumb": [
+     "현금의 일본, 카드의 한국",
+     "캐시리스 99% 대 46%",
+     "외국인들 경악한 결제 차이"
+    ],
+    "title": "“일본은 아직 현금, 한국은 초연결 카드 사회” 외국인들 경악한 결제 차이 / 숫자로 보니"
+   }
+  ],
+  "K스토리라인": [
+   {
+    "thumb": [
+     "한국 인터넷에 놀란 외국인들",
+     "와이파이가 어디에나",
+     "해외반응 리액션"
+    ],
+    "title": "“와이파이가 말 그대로 어디에나”🔥 일본 다녀와 한국에 놀란 외국인들 《한일 여행 비교》 해외반응 리액션"
+   },
+   {
+    "thumb": [
+     "한국 지하철에 놀란 외국인들",
+     "서울역 출구 2초 컷",
+     "해외반응 리액션"
+    ],
+    "title": "“한국에선 길을 잃은 적이 없다”😱 서울역에 놀란 외국인들 《지하철 비교》 해외반응 리액션"
+   },
+   {
+    "thumb": [
+     "한국 인심에 놀란 외국인들",
+     "부산 첫날 짐 들어 준 사람",
+     "해외반응 리액션"
+    ],
+    "title": "“일본 석 달, 아무도 말을 안 걸었다”😭 한국 부산 첫날에 놀란 외국인들 《부산 여행》 해외반응"
+   },
+   {
+    "thumb": [
+     "한국을 고른 외국인들",
+     "도쿄 1년 뒤 서울행",
+     "해외반응 리액션"
+    ],
+    "title": "“그래도 나는 한국을 고른다”🔥 도쿄 살다 서울 온 외국인들 놀란 결론 《한일 생활》 해외반응 리액션"
+   }
+  ]
+ },
+ "success_memo": [
+  "D05 모자이크: 같은 질문(일본 vs 한국)에 답한 영어권 크리에이터 13명을 돈 → 길 → 숫자 → 사람 순으로 무대를 바꿔 이었다.",
+  "D08 작은 반전→큰 반전: ‘싸다·빠르다’ 뒤에 ‘유선은 일본’, ‘혼밥은 일본’, ‘기술·응대는 일본’이라는 작은 반전 셋을 쌓고, 일본 장점을 가장 먼저 인정한 사람의 ‘그래도 한국’으로 큰 반전을 냈다.",
+  "불리한 사실 먼저(LEARNINGS 2-6): 외국인 입장 거부, 관광객 피로, 2인분 주문처럼 한국에 불리한 원음을 6구간까지 감추지 않아 결론의 신뢰를 높였다.",
+  "씨앗과 회수(LEARNINGS 2-7): 훅의 ‘다음엔 일본이 나은 점’ 문장을 7구간에서 되살려, ‘둘 다’ → ‘그래도 한국’으로 넘어가는 디딤돌로 썼다.",
+  "숫자는 전부 원문 값: 374.01·121.46Mbps(4위·70위), 419.20·319.06Mbps(9위·27위), 99.0%·46.3%, 조회·좋아요는 영상 정보 파일 값."
+ ],
+ "excluded": [
+  "@theufuoma 영상(G19499·G19537): 69번이 G19537을 이미 써서 같은 영상을 피했다.",
+  "@james_s_welsh·스킨케어·메이크업 비교 틱톡: 57번(스킨케어)·56번(미용)과 주제가 겹쳐 제외.",
+  "연애·데이트 비교 틱톡(@mojiverse, @cameronexplores 등): 씨앗(영어권 여행자가 본 한국)과 거리가 멀어 제외.",
+  "@ejikekingsmomentoftruth(체류·취업 비자 이야기): 72번 노동 주제와 겹치고 망명 언급이 있어 제외.",
+  "@days.with.hana의 ‘Some electronics will refuse to sit you alone in’ 자막: 자동 자막이 뭉개져 뜻이 불분명해 인용하지 않았다.",
+  "묶음 A절(러시아어·중국어·일본어 인스타그램): 영어권 화자가 아니고, Q00307·Q00146 계열은 75·76번이 이미 썼다.",
+  "묶음 D절 영상(중국 블로거 서울·도쿄 영상): 영어권 화자가 아니어서 선점하지 않았다.",
+  "Ookla 페이지의 두 번째 수치 묶음(모바일 244.17Mbps 등): 어떤 기준인지 페이지 문구로 구분되지 않아 쓰지 않았다."
+ ],
+ "unverified": [
+  "묶음 A절에 영어권 인스타그램 게시물이 없어, 같은 영어권 크리에이터의 틱톡 비교 영상 13편(외장 폴더 원본·영어 자동 자막 vtt)을 썼다. 영어권 인스타그램은 C절의 일본 릴스 4건(Q07409·Q07280·Q07283·Q07244)만 썼다.",
+  "크리에이터 국적은 대부분 밝혀져 있지 않다. @matteokorea는 영상 속 대화(‘You're from Canada’)로, @hahasammii는 ‘coming from America’ 발언으로 캐나다·미국 출신이라 적었다.",
+  "자동 자막의 ‘The sole metro’, ‘soul is just a different vibe’는 발음상 ‘Seoul’로 보고 번역했다.",
+  "au PAY 매거진의 한국 99.0%는 2022년 값(캐시리스 추진협의회 로드맵 2024가 Euromonitor 참고값으로 실은 수치), 일본 46.3%는 2025년 국제 비교 지표다. 해가 달라 낭독문에선 ‘정리한 비율’이라고만 말했다.",
+  "Ookla 수치는 2026년 9월 기준 중간값이며 측정 방식(사용자 측정 표본)에 따라 달라질 수 있다.",
+  "@hahasammii의 ‘외국인 입장 거부’는 2024년 4월 개인 경험담이며 업소 수를 따로 대조하지 않았다.",
+  "C절 인스타그램 릴스의 캡션은 은행 자료의 요약 표기를 따랐다."
+ ]
+}

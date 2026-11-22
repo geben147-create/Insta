@@ -668,6 +668,34 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "소품이 크게 보이는 전경과 한 동작으로 질감이 바뀌는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "23",
+      "file": "23-꽃무늬프레스드파우더.png",
+      "local_relative_path": "queue-60/23-꽃무늬프레스드파우더.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "c5cd91dd3d5a02030d1e8ea180019ab73f852d7882e64158c9d6ee43fce215d6",
+      "trip_hotel_id": "9866623",
+      "facility": "셀추크 아쿠아 판타지 아쿠아파크 호텔 앤 스파 워터파크",
+      "composition": "마른 데크 측면에서 허리 높이 사선으로 선 인물과 곡선형 튜브 풀을 담은 구도",
+      "facility_source_url": "https://www.trip.com/hotels/selcuk-hotel-detail-9866623/hotel/?locale=en-US",
+      "trip_public_url": "https://us.trip.com/hotels/selcuk-hotel-detail-9866623/aqua-fantasy-aquapark-hotel-and-spa-24h-all-inclusive/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0225912000kzgieoc915E_R_600_360_R5.webp",
+      "facility_photo_sha256": "df21fd15c7a2a2af02c934b2567b35a3f2b48ac994fdc01fa95f8b6e2a2d7866",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/23-floral-pressed-powder.md",
+      "flow_prompt_sha256": "0c715aa159a4a2625aba74c0064c1de5643ac382ed625afb6545f2d3fd39af47",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238601"
+      ],
+      "product_reference_use": "어바웃톤 블러 파우더 팩트의 압축 분말 질감 참고. 대형 꽃무늬 파우더와 실리콘 틀은 별도 비식용 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "사탕깨기 영상의 짧고 선명한 촉각음을 꽃 모형의 틀 분리에 적용",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

@@ -1227,6 +1227,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "겉이 열리는 순간에 내부 질감과 짧은 촉각음을 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "45",
+      "file": "45-딸기케이크퍼즐.png",
+      "local_relative_path": "queue-60/45-딸기케이크퍼즐.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "2f0064c1214984f3ffedbb3c6a37ba519bb166f67db732b933534a8dd99eae52",
+      "trip_hotel_id": "116623075",
+      "facility": "릭소스 프리미엄 케타이판 아일랜드 노스가 안내하는 메리알 워터파크",
+      "composition": "마른 데크 테이블 위 사선에서 빈 퍼즐 홈과 맞추는 조각, 뒤쪽 대형 경사면을 담음",
+      "facility_source_url": "https://us.trip.com/hotels/lusail-hotel-detail-116623075/rixos-premium-qetaifan-island-north/",
+      "trip_public_url": "https://us.trip.com/hotels/lusail-hotel-detail-116623075/rixos-premium-qetaifan-island-north/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1mc1b12000gncxpayCACB_R_600_360_R5.webp",
+      "facility_photo_sha256": "e897704c0b9471dfde7f91ba631800415d819dfb1121145dbbbaf1c7833927d4",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/45-strawberry-cake-puzzle.md",
+      "flow_prompt_sha256": "87dda2566fcca78f517d2b12b749dc8c748285c7c86bb56238b6b200bb744d08",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "하나의 큰 소품을 조작하는 순간에 단면과 짧은 촉각음을 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

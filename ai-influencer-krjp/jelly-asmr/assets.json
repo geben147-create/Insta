@@ -2289,6 +2289,33 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
       "creative_reference_use": "한 번의 뒤집기 동작으로 다른 색과 광택 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "87",
+      "file": "87-베이스브러시롤업.png",
+      "local_relative_path": "queue-60/87-베이스브러시롤업.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "fa8149a41121b9c39a6416f5f67e7da20323f94b005b48f902d65e013a17390d",
+      "trip_hotel_id": "3450069",
+      "facility": "코렌돈 플라야 케메르 호텔 해변 워터파크",
+      "composition": "산책로 탁자의 짧은 변 너머로 살짝 내려다보며 롤형 케이스와 해변 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/kemer-hotel-detail-3450069/hotel/",
+      "trip_public_url": "https://www.trip.com/hotels/kemer-hotel-detail-3450069/hotel/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/02242120009h1qf64E90D_R_600_360_R5.webp",
+      "facility_photo_sha256": "5d152356c838f691dfa9a937242775f1c248d485bd95bea3884e6ae262a3f967",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/87-base-brush-roll-up.md",
+      "flow_prompt_sha256": "5de54ba095af699100980c466514dd4aa3f829e5f60482fed4236426b09fce7d",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000225250"
+      ],
+      "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
+      "creative_reference_use": "한 번 펼쳐 안쪽 색과 질감을 드러냄",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

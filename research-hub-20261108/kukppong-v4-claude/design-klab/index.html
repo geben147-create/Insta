@@ -1,0 +1,65 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>국뽕 클랩 디자인 시안</title>
+<style>
+:root{--lime:#D9FF65;--lime-bg:#F5FFDC;--pink-bg:#FEE9F2;--warn:#FCF1ED;--ink:#111;--maroon:#7a1f33;--red:#ff3b5c;--bg:#f4f4f2;--fg:#1a1a1a;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#161616;--fg:#eee;--card:#232323}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:"Pretendard","Noto Sans KR",sans-serif}
+main{max-width:1000px;margin:0 auto;padding:24px 16px 60px}h1{font-size:26px}h2{font-size:18px;margin:36px 0 6px}p.n{margin:0 0 10px;font-size:14px;opacity:.75}
+.fr{position:relative;aspect-ratio:16/9;overflow:hidden;border-radius:6px;background:linear-gradient(135deg,#4a5560,#1f252b 60%,#5b4a42);color:#fff;container-type:inline-size}
+.fr::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 6px,transparent 6px 30px),repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 6px,transparent 6px 22px)}
+.dim::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.45)}
+.fr>*{position:absolute;z-index:2}
+.sub{left:50%;bottom:7%;transform:translateX(-50%);background:#fff;color:var(--ink);font-weight:800;font-size:4.2cqw;padding:.3em .6em;white-space:nowrap}
+.logo{right:2%;bottom:3%;width:6cqw;height:6cqw;background:#e0218a;border-radius:3px;font:italic 800 2cqw/6cqw sans-serif;text-align:center;color:#fff}
+.head{left:12%;top:40%;font-weight:900;font-size:4.6cqw;line-height:1.2}.head b{background:var(--lime);color:var(--ink);padding:0 .25em}
+.bub{background:#fff;color:var(--ink);font-weight:800;font-size:3.6cqw;padding:.35em .7em;border-radius:3px;display:flex;gap:.4em;align-items:center;box-shadow:0 2px 6px rgba(0,0,0,.4)}
+.bub i{font-style:normal;font-size:5cqw}
+.gray{background:#cfcfcf;background-image:radial-gradient(rgba(0,0,0,.08) 1px,transparent 1px);background-size:4px 4px;color:#111}.gray::before,.gray::after{display:none}
+.ttl{left:0;right:0;top:12%;text-align:center;font-weight:900;font-size:4cqw}.ttl::before{content:"[ ";color:var(--red)}.ttl::after{content:" ]";color:var(--red)}
+.src{left:0;right:0;top:22%;text-align:center;color:var(--maroon);font-size:2cqw}
+.big{font-weight:900;color:#111;text-shadow:0 0 .12em #fff,0 0 .12em #fff;font-size:7cqw}
+.tag{background:#111;color:#fff;font-weight:800;font-size:3cqw;padding:.1em .5em;border-radius:3px}
+.ring{width:30cqw;height:30cqw;border-radius:50%;background:conic-gradient(#e8294a 0 50.3%,#2f4be0 50.3% 87.1%,#f2f28a 87.1% 90.4%,#111 90.4%)}
+.ring::after{content:"1988년";position:absolute;inset:25%;background:#eee;border-radius:50%;display:grid;place-items:center;font-size:3cqw;color:#222}
+.news{left:6%;right:6%;bottom:18%}.news .logo2{font-weight:900;font-size:3.4cqw}.news .hl{display:inline;font-weight:900;font-size:3.8cqw;background:var(--lime);color:var(--ink);padding:.05em .2em}
+.news .hl2{font-weight:900;font-size:3.8cqw}.news small{display:block;font-size:2.4cqw;opacity:.85;margin-top:.4em}
+.type{overflow:hidden;white-space:nowrap;display:inline-block;max-width:0;vertical-align:bottom;animation:ty 3s steps(22) infinite}
+@keyframes ty{0%{max-width:0}60%,100%{max-width:40em}}
+.zi{inset:0;animation:zi 6s ease-in-out infinite alternate;background:inherit;z-index:1!important}@keyframes zi{to{transform:scale(1.18)}}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.card{background:var(--card);padding:12px;border-radius:8px;font-size:14px;line-height:1.6}
+.sw{display:inline-block;padding:4px 10px;border-radius:4px;margin:2px;color:#111;font-size:13px;border:1px solid #0002}
+.refs{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}.refs img{width:100%;border-radius:4px}
+code{background:#8883;padding:1px 5px;border-radius:3px}
+</style></head><body><main>
+<h1>국뽕 영상 · 클랩(klab) 스타일 화면 디자인 시안</h1>
+<p class="n">참고 사진 7장(ref_1~7) 기준. 영상 위에 얹는 요소 5종 + 전환·효과음 규칙. 아래 프레임은 16:9 시안입니다(자막 띠 항상 맨 아래, 로고는 가림/모자이크).</p>
+
+<h2>1. 원음 구간 — 원본 클립 + 한국어 흰 띠 자막 (참고 1)</h2>
+<p class="n">원본 중국어 자막은 띠로 덮는다. 컷 4초 이하, 좌우반전·크롭·속도 변경.</p>
+<div class="fr"><div class="bub" style="left:31%;top:36%;border-radius:0;box-shadow:none">와 인도 영국한테도 밀려?ㅋㅋ</div><div class="sub" style="bottom:12%">인구 훨씬 적은 영국한테 밀리는 건 수치스럽겠는데</div><div class="logo" style="left:2%;right:auto;background:#555;filter:blur(2px)">모자이크</div></div>
+
+<h2>2. 내레이션 구간 — 어두운 B-roll + 키워드 헤드라인 (참고 4·6)</h2>
+<p class="n">원본 영상은 소리 없이 어둡게(반투명 45%) 깔고, 흰 굵은 글씨 + 형광 연두(#D9FF65) 강조. 천천히 줌인.</p>
+<div class="fr dim"><div class="zi"></div><div class="news"><div class="logo2">● 조선비즈</div><span class="hl">임금 올랐지만 물가가 더 뛰었다…</span> <span class="hl2">日 실질임금 4년 연속 감소</span><small>유병훈 기자 · 입력 2026.05.23.</small></div><div class="sub" style="background:none;color:#fff;font-weight:700">국민들이 체감하는 소득 개선은 더뎠다는데요</div></div>
+
+<h2>3. 댓글·인용 — 흰 말풍선 + 이모지 + 타이핑 (참고 5)</h2>
+<p class="n">실제 댓글만. 글자가 한 글자씩 타이핑되고 이모지는 팝업.</p>
+<div class="fr dim"><div class="bub" style="left:8%;top:22%"><i>🤔</i><span class="type">다문화는 왜 우선순위로 쳐줘야 함?</span></div><div class="bub" style="right:6%;top:55%"><span class="type">세금으로 저런 거까지 해줘야 하나?</span><i>🧐</i></div></div>
+
+<h2>4. 그래프 — 회색 질감 + [ 제목 ] + 큰 숫자 + 출처 (참고 2·3)</h2>
+<div class="row"><div class="fr gray"><div class="ttl">국가별 반도체 세계 매출 점유율</div><div class="src">출처: 일본 경제산업성(2021), Omdia</div><div class="ring" style="left:10%;top:36%"></div><div class="big" style="right:12%;top:50%">50.3%</div><div class="tag" style="right:30%;top:48%;display:none">일본</div></div>
+<div class="fr gray"><div class="ttl">일본 근로자 월평균 명목 임금</div><div class="src">5인 이상 사업장·상여금 포함 / 출처: 후생노동성</div><div class="big" style="left:6%;top:36%;font-size:6cqw">371,670엔</div><div style="left:44%;top:36%;color:var(--red);font-size:7cqw;font-weight:900">→</div><div class="big" style="right:5%;top:36%;font-size:6cqw">355,941엔</div><div class="tag" style="left:40%;top:27%;background:var(--maroon)">약 4% 감소</div></div></div>
+
+<h2>5. 지도·인물 메모 (참고 6 변형)</h2>
+<div class="fr gray" style="background:linear-gradient(90deg,#fff 40%,#d9d9d9)"><div class="tag" style="left:30%;top:14%;background:#14284a;color:#ffe96a">돈바스 지역</div><div style="left:45%;top:25%;width:28%;height:50%;background:#e8294a;border:4px solid #f59a2d;border-radius:30% 10% 40% 20%"></div><div class="bub" style="left:6%;right:6%;bottom:6%;justify-content:center">돈바스에 미점령한 영토가 있어요</div></div>
+
+<h2>6. 화면 전환·효과음 규칙</h2>
+<div class="card"><b>전환</b> 줌인 · 줌아웃 · 책 넘어가는(페이지 컬) 효과 / <b>타이핑</b> 댓글·언론 카드 / <b>효과음</b> 책장 넘김·함성 등, 너무 많지 않게(1~2분에 3~4회 이하) / <b>로고</b> 빌리빌리·샤오홍슈 등은 모자이크</div>
+
+<h2>7. 색상 4종 (참고 사진 추출)</h2>
+<span class="sw" style="background:#F5FFDC">연연두 배경 #F5FFDC</span><span class="sw" style="background:#D9FF65">형광 연두 #D9FF65</span><span class="sw" style="background:#FEE9F2">연분홍 배경 #FEE9F2</span><span class="sw" style="background:#FCF1ED">주의 박스 #FCF1ED</span>
+
+<h2>참고 원본 사진</h2><div class="refs"><img src="ref/ref_1.webp" alt="ref1"><img src="ref/ref_2.webp" alt="ref2"><img src="ref/ref_3.webp" alt="ref3"><img src="ref/ref_4.webp" alt="ref4"><img src="ref/ref_5.webp" alt="ref5"><img src="ref/ref_6.webp" alt="ref6"><img src="ref/ref_7.webp" alt="ref7"></div>
+<p class="n" style="margin-top:30px">기록: 2026-11-22 · klab 스타일 시안 작성 — by Claude Code</p>
+</main></body></html>

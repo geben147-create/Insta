@@ -16,3 +16,11 @@ sha256sum -- '최종이미지.png'
 [올리브영 판매 랭킹과 뷰티 소품 후보](oliveyoung-top20.md)
 
 [청담언니 분석을 적용한 장면](cheongdam-reference.md) · [Trip.com 제휴 링크 발급 안내](https://www.trip.com/partners/help/faq/tools)
+
+## 실제 시설 사진 직접 참조
+
+신규 제작은 시설 설명과 함께 Trip.com 갤러리의 실제 해당 시설 사진을 눈으로 확인하고 이미지 생성의 입력 자료로 넣는다. `facility_photo_url`과 `facility_photo_sha256`을 최종 이미지 해시와 함께 기록한다. 일반 수영장이나 워터파크는 그 시설 이름으로 표시하고, 자쿠지는 원본에서 실제 자쿠지임이 확인될 때만 그렇게 표시한다. 생성 시안이 참고하는 시설과 촬영 장면을 구분한다.
+
+왕팝콘 시안은 한화리조트 경주 Trip.com 갤러리에서 워터파크로 표시된 사진을 썼다. [숙소·시설](https://www.trip.com/hotels/gyeongju-hotel-detail-688858/hanwha-resort-gyeongju/) · [시설 원본 사진](https://ak-d.tripcdn.com/images/0220q12000pu5amfaCFEB_Z_1280_853_R50_Q90.jpg) · [청담언니 팝콘 참고](https://www.youtube.com/watch?v=A9h1jHGffVw)
+
+[예약 제작 50편](queue-50.md)

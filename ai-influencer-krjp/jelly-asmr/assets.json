@@ -102,6 +102,22 @@
       "trip_affiliate_url": null,
       "trip_affiliate_status": "pending",
       "creative_reference_url": "https://www.youtube.com/watch?v=0WoU6VSQQLk"
+    },
+    {
+      "file": "청담언니-네가지맛-왕팝콘.png",
+      "sha256": "1294daf3a7f7ea4e1a26f283d32695fcd2228def28a80e22f1a4c5b458dcbb6d",
+      "width": 941,
+      "height": 1672,
+      "trip_hotel_id": "688858",
+      "facility": "뽀로로 아쿠아빌리지 가족 워터파크",
+      "facility_source_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-688858/hanwha-resort-gyeongju/",
+      "trip_public_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-688858/hanwha-resort-gyeongju/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0220q12000pu5amfaCFEB_Z_1280_853_R50_Q90.jpg",
+      "facility_photo_sha256": "937286e67fffeaef7bf448cb795cbe3beaeea6d8023f944f60f577ae6bc96eff",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "creative_reference_url": "https://www.youtube.com/watch?v=A9h1jHGffVw"
     }
   ]
 }

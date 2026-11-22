@@ -1,10 +1,34 @@
 [
   {
+    "id": "jp-suteteko-smk002",
+    "market": "일본 · 상위 가격대",
+    "title": "Suteteko 일본제 긴소매 래시가드 SMK002",
+    "rank": "2026-11-02 라쿠텐 키즈·주니어 일간 6위 스냅샷",
+    "look": "긴소매 단품, 기록 가격 3,490엔. 키 100–180cm 상품이라 아기 사이즈 적합 여부 확인 필요",
+    "url": "https://item.rakuten.co.jp/suteteko/smk002/",
+    "proof": "https://ranking.rakuten.co.jp/daily/501765/",
+    "url_sha256": "ca5803a98d4c23bb089d29290b868a08deddff4a34d33524920784d404f7709f",
+    "affiliate_url": null,
+    "checked_kst": "2026-11-22"
+  },
+  {
+    "id": "us-coolibar-island-10686",
+    "market": "미국 · 프리미엄 후보",
+    "title": "Coolibar Island Baby Rash Guard Set 10686 · Eden Green",
+    "rank": "제조사 상품가 확인 · Top 10 미확인",
+    "look": "상하의 세트, 제조사 표시 정가 USD 49, 표시 할인 USD 29.99. 사이즈별 구매 가능 여부 확인 필요",
+    "url": "https://www.coolibar.com/products/baby-island-rash-guard-set-eden-colorblock-colorblock",
+    "proof": null,
+    "url_sha256": "0dce916186d6ee5a46c41551192115eb7250944c9cb6ebfba512b810e4baa803",
+    "affiliate_url": null,
+    "checked_kst": "2026-11-22"
+  },
+  {
     "id": "jp-heazel-18h-rz3",
-    "market": "일본",
+    "market": "일본 · 비교 가격대",
     "title": "FELLOW SURF HEAZEL 18H-RZ3",
     "rank": "2026-11-02 라쿠텐 키즈·주니어 래시가드 일간 1위 기록",
-    "look": "민트색, 후드 없는 높이 있는 칼라, 긴소매 집업",
+    "look": "민트색, 후드 없는 높이 있는 칼라, 긴소매 집업 단품. 11월 2일 순위 화면에 2,180엔부터 표시",
     "url": "https://item.rakuten.co.jp/go-island/000000078/",
     "proof": "https://ranking.rakuten.co.jp/daily/501765/",
     "url_sha256": "7722de17d2609b37741f7e3854597002ee2aa5780ee04332c764fdfab91f7351",
@@ -13,9 +37,9 @@
   },
   {
     "id": "kr-sfit-sjy304mktr70",
-    "market": "한국",
+    "market": "한국 · 과거 후보",
     "title": "에스핏 서퍼 3.5부 래쉬가드 세트 SJY304MKTR70",
-    "rank": "쿠팡 랭킹순 아카이브 첫 화면 9번째 상품 · 현재 순위 및 기재 상품 판매 상태 미확인",
+    "rank": "과거 쿠팡 랭킹순 화면 첫 목록의 9번째 상품. 최근 7일 순위·판매 근거가 없어 새 착장 후보 확정 보류",
     "look": "반바지 포함 상하의 수영복 후보",
     "url": "https://www.coupang.com/vp/products/9402756435?itemId=27931664409",
     "proof": "https://www.coupang.com/np/categories/499145",

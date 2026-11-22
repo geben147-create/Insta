@@ -1652,6 +1652,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "첫 손동작에 짧은 파열음을 붙이고 투명한 속 재료를 공개하는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "62",
+      "file": "62-크림진주조개과자.png",
+      "local_relative_path": "queue-60/62-크림진주조개과자.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "f714b9ed71a241ce9258b03e6a578ab8836206c409990318891985ff6b2c34ed",
+      "trip_hotel_id": "14249344",
+      "facility": "아틀란티스 싼야 아쿠아벤처 워터파크",
+      "composition": "마른 돌 작업대의 접시 높이 사선, 굴러 나오는 크림 진주와 돛 모양 타워를 함께 담음",
+      "facility_source_url": "https://www.trip.com/hotels/sanya-hotel-detail-14249344/atlantis-sanya/",
+      "trip_public_url": "https://www.trip.com/hotels/sanya-hotel-detail-14249344/atlantis-sanya/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0200o120008w0mid8D8DA_R_600_360_R5.webp",
+      "facility_photo_sha256": "7e87c785504969aad2a5df45f300be419340aebbdcbd72c671ce8104ed809824",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/62-cream-pearl-clam-cracker.md",
+      "flow_prompt_sha256": "55942fc70a1d4bc94aade42190386257015666838339fb02a595975fec57fe8f",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "첫 손동작과 짧은 파열음, 속 재료 공개를 연결하는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

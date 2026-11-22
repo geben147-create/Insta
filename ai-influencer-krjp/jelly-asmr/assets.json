@@ -777,6 +777,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "소품에서 작은 조각을 떼며 단면과 질감에 맞는 짧은 소리를 드러내는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "27",
+      "file": "27-복숭아샤베트진주.png",
+      "local_relative_path": "queue-60/27-복숭아샤베트진주.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "bc2fd4d39fd3258b4dd125a1246f4b9d90c1b57c64c6a45866d283e08edc8cb3",
+      "trip_hotel_id": "97713081",
+      "facility": "로열턴 스플래시 리비에라 칸쿤 워터파크",
+      "composition": "마른 전망 난간 안쪽에 선 인물을 가슴 아래에서 올려다보며 반구 틀과 낙하하는 구슬을 담음",
+      "facility_source_url": "https://www.trip.com/hotels/benito-juarez-hotel-detail-97713081/royalton-splash-riviera-cancun-an-autograph-collection-all-inclusive-resort/",
+      "trip_public_url": "https://www.trip.com/hotels/benito-juarez-hotel-detail-97713081/royalton-splash-riviera-cancun-an-autograph-collection-all-inclusive-resort/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0221412000l5ll2y8B032_R_600_360_R5.webp",
+      "facility_photo_sha256": "b53c7621b7056ade1987ae3c3e1830d82e251f6e6fe6ce26c85237bfb100410a",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/27-peach-sorbet-pearls.md",
+      "flow_prompt_sha256": "46a4f4ab78a83637f0ff3f00be4ccac0c909bd40d881fddbf21b103a8ee82c5b",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "소품의 이음새를 열어 작은 식용 조각을 드러내고 질감에 짧은 소리를 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

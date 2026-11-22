@@ -443,6 +443,34 @@
       "creative_reference_use": "소품의 압력 변화와 해당 동작의 짧은 ASMR 소리",
       "character_reference": "남자모델-3안-v4.png 가운데 B안",
       "flow_prompt_sha256": "8edb61d838e605e4e5247ac7aa24d7c413ae0347c2f411a0e1765c401d8ed729"
+    },
+    {
+      "queue_id": "15",
+      "file": "15-초대형쿠션리필.png",
+      "local_relative_path": "queue-60/15-초대형쿠션리필.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "1c89f477b651fdf6d22a12c91da852a76f8fabd956b6a2175e909be444fe137d",
+      "trip_hotel_id": "73661455",
+      "facility": "센타라 미라지 비치 리조트 두바이 워터파크",
+      "composition": "해변 워터파크를 내려다보는 건조한 테라스·쿠션 격자 접사",
+      "facility_source_url": "https://www.trip.com/hotels/dubai-hotel-detail-73661455/centara-mirage-beach-resort-dubai/",
+      "trip_public_url": "https://www.trip.com/hotels/dubai-hotel-detail-73661455/centara-mirage-beach-resort-dubai/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0224t12000blc6bw3F24E_R_600_360_R5.webp",
+      "facility_photo_sha256": "e56d147008487bd9253a88185555440d86a6e70c3c25a94bd8089eb53ce963f0",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/15-cushion-refill.md",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000139063"
+      ],
+      "product_reference_use": "실제 참고 상품은 정샘물 에센셜 스킨 누더 쿠션. 영상의 무브랜드 격자 쿠션과 퍼프는 대형 비식용 촬영 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "손동작과 동시에 재질이 드러나는 짧은 ASMR 비트",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안",
+      "flow_prompt_sha256": "0b2a37ca9120a401181d32cfaf3c6283d40cff063a607d512d3dba3c4f41dcee"
     }
   ]
 }

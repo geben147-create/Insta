@@ -1277,6 +1277,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "사탕이 부러지는 짧은 소리와 깨진 단면을 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "47",
+      "file": "47-블루베리시리얼시계.png",
+      "local_relative_path": "queue-60/47-블루베리시리얼시계.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "ed9caae1ff8e47d6a1254bdbe7bebab46fce2379c7e53acfcb1b6e6b1c167795",
+      "trip_hotel_id": "65644698",
+      "facility": "힐튼 아부다비 야스 아일랜드가 안내하는 야스 워터월드",
+      "composition": "마른 관람 데크에서 원형 시리얼 판을 내려다보는 높은 사선과 뒤쪽 주황 슬라이드",
+      "facility_source_url": "https://www.trip.com/hotels/abu-dhabi-hotel-detail-65644698/hotel/?locale=en-US",
+      "trip_public_url": "https://www.trip.com/hotels/abu-dhabi-hotel-detail-65644698/hotel/?locale=en-US",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0225012000939jquvC498_R_600_360_R5.webp",
+      "facility_photo_sha256": "19a77b67cd330d7313810e81ac101f83ced073ed5125e5ef25e74199455279e3",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/47-blueberry-cereal-clock.md",
+      "flow_prompt_sha256": "a4a90409317f76b6de59ac1e79bbd83ad9586b71968dbbb028a5e351b64cac58",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "소품의 크기 대비와 연속 촉각음을 짧은 손동작에 연결",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

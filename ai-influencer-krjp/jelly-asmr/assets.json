@@ -1527,6 +1527,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "실제 소품보다 큰 형태와 한 조각의 촉각음 및 베어 문 단면 공개를 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "57",
+      "file": "57-파도무늬우유한천.png",
+      "local_relative_path": "queue-60/57-파도무늬우유한천.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "e9f531b9930be371e8686b665542eae9c433697b88bdd58a8c9d2842ec73626e",
+      "trip_hotel_id": "3643862",
+      "facility": "아마드리아 파크 키즈 호텔 안드리야가 안내하는 달마티아 워터파크",
+      "composition": "마른 전망대 왼쪽 위 사선에 앉아 떠낸 파도 한천과 청록색 지붕을 함께 담음",
+      "facility_source_url": "https://www.trip.com/hotels/sibenik-hotel-detail-3643862/amadria-park-kids-hotel-andrija-with-aquapark-included/",
+      "trip_public_url": "https://www.trip.com/hotels/sibenik-hotel-detail-3643862/amadria-park-kids-hotel-andrija-with-aquapark-included/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0584e12000lnxs0o673E6_R_600_360_R5.webp",
+      "facility_photo_sha256": "174a96e2930f1de6615177b187b1e35091554232668e87916532484e5d64184d",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/57-milk-agar-wave.md",
+      "flow_prompt_sha256": "620c1d26450412c8fd897ec9bc0ae6fbf117822eeb8a79c430455b8b6ecf9397",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품의 첫 동작에 촉각음을 맞추고 한입 단면을 보여주는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

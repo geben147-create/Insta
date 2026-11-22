@@ -1427,6 +1427,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "짧은 파열음을 첫 손동작과 안쪽 재료가 드러나는 순간에 맞춤",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "53",
+      "file": "53-모래성크래커.png",
+      "local_relative_path": "queue-60/53-모래성크래커.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "e539258f94f632589c6a517ff5443830857fd3382e6b5864723660cd73d813c9",
+      "trip_hotel_id": "28122591",
+      "facility": "포모리에 웨이브 리조트 워터파크",
+      "composition": "마른 전망 데크의 눈높이 사선, 검은깨 단면과 성 모형을 전경에 두고 파랑·노랑 슬라이드를 배경에 담음",
+      "facility_source_url": "https://www.trip.com/hotels/pomorie-hotel-detail-28122591/wave-resort-ultra-all-inclusive/",
+      "trip_public_url": "https://www.trip.com/hotels/pomorie-hotel-detail-28122591/wave-resort-ultra-all-inclusive/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0226t12000kzsxdyg0A38_R_600_360_R5.webp",
+      "facility_photo_sha256": "5434fb97431b72f9d3fc24d5eccebd2e2da8003b2a87b54d3934f5075e3d3401",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/53-sandcastle-cracker.md",
+      "flow_prompt_sha256": "2460cc5402293cfb366bcfa4c893bb1a5e8c00f7069b3a32143f05c929d0c472",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품에서 조각 하나가 분리되는 촉각음과 단면 공개 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

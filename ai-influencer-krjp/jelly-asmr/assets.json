@@ -1902,6 +1902,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "크기 대비와 첫 손동작에서 나는 짧은 촉각음을 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "72",
+      "file": "72-키위두겹아이스바.png",
+      "local_relative_path": "queue-60/72-키위두겹아이스바.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "c64fc038f9c2cafcde4de44a83a1188c356f4a9f77c79fcf1564fac1cd6e681e",
+      "trip_hotel_id": "46065881",
+      "facility": "로열턴 스플래시 푼타카나 워터파크",
+      "composition": "마른 발코니 그늘에서 눈높이 옆 접사로 키위 아이스바의 단면과 뒤쪽 파랑·흰색 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/bavaro-hotel-detail-46065881/royalton-splash-punta-cana-resort-casino/",
+      "trip_public_url": "https://www.trip.com/hotels/bavaro-hotel-detail-46065881/royalton-splash-punta-cana-resort-casino/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1ik6a12000hbz19al8502_R_600_360_R5.webp",
+      "facility_photo_sha256": "e9fd202100fa4908d2886305d0e1f5725be58e88ea581481350cf05af1cebba3",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/72-kiwi-two-layer-ice-bar.md",
+      "flow_prompt_sha256": "c3cd41373eaa9801a6f081208e88fa373f8a682e24adbb55b75d9f36357673b0",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "한입의 파열음과 겉·속 단면 공개를 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

@@ -1402,6 +1402,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품의 부분 분리와 촉각음, 단면 공개를 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "52",
+      "file": "52-옥수수크림빵.png",
+      "local_relative_path": "queue-60/52-옥수수크림빵.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "fbabab8d74ce7ec0e16c91bcf8f29490ff2afaaaefe30e20852f382c5342eb42",
+      "trip_hotel_id": "3184281",
+      "facility": "자즈 라마야 리조트가 안내하는 코라야 워터파크",
+      "composition": "마른 테이블 옆 낮은 사선에서 앞치마 앞 식용 포장이 벌어지고 뒤로 세 줄 슬라이드가 보이는 구도",
+      "facility_source_url": "https://www.trip.com/hotels/coraya-bay-hotel-detail-3184281/jaz-lamaya-resort/",
+      "trip_public_url": "https://www.trip.com/hotels/coraya-bay-hotel-detail-3184281/jaz-lamaya-resort/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1ik6512000s8z1lfc83E6_R_600_360_R5.webp",
+      "facility_photo_sha256": "12def8628e9d1a7ab4dae42120fa46fd2375d27e294c8c1693a7934124dd3cbc",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/52-corn-cream-bun.md",
+      "flow_prompt_sha256": "47e0cf57153489b350bd4a9d8fb5286a3e4969ac796d125729879a0cdd80b796",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "짧은 파열음을 첫 손동작과 안쪽 재료가 드러나는 순간에 맞춤",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

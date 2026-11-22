@@ -19,7 +19,7 @@
   "juwJwHpjbHs": {
     "sampled_bins": 401,
     "auto_cuts": 23,
-    "hard_cuts": null,
+    "hard_cuts": 22,
     "watch_count": 22,
     "watch_sheets": [
       "grids/juwJwHpjbHs/watch-01.jpg"

@@ -2077,6 +2077,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품에서 조각 하나를 분리하며 짧은 촉각음과 단면 공개를 맞춤",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "79",
+      "file": "79-후르츠그래놀라시계.png",
+      "local_relative_path": "queue-60/79-후르츠그래놀라시계.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "156ad30c7f24ee3855912115099072b91df8da33c460075c141c345e4ea77aa7",
+      "trip_hotel_id": "3462237",
+      "facility": "이베로스타 웨이브스 알쿠디아 파크 워터파크",
+      "composition": "풀 가장자리 마른 탁자 높이 정면에서 그래놀라 시계와 물고기 및 산호 분수를 함께 담음",
+      "facility_source_url": "https://www.trip.com/hotels/muro-hotel-detail-3462237/iberostar-waves-alcudia-park/",
+      "trip_public_url": "https://www.trip.com/hotels/muro-hotel-detail-3462237/iberostar-waves-alcudia-park/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0224a120009hj7rbsAE10_R_600_360_R5.webp",
+      "facility_photo_sha256": "1f1490ffd395cd24ce6e2b8bf46dd7a7321946c7ea5e0263c6db9a10b3a35603",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/79-fruit-granola-clock.md",
+      "flow_prompt_sha256": "940352034ef705eb6243722a141a48e20326f43214aac95e4ffdee4165446611",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품의 첫 손동작과 짧은 촉각음을 맞춤",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

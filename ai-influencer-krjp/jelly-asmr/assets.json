@@ -1952,6 +1952,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "크기 대비와 첫 손동작 후의 촉각음을 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "74",
+      "file": "74-분홍소금초콜릿바위.png",
+      "local_relative_path": "queue-60/74-분홍소금초콜릿바위.png",
+      "width": 875,
+      "height": 1555,
+      "sha256": "c2854a73e797291ba8bc49341d06dbab5f56e402e5616eefa584a3afb370955d",
+      "trip_hotel_id": "8339850",
+      "facility": "판타시아 바이아 프린시페 푼타카나 워터파크",
+      "composition": "차양 아래 전망 좌석 어깨 높이 사선에서 갈라진 초콜릿과 리조트의 대칭 숙소동을 담음",
+      "facility_source_url": "https://us.trip.com/hotels/punta-cana-hotel-detail-8339850/fantasia-bahia-principe-punta-cana-all-inclusive?locale=en-US",
+      "trip_public_url": "https://us.trip.com/hotels/punta-cana-hotel-detail-8339850/fantasia-bahia-principe-punta-cana-all-inclusive?locale=en-US",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0220i12000swydosbD08D_R_600_360_R5.webp",
+      "facility_photo_sha256": "8ba7c9c081a588b574877087b1236dc3efa4442da5de5508e5618f6d78973480",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/74-pink-salt-chocolate-rock.md",
+      "flow_prompt_sha256": "ca5b2ac28369ba78696f8eff1d41004df759fb1916ba1619a171fc14d0a82d98",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품이 갈라질 때 단면과 짧은 파열음을 함께 담는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

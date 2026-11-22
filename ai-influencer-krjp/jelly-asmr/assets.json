@@ -2519,6 +2519,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "코팅을 접어 파열음과 연한 박하 크림 단면 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "96",
+      "file": "96-감자웨이퍼조각보.png",
+      "local_relative_path": "queue-60/96-감자웨이퍼조각보.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "2f3da02e9c2be143a85daf4ab82f65f76bbfdcc328809d7c651005600e8020c4",
+      "trip_hotel_id": "3449185",
+      "facility": "로니세라 월드 워터파크",
+      "composition": "모서리 발코니 탁자 왼쪽 사선에서 조각보와 파란 격자 풀 및 여러 색의 나선 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/alanya-hotel-detail-3449185/lonicera-world/",
+      "trip_public_url": "https://www.trip.com/hotels/alanya-hotel-detail-3449185/lonicera-world/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0223e120009jjmqybE6B7_R_600_360_R5.webp",
+      "facility_photo_sha256": "b70d2d73986d911db670360b33ef4cd5e90018518b5256f0d4de3b2e7f85bf06",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/96-potato-wafer-patchwork.md",
+      "flow_prompt_sha256": "2eb59dc9f1994019aafd9f98ec004b79b60aa3aa02fa53daba8e5ccb939adf95",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "칩을 한 번 밀어 맞추며 다른 색과 바삭한 결을 함께 공개",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

@@ -2316,6 +2316,34 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
       "creative_reference_use": "한 번 펼쳐 안쪽 색과 질감을 드러냄",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "88",
+      "file": "88-뷰티퍼프세척거품.png",
+      "local_relative_path": "queue-60/88-뷰티퍼프세척거품.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "6ec9529a7441592902717d3e32aec273e53751773b4fd40e0fd3f8735e6cb5be",
+      "trip_hotel_id": "3445118",
+      "facility": "릭소스 프리미엄 테키로바 상품의 랜드 오브 레전드 워터파크 갤러리",
+      "composition": "물놀이 시설 관람 난간 안쪽에서 투명 트레이 모서리 너머로 올려다보며 흰 레일과 붉은 첨탑을 담음",
+      "facility_source_url": "https://www.trip.com/hotels/kemer-hotel-detail-3445118/rixos-premium-tekirova-the-land-of-legends-access/",
+      "trip_public_url": "https://www.trip.com/hotels/kemer-hotel-detail-3445118/rixos-premium-tekirova-the-land-of-legends-access/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0220k12000fo21srt2EB1_R_600_360_R5.webp",
+      "facility_photo_sha256": "07dce6665b858a9fbda270f15768acea419a4f8a3baeb93c658cf89f6a8c095a",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/88-beauty-puff-cleaning-foam.md",
+      "flow_prompt_sha256": "3742991e038f821e9bbeb3e8151037358861743673ddbcd240a619125915747e",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000247600",
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000184796"
+      ],
+      "creative_reference_url": "https://www.youtube.com/watch?v=0WoU6VSQQLk",
+      "creative_reference_use": "손동작 직후 재료 질감과 격자 변화를 공개",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

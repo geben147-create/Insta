@@ -1377,6 +1377,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품의 한 동작에 짧은 촉각음과 질감 공개를 맞춘 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "51",
+      "file": "51-눈사람마시멜로찹쌀젤리.png",
+      "local_relative_path": "queue-60/51-눈사람마시멜로찹쌀젤리.png",
+      "width": 940,
+      "height": 1672,
+      "sha256": "6de9b6ecac5362173f017204d7d5b6176daf4b1038e35a533c2a20fedc525dc8",
+      "trip_hotel_id": "9147968",
+      "facility": "그레이트 울프 롯지 위스콘신 델스 실내 워터파크",
+      "composition": "마른 실내 관람대 사선에서 눈사람 이마와 얼굴을 함께 담고 뒤로 실내 슬라이드를 보여줌",
+      "facility_source_url": "https://us.trip.com/hotels/lake-delton-hotel-detail-9147968/great-wolf-lodge-wisconsin-dells/",
+      "trip_public_url": "https://us.trip.com/hotels/lake-delton-hotel-detail-9147968/great-wolf-lodge-wisconsin-dells/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0225r12000ls50ok86463_R_600_360_R5.webp",
+      "facility_photo_sha256": "409459aac7699478f087faa2adb9db96e388f61928c85c057afb4eb7ada24078",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/51-snowman-marshmallow-jelly.md",
+      "flow_prompt_sha256": "b7ea94f299dfb1a3c7f19b73ed9ca3b77f7563beb39dac9cfbdba36494a9170a",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품의 부분 분리와 촉각음, 단면 공개를 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

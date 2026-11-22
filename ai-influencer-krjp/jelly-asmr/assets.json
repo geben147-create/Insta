@@ -2544,6 +2544,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "칩을 한 번 밀어 맞추며 다른 색과 바삭한 결을 함께 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "97",
+      "file": "97-바나나벨벳롤.png",
+      "local_relative_path": "queue-60/97-바나나벨벳롤.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "71dceccc101f5870a63f1787675d940a0d573f966a39bd102f96d3832059f32e",
+      "trip_hotel_id": "12322710",
+      "facility": "에프탈리아 오션 워터파크",
+      "composition": "전망 갤러리의 오른쪽 어깨 높이에서 펼친 크레페 너머 곡선 숙소와 노란 물놀이 시설을 담음",
+      "facility_source_url": "https://www.trip.com/hotels/alanya-hotel-detail-12322710/eftalia-ocean/",
+      "trip_public_url": "https://www.trip.com/hotels/alanya-hotel-detail-12322710/eftalia-ocean/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0224812000rjsykit4E96_R_600_360_R5.webp",
+      "facility_photo_sha256": "aed0f50c2711e0a7bb75fc59f6f1561f409a8897641a9bed86f954a7e823aaa4",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/97-banana-velvet-roll.md",
+      "flow_prompt_sha256": "bbcacbd283c76b62c1339597bc3b96d36c6ba16190fce513cd1ba203ffc6ff3b",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
+      "creative_reference_use": "크레페를 한 겹 펼치며 바나나와 크림의 색과 결을 공개",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

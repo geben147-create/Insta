@@ -2569,6 +2569,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
       "creative_reference_use": "크레페를 한 겹 펼치며 바나나와 크림의 색과 결을 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "98",
+      "file": "98-찰수수구움나뭇잎.png",
+      "local_relative_path": "queue-60/98-찰수수구움나뭇잎.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "a4737a1df1040931376cf1fa05ca2d26a38fe35875fe4df2dbb34a406c1e1d54",
+      "trip_hotel_id": "23778740",
+      "facility": "오션 엘 파로 리조트 워터파크 어린이 물놀이 구역",
+      "composition": "마른 관람 난간 앞 왼쪽에서 나뭇잎과 붉은 나선 슬라이드를 내려다봄",
+      "facility_source_url": "https://www.trip.com/hotels/punta-cana-hotel-detail-23778740/ocean-el-faro-resort-all-inclusive/",
+      "trip_public_url": "https://www.trip.com/hotels/punta-cana-hotel-detail-23778740/ocean-el-faro-resort-all-inclusive/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/22031e000001fllyl8E7E_R_600_360_R5.webp",
+      "facility_photo_sha256": "2a9a4e4252d2720cf121bbb227c25f8a827bce01bf884070e934bc861062827e",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/98-sorghum-wafer-leaves.md",
+      "flow_prompt_sha256": "a40768435ab9f9294ac04f6496dc0b5027d37f56cbec6e808a354a4fe3b68798",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "얇은 웨이퍼를 들어 바삭한 소리와 잎맥 질감을 공개",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

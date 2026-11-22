@@ -1,0 +1,74 @@
+[
+  {
+    "id": "jp-heazel-18h-rz3",
+    "market": "일본",
+    "title": "FELLOW SURF HEAZEL 18H-RZ3",
+    "rank": "2026-11-02 라쿠텐 키즈·주니어 래시가드 일간 1위 기록",
+    "look": "민트색, 후드 없는 높이 있는 칼라, 긴소매 집업",
+    "url": "https://item.rakuten.co.jp/go-island/000000078/",
+    "proof": "https://ranking.rakuten.co.jp/daily/501765/",
+    "url_sha256": "7722de17d2609b37741f7e3854597002ee2aa5780ee04332c764fdfab91f7351",
+    "affiliate_url": null,
+    "checked_kst": "2026-11-22"
+  },
+  {
+    "id": "kr-sfit-sjy304mktr70",
+    "market": "한국",
+    "title": "에스핏 서퍼 3.5부 래쉬가드 세트 SJY304MKTR70",
+    "rank": "쿠팡 랭킹순 아카이브 첫 화면 9번째 상품 · 현재 순위 및 기재 상품 판매 상태 미확인",
+    "look": "반바지 포함 상하의 수영복 후보",
+    "url": "https://www.coupang.com/vp/products/9402756435?itemId=27931664409",
+    "proof": "https://www.coupang.com/np/categories/499145",
+    "url_sha256": "85c01f3c81bef56590a910c7b36569f2ccec9dea7b82bffee3101fc0ad96fa55",
+    "affiliate_url": null,
+    "checked_kst": "2026-11-22"
+  },
+  {
+    "id": "us-walmart-rashguard-12m5t",
+    "market": "미국",
+    "title": "Walmart Character 반소매 래시가드·스윔트렁크 12M–5T",
+    "rank": "Walmart 래시가드 베스트셀러 목록 표시 · 수치 순위 없음",
+    "look": "반소매 상의와 반바지 구성 참고. 캐릭터 프린트 없이 적용",
+    "url": "https://www.walmart.com/ip/17647105793",
+    "proof": "https://www.walmart.com/c/best-sellers/boys%27-rash-guard-sets",
+    "url_sha256": "ef90a609394725d22f941019401979547637931ea4f2de9cb01915dd526d35a7",
+    "affiliate_url": null,
+    "checked_kst": "2026-11-22"
+  },
+  {
+    "id": "us-carters-lime",
+    "market": "미국",
+    "title": "Carter’s Child of Mine 래시가드·스윔트렁크",
+    "rank": "라임색 옵션과 제품 정보 확인 · Top 10 미확인",
+    "look": "라임·블루 옵션, 긴소매와 짧은 수영 바지",
+    "url": "https://www.walmart.com/ip/1345265907",
+    "proof": null,
+    "url_sha256": "4db720770bb13e3a75bfd047b9a7041acdccafc14f575d036201f0f72afc082b",
+    "affiliate_url": null,
+    "checked_kst": "2026-11-22"
+  },
+  {
+    "id": "us-wilton-2105-4909",
+    "market": "소품 · 식용 젤리 만들기",
+    "title": "Wilton Easy-Flex 24구 미니 하트 실리콘 틀",
+    "rank": "하트 모양 소품에 대응하는 판매처 제품 · 순위 미확인",
+    "look": "29번 하트 틀의 가정용 소형 대응",
+    "url": "https://business.walmart.com/ip/Wilton-Easy-Flex-1-5-x1-75-Bite-Size-Silicone-Mold-Heart-2105-4909/24548070",
+    "proof": "https://wilton.com/shop/bakeware/silicone-molds/",
+    "url_sha256": "a322bc9fcf8d7f5476987b592c73dbf6fbb7c053c69fc4a2f48410cec01ee6bc",
+    "affiliate_url": null,
+    "checked_kst": "2026-11-22"
+  },
+  {
+    "id": "us-wilton-645678865",
+    "market": "소품 · 식용 젤리 만들기",
+    "title": "Wilton 24구 동물 젤리용 실리콘 틀",
+    "rank": "판매처 제품 · 순위 미확인",
+    "look": "식용 젤리 장면에 어울리는 실제 소형 틀",
+    "url": "https://www.walmart.com/ip/645678865",
+    "proof": "https://wilton.com/shop/bakeware/silicone-molds/",
+    "url_sha256": "14a8a35be1ad1700fb5c328b4806ee5508dd5f1fcacfdec48e2457a7e4d31a1a",
+    "affiliate_url": null,
+    "checked_kst": "2026-11-22"
+  }
+]

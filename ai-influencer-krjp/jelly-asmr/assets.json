@@ -1677,6 +1677,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "첫 손동작과 짧은 파열음, 속 재료 공개를 연결하는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "63",
+      "file": "63-오렌지우유푸딩달.png",
+      "local_relative_path": "queue-60/63-오렌지우유푸딩달.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "56936977231e5ed99711381108fb9495dec1d7f93382b5858e9226f0f30b4967",
+      "trip_hotel_id": "78243149",
+      "facility": "힐튼 살와 비치 리조트 앤 빌라가 안내하는 데저트 폴스 워터파크",
+      "composition": "그늘진 마른 테이블의 높은 왼쪽 사선에서 반달 단면과 암석 구조물, 등대를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/al-rayyan-hotel-detail-78243149/hilton-salwa-beach-resort-and-villas/",
+      "trip_public_url": "https://www.trip.com/hotels/al-rayyan-hotel-detail-78243149/hilton-salwa-beach-resort-and-villas/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0223h12000a6i0ynd8BDA_R_600_360_R5.webp",
+      "facility_photo_sha256": "2ed992ff9e70d47d15907fb5d322a188f3d24edf406a366b65d32b70dd514411",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/63-orange-milk-pudding-moon.md",
+      "flow_prompt_sha256": "2b970ae357c8fc01c649defd3a341b8eff21c7f8926456d76deca67513b7af24",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "첫 손동작에서 단면을 공개하고 짧은 촉각음을 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

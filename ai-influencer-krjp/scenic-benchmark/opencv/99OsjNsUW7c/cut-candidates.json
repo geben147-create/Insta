@@ -1,0 +1,26 @@
+[
+  {
+    "time_s": 2.267,
+    "nearest_0_1_s": 2.3,
+    "frame_index": 68,
+    "hist_bhattacharyya": 0.44656,
+    "gray_mad": 63.7148,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 3.3,
+    "nearest_0_1_s": 3.3,
+    "frame_index": 99,
+    "hist_bhattacharyya": 0.69719,
+    "gray_mad": 54.1649,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 4.867,
+    "nearest_0_1_s": 4.9,
+    "frame_index": 146,
+    "hist_bhattacharyya": 0.54097,
+    "gray_mad": 49.2261,
+    "status": "automatic_candidate_unverified"
+  }
+]

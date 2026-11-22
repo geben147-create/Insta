@@ -1,0 +1,34 @@
+[
+  {
+    "time_s": 4.067,
+    "nearest_0_1_s": 4.1,
+    "frame_index": 122,
+    "hist_bhattacharyya": 0.64909,
+    "gray_mad": 30.5461,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 5.167,
+    "nearest_0_1_s": 5.2,
+    "frame_index": 155,
+    "hist_bhattacharyya": 0.68145,
+    "gray_mad": 59.4032,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 6.167,
+    "nearest_0_1_s": 6.2,
+    "frame_index": 185,
+    "hist_bhattacharyya": 0.43369,
+    "gray_mad": 28.8468,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 8.433,
+    "nearest_0_1_s": 8.4,
+    "frame_index": 253,
+    "hist_bhattacharyya": 0.62959,
+    "gray_mad": 50.9129,
+    "status": "automatic_candidate_unverified"
+  }
+]

@@ -1,0 +1,321 @@
+{
+  "Zy72xJcfKJw": {
+    "sampled_bins": 361,
+    "auto_cuts": 21,
+    "hard_cuts": 21,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/Zy72xJcfKJw/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/Zy72xJcfKJw/boundaries-01.jpg",
+      "grids/Zy72xJcfKJw/boundaries-02.jpg",
+      "grids/Zy72xJcfKJw/boundaries-03.jpg",
+      "grids/Zy72xJcfKJw/boundaries-04.jpg"
+    ],
+    "note": "0.0초에 도로 소실점이 거대한 손 형태 사이에서 시작한다. 1.9초부터 검정 지명 카드와 극적인 공간을 번갈아 배치하고, 31.3초부터 적색 능선 공중 전망으로 끝낸다. 지명 카드 10회, 카드 경계 20개와 33.967초 능선 구도 변경 1개 확인. 장면 지리·시설과 촬영 방식은 미확인이다.",
+    "timeline_csv": "opencv/Zy72xJcfKJw/timeline-0.1s.csv"
+  },
+  "juwJwHpjbHs": {
+    "sampled_bins": 401,
+    "auto_cuts": 23,
+    "hard_cuts": null,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/juwJwHpjbHs/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/juwJwHpjbHs/boundaries-01.jpg",
+      "grids/juwJwHpjbHs/boundaries-02.jpg",
+      "grids/juwJwHpjbHs/boundaries-03.jpg",
+      "grids/juwJwHpjbHs/boundaries-04.jpg"
+    ],
+    "note": null,
+    "timeline_csv": "opencv/juwJwHpjbHs/timeline-0.1s.csv"
+  },
+  "qC6NKtvUemA": {
+    "sampled_bins": 456,
+    "auto_cuts": 41,
+    "hard_cuts": null,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/qC6NKtvUemA/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/qC6NKtvUemA/boundaries-01.jpg",
+      "grids/qC6NKtvUemA/boundaries-02.jpg",
+      "grids/qC6NKtvUemA/boundaries-03.jpg",
+      "grids/qC6NKtvUemA/boundaries-04.jpg",
+      "grids/qC6NKtvUemA/boundaries-05.jpg",
+      "grids/qC6NKtvUemA/boundaries-06.jpg",
+      "grids/qC6NKtvUemA/boundaries-07.jpg"
+    ],
+    "note": null,
+    "timeline_csv": "opencv/qC6NKtvUemA/timeline-0.1s.csv"
+  },
+  "y_JjxcBDYs8": {
+    "sampled_bins": 232,
+    "auto_cuts": 25,
+    "hard_cuts": null,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/y_JjxcBDYs8/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/y_JjxcBDYs8/boundaries-01.jpg",
+      "grids/y_JjxcBDYs8/boundaries-02.jpg",
+      "grids/y_JjxcBDYs8/boundaries-03.jpg",
+      "grids/y_JjxcBDYs8/boundaries-04.jpg",
+      "grids/y_JjxcBDYs8/boundaries-05.jpg"
+    ],
+    "note": null,
+    "timeline_csv": "opencv/y_JjxcBDYs8/timeline-0.1s.csv"
+  },
+  "ZIeqqf1NRVM": {
+    "sampled_bins": 585,
+    "auto_cuts": 20,
+    "hard_cuts": null,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/ZIeqqf1NRVM/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/ZIeqqf1NRVM/boundaries-01.jpg",
+      "grids/ZIeqqf1NRVM/boundaries-02.jpg",
+      "grids/ZIeqqf1NRVM/boundaries-03.jpg",
+      "grids/ZIeqqf1NRVM/boundaries-04.jpg"
+    ],
+    "note": null,
+    "timeline_csv": "opencv/ZIeqqf1NRVM/timeline-0.1s.csv"
+  },
+  "PzK3y8wLhqw": {
+    "sampled_bins": 443,
+    "auto_cuts": 14,
+    "hard_cuts": null,
+    "watch_count": 15,
+    "watch_sheets": [
+      "grids/PzK3y8wLhqw/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/PzK3y8wLhqw/boundaries-01.jpg",
+      "grids/PzK3y8wLhqw/boundaries-02.jpg",
+      "grids/PzK3y8wLhqw/boundaries-03.jpg"
+    ],
+    "note": null,
+    "timeline_csv": "opencv/PzK3y8wLhqw/timeline-0.1s.csv"
+  },
+  "dl8MzNzlwho": {
+    "sampled_bins": 378,
+    "auto_cuts": 58,
+    "hard_cuts": null,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/dl8MzNzlwho/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/dl8MzNzlwho/boundaries-01.jpg",
+      "grids/dl8MzNzlwho/boundaries-02.jpg",
+      "grids/dl8MzNzlwho/boundaries-03.jpg",
+      "grids/dl8MzNzlwho/boundaries-04.jpg",
+      "grids/dl8MzNzlwho/boundaries-05.jpg",
+      "grids/dl8MzNzlwho/boundaries-06.jpg",
+      "grids/dl8MzNzlwho/boundaries-07.jpg",
+      "grids/dl8MzNzlwho/boundaries-08.jpg",
+      "grids/dl8MzNzlwho/boundaries-09.jpg",
+      "grids/dl8MzNzlwho/boundaries-10.jpg"
+    ],
+    "note": null,
+    "timeline_csv": "opencv/dl8MzNzlwho/timeline-0.1s.csv"
+  },
+  "ZqA9JQXvOzw": {
+    "sampled_bins": 75,
+    "auto_cuts": 6,
+    "hard_cuts": 6,
+    "watch_count": 12,
+    "watch_sheets": [
+      "grids/ZqA9JQXvOzw/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/ZqA9JQXvOzw/boundaries-01.jpg"
+    ],
+    "note": "0.0초 노을 도로에서 1.100초 산악 도로, 2.200초 해를 가리키는 손과 물, 3.400초 붉은 비포장 길, 4.600초 붉은 바위 도로, 5.767초 숲과 산 사이, 6.900초 손과 전원 도로로 전환한다. 같은 상단 문구 1종이 샷을 관통한다.",
+    "timeline_csv": "opencv/ZqA9JQXvOzw/timeline-0.1s.csv"
+  },
+  "2OPEe8kdtLg": {
+    "sampled_bins": 230,
+    "auto_cuts": 3,
+    "hard_cuts": 3,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/2OPEe8kdtLg/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/2OPEe8kdtLg/boundaries-01.jpg"
+    ],
+    "note": "0초부터 물과 암봉을 같은 화면에 둔다. 6.633초 암벽 옆 물커튼, 11.767초 폭포·웅덩이 와이드, 18.833초 역방향 물커튼으로 이동한다. 영상 표본에서 편집 문구는 보이지 않는다.",
+    "timeline_csv": "opencv/2OPEe8kdtLg/timeline-0.1s.csv"
+  },
+  "dwaIomXRl34": {
+    "sampled_bins": 171,
+    "auto_cuts": 14,
+    "hard_cuts": 1,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/dwaIomXRl34/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/dwaIomXRl34/boundaries-01.jpg",
+      "grids/dwaIomXRl34/boundaries-02.jpg",
+      "grids/dwaIomXRl34/boundaries-03.jpg"
+    ],
+    "note": "14 자동 후보를 좌→중 프레임에서 검토. 2.100은 안개 낀 암봉과 하강 시점에서 오르막 돌길 정면으로 확실한 하드컷. 나머지 후보는 페이드 과정 중 탐지되므로 정확한 새 장면 시작 프레임으로 간주하지 않음. 3.5 및 15.0에 검정 배경과 남아 있는 자막 관찰. 4.2~5.6 안개 속 골짜기가 열리고, 7.0 절벽 사이 길, 8.4 먼 수평선, 12.6 역광의 포장 산길, 14.0 가까운 암벽·먼 계곡 시차를 보여준다. 중앙 영어 가사형 자막과 우상단 워터마크 관찰. 정밀 속도 변화와 효과음 정체 미확정.",
+    "timeline_csv": "opencv/dwaIomXRl34/timeline-0.1s.csv"
+  },
+  "5SEf2OpV_Vg": {
+    "sampled_bins": 486,
+    "auto_cuts": 35,
+    "hard_cuts": 35,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/5SEf2OpV_Vg/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/5SEf2OpV_Vg/boundaries-01.jpg",
+      "grids/5SEf2OpV_Vg/boundaries-02.jpg",
+      "grids/5SEf2OpV_Vg/boundaries-03.jpg",
+      "grids/5SEf2OpV_Vg/boundaries-04.jpg",
+      "grids/5SEf2OpV_Vg/boundaries-05.jpg",
+      "grids/5SEf2OpV_Vg/boundaries-06.jpg"
+    ],
+    "note": "35 자동 후보를 좌→중 프레임에서 모두 확인. 같은 소재여도 22.670 식판 위 손과 음식 위치가 통째로 바뀌고 29.867·31.049는 날개를 남긴 채 지형과 프레이밍이 불연속으로 바뀐다. 4.021 구름·근경 날개에서 계곡 깊이가 보이는 구도로 전환, 19.832 활주로에서 도시 항공 전망으로 전환. 39.597 깃발 뒤 길, 43.618 폭포, 44.530 다리, 45.375 물길, 46.354 인물과 깃발. 상단 제목 그래픽과 하단 발화 자막 관찰. 항공기 창문 시점. 후보 외 경계와 속도 변화, 효과음 정체 미확정.",
+    "timeline_csv": "opencv/5SEf2OpV_Vg/timeline-0.1s.csv"
+  },
+  "99OsjNsUW7c": {
+    "sampled_bins": 85,
+    "auto_cuts": 3,
+    "hard_cuts": 3,
+    "watch_count": 9,
+    "watch_sheets": [
+      "grids/99OsjNsUW7c/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/99OsjNsUW7c/boundaries-01.jpg"
+    ],
+    "note": "0초 자작나무 사이 꽃밭, 2.267초 자작나무 통로, 3.300초 노란 꽃길, 4.867초 강과 도시 윤곽을 담은 높고 넓은 전망. 마지막 3.633초 전망을 유지한다. 인물은 구도·스케일 기준이고 영상 표본에서 편집 문구는 보이지 않는다.",
+    "timeline_csv": "opencv/99OsjNsUW7c/timeline-0.1s.csv"
+  },
+  "y5k4_eAn-8A": {
+    "sampled_bins": 657,
+    "auto_cuts": 0,
+    "hard_cuts": null,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/y5k4_eAn-8A/watch-01.jpg"
+    ],
+    "boundary_sheets": [],
+    "note": null,
+    "timeline_csv": "opencv/y5k4_eAn-8A/timeline-0.1s.csv"
+  },
+  "8UdRlKOUN-Y": {
+    "sampled_bins": 117,
+    "auto_cuts": 0,
+    "hard_cuts": null,
+    "watch_count": 12,
+    "watch_sheets": [
+      "grids/8UdRlKOUN-Y/watch-01.jpg"
+    ],
+    "boundary_sheets": [],
+    "note": "0–0.9초 산 계곡이 보인다. 1.8–4.5초 손과 소매가 렌즈 근처를 가리고, 5.4–10.8초 인물이 옆으로 들어와 산 앞에 선다. 가림 구간의 숨은 편집과 자막 여부는 미확정이다.",
+    "timeline_csv": "opencv/8UdRlKOUN-Y/timeline-0.1s.csv"
+  },
+  "fa2a41oWjtY": {
+    "sampled_bins": 200,
+    "auto_cuts": 0,
+    "hard_cuts": null,
+    "watch_count": 9,
+    "watch_sheets": [
+      "grids/fa2a41oWjtY/watch-01.jpg"
+    ],
+    "boundary_sheets": [],
+    "note": "0–19.2초 빈 의자와 찻잔, 호수 반사, 먼 산이 거의 같은 위치에 유지된다. 상하 반사의 색 관계가 뚜렷하다. 실제 시설·촬영 여부는 미확인이다.",
+    "timeline_csv": "opencv/fa2a41oWjtY/timeline-0.1s.csv"
+  },
+  "9lrAvKo36eQ": {
+    "sampled_bins": 209,
+    "auto_cuts": 7,
+    "hard_cuts": 7,
+    "watch_count": 11,
+    "watch_sheets": [
+      "grids/9lrAvKo36eQ/watch-01.jpg"
+    ],
+    "boundary_sheets": [
+      "grids/9lrAvKo36eQ/boundaries-01.jpg",
+      "grids/9lrAvKo36eQ/boundaries-02.jpg"
+    ],
+    "note": "0초부터 차량 측면에서 도로가 움직인다. 3.567초 깃발이 있는 교량, 7.433초 풀, 9.333초 계곡, 10.733초 바위 웅덩이, 12.733초 산 전망, 14.800초 내리막 숲, 16.767초 강변으로 넘어간다. 위치를 소개하는 상단 문구 1종이 보인다.",
+    "timeline_csv": "opencv/9lrAvKo36eQ/timeline-0.1s.csv"
+  },
+  "qSbSgRa0lhE": {
+    "sampled_bins": 287,
+    "auto_cuts": 0,
+    "hard_cuts": null,
+    "watch_count": 22,
+    "watch_sheets": [
+      "grids/qSbSgRa0lhE/watch-01.jpg"
+    ],
+    "boundary_sheets": [],
+    "note": "0–27.6초 판타지 인물·성의 그림과 음원 홍보 문구가 계속 보인다. 여행지 구조 또는 실제 드론 동선의 근거로 쓰지 않는다.",
+    "timeline_csv": "opencv/qSbSgRa0lhE/timeline-0.1s.csv"
+  },
+  "NaB5Wtcl7R8": {
+    "sampled_bins": 51,
+    "auto_cuts": 0,
+    "hard_cuts": null,
+    "watch_count": 10,
+    "watch_sheets": [
+      "grids/NaB5Wtcl7R8/watch-01.jpg"
+    ],
+    "boundary_sheets": [],
+    "note": "0–4.8초 눈 덮인 고정 배경에서 가까운 바위와 나무 줄기가 더 빨리 지나간다. 낮은 대비와 횡단 시차가 뚜렷하다. 표본에서 문구는 보이지 않는다.",
+    "timeline_csv": "opencv/NaB5Wtcl7R8/timeline-0.1s.csv"
+  },
+  "6OIZ76n_3TI": {
+    "sampled_bins": 445,
+    "auto_cuts": 0,
+    "hard_cuts": null,
+    "watch_count": 21,
+    "watch_sheets": [
+      "grids/6OIZ76n_3TI/watch-01.jpg"
+    ],
+    "boundary_sheets": [],
+    "note": "0초 데크와 숲을 비스듬히 내려다보다 3.7초 데크 중앙을 정면으로 잡는다. 7.4초부터 난간 소실점과 햇빛 방향이 명확하며 37.0초까지 전망 방향이 유지된다. 40.7초와 44.4초는 검정 종료 카드다. 타이틀, 작은 보조 문구와 계정 표시가 관찰된다. 자동 후보 0개의 한계를 보여준다.",
+    "timeline_csv": "opencv/6OIZ76n_3TI/timeline-0.1s.csv"
+  },
+  "O1EP67VvrcA": {
+    "sampled_bins": 150,
+    "auto_cuts": 0,
+    "hard_cuts": null,
+    "watch_count": 15,
+    "watch_sheets": [
+      "grids/O1EP67VvrcA/watch-01.jpg"
+    ],
+    "boundary_sheets": [],
+    "note": "0–13.2초 표본에서 낮은 태양, 굽은 길과 언덕이 유지되고 가까운 지붕/비탈이 움직인다. 2.4–7.2초 표본에 중앙 문구 1종, 하단 서명 1종이 보인다. 14.4초 표본에서 어두워지는 종결 확인. 메타에는 드론 태그가 있다.",
+    "timeline_csv": "opencv/O1EP67VvrcA/timeline-0.1s.csv"
+  },
+  "pGTFriREGSM": {
+    "reason": "ERROR: [youtube] pGTFriREGSM: This video is not available"
+  },
+  "TYl_HttY6pY": {
+    "sampled_bins": 81,
+    "auto_cuts": 0,
+    "hard_cuts": null,
+    "watch_count": 6,
+    "watch_sheets": [
+      "grids/TYl_HttY6pY/watch-01.jpg"
+    ],
+    "boundary_sheets": [],
+    "note": "0–7.2초 나무 전경, 호수/안개 중경, 설산 원경이 초기부터 보인다. 마지막 표본까지 산 윤곽이 유지된다. 장소와 합성 방법은 미확인이다.",
+    "timeline_csv": "opencv/TYl_HttY6pY/timeline-0.1s.csv"
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "time_s": 1.9,
+    "nearest_0_1_s": 1.9,
+    "frame_index": 57,
+    "hist_bhattacharyya": 0.95967,
+    "gray_mad": 120.8726,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 2.467,
+    "nearest_0_1_s": 2.5,
+    "frame_index": 74,
+    "hist_bhattacharyya": 0.99307,
+    "gray_mad": 129.1941,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 4.333,
+    "nearest_0_1_s": 4.3,
+    "frame_index": 130,
+    "hist_bhattacharyya": 0.99408,
+    "gray_mad": 125.7731,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 4.9,
+    "nearest_0_1_s": 4.9,
+    "frame_index": 147,
+    "hist_bhattacharyya": 0.95294,
+    "gray_mad": 124.5107,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 8.2,
+    "nearest_0_1_s": 8.2,
+    "frame_index": 246,
+    "hist_bhattacharyya": 0.9697,
+    "gray_mad": 127.5975,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 9.267,
+    "nearest_0_1_s": 9.3,
+    "frame_index": 278,
+    "hist_bhattacharyya": 0.98383,
+    "gray_mad": 149.3681,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 11.867,
+    "nearest_0_1_s": 11.9,
+    "frame_index": 356,
+    "hist_bhattacharyya": 0.97226,
+    "gray_mad": 142.4632,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 12.433,
+    "nearest_0_1_s": 12.4,
+    "frame_index": 373,
+    "hist_bhattacharyya": 0.99024,
+    "gray_mad": 150.4085,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 14.7,
+    "nearest_0_1_s": 14.7,
+    "frame_index": 441,
+    "hist_bhattacharyya": 0.99452,
+    "gray_mad": 126.6838,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 14.867,
+    "nearest_0_1_s": 14.9,
+    "frame_index": 446,
+    "hist_bhattacharyya": 0.94527,
+    "gray_mad": 97.5415,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 17.733,
+    "nearest_0_1_s": 17.7,
+    "frame_index": 532,
+    "hist_bhattacharyya": 0.96782,
+    "gray_mad": 91.2592,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 18.633,
+    "nearest_0_1_s": 18.6,
+    "frame_index": 559,
+    "hist_bhattacharyya": 0.98535,
+    "gray_mad": 85.4403,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 20.9,
+    "nearest_0_1_s": 20.9,
+    "frame_index": 627,
+    "hist_bhattacharyya": 0.97475,
+    "gray_mad": 84.1401,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 21.1,
+    "nearest_0_1_s": 21.1,
+    "frame_index": 633,
+    "hist_bhattacharyya": 0.92983,
+    "gray_mad": 130.9652,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 24.233,
+    "nearest_0_1_s": 24.2,
+    "frame_index": 727,
+    "hist_bhattacharyya": 0.91442,
+    "gray_mad": 123.289,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 24.433,
+    "nearest_0_1_s": 24.4,
+    "frame_index": 733,
+    "hist_bhattacharyya": 0.97792,
+    "gray_mad": 123.4867,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 27.467,
+    "nearest_0_1_s": 27.5,
+    "frame_index": 824,
+    "hist_bhattacharyya": 0.98407,
+    "gray_mad": 123.5993,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 27.633,
+    "nearest_0_1_s": 27.6,
+    "frame_index": 829,
+    "hist_bhattacharyya": 0.99596,
+    "gray_mad": 101.6981,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 30.667,
+    "nearest_0_1_s": 30.7,
+    "frame_index": 920,
+    "hist_bhattacharyya": 0.99786,
+    "gray_mad": 104.7219,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 31.3,
+    "nearest_0_1_s": 31.3,
+    "frame_index": 939,
+    "hist_bhattacharyya": 0.97419,
+    "gray_mad": 138.0154,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 33.967,
+    "nearest_0_1_s": 34.0,
+    "frame_index": 1019,
+    "hist_bhattacharyya": 0.47509,
+    "gray_mad": 37.3666,
+    "status": "automatic_candidate_unverified"
+  }
+]

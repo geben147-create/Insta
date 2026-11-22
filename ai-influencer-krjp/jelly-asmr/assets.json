@@ -611,6 +611,34 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품에서 한 조각을 분리하며 질감과 짧은 동작음을 드러내는 구조 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "21",
+      "file": "21-부드러운파우더퍼프.png",
+      "local_relative_path": "queue-60/21-부드러운파우더퍼프.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "4d3f2b7f1e36ed2a60f324562064e1cbc163378446f04ff895f9a9f6d6f0f700",
+      "trip_hotel_id": "686509",
+      "facility": "아마리 파타야 워터파크",
+      "composition": "마른 보행로 난간 안에서 선 인물의 눈높이 상반신, 얼굴 옆에 세운 퍼프와 두 건물 사이 시설",
+      "facility_source_url": "https://www.trip.com/hotels/pattaya-hotel-detail-686509/amari-pattaya/",
+      "trip_public_url": "https://www.trip.com/hotels/pattaya-hotel-detail-686509/amari-pattaya/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/200416000000zxsva5253_R_600_360_R5.webp",
+      "facility_photo_sha256": "247cc858a818b66522674e25863dd67198e6ea58f7027ee73c3773181cd6d69a",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/21-powder-puff.md",
+      "flow_prompt_sha256": "4c8b9882f752a88cf8e2ee36ae52801e227917b04fddfe1b9092f28519c6e7a4",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000247600"
+      ],
+      "product_reference_use": "필리밀리 베스트 퍼프의 천 표면과 손잡이 참고. 왕퍼프와 분말은 비식용 연출 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품의 손동작과 짧은 촉각음을 연결하는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

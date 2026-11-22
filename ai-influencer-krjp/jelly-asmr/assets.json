@@ -639,6 +639,35 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품의 손동작과 짧은 촉각음을 연결하는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "22",
+      "file": "22-네일컬러자석무늬.png",
+      "local_relative_path": "queue-60/22-네일컬러자석무늬.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "48654d0daa7d2e9208faf698a0fbdbad37de273f616e010701d28feb7d3e61a0",
+      "trip_hotel_id": "756841",
+      "facility": "선스케이프 칸쿤 리조트 앤 스파 워터파크",
+      "composition": "작업대 높이에서 세로 네일 스와치를 전경에 둔 접사와 뒤쪽 착수 풀",
+      "facility_source_url": "https://www.trip.com/hotels/cancun-hotel-detail-756841/sunscape-cancun-resort-and-spa-all-inclusive/",
+      "trip_public_url": "https://www.trip.com/hotels/cancun-hotel-detail-756841/sunscape-cancun-resort-and-spa-all-inclusive/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0223d120009lqiefj51C7_R_600_360_R5.webp",
+      "facility_photo_sha256": "d23838a392877dfb63c25e5e5e8a416df9eda215182f2981b129528e1048adcd",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/22-magnetic-nail.md",
+      "flow_prompt_sha256": "ae3d5ecab25f4138766183711ca5a826bf3c417d2690b85d88a292d87099e323",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000210522",
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205824"
+      ],
+      "product_reference_use": "반디 살롱드네일 마그넷네일과 반디 아트 마그넷은 색감과 도구 형태 참고용. 대형 스와치와 자석은 별도 비식용 연출 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "소품이 크게 보이는 전경과 한 동작으로 질감이 바뀌는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

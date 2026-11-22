@@ -250,6 +250,28 @@
       "flow_video_status": "pending_connection",
       "creative_reference_url": "https://www.youtube.com/watch?v=ckGCtzSvUFU",
       "flow_prompt_sha256": "8fb94ad1d7a6c2ecd91daaf098e5c96d624e6d72d28d9f6129801db4b5b1c562"
+    },
+    {
+      "queue_id": "07",
+      "file": "07-축구공라면땅.png",
+      "local_relative_path": "queue-60/07-축구공라면땅.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "6826d93c69bf832f79c0b253b485597c7d7091bda4565d9fb81e2f32c0be869a",
+      "trip_hotel_id": "35029089",
+      "facility": "오조 푸껫 워터파크",
+      "composition": "얕은 물에 선 인물·수면 높이·마른 음식 받침대",
+      "facility_source_url": "https://www.trip.com/hotels/phuket-hotel-detail-35029089/ozo-phuket/",
+      "trip_public_url": "https://www.trip.com/hotels/phuket-hotel-detail-35029089/ozo-phuket/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1mc3v12000r2zc1gj3881_R_600_360_R5.webp",
+      "facility_photo_sha256": "f88b87842e9859e5ef910b4420a3b9f366e1b43e47c198b85f68fe8bc30d9c47",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/07-ramen-football.md",
+      "flow_video_status": "pending_connection",
+      "creative_reference_url": "https://www.youtube.com/watch?v=2t1I7H2UYT0",
+      "flow_prompt_sha256": "1e826ccc64712f0e2668fd96495b1dbeee12cb8c029899474541cc13a555f550"
     }
   ]
 }

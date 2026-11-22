@@ -2344,6 +2344,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=0WoU6VSQQLk",
       "creative_reference_use": "손동작 직후 재료 질감과 격자 변화를 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "89",
+      "file": "89-수영튜브모양크림슈.png",
+      "local_relative_path": "queue-60/89-수영튜브모양크림슈.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "da2c756622f622a7e7c20ee511aabdf7899333a12bf35f462821e4e7d5aaeb78",
+      "trip_hotel_id": "19676578",
+      "facility": "아틀란티카 에게안 블루 워터파크",
+      "composition": "그늘진 중간 계단참의 마른 탁자 사선에서 크림 슈와 주황색 그릇형 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/rhodes-hotel-detail-19676578/atlantica-aegean-blue/",
+      "trip_public_url": "https://www.trip.com/hotels/rhodes-hotel-detail-19676578/atlantica-aegean-blue/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1ik3912000txizea0A6FD_R_600_360_R5.webp",
+      "facility_photo_sha256": "dd21d317aaefc7c948fdaf63de233561e3973005720312294efcd4f5334ecf06",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/89-swim-ring-cream-choux.md",
+      "flow_prompt_sha256": "b8dae6a146f06e6ee7de2d8ebd4b22f54a47877cdbb108e29048487a57927410",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
+      "creative_reference_use": "겉 표면을 연 순간 안쪽 크림 질감 공개",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

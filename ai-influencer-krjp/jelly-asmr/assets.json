@@ -1477,6 +1477,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "첫 손동작에 짧은 촉각음과 안쪽 질감 공개를 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "55",
+      "file": "55-튜브모양초코프레첼.png",
+      "local_relative_path": "queue-60/55-튜브모양초코프레첼.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "e66132e0961baa09f6ec7b0dbbbdae0e083cf089c521784c2c03041465c161d7",
+      "trip_hotel_id": "3727099",
+      "facility": "센티도 아카시아 비치 워터파크",
+      "composition": "마른 전망 난간의 허리 높이 사선에 큼직한 링과 성탑 옆 노란 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/qesm-al-qoseir-hotel-detail-3727099/lti-akassia-beach/",
+      "trip_public_url": "https://www.trip.com/hotels/qesm-al-qoseir-hotel-detail-3727099/lti-akassia-beach/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0585712000sno1ox89AEB_R_600_360_R5.webp",
+      "facility_photo_sha256": "6aad8109181b34744e5868e5d9c5f50abfef36c404b5e510766aa575c323ba4d",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/55-swim-ring-chocolate-pretzel.md",
+      "flow_prompt_sha256": "f6567f71effdb4813eca421446d85a60d4253454371b4a6c1b5c420df08ce0b0",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품의 이음매가 분리되는 짧은 파열음과 단면 공개 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

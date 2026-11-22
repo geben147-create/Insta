@@ -902,6 +902,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "질감 변화에 짧은 촉각음을 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "32",
+      "file": "32-말차모찌꽃.png",
+      "local_relative_path": "queue-60/32-말차모찌꽃.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "5b1afd116efc2877abbe902483750ef20f0f018c0c78964811d7f1fbe382b3bd",
+      "trip_hotel_id": "3040367",
+      "facility": "그랜드 하얏트 바하 마르 바하 베이 워터파크",
+      "composition": "마른 작업대 모서리 사선에서 인물이 접시를 받치고 꽃잎을 옆으로 늘리는 허리 위 구도",
+      "facility_source_url": "https://www.trip.com/hotels/nassau-hotel-detail-3040367/grand-hyatt-baha-mar/",
+      "trip_public_url": "https://www.trip.com/hotels/nassau-hotel-detail-3040367/grand-hyatt-baha-mar/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0220x12000l15d6wk0C0C_R_600_360_R5.webp",
+      "facility_photo_sha256": "35a967589a4367b698687e701116c0a2b921c157269cf4afc19d4ade04eace96",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/32-matcha-mochi-flower.md",
+      "flow_prompt_sha256": "90d98ebcfa87fbddc904f721623f0d1b2eddbccd9f0b4c9a8efc2b60c09326c4",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품에서 한입 크기를 분리하고 촉각음을 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

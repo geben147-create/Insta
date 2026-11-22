@@ -363,6 +363,30 @@
       "creative_reference_use": "투명 식용 소품 속 다채로운 조각 공개와 얼굴·손동작 교차",
       "character_reference": "남자모델-3안-v4.png 가운데 B안",
       "flow_prompt_sha256": "6e703d32138797eb30390b5a8a2647a18b14ad8865f661114a6dd3f46ba6e516"
+    },
+    {
+      "queue_id": "12",
+      "file": "12-키위스파이럴.png",
+      "local_relative_path": "queue-60/12-키위스파이럴.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "2f9d6c76993366c046a2550e17fac0b82e177d67e46b5ea2115553c67b65f10f",
+      "trip_hotel_id": "48325613",
+      "facility": "모벤픽 리조트 깜라인 어린이 수영장",
+      "composition": "마른 작업대에 선 인물·두 종류의 실제 슬라이드",
+      "facility_source_url": "https://www.trip.com/hotels/cam-lam-hotel-detail-48325613/movenpick-resort-cam-ranh/",
+      "trip_public_url": "https://www.trip.com/hotels/cam-lam-hotel-detail-48325613/movenpick-resort-cam-ranh/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0225i12000a0l4y2m0BE0_R_600_360_R5.webp",
+      "facility_photo_sha256": "8820fa5c706dde5673678997dbefe05d613d6a77a405f19dede2de2c220f8fbe",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/12-kiwi-spiral.md",
+      "flow_video_status": "pending_connection",
+      "creative_reference_url": "https://www.youtube.com/watch?v=O_UhpuefyXE",
+      "creative_reference_use": "키위 껍질을 길게 벗기는 중간 훅만 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안",
+      "flow_prompt_sha256": "2b5675cd11c28e57a0725572bab40a18fa253309a72982bd2903b745ffba9902"
     }
   ]
 }

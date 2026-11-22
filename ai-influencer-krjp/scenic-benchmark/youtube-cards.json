@@ -30,7 +30,7 @@
       "grids/juwJwHpjbHs/boundaries-03.jpg",
       "grids/juwJwHpjbHs/boundaries-04.jpg"
     ],
-    "note": null,
+    "note": "23 자동 후보의 앞뒤 대조. 27.412초 식품 용기는 같은 구도에서 각도가 조금 달라져 하드컷 확정 제외. 20.501·21.235·22.003초는 소재가 바뀌는 경계에 초점 흐림도 관찰. 13.489초 나무가 흩어진 지형 와이드, 15.926초 나무 한 그루, 20.501초 수액 디테일. 하단 영어 자막과 순번 그래픽. 배속·효과음 정체 미확인.",
     "timeline_csv": "opencv/juwJwHpjbHs/timeline-0.1s.csv"
   },
   "qC6NKtvUemA": {
@@ -50,7 +50,7 @@
       "grids/qC6NKtvUemA/boundaries-06.jpg",
       "grids/qC6NKtvUemA/boundaries-07.jpg"
     ],
-    "note": null,
+    "note": "0초 배에서 물가로 나오고, 3.8초 해변의 사람들, 11.4초 좁은 골목을 내려다보는 화면, 15.2초 진행자, 34.2초 바다와 배. 반복되는 중앙 발화 자막을 기준으로 여러 소재를 연결한다.",
     "timeline_csv": "opencv/qC6NKtvUemA/timeline-0.1s.csv"
   },
   "y_JjxcBDYs8": {
@@ -68,7 +68,7 @@
       "grids/y_JjxcBDYs8/boundaries-04.jpg",
       "grids/y_JjxcBDYs8/boundaries-05.jpg"
     ],
-    "note": null,
+    "note": "0초 인물, 1.9초 해안 공중 와이드, 3.8초 협곡 물길 탑뷰, 11.4초 차창과 나무, 15.2초 대각으로 펼친 해안. 발화 자막과 이야기 컷이 이어진다.",
     "timeline_csv": "opencv/y_JjxcBDYs8/timeline-0.1s.csv"
   },
   "ZIeqqf1NRVM": {
@@ -85,13 +85,13 @@
       "grids/ZIeqqf1NRVM/boundaries-03.jpg",
       "grids/ZIeqqf1NRVM/boundaries-04.jpg"
     ],
-    "note": null,
+    "note": "0초 역, 4.8초 승차, 9.6초 좌석 와이드, 19.2초 충전 단자, 48.0초 좌석 제어 화면. 하단 녹색 발화 자막이 보인다. 제품 체험형 구성이다.",
     "timeline_csv": "opencv/ZIeqqf1NRVM/timeline-0.1s.csv"
   },
   "PzK3y8wLhqw": {
     "sampled_bins": 443,
     "auto_cuts": 14,
-    "hard_cuts": null,
+    "hard_cuts": 14,
     "watch_count": 15,
     "watch_sheets": [
       "grids/PzK3y8wLhqw/watch-01.jpg"
@@ -101,7 +101,7 @@
       "grids/PzK3y8wLhqw/boundaries-02.jpg",
       "grids/PzK3y8wLhqw/boundaries-03.jpg"
     ],
-    "note": null,
+    "note": "14 자동 후보의 앞뒤 대조로 하드컷 확인. 3.940초 넓은 검은 암반에서 분화구 상공, 6.345초 낮은 화구 주변, 11.821초 가까운 분화구 벽, 14.693초 검은 암반 지대 광각, 33.793초 검은 전경과 주황 연기, 37.533초 드론 장비가 보이는 인서트, 40.739초 상승 시점의 원경으로 전환. 가운데 하단 영문 자막. 드론의 구체적 조종·배속·효과음 정체 미확인.",
     "timeline_csv": "opencv/PzK3y8wLhqw/timeline-0.1s.csv"
   },
   "dl8MzNzlwho": {
@@ -124,7 +124,7 @@
       "grids/dl8MzNzlwho/boundaries-09.jpg",
       "grids/dl8MzNzlwho/boundaries-10.jpg"
     ],
-    "note": null,
+    "note": "0초 회전 안내, 3.1초 열차, 6.2초 검정 문구 카드, 12.4초 열차 정면, 18.6초 문구, 21.7초 선로에 가까운 정면, 이후 참가 문구. 열차가 보이는 일부 소재가 가로로 돌아 있다.",
     "timeline_csv": "opencv/dl8MzNzlwho/timeline-0.1s.csv"
   },
   "ZqA9JQXvOzw": {
@@ -213,7 +213,7 @@
       "grids/y5k4_eAn-8A/watch-01.jpg"
     ],
     "boundary_sheets": [],
-    "note": null,
+    "note": "0초 차량과 길, 5.4초 안내판, 16.2초 야외 공연, 27.0초 지붕과 기둥, 이후 관중과 공연. 상단 고정 문구. 장소의 무인 풍경보다 인물과 행사 기록이 중심이다.",
     "timeline_csv": "opencv/y5k4_eAn-8A/timeline-0.1s.csv"
   },
   "8UdRlKOUN-Y": {

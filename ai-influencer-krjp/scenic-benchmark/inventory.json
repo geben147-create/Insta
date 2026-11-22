@@ -94,7 +94,7 @@
     "subscriber_check": "over_70k",
     "source_url": "https://www.youtube.com/shorts/juwJwHpjbHs",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "source_sha256": "56e52c44acca57e76a2cd7f9c9ed970d20c4faf4022d36e4effec32d20f7ca90",
     "duration": 40.033,
     "decoded_frames": 1199,
@@ -122,9 +122,36 @@
       "grids/juwJwHpjbHs/timeline-04.jpg",
       "grids/juwJwHpjbHs/timeline-05.jpg"
     ],
-    "review": null,
-    "note": null,
-    "hypothesis": null,
+    "review": {
+      "hard": [
+        1.836,
+        4.641,
+        6.678,
+        8.648,
+        10.25,
+        13.489,
+        15.926,
+        17.262,
+        18.264,
+        20.501,
+        21.235,
+        22.003,
+        22.972,
+        25.142,
+        25.943,
+        28.047,
+        32.387,
+        34.557,
+        35.426,
+        36.628,
+        37.429,
+        37.896
+      ],
+      "note": "23 자동 후보의 앞뒤 대조. 27.412초 식품 용기는 같은 구도에서 각도가 조금 달라져 하드컷 확정 제외. 20.501·21.235·22.003초는 소재가 바뀌는 경계에 초점 흐림도 관찰. 13.489초 나무가 흩어진 지형 와이드, 15.926초 나무 한 그루, 20.501초 수액 디테일. 하단 영어 자막과 순번 그래픽. 배속·효과음 정체 미확인.",
+      "hypothesis": "넓은 환경과 그 장소를 대표하는 질감을 번갈아 보여주면 풍경을 기억하기 쉬울 수 있다."
+    },
+    "note": "23 자동 후보의 앞뒤 대조. 27.412초 식품 용기는 같은 구도에서 각도가 조금 달라져 하드컷 확정 제외. 20.501·21.235·22.003초는 소재가 바뀌는 경계에 초점 흐림도 관찰. 13.489초 나무가 흩어진 지형 와이드, 15.926초 나무 한 그루, 20.501초 수액 디테일. 하단 영어 자막과 순번 그래픽. 배속·효과음 정체 미확인.",
+    "hypothesis": "넓은 환경과 그 장소를 대표하는 질감을 번갈아 보여주면 풍경을 기억하기 쉬울 수 있다.",
     "audio_rms_range": [
       -42.85,
       -6.68
@@ -149,7 +176,7 @@
     "subscriber_check": "over_70k",
     "source_url": "https://www.youtube.com/shorts/qC6NKtvUemA",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "source_sha256": "49d7c1a67de817905644339abbae50dd88c32f64c4d5299ec0f714d3c6fd95d1",
     "duration": 45.588,
     "decoded_frames": 1093,
@@ -180,8 +207,10 @@
       "grids/qC6NKtvUemA/timeline-04.jpg",
       "grids/qC6NKtvUemA/timeline-05.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 배에서 물가로 나오고, 3.8초 해변의 사람들, 11.4초 좁은 골목을 내려다보는 화면, 15.2초 진행자, 34.2초 바다와 배. 반복되는 중앙 발화 자막을 기준으로 여러 소재를 연결한다."
+    },
+    "note": "0초 배에서 물가로 나오고, 3.8초 해변의 사람들, 11.4초 좁은 골목을 내려다보는 화면, 15.2초 진행자, 34.2초 바다와 배. 반복되는 중앙 발화 자막을 기준으로 여러 소재를 연결한다.",
     "hypothesis": null,
     "audio_rms_range": [
       -34.75,
@@ -207,7 +236,7 @@
     "subscriber_check": "over_70k",
     "source_url": "https://www.youtube.com/shorts/y_JjxcBDYs8",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "source_sha256": "83d0d97dc7c4527ee4e8c8e3704f9bf0166bd6869d3755ed04431ea8f5f62a6d",
     "duration": 23.148,
     "decoded_frames": 553,
@@ -234,8 +263,10 @@
       "grids/y_JjxcBDYs8/timeline-02.jpg",
       "grids/y_JjxcBDYs8/timeline-03.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 인물, 1.9초 해안 공중 와이드, 3.8초 협곡 물길 탑뷰, 11.4초 차창과 나무, 15.2초 대각으로 펼친 해안. 발화 자막과 이야기 컷이 이어진다."
+    },
+    "note": "0초 인물, 1.9초 해안 공중 와이드, 3.8초 협곡 물길 탑뷰, 11.4초 차창과 나무, 15.2초 대각으로 펼친 해안. 발화 자막과 이야기 컷이 이어진다.",
     "hypothesis": null,
     "audio_rms_range": [
       -51.74,
@@ -261,7 +292,7 @@
     "subscriber_check": "over_70k",
     "source_url": "https://www.youtube.com/shorts/ZIeqqf1NRVM",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "source_sha256": "fa6bcebca2d37f2d654ee4ef964f21e67b4fdfc41d9be614dcd9dab38eacc9e2",
     "duration": 58.425,
     "decoded_frames": 1751,
@@ -290,8 +321,10 @@
       "grids/ZIeqqf1NRVM/timeline-05.jpg",
       "grids/ZIeqqf1NRVM/timeline-06.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 역, 4.8초 승차, 9.6초 좌석 와이드, 19.2초 충전 단자, 48.0초 좌석 제어 화면. 하단 녹색 발화 자막이 보인다. 제품 체험형 구성이다."
+    },
+    "note": "0초 역, 4.8초 승차, 9.6초 좌석 와이드, 19.2초 충전 단자, 48.0초 좌석 제어 화면. 하단 녹색 발화 자막이 보인다. 제품 체험형 구성이다.",
     "hypothesis": null,
     "audio_rms_range": [
       -58.12,
@@ -317,14 +350,29 @@
     "subscriber_check": "over_70k",
     "source_url": "https://www.youtube.com/shorts/PzK3y8wLhqw",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "boundary_and_overview_reviewed",
     "source_sha256": "102f8c1dd56b3235529aa98bd5afcae3fc8323f3e6c3653c3479fc5691640735",
     "duration": 44.211,
     "decoded_frames": 1324,
     "sampled_bins": 443,
     "auto_cuts": 14,
-    "hard_cuts": null,
-    "hard_cut_times": null,
+    "hard_cuts": 14,
+    "hard_cut_times": [
+      3.94,
+      6.345,
+      9.283,
+      11.821,
+      14.693,
+      16.863,
+      21.204,
+      22.506,
+      25.278,
+      29.385,
+      31.289,
+      33.793,
+      37.533,
+      40.739
+    ],
     "watch_count": 15,
     "watch_sheets": [
       "grids/PzK3y8wLhqw/watch-01.jpg"
@@ -344,9 +392,13 @@
       "grids/PzK3y8wLhqw/timeline-04.jpg",
       "grids/PzK3y8wLhqw/timeline-05.jpg"
     ],
-    "review": null,
-    "note": null,
-    "hypothesis": null,
+    "review": {
+      "hard": "all",
+      "note": "14 자동 후보의 앞뒤 대조로 하드컷 확인. 3.940초 넓은 검은 암반에서 분화구 상공, 6.345초 낮은 화구 주변, 11.821초 가까운 분화구 벽, 14.693초 검은 암반 지대 광각, 33.793초 검은 전경과 주황 연기, 37.533초 드론 장비가 보이는 인서트, 40.739초 상승 시점의 원경으로 전환. 가운데 하단 영문 자막. 드론의 구체적 조종·배속·효과음 정체 미확인.",
+      "hypothesis": "어두운 전경을 유지하며 높은 시점에서 멀리 보여주면 장소의 크기와 깊이가 함께 읽힐 수 있다."
+    },
+    "note": "14 자동 후보의 앞뒤 대조로 하드컷 확인. 3.940초 넓은 검은 암반에서 분화구 상공, 6.345초 낮은 화구 주변, 11.821초 가까운 분화구 벽, 14.693초 검은 암반 지대 광각, 33.793초 검은 전경과 주황 연기, 37.533초 드론 장비가 보이는 인서트, 40.739초 상승 시점의 원경으로 전환. 가운데 하단 영문 자막. 드론의 구체적 조종·배속·효과음 정체 미확인.",
+    "hypothesis": "어두운 전경을 유지하며 높은 시점에서 멀리 보여주면 장소의 크기와 깊이가 함께 읽힐 수 있다.",
     "audio_rms_range": [
       -51.02,
       -10.65
@@ -371,7 +423,7 @@
     "subscriber_check": "over_70k",
     "source_url": "https://www.youtube.com/shorts/dl8MzNzlwho",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "source_sha256": "a47f11c6993e50133b1c373a604c0b64bb011c955c243132d3ffeb9cdf0e6bbb",
     "duration": 37.792,
     "decoded_frames": 907,
@@ -404,8 +456,10 @@
       "grids/dl8MzNzlwho/timeline-03.jpg",
       "grids/dl8MzNzlwho/timeline-04.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 회전 안내, 3.1초 열차, 6.2초 검정 문구 카드, 12.4초 열차 정면, 18.6초 문구, 21.7초 선로에 가까운 정면, 이후 참가 문구. 열차가 보이는 일부 소재가 가로로 돌아 있다."
+    },
+    "note": "0초 회전 안내, 3.1초 열차, 6.2초 검정 문구 카드, 12.4초 열차 정면, 18.6초 문구, 21.7초 선로에 가까운 정면, 이후 참가 문구. 열차가 보이는 일부 소재가 가로로 돌아 있다.",
     "hypothesis": null,
     "audio_rms_range": [
       -240.0,
@@ -812,7 +866,7 @@
     "subscriber_check": "70k_or_below",
     "source_url": "https://www.youtube.com/shorts/y5k4_eAn-8A",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "source_sha256": "fab13edb75a24f279a37d14ea8a40879005c183e75bdd54e4648d26cf69e1ac0",
     "duration": 65.633,
     "decoded_frames": 1969,
@@ -837,8 +891,10 @@
       "grids/y5k4_eAn-8A/timeline-06.jpg",
       "grids/y5k4_eAn-8A/timeline-07.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 차량과 길, 5.4초 안내판, 16.2초 야외 공연, 27.0초 지붕과 기둥, 이후 관중과 공연. 상단 고정 문구. 장소의 무인 풍경보다 인물과 행사 기록이 중심이다."
+    },
+    "note": "0초 차량과 길, 5.4초 안내판, 16.2초 야외 공연, 27.0초 지붕과 기둥, 이후 관중과 공연. 상단 고정 문구. 장소의 무인 풍경보다 인물과 행사 기록이 중심이다.",
     "hypothesis": null,
     "audio_rms_range": [
       -54.48,
@@ -1308,7 +1364,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DdCYpdWFfzs/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DdCYpdWFfzs",
       "browser_duration": 80.418095,
@@ -1350,8 +1406,10 @@
       "grids/DdCYpdWFfzs/timeline-08.jpg",
       "grids/DdCYpdWFfzs/timeline-09.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0–6.6초 인물 두 명이 겹친 화면, 13.2초 이후 안경을 쓴 진행자, 39.6초 이메일 화면, 46.2초 이후 다시 진행자. 항공권 조언 자막이 이어진다."
+    },
+    "note": "0–6.6초 인물 두 명이 겹친 화면, 13.2초 이후 안경을 쓴 진행자, 39.6초 이메일 화면, 46.2초 이후 다시 진행자. 항공권 조언 자막이 이어진다.",
     "hypothesis": null,
     "audio_rms_range": [
       -199.69,
@@ -1376,7 +1434,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DL-uGYbIeoS/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DL-uGYbIeoS",
       "browser_duration": 6.037188,
@@ -1408,8 +1466,10 @@
     "timeline_sheets": [
       "grids/DL-uGYbIeoS/timeline-01.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0–5.5초 보안검색대 역할로 배치된 고양이와 지나가는 소품이 같은 구도에서 보인다. 위쪽 고정 자막 1종. 시설 구도보다 코미디가 중심이다."
+    },
+    "note": "0–5.5초 보안검색대 역할로 배치된 고양이와 지나가는 소품이 같은 구도에서 보인다. 위쪽 고정 자막 1종. 시설 구도보다 코미디가 중심이다.",
     "hypothesis": null,
     "audio_rms_range": [
       -30.99,
@@ -1525,7 +1585,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/Da2bgaVhVrq/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "Da2bgaVhVrq",
       "browser_duration": 26.562222,
@@ -1561,8 +1621,10 @@
       "grids/Da2bgaVhVrq/timeline-02.jpg",
       "grids/Da2bgaVhVrq/timeline-03.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 어두운 인물, 2.2초 공항의 같은 진행자와 비행기 삽화, 8.8–19.8초 시간대 오버레이. 항공권 정보형이며 실제 이동 경로는 미확인이다."
+    },
+    "note": "0초 어두운 인물, 2.2초 공항의 같은 진행자와 비행기 삽화, 8.8–19.8초 시간대 오버레이. 항공권 정보형이며 실제 이동 경로는 미확인이다.",
     "hypothesis": null,
     "audio_rms_range": [
       -53.12,
@@ -1662,7 +1724,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/Ddq06mSo1oZ/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "Ddq06mSo1oZ",
       "browser_duration": 11.980044,
@@ -1699,8 +1761,10 @@
       "grids/Ddq06mSo1oZ/timeline-01.jpg",
       "grids/Ddq06mSo1oZ/timeline-02.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 밤길, 1–5초 조명과 공항 천장·수하물, 6–9초 여권과 탑승, 10초 창문으로 도시 조명이 열리고 11초 공항 전광판. 중앙 작은 영문 문구가 공통된다."
+    },
+    "note": "0초 밤길, 1–5초 조명과 공항 천장·수하물, 6–9초 여권과 탑승, 10초 창문으로 도시 조명이 열리고 11초 공항 전광판. 중앙 작은 영문 문구가 공통된다.",
     "hypothesis": null,
     "audio_rms_range": [
       -26.03,
@@ -1725,7 +1789,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DO5yNKYjgvB/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DO5yNKYjgvB",
       "browser_duration": 62.53333333333333,
@@ -1766,8 +1830,10 @@
       "grids/DO5yNKYjgvB/timeline-06.jpg",
       "grids/DO5yNKYjgvB/timeline-07.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0–15.6초 차 안 진행자, 20.8초 공항 안 셀피, 46.8초 종이 표, 끝까지 공항에 있는 진행자. 상단 제목 고정, 하단 키워드 자막 변화."
+    },
+    "note": "0–15.6초 차 안 진행자, 20.8초 공항 안 셀피, 46.8초 종이 표, 끝까지 공항에 있는 진행자. 상단 제목 고정, 하단 키워드 자막 변화.",
     "hypothesis": null,
     "audio_rms_range": [
       -40.67,
@@ -1832,7 +1898,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DeytvnThNW9/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DeytvnThNW9",
       "browser_duration": 9.936688,
@@ -1866,8 +1932,10 @@
     "timeline_sheets": [
       "grids/DeytvnThNW9/timeline-01.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 베개가 가득한 공연장, 1.6초 베개 가까이 인물, 3.2초 붉은 조명, 6.4초 무대와 관객, 8초 천장 조명, 9.6초 누운 시선. 작은 영어 고정 문구. 호텔 풀이 아니다."
+    },
+    "note": "0초 베개가 가득한 공연장, 1.6초 베개 가까이 인물, 3.2초 붉은 조명, 6.4초 무대와 관객, 8초 천장 조명, 9.6초 누운 시선. 작은 영어 고정 문구. 호텔 풀이 아니다.",
     "hypothesis": null,
     "audio_rms_range": [
       -19.96,
@@ -1892,7 +1960,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DfRYAbNTWhe/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DfRYAbNTWhe",
       "browser_duration": 10.772606,
@@ -1925,8 +1993,10 @@
       "grids/DfRYAbNTWhe/timeline-01.jpg",
       "grids/DfRYAbNTWhe/timeline-02.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0–9.9초 거울 앞에서 사람이 햄버거를 먹는 개그. 상단 고정 자막 1종으로 풍경 이동 참고에서 제외한다."
+    },
+    "note": "0–9.9초 거울 앞에서 사람이 햄버거를 먹는 개그. 상단 고정 자막 1종으로 풍경 이동 참고에서 제외한다.",
     "hypothesis": null,
     "audio_rms_range": [
       -42.22,
@@ -1951,7 +2021,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DFRQKpCSRUc/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DFRQKpCSRUc",
       "browser_duration": 34.233333333333334,
@@ -1988,8 +2058,10 @@
       "grids/DFRQKpCSRUc/timeline-03.jpg",
       "grids/DFRQKpCSRUc/timeline-04.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 이동하는 가까운 실내, 2.8초 노트북과 진행자, 5.6–16.8초 검색·도표, 19.6–33.6초 화면 예시와 진행자로 돌아간다. 상하 정보 문구가 바뀐다."
+    },
+    "note": "0초 이동하는 가까운 실내, 2.8초 노트북과 진행자, 5.6–16.8초 검색·도표, 19.6–33.6초 화면 예시와 진행자로 돌아간다. 상하 정보 문구가 바뀐다.",
     "hypothesis": null,
     "audio_rms_range": [
       -32.13,
@@ -2014,7 +2086,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DRr0ZX1kt72/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DRr0ZX1kt72",
       "browser_duration": 75.11678345011678,
@@ -2061,8 +2133,10 @@
       "grids/DRr0ZX1kt72/timeline-07.jpg",
       "grids/DRr0ZX1kt72/timeline-08.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 대칭 아치와 샹들리에, 6.2–24.8초 인물과 근접 소품, 31–49.6초 여러 실내 구도, 55.8–68.2초 인물·라디오, 74.4초 수영장이 파랗게 보이는 외부 전체 전망과 로고. 실제 다른 호텔 광고이며 시설 기하 참고 대상은 Spinne 공식 사진이다."
+    },
+    "note": "0초 대칭 아치와 샹들리에, 6.2–24.8초 인물과 근접 소품, 31–49.6초 여러 실내 구도, 55.8–68.2초 인물·라디오, 74.4초 수영장이 파랗게 보이는 외부 전체 전망과 로고. 실제 다른 호텔 광고이며 시설 기하 참고 대상은 Spinne 공식 사진이다.",
     "hypothesis": null,
     "audio_rms_range": [
       -123.88,
@@ -2121,7 +2195,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DcnpcnnTday/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DcnpcnnTday",
       "browser_duration": 16.966666666666665,
@@ -2156,8 +2230,10 @@
       "grids/DcnpcnnTday/timeline-01.jpg",
       "grids/DcnpcnnTday/timeline-02.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 작은 객실, 2.8–5.6초 복도와 문 이동, 7.0–8.4초 문턱 너머 침대, 9.8초 넓은 내부, 12.6–16.8초 앉아서 음식. 상단 태국어 문구가 바뀐다."
+    },
+    "note": "0초 작은 객실, 2.8–5.6초 복도와 문 이동, 7.0–8.4초 문턱 너머 침대, 9.8초 넓은 내부, 12.6–16.8초 앉아서 음식. 상단 태국어 문구가 바뀐다.",
     "hypothesis": null,
     "audio_rms_range": [
       -25.27,
@@ -2199,7 +2275,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DL4JiE2PgvG/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DL4JiE2PgvG",
       "browser_duration": 13.373287,
@@ -2232,8 +2308,10 @@
       "grids/DL4JiE2PgvG/timeline-01.jpg",
       "grids/DL4JiE2PgvG/timeline-02.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 바다색 젤리와 인물 고정 구도, 2.2초 숟가락, 4.4초 젤리 단면, 9.9초부터 위 장식과 인물 클로즈업. 화면 속 바다색은 음식 소재다."
+    },
+    "note": "0초 바다색 젤리와 인물 고정 구도, 2.2초 숟가락, 4.4초 젤리 단면, 9.9초부터 위 장식과 인물 클로즈업. 화면 속 바다색은 음식 소재다.",
     "hypothesis": null,
     "audio_rms_range": [
       -80.06,
@@ -2394,7 +2472,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DemMtvHvHkG/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DemMtvHvHkG",
       "browser_duration": 20.291383,
@@ -2431,8 +2509,10 @@
       "grids/DemMtvHvHkG/timeline-02.jpg",
       "grids/DemMtvHvHkG/timeline-03.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 열차 측면, 3.2–4.8초 지도, 6.4초 초록과 물가를 내려다보는 열차, 8초 노을 항구, 9.6초 배, 16–17.6초 숲 위 고립된 바위. 자막과 경로 도식은 별개 방식이다."
+    },
+    "note": "0초 열차 측면, 3.2–4.8초 지도, 6.4초 초록과 물가를 내려다보는 열차, 8초 노을 항구, 9.6초 배, 16–17.6초 숲 위 고립된 바위. 자막과 경로 도식은 별개 방식이다.",
     "hypothesis": null,
     "audio_rms_range": [
       -29.09,
@@ -2695,7 +2775,7 @@
     "subscriber_check": "separate_platform",
     "source_url": "https://www.instagram.com/reel/DdwOo_op5T_/",
     "media": "downloaded",
-    "analysis": "frames_extracted",
+    "analysis": "overview_reviewed",
     "acquisition": {
       "id": "DdwOo_op5T_",
       "browser_duration": 60.666666666666664,
@@ -2736,8 +2816,10 @@
       "grids/DdwOo_op5T_/timeline-06.jpg",
       "grids/DdwOo_op5T_/timeline-07.jpg"
     ],
-    "review": null,
-    "note": null,
+    "review": {
+      "note": "0초 식탁과 인물, 5–35초 비슷한 프레임에서 음식과 손 역할이 바뀌고 40초 음식 클로즈업, 60초 인사. 하단 한국어 자막이 이어진다."
+    },
+    "note": "0초 식탁과 인물, 5–35초 비슷한 프레임에서 음식과 손 역할이 바뀌고 40초 음식 클로즈업, 60초 인사. 하단 한국어 자막이 이어진다.",
     "hypothesis": null,
     "audio_rms_range": [
       -27.89,

@@ -13,23 +13,21 @@
   },
   "analysis_state_counts": {
     "YouTube": {
-      "boundary_and_overview_reviewed": 7,
-      "frames_extracted": 7,
+      "boundary_and_overview_reviewed": 8,
       "not_analyzed": 1,
-      "overview_reviewed": 7,
+      "overview_reviewed": 13,
       "prior_verified": 0
     },
     "Instagram": {
       "boundary_and_overview_reviewed": 2,
-      "frames_extracted": 13,
       "not_analyzed": 43,
-      "overview_reviewed": 0,
+      "overview_reviewed": 13,
       "prior_verified": 2
     }
   },
   "sample_bins_new_total": 11105,
   "automatic_cut_candidates_new_total": 385,
-  "confirmed_hard_cut_candidates_new_total": 79,
+  "confirmed_hard_cut_candidates_new_total": 93,
   "watch_extracted_frames_new_total": 557,
   "source_frame_measurement": "Original decoded frames via FFmpeg passthrough; frame-count parity with ffprobe; OpenCV measures optical flow, luma, HSV, candidate discontinuities. FFmpeg PCM waveform aligns to first video PTS.",
   "limits": [

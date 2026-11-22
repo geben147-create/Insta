@@ -1027,6 +1027,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "한 동작 직후 단면을 보여주는 구성과 짧은 촉각음 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "37",
+      "file": "37-과일젤리타일.png",
+      "local_relative_path": "queue-60/37-과일젤리타일.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "893c75818a776909ae2ab6df949daf70c5a57f87166a10f8a99e04551426c85e",
+      "trip_hotel_id": "993737",
+      "facility": "선웨이 리조트 호텔이 안내하는 선웨이 라군 워터파크",
+      "composition": "마른 전망 테이블 가까운 사선으로, 꺾어 든 젤리 한 줄과 뒤쪽 대형 깔때기 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/subang-jaya-hotel-detail-993737/sunway-resort-hotel/",
+      "trip_public_url": "https://www.trip.com/hotels/subang-jaya-hotel-detail-993737/sunway-resort-hotel/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/220n0u000000j7wjxA237_R_600_360_R5.webp",
+      "facility_photo_sha256": "77c36b395258eaad870695492d554e1990030df17814e79c4195dfd43b5cbbaa",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/37-fruit-jelly-tiles.md",
+      "flow_prompt_sha256": "eacc253b2750cd75984f040ed6cdfca826dfa03a5b9458e4be843d4f67ea87a7",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "한 동작에서 분리되는 단면과 촉각음을 연결하는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

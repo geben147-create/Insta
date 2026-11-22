@@ -2444,6 +2444,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
       "creative_reference_use": "한 번의 손동작으로 상자 겉면과 속 캔디의 질감을 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "93",
+      "file": "93-땅콩버터프렛첼구슬.png",
+      "local_relative_path": "queue-60/93-땅콩버터프렛첼구슬.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "e15d116df8d0651b341e814f5369fe449a17e633a4ef853a4619f6542d041f66",
+      "trip_hotel_id": "57338573",
+      "facility": "셀렉텀 노아 리조트 깜라인 워터파크",
+      "composition": "파라솔 아래 마른 의자 왼쪽 어깨 높이에서 구슬과 파랑·주황 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/cam-lam-district-hotel-detail-57338573/selectum-noa-resort-cam-ranh/",
+      "trip_public_url": "https://www.trip.com/hotels/cam-lam-district-hotel-detail-57338573/selectum-noa-resort-cam-ranh/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0582e12000spdtble62C7_R_600_360_R5.webp",
+      "facility_photo_sha256": "057c1508598af41d2d37646d164964251ef8f3e9d4726b299211c77ababffb08",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/93-peanut-butter-pretzel-sphere.md",
+      "flow_prompt_sha256": "9569afb7772aa9a55b597369893ea89e2e991ee21fb7913a00fb6dd804aa463c",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "첫 파열음에 맞춰 프렛첼과 크림 질감 공개",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

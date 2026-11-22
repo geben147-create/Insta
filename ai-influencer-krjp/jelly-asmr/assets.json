@@ -555,6 +555,34 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "한 가지 손동작으로 질감 변화를 드러내고 짧은 소리를 붙이는 구조 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "19",
+      "file": "19-메이크업스패출러.png",
+      "local_relative_path": "queue-60/19-메이크업스패출러.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "61cf57049489e5ca5cfca5a79e5bbc9d83bfe1717f32afe17b802e7ddaedd247",
+      "trip_hotel_id": "5448550",
+      "facility": "다낭 미카즈키 재패니즈 리조트 앤 스파 워터파크",
+      "composition": "해적선 물놀이장 옆 건조한 보행로에서 가슴 높이 사선으로 작업대를 촬영",
+      "facility_source_url": "https://www.trip.com/hotels/da-nang-hotel-detail-5448550/da-nang-mikazuki-japanese-resorts-%26-spa/",
+      "trip_public_url": "https://www.trip.com/hotels/da-nang-hotel-detail-5448550/da-nang-mikazuki-japanese-resorts-%26-spa/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0581t12000smx2gndD751_R_600_360_R5.webp",
+      "facility_photo_sha256": "fcb5006851f014947a236a5d14b8970937948dd768ef62a9389cfb9533cc4205",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/19-makeup-spatula.md",
+      "flow_prompt_sha256": "128f9238b04f513b77aeed0c56af9f9a1e6775523b1430596f88b1087c12cf67",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000179976"
+      ],
+      "product_reference_use": "피카소 투웨이/커브드 메이크업 스파츌라의 도구 형태 참고. 대형 도구와 크림은 별도 비식용 연출 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품의 한 가지 손동작과 질감 공개에 짧은 소리를 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

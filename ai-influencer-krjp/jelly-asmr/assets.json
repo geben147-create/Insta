@@ -1102,6 +1102,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품에서 한 조각이 분리되는 순간의 파열음과 단면 공개 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "40",
+      "file": "40-식용리본포장디저트.png",
+      "local_relative_path": "queue-60/40-식용리본포장디저트.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "a338de5ca0d059a9c4a6b62f93926d0f539b5fd4e1f4c99301189ec55cc4f42a",
+      "trip_hotel_id": "751865",
+      "facility": "피칼바트로스 아쿠아 블루 샤름 엘 셰이크 워터파크",
+      "composition": "초가 차양 안 마른 테이블의 낮은 사선, 식용 매듭을 당기는 두 손 뒤로 실제 슬라이드와 파라솔을 담음",
+      "facility_source_url": "https://www.trip.com/hotels/sharm-el-sheikh-hotel-detail-751865/pickalbatros-aqua-blu-sharm-el-sheikh/",
+      "trip_public_url": "https://www.trip.com/hotels/sharm-el-sheikh-hotel-detail-751865/pickalbatros-aqua-blu-sharm-el-sheikh/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1mc4212000bunvvqe7E42_R_600_360_R5.webp",
+      "facility_photo_sha256": "ec046d8679879b57803743359bfba18a10ee9dce33e3ed3a0b8195e3dc05a3db",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/40-edible-ribbon-dessert.md",
+      "flow_prompt_sha256": "85bba04082a78da8bdfa4f93d0674bf42a9fe91a504bd98842bcdfcece07f207",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "하나의 손동작으로 재료의 층과 촉각음을 드러내는 구조 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

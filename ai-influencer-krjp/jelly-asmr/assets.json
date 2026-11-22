@@ -1927,6 +1927,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "한입의 파열음과 겉·속 단면 공개를 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "73",
+      "file": "73-젤리물고기수조푸딩.png",
+      "local_relative_path": "queue-60/73-젤리물고기수조푸딩.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "8074cccf1bb9b96eab17c86b28c31d4f288df86611e2e47d2e2e51cbc6830b05",
+      "trip_hotel_id": "62417704",
+      "facility": "니켈로디언 리조트 리비에라 마야의 아쿠아 닉 워터파크",
+      "composition": "마른 테이블 위 사선에서 체와 투명 푸딩, 뒤쪽 노란 난간과 파인애플 타워를 담음",
+      "facility_source_url": "https://sg.trip.com/hotels/solidaridad-hotel-detail-62417704/hotel/?isNeedAnchor=2&locale=en-SG&rankingId=100200231510",
+      "trip_public_url": "https://sg.trip.com/hotels/solidaridad-hotel-detail-62417704/hotel/?isNeedAnchor=2&locale=en-SG&rankingId=100200231510",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0222g12000b2a3b6c4E15_R_600_360_R5.webp",
+      "facility_photo_sha256": "d24b73463eb9eadefd38e14fd09364554a0dd91baa764b0e47c1b1240f509d04",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/73-jelly-fish-aquarium-pudding.md",
+      "flow_prompt_sha256": "cbbe529c825b92d06e7661bfbd5d9718480fa6e3da78ac6070f7734e5b951515",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "크기 대비와 첫 손동작 후의 촉각음을 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

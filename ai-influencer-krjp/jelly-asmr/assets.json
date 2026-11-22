@@ -2262,6 +2262,33 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
       "creative_reference_use": "한 번의 손동작 이후 표면의 색과 질감 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "86",
+      "file": "86-아이섀도타일반전.png",
+      "local_relative_path": "queue-60/86-아이섀도타일반전.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "2acfe26ef6a944ec013dda61c6fe74854e3f382193e9bf3d6ce23919ad679f2d",
+      "trip_hotel_id": "2115728",
+      "facility": "솔 네세바르 마레 워터파크",
+      "composition": "그늘진 산책로에서 어깨 가까이 잡은 사선 구도로 대형 타일과 왼쪽 뒤 해안 워터파크를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/nessebar-hotel-detail-2115728/sol-nessebar-mare/",
+      "trip_public_url": "https://www.trip.com/hotels/nessebar-hotel-detail-2115728/sol-nessebar-mare/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0221312000ptcn3xf0B40_R_600_360_R5.webp",
+      "facility_photo_sha256": "18774fc9dfda8d08bf83a0b41cba2944ed39d6e8c6e33ec8d4c087c8d4162107",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/86-eyeshadow-flip-tile.md",
+      "flow_prompt_sha256": "97dab547de70accdc53d18dd739da4512b02b46fe18e4ac341e95373eeeb0174",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000001005367"
+      ],
+      "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
+      "creative_reference_use": "한 번의 뒤집기 동작으로 다른 색과 광택 공개",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

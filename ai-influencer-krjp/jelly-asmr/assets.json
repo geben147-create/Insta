@@ -1552,6 +1552,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품의 첫 동작에 촉각음을 맞추고 한입 단면을 보여주는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "58",
+      "file": "58-딸기주머니머랭.png",
+      "local_relative_path": "queue-60/58-딸기주머니머랭.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "f27f13330bce9a93894b62d4f3deb76afa9fd41a2f7f7e16688aecd3a1fec232",
+      "trip_hotel_id": "10419322",
+      "facility": "크레타 스타 비치 빌리지 워터파크",
+      "composition": "마른 카페 차양 아래 탁자 높이 옆 사선에서 열린 머랭과 뒤쪽 파란 원형 슬라이드를 함께 담음",
+      "facility_source_url": "https://www.trip.com/hotels/hersonissos-hotel-detail-10419322/star-beach-village-and-water-park/",
+      "trip_public_url": "https://www.trip.com/hotels/hersonissos-hotel-detail-10419322/star-beach-village-and-water-park/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0222s12000pxm7yiv76D9_R_600_360_R5.webp",
+      "facility_photo_sha256": "30b3b847b283c7cb9f9309c89da7a9c8b9b080f36b5b760e413ab386326fbbac",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/58-strawberry-meringue-pouch.md",
+      "flow_prompt_sha256": "b6cc1285078da21a3cdefb995d2b11446dc1663484031e89dfaf8eeefa8c9767",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "바삭하게 분리하는 첫 손동작과 안쪽 단면의 촉각음을 맞춤",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

@@ -802,6 +802,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "소품의 이음새를 열어 작은 식용 조각을 드러내고 질감에 짧은 소리를 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "28",
+      "file": "28-솜사탕구름.png",
+      "local_relative_path": "queue-60/28-솜사탕구름.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "9a271430ed8baec5c9bb2ede0fa6b31782d1df4bbed14a4c1196182f84af6011",
+      "trip_hotel_id": "998454",
+      "facility": "푸껫 오키드 리조트 앤 스파 워터파크",
+      "composition": "목재 그늘의 마른 벤치에 비스듬히 앉아, 보와 파란 곡선 슬라이드 사이로 솜사탕 결을 보여줌",
+      "facility_source_url": "https://www.trip.com/hotels/phuket-hotel-detail-998454/phuket-orchid-resort-and-spa/",
+      "trip_public_url": "https://www.trip.com/hotels/phuket-hotel-detail-998454/phuket-orchid-resort-and-spa/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/200t0r000000gzd1sD878_R_600_360_R5.webp",
+      "facility_photo_sha256": "60ba506540d3000fc1ae8f795a8e64252ea55e39a34b249cc7e59641bf4e6aba",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/28-cotton-candy-cloud.md",
+      "flow_prompt_sha256": "18364e6af1bf59f304e73effbd4ff0a135e7348a1ba3e881dbababe6b29fb2aa",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "작은 조각을 떼며 단면을 공개하고 짧은 촉각음을 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

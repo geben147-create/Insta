@@ -1702,6 +1702,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "첫 손동작에서 단면을 공개하고 짧은 촉각음을 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "64",
+      "file": "64-쌀튀밥블록무지개.png",
+      "local_relative_path": "queue-60/64-쌀튀밥블록무지개.png",
+      "width": 839,
+      "height": 1491,
+      "sha256": "d2257026fe71e1e09e64e17cfe9b1c36afd9082eb15c8aaaa550952f1153518d",
+      "trip_hotel_id": "9708013",
+      "facility": "피칼바트로스 아쿠아 파크 샤름 엘 셰이크 워터파크",
+      "composition": "마른 전망 테이블 어깨 높이 사선에서 투명 포장 아래 쏟아지는 낟알과 둥근 물놀이장을 담음",
+      "facility_source_url": "https://www.trip.com/hotels/sharm-el-sheikh-hotel-detail-9708013/albatros-aqua-park-sharm-el-shiekh/",
+      "trip_public_url": "https://www.trip.com/hotels/sharm-el-sheikh-hotel-detail-9708013/albatros-aqua-park-sharm-el-shiekh/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0226z12000lqpszej7D2A_R_600_360_R5.webp",
+      "facility_photo_sha256": "6f5afb9a38c9b23bf9e4684feebb43ed629a55c71034a3f68cd1132ca374401a",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/64-rainbow-puffed-rice-block.md",
+      "flow_prompt_sha256": "260afcb501d69a9121495540d8e5f4387293eb5a034c26f65acff19405aa1f9f",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "첫 손동작에 파열음과 낟알 질감 공개를 맞춤",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

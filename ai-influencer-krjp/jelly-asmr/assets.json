@@ -927,6 +927,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품에서 한입 크기를 분리하고 촉각음을 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "33",
+      "file": "33-검은깨찹쌀볼.png",
+      "local_relative_path": "queue-60/33-검은깨찹쌀볼.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "269bf293ddb5f04815eb0eef463fa22412c834aa8c17e3e1928b8e72a394e462",
+      "trip_hotel_id": "6694437",
+      "facility": "아메르턴 코브 골프 앤 아일랜드 리조트 워터파크",
+      "composition": "마른 테이블 높이의 정면에서 양손으로 벌린 찹쌀 볼과 뒤쪽 버섯 분수를 함께 담음",
+      "facility_source_url": "https://www.trip.com/hotels/carey-island-hotel-detail-6694437/amverton-cove-golf-%26-island-resort/",
+      "trip_public_url": "https://www.trip.com/hotels/carey-island-hotel-detail-6694437/amverton-cove-golf-%26-island-resort/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0581u12000t5ktbthDE76_R_600_360_R5.webp",
+      "facility_photo_sha256": "10036531b5e7fb51c2f03d7d542d7fa8625ed57d8f1eb51a7f569ae357b4ae09",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/33-black-sesame-rice-ball.md",
+      "flow_prompt_sha256": "a8fd6d229963fb04016eb0e0e5469d9d53b2f1a7abd795b61d75f949ce4b6f51",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "소품을 분리하는 순간의 촉각음과 단면 공개를 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

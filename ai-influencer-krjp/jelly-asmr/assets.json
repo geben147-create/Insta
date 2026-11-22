@@ -339,6 +339,30 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=3Ia0yKqWgiM",
       "character_reference": "남자모델-3안-v4.png 가운데 B안",
       "flow_prompt_sha256": "1f943630e7fb89cc91cfbd9fc5c5cd2881790b5454f2e53511373c0b1bb4d3ee"
+    },
+    {
+      "queue_id": "11",
+      "file": "11-별젤리모자이크.png",
+      "local_relative_path": "queue-60/11-별젤리모자이크.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "eb8c577f2f36cb046e4d662e95f6c635da40a79ddc6c56583ead6499223a29d4",
+      "trip_hotel_id": "685113",
+      "facility": "발리 다이너스티 리조트 워터파크",
+      "composition": "그늘진 카바나의 건조한 테이블·초록 나선 슬라이드",
+      "facility_source_url": "https://www.trip.com/hotels/bali-hotel-detail-685113/bali-dynasty-resort/",
+      "trip_public_url": "https://www.trip.com/hotels/bali-hotel-detail-685113/bali-dynasty-resort/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0582y12000sm4api4D9BE_R_600_360_R5.webp",
+      "facility_photo_sha256": "8c7d6a1d9fe904a895a7fa87681a118bbb32ecc5b08597b5ab903850384966d8",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/11-star-jelly-mosaic.md",
+      "flow_video_status": "pending_connection",
+      "creative_reference_url": "https://www.youtube.com/watch?v=ClpNUYQ0DMs",
+      "creative_reference_use": "투명 식용 소품 속 다채로운 조각 공개와 얼굴·손동작 교차",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안",
+      "flow_prompt_sha256": "6e703d32138797eb30390b5a8a2647a18b14ad8865f661114a6dd3f46ba6e516"
     }
   ]
 }

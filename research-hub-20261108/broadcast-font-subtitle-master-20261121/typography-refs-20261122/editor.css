@@ -1,5 +1,5 @@
 @font-face{font-family:"ref-394";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff");font-display:swap}
-@font-face{font-family:"ref-740";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff");font-display:swap}
+@font-face{font-family:"ref-738";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff");font-display:swap}
 @font-face{font-family:"ref-363";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff");font-display:swap}
 @font-face{font-family:"ref-330";src:url("https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff");font-display:swap}
 @font-face{font-family:"ref-458";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff");font-display:swap}
@@ -29,14 +29,37 @@
 #ty22 .reference-editor .choices span{overflow:visible;white-space:normal}
 #ty22 .reference-editor .live[hidden]{display:none}
 #ty22 .reference-editor .reference-sample{font-size:min(var(--size),9.5cqw);text-align:center;padding:5px 9px;line-height:1.08;letter-spacing:var(--tracking)}
-#ty22 .reference-editor .reference-line{transform:skewX(var(--slant));filter:var(--shadow);font-size:inherit;overflow-wrap:anywhere}
+#ty22 .reference-editor .reference-line{filter:var(--shadow);font-size:inherit;overflow-wrap:anywhere}
 #ty22 .reference-editor .reference-ink{display:inline;font-size:inherit;color:var(--ink);-webkit-text-stroke:var(--edge);paint-order:stroke fill}
-#ty22 .reference-editor .gradient-line .reference-ink{display:inline-grid;max-width:100%}
-#ty22 .reference-editor .gradient-line .reference-ink>span{grid-area:1/1;font-size:inherit;white-space:pre-wrap}
-#ty22 .reference-editor .gradient-line .reference-ink>span:last-child{color:transparent;background-image:var(--fill);background-clip:text;-webkit-text-stroke:0}
-#ty22 #T01 .reference-sample{font-size:min(var(--size),8cqw);transform:rotate(-4deg)}
 #ty22 #T01 .reference-line:nth-child(2){font-size:1.1em}
 #ty22 #T01 .reference-line:first-child{margin-right:2em}
 #ty22 #T01 .reference-line:nth-child(3){margin-left:2em}
 #ty22 .reference-editor button.ty22-color{background:#fff;color:#33445e;border:1px solid #aebfd6;font-weight:700;cursor:pointer}
 #ty22 .reference-editor button.ty22-color:hover{border-color:#175ac6}
+@font-face{font-family:"ref-669";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff");font-display:swap}
+@font-face{font-family:"ref-Jua";src:url("https://fonts.gstatic.com/s/jua/v18/co3KmW9ljjATdOrd.ttf");font-display:swap}
+@font-face{font-family:"ref-Noto+Serif+KR";src:url("https://fonts.gstatic.com/s/notoserifkr/v32/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOnchPf_5x658.ttf");font-display:swap}
+#ty22 .reference-editor .reference-sample{position:relative;white-space:normal;padding:12px 20px;font-size:min(var(--size),8.2cqw)}
+#ty22 .reference-editor .reference-line{transform:var(--transform);line-height:1.14}
+#ty22 #T01 .reference-sample{transform:none}
+#ty22 .reference-editor .reference-ink{white-space:pre-wrap}
+#ty22 .reference-editor .gradient-ink{display:inline-grid;max-width:100%}
+#ty22 .reference-editor .gradient-ink>span{grid-area:1/1;font-size:inherit;white-space:pre-wrap}
+#ty22 .reference-editor .gradient-ink>span:last-child{color:transparent;background-image:var(--fill);background-clip:text;-webkit-text-stroke:0}
+#ty22 .reference-editor .reference-effect{position:absolute;width:10%;height:auto;bottom:9%;object-fit:contain;pointer-events:none}
+#ty22 .reference-editor .reference-effect.left{left:0}
+#ty22 .reference-editor .reference-effect.right{right:0;transform:scaleX(-1)}
+#ty22 #T04 .reference-effect.left{display:none}
+#ty22 #T04 .reference-effect.right{width:7%;right:2%;top:4%}
+#ty22 #T05 .reference-effect{width:8%;bottom:14%}
+#ty22 .reference-editor .reference-badge{position:relative;display:table;margin:0 0 .45em 10%;padding:.16em .45em;font:900 .46em/1.2 system-ui;background:#22191a;color:#fff;transform:rotate(-4deg);z-index:1}
+#ty22 #T06 .reference-line{text-align:left;margin-left:9%;filter:var(--shadow) drop-shadow(0 0 2px #fff)}
+#ty22 #T07 .reference-line:first-of-type{text-align:left;margin-left:9%}
+#ty22 #T08 .reference-sample{border:8px solid transparent;border-image:repeating-linear-gradient(135deg,var(--frame) 0 14px,#080808 14px 28px) 8;margin-top:5px}
+#ty22 #T08 .reference-badge{margin-left:0;background:#fff;color:#151515;border:2px solid #161616;border-radius:4px;transform:none}
+#ty22 .palette-controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#ty22 .palette-controls .ty22-colors{flex-basis:100%;margin-bottom:0}
+#ty22 .palette-controls label{display:inline-flex;gap:4px;align-items:center}
+#ty22 .palette-controls input[type=color]{width:35px}
+#ty22 .selection-help{color:#33445e}
+#ty22 .controls .badge{grid-column:1/-1}

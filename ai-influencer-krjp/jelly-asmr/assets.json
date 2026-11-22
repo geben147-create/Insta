@@ -1127,6 +1127,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "하나의 손동작으로 재료의 층과 촉각음을 드러내는 구조 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "41",
+      "file": "41-팬케이크구름.png",
+      "local_relative_path": "queue-60/41-팬케이크구름.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "2a60482242a7afee91956a6778c246781be6d871aae68b6598e6de0332312942",
+      "trip_hotel_id": "2099292",
+      "facility": "두바이 JA 비치 호텔 워터파크",
+      "composition": "가슴 높이 사선에서 마른 돌 작업대의 눌린 팬케이크를 전경에 두고 뒤쪽 물줄기를 담음",
+      "facility_source_url": "https://us.trip.com/hotels/dubai-hotel-detail-2099292/ja-beach-hotel-dubai/",
+      "trip_public_url": "https://us.trip.com/hotels/dubai-hotel-detail-2099292/ja-beach-hotel-dubai/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0223312000qkaw2i146D5_R_600_360_R5.webp",
+      "facility_photo_sha256": "cba0a41f6e85460117833bfb24634c61617374f4e3ff62b5f1e743ba2053352c",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/41-pancake-cloud.md",
+      "flow_prompt_sha256": "01e9ad09417ca17028c468fe821c060ac561eae98e5311e27c3d19ef6e4c6597",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "대형 소품에서 한 가지 손동작과 짧은 촉각음을 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

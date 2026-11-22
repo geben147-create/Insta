@@ -171,10 +171,44 @@ function promptFor(id){const r=getRow(id),f=featured.find(v=>v[0]===id);return [
 '규격: 글씨 900, 짙은 외곽선 3~7px, 배경과 텍스트 분리, 모바일 160px 축소 가독성 시험.',
 '저작권: 방송 화면을 그대로 재사용하지 말고, 독자 촬영/사용 허가된 이미지와 사실인 반응으로 제작.'
 ].join('\n')}
+
+const paletteByCase={
+ '01-1':['#FCE40C','#FCCC0C','#A92C26','#1D1521'],
+ '01-2':['#84FCFC','#FCB484','#FFF4A9','#213040'],
+ '01-4':['#B64B66','#E8B3B8','#F8DDD3','#53444D'],
+ '02-1':['#FCCC0C','#F5A724','#F56920','#2484E4'],
+ '02-4':['#FCCC9C','#AEEAD9','#F88FAC','#354A48'],
+ '03-1':['#FCE43C','#CC3C24','#FCE3B3','#4C3635'],
+ '03-4':['#E0B66D','#C73B52','#FFFFFF','#35242F'],
+ '04-4':['#E46C9C','#E45484','#3C549C','#F0D1D8'],
+ '05-1':['#F2E5D9','#9B4D4B','#E5D6C8','#2D2E36'],
+ '06-1':['#FC0C3C','#E40C3C','#FFFFFF','#273F6B'],
+ '06-3':['#FCFC24','#FCFC54','#FFFFFF','#6B5048'],
+ '07-2':['#FFFFFF','#3B7FDF','#DF3D2B','#283B68'],
+ '07-3':['#E46C3C','#F3AF47','#FBE397','#AF3929'],
+ '09-4':['#E40C0C','#FFF7EE','#5C211C','#E3AF80']
+};
+const portraitGuide={
+ '01-1':'인물 2명 | 좌우 45:55 | 중앙 번개 폭 약 5% | 하단 제목 22~27%',
+ '01-2':'중앙 강아지 얼굴 약 35~45% 폭 | 오른쪽 귀여운 얼굴 병치 | 2줄 제목',
+ '01-4':'감정 표현 인물 얼굴 약 60~75% 화면 폭 | 상단 문구 0줄 | 하단 한 줄',
+ '02-1':'중앙 절규 얼굴 높이 약 70~85% | 좌우 불꽃 | 하단 감탄사',
+ '02-4':'오른쪽 원형 표정 직경 약 50~65% 화면 높이 | 왼쪽은 사건 상황',
+ '03-1':'오른쪽 원형 2개 직경 40~55% 화면 높이 | 왼쪽 인물 단독',
+ '03-4':'놀란 얼굴 2개 각 화면 높이 55~75% | 오른쪽 소품은 보조',
+ '04-4':'오른쪽 표정 약 55~70% 높이 | 상단 핑크 감탄 1줄',
+ '05-1':'웃는 인물 3~4명 | 핵심 얼굴 크기 45~65% 높이',
+ '06-1':'야구 선수 우측 상반신 약 85~95% 화면 높이 | 우측 폭 45~58% | 기록은 하단',
+ '06-3':'웃는 두 얼굴 좌우 배치 | 화이트 번개 중앙 | 노랑 ㅋㅋㅋ 머리 위',
+ '07-2':'선수 약 70~90% 높이 | 상단 거리 28m | 포물선 화살표와 확대 링',
+ '07-3':'좌우 인물 분리선 | 하단 타이포 높이 20~30% | 세로 1.12배 원근',
+ '09-4':'왼쪽 원형 표정 직경 약 55~70% 높이 | 흰 !!! | 하단 와인색 충 / 격'
+};
+
 function renderFeatured(){document.getElementById('featured').innerHTML=featured.map(f=>{
 const r=getRow(f[0]);return '<article class="feature">'+htmlThumb(f[0])+
 '<div class="pad"><div class="feature-head"><span class="fid">★ '+f[0]+'</span><span class="cat">'+esc(r.cat)+'</span></div><h3>'+esc(f[1])+'</h3><p><b>추출 문구</b> '+esc(r.quote)+'</p><p>'+esc(f[2])+'</p><p class="why"><b>눈에 띄는 이유(가설)</b> '+esc(f[3])+'</p>'+
-'<div class="swatches">'+['#FFE23C','#E83C68','#F56B20','#FDF4EC','#1B2442'].map(hex=>'<span class="sw"><i style="background:'+hex+'"></i>'+hex+'</span>').join('')+'</div>'+
+'<p style="font-size:11px;color:#ffe9b0"><b>인물·글씨 크기</b> '+esc(portraitGuide[f[0]]||'사례별 크기 측정 전')+'</p><div class="swatches">'+(paletteByCase[f[0]]||['#FFE23C','#E83C68','#F56B20','#FDF4EC']).map(hex=>'<span class="sw"><i style="background:'+hex+'"></i>'+hex+'</span>').join('')+'</div>'+
 '<div class="actions"><button class="small" data-copy="'+f[0]+'">📋 프롬프트</button><button class="small" data-select="'+f[0]+'">🎨 미리보기</button><button class="small" data-save="'+f[0]+'">⬇ JPG</button>'+
 (r.yt?'<a class="navlink" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v='+r.yt+'">원본 영상</a>':'')+'</div></div></article>'
 }).join('')}

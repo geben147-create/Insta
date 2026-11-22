@@ -696,6 +696,34 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "사탕깨기 영상의 짧고 선명한 촉각음을 꽃 모형의 틀 분리에 적용",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "24",
+      "file": "24-입욕제행성.png",
+      "local_relative_path": "queue-60/24-입욕제행성.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "882b1f740c998899659fa8e3c5989341007d1a833ede947f6dea468a8f364c4a",
+      "trip_hotel_id": "3064918",
+      "facility": "크레타 스텔라 팰리스 아쿠아 파크 리조트 워터파크",
+      "composition": "높은 마른 테라스에서 투명 볼의 수면과 인물의 시선, 바다 수평선을 함께 잡는 높은 사선",
+      "facility_source_url": "https://www.trip.com/hotels/hersonissos-hotel-detail-3064918/stella-palace-resort-and-spa/",
+      "trip_public_url": "https://www.trip.com/hotels/hersonissos-hotel-detail-3064918/stella-palace-resort-and-spa/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0227012000dvsbyhsC3E3_R_600_360_R5.webp",
+      "facility_photo_sha256": "2c9c97c333a25a47bee1a6e5cfbf2d9a312660638523157d4dfbeff2eec741bd",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/24-bath-bomb-planet.md",
+      "flow_prompt_sha256": "f4e96ad824bb456302888e708a71eb29bfabf956f765d2491f58ab12704e8d25",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000231579"
+      ],
+      "product_reference_use": "라운드어라운드 센티드 배쓰밤은 입욕제 형태 참고. 보라색 행성 모형은 별도 대형 비식용 연출 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "한 번의 명확한 접촉으로 질감과 촉각음을 드러내는 구조 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

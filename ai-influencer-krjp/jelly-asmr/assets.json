@@ -583,6 +583,34 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품의 한 가지 손동작과 질감 공개에 짧은 소리를 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "20",
+      "file": "20-컬러컨실러타일.png",
+      "local_relative_path": "queue-60/20-컬러컨실러타일.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "252584411ee5be8bfeee3c97cfd225c78763c7feb88ab4960f6a7913d92d4d62",
+      "trip_hotel_id": "15691333",
+      "facility": "셰라톤 그랜드 다낭 비치 리조트 앤 스파 워터파크",
+      "composition": "물놀이장 마른 가장자리에 앉은 인물, 낮은 정면과 우측 수면",
+      "facility_source_url": "https://www.trip.com/hotels/da-nang-hotel-detail-15691333/sheraton-grand-danang-beach-resort-and-spa/",
+      "trip_public_url": "https://www.trip.com/hotels/da-nang-hotel-detail-15691333/sheraton-grand-danang-beach-resort-and-spa/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0225z120008d7a298CD40_R_600_360_R5.webp",
+      "facility_photo_sha256": "527fd2b63c080d294dba70cdded2096f044ddf49295fe914877a59916e0c6372",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/20-concealer-tile.md",
+      "flow_prompt_sha256": "bcdfcfa02ab4eadc4258e01b58f55a35ecc7f14ff106cc349a0831c998c72dc0",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000238763"
+      ],
+      "product_reference_use": "더샘 커버 퍼펙션 트리플 팟 컨실러의 색 보정 크림 참고. 사각 격자와 대형 크림 타일은 별도 비식용 연출 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품에서 한 조각을 분리하며 질감과 짧은 동작음을 드러내는 구조 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

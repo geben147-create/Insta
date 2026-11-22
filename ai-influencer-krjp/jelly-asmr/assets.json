@@ -2235,6 +2235,33 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "첫 손동작과 짧은 촉각음을 맞추고 브러시 모 재질을 드러냄",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "85",
+      "file": "85-립밤원형케이스.png",
+      "local_relative_path": "queue-60/85-립밤원형케이스.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "02356e9d111a19dbf7155b33f5508daedcdca8329da1e8d2f4b0c6b18251d7a2",
+      "trip_hotel_id": "751295",
+      "facility": "비치 알바트로스 아쿠아파크 후르가다 워터파크",
+      "composition": "전망 테라스 탁자에서 원형 케이스 너머 홍해와 워터파크 단지 전체를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/hurghada-hotel-detail-751295/beach-albatros-aqua-park-hurghada/",
+      "trip_public_url": "https://www.trip.com/hotels/hurghada-hotel-detail-751295/beach-albatros-aqua-park-hurghada/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1mc3y12000evwj24p1B3F_R_600_360_R5.webp",
+      "facility_photo_sha256": "8e62cb4e24c64d2f56c5c513236394ac0f1334c22f426f900f561022d6934194",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/85-circular-lip-balm-case.md",
+      "flow_prompt_sha256": "5111b3572adfa077f26db67410c1beae9a228fd635b3dcef50ac9493d4af9778",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000223349"
+      ],
+      "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
+      "creative_reference_use": "한 번의 손동작 이후 표면의 색과 질감 공개",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

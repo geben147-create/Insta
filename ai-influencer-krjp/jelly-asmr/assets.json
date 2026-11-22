@@ -952,6 +952,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "소품을 분리하는 순간의 촉각음과 단면 공개를 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "34",
+      "file": "34-감귤꽃잼쿠키.png",
+      "local_relative_path": "queue-60/34-감귤꽃잼쿠키.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "2795ee0a90d82d90cfb349f5b30ba3a00b5ebbecdfb13f0d3b23b4ba29c0806c",
+      "trip_hotel_id": "12485760",
+      "facility": "테네리페 GF 빅토리아 워터파크",
+      "composition": "마른 테이블 위 높은 사선에서 잼이 떨어지는 흐름과 인물, 파랑·노랑 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/adeje-hotel-detail-12485760/gf-victoria/",
+      "trip_public_url": "https://www.trip.com/hotels/adeje-hotel-detail-12485760/gf-victoria/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0224n12000f5edxp96A90_R_600_360_R5.webp",
+      "facility_photo_sha256": "5f79cf22707d7df7e0e3b2ac9d1d2a64d793075312bb5fb73b0cf68bb6263185",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/34-mandarin-jam-flower.md",
+      "flow_prompt_sha256": "84e983a4422e73ba0608b2e85068f9ea0575f04fe30869af41f72431274c2db1",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "전경의 큰 소품과 재질 변화에 짧은 촉각음을 맞추는 구조 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

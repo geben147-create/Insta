@@ -47,7 +47,7 @@ details{background:#192637;border:1px solid #44516a;border-radius:10px;padding:1
 </style>
 </head>
 <body>
-<header class="top"><div class="head"><a class="home" href="../../../">← 기존 연구 허브</a><h1>🎨 썸네일 레이어 실험실</h1><span class="pill">실시간 미리보기 · 2026.11.23</span></div>
+<header class="top"><div class="head"><a class="home" href="../../">← 기존 연구 허브</a><h1>🎨 썸네일 레이어 실험실</h1><span class="pill">실시간 미리보기 · 2026.11.23</span></div>
 <p>원본 비교 → 템플릿 클릭 → 글씨·폰트·HEX 색상 개별 변경 → 레이어 드래그 → PNG 또는 JSON 저장. 원본 글꼴과 색은 캡처 기반 <strong>유사 재현</strong>입니다.</p></header>
 <div class="shell">
 <aside class="panel left sticky"><h2>① 템플릿 7종</h2><div class="muted">원본 디자인을 요소별로 나눴습니다. 선택하면 즉시 미리보기가 바뀝니다.</div><div class="preset-list" id="presetList"></div>
@@ -75,7 +75,7 @@ details{background:#192637;border:1px solid #44516a;border-radius:10px;padding:1
 <div class="field"><label for="rim">인물 윤곽광 HEX</label><div class="colorrow"><input id="rim" type="color"><input id="rimHex" type="text" maxlength="7" placeholder="#53DFD4"></div></div>
 <div class="field"><label for="rimAlpha">누끼 투명도 <output id="rimAlphaOut"></output></label><input id="rimAlpha" type="range" min="20" max="100" value="90"></div>
 <div class="field"><label for="arrowToggle">↪ 빨간 손그림 루프 화살표</label><label style="display:flex;gap:8px;align-items:center"><input id="arrowToggle" type="checkbox">화살표 표시</label></div>
-<div class="field"><label for="arrowColor">화살표 색상 HEX</label><div class="colorrow"><input id="arrowColor" type="color"><input id="arrowHex" type="text" maxlength="7"></div></div>
+<div class="field"><label for="arrowColor">화살표 색상 HEX</label><div class="colorrow"><input id="arrowColor" type="color"><input id="arrowHex" type="text" maxlength="7"></div></div><div class="field"><label for="arrowX">화살표 좌우 이동 <output id="arrowXOut">0%</output></label><input id="arrowX" type="range" min="-50" max="50" value="0"></div><div class="field"><label for="arrowY">화살표 상하 이동 <output id="arrowYOut">0%</output></label><input id="arrowY" type="range" min="-50" max="50" value="0"></div><div class="field span"><label for="arrowScale">화살표 크기 <output id="arrowScaleOut">100%</output></label><input id="arrowScale" type="range" min="50" max="160" value="100"></div>
 </div>
 <div class="orbit"><button class="action" id="saveLocal">💾 현재 버전 브라우저 저장</button></div>
 <div class="savedrow"><select id="savedSelect" aria-label="저장된 버전 선택"><option value="">저장된 버전 선택</option></select><button class="action" id="loadLocal">불러오기</button><button class="action" id="deleteLocal">삭제</button></div><div id="status" role="status" aria-live="polite"></div>
@@ -177,7 +177,7 @@ $('cutout').style.opacity=(state.rimAlpha||90)/100;
 $('stage').className='preview '+state.id;
 $('arrowSvg').style.display=state.arrow?'block':'none';
 $('arrowPath').setAttribute('stroke',state.arrowColor||'#BE3348');
-$('arrowHead').setAttribute('stroke',state.arrowColor||'#BE3348');
+$('arrowHead').setAttribute('stroke',state.arrowColor||'#BE3348');const dx=(state.arrowX||0)*12.8,dy=(state.arrowY||0)*7.2,scale=(state.arrowScale||100)/100;$('arrowGroup').setAttribute('transform','translate('+(960+dx)+' '+(245+dy)+') scale('+scale+') translate(-960 -245)');
 };
 function buildText(l){
 const el=document.createElement('div');el.className='txtlayer'+(l.id===selected?' selected':'')+(l.kind==='badge'?' badge':'');el.textContent=l.text;el.dataset.layer=l.id;
@@ -204,7 +204,7 @@ $('layerSelect').value=selected;
 }
 function drawSwatches(){
 $('swatches').replaceChildren();
-state.colors.forEach(([label,col])=>{const b=document.createElement('button');b.className='swatch';const i=document.createElement('i');i.style.background=col;const s=document.createElement('span');s.textContent=label+' '+col;b.append(i,s);b.onclick=()=>copy(col,'색상 '+col+' 복사 완료');b.ondblclick=()=>{const l=getLayer();l.fill=col;syncControls();render();notify(label+' 색상을 현재 레이어에 적용')};b.title='클릭: HEX 복사 / 더블 클릭: 현재 레이어에 적용';$('swatches').appendChild(b)});
+state.colors.forEach(([label,col])=>{const b=document.createElement('button');b.className='swatch';const i=document.createElement('i');i.style.background=col;const s=document.createElement('span');s.textContent=label+' '+col;b.append(i,s);b.onclick=()=>{const l=getLayer();l.fill=col;syncControls();render();notify(label+' '+col+' 적용 완료')};b.ondblclick=()=>copy(col,'색상 '+col+' 복사 완료');b.title='클릭: 즉시 색상 적용 / 더블 클릭: HEX 복사';$('swatches').appendChild(b)});
 }
 function paintValuePair(id,value){$(id).value=normHex(value);$(id+'Hex').value=normHex(value);}
 function syncControls(){
@@ -215,9 +215,9 @@ const keys=['size','spacing','stroke','shadow','rotation','x','y'];keys.forEach(
 $('gradToggle').checked=l.gradient;paintValuePair('fill',l.fill);paintValuePair('fill2',l.fill2);paintValuePair('strokeColor',l.strokeColor);paintValuePair('shadowColor',l.shadowColor);
 document.querySelectorAll('.fontcard').forEach(el=>el.classList.toggle('on',el.dataset.font===l.font));showPosition();
 }
-function setPreset(id){active=PRESETS.find(p=>p.id===id)||PRESETS[0];state=clone(active);state.arrowColor=state.arrowColor||'#BE3348';state.rimAlpha=90;selected=state.layers[0].id;if(id==='thriller')selected='no';
+function setPreset(id){active=PRESETS.find(p=>p.id===id)||PRESETS[0];state=clone(active);state.arrowColor=state.arrowColor||'#BE3348';state.rimAlpha=90;state.arrowX=0;state.arrowY=0;state.arrowScale=100;selected=state.layers[0].id;if(id==='thriller')selected='no';
 $('bgMode').value='reference';document.querySelectorAll('.presetbtn').forEach(b=>b.classList.toggle('on',b.dataset.id===id));$('refImg').src=BASE+state.ref;$('refLink').href=BASE+state.ref;$('refTitle').textContent=state.title;$('refDescription').textContent=state.description;$('spec').textContent=state.spec;
-$('arrowToggle').checked=state.arrow;paintValuePair('rim',state.rim);$('arrowColor').value=normHex(state.arrowColor);$('arrowHex').value=normHex(state.arrowColor);$('rimAlpha').value=90;$('rimAlphaOut').textContent='90%';
+$('arrowToggle').checked=state.arrow;paintValuePair('rim',state.rim);$('arrowColor').value=normHex(state.arrowColor);$('arrowHex').value=normHex(state.arrowColor);$('rimAlpha').value=90;$('rimAlphaOut').textContent='90%';for(const k of ['arrowX','arrowY','arrowScale']){$(k).value=state[k];$(k+'Out').textContent=state[k]+'%'};
 syncControls();render();notify('템플릿 변경: '+state.title);}
 function copy(value,msg){const cb=navigator.clipboard;if(cb&&cb.writeText){cb.writeText(value).then(()=>notify(msg)).catch(()=>fallbackCopy(value,msg));}else fallbackCopy(value,msg)}
 function fallbackCopy(value,msg){const el=document.createElement('textarea');el.value=value;document.body.append(el);el.select();try{document.execCommand('copy');notify(msg)}catch(e){notify('복사가 제한되었습니다. 텍스트를 길게 눌러 복사하세요.')}el.remove()}
@@ -245,8 +245,8 @@ $('rimHex').oninput=e=>{if(validHex(e.target.value)){state.rim=e.target.value;$(
 $('rimAlpha').oninput=e=>{state.rimAlpha=Number(e.target.value);$('rimAlphaOut').textContent=e.target.value+'%';render()};
 $('arrowToggle').onchange=e=>{state.arrow=e.target.checked;render()};
 $('arrowColor').oninput=e=>{state.arrowColor=e.target.value;$('arrowHex').value=e.target.value.toUpperCase();render()};
-$('arrowHex').oninput=e=>{if(validHex(e.target.value)){state.arrowColor=e.target.value;$('arrowColor').value=e.target.value;render()}};
-$('saveLocal').onclick=()=>{try{const key='thumb-layer-lab-v1';let saved=JSON.parse(localStorage.getItem(key)||'[]');saved.unshift({time:new Date().toLocaleString('ko-KR'),name:state.title,data:clone(state)});saved=saved.slice(0,20);localStorage.setItem(key,JSON.stringify(saved));refreshSaves();notify('브라우저에 저장 완료 (최대 20개, 다른 기기와 동기화되지 않음)')}catch(e){notify('브라우저 저장이 차단되었습니다. JSON 복사를 이용하세요.')}};
+$('arrowHex').oninput=e=>{if(validHex(e.target.value)){state.arrowColor=e.target.value;$('arrowColor').value=e.target.value;render()}};for(const k of ['arrowX','arrowY','arrowScale']){$(k).oninput=e=>{state[k]=Number(e.target.value);$(k+'Out').textContent=state[k]+'%';render()}};
+$('saveLocal').onclick=()=>{try{const key='thumb-layer-lab-v1';let saved=JSON.parse(localStorage.getItem(key)||'[]');saved.unshift({time:new Date().toLocaleString('ko-KR'),name:state.title,data:clone(state)});saved=saved.slice(0,20);localStorage.setItem(key,JSON.stringify(saved));refreshSaves();notify('설정 저장 완료 (최대 20개 · 업로드한 사진은 별도 보관 · 기기 간 동기화 안 됨)')}catch(e){notify('브라우저 저장이 차단되었습니다. JSON 복사를 이용하세요.')}};
 $('loadLocal').onclick=()=>{const item=getSavedItem();if(!item)return;state=clone(item.data);active=PRESETS.find(p=>p.id===state.id)||PRESETS[0];selected=state.layers[0].id;updatePresetUi();syncControls();render();notify('저장 버전 불러오기 완료')};
 $('deleteLocal').onclick=()=>{const ix=Number($('savedSelect').value);if($('savedSelect').value==='')return;let a=JSON.parse(localStorage.getItem('thumb-layer-lab-v1')||'[]');a.splice(ix,1);localStorage.setItem('thumb-layer-lab-v1',JSON.stringify(a));refreshSaves();notify('선택한 저장 버전 삭제')};
 $('exportPng').onclick=exportPNG;
@@ -255,7 +255,7 @@ window.addEventListener('pointerup',()=>{if(drag){drag=null;render()}});
 new ResizeObserver(()=>render()).observe($('stage'));
 refreshSaves();setPreset('thriller');
 }
-function updatePresetUi(){document.querySelectorAll('.presetbtn').forEach(b=>b.classList.toggle('on',b.dataset.id===state.id));$('refImg').src=BASE+state.ref;$('refLink').href=BASE+state.ref;$('refTitle').textContent=state.title;$('refDescription').textContent=state.description;$('spec').textContent=state.spec;$('arrowToggle').checked=!!state.arrow;paintValuePair('rim',state.rim);$('arrowColor').value=normHex(state.arrowColor||'#BE3348');$('arrowHex').value=normHex(state.arrowColor||'#BE3348');$('rimAlpha').value=state.rimAlpha||90;$('rimAlphaOut').textContent=(state.rimAlpha||90)+'%'}
+function updatePresetUi(){document.querySelectorAll('.presetbtn').forEach(b=>b.classList.toggle('on',b.dataset.id===state.id));$('refImg').src=BASE+state.ref;$('refLink').href=BASE+state.ref;$('refTitle').textContent=state.title;$('refDescription').textContent=state.description;$('spec').textContent=state.spec;$('arrowToggle').checked=!!state.arrow;paintValuePair('rim',state.rim);$('arrowColor').value=normHex(state.arrowColor||'#BE3348');$('arrowHex').value=normHex(state.arrowColor||'#BE3348');$('rimAlpha').value=state.rimAlpha||90;$('rimAlphaOut').textContent=(state.rimAlpha||90)+'%';for(const k of ['arrowX','arrowY','arrowScale']){$(k).value=state[k]===undefined?(k==='arrowScale'?100:0):state[k];$(k+'Out').textContent=$(k).value+'%'}}
 function refreshSaves(){let saved=[];try{saved=JSON.parse(localStorage.getItem('thumb-layer-lab-v1')||'[]')}catch(e){}$('savedSelect').replaceChildren();const o=document.createElement('option');o.value='';o.textContent='저장된 버전 선택 ('+saved.length+'개)';$('savedSelect').appendChild(o);saved.forEach((s,i)=>{const op=document.createElement('option');op.value=i;op.textContent=s.time+' · '+s.name;$('savedSelect').appendChild(op)})}
 function getSavedItem(){try{const i=$('savedSelect').value;if(i==='')return null;return JSON.parse(localStorage.getItem('thumb-layer-lab-v1')||'[]')[Number(i)]}catch(e){return null}}
 function readFile(file,done){if(!file)return;if(!/^image\/(png|webp|jpeg)$/.test(file.type)){notify('PNG/JPG/WebP 이미지만 지원합니다');return}if(file.size>12e6){notify('12MB 이하 사진으로 다시 선택해 주세요');return}const r=new FileReader();r.onload=()=>done(r.result);r.readAsDataURL(file)}
@@ -283,7 +283,7 @@ if(img){ctx.save();ctx.filter='blur(15px) brightness(0.45) saturate(0.8)';drawCo
 const fade=ctx.createLinearGradient(0,230,0,720);fade.addColorStop(0,'#02020500');fade.addColorStop(1,state.id==='neon'?'#22000a':'#080811e8');ctx.fillStyle=fade;ctx.fillRect(0,0,1280,720);
 if(uploadedCutout){const cut=await imageReady(uploadedCutout);if(cut){ctx.save();ctx.shadowColor=state.rim;ctx.shadowBlur=23;ctx.globalAlpha=(state.rimAlpha||90)/100;ctx.drawImage(cut,333,58,537,612);ctx.restore()}}
 else{ctx.save();ctx.globalAlpha=(state.rimAlpha||90)/100;ctx.shadowColor=state.rim;ctx.shadowBlur=16;ctx.fillStyle='#5f5256';ctx.beginPath();ctx.ellipse(700,205,105,147,0,0,Math.PI*2);ctx.fill();ctx.fillStyle='#243342';ctx.beginPath();ctx.ellipse(700,520,186,225,0,Math.PI,Math.PI*2);ctx.lineTo(886,720);ctx.lineTo(514,720);ctx.fill();ctx.restore()}
-if(state.arrow){ctx.save();const p=new Path2D($('arrowPath').getAttribute('d'));ctx.strokeStyle=state.arrowColor||'#BE3348';ctx.lineWidth=9;ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke(p);ctx.stroke(new Path2D($('arrowHead').getAttribute('d')));ctx.restore()}
+if(state.arrow){ctx.save();const p=new Path2D($('arrowPath').getAttribute('d'));ctx.strokeStyle=state.arrowColor||'#BE3348';ctx.translate(960+(state.arrowX||0)*12.8,245+(state.arrowY||0)*7.2);ctx.scale((state.arrowScale||100)/100,(state.arrowScale||100)/100);ctx.translate(-960,-245);ctx.lineWidth=9;ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke(p);ctx.stroke(new Path2D($('arrowHead').getAttribute('d')));ctx.restore()}
 state.layers.forEach(l=>drawTextCanvas(ctx,l));
 if(state.id==='warning'){ctx.save();ctx.lineWidth=19;const pattern=document.createElement('canvas');pattern.width=60;pattern.height=60;const pc=pattern.getContext('2d');pc.fillStyle='#FFED00';pc.fillRect(0,0,60,60);pc.fillStyle='#080808';pc.beginPath();pc.moveTo(0,30);pc.lineTo(30,0);pc.lineTo(60,0);pc.lineTo(0,60);pc.fill();ctx.strokeStyle=ctx.createPattern(pattern,'repeat');ctx.strokeRect(9,9,1262,702);ctx.restore()}
 if(state.id==='neon'){ctx.fillStyle='#FF13CF';ctx.fillRect(0,707,1280,13)}

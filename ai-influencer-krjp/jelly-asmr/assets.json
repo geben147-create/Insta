@@ -316,6 +316,29 @@
       "flow_video_status": "pending_connection",
       "creative_reference_url": "https://www.youtube.com/watch?v=tkdIvzuZeTA",
       "flow_prompt_sha256": "1677fe0b1aa0c4345eebcf7739990ae8556e2521e50b60cf956784d1c9022a49"
+    },
+    {
+      "queue_id": "10",
+      "file": "10-딸기젤리줄아치.png",
+      "local_relative_path": "queue-60/10-딸기젤리줄아치.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "82202a2d9abeb21be96ce8c23c94579008ad41e69b8e114ce5bb81dc354ef218",
+      "trip_hotel_id": "996300",
+      "facility": "샹그릴라 라사 센토사 워터파크",
+      "composition": "마른 야외 데크·측면 의자와 관형 슬라이드",
+      "facility_source_url": "https://www.trip.com/hotels/singapore-hotel-detail-996300/shangri-la-rasa-sentosa-singapore/",
+      "trip_public_url": "https://www.trip.com/hotels/singapore-hotel-detail-996300/shangri-la-rasa-sentosa-singapore/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1mc7412000crt4cz848B4_R_600_360_R5.webp",
+      "facility_photo_sha256": "f1b03251909027d4735f08b094f821871736647c9a9baf39faa1d9d5bca21acc",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/10-gummy-arch.md",
+      "flow_video_status": "pending_connection",
+      "creative_reference_url": "https://www.youtube.com/watch?v=3Ia0yKqWgiM",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안",
+      "flow_prompt_sha256": "1f943630e7fb89cc91cfbd9fc5c5cd2881790b5454f2e53511373c0b1bb4d3ee"
     }
   ]
 }

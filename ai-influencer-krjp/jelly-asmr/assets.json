@@ -387,6 +387,34 @@
       "creative_reference_use": "키위 껍질을 길게 벗기는 중간 훅만 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안",
       "flow_prompt_sha256": "2b5675cd11c28e57a0725572bab40a18fa253309a72982bd2903b745ffba9902"
+    },
+    {
+      "queue_id": "13",
+      "file": "13-라벤더블러시양각.png",
+      "local_relative_path": "queue-60/13-라벤더블러시양각.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "65b6d71de5391913ffd1b09e625f0ed48865b4ef7e23bf17c5f5895fe9f9d6df",
+      "trip_hotel_id": "436834",
+      "facility": "홍콩 골드 코스트 호텔 워터파크",
+      "composition": "스플래시 패드 밖의 사선 테이블·해바라기 분수와 물안개 아치",
+      "facility_source_url": "https://www.trip.com/hotels/hong-kong-hotel-detail-436834/hong-kong-gold-coast-hotel/",
+      "trip_public_url": "https://www.trip.com/hotels/hong-kong-hotel-detail-436834/hong-kong-gold-coast-hotel/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0581o12000sp8j9gs0590_R_600_360_R5.webp",
+      "facility_photo_sha256": "6c795c13835288db1f3f687453e46f69165f4d4e75901faa0be61b8486cd9ba1",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/13-lavender-blush-relief.md",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000001001750"
+      ],
+      "product_reference_use": "실제 상품은 퓌 치크칩. 이미지 속 대형 라벤더 양각 블러시는 별도의 비식용 촬영 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "손동작과 재질 공개에 맞춘 짧은 ASMR 소리",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안",
+      "flow_prompt_sha256": "1bf0e584f1a8b448018e04eb0a34ffc32ab8d87ee97b720ebc3e77a9909d8b02"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "source_route": "https://geben147-create.github.io/Insta/ai-influencer-krjp/?v=b2c8414e-live#reels-high-travel-hotel",
+  "scope": "hotel",
+  "minimum_archive_views": 50000,
+  "visible_hotel_rows": 23,
+  "eligible_unique_ids": 13,
+  "prior_full_analyses_reused": 0,
+  "actual_media_acquired": 13,
+  "watch_and_opencv": 13,
+  "watch_extracted_frames": 248,
+  "decoded_video_frames": 18018,
+  "bins_0_1s": 6106,
+  "automated_candidates": 341,
+  "boundary_reviewed": 10,
+  "manual_hard_cuts": 192,
+  "manually_found_detector_misses": 1
+}

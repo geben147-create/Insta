@@ -1,0 +1,122 @@
+[
+  {
+    "time_s": 0.7,
+    "nearest_0_1_s": 0.7,
+    "frame_index": 21,
+    "hist_bhattacharyya": 0.60206,
+    "gray_mad": 50.1239,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 1.4,
+    "nearest_0_1_s": 1.4,
+    "frame_index": 42,
+    "hist_bhattacharyya": 0.64093,
+    "gray_mad": 46.3152,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 2.1,
+    "nearest_0_1_s": 2.1,
+    "frame_index": 63,
+    "hist_bhattacharyya": 0.63846,
+    "gray_mad": 55.589,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 2.833,
+    "nearest_0_1_s": 2.8,
+    "frame_index": 85,
+    "hist_bhattacharyya": 0.6093,
+    "gray_mad": 46.6244,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 3.7,
+    "nearest_0_1_s": 3.7,
+    "frame_index": 111,
+    "hist_bhattacharyya": 0.6641,
+    "gray_mad": 56.3478,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 4.233,
+    "nearest_0_1_s": 4.2,
+    "frame_index": 127,
+    "hist_bhattacharyya": 0.57247,
+    "gray_mad": 54.8481,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 4.933,
+    "nearest_0_1_s": 4.9,
+    "frame_index": 148,
+    "hist_bhattacharyya": 0.64746,
+    "gray_mad": 63.1139,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 5.633,
+    "nearest_0_1_s": 5.6,
+    "frame_index": 169,
+    "hist_bhattacharyya": 0.6746,
+    "gray_mad": 56.6371,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 6.333,
+    "nearest_0_1_s": 6.3,
+    "frame_index": 190,
+    "hist_bhattacharyya": 0.70547,
+    "gray_mad": 60.2027,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 7.0,
+    "nearest_0_1_s": 7.0,
+    "frame_index": 210,
+    "hist_bhattacharyya": 0.62954,
+    "gray_mad": 80.2623,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 7.7,
+    "nearest_0_1_s": 7.7,
+    "frame_index": 231,
+    "hist_bhattacharyya": 0.5365,
+    "gray_mad": 50.04,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 8.333,
+    "nearest_0_1_s": 8.3,
+    "frame_index": 250,
+    "hist_bhattacharyya": 0.59147,
+    "gray_mad": 61.2126,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 9.1,
+    "nearest_0_1_s": 9.1,
+    "frame_index": 273,
+    "hist_bhattacharyya": 0.51047,
+    "gray_mad": 60.7278,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 9.833,
+    "nearest_0_1_s": 9.8,
+    "frame_index": 295,
+    "hist_bhattacharyya": 0.5858,
+    "gray_mad": 77.3541,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 10.533,
+    "nearest_0_1_s": 10.5,
+    "frame_index": 316,
+    "hist_bhattacharyya": 0.61447,
+    "gray_mad": 66.7133,
+    "status": "automatic_candidate_unverified"
+  }
+]

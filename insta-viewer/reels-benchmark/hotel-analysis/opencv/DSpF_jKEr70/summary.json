@@ -1,0 +1,38 @@
+{
+  "id": "DSpF_jKEr70",
+  "source_sha256": "e2555e531907def012c5408d5dc22dcb2984cfc2e5cbac1f23b47e3496a8e677",
+  "analyzed_at_utc": "2026-11-22T09:53:59.621872+00:00",
+  "duration_s": 84.985,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps_average": "2997/100",
+  "decoded_video_frames": 2547,
+  "timeline_bins": 850,
+  "has_audio": true,
+  "automatic_cut_candidates": 69,
+  "cut_candidates_status": "NOT verified shot count",
+  "below_minus45_dbfs_intervals_minimum_0_2s": 0,
+  "below_minus45_dbfs_total_duration_s": 0,
+  "audio_semantics": "SFX identities, speech and music not inferred from RMS/spectral metrics",
+  "limits": [
+    "0.1s bins are measurement granularity, not semantic annotation precision.",
+    "Cuts may be missed or false-positive on flashes, camera movement and crossfades.",
+    "Dense optical flow mixes subject motion and camera motion and does not prove lens/camera settings.",
+    "No automatic object/character/text detection performed.",
+    "SFX, captions, expression changes, transitions and playback-speed events require separate viewing/listening validation.",
+    "No original edit speed inferred from observed motion."
+  ],
+  "tool_versions": {
+    "opencv": "5.0.0",
+    "numpy": "2.5.4",
+    "ffmpeg": "ffmpeg version 8.0.1-3ubuntu2 Copyright (c) 2000-2025 the FFmpeg developers"
+  },
+  "status": "PASS_measured_not_watch_validated",
+  "container_duration_s": 85.097,
+  "video_first_source_pts_s": 0.105,
+  "audio_first_source_pts_s": 0.0,
+  "audio_samples_offset_for_video_zero_s": 0.105,
+  "timeline_time_origin": "First decoded VIDEO frame PTS = 0; audio windows shifted by video/audio start offset. Video endpoint estimated using final PTS plus median frame interval."
+}

@@ -40,8 +40,8 @@ function discover(topic,q){const box=$('discovery');const relevant=['drama','dra
 function drawFrames(at,x){const fr=add(at,'div',null,'frames');for(const v of x.frames){if(!/^frames\/[\w-]+\.webp$/.test(v.i))continue;const figure=add(fr,'figure'),a=add(figure,'a');a.href=v.i;a.target='_blank';a.rel='noopener';const img=add(a,'img');img.loading='lazy';img.src=v.i;enableZoom(img);img.alt=`${x.title} — ${v.t}초`;add(figure,'figcaption',`${v.t}초`);}}
 $('allFrames').onclick=()=>{allFrames=!allFrames;$('allFrames').setAttribute('aria-pressed',String(allFrames));$('allFrames').textContent=allFrames?'현재 목록 장면 모두 접기':'현재 목록 장면 모두 펼치기';document.querySelectorAll('.inlineFrames').forEach(el=>{el.open=allFrames;});};
 function captions(parent,x){const cap=add(parent,'section',null,'captions');const fold=(label,text)=>{const box=add(cap,'details');add(box,'summary',label);add(box,'p',text,'captionText');};if(x.summaryKo)fold('한국어 요약',x.summaryKo);if(x.captionLang==='ko')fold('한국어 원문',x.caption);else if(x.caption){if(x.captionKo)fold('한국어 번역',x.captionKo);fold('원문 캡션',x.caption);}else add(cap,'p','공개 캡션 없음','muted');}
-function render(){const q=$('query').value.trim().toLowerCase(),cc=$('country').value,l=$('level').value,k=$('sort').value,period=$('period').value,recent=period==='recent';const year=new Date();year.setUTCFullYear(year.getUTCFullYear()-1);const cutoff=year.toISOString().slice(0,10);const topic=$('topic').value, mode=$('mode').value, visual=$('visual').value; $('heading').textContent='릴스·고조회 · '+topics[topic];$('catProduction').hidden=!['drama','drama-human','drama-character'].includes(topic);$('resortProduction').hidden=!topic.startsWith('travel');$('travelNotes').hidden=$('travelFilter').hidden=topic!=='travel-scenic';$('aiGrowthFilter').hidden=topic!=='grants';const growth=$('aiGrowth').value;discover(topic,q);const min=Number($('minViews').value),comments=Number($('minComments').value);let data=rows.filter(x=>(!comments||(x.m??0)>=comments)&&(!min||(x.p??0)>=min)&&(topic==='all'||(topic==='travel-scenic'?travelMatch(x,$('travelType').value):x.topics?.includes(topic)))&&(topic!=='grants'||!growth||x.topics?.includes('ig-'+growth))&&(!mode||x.mode===mode)&&(!visual||x.visual===visual)&&(!cc||x.cc===cc)&&(!l||x.level===l)&&(!recent||(x.d||'')>='2026-07-01')&&(period!=='year'||(x.d||'')>=cutoff)&&[x.title,x.why,x.a,x.caption,x.captionKo,names[x.cc],levels[x.level],topics[topic],x.mode==='ai'?'AI만 그래픽 가능':x.mode==='live'?'실사 촬영':'실사 그래픽 혼합'].join(' ').toLowerCase().includes(q));const metric=x=>k==='earn'?estimate(x):x[k];data.sort((a,b)=>{const av=metric(a),bv=metric(b);return av==null?(bv==null?0:1):bv==null?-1:(av>bv?1:av<bv?-1:0)*(asc?1:-1);});if(Object.hasOwn(genreNames,topic))data=data.slice(0,30);$('status').textContent=`${data.length}건 · ${period==='year'?'최근 1년':recent?'최근 후보':'과거 포함'} · ${asc?'오름차순':'내림차순'}`+(data.length?'':' · 해당 조건에서 검수된 릴스가 없습니다.');$('list').replaceChildren();for(const b of $('countries').children)b.setAttribute('aria-pressed',String(b.dataset.cc===cc));
- data.forEach((x,i)=>{const a=add($('list'),'article',null,'tile');const thumb=link(a,x.u,null);if(thumb){thumb.className='thumb';thumb.setAttribute('aria-label',x.title+' Instagram에서 열기');const im=add(thumb,'img');im.loading=i<8?'eager':'lazy';const image=x.frames[0]?.i||x.cover||'';if(/^(?:frames|covers)\/[\w-]+\.webp$/.test(image))im.src=image;im.alt=x.title;}const label=add(a,'div',null,'label');add(label,'strong',`${i+1}. ${x.title}`);const counts=add(label,'p',`조회 ${fmt(x.p)} · ♥ ${fmt(x.l)} · 댓글 ${fmt(x.m)}`,'meta');if(Number.isFinite(x.p))counts.title=`원본 조회 ${x.p.toLocaleString('ko-KR')}회`;add(label,'p',`${names[x.cc]} · ${x.d||'날짜 미확인'}${x.d&&x.dateEstimated?' (추정)':''}${x.a?' · @'+x.a:''}`,'meta');add(label,'p',x.mode==='ai'?'AI·그래픽 가능':x.mode==='live'?'실사 중심':'보조 자료 필요','meta');earnLabel(label,x);if(x.commerce)add(label,'p',x.commerce,'commerce');const links=add(label,'div',null,'actions');link(links,x.u,'인스타 ↗');addStoryboardLink(links,x);const zoom=add(links,'button','사진 확대');zoom.type='button';zoom.onclick=()=>{const im=thumb?.querySelector('img');if(im?.naturalWidth)showZoom(im);};const btn=add(links,'button',`${x.frames.length}컷`);btn.type='button';btn.onclick=()=>openDetail(x,i);if(!x.frames.length){btn.textContent='상세 · 장면 미확보';}captions(label,x);if(x.profileViews)add(label,'p',`프로필 표시 재생 ${x.profileViews}회 · 위 조회는 임베드 기준`, 'meta');if(!x.frames.length)return;const cut=add(label,'details',null,'inlineFrames');add(cut,'summary',`아래로 ${x.frames.length}컷 펼치기`);cut.ontoggle=()=>{if(cut.open&&!cut.querySelector('.frames'))drawFrames(cut,x);};if(allFrames)cut.open=true;});layout();}
+function render(){const q=$('query').value.trim().toLowerCase(),cc=$('country').value,l=$('level').value,k=$('sort').value,period=$('period').value,recent=period==='recent';const year=new Date();year.setUTCFullYear(year.getUTCFullYear()-1);const cutoff=year.toISOString().slice(0,10);const topic=$('topic').value, mode=$('mode').value, visual=$('visual').value; $('heading').textContent='릴스·고조회 · '+topics[topic];$('catProduction').hidden=!['drama','drama-human','drama-character'].includes(topic);$('resortProduction').hidden=!topic.startsWith('travel');$('travelNotes').hidden=$('travelFilter').hidden=topic!=='travel-scenic';$('aiGrowthFilter').hidden=topic!=='grants';const growth=$('aiGrowth').value;discover(topic,q);const hotelScope=syncHotelAnalysisScope(topic);const min=Number($('minViews').value),comments=Number($('minComments').value);let data=rows.filter(x=>(!comments||(x.m??0)>=comments)&&(!min||(x.p??0)>=min)&&(topic==='all'||(topic==='travel-scenic'?travelMatch(x,$('travelType').value):x.topics?.includes(topic)))&&(topic!=='grants'||!growth||x.topics?.includes('ig-'+growth))&&(!mode||x.mode===mode)&&(!visual||x.visual===visual)&&(!cc||x.cc===cc)&&(!l||x.level===l)&&(!recent||(x.d||'')>='2026-07-01')&&(period!=='year'||(x.d||'')>=cutoff)&&[x.title,x.why,x.a,x.caption,x.captionKo,names[x.cc],levels[x.level],topics[topic],x.mode==='ai'?'AI만 그래픽 가능':x.mode==='live'?'실사 촬영':'실사 그래픽 혼합'].join(' ').toLowerCase().includes(q));const metric=x=>k==='earn'?estimate(x):x[k];data.sort((a,b)=>{const av=metric(a),bv=metric(b);return av==null?(bv==null?0:1):bv==null?-1:(av>bv?1:av<bv?-1:0)*(asc?1:-1);});if(Object.hasOwn(genreNames,topic))data=data.slice(0,30);$('status').textContent=`${data.length}건 · ${period==='year'?'최근 1년':recent?'최근 후보':'과거 포함'} · ${asc?'오름차순':'내림차순'}`+(data.length?'':' · 해당 조건에서 검수된 릴스가 없습니다.');$('list').replaceChildren();for(const b of $('countries').children)b.setAttribute('aria-pressed',String(b.dataset.cc===cc));
+ data.forEach((x,i)=>{const a=add($('list'),'article',null,'tile');const thumb=link(a,x.u,null);if(thumb){thumb.className='thumb';thumb.setAttribute('aria-label',x.title+' Instagram에서 열기');const im=add(thumb,'img');im.loading=i<8?'eager':'lazy';const image=x.frames[0]?.i||x.cover||'';if(/^(?:frames|covers)\/[\w-]+\.webp$/.test(image))im.src=image;im.alt=x.title;}const label=add(a,'div',null,'label');add(label,'strong',`${i+1}. ${x.title}`);const counts=add(label,'p',`조회 ${fmt(x.p)} · ♥ ${fmt(x.l)} · 댓글 ${fmt(x.m)}`,'meta');if(Number.isFinite(x.p))counts.title=`원본 조회 ${x.p.toLocaleString('ko-KR')}회`;add(label,'p',`${names[x.cc]} · ${x.d||'날짜 미확인'}${x.d&&x.dateEstimated?' (추정)':''}${x.a?' · @'+x.a:''}`,'meta');add(label,'p',x.mode==='ai'?'AI·그래픽 가능':x.mode==='live'?'실사 중심':'보조 자료 필요','meta');earnLabel(label,x);if(x.commerce)add(label,'p',x.commerce,'commerce');const links=add(label,'div',null,'actions');link(links,x.u,'인스타 ↗');addStoryboardLink(links,x);const zoom=add(links,'button','사진 확대');zoom.type='button';zoom.onclick=()=>{const im=thumb?.querySelector('img');if(im?.naturalWidth)showZoom(im);};const btn=add(links,'button',`${x.frames.length}컷`);btn.type='button';btn.onclick=()=>openDetail(x,i);if(!x.frames.length){btn.textContent='상세 · 장면 미확보';}captions(label,x);if(x.profileViews)add(label,'p',`프로필 표시 재생 ${x.profileViews}회 · 위 조회는 임베드 기준`, 'meta');if(hotelScope&&x.p>=50000)renderHotelAnalysis(label,x);if(!x.frames.length)return;const cut=add(label,'details',null,'inlineFrames');add(cut,'summary',`아래로 ${x.frames.length}컷 펼치기`);cut.ontoggle=()=>{if(cut.open&&!cut.querySelector('.frames'))drawFrames(cut,x);};if(allFrames)cut.open=true;});layout();}
 
 function openDetail(x,i){const a=$('detailBody');a.replaceChildren();add(a,'h2',`${i+1}. ${x.title}`);add(a,'span',names[x.cc]||x.cc,'badge');add(a,'span',levels[x.level]||'미검수','badge '+x.level);add(a,'p',x.why);if(x.profileViews)add(a,'p',`프로필 표시 재생 ${x.profileViews}회 · 순위는 공개 임베드 수치 기준`,'muted');if(!x.frames.length)add(a,'p','4컷 미확보 · 표지만 확인','muted');if(x.commerce)add(a,'p',x.commerce,'commerce');earnLabel(a,x);add(a,'p',`조회 ${fmt(x.p)} · 좋아요 ${fmt(x.l)} · 댓글 ${fmt(x.m)}`);add(a,'p',[x.d?(x.d+(x.dateEstimated?' (추정)':'')):'날짜 미확인',x.a?'@'+x.a:''].filter(Boolean).join(' · '),'muted');const fr=add(a,'div',null,'frames');for(const v of x.frames){if(!/^frames\/[\w-]+\.webp$/.test(v.i))continue;const figure=add(fr,'figure');const a=add(figure,'a');a.href=v.i;a.target='_blank';a.rel='noopener';const img=add(a,'img');img.loading=i<2?'eager':'lazy';img.src=v.i;enableZoom(img);img.alt=`${x.title} — ${v.t}초 화면`;add(figure,'figcaption',`${v.t}초`);}const cap=add(a,'section',null,'captions');const fold=(label,text)=>{const box=add(cap,'details');add(box,'summary',label);add(box,'p',text,'captionText');};if(x.summaryKo)fold('한국어 요약',x.summaryKo);if(x.captionLang==='ko')fold('한국어 원문 캡션',x.caption);else if(x.caption){if(x.captionKo)fold('한국어 전체 캡션 · 자동 번역',x.captionKo);else add(cap,'p','한국어 번역 미확보','muted');fold('원문 전체 캡션',x.caption);}else add(cap,'p','공개 캡션 없음','muted');const p=add(a,'p',null,'row');link(p,x.u,'원본 릴스 ↗');addStoryboardLink(p,x);link(p,x.source,'공개 지표 출처 ↗');$('detail').showModal();}
 $('exit').onclick=()=>$('detail').close();
@@ -68,3 +68,74 @@ function enableZoom(img){img.classList.add('mediaZoom');const a=img.closest('a')
 function optionState(id,apply){const a=$(id);const key='insta.grid11.'+location.pathname+id;try{const v=localStorage.getItem(key);if(v!==null){if(a.type==='checkbox')a.checked=v==='true';else if([...a.options].some(o=>o.value===v))a.value=v;}}catch{}const change=()=>{const v=a.type==='checkbox'?a.checked:a.value;apply(v);try{localStorage.setItem(key,String(v));}catch{}};a.addEventListener('change',change);change();}
 optionState('imageOnly',v=>document.body.classList.toggle('imageOnly',v));optionState('showBody',v=>document.body.classList.toggle('hideBody',!v));
 optionState('frameCols',v=>document.documentElement.style.setProperty('--frame-cols',v));optionState('detailCols',v=>$('detailBody').style.setProperty('--frame-cols',v));
+
+
+const hotelAnalysisRoot='hotel-analysis/';
+let hotelReelAnalyses;
+let hotelReelAnalysisRequested=false;
+
+function isHotelAnalysisScope(topic){
+  return topic==='travel-hotel'||(topic==='travel-scenic'&&$('travelType').value==='hotel');
+}
+
+function syncHotelAnalysisScope(topic){
+  const active=isHotelAnalysisScope(topic);
+  const minimum=$('minViews');
+  let option=$('hotelMinViews');
+  if(active&&!option){
+    option=document.createElement('option');
+    option.id='hotelMinViews';
+    option.value='50000';
+    option.textContent='5만 이상';
+    minimum.append(option);
+  }else if(!active&&option){
+    if(minimum.value===option.value)minimum.value='0';
+    option.remove();
+  }
+  const hotelSummary=$('hotelAnalysisSummary');
+  hotelSummary.hidden=!active;
+  if(active&&!hotelReelAnalysisRequested){
+    hotelReelAnalysisRequested=true;
+    fetch(hotelAnalysisRoot+'cards.json').then(response=>{
+      if(!response.ok)throw Error('Hotel analysis unavailable');
+      return response.json();
+    }).then(data=>{
+      hotelReelAnalyses=data;
+      if(isHotelAnalysisScope($('topic').value))render();
+    }).catch(()=>{});
+  }
+  return active;
+}
+
+function renderHotelAnalysis(label,x){
+  const analysis=hotelReelAnalyses?.[x.c];
+  if(!analysis)return;
+
+  const addEvidenceLink=(box,path,text)=>{const anchor=add(box,'a',text);anchor.href=hotelAnalysisRoot+path;return anchor;};
+  const watch=add(label,'details',null,'hotelAnalysisPanel');
+  add(watch,'summary','Watch');
+  add(watch,'p',analysis.note||analysis.reason||'실제 영상에서 뽑은 표본을 확인할 수 있습니다.');
+  if(analysis.watch_image){
+    const open=addEvidenceLink(watch,analysis.watch_image,'');
+    const image=add(open,'img');
+    image.loading='lazy';
+    image.alt='Watch 실제 원본 장면 표본';
+    image.src=open.href;
+    enableZoom(image);
+  }
+  addEvidenceLink(watch,'index.html#'+x.c,'장면·연출 기록');
+
+  const opencv=add(label,'details',null,'hotelAnalysisPanel');
+  add(opencv,'summary','OpenCV');
+  if(analysis.csv){
+    const manual=analysis.hard_cut_count==null?'미확정':analysis.hard_cut_count+'개';
+    add(opencv,'p',`0.1초 ${analysis.bins}구간 · 자동 후보 ${analysis.candidate_count}개 · 확인한 하드컷 ${manual}`);
+    addEvidenceLink(add(opencv,'p'),analysis.csv,'움직임·밝기·색·파형 CSV');
+    for(const [index,filename] of analysis.boundary_sheets.entries()){
+      addEvidenceLink(add(opencv,'p'),filename,`컷 후보 앞뒤 ${index+1}`);
+    }
+  }else{
+    add(opencv,'p',analysis.reason);
+  }
+  addEvidenceLink(opencv,'index.html#'+x.c,'검증 기록');
+}

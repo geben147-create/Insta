@@ -415,6 +415,34 @@
       "creative_reference_use": "손동작과 재질 공개에 맞춘 짧은 ASMR 소리",
       "character_reference": "남자모델-3안-v4.png 가운데 B안",
       "flow_prompt_sha256": "1bf0e584f1a8b448018e04eb0a34ffc32ab8d87ee97b720ebc3e77a9909d8b02"
+    },
+    {
+      "queue_id": "14",
+      "file": "14-베이스브러시세척.png",
+      "local_relative_path": "queue-60/14-베이스브러시세척.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "0265184e7670d6ae1ec83aa2ca874697e36f9810a9ff30c1eec48bfe49d77a37",
+      "trip_hotel_id": "72323067",
+      "facility": "센타라 미라지 리조트 무이네 워터파크",
+      "composition": "돌고래 분수 옆 건조한 돌 작업대·비스듬한 세척 접사",
+      "facility_source_url": "https://www.trip.com/hotels/phan-thiet-hotel-detail-72323067/centara-mirage-resort-mui-ne/",
+      "trip_public_url": "https://www.trip.com/hotels/phan-thiet-hotel-detail-72323067/centara-mirage-resort-mui-ne/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/02233120009ko4lvt10C7_R_800_525_R5_D.jpg",
+      "facility_photo_sha256": "a47196f834ab1cd0b2a714a3f24e07282cfb428fba602db8ceb0ba88bbc8bf5e",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/14-base-brush-cleaning.md",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000184796"
+      ],
+      "product_reference_use": "실제 상품은 스튜디오17 브러쉬 앤 퍼프 클렌저. 대형 브러시와 세척 매트는 별도의 비식용 촬영 소품.",
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "소품의 압력 변화와 해당 동작의 짧은 ASMR 소리",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안",
+      "flow_prompt_sha256": "8edb61d838e605e4e5247ac7aa24d7c413ae0347c2f411a0e1765c401d8ed729"
     }
   ]
 }

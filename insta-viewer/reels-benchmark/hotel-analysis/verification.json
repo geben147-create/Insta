@@ -13,5 +13,41 @@
   "automated_candidates": 341,
   "boundary_reviewed": 10,
   "manual_hard_cuts": 192,
-  "manually_found_detector_misses": 1
+  "manually_found_detector_misses": 1,
+  "local_validation": {
+    "source_digests_and_csv_bins": 13,
+    "html_link_occurrences": 239,
+    "result": "PASS",
+    "browser": {
+      "checkedAt": "2026-11-22T09:56:51.379Z",
+      "iframe": "http://127.0.0.1:39679/insta-viewer/reels-benchmark/?topic=travel-scenic&v=ytrestore1&travelType=hotel",
+      "initial": {
+        "cards": 23,
+        "panels": 26,
+        "otherSummaryHidden": false
+      },
+      "filter": {
+        "status": "13건 · 과거 포함 · 내림차순",
+        "cards": 13,
+        "watch": 13,
+        "opencv": 13,
+        "imageDecoded": true,
+        "imageSize": [
+          864,
+          1128
+        ],
+        "csvStatus": 200
+      },
+      "gallery": {
+        "images": 13,
+        "loads": 13
+      },
+      "other": {
+        "cards": 17,
+        "panels": 0,
+        "fiftyK": false
+      },
+      "pass": true
+    }
+  }
 }

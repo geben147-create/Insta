@@ -2369,6 +2369,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
       "creative_reference_use": "겉 표면을 연 순간 안쪽 크림 질감 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "90",
+      "file": "90-사과파이물개.png",
+      "local_relative_path": "queue-60/90-사과파이물개.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "cac5244938ec3b5369b6c87ab823ece95dfd350e3b20d9741e00aa3b331cfcf0",
+      "trip_hotel_id": "3176811",
+      "facility": "아마다 콜로소스 리조트 워터파크 어린이 물놀이 구역",
+      "composition": "가장자리 마른 데크에서 낮은 탁자와 파이 위를 크게 내려다보며 파란 계단 및 분홍 양동이를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/kallithea-hotel-detail-3176811/amada-colossos-resort/",
+      "trip_public_url": "https://www.trip.com/hotels/kallithea-hotel-detail-3176811/amada-colossos-resort/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0226h12000l157gtt8261_R_600_360_R5.webp",
+      "facility_photo_sha256": "7612842ef9cb4e9a0a559f8139b3a18bc7c6ad07a0fe47ce64303b0c2d5d2dc0",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/90-apple-pie-seal.md",
+      "flow_prompt_sha256": "0a155614450cc40c4651276ba50d00a2989f8e412a03390a9eb7e7dca01ae0c6",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ",
+      "creative_reference_use": "뚜껑을 여는 동작 한 번에 반죽과 과육의 단면을 공개",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

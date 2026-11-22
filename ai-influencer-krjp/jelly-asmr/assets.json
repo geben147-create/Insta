@@ -228,6 +228,28 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=CPuRmVLLlF0",
       "creative_reference_use": "얼굴 반응으로 열고 손동작 삽입 후 얼굴과 한입으로 닫는 구조",
       "flow_prompt_sha256": "8bb7805df4b971ddd0675ecabd91f4d197f2faa0358ef33335bd3421bb979d25"
+    },
+    {
+      "queue_id": "06",
+      "file": "06-우베크런치왕쿠키.png",
+      "local_relative_path": "queue-60/06-우베크런치왕쿠키.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "d86fba7be23e5769ef037e45c48cc5072d09d2465785dfe87962ac3130c08a07",
+      "trip_hotel_id": "13751183",
+      "facility": "홀리데이 인 리조트 바나 나바 후아힌 워터파크",
+      "composition": "전망 테라스·해안선과 대형 깔때기 슬라이드",
+      "facility_source_url": "https://www.trip.com/hotels/hua-hin-hotel-detail-13751183/holiday-inn-resort-vana-nava-hua-hin-by-ihg/",
+      "trip_public_url": "https://www.trip.com/hotels/hua-hin-hotel-detail-13751183/holiday-inn-resort-vana-nava-hua-hin-by-ihg/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/1mc5y12000cbgyza2FA77_R_600_360_R5.webp",
+      "facility_photo_sha256": "aa5e3deb0b2ce024ebd7ef29fcffe960a8e42f82c9460518902d03a627f86642",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/06-ube-crunch-cookie.md",
+      "flow_video_status": "pending_connection",
+      "creative_reference_url": "https://www.youtube.com/watch?v=ckGCtzSvUFU",
+      "flow_prompt_sha256": "8fb94ad1d7a6c2ecd91daaf098e5c96d624e6d72d28d9f6129801db4b5b1c562"
     }
   ]
 }

@@ -2052,6 +2052,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "첫 손동작이 만드는 짧은 파열음과 속 재료 공개를 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "78",
+      "file": "78-망고해바라기찹쌀빵.png",
+      "local_relative_path": "queue-60/78-망고해바라기찹쌀빵.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "6bc95ba4133edb5a987cac6421e4d423428e75f95468293ebcd8d09a2b220d99",
+      "trip_hotel_id": "19624501",
+      "facility": "시데 페가소스 월드 호텔 워터파크",
+      "composition": "마른 차양 아래 왼쪽 위 사선에서 당긴 찹쌀빵 꽃잎과 굽은 해안 워터파크를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/side-hotel-detail-19624501/pegasos-world-hotel-all-inclusive/",
+      "trip_public_url": "https://www.trip.com/hotels/side-hotel-detail-19624501/pegasos-world-hotel-all-inclusive/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0223e12000l06xiyx7CD6_R_600_360_R5.webp",
+      "facility_photo_sha256": "dde3f1e6a2b5277ad5e01d07fa396ac5d8a4f737216b94925d2160cd4bd01747",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/78-mango-sunflower-rice-bread.md",
+      "flow_prompt_sha256": "815a18c0c947173ae99adc53b991861607def58136441e304e0edfaaf747b804",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품에서 조각 하나를 분리하며 짧은 촉각음과 단면 공개를 맞춤",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

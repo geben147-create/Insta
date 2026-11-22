@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "registered_on_kst": "2026-11-22",
+  "assets": [
+    {
+      "file": "왕떡국-청록한복-전신.png",
+      "sha256": "8851ae376b7106ac9250ea828b31377d45bf57559f4b550508e5d1e0da5e29ba",
+      "width": 941,
+      "height": 1672,
+      "trip_hotel_id": "100691908",
+      "facility": "실내 수영장",
+      "facility_source_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "depiction": "generated_concept",
+      "trip_public_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending"
+    },
+    {
+      "file": "왕떡국-자주한복.png",
+      "sha256": "10c8be1b1cea0d4e8eb4b5142854dbd5dcc7214a66c74f939b2badead91e4f10",
+      "width": 941,
+      "height": 1672,
+      "trip_hotel_id": "100691908",
+      "facility": "실내 수영장",
+      "facility_source_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "depiction": "generated_concept",
+      "trip_public_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending"
+    },
+    {
+      "file": "왕떡국-해돋이.png",
+      "sha256": "6656425860ff35d2971c184a22c7d44f89197258eb20202f50ec08308c874ffe",
+      "width": 941,
+      "height": 1672,
+      "trip_hotel_id": "100691908",
+      "facility": "실내 수영장",
+      "facility_source_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "depiction": "generated_concept",
+      "trip_public_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending"
+    },
+    {
+      "file": "왕브러시-쿠션-ASMR.png",
+      "sha256": "a138c95cb5ffab930531e2008f44e1cceaeb98f5f452297f84278a77e53467fa",
+      "width": 941,
+      "height": 1672,
+      "trip_hotel_id": "100691908",
+      "facility": "실내 수영장",
+      "facility_source_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "depiction": "generated_concept",
+      "trip_public_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "creative_only_details": [
+        "미끄럼틀 배치는 생성한 연출이며 숙소 실제 설비 여부는 미확인"
+      ],
+      "product_reference_urls": [
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000207921",
+        "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000139063"
+      ]
+    },
+    {
+      "file": "청담언니-반반에이드.png",
+      "sha256": "feb2b249df48d9503d544257d195bb46cccf2f1e338f2a93d1045b2895798778",
+      "width": 941,
+      "height": 1672,
+      "trip_hotel_id": "100691908",
+      "facility": "실내 수영장",
+      "facility_source_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "depiction": "generated_concept",
+      "trip_public_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "creative_reference_url": "https://www.youtube.com/watch?v=O_UhpuefyXE"
+    },
+    {
+      "file": "청담언니-왕젤리바.png",
+      "sha256": "42b8bcaf6636fc620c58f444bfd8d219f409e5f01235d2f8ec838499d7e83d35",
+      "width": 941,
+      "height": 1672,
+      "trip_hotel_id": "100691908",
+      "facility": "실내 수영장",
+      "facility_source_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "depiction": "generated_concept",
+      "trip_public_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "creative_reference_url": "https://www.youtube.com/watch?v=VzC_u0lybgQ"
+    },
+    {
+      "file": "청담언니-왕수박빙수.png",
+      "sha256": "1222da9fc2937d618d7c6f2adba8bd9ada2447ea2cf1e288804d6d06c95ddc85",
+      "width": 941,
+      "height": 1672,
+      "trip_hotel_id": "100691908",
+      "facility": "실내 수영장",
+      "facility_source_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "depiction": "generated_concept",
+      "trip_public_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-100691908/onmaru-hanok-kids-poolvilla-and-couple-spa/",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "creative_reference_url": "https://www.youtube.com/watch?v=0WoU6VSQQLk"
+    }
+  ]
+}

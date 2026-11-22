@@ -1,0 +1,1073 @@
+{
+ "no": "25",
+ "title": "총도 돈도 아닌 이야기로 세계의 취향을 가져간 나라 — 영국 평가기관의 소프트파워 11위, 칸·아카데미·에미·넷플릭스가 말한 한국",
+ "field": "K콘텐츠 산업과 소프트파워(Brand Finance 지수·기생충·오징어 게임·한류 학술 논문)",
+ "main_dev": "D05",
+ "sub_dev": [
+  "D02",
+  "D08"
+ ],
+ "hook": {
+  "type": "C",
+  "declaration_ko": "한국은 총 한 발 쏘지 않고 세계의 취향을 가져갔습니다. 칸 영화제 심사위원장도, 넷플릭스 CEO도, 옥스퍼드 영어사전도 같은 방향으로 말합니다.",
+  "quotes": [
+   {
+    "publisher": "Variety(미국)",
+    "quote_ko": "너무나 지역적인 영화 안에 너무나 세계적인 이야기가 들어 있었습니다. — 칸 영화제 심사위원장 이냐리투, 기생충 만장일치 수상에 대하여",
+    "quote_original": "so global in such a local film",
+    "url": "https://variety.com/2019/film/news/cannes-film-festival-2019-winners-1203225973"
+   },
+   {
+    "publisher": "Deadline(미국)",
+    "quote_ko": "지금 한국 영화 산업의 수준에는 누구도 견줄 수 없습니다. — 넷플릭스 공동 CEO 테드 사랜도스",
+    "quote_original": "Nobody can hold a candle to the current level of the Korean film industry.",
+    "url": "https://deadline.com/2023/06/netflix-ted-sarandos-korea-squid-game-park-chan-wook-1235422436/"
+   },
+   {
+    "publisher": "CNN(미국)",
+    "quote_ko": "우리 모두는 한류의 파도 위에 올라타 있습니다. — 옥스퍼드 영어사전이 한국어 단어 20여 개를 추가하며 낸 성명",
+    "quote_original": "We are all riding the crest of the Korean wave.",
+    "url": "https://www.cnn.com/2023/01/17/asia/korean-language-learning-rise-hallyu-intl-hnk-dst"
+   }
+  ],
+  "first_question_ko": "영국의 브랜드 평가기관은 한국을 세계 11위 소프트파워로 매겼습니다. 이 숫자는 어디에서 나왔을까요?"
+ },
+ "sections": [
+  {
+   "no": 1,
+   "key": "scoreboard",
+   "label": "성적표 — 15위에서 11위로 올라선 한국",
+   "emotion": "호기심 → 놀라움",
+   "story_ko": "영국 런던에 본사를 둔 브랜드 파이낸스는 100여 개국 15만 명 넘는 응답자에게 193개 나라의 이미지를 묻습니다. 2026년 1월 발표에서 한국은 100점 만점에 59.2점으로 11위입니다. 1년 전에는 12위였고, 그 전해에는 15위였습니다. 한국은 엔터테인먼트 영향력 7위, 세계가 사랑하는 제품·브랜드 7위, 세계가 좋아하는 음식 10위에 올랐습니다. 브랜드 파이낸스는 한국을 문화에 투자해 소프트파워를 키운 사례라고 부릅니다.",
+   "question": "한국의 소프트파워는 지금 세계에서 몇 위일까요?",
+   "answer": "영국 브랜드 평가기관 브랜드 파이낸스의 2026년 지수에서 한국은 11위입니다. 15위, 12위, 11위로 두 해 연속 올랐고, 원인으로 꼽힌 것은 K팝·K드라마·K뷰티 같은 콘텐츠 산업입니다.",
+   "next_question": "이 계단의 맨 아래 칸에는 어떤 장면이 있었을까요? 자막 한 줄의 벽을 넘은 영화 한 편부터 보겠습니다.",
+   "narration_sec": 185,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "브랜드 파이낸스 글로벌 소프트파워 지수 2026: 한국 11위, 59.2점, 전년 12위에서 한 계단 상승. 엔터테인먼트 영향력 7위, 세계가 사랑하는 제품·브랜드 7위, 음식 10위.",
+     "publisher": "Brand Finance(영국)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2026-01-27",
+     "url": "https://brandfinance.com/press-releases/brand-finance-global-soft-power-index-2026-south-korea-ranks-11th-strengthened-by-brands-innovation-and-future-growth",
+     "quote_original": "South Korea ranks 11th in Soft Power with a score of 59.2/100, up one position from 12th in 2025",
+     "quote_ko": "한국은 소프트파워 11위, 59.2점이며 2025년 12위에서 한 계단 올랐다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "브랜드 파이낸스 2025: 한국은 15위에서 12위로 올랐고, 한류가 원인으로 꼽혔다. 아트·엔터테인먼트 7위.",
+     "publisher": "Brand Finance(영국)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2025-02-25",
+     "url": "https://brandfinance.com/press-releases/hallyu-wave-lifts-south-korea-in-global-soft-power-index-2025",
+     "quote_original": "the country’s cultural and commercial influence has helped advance its global position in the index from 15th to 12th",
+     "quote_ko": "한국의 문화적·상업적 영향력이 지수 순위를 15위에서 12위로 끌어올렸다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "브랜드 파이낸스 2026 요약: 한국의 순위 상승은 K팝·K드라마·K뷰티 같은 콘텐츠 산업에 힘입어 인지도와 영향력이 각각 15위로 오른 결과이며, 문화적 존재감이 평판 하락을 막는 방어 자산이 됐다.",
+     "publisher": "Brand Finance(영국)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2026-01-20",
+     "url": "https://brandfinance.com/insights/global-soft-power-index-2026-executive-summary",
+     "quote_original": "South Korea provides a case study of effective investment in cultural salience in order to boost soft power.",
+     "quote_ko": "한국은 문화적 존재감에 효과적으로 투자해 소프트파워를 키운 사례를 보여 준다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "브랜드 파이낸스: 한국은 이제 단순한 엔터테인먼트·전자제품 공급원이 아니라 창의성과 신뢰, 장기 비전으로 영향력을 만드는 모델이라는 평가. 문화·유산 9위, '방문하기 좋은 곳' 66위에서 44위로 상승.",
+     "publisher": "Brand Finance(영국)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2025-09-24",
+     "url": "https://brandfinance.com/insights/the-land-of-morning-calm-south-koreas-rising-soft-power",
+     "quote_original": "It is a model of modern influence, where soft power is shaped by creativity, credibility, and long-term vision.",
+     "quote_ko": "한국은 창의성과 신뢰, 장기적 비전으로 소프트파워를 만드는 현대적 영향력의 모델이다.",
+     "verified": "fulltext",
+     "strength": 4
+    }
+   ],
+   "application": "훅: R03 ¶1(현지 기사 제목을 맨 앞에 → 출처) + R06 ¶1(외국인 원음으로 시작)을 가져와 외국 인사 3인의 인용으로 열고 11위 숫자로 이어 붙임 / 본문: R01 ¶1 숫자 계단(하루→3일→14개국→86개국, '그리고'로 한 칸씩 더 큰 숫자)을 15위→12위→11위 순위 계단으로 적용, R02 ¶1 '지각 변동'(결과 먼저 → 다음 문장에서 무엇이 무엇을 이겼는지)을 '결과 먼저, 출처는 다음 문장'으로 적용"
+  },
+  {
+   "no": 2,
+   "key": "parasite",
+   "label": "첫 번째 장면 — 자막의 벽이 무너진 밤",
+   "emotion": "경탄 → 통쾌",
+   "story_ko": "2019년 5월 칸 영화제에서 심사위원장 이냐리투는 기생충의 황금종려상이 만장일치였다고 밝혔습니다. 그는 너무나 지역적인 영화 안에 너무나 세계적인 이야기가 있다고 평했습니다. 몇 달 뒤 봉준호 감독은 골든글로브에서 1인치 높이의 자막 장벽만 넘으면 훨씬 더 많은 영화를 만난다고 말했고, 이듬해 2월 기생충은 비영어 영화 최초로 아카데미 작품상을 받았습니다. 할리우드 리포터에 따르면 제작비 약 1,100만 달러짜리 영화가 오스카 직후 기준으로 전 세계에서 약 1억 7,000만 달러를 벌었습니다. 가디언의 피터 브래드쇼는 이 영화를 호화롭게 볼 만한 풍자 스릴러라고 썼습니다.",
+   "question": "아카데미가 외국어 영화에 인색했는데, 기생충은 어떻게 그 벽을 넘었을까요?",
+   "answer": "칸 심사위원단이 만장일치로 인정했고, 미국 관객이 극장에서 자막을 따라 읽으며 표를 샀습니다. BBC는 기생충을 작품상을 받은 최초의 비영어 영화라고 전했습니다.",
+   "next_question": "영화가 문을 열자, 이번에는 전 세계 안방이 열렸습니다. 한국 드라마 한 편은 얼마나 멀리 갔을까요?",
+   "narration_sec": 150,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "칸 영화제 심사위원장 이냐리투(멕시코)가 기생충의 황금종려상이 만장일치였다고 밝히며 '지역적인 영화 안의 세계성'을 꼽았다.",
+     "publisher": "Variety(미국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2019-05-25",
+     "url": "https://variety.com/2019/film/news/cannes-film-festival-2019-winners-1203225973",
+     "quote_original": "We all shared the mystery of the unexpected way this film took us through different genres and spoke in a funny, humorous, tender way — with no judgment — of something so relevant and urgent, so global in such a local film",
+     "quote_ko": "우리 모두 이 영화가 장르를 넘나들며 예상 못 한 방식으로 이끄는 신비를 함께 느꼈습니다. 판단 없이, 웃기고 따뜻하게, 너무나 절실하고 세계적인 이야기를 너무나 지역적인 영화 안에 담았습니다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "봉준호가 골든글로브 수상 소감에서 한 말. 아카데미가 외국어 영화에 인색했다는 벽을 먼저 말하고, 한 달 뒤 기생충은 비영어 영화 최초 작품상을 받았다.",
+     "publisher": "Los Angeles Times(미국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2020-02-09",
+     "url": "https://latimes.com/entertainment-arts/movies/story/2020-02-09/parasite-oscars-2020-best-picture-history-korea",
+     "quote_original": "Once you overcome the 1-inch-tall barrier of subtitles, you will be introduced to so many more amazing films",
+     "quote_ko": "1인치 높이의 자막이라는 장벽만 넘으면, 훨씬 더 많은 멋진 영화를 만나게 될 겁니다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "BBC: 기생충은 비영어권 영화로는 처음 작품상을 받았고, 한국에는 문화적 돌파구라고 보도.",
+     "publisher": "BBC(영국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2020-02-11",
+     "url": "https://bbc.com/news/world-asia-51449513",
+     "quote_original": "Bong Joon-ho's comedy-thriller is the first non-English language film to win best picture.",
+     "quote_ko": "봉준호의 코미디 스릴러는 작품상을 받은 최초의 비영어 영화다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "할리우드 리포터: 제작비 약 1,100만 달러의 기생충이 오스카 직전에 전 세계 약 1억 7,000만 달러를 벌었고, 프랑스·멕시코·러시아에서 한국 영화 흥행 기록을 갈아치웠다.",
+     "publisher": "The Hollywood Reporter(미국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2020-02-11",
+     "url": "https://hollywoodreporter.com/news/general-news/historic-parasite-oscar-win-may-be-game-changer-film-distributors-1278841",
+     "quote_original": "Made for about $11 million by Korean studios Barunson E&A and CJ Entertainment, it has grossed some $170 million worldwide, a figure certain to surge in the wake of Bong’s Oscar haul.",
+     "quote_ko": "기생충은 약 1,100만 달러로 만들어져 전 세계에서 약 1억 7,000만 달러를 벌었고, 오스카 이후 더 늘 것이다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "가디언 칸 보도: 피터 브래드쇼는 기생충을 '볼 만하고 풍자적인 서스펜스'로 평했다.",
+     "publisher": "The Guardian(영국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2019-05-25",
+     "url": "https://www.theguardian.com/film/2019/may/25/bong-joon-hos-parasite-wins-palme-dor-at-cannes-film-festival",
+     "quote_original": "a luxuriously watchable and satirical suspense drama [that] runs as purringly smooth as the Mercedes driven by the lead character",
+     "quote_ko": "호화롭게 볼 만한 풍자 서스펜스 드라마가 주인공이 모는 메르세데스처럼 매끄럽게 달린다.",
+     "verified": "fulltext",
+     "strength": 4
+    }
+   ],
+   "application": "R03 ¶3 '이유가 있습니다 → 바로 다음 문장이 답이고, 그 답이 새 갈등'(왜 자막이 장벽이었나 → 만장일치와 작품상) 적용 / R02 ¶3 '~못할 것이라고 했습니다 → 하지만 실제 결과'를 '자막을 안 읽는 관객 → 극장 매진'으로 적용 / R07a ¶3 '쉬운 상대 → 0:3 결과로 뒤집힘'의 D01(편견 검증)을 가져옴"
+  },
+  {
+   "no": 3,
+   "key": "squidgame",
+   "label": "두 번째 장면 — 28일 동안 16억 5천만 시간",
+   "emotion": "놀라움 → 압도",
+   "story_ko": "넷플릭스가 공개한 자료에 따르면 오징어 게임은 공개 28일 동안 16억 5천만 시간 시청됐습니다. 버라이어티는 이것이 2위 브리저튼 시즌1의 2.6배라고 전했습니다. 가디언은 공개 열흘 만에 90개국 1위에 올랐고, 한국 드라마가 미국 차트 1위에 오른 것은 처음이며, 시청자의 95%가 한국 밖에 있다고 썼습니다. 이듬해 에미상에서 이정재는 드라마 부문 남우주연상을 받은 최초의 아시아 배우가 됐습니다. 영국영화협회 사이트앤사운드는 이 시리즈의 경제적 불안과 계급 투쟁이 보편적으로 공감할 수 있다고 평했습니다.",
+   "question": "한국 드라마 한 편은 얼마나 멀리, 얼마나 많이 퍼졌을까요?",
+   "answer": "28일에 16억 5천만 시간, 90개국 1위, 시청자의 95%가 해외입니다. 에미상 주연상까지 나왔고, 영국 평론가는 이 이야기가 보편적이라고 썼습니다.",
+   "next_question": "숫자를 받아 든 넷플릭스는 어떻게 움직였을까요?",
+   "narration_sec": 140,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "버라이어티: 오징어 게임은 공개 28일 동안 16억 5천만 시간 시청돼 넷플릭스 역대 1위 시리즈가 됐고, 2위 브리저튼 시즌1의 2.6배였다.",
+     "publisher": "Variety(미국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2021-11-16",
+     "url": "https://variety.com/2021/digital/news/squid-game-all-time-most-popular-show-netflix-1235113196",
+     "quote_original": "“Squid Game” pulled in a staggering 1.65 billion hours of viewing in 28 days following its Sept. 17 premiere, according to Netflix.",
+     "quote_ko": "넷플릭스에 따르면 오징어 게임은 9월 17일 공개 이후 28일 동안 16억 5천만 시간이라는 엄청난 시청 시간을 기록했다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "가디언: 공개 열흘 만에 90개국 1위, 한국 드라마가 미국 차트 정상에 오른 것은 처음, 시청자의 95%가 한국 밖.",
+     "publisher": "The Guardian(영국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2021-10-09",
+     "url": "https://www.theguardian.com/tv-and-radio/2021/oct/09/netflixs-squid-game-owes-its-popularity-to-anxieties-of-modern-life",
+     "quote_original": "It’s the first time a Korean drama has ever been at the top of the US charts; 95% of the viewers are outside Korea, capsizing the idea that the younger generation won’t read subtitles.",
+     "quote_ko": "한국 드라마가 미국 차트 정상에 오른 것은 처음이며, 시청자의 95%가 한국 밖에 있어 젊은 세대는 자막을 안 읽는다는 통념을 뒤집었다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "버라이어티: 이정재가 에미상 드라마 부문 남우주연상을 받은 최초의 아시아 배우가 됐다.",
+     "publisher": "Variety(미국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2022-09-12",
+     "url": "https://variety.com/2022/tv/news/wins-emmy-lead-actor-drama-1235367322",
+     "quote_original": "Lee Jung-jae became the first Asian actor ever to win in the category after taking home the Emmy award for Best Actor in a Drama",
+     "quote_ko": "이정재는 에미상 드라마 부문 남우주연상을 받아 이 부문을 수상한 최초의 아시아 배우가 됐다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "영국영화협회(BFI) 사이트앤사운드: 오징어 게임의 경제적 불안과 계급 투쟁은 보편적으로 공감할 수 있다는 평.",
+     "publisher": "BFI Sight and Sound(영국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2021-10-06",
+     "url": "https://www.bfi.org.uk/sight-and-sound/reviews/squid-game-winning-addition-burgeoning-dystopia-subgenre",
+     "quote_original": "the economic anxiety and class struggle informing the narrative are not just universally relatable, but wrapped in the sort of addictive genre packaging that westerners have already embraced",
+     "quote_ko": "서사에 깔린 경제적 불안과 계급 투쟁은 보편적으로 공감할 수 있고, 서구가 이미 받아들인 중독성 있는 장르 포장에 담겨 있다.",
+     "verified": "fulltext",
+     "strength": 3
+    }
+   ],
+   "application": "R01 ¶1 숫자 계단(하루→3일→86개국)을 28일→90개국→95% 해외 시청으로 한 칸씩 올려 적용 / R01 ¶3·R02 ¶15–16 외국 언론 평가와 넷플릭스 수치를 연속으로 놓는 구조 / D05 외국인 반응 모자이크: 버라이어티·가디언·BFI가 차례로 말함"
+  },
+  {
+   "no": 4,
+   "key": "netflix",
+   "label": "큰 판이 움직였다 — 넷플릭스의 25억 달러",
+   "emotion": "확신 → 통쾌",
+   "story_ko": "2023년 4월 넷플릭스는 한국에 4년간 25억 달러를 투자한다고 밝혔습니다. BBC는 공동 CEO 테드 사랜도스의 말을 전했습니다. 그는 한국 창작 산업이 앞으로도 훌륭한 이야기를 들려줄 것이라는 큰 확신이 있어 결정했다고 말했습니다. 두 달 뒤 서울을 찾은 사랜도스는 넷플릭스 이용자의 60% 넘게가 한국 작품을 봤다고 말했고, NBC뉴스는 이를 전했습니다. NBC뉴스는 지난 4년 동안 한국 콘텐츠 시청이 6배로 늘었고 한국 로맨스 작품 시청의 90% 넘게가 한국 밖에서 나온다는 말도 전했습니다. 데드라인에 따르면 그는 한국 영화인들 앞에서 지금 한국 영화 산업의 수준에는 누구도 견줄 수 없다고 말했습니다.",
+   "question": "돈을 대는 쪽은 왜 한국 이야기를 골랐을까요?",
+   "answer": "한국 작품을 본 이용자가 전 세계 넷플릭스 이용자의 60%를 넘었기 때문입니다. 투자자가 숫자를 보고 먼저 줄을 섰습니다.",
+   "next_question": "이 파도는 최근에 시작됐을까요? 한류라는 이름을 처음 붙인 사람들은 사실 중국 시청자였습니다.",
+   "narration_sec": 135,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "BBC: 넷플릭스가 한국에 4년간 25억 달러를 투자한다고 발표. 공동 CEO 사랜도스는 한국 창작 산업에 대한 확신을 이유로 들었다.",
+     "publisher": "BBC(영국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2023-04-25",
+     "url": "https://www.bbc.co.uk/news/business-65382240",
+     "quote_original": "We were able to make this decision because we have great confidence that the Korean creative industry will continue to tell great stories",
+     "quote_ko": "한국 창작 산업이 앞으로도 훌륭한 이야기를 들려줄 것이라는 큰 확신이 있어서 이 결정을 할 수 있었습니다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "NBC뉴스: 사랜도스는 넷플릭스 이용자의 60% 넘게가 한국 작품을 한 편 이상 봤고, 4년간 한국 콘텐츠 시청이 6배로 늘었다고 밝혔다.",
+     "publisher": "NBC News(미국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2023-06-26",
+     "url": "https://www.nbcnews.com/news/asian-america/60-netflix-users-watched-korean-title-streaming-service-ceo-says-rcna91180",
+     "quote_original": "more than 60% of its users have watched at least one Korean title on the streaming service.",
+     "quote_ko": "넷플릭스 이용자의 60% 넘게가 한국 작품을 최소 한 편 시청했다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "데드라인: 사랜도스는 서울에서 한국 영화 산업의 수준에 견줄 곳이 없다고 말했다.",
+     "publisher": "Deadline(미국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2023-06-22",
+     "url": "https://deadline.com/2023/06/netflix-ted-sarandos-korea-squid-game-park-chan-wook-1235422436/",
+     "quote_original": "Nobody can hold a candle to the current level of the Korean film industry.",
+     "quote_ko": "지금 한국 영화 산업의 수준에는 누구도 견줄 수 없습니다.",
+     "verified": "fulltext",
+     "strength": 4
+    }
+   ],
+   "application": "R04 ¶13 '더욱 놀라운 사실이 있습니다 → 항상 앞 정보보다 한 칸 큰 새 사실'(25억 달러 → 60% → 한국 로맨스 시청 90% 해외)을 적용 / R01 ¶16 '그런데 더 놀라운 사실 → 더 큰 숫자' / R05 ¶4 현장 인물의 직접 발언을 내레이션이 받아 정리하는 구조(사랜도스 인용)",
+   "reversal": "한국 이야기를 사는 쪽은 한국이 아니라 세계의 투자자였다 — 돈의 방향이 뒤집힌 장면"
+  },
+  {
+   "no": 5,
+   "key": "roots",
+   "label": "뿌리 — 중국 거실에서 먼저 시작된 이름",
+   "emotion": "향수 → 깨달음",
+   "story_ko": "셰필드대 한국학 강사는 한류라는 말이 90년대 말 한국 드라마를 본 중국 시청자들이 처음 만든 말이라고 설명합니다. 런던 V&A 박물관은 한국을 전쟁의 폐허에서 21세기 문화 강국으로 올라선 나라로 소개했습니다. 중국의 한 영상 업로더는 그때 중국에서 가장 뜨거웠던 한국 드라마 열 편을 차례로 꼽습니다. 풀하우스, 가을동화, 대장금, 별에서 온 그대, 태양의 후예가 지나가고, 그는 응답하라 1988을 공인된 한국 드라마의 천장이라고 부릅니다. 지금까지 아무도 넘지 못했다는 말과 함께입니다.",
+   "question": "한류라는 파도는 언제, 어디서 시작됐을까요?",
+   "answer": "90년대 말 중국 시청자들이 한국 드라마에 붙인 이름에서 시작했고, 20년 넘게 중국 시청자 입에서 순위가 매겨져 왔습니다.",
+   "next_question": "이 열기는 드라마에서 멈췄을까요, 아니면 말과 지갑까지 움직였을까요?",
+   "narration_sec": 110,
+   "clip_sec": 189.3,
+   "clips": [
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 622.0,
+     "out": 627.3,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "当年在国内最火的十大韩剧 number ten浪漫满屋",
+     "ko": "그때 중국 안에서 가장 뜨거웠던 한국 드라마 열 편. 열 번째는 '풀하우스'입니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 627.3,
+     "out": 632.1,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "04年经典甜宠韩剧鼻祖 播出后迅速风靡全网",
+     "ko": "04년 달달한 한국 드라마의 원조. 방영되자마자 온 인터넷을 휩쓸었습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 632.1,
+     "out": 635.5,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "播出十火遍亚洲 走到哪都有人讨论",
+     "ko": "방영하자 아시아 전역에 번졌고, 어디를 가도 이 드라마 얘기를 했습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 635.5,
+     "out": 640.4,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "宋慧乔和rain搭档甜度直接拉满 轻松搞笑的剧情",
+     "ko": "송혜교와 비의 조합은 달달함이 가득 찼고, 가볍고 웃기는 줄거리였습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 640.4,
+     "out": 645.3,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "成为大家的快乐源泉 剧中歌曲当年更是传唱度极高",
+     "ko": "모두의 즐거움이 됐고, 극 중 노래는 그때 따라 부르는 사람이 정말 많았습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 645.3,
+     "out": 651.6,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "number nine搞笑一家人 06年老牌国民下饭神剧 常年热度不减",
+     "ko": "아홉 번째, '웃기는 한 가족'. 06년 국민 밥반찬 드라마로, 오랫동안 열기가 식지 않았습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 651.6,
+     "out": 655.0,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "当年各大电视台轮番重播 人气爆棚",
+     "ko": "그 무렵 방송사마다 돌아가며 재방송할 만큼 인기가 폭발했습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 655.0,
+     "out": 658.2,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "一家人鸡飞狗跳的日常 笑点满满",
+     "ko": "온 가족이 우당탕 부딪히는 일상이 웃음 포인트로 가득합니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 658.2,
+     "out": 661.5,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "演员演技自然 角色个个深入人心",
+     "ko": "배우들의 연기는 자연스럽고, 인물 하나하나가 마음에 깊이 남았습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 661.5,
+     "out": 665.2,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "经典片段至今还在网络上广为流传",
+     "ko": "명장면은 지금도 인터넷에서 널리 돌고 있습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 666.4,
+     "out": 671.9,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "蓝色生死恋 千禧年爆款悲情韩剧掀起全民追剧潮",
+     "ko": "'가을동화'. 2000년대 초 온 국민을 정주행하게 만든 비극 멜로입니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 671.9,
+     "out": 674.9,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "首播就拿下超高收视 风靡一时",
+     "ko": "첫 방송부터 아주 높은 시청률을 찍고 한 시대를 풍미했습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 674.9,
+     "out": 681.3,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "宋慧乔 宋承宪搭档上演凄美爱恋 揪心的剧情赚足了观众的眼泪",
+     "ko": "송혜교와 송승헌이 짝을 이뤄 애절한 사랑을 펼쳤고, 가슴 졸이는 줄거리는 시청자의 눈물을 쏙 뺐습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 681.3,
+     "out": 684.8,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "也是无数观众心中难忘的青春回忆",
+     "ko": "수많은 시청자 마음에 잊을 수 없는 청춘의 추억으로 남았습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 684.8,
+     "out": 689.6,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "number seven大长今03年经典现象级大作",
+     "ko": "일곱 번째, '대장금'. 03년 고전이 된 현상급 대작입니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 689.6,
+     "out": 694.5,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "当年收视一路领跑全网热播 男女老少全都追的入迷",
+     "ko": "방영 내내 시청률 선두를 달렸고, 남녀노소 모두 빠져들었습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 694.5,
+     "out": 700.2,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "李英爱塑造的角色温柔又坚韧 也让韩式文化被更多人熟知",
+     "ko": "이영애가 만든 인물은 부드럽고도 강인했고, 한국 문화가 더 많은 사람에게 알려지는 계기가 됐습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 700.2,
+     "out": 703.4,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "剧情励志正能量 深受大众喜爱",
+     "ko": "줄거리는 힘을 주는 긍정의 기운이 있어 대중의 사랑을 받았습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 706.3,
+     "out": 712.8,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "04年经典虐恋神剧火遍大街小巷 上线后口碑热度双双拉满",
+     "ko": "04년 고전 비극 멜로. 방영되자 거리마다 번졌고, 평점도 화제성도 가득 찼습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 712.8,
+     "out": 716.8,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "苏志燮 林秀晶演绎的悲情故事 看哭无数人",
+     "ko": "소지섭과 임수정이 보여 준 슬픈 이야기는 수많은 사람을 울렸습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 716.8,
+     "out": 719.9,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "剧中主题曲更是人人单曲循环",
+     "ko": "극 중 주제곡은 모두가 반복 재생했습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 719.9,
+     "out": 723.4,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "虐心结局成为一代人的经典 意难平",
+     "ko": "가슴 아픈 결말은 한 세대의 고전이 됐습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 723.4,
+     "out": 726.4,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "Number five 我叫金三顺",
+     "ko": "다섯 번째, '내 이름은 김삼순'.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 726.4,
+     "out": 730.7,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "05年佳作 打破偶像剧固有套路 开播就爆火",
+     "ko": "05년의 수작. 아이돌 드라마의 틀을 깼고, 방영하자마자 터졌습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 730.7,
+     "out": 737.3,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "播出后常年霸占影视热门榜单 景玄而玄彬演义的故事真实又有趣",
+     "ko": "방영 뒤 오랫동안 인기 순위를 차지했고, 이야기가 현실적이면서 재미있었습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 737.3,
+     "out": 744.0,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "接地气的剧情收获超高口碑与热度 不靠颜值依旧牢牢抓住观众眼球",
+     "ko": "현실에 발을 붙인 이야기로 높은 평가와 화제성을 얻었고, 외모에 기대지 않고도 시청자를 붙잡았습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 745.0,
+     "out": 751.0,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "来自星星的你 13年顶流韩剧 当年直接火到出圈 全网刷屏",
+     "ko": "'별에서 온 그대'. 13년 최고 인기 한국 드라마로, 그해 전 인터넷을 도배했습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 751.0,
+     "out": 756.7,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "成为年度现象级作品 金秀贤全智贤颜值演技双双在线",
+     "ko": "그해를 대표하는 현상급 작품이 됐고, 김수현과 전지현은 외모와 연기를 모두 갖췄습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 756.7,
+     "out": 762.7,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "奇幻恋爱设定新颖又特别 剧中穿搭和风格还掀起一波潮流",
+     "ko": "새로운 판타지 로맨스 설정에 극 중 옷차림과 스타일까지 유행을 일으켰습니다.",
+     "tag": "c"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 763.9,
+     "out": 768.9,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "继承者们 13年青春偶像剧标杆上线就引爆热度",
+     "ko": "'상속자들'. 13년 청춘 드라마의 기준으로, 방영하자마자 열기가 터졌습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 768.9,
+     "out": 772.1,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "开播瞬间霸占各大平台热搜榜",
+     "ko": "방영 즉시 각 플랫폼 인기 검색어를 차지했습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 775.2,
+     "out": 781.6,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "豪门青春爱恋戳中无数少女心 校园内外到处都在热议这部剧集",
+     "ko": "재벌가 청춘의 사랑이 수많은 소녀의 마음을 건드렸고, 학교 안팎 어디서나 이 드라마 얘기를 했습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 782.8,
+     "out": 788.0,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "太阳的后裔 16年现象级剧集刷屏全网热度爆表",
+     "ko": "'태양의 후예'. 16년 현상급 드라마로 온 인터넷을 뒤덮고 열기가 치솟았습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 788.0,
+     "out": 791.5,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "播出瞬间引爆全网 掀起追剧狂潮",
+     "ko": "방영 즉시 인터넷이 폭발했고 드라마 정주행 열풍이 일었습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 791.5,
+     "out": 798.0,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "宋仲基宋慧乔同框氛围感十足 军旅加恋爱的组合设定十分新颖",
+     "ko": "송중기와 송혜교가 한 화면에 선 분위기가 가득했고, 군대에 연애를 더한 설정이 아주 새로웠습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 798.0,
+     "out": 802.0,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "男女主也凭借这部剧人气登顶number one",
+     "ko": "두 주인공도 이 드라마로 인기 정상에 올랐습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 802.0,
+     "out": 808.0,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "请回答 198815年口碑神剧 公认的韩剧天花板稳居第一",
+     "ko": "'응답하라 1988'. 15년의 입소문 신화이자 공인된 한국 드라마의 천장, 부동의 1위입니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 808.0,
+     "out": 811.6,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "播出后口碑一路领跑 至今无人超越",
+     "ko": "방영 뒤 평가는 줄곧 선두였고, 지금까지 아무도 넘지 못했습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 811.6,
+     "out": 815.2,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "细腻刻画亲情 友情与爱情格外动人",
+     "ko": "가족애, 우정, 사랑을 섬세하게 그려 유독 마음을 울립니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 815.2,
+     "out": 818.6,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "常年位居高分 榜单重刷率居高不下",
+     "ko": "오랜 세월 높은 평점이고, 다시 보는 비율이 계속 높게 나옵니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1Kwux6gEyx",
+     "in": 818.6,
+     "out": 821.9,
+     "speaker": "중국 영상 업로더(중국에서 인기였던 한국 드라마 10편을 꼽는 내레이션)",
+     "orig": "平淡日常里藏着最治愈人心的温暖",
+     "ko": "평범한 일상 속에 마음을 가장 치유해 주는 온기가 숨어 있습니다.",
+     "tag": "g"
+    }
+   ],
+   "facts": [
+    {
+     "text": "런던 V&A 박물관은 한류 전시 해설에서 한국을 전쟁의 폐허에서 21세기 문화 강국으로 올라선 나라로 소개했다.",
+     "publisher": "Victoria and Albert Museum(영국)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2024-04-17",
+     "url": "https://www.vam.ac.uk/articles/the-hallyu-origin-story",
+     "quote_original": "Within living memory, South Korea has experienced a meteoric rise, from a country ravaged by war in the mid-1950s to a leading cultural powerhouse by the dawn of the 21st century.",
+     "quote_ko": "한국은 전쟁으로 폐허가 된 1950년대 중반의 나라에서 21세기 초 문화 강국으로, 기억에 남을 만큼 짧은 시간에 급상승했다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "셰필드대 한국학 강사의 해설: 한류라는 말은 90년대 말 한국 드라마를 본 중국 시청자들이 처음 만들었고, 한국 창작 산업은 영어권 지배에 도전했다.",
+     "publisher": "The Conversation(영국·호주 학술 매체)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2022-10-28",
+     "url": "https://theconversation.com/hallyu-the-korean-wave-at-the-vanda-is-an-unflinching-look-at-the-countrys-creative-rise-191133",
+     "quote_original": "This vigorous self-promotion has been audacious, challenging English-language dominance in global popular culture.",
+     "quote_ko": "이 적극적인 자기 홍보는 대담했고, 세계 대중문화에서 영어권의 지배에 도전했다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "중국 업로더(한국 드라마 중국어 더빙판 재업로드의 끝 구간)가 중국에서 가장 인기 있었던 한국 드라마 10편을 소개하며 '응답하라 1988'을 공인된 한국 드라마의 천장이라고 평한 내레이션(해당 구간 자막 전체 확인).",
+     "publisher": "Bilibili 영상 BV1Kwux6gEyx(중국)",
+     "foreign": true,
+     "kind": "video",
+     "date": "2026-08-06",
+     "url": "https://www.bilibili.com/video/BV1Kwux6gEyx",
+     "quote_original": "公认的韩剧天花板稳居第一",
+     "quote_ko": "공인된 한국 드라마의 천장, 부동의 1위.",
+     "verified": "fulltext",
+     "strength": 2
+    }
+   ],
+   "application": "R02 ¶6–7 '그동안 중국은 ~ 하지만 이제는 / 더욱 아이러니한 사실' 구조를 '한류라는 이름을 붙인 사람이 중국 시청자였다'는 반전으로 적용 / R01 ¶9–11·R06 ¶7–14 원음을 길게 이어 붙이는 방식을 41개 컷의 연속 원음으로 적용 / R02 ¶12 감정 원음 → 대장금·응답하라 구간의 '마음에 남았다'는 외국인 목소리에 적용",
+   "reversal": "한류는 한국이 붙인 이름이 아니라 중국 시청자들이 먼저 붙인 이름이었다"
+  },
+  {
+   "no": 6,
+   "key": "wallet",
+   "label": "취향이 말과 지갑으로 — 6위 언어와 수출 통계",
+   "emotion": "놀라움 → 실감",
+   "story_ko": "듀오링고 2023 언어 리포트에서 한국어는 이탈리아어를 제치고 세계 6위가 됐고, 인도에서는 1년 만에 75% 늘었습니다. CNN은 미국 대학의 한국어 수강생이 2002년 5,211명에서 2016년 거의 14,000명으로 뛰었다고 전합니다. 옥스퍼드 영어사전은 2021년 한국어 유래 단어를 20개 넘게 추가하며 우리 모두는 한류의 파도에 올라타 있다고 밝혔습니다. 스위스 MDPI의 학술지 Sustainability에 실린 2024년 연구는 중국 성 단위 자료로, 한류가 한국 소비재와 가공식품·음료의 중국 수출에 유의한 영향을 준다고 요약합니다. 오사카의 한 백화점 안내 영상에서도 구미 브랜드와 일본 스킨케어 옆에 한류 화장품이 한자리를 차지합니다.",
+   "question": "인기가 말과 지갑으로도 이어졌을까요?",
+   "answer": "이어졌습니다. 한국어는 세계 6위 언어가 됐고, 미국 대학 수강생은 14년 만에 거의 세 배가 됐고, 중국 수출 연구는 드라마의 영향이 가장 컸다고 요약합니다.",
+   "next_question": "아시아 문화권 밖, 한국어 한마디 모르던 곳에서도 같은 일이 일어났을까요?",
+   "narration_sec": 135,
+   "clip_sec": 5.0,
+   "clips": [
+    {
+     "id": "BV1KFkzYvEXm",
+     "in": 71.9,
+     "out": 76.9,
+     "speaker": "중국 크리에이터(오사카 백화점 소개)",
+     "orig": "欧美大牌日系护肤 韩流彩妆全部都有 不想跑这跑那来这里都能买车",
+     "ko": "구미 브랜드, 일본 스킨케어, 한류 화장품까지 다 있어서 이리저리 뛰지 않고 여기서 다 살 수 있어요.",
+     "tag": "g"
+    }
+   ],
+   "facts": [
+    {
+     "text": "듀오링고 2023 언어 리포트: 한국어가 이탈리아어를 제치고 세계 6위, 인도에서는 전년 대비 75% 성장.",
+     "publisher": "Duolingo(미국)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2023-12-04",
+     "url": "https://blog.duolingo.com/2023-duolingo-language-report",
+     "quote_original": "In 2023, Korean overtook Italian in the global language ranking, bringing it to #6.",
+     "quote_ko": "2023년 한국어는 이탈리아어를 제치고 세계 언어 순위 6위가 됐다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "CNN: 미국 대학 한국어 수강생이 2002년 5,211명에서 2016년 거의 14,000명으로 늘었다(MLA 자료). 옥스퍼드 영어사전은 2021년 한국어 유래 단어를 20개 넘게 추가했다.",
+     "publisher": "CNN(미국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2023-01-17",
+     "url": "https://www.cnn.com/2023/01/17/asia/korean-language-learning-rise-hallyu-intl-hnk-dst",
+     "quote_original": "The number of students enrolled in Korean classes at higher education institutions in the United States leapt from 5,211 in 2002 to nearly 14,000 in 2016, according to data analyzed by the Modern Language Association.",
+     "quote_ko": "미국 고등교육 기관의 한국어 수강생은 현대언어협회 자료에 따르면 2002년 5,211명에서 2016년 거의 14,000명으로 뛰었다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "Sustainability(스위스 MDPI) 2024 논문: 2011~2020 중국 성 단위 패널 자료로, 한류가 한국의 비내구 소비재와 가공식품·음료 중국 수출에 유의한 영향을 주며 드라마의 영향이 가장 컸다.",
+     "publisher": "Sustainability(MDPI, 스위스)",
+     "foreign": true,
+     "kind": "paper",
+     "date": "2024-05-13",
+     "url": "https://mdpi.com/2071-1050/16/10/4083",
+     "quote_original": "First, Hallyu in China has a significant impact on Korea’s exports of non-durable consumer goods and processed household food and beverages to China.",
+     "quote_ko": "첫째, 중국에서의 한류는 한국의 비내구 소비재와 가공 가정식품·음료의 중국 수출에 유의한 영향을 준다.",
+     "verified": "snippet",
+     "strength": 3
+    }
+   ],
+   "application": "R07c ¶30 '그동안 ~ 이제는' 역전 공식(그동안 소수 언어 → 지금 세계 6위) 적용 / R06 ¶6 같은 항목 수치 비교(이탈리아어를 앞섬) / R04 ¶7–8 금액·수치 비교 후 '자세히 보면' 단서로 이동하는 구조를 수출 연구로 적용 / D05 모자이크: 듀오링고(미국)·CNN·스위스 학술지",
+   "reversal": "한류는 구경거리에 그치지 않고 강의실 등록과 수출 통계로 번졌다"
+  },
+  {
+   "no": 7,
+   "key": "beyond",
+   "label": "문화 거리가 없는 곳에서도 — 도쿄 공연장부터 나이지리아까지",
+   "emotion": "확장감 → 감동",
+   "story_ko": "중국 뷰티 크리에이터 Miu는 한국 아이돌 그룹이 일본에서 활동하며 K팝이 일본에서도 빠르게 퍼졌다고 소개합니다. 도쿄에서 에스파 콘서트를 보러 간 중국 크리에이터는 이렇게 많은 일본 여성이 한국 걸그룹을 좋아할 줄은 몰랐다고 말합니다. 중국의 K팝 해설 유튜버는 K팝에서 현상급 사건이 벌어지고 있다고 말하며 이번 하반기가 K팝 팬으로서 정말 기쁘다고 합니다. 2026년 7월 스위스 학술지 Frontiers in Political Science에 실린 나이지리아 연구는 한류가 문화적 친밀감도 지리적 인접도 직접 접촉도 없는 미국·유럽·중동·아프리카에서도 폭넓게 시청됐다고 분석합니다. BBC는 알제리 K팝 팬 조사에서 대부분이 일상 대화에 한국어 단어와 표현을 쓰기 시작했다고 전했습니다.",
+   "question": "한국어 한마디 모르는 곳에서도 같은 일이 일어났을까요?",
+   "answer": "일어났습니다. 도쿄의 공연장, 중국의 K팝 팬, 알제리와 나이지리아까지, 거리와 문화 차이로는 설명이 안 되는 팬덤이 학술 논문에서 확인됩니다.",
+   "next_question": "그렇다면 학자들은 이 모든 것을 한마디로 어떻게 판정할까요?",
+   "narration_sec": 120,
+   "clip_sec": 76.4,
+   "clips": [
+    {
+     "id": "BV1BB4y1G7oT",
+     "in": 0.0,
+     "out": 5.9,
+     "speaker": "중국 크리에이터(도쿄에서 에스파 콘서트 관람)",
+     "orig": "跟日本闺蜜看演唱会 差点把我累哭了 最近s法的演唱会让全东京的樱花妹都超激动",
+     "ko": "일본 친구랑 콘서트를 보러 갔는데 힘들어서 울 뻔했어요. 에스파 콘서트가 도쿄의 모든 일본 여성 팬들을 잔뜩 들뜨게 했거든요.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1BB4y1G7oT",
+     "in": 15.3,
+     "out": 19.6,
+     "speaker": "중국 크리에이터(도쿄에서 에스파 콘서트 관람)",
+     "orig": "要根据歌手的风格决定当天的穿搭 因为s卡是那种ai科技风的女团",
+     "ko": "가수의 스타일에 맞춰 그날 입을 옷을 정합니다. 에스파는 AI 테크 스타일 걸그룹이니까요.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1BB4y1G7oT",
+     "in": 28.0,
+     "out": 31.2,
+     "speaker": "중국 크리에이터(도쿄에서 에스파 콘서트 관람)",
+     "orig": "东京有这种偶像妆造的专门店 说他开演唱会的妹子",
+     "ko": "도쿄에는 이런 아이돌 메이크업 전문점이 있습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1BB4y1G7oT",
+     "in": 67.1,
+     "out": 70.4,
+     "speaker": "중국 크리에이터(도쿄에서 에스파 콘서트 관람)",
+     "orig": "没想到酷酷的韩系女团居然有这么多樱花妹喜欢",
+     "ko": "멋진 한국 걸그룹을 이렇게 많은 일본 여성이 좋아할 줄은 몰랐어요.",
+     "tag": "e"
+    },
+    {
+     "id": "BV1bP411w7Se",
+     "in": 322.8,
+     "out": 326.1,
+     "speaker": "중국 패션·뷰티 크리에이터 Miu",
+     "orig": "所以K-POP在日本也迅速流行开来",
+     "ko": "그래서 K팝이 일본에서도 빠르게 퍼졌습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1bP411w7Se",
+     "in": 326.1,
+     "out": 331.6,
+     "speaker": "중국 패션·뷰티 크리에이터 Miu",
+     "orig": "得益于韩国优秀的包装技术 韩国美女们的妆容也备受日本妹子瞩目",
+     "ko": "한국의 뛰어난 포장 기술 덕에 한국 여성들의 화장도 일본 여성들의 시선을 끕니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1rFJb6eEQM",
+     "in": 71.6,
+     "out": 76.9,
+     "speaker": "중국 K팝 해설 유튜버(K팝 팬)",
+     "orig": "毫无疑问这是KPOP一次现象级的时间 甚至我们可能在目睹一个新时代的开始",
+     "ko": "이건 K팝에서 확실히 현상급 사건이에요. 어쩌면 우리는 새 시대의 시작을 목격하고 있는지도 모릅니다.",
+     "tag": "e"
+    },
+    {
+     "id": "BV1rFJb6eEQM",
+     "in": 161.6,
+     "out": 168.6,
+     "speaker": "중국 K팝 해설 유튜버(K팝 팬)",
+     "orig": "你看这一个老人带几个小孩 就是把KPOP掀翻了 那现在韩王的KPOP社区 都是铺天盖地的聊这个团的帖子",
+     "ko": "저 노인이 아이 몇 명을 데리고 K팝을 뒤집어 놓았어요. 지금 한국 K팝 커뮤니티는 그 그룹 얘기로 도배돼 있습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1rFJb6eEQM",
+     "in": 225.8,
+     "out": 230.0,
+     "speaker": "중국 K팝 해설 유튜버(K팝 팬)",
+     "orig": "这首歌可太强了 韩网评论提到最多的两个关键词",
+     "ko": "이 노래 정말 강하다. 한국 네티즌 댓글에서 가장 많이 나온 키워드가 두 개 있습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1rFJb6eEQM",
+     "in": 242.9,
+     "out": 249.6,
+     "speaker": "중국 K팝 해설 유튜버(K팝 팬)",
+     "orig": "这就是冲着复古还原最纯正的KPOP而去做的歌 然后现在他们的出道成绩已经给出了打卷",
+     "ko": "복고풍으로 가장 순수한 K팝을 되살리려고 만든 노래이고, 데뷔 성적이 이미 답을 내놨습니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1rFJb6eEQM",
+     "in": 290.5,
+     "out": 295.9,
+     "speaker": "중국 K팝 해설 유튜버(K팝 팬)",
+     "orig": "突然成了KPOP人最怀念的白月光 天时地利人和全部对上了",
+     "ko": "3년을 쉬고 돌아왔더니 K팝 팬들이 가장 그리워하던 이름이 됐어요. 천시, 지리, 인화가 전부 맞아떨어진 겁니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1rFJb6eEQM",
+     "in": 298.1,
+     "out": 304.6,
+     "speaker": "중국 K팝 해설 유튜버(K팝 팬)",
+     "orig": "今年下半年我作为KPOP粉丝还是非常开心的 从Resin的小公司逆袭 再到田小娟",
+     "ko": "올해 하반기에 저는 K팝 팬으로서 정말 기쁩니다. 작은 회사의 역전극부터 시작해서요.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1rFJb6eEQM",
+     "in": 304.6,
+     "out": 309.8,
+     "speaker": "중국 K팝 해설 유튜버(K팝 팬)",
+     "orig": "IU这些优秀的女solo回归 再到这个月A2Lite这个新的强者出现",
+     "ko": "아이유 같은 뛰어난 여성 솔로의 컴백, 그리고 이번 달 새로운 강자의 등장까지요.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1rFJb6eEQM",
+     "in": 314.4,
+     "out": 320.5,
+     "speaker": "중국 K팝 해설 유튜버(K팝 팬)",
+     "orig": "但10月份的KPOP才刚刚开始 下周开始有MX 艾布 艾丽 这些强者回归",
+     "ko": "하지만 10월 K팝은 이제 시작입니다. 다음 주부터 강자들이 컴백합니다.",
+     "tag": "g"
+    },
+    {
+     "id": "BV1St4y1a7Hy",
+     "in": 14.3,
+     "out": 18.8,
+     "speaker": "중국 크리에이터(충칭 방언 더빙 채널)",
+     "orig": "今天我要拍的视频是有名的韩剧的经典台词",
+     "ko": "오늘 찍을 영상은 유명한 한국 드라마의 명대사입니다.",
+     "tag": "g"
+    }
+   ],
+   "facts": [
+    {
+     "text": "Frontiers in Political Science 2026 논문(나이지리아): 한류의 확산은 지리적 근접성·문화 유사성으로 설명되지 않으며, 문화적 친밀감이나 직접 접촉이 없는 미국·유럽·중동·아프리카에서도 폭넓게 시청됐다.",
+     "publisher": "Frontiers in Political Science(스위스)",
+     "foreign": true,
+     "kind": "paper",
+     "date": "2026-07-02",
+     "url": "https://frontiersin.org/journals/political-science/articles/10.3389/fpos.2026.1814105/full",
+     "quote_original": "they are not good factors for explaining the transnational diffusion, acceptance, and pervasive viewership it garnered in the United States, Europe, the Middle East, and Africa, despite the absence of cultural affinity, geographical contiguity, or direct contact with Korean culture",
+     "quote_ko": "그것들은 한류가 문화적 친밀감도 지리적 인접도 직접 접촉도 없는 미국, 유럽, 중동, 아프리카에서 얻은 초국가적 확산과 수용, 폭넓은 시청을 설명하는 좋은 요인이 아니다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "BBC: 알제리 K팝 팬 조사에서 대부분이 일상 대화에 한국어 단어와 표현을 쓰기 시작했다. 토론토대 한국어 수업은 10년 새 30명에서 150명으로 늘었다.",
+     "publisher": "BBC(영국)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2018-07-10",
+     "url": "https://www.bbc.com/news/business-44770777",
+     "quote_original": "A survey of K-pop followers in Algeria found that most had started using Korean words and phrases in their daily conversation.",
+     "quote_ko": "알제리 K팝 팬 조사에서 대부분이 일상 대화에 한국어 단어와 표현을 쓰기 시작한 것으로 나타났다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "중국 크리에이터가 도쿄 에스파 콘서트 현장에서 '이렇게 많은 일본 여성이 한국 걸그룹을 좋아할 줄 몰랐다'고 말한 영상(자막 전체 확인).",
+     "publisher": "Bilibili 영상 BV1BB4y1G7oT(중국)",
+     "foreign": true,
+     "kind": "video",
+     "date": "2022-08-29",
+     "url": "https://www.bilibili.com/video/BV1BB4y1G7oT",
+     "quote_original": "没想到酷酷的韩系女团居然有这么多樱花妹喜欢",
+     "quote_ko": "멋진 한국 걸그룹을 이렇게 많은 일본 여성이 좋아할 줄은 몰랐다.",
+     "verified": "fulltext",
+     "strength": 2
+    }
+   ],
+   "application": "R01 ¶5 '한국 청년들만의 문제가 아닙니다 → 세계 공감으로 넓힘'을 '아시아만의 현상이 아닙니다 → 미국·유럽·중동·아프리카'로 적용 / R05 ¶12–16 제3국(대만)의 눈으로 한국을 보는 방식을 일본·중국·나이지리아·알제리의 시선으로 적용 / R07a ¶6–9 중국 팬·일본 팬 원음을 차례로 놓는 구조",
+   "reversal": "한국어도 문화도 거리가 먼 곳에서 오히려 팬덤이 자랐다 — 지리적 근접성으로는 설명이 되지 않는다는 논문의 결론"
+  },
+  {
+   "no": 8,
+   "key": "verdict",
+   "label": "학자들의 판정 — 그리고 처음의 11위",
+   "emotion": "뿌듯함 → 여운",
+   "story_ko": "스탠퍼드대 신기욱 교수는 문화의 힘만큼 세계의 눈에 비친 나라 이미지를 높이는 것은 없다고 썼습니다. 영국 워릭대 학술지의 2025년 논문은 한류가 서구 중심 틀에 도전하며 주변에서 중심으로의 역류를 만들었다고 분석합니다. 2026년 케임브리지대 출판부 요약은 한류가 한국의 국가 이미지와 교역, 국제적 관심을 높였다고 결론 내립니다. 처음의 숫자로 돌아옵니다. 브랜드 파이낸스 소프트파워 11위. 15위에서 시작한 계단은 영화 한 편, 드라마 한 편, 노래 한 곡이 한 칸씩 올려 만든 것입니다.",
+   "question": "학자들은 이 현상을 한마디로 어떻게 판정할까요?",
+   "answer": "소프트파워가 군사력의 뒷받침 없이도 실재할 수 있다는 사례, 그리고 서구 중심 문화 질서에 대한 역류입니다.",
+   "next_question": "11위의 다음 칸에는 어떤 장면이 놓일까요?",
+   "narration_sec": 80,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "스탠퍼드대 신기욱 교수 에세이: 한류는 문화 영역에서 먼저 움직이는 선두 주자가 될 수 있으며, 문화의 힘만큼 나라 이미지를 높이는 것은 없다.",
+     "publisher": "Stanford FSI(미국)",
+     "foreign": true,
+     "kind": "paper",
+     "date": "2022-08-01",
+     "url": "https://fsi.stanford.edu/news/will-hallyu-swell-tidal-wave-koreas-future-cultural-superpower",
+     "quote_original": "There is nothing better than the power of culture in improving a country’s image in the eyes of the world.",
+     "quote_ko": "문화의 힘만큼 세계의 눈에 비친 나라 이미지를 높이는 것은 없다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "영국 워릭대 학술지(2025) 논문: 한류는 엔터테인먼트를 넘어 서구 중심 틀에 도전하며 주변부에서 중심으로의 역류를 가능하게 했다.",
+     "publisher": "University of Warwick, Journal of Law, Social Justice & Global Development(영국)",
+     "foreign": true,
+     "kind": "paper",
+     "date": "2025-08-25",
+     "url": "https://exchanges.warwick.ac.uk/index.php/lgdjournal/article/download/2055/1546/11164",
+     "quote_original": "The author argues that Hallyu transcended the entertainment industry and embodied a means of transnationalism and a form of cultural hybridisation that challenged Western-centric paradigms, enabling contraflows from periphery to centre.",
+     "quote_ko": "저자는 한류가 엔터테인먼트를 넘어 초국가주의의 수단이자 문화적 혼종화의 한 형태로서 서구 중심 패러다임에 도전해 주변에서 중심으로의 역류를 가능하게 했다고 주장한다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "케임브리지대 출판부 2026 요약: 한류는 한국의 국가 이미지와 교역, 국제적 관심을 높였으며, 초강대국이 아닌 한국의 사례는 소프트파워가 군사력 뒷받침 없이도 실재할 수 있음을 보여 준다.",
+     "publisher": "Cambridge University Press(영국)",
+     "foreign": true,
+     "kind": "paper",
+     "date": "2026-05-29",
+     "url": "https://cambridge.org/core/elements/south-koreas-soft-power/1EE9BFCF60F567F83F0DBD597D4A7922",
+     "quote_original": "The findings indicate that the Korean Wave has enhanced Korea's national image and increased trade and international interest in the country.",
+     "quote_ko": "연구 결과, 한류는 한국의 국가 이미지를 높였고 교역과 한국에 대한 국제적 관심을 늘렸다.",
+     "verified": "snippet",
+     "strength": 3
+    }
+   ],
+   "application": "R03 ¶21 '2015년 첫 무대를 11년 만에 회수'를 '15위→11위 계단'으로 회수 / R02 ¶17 외국 인물의 인용으로 끝내는 구조(스탠퍼드·워릭·케임브리지) / R06 ¶44 훅 첫 원음과 대칭되는 호평으로 닫음(훅의 세 인용 ↔ 마지막 세 학술 판정)"
+  }
+ ],
+ "closing": {
+  "callback_ko": "처음의 숫자 11위로 돌아옵니다. 15위에서 시작한 계단은 영화 한 편, 드라마 한 편, 노래 한 곡이 한 칸씩 올려 만든 것이고, 그 이름을 처음 붙인 사람들은 중국의 시청자였습니다.",
+  "last_question_ko": "여러분이 처음 본 한국 작품은 무엇이었고, 그다음 한 칸은 어떤 이야기가 채울까요?"
+ },
+ "time_budget": {
+  "base_sec": 1326,
+  "narration_sec": 1055,
+  "clip_sec": 271,
+  "at_1_2x_sec": 1105,
+  "note": "설계값, 실측 아님. 훅 낭독(약 45초)은 1구간 나레이션에 포함. 클립은 corpus에서 실제 확인한 자막 구간 합계이며 모자라는 분량을 억지로 채우지 않았다."
+ },
+ "used_marks": [
+  {
+   "id": "BV1Kwux6gEyx",
+   "status": "new",
+   "note": "5구간 41컷, 중국에서 인기였던 한국 드라마 10편 소개(622~822초)"
+  },
+  {
+   "id": "BV1KFkzYvEXm",
+   "status": "new",
+   "note": "6구간 1컷, 오사카 백화점 한류 화장품 한 줄"
+  },
+  {
+   "id": "BV1BB4y1G7oT",
+   "status": "new",
+   "note": "7구간 4컷, 도쿄 에스파 콘서트 현장"
+  },
+  {
+   "id": "BV1bP411w7Se",
+   "status": "new",
+   "note": "7구간 2컷, 일본에서 K팝이 퍼진 과정"
+  },
+  {
+   "id": "BV1rFJb6eEQM",
+   "status": "new",
+   "note": "7구간 8컷, 중국 K팝 해설 유튜버"
+  },
+  {
+   "id": "BV1St4y1a7Hy",
+   "status": "new",
+   "note": "7구간 1컷, 한국 드라마 명대사를 중국 방언으로 다시 찍는 채널"
+  }
+ ],
+ "unverified": [
+  "클립이 얇다: K콘텐츠·소프트파워 주제로 자막을 확인한 외국인 원음은 6개 영상 합계 약 271초뿐이며, 그중 5구간 41컷(약 189초)이 한 업로더의 한국 드라마 10편 소개 내레이션이다. 1.2배속 18분과 나레이션 80퍼센트 이하를 함께 맞추는 데 필요한 최소량(약 265초)에 겨우 닿는다. 대본 단계에서 영상 컷을 더 구하면 5구간 비중을 줄일 수 있다.",
+  "Bilibili 클립의 화자 신원(이름)은 자막에 없어 '중국 크리에이터' 등 영상 설명으로만 표기했다.",
+  "MDPI 논문(403)과 케임브리지 엘리먼트(유료)는 초록·요약만 읽었다(snippet). 낭독에서는 요약 수준으로만 인용.",
+  "워릭대 논문 저자는 한국 소속·한국 연구재단 지원이다. 발행처가 외국이라 외국 근거로 분류했으나 강도 3으로 낮춤.",
+  "Variety 2021 기사는 넷플릭스 내부 자료(블룸버그 입수)로 오징어 게임 제작비 2,140만 달러·영향 가치 8억 9,100만 달러를 전하지만 유출 자료라 쓰지 않았다.",
+  "케임브리지 요약에는 '정책 변화로 이어졌다는 증거는 제한적이라 소프트파워라는 말은 조심해서 써야 한다'는 문장이 함께 있다(낭독 제외, 8구간은 앞 문장만 인용).",
+  "2026 브랜드 파이낸스 요약은 같은 해 한국의 거버넌스 순위가 25위로 5계단 떨어졌다고도 적었다(낭독 제외)."
+ ]
+}

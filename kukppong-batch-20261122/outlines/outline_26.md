@@ -1,0 +1,201 @@
+# 아웃라인 26 — 세계가 먼저 계산한 한국의 나이 — 랜싯·BBC·OECD가 적은 "90세"와 "연 18번 가는 병원"
+
+- 분야: 한국/의료 성과(기대수명·암 생존율·의료 접근성·건강검진) / 주전개 D03(결과에서 원인 역추적) + 보조 D05, D08(D05 외국인 반응 모자이크 · D08 작은 반전→큰 반전)
+- 설계 길이: 기본속도 1340초(1.2배속 1117초 ≈ 18분 37초) · 나레이션 1340초 · 영상 클립 0초(클립 0초, SPEC2 개정 허용) — 설계값, 실측 아님
+- 근거: 29개 (전부 원문 열람, 외국 발행처). 종류: 논문·기사·보고서·영상 원음·댓글/게시물
+
+## 훅 (0~30초)
+
+- **BBC News**: “한국 여성이 세계에서 처음으로 평균 기대수명 90세를 넘을 것이라고 연구가 제시한다.” (원문: _South Korean women will be the first in the world to have an average life expectancy above 90, a study suggests._) https://www.bbc.com/news/health-39040146
+- **The Lancet**: “2030년 한국 여성의 기대수명이 90세를 넘을 확률은 57%다.” (원문: _a 57% probability that it will be higher than 90 years._) https://doi.org/10.1016/S0140-6736(16)32381-9
+- **OECD**: “1인당 연간 대면 진료 횟수는 한국이 18회로 가장 많다.” (원문: _ranged from fewer than 3 in Mexico, Costa Rica, Sweden and Greece to 18 in Korea_) https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf#page=116
+
+- 선언: 한국 여성이 2030년 세계에서 처음으로 평균 90세를 넘길 수 있다고, 영국 BBC와 의학지 랜싯이 계산했습니다. 그 계산을 한 사람들은 한국 사람이 아니라 런던 임페리얼 칼리지 연구진입니다.
+- 첫 질문(30초 안): OECD는 같은 한국에서 1인당 1년에 병원을 18번 간다고 적었습니다. 오래 사는 나라가 병원을 이렇게 자주 가는 것, 이 두 숫자는 무슨 관계일까요?
+
+## 8구간 한눈에
+
+| 구간 | 제목 | 감정 | 질문 → 답 → 다음 질문 | 나레이션(초) | 근거 강도 |
+|---|---|---|---|---|---|
+| 1 | 결과: 한국 여성 90세 — 외국 연구진이 계산한 숫자 | 놀람(숫자 계단) | Q: 한국 사람은 얼마나 오래 사는 나라가 되었나요?<br>A: 랜싯 계산으로는 2030년 한국 여성이 처음으로 평균 90세를 넘을 확률이 57%이고, OECD 최신 판에서도 이미 선두 그룹입니다.<br>→ 그런데 오래 사는 나라가 병원을 1년에 18번이나 간다면, 병원이 그만큼 가깝다는 뜻일까요? | 170 | 5, 5, 5, 4 |
+| 2 | 원인 1: 병원이 가까운 나라 — 연 18회, 당일 진료 | 납득과 호기심 | Q: 병원을 자주 간다는 것은 무엇을 뜻하나요?<br>A: 예약 없이 당일에 진료받을 수 있는 접근성이 있고, 국제 지수에서도 개선폭이 가장 큰 나라에 들며, 국민이 그 접근성에 만족합니다.<br>→ 자주 가는 병원에서 가장 무서운 병, 암은 어떤 성적표를 받았을까요? | 170 | 5, 4, 4 |
+| 3 | 원인 2: 암과 뇌졸중에서 살아남는 나라 | 신뢰와 안도 | Q: 암을 이기는 힘은 어디서 나오나요?<br>A: 일찍 찾는 검진, 곧바로 이어지는 치료, 그리고 보험이 받쳐 주는 시술입니다. 위암·대장암·직장암 생존율 세계 최고 기록이 그 결과입니다.<br>→ 그 검진을 이제 한국 사람만 받지 않습니다. 외국인은 어떻게 반응하고 있을까요? | 170 | 5, 4, 4 |
+| 4 | 반전: 한국인의 2년마다 검진이 세계 여행자의 목적지가 되다 | 통쾌한 반전 | Q: 한국 병원에서 외국인들은 무엇을 느낄까요?<br>A: 가격, 속도, 한 번에 끝나는 검사 범위입니다. 영국 BBC·가디언과 미국 UPI가 같은 방향으로 한국 검진 시스템을 평가했습니다.<br>→ 그렇다면 이런 성과를 만든 돈은 얼마일까요? 많이 써서 얻은 결과일까요? | 170 | 5, 5, 4, 3, 3 |
+| 5 | 원인 3: 적게 쓰고 오래 사는 설계 | 감탄 | Q: 이 성과는 돈을 많이 쓴 결과인가요?<br>A: 아닙니다. OECD는 평균보다 적게 쓰고도 피할 수 있는 사망이 적은 8개국에 한국을 넣었고, WHO 관측소는 짧은 기간에 전국민 보험을 만든 설계를 평가했습니다.<br>→ 평소에 잘 돌아가는 체계는 위기가 닥쳤을 때 어떻게 움직였을까요? | 165 | 3, 3, 3 |
+| 6 | 위기 시험: 락다운 없이 해낸 검사·추적·격리 | 긴장 후 안도 | Q: 체계가 시험대에 올랐을 때 한국은 어땠나요?<br>A: 외신은 검사·추적·격리라는 세 원칙을 배우려 했고, WEF 보고서는 탁월한 회복력으로 평가했습니다.<br>→ 의료 성과는 병원 안에서만 나온 것일까요? 몸 자체는 어떻게 달라졌을까요? | 160 | 4, 3, 3, 2 |
+| 7 | 몸이 달라졌다: 100년간 가장 크게 큰 사람들 | 감동 | Q: 이 모든 결과는 병원 밖의 삶과 어떻게 이어졌나요?<br>A: 영양과 소득이 바뀐 몸, 채소를 많이 먹는 식탁, 낮은 심장질환 사망률, 그리고 출산부터 입원까지 환자를 대하는 방식이 함께 만든 결과입니다.<br>→ 그렇다면 앞으로 한국 의료는 어디까지 갈까요? | 155 | 4, 3, 3, 3, 3 |
+| 8 | 회수: 세계가 한국의 병원 문을 두드린다 | 뿌듯함과 여운 | Q: 처음의 두 숫자, 90세와 18번은 결국 무엇을 말하나요?<br>A: 오래 사는 결과와 병원이 가까운 일상은 같은 시스템의 앞뒷면입니다.<br>→ 당신은 마지막으로 건강검진을 받은 것이 언제입니까? | 155 | 3, 3 |
+
+### 구간 1 · 결과: 한국 여성 90세 — 외국 연구진이 계산한 숫자
+
+- 감정: 놀람(숫자 계단)
+- 줄거리: 2017년 2월, 영국 임페리얼 칼리지 런던과 WHO 연구진이 의학지 랜싯에 35개 선진국의 2030년 기대수명을 계산해 실었습니다. 한국 여성이 86.7세를 넘을 확률은 90%, 90세를 넘을 확률은 57%였습니다. BBC는 "한국 여성이 세계에서 처음으로 90세를 넘을 것"이라고 제목을 달았고, 가디언은 한국 남성도 84.1세로 선두라고 보도했습니다. 연구를 이끈 마지드 에자티 교수는 BBC에 "한국은 많은 것을 제대로 해 왔다"고 말했습니다. 이어 OECD 2023판은 80세를 넘긴 27개국 가운데 일본·스위스와 함께 한국을 선두 그룹으로 적었습니다.
+- 질문: 한국 사람은 얼마나 오래 사는 나라가 되었나요?
+- 답: 랜싯 계산으로는 2030년 한국 여성이 처음으로 평균 90세를 넘을 확률이 57%이고, OECD 최신 판에서도 이미 선두 그룹입니다.
+- 다음 질문: 그런데 오래 사는 나라가 병원을 1년에 18번이나 간다면, 병원이 그만큼 가깝다는 뜻일까요?
+- **R0x 적용**: R03 ¶1 훅(외신 기사 제목을 맨 앞에 → 바로 출처 공개) + R01 ¶1 숫자 계단(90% → 57% → 남성 84.1세 → OECD 선두 그룹, "그리고"로 한 칸씩 올림) → 구간 1에서 결과부터 보여 주고 원인은 다음 구간으로 넘긴다.
+- 나레이션 170초 / 클립 0초
+
+| 근거 | 발행처 | 종류 | 날짜 | 강도 | 확인 | 원문 인용 | URL |
+|---|---|---|---|---|---|---|---|
+| 랜싯 논문: 2030년 한국 여성 기대수명 90세 돌파 확률 57% | The Lancet (Kontis 외, Imperial College London·WHO) | paper | 2017-02-22 | 5 | fulltext | _There is a 90% probability that life expectancy at birth among South Korean women in 2030 will be higher than 86·7 years, the same as the highest worldwide life expectancy in 2012, and a 57% probability that it will be higher than 90 years._ → 2030년 한국 여성의 출생 시 기대수명이 2012년 세계 최고 기록과 같은 86.7세를 넘을 확률은 90%, 90세를 넘을 확률은 57%다. | https://doi.org/10.1016/S0140-6736(16)32381-9 |
+| BBC: 한국 여성이 세계 최초로 평균 90세 위로 | BBC News | news | 2017-02-22 | 5 | fulltext | _South Korean women will be the first in the world to have an average life expectancy above 90, a study suggests._ → 한국 여성이 세계에서 처음으로 평균 기대수명 90세를 넘을 것이라고 연구가 제시한다. | https://www.bbc.com/news/health-39040146 |
+| 가디언: 2030년 한국에서 태어난 여성 기대수명 90세, 남성 84.1세로 선두 | The Guardian | news | 2017-02-21 | 5 | fulltext | _Women born in South Korea in 2030 are forecast to have a life expectancy of 90, a study has found._ → 2030년 한국에서 태어나는 여성의 기대수명은 90세로 예측된다고 연구는 밝혔다. | https://www.theguardian.com/society/2017/feb/21/south-korean-womens-life-expectancy-exceed-90-years-2020-study |
+| OECD 2023판: 80세 넘긴 27개국 가운데 일본·스위스와 한국이 선두 | OECD (Health at a Glance 2023) | report | 2023-11-07 | 4 | fulltext | _Japan, Switzerland and Korea lead a large group of 27 OECD countries in which life expectancy at birth exceeded 80 years in 2021._ → 일본, 스위스, 한국은 2021년 출생 시 기대수명이 80세를 넘은 OECD 27개국 가운데 선두 그룹이다. | https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/11/health-at-a-glance-2023_e04f8239/7a7afb35-en.pdf#page=22 |
+
+### 구간 2 · 원인 1: 병원이 가까운 나라 — 연 18회, 당일 진료
+
+- 감정: 납득과 호기심
+- 줄거리: OECD 2025판 보고서는 1인당 연간 대면 진료 횟수가 멕시코·코스타리카·스웨덴·그리스의 3회 미만에서 한국의 18회까지 벌어진다고 적었습니다. 같은 보고서는 한국에서는 대부분의 환자가 예약 없이도 같은 날 1차 진료를 받을 수 있다고 설명합니다. 랜싯의 의료 접근성·질 지수 연구는 1990년 이후 한국을 가장 크게 개선된 나라 가운데 하나로 꼽았고, OECD는 한국이 1인당 의료비는 낮은데도 질 좋은 의료를 이용할 수 있다고 느끼는 국민 비율은 평균보다 눈에 띄게 높다고 적었습니다.
+- 질문: 병원을 자주 간다는 것은 무엇을 뜻하나요?
+- 답: 예약 없이 당일에 진료받을 수 있는 접근성이 있고, 국제 지수에서도 개선폭이 가장 큰 나라에 들며, 국민이 그 접근성에 만족합니다.
+- 다음 질문: 자주 가는 병원에서 가장 무서운 병, 암은 어떤 성적표를 받았을까요?
+- **R0x 적용**: R02 ¶9 "이유가 있습니다" → 다음 문장이 답(18회 → 당일 진료)으로 새 사건을 열고, R04 ¶8 금액 비교(3회 미만 ↔ 18회)로 격차를 눈에 보이게 한다.
+- 나레이션 170초 / 클립 0초
+
+| 근거 | 발행처 | 종류 | 날짜 | 강도 | 확인 | 원문 인용 | URL |
+|---|---|---|---|---|---|---|---|
+| OECD 2025판: 1인당 연 외래 진료 한국 18회로 최다 | OECD (Health at a Glance 2025) | report | 2025-11-07 | 5 | fulltext | _In 2023, the average number of annual in-person doctor consultations per person among OECD countries ranged from fewer than 3 in Mexico, Costa Rica, Sweden and Greece to 18 in Korea_ → 2023년 OECD 국가의 1인당 연간 대면 진료 횟수는 멕시코·코스타리카·스웨덴·그리스의 3회 미만에서 한국의 18회까지 벌어진다. | https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf#page=116 |
+| 랜싯 의료접근·질 지수(HAQ): 1990년 이후 한국이 가장 크게 오른 나라 중 하나 | The Lancet (EurekAlert 보도자료) | news | 2017-05-18 | 4 | fulltext | _South Korea, Turkey, Peru, China and the Maldives have seen some of the greatest improvements in healthcare access and quality since the 1990s._ → 한국, 튀르키예, 페루, 중국, 몰디브는 1990년대 이후 의료 접근성과 질이 가장 크게 개선된 나라들이다. | https://eurekalert.org/news-releases/721524 |
+| OECD 2025판: 한국은 1인당 지출은 낮은데 질 좋은 의료 이용 가능 만족도는 평균 이상 | OECD (Health at a Glance 2025) | report | 2025-11-07 | 4 | fulltext | _In Korea and Czechia, health spending per capita was relatively low, but a noticeably greater share of the population was satisfied with the availability of quality healthcare than the OECD average._ → 한국과 체코는 1인당 의료비가 상대적으로 낮은데도 질 좋은 의료를 이용할 수 있다고 만족하는 인구 비율이 OECD 평균보다 눈에 띄게 높다. | https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf#page=29 |
+
+### 구간 3 · 원인 2: 암과 뇌졸중에서 살아남는 나라
+
+- 감정: 신뢰와 안도
+- 줄거리: 랜싯의 CONCORD-3 연구는 71개국 3,751만 건의 환자 기록을 분석했습니다. 위암 5년 생존율 68.9%, 대장암 71.8%, 직장암 71.1%로 이 세 암에서 생존율이 가장 높은 곳이 한국이었습니다. 미국 소화기학회지 Gastroenterology에 실린 연구는 한국 국가 암검진 데이터 1,658만 명을 분석해, 상부 내시경 검진을 받은 사람의 위암 사망 오즈비가 0.53이고 세 번 이상 받으면 0.19까지 내려간다고 밝혔습니다. OECD 2025판은 한국이 종합 뇌졸중센터를 늘리고 혈전제거술에 보험을 적용해 뇌졸중 사망률을 낮췄다고 적었습니다.
+- 질문: 암을 이기는 힘은 어디서 나오나요?
+- 답: 일찍 찾는 검진, 곧바로 이어지는 치료, 그리고 보험이 받쳐 주는 시술입니다. 위암·대장암·직장암 생존율 세계 최고 기록이 그 결과입니다.
+- 다음 질문: 그 검진을 이제 한국 사람만 받지 않습니다. 외국인은 어떻게 반응하고 있을까요?
+- **R0x 적용**: R03 ¶4–5 장애 → 해소를 이어 가는 사다리(암 → 검진 → 뇌졸중)로 D02 질문–답 사다리를 구성하고, R03 ¶7 현지 평가 문장처럼 외국 연구진의 평가 문장을 바로 받아 의미만 정리한다.
+- 나레이션 170초 / 클립 0초
+
+| 근거 | 발행처 | 종류 | 날짜 | 강도 | 확인 | 원문 인용 | URL |
+|---|---|---|---|---|---|---|---|
+| 랜싯 CONCORD-3: 위암·대장암·직장암 5년 생존율 한국이 세계 최고 | The Lancet (CONCORD-3, Allemani 외) | paper | 2018-01-31 | 5 | fulltext | _in South Korea for cancers of the stomach (68·9%), colon (71·8%), and rectum (71·1%)_ → 위암 68.9%, 대장암 71.8%, 직장암 71.1%의 5년 생존율이 가장 높은 곳은 한국이다. | https://doi.org/10.1016/S0140-6736(17)33326-3 |
+| Gastroenterology: 국가 암검진에서 위내시경 받은 군의 위암 사망 오즈비 0.53, 3회 이상 0.19 | Gastroenterology (AGA, 미국) | paper | 2017-01-29 | 4 | fulltext | _the ORs of death from gastric cancer were 0.53 (95% CI, 0.51-0.56) for upper endoscopy and 0.98 (95% CI, 0.95-1.01) for UGI series._ → 위암 사망 오즈비는 상부 내시경 0.53, 상부 위장관 조영 0.98이었다. | https://doi.org/10.1053/j.gastro.2017.01.029 |
+| OECD 2025판: 뇌졸중 30일 사망률 한국 8% 미만, 혈전제거술 보험 확대 | OECD (Health at a Glance 2025) | report | 2025-11-07 | 4 | fulltext | _Korea has attained low mortality rates through improvements in acute ischaemic stroke management, including an increased number of comprehensive stroke centres supporting high-quality care and thrombectomy_ → 한국은 종합 뇌졸중센터 확충과 고품질 치료·혈전제거술 등 급성 허혈성 뇌졸중 관리 개선으로 낮은 사망률을 달성했다. | https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf#page=146 |
+
+### 구간 4 · 반전: 한국인의 2년마다 검진이 세계 여행자의 목적지가 되다
+
+- 감정: 통쾌한 반전
+- 줄거리: 2026년 7월 BBC 트래블은 한국이 세계 의료 허브 가운데 하나가 되고 있다고 보도했습니다. 여행자들이 저렴한 가격, 빠른 결과, 영어 지원에 끌려 일정에 종합 검진을 넣는다는 내용입니다. 같은 달 가디언은 서울로 검진을 받으러 가는 미국 흑인 여성들의 이야기를 실었고, 한 여성은 "미국의 연례 검진에서 하는 것보다 훨씬 많은 검사를 해 줬다"고 말했습니다. UPI는 미국 출신 외국인 환자가 2019년 약 5만 4천 명에서 2025년 약 17만 3천 명으로 세 배 넘게 늘었다고 적었고, 스트레이츠 타임스는 2025년 외국인 건강검진 환자가 65,228명으로 17% 늘었다고 전했습니다. 러시아 부부 안드레이는 서울대병원에 가기 전 카메라 앞에서 "여기에 세계 최고의 병원들이 있다고 들었다"고 말했습니다.
+- 반전: 한국인에게는 2년마다 날아오는 안내문일 뿐이던 검진이 BBC·가디언·UPI가 쓰는 세계의 여행 목적지가 됐다.
+- 질문: 한국 병원에서 외국인들은 무엇을 느낄까요?
+- 답: 가격, 속도, 한 번에 끝나는 검사 범위입니다. 영국 BBC·가디언과 미국 UPI가 같은 방향으로 한국 검진 시스템을 평가했습니다.
+- 다음 질문: 그렇다면 이런 성과를 만든 돈은 얼마일까요? 많이 써서 얻은 결과일까요?
+- **R0x 적용**: R06 ¶24–25 "평가가 완전히 뒤집히고 있습니다" → 외국 매체 세 곳을 연속으로 세우고, R01 ¶3–4 외국 언론 두 곳 → 해외 팬 반응처럼 BBC·가디언·UPI·스트레이츠 타임스를 차례로 쌓은 뒤 R05 ¶6처럼 같은 나라 사람(미국 흑인 여성)의 원음으로 반론을 닫는다.
+- 나레이션 170초 / 클립 0초
+
+| 근거 | 발행처 | 종류 | 날짜 | 강도 | 확인 | 원문 인용 | URL |
+|---|---|---|---|---|---|---|---|
+| BBC 트래블: 여행 일정에 종합 건강검진을 넣는 여행자 증가 | BBC Travel | news | 2026-07-24 | 5 | fulltext | _Travellers are increasingly adding comprehensive health check-ups to their South Korea itineraries, drawn by affordable prices, fast results and English-language support._ → 여행자들이 저렴한 가격, 빠른 결과, 영어 지원에 끌려 한국 여행 일정에 종합 건강검진을 점점 더 많이 넣고 있다. | https://bbc.com/travel/article/20260723-south-koreas-medical-clinics-are-drawing-tourists |
+| 가디언: 미국 흑인 여성들이 건강검진을 받으러 서울행 | The Guardian | news | 2026-07-18 | 5 | fulltext | _They did a lot more testing than we typically do at an annual checkup in the US._ → 미국의 연례 검진에서 하는 것보다 훨씬 많은 검사를 해 줬다. | https://theguardian.com/culture/2026/jul/18/black-american-women-south-korea-healthcare |
+| 러시아 부부 안드레이·마샤: 서울대병원 방문 전 "여기가 세계 최고 병원이라고 들었다" | 러시아 유튜버 안드레이·마샤 원음(YouTube 「한국이 좋아서」 자막본) | video | 2026-10-07 | 4 | fulltext | _потому что мне сказали, что здесь лучшие клиники там в мире._ → 여기에 세계 최고의 병원들이 있다고 들었기 때문이다. | https://www.youtube.com/watch?v=19E65oOGtZM |
+| UPI 기고: 미국인 외국인 환자 2019년 5.4만 → 2025년 약 17.3만 | UPI (Yahoo 전재) | news | 2026-08-25 | 3 | fulltext | _Patients from the United States, long the world's medical leader, climbed to about 173,000 in 2025 from some 54,000 in 2019, more than tripling._ → 오랫동안 세계 의료의 선두였던 미국 출신 환자는 2019년 약 5만 4천 명에서 2025년 약 17만 3천 명으로 세 배 넘게 늘었다. | https://travel.yahoo.com/guides/articles/korea-checkup-becomes-destination-090007330.html |
+| 스트레이츠 타임스: 2025년 외국인 건강검진 환자 65,228명, 전년 대비 17% 증가 | The Straits Times | news | 2026-11-15 | 3 | fulltext | _A total of 65,228 foreign patients underwent health screenings in South Korea in 2025, up 17% from a year earlier, according to the Ministry of Health and Welfare._ → 2025년 한국에서 건강검진을 받은 외국인 환자는 총 65,228명으로 전년보다 17% 늘었다. | https://straitstimes.com/asia/east-asia/more-foreigners-seek-health-screenings-in-south-korea |
+
+### 구간 5 · 원인 3: 적게 쓰고 오래 사는 설계
+
+- 감정: 감탄
+- 줄거리: OECD 2025판은 평균보다 적게 쓰면서 피할 수 있는 사망률은 더 낮은 나라 여덟 곳을 꼽았고 이스라엘, 일본, 한국, 이탈리아, 스페인, 포르투갈, 그리스, 슬로베니아가 들어갔습니다. 미국 학술지 Health Affairs는 한국이 1989년 전국민 보장을 달성했다고 정리했습니다. WHO 유럽 보건체계 관측소는 한국 보고서에서 아주 짧은 기간에 전국민 건강보험을 이룬 것이 전례 없는 성과였다고 평가했습니다. 많이 쓴 결과가 아니라 처음부터 설계한 결과라는 뜻입니다.
+- 반전: 돈을 쏟아부은 나라가 아니라, 적게 쓰고도 사망을 줄이는 구조를 먼저 만든 나라가 한국이었다.
+- 질문: 이 성과는 돈을 많이 쓴 결과인가요?
+- 답: 아닙니다. OECD는 평균보다 적게 쓰고도 피할 수 있는 사망이 적은 8개국에 한국을 넣었고, WHO 관측소는 짧은 기간에 전국민 보험을 만든 설계를 평가했습니다.
+- 다음 질문: 평소에 잘 돌아가는 체계는 위기가 닥쳤을 때 어떻게 움직였을까요?
+- **R0x 적용**: R04 ¶7–8 금액 비교 → "자세히 보면 눈에 띄는 이름"의 구조를 가져와, 지출 비교표에서 한국 이름이 낮은 지출·낮은 사망 칸에 들어 있다는 점을 짚고, R04 ¶13–14 "더욱 놀라운 사실" → 보험을 1989년에 이미 완성했다는 한 단계 큰 사실로 받는다.
+- 나레이션 165초 / 클립 0초
+
+| 근거 | 발행처 | 종류 | 날짜 | 강도 | 확인 | 원문 인용 | URL |
+|---|---|---|---|---|---|---|---|
+| OECD 2025판: 평균보다 적게 쓰면서 피할 수 있는 사망은 적은 8개국에 한국 | OECD (Health at a Glance 2025) | report | 2025-11-07 | 3 | fulltext | _Eight countries spend less than average but have lower avoidable mortality rates – Israel, Japan, Korea, Italy, Spain, Portugal, Greece, Slovenia (bottom left quadrant)._ → 평균보다 적게 쓰면서 피할 수 있는 사망률은 더 낮은 나라가 8곳이며 이스라엘, 일본, 한국, 이탈리아, 스페인, 포르투갈, 그리스, 슬로베니아다. | https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf#page=28 |
+| Health Affairs: 1989년 전국민 보험 달성, 2007년 의료비 GDP 6.3% | Health Affairs (미국) | paper | 2011-01-01 | 3 | fulltext | _Universal coverage was achieved in 1989._ → 전국민 보장은 1989년에 달성되었다. | https://doi.org/10.1377/hlthaff.2008.0816 |
+| WHO 유럽 보건체계 관측소: 매우 짧은 기간에 전국민 건강보험 달성은 전례 없는 성과 | WHO European Observatory on Health Systems and Policies | report | 2009-01-01 | 3 | fulltext | _Achieving universal health insurance coverage within a very short period was an unprecedented outcome._ → 아주 짧은 기간에 전국민 건강보험 적용을 이룬 것은 전례 없는 성과였다. | https://iris.who.int/server/api/core/bitstreams/11a4d83b-d063-4e36-82b6-e2532ef01ccf/content |
+
+### 구간 6 · 위기 시험: 락다운 없이 해낸 검사·추적·격리
+
+- 감정: 긴장 후 안도
+- 줄거리: 2020년 4월 가디언은 "다른 나라들이 이제 한국의 검사·추적·격리를 보며 확산을 억제하는 방법을 찾고 있다"고 썼습니다. CNN은 같은 해 3월 드라이브스루 검사소를 소개하며, 승객과 운전자가 차에서 내리지 않고 몇 분 만에 검사 전 과정을 마친다고 전했습니다. 세계경제포럼 2024년 보고서는 한국 보건체계가 코로나19 때 탁월한 회복력을 보였다고 정리했습니다. 샤오홍슈의 한 중국 이용자는 한국에서는 구급차를 불러도 돈이 안 든다고 댓글을 남겼습니다.
+- 반전: 다른 나라가 한국에서 배우려 한 것은 락다운이 아니라 검사·추적·격리라는 세 가지 원칙이었다.
+- 질문: 체계가 시험대에 올랐을 때 한국은 어땠나요?
+- 답: 외신은 검사·추적·격리라는 세 원칙을 배우려 했고, WEF 보고서는 탁월한 회복력으로 평가했습니다.
+- 다음 질문: 의료 성과는 병원 안에서만 나온 것일까요? 몸 자체는 어떻게 달라졌을까요?
+- **R0x 적용**: R06 ¶5–6 같은 항목 수치 비교(검사 소요 시간 몇 분)와 R07b ¶13–16 떡밥 회수 방식을 가져와, 구간 앞에서 던진 "병원 18회" 질문을 위기 대응이라는 새 사건으로 연결한다.
+- 나레이션 160초 / 클립 0초
+
+| 근거 | 발행처 | 종류 | 날짜 | 강도 | 확인 | 원문 인용 | URL |
+|---|---|---|---|---|---|---|---|
+| 가디언: 한국의 검사·추적·격리를 다른 나라가 배우려 한다 | The Guardian | news | 2020-04-23 | 4 | fulltext | _Other countries are now looking to South Korea and its three guiding principles on how to reign in the outbreak: test, trace and contain._ → 다른 나라들이 이제 한국과 그 세 가지 원칙, 곧 검사·추적·격리를 보며 확산을 억제하는 방법을 찾고 있다. | https://theguardian.com/world/2020/apr/23/test-trace-contain-how-south-korea-flattened-its-coronavirus-curve |
+| CNN: 드라이브스루 검사소, 차에서 내리지 않고 몇 분 만에 검사 | CNN | news | 2020-03-02 | 3 | fulltext | _At the drive-through, passengers and drivers go through the entire testing process in a matter of minutes without ever getting out of their cars._ → 드라이브스루에서는 승객과 운전자가 차에서 내리지 않고 몇 분 만에 검사 전 과정을 마친다. | https://cnn.com/2020/03/02/asia/coronavirus-drive-through-south-korea-hnk-intl |
+| WEF 2024 보고서: 한국 보건체계는 코로나 때 탁월한 회복력을 보였다 | World Economic Forum (PHSSR 한국 보고서) | report | 2024-09-01 | 3 | fulltext | _The Korean health system demonstrated extraordinary resilience during the COVID-19 pandemic, and various studies have hailed the Korean public health response as highly successful._ → 한국 보건체계는 코로나19 때 탁월한 회복력을 보였고, 여러 연구가 한국의 공중보건 대응을 크게 성공한 것으로 평가했다. | https://www3.weforum.org/docs/WEF_PHSSR_CAPRI_Korea_2024.pdf |
+| 샤오홍슈 댓글(중국 이용자): 한국에서는 구급차 부르는 데 돈이 안 든다 | 샤오홍슈(Xiaohongshu) 댓글 | comment | 2025-04-14 | 2 | fulltext | _在韩国叫急救车不要钱的_ → 한국에서는 구급차를 불러도 돈이 안 든다. | https://www.rednote.com/discovery/item/67fbed22000000001d02db8a?xsec_token=AB_d3n443oYppqVeuP52ZsXR0KChyyZQN0XzfpFCkyRJA=&xsec_source=pc_search |
+
+### 구간 7 · 몸이 달라졌다: 100년간 가장 크게 큰 사람들
+
+- 감정: 감동
+- 줄거리: eLife에 실린 NCD-RisC 연구는 200개국의 100년치 키를 분석해, 지난 100년간 성인 키가 가장 크게 늘어난 집단이 한국 여성(20.2cm)과 이란 남성(16.5cm)이라고 밝혔습니다. OECD 2025판은 채소 섭취율이 가장 높은 나라로 한국·호주·뉴질랜드를 꼽았고, 허혈성 심장질환 사망률이 인구 10만 명당 40명 미만인 나라에 한국을 넣었습니다. 러시아어 인스타그램 이용자는 한국의 산후조리원을 소개하며 "한국에서는 이게 당연하다"고 썼고, 샤오홍슈의 중국 유학생은 경북대병원 입원 중 주치의가 번역기로 끈기 있게 설명해 줬다고 적었습니다.
+- 반전: 세계에서 다섯 번째로 키가 작은 축에 있던 한국 여성이 100년 만에 세계에서 가장 큰 상위 3분의 1로 올라섰다. 이 모든 이야기의 출발점이다.
+- 질문: 이 모든 결과는 병원 밖의 삶과 어떻게 이어졌나요?
+- 답: 영양과 소득이 바뀐 몸, 채소를 많이 먹는 식탁, 낮은 심장질환 사망률, 그리고 출산부터 입원까지 환자를 대하는 방식이 함께 만든 결과입니다.
+- 다음 질문: 그렇다면 앞으로 한국 의료는 어디까지 갈까요?
+- **R0x 적용**: R01 ¶5 "~만의 문제가 아닙니다"처럼 시야를 병원에서 식탁·몸으로 넓히고(D03 결과에서 원인 역추적), R03 ¶7 현지 평가 → 의미 정리 구조로 외국 연구진·외국 이용자의 문장을 받아 감동 한 줄로 닫는다.
+- 나레이션 155초 / 클립 0초
+
+| 근거 | 발행처 | 종류 | 날짜 | 강도 | 확인 | 원문 인용 | URL |
+|---|---|---|---|---|---|---|---|
+| eLife/NCD-RisC: 100년간 키가 가장 많이 큰 집단은 한국 여성 +20.2cm | eLife (NCD Risk Factor Collaboration) | paper | 2016-07-26 | 4 | fulltext | _The largest gain in adult height over the past century has occurred in South Korean women and Iranian men, who became 20.2 cm (95% credible interval 17.5–22.7) and 16.5 cm (13.3–19.7) taller, respectively._ → 지난 100년간 성인 키가 가장 크게 늘어난 집단은 한국 여성과 이란 남성이며 각각 20.2cm, 16.5cm 커졌다. | https://pmc.ncbi.nlm.nih.gov/articles/PMC4961475 |
+| OECD 2025판: 채소 섭취율 한국·호주·뉴질랜드 95% 이상 | OECD (Health at a Glance 2025) | report | 2025-11-07 | 3 | fulltext | _Countries with the highest rates of vegetable consumption were Korea, Australia and New Zealand, all of which recorded rates above 95%_ → 채소 섭취율이 가장 높은 나라는 한국, 호주, 뉴질랜드이며 모두 95%를 넘었다. | https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf#page=92 |
+| OECD 2025판: 허혈성 심장질환 사망률 10만 명당 40명 미만인 나라에 한국 | OECD (Health at a Glance 2025) | report | 2025-11-07 | 3 | fulltext | _Mortality rates due to IHDs ranged from fewer than 40 deaths per 100 000 population in Luxembourg, the Netherlands, France, Japan and Korea_ → 허혈성 심장질환 사망률은 룩셈부르크, 네덜란드, 프랑스, 일본, 한국에서 인구 10만 명당 40명 미만이다. | https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf#page=66 |
+| 러시아어 인스타 릴스: 산후조리원, 출산 2주 요리·청소·야간 육아 없이 | 인스타그램 @ice.krmb (러시아어권) | comment | 2026-10-19 | 3 | fulltext | _2 недели после родов: я не готовлю, не убираю, не встаю ночью к ребёнку. В Корее это норма._ → 출산 후 2주: 요리도 청소도 하지 않고 밤에 아기 때문에 일어나지도 않는다. 한국에서는 이게 당연하다. | https://www.instagram.com/reel/DerZ6h_yGqF/ |
+| 샤오홍슈 게시글(중국 유학생): 경북대병원 입원, 주치의가 번역기로 끈기 있게 설명 | 샤오홍슈(Xiaohongshu) 게시글 | comment | 2026-10-09 | 3 | fulltext | _我的主治医师知道我是中国人…一直没有不耐烦，一遍一遍跟我解释_ → 내 주치의는 내가 중국인이라는 걸 알고도 줄곧 짜증 내지 않고 몇 번이고 설명해 줬다. | https://www.rednote.com/discovery/item/6ac8ecee000000001303fe7d?xsec_token=ABFyh1ZsUvPWrj_p-2fUBUANW7wsNngL9THSrXInPh-1E=&xsec_source=pc_search |
+
+### 구간 8 · 회수: 세계가 한국의 병원 문을 두드린다
+
+- 감정: 뿌듯함과 여운
+- 줄거리: OECD 2023판은 의료데이터 분석 준비도에서 덴마크 다음으로 한국을 꼽았고, OECD 2025판은 WHO 독감 접종 목표 75%를 넘긴 나라로 한국(85%)을 적었습니다. 처음 질문으로 돌아가면, 랜싯과 BBC는 한국 여성이 2030년 세계 최초로 평균 90세를 넘을 가능성을 계산했고 OECD는 한국인이 1년에 18번 병원을 간다고 적었습니다. 두 숫자는 한 이야기였습니다. 가까운 병원, 일찍 찾는 검진, 짧은 대기, 적게 쓰는 설계가 90세를 만들고, 이제 그 시스템을 보러 세계가 서울로 옵니다. 에자티 교수의 말처럼 한국은 많은 것을 제대로 해 왔습니다.
+- 질문: 처음의 두 숫자, 90세와 18번은 결국 무엇을 말하나요?
+- 답: 오래 사는 결과와 병원이 가까운 일상은 같은 시스템의 앞뒷면입니다.
+- 다음 질문: 당신은 마지막으로 건강검진을 받은 것이 언제입니까?
+- **R0x 적용**: R02 ¶17 회수(마지막은 외국 인물의 인용으로 끝) + R03 ¶6 훅 제목 회수 → 훅의 BBC·랜싯·OECD 세 인용을 다시 불러 "90세와 18번은 한 이야기"로 묶고 마지막 문장은 에자티 교수의 말로 닫는다.
+- 나레이션 155초 / 클립 0초
+
+| 근거 | 발행처 | 종류 | 날짜 | 강도 | 확인 | 원문 인용 | URL |
+|---|---|---|---|---|---|---|---|
+| OECD 2023판: 의료데이터 분석 준비도 덴마크 다음 한국 | OECD (Health at a Glance 2023) | report | 2023-11-07 | 3 | fulltext | _In this indicator, Denmark had the highest composite score, followed by Korea, Sweden, Finland and Latvia._ → 이 지표에서 종합 점수는 덴마크가 가장 높고 한국, 스웨덴, 핀란드, 라트비아가 뒤를 이었다. | https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/11/health-at-a-glance-2023_e04f8239/7a7afb35-en.pdf#page=43 |
+| OECD 2025판: WHO 독감 접종 목표 75%를 넘긴 나라는 한국(85%) 등 일부뿐 | OECD (Health at a Glance 2025) | report | 2025-11-07 | 3 | fulltext | _the WHO’s target influenza immunisation rate of 75% was only attained in Korea (85%), Mexico (83%), the United Kingdom and Denmark (78%) in 2023_ → WHO의 독감 예방접종 목표 75%를 2023년에 달성한 곳은 한국(85%), 멕시코(83%), 영국과 덴마크(78%)뿐이다. | https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/health-at-a-glance-2025_a894f72e/8f9e3f98-en.pdf#page=128 |
+
+## 마무리 (회수)
+
+- 회수: 처음에 던진 두 숫자, 랜싯·BBC의 90세와 OECD의 연 18번은 한 이야기였습니다. 가까운 병원과 일찍 찾는 검진이 만든 결과입니다.
+- 마지막 질문: 당신은 마지막으로 건강검진을 받은 것이 언제입니까?
+
+## 설계 시간표 (초 단위, 기본속도)
+
+| 구간 | 시작 | 길이 | 끝 |
+|---|---|---|---|
+| 훅 | 0 | 25 | 25 |
+| 1 결과 | 25 | 170 | 195 |
+| 2 원인 1 | 195 | 170 | 365 |
+| 3 원인 2 | 365 | 170 | 535 |
+| 4 반전 | 535 | 170 | 705 |
+| 5 원인 3 | 705 | 165 | 870 |
+| 6 위기 시험 | 870 | 160 | 1030 |
+| 7 몸이 달라졌다 | 1030 | 155 | 1185 |
+| 8 회수 | 1185 | 155 | 1340 |
+| 합계 | | | 1340 |
+
+## 사용 영상 표시
+
+영상 클립 없음 (claim 0건). used_marks 없음.
+
+## 비낭독 메모 (unverified — 낭독 금지)
+
+- OECD HaaG 2025/2023 PDF의 쪽 번호(#page=N)는 pdftotext로 확인한 PDF 쪽수이고, 같은 PDF의 서로 다른 쪽을 서로 다른 근거로 썼다(웹 챕터 페이지는 Cloudflare 403).
+- 랜싯 초록 페이지·Health Affairs·Gastroenterology 원문 페이지는 403이라 Europe PMC 초록 전문으로 읽었다(제목·초록·DOI 확인). 랜싯 본문 전체는 읽지 않음.
+- Kontis 논문 초록의 "90% 확률 86.7세 초과"와 가디언 기사의 "97%"가 다르다 → 논문 수치(90%)만 낭독에 사용.
+- 러시아 부부 영상은 한국 채널 「한국이 좋아서」(2026-10-07)가 러시아 원음에 한국어 자막을 붙인 편집본이다. 러시아어 자동자막(ASR)에서 한 문장만 인용했다(자막 04:15~04:19 두 줄에 걸친 문장을 이어 붙임). 같은 영상의 "지인 아버지 4기 암 10년 생존" 일화는 전해 들은 이야기라 쓰지 않음.
+- UPI 기고문은 서울의 전 경향신문 편집국장 Nohsok Choi의 칼럼이다. 발행처가 UPI(미국)여서 외국 근거로 분류했으나 필자는 한국인.
+- 스트레이츠 타임스 기사는 아시아뉴스네트워크가 코리아헤럴드 기사를 전재한 것(원 수치는 보건복지부) — 강도 3으로만 사용.
+- 샤오홍슈·인스타 항목은 repo(국뽕해외반응-중국SNS-20261103) 수집 파일에서 가져온 실제 게시물이며 열람 일자는 수집 기준(2026-11-02). 사용 권리 미확인.
+- 불리한 자료(낭독 제외): OECD 2025 자살률 한국 23.2/10만으로 OECD 최고, 주관적 건강 인식 하위, 항생제 처방량 최고 수준, 공공 보장률 약 60%, 외래 진료 시간이 짧다는 지적(코리아헤럴드), 2024년 전공의 이탈과 랜싯 "South Korean health-care system in crisis"(2024), 갑상선암 과잉진단 논쟁(NEJM 2014), 인구 고령화 속도 OECD 1위, 의대 졸업자 수 OECD 최저권.
+- BILI-155 상위 댓글(경희대병원 응급실 1시간 대기, 약 30만원)은 단점 반응이라 쓰지 않음. 영상 BV1i34y1D7z1·BV1Lp421U7N9는 호평이 약해 클립으로 쓰지 않음(corpus 전수 확인은 outline_26_BLOCKED_old_clip-shortage.md).
+- 최강코리아 영상(fUp5fugtNfg, 2026-10-07)의 미국·영국인 인터뷰는 영어 원음 자동자막이 깨져 인용하지 않음.

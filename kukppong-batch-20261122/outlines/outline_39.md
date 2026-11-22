@@ -1,0 +1,209 @@
+# 아웃라인 39번 — 할리우드가 한국 드라마의 원작과 대본을 가져가는 이유 — 16부작, 첫 작품 작가, 웹툰, 그리고 중국 창작자가 부러워한 한국의 제작 방식
+
+- 분야: K-드라마·웹툰·OTT 제작 모델 (스토리텔링·제작 구조)
+- 주전개: D03 (결과에서 원인 역추적) / 보조: D05, D02 (D05 외국인 반응 모자이크, D02 질문–답 사다리)
+- 설계 길이: 기본속도 1350초 = 1.2배속 1125초(18분 45초) · 나레이션 1350초 · 영상 클립 0초
+- 25번(소프트파워 지수)과의 차이: 순위·시상식이 아니라 **제작 구조(16부작·작가·웹툰 원작·신인 길)**를 따라 원인을 거슬러 올라가는 전개
+- 대본·TTS는 만들지 않음(아웃라인만)
+
+## 훅 (약 30초)
+
+**선언:** 디즈니는 한국 드라마를 미국 드라마와 같은 점수표로 고르고, 넷플릭스는 한국 변호사 드라마의 영어판을 만들고, 웹툰 회사는 할리우드에서 한국 원작으로 영어 작품을 만들고 있습니다. 원작과 대본을 가져가는 쪽이 이제는 할리우드입니다.
+
+| # | 매체 | 인용(한국어) | 원문 | URL |
+|---|---|---|---|---|
+| 1 | The Hollywood Reporter(미국) | 한국 시장은 이제 충분히 성숙해서, 미국 콘텐츠를 평가하는 것과 똑같은 항목으로 평가해야 한다고 생각합니다. (디즈니 국제 오리지널 부문 부사장 존 왁스) | The Korean market is mature enough now, clearly, that I think you really have to judge it on all the same points that you would judge U.S. content | https://hollywoodreporter.com/movies/movie-news/disney-the-remarried-empress-has-substance-spectacle-1236726072 |
+| 2 | Deadline(미국) | 넷플릭스가 자사 최대 해외 포맷 중 하나인 한국 히트 시리즈 '이상한 변호사 우영우'의 영어판을 개발하고 있다. | Netflix is developing an English-language adaptation of one of its biggest international formats, the hit South Korean series Extraordinary Attorney Woo | https://deadline.com/2025/07/extraordinary-attorney-woo-remake-leila-gerstein-netflix-1236466160 |
+| 3 | Variety(미국) | 이제 미국 쪽에서 영어로 만드는, 웹툰 IP 기반의 할리우드 제작을 수많은 파트너와 함께 진행하고 있습니다. (웹툰 엔터테인먼트 대표 김용수) | now we are working on so many Hollywood productions on the U.S. side with all the partners making English-speaking, Hollywood-based, Webtoon-IP-based adaptations | https://variety.com/2026/tv/news/the-remarried-empress-webtoon-tv-movie-adaptations-1236940354 |
+
+**첫 질문(30초 안):** 할리우드는 한국 드라마의 무엇을 가져가고 싶어 하는 걸까요?
+
+## 8구간 한눈에
+
+| 구간 | 제목 | 감정 | 질문 → 답 → 다음 질문 | 나레이션(초) |
+|---|---|---|---|---|
+| 1 | 결과 — 할리우드가 먼저 가져간 한국 이야기 | 놀람 | **Q** 한국 드라마가 할리우드의 점수표로 평가받는다는 말은 구체적으로 어떤 일일까요?<br>**A** 디즈니가 미국 콘텐츠와 같은 항목으로 고르고, 미국 방송사가 한 번 각색해 성공했고, 넷플릭스와 웹툰 회사가 영어판을 만드는 일입니다.<br>**다음 Q** 그런데 이 흐름의 출발점은 10년 동안 거절당한 대본 한 편이었습니다. 그 대본은 왜 거절당했고 어떻게 풀렸을까요? | 175 |
+| 2 | 거절 두 번 — 영화 대본이 시리즈가 된 길 | 통쾌함과 뭉클함 | **Q** 10년 동안 거절당한 대본이 어떻게 넷플릭스 역대 1위 시리즈가 됐을까요?<br>**A** 웹툰이 커지는 시기에 영화를 시리즈로 바꿨고, 영어로 만들어야 한다는 통념을 넘어섰고, 제작비는 회당 240만 달러 수준이었습니다.<br>**다음 Q** 같은 돈과 시간을 쓰는 방식, 즉 부작 수와 연출 구조는 할리우드와 어떻게 달랐을까요? | 170 |
+| 3 | 끝이 정해진 이야기 — 16부작이 할리우드에서 협상 조건이 되다 | 호기심과 감탄 | **Q** 16부작이라는 틀이 할리우드에서 왜 협상 조건이 됐을까요?<br>**A** 끝이 정해진 짧은 구성은 배우에게도 작가에게도 이야기를 끝까지 책임지는 구조이고, 그 구조에서 나온 작품이 미국 TV 1위를 했기 때문입니다.<br>**다음 Q** 틀이 같다고 이야기가 좋아지지는 않습니다. 중국 창작자들은 한국 작품의 어떤 점을 부러워했을까요? | 170 |
+| 4 | 작가의 눈 — 외국 창작자들이 직접 짚은 한국 이야기의 힘 | 감탄과 공감 | **Q** 외국 창작자와 시청자는 한국 드라마의 무엇을 배우라고 했을까요?<br>**A** 화려한 설정이 아니라 가난한 사람을 직접 본 사람의 눈으로 쓰는 대본, 디테일의 출처, 컷을 아끼지 않는 연출입니다.<br>**다음 Q** 그렇다면 한국 작품을 직접 따라 만든 현지 리메이크는 어떻게 평가됐을까요? | 175 |
+| 5 | 중국 거울 — 따라 만든 쪽이 직접 적은 차이 | 인정과 여운 | **Q** 한국 작품을 따라 만든 현지 리메이크와 현지 드라마는 어떻게 평가됐을까요?<br>**A** 중국 시청자들이 직접 원작의 디테일과 컷과 음악을 짚으며 차이를 적었고, 칼럼은 한국 로맨스의 손기술에 높은 점수를 줬습니다.<br>**다음 Q** 이 이야기들의 출발점인 웹툰은 어떻게 드라마의 원작 공급처가 됐을까요? | 165 |
+| 6 | 원작 공급처 — 웹툰이 대본 가뭄의 보험에서 할리우드의 원작이 되기까지 | 발견의 즐거움 | **Q** 웹툰은 어떻게 한국 드라마의 출발점이자 할리우드의 원작이 됐을까요?<br>**A** 대본 작가가 부족한 업계가 검증된 이야기를 보험으로 썼고, 그 검증된 원작과 신인 작가·감독의 길이 이제 할리우드의 눈에 들어왔기 때문입니다.<br>**다음 Q** 이렇게 쌓인 흐름은 숫자로는 얼마나 큰 걸까요? | 165 |
+| 7 | 숫자 — 한 번의 폭발이 아니라 더 높아진 바닥 | 확신 | **Q** 그 흐름은 한 번의 폭발이었을까요, 더 높은 바닥이었을까요?<br>**A** 오징어 게임 직후의 급등이 가라앉은 뒤에도 한국 드라마는 이전보다 높은 비중을 유지했고, 현지 시청자가 사랑한 작품이 세계로 가는 구조가 숫자로 남았습니다.<br>**다음 Q** 그렇다면 이 모든 것을 묶으면 처음의 질문에 어떤 답이 될까요? | 165 |
+| 8 | 회수 — 캐릭터의 여정, 10년의 대본, 16부의 60년 | 뭉클한 확신 | **Q** 그래서 할리우드는 한국 드라마의 무엇을 가져가고 있었을까요?<br>**A** 원작과 대본뿐 아니라 끝이 정해진 구조, 사람을 직접 본 눈으로 쓰는 이야기, 신인에게 열린 길이라는 제작 방식 전체입니다.<br>**다음 Q** 다음에 할리우드가 가져갈 한국 이야기는 무엇일까요? | 165 |
+
+## 구간 1 · 결과 — 할리우드가 먼저 가져간 한국 이야기
+
+- 감정: 놀람
+- 줄거리: 디즈니 국제 오리지널 부문 부사장 존 왁스는 부산에서 한국 시장이 충분히 성숙해서 미국 콘텐츠와 같은 항목으로 따져야 한다고 말했고, 그 기준의 핵심으로 '캐릭터의 여정'을 꼽았습니다. 이 흐름은 오늘 시작된 것이 아닙니다. 버라이어티는 2019년 인터뷰 기사에서 그때까지 한국 작품 가운데 미국 시장에서 성공적으로 각색된 사례가 없었다고 적었습니다. 그 뒤 한국 '굿 닥터'를 각색한 미국 ABC 드라마가 시즌의 히트작이 됐다고 할리우드 리포터는 전했습니다. 지금은 데드라인이 넷플릭스의 '이상한 변호사 우영우' 영어판 개발을 보도하며 굿 닥터를 비교 대상으로 들었고, 버라이어티는 웹툰 엔터테인먼트가 디즈니+·훌루에 '재혼 황후'를 내놓으며 미국 쪽 영어 제작을 늘린다고 전합니다. 첫 각색, 전체 TV 1위, 영어판, 웹툰 원작 영어 제작 순으로 한 칸씩 올라가는 계단입니다.
+- 질문: 한국 드라마가 할리우드의 점수표로 평가받는다는 말은 구체적으로 어떤 일일까요?
+- 답: 디즈니가 미국 콘텐츠와 같은 항목으로 고르고, 미국 방송사가 한 번 각색해 성공했고, 넷플릭스와 웹툰 회사가 영어판을 만드는 일입니다.
+- 다음 질문: 그런데 이 흐름의 출발점은 10년 동안 거절당한 대본 한 편이었습니다. 그 대본은 왜 거절당했고 어떻게 풀렸을까요?
+- 나레이션 175초 / 클립 0초
+- **R0x 적용:** R01 ¶1 '숫자 계단'(결과 먼저 → 작품 → 순위를 '그리고'로 한 칸씩 올림)을 '미국 방송사의 첫 각색 → 전체 TV 1위 → 넷플릭스 영어판 → 웹툰 원작 영어 제작' 순서에 적용한다. R02 ¶1 '지각 변동' 같은 결과 선언 → 훅 선언문. R07b ¶12 훅에서 던진 떡밥을 뒤 구간에서 차례로 회수하는 틀(D03 결과에서 원인 역추적)의 출발점.
+
+| 강도 | 종류 | 발행처 | 날짜 | 근거 | 원문 인용 | 한국어 | URL / repo_ref |
+|---|---|---|---|---|---|---|---|
+| 5 | news | The Hollywood Reporter(미국) | 2026-10-09 | 디즈니 국제 오리지널 부문 부사장이 한국 드라마를 미국 콘텐츠와 같은 항목으로 평가해야 한다며 꼽은 조건 | It has to have a good character journey. | (좋은 외형만으로는 충분하지 않고) 좋은 캐릭터의 여정이 있어야 합니다. | https://hollywoodreporter.com/movies/movie-news/disney-the-remarried-empress-has-substance-spectacle-1236726072 |
+| 5 | news | Deadline(미국) | 2025-07-23 | 넷플릭스가 우영우 영어판을 개발하며 굿 닥터를 비교 대상으로 든 데드라인 보도 | A comp for the show would be medical drama The Good Doctor, which had a similar premise. That series also achieved popularity in South Korea before being adapted into a hit stateside. | 이 작품의 비교 대상은 비슷한 설정의 의학 드라마 굿 닥터다. 그 시리즈도 한국에서 인기를 얻은 뒤 미국에서 각색돼 히트했다. | https://deadline.com/2025/07/extraordinary-attorney-woo-remake-leila-gerstein-netflix-1236466160 |
+| 4 | news | Variety(미국) | 2019-01-24 | 미국 에이전트·제작자 인터뷰: 한국 작품 각색은 굿 닥터가 첫 성공 사례 | Negotiations for the property were extensive, because no South Korean property had been successfully adapted for the U.S. market. | 그 작품(굿 닥터)의 협상은 길었다. 한국 작품 중 미국 시장용으로 성공적으로 각색된 것이 한 편도 없었기 때문이다. | https://variety.com/2019/tv/features/maniac-good-doctor-euphoria-wallander-cross-territory-television-1203111266 |
+| 4 | news | Variety(미국) | 2026-11-05 | 재혼 황후 공개와 웹툰 엔터테인먼트의 미국 제작 확대를 전한 버라이어티 기사 | Following sold-out preview screenings at the Busan International Film Festival and the release of the show’s trailer surpassing 13 million views in the first 48 hours on YouTube and social media platforms, Webtoon worked with Disney+ and Hulu to get “The Remarried Empress” adaptation to audiences sooner. | 부산국제영화제 시사회 매진과 예고편 48시간 1,300만 조회 뒤, 웹툰 측은 디즈니+·훌루와 함께 '재혼 황후' 공개를 하루 앞당겼다. | https://variety.com/2026/tv/news/the-remarried-empress-webtoon-tv-movie-adaptations-1236940354 |
+
+## 구간 2 · 거절 두 번 — 영화 대본이 시리즈가 된 길
+
+- 감정: 통쾌함과 뭉클함
+- 줄거리: 황동혁 감독은 2008년에 쓴 영화 대본이 너무 비현실적이고 폭력적이라 상업성이 없다는 말을 들었다고 할리우드 리포터에 밝혔습니다. 대본에 매달리다 돈이 떨어져 접었고, 2018년 한국에서 웹툰이 커지는 것을 보고 영화를 시리즈로 다시 짰습니다. 막 한국에서 사업을 시작한 넷플릭스가 때가 맞다고 보고 승인했고, 감독은 10년 뒤 '그 이야기는 실제로 매우 현실적'이라는 말을 들었다고 합니다. 데드라인 인터뷰에서 감독은 20년 전 미국 유학 때는 유명 감독이 되려면 영어로 만들어야 한다는 것이 황금률이었지만 지금은 그렇게 생각하지 않는다고 말했습니다. 데드라인이 블룸버그 보도를 인용해 전한 넷플릭스 내부 문서는 9부작 제작비를 2,140만 달러, 회당 약 240만 달러로 추정했고, 작품의 영향 가치를 8억 9,110만 달러로 계산했습니다.
+- 질문: 10년 동안 거절당한 대본이 어떻게 넷플릭스 역대 1위 시리즈가 됐을까요?
+- 답: 웹툰이 커지는 시기에 영화를 시리즈로 바꿨고, 영어로 만들어야 한다는 통념을 넘어섰고, 제작비는 회당 240만 달러 수준이었습니다.
+- 다음 질문: 같은 돈과 시간을 쓰는 방식, 즉 부작 수와 연출 구조는 할리우드와 어떻게 달랐을까요?
+- 나레이션 170초 / 클립 0초
+- **R0x 적용:** R03 ¶3-5 '장애 → 해소 → 장애 → 해소' 사다리(허가 거부 → 팬 저항 → 토네이도 → 파란 하늘)를 '영화 대본 거절 → 웹툰 붐과 시리즈 개편 → 영어로 만들어야 한다는 통념 → 비영어 1위'에 적용한다. R03 ¶1·¶6 훅 제목 회수 방식으로 구간 끝에서 '10년'과 '비현실적'이라는 단어를 되받는다. R07b ¶16 '눈물에는 아픈 사연이 있었습니다' 식 사연 소개(D10 인물의 선택·대가·변화).
+
+| 강도 | 종류 | 발행처 | 날짜 | 근거 | 원문 인용 | 한국어 | URL / repo_ref |
+|---|---|---|---|---|---|---|---|
+| 5 | news | Deadline(미국) | 2022-08-14 | 오징어 게임 감독이 데드라인에 밝힌 미국 유학 시절의 통념과 현재의 생각 | people really thought that in order to become a famous director and a creator, you had to make a show in English for people around the world to be able to watch it | (20년 전 미국에서는) 유명 감독이 되려면 전 세계가 볼 수 있게 영어로 만들어야 한다고 모두 믿었다. | http://deadline.com/2022/08/squid-game-hwang-dong-hyuk-interview-1235089065 |
+| 5 | news | The Hollywood Reporter(미국) | 2021-11-19 | 오징어 게임 대본이 2008년 거절당하고 2018년 웹툰 붐 속에서 시리즈로 바뀐 과정 | Thirteen years ago, the South Korean filmmaker was told his script (at the time feature-length) was too unrealistic and violent to be commercially viable. | 13년 전 그는 (당시 장편 영화였던) 대본이 너무 비현실적이고 폭력적이라 상업적으로 성립하기 어렵다는 말을 들었다. | https://hollywoodreporter.com/tv/tv-features/squid-game-creator-hwang-dong-hyuk-series-development-1235049995 |
+| 5 | news | Deadline(미국, 블룸버그 보도 인용) | 2021-10-17 | 블룸버그가 본 넷플릭스 내부 문서: 오징어 게임 제작비와 영향 가치 | According to the internal document, figures estimate the show cost Netflix $21.4 million to produce, about $2.4 million per episode. | 내부 문서에 따르면 이 시리즈의 제작비는 넷플릭스에 2,140만 달러, 회당 약 240만 달러로 추정된다. | https://deadline.com/2021/10/squid-game-netflix-generate-900-million-value-1234857378 |
+
+## 구간 3 · 끝이 정해진 이야기 — 16부작이 할리우드에서 협상 조건이 되다
+
+- 감정: 호기심과 감탄
+- 줄거리: 형식도 달랐습니다. 학술지 코리아 유럽 리뷰는 한국 드라마가 시즌제가 아닌 미니시리즈이고 표준이 16부작인 반면 미국은 약 22부작이며, 한국은 같은 작가와 연출이 전 회차를 맡고 미국은 회차별로 팀이 나뉜다고 정리합니다. 이 차이는 할리우드에서도 협상 카드가 됐습니다. 소니는 '굿 닥터' 주연 프레디 하이모어에게 22부 대신 18부로 줄인 조건을 내밀고서야 승낙을 받았고, 이 드라마는 10월 16일 방송분이 7일 DVR 포함 평균 1,790만 시청자로 빅뱅 이론을 제치고 모든 TV 시리즈 가운데 1위에 올랐다고 할리우드 리포터는 적었습니다. 중국 환구시보는 《폭싹 속았수다》가 60년의 시간과 3대의 이야기를 16부에 압축하면서 회상 나레이션과 장면 전환으로 시간선을 오가는 방식으로 이야기가 끊기지 않게 했고 더우반 9.4점을 받았다고 분석했습니다.
+- 질문: 16부작이라는 틀이 할리우드에서 왜 협상 조건이 됐을까요?
+- 답: 끝이 정해진 짧은 구성은 배우에게도 작가에게도 이야기를 끝까지 책임지는 구조이고, 그 구조에서 나온 작품이 미국 TV 1위를 했기 때문입니다.
+- 다음 질문: 틀이 같다고 이야기가 좋아지지는 않습니다. 중국 창작자들은 한국 작품의 어떤 점을 부러워했을까요?
+- 나레이션 170초 / 클립 0초
+- **R0x 적용:** R06 ¶5-6 '같은 항목 수치 비교(24초 대 1분 4초 → 40초 차이)'를 '16부 대 22부, 연출 일관 대 팀 교대, 18부 조건'의 같은 항목 나란히 비교로 적용한다. R05 ¶4 현장 인물의 비유 자리에 하이모어의 18부 합의를 넣는다. R04 ¶2-3 '구체적으로 살펴보겠습니다' 뒤 처음 상황으로 되돌아가는 구성을 이 구간의 시작에 쓴다.
+
+| 강도 | 종류 | 발행처 | 날짜 | 근거 | 원문 인용 | 한국어 | URL / repo_ref |
+|---|---|---|---|---|---|---|---|
+| 5 | news | The Hollywood Reporter(미국) | 2017-11-11 | 굿 닥터 각색: 22부 대신 18부 조건과 전체 TV 1위 | It wasn’t until Sony came back to Highmore — who at that time was “exhausted” from his work on Bates Motel — with a reduced commitment of 18 vs. 22 episodes that he agreed to do it. | 소니가 22부 대신 18부로 줄인 조건을 들고 다시 찾아간 뒤에야, '베이츠 모텔'로 지쳐 있던 하이모어가 출연하기로 했다. | https://www.hollywoodreporter.com/tv/tv-news/how-abcs-good-doctor-became-seasons-breakout-1056331/ |
+| 4 | paper | Korea Europe Review(학술지, 저자 소속 KBS) | 2025-12-23 | 한국과 미국 드라마 제작 체계 비교표(부작 수·연출 책임)를 담은 학술지 논문 | The standard number of episodes per season is typically 16 in Korea, compared to approximately 22 in the U.S. Korean writers and directors generally oversee all episodes uniformly, whereas in the U.S., different teams handle individual episodes. | 시즌당 표준 회차는 한국이 보통 16부, 미국이 약 22부다. 한국은 작가와 연출이 대체로 전 회차를 일관되게 맡고, 미국은 회차별로 팀이 나뉜다. | https://korea-europe-review.org/index.php/ker/article/download/67/72 |
+| 4 | news | 环球时报(新浪财经 전재, 중국) | 2025-03-27 | 중국 환구시보가 폭싹 속았수다의 60년·3대 이야기를 16부에 담는 구성을 분석 | 对于年代剧而言，要将60年的时间跨度、三代人的故事浓缩到16集的篇幅中，难度不小。 | 시대극으로서 60년의 시간과 3대의 이야기를 16부에 압축하는 일은 쉽지 않다. | https://finance.sina.com.cn/jjxw/2025-03-27/doc-inerachv8224231.shtml <br>`repo:국뽕해외반응-중국SNS-20261103/data/한국_확장__한국_중국언론.tsv#35` |
+
+## 구간 4 · 작가의 눈 — 외국 창작자들이 직접 짚은 한국 이야기의 힘
+
+- 감정: 감탄과 공감
+- 줄거리: 중국 샤오훙슈 창작자 '哥谭剧场'은 '중국 드라마는 한국 드라마 좀 배워라'는 영상(좋아요 1만 3천)에서 한국 작가들은 가난한 사람을 자기가 본 사람들 이야기로 쓰고 디테일마다 출처가 있다고 말합니다. 같은 영상에서 이 창작자는 두 작품 연속 시청률이 안 나오면 시장에서 밀려나는 고압 환경이 창작자를 삶에 뿌리내리게 만든다고 설명합니다. 다른 샤오훙슈 창작자 ROJER大魔王은 한국 작가가 밑바닥 사람들에 대한 존중과 공감을 유지하고 고통을 미화하지도 영웅화하지도 않는다고 평합니다. 스탠퍼드 코리아 프로그램의 신기욱 소장은 알자지라에 한국이 사람들이 관심 갖는 주제를 시청자가 계속 보게 만드는 방식으로 이야기하는 데 능숙해졌다고 말했습니다. BBC에서 '응답하라 1988' 작가 이우정은 처음에는 한국 시청자만 생각하고 썼는데 세계가 공감했다고 말했고, 빌리빌리에서는 중국 시청자들이 한국 드라마는 근경·원경·크레인 컷까지 다 찍는다, 중국 감독은 카메라 언어로 분위기를 잘 만들지 않는다는 댓글을 남겼습니다.
+- 질문: 외국 창작자와 시청자는 한국 드라마의 무엇을 배우라고 했을까요?
+- 답: 화려한 설정이 아니라 가난한 사람을 직접 본 사람의 눈으로 쓰는 대본, 디테일의 출처, 컷을 아끼지 않는 연출입니다.
+- 다음 질문: 그렇다면 한국 작품을 직접 따라 만든 현지 리메이크는 어떻게 평가됐을까요?
+- 반전: 중국 창작자들이 한국에서 배워 가라고 꼽은 것은 화려한 설정이 아니라 가난한 사람을 그리는 눈이었습니다.
+- 나레이션 175초 / 클립 0초
+- **R0x 적용:** R02 ¶10-11 '제3국(중국)의 눈으로 자국작과 한국작을 나란히 놓고 → 평론가 한마디'를 중국 창작자 두 명과 빌리빌리 댓글 원문에 적용한다. R05 ¶12-16 '제3국 사람이 직접 자기 쪽을 낮추고 한국을 인정하는 원음'(대만 방송)을 중국 창작자의 '배워라' 영상으로 옮긴다. R01 ¶9-11 원음을 길게 쓰고 내레이션이 '라고 했습니다'로 정리하는 방식.
+
+| 강도 | 종류 | 발행처 | 날짜 | 근거 | 원문 인용 | 한국어 | URL / repo_ref |
+|---|---|---|---|---|---|---|---|
+| 4 | video | Xiaohongshu 영상 · 哥谭剧场(중국) | 2026-09-20 | 샤오훙슈 창작자 哥谭剧场(중국)의 영상 '중국 드라마는 한국 드라마 좀 배워라'(좋아요 1.3만) | 他们写穷人写的是自己见过的人 写的是自己体验过的生活 每一个细节都有来时路 | 그들은 가난한 사람을 자기가 본 사람들 이야기로 쓰고, 자기가 겪은 삶을 쓰니 디테일마다 출처가 있어요. | https://www.rednote.com/discovery/item/6aaf4698000000002b000270 <br>`repo:국뽕해외반응-중국SNS-20261103/script/data/XHS-292.script.tsv#rows87-89` |
+| 4 | video | Xiaohongshu 영상 · ROJER大魔王(중국) | 2026-08-22 | 샤오훙슈 창작자 ROJER大魔王(중국)의 영상 '한국 드라마 작가는 평범한 사람의 존재를 허락한다'(좋아요 9,600) | 而韩剧编剧始终保持着对底层群体的尊重与共情 不美化苦难不神化 | 한국 드라마 작가는 늘 밑바닥 계층에 대한 존중과 공감을 유지하고, 고통을 미화하지도 영웅화하지도 않아요. | https://www.rednote.com/discovery/item/6a886eb70000000023012b0f <br>`repo:국뽕해외반응-중국SNS-20261103/script/data/XHS-293.script.tsv#rows82-83` |
+| 4 | news | Al Jazeera(카타르) | 2023-05-23 | 스탠퍼드 코리아 프로그램 소장이 알자지라에 설명한 K드라마 성공의 중심 | Korea has gotten good at telling stories about topics people care about in ways that grab viewers’ attention and keep them hooked. | 한국은 사람들이 관심을 갖는 주제를, 시청자의 주의를 붙잡고 계속 보게 만드는 방식으로 이야기하는 데 능숙해졌다. | https://aljazeera.com/features/2023/5/23/will-the-korean-drama-wave-rise-higher |
+| 4 | news | BBC(영국) | 2025-11-13 | 응답하라 1988 작가가 BBC에 밝힌 집필 당시의 대상 시청자와 세계의 반응 | I only expected this series to be loved in Korea. Seeing it resonate with global audiences made me realise that everyone around the world has similar perspectives, after all. | 이 시리즈가 한국에서만 사랑받을 줄 알았다. 세계 관객이 공감하는 것을 보고, 결국 모든 사람의 관점이 비슷하다는 걸 깨달았다. | https://bbc.co.uk/culture/article/20251112-the-tv-masterpiece-that-sparked-the-k-drama-boom |
+| 4 | comment | Bilibili 댓글(중국) | 2025-05-30 | 빌리빌리 《봄밤》 영상미 분석 영상의 인기 댓글(좋아요 1,523) | 看了up主的视频，我才发觉，国产电视剧的导演很少用镜头语言来塑造氛围，太单调了 | 이 영상을 보고서야 중국 드라마 감독들은 카메라 언어로 분위기를 잘 안 만든다는 걸 알았다. 너무 단조롭다. | https://www.bilibili.com/video/BV19W7nzuEwB <br>`repo:국뽕해외반응-중국SNS-20261103/data/드라마_OTT_예능__드라마OTT_댓글.tsv#B275 rank3` |
+| 4 | comment | Bilibili 댓글(중국) | 2025-03-01 | 빌리빌리 '한국 드라마와 중국 드라마의 달리기 장면 비교' 영상의 인기 댓글(좋아요 846) | 韩剧切了多少镜头，近景远景，固定机位，摇臂，细节全身全拍了。 | 한국 드라마는 컷을 얼마나 나눠 찍었는지, 근경·원경·고정 카메라·크레인·디테일·전신까지 다 찍었다. | https://www.bilibili.com/video/BV1Pk9uYyErg <br>`repo:국뽕해외반응-중국SNS-20261103/data/드라마_OTT_예능__드라마OTT_댓글.tsv#B276 rank2` |
+
+## 구간 5 · 중국 거울 — 따라 만든 쪽이 직접 적은 차이
+
+- 감정: 인정과 여운
+- 줄거리: 중국 텐센트뉴스의 한 칼럼은 《사랑을 어떻게 번역하나요》가 방영 보름 만에 더우반 약 5만 명이 평가해 8.5점을 받았다고 전하며, 한국 드라마가 현대 로맨스를 '디저트'처럼 가볍게 만들면서도 손기술로 천 겹의 맛을 낸다고 평했고 '중국 현대극에 한 방 먹였다'고 표현했습니다. 빌리빌리에서 '나의 아저씨'를 중국에서 다시 만든 판과 한국 원작을 나란히 놓은 영상에는 리메이크가 원작의 감동적인 디테일을 어떻게 이렇게 덜어냈는지 모르겠다는 댓글이, 다른 비교 영상에는 원작은 버리는 컷이 없고 음악도 부드럽다는 댓글이 달렸습니다. 샤오훙슈 게시물에는 중국 드라마가 우리가 진짜 사는 철문 달린 판자촌을 찍을 수 있겠느냐는 댓글이 2,674개의 좋아요를 받았습니다.
+- 질문: 한국 작품을 따라 만든 현지 리메이크와 현지 드라마는 어떻게 평가됐을까요?
+- 답: 중국 시청자들이 직접 원작의 디테일과 컷과 음악을 짚으며 차이를 적었고, 칼럼은 한국 로맨스의 손기술에 높은 점수를 줬습니다.
+- 다음 질문: 이 이야기들의 출발점인 웹툰은 어떻게 드라마의 원작 공급처가 됐을까요?
+- 반전: 한국 작품을 따라 만든 현지 리메이크가 오히려 원작을 돋보이게 했다고 중국 시청자들이 직접 적었습니다.
+- 나레이션 165초 / 클립 0초
+- **R0x 적용:** R02 ¶9-11 '이유가 있습니다 → 자국작의 한계 → 중국 평론가의 평가'를 텐센트뉴스 칼럼과 빌리빌리 댓글로 적용한다. R07a ¶6-8 중국 팬이 한국과 자국을 나란히 놓고 하는 자조('심지어 일본 대표팀보다 더 잘했다')를 중국 시청자 댓글로 옮긴다. R05 ¶15 '단점 인정 → 상쇄' 자리에는 불리한 자료를 넣지 않고 JSON unverified에 둔다.
+
+| 강도 | 종류 | 발행처 | 날짜 | 근거 | 원문 인용 | 한국어 | URL / repo_ref |
+|---|---|---|---|---|---|---|---|
+| 3 | news | 腾讯新闻(중국) | 2026-01-30 | 텐센트뉴스 칼럼: 사랑을 어떻게 번역하나요의 더우반 평점과 '국산 현대극에 한 방' | 隔壁韩剧《爱情如何翻译》却在中国又火了一次——播出半月豆瓣近五万人评价，给出8.5的高分 | 이웃 한드 《사랑을 어떻게 번역하나요》가 중국에서 또 떴다. 방영 보름 만에 더우반 약 5만 명이 평가해 8.5점을 줬다. | https://news.qq.com/rain/a/20260130A07BB800 <br>`repo:국뽕해외반응-중국SNS-20261103/data/한국_확장__한국_중국언론.tsv#33` |
+| 3 | comment | Bilibili 댓글(중국) | 2026-01-28 | 빌리빌리 '나의 아저씨' 중·한 두 버전 비교 영상의 댓글(좋아요 140) | 至今仍不知道，翻拍怎么做到把原版这么多打动人的细节优化掉的… | 리메이크가 어떻게 원작의 감동적인 디테일을 이렇게 많이 덜어낼 수 있었는지 아직도 모르겠다… | https://www.bilibili.com/video/BV1fBzXByERq <br>`repo:국뽕해외반응-중국SNS-20261103/data/드라마_OTT_예능__드라마OTT_댓글.tsv#B270 rank5` |
+| 3 | comment | Bilibili 댓글(중국) | 2026-01-11 | 빌리빌리 중·한 두 버전 비교 영상의 댓글(좋아요 51) | 原版没废镜头啊，配乐也很温柔 | 원작은 버리는 컷이 없고 음악도 부드럽다. | https://www.bilibili.com/video/BV1yt6fBzEzV <br>`repo:국뽕해외반응-중국SNS-20261103/data/드라마_OTT_예능__드라마OTT_댓글.tsv#B271 rank4` |
+| 3 | comment | Xiaohongshu 게시물·댓글(중국) | 2026-10-18 | 샤오훙슈 '중국 드라마 속 가난한 사람은 넓은 집에 사는데 한국 드라마는…' 게시물(좋아요 1.9만)의 댓글(2,674) | 国产剧敢拍我们真的住的那些铁门城中村吗 | 중국 드라마가 우리가 진짜 사는 철문 달린 판자촌을 찍을 수 있겠나. | https://www.rednote.com/discovery/item/6ad4027700000000290139fe <br>`repo:국뽕해외반응-중국SNS-20261103/data/XHS_한국반응_수집_전체.csv#279 (XHS-291)` |
+
+## 구간 6 · 원작 공급처 — 웹툰이 대본 가뭄의 보험에서 할리우드의 원작이 되기까지
+
+- 감정: 발견의 즐거움
+- 줄거리: 2019년 국제커뮤니케이션저널 논문은 웹툰 원작 드라마 제작이 늘어난 산업적 이유를 제작 관계자 인터뷰로 정리했습니다. 상위 작가 풀이 한정돼 있고, 웹툰을 쓰면 평범한 작가의 오리지널 대본에만 기대는 위험이 줄며, 편성 때 제안의 카드가 된다는 것입니다. 이 보험이 이제 할리우드의 원작 공급처가 됐습니다. 버라이어티에 따르면 '나 혼자만 레벨업' 웹툰은 누적 조회 143억 회를 쌓았고 애니메이션은 2025 크런치롤 어워즈 9개 부문을 휩쓸었으며 넷플릭스가 실사 시리즈를 제작 중입니다. 워너브라더스 애니메이션과 웹툰 엔터테인먼트는 웹툰 10편을 공동 제작하기로 했고, 원작 창작자가 IP를 소유하며 수익을 나눠 받는다고 합니다. 넷플릭스 공동 CEO 테드 사란도스는 2022년부터 2025년 사이 한국 넷플릭스 작품 다섯 편 중 한 편이 첫 작품 작가나 감독에게서 나올 것이라고 밝혔습니다.
+- 질문: 웹툰은 어떻게 한국 드라마의 출발점이자 할리우드의 원작이 됐을까요?
+- 답: 대본 작가가 부족한 업계가 검증된 이야기를 보험으로 썼고, 그 검증된 원작과 신인 작가·감독의 길이 이제 할리우드의 눈에 들어왔기 때문입니다.
+- 다음 질문: 이렇게 쌓인 흐름은 숫자로는 얼마나 큰 걸까요?
+- 반전: 웹툰 원작 선택은 대본 작가 부족과 편성 위험을 줄이려는 업계의 보험이었는데, 지금은 할리우드가 같은 원작을 가져가기 시작했습니다.
+- 나레이션 165초 / 클립 0초
+- **R0x 적용:** R04 ¶2-3 '~처럼 알려졌지만 → 반대 해석'과 '구체적으로 살펴보겠습니다' 되돌림을 '웹툰은 대본 가뭄의 보험이라는 업계 계산 → 이제 할리우드가 같은 원작을 산다'에 적용한다. R07b ¶13-16 훅의 떡밥(거절 이유)을 순서대로 회수하는 틀. R06 ¶38 '예전 기대와 지금 질문 대비'를 쓴다.
+
+| 강도 | 종류 | 발행처 | 날짜 | 근거 | 원문 인용 | 한국어 | URL / repo_ref |
+|---|---|---|---|---|---|---|---|
+| 3 | paper | International Journal of Communication(미국, 저자 고려대) | 2019-05-01 | 웹툰 원작 TV 드라마가 늘어난 산업적 이유를 제작 관계자 인터뷰로 분석한 논문 | Using webtoons reduces the risk of relying solely on a mediocre writer’s original drama script. | 웹툰을 쓰면 평범한 작가의 오리지널 대본에만 의존하는 위험이 줄어든다. | https://ijoc.org/index.php/ijoc/article/download/10010/2651/38136 |
+| 3 | news | Variety(미국) | 2025-07-09 | 나 혼자만 레벨업 웹툰과 넷플릭스 실사 시리즈 제작 | The series is based on the record-breaking webtoon that has amassed 14.3 billion cumulative views worldwide since its KakaoPage debut | 이 시리즈는 카카오페이지 연재 이후 전 세계 누적 조회 143억 회를 쌓은 기록적인 웹툰을 원작으로 한다. | https://variety.com/2025/tv/news/solo-leveling-live-action-series-netflix-byeon-woo-seok-1236450500 |
+| 3 | news | Variety(미국) | 2025-11-12 | 워너브라더스 애니메이션과 웹툰 엔터테인먼트의 웹툰 10편 공동 제작 | The creators of the original Webtoon webcomics own the IP and, under their agreements with the company, will receive a share of revenue generated from the animation projects | 웹툰 원작 창작자가 IP를 소유하며, 회사와의 계약에 따라 애니메이션 프로젝트에서 나오는 수익의 일부를 받는다. | https://variety.com/2025/digital/news/webtoon-warner-bros-animation-webcomic-adaptations-1236573981 |
+| 3 | news | The Hollywood Reporter(미국) | 2023-06-22 | 넷플릭스 공동 CEO가 한국에서 밝힌 신인 작가·감독 비중 | Between 2022 and 2025, one in five Netflix titles in Korea will have come from a first-time writer or director | 2022년부터 2025년 사이 한국의 넷플릭스 작품 다섯 편 중 한 편은 첫 작품을 만드는 작가나 감독에게서 나올 것이다. | https://hollywoodreporter.com/movies/movie-news/netflix-ted-sarandos-korean-content-success-challenges-1235521499 |
+
+## 구간 7 · 숫자 — 한 번의 폭발이 아니라 더 높아진 바닥
+
+- 감정: 확신
+- 줄거리: 숫자는 이 흐름을 받쳐 줍니다. 파롯 애널리틱스는 2021년 4분기 이후 한국 드라마가 넷플릭스 전 세계 구독 매출에 34억 달러를 기여한 것으로 추정합니다. 오징어 게임 이전 2%에 못 미치던 비중이 이후 평균 3%를 넘는 수준에서 자리를 잡았고, 유럽·중동·아프리카에서는 2024년 3분기 3.7%까지 올랐습니다. CNBC가 인용한 파롯 자료에서 아시아어 콘텐츠의 세계 수요 비중은 2020년 1분기 약 15%에서 2023년 1분기 25%로 올랐고, 넷플릭스 한국 콘텐츠 부사장 돈 강은 한국 시청자가 사랑한 작품은 세계 시청자도 사랑할 가능성이 매우 높다는 것을 거듭 확인했다고 말했습니다. 옴디아는 2024년 상반기 넷플릭스 비영어 시청의 8.71%가 한국어였다고 분석했고, 넷플릭스 보고서는 2023년 하반기 한국어가 시청의 9%로 영어 밖에서 가장 큰 비중을 차지했다고 밝혔습니다.
+- 질문: 그 흐름은 한 번의 폭발이었을까요, 더 높은 바닥이었을까요?
+- 답: 오징어 게임 직후의 급등이 가라앉은 뒤에도 한국 드라마는 이전보다 높은 비중을 유지했고, 현지 시청자가 사랑한 작품이 세계로 가는 구조가 숫자로 남았습니다.
+- 다음 질문: 그렇다면 이 모든 것을 묶으면 처음의 질문에 어떤 답이 될까요?
+- 반전: 오징어 게임 이전 2%에 못 미치던 한국 드라마의 구독 매출 기여가 이후 3%를 넘는 수준에서 유지돼, 일시적 폭발이 아니라 더 높은 바닥이 됐습니다.
+- 나레이션 165초 / 클립 0초
+- **R0x 적용:** R01 ¶16 '더 놀라운 사실이 있습니다 → 한 칸 위 숫자'를 구독 매출 2% → 3% → 3.7% → 수요 25% → 시청 9% 계단에 적용한다. R06 ¶38 '이제는 오히려 …라는 질문이 나오고 있습니다' 역전을 '폭발인가 바닥인가'에 적용한다. R04 ¶7-8 금액 비교 → '자세히 보면' 다음 단서.
+
+| 강도 | 종류 | 발행처 | 날짜 | 근거 | 원문 인용 | 한국어 | URL / repo_ref |
+|---|---|---|---|---|---|---|---|
+| 3 | report | Parrot Analytics(미국 데이터 기업) | 2024-12-01 | 파롯 애널리틱스: 오징어 게임 이후 한국 드라마가 넷플릭스 구독 매출에 기여한 추정액 | Parrot Analytics’ Streaming Economics system estimates that since Q4 2021 (the quarter after “Squid Game” premiered) Korean dramas have been responsible for $3.4 billion in subscriber revenue for Netflix globally. | 파롯 애널리틱스의 스트리밍 이코노믹스 시스템은 2021년 4분기(오징어 게임 직후 분기) 이후 한국 드라마가 넷플릭스 전 세계 구독 매출 34억 달러를 낳은 것으로 추정한다. | https://parrotanalytics.com/insights/global-value-k-dramas-netflix-squid-game |
+| 3 | news | CNBC(미국) | 2023-05-28 | CNBC가 인용한 파롯 자료: 아시아어 콘텐츠 세계 수요 비중 | The share of global demand for Asian language content reached 25% in the first quarter of this year, up from about 15% in the same period in 2020, according to data provider Parrot Analytics. | 파롯 애널리틱스에 따르면 아시아어 콘텐츠의 세계 수요 비중은 올해 1분기 25%로, 2020년 같은 기간 약 15%에서 올랐다. | https://cnbc.com/2023/05/28/squid-game-eeao-global-demand-for-streaming-asian-movies-tv-grows.html |
+| 3 | report | Omdia(영국 리서치 기업, PR Newswire) | 2024-10-18 | 옴디아: 넷플릭스 비영어 시청에서 한국어 비중 | Korean shows now account for 8.71% of all non-English language content consumption on the platform, with Spanish-language content following closely at 7.11%. | 이제 한국 드라마는 플랫폼 비영어 콘텐츠 소비 전체의 8.71%를 차지하고, 스페인어 콘텐츠가 7.11%로 바짝 뒤따른다. | https://prnewswire.com/news-releases/omdia-korean-and-spanish-content-dominate-netflixs-non-english-viewing-capturing-16-of-global-viewing-302280272.html |
+| 3 | stat | Netflix(미국) | 2024-05-23 | 넷플릭스 'What We Watched' 2023년 하반기 보고서 | Korean (9% of viewing), Spanish (7%) and Japanese (5%) language stories captured the biggest share of viewing outside of English. | 한국어(시청의 9%), 스페인어(7%), 일본어(5%) 이야기가 영어 밖에서 가장 큰 시청 비중을 차지했다. | https://about.netflix.com/news/what-we-watched-the-second-half-of-2023 |
+
+## 구간 8 · 회수 — 캐릭터의 여정, 10년의 대본, 16부의 60년
+
+- 감정: 뭉클한 확신
+- 줄거리: 넷플릭스는 2026년 상반기 보고서에서 상반기 시청 상위 10개 시리즈에 한국의 'I Will Find You'(6,400만)와 'Teach You a Lesson'(4,800만)이 모두 공개 한 달이 안 돼 들어갔다고 밝혔습니다. 한국의 스튜디오 드래곤이 2020년 스카이댄스 TV와 '호텔 델루나' 공동 개발에 나선 것은 한국 스튜디오가 미국 제작사와 대본 있는 프로그램을 함께 개발하는 첫 사례로 할리우드 리포터에 기록됐고, 애플TV+ '파친코'는 할리우드에 아시아 중심 콘텐츠가 불어나는 흐름의 한 장면으로 소개됐습니다. 처음의 질문으로 돌아가면, 왁스가 말한 '캐릭터의 여정'은 중국 창작자들이 말한 '가난한 사람을 직접 본 눈', 황동혁 감독이 10년을 품은 대본, 16부 안에 60년을 넣는 구조와 이어집니다. 한국 드라마가 할리우드의 점수표 앞에 선 것이 아니라, 할리우드가 한국의 제작 방식을 자기 시장의 언어로 옮기고 있다는 이야기입니다.
+- 질문: 그래서 할리우드는 한국 드라마의 무엇을 가져가고 있었을까요?
+- 답: 원작과 대본뿐 아니라 끝이 정해진 구조, 사람을 직접 본 눈으로 쓰는 이야기, 신인에게 열린 길이라는 제작 방식 전체입니다.
+- 다음 질문: 다음에 할리우드가 가져갈 한국 이야기는 무엇일까요?
+- 나레이션 165초 / 클립 0초
+- **R0x 적용:** R02 ¶17·R03 ¶21 훅 회수(외국 인물의 인용으로 끝냄)를 왁스의 '캐릭터의 여정'과 황동혁의 '10년'으로 되받는다. R01 ¶12 '시대가 됐습니다' 중간 회수 문장을 변주해 마지막 정리에 쓴다. R03 ¶22·R06 ¶44 마지막 펀치라인(외국인 인용 한 줄)을 외국 매체 인용 하나로 닫는다.
+
+| 강도 | 종류 | 발행처 | 날짜 | 근거 | 원문 인용 | 한국어 | URL / repo_ref |
+|---|---|---|---|---|---|---|---|
+| 4 | stat | Netflix(미국) | 2026-07-16 | 넷플릭스 'What We Watched' 2026년 상반기 보고서 | Five of the top 10 most-watched shows premiered in the first half of this year, with I Will Find You (64M) and Teach You a Lesson (48M) from South Korea both reaching the top 10 less than a month after their releases. | 올해 상반기 시청 상위 10개 시리즈 중 다섯 편이 상반기에 공개됐고, 한국의 'I Will Find You'(6,400만)와 'Teach You a Lesson'(4,800만)은 공개 한 달이 안 돼 상위 10위에 들었다. | https://about.netflix.com/news/what-we-watched-the-first-half-of-2026 |
+| 3 | news | The Hollywood Reporter(미국) | 2020-06-23 | 스카이댄스 TV와 스튜디오 드래곤의 호텔 델루나 공동 개발(2020) | Studio Dragon recently set up a branch in the United States and is the first Korean studio to team with a U.S. production company to develop scripted programming. | 스튜디오 드래곤은 최근 미국 지사를 세웠고, 미국 제작사와 손잡고 대본 있는 프로그램을 개발하는 첫 한국 스튜디오다. | https://hollywoodreporter.com/tv/tv-news/parasite-producer-skydance-tv-team-k-drama-adaptation-1299948 |
+| 2 | news | The Hollywood Reporter(미국) | 2022-03-17 | 애플TV+ 파친코 제작진이 말한 아시아 이야기의 할리우드 확산 | Pachinko joins the recent swell of Asian-focused content in Hollywood | 파친코는 할리우드에서 최근 불어난 아시아 중심 콘텐츠의 물결에 합류한다. | https://hollywoodreporter.com/tv/tv-news/pachinko-apple-red-carpet-premiere-1235114056 |
+
+## 마무리
+
+- 회수: 처음의 질문, 할리우드는 한국 드라마의 무엇을 가져가고 싶어 하는가에 대한 답은 원작과 대본에서 시작해 16부의 구조, 가난한 사람을 직접 본 눈으로 쓰는 이야기, 신인에게 열린 길까지 이어집니다.
+- 마지막 질문: 다음에 할리우드가 가져갈 한국 이야기는 무엇일까요?
+
+## 근거 집계
+
+- 총 31개 · fulltext 31개 · 외국 발행처 30개
+- 종류: {'news': 18, 'paper': 2, 'video': 2, 'comment': 5, 'report': 2, 'stat': 2}
+- 1~4구간 평균 강도 4.38, 5~8구간 3.00
+
+## 설계 시간표(초, 설계값)
+
+| 구간 | 나레이션 | 클립 | 누적 |
+|---|---|---|---|
+| 1 table | 175 | 0 | 175 |
+| 2 origin | 170 | 0 | 345 |
+| 3 structure | 170 | 0 | 515 |
+| 4 writers | 175 | 0 | 690 |
+| 5 mirror | 165 | 0 | 855 |
+| 6 webtoon | 165 | 0 | 1020 |
+| 7 numbers | 165 | 0 | 1185 |
+| 8 callback | 165 | 0 | 1350 |
+| 합계 | 1350 | 0 | 기본속도 1350초 → 1.2배속 1125초 |
+
+## unverified (낭독 제외 메모)
+
+- 불리한 자료(낭독 제외): 알자지라는 넷플릭스가 한국 작품 IP를 전부 가져가 제작사 보상이 수익에 못 미친다는 한국 연구진 지적을 함께 실었고, LA 타임스(2023-06-28)는 미국 작가 파업 시점에 한국 노동 조건 문제를 다뤘다. IJOC 2019 논문 본문에 웹툰 원작 사용의 한계 논의가 있고, 같은 학술지의 'Netflix and Platform Imperialism' 논문은 넷플릭스 의존 문제를 다룬다. 찬양 흐름과 어긋나 본문에서 제외.
+- 텐센트뉴스(QQ) 칼럼 후반은 넷플릭스 알고리즘 때문에 한국 로맨스의 본토 색이 옅어졌다고 비판한다. 도입부의 더우반 8.5점과 '손기술' 평가만 인용했고 비판부는 쓰지 않았다.
+- CNBC 2023 기사: 한국어 TV 수요 증가가 일본어·중국어보다 정체됐다는 대목, 아시아어 콘텐츠 공급이 수요보다 4.7% 많다는 대목은 제외.
+- Variety 2017 'Korean Dramas Adopt Pre-Produced Format to Mixed Results'(사전제작 성과 엇갈림), Fincher '오징어 게임' 미국 스핀오프 보류 보도는 제외.
+- Korea Europe Review 논문: 저자 소속 KBS, 학술지 발행 주체가 유럽 기관인지 미확인 → foreign:false로 표기(외국 비중 계산에서 보수적으로 처리). 표의 16부 대 22부는 논문 본문(2025-12 게재).
+- Parrot Analytics 인사이트 페이지: 게재일이 페이지에 없어 2024-12-01로 근사 표기(본문이 2024년 3분기 수치까지 다루고 오징어 게임 시즌2 공개 전을 가리킴). 낭독 시 연도만 말한다.
+- 샤오훙슈 영상 XHS-292·293의 ASR 자막에 오인식(예: '竞拍编剧')이 있어 깨끗한 행(rows 87-89, 82-83, 91-92)만 인용. 작성자 국적은 '중국인(추정)'.
+- 빌리빌리 B275 댓글은 《봄밤》 영상미 분석 영상에 달린 것으로, 드라마 자체는 2019년 한국 작품. B270·B271은 나의 아저씨(한국 원작)와 중국 리메이크 비교 영상의 댓글이며 B282(꿀알바) 댓글 중 '용두사미' 평은 제외.
+- 꿀알바·백일의 거짓말류 해외 반응은 '구조'만 참고(R01 ¶6 할리우드 비교 예고, R02 ¶10-11 중국 평론가 비교). 해당 작품 자체의 반응은 이 각도(제작 모델)와 달라 인용하지 않음.
+- 25번(소프트파워 지수) 사용 URL과 겹치지 않음: 25번은 Brand Finance·칸·아카데미·에미·BFI·Guardian·NBC·Deadline(2023 Sarandos)·BBC business·V&A·Duolingo 계열. 이 아웃라인은 THR/Deadline 개별 기사·IJOC·Korea Europe Review·샤오훙슈·빌리빌리 중심.

@@ -1,0 +1,494 @@
+{
+ "no": "30",
+ "title": "경고문에서 명단까지 — 원조를 받던 나라가 공여국 클럽과 선진국 명단에 오른 길, 세계은행·이코노미스트·UNCTAD의 기록",
+ "field": "경제·개발 (원조 수혜국→공여국, UNCTAD 2021, OECD DAC)",
+ "main_dev": "D02",
+ "sub_dev": [
+  "D01",
+  "D08"
+ ],
+ "hook": {
+  "type": "B",
+  "declaration_ko": "세계은행은 1960년대 초 한국 경제의 근본적 약점을 경고했습니다. 이코노미스트는 훗날 한국을 원조받던 나라가 한 사람의 일생 안에 부자가 된 유일한 나라라고 적었습니다.",
+  "first_question_ko": "경고문을 받던 나라는 어떻게 원조하는 나라의 명단에 이름을 올렸습니까?",
+  "quotes": [
+   {
+    "publisher": "The Economist",
+    "quote_ko": "한국은 많은 개발 원조를 받던 나라에서 한 사람의 일생 안에 부자 나라가 된, 지금까지 유일한 나라다.",
+    "quote_original": "South Korea is the only country that has so far managed to go from being the recipient of a lot of development aid to being rich within a working life.",
+    "url": "https://web.archive.org/web/20120110154323/http:/www.economist.com/node/21538104"
+   },
+   {
+    "publisher": "The Christian Science Monitor",
+    "quote_ko": "오늘날 한국은 주요 원조 수혜국에서 주요 공여국으로 탈바꿈한 세계 유일의 나라다.",
+    "quote_original": "Today, South Korea is the world's only nation that has transformed itself from major recipient of foreign aid to major donor",
+    "url": "https://www.csmonitor.com/World/Asia-Pacific/2013/0519/South-Korea-The-little-dynamo-that-sneaked-up-on-the-world"
+   },
+   {
+    "publisher": "세계은행(World Bank)",
+    "quote_ko": "한국의 놀라운 여정은 많은 개발도상국에 영감을 주는 사례이며 본받을 가치가 있다.",
+    "quote_original": "Korea's remarkable journey is an inspirational example to many developing countries, and worth emulating.",
+    "url": "https://blogs.worldbank.org/en/eastasiapacific/aid-recipient-donor-korea-inspirational-development-path"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "no": 1,
+   "key": "warning",
+   "label": "세계은행이 경고했던 나라",
+   "emotion": "의외 → 경이",
+   "story_ko": "1960년대 초 세계은행은 한국 경제의 약점이 고질적이라고 경고했습니다. 같은 세계은행이 2021년에는 한국의 길을 \"본받을 만하다\"고 씁니다. 이코노미스트는 원조를 받던 나라가 한 사람의 일생 안에 부자가 된 유일한 사례라고 적었습니다. 경고문과 찬사 사이의 60년이 이 영상의 뼈대입니다.",
+   "question": "세계은행은 한국을 어떻게 보았고, 지금은 어떻게 말합니까?",
+   "answer": "1960년대 초에는 경제의 근본적 약점을 경고했고, 지금은 본받을 사례라고 부릅니다. 이코노미스트는 일생 안에 부자가 된 유일한 나라라고 적었습니다.",
+   "next_question": "그 경고가 나온 때 한국은 도대체 얼마나 가난했습니까?",
+   "narration_sec": 150,
+   "facts": [
+    {
+     "text": "1955년 한국이 IBRD에 가입했을 때 인구의 60% 이상이 극빈층이었고, 해외 원조가 예산의 약 90%와 수입의 70% 이상을 댔다. 세계은행 스스로 1960년대 초 한국 경제의 약점을 경고했다고 적는다.",
+     "publisher": "세계은행(World Bank) · Axel van Trotsenburg",
+     "foreign": true,
+     "kind": "report",
+     "date": "2015-06-08",
+     "url": "https://blogs.worldbank.org/eastasiapacific/korea-and-world-bank-group-life-starts-60",
+     "quote_original": "No one can claim to have forseen such a success story, including the World Bank, which warned in the early 1960s of \"the intractable nature of Korea's basic economic weakness.\"",
+     "quote_ko": "그런 성공을 예견한 사람은 아무도 없었다. 1960년대 초 \"한국 경제의 근본적 약점이 고질적\"이라고 경고했던 세계은행 자신도 마찬가지다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "이코노미스트 특집: 1960년 한국은 소득이 아프리카 최빈 지역 수준이었고, 2011년 말에는 1인당 GDP(구매력 기준) 31,750달러로 EU 평균 31,550달러를 넘어선다고 적었다. 중국·대만·싱가포르보다 가난한 나라가 따라 하기 좋은 모델이라는 평가도 담겼다.",
+     "publisher": "The Economist",
+     "foreign": true,
+     "kind": "news",
+     "date": "2011-11-12",
+     "url": "https://web.archive.org/web/20120110154323/http:/www.economist.com/node/21538104",
+     "quote_original": "South Korea is the only country that has so far managed to go from being the recipient of a lot of development aid to being rich within a working life.",
+     "quote_ko": "한국은 많은 개발 원조를 받던 나라에서 한 사람의 일생 안에 부자 나라가 된, 지금까지 유일한 나라다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "1962년 IDA 철도 차관 1,400만 달러에서 출발해 1인당 GDP가 1960년 158달러에서 2020년 31,489달러로 올랐고, 2009년 DAC에 들어간 첫 수혜국이 됐다고 세계은행이 정리했다.",
+     "publisher": "세계은행(World Bank) · Ferro·Nishio",
+     "foreign": true,
+     "kind": "report",
+     "date": "2021-12-02",
+     "url": "https://blogs.worldbank.org/en/eastasiapacific/aid-recipient-donor-korea-inspirational-development-path",
+     "quote_original": "Korea's remarkable journey is an inspirational example to many developing countries, and worth emulating.",
+     "quote_ko": "한국의 놀라운 여정은 많은 개발도상국에 영감을 주는 사례이며 본받을 가치가 있다.",
+     "verified": "fulltext",
+     "strength": 5
+    }
+   ],
+   "application": "R03 ¶1 현지 기사 제목·출처로 시작 → 여기서는 외신 문장 3개를 맨 앞에 세운다 / R05 ¶1 유명한 것 나열 뒤 \"따로 있었다\" → 경고문과 찬사의 대비로 호기심 유발(훅·배경)",
+   "clip_sec": 0,
+   "clips": []
+  },
+  {
+   "no": 2,
+   "key": "poverty",
+   "label": "소득 64달러, 예산의 90%가 원조",
+   "emotion": "충격 → 연민",
+   "story_ko": "가디언은 전쟁 뒤 한국의 1인당 소득을 64달러로 적었습니다. 세계은행은 1955년 가입 당시 원조가 예산의 약 90%를 댔다고 정리합니다. WFP는 1945년부터 1999년까지 23개 사업, 약 1억 450만 달러를 지원했고, 제주 일주도로 167km가 그 가운데 하나였습니다. 미국 연구소는 한국이 받은 무상·차관을 오늘 달러로 440억 달러로 계산합니다.",
+   "question": "원조 수혜국 한국은 구체적으로 어느 정도였습니까?",
+   "answer": "소득 64달러, 예산의 90%를 원조가 댄 나라였습니다. 국제기구는 도로·홍수 방지·밀가루로 한국을 도왔습니다.",
+   "next_question": "그 원조를 받은 나라는 많은데, 한국만 무엇이 달랐습니까?",
+   "narration_sec": 170,
+   "facts": [
+    {
+     "text": "WFP는 1945~1999년 한국에 23개 사업, 약 1억 450만 달러를 지원했다. 제주 일주도로 167km(1965~66), 홍수 방지, 밀가루 배급 같은 사업이었고, 2018년에는 한국이 쌀 5만 톤(4,250만 달러)을 시리아·예멘·케냐 등에 보냈다.",
+     "publisher": "유엔 세계식량계획(WFP)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2018-01-18",
+     "url": "https://www.wfp.org/stories/how-did-korea-go-receiving-wfps-help-becoming-one-its-top-20-donors",
+     "quote_original": "Within just one generation, the Republic of Korea has transformed from being a recipient to a donor, and has contributed generously to WFP, becoming one of our top 20 donors",
+     "quote_ko": "불과 한 세대 만에 한국은 수혜국에서 공여국으로 바뀌었고, WFP에 후하게 기여해 상위 20대 공여국이 되었다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "부산 원조효과 고위급 포럼 현장 기사. 미국이 1946~1978년 한국에 준 원조(약 600억 달러)와 같은 기간 아프리카 전체에 준 원조(689억 달러)를 나란히 놓고, 한국이 그 원조를 허비하지 않았다고 평가했다.",
+     "publisher": "The Guardian · Mark Tran",
+     "foreign": true,
+     "kind": "news",
+     "date": "2011-11-28",
+     "url": "https://www.theguardian.com/global-development/poverty-matters/2011/nov/28/south-korea-development-model",
+     "quote_original": "After the Korean war, South Korea was one of the world's poorest countries with only $64 per capita income.",
+     "quote_ko": "한국전쟁 뒤 한국은 1인당 소득이 64달러뿐인 세계 최빈국의 하나였다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "1960년대 1인당 소득 100달러 미만이던 나라가 2016년에는 2만 5천 달러를 넘었다. 2000년 공식 수혜국 명단에서 빠졌고 2009년 DAC에 공여국으로 가입했다고 정리했다.",
+     "publisher": "Korea Economic Institute of America · Jenna Gibson",
+     "foreign": true,
+     "kind": "news",
+     "date": "2016-04-01",
+     "url": "https://keia.org/analysis/the-korea-international-cooperation-agency-turns-25",
+     "quote_original": "South Korea accepted $44 billion in grants and loans throughout its development process (1945-1999)",
+     "quote_ko": "오늘의 달러로 환산하면 한국은 발전 과정(1945~1999) 동안 440억 달러의 무상·차관을 받아들였다.",
+     "verified": "fulltext",
+     "strength": 3
+    }
+   ],
+   "application": "R01 ¶1 숫자 계단(하루→3일→86개국)처럼 64달러→예산 90%→440억 달러로 숫자를 한 칸씩 키움 / R03 ¶3 \"특별했던 이유\" → 이유 문장 뒤 다음 구간이 답을 연다(배경·질문)",
+   "clip_sec": 0,
+   "clips": []
+  },
+  {
+   "no": 3,
+   "key": "choice",
+   "label": "원조를 끊겠다는 압박과 수출 전환",
+   "emotion": "긴장 → 통쾌",
+   "story_ko": "다트머스대 더글러스 어윈의 NBER 논문은 1960년 수출이 GDP의 1%였고 수입 능력이 거의 전부 미국 원조에 달려 있었다고 적습니다. 미국이 원조를 쥐고 환율 개혁을 압박했고, 한국은 1964년 수출 진흥에 확고히 매달려 원조 의존을 끝내기로 합니다. 10년이 끝날 무렵 수출은 GDP의 10%를 넘었습니다. 로드릭은 그 바탕에 교육 수준 높은 노동력이 있었다고 설명합니다.",
+   "question": "원조를 받던 한국은 어떤 선택으로 길을 바꿨습니까?",
+   "answer": "원조 의존을 끝내기 위해 수출 진흥을 택했고, 높은 교육 수준이 그 투자를 받쳤습니다. 세계은행은 이를 동아시아 기적의 특징으로 정리했습니다.",
+   "next_question": "그 선택은 한 세대 뒤 세계의 제도 안에서 어떤 이름표를 얻었습니까?",
+   "reversal": "원조를 끊겠다는 압박이 한국에는 수출 국가로 가는 문이 되었다.",
+   "narration_sec": 170,
+   "facts": [
+    {
+     "text": "논문 초록: 1960년 수출은 GDP의 약 1%였고 수입 능력은 거의 전적으로 미국 원조에 달려 있었다. 1960년대 중반 환율·무역 정책을 바꾸자 10년이 끝날 무렵 수출이 GDP의 10%를 넘었다. 본문은 1960년대 초 한국을 \"실패 국가로 여겨질 뻔한 나라\"로 묘사한다.",
+     "publisher": "NBER 워킹페이퍼 · Douglas Irwin(다트머스)",
+     "foreign": true,
+     "kind": "paper",
+     "date": "2021-09-01",
+     "url": "https://nber.org/system/files/working_papers/w29299/w29299.pdf",
+     "quote_original": "in 1964 it became firmly committed to an export promotion strategy to boost foreign exchange earnings and end its dependence on American aid.",
+     "quote_ko": "1964년 한국은 외화 수입을 늘리고 미국 원조 의존을 끝내기 위해 수출 진흥 전략에 확고히 매달리게 되었다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "로드릭은 한국·대만 성장의 열쇠가 수출 지향 하나가 아니라 투자 붐이었다고 본다. 높은 교육 수준과 소득·부의 평등이 정부 정책을 뒷받침했다고 설명한다.",
+     "publisher": "NBER 워킹페이퍼 · Dani Rodrik(하버드)",
+     "foreign": true,
+     "kind": "paper",
+     "date": "1994-12-01",
+     "url": "https://www.nber.org/papers/w4964",
+     "quote_original": "In the early 1960s both economies had an extremely well-educated labor force relative to their physical capital stock, rendering the latent return to capital quite high.",
+     "quote_ko": "1960년대 초 두 경제는 물적 자본에 비해 노동력의 교육 수준이 매우 높았고, 그래서 자본의 잠재 수익률이 아주 높았다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "세계은행 1993년 보고서는 1965~1990년 동아시아 23개 경제가 다른 어느 지역보다 빨리 성장했고, 한국이 포함된 8개 고성과 경제가 그 성과의 대부분을 만들었다고 정리했다.",
+     "publisher": "세계은행 『The East Asian Miracle』",
+     "foreign": true,
+     "kind": "report",
+     "date": "1993-09-01",
+     "url": "https://documents1.worldbank.org/curated/en/322361469672160172/pdf/123510v20PUB0r00Box371943B00PUBLIC0.pdf",
+     "quote_original": "Rapid growth and improving equity are the defining characteristics of the East Asian miracle",
+     "quote_ko": "빠른 성장과 개선되는 형평성이 동아시아 기적을 규정하는 특징이다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "유엔대학 연구소 논문은 1960년대 이전 한국과 가나가 1인당 GDP가 비슷한 수준이었다고 전제하고, 원조를 국가 건설에 성공적으로 쓴 사례로 한국을 분석한다.",
+     "publisher": "UNU-WIDER 워킹페이퍼 · Jiyoung Kim",
+     "foreign": true,
+     "kind": "paper",
+     "date": "2013-11-01",
+     "url": "https://wider.unu.edu/sites/default/files/WP2013-121.pdf",
+     "quote_original": "South Korea achieved rapid economic development and democracy in one generation",
+     "quote_ko": "한국은 한 세대 안에 빠른 경제 발전과 민주주의를 이루었다.",
+     "verified": "fulltext",
+     "strength": 4
+    }
+   ],
+   "application": "R03 ¶4–5 장애 두 번(허가 거부→해소→토네이도→해소) → 원조 압박(장애)→수출 전환(해소)→교육·투자(두 번째 해소) / R07b 결과에서 원인 역추적",
+   "clip_sec": 0,
+   "clips": []
+  },
+  {
+   "no": 4,
+   "key": "dac",
+   "label": "원조 위원회에 앉은 첫 수혜국",
+   "emotion": "감동 → 자부",
+   "story_ko": "OECD가 생긴 1961년 한국은 원조를 받는 나라였습니다. 그 한국이 개발원조위원회에 공여국으로 들어갔고, 브루킹스는 OECD 출범 이래 첫 사례라고 적었습니다. 세계은행도 수혜국이었던 나라 가운데 처음이라고 씁니다. 미국 일간지 크리스천 사이언스 모니터는 주요 수혜국에서 주요 공여국으로 탈바꿈한 세계 유일의 나라라고 보도했습니다.",
+   "question": "원조를 받던 나라가 원조하는 클럽에 들어간 일은 얼마나 드문 일입니까?",
+   "answer": "세계은행·브루킹스·미국 일간지가 모두 첫 사례, 또는 유일한 사례로 적었습니다.",
+   "next_question": "클럽 가입 12년 뒤, 유엔 무역 기구는 한국을 어느 그룹에 올렸습니까?",
+   "reversal": "경고문을 받던 나라가 원조 명부의 반대편 자리에 앉았다.",
+   "narration_sec": 170,
+   "facts": [
+    {
+     "text": "세계은행 한국 페이지(열람일 2026-11-22): 1인당 GNI 1950년대 초 67달러에서 2024년 36,624달러. \"개발 역사에서 가장 놀라운 변화 중 하나\"라고 소개한다.",
+     "publisher": "세계은행 한국 국가 개요",
+     "foreign": true,
+     "kind": "report",
+     "date": "2026-11-22",
+     "url": "https://www.worldbank.org/ext/en/country/korea",
+     "quote_original": "in 2010 became the first former aid recipient to join the OECD Development Assistance Committee",
+     "quote_ko": "2010년 원조 수혜국이었던 나라 가운데 처음으로 OECD 개발원조위원회에 들어갔다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "미국 일간지 장기 르포. 쌀이 사치품이던 시절의 퇴역 장성 회고와 강남 거리 풍경을 대비해 \"세상에 몰래 다가온 나라\"라는 제목을 달았다.",
+     "publisher": "The Christian Science Monitor",
+     "foreign": true,
+     "kind": "news",
+     "date": "2013-05-19",
+     "url": "https://www.csmonitor.com/World/Asia-Pacific/2013/0519/South-Korea-The-little-dynamo-that-sneaked-up-on-the-world",
+     "quote_original": "Today, South Korea is the world's only nation that has transformed itself from major recipient of foreign aid to major donor",
+     "quote_ko": "오늘날 한국은 주요 원조 수혜국에서 주요 공여국으로 탈바꿈한 세계 유일의 나라다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "브루킹스 기고: 1950~60년대 1인당 소득은 100달러 미만, 오늘날 가장 가난한 남아시아·아프리카 나라 수준이었다. 1996년 OECD, 2009년 11월 DAC 가입.",
+     "publisher": "Brookings Institution · Kongdan Oh",
+     "foreign": true,
+     "kind": "news",
+     "date": "2010-06-14",
+     "url": "https://www.brookings.edu/articles/koreas-path-from-poverty-to-philanthropy/",
+     "quote_original": "Korea was the first case since OECD's birth in 1961 that an OECD member transformed its status from recipient to donor.",
+     "quote_ko": "한국은 1961년 OECD가 생긴 이래 회원국이 수혜국에서 공여국으로 지위를 바꾼 첫 사례였다.",
+     "verified": "fulltext",
+     "strength": 3
+    }
+   ],
+   "application": "R02 ¶3 \"~못할 것이라고 했습니다 → 하지만\" 예상 뒤집기 → 1960년대 경고(구간 1)를 DAC 가입으로 회수 / R01 ¶16 \"더 놀라운 사실\" → 한 칸 위 정보(수혜국→공여국 클럽)",
+   "clip_sec": 0,
+   "clips": []
+  },
+  {
+   "no": 5,
+   "key": "unctad",
+   "label": "UNCTAD가 옮긴 그룹",
+   "emotion": "경이 → 확인",
+   "story_ko": "2021년 7월 제네바에서 UNCTAD 무역개발이사회가 한국을 개발도상국이 속한 A그룹에서 선진국 B그룹으로 옮겼습니다. 연합뉴스는 1964년 설립 이래 처음이라고 보도했습니다. 2026년 10월 UNCTAD 사무국 문서에서도 한국은 List B 명단에 있습니다. UNCTAD 통계 허브는 선진 경제 명단에 한국을 일본·호주와 나란히 적습니다.",
+   "question": "유엔은 한국을 공식적으로 어느 쪽에 분류합니까?",
+   "answer": "UNCTAD 문서에서 한국은 B그룹, 통계 허브에서는 선진 경제입니다. 2021년 이사회 결정이 그 출발이었습니다.",
+   "next_question": "제3국의 눈에는 이 분류가 어떻게 비쳤습니까?",
+   "reversal": "개발도상국 명단을 지키던 이름이 선진국 명단으로 옮겨 적혔다.",
+   "narration_sec": 170,
+   "facts": [
+    {
+     "text": "UNCTAD 통계 허브(열람일 2026-11-22)는 선진 경제 명단에 한국을 넣고, 개발도상 경제 정의에서는 \"아시아에서 이스라엘·일본·한국을 뺀 나머지\"라고 적는다.",
+     "publisher": "유엔무역개발회의(UNCTAD) 통계 분류",
+     "foreign": true,
+     "kind": "report",
+     "date": "2026-11-22",
+     "url": "https://unctadstat.unctad.org/EN/Classifications.html",
+     "quote_original": "The developed economies broadly comprise Northern America and Europe, Israel, Japan, the Republic of Korea, Australia, and New Zealand.",
+     "quote_ko": "선진 경제는 대체로 북미와 유럽, 이스라엘, 일본, 한국, 호주, 뉴질랜드로 이루어진다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "2026년 10월 15일자 UNCTAD 회원국 문서의 부속서 I에서 한국은 List A가 아니라 List B(서유럽·기타 선진국 그룹)에 있다.",
+     "publisher": "UNCTAD 사무국 문서 TD/B/INF.263",
+     "foreign": true,
+     "kind": "report",
+     "date": "2026-10-15",
+     "url": "https://unctad.org/system/files/official-document/tdbinf_263_en.pdf",
+     "quote_original": "List B Andorra Iceland Republic of Korea",
+     "quote_ko": "B그룹 명단: 안도라, 아이슬란드, 한국…",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "2021년 7월 2일 제네바 제68차 무역개발이사회에서 만장일치로 A그룹에서 B그룹으로 이동했고, B그룹은 독일·프랑스·일본 등 32개국이 됐다.",
+     "publisher": "연합뉴스(Yonhap)",
+     "foreign": false,
+     "kind": "news",
+     "date": "2021-07-02",
+     "url": "https://en.yna.co.kr/view/AEN20210702009600315",
+     "quote_original": "It is the first time that the agency has upgraded a member nation from the developing economy group to the developed since its establishment in 1964.",
+     "quote_ko": "UNCTAD가 1964년 설립 이래 회원국을 개발도상국 그룹에서 선진국 그룹으로 올린 것은 이번이 처음이다.",
+     "verified": "fulltext",
+     "strength": 3
+    }
+   ],
+   "application": "R02 ¶1 \"지각 변동이 일어났습니다\" → 무엇이 무엇을 바꿨나(A→B) 후 숫자(32개국) / R06 1막 수치 비교 → 명단 문서로 같은 기준 비교(비교·근거)",
+   "clip_sec": 0,
+   "clips": []
+  },
+  {
+   "no": 6,
+   "key": "third",
+   "label": "싱가포르와 중국 지면에 실린 판정",
+   "emotion": "인정",
+   "story_ko": "싱가포르 스트레이츠 타임스는 한국이 미국이 제시한 네 가지 기준을 모두 충족한다고 보도했습니다. 같은 신문에 실린 중국 China Daily 기고는 한국의 1인당 소득이 1995년 11,600달러에서 2018년 30,600달러로 올랐다며 선진국 대열에 들어섰다고 썼습니다. 한국에 인색할 이유가 있는 지면이 이 숫자를 인정한 것입니다.",
+   "question": "제3국 언론은 한국의 선진국 지위를 어떻게 평가했습니까?",
+   "answer": "싱가포르와 중국 지면 모두 한국이 기준을 채웠다고 썼습니다.",
+   "next_question": "이 지위를 국제기구는 앞으로의 협력에 어떻게 연결합니까?",
+   "reversal": "한국의 발전 수준을 낮추고 싶을 법한 쪽에서 오히려 숫자로 인정했다.",
+   "narration_sec": 170,
+   "facts": [
+    {
+     "text": "미국이 제안한 개도국 지위 박탈 기준은 G20 회원, OECD 회원, 세계은행 분류 고소득국, 세계 무역 0.5% 이상이다. 싱가포르 신문은 한국이 넷 모두에 해당한다고 보도했다.",
+     "publisher": "더 스트레이츠 타임스(싱가포르)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2019-10-26",
+     "url": "https://www.straitstimes.com/politics/s-korea-to-shed-developing-nation-wto-status",
+     "quote_original": "South Korea meets all four of the criteria",
+     "quote_ko": "한국은 네 가지 기준을 모두 충족한다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "중국 China Daily 기고: 1인당 소득이 1995년 11,600달러에서 2018년 30,600달러로, 인간개발지수는 2017년 0.903으로 미국(0.924)과 큰 차이가 없다. 중국 필자가 한국의 개도국 지위 포기를 발전 수준에 맞는 결정이라고 썼다.",
+     "publisher": "China Daily / Asia News Network (더 스트레이츠 타임스 게재)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2019-11-19",
+     "url": "https://www.straitstimes.com/asia/more-than-meets-the-eye-in-south-koreas-ceding-developing-economy-status-china-daily",
+     "quote_original": "South Korea has entered the ranks of developed countries because, for instance, its per capita income increased to $30,600",
+     "quote_ko": "한국은 예컨대 1인당 소득이 3만 600달러로 올랐기 때문에 선진국 대열에 들어섰다.",
+     "verified": "fulltext",
+     "strength": 4
+    }
+   ],
+   "application": "R02 ¶10 중국의 눈으로 한·일 비교 / R05 ¶12–16 대만 방송의 자기 인정 → 제3국 필자가 직접 한국 수준을 인정하는 구조(비교·반전)",
+   "clip_sec": 0,
+   "clips": []
+  },
+  {
+   "no": 7,
+   "key": "learn",
+   "label": "배우러 오는 나라들",
+   "emotion": "뿌듯함",
+   "story_ko": "OECD 동료검토는 한국의 지식공유사업과 개발경험교류를 파트너 국가들이 높이 평가한다고 적었습니다. 가나 지방정부부 장관은 경주 회의에서 새마을운동의 교훈에서 영감을 얻어 현지화하고 있다고 말했습니다. 브루킹스에 실린 글은 한국의 발전이 빈곤 감소의 모델로 여겨져 왔다고 정리합니다.",
+   "question": "원조받던 나라가 이제 무엇을 내어 줍니까?",
+   "answer": "돈만이 아니라 발전 경험을 내어 주고, 가나 같은 나라가 현지화해 쓰고 있습니다.",
+   "next_question": "처음의 경고문은 이 기록 뒤에서 어떻게 읽힙니까?",
+   "reversal": "세계은행이 경고하던 나라가 이제 다른 나라에 개발 경험을 가르치는 쪽이 됐다.",
+   "narration_sec": 170,
+   "facts": [
+    {
+     "text": "OECD DAC가 한국을 동료검토한 보고서가 파트너 국가의 평가를 직접 전한다.",
+     "publisher": "OECD 개발협력 동료검토: 한국 2024",
+     "foreign": true,
+     "kind": "report",
+     "date": "2024-05-01",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/05/oecd-development-co-operation-peer-reviews-korea-2024_8adb0d3d/889c6564-en.pdf",
+     "quote_original": "Partner countries value the breadth of technical assistance and knowledge exchange provided by Korea's diverse development actors, including through the knowledge sharing (KSP) and Development Experience Exchange (DEEP) programmes.",
+     "quote_ko": "협력 대상국들은 지식공유사업(KSP)과 개발경험교류(DEEP) 등 한국의 다양한 개발 주체가 제공하는 폭넓은 기술 지원과 지식 교류를 높이 평가한다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "가나 지방정부부 장관이 경주 제2차 글로벌 새마을운동 장관회의에서 한 발언. 한국의 새마을운동이 인프라만이 아니라 국가의 자신감을 바꿨다고 평가했다.",
+     "publisher": "Ghana News Agency(가나)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2025-10-02",
+     "url": "https://gna.org.gh/2025/10/ghana-deepens-decentralisation-reforms-draws-inspiration-from-koreas-saemaul-undong-movement",
+     "quote_original": "Ghana is inspired by these lessons and is localising them to suit our cultural context and democratic aspirations",
+     "quote_ko": "가나는 이 교훈에서 영감을 얻어 우리 문화와 민주주의 열망에 맞게 현지화하고 있다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "2010년 G20 서울 정상회의를 앞두고 브루킹스에 실린 기고. 1945~1990년대 한국이 수혜국에서 공여국으로 바뀐 과정을 요약했다.",
+     "publisher": "Brookings Institution · Kang-ho Park",
+     "foreign": true,
+     "kind": "news",
+     "date": "2010-02-09",
+     "url": "https://www.brookings.edu/articles/koreas-role-in-global-development/",
+     "quote_original": "this successful development has been viewed as a model for poverty reduction",
+     "quote_ko": "이 성공적인 발전은 빈곤 감소의 모델로 여겨져 왔다.",
+     "verified": "fulltext",
+     "strength": 2
+    }
+   ],
+   "application": "R01 ¶12 \"과거에는 ~했지만 이제는 ~시대가 됐습니다\" / R07c ¶30 \"그동안 ~ 이제는\" 역전 → 수혜국에서 교습국으로 역전(근거·반전)",
+   "clip_sec": 0,
+   "clips": []
+  },
+  {
+   "no": 8,
+   "key": "return",
+   "label": "경고문에서 명단까지",
+   "emotion": "울림",
+   "story_ko": "샌프란시스코 연준 보고서는 1997년에 이미 한국을 다른 신흥국의 모델로 칭송받는 경제라고 적었습니다. OECD 책자도 한국을 최빈국에서 공여국이 된 첫 나라로 부릅니다. 중국 시청자는 한국이 선진국이라는 걸 모르는 사람이 없다고 댓글을 달았습니다. 우리가 계산해 보면 1인당 GNI는 67달러에서 36,624달러로 약 547배입니다.",
+   "question": "처음의 경고문에서 오늘의 명단까지, 한국은 무엇을 증명했습니까?",
+   "answer": "원조의 반대편으로 건너온 길, 한 세대 만의 이동, 그리고 다른 나라가 배우는 경험입니다.",
+   "next_question": "다음에 이 명단에 이름을 올릴 나라는 어디입니까?",
+   "reversal": "경고를 받던 숫자 67달러가 547배로 돌아왔다.",
+   "narration_sec": 160,
+   "facts": [
+    {
+     "text": "미국 연준 지역은행 보고서. 한국의 명목 관세율이 1960년대 중반 약 40%에서 1990년대 초 약 12%로 내려갔다는 수치도 담았다.",
+     "publisher": "샌프란시스코 연방준비은행 이코노믹 레터",
+     "foreign": true,
+     "kind": "paper",
+     "date": "1997-07-11",
+     "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/1997/07/government-intervention-and-the-east-asian-miracle",
+     "quote_original": "the increasingly prosperous East Asian economies of Japan, Hong Kong, Singapore, Korea, and Taiwan have been hailed as models of achievement for other emerging economies",
+     "quote_ko": "일본, 홍콩, 싱가포르, 한국, 대만의 점점 번영하는 동아시아 경제는 다른 신흥국의 성취 모델로 칭송받아 왔다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "OECD 출간 책자에 실린 한국 전 총리의 기고문. 발언자가 한국인이라 보조 근거로만 쓴다.",
+     "publisher": "OECD 간행물 \"Korea and the OECD – 25 Years and Beyond\"",
+     "foreign": true,
+     "kind": "report",
+     "date": "2021-06-01",
+     "url": "https://oecd.org/content/dam/oecd/en/about/projects/edu/education-policy-outlook/Korea%20and%20the%20OECD.pdf",
+     "quote_original": "Korea was the first country that has successfully transitioned from a poorest country to a donor country.",
+     "quote_ko": "한국은 최빈국에서 공여국으로 성공적으로 이행한 첫 나라였다.",
+     "verified": "fulltext",
+     "strength": 2
+    },
+    {
+     "text": "서울 여행 영상에 달린 중국 시청자의 실제 댓글. 댓글 전문은 \"선진국이라는 건 모두 알고, 선진국과 개도국의 차이도 다 배웠다\"로 이어진다.",
+     "publisher": "Bilibili 댓글(좋아요 110)",
+     "foreign": true,
+     "kind": "comment",
+     "date": "2026-11-02",
+     "url": "https://www.bilibili.com/video/BV17GHF6DEdf",
+     "quote_original": "韩国是发达国家，没有人不知道",
+     "quote_ko": "한국이 선진국이라는 걸 모르는 사람은 없다.",
+     "verified": "fulltext",
+     "strength": 2,
+     "repo_ref": "repo:국뽕해외반응-중국SNS-20261103/data/comments_bili_login.tsv#BILI-106/L01"
+    },
+    {
+     "text": "우리가 계산해 보면 36,624 ÷ 67 ≈ 547배다. 같은 세계은행 페이지의 두 숫자를 그대로 나눈 값이다.",
+     "publisher": "우리 채널 계산",
+     "foreign": false,
+     "kind": "channel",
+     "date": "2026-11-22",
+     "url": "https://www.worldbank.org/ext/en/country/korea#channel-calc",
+     "quote_original": "gross national income (GNI) per capita rose from $67 in the early 1950s to $36,624 in 2024",
+     "quote_ko": "1인당 GNI가 1950년대 초 67달러에서 2024년 36,624달러로 올랐다.",
+     "verified": "fulltext",
+     "strength": 3
+    }
+   ],
+   "application": "R03 ¶6·¶21 훅 문장을 끝에서 회수 / R04 ¶17 결론 뒤 외국 댓글 한 줄로 마무리 / R06 ¶44 처음 혹평과 대칭되는 끝(감동·회수)",
+   "clip_sec": 0,
+   "clips": []
+  }
+ ],
+ "closing": {
+  "callback_ko": "처음의 경고문은 세계은행 자신의 문장이었고, 지금 세계은행은 같은 나라를 본받을 사례라고 부릅니다.",
+  "last_question_ko": "다음에 원조 명부의 반대편으로 건너올 나라는 어디일까요?"
+ },
+ "time_budget": {
+  "base_sec": 1330,
+  "narration_sec": 1330,
+  "clip_sec": 0,
+  "at_1_2x_sec": 1108,
+  "note": "설계값, 실측 아님 · 영상 클립 0초(소재에 맞는 외국인 원음 영상 없음, 규칙 완화 적용)"
+ },
+ "used_marks": [],
+ "unverified": [
+  "DAC 가입 시점: 세계은행 블로그(2021)는 2009, 국가 개요 페이지는 2010, 한국 정부 보도는 2009-11-25 승인. 낭독에서는 연도를 단정하지 않고 \"가입\"으로만 쓴다.",
+  "UNCTAD 2021-07-02 \"설립 이래 처음\" 표현은 한국 매체(연합뉴스) 출처뿐. 한국 밖 매체의 본문은 찾지 못함.",
+  "가디언 2011 기사에는 재벌 집중의 부작용 비판 단락이 있음(찬양 흐름과 맞지 않아 미사용).",
+  "CGD(Oliver Kim, 2025-01-21)는 \"1960년 한국이 케냐보다 가난했다\"는 통설을 반박함. 케냐·가나와 비교하는 단정 표현은 쓰지 않는다.",
+  "세계은행 1인당 GDP(158달러, 1960)와 GNI(67달러, 1950년대 초)는 서로 다른 시리즈. 채널 계산은 같은 페이지의 GNI 두 숫자만 사용.",
+  "OECD 간행물 인용문 화자는 한국 전 총리(자국 발언), Brookings Park 기고는 한국 인사(자국 발언): 강도 2로 낮춰 후반에만 배치.",
+  "Bilibili 댓글 BILI-106은 서울 여행 영상 논쟁에서 한국을 두둔하는 문맥. 같은 파일의 BILI-136(대댓글)은 맥락 불분명해 미사용.",
+  "IMF 위기 평가 페이지·UNCTAD 2021 결정문 본문은 403/미확보. 읽지 못해 인용하지 않음."
+ ]
+}

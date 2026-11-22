@@ -1,0 +1,541 @@
+{
+ "no": "28",
+ "title": "UN이 한국을 세계 1위로 발표했습니다 — 정부24부터 지하철 와이파이, 새벽 7시 배송까지, 외국 기관이 적어 둔 한국의 보이지 않는 속도",
+ "field": "한국/디지털 인프라(전자정부·초고속 인터넷·캐시리스·배달) — 외신·국제기구 문헌 기반",
+ "main_dev": "D02",
+ "sub_dev": [
+  "D04",
+  "D08"
+ ],
+ "hook": {
+  "type": "B",
+  "declaration_ko": "11월 19일, UN이 전 세계 194개국의 전자정부를 줄 세웠고 1등은 대한민국이었습니다. 2014년 이후 12년 만에 되찾은 세계 1위입니다. UN만 그렇게 적은 것이 아닙니다. OECD는 한국을 전자정부의 세계적 선두라고 적었고, CNN은 서울 지하철을 세계 최고 지하철 18곳에 올렸습니다.",
+  "first_question_ko": "그런데 이 1위는 도대체 무엇을 재서 나온 숫자일까요? 정부 홈페이지가 예뻐서가 아닙니다. 이 순위를 받치고 있는 것이 우리 일상의 어디에 숨어 있는지, 외국 기관이 적어 둔 순서대로 따라가 보겠습니다.",
+  "quotes": [
+   {
+    "publisher": "United Nations DESA",
+    "quote_ko": "대한민국이 2026년 디지털 정부 순위 1위를 차지했고, 덴마크와 싱가포르가 뒤를 이었다.",
+    "quote_original": "The Republic of Korea leads the 2026 digital government ranking, followed by Denmark and Singapore.",
+    "url": "https://www.un.org/sustainabledevelopment/blog/2026/11/e-government-survey-2026-press-release/"
+   },
+   {
+    "publisher": "OECD",
+    "quote_ko": "한국은 혁신과 효율, 시민 중심 공공서비스에 대한 오랜 노력을 보여 주는 디지털 정부의 세계적 선두 주자다.",
+    "quote_original": "Korea is a global leader in digital government, demonstrating long-standing commitment to innovation, efficiency, and citizen-centred public services.",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/digital-government-review-of-korea_f49872f3/9defc197-en.pdf#page=10"
+   },
+   {
+    "publisher": "CNN",
+    "quote_ko": "서울 지하철 이용자는 세계에서 가장 먼저 지하에서도 통화와 인터넷 검색을 끊김 없이 할 수 있게 된 사람들 가운데 하나였다.",
+    "quote_original": "Seoul Metro users were among the world’s first to be able to continue phone calls and internet browsing uninterrupted while underground or watch TV on screens fitted throughout the trains.",
+    "url": "https://www.cnn.com/travel/worlds-best-subways-metros"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "no": 1,
+   "key": "result",
+   "label": "UN이 세계 1위를 발표했다 — 12년 만의 왕좌",
+   "emotion": "통쾌함·놀람",
+   "story_ko": "지난 11월 19일 UN 경제사회국은 2026년 전자정부 조사 결과를 내놓았습니다. 대한민국이 194개국 가운데 1위였습니다. UN 보도자료는 한국이 온라인 공공서비스 제공에서 덴마크, 싱가포르와 함께 선두권이라고 적었습니다. UN 전자정부 데이터 센터가 올려 둔 한국 페이지를 열면 2026년 지수 0.9794, 2024년 4위에서 세 계단 상승이 그대로 찍혀 있습니다. 같은 표에는 2003년 13위, 2010·2012·2014년 1위, 그리고 2026년 1위까지 한국의 23년 순위표가 이어집니다. 영국 글로벌 거버먼트 포럼은 OECD 디지털 정부 지수에서도 한국이 두 번째로 1위에 올랐다고 보도했습니다. UN과 OECD 두 기관이 서로 다른 잣대로 같은 나라를 1위에 올려 놓았다는 점이 이 편의 출발점입니다.",
+   "question": "UN은 도대체 무엇을 재서 한국을 1위로 올렸을까요?",
+   "answer": "UN 전자정부 발전지수는 온라인 서비스, 통신 인프라, 인적 자본 세 지수의 평균입니다. 한국은 2003년 13위에서 시작해 2010년 처음 1위에 올랐고 2014년까지 1위를 지켰으며, 2026년에 다시 정상에 섰습니다. OECD 지수에서도 두 번 연속 1위입니다.",
+   "next_question": "2003년 13위였던 나라가 어떻게 이 자리까지 올라왔을까요?",
+   "narration_sec": 190,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "UN DESA는 2026 전자정부 조사에서 대한민국이 1위, 덴마크·싱가포르가 뒤를 잇는다고 발표했다(2026-11-19).",
+     "publisher": "United Nations DESA (SDG press release)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2026-11-19",
+     "url": "https://www.un.org/sustainabledevelopment/blog/2026/11/e-government-survey-2026-press-release/",
+     "quote_original": "The Republic of Korea leads the 2026 digital government ranking, followed by Denmark and Singapore.",
+     "quote_ko": "대한민국이 2026년 디지털 정부 순위 1위를 차지했고, 덴마크와 싱가포르가 뒤를 이었다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "UN 전자정부 데이터 센터의 한국 페이지: 2026년 194개국 중 1위(0.9794), 2024년 4위에서 +3. 연도별 순위표(2003년 13위→2010·2012·2014년 1위→2026년 1위).",
+     "publisher": "UN DESA E-government Knowledgebase (EKAP)",
+     "foreign": true,
+     "kind": "stat",
+     "date": "2026-11-19",
+     "url": "https://ekap.desa.un.org/DataCenter/Country/KOR",
+     "quote_original": "EGDI Rank (2026) #1 of 194 EGDI Group Very High EGDI EGDI Score 0.9794 2024 Rank #4 of 194 Rank Change +3",
+     "quote_ko": "EGDI 순위(2026) 194개국 중 1위, 점수 0.9794, 2024년 순위 4위, 순위 변화 +3.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "OECD 디지털 정부 지수(DGI)에서 한국이 두 번째로 1위를 차지했다는 영국 매체 보도(2024).",
+     "publisher": "Global Government Forum (UK)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2024-02-07",
+     "url": "https://www.globalgovernmentforum.com/south-korea-tops-oecd-digital-government-index/",
+     "quote_original": "South Korea has topped the OECD Digital Government Index for the second time, with Denmark, the UK, Norway and Australia completing the top five.",
+     "quote_ko": "한국이 OECD 디지털 정부 지수에서 두 번째로 1위를 차지했고, 덴마크·영국·노르웨이·호주가 5위권을 채웠다.",
+     "verified": "fulltext",
+     "strength": 4
+    }
+   ],
+   "application": "R03 ¶1 훅(현지 기사 제목으로 시작→출처→“규모만이 아니었습니다”) → UN 헤드라인을 먼저 놓고 출처(UN·영국 매체)를 밝힌 뒤 “UN만이 아닙니다”로 OECD를 한 칸 더 올린다. R01 ¶1 숫자 계단(하루→3일→86개국) → 2003년 13위→2010~2014년 1위→2026년 1위로 한 칸씩 올리는 순위 계단. R02 ¶1 “지각 변동”처럼 결과를 먼저 말한 뒤 다음 문장에서 무엇이 무엇을 이겼는지 밝힌다."
+  },
+  {
+   "no": 2,
+   "key": "ladder",
+   "label": "2003년 13위, 1978년의 가난한 나라 — 어떻게 여기까지 왔나",
+   "emotion": "뭉클함·감탄",
+   "story_ko": "ERIA 보고서는 한국이 1967년 6월 24일 IBM 1401 컴퓨터로 인구 총조사를 시작했다고 적습니다. 1978년에는 나라가 가난하고 해외 원조에 의존하던 때였는데도 행정 전산화 시범사업에 국가 예산 일부를 넣었다고 합니다. 24년 뒤인 2002년 미국 와이어드는 서울을 세계의 대역폭 수도라고 불렀습니다. 한국의 가구당 초고속 인터넷 보급률이 세계 최고였고 가구의 절반 이상이 고속 회선을 갖고 있었던 반면 미국은 10퍼센트에 못 미쳤습니다. BBC 트래블은 1960년 인구의 72퍼센트가 농촌에 살던 나라가 어떻게 모내기에서 토렌트 다운로드까지 갔느냐고 물었습니다. 외국 기자와 국제기구가 보기에 오늘의 1위는 한 해의 성과가 아니라 반세기 누적의 결과입니다.",
+   "question": "13위였던 나라가 어떻게 세계 1위의 정부와 통신을 갖게 됐을까요?",
+   "answer": "가난하던 1970년대부터 행정 전산화에 예산을 넣었고, 2000년대 초에는 초고속 인터넷 보급률이 세계 최고가 됐습니다. 외국 기자들이 그 속도를 직접 눈으로 확인해 기록으로 남겼습니다.",
+   "next_question": "그렇게 깔린 망 위에서 정부 서비스는 지금 실제로 어떻게 돌아가고 있을까요?",
+   "narration_sec": 170,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "ERIA(동아시아·아세안경제연구소) 보고서: 1967년 IBM 1401로 인구 총조사를 시작했고, 1978년 가난과 원조 의존 속에서도 행정 전산화 시범사업에 예산을 투입했다.",
+     "publisher": "ERIA (Economic Research Institute for ASEAN and East Asia)",
+     "foreign": true,
+     "kind": "book",
+     "date": "2024-03-12",
+     "url": "https://www.eria.org/uploads/07-Chapter-6-Digital-Government-in-the-Republic-of-Korea.pdf",
+     "quote_original": "In 1978, an administrative computerisation pilot project was promoted, and a portion of the national budget was invested in administrative computerisation although the country was poor and depended on foreign aid.",
+     "quote_ko": "1978년 행정 전산화 시범사업이 추진됐고, 나라가 가난하고 해외 원조에 의존하던 때였는데도 국가 예산 일부가 행정 전산화에 투입됐다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "미국 와이어드(2002): 서울을 “대역폭의 수도”로 소개하며 한국의 1인당 초고속 인터넷 보급률이 세계 최고, 가구 절반 이상이 고속 회선, 미국은 10% 미만이라고 보도.",
+     "publisher": "WIRED (US)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2002-08-01",
+     "url": "https://wired.com/2002/08/korea?pg=1&topic=&topic_set=",
+     "quote_original": "South Korea has the highest per capita broadband penetration in the world. Slightly more than half of its households have high-bandwidth connections, compared to less than 10 percent in the US.",
+     "quote_ko": "한국은 1인당 초고속 인터넷 보급률이 세계에서 가장 높다. 가구의 절반을 조금 넘게 고속 회선을 갖고 있는데, 미국은 10퍼센트에도 못 미친다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "BBC 트래블(2018): 1960년 인구의 72%가 농촌에 살던 나라가 “모내기에서 토렌트 다운로드까지” 불과 수십 년 만에 갔다는 서술.",
+     "publisher": "BBC Travel (UK)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2018-07-08",
+     "url": "https://bbc.com/travel/story/20180708-south-koreas-unstoppable-taste-for-haste",
+     "quote_original": "How did the people go from transplanting rice to downloading torrents in just a few decades?",
+     "quote_ko": "이 사람들은 어떻게 모내기에서 토렌트 다운로드까지 불과 수십 년 만에 갔을까?",
+     "verified": "fulltext",
+     "strength": 4
+    }
+   ],
+   "application": "R03 ¶3 배경(“2015년 8월 첫 무대, 데뷔 2년 차 신인 → 그리고 11년이 흘렀습니다”) → 1967년 IBM 1401·1978년 가난한 시절을 먼저 보여 주고 “그리고 반세기가 흘렀습니다”로 현재 1위로 넘긴다. R03 ¶4-5 장애-해소 사다리(D02) → 가난·원조 의존이라는 제약 → 2002년 와이어드의 세계 최고 평가로 해소. R07c ¶30 “그동안 ~ 이제는” 역전 공식을 “가난한 나라 → 대역폭 수도”로 적용."
+  },
+  {
+   "no": 3,
+   "key": "gov",
+   "label": "OECD가 뜯어본 한국의 정부 — 1,500개 서비스와 휴대폰 속 신분증",
+   "emotion": "감탄·자부",
+   "story_ko": "OECD는 2025년 10월 한국 디지털 정부 검토 보고서를 냈습니다. 서문은 한국이 디지털 정부의 세계적 선두라고 시작합니다. 정부24와 디지털 플랫폼 정부가 1,500개가 넘는 정부 서비스를 하나의 디지털 창구로 묶고 있다고 적었습니다. 2025년 3월부터는 모든 국민이 모바일 주민등록증을 받을 수 있고 실물 신분증과 같은 법적 효력을 갖는다는 것도 상자 기사로 설명합니다. 2020년 이용자 조사에서는 정부 서비스 품질에 만족한다는 응답이 98.1퍼센트였다고 OECD 보고서가 인용합니다. UN의 2024년 조사에서 한국의 온라인 서비스 지수는 1.0000, 만점이었습니다.",
+   "question": "한국의 정부 서비스는 외국 심사관 눈에 실제로 어떻게 돌아가는 나라였을까요?",
+   "answer": "OECD는 1,500개 이상의 서비스가 정부24 한 곳으로 묶여 있고, 휴대폰 안의 모바일 신분증이 실물 신분증과 같은 효력을 갖는다고 적었습니다. UN은 2024년 한국의 온라인 서비스 점수를 만점으로 기록했습니다.",
+   "next_question": "정부 서비스가 휴대폰으로 돌아간다면, 그 휴대폰 속 통신망의 속도는 지금 세계 몇 위일까요?",
+   "narration_sec": 200,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "OECD 디지털 정부 검토(한국, 2025): 요약문 첫 문장이 한국을 디지털 정부의 세계적 선두로 규정하고, 정부 데이터·공공데이터 개방 성숙도에서 OECD 1위라고 적었다.",
+     "publisher": "OECD",
+     "foreign": true,
+     "kind": "report",
+     "date": "2025-10-29",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/digital-government-review-of-korea_f49872f3/9defc197-en.pdf#page=10",
+     "quote_original": "Korea is a global leader in digital government, demonstrating long-standing commitment to innovation, efficiency, and citizen-centred public services.",
+     "quote_ko": "한국은 혁신과 효율, 시민 중심 공공서비스에 대한 오랜 노력을 보여 주는 디지털 정부의 세계적 선두 주자다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "OECD: 디지털 플랫폼 정부와 정부24가 1,500개 이상의 정부 서비스를 중앙집중식 디지털 플랫폼으로 통합하고 있다.",
+     "publisher": "OECD",
+     "foreign": true,
+     "kind": "report",
+     "date": "2025-10-29",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/digital-government-review-of-korea_f49872f3/9defc197-en.pdf#page=11",
+     "quote_original": "Flagship initiatives such as Digital Platform Government (DPG) and Government24 streamline more than 1,500 government services into centralised, digital platforms, improving accessibility and personalisation across public and private channels.",
+     "quote_ko": "디지털 플랫폼 정부(DPG)와 정부24 같은 대표 사업이 1,500개가 넘는 정부 서비스를 중앙의 디지털 플랫폼으로 통합해 공공·민간 채널 전반의 접근성과 맞춤형 서비스를 높이고 있다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "OECD: 2025년 3월부터 모든 국민이 실물 신분증과 같은 법적 효력을 가진 모바일 주민등록증을 발급받을 수 있다.",
+     "publisher": "OECD",
+     "foreign": true,
+     "kind": "report",
+     "date": "2025-10-29",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/digital-government-review-of-korea_f49872f3/9defc197-en.pdf#page=124",
+     "quote_original": "As of March 2025, all citizens can obtain a Mobile Resident Registration Card, a fully digital credential version of the national ID card.",
+     "quote_ko": "2025년 3월부터 모든 국민이 국민 신분증의 완전한 디지털 버전인 모바일 주민등록증을 발급받을 수 있다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "OECD가 인용한 2020년 전자정부 이용 조사: 응답자의 98.1%가 정부 서비스 품질에 만족. UN 조사에서 한국은 2010~2020년 내내 3위 안.",
+     "publisher": "OECD",
+     "foreign": true,
+     "kind": "report",
+     "date": "2025-10-29",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/digital-government-review-of-korea_f49872f3/9defc197-en.pdf#page=35",
+     "quote_original": "The 2020 e-Government Service Usage Survey showed that 98.1% of respondents were satisfied with the quality of government services",
+     "quote_ko": "2020년 전자정부 서비스 이용 조사에서 응답자의 98.1%가 정부 서비스 품질에 만족한 것으로 나타났다.",
+     "verified": "fulltext",
+     "strength": 5
+    },
+    {
+     "text": "UN 전자정부 조사 2024 제2장 표: 한국 온라인 서비스 지수(OSI) 1.0000, 통신 인프라 지수(TII) 0.9917, 종합 0.9679.",
+     "publisher": "United Nations DESA (E-Government Survey 2024)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2024-09-18",
+     "url": "https://desapublications.un.org/sites/default/files/publications/2024-10/Chapter%202%20%20E-Government%20Survey%202024.pdf",
+     "quote_original": "Republic of Korea VH Asia 1.0000 0.9120 0.9917 0.9679 0.9529",
+     "quote_ko": "대한민국: 최상위 등급, 아시아, 온라인서비스 1.0000, 인적자본 0.9120, 통신인프라 0.9917, 종합 0.9679(2022년 0.9529).",
+     "verified": "fulltext",
+     "strength": 5
+    }
+   ],
+   "application": "R06 ¶6 같은 항목 수치 비교(24초 vs 1분 4초 → “무려 40초 차이”) → 정부24 1,500개 서비스·98.1% 만족·OSI 1.0000을 같은 한 줄 안에 계단으로 쌓는다. R05 ¶1 유명한 것들 나열 후 “따로 있었습니다”→ 휴대폰 속 신분증을 “정작 가장 눈길을 끄는 것”으로 앞세운다. R01 ¶5 “진짜 이유는 ~만은 아닙니다”→답을 바로 다음 문장에서 주는 질문–답 구조로 1,500개 서비스의 이유를 푼다."
+  },
+  {
+   "no": 4,
+   "key": "speed",
+   "label": "끊기지 않는 속도 — 5G 495Mbps, 지하 와이파이, 스마트폰 98%",
+   "emotion": "짜릿함·체감",
+   "story_ko": "Ookla 스피드테스트 글로벌 인덱스 2026년 9월 기준 한국 모바일 중앙값은 다운로드 374.01Mbps로 세계 4위입니다. Opensignal은 2026년 9월 29일 발표에서 작은 국토 시장의 5G 다운로드 속도 1위로 SK텔레콤을 꼽았고 속도는 495.1Mbps였습니다. 2024년 Opensignal 아시아태평양 비교에서도 한국이 전체 속도와 5G 속도 부문 모두 선두였습니다. 미국 CNN은 서울 지하철 이용자가 세계에서 가장 먼저 지하에서도 통화와 인터넷을 끊김 없이 쓸 수 있게 된 사람들이라고 적었습니다. 호주 ABC가 인용한 미국 퓨리서치 조사에서는 한국인의 99퍼센트가 온라인에 접속하고 98퍼센트가 스마트폰을 가지고 있었으며 조사한 27개국 가운데 가장 높았습니다.",
+   "question": "세계 최고의 속도라는 말은 지금도 통할까요?",
+   "answer": "모바일은 Ookla 세계 4위, 5G 속도는 495.1Mbps로 작은 국토 시장 1위입니다. 스마트폰 보급과 온라인 접속률은 퓨리서치 조사 27개국 중 1위였습니다.",
+   "next_question": "연결이 끊기지 않는다면 그 위에서 돈은 어떻게 움직일까요?",
+   "reversal": "고정 광대역 속도 순위는 Ookla 기준 이제 20위권이어서 한국이 속도 1위라는 오래된 기억은 낡았습니다. 그런데 모바일은 4위, 5G는 495.1Mbps로 선두권이고 UN 통신 인프라 지수는 0.9917에 이릅니다. 한국의 강점은 한 가지 숫자의 1등이 아니라 일상 전체가 끊기지 않는다는 점입니다.",
+   "narration_sec": 195,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "Opensignal(2026-09-29) 세계 5G 어워드: 소국 시장(국토 20만km² 미만) 5G 다운로드 속도 부문에서 SK텔레콤이 495.1Mbps로 1위.",
+     "publisher": "Opensignal (UK)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2026-09-29",
+     "url": "https://insights.opensignal.com/2026/09/opensignal-crowns-the-worlds-best-5g-networks/dt",
+     "quote_original": "In small land-area markets, South Korea's SK Telecom dethrones KT to take the crown at 495.1Mbps.",
+     "quote_ko": "국토가 좁은 시장에서는 한국의 SK텔레콤이 KT를 제치고 495.1Mbps로 왕좌에 올랐다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "Opensignal(2024-09-25) 아시아태평양 모바일 비교: 한국이 전체·5G 속도 부문 모두 선두, 체감 품질(영상·게임·음성앱)도 1위.",
+     "publisher": "Opensignal (UK)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2024-09-25",
+     "url": "https://insights.opensignal.com/2024/09/25/benchmarking-the-asia-pacific-mobile-network-experience-september-2024",
+     "quote_original": "South Korea leads in speed categories, both the overall and the 5G experience.",
+     "quote_ko": "한국은 전체와 5G 모두에서 속도 부문 선두다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "Ookla 스피드테스트 글로벌 인덱스(2026년 9월 갱신): 한국 모바일 중앙값 4위(374.01Mbps), 고정 광대역은 27위(319.06Mbps).",
+     "publisher": "Ookla Speedtest Global Index",
+     "foreign": true,
+     "kind": "stat",
+     "date": "2026-09-01",
+     "url": "https://www.speedtest.net/global-index/south-korea",
+     "quote_original": "Mobile Rank 4 - Download 374.01 Mbps Upload 35.02 Mbps Latency 27 ms Fixed Broadband Rank 27 - Download 319.06 Mbps Upload 284.09 Mbps Latency 13 ms",
+     "quote_ko": "모바일 4위, 다운로드 374.01Mbps, 업로드 35.02Mbps, 지연 27ms. 고정 광대역 27위, 다운로드 319.06Mbps, 업로드 284.09Mbps, 지연 13ms.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "Ookla 리서치(2025): 한국은 모바일 성능에서 스피드테스트 글로벌 인덱스 상위 10위권을 꾸준히 유지.",
+     "publisher": "Ookla Research",
+     "foreign": true,
+     "kind": "report",
+     "date": "2025-08-01",
+     "url": "https://www.ookla.com/research/reports/rootmetrics-south-korea-2h-2025",
+     "quote_original": "South Korea consistently ranks in the top-10 of Ookla’s Speedtest Global Index for mobile performance",
+     "quote_ko": "한국은 모바일 성능에서 Ookla 스피드테스트 글로벌 인덱스 상위 10위권을 꾸준히 지키고 있다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "CNN(2026-10-17 갱신) 세계 최고의 지하철 18곳: 서울 지하철은 지하에서도 통화·인터넷을 끊김 없이 쓸 수 있고 열차 안에서 TV를 볼 수 있다.",
+     "publisher": "CNN (US)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2026-10-17",
+     "url": "https://www.cnn.com/travel/worlds-best-subways-metros",
+     "quote_original": "Seoul Metro users were among the world’s first to be able to continue phone calls and internet browsing uninterrupted while underground or watch TV on screens fitted throughout the trains.",
+     "quote_ko": "서울 지하철 이용자는 세계에서 가장 먼저 지하에서도 통화와 인터넷 검색을 끊김 없이 하고 열차 안 TV까지 볼 수 있게 된 사람들 가운데 하나였다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "호주 ABC(2025-08-27)가 인용한 미국 퓨리서치센터 조사: 한국인 99%가 온라인 활동, 98%가 스마트폰 보유 — 조사 27개국 중 최고.",
+     "publisher": "ABC News (Australia)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2025-08-27",
+     "url": "https://abc.net.au/news/2025-08-27/south-korea-bans-phones-in-classrooms-nationwide/105705562",
+     "quote_original": "Some 99 per cent of South Koreans are active online and 98 per cent own a smartphone, according to the US-based Pew Research Center. The figures were the highest rates among the 27 countries it examined in 2022 and 2023.",
+     "quote_ko": "한국인의 99%가 온라인 활동을 하고 98%가 스마트폰을 보유하고 있다고 미국 퓨리서치센터는 밝혔다. 이는 2022~2023년 조사한 27개국 가운데 가장 높은 수치다.",
+     "verified": "fulltext",
+     "strength": 4
+    }
+   ],
+   "application": "R05 ¶15-16 단점 인정→상쇄(“KF21도 아직 많은 문제를…” 바로 뒤 “하지만 해결될 수 있습니다”) → 고정 광대역 순위가 20위권이라는 점을 먼저 인정한 뒤 모바일 4위·5G 495.1Mbps·UN 통신 지수 0.9917로 곧바로 상쇄한다. R06 ¶1 외국인 원음 시작·¶16 “그동안 ~ 이제는”→ 과거 통념(“한국=광대역 1위”)과 현재 지표를 대비. R07a ¶11 “물론 아직 ~에 불과합니다 → 하지만 가장 중요한 변화는” 구조를 속도 이야기의 반전으로 사용."
+  },
+  {
+   "no": 5,
+   "key": "cashless",
+   "label": "현금 없는 나라 — 일본이 40%를 목표로 할 때 한국은 90%대",
+   "emotion": "통쾌함·비교의 짜릿함",
+   "story_ko": "일본 덴쓰종합연구소는 한국을 세계에서 가장 캐시리스화가 진행된 나라라고 부르며 2010년대 중반 이미 90퍼센트대에 올랐다고 적었습니다. 같은 표에서 한국의 캐시리스 결제 비율은 2020년 93.6퍼센트이고 일본은 2022년 36.0퍼센트, 2023년 39.3퍼센트입니다. 일본 경제산업성은 2025년 3월 2024년 비율이 42.8퍼센트로 정부 목표 40퍼센트를 달성했다고 발표했습니다. 독일 통계 플랫폼 스태티스타는 2024년 한국 거래의 현금 비중이 약 16퍼센트에 그쳤다고 정리합니다. 서울 시내버스에서는 2022년 현금 승객이 0.6퍼센트, 하루 승객 320만 명 가운데 현금 이용자는 2만 명뿐이었습니다.",
+   "question": "현금이 사라진다는 말은 숫자로 얼마나 앞서 있을까요?",
+   "answer": "일본 민간 연구소의 비교표에서 한국은 90퍼센트대, 일본은 30퍼센트대입니다. 일본 정부가 40퍼센트 달성을 발표하던 해 한국 거래의 현금 비중은 16퍼센트 안팎이었고, 서울 버스 승객 중 현금 이용자는 0.6퍼센트였습니다.",
+   "next_question": "결제가 이렇게 가벼우면 물건은 얼마나 빨리 집 앞에 도착할까요?",
+   "reversal": "일본이 40퍼센트 달성을 기념하던 2024년, 한국은 그 두 배가 넘는 수준을 이미 한참 전에 지나 있었습니다. 일본 연구소가 직접 한국의 수준을 일본 정부 목표의 2배 이상이라고 적었습니다.",
+   "narration_sec": 165,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "일본 덴쓰종합연구소(소시에테): “한국은 세계에서 가장 캐시리스화가 진행된 나라”, 2010년대 중반 90%대 도달, 일본 정부 목표 40%의 2배 이상. 표: 한국 93.6%(2020), 일본 36.0%(2022)·39.3%(2023).",
+     "publisher": "Dentsu Soken (Japan)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2025-05-02",
+     "url": "https://societe.dentsusoken.com/articles/4878/",
+     "quote_original": "韓国は世界で最もキャッシュレス化が進んだ国と言われ、2010年代半ばにはキャッシュレス決済比率が90%台に達していた。",
+     "quote_ko": "한국은 세계에서 가장 캐시리스화가 진행된 나라로 불리며, 2010년대 중반에는 캐시리스 결제 비율이 90%대에 이르렀다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "일본 경제산업성(METI): 2024년 캐시리스 결제 비율 42.8%, 정부 목표 40% 달성.",
+     "publisher": "METI (Japan)",
+     "foreign": true,
+     "kind": "stat",
+     "date": "2025-03-31",
+     "url": "https://www.meti.go.jp/english/press/2025/0331_001.html",
+     "quote_original": "The cashless payment ratio in 2024 was 42.8%, and the government goal of 40% has thus been achieved.",
+     "quote_ko": "2024년 캐시리스 결제 비율은 42.8%였고, 정부 목표인 40%를 달성했다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "스태티스타(독일): 2024년 한국 거래 중 현금 결제는 약 16%로 세계 최상위권 캐시리스 국가.",
+     "publisher": "Statista (Germany)",
+     "foreign": true,
+     "kind": "stat",
+     "date": "2026-11-22",
+     "url": "https://www.statista.com/topics/8307/mobile-payments-in-south-korea/",
+     "quote_original": "In 2024, only about 16 percent of transactions in South Korea were made with cash, making it one of the leading cashless countries in the world.",
+     "quote_ko": "2024년 한국 거래 중 현금 결제는 약 16퍼센트에 불과해 세계 최상위권 캐시리스 국가 중 하나다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "캐시 에센셜(CashEssentials): 서울시 발표로 서울 버스 현금 승객 비율이 2018년 1.25%에서 2022년 0.6%로 하락, 하루 승객 320만 명 중 현금 이용자 2만 명.",
+     "publisher": "CashEssentials",
+     "foreign": true,
+     "kind": "news",
+     "date": "2023-09-11",
+     "url": "https://cashessentials.org/south-korea-cash-and-digital-payments/",
+     "quote_original": "The Seoul city government said the share of passengers who paid with cash dropped from 1.25% in 2018 to 0.6% in 2022, with only 20,000 commuters among 3.2 million daily bus users.",
+     "quote_ko": "서울시는 현금으로 요금을 내는 승객 비율이 2018년 1.25%에서 2022년 0.6%로 떨어졌고, 하루 버스 승객 320만 명 중 현금 이용자는 2만 명뿐이라고 밝혔다.",
+     "verified": "fulltext",
+     "strength": 3
+    }
+   ],
+   "application": "R07c ¶30 “그동안 ~ 이제는” 역전 공식 → 일본이 정한 40% 목표와 한국의 90%대를 한 표에 놓고 일본 쪽 기관(덴쓰·경제산업성)이 직접 격차를 적게 한다. R05 ¶4 “일본 매체 제목으로 근거” → 일본 민간 연구소의 문장을 원문 그대로 인용해 외국이 한국을 평가하게 한다. R06 ¶6 같은 항목 수치 비교(24초 vs 1분 4초)를 93.6% vs 36.0%·39.3%로 적용."
+  },
+  {
+   "no": 6,
+   "key": "delivery",
+   "label": "새벽 7시 문 앞 — 아마존보다 빠른 한국의 배달 인프라",
+   "emotion": "감탄·웃음",
+   "story_ko": "CNBC는 2020년 쿠팡이 한국 최대 온라인 소매업체가 됐다고 보도했습니다. 쿠팡의 새벽배송은 자정까지 주문하면 아침 7시까지 문 앞에 두는데, 아마존의 정오 마감 익일배송보다 빠르다고 CNBC는 썼습니다. 비즈니스 인사이더는 쿠팡이 물류센터 망과 직접 운영하는 라스트마일 배송 체계에 막대한 투자를 했다고 전했습니다. 비영리 매체 레스트 오브 월드는 2019년 한국의 음식 배달 시장이 세계 3위였고 2017년부터 2020년까지 외식 거래액이 85.4퍼센트 늘었다고 정리했습니다.",
+   "question": "결제가 끝난 뒤 물건은 얼마나 빨리 집 앞에 도착할까요?",
+   "answer": "쿠팡의 새벽배송은 전날 자정까지 주문하면 아침 7시까지 배송합니다. 아마존의 익일배송 마감이 정오인 것과 비교해 CNBC가 더 빠르다고 평가했습니다. 한국의 음식 배달 시장은 2019년 세계 3위였습니다.",
+   "next_question": "이웃 일본은 이 격차를 어떻게 바라보고 있을까요?",
+   "reversal": "아마존과 자주 비교되던 쿠팡은 한국에서 새벽 7시라는 시각표로 앞서 나갔습니다. CNBC의 제목은 쿠팡이 아마존을 누르고 한국 최대 온라인 소매업체가 됐다고 적고, 본문은 그 1위가 부분적으로 빠른 배송 선택지 덕분이라고 설명합니다.",
+   "narration_sec": 140,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "CNBC(2020): 쿠팡 새벽배송은 자정까지 주문하면 오전 7시까지 배송, 아마존 익일배송(정오 마감)보다 빠르다. 제목: 쿠팡이 아마존을 누르고 한국 최대 온라인 소매업체가 됐다.",
+     "publisher": "CNBC (US)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2020-06-16",
+     "url": "https://www.cnbc.com/2020/06/16/coupang-crushed-amazon-to-become-south-koreas-biggest-online-retailer.html",
+     "quote_original": "Last year Coupang further accelerated delivery speeds when it launched Dawn Delivery, which promises to drop off packages on shoppers' doorsteps by 7 a.m. as long as they place the order by midnight the day before. That's even faster than Amazon's next-day delivery, which has a noon cutoff time.",
+     "quote_ko": "지난해 쿠팡은 전날 자정까지 주문하면 아침 7시까지 문 앞에 배달하겠다는 새벽배송을 시작해 배송 속도를 더 끌어올렸다. 이는 정오가 마감인 아마존의 익일배송보다 훨씬 빠르다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "레스트 오브 월드(2021): 2019년 한국 음식 배달 시장 규모 세계 3위, 2017~2020년 외식 거래액 85.4% 증가.",
+     "publisher": "Rest of World (US)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2021-09-21",
+     "url": "https://restofworld.org/2021/global-gig-workers-delivery-driver-south-korea",
+     "quote_original": "By 2019, South Korea’s food delivery market was ranked third largest in the world.",
+     "quote_ko": "2019년까지 한국의 음식 배달 시장은 세계에서 세 번째로 컸다.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "비즈니스 인사이더(2018-12-07): 쿠팡이 물류센터 망과 자체 라스트마일 배송 체계(로켓배송)에 크게 투자해 한국 최대 온라인 쇼핑 기업이 됐다(유료 기사, 공개 부분만 확인).",
+     "publisher": "Business Insider (US)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2018-12-07",
+     "url": "https://www.businessinsider.com/amazon-south-korea-coupang-largest-online-shopping-2018-12",
+     "quote_original": "Coupang invested heavily in building a network of fulfillment centers and developing its own last-mile system.",
+     "quote_ko": "쿠팡은 물류센터 망을 구축하고 자체 라스트마일 배송 체계를 개발하는 데 막대하게 투자했다.",
+     "verified": "snippet",
+     "strength": 2
+    }
+   ],
+   "application": "R06 ¶3 “정작 ~ 이유는 따로 있었습니다” → 새벽 7시라는 시각표를 이유의 답으로 준다. R04 ¶13-14 “더욱 놀라운 사실” 예고→ 한 칸 큰 숫자 → “아마존 정오 마감보다 빠르다”를 놀라움의 마지막 칸으로 둔다. R05 ¶1 유명 기업 나열 후 “따로 있었습니다”: 아마존과 비교된 쿠팡을 외국 매체 제목으로 소개."
+  },
+  {
+   "no": 7,
+   "key": "mirror",
+   "label": "이웃이 쓴 기록 — 일본 경제지는 이 격차를 “디지털 패전”이라 불렀다",
+   "emotion": "뭉클함·우월감",
+   "story_ko": "일본 닛케이 비즈니스는 2023년 9월 “디지털 패전의 실상” 연재에서 서울의 한 종합병원 이야기를 소개했습니다. 환자는 키오스크로 접수하고 진료비 결제까지 마치며 보험증도 진료권도 꺼낼 필요가 없었습니다. 예전에는 한 시간 넘게 걸려 반차를 내야 했는데 지금은 30분이면 끝나서 출근 전에 들를 수 있다는 직장인의 말이 실렸습니다. 같은 기사는 UN 전자정부 순위에서 한국은 상위권 단골로 2022년 3위였고 일본은 14위에 그쳤다고 적었습니다. UN 데이터 센터의 일본 페이지에서는 일본이 2024년 13위에서 2026년 29위로 내려와 있습니다. 미주개발은행은 라틴아메리카 고위 공무원 여섯 명을 한국에 보내 디지털 전환의 비결을 배우게 했습니다.",
+   "question": "가장 가까운 이웃 일본은 이 격차를 어떻게 적고 있을까요?",
+   "answer": "일본 닛케이 비즈니스는 “DXで韓国に後れ取った日本”이라는 제목으로 한국을 배울 선배로 소개했습니다. UN 순위표에서 2022년 3위 대 14위, 2026년 1위 대 29위입니다. 미주개발은행도 라틴아메리카 공무원을 한국에 보내 비결을 배우게 했습니다.",
+   "next_question": "앞으로 이 1위는 AI 시대에도 이어질까요?",
+   "reversal": "일본은 2014년 UN 순위가 6위였고 2026년 29위입니다. 같은 순위표에서 한국은 2003년 13위로 출발해 2026년 1위에 올랐습니다. 두 나라의 방향이 정반대로 갈라졌다는 점이 이 순위표의 가장 선명한 장면입니다.",
+   "narration_sec": 150,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "닛케이 비즈니스(일본, 2023-09-28): 서울 종합병원 키오스크 접수·결제, “30분이면 끝나 출근 전에 올 수 있다”. UN 전자정부 순위 2022년 한국 3위, 일본 14위(유료 기사, 공개 부분만 확인).",
+     "publisher": "Nikkei Business (Japan)",
+     "foreign": true,
+     "kind": "news",
+     "date": "2023-09-28",
+     "url": "https://business.nikkei.com/atcl/gen/19/00580/092000005/",
+     "quote_original": "韓国は、オンラインサービスの質や通信インフラの整備状況、デジタル人材力で評価される国連の電子政府ランキングにおいて、上位の常連。2022年は3位だ。一方、日本は同14位にとどまった。",
+     "quote_ko": "한국은 온라인 서비스의 질, 통신 인프라, 디지털 인재력으로 평가하는 UN 전자정부 순위에서 상위권 단골이다. 2022년에는 3위였다. 반면 일본은 14위에 머물렀다.",
+     "verified": "snippet",
+     "strength": 4
+    },
+    {
+     "text": "UN 전자정부 데이터 센터의 일본 페이지: 2026년 29위(0.8968), 2024년 13위, 2014년 6위.",
+     "publisher": "UN DESA E-government Knowledgebase (EKAP)",
+     "foreign": true,
+     "kind": "stat",
+     "date": "2026-11-19",
+     "url": "https://ekap.desa.un.org/DataCenter/Country/JPN",
+     "quote_original": "EGDI Rank (2026) #29 of 194 EGDI Group Very High EGDI EGDI Score 0.8968 2024 Rank #13 of 194",
+     "quote_ko": "EGDI 순위(2026) 194개국 중 29위, 점수 0.8968, 2024년 순위 13위.",
+     "verified": "fulltext",
+     "strength": 3
+    },
+    {
+     "text": "미주개발은행(IDB, 2024-09-03): 2010년 이후 한국이 UN 전자정부 상위 3위권을 유지한 “비결”을 알기 위해 라틴아메리카 고위 공무원 6명이 한국을 방문·연수.",
+     "publisher": "Inter-American Development Bank (IDB)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2024-09-03",
+     "url": "https://www.iadb.org/en/blog/modernization-state/public-administration/what-makes-south-korea-trailblazer-digital-transformation-public-sector",
+     "quote_original": "Since 2010, South Korea has consistently ranked among the top three in the UN E-Government Development Index. What is the \"secret sauce\" behind this success?",
+     "quote_ko": "2010년 이후 한국은 UN 전자정부 발전지수에서 줄곧 상위 3위권이었다. 이 성공의 비결은 무엇일까?",
+     "verified": "fulltext",
+     "strength": 3
+    }
+   ],
+   "application": "R07c ¶30 “그동안 한국이 일본을 배워야 한다고 했지만 이제는 일본이 한국을 배워야 한다” → 일본 경제지 제목(“DXで韓国に後れ取った日本”)과 UN 순위표(3위 대 14위, 1위 대 29위)로 역전을 일본 쪽 입에서 확인한다. R05 ¶6 상대국 사람의 반박·자성(“하지만 한 의식 있는 일본 네티즌”) → 일본 기자가 스스로 격차를 진단하는 문장을 원문으로 인용. R02 ¶10 제3국의 눈으로 한·일 나란히 놓기 → 미주개발은행이 한국에 공무원을 보내는 장면을 추가."
+  },
+  {
+   "no": 8,
+   "key": "next",
+   "label": "AI 시대의 정부 — 1위 다음 질문과 처음 질문의 회수",
+   "emotion": "여운·자부",
+   "story_ko": "OECD 보고서는 한국을 AI 정부 분야의 선두 주자라고 부릅니다. 2023년 OECD 디지털 정부 지수의 정부 AI 성숙도에서 한국은 1.00 만점에 0.89를 받아 OECD 평균 0.53을 크게 웃돌았고 평가 대상 33개국 중 1위였습니다. UN의 2026년 조사 제목은 디지털 정부에서 에이전트형 정부로입니다. UN은 AI가 더 선제적이고 반응이 빠른 서비스를 만들 기회를 주지만 신뢰할 수 있는 데이터와 회복력 있는 인프라가 필수라고 적었습니다. 처음 질문으로 돌아가 보면, 1위의 정체는 정부 홈페이지가 아니라 가난하던 1978년부터 쌓은 데이터와 망, 휴대폰 속 신분증, 90퍼센트대 캐시리스, 새벽 7시 배송을 포함한 생활 전체의 속도였습니다.",
+   "question": "UN이 재서 1위가 된 것의 정체는 결국 무엇이었을까요?",
+   "answer": "정부 서비스, 통신망, 결제, 물류가 한 줄로 이어진 생활 전체의 속도입니다. 외국 기관과 외신이 각자 다른 잣대로 같은 방향의 기록을 남겼습니다. OECD는 AI 정부 분야에서도 한국을 1위로 기록했습니다.",
+   "next_question": "이 1위 다음에 세계가 한국에서 배울 기록은 무엇일까요?",
+   "reversal": "처음에는 UN이 재는 것이 정부 홈페이지의 점수인 줄 알았지만, 그 점수를 받치고 있는 것은 반세기 동안 깔린 망과 결제와 물류였습니다. 마지막 칸에서 AI 정부 1위까지 얹히며 질문이 한 단계 올라갑니다.",
+   "narration_sec": 130,
+   "clip_sec": 0,
+   "clips": [],
+   "facts": [
+    {
+     "text": "OECD(2025): 2023년 OECD 디지털 정부 지수의 정부 AI 성숙도에서 한국이 0.89(OECD 평균 0.53)로 33개국 중 1위, 프랑스·에스토니아·영국·덴마크가 뒤를 이음.",
+     "publisher": "OECD",
+     "foreign": true,
+     "kind": "report",
+     "date": "2025-10-29",
+     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/digital-government-review-of-korea_f49872f3/9defc197-en.pdf#page=100",
+     "quote_original": "Korea is a global frontrunner in AI. According to the 2023 OECD Digital Government Index (DGI), Korea scores 0.89 out of 1.00 in government AI-maturity, well above the OECD average of 0.53 (Figure 5.1).",
+     "quote_ko": "한국은 AI 분야의 세계적 선두 주자다. 2023년 OECD 디지털 정부 지수에 따르면 한국의 정부 AI 성숙도는 1.00 만점에 0.89로, OECD 평균 0.53을 크게 웃돈다.",
+     "verified": "fulltext",
+     "strength": 4
+    },
+    {
+     "text": "UN 2026 전자정부 조사 소개: 이번 조사는 AI 기반·에이전트형 공공행정으로의 전환을 다루며, 신뢰할 수 있는 데이터·회복력 있는 인프라·사람의 감독이 필수라고 강조.",
+     "publisher": "UN DESA E-government Knowledgebase (EKAP)",
+     "foreign": true,
+     "kind": "report",
+     "date": "2026-11-19",
+     "url": "https://ekap.desa.un.org/Reports/Detail/5",
+     "quote_original": "The Survey also examines the transition towards AI-enabled and potentially agentic public administration.",
+     "quote_ko": "이번 조사는 AI 기반의, 잠재적으로 에이전트형인 공공행정으로의 전환도 살펴본다.",
+     "verified": "fulltext",
+     "strength": 3
+    }
+   ],
+   "application": "R03 ¶6·¶21 훅 회수(“결국 칠레 언론은 이런 제목을 뽑을 수밖에 없었던 겁니다”) → 훅의 “무엇을 재서 1위인가”를 정부·통신·결제·배달의 한 줄로 회수. R02 ¶17 마지막은 외국 인물·기관의 말로 끝(“한국은 하나의 국가 그 이상입니다”) → OECD·UN의 문장으로 닫는다. R06 ¶43-44 결론 한 줄→해외 원음으로 마무리 구조를 따라 UN 문장으로 끝낸다."
+  }
+ ],
+ "closing": {
+  "callback_ko": "처음 질문이었던 UN이 무엇을 재서 1위를 줬느냐에 답합니다. 홈페이지가 아니라 1978년부터 쌓은 데이터와 망, 휴대폰 속 신분증, 90퍼센트대 캐시리스, 새벽 7시 배송까지 이어진 생활 전체의 속도였습니다.",
+  "last_question_ko": "이 속도 위에서 세계가 다음에 한국에게 배우고 싶은 것은 무엇일까요?"
+ },
+ "time_budget": {
+  "base_sec": 1340,
+  "narration_sec": 1340,
+  "clip_sec": 0,
+  "at_1_2x_sec": 1117,
+  "note": "설계값, 실측 아님. 본문 인용·나레이션 위주(영상 클립 없음): 주제(디지털 정부·인터넷·캐시리스·배달)에 맞는 외국인 영상 클립이 corpus_index·praise_index_all에 없어 외신·국제기구 인용으로 구성"
+ },
+ "used_marks": [],
+ "unverified": [
+  "Ookla 글로벌 인덱스 페이지에 2개 구간 값이 함께 있음(모바일 4위 374.01/고정 27위 319.06 vs 모바일 6위 244.17/고정 22위 253.97). 앞의 값이 2026년 9월 갱신분(전체 순위표에서 한국 4위·27위로 일치)이라 사용, 뒤 값은 미사용. 매일경제(국내)는 고정 22위로 보도.",
+  "UN 전자정부 순위 일본 29위는 2026년 지수 산정 방식 변화(통신 인프라 하위 지수 개편 등)의 영향을 따로 분석하지 않음 — 순위 숫자만 인용.",
+  "OECD 한국 검토는 행정안전부와 협업해 작성된 보고서이나 OECD 이름으로 발행·인용.",
+  "OECD가 인용한 98.1% 만족도는 한국 정부(행안부) 2020년 이용 조사 결과를 OECD가 재인용한 수치.",
+  "CashEssentials의 서울 버스 현금 승객 수치는 서울시 발표를 재인용. 같은 글에는 현금이 아직 두 번째로 많이 쓰이는 지급수단이라는 문장도 있어 현금 비중 16%(스태티스타)와 함께 낭독에는 비율만 사용.",
+  "닛케이 비즈니스·비즈니스 인사이더는 유료벽으로 공개 부분만 읽음(verified=snippet), 핵심 근거로 삼지 않음.",
+  "영상 클립: 주제에 맞는 외국인 영상 원음 클립 없음(corpus·praise 인덱스 키워드 전수 스캔: 전자정부·인터넷·결제·배달·지하철·편의점). claim.sh 선점 없음.",
+  "날짜 표기: Ookla 글로벌 인덱스·Ookla 리서치·스태티스타는 월 단위/열람일(2026-11-22) 기준이며 게시일이 따로 없음.",
+  "레스트 오브 월드 기사는 배달 노동자 처우 문제가 핵심 주제 — 시장 규모 문장만 인용."
+ ]
+}

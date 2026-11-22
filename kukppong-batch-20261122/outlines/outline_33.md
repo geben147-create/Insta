@@ -1,0 +1,272 @@
+# 아웃라인 33 — 한국을 이기려던 나라들은 한국 사람을 데려갔다 — 로이터·BBC·신화통신이 적은 양궁·쇼트트랙·배드민턴·e스포츠의 수출품
+
+- 분야: 스포츠(양궁·쇼트트랙·배드민턴·축구 지도자·e스포츠) / 주전개 D03 (결과에서 원인 역추적) + 보조 D05, D08
+- 시간 설계: 나레이션 1360초 + 클립 0초 = 기본속도 1360초 → 1.2배속 1133초(18분 14초 이상). 영상 클립 0초(2026-11-22 오후 개정: 외신 인용으로 대체). 설계값, 실측 아님. 대본·TTS 아님.
+- 근거 34개 전부 외국 발행처·열람 전문(fulltext). 종류: news·paper·stat·video·comment. 한국 매체·정부 자료는 근거로 쓰지 않음.
+
+## 훅 (외국 매체 인용 3개)
+
+**선언**: 로이터는 양궁 코치를 한국의 수출품이라고 적었습니다. 일본 매체는 배드민턴 강국 한국에서 감독을 초빙했다고 썼고, 중국 신화통신은 올해 네 경기만 진 한국 선수에게 누가 이겼느냐가 뉴스라고 보도했습니다. 세계는 한국을 이기려는 일보다 한국에서 배우는 일을 먼저 시작했습니다.
+
+**첫 질문(30초 안)**: 한국을 이기려는 나라들은 왜 한국 사람의 전화번호부터 눌렀을까요?
+
+| 매체 | 한국어 | 원문 | URL |
+|---|---|---|---|
+| Reuters(로이터) | 반도체와 선박, 스마트폰에 양궁 코치를 더해 한국의 대표 수출품 목록이 된다. | To semiconductors, ships and smart phones, add archery coaches to the list of South Korea’s top exports. | https://reuters.com/article/oly-arch-kor-coaching-day-idUSL3E8I107020120727 |
+| The Mainichi(일본 마이니치) | 이 성공은 2004 아테네 올림픽 뒤 배드민턴 강국 한국에서 초빙한 박주봉 감독이 이끈 연 200일 국가훈련센터 합숙에 크게 힘입은 것이다. | This success owes much to the annual 200-day training camps at the NTC led by South Korean coach Park Joo-bong, who was invited from the badminton superpower to bolster Japanese players after the 2004 Athens Olympics | https://mainichi.jp/english/articles/20160822/p2a/00m/0na/018000c |
+| 新华网(중국 신화통신) | 올해 네 경기만 진 안세영에게 승리는 흔한 일이고, 누가 안세영을 이겼느냐가 뉴스다. | 对于今年只输了四场球的安洗莹来说，赢球稀松平常，谁赢了安洗莹才是新闻。 | http://www.news.cn/sports/20251221/ae2402f6cb1a427eb9af775c9ab36935/c.html |
+
+## 설계 시간표
+| 구간 | 제목 | 감정 | 나레이션(초) | 클립(초) |
+|---|---|---|---|---|
+| 1 | 로이터가 수출품 목록에 올린 양궁 코치 | 놀람 → 호기심 | 165 | 0 |
+| 2 | 누가 이겼느냐가 뉴스가 된 선수 | 통쾌 → 경이 | 170 | 0 |
+| 3 | 월드챔피언도 대표팀에 못 드는 나라 | 납득 → 감탄 | 170 | 0 |
+| 4 | 미국·프랑스·인도가 데려간 한 사람 | 흐뭇함 → 자부 | 170 | 0 |
+| 5 | 금메달 26개, 중국이 벤치에 앉힌 한국인 | 긴장 → 통쾌 | 175 | 0 |
+| 6 | 중국이 처음 모신 외국인 코치 | 의외 → 뿌듯함 | 165 | 0 |
+| 7 | '엉클 박'과 롤드컵 8강의 한국 코치 | 흐뭇함 → 반전의 쾌감 | 170 | 0 |
+| 8 | 가져갈 수 없는 것: 선수와 판 | 감동 → 여운 | 175 | 0 |
+| 합계 | | | 1360 | 0 |
+
+## 8구간 줄거리 (질문 → 답 → 다음 질문)
+
+### 1. 로이터가 수출품 목록에 올린 양궁 코치  (나레이션 165초 · 클립 0초)
+- 목표 감정: 놀람 → 호기심
+- 줄거리: 2012년 런던 올림픽을 앞두고 로이터는 반도체와 선박, 스마트폰의 목록에 한 줄을 더했습니다. 한국의 대표 수출품에 양궁 코치를 올린 것입니다. 미국과 말레이시아, 브라질, 필리핀이 돈을 내고 한국인 코치를 데려가고 있었고, 한국 궁사들은 올림픽 메달 30개와 리커브 세계기록 전부를 갖고 있었습니다. 12년 뒤 파리에서 AP는 돋보기로 화살 위치를 잰 끝에 한국이 중국을 꺾고 여자 단체전 10연속 금메달을 땄다고 보도했습니다. 올림픽 기록 사이트 올림피디아는 같은 날 한국이 올림픽 신기록 2,046점으로 시작했다고 적었고, 인도 힌두스탄 타임스는 한국 양궁의 통치를 설명하는 단어가 '지배' 하나뿐이라고 썼습니다.
+- 질문: 로이터는 왜 양궁 코치를 반도체와 같은 줄에 넣었습니까?
+- 답: 한국 궁사들이 올림픽 금메달 16개와 모든 세계기록을 가졌기 때문에, 이기려는 나라들이 메달보다 먼저 코치를 사 갔습니다. 12년 뒤에도 그 줄은 10연속 금메달로 이어졌습니다.
+- 다음 질문: 코치를 사 가야 할 만큼 이기는 선수는, 지금 한국에서 누구입니까?
+- 클립: 없음(0초)
+- 근거:
+  - [news · 강도 5 · fulltext] Reuters (2012-07-27) — 로이터(2012-07-27)는 런던 올림픽 직전에 미국·말레이시아·브라질·필리핀이 한국 양궁 코치를 돈을 내고 데려간다고 쓰면서, 한국 양궁 코치를 반도체·선박·스마트폰과 같은 수출품 목록에 넣었다. 같은 기사는 한국 궁사들이 올림픽 메달 30개(금 16개)와 리커브 세계기록 전부를 갖고 있다고 적었다.
+    - 원문: “To semiconductors, ships and smart phones, add archery coaches to the list of South Korea’s top exports.”
+    - 번역: 반도체와 선박, 스마트폰에 양궁 코치를 더해 한국의 대표 수출품 목록이 된다.
+    - https://reuters.com/article/oly-arch-kor-coaching-day-idUSL3E8I107020120727
+  - [news · 강도 5 · fulltext] AP (2024-07-28) — AP(2024-07-28): 파리 올림픽 양궁 여자 단체 결승에서 한국이 중국을 슛오프 끝에 꺾고 10연속 금메달을 땄다. 돋보기로 화살 위치를 판정해 10점과 9점이 갈렸다.
+    - 원문: “With the help of a magnifying glass, South Korea edged China in women’s team archery to win its 10th straight gold medal.”
+    - 번역: 돋보기의 도움으로 한국이 중국을 간발의 차로 꺾고 여자 단체전 10연속 금메달을 땄다.
+    - https://apnews.com/article/olympics-2024-archery-south-korea-0f387d5b04061b26d3522037e9030f38
+  - [stat · 강도 4 · fulltext] Olympedia (2024-07-28) — Olympedia(올림픽 기록 사이트): 한국은 파리 랭킹 라운드에서 2,046점(만점 2,160)으로 올림픽 신기록을 세웠고, 결승에서 중국과 4-4 후 29-27 슛오프로 이 종목 10번째 연속 금메달을 땄다.
+    - 원문: “Korea held their nerve to win a high-quality shoot-out 29-27, and so winning their 10th consecutive gold medal in this event.”
+    - 번역: 한국은 평정심을 지켜 수준 높은 슛오프를 29-27로 이겼고, 이 종목 10번째 연속 금메달을 따냈다.
+    - http://www.olympedia.org/results/2000170
+  - [news · 강도 4 · fulltext] Hindustan Times (2024-08-01) — 힌두스탄 타임스(인도 매체, 2024-08-01): 파리 대회 직후 '한국 양궁의 지배를 설명하는 단어는 하나뿐'이라며 1988년 단체전 신설 이후 한국 남자가 10개 중 7개, 여자는 전승이라고 정리했다.
+    - 원문: “Only one word describes South Korea’s reign in archery. Domination.”
+    - 번역: 한국의 양궁 통치를 설명하는 단어는 하나뿐이다. 지배.
+    - https://hindustantimes.com/sports/olympics/hitting-the-bullseye-the-south-korean-way-101722536409325-amp.html
+- R0x 적용: R03 ¶1 훅(현지 기사 제목을 맨 앞에 놓고 다음 문장에서 출처 공개) → 로이터 한 줄을 첫 문장으로 두고 곧바로 매체·날짜 공개 / R01 ¶1 숫자 계단(하루→3일→86개국) → 2012년 금 16개 → 2024년 10연속 → 슛오프 29-27 순으로 한 칸씩 올림
+
+### 2. 누가 이겼느냐가 뉴스가 된 선수  (나레이션 170초 · 클립 0초)
+- 목표 감정: 통쾌 → 경이
+- 줄거리: 중국 신화통신은 2025년 12월 한국 배드민턴 선수 안세영을 소개하며 이렇게 썼습니다. 올해 네 경기만 진 선수에게 승리는 흔한 일이고, 누가 안세영을 이겼느냐가 뉴스라고요. 세계배드민턴연맹 기록으로 그해 안세영은 73승 4패, 승률 94.80%, 한 시즌 상금 100만 달러를 처음 넘긴 선수가 됐고, 일본 모모타 겐토의 단일 시즌 11관왕 기록과 나란히 섰습니다. 2026년 아시안게임에서는 일본 안방에서 야마구치를 꺾고 여자 단식 2연패를 한 첫 선수가 됐고, 올림픽 공식 채널은 2024년 파리에서 이미 '정당하게 시상대 맨 위에 섰다'고 적었습니다. 신화통신은 2026년 4월 아시아선수권에서 한국이 3개 종목을 우승하며 안세영이 그랜드슬램을 달성했다고도 보도했습니다.
+- 질문: 중국 국영 통신사는 왜 한국 선수의 패배 숫자를 헤아리며 기사를 썼습니까?
+- 답: 한 시즌 73승 4패, 승률 94.80%라는 숫자가 있었기 때문입니다. 이기는 것이 일상이라 지는 경기가 뉴스가 되는 선수는 세계 배드민턴에서 이 선수 하나였습니다.
+- 다음 질문: 코치도 선수도 세계 최상위에 있는 이 힘의 시작은 어디일까요? 먼저 양궁의 구조부터 열어 보겠습니다.
+- 클립: 없음(0초)
+- 근거:
+  - [news · 강도 5 · fulltext] 新华网(신화통신) (2025-12-21) — 신화통신(중국, 2025-12-21): 올해 네 경기만 진 안세영에게 승리는 일상이고, 안세영을 누가 이겼느냐가 뉴스라고 적었다. 올림픽·세계선수권·아시안게임 단식 금메달을 모두 가진 23세 세계 1위로 소개한다.
+    - 원문: “对于今年只输了四场球的安洗莹来说，赢球稀松平常，谁赢了安洗莹才是新闻。”
+    - 번역: 올해 네 경기만 진 안세영에게 승리는 흔한 일이고, 누가 안세영을 이겼느냐가 뉴스다.
+    - http://www.news.cn/sports/20251221/ae2402f6cb1a427eb9af775c9ab36935/c.html  (`repo:국뽕해외반응-중국SNS-20261103/data/한국_확장__한국_중국언론.tsv#90`)
+  - [stat · 강도 5 · fulltext] BWF(세계배드민턴연맹) (2025-12-22) — 세계배드민턴연맹(BWF, 2025-12-22): 안세영이 단일 시즌 11관왕으로 일본 모모타 겐토의 기록과 같아졌고, 73승 4패(승률 94.80%)로 한 시즌 상금 100만 달러를 처음 넘긴 선수가 됐다.
+    - 원문: “An Se Young became the first player in history to make over a million US dollars in prize money in a season; with a 73-4 win-loss record, she established a win rate of 94.80 per cent.”
+    - 번역: 안세영은 한 시즌 상금 100만 달러를 넘긴 역사상 첫 선수가 됐고, 73승 4패로 승률 94.80%를 만들었다.
+    - https://bwfworldtourfinals.bwfbadminton.com/news-single/2025/12/22/an-se-young-kim-seo-in-11th-heaven
+  - [news · 강도 4 · fulltext] The Star(말레이시아) (2026-09-30) — 말레이시아 더 스타(2026-09-30): 안세영이 아이치·나고야 아시안게임 결승에서 홈 팬의 응원을 받는 야마구치를 21-17, 21-9로 꺾고, 1962년 이후 16명의 서로 다른 챔피언만 있던 이 종목에서 처음으로 2연패한 선수가 됐다.
+    - 원문: “The South Korean world No. 1 became the first women’s singles player to defend the Asian Games title”
+    - 번역: 한국의 세계 1위가 아시안게임 여자 단식 타이틀을 지켜 낸 첫 선수가 됐다.
+    - https://thestar.com.my/sport/badminton/2026/09/30/se-young-cements-asian-games-legacy-with-historic-title-defence
+  - [news · 강도 4 · fulltext] Olympics.com (2024-08-05) — 올림픽 공식 채널 olympics.com(2024-08): 파리 결승 뒤 '안세영은 정당하게 시상대 맨 위에 섰다'고 썼고, 무릎 부상 속에서도 5경기를 챔피언다운 배드민턴으로 이겼다고 평가했다.
+    - 원문: “She topped the podium fair and square.”
+    - 번역: 그는 정정당당하게 시상대 맨 위에 올랐다.
+    - https://www.olympics.com/en/news/paris-2024-badminton-women-singles-wrap
+  - [news · 강도 3 · fulltext] 新华网(신화통신) (2026-04-12) — 신화통신(2026-04-12): 닝보 아시아선수권에서 한국이 여자 단식·남자 복식·혼합 복식 3개 종목을 우승했고, 안세영은 '그랜드슬램'을 달성했다.
+    - 원문: “韩国队夺得女单、男双和混双三项冠军，名将安洗莹达成全满贯成就。”
+    - 번역: 한국은 여자 단식·남자 복식·혼합 복식 3개 종목을 우승했고, 간판 안세영은 그랜드슬램을 달성했다.
+    - http://www.news.cn/20260412/6780fade6731433a8f1b99d8fb6025eb/c.html  (`repo:국뽕해외반응-중국SNS-20261103/data/한국_확장__한국_중국언론.tsv#89`)
+- R0x 적용: R07c ¶22·¶26 훅·반전(상대국의 반응을 먼저 보여 주고 인물 공개) → 중국 통신사의 평가 문장을 먼저 읽고 안세영 소개 / R06 ¶6 같은 항목 수치 비교(24초 대 1분 4초) → 73승 4패·승률 94.80%·상금 100만 달러를 연달아 제시
+
+### 3. 월드챔피언도 대표팀에 못 드는 나라  (나레이션 170초 · 클립 0초)
+- 목표 감정: 납득 → 감탄
+- 줄거리: 이유는 구조에 있었습니다. BBC는 2012년 한국 양궁을 이렇게 설명했습니다. 초등학교에서 시작해 중·고·대학을 거치며 추려지고, 성인이 되면 33개 기업팀이 급여와 연금을 주며, 엘리트 궁사가 147명이라고요. 다른 나라는 한 손으로 셀 수 있는 숫자였습니다. 미국·스위스 연구진은 2025년 심리학 논문에서 한국 궁사들이 올림픽 금메달의 약 60%, 45개 중 27개를 가져갔다고 적고 65명의 한국 궁사를 조사했습니다. 대만 연구진은 협회와 재계 인사의 참여, 전업 궁사 발굴, 스포츠 과학과 코칭, 체계적인 대회 기회를 네 개의 기둥으로 꼽았고, 중국 해설자도 올림픽 10번 동안 금메달을 놓치지 않은 이유로 같은 육성 체계와 재벌 후원을 들었습니다.
+- 질문: 그 구조는 숫자로 어떻게 나타납니까?
+- 답: 올림픽 금메달 45개 중 27개를 가져갔고, 33개 기업팀이 궁사에게 급여와 연금을 주며 엘리트 궁사가 147명입니다. 다른 나라가 한 손으로 셀 수 있는 규모라서, 코치는 데려갈 수 있어도 구조 전체는 옮기기 어렵습니다.
+- 다음 질문: 그 구조를 통째로 가져올 수 없다면, 나라들은 무엇을 가져갔습니까?
+- 클립: 없음(0초)
+- 근거:
+  - [paper · 강도 4 · fulltext] Frontiers in Psychology(스위스) (2025-01-29) — 스위스 학술지 Frontiers in Psychology 논문(2025-01-29, 저자는 미국 잭슨주립대·한국 가천대 소속): 지난 40년간 한국 올림픽 궁사들이 45개 금메달 중 27개를 땄다고 서두에 적고, 65명의 한국 궁사를 조사해 ×10을 맞히는 심리 전략을 분석했다.
+    - 원문: “South Korean Olympic archers have won approximately 60% of the possible gold medals”
+    - 번역: 한국 올림픽 궁사들은 걸린 금메달의 약 60%를 가져갔다.
+    - https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1482897/full
+  - [news · 강도 4 · fulltext] BBC Sport (2012-07-20) — BBC 스포츠(2012-07-20): 한국 양궁은 초등학교에서 시작해 33개 기업팀이 급여와 연금을 주는 구조로, 엘리트 궁사가 147명이다. 다른 나라는 손에 꼽을 정도다.
+    - 원문: “This set-up ensures that, while nearly every other nation competing at London 2012 can count the number of elite archers on one hand, Korea's total currently stands at 147.”
+    - 번역: 이 구조 덕에 런던 올림픽에 나온 거의 모든 나라가 엘리트 궁사를 한 손으로 셀 수 있는 반면, 한국은 현재 147명이다.
+    - https://bbc.co.uk/sport/olympics/18499167
+  - [paper · 강도 4 · fulltext] The International Journal of the History of Sport(영국) / 국립대만사범대 (2016-04-25) — 영국 Taylor & Francis의 스포츠사 학술지 논문(2016, 공저자에 대만 국립사범대 연구자 포함): 한국 양궁 성공의 핵심 정책 요인을 (i) 협회와 재계 인사 참여 (ii) 전업 궁사 발굴·지원 (iii) 스포츠 과학·코칭·시설 (iv) 체계적 대회 기회, 네 가지로 정리했다.
+    - 원문: “this paper highlights four key policy dimensions that have influenced South Korea’s archery success”
+    - 번역: 이 논문은 한국 양궁의 성공에 영향을 준 네 가지 핵심 정책 차원을 짚는다.
+    - https://scholar.lib.ntnu.edu.tw/en/publications/interrogating-the-key-policy-factors-behind-south-koreas-archery--2
+  - [video · 강도 3 · fulltext] 빌리빌리 중국 해설 영상(BV14S42197vw) (2024-07-28) — 중국 스포츠 해설(빌리빌리 BV14S42197vw, 파리 올림픽 양궁 여자 단체전 해설): 한국은 올림픽 10번에서 금메달을 한 번도 놓치지 않았고, 완벽한 유소년 육성 체계와 재벌 후원으로 자금 걱정이 거의 없었다고 설명한다.
+    - 원문: “韩国也打造了完美的青训体系 国内拥有大量射箭场馆 孩子们从小就开始练习射箭。 韩国射箭协会也得到了当地财阀的大力支持 几乎啊没有为资金发过愁。”
+    - 번역: 한국은 완벽한 유소년 육성 체계도 만들었습니다. 국내에 양궁장이 많고 아이들은 어릴 때부터 활을 배웁니다. 한국양궁협회는 재벌의 큰 지원도 받아 자금 걱정이 거의 없었습니다.
+    - https://www.bilibili.com/video/BV14S42197vw  (`repo:국뽕해외반응-중국SNS-20261103/script/data/BV14S42197vw.script.tsv#rows57,78-82`)
+- R0x 적용: R07b ¶13·¶16 '이유가 있습니다 → 다음 문장이 답'(떡밥 회수) → 구간 1·2의 결과에 대한 원인(학교·기업팀·훈련)을 바로 다음 문장으로 제시 / R05 ¶14–16 제3국 방송의 자기 인정 원음 → 영국 BBC와 영국 선수의 비교 발언을 같은 위치에 배치
+
+### 4. 미국·프랑스·인도가 데려간 한 사람  (나레이션 170초 · 클립 0초)
+- 목표 감정: 흐뭇함 → 자부
+- 줄거리: 구조를 가져올 수 없다면 사람을 데려오면 됩니다. 미국양궁협회는 2006년 이기식 감독을 영입했는데, 그는 당시 세계에서 가장 찾는 사람이 많은 양궁 코치였고 18년 동안 미국은 월드컵 메달을 300개 넘게 땄습니다. 프랑스는 홈 올림픽을 2년 앞두고 한국 대표팀 출신 오선택 감독을 영입했고, 파리 남자 단체전 은메달을 세계양궁연맹은 '한국인이 설계한 메달'이라고 썼습니다. 프랑스 선수 토마 시로는 그가 자신의 문화와 경험을 가져와 많은 것을 바꿨다고 말했습니다. 인도는 2025년 이기식 감독에게 LA 올림픽 총감독을 맡겼습니다.
+- 질문: 한국인 코치를 데려간 나라들은 무엇을 얻었습니까?
+- 답: 미국은 월드컵 메달 300개 이상을, 프랑스는 홈 올림픽 은메달을, 인도는 2028년 올림픽 계획을 얻었습니다. 한국을 막으려 데려온 코치가 자기 나라를 한국 바로 옆 시상대까지 올려놓았습니다.
+- 다음 질문: 양궁만 이런가요? 한국이 금메달을 가장 많이 딴 겨울 종목, 쇼트트랙에서는 어땠습니까?
+- 반전: 한국을 막으려고 데려온 코치가 자기 나라를 한국 바로 옆 시상대까지 올려놓았다.
+- 클립: 없음(0초)
+- 근거:
+  - [news · 강도 5 · fulltext] World Archery(스위스) (2024-07-30) — 세계양궁연맹(2024-07-30): 파리 남자 단체전 은메달을 딴 프랑스 팀의 중심에는 한국인 오선택 감독이 있었다고 쓴다. 프랑스 선수 토마 시로는 '그가 자신의 문화와 경험을 갖고 와서 많은 것이 바뀌었다'고 말한다.
+    - 원문: “It was one of the most well-deserved archery Olympic medals – and it was masterminded by a Korean.”
+    - 번역: 올림픽 양궁에서 가장 값진 메달 중 하나였고, 그 설계자는 한국인이었다.
+    - https://worldarchery.sport/news/201751/hosts-france-grab-well-deserved-silver
+  - [news · 강도 4 · fulltext] World Archery(스위스) (2022-07-06) — 세계양궁연맹(2022-07-06): 프랑스 양궁이 홈 올림픽을 앞두고 한국 대표팀 출신 오선택 감독을 영입했다. 시드니·런던 올림픽 경력을 가진 인물이다.
+    - 원문: “hired former Korean head coach Oh Seok Tek to lead the squad towards and during Paris 2024”
+    - 번역: (프랑스는) 한국 대표팀 출신 오선택 감독을 영입해 파리 2024를 앞두고 대표팀을 이끌게 했다.
+    - https://worldarchery.sport/news/200827/does-hiring-korean-coach-work
+  - [news · 강도 4 · fulltext] USA Archery(미국) (2024-07-22) — 미국양궁협회(2024-07-22): 이기식 감독은 2006년 1월 미국 대표팀을 맡았을 때 '세계에서 가장 모시기 힘든 양궁 코치'였고, 그의 18년 동안 미국은 월드컵 메달 300개 이상(최다국)을 땄다. 미국 대표 브래디 엘리슨은 그를 '지금까지 있었던 최고'라고 부른다.
+    - 원문: “In January 2006, Coach Lee was the most sought-after archery coach in the world when he took the National Head Coach position at USA Archery.”
+    - 번역: 2006년 1월 이 코치가 미국양궁협회 대표팀 감독을 맡았을 때, 그는 세계에서 가장 찾는 사람이 많은 양궁 코치였다.
+    - https://usarchery.org/news/usa-archery-celebrates-18-year-tenure-of-national-head-coach-kisik-lee
+  - [news · 강도 4 · fulltext] World Archery(스위스) (2025-06-17) — 세계양궁연맹(2025-06-17): 2028 로스앤젤레스 올림픽을 앞두고 이기식 감독이 인도 리커브 대표팀 총감독을 맡는다. 그는 한국 올림픽 대표팀 감독으로 국제 경력을 시작했다고 소개한다.
+    - 원문: “Lee brings a decorated coaching legacy, having started his international career as head coach of the Korean Olympic archery team.”
+    - 번역: 이 감독은 한국 올림픽 양궁 대표팀 감독으로 국제 경력을 시작한 화려한 지도 이력을 갖고 온다.
+    - https://worldarchery.sport/news/202026/kisik-lee-become-indias-head-coach-ahead-la28
+- R0x 적용: R05 ¶4·¶6 '가장 부러워하는 국가' 주장 → 외국 매체가 문장으로 근거를 댐: 월드 아처리·미국양궁협회·프랑스 선수 인용 / R03 ¶4–5 장애 두 번 뒤 해소 → '낯선 방식이라는 부담을 넘고 올림픽 은메달' 구조로 프랑스 사례 압축
+
+### 5. 금메달 26개, 중국이 벤치에 앉힌 한국인  (나레이션 175초 · 클립 0초)
+- 목표 감정: 긴장 → 통쾌
+- 줄거리: 쇼트트랙에서는 숫자가 먼저 말합니다. 국제빙상연맹은 올림픽 쇼트트랙 금메달 최다국을 한국이라고 적었습니다. 금메달 26개로, 2위 중국의 12개보다 두 배 넘게 많고, 총 메달도 53개로 선두입니다. 한국은 1992년 알베르빌에서 김기훈이 첫 금메달을 딴 뒤 최근 아홉 번의 대회 가운데 여섯 번 메달 순위 1위를 했습니다. 중국은 베이징 올림픽을 앞두고 한국 출신 김선태 감독을 총감독으로 앉혔습니다. 글로벌타임스는 한국 출신 지도자들이 중국 쇼트트랙의 성장에 기여했다고 썼고, 올림픽 공식 채널은 2026년 밀라노에서 김길리와 최민정이 여자 1500m 1-2위를 만들었다고 전했습니다.
+- 질문: 한국인 지도자까지 데려간 중국과 한국의 금메달 숫자는 지금 얼마나 차이가 납니까?
+- 답: 국제빙상연맹 기록으로 26 대 12입니다. 코치를 데려가도 금메달 수는 한국의 절반에 못 미칩니다.
+- 다음 질문: 양궁과 쇼트트랙이 한국 사람을 불렀다면, 배드민턴은 어느 나라가 부릅니까?
+- 반전: 한국인 지도자를 데려간 중국도 올림픽 금메달 수는 26 대 12로 한국의 절반에 못 미친다.
+- 클립: 없음(0초)
+- 근거:
+  - [stat · 강도 5 · fulltext] ISU(국제빙상연맹) (2026-02-03) — 국제빙상연맹(ISU, 2026-02-03): 동계올림픽 쇼트트랙 금메달 26개로 한국이 최다, 2위 중국(12개)의 두 배 이상이다. 총 메달 53개로 선두, 캐나다·중국은 각 37개다.
+    - 원문: “Korea has the most Olympic gold medals in the sport with 26, more than double that of second-placed People’s Republic of China, who have 12.”
+    - 번역: 한국은 이 종목에서 올림픽 금메달이 가장 많은 26개로, 2위 중국의 12개보다 두 배 넘게 많다.
+    - https://www.isu-skating.com/en/news/short-track-most-wins-and-appearances-at-the-olympics/
+  - [news · 강도 4 · fulltext] Global Times(중국) (2022-02-12) — 중국 글로벌타임스(2022-02-12): 김선태 감독이 2019년 중국 대표팀 코치진에 합류해 2021년 10월 총감독을 맡았고, 그 팀이 베이징 올림픽을 준비했다. 한국 출신 지도자들이 중국 쇼트트랙의 성장에 기여했다고 정리한다.
+    - 원문: “Kim joined Team China's backroom staff in 2019, and became the head coach of the team in October 2021, to prepare the team in the run-up to the Beijing Winter Olympics.”
+    - 번역: 김 감독은 2019년 중국 대표팀 코치진에 합류했고, 2021년 10월 베이징 동계올림픽을 준비하는 총감독이 됐다.
+    - https://www.globaltimes.cn/page/202202/1252053.shtml
+  - [news · 강도 4 · fulltext] Olympics.com (2022-02-05) — 올림픽 공식 채널(2022-02-05): 베이징 대회를 앞두고 한국을 '쇼트트랙에서 기대가 늘 높은 나라'로 소개하며 동계올림픽 역대 금메달 24개를 기록으로 적었다.
+    - 원문: “Expectations are always high for the Republic of Korea in short track with a record 24 gold medals in Winter Olympic history.”
+    - 번역: 쇼트트랙에서 대한민국에 거는 기대는 늘 높고, 동계올림픽 역대 금메달 기록은 24개다.
+    - https://www.olympics.com/en/news/south-korea-women-short-track-speed-skating-beijing-2022
+  - [news · 강도 3 · fulltext] Olympics.com (2026-02-20) — 올림픽 공식 채널(2026-02-20): 2026 밀라노·코르티나 쇼트트랙 마지막 날 여자 1500m에서 김길리가 금메달, 최민정이 은메달로 한국이 1-2를 만들었다.
+    - 원문: “Winter Olympics 2026: Kim Gilli dethrones heroine Choi Minjeong for Republic of Korea 1-2 in women's short track speed skating 1500m”
+    - 번역: 2026 동계올림픽: 김길리가 영웅 최민정을 제치고 대한민국이 여자 쇼트트랙 1500m에서 1-2위를 차지했다.
+    - https://olympics.com/en/milano-cortina-2026/news/winter-olympics-2026-kim-gilli-dethrones-heroine-choi-minjeong-republic-of-korea-womens-short-track-1500m
+- R0x 적용: R04 ¶13–14 '더욱 놀라운 사실이 있습니다' → 한 칸 위 정보 / R07c ¶30 '그동안 ~ 이제는' 역전 공식 → 중국이 가져간 것은 코치였지만 올림픽 금메달 수는 한국이 두 배라는 수치로 정리
+
+### 6. 중국이 처음 모신 외국인 코치  (나레이션 165초 · 클립 0초)
+- 목표 감정: 의외 → 뿌듯함
+- 줄거리: 배드민턴은 세 나라가 같은 선택을 했습니다. 세계배드민턴연맹은 2019년 중국 대표팀이 사상 처음으로 외국인 코치를 두게 됐고, 그 첫 이름이 한국의 강경진과 유용성이라고 적었습니다. 같은 기사는 박태상과 김지현 같은 한국 코치들이 인도와 태국에 영입돼 신두의 세계선수권 금메달과 태국의 최고 성적을 도왔다고 씁니다. 일본 마이니치는 2016년 리우 올림픽에서 일본 여자 복식이 사상 첫 금메달을 딴 것은, 2004년 아테네에서 선수 11명을 보내고도 1승에 그친 뒤 '배드민턴 강국' 한국에서 초빙한 박주봉 감독의 연 200일 합숙 덕분이라고 보도했습니다.
+- 질문: 배드민턴 강국인 중국과 일본이 왜 한국 사람을 찾았습니까?
+- 답: 중국은 세계선수권 결승에 한 종목만 올린 해에, 일본은 아테네에서 1승에 그친 뒤에 한국 지도자를 찾았고, 인도와 태국은 한국 코치를 영입해 세계선수권 메달을 얻었습니다. 서로 다른 사정을 가진 나라들이 같은 나라를 골랐습니다.
+- 다음 질문: 활과 얼음, 라켓에서 시작된 이 흐름은 공을 차는 종목과 모니터 앞에도 이어집니까?
+- 반전: 중국이 사상 처음으로 외국인 코치를 들이기로 하고 고른 나라가 한국이었다.
+- 클립: 없음(0초)
+- 근거:
+  - [news · 강도 4 · fulltext] BWF(세계배드민턴연맹) (2019-09-06) — 세계배드민턴연맹(2019-09-06): 중국 대표팀이 사상 처음으로 외국인 코치로 한국의 강경진·유용성을 영입했다. 한국 코치였던 김지현·박태상은 인도·태국에 영입돼 인도 신두의 세계선수권 금메달과 태국의 사상 최고 성적을 도왔다고 적는다.
+    - 원문: “The Chinese national badminton team will have non-Chinese coaches for the first time ever with Korea’s Kang Kyung Jin and Yoo Yong Sung joining the squad.”
+    - 번역: 중국 배드민턴 대표팀은 한국의 강경진·유용성이 합류하면서 사상 처음으로 외국인 코치를 두게 된다.
+    - https://bwfbadminton.com/news-single/2019/09/06/history-made-as-china-signs-up-korean-coaches
+  - [news · 강도 4 · fulltext] The Mainichi(일본) (2016-08-22) — 일본 마이니치(2016-08-22): 일본이 2004 아테네에서 배드민턴 11명을 보내고도 1승에 그치자 '배드민턴 강국' 한국의 박주봉 감독을 초빙했다. 연 200일 합숙 끝에 리우에서 일본 여자 복식이 사상 첫 올림픽 금메달을 땄다.
+    - 원문: “This success owes much to the annual 200-day training camps at the NTC led by South Korean coach Park Joo-bong, who was invited from the badminton superpower to bolster Japanese players after the 2004 Athens Olympics”
+    - 번역: 이 성공은 2004 아테네 올림픽 뒤 배드민턴 강국 한국에서 초빙한 박주봉 감독이 이끈 연 200일 국가훈련센터 합숙에 크게 힘입은 것이다.
+    - https://mainichi.jp/english/articles/20160822/p2a/00m/0na/018000c
+  - [news · 강도 3 · fulltext] Olympics.com (2023-02-25) — 올림픽 공식 채널(2023-02-25): 한국 출신 박태상 코치는 2019년 말부터 인도 신두의 코치를 맡아 도쿄 올림픽 동메달 때 코트 옆을 지켰다.
+    - 원문: “Park Tae-Sang is among the most recognisable coaches in badminton and was on PV Sindhu’s courtside during her bronze medal win at the Tokyo Olympics.”
+    - 번역: 박태상은 배드민턴에서 가장 눈에 띄는 코치 중 한 명이고, 신두의 도쿄 올림픽 동메달 때 코트 옆에 있었다.
+    - https://olympics.com/en/news/who-is-park-tae-sang-badminton-player-coach-pv-sindhu
+- R0x 적용: R02 ¶9–11 제3국의 눈으로 두 나라를 나란히 놓기 → 중국·일본·인도가 각자 한국인 지도자를 고른 이유를 나란히 비교 / R01 ¶5 '한국 청년들만의 문제가 아닙니다' 확장 → 한 나라가 아니라 세 나라가 같은 선택을 했다는 점으로 확장
+
+### 7. '엉클 박'과 롤드컵 8강의 한국 코치  (나레이션 170초 · 클립 0초)
+- 목표 감정: 흐뭇함 → 반전의 쾌감
+- 줄거리: 축구에서는 베트남이 그랬습니다. 가디언은 2017년 베트남에 온 박항서 감독을 '엉클 박'이라 부르며, 그가 축구에 미친 나라의 영웅이자 온갖 한국 제품과 기업의 얼굴이 됐다고 썼습니다. 올림픽 공식 채널은 그 이전에 8개월을 넘긴 외국인 감독이 한 명도 없었고 베트남 팬들이 한국 국기를 흔든다고 적었고, 가디언은 인도네시아도 신태용 감독이 한 단계 높은 곳으로 이끌고 있다고 전했습니다. 롤드컵에서는 미국 매체 더 게임하우스가 2018년 8강 8팀 중 6팀에 한국 코치가 있다고 집계했고, 본선 로스터의 한국 코치 비중이 2015년 31%에서 2018년 50%로 올랐다고 분석했습니다.
+- 질문: 축구와 e스포츠에서는 어떤 일이 벌어졌습니까?
+- 답: 동남아시아에서는 한 감독이 나라의 얼굴이 됐고, 롤드컵에서는 선수를 데려오던 팀들이 한국 코치를 데려오는 쪽으로 바뀌었습니다.
+- 다음 질문: 코치를 가져가도 가져갈 수 없는 것이 있다면, 그건 무엇입니까?
+- 반전: 선수를 사 오던 흐름이 코치를 사 오는 흐름으로 바뀌었다.
+- 클립: 없음(0초)
+- 근거:
+  - [news · 강도 4 · fulltext] The Guardian(영국) (2024-04-03) — 영국 가디언(2024-04-03): 2017년 베트남에 온 박항서 감독을 '엉클 박'이라 부르며, 그가 축구에 미친 나라의 영웅이자 온갖 한국 제품과 기업의 얼굴이 됐다고 쓴다. 인도네시아는 여전히 한국인 신태용 감독이 한 단계 높은 곳으로 데려가고 있다고 덧붙인다.
+    - 원문: ““Uncle Park” became a hero in this football-mad country and the face of all manner of Korean products and companies.”
+    - 번역: ‘엉클 박’은 축구에 미친 이 나라의 영웅이자 온갖 한국 제품과 기업의 얼굴이 됐다.
+    - https://theguardian.com/football/2024/apr/03/vietnam-missing-the-glory-days-of-park-hang-seo-as-indonesia-step-up
+  - [news · 강도 3 · fulltext] Olympics.com (2022-05-11) — 올림픽 공식 채널(2022-05-11): 박항서 이전에는 8개월을 넘긴 외국인 감독이 없었고, 그는 5년째 자리를 지키며 베트남 팬들이 한국 국기를 흔드는 모습도 볼 수 있다고 쓴다.
+    - 원문: “Before him, no foreign coach had made it past the eight-month mark in a job”
+    - 번역: 그 이전에는 8개월을 넘긴 외국인 감독이 한 명도 없었다.
+    - https://olympics.com/en/news/park-hang-seo-vietnam-coach-football-south-korea
+  - [news · 강도 4 · fulltext] The Game Haus(미국) (2018-10-20) — 미국 게임 매체 더 게임하우스(2018-10-20): 롤드컵 8강에 오른 8팀 중 6팀이 한국 코치를 두었고, 본선 전체 로스터의 한국 코치 비중이 2015년 31%에서 2018년 50%로 올랐다. 선수를 데려오던 팀들이 이제 한국 코치를 데려온다고 분석한다.
+    - 원문: “Of the eight teams locked into quarterfinals, six have Korean coaches.”
+    - 번역: 8강에 확정된 8팀 중 6팀에 한국인 코치가 있다.
+    - https://thegamehaus.com/columns/league-of-legends-korean-coaches-the-silent-stars-of-worlds/2018/10/20
+- R0x 적용: R05 ¶13 '먼저 했던 나라' 이야기로 한국을 비춤 → 먼저 선수를 사 오다 코치를 사 오는 쪽으로 바꾼 로스터 / R06 ¶16·¶38 '그동안 ~ 이제는' 역전 → 선수 수입에서 코치 수입으로 바뀐 흐름
+
+### 8. 가져갈 수 없는 것: 선수와 판  (나레이션 175초 · 클립 0초)
+- 목표 감정: 감동 → 여운
+- 줄거리: 결국 가져갈 수 없는 것은 선수와 그 선수가 자란 판입니다. 신화통신은 2024년 런던 결승에서 T1이 중국 BLG를 꺾고 5번째 우승을 했다고 쓰며 페이커를 '리그 오브 레전드 분야에서 공인된 역대 최고 선수'라고 불렀습니다. 2025년 히트마커는 T1이 같은 대회 3연패를 처음 이뤘다고 전했고, 위키백과의 지역별 표에는 한국 LCK 우승 10회가 적혀 있습니다. 중국 샤오홍슈 이용자는 '반짝하고 끝나면 재능일 뿐이고 계속 반짝이는 게 천재'라고 댓글을 달았고, 한국 PC방 방문기에는 좋아요 3153개를 받은 댓글이 '금연인 데다 먹을 것도 많아서 중국 PC방을 압살한다'고 적었습니다. 골프에서는 골프위크가 한국 선수 49명의 LPGA 통산 220승을 정리했습니다.
+- 질문: 그러면 한국이 코치를 내주고도 계속 이기는 이유는 어디에 있습니까?
+- 답: 선수를 어릴 때부터 길러 내는 판이 한국에 있기 때문입니다. 중국 이용자들의 댓글은 PC방의 환경과 좁은 땅의 촘촘한 네트워크에서 그 판의 모양을 짚었고, 신화통신은 그 결과로 페이커를 역대 최고 선수라고 불렀습니다.
+- 다음 질문: 다음 올림픽에서 한국 사람을 벤치에 앉히려는 나라는 어디일까요?
+- 클립: 없음(0초)
+- 근거:
+  - [news · 강도 4 · fulltext] Hitmarker(미국) (2025-11-09) — 미국 게임 뉴스 히트마커(2025-11-09): T1이 롤드컵 결승에서 KT를 3-2로 꺾고 같은 대회 3연패를 처음 이뤘고, 페이커가 여섯 번째 우승 트로피를 들었다.
+    - 원문: “T1’s League of Legends roster has made history, becoming the first-ever team to win the tournament consecutively three times, with legendary player Lee “Faker” Sang-hyeok lifting his sixth Worlds trophy.”
+    - 번역: T1은 같은 대회를 연달아 세 번 우승한 첫 팀이 됐고, 전설적인 선수 이상혁(페이커)이 여섯 번째 롤드컵 트로피를 들어 올렸다.
+    - https://hitmarker.net/news/t1-wins-the-2025-league-of-legends-world-championship-marking-the-esports-first-ever-three-peat-1571123
+  - [news · 강도 4 · fulltext] 新华网(신화통신) (2024-11-03) — 신화통신(2024-11-03): 런던 결승에서 T1이 중국 BLG를 꺾고 5번째 우승을 했다. 신화는 페이커를 '리그 오브 레전드 분야에서 공인된 역대 최고 선수'라고 부른다.
+    - 원문: “作为英雄联盟领域公认的史上最佳选手，28岁的Faker率队七次打入世界赛决赛，两度卫冕。”
+    - 번역: 리그 오브 레전드 분야에서 공인된 역대 최고 선수인 28세 페이커는 팀을 7번 결승에 올렸고 두 번 2연패를 했다.
+    - http://www.news.cn/20241103/b2ccf70103574ad2a20257a447977fb0/c.html  (`repo:국뽕해외반응-중국SNS-20261103/data/한국_확장__한국_중국언론.tsv#46`)
+  - [stat · 강도 3 · fulltext] Wikipedia(League of Legends World Championship) (2026-11-22) — 위키백과 롤드컵 문서(열람 2026-11-22): 지역별 우승 표에서 한국 LCK가 우승 10회, 준우승 8회로 결승에 18번 올랐다.
+    - 원문: “South Korea ( LCK ) 10 8 18”
+    - 번역: 한국(LCK): 우승 10회, 준우승 8회, 합계 18회(지역별 표).
+    - https://en.wikipedia.org/wiki/League_of_Legends_World_Championship  (`repo:kukppong-batch-20261122/outlines/outline_07.json#sections/esports/facts`)
+  - [comment · 강도 3 · fulltext] 샤오홍슈(rednote) 댓글 (2025-11-13) — 샤오홍슈 댓글(좋아요 743, 2025-11-13, '왜 다들 페이커를 사랑할까?' 게시물): 중국 이용자가 '반짝하고 끝나면 재능일 뿐이고, 계속 반짝이는 게 천재'라고 적었다.
+    - 원문: “现在也看的很清楚了，昙花一现只能算是有天赋，而昙花一直现，才是天才”
+    - 번역: 이제 확실히 보인다. 반짝하고 끝나면 재능일 뿐이고, 계속 반짝이는 게 천재다.
+    - https://www.rednote.com/discovery/item/6915c2ba000000000503aed1?xsec_token=ABoeQJMwNNc2PilFCAONYtTnF3nWtl1dNG8zZM72GjrkE%3D&xsec_source=pc_search  (`repo:국뽕해외반응-중국SNS-20261103/data/한국_확장__한국확장_댓글.tsv#144`)
+  - [comment · 강도 2 · fulltext] 샤오홍슈(rednote) 댓글 (2026-10-14) — 샤오홍슈 댓글(좋아요 341, 2026-10-14, '한국 e스포츠는 왜 이렇게 강할까?' 게시물): 중국 이용자가 라이엇 공식 다큐를 근거로 '한국 유저는 LOL을 일찍 접했고 땅이 좁아 네트워크 밀도가 높아 초기 고수들이 자주 교류했다'고 설명했다.
+    - 원문: “拳头官方纪录片有解释，韩国玩家接触LOL早加上地方小因此网络密度极高，早期高手频繁交流。”
+    - 번역: 라이엇 공식 다큐에 설명이 있다. 한국 유저는 LOL을 일찍 접했고 땅이 좁아 네트워크 밀도가 매우 높아서 초기 고수들이 자주 교류했다.
+    - https://www.rednote.com/discovery/item/6acf563d0000000015007633  (`repo:국뽕해외반응-중국SNS-20261103/data/한국_확장__한국확장_댓글.tsv#row3`)
+  - [comment · 강도 2 · fulltext] 샤오홍슈(rednote) 댓글 (2026-04-01) — 샤오홍슈 댓글(좋아요 3153, 2026-04-01, 한국 PC방 방문기): 중국 이용자가 '한국 PC방은 금연인 데다 먹을 것도 많아서 국내 PC방을 압살한다'고 적었다.
+    - 원문: “韩国网吧不能抽烟还有吃的很多吊打国内网吧”
+    - 번역: 한국 PC방은 금연인 데다 먹을 것도 많아서 국내(중국) PC방을 압살한다.
+    - https://www.rednote.com/discovery/item/69cd085c000000002202adc0?xsec_token=AB3nibOgg9fwL08zHSMbg0L5cUUqnTpam-GNQMzaqS-HI%3D&xsec_source=pc_search  (`repo:국뽕해외반응-중국SNS-20261103/data/한국_확장__한국확장_댓글.tsv#44`)
+  - [stat · 강도 3 · fulltext] Golfweek(미국) (2024-03-20) — 미국 골프위크(2024-03-20): 한국 선수 49명이 LPGA 통산 220승을 합작했고, 박세리의 1998년 우승 10년 뒤 LPGA 카드를 가진 한국인이 40명이 넘었다고 정리한다.
+    - 원문: “A total of 49 South Korean players have won a combined 220 LPGA titles.”
+    - 번역: 한국 선수 49명이 LPGA 통산 220승을 합작했다.
+    - https://golfweek.usatoday.com/story/sports/golf/2024/03/20/winningest-south-koren-players-lpga-history/76351866007/
+- R0x 적용: R06 ¶43–44 마지막 회수(결론 한 줄 → 해외 네티즌 원음으로 종결) → 중국 네티즌 댓글로 마무리 / R03 ¶6·¶21 훅 회수 → 로이터 '수출품 목록' 한 줄을 목록이 길어진 형태로 회수 / R07b ¶21 댓글 펀치라인 → 'PC방을 압살한다' 댓글로 가볍게 맺음
+
+## 마무리
+
+- 회수: 처음의 로이터 한 줄은 이제 목록이 길어졌습니다. 반도체·선박·스마트폰 옆에서 시작한 양궁 코치는 쇼트트랙 벤치와 배드민턴 코트, 베트남 벤치와 롤드컵 코치진까지 퍼졌고, 그 뒤에는 코치를 내주고도 계속 이기는 선수와 판이 남아 있습니다.
+- 마지막 질문: 다음 올림픽에서 한국 사람을 벤치에 앉히려는 나라는 어디일까요?
+
+## 쓰지 않은 불리한 자료·열람 메모 (unverified, 낭독 안 함)
+
+- (미사용·불리) 2026 롤드컵 결승은 중국 BLG가 젠지를 3-1로 꺾었다(위키백과 롤드컵 문서). 찬양 흐름과 어긋나 낭독에 넣지 않음. 위키 표의 '우승 10회'는 2025년까지의 한국 우승이다.
+- (미사용·불리) 2026 전영오픈에서 왕즈이가 안세영에게 10연패를 끊는 승리(신화통신 2026-04-12 기사 본문). 낭독에서 제외.
+- (미사용·불리) 2026 밀라노 쇼트트랙 종합 1위는 네덜란드(금 5개)이며 한국은 여자 계주·여자 1500m 금(ISU/로이터). 베이징 2022 혼성계주 조기 탈락, 남자 1000m 실격 보도도 글로벌타임스에 있음. 낭독 제외.
+- (미사용·불리) 인도네시아는 2025-01 신태용 감독 해임(로이터·ESPN). 베트남은 박항서 이후 성적 하락(가디언 본문). 낭독에서는 박항서 시기 평가와 신태용 현재 평가 구절만 사용.
+- 구간 4의 이기식 감독 '300개 이상 월드컵 메달'은 미국양궁협회 발표 문구(자국 협회 자기 평가). 근거 비중은 낮추고 월드아처리·시로 인용으로 보강.
+- 프랑스 은메달·오선택 이름 표기는 세계양궁연맹 기사에 Oh Seon Tek/Oh Seok Tek 두 표기가 섞여 있다. 한글 표기는 오선택(국내 보도 표기)으로 통일.
+- 로이터 2012 기사는 원문 사이트가 봇 차단이라 Internet Archive 사본(web.archive.org/web/2/…)으로 본문 전체를 읽었다. AP·올림픽닷컴 일부 구간도 같은 방식. url은 원 기사 주소.
+- BWF 2019 기사의 '세계선수권 결승에 한 종목만 올랐다'는 문구는 중국의 부진 설명이므로 구간 6 답변에서 한 문장으로만 사용.
+- NYT The Athletic(페이커 15년)·로이터 2024 양궁 전 종목 석권 기사는 봇 차단으로 열람 불가 → 근거로 쓰지 않음. 한국 매체(연합뉴스·코리아헤럴드·동아)는 근거로 치지 않고 사실 대조에만 사용.
+- 빌리빌리 BV14S42197vw 해설의 '묘지 훈련' 대목은 저장소 태그가 '나쁜평가'라 쓰지 않음. date 필드는 업로드일이 아니라 해설 대상 경기일(2024-07-28).
+- 샤오홍슈 댓글 3건은 저장소 TSV의 번역(기계번역)을 사용, 중국어 원문은 파일 행과 일치 확인. 구간 8의 '좋아요 3153' 댓글은 PC방 방문기 게시물 댓글이며 페이커 게시물과 별개.
+- 이전 아웃라인과의 겹침: 07(야구·손흥민·e스포츠 한 줄), 13(일상 스포츠 한 구간의 양궁 10연패). 본 편은 '외국이 한국 지도자를 데려간다'는 한 축으로 묶었고 손흥민·야구는 쓰지 않음. 올림피디아 양궁 URL은 13과 같으나 본 편에서는 10연패 근거로만 사용.

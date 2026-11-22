@@ -117,7 +117,30 @@
       "depiction": "generated_from_tripcom_facility_photo",
       "trip_affiliate_url": null,
       "trip_affiliate_status": "pending",
-      "creative_reference_url": "https://www.youtube.com/watch?v=A9h1jHGffVw"
+      "creative_reference_url": "https://www.youtube.com/watch?v=A9h1jHGffVw",
+      "flow_prompt": "flow-prompts/sample-popcorn.md",
+      "flow_prompt_sha256": "f8f14bb207dbc75617b59e4a541fe27daf5a5dc01fd2c189a5ebfbb9146b4fed",
+      "flow_video_status": "pending_connection"
+    },
+    {
+      "trip_hotel_id": "688858",
+      "facility": "뽀로로 아쿠아빌리지 가족 워터파크",
+      "facility_source_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-688858/hanwha-resort-gyeongju/",
+      "trip_public_url": "https://www.trip.com/hotels/gyeongju-hotel-detail-688858/hanwha-resort-gyeongju/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0220q12000pu5amfaCFEB_Z_1280_853_R50_Q90.jpg",
+      "facility_photo_sha256": "937286e67fffeaef7bf448cb795cbe3beaeea6d8023f944f60f577ae6bc96eff",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "queue_id": "01",
+      "file": "01-왕멜론콘.png",
+      "local_relative_path": "queue-60/01-왕멜론콘.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "1c9c7c3373e4f01fc7c7e8263f77aa89e38c3257025081d45d9ff0f6b194b628",
+      "flow_prompt": "flow-prompts/01-melon-cone.md",
+      "flow_video_status": "pending_connection",
+      "flow_prompt_sha256": "ffc6da2d6d3edbeb42a4b5d711e2c3091803976fa19368eb12cb13ed5dec4ec0"
     }
   ]
 }

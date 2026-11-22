@@ -23,4 +23,8 @@ sha256sum -- '최종이미지.png'
 
 왕팝콘 시안은 한화리조트 경주 Trip.com 갤러리에서 워터파크로 표시된 사진을 썼다. [숙소·시설](https://www.trip.com/hotels/gyeongju-hotel-detail-688858/hanwha-resort-gyeongju/) · [시설 원본 사진](https://ak-d.tripcdn.com/images/0220q12000pu5amfaCFEB_Z_1280_853_R50_Q90.jpg) · [청담언니 팝콘 참고](https://www.youtube.com/watch?v=A9h1jHGffVw)
 
-[예약 제작 50편](queue-50.md)
+[예약 제작 60편](queue-60.md)
+
+## Flow 영상 인수인계
+
+각 회차는 독립 PNG와 짝을 이루는 Flow I2V 프롬프트를 `flow-prompts/`에 둔다. `assets.json`에서 이미지와 프롬프트 해시, 실제 시설 사진, 숙소 링크를 같은 번호로 조회한다. 첫 1초에 놀라는 표정과 대형 소품의 변형을 보여주고, 식용 소재는 떼어낸 작은 조각을 실제로 먹는 장면과 질감에 맞는 소리로 끝맺는다. 화장품과 공예 슬라임은 손동작으로 질감을 표현한다. 영상 생성 상태는 이미지·프롬프트 완성과 별도로 기록한다.

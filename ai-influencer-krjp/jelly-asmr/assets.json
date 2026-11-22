@@ -1977,6 +1977,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품이 갈라질 때 단면과 짧은 파열음을 함께 담는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "75",
+      "file": "75-카스텔라퍼즐.png",
+      "local_relative_path": "queue-60/75-카스텔라퍼즐.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "7f4b375ddc87177851afa8c9589f750c685336cf46b5f2b4b174f23af108e764",
+      "trip_hotel_id": "752491",
+      "facility": "마라케시 피칼바트로스 아쿠아 펀 클럽 워터파크",
+      "composition": "마른 파티오 테이블의 허리 높이 사선에서 퍼즐 홈과 눌린 단면, 뒤쪽 붉은 숙소동과 주황 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/al-haouz-hotel-detail-752491/pickalbatros-aqua-fun-club-all-inclusive-marrakech/",
+      "trip_public_url": "https://www.trip.com/hotels/al-haouz-hotel-detail-752491/pickalbatros-aqua-fun-club-all-inclusive-marrakech/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0225u12000dmp2b8p4870_R_600_360_R5.webp",
+      "facility_photo_sha256": "e85cee9f3c365469ea1736a54001a44eccb6a8af67b44aa1e3b487681c87927d",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/75-castella-puzzle.md",
+      "flow_prompt_sha256": "e476c9790487319baa0451fe704d84b2b66a17a65b9543fc2a840502afd7f6f3",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품에서 조각 하나를 분리하고 단면과 짧은 촉각음을 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

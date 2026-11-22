@@ -1502,6 +1502,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "큰 소품의 이음매가 분리되는 짧은 파열음과 단면 공개 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "56",
+      "file": "56-꽃다발사과칩.png",
+      "local_relative_path": "queue-60/56-꽃다발사과칩.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "be9468e08f7b2aada9e1371978d29521d4622468dc5503a84aecb1276429ac68",
+      "trip_hotel_id": "63140151",
+      "facility": "써니비치 아쿠아 네비스 호텔 앤 아쿠아 파크 워터파크",
+      "composition": "마른 전망대에서 어깨 아래 정면 사선으로 사과칩 한 장과 꽃다발을 양쪽에 두고 줄무늬 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/sunny-beach-hotel-detail-63140151/aqua-nevis-hotel/",
+      "trip_public_url": "https://www.trip.com/hotels/sunny-beach-hotel-detail-63140151/aqua-nevis-hotel/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0581y12000u3z0gr596C4_R_600_360_R5.webp",
+      "facility_photo_sha256": "62950fae34762104535304149698e2716627ab2eccfbd919bf89b6a96732f3c9",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/56-apple-chip-bouquet.md",
+      "flow_prompt_sha256": "36ab6822ff8864207346ec6980aba60d069fa70e180a87d8cd2a58ec8290910f",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "실제 소품보다 큰 형태와 한 조각의 촉각음 및 베어 문 단면 공개를 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

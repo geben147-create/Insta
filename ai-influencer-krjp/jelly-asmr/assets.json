@@ -1727,6 +1727,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "첫 손동작에 파열음과 낟알 질감 공개를 맞춤",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "65",
+      "file": "65-레몬바구니타르트.png",
+      "local_relative_path": "queue-60/65-레몬바구니타르트.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "340e8c0f1c9a15a91c5ef4de88c82eed2d64b0ccb933cff680032d505b38d95e",
+      "trip_hotel_id": "3794305",
+      "facility": "세레니티 알마 하이츠 워터파크",
+      "composition": "마른 관람 테이블의 낮은 옆 사선에서 들어 올린 격자 뚜껑과 레몬 머랭, 뒤로 파란 문어 슬라이드를 담음",
+      "facility_source_url": "https://www.trip.com/hotels/hurghada-hotel-detail-3794305/serenity-alma-heights-ex-serenity-fun-city/",
+      "trip_public_url": "https://www.trip.com/hotels/hurghada-hotel-detail-3794305/serenity-alma-heights-ex-serenity-fun-city/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0220j12000kzuuoijC2A7_R_600_360_R5.webp",
+      "facility_photo_sha256": "d195e597800ae1d97c9b605df4c3852567905a0c0704ef930b1267ebfa3117b3",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/65-lemon-basket-tart.md",
+      "flow_prompt_sha256": "6bddcc8cb2338867b9fa196eea573d7bbaf56d9569320d46ef57233dc9510db5",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "큰 소품을 열자 안쪽 재료가 보이는 순간에 짧은 촉각음을 맞춤",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

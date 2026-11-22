@@ -1252,6 +1252,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "하나의 큰 소품을 조작하는 순간에 단면과 짧은 촉각음을 맞추는 구성 참고",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "46",
+      "file": "46-설탕유리꽃잎.png",
+      "local_relative_path": "queue-60/46-설탕유리꽃잎.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "81c729cd0104d1d5cbf79d5eaf1d77524a8ef984d38e426bbb6251a98816b2a5",
+      "trip_hotel_id": "11231220",
+      "facility": "후르가다 타이타닉 아쿠아 파크 리조트 워터파크",
+      "composition": "마른 발코니의 눈높이 측면에서 가슴 위 꽃잎에 햇빛을 통과시키고 파란 각진 차양을 배경에 담음",
+      "facility_source_url": "https://us.trip.com/hotels/hurghada-hotel-detail-11231220/titanic-aqua-park-resort/",
+      "trip_public_url": "https://us.trip.com/hotels/hurghada-hotel-detail-11231220/titanic-aqua-park-resort/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0220712000srkh12tA6E4_R_600_360_R5.webp",
+      "facility_photo_sha256": "3372b1854691b29b9d96d8a88d04c37cdd6e6bfa86f9c1dd502293585d36f2ec",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/46-sugar-glass-petal.md",
+      "flow_prompt_sha256": "9090ea08cecb95fde652d055d9b6fba0e229003120468705aa18e0888a4d3d6c",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
+      "creative_reference_use": "사탕이 부러지는 짧은 소리와 깨진 단면을 맞추는 구성 참고",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

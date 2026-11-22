@@ -2469,6 +2469,31 @@
       "creative_reference_url": "https://www.youtube.com/watch?v=U9d25EcxqnU",
       "creative_reference_use": "첫 파열음에 맞춰 프렛첼과 크림 질감 공개",
       "character_reference": "남자모델-3안-v4.png 가운데 B안"
+    },
+    {
+      "queue_id": "94",
+      "file": "94-유자얼음미로.png",
+      "local_relative_path": "queue-60/94-유자얼음미로.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "ea4579044027a1db6cd17105f3253da285cf01f8694aaa81180ca3e2c1527f19",
+      "trip_hotel_id": "2381452",
+      "facility": "더블트리 바이 힐튼 리조트 앤 스파 마르잔 아일랜드 수상 워터파크",
+      "composition": "해변 플랫폼의 낮은 탁자 오른쪽에서 얼음 미로와 수상 주황 미끄럼틀을 담음",
+      "facility_source_url": "https://www.trip.com/hotels/al-raafah-hotel-detail-2381452/doubletree-by-hilton-resort-and-spa-marjan-island/",
+      "trip_public_url": "https://www.trip.com/hotels/al-raafah-hotel-detail-2381452/doubletree-by-hilton-resort-and-spa-marjan-island/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0203u120009ddv9o99CBE_R_600_360_R5.webp",
+      "facility_photo_sha256": "07957b39ee50d6328b155d82c8784fbbef34130661273fde7547acfecbaa5c1c",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/94-yuzu-ice-maze.md",
+      "flow_prompt_sha256": "7edf2b86a67b95ee92249ce0df135062eb7e246943ac12045b5a1995f1b53b09",
+      "flow_video_status": "pending_connection",
+      "product_reference_urls": [],
+      "creative_reference_url": "https://www.youtube.com/watch?v=0WoU6VSQQLk",
+      "creative_reference_use": "얇은 얼음 벽을 깨는 손동작에 파열음과 질감 공개를 맞춤",
+      "character_reference": "남자모델-3안-v4.png 가운데 B안"
     }
   ]
 }

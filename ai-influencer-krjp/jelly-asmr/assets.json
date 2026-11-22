@@ -294,6 +294,28 @@
       "flow_video_status": "pending_connection",
       "creative_reference_url": "https://www.youtube.com/watch?v=Itpl5Q87-4E",
       "flow_prompt_sha256": "58fd7ca113747a1bbf86fa0c7ba935d2d9003c264e158d0b4c1bdb35c3253a30"
+    },
+    {
+      "queue_id": "09",
+      "file": "09-과일토끼아이스.png",
+      "local_relative_path": "queue-60/09-과일토끼아이스.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "05a828e487aa8cc46afec1b4e2a21c0a6916f977207f006d6f7c156aa9f10873",
+      "trip_hotel_id": "982026",
+      "facility": "하드록 호텔 발리 워터파크",
+      "composition": "해질녘 건조한 야외 데크·파란 캐노피와 물놀이 난간",
+      "facility_source_url": "https://www.trip.com/hotels/bali-hotel-detail-982026/hard-rock-hotel-bali/",
+      "trip_public_url": "https://www.trip.com/hotels/bali-hotel-detail-982026/hard-rock-hotel-bali/",
+      "facility_photo_url": "https://ak-d.tripcdn.com/images/0223z120009by7cosEB7B_R_600_360_R5.webp",
+      "facility_photo_sha256": "8138662c1a207f3a98e15d51219d544f5b03186debd0e08dff6853dfd42a11bd",
+      "depiction": "generated_from_tripcom_facility_photo",
+      "trip_affiliate_url": null,
+      "trip_affiliate_status": "pending",
+      "flow_prompt": "flow-prompts/09-fruit-ice-rabbit.md",
+      "flow_video_status": "pending_connection",
+      "creative_reference_url": "https://www.youtube.com/watch?v=tkdIvzuZeTA",
+      "flow_prompt_sha256": "1677fe0b1aa0c4345eebcf7739990ae8556e2521e50b60cf956784d1c9022a49"
     }
   ]
 }

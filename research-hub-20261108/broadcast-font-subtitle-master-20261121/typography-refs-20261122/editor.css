@@ -24,3 +24,19 @@
 #ty22 input:not([type=checkbox]){width:100%;min-width:0}
 #ty22 .word{grid-column:1/-1}
 #ty22 .live{display:block;overflow-wrap:anywhere;line-height:1.25;padding:12px 4px;paint-order:stroke fill;min-height:1.5em}
+#ty22 .reference-editor .choices{grid-template-columns:1fr;container-type:inline-size}
+#ty22 .reference-editor .choices button{text-align:left;padding:7px 10px 10px}
+#ty22 .reference-editor .choices span{overflow:visible;white-space:normal}
+#ty22 .reference-editor .live[hidden]{display:none}
+#ty22 .reference-editor .reference-sample{font-size:min(var(--size),9.5cqw);text-align:center;padding:5px 9px;line-height:1.08;letter-spacing:var(--tracking)}
+#ty22 .reference-editor .reference-line{transform:skewX(var(--slant));filter:var(--shadow);font-size:inherit;overflow-wrap:anywhere}
+#ty22 .reference-editor .reference-ink{display:inline;font-size:inherit;color:var(--ink);-webkit-text-stroke:var(--edge);paint-order:stroke fill}
+#ty22 .reference-editor .gradient-line .reference-ink{display:inline-grid;max-width:100%}
+#ty22 .reference-editor .gradient-line .reference-ink>span{grid-area:1/1;font-size:inherit;white-space:pre-wrap}
+#ty22 .reference-editor .gradient-line .reference-ink>span:last-child{color:transparent;background-image:var(--fill);background-clip:text;-webkit-text-stroke:0}
+#ty22 #T01 .reference-sample{font-size:min(var(--size),8cqw);transform:rotate(-4deg)}
+#ty22 #T01 .reference-line:nth-child(2){font-size:1.1em}
+#ty22 #T01 .reference-line:first-child{margin-right:2em}
+#ty22 #T01 .reference-line:nth-child(3){margin-left:2em}
+#ty22 .reference-editor button.ty22-color{background:#fff;color:#33445e;border:1px solid #aebfd6;font-weight:700;cursor:pointer}
+#ty22 .reference-editor button.ty22-color:hover{border-color:#175ac6}

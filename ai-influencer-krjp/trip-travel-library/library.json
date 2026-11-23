@@ -4884,5 +4884,26 @@
     ],
     "links": [],
     "detail": "레퍼런스를 참고해 새로 만든 이미지"
+  },
+  {
+    "id": "hakone-tenyu-onsen",
+    "group": "호텔 이미지",
+    "title": "하코네 고와키엔 텐유 · 새벽 온천",
+    "caption": "the hills wake in steam.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/hakone-tenyu-onsen-01.webp",
+        "alt": "하코네 고와키엔 텐유 · 새벽 온천"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hakone Kowakien Ten-yu",
+        "https://www.trip.com/hotels/hakone-hotel-detail-6706138/hakone-kowakien-ten-yu/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
   }
 ]

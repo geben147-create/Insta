@@ -5285,6 +5285,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "hotel-europe-huis-ten-bosch-canal-arch",
+    "group": "호텔 이미지",
+    "title": "호텔 유럽 인근 · 하우스텐보스의 운하와 벽돌 아치",
+    "caption": "where the canal bends.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/hotel-europe-huis-ten-bosch-canal-arch-01.webp",
+        "alt": "호텔 유럽 인근 · 하우스텐보스의 운하와 벽돌 아치"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hotel Europe Huis Ten Bosch",
+        "https://www.trip.com/hotels/sasebo-hotel-detail-704051/hotel-europe-huis-ten-bosch/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "hyatt-regency-danang-pool-grotto",
     "group": "호텔 이미지",
     "title": "하얏트 리젠시 다낭 · 돌 아치 너머 가족 물놀이 풀",

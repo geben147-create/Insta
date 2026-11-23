@@ -4886,6 +4886,27 @@
     "detail": "레퍼런스를 참고해 새로 만든 이미지"
   },
   {
+    "id": "address-sky-view-dubai-rooftop-blue-hour",
+    "group": "호텔 이미지",
+    "title": "어드레스 스카이 뷰 두바이 · 루프톱에서 본 부르즈 할리파 야경",
+    "caption": "the city meets the water.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/address-sky-view-dubai-rooftop-blue-hour-01.webp",
+        "alt": "어드레스 스카이 뷰 두바이 · 루프톱에서 본 부르즈 할리파 야경"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Address Sky View, Downtown Dubai",
+        "https://www.trip.com/hotels/dubai-hotel-detail-29379525/hotel/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "aqua-luxury-suites-caldera-hot-tub",
     "group": "호텔 이미지",
     "title": "아쿠아 럭셔리 스위트 · 산토리니 칼데라 테라스 자쿠지",

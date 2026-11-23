@@ -4886,6 +4886,27 @@
     "detail": "레퍼런스를 참고해 새로 만든 이미지"
   },
   {
+    "id": "banyan-tree-seoul-namsan-pool",
+    "group": "호텔 이미지",
+    "title": "반얀트리 서울 · 남산을 바라보는 객실 수영장",
+    "caption": "a quiet pool above seoul.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/banyan-tree-seoul-namsan-pool-01.webp",
+        "alt": "반얀트리 서울 · 남산을 바라보는 객실 수영장"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Banyan Tree Club & Spa Seoul",
+        "https://www.trip.com/hotels/seoul-hotel-detail-988402/banyan-tree-club-and-spa-seoul/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "canaves-oia-river-jacuzzi",
     "group": "호텔 이미지",
     "title": "카나베스 이아 스위트 · 칼데라 전망 자쿠지",

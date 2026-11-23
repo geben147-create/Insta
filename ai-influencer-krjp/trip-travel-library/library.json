@@ -4991,6 +4991,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "qc-bormio-winter-thermal",
+    "group": "호텔 이미지",
+    "title": "QC 그랜드 호텔 바니 누오비 보르미오 · 겨울 알프스 노천 온천",
+    "caption": "warm water, winter air.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/qc-bormio-winter-thermal-01.webp",
+        "alt": "QC 그랜드 호텔 바니 누오비 보르미오 · 겨울 알프스 노천 온천"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "QC Grand Hotel Bagni Nuovi Bormio",
+        "https://www.trip.com/hotels/valdidentro-hotel-detail-10716266/qc-grand-hotel-bagni-nuovi-bormio/?locale=en-XX"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "universal-port-vita-park-morning",
     "group": "호텔 이미지",
     "title": "호텔 유니버설 포트 비타 · 오사카 테마파크 가는 아침",

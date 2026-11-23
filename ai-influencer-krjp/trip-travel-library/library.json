@@ -5201,6 +5201,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "ginzanso-snowfall-open-air-onsen",
+    "group": "호텔 이미지",
+    "title": "긴잔소 · 눈 내리는 긴잔온천의 노천탕",
+    "caption": "winter softens at the water.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/ginzanso-snowfall-open-air-onsen-01.webp",
+        "alt": "긴잔소 · 눈 내리는 긴잔온천의 노천탕"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Ginzanso",
+        "https://www.trip.com/hotels/obanazawa-hotel-detail-8426458/ginzanso"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "grand-view-beitou-mountain-hot-spring",
     "group": "호텔 이미지",
     "title": "그랜드 뷰 리조트 베이터우 · 산안개가 흐르는 온천",

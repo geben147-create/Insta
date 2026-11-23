@@ -5571,7 +5571,7 @@
     "group": "호텔 이미지",
     "title": "에프텔링 그랜드 호텔 · 네덜란드 테마파크 앞 숲길",
     "caption": "a story around the bend.",
-    "video": "",
+    "video": "media/efteling-grand-hotel-forest-morning.mp4",
     "stills": [
       {
         "src": "media/efteling-grand-hotel-forest-morning-01.webp",
@@ -5585,8 +5585,9 @@
         "https://www.trip.com/hotels/kaatsheuvel-hotel-detail-3737842/efteling-grand-hotel-theme-park-tickets-included/?locale=en-US"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "유럽"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "유럽",
+    "poster": "media/efteling-grand-hotel-forest-morning-01.webp"
   },
   {
     "id": "ensana-margaret-island-thermal",
@@ -6623,6 +6624,32 @@
     "region": "유럽"
   },
   {
+    "id": "rikli-balance-bled-lakeside-whirlpool",
+    "group": "호텔 이미지",
+    "title": "리클리 밸런스 호텔 · 블레드 호수 전망 실내 월풀",
+    "caption": "the lake keeps its quiet.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/rikli-balance-bled-lakeside-whirlpool-01.webp",
+        "alt": "리클리 밸런스 호텔 · 블레드 호수 전망 실내 월풀"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Rikli Balance Hotel",
+        "https://us.trip.com/hotels/bled-hotel-detail-4606088/rikli-balance-hotel-sava-hotels-and-resorts/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "familyWater": {
+      "description": "웰니스 지바에는 어린이용 온수풀과 실내 미끄럼틀이 있습니다. 호수 전망 월풀의 어린이 이용 조건은 시설에 확인하세요.",
+      "source": "https://www.sava-hotels-resorts.com/en/sava-hotels-bled/services-and-experiences/pools-and-water-parks/waterpark-wellness-ziva/"
+    },
+    "region": "유럽"
+  },
+  {
     "id": "risonare-atami-family-pool",
     "group": "호텔 이미지",
     "title": "호시노 리조트 리조나레 아타미 · 바다 전망 가족 수영장",
@@ -7106,7 +7133,7 @@
     "group": "호텔 이미지",
     "title": "유후인 바이엔 · 유후다케를 바라보는 가을 노천탕",
     "caption": "autumn settles in the water.",
-    "video": "",
+    "video": "media/yufuin-baien-mount-yufu-autumn-onsen.mp4",
     "stills": [
       {
         "src": "media/yufuin-baien-mount-yufu-autumn-onsen-01.webp",
@@ -7120,12 +7147,13 @@
         "https://www.trip.com/hotels/yufu-hotel-detail-2728211/baien/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
     "familyWater": {
       "description": "유후다케가 보이는 대욕장과 별도로 가족 전용 노천탕이 있습니다. 공식 안내상 가족탕은 한 번에 최대 50분 이용할 수 있습니다.",
       "source": "https://www.yufuin-baien.com/en/"
     },
-    "region": "일본"
+    "region": "일본",
+    "poster": "media/yufuin-baien-mount-yufu-autumn-onsen-01.webp"
   },
   {
     "id": "zaborin-hokkaido-winter-birch-onsen",

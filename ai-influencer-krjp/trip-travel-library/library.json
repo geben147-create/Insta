@@ -4928,6 +4928,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "ciragan-palace-bosphorus-night",
+    "group": "호텔 이미지",
+    "title": "츠라안 팰리스 켐핀스키 이스탄불 · 보스포루스 야경",
+    "caption": "where two shores glow.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/ciragan-palace-bosphorus-night-01.webp",
+        "alt": "츠라안 팰리스 켐핀스키 이스탄불 · 보스포루스 야경"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Çırağan Palace Kempinski Istanbul",
+        "https://www.trip.com/hotels/istanbul-hotel-detail-744390/ciragan-palace-kempinski-istanbul/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "hakone-tenyu-onsen",
     "group": "호텔 이미지",
     "title": "하코네 고와키엔 텐유 · 새벽 온천",

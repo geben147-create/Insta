@@ -6297,7 +6297,7 @@
     "group": "호텔 이미지",
     "title": "구로카와 온천 야마미즈키 · 단풍 계곡을 바라보는 노천탕",
     "caption": "autumn flows past the bath.",
-    "video": "",
+    "video": "media/yamamizuki-kurokawa-maple-ravine-onsen.mp4",
     "stills": [
       {
         "src": "media/yamamizuki-kurokawa-maple-ravine-onsen-01.webp",
@@ -6311,6 +6311,7 @@
         "https://us.trip.com/hotels/minamioguni-hotel-detail-1498621/yamamizuki?locale=en-US"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/yamamizuki-kurokawa-maple-ravine-onsen-01.webp"
   }
 ]

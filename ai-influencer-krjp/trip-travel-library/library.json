@@ -5163,7 +5163,7 @@
     "group": "호텔 이미지",
     "title": "아난티 앳 부산 코브 · 롯데월드 부산 인근 오시리아 해안 산책",
     "caption": "the sea is never far.",
-    "video": "",
+    "video": "media/ananti-busan-cove-osiria-coastal-walk.mp4",
     "stills": [
       {
         "src": "media/ananti-busan-cove-osiria-coastal-walk-01.webp",
@@ -5177,8 +5177,9 @@
         "https://www.trip.com/hotels/busan-hotel-detail-8810122/ananti-at-busan-cove/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "한국"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "한국",
+    "poster": "media/ananti-busan-cove-osiria-coastal-walk-01.webp"
   },
   {
     "id": "aqua-dome-tyrol-family-thermal-light",
@@ -5855,7 +5856,7 @@
     "group": "호텔 이미지",
     "title": "긴잔소 · 눈 내리는 긴잔온천의 노천탕",
     "caption": "winter softens at the water.",
-    "video": "",
+    "video": "media/ginzanso-snowfall-open-air-onsen.mp4",
     "stills": [
       {
         "src": "media/ginzanso-snowfall-open-air-onsen-01.webp",
@@ -5869,8 +5870,9 @@
         "https://www.trip.com/hotels/obanazawa-hotel-detail-8426458/ginzanso"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "일본"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "일본",
+    "poster": "media/ginzanso-snowfall-open-air-onsen-01.webp"
   },
   {
     "id": "grand-hyatt-bali-nusa-dua-river-pool",
@@ -5916,6 +5918,28 @@
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지",
     "region": "기타 아시아"
+  },
+  {
+    "id": "gresham-palace-budapest-danube-blue-hour",
+    "group": "호텔 이미지",
+    "title": "포시즌스 그레셤 팰리스 · 부다페스트 다뉴브강 야경",
+    "caption": "the danube wears the night.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/gresham-palace-budapest-danube-blue-hour-01.webp",
+        "alt": "포시즌스 그레셤 팰리스 · 부다페스트 다뉴브강 야경"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Four Seasons Hotel Gresham Palace Budapest",
+        "https://sg.trip.com/hotels/budapest-hotel-detail-2198750/four-seasons-hotel-gresham-palace-budapest/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "유럽"
   },
   {
     "id": "hakone-tenyu-onsen",

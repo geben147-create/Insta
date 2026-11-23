@@ -63,3 +63,10 @@
 #ty22 .palette-controls input[type=color]{width:35px}
 #ty22 .selection-help{color:#33445e}
 #ty22 .controls .badge{grid-column:1/-1}
+
+/* 2026-11-23 미리보기 옆 고정: 사진+폰트 미리보기(왼쪽)는 스크롤해도 따라오고, 조절 칸(오른쪽)만 움직인다 */
+#ty22 .ty22-stage{position:sticky;top:8px;align-self:start;max-height:calc(100vh - 16px);overflow:auto;display:grid;gap:8px;z-index:2;background:#fff;border-radius:10px}
+#ty22 .ty22-stage .ty22-photo img{max-height:200px}
+#ty22 .ty22-stage .choices{margin:0}
+#ty22 .ty22-item{align-items:start}
+@media(max-width:760px){#ty22 .ty22-stage{top:0;max-height:58vh;padding:4px 0 6px;box-shadow:0 8px 10px -8px #0006}#ty22 .ty22-stage .ty22-photo img{max-height:110px}#ty22 .ty22-stage figcaption{display:none}}

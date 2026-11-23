@@ -43,8 +43,10 @@ details{background:#192637;border:1px solid #44516a;border-radius:10px;padding:1
 .math{color:#dfeaff;font-size:11px;padding:4px 7px;background:#111e32;border-radius:6px}
 .license{max-width:1700px;margin:0 auto 20px;padding:0 20px 20px;color:#a6b7c8;font-size:12px}.license a{color:#9be7ff}
 @media(min-width:1301px){.sticky{position:sticky;top:15px}}
-@media(max-width:1300px){.shell{grid-template-columns:195px minmax(0,1fr)}.right{grid-column:2;grid-row:2}.middle{grid-column:2;grid-row:1}.left{grid-column:1;grid-row:1/span 2}}
-@media(max-width:760px){.shell{display:flex;flex-direction:column;padding:10px}.panel{width:100%;padding:13px}.left,.right,.middle{width:100%}.preset-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.presetbtn{margin:0;padding:9px}.compare{grid-template-columns:120px 1fr}.preview.warning:after{border-width:10px}.top{padding:13px}}
+@media(max-width:1300px){.shell{grid-template-columns:minmax(0,1.35fr) minmax(270px,1fr)}.left{grid-column:1/-1;grid-row:1}.middle{grid-column:1;grid-row:2}.right{grid-column:2;grid-row:2}.left .preset-list{display:flex;flex-wrap:wrap;gap:6px}.left .presetbtn{margin:0;width:auto}}
+/* 2026-11-23: 미리보기(가운데)를 조절 패널 옆에 고정 — 아래 조절을 바꿔도 미리보기가 화면에 남음 */
+#stage.preview{position:sticky;top:8px;z-index:6;box-shadow:0 12px 18px -12px #000d}
+@media(max-width:760px){#stage.preview{top:0}.shell{display:flex;flex-direction:column;padding:10px}.panel{width:100%;padding:13px}.left,.right,.middle{width:100%}.preset-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.presetbtn{margin:0;padding:9px}.compare{grid-template-columns:120px 1fr}.preview.warning:after{border-width:10px}.top{padding:13px}}
 </style>
 </head>
 <body>

@@ -144,6 +144,14 @@
     const paletteControls = editor.querySelector(".palette-controls");
     paletteControls.append(swatches,pickerLabel,clear);
     const buttons = renderFontChoices(editor.querySelector(".choices"),names,selected,i => { selected = i; redraw(); });
+    // 2026-11-23: 원본 사진 + 폰트 3종 미리보기를 왼쪽에 고정하고, 조절 칸은 오른쪽에 둔다.
+    const photo = card.querySelector(".ty22-photo");
+    if (photo) {
+      const stage = document.createElement("div");
+      stage.className = "ty22-stage reference-editor";
+      photo.before(stage);
+      stage.append(photo, editor.querySelector(".choices"));
+    }
     const samples = buttons.map((button,i) => {
       const sample = document.createElement("span");
       sample.className = "reference-sample";

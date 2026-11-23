@@ -6092,7 +6092,7 @@
     "group": "호텔 이미지",
     "title": "산타스 이글루 아틱 서클 · 분홍빛 노을과 야외 자쿠지",
     "caption": "the last warmth of daylight.",
-    "video": "",
+    "video": "media/santas-igloos-rovaniemi-pink-snow-hot-tub.mp4",
     "stills": [
       {
         "src": "media/santas-igloos-rovaniemi-pink-snow-hot-tub-01.webp",
@@ -6106,7 +6106,8 @@
         "https://www.trip.com/hotels/lapland-hotel-detail-9107838/santa-s-igloos-arctic-circle/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/santas-igloos-rovaniemi-pink-snow-hot-tub-01.webp"
   },
   {
     "id": "sarangkot-lodge-annapurna-breakfast",

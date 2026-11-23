@@ -5514,5 +5514,26 @@
       ]
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
+    "id": "wadi-rum-bubble-desert-jacuzzi",
+    "group": "호텔 이미지",
+    "title": "와디 럼 버블 럭소텔 · 붉은 사막의 저녁과 자쿠지",
+    "caption": "the desert cools at dusk.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/wadi-rum-bubble-desert-jacuzzi-01.webp",
+        "alt": "와디 럼 버블 럭소텔 · 붉은 사막의 저녁과 자쿠지"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Wadi Rum Bubble Luxotel",
+        "https://www.trip.com/hotels/wadi-rum-hotel-detail-44117231/wadi-rum-bubble-luxotel/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
   }
 ]

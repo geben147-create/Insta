@@ -5243,6 +5243,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "naraya-kusatsu-yubatake-steam",
+    "group": "호텔 이미지",
+    "title": "나라야 료칸 · 구사쓰 유바타케의 온천 김",
+    "caption": "follow the steam.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/naraya-kusatsu-yubatake-steam-01.webp",
+        "alt": "나라야 료칸 · 구사쓰 유바타케의 온천 김"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Naraya",
+        "https://www.trip.com/hotels/kusatsu-machi-hotel-detail-1678701/naraya/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "nimb-tivoli-rain-lights",
     "group": "호텔 이미지",
     "title": "님브 호텔 · 코펜하겐 티볼리 정원의 저녁",

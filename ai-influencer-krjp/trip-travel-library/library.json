@@ -5600,6 +5600,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "sanraku-kanazawa-garden-breakfast",
+    "group": "호텔 이미지",
+    "title": "더 호텔 산라쿠 가나자와 · 정원을 바라보는 조식",
+    "caption": "a morning worth lingering over.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/sanraku-kanazawa-garden-breakfast-01.webp",
+        "alt": "더 호텔 산라쿠 가나자와 · 정원을 바라보는 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "The Hotel Sanraku Kanazawa",
+        "https://www.trip.com/hotels/kanazawa-hotel-detail-100476547/the-hotel-sanraku-kanazawa/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "sarangkot-lodge-annapurna-breakfast",
     "group": "호텔 이미지",
     "title": "사랑콧 마운틴 로지 · 안나푸르나 전망 조식",

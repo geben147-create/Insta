@@ -4949,6 +4949,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "peninsula-bangkok-river-breakfast",
+    "group": "호텔 이미지",
+    "title": "더 페닌슐라 방콕 · 차오프라야 강변 조식",
+    "caption": "morning moves with the river.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/peninsula-bangkok-river-breakfast-01.webp",
+        "alt": "더 페닌슐라 방콕 · 차오프라야 강변 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "The Peninsula Bangkok",
+        "https://www.trip.com/hotels/bangkok-hotel-detail-909882/the-peninsula-bangkok/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "universal-port-vita-park-morning",
     "group": "호텔 이미지",
     "title": "호텔 유니버설 포트 비타 · 오사카 테마파크 가는 아침",

@@ -5327,6 +5327,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "hard-rock-bali-sand-island-family-pool",
+    "group": "호텔 이미지",
+    "title": "하드록 호텔 발리 · 모래섬이 있는 가족 물놀이 풀",
+    "caption": "where summer slows down.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/hard-rock-bali-sand-island-family-pool-01.webp",
+        "alt": "하드록 호텔 발리 · 모래섬이 있는 가족 물놀이 풀"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hard Rock Hotel Bali",
+        "https://www.trip.com/hotels/bali-hotel-detail-982026/hard-rock-hotel-bali/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "hotel-europe-huis-ten-bosch-canal-arch",
     "group": "호텔 이미지",
     "title": "호텔 유럽 인근 · 하우스텐보스의 운하와 벽돌 아치",

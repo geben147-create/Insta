@@ -5929,6 +5929,28 @@
     "region": "기타 아시아"
   },
   {
+    "id": "intercontinental-yokohama-pier8-harbor-blue-hour",
+    "group": "호텔 이미지",
+    "title": "인터컨티넨탈 요코하마 피어 8 · 항구의 블루아워",
+    "caption": "the harbor keeps the last light.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/intercontinental-yokohama-pier8-harbor-blue-hour-01.webp",
+        "alt": "인터컨티넨탈 요코하마 피어 8 · 항구의 블루아워"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "InterContinental Yokohama Pier 8",
+        "https://www.trip.com/hotels/yokohama-hotel-detail-39457997/intercontinental-hotels-yokohama-pier-8/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "일본"
+  },
+  {
     "id": "jade-mountain-pitons-jacuzzi",
     "group": "호텔 이미지",
     "title": "제이드 마운틴 · 세인트루시아 피톤산 전망 자쿠지",
@@ -6425,7 +6447,7 @@
     "group": "호텔 이미지",
     "title": "르네상스 오키나와 리조트 · 온나 바닷가 어린이 풀",
     "caption": "a little more summer.",
-    "video": "",
+    "video": "media/renaissance-okinawa-onna-splash-pool.mp4",
     "stills": [
       {
         "src": "media/renaissance-okinawa-onna-splash-pool-01.webp",
@@ -6439,12 +6461,13 @@
         "https://www.trip.com/hotels/kunigami-district-hotel-detail-2112698/renaissance-okinawa-resort/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
     "familyWater": {
       "description": "실내외 수영장이 있습니다. 수영용 기저귀 위에는 수영복을 입어야 합니다.",
       "source": "https://faq.renaissance-okinawa.com/faq/cat?cd=07&facility_cd=renaissance-okinawa-qa&lang=en"
     },
-    "region": "일본"
+    "region": "일본",
+    "poster": "media/renaissance-okinawa-onna-splash-pool-01.webp"
   },
   {
     "id": "retreat-blue-lagoon-lava-steam",
@@ -6652,7 +6675,7 @@
     "group": "호텔 이미지",
     "title": "제주신화월드 신화관 · 제주 가족 물놀이",
     "caption": "small splashes on the island.",
-    "video": "",
+    "video": "media/shinhwa-jeju-family-water-play.mp4",
     "stills": [
       {
         "src": "media/shinhwa-jeju-family-water-play-01.webp",
@@ -6666,12 +6689,13 @@
         "https://www.trip.com/hotels/seogwipo-hotel-detail-25673737/shinhwa-jeju-shinhwa-world-hotels-and-resorts/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
     "familyWater": {
       "description": "실내 키즈풀과 릴렉싱 스파가 있습니다. 시설별 키 제한, 보호자 동반·운영 구역은 공식 안내에서 확인할 수 있습니다.",
       "source": "https://www.shinhwaworld.com/waterparken.jhtml?lang=en"
     },
-    "region": "한국"
+    "region": "한국",
+    "poster": "media/shinhwa-jeju-family-water-play-01.webp"
   },
   {
     "id": "sunway-resort-lagoon-ravine-bridge",

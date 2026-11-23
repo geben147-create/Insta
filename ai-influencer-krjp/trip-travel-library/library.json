@@ -5208,6 +5208,28 @@
     "region": "유럽"
   },
   {
+    "id": "arima-tocen-goshobo-kinsen-bath",
+    "group": "호텔 이미지",
+    "title": "아리마 온천 도센 고쇼보 · 붉은빛이 도는 긴센 온천",
+    "caption": "the water holds its warmth.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/arima-tocen-goshobo-kinsen-bath-01.webp",
+        "alt": "아리마 온천 도센 고쇼보 · 붉은빛이 도는 긴센 온천"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Arima Onsen Tocen Goshobo",
+        "https://www.trip.com/hotels/kobe-hotel-detail-1489165/arima-onsen-tocen-goshobo/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "일본"
+  },
+  {
     "id": "asaba-shuzenji-pond-pavilion-onsen",
     "group": "호텔 이미지",
     "title": "아사바 료칸 · 연못과 대나무 숲이 보이는 온천",
@@ -5968,7 +5990,7 @@
     "group": "호텔 이미지",
     "title": "호텔 자허 빈 · 아침 햇살이 비치는 창가 조식",
     "caption": "a soft start in vienna.",
-    "video": "",
+    "video": "media/hotel-sacher-vienna-breakfast-light.mp4",
     "stills": [
       {
         "src": "media/hotel-sacher-vienna-breakfast-light-01.webp",
@@ -5982,8 +6004,9 @@
         "https://us.trip.com/hotels/vienna-hotel-detail-2170792/hotel-sacher-wien/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "유럽"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "유럽",
+    "poster": "media/hotel-sacher-vienna-breakfast-light-01.webp"
   },
   {
     "id": "hyatt-regency-danang-pool-grotto",
@@ -6820,7 +6843,7 @@
     "group": "호텔 이미지",
     "title": "사랑콧 마운틴 로지 · 안나푸르나 전망 조식",
     "caption": "first tea, first light.",
-    "video": "",
+    "video": "media/sarangkot-lodge-annapurna-breakfast.mp4",
     "stills": [
       {
         "src": "media/sarangkot-lodge-annapurna-breakfast-01.webp",
@@ -6834,8 +6857,9 @@
         "https://www.trip.com/hotels/pokhara-hotel-detail-54872889/sarangkot-mountain-lodge/?locale=en-US"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "기타 아시아"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "기타 아시아",
+    "poster": "media/sarangkot-lodge-annapurna-breakfast-01.webp"
   },
   {
     "id": "shanghai-disneyland-hotel-lakeside-path",

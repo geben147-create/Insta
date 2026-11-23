@@ -5474,6 +5474,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "taj-lake-palace-pichola-breakfast",
+    "group": "호텔 이미지",
+    "title": "타지 레이크 팰리스 우다이푸르 · 피촐라 호수 전망 조식",
+    "caption": "morning rests on the lake.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/taj-lake-palace-pichola-breakfast-01.webp",
+        "alt": "타지 레이크 팰리스 우다이푸르 · 피촐라 호수 전망 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Taj Lake Palace Udaipur",
+        "https://www.trip.com/hotels/udaipur-hotel-detail-777053/taj-lake-palace-udaipur"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "tokyo-disneysea-fantasy-springs-first-walk",
     "group": "호텔 이미지",
     "title": "도쿄 디즈니씨 판타지 스프링스 호텔 · 테마파크로 가는 아침",

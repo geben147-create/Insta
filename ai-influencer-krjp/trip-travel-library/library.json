@@ -5075,6 +5075,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "conrad-osaka-dojima-river-blue-hour",
+    "group": "호텔 이미지",
+    "title": "콘래드 오사카 · 도지마강의 비 오는 야경",
+    "caption": "the river wears the city lights.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/conrad-osaka-dojima-river-blue-hour-01.webp",
+        "alt": "콘래드 오사카 · 도지마강의 비 오는 야경"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Conrad Osaka",
+        "https://www.trip.com/hotels/osaka-hotel-detail-8033133/conrad-osaka/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "disneyland-paris-hotel-first-light",
     "group": "호텔 이미지",
     "title": "디즈니랜드 호텔 파리 · 놀이공원 앞의 아침",

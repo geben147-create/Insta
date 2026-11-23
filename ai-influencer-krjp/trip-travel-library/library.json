@@ -5117,6 +5117,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "grand-view-beitou-mountain-hot-spring",
+    "group": "호텔 이미지",
+    "title": "그랜드 뷰 리조트 베이터우 · 산안개가 흐르는 온천",
+    "caption": "mist settles over beitou.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/grand-view-beitou-mountain-hot-spring-01.webp",
+        "alt": "그랜드 뷰 리조트 베이터우 · 산안개가 흐르는 온천"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Grand View Resort Beitou",
+        "https://www.trip.com/hotels/taipei-hotel-detail-663850/grand-view-resort/?locale=en-XX"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "hakone-tenyu-onsen",
     "group": "호텔 이미지",
     "title": "하코네 고와키엔 텐유 · 새벽 온천",

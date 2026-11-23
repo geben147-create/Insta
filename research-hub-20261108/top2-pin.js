@@ -27,3 +27,17 @@
   if (sb) sb.insertBefore(box, sb.firstChild);
   else if (gn) { var t = gn.querySelector('strong'); gn.insertBefore(box, t ? t.nextSibling : gn.firstChild); gn.style.setProperty('background', '#261520'); }
 })();
+
+
+/* 🌸 51~100 개별 기획서에서만 추가 지시 UI를 불러온다. 다른 허브 페이지는 변경하지 않는다. */
+(function () {
+  'use strict';
+  if (!/\/kukppong-batch-20261122\/outline50\/outlines\/outline_(?:5[1-9]|[6-9]\d|100)\.html$/.test(location.pathname)) return;
+  if (document.getElementById('ht-production-addendum-loader')) return;
+  var current = document.currentScript;
+  if (!current || !current.src) return;
+  var el = document.createElement('script');
+  el.id = 'ht-production-addendum-loader';
+  el.src = new URL('../kukppong-batch-20261122/outline50/episode-production-addendum.js?v=20261123a', current.src).href;
+  document.head.appendChild(el);
+})();

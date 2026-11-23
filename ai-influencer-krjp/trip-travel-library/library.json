@@ -5033,6 +5033,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "efteling-grand-hotel-forest-morning",
+    "group": "호텔 이미지",
+    "title": "에프텔링 그랜드 호텔 · 네덜란드 테마파크 앞 숲길",
+    "caption": "a story around the bend.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/efteling-grand-hotel-forest-morning-01.webp",
+        "alt": "에프텔링 그랜드 호텔 · 네덜란드 테마파크 앞 숲길"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Efteling Grand Hotel",
+        "https://www.trip.com/hotels/kaatsheuvel-hotel-detail-3737842/efteling-grand-hotel-theme-park-tickets-included/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "ensana-margaret-island-thermal",
     "group": "호텔 이미지",
     "title": "엔사나 서멀 마르기트 아일랜드 · 부다페스트의 온천",

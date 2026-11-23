@@ -4949,6 +4949,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "azulik-tulum-sea-breeze-hot-tub",
+    "group": "호텔 이미지",
+    "title": "아줄릭 툴룸 · 카리브해를 바라보는 야외 자쿠지",
+    "caption": "the sea comes to the trees.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/azulik-tulum-sea-breeze-hot-tub-01.webp",
+        "alt": "아줄릭 툴룸 · 카리브해를 바라보는 야외 자쿠지"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Azulik (성인 전용)",
+        "https://www.trip.com/hotels/tulum-hotel-detail-3066312/azulik/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "banyan-tree-seoul-namsan-pool",
     "group": "호텔 이미지",
     "title": "반얀트리 서울 · 남산을 바라보는 객실 수영장",

@@ -5113,7 +5113,7 @@
     "group": "호텔 이미지",
     "title": "알마 리조트 깜라인 · 스플래시 워터파크의 가족 유수풀",
     "caption": "take the slow way around.",
-    "video": "",
+    "video": "media/alma-cam-ranh-lazy-river-family.mp4",
     "stills": [
       {
         "src": "media/alma-cam-ranh-lazy-river-family-01.webp",
@@ -5127,12 +5127,13 @@
         "https://www.trip.com/hotels/cam-lam-district-hotel-detail-52935497/alma-resort-cam-ranh/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
     "familyWater": {
       "description": "스플래시 워터파크에 어린이 풀, 유수풀, 파도풀과 가족용 미끄럼틀이 있습니다. 시설별 키와 보호자 동반 조건은 공식 안내를 확인하세요.",
       "source": "https://experiences.alma-resort.com/recreation/water-park/"
     },
-    "region": "기타 아시아"
+    "region": "기타 아시아",
+    "poster": "media/alma-cam-ranh-lazy-river-family-01.webp"
   },
   {
     "id": "amangiri-utah-canyon-soaking-pool",
@@ -6222,7 +6223,7 @@
     "group": "호텔 이미지",
     "title": "멤모 알파마 · 리스본 지붕 위로 내려앉는 저녁",
     "caption": "the rooftops turn to gold.",
-    "video": "",
+    "video": "media/memmo-alfama-lisbon-rooftop-dusk.mp4",
     "stills": [
       {
         "src": "media/memmo-alfama-lisbon-rooftop-dusk-01.webp",
@@ -6236,8 +6237,9 @@
         "https://www.trip.com/hotels/lisbon-hotel-detail-2551546/memmo-alfama-design-hotels/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "유럽"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "유럽",
+    "poster": "media/memmo-alfama-lisbon-rooftop-dusk-01.webp"
   },
   {
     "id": "mitsui-kyoto-rainy-courtyard-breakfast",
@@ -6810,6 +6812,28 @@
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지",
     "region": "기타 아시아"
+  },
+  {
+    "id": "shanghai-disneyland-hotel-lakeside-path",
+    "group": "호텔 이미지",
+    "title": "상하이 디즈니랜드 호텔 인근 · 가족과 걷는 가을 호숫길",
+    "caption": "a little wonder across the lake.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/shanghai-disneyland-hotel-lakeside-path-01.webp",
+        "alt": "상하이 디즈니랜드 호텔 인근 · 가족과 걷는 가을 호숫길"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Shanghai Disneyland Hotel",
+        "https://www.trip.com/hotels/shanghai-hotel-detail-4687218/shanghai-disneyland-hotel/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "중국"
   },
   {
     "id": "shangri-la-mactan-cebu-family-aquaplay",

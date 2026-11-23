@@ -5936,6 +5936,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "shangri-la-paris-rain-eiffel-tower",
+    "group": "호텔 이미지",
+    "title": "샹그릴라 파리 · 비 갠 뒤의 에펠탑 야경",
+    "caption": "paris glows after the rain.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/shangri-la-paris-rain-eiffel-tower-01.webp",
+        "alt": "샹그릴라 파리 · 비 갠 뒤의 에펠탑 야경"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Shangri-La Paris",
+        "https://www.trip.com/hotels/paris-hotel-detail-730333/shangri-la-paris/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "sheraton-tokyo-bay-pool-water-ripples",
     "group": "호텔 이미지",
     "title": "쉐라톤 그랜드 도쿄 베이 · 가족 수영장에 번지는 물결",

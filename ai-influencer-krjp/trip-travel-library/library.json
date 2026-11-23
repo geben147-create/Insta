@@ -5327,6 +5327,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "lotte-hotel-world-seokchon-lake-magic-island",
+    "group": "호텔 이미지",
+    "title": "롯데호텔 월드 인근 · 석촌호수에서 본 매직아일랜드",
+    "caption": "one last look at the lights.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/lotte-hotel-world-seokchon-lake-magic-island-01.webp",
+        "alt": "롯데호텔 월드 인근 · 석촌호수에서 본 매직아일랜드"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Lotte Hotel World",
+        "https://www.trip.com/hotels/seoul-hotel-detail-988393/lotte-hotel-world/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "marina-bay-rooftop-night",
     "group": "호텔 이미지",
     "title": "마리나 베이 샌즈 · 수면 위 도심 야경",

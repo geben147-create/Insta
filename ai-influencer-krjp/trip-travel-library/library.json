@@ -4949,6 +4949,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "avani-riverside-bangkok-ferry-night",
+    "group": "호텔 이미지",
+    "title": "아바니 플러스 리버사이드 방콕 · 짜오프라야강을 가르는 페리",
+    "caption": "the river carries the night.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/avani-riverside-bangkok-ferry-night-01.webp",
+        "alt": "아바니 플러스 리버사이드 방콕 · 짜오프라야강을 가르는 페리"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Avani Plus Riverside Bangkok Hotel",
+        "https://www.trip.com/hotels/bangkok-hotel-detail-4123564/avani-plus-riverside-bangkok-hotel/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "azulik-tulum-sea-breeze-hot-tub",
     "group": "호텔 이미지",
     "title": "아줄릭 툴룸 · 카리브해를 바라보는 야외 자쿠지",

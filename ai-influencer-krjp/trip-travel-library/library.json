@@ -5600,6 +5600,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "tambo-del-inka-sacred-valley-breakfast",
+    "group": "호텔 이미지",
+    "title": "탐보 델 잉카 · 페루 성스러운 계곡의 조식",
+    "caption": "morning in the sacred valley.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/tambo-del-inka-sacred-valley-breakfast-01.webp",
+        "alt": "탐보 델 잉카 · 페루 성스러운 계곡의 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Tambo del Inka, a Luxury Collection Resort & Spa",
+        "https://www.trip.com/hotels/urubamba-hotel-detail-3070360/hotel/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "tokyo-disneysea-fantasy-springs-first-walk",
     "group": "호텔 이미지",
     "title": "도쿄 디즈니씨 판타지 스프링스 호텔 · 테마파크로 가는 아침",

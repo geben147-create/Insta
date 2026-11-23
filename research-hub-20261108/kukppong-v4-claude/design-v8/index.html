@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>국뽕 디자인 V8</title>
 <style>
-@font-face{font-family:"Reko";src:url("fonts/Recipekorea.woff") format("woff"),url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff") format("woff");font-display:block}
-@font-face{font-family:"BHS";src:url("fonts/BlackHanSans-Regular.ttf") format("truetype")}
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=block");
+@font-face{font-family:"Reko";src:local("Recipekorea"),local("레코체"),url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff") format("woff");font-display:block}
+@font-face{font-family:"BHS";src:local("Black Han Sans"),local("BlackHanSans-Regular")}
 :root{--red:#E21317;--ink:#111;--hl:#FFE600;--page:#15161a;--card:#1f2026;--txt:#eee;--mut:#9a9ca3}
 *{box-sizing:border-box}
 body{margin:0;background:var(--page);color:var(--txt);font:15px/1.6 system-ui,"Pretendard",sans-serif}
 header{padding:28px 16px 8px;max-width:1100px;margin:auto}
-h1{margin:0 0 4px;font:28px "BHS",sans-serif;letter-spacing:.5px}
+h1{margin:0 0 4px;font:28px "BHS","Black Han Sans",sans-serif;letter-spacing:.5px}
 h1 b{color:var(--red)}
 .lead{color:var(--mut);margin:0}
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 0}
@@ -19,7 +20,7 @@ h1 b{color:var(--red)}
 .chip i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:6px}
 main{max-width:1100px;margin:auto;padding:8px 16px 60px}
 section{margin:28px 0}
-section h2{font:20px "BHS",sans-serif;margin:0 0 6px}
+section h2{font:20px "BHS","Black Han Sans",sans-serif;margin:0 0 6px}
 .spec{color:var(--mut);font-size:13.5px;margin:0 0 10px}
 .row{display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap}
 button{background:#2b2d35;color:#fff;border:0;border-radius:8px;padding:7px 14px;font:inherit;cursor:pointer}
@@ -45,7 +46,7 @@ button.on{background:var(--red)}
 .tag{position:absolute;right:24px;bottom:18px;font:22px system-ui;color:#fff9;background:#0006;padding:4px 12px;border-radius:6px}
 
 /* ---- 1 keyword subtitle ---- */
-.sub{position:absolute;left:0;right:0;bottom:90px;text-align:center;font:78px/1.25 "Reko","BHS",sans-serif;color:#fff;
+.sub{position:absolute;left:0;right:0;bottom:90px;text-align:center;font:78px/1.25 "Reko","BHS","Black Han Sans",sans-serif;color:#fff;
  -webkit-text-stroke:10px var(--ink);paint-order:stroke fill;letter-spacing:-1px}
 .sub .k{position:relative;display:inline-block;padding:0 6px;background:linear-gradient(transparent 42%,var(--hl) 42%,var(--hl) 80%,transparent 80%) no-repeat 0 0/0% 100%;transition:background-size .35s cubic-bezier(.3,.8,.3,1)}
 .sub .k.go{background-size:100% 100%}
@@ -63,28 +64,28 @@ button.on{background:var(--red)}
 .card.r{right:150px;transform:translateX(1100px)}
 .go .card{transform:translateX(0)}
 .card .fl{width:300px;height:200px;filter:grayscale(1) contrast(1.1);border-radius:6px;box-shadow:0 6px 20px #0008}
-.card .nm{font:96px "BHS",sans-serif;color:#fff;-webkit-text-stroke:6px #111;paint-order:stroke fill}
-.card .val{font:54px "Reko","BHS",sans-serif;color:#fff;-webkit-text-stroke:6px #111;paint-order:stroke fill;opacity:0;transform:translateY(20px);transition:.4s .8s}
+.card .nm{font:96px "BHS","Black Han Sans",sans-serif;color:#fff;-webkit-text-stroke:6px #111;paint-order:stroke fill}
+.card .val{font:54px "Reko","BHS","Black Han Sans",sans-serif;color:#fff;-webkit-text-stroke:6px #111;paint-order:stroke fill;opacity:0;transform:translateY(20px);transition:.4s .8s}
 .go .card .val{opacity:1;transform:none}
 .card .val b{color:var(--hl)}
-.vs{position:absolute;left:50%;top:400px;transform:translate(-50%,-50%) scale(3);opacity:0;
- font:230px/1 "BHS",sans-serif;color:var(--red);-webkit-text-stroke:12px #fff;paint-order:stroke fill;
+.vs{position:absolute;left:50%;top:470px;line-height:1;text-box:trim-both cap alphabetic;padding-right:12px;transform:translate(-50%,-50%) scale(3);opacity:0;
+ font:230px/1 "BHS","Black Han Sans",sans-serif;color:var(--red);-webkit-text-stroke:12px #fff;paint-order:stroke fill;
  text-shadow:0 10px 0 #0006,0 0 40px #E2131788;font-style:italic;letter-spacing:-6px}
 .go .vs{animation:stamp .35s .3s cubic-bezier(.3,1.6,.5,1) forwards}
 @keyframes stamp{to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
 .flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
 .go .flash{animation:fsh .3s .3s}
 @keyframes fsh{30%{opacity:.55}100%{opacity:0}}
-.vs-topic{position:absolute;left:0;right:0;bottom:120px;text-align:center;font:64px "Reko","BHS",sans-serif;color:#fff;-webkit-text-stroke:9px #111;paint-order:stroke fill;opacity:0;transition:.4s .8s}
+.vs-topic{position:absolute;left:0;right:0;bottom:120px;text-align:center;font:64px "Reko","BHS","Black Han Sans",sans-serif;color:#fff;-webkit-text-stroke:9px #111;paint-order:stroke fill;opacity:0;transition:.4s .8s}
 .go .vs-topic{opacity:1}
 
 /* ---- 3 chart ---- */
-.ch-title{position:absolute;left:0;right:0;top:70px;text-align:center;font:68px "Reko","BHS",sans-serif;color:#fff;-webkit-text-stroke:9px #111;paint-order:stroke fill}
+.ch-title{position:absolute;left:0;right:0;top:70px;text-align:center;font:68px "Reko","BHS","Black Han Sans",sans-serif;color:#fff;-webkit-text-stroke:9px #111;paint-order:stroke fill}
 .ch-title span{color:var(--hl)}
 .chart{position:absolute;left:200px;top:180px;width:1520px;height:740px}
-.chart text{font-family:"Reko","BHS",sans-serif}
+.chart text{font-family:"Reko","BHS","Black Han Sans",sans-serif}
 .src{position:absolute;right:210px;bottom:120px;font:28px system-ui;color:#fffd;text-shadow:0 2px 4px #000}
-.big{position:absolute;left:330px;top:200px;font:120px "BHS",sans-serif;color:#fff;-webkit-text-stroke:8px #111;paint-order:stroke fill;opacity:0;transition:.5s 2.2s}
+.big{position:absolute;left:330px;top:200px;font:120px "BHS","Black Han Sans",sans-serif;color:#fff;-webkit-text-stroke:8px #111;paint-order:stroke fill;opacity:0;transition:.5s 2.2s}
 .big small{font-size:56px}
 .go .big{opacity:1}
 
@@ -100,16 +101,16 @@ button.on{background:var(--red)}
 
 /* ---- 5 wow ---- */
 .wow{position:absolute;left:0;right:0;top:330px;text-align:center}
-.wow .s{display:inline-block;background:#fff;color:#111;font:44px "Reko","BHS",sans-serif;padding:6px 26px;border-radius:10px;margin-bottom:16px}
-.wow .m{font:170px/1.1 "Reko","BHS",sans-serif;color:#fff;-webkit-text-stroke:14px #111;paint-order:stroke fill;transform:scale(0)}
+.wow .s{background:#fff;color:#111;font:44px "Reko","BHS","Black Han Sans",sans-serif;padding:16px 30px;border-radius:10px;margin-bottom:16px}
+.wow .m{font:170px/1.1 "Reko","BHS","Black Han Sans",sans-serif;color:#fff;-webkit-text-stroke:14px #111;paint-order:stroke fill;transform:scale(0)}
 .wow .m b{color:var(--red);-webkit-text-stroke:14px #fff;position:relative}
 .go .wow .m{animation:pop .5s cubic-bezier(.3,1.5,.5,1) forwards}
 @keyframes pop{0%{transform:scale(.9)}60%{transform:scale(1.1)}100%{transform:scale(1)}}
 
 
-@font-face{font-family:"PPURI";src:url("fonts/JSArirangPPURI.ttf") format("truetype")}
-@font-face{font-family:"Monsori";src:url("fonts/TmonMonsori.woff") format("woff"),url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff") format("woff")}
-@font-face{font-family:"DoHyeon";src:url("fonts/DoHyeon-Regular.ttf") format("truetype")}
+@font-face{font-family:"PPURI";src:local("JS Arirang PPURI"),local("정선아리랑 뿌리"),local("JSArirangPPURI-Regular"),url("fonts/JSArirangPPURI.ttf") format("truetype")}
+@font-face{font-family:"Monsori";src:local("TmonMonsori"),local("티몬체"),local("TmonMonsori Black"),url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff") format("woff")}
+@font-face{font-family:"DoHyeon";src:local("Do Hyeon"),local("DoHyeon-Regular")}
 /* ---- 7 brush verdict (editor px x2.5 for 1920) ---- */
 .brush{position:absolute;left:90px;bottom:60px;font-family:"PPURI",serif;color:#040404;-webkit-text-stroke:30px #FBFAF8;paint-order:stroke fill;
  filter:drop-shadow(11px 11px 0 #000);line-height:1.05;opacity:0;transform:translateY(20px);transition:.45s cubic-bezier(.2,1.3,.4,1)}
@@ -123,28 +124,28 @@ button.on{background:var(--red)}
 .tw.go .shk{animation:shake .25s linear}
 @keyframes shake{20%{transform:translate(-14px,6px)}40%{transform:translate(12px,-8px)}60%{transform:translate(-8px,-4px)}80%{transform:translate(6px,8px)}}
 .shk{position:absolute;inset:0}
-.twbox{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(2.4) rotate(-3deg);opacity:0;background:#E21317;padding:20px 70px 30px;
- font:190px/1 "BHS",sans-serif;color:#fff;-webkit-text-stroke:14px #111;paint-order:stroke fill;box-shadow:0 14px 0 #0007;border:8px solid #fff}
+.twbox{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(2.4) rotate(-3deg);opacity:0;background:#E21317;padding:46px 80px;
+ font:190px/1 "BHS","Black Han Sans",sans-serif;color:#fff;-webkit-text-stroke:14px #111;paint-order:stroke fill;box-shadow:0 14px 0 #0007}
 .tw.go .twbox{animation:bang .22s .05s cubic-bezier(.3,1.6,.5,1) forwards}
 @keyframes bang{to{opacity:1;transform:translate(-50%,-50%) scale(1) rotate(-3deg)}}
-.twsub{position:absolute;left:0;right:0;bottom:130px;text-align:center;font:62px "Reko","BHS",sans-serif;color:#fff;-webkit-text-stroke:9px #111;paint-order:stroke fill;opacity:0;transition:.3s .45s}
+.twsub{position:absolute;left:0;right:0;bottom:130px;text-align:center;font:62px "Reko","BHS","Black Han Sans",sans-serif;color:#fff;-webkit-text-stroke:9px #111;paint-order:stroke fill;opacity:0;transition:.3s .45s}
 .tw.go .twsub{opacity:1}
 /* ---- 9 comment ---- */
-.cmt{position:absolute;left:230px;top:250px;width:1180px;background:#fff;border-radius:34px;padding:40px 52px;box-shadow:0 18px 50px #000a;font-family:"DoHyeon",sans-serif;color:#111;
+.cmt{position:absolute;left:200px;top:230px;width:1520px;background:#fff;border-radius:34px;padding:40px 52px;box-shadow:0 18px 50px #000a;font-family:"DoHyeon","Do Hyeon",sans-serif;color:#111;
  transform:translateX(-1500px);transition:transform .45s cubic-bezier(.2,1.2,.4,1)}
 .go .cmt{transform:none}
 .cmt::after{content:"";position:absolute;left:90px;bottom:-40px;border:22px solid transparent;border-top:28px solid #fff;border-left:30px solid #fff}
 .cmt .who{display:flex;align-items:center;gap:18px;font-size:44px;color:#555}
 .cmt .av{width:76px;height:76px;border-radius:50%;background:#ddd;display:grid;place-items:center;font-size:44px}
 .cmt .orig{font-size:50px;color:#666;margin:22px 0 8px;min-height:62px;font-family:system-ui,sans-serif;font-weight:600}
-.cmt .tr{font-size:78px;line-height:1.25;opacity:0;transition:.3s}
+.cmt .tr{font-size:72px;line-height:1.25;opacity:0;transition:.3s}
 .cmt .tr.on{opacity:1}
 .cmt .tr .k{background:linear-gradient(transparent 50%,#73F282 50%,#73F282 92%,transparent 92%) no-repeat 0 0/0% 100%;transition:background-size .4s .2s}
 .cmt .tr.on .k{background-size:100% 100%}
 .cmt .lk{margin-top:16px;font-size:40px;color:#888}
 .cmt .tag2{position:absolute;right:30px;top:24px;font:26px system-ui;color:#999}
 /* ---- 10 lightning 2 lines ---- */
-.lt{position:absolute;left:0;right:0;bottom:80px;text-align:center;font-family:"Monsori","BHS",sans-serif;color:#FDFDFC;letter-spacing:-2.5px;line-height:1.1}
+.lt{position:absolute;left:0;right:0;bottom:80px;text-align:center;font-family:"Monsori","BHS","Black Han Sans",sans-serif;color:#FDFDFC;letter-spacing:-2.5px;line-height:1.1}
 .lt .l1{font-size:52px;display:block;opacity:0;transition:.25s}
 .lt .l2{font-size:95px;display:inline-block;position:relative;transform:scale(.6);opacity:0;transition:.3s .15s cubic-bezier(.3,1.6,.5,1)}
 .lt .l2 b{color:#E03C3E;font-weight:inherit}
@@ -153,16 +154,20 @@ button.on{background:var(--red)}
 .go .lt .l1{opacity:1}.go .lt .l2{opacity:1;transform:none}
 /* ---- 11 label line ---- */
 .lb{position:absolute;left:0;right:0;bottom:110px;text-align:center;transform:rotate(-1.5deg)}
-.lb .ln{display:inline-block;position:relative;font-family:"Monsori","BHS",sans-serif;font-size:95px;letter-spacing:-3.75px;color:#FDFDFD;
+.lb .ln{display:inline-block;position:relative;font-family:"Monsori","BHS","Black Han Sans",sans-serif;font-size:95px;letter-spacing:-3.75px;color:#FDFDFD;
  -webkit-text-stroke:25px #111114;paint-order:stroke fill;filter:drop-shadow(0 5px 0 #111114);transform:scaleY(1.16);opacity:0;transition:.3s}
 .lb .red{position:relative;display:inline-block}
 .lb .red i{font-style:normal;background:linear-gradient(#E25254,#F26163);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-stroke:0;position:relative}
 .lb .red::before{content:attr(data-t);position:absolute;left:0;top:0;-webkit-text-stroke:25px #111114;color:#111114}
 .lb .lab{position:absolute;left:50%;bottom:100%;transform:translate(-50%,-14px) scale(0);background:#040506;color:#EFEFEF;-webkit-text-stroke:0;
- font:48px "Monsori","BHS",sans-serif;letter-spacing:-1px;padding:8px 22px 10px;white-space:nowrap;transition:.25s .45s cubic-bezier(.3,1.6,.5,1)}
+ font:48px "Monsori","BHS","Black Han Sans",sans-serif;letter-spacing:-1px;padding:16px 24px;white-space:nowrap;transition:.25s .45s cubic-bezier(.3,1.6,.5,1)}
 .lb .burst{position:absolute;top:50%;width:120px;height:120px;transform:translateY(-50%) scale(0);transition:.25s .3s}
 .lb .burst.a{left:-140px}.lb .burst.b{right:-140px}
 .go .lb .ln{opacity:1}.go .lb .lab{transform:translate(-50%,-14px) scale(1)}.go .lb .burst{transform:translateY(-50%) scale(1)}
+/* ---- rules: meaning-unit line breaks + centered text in boxes ---- */
+.canvas *{word-break:keep-all;overflow-wrap:normal;text-wrap:balance}
+.canvas .k,.canvas mark,.canvas .nb{white-space:nowrap}
+.twbox,.wow .s,.lb .lab,.news .logo{display:inline-flex;align-items:center;justify-content:center;line-height:1;text-box:trim-both cap alphabetic}
 .notes{background:var(--card);border-radius:10px;padding:14px 18px;margin-top:10px;font-size:14px}
 .notes li{margin:2px 0}
 code{background:#0004;padding:1px 6px;border-radius:4px}

@@ -4886,6 +4886,27 @@
     "detail": "레퍼런스를 참고해 새로 만든 이미지"
   },
   {
+    "id": "canaves-oia-river-jacuzzi",
+    "group": "호텔 이미지",
+    "title": "카나베스 이아 스위트 · 칼데라 전망 자쿠지",
+    "caption": "the sea keeps its secrets.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/canaves-oia-river-jacuzzi-01.webp",
+        "alt": "카나베스 이아 스위트 · 칼데라 전망 자쿠지"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Canaves Oia Suites",
+        "https://www.trip.com/hotels/santorini-hotel-detail-2562953/canaves-oia-suites-and-spa-santorini/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "hakone-tenyu-onsen",
     "group": "호텔 이미지",
     "title": "하코네 고와키엔 텐유 · 새벽 온천",

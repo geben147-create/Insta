@@ -1,0 +1,208 @@
+{
+  "DYY4d2LBQkK": {
+    "note": "26개 자동 후보 대조. 7.174/7.341/7.549/7.716초는 같은 창과 먼 풍경 앞을 다리 상부 구조물이 통과해 탐지된 후보. 0.959초 따뜻한 조명과 풀을 한 화면, 9.468초 손이 숲속 길을 가리킴, 11.428초 손잡이, 13.847초 청록색 풀과 곧은 수목 공개. 16.308초 수면 반사, 24.525초 풀 와이드, 26.068→26.944초 잎과 흐르는 물 근경. 작은 중앙 흰 영어 문구 관찰. 효과음 정체는 미확인.",
+    "bins": 374,
+    "candidate_count": 26,
+    "hard_cut_count": 22,
+    "watch_count": 22,
+    "watch_image": "grids/DYY4d2LBQkK/watch-01.jpg",
+    "csv": "opencv/DYY4d2LBQkK/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DYY4d2LBQkK/boundaries-01.jpg",
+      "grids/DYY4d2LBQkK/boundaries-02.jpg",
+      "grids/DYY4d2LBQkK/boundaries-03.jpg",
+      "grids/DYY4d2LBQkK/boundaries-04.jpg",
+      "grids/DYY4d2LBQkK/boundaries-05.jpg"
+    ]
+  },
+  "DRCKrhSElbL": {
+    "note": "48 후보 좌·중·우 대조. 59.733초 Trip.com UI가 흰 원형으로 펼쳐지는 와이프, 59.967초 같은 인터페이스에서 프로모션 카드 영역만 바뀌므로 둘 다 영상 하드컷 집계 제외. 0.0초 증기 낀 온천마을 와이드, 4.133초 목재와 온천 공연, 24.200초 음식 상차림, 33.367~36.333초 파란 저녁 조명의 증기와 전망, 39.733~47.567초 방·발코니·탕·정원, 49.600~57.600초 저녁·면·조식에서 정원 산책으로 전환. 59.133초 실제 Trip.com 앱 화면을 편집에 삽입했으며 60.467초부터 화면에 Tokinoniwa 숙소 페이지가 보인다. 강조형 다색 중앙 발화 자막과 초반 제목 및 지명 사용. 배속·효과음 정체 미확인.",
+    "bins": 645,
+    "candidate_count": 48,
+    "hard_cut_count": 46,
+    "watch_count": 22,
+    "watch_image": "grids/DRCKrhSElbL/watch-01.jpg",
+    "csv": "opencv/DRCKrhSElbL/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DRCKrhSElbL/boundaries-01.jpg",
+      "grids/DRCKrhSElbL/boundaries-02.jpg",
+      "grids/DRCKrhSElbL/boundaries-03.jpg",
+      "grids/DRCKrhSElbL/boundaries-04.jpg",
+      "grids/DRCKrhSElbL/boundaries-05.jpg",
+      "grids/DRCKrhSElbL/boundaries-06.jpg",
+      "grids/DRCKrhSElbL/boundaries-07.jpg",
+      "grids/DRCKrhSElbL/boundaries-08.jpg"
+    ]
+  },
+  "C9UlLxWSLa2": {
+    "note": "0.0초 가족과 호텔 로비, 2.7초 침대, 5.4초 욕실 삽입, 8.1초 품목 목록, 10.8초 창문 앞 어린이, 18.9초 놀이 공간, 29.7초 시설 안내, 32.4초 도시 전망. 화면 글씨는 객실·이동·편의시설과 함께 바뀐다. 13개 후보를 육안 대조했고 7.667초는 같은 샷 안 품목 목록 삽입이므로 하드컷에서 제외했다.",
+    "bins": 325,
+    "candidate_count": 13,
+    "hard_cut_count": 12,
+    "watch_count": 14,
+    "watch_image": "grids/C9UlLxWSLa2/watch-01.jpg",
+    "csv": "opencv/C9UlLxWSLa2/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/C9UlLxWSLa2/boundaries-01.jpg",
+      "grids/C9UlLxWSLa2/boundaries-02.jpg",
+      "grids/C9UlLxWSLa2/boundaries-03.jpg"
+    ]
+  },
+  "DPT6R7wiJAz": {
+    "note": "7개 자동 후보 모두 하드컷. 0.1초 그리드 및 소스 F83→84 추가 대조에서, 자동이 놓친 3.360초의 침구와 잔→야외 탕 전환도 확인했다. 총 확인 8개. 1.200초 온천 수면에서 넓은 창틀과 정원, 2.280초 차잔과 침구로 시점 축소, 4.400초 방으로 전환. 4.960초 뒷모습으로 입구 접근, 8.240초 정원·수면 위 장소표, 9.840초 첫 구도로 회귀. 앞부분은 얇은 흰 영어, 후반은 별도 장소표. 효과음 정체 미확인.",
+    "bins": 115,
+    "candidate_count": 7,
+    "hard_cut_count": 8,
+    "watch_count": 9,
+    "watch_image": "grids/DPT6R7wiJAz/watch-01.jpg",
+    "csv": "opencv/DPT6R7wiJAz/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DPT6R7wiJAz/boundaries-01.jpg",
+      "grids/DPT6R7wiJAz/boundaries-02.jpg",
+      "grids/DPT6R7wiJAz/manual-3.360s.jpg"
+    ]
+  },
+  "DNoB3-gJ4Kx": {
+    "note": "22 후보 전체 좌·중·우 대조. 0.0초 돌길 위 걷는 뒷모습에서 1.767초 료칸 창과 정원, 3.467초 따뜻한 병풍과 인물, 6.700초 녹색과 붉은 등, 8.367초 현관 다리를 걷는 전신 후면, 16.833초 따뜻한 상차림, 24.867초 목조 건물과 하천, 26.867초 창 너머 녹색, 28.400·29.633초 음식 근경. 39.000초 다시 길의 뒷모습, 40.733초 현관으로 회귀. 초반 작은 흰 영어 문구. 효과음 정체·배속 미확인.",
+    "bins": 427,
+    "candidate_count": 22,
+    "hard_cut_count": 22,
+    "watch_count": 22,
+    "watch_image": "grids/DNoB3-gJ4Kx/watch-01.jpg",
+    "csv": "opencv/DNoB3-gJ4Kx/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DNoB3-gJ4Kx/boundaries-01.jpg",
+      "grids/DNoB3-gJ4Kx/boundaries-02.jpg",
+      "grids/DNoB3-gJ4Kx/boundaries-03.jpg",
+      "grids/DNoB3-gJ4Kx/boundaries-04.jpg"
+    ]
+  },
+  "DZDFD27onPn": {
+    "note": "0.0초부터 도로와 고산 전경, 1.5초 지도 삽입, 3.0–6.0초 나뭇가지 사이 호수, 7.5–10.5초 암봉과 호수, 12–17초 숲길·초지·능선. 일자별 자막이 바뀌며 여러 장소를 연결한다. 자동 후보 17개 앞뒤를 실제 프레임으로 확인했다.",
+    "bins": 181,
+    "candidate_count": 17,
+    "hard_cut_count": 17,
+    "watch_count": 18,
+    "watch_image": "grids/DZDFD27onPn/watch-01.jpg",
+    "csv": "opencv/DZDFD27onPn/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DZDFD27onPn/boundaries-01.jpg",
+      "grids/DZDFD27onPn/boundaries-02.jpg",
+      "grids/DZDFD27onPn/boundaries-03.jpg"
+    ]
+  },
+  "DIOcouJNiBI": {
+    "note": "0.0초 라우터브루넨 계곡과 인물, 6.6초 열차에서 창으로 산과 초지, 13.2초 마을과 폭포, 26.4초 광량 변화, 39.6초 철로 소실점, 59.4초 설산 지명, 72.6초 높은 호수 전망. 지명·가격·교통 자막과 인물 설명 장면이 섞인다.",
+    "bins": 801,
+    "candidate_count": 46,
+    "hard_cut_count": null,
+    "watch_count": 22,
+    "watch_image": "grids/DIOcouJNiBI/watch-01.jpg",
+    "csv": "opencv/DIOcouJNiBI/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DIOcouJNiBI/boundaries-01.jpg",
+      "grids/DIOcouJNiBI/boundaries-02.jpg",
+      "grids/DIOcouJNiBI/boundaries-03.jpg",
+      "grids/DIOcouJNiBI/boundaries-04.jpg",
+      "grids/DIOcouJNiBI/boundaries-05.jpg",
+      "grids/DIOcouJNiBI/boundaries-06.jpg",
+      "grids/DIOcouJNiBI/boundaries-07.jpg",
+      "grids/DIOcouJNiBI/boundaries-08.jpg"
+    ]
+  },
+  "DKH87rite5f": {
+    "note": "16개 후보 모두 직전·직후 확인. 0.000초 붉은 다리 → 0.900 계단 → 1.733 터널 → 2.800 복도 → 3.633 김 서린 실내탕 → 4.600 나무와 돌이 보이는 야외탕. 5.333, 7.567은 문을 여는 시점, 9.367 창가 욕조, 10.233 식사, 14.700 조명 외관. 하단 안내문이 바뀐다.",
+    "bins": 170,
+    "candidate_count": 16,
+    "hard_cut_count": 16,
+    "watch_count": 19,
+    "watch_image": "grids/DKH87rite5f/watch-01.jpg",
+    "csv": "opencv/DKH87rite5f/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DKH87rite5f/boundaries-01.jpg",
+      "grids/DKH87rite5f/boundaries-02.jpg",
+      "grids/DKH87rite5f/boundaries-03.jpg"
+    ]
+  },
+  "DXZc-2LEtcm": {
+    "note": "17개 후보 모두 불연속 전환 확인. 1.767 도시와 물, 3.067 능선 위 시야, 4.133 넓은 계곡, 5.000 카트 내리막, 5.833 절벽, 6.700 호수, 10.167 계곡길 자전거, 11.000 물 디테일, 12.733 높은 시점의 청록 호수. 일정 문구가 구간별로 바뀐다. 실제 코스·호텔 기하를 확정하는 근거는 별도 공식 자료가 필요하다.",
+    "bins": 174,
+    "candidate_count": 17,
+    "hard_cut_count": 17,
+    "watch_count": 18,
+    "watch_image": "grids/DXZc-2LEtcm/watch-01.jpg",
+    "csv": "opencv/DXZc-2LEtcm/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DXZc-2LEtcm/boundaries-01.jpg",
+      "grids/DXZc-2LEtcm/boundaries-02.jpg",
+      "grids/DXZc-2LEtcm/boundaries-03.jpg"
+    ]
+  },
+  "DDqUMaLME_3": {
+    "note": "0초 흐린 밝은 시작, 2.1초 꽃과 스위스 계곡, 6.3–10.5초 미끄럼틀·그네·망원경, 18.9초 수면, 21.0초 실내 풀, 25.2초 창 너머 빨간 다리. 강조색 발화 자막이 보인다. 자동 후보 17개 앞뒤를 실제 프레임으로 확인했다.",
+    "bins": 262,
+    "candidate_count": 17,
+    "hard_cut_count": 17,
+    "watch_count": 22,
+    "watch_image": "grids/DDqUMaLME_3/watch-01.jpg",
+    "csv": "opencv/DDqUMaLME_3/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DDqUMaLME_3/boundaries-01.jpg",
+      "grids/DDqUMaLME_3/boundaries-02.jpg",
+      "grids/DDqUMaLME_3/boundaries-03.jpg"
+    ]
+  },
+  "DSpF_jKEr70": {
+    "note": "0.0초 테마파크 입구와 셀피, 14.0초 공항에서 Day 1 문구, 21.0초 호텔 외관, 28.0초 실내, 35.0초 천장 장식, 42.0초 식사, 63.0초 공연, 77.0초 도시 도로, 84.0초 노란 여행·예약 문구. 개인 일정 설명으로 호텔 특정 시설의 연속 탐색은 짧다.",
+    "bins": 850,
+    "candidate_count": 69,
+    "hard_cut_count": null,
+    "watch_count": 22,
+    "watch_image": "grids/DSpF_jKEr70/watch-01.jpg",
+    "csv": "opencv/DSpF_jKEr70/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DSpF_jKEr70/boundaries-01.jpg",
+      "grids/DSpF_jKEr70/boundaries-02.jpg",
+      "grids/DSpF_jKEr70/boundaries-03.jpg",
+      "grids/DSpF_jKEr70/boundaries-04.jpg",
+      "grids/DSpF_jKEr70/boundaries-05.jpg",
+      "grids/DSpF_jKEr70/boundaries-06.jpg",
+      "grids/DSpF_jKEr70/boundaries-07.jpg",
+      "grids/DSpF_jKEr70/boundaries-08.jpg",
+      "grids/DSpF_jKEr70/boundaries-09.jpg",
+      "grids/DSpF_jKEr70/boundaries-10.jpg",
+      "grids/DSpF_jKEr70/boundaries-11.jpg",
+      "grids/DSpF_jKEr70/boundaries-12.jpg"
+    ]
+  },
+  "DM2u1gDt2_x": {
+    "note": "0.0초 산악 와이드와 좌하단 진행자 합성. 13.9초 숲이 보이는 실내, 41.7초 창과 식당, 83.4초 호텔 외관, 97.3초 창 전망, 125.1초 푸른 풀, 139.0초 어두운 휴식 공간, 152.9초 큰 창으로 돌아온다. 안내문과 발화 자막이 보인다.",
+    "bins": 1670,
+    "candidate_count": 28,
+    "hard_cut_count": null,
+    "watch_count": 22,
+    "watch_image": "grids/DM2u1gDt2_x/watch-01.jpg",
+    "csv": "opencv/DM2u1gDt2_x/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DM2u1gDt2_x/boundaries-01.jpg",
+      "grids/DM2u1gDt2_x/boundaries-02.jpg",
+      "grids/DM2u1gDt2_x/boundaries-03.jpg",
+      "grids/DM2u1gDt2_x/boundaries-04.jpg",
+      "grids/DM2u1gDt2_x/boundaries-05.jpg"
+    ]
+  },
+  "DVBqCaoCOof": {
+    "note": "15개 자동 후보 좌→중 실제 소재 전환 확인. 0.0초 잎처럼 겹친 지붕 항공 와이드, 0.700 수면과 건물, 1.400 대나무 외관, 2.833 항공, 3.700 다리 위 뒷모습, 4.933 대나무 사이 푸른 물, 5.633 돌과 아치, 7.000 식사 공간, 9.833 다리, 10.533 처음의 고도·방향으로 돌아간다. 약 0.5–0.9초 간격의 짧은 컷과 두 종류 중앙 문구가 보인다.",
+    "bins": 112,
+    "candidate_count": 15,
+    "hard_cut_count": 15,
+    "watch_count": 16,
+    "watch_image": "grids/DVBqCaoCOof/watch-01.jpg",
+    "csv": "opencv/DVBqCaoCOof/timeline-0.1s.csv",
+    "boundary_sheets": [
+      "grids/DVBqCaoCOof/boundaries-01.jpg",
+      "grids/DVBqCaoCOof/boundaries-02.jpg",
+      "grids/DVBqCaoCOof/boundaries-03.jpg"
+    ]
+  }
+}

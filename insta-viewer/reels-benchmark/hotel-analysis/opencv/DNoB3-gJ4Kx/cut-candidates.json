@@ -1,0 +1,178 @@
+[
+  {
+    "time_s": 1.767,
+    "nearest_0_1_s": 1.8,
+    "frame_index": 53,
+    "hist_bhattacharyya": 0.61586,
+    "gray_mad": 73.6041,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 3.467,
+    "nearest_0_1_s": 3.5,
+    "frame_index": 104,
+    "hist_bhattacharyya": 0.62819,
+    "gray_mad": 53.0385,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 5.2,
+    "nearest_0_1_s": 5.2,
+    "frame_index": 156,
+    "hist_bhattacharyya": 0.70773,
+    "gray_mad": 64.4309,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 6.7,
+    "nearest_0_1_s": 6.7,
+    "frame_index": 201,
+    "hist_bhattacharyya": 0.73669,
+    "gray_mad": 61.5529,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 8.367,
+    "nearest_0_1_s": 8.4,
+    "frame_index": 251,
+    "hist_bhattacharyya": 0.56528,
+    "gray_mad": 52.7176,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 11.0,
+    "nearest_0_1_s": 11.0,
+    "frame_index": 330,
+    "hist_bhattacharyya": 0.69596,
+    "gray_mad": 90.8135,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 12.967,
+    "nearest_0_1_s": 13.0,
+    "frame_index": 389,
+    "hist_bhattacharyya": 0.8575,
+    "gray_mad": 97.1629,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 14.9,
+    "nearest_0_1_s": 14.9,
+    "frame_index": 447,
+    "hist_bhattacharyya": 0.79233,
+    "gray_mad": 71.1797,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 16.833,
+    "nearest_0_1_s": 16.8,
+    "frame_index": 505,
+    "hist_bhattacharyya": 0.58399,
+    "gray_mad": 50.715,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 18.867,
+    "nearest_0_1_s": 18.9,
+    "frame_index": 566,
+    "hist_bhattacharyya": 0.66197,
+    "gray_mad": 63.4419,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 20.5,
+    "nearest_0_1_s": 20.5,
+    "frame_index": 615,
+    "hist_bhattacharyya": 0.87292,
+    "gray_mad": 83.8985,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 22.5,
+    "nearest_0_1_s": 22.5,
+    "frame_index": 675,
+    "hist_bhattacharyya": 0.79125,
+    "gray_mad": 69.2709,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 24.867,
+    "nearest_0_1_s": 24.9,
+    "frame_index": 746,
+    "hist_bhattacharyya": 0.5993,
+    "gray_mad": 52.5849,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 26.867,
+    "nearest_0_1_s": 26.9,
+    "frame_index": 806,
+    "hist_bhattacharyya": 0.7688,
+    "gray_mad": 66.7209,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 28.4,
+    "nearest_0_1_s": 28.4,
+    "frame_index": 852,
+    "hist_bhattacharyya": 0.62638,
+    "gray_mad": 61.2566,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 29.633,
+    "nearest_0_1_s": 29.6,
+    "frame_index": 889,
+    "hist_bhattacharyya": 0.57271,
+    "gray_mad": 53.3955,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 31.633,
+    "nearest_0_1_s": 31.6,
+    "frame_index": 949,
+    "hist_bhattacharyya": 0.74631,
+    "gray_mad": 63.0652,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 33.633,
+    "nearest_0_1_s": 33.6,
+    "frame_index": 1009,
+    "hist_bhattacharyya": 0.84966,
+    "gray_mad": 55.9278,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 35.167,
+    "nearest_0_1_s": 35.2,
+    "frame_index": 1055,
+    "hist_bhattacharyya": 0.51252,
+    "gray_mad": 61.8112,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 37.1,
+    "nearest_0_1_s": 37.1,
+    "frame_index": 1113,
+    "hist_bhattacharyya": 0.67814,
+    "gray_mad": 59.3413,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 39.0,
+    "nearest_0_1_s": 39.0,
+    "frame_index": 1170,
+    "hist_bhattacharyya": 0.66603,
+    "gray_mad": 67.6702,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 40.733,
+    "nearest_0_1_s": 40.7,
+    "frame_index": 1222,
+    "hist_bhattacharyya": 0.62908,
+    "gray_mad": 60.777,
+    "status": "automatic_candidate_unverified"
+  }
+]

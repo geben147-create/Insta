@@ -1,0 +1,555 @@
+{
+  "asOf": "2026-11-22",
+  "catalogStatus": "25 ranked properties and source photographs verified against Trip.Best ranking data. This is the research catalog, not a generated-image delivery.",
+  "photoUse": "Trip.com-hosted listing photos are visual references. AI-generated scenes are editorial interpretations and do not depict confirmed hotel facilities.",
+  "affiliateAudit": {
+    "scope": [
+      "output/travel-vlog100/trip-links.json",
+      "output/travel-vlog100/index.html"
+    ],
+    "uniqueExistingTripUrls": 18,
+    "observedExistingQueryParameterNames": [
+      "curr",
+      "locale"
+    ],
+    "affiliateAttributionVerified": false,
+    "note": "Property IDs and ranking IDs identify listings and ranking pages. Affiliate attribution requires authorized tracked links and affiliate-dashboard or conversion validation.",
+    "officialLinkBuilderHelp": "https://www.trip.com/partners/help/faq/tools",
+    "officialAffiliatePortal": "https://www.trip.com/partners/index"
+  },
+  "hotels": [
+    {
+      "country": "Switzerland",
+      "rankingCategory": "Instagrammable",
+      "rank": 1,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/switzerland-best-instagram-worthy-hotels-100200446342/",
+      "hotelId": "78154524",
+      "hotelName": "Kempinski Palace Engelberg",
+      "bookingUrl": "https://www.trip.com/hotels/engelberg-hotel-detail-78154524/hotel/?locale=en-XX&rankingId=100200446342&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0221t12000kpkqrrg5A5B.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2512000aq356brB199.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2512000aq35ez95B59.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6s12000aq3463q945A.jpg",
+        "https://ak-d.tripcdn.com/images/0226a12000kpkqpwb2FC4.jpg",
+        "https://ak-d.tripcdn.com/images/0222w12000nc8jxay6DE6.jpg",
+        "https://ak-d.tripcdn.com/images/0226p12000ho1jzkf4CD8.jpg",
+        "https://ak-d.tripcdn.com/images/0224i12000kpkqpw721FA.jpg",
+        "https://ak-d.tripcdn.com/images/0222n120009glmksaD317.jpg",
+        "https://ak-d.tripcdn.com/images/0225f12000kpkqspqD1BA.jpg",
+        "https://ak-d.tripcdn.com/images/0226o12000kpkqtthAED3.jpg"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "rankingCategory": "Instagrammable",
+      "rank": 2,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/switzerland-best-instagram-worthy-hotels-100200446342/",
+      "hotelId": "2143687",
+      "hotelName": "Four Seasons Hotel des Bergues Geneva",
+      "bookingUrl": "https://www.trip.com/hotels/geneva-hotel-detail-2143687/hotel/?locale=en-XX&rankingId=100200446342&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/2008190000017y5rs5809.jpg",
+        "https://ak-d.tripcdn.com/images/220712000000s5g6eCC0F.jpg",
+        "https://ak-d.tripcdn.com/images/0225k12000u1dmk21F44A.jpg",
+        "https://ak-d.tripcdn.com/images/0580s12000sv2499gA6A9.jpg",
+        "https://ak-d.tripcdn.com/images/0221n12000kz1r0fh495D.jpg",
+        "https://ak-d.tripcdn.com/images/0223i12000kz1r6va22BE.jpg",
+        "https://ak-d.tripcdn.com/images/0227412000tq3bvtbA28A.jpg",
+        "https://ak-d.tripcdn.com/images/0224p12000u1dmm4p4F5C.jpg",
+        "https://ak-d.tripcdn.com/images/0225412000kz1r5shF521.jpg"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "rankingCategory": "Instagrammable",
+      "rank": 3,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/switzerland-best-instagram-worthy-hotels-100200446342/",
+      "hotelId": "4372281",
+      "hotelName": "Grand Hotel Kronenhof",
+      "bookingUrl": "https://www.trip.com/hotels/pontresina-hotel-detail-4372281/hotel/?locale=en-XX&rankingId=100200446342&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/220l0z000000mqqlc369D.jpg",
+        "https://ak-d.tripcdn.com/images/220l0z000000mqqhiEB08.jpg",
+        "https://ak-d.tripcdn.com/images/0223112000l7a6l5j9068.jpg",
+        "https://ak-d.tripcdn.com/images/0226y12000tu78ydtD20E.jpg",
+        "https://ak-d.tripcdn.com/images/0220y12000n5epmwu021F.jpg",
+        "https://ak-d.tripcdn.com/images/0224o12000tugvnm718FD.jpg",
+        "https://ak-d.tripcdn.com/images/0223i12000tu78yq2A940.jpg",
+        "https://ak-d.tripcdn.com/images/0220p12000tt7rosp3F16.jpg",
+        "https://ak-d.tripcdn.com/images/0220612000tq3op86C3FF.jpg",
+        "https://ak-d.tripcdn.com/images/0225h12000l0zi93i2DED.jpg"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "rankingCategory": "Instagrammable",
+      "rank": 4,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/switzerland-best-instagram-worthy-hotels-100200446342/",
+      "hotelId": "1483618",
+      "hotelName": "Hotel Villa Honegg",
+      "bookingUrl": "https://www.trip.com/hotels/ennetburgen-hotel-detail-1483618/hotel/?locale=en-XX&rankingId=100200446342&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0226312000tp4wa1z97D0.jpg",
+        "https://ak-d.tripcdn.com/images/0220r12000l0g3s62AD13.jpg",
+        "https://ak-d.tripcdn.com/images/0223s12000tppav349EB9.jpg",
+        "https://ak-d.tripcdn.com/images/0223e12000tq2oq587034.jpg",
+        "https://ak-d.tripcdn.com/images/0584i12000jmwpzp6E0DA.jpg",
+        "https://ak-d.tripcdn.com/images/0581612000u0ta0rd317D.jpg",
+        "https://ak-d.tripcdn.com/images/0225k12000l0g43dd789A.jpg",
+        "https://ak-d.tripcdn.com/images/0221g12000tp4w3d873E9.jpg",
+        "https://ak-d.tripcdn.com/images/0220w12000l0g3zxnF797.jpg",
+        "https://ak-d.tripcdn.com/images/0223j12000tpofvb7AFCB.jpg"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "rankingCategory": "Instagrammable",
+      "rank": 5,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/switzerland-best-instagram-worthy-hotels-100200446342/",
+      "hotelId": "2141051",
+      "hotelName": "La Réserve Eden au Lac Zurich",
+      "bookingUrl": "https://www.trip.com/hotels/zurich-hotel-detail-2141051/hotel/?locale=en-XX&rankingId=100200446342&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/200814000000x45wl8E98.jpg",
+        "https://ak-d.tripcdn.com/images/200914000000vy2eoF159.jpg",
+        "https://ak-d.tripcdn.com/images/0223e12000tppdcnyDBC2.jpg",
+        "https://ak-d.tripcdn.com/images/0227112000u3tvdd69D38.jpg",
+        "https://ak-d.tripcdn.com/images/0222112000tppdfglC0B4.jpg",
+        "https://ak-d.tripcdn.com/images/0223y12000jbrhuvo7378.jpg",
+        "https://ak-d.tripcdn.com/images/0221112000l1u19y3BD0A.jpg",
+        "https://ak-d.tripcdn.com/images/0221f120009ovu1hz1D66.jpg",
+        "https://ak-d.tripcdn.com/images/0221812000u344h2h1282.jpg",
+        "https://ak-d.tripcdn.com/images/0223012000tppdpcrD2F7.jpg"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "rankingCategory": "Instagrammable",
+      "rank": 6,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/switzerland-best-instagram-worthy-hotels-100200446342/",
+      "hotelId": "2547380",
+      "hotelName": "Matthiol Boutique Hotel",
+      "bookingUrl": "https://www.trip.com/hotels/zermatt-hotel-detail-2547380/hotel/?locale=en-XX&rankingId=100200446342&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0220s12000kyo2xhu1E99.jpg",
+        "https://ak-d.tripcdn.com/images/0222s12000kyo309n8ECF.jpg",
+        "https://ak-d.tripcdn.com/images/0226l12000kyo2uqy0897.jpg",
+        "https://ak-d.tripcdn.com/images/0223912000ar84qbgAA4B.jpg",
+        "https://ak-d.tripcdn.com/images/0580z12000jqc4j1x1534.jpg",
+        "https://ak-d.tripcdn.com/images/0583c12000nhxueeiEB02.jpg",
+        "https://ak-d.tripcdn.com/images/0586e12000ly20wdz7F95.jpg",
+        "https://ak-d.tripcdn.com/images/0224f12000kyo2xje71F9.jpg",
+        "https://ak-d.tripcdn.com/images/0224412000kyo2uau64B0.jpg",
+        "https://ak-d.tripcdn.com/images/0226o12000kyo2usb32D8.jpg"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "rankingCategory": "Instagrammable",
+      "rank": 7,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/switzerland-best-instagram-worthy-hotels-100200446342/",
+      "hotelId": "22841193",
+      "hotelName": "Hôtel des Horlogers",
+      "bookingUrl": "https://www.trip.com/hotels/le-chenit-hotel-detail-22841193/hotel/?locale=en-XX&rankingId=100200446342&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0224n12000ckmscntE795.jpg",
+        "https://ak-d.tripcdn.com/images/0225y12000kxygiw319E2.jpg",
+        "https://ak-d.tripcdn.com/images/0225a12000kxygmbx0B3A.jpg",
+        "https://ak-d.tripcdn.com/images/0221f12000kxyg588573D.jpg",
+        "https://ak-d.tripcdn.com/images/0220m12000kxygivr25A2.jpg",
+        "https://ak-d.tripcdn.com/images/0221012000kxyfxnrB1D7.jpg",
+        "https://ak-d.tripcdn.com/images/0220i12000kxyghb74B1B.jpg",
+        "https://ak-d.tripcdn.com/images/0583l12000feunhdqB6B6.jpg",
+        "https://ak-d.tripcdn.com/images/0223x12000m00gemt5BB6.jpg",
+        "https://ak-d.tripcdn.com/images/0221q12000kxyg4gcD6BD.jpg"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "rankingCategory": "Instagrammable",
+      "rank": 8,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/switzerland-best-instagram-worthy-hotels-100200446342/",
+      "hotelId": "2138637",
+      "hotelName": "Hotel Spinne Grindelwald",
+      "bookingUrl": "https://www.trip.com/hotels/grindelwald-hotel-detail-2138637/hotel/?locale=en-XX&rankingId=100200446342&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/220q10000000op2q0CCD6.jpg?proc=crop/w_887,h_1331,x_556,y_0,4EEA",
+        "https://ak-d.tripcdn.com/images/0586k12000cs4yxryD52C.jpg",
+        "https://ak-d.tripcdn.com/images/0582q12000sp8aboo1A88.jpg",
+        "https://ak-d.tripcdn.com/images/0581512000sqjjf1nA7B2.jpg",
+        "https://ak-d.tripcdn.com/images/0223212000a3yxfg1EEAE.jpg",
+        "https://ak-d.tripcdn.com/images/1mc5t12000c5arkh9A3C9.jpg",
+        "https://ak-d.tripcdn.com/images/1mc0412000c5anet783F0.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6u12000c5ar1mb2390.jpg",
+        "https://ak-d.tripcdn.com/images/1mc4b12000c5apdoo2978.jpg",
+        "https://ak-d.tripcdn.com/images/0587212000smu4zb94C75.jpg",
+        "https://ak-d.tripcdn.com/images/220q0h0000008vdhq9DB9.jpg"
+      ],
+      "hotelPhotoPage": "https://www.spinne.ch/en/wellness/infinity-pool"
+    },
+    {
+      "country": "Switzerland",
+      "rankingCategory": "Instagrammable",
+      "rank": 9,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/switzerland-best-instagram-worthy-hotels-100200446342/",
+      "hotelId": "2918598",
+      "hotelName": "Relais & Chateaux Schönegg",
+      "bookingUrl": "https://www.trip.com/hotels/zermatt-hotel-detail-2918598/hotel/?locale=en-XX&rankingId=100200446342&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0221l12000lpz7obi38CB.jpg",
+        "https://ak-d.tripcdn.com/images/0224012000l0zqdwzFBD1.jpg",
+        "https://ak-d.tripcdn.com/images/0220312000l0zqkoyF912.jpg",
+        "https://ak-d.tripcdn.com/images/0225312000njbugxt8B23.jpg",
+        "https://ak-d.tripcdn.com/images/0223x12000tpc06q15FE5.jpg",
+        "https://ak-d.tripcdn.com/images/0223g12000l0zqj9r7F6F.jpg",
+        "https://ak-d.tripcdn.com/images/0222c12000tpc06991EEC.jpg",
+        "https://ak-d.tripcdn.com/images/0222q12000l0zqjow2C79.jpg",
+        "https://ak-d.tripcdn.com/images/0221212000tpc0pdnE43A.jpg",
+        "https://ak-d.tripcdn.com/images/0583412000j296dov5056.jpg"
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "rankingCategory": "Instagrammable",
+      "rank": 10,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/switzerland-best-instagram-worthy-hotels-100200446342/",
+      "hotelId": "9930176",
+      "hotelName": "Art Hotel Riposo",
+      "bookingUrl": "https://www.trip.com/hotels/ascona-hotel-detail-9930176/hotel/?locale=en-XX&rankingId=100200446342&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0583u12000klneldw1F7A.jpg",
+        "https://ak-d.tripcdn.com/images/1ik6x12000mgi228nB2FA.jpg",
+        "https://ak-d.tripcdn.com/images/0220r12000tpb26st983A.jpg",
+        "https://ak-d.tripcdn.com/images/0223j12000tpb29whA5EC.jpg",
+        "https://ak-d.tripcdn.com/images/0582f12000u6n8k1z5F29.jpg",
+        "https://ak-d.tripcdn.com/images/0226c12000tp07epw6EBF.jpg",
+        "https://ak-d.tripcdn.com/images/0225512000tpb26y7C59D.jpg",
+        "https://ak-d.tripcdn.com/images/0582q12000tli5fyd2892.jpg",
+        "https://ak-d.tripcdn.com/images/0585o12000k4g70voC55B.jpg",
+        "https://ak-d.tripcdn.com/images/0224o12000tpb1tn74BDC.jpg"
+      ]
+    },
+    {
+      "country": "Italy",
+      "rankingCategory": "Scenic",
+      "rank": 1,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/italy-best-scenic-hotels-100200459590/",
+      "hotelId": "3085110",
+      "hotelName": "Borgo Santandrea",
+      "bookingUrl": "https://www.trip.com/hotels/amalfi-hotel-detail-3085110/hotel/?locale=en-XX&rankingId=100200459590&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0225j12000kwdnde191E4.jpg",
+        "https://ak-d.tripcdn.com/images/0223312000kwdr32h273A.jpg",
+        "https://ak-d.tripcdn.com/images/0585m12000k1obj421F61.jpg",
+        "https://ak-d.tripcdn.com/images/0221s12000kwpbpms9F07.jpg",
+        "https://ak-d.tripcdn.com/images/0225m12000kynnnf745CB.jpg",
+        "https://ak-d.tripcdn.com/images/0220m12000kynngvb269E.jpg",
+        "https://ak-d.tripcdn.com/images/0221k12000kynnnzk4777.jpg",
+        "https://ak-d.tripcdn.com/images/0221812000pqt3yopB484.jpg",
+        "https://ak-d.tripcdn.com/images/0226e12000pqt43842FE2.jpg",
+        "https://ak-d.tripcdn.com/images/0226612000kwp8pzy1DC6.jpg"
+      ]
+    },
+    {
+      "country": "Italy",
+      "rankingCategory": "Scenic",
+      "rank": 2,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/italy-best-scenic-hotels-100200459590/",
+      "hotelId": "2543566",
+      "hotelName": "Mandarin Oriental, Lago di Como",
+      "bookingUrl": "https://www.trip.com/hotels/blevio-hotel-detail-2543566/hotel/?locale=en-XX&rankingId=100200459590&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0224m12000udqa0bo462A.jpg",
+        "https://ak-d.tripcdn.com/images/0221j12000tpnmq7e3FB0.jpg",
+        "https://ak-d.tripcdn.com/images/0222l12000l4pnbt41076.jpg",
+        "https://ak-d.tripcdn.com/images/0226g12000udq9rbx9198.jpg",
+        "https://ak-d.tripcdn.com/images/0223b12000udq9sm3B2F9.jpg",
+        "https://ak-d.tripcdn.com/images/0225g12000udq9z65C96A.jpg",
+        "https://ak-d.tripcdn.com/images/0220o12000tpnr5jtDC61.jpg",
+        "https://ak-d.tripcdn.com/images/0221j12000tpnr8phAE93.jpg",
+        "https://ak-d.tripcdn.com/images/0220e12000tpnr8dv593C.jpg"
+      ]
+    },
+    {
+      "country": "Italy",
+      "rankingCategory": "Scenic",
+      "rank": 3,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/italy-best-scenic-hotels-100200459590/",
+      "hotelId": "3065075",
+      "hotelName": "Caruso, A Belmond Hotel, Amalfi Coast",
+      "bookingUrl": "https://www.trip.com/hotels/ravello-hotel-detail-3065075/hotel/?locale=en-XX&rankingId=100200459590&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/1mc3a12000dwdegeuA6EF.jpg?proc=crop/w_1624,h_2437,x_1053,y_182,A8F1",
+        "https://ak-d.tripcdn.com/images/220c0r000000gxwnq40B6.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1g12000dtnt1hw0640.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6012000ei65vmcA789.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2d12000dwqz28u998B.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1312000dwqzjaw4F7D.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1q12000dwqz8hxB58B.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1x12000dtnsog11BDA.jpg",
+        "https://ak-d.tripcdn.com/images/1mc4812000dwbzjwu8CD5.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1w12000dwr1hk67545.jpg",
+        "https://ak-d.tripcdn.com/images/1mc4p12000dwr1dk3E4DB.jpg"
+      ]
+    },
+    {
+      "country": "Italy",
+      "rankingCategory": "Scenic",
+      "rank": 4,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/italy-best-scenic-hotels-100200459590/",
+      "hotelId": "3136531",
+      "hotelName": "Grand Hotel Timeo, A Belmond Hotel, Taormina",
+      "bookingUrl": "https://www.trip.com/hotels/taormina-hotel-detail-3136531/hotel/?locale=en-XX&rankingId=100200459590&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0220b120009icq4ibDAA8.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6412000eigrwfdC5DC.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6912000eigscl69555.jpg",
+        "https://ak-d.tripcdn.com/images/1mc0812000eigrcfd8C1C.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2e12000dtp0dryB0EE.jpg",
+        "https://ak-d.tripcdn.com/images/1mc0g12000eih8fyk6BE9.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1912000eigs6g20D0B.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1a12000dwc8egm2DF9.jpg",
+        "https://ak-d.tripcdn.com/images/1mc4j12000dtp0z99A513.jpg",
+        "https://ak-d.tripcdn.com/images/1mc0t12000dtp02hy4E53.jpg"
+      ]
+    },
+    {
+      "country": "Italy",
+      "rankingCategory": "Scenic",
+      "rank": 5,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/italy-best-scenic-hotels-100200459590/",
+      "hotelId": "3136670",
+      "hotelName": "Le Sirenuse",
+      "bookingUrl": "https://www.trip.com/hotels/positano-hotel-detail-3136670/hotel/?locale=en-XX&rankingId=100200459590&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0220v12000mcgbk5dFA20.jpg",
+        "https://ak-d.tripcdn.com/images/0225612000mcgccau4687.jpg",
+        "https://ak-d.tripcdn.com/images/0222012000bdr7rv5110C.jpg",
+        "https://ak-d.tripcdn.com/images/220n0z000000mpkk028DD.jpg",
+        "https://ak-d.tripcdn.com/images/22070z000000n772o49B8.jpg",
+        "https://ak-d.tripcdn.com/images/220n0z000000mpkjjAF36.jpg",
+        "https://ak-d.tripcdn.com/images/220j0z000000mq0vw4CCD.jpg",
+        "https://ak-d.tripcdn.com/images/0223v12000bdr7pidB98E.jpg",
+        "https://ak-d.tripcdn.com/images/0221312000l0z6lj33EB2.jpg",
+        "https://ak-d.tripcdn.com/images/0225n12000bdr7jxy4BF2.jpg"
+      ]
+    },
+    {
+      "country": "Italy",
+      "rankingCategory": "Scenic",
+      "rank": 6,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/italy-best-scenic-hotels-100200459590/",
+      "hotelId": "3736859",
+      "hotelName": "Hotel Abi d'Oru",
+      "bookingUrl": "https://www.trip.com/hotels/marinella-hotel-detail-3736859/hotel/?locale=en-XX&rankingId=100200459590&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0222512000kz0gfsfA828.jpg",
+        "https://ak-d.tripcdn.com/images/0225712000kz0glhe5C49.jpg",
+        "https://ak-d.tripcdn.com/images/0222g12000kz0gecy1A8C.jpg",
+        "https://ak-d.tripcdn.com/images/0222612000kz0gm1nF72A.jpg",
+        "https://ak-d.tripcdn.com/images/0222o12000tnw14qg60CF.jpg",
+        "https://ak-d.tripcdn.com/images/0222l12000kz0gnlgC919.jpg",
+        "https://ak-d.tripcdn.com/images/0222i12000kz0gavy0495.jpg"
+      ]
+    },
+    {
+      "country": "Italy",
+      "rankingCategory": "Scenic",
+      "rank": 7,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/italy-best-scenic-hotels-100200459590/",
+      "hotelId": "9419748",
+      "hotelName": "Villa Treville",
+      "bookingUrl": "https://www.trip.com/hotels/positano-hotel-detail-9419748/hotel/?locale=en-XX&rankingId=100200459590&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0581812000sn2zewf0A78.jpg",
+        "https://ak-d.tripcdn.com/images/0221d12000lbu72qzEC8C.jpg",
+        "https://ak-d.tripcdn.com/images/0224d12000qr1ro9p29C1.jpg",
+        "https://ak-d.tripcdn.com/images/0226l12000lbu6wfyFD96.jpg",
+        "https://ak-d.tripcdn.com/images/0221w12000qr1s2otB8B8.jpg",
+        "https://ak-d.tripcdn.com/images/0223512000m5v4gfi6E06.jpg",
+        "https://ak-d.tripcdn.com/images/0222212000l72kc3oB4B9.jpg",
+        "https://ak-d.tripcdn.com/images/0224612000m5i9vp37F21.jpg",
+        "https://ak-d.tripcdn.com/images/0226j12000qr1rku81B5B.jpg",
+        "https://ak-d.tripcdn.com/images/0220n12000l722bwtE4C4.jpg"
+      ]
+    },
+    {
+      "country": "Italy",
+      "rankingCategory": "Scenic",
+      "rank": 8,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/italy-best-scenic-hotels-100200459590/",
+      "hotelId": "2156535",
+      "hotelName": "Hotel Miramalfi",
+      "bookingUrl": "https://www.trip.com/hotels/amalfi-hotel-detail-2156535/hotel/?locale=en-XX&rankingId=100200459590&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0226f12000to7b2ou409D.jpg",
+        "https://ak-d.tripcdn.com/images/0227112000to7as076E47.jpg",
+        "https://ak-d.tripcdn.com/images/0224j12000to7asg6C66D.jpg",
+        "https://ak-d.tripcdn.com/images/0221l12000to7amz825CB.jpg",
+        "https://ak-d.tripcdn.com/images/0221k12000tow7xbc5298.jpg",
+        "https://ak-d.tripcdn.com/images/0222z12000n15hutyEE6C.jpg",
+        "https://ak-d.tripcdn.com/images/0220k12000nq9qbwh3E36.jpg",
+        "https://ak-d.tripcdn.com/images/0223812000kzwpqfk4D14.jpg"
+      ]
+    },
+    {
+      "country": "Italy",
+      "rankingCategory": "Scenic",
+      "rank": 9,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/italy-best-scenic-hotels-100200459590/",
+      "hotelId": "2139808",
+      "hotelName": "San Domenico Palace, Taormina, A Four Seasons Hotel",
+      "bookingUrl": "https://www.trip.com/hotels/taormina-hotel-detail-2139808/hotel/?locale=en-XX&rankingId=100200459590&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0221712000ejhhnm46493.jpg?proc=crop/w_569,h_853,x_243,y_0,D8FD",
+        "https://ak-d.tripcdn.com/images/0582x12000dpwht3c0D03.jpg",
+        "https://ak-d.tripcdn.com/images/0221312000c83tgl111E4.jpg",
+        "https://ak-d.tripcdn.com/images/0583v12000dpwgh01788A.jpg",
+        "https://ak-d.tripcdn.com/images/0221312000enpszly60D1.jpg",
+        "https://ak-d.tripcdn.com/images/0583d12000soz3zrhDD18.jpg",
+        "https://ak-d.tripcdn.com/images/1mc3l12000fvzuarv20DC.jpg",
+        "https://ak-d.tripcdn.com/images/1mc4z12000fvzqwti8241.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2d12000fw1e8mk986F.jpg",
+        "https://ak-d.tripcdn.com/images/0220m120008ccdis8ECB3.jpg"
+      ]
+    },
+    {
+      "country": "Japan",
+      "rankingCategory": "Instagrammable",
+      "rank": 1,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/japan-best-instagram-worthy-hotels-100200446097/",
+      "hotelId": "1546744",
+      "hotelName": "Andaz Tokyo Toranomon Hills- A Concept by Hyatt",
+      "bookingUrl": "https://www.trip.com/hotels/tokyo-hotel-detail-1546744/hotel/?locale=en-XX&rankingId=100200446097&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0225o12000ap1xkmw2CD7.jpg?proc=crop/w_1347,h_2020,x_766,y_0,8EBE",
+        "https://ak-d.tripcdn.com/images/1mc4m12000eyaie3p8173.jpg",
+        "https://ak-d.tripcdn.com/images/22020g0000007vg4tAD20.jpg",
+        "https://ak-d.tripcdn.com/images/1mc5112000eybshrlC8AE.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6412000eyc5bbc42DB.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1i12000ey9wzxeB48E.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6p12000eybg4bc850F.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2q12000eyceqy756A1.jpg",
+        "https://ak-d.tripcdn.com/images/0223y12000ap1xp03F5A2.jpg",
+        "https://ak-d.tripcdn.com/images/200d0b0000005qt2w4DC4.jpg",
+        "https://ak-d.tripcdn.com/images/0581p12000sp0ehql5BD6.jpg"
+      ]
+    },
+    {
+      "country": "Japan",
+      "rankingCategory": "Instagrammable",
+      "rank": 2,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/japan-best-instagram-worthy-hotels-100200446097/",
+      "hotelId": "44009577",
+      "hotelName": "The Okura Tokyo",
+      "bookingUrl": "https://www.trip.com/hotels/tokyo-hotel-detail-44009577/hotel/?locale=en-XX&rankingId=100200446097&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/220j1e000001fjcpj03D1.jpg",
+        "https://ak-d.tripcdn.com/images/0585212000e9ftayr7297.jpg",
+        "https://ak-d.tripcdn.com/images/0581f12000e9fu1d3B70D.jpg",
+        "https://ak-d.tripcdn.com/images/0582z12000e9gl4pw507C.jpg",
+        "https://ak-d.tripcdn.com/images/0220e120008ca53uy2ADD.jpg",
+        "https://ak-d.tripcdn.com/images/0582u12000sp09q269F0E.jpg",
+        "https://ak-d.tripcdn.com/images/22091e000001fm8nuF215.jpg",
+        "https://ak-d.tripcdn.com/images/200j170000010r73wC2D6.jpg",
+        "https://ak-d.tripcdn.com/images/0225l120008cv983c2EF7.jpg",
+        "https://ak-d.tripcdn.com/images/0584e12000e9gklrd0800.jpg",
+        "https://ak-d.tripcdn.com/images/0225c12000a46hr0g5E19.jpg"
+      ]
+    },
+    {
+      "country": "Japan",
+      "rankingCategory": "Instagrammable",
+      "rank": 3,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/japan-best-instagram-worthy-hotels-100200446097/",
+      "hotelId": "124571431",
+      "hotelName": "Patina Osaka",
+      "bookingUrl": "https://www.trip.com/hotels/osaka-hotel-detail-124571431/hotel/?locale=en-XX&rankingId=100200446097&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/1mc6212000tspgphz8720.jpg?proc=crop/w_2641,h_3960,x_100,y_0,645E",
+        "https://ak-d.tripcdn.com/images/1mc6812000tshhnq9E762.jpg",
+        "https://ak-d.tripcdn.com/images/1mc5n12000tshhw1w1F61.jpg",
+        "https://ak-d.tripcdn.com/images/1mc0912000ke1a7ih8F6A.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6712000ke18uqxD9CC.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6312000ke18vnj2E49.jpg",
+        "https://ak-d.tripcdn.com/images/1mc3c12000kdzune8EEF9.jpg",
+        "https://ak-d.tripcdn.com/images/1mc0a12000tshk2556BDB.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6512000kdym5887FFF.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2n12000kdykso1C4D0.jpg",
+        "https://ak-d.tripcdn.com/images/1mc0812000kdyierxB91F.jpg"
+      ]
+    },
+    {
+      "country": "Japan",
+      "rankingCategory": "Instagrammable",
+      "rank": 4,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/japan-best-instagram-worthy-hotels-100200446097/",
+      "hotelId": "100003580",
+      "hotelName": "Bellustar Tokyo, A Pan Pacific Hotel",
+      "bookingUrl": "https://www.trip.com/hotels/tokyo-hotel-detail-100003580/hotel/?locale=en-XX&rankingId=100200446097&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0200812000ajpogam262E.jpg?proc=crop/w_667,h_1000,x_567,y_0,9525",
+        "https://ak-d.tripcdn.com/images/1mc3912000ngvscv89405.jpg",
+        "https://ak-d.tripcdn.com/images/0220e12000ky3v6qyF2C5.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2i12000ffua2nb54F1.jpg",
+        "https://ak-d.tripcdn.com/images/1mc3512000ffu7jsu860C.jpg",
+        "https://ak-d.tripcdn.com/images/0220c12000bv18ge3CF90.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2f12000ffw25uw4EA1.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2x12000iroa8x064CB.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1612000irocfsi7E87.jpg",
+        "https://ak-d.tripcdn.com/images/1mc4i12000o14j0f81081.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1u12000irnooenC265.jpg"
+      ]
+    },
+    {
+      "country": "Japan",
+      "rankingCategory": "Instagrammable",
+      "rank": 5,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/japan-best-instagram-worthy-hotels-100200446097/",
+      "hotelId": "5840930",
+      "hotelName": "The Prince Gallery Tokyo Kioicho, a Luxury Collection Hotel",
+      "bookingUrl": "https://www.trip.com/hotels/tokyo-hotel-detail-5840930/hotel/?locale=en-XX&rankingId=100200446097&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0221j120009ti6jy8BA51.jpg",
+        "https://ak-d.tripcdn.com/images/0200i120008s8kdnw5DBC.jpg",
+        "https://ak-d.tripcdn.com/images/0223c120009ti6e25E791.jpg",
+        "https://ak-d.tripcdn.com/images/220d13000000u9dah0031.jpg",
+        "https://ak-d.tripcdn.com/images/220913000000ud93s19EE.jpg",
+        "https://ak-d.tripcdn.com/images/220n13000000u9wr55C00.jpg",
+        "https://ak-d.tripcdn.com/images/02036120008s8kfwj364F.jpg",
+        "https://ak-d.tripcdn.com/images/0223b120009ti6etiEB88.jpg",
+        "https://ak-d.tripcdn.com/images/220113000000unrveACF1.jpg",
+        "https://ak-d.tripcdn.com/images/22091800000148kbf4447.jpg"
+      ]
+    },
+    {
+      "country": "Japan",
+      "rankingCategory": "Instagrammable",
+      "rank": 6,
+      "rankingSource": "https://www.trip.com/toplist/tripbest/japan-best-instagram-worthy-hotels-100200446097/",
+      "hotelId": "130930341",
+      "hotelName": "JW Marriott Hotel Tokyo",
+      "bookingUrl": "https://www.trip.com/hotels/tokyo-hotel-detail-130930341/hotel/?locale=en-XX&rankingId=100200446097&isNeedAnchor=2",
+      "photoSourceUrls": [
+        "https://ak-d.tripcdn.com/images/0223g12000otht0ry7055.jpg?proc=crop/w_750,h_1125,x_625,y_0,02F5",
+        "https://ak-d.tripcdn.com/images/1mc4b12000oqidi5fA98E.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6g12000oqidgmwFD24.jpg",
+        "https://ak-d.tripcdn.com/images/1mc0u12000oqidednEE59.jpg",
+        "https://ak-d.tripcdn.com/images/1mc1g12000oqidgs86242.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6l12000oqidh7dF811.jpg",
+        "https://ak-d.tripcdn.com/images/1mc2q12000oqicnd555E0.jpg",
+        "https://ak-d.tripcdn.com/images/0220112000ontadx3171A.jpg",
+        "https://ak-d.tripcdn.com/images/1mc5g12000oqid0h7D5F2.jpg",
+        "https://ak-d.tripcdn.com/images/1mc0j12000oqicf1zE98B.jpg",
+        "https://ak-d.tripcdn.com/images/1mc6o12000pnzezfb5D46.jpg"
+      ]
+    }
+  ],
+  "urlChecks": {
+    "bookingHttp200": 25,
+    "firstListingPhotoHttp200": 25,
+    "propertiesChecked": 25,
+    "scope": "HTTP reachability only. Listing room prices, reservations, and affiliate attribution were not tested."
+  }
+}

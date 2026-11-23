@@ -1,0 +1,138 @@
+[
+  {
+    "time_s": 2.6,
+    "nearest_0_1_s": 2.6,
+    "frame_index": 78,
+    "hist_bhattacharyya": 0.57523,
+    "gray_mad": 49.7944,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 3.2,
+    "nearest_0_1_s": 3.2,
+    "frame_index": 96,
+    "hist_bhattacharyya": 0.67412,
+    "gray_mad": 54.3439,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 3.967,
+    "nearest_0_1_s": 4.0,
+    "frame_index": 119,
+    "hist_bhattacharyya": 0.71234,
+    "gray_mad": 53.2135,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 5.133,
+    "nearest_0_1_s": 5.1,
+    "frame_index": 154,
+    "hist_bhattacharyya": 0.66805,
+    "gray_mad": 40.5943,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 6.2,
+    "nearest_0_1_s": 6.2,
+    "frame_index": 186,
+    "hist_bhattacharyya": 0.7487,
+    "gray_mad": 56.5378,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 7.2,
+    "nearest_0_1_s": 7.2,
+    "frame_index": 216,
+    "hist_bhattacharyya": 0.5697,
+    "gray_mad": 63.6106,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 8.133,
+    "nearest_0_1_s": 8.1,
+    "frame_index": 244,
+    "hist_bhattacharyya": 0.66847,
+    "gray_mad": 76.7769,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 8.967,
+    "nearest_0_1_s": 9.0,
+    "frame_index": 269,
+    "hist_bhattacharyya": 0.69909,
+    "gray_mad": 63.5142,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 10.167,
+    "nearest_0_1_s": 10.2,
+    "frame_index": 305,
+    "hist_bhattacharyya": 0.55603,
+    "gray_mad": 56.3639,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 10.867,
+    "nearest_0_1_s": 10.9,
+    "frame_index": 326,
+    "hist_bhattacharyya": 0.68911,
+    "gray_mad": 52.8501,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 11.533,
+    "nearest_0_1_s": 11.5,
+    "frame_index": 346,
+    "hist_bhattacharyya": 0.56108,
+    "gray_mad": 52.9759,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 12.3,
+    "nearest_0_1_s": 12.3,
+    "frame_index": 369,
+    "hist_bhattacharyya": 0.60928,
+    "gray_mad": 56.0975,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 13.233,
+    "nearest_0_1_s": 13.2,
+    "frame_index": 397,
+    "hist_bhattacharyya": 0.49997,
+    "gray_mad": 47.758,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 14.0,
+    "nearest_0_1_s": 14.0,
+    "frame_index": 420,
+    "hist_bhattacharyya": 0.72176,
+    "gray_mad": 47.3734,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 15.1,
+    "nearest_0_1_s": 15.1,
+    "frame_index": 453,
+    "hist_bhattacharyya": 0.59112,
+    "gray_mad": 52.4939,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 15.9,
+    "nearest_0_1_s": 15.9,
+    "frame_index": 477,
+    "hist_bhattacharyya": 0.58462,
+    "gray_mad": 47.619,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 16.533,
+    "nearest_0_1_s": 16.5,
+    "frame_index": 496,
+    "hist_bhattacharyya": 0.64585,
+    "gray_mad": 52.8631,
+    "status": "automatic_candidate_unverified"
+  }
+]

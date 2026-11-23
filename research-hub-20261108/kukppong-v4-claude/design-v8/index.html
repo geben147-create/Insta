@@ -106,6 +106,63 @@ button.on{background:var(--red)}
 .go .wow .m{animation:pop .5s cubic-bezier(.3,1.5,.5,1) forwards}
 @keyframes pop{0%{transform:scale(.9)}60%{transform:scale(1.1)}100%{transform:scale(1)}}
 
+
+@font-face{font-family:"PPURI";src:url("fonts/JSArirangPPURI.ttf") format("truetype")}
+@font-face{font-family:"Monsori";src:url("fonts/TmonMonsori.woff") format("woff"),url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff") format("woff")}
+@font-face{font-family:"DoHyeon";src:url("fonts/DoHyeon-Regular.ttf") format("truetype")}
+/* ---- 7 brush verdict (editor px x2.5 for 1920) ---- */
+.brush{position:absolute;left:90px;bottom:90px;font-family:"PPURI",serif;color:#040404;-webkit-text-stroke:30px #FBFAF8;paint-order:stroke fill;
+ filter:drop-shadow(11px 11px 0 #000);line-height:1.05;opacity:0;transform:translateY(20px);transition:.45s cubic-bezier(.2,1.3,.4,1)}
+.brush .h{font-size:63px;display:block;margin-left:8px}
+.brush .b{font-size:140px;display:block}
+.brush .inv{color:#FCFCFC;-webkit-text-stroke:30px #080404}
+.go .brush{opacity:1;transform:none}
+/* ---- 8 twist ---- */
+.tw .bg{transition:filter .05s}
+.tw.go .bg{filter:grayscale(1) contrast(1.15);animation-play-state:paused}
+.tw.go .shk{animation:shake .25s linear}
+@keyframes shake{20%{transform:translate(-14px,6px)}40%{transform:translate(12px,-8px)}60%{transform:translate(-8px,-4px)}80%{transform:translate(6px,8px)}}
+.shk{position:absolute;inset:0}
+.twbox{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) scale(2.4) rotate(-3deg);opacity:0;background:#E21317;padding:20px 70px 30px;
+ font:190px/1 "BHS",sans-serif;color:#fff;-webkit-text-stroke:14px #111;paint-order:stroke fill;box-shadow:0 14px 0 #0007;border:8px solid #fff}
+.tw.go .twbox{animation:bang .22s .05s cubic-bezier(.3,1.6,.5,1) forwards}
+@keyframes bang{to{opacity:1;transform:translate(-50%,-50%) scale(1) rotate(-3deg)}}
+.twsub{position:absolute;left:0;right:0;bottom:130px;text-align:center;font:62px "Reko","BHS",sans-serif;color:#fff;-webkit-text-stroke:9px #111;paint-order:stroke fill;opacity:0;transition:.3s .45s}
+.tw.go .twsub{opacity:1}
+/* ---- 9 comment ---- */
+.cmt{position:absolute;left:230px;top:250px;width:1180px;background:#fff;border-radius:34px;padding:40px 52px;box-shadow:0 18px 50px #000a;font-family:"DoHyeon",sans-serif;color:#111;
+ transform:translateX(-1500px);transition:transform .45s cubic-bezier(.2,1.2,.4,1)}
+.go .cmt{transform:none}
+.cmt::after{content:"";position:absolute;left:90px;bottom:-40px;border:22px solid transparent;border-top:28px solid #fff;border-left:30px solid #fff}
+.cmt .who{display:flex;align-items:center;gap:18px;font-size:44px;color:#555}
+.cmt .av{width:76px;height:76px;border-radius:50%;background:#ddd;display:grid;place-items:center;font-size:44px}
+.cmt .orig{font-size:50px;color:#666;margin:22px 0 8px;min-height:62px;font-family:system-ui,sans-serif;font-weight:600}
+.cmt .tr{font-size:78px;line-height:1.25;opacity:0;transition:.3s}
+.cmt .tr.on{opacity:1}
+.cmt .tr .k{background:linear-gradient(transparent 50%,#73F282 50%,#73F282 92%,transparent 92%) no-repeat 0 0/0% 100%;transition:background-size .4s .2s}
+.cmt .tr.on .k{background-size:100% 100%}
+.cmt .lk{margin-top:16px;font-size:40px;color:#888}
+.cmt .tag2{position:absolute;right:30px;top:24px;font:26px system-ui;color:#999}
+/* ---- 10 lightning 2 lines ---- */
+.lt{position:absolute;left:0;right:0;top:340px;text-align:center;font-family:"Monsori","BHS",sans-serif;color:#FDFDFC;letter-spacing:-2.5px;line-height:1.1}
+.lt .l1{font-size:52px;display:block;opacity:0;transition:.25s}
+.lt .l2{font-size:95px;display:inline-block;position:relative;transform:scale(.6);opacity:0;transition:.3s .15s cubic-bezier(.3,1.6,.5,1)}
+.lt .l2 b{color:#E03C3E;font-weight:inherit}
+.lt .bolt{position:absolute;top:50%;width:90px;height:140px;transform:translateY(-50%)}
+.lt .bolt.a{left:-120px}.lt .bolt.b{right:-120px;transform:translateY(-50%) scaleX(-1)}
+.go .lt .l1{opacity:1}.go .lt .l2{opacity:1;transform:none}
+/* ---- 11 label line ---- */
+.lb{position:absolute;left:0;right:0;top:520px;text-align:center;transform:rotate(-1.5deg)}
+.lb .ln{display:inline-block;position:relative;font-family:"Monsori","BHS",sans-serif;font-size:95px;letter-spacing:-3.75px;color:#FDFDFD;
+ -webkit-text-stroke:25px #111114;paint-order:stroke fill;filter:drop-shadow(0 5px 0 #111114);transform:scaleY(1.16);opacity:0;transition:.3s}
+.lb .red{position:relative;display:inline-block}
+.lb .red i{font-style:normal;background:linear-gradient(#E25254,#F26163);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-stroke:0;position:relative}
+.lb .red::before{content:attr(data-t);position:absolute;left:0;top:0;-webkit-text-stroke:25px #111114;color:#111114}
+.lb .lab{position:absolute;left:50%;bottom:100%;transform:translate(-50%,-14px) scale(0);background:#040506;color:#EFEFEF;-webkit-text-stroke:0;
+ font:48px "Monsori","BHS",sans-serif;letter-spacing:-1px;padding:8px 22px 10px;white-space:nowrap;transition:.25s .45s cubic-bezier(.3,1.6,.5,1)}
+.lb .burst{position:absolute;top:50%;width:120px;height:120px;transform:translateY(-50%) scale(0);transition:.25s .3s}
+.lb .burst.a{left:-140px}.lb .burst.b{right:-140px}
+.go .lb .ln{opacity:1}.go .lb .lab{transform:translate(-50%,-14px) scale(1)}.go .lb .burst{transform:translateY(-50%) scale(1)}
 .notes{background:var(--card);border-radius:10px;padding:14px 18px;margin-top:10px;font-size:14px}
 .notes li{margin:2px 0}
 code{background:#0004;padding:1px 6px;border-radius:4px}
@@ -170,6 +227,37 @@ footer{color:var(--mut);text-align:center;font-size:13px;padding:20px}
  <div class="stage"><div class="canvas" data-scene="wow"></div></div>
 </section>
 
+<section id="s-brush">
+ <h2>🖌️ ⑥ 대본 한마디 평가 <small style="color:var(--mut);font:13px system-ui">좌하단 · 정선아리랑뿌리체</small></h2>
+ <p class="spec">작은 머리말(45%) + 큰 본문 56px, 먹색 #040404 + 흰 외곽선 #FBFAF8 6px, <b>마지막 낱말만 반전</b>(흰 #FCFCFC + 검정 외곽선 #080404), 오른쪽 아래 검정 그림자 4.5px.</p>
+ <div class="row"><button data-play="brush">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="brush"></div></div>
+</section>
+<section id="s-twist">
+ <h2>🔄 ⑦ 반전 · 그런데!</h2>
+ <p class="spec">스크래치(05) 선진입 → 화면 정지 + 흑백 + 흔들림 0.25초 → 빨간 박스 #E21317 쾅 → 0.60 전환음(14). <b>영상 하나에 2~3번까지.</b></p>
+ <div class="row"><button data-play="twist">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="twist"></div></div>
+</section>
+<section id="s-comment">
+ <h2>💬 ⑧ 해외 댓글</h2>
+ <p class="spec">Do Hyeon, 카드 옆에서 등장(알림 29) → 원문 타이핑(27, -24dB) → 번역 + 핵심어 형광 #73F282 → 좋아요 수. <b>실제 댓글만</b>(아래는 예시).</p>
+ <div class="row"><button data-play="comment">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="comment"></div></div>
+</section>
+<section id="s-light">
+ <h2>⚡ ⑨ 어울리는 문구 2줄 (번개)</h2>
+ <p class="spec">티몬 몬소리 Black 38px · 자간 -1px · 첫 줄 55%. 흰 #FDFDFC, <b>핵심 명사만 빨강 #E03C3E</b>, 외곽선·그림자 없음, 양끝 빨간 번개 #D94B50.</p>
+ <div class="row"><button data-play="light">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="light"></div></div>
+</section>
+<section id="s-label">
+ <h2>🏷️ ⑩ 대본 특정 문구 + 검정 라벨</h2>
+ <p class="spec">티몬 몬소리 Black 38px · 자간 -1.5px · 줄 각도 -1.5° · 세로 116%. 흰 #FDFDFD, 핵심 구절 빨강 그라데이션 #E25254→#F26163, 검정 외곽선 #111114 5px + 아래 그림자 2px, 강조어 위 검정 박스 #040506 + 흰 #EFEFEF 라벨, 양옆 burst.</p>
+ <div class="row"><button data-play="label">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="label"></div></div>
+</section>
+
 <section>
  <h2>제작 형식 (함께 지킴)</h2>
  <ul class="notes">
@@ -177,6 +265,8 @@ footer{color:var(--mut);text-align:center;font-size:13px;padding:20px}
   <li>원본: 좌우반전·크롭·속도 변경 · 빌리빌리/샤오홍슈 등 <b>플랫폼 로고 모자이크</b></li>
   <li>효과음: 책장 넘김·함성 등 <b>절제해서</b> · 화면 전환: 줌인/줌아웃/책장 넘김</li>
   <li>댓글·언론은 타이핑 효과 · 실제 댓글/기사 없으면 지어내지 않음</li>
+  <li>효과음: 의문·반전 = Riser/Record stop 0.4~1초(질문 직후) · VS 전환 = Whoosh/Sword swoosh 0.3~0.9초(분할선 직전~VS 등장)</li>
+  <li>글씨 크기 px은 편집기 기준값 — 1920×1080 화면에선 같은 비율로 확대(시안은 ×2.5)</li>
   <li>TTS·렌더·게시: <code>제작규칙_STEP6-8.md</code> 그대로</li>
  </ul>
 </section>
@@ -270,13 +360,40 @@ const scenes={
    let i=0,cur=null;const iv=setInterval(()=>{if(i>=q.length){clearInterval(iv);return}const x=q[i++];
      if(typeof x==='string'){t.append(x)}else{const m=document.createElement('mark');t.append(m);[...x.k].forEach((ch,j)=>setTimeout(()=>m.append(ch),j*55))}},55);
  },
+ brush:c=>{
+   c.innerHTML=bgHTML()+`<div class="brush"><span class="h">한마디로</span><span class="b">재수 없는 <span class="inv">스타일</span></span></div>`;
+   requestAnimationFrame(()=>requestAnimationFrame(()=>c.classList.add('go')));
+ },
+ twist:c=>{
+   c.classList.add('tw');
+   c.innerHTML=`<div class="shk">${bgHTML()}</div><div class="twbox">그런데!</div><div class="twsub">하지만 진짜 이유는 따로 있었다</div>`;
+   setTimeout(()=>c.classList.add('go'),500);
+ },
+ comment:c=>{
+   c.innerHTML=bgHTML().replace('rgba(0,0,0,.35)','rgba(0,0,0,.5)')+`<div class="cmt"><span class="tag2">예시 — 실제 댓글만 사용</span>
+     <div class="who"><span class="av">🇨🇳</span><span>Kenji_1989</span></div>
+     <div class="orig"></div><div class="tr">솔직히 <span class="k">한국은 이제 차원이 다르다</span></div><div class="lk">👍 2.4천</div></div>`;
+   requestAnimationFrame(()=>requestAnimationFrame(()=>c.classList.add('go')));
+   const o=c.querySelector('.orig'),txt='Honestly, Korea is on another level now.';let i=0;
+   setTimeout(()=>{const iv=setInterval(()=>{o.textContent=txt.slice(0,++i);if(i>=txt.length){clearInterval(iv);c.querySelector('.tr').classList.add('on')}},28)},250);
+ },
+ light:c=>{
+   const bolt=k=>`<svg class="bolt ${k}" viewBox="0 0 60 100"><path d="M38 0L6 56h20L14 100 54 38H32z" fill="#D94B50"/></svg>`;
+   c.innerHTML=bgHTML()+`<div class="lt"><span class="l1">예전에</span><span class="l2">${bolt('a')}<b>풀 파티</b>를 그렇게 다녔다고${bolt('b')}</span></div>`;
+   requestAnimationFrame(()=>requestAnimationFrame(()=>c.classList.add('go')));
+ },
+ label:c=>{
+   const burst=k=>`<svg class="burst ${k}" viewBox="0 0 100 100"><g stroke="#FDFDFD" stroke-width="7" stroke-linecap="round">${[0,40,80,120,160,200,240,280,320].map(a=>`<line x1="50" y1="20" x2="50" y2="2" transform="rotate(${a} 50 50)"/>`).join('')}</g></svg>`;
+   c.innerHTML=bgHTML()+`<div class="lb"><span class="ln">${burst('a')}정말 <span class="red" data-t="연애에 재능이 없는"><i>연애에 재능이 없는</i><span class="lab">선수 박탈</span></span> 선수예요${burst('b')}</span></div>`;
+   requestAnimationFrame(()=>requestAnimationFrame(()=>c.classList.add('go')));
+ },
  wow:c=>{
    c.innerHTML=bgHTML()+`<div class="wow"><div class="s">외국인 반응</div><div class="m">한국이 <b>대단하다!</b></div></div>`;
    requestAnimationFrame(()=>requestAnimationFrame(()=>{c.classList.add('go');const b=c.querySelector('.m b');
      setTimeout(()=>{[[-40,-30],[95,-50],[100,40]].forEach(([x,y],k)=>{b.insertAdjacentHTML('beforeend',SPARK.replace('class="spark"',`class="spark" style="left:${x}%;top:${y}px;width:${60-k*10}px;height:${60-k*10}px"`));setTimeout(()=>b.querySelectorAll('.spark')[k].classList.add('go'),k*120)})},300)}));
  }
 };
-function play(k){const c=document.querySelector(`[data-scene="${k}"]`);c.classList.remove('go');scenes[k](c)}
+function play(k){const c=document.querySelector(`[data-scene="${k}"]`);c.classList.remove('go','tw');scenes[k](c)}
 function fit(){document.querySelectorAll('.stage').forEach(s=>{s.firstElementChild.style.transform=`scale(${s.clientWidth/1920})`})}
 addEventListener('resize',fit);
 document.querySelectorAll('[data-play]').forEach(b=>b.onclick=()=>play(b.dataset.play));

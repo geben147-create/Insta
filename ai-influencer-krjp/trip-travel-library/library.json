@@ -5201,6 +5201,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "one-hotel-brooklyn-bridge-night",
+    "group": "호텔 이미지",
+    "title": "1 호텔 브루클린 브리지 · 이스트강 건너 맨해튼 야경",
+    "caption": "across the east river.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/one-hotel-brooklyn-bridge-night-01.webp",
+        "alt": "1 호텔 브루클린 브리지 · 이스트강 건너 맨해튼 야경"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "1 Hotel Brooklyn Bridge",
+        "https://www.trip.com/hotels/new-york-hotel-detail-7618961/1-hotel-brooklyn-bridge/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "park-hyatt-kyoto-pagoda-breakfast",
     "group": "호텔 이미지",
     "title": "파크 하얏트 교토 · 야사카탑을 바라보는 아침 식사",

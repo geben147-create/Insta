@@ -5348,6 +5348,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "hotel-ranga-aurora-riverside-hot-tub",
+    "group": "호텔 이미지",
+    "title": "호텔 랑가 · 오로라 아래의 야외 자쿠지",
+    "caption": "beneath a quieter sky.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/hotel-ranga-aurora-riverside-hot-tub-01.webp",
+        "alt": "호텔 랑가 · 오로라 아래의 야외 자쿠지"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hotel Ranga",
+        "https://www.trip.com/hotels/hella-hotel-detail-3643752/hotel-ranga/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "hyatt-regency-danang-pool-grotto",
     "group": "호텔 이미지",
     "title": "하얏트 리젠시 다낭 · 돌 아치 너머 가족 물놀이 풀",

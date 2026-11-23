@@ -5075,6 +5075,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "retreat-blue-lagoon-lava-steam",
+    "group": "호텔 이미지",
+    "title": "더 리트리트 앳 블루라군 · 용암 지대의 온천",
+    "caption": "stillness in the lava fields.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/retreat-blue-lagoon-lava-steam-01.webp",
+        "alt": "더 리트리트 앳 블루라군 · 용암 지대의 온천"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "The Retreat at Blue Lagoon Iceland",
+        "https://www.trip.com/hotels/grindavik-hotel-detail-34948168/the-retreat-at-blue-lagoon-iceland/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "twelve-apostles-cape-town-breakfast",
     "group": "호텔 이미지",
     "title": "트웰브 어포슬스 호텔 & 스파 · 케이프타운 대서양 조식",

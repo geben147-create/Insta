@@ -5453,6 +5453,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "prince-park-tower-tokyo-window-night",
+    "group": "호텔 이미지",
+    "title": "더 프린스 파크 타워 도쿄 · 창가에서 바라본 도쿄타워 야경",
+    "caption": "tokyo glows at the window.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/prince-park-tower-tokyo-window-night-01.webp",
+        "alt": "더 프린스 파크 타워 도쿄 · 창가에서 바라본 도쿄타워 야경"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "The Prince Park Tower Tokyo",
+        "https://www.trip.com/hotels/tokyo-hotel-detail-688621/the-prince-park-tower-tokyo/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "qc-bormio-winter-thermal",
     "group": "호텔 이미지",
     "title": "QC 그랜드 호텔 바니 누오비 보르미오 · 겨울 알프스 노천 온천",

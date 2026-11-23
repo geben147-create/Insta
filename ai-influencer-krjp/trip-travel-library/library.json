@@ -4947,5 +4947,26 @@
       ]
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
+    "id": "universal-port-vita-park-morning",
+    "group": "호텔 이미지",
+    "title": "호텔 유니버설 포트 비타 · 오사카 테마파크 가는 아침",
+    "caption": "a little wonder waits.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/universal-port-vita-park-morning-01.webp",
+        "alt": "호텔 유니버설 포트 비타 · 오사카 테마파크 가는 아침"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hotel Universal Port Vita",
+        "https://www.trip.com/hotels/osaka-hotel-detail-21838265/hotel-universal-port-vita/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
   }
 ]

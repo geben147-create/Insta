@@ -5243,6 +5243,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "nishimuraya-kinosaki-garden-onsen",
+    "group": "호텔 이미지",
+    "title": "니시무라야 혼칸 · 기노사키 정원 온천으로 향하는 발걸음",
+    "caption": "quiet steps toward the steam.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/nishimuraya-kinosaki-garden-onsen-01.webp",
+        "alt": "니시무라야 혼칸 · 기노사키 정원 온천으로 향하는 발걸음"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Nishimuraya Honkan",
+        "https://www.trip.com/hotels/toyooka-hotel-detail-703328/nishimuraya-honkan/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "one-hotel-brooklyn-bridge-night",
     "group": "호텔 이미지",
     "title": "1 호텔 브루클린 브리지 · 이스트강 건너 맨해튼 야경",

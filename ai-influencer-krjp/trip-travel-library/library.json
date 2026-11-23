@@ -4997,7 +4997,7 @@
     "group": "호텔 이미지",
     "title": "아바니 플러스 리버사이드 방콕 · 짜오프라야강을 가르는 페리",
     "caption": "the river carries the night.",
-    "video": "",
+    "video": "media/avani-riverside-bangkok-ferry-night.mp4",
     "stills": [
       {
         "src": "media/avani-riverside-bangkok-ferry-night-01.webp",
@@ -5011,7 +5011,8 @@
         "https://www.trip.com/hotels/bangkok-hotel-detail-4123564/avani-plus-riverside-bangkok-hotel/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/avani-riverside-bangkok-ferry-night-01.webp"
   },
   {
     "id": "azulik-tulum-sea-breeze-hot-tub",
@@ -5220,6 +5221,27 @@
         "숙소 예약",
         "Disneyland Hotel, Chessy",
         "https://www.trip.com/hotels/chessy-hotel-detail-10816804/disneyland-hotel/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
+    "id": "dogo-funaya-rain-garden-onsen",
+    "group": "호텔 이미지",
+    "title": "도고 온천 후나야 · 비 내린 정원의 돌탕",
+    "caption": "the garden keeps the rain.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/dogo-funaya-rain-garden-onsen-01.webp",
+        "alt": "도고 온천 후나야 · 비 내린 정원의 돌탕"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Funaya",
+        "https://www.trip.com/hotels/matsuyama-hotel-detail-2195121/funaya/"
       ]
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
@@ -5927,7 +5949,7 @@
     "group": "호텔 이미지",
     "title": "파살라쿠아 · 코모호를 바라보는 정원 조식",
     "caption": "morning lingers on the lake.",
-    "video": "",
+    "video": "media/passalacqua-lake-como-peach-breakfast.mp4",
     "stills": [
       {
         "src": "media/passalacqua-lake-como-peach-breakfast-01.webp",
@@ -5941,7 +5963,8 @@
         "https://www.trip.com/hotels/moltrasio-hotel-detail-114324321/passalacqua/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/passalacqua-lake-como-peach-breakfast-01.webp"
   },
   {
     "id": "peninsula-bangkok-river-breakfast",

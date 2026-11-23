@@ -5600,6 +5600,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "sheraton-tokyo-bay-pool-water-ripples",
+    "group": "호텔 이미지",
+    "title": "쉐라톤 그랜드 도쿄 베이 · 가족 수영장에 번지는 물결",
+    "caption": "the water remembers the sun.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/sheraton-tokyo-bay-pool-water-ripples-01.webp",
+        "alt": "쉐라톤 그랜드 도쿄 베이 · 가족 수영장에 번지는 물결"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Sheraton Grande Tokyo Bay Hotel",
+        "https://www.trip.com/hotels/urayasu-hotel-detail-688630/sheraton-grande-tokyo-bay-hotel"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "shinhwa-jeju-family-water-play",
     "group": "호텔 이미지",
     "title": "제주신화월드 신화관 · 제주 가족 물놀이",

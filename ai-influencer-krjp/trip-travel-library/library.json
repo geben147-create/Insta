@@ -5474,6 +5474,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "tokyo-disneysea-fantasy-springs-first-walk",
+    "group": "호텔 이미지",
+    "title": "도쿄 디즈니씨 판타지 스프링스 호텔 · 테마파크로 가는 아침",
+    "caption": "one more turn, together.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/tokyo-disneysea-fantasy-springs-first-walk-01.webp",
+        "alt": "도쿄 디즈니씨 판타지 스프링스 호텔 · 테마파크로 가는 아침"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Tokyo DisneySea Fantasy Springs Hotel",
+        "https://www.trip.com/hotels/urayasu-hotel-detail-129182749/tokyo-disneysea-fantasy-springs-hotel"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "twelve-apostles-cape-town-breakfast",
     "group": "호텔 이미지",
     "title": "트웰브 어포슬스 호텔 & 스파 · 케이프타운 대서양 조식",

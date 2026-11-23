@@ -4890,7 +4890,7 @@
     "group": "호텔 이미지",
     "title": "어드레스 스카이 뷰 두바이 · 루프톱에서 본 부르즈 할리파 야경",
     "caption": "the city meets the water.",
-    "video": "",
+    "video": "media/address-sky-view-dubai-rooftop-blue-hour.mp4",
     "stills": [
       {
         "src": "media/address-sky-view-dubai-rooftop-blue-hour-01.webp",
@@ -4904,7 +4904,8 @@
         "https://www.trip.com/hotels/dubai-hotel-detail-29379525/hotel/?locale=en-US"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/address-sky-view-dubai-rooftop-blue-hour-01.webp"
   },
   {
     "id": "aqua-luxury-suites-caldera-hot-tub",
@@ -5772,7 +5773,7 @@
     "group": "호텔 이미지",
     "title": "파크 하얏트 부산 · 광안대교를 바라보는 창가 조식",
     "caption": "morning drifts across the bay.",
-    "video": "",
+    "video": "media/park-hyatt-busan-gwangan-bridge-breakfast.mp4",
     "stills": [
       {
         "src": "media/park-hyatt-busan-gwangan-bridge-breakfast-01.webp",
@@ -5786,7 +5787,8 @@
         "https://www.trip.com/hotels/busan-hotel-detail-992200/park-hyatt-busan/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/park-hyatt-busan-gwangan-bridge-breakfast-01.webp"
   },
   {
     "id": "park-hyatt-kyoto-pagoda-breakfast",

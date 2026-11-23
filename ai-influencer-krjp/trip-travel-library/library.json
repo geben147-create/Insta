@@ -5831,6 +5831,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "rasa-sentosa-siloso-splash-pad",
+    "group": "호텔 이미지",
+    "title": "샹그릴라 라사 센토사 · 실로소 해변의 어린이 물놀이",
+    "caption": "catch the light in a splash.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/rasa-sentosa-siloso-splash-pad-01.webp",
+        "alt": "샹그릴라 라사 센토사 · 실로소 해변의 어린이 물놀이"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Shangri-La Rasa Sentosa, Singapore",
+        "https://www.trip.com/hotels/singapore-hotel-detail-996300/shangri-la-s-rasa-sentosa-resort-and-spa/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "renaissance-okinawa-onna-splash-pool",
     "group": "호텔 이미지",
     "title": "르네상스 오키나와 리조트 · 온나 바닷가 어린이 풀",

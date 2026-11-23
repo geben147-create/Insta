@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>국뽕 디자인 V8</title>
+<style>
+@font-face{font-family:"Reko";src:url("fonts/Recipekorea.woff") format("woff"),url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff") format("woff");font-display:block}
+@font-face{font-family:"BHS";src:url("fonts/BlackHanSans-Regular.ttf") format("truetype")}
+:root{--red:#E21317;--ink:#111;--hl:#FFE600;--page:#15161a;--card:#1f2026;--txt:#eee;--mut:#9a9ca3}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--txt);font:15px/1.6 system-ui,"Pretendard",sans-serif}
+header{padding:28px 16px 8px;max-width:1100px;margin:auto}
+h1{margin:0 0 4px;font:28px "BHS",sans-serif;letter-spacing:.5px}
+h1 b{color:var(--red)}
+.lead{color:var(--mut);margin:0}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 0}
+.chip{background:var(--card);border-radius:20px;padding:4px 12px;font-size:13px}
+.chip i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:6px}
+main{max-width:1100px;margin:auto;padding:8px 16px 60px}
+section{margin:28px 0}
+section h2{font:20px "BHS",sans-serif;margin:0 0 6px}
+.spec{color:var(--mut);font-size:13.5px;margin:0 0 10px}
+.row{display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap}
+button{background:#2b2d35;color:#fff;border:0;border-radius:8px;padding:7px 14px;font:inherit;cursor:pointer}
+button:hover{background:#3a3d48}
+button.on{background:var(--red)}
+/* 16:9 stage, designed at 1920x1080 then scaled */
+.stage{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;background:#000}
+.canvas{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0}
+/* ---- moving background (stand-in for the episode footage) ---- */
+.bg{position:absolute;inset:-6%;animation:kb 14s ease-in-out infinite alternate}
+.bg.city{background:
+ radial-gradient(circle at 20% 70%,#ffcf6b55 0 6%,transparent 7%),
+ radial-gradient(circle at 70% 40%,#7fd3ff44 0 4%,transparent 5%),
+ repeating-linear-gradient(90deg,#0d1b2a 0 90px,#14283d 90px 96px,#0b1622 96px 180px),
+ linear-gradient(#26415f,#0a0f18)}
+.bg.city::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 38px,#ffd77a22 38px 44px);mask:linear-gradient(transparent 30%,#000 60%);animation:fl 3s linear infinite}
+.bg.flag{background:#f4f4f2}
+.bg.flag svg{position:absolute;inset:0;width:100%;height:100%}
+.bg video{width:100%;height:100%;object-fit:cover;transform:scaleX(-1)}
+.dim{position:absolute;inset:0;background:rgba(0,0,0,.35)}
+@keyframes kb{from{transform:scale(1) translateX(0)}to{transform:scale(1.08) translateX(-2%)}}
+@keyframes fl{to{background-position:0 44px}}
+.tag{position:absolute;right:24px;bottom:18px;font:22px system-ui;color:#fff9;background:#0006;padding:4px 12px;border-radius:6px}
+
+/* ---- 1 keyword subtitle ---- */
+.sub{position:absolute;left:0;right:0;bottom:90px;text-align:center;font:78px/1.25 "Reko","BHS",sans-serif;color:#fff;
+ -webkit-text-stroke:10px var(--ink);paint-order:stroke fill;letter-spacing:-1px}
+.sub .k{position:relative;display:inline-block;padding:0 6px;background:linear-gradient(transparent 42%,var(--hl) 42%,var(--hl) 80%,transparent 80%) no-repeat 0 0/0% 100%;transition:background-size .35s cubic-bezier(.3,.8,.3,1)}
+.sub .k.go{background-size:100% 100%}
+.sub{isolation:isolate}
+.spark{position:absolute;width:46px;height:46px;opacity:0}
+.spark.go{animation:sp .6s ease-out forwards}
+@keyframes sp{0%{opacity:0;transform:scale(.2) rotate(0)}40%{opacity:1;transform:scale(1.1) rotate(40deg)}100%{opacity:0;transform:scale(.6) rotate(90deg)}}
+
+/* ---- 2 VS ---- */
+.vs-wrap{position:absolute;inset:0}
+.card{position:absolute;top:170px;width:700px;height:600px;border:3px solid #fffc;border-radius:22px;overflow:hidden;
+ background:rgba(10,10,10,.38);backdrop-filter:grayscale(1) blur(2px);-webkit-backdrop-filter:grayscale(1) blur(2px);
+ display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;transition:transform .45s cubic-bezier(.2,1.3,.4,1),opacity .2s}
+.card.l{left:150px;transform:translateX(-1100px)}
+.card.r{right:150px;transform:translateX(1100px)}
+.go .card{transform:translateX(0)}
+.card .fl{width:300px;height:200px;filter:grayscale(1) contrast(1.1);border-radius:6px;box-shadow:0 6px 20px #0008}
+.card .nm{font:96px "BHS",sans-serif;color:#fff;-webkit-text-stroke:6px #111;paint-order:stroke fill}
+.card .val{font:54px "Reko","BHS",sans-serif;color:#fff;-webkit-text-stroke:6px #111;paint-order:stroke fill;opacity:0;transform:translateY(20px);transition:.4s .8s}
+.go .card .val{opacity:1;transform:none}
+.card .val b{color:var(--hl)}
+.vs{position:absolute;left:50%;top:400px;transform:translate(-50%,-50%) scale(3);opacity:0;
+ font:230px/1 "BHS",sans-serif;color:var(--red);-webkit-text-stroke:12px #fff;paint-order:stroke fill;
+ text-shadow:0 10px 0 #0006,0 0 40px #E2131788;font-style:italic;letter-spacing:-6px}
+.go .vs{animation:stamp .35s .3s cubic-bezier(.3,1.6,.5,1) forwards}
+@keyframes stamp{to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+.flash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+.go .flash{animation:fsh .3s .3s}
+@keyframes fsh{30%{opacity:.55}100%{opacity:0}}
+.vs-topic{position:absolute;left:0;right:0;bottom:120px;text-align:center;font:64px "Reko","BHS",sans-serif;color:#fff;-webkit-text-stroke:9px #111;paint-order:stroke fill;opacity:0;transition:.4s .8s}
+.go .vs-topic{opacity:1}
+
+/* ---- 3 chart ---- */
+.ch-title{position:absolute;left:0;right:0;top:70px;text-align:center;font:68px "Reko","BHS",sans-serif;color:#fff;-webkit-text-stroke:9px #111;paint-order:stroke fill}
+.ch-title span{color:var(--hl)}
+.chart{position:absolute;left:200px;top:180px;width:1520px;height:740px}
+.chart text{font-family:"Reko","BHS",sans-serif}
+.src{position:absolute;right:210px;bottom:120px;font:28px system-ui;color:#fffd;text-shadow:0 2px 4px #000}
+.big{position:absolute;left:330px;top:200px;font:120px "BHS",sans-serif;color:#fff;-webkit-text-stroke:8px #111;paint-order:stroke fill;opacity:0;transition:.5s 2.2s}
+.big small{font-size:56px}
+.go .big{opacity:1}
+
+/* ---- 4 news ---- */
+.news{position:absolute;left:150px;right:150px;top:560px}
+.news .logo{display:inline-flex;align-items:center;gap:12px;background:#fff;border-radius:40px;padding:8px 26px 8px 12px;font:700 38px system-ui;color:#0a58ca;box-shadow:0 4px 14px #0005}
+.news .logo i{width:44px;height:44px;border-radius:50%;background:conic-gradient(#0a58ca 0 50%,#2ab0ff 0)}
+.news .bar{margin-top:18px;background:#fff;padding:18px 30px;font:800 64px/1.2 "Pretendard",system-ui;color:#111;letter-spacing:-2px;box-shadow:0 8px 24px #0007;min-height:112px}
+.news .bar mark{background:linear-gradient(transparent 50%,var(--hl) 50%);color:inherit}
+.news .meta{margin-top:10px;font:26px system-ui;color:#ddd;text-shadow:0 2px 4px #000}
+.caret{display:inline-block;width:5px;height:58px;background:#111;vertical-align:-8px;animation:bl .7s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+
+/* ---- 5 wow ---- */
+.wow{position:absolute;left:0;right:0;top:330px;text-align:center}
+.wow .s{display:inline-block;background:#fff;color:#111;font:44px "Reko","BHS",sans-serif;padding:6px 26px;border-radius:10px;margin-bottom:16px}
+.wow .m{font:170px/1.1 "Reko","BHS",sans-serif;color:#fff;-webkit-text-stroke:14px #111;paint-order:stroke fill;transform:scale(0)}
+.wow .m b{color:var(--red);-webkit-text-stroke:14px #fff;position:relative}
+.go .wow .m{animation:pop .5s cubic-bezier(.3,1.5,.5,1) forwards}
+@keyframes pop{0%{transform:scale(.9)}60%{transform:scale(1.1)}100%{transform:scale(1)}}
+
+.notes{background:var(--card);border-radius:10px;padding:14px 18px;margin-top:10px;font-size:14px}
+.notes li{margin:2px 0}
+code{background:#0004;padding:1px 6px;border-radius:4px}
+footer{color:var(--mut);text-align:center;font-size:13px;padding:20px}
+.refs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.refs img{width:100%;border-radius:8px;display:block}
+.refs figure{margin:0}.refs figcaption{font-size:12px;color:var(--mut)}
+</style>
+</head>
+<body>
+<header>
+ <h1>국뽕 디자인 <b>V8</b> — 자막 · VS · 그래프 · 언론</h1>
+ <p class="lead">배경은 전부 투명 — 뒤에 깔린 화면은 편집 때 실제 영상(또는 관련 한국 영상·태극기 사진)으로 바뀝니다. 글자는 자리 표시이며 편마다 대본 내용으로 채웁니다.</p>
+ <div class="chips">
+  <span class="chip"><i style="background:#E21317"></i>VS·충격 빨강 #E21317</span>
+  <span class="chip"><i style="background:#FFE600"></i>형광 노랑 #FFE600</span>
+  <span class="chip"><i style="background:#fff"></i>자막 흰색 + #111 외곽선</span>
+  <span class="chip">자막 폰트: 레코체</span>
+  <span class="chip">VS 폰트: Black Han Sans</span>
+ </div>
+ <div class="row" style="margin-top:14px">
+  <span style="align-self:center;color:var(--mut);font-size:13px">뒤 배경 미리보기:</span>
+  <button class="bgbtn on" data-bg="city">움직이는 영상(대체)</button>
+  <button class="bgbtn" data-bg="flag">태극기 사진</button>
+  <label><button onclick="this.nextElementSibling.click()">내 영상 넣기…</button><input type="file" accept="video/*" hidden id="vf"></label>
+ </div>
+</header>
+<main>
+
+<section id="s-key">
+ <h2>✨ ① 키워드 강조 자막 <small style="color:var(--mut);font:13px system-ui">기본 자막</small></h2>
+ <p class="spec">레코체 흰 글자 + 검정 외곽선, 배경 없음. 하단 타이핑 → 0.40초 핵심어 하나만 형광펜(왼→오) → 0.45초 반짝 + 효과음 11(-20dB).</p>
+ <div class="row"><button data-play="key">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="key"></div></div>
+</section>
+
+<section id="s-vs">
+ <h2>⚔️ ② VS 비교</h2>
+ <p class="spec">좌·우 카드는 <b>흑백 반투명</b>(뒤 영상이 비침, 빨강/파랑 판 없음). 가운데 <b style="color:#E21317">VS만 #E21317</b>. 0.00 카드 휙(21) → 0.25 충돌 금속음(23)+플래시 → 0.30 VS 스탬프 → 0.80 비교 항목.</p>
+ <div class="row"><button data-play="vs">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="vs"></div></div>
+</section>
+
+<section id="s-chart">
+ <h2>📈 ③ 통계 그래프</h2>
+ <p class="spec">참고 사진 3번처럼 막대 + 꺾은선, 지점 숫자 라벨, 사건은 손글씨 주석. 회색 판 없이 영상 위에 바로. [제목] + 큰 숫자 + 출처 필수. <b>아래 숫자는 예시(자리 표시)</b>.</p>
+ <div class="row"><button data-play="chart">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="chart"></div></div>
+</section>
+
+<section id="s-news">
+ <h2>📰 ④ 언론 인용 (타이핑)</h2>
+ <p class="spec">참고 사진 1·2번: 언론사 로고 + 흰 띠 위 검정 굵은 헤드라인이 타이핑으로 나옴, 핵심어 노랑 형광, 기자·날짜 작게. 실제 기사 제목만 씀(아래는 예시).</p>
+ <div class="row"><button data-play="news">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="news"></div></div>
+</section>
+
+<section id="s-wow">
+ <h2>🔥 ⑤ 한국이 대단하다! <small style="color:var(--mut);font:13px system-ui">참고용</small></h2>
+ <p class="spec">외국인이 감탄하는 순간에만. 90→110→100% 팝, 강조어 하나만 빨강 + 반짝이. 문장마다 쓰지 않음.</p>
+ <div class="row"><button data-play="wow">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="wow"></div></div>
+</section>
+
+<section>
+ <h2>제작 형식 (함께 지킴)</h2>
+ <ul class="notes">
+  <li>컷 <b>4초 이하</b> · 내레이션 <b>60% 이상</b> · 편당 17분 이상 × 50편</li>
+  <li>원본: 좌우반전·크롭·속도 변경 · 빌리빌리/샤오홍슈 등 <b>플랫폼 로고 모자이크</b></li>
+  <li>효과음: 책장 넘김·함성 등 <b>절제해서</b> · 화면 전환: 줌인/줌아웃/책장 넘김</li>
+  <li>댓글·언론은 타이핑 효과 · 실제 댓글/기사 없으면 지어내지 않음</li>
+  <li>TTS·렌더·게시: <code>제작규칙_STEP6-8.md</code> 그대로</li>
+ </ul>
+</section>
+
+<section>
+ <h2>참고 사진</h2>
+ <div class="refs">
+  <figure><img src="ref/ref1_언론_연합_흰띠.png" alt=""><figcaption>1 언론 흰 띠</figcaption></figure>
+  <figure><img src="ref/ref2_언론_조선비즈.png" alt=""><figcaption>2 언론 헤드라인</figcaption></figure>
+  <figure><img src="ref/ref3_그래프_선막대.png" alt=""><figcaption>3 그래프 선+막대</figcaption></figure>
+  <figure><img src="ref/ref4_VS색_E21317.png" alt=""><figcaption>4 VS 색 #E21317</figcaption></figure>
+ </div>
+</section>
+</main>
+<footer>국뽕 디자인 V8 · 2026-11-24 · by Claude Code</footer>
+
+<template id="flagsvg">
+<svg viewBox="0 0 1800 1200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+ <rect width="1800" height="1200" fill="#fff"/>
+ <g transform="translate(900 600) rotate(-33.69)">
+  <circle r="300" fill="#CD2E3A"/>
+  <path d="M-300 0a150 150 0 0 0 300 0a150 150 0 0 1 300 0a300 300 0 0 1 -600 0z" fill="#0047A0"/>
+ </g>
+ <g fill="#000">
+  <g transform="translate(900 600) rotate(-56.31) translate(0 -625)">
+   <rect x="-150" y="-125" width="300" height="50"/><rect x="-150" y="-25" width="300" height="50"/><rect x="-150" y="75" width="300" height="50"/></g>
+  <g transform="translate(900 600) rotate(56.31) translate(0 -625)">
+   <rect x="-150" y="-125" width="300" height="50"/><rect x="-150" y="-25" width="137.5" height="50"/><rect x="12.5" y="-25" width="137.5" height="50"/><rect x="-150" y="75" width="300" height="50"/></g>
+  <g transform="translate(900 600) rotate(-123.69) translate(0 -625)">
+   <rect x="-150" y="-125" width="137.5" height="50"/><rect x="12.5" y="-125" width="137.5" height="50"/><rect x="-150" y="-25" width="300" height="50"/><rect x="-150" y="75" width="137.5" height="50"/><rect x="12.5" y="75" width="137.5" height="50"/></g>
+  <g transform="translate(900 600) rotate(123.69) translate(0 -625)">
+   <rect x="-150" y="-125" width="137.5" height="50"/><rect x="12.5" y="-125" width="137.5" height="50"/><rect x="-150" y="-25" width="137.5" height="50"/><rect x="12.5" y="-25" width="137.5" height="50"/><rect x="-150" y="75" width="137.5" height="50"/><rect x="12.5" y="75" width="137.5" height="50"/></g>
+ </g>
+</svg>
+</template>
+
+<script>
+const SPARK='<svg class="spark" viewBox="0 0 40 40"><path d="M20 0L24 16 40 20 24 24 20 40 16 24 0 20 16 16z" fill="#fff" stroke="#FFE600" stroke-width="2"/></svg>';
+const JP='<svg class="fl" viewBox="0 0 300 200"><rect width="300" height="200" fill="#fff"/><circle cx="150" cy="100" r="60" fill="#BC002D"/></svg>';
+let bgMode='city', videoURL=null;
+function bgHTML(){
+  if(videoURL) return `<div class="bg" style="inset:0;animation:none"><video src="${videoURL}" autoplay muted loop playsinline></video></div><div class="dim"></div>`;
+  if(bgMode==='flag') return `<div class="bg flag">${document.getElementById('flagsvg').innerHTML}</div><div class="dim" style="background:rgba(0,0,0,.45)"></div>`;
+  return `<div class="bg city"></div><div class="dim"></div><div class="tag">← 실제 편집 땐 원본 영상(반투명)</div>`;
+}
+const KR=()=>`<svg class="fl" viewBox="0 0 1800 1200">${document.getElementById('flagsvg').innerHTML.replace(/<\/?svg[^>]*>/g,'')}</svg>`;
+const scenes={
+ key:c=>{
+   c.innerHTML=bgHTML()+`<div class="sub"><span class="t"></span></div>`;
+   const parts=['이 기술은 ',{k:'세계 최초'},'로 한국이 만들었다'];
+   const t=c.querySelector('.t');let q=[];
+   parts.forEach(p=>{if(typeof p==='string')[...p].forEach(ch=>q.push(ch));else q.push(p)});
+   let i=0;const iv=setInterval(()=>{if(i>=q.length){clearInterval(iv);return}
+     const x=q[i++];if(typeof x==='string')t.append(x);else{const s=document.createElement('span');s.className='k';s.textContent=x.k;t.append(s);
+       setTimeout(()=>{s.classList.add('go');s.insertAdjacentHTML('beforeend',SPARK.replace('class="spark"','class="spark" style="right:-30px;top:-20px"'));setTimeout(()=>s.querySelector('.spark').classList.add('go'),50)},400)}},45);
+ },
+ vs:c=>{
+   c.innerHTML=bgHTML()+`<div class="vs-wrap">
+    <div class="card l">${JP}<div class="nm">일본</div><div class="val">수출 <b>○○</b>개국</div></div>
+    <div class="card r">${KR()}<div class="nm">한국</div><div class="val">수출 <b>○○</b>개국</div></div>
+    <div class="vs">VS</div><div class="flash"></div>
+    <div class="vs-topic">고속철 수출</div></div>`;
+   requestAnimationFrame(()=>requestAnimationFrame(()=>c.querySelector('.vs-wrap').classList.add('go')));
+ },
+ chart:c=>{
+   const yrs=[1990,1995,2000,2005,2010,2015,2020,2025];
+   const bars=[6,10,18,24,30,38,60,52], line=[20,32,48,62,78,96,140,120];
+   const W=1520,H=740,L=90,B=640,T=60,R=W-30,max=160,bw=70;
+   const X=i=>L+60+i*((R-L-120)/(yrs.length-1)), Y=v=>B-(v/max)*(B-T);
+   let g=`<svg class="chart" viewBox="0 0 ${W} ${H}">`;
+   for(let v=0;v<=max;v+=40)g+=`<line x1="${L}" x2="${R}" y1="${Y(v)}" y2="${Y(v)}" stroke="#ffffff33" stroke-width="2" stroke-dasharray="6 8"/><text x="${L-16}" y="${Y(v)+10}" fill="#fff" font-size="30" text-anchor="end" stroke="#000" stroke-width="5" paint-order="stroke">${v}</text>`;
+   bars.forEach((b,i)=>g+=`<rect x="${X(i)-bw/2}" width="${bw}" y="${B}" height="0" fill="#ffffffaa" data-h="${B-Y(b)}"><title>${b}</title></rect><text x="${X(i)}" y="${B+46}" fill="#fff" font-size="32" text-anchor="middle" stroke="#000" stroke-width="5" paint-order="stroke">${yrs[i]}</text>`);
+   const d=line.map((v,i)=>(i?'L':'M')+X(i)+' '+Y(v)).join(' ');
+   g+=`<path id="ln" d="${d}" fill="none" stroke="#fff" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" filter="drop-shadow(0 3px 4px #000)"/>`;
+   line.forEach((v,i)=>{if(i===0||i===6||i===7)g+=`<g class="pt" style="opacity:0;transition:.3s ${0.4+i*.2}s"><circle cx="${X(i)}" cy="${Y(v)}" r="14" fill="#fff" stroke="#E21317" stroke-width="6"/><text x="${X(i)}" y="${Y(v)-30}" fill="#fff" font-size="42" text-anchor="middle" stroke="#000" stroke-width="7" paint-order="stroke">${v}</text></g>`});
+   g+=`<g class="pt" style="opacity:0;transition:.3s 2s"><text x="${X(6)-70}" y="${Y(140)+10}" fill="#FFE600" font-size="52" text-anchor="end" stroke="#000" stroke-width="7" paint-order="stroke" transform="rotate(-8 ${X(6)} ${Y(140)})">○○ 사건</text><path d="M${X(6)-60} ${Y(140)-20} q25 -5 38 -12" stroke="#FFE600" stroke-width="6" fill="none"/></g></svg>`;
+   c.innerHTML=bgHTML()+`<div class="ch-title">[ 한국 <span>○○ 수출액</span> 추이 ]</div>${g}<div class="big">120<small>억 달러</small></div><div class="src">출처: ○○ (예시 데이터)</div>`;
+   const p=c.querySelector('#ln'),L2=p.getTotalLength();p.style.strokeDasharray=L2;p.style.strokeDashoffset=L2;
+   c.querySelectorAll('rect[data-h]').forEach((r,i)=>{r.style.transition=`all .5s ${i*.08}s`});
+   requestAnimationFrame(()=>requestAnimationFrame(()=>{
+     c.classList.add('go');
+     c.querySelectorAll('rect[data-h]').forEach(r=>{const h=+r.dataset.h;r.setAttribute('y',B-h);r.setAttribute('height',h)});
+     p.style.transition='stroke-dashoffset 1.8s ease-in-out .5s';p.style.strokeDashoffset=0;
+     c.querySelectorAll('.pt').forEach(e=>e.style.opacity=1);
+   }));
+ },
+ news:c=>{
+   c.innerHTML=bgHTML()+`<div class="news"><span class="logo"><i></i>○○뉴스</span><div class="bar"><span class="t"></span><span class="caret"></span></div><div class="meta">○○○ 기자 · 입력 2026.11.24</div></div>`;
+   const parts=['외국인들이 ',{k:'한국 지하철'},'에 놀란 진짜 이유'];
+   const t=c.querySelector('.t');let q=[];parts.forEach(p=>{if(typeof p==='string')[...p].forEach(ch=>q.push(ch));else q.push(p)});
+   let i=0,cur=null;const iv=setInterval(()=>{if(i>=q.length){clearInterval(iv);return}const x=q[i++];
+     if(typeof x==='string'){t.append(x)}else{const m=document.createElement('mark');t.append(m);[...x.k].forEach((ch,j)=>setTimeout(()=>m.append(ch),j*55))}},55);
+ },
+ wow:c=>{
+   c.innerHTML=bgHTML()+`<div class="wow"><div class="s">외국인 반응</div><div class="m">한국이 <b>대단하다!</b></div></div>`;
+   requestAnimationFrame(()=>requestAnimationFrame(()=>{c.classList.add('go');const b=c.querySelector('.m b');
+     setTimeout(()=>{[[-40,-30],[95,-50],[100,40]].forEach(([x,y],k)=>{b.insertAdjacentHTML('beforeend',SPARK.replace('class="spark"',`class="spark" style="left:${x}%;top:${y}px;width:${60-k*10}px;height:${60-k*10}px"`));setTimeout(()=>b.querySelectorAll('.spark')[k].classList.add('go'),k*120)})},300)}));
+ }
+};
+function play(k){const c=document.querySelector(`[data-scene="${k}"]`);c.classList.remove('go');scenes[k](c)}
+function fit(){document.querySelectorAll('.stage').forEach(s=>{s.firstElementChild.style.transform=`scale(${s.clientWidth/1920})`})}
+addEventListener('resize',fit);
+document.querySelectorAll('[data-play]').forEach(b=>b.onclick=()=>play(b.dataset.play));
+document.querySelectorAll('.bgbtn').forEach(b=>b.onclick=()=>{document.querySelectorAll('.bgbtn').forEach(x=>x.classList.remove('on'));b.classList.add('on');bgMode=b.dataset.bg;videoURL=null;Object.keys(scenes).forEach(play)});
+document.getElementById('vf').onchange=e=>{const f=e.target.files[0];if(!f)return;videoURL=URL.createObjectURL(f);Object.keys(scenes).forEach(play)};
+// play each scene when it scrolls into view
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)play(e.target.querySelector('.canvas').dataset.scene)}),{threshold:.5});
+document.fonts.ready.then(()=>{fit();document.querySelectorAll('.stage').forEach(s=>io.observe(s))});
+fit();
+</script>
+</body>
+</html>

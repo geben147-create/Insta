@@ -5243,6 +5243,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "martinhal-sagres-family-pool-coast",
+    "group": "호텔 이미지",
+    "title": "마르티냘 사그레스 · 포르투갈 해안의 가족 수영장",
+    "caption": "a slow day by the coast.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/martinhal-sagres-family-pool-coast-01.webp",
+        "alt": "마르티냘 사그레스 · 포르투갈 해안의 가족 수영장"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Martinhal Sagres Beach Family Resort Hotel",
+        "https://www.trip.com/hotels/sagres-hotel-detail-3030191/martinhal-sagres-beach-family-resort-hotel/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "memmo-alfama-lisbon-rooftop-dusk",
     "group": "호텔 이미지",
     "title": "멤모 알파마 · 리스본 지붕 위로 내려앉는 저녁",

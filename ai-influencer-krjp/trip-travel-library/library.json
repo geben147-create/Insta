@@ -5894,6 +5894,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "san-domenico-taormina-sicilian-breakfast",
+    "group": "호텔 이미지",
+    "title": "산 도메니코 팰리스 · 타오르미나 절벽 위의 아침",
+    "caption": "the coast wakes slowly.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/san-domenico-taormina-sicilian-breakfast-01.webp",
+        "alt": "산 도메니코 팰리스 · 타오르미나 절벽 위의 아침"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "San Domenico Palace, Taormina, A Four Seasons Hotel",
+        "https://www.trip.com/hotels/taormina-hotel-detail-2139808/san-domenico-palace-taormina-a-four-seasons-hotel/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "sanraku-kanazawa-garden-breakfast",
     "group": "호텔 이미지",
     "title": "더 호텔 산라쿠 가나자와 · 정원을 바라보는 조식",

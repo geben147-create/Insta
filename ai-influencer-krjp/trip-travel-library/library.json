@@ -5964,6 +5964,28 @@
     "poster": "media/hotel-ranga-aurora-riverside-hot-tub-01.webp"
   },
   {
+    "id": "hotel-sacher-vienna-breakfast-light",
+    "group": "호텔 이미지",
+    "title": "호텔 자허 빈 · 아침 햇살이 비치는 창가 조식",
+    "caption": "a soft start in vienna.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/hotel-sacher-vienna-breakfast-light-01.webp",
+        "alt": "호텔 자허 빈 · 아침 햇살이 비치는 창가 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hotel Sacher Wien",
+        "https://us.trip.com/hotels/vienna-hotel-detail-2170792/hotel-sacher-wien/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "유럽"
+  },
+  {
     "id": "hyatt-regency-danang-pool-grotto",
     "group": "호텔 이미지",
     "title": "하얏트 리젠시 다낭 · 돌 아치 너머 가족 물놀이 풀",
@@ -6269,7 +6291,7 @@
     "group": "호텔 이미지",
     "title": "나라야 료칸 · 구사쓰 유바타케의 온천 김",
     "caption": "follow the steam.",
-    "video": "",
+    "video": "media/naraya-kusatsu-yubatake-steam.mp4",
     "stills": [
       {
         "src": "media/naraya-kusatsu-yubatake-steam-01.webp",
@@ -6283,8 +6305,9 @@
         "https://www.trip.com/hotels/kusatsu-machi-hotel-detail-1678701/naraya/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "일본"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "일본",
+    "poster": "media/naraya-kusatsu-yubatake-steam-01.webp"
   },
   {
     "id": "new-otani-tokyo-garden-window-breakfast",
@@ -6941,7 +6964,7 @@
     "group": "호텔 이미지",
     "title": "시그니엘 서울 · 높은 창가에서 바라본 한강 야경",
     "caption": "seoul slips into blue.",
-    "video": "",
+    "video": "media/signiel-seoul-han-river-blue-hour.mp4",
     "stills": [
       {
         "src": "media/signiel-seoul-han-river-blue-hour-01.webp",
@@ -6955,8 +6978,9 @@
         "https://kr.trip.com/hotels/seoul-hotel-detail-19624480/signiel-seoul/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "한국"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "한국",
+    "poster": "media/signiel-seoul-han-river-blue-hour-01.webp"
   },
   {
     "id": "sunway-resort-lagoon-ravine-bridge",

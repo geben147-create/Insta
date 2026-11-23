@@ -4886,6 +4886,27 @@
     "detail": "레퍼런스를 참고해 새로 만든 이미지"
   },
   {
+    "id": "atlantis-dubai-family-splash",
+    "group": "호텔 이미지",
+    "title": "아틀란티스 더 팜 · 두바이 가족 물놀이",
+    "caption": "a day made for splashing.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/atlantis-dubai-family-splash-01.webp",
+        "alt": "아틀란티스 더 팜 · 두바이 가족 물놀이"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Atlantis, The Palm",
+        "https://www.trip.com/hotels/dubai-hotel-detail-984964/atlantis-the-palm/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "aulani-ko-olina-family-water-play",
     "group": "호텔 이미지",
     "title": "아울라니 리조트 · 하와이 코올리나 가족 물놀이",

@@ -5113,7 +5113,7 @@
     "group": "호텔 이미지",
     "title": "아만기리 · 붉은 협곡을 바라보는 야외 온수 욕조",
     "caption": "the desert holds its warmth.",
-    "video": "",
+    "video": "media/amangiri-utah-canyon-soaking-pool.mp4",
     "stills": [
       {
         "src": "media/amangiri-utah-canyon-soaking-pool-01.webp",
@@ -5127,8 +5127,9 @@
         "https://www.trip.com/hotels/canyon-point-hotel-detail-22999270/amangiri/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "미주"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "미주",
+    "poster": "media/amangiri-utah-canyon-soaking-pool-01.webp"
   },
   {
     "id": "aqua-dome-tyrol-family-thermal-light",
@@ -5933,7 +5934,7 @@
     "group": "호텔 이미지",
     "title": "인터컨티넨탈 요코하마 피어 8 · 항구의 블루아워",
     "caption": "the harbor keeps the last light.",
-    "video": "",
+    "video": "media/intercontinental-yokohama-pier8-harbor-blue-hour.mp4",
     "stills": [
       {
         "src": "media/intercontinental-yokohama-pier8-harbor-blue-hour-01.webp",
@@ -5947,8 +5948,9 @@
         "https://www.trip.com/hotels/yokohama-hotel-detail-39457997/intercontinental-hotels-yokohama-pier-8/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "일본"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "일본",
+    "poster": "media/intercontinental-yokohama-pier8-harbor-blue-hour-01.webp"
   },
   {
     "id": "jade-mountain-pitons-jacuzzi",
@@ -6188,6 +6190,28 @@
         "숙소 예약",
         "Naraya",
         "https://www.trip.com/hotels/kusatsu-machi-hotel-detail-1678701/naraya/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "일본"
+  },
+  {
+    "id": "new-otani-tokyo-garden-window-breakfast",
+    "group": "호텔 이미지",
+    "title": "호텔 뉴 오타니 도쿄 가든 타워 · 일본 정원이 보이는 조식",
+    "caption": "morning takes its time.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/new-otani-tokyo-garden-window-breakfast-01.webp",
+        "alt": "호텔 뉴 오타니 도쿄 가든 타워 · 일본 정원이 보이는 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hotel New Otani Tokyo Garden Tower",
+        "https://www.trip.com/hotels/tokyo-hotel-detail-2143741/hotel-new-otani-tokyo-garden-tower/"
       ]
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지",

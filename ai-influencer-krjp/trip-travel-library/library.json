@@ -5390,6 +5390,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "sarangkot-lodge-annapurna-breakfast",
+    "group": "호텔 이미지",
+    "title": "사랑콧 마운틴 로지 · 안나푸르나 전망 조식",
+    "caption": "first tea, first light.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/sarangkot-lodge-annapurna-breakfast-01.webp",
+        "alt": "사랑콧 마운틴 로지 · 안나푸르나 전망 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Sarangkot Mountain Lodge",
+        "https://www.trip.com/hotels/pokhara-hotel-detail-54872889/sarangkot-mountain-lodge/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "shinhwa-jeju-family-water-play",
     "group": "호텔 이미지",
     "title": "제주신화월드 신화관 · 제주 가족 물놀이",

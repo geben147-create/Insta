@@ -5075,6 +5075,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "twelve-apostles-cape-town-breakfast",
+    "group": "호텔 이미지",
+    "title": "트웰브 어포슬스 호텔 & 스파 · 케이프타운 대서양 조식",
+    "caption": "coffee on the atlantic edge.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/twelve-apostles-cape-town-breakfast-01.webp",
+        "alt": "트웰브 어포슬스 호텔 & 스파 · 케이프타운 대서양 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Twelve Apostles Hotel & Spa",
+        "https://www.trip.com/hotels/cape-town-hotel-detail-748124/twelve-apostles-hotel-and-spa/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "universal-port-vita-park-morning",
     "group": "호텔 이미지",
     "title": "호텔 유니버설 포트 비타 · 오사카 테마파크 가는 아침",

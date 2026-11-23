@@ -5363,7 +5363,7 @@
     "group": "호텔 이미지",
     "title": "카파도키아 뮤지엄 호텔 · 열기구가 뜨는 테라스 조식",
     "caption": "the valley lifts at dawn.",
-    "video": "",
+    "video": "media/cappadocia-museum-hotel-balloon-breakfast.mp4",
     "stills": [
       {
         "src": "media/cappadocia-museum-hotel-balloon-breakfast-01.webp",
@@ -5377,8 +5377,9 @@
         "https://www.trip.com/hotels/nevsehir-hotel-detail-4045721/hotel/?locale=en-US"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "중동·아프리카"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "중동·아프리카",
+    "poster": "media/cappadocia-museum-hotel-balloon-breakfast-01.webp"
   },
   {
     "id": "centara-pattaya-childrens-pool",
@@ -6041,6 +6042,32 @@
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지",
     "region": "기타 아시아"
+  },
+  {
+    "id": "lefay-dolomiti-alpine-whirlpool",
+    "group": "호텔 이미지",
+    "title": "르페이 리조트 돌로미티 · 산빛이 드는 실내 월풀",
+    "caption": "still water, mountain light.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/lefay-dolomiti-alpine-whirlpool-01.webp",
+        "alt": "르페이 리조트 돌로미티 · 산빛이 드는 실내 월풀"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Lefay Resort & SPA Dolomiti",
+        "https://kr.trip.com/hotels/pinzolo-hotel-detail-44214531/lefay-resort-spa-dolomiti/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "familyWater": {
+      "description": "실내외 연결 수영장은 가족이 이용할 수 있습니다. 이미지의 모티프인 마그네슘 염수 월풀은 공식 안내 기준 만 16세부터 이용할 수 있습니다.",
+      "source": "https://dolomiti.lefayresorts.com/wp-content/uploads/2025/05/Web_GE_Brochure_SPA_Dolomiti_2025_INGLESE.pdf"
+    },
+    "region": "유럽"
   },
   {
     "id": "loews-portofino-orlando-family-water-taxi",
@@ -6973,7 +7000,7 @@
     "group": "호텔 이미지",
     "title": "자보린 · 홋카이도 자작나무 숲의 겨울 노천탕",
     "caption": "winter among the birches.",
-    "video": "",
+    "video": "media/zaborin-hokkaido-winter-birch-onsen.mp4",
     "stills": [
       {
         "src": "media/zaborin-hokkaido-winter-birch-onsen-01.webp",
@@ -6987,7 +7014,8 @@
         "https://www.trip.com/hotels/kutchan-hotel-detail-5024174/zaborin/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "일본"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "일본",
+    "poster": "media/zaborin-hokkaido-winter-birch-onsen-01.webp"
   }
 ]

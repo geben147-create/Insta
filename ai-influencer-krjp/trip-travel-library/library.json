@@ -5432,6 +5432,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "mitsui-kyoto-rainy-courtyard-breakfast",
+    "group": "호텔 이미지",
+    "title": "호텔 더 미츠이 교토 · 비 오는 정원과 창가 조식",
+    "caption": "coffee while the garden wakes.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/mitsui-kyoto-rainy-courtyard-breakfast-01.webp",
+        "alt": "호텔 더 미츠이 교토 · 비 오는 정원과 창가 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hotel The Mitsui Kyoto",
+        "https://www.trip.com/hotels/kyoto-hotel-detail-67048200/hotel-the-mitsui-kyoto-a-luxury-collection-hotel-and-spa/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "naraya-kusatsu-yubatake-steam",
     "group": "호텔 이미지",
     "title": "나라야 료칸 · 구사쓰 유바타케의 온천 김",

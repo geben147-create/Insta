@@ -53,3 +53,16 @@
 @media(prefers-reduced-motion:reduce){.a-punch,.a-pop,.a-shake,.a-stamp,.a-swipeL,.a-swipeR,.a-flip,.a-slideup,.a-side,.a-spark,.typing,.hl-marker{animation:none!important}.hl-marker{background-size:100% 100%}}
 .vcard .mini *{animation:none!important}
 .vcard .mini .hl-marker{background-size:100% 100%}
+
+/* 9:16 쇼츠 미리보기 */
+.vstage.v916{aspect-ratio:9/16;width:min(100%,calc((100vh - 170px)*9/16));margin:0 auto}
+.vwork.r916{grid-template-columns:minmax(0,1fr) minmax(270px,1.15fr)}
+.vbtns .ratio{display:inline-flex;gap:4px}
+.vbtns [data-ratio][aria-pressed=true]{background:var(--acc2);color:#fff}
+.safechk{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--muted)}
+.safechk[hidden]{display:none}
+.vstage .safe{position:absolute;inset:0;pointer-events:none;z-index:20;font:700 2.6cqw/1.2 system-ui,sans-serif;color:#fff}
+.vstage .sz{position:absolute;display:flex;align-items:center;justify-content:center;text-align:center;background:repeating-linear-gradient(135deg,#ff2d5533 0 2cqw,#ff2d5518 2cqw 4cqw);outline:1px dashed #ff5d7a}
+.vstage .sz.top{left:0;right:0;top:0;height:8%}
+.vstage .sz.bottom{left:0;right:0;bottom:0;height:20%}
+.vstage .sz.right{right:0;top:45%;height:33%;width:15%}

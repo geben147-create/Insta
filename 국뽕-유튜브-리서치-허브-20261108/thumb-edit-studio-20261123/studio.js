@@ -296,7 +296,7 @@ function bgmPage() {
   </div>`;
 }
 /* ── 장면별 연출 프리셋 ── */
-const vstate = {key: 'hook', v: null};
+const vstate = {key: 'hook', v: null, ratio: '169', safe: true};
 function vText(t, v, hl) {
   return esc(t).replace(/\*([^*]+)\*/g, (m, w) => hl ? `<span class="hl-${v.hl || 'marker'}" style="--hl:${v.acc}">${w}</span>` : `<span style="color:${v.acc}">${w}</span>`);
 }
@@ -325,18 +325,34 @@ function vRender(v, mini) {
   return h;
 }
 const FXP = '../../research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/effects/';
+/* 9:16 쇼츠: 글씨 키우기, 좌우 → 위아래, 하단 UI 피하기 */
+function toVertical(h) {
+  return h.replace(/font-size:(\d+(?:\.\d+)?)cqw/g, (m, n) => `font-size:${+(n * 1.55).toFixed(2)}cqw`)
+    .replace('grid-template-columns:1fr 1.2fr', 'grid-template-columns:1fr')
+    .replace('display:grid;grid-template-columns:1fr 1fr', 'display:grid;grid-template-rows:1fr 1fr')
+    .replace('class="vk a-stamp" style="top:28%', 'class="vk a-stamp" style="top:39%')
+    .replace('left:12%;right:12%;top:20%', 'left:5%;right:5%;top:26%')
+    .replace('left:14%;right:14%;top:14%;bottom:14%', 'left:5%;right:5%;top:20%;bottom:30%')
+    .replace('left:18%;right:18%;bottom:12%', 'left:5%;right:5%;bottom:26%')
+    .replace('class="vk a-side" style="bottom:7%', 'class="vk a-side" style="bottom:26%;left:4%;right:4%')
+    .replace('style="top:8%;bottom:8%"', 'style="top:14%;bottom:26%"')
+    .replace('class="vk a-slideup" style="bottom:6%', 'class="vk a-slideup" style="bottom:24%');
+}
+const SAFE916 = `<div class="safe" aria-hidden="true"><div class="sz top">상단 · 검색/제목 가림</div><div class="sz right">좋아요<br>댓글<br>공유</div><div class="sz bottom">하단 · 채널명·설명·음악 가림 (글씨 금지)</div></div>`;
 function vfxPage() {
   return `<div class="page" style="max-width:1300px">
   <h1>🎬 장면별 연출 프리셋</h1>
   <p class="lead">위에서 장면을 고르면 큰 미리보기가 바로 바뀝니다. 오른쪽에서 글씨·색·폰트·배경을 바꾸면 <b>즉시</b> 반영되고, 아래 접기 메뉴에 사용 장면·예시 문장·타이밍·추천 효과음이 있습니다.</p>
   <div class="vcards" role="group" aria-label="장면">${VFX.map(p => `<button type="button" class="vcard" data-vk="${p.key}" aria-pressed="${p.key === vstate.key}"><div class="mini">${vRender({...p}, true)}</div><b>${esc(p.name)}</b></button>`).join('')}</div>
-  <div class="vwork"><div class="vleft"><div class="vstage" id="vstage"></div><div class="vbtns"><button class="btn" type="button" id="vreplay">▶ 등장 다시 보기</button><button class="btn ghost" type="button" id="vcopy">설정 복사</button></div></div><div class="ctl" id="vctl"></div></div>
+  <div class="vwork"><div class="vleft"><div class="vstage" id="vstage"></div><div class="vbtns"><span class="ratio" role="group" aria-label="화면 비율"><button type="button" class="btn ghost" data-ratio="169">16:9 롱폼</button><button type="button" class="btn ghost" data-ratio="916">9:16 쇼츠</button></span><label class="safechk"><input type="checkbox" id="vsafe"> 쇼츠 가림 영역 표시</label><button class="btn" type="button" id="vreplay">▶ 등장 다시 보기</button><button class="btn ghost" type="button" id="vcopy">설정 복사</button></div></div><div class="ctl" id="vctl"></div></div>
   <div id="vinfo"></div></div>`;
 }
 function initVfx() {
   content.querySelectorAll('[data-vk]').forEach(b => b.onclick = () => { vstate.key = b.dataset.vk; vstate.v = null; content.querySelectorAll('[data-vk]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); vSetup(); });
   $('#vreplay').onclick = vDraw;
-  $('#vcopy').onclick = e => copy(JSON.stringify(vstate.v, null, 1), e.target);
+  content.querySelectorAll('[data-ratio]').forEach(b => b.onclick = () => { vstate.ratio = b.dataset.ratio; vDraw(); });
+  const sf = $('#vsafe'); sf.checked = vstate.safe; sf.onchange = () => { vstate.safe = sf.checked; vDraw(); };
+  $('#vcopy').onclick = e => copy(JSON.stringify({...vstate.v, ratio: vstate.ratio === '916' ? '9:16 (1080×1920)' : '16:9 (1920×1080)'}, null, 1), e.target);
   vSetup();
 }
 function vSetup() {
@@ -372,7 +388,14 @@ function vSetup() {
   vDraw();
 }
 function vDraw() {
-  const st = $('#vstage'); if (!st) return; st.innerHTML = vRender(vstate.v, false);
+  const st = $('#vstage'); if (!st) return;
+  const tall = vstate.ratio === '916';
+  st.classList.toggle('v916', tall); st.closest('.vwork')?.classList.toggle('r916', tall);
+  content.querySelectorAll('[data-ratio]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.ratio === vstate.ratio)));
+  const sl = content.querySelector('.safechk'); if (sl) sl.hidden = !tall;
+  let html = vRender(vstate.v, false);
+  if (tall) html = toVertical(html) + (vstate.safe ? SAFE916 : '');
+  st.innerHTML = html;
   const c = st.querySelector('[data-count]'); if (c) { const to = +c.dataset.count, t0 = performance.now(); const step = t => { const k = Math.min(1, (t - t0) / 800); c.textContent = Math.round(to * k); if (k < 1 && c.isConnected) requestAnimationFrame(step); }; requestAnimationFrame(step); }
 }
 

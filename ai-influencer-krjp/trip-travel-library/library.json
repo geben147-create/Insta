@@ -5297,7 +5297,7 @@
     "group": "호텔 이미지",
     "title": "반얀트리 방콕 · 사톤의 고층 라운지 야경",
     "caption": "a little closer to the night.",
-    "video": "",
+    "video": "media/banyan-tree-bangkok-sathorn-night.mp4",
     "stills": [
       {
         "src": "media/banyan-tree-bangkok-sathorn-night-01.webp",
@@ -5311,8 +5311,9 @@
         "https://www.trip.com/hotels/bangkok-hotel-detail-996026/banyan-tree-bangkok/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "기타 아시아"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "기타 아시아",
+    "poster": "media/banyan-tree-bangkok-sathorn-night-01.webp"
   },
   {
     "id": "banyan-tree-seoul-namsan-pool",
@@ -6339,6 +6340,28 @@
     "region": "미주"
   },
   {
+    "id": "park-hyatt-auckland-harbour-breakfast",
+    "group": "호텔 이미지",
+    "title": "파크 하얏트 오클랜드 · 항구를 바라보는 오네마타 조식",
+    "caption": "the harbour wakes slowly.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/park-hyatt-auckland-harbour-breakfast-01.webp",
+        "alt": "파크 하얏트 오클랜드 · 항구를 바라보는 오네마타 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Park Hyatt Auckland",
+        "https://www.trip.com/hotels/auckland-hotel-detail-45925302/park-hyatt-auckland/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "오세아니아"
+  },
+  {
     "id": "park-hyatt-busan-gwangan-bridge-breakfast",
     "group": "호텔 이미지",
     "title": "파크 하얏트 부산 · 광안대교를 바라보는 창가 조식",
@@ -6898,7 +6921,7 @@
     "group": "호텔 이미지",
     "title": "탐보 델 잉카 · 페루 성스러운 계곡의 조식",
     "caption": "morning in the sacred valley.",
-    "video": "",
+    "video": "media/tambo-del-inka-sacred-valley-breakfast.mp4",
     "stills": [
       {
         "src": "media/tambo-del-inka-sacred-valley-breakfast-01.webp",
@@ -6912,8 +6935,9 @@
         "https://www.trip.com/hotels/urubamba-hotel-detail-3070360/hotel/?locale=en-US"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "미주"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "미주",
+    "poster": "media/tambo-del-inka-sacred-valley-breakfast-01.webp"
   },
   {
     "id": "thompson-seattle-elliott-bay-rain-night",

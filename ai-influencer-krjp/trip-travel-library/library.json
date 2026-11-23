@@ -5348,6 +5348,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "hanamizuki-kuwana-nagashima-coaster-garden",
+    "group": "호텔 이미지",
+    "title": "호텔 하나미즈키 인근 · 나가시마 스파랜드로 향하는 정원길",
+    "caption": "the rides beyond the trees.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/hanamizuki-kuwana-nagashima-coaster-garden-01.webp",
+        "alt": "호텔 하나미즈키 인근 · 나가시마 스파랜드로 향하는 정원길"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hotel Hanamizuki",
+        "https://www.trip.com/hotels/kuwana-hotel-detail-5623403/hotel-hanamizuki/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "hard-rock-bali-sand-island-family-pool",
     "group": "호텔 이미지",
     "title": "하드록 호텔 발리 · 모래섬이 있는 가족 물놀이 풀",

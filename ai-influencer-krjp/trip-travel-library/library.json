@@ -5012,6 +5012,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "ensana-margaret-island-thermal",
+    "group": "호텔 이미지",
+    "title": "엔사나 서멀 마르기트 아일랜드 · 부다페스트의 온천",
+    "caption": "an island at rest.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/ensana-margaret-island-thermal-01.webp",
+        "alt": "엔사나 서멀 마르기트 아일랜드 · 부다페스트의 온천"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Ensana Thermal Margaret Island",
+        "https://www.trip.com/hotels/csobanka-hotel-detail-2495885/ensana-thermal-margaret-island/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "hakone-tenyu-onsen",
     "group": "호텔 이미지",
     "title": "하코네 고와키엔 텐유 · 새벽 온천",

@@ -5348,6 +5348,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "ronsard-irabu-ocean-jacuzzi",
+    "group": "호텔 이미지",
+    "title": "론사르 리조트 이라부 · 미야코지마 바다 전망 자쿠지",
+    "caption": "the sea is close enough.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/ronsard-irabu-ocean-jacuzzi-01.webp",
+        "alt": "론사르 리조트 이라부 · 미야코지마 바다 전망 자쿠지"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Ronsard Resort Irabu",
+        "https://www.trip.com/hotels/miyakojima-hotel-detail-101910486/ronsard-resort-irabu/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "twelve-apostles-cape-town-breakfast",
     "group": "호텔 이미지",
     "title": "트웰브 어포슬스 호텔 & 스파 · 케이프타운 대서양 조식",

@@ -5075,6 +5075,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "nimb-tivoli-rain-lights",
+    "group": "호텔 이미지",
+    "title": "님브 호텔 · 코펜하겐 티볼리 정원의 저녁",
+    "caption": "the lights come on slowly.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/nimb-tivoli-rain-lights-01.webp",
+        "alt": "님브 호텔 · 코펜하겐 티볼리 정원의 저녁"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Nimb Hotel",
+        "https://www.trip.com/hotels/copenhagen-hotel-detail-2546720/nimb-hotel/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "peninsula-bangkok-river-breakfast",
     "group": "호텔 이미지",
     "title": "더 페닌슐라 방콕 · 차오프라야 강변 조식",

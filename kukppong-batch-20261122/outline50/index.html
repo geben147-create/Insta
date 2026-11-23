@@ -117,4 +117,65 @@ main{flex:1;max-width:980px;padding:20px 28px}h1{font-size:24px}h2{font-size:19p
    .catch(function(){document.getElementById("yh-tts").textContent="미확인";document.getElementById("yh-wait").textContent="미확인";});
   refresh();
 })();
+</script><style id="yh-review-workbench-v1">
+#yh-review{background:#111b29;border:1px solid #466075;border-radius:10px;padding:12px;margin-top:12px}
+#yh-review h3{color:#fff;margin:0 0 6px;font-size:16px}
+#yh-review .yr-issue{border-top:1px solid #33465a;padding-top:10px;margin-top:10px}
+#yh-review .yr-meta{font-size:12px;color:#f5c578;font-weight:700}
+#yh-review .yr-columns{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:6px}
+#yh-review .yr-col{font-size:13px;line-height:1.5;background:#1d2734;padding:10px;border-radius:8px;white-space:pre-wrap}
+#yh-review .yr-col:first-child{border-left:3px solid #ef7777}
+#yh-review .yr-col:last-child{border-left:3px solid #6bddb2}
+#yh-review .yr-col strong{color:#fff;display:block;margin-bottom:3px}
+#yh-review .yr-copy{background:#3e5773;color:#fff;border:1px solid #91afc9;padding:7px 9px;border-radius:7px;margin-top:7px;cursor:pointer}
+@media(max-width:720px){#yh-review .yr-columns{grid-template-columns:1fr}}
+</style><script id="yh-review-workbench-logic">
+(function(){
+  "use strict";
+  var root=document.getElementById("yh-quick"),sel=document.getElementById("yh-ep");
+  if(!root||!sel)return;
+  var area=document.createElement("div");area.id="yh-review";
+  root.appendChild(area);
+  var problems={
+    "51":[["훅 · 말투 예시","이야기가 시작됩니다.","한국·일본·중국 PC방은 대체 뭐가 다를까요? 중국인 여행자가 서울 PC방에서 놀란 건, 뜻밖에도 게임이 아니었습니다.","원본 대본과 사실관계를 확인해 자연스럽게 다듬을 후보"]],
+    "55":[["훅·본문·엔딩 반복","일본 여성 1,002명 중 56.9%가 비용을 선택했다는 같은 수치를 세 번 반복","일본 여성 1,002명에게 한국에서 시술받는 이유를 물었습니다. 그런데 1위는 효과가 아니었어요. 대체 뭐였을까요?","수치는 본문에서 한 번만 공개하고 훅에서는 궁금증으로 남기기"]],
+    "62":[["0:39 부근 · 언론 3연속","가디언 → 이터 → 다른 언론의 칭찬을 내레이션으로 연속 소개","가디언이 이 한국 예능에 주목한 이유는 무엇이었을까요? 말보다 실제 프로그램의 장면에서 그 이유를 찾아보죠.","출처 한 곳만 낭독하고 다른 출처는 화면 자료로 배치"]],
+    "87":[
+      ["s3 · 좋아요로 사실 판정","좋아요 수로는 누가 옳은지 가릴 수 없습니다. 노선도가 무섭다는 원글에는 6만 개가 넘는 좋아요가 붙었으니까요.","노선도만 보고 겁먹었다는 사람도 있었죠. 그런데 직접 타 본 사람 중에는 앱 덕분에 길을 찾았다는 경험담도 있었습니다. 왜 이렇게 달랐을까요?","긍정·부정 경험 모두 유지, 좋아요를 진실의 증거로 사용하지 않기"],
+      ["s4 · 딱딱한 순위 설명","그래서 이 숫자로 서울이 도쿄를 이겼다고 말할 수는 없습니다.","이번 조사에서는 서울 주민들의 만족도가 높게 나왔습니다. 다만 도쿄는 조사 대상에 없었죠. 그래서 더 궁금해집니다. 실제로 지하철을 타 본 사람들은 어땠을까요?","서울·오사카 주민 평가를 도쿄 승패로 바꾸지 않기"],
+      ["s7 · 늘어진 해설","낡았다는 말을 부정하지 않았다는 점이 눈에 띕니다. 볼거리로는 중국을 못 따라간다고 먼저 인정했죠.","그 중국인 제작자는 서울을 직접 보고는 이렇게 물었습니다. '낡은 게 아니라, 너무 일찍 발전한 건 아닐까?' 바로 이 장면에서 평가가 바뀌기 시작했죠.","인용은 원음·번역 확인 뒤 사용, 원음 살리고 해설 최소화"]
+    ],
+    "94":[["비교 오류 검수","서울 대 도쿄 순위를 오사카 수치로 판정","도시 조사 결과와 지하철 실경험을 분리해 서술한다. 서울·오사카 주민 평가로 도쿄 지하철의 우열을 단정하지 않는다.","실제 문장 교체 전 자료 확인 필요"]],
+    "96":[["비교 오류 검수","서울 대 도쿄 순위를 오사카 수치로 판정","조사에 나온 도시는 서울과 오사카입니다. 도쿄와의 직접 비교는 따로 확인해야 합니다.","실제 문장 교체 전 자료 확인 필요"]]
+  };
+  var weak={"91":"s6 · 칭찬 나열 38/42줄","79":"s4 · 나열 18/20줄","86":"s3 · 나열 20/36줄",
+    "89":"s2 · 나열 21/31줄","56":"s2 · 나열 12/22줄","70":"s3 · 나열 8/19줄",
+    "90":"s4 · 나열 26/37줄","87":"s7 · 나열 22/42줄","97":"s7 · 나열 27/42줄","80":"s8 · 나열 20/42줄"};
+  function elt(tag,cls,txt){var n=document.createElement(tag);if(cls)n.className=cls;if(txt!==undefined)n.textContent=txt;return n;}
+  function draw(){
+    var n=sel.value,items=problems[n]||[];
+    area.textContent="";
+    area.appendChild(elt("h3",null,"🔎 "+n+"번 · 문장 수정 비교 (미적용)"));
+    if(weak[n])area.appendChild(elt("p","yr-meta","⚠️ V5 취약 구간: "+weak[n]+" · 보고서 추정·자동 집계"));
+    if(!items.length){area.appendChild(elt("p",null,"이 편은 아직 문장별 비교안이 연결되지 않았습니다. 문제 없음 판정이 아닙니다."));return;}
+    items.forEach(function(item){
+      var w=elt("div","yr-issue");w.appendChild(elt("div","yr-meta",item[0]));
+      var cols=elt("div","yr-columns");
+      var before=elt("div","yr-col");before.appendChild(elt("strong",null,"❌ 기존 또는 문제 표현"));before.appendChild(elt("span",null,item[1]));
+      var after=elt("div","yr-col");after.appendChild(elt("strong",null,"✅ 자연스러운 수정 제안"));after.appendChild(elt("span",null,item[2]));
+      cols.appendChild(before);cols.appendChild(after);w.appendChild(cols);
+      w.appendChild(elt("p",null,"점검: "+item[3]));
+      var copy=elt("button","yr-copy","수정 문장 복사");
+      copy.type="button";copy.addEventListener("click",function(){
+        var text=item[2];
+        if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(function(){copy.textContent="✅ 복사됨";}).catch(function(){copy.textContent="복사 권한 필요";});}
+        else{var t=document.createElement("textarea");t.value=text;document.body.appendChild(t);t.select();document.execCommand("copy");t.remove();copy.textContent="✅ 복사됨";}
+      });
+      w.appendChild(copy);area.appendChild(w);
+    });
+    area.appendChild(elt("p",null,"※ 위 문장은 사용자 검토용 제안이며 기존 대본·TTS·실제 영상에는 적용되지 않았습니다. 실제 발언·출처 검증 후 수정하세요."));
+  }
+  sel.addEventListener("change",draw);
+  draw();
+})();
 </script></body></html>

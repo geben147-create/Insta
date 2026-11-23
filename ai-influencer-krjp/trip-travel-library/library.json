@@ -5230,7 +5230,7 @@
     "group": "호텔 이미지",
     "title": "도고 온천 후나야 · 비 내린 정원의 돌탕",
     "caption": "the garden keeps the rain.",
-    "video": "",
+    "video": "media/dogo-funaya-rain-garden-onsen.mp4",
     "stills": [
       {
         "src": "media/dogo-funaya-rain-garden-onsen-01.webp",
@@ -5244,7 +5244,8 @@
         "https://www.trip.com/hotels/matsuyama-hotel-detail-2195121/funaya/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/dogo-funaya-rain-garden-onsen-01.webp"
   },
   {
     "id": "efteling-grand-hotel-forest-morning",

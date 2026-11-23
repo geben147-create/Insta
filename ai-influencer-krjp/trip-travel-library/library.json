@@ -5222,6 +5222,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "kayon-ubud-jungle-hot-tub",
+    "group": "호텔 이미지",
+    "title": "더 카욘 리조트 우붓 · 숲속 스파의 온수 욕조",
+    "caption": "pause where the forest breathes.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/kayon-ubud-jungle-hot-tub-01.webp",
+        "alt": "더 카욘 리조트 우붓 · 숲속 스파의 온수 욕조"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "The Kayon Resort (Adult Only)",
+        "https://www.trip.com/hotels/v2/bali-hotel-detail-1860964/the-kayon-resort/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "loews-portofino-orlando-family-water-taxi",
     "group": "호텔 이미지",
     "title": "로우스 포르토피노 베이 호텔 · 유니버설 올랜도로 향하는 아침",

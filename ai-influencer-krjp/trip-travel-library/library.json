@@ -5923,6 +5923,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "passalacqua-lake-como-peach-breakfast",
+    "group": "호텔 이미지",
+    "title": "파살라쿠아 · 코모호를 바라보는 정원 조식",
+    "caption": "morning lingers on the lake.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/passalacqua-lake-como-peach-breakfast-01.webp",
+        "alt": "파살라쿠아 · 코모호를 바라보는 정원 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Passalacqua",
+        "https://www.trip.com/hotels/moltrasio-hotel-detail-114324321/passalacqua/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "peninsula-bangkok-river-breakfast",
     "group": "호텔 이미지",
     "title": "더 페닌슐라 방콕 · 차오프라야 강변 조식",
@@ -6246,7 +6267,7 @@
     "group": "호텔 이미지",
     "title": "선웨이 리조트 호텔 인근 · 선웨이 라군으로 향하는 다리",
     "caption": "the path to a little wonder.",
-    "video": "",
+    "video": "media/sunway-resort-lagoon-ravine-bridge.mp4",
     "stills": [
       {
         "src": "media/sunway-resort-lagoon-ravine-bridge-01.webp",
@@ -6260,7 +6281,8 @@
         "https://www.trip.com/hotels/subang-jaya-hotel-detail-993737/sunway-resort-hotel-and-spa-petaling-jaya-kuala-lumpur/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/sunway-resort-lagoon-ravine-bridge-01.webp"
   },
   {
     "id": "taj-lake-palace-pichola-breakfast",
@@ -6330,7 +6352,7 @@
     "group": "호텔 이미지",
     "title": "톰슨 시애틀 · 비 갠 뒤 엘리엇만 야경",
     "caption": "the bay holds the last lights.",
-    "video": "",
+    "video": "media/thompson-seattle-elliott-bay-rain-night.mp4",
     "stills": [
       {
         "src": "media/thompson-seattle-elliott-bay-rain-night-01.webp",
@@ -6344,7 +6366,8 @@
         "https://www.trip.com/hotels/seattle-hotel-detail-4978965/thompson-seattle-by-hyatt/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/thompson-seattle-elliott-bay-rain-night-01.webp"
   },
   {
     "id": "tokyo-disneysea-fantasy-springs-first-walk",

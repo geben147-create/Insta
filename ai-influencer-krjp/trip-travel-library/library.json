@@ -5285,6 +5285,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "hyatt-regency-danang-pool-grotto",
+    "group": "호텔 이미지",
+    "title": "하얏트 리젠시 다낭 · 돌 아치 너머 가족 물놀이 풀",
+    "caption": "follow the light on the water.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/hyatt-regency-danang-pool-grotto-01.webp",
+        "alt": "하얏트 리젠시 다낭 · 돌 아치 너머 가족 물놀이 풀"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hyatt Regency Danang Resort and Spa",
+        "https://www.trip.com/hotels/da-nang-hotel-detail-713826/hyatt-regency-danang-resort-and-spa/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "jade-mountain-pitons-jacuzzi",
     "group": "호텔 이미지",
     "title": "제이드 마운틴 · 세인트루시아 피톤산 전망 자쿠지",

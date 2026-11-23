@@ -45,6 +45,7 @@ document.querySelectorAll('.tab').forEach(b => b.onclick = () => go(b.dataset.ta
 
 function go(tab, sub, record = true) {
   if (!MENUS[tab]) tab = 'thumb';
+  if (SUB_ALIAS[sub]) sub = SUB_ALIAS[sub];
   const list = items(tab);
   if (!list.some(m => m.id === sub)) sub = list[0].id;
   const tabChanged = tab !== state.tab || !subnav.children.length;
@@ -63,12 +64,15 @@ function show(m) {
   if (m.f) {
     content.className = 'frame';
     content.innerHTML = `<div class="framebar"><b>${esc(m.t)}</b><a href="${esc(m.f)}" target="_blank" rel="noopener">새 탭에서 열기 ↗</a></div>`;
-    const f = document.createElement('iframe'); f.src = m.f; f.title = m.t; content.append(f); return;
+    const src = m.id === 'editor' && pendingTpl ? m.f + '?t=' + pendingTpl : m.f; pendingTpl = null;
+    const f = document.createElement('iframe'); f.src = src; f.title = m.t; content.append(f); return;
   }
   if (m.md) { showMd(m); return; }
   const fn = PAGES[m.id]; content.innerHTML = fn ? fn() : '<div class="page">준비 중</div>';
   if (m.id === 'live') initLive();
-  if (m.id === 'faces') initFaces();
+  if (m.id === 'parts') initFaces();
+  if (m.id === 'vfx') initVfx();
+  if (m.id === 'fonts') initFonts();
   content.focus({preventScroll: true});
 }
 async function showMd(m) {
@@ -94,12 +98,12 @@ const PAGES = {
       <dl class="spec">${m.spec.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v).replace(/#[0-9A-F]{6}/g, h => `<span class="chip" data-hex="${h}" title="복사"><i style="background:${h}"></i>${h}</span>`)}</dd>`).join('')}</dl>
       <div class="prompt" data-copy>${esc(m.prompt)}</div>
       <button class="btn" data-copybtn>이미지 프롬프트 복사</button>
-      ${m.live && LIVE[m.live] ? ` <button class="btn red" type="button" onclick="window.__goLive('${m.live}')">실시간 재현판에서 열기 →</button>` : ''}
+      ${m.live || ['lips','dog','hands','angry','sports'].includes(m.key) ? ` <button class="btn red" type="button" onclick="window.__goLive('${m.live || ({lips:'lips',dog:'dog',hands:'hands',angry:'circles',sports:'sports'})[m.key]}')">통합 편집기에서 열기 →</button>` : ''}
     </div></section>`).join('')}
   <p class="note">방송 화면 크롭은 디자인 연구용 참고 자료입니다. 실제 영상·썸네일에 쓸 때는 직접 촬영·제작한 이미지나 권리를 확인한 이미지로 같은 구도를 재현하세요. 출처: JTBC 아는 형님 등 예능 유튜브 썸네일 캡처.</p>
  </div>`,
- faces: () => `<div class="page">
-  <h1>😱 표정 · 요소 모음 (잘라낸 37컷)</h1>
+ parts: () => `<div class="page">
+  <h1>😱 잘라낸 요소 37컷</h1>
   <p class="lead">놀람은 놀람끼리, 웃음은 웃음끼리 모았습니다. 원형 인셋 5컷은 배경이 투명한 PNG라 그대로 겹쳐 쓸 수 있습니다. 카드의 <b>받기</b>로 파일을 저장하세요.</p>
   <div class="filter" role="group" aria-label="분류">${CATS.map(([k, t], i) => `<button type="button" data-cat="${k}" aria-pressed="${i === 0}">${t} <small>${k === 'all' ? CROPS.length : CROPS.filter(c => c.cats.includes(k)).length}</small></button>`).join('')}</div>
   <div class="grid" id="facegrid">${CROPS.map(c => `<div class="card" data-cats="${c.cats.join(' ')}"><img loading="lazy" class="thumbimg${c.kind === 'circle' || c.id.startsWith('c-') ? ' circle' : ''}" src="${c.file}" data-zoom="${c.file}" alt="${esc(c.label)}"><div class="meta"><span>${esc(c.label)} <small style="color:var(--muted)">${c.src}</small></span><a href="${c.file}" download>받기</a></div></div>`).join('')}</div>
@@ -136,7 +140,9 @@ const PAGES = {
    <div class="ctl" id="ctl"></div>
   </div>
  </div>`,
- tlog: () => HTML.tlog, plan: () => HTML.plan, sfx: () => HTML.sfx, vlog: () => HTML.vlog
+ tlog: () => HTML.tlog, plan: () => HTML.plan, vlog: () => HTML.vlog,
+ faces: () => facesPage(), fonts: () => `<div class="page"><h1>🔤 폰트 점검표</h1><p class="lead">불러오는 중…</p></div>`,
+ sfx: () => sfxPage(), bgm: () => bgmPage(), vfx: () => vfxPage()
 };
 
 /* ── 표정 모음 필터 ── */
@@ -160,7 +166,8 @@ const LIVE = {
   shock: {name: '💥 충격 원형', text: '충격', fill: '#E21317', stroke: '#111111', sw: 5, size: 9, L: 'c-shock', bg: '#B71512', src: '09-4'}
 };
 const cur = {key: 'bolt', v: {}, up: {}};
-window.__goLive = k => { cur.key = k; go('thumb', 'live'); };
+let pendingTpl = null;
+window.__goLive = k => { pendingTpl = k; go('thumb', 'editor'); };
 function fileOf(id) { return cur.up[id] || CROPS.find(c => c.id === id)?.file || id; }
 function initLive() { setPreset(cur.key); }
 function setPreset(k) { cur.key = k; cur.v = {...LIVE[k]}; drawCtl(); drawStage(); }
@@ -218,6 +225,155 @@ function promptFor(k, v) {
   if (k === 'rise') return `16:9 유튜브 썸네일. 화면 하단에 큰 대사 글씨 「${v.text.replace(/\n/g, ' ')}」. 글자는 아래 ${v.c3} → 가운데 ${v.c2} → 위 ${v.fill} 로 밝아지는 세로 그라데이션이며, 글자 아래에서 주황 불꽃과 빛이 위로 솟구쳐 글씨가 바닥에서 튀어나오는 느낌. 글씨 덩어리는 아래쪽 기준으로 뒤로 20도 눕힌 원근감, ${v.stroke} 두꺼운 외곽선과 아래쪽 그림자. 영상에서는 0.9초 동안 아래에서 위로 늘어나며 등장.`;
   if (k === 'kkk') return `16:9 유튜브 썸네일. ${v.bolt} 색 번개가 화면을 위에서 아래로 사선으로 갈라 좌우 장면을 나눈다. 왼쪽과 오른쪽에 크게 웃는 인물(화면 세로 70% 이상). 오른쪽 인물 머리 위에 ${v.fill} 색 「${v.text}」가 부채꼴 아치 모양(글자마다 −30°~+30° 회전)으로 휘어져 있고 ${v.stroke} 두꺼운 외곽선. 밝고 유쾌한 예능 분위기.`;
   return `16:9 유튜브 썸네일. 왼쪽 위에 흰 테두리(6px) 원형 인셋, 지름은 화면 높이의 72%, 원 안에는 입을 크게 벌리고 충격받은 얼굴. 원 오른쪽 위에 흰색 폭발 말풍선과 검정 「!!」. 화면 아래 가운데에 ${v.fill} 사각 박스, 흰색 굵은 글씨 「${v.text}」, ${v.stroke} 테두리, 글자 간격 넓게. 배경은 ${v.bg} 붉은 무대 조명.`;
+}
+
+/* ── 표정 19 · 이미지 생성 프롬프트 ── */
+function facesPage() {
+  return `<div class="page">
+  <h1>🧑‍🎤 표정 19 · 이미지 생성 프롬프트</h1>
+  <p class="lead">사진마다 <b>표정 · 시선 · 고개 각도 · 구도 · 크기</b>를 적었습니다. 「경로 + 프롬프트 복사」를 누르면 이 컴퓨터의 사진 파일 경로가 맨 위에 붙어서 복사됩니다. 이미지 생성 도구에 그 사진을 같이 첨부하고 붙여 넣으세요. 파일은 <code>${esc(PIC_DIR)}</code> 에 같은 번호로 저장돼 있습니다.</p>
+  <p class="note">실존 인물의 얼굴을 그대로 복제하지 않고 “같은 포즈·표정의 새 인물”로 만들도록 프롬프트에 넣어 두었습니다.</p>
+  ${FACES.map(f => `<div class="facecard" id="${f.n}">
+    <div><img class="thumbimg${f.circle ? ' circle' : ''}" src="${f.file}" data-zoom="${f.file}" alt="${esc(f.label)}"><div class="row" style="display:flex;gap:6px;margin-top:6px"><a class="btn ghost" href="${f.file}" download="${f.n}_${f.id}.${f.circle ? 'png' : 'jpg'}">받기</a><button class="btn ghost" type="button" onclick="window.__goLive&&window.__goLive('${({'e-kkk-text':'kkk','e-kkk-laugh-l':'kkk','e-kkk-laugh-r':'kkk','c-shock':'shock','e-scream-face':'fire','e-redlips':'lips','e-dog-center':'dog','c-02-4':'hands','c-03-1-a':'circles','c-03-1-b':'circles','e-baseball-player':'sports','e-baseball-laugh':'sports','e-01-1-face':'bolt'})[f.id] || 'aura'}')">편집기</button></div></div>
+    <div><h3><span class="n">${f.n}</span>${esc(f.label)} <small style="color:var(--muted)">원본 ${f.src}</small></h3>
+      <dl class="spec"><dt>인물</dt><dd>${esc(f.who)}</dd><dt>표정</dt><dd>${esc(f.expr)}</dd><dt>시선·각도</dt><dd>${esc(f.gaze)}</dd><dt>구도</dt><dd>${esc(f.frame)}</dd><dt>크기</dt><dd>${esc(f.size)}</dd><dt>파일</dt><dd><code>${esc(f.local)}</code></dd></dl>
+      <div class="prompt" data-copy>참고 이미지 경로: ${esc(f.local)}\n${esc(f.prompt)}</div><button class="btn" data-copybtn>경로 + 프롬프트 복사</button>
+    </div></div>`).join('')}
+  </div>`;
+}
+/* ── 폰트 점검표 ── */
+async function initFonts() {
+  try {
+    const list = await (await fetch('fonts-audit.json?v=1')).json();
+    if (state.sub !== 'fonts') return;
+    const cnt = k => list.filter(x => x.status === k).length;
+    content.innerHTML = `<div class="page"><h1>🔤 폰트 점검표 (${list.length}종)</h1>
+     <p class="lead">편집 페이지에서 쓰는 폰트와 대화에서 추천된 폰트를 <code>/home/yh/Pictures/폰트들</code> 과 대조했습니다. 원래 있음 <b class="ok">${cnt('local')}</b> · 이번에 자동으로 받음 <b class="ok">${cnt('downloaded')}</b> · 수동 필요 <b class="${cnt('manual') ? 'no' : 'ok'}">${cnt('manual')}</b></p>
+     <p class="note">WOFF로만 받은 폰트는 웹페이지에서는 바로 쓰이지만, 프리미어·포토샵·캡컷 PC판에 설치하려면 오른쪽 「공식 받기」에서 TTF/OTF 원본을 받아야 합니다. 상세 보고서: <code>/home/yh/Pictures/폰트들/_폰트_점검_20261123.md</code></p>
+     <div class="tblwrap"><table><tr><th>폰트</th><th>상태</th><th>로컬 경로</th><th>쓰이는 곳</th><th>라이선스</th><th>공식 받기</th></tr>${list.map(x => `<tr><td><b>${esc(x.name)}</b></td><td class="${x.status === 'manual' ? 'no' : 'ok'}">${({local:'원래 있음', downloaded:'이번에 받음', manual:'수동 필요'})[x.status] || esc(x.status)}</td><td><code style="font-size:11px;word-break:break-all">${esc(x.localPath || '')}</code></td><td style="font-size:12px">${esc((x.usedIn || []).join(' · '))}</td><td style="font-size:12px">${esc(x.license || '')}</td><td>${x.manualUrl ? `<a href="${esc(x.manualUrl)}" target="_blank" rel="noopener">공식 받기 ↗</a>` : x.source && /^https?:/.test(x.source) ? `<a href="${esc(x.source)}" target="_blank" rel="noopener">출처 ↗</a>` : ''}</td></tr>`).join('')}</table></div></div>`;
+  } catch { content.innerHTML = '<div class="page">폰트 점검 파일을 읽지 못했습니다.</div>'; }
+}
+/* ── 효과음 30 ── */
+function sfxPage() {
+  const sits = [...new Set(SFX30.map(x => x.sit))];
+  return `<div class="page">
+  <h1>🎧 효과음 30개 · TOP 10 · 장면 배치</h1>
+  <p class="lead">유퀴즈·라디오스타의 편집 감각을 참고하되, 방송사 원본 효과음은 쓰지 않고 무료 효과음으로 재구성했습니다 (2026-11-23 조사). 음원명을 누르면 <b>듣기·다운로드 페이지</b>가 열립니다. 컷 길이·게인은 측정값이 아니라 편집 시작값입니다.</p>
+  <details class="fold" open><summary>🔐 사이트별 사용 조건 <small>Mixkit · Pixabay · YouTube Audio Library · Freesound</small></summary><div class="in">
+   <div class="tblwrap"><table><tr><th>사이트</th><th>상업 이용</th><th>출처 표시</th><th>판단</th></tr>
+   <tr><td><a href="https://mixkit.co/free-sound-effects/" target="_blank" rel="noopener">Mixkit</a></td><td>가능</td><td>불필요</td><td>1순위 · 원본 파일을 음원팩으로 재배포 금지</td></tr>
+   <tr><td><a href="https://pixabay.com/sound-effects/" target="_blank" rel="noopener">Pixabay</a></td><td>가능</td><td>불필요</td><td>2순위 · 단독 재배포 금지 · <b>Content ID 등록 표시 음원 제외</b></td></tr>
+   <tr><td>YouTube Audio Library</td><td>유튜브 수익화 가능</td><td>음원별 확인</td><td>보조 · 유튜브 밖 사용은 개별 확인</td></tr>
+   <tr><td><a href="https://freesound.org/" target="_blank" rel="noopener">Freesound</a></td><td>라이선스별</td><td>라이선스별</td><td>CC0만 추천 · CC BY-NC는 수익화 영상 제외 · 다운로드 로그인 필요</td></tr></table></div></div></details>
+  <details class="fold" open><summary>🏆 국뽕 영상 추천 TOP 10 <small>활용성·연출 다양성 기준 (조회수 순위 아님)</small></summary><div class="in">
+   <div class="tblwrap"><table><tr><th>순위</th><th>효과음</th><th>애니메이션</th><th>진입 시점</th></tr>${SFX_TOP10.map(([r, n, name, an, when]) => `<tr><td>${r}</td><td><a href="${sfx(n).url}" target="_blank" rel="noopener">${esc(name)}</a> <small>#${n}</small></td><td>${esc(an)}</td><td>${esc(when)}</td></tr>`).join('')}</table></div>
+   <p><b>기본 세트 5종:</b> 뿅(03) + 스크래치(05) + 두둥(07) + 띠리링(09) + 휙 전환(14). 통계·뉴스·댓글 구간은 별도 효과음.</p></div></details>
+  <details class="fold" open><summary>🎵 30개 전체 (상황별) <small>${sits.map(x => x + ' ' + SFX30.filter(y => y.sit === x).length).join(' · ')}</small></summary><div class="in">
+   ${sits.map(sit => `<h3 style="margin:12px 0 4px">${esc(sit)}</h3><div class="tblwrap"><table><tr><th>#</th><th>자막에 쓰는 말</th><th>효과음 (듣기·다운로드)</th><th>컷 / 시작 게인</th></tr>${SFX30.filter(x => x.sit === sit).map(x => `<tr><td>${x.n} ${x.em}</td><td>${esc(x.cap)}</td><td><a href="${x.url}" target="_blank" rel="noopener">${esc(x.name)}</a></td><td>${esc(x.cut)} / ${esc(x.gain)}</td></tr>`).join('')}</table></div>`).join('')}
+   <p class="hint" style="color:var(--muted)">27개는 Pixabay Content License 개별 페이지, 04·15·30은 Freesound CC0. 링크는 MP3 직접 주소가 아니라 듣기·다운로드 페이지입니다. 실제 재생·다운로드 성공은 별도 검증 전입니다.</p></div></details>
+  <details class="fold"><summary>📍 대본 단어 → 효과음 배치표 <small>상황별 빠른 배치</small></summary><div class="in">${HTML.sfx.replace(/^[\s\S]*?<div class="tblwrap">/, '<div class="tblwrap">').replace(/<h2>무료 효과음 소스[\s\S]*$/, '')}</div></details>
+  <details class="fold"><summary>🎚️ 17분 영상 적용 규칙 · 제외 항목 · 방송 사례</summary><div class="in">
+   <ul><li>순서: 화면 전환 시작 → 효과음 선진입 → 강조 글씨 등장.</li><li>내레이션 위에서는 짧게 자르고 더 낮춤. 표의 dB는 클립 게인 시작값 → 최종은 청취 + 피크 미터로.</li>
+   <li>제외: Pixabay <a href="https://pixabay.com/sound-effects/news-intro-news-background-477317/" target="_blank" rel="noopener">News Intro News Background</a> — Content ID Registered 표시 → 24번으로 교체.</li>
+   <li>Mixkit 휙 전환·뉴스 인트로·책장·칼 소리 카테고리는 확인했으나 개별 파일 주소가 구분되지 않아 30개 목록에서 뺌: <a href="https://mixkit.co/free-sound-effects/transition/" target="_blank" rel="noopener">전환</a> · <a href="https://mixkit.co/free-sound-effects/intro/" target="_blank" rel="noopener">인트로</a> · <a href="https://mixkit.co/free-sound-effects/page/" target="_blank" rel="noopener">책장</a> · <a href="https://mixkit.co/free-sound-effects/sword/" target="_blank" rel="noopener">칼</a></li>
+   <li>방송 사례: <a href="https://tvn.cjenm.com/ko/youquizontheblock/video/" target="_blank" rel="noopener">유퀴즈 tvN 공식 클립</a> · <a href="https://program.imbc.com/Youtube/1000794100000100000?playlistId=PLtqYizcPqxZRzQR5Nznnuq-Uqb6DqWg-s" target="_blank" rel="noopener">라디오스타 MBC 클립</a> · <a href="https://www.youtube.com/watch?v=RV20ftOnd4s" target="_blank" rel="noopener">쓸모왕 해외반응</a> — 효과음 삽입 시각은 <b>미확인</b>.</li>
+   <li>소리 비교용 예제 (추출·재사용 금지): <a href="https://www.youtube.com/watch?v=5986wJdFS9o&t=18s" target="_blank" rel="noopener">뿅 0:18</a> · <a href="https://www.youtube.com/watch?v=5986wJdFS9o&t=23s" target="_blank" rel="noopener">띠용 0:23</a> · <a href="https://www.youtube.com/watch?v=5986wJdFS9o&t=35s" target="_blank" rel="noopener">펀치 0:35</a> · <a href="https://www.youtube.com/watch?v=5986wJdFS9o&t=58s" target="_blank" rel="noopener">띠링 0:58</a></li></ul></div></details>
+  </div>`;
+}
+/* ── BGM ── */
+function bgmPage() {
+  return `<div class="page">
+  <h1>🎹 캐릭터 시그니처 음악 · 감성 BGM</h1>
+  <p class="lead">15번(캐릭터 시그니처 3곡)과 16번(내레이션용 3분 BGM 5곡)을 하나의 음악 라이브러리로 정리한 기록입니다. 총 8곡 · 11개 음원 버전 · 기술 검사 33/33 PASS (2026-11-23 생성).</p>
+  <p class="note">음원 파일(MP3·WAV·MIDI, 전체 ZIP 92.5MB / 경량 12.8MB)과 음악 대시보드는 ChatGPT 작업 결과물로 받았고, <b>이 컴퓨터와 GitHub에서는 아직 찾지 못했습니다.</b> 파일을 이 컴퓨터에 내려받으면 여기에 플레이어를 붙일 수 있습니다. 사람의 청취 검수와 Ubuntu 예약 자동 실행은 아직 안 했습니다.</p>
+  <details class="fold" open><summary>🎧 최근 릴스 음악 트렌드 → 편곡 요소</summary><div class="in"><div class="tblwrap"><table><tr><th>트렌드</th><th>편곡 요소</th><th>추천 콘텐츠</th></tr>
+   <tr><td>⚡ 배속·비트 전환</td><td>초반 짧은 훅, 박자에 맞춘 효과음</td><td>코미디·캐릭터 등장</td></tr><tr><td>💗 감성·추억</td><td>부드러운 피아노, 여유 있는 코드</td><td>연애·재회</td></tr><tr><td>🌴 밝은 여행</td><td>경쾌한 리듬, 기타·말렛 악기</td><td>여행·먹방</td></tr><tr><td>🧸 오리지널 캐릭터 음악</td><td>반복 가능한 짧은 멜로디</td><td>채널 고유 브랜딩</td></tr></table></div>
+   <p>제작 원칙: 기존 인기곡의 멜로디나 음원을 가져오지 않고 새 멜로디 + 직접 합성한 악기 소리. 오리지널 제작이 저작권 등록이나 Content ID 결과를 보장하지는 않습니다.</p></div></details>
+  <details class="fold" open><summary>🌸 15. 캐릭터 시그니처 음악 3곡</summary><div class="in"><div class="tblwrap"><table><tr><th>음악</th><th>BPM</th><th>등장음</th><th>반복음</th><th>활용</th></tr>${BGM_SIG.map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</table></div></div></details>
+  <details class="fold" open><summary>🎧 16. 내레이션용 3분 BGM 5곡 <small>BPM이 높을수록 경쾌한 장면</small></summary><div class="in"><div class="tblwrap"><table><tr><th>음악</th><th>BPM</th><th>추천 장면</th><th>템포 막대</th></tr>${BGM_3MIN.map(([n, b, u]) => `<tr><td>${esc(n)}</td><td>${b}</td><td>${esc(u)}</td><td><div style="height:10px;width:${b / 1.4}%;background:var(--acc2);border-radius:5px"></div></td></tr>`).join('')}</table></div></div></details>
+  <details class="fold"><summary>📅 11월 25~27일 자동 제작 계획</summary><div class="in"><div class="tblwrap"><table><tr><th>날짜</th><th>작업</th><th>현황</th></tr><tr><td>11/25</td><td>Ubuntu에서 음원 자동 재생성</td><td>실행 스크립트 준비</td></tr><tr><td>11/26</td><td>내레이션 혼합·청취 검수</td><td class="no">미실시</td></tr><tr><td>11/27</td><td>영상 적용·최종 출력</td><td class="no">미실시</td></tr></table></div>
+   <p>상업 이용: 외부 녹음 샘플 없이 제작한 음원이라 본인 수익화 영상·광고에 활용 가능. 다만 우연한 유사성, 배타적 저작권 등록, Content ID 승인까지 보증하지 않음. MIDI가 있으니 마음에 드는 멜로디를 골라 실제 K-POP 악기로 재편곡하는 단계로 이어갈 수 있음.</p></div></details>
+  </div>`;
+}
+/* ── 장면별 연출 프리셋 ── */
+const vstate = {key: 'hook', v: null};
+function vText(t, v, hl) {
+  return esc(t).replace(/\*([^*]+)\*/g, (m, w) => hl ? `<span class="hl-${v.hl || 'marker'}" style="--hl:${v.acc}">${w}</span>` : `<span style="color:${v.acc}">${w}</span>`);
+}
+function vRender(v, mini) {
+  const sw = mini ? '.6cqw' : '.6cqw';
+  const base = `font-family:'${v.font}';color:${v.fill};--sw:${sw};--st:${v.stroke}`;
+  let h = '';
+  const bsrc = v.bgUrl || v.bg, gcls = v.bgmode === 'gray' ? ' gray' : '';
+  if (bsrc) h += v.bgVideo ? `<video class="vbg${gcls}" src="${bsrc}" autoplay muted loop playsinline></video>` : `<img class="vbg${gcls}" src="${bsrc}" alt="">`;
+  else h += `<div class="vbg${gcls}" style="background:radial-gradient(circle at 30% 30%,#2b3d66 0,transparent 55%),radial-gradient(circle at 75% 70%,#5a1730 0,transparent 55%),linear-gradient(135deg,#0c1424,#160a12)"></div>${mini ? '' : '<div style="position:absolute;right:2%;bottom:2%;font-size:1.6cqw;color:#ffffff55">영상 자리 · 오른쪽에서 내 영상/사진 올리기</div>'}`;
+  if (v.bgmode === 'dim' || v.bgmode === 'gray') h += '<div class="dim"></div>';
+  const plate = (top, inner, extra = '') => v.bgmode === 'white' || v.bgmode === 'blur' ? `<div class="vplate ${v.bgmode}" style="top:${top};${extra}">${inner}</div>` : `<div class="vplate" style="top:${top};${extra}">${inner}</div>`;
+  const k = v.key, A = 'a-' + v.anim;
+  if (k === 'hook') h += plate('26%', `<div class="vk ${A}" style="position:relative;${base}"><div class="stk" style="font-size:4cqw;opacity:.9">${esc(v.sub)}</div><div class="stk" style="font-size:9cqw">${vText(v.main, v)}</div></div>`);
+  if (k === 'wow') h += plate('30%', `<div class="vk ${A}" style="position:relative;${base}"><div class="stk" style="font-size:3.6cqw">${esc(v.sub)}</div><div class="stk" style="font-size:11cqw;position:relative;display:inline-block">${vText(v.main, v)}${v.fire ? `<img class="fxpng" src="${FXP}flame.png" alt="" style="width:16cqw;right:-9cqw;top:-8cqw">` : ''}${v.sparkle ? `<img class="fxpng a-spark" src="${FXP}sparkle.png" alt="" style="width:10cqw;left:-7cqw;top:-4cqw">` : ''}</div></div>`);
+  if (k === 'twist') h += `<div class="vk ${A}" style="top:30%;${base}"><div style="font-size:3.6cqw" class="stk">${esc(v.sub)}</div><div class="a-stamp" style="display:inline-block;background:${v.box || '#E21317'};padding:.5cqw 3cqw;border:.6cqw solid #111;box-shadow:1cqw 1cqw 0 #000a;font-size:11cqw">${vText(v.main, v)}</div></div>`;
+  if (k === 'stat') { const bars = String(v.bars || '').split(',').map(x => x.trim()).filter(Boolean).map(x => { const m = x.match(/^(.*?)\s*(\d+(?:\.\d+)?)$/); return m ? [m[1], +m[2]] : [x, 0]; }); const mx = Math.max(...bars.map(b => b[1]), 1);
+    h += plate('8%', `<div style="${base};display:grid;grid-template-columns:1fr 1.2fr;gap:3cqw;align-items:center"><div class="vk ${A}" style="position:relative;text-align:left"><div class="stk" style="font-size:3.2cqw">${esc(v.sub)}</div><div class="stk" style="font-size:12cqw;color:${v.acc}"><span data-count="${+v.num || 0}">${mini ? (+v.num || 0) : 0}</span><small style="font-size:5cqw">${esc(v.unit || '')}</small></div><div class="stk" style="font-size:5cqw">${vText(v.main, v)}</div></div><div>${bars.map(([n, val], i) => `<div style="display:flex;align-items:center;gap:1cqw;margin:1.2cqw 0;font-size:2.6cqw"><span style="width:9cqw" class="stk">${esc(n)}</span><div style="flex:1;background:#ffffff22;border-radius:1cqw;height:3.4cqw;overflow:hidden"><div class="a-swipeL" style="animation-delay:${.15 * i}s;height:100%;width:${val / mx * 100}%;background:${i === 0 ? v.acc : '#ffffff88'}"></div></div><b class="stk">${val}</b></div>`).join('')}</div></div><div style="font-size:1.8cqw;color:#fff9;margin-top:1cqw">출처·연도 표시 자리</div>`, 'bottom:8%');}
+  if (k === 'keyword') h += `<div class="vk a-side" style="bottom:7%;${base}"><span class="stk" style="font-size:4.4cqw;background:#0008;padding:.6cqw 2cqw;border-radius:1cqw">${vText(v.main, v, true)}</span></div>`;
+  if (k === 'vs') { const vc = `--vc:${v.vsColor}`; h += `<div style="position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr"><div class="a-swipeL" style="background:linear-gradient(135deg,#1b2a4a,#0b1020);display:flex;align-items:center;justify-content:center;font-size:8cqw;${base}"><span class="stk">${esc(v.left)}</span></div><div class="a-swipeR" style="background:linear-gradient(135deg,#4a0f1e,#200810);display:flex;align-items:center;justify-content:center;font-size:8cqw;${base}"><span class="stk">${esc(v.right)}</span></div></div>
+    <div class="vk a-stamp" style="top:28%;font-family:'${v.font}';font-size:${v.vsSize || 18}cqw;${vc};animation-delay:.25s"><span class="vs-${v.vsStyle}" style="-webkit-text-stroke:.35cqw ${v.vsStroke}">${esc(v.main)}</span></div>
+    <div class="vk a-slideup" style="bottom:6%;${base};font-size:4cqw;animation-delay:.6s"><span class="stk">${esc(v.sub)}</span></div>`; }
+  if (k === 'comment') h += `<div class="a-side" style="position:absolute;left:12%;right:12%;top:20%;background:#fff;border-radius:2cqw;padding:2.4cqw 3cqw;box-shadow:0 2cqw 4cqw #0008;font-family:'${v.font}';color:${v.fill}"><div style="display:flex;align-items:center;gap:1.5cqw;font-size:2.6cqw"><span style="width:5cqw;height:5cqw;border-radius:50%;background:linear-gradient(135deg,#ffb347,#ff5e62);display:inline-block"></span><b>${esc(v.nick)}</b> ${esc(v.flag)} <span style="color:#888;font-size:2cqw">3일 전</span></div><div style="font-size:3.4cqw;margin:1.4cqw 0;font-family:system-ui;color:#333"><span class="${mini ? '' : 'typing'}">${esc(v.orig)}</span></div><div style="font-size:4.6cqw;font-weight:800">${vText(v.main, {...v, hl: 'marker'}, true)}</div><div style="font-size:2.4cqw;color:#666;margin-top:1cqw">👍 ${esc(v.likes)} · 번역</div></div>`;
+  if (k === 'news') h += `<div class="a-flip" style="position:absolute;left:14%;right:14%;top:14%;bottom:14%;background:#f7f3ea;border-radius:1cqw;padding:3cqw;box-shadow:0 2cqw 4cqw #000a;font-family:'${v.font}';color:${v.fill}"><div style="font-size:2.2cqw;color:#7a6a55;border-bottom:.3cqw solid #111;padding-bottom:1cqw;font-family:system-ui;font-weight:700">${esc(v.src)}</div><div style="font-size:6cqw;font-weight:900;line-height:1.25;margin-top:3cqw">${vText(v.main, {...v, hl: 'marker'}, true)}</div><div style="font-size:2cqw;color:#7a6a55;margin-top:3cqw;font-family:system-ui">원문 그대로 · 번역이면 “번역” 표시</div></div>`;
+  if (k === 'end') h += `<div class="${A}" style="position:absolute;left:18%;right:18%;bottom:12%;border:.5cqw solid ${v.acc};border-radius:1.6cqw;background:#000a;backdrop-filter:blur(8px);padding:2cqw 3cqw;${base}"><div style="font-size:3cqw;color:${v.acc}">${esc(v.sub)}</div><div class="stk" style="font-size:6.4cqw">${vText(v.main, v)}</div></div>`;
+  return h;
+}
+const FXP = '../../research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/effects/';
+function vfxPage() {
+  return `<div class="page" style="max-width:1300px">
+  <h1>🎬 장면별 연출 프리셋</h1>
+  <p class="lead">위에서 장면을 고르면 큰 미리보기가 바로 바뀝니다. 오른쪽에서 글씨·색·폰트·배경을 바꾸면 <b>즉시</b> 반영되고, 아래 접기 메뉴에 사용 장면·예시 문장·타이밍·추천 효과음이 있습니다.</p>
+  <div class="vcards" role="group" aria-label="장면">${VFX.map(p => `<button type="button" class="vcard" data-vk="${p.key}" aria-pressed="${p.key === vstate.key}"><div class="mini">${vRender({...p}, true)}</div><b>${esc(p.name)}</b></button>`).join('')}</div>
+  <div class="vwork"><div class="vleft"><div class="vstage" id="vstage"></div><div class="vbtns"><button class="btn" type="button" id="vreplay">▶ 등장 다시 보기</button><button class="btn ghost" type="button" id="vcopy">설정 복사</button></div></div><div class="ctl" id="vctl"></div></div>
+  <div id="vinfo"></div></div>`;
+}
+function initVfx() {
+  content.querySelectorAll('[data-vk]').forEach(b => b.onclick = () => { vstate.key = b.dataset.vk; vstate.v = null; content.querySelectorAll('[data-vk]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); vSetup(); });
+  $('#vreplay').onclick = vDraw;
+  $('#vcopy').onclick = e => copy(JSON.stringify(vstate.v, null, 1), e.target);
+  vSetup();
+}
+function vSetup() {
+  const p = VFX.find(x => x.key === vstate.key); vstate.v = vstate.v || {...p};
+  const v = vstate.v, F = ['Black Han Sans','G마켓산스','레코체','SB어그로','카페24써라운드','쿠키런블랙','Do Hyeon','Jua','Noto Serif KR','정선아리랑뿌리','잉크립퀴드','Anton','Bangers'];
+  const field = (k, lab, type, extra = '') => type === 'text' ? `<label>${lab}<input type="text" data-v="${k}" value="${esc(v[k] ?? '')}"></label>` : type === 'color' ? `<label>${lab}<input type="color" data-v="${k}" value="${v[k]}"></label>` : type === 'range' ? `<label>${lab} <output>${v[k]}</output><input type="range" data-v="${k}" value="${v[k]}" ${extra}></label>` : '';
+  let h = `<h3>${esc(p.name)}</h3>`;
+  if ('sub' in p) h += field('sub', p.key === 'vs' ? '아래 비교 항목' : '작은 윗줄', 'text');
+  h += field('main', p.key === 'vs' ? 'VS 글자' : '큰 글씨 (*강조어*)', 'text');
+  if (p.key === 'vs') h += field('left', '왼쪽', 'text') + field('right', '오른쪽', 'text') + `<label>VS 스타일<select data-v="vsStyle">${[['metal','금속'],['neon','네온'],['fire','불꽃'],['plain','단색']].map(([a, b]) => `<option value="${a}" ${v.vsStyle === a ? 'selected' : ''}>${b}</option>`).join('')}</select></label><div class="row">${field('vsColor', 'VS 색', 'color')}${field('vsStroke', 'VS 외곽', 'color')}</div>` + field('vsSize', 'VS 크기', 'range', 'min="8" max="30" step=".5"').replace('<output>undefined</output>', `<output>${v.vsSize || 18}</output>`).replace('value=""', `value="${v.vsSize || 18}"`);
+  if (p.key === 'stat') h += field('num', '큰 숫자', 'text') + field('unit', '단위', 'text') + field('bars', '막대 (이름 값, …)', 'text');
+  if (p.key === 'comment') h += field('nick', '닉네임', 'text') + field('flag', '국기', 'text') + field('orig', '원문', 'text') + field('likes', '좋아요', 'text');
+  if (p.key === 'news') h += field('src', '매체 · 날짜', 'text');
+  h += `<label>폰트<select data-v="font">${F.map(f => `<option ${f === v.font ? 'selected' : ''} style="font-family:'${f}'">${f}</option>`).join('')}</select></label>`;
+  h += `<div class="row">${field('fill', '글자색', 'color')}${field('acc', '강조색', 'color')}</div><div class="row">${field('stroke', '외곽선', 'color')}${p.key === 'twist' ? field('box', '박스 색', 'color') : ''}</div>`;
+  if (p.key === 'keyword') h += `<label>강조 방식<select data-v="hl">${[['marker','형광펜'],['neon','네온 밑줄'],['circle','손그림 동그라미']].map(([a, b]) => `<option value="${a}" ${v.hl === a ? 'selected' : ''}>${b}</option>`).join('')}</select></label>`;
+  if (p.key === 'wow') h += `<label class="chk" style="display:flex;gap:6px"><input type="checkbox" data-v="fire" ${v.fire ? 'checked' : ''}> 강조어 불꽃 PNG</label><label class="chk" style="display:flex;gap:6px"><input type="checkbox" data-v="sparkle" ${v.sparkle ? 'checked' : ''}> 반짝이</label>`;
+  h += `<label>배경 사진·영상 (내 파일)<input type="file" id="vbgup" accept="image/*,video/*"></label>`;
+  h += `<label>글씨 배경<select data-v="bgmode">${[['none','투명'],['white','흰색 15%'],['blur','반투명 + 블러'],['dim','어둡게'],['gray','흑백 정지']].map(([a, b]) => `<option value="${a}" ${v.bgmode === a ? 'selected' : ''}>${b}</option>`).join('')}</select></label>`;
+  if (!['vs','comment','news','keyword'].includes(p.key)) h += `<label>등장 방식<select data-v="anim">${[['punch','펀치 확대'],['pop','뿅 팝'],['shake','흔들림'],['stamp','스탬프'],['slideup','아래서 올라옴'],['side','옆에서'],['count','카운트업']].map(([a, b]) => `<option value="${a}" ${v.anim === a ? 'selected' : ''}>${b}</option>`).join('')}</select></label>`;
+  h += `<p class="imgcap">추천 효과음: ${p.sfx.map(n => `<a href="${sfx(n).url}" target="_blank" rel="noopener">#${n} ${esc(sfx(n).name)}</a>`).join(' · ')}</p>`;
+  const ctl = $('#vctl'); ctl.innerHTML = h;
+  const up = ctl.querySelector('#vbgup'); if (up) up.onchange = () => { const f = up.files[0]; if (!f) return; v.bgUrl = URL.createObjectURL(f); v.bgVideo = f.type.startsWith('video'); vDraw(); };
+  ctl.querySelectorAll('[data-v]').forEach(el => { const fn = () => { v[el.dataset.v] = el.type === 'checkbox' ? el.checked : el.type === 'range' ? +el.value : el.value; const o = el.parentElement.querySelector('output'); if (o) o.textContent = el.value; vDraw(); }; el.addEventListener('input', fn); el.addEventListener('change', fn); });
+  $('#vinfo').innerHTML = `<details class="fold" open><summary>📌 ${esc(p.name)} · 언제 쓰나 <small>${esc(p.use)}</small></summary><div class="in">
+   <h3>예시 문장 (누르면 미리보기에 적용)</h3><div class="chips">${p.ex.map(e => `<button type="button" class="chip" data-ex="${esc(e)}">${esc(e)}</button>`).join('')}</div>
+   <h3 style="margin-top:10px">타이밍</h3><ol>${p.steps.map(s => `<li>${esc(s)}</li>`).join('')}</ol>
+   <h3>추천 효과음</h3><ul>${p.sfx.map(n => { const x = sfx(n); return `<li><a href="${x.url}" target="_blank" rel="noopener">#${n} ${esc(x.name)}</a> — ${esc(x.cap)} · ${esc(x.cut)} · ${esc(x.gain)}</li>`; }).join('')}</ul>
+   <p class="note">주의: ${esc(p.dont)}</p></div></details>
+   ${VFX.filter(x => x.key !== p.key).map(x => `<details class="fold"><summary>${esc(x.name)} <small>${esc(x.use)}</small></summary><div class="in"><p>예시: ${x.ex.map(esc).join(' / ')}</p><ol>${x.steps.map(s => `<li>${esc(s)}</li>`).join('')}</ol><p>효과음: ${x.sfx.map(n => `<a href="${sfx(n).url}" target="_blank" rel="noopener">#${n} ${esc(sfx(n).name)}</a>`).join(' · ')}</p><button class="btn ghost" type="button" data-open="${x.key}">이 장면 열기 ↑</button></div></details>`).join('')}`;
+  $('#vinfo').querySelectorAll('[data-ex]').forEach(b => b.onclick = () => { const t = b.dataset.ex; const words = t.split(' '); v.main = p.key === 'vs' ? v.main : (words.length > 1 ? words.slice(0, -1).join(' ') + ' *' + words.at(-1) + '*' : '*' + t + '*'); vSetup(); });
+  $('#vinfo').querySelectorAll('[data-open]').forEach(b => b.onclick = () => { content.querySelector(`[data-vk="${b.dataset.open}"]`).click(); content.scrollTo({top: 0, behavior: 'smooth'}); });
+  vDraw();
+}
+function vDraw() {
+  const st = $('#vstage'); if (!st) return; st.innerHTML = vRender(vstate.v, false);
+  const c = st.querySelector('[data-count]'); if (c) { const to = +c.dataset.count, t0 = performance.now(); const step = t => { const k = Math.min(1, (t - t0) / 800); c.textContent = Math.round(to * k); if (k < 1 && c.isConnected) requestAnimationFrame(step); }; requestAnimationFrame(step); }
 }
 
 /* ── 시작 ── */

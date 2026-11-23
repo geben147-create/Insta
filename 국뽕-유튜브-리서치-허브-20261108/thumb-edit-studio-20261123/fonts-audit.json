@@ -1,0 +1,367 @@
+[
+ {
+  "name": "SB 어그로 (SBAggro B)",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "broadcast index.html",
+   "대화 추천"
+  ],
+  "status": "local",
+  "localPath": "/home/yh/Pictures/폰트들/SB 어그로/SBAggroB.ttf",
+  "source": "https://sandbox.co.kr/font",
+  "manualUrl": "",
+  "license": "조건 확인(폴더에 라이선스 표기 없음) — 공식 페이지에서 확인 필요"
+ },
+ {
+  "name": "쿠키런 Black",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html"
+  ],
+  "status": "local",
+  "localPath": "/home/yh/Pictures/폰트들/⭐ 쿠키런 [게임산업 금지·딩벳 상업 금지]/CookieRun Black [게임산업 금지·딩벳 상업 금지].ttf",
+  "source": "https://www.cookierunfont.com/",
+  "manualUrl": "",
+  "license": "게임산업 사용 금지·딩벳 상업 금지(기존 폴더 표기)"
+ },
+ {
+  "name": "G마켓 산스 Bold",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "broadcast index.html",
+   "thumbnail-layer-lab/index.html"
+  ],
+  "status": "local",
+  "localPath": "/home/yh/Pictures/폰트들/Gmarket Sans [단독판매 금지]/GmarketSansTTFBold [단독판매 금지].ttf",
+  "source": "https://corp.gmarket.com/fonts/",
+  "manualUrl": "",
+  "license": "단독판매 금지(기존 폴더 표기)"
+ },
+ {
+  "name": "정선아리랑뿌리체",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "broadcast index.html",
+   "thumbnail-layer-lab/index.html",
+   "대화 추천"
+  ],
+  "status": "local",
+  "localPath": "/home/yh/Pictures/폰트들/정선아리랑뿌리체 [수정·재배포·판매 금지]/정선아리랑뿌리체TTF [수정·재배포·판매 금지].ttf",
+  "source": "https://www.jeongseon.go.kr/portal/jeongseongun/generalsituation/font",
+  "manualUrl": "",
+  "license": "수정·재배포·판매 금지(기존 폴더 표기)"
+ },
+ {
+  "name": "정선아리랑혼체",
+  "usedIn": [
+   "thumbnail-analysis.html",
+   "thumbnail-layer-lab/index.html"
+  ],
+  "status": "local",
+  "localPath": "/home/yh/Pictures/폰트들/정선아리랑혼체 [수정·재배포·판매 금지]/정선아리랑혼체TTF [수정·재배포·판매 금지].ttf",
+  "source": "https://www.jeongseon.go.kr/portal/jeongseongun/generalsituation/font",
+  "manualUrl": "",
+  "license": "수정·재배포·판매 금지(기존 폴더 표기)"
+ },
+ {
+  "name": "정선아리랑체 (JeongseonArirang)",
+  "usedIn": [
+   "broadcast index.html",
+   "thumbnail-analysis.html",
+   "대화 추천"
+  ],
+  "status": "local",
+  "localPath": "/home/yh/Pictures/폰트들/⭐ 정선아리랑체 [수정·재배포·판매 금지]/정선아리랑체TTF [수정·재배포·판매 금지].ttf",
+  "source": "https://www.jeongseon.go.kr/portal/jeongseongun/generalsituation/font",
+  "manualUrl": "",
+  "license": "수정·재배포·판매 금지(기존 폴더 표기)"
+ },
+ {
+  "name": "여기어때 잘난체 (Jalnan)",
+  "usedIn": [
+   "broadcast index.html",
+   "video-edit-lab.html",
+   "대화 추천"
+  ],
+  "status": "local",
+  "localPath": "/home/yh/Pictures/폰트들/여기어때 잘난체 2 [단독판매 금지]/Jalnan2TTF [단독판매 금지].ttf",
+  "source": "https://gccompany.co.kr/font",
+  "manualUrl": "",
+  "license": "단독판매 금지(기존 폴더 표기)"
+ },
+ {
+  "name": "여기어때 잘난체 고딕 (JalnanGothic)",
+  "usedIn": [
+   "broadcast index.html",
+   "thumbnail-analysis.html",
+   "thumbnail-layer-lab/index.html",
+   "video-edit-lab.html"
+  ],
+  "status": "local",
+  "localPath": "/home/yh/Pictures/폰트들/여기어때 잘난체 고딕 [단독판매 금지]/JalnanGothicTTF [단독판매 금지].ttf",
+  "source": "https://gccompany.co.kr/font",
+  "manualUrl": "",
+  "license": "단독판매 금지(기존 폴더 표기). 저장소 broadcast-font-subtitle-master-20261121/JalnanGothic.ttf 에도 사본 있음"
+ },
+ {
+  "name": "나눔손글씨 붓 (Nanum Brush Script)",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "thumbnail-layer-lab/index.html",
+   "대화 추천"
+  ],
+  "status": "local",
+  "localPath": "/home/yh/Pictures/폰트들/나눔글꼴 [단독판매 금지]/NanumBrush [단독판매 금지].ttf",
+  "source": "https://hangeul.naver.com/fonts/search?f=nanum",
+  "manualUrl": "",
+  "license": "단독판매 금지(기존 폴더 표기, OFL)"
+ },
+ {
+  "name": "나눔명조 (Nanum Myeongjo)",
+  "usedIn": [
+   "broadcast index.html"
+  ],
+  "status": "local",
+  "localPath": "/home/yh/Pictures/폰트들/나눔글꼴 [단독판매 금지]/NanumMyeongjoExtraBold [단독판매 금지].ttf",
+  "source": "https://hangeul.naver.com/font",
+  "manualUrl": "",
+  "license": "단독판매 금지(기존 폴더 표기, OFL). Regular/Bold/ExtraBold 모두 있음"
+ },
+ {
+  "name": "레코체 (Recipekorea)",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "thumbnail-layer-lab/index.html",
+   "대화 추천"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/레코체 [판매·재배포·수정 금지]/Recipekorea.woff",
+  "source": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff",
+  "manualUrl": "http://recipekorea.com/bbs/board.php?bo_table=ld_0308&wr_id=2479",
+  "license": "개인·상업 무료, 폰트 판매·재배포·수정 불가, 상표등록 불가(눈누 394). WOFF만 받음 — TTF/OTF는 공식 게시판에서 수동"
+ },
+ {
+  "name": "카페24 아네모네 (Cafe24Ohsquare)",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/카페24 아네모네 [폰트 유료판매 금지]/Cafe24Ohsquare.woff",
+  "source": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff",
+  "manualUrl": "https://fonts.cafe24.com/",
+  "license": "상업 무료, 폰트 유료판매 금지, 수정 시 OFL 적용(눈누 363). WOFF만 받음"
+ },
+ {
+  "name": "카페24 써라운드",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "broadcast index.html",
+   "대화 추천"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/카페24 써라운드 [폰트 유료판매 금지]/Cafe24Ssurround.woff",
+  "source": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff",
+  "manualUrl": "https://fonts.cafe24.com/",
+  "license": "상업 무료, 폰트 유료판매 금지, 수정 시 OFL 적용(눈누 669). WOFF만 받음"
+ },
+ {
+  "name": "양진체",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/양진체 [수정·판매 금지]/yangjin.woff",
+  "source": "https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff",
+  "manualUrl": "http://supernovice.org/font/",
+  "license": "개인·기업 상업 무료, 제작자 외 수정·판매 금지, 배포 형태 그대로 사용(눈누 330). WOFF만 받음"
+ },
+ {
+  "name": "티머니 둥근바람 ExtraBold",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/티머니 둥근바람 [판매·개작재배포 금지]/TmoneyRoundWindExtraBold.woff",
+  "source": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff",
+  "manualUrl": "https://www.tmoney.co.kr/aeb/cmnctn/ci/ci.dev",
+  "license": "무료, 폰트 판매·임의 수정/개작 재배포 금지, 불법·허위광고 사용 금지(눈누 458). Regular도 함께 받음. WOFF만 받음"
+ },
+ {
+  "name": "평창평화체 Bold",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/평창평화체 [수정배포·판매 금지]/PyeongChangPeace-Bold.woff2",
+  "source": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2",
+  "manualUrl": "https://www.pc.go.kr/portal/intro/intro-summary/pcFont",
+  "license": "무료 배포 가능, 대가 요구 금지, 수정 배포·판매 금지(눈누 950). Light도 함께 받음. WOFF2만 받음"
+ },
+ {
+  "name": "잉크립퀴드체",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/잉크립퀴드체 [장평·평체·기울기 변형 금지]/InkLipquid.woff",
+  "source": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff",
+  "manualUrl": "https://drive.google.com/drive/folders/1t4DZdt5nv2p1hUKOYbChKcY436-zaqOC",
+  "license": "개인·상업 무료, 장평·평체 변형·기울기 금지(눈누 68). WOFF만 받음 — 원본은 제작사 공유 드라이브(수동)"
+ },
+ {
+  "name": "강원교육튼튼체 ExtraBold",
+  "usedIn": [
+   "thumbnail-layer-lab/index.html",
+   "대화 추천"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/강원교육튼튼체 [유료양도·판매 금지]/GangwonEduPowerExtraBoldA.woff",
+  "source": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff",
+  "manualUrl": "https://www.gwe.go.kr/main/content.do?key=m2307211207715",
+  "license": "누구나 무료·영상/CI/BI 가능, 유료 양도·판매 금지, 출처 표기 권장(눈누 805). WOFF만 받음"
+ },
+ {
+  "name": "넥슨 Lv.1 고딕",
+  "usedIn": [
+   "thumbnail-layer-lab/index.html"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/넥슨 Lv.1 고딕 [수정·판매 금지]/NEXON Lv1 Gothic OTF.woff",
+  "source": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON%20Lv1%20Gothic%20OTF.woff",
+  "manualUrl": "https://brand.nexon.com/ko/ci-brand-guidelines/typeface",
+  "license": "상업 무료, 수정·편집 금지, 폰트 유료판매 금지, 출처 표기 권장(눈누 432). Bold도 함께 받음. WOFF만 받음"
+ },
+ {
+  "name": "경기천년제목",
+  "usedIn": [
+   "broadcast index.html"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/경기천년제목 [조건 확인]/GyeonggiTitleM.woff",
+  "source": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff",
+  "manualUrl": "https://www.gg.go.kr/",
+  "license": "조건 확인 — 저장소의 눈누 727 링크는 현재 눈누 홈으로 리다이렉트(폐지됨). 경기도청 누리집에서 '경기천년체' 검색해 원본·약관 확인. WOFF(Medium)만 받음"
+ },
+ {
+  "name": "온글잎 콘콘체",
+  "usedIn": [
+   "broadcast index.html"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/온글잎 콘콘체 [조건 확인]/Ownglyph_corncorn-Rg.woff2",
+  "source": "https://cdn.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2",
+  "manualUrl": "https://www.ownglyph.com/trial/c9d001d1-c8ac-4e41-95fd-b4e7383160aa",
+  "license": "저작권 (주)보이저엑스·손글씨 제공자, 결과물 프로모션 활용 가능(눈누 1546). 세부 조건 확인 필요. WOFF2만 받음 — TTF는 온글잎 사이트(로그인 필요할 수 있음)"
+ },
+ {
+  "name": "Anton",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "대화 추천"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/Anton [OFL 무료·단독판매 금지]/Anton-Regular.ttf",
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf",
+  "manualUrl": "",
+  "license": "SIL OFL 1.1 — 상업 무료, 폰트 단독 판매 금지(OFL.txt 동봉)"
+ },
+ {
+  "name": "Bangers",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "대화 추천"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/Bangers [OFL 무료·단독판매 금지]/Bangers-Regular.ttf",
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/bangers/Bangers-Regular.ttf",
+  "manualUrl": "",
+  "license": "SIL OFL 1.1 (OFL.txt 동봉)"
+ },
+ {
+  "name": "Bebas Neue",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/Bebas Neue [OFL 무료·단독판매 금지]/BebasNeue-Regular.ttf",
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/BebasNeue-Regular.ttf",
+  "manualUrl": "",
+  "license": "SIL OFL 1.1 (OFL.txt 동봉)"
+ },
+ {
+  "name": "검은고딕 (Black Han Sans)",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "thumbnail-layer-lab/index.html",
+   "대화 추천"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/검은고딕 Black Han Sans [OFL 무료·단독판매 금지]/BlackHanSans-Regular.ttf",
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/blackhansans/BlackHanSans-Regular.ttf",
+  "manualUrl": "",
+  "license": "SIL OFL 1.1 (OFL.txt 동봉, 눈누 106)"
+ },
+ {
+  "name": "주아 (Jua, 배달의민족 주아체)",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "broadcast index.html",
+   "대화 추천"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/주아 Jua [OFL 무료·단독판매 금지]/Jua-Regular.ttf",
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/jua/Jua-Regular.ttf",
+  "manualUrl": "",
+  "license": "SIL OFL 1.1 (OFL.txt 동봉)"
+ },
+ {
+  "name": "도현 (Do Hyeon)",
+  "usedIn": [
+   "대화 추천"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/도현 Do Hyeon [OFL 무료·단독판매 금지]/DoHyeon-Regular.ttf",
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/dohyeon/DoHyeon-Regular.ttf",
+  "manualUrl": "",
+  "license": "SIL OFL 1.1 (OFL.txt 동봉)"
+ },
+ {
+  "name": "Noto Serif KR (Black 포함)",
+  "usedIn": [
+   "typography-refs/editor.css+guide.html",
+   "thumbnail-analysis.html",
+   "대화 추천"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/Noto Serif KR [OFL 무료·단독판매 금지]/NotoSerifKR[wght].ttf",
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifkr/NotoSerifKR%5Bwght%5D.ttf",
+  "manualUrl": "",
+  "license": "SIL OFL 1.1 — 가변 폰트(굵기 200~900, Black=900 포함)"
+ },
+ {
+  "name": "Noto Sans KR",
+  "usedIn": [
+   "broadcast index.html"
+  ],
+  "status": "downloaded",
+  "localPath": "/home/yh/Pictures/폰트들/Noto Sans KR [OFL 무료·단독판매 금지]/NotoSansKR[wght].ttf",
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf",
+  "manualUrl": "",
+  "license": "SIL OFL 1.1 — 가변 폰트(100~900). index.html 기본 본문 폰트"
+ }
+]

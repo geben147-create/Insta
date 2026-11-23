@@ -8,11 +8,11 @@
 @font-face{font-family:"ref-950";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2");font-display:swap}
 @font-face{font-family:"ref-374";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSArirangPPURI-RegularA1.woff");font-display:swap}
 @font-face{font-family:"ref-68";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff");font-display:swap}
-@font-face{font-family:"ref-Anton";src:url("https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm3Kz-Co.ttf");font-display:swap}
-@font-face{font-family:"ref-Bangers";src:url("https://fonts.gstatic.com/s/bangers/v25/FeVQS0BTqb0h60ACH55Q3Q.ttf");font-display:swap}
-@font-face{font-family:"ref-Bebas+Neue";src:url("https://fonts.gstatic.com/s/bebasneue/v16/JTUSjIg69CK48gW7PXoo9Wlhzg.ttf");font-display:swap}
-@font-face{font-family:"ref-106";src:url("https://fonts.gstatic.com/s/blackhansans/v24/ea8Aad44WunzF9a-dL6toA8r8kqSK3A.ttf");font-display:swap}
-@font-face{font-family:"ref-Nanum+Brush+Script";src:url("https://fonts.gstatic.com/s/nanumbrushscript/v26/wXK2E2wfpokopxzthSqPbcR5_gVaxazCiapv.ttf");font-display:swap}
+@font-face{font-family:"ref-Anton";src:url("https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm0K0.ttf");font-display:swap}
+@font-face{font-family:"ref-Bangers";src:url("https://fonts.gstatic.com/s/bangers/v25/FeVQS0BTqb0h60ACL5k.ttf");font-display:swap}
+@font-face{font-family:"ref-Bebas+Neue";src:url("https://fonts.gstatic.com/s/bebasneue/v16/JTUSjIg69CK48gW7PXooxW4.ttf");font-display:swap}
+@font-face{font-family:"ref-106";src:url("https://fonts.gstatic.com/s/blackhansans/v24/ea8Aad44WunzF9a-dL6toA8r8nqV.ttf");font-display:swap}
+@font-face{font-family:"ref-Nanum+Brush+Script";src:url("https://fonts.gstatic.com/s/nanumbrushscript/v26/wXK2E2wfpokopxzthSqPbcR5_gVaxazyjg.ttf");font-display:swap}
 #ty22 .ty22-item[hidden]{display:none}
 #ty22 .ty22-item>div{min-width:0}
 #ty22 .ty22-jump a[aria-current]{background:#204d91;color:white}
@@ -29,18 +29,14 @@
 #ty22 .reference-editor .choices span{overflow:visible;white-space:normal}
 #ty22 .reference-editor .live[hidden]{display:none}
 #ty22 .reference-editor .reference-sample{font-size:min(var(--size),9.5cqw);text-align:center;padding:5px 9px;line-height:1.08;letter-spacing:var(--tracking)}
-#ty22 .reference-editor .reference-line{filter:var(--shadow);font-size:inherit;overflow-wrap:anywhere}
+#ty22 .reference-editor .reference-line{display:block;font-size:inherit;overflow-wrap:anywhere}
 #ty22 .reference-editor .reference-ink{display:inline;font-size:inherit;color:var(--ink);-webkit-text-stroke:var(--edge);paint-order:stroke fill}
-#ty22 #T01 .reference-line:nth-child(2){font-size:1.1em}
-#ty22 #T01 .reference-line:first-child{margin-right:2em}
-#ty22 #T01 .reference-line:nth-child(3){margin-left:2em}
 #ty22 .reference-editor button.ty22-color{background:#fff;color:#33445e;border:1px solid #aebfd6;font-weight:700;cursor:pointer}
 #ty22 .reference-editor button.ty22-color:hover{border-color:#175ac6}
 @font-face{font-family:"ref-669";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff");font-display:swap}
-@font-face{font-family:"ref-Jua";src:url("https://fonts.gstatic.com/s/jua/v18/co3KmW9ljjATdOrd.ttf");font-display:swap}
-@font-face{font-family:"ref-Noto+Serif+KR";src:url("https://fonts.gstatic.com/s/notoserifkr/v32/3JnoSDn90Gmq2mr3blnHaTZXbOtLJDvui3JOnchPf_5x658.ttf");font-display:swap}
-#ty22 .reference-editor .reference-sample{position:relative;white-space:normal;padding:12px 20px;font-size:min(var(--size),8.2cqw)}
-#ty22 .reference-editor .reference-line{transform:var(--transform);line-height:1.14}
+@font-face{font-family:"ref-Jua";src:url("https://fonts.gstatic.com/s/jua/v18/co3KmW9ljjAjcw.ttf");font-display:swap}
+#ty22 .reference-editor .reference-sample{position:relative;white-space:normal;padding:12px 20px;font-size:min(var(--size),var(--fit,8.2cqw))}
+#ty22 .reference-editor .reference-line{line-height:1.14}
 #ty22 #T01 .reference-sample{transform:none}
 #ty22 .reference-editor .reference-ink{white-space:pre-wrap}
 #ty22 .reference-editor .gradient-ink{display:inline-grid;max-width:100%}
@@ -51,12 +47,10 @@
 #ty22 .reference-editor .reference-effect.right{right:0;transform:scaleX(-1)}
 #ty22 #T04 .reference-effect.left{display:none}
 #ty22 #T04 .reference-effect.right{width:7%;right:2%;top:4%}
-#ty22 #T05 .reference-effect{width:8%;bottom:14%}
-#ty22 .reference-editor .reference-badge{position:relative;display:table;margin:0 0 .45em 10%;padding:.16em .45em;font:900 .46em/1.2 system-ui;background:#22191a;color:#fff;transform:rotate(-4deg);z-index:1}
-#ty22 #T06 .reference-line{text-align:left;margin-left:9%;filter:var(--shadow) drop-shadow(0 0 2px #fff)}
-#ty22 #T07 .reference-line:first-of-type{text-align:left;margin-left:9%}
-#ty22 #T08 .reference-sample{border:8px solid transparent;border-image:repeating-linear-gradient(135deg,var(--frame) 0 14px,#080808 14px 28px) 8;margin-top:5px}
-#ty22 #T08 .reference-badge{margin-left:0;background:#fff;color:#151515;border:2px solid #161616;border-radius:4px;transform:none}
+#ty22 #T05 .reference-effect{width:auto;height:.8em;bottom:auto;top:8px}
+#ty22 .reference-editor .reference-badge{position:relative;display:table;margin:0 auto .3em;padding:.12em .45em;font:700 .42em/1.2 system-ui,sans-serif;background:var(--badge-bg);color:var(--badge-ink);border-radius:.15em;z-index:1}
+#ty22 .reference-editor .reference-badge.stroked{font:inherit;font-size:.62em;line-height:1.15;border:.09em solid var(--badge-edge);border-radius:.12em;-webkit-text-stroke:.12em var(--badge-edge);paint-order:stroke fill;margin:0 0 .25em}
+#ty22 #T08 .reference-sample{border:8px solid transparent;border-image:repeating-linear-gradient(135deg,var(--frame) 0 14px,var(--frame2) 14px 28px) 8;margin-top:5px}
 #ty22 .palette-controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 #ty22 .palette-controls .ty22-colors{flex-basis:100%;margin-bottom:0}
 #ty22 .palette-controls label{display:inline-flex;gap:4px;align-items:center}
@@ -70,3 +64,16 @@
 #ty22 .ty22-stage .choices{margin:0}
 #ty22 .ty22-item{align-items:start}
 @media(max-width:760px){#ty22 .ty22-stage{top:0;max-height:58vh;padding:4px 0 6px;box-shadow:0 8px 10px -8px #0006}#ty22 .ty22-stage .ty22-photo img{max-height:110px}#ty22 .ty22-stage figcaption{display:none}}
+
+/* 2026-11-23 원본 픽셀 실측 재현: 외곽선 색은 글자 조각마다(--edge), 바깥 테두리·그림자는 줄 단위 filter(JS), 미리보기 배경은 원본 글자 주변색(--bg) */
+@font-face{font-family:"ref-monsori";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff");font-display:swap}
+@font-face{font-family:"ref-jalnan";src:url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff");font-display:swap}
+@font-face{font-family:"ref-Do+Hyeon";src:url("https://fonts.gstatic.com/s/dohyeon/v21/TwMN-I8CRRU2zM86HFE3.ttf");font-display:swap}
+#ty22 .reference-editor .reference-sample{background:var(--bg,#2a2d33);border-radius:8px;margin-top:4px;padding:14px 12px 16px}
+#ty22 .reference-editor button.ty22-color b{font-weight:800;color:#1c2d43}
+#ty22 .reference-editor .reference-text{display:block;position:relative;z-index:1;font-size:inherit;overflow:visible;white-space:normal}
+#ty22 .reference-editor .reference-inline-effect{display:inline-block;height:1em;width:auto;vertical-align:-.08em;pointer-events:none}
+#ty22 .reference-editor .reference-inline-effect.right{transform:scaleX(-1)}
+#ty22 #T03 .reference-inline-effect{height:1.05em}
+#ty22 #T03 .reference-inline-effect.right{transform:none}
+#ty22 #T07 .reference-inline-effect{height:1.15em;vertical-align:-.15em}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>통합 썸네일 편집기</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Jua&family=Bangers&family=Anton&family=Nanum+Brush+Script&family=Noto+Serif+KR:wght@900&display=swap">
+<link rel="stylesheet" href="editor.css?v=2">
+</head>
+<body>
+<div id="app">
+  <aside id="lib" aria-label="소재 라이브러리">
+    <div class="libtabs" role="tablist"></div>
+    <div id="libbody"></div>
+  </aside>
+  <section id="center">
+    <div class="toolbar">
+      <b id="tplname">템플릿을 고르세요</b>
+      <span class="sp"></span>
+      <label class="tgl">참고 원본 겹쳐보기 <input type="range" id="overlay" min="0" max="90" value="0"></label>
+      <button type="button" class="b" id="copyPrompt">🧾 프롬프트 복사</button>
+      <button type="button" class="b hot" id="savePng">🖼 PNG 저장 (1280×720)</button>
+    </div>
+    <div class="stagewrap"><div id="stage" aria-label="썸네일 미리보기. 레이어를 눌러 선택하고 끌어서 이동합니다."></div></div>
+    <div class="refrow">
+      <figure id="refbox"><img id="refimg" alt="참고 원본"><figcaption id="refcap">참고 원본</figcaption></figure>
+      <div class="layers"><div class="lh">레이어 <small>(위가 앞)</small></div><ol id="layerlist"></ol>
+        <div class="addrow">
+          <button type="button" class="b s" data-add="text">＋ 글씨</button>
+          <button type="button" class="b s" data-add="bolt">＋ 번개</button>
+          <button type="button" class="b s" data-add="bang">＋ !! 말풍선</button>
+          <button type="button" class="b s" data-add="fireL">＋ 불꽃 양옆</button>
+          <button type="button" class="b s" data-add="frame">＋ 테두리</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <aside id="insp" aria-label="속성">
+    <div id="inspbody"></div>
+  </aside>
+</div>
+<div id="toast" hidden></div>
+<script src="data.js?v=2"></script>
+<script src="editor.js?v=4"></script>
+</body>
+</html>

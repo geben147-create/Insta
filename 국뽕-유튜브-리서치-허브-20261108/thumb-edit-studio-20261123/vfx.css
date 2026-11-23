@@ -1,0 +1,55 @@
+/* 장면별 연출 프리셋 (Higgsfield식: 위 프리셋 카드 → 큰 미리보기 + 오른쪽 조절) */
+.vcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:10px 0 14px}
+.vcard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px;cursor:pointer;color:var(--ink);text-align:left}
+.vcard[aria-pressed=true]{border-color:var(--acc2);box-shadow:0 0 0 2px var(--acc2)}
+.vcard .mini{aspect-ratio:16/9;border-radius:8px;overflow:hidden;position:relative;background:#000;container-type:inline-size}
+.vcard b{display:block;font-size:12.5px;margin-top:5px}
+.vwork{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(260px,1fr);gap:14px;align-items:start}
+.vwork .vleft{position:sticky;top:6px;z-index:3;background:var(--bg);padding-bottom:6px}
+.vstage{position:relative;aspect-ratio:16/9;overflow:hidden;border-radius:10px;background:#000;container-type:inline-size;border:1px solid #ffffff1a}
+.vstage .vbg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.vstage .vbg.gray{filter:grayscale(1) contrast(1.1)}
+.vstage .dim{position:absolute;inset:0;background:#000a}
+.vbtns{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.vk{position:absolute;left:0;right:0;text-align:center;line-height:1.1;paint-order:stroke fill}
+.vk .stk{-webkit-text-stroke:var(--sw) var(--st);paint-order:stroke fill}
+.vplate{position:absolute;left:6%;right:6%;border-radius:1.4cqw;padding:2cqw 3cqw}
+.vplate.white{background:#ffffff26}
+.vplate.blur{background:#ffffff1f;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.hl-marker{background:linear-gradient(transparent 55%,var(--hl) 55%);background-size:0% 100%;background-repeat:no-repeat;animation:mark .5s .4s forwards;padding:0 .1em}
+@keyframes mark{to{background-size:100% 100%}}
+.hl-neon{text-shadow:0 0 .2em var(--hl),0 0 .5em var(--hl);border-bottom:.08em solid var(--hl)}
+.hl-circle{position:relative;display:inline-block}
+.hl-circle:after{content:"";position:absolute;inset:-.15em -.3em;border:.07em solid var(--hl);border-radius:50%;transform:rotate(-4deg)}
+.fxpng{position:absolute;pointer-events:none}
+/* 등장 애니메이션 */
+.a-punch{animation:punch .45s cubic-bezier(.2,1.5,.4,1) both}
+@keyframes punch{from{transform:scale(1.6);filter:blur(6px);opacity:0}to{transform:none;filter:none;opacity:1}}
+.a-pop{animation:pop .5s ease-out both}
+@keyframes pop{0%{transform:scale(.9);opacity:0}60%{transform:scale(1.1);opacity:1}100%{transform:scale(1)}}
+.a-shake{animation:shake .35s linear both}
+@keyframes shake{0%,100%{transform:none}20%{transform:translate(-1.2cqw,.4cqw) rotate(-1deg)}40%{transform:translate(1.2cqw,-.4cqw) rotate(1deg)}60%{transform:translate(-.8cqw,0)}80%{transform:translate(.8cqw,0)}}
+.a-stamp{animation:stamp .35s cubic-bezier(.2,1.6,.4,1) both}
+@keyframes stamp{from{transform:scale(2.2) rotate(-8deg);opacity:0}to{transform:rotate(-3deg);opacity:1}}
+.a-swipeL{animation:swl .45s cubic-bezier(.2,1.2,.4,1) both}.a-swipeR{animation:swr .45s cubic-bezier(.2,1.2,.4,1) both}
+@keyframes swl{from{transform:translateX(-110%)}to{transform:none}}@keyframes swr{from{transform:translateX(110%)}to{transform:none}}
+.a-flip{animation:flip .6s ease-out both;transform-origin:50% 0}
+@keyframes flip{from{transform:perspective(60cqw) rotateX(-85deg);opacity:0}to{transform:none;opacity:1}}
+.a-slideup{animation:slideup .5s ease-out both}
+@keyframes slideup{from{transform:translateY(40%);opacity:0}to{transform:none;opacity:1}}
+.a-side{animation:side .45s ease-out both}
+@keyframes side{from{transform:translateX(30%);opacity:0}to{transform:none;opacity:1}}
+.a-spark{animation:spark 1.2s ease-in-out .3s infinite}
+@keyframes spark{0%,100%{opacity:.3;transform:scale(.7) rotate(0)}50%{opacity:1;transform:scale(1.1) rotate(20deg)}}
+.typing{display:inline-block;overflow:hidden;white-space:nowrap;border-right:.08em solid currentColor;animation:typing 1.2s steps(40,end) both,caret .7s step-end infinite}
+@keyframes typing{from{max-width:0}to{max-width:100%}}
+@keyframes caret{50%{border-color:transparent}}
+.vs-metal{background:linear-gradient(180deg,#fff 0%,var(--vc) 45%,#7a5a10 55%,var(--vc) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.vs-neon{color:#fff;text-shadow:0 0 .1em #fff,0 0 .25em var(--vc),0 0 .6em var(--vc),0 0 1.2em var(--vc)}
+.vs-fire{background:linear-gradient(0deg,#ff3d00,var(--vc) 60%,#fff6c8);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 .25em #ff5a00)}
+.vs-plain{color:var(--vc)}
+.vfold summary b{color:#fff}
+@media(max-width:820px){.vwork{grid-template-columns:1fr}.vwork .vleft{top:0}}
+@media(prefers-reduced-motion:reduce){.a-punch,.a-pop,.a-shake,.a-stamp,.a-swipeL,.a-swipeR,.a-flip,.a-slideup,.a-side,.a-spark,.typing,.hl-marker{animation:none!important}.hl-marker{background-size:100% 100%}}
+.vcard .mini *{animation:none!important}
+.vcard .mini .hl-marker{background-size:100% 100%}

@@ -4907,6 +4907,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "centara-pattaya-childrens-pool",
+    "group": "호텔 이미지",
+    "title": "센타라 그랜드 미라지 파타야 · 어린이 물놀이",
+    "caption": "small waves, big days.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/centara-pattaya-childrens-pool-01.webp",
+        "alt": "센타라 그랜드 미라지 파타야 · 어린이 물놀이"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Centara Grand Mirage Beach Resort Pattaya",
+        "https://www.trip.com/hotels/pattaya-hotel-detail-685705/hotel/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "hakone-tenyu-onsen",
     "group": "호텔 이미지",
     "title": "하코네 고와키엔 텐유 · 새벽 온천",

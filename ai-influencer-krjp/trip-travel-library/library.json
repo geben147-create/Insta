@@ -4949,6 +4949,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "bell-rock-europa-park-lighthouse",
+    "group": "호텔 이미지",
+    "title": "호텔 벨 록 · 유로파파크 인근 등대의 저녁",
+    "caption": "follow the lighthouse glow.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/bell-rock-europa-park-lighthouse-01.webp",
+        "alt": "호텔 벨 록 · 유로파파크 인근 등대의 저녁"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Europa-Park Hotel Bell Rock",
+        "https://www.trip.com/hotels/rust-hotel-detail-10942182/4-sterne-superior-erlebnishotel-bell-rock-europa-park-erlebnis-resort/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "canaves-oia-river-jacuzzi",
     "group": "호텔 이미지",
     "title": "카나베스 이아 스위트 · 칼데라 전망 자쿠지",

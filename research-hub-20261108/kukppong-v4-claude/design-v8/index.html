@@ -68,7 +68,7 @@ button.on{background:var(--red)}
 .card .val{font:54px "Reko","BHS","Black Han Sans",sans-serif;color:#fff;-webkit-text-stroke:6px #111;paint-order:stroke fill;opacity:0;transform:translateY(20px);transition:.4s .8s}
 .go .card .val{opacity:1;transform:none}
 .card .val b{color:var(--hl)}
-.vs{position:absolute;left:50%;top:470px;line-height:1;text-box:trim-both cap alphabetic;padding-right:12px;transform:translate(-50%,-50%) scale(3);opacity:0;
+.vs{position:absolute;left:50%;top:470px;line-height:normal;padding-right:12px;transform:translate(-50%,-50%) scale(3);opacity:0;
  font:230px/1 "BHS","Black Han Sans",sans-serif;color:var(--red);-webkit-text-stroke:12px #fff;paint-order:stroke fill;
  text-shadow:0 10px 0 #0006,0 0 40px #E2131788;font-style:italic;letter-spacing:-6px}
 .go .vs{animation:stamp .35s .3s cubic-bezier(.3,1.6,.5,1) forwards}
@@ -101,7 +101,7 @@ button.on{background:var(--red)}
 
 /* ---- 5 wow ---- */
 .wow{position:absolute;left:0;right:0;top:330px;text-align:center}
-.wow .s{background:#fff;color:#111;font:44px "Reko","BHS","Black Han Sans",sans-serif;padding:16px 30px;border-radius:10px;margin-bottom:16px}
+.wow .s{background:#fff;color:#111;font:44px "Reko","BHS","Black Han Sans",sans-serif;padding:16px 30px;border-radius:10px;margin-bottom:44px}
 .wow .m{font:170px/1.1 "Reko","BHS","Black Han Sans",sans-serif;color:#fff;-webkit-text-stroke:14px #111;paint-order:stroke fill;transform:scale(0)}
 .wow .m b{color:var(--red);-webkit-text-stroke:14px #fff;position:relative}
 .go .wow .m{animation:pop .5s cubic-bezier(.3,1.5,.5,1) forwards}
@@ -110,6 +110,7 @@ button.on{background:var(--red)}
 
 @font-face{font-family:"PPURI";src:local("JS Arirang PPURI"),local("정선아리랑 뿌리"),local("JSArirangPPURI-Regular"),url("fonts/JSArirangPPURI.ttf") format("truetype")}
 @font-face{font-family:"Monsori";src:local("TmonMonsori"),local("티몬체"),local("TmonMonsori Black"),url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff") format("woff")}
+@font-face{font-family:"PCPeace";src:local("PyeongChang Peace Bold"),local("평창 평화체 Bold"),local("PyeongChangPeace-Bold"),url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2") format("woff2");font-weight:700}
 @font-face{font-family:"DoHyeon";src:local("Do Hyeon"),local("DoHyeon-Regular")}
 /* ---- 7 brush verdict (editor px x2.5 for 1920) ---- */
 .brush{position:absolute;left:90px;bottom:60px;font-family:"PPURI",serif;color:#040404;-webkit-text-stroke:30px #FBFAF8;paint-order:stroke fill;
@@ -167,7 +168,23 @@ button.on{background:var(--red)}
 /* ---- rules: meaning-unit line breaks + centered text in boxes ---- */
 .canvas *{word-break:keep-all;overflow-wrap:normal;text-wrap:balance}
 .canvas .k,.canvas mark,.canvas .nb{white-space:nowrap}
-.twbox,.wow .s,.lb .lab,.news .logo{display:inline-flex;align-items:center;justify-content:center;line-height:1;text-box:trim-both cap alphabetic}
+.twbox,.wow .s,.lb .lab{display:inline-block;line-height:normal}
+/* ---- 11 gold praise (editor 110px -> x1.36) ---- */
+.gold{position:absolute;left:0;right:0;bottom:70px;height:330px;display:flex;align-items:center;justify-content:center}
+.gold .ln{position:relative;transform:rotate(-1.4deg) skewX(-7deg);font:700 150px/1.45 "PCPeace","BHS",sans-serif;letter-spacing:-4px;white-space:nowrap;opacity:0;transform-origin:center}
+.go .gold .ln{animation:gpop .45s cubic-bezier(.3,1.5,.5,1) forwards}
+@keyframes gpop{0%{opacity:0;transform:rotate(-1.4deg) skewX(-7deg) scale(.7)}100%{opacity:1;transform:rotate(-1.4deg) skewX(-7deg) scale(1)}}
+.gold .L{display:block;white-space:nowrap}
+.gold .L+.L{position:absolute;left:0;top:0}
+.gold .c{display:inline-block}
+.gold .L1 .c{color:#D1A13B;-webkit-text-stroke:9.8px #D1A13B;paint-order:stroke fill;text-shadow:0 4px .9px #7B5019,0 2px .9px #7B5019}
+.gold .L2 .c{color:#3C280B;-webkit-text-stroke:6.5px #3C280B;paint-order:stroke fill}
+.gold .L3 .c{background:linear-gradient(180deg,#F9D56B 0%,#FFF7B8 54%,#F8DD78 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.gold .glow{position:absolute;inset:-10% -4%;background:radial-gradient(closest-side,#FFE79A,transparent);opacity:0;filter:blur(65px);transition:opacity .5s .2s}
+.go .gold .glow{opacity:.42}
+.gold svg.fx{position:absolute;left:-30%;top:-60%;width:160%;height:220%;overflow:visible;pointer-events:none}
+.gold .st{animation:tw 1.6s ease-in-out infinite alternate}
+@keyframes tw{from{opacity:.25}to{opacity:.9}}
 .notes{background:var(--card);border-radius:10px;padding:14px 18px;margin-top:10px;font-size:14px}
 .notes li{margin:2px 0}
 code{background:#0004;padding:1px 6px;border-radius:4px}
@@ -232,6 +249,13 @@ footer{color:var(--mut);text-align:center;font-size:13px;padding:20px}
  <div class="stage"><div class="canvas" data-scene="wow"></div></div>
 </section>
 
+<section id="s-gold">
+ <h2>🏆 ⑪ 금빛 칭찬 문구 <small style="color:var(--mut);font:13px system-ui">평창평화체 · 하단</small></h2>
+ <p class="spec">칭찬·감탄 문구(예: “대단해, 한국식 PC방”). 110px · 자간 -3px · 글자 기울기 -7° · 줄 회전 -1.4° · 줄 간격 1.45. 금빛 그라데이션 #F9D56B→#FFF7B8(밝은 띠 54%)→#F8DD78, 외곽선 #3C280B 2.4px + 바깥 선 #D1A13B 1.2px, 입체 3px 그림자 #7B5019. 글자별 크기·회전 변화, 사방 별 34개 · 금빛 가루 200개 · 뒤쪽 빛 0.42. 배경 투명.</p>
+ <div class="row"><button data-play="gold">▶ 다시 재생</button></div>
+ <div class="stage"><div class="canvas" data-scene="gold"></div></div>
+</section>
+
 <section id="s-brush">
  <h2>🖌️ ⑥ 대본 한마디 평가 <small style="color:var(--mut);font:13px system-ui">좌하단 · 정선아리랑뿌리체</small></h2>
  <p class="spec">작은 머리말(45%) + 큰 본문 56px, 먹색 #040404 + 흰 외곽선 #FBFAF8 6px, <b>마지막 낱말만 반전</b>(흰 #FCFCFC + 검정 외곽선 #080404), 오른쪽 아래 검정 그림자 4.5px.</p>
@@ -288,6 +312,7 @@ footer{color:var(--mut);text-align:center;font-size:13px;padding:20px}
  </div>
 </section>
 </main>
+<section><h2>이전 디자인(지우지 않고 그대로 유지)</h2><ul class="notes"><li><a style="color:#9cf" href="../design-klab/">klab 스타일 시안 (자막 띠·헤드라인·말풍선·그래프·지도)</a></li><li>V5·V6·V7(페이퍼 스티커) 문서는 로컬 <code>제작규칙_V4/디자인_V5~V7</code> 폴더에 그대로 있음</li></ul></section>
 <footer>국뽕 디자인 V8 · 2026-11-24 · by Claude Code</footer>
 
 <template id="flagsvg">
@@ -367,6 +392,17 @@ const scenes={
    let i=0,cur=null;const iv=setInterval(()=>{if(i>=q.length){clearInterval(iv);return}const x=q[i++];
      if(typeof x==='string'){t.append(x)}else{const m=document.createElement('mark');t.append(m);[...x.k].forEach((ch,j)=>setTimeout(()=>m.append(ch),j*55))}},55);
  },
+ gold:c=>{
+   // per-char: [char, size%, rotate°]  (editor rule: 1st/2nd big 118%, 3rd 94%, after space 123%/96%)
+   const chars=[['대',118,-0.8],['단',118,-0.3],['해',94,0],[',',100,0],[' ',100,0],['한',123,-0.5],['국',96,0],['식',100,0],[' ',100,0],['P',100,0],['C',100,0],['방',108,0]];
+   const line=cls=>`<span class="L ${cls}">`+chars.map(([ch,sz,r])=>`<span class="c" style="font-size:${sz}%;transform:rotate(${r}deg)">${ch===' '?'&nbsp;':ch}</span>`).join('')+'</span>';
+   let x=51024;const rnd=()=>{x|=0;x=x+0x6D2B79F5|0;let t=Math.imul(x^x>>>15,1|x);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296};
+   let fx='';
+   for(let i=0;i<200;i++)fx+=`<circle cx="${(rnd()*100).toFixed(2)}%" cy="${(rnd()*100).toFixed(2)}%" r="2.9" fill="#FFE9A0" opacity="${(0.55*rnd()+0.2).toFixed(2)}"/>`;
+   for(let i=0;i<34;i++){const cx=rnd()*100,cy=rnd()*100,sz=15*(0.6+rnd()*0.8);fx+=`<svg x="${cx.toFixed(1)}%" y="${cy.toFixed(1)}%" overflow="visible"><path class="st" style="animation-delay:${(rnd()*1.6).toFixed(2)}s" d="M0 ${-sz}L${sz*.22} ${-sz*.22} ${sz} 0 ${sz*.22} ${sz*.22} 0 ${sz} ${-sz*.22} ${sz*.22} ${-sz} 0 ${-sz*.22} ${-sz*.22}z" fill="#FFF7B8" opacity=".9"/></svg>`}
+   c.innerHTML=bgHTML()+`<div class="gold"><div class="ln"><div class="glow"></div><svg class="fx">${fx}</svg>${line('L1')}${line('L2')}${line('L3')}</div></div>`;
+   requestAnimationFrame(()=>requestAnimationFrame(()=>c.classList.add('go')));
+ },
  brush:c=>{
    c.innerHTML=bgHTML()+`<div class="brush"><span class="h">한마디로</span><span class="b">재수 없는 <span class="inv">스타일</span></span></div>`;
    requestAnimationFrame(()=>requestAnimationFrame(()=>c.classList.add('go')));
@@ -400,7 +436,18 @@ const scenes={
      setTimeout(()=>{[[-40,-30],[95,-50],[100,40]].forEach(([x,y],k)=>{b.insertAdjacentHTML('beforeend',SPARK.replace('class="spark"',`class="spark" style="left:${x}%;top:${y}px;width:${60-k*10}px;height:${60-k*10}px"`));setTimeout(()=>b.querySelectorAll('.spark')[k].classList.add('go'),k*120)})},300)}));
  }
 };
-function play(k){const c=document.querySelector(`[data-scene="${k}"]`);c.classList.remove('go','tw');scenes[k](c)}
+
+// ---- exact ink centering: measure real glyph ink (not font line box) and balance padding ----
+const _cv=document.createElement('canvas').getContext('2d');
+function inkOffset(el){const cs=getComputedStyle(el);_cv.font=`${cs.fontStyle} ${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`;
+  const m=_cv.measureText(el.textContent.trim()||'가');const fa=m.fontBoundingBoxAscent,fd=m.fontBoundingBoxDescent,ia=m.actualBoundingBoxAscent,id=m.actualBoundingBoxDescent;
+  return ((fa-ia)+(fa+id))/2-(fa+fd)/2;} // >0 : ink sits below line-box center
+function centerInk(root){
+  root.querySelectorAll('.twbox,.wow .s,.lb .lab').forEach(el=>{el.style.paddingTop=el.style.paddingBottom='';const cs=getComputedStyle(el);
+    const P=(parseFloat(cs.paddingTop)+parseFloat(cs.paddingBottom))/2,d=inkOffset(el);el.style.paddingTop=(P-d)+'px';el.style.paddingBottom=(P+d)+'px'});
+  root.querySelectorAll('.vs').forEach(el=>{el.style.marginTop=(-inkOffset(el))+'px'});
+}
+function play(k){const c=document.querySelector(`[data-scene="${k}"]`);c.classList.remove('go','tw');scenes[k](c);centerInk(c)}
 function fit(){document.querySelectorAll('.stage').forEach(s=>{s.firstElementChild.style.transform=`scale(${s.clientWidth/1920})`})}
 addEventListener('resize',fit);
 document.querySelectorAll('[data-play]').forEach(b=>b.onclick=()=>play(b.dataset.play));
@@ -408,7 +455,10 @@ document.querySelectorAll('.bgbtn').forEach(b=>b.onclick=()=>{document.querySele
 document.getElementById('vf').onchange=e=>{const f=e.target.files[0];if(!f)return;videoURL=URL.createObjectURL(f);Object.keys(scenes).forEach(play)};
 // play each scene when it scrolls into view
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)play(e.target.querySelector('.canvas').dataset.scene)}),{threshold:.5});
-document.fonts.ready.then(()=>{fit();document.querySelectorAll('.stage').forEach(s=>io.observe(s))});
+// #solo=<scene>  → 1920×1080 full-frame render of one scene (for PNG checks / export)
+const solo=(location.hash.match(/solo=(\w+)/)||[])[1];
+if(solo){if(/still/.test(location.hash)){const st0=document.createElement('style');st0.textContent='*,*::before,*::after{animation-duration:0s!important;animation-delay:0s!important;transition:none!important}';document.head.append(st0)}const tpl=document.getElementById('flagsvg');document.body.innerHTML='';document.body.append(tpl);document.body.style.cssText='margin:0;background:#000;overflow:hidden';const st=document.createElement('div');st.className='stage';st.style.cssText='width:1920px;height:1080px;border-radius:0';st.innerHTML=`<div class="canvas" data-scene="${solo}"></div>`;document.body.append(st);document.fonts.ready.then(()=>{fit();play(solo)})}
+else document.fonts.ready.then(()=>{fit();document.querySelectorAll('.stage').forEach(s=>io.observe(s))});
 fit();
 </script>
 </body>

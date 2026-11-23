@@ -5356,7 +5356,7 @@
     "group": "호텔 이미지",
     "title": "가르다랜드 호텔 인근 · 장미 아케이드와 놀이공원",
     "caption": "a little closer to the fun.",
-    "video": "",
+    "video": "media/gardaland-hotel-rose-portico-park-walk.mp4",
     "stills": [
       {
         "src": "media/gardaland-hotel-rose-portico-park-walk-01.webp",
@@ -5370,7 +5370,8 @@
         "https://www.trip.com/hotels/san-pietro-in-cariano-hotel-detail-5217551/gardaland-hotel/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/gardaland-hotel-rose-portico-park-walk-01.webp"
   },
   {
     "id": "ginzanso-snowfall-open-air-onsen",
@@ -6181,7 +6182,7 @@
     "group": "호텔 이미지",
     "title": "샹그릴라 파리 · 비 갠 뒤의 에펠탑 야경",
     "caption": "paris glows after the rain.",
-    "video": "",
+    "video": "media/shangri-la-paris-rain-eiffel-tower.mp4",
     "stills": [
       {
         "src": "media/shangri-la-paris-rain-eiffel-tower-01.webp",
@@ -6195,7 +6196,8 @@
         "https://www.trip.com/hotels/paris-hotel-detail-730333/shangri-la-paris/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/shangri-la-paris-rain-eiffel-tower-01.webp"
   },
   {
     "id": "sheraton-tokyo-bay-pool-water-ripples",
@@ -6319,6 +6321,27 @@
         "숙소 예약",
         "Tambo del Inka, a Luxury Collection Resort & Spa",
         "https://www.trip.com/hotels/urubamba-hotel-detail-3070360/hotel/?locale=en-US"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
+    "id": "thompson-seattle-elliott-bay-rain-night",
+    "group": "호텔 이미지",
+    "title": "톰슨 시애틀 · 비 갠 뒤 엘리엇만 야경",
+    "caption": "the bay holds the last lights.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/thompson-seattle-elliott-bay-rain-night-01.webp",
+        "alt": "톰슨 시애틀 · 비 갠 뒤 엘리엇만 야경"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Thompson Seattle by Hyatt",
+        "https://www.trip.com/hotels/seattle-hotel-detail-4978965/thompson-seattle-by-hyatt/"
       ]
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지"

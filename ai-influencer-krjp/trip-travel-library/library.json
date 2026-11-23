@@ -5212,7 +5212,7 @@
     "group": "호텔 이미지",
     "title": "아리마 온천 도센 고쇼보 · 붉은빛이 도는 긴센 온천",
     "caption": "the water holds its warmth.",
-    "video": "",
+    "video": "media/arima-tocen-goshobo-kinsen-bath.mp4",
     "stills": [
       {
         "src": "media/arima-tocen-goshobo-kinsen-bath-01.webp",
@@ -5226,8 +5226,9 @@
         "https://www.trip.com/hotels/kobe-hotel-detail-1489165/arima-onsen-tocen-goshobo/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "일본"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "일본",
+    "poster": "media/arima-tocen-goshobo-kinsen-bath-01.webp"
   },
   {
     "id": "asaba-shuzenji-pond-pavilion-onsen",
@@ -5406,6 +5407,32 @@
       ]
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "유럽"
+  },
+  {
+    "id": "burgenstock-lucerne-private-spa",
+    "group": "호텔 이미지",
+    "title": "뷔르겐슈토크 호텔 · 루체른호 전망 프라이빗 자쿠지",
+    "caption": "above the quiet lake.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/burgenstock-lucerne-private-spa-01.webp",
+        "alt": "뷔르겐슈토크 호텔 · 루체른호 전망 프라이빗 자쿠지"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Bürgenstock Hotel & Alpine Spa",
+        "https://www.trip.com/hotels/stansstad-hotel-detail-11108176/burgenstock-hotel-and-alpine-spa/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "familyWater": {
+      "description": "알파인 스파 일부 수영장은 오전 9시~정오와 오후 5~7시에 어린이 동반 이용이 가능합니다. 창작 이미지의 모티프인 프라이빗 스파 자쿠지의 어린이 이용 조건은 시설에 확인하세요.",
+      "source": "https://burgenstockresort.com/en/faq"
+    },
     "region": "유럽"
   },
   {
@@ -6360,7 +6387,7 @@
     "group": "호텔 이미지",
     "title": "님브 호텔 · 코펜하겐 티볼리 정원의 저녁",
     "caption": "the lights come on slowly.",
-    "video": "",
+    "video": "media/nimb-tivoli-rain-lights.mp4",
     "stills": [
       {
         "src": "media/nimb-tivoli-rain-lights-01.webp",
@@ -6374,8 +6401,9 @@
         "https://www.trip.com/hotels/copenhagen-hotel-detail-2546720/nimb-hotel/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "유럽"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "유럽",
+    "poster": "media/nimb-tivoli-rain-lights-01.webp"
   },
   {
     "id": "nishimuraya-kinosaki-garden-onsen",

@@ -4,7 +4,8 @@
   const tabs = [...root.querySelectorAll(".ty22-jump a")];
   const cards = [...root.querySelectorAll(".ty22-item")];
   function activate(id) {
-    const selected = cards.find(card => card.id === id) || cards[0];
+    const selected = cards.find(card => card.id === id) ||
+      (typeof window.mountGoldEditor === "function" && cards.find(card => card.id === "T05")) || cards[0];
     for (const card of cards) card.hidden = card !== selected;
     for (const tab of tabs) {
       if (tab.hash === "#" + selected.id) tab.setAttribute("aria-current", "true");
@@ -68,6 +69,10 @@
   };
 
   for (const card of cards) {
+    if (card.id === "T05" && typeof window.mountGoldEditor === "function") {
+      window.mountGoldEditor(card);
+      continue;
+    }
     const preset = presets[card.id];
     const links = [...card.querySelectorAll(".ty22-fonts a")];
     const names = links.map(a => a.textContent.replace(/^\d+\. /, ""));

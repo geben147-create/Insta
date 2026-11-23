@@ -11,3 +11,40 @@
 - 검정·노랑 안전 경고 스트라이프는 CSS의 repeating-linear-gradient(135deg,#FFED00 0 24px,#080808 24px 48px)로 재현
 
 공개 링크: https://geben147-create.github.io/Insta/국뽕-유튜브-리서치-허브-20261108/?page=thumbnail-design
+
+## 2026-11-24 · T05 금빛 자막 편집 개선
+
+| 변경 | 적용 |
+|---|---|
+| 흰 배경 | 기본 #FFFFFF, 흰 배경 / 투명 PNG 1600×520 분리 저장 |
+| 글자 차등 | 병현 118%, 표 94%, 특 123%, 급 96%; 전체 기울기 -7°, 회전 -1.4° |
+| 금빛 | 밝은 노랑·아이보리 반사띠·밝은 골드 하단, 얇은 외곽선과 입체 음영 |
+| 반짝임 | 가는 사방 별 34개 + 금빛 입자 200개, 크기·수량·밝기·속도·퍼짐·배치 조절 |
+| 개별 편집 | 글자 클릭·Ctrl/Shift 다중 선택·문구 드래그·임의 단어 선택, 크기·회전·기울기·좌표·색 |
+| 글꼴 | 검은고딕(기본), SB 어그로 B, 잘난체 고딕, G마켓 산스, 카페24 써라운드, 평창평화체, 잘난체 |
+| 저장 | 실행 취소/다시 하기, 브라우저 자동 저장, JSON 내보내기/불러오기, 현재 설정 프롬프트 |
+| 좁은 화면 | 큰 미리보기 상단 고정, 글꼴 비교 기본 접힘, 별도 내부 스크롤 없이 조절 |
+
+- 현재 경로: `국뽕-유튜브-리서치-허브-20261108/?page=studio-video&sub=vtypo`
+- `guide.html`에서 `gold-renderer.js` → `gold-editor.js` → `editor.js` 순으로 로드합니다.
+- `mountGoldEditor(card)`는 T05만 확장하며 다른 7종은 기존 편집기를 사용합니다.
+- 미리보기와 PNG는 같은 Canvas 렌더러/같은 상태를 사용합니다.
+- 폰트가 실제로 로드되었는지 표시하며 로딩 실패 시 그 폰트의 PNG 저장을 막습니다.
+- 원본 글꼴은 확정되지 않았습니다. 위 7종은 형태 비교용 후보입니다.
+- 저장 키: `ty22-gold-editor-v1`; 문자 편집값은 UTF-16 위치로 보관합니다.
+- 잘난체 고딕은 기존 저장소 `../JalnanGothic.ttf`, 나머지는 기존 웹폰트를 사용합니다.
+
+### 글꼴 출처
+
+- 검은고딕: https://fonts.google.com/specimen/Black+Han+Sans
+- SB 어그로: https://www.sandbox.co.kr/company-ci
+- 잘난체 / 잘난체 고딕: https://gccompany.co.kr/font
+- Gmarket Sans: https://corp.gmarket.com/fonts/
+- 카페24 써라운드: https://fonts.cafe24.com/
+- 평창평화체: https://noonnu.cc/font_page/950
+
+### 검증
+
+- 변경 JavaScript 문법 및 git diff 공백 오류 검사 통과.
+- 실제 한국어 폰트로 Canvas 렌더링 확인. 흰 PNG 구석 RGBA 255/255/255/255, 투명 PNG 구석 alpha 0.
+- 긴 두 줄 문구 + 큰 글자 + 회전 + 가로 확장을 적용한 자동 맞춤 경계 검사 통과.

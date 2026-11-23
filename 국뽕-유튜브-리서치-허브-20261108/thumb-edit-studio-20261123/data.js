@@ -14,7 +14,7 @@ const MENUS = {
     {id:'why', t:'왜 튀고 왜 클릭하나', s:'클릭 유도 요소 9가지 · 체크리스트', tag:'new'},
     {id:'palette', t:'색상 HEX 모음', s:'JTBC 추출값 + 기존 값', tag:'new'},
     {grp:'🔤 글씨 · 폰트'},
-    {id:'typo', t:'방송 글씨 8종 · 폰트 3종 비교', s:'원본 색 맞춤 · 미리보기 옆 고정', tag:'fix', f:BF+'typography-refs-20261122/guide.html'},
+    {id:'typo', t:'방송 글씨 8종 · 금빛 자막 편집', s:'T05 흰 배경 · 글자별 조절 · 금빛 반짝임', tag:'fix', f:BF+'typography-refs-20261122/guide.html?v=20261124'},
     {id:'fonts', t:'폰트 점검표 (29종)', s:'로컬 경로 · 출처 · 라이선스', tag:'new'},
     {grp:'🛠 이전 편집기'},
     {id:'layer', t:'썸네일 레이어 실험실', s:'NO!! · 손그림 화살표 · HEX', tag:'old', f:BF+'thumbnail-layer-lab-20261123/'},
@@ -47,7 +47,7 @@ const MENUS = {
     {id:'bgm', t:'캐릭터 시그니처 음악 · BGM 8곡', s:'콩닥팝 · 콩콩여행 · 반응왓설 + 3분 BGM 5곡', tag:'new'},
     {grp:'🛠 실험실'},
     {id:'vlab', t:'영상편집 디자인 실험실', s:'조절 미반영 버그 수정', tag:'fix', f:BF+'video-edit-lab.html'},
-    {id:'vtypo', t:'자막 글씨 8종 · 폰트 비교', s:'썸네일 탭과 같은 편집기', tag:'fix', f:BF+'typography-refs-20261122/guide.html'},
+    {id:'vtypo', t:'자막 글씨 8종 · 금빛 자막 편집', s:'T05 흰 배경 · 글자별 조절 · 금빛 반짝임', tag:'fix', f:BF+'typography-refs-20261122/guide.html?v=20261124'},
     {grp:'📋 기록'},
     {id:'vlog', t:'작업 기록 · 점검표', tag:'doc'}
   ]

@@ -1,0 +1,87 @@
+/* Scoped to the T05 editor; other seven reference cards keep their existing UI. */
+#ty22 .ty22-item.gold-editor{display:block;padding:14px;background:#fff;border-color:#e4d5b7;min-width:0}
+#ty22 .gold-editor[hidden]{display:none}
+#ty22 .gold-editor *{box-sizing:border-box}
+#ty22 .gold-editor .gold-heading{display:flex;justify-content:space-between;gap:12px;margin:0 0 14px}
+#ty22 .gold-editor .gold-eyebrow{display:inline-block;font:800 11px/1.5 system-ui;color:#825b0e;background:#fff0c8;border:1px solid #ebd296;border-radius:20px;padding:3px 9px;margin-bottom:6px}
+#ty22 .gold-editor h3{font:800 19px/1.4 system-ui;color:#332612;margin:0}
+#ty22 .gold-editor .gold-intro{font-size:12px;color:#79664c;margin-top:5px}
+#ty22 .gold-editor .gold-layout{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(290px,.92fr);gap:18px;align-items:start}
+#ty22 .gold-editor .gold-preview-column,#ty22 .gold-editor .gold-control-column{min-width:0}
+#ty22 .gold-editor .gold-preview-column{position:sticky;top:12px}
+#ty22 .gold-editor .gold-reference{margin:0 0 12px;background:#faf8f2;border:1px solid #e8e0d0;border-radius:12px;overflow:hidden}
+#ty22 .gold-editor .gold-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+#ty22 .gold-editor .gold-reference-head{padding:8px 10px;font-size:12px;color:#665232}
+#ty22 .gold-editor .gold-reference-image{position:relative;width:100%;background:#22252a;overflow:hidden}
+#ty22 .gold-editor .gold-reference-image img{display:block;width:100%;height:auto;max-height:280px;object-fit:contain;border:0;border-radius:0}
+#ty22 .gold-editor .gold-reference-image.is-zoom{aspect-ratio:4.7/1}
+#ty22 .gold-editor .gold-reference-image.is-zoom img{position:absolute;bottom:0;left:0;max-height:none;width:100%;height:auto}
+#ty22 .gold-editor .gold-reference figcaption{font-size:11px;color:#7b6b51;padding:5px 9px;line-height:1.5}
+#ty22 .gold-editor .gold-live{border:1px solid #e6c878;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 3px 15px #84500c0c}
+#ty22 .gold-editor .gold-live>.gold-row{padding:10px 12px;background:#fffaf0;border-bottom:1px solid #f0e3c7}
+#ty22 .gold-editor .gold-current-font{font-size:12px;color:#6f4b0e}
+#ty22 .gold-editor .gold-canvas-wrap{width:100%;overflow:hidden;background:#fff}
+#ty22 .gold-editor .gold-main-canvas{display:block;width:100%;height:auto;aspect-ratio:1600/520;cursor:crosshair}
+#ty22 .gold-editor .gold-font-status{display:inline-block;font-size:10px;font-weight:700;color:#527247;padding:1px 10px}
+#ty22 .gold-editor .gold-font-status.is-error{color:#a65727}
+#ty22 .gold-editor .gold-note{font-size:11px;line-height:1.6;color:#72727b;margin:5px 0 8px;overflow-wrap:anywhere}
+#ty22 .gold-editor .gold-live>.gold-note{padding:0 10px 5px;margin:3px 0}
+#ty22 .gold-editor button{font:700 12px/1.45 system-ui;cursor:pointer;color:#42516c;background:#edf1f7;border:1px solid #d6dfeb;border-radius:7px;padding:6px 8px;white-space:normal;transition:background .15s,box-shadow .15s;min-width:0}
+#ty22 .gold-editor button:hover{background:#e4eaf3}
+#ty22 .gold-editor button:disabled{opacity:.4;cursor:default}
+#ty22 .gold-editor button:focus-visible,#ty22 .gold-editor input:focus-visible,#ty22 .gold-editor textarea:focus-visible,#ty22 .gold-editor summary:focus-visible{outline:3px solid #4a8fdf;outline-offset:2px}
+#ty22 .gold-editor button.gold-primary{background:#b77919;border-color:#b77919;color:white}
+#ty22 .gold-editor button.gold-primary:hover{background:#986214}
+#ty22 .gold-editor button.gold-soft{background:#fffaf0;color:#805a21;border-color:#e3d2ac}
+#ty22 .gold-editor .gold-export-bar{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
+#ty22 .gold-editor .gold-export-bar button{flex:1}
+#ty22 .gold-editor .gold-history{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+#ty22 .gold-editor .gold-history button{font-size:11px;flex:1;padding:6px 5px}
+#ty22 .gold-editor .gold-section{border:1px solid #e2e6ee;border-radius:10px;background:#fff;margin:0 0 9px;min-width:0}
+#ty22 .gold-editor .gold-section>summary{cursor:pointer;font:800 12px/1.5 system-ui;padding:10px;color:#364761;background:#f8faff;border-radius:10px;overflow-wrap:anywhere}
+#ty22 .gold-editor .gold-section[open]>summary{border-bottom:1px solid #e7eaf1;border-radius:10px 10px 0 0}
+#ty22 .gold-editor .gold-section-body{padding:10px;min-width:0}
+#ty22 .gold-editor .gold-fonts-section>summary{background:#faf7f0;color:#725324}
+#ty22 .gold-editor .gold-font-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;padding:8px}
+#ty22 .gold-editor .gold-font-card{min-width:0}
+#ty22 .gold-editor .gold-font-pick{display:block;width:100%;text-align:left;padding:6px 6px 0;border:1px solid #e5dfd2;background:#fff;color:#4c4333;font-size:10px;overflow:hidden}
+#ty22 .gold-editor .gold-font-pick[aria-pressed=true]{border-color:#c39436;box-shadow:inset 0 0 0 1px #c39436;background:#fff9ec}
+#ty22 .gold-editor .gold-font-pick canvas{display:block;width:100%;height:auto;aspect-ratio:1600/520;margin-top:2px}
+#ty22 .gold-editor .gold-font-footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px;padding:3px 2px;font-size:9px;color:#7d7668}
+#ty22 .gold-editor .gold-font-footer a{font-size:9px;color:#7f5d25;text-decoration:underline;white-space:nowrap}
+#ty22 .gold-editor .gold-text-label{display:block;font-size:11px;font-weight:700;color:#48516a}
+#ty22 .gold-editor .gold-text-input,#ty22 .gold-editor .gold-prompt{display:block;width:100%;resize:vertical;min-height:62px;max-height:280px;border:1px solid #cbd6e6;border-radius:8px;background:#fff;color:#26344c;font:500 14px/1.55 system-ui;padding:9px;margin-top:6px}
+#ty22 .gold-editor .gold-prompt{font-size:11px;background:#f9fafc;min-height:105px}
+#ty22 .gold-editor .gold-control-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 10px;margin:7px 0}
+#ty22 .gold-editor .gold-control{min-width:0;display:block}
+#ty22 .gold-editor .gold-control>label{display:block;color:#49546a;font:650 11px/1.5 system-ui;margin-bottom:4px;overflow-wrap:anywhere}
+#ty22 .gold-editor .gold-number-row{display:grid;grid-template-columns:minmax(24px,1fr) 48px 15px;align-items:center;gap:4px}
+#ty22 .gold-editor input[type=range]{width:100%;min-width:0;margin:0;accent-color:#b88a2a;height:24px;cursor:pointer}
+#ty22 .gold-editor input[type=number]{display:block;width:48px;min-width:0;border:1px solid #ced7e4;border-radius:5px;padding:4px 2px;background:#fff;color:#2f3d57;font:600 11px/1.4 system-ui;text-align:center;appearance:textfield;-moz-appearance:textfield}
+#ty22 .gold-editor input[type=number]::-webkit-inner-spin-button,#ty22 .gold-editor input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+#ty22 .gold-editor .gold-unit{font-size:9px;color:#7a8290;white-space:nowrap}
+#ty22 .gold-editor .gold-color-row{display:grid;grid-template-columns:30px minmax(0,1fr);gap:5px;align-items:center}
+#ty22 .gold-editor input[type=color]{width:30px;height:28px;padding:1px;border:1px solid #cdd5e0;border-radius:5px;background:#fff;cursor:pointer}
+#ty22 .gold-editor .gold-color-row input[type=text]{width:100%;min-width:0;max-width:100%;font:600 11px/1.5 ui-monospace,monospace;padding:4px;border:1px solid #cdd5e0;color:#34415c;border-radius:5px;background:#fff}
+#ty22 .gold-editor .gold-check{display:flex;align-items:center;gap:6px;font-size:11px;color:#625333;cursor:pointer;line-height:1.5}
+#ty22 .gold-editor .gold-check.gold-control{grid-column:1/-1;display:flex}
+#ty22 .gold-editor input[type=checkbox]{width:15px;height:15px;accent-color:#b98b30;margin:0;flex:none}
+#ty22 .gold-editor .gold-selection-bar{align-items:center;margin:6px 0}
+#ty22 .gold-editor .gold-selection-name{color:#805316;font-size:12px;word-break:break-all}
+#ty22 .gold-editor .gold-selection-bar button{font-size:10px;padding:4px 7px}
+#ty22 .gold-editor .gold-characters{display:flex;gap:4px;flex-wrap:wrap;padding:7px;border:1px solid #e6decf;background:#fffdf8;border-radius:8px}
+#ty22 .gold-editor button.gold-char{min-width:30px;min-height:32px;font-size:17px;padding:3px 6px;color:#64512f;background:#fff;border-color:#e1d3b6}
+#ty22 .gold-editor button.gold-char[aria-pressed=true]{background:#fff0b7;color:#65410c;border-color:#bd8b2b;box-shadow:inset 0 0 0 1px #bd8b2b}
+#ty22 .gold-editor .gold-space{align-self:center;color:#b7ad9c;font-size:10px;padding:0 1px}
+#ty22 .gold-editor .gold-words{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0}
+#ty22 .gold-editor button.gold-word{font-size:10px;background:#f4f6fb;border-color:#dce2ee;color:#596480;padding:3px 7px}
+#ty22 .gold-editor .gold-find-row{display:flex;gap:6px;margin:7px 0}
+#ty22 .gold-editor .gold-find-row input{min-width:0;width:100%;flex:1;border:1px solid #cfd8e6;border-radius:6px;padding:6px;font-size:12px;color:#35405a;background:#fff}
+#ty22 .gold-editor .gold-find-row button{font-size:11px;flex:none}
+#ty22 .gold-editor .gold-section-body>button.gold-soft{font-size:10px;margin:4px 4px 0 0}
+#ty22 .gold-editor .gold-settings-bar{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:7px}
+#ty22 .gold-editor .gold-settings-bar button{font-size:10px}
+#ty22 .gold-editor .gold-status{margin:12px 0 0;padding:8px 10px;font:600 11px/1.6 system-ui;background:#fff8e4;color:#80581f;border:1px solid #eedcae;border-radius:7px;min-height:34px;overflow-wrap:anywhere}
+@media(max-width:1050px){#ty22 .gold-editor .gold-layout{display:flex;flex-direction:column;gap:12px}#ty22 .gold-editor .gold-preview-column{display:contents}#ty22 .gold-editor .gold-control-column,#ty22 .gold-editor .gold-reference,#ty22 .gold-editor .gold-export-bar,#ty22 .gold-editor .gold-fonts-section{width:100%}#ty22 .gold-editor .gold-live{position:sticky;top:4px;z-index:4;width:100%;flex:none;box-shadow:0 7px 17px #4a351b25}#ty22 .gold-editor .gold-live>.gold-note{display:none}#ty22 .gold-editor .gold-reference{margin-bottom:0}#ty22 .gold-editor .gold-export-bar{margin:0}#ty22 .gold-editor .gold-font-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){#ty22 .ty22-item.gold-editor{padding:9px}#ty22 .gold-editor .gold-layout{gap:12px}#ty22 .gold-editor .gold-font-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#ty22 .gold-editor .gold-heading h3{font-size:17px}#ty22 .gold-editor .gold-live>.gold-row{padding:7px 8px}#ty22 .gold-editor .gold-live>.gold-row button{font-size:10px;padding:4px 6px}#ty22 .gold-editor .gold-control-grid{gap:9px 7px}#ty22 .gold-editor .gold-number-row{grid-template-columns:minmax(20px,1fr) 44px 12px;gap:3px}#ty22 .gold-editor input[type=number]{width:44px}}
+@media(max-width:350px){#ty22 .gold-editor .gold-control-grid{grid-template-columns:1fr}#ty22 .gold-editor .gold-font-grid{grid-template-columns:1fr}#ty22 .gold-editor .gold-reference-head{align-items:flex-start;flex-direction:column}}

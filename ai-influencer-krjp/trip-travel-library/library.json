@@ -5012,6 +5012,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "jade-mountain-pitons-jacuzzi",
+    "group": "호텔 이미지",
+    "title": "제이드 마운틴 · 세인트루시아 피톤산 전망 자쿠지",
+    "caption": "between peaks and sea.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/jade-mountain-pitons-jacuzzi-01.webp",
+        "alt": "제이드 마운틴 · 세인트루시아 피톤산 전망 자쿠지"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Jade Mountain",
+        "https://www.trip.com/hotels/soufriere-hotel-detail-22915076/jade-mountain/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "marina-bay-rooftop-night",
     "group": "호텔 이미지",
     "title": "마리나 베이 샌즈 · 수면 위 도심 야경",

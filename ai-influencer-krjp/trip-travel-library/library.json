@@ -5109,6 +5109,32 @@
     "poster": "media/address-sky-view-dubai-rooftop-blue-hour-01.webp"
   },
   {
+    "id": "alma-cam-ranh-lazy-river-family",
+    "group": "호텔 이미지",
+    "title": "알마 리조트 깜라인 · 스플래시 워터파크의 가족 유수풀",
+    "caption": "take the slow way around.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/alma-cam-ranh-lazy-river-family-01.webp",
+        "alt": "알마 리조트 깜라인 · 스플래시 워터파크의 가족 유수풀"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Alma Resort Cam Ranh",
+        "https://www.trip.com/hotels/cam-lam-district-hotel-detail-52935497/alma-resort-cam-ranh/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "familyWater": {
+      "description": "스플래시 워터파크에 어린이 풀, 유수풀, 파도풀과 가족용 미끄럼틀이 있습니다. 시설별 키와 보호자 동반 조건은 공식 안내를 확인하세요.",
+      "source": "https://experiences.alma-resort.com/recreation/water-park/"
+    },
+    "region": "기타 아시아"
+  },
+  {
     "id": "amangiri-utah-canyon-soaking-pool",
     "group": "호텔 이미지",
     "title": "아만기리 · 붉은 협곡을 바라보는 야외 온수 욕조",
@@ -5661,7 +5687,7 @@
     "group": "호텔 이미지",
     "title": "포시즌스 이스탄불 보스포루스 · 해협을 바라보는 테라스 조식",
     "caption": "morning on the bosphorus.",
-    "video": "",
+    "video": "media/four-seasons-bosphorus-terrace-breakfast.mp4",
     "stills": [
       {
         "src": "media/four-seasons-bosphorus-terrace-breakfast-01.webp",
@@ -5675,8 +5701,9 @@
         "https://www.trip.com/hotels/istanbul-hotel-detail-2117269/four-seasons-hotel-istanbul-at-the-bosphorus/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "중동·아프리카"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "중동·아프리카",
+    "poster": "media/four-seasons-bosphorus-terrace-breakfast-01.webp"
   },
   {
     "id": "fuji-q-highland-first-steps",
@@ -6628,7 +6655,7 @@
     "group": "호텔 이미지",
     "title": "리클리 밸런스 호텔 · 블레드 호수 전망 실내 월풀",
     "caption": "the lake keeps its quiet.",
-    "video": "",
+    "video": "media/rikli-balance-bled-lakeside-whirlpool.mp4",
     "stills": [
       {
         "src": "media/rikli-balance-bled-lakeside-whirlpool-01.webp",
@@ -6642,12 +6669,13 @@
         "https://us.trip.com/hotels/bled-hotel-detail-4606088/rikli-balance-hotel-sava-hotels-and-resorts/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
     "familyWater": {
       "description": "웰니스 지바에는 어린이용 온수풀과 실내 미끄럼틀이 있습니다. 호수 전망 월풀의 어린이 이용 조건은 시설에 확인하세요.",
       "source": "https://www.sava-hotels-resorts.com/en/sava-hotels-bled/services-and-experiences/pools-and-water-parks/waterpark-wellness-ziva/"
     },
-    "region": "유럽"
+    "region": "유럽",
+    "poster": "media/rikli-balance-bled-lakeside-whirlpool-01.webp"
   },
   {
     "id": "risonare-atami-family-pool",

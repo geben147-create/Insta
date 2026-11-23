@@ -5908,7 +5908,7 @@
     "group": "호텔 이미지",
     "title": "하얏트 리젠시 다낭 · 돌 아치 너머 가족 물놀이 풀",
     "caption": "follow the light on the water.",
-    "video": "",
+    "video": "media/hyatt-regency-danang-pool-grotto.mp4",
     "stills": [
       {
         "src": "media/hyatt-regency-danang-pool-grotto-01.webp",
@@ -5922,12 +5922,13 @@
         "https://www.trip.com/hotels/da-nang-hotel-detail-713826/hyatt-regency-danang-resort-and-spa/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
     "familyWater": {
       "description": "메인 수영장에 워터 슬라이드가 있습니다. 슬라이드는 어린이 키 80cm 이상부터 이용할 수 있습니다.",
       "source": "https://www.hyatt.com/hyatt-regency/en-US/danhr-hyatt-regency-danang-resort-and-spa"
     },
-    "region": "기타 아시아"
+    "region": "기타 아시아",
+    "poster": "media/hyatt-regency-danang-pool-grotto-01.webp"
   },
   {
     "id": "intercontinental-yokohama-pier8-harbor-blue-hour",
@@ -6200,7 +6201,7 @@
     "group": "호텔 이미지",
     "title": "호텔 뉴 오타니 도쿄 가든 타워 · 일본 정원이 보이는 조식",
     "caption": "morning takes its time.",
-    "video": "",
+    "video": "media/new-otani-tokyo-garden-window-breakfast.mp4",
     "stills": [
       {
         "src": "media/new-otani-tokyo-garden-window-breakfast-01.webp",
@@ -6214,8 +6215,9 @@
         "https://www.trip.com/hotels/tokyo-hotel-detail-2143741/hotel-new-otani-tokyo-garden-tower/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "일본"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "일본",
+    "poster": "media/new-otani-tokyo-garden-window-breakfast-01.webp"
   },
   {
     "id": "nimb-tivoli-rain-lights",
@@ -6965,5 +6967,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 장면",
     "region": "일본",
     "poster": "media/yamamizuki-kurokawa-maple-ravine-onsen-01.webp"
+  },
+  {
+    "id": "zaborin-hokkaido-winter-birch-onsen",
+    "group": "호텔 이미지",
+    "title": "자보린 · 홋카이도 자작나무 숲의 겨울 노천탕",
+    "caption": "winter among the birches.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/zaborin-hokkaido-winter-birch-onsen-01.webp",
+        "alt": "자보린 · 홋카이도 자작나무 숲의 겨울 노천탕"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Zaborin",
+        "https://www.trip.com/hotels/kutchan-hotel-detail-5024174/zaborin/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "일본"
   }
 ]

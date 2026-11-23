@@ -5402,6 +5402,33 @@
     "region": "기타 아시아"
   },
   {
+    "id": "centara-phuket-karon-family-water-park",
+    "group": "호텔 이미지",
+    "title": "센타라 그랜드 비치 리조트 푸껫 · 카론 비치의 가족 물놀이",
+    "caption": "summer starts with a splash.",
+    "video": "media/centara-phuket-karon-family-water-park.mp4",
+    "stills": [
+      {
+        "src": "media/centara-phuket-karon-family-water-park-01.webp",
+        "alt": "센타라 그랜드 비치 리조트 푸껫 · 카론 비치의 가족 물놀이"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Centara Grand Beach Resort Phuket",
+        "https://www.trip.com/hotels/v2/phuket-hotel-detail-1578968/centara-grand-beach-resort-phuket/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "familyWater": {
+      "description": "전용 풀이 있는 빌라 객실을 예약할 수 있습니다. 리조트 공용 워터파크에는 어린이 수영장과 미끄럼틀이 있으며, 시설별 이용 조건은 공식 안내를 확인하세요.",
+      "source": "https://prod.centarahotelsresorts.com/centaragrand/cpbr/faqs"
+    },
+    "region": "기타 아시아",
+    "poster": "media/centara-phuket-karon-family-water-park-01.webp"
+  },
+  {
     "id": "ciragan-palace-bosphorus-night",
     "group": "호텔 이미지",
     "title": "츠라안 팰리스 켐핀스키 이스탄불 · 보스포루스 야경",

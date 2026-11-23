@@ -5888,7 +5888,7 @@
     "group": "호텔 이미지",
     "title": "호텔 랑가 · 오로라 아래의 야외 자쿠지",
     "caption": "beneath a quieter sky.",
-    "video": "",
+    "video": "media/hotel-ranga-aurora-riverside-hot-tub.mp4",
     "stills": [
       {
         "src": "media/hotel-ranga-aurora-riverside-hot-tub-01.webp",
@@ -5902,8 +5902,9 @@
         "https://www.trip.com/hotels/hella-hotel-detail-3643752/hotel-ranga/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "유럽"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "유럽",
+    "poster": "media/hotel-ranga-aurora-riverside-hot-tub-01.webp"
   },
   {
     "id": "hyatt-regency-danang-pool-grotto",
@@ -6427,6 +6428,28 @@
     "region": "기타 아시아"
   },
   {
+    "id": "portaventura-colorado-creek-family-walk",
+    "group": "호텔 이미지",
+    "title": "호텔 콜로라도 크리크 · 포르트아벤투라 파크로 가는 길",
+    "caption": "the day is just beginning.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/portaventura-colorado-creek-family-walk-01.webp",
+        "alt": "호텔 콜로라도 크리크 · 포르트아벤투라 파크로 가는 길"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "PortAventura Hotel Colorado Creek",
+        "https://www.trip.com/hotels/vila-seca-hotel-detail-39343881/portaventura-hotel-colorado-creek-includes-unlimited-access-portaventura-park-and-1-ferrari-land/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "유럽"
+  },
+  {
     "id": "prince-park-tower-tokyo-window-night",
     "group": "호텔 이미지",
     "title": "더 프린스 파크 타워 도쿄 · 창가에서 바라본 도쿄타워 야경",
@@ -6685,7 +6708,7 @@
     "group": "호텔 이미지",
     "title": "샹그릴라 막탄 세부 · 열대 정원 너머 어린이 아쿠아플레이",
     "caption": "little feet, bright water.",
-    "video": "",
+    "video": "media/shangri-la-mactan-cebu-family-aquaplay.mp4",
     "stills": [
       {
         "src": "media/shangri-la-mactan-cebu-family-aquaplay-01.webp",
@@ -6699,12 +6722,13 @@
         "https://www.trip.com/hotels/lapu-lapu-city-hotel-detail-699684/shangri-la-mactan-cebu/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
     "familyWater": {
       "description": "어린이 수영장이 따로 있으며, 메인 윙 수영장에는 아쿠아플레이 구역과 워터슬라이드가 있습니다. 슬라이드 이용 조건은 현장 안내를 확인하세요.",
       "source": "https://www.shangri-la.com/cebu/mactanresort/sports-recreation/resort-facilities/"
     },
-    "region": "기타 아시아"
+    "region": "기타 아시아",
+    "poster": "media/shangri-la-mactan-cebu-family-aquaplay-01.webp"
   },
   {
     "id": "shangri-la-paris-rain-eiffel-tower",

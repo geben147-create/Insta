@@ -439,13 +439,20 @@ const scenes={
 
 // ---- exact ink centering: measure real glyph ink (not font line box) and balance padding ----
 const _cv=document.createElement('canvas').getContext('2d');
-function inkOffset(el){const cs=getComputedStyle(el);_cv.font=`${cs.fontStyle} ${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`;
-  const m=_cv.measureText(el.textContent.trim()||'가');const fa=m.fontBoundingBoxAscent,fd=m.fontBoundingBoxDescent,ia=m.actualBoundingBoxAscent,id=m.actualBoundingBoxDescent;
-  return ((fa-ia)+(fa+id))/2-(fa+fd)/2;} // >0 : ink sits below line-box center
+function inkOffset(el){ // exact: DOM baseline (marker span) + glyph ink metrics, measured in the element's own (unrotated) frame
+  const cs=getComputedStyle(el);_cv.font=`${cs.fontStyle} ${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`;
+  const m=_cv.measureText(el.textContent.trim()||'가');
+  const mk=document.createElement('span');mk.style.cssText='display:inline-block;width:0;height:0;vertical-align:baseline';el.append(mk);
+  const base=mk.offsetTop;mk.remove();                       // baseline y from padding-box top (offsetTop ignores transforms)
+  const top=base-m.actualBoundingBoxAscent, bot=base+m.actualBoundingBoxDescent;
+  const H=el.clientHeight;                                    // padding box height
+  return {topGap:top, botGap:H-bot};}
+const INK_NUDGE=2; // px: measured residual (canvas ink metrics vs rendered Korean glyphs), verified by 1920 pixel scan
 function centerInk(root){
-  root.querySelectorAll('.twbox,.wow .s,.lb .lab').forEach(el=>{el.style.paddingTop=el.style.paddingBottom='';const cs=getComputedStyle(el);
-    const P=(parseFloat(cs.paddingTop)+parseFloat(cs.paddingBottom))/2,d=inkOffset(el);el.style.paddingTop=(P-d)+'px';el.style.paddingBottom=(P+d)+'px'});
-  root.querySelectorAll('.vs').forEach(el=>{el.style.marginTop=(-inkOffset(el))+'px'});
+  root.querySelectorAll('.twbox,.wow .s,.lb .lab').forEach(el=>{
+    for(let k=0;k<2;k++){const {topGap,botGap}=inkOffset(el);const cs=getComputedStyle(el);const d=(botGap-topGap)/2+(k===1?INK_NUDGE:0);
+      el.style.paddingTop=(parseFloat(cs.paddingTop)+d)+'px';el.style.paddingBottom=(parseFloat(cs.paddingBottom)-d)+'px'}});
+  root.querySelectorAll('.vs').forEach(el=>{el.style.marginTop='0px';const {topGap,botGap}=inkOffset(el);el.style.marginTop=((botGap-topGap)/2)+"px"});
 }
 function play(k){const c=document.querySelector(`[data-scene="${k}"]`);c.classList.remove('go','tw');scenes[k](c);centerInk(c)}
 function fit(){document.querySelectorAll('.stage').forEach(s=>{s.firstElementChild.style.transform=`scale(${s.clientWidth/1920})`})}

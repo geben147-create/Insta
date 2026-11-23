@@ -5621,6 +5621,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "takaragawa-ousenkaku-riverside-onsen",
+    "group": "호텔 이미지",
+    "title": "다카라가와 온센 오센카쿠 · 계곡 물소리가 들리는 노천 온천",
+    "caption": "the river runs beside us.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/takaragawa-ousenkaku-riverside-onsen-01.webp",
+        "alt": "다카라가와 온센 오센카쿠 · 계곡 물소리가 들리는 노천 온천"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Takaragawa Onsen Ousenkaku",
+        "https://www.trip.com/hotels/minakami-hotel-detail-704245/takaragawa-onsen-ousenkaku/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "tambo-del-inka-sacred-valley-breakfast",
     "group": "호텔 이미지",
     "title": "탐보 델 잉카 · 페루 성스러운 계곡의 조식",

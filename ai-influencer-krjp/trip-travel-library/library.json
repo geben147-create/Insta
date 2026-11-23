@@ -5865,7 +5865,7 @@
     "group": "호텔 이미지",
     "title": "호텔 유럽 인근 · 하우스텐보스의 운하와 벽돌 아치",
     "caption": "where the canal bends.",
-    "video": "",
+    "video": "media/hotel-europe-huis-ten-bosch-canal-arch.mp4",
     "stills": [
       {
         "src": "media/hotel-europe-huis-ten-bosch-canal-arch-01.webp",
@@ -5879,8 +5879,9 @@
         "https://www.trip.com/hotels/sasebo-hotel-detail-704051/hotel-europe-huis-ten-bosch/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "일본"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "일본",
+    "poster": "media/hotel-europe-huis-ten-bosch-canal-arch-01.webp"
   },
   {
     "id": "hotel-ranga-aurora-riverside-hot-tub",
@@ -6048,7 +6049,7 @@
     "group": "호텔 이미지",
     "title": "르페이 리조트 돌로미티 · 산빛이 드는 실내 월풀",
     "caption": "still water, mountain light.",
-    "video": "",
+    "video": "media/lefay-dolomiti-alpine-whirlpool.mp4",
     "stills": [
       {
         "src": "media/lefay-dolomiti-alpine-whirlpool-01.webp",
@@ -6062,12 +6063,13 @@
         "https://kr.trip.com/hotels/pinzolo-hotel-detail-44214531/lefay-resort-spa-dolomiti/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
     "familyWater": {
       "description": "실내외 연결 수영장은 가족이 이용할 수 있습니다. 이미지의 모티프인 마그네슘 염수 월풀은 공식 안내 기준 만 16세부터 이용할 수 있습니다.",
       "source": "https://dolomiti.lefayresorts.com/wp-content/uploads/2025/05/Web_GE_Brochure_SPA_Dolomiti_2025_INGLESE.pdf"
     },
-    "region": "유럽"
+    "region": "유럽",
+    "poster": "media/lefay-dolomiti-alpine-whirlpool-01.webp"
   },
   {
     "id": "loews-portofino-orlando-family-water-taxi",
@@ -6676,6 +6678,32 @@
       ]
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "기타 아시아"
+  },
+  {
+    "id": "shangri-la-mactan-cebu-family-aquaplay",
+    "group": "호텔 이미지",
+    "title": "샹그릴라 막탄 세부 · 열대 정원 너머 어린이 아쿠아플레이",
+    "caption": "little feet, bright water.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/shangri-la-mactan-cebu-family-aquaplay-01.webp",
+        "alt": "샹그릴라 막탄 세부 · 열대 정원 너머 어린이 아쿠아플레이"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Shangri-La Mactan, Cebu",
+        "https://www.trip.com/hotels/lapu-lapu-city-hotel-detail-699684/shangri-la-mactan-cebu/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "familyWater": {
+      "description": "어린이 수영장이 따로 있으며, 메인 윙 수영장에는 아쿠아플레이 구역과 워터슬라이드가 있습니다. 슬라이드 이용 조건은 현장 안내를 확인하세요.",
+      "source": "https://www.shangri-la.com/cebu/mactanresort/sports-recreation/resort-facilities/"
+    },
     "region": "기타 아시아"
   },
   {

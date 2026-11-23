@@ -5957,6 +5957,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "santas-igloos-rovaniemi-pink-snow-hot-tub",
+    "group": "호텔 이미지",
+    "title": "산타스 이글루 아틱 서클 · 분홍빛 노을과 야외 자쿠지",
+    "caption": "the last warmth of daylight.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/santas-igloos-rovaniemi-pink-snow-hot-tub-01.webp",
+        "alt": "산타스 이글루 아틱 서클 · 분홍빛 노을과 야외 자쿠지"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Santa's Igloos Arctic Circle",
+        "https://www.trip.com/hotels/lapland-hotel-detail-9107838/santa-s-igloos-arctic-circle/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "sarangkot-lodge-annapurna-breakfast",
     "group": "호텔 이미지",
     "title": "사랑콧 마운틴 로지 · 안나푸르나 전망 조식",

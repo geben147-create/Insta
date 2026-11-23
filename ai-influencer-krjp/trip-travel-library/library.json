@@ -5222,6 +5222,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "memmo-alfama-lisbon-rooftop-dusk",
+    "group": "호텔 이미지",
+    "title": "멤모 알파마 · 리스본 지붕 위로 내려앉는 저녁",
+    "caption": "the rooftops turn to gold.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/memmo-alfama-lisbon-rooftop-dusk-01.webp",
+        "alt": "멤모 알파마 · 리스본 지붕 위로 내려앉는 저녁"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Memmo Alfama – Design Hotels",
+        "https://www.trip.com/hotels/lisbon-hotel-detail-2551546/memmo-alfama-design-hotels/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "nimb-tivoli-rain-lights",
     "group": "호텔 이미지",
     "title": "님브 호텔 · 코펜하겐 티볼리 정원의 저녁",

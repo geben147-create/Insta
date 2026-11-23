@@ -5201,6 +5201,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "kamana-lakehouse-wakatipu-soak",
+    "group": "호텔 이미지",
+    "title": "카마나 레이크하우스 · 와카티푸 호수 전망 온수 욕조",
+    "caption": "the lake keeps the quiet.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/kamana-lakehouse-wakatipu-soak-01.webp",
+        "alt": "카마나 레이크하우스 · 와카티푸 호수 전망 온수 욕조"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Kamana Lakehouse",
+        "https://www.trip.com/hotels/queenstown-hotel-detail-1565632/kamana-lakehouse/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "marina-bay-rooftop-night",
     "group": "호텔 이미지",
     "title": "마리나 베이 샌즈 · 수면 위 도심 야경",

@@ -5369,6 +5369,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "shinhwa-jeju-family-water-play",
+    "group": "호텔 이미지",
+    "title": "제주신화월드 신화관 · 제주 가족 물놀이",
+    "caption": "small splashes on the island.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/shinhwa-jeju-family-water-play-01.webp",
+        "alt": "제주신화월드 신화관 · 제주 가족 물놀이"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Shinhwa Jeju Shinhwa World Hotels & Resorts",
+        "https://www.trip.com/hotels/seogwipo-hotel-detail-25673737/shinhwa-jeju-shinhwa-world-hotels-and-resorts/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "twelve-apostles-cape-town-breakfast",
     "group": "호텔 이미지",
     "title": "트웰브 어포슬스 호텔 & 스파 · 케이프타운 대서양 조식",

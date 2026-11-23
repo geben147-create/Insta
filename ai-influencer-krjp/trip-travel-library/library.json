@@ -5579,6 +5579,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "renaissance-okinawa-onna-splash-pool",
+    "group": "호텔 이미지",
+    "title": "르네상스 오키나와 리조트 · 온나 바닷가 어린이 풀",
+    "caption": "a little more summer.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/renaissance-okinawa-onna-splash-pool-01.webp",
+        "alt": "르네상스 오키나와 리조트 · 온나 바닷가 어린이 풀"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Renaissance Okinawa Resort",
+        "https://www.trip.com/hotels/kunigami-district-hotel-detail-2112698/renaissance-okinawa-resort/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "retreat-blue-lagoon-lava-steam",
     "group": "호텔 이미지",
     "title": "더 리트리트 앳 블루라군 · 용암 지대의 온천",

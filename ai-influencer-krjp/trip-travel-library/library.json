@@ -5033,6 +5033,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "fairmont-banff-springs-spa-hot-tub",
+    "group": "호텔 이미지",
+    "title": "페어몬트 밴프 스프링스 · 로키산맥 전망 스파 온수 욕조",
+    "caption": "under the mountain air.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/fairmont-banff-springs-spa-hot-tub-01.webp",
+        "alt": "페어몬트 밴프 스프링스 · 로키산맥 전망 스파 온수 욕조"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Fairmont Banff Springs",
+        "https://www.trip.com/hotels/banff-hotel-detail-2237808/fairmont-banff-springs"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "hakone-tenyu-onsen",
     "group": "호텔 이미지",
     "title": "하코네 고와키엔 텐유 · 새벽 온천",

@@ -4929,6 +4929,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "asaba-shuzenji-pond-pavilion-onsen",
+    "group": "호텔 이미지",
+    "title": "아사바 료칸 · 연못과 대나무 숲이 보이는 온천",
+    "caption": "stillness gathers at the pond.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/asaba-shuzenji-pond-pavilion-onsen-01.webp",
+        "alt": "아사바 료칸 · 연못과 대나무 숲이 보이는 온천"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Asaba",
+        "https://www.trip.com/hotels/izu-hotel-detail-1655830/asaba-ryokan/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "atlantis-dubai-family-splash",
     "group": "호텔 이미지",
     "title": "아틀란티스 더 팜 · 두바이 가족 물놀이",
@@ -5374,7 +5395,7 @@
     "group": "호텔 이미지",
     "title": "호텔 하나미즈키 인근 · 나가시마 스파랜드로 향하는 정원길",
     "caption": "the rides beyond the trees.",
-    "video": "",
+    "video": "media/hanamizuki-kuwana-nagashima-coaster-garden.mp4",
     "stills": [
       {
         "src": "media/hanamizuki-kuwana-nagashima-coaster-garden-01.webp",
@@ -5388,7 +5409,8 @@
         "https://www.trip.com/hotels/kuwana-hotel-detail-5623403/hotel-hanamizuki/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/hanamizuki-kuwana-nagashima-coaster-garden-01.webp"
   },
   {
     "id": "hard-rock-bali-sand-island-family-pool",
@@ -5900,7 +5922,7 @@
     "group": "호텔 이미지",
     "title": "샹그릴라 라사 센토사 · 실로소 해변의 어린이 물놀이",
     "caption": "catch the light in a splash.",
-    "video": "",
+    "video": "media/rasa-sentosa-siloso-splash-pad.mp4",
     "stills": [
       {
         "src": "media/rasa-sentosa-siloso-splash-pad-01.webp",
@@ -5914,7 +5936,8 @@
         "https://www.trip.com/hotels/singapore-hotel-detail-996300/shangri-la-s-rasa-sentosa-resort-and-spa/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/rasa-sentosa-siloso-splash-pad-01.webp"
   },
   {
     "id": "renaissance-okinawa-onna-splash-pool",

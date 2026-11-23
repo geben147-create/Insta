@@ -5138,6 +5138,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "dai-ichi-takimotokan-jigokudani-onsen",
+    "group": "호텔 이미지",
+    "title": "다이이치 타키모토칸 · 지고쿠다니를 바라보는 유황 온천",
+    "caption": "the valley breathes softly.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/dai-ichi-takimotokan-jigokudani-onsen-01.webp",
+        "alt": "다이이치 타키모토칸 · 지고쿠다니를 바라보는 유황 온천"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Dai-ichi Takimotokan",
+        "https://www.trip.com/hotels/noboribetsu-hotel-detail-842622/dai-ichi-takimotokan/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "disneyland-paris-hotel-first-light",
     "group": "호텔 이미지",
     "title": "디즈니랜드 호텔 파리 · 놀이공원 앞의 아침",

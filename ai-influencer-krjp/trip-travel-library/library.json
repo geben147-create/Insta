@@ -5293,6 +5293,28 @@
     "region": "미주"
   },
   {
+    "id": "banyan-tree-bangkok-sathorn-night",
+    "group": "호텔 이미지",
+    "title": "반얀트리 방콕 · 사톤의 고층 라운지 야경",
+    "caption": "a little closer to the night.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/banyan-tree-bangkok-sathorn-night-01.webp",
+        "alt": "반얀트리 방콕 · 사톤의 고층 라운지 야경"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Banyan Tree Bangkok",
+        "https://www.trip.com/hotels/bangkok-hotel-detail-996026/banyan-tree-bangkok/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "기타 아시아"
+  },
+  {
     "id": "banyan-tree-seoul-namsan-pool",
     "group": "호텔 이미지",
     "title": "반얀트리 서울 · 남산을 바라보는 객실 수영장",
@@ -6099,7 +6121,7 @@
     "group": "호텔 이미지",
     "title": "롯데호텔 월드 인근 · 석촌호수에서 본 매직아일랜드",
     "caption": "one last look at the lights.",
-    "video": "",
+    "video": "media/lotte-hotel-world-seokchon-lake-magic-island.mp4",
     "stills": [
       {
         "src": "media/lotte-hotel-world-seokchon-lake-magic-island-01.webp",
@@ -6113,8 +6135,9 @@
         "https://www.trip.com/hotels/seoul-hotel-detail-988393/lotte-hotel-world/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "한국"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "한국",
+    "poster": "media/lotte-hotel-world-seokchon-lake-magic-island-01.webp"
   },
   {
     "id": "marina-bay-rooftop-night",
@@ -6432,7 +6455,7 @@
     "group": "호텔 이미지",
     "title": "호텔 콜로라도 크리크 · 포르트아벤투라 파크로 가는 길",
     "caption": "the day is just beginning.",
-    "video": "",
+    "video": "media/portaventura-colorado-creek-family-walk.mp4",
     "stills": [
       {
         "src": "media/portaventura-colorado-creek-family-walk-01.webp",
@@ -6446,8 +6469,9 @@
         "https://www.trip.com/hotels/vila-seca-hotel-detail-39343881/portaventura-hotel-colorado-creek-includes-unlimited-access-portaventura-park-and-1-ferrari-land/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "유럽"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "유럽",
+    "poster": "media/portaventura-colorado-creek-family-walk-01.webp"
   },
   {
     "id": "prince-park-tower-tokyo-window-night",

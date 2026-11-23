@@ -5768,6 +5768,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "park-hyatt-busan-gwangan-bridge-breakfast",
+    "group": "호텔 이미지",
+    "title": "파크 하얏트 부산 · 광안대교를 바라보는 창가 조식",
+    "caption": "morning drifts across the bay.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/park-hyatt-busan-gwangan-bridge-breakfast-01.webp",
+        "alt": "파크 하얏트 부산 · 광안대교를 바라보는 창가 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Park Hyatt Busan",
+        "https://www.trip.com/hotels/busan-hotel-detail-992200/park-hyatt-busan/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "park-hyatt-kyoto-pagoda-breakfast",
     "group": "호텔 이미지",
     "title": "파크 하얏트 교토 · 야사카탑을 바라보는 아침 식사",

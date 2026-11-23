@@ -5159,6 +5159,28 @@
     "poster": "media/amangiri-utah-canyon-soaking-pool-01.webp"
   },
   {
+    "id": "ananti-busan-cove-osiria-coastal-walk",
+    "group": "호텔 이미지",
+    "title": "아난티 앳 부산 코브 · 롯데월드 부산 인근 오시리아 해안 산책",
+    "caption": "the sea is never far.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/ananti-busan-cove-osiria-coastal-walk-01.webp",
+        "alt": "아난티 앳 부산 코브 · 롯데월드 부산 인근 오시리아 해안 산책"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Ananti at Busan Cove",
+        "https://www.trip.com/hotels/busan-hotel-detail-8810122/ananti-at-busan-cove/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "한국"
+  },
+  {
     "id": "aqua-dome-tyrol-family-thermal-light",
     "group": "호텔 이미지",
     "title": "아쿠아 돔 · 티롤 알프스와 어린이 온천 풀",
@@ -5212,7 +5234,7 @@
     "group": "호텔 이미지",
     "title": "아쿠아팰리스 호텔 프라하 · 실내 어린이 물놀이장",
     "caption": "small splashes, big smiles.",
-    "video": "",
+    "video": "media/aquapalace-prague-treasure-palace-splash.mp4",
     "stills": [
       {
         "src": "media/aquapalace-prague-treasure-palace-splash-01.webp",
@@ -5226,12 +5248,13 @@
         "https://www.trip.com/hotels/cestlice-hotel-detail-3108281/aquapalace-hotel-prague/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
     "familyWater": {
       "description": "워터월드의 트레저 팰리스에 얕은 30°C 어린이 물놀이 풀이 있습니다. 물레방아, 물줄기, 기울어지는 물통이 있으며 시설별 이용 조건은 공식 안내를 확인하세요.",
       "source": "https://www.aquapalace.cz/en/detske-brouzdaliste-pro-nejmensi"
     },
-    "region": "유럽"
+    "region": "유럽",
+    "poster": "media/aquapalace-prague-treasure-palace-splash-01.webp"
   },
   {
     "id": "arima-tocen-goshobo-kinsen-bath",
@@ -6527,7 +6550,7 @@
     "group": "호텔 이미지",
     "title": "파크 하얏트 교토 · 야사카탑을 바라보는 아침 식사",
     "caption": "before the lanes wake.",
-    "video": "",
+    "video": "media/park-hyatt-kyoto-pagoda-breakfast.mp4",
     "stills": [
       {
         "src": "media/park-hyatt-kyoto-pagoda-breakfast-01.webp",
@@ -6541,8 +6564,9 @@
         "https://www.trip.com/hotels/kyoto-hotel-detail-42370779/park-hyatt-kyoto/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "일본"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "일본",
+    "poster": "media/park-hyatt-kyoto-pagoda-breakfast-01.webp"
   },
   {
     "id": "park-hyatt-sydney-opera-night",

@@ -4908,6 +4908,27 @@
     "poster": "media/address-sky-view-dubai-rooftop-blue-hour-01.webp"
   },
   {
+    "id": "amangiri-utah-canyon-soaking-pool",
+    "group": "호텔 이미지",
+    "title": "아만기리 · 붉은 협곡을 바라보는 야외 온수 욕조",
+    "caption": "the desert holds its warmth.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/amangiri-utah-canyon-soaking-pool-01.webp",
+        "alt": "아만기리 · 붉은 협곡을 바라보는 야외 온수 욕조"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Amangiri",
+        "https://www.trip.com/hotels/canyon-point-hotel-detail-22999270/amangiri/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "aqua-luxury-suites-caldera-hot-tub",
     "group": "호텔 이미지",
     "title": "아쿠아 럭셔리 스위트 · 산토리니 칼데라 테라스 자쿠지",
@@ -5166,7 +5187,7 @@
     "group": "호텔 이미지",
     "title": "콘래드 오사카 · 도지마강의 비 오는 야경",
     "caption": "the river wears the city lights.",
-    "video": "",
+    "video": "media/conrad-osaka-dojima-river-blue-hour.mp4",
     "stills": [
       {
         "src": "media/conrad-osaka-dojima-river-blue-hour-01.webp",
@@ -5180,7 +5201,8 @@
         "https://www.trip.com/hotels/osaka-hotel-detail-8033133/conrad-osaka/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/conrad-osaka-dojima-river-blue-hour-01.webp"
   },
   {
     "id": "dai-ichi-takimotokan-jigokudani-onsen",
@@ -5613,7 +5635,7 @@
     "group": "호텔 이미지",
     "title": "호시노 리조트 카이 알프스 · 삼나무 숲 노천온천",
     "caption": "where the forest breathes.",
-    "video": "",
+    "video": "media/kai-alps-omachi-cedar-onsen.mp4",
     "stills": [
       {
         "src": "media/kai-alps-omachi-cedar-onsen-01.webp",
@@ -5627,7 +5649,8 @@
         "https://www.trip.com/hotels/omachi-hotel-detail-1642086/hoshino-resorts-kai-alps/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/kai-alps-omachi-cedar-onsen-01.webp"
   },
   {
     "id": "kamana-lakehouse-wakatipu-soak",

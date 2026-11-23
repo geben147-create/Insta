@@ -65,9 +65,9 @@
     "outline": true,
     "newch": true,
     "script": true,
-    "audio": false,
-    "mins": 20.6,
-    "version": null
+    "audio": true,
+    "mins": 21.0,
+    "version": "b1688149b4dd"
   },
   "58": {
     "no": 58,
@@ -135,9 +135,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 21.5,
-    "version": null
+    "audio": true,
+    "mins": 21.6,
+    "version": "ef6bb65e1e2f"
   },
   "65": {
     "no": 65,
@@ -155,9 +155,9 @@
     "outline": true,
     "newch": true,
     "script": true,
-    "audio": false,
-    "mins": 21.3,
-    "version": null
+    "audio": true,
+    "mins": 22.1,
+    "version": "caac6087d3a3"
   },
   "67": {
     "no": 67,
@@ -175,9 +175,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 22.3,
-    "version": null
+    "audio": true,
+    "mins": 22.8,
+    "version": "133fd5a7388b"
   },
   "69": {
     "no": 69,
@@ -215,10 +215,9 @@
     "outline": true,
     "newch": true,
     "script": true,
-    "audio": false,
+    "audio": true,
     "mins": 21.1,
-    "note": "최신 대본과 일치하는 음성 20줄 누락",
-    "version": null
+    "version": "c74db43e631c"
   },
   "73": {
     "no": 73,
@@ -286,9 +285,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 20.3,
-    "version": null
+    "audio": true,
+    "mins": 20.8,
+    "version": "77d27b79a263"
   },
   "80": {
     "no": 80,
@@ -296,9 +295,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 23.2,
-    "version": null
+    "audio": true,
+    "mins": 23.4,
+    "version": "4cabee357249"
   },
   "81": {
     "no": 81,
@@ -306,9 +305,9 @@
     "outline": true,
     "newch": true,
     "script": true,
-    "audio": false,
-    "mins": 22.4,
-    "version": null
+    "audio": true,
+    "mins": 23.0,
+    "version": "0b9ccfd3b436"
   },
   "82": {
     "no": 82,
@@ -316,9 +315,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 23.6,
-    "version": null
+    "audio": true,
+    "mins": 24.0,
+    "version": "5f78d748e950"
   },
   "83": {
     "no": 83,
@@ -326,9 +325,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 22.0,
-    "version": null
+    "audio": true,
+    "mins": 22.1,
+    "version": "3377645b5963"
   },
   "84": {
     "no": 84,
@@ -336,9 +335,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 22.1,
-    "version": null
+    "audio": true,
+    "mins": 22.5,
+    "version": "290f0cae58c5"
   },
   "85": {
     "no": 85,
@@ -346,9 +345,9 @@
     "outline": true,
     "newch": true,
     "script": true,
-    "audio": false,
-    "mins": 21.2,
-    "version": null
+    "audio": true,
+    "mins": 21.5,
+    "version": "9f8b2281cc3b"
   },
   "86": {
     "no": 86,
@@ -356,9 +355,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 21.6,
-    "version": null
+    "audio": true,
+    "mins": 22.5,
+    "version": "572e9de086f4"
   },
   "87": {
     "no": 87,
@@ -366,9 +365,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 21.4,
-    "version": null
+    "audio": true,
+    "mins": 21.8,
+    "version": "352c6681de6b"
   },
   "88": {
     "no": 88,
@@ -376,9 +375,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 23.7,
-    "version": null
+    "audio": true,
+    "mins": 24.2,
+    "version": "8d30681bf6c0"
   },
   "89": {
     "no": 89,
@@ -386,9 +385,9 @@
     "outline": true,
     "newch": true,
     "script": true,
-    "audio": false,
-    "mins": 21.8,
-    "version": null
+    "audio": true,
+    "mins": 22.4,
+    "version": "6aa661869bb9"
   },
   "90": {
     "no": 90,
@@ -396,9 +395,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 23.1,
-    "version": null
+    "audio": true,
+    "mins": 23.5,
+    "version": "85caf514e7ae"
   },
   "91": {
     "no": 91,
@@ -406,9 +405,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 23.3,
-    "version": null
+    "audio": true,
+    "mins": 23.7,
+    "version": "3b4703bfa731"
   },
   "92": {
     "no": 92,
@@ -416,9 +415,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
-    "mins": 22.7,
-    "version": null
+    "audio": true,
+    "mins": 23.1,
+    "version": "8159da6854ee"
   },
   "93": {
     "no": 93,
@@ -426,9 +425,9 @@
     "outline": true,
     "newch": true,
     "script": true,
-    "audio": false,
-    "mins": 21.5,
-    "version": null
+    "audio": true,
+    "mins": 22.0,
+    "version": "580bc9d4f383"
   },
   "94": {
     "no": 94,
@@ -436,9 +435,9 @@
     "outline": true,
     "newch": false,
     "script": true,
-    "audio": false,
+    "audio": true,
     "mins": 23.3,
-    "version": null
+    "version": "ae1620145c4c"
   },
   "95": {
     "no": 95,

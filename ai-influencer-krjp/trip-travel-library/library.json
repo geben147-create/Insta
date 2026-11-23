@@ -5208,6 +5208,32 @@
     "region": "유럽"
   },
   {
+    "id": "aquapalace-prague-treasure-palace-splash",
+    "group": "호텔 이미지",
+    "title": "아쿠아팰리스 호텔 프라하 · 실내 어린이 물놀이장",
+    "caption": "small splashes, big smiles.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/aquapalace-prague-treasure-palace-splash-01.webp",
+        "alt": "아쿠아팰리스 호텔 프라하 · 실내 어린이 물놀이장"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Aquapalace Hotel Prague",
+        "https://www.trip.com/hotels/cestlice-hotel-detail-3108281/aquapalace-hotel-prague/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "familyWater": {
+      "description": "워터월드의 트레저 팰리스에 얕은 30°C 어린이 물놀이 풀이 있습니다. 물레방아, 물줄기, 기울어지는 물통이 있으며 시설별 이용 조건은 공식 안내를 확인하세요.",
+      "source": "https://www.aquapalace.cz/en/detske-brouzdaliste-pro-nejmensi"
+    },
+    "region": "유럽"
+  },
+  {
     "id": "arima-tocen-goshobo-kinsen-bath",
     "group": "호텔 이미지",
     "title": "아리마 온천 도센 고쇼보 · 붉은빛이 도는 긴센 온천",
@@ -5414,7 +5440,7 @@
     "group": "호텔 이미지",
     "title": "뷔르겐슈토크 호텔 · 루체른호 전망 프라이빗 자쿠지",
     "caption": "above the quiet lake.",
-    "video": "",
+    "video": "media/burgenstock-lucerne-private-spa.mp4",
     "stills": [
       {
         "src": "media/burgenstock-lucerne-private-spa-01.webp",
@@ -5428,12 +5454,13 @@
         "https://www.trip.com/hotels/stansstad-hotel-detail-11108176/burgenstock-hotel-and-alpine-spa/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
     "familyWater": {
       "description": "알파인 스파 일부 수영장은 오전 9시~정오와 오후 5~7시에 어린이 동반 이용이 가능합니다. 창작 이미지의 모티프인 프라이빗 스파 자쿠지의 어린이 이용 조건은 시설에 확인하세요.",
       "source": "https://burgenstockresort.com/en/faq"
     },
-    "region": "유럽"
+    "region": "유럽",
+    "poster": "media/burgenstock-lucerne-private-spa-01.webp"
   },
   {
     "id": "canaves-oia-river-jacuzzi",
@@ -6522,7 +6549,7 @@
     "group": "호텔 이미지",
     "title": "파크 하얏트 시드니 · 오페라하우스가 보이는 푸른 저녁",
     "caption": "the harbour holds the light.",
-    "video": "",
+    "video": "media/park-hyatt-sydney-opera-night.mp4",
     "stills": [
       {
         "src": "media/park-hyatt-sydney-opera-night-01.webp",
@@ -6536,8 +6563,9 @@
         "https://www.trip.com/hotels/sydney-hotel-detail-734386/park-hyatt-sydney/?locale=en-US"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "오세아니아"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "오세아니아",
+    "poster": "media/park-hyatt-sydney-opera-night-01.webp"
   },
   {
     "id": "passalacqua-lake-como-peach-breakfast",

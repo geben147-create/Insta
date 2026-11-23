@@ -6063,7 +6063,7 @@
     "group": "호텔 이미지",
     "title": "카마나 레이크하우스 · 와카티푸 호수 전망 온수 욕조",
     "caption": "the lake keeps the quiet.",
-    "video": "",
+    "video": "media/kamana-lakehouse-wakatipu-soak.mp4",
     "stills": [
       {
         "src": "media/kamana-lakehouse-wakatipu-soak-01.webp",
@@ -6077,8 +6077,9 @@
         "https://www.trip.com/hotels/queenstown-hotel-detail-1565632/kamana-lakehouse/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "오세아니아"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "오세아니아",
+    "poster": "media/kamana-lakehouse-wakatipu-soak-01.webp"
   },
   {
     "id": "kayon-ubud-jungle-hot-tub",
@@ -6818,7 +6819,7 @@
     "group": "호텔 이미지",
     "title": "상하이 디즈니랜드 호텔 인근 · 가족과 걷는 가을 호숫길",
     "caption": "a little wonder across the lake.",
-    "video": "",
+    "video": "media/shanghai-disneyland-hotel-lakeside-path.mp4",
     "stills": [
       {
         "src": "media/shanghai-disneyland-hotel-lakeside-path-01.webp",
@@ -6832,8 +6833,9 @@
         "https://www.trip.com/hotels/shanghai-hotel-detail-4687218/shanghai-disneyland-hotel/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지",
-    "region": "중국"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "region": "중국",
+    "poster": "media/shanghai-disneyland-hotel-lakeside-path-01.webp"
   },
   {
     "id": "shangri-la-mactan-cebu-family-aquaplay",
@@ -6933,6 +6935,28 @@
     },
     "region": "한국",
     "poster": "media/shinhwa-jeju-family-water-play-01.webp"
+  },
+  {
+    "id": "signiel-seoul-han-river-blue-hour",
+    "group": "호텔 이미지",
+    "title": "시그니엘 서울 · 높은 창가에서 바라본 한강 야경",
+    "caption": "seoul slips into blue.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/signiel-seoul-han-river-blue-hour-01.webp",
+        "alt": "시그니엘 서울 · 높은 창가에서 바라본 한강 야경"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "SIGNIEL SEOUL",
+        "https://kr.trip.com/hotels/seoul-hotel-detail-19624480/signiel-seoul/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지",
+    "region": "한국"
   },
   {
     "id": "sunway-resort-lagoon-ravine-bridge",

@@ -30,6 +30,8 @@ const MENUS = {
     {id:'tlog', t:'작업 기록 · 점검표', s:'이전 대화 결과 + 안 된 것', tag:'doc'}
   ],
   video: [
+    {grp:'🌸 새 영상 제작 · 기존 영상 수정'},
+    {id:'production-flow', t:'🎬 51~100 제작 준비 · AI 생성→HumanTouch 마감', s:'기획서 50편 연결 · 실제 캡처 · 연출 시안 · 전체 프롬프트 한 번 복사', tag:'new', f:'production-51-100/'},
     {grp:'📚 자막 · 편집 분석'},
     {id:'fontmaster', t:'폰트·자막·방송 통합 가이드', tag:'old', f:BF+'index.html'},
     {id:'top1edit', t:'코리아국뽕한사발 편집·자막 분석', tag:'old', f:'../../kukppong-top1-editing-20261108/'},

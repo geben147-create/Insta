@@ -312,3 +312,20 @@ ${HTML.status}
 </ul>
 <p>이전 검증 상태: HTML 저장, 메뉴 연결, 자바스크립트 구문 검사 통과. 모바일 화면 동작은 당시 미검증 → 이번 작업에서 좁은 화면일 때 미리보기를 위에 고정하도록 수정.</p>
 </div>`;
+
+
+/* 🌸 추가 부록: 기존 영상편집 마스터 계획의 원문은 유지하고 상단에 제작 인계·캡처를 표시 */
+HTML.plan = HTML.plan.replace('<div class="jump">', `
+<div style="background:#132a24;border:1px solid #357e69;border-radius:12px;padding:14px;margin:10px 0 14px">
+ <h2 style="margin:0 0 8px">🌸 51~100 제작 연결 · 실제 편집 캡처</h2>
+ <p>새 영상은 <b>무자막 영상 + 자막 SRT + 스타일 JSON + 편집 타임라인</b>을 따로 생성하고, 기존 영상은 번인 자막 여부를 먼저 확인합니다. 원본 아웃라인·본문은 변경하지 않습니다.</p>
+ <p><a class="btn" href="production-51-100/" target="_blank" rel="noopener">🎬 51~100편 제작·수정 안내 / 전체 지시문 한 번 복사 ↗</a> · <a href="../../kukppong-batch-20261122/outline50/" target="_blank" rel="noopener">원본 기획서 50개 ↗</a></p>
+ <p style="font-size:12px;color:#b4d0ca">아래 사진은 기존 저장소에 있는 <b>실제 편집 분석 캡처</b>이며 새로 생성한 영상의 완성본이 아닙니다. 적용할 자막·VS·댓글·통계의 디자인 시안 4종은 위 링크에서 함께 확인할 수 있습니다.</p>
+ <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-top:12px">
+  <figure style="margin:0"><img loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px" src="../../단골이슈_쓸모왕_영상편집분석/img/M-QiCbKQA4Q/cap_00006.jpg" alt="기존 실제 편집 분석 캡처 00006"><figcaption style="font-size:12px;color:#b7c6ca">① 실제 편집 분석 캡처</figcaption></figure>
+  <figure style="margin:0"><img loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px" src="../../단골이슈_쓸모왕_영상편집분석/img/M-QiCbKQA4Q/cap_00114.jpg" alt="기존 실제 편집 분석 캡처 00114"><figcaption style="font-size:12px;color:#b7c6ca">② 기존 영상의 화면 구성</figcaption></figure>
+  <figure style="margin:0"><img loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px" src="../../research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R03_broadcast_angry.jpg" alt="R03 방송 글씨 참고 화면"><figcaption style="font-size:12px;color:#b7c6ca">③ 방송 자막 참고 캡처 R03</figcaption></figure>
+  <figure style="margin:0"><img loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px" src="../../research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R05_gold_special.jpg" alt="R05 금색 강조 글씨 참고 화면"><figcaption style="font-size:12px;color:#b7c6ca">④ 글씨 강조 참고 캡처 R05</figcaption></figure>
+ </div>
+</div>
+<div class="jump">`);

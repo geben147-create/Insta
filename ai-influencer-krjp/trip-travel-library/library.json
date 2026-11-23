@@ -5222,6 +5222,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "four-seasons-bosphorus-terrace-breakfast",
+    "group": "호텔 이미지",
+    "title": "포시즌스 이스탄불 보스포루스 · 해협을 바라보는 테라스 조식",
+    "caption": "morning on the bosphorus.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/four-seasons-bosphorus-terrace-breakfast-01.webp",
+        "alt": "포시즌스 이스탄불 보스포루스 · 해협을 바라보는 테라스 조식"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Four Seasons Hotel Istanbul at the Bosphorus",
+        "https://www.trip.com/hotels/istanbul-hotel-detail-2117269/four-seasons-hotel-istanbul-at-the-bosphorus/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "fuji-q-highland-first-steps",
     "group": "호텔 이미지",
     "title": "하이랜드 리조트 호텔 & 스파 · 후지큐 하이랜드로 향하는 발걸음",

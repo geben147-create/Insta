@@ -5138,6 +5138,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "fuji-q-highland-first-steps",
+    "group": "호텔 이미지",
+    "title": "하이랜드 리조트 호텔 & 스파 · 후지큐 하이랜드로 향하는 발걸음",
+    "caption": "a small step toward fuji.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/fuji-q-highland-first-steps-01.webp",
+        "alt": "하이랜드 리조트 호텔 & 스파 · 후지큐 하이랜드로 향하는 발걸음"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Highland Resort Hotel & Spa",
+        "https://www.trip.com/hotels/fujiyoshida-hotel-detail-704683/highland-resort-hotel-and-spa/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "grand-view-beitou-mountain-hot-spring",
     "group": "호텔 이미지",
     "title": "그랜드 뷰 리조트 베이터우 · 산안개가 흐르는 온천",

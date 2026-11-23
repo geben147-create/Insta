@@ -4933,7 +4933,7 @@
     "group": "호텔 이미지",
     "title": "아사바 료칸 · 연못과 대나무 숲이 보이는 온천",
     "caption": "stillness gathers at the pond.",
-    "video": "",
+    "video": "media/asaba-shuzenji-pond-pavilion-onsen.mp4",
     "stills": [
       {
         "src": "media/asaba-shuzenji-pond-pavilion-onsen-01.webp",
@@ -4947,7 +4947,8 @@
         "https://www.trip.com/hotels/izu-hotel-detail-1655830/asaba-ryokan/"
       ]
     ],
-    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+    "detail": "숙소에서 영감받아 AI로 만든 장면",
+    "poster": "media/asaba-shuzenji-pond-pavilion-onsen-01.webp"
   },
   {
     "id": "atlantis-dubai-family-splash",
@@ -5260,6 +5261,27 @@
         "숙소 예약",
         "Ensana Thermal Margaret Island",
         "https://www.trip.com/hotels/csobanka-hotel-detail-2495885/ensana-thermal-margaret-island/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
+    "id": "explora-patagonia-pehoe-hot-tub",
+    "group": "호텔 이미지",
+    "title": "엑스플로라 파타고니아 · 페오에 호숫가의 자쿠지",
+    "caption": "the wind settles on the lake.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/explora-patagonia-pehoe-hot-tub-01.webp",
+        "alt": "엑스플로라 파타고니아 · 페오에 호숫가의 자쿠지"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Explora en Torres del Paine - All Inclusive",
+        "https://www.trip.com/hotels/torres-del-paine-hotel-detail-4353771/explora-patagonia/"
       ]
     ],
     "detail": "숙소에서 영감받아 AI로 만든 이미지"

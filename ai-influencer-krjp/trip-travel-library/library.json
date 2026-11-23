@@ -5390,6 +5390,27 @@
     "detail": "숙소에서 영감받아 AI로 만든 이미지"
   },
   {
+    "id": "risonare-atami-family-pool",
+    "group": "호텔 이미지",
+    "title": "호시노 리조트 리조나레 아타미 · 바다 전망 가족 수영장",
+    "caption": "together by the water.",
+    "video": "",
+    "stills": [
+      {
+        "src": "media/risonare-atami-family-pool-01.webp",
+        "alt": "호시노 리조트 리조나레 아타미 · 바다 전망 가족 수영장"
+      }
+    ],
+    "links": [
+      [
+        "숙소 예약",
+        "Hoshino Resorts RISONARE Atami",
+        "https://www.trip.com/hotels/atami-hotel-detail-1572665/hotel/"
+      ]
+    ],
+    "detail": "숙소에서 영감받아 AI로 만든 이미지"
+  },
+  {
     "id": "ronsard-irabu-ocean-jacuzzi",
     "group": "호텔 이미지",
     "title": "론사르 리조트 이라부 · 미야코지마 바다 전망 자쿠지",

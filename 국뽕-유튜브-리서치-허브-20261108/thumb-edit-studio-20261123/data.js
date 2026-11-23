@@ -30,6 +30,13 @@ const MENUS = {
     {id:'tlog', t:'작업 기록 · 점검표', s:'이전 대화 결과 + 안 된 것', tag:'doc'}
   ],
   video: [
+    {grp:'📚 자막 · 편집 분석'},
+    {id:'fontmaster', t:'폰트·자막·방송 통합 가이드', tag:'old', f:BF+'index.html'},
+    {id:'top1edit', t:'코리아국뽕한사발 편집·자막 분석', tag:'old', f:'../../kukppong-top1-editing-20261108/'},
+    {id:'ssulmo', t:'단골이슈·쓸모왕 편집 분석', tag:'old', f:'../../단골이슈_쓸모왕_영상편집분석/'},
+    {id:'rules68', t:'영상 제작 규칙 · STEP 6~8 원문', tag:'old', f:'../../research-hub-20261108/video-production-rules-steps6-8.html'},
+    {id:'editmd', t:'편집 분석 전문 (안전 5편)', tag:'doc', md:'../docs/editing_analysis_safe5.md'},
+    {id:'editprompt', t:'국뽕 영상편집 프롬프트 원문', tag:'doc', md:'../../research-hub-20261108/KUKPPONG_VIDEO_EDIT_PROMPT_ONLY.md'},
     {grp:'⭐ 장면별 연출 (예시 포함)'},
     {id:'vfx', t:'장면별 연출 프리셋', s:'훅 · 한국 대단해 · 반전 · 통계 · 키워드 · VS · 댓글 · 결론', tag:'new'},
     {id:'plan', t:'영상편집 마스터 계획 ①~⑩', s:'+ 공통 규칙 + 프롬프트 A·B·C', tag:'new'},
@@ -39,13 +46,6 @@ const MENUS = {
     {grp:'🛠 실험실'},
     {id:'vlab', t:'영상편집 디자인 실험실', s:'조절 미반영 버그 수정', tag:'fix', f:BF+'video-edit-lab.html'},
     {id:'vtypo', t:'자막 글씨 8종 · 폰트 비교', s:'썸네일 탭과 같은 편집기', tag:'fix', f:BF+'typography-refs-20261122/guide.html'},
-    {grp:'📚 자막 · 편집 분석'},
-    {id:'fontmaster', t:'폰트·자막·방송 통합 가이드', tag:'old', f:BF+'index.html'},
-    {id:'top1edit', t:'코리아국뽕한사발 편집·자막 분석', tag:'old', f:'../../kukppong-top1-editing-20261108/'},
-    {id:'ssulmo', t:'단골이슈·쓸모왕 편집 분석', tag:'old', f:'../../단골이슈_쓸모왕_영상편집분석/'},
-    {id:'rules68', t:'영상 제작 규칙 · STEP 6~8 원문', tag:'old', f:'../../research-hub-20261108/video-production-rules-steps6-8.html'},
-    {id:'editmd', t:'편집 분석 전문 (안전 5편)', tag:'doc', md:'../docs/editing_analysis_safe5.md'},
-    {id:'editprompt', t:'국뽕 영상편집 프롬프트 원문', tag:'doc', md:'../../research-hub-20261108/KUKPPONG_VIDEO_EDIT_PROMPT_ONLY.md'},
     {grp:'📋 기록'},
     {id:'vlog', t:'작업 기록 · 점검표', tag:'doc'}
   ]

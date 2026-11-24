@@ -17,7 +17,8 @@
     "T07_actual_input": "#e03c3e after applying T07",
     "legacy_NO_inputs": "#f22b15 and #c30e0c",
     "legacy_title": "#ffe713 and gradient unchecked",
-    "T04_link": "opened existing guide with #T04 and displayed its two-tone controls"
+    "T04_link": "opened existing guide with #T04 and displayed its two-tone controls",
+    "cross_session_inputs": "A/CURRENT/C/S/R list public manifest, ZIP and relative source paths; registered inputs are not claimed as locally opened"
   },
   "not_checked": [
     "actual HumanTouch renderer",

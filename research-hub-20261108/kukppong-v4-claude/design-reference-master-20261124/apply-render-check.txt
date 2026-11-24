@@ -1,5 +1,17 @@
 [C · 실제 교정본 검수 및 통과 후 배치 적용]
 
+[🌸 새 세션에서 참조 자료를 여는 방법]
+본문의 ‘받았다/수신했다’는 원 제작 대화에 등록된 자료 목록이다. 현재 실행 세션에서 파일을 열었거나 다운로드했다는 뜻은 아니다. 아래 자료를 실제로 열어 확인한 범위만 수신·검수 완료로 보고한다.
+- 통합 HTML: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/
+- 24장 원본·크롭·명시색·실측색 목록: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/reference-manifest.json
+- 원본 24장과 실행 지시 묶음: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/design-reference-kit.zip
+- 역할별 지정색: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/color-roles.json
+- 참조 적용 규칙 R: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/reference-rules.json
+- 통계 규칙 S: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/statistics-rules.json
+ZIP을 첨부받았으면 압축을 풀어 루트의 reference-manifest.json을 먼저 읽는다. URL만 받았으면 위 manifest를 열고 references[].asset_url을 manifest 주소 기준 상대 경로로 해석하여 필요한 원본 이미지를 실제로 연다. 기존 studio-thumb&sub=faces 주소는 편집기 참고 링크이며, 신규 24장 묶음의 진입점은 위 통합 자료다.
+웹 접근이 안 되면 첨부 ZIP의 동일 파일을 사용한다. 둘 다 접근되지 않는 자료만 미확인으로 표시하고 가능한 교정은 계속한다. 이미지 내용을 추정해 적용하거나 파일을 확인했다고 보고하지 않는다.
+ZIP에는 참고 사진·규칙·웹 시안이 들어 있다. 제작용 개별 고해상도 캐릭터, 실제 HumanTouch 프로젝트, 최종 MP4, 원본 클립, 대본·TTS까지 들어 있다고 간주하지 않는다. 그 제작 입력은 현재 작업 환경의 실제 경로에서 확인한다.
+
 CURRENT에서 교정한 실제 결과를 확인한다. 먼저30초 샘플·대표1편 전체·🌸마지막60초를 검수하고, 통과한 버전만 기존 에피소드에 확대한다. 새 허락 조건을 추가하지 않고 기존 사용자 승인·프로젝트 규칙·대표 검수 순서를 따른다.
 
 [C-1. 웹 수정 이력과 실제 실행 경로 확인]

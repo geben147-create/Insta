@@ -38,7 +38,9 @@ for batch in sorted({r['batch'] for r in refs},reverse=True):
                f'<figcaption><span>{r["number"]:02d}</span> {esc(r["title"])} '
                f'<a class="sub" href="{esc(r["original"])}">원본</a></figcaption></figure>')
  label=f'{group[0]["group"]} · {len(group)}장'
- refgroups.append(f'<details {"open" if group[0]["priority"] else ""}><summary>{esc(label)}</summary><div class="cards">{"".join(cards)}</div></details>')
+ priority = group[0]['priority']
+ attributes = ' id="focus-references" open' if priority else ''
+ refgroups.append(f'<details{attributes}><summary>{esc(label)}</summary><div class="cards">{"".join(cards)}</div></details>')
 labels={'family-cast-reference.jpg':'고정 가족','east-asia-single-wave-preview.png':'단일 웨이브 헤어','east-asia-single-wave-pool-preview.png':'수영장 의상','family-splash-pool-preview.png':'가족 물놀이','coffee-hand-camera-preview.jpg':'손과 조식 디테일'}
 cast_assets=[f'<figure><a href="cast/{file}"><img loading="lazy" src="cast/{file}" alt="{label}"></a><figcaption>{label}</figcaption></figure>' for file,label in labels.items()]
 regions=Counter(row.get('region','') or '미분류' for row in library)

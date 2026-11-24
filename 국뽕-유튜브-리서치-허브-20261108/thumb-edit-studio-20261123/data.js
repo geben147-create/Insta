@@ -5,6 +5,8 @@ const BF = '../../research-hub-20261108/broadcast-font-subtitle-master-20261121/
 /* ── 하위 메뉴 ───────────────────────────── */
 const MENUS = {
   thumb: [
+    {grp:'🔥 썸네일 V3 규칙 (최신)'},
+    {id:'rulesv3', t:'썸네일 V3 규칙 · 전체 복사', s:'문구 공식 · 꽉 찬 화면 · 스타일 3종 · 시범 10장', tag:'new', f:'thumb-rules-v3/'},
     {grp:'⭐ 만들기 (한 화면에서)'},
     {id:'editor', t:'통합 썸네일 편집기', s:'템플릿 11 · 표정 · 원본 14 · 자동 누끼 · 아우라 · PNG', tag:'new', f:'editor.html'},
     {grp:'📌 이번 요청 정리'},

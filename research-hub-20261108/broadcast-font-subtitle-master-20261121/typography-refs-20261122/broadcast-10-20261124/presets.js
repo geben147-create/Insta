@@ -1639,7 +1639,7 @@ window.BROADCAST_PRESETS=[
     "kind": "기사 / 문서 근거",
     "original": "고강도 … 라이브 (중간 글자는 가려져 판독 불가)",
     "ratio": "16:9",
-    "notes": "04번 주석 화면: 문서 전체가 흐려져 있고 중앙 핵심 문장은 선명하며 노란 형광펜 띠가 뒤에 깔립니다. 글자 시작점에 맞춘 좌우 패딩, 원본의 글꼴을 유지. 바깥 여백 39% 표시(정의 미확인), 하단 5% 기준선. 실제 문서 파일을 두 레이어에 동일하게 넣고 위쪽 선명 영역을 잘라 사용. 아래 기본 텍스트는 디자인용 자리표시자이며 실제 기사 인용이 아닙니다.",
+    "notes": "04번 주석 화면: 문서 전체가 흐려져 있고 중앙 핵심 문장은 선명하며 노란 형광펜 띠가 뒤에 깔립니다(렌더링은 선명 원문 위에 곱하기 색상 혼합). 글자 시작점에 맞춘 좌우 패딩, 원본의 글꼴을 유지. 바깥 여백 39% 표시(정의 미확인), 하단 5% 기준선. 실제 문서 파일을 두 레이어에 동일하게 넣고 위쪽 선명 영역을 잘라 사용. 아래 기본 텍스트는 디자인용 자리표시자이며 실제 기사 인용이 아닙니다.",
     "candidates": [
       "ref-374",
       "ref-366",
@@ -1679,20 +1679,6 @@ window.BROADCAST_PRESETS=[
         "blur": 15
       },
       {
-        "type": "shape",
-        "name": "노란 형광펜 띠",
-        "x": 960,
-        "y": 550,
-        "w": 1320,
-        "h": 190,
-        "color": "#F3DC57",
-        "second": "#F3DC57",
-        "opacity": 77,
-        "angle": 0,
-        "visible": true,
-        "radius": 1
-      },
-      {
         "type": "photo",
         "name": "같은 문서의 핵심 문장 크롭",
         "x": 960,
@@ -1704,6 +1690,21 @@ window.BROADCAST_PRESETS=[
         "visible": true,
         "flip": false,
         "required": true
+      },
+      {
+        "type": "shape",
+        "name": "노란 형광펜 띠",
+        "x": 960,
+        "y": 550,
+        "w": 1320,
+        "h": 190,
+        "color": "#F3DC57",
+        "second": "#F3DC57",
+        "opacity": 74,
+        "angle": 0,
+        "visible": true,
+        "radius": 1,
+        "blend": "multiply"
       },
       {
         "type": "text",
@@ -1742,7 +1743,7 @@ window.BROADCAST_PRESETS=[
     "kind": "뉴스 / 근거",
     "original": "리트 만점자에 쏠린 시선, 왜? / 지운 답, 시험 문항 답과 일치",
     "ratio": "16:9",
-    "notes": "05번 주석 화면: 상단 좌측 분홍 네온 소주제 박스, 청록 인물 윤곽, 문서 배경, 빨간 손그림 화살표, 하단 짙은 자주색 반투명 기사 자막 박스와 흰색 제목·강한 핫핑크 두 번째 줄, 아래 핑크 가로선. 하단 여백 5~6%. 원본 사례의 문장은 참고용이며 새 영상에서 실제 기사 제목과 출처로 교체. 인물과 문서는 별도 이미지 레이어.",
+    "notes": "05번 주석 화면: 상단 좌측 분홍 네온 소주제 박스, 청록 인물 윤곽, 문서 배경, 빨간 손그림 화살표, 하단 짙은 자주색 반투명 기사 자막 박스와 흰색 제목·강한 핫핑크 두 번째 줄, 아래 핑크 가로선. 하단 여백 5~6%. 원본 사례의 문장은 참고용이며 새 영상에서 실제 기사 제목과 출처로 교체. 인물과 문서는 별도 이미지 레이어. 원본 화면의 빨간 손그림 화살표는 별도 표시 요소로 추가합니다.",
     "candidates": [
       "ref-106",
       "ref-738",
@@ -1829,6 +1830,19 @@ window.BROADCAST_PRESETS=[
         "box": "#EF35B7",
         "boxType": "rect",
         "boxOpacity": 100
+      },
+      {
+        "type": "asset",
+        "name": "빨간 손그림 화살표",
+        "asset": "news-arrow.svg",
+        "x": 1040,
+        "y": 510,
+        "w": 270,
+        "h": 150,
+        "angle": 0,
+        "opacity": 100,
+        "visible": true,
+        "flip": false
       },
       {
         "type": "text",
@@ -1944,4 +1958,4 @@ window.BROADCAST_PRESETS=[
   }
 ];
 window.BROADCAST_FONTS=[["ref-106","검은고딕","https://fonts.google.com/specimen/Black+Han+Sans"],["ref-738","SB 어그로 B","https://www.sandbox.co.kr/company-ci"],["ref-366","G마켓 산스 Bold","https://corp.gmarket.com/fonts/"],["ref-jalnan-gothic","잘난체 고딕","https://gccompany.co.kr/font"],["ref-394","레코체","https://noonnu.cc/font_page/394"],["ref-374","정선아리랑뿌리체","https://noonnu.cc/font_page/374"],["ref-68","잉크립퀴드","https://noonnu.cc/font_page/68"],["ref-Nanum+Brush+Script","나눔손글씨 붓","https://fonts.google.com/specimen/Nanum+Brush+Script"],["ref-Anton","Anton","https://fonts.google.com/specimen/Anton"],["Bangers","Bangers","https://fonts.google.com/specimen/Bangers"],["ref-Jua","주아","https://fonts.google.com/specimen/Jua"],["system-ui","기본 고딕",""]];
-window.BROADCAST_ASSETS=["fire-caption.svg","fire-background.svg","magma-crack.svg","red-aura.svg","phone-hand.svg","bubble-left.svg","bubble-right.svg","orange-ring.svg","perilla-leaf.svg","split-line.svg","grunge-mask.svg"];
+window.BROADCAST_ASSETS=["fire-caption.svg","fire-background.svg","magma-crack.svg","red-aura.svg","phone-hand.svg","bubble-left.svg","bubble-right.svg","orange-ring.svg","perilla-leaf.svg","split-line.svg","grunge-mask.svg","news-arrow.svg"];

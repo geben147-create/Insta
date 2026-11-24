@@ -1,0 +1,28 @@
+/* Self-contained preview styling. No web-font or network dependencies. */
+.stats-preview-frame {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 22px;
+  background: #f3f5f8;
+}
+.stats-preview-frame[data-orientation="wide"] { aspect-ratio: 16 / 9; }
+.stats-preview-frame[data-orientation="tall"] { aspect-ratio: 9 / 16; }
+.stats-preview-frame > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  text-rendering: geometricPrecision;
+  shape-rendering: geometricPrecision;
+}
+.stats-preview-frame svg text {
+  font-variant-numeric: tabular-nums;
+  font-kerning: normal;
+}
+.stats-preview-frame svg .sp-softline { vector-effect: non-scaling-stroke; }
+@media print {
+  .stats-preview-frame { break-inside: avoid; border: 1px solid #d5dbe5; }
+}

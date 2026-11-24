@@ -40,6 +40,8 @@ for batch in sorted({r['batch'] for r in refs},reverse=True):
  label=f'{group[0]["group"]} · {len(group)}장'
  priority = group[0]['priority']
  attributes = ' id="focus-references" open' if priority else ''
+ if group[0]['group']=='여행 장면과 수영장':
+  attributes = ' id="pool-references" open'
  refgroups.append(f'<details{attributes}><summary>{esc(label)}</summary><div class="cards">{"".join(cards)}</div></details>')
 labels={'family-cast-reference.jpg':'고정 가족','east-asia-single-wave-preview.png':'단일 웨이브 헤어','east-asia-single-wave-pool-preview.png':'수영장 의상','family-splash-pool-preview.png':'가족 물놀이','coffee-hand-camera-preview.jpg':'손과 조식 디테일'}
 cast_assets=[f'<figure><a href="cast/{file}"><img loading="lazy" src="cast/{file}" alt="{label}"></a><figcaption>{label}</figcaption></figure>' for file,label in labels.items()]

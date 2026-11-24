@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>애니한 로판 · 한국어 제작 프롬프트</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#100d13;color:#f5eef5;font:16px/1.6 system-ui,sans-serif}main{max-width:880px;margin:auto;padding:16px}section{background:#231925;border:1px solid #483144;border-radius:10px;margin:12px 0;padding:14px}h1,h2,p{margin:.3em 0}a{color:#ffb6da}button{border:0;border-radius:7px;background:#f4b4d6;color:#241321;padding:7px 14px;font:inherit;font-weight:700;cursor:pointer}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#130f17;border-radius:6px;padding:10px;margin:10px 0 0;font:inherit}.note{color:#e2ccdd}output{margin-left:9px}</style>
+<main><nav><a href="../../">Insta 허브</a> · <a href="../">로판이별 영상분석</a></nav><h1>애니한 로판 · 한국어 제작 프롬프트</h1><p class="note">참고: 애니한의 Higgsfield AI 드라마 영상 캡처. 화면에서 읽힌 문장과 여러 캡처를 바탕으로 재구성한 복사용 프롬프트를 구분했습니다. 화면에 잘린 부분은 전체 원문으로 확인되지 않았습니다.</p>
+<section><h2>캡처에서 읽은 시작 문장</h2><button type="button">문장 복사</button><output aria-live="polite"></output><pre>너는 AI 단편 드라마의 기획자이자 시나리오 작가야.
+내 아이디어를 실제로 제작할 수 있는 짧은 영상 기획으로 발전시켜줘.</pre></section>
+<section><h2>장면 제작용 · 한국어 재구성본</h2><button type="button">프롬프트 복사</button><output aria-live="polite"></output><pre>너는 AI 단편 드라마의 기획자이자 시나리오 작가야.
+아래 아이디어를 시작·전개·결말이 있는, 실제 제작 가능한 짧은 드라마로 발전시켜줘. 기능 시연이 아니라 한 편의 이야기로 만들어줘.
+
+[인물]
+- 여주: 로맨스 판타지 세계에 환생한 22세 한국 여성. 둥근 안경, 친근한 인상, 통통한 체형. 연녹색 로판 드레스를 입고 요리를 잘한다. 외모가 바뀌거나 살을 빼야 사랑받는 전개는 넣지 않는다.
+- 황태자: 25세. 금발, 창백한 피부, 마른 체형. 아이보리 궁정복을 입고, 피곤하고 냉담해 보인다.
+
+[이야기]
+황태자는 수프와 빵을 보고도 식기에 손대지 않는다. 여주는 반응을 기다리다가 실망한다. 그날 밤, 여주가 혼자 라면을 끓이자 황태자가 냄새를 맡고 찾아온다. 한 입 맛본 뒤, 음식뿐 아니라 여주에게도 처음으로 관심을 보인다. 라면 한 그릇으로 병이 낫는 전개는 넣지 않는다.
+
+[첫 장면 — Higgsfield용]
+두 인물의 상반신과 음식이 함께 보이는 가로 고정 투샷. 두 사람을 화면 좌우에 배치하고 그 사이에 식탁을 둔다.
+시작: 여주가 황태자의 반응을 기다린다.
+행동: 황태자가 수프와 빵을 바라보기만 하고 손대지 않는다.
+끝: 여주의 기대가 조금 식는다.
+한국어 내레이션: “로판에 환생했는데 남자 주인공이 밥을 안 먹습니다.”
+목소리: 성인 여성의 자연스러운 중음역. 또렷한 표준 한국어, 생활감 있는 말투. 담담하지만 약간 어이없는 감정. 과장된 애교는 없다.
+
+[출력]
+장면마다 길이, 인물 행동, 구도와 카메라 움직임, 대사 또는 내레이션을 나눠서 써줘. 각 장면의 영상 생성 프롬프트는 따로 복사할 수 있게 만들어줘.</pre></section></main>
+<script>for(const b of document.querySelectorAll('button')){b.onclick=async()=>{const text=b.parentElement.querySelector('pre').textContent; const status=b.parentElement.querySelector('output');try{await navigator.clipboard.writeText(text);status.textContent='복사 완료';}catch{const sel=window.getSelection();const r=document.createRange();r.selectNodeContents(b.parentElement.querySelector('pre'));sel.removeAllRanges();sel.addRange(r);status.textContent='텍스트를 선택했습니다. 복사 단축키를 누르세요.';}}}</script></html>

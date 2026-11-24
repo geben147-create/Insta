@@ -1,0 +1,1505 @@
+{
+  "title": "사용자 제공 REF08–24와 기존 GitHub 디자인 허브 소스 감사",
+  "audited_commit": "6b91d1f82d2d2dfc181ab4c8acba11806412ef7b",
+  "prior_commit": "afbaeea38ea78804b5ba4d1e5dfde4950e7e0090",
+  "relevant_source_diff_since_prior_commit": [],
+  "scope": "Read-only Git objects and audit copies. No repository mutation, font download, browser localStorage inspection, renderer mutation, MP4 frame review, or publication.",
+  "status": "source_audit_complete",
+  "user_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-thumb&sub=faces",
+  "source_files": {
+    "hub": {
+      "path": "국뽕-유튜브-리서치-허브-20261108/index.html",
+      "blob_sha": "b2f3871edf0646d2e1626ce95b600d70cf86f2c1",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/index.html",
+      "pages_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/index.html",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/index.html"
+    },
+    "data": {
+      "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+      "blob_sha": "96e067fc65a0602e734b5e4c1fdb6cba012378dc",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/data.js",
+      "pages_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/data.js",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/thumb-edit-studio-20261123/data.js"
+    },
+    "studio": {
+      "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/studio.js",
+      "blob_sha": "70b6bbec29eb6aabd00548ccde34f0b0ebfdffb3",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/studio.js",
+      "pages_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/studio.js",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/thumb-edit-studio-20261123/studio.js"
+    },
+    "studio_index": {
+      "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/index.html",
+      "blob_sha": "7ce6aa60950003bc937d47180831d0f554544ad1",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/index.html",
+      "pages_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/index.html",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/thumb-edit-studio-20261123/index.html"
+    },
+    "content": {
+      "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/content.js",
+      "blob_sha": "6385bb8a4f958ecd9a31f854ead949c24e54fd30",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/content.js",
+      "pages_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/content.js",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/thumb-edit-studio-20261123/content.js"
+    },
+    "media": {
+      "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/media.js",
+      "blob_sha": "c85c4a05ea41090f2fbc80f01cb233ebaebad839",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/media.js",
+      "pages_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/media.js",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/thumb-edit-studio-20261123/media.js"
+    },
+    "fonts": {
+      "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/fonts.css",
+      "blob_sha": "0a6b9a5657539baf69229aaf88fc843c18ac1e4a",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/fonts.css",
+      "pages_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/fonts.css",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/thumb-edit-studio-20261123/fonts.css"
+    },
+    "font_audit": {
+      "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/fonts-audit.json",
+      "blob_sha": "8febce9ca48e7055d4690f700e79e50735437f4d",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/fonts-audit.json",
+      "pages_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/fonts-audit.json",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/thumb-edit-studio-20261123/fonts-audit.json"
+    },
+    "integrated_editor": {
+      "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/editor.js",
+      "blob_sha": "d22203fb63ee5c8c466d3070a09641beb184230d",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/editor.js",
+      "pages_url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/thumb-edit-studio-20261123/editor.js",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/thumb-edit-studio-20261123/editor.js"
+    },
+    "old_layer": {
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/thumbnail-layer-lab-20261123/index.html",
+      "blob_sha": "105a9e9a563154638305689710e2a5f1c6b4061d",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/research-hub-20261108/broadcast-font-subtitle-master-20261121/thumbnail-layer-lab-20261123/index.html",
+      "pages_url": "https://geben147-create.github.io/Insta/research-hub-20261108/broadcast-font-subtitle-master-20261121/thumbnail-layer-lab-20261123/index.html",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/broadcast/thumbnail-layer-lab-20261123/index.html"
+    },
+    "video_lab": {
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+      "blob_sha": "244ff7b393a99b68c6943738e1348d6d1dd8ec9d",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+      "pages_url": "https://geben147-create.github.io/Insta/research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/broadcast/video-edit-lab.html"
+    },
+    "guide": {
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/guide.html",
+      "blob_sha": "37baafa7471e69c21c155925dec791d59e045660",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/guide.html",
+      "pages_url": "https://geben147-create.github.io/Insta/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/guide.html",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/broadcast/typography-refs-20261122/guide.html"
+    },
+    "typo_editor": {
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+      "blob_sha": "6047e55313f3ca6c72eded8ba001d3c5024f387c",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+      "pages_url": "https://geben147-create.github.io/Insta/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/broadcast/typography-refs-20261122/editor.js"
+    },
+    "typo_css": {
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "blob_sha": "feba485398e57d8307b96c96e6b1544c223ab817",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "pages_url": "https://geben147-create.github.io/Insta/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/broadcast/typography-refs-20261122/editor.css"
+    },
+    "gold_renderer": {
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-renderer.js",
+      "blob_sha": "4d9b81d8f07e85f9c12ee3a436af723d5fba1a09",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-renderer.js",
+      "pages_url": "https://geben147-create.github.io/Insta/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-renderer.js",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/broadcast/typography-refs-20261122/gold-renderer.js"
+    },
+    "gold_editor": {
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-editor.js",
+      "blob_sha": "3e50ed926d236efac7f8c67520e65e282e40dac7",
+      "github_url": "https://github.com/geben147-create/Insta/blob/6b91d1f82d2d2dfc181ab4c8acba11806412ef7b/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-editor.js",
+      "pages_url": "https://geben147-create.github.io/Insta/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-editor.js",
+      "local_audit_copy": "/workspace/scratch/763a8801a0a5/work/batch2-repo-source/broadcast/typography-refs-20261122/gold-editor.js"
+    }
+  },
+  "routes": [
+    {
+      "name": "사용자 링크: 표정 19",
+      "tab": "thumb",
+      "sub": "faces",
+      "url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-thumb&sub=faces",
+      "target": "internal facesPage() in studio.js",
+      "evidence": [
+        {
+          "source": "data",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+          "lines": [
+            14,
+            14
+          ],
+          "excerpt": "14:     {id:'faces', t:'표정 19 · 이미지 생성 프롬프트', s:'포즈·시선·각도 + Pictures/표정 파일명 일치', tag:'new'},"
+        },
+        {
+          "source": "studio",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/studio.js",
+          "lines": [
+            231,
+            235
+          ],
+          "excerpt": "231: function facesPage() {\n232:   return `<div class=\"page\">\n233:   <h1>🧑‍🎤 표정 19 · 이미지 생성 프롬프트</h1>\n234:   <p class=\"lead\">사진마다 <b>표정 · 시선 · 고개 각도 · 구도 · 크기</b>를 적었습니다. 「경로 + 프롬프트 복사」를 누르면 이 컴퓨터의 사진 파일 경로가 맨 위에 붙어서 복사됩니다. 이미지 생성 도구에 그 사진을 같이 첨부하고 붙여 넣으세요. 파일은 <code>${esc(PIC_DIR)}</code> 에 같은 번호로 저장돼 있습니다.</p>\n235:   <p class=\"note\">실존 인물의 얼굴을 그대로 복제하지 않고 “같은 포즈·표정의 새 인물”로 만들도록 프롬프트에 넣어 두었습니다.</p>"
+        }
+      ]
+    },
+    {
+      "name": "색상 HEX 모음",
+      "tab": "thumb",
+      "sub": "palette",
+      "url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-thumb&sub=palette",
+      "target": "PALETTE + PALETTE_OLD in data.js",
+      "evidence": [
+        {
+          "source": "data",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+          "lines": [
+            17,
+            17
+          ],
+          "excerpt": "17:     {id:'palette', t:'색상 HEX 모음', s:'JTBC 추출값 + 기존 값', tag:'new'},"
+        },
+        {
+          "source": "data",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+          "lines": [
+            189,
+            203
+          ],
+          "excerpt": "189: /* ── 색상 HEX (JTBC 14컷에서 추출한 근사값) ─── */\n190: const PALETTE = [\n191:  ['#F3D42D','번개 노랑','01-1'],['#F8D643','막 눈을 꾹꾹 노랑','01-1'],['#F1C933','대성통곡 노랑','01-1'],\n192:  ['#78EDF5','강아지 하늘색 프레임','01-2'],['#349FAC','강아지 글씨 청록 외곽','01-2'],\n193:  ['#963849','입술 (원본 어두운 톤)','01-4'],['#D23A5A','입술 보정 권장값','01-4 제안'],\n194:  ['#E08E41','불꽃·왜애!! 주황','02-1'],['#CC8552','불꽃 그늘 주황','02-1'],['#A62F0C','짙은 빨강 외곽','02-1'],\n195:  ['#B54763','핑크 너무해','04-4'],['#D61148','야구 빨강 글씨','06-1'],['#F0F44C','ㅋㅋㅋ 노랑','06-3'],\n196:  ['#B5474A','28m 원샷원킬 빨강','07-2'],['#DE6B43','솟는 글씨 아래 주황','07-3'],['#E38C49','솟는 글씨 가운데','07-3'],['#EECB56','왕밤빵 노랑','07-3'],\n197:  ['#E21317','충격 박스 빨강','09-4'],['#B71512','충격 배경 붉은 조명','09-4']\n198: ];\n199: const PALETTE_OLD = [\n200:  ['#F22B15','NO!! 빨강 그라데이션'],['#FFE713','추격자 해외반응 노랑·금색'],['#C30E0C','썸네일 뒤 빨간색 · 누끼 외곽광'],['#F000D0','이슈 PICK 형광 분홍 배지'],['#53DFD4','인물 윤곽선 청록 외곽광'],['#E7B318','억대 연봉 황금'],['#FFED00','경고 테두리 노랑·검정 45° 사선'],['#F01515','수능, 이대로 치르겠다고? 빨강'],['#F6FA55','T08 모음 노랑 (RGB 246,250,85)'],\n201:  ['#BCFF34','영상편집 형광연두'],['#FFE600','영상편집 노랑'],['#FF4545','영상편집 빨강'],['#39D5FF','영상편집 파랑'],\n202:  ['#FFE94A','공통 네온 노랑(제안)'],['#A5FF43','공통 네온 연두(제안)'],['#FF454F','공통 네온 빨강(제안)'],['#42B8FF','공통 네온 파랑(제안)'],['#FF93D7','공통 네온 핑크(제안)']\n203: ];"
+        }
+      ]
+    },
+    {
+      "name": "폰트 점검표 29종",
+      "tab": "thumb",
+      "sub": "fonts",
+      "url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-thumb&sub=fonts",
+      "target": "fonts-audit.json via initFonts()",
+      "evidence": [
+        {
+          "source": "data",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+          "lines": [
+            20,
+            20
+          ],
+          "excerpt": "20:     {id:'fonts', t:'폰트 점검표 (29종)', s:'로컬 경로 · 출처 · 라이선스', tag:'new'},"
+        },
+        {
+          "source": "studio",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/studio.js",
+          "lines": [
+            247,
+            253
+          ],
+          "excerpt": "247:     const list = await (await fetch('fonts-audit.json?v=1')).json();\n248:     if (state.sub !== 'fonts') return;\n249:     const cnt = k => list.filter(x => x.status === k).length;\n250:     content.innerHTML = `<div class=\"page\"><h1>🔤 폰트 점검표 (${list.length}종)</h1>\n251:      <p class=\"lead\">편집 페이지에서 쓰는 폰트와 대화에서 추천된 폰트를 <code>/home/yh/Pictures/폰트들</code> 과 대조했습니다. 원래 있음 <b class=\"ok\">${cnt('local')}</b> · 이번에 자동으로 받음 <b class=\"ok\">${cnt('downloaded')}</b> · 수동 필요 <b class=\"${cnt('manual') ? 'no' : 'ok'}\">${cnt('manual')}</b></p>\n252:      <p class=\"note\">WOFF로만 받은 폰트는 웹페이지에서는 바로 쓰이지만, 프리미어·포토샵·캡컷 PC판에 설치하려면 오른쪽 「공식 받기」에서 TTF/OTF 원본을 받아야 합니다. 상세 보고서: <code>/home/yh/Pictures/폰트들/_폰트_점검_20261123.md</code></p>\n253:      <div class=\"tblwrap\"><table><tr><th>폰트</th><th>상태</th><th>로컬 경로</th><th>쓰이는 곳</th><th>라이선스</th><th>공식 받기</th></tr>${list.map(x => `<tr><td><b>${esc(x.name)}</b></td><td class=\"${x.status === 'manual' ? 'no' : 'ok'}\">${({local:'원래 있음', downloaded:'이번에 받음', manual:'수동 필요'})[x.status] || esc(x.status)}</td><td><code style=\"font-size:11px;word-break:break-all\">${esc(x.localPath || '')}</code></td><td style=\"font-size:12px\">${esc((x.usedIn || []).join(' · '))}</td><td style=\"font-size:12px\">${esc(x.license || '')}</td><td>${x.manualUrl ? `<a href=\"${esc(x.manualUrl)}\" target=\"_blank\" rel=\"noopener\">공식 받기 ↗</a>` : x.source && /^https?:/.test(x.source) ? `<a href=\"${esc(x.source)}\" target=\"_blank\" rel=\"noopener\">출처 ↗</a>` : ''}</td></tr>`).join('')}</table></div></div>`;"
+        }
+      ]
+    },
+    {
+      "name": "썸네일 레이어 실험실(구형)",
+      "tab": "thumb",
+      "sub": "layer",
+      "url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-thumb&sub=layer",
+      "target": "research-hub-20261108/broadcast-font-subtitle-master-20261121/thumbnail-layer-lab-20261123/index.html",
+      "evidence": [
+        {
+          "source": "data",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+          "lines": [
+            22,
+            22
+          ],
+          "excerpt": "22:     {id:'layer', t:'썸네일 레이어 실험실', s:'NO!! · 손그림 화살표 · HEX', tag:'old', f:BF+'thumbnail-layer-lab-20261123/'},"
+        }
+      ]
+    },
+    {
+      "name": "방송 글씨 8종·금빛 편집",
+      "tab": "thumb",
+      "sub": "typo",
+      "url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-thumb&sub=typo",
+      "target": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/guide.html",
+      "evidence": [
+        {
+          "source": "data",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+          "lines": [
+            19,
+            19
+          ],
+          "excerpt": "19:     {id:'typo', t:'방송 글씨 8종 · 금빛 자막 편집', s:'T05 흰 배경 · 글자별 조절 · 금빛 반짝임', tag:'fix', f:BF+'typography-refs-20261122/guide.html?v=20261124'},"
+        }
+      ]
+    },
+    {
+      "name": "자막 글씨 8종·금빛 편집",
+      "tab": "video",
+      "sub": "vtypo",
+      "url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-video&sub=vtypo",
+      "target": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/guide.html",
+      "evidence": [
+        {
+          "source": "data",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+          "lines": [
+            53,
+            53
+          ],
+          "excerpt": "53:     {id:'vtypo', t:'자막 글씨 8종 · 금빛 자막 편집', s:'T05 흰 배경 · 글자별 조절 · 금빛 반짝임', tag:'fix', f:BF+'typography-refs-20261122/guide.html?v=20261124'},"
+        }
+      ]
+    },
+    {
+      "name": "영상편집 디자인 실험실",
+      "tab": "video",
+      "sub": "vlab",
+      "url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-video&sub=vlab",
+      "target": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+      "evidence": [
+        {
+          "source": "data",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+          "lines": [
+            51,
+            51
+          ],
+          "excerpt": "51:     {id:'vlab', t:'영상편집 디자인 실험실', s:'조절 미반영 버그 수정', tag:'fix', f:BF+'video-edit-lab.html'},"
+        }
+      ]
+    },
+    {
+      "name": "장면별 연출 프리셋",
+      "tab": "video",
+      "sub": "vfx",
+      "url": "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-video&sub=vfx",
+      "target": "media.js + studio.js vRender()",
+      "evidence": [
+        {
+          "source": "data",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+          "lines": [
+            45,
+            45
+          ],
+          "excerpt": "45:     {id:'vfx', t:'장면별 연출 프리셋', s:'훅 · 한국 대단해 · 반전 · 통계 · 키워드 · VS · 댓글 · 결론', tag:'new'},"
+        }
+      ]
+    }
+  ],
+  "palette_tokens": [
+    {
+      "hex": "#FFE713",
+      "role_as_recorded": "추격자 해외반응 노랑·금색",
+      "collection": "PALETTE_OLD",
+      "role_class": "old_lab_role",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          200,
+          200
+        ],
+        "excerpt": "200:  ['#F22B15','NO!! 빨강 그라데이션'],['#FFE713','추격자 해외반응 노랑·금색'],['#C30E0C','썸네일 뒤 빨간색 · 누끼 외곽광'],['#F000D0','이슈 PICK 형광 분홍 배지'],['#53DFD4','인물 윤곽선 청록 외곽광'],['#E7B318','억대 연봉 황금'],['#FFED00','경고 테두리 노랑·검정 45° 사선'],['#F01515','수능, 이대로 치르겠다고? 빨강'],['#F6FA55','T08 모음 노랑 (RGB 246,250,85)'],"
+      }
+    },
+    {
+      "hex": "#C30E0C",
+      "role_as_recorded": "썸네일 뒤 빨간색·인물 누끼 외곽광",
+      "collection": "PALETTE_OLD",
+      "role_class": "old_lab_role",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          200,
+          200
+        ],
+        "excerpt": "200:  ['#F22B15','NO!! 빨강 그라데이션'],['#FFE713','추격자 해외반응 노랑·금색'],['#C30E0C','썸네일 뒤 빨간색 · 누끼 외곽광'],['#F000D0','이슈 PICK 형광 분홍 배지'],['#53DFD4','인물 윤곽선 청록 외곽광'],['#E7B318','억대 연봉 황금'],['#FFED00','경고 테두리 노랑·검정 45° 사선'],['#F01515','수능, 이대로 치르겠다고? 빨강'],['#F6FA55','T08 모음 노랑 (RGB 246,250,85)'],"
+      }
+    },
+    {
+      "hex": "#F000D0",
+      "role_as_recorded": "이슈 PICK 형광 분홍 배지",
+      "collection": "PALETTE_OLD",
+      "role_class": "badge",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          200,
+          200
+        ],
+        "excerpt": "200:  ['#F22B15','NO!! 빨강 그라데이션'],['#FFE713','추격자 해외반응 노랑·금색'],['#C30E0C','썸네일 뒤 빨간색 · 누끼 외곽광'],['#F000D0','이슈 PICK 형광 분홍 배지'],['#53DFD4','인물 윤곽선 청록 외곽광'],['#E7B318','억대 연봉 황금'],['#FFED00','경고 테두리 노랑·검정 45° 사선'],['#F01515','수능, 이대로 치르겠다고? 빨강'],['#F6FA55','T08 모음 노랑 (RGB 246,250,85)'],"
+      }
+    },
+    {
+      "hex": "#F01515",
+      "role_as_recorded": "수능, 이대로 치르겠다고? 빨강",
+      "collection": "PALETTE_OLD",
+      "role_class": "specific_headline",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          200,
+          200
+        ],
+        "excerpt": "200:  ['#F22B15','NO!! 빨강 그라데이션'],['#FFE713','추격자 해외반응 노랑·금색'],['#C30E0C','썸네일 뒤 빨간색 · 누끼 외곽광'],['#F000D0','이슈 PICK 형광 분홍 배지'],['#53DFD4','인물 윤곽선 청록 외곽광'],['#E7B318','억대 연봉 황금'],['#FFED00','경고 테두리 노랑·검정 45° 사선'],['#F01515','수능, 이대로 치르겠다고? 빨강'],['#F6FA55','T08 모음 노랑 (RGB 246,250,85)'],"
+      }
+    },
+    {
+      "hex": "#F6FA55",
+      "role_as_recorded": "T08 모음 낱말만 노랑(RGB 246,250,85)",
+      "collection": "PALETTE_OLD",
+      "role_class": "specific_word_override",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          200,
+          200
+        ],
+        "excerpt": "200:  ['#F22B15','NO!! 빨강 그라데이션'],['#FFE713','추격자 해외반응 노랑·금색'],['#C30E0C','썸네일 뒤 빨간색 · 누끼 외곽광'],['#F000D0','이슈 PICK 형광 분홍 배지'],['#53DFD4','인물 윤곽선 청록 외곽광'],['#E7B318','억대 연봉 황금'],['#FFED00','경고 테두리 노랑·검정 45° 사선'],['#F01515','수능, 이대로 치르겠다고? 빨강'],['#F6FA55','T08 모음 노랑 (RGB 246,250,85)'],"
+      }
+    },
+    {
+      "hex": "#BCFF34",
+      "role_as_recorded": "영상편집 형광연두",
+      "collection": "PALETTE_OLD",
+      "role_class": "old_video_accent",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          201,
+          201
+        ],
+        "excerpt": "201:  ['#BCFF34','영상편집 형광연두'],['#FFE600','영상편집 노랑'],['#FF4545','영상편집 빨강'],['#39D5FF','영상편집 파랑'],"
+      }
+    },
+    {
+      "hex": "#FFE94A",
+      "role_as_recorded": "공통 네온 노랑(제안)",
+      "collection": "PALETTE_OLD",
+      "role_class": "proposal_not_global_lock",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          202,
+          202
+        ],
+        "excerpt": "202:  ['#FFE94A','공통 네온 노랑(제안)'],['#A5FF43','공통 네온 연두(제안)'],['#FF454F','공통 네온 빨강(제안)'],['#42B8FF','공통 네온 파랑(제안)'],['#FF93D7','공통 네온 핑크(제안)']"
+      }
+    },
+    {
+      "hex": "#78EDF5",
+      "role_as_recorded": "강아지 하늘색 프레임",
+      "collection": "PALETTE",
+      "role_class": "frame",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          192,
+          192
+        ],
+        "excerpt": "192:  ['#78EDF5','강아지 하늘색 프레임','01-2'],['#349FAC','강아지 글씨 청록 외곽','01-2'],"
+      }
+    },
+    {
+      "hex": "#F0F44C",
+      "role_as_recorded": "ㅋㅋㅋ 노랑",
+      "collection": "PALETTE",
+      "role_class": "laughter_caption",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          195,
+          195
+        ],
+        "excerpt": "195:  ['#B54763','핑크 너무해','04-4'],['#D61148','야구 빨강 글씨','06-1'],['#F0F44C','ㅋㅋㅋ 노랑','06-3'],"
+      }
+    },
+    {
+      "hex": "#B71512",
+      "role_as_recorded": "충격 배경 붉은 조명",
+      "collection": "PALETTE",
+      "role_class": "background_lighting",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          197,
+          197
+        ],
+        "excerpt": "197:  ['#E21317','충격 박스 빨강','09-4'],['#B71512','충격 배경 붉은 조명','09-4']"
+      }
+    },
+    {
+      "hex": "#F22B15",
+      "role_as_recorded": "NO!! 빨강 그라데이션",
+      "collection": "PALETTE_OLD",
+      "role_class": "no_caption",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          200,
+          200
+        ],
+        "excerpt": "200:  ['#F22B15','NO!! 빨강 그라데이션'],['#FFE713','추격자 해외반응 노랑·금색'],['#C30E0C','썸네일 뒤 빨간색 · 누끼 외곽광'],['#F000D0','이슈 PICK 형광 분홍 배지'],['#53DFD4','인물 윤곽선 청록 외곽광'],['#E7B318','억대 연봉 황금'],['#FFED00','경고 테두리 노랑·검정 45° 사선'],['#F01515','수능, 이대로 치르겠다고? 빨강'],['#F6FA55','T08 모음 노랑 (RGB 246,250,85)'],"
+      }
+    },
+    {
+      "hex": "#FFED00",
+      "role_as_recorded": "경고 테두리 노랑·검정 45° 사선",
+      "collection": "PALETTE_OLD",
+      "role_class": "border",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          200,
+          200
+        ],
+        "excerpt": "200:  ['#F22B15','NO!! 빨강 그라데이션'],['#FFE713','추격자 해외반응 노랑·금색'],['#C30E0C','썸네일 뒤 빨간색 · 누끼 외곽광'],['#F000D0','이슈 PICK 형광 분홍 배지'],['#53DFD4','인물 윤곽선 청록 외곽광'],['#E7B318','억대 연봉 황금'],['#FFED00','경고 테두리 노랑·검정 45° 사선'],['#F01515','수능, 이대로 치르겠다고? 빨강'],['#F6FA55','T08 모음 노랑 (RGB 246,250,85)'],"
+      }
+    },
+    {
+      "hex": "#39D5FF",
+      "role_as_recorded": "영상편집 파랑",
+      "collection": "PALETTE_OLD",
+      "role_class": "old_video_accent",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          201,
+          201
+        ],
+        "excerpt": "201:  ['#BCFF34','영상편집 형광연두'],['#FFE600','영상편집 노랑'],['#FF4545','영상편집 빨강'],['#39D5FF','영상편집 파랑'],"
+      }
+    },
+    {
+      "hex": "#E21317",
+      "role_as_recorded": "충격 박스 빨강",
+      "collection": "PALETTE",
+      "role_class": "box",
+      "evidence": {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          197,
+          197
+        ],
+        "excerpt": "197:  ['#E21317','충격 박스 빨강','09-4'],['#B71512','충격 배경 붉은 조명','09-4']"
+      }
+    }
+  ],
+  "caption_styles": [
+    {
+      "id": "T02",
+      "image": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R02_movie_chaser.jpg",
+      "fonts": [
+        "Bangers(영문 NO!!)",
+        "Anton(영문 NO!!)",
+        "Bebas Neue(영문 NO!!)"
+      ],
+      "korean_override": "ref-jalnan, ref-394, sans-serif",
+      "colors": {
+        "top_white": "#F6F5F4",
+        "top_yellow_word": "#F1EE33",
+        "no_top": "#E8451A",
+        "no_bottom": "#E2170E",
+        "bottom_title_top": "#F8F45E",
+        "bottom_title_bottom": "#F0BE26",
+        "inner_outline": "#1C0A00",
+        "outer_outline": "#8A1E1D",
+        "shadow": "#3A0A0A"
+      },
+      "evidence": [
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            25,
+            25
+          ],
+          "excerpt": "25:   const KO = '\"ref-jalnan\", \"ref-394\", sans-serif'; // T02 한글 줄: 원본처럼 굵고 둥근 잘난체"
+        },
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            32,
+            39
+          ],
+          "excerpt": "32:     T02: {size:38, spacing:-1, slant:0, tilt:0, fit:5.6, align:\"center\", stroke:4, outer:3, shadow:0, blur:0, minor:true,\n33:       word:\"18년 된 한국영화 보고 충격받은 외국인들 / NO!! / 추격자 해외반응 리액션\",\n34:       colors:[[\"base\",\"윗줄 흰색\",\"#F6F5F4\"],[\"yellow\",\"윗줄 노랑 낱말\",\"#F1EE33\"],[\"color\",\"NO!! 위 주황빨강\",\"#E8451A\"],[\"end\",\"NO!! 아래 빨강\",\"#E2170E\"],\n35:         [\"gold\",\"아래 제목 노랑(위)\",\"#F8F45E\"],[\"goldEnd\",\"아래 제목 귤색(아래)\",\"#F0BE26\"],[\"edge\",\"검정 외곽선\",\"#1C0A00\"],[\"outerColor\",\"바깥 빨강 테두리\",\"#8A1E1D\"],[\"shade\",\"그림자\",\"#3A0A0A\"],[\"bg\",\"원본 배경\",\"#2A2427\"]],\n36:       fills:{color:{grad:[[\"color\",22],[\"end\",58]]}, gold:{grad:[[\"gold\",30],[\"goldEnd\",88]]}},\n37:       lines:[{fill:\"base\", scale:.8, font:KO, words:[[\"충격받은 외국인들\",\"yellow\"]]},\n38:         {fill:\"color\", scale:2, transform:\"rotate(-5deg) skewX(-12deg) scaleY(1.45)\", lineHeight:1.5},\n39:         {fill:\"gold\", font:KO}]},"
+        }
+      ]
+    },
+    {
+      "id": "T04",
+      "image": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R04_broadcast_assertive.jpg",
+      "fonts": [
+        "티몬 몬소리 Black",
+        "도현",
+        "검은고딕"
+      ],
+      "colors": {
+        "white": "#FDFDFD",
+        "accent_top": "#E25254",
+        "accent_bottom": "#F26163",
+        "label_bg": "#040506",
+        "label_ink": "#EFEFEF"
+      },
+      "evidence": [
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            44,
+            49
+          ],
+          "excerpt": "44:     T04: {size:38, spacing:-1.5, slant:0, tilt:-1.5, stretch:116, fit:5.6, align:\"center\", stroke:5, outer:0, shadow:2, blur:0, effect:\"burst\",\n45:       word:\"정말 연애에 재능이 없는 선수예요\", badge:{text:\"선수 박탈\", stroke:false, left:\"36%\"},\n46:       colors:[[\"base\",\"흰 본문\",\"#FDFDFD\"],[\"color\",\"빨강 강조(위)\",\"#E25254\"],[\"end\",\"빨강 강조(아래)\",\"#F26163\"],[\"edge\",\"검정 외곽선\",\"#111114\"],[\"shade\",\"검정 그림자\",\"#111114\"],\n47:         [\"badgeBg\",\"‘선수 박탈’ 박스\",\"#040506\"],[\"badgeInk\",\"박스 글씨\",\"#EFEFEF\"],[\"bg\",\"원본 배경\",\"#2B2A2E\"]],\n48:       fills:{color:{grad:[[\"color\",28],[\"end\",62]]}},\n49:       lines:[{fill:\"base\", words:[[\"재능이 없는 선수\",\"color\"]]}]},"
+        }
+      ]
+    },
+    {
+      "id": "T05_static_legacy",
+      "image": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R05_gold_special.jpg",
+      "fonts": [
+        "레코체 Bold",
+        "G마켓 산스 Bold",
+        "평창평화체"
+      ],
+      "colors": {
+        "top": "#F6CB52",
+        "highlight": "#FCEC82",
+        "bottom": "#F2CF5C",
+        "outline": "#2E1A05",
+        "outer": "#A8763C",
+        "shadow": "#2E1A05"
+      },
+      "evidence": [
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            50,
+            54
+          ],
+          "excerpt": "50:     T05: {size:47, spacing:-1, slant:0, tilt:0, align:\"center\", stroke:4, outer:2.5, shadow:3, blur:0, effect:\"sparkle\",\n51:       glyphScale:[[\"병현\",\"nameScale\",\"‘병현’ 크기 (%)\"],[\"특\",\"accentScale\",\"‘특’ 크기 (%)\"]],\n52:       colors:[[\"base\",\"금색 윗면\",\"#F6CB52\"],[\"middle\",\"금색 밝은 띠\",\"#FCEC82\"],[\"end\",\"금색 아랫면\",\"#F2CF5C\"],[\"edge\",\"진갈색 외곽선\",\"#2E1A05\"],[\"outerColor\",\"청동빛 바깥 테두리\",\"#A8763C\"],[\"shade\",\"입체 그림자\",\"#2E1A05\"],[\"bg\",\"원본 배경\",\"#5A4636\"]],\n53:       fills:{base:{grad:[[\"base\",22],[\"middle\",58],[\"end\",86]]}},\n54:       lines:[{fill:\"base\"}]},"
+        }
+      ],
+      "active_status": "guide static content; T05 replaced by mountGoldEditor when scripts run"
+    },
+    {
+      "id": "T05_current",
+      "image": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R05_gold_special.jpg",
+      "fonts": [
+        "검은고딕",
+        "SB 어그로 B",
+        "여기어때 잘난체 고딕",
+        "G마켓 산스 Bold",
+        "카페24 써라운드",
+        "평창평화체",
+        "여기어때 잘난체"
+      ],
+      "default_font": "검은고딕/ref-106",
+      "colors": {
+        "top": "#F9D56B",
+        "highlight": "#FFF7B8",
+        "bottom": "#F8DD78",
+        "outline": "#3C280B",
+        "outer": "#D1A13B",
+        "shadow": "#7B5019"
+      },
+      "evidence": [
+        {
+          "source": "gold_renderer",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-renderer.js",
+          "lines": [
+            11,
+            29
+          ],
+          "excerpt": "11:   const defaults = {\n12:     text: \"병현표 특급 서비스\",\n13:     fontFamily: '\"ref-106\", sans-serif',\n14:     fontWeight: \"400\",\n15:     size: 110,\n16:     tracking: -3,\n17:     lineHeight: 1.45,\n18:     slant: -7,\n19:     tilt: -1.4,\n20:     stretchX: 100,\n21:     stretchY: 100,\n22:     positionX: 0,\n23:     positionY: 0,\n24:     top: \"#F9D56B\",\n25:     highlight: \"#FFF7B8\",\n26:     bottom: \"#F8DD78\",\n27:     outline: \"#3C280B\",\n28:     outer: \"#D1A13B\",\n29:     shadow: \"#7B5019\","
+        },
+        {
+          "source": "gold_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-editor.js",
+          "lines": [
+            6,
+            14
+          ],
+          "excerpt": "6:   const FONTS = [\n7:     {id:\"ref-106\",name:\"검은고딕\",note:\"단단하고 넓은 획\",url:\"https://fonts.google.com/specimen/Black+Han+Sans\"},\n8:     {id:\"ref-738\",name:\"SB 어그로 B\",note:\"힘 있는 제목\",url:\"https://www.sandbox.co.kr/company-ci\"},\n9:     {id:\"ref-jalnan-gothic\",name:\"여기어때 잘난체 고딕\",note:\"각진 굵은 획\",url:\"https://gccompany.co.kr/font\"},\n10:     {id:\"ref-366\",name:\"G마켓 산스 Bold\",note:\"반듯한 형태\",url:\"https://corp.gmarket.com/fonts/\"},\n11:     {id:\"ref-669\",name:\"카페24 써라운드\",note:\"둥글고 두툼한 획\",url:\"https://fonts.cafe24.com/\"},\n12:     {id:\"ref-950\",name:\"평창평화체\",note:\"글자 속 별 무늬 장식\",url:\"https://noonnu.cc/font_page/950\"},\n13:     {id:\"ref-jalnan\",name:\"여기어때 잘난체\",note:\"부드러운 예능 제목\",url:\"https://gccompany.co.kr/font\"}\n14:   ];"
+        }
+      ]
+    },
+    {
+      "id": "T06",
+      "image": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R06_brush_stroke.jpg",
+      "fonts": [
+        "정선아리랑뿌리체",
+        "나눔손글씨 붓",
+        "잉크립퀴드체"
+      ],
+      "colors": {
+        "ink": "#040404",
+        "white_outline": "#FBFAF8",
+        "last_word_white": "#FCFCFC",
+        "last_word_outline": "#080404"
+      },
+      "evidence": [
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            55,
+            59
+          ],
+          "excerpt": "55:     T06: {size:56, spacing:0, slant:0, tilt:0, fit:10, align:\"left\", stroke:6, outer:0, shadow:4.5, shadowAngle:45, blur:0, minor:true,\n56:       word:\"한마디로 / 재수 없는 스타일\",\n57:       colors:[[\"base\",\"먹색 글씨\",\"#040404\"],[\"edge\",\"먹 글씨 흰 외곽선\",\"#FBFAF8\"],[\"color\",\"‘스타일’ 흰 글씨\",\"#FCFCFC\"],[\"edge2\",\"‘스타일’ 검정 외곽선\",\"#080404\"],[\"shade\",\"오른쪽 아래 검정 그림자\",\"#000000\"],[\"bg\",\"원본 배경(주황 니트)\",\"#854737\"]],\n58:       fills:{color:{edge:\"edge2\"}},\n59:       lines:[{fill:\"base\", scale:.45, indent:.3},{fill:\"base\", words:[[\"스타일\",\"color\"]]}]},"
+        }
+      ]
+    },
+    {
+      "id": "T07",
+      "image": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R07_red_flash.jpg",
+      "fonts": [
+        "검은고딕",
+        "티몬 몬소리 Black",
+        "SB 어그로"
+      ],
+      "default_selected_index": 0,
+      "colors": {
+        "white": "#FDFDFC",
+        "accent": "#E03C3E",
+        "lightning_png_tone": "#D94B50"
+      },
+      "outline": 0,
+      "shadow": 0,
+      "evidence": [
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            60,
+            62
+          ],
+          "excerpt": "60:     T07: {size:38, spacing:-1, slant:0, tilt:0, fit:6.8, align:\"left\", stroke:0, outer:0, shadow:0, blur:0, effect:\"lightning\", effectInline:\"last\", minor:true,\n61:       colors:[[\"base\",\"흰 글씨(외곽선 없음)\",\"#FDFDFC\"],[\"color\",\"빨강 강조\",\"#E03C3E\"],[\"edge\",\"외곽선(원본 없음·켤 때만)\",\"#1C1717\"],[\"shade\",\"그림자(원본 없음)\",\"#000000\"],[\"bolt\",\"번개 빨강(PNG)\",\"#D94B50\"],[\"bg\",\"원본 배경\",\"#1C222E\"]],\n62:       lines:[{fill:\"base\", scale:.55, indent:1.9},{fill:\"base\", words:[[\"풀 파티\",\"color\"]]}]},"
+        },
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            119,
+            122
+          ],
+          "excerpt": "119:     const word = fields.word;\n120:     let selected = 0;\n121:     let range = [0,0];\n122:     let overrides = [];"
+        }
+      ]
+    },
+    {
+      "id": "T08",
+      "image": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R08_caution_border.jpg",
+      "fonts": [
+        "여기어때 잘난체",
+        "카페24 써라운드",
+        "G마켓 산스 Bold"
+      ],
+      "colors": {
+        "body_yellow_default": "#F9FB57",
+        "white": "#F9F9F9",
+        "frame_yellow": "#FBFD4C",
+        "moeum_word_recorded_override": "#F6FA55"
+      },
+      "evidence": [
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            63,
+            68
+          ],
+          "excerpt": "63:     T08: {size:38, spacing:-1, slant:0, tilt:0, fit:6.6, align:\"left\", stroke:4, outer:0, shadow:2, blur:0, minor:true,\n64:       word:\"초대받지 않는 손님의 깜짝 등장..! / ‘웃음 유발’ 블랙박스 모음\",\n65:       badge:{text:\"스페셜\", stroke:true},\n66:       colors:[[\"base\",\"윗줄 흰 글씨\",\"#F9F9F9\"],[\"color\",\"아랫줄 레몬 노랑\",\"#F9FB57\"],[\"edge\",\"검정 외곽선\",\"#0D0D06\"],[\"shade\",\"검정 그림자\",\"#0D0D06\"],\n67:         [\"badgeBg\",\"‘스페셜’ 흰 박스\",\"#FDFDFA\"],[\"badgeInk\",\"‘스페셜’ 노랑 글씨\",\"#EEF176\"],[\"frame\",\"테두리 노랑\",\"#FBFD4C\"],[\"frame2\",\"테두리 검정\",\"#0F0F0F\"],[\"bg\",\"원본 배경\",\"#5C5450\"]],\n68:       lines:[{fill:\"base\", scale:.68},{fill:\"color\"}]}"
+        },
+        {
+          "source": "content",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/content.js",
+          "lines": [
+            61,
+            61
+          ],
+          "excerpt": "61: <li>문구 입력칸에서 글자를 드래그한 뒤 색상 칩을 누르면 선택한 글자만 폰트 3종에서 즉시 바뀜. <code>24625085</code> → RGB 246,250,85 → T08 <code>#F6FA55</code> (「모음」만 노랑, 「블랙박스」는 기존 색 유지).</li>"
+        }
+      ]
+    }
+  ],
+  "font_declarations": [
+    {
+      "family": "ref-394",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 1,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-738",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 2,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-363",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 3,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-330",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 4,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-458",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 5,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-364",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Black00.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 6,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-366",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 7,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-950",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 8,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-jalnan-gothic",
+      "source_url_as_declared": "../JalnanGothic.ttf",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 9,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-374",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSArirangPPURI-RegularA1.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 10,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-68",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 11,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-Anton",
+      "source_url_as_declared": "https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm0K0.ttf",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 12,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-Bangers",
+      "source_url_as_declared": "https://fonts.gstatic.com/s/bangers/v25/FeVQS0BTqb0h60ACL5k.ttf",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 13,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-Bebas+Neue",
+      "source_url_as_declared": "https://fonts.gstatic.com/s/bebasneue/v16/JTUSjIg69CK48gW7PXooxW4.ttf",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 14,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-106",
+      "source_url_as_declared": "https://fonts.gstatic.com/s/blackhansans/v24/ea8Aad44WunzF9a-dL6toA8r8nqV.ttf",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 15,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-Nanum+Brush+Script",
+      "source_url_as_declared": "https://fonts.gstatic.com/s/nanumbrushscript/v26/wXK2E2wfpokopxzthSqPbcR5_gVaxazyjg.ttf",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 16,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-669",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 37,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-Jua",
+      "source_url_as_declared": "https://fonts.gstatic.com/s/jua/v18/co3KmW9ljjAjcw.ttf",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 38,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-monsori",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 70,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-jalnan",
+      "source_url_as_declared": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 71,
+      "verified_runtime_loaded": false
+    },
+    {
+      "family": "ref-Do+Hyeon",
+      "source_url_as_declared": "https://fonts.gstatic.com/s/dohyeon/v21/TwMN-I8CRRU2zM86HFE3.ttf",
+      "source": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+      "line": 72,
+      "verified_runtime_loaded": false
+    }
+  ],
+  "font_audit_record_count": 29,
+  "asset_mapping": {
+    "R01": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R01_movie_ahjussi.jpg",
+    "R02": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R02_movie_chaser.jpg",
+    "R03": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R03_broadcast_angry.jpg",
+    "R04": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R04_broadcast_assertive.jpg",
+    "R05": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R05_gold_special.jpg",
+    "R06": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R06_brush_stroke.jpg",
+    "R07": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R07_red_flash.jpg",
+    "R08": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/R08_caution_border.jpg",
+    "effects": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/effects/",
+    "studio_elements": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/crops/",
+    "faces_definition": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js:FACES",
+    "unmatched_new_refs": "REF21 map, REF22 paper frame, REF23 comment source screenshot, REF24 frog are new supplied references. Exact filename matches were not found in tracked repository filenames. No claim of source identity or high-resolution originals."
+  },
+  "findings": [
+    {
+      "id": "F01",
+      "status": "confirmed_in_source",
+      "title": "T07 레퍼런스 적용 버튼은 전용 자막의 정확한 색을 전달하지 않는다",
+      "observation": "영상편집 디자인 실험실은 T07 사진을 keyword 범용 프리셋에 연결하고 applyRef에서 #FF4545를 다시 지정한다. 전용 8종 자막 편집기는 T07 강조 #E03C3E, 흰색 #FDFDFC, 외곽선/그림자 0을 지정한다.",
+      "impact": "같은 T07 사진을 보고 적용해도 서로 다른 화면으로 나오는 구조적 원인이 소스에 있다.",
+      "limit": "실제 51~54편 MP4가 이 코드를 사용했는지는 미확인.",
+      "evidence": [
+        {
+          "source": "video_lab",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+          "lines": [
+            267,
+            267
+          ],
+          "excerpt": "267: ['R07_red_flash.jpg','T07 빨간 번개','짧은 감탄·반전 단어만 ⚡','keyword'],"
+        },
+        {
+          "source": "video_lab",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+          "lines": [
+            256,
+            256
+          ],
+          "excerpt": "256: keyword:{name:'⚡ 핵심어 자막',text:'이게 바로|진짜 반전!',key:'반전',size:142,tracking:-3,primary:'#ffffff',accent:'#ff4545',lines:'2',font:'jalnan',textStyle:'basic',mark:'lightning',animation:'pop',position:'bottom',border:12,strokeColor:'#11141b',shadow:10,shadowColor:'#000000',cardColor:'#111b2b',cardAlpha:88,hint:'불꽃·번개·밑줄은 전체 화면이 아니라 강조할 1개 단어 위에만 올립니다.'},"
+        },
+        {
+          "source": "video_lab",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+          "lines": [
+            368,
+            368
+          ],
+          "excerpt": "368: function applyRef(i){const ref=refs[i];if(!ref)return;setMode(ref[3]);if(i===1){setField('textStyle','gold');setField('primary','#ffe173');setField('accent','#f5be22');setField('strokeColor','#4a2a00');setField('animation','zoom');setField('text','병현표|특급 서비스');setField('key','특급');setField('mark','star')}if(i===2){setField('mark','lightning');setField('accent','#ff4545')}if(i===3){setField('font','brush');setField('textStyle','basic')}if(i===5){setField('boxType','이슈 PICK');setField('accent','#ff43b0')}if(i===6){setField('accent','#ffe600')}if(i===7){setField('text','한국을 보고|충격에 빠졌다!');setField('accent','#ff4545')}render(true);document.getElementById('workbench').scrollIntoView({behavior:'smooth'});notify(ref[1]+' 디자인 적용됨. 아래에서 세부 값을 바꿀 수 있습니다.')}"
+        },
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            60,
+            62
+          ],
+          "excerpt": "60:     T07: {size:38, spacing:-1, slant:0, tilt:0, fit:6.8, align:\"left\", stroke:0, outer:0, shadow:0, blur:0, effect:\"lightning\", effectInline:\"last\", minor:true,\n61:       colors:[[\"base\",\"흰 글씨(외곽선 없음)\",\"#FDFDFC\"],[\"color\",\"빨강 강조\",\"#E03C3E\"],[\"edge\",\"외곽선(원본 없음·켤 때만)\",\"#1C1717\"],[\"shade\",\"그림자(원본 없음)\",\"#000000\"],[\"bolt\",\"번개 빨강(PNG)\",\"#D94B50\"],[\"bg\",\"원본 배경\",\"#1C222E\"]],\n62:       lines:[{fill:\"base\", scale:.55, indent:1.9},{fill:\"base\", words:[[\"풀 파티\",\"color\"]]}]},"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "confirmed_in_source",
+      "title": "T04 재능이 없는 선수도 다른 프리셋에 연결된다",
+      "observation": "video-edit-lab의 T04는 quote로 연결된다. quote의 기본 강조는 #FFE14D, font=system이다. T04 전용 자막은 #E25254→#F26163 그라데이션과 티몬 몬소리/도현/검은고딕 후보를 쓴다. applyRef에는 T04 전용 색상 재설정이 없다.",
+      "impact": "기울인 강조 사진을 눌러도 색/서체/문구 구성이 보존되지 않는다.",
+      "limit": "프리셋 버튼 동작을 소스에서 추적한 결과이며 실제 브라우저 사용자 저장값은 읽지 않았다.",
+      "evidence": [
+        {
+          "source": "video_lab",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+          "lines": [
+            252,
+            252
+          ],
+          "excerpt": "252: quote:{name:'💬 실제 외국인 반응',text:'솔직히 한국은 정말 놀랍다.|이런 나라는 처음 봐!',key:'놀랍',size:104,tracking:0,primary:'#111827',accent:'#ffe14d',lines:'2',font:'system',textStyle:'basic',mark:'underline',animation:'pop',position:'middle',border:0,strokeColor:'#ffffff',shadow:0,shadowColor:'#000000',cardColor:'#ffffff',cardAlpha:97,hint:'댓글 카드: 아바타·닉네임·국기·원문 + 한국어 번역 + 좋아요. 실제로 달린 댓글만 옮기고 출처를 남기세요(허구 반응 생성 금지).'},"
+        },
+        {
+          "source": "video_lab",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+          "lines": [
+            269,
+            269
+          ],
+          "excerpt": "269: ['R04_broadcast_assertive.jpg','T04 기울인 강조','감정이 실린 실제 발언·결론','quote'],"
+        },
+        {
+          "source": "video_lab",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+          "lines": [
+            309,
+            309
+          ],
+          "excerpt": "309: function setMode(m){if(!preset[m])return;mode=m;const p=preset[m];Object.keys(p).forEach(k=>{if(FIELDS[k])setField(k,p[k])});el('modeHint').textContent=p.hint;document.querySelectorAll('.chip').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===m)));document.querySelectorAll('details[data-for-mode]').forEach(d=>{d.open=d.dataset.forMode.split(' ').includes(m)});render(true)}"
+        },
+        {
+          "source": "video_lab",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+          "lines": [
+            368,
+            368
+          ],
+          "excerpt": "368: function applyRef(i){const ref=refs[i];if(!ref)return;setMode(ref[3]);if(i===1){setField('textStyle','gold');setField('primary','#ffe173');setField('accent','#f5be22');setField('strokeColor','#4a2a00');setField('animation','zoom');setField('text','병현표|특급 서비스');setField('key','특급');setField('mark','star')}if(i===2){setField('mark','lightning');setField('accent','#ff4545')}if(i===3){setField('font','brush');setField('textStyle','basic')}if(i===5){setField('boxType','이슈 PICK');setField('accent','#ff43b0')}if(i===6){setField('accent','#ffe600')}if(i===7){setField('text','한국을 보고|충격에 빠졌다!');setField('accent','#ff4545')}render(true);document.getElementById('workbench').scrollIntoView({behavior:'smooth'});notify(ref[1]+' 디자인 적용됨. 아래에서 세부 값을 바꿀 수 있습니다.')}"
+        },
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            44,
+            49
+          ],
+          "excerpt": "44:     T04: {size:38, spacing:-1.5, slant:0, tilt:-1.5, stretch:116, fit:5.6, align:\"center\", stroke:5, outer:0, shadow:2, blur:0, effect:\"burst\",\n45:       word:\"정말 연애에 재능이 없는 선수예요\", badge:{text:\"선수 박탈\", stroke:false, left:\"36%\"},\n46:       colors:[[\"base\",\"흰 본문\",\"#FDFDFD\"],[\"color\",\"빨강 강조(위)\",\"#E25254\"],[\"end\",\"빨강 강조(아래)\",\"#F26163\"],[\"edge\",\"검정 외곽선\",\"#111114\"],[\"shade\",\"검정 그림자\",\"#111114\"],\n47:         [\"badgeBg\",\"‘선수 박탈’ 박스\",\"#040506\"],[\"badgeInk\",\"박스 글씨\",\"#EFEFEF\"],[\"bg\",\"원본 배경\",\"#2B2A2E\"]],\n48:       fills:{color:{grad:[[\"color\",28],[\"end\",62]]}},\n49:       lines:[{fill:\"base\", words:[[\"재능이 없는 선수\",\"color\"]]}]},"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "confirmed_in_source",
+      "title": "구형 NO 썸네일 실험실 안에서도 설명과 실제 layer 색이 다르다",
+      "observation": "설명/spec은 NO #F22B15→#C30E0C, 하단 #FFE713. 실제 PRESETS.layers는 NO #FF6820→#E6090C, 하단 #FFF55C→#EBA400이다.",
+      "impact": "문서에 HEX를 써두는 것만으로 화면 구현이 같아지지 않는 직접 사례다.",
+      "limit": "NO #F22B15는 사용자 스크린샷과 코드가 일치한다. #F22115는 이번 감사 초기 전사 오류이며 사용자 요구 충돌이 아니다.",
+      "evidence": [
+        {
+          "source": "old_layer",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/thumbnail-layer-lab-20261123/index.html",
+          "lines": [
+            129,
+            133
+          ],
+          "excerpt": "129: {id:'thriller',title:'🔥 NO!! 영화 해외반응',sub:'붉은 감탄사 + 금색 제목',ref:'R02_movie_chaser.jpg',description:'붉은 팝아트 NO!!는 독립된 기울임 텍스트 레이어. 하단 금색은 검정·빨강 외곽으로 깊이를 만듭니다.',spec:'NO!! 빨강 #F22B15 → #C30E0C, 검정 외곽 6px 안팎. 하단 노랑 #FFE713, 외곽 검정 8px+짙은 빨강 그림자. 상단 흰색+노랑 분리. 누끼 인물은 레드 림.',colors:[['NO 빨강','#F22B15'],['NO 어두운 빨강','#C30E0C'],['하단 노랑','#FFE713'],['검정 외곽','#130909'],['상단 흰색','#FFFFFF']],rim:'#F42D30',arrow:false,layers:[\n130: L('over','상단 흰 글씨','18년 된 한국영화 보고',32,12,66,'black','#FFFFFF',null,6,'#3D0808',6,'#AB1716',-3),\n131: L('reaction','상단 노란 강조','충격받은 외국인들',78,12,68,'black','#FFE713',null,5,'#270900',5,'#A20B0B',-3),\n132: L('no','중앙 NO!!','NO!!',45,48,222,'bangers','#FF6820','#E6090C',7,'#200707',10,'#9F090B',-6,-12),\n133: L('title','하단 금색 제목','추격자 해외반응 리액션',50,82,98,'black','#FFF55C','#EBA400',7,'#0F0809',12,'#820908',-4)"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "confirmed_version_split",
+      "title": "T05 3폰트 비교 사진과 현재 T05 7폰트 편집기는 다른 버전이다",
+      "observation": "정적 guide는 레코체/G마켓/평창평화 3후보와 이전 금빛 팔레트를 갖지만 editor.js는 T05를 mountGoldEditor로 교체한다. 현재 gold-renderer 기본은 검은고딕, #F9D56B/#FFF7B8/#F8DD78 + #3C280B/#D1A13B/#7B5019이며 7폰트 편집기를 쓴다.",
+      "impact": "REF20을 현재 화면의 유일한 토큰 출처로 단정하면 다시 색·폰트가 섞인다. 원본 사진/구형 재현값/현재 편집기/사용자 확정값을 구분해야 한다.",
+      "limit": "현재 기본값과 사용자의 브라우저 localStorage에 저장된 값은 다를 수 있다. 저장값을 읽거나 수정하지 않았다.",
+      "evidence": [
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            50,
+            54
+          ],
+          "excerpt": "50:     T05: {size:47, spacing:-1, slant:0, tilt:0, align:\"center\", stroke:4, outer:2.5, shadow:3, blur:0, effect:\"sparkle\",\n51:       glyphScale:[[\"병현\",\"nameScale\",\"‘병현’ 크기 (%)\"],[\"특\",\"accentScale\",\"‘특’ 크기 (%)\"]],\n52:       colors:[[\"base\",\"금색 윗면\",\"#F6CB52\"],[\"middle\",\"금색 밝은 띠\",\"#FCEC82\"],[\"end\",\"금색 아랫면\",\"#F2CF5C\"],[\"edge\",\"진갈색 외곽선\",\"#2E1A05\"],[\"outerColor\",\"청동빛 바깥 테두리\",\"#A8763C\"],[\"shade\",\"입체 그림자\",\"#2E1A05\"],[\"bg\",\"원본 배경\",\"#5A4636\"]],\n53:       fills:{base:{grad:[[\"base\",22],[\"middle\",58],[\"end\",86]]}},\n54:       lines:[{fill:\"base\"}]},"
+        },
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            71,
+            74
+          ],
+          "excerpt": "71:   for (const card of cards) {\n72:     if (card.id === \"T05\" && typeof window.mountGoldEditor === \"function\") {\n73:       window.mountGoldEditor(card);\n74:       continue;"
+        },
+        {
+          "source": "gold_renderer",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-renderer.js",
+          "lines": [
+            11,
+            50
+          ],
+          "excerpt": "11:   const defaults = {\n12:     text: \"병현표 특급 서비스\",\n13:     fontFamily: '\"ref-106\", sans-serif',\n14:     fontWeight: \"400\",\n15:     size: 110,\n16:     tracking: -3,\n17:     lineHeight: 1.45,\n18:     slant: -7,\n19:     tilt: -1.4,\n20:     stretchX: 100,\n21:     stretchY: 100,\n22:     positionX: 0,\n23:     positionY: 0,\n24:     top: \"#F9D56B\",\n25:     highlight: \"#FFF7B8\",\n26:     bottom: \"#F8DD78\",\n27:     outline: \"#3C280B\",\n28:     outer: \"#D1A13B\",\n29:     shadow: \"#7B5019\",\n30:     outlineWidth: 2.4,\n31:     outerWidth: 1.2,\n32:     depth: 3,\n33:     shadowAngle: 90,\n34:     blur: 0.7,\n35:     gradientAngle: 90,\n36:     highlightStop: 54,\n37:     gradient: true,\n38:     glowOpacity: 0.42,\n39:     glowSpread: 48,\n40:     starCount: 34,\n41:     starSize: 11,\n42:     starOpacity: 0.9,\n43:     twinkleSpeed: 1,\n44:     dustCount: 200,\n45:     dustSize: 2.1,\n46:     dustOpacity: 0.55,\n47:     scatter: 100,\n48:     seed: 51024,\n49:     effect: true,\n50:     bg: \"#FFFFFF\","
+        },
+        {
+          "source": "gold_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-editor.js",
+          "lines": [
+            6,
+            14
+          ],
+          "excerpt": "6:   const FONTS = [\n7:     {id:\"ref-106\",name:\"검은고딕\",note:\"단단하고 넓은 획\",url:\"https://fonts.google.com/specimen/Black+Han+Sans\"},\n8:     {id:\"ref-738\",name:\"SB 어그로 B\",note:\"힘 있는 제목\",url:\"https://www.sandbox.co.kr/company-ci\"},\n9:     {id:\"ref-jalnan-gothic\",name:\"여기어때 잘난체 고딕\",note:\"각진 굵은 획\",url:\"https://gccompany.co.kr/font\"},\n10:     {id:\"ref-366\",name:\"G마켓 산스 Bold\",note:\"반듯한 형태\",url:\"https://corp.gmarket.com/fonts/\"},\n11:     {id:\"ref-669\",name:\"카페24 써라운드\",note:\"둥글고 두툼한 획\",url:\"https://fonts.cafe24.com/\"},\n12:     {id:\"ref-950\",name:\"평창평화체\",note:\"글자 속 별 무늬 장식\",url:\"https://noonnu.cc/font_page/950\"},\n13:     {id:\"ref-jalnan\",name:\"여기어때 잘난체\",note:\"부드러운 예능 제목\",url:\"https://gccompany.co.kr/font\"}\n14:   ];"
+        },
+        {
+          "source": "gold_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-editor.js",
+          "lines": [
+            70,
+            75
+          ],
+          "excerpt": "70:     let restored = false;\n71:     let state = clone(defaults);\n72:     try {\n73:       const saved = localStorage.getItem(STORAGE);\n74:       if (saved) { state = validate(JSON.parse(saved)); restored = true; }\n75:     } catch (_) { /* Storage is optional; editing remains available. */ }"
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "confirmed_in_source",
+      "title": "T07 첫 선택 폰트는 티몬으로 고정되지 않는다",
+      "observation": "guide의 T07 후보 순서는 검은고딕, 티몬 몬소리, SB 어그로이며 editor.js의 selected=0이다. 따라서 새로 여는 기본 선택은 검은고딕 후보다. T04는 티몬이 첫 후보다.",
+      "impact": "사용자가 티몬을 확정했다면 default selected=0 관례 대신 명시적인 font token을 전달해야 한다.",
+      "limit": "스크린샷의 방송 원본 글꼴이 정확히 어떤 폰트인지 식별했다고 주장하지 않는다.",
+      "evidence": [
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            76,
+            79
+          ],
+          "excerpt": "76:     const preset = presets[card.id];\n77:     const links = [...card.querySelectorAll(\".ty22-fonts a\")];\n78:     const names = links.map(a => a.textContent.replace(/^\\d+\\. /, \"\"));\n79:     const families = links.map(a => `\"${a.dataset.font || \"ref-\" + a.pathname.split(\"/\").pop()}\", \"ref-106\", sans-serif`);"
+        },
+        {
+          "source": "typo_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.js",
+          "lines": [
+            119,
+            122
+          ],
+          "excerpt": "119:     const word = fields.word;\n120:     let selected = 0;\n121:     let range = [0,0];\n122:     let overrides = [];"
+        },
+        {
+          "source": "typo_css",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/editor.css",
+          "lines": [
+            70,
+            72
+          ],
+          "excerpt": "70: @font-face{font-family:\"ref-monsori\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff\");font-display:swap}\n71: @font-face{font-family:\"ref-jalnan\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff\");font-display:swap}\n72: @font-face{font-family:\"ref-Do+Hyeon\";src:url(\"https://fonts.gstatic.com/s/dohyeon/v21/TwMN-I8CRRU2zM86HFE3.ttf\");font-display:swap}"
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "confirmed_in_source",
+      "title": "색상 모음은 서로 다른 역할의 목록이며 자동으로 편집기 전체를 지배하지 않는다",
+      "observation": "PALETTE는 방송 캡처 근사값, PALETTE_OLD는 구형 실험실/편집기 값과 제안색이다. #E21317은 충격 박스, #B71512는 붉은 배경조명. #FFE94A에는 명시적으로 제안 표시가 있다. #F6FA55는 T08 모음 낱말만의 선택색으로 기록되어 있다.",
+      "impact": "분홍 배지/인물 외곽광/박스/문구/그래프를 하나의 공통 강조색으로 병합하면 사용자 요구가 소실된다.",
+      "limit": "기존 코드의 근사값 및 추출 주장을 감사에서 새로 픽셀 측정한 것으로 표현하지 않는다.",
+      "evidence": [
+        {
+          "source": "data",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+          "lines": [
+            189,
+            203
+          ],
+          "excerpt": "189: /* ── 색상 HEX (JTBC 14컷에서 추출한 근사값) ─── */\n190: const PALETTE = [\n191:  ['#F3D42D','번개 노랑','01-1'],['#F8D643','막 눈을 꾹꾹 노랑','01-1'],['#F1C933','대성통곡 노랑','01-1'],\n192:  ['#78EDF5','강아지 하늘색 프레임','01-2'],['#349FAC','강아지 글씨 청록 외곽','01-2'],\n193:  ['#963849','입술 (원본 어두운 톤)','01-4'],['#D23A5A','입술 보정 권장값','01-4 제안'],\n194:  ['#E08E41','불꽃·왜애!! 주황','02-1'],['#CC8552','불꽃 그늘 주황','02-1'],['#A62F0C','짙은 빨강 외곽','02-1'],\n195:  ['#B54763','핑크 너무해','04-4'],['#D61148','야구 빨강 글씨','06-1'],['#F0F44C','ㅋㅋㅋ 노랑','06-3'],\n196:  ['#B5474A','28m 원샷원킬 빨강','07-2'],['#DE6B43','솟는 글씨 아래 주황','07-3'],['#E38C49','솟는 글씨 가운데','07-3'],['#EECB56','왕밤빵 노랑','07-3'],\n197:  ['#E21317','충격 박스 빨강','09-4'],['#B71512','충격 배경 붉은 조명','09-4']\n198: ];\n199: const PALETTE_OLD = [\n200:  ['#F22B15','NO!! 빨강 그라데이션'],['#FFE713','추격자 해외반응 노랑·금색'],['#C30E0C','썸네일 뒤 빨간색 · 누끼 외곽광'],['#F000D0','이슈 PICK 형광 분홍 배지'],['#53DFD4','인물 윤곽선 청록 외곽광'],['#E7B318','억대 연봉 황금'],['#FFED00','경고 테두리 노랑·검정 45° 사선'],['#F01515','수능, 이대로 치르겠다고? 빨강'],['#F6FA55','T08 모음 노랑 (RGB 246,250,85)'],\n201:  ['#BCFF34','영상편집 형광연두'],['#FFE600','영상편집 노랑'],['#FF4545','영상편집 빨강'],['#39D5FF','영상편집 파랑'],\n202:  ['#FFE94A','공통 네온 노랑(제안)'],['#A5FF43','공통 네온 연두(제안)'],['#FF454F','공통 네온 빨강(제안)'],['#42B8FF','공통 네온 파랑(제안)'],['#FF93D7','공통 네온 핑크(제안)']\n203: ];"
+        },
+        {
+          "source": "content",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/content.js",
+          "lines": [
+            61,
+            61
+          ],
+          "excerpt": "61: <li>문구 입력칸에서 글자를 드래그한 뒤 색상 칩을 누르면 선택한 글자만 폰트 3종에서 즉시 바뀜. <code>24625085</code> → RGB 246,250,85 → T08 <code>#F6FA55</code> (「모음」만 노랑, 「블랙박스」는 기존 색 유지).</li>"
+        }
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "confirmed_in_source",
+      "title": "폰트 29종 점검표는 현재 로딩 성공 증거가 아니다",
+      "observation": "fonts-audit.json은 29개의 과거 로컬 경로·출처·상태 기록이다. 웹 @font-face 선언과 폰트 후보표는 별개다. T05 전용 현재 편집기는 document.fonts.load 결과와 글꼴 로딩 실패 표시 및 PNG export 차단을 구현한다.",
+      "impact": "소스의 폰트명, 라이선스 기록, 브라우저에서 실제 사용한 글리프를 서로 구분해야 한다.",
+      "limit": "이번 감사는 원격 폰트 CDN의 현재 성공 여부/사용자 컴퓨터 설치 상태/최신 라이선스를 검증하지 않았다.",
+      "evidence": [
+        {
+          "source": "studio",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/studio.js",
+          "lines": [
+            247,
+            253
+          ],
+          "excerpt": "247:     const list = await (await fetch('fonts-audit.json?v=1')).json();\n248:     if (state.sub !== 'fonts') return;\n249:     const cnt = k => list.filter(x => x.status === k).length;\n250:     content.innerHTML = `<div class=\"page\"><h1>🔤 폰트 점검표 (${list.length}종)</h1>\n251:      <p class=\"lead\">편집 페이지에서 쓰는 폰트와 대화에서 추천된 폰트를 <code>/home/yh/Pictures/폰트들</code> 과 대조했습니다. 원래 있음 <b class=\"ok\">${cnt('local')}</b> · 이번에 자동으로 받음 <b class=\"ok\">${cnt('downloaded')}</b> · 수동 필요 <b class=\"${cnt('manual') ? 'no' : 'ok'}\">${cnt('manual')}</b></p>\n252:      <p class=\"note\">WOFF로만 받은 폰트는 웹페이지에서는 바로 쓰이지만, 프리미어·포토샵·캡컷 PC판에 설치하려면 오른쪽 「공식 받기」에서 TTF/OTF 원본을 받아야 합니다. 상세 보고서: <code>/home/yh/Pictures/폰트들/_폰트_점검_20261123.md</code></p>\n253:      <div class=\"tblwrap\"><table><tr><th>폰트</th><th>상태</th><th>로컬 경로</th><th>쓰이는 곳</th><th>라이선스</th><th>공식 받기</th></tr>${list.map(x => `<tr><td><b>${esc(x.name)}</b></td><td class=\"${x.status === 'manual' ? 'no' : 'ok'}\">${({local:'원래 있음', downloaded:'이번에 받음', manual:'수동 필요'})[x.status] || esc(x.status)}</td><td><code style=\"font-size:11px;word-break:break-all\">${esc(x.localPath || '')}</code></td><td style=\"font-size:12px\">${esc((x.usedIn || []).join(' · '))}</td><td style=\"font-size:12px\">${esc(x.license || '')}</td><td>${x.manualUrl ? `<a href=\"${esc(x.manualUrl)}\" target=\"_blank\" rel=\"noopener\">공식 받기 ↗</a>` : x.source && /^https?:/.test(x.source) ? `<a href=\"${esc(x.source)}\" target=\"_blank\" rel=\"noopener\">출처 ↗</a>` : ''}</td></tr>`).join('')}</table></div></div>`;"
+        },
+        {
+          "source": "fonts",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/fonts.css",
+          "lines": [
+            1,
+            11
+          ],
+          "excerpt": "1: @font-face{font-family:\"레코체\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff\");font-display:swap}\n2: @font-face{font-family:\"SB어그로\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff\");font-display:swap}\n3: @font-face{font-family:\"카페24아네모네\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff\");font-display:swap}\n4: @font-face{font-family:\"양진체\";src:url(\"https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff\");font-display:swap}\n5: @font-face{font-family:\"티머니둥근바람\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff\");font-display:swap}\n6: @font-face{font-family:\"쿠키런블랙\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Black00.woff\");font-display:swap}\n7: @font-face{font-family:\"G마켓산스\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff\");font-display:swap}\n8: @font-face{font-family:\"평창평화\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2\");font-display:swap}\n9: @font-face{font-family:\"정선아리랑뿌리\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSArirangPPURI-RegularA1.woff\");font-display:swap}\n10: @font-face{font-family:\"잉크립퀴드\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff\");font-display:swap}\n11: @font-face{font-family:\"카페24써라운드\";src:url(\"https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff\");font-display:swap}"
+        },
+        {
+          "source": "gold_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-editor.js",
+          "lines": [
+            530,
+            538
+          ],
+          "excerpt": "530:     async function loadFont(font) {\n531:       if(loaded.has(font.id))return;\n532:       loaded.set(font.id,\"loading\");\n533:       try {\n534:         const faces=await document.fonts.load(`400 48px \"${font.id}\"`,\"병현표 특급 서비스\");\n535:         loaded.set(font.id,faces.length>0);\n536:       }catch(_){loaded.set(font.id,false);}\n537:       const entry=fontCards.get(font.id);if(entry)entry.hint.textContent=loaded.get(font.id)===true?font.note:\"글꼴 로딩 실패\";\n538:       if(isVisible()){drawMain();drawMinis();}"
+        },
+        {
+          "source": "gold_editor",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/gold-editor.js",
+          "lines": [
+            551,
+            557
+          ],
+          "excerpt": "551:     async function exportPng(transparent) {\n552:       const font=fontFor(state);\n553:       if(loaded.get(font.id)!==true){announce(\"선택한 글꼴을 불러온 뒤 PNG를 저장할 수 있습니다. 로딩 실패라면 다른 글꼴을 선택해 주세요.\");return;}\n554:       const exportState=clone(state),exportTime=sceneTime;\n555:       const output=document.createElement(\"canvas\");output.width=1600;output.height=520;\n556:       if(!transparent)exportState.bg=\"#ffffff\";\n557:       renderer.draw(output,exportState,{time:exportTime,transparent});"
+        }
+      ]
+    },
+    {
+      "id": "F08",
+      "status": "confirmed_in_source",
+      "title": "HTML 디자인 도구에는 MP4 제작 기능이 없다",
+      "observation": "video-edit-lab.html footer에 MP4 자동 편집·렌더링 기능 미포함이 명시되어 있다. 감사 snapshot의 tracked paths에 render_v8_page.js 및 이름에 51이 포함된 MP4가 발견되지 않았다.",
+      "impact": "실제 렌더러 색상 변경/그래프 누락/끊김 원인은 HumanTouch renderer와 MP4 장면 대조가 필요하다. 이 감사로 그것이 수정되었다고 말할 수 없다.",
+      "limit": "사용자의 다른 컴퓨터/폴더 파일 존재 여부는 조사하지 않았다.",
+      "evidence": [
+        {
+          "source": "video_lab",
+          "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+          "lines": [
+            244,
+            244
+          ],
+          "excerpt": "244: <footer><p>이 페이지는 디자인 파라미터와 미리보기를 실험하는 HTML 도구입니다. 동영상 MP4 자동 편집·렌더링 기능은 포함하지 않습니다. 브라우저에 직접 고른 사진/영상은 서버로 전송하지 않으며, 설정 저장은 해당 브라우저의 localStorage만 사용합니다.</p></footer>"
+        }
+      ]
+    },
+    {
+      "id": "F09",
+      "status": "confirmed_in_source",
+      "title": "구형 장면 프리셋은 후속 사용자 규칙과 다를 수 있다",
+      "observation": "studio scene preset의 VS 기본은 금색 #FFD54F이며 news 카드는 #F7F3EA 베이지색이다. comment 미리보기에는 3일 전이 고정 텍스트로 포함된다.",
+      "impact": "최종 사용자 확정값을 해당 장면에 직접 전달하고, 댓글 원자료 없는 시간/메타데이터를 실제 댓글로 내보내지 않도록 분리한다.",
+      "limit": "기존 실험실을 삭제하거나 색을 전역 변경하라는 뜻이 아니다.",
+      "evidence": [
+        {
+          "source": "media",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/media.js",
+          "lines": [
+            85,
+            85
+          ],
+          "excerpt": "85:  {key:'vs', name:'⚔️ VS 비교', bg:'', anim:'swipe', font:'Black Han Sans', fill:'#FFFFFF', acc:'#FFD54F', stroke:'#111111', bgmode:'none', vsStyle:'metal', vsSize:18, vsColor:'#FFD54F', vsStroke:'#5a3b00',"
+        },
+        {
+          "source": "studio",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/studio.js",
+          "lines": [
+            322,
+            323
+          ],
+          "excerpt": "322:   if (k === 'comment') h += `<div class=\"a-side\" style=\"position:absolute;left:12%;right:12%;top:20%;background:#fff;border-radius:2cqw;padding:2.4cqw 3cqw;box-shadow:0 2cqw 4cqw #0008;font-family:'${v.font}';color:${v.fill}\"><div style=\"display:flex;align-items:center;gap:1.5cqw;font-size:2.6cqw\"><span style=\"width:5cqw;height:5cqw;border-radius:50%;background:linear-gradient(135deg,#ffb347,#ff5e62);display:inline-block\"></span><b>${esc(v.nick)}</b> ${esc(v.flag)} <span style=\"color:#888;font-size:2cqw\">3일 전</span></div><div style=\"font-size:3.4cqw;margin:1.4cqw 0;font-family:system-ui;color:#333\"><span class=\"${mini ? '' : 'typing'}\">${esc(v.orig)}</span></div><div style=\"font-size:4.6cqw;font-weight:800\">${vText(v.main, {...v, hl: 'marker'}, true)}</div><div style=\"font-size:2.4cqw;color:#666;margin-top:1cqw\">👍 ${esc(v.likes)} · 번역</div></div>`;\n323:   if (k === 'news') h += `<div class=\"a-flip\" style=\"position:absolute;left:14%;right:14%;top:14%;bottom:14%;background:#f7f3ea;border-radius:1cqw;padding:3cqw;box-shadow:0 2cqw 4cqw #000a;font-family:'${v.font}';color:${v.fill}\"><div style=\"font-size:2.2cqw;color:#7a6a55;border-bottom:.3cqw solid #111;padding-bottom:1cqw;font-family:system-ui;font-weight:700\">${esc(v.src)}</div><div style=\"font-size:6cqw;font-weight:900;line-height:1.25;margin-top:3cqw\">${vText(v.main, {...v, hl: 'marker'}, true)}</div><div style=\"font-size:2cqw;color:#7a6a55;margin-top:3cqw;font-family:system-ui\">원문 그대로 · 번역이면 “번역” 표시</div></div>`;"
+        }
+      ]
+    },
+    {
+      "id": "F10",
+      "status": "confirmed_in_source",
+      "title": "구형 세로 변환은 단순 확대와 치환이며 새 통계 구성을 대체하지 못한다",
+      "observation": "toVertical은 cqw font-size를 1.55배하고 2열을 1열/위아래로 치환한다.",
+      "impact": "새 지도/유리 파이/퍼널/대형 숫자는 16:9와 9:16별 좌표·최소 글자·출처 공간을 별도 지정해야 한다.",
+      "limit": "모든 구형 세로 화면이 깨진다고 확인한 것은 아니다.",
+      "evidence": [
+        {
+          "source": "studio",
+          "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/studio.js",
+          "lines": [
+            328,
+            334
+          ],
+          "excerpt": "328: /* 9:16 쇼츠: 글씨 키우기, 좌우 → 위아래, 하단 UI 피하기 */\n329: function toVertical(h) {\n330:   return h.replace(/font-size:(\\d+(?:\\.\\d+)?)cqw/g, (m, n) => `font-size:${+(n * 1.55).toFixed(2)}cqw`)\n331:     .replace('grid-template-columns:1fr 1.2fr', 'grid-template-columns:1fr')\n332:     .replace('display:grid;grid-template-columns:1fr 1fr', 'display:grid;grid-template-rows:1fr 1fr')\n333:     .replace('class=\"vk a-stamp\" style=\"top:28%', 'class=\"vk a-stamp\" style=\"top:39%')\n334:     .replace('left:12%;right:12%;top:20%', 'left:5%;right:5%;top:26%')"
+        }
+      ]
+    }
+  ],
+  "integration": {
+    "file": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+    "arrays": [
+      "MENUS.thumb",
+      "MENUS.video"
+    ],
+    "entry": {
+      "id": "design-reference",
+      "t": "통합 디자인 자료 · REF01–24",
+      "s": "색·폰트·지도·댓글·캐릭터",
+      "tag": "new",
+      "f": "../../research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/"
+    },
+    "outer_routes": [
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-thumb&sub=design-reference",
+      "https://geben147-create.github.io/Insta/%EA%B5%AD%EB%BD%95-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EC%84%9C%EC%B9%98-%ED%97%88%EB%B8%8C-20261108/?page=studio-video&sub=design-reference"
+    ],
+    "new_document_path": "research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/",
+    "router_change_needed": false,
+    "editor_change_needed": false,
+    "evidence": [
+      {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          6,
+          7
+        ],
+        "excerpt": "6: const MENUS = {\n7:   thumb: ["
+      },
+      {
+        "source": "data",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+        "lines": [
+          34,
+          36
+        ],
+        "excerpt": "34:   video: [\n35:     {grp:'🌸 새 영상 제작 · 기존 영상 수정'},\n36:     {id:'production-flow', t:'🎬 51~100 제작 준비 · AI 생성→HumanTouch 마감', s:'기획서 50편 연결 · 실제 캡처 · 연출 시안 · 전체 프롬프트 한 번 복사', tag:'new', f:'production-51-100/'},"
+      },
+      {
+        "source": "studio",
+        "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/studio.js",
+        "lines": [
+          46,
+          69
+        ],
+        "excerpt": "46: function go(tab, sub, record = true) {\n47:   if (!MENUS[tab]) tab = 'thumb';\n48:   if (SUB_ALIAS[sub]) sub = SUB_ALIAS[sub];\n49:   const list = items(tab);\n50:   if (!list.some(m => m.id === sub)) sub = list[0].id;\n51:   const tabChanged = tab !== state.tab || !subnav.children.length;\n52:   state.tab = tab; state.sub = sub;\n53:   if (tabChanged) renderTabs();\n54:   subnav.querySelectorAll('.sn').forEach(b => { if (b.dataset.id === sub) { b.setAttribute('aria-current', 'page'); b.scrollIntoView({block: 'nearest', inline: 'nearest'}); } else b.removeAttribute('aria-current'); });\n55:   const url = new URL(location.href); url.searchParams.set('tab', tab); url.searchParams.set('sub', sub); url.hash = '';\n56:   if (record) history.replaceState(null, '', url);\n57:   try { if (window.parent !== window) window.parent.postMessage({type: 'hub-studio', tab, sub}, location.origin); } catch {}\n58:   show(list.find(m => m.id === sub));\n59: }\n60: \n61: /* ── 본문 ── */\n62: function show(m) {\n63:   content.className = ''; content.scrollTop = 0;\n64:   if (m.f) {\n65:     content.className = 'frame';\n66:     content.innerHTML = `<div class=\"framebar\"><b>${esc(m.t)}</b><a href=\"${esc(m.f)}\" target=\"_blank\" rel=\"noopener\">새 탭에서 열기 ↗</a></div>`;\n67:     const src = m.id === 'editor' && pendingTpl ? m.f + '?t=' + pendingTpl : m.f; pendingTpl = null;\n68:     const f = document.createElement('iframe'); f.src = src; f.title = m.t; content.append(f); return;\n69:   }"
+      },
+      {
+        "source": "hub",
+        "path": "국뽕-유튜브-리서치-허브-20261108/index.html",
+        "lines": [
+          53,
+          54
+        ],
+        "excerpt": "53: function showRoute(params){const match=/^(0[1-9]|[1-3][0-9]|40)$/.exec(params.outline||'');let i=ids.indexOf(params.page);if(i<0)i=ids.indexOf('studio-thumb');\n54:  const st=ITEMS[i];if(st&&(st.studio||st.top)){const tab=st.studio||(st.id==='studio-video'?'video':'thumb');const sub=st.sub||(/^[\\w-]+$/.test(params.sub||'')?params.sub:'');const si=ids.indexOf('studio-'+tab);open(si,'thumb-edit-studio-20261123/?tab='+tab+(sub?'&sub='+sub:''),{page:'studio-'+tab,...(sub?{sub}:{})},'🟥 썸네일 · 영상편집 › '+(st.studio?st.t:ITEMS[si].t));return;}"
+      },
+      {
+        "source": "hub",
+        "path": "국뽕-유튜브-리서치-허브-20261108/index.html",
+        "lines": [
+          63,
+          63
+        ],
+        "excerpt": "63: window.addEventListener('message',e=>{const fr=view.querySelector('iframe');if(e.origin!==location.origin||e.source!==fr?.contentWindow||e.data?.type!=='hub-studio')return;const tab=e.data.tab==='video'?'video':'thumb',sub=String(e.data.sub||'');if(!/^[\\w-]+$/.test(sub))return;history.replaceState(null,'',hubLink({page:'studio-'+tab,sub}));const si=ids.indexOf('studio-'+tab);[...document.querySelectorAll('#side a[data-i]')].forEach(a=>{const on=Number(a.dataset.i)===si;a.classList.toggle('on',on);if(on)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});op.href=hubLink({page:'studio-'+tab,sub});});"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "mark": "🌸",
+      "text": "원본 참고/기존 정리/사용자 확정/새 제안을 별도 provenance로 저장하고 장면별 토큰과 실제 구현을 같은 데이터에서 생성한다."
+    },
+    {
+      "mark": "🌸",
+      "text": "T07/T04 적용은 generic preset 색을 쓰지 말고 사용자 확정 스타일 ID와 명시 HEX/폰트 ID를 전달한다. 외곽선·그림자·레이블·효과도 함께 전달한다."
+    },
+    {
+      "mark": "🌸",
+      "text": "T05 구형·현재 팔레트는 두 개의 버전으로 보존한다. 현재 사용자가 고른 값이 결정되기 전 자동 통합하지 않는다."
+    },
+    {
+      "mark": "🌸",
+      "text": "기존 HTML 도구는 보존하고 새 통합 문서 링크만 양쪽 메뉴에 추가한다."
+    },
+    {
+      "mark": "🌸",
+      "text": "현재 MP4에서의 색/프레임/자막 중복/끊김 완료 여부는 실제 renderer와 출력 파일을 확보한 뒤 별도 검수 상태로 표시한다."
+    }
+  ],
+  "explicit_nonclaims": [
+    "사용자 컴퓨터의 /run/media 또는 /home/yh 파일을 열었다고 주장하지 않음",
+    "51~54편 실제 렌더 원인 확정 또는 수정 완료 아님",
+    "원본 방송 자막의 정확한 폰트 식별 아님",
+    "코드에 적힌 HEX를 이번에 이미지에서 새로 측정했다고 주장하지 않음",
+    "폰트 로딩 성공과 라이선스 최신성을 검증했다고 주장하지 않음",
+    "지도/종이틀/댓글/개구리 원본이 저장소에 이미 존재한다고 주장하지 않음"
+  ],
+  "minimal_patch_proposals": [
+    {
+      "id": "P01",
+      "priority": "recommended_minimal",
+      "file": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+      "line": 368,
+      "before": "if(i===2){setField('mark','lightning');setField('accent','#ff4545')}",
+      "after": "if(i===2){setField('mark','lightning');setField('accent','#E03C3E')}",
+      "reason": "T07 버튼의 강조색만 전용 T07 레퍼런스 코드에 일치시킨다. 범용 keyword 프리셋과 다른 장면 빨강은 유지한다.",
+      "scope": "미리보기 T07 카드 적용 색값만. 폰트·외곽선·그림자·글자 크기·장식 배치까지 같아지는 패치는 아님.",
+      "change_style_structure": false,
+      "exact_before_match_count_in_audited_source": 1
+    },
+    {
+      "id": "P02",
+      "priority": "recommended_minimal",
+      "file": "research-hub-20261108/broadcast-font-subtitle-master-20261121/thumbnail-layer-lab-20261123/index.html",
+      "line": 132,
+      "before": "L('no','중앙 NO!!','NO!!',45,48,222,'bangers','#FF6820','#E6090C',7,'#200707',10,'#9F090B',-6,-12)",
+      "after": "L('no','중앙 NO!!','NO!!',45,48,222,'bangers','#F22B15','#C30E0C',7,'#200707',10,'#9F090B',-6,-12)",
+      "reason": "실제 NO layer의 두 채움값을 같은 페이지 spec에 쓰인 #F22B15→#C30E0C로 일치시킨다.",
+      "scope": "구형 영화 해외반응 템플릿 새로 불러온 기본값. 기존 localStorage 저장본/이미 내려받은 PNG는 변경되지 않는다.",
+      "change_style_structure": false,
+      "exact_before_match_count_in_audited_source": 1
+    },
+    {
+      "id": "P03",
+      "priority": "recommended_if_exact_single_yellow_is_intent",
+      "file": "research-hub-20261108/broadcast-font-subtitle-master-20261121/thumbnail-layer-lab-20261123/index.html",
+      "line": 133,
+      "before": "L('title','하단 금색 제목','추격자 해외반응 리액션',50,82,98,'black','#FFF55C','#EBA400',7,'#0F0809',12,'#820908',-4)",
+      "after": "L('title','하단 금색 제목','추격자 해외반응 리액션',50,82,98,'black','#FFE713',null,7,'#0F0809',12,'#820908',-4)",
+      "reason": "spec에 하단 노랑 #FFE713 한 값만 지정되어 있어 그 값 그대로 칠하는 최소안. 두 번째 그라데이션 색을 새로 발명하지 않는다.",
+      "scope": "이 템플릿 하단만 기존 황금 그라데이션이 단색 노랑으로 바뀐다. 검정/빨강 외곽·그림자·서체·좌표는 유지. 사용자가 그라데이션도 원하는 경우 #FFE713 역할과 두 번째 색을 별도 확정하기 전 P03은 보류할 수 있다.",
+      "change_style_structure": "gradient true -> false only",
+      "exact_before_match_count_in_audited_source": 1
+    },
+    {
+      "id": "P04",
+      "priority": "recommended_minimal_existing_editor_route",
+      "file": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+      "line": 369,
+      "before": "const b=document.createElement('button');b.type='button';b.className='action';b.textContent='🎨 이 스타일 적용';b.addEventListener('click',()=>applyRef(i));",
+      "after": "const b=document.createElement(i===4?'a':'button');b.className='action';if(i===4){b.href='./typography-refs-20261122/guide.html?v=20261124#T04';b.target='_blank';b.rel='noopener';b.textContent='🎨 전용 2색·라벨 편집 ↗'}else{b.type='button';b.textContent='🎨 이 스타일 적용';b.addEventListener('click',()=>applyRef(i))};",
+      "exact_before_match_count_in_audited_source": 1,
+      "reason": "T04 카드만 기존 전용 T04 편집기 링크로 바꾼다. 나머지 7개 카드의 applyRef 기능은 유지한다.",
+      "scope": "동일 사이트 기존 guide의 새 탭 링크. 새 렌더러/컴포넌트/폰트/팔레트를 만들지 않는다. 현재 lab 작업 상태를 보존하려 새 탭으로 열고 화살표로 표시한다.",
+      "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/guide.html?v=20261124#T04",
+      "hash_support_evidence": [
+        {
+          "file": "typography-refs-20261122/editor.js",
+          "line": 6,
+          "text": "activate(id) picks card.id === id"
+        },
+        {
+          "file": "typography-refs-20261122/editor.js",
+          "line": 20,
+          "text": "hashchange event activates location.hash"
+        },
+        {
+          "file": "typography-refs-20261122/editor.js",
+          "line": 352,
+          "text": "activate(location.hash.slice(1));"
+        }
+      ],
+      "ui_note": "a.action inherits existing .action styles; if required, CSS text-decoration:none is a presentation-only adjustment. Browser click should be checked by root after patch."
+    }
+  ],
+  "font_structure_recommendation": {
+    "current_video_lab_font_map": "video-edit-lab.html:134 select, :276–284 fontMap, :361 loading warning",
+    "current_target_tmon_available": false,
+    "recommended_now": "P01만 적용하면 색 수정만 완료로 표시하고 티몬 폰트·외곽선·그림자 전체 재현 완료라고 말하지 않는다.",
+    "optional_t07_style_alignment": {
+      "purpose": "사용자 잠금 규칙의 T07 티몬 몬소리/흰색/외곽선0/그림자0까지 맞출 때만 함께 적용",
+      "css_append_after_line12": "@font-face{font-family:'TmonMonsori';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}",
+      "select_append_in_font_at_line134": "<option value=\"monsori\">티몬 몬소리 Black</option>",
+      "font_map_insert_after_jalnan_line277": "monsori:{ff:\"'TmonMonsori','Black Han Sans',sans-serif\",w:400},",
+      "t07_branch_replacement": "if(i===2){setField('mark','lightning');setField('font','monsori');setField('primary','#FDFDFC');setField('accent','#E03C3E');setField('border',0);setField('shadow',0)}",
+      "limits": [
+        "외부 폰트 다운로드 실패 시 fallback이 발생할 수 있으므로 기존 fontWarn 로딩 결과 확인이 필요하다.",
+        "기존 기본 keyword의 폰트/외곽선/그림자 전체를 바꾸지 않는다. i===2 전용 분기만 수정한다.",
+        "이 패치만으로 번개 2개 양끝 배치·두 줄 글자 비율·실제 문구까지 원본과 같아지지 않는다."
+      ],
+      "source_url_note": "원래 전용 typography editor.css:70에 선언된 동일 URL을 재사용하는 제안; 이번 감사에서 네트워크 로딩은 미실행."
+    },
+    "t05": "현재 gold-editor/gold-renderer와 폰트 7개는 변경하지 않는다.",
+    "old_layer_fonts": "FONTS map, 개별 layer.font 선택, 외곽선/그림자/좌표는 P02/P03에서 유지."
+  },
+  "t04_minimal_scope_decision": {
+    "code_support": {
+      "quote_is_comment_card": true,
+      "arbitrary_keyword_two_color_gradient": false,
+      "top_black_caption_label": false,
+      "existing_hardcoded_whole_line_gradient_styles": [
+        "gold",
+        "metal",
+        "fire"
+      ]
+    },
+    "evidence": [
+      {
+        "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+        "lines": [
+          319,
+          324
+        ],
+        "detail": "commentCard has avatar/nickname/platform/original/translation/likes rather than a plain broadcast caption."
+      },
+      {
+        "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+        "lines": [
+          344,
+          348
+        ],
+        "detail": "quote routes to commentCard; only generic modes route to makeText."
+      },
+      {
+        "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+        "lines": [
+          34,
+          41
+        ],
+        "detail": "whole-line gradients use fixed gold/metal/fire CSS; highlighted words use a single --accent."
+      }
+    ],
+    "recommended_now": "T04를 quote 컴포넌트에 억지로 구현하지 않고 불일치 목록과 기존 전용 편집기 바로가기를 제공한다.",
+    "existing_exact_editor_relative_url": "./typography-refs-20261122/guide.html?v=20261124#T04",
+    "hash_routing_evidence": "typography-refs-20261122/editor.js:6–20 and final activate(location.hash.slice(1)) handle T04.",
+    "optional_ui_link_label": "T04 전용 편집기에서 조절",
+    "why_not_simple_color_patch": "quote 카드에서 accent만 빨강으로 바꿔도 다홍 그라데이션·라벨·폰트·기울기·본문 배치가 재현되지 않는다.",
+    "exact_route_patch": "P04",
+    "resolved_url": "https://geben147-create.github.io/Insta/research-hub-20261108/broadcast-font-subtitle-master-20261121/typography-refs-20261122/guide.html?v=20261124#T04"
+  },
+  "additional_fixed_gradient_note": {
+    "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+    "lines": [
+      34,
+      40
+    ],
+    "observation": "구형 lab의 gold/metal/fire CSS는 primaryColor/secondColor 데이터와 직접 연결되지 않은 고정 그라데이션이다. 예컨대 gold는 #FFF8CF/#FFE066/#D38A00/#FFF0A3. 이는 현재 별도 gold-editor와 다른 구현이다.",
+    "action": "이번 최소 수정에서는 T05 최신 편집기와 구형 gold CSS 모두 변경하지 않고 버전 차이로 기록한다."
+  }
+}

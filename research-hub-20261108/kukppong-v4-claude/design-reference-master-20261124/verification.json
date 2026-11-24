@@ -1,0 +1,29 @@
+{
+  "stage": "local files and browser preview; production verification follows publishing",
+  "checks": {
+    "source_images_sha256": "24/24 match",
+    "reference_details": 89,
+    "measured_color_records": 74,
+    "selected_color_roles": 14,
+    "source_user_text": "unchanged against prior committed V8 originalText",
+    "js_syntax": "PASS",
+    "html_unique_ids": "PASS",
+    "internal_artifact_links": "PASS",
+    "gallery_default_filter": "17 of 24 visible",
+    "mobile_width": "390px iframe, content width 375px, no horizontal body overflow or clipped color cards",
+    "comment_preview": "wide/tall; highlight behind text; optional character slot; no devil",
+    "paper_preview": "wide/tall; original scene aspect ratio preserved; recreated paper marked",
+    "copy_current": "B + S + R success status observed; text equals exported TXT",
+    "T07_actual_input": "#e03c3e after applying T07",
+    "legacy_NO_inputs": "#f22b15 and #c30e0c",
+    "legacy_title": "#ffe713 and gradient unchecked",
+    "T04_link": "opened existing guide with #T04 and displayed its two-tone controls"
+  },
+  "not_checked": [
+    "actual HumanTouch renderer",
+    "episode MP4 pixels",
+    "episode playback timing and frame continuity",
+    "all fonts in final video"
+  ],
+  "by": "ChatGPT"
+}

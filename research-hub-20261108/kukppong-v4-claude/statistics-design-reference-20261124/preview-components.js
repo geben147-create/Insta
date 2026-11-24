@@ -93,11 +93,11 @@
       s += '<g data-region="character" data-box="' + [slot.x,slot.y,slot.w,slot.h].join(' ') + '">';
       s += rect(cx, cy, slot.w, slot.h, 24, '#FFFFFF', 'stroke="#98A4B4" stroke-width="2.5" stroke-dasharray="10 8" opacity="0.93"');
       if (c.tall) {
-        s += txt(cx + slot.w / 2, cy + 57, '캐릭터 선택 자리 · 실제 자산 미수신', 35, '#66758A', 700, 'middle');
+        s += txt(cx + slot.w / 2, cy + 57, '캐릭터 선택 자리 · 제작용 개별 자산 대기', 35, '#66758A', 700, 'middle');
         s += txt(cx + slot.w / 2, cy + 105, 'ON: 공간 예약 / OFF: 차트가 공간 회수', 30, '#8A94A4', 500, 'middle');
       } else {
         s += txt(cx + slot.w / 2, cy + 192, '캐릭터 선택 자리', 30, '#66758A', 700, 'middle');
-        s += txt(cx + slot.w / 2, cy + 241, '실제 자산 미수신', 28, '#8A94A4', 500, 'middle');
+        s += txt(cx + slot.w / 2, cy + 241, '제작용 개별 자산 대기', 28, '#8A94A4', 500, 'middle');
         s += txt(cx + slot.w / 2, cy + 304, '별도 열 예약', 28, '#8A94A4', 500, 'middle');
       }
       s += '</g>';

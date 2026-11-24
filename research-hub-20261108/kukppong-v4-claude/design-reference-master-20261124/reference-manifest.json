@@ -1,0 +1,4551 @@
+{
+  "version": "r002",
+  "date": "2026-11-24",
+  "references": [
+    {
+      "id": "REF-01",
+      "filename": "01-148970.jpg",
+      "title": "오렌지 KPI · 양각 세계지도 · 상승형 블록",
+      "semantic_uses": [
+        "국가 분포",
+        "지도 위 위치 핀",
+        "핵심 비율",
+        "작은 국가별 지표",
+        "성장 분위기용 기하 블록"
+      ],
+      "main_crop": {
+        "id": "overview",
+        "label": "지도와 15% 카드 전체",
+        "box": [
+          296,
+          48,
+          690,
+          1228
+        ],
+        "note": ""
+      },
+      "detail_crops": [
+        {
+          "id": "map",
+          "label": "90% + 세계지도 + 위치 핀",
+          "box": [
+            300,
+            48,
+            685,
+            397
+          ],
+          "note": ""
+        },
+        {
+          "id": "map_only",
+          "label": "흰 양각 세계지도",
+          "box": [
+            300,
+            175,
+            685,
+            270
+          ],
+          "note": ""
+        },
+        {
+          "id": "countries",
+          "label": "국가별 31·6·8·3·2",
+          "box": [
+            340,
+            455,
+            605,
+            252
+          ],
+          "note": ""
+        },
+        {
+          "id": "growth",
+          "label": "15% + 오렌지 상승형 블록",
+          "box": [
+            346,
+            980,
+            590,
+            290
+          ],
+          "note": ""
+        },
+        {
+          "id": "number",
+          "label": "큰 90%",
+          "box": [
+            520,
+            57,
+            270,
+            143
+          ],
+          "note": ""
+        }
+      ],
+      "visible_text": [
+        "90%",
+        "50 global licenses and qualifications",
+        "31 / 6 / 8 / 3 / 2",
+        "15%",
+        "100% (하단 일부; 휴대폰 안내와 겹침)"
+      ],
+      "observations": {
+        "material": "지도는 표면에 국경선이 새겨진 흰 양각 모형. 하단 블록은 옅은 오렌지 반투명/그라데이션으로 보임.",
+        "lighting": "전체가 밝은 확산광. 지도 윗면은 밝고 지형 가장자리 아래가 회색으로 어두움.",
+        "shadow": "지도 아래와 블록 주변에 넓고 약한 접촉 그림자.",
+        "composition": "큰 수치→지도→5개 지표 열→설명→15% 카드로 수직 계층. 90%의 아랫부분이 지도 뒤로 가려져 깊이를 만듦.",
+        "font_shape": "숫자는 매우 굵은 산세리프, 제목은 검정 굵은 산세리프, 본문은 가는 산세리프. 정확한 폰트는 확인 불가."
+      },
+      "data_notes": [
+        "31+6+8+3+2=50은 캡처 안 산술상 일치.",
+        "90%의 분모와 의미는 화면에 충분히 설명되지 않음. 50개 라이선스와 같은 지표라고 추정하지 않음.",
+        "15% 뒤 기하 블록에는 축·시점·개별 값이 없어 실제 추세그래프로 간주할 수 없음."
+      ],
+      "limits": [
+        "100% 하단 카드에는 휴대폰 안내가 겹쳐 독립 레퍼런스 crop에서 제외."
+      ],
+      "user_display_order": 1,
+      "dimensions": [
+        1279,
+        1536
+      ],
+      "source_sha256": "cc83a8ae0fcfdb0358e8b55799cfd3653db55c30494512b9d3d98253d9b75a6f",
+      "transcribed_hex": [],
+      "measured_colors": [
+        {
+          "role": "90% 주황",
+          "roi": [
+            520,
+            64,
+            265,
+            128
+          ],
+          "rgb": [
+            247,
+            109,
+            11
+          ],
+          "hex": "#F76D0B",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "R>180, 50<G<180, B<120, R-G>50",
+          "sampled_pixels": 12514,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "지도 핀 주황",
+          "roi": [
+            538,
+            235,
+            350,
+            155
+          ],
+          "rgb": [
+            231,
+            135,
+            40
+          ],
+          "hex": "#E78728",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "R>180, 50<G<180, B<120, R-G>50",
+          "sampled_pixels": 3044,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "밝은 회색 배경",
+          "roi": [
+            1000,
+            400,
+            100,
+            100
+          ],
+          "rgb": [
+            238,
+            238,
+            238
+          ],
+          "hex": "#EEEEEE",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 10000,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "상승 블록 밝은 주황 면",
+          "roi": [
+            840,
+            1160,
+            50,
+            70
+          ],
+          "rgb": [
+            249,
+            184,
+            114
+          ],
+          "hex": "#F9B872",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 3500,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-01.jpg",
+      "original_preserved": true,
+      "batch": 1,
+      "category": "statistics"
+    },
+    {
+      "id": "REF-02",
+      "filename": "02-148954.jpg",
+      "title": "유리 접시형 파이 · 앰버 강조 · 숫자 콜아웃",
+      "semantic_uses": [
+        "구성비",
+        "큰 합계 + 세부 항목",
+        "유리 재질 파이"
+      ],
+      "main_crop": {
+        "id": "overview",
+        "label": "1,100 + 유리 파이 + 콜아웃",
+        "box": [
+          390,
+          365,
+          485,
+          560
+        ],
+        "note": ""
+      },
+      "detail_crops": [
+        {
+          "id": "chart",
+          "label": "유리 접시형 파이",
+          "box": [
+            427,
+            617,
+            425,
+            290
+          ],
+          "note": ""
+        },
+        {
+          "id": "leaders",
+          "label": "숫자와 콜아웃 전체",
+          "box": [
+            430,
+            387,
+            405,
+            490
+          ],
+          "note": ""
+        },
+        {
+          "id": "title",
+          "label": "챕터 제목 배치",
+          "box": [
+            590,
+            95,
+            390,
+            170
+          ],
+          "note": ""
+        }
+      ],
+      "visible_text": [
+        "1,100",
+        "Group R&D Employees",
+        "172 Workshop and Administration Staff",
+        "350 Lab Staff and Technicians",
+        "346 Scientists and Engineers"
+      ],
+      "observations": {
+        "material": "얇은 투명 유리 접시의 두꺼운 테두리와 분할 벽, 오른쪽 앰버색 면/액체처럼 보이는 채움.",
+        "lighting": "흰 배경 위 유리 가장자리에 강한 밝은 반사선, 앰버 면에는 부드러운 색 변화.",
+        "shadow": "접시 아래의 짧은 회색 접촉 그림자와 옅은 타원 반사.",
+        "composition": "수치가 맨 위 중앙, 3개 라벨이 높이를 달리하며 점선으로 파이 내부에 연결. 원근 때문에 파이는 타원으로 보임.",
+        "font_shape": "큰 숫자는 중간~굵은 산세리프. 콜아웃은 작은 검정 산세리프와 가는 검정 사각 테두리. 정확한 폰트 확인 불가."
+      },
+      "data_notes": [
+        "보이는 3개 항목의 합은 868(172+350+346)로 표시 합계 1,100과 다름. 누락된 범주가 있는지 원자료 확인이 필요하며 나머지를 임의 작성하면 안 됨.",
+        "원근 파이의 보이는 픽셀 면적을 실제 구성비로 역산하지 않음."
+      ],
+      "limits": [
+        "전체 페이지 하단에는 시각 검색 버튼이 겹침. 메인 crop은 그 위에서 끝남.",
+        "Wacker Infographic는 캡처에서 보이는 게시물 제목이며 원 출처 링크는 아직 미제공."
+      ],
+      "user_display_order": 2,
+      "dimensions": [
+        1279,
+        1536
+      ],
+      "source_sha256": "9ae4a1796a02eb4570d6069a387e7ecb62d2afbbaa4c0f494eeb98588cb4c40a",
+      "transcribed_hex": [],
+      "measured_colors": [
+        {
+          "role": "1,100 앰버 숫자",
+          "roi": [
+            620,
+            390,
+            155,
+            70
+          ],
+          "rgb": [
+            207,
+            127,
+            61
+          ],
+          "hex": "#CF7F3D",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "R>180, 50<G<180, B<120, R-G>50",
+          "sampled_pixels": 1968,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "앰버 파이 면",
+          "roi": [
+            685,
+            697,
+            85,
+            40
+          ],
+          "rgb": [
+            219,
+            137,
+            51
+          ],
+          "hex": "#DB8933",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 3400,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "회색 종이 배경",
+          "roi": [
+            330,
+            300,
+            100,
+            100
+          ],
+          "rgb": [
+            236,
+            236,
+            236
+          ],
+          "hex": "#ECECEC",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 10000,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-02.jpg",
+      "original_preserved": true,
+      "batch": 1,
+      "category": "statistics"
+    },
+    {
+      "id": "REF-03",
+      "filename": "03-148948.jpg",
+      "title": "흰 분리형 파이 · 코발트 블루 글로",
+      "semantic_uses": [
+        "두 집단의 구성비",
+        "강조 비중",
+        "부드러운 빛 중심의 원형 도형"
+      ],
+      "main_crop": {
+        "id": "overview",
+        "label": "파이와 오른쪽 연결 라벨",
+        "box": [
+          160,
+          245,
+          1065,
+          825
+        ],
+        "note": ""
+      },
+      "detail_crops": [
+        {
+          "id": "pie",
+          "label": "30/70 파이 본체",
+          "box": [
+            180,
+            270,
+            765,
+            755
+          ],
+          "note": ""
+        },
+        {
+          "id": "glow",
+          "label": "파란 확산광과 숫자",
+          "box": [
+            340,
+            418,
+            485,
+            490
+          ],
+          "note": ""
+        },
+        {
+          "id": "leader",
+          "label": "오른쪽 연결선",
+          "box": [
+            925,
+            275,
+            300,
+            408
+          ],
+          "note": ""
+        }
+      ],
+      "visible_text": [
+        "30%",
+        "6798 м²",
+        "70%",
+        "15562 м²"
+      ],
+      "observations": {
+        "material": "흰색 무광 두께가 있는 원형 판을 두 조각으로 분리. 절단면 일부가 진한 파란색.",
+        "lighting": "중앙 주변은 선명한 블루, 바깥으로 넓게 퍼지며 흰색으로 사라지는 방사형 발광.",
+        "shadow": "밝은 바탕 위 넓고 낮은 대비의 회색 그림자. 판이 살짝 떠 있는 인상.",
+        "composition": "큰 원형이 화면 중앙 왼쪽을 차지하고 오른쪽에 얇은 수평 연결선과 라벨. 두 조각 사이 간격이 큼.",
+        "font_shape": "비율은 굵은 산세리프, 면적은 가는 산세리프. 숫자 자체가 푸른 빛에 섞여 대비가 낮음. 정확한 폰트 확인 불가."
+      },
+      "data_notes": [
+        "6798+15562=22360. 각 비율은 약30.4%와69.6%로 30/70 표시는 반올림으로 해석할 수 있지만 원 출처는 미확인."
+      ],
+      "limits": [
+        "폰 화면의 아래 그라데이션은 뷰어 UI 영향일 수 있어 디자인의 정확한 opacity로 역산할 수 없음."
+      ],
+      "user_display_order": 3,
+      "dimensions": [
+        1279,
+        1536
+      ],
+      "source_sha256": "85ea0fc4f29ceef6df379c63bf4aa61b74db27deb059dab07487e9ed451f45e1",
+      "transcribed_hex": [],
+      "measured_colors": [
+        {
+          "role": "글로 내부 파랑",
+          "roi": [
+            630,
+            570,
+            65,
+            65
+          ],
+          "rgb": [
+            34,
+            71,
+            255
+          ],
+          "hex": "#2247FF",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 4225,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "분할 절단면 파랑",
+          "roi": [
+            440,
+            634,
+            90,
+            15
+          ],
+          "rgb": [
+            47,
+            71,
+            225
+          ],
+          "hex": "#2F47E1",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 1350,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "흰 원판",
+          "roi": [
+            730,
+            420,
+            40,
+            40
+          ],
+          "rgb": [
+            237,
+            237,
+            237
+          ],
+          "hex": "#EDEDED",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 1600,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-03.jpg",
+      "original_preserved": true,
+      "batch": 1,
+      "category": "statistics"
+    },
+    {
+      "id": "REF-04",
+      "filename": "04-148950.jpg",
+      "title": "블루 유리 퍼널 · 4단계 · 측면 콜아웃",
+      "semantic_uses": [
+        "전환 단계",
+        "유입→참여→구매 흐름",
+        "단계별 감소",
+        "한 단계 강조"
+      ],
+      "main_crop": {
+        "id": "overview",
+        "label": "제목 + 4단계 숫자 + 콜아웃",
+        "box": [
+          74,
+          190,
+          1162,
+          1096
+        ],
+        "note": "휴대폰 안내가 시작되기 전까지. 최하단 퍼널 받침은 잘리며 원본에 이미 안내가 겹침."
+      },
+      "detail_crops": [
+        {
+          "id": "stages123",
+          "label": "첫 3단계 퍼널",
+          "box": [
+            180,
+            420,
+            690,
+            700
+          ],
+          "note": ""
+        },
+        {
+          "id": "stage4",
+          "label": "마지막 단계 숫자",
+          "box": [
+            378,
+            1132,
+            385,
+            154
+          ],
+          "note": ""
+        },
+        {
+          "id": "callout1",
+          "label": "첫 번째 설명 카드",
+          "box": [
+            900,
+            898,
+            345,
+            224
+          ],
+          "note": ""
+        },
+        {
+          "id": "heading",
+          "label": "제목과 demo dataset 표시",
+          "box": [
+            77,
+            195,
+            855,
+            150
+          ],
+          "note": ""
+        }
+      ],
+      "visible_text": [
+        "Signup to Paid Funnel",
+        "March 2025, demo dataset",
+        "Visits 450,000",
+        "Signups 18,000 (4.0%)",
+        "Activated 8,280 (46.0%)",
+        "Paid customers 1,656 (20.0%)",
+        "Biggest drop—activation",
+        "Winning change—onboarding checklist v3"
+      ],
+      "observations": {
+        "material": "깊이 있는 사다리꼴 유리/서리 유리 바구니 4개. 위는 거의 흰색, 아래로 갈수록 채도 높은 파랑.",
+        "lighting": "왼쪽 위에서 밝은 빛을 받는 인상. 테두리·윗면 반사선은 밝고 내부와 측면은 푸른 회색.",
+        "shadow": "오른쪽 아래로 길게 밀린 부드러운 회색 그림자. 각 단계 사이에도 그림자와 틈이 있음.",
+        "composition": "퍼널은 좌중앙, Step 라벨은 왼쪽, 문제/변경 설명은 오른쪽. 타이틀은 상단 한 줄, 수치는 각 면의 왼쪽 정렬.",
+        "font_shape": "제목은 굵은 검정 산세리프. 단계 숫자도 굵고 상단 두 층은 검정, 하단 두 층은 흰색. 정확한 폰트 확인 불가."
+      },
+      "data_notes": [
+        "demo dataset라고 명시된 예시 데이터. 실제 사용자 영상의 사실 데이터로 재사용하지 않음.",
+        "표시된4/46/20%는 직전 단계 대비 값. 전체 유입 대비 최종 비율은0.368%.",
+        "방문→가입의 감소율96%가 가입→활성의54%보다 큼. Biggest drop—activation 문구는 이 화면만으로 가장 큰 전체 단계 이탈이라는 뜻과 맞지 않으므로 실제 제작 시 계산과 주석을 새로 맞춰야 함.",
+        "입체 퍼널 너비는 표시값에 정확하게 비례하지 않음. 디자인 참고와 수치 인코딩을 분리."
+      ],
+      "limits": [
+        "최하단 퍼널 일부는 휴대폰 안내/탐색막대와 겹치므로 UI 없는 완전한 본체를 이 파일에서 잘라 얻을 수 없음."
+      ],
+      "user_display_order": 4,
+      "dimensions": [
+        1279,
+        1536
+      ],
+      "source_sha256": "85868e9dae17aeb08b069e790cc681b1857d2e48f70d86382dde318151208009",
+      "transcribed_hex": [],
+      "measured_colors": [
+        {
+          "role": "3단계 파랑 면",
+          "roi": [
+            440,
+            930,
+            260,
+            20
+          ],
+          "rgb": [
+            83,
+            110,
+            227
+          ],
+          "hex": "#536EE3",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 5200,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "4단계 진파랑 면",
+          "roi": [
+            460,
+            1150,
+            180,
+            22
+          ],
+          "rgb": [
+            39,
+            63,
+            228
+          ],
+          "hex": "#273FE4",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 3960,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "1단계 서리유리 면",
+          "roi": [
+            630,
+            530,
+            130,
+            50
+          ],
+          "rgb": [
+            210,
+            212,
+            232
+          ],
+          "hex": "#D2D4E8",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 6500,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-04.jpg",
+      "original_preserved": true,
+      "batch": 1,
+      "category": "statistics"
+    },
+    {
+      "id": "REF-05",
+      "filename": "05-148960.jpg",
+      "title": "6단 블루 팔레트 · 유광 둥근 유리 슬래브",
+      "semantic_uses": [
+        "통계용 블루 단계 팔레트",
+        "유리 카드 재질",
+        "밝은 테두리와 그라데이션"
+      ],
+      "main_crop": {
+        "id": "overview",
+        "label": "6개 슬래브와 HEX 라벨",
+        "box": [
+          180,
+          315,
+          960,
+          925
+        ],
+        "note": ""
+      },
+      "detail_crops": [
+        {
+          "id": "labels",
+          "label": "6개 명시 HEX",
+          "box": [
+            951,
+            380,
+            180,
+            760
+          ],
+          "note": ""
+        },
+        {
+          "id": "material",
+          "label": "유광 유리 슬래브",
+          "box": [
+            195,
+            325,
+            710,
+            905
+          ],
+          "note": ""
+        },
+        {
+          "id": "rim",
+          "label": "반사광과 베벨 가장자리",
+          "box": [
+            200,
+            560,
+            210,
+            235
+          ],
+          "note": ""
+        }
+      ],
+      "visible_text": [
+        "Color gradient",
+        "#03195b",
+        "#0b2cb1",
+        "#1951fc",
+        "#3781fc",
+        "#3781fc",
+        "#cbe9fd",
+        "Designed by Basel Design",
+        "Zir Tech. All Rights Reserved 2026 ©"
+      ],
+      "transcribed_hex": [
+        {
+          "row": 1,
+          "literal": "#03195b"
+        },
+        {
+          "row": 2,
+          "literal": "#0b2cb1"
+        },
+        {
+          "row": 3,
+          "literal": "#1951fc"
+        },
+        {
+          "row": 4,
+          "literal": "#3781fc"
+        },
+        {
+          "row": 5,
+          "literal": "#3781fc",
+          "note": "4행과 원문 표기는 같으나 이 행 점/유리면은 더 밝고 청록에 가까움. 오타 여부 미확인. 표기 그대로 보존."
+        },
+        {
+          "row": 6,
+          "literal": "#cbe9fd"
+        }
+      ],
+      "observations": {
+        "material": "두께와 큰 모서리 반경을 가진 광택 유리/젤 슬래브 6개가 겹침. 각 물체는 한 단색이 아니라 베벨·광택·내부 색 변화로 이루어짐.",
+        "lighting": "왼쪽 테두리와 위쪽 모서리에 청백색 반사. 오른쪽 위에도 집중된 하이라이트가 있음. 어두운 배경에 유리 가장자리 광채가 잘 보임.",
+        "shadow": "겹치는 경계 사이가 어둡고, 검정 바탕에는 푸른 미세한 블룸만 관찰됨.",
+        "composition": "동일한 형태·너비·간격의 6단계. 위의 진파랑에서 아래의 하늘색으로 밝아지고 오른쪽에 선·점·HEX가 정렬됨.",
+        "font_shape": "HEX와 제목은 가는 산세리프. 정확한 폰트 확인 불가."
+      },
+      "data_notes": [
+        "HEX는 원문을 눈으로 옮긴 값. 실측 점색 및 물체 표면색과 동일하다고 간주하지 않음.",
+        "4·5행의#3781fc 중복은 오류로 확정하지 않고 원문 보존. 5행 샘플 색을 대신 정답 HEX로 승격하지 않음."
+      ],
+      "limits": [
+        "하단 크레디트는 main crop 밖에 있지만 원본과 visible_text에 보존.",
+        "스크린샷 압축·색관리·조명 표현 때문에 픽셀값이 원저작자의 디자인 토큰과 다를 수 있음."
+      ],
+      "user_display_order": 5,
+      "dimensions": [
+        1279,
+        1536
+      ],
+      "source_sha256": "7e746f31d4cb2980624e55388e2b9b70c46e0825c47aeaf0f17eb3ef1212ad88",
+      "measured_colors": [
+        {
+          "role": "1행 슬래브 내부 대표색",
+          "roi": [
+            470,
+            390,
+            190,
+            40
+          ],
+          "rgb": [
+            2,
+            16,
+            68
+          ],
+          "hex": "#021044",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 7600,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "2행 슬래브 내부 대표색",
+          "roi": [
+            470,
+            515,
+            190,
+            40
+          ],
+          "rgb": [
+            5,
+            29,
+            135
+          ],
+          "hex": "#051D87",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 7600,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "3행 슬래브 내부 대표색",
+          "roi": [
+            470,
+            635,
+            190,
+            40
+          ],
+          "rgb": [
+            14,
+            53,
+            195
+          ],
+          "hex": "#0E35C3",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 7600,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "4행 슬래브 내부 대표색",
+          "roi": [
+            470,
+            760,
+            190,
+            40
+          ],
+          "rgb": [
+            45,
+            114,
+            253
+          ],
+          "hex": "#2D72FD",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 7600,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "5행 슬래브 내부 대표색",
+          "roi": [
+            470,
+            880,
+            190,
+            40
+          ],
+          "rgb": [
+            91,
+            179,
+            253
+          ],
+          "hex": "#5BB3FD",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 7600,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "6행 슬래브 내부 대표색",
+          "roi": [
+            470,
+            1060,
+            190,
+            40
+          ],
+          "rgb": [
+            116,
+            185,
+            250
+          ],
+          "hex": "#74B9FA",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 7600,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "1행 색상 점 실측",
+          "roi": [
+            974,
+            402,
+            10,
+            10
+          ],
+          "rgb": [
+            3,
+            26,
+            94
+          ],
+          "hex": "#031A5E",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 100,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "2행 색상 점 실측",
+          "roi": [
+            974,
+            542,
+            10,
+            10
+          ],
+          "rgb": [
+            8,
+            46,
+            175
+          ],
+          "hex": "#082EAF",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 100,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "3행 색상 점 실측",
+          "roi": [
+            974,
+            682,
+            10,
+            10
+          ],
+          "rgb": [
+            30,
+            87,
+            249
+          ],
+          "hex": "#1E57F9",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 100,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "4행 색상 점 실측",
+          "roi": [
+            974,
+            822,
+            10,
+            10
+          ],
+          "rgb": [
+            55,
+            131,
+            253
+          ],
+          "hex": "#3783FD",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 100,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "5행 색상 점 실측",
+          "roi": [
+            974,
+            962,
+            10,
+            10
+          ],
+          "rgb": [
+            106,
+            185,
+            254
+          ],
+          "hex": "#6AB9FE",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 100,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "6행 색상 점 실측",
+          "roi": [
+            974,
+            1102,
+            10,
+            10
+          ],
+          "rgb": [
+            197,
+            231,
+            248
+          ],
+          "hex": "#C5E7F8",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 100,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-05.jpg",
+      "original_preserved": true,
+      "batch": 1,
+      "category": "statistics"
+    },
+    {
+      "id": "REF-06",
+      "filename": "06-148966.jpg",
+      "title": "유리 리뷰 파이프 · 별·말풍선·문서 아이콘",
+      "semantic_uses": [
+        "리뷰→인용→스토리→사례 흐름",
+        "댓글/후기 섹션의 보조 아이콘",
+        "투명 유리 장식"
+      ],
+      "main_crop": {
+        "id": "overview",
+        "label": "제목 + 유리 파이프 디자인",
+        "box": [
+          298,
+          105,
+          689,
+          895
+        ],
+        "note": ""
+      },
+      "detail_crops": [
+        {
+          "id": "icons",
+          "label": "별·말풍선·문서 그룹",
+          "box": [
+            350,
+            356,
+            590,
+            294
+          ],
+          "note": ""
+        },
+        {
+          "id": "pipe",
+          "label": "파이프와 단계 라벨",
+          "box": [
+            290,
+            542,
+            700,
+            400
+          ],
+          "note": ""
+        },
+        {
+          "id": "bubble",
+          "label": "파란 말풍선",
+          "box": [
+            590,
+            427,
+            164,
+            167
+          ],
+          "note": ""
+        },
+        {
+          "id": "star",
+          "label": "유리 별 배지",
+          "box": [
+            350,
+            458,
+            176,
+            188
+          ],
+          "note": ""
+        },
+        {
+          "id": "document",
+          "label": "유리 문서",
+          "box": [
+            808,
+            356,
+            137,
+            185
+          ],
+          "note": ""
+        }
+      ],
+      "visible_text": [
+        "REPURPOSE YOUR REVIEWS",
+        "REVIEW",
+        "QUOTE",
+        "STORY",
+        "CASE STUDY"
+      ],
+      "observations": {
+        "material": "유리관·유리링·별 배지·문서의 맑은 투명 재질. 말풍선만 중심부에 파랑/하늘색 채움.",
+        "lighting": "고명도 배경, 파란 가장자리 반사광, 일부 청록·보라 색분산처럼 보이는 반사.",
+        "shadow": "바닥에 옅은 반사와 부드러운 그림자.",
+        "composition": "제목은 왼쪽 위 3줄. 파이프는 왼쪽 아래→오른쪽 위 대각선, 아이콘 3개는 그 위에 떠 있고 라벨은 바닥 원근을 따라 기울어짐.",
+        "font_shape": "제목은 짙은 남색의 굵은 대문자 산세리프. 바닥 라벨은 중간 굵기 산세리프. 정확한 폰트 확인 불가."
+      },
+      "data_notes": [
+        "댓글의 내용·좋아요·작성자 UI가 아니라 리뷰의 재사용 과정을 나타내는 개념 이미지.",
+        "별/말풍선/문서 아이콘이 있으며 악마·개구리·커피남자 캐릭터는 없음."
+      ],
+      "limits": [
+        "시각 검색 버튼이 겹치는 우하단 구역은 main crop에서 제외."
+      ],
+      "user_display_order": 6,
+      "dimensions": [
+        1279,
+        1536
+      ],
+      "source_sha256": "d0d83a7d10c958d48e6de42f60d0ebd42b699f32d99dfd29c9de56236ce5bdcf",
+      "transcribed_hex": [],
+      "measured_colors": [
+        {
+          "role": "짙은 남색 제목",
+          "roi": [
+            335,
+            168,
+            365,
+            175
+          ],
+          "rgb": [
+            13,
+            21,
+            43
+          ],
+          "hex": "#0D152B",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "max(R,G,B)<90",
+          "sampled_pixels": 14375,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "말풍선 파란 면",
+          "roi": [
+            635,
+            463,
+            50,
+            22
+          ],
+          "rgb": [
+            94,
+            164,
+            237
+          ],
+          "hex": "#5EA4ED",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 1100,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "밝은 배경",
+          "roi": [
+            753,
+            155,
+            100,
+            100
+          ],
+          "rgb": [
+            242,
+            243,
+            245
+          ],
+          "hex": "#F2F3F5",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 10000,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-06.jpg",
+      "original_preserved": true,
+      "batch": 1,
+      "category": "statistics"
+    },
+    {
+      "id": "REF-07",
+      "filename": "07-148938.jpg",
+      "title": "4색 입체 막대 · 반투명 발광 · 아이콘 라벨",
+      "semantic_uses": [
+        "범주별 값 비교",
+        "4개 지표",
+        "입체 막대와 상단 아이콘"
+      ],
+      "main_crop": {
+        "id": "overview",
+        "label": "4개 막대 + 라벨",
+        "box": [
+          313,
+          95,
+          653,
+          573
+        ],
+        "note": ""
+      },
+      "detail_crops": [
+        {
+          "id": "bars",
+          "label": "50/25/100/75 막대",
+          "box": [
+            326,
+            112,
+            629,
+            455
+          ],
+          "note": ""
+        },
+        {
+          "id": "labels",
+          "label": "카테고리 라벨과 설명",
+          "box": [
+            323,
+            580,
+            630,
+            85
+          ],
+          "note": ""
+        },
+        {
+          "id": "orange",
+          "label": "오렌지 막대",
+          "box": [
+            330,
+            272,
+            135,
+            293
+          ],
+          "note": ""
+        },
+        {
+          "id": "blue",
+          "label": "진파랑 막대",
+          "box": [
+            495,
+            345,
+            135,
+            220
+          ],
+          "note": ""
+        },
+        {
+          "id": "aqua",
+          "label": "청록 막대",
+          "box": [
+            650,
+            111,
+            140,
+            454
+          ],
+          "note": ""
+        },
+        {
+          "id": "pink",
+          "label": "분홍 막대",
+          "box": [
+            813,
+            190,
+            138,
+            375
+          ],
+          "note": ""
+        }
+      ],
+      "visible_text": [
+        "50%",
+        "25%",
+        "100%",
+        "75%",
+        "LOREM IPSUM (각 범주에 반복)"
+      ],
+      "observations": {
+        "material": "투명 또는 발광 플라스틱처럼 보이는 사각 기둥. 각 기둥은 윗면·왼면·오른면의 색과 밝기가 다름.",
+        "lighting": "윗면과 모서리가 밝고 면별로 색이 변함. 바닥으로 갈수록 일부 기둥이 하늘색/노랑빛으로 밝아짐.",
+        "shadow": "공통 바닥 위로 옅은 회색 투영과 기둥색 반사가 드러남.",
+        "composition": "4개 기둥은 같은 바닥선과 너비를 공유하며 높이가 다름. 각 기둥 위에 점선과 작은 아이콘, 아래에는 같은 간격의 라벨.",
+        "font_shape": "값은 가는 흰 산세리프, 범주 제목은 굵은 대문자 산세리프, 설명은 작은 회색 글씨. 정확한 폰트 확인 불가."
+      },
+      "data_notes": [
+        "LOREM IPSUM은 자리표시자 문구. 실제 통계나 실제 범주가 확인된 차트가 아님.",
+        "50+25+100+75=250%이므로 전체를 나누는 구성비 원그래프로 변환하면 안 됨. 범주별 독립 비율로 사용할 수 있는 형식."
+      ],
+      "limits": [
+        "우하단 시각 검색 버튼과 아래 댓글 입력창/앱 UI는 디자인에서 제외."
+      ],
+      "user_display_order": 7,
+      "dimensions": [
+        1279,
+        1536
+      ],
+      "source_sha256": "b84497e57445d5d7815dd250ee59bac18c21cd6b11c6d059dd3263eac88c84a9",
+      "transcribed_hex": [],
+      "measured_colors": [
+        {
+          "role": "오렌지 막대 면",
+          "roi": [
+            410,
+            420,
+            25,
+            55
+          ],
+          "rgb": [
+            254,
+            158,
+            19
+          ],
+          "hex": "#FE9E13",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 1375,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "남색 막대 면",
+          "roi": [
+            575,
+            470,
+            25,
+            35
+          ],
+          "rgb": [
+            1,
+            52,
+            118
+          ],
+          "hex": "#013476",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 875,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "청록 막대 면",
+          "roi": [
+            730,
+            330,
+            25,
+            55
+          ],
+          "rgb": [
+            1,
+            239,
+            209
+          ],
+          "hex": "#01EFD1",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 1375,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "분홍 막대 면",
+          "roi": [
+            890,
+            370,
+            25,
+            55
+          ],
+          "rgb": [
+            252,
+            57,
+            91
+          ],
+          "hex": "#FC395B",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 1375,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        },
+        {
+          "role": "밝은 바탕",
+          "roi": [
+            330,
+            100,
+            110,
+            90
+          ],
+          "rgb": [
+            244,
+            248,
+            252
+          ],
+          "hex": "#F4F8FC",
+          "method": "ROI RGB channel median; round to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 9900,
+          "status": "measured_screenshot_sample",
+          "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-07.jpg",
+      "original_preserved": true,
+      "batch": 1,
+      "category": "statistics"
+    },
+    {
+      "id": "REF-08",
+      "filename": "2026-11-23_23-55-16.png",
+      "title": "색상 역할 6종: 노랑·두 빨강·분홍·연노랑·연두",
+      "main_crop": {
+        "id": "overview",
+        "label": "6색 카드 전체",
+        "box": [
+          0,
+          0,
+          619,
+          197
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "yellow",
+          "label": "노랑·금색",
+          "box": [
+            0,
+            0,
+            201,
+            92
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "red_glow",
+          "label": "누끼 외곽광 빨강",
+          "box": [
+            210,
+            0,
+            204,
+            92
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "pink",
+          "label": "형광 분홍",
+          "box": [
+            422,
+            0,
+            197,
+            92
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "red_caption",
+          "label": "문구 빨강",
+          "box": [
+            0,
+            100,
+            201,
+            93
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "pale_yellow",
+          "label": "T08 연노랑",
+          "box": [
+            210,
+            100,
+            204,
+            93
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "lime",
+          "label": "형광연두",
+          "box": [
+            422,
+            100,
+            197,
+            93
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "어두운 UI 위 평평한 단색 칩. 칩은 둥근 사각형.",
+        "composition": "3열×2행, 왼쪽 색칩·오른쪽 HEX와 역할명.",
+        "font_shape": "UI 산세리프. 해당 폰트가 실제 영상 자막용 서체라는 뜻은 아님.",
+        "lighting": "단색 UI 칩. 재질 하이라이트는 없음.",
+        "shadow": "어두운 카드에 얇은 회색 경계선."
+      },
+      "transcribed_hex": [
+        {
+          "role": "추격자 해외반응 노랑·금색",
+          "literal": "#FFE713",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "썸네일 뒤 빨간색·누끼 외곽광",
+          "literal": "#C30E0C",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "이슈 PICK 형광 분홍 배지",
+          "literal": "#F000D0",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "수능, 이대로 치르겠다고? 빨강",
+          "literal": "#F01515",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "T08 모음 노랑",
+          "literal": "#F6FA55",
+          "note": "옆에 RGB (246,250,85)도 명시되어 있으며 HEX와 산술상 일치.",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "영상편집 형광연두",
+          "literal": "#BCFF34",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        }
+      ],
+      "visible_text": [],
+      "limits": [
+        "역할별 색을 모은 UI 캡처. 6색 전체가 모든 자막에 동시에 적용된다는 의미는 없음.",
+        "명시 HEX와 칩 픽셀 RGB가 소폭 다르며 원인은 캡처만으로 확정할 수 없음."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 1,
+      "dimensions": [
+        619,
+        197
+      ],
+      "source_sha256": "f455758d48addb4fcf9027760e9270db271247d540abd6925bec9d9d2d4dc4e1",
+      "file": "2026-11-23_23-55-16.png",
+      "sha": "f455758d48addb4fcf9027760e9270db271247d540abd6925bec9d9d2d4dc4e1",
+      "measured_colors": [
+        {
+          "role": "노랑 칩",
+          "roi": [
+            22,
+            42,
+            7,
+            7
+          ],
+          "declared_hex": "#FFE713",
+          "rgb": [
+            255,
+            230,
+            26
+          ],
+          "hex": "#FFE61A",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              0,
+              -1,
+              7
+            ],
+            "max_channel_abs_delta": 7
+          }
+        },
+        {
+          "role": "외곽광 빨강 칩",
+          "roi": [
+            235,
+            42,
+            7,
+            7
+          ],
+          "declared_hex": "#C30E0C",
+          "rgb": [
+            194,
+            22,
+            20
+          ],
+          "hex": "#C21614",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              8,
+              8
+            ],
+            "max_channel_abs_delta": 8
+          }
+        },
+        {
+          "role": "분홍 칩",
+          "roi": [
+            447,
+            42,
+            7,
+            7
+          ],
+          "declared_hex": "#F000D0",
+          "rgb": [
+            239,
+            0,
+            207
+          ],
+          "hex": "#EF00CF",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              0,
+              -1
+            ],
+            "max_channel_abs_delta": 1
+          }
+        },
+        {
+          "role": "문구 빨강 칩",
+          "roi": [
+            22,
+            142,
+            7,
+            7
+          ],
+          "declared_hex": "#F01515",
+          "rgb": [
+            239,
+            28,
+            28
+          ],
+          "hex": "#EF1C1C",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              7,
+              7
+            ],
+            "max_channel_abs_delta": 7
+          }
+        },
+        {
+          "role": "T08 연노랑 칩",
+          "roi": [
+            235,
+            142,
+            7,
+            7
+          ],
+          "declared_hex": "#F6FA55",
+          "rgb": [
+            246,
+            250,
+            86
+          ],
+          "hex": "#F6FA56",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              0,
+              0,
+              1
+            ],
+            "max_channel_abs_delta": 1
+          }
+        },
+        {
+          "role": "형광연두 칩",
+          "roi": [
+            447,
+            142,
+            7,
+            7
+          ],
+          "declared_hex": "#BCFF34",
+          "rgb": [
+            187,
+            255,
+            55
+          ],
+          "hex": "#BBFF37",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              0,
+              3
+            ],
+            "max_channel_abs_delta": 3
+          }
+        }
+      ],
+      "asset_url": "references/REF-08.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "palette",
+      "semantic_uses": [
+        "색상 역할 6종: 노랑·두 빨강·분홍·연노랑·연두"
+      ]
+    },
+    {
+      "id": "REF-09",
+      "filename": "2026-11-23_23-55-43.png",
+      "title": "공통 네온 노랑 — 원문에 제안 표시",
+      "main_crop": {
+        "id": "overview",
+        "label": "네온 노랑 카드",
+        "box": [
+          0,
+          0,
+          209,
+          61
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "swatch",
+          "label": "노랑 칩",
+          "box": [
+            5,
+            12,
+            43,
+            42
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "단색 연노랑 칩.",
+        "composition": "한 줄 HEX, 다음 줄 역할 설명.",
+        "font_shape": "UI 산세리프.",
+        "lighting": "단색.",
+        "shadow": "카드의 회색 얇은 테두리."
+      },
+      "transcribed_hex": [
+        {
+          "role": "공통 네온 노랑(제안)",
+          "literal": "#FFE94A",
+          "note": "원문 역할명에 (제안)이 실제 포함됨. 기존 사용자 승인으로 자동 승격하지 않음.",
+          "status": "transcribed_from_screenshot"
+        }
+      ],
+      "visible_text": [
+        "공통 네온 노랑(제안)"
+      ],
+      "limits": [
+        "기존 다른 노랑을 이 값으로 전역 치환하는 근거가 아님."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 2,
+      "dimensions": [
+        214,
+        69
+      ],
+      "source_sha256": "148bf2a663567dc4e8826c92e38728954978be18e2071f2df116ba0e38dcc60e",
+      "file": "2026-11-23_23-55-43.png",
+      "sha": "148bf2a663567dc4e8826c92e38728954978be18e2071f2df116ba0e38dcc60e",
+      "measured_colors": [
+        {
+          "role": "네온 노랑 칩",
+          "roi": [
+            22,
+            27,
+            7,
+            7
+          ],
+          "declared_hex": "#FFE94A",
+          "rgb": [
+            255,
+            232,
+            75
+          ],
+          "hex": "#FFE84B",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              0,
+              -1,
+              1
+            ],
+            "max_channel_abs_delta": 1
+          }
+        }
+      ],
+      "asset_url": "references/REF-09.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "palette",
+      "semantic_uses": [
+        "공통 네온 노랑 — 원문에 제안 표시"
+      ]
+    },
+    {
+      "id": "REF-10",
+      "filename": "2026-11-23_23-55-55.png",
+      "title": "강아지 하늘색 프레임",
+      "main_crop": {
+        "id": "overview",
+        "label": "하늘색 카드",
+        "box": [
+          0,
+          0,
+          201,
+          111
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "swatch",
+          "label": "하늘색 칩",
+          "box": [
+            5,
+            34,
+            43,
+            44
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "밝은 하늘색 평면 칩.",
+        "composition": "칩 왼쪽·역할/코드 오른쪽.",
+        "font_shape": "UI 산세리프.",
+        "lighting": "단색.",
+        "shadow": "얇은 카드 경계선."
+      },
+      "transcribed_hex": [
+        {
+          "role": "강아지 하늘색 프레임",
+          "literal": "#78EDF5",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        }
+      ],
+      "visible_text": [
+        "강아지 하늘색 프레임",
+        "01-2"
+      ],
+      "limits": [
+        "프레임의 실제 두께·투명도·적용 이미지가 이 작은 카드에는 없음."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 3,
+      "dimensions": [
+        204,
+        111
+      ],
+      "source_sha256": "d6022bbd0842b22a7999ed7d9a2164e6185133cd263850165f84e90fc35bb26c",
+      "file": "2026-11-23_23-55-55.png",
+      "sha": "d6022bbd0842b22a7999ed7d9a2164e6185133cd263850165f84e90fc35bb26c",
+      "measured_colors": [
+        {
+          "role": "하늘색 프레임 칩",
+          "roi": [
+            22,
+            47,
+            7,
+            7
+          ],
+          "declared_hex": "#78EDF5",
+          "rgb": [
+            119,
+            236,
+            245
+          ],
+          "hex": "#77ECF5",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              -1,
+              0
+            ],
+            "max_channel_abs_delta": 1
+          }
+        }
+      ],
+      "asset_url": "references/REF-10.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "palette",
+      "semantic_uses": [
+        "강아지 하늘색 프레임"
+      ]
+    },
+    {
+      "id": "REF-11",
+      "filename": "2026-11-23_23-56-13.png",
+      "title": "웃음 노랑 · 충격 배경 붉은 조명",
+      "main_crop": {
+        "id": "overview",
+        "label": "두 색 카드",
+        "box": [
+          8,
+          3,
+          204,
+          191
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "laugh",
+          "label": "ㅋㅋㅋ 노랑",
+          "box": [
+            9,
+            4,
+            202,
+            89
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "red_light",
+          "label": "붉은 조명",
+          "box": [
+            9,
+            103,
+            202,
+            89
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "평평한 노랑·어두운 빨강 칩.",
+        "composition": "세로로 두 카드.",
+        "font_shape": "UI 산세리프.",
+        "lighting": "단색.",
+        "shadow": "얇은 카드 경계선."
+      },
+      "transcribed_hex": [
+        {
+          "role": "ㅋㅋㅋ 노랑",
+          "literal": "#F0F44C",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "충격 배경 붉은 조명",
+          "literal": "#B71512",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        }
+      ],
+      "visible_text": [
+        "06-3",
+        "09-4"
+      ],
+      "limits": [
+        "#B71512는 이 카드에서 배경 조명 역할. VS 글자·충격 박스 빨강과 같은 역할로 합치면 안 됨."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 4,
+      "dimensions": [
+        215,
+        197
+      ],
+      "source_sha256": "fdc6d3987ff802e0afbe36cc6d3d4c092c07b0094a2e30a2257cfafa18a53969",
+      "file": "2026-11-23_23-56-13.png",
+      "sha": "fdc6d3987ff802e0afbe36cc6d3d4c092c07b0094a2e30a2257cfafa18a53969",
+      "measured_colors": [
+        {
+          "role": "웃음 노랑 칩",
+          "roi": [
+            26,
+            43,
+            7,
+            7
+          ],
+          "declared_hex": "#F0F44C",
+          "rgb": [
+            239,
+            244,
+            77
+          ],
+          "hex": "#EFF44D",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              0,
+              1
+            ],
+            "max_channel_abs_delta": 1
+          }
+        },
+        {
+          "role": "붉은 조명 칩",
+          "roi": [
+            26,
+            143,
+            7,
+            7
+          ],
+          "declared_hex": "#B71512",
+          "rgb": [
+            181,
+            28,
+            25
+          ],
+          "hex": "#B51C19",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -2,
+              7,
+              7
+            ],
+            "max_channel_abs_delta": 7
+          }
+        }
+      ],
+      "asset_url": "references/REF-11.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "palette",
+      "semantic_uses": [
+        "웃음 노랑 · 충격 배경 붉은 조명"
+      ]
+    },
+    {
+      "id": "REF-12",
+      "filename": "2026-11-23_23-56-31.png",
+      "title": "기존 레이어 색: 웃음·조명·NO·경고·파랑",
+      "main_crop": {
+        "id": "overview",
+        "label": "5개 카드와 섹션 제목",
+        "box": [
+          0,
+          0,
+          207,
+          525
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "no_red",
+          "label": "NO!! 빨강 그라데이션",
+          "box": [
+            1,
+            272,
+            202,
+            90
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "warning",
+          "label": "경고 테두리 노랑",
+          "box": [
+            1,
+            372,
+            202,
+            89
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "blue",
+          "label": "영상편집 파랑",
+          "box": [
+            1,
+            469,
+            202,
+            56
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "단색 칩 모음. NO!! 역할 설명은 그라데이션이나 이 칩 하나만으로 양 끝색이 정해지지는 않음.",
+        "composition": "처음 두 카드가 REF-11을 반복하고 아래에 기존 레이어 실험실 3종.",
+        "font_shape": "UI 산세리프.",
+        "lighting": "단색 칩.",
+        "shadow": "얇은 카드 경계선."
+      },
+      "transcribed_hex": [
+        {
+          "role": "ㅋㅋㅋ 노랑",
+          "literal": "#F0F44C",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "충격 배경 붉은 조명",
+          "literal": "#B71512",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "NO!! 빨강 그라데이션",
+          "literal": "#F22B15",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "경고 테두리 노랑·검정 45° 사선",
+          "literal": "#FFED00",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "영상편집 파랑",
+          "literal": "#39D5FF",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        }
+      ],
+      "visible_text": [
+        "기존 레이어 실험실"
+      ],
+      "limits": [
+        "REF-11의 2개 역할을 반복한 캡처이며 새로운 별개 색값이 아님.",
+        "최하단 파랑 카드의 아래 여백은 원본 캡처에서 잘림."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 5,
+      "dimensions": [
+        207,
+        525
+      ],
+      "source_sha256": "75acbb7d8630afcd1c1d6a170dedf1f179ceabc8c2adba3ce9a777ed49d75fea",
+      "file": "2026-11-23_23-56-31.png",
+      "sha": "75acbb7d8630afcd1c1d6a170dedf1f179ceabc8c2adba3ce9a777ed49d75fea",
+      "measured_colors": [
+        {
+          "role": "반복 웃음 노랑",
+          "roi": [
+            26,
+            38,
+            7,
+            7
+          ],
+          "declared_hex": "#F0F44C",
+          "rgb": [
+            239,
+            244,
+            77
+          ],
+          "hex": "#EFF44D",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              0,
+              1
+            ],
+            "max_channel_abs_delta": 1
+          }
+        },
+        {
+          "role": "반복 붉은 조명",
+          "roi": [
+            26,
+            137,
+            7,
+            7
+          ],
+          "declared_hex": "#B71512",
+          "rgb": [
+            181,
+            28,
+            25
+          ],
+          "hex": "#B51C19",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -2,
+              7,
+              7
+            ],
+            "max_channel_abs_delta": 7
+          }
+        },
+        {
+          "role": "NO!! 빨강 칩",
+          "roi": [
+            26,
+            314,
+            7,
+            7
+          ],
+          "declared_hex": "#F22B15",
+          "rgb": [
+            241,
+            47,
+            28
+          ],
+          "hex": "#F12F1C",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              4,
+              7
+            ],
+            "max_channel_abs_delta": 7
+          }
+        },
+        {
+          "role": "경고 노랑 칩",
+          "roi": [
+            26,
+            413,
+            7,
+            7
+          ],
+          "declared_hex": "#FFED00",
+          "rgb": [
+            255,
+            236,
+            0
+          ],
+          "hex": "#FFEC00",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              0,
+              -1,
+              0
+            ],
+            "max_channel_abs_delta": 1
+          }
+        },
+        {
+          "role": "편집 파랑 칩",
+          "roi": [
+            26,
+            498,
+            7,
+            7
+          ],
+          "declared_hex": "#39D5FF",
+          "rgb": [
+            60,
+            212,
+            255
+          ],
+          "hex": "#3CD4FF",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              3,
+              -1,
+              0
+            ],
+            "max_channel_abs_delta": 3
+          }
+        }
+      ],
+      "asset_url": "references/REF-12.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "palette",
+      "semantic_uses": [
+        "기존 레이어 색: 웃음·조명·NO·경고·파랑"
+      ]
+    },
+    {
+      "id": "REF-13",
+      "filename": "2026-11-23_23-56-54.png",
+      "title": "충격 박스 빨강",
+      "main_crop": {
+        "id": "overview",
+        "label": "충격 박스 색상 카드",
+        "box": [
+          0,
+          0,
+          186,
+          90
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "swatch",
+          "label": "충격 박스 빨강 칩",
+          "box": [
+            6,
+            20,
+            43,
+            43
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "밝은 빨강 단색 칩.",
+        "composition": "왼쪽 칩·오른쪽 HEX/역할.",
+        "font_shape": "UI 산세리프.",
+        "lighting": "단색.",
+        "shadow": "칩에 얇은 밝은 경계선."
+      },
+      "transcribed_hex": [
+        {
+          "role": "충격 박스 빨강",
+          "literal": "#E21317",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        }
+      ],
+      "visible_text": [
+        "09-4"
+      ],
+      "limits": [
+        "이 캡처의 역할명은 충격 박스 빨강. 기존 VS 빨강 코드와 같더라도 두 컴포넌트 역할을 별도로 보존."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 6,
+      "dimensions": [
+        186,
+        90
+      ],
+      "source_sha256": "3483677827d8709d7cde85c7e748caffa3b1a882ace4b8f137199e756ecb13d0",
+      "file": "2026-11-23_23-56-54.png",
+      "sha": "3483677827d8709d7cde85c7e748caffa3b1a882ace4b8f137199e756ecb13d0",
+      "measured_colors": [
+        {
+          "role": "충격 박스 빨강 칩",
+          "roi": [
+            25,
+            36,
+            7,
+            7
+          ],
+          "declared_hex": "#E21317",
+          "rgb": [
+            225,
+            26,
+            29
+          ],
+          "hex": "#E11A1D",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              7,
+              6
+            ],
+            "max_channel_abs_delta": 7
+          }
+        }
+      ],
+      "asset_url": "references/REF-13.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "palette",
+      "semantic_uses": [
+        "충격 박스 빨강"
+      ]
+    },
+    {
+      "id": "REF-14",
+      "filename": "2026-11-24_00-00-27.png",
+      "title": "썸네일 레이어 실험실: 시안과 비교 원본",
+      "main_crop": {
+        "id": "overview",
+        "label": "썸네일 시안",
+        "box": [
+          354,
+          58,
+          673,
+          380
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "source_thumb",
+          "label": "비교용 원본 썸네일",
+          "box": [
+            356,
+            602,
+            222,
+            125
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "top_text",
+          "label": "위 두 문구",
+          "box": [
+            357,
+            73,
+            628,
+            53
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "no_layer",
+          "label": "NO!! 레이어",
+          "box": [
+            584,
+            126,
+            166,
+            138
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "font_ui",
+          "label": "선택 레이어의 폰트 UI",
+          "box": [
+            1085,
+            282,
+            499,
+            95
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "어둡고 흐린 배경 위 상단 흰/노랑 문구, 가운데 큰 빨강 NO!!, 하단 노랑·빨강 깊이 표현.",
+        "composition": "썸네일 본체는 가로, 상단 문구 2구역·중앙 NO·하단 큰 제목. 오른쪽은 설정 UI.",
+        "font_shape": "선택 레이어 폰트 UI는 강원교육튼튼체. 화면의 모든 글자가 이 폰트로 검증되었다는 의미는 아님.",
+        "lighting": "중앙과 배경은 어둡고 흐리며 제목 주변에 빨강/검정 외곽 효과.",
+        "shadow": "입체감은 글자 외곽선과 붉은 그림자 레이어로 보임."
+      },
+      "transcribed_hex": [],
+      "visible_text": [
+        "18년 된 한국영화 보고",
+        "충격받은 외국인들",
+        "추격자 해외반응 리액션",
+        "상단 노란 강조",
+        "강원교육튼튼체",
+        "글자 크기 70px",
+        "자간 -3px",
+        "외곽선 5px",
+        "그림자 5px",
+        "기울기 0px (UI 표기 그대로)",
+        "X: 73% · Y: 11%"
+      ],
+      "limits": [
+        "시안은 원본과 시각 차이가 남아 있는 UI 상태. 사용자의 최종 승인 렌더로 간주하지 않음.",
+        "70px/-3px/5px 등은 이 캡처 UI의 기존 설정값이며 새 제작 권장치가 아님.",
+        "기울기 단위가 UI에 px로 표시되어 있음. 이를 각도 값으로 조용히 바꾸지 않음."
+      ],
+      "font_observations": [
+        {
+          "label": "강원교육튼튼체",
+          "scope": "선택된 상단 노란 강조 레이어의 dropdown",
+          "evidence": "UI text visible",
+          "file_loaded_verified": false
+        }
+      ],
+      "reference_notes": [],
+      "batch_order": 7,
+      "dimensions": [
+        1616,
+        746
+      ],
+      "source_sha256": "cb20440cb707b21be50f5d586121aecd0e64c381c9ca79a36af3547a66eb178d",
+      "file": "2026-11-24_00-00-27.png",
+      "sha": "cb20440cb707b21be50f5d586121aecd0e64c381c9ca79a36af3547a66eb178d",
+      "measured_colors": [],
+      "asset_url": "references/REF-14.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "captions",
+      "semantic_uses": [
+        "썸네일 레이어 실험실: 시안과 비교 원본"
+      ]
+    },
+    {
+      "id": "REF-15",
+      "filename": "2026-11-24_00-01-04.png",
+      "title": "폰트 점검표 일부: 여섯 폰트 이름",
+      "main_crop": {
+        "id": "overview",
+        "label": "폰트 목록 부분",
+        "box": [
+          315,
+          70,
+          197,
+          674
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "gmarket",
+          "label": "G마켓 산스 Bold",
+          "box": [
+            315,
+            70,
+            197,
+            120
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "jeongseon",
+          "label": "정선아리랑 3종",
+          "box": [
+            315,
+            190,
+            197,
+            360
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "jalnan",
+          "label": "잘난체 2종",
+          "box": [
+            315,
+            550,
+            197,
+            194
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "어두운 표에 흰 폰트명.",
+        "composition": "목록 오른쪽이 일부만 캡처되고 왼쪽은 메뉴.",
+        "font_shape": "이름 6개는 읽을 수 있으나 실제 각 폰트로 렌더한 예문이나 폰트 파일 경로는 보이지 않음.",
+        "lighting": "UI 평면 색.",
+        "shadow": "해당 없음."
+      },
+      "transcribed_hex": [],
+      "visible_text": [
+        "폰트 점검표 (29종)",
+        "G마켓 산스 Bold",
+        "정선아리랑뿌리체",
+        "정선아리랑혼체",
+        "정선아리랑체 (JeongseonArirang)",
+        "여기어때 잘난체 (Jalnan)",
+        "여기어때 잘난체 고딕 (JalnanGothic)"
+      ],
+      "limits": [
+        "메뉴의 29종은 UI 제목. 이 이미지에서 확인 가능한 이름은 6개뿐.",
+        "목록 이름만으로 설치·라이선스·정상 로딩을 확정할 수 없음."
+      ],
+      "font_observations": [
+        {
+          "label": "G마켓 산스 Bold",
+          "scope": "font inventory label",
+          "evidence": "UI text visible",
+          "file_loaded_verified": false
+        },
+        {
+          "label": "정선아리랑뿌리체",
+          "scope": "font inventory label",
+          "evidence": "UI text visible",
+          "file_loaded_verified": false
+        },
+        {
+          "label": "정선아리랑혼체",
+          "scope": "font inventory label",
+          "evidence": "UI text visible",
+          "file_loaded_verified": false
+        },
+        {
+          "label": "정선아리랑체 (JeongseonArirang)",
+          "scope": "font inventory label",
+          "evidence": "UI text visible",
+          "file_loaded_verified": false
+        },
+        {
+          "label": "여기어때 잘난체 (Jalnan)",
+          "scope": "font inventory label",
+          "evidence": "UI text visible",
+          "file_loaded_verified": false
+        },
+        {
+          "label": "여기어때 잘난체 고딕 (JalnanGothic)",
+          "scope": "font inventory label",
+          "evidence": "UI text visible",
+          "file_loaded_verified": false
+        }
+      ],
+      "reference_notes": [],
+      "batch_order": 8,
+      "dimensions": [
+        521,
+        758
+      ],
+      "source_sha256": "869e2040dee262dfed90ee7682f8287a9cd2ed900aee4ad2ff310ef491183a9e",
+      "file": "2026-11-24_00-01-04.png",
+      "sha": "869e2040dee262dfed90ee7682f8287a9cd2ed900aee4ad2ff310ef491183a9e",
+      "measured_colors": [],
+      "asset_url": "references/REF-15.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "captions",
+      "semantic_uses": [
+        "폰트 점검표 일부: 여섯 폰트 이름"
+      ]
+    },
+    {
+      "id": "REF-16",
+      "filename": "2026-11-24_00-16-51.png",
+      "title": "기존 8종 영상 자막 디자인 화면",
+      "main_crop": {
+        "id": "overview",
+        "label": "8종 카드 화면",
+        "box": [
+          354,
+          220,
+          1260,
+          660
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "T03",
+          "label": "감정 자막",
+          "box": [
+            356,
+            223,
+            300,
+            187
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "T05",
+          "label": "금색 입체",
+          "box": [
+            674,
+            223,
+            300,
+            187
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "T07",
+          "label": "빨간 번개",
+          "box": [
+            993,
+            223,
+            300,
+            187
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "T06",
+          "label": "붓글씨",
+          "box": [
+            1312,
+            223,
+            300,
+            187
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "T04",
+          "label": "기울인 강조",
+          "box": [
+            356,
+            576,
+            300,
+            186
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "T08",
+          "label": "주목 박스",
+          "box": [
+            674,
+            576,
+            300,
+            186
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "T01",
+          "label": "큰 제목",
+          "box": [
+            993,
+            576,
+            300,
+            186
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "T02",
+          "label": "충격 강조",
+          "box": [
+            1312,
+            576,
+            300,
+            186
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "T03 흰 글자와 빨강 핵심어·불꽃, T05 금색 입체, T07 빨강 번개와 흰 본문, T06 흰 붓글씨, T04 흰/다홍 기울임, T08 노랑/검정 경고 사선, T01 큰 제목, T02 NO 충격 썸네일.",
+        "composition": "4열×2행의 참고 디자인 카드. 각 카드 안 자막은 하단을 중심으로 배치되며 상단 방송 로고는 참고 원영상 일부.",
+        "font_shape": "서체의 모양은 각 캡처로 관찰 가능하지만 이 화면에는 폰트 파일명/적용 코드가 없음.",
+        "lighting": "실제 영상 프레임에 자막 효과가 합성되어 있음.",
+        "shadow": "금색·흰 자막의 외곽선/그림자 및 경고 프레임 대비가 관찰됨."
+      },
+      "transcribed_hex": [],
+      "visible_text": [
+        "T03 감정 자막",
+        "T05 금색 입체",
+        "T07 빨간 번개",
+        "T06 붓글씨",
+        "T04 기울인 강조",
+        "T08 주목 박스",
+        "T01 큰 제목",
+        "T02 충격 강조"
+      ],
+      "limits": [
+        "원영상 위 방송 로고·인물/문장은 참고 캡처의 일부이며 사용자의 새 영상에 강제로 추가할 요소가 아님.",
+        "8종 선택 화면이며 종류별 사용 빈도/최종 승인 상태는 이 이미지에서 확인되지 않음."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 9,
+      "dimensions": [
+        1654,
+        916
+      ],
+      "source_sha256": "862b8e9acdb88f68484958f9abbda06956119345ffa308e99518d67da576056f",
+      "file": "2026-11-24_00-16-51.png",
+      "sha": "862b8e9acdb88f68484958f9abbda06956119345ffa308e99518d67da576056f",
+      "measured_colors": [],
+      "asset_url": "references/REF-16.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "captions",
+      "semantic_uses": [
+        "기존 8종 영상 자막 디자인 화면"
+      ]
+    },
+    {
+      "id": "REF-17",
+      "filename": "2026-11-24_00-21-59_187266.png",
+      "title": "풀 파티 자막 원본 확대용 띠",
+      "main_crop": {
+        "id": "overview",
+        "label": "작은 설명 + 빨강 핵심어 + 흰 문장",
+        "box": [
+          0,
+          0,
+          431,
+          56
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "keyword",
+          "label": "풀 파티 빨강",
+          "box": [
+            27,
+            21,
+            108,
+            33
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "context",
+          "label": "예전에 작은 설명",
+          "box": [
+            28,
+            3,
+            44,
+            18
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "body",
+          "label": "흰 나머지 문장",
+          "box": [
+            135,
+            21,
+            276,
+            33
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "영상 배경 위 흰 산세리프 문장과 빨간 풀 파티 강조, 양 끝 빨간 번개.",
+        "composition": "상단 왼쪽에 작은 예전에, 아래에 풀 파티를 그렇게 다녔다고 큰 한 줄.",
+        "font_shape": "굵고 폭이 좁은 산세리프 계열로 관찰되나 정확한 폰트명은 확인 불가.",
+        "lighting": "실사 배경이 살아 있고 자막이 그 위에 겹침.",
+        "shadow": "확대 크롭상 얇은 어두운 경계는 보이지만 독립 외곽선/그림자 수치를 역산할 수 없음."
+      },
+      "transcribed_hex": [],
+      "visible_text": [
+        "예전에",
+        "풀 파티를 그렇게 다녔다고"
+      ],
+      "limits": [
+        "원본이 431×56의 얇은 크롭. 글자 실측색은 압축·안티앨리어싱·배경의 영향을 받음.",
+        "기존 정리문의 #E03C3E와 실측색이 가깝더라도 이 이미지에 명시 HEX가 적혀 있는 것은 아님."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 10,
+      "dimensions": [
+        431,
+        56
+      ],
+      "source_sha256": "cf288ea5fa60a3635ae1cad6e09df8bceef1b82b16f5914157e556e7bf992807",
+      "file": "2026-11-24_00-21-59_187266.png",
+      "sha": "cf288ea5fa60a3635ae1cad6e09df8bceef1b82b16f5914157e556e7bf992807",
+      "measured_colors": [
+        {
+          "role": "풀 파티 빨간 글자 내부",
+          "roi": [
+            28,
+            23,
+            105,
+            28
+          ],
+          "declared_hex": null,
+          "rgb": [
+            220,
+            62,
+            63
+          ],
+          "hex": "#DC3E3F",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "R>140,G<100,B<150,R-G>80",
+          "sampled_pixels": 1657,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-17.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "captions",
+      "semantic_uses": [
+        "풀 파티 자막 원본 확대용 띠"
+      ]
+    },
+    {
+      "id": "REF-18",
+      "filename": "2026-11-24_00-23-07.png",
+      "title": "자막 8종·폰트 비교 메뉴 위치",
+      "main_crop": {
+        "id": "overview",
+        "label": "선택된 메뉴",
+        "box": [
+          0,
+          4,
+          221,
+          49
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "label",
+          "label": "메뉴명과 설명",
+          "box": [
+            10,
+            12,
+            203,
+            32
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "진한 녹색 선택 메뉴와 밝은 글자.",
+        "composition": "한 메뉴 제목과 부제만 들어 있는 좁은 크롭.",
+        "font_shape": "UI 산세리프.",
+        "lighting": "평면 UI.",
+        "shadow": "해당 없음."
+      },
+      "transcribed_hex": [],
+      "visible_text": [
+        "수정 자막 글씨 8종 · 폰트 비교",
+        "썸네일 탭과 같은 편집기"
+      ],
+      "limits": [
+        "실제 자막 디자인/폰트 예문이 없는 메뉴 위치 캡처. 별도 자막 디자인 자산으로 오인하지 않음."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 11,
+      "dimensions": [
+        278,
+        66
+      ],
+      "source_sha256": "7701ed44d8b673f7c24842a189d23419258dcc5cc29b77807db9f3b7649c81bd",
+      "file": "2026-11-24_00-23-07.png",
+      "sha": "7701ed44d8b673f7c24842a189d23419258dcc5cc29b77807db9f3b7649c81bd",
+      "measured_colors": [],
+      "asset_url": "references/REF-18.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "captions",
+      "semantic_uses": [
+        "자막 8종·폰트 비교 메뉴 위치"
+      ]
+    },
+    {
+      "id": "REF-19",
+      "filename": "2026-11-24_00-23-14.png",
+      "title": "T02 NO!! 폰트 비교와 10개 역할별 색",
+      "main_crop": {
+        "id": "overview",
+        "label": "원본·폰트 미리보기·설정 패널",
+        "box": [
+          365,
+          72,
+          1198,
+          731
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "original",
+          "label": "원본 NO 썸네일",
+          "box": [
+            473,
+            93,
+            340,
+            184
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "bangers",
+          "label": "Bangers 비교안",
+          "box": [
+            391,
+            349,
+            501,
+            178
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "anton",
+          "label": "Anton 비교안",
+          "box": [
+            391,
+            570,
+            501,
+            178
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "hex",
+          "label": "명시 HEX 10개",
+          "box": [
+            933,
+            280,
+            586,
+            89
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "font_roles",
+          "label": "폰트 후보와 한글 고정 설명",
+          "box": [
+            932,
+            717,
+            611,
+            86
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "어두운 갈색 배경 위 한글 흰/노랑, 영문 NO!! 주황→빨강, 제목은 밝은 노랑→꿀색. 바깥 빨강/어두운 외곽선이 중첩됨.",
+        "composition": "위 한글 문장→가운데 영문 NO!!→아래 한글 제목. 오른쪽은 역할별 색칩과 조절기.",
+        "font_shape": "영문 NO!! 후보 Bangers·Anton·Bebas Neue. 화면 설명상 위아래 한글은 여기어때 잘난체로 고정. 폰트 파일 로딩은 별도 미검증.",
+        "lighting": "색은 글자 면·외곽·그림자별로 분리됨.",
+        "shadow": "검정 외곽선, 바깥 빨강 테두리, 어두운 빨강 그림자가 각기 다른 역할로 명시됨."
+      },
+      "transcribed_hex": [
+        {
+          "role": "윗줄 흰색",
+          "literal": "#F6F5F4",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "윗줄 노랑 낱말",
+          "literal": "#F1EE33",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "NO!! 위 주황빨강",
+          "literal": "#E8451A",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "NO!! 아래 빨강",
+          "literal": "#E2170E",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "아래 제목 노랑(위)",
+          "literal": "#F8F45E",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "아래 제목 꿀색(아래)",
+          "literal": "#F0BE26",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "검정 외곽선",
+          "literal": "#1C0A00",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "바깥 빨강 테두리",
+          "literal": "#8A1E1D",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "그림자",
+          "literal": "#3A0A0A",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "원본 배경",
+          "literal": "#2A2427",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        }
+      ],
+      "visible_text": [
+        "T02",
+        "충격 반응 · 빨강 NO!! + 금빛 하단 제목",
+        "Bangers (영문 NO!!)",
+        "Anton (영문 NO!!)",
+        "Bebas Neue (영문 NO!!)",
+        "위쪽·아래쪽 한글은 여기어때 잘난체로 고정"
+      ],
+      "limits": [
+        "최하단 Bebas Neue 미리보기는 화면 아래에서 잘려 있어 전체 디자인 확인 불가.",
+        "칩 설명은 원본 픽셀 실측이라고 UI에 적혀 있으나 이는 UI의 주장. 본 분석은 명시 HEX 전사와 현재 화면 픽셀 재측정을 따로 기록."
+      ],
+      "font_observations": [
+        {
+          "label": "Bangers",
+          "scope": "NO!! 영문 후보",
+          "evidence": "UI label",
+          "file_loaded_verified": false
+        },
+        {
+          "label": "Anton",
+          "scope": "NO!! 영문 후보",
+          "evidence": "UI label",
+          "file_loaded_verified": false
+        },
+        {
+          "label": "Bebas Neue",
+          "scope": "NO!! 영문 후보",
+          "evidence": "UI label",
+          "file_loaded_verified": false
+        },
+        {
+          "label": "여기어때 잘난체",
+          "scope": "UI 설명상 위아래 한글 고정",
+          "evidence": "UI sentence",
+          "file_loaded_verified": false
+        }
+      ],
+      "reference_notes": [],
+      "batch_order": 12,
+      "dimensions": [
+        1665,
+        803
+      ],
+      "source_sha256": "ca06440627a12318629140b57dee52f6daac8712bcee19383216af9d6f879dd6",
+      "file": "2026-11-24_00-23-14.png",
+      "sha": "ca06440627a12318629140b57dee52f6daac8712bcee19383216af9d6f879dd6",
+      "measured_colors": [
+        {
+          "role": "윗줄 흰색 입력칸 실측",
+          "roi": [
+            1237,
+            489,
+            7,
+            7
+          ],
+          "declared_hex": "#F6F5F4",
+          "rgb": [
+            246,
+            245,
+            244
+          ],
+          "hex": "#F6F5F4",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": true,
+            "rgb_delta": [
+              0,
+              0,
+              0
+            ],
+            "max_channel_abs_delta": 0
+          }
+        },
+        {
+          "role": "윗줄 노랑 낱말 입력칸 실측",
+          "roi": [
+            1347,
+            489,
+            7,
+            7
+          ],
+          "declared_hex": "#F1EE33",
+          "rgb": [
+            241,
+            237,
+            54
+          ],
+          "hex": "#F1ED36",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              0,
+              -1,
+              3
+            ],
+            "max_channel_abs_delta": 3
+          }
+        },
+        {
+          "role": "NO!! 위 주황빨강 입력칸 실측",
+          "roi": [
+            1467,
+            489,
+            7,
+            7
+          ],
+          "declared_hex": "#E8451A",
+          "rgb": [
+            231,
+            71,
+            32
+          ],
+          "hex": "#E74720",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              2,
+              6
+            ],
+            "max_channel_abs_delta": 6
+          }
+        },
+        {
+          "role": "NO!! 아래 빨강 입력칸 실측",
+          "roi": [
+            987,
+            543,
+            7,
+            7
+          ],
+          "declared_hex": "#E2170E",
+          "rgb": [
+            225,
+            29,
+            22
+          ],
+          "hex": "#E11D16",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              6,
+              8
+            ],
+            "max_channel_abs_delta": 8
+          }
+        },
+        {
+          "role": "아래 제목 노랑(위) 입력칸 실측",
+          "roi": [
+            1107,
+            543,
+            7,
+            7
+          ],
+          "declared_hex": "#F8F45E",
+          "rgb": [
+            248,
+            244,
+            94
+          ],
+          "hex": "#F8F45E",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": true,
+            "rgb_delta": [
+              0,
+              0,
+              0
+            ],
+            "max_channel_abs_delta": 0
+          }
+        },
+        {
+          "role": "아래 제목 꿀색(아래) 입력칸 실측",
+          "roi": [
+            1227,
+            543,
+            7,
+            7
+          ],
+          "declared_hex": "#F0BE26",
+          "rgb": [
+            239,
+            189,
+            42
+          ],
+          "hex": "#EFBD2A",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              -1,
+              4
+            ],
+            "max_channel_abs_delta": 4
+          }
+        },
+        {
+          "role": "검정 외곽선 입력칸 실측",
+          "roi": [
+            1347,
+            543,
+            7,
+            7
+          ],
+          "declared_hex": "#1C0A00",
+          "rgb": [
+            34,
+            18,
+            0
+          ],
+          "hex": "#221200",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              6,
+              8,
+              0
+            ],
+            "max_channel_abs_delta": 8
+          }
+        },
+        {
+          "role": "바깥 빨강 테두리 입력칸 실측",
+          "roi": [
+            1467,
+            543,
+            7,
+            7
+          ],
+          "declared_hex": "#8A1E1D",
+          "rgb": [
+            137,
+            35,
+            35
+          ],
+          "hex": "#892323",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              5,
+              6
+            ],
+            "max_channel_abs_delta": 6
+          }
+        },
+        {
+          "role": "그림자 입력칸 실측",
+          "roi": [
+            987,
+            597,
+            7,
+            7
+          ],
+          "declared_hex": "#3A0A0A",
+          "rgb": [
+            61,
+            18,
+            18
+          ],
+          "hex": "#3D1212",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              3,
+              8,
+              8
+            ],
+            "max_channel_abs_delta": 8
+          }
+        },
+        {
+          "role": "원본 배경 입력칸 실측",
+          "roi": [
+            1107,
+            597,
+            7,
+            7
+          ],
+          "declared_hex": "#2A2427",
+          "rgb": [
+            46,
+            41,
+            43
+          ],
+          "hex": "#2E292B",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              4,
+              5,
+              4
+            ],
+            "max_channel_abs_delta": 5
+          }
+        }
+      ],
+      "asset_url": "references/REF-19.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "captions",
+      "semantic_uses": [
+        "T02 NO!! 폰트 비교와 10개 역할별 색"
+      ]
+    },
+    {
+      "id": "REF-20",
+      "filename": "2026-11-24_00-28-14.png",
+      "title": "T05 금색 자막: 세 폰트와 7색 역할",
+      "main_crop": {
+        "id": "overview",
+        "label": "금색 비교와 편집 패널",
+        "box": [
+          379,
+          61,
+          1165,
+          711
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "original",
+          "label": "원본 금색 자막 프레임",
+          "box": [
+            471,
+            63,
+            351,
+            197
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "recipe",
+          "label": "레코체 Bold 미리보기",
+          "box": [
+            389,
+            320,
+            516,
+            82
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "gmarket",
+          "label": "G마켓 산스 Bold 미리보기",
+          "box": [
+            389,
+            447,
+            516,
+            78
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "pyeongchang",
+          "label": "평창평화체 미리보기",
+          "box": [
+            389,
+            571,
+            516,
+            79
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "hex",
+          "label": "금색 명시 HEX 7개",
+          "box": [
+            931,
+            251,
+            590,
+            58
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "background_control",
+          "label": "현재 배경 입력칸",
+          "box": [
+            1303,
+            461,
+            116,
+            41
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "윗면·띠·아랫면 3단 금색과 진갈색 외곽/그림자, 청동빛 바깥 테두리. 양쪽에 별 반짝이.",
+        "composition": "같은 문장을 3가지 폰트로 세로 비교. 원본은 상단, 설정과 색칩은 오른쪽.",
+        "font_shape": "레코체 Bold·G마켓 산스 Bold·평창평화체의 UI 표기. 평창평화체 미리보기는 글자 안 별형 장식이 두드러짐.",
+        "lighting": "노랑 띠와 면의 명암으로 금속성 광택을 표현.",
+        "shadow": "진갈색 윤곽과 하향 입체 그림자가 보이며 세 후보 모두 흰 미리보기 바탕."
+      },
+      "transcribed_hex": [
+        {
+          "role": "금색 윗면",
+          "literal": "#F6CB52",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "금색 밝은 띠",
+          "literal": "#FCEC82",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "금색 아랫면",
+          "literal": "#F2CF5C",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "진갈색 외곽선",
+          "literal": "#2E1A05",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "청동빛 바깥 테두리",
+          "literal": "#A8763C",
+          "note": "",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "입체 그림자",
+          "literal": "#2E1A05",
+          "note": "외곽선과 동일 코드가 다른 역할로 재사용됨.",
+          "status": "transcribed_from_screenshot"
+        },
+        {
+          "role": "원본 배경",
+          "literal": "#5A4636",
+          "note": "명시칩과 현재 배경 입력칸/미리보기 상태가 다름.",
+          "status": "transcribed_from_screenshot"
+        }
+      ],
+      "visible_text": [
+        "T05",
+        "금색 광택 · 특급 서비스 입체 자막",
+        "병헌표 특급 서비스",
+        "크기 한 줄 85~120px, 중앙 단어 강조 110%",
+        "위치 영상 하단 67~87%, 중앙 정렬",
+        "자간 -2~-4%, 행간 1.0"
+      ],
+      "limits": [
+        "명시 원본 배경#5A4636과 현재 입력칸/세 미리보기 흰 바탕#FFFFFF가 다름. 캡처의 UI 상태 차이이며 원인 코드 확인 전 렌더 버그로 확정하지 않음.",
+        "85~120px·67~87%·110% 등은 캡처에 이미 적힌 기존 안내. 본 분석이 새로 제안하거나 승인한 수치가 아님."
+      ],
+      "font_observations": [
+        {
+          "label": "레코체 Bold",
+          "scope": "T05 금색 비교 후보",
+          "evidence": "UI label",
+          "file_loaded_verified": false
+        },
+        {
+          "label": "G마켓 산스 Bold",
+          "scope": "T05 금색 비교 후보",
+          "evidence": "UI label",
+          "file_loaded_verified": false
+        },
+        {
+          "label": "평창평화체",
+          "scope": "T05 금색 비교 후보",
+          "evidence": "UI label",
+          "file_loaded_verified": false
+        }
+      ],
+      "reference_notes": [],
+      "batch_order": 13,
+      "dimensions": [
+        1691,
+        809
+      ],
+      "source_sha256": "306dc9cab3cb6711f9e5b48a1be19ac91d43b9550ccc2bce1ebe264e9f1d9ffd",
+      "file": "2026-11-24_00-28-14.png",
+      "sha": "306dc9cab3cb6711f9e5b48a1be19ac91d43b9550ccc2bce1ebe264e9f1d9ffd",
+      "measured_colors": [
+        {
+          "role": "금색 윗면 칩/입력 실측",
+          "roi": [
+            1237,
+            432,
+            7,
+            7
+          ],
+          "declared_hex": "#F6CB52",
+          "rgb": [
+            246,
+            202,
+            83
+          ],
+          "hex": "#F6CA53",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              0,
+              -1,
+              1
+            ],
+            "max_channel_abs_delta": 1
+          }
+        },
+        {
+          "role": "금색 밝은 띠 칩/입력 실측",
+          "roi": [
+            1357,
+            432,
+            7,
+            7
+          ],
+          "declared_hex": "#FCEC82",
+          "rgb": [
+            252,
+            235,
+            129
+          ],
+          "hex": "#FCEB81",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              0,
+              -1,
+              -1
+            ],
+            "max_channel_abs_delta": 1
+          }
+        },
+        {
+          "role": "금색 아랫면 칩/입력 실측",
+          "roi": [
+            1472,
+            432,
+            7,
+            7
+          ],
+          "declared_hex": "#F2CF5C",
+          "rgb": [
+            242,
+            206,
+            92
+          ],
+          "hex": "#F2CE5C",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              0,
+              -1,
+              0
+            ],
+            "max_channel_abs_delta": 1
+          }
+        },
+        {
+          "role": "진갈색 외곽선 칩/입력 실측",
+          "roi": [
+            987,
+            484,
+            7,
+            7
+          ],
+          "declared_hex": "#2E1A05",
+          "rgb": [
+            50,
+            32,
+            13
+          ],
+          "hex": "#32200D",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              4,
+              6,
+              8
+            ],
+            "max_channel_abs_delta": 8
+          }
+        },
+        {
+          "role": "청동빛 바깥 테두리 칩/입력 실측",
+          "roi": [
+            1107,
+            484,
+            7,
+            7
+          ],
+          "declared_hex": "#A8763C",
+          "rgb": [
+            167,
+            117,
+            62
+          ],
+          "hex": "#A7753E",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              -1,
+              -1,
+              2
+            ],
+            "max_channel_abs_delta": 2
+          }
+        },
+        {
+          "role": "입체 그림자 칩/입력 실측",
+          "roi": [
+            1237,
+            484,
+            7,
+            7
+          ],
+          "declared_hex": "#2E1A05",
+          "rgb": [
+            50,
+            32,
+            13
+          ],
+          "hex": "#32200D",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              4,
+              6,
+              8
+            ],
+            "max_channel_abs_delta": 8
+          }
+        },
+        {
+          "role": "원본 배경 칩/입력 실측",
+          "roi": [
+            1260,
+            291,
+            7,
+            7
+          ],
+          "declared_hex": "#5A4636",
+          "rgb": [
+            90,
+            72,
+            57
+          ],
+          "hex": "#5A4839",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              0,
+              2,
+              3
+            ],
+            "max_channel_abs_delta": 3
+          }
+        },
+        {
+          "role": "현재 원본 배경 입력칸",
+          "roi": [
+            1357,
+            484,
+            7,
+            7
+          ],
+          "declared_hex": "#5A4636",
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "hex": "#FFFFFF",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음.",
+          "difference_from_declared": {
+            "equal": false,
+            "rgb_delta": [
+              165,
+              185,
+              201
+            ],
+            "max_channel_abs_delta": 201
+          }
+        }
+      ],
+      "asset_url": "references/REF-20.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "captions",
+      "semantic_uses": [
+        "T05 금색 자막: 세 폰트와 7색 역할"
+      ]
+    },
+    {
+      "id": "REF-21",
+      "filename": "Screenshot From 2026-11-16 05-29-18.png",
+      "title": "소형 지도: 회색 바탕·영역 강조·깃발",
+      "main_crop": {
+        "id": "overview",
+        "label": "지도 영역 중심",
+        "box": [
+          0,
+          0,
+          218,
+          111
+        ],
+        "note": "오른쪽 방송 로고와 하단 인물/자막을 제외한 일부 화면.",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "territory",
+          "label": "빨강 영역과 노랑 경계",
+          "box": [
+            77,
+            10,
+            99,
+            102
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "flag_left",
+          "label": "왼쪽 깃발/표찰",
+          "box": [
+            64,
+            29,
+            64,
+            37
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "flag_right",
+          "label": "오른쪽 깃발",
+          "box": [
+            181,
+            63,
+            31,
+            41
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "회색/흰 지도에 선명한 붉은 영역 채움과 노란 경계. 작은 위치 라벨과 깃발 막대가 겹침.",
+        "composition": "지도 자체는 가로 구도. 좌측 설명 표찰, 오른쪽 깃발, 하단에는 참고 영상 인물/자막.",
+        "font_shape": "아주 작은 지도 라벨. 정확한 폰트 확인 불가.",
+        "lighting": "배경을 무채색으로 낮추고 지역 색과 깃발에 시선이 모임.",
+        "shadow": "깃발/영역 경계에 약한 입체 명암이 보이나 구체 수치 불명."
+      },
+      "transcribed_hex": [],
+      "visible_text": [
+        "루한스크",
+        "도네츠크",
+        "러시아 (캡처에 보이는 지도 라벨)"
+      ],
+      "limits": [
+        "원본 258×145. 지명과 경계를 정밀 추출하거나 고해상도 지도 원본으로 사용하는 데 한계.",
+        "지도는 시각 표현 방식 참고. 특정 시점의 실제 영토/행정 경계 정확성을 이 캡처로 검증한 것이 아님.",
+        "필요 지리 영역은 실제 제작 소재의 검증된 지도 데이터에 새로 연결해야 함."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 14,
+      "dimensions": [
+        258,
+        145
+      ],
+      "source_sha256": "d6f513bad33507bc43b645f64c317250cb15a124d74ba52911b063adef99e86c",
+      "file": "Screenshot From 2026-11-16 05-29-18.png",
+      "sha": "d6f513bad33507bc43b645f64c317250cb15a124d74ba52911b063adef99e86c",
+      "measured_colors": [
+        {
+          "role": "지도 빨강 채움 샘플",
+          "roi": [
+            137,
+            43,
+            20,
+            25
+          ],
+          "declared_hex": null,
+          "rgb": [
+            251,
+            43,
+            86
+          ],
+          "hex": "#FB2B56",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "R>140,G<100,B<150,R-G>80",
+          "sampled_pixels": 476,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-21.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "map",
+      "semantic_uses": [
+        "소형 지도: 회색 바탕·영역 강조·깃발"
+      ]
+    },
+    {
+      "id": "REF-22",
+      "filename": "Screenshot From 2026-11-16 05-24-58.png",
+      "title": "상하 찢어진 종이 테두리 · 실사 장면 창",
+      "main_crop": {
+        "id": "overview",
+        "label": "상하 종이와 실사 창",
+        "box": [
+          0,
+          0,
+          900,
+          522
+        ],
+        "note": "오른쪽의 보라색 재생/도구 버튼을 피하기 위해 44px를 표시영역에서 제외.",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "paper_top",
+          "label": "상단 종이 재질과 찢어진 경계",
+          "box": [
+            0,
+            6,
+            900,
+            69
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "paper_bottom",
+          "label": "하단 찢어진 종이와 기본 자막",
+          "box": [
+            0,
+            449,
+            900,
+            73
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "paper_clean",
+          "label": "문자 없는 하단 종이 샘플",
+          "box": [
+            0,
+            467,
+            280,
+            55
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "subtitle",
+          "label": "둥근 짙은 자막 바탕",
+          "box": [
+            295,
+            474,
+            355,
+            37
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "거친 회색 종이/직물처럼 보이는 미세한 입자가 상하에 있고 경계는 불규칙하게 찢어진 흰 섬유 모양. 중앙은 실사 영상 창.",
+        "composition": "화면 위·아래를 종이 띠로 감싸고 중앙 실사를 남김. 아래 기본 자막은 종이 위의 짙은 둥근 박스.",
+        "font_shape": "하단 흰 자막은 비교적 가는 산세리프. 정확한 폰트 확인 불가.",
+        "lighting": "중앙 실사는 어두운 실내의 따뜻한 빛. 종이는 균일한 밝은 회색.",
+        "shadow": "종이 경계의 얇은 밝고 어두운 선으로 층이 느껴짐."
+      },
+      "transcribed_hex": [],
+      "visible_text": [
+        "다른 도시에서는 터부시하는 것들"
+      ],
+      "limits": [
+        "원본 오른쪽 보라색 버튼은 영상 디자인이 아닌 뷰어 UI. 별도 효과로 복제하지 않음.",
+        "측정한 자막 박스 색은 배경과 합성된 값. 검정 opacity를 이 한 장으로 정확히 역산할 수 없음."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 15,
+      "dimensions": [
+        944,
+        522
+      ],
+      "source_sha256": "c972b6fc49374363540d2bf38773e226e0df3b793c5d95ff2d18e6ee88da356d",
+      "file": "Screenshot From 2026-11-16 05-24-58.png",
+      "sha": "c972b6fc49374363540d2bf38773e226e0df3b793c5d95ff2d18e6ee88da356d",
+      "measured_colors": [
+        {
+          "role": "상단 종이 대표색",
+          "roi": [
+            200,
+            10,
+            200,
+            35
+          ],
+          "declared_hex": null,
+          "rgb": [
+            176,
+            175,
+            171
+          ],
+          "hex": "#B0AFAB",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 7000,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음."
+        },
+        {
+          "role": "하단 자막 박스 대표색",
+          "roi": [
+            350,
+            482,
+            200,
+            22
+          ],
+          "declared_hex": null,
+          "rgb": [
+            57,
+            69,
+            74
+          ],
+          "hex": "#39454A",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "max(R,G,B)<120",
+          "sampled_pixels": 3128,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-22.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "frame",
+      "semantic_uses": [
+        "상하 찢어진 종이 테두리 · 실사 장면 창"
+      ]
+    },
+    {
+      "id": "REF-23",
+      "filename": "Screenshot From 2026-11-16 05-35-19.png",
+      "title": "댓글 흰 박스 · 노랑 형광 강조 · 악마 겹침",
+      "main_crop": {
+        "id": "overview",
+        "label": "설명 제목과 흰 댓글 카드",
+        "box": [
+          165,
+          122,
+          620,
+          199
+        ],
+        "note": "왼쪽 아래 악마 뿔이 카드 일부에 남아 있는 원본 표시용. 깨끗한 카드로 가장하지 않음.",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "card_original",
+          "label": "악마와 겹친 원본 댓글 카드",
+          "box": [
+            168,
+            188,
+            614,
+            131
+          ],
+          "note": "왼쪽 하단 x168~234,y250~319 부근은 악마/뿔이 가림.",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "card_unobscured",
+          "label": "악마가 겹치지 않은 텍스트/흰 박스 영역",
+          "box": [
+            244,
+            188,
+            538,
+            131
+          ],
+          "note": "왼쪽 아바타와 여백을 포함한 완전한 카드가 아님. 새 CSS 카드의 색·행간·여백 관찰용.",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "identity",
+          "label": "작성자/인증/계정/날짜 행",
+          "box": [
+            260,
+            200,
+            368,
+            31
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "highlight",
+          "label": "문장 속 노랑 강조",
+          "box": [
+            536,
+            256,
+            202,
+            28
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "heading",
+          "label": "큰 한마디 제목",
+          "box": [
+            184,
+            124,
+            580,
+            56
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "어두운 입자 배경 위 흰 직사각형 소셜 댓글 카드. 검정 원문 일부 뒤에 노랑 형광 띠. 왼쪽 아래에는 빨간 악마 얼굴이 카드에 겹침.",
+        "composition": "큰 흰 한마디 제목은 카드 위, 작성자·배지·계정·날짜는 카드 첫 줄, 원문은 그 아래 여러 줄.",
+        "font_shape": "카드 본문은 검정 산세리프, 작성자는 굵게, 계정/날짜는 회색. 위 큰 문구는 굵은 흰 산세리프. 정확한 폰트 불명.",
+        "lighting": "흰 카드와 노랑 강조가 어두운 배경과 높은 대비.",
+        "shadow": "카드 그림자는 뚜렷하지 않고 큰 흰 제목에는 어두운 외곽/그림자가 관찰됨."
+      },
+      "transcribed_hex": [],
+      "visible_text": [
+        "#한국 애플차트 진입 당시 트윗",
+        "정말 아무것도 모르는 것 같아",
+        "iamcardib",
+        "@iamcardib · Aug 17",
+        "but far from it too .... (형광 강조 구간)"
+      ],
+      "limits": [
+        "사용자는 악마 없는 박스를 요청. 기존 악마 이미지를 제거한 깨끗한 원본 파일이 들어온 것은 아님.",
+        "악마가 일부 픽셀을 가리고 있으므로 단순 crop만으로 원래 전체 카드·아바타를 완전 복원할 수 없음.",
+        "악마가 없는 순수 박스 샘플은 [244,188,538,131]. 새 CSS 박스를 만들되 출처 댓글의 작성자·내용을 자료 확인 없이 새로 지어내지 않음.",
+        "댓글 내용의 사실성·원 게시물 링크·캡처 허가 범위는 이 시각 분석에서 별도로 검증하지 않음."
+      ],
+      "font_observations": [],
+      "reference_notes": [
+        "관찰: 카드 원본과 악마 없는 표시 가능한 부분을 분리. 🌸 구현 제안: 흰 카드·작성자 행·본문·형광 span을 새 CSS 컴포넌트로 구성하고 악마 레이어는 생성하지 않음."
+      ],
+      "batch_order": 16,
+      "dimensions": [
+        939,
+        510
+      ],
+      "source_sha256": "7e0f7d403e2e536a207172c3b209f0efe1d48506d68e2a3c7d39635e74a6f2f7",
+      "file": "Screenshot From 2026-11-16 05-35-19.png",
+      "sha": "7e0f7d403e2e536a207172c3b209f0efe1d48506d68e2a3c7d39635e74a6f2f7",
+      "measured_colors": [
+        {
+          "role": "댓글 카드 흰 바탕",
+          "roi": [
+            747,
+            203,
+            7,
+            7
+          ],
+          "declared_hex": null,
+          "rgb": [
+            255,
+            255,
+            255
+          ],
+          "hex": "#FFFFFF",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음."
+        },
+        {
+          "role": "원문 노랑 형광 강조",
+          "roi": [
+            540,
+            259,
+            180,
+            24
+          ],
+          "declared_hex": null,
+          "rgb": [
+            251,
+            255,
+            21
+          ],
+          "hex": "#FBFF15",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "R>180,G>180,B<150",
+          "sampled_pixels": 3646,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음."
+        },
+        {
+          "role": "어두운 배경 샘플",
+          "roi": [
+            827,
+            147,
+            7,
+            7
+          ],
+          "declared_hex": null,
+          "rgb": [
+            29,
+            29,
+            28
+          ],
+          "hex": "#1D1D1C",
+          "method": "RGB channel median in specified ROI, rounded to integer",
+          "mask_rule": "none",
+          "sampled_pixels": 49,
+          "status": "measured_screenshot_sample",
+          "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음."
+        }
+      ],
+      "asset_url": "references/REF-23.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "comment",
+      "semantic_uses": [
+        "댓글 흰 박스 · 노랑 형광 강조 · 악마 겹침"
+      ]
+    },
+    {
+      "id": "REF-24",
+      "filename": "2026-11-24_14-18-17.png",
+      "title": "작은 개구리 캐릭터 시트",
+      "main_crop": {
+        "id": "overview",
+        "label": "캐릭터 시트 전체",
+        "box": [
+          0,
+          0,
+          167,
+          116
+        ],
+        "note": "",
+        "status": "observed_crop_bounds"
+      },
+      "detail_crops": [
+        {
+          "id": "turnaround",
+          "label": "왼쪽 기본 포즈 그룹",
+          "box": [
+            1,
+            18,
+            63,
+            44
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "expressions",
+          "label": "중앙 표정 그룹",
+          "box": [
+            63,
+            19,
+            42,
+            47
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "poses",
+          "label": "오른쪽 동작 그룹",
+          "box": [
+            105,
+            20,
+            51,
+            49
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        },
+        {
+          "id": "palette",
+          "label": "하단 좌측 색/소품 그룹",
+          "box": [
+            1,
+            72,
+            64,
+            31
+          ],
+          "note": "",
+          "status": "observed_crop_bounds"
+        }
+      ],
+      "observations": {
+        "material": "연두·노랑 계열 개구리 캐릭터의 여러 전신/표정/동작을 모은 작은 캐릭터 시트.",
+        "composition": "흰 시트 위에 기본 포즈·얼굴 변형·동작·색/소품을 작은 묶음으로 정리.",
+        "font_shape": "주석은 너무 작아 신뢰할 수 있는 전사 불가.",
+        "lighting": "평면 캐릭터 그림이며 일부 밝고 어두운 면이 보임.",
+        "shadow": "원본 해상도로 세부 음영/선 두께를 신뢰성 있게 측정할 수 없음."
+      },
+      "transcribed_hex": [],
+      "visible_text": [],
+      "limits": [
+        "원본 시트 수신은 확인됨. 원본은 167×116이며 개별 제작용 고해상도 투명 PNG/벡터는 아직 확보되지 않음.",
+        "이 파일을 큰 화면용 완성 캐릭터 에셋이라고 표시하지 않음.",
+        "표정/포즈 세부를 상상해서 원본 요구로 기록하지 않음.",
+        "채널별·장면별 사용 여부는 최신 사용자 지시대로 선택 사항. 시트 수신이 매 장면 강제 등장 지시를 뜻하지 않음."
+      ],
+      "font_observations": [],
+      "reference_notes": [],
+      "batch_order": 17,
+      "dimensions": [
+        167,
+        116
+      ],
+      "source_sha256": "8de94804759e420a7601f4ff14e8f3c0be512fb81b7c269c7fbd3c365b81e6d9",
+      "file": "2026-11-24_14-18-17.png",
+      "sha": "8de94804759e420a7601f4ff14e8f3c0be512fb81b7c269c7fbd3c365b81e6d9",
+      "measured_colors": [],
+      "asset_url": "references/REF-24.png",
+      "original_preserved": true,
+      "batch": 2,
+      "category": "character",
+      "semantic_uses": [
+        "작은 개구리 캐릭터 시트"
+      ]
+    }
+  ],
+  "cropping": "Original bytes preserved; exact source regions displayed with SVG viewBox. Occluded pixels are not recovered.",
+  "counts": {
+    "original_images": 24,
+    "main_crops": 24,
+    "detail_crops": 89,
+    "measured_colors": 74
+  },
+  "source_commit_before_web_fixes": "6b91d1f82d2d2dfc181ab4c8acba11806412ef7b",
+  "scope": "Reference archive + four bounded existing web-editor changes; no HumanTouch or MP4 modification."
+}

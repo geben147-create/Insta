@@ -1,0 +1,57 @@
+{
+  "status": "applied_worktree_only_not_committed",
+  "applied": [
+    {
+      "id": "P01",
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+      "before_count": 1,
+      "after_count": 1
+    },
+    {
+      "id": "P02",
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/thumbnail-layer-lab-20261123/index.html",
+      "before_count": 1,
+      "after_count": 1
+    },
+    {
+      "id": "P03",
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/thumbnail-layer-lab-20261123/index.html",
+      "before_count": 1,
+      "after_count": 1
+    },
+    {
+      "id": "P04",
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+      "before_count": 1,
+      "after_count": 1
+    }
+  ],
+  "nav_added_to": [
+    "MENUS.thumb",
+    "MENUS.video"
+  ],
+  "backup": "/workspace/scratch/763a8801a0a5/work/reference-batch2-patch-backup",
+  "files": [
+    {
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/thumbnail-layer-lab-20261123/index.html",
+      "before_sha256": "1f90c709c076e6fe6f6d19dc9e5b5397e537509578685482eb71976d55525818",
+      "after_sha256": "8b0bbb265f51a7d35f8c59fc2f0b5fc4ad64313d590bb2c00329e4b8de94b2e1"
+    },
+    {
+      "path": "research-hub-20261108/broadcast-font-subtitle-master-20261121/video-edit-lab.html",
+      "before_sha256": "0d4b92c64c4914976cf7f7ef8ac50f03ada2ce8f87d1c95102ccc9bb5d57c15d",
+      "after_sha256": "c90d2bb84a6029cd807c20547a0e914a5da8b40da6cf8aad063c3bff2e51778a"
+    },
+    {
+      "path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+      "before_sha256": "749f46bb9840e397be1629c0ce6eafe8a49bb92d021f6096ba6812a9a184107f",
+      "after_sha256": "ddbcee589e981bde0cc4b8a2604f1b563aa64ca336b02922dbe7f64b52e47788"
+    }
+  ],
+  "not_changed": [
+    "T07 font declarations",
+    "T05 gold editor and seven fonts",
+    "all other templates and palette values"
+  ],
+  "commit_push_performed": false
+}

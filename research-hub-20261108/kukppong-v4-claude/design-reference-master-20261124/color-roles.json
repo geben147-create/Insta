@@ -1,0 +1,158 @@
+[
+  {
+    "token": "thumb.chaser.gold",
+    "hex": "#FFE713",
+    "role": "추격자 해외반응 노랑·금색",
+    "references": [
+      "REF-08"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "thumb.cutout.back_glow",
+    "hex": "#C30E0C",
+    "role": "썸네일 뒤 빨강·누끼 외곽광",
+    "references": [
+      "REF-08"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "thumb.issue_pick.badge",
+    "hex": "#F000D0",
+    "role": "이슈 PICK 형광 분홍 배지",
+    "references": [
+      "REF-08"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "thumb.exam.emphasis",
+    "hex": "#F01515",
+    "role": "수능 제목 빨강",
+    "references": [
+      "REF-08"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "thumb.t08.yellow",
+    "hex": "#F6FA55",
+    "role": "T08 모음 노랑",
+    "references": [
+      "REF-08"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "video.neon_green",
+    "hex": "#BCFF34",
+    "role": "영상편집 형광연두",
+    "references": [
+      "REF-08"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "shared.neon_yellow_proposal",
+    "hex": "#FFE94A",
+    "role": "공통 네온 노랑 — 원본 캡처에서 제안",
+    "references": [
+      "REF-09"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": true,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "thumb.dog.frame",
+    "hex": "#78EDF5",
+    "role": "강아지 하늘색 프레임",
+    "references": [
+      "REF-10"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "thumb.laugh.yellow",
+    "hex": "#F0F44C",
+    "role": "ㅋㅋㅋ 노랑",
+    "references": [
+      "REF-11",
+      "REF-12"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "fx.shock.background_light",
+    "hex": "#B71512",
+    "role": "충격 배경의 붉은 조명",
+    "references": [
+      "REF-11",
+      "REF-12"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "thumb.legacy_no.gradient_reference",
+    "hex": "#F22B15",
+    "role": "NO!! 빨강 그라데이션 참조",
+    "references": [
+      "REF-12"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "fx.warning.stripe",
+    "hex": "#FFED00",
+    "role": "검정과 조합하는 경고 테두리 노랑",
+    "references": [
+      "REF-12"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "video.blue",
+    "hex": "#39D5FF",
+    "role": "영상편집 파랑",
+    "references": [
+      "REF-12"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  },
+  {
+    "token": "fx.shock.box",
+    "hex": "#E21317",
+    "role": "충격 박스 빨강",
+    "references": [
+      "REF-13"
+    ],
+    "authority": "referenceobserved",
+    "original_label_is_proposal": false,
+    "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+  }
+]

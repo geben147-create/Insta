@@ -1,0 +1,26 @@
+/* Static SVG layout studies. No external fonts or libraries. */
+.reference-preview-frame {
+  width: 100%;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 22px;
+  background-color: #e9edf0;
+  background-image: conic-gradient(#e4e9ed 25%, transparent 0 50%, #e4e9ed 0 75%, transparent 0);
+  background-size: 28px 28px;
+}
+.reference-preview-frame[data-orientation="wide"] { aspect-ratio: 16 / 9; }
+.reference-preview-frame[data-orientation="tall"] { aspect-ratio: 9 / 16; }
+.reference-preview-frame > svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  font-kerning: normal;
+  text-rendering: geometricPrecision;
+  shape-rendering: geometricPrecision;
+}
+.reference-preview-frame svg text { font-variant-numeric: tabular-nums; }
+@media print {
+  .reference-preview-frame { break-inside: avoid; border: 1px solid #cbd3db; }
+}

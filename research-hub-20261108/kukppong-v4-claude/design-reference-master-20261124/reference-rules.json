@@ -1,0 +1,906 @@
+{
+  "schema_version": "reference-batch2-addendum-r1",
+  "title": "R · 추가 레퍼런스·색 역할·댓글·프레임·선택 캐릭터 모듈",
+  "status": "신규 17장과 URL의 참조 정리 및 기존 편집기 적용 지시. 실제 영상 렌더·폰트 로드·고해상도 자산 확보 완료가 아님.",
+  "scope": "기존 A/B/C와 통계 S 모듈을 유지하는 추가 부록. 새 편집기 제작 지시가 아님.",
+  "provided_url": "https://geben147-create.github.io/Insta/국뽕-유튜브-리서치-허브-20261108/?page=studio-thumb&sub=faces",
+  "url_status": "사용자가 제공한 주소. 저장소의 실제 구현·자산 여부는 별도 저장소 점검 결과와 연결한다.",
+  "source_labels": {
+    "userfixed": "기존 대화에서 이미 지정된 요구·색·글꼴 및 최신 캐릭터 선택 요구. 직접 인용이 아닌 적용 규칙 정리.",
+    "referenceobserved": "이번 이미지에서 보이는 HEX·역할·UI 선택·레이아웃. UI가 보여주는 내용과 실제 구현 완료를 구분.",
+    "proposal": "🌸 새 배치·효과 수치·동작·구현 방법. 원본에서 측정/복원한 값으로 주장하지 않음.",
+    "pending": "고해상도 자산·실제 폰트 로드·렌더 결과 등 아직 확인하지 않은 내용."
+  },
+  "new_verbatim_user_quotes": [],
+  "verbatim_note": "이번 배치의 새 직접 입력은 제공 URL과 첨부 이미지다. 없는 사용자 직접 발화를 만들어 인용하지 않는다.",
+  "reference_inventory": [
+    {
+      "id": "REF-08",
+      "file": "2026-11-23_23-55-16.png",
+      "observed": "역할이 적힌 6색 카드",
+      "evidence_level": "referenceobserved",
+      "note": "HEX와 사용처 라벨을 직접 읽음"
+    },
+    {
+      "id": "REF-09",
+      "file": "2026-11-23_23-55-43.png",
+      "observed": "공통 네온 노랑 #FFE94A",
+      "evidence_level": "referenceobserved",
+      "note": "캡처 자체의 (제안) 표시를 보존"
+    },
+    {
+      "id": "REF-10",
+      "file": "2026-11-23_23-55-55.png",
+      "observed": "강아지 하늘색 프레임 #78EDF5",
+      "evidence_level": "referenceobserved",
+      "note": "색과 역할 표기 확인"
+    },
+    {
+      "id": "REF-11",
+      "file": "2026-11-23_23-56-13.png",
+      "observed": "ㅋㅋㅋ 노랑/충격 배경 붉은 조명",
+      "evidence_level": "referenceobserved",
+      "note": "색과 역할 표기 확인"
+    },
+    {
+      "id": "REF-12",
+      "file": "2026-11-23_23-56-31.png",
+      "observed": "기존 레이어 실험실 색상표",
+      "evidence_level": "referenceobserved",
+      "note": "NO!! 표기는 #F22B15로 확인"
+    },
+    {
+      "id": "REF-13",
+      "file": "2026-11-23_23-56-54.png",
+      "observed": "충격 박스 빨강 #E21317",
+      "evidence_level": "referenceobserved",
+      "note": "기존 VS와 색은 같아도 역할은 별도"
+    },
+    {
+      "id": "REF-14",
+      "file": "2026-11-24_00-00-27.png",
+      "observed": "썸네일 레이어 실험실",
+      "evidence_level": "referenceobserved",
+      "note": "선택 레이어 UI의 강원교육튼튼체 표기; 전체/원본 폰트 확정 아님"
+    },
+    {
+      "id": "REF-15",
+      "file": "2026-11-24_00-01-04.png",
+      "observed": "폰트 점검표 일부",
+      "evidence_level": "referenceobserved",
+      "note": "목록 6개가 보임; 실제 적용/파일 로드 검증 아님"
+    },
+    {
+      "id": "REF-16",
+      "file": "2026-11-24_00-16-51.png",
+      "observed": "영상편집 디자인 8개 카드",
+      "evidence_level": "referenceobserved",
+      "note": "T01~T08 참조와 사용처; 매 회차 8개 강제 적용 아님"
+    },
+    {
+      "id": "REF-17",
+      "file": "2026-11-24_00-21-59_187266.png",
+      "observed": "풀 파티 자막 실물 크롭",
+      "evidence_level": "referenceobserved",
+      "note": "기존 명시색 #E03C3E와 별도 캡처 실측 관리"
+    },
+    {
+      "id": "REF-18",
+      "file": "2026-11-24_00-23-07.png",
+      "observed": "자막 글씨 8종·폰트 비교 메뉴",
+      "evidence_level": "referenceobserved",
+      "note": "메뉴 위치 참고; 자막/폰트 확정 증거로 사용하지 않음"
+    },
+    {
+      "id": "REF-19",
+      "file": "2026-11-24_00-23-14.png",
+      "observed": "T02 NO!! 비교 UI",
+      "evidence_level": "referenceobserved",
+      "note": "템플릿 전용 HEX와 영문 폰트 후보가 표기됨"
+    },
+    {
+      "id": "REF-20",
+      "file": "2026-11-24_00-28-14.png",
+      "observed": "T05 금색 광택 비교 UI",
+      "evidence_level": "referenceobserved",
+      "note": "템플릿 전용 HEX와 한글 폰트 후보가 표기됨"
+    },
+    {
+      "id": "REF-21",
+      "file": "Screenshot From 2026-11-16 05-29-18.png",
+      "observed": "작은 지도+선택 지역 강조+하단 라벨",
+      "evidence_level": "referenceobserved",
+      "note": "258×145의 작은 레퍼런스; 세부 폰트 원본 확인 불가"
+    },
+    {
+      "id": "REF-22",
+      "file": "Screenshot From 2026-11-16 05-24-58.png",
+      "observed": "영상 위아래 찢어진 종이 테두리",
+      "evidence_level": "referenceobserved",
+      "note": "주변 종이 면과 거친 절단 경계; 하단 자막은 별도"
+    },
+    {
+      "id": "REF-23",
+      "file": "Screenshot From 2026-11-16 05-35-19.png",
+      "observed": "흰 댓글 카드와 핵심어 형광",
+      "evidence_level": "referenceobserved",
+      "note": "악마 얼굴·전체 검정 배경·위 평가 문구는 카드와 구분"
+    },
+    {
+      "id": "REF-24",
+      "file": "2026-11-24_14-18-17.png",
+      "observed": "개구리 캐릭터 시트",
+      "evidence_level": "referenceobserved",
+      "note": "167×116 저해상도 시트 수신; 고해상도 제작 자산 아님"
+    }
+  ],
+  "receipt_update": [
+    {
+      "item": "신규 참조",
+      "previous": "추가 사진 약 20장 예정",
+      "now": "이번 배치 17장 수신",
+      "remaining": "앞으로 더 보낼 사진의 장수는 확정하지 않음"
+    },
+    {
+      "item": "GitHub 주소",
+      "previous": "미수신",
+      "now": "제공 URL 수신",
+      "remaining": "실제 코드·자산 점검과 사용자 선택값을 별도 연결"
+    },
+    {
+      "item": "댓글 박스",
+      "previous": "레퍼런스 미수신",
+      "now": "REF-23 수신; 악마를 제외한 흰 카드 형태 사용",
+      "remaining": "회차별 실제 댓글·번역·좋아요 데이터"
+    },
+    {
+      "item": "개구리",
+      "previous": "이미지 미수신",
+      "now": "REF-24 167×116 시트 수신",
+      "remaining": "제작용 고해상도·투명 PNG/벡터 및 표정별 원본"
+    },
+    {
+      "item": "커피 마시는 남자",
+      "previous": "미수신",
+      "now": "여전히 미수신",
+      "remaining": "캐릭터 원본과 채널 연결값"
+    }
+  ],
+  "fixed_existing_rules": [
+    {
+      "authority": "userfixed",
+      "rule": "기존 최종 대본·TTS·발화 순서·총 발화 시간을 변경하지 않는다."
+    },
+    {
+      "authority": "userfixed",
+      "rule": "원래 지정한 자막 색/폰트를 그대로 둔다. 새 참조 색을 전체 자막/그래프 색으로 일괄 치환하지 않는다."
+    },
+    {
+      "authority": "userfixed",
+      "rule": "VS 글자는 #E21317. #B71512를 VS 대체색으로 사용하지 않는다. 이번 #B71512 배경 조명 역할은 별도 토큰으로 유효하다."
+    },
+    {
+      "authority": "userfixed",
+      "rule": "풀 파티 핵심어의 기존 명시색 #E03C3E를 유지한다. REF-17 캡처 픽셀 대표색은 별도 실측 참고 자료다."
+    },
+    {
+      "authority": "userfixed",
+      "rule": "기존 재능이 없는 강조 #E25254→#F26163, 기존 언론/댓글/금빛 자막 토큰을 새 썸네일 팔레트로 덮어쓰지 않는다."
+    },
+    {
+      "authority": "userfixed",
+      "rule": "일반 주 자막은 하단. 왼쪽/오른쪽 상단의 상시 소제목·로고는 추가하지 않는다. 언론·댓글·VS·통계 카드의 내부 정보는 해당 카드 영역에 속한다."
+    },
+    {
+      "authority": "userfixed",
+      "rule": "기본 자막과 같은 발화를 반복하는 주 디자인 자막을 동시에 쌓지 않는다. 참조 캡처의 별도 평가 문구를 자동 추가하지 않는다."
+    },
+    {
+      "authority": "userfixed",
+      "rule": "배경은 흐르는 영상과 투명 합성이 기본. 흰 댓글 카드·종이 가장자리·유리 표면은 해당 요소의 표면이며 전편 불투명 배경 전환을 의미하지 않는다."
+    },
+    {
+      "authority": "userfixed",
+      "rule": "캐릭터는 선택. 영상/구간 명시값 > 채널 저장값 > 기본 OFF. 한 채널의 선택을 다른 채널에 전역 적용하지 않는다."
+    },
+    {
+      "authority": "userfixed",
+      "rule": "실제 기사·댓글만 사용하고 존재하지 않는 문장·반응·좋아요 수를 만들어 넣지 않는다."
+    }
+  ],
+  "color_role_tokens": [
+    {
+      "token": "thumb.chaser.gold",
+      "hex": "#FFE713",
+      "role": "추격자 해외반응 노랑·금색",
+      "references": [
+        "REF-08"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "thumb.cutout.back_glow",
+      "hex": "#C30E0C",
+      "role": "썸네일 뒤 빨강·누끼 외곽광",
+      "references": [
+        "REF-08"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "thumb.issue_pick.badge",
+      "hex": "#F000D0",
+      "role": "이슈 PICK 형광 분홍 배지",
+      "references": [
+        "REF-08"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "thumb.exam.emphasis",
+      "hex": "#F01515",
+      "role": "수능 제목 빨강",
+      "references": [
+        "REF-08"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "thumb.t08.yellow",
+      "hex": "#F6FA55",
+      "role": "T08 모음 노랑",
+      "references": [
+        "REF-08"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "video.neon_green",
+      "hex": "#BCFF34",
+      "role": "영상편집 형광연두",
+      "references": [
+        "REF-08"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "shared.neon_yellow_proposal",
+      "hex": "#FFE94A",
+      "role": "공통 네온 노랑 — 원본 캡처에서 제안",
+      "references": [
+        "REF-09"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": true,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "thumb.dog.frame",
+      "hex": "#78EDF5",
+      "role": "강아지 하늘색 프레임",
+      "references": [
+        "REF-10"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "thumb.laugh.yellow",
+      "hex": "#F0F44C",
+      "role": "ㅋㅋㅋ 노랑",
+      "references": [
+        "REF-11",
+        "REF-12"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "fx.shock.background_light",
+      "hex": "#B71512",
+      "role": "충격 배경의 붉은 조명",
+      "references": [
+        "REF-11",
+        "REF-12"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "thumb.legacy_no.gradient_reference",
+      "hex": "#F22B15",
+      "role": "NO!! 빨강 그라데이션 참조",
+      "references": [
+        "REF-12"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "fx.warning.stripe",
+      "hex": "#FFED00",
+      "role": "검정과 조합하는 경고 테두리 노랑",
+      "references": [
+        "REF-12"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "video.blue",
+      "hex": "#39D5FF",
+      "role": "영상편집 파랑",
+      "references": [
+        "REF-12"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    },
+    {
+      "token": "fx.shock.box",
+      "hex": "#E21317",
+      "role": "충격 박스 빨강",
+      "references": [
+        "REF-13"
+      ],
+      "authority": "referenceobserved",
+      "original_label_is_proposal": false,
+      "application_scope": "해당 역할/템플릿에서만 사용; 전역 교체 금지"
+    }
+  ],
+  "color_rules": [
+    "HEX가 같아도 역할이 다르면 별도 토큰을 둔다. #E21317의 vs.text와 fx.shock.box를 연결된 전역 변수 하나로 만들지 않는다.",
+    "색 이름이 모두 빨강이어도 #C30E0C 누끼광, #B71512 배경광, #F01515 제목, #F22B15 NO 참조, #E21317 충격박스를 합치지 않는다.",
+    "#BCFF34는 이번 참조의 영상편집 형광연두다. 기존 언론 캡처 실측 #C7F001을 자동 교체하지 않는다. 사용자가 언론색으로 고르면 해당 역할의 선택값으로 저장한다.",
+    "#FFE94A는 원본 캡처에서 공통 네온 노랑(제안)으로 표시되어 있다. 확정 공통색으로 격상하지 않는다.",
+    "#F22B15는 기존 NO 그라데이션 참조의 한 코드다. 단일 코드만으로 미확인 그라데이션 양 끝 값을 만들어 넣지 않는다.",
+    "템플릿 UI의 HEX, 원본 캡처 픽셀 실측 RGB, 사용자가 저장한 선택값을 별도 필드로 둔다. 셋을 모두 원본 제작색이라고 부르지 않는다.",
+    "🌸 선택값 저장 범위는 channel_id + output_type + style_id + color_role로 잡는다. 썸네일에서 고른 빨강이 영상 자막까지 바뀌지 않게 한다.",
+    "🌸 영상 배경 색 보정/감광을 먼저 처리하고 글자·형광·카드를 합성한다. 최종 합성 전체에 색 필터를 걸어 고정색을 바꾸지 않는다."
+  ],
+  "template_palettes": {
+    "t02_no_comparison": {
+      "reference": "REF-19",
+      "authority": "referenceobserved",
+      "source_claim": "UI는 아래 칩을 원본 사진 글자 픽셀 실측값으로 표시함. 이 모듈이 원본 파일을 독립 재측정했다는 뜻은 아님.",
+      "colors": {
+        "top_white": "#F6F5F4",
+        "top_yellow": "#F1EE33",
+        "no_gradient_top": "#E8451A",
+        "no_gradient_bottom": "#E2170E",
+        "bottom_title_top": "#F8F45E",
+        "bottom_title_bottom": "#F0BE26",
+        "outline": "#1C0A00",
+        "outer_red_border": "#8A1E1D",
+        "shadow": "#3A0A0A",
+        "reference_background": "#2A2427"
+      },
+      "scope": "T02 NO!! 썸네일/해당 비교 템플릿 전용. VS·풀 파티·기존 NO 효과 자산에 자동 덮어쓰기 금지."
+    },
+    "t05_gold_comparison": {
+      "reference": "REF-20",
+      "authority": "referenceobserved",
+      "source_claim": "UI가 표시한 T05 비교용 색상 칩.",
+      "colors": {
+        "top_gold": "#F6CB52",
+        "light_band": "#FCEC82",
+        "bottom_gold": "#F2CF5C",
+        "dark_outline": "#2E1A05",
+        "bronze_outer_border": "#A8763C",
+        "depth_shadow": "#2E1A05",
+        "reference_background": "#5A4636"
+      },
+      "scope": "T05 금색 광택·특급 서비스 템플릿. 기존 11번 금빛 칭찬 #F9D56B/#FFF7B8 계열과 자동 통합하지 않음."
+    }
+  },
+  "font_evidence": {
+    "levels": {
+      "L0": "이름 미확인: 글자 모양만 관찰",
+      "L1": "UI 표기/후보 이름 확인",
+      "L2": "실제 폰트 파일과 로드 상태 확인",
+      "L3": "해당 장면 렌더에서 적용 확인"
+    },
+    "current_claim_limit": "이번 이미지만으로 확보되는 폰트 근거는 L0 또는 L1이다. 파일·로드·최종 렌더 확인은 별도 점검 결과로 승격한다.",
+    "items": [
+      {
+        "ref": "REF-14",
+        "level": "L1",
+        "names": [
+          "강원교육튼튼체"
+        ],
+        "scope": "선택된 썸네일 레이어의 UI 설정. 전체 썸네일 또는 원본 영상 폰트라는 뜻 아님"
+      },
+      {
+        "ref": "REF-15",
+        "level": "L1",
+        "names": [
+          "G마켓 산스 Bold",
+          "정선아리랑뿌리체",
+          "정선아리랑혼체",
+          "정선아리랑체",
+          "여기어때 잘난체",
+          "여기어때 잘난체 고딕"
+        ],
+        "scope": "목록에 보이는 후보. 전부 설치/적용됐다고 판단하지 않음"
+      },
+      {
+        "ref": "REF-17",
+        "level": "L0",
+        "names": [],
+        "scope": "풀 파티 실물 크롭만으로 원본 서체 확정 불가. 기존 사용자가 지정한 티몬 몬소리 Black 유지"
+      },
+      {
+        "ref": "REF-18",
+        "level": "L0",
+        "names": [],
+        "scope": "메뉴만 보여 폰트 근거로 쓰지 않음"
+      },
+      {
+        "ref": "REF-19",
+        "level": "L1",
+        "names": [
+          "Bangers",
+          "Anton",
+          "Bebas Neue",
+          "여기어때 잘난체"
+        ],
+        "scope": "앞 3개는 영문 NO!! 비교 후보. 한글은 UI 설명상 여기어때 잘난체 고정. 원본 폰트 식별 완료와 구분"
+      },
+      {
+        "ref": "REF-20",
+        "level": "L1",
+        "names": [
+          "레코체 Bold",
+          "G마켓 산스 Bold",
+          "평창평화체"
+        ],
+        "scope": "금빛 비교 후보 3개. 기존 금빛 칭찬의 지정 폰트를 자동 교체하지 않음"
+      },
+      {
+        "ref": "REF-21/22/23",
+        "level": "L0",
+        "names": [],
+        "scope": "지도 라벨/종이틀 하단 자막/댓글 원문 서체는 이미지 관찰만으로 확정하지 않음"
+      }
+    ],
+    "implementation_proposals": [
+      "🌸 폰트 후보는 미리보기 옵션으로 등록하고 userfixed 폰트를 기본값으로 유지한다.",
+      "🌸 렌더 전 폰트 로드 실패 여부를 확인한다. 임의 대체 폰트로 렌더한 뒤 동일한 디자인이라고 보고하지 않는다.",
+      "🌸 같은 이름의 일반/굵은 파일을 구분하고, UI 폰트 이름·실제 파일명·렌더 적용 상태를 연결한다."
+    ]
+  },
+  "layout_basis": {
+    "authority": "proposal",
+    "marker": "🌸",
+    "rule": "아래 위치/크기/시간은 구현용 새 제안. 기존 S의 통계 안전영역·기존 자막 보호영역을 우선하고 장면별로 충돌 시 재배치한다.",
+    "measurement_unit": "가로/세로 정규화 위치 또는 캔버스 폭·높이 비율. 원본 캡처 픽셀값의 복원 주장이 아님.",
+    "subtitle_rule": "일반 자막의 하단 위치는 그대로. 카드 안 제목·원문·번역·지도 라벨은 카드와 함께 입퇴장한다. 상단 고정 소제목으로 분리하지 않는다.",
+    "read_time_rule": "🌸 기존 배경 컷 4초 이하와 정보 노출 길이를 분리한다. 같은 카드가 배경 컷을 넘어 이어질 수 있다. 대본/TTS 길이를 늘려 맞추지 않는다.",
+    "motion_rule": "🌸 한 번 등장→읽기 구간 고정→한 번 퇴장. 후반부 강제 프리즈·프레임 복제·속도 리셋·무한 회전은 추가하지 않는다."
+  },
+  "modules": [
+    {
+      "id": "R01",
+      "name": "악마 없는 흰 댓글 카드",
+      "refs": [
+        "REF-23"
+      ],
+      "source_status": "referenceobserved + 기존 사용자 요구 적용",
+      "use_when": "실제 해외 댓글 또는 반응을 인용하는 구간",
+      "keep": [
+        "흰 직사각 카드",
+        "프로필/작성자/날짜 등 실제로 확보된 헤더 정보",
+        "원문과 핵심 구절 형광",
+        "읽을 수 있는 한국어 번역"
+      ],
+      "do_not_inherit": [
+        "악마 얼굴",
+        "원본 전체 검정 배경",
+        "카드 위의 별도 평가 한마디",
+        "좌상단 해시태그",
+        "플레이어/플러그인 아이콘"
+      ],
+      "landscape": "🌸 카드 폭은 화면의 64~76%, 중앙의 위·가운데 영역. 원문 위/번역 아래로 묶고 하단 기본 자막 보호영역과 분리한다. 캐릭터 ON이면 카드 폭을 줄여 옆에 전용 자리를 만든다.",
+      "portrait": "🌸 카드 폭 80~86%, 세로 중앙의 위쪽. 원문→번역→확보된 출처/좋아요 순으로 쌓는다. 영문 긴 단어를 한 글자씩 줄바꿈하지 않고 문장 의미 단위로 나눈다.",
+      "font": "원본 댓글 서체 L0. 기존 지정된 댓글 글꼴/검정 본문색을 유지하고 번역 글꼴을 임의로 교체하지 않는다.",
+      "color": "흰 카드와 진한 본문. 핵심어 형광은 기존 댓글 토큰 또는 사용자가 이 역할에 선택한 토큰을 사용한다. 새 #BCFF34가 언론·댓글 모두를 자동 교체하지 않는다.",
+      "layers": "배경 영상→필요한 카드 그림자→흰 카드→헤더/형광→원문/번역→확보된 출처. 선택 캐릭터는 카드 텍스트와 겹치지 않는 별도 레이어.",
+      "motion": "🌸 입장 0.18~0.30초, 한 카드당 4~7초 읽기 시간을 비교한다. 타이핑을 쓰면 핵심 구절에만 짧게 적용하고 원문 전체가 오래 숨겨지지 않게 한다.",
+      "data_rule": "원문·번역·좋아요는 실재하고 확보된 정보만 표시한다. 좋아요 미확보는 숨김(null)이며 0이나 임의 숫자로 채우지 않는다. 위 평가 문구와 아래 자막을 추가로 중복하지 않는다."
+    },
+    {
+      "id": "R02",
+      "name": "선택 지역 강조 지도 + 하단 라벨",
+      "refs": [
+        "REF-21"
+      ],
+      "source_status": "referenceobserved",
+      "use_when": "지역·위치·이동을 간결하게 보여주는 구간",
+      "keep": [
+        "선택 지역의 선명한 채움",
+        "선택 영역의 형광 테두리/강조",
+        "인접 지역의 낮은 채도",
+        "지도에 붙은 하단 라벨"
+      ],
+      "do_not_inherit": [
+        "참조 방송 로고",
+        "불필요한 해설자 얼굴",
+        "고정 상단 소제목"
+      ],
+      "landscape": "🌸 지도는 화면 폭 58~72%의 중앙 영역, 선택 지역이 가려지지 않게 크롭한다. 이름/핵심 한 줄 라벨은 지도 하단에 붙이고 영상 주 자막과 분리한다.",
+      "portrait": "🌸 지도 폭 82~88%, 위쪽~가운데에 배치한다. 지역을 읽을 수 있는 범위로 다시 잡고 하단 라벨을 지도 바로 밑 한두 줄로 정리한다. 가로 지도 전체를 축소해 작은 글씨를 유지하지 않는다.",
+      "font": "지도 원본 서체 L0. 라벨에는 기존 승인 글꼴을 사용하고 지역명/보조 문구의 크기 단계만 🌸 제안한다.",
+      "color": "원본의 지역 채움·형광 경계·하단 라벨을 별도 역할로 보관한다. 🌸 #BCFF34 또는 선택한 노랑을 지역 강조 역할에 연결할 수 있으나 기존 언론 강조색을 바꾸지 않는다.",
+      "layers": "배경 지도→선택 지역 채움→선택 경계/핀→지역명→지도 내부 하단 라벨. 발광은 지역명 아래에 둔다.",
+      "motion": "🌸 선택 지역으로 0.35~0.55초 접근 후 정지. 형광 경계는 0.25~0.40초에 한 번 나타난 뒤 유지하며 계속 반짝이지 않는다.",
+      "data_rule": "표시할 지역과 라벨은 해당 장면의 자료에 맞춘다. 258×145 캡처는 디자인 참고이며 확대해 제작용 선명 지도로 쓰지 않는다."
+    },
+    {
+      "id": "R03",
+      "name": "찢어진 종이 위아래 프레임",
+      "refs": [
+        "REF-22"
+      ],
+      "source_status": "referenceobserved + 🌸 선택 장면 모드",
+      "use_when": "영화/기록/회상 장면 등 종이 질감이 어울리는 선택 구간",
+      "keep": [
+        "영상 위·아래의 종이 면",
+        "영상 안쪽의 거친 찢김 경계",
+        "영상이 계속 움직이는 가운데 창"
+      ],
+      "do_not_inherit": [
+        "참조 영화 장면 자체",
+        "플레이어 UI",
+        "전편 고정 프레임"
+      ],
+      "landscape": "🌸 위아래 띠를 각각 화면 높이의 5~9% 범위로 비교하고 가운데 영상의 주요 인물/자막을 가리지 않는다. 기존 하단 자막은 예약 영역에 둔다.",
+      "portrait": "🌸 위아래 띠는 각각 화면 높이의 3~6%로 더 얇게 시작한다. 가로 프레임 이미지를 세로로 늘려 종이 결을 왜곡하지 않고 경계/질감을 분리해 재배치한다.",
+      "font": "프레임은 글꼴을 변경하지 않는다. 참조 캡처의 하단 자막 서체는 L0이므로 기존 자막 스타일을 유지한다.",
+      "color": "원본은 회백색 종이 질감으로 관찰. 정확한 원본 HEX·불투명도는 미확정. 종이 테두리 안의 가운데 창은 투명으로 유지한다.",
+      "layers": "배경 영상→종이 안쪽 가장자리의 선택 그림자→상하 종이 가장자리/찢김 알파→기존 하단 자막. 가운데 영상은 투명 창으로 유지한다.",
+      "motion": "🌸 입퇴장 0.15~0.25초의 짧은 페이드. 매 컷마다 책장 넘김을 강제하지 않는다. 해당 구간이 끝나면 프레임을 함께 종료한다.",
+      "data_rule": "이 프레임은 미적 연출 옵션이다. 저작권 해결/탐지 회피 효과라고 설명하지 않는다."
+    },
+    {
+      "id": "R04",
+      "name": "채널별 선택 캐릭터",
+      "refs": [
+        "REF-24"
+      ],
+      "source_status": "최신 사용자 선택 요구 + referenceobserved",
+      "use_when": "사용자가 해당 채널·영상·구간에 캐릭터를 요청한 경우",
+      "keep": [
+        "사용자가 고른 캐릭터 정체성",
+        "확인된 표정/몸짓",
+        "채널별 독립 ON/OFF"
+      ],
+      "do_not_inherit": [
+        "전 채널 강제 등장",
+        "매 댓글마다 캐릭터 등장",
+        "미수신 커피 남자 대역 생성",
+        "저해상도 시트를 고해상도 완성본으로 표시"
+      ],
+      "landscape": "🌸 화면 폭 10~16%의 크기를 출발점으로 카드 옆/빈 하단 측면에 전용 공간을 만든다. 사용자가 ON이면 공간 부족을 이유로 임의 생략하지 않고 카드/도형을 재배치한다.",
+      "portrait": "🌸 화면 폭 16~24%의 크기로 하단 자막 위의 빈 칸 또는 카드 옆 작은 전용 칸을 비교한다. 댓글·지도·출처와 겹치면 카드와 캐릭터를 순차 노출하는 안을 제안한다.",
+      "font": "캐릭터 자산과 자막 글꼴은 분리한다. 캐릭터 ON이 새 말풍선/평가 자막 자동 추가를 뜻하지 않는다.",
+      "color": "원본 캐릭터의 색을 보존한다. 썸네일 배경광·네온 선택이 캐릭터 본체의 색을 바꾸지 않게 한다.",
+      "layers": "배경/카드→필요한 캐릭터 뒤 효과→캐릭터→별도로 요청된 말풍선. 자막/통계 글자를 가리지 않는 예약 영역 사용.",
+      "motion": "🌸 0.15~0.25초 등장과 짧은 표정 반응만. 모든 문장마다 바운스/손짓을 반복하지 않는다.",
+      "data_rule": "현재 개구리 시트는 167×116이며 제작용 큰 누끼 자산은 미확보. 표정 확인용으로만 사용하고 고해상도 원본 또는 저장소 자산 확인 후 제작에 연결한다. 커피 남자는 미수신이다."
+    },
+    {
+      "id": "R05",
+      "name": "인물 뒤·자막 뒤 효과 배치",
+      "refs": [
+        "REF-08",
+        "REF-11",
+        "REF-12",
+        "REF-13",
+        "REF-14"
+      ],
+      "source_status": "참조 역할 + 🌸 구현 제안",
+      "use_when": "충격·강조·감탄·경고 등 해당 효과의 의미와 발화가 맞는 순간",
+      "keep": [
+        "누끼 뒤 빨강 외곽광",
+        "충격 배경 조명",
+        "경고 띠",
+        "충격 박스",
+        "기존 불꽃/번개/NO 자산의 역할"
+      ],
+      "do_not_inherit": [
+        "모든 빨강 토큰 통합",
+        "글자 위에 색 조명을 덮는 합성",
+        "인물 마스크 없이 뒤 효과 구현 완료 표시"
+      ],
+      "landscape": "🌸 인물 뒤 효과는 해당 인물의 실루엣 주변, 자막 뒤 효과는 하단 주 자막 그룹의 주변에만 배치한다. 그래프/댓글/출처 영역을 비워 둔다.",
+      "portrait": "🌸 세로에서는 외곽광 폭·경고 띠를 줄여 얼굴과 핵심 단어를 먼저 읽게 한다. 좌우 화면 끝을 뚫고 나가는 효과는 안전영역 안으로 다시 배치한다.",
+      "font": "효과 추가가 기존 글꼴/자간/외곽선을 임의 변경하는 이유가 되지 않는다.",
+      "color": "인물 누끼광 #C30E0C, 배경 충격 조명 #B71512, 충격 박스 #E21317, 경고 노랑 #FFED00를 각 역할에만 사용한다.",
+      "layers": "인물 뒤: 배경→색광/아우라→인물 마스크→전면 글자. 자막 뒤: 영상→부분 효과/박스→형광(필요 시)→주 자막. 효과가 최종 글자색을 덮지 않게 한다.",
+      "motion": "🌸 0.12~0.20초 입장, 0.35~0.70초 감정 강조, 0.15~0.25초 퇴장을 비교한다. 필요 시 짧게 유지하되 후반부 정지/반복을 강제하지 않는다.",
+      "data_rule": "기존 감정 효과 규칙을 유지한다. 해당 감정이 없으면 선택 목록에만 보관하고 자동 삽입하지 않는다."
+    },
+    {
+      "id": "R06",
+      "name": "NO!!·충격 썸네일 역할 분리",
+      "refs": [
+        "REF-14",
+        "REF-19"
+      ],
+      "source_status": "referenceobserved",
+      "use_when": "해당 썸네일 템플릿 또는 영상 속 짧은 NO 강조를 사용자가 선택한 경우",
+      "keep": [
+        "NO!! 독립 영문 레이어",
+        "위 제목/아래 제목의 역할 분리",
+        "검정 외곽선/빨간 바깥 테두리/그림자 개별 조절"
+      ],
+      "do_not_inherit": [
+        "썸네일 상단 제목을 영상 상단 고정 자막으로 이동",
+        "영문 폰트를 한글 전체에 강제 적용",
+        "T02 팔레트를 VS/풀 파티에 적용"
+      ],
+      "landscape": "🌸 썸네일에서는 상단 제목/인물/NO!!/하단 제목의 구획을 유지한다. 영상 오버레이로 쓰면 NO!!만 필요한 순간 사용하고 일반 자막은 하단 규칙을 따른다.",
+      "portrait": "🌸 세로 표지는 위 제목을 짧은 두 줄로 재배치하고 NO!!와 인물 얼굴을 서로 가리지 않게 옆/중앙 구획을 바꾼다. 영상에서는 통합 썸네일 전체를 강제 덮지 않는다.",
+      "font": "REF-19의 Bangers/Anton/Bebas Neue는 영문 NO!! 비교 후보 L1. 한글 글꼴은 UI 설명의 여기어때 잘난체와 실제 로드 여부를 따로 확인한다.",
+      "color": "template_palettes.t02_no_comparison만 사용. 기존 legacy NO의 #F22B15 한 값과 이 비교 템플릿의 위/아래 색을 동일한 토큰으로 합치지 않는다.",
+      "layers": "썸네일 배경/인물→독립 그림자→외곽 테두리→NO!!·제목 면. 화면 위치와 글자 내부 색을 독립 조절한다.",
+      "motion": "🌸 썸네일은 정지 디자인이다. 영상 사용 시에만 0.12~0.20초의 짧은 팝인 1회를 비교하며 영화 클립을 정지시키지 않는다.",
+      "data_rule": "참조의 인물·영화 문구는 현재 회차 대본/소재로 자동 복사하지 않는다. 기존 대본 안의 해당 표현에 디자인만 적용한다."
+    },
+    {
+      "id": "R07",
+      "name": "T05 금빛 입체 자막 비교",
+      "refs": [
+        "REF-20"
+      ],
+      "source_status": "referenceobserved",
+      "use_when": "기록·특급·성과처럼 이 템플릿을 선택한 강조 구간",
+      "keep": [
+        "상단/밝은 띠/아랫면의 금빛 단계",
+        "진갈색 외곽선",
+        "청동빛 바깥 테두리",
+        "아래쪽 입체 그림자",
+        "선택 장식"
+      ],
+      "do_not_inherit": [
+        "기존 11번 금빛 칭찬 색 자동 교체",
+        "한 문장 위 기본 자막 추가",
+        "UI 후보 3개를 한 영상에 모두 강제 적용"
+      ],
+      "landscape": "🌸 하단 주 자막 슬롯 안에 한 줄 금빛 제목을 중앙 정렬한다. 기본 자막을 같은 시간에 또 깔지 않는다. 장식은 양끝의 빈 칸에만 둔다.",
+      "portrait": "🌸 긴 문구는 의미 단위로 두 줄에 재배치한다. 첫 줄/둘째 줄의 역할을 정하고 금빛 단계와 그림자 방향은 그대로 유지한다.",
+      "font": "레코체 Bold/G마켓 산스 Bold/평창평화체는 REF-20 UI 비교 후보 L1. 사용자가 선택한 템플릿과 폰트 파일 확인 후 연결한다. 현재 편집기는 검은고딕 ref106 기본·7후보라는 별도 상태다. UI 후보와 현재 기본값 모두 사용자 선택으로 간주하지 않는다.",
+      "color": "template_palettes.t05_gold_comparison 전용. 기존 11번 금빛 칭찬과 별도 style_id 유지.",
+      "layers": "필요한 짧은 뒤 빛→입체 그림자→청동 테두리→진갈색 외곽선→금빛 글자 면→글자 끝의 선택 반짝이.",
+      "motion": "🌸 등장 0.18~0.30초, 반짝이 1회만 0.25~0.45초. 글자 면의 색이 계속 바뀌거나 금가루가 정보 위를 덮지 않게 한다.",
+      "data_rule": "기존 문구와 발화 시간은 고정한다. 금빛 표현을 위해 칭찬 대사를 새로 쓰지 않는다.",
+      "version_note": "REF-20은 guide 정적 원형이다. 현재 editor.js의 T05 진입은 별도 gold-editor로 바뀌며 팔레트/기본 폰트/후보 수가 다르다. reference/current/기존11번의 style_id와 버전을 분리한다."
+    },
+    {
+      "id": "R08",
+      "name": "풀 파티 실물 크롭의 적용 범위",
+      "refs": [
+        "REF-16",
+        "REF-17"
+      ],
+      "source_status": "referenceobserved + 기존 userfixed 유지",
+      "use_when": "기존 번개 2줄/풀 파티 계열 자막을 점검·적용하는 구간",
+      "keep": [
+        "작은 윗말과 큰 아랫말의 위계",
+        "핵심 명사만 다홍 강조",
+        "양끝 짧은 번개",
+        "기존 지정 글꼴/무외곽선 규칙"
+      ],
+      "do_not_inherit": [
+        "압축·배경 합성으로 변한 캡처색을 새 확정색으로 승격",
+        "캡처만 보고 원본 폰트를 확정",
+        "전 문장 전체를 빨강으로 변경"
+      ],
+      "landscape": "기존 하단 두 줄 구성을 유지한다. 🌸 긴 문구는 안전영역 안에서 박스 폭을 조정하며 핵심어와 조사를 따로 고립시키지 않는다.",
+      "portrait": "🌸 두 줄 구조는 유지하면서 작은 윗말/큰 아랫말의 폭을 세로 화면에 맞춘다. 일반 자막을 아래에 다시 넣지 않는다.",
+      "font": "기존 티몬 몬소리 Black 지정을 유지. REF-17 원본 서체는 L0. 소문구 비율 등 기존 규칙을 신규 제안으로 덮어쓰지 않는다.",
+      "color": "핵심어 #E03C3E 등 기존 고정 토큰 유지. REF-17 픽셀 실측은 참고색 항목으로만 별도 기록.",
+      "layers": "필요한 번개 자산→기존 지정 본문/핵심어. 금지된 새 외곽선/그림자를 임의 추가하지 않는다.",
+      "motion": "🌸 기존 발화의 핵심 명사 시작에 0.10~0.18초 짧은 등장만 비교한다. 읽기 구간은 안정적으로 유지한다.",
+      "data_rule": "새 실물 참조를 받았다는 사실만으로 기존 사용자가 지정한 수치를 미확인 값으로 바꾸지 않는다."
+    }
+  ],
+  "compatibility_table": [
+    {
+      "topic": "캐릭터",
+      "existing": "카드 1개+캐릭터 1개로 기록된 옛 규칙",
+      "new_evidence": "캐릭터 선택 요구 및 개구리 저해상도 시트 수신",
+      "resolution": "영상/구간 명시값 > 채널 저장값 > OFF. 고해상도 미확보는 별도 상태.",
+      "authority": "userfixed + referenceobserved"
+    },
+    {
+      "topic": "빨강",
+      "existing": "VS #E21317, #B71512는 VS 대체색 아님",
+      "new_evidence": "REF-11/12 #B71512 충격 배경 붉은 조명",
+      "resolution": "VS 빨강은 유지하고 B71512는 배경 조명 역할에만 등록.",
+      "authority": "userfixed + referenceobserved"
+    },
+    {
+      "topic": "연두",
+      "existing": "언론 캡처 대표색 #C7F001",
+      "new_evidence": "REF-08 영상편집 형광연두 #BCFF34",
+      "resolution": "역할별 별도 보관. 사용자 선택을 저장할 수 있으나 자동 치환하지 않음.",
+      "authority": "referenceobserved"
+    },
+    {
+      "topic": "풀 파티",
+      "existing": "핵심어 #E03C3E 등 지정값",
+      "new_evidence": "REF-17 실물 크롭의 보이는 색",
+      "resolution": "지정값 유지. 실측색/렌더색은 별도 비교 근거.",
+      "authority": "userfixed"
+    },
+    {
+      "topic": "금빛",
+      "existing": "11번 금빛 칭찬의 기존 토큰",
+      "new_evidence": "REF-20 T05 금빛 비교 UI 토큰",
+      "resolution": "별도 스타일로 등록하고 자동 병합하지 않음.",
+      "authority": "referenceobserved"
+    },
+    {
+      "topic": "배경",
+      "existing": "영상이 흐르는 투명 합성 기본",
+      "new_evidence": "REF-22 종이틀, REF-23 흰 댓글 카드",
+      "resolution": "요소의 표면/가장자리만 불투명. 전체 배경을 전편 교체하지 않음.",
+      "authority": "userfixed + 🌸 proposal"
+    },
+    {
+      "topic": "상단 제목",
+      "existing": "영상 왼쪽/오른쪽 상단 소제목·로고 금지",
+      "new_evidence": "썸네일 상단 제목, 댓글 카드 내부 헤더",
+      "resolution": "썸네일 문법은 썸네일에 한정. 카드 내부 정보는 카드와 함께 입퇴장. 일반 고정 상단 문구 추가 금지.",
+      "authority": "userfixed"
+    },
+    {
+      "topic": "4초 컷",
+      "existing": "배경 컷 4초 이하",
+      "new_evidence": "댓글 원문·번역을 읽을 시간 필요",
+      "resolution": "🌸 배경 컷과 카드 지속 시간을 분리. TTS는 늘리지 않고 정보량/분할을 조정.",
+      "authority": "userfixed + 🌸 proposal"
+    },
+    {
+      "topic": "통계 S",
+      "existing": "통계 영역만 새 재질/팔레트, 자막색 보존",
+      "new_evidence": "R 신규 썸네일/댓글/지도/효과색",
+      "resolution": "S 통계 토큰도 일괄 치환하지 않는다. 해당 채널·스타일·역할에서만 선택값 연결.",
+      "authority": "userfixed + 🌸 proposal"
+    },
+    {
+      "topic": "T05 참조/현재 편집기 버전",
+      "existing": "REF-20 정적 guide의 3후보·F6CB52 계열",
+      "new_evidence": "현재 T05는 gold-editor로 교체되어 기본 검은고딕 ref106·7후보·F9D56B 계열",
+      "resolution": "🌸 참조 원형/현재 편집기/기존11번을 별도 style_id와 버전으로 보관. 사용자 미선택 폰트를 임의 변경하지 않음. 실제 MP4 원인으로 단정하지 않음.",
+      "authority": "referenceobserved + 🌸 proposal"
+    }
+  ],
+  "error_prevention": [
+    "신규 17장 중 메뉴 캡처 REF-18까지 목록에는 포함하되 디자인/폰트 근거가 없는 이미지를 근거로 과장하지 않는다.",
+    "같은 색 계열을 전역 빨강·전역 노랑·전역 연두 하나로 묶지 않는다. style_id와 role을 함께 조회한다.",
+    "같은 이미지가 폰트 후보를 보여준다는 이유로 설치/실제 렌더 적용 완료라고 기록하지 않는다.",
+    "댓글 좋아요 null은 숨김. 캐릭터 요청 false는 숨김. 값이 없는 경우 임의 기본 숫자/악마/대역 캐릭터로 채우지 않는다.",
+    "개구리 시트는 수신 완료, 제작용 고해상도 원본은 미확보라는 두 상태를 동시에 보존한다.",
+    "종이틀은 선택 구간에서만 켜고 끝 시각에 종료한다. 검정/흰 배경을 전체 영상에 자동 확대하지 않는다.",
+    "후반부의 자연 재생을 유지한다. 그래픽 추가 때문에 원본 프레임을 반복하거나 TTS 끝 시각을 늘리지 않는다.",
+    "실제 영상 렌더 전에는 적용 규칙/정지 모식도 완료로 보고한다. 프레임 확인·연속 재생·폰트 적용이 검증되지 않으면 해당 항목을 PASS로 쓰지 않는다.",
+    "T05의 정적 guide 3후보를 현재 gold-editor 7후보와 혼동하지 않는다. 참조 원형/현재 코드/사용자 확정/실제 MP4를 분리하고 style_id+버전을 기록한다."
+  ],
+  "pending": [
+    "개구리 캐릭터의 제작용 고해상도 표정별 자산/투명 PNG 또는 벡터",
+    "커피 마시는 남자 캐릭터 원본",
+    "채널별 실제 캐릭터·선호색 선택값(선택 전의 임의 전체 적용 금지)",
+    "현재 편집기에서의 폰트 파일·로드·실제 장면 적용 상태",
+    "실제 최종 MP4의 고정색·자막 중복·후반 끊김 확인",
+    "선택 종이 프레임/뒤 효과의 제작용 알파 자산 또는 기존 저장소 자산 연결",
+    "REF-20의 폰트 3후보 중 사용자 선택 및 참조 원형/현재 편집기 중 연결할 스타일 선택값"
+  ],
+  "repository_version_findings": {
+    "evidence_type": "별도 저장소 점검에서 전달된 현재 코드 관찰",
+    "reviewed_revision": "6b91d1f",
+    "status": "참조 캡처와 현재 편집기의 버전/진입 경로 차이. 실제 MP4의 색 차이 원인 확정 아님.",
+    "reference_snapshot": {
+      "reference": "REF-20",
+      "source": "guide.html의 정적 T05 원형",
+      "style_id_proposal": "t05_gold_reference20_guide",
+      "palette": [
+        "#F6CB52",
+        "#FCEC82",
+        "#F2CF5C",
+        "#2E1A05",
+        "#A8763C"
+      ],
+      "font_candidates": [
+        "레코체 Bold",
+        "G마켓 산스 Bold",
+        "평창평화체"
+      ],
+      "selection_status": "이 3개 중 사용자가 선택한 글꼴은 미확정",
+      "style_id_authority": "🌸 proposal"
+    },
+    "current_editor": {
+      "entry_source": "editor.js 72–74행에서 T05를 별도 gold-editor로 교체",
+      "default_source": "gold-renderer.js 24–29행",
+      "style_id_proposal": "t05_gold_current_editor",
+      "default_palette": [
+        "#F9D56B",
+        "#FFF7B8",
+        "#F8DD78",
+        "#3C280B",
+        "#D1A13B",
+        "#7B5019"
+      ],
+      "default_font": "검은고딕 (ref106)",
+      "font_candidate_count": 7,
+      "authority_note": "현재 코드의 기본값을 관찰한 것이며, 사용자가 이 기본값을 승인했다는 뜻은 아님",
+      "style_id_authority": "🌸 proposal"
+    },
+    "preserved_caption_11": {
+      "style_id_proposal": "caption_gold_11_locked",
+      "rule": "기존 11번 금빛 칭찬의 확정 토큰과 글꼴은 별도 보존. 일부 HEX가 현재 편집기 기본값과 같아도 같은 스타일로 합치지 않음",
+      "style_id_authority": "🌸 proposal"
+    },
+    "version_lock_proposal": [
+      "🌸 style_id + source_version + template_entry_path + palette_set + font_id를 장면표에 함께 저장한다.",
+      "🌸 REF-20 원형과 현재 편집기 기본값을 각각 미리보기/비교 대상으로 보여준다. 캡처를 기준으로 수정하려면 해당 참조 스타일을 명시적으로 선택해 그 범위만 연결한다.",
+      "🌸 신규 3후보 중 임의로 폰트를 선택하지 않는다. 기존 확정 폰트를 보존하며 선택 여부를 pending으로 남긴다.",
+      "🌸 이 부록 작업에서 기존 편집기 동작을 대규모 교체하지 않는다. 코드 기본값·참조값·실제 렌더값을 구분해 보고한다."
+    ]
+  },
+  "reference_measurement_notes": [
+    {
+      "ref": "REF-17",
+      "observed_text_color_measurement": "#DC3E3F",
+      "authority": "referenceobserved",
+      "source": "reference-batch2-analysis.json",
+      "rule": "캡처 픽셀 대표색. 기존 고정 #E03C3E를 덮어쓰지 않음"
+    },
+    {
+      "ref": "REF-20",
+      "ui_background_label": "#5A4636",
+      "measured_chip": "#5A4839",
+      "visible_input_and_preview": "#FFFFFF",
+      "authority": "referenceobserved",
+      "source": "reference-batch2-analysis.json",
+      "rule": "라벨/칩/현재 입력·미리보기 상태의 차이를 기록. 이 캡처만으로 CSS/MP4 색 차이 원인을 확정하지 않음"
+    },
+    {
+      "ref": "REF-23",
+      "visible_clean_card_crop_xywh": [
+        244,
+        188,
+        538,
+        131
+      ],
+      "full_card_crop_xywh": [
+        168,
+        188,
+        614,
+        131
+      ],
+      "authority": "referenceobserved",
+      "source": "reference-batch2-analysis.json",
+      "rule": "악마 없는 부분 크롭과 원 카드 범위를 구분. 원 카드 왼쪽 일부는 뿔이 가려져 있으므로 원문을 추정 복원하지 않음"
+    }
+  ]
+}

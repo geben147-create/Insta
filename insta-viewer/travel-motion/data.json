@@ -1,0 +1,904 @@
+[
+  {
+    "id": "DgCigCoM34X",
+    "title": "계림 양숴 · 문 하나로 통창 풍경 드러내기",
+    "date": "2026-11-22",
+    "ko": "계림 양숴 LS Hotel 통창과 풍경",
+    "caption": "여긴 실제로 본 풍경이 더 미쳤네요.. 와..\n어마어마한 통창 너머로 본 풍경은 더 어마어마해서 \n미쳤다는 말만 수 백번은 한 것 같아요.. \n한국에서 가까이에 실제로 존재하는 풍경이라니🥹 \n\n📍계림 양숴 Yangshuo, Guilin \n🏨 LS Hotel (Guilin Liangsu)",
+    "account": "seosum",
+    "source": "https://www.instagram.com/reel/DgCigCoM34X/embed/captioned/",
+    "likes": 139864,
+    "comments": 5580,
+    "views": 2513500,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "altPlays": 4980460,
+    "kind": "연속 샷의 동작 구간",
+    "note": "복도의 좁고 따뜻한 공간이 문을 지나 밝고 넓은 풍경으로 바뀐다. 원형 침대는 동선의 목적지이자 풍경의 크기를 보여주는 기준물.",
+    "sheet": "assets/DgCigCoM34X/watch.webp",
+    "cover": "assets/DgCigCoM34X/cover.webp",
+    "cv": {
+      "duration": 14.633333,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 0
+    },
+    "shots": [
+      {
+        "start": 0,
+        "end": 1.8,
+        "title": "문 앞에 접근",
+        "action": "오른쪽에서 들어와 등을 보인 채 문으로 걸어간다. 발걸음이 짧아지며 멈춘다.",
+        "camera": "뒤따라가는 가로 와이드; 문에 가까워져도 상하 검은 여백은 유지.",
+        "prompt": "익명의 성인 여행자가 붉은 재킷을 입고 화면 오른쪽에서 황토색 복도로 들어와 문 앞에서 두 걸음을 줄인다.",
+        "image": "assets/DgCigCoM34X/01.webp",
+        "flow": 0.19
+      },
+      {
+        "start": 1.8,
+        "end": 3.25,
+        "title": "어깨 너머 한 번 돌아보기",
+        "action": "발은 문 쪽에 두고 얼굴·어깨만 카메라 쪽으로 잠깐 돌린다. 팔을 낮게 뻗었다가 다시 문 쪽으로 향한다.",
+        "camera": "문과 인물을 한 화면 안에 유지; 아직 내부 전경은 보여주지 않는다.",
+        "prompt": "발 위치를 고정하고 어깨와 고개만 짧게 돌렸다 다시 문을 향한다. 얼굴 클로즈업 없이 후면 3/4 구도.",
+        "image": "assets/DgCigCoM34X/02.webp",
+        "flow": 0.81
+      },
+      {
+        "start": 3.25,
+        "end": 4.4,
+        "title": "문틈 → 통창 첫 공개",
+        "action": "몸을 다시 정면으로 돌리고 밝은 틈을 따라 입실한다. 등이 카메라 쪽에 남는다.",
+        "camera": "문 프레임을 통과하는 전진 무빙. 칼같이 자르지 않고 복도→실내의 밝기 차이로 전환.",
+        "prompt": "문을 열자 밝은 카르스트 능선이 좁은 틈에서 점차 넓어지고, 카메라는 인물 뒤에서 함께 문턱을 통과한다.",
+        "image": "assets/DgCigCoM34X/03.webp",
+        "flow": 0.86
+      },
+      {
+        "start": 4.4,
+        "end": 6.7,
+        "title": "팔 벌리기 → 침대 옆 이동",
+        "action": "뒷모습으로 두 팔을 낮게 벌린 뒤 팔을 접으며 원형 침대 오른편을 지나 왼쪽으로 움직인다.",
+        "camera": "창을 배경에 길게 유지. 카메라는 인물을 화면 중앙에 억지로 붙잡지 않는다.",
+        "prompt": "넓은 실내에 들어와 잠깐 양팔을 펼친 뒤 원형 침대 둘레를 가볍게 걷는다. 산 능선의 형태와 창틀 수를 고정.",
+        "image": "assets/DgCigCoM34X/04.webp",
+        "flow": 0.89
+      },
+      {
+        "start": 6.7,
+        "end": 8.6,
+        "title": "침대 둘레를 타고 멈추기",
+        "action": "팔의 작은 스윙을 유지하며 침대 앞을 가로질러 왼쪽으로 이동한다. 끝에서 움직임을 줄이고 침대 쪽으로 몸을 튼다.",
+        "camera": "인물은 전경, 침대는 중경, 산은 배경. 실내 시점이 부드럽게 돌아간다.",
+        "prompt": "룸 와이드에서 인물이 원형 침대 앞을 오른쪽에서 왼쪽으로 가로지른 후 가장자리에서 속도를 늦춘다.",
+        "image": "assets/DgCigCoM34X/05.webp",
+        "flow": 0.78
+      },
+      {
+        "start": 8.6,
+        "end": 10.4,
+        "title": "앉기 직전 → 등을 대고 눕기",
+        "action": "침대 왼쪽에서 무릎을 굽히고 상체를 뒤로 보내 누운 자세로 바뀐다. 다리가 잠깐 들린 뒤 침대 위로 내려온다.",
+        "camera": "손이나 다리를 확대하지 않고 침대 전체와 창을 잡는다. 타이밍을 보여주는 넓은 샷.",
+        "prompt": "무릎 굽힘 → 침대 가장자리에 무게 싣기 → 등을 매트리스에 대기 → 다리 안착을 순차적으로. 손발 수와 침대 형태 유지.",
+        "image": "assets/DgCigCoM34X/06.webp",
+        "flow": 0.94
+      },
+      {
+        "start": 10.4,
+        "end": 12.5,
+        "title": "인물 동작을 멈추고 시점 이동",
+        "action": "인물이 침대에 누운 채 머문다. 자세 변화보다 침대의 화면 내 위치 변화가 두드러진다.",
+        "camera": "카메라가 창 쪽으로 접근하면서 침대와 인물이 화면 오른쪽으로 밀린다.",
+        "prompt": "배우는 누운 자세를 유지하고 카메라만 통창 앞으로 부드럽게 전진한다. 침대가 화면 오른쪽으로 자연스럽게 빠진다.",
+        "image": "assets/DgCigCoM34X/07.webp",
+        "flow": 0.91
+      },
+      {
+        "start": 12.5,
+        "end": 14.633333,
+        "title": "인물 없는 풍경으로 마무리",
+        "action": "인물은 화면 밖. 창턱과 실내가 줄어들고 마지막에 녹색 들판·봉우리·하늘이 남는다.",
+        "camera": "창가까지 전진하는 인상. 방을 소개하는 시점에서 풍경을 보여주는 시점으로 전환.",
+        "prompt": "창 밖 풍경이 화면을 채우도록 천천히 접근하고 마지막 0.7초는 풍경 홀드. 배경이 재생 도중 바뀌거나 흔들리지 않게 한다.",
+        "image": "assets/DgCigCoM34X/08.webp",
+        "flow": 0.49
+      }
+    ]
+  },
+  {
+    "id": "Df7VnNsBnKJ",
+    "title": "중국 산악 호텔 · 암벽 건축과 인물 포즈",
+    "date": "2026-11-19",
+    "ko": "화면 자막: 중국에서 가장 멋진 호텔",
+    "caption": "",
+    "account": "allinaai",
+    "source": "https://www.instagram.com/reel/Df7VnNsBnKJ/embed/captioned/",
+    "likes": 105486,
+    "comments": 131,
+    "views": 377509,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "kind": "OpenCV 컷 후보별 화면 대조",
+    "note": "실내와 외부를 교차하고 창과 산을 반복해 장소를 기억시킨다. 인물은 휴식·접근·관망의 세 방식으로 공간 규모를 보여준다.",
+    "sheet": "assets/Df7VnNsBnKJ/watch.webp",
+    "cover": "assets/Df7VnNsBnKJ/cover.webp",
+    "cv": {
+      "duration": 12.266666,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 11
+    },
+    "shots": [
+      {
+        "start": 0,
+        "end": 1.133333,
+        "title": "유리 앞 라운지",
+        "action": "사람이 의자에 기대 다리를 뻗은 상태에서 하체 위치를 조금 바꾼다.",
+        "camera": "유리 세로선과 산을 크게, 인물은 하단에 작게.",
+        "prompt": "천장까지 이어지는 유리 앞 라운지 체어, 익명의 여행자가 기댄 채 다리를 살짝 옮긴다.",
+        "image": "assets/Df7VnNsBnKJ/01.webp",
+        "flow": 0.15
+      },
+      {
+        "start": 1.133333,
+        "end": 2.2,
+        "title": "가죽 의자",
+        "action": "인물 없음. 빈 의자와 원형 탁자가 시선을 창으로 보낸다.",
+        "camera": "암벽 프레임 안에 창을 넣는 정적인 실내 샷.",
+        "prompt": "그늘진 창틀, 빈 가죽 의자, 원형 테이블. 산 능선과 가죽 질감이 선명하게 대비.",
+        "image": "assets/Df7VnNsBnKJ/02.webp",
+        "flow": 1.76
+      },
+      {
+        "start": 2.2,
+        "end": 3.866667,
+        "title": "동굴 침실",
+        "action": "인물 없음. 침대 끝에서 반대쪽 유리문 쪽으로 시선이 이어진다.",
+        "camera": "침대가 전경, 거친 천장이 위, 밝은 문은 중앙.",
+        "prompt": "동굴형 침실의 따뜻한 조명에서 밝은 유리문으로 아주 천천히 전진.",
+        "image": "assets/Df7VnNsBnKJ/03.webp",
+        "flow": 2.11
+      },
+      {
+        "start": 3.866667,
+        "end": 4.5,
+        "title": "실내 반복 구조",
+        "action": "인물 없음. 전경의 반복되는 막대와 뒤쪽 X자 프레임이 정면으로 맞물린다.",
+        "camera": "낮은 수평선과 X자 대각선으로 구조 강조.",
+        "prompt": "반복되는 수평 구조와 X자 창틀 정면, 짧게 홀드.",
+        "image": "assets/Df7VnNsBnKJ/04.webp",
+        "flow": 1.39
+      },
+      {
+        "start": 4.5,
+        "end": 5.166667,
+        "title": "암벽 외벽",
+        "action": "인물 없음. 회색 암벽의 틈 사이로 주황색 창이 여럿 보인다.",
+        "camera": "외벽과 전경 돌벽으로 깊이를 만든 짧은 인서트.",
+        "prompt": "거친 회색 암벽 외벽과 호박색 조명 창, 전경 돌을 활용한 미세한 시차.",
+        "image": "assets/Df7VnNsBnKJ/05.webp",
+        "flow": 0.81
+      },
+      {
+        "start": 5.166667,
+        "end": 6.2,
+        "title": "절벽 테라스",
+        "action": "인물 없음. 전경 바위 뒤로 테이블과 깊은 계곡이 드러난다.",
+        "camera": "전경은 바위, 우측은 검은 건물, 좌측은 역광 산.",
+        "prompt": "바위에 붙은 호텔 테라스, 계곡 역광. 난간을 넘는 동작 없이 안전한 관망 구도.",
+        "image": "assets/Df7VnNsBnKJ/06.webp",
+        "flow": 2.13
+      },
+      {
+        "start": 6.2,
+        "end": 7.266667,
+        "title": "등을 보이며 수영장으로 접근",
+        "action": "흰 옷의 인물이 등을 보인 채 중앙으로 몇 걸음 이동한다. 뒤꿈치가 번갈아 들리고 양팔은 낮게 유지된다.",
+        "camera": "풀샷에서 수평 물선과 산 능선을 고정, 사람은 중앙의 크기 기준.",
+        "prompt": "흰 여행복을 입은 익명의 성인, 느린 보폭으로 수영장 가장자리 앞 안전한 위치까지 걸어가 멈춘다. 입수 없음.",
+        "image": "assets/Df7VnNsBnKJ/07.webp",
+        "flow": 1.3
+      },
+      {
+        "start": 7.266667,
+        "end": 8.266667,
+        "title": "난간 사이 계단",
+        "action": "인물 없음. 계단 모서리가 아래로 빠지며 소실점이 가까워진다.",
+        "camera": "중앙 소실점을 따라 전진하는 1인칭 시점.",
+        "prompt": "대칭형 계단을 따라 가볍게 올라가는 시점, 계단 단수와 난간 왜곡 방지.",
+        "image": "assets/Df7VnNsBnKJ/08.webp",
+        "flow": 4.92
+      },
+      {
+        "start": 8.266667,
+        "end": 8.933333,
+        "title": "창가 바 스툴",
+        "action": "인물 없음. 스툴과 창의 수직선 사이로 바닥의 빛이 드러난다.",
+        "camera": "낮은 눈높이에서 바 좌석들의 반복을 살린다.",
+        "prompt": "암벽 천장 아래 나란한 나무 스툴과 유리창, 바닥의 대각선 햇빛 유지.",
+        "image": "assets/Df7VnNsBnKJ/09.webp",
+        "flow": 2.05
+      },
+      {
+        "start": 8.933333,
+        "end": 9.6,
+        "title": "높은 시점의 붉은 인물",
+        "action": "작은 인물이 창 앞에 서서 팔을 몸 가까이 모으고 방향을 조금 바꾼다. 세부 손동작은 불명확.",
+        "camera": "하이앵글로 인물 넓이보다 방과 통창 면적을 강조.",
+        "prompt": "높은 실내 시점에서 작은 붉은 여행자가 창 앞에서 체중을 옮기며 바깥을 본다.",
+        "image": "assets/Df7VnNsBnKJ/10.webp",
+        "flow": 1.71
+      },
+      {
+        "start": 9.6,
+        "end": 10.866667,
+        "title": "외부 돌 통로",
+        "action": "인물 없음. 바위 난간 너머 산, 통로를 따라 중심축이 이어진다.",
+        "camera": "통로의 유도선으로 산을 가리키는 와이드.",
+        "prompt": "회색 돌 통로의 중앙을 따라 능선 쪽으로 전진, 구름과 암벽을 안정적으로 유지.",
+        "image": "assets/Df7VnNsBnKJ/11.webp",
+        "flow": 4.1
+      },
+      {
+        "start": 10.866667,
+        "end": 12.266666,
+        "title": "창으로 돌아가는 엔딩",
+        "action": "인물 없음. 어두운 전경이 넓어지며 밝은 창과 테이블이 옆으로 밀린다.",
+        "camera": "어두운 벽으로 프레이밍하며 종료. 첫 샷의 통창 모티프 반복.",
+        "prompt": "동굴형 실내를 측면으로 이동하며 천천히 밝은 창을 프레이밍, 산이 마지막 기억으로 남게 한다.",
+        "image": "assets/Df7VnNsBnKJ/12.webp",
+        "flow": 6.69
+      }
+    ]
+  },
+  {
+    "id": "Df3D6_MS9y4",
+    "title": "@ssabiitova · 사용자 제공 릴스",
+    "date": "2026-11-17",
+    "ko": "원본 페이지에서 좋아요·댓글만 재확인. 재생 수는 사용자 제공 스냅샷이며 이 표의 임베드 조회에 합산하지 않음.",
+    "caption": "",
+    "account": "ssabiitova",
+    "source": "https://www.instagram.com/reel/Df3D6_MS9y4/",
+    "likes": 419079,
+    "comments": 1237,
+    "views": null,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "sourceLabel": "원본 · 419K 반올림 표시 ↗",
+    "altPlays": 4500679,
+    "note": "정확 좋아요 419,079는 사용자 첨부 기준. Ego 원본 페이지에서 419K·댓글 1,237 확인. 영상은 확보하지 못해 동작은 미확인."
+  },
+  {
+    "id": "Dcnc2WQJ5Z6",
+    "title": "인도네시아 아침 수영 · 보트와 물결",
+    "date": "2026-08-29",
+    "ko": "여기에서 함께 아침 수영을 하고 싶은 사람에게 보내세요.",
+    "caption": "Send this to someone you wann take a morning swim with here! \n\n#couple #travel #explore #morning #remote",
+    "account": "emily.and.christian",
+    "source": "https://www.instagram.com/reel/Dcnc2WQJ5Z6/embed/captioned/",
+    "likes": 132309,
+    "comments": 725,
+    "views": 1117162,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "kind": "연속 샷의 동작 구간",
+    "note": "풍경만 보여주지 않고 순차적으로 두 번의 물보라를 만든다. 인물 얼굴보다 움직임과 물의 반응이 핵심이다.",
+    "sheet": "assets/Dcnc2WQJ5Z6/watch.webp",
+    "cover": "assets/Dcnc2WQJ5Z6/cover.webp",
+    "cv": {
+      "duration": 12.6,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 0
+    },
+    "shots": [
+      {
+        "start": 0,
+        "end": 1.0,
+        "title": "보트 위에서 자세 낮추기",
+        "action": "오른쪽 인물이 서 있다가 무릎을 접고 몸을 뒤쪽·오른쪽으로 기울인다. 다른 인물은 보트에 남는다.",
+        "camera": "높은 와이드, 보트는 좌중앙, 숲은 화면 위.",
+        "prompt": "합성 장면: 나무 보트의 오른쪽 인물이 무릎을 굽히고 물 쪽으로 부드럽게 기울며 다른 인물은 자리를 지킨다.",
+        "image": "assets/Dcnc2WQJ5Z6/01.webp",
+        "flow": 0.54
+      },
+      {
+        "start": 1.0,
+        "end": 2.25,
+        "title": "첫 입수",
+        "action": "몸이 수면 가까이 수평으로 펴졌다가 물에 닿는다. 보트 오른쪽에서 물보라가 커진다.",
+        "camera": "컷 없이 물보라가 보일 공간 유지.",
+        "prompt": "가상 인물 한 명만 물에 닿고 충돌 위치에서 흰 물보라가 번진다. 보트는 같은 위치에서 약하게 흔들린다.",
+        "image": "assets/Dcnc2WQJ5Z6/02.webp",
+        "flow": 1.1
+      },
+      {
+        "start": 2.25,
+        "end": 3.6,
+        "title": "물결 확대 · 두 번째 준비",
+        "action": "첫 물결은 바깥으로 퍼지고 남은 인물이 보트 오른쪽으로 몸을 옮긴다.",
+        "camera": "보트 각도가 바뀌지만 숲·물 배경은 연속. 시점이 더 위로 올라가거나 뒤로 빠지는 인상.",
+        "prompt": "첫 물결의 반경을 늘리고, 남은 인물은 보트 가장자리로 무게를 옮긴다. 물결과 인물이 순간 이동하지 않게 한다.",
+        "image": "assets/Dcnc2WQJ5Z6/03.webp",
+        "flow": 1.89
+      },
+      {
+        "start": 3.6,
+        "end": 5.15,
+        "title": "두 번째 입수",
+        "action": "보트 쪽 인물이 오른쪽 물로 내려가며 두 번째 파문이 생긴다.",
+        "camera": "두 사건이 같은 화면에 남도록 거리 유지.",
+        "prompt": "두 번째 인물이 약간의 시간차로 내려가고 새 파문이 앞서 생긴 파문과 겹친다.",
+        "image": "assets/Dcnc2WQJ5Z6/04.webp",
+        "flow": 1.71
+      },
+      {
+        "start": 5.15,
+        "end": 7.6,
+        "title": "두 사람이 보트와 분리",
+        "action": "빈 보트는 왼쪽에 남고 둘의 작은 실루엣이 오른쪽 수면에 나뉘어 보인다.",
+        "camera": "청록 수면과 물 아래 무늬 비중을 키운다.",
+        "prompt": "사람 두 명을 보트와 떨어뜨려 유지. 수영 동작은 작게, 팔이 물을 밀 때만 짧은 흰 흔적.",
+        "image": "assets/Dcnc2WQJ5Z6/05.webp",
+        "flow": 0.95
+      },
+      {
+        "start": 7.6,
+        "end": 10,
+        "title": "잔동작 · 다시 튀는 물",
+        "action": "수면 위에서 팔·몸의 작은 움직임이 보이고 오른쪽에 흰 물보라가 커졌다 사라진다. 개별 손발 동작은 거리상 미확정.",
+        "camera": "높은 와이드 유지, 인물 확대 없음.",
+        "prompt": "멀리서 가볍게 수영하며 물보라 하나가 생겼다 잦아들게 한다. 새 인물을 추가하지 않는다.",
+        "image": "assets/Dcnc2WQJ5Z6/06.webp",
+        "flow": 0.69
+      },
+      {
+        "start": 10,
+        "end": 12.6,
+        "title": "숲과 수면 홀드",
+        "action": "보트와 인물이 작은 상태로 남고 주변의 물결은 잦아든다.",
+        "camera": "프레임 대부분을 청록색 물이 채운다. 첫 프레임과 같은 구도는 아님.",
+        "prompt": "마지막에는 와이드를 유지하고 파문만 자연스럽게 감쇠. 컷 없이 종료.",
+        "image": "assets/Dcnc2WQJ5Z6/07.webp",
+        "flow": 0.92
+      }
+    ]
+  },
+  {
+    "id": "DcmCu0ctuiJ",
+    "title": "도시 인피니티풀 · 황혼 파노라마",
+    "date": null,
+    "ko": "황혼의 도심과 인피니티풀",
+    "caption": "",
+    "account": "aureliestory",
+    "source": "https://www.instagram.com/reel/DcmCu0ctuiJ/embed/captioned/",
+    "likes": 86490,
+    "comments": 257,
+    "views": 418530,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "kind": "연속 샷의 동작 구간",
+    "note": "움직임은 오른쪽으로 이동하는 시야와 수면 잔물결이 만든다. 인물 포즈를 보여주는 영상이 아니라 도시 조망을 살리는 비교 사례.",
+    "sheet": "assets/DcmCu0ctuiJ/watch.webp",
+    "cover": "assets/DcmCu0ctuiJ/cover.webp",
+    "cv": {
+      "duration": 7.466666,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 0
+    },
+    "shots": [
+      {
+        "start": 0,
+        "end": 2,
+        "title": "왼쪽 타워로 시작",
+        "action": "수영장에 작은 실루엣이 보이지만 자세나 관절 방향은 식별하기 어렵다.",
+        "camera": "천장/데크가 위아래를 감싸고 카메라는 오른쪽을 향해 이동.",
+        "prompt": "가상 도시 황혼, 어두운 수영장과 따뜻한 불빛. 상단 차양을 유지하며 우측으로 천천히 이동.",
+        "image": "assets/DcmCu0ctuiJ/01.webp",
+        "flow": 2.89
+      },
+      {
+        "start": 2,
+        "end": 4.3,
+        "title": "높은 첨탑 유입",
+        "action": "수면의 작은 실루엣과 잔물결이 이어진다. 구체적인 팔 동작은 가리지 않고 미확인으로 둔다.",
+        "camera": "오른쪽에서 고층 첨탑이 들어오며 왼쪽 건물은 밀려난다.",
+        "prompt": "고층 첨탑을 오른쪽부터 천천히 공개. 반사광과 원경의 건물 직선이 흔들리지 않게 한다.",
+        "image": "assets/DcmCu0ctuiJ/02.webp",
+        "flow": 2.91
+      },
+      {
+        "start": 4.3,
+        "end": 6,
+        "title": "첨탑을 중심으로",
+        "action": "인물보다 물의 미세 움직임이 눈에 띈다. 수영 방향은 카메라 이동과 분리해 확정할 수 없다.",
+        "camera": "첨탑이 중앙 쪽으로 이동. 물선과 시가지의 경계를 유지.",
+        "prompt": "중앙 가까운 첨탑 아래 조명이 박힌 도심, 물결만 작게 변화. 같은 시간대와 조명 유지.",
+        "image": "assets/DcmCu0ctuiJ/03.webp",
+        "flow": 1.71
+      },
+      {
+        "start": 6,
+        "end": 7.466666,
+        "title": "오른쪽 난간과 종료",
+        "action": "끝부분에 오른쪽 수면 실루엣이 보인다. 인물이 누구인지, 어떤 방향을 보는지는 불명확하다.",
+        "camera": "우측 난간이 전경에 들어오며 시점 이동을 마무리.",
+        "prompt": "오른쪽 난간이 화면 안으로 살짝 들어오는 데서 팬을 멈춘다. 얼굴·신체 디테일 추가 없음.",
+        "image": "assets/DcmCu0ctuiJ/04.webp",
+        "flow": 0.86
+      }
+    ]
+  },
+  {
+    "id": "DY7GqNDJHc7",
+    "title": "🇨🇭 Villa Honegg · 실내 수영장에서 설산으로",
+    "date": "2026-05-29",
+    "ko": "이보다 좋은 전망을 본 적 있나요? 스위스 Villa Honegg에서의 숙박.",
+    "caption": "Have you seen a better view than this? @villahonegg \n\nLoved our stay here🫶🏻\n\n📍Villa Honegg, Switzerland \n\n#switzerland #swissalps #mountains #luxuryhotel #lucerne",
+    "account": "travelwithtalia",
+    "source": "https://www.instagram.com/reel/DY7GqNDJHc7/embed/captioned/",
+    "likes": 683556,
+    "comments": 670,
+    "views": 3529770,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "kind": "연속 샷의 동작 구간",
+    "note": "배우 없이 공간 공개만으로 성과를 낸 비교 레퍼런스. 좁은 수로에서 야외 파노라마로 시야가 넓어진다.",
+    "sheet": "assets/DY7GqNDJHc7/watch.webp",
+    "cover": "assets/DY7GqNDJHc7/cover.webp",
+    "cv": {
+      "duration": 13.733333,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 0
+    },
+    "shots": [
+      {
+        "start": 0,
+        "end": 2.7,
+        "title": "실내 수조 계단",
+        "action": "인물 없음. 수중 계단과 오른쪽 난간이 앞으로 다가온다.",
+        "camera": "정면 전진. 뒤쪽 작은 창으로만 산이 보인다.",
+        "prompt": "9:16, 좁은 실내 풀 계단 위 눈높이에서 천천히 접근. 잔물결과 벽의 직선을 유지.",
+        "image": "assets/DY7GqNDJHc7/01.webp",
+        "flow": 2.49
+      },
+      {
+        "start": 2.7,
+        "end": 5.5,
+        "title": "왼쪽 개구부로 회전",
+        "action": "인물 없음. 가까운 벽이 빠지고 왼쪽으로 야외 수면이 열린다.",
+        "camera": "전진하면서 왼쪽으로 시점을 돌린다. 밝기 변화는 완만.",
+        "prompt": "왼쪽으로 부드럽게 선회하면서 수영장의 물길이 실내외로 이어지게 한다. 컷 없이 밝기가 적응한다.",
+        "image": "assets/DY7GqNDJHc7/02.webp",
+        "flow": 4.57
+      },
+      {
+        "start": 5.5,
+        "end": 8.5,
+        "title": "프레임 아래에서 햇빛 공개",
+        "action": "인물 없음. 물에 반사된 햇빛과 산 아래 안개가 넓어진다.",
+        "camera": "문틀 상단이 화면 위로 빠지며 시야가 열린다.",
+        "prompt": "문틀 아래를 지나자 낮은 태양과 산 아래 안개가 보인다. 수면 굴절은 작은 변화만.",
+        "image": "assets/DY7GqNDJHc7/03.webp",
+        "flow": 3.84
+      },
+      {
+        "start": 8.5,
+        "end": 11,
+        "title": "야외로 나와 오른쪽 난간 통과",
+        "action": "인물 없음. 오른쪽 난간이 더 크게 보이고 물 표면의 광점이 이어진다.",
+        "camera": "태양은 좌측, 산은 수평축, 난간은 전경에서만 이동.",
+        "prompt": "수면 가까운 시점에서 우측 난간을 지나며 태양과 산의 상대 위치를 유지.",
+        "image": "assets/DY7GqNDJHc7/04.webp",
+        "flow": 3.15
+      },
+      {
+        "start": 11,
+        "end": 13.733333,
+        "title": "설산·수면 홀드",
+        "action": "인물 없음. 난간이 하단으로 밀리고 넓은 물과 산만 남는다.",
+        "camera": "움직임을 줄여 마지막 조망을 충분히 읽게 한다.",
+        "prompt": "마지막 2초는 개방된 수면과 산을 유지한다. 초점 급변, 난간 복제, 수평선 흔들림 없음.",
+        "image": "assets/DY7GqNDJHc7/05.webp",
+        "flow": 3.03
+      }
+    ]
+  },
+  {
+    "id": "DaizEEXA6Od",
+    "title": "🇨🇭 그슈타트 더 알피나 · 호텔 투어",
+    "date": null,
+    "ko": "스위스 그슈타트의 더 알피나에 체크인한 시점.",
+    "caption": "POV: Checked into the best luxury hotel in Gstaad, Switzerland \n📍 @thealpinagstaad \n\n#shotoniphone #roomwithaview #inlovewithswitzerland #gstaad",
+    "account": "lumadeline",
+    "source": "https://www.instagram.com/reel/DaizEEXA6Od/embed/captioned/",
+    "likes": 376941,
+    "comments": 1058,
+    "views": 1203177,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "sheet": "assets/DaizEEXA6Od/watch.webp",
+    "cover": "assets/DaizEEXA6Od/cover.webp",
+    "cv": {
+      "duration": 160.633333,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 19
+    }
+  },
+  {
+    "id": "DSNNsS8DH-x",
+    "title": "스위스 · 강변에서 자전거·철도·도로까지",
+    "date": null,
+    "ko": "스위스의 멋진 풍경 모음.",
+    "caption": "BEST OF SWITZERLAND 🇨🇭❤️\n\n#switzerland #travel #nature #swiss #mountains #schweiz #photography #suisse #landscape #travelphotography #photooftheday #europe #wanderlust #zurich #travelgram #love #alps #instagood #swissalps #naturephotography #lake #picoftheday #hiking #beautiful #visitswitzerland #inlovewithswitzerland #geneva #myswitzerland #instatravel #travelblogger",
+    "account": "marcoxmarques",
+    "source": "https://www.instagram.com/reel/DSNNsS8DH-x/embed/captioned/",
+    "likes": 487711,
+    "comments": 2052,
+    "views": 1880680,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "kind": "OpenCV 컷 후보별 화면 대조",
+    "note": "강변·차량·자전거·레일 등 이동 방식이 바뀌어도 전진감을 유지한다. 인물이 작아도 실루엣과 진행 방향이 명확하다.",
+    "sheet": "assets/DSNNsS8DH-x/watch.webp",
+    "cover": "assets/DSNNsS8DH-x/cover.webp",
+    "cv": {
+      "duration": 12.733333,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 4
+    },
+    "shots": [
+      {
+        "start": 0,
+        "end": 3.133333,
+        "title": "강변과 절벽",
+        "action": "인물 없음. 난간이 사라지며 강물과 초원의 경계가 열린다.",
+        "camera": "가까운 난간과 먼 절벽 사이의 시차.",
+        "prompt": "청록색 강변, 전경 난간이 빠지며 초원과 폭포가 나타나는 이동 샷.",
+        "image": "assets/DSNNsS8DH-x/01.webp",
+        "flow": 2.15
+      },
+      {
+        "start": 3.133333,
+        "end": 6.4,
+        "title": "산을 향하는 차선",
+        "action": "앞 차량을 따라 전진하며 오른쪽 표지판이 커진다.",
+        "camera": "차량 시점, 굽은 차선이 소실점을 만든다.",
+        "prompt": "렌더링된 가상 도로에서 앞 차량과 안전한 간격을 유지하며 산 쪽으로 전진.",
+        "image": "assets/DSNNsS8DH-x/02.webp",
+        "flow": 4.11
+      },
+      {
+        "start": 6.4,
+        "end": 8.6,
+        "title": "자전거 타는 사람의 뒷모습",
+        "action": "작은 인물이 등을 보이며 도로 오른쪽으로 멀어진다. 상체는 앞으로 약간 기울고 페달을 반복한다.",
+        "camera": "인물의 크기를 키우지 않고 산을 배경으로 고정해 거리감을 준다.",
+        "prompt": "익명의 자전거 여행자 후면 풀샷, 자전거 바퀴와 페달 주기 일치, 산은 고정.",
+        "image": "assets/DSNNsS8DH-x/03.webp",
+        "flow": 0.9
+      },
+      {
+        "start": 8.6,
+        "end": 11.133333,
+        "title": "철로 하강 POV",
+        "action": "카메라 쪽 발끝이 하단에 보이고 레일을 따라 계곡이 점차 드러난다.",
+        "camera": "두 레일이 화면 중앙에서 모이는 대칭 구도.",
+        "prompt": "안전한 탑승 좌석 시점에서 가상 레일을 따라 내려가며 발끝과 트랙을 고정.",
+        "image": "assets/DSNNsS8DH-x/04.webp",
+        "flow": 4.53
+      },
+      {
+        "start": 11.133333,
+        "end": 12.733333,
+        "title": "설산 앞 도로",
+        "action": "인물 없음. 차선이 화면 하단으로 흘러나가며 굽은 길을 따라간다.",
+        "camera": "중앙 전진을 유지하면서 눈 덮인 산으로 색과 공간을 바꾼다.",
+        "prompt": "가상 주행 샷, 설산과 초록 초원, 뚜렷한 차선, 차선 변형과 급가속 없음.",
+        "image": "assets/DSNNsS8DH-x/05.webp",
+        "flow": 3.92
+      }
+    ]
+  },
+  {
+    "id": "DObZ7o3iOU8",
+    "title": "🇵🇹 마데이라 · 10/10 벤치의 전망 공개",
+    "date": "2025-09-10",
+    "ko": "상 크리스토방 전망대의 벤치에서 대서양 위로 떨어지는 절벽과 구름을 조망.",
+    "caption": "This might be one of the most epic bench views in Madeira 🌊⛰️✨\n\n📍 Miradouro de São Cristóvão — where dramatic cliffs drop straight into the Atlantic and the sky seems to go on forever.\nSit down, breathe deep, and watch the clouds drift over the mountains while waves crash below. Pure magic. ☁️🌿\n\nThere’s something about this place — wild and peaceful at the same time.\nA perfect reminder to slow down and just look around.\n\n💡 After 3 years exploring the island, I built an INTERACTIVE MADEIRA GUIDE & MAP 🗺️\nWith 180+ handpicked spots: hikes, waterfalls, viewpoints, sunrise/sunset magic, and local secrets.\n\n👉🏼 Grab it via the link in bio to unlock the real Madeira\nOr drop a “Madeira Map” in the comments and I’ll DM you the link 🔗\n\n⸻\n\n#MadeiraViews #HiddenGems #AtlanticParadise #IslandExplorer #EpicLandscapes #MadeiraTrip #PortugalNature #UnforgettableViews #MountainAndSea #VisitMadeira #MadeiraGuide #NatureVibesOnly #CoastalViews #TravelPortugal #TripPlanner",
+    "account": "s.x.traveler",
+    "source": "https://www.instagram.com/reel/DObZ7o3iOU8/embed/captioned/",
+    "likes": 6548364,
+    "comments": 4818,
+    "views": 23097351,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "kind": "연속 샷의 동작 구간",
+    "note": "평범한 벤치를 먼저 보여주고 카메라를 들어 올려 전망의 이유를 보여준다. 배우 없이도 계림 릴스와 같은 ‘가림 → 공개’ 구조를 만든다.",
+    "sheet": "assets/DObZ7o3iOU8/watch.webp",
+    "cover": "assets/DObZ7o3iOU8/cover.webp",
+    "cv": {
+      "duration": 13.466666,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 0
+    },
+    "shots": [
+      {
+        "start": 0,
+        "end": 2.5,
+        "title": "벤치만 보여주기",
+        "action": "인물 없음. 나무 벤치와 큰 잎만 보이며 해안은 숨겨져 있다.",
+        "camera": "비스듬한 하향 시점. ‘10/10 BENCH’ 문구가 평가를 먼저 던진다.",
+        "prompt": "세로 9:16, 평범한 나무 벤치와 흙길만 하향으로 보여준다. 바다는 아직 금지.",
+        "image": "assets/DObZ7o3iOU8/01.webp",
+        "flow": 6.33
+      },
+      {
+        "start": 2.5,
+        "end": 5.5,
+        "title": "벤치 옆 이동 → 고개 들기",
+        "action": "인물 없음. 카메라가 벤치 끝을 지나면서 나무판이 화면 하단으로 빠진다.",
+        "camera": "벤치를 따라가다가 틸트 업; 구간 말미 처음 봉우리가 보인다.",
+        "prompt": "벤치 끝을 지나 부드럽게 고개를 들 듯 틸트 업. 구도가 이어지고 산이 갑자기 생성되지 않게 한다.",
+        "image": "assets/DObZ7o3iOU8/02.webp",
+        "flow": 15.1
+      },
+      {
+        "start": 5.5,
+        "end": 8.5,
+        "title": "절벽과 바다 공개",
+        "action": "인물의 자세를 식별할 만한 출연은 없다. 초원 너머 바다와 큰 절벽이 들어온다.",
+        "camera": "전경의 경사와 오른쪽 절벽을 이용한 비대칭 와이드.",
+        "prompt": "풀밭 전경을 두고 대서양과 어두운 산악 절벽을 넓게 공개한다. 원경 해안선 고정.",
+        "image": "assets/DObZ7o3iOU8/03.webp",
+        "flow": 2.2
+      },
+      {
+        "start": 8.5,
+        "end": 11,
+        "title": "만 쪽으로 프레이밍 이동",
+        "action": "인물 동작보다 왼쪽 바다와 전경 식생의 시차가 보인다.",
+        "camera": "절벽이 우측으로 더 치우치고 가운데 만과 바위섬이 읽힌다.",
+        "prompt": "카메라는 풍경 가운데 바위섬 쪽으로 느리게 재구성한다. 가파른 절벽 가장자리로 접근하는 연출 없음.",
+        "image": "assets/DObZ7o3iOU8/04.webp",
+        "flow": 1.15
+      },
+      {
+        "start": 11,
+        "end": 13.466666,
+        "title": "해안 파노라마로 종료",
+        "action": "뚜렷한 배우 없음. 마지막에는 느린 바다·구름 변화만 남는다.",
+        "camera": "전경 식생과 어두운 해안으로 구도 안정.",
+        "prompt": "끝에 구도를 홀드하고 잔물결과 구름만 약하게 움직인다. 벤치의 첫 화면과 인위적으로 루프를 맞추지 않는다.",
+        "image": "assets/DObZ7o3iOU8/05.webp",
+        "flow": 0.61
+      }
+    ]
+  },
+  {
+    "id": "DYwuZ7bsdAj",
+    "title": "🇮🇹 돌로미티 밴라이프 · 이불에서 커피까지",
+    "date": "2026-05-25",
+    "ko": "돌로미티 밴 여행을 떠나보세요. 바다에서 지내다 산의 밴라이프에 빠졌습니다. 장소: Parcheggio Auronzo.",
+    "caption": "Take this as a sign to take that van trip in the Dolomites!🏔️🚐\n\nWe have officially lived in a van for 7 months now! How time flies 😆 We have loved the coast vanlife but we did not expect that vanlife in the mountains is this fun! And we mean look at the view!!☀️ \n\nLocation: Parcheggio Auronzo 🏔️\n\n#vanlife #morning #couple #dolomites #travel",
+    "account": "emily.and.christian",
+    "source": "https://www.instagram.com/reel/DYwuZ7bsdAj/embed/captioned/",
+    "likes": 157377,
+    "comments": 245,
+    "views": 1481093,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "kind": "OpenCV 컷 후보별 화면 대조 · 첫 경계는 연속 동작 가능",
+    "note": "산을 배경으로 일상을 보여준다. 아침 기상 → 준비 → 나눠 마시기로 동작의 원인과 결과가 이어진다.",
+    "sheet": "assets/DYwuZ7bsdAj/watch.webp",
+    "cover": "assets/DYwuZ7bsdAj/cover.webp",
+    "cv": {
+      "duration": 12.0,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 7
+    },
+    "shots": [
+      {
+        "start": 0,
+        "end": 2.033333,
+        "title": "이불 속에서 인물 등장",
+        "action": "한 사람은 침대 전경에 누워 있고 다른 사람은 뒤쪽 문에서 등장해 손을 얼굴 근처로 들어 올린다.",
+        "camera": "침대 높이 고정 와이드, 좌우 커튼과 산을 대칭에 가깝게 배치.",
+        "prompt": "산이 열린 캠핑 밴, 익명 성인 한 명은 침대에서 깨어나고 다른 한 명은 뒤쪽 문으로 들어온다.",
+        "image": "assets/DYwuZ7bsdAj/01.webp",
+        "flow": 1.98
+      },
+      {
+        "start": 2.033333,
+        "end": 5.0,
+        "title": "일어나 앉고 가까이 다가가기",
+        "action": "누웠던 인물이 상체를 세우고 밝은 베개를 옆으로 옮긴다. 서로 기대는 쪽으로 몸을 튼다.",
+        "camera": "비슷한 고정 시점. 2.03초 후보는 큰 이불/팔 동작에 반응했을 수 있어 편집 컷 확정 아님.",
+        "prompt": "같은 구도에서 침대에 누운 인물이 몸을 세워 앉고 베개를 옮긴다. 발·이불이 프레임 사이에서 튀지 않게 한다.",
+        "image": "assets/DYwuZ7bsdAj/02.webp",
+        "flow": 0.38
+      },
+      {
+        "start": 5.0,
+        "end": 5.766667,
+        "title": "등을 보이며 차량에 오르기",
+        "action": "남성이 차를 향해 돌아서 한쪽 무릎을 높이고 발을 단에 올려 몸을 싣는다.",
+        "camera": "문틀 바깥 고정 풀샷, 절벽은 배경으로 남긴다.",
+        "prompt": "밴 밖 고정 카메라. 익명 성인 남성이 뒤돌아 한 발을 발판에 올리고 체중을 그 발로 이동한다.",
+        "image": "assets/DYwuZ7bsdAj/03.webp",
+        "flow": 0.85
+      },
+      {
+        "start": 5.766667,
+        "end": 6.366667,
+        "title": "커피 머신 앞에서 멈추기",
+        "action": "인물이 몸을 머신 쪽으로 살짝 기울이고 손을 작업대로 가져간다.",
+        "camera": "측면 허리 위 샷. 고개와 손이 일하는 방향을 읽게 한다.",
+        "prompt": "측면 미디엄, 여행자가 따뜻한 좁은 주방에서 손을 커피 머신에 가져간다.",
+        "image": "assets/DYwuZ7bsdAj/04.webp",
+        "flow": 1.66
+      },
+      {
+        "start": 6.366667,
+        "end": 7.566667,
+        "title": "컵과 조작 버튼",
+        "action": "손이 들어와 컵의 위치를 맞추고 패널에 닿는다.",
+        "camera": "기기 정면 인서트. 팔 전체 대신 손이 들어오는 경로만 본다.",
+        "prompt": "컵을 추출구 밑에 밀어 넣고 버튼에 손이 닿는다. 컵 손잡이 위치와 버튼 개수 유지.",
+        "image": "assets/DYwuZ7bsdAj/05.webp",
+        "flow": 0.67
+      },
+      {
+        "start": 7.566667,
+        "end": 8.166667,
+        "title": "추출",
+        "action": "사람은 화면 밖. 액체가 두 가닥으로 흘러 컵에 들어간다.",
+        "camera": "낮고 비스듬한 클로즈업으로 기계와 컵의 간격 유지.",
+        "prompt": "흰 머그에 짧은 커피 줄기가 떨어진다. 컵을 갑자기 채우거나 액체가 떠오르지 않는다.",
+        "image": "assets/DYwuZ7bsdAj/06.webp",
+        "flow": 0.46
+      },
+      {
+        "start": 8.166667,
+        "end": 9.633333,
+        "title": "들고 내려오기",
+        "action": "문턱에 선 인물이 한 손을 얼굴 가까이 올렸다 내리고, 다른 손의 접시를 유지하며 발판을 내려온다.",
+        "camera": "문틀을 다시 쓰고 사람이 좌측으로 지나간다.",
+        "prompt": "한 손의 가벼운 접시를 수평으로 유지하며 익명의 배우가 밴 발판에서 내려와 왼쪽으로 걷는다.",
+        "image": "assets/DYwuZ7bsdAj/07.webp",
+        "flow": 1.25
+      },
+      {
+        "start": 9.633333,
+        "end": 12.0,
+        "title": "문턱에 앉은 여행자와 커피",
+        "action": "앉은 여행자는 다리를 접은 상태에서 손을 뻗어 받아 들고, 서 있던 여행자는 가까이 왔다가 둘이 나란히 머문다.",
+        "camera": "바깥 와이드에서 왼쪽 밴과 오른쪽 산이 인물을 감싼다.",
+        "prompt": "한 사람이 밴 문턱에 앉아 컵을 건네받고 다른 사람이 옆에 잠깐 머문다. 건네는 손·받는 손·컵의 위치가 이어지게 한다.",
+        "image": "assets/DYwuZ7bsdAj/08.webp",
+        "flow": 0.08
+      }
+    ]
+  },
+  {
+    "id": "DPglyjNiCqU",
+    "title": "🇨🇭 스위스 사계절",
+    "date": "2025-10-07",
+    "ko": "사계절의 아름다운 스위스.",
+    "caption": "Beautiful Switzerland in every Season 🇨🇭\n\n🎥 by @swissaround \n\n#switzerland #swissaround #sisikon #summer #summervibes #travel #nature #swiss #mountains #schweiz #photography #suisse #landscape #travelphotography #wanderlust #travelgram #love #alps #swissalps #naturephotography #lake #hiking #beautiful #visitswitzerland #inlovewithswitzerland #myswitzerland #travelblogger #beautifuldestinations",
+    "account": "swissaround",
+    "source": "https://www.instagram.com/reel/DPglyjNiCqU/embed/captioned/",
+    "likes": 125560,
+    "comments": 943,
+    "views": 361018,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "sheet": "assets/DPglyjNiCqU/watch.webp",
+    "cover": "assets/DPglyjNiCqU/cover.webp",
+    "cv": {
+      "duration": 10.566666,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 10
+    }
+  },
+  {
+    "id": "DfMSdnksyjq",
+    "title": "서숨 · 스위스 커플 셀프 촬영",
+    "date": "2026-11-01",
+    "ko": null,
+    "caption": "대체 누가 너네를 촬영해 주는거야?!📽️\n라는 질문을 수 년 째 받고 있는데 저희 둘이서 셀프로 찍습니다!! \n둘이서 셀프로 담아 본 스위스에서의 우리⭐️\n\n📍🇨🇭스위스 Switzerland \n🎞️ shot on DJI Osmo Pocket 4P\n* 사용한 주요 기능\n-60mm F/1.8 중망원 포트레이트\n- 4K 240fps 슬로모션\n- D-Log2 컬러와 1인치 CMOS 센서\n#스위스여행 #DJIOsmoPocket4P",
+    "account": "seosum",
+    "source": "https://www.instagram.com/reel/DfMSdnksyjq/embed/captioned/",
+    "likes": 1793,
+    "comments": 73,
+    "views": 56156,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "sheet": "assets/DfMSdnksyjq/watch.webp",
+    "cover": "assets/DfMSdnksyjq/cover.webp",
+    "cv": {
+      "duration": 15.633333,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 16
+    }
+  },
+  {
+    "id": "DfeoJRPsNdR",
+    "title": "서숨 · 프렌치 폴리네시아",
+    "date": "2026-11-08",
+    "ko": null,
+    "caption": "저희 둘 꿈의 여행지에 드디어 왔습니다🥹🌺🏝️\n\n처음 만나면 다들 신혼여행 어디로 갈까? 그런 얘기 하잖아요?😉\n저희는 12년 전엔 더 이름도 생소한 보라보라 타히티로 정했었는데\n여행으로 먼저 오게 되었어요💗\n\n기대했던 것 그 이상의 진짜 미쳐버린(?) 휴양지 끝판왕 여행지라 \n앞으로 올릴 여행기 기대해 주세요..!! \n\n📍🇵🇫French Polynesia \n저희가 간 프렌티 폴리네시아는 보라보라, 무레아등등 \n태평양에 있는 섬 지역을 통칭하는 지리적 명칭입니다🌺",
+    "account": "seosum",
+    "source": "https://www.instagram.com/reel/DfeoJRPsNdR/embed/captioned/",
+    "likes": 3540,
+    "comments": 120,
+    "views": 249554,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "sheet": "assets/DfeoJRPsNdR/watch.webp",
+    "cover": "assets/DfeoJRPsNdR/cover.webp",
+    "cv": {
+      "duration": 9.5,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 8
+    }
+  },
+  {
+    "id": "DYM1yaJydjE",
+    "title": "Emily & Christian · 커플 일상 동작 비교",
+    "date": "2026-05-11",
+    "ko": "함께 나이 드는 것보다 함께 아이처럼 지낼 수 있는 사람을 만나는 것. 그 사람에게 보내세요.",
+    "caption": "It’s not about finding someone to grow old with, but to stay kids with 💌\n\nSend this to your person!! \n\n#couple #date #relatable #travel #kids",
+    "account": "emily.and.christian",
+    "source": "https://www.instagram.com/reel/DYM1yaJydjE/embed/captioned/",
+    "likes": 205632,
+    "comments": 205,
+    "views": 1214988,
+    "checked": "2026-11-24T14:15:08+09:00",
+    "note": "여행 순수풍경이 아닌 커플 연기 보조 사례.",
+    "sheet": "assets/DYM1yaJydjE/watch.webp",
+    "cover": "assets/DYM1yaJydjE/cover.webp",
+    "cv": {
+      "duration": 14.433333,
+      "resolution": [
+        720,
+        1280
+      ],
+      "fps": 30.0,
+      "cuts": 19
+    }
+  }
+]

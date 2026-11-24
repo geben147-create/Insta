@@ -1,0 +1,90 @@
+[
+  {
+    "time_s": 1.133333,
+    "nearest_0_1_s": 1.1,
+    "frame_index": 34,
+    "hist_bhattacharyya": 0.46771,
+    "gray_mad": 57.9134,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 2.2,
+    "nearest_0_1_s": 2.2,
+    "frame_index": 66,
+    "hist_bhattacharyya": 0.69757,
+    "gray_mad": 53.5313,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 3.866667,
+    "nearest_0_1_s": 3.9,
+    "frame_index": 116,
+    "hist_bhattacharyya": 0.82335,
+    "gray_mad": 56.7628,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 4.5,
+    "nearest_0_1_s": 4.5,
+    "frame_index": 135,
+    "hist_bhattacharyya": 0.60778,
+    "gray_mad": 61.6102,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 5.166667,
+    "nearest_0_1_s": 5.2,
+    "frame_index": 155,
+    "hist_bhattacharyya": 0.45987,
+    "gray_mad": 70.2266,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 6.2,
+    "nearest_0_1_s": 6.2,
+    "frame_index": 186,
+    "hist_bhattacharyya": 0.65389,
+    "gray_mad": 55.4885,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 7.266667,
+    "nearest_0_1_s": 7.3,
+    "frame_index": 218,
+    "hist_bhattacharyya": 0.64735,
+    "gray_mad": 63.3124,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 8.266667,
+    "nearest_0_1_s": 8.3,
+    "frame_index": 248,
+    "hist_bhattacharyya": 0.7618,
+    "gray_mad": 66.6869,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 8.933333,
+    "nearest_0_1_s": 8.9,
+    "frame_index": 268,
+    "hist_bhattacharyya": 0.55288,
+    "gray_mad": 61.4278,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 9.6,
+    "nearest_0_1_s": 9.6,
+    "frame_index": 288,
+    "hist_bhattacharyya": 0.6269,
+    "gray_mad": 55.8091,
+    "status": "automatic_candidate_unverified"
+  },
+  {
+    "time_s": 10.866667,
+    "nearest_0_1_s": 10.9,
+    "frame_index": 326,
+    "hist_bhattacharyya": 0.63711,
+    "gray_mad": 80.6986,
+    "status": "automatic_candidate_unverified"
+  }
+]

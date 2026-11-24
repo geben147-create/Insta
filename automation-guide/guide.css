@@ -1,0 +1,33 @@
+/* Styles scoped to the existing hub's guide. */
+#automation-guide{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--tx);line-height:1.65;overflow-wrap:anywhere}
+#automation-guide > summary{padding:9px 13px}
+#automation-guide > .ag-content{padding:clamp(12px,3vw,22px);border-top:1px solid var(--line)}
+#automation-guide .ag-entry-note{font-size:.8rem;color:var(--mut);font-weight:500;margin-inline-start:6px;white-space:nowrap}
+#automation-guide h3,#automation-guide h4{line-height:1.35;margin:0}
+#automation-guide p{margin:.45rem 0 .9rem}
+#automation-guide .ag-kicker{color:#ffb5c2;font-weight:700;font-size:.85rem;letter-spacing:.04em;margin:0 0 .35rem}
+#automation-guide .ag-menu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:1rem 0}
+#automation-guide .ag-menu a,#automation-guide button{box-sizing:border-box;display:flex;align-items:center;min-height:44px;padding:8px 12px;border:1px solid #48546e;border-radius:8px;background:#202838;color:#f5f7ff;font:inherit;font-weight:700;text-align:left}
+#automation-guide .ag-menu a{text-decoration:none}
+#automation-guide a:focus-visible,#automation-guide button:focus-visible,#automation-guide details>summary:focus-visible{outline:3px solid #ffc478;outline-offset:3px}
+#automation-guide a:hover,#automation-guide button:hover{border-color:#ffb5c2}
+#automation-guide details{margin:8px 0;border:1px solid var(--line);border-radius:8px;background:var(--bg);scroll-margin-top:12px}
+#automation-guide summary{display:list-item;cursor:pointer;min-height:44px;box-sizing:border-box;padding:11px 12px;font-weight:750}
+#automation-guide summary::marker{color:#ffb5c2}
+#automation-guide .ag-state{display:inline-block;color:#ffd693;font-size:.84rem;font-weight:650}
+#automation-guide .ag-body{border-top:1px solid var(--line);padding:clamp(12px,3vw,23px)}
+#automation-guide .ag-body a{color:#bcd5ff;text-underline-offset:.2em}
+#automation-guide figure{margin:12px 0 18px}
+#automation-guide figure img{max-width:100%;height:auto;display:block;border-radius:6px;background:#232936}
+#automation-guide figcaption{color:#acb7cc;font-size:.88rem;margin-top:7px}
+#automation-guide ol{padding-inline-start:1.45rem;margin:.5rem 0 1rem}
+#automation-guide li{margin:.25rem 0}
+#automation-guide .ag-body ol li::marker{font-weight:800;color:#ffb5c2}
+#automation-guide pre{white-space:pre-wrap;overflow-wrap:anywhere;margin:.55rem 0 .75rem;padding:12px;background:#1b2131;border:1px solid var(--line);border-radius:8px;line-height:1.6;font-size:.92rem}
+#automation-guide button{cursor:pointer;display:inline-flex}
+#automation-guide button[hidden]{display:none}
+#automation-guide .ag-copy-state{color:#cce9d7;display:inline-block;margin-inline-start:8px;font-size:.88rem}
+#automation-guide .ag-proof{border-top:1px solid var(--line);margin-top:1rem;padding-top:.85rem}
+@media(max-width:540px){#automation-guide .ag-menu{grid-template-columns:minmax(0,1fr)}#automation-guide .ag-state{display:block;margin-top:2px}}
+
+#automation-guide a.ag-open{display:inline-flex;align-items:center;min-height:44px;padding:0 10px;border:1px solid #48546e;border-radius:8px;margin:3px 4px 3px 0}

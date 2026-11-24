@@ -5,7 +5,7 @@ body{margin:0;background:var(--bg);color:var(--tx);font-family:"Pretendard","Mal
 .wrap{max-width:900px;margin:0 auto;padding:32px 16px}a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:14px;
 padding:18px;color:var(--tx);text-decoration:none;margin:12px 0;font-size:18px;font-weight:700}a.card:hover{border-color:var(--acc)}.mut{color:var(--mut)}.sec{margin:18px 0 8px;padding:12px 12px 4px;border-left:5px solid #ffd27e;background:#22313d;border-radius:13px}.sec.k{border-left-color:#4ade80;background:#1c2f2a}.sec.g{border-left-color:#8b93a7;background:#1b1f28}.sec h2{margin:0 0 4px;font-size:16px;color:#f3d997}.sec.k h2{color:#b9ffd9}.sec.g h2{color:#cfd6e4}.sec p{margin:2px 0 8px;font-size:12.5px;color:#9aa4b8}.sec a.card{font-size:15px;padding:13px 15px;margin:8px 0}.sec a.card small{display:block;font-weight:400;color:#9aa4b8;font-size:12.5px;margin-top:3px}.new{border-color:#ff4f8b!important;background:#33263a!important}
 .kukppong-entry nav{display:flex;flex-wrap:wrap;gap:8px}.kukppong-entry nav a{border-radius:5px;padding:7px 9px;background:#f9dfe9;color:#5b1634;font-weight:750;text-decoration:none}.kukppong-entry nav a:first-child,.kukppong-entry nav a:nth-child(2){background:#ffef77;color:#9f1426}.kukppong-entry nav a:hover{text-decoration:underline}
-</style></head>
+</style><link rel="stylesheet" href="automation-guide/guide.css"><script defer src="automation-guide/guide.js"></script></head>
 <body><div class="wrap">
 <section id="business-assets" aria-labelledby="business-assets-heading" style="background:#ffde62;color:#241b02;padding:20px;border-radius:14px;margin-bottom:20px">
 <h2 id="business-assets-heading" style="margin:0 0 8px;font-size:24px"><a style="color:inherit;text-decoration:none" href="business-assets/">💰 사업 자료 · 수익화 연구 허브 ↗</a></h2>
@@ -13,6 +13,107 @@ padding:18px;color:var(--tx);text-decoration:none;margin:12px 0;font-size:18px;f
 <a href="business-assets/" style="display:block;background:#241b02;color:#ffde62;padding:14px 16px;font-weight:800;font-size:18px;border-radius:10px;text-decoration:none;margin:0 0 12px">📂 사업 자료 서랍 전체 열기 ↗</a>
 <nav aria-label="사업 자료 분류" style="display:flex;flex-wrap:wrap;gap:8px"><a style="background:#fff4c4;color:#241b02;padding:8px 12px;border:1px solid #d8b644;border-radius:8px;font-weight:700;text-decoration:none" href="business-assets/charts.html">📈 대가·차트</a><a style="background:#fff4c4;color:#241b02;padding:8px 12px;border:1px solid #d8b644;border-radius:8px;font-weight:700;text-decoration:none" href="business-assets/gallery.html">사진 미리보기 ↗</a><a style="background:#fff4c4;color:#241b02;padding:8px 12px;border:1px solid #d8b644;border-radius:8px;font-weight:700;text-decoration:none" href="business-assets/#books">📚 전자책</a><a style="background:#fff4c4;color:#241b02;padding:8px 12px;border:1px solid #d8b644;border-radius:8px;font-weight:700;text-decoration:none" href="business-assets/#sites">🌐 홈페이지</a><a style="background:#fff4c4;color:#241b02;padding:8px 12px;border:1px solid #d8b644;border-radius:8px;font-weight:700;text-decoration:none" href="business-assets/#top">🏆 TOP 20</a><a style="background:#fff4c4;color:#241b02;padding:8px 12px;border:1px solid #d8b644;border-radius:8px;font-weight:700;text-decoration:none" href="business-assets/#google">📊 Google 자료</a></nav>
 </section><h1>인스타 × 해외반응 × 국뽕 통합 연구 허브</h1><p class="mut">크게 <b>인스타</b> · <b>국뽕·해외반응</b> · <b>기타(유튜브 분석)</b> 세 묶음입니다. 새 폴더가 올라오면 맨 아래 "분류 전"에 자동으로 나타납니다.</p>
+
+<details id="automation-guide">
+<summary id="automation-title">🌸 AI 자동화 사용 설명서 <span class="ag-entry-note">7개 메뉴</span></summary>
+<div class="ag-content">
+<p>자료조사부터 편집까지, 필요한 메뉴를 열어 작업하세요. 이 페이지는 <strong>공개 안내서</strong>이며 작업 실행·서버 접속·게시를 대신하지 않습니다.</p>
+<p>조사·대본 → 이미지·영상·음성 → 사람 편집·검수. 뷰트랩·픽셀링과 여행 자료는 소재를 찾을 때, Docker는 제작 PC가 응답하지 않을 때 보세요.</p>
+<nav class="ag-menu" aria-label="AI 자동화 사용 설명서 메뉴"><a href="#ag-n8n">① n8n 자료조사·대본 생성</a><a href="#ag-media">② 이미지·영상·TTS 생성</a><a href="#ag-humantouch">③ HumanTouch 영상 편집</a><a href="#ag-trend">④ 뷰트랩·픽셀링</a><a href="#ag-travel">⑤ 여행 쇼츠</a><a href="#ag-upload">⑥ 업로드·공개 전 확인</a><a href="#ag-docker">⑦ 서버·Docker 상태</a></nav>
+<p class="ag-kicker">확인 기준: 2026-11-25 KST · 페이지 응답과 실제 작업 성공을 구분합니다. 제작 PC 전용 링크는 비공개 안내에서 열고, 휴대폰에서 제작 PC의 로컬 주소를 그대로 열지 마세요.</p>
+<details id="ag-n8n">
+<summary>① n8n 자료조사·대본 생성 <span class="ag-state">오프라인 조사 실습 확인 · 운영 미확인</span></summary>
+<div class="ag-body">
+<h3>n8n 자료조사·대본 생성 · 하는 일</h3><p>공개 자료를 모아 출처 목록과 한국어 대본 초안을 만드는 단계입니다. 자동 게시와 분리합니다.</p>
+<h4>🌸 어디로 들어가는지</h4><p>제작 PC Chrome → 비공개 안내의 n8n 실습 주소 → 처음이면 Set up owner account. 화면의 빨간 표시는 첫 입력란입니다. 기존 운영 계정이나 API 자격증명을 사용하지 않습니다.</p>
+<figure><a href="automation-guide/n8n.png" target="_blank" rel="noopener"><img src="automation-guide/n8n.png" alt="n8n 자료조사·대본 생성: 빨간 표시가 있는 캡처를 새 탭에서 크게 보기" loading="lazy"></a><figcaption>제작 PC n8n 실습의 실제 초기 설정 캡처(빈 양식). Editor·Execute workflow 화면이 아닙니다.</figcaption></figure>
+<h4>1번 클릭 → 2번 입력 → 3번 실행</h4>
+<ol><li><strong>조사 실습:</strong> 초기 설정을 마친 뒤 Overview → Workflows → <code>OFFLINE DEMO - Radar low view cases</code> → Editor. 실습 입력은 미리 들어 있으므로 키나 외부 URL을 입력하지 않습니다.</li><li><strong>실행:</strong> Execute workflow → 마지막 <code>Compare RAW with separate Library gate</code> → Output → Table. RAW와 Library가 별도입니다. 예시 380조회는 RAW에 남고, Library는 조회수 자체가 아닌 샘플 점수로 구분합니다.</li><li><strong>번역·대본:</strong> 조사에서 고른 원문·URL·길이를 아래 프롬프트에 넣어 승인된 대본 편집 환경에 붙여넣고 실행합니다. 번역과 한국어 대본이 분리되고 URL이 남아야 합니다. 이 실습은 번역·대본 자동화가 아닙니다.</li></ol>
+<h4>정상 작동 시 보이는 결과</h4><p>실습은 마지막 노드의 RAW/Library 판단 표가 결과입니다. 대본은 선택한 원문별 출처와 초안이 있어야 완료이며, 실행 성공 표시만으로 대본이 완성된 것은 아닙니다.</p>
+<h4>실패하면 무엇을 확인하는지</h4><p>편집기가 안 열리면 Docker 상태를 먼저 봅니다. 노드가 실패하면 첫 실패 노드의 입력, 연결 상태, 호출 한도, 결과 컬럼을 확인하세요. 인증 값은 자격증명 화면 밖으로 복사하지 않습니다.</p>
+<div class="ag-prompt"><h4>복사 가능한 프롬프트</h4><pre tabindex="0"><code>주제: [주제]
+조사 범위: [기간·지역], 확인할 링크: [공개 URL]
+공개 출처별 매체·기사명·날짜·URL·확인 사실을 표로 정리해 줘. 사실과 해석을 나누고 확인되지 않은 내용은 미확인으로 남겨. 근거가 있는 내용만으로 [길이] 한국어 구어체 대본과 첫 3초 훅 2안을 만들어. 게시하거나 원본을 수정하지 마.</code></pre><button class="ag-copy" type="button" hidden aria-label="n8n 자료조사·대본 생성 프롬프트 복사">프롬프트 복사</button><span class="ag-copy-state" role="status"></span></div>
+<div class="ag-proof"><h4>실제 확인한 링크·실행 상태</h4><p>실습용 n8n 초기 화면은 제작 PC에서 열렸습니다. 샘플 결과는 별도 Docker 실행 기록으로 확인했습니다. 운영 워크플로, 계정 설정 이후 Editor, 운영 번역·대본 실행은 이번에 검증하지 않았습니다.</p><p><a class="ag-open" href="https://geben147-create.github.io/Insta/ai-influencer-krjp/dev/">기존 개발 가이드 바로 열기</a> (운영 실행 주소 아님)</p></div>
+</div></details>
+<details id="ag-media">
+<summary>② 이미지·영상·TTS 생성 <span class="ag-state">공식 가이드 확인 · 신규 생성 미실행</span></summary>
+<div class="ag-body">
+<h3>이미지·영상·TTS 생성 · 하는 일</h3><p>확정 대본을 PNG 이미지, MP4 장면, WAV 나레이션으로 나눕니다. 실제 WAV 길이를 기준으로 컷과 SRT를 맞춥니다.</p>
+<h4>🌸 어디로 들어가는지</h4><p>제작 PC → ComfyUI의 승인된 이미지·영상 워크플로 <a href="https://docs.comfy.org/interface/overview" aria-label="ComfyUI 공식 인터페이스">[3] ComfyUI 안내 바로 열기</a>. 음성은 로컬 Qwen3-TTS 등 승인된 별도 실행 환경 <a href="https://github.com/QwenLM/Qwen3-TTS" aria-label="Qwen3-TTS 공식 저장소">[4] Qwen3-TTS 안내 바로 열기</a>에서 만듭니다. 공개 페이지에는 내부 접속 정보가 없습니다.</p>
+<figure><a href="automation-guide/media.png" target="_blank" rel="noopener"><img src="automation-guide/media.png" alt="이미지·영상·TTS 생성: 빨간 표시가 있는 캡처를 새 탭에서 크게 보기" loading="lazy"></a><figcaption>공개 참고 화면: ComfyUI 공식 인터페이스 안내. 제작 PC의 실행 화면이 아닙니다. 이미지를 누르면 크게 볼 수 있습니다.</figcaption></figure>
+<h4>1번 클릭 → 2번 입력 → 3번 실행</h4>
+<ol><li><strong>이미지:</strong> 제작 PC ComfyUI → Z-Image용 UI 그래프 → CLIPTextEncode에 장면 문장 입력 → 한 장만 Run → SaveImage의 PNG 확인. 저장된 API 형식 JSON이 UI에서 바로 열리는지는 미검증입니다.</li><li><strong>영상:</strong> MiniMax H3는 호스트 브라우저용 Run 메뉴가 없습니다. 기존 승인 실행기 → 승인 범위의 장면 프롬프트·시작 이미지 → 격리 API → MP4 검수. 기존 MP4는 파일 앱에서 재생할 수 있지만 새 렌더는 별개입니다.</li><li><strong>TTS:</strong> 승인된 Qwen3-TTS CustomVoice 데모 → Text에 한국어 한 문장 → Language: Korean → Speaker: Sohee → Generate → Output Audio 재생 및 Status 확인. n8n 자동 연결은 미확인입니다.</li></ol>
+<h4>정상 작동 시 보이는 결과</h4><p>PNG를 열고, MP4에 영상이 재생되는지 확인하고, WAV 길이와 발음을 듣습니다. 첫 장면의 WAV 길이와 SRT 구간을 비교합니다.</p>
+<h4>실패하면 무엇을 확인하는지</h4><p>ComfyUI가 응답하지 않으면 해당 서비스 상태, 모델·노드 누락, GPU 메모리를 확인합니다. TTS는 모델과 실행 환경을 구분해 확인하고, 파일이 나와도 숫자 누락은 직접 듣습니다. 기존 작업을 강제 종료하지 않습니다.</p>
+<div class="ag-prompt"><h4>복사 가능한 프롬프트</h4><pre tabindex="0"><code>확정 대본: [대본]
+첫 장면만 작업한다. 9:16 이미지 프롬프트(텍스트·로고 없음), 시작 이미지 기반 짧은 영상 프롬프트(카메라 동작 1개), 한국어 TTS용 문장(숫자·단위 읽기 표기), SRT 초안을 분리해 줘. 실제 WAV를 받은 뒤 길이와 자막 타임코드를 맞추고, 새 파일로 저장해. 생성하지 않은 산출물은 미생성으로 표시해.</code></pre><button class="ag-copy" type="button" hidden aria-label="이미지·영상·TTS 생성 프롬프트 복사">프롬프트 복사</button><span class="ag-copy-state" role="status"></span></div>
+<div class="ag-proof"><h4>실제 확인한 링크·실행 상태</h4><p>제작 PC의 ComfyUI와 Qwen3-TTS 웹 포트는 응답하지 않았습니다. 기존 PNG·MP4·WAV 확인은 새 생성 성공이 아닙니다. MiniMax H3의 컨테이너 내부 주소를 브라우저용 링크로 제공하지 않습니다.</p><p><a href="https://docs.comfy.org/interface/overview">[3] ComfyUI 공식 인터페이스</a> · <a href="https://github.com/QwenLM/Qwen3-TTS">[4] Qwen3-TTS 공식 저장소</a></p></div>
+</div></details>
+<details id="ag-humantouch">
+<summary>③ HumanTouch 영상 편집 <span class="ag-state">과거 캡처 · 현재 편집기 접속 안 됨</span></summary>
+<div class="ag-body">
+<h3>HumanTouch 영상 편집 · 하는 일</h3><p>기존 EP06 편집실에서 자막을 고치고 원본/수정안을 비교합니다. 조사·초벌 합성은 n8n, 문구·컷 결정과 최종 검수는 HumanTouch로 나눕니다. 두 서비스 간 직접 호출은 확인되지 않아 파일을 수동으로 넘기는 기준입니다.</p>
+<h4>🌸 어디로 들어가는지</h4><p>제작 PC → 이미 사용 중인 HumanTouch Studio → EP06 자막 편집실. 실행이 필요하면 기존 로컬 RUN_V2 안내를 사용합니다. P1A와 v2 설계서는 같은 완료 상태가 아닙니다.</p>
+<figure><a href="automation-guide/humantouch.png" target="_blank" rel="noopener"><img src="automation-guide/humantouch.png" alt="HumanTouch 영상 편집: 빨간 표시가 있는 캡처를 새 탭에서 크게 보기" loading="lazy"></a><figcaption>과거 실제 로컬 Studio 컨트롤 캡처. 프로젝트 내용과 입력값은 제외했습니다. 이미지를 누르면 크게 볼 수 있습니다.</figcaption></figure>
+<h4>1번 클릭 → 2번 입력 → 3번 실행</h4>
+<ol><li>클릭: 타임라인의 수정할 자막을 고릅니다.</li><li>입력: 현재 구간 문구를 수정하고 변경 적용을 누른 뒤, 원본/수정안으로 재생을 비교합니다.</li><li>실행: 승인한 자막은 작업본 저장으로 별도 버전 생성 여부를 확인합니다. 반입용 파일이 필요하면 SRT 다운로드와 스타일 JSON을 각각 사용합니다.</li></ol>
+<h4>정상 작동 시 보이는 결과</h4><p>미리보기에서 수정안이 보이고, 서버 저장 후 새 버전 ID와 SRT·스타일 정보가 생겨야 합니다. 다른 작업에서 자막을 이어 보려면 SRT와 스타일 JSON을 골라 두 파일 복원을 사용합니다. 컷 결정 JSON이나 미리보기만 있으면 최종 MP4 완료가 아닙니다.</p>
+<h4>실패하면 무엇을 확인하는지</h4><p>작업본 저장 버튼이 비활성이라면 로컬 서버로 열었는지 확인하세요. 영상 미응답은 기존 볼륨 연결과 매니페스트·원본 영상부터 확인합니다. 원본 대신 새 리비전을 남기고 편집 전후를 비교합니다.</p>
+<div class="ag-prompt"><h4>복사 가능한 프롬프트</h4><pre tabindex="0"><code>이 영상의 수정 후보를 타임코드 | 원문 | 수정안 | 변경 이유로 정리해 줘. 말뜻을 바꾸지 말고 불확실한 청취는 표시해. 컷 삭제는 후보로만 제안하고, 창작자 확인 전 삭제·렌더·게시하지 마. 승인된 수정만 새 SRT와 스타일 파일로 분리해 줘.</code></pre><button class="ag-copy" type="button" hidden aria-label="HumanTouch 영상 편집 프롬프트 복사">프롬프트 복사</button><span class="ag-copy-state" role="status"></span></div>
+<div class="ag-proof"><h4>실제 확인한 링크·실행 상태</h4><p>과거 검수에서는 편집 페이지 200·영상 범위 읽기 206이었으나 현재 제작 PC의 기존 편집 주소는 연결 거부입니다. 오늘 편집·저장·렌더는 실행하지 않았고, n8n과 직접 연동된 것으로 보지 않습니다.</p></div>
+</div></details>
+<details id="ag-trend">
+<summary>④ 뷰트랩·픽셀링 <span class="ag-state">공개 진입 확인 · 로그인 이후 미확인</span></summary>
+<div class="ag-body">
+<h3>뷰트랩·픽셀링 · 하는 일</h3><p>키워드별 영상과 채널을 비교해 소재 후보를 고릅니다. 두 도구의 수치는 정의가 다를 수 있으므로 따로 기록합니다.</p>
+<h4>🌸 어디로 들어가는지</h4><p>외부 서비스: PC Chrome에서 뷰트랩 <a href="https://app.viewtrap.com/home" aria-label="뷰트랩 웹 앱">[5]</a> → 영상 찾기 또는 채널 찾기. 픽셀링 <a href="https://app.pixeling.io/" aria-label="픽셀링 웹 앱">[6]</a> → 워크스페이스. 기존 로컬 작업본: 뷰트랩은 영상 찾기 → 필터 → 표 보기, 픽셀링은 트렌딩 채널 → 트렌딩 카테고리 → 급상승 리스트업을 확인합니다. 로컬 실행 주소는 별도 안내에서 확인하세요.</p>
+<figure><a href="automation-guide/trend.png" target="_blank" rel="noopener"><img src="automation-guide/trend.png" alt="뷰트랩·픽셀링: 빨간 표시가 있는 캡처를 새 탭에서 크게 보기" loading="lazy"></a><figcaption>기존 로컬 작업본의 검수 캡처입니다. 뷰트랩은 저장 스냅샷, 픽셀링은 데모 화면입니다. 상용 서비스 로그인 화면과 다릅니다. 이미지를 누르면 크게 볼 수 있습니다.</figcaption></figure>
+<h4>1번 클릭 → 2번 입력 → 3번 실행</h4>
+<ol><li>클릭: 뷰트랩의 영상 찾기를 열거나 픽셀링의 트렌드 작업 화면을 엽니다.</li><li>입력: 같은 키워드와 지역·기간을 선택합니다. 옵션이 없다면 해당 조건은 미지원 또는 미확인으로 기록합니다.</li><li>실행: 검색/필터를 적용해 영상 URL, 업로드일, 조회수, 확인 시각을 기록합니다. 대본·썸네일은 복제하지 않고 차별화 단서만 가져옵니다.</li></ol>
+<h4>정상 작동 시 보이는 결과</h4><p>검색 결과와 적용 필터가 보이고, 확인 시각과 단위가 있는 후보표가 나옵니다. 도구 수치와 공개 영상에서 직접 확인한 수치를 구분합니다.</p>
+<h4>실패하면 무엇을 확인하는지</h4><p>비어 있으면 로그인 상태, 플랜 제한, 검색어 표기, 지역·기간 조건을 확인하세요. 빈 칸은 0으로 바꾸지 말고, 사이트가 열려도 자동 연결 성공으로 판단하지 않습니다.</p>
+<div class="ag-prompt"><h4>복사 가능한 프롬프트</h4><pre tabindex="0"><code>키워드 [키워드], 지역 [지역], 기간 [기간]에 대해 내가 제공한 영상 데이터를 비교해 줘. URL·게시일·조회수·측정시각·관찰된 훅·독자적인 주제 아이디어를 표로 써. 플랫폼 추정치와 실측을 분리하고 누락은 미확인으로 표시해.</code></pre><button class="ag-copy" type="button" hidden aria-label="뷰트랩·픽셀링 프롬프트 복사">프롬프트 복사</button><span class="ag-copy-state" role="status"></span></div>
+<div class="ag-proof"><h4>실제 확인한 링크·실행 상태</h4><p>공개 웹 앱 두 곳의 진입을 확인했습니다. 별도 재가동 조사에서 로컬 뷰트랩 작업본의 저장 스냅샷 보기·필터와 로컬 픽셀링의 복제 DB 조회를 확인한 뒤 시험 서버를 종료했습니다. 스냅샷 조회는 최신 데이터 수집이 아닙니다. 실계정 로그인·결제·n8n 자동 연결은 검증하지 않았습니다.</p><p><a href="https://app.viewtrap.com/home">[5] 뷰트랩 웹 앱</a> · <a href="https://app.pixeling.io/">[6] 픽셀링 웹 앱</a></p></div>
+</div></details>
+<details id="ag-travel">
+<summary>⑤ 여행 쇼츠 <span class="ag-state">기존 라이브러리·샘플 파일 확인</span></summary>
+<div class="ag-body">
+<h3>여행 쇼츠 · 하는 일</h3><p>기존 여행 라이브러리에서 세로 영상 레퍼런스를 고르고, 장소 정보와 AI 연출을 구분해 새 쇼츠를 기획합니다.</p>
+<h4>🌸 어디로 들어가는지</h4><p>기존 Insta → 여행 영상과 호텔 예약 링크 <a href="https://geben147-create.github.io/Insta/ai-influencer-krjp/trip-travel-library/" aria-label="기존 여행 라이브러리">[7]</a>. 별도 여행 대시보드를 만들지 않았습니다.</p>
+<figure><a href="automation-guide/travel.png" target="_blank" rel="noopener"><img src="automation-guide/travel.png" alt="여행 쇼츠: 빨간 표시가 있는 캡처를 새 탭에서 크게 보기" loading="lazy"></a><figcaption>기존 여행 라이브러리 실제 화면. 빨간 표시는 지역·종류 필터입니다. 이미지를 누르면 크게 볼 수 있습니다.</figcaption></figure>
+<h4>1번 클릭 → 2번 입력 → 3번 실행</h4>
+<ol><li>클릭: 여행 라이브러리를 열고 지역 및 영상 필터를 찾습니다.</li><li>입력: 예를 들어 유럽과 풍경 영상을 선택합니다. AI 장면과 실제 촬영 구분, 파일 사용 조건을 확인합니다.</li><li>실행: 카드에서 재생하거나 MP4 저장을 눌러 레퍼런스를 확인합니다. 아래 프롬프트로 장면표를 만든 뒤 ②에서 테스트 장면만 생성합니다.</li></ol>
+<h4>정상 작동 시 보이는 결과</h4><p>선택한 조건의 카드가 보이고 MP4를 확인할 수 있습니다. 생성한 쇼츠는 9:16 재생, 한글 자막, 출처·AI 고지를 검수한 영상만 납품합니다.</p>
+<h4>실패하면 무엇을 확인하는지</h4><p>카드가 없으면 지역·형식 조건을 하나씩 풀어 보세요. 미디어가 안 열리면 브라우저와 카드의 MP4 링크를 확인합니다. 라이브러리 예약 링크와 검증된 제휴 추적을 혼동하지 않습니다.</p>
+<div class="ag-prompt"><h4>복사 가능한 프롬프트</h4><pre tabindex="0"><code>장소 [지역·장소], 톤 [톤], 길이 [초]. 9:16 여행 쇼츠의 3초 훅, 컷별 길이·화면·한국어 나레이션·자막·환경음·출처 표를 만들어 줘. 실제 촬영과 AI 연출을 구분하고, 미확인 가격·영업시간·제휴 주장은 쓰지 마. 타인 영상이나 음악은 허가 없이 재사용하지 마.</code></pre><button class="ag-copy" type="button" hidden aria-label="여행 쇼츠 프롬프트 복사">프롬프트 복사</button><span class="ag-copy-state" role="status"></span></div>
+<div class="ag-proof"><h4>실제 확인한 링크·실행 상태</h4><p>기존 라이브러리 HTTP 200과 베네치아 샘플 MP4 범위 응답 HTTP 206을 확인했습니다. 새 쇼츠 생성·게시나 예약 링크의 제휴 추적은 확인하지 않았습니다.</p><p><a href="https://geben147-create.github.io/Insta/ai-influencer-krjp/trip-travel-library/">[7] 기존 여행 라이브러리</a></p></div>
+</div></details>
+<details id="ag-upload"><summary>⑥ 업로드·공개 전 확인 <span class="ag-state">로그인 전까지만 확인 · 업로드 안 함</span></summary><div class="ag-body">
+<h3>YouTube 업로드 — 최종 MP4 검수와 공개를 분리</h3><p><a class="ag-open" href="https://studio.youtube.com/" target="_blank" rel="noopener noreferrer">▶ YouTube Studio 바로 열기</a> · <a href="https://support.google.com/youtube/answer/57407?hl=ko" target="_blank" rel="noopener noreferrer">공식 업로드 도움말</a></p>
+<figure><a href="automation-guide/upload-help.png"><img src="automation-guide/upload-help.png" alt="YouTube 공식 도움말의 만들기·동영상 업로드 안내에 빨간 표시" loading="lazy"></a><figcaption>공식 도움말 캡처입니다. 로그인된 Studio 화면은 아닙니다.</figcaption></figure>
+<ol><li><strong>이동·클릭:</strong> 제작 PC → 본인 채널의 YouTube Studio → 우측 상단 <strong>만들기 → 동영상 업로드 → 파일 선택</strong>.</li><li><strong>입력:</strong> 승인된 최종 MP4, 제목·설명, 시청자층, 필요한 고지와 권리 확인 내용을 입력합니다.</li><li><strong>실행:</strong> 세부정보 → 확인 단계에서 제한사항을 읽고 공개 상태에서 <strong>비공개</strong>를 선택합니다. 실제 파일 전송·저장·예약은 별도 승인 뒤에만 합니다.</li><li><strong>정상 결과:</strong> 콘텐츠 목록에서 해당 파일의 처리 완료, 재생 및 공개 상태가 의도한 것과 일치하는지 확인합니다. n8n 실행 성공 표시를 게시 성공으로 보지 않습니다.</li></ol>
+<div class="ag-prompt"><h4>업로드 검수 프롬프트</h4><pre tabindex="0"><code>제공한 최종 MP4 정보와 대본만 보고 제목 3개, 설명 초안, 출처·저작권·광고·AI 고지 확인표를 작성해 줘. 모르는 값은 미확인으로 남겨. 업로드·예약·공개는 하지 마.</code></pre><button class="ag-copy" type="button" hidden aria-label="업로드 검수 프롬프트 복사">프롬프트 복사</button><span class="ag-copy-state" role="status"></span></div>
+<p>제작 PC에서 Studio 링크가 로그인으로 연결되는 것을 확인했습니다. 로그인 후 버튼 캡처·업로드·게시 검증은 하지 않았습니다.</p></div></details>
+<details id="ag-docker">
+<summary>⑦ 서버·Docker 상태 <span class="ag-state">Engine·Portainer 접속 확인 · 쓰기 안 함</span></summary>
+<div class="ag-body">
+<h3>서버·Docker 상태 · 하는 일</h3><p>Docker Engine 동작과 컨테이너 실행 상태를 나눠 확인합니다. 이 페이지는 실시간 상태판이 아니며, 서비스 시작·재시작을 하지 않습니다.</p>
+<h4>🌸 어디로 들어가는지</h4><p>제작 Ubuntu PC → 앱 메뉴에서 터미널 검색 또는 Ctrl+Alt+T. Docker Engine 아이콘은 상태를 출력하지 서버를 켜지 않습니다. 컨테이너 화면을 보려면 제작 PC의 비공개 안내에서 Portainer를 열고, 설정·로그인 이후 Environments → local → Containers로 이동합니다. 이번에는 첫 화면과 상태 API만 확인했습니다.</p>
+<figure><a href="automation-guide/portainer.png"><img src="automation-guide/portainer.png" alt="제작 PC Portainer의 첫 화면 입력 위치" loading="lazy"></a><figcaption>제작 PC의 실제 Portainer 진입 화면(빈 양식). 관리 화면 진입과 설정 저장은 별도입니다.</figcaption></figure><figure><a href="automation-guide/docker.png" target="_blank" rel="noopener"><img src="automation-guide/docker.png" alt="서버·Docker 상태: 빨간 표시가 있는 캡처를 새 탭에서 크게 보기" loading="lazy"></a><figcaption>이전 스냅샷: 제작 PC에서 직접 실행한 명령 결과 중 공개 가능한 줄만 담았습니다. 이미지를 누르면 크게 볼 수 있습니다.</figcaption></figure>
+<h4>1번 클릭 → 2번 입력 → 3번 실행</h4>
+<ol><li>클릭: Ubuntu 터미널을 엽니다.</li><li>입력: 아래 읽기 전용 명령을 한 줄씩 붙여넣습니다.</li><li>실행: Enter를 누르고 데몬 응답과 실행 컨테이너 목록을 따로 읽습니다. 작업 중 서비스를 시작하거나 중지하지 않습니다.</li></ol><h4>읽기 전용 명령 · 한 줄씩 실행</h4><pre><code>docker version --format '{{.Server.Version}}'
+docker compose version
+docker ps
+docker ps -a</code></pre>
+<h4>정상 작동 시 보이는 결과</h4><p>Engine 버전과 Compose 버전이 표시됩니다. 컨테이너 목록이 비어 있어도 명령이 정상 종료됐다면 Engine은 응답한 것입니다. 이때는 실행 중 컨테이너가 없다는 뜻입니다. <a href="https://docs.docker.com/reference/cli/docker/container/ls/" aria-label="Docker 컨테이너 조회 명령">[8]</a></p>
+<h4>실패하면 무엇을 확인하는지</h4><p>Cannot connect 또는 permission denied라면 Docker context, 데몬 상태, 본인 접근 권한을 확인하세요. 실행 목록이 비어 있으면 docker ps -a로 종료·생성 상태까지 확인할 수 있습니다. 권한 변경이나 재시작은 이 절차에 포함하지 않습니다.</p>
+<div class="ag-prompt"><h4>복사 가능한 프롬프트</h4><pre tabindex="0"><code>내가 제공한 Docker Engine/Compose 버전과 컨테이너 상태만 읽기 전용으로 진단해 줘. 데몬 정상과 컨테이너 실행 여부를 구분하고, 막힌 경우 안전한 확인 명령만 제안해. 비밀번호·API 키·내부 주소·전체 로그는 요구하지 말고 서비스는 시작·중지·재시작하지 마.</code></pre><button class="ag-copy" type="button" hidden aria-label="서버·Docker 상태 프롬프트 복사">프롬프트 복사</button><span class="ag-copy-state" role="status"></span></div>
+<div class="ag-proof"><h4>실제 확인한 링크·실행 상태</h4><p>제작 PC에서 Docker Engine 29.10.0, Compose v5.8.0, 데몬 active 상태와 실습 n8n·Portainer 실행을 확인했습니다. 이 스냅샷은 별도 서버나 재부팅 후 상태를 보장하지 않습니다.</p><p><a href="https://docs.docker.com/reference/cli/docker/container/ls/">[8] Docker 컨테이너 조회 명령</a></p></div>
+</div></details>
+</div>
+</details>
+
 <section class="sec k kukppong-entry" id="kukppong-unified" aria-label="국뽕 제작 자료">
 <h2>국뽕 리서치 · 통합 바로가기</h2>
 <p>아웃라인, 제목·썸네일, 대본, 2배속 MP3를 왼쪽 메뉴 하나에서 엽니다.</p>

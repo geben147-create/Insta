@@ -6,7 +6,7 @@ window.BROADCAST_PRESETS=[
     "kind": "VS / 비교",
     "original": "가다랑어포 육수 VS 쌀뜨물",
     "ratio": "16:9",
-    "notes": "가다랑어포 검정 다각형 라벨(흰 글씨), 육수 흰색 금속 횡선·검정 테두리, 쌀뜨물 검정 금속 횡선·흰 외곽, VS 세리프 느낌의 빨강 그라데이션·흰 광택·검정 안쪽 선. 화면 중앙 불규칙 수직 마그마, 노란 중심·주황 가장자리·붉은 아우라. 자막은 영상 높이 약 75~89%. 원본의 VS와 한글 폰트 정확한 이름 미확인.",
+    "notes": "가다랑어포 검정 다각형 라벨(흰 글씨), 육수 흰색 금속 횡선·검정 테두리, 쌀뜨물 검정 금속 횡선·흰 외곽, VS 세리프 느낌의 빨강 그라데이션·흰 광택·검정 안쪽 선. 화면 중앙 불규칙 수직 마그마, 노란 중심·주황 가장자리·붉은 아우라. 자막은 영상 높이 약 75~89%. 원본의 VS와 한글 폰트 정확한 이름 미확인. 제공한 마그마 PNG를 우선 사용. 실제 투명 PNG에 중심부와 아우라가 이미 들어 있어 별도 SVG를 자동 합성하지 않습니다.",
     "candidates": [
       "ref-106",
       "ref-738",
@@ -48,29 +48,17 @@ window.BROADCAST_PRESETS=[
     "layers": [
       {
         "type": "asset",
-        "name": "붉은 아우라 (독립 조절)",
-        "asset": "red-aura.svg",
+        "name": "사용자 PNG · 마그마+붉은 아우라",
+        "asset": "user:magma",
         "x": 960,
         "y": 540,
-        "w": 340,
-        "h": 1080,
-        "angle": 0,
-        "opacity": 85,
-        "visible": true,
-        "flip": false
-      },
-      {
-        "type": "asset",
-        "name": "마그마 균열·노란 중심",
-        "asset": "magma-crack.svg",
-        "x": 960,
-        "y": 540,
-        "w": 235,
+        "w": 360,
         "h": 1080,
         "angle": 0,
         "opacity": 100,
         "visible": true,
-        "flip": false
+        "flip": false,
+        "required": true
       },
       {
         "type": "text",
@@ -878,7 +866,7 @@ window.BROADCAST_PRESETS=[
     "kind": "분노 / 썸네일",
     "original": "하루도 못 살아!!! / (답답) / (꿋꿋) / 돈에만 관심 있구나~ / 무지하구나~ / 그럴 수 있지 않나~ / 서장훈 속 뒤집네",
     "ratio": "16:9",
-    "notes": "왼쪽 인물 뒤에 커다란 붉은·주황 불꽃, 오른쪽 인물 영역은 보존. 상단 분홍→빨강 굵은 글자, 작은 감정 괄호 2개, 중간 검정 사각 대사 박스 3개가 서로 다른 각도. 하단 흰색+빨강 자유 붓글씨, 빨간 부분의 붉은 그림자. 정확한 서체 미확인; 수작업 레터링 가능.",
+    "notes": "왼쪽 인물 뒤에 커다란 붉은·주황 불꽃, 오른쪽 인물 영역은 보존. 상단 분홍→빨강 굵은 글자, 작은 감정 괄호 2개, 중간 검정 사각 대사 박스 3개가 서로 다른 각도. 하단 흰색+빨강 자유 붓글씨, 빨간 부분의 붉은 그림자. 정확한 서체 미확인; 수작업 레터링 가능. 실제 불꽃 아치 PNG 우선. 인물 누끼 레이어를 불꽃 앞에 놓아 얼굴을 보존합니다.",
     "candidates": [
       "ref-374",
       "ref-68",
@@ -915,16 +903,17 @@ window.BROADCAST_PRESETS=[
     "layers": [
       {
         "type": "asset",
-        "name": "왼쪽 배경 불꽃",
-        "asset": "fire-background.svg",
-        "x": 440,
-        "y": 480,
-        "w": 940,
-        "h": 940,
+        "name": "사용자 PNG · 인물 뒤 불꽃",
+        "asset": "user:fire_arch",
+        "x": 445,
+        "y": 485,
+        "w": 910,
+        "h": 835,
         "angle": 0,
         "opacity": 100,
         "visible": true,
-        "flip": false
+        "flip": false,
+        "required": true
       },
       {
         "type": "text",
@@ -1359,7 +1348,7 @@ window.BROADCAST_PRESETS=[
     "ratio": "16:9",
     "ref": "../../../broadcast-design-system-20261120/assets/D15.jpg",
     "refNote": "기존 D15 유사 질감 참고 (이번 사진과 동일 파일 아님)",
-    "notes": "노란 대형 글씨가 화면 가로 약 75%, 높이 약 38%. 글자 아래쪽에 어두운 마모가 더 조밀하며 위쪽에도 작은 인쇄 반점. 거친 종이 재질/스크린 프린트 디스트레스드 마스크, 글씨 자체는 선명; 전역 블러 금지. 캡처에서는 한 줄 대형 제목의 한글 받침 부분이 아래에 분리되어 보임.",
+    "notes": "노란 대형 글씨가 화면 가로 약 75%, 높이 약 38%. 글자 아래쪽에 어두운 마모가 더 조밀하며 위쪽에도 작은 인쇄 반점. 거친 종이 재질/스크린 프린트 디스트레스드 마스크, 글씨 자체는 선명; 전역 블러 금지. 캡처에서는 한 줄 대형 제목의 한글 받침 부분이 아래에 분리되어 보임. 추가 주석 이미지 02: 기준선 하단 5%, 텍스트 바깥 여백 33%라는 표시가 있으나 정의가 불명확하므로 원본 화면 비율과 함께 참고. 자간과 행간은 조절하고 글자 자체는 선명하게 유지.",
     "candidates": [
       "ref-106",
       "ref-738",
@@ -1417,7 +1406,7 @@ window.BROADCAST_PRESETS=[
     "kind": "감정 / 인용",
     "original": "형이 그날 그걸 피웠어요",
     "ratio": "16:9",
-    "notes": "하단 글씨 뒤에 높이가 서로 다른 8~10개의 납작한 불꽃을 가로로 배치. 바깥 주홍, 중간 주황, 중심 노랑. 아래는 부드럽게 사라지는 황금빛. 검정 붓글씨에 가는 노란 외곽선; 글씨가 불꽃보다 앞 레이어.",
+    "notes": "하단 글씨 뒤에 높이가 서로 다른 8~10개의 납작한 불꽃을 가로로 배치. 바깥 주홍, 중간 주황, 중심 노랑. 아래는 부드럽게 사라지는 황금빛. 검정 붓글씨에 가는 노란 외곽선; 글씨가 불꽃보다 앞 레이어. 사용자 가로 불꽃 PNG를 기본 적용합니다. 원본 방송의 납작한 만화 불꽃과 사용자 PNG의 사실적 질감은 구분합니다. 하단 안전여백 약 6%, 글자 위로 불꽃이 올라오도록 조정.",
     "candidates": [
       "ref-374",
       "ref-Nanum+Brush+Script",
@@ -1452,16 +1441,17 @@ window.BROADCAST_PRESETS=[
     "layers": [
       {
         "type": "asset",
-        "name": "자막 전용 불꽃",
-        "asset": "fire-caption.svg",
+        "name": "사용자 PNG · 가로 하단 불꽃",
+        "asset": "user:fire_bottom",
         "x": 960,
-        "y": 840,
+        "y": 832,
         "w": 1540,
-        "h": 390,
+        "h": 513,
         "angle": 0,
         "opacity": 100,
         "visible": true,
-        "flip": false
+        "flip": false,
+        "required": true
       },
       {
         "type": "text",
@@ -1491,6 +1481,466 @@ window.BROADCAST_PRESETS=[
       }
     ],
     "prompt": "Wide transparent overlay of 8 to 10 separate uneven flat graphic flame tongues, orange-red outer flame, golden yellow inner flame, soft golden fade at baseline, designed directly behind Korean caption text, no text, no people, no background."
+  },
+  {
+    "id": "B11",
+    "file": "B11-reference.jpg",
+    "title": "💬 교차 댓글 카드 · Cross comments",
+    "kind": "실제 댓글 / 해외반응",
+    "original": "제가 입은 옷이나 신발이나",
+    "ratio": "16:9",
+    "notes": "제공된 03번 주석 화면: 실제 댓글 카드 3장이 어긋나 겹치며 좌우로 퍼집니다. 각 카드 기울기 ±3°, 서로 겹치기, 하단 여백 약 5%. 흰색 댓글 원본·프로필 원형·본문·좋아요 영역을 유지. 캡처의 작은 댓글 문장은 판독 불가하므로 복제하지 않습니다. 실제 댓글 캡처를 각 사진 레이어에 삽입하고 원문과 번역을 검증한 뒤 사용. 아래 예시의 흰 박스는 위치 가이드이지 가짜 댓글이 아닙니다.",
+    "candidates": [
+      "ref-366",
+      "ref-738",
+      "system-ui"
+    ],
+    "palette": [
+      [
+        "카드",
+        "#FFFEFC"
+      ],
+      [
+        "본문",
+        "#333333"
+      ],
+      [
+        "회색",
+        "#777777"
+      ],
+      [
+        "외곽",
+        "#DAD6D4"
+      ],
+      [
+        "자막",
+        "#FFFFFF"
+      ]
+    ],
+    "layers": [
+      {
+        "type": "shape",
+        "name": "왼쪽 카드 바탕",
+        "x": 500,
+        "y": 862,
+        "w": 850,
+        "h": 230,
+        "color": "#FFFEFC",
+        "second": "#FFFEFC",
+        "opacity": 100,
+        "angle": -3,
+        "visible": true,
+        "radius": 5,
+        "previewOnly": true
+      },
+      {
+        "type": "photo",
+        "name": "실제 왼쪽 댓글 캡처",
+        "x": 500,
+        "y": 862,
+        "w": 850,
+        "h": 230,
+        "angle": -3,
+        "opacity": 100,
+        "visible": true,
+        "flip": false,
+        "required": true
+      },
+      {
+        "type": "shape",
+        "name": "위쪽 카드 바탕",
+        "x": 970,
+        "y": 705,
+        "w": 1000,
+        "h": 225,
+        "color": "#FFFEFC",
+        "second": "#FFFEFC",
+        "opacity": 100,
+        "angle": 3,
+        "visible": true,
+        "radius": 5,
+        "previewOnly": true
+      },
+      {
+        "type": "photo",
+        "name": "실제 위쪽 댓글 캡처",
+        "x": 970,
+        "y": 705,
+        "w": 1000,
+        "h": 225,
+        "angle": 3,
+        "opacity": 100,
+        "visible": true,
+        "flip": false,
+        "required": true
+      },
+      {
+        "type": "shape",
+        "name": "오른쪽 카드 바탕",
+        "x": 1430,
+        "y": 890,
+        "w": 900,
+        "h": 225,
+        "color": "#FFFEFC",
+        "second": "#FFFEFC",
+        "opacity": 100,
+        "angle": 2,
+        "visible": true,
+        "radius": 5,
+        "previewOnly": true
+      },
+      {
+        "type": "photo",
+        "name": "실제 오른쪽 댓글 캡처",
+        "x": 1430,
+        "y": 890,
+        "w": 900,
+        "h": 225,
+        "angle": 2,
+        "opacity": 100,
+        "visible": true,
+        "flip": false,
+        "required": true
+      },
+      {
+        "type": "text",
+        "name": "하단 설명 자막",
+        "word": "제가 입은 옷이나 신발이나",
+        "x": 960,
+        "y": 968,
+        "size": 66,
+        "color": "#FFFFFF",
+        "second": "#FFFFFF",
+        "stroke": "#151515",
+        "strokeW": 4,
+        "depth": 0,
+        "depthColor": "#111111",
+        "depthAngle": 90,
+        "angle": 0,
+        "slant": 0,
+        "stretch": 100,
+        "tracking": 0,
+        "grain": 0,
+        "grainSize": 3,
+        "metal": 0,
+        "glow": 0,
+        "glowColor": "#FFFFFF",
+        "opacity": 100,
+        "font": "ref-366",
+        "visible": true
+      }
+    ],
+    "prompt": "실제 댓글 캡처 2~3개를 원문 그대로 사용. 하단 약 5% 안전여백, ±3도 교차 기울기, 서로 약 15~25% 겹침(추천값), 순차 팝업 0.2초(제안). 댓글 본문·계정·수치 조작 금지. 자막은 실제 대본으로 교체. 이미지 선택 없이 가짜 댓글을 만들지 말 것."
+  },
+  {
+    "id": "B12",
+    "file": "B12-reference.jpg",
+    "title": "🟨 기사 형광펜 · Highlight",
+    "kind": "기사 / 문서 근거",
+    "original": "고강도 … 라이브 (중간 글자는 가려져 판독 불가)",
+    "ratio": "16:9",
+    "notes": "04번 주석 화면: 문서 전체가 흐려져 있고 중앙 핵심 문장은 선명하며 노란 형광펜 띠가 뒤에 깔립니다. 글자 시작점에 맞춘 좌우 패딩, 원본의 글꼴을 유지. 바깥 여백 39% 표시(정의 미확인), 하단 5% 기준선. 실제 문서 파일을 두 레이어에 동일하게 넣고 위쪽 선명 영역을 잘라 사용. 아래 기본 텍스트는 디자인용 자리표시자이며 실제 기사 인용이 아닙니다.",
+    "candidates": [
+      "ref-374",
+      "ref-366",
+      "system-ui"
+    ],
+    "palette": [
+      [
+        "형광펜",
+        "#F3DC57"
+      ],
+      [
+        "종이",
+        "#D9D0B7"
+      ],
+      [
+        "잉크",
+        "#201C15"
+      ],
+      [
+        "흰색",
+        "#FFFFFF"
+      ]
+    ],
+    "layers": [
+      {
+        "type": "photo",
+        "name": "실제 기사·문서 배경(흐림)",
+        "x": 960,
+        "y": 540,
+        "w": 1920,
+        "h": 1080,
+        "angle": 0,
+        "opacity": 100,
+        "visible": true,
+        "flip": false,
+        "required": true,
+        "blur": 15
+      },
+      {
+        "type": "shape",
+        "name": "노란 형광펜 띠",
+        "x": 960,
+        "y": 550,
+        "w": 1320,
+        "h": 190,
+        "color": "#F3DC57",
+        "second": "#F3DC57",
+        "opacity": 77,
+        "angle": 0,
+        "visible": true,
+        "radius": 1
+      },
+      {
+        "type": "photo",
+        "name": "같은 문서의 핵심 문장 크롭",
+        "x": 960,
+        "y": 550,
+        "w": 1320,
+        "h": 190,
+        "angle": 0,
+        "opacity": 100,
+        "visible": true,
+        "flip": false,
+        "required": true
+      },
+      {
+        "type": "text",
+        "name": "편집용 자리표시자",
+        "word": "핵심 문장 선택",
+        "x": 960,
+        "y": 550,
+        "size": 95,
+        "color": "#201C15",
+        "second": "#201C15",
+        "stroke": "#151515",
+        "strokeW": 0,
+        "depth": 0,
+        "depthColor": "#111111",
+        "depthAngle": 90,
+        "angle": 0,
+        "slant": 0,
+        "stretch": 100,
+        "tracking": 0,
+        "grain": 0,
+        "grainSize": 3,
+        "metal": 0,
+        "glow": 0,
+        "glowColor": "#FFFFFF",
+        "opacity": 100,
+        "font": "ref-374",
+        "visible": false
+      }
+    ],
+    "prompt": "실제 기사/논문 페이지 이미지를 배경으로 사용. 전체 배경은 8~20px 정도 흐리게, 선택 문장만 선명한 동일 원본 크롭으로 표시. 노랑 형광펜 띠 #F3DC57, 원본 글자 시작·끝에 맞춰 좌우 12~25px 패딩(재현값). 문장이나 출처를 생성하지 말고 실제 인용만 사용."
+  },
+  {
+    "id": "B13",
+    "file": "B13-reference.jpg",
+    "title": "🩷 네온 뉴스 · Neon news",
+    "kind": "뉴스 / 근거",
+    "original": "리트 만점자에 쏠린 시선, 왜? / 지운 답, 시험 문항 답과 일치",
+    "ratio": "16:9",
+    "notes": "05번 주석 화면: 상단 좌측 분홍 네온 소주제 박스, 청록 인물 윤곽, 문서 배경, 빨간 손그림 화살표, 하단 짙은 자주색 반투명 기사 자막 박스와 흰색 제목·강한 핫핑크 두 번째 줄, 아래 핑크 가로선. 하단 여백 5~6%. 원본 사례의 문장은 참고용이며 새 영상에서 실제 기사 제목과 출처로 교체. 인물과 문서는 별도 이미지 레이어.",
+    "candidates": [
+      "ref-106",
+      "ref-738",
+      "ref-jalnan-gothic",
+      "ref-366"
+    ],
+    "palette": [
+      [
+        "핫핑크",
+        "#EF35B7"
+      ],
+      [
+        "청록 윤곽",
+        "#55D9D3"
+      ],
+      [
+        "제목",
+        "#FFF7F5"
+      ],
+      [
+        "하단 배경",
+        "#290C19"
+      ],
+      [
+        "화살표",
+        "#CB3838"
+      ]
+    ],
+    "layers": [
+      {
+        "type": "photo",
+        "name": "실제 기사 배경",
+        "x": 960,
+        "y": 540,
+        "w": 1920,
+        "h": 1080,
+        "angle": 0,
+        "opacity": 100,
+        "visible": true,
+        "flip": false,
+        "required": true
+      },
+      {
+        "type": "photo",
+        "name": "실제 인물 누끼·청록 발광",
+        "x": 510,
+        "y": 475,
+        "w": 650,
+        "h": 900,
+        "angle": 0,
+        "opacity": 100,
+        "visible": true,
+        "flip": false,
+        "required": false,
+        "glow": 24,
+        "glowColor": "#55D9D3"
+      },
+      {
+        "type": "text",
+        "name": "소주제 네온 박스",
+        "word": "직썰",
+        "x": 160,
+        "y": 160,
+        "size": 105,
+        "color": "#FFFFFF",
+        "second": "#FFFFFF",
+        "stroke": "#151515",
+        "strokeW": 0,
+        "depth": 0,
+        "depthColor": "#111111",
+        "depthAngle": 90,
+        "angle": 0,
+        "slant": 0,
+        "stretch": 100,
+        "tracking": 0,
+        "grain": 0,
+        "grainSize": 3,
+        "metal": 0,
+        "glow": 0,
+        "glowColor": "#FFFFFF",
+        "opacity": 100,
+        "font": "ref-106",
+        "visible": true,
+        "box": "#EF35B7",
+        "boxType": "rect",
+        "boxOpacity": 100
+      },
+      {
+        "type": "text",
+        "name": "인물 설명",
+        "word": "리트 만점자",
+        "x": 1310,
+        "y": 570,
+        "size": 88,
+        "color": "#55D9D3",
+        "second": "#55D9D3",
+        "stroke": "#151515",
+        "strokeW": 6,
+        "depth": 0,
+        "depthColor": "#111111",
+        "depthAngle": 90,
+        "angle": 0,
+        "slant": 0,
+        "stretch": 100,
+        "tracking": 0,
+        "grain": 0,
+        "grainSize": 3,
+        "metal": 0,
+        "glow": 0,
+        "glowColor": "#FFFFFF",
+        "opacity": 100,
+        "font": "ref-738",
+        "visible": true
+      },
+      {
+        "type": "shape",
+        "name": "하단 짙은 배경",
+        "x": 960,
+        "y": 875,
+        "w": 1920,
+        "h": 340,
+        "color": "#290C19",
+        "second": "#290C19",
+        "opacity": 87,
+        "angle": 0,
+        "visible": true,
+        "radius": 0
+      },
+      {
+        "type": "text",
+        "name": "제목 흰색",
+        "word": "리트 만점자에 쏠린 시선, 왜?",
+        "x": 960,
+        "y": 805,
+        "size": 105,
+        "color": "#FFF7F5",
+        "second": "#FFF7F5",
+        "stroke": "#151515",
+        "strokeW": 2,
+        "depth": 0,
+        "depthColor": "#111111",
+        "depthAngle": 90,
+        "angle": 0,
+        "slant": 0,
+        "stretch": 100,
+        "tracking": -2,
+        "grain": 0,
+        "grainSize": 3,
+        "metal": 0,
+        "glow": 0,
+        "glowColor": "#FFFFFF",
+        "opacity": 100,
+        "font": "ref-106",
+        "visible": true
+      },
+      {
+        "type": "text",
+        "name": "핵심 핑크",
+        "word": "지운 답, 시험 문항 답과 일치",
+        "x": 960,
+        "y": 952,
+        "size": 101,
+        "color": "#EF35B7",
+        "second": "#EF35B7",
+        "stroke": "#151515",
+        "strokeW": 2,
+        "depth": 0,
+        "depthColor": "#111111",
+        "depthAngle": 90,
+        "angle": 0,
+        "slant": 0,
+        "stretch": 100,
+        "tracking": -2,
+        "grain": 0,
+        "grainSize": 3,
+        "metal": 0,
+        "glow": 0,
+        "glowColor": "#FFFFFF",
+        "opacity": 100,
+        "font": "ref-106",
+        "visible": true
+      },
+      {
+        "type": "shape",
+        "name": "하단 네온 줄",
+        "x": 960,
+        "y": 1043,
+        "w": 1920,
+        "h": 14,
+        "color": "#EF35B7",
+        "second": "#EF35B7",
+        "opacity": 100,
+        "angle": 0,
+        "visible": true,
+        "radius": 0
+      }
+    ],
+    "prompt": "실제 기사와 원본 인물 캡처를 사용. 왼쪽 인물에 청록 외곽광 #55D9D3, 붉은 손그림 화살표(실제 위치 표시), 좌상단 핫핑크 소주제 라벨, 하단 짙은 자주 반투명 패널 위 흰 제목과 핫핑크 핵심 줄. 하단 안전여백 5~6%. 실제 기사 제목·인용·출처를 그대로 입력."
   }
 ];
 window.BROADCAST_FONTS=[["ref-106","검은고딕","https://fonts.google.com/specimen/Black+Han+Sans"],["ref-738","SB 어그로 B","https://www.sandbox.co.kr/company-ci"],["ref-366","G마켓 산스 Bold","https://corp.gmarket.com/fonts/"],["ref-jalnan-gothic","잘난체 고딕","https://gccompany.co.kr/font"],["ref-394","레코체","https://noonnu.cc/font_page/394"],["ref-374","정선아리랑뿌리체","https://noonnu.cc/font_page/374"],["ref-68","잉크립퀴드","https://noonnu.cc/font_page/68"],["ref-Nanum+Brush+Script","나눔손글씨 붓","https://fonts.google.com/specimen/Nanum+Brush+Script"],["ref-Anton","Anton","https://fonts.google.com/specimen/Anton"],["Bangers","Bangers","https://fonts.google.com/specimen/Bangers"],["ref-Jua","주아","https://fonts.google.com/specimen/Jua"],["system-ui","기본 고딕",""]];

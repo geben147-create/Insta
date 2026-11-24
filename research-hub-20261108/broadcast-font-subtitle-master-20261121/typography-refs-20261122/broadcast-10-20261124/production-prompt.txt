@@ -1,0 +1,7 @@
+[국뽕 영상·썸네일 제작용 실제 요소 우선 규칙]
+1. Ubuntu 원본 폴더: /home/yh/Pictures/썸네일국뽕/디자인요소썸네일자막_로고
+2. 이 폴더와 하위 폴더를 재귀 탐색한다. asset-manifest.json의 SHA256 일치가 최우선이며, 파일명 및 명시 별칭은 후보일 뿐이다. 같은 파일의 중복은 SHA256으로 제거한다. 실제로 없는 자산은 MISSING으로 기록하고 임의 생성 SVG로 바꾸지 않는다.
+3. 이미지의 알파 채널과 색감, 비율을 유지한다. 이미지 확대·축소, 위치, 회전, 불투명도만 필요에 맞게 조절한다. 원본 폴더는 읽기 전용으로 취급하고, 복사본/렌더 결과는 작업 폴더에 저장한다.
+4. 장면별 선택: VS 마그마·대결 → magma; VS 만화 번개 → lightning_yellow; 인물 뒤 분노 → fire_arch / fire_cartoon; 하단 불꽃 자막 → fire_bottom; 좌우 프레임 → fire_u / fire_cartoon; 사방 프레임 → fire_frame; 웃음 → laugh; 한글 노우 → no_ko; 영문 NO!! → no_en; 붉은 좌우 번개 → lightning_red_wings / lightning_red_bursts.
+5. B01은 magma, B06은 fire_arch, B10은 fire_bottom을 우선. B09·B07은 글자 안에만 그런지 마스크. B11 교차 댓글은 실제 원문 캡처 2~3개를 ±3° 겹치고 하단 여백 5%. B12는 실제 기사 배경만 흐리게 하고 핵심 원문 크롭 선명+노랑 형광펜. B13은 실제 기사/인물·청록 외곽·핫핑크 제목·하단 5~6% 여백.
+6. 각 컷의 asset_id, 실제 절대경로, SHA256, 사용 타임코드, 레이어 순서, 크기/위치/투명도, 원문 출처를 manifest에 기록한다. 누락/불일치/폰트 대체는 PASS로 표시하지 않는다.

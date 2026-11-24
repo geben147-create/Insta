@@ -81,3 +81,9 @@ B01–B10: 첨부 사진 10장에 대한 독립 분석, 폰트 후보, 색상 �
 - 색상: 검정 본체 #080808, 황금 테두리 #E4AC35, 노란 발광 #FFCE35, 바깥 불꽃 #FF3D1D, 중간 불꽃 #FF7518, 중심 #FFD330
 - 폰트 후보: 정선아리랑뿌리체, 잉크립퀴드, 나눔손글씨 붓
 - 프롬프트: Wide transparent overlay of 8 to 10 separate uneven flat graphic flame tongues, orange-red outer flame, golden yellow inner flame, soft golden fade at baseline, designed directly behind Korean caption text, no text, no people, no background.
+
+## 11월 24일 추가
+- B11 교차 댓글, B12 기사 형광펜, B13 네온 뉴스. B09/B10 주석 레퍼런스 보강.
+- 사용자 PNG 12종 SHA256 목록 `asset-manifest.json`; 중복 노란 번개 1개 제외. 실제 원본은 사용자 로컬 폴더에서 브라우저 선택 또는 `scan-assets.py`로 검색. GitHub에 원본 PNG 바이너리를 복사하지 않았음.
+- B01/B06/B10은 사용자 PNG 우선, 누락 시 자동 SVG 대체 금지. 폴더 선택과 로컬 캐시, 사진 업로드 후 실제 이미지 레이어 렌더링.
+- 새 3종 참고 화면은 제공 콜라주의 저해상도 축소본. 고해상도 참고 크롭은 별도 원본 묶음에 포함.

@@ -34,6 +34,7 @@ const MENUS = {
     {id:'tlog', t:'작업 기록 · 점검표', s:'이전 대화 결과 + 안 된 것', tag:'doc'}
   ],
   video: [
+    {id:'vref10', t:'🔥 방송 자막·실제 디자인 요소 13종', s:'원본 PNG 12종 · VS · 불꽃 · 교차 댓글 · 형광펜 · 네온 뉴스', tag:'new', f:BF+'typography-refs-20261122/broadcast-10-20261124/index.html?v=3'},
     {id:'design-dashboard', t:'🎨 통합 디자인 대시보드', s:'사진 24장 · 14색 · 프롬프트 · 전체 자료', tag:'new', f:'../design-dashboard-20261124/index.html'},
     {id:'design-reference', t:'통합 디자인 자료 · REF01–24', s:'색·폰트·지도·댓글·캐릭터', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/'},
     {grp:'🌸 새 영상 제작 · 기존 영상 수정'},
@@ -53,7 +54,6 @@ const MENUS = {
     {id:'bgm', t:'캐릭터 시그니처 음악 · BGM 8곡', s:'콩닥팝 · 콩콩여행 · 반응왓설 + 3분 BGM 5곡', tag:'new'},
     {grp:'🛠 실험실'},
     {id:'vlab', t:'영상편집 디자인 실험실', s:'조절 미반영 버그 수정', tag:'fix', f:BF+'video-edit-lab.html'},
-    {id:'vref10', t:'🔥 NEW 방송 자막·특수효과 10종', s:'VS 마그마 · 3D · 그런지 · 불꽃 · 말풍선 · 인물 배지', tag:'new', f:BF+'typography-refs-20261122/broadcast-10-20261124/index.html'},
     {id:'vtypo', t:'자막 글씨 8종 · 금빛 자막 편집', s:'T05 흰 배경 · 글자별 조절 · 금빛 반짝임', tag:'fix', f:BF+'typography-refs-20261122/guide.html?v=20261124'},
     {grp:'📋 기록'},
     {id:'vlog', t:'작업 기록 · 점검표', tag:'doc'}

@@ -1,0 +1,72 @@
+{
+  "yangshuo-ls": [
+    "계곡 위 전망 데크",
+    "보호 난간이 있는 상상 속 호텔 데크. 위에서 낮아지며 뒷모습의 한 발과 계곡 바닥을 같은 프레임에서 보여준다.",
+    "an invented guarded hotel terrace above the Yangshuo karst valley, descending toward a central rear-facing stride and an open timber doorway",
+    12,
+    "A"
+  ],
+  "yangshuo-sugar-house": [
+    "벽돌 상층 통로",
+    "빽빽한 벽돌 기둥 사이로 하강. 2초대에 아래 수영장이 나타나고, 뒷모습이 아치 너머로 걸어간다.",
+    "an invented upper brick gallery with a low-angle pool reveal beneath it, using guarded geometry, warm brick parallax and a doorway match cut",
+    7,
+    "B"
+  ],
+  "yangshuo-banyan-tree": [
+    "강변 수관 위 산책로",
+    "나무 위에서 강변 산책로로 내려오며 왼쪽의 리강과 오른쪽 뒷모습을 한 번에 잡는다.",
+    "an invented guarded treetop walkway above the Li River, foreground leaves sweeping past as the camera arrives behind the traveler and points downriver",
+    6,
+    "A"
+  ],
+  "ananti-busan-cove-osiria-coastal-walk": [
+    "해안 전망 계단",
+    "해안 위에서 난간 안쪽으로 내려와 걸어가는 뒷모습과 발밑 파도를 한 프레임에 잡는다.",
+    "a guarded coastal overlook inspired by Osiria, descend past pine branches toward the path and align the sea horizon with the existing coastal footage",
+    6,
+    "B"
+  ],
+  "renaissance-okinawa-onna-splash-pool": [
+    "물놀이 타워 출발대",
+    "물 위에서 미끄럼틀 출발대 쪽으로 내려오며 플랫폼 밖의 바다를 보여준다. 성인 캐릭터는 마른 데크 안쪽을 걷는다.",
+    "an imagined guarded family slide launch deck above a sparkling Okinawa pool, adult walking on the dry deck toward the stairs, pool curve centered at the end",
+    7,
+    "C"
+  ],
+  "ginzanso-snowfall-open-air-onsen": [
+    "눈 쌓인 골짜기 연결 데크",
+    "눈 덮인 처마 너머 계곡으로 내려와 데크 위의 뒷모습을 잡고, 등불로 시선을 옮긴다.",
+    "an imagined guarded wooden connecting deck above a snowy ravine, approach behind the traveler past a snowy roof, align an amber lantern for the cut to the existing open-air bath",
+    6,
+    "D"
+  ],
+  "park-hyatt-kyoto-pagoda-breakfast": [
+    "교토 지붕선 위 전망대",
+    "기와지붕을 지나 전망대로 내려오며 캐릭터와 먼 탑을 같은 수직선에 둔다.",
+    "an imagined guarded rooftop lookout aligned with distant Kyoto pagoda roofs, camera descends behind the traveler and finishes along a dark timber door frame",
+    7,
+    "B"
+  ],
+  "aquapalace-prague-treasure-palace-splash": [
+    "실내 워터파크 상층 브리지",
+    "높은 천장부터 상층 브리지까지 내리며 바닥의 수영장 반짝임과 좁아 보이는 통로를 잡는다.",
+    "an imagined guarded upper-level waterpark bridge, tilt down from skylight and descend toward the rear-facing traveler, ending above turquoise water highlight",
+    7,
+    "C"
+  ],
+  "park-hyatt-sydney-opera-night": [
+    "항구를 내려다보는 상층 테라스",
+    "푸른 하늘에서 테라스 높이로 내려오며 뒤로 보이는 걷는 캐릭터, 항구와 오페라하우스를 겹친다.",
+    "an imagined guarded blue-hour harbor terrace, descend behind the traveler with a stable Sydney Opera House silhouette and end aligned along a window mullion",
+    6,
+    "B"
+  ],
+  "cappadocia-museum-hotel-balloon-breakfast": [
+    "열기구와 바위 전망 데크",
+    "열기구 높이에서 바위 데크로 내려와 뒷모습과 아래 계곡을 짧게 보여준 뒤 조식으로 연결한다.",
+    "an imagined guarded stone viewing deck above a Cappadocia valley, descend from balloon altitude and level behind the traveler as a balloon aligns above the breakfast view",
+    6,
+    "A"
+  ]
+}

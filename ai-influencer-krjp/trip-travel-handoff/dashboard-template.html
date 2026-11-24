@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>여행 쇼츠 · 제작 인수인계</title>
+<style>
+:root{color-scheme:dark;--page:#101a18;--panel:#182725;--ink:#f6f0df;--secondary:#b6c8be;--line:#43564d;--accent:#f6d28b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--page);color:var(--ink);font:16px/1.6 system-ui,sans-serif}
+main{width:min(1240px,100%);padding:50px clamp(15px,4vw,54px);margin:auto}h1,h2,p{margin:0 0 12px}h1{font-size:clamp(32px,5vw,60px);line-height:1.1;letter-spacing:-.04em}h2{font-size:clamp(21px,3vw,32px);margin-bottom:16px}
+a{color:var(--accent);text-underline-offset:.25em}header{border-bottom:1px solid var(--line);padding-bottom:24px;margin-bottom:26px}.date,.muted{color:var(--secondary)}
+nav{display:flex;flex-wrap:wrap;gap:.7rem;margin:20px 0 0}nav a,.button{padding:7px 12px;border:1px solid var(--line);border-radius:7px;text-decoration:none}
+.stats,.cards,.previews{display:grid;gap:12px}.stats{grid-template-columns:repeat(auto-fit,minmax(155px,1fr));margin:23px 0}.stat{padding:12px 15px;border:1px solid var(--line);background:var(--panel);border-radius:10px}.stat b{display:block;font:36px Georgia,serif;color:var(--accent)}
+section{margin:32px 0;scroll-margin-top:16px}.cards{grid-template-columns:repeat(auto-fill,minmax(149px,1fr));margin:12px 0}.cards figure{margin:0;overflow:hidden;background:var(--panel);border-radius:8px;border:1px solid var(--line)}
+figure img{width:100%;aspect-ratio:4/5;object-fit:contain;background:#0e1715;display:block}figcaption{padding:7px 9px;font-size:13px}figcaption span,.sub{color:var(--accent)}.sub{margin-left:3px}
+details{border-top:1px solid var(--line);padding:10px 0}summary{cursor:pointer;font-weight:650;color:var(--accent)}details[open] summary{margin-bottom:10px}
+.previews{grid-template-columns:repeat(3,minmax(0,1fr))}.preview{background:var(--panel);padding:14px;border-radius:8px}.preview video{display:block;width:100%;max-width:220px;aspect-ratio:9/16;object-fit:contain;background:#0c1713;margin-bottom:10px;border-radius:6px}.preview p{margin:0}
+.bar-row{display:grid;grid-template-columns:105px 1fr 42px;gap:10px;align-items:center}.bar-row meter{width:100%;height:14px;accent-color:var(--accent)}
+.table{overflow:auto;max-height:570px;border:1px solid var(--line);border-radius:8px;margin:12px 0}table{width:100%;min-width:690px;border-collapse:collapse}th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);font-size:14px}th{background:var(--panel);position:sticky;top:0}
+input{width:min(100%,400px);padding:9px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;font:inherit}
+@media(max-width:620px){main{padding-top:25px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.previews{grid-template-columns:repeat(2,minmax(0,1fr))}.stat b{font-size:28px}}
+</style></head>
+<body><main>
+<header><p class="date">2026.11.24 · 여행 쇼츠·숙소 제작 스냅샷</p><h1>여행 쇼츠 제작 인수인계</h1><p>사용자가 준 원본, 제작 결과, 예약·제휴 연결 현황을 한곳에서 확인합니다.</p>
+<nav aria-label="바로가기"><a href="#references">첨부 원본</a><a href="#produced">완성·미리보기</a><a href="#booking">예약·제휴</a><a href="#status">이어갈 작업</a></nav></header>
+<div class="stats"><div class="stat"><b>85</b>첨부 사진 원본</div><div class="stat"><b>14</b>집중 참고</div><div class="stat"><b>300</b>공개 갤러리 카드</div><div class="stat"><b>121</b>갤러리 영상</div><div class="stat"><b><!--TOTALS--></b>예약 연결 행</div><div class="stat"><b>0</b>확인된 계정 제휴 추적 링크</div></div>
+
+<section id="references"><h2>사용자가 준 사진</h2><p>최신 집중 참고 14장을 먼저 배치했습니다. 모든 썸네일과 원본 링크는 첨부 순서에 대응합니다. <a href="references.json">원본 파일명과 체크섬 목록</a></p><!--REFOCUS--></section>
+
+<section id="produced"><h2>이번 작업에서 만든 장면</h2>
+<div class="previews">
+<div class="preview"><video preload="none" controls playsinline poster="production/media/yangshuo-ls-skywalk.jpg" src="production/media/yangshuo-ls-skywalk-preview.mp4" aria-label="양숴 하강 훅"></video><p>양숴 하강 훅 · 13초 키프레임 편집</p></div>
+<div class="preview"><video preload="none" controls playsinline poster="production/media/yangshuo-ls-alt-waterfall.jpg" src="production/media/yangshuo-ls-alt-waterfall-pollo.mp4" aria-label="숲길과 폭포"></video><p>숲길과 폭포 · Pollo 생성</p></div>
+<div class="preview"><video preload="none" controls playsinline poster="production/media/yangshuo-ls-alt-pool.jpg" src="production/media/yangshuo-ls-alt-pool-pollo-reviewed.mp4" aria-label="커튼 너머 수영장"></video><p>수영장 · Pollo 도입 1.35초 + 사진 모션</p></div>
+</div>
+<p><a href="production/">여행 쇼츠 10편 제작 보드와 복사 프롬프트</a> · <a href="production/#new-stills">신규 이미지</a> · <a href="production/TRAVEL_PRODUCTION_RULES.md">제작 규칙 MD</a></p>
+<details><summary>고정 캐릭터와 포즈</summary><div class="cards"><!--CAST--></div></details>
+<details><summary>기존 300카드의 지역 분포</summary><!--REGIONS--><p><a href="https://geben147-create.github.io/Insta/ai-influencer-krjp/trip-travel-library/">호텔 이미지 100장과 전체 121개 영상이 있는 갤러리</a></p></details>
+</section>
+
+<section id="booking"><h2>숙소 예약 및 제휴 확인</h2>
+<p>숙소 링크는 일반 예약 URL입니다. 계정 제휴 링크와 전환 추적은 확인되지 않았습니다.</p>
+<p><a href="https://www.trip.com/partners/affiliate/">Trip.com 공식 제휴 포털</a> · <a href="https://affiliate.rakuten.co.jp/guideline/rule/">라쿠텐 제휴 가이드</a> · <a href="https://corp.musinsa.com/ja/">무신사 일본 공식</a> · <a href="https://brandavenue.rakuten.co.jp/">Rakuten Fashion</a></p>
+<p>패션 후보 <a href="https://us.loropiana.com/en/woman/winter-sun/traveller-mini-field-jacket-FAQ1923_1000.html">린넨 여행 재킷 레퍼런스</a> · <a href="https://www.loewe.com/int/en/women/bags/puzzle/small-puzzle-edge-bag-in-classic-calfskin/A510P60X41-2530.html">여행용 크로스백 레퍼런스</a></p>
+<label for="search">숙소·지역 검색</label> <input id="search" type="search" placeholder="예: 양숴, 일본, 부산"> <a href="booking-links.csv">전체 CSV</a>
+<p class="muted" id="filter-status" role="status"></p>
+<div class="table"><table><thead><tr><th>연결된 콘텐츠</th><th>지역</th><th>숙소·예약</th><th>관계</th><th>상태</th></tr></thead><tbody id="bookings"><!--BOOKING--></tbody></table></div>
+</section>
+
+<section id="status"><h2>이어갈 작업</h2><p>1분 이미지 예약은 로컬 제작 보드에서 이어집니다. 이 공개본은 인수인계 시점의 스냅샷입니다.</p>
+<p>추가 유료 영상 13컷은 총 65크레딧 승인 대기입니다. Pollo 2컷은 완료했으며 Google Flow 실행은 아직 확인되지 않았습니다.</p>
+<p><a href="HANDOFF.md">사용자 요구와 구현 결과 상세 인수인계</a> · <a href="production/pollo-jobs.json">Pollo 제출·검수 기록</a> · <a href="https://geben147-create.github.io/Insta/insta-viewer/travel-motion/">모션 레퍼런스 분석</a></p></section>
+</main><script>
+const search = document.getElementById('search');
+const rows = Array.from(document.querySelectorAll('#bookings tr'));
+const status = document.getElementById('filter-status');
+function filter() {
+  const query = search.value.toLowerCase().trim();
+  let visible = 0;
+  for (const row of rows) {
+    row.hidden = !row.textContent.toLowerCase().includes(query);
+    if (!row.hidden) visible++;
+  }
+  status.textContent = visible + '개 연결 표시';
+}
+search.addEventListener('input',filter);
+filter();
+</script></body></html>

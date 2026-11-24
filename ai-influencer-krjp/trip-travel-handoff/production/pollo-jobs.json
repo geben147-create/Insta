@@ -1,0 +1,28 @@
+{
+  "provider": "Pollo AI",
+  "model": "MiniMax Hailuo 02",
+  "resolution": "512p",
+  "durationSeconds": 6,
+  "approvedBatchCredits": 10,
+  "jobs": [
+    {
+      "id": "yangshuo-ls-alt-waterfall",
+      "title": "숲길과 폭포",
+      "status": "succeeded",
+      "taskId": "cmwul16yp0am4afwmjmi4kawa",
+      "credits": 5,
+      "file": "yangshuo-ls-alt-waterfall-pollo.mp4",
+      "qa": "PASS"
+    },
+    {
+      "id": "yangshuo-ls-alt-pool",
+      "title": "커튼 너머 수영장",
+      "status": "succeeded",
+      "taskId": "cmwul172u0am8afwm349xopwy",
+      "credits": 5,
+      "file": "yangshuo-ls-alt-pool-pollo-reviewed.mp4",
+      "qa": "EDITED",
+      "note": "1.35초 뒤 데크와 수면 형태가 바뀌어 첫 1.35초만 사용하고 이후 기존 사진 모션으로 연결"
+    }
+  ]
+}

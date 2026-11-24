@@ -48,7 +48,20 @@ window.BROADCAST_PRESETS=[
     "layers": [
       {
         "type": "asset",
-        "name": "마그마 균열·붉은 발광",
+        "name": "붉은 아우라 (독립 조절)",
+        "asset": "red-aura.svg",
+        "x": 960,
+        "y": 540,
+        "w": 340,
+        "h": 1080,
+        "angle": 0,
+        "opacity": 85,
+        "visible": true,
+        "flip": false
+      },
+      {
+        "type": "asset",
+        "name": "마그마 균열·노란 중심",
         "asset": "magma-crack.svg",
         "x": 960,
         "y": 540,
@@ -1140,7 +1153,7 @@ window.BROADCAST_PRESETS=[
     "kind": "반전 / 강조",
     "original": "누구든 깻잎 잡으면 / '다 잡아'",
     "ratio": "16:9",
-    "ref": "../../../../broadcast-design-system-20261120/assets/D12.jpg",
+    "ref": "../../../broadcast-design-system-20261120/assets/D12.jpg",
     "refNote": "기존 D12의 같은 장면 참고 사진",
     "notes": "상단 흰색 굵은 문장, 아래 1.8~2배 크기의 빨강 핵심, 글자 내부에 마모된 잉크가 점·긁힘으로 드러남. 우측 원형 인물 두 개와 얇은 금색 링. 블러가 아니라 글리프 내부를 깎는 distressed/grunge 마스크. 캡처 속 UI 색상표 #F6F5EF, #ED1817, #3B1818, #131313, #EAB940.",
     "candidates": [
@@ -1266,7 +1279,7 @@ window.BROADCAST_PRESETS=[
     "kind": "대형 키워드 / 유머",
     "original": "깻잎팀플",
     "ratio": "16:9",
-    "ref": "../../../../broadcast-design-system-20261120/assets/D13.jpg",
+    "ref": "../../../broadcast-design-system-20261120/assets/D13.jpg",
     "refNote": "기존 D13 같은 원본 장면",
     "notes": "전면 밝은 레몬 노랑, 위쪽·오른쪽으로 솟은 검정 입체 측면, 돌출 깊이 글자 높이의 약 15~25%. 매우 두껍고 각진 블록 고딕. 오른쪽 깻잎 그림도 검정 깊이 레이어가 있음. 하단 중앙 자막 높이 약 20~24% 영상 높이.",
     "candidates": [
@@ -1344,7 +1357,7 @@ window.BROADCAST_PRESETS=[
     "kind": "챕터 / 핵심",
     "original": "깻잎 논쟁",
     "ratio": "16:9",
-    "ref": "../../../../broadcast-design-system-20261120/assets/D15.jpg",
+    "ref": "../../../broadcast-design-system-20261120/assets/D15.jpg",
     "refNote": "기존 D15 유사 질감 참고 (이번 사진과 동일 파일 아님)",
     "notes": "노란 대형 글씨가 화면 가로 약 75%, 높이 약 38%. 글자 아래쪽에 어두운 마모가 더 조밀하며 위쪽에도 작은 인쇄 반점. 거친 종이 재질/스크린 프린트 디스트레스드 마스크, 글씨 자체는 선명; 전역 블러 금지. 캡처에서는 한 줄 대형 제목의 한글 받침 부분이 아래에 분리되어 보임.",
     "candidates": [

@@ -1,0 +1,871 @@
+{
+  "title": "사용자 원문·Claude 요약·추가 제안 분리 감사",
+  "version": "1.0",
+  "auditor": "instruction_audit",
+  "source_file": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+  "source_file_lines": 388,
+  "source_scope": "첨부 388행과 최신 사용자 메시지. 렌더러·실제 영상·과거 다른 세션은 직접 검증하지 않음.",
+  "classification_notes": [
+    "user_direct는 명백한 사용자 구어 발화다.",
+    "user_supplied_spec는 사용자가 입력으로 제공한 단계·JSON·명세이며 원래 작성자가 누구인지는 확정하지 않는다.",
+    "claude_report 및 claude_summary_quoted_by_user는 AI의 실행 보고·재정리로, 사용자 요구나 직접 검증으로 승격하지 않는다.",
+    "verbatim은 첨부에서 줄 단위로 그대로 추출했다. 최신 메시지 인용은 별도 line 번호를 만들지 않았다.",
+    "추가 제안에는 🌸, 권리 관련 추가 제안에는 💰🌸를 표시한다."
+  ],
+  "rows": [
+    {
+      "id": "AUD-01",
+      "topic": "규칙 우선순위와 원문 보존",
+      "status": "확정",
+      "evidence": [
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "그 채팅방에 내가 넣은 말은 내가 원하는 거고 얘가 실제로 한 거는 내가 원하는 거에 일부만 지금 했고 좀 이상하게 한 것도 있어.",
+          "line_start": null,
+          "line_end": null
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "내가 색깔이나 내가 얘기한 게 우선적이긴 한데 그거를 토시 하나 틀리지 말고 일단은 정리를 하되",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "사용자 직접 요청·제공 명세, Claude 요약·실행 주장, ChatGPT 제안을 구분하고 원문을 그대로 보존한다.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "최신 사용자 지시 > 이전 사용자 직접 지시·제공 명세 > Claude 요약. ChatGPT 추천은 별도 🌸로만 제시한다. 원문과 실행용 정규화 규칙은 별개로 보관한다.",
+      "additional_proposal": "",
+      "verification_limit": "첨부에는 사용자·Claude 발화가 혼재하므로 출처 분류를 동반해야 한다."
+    },
+    {
+      "id": "AUD-02",
+      "topic": "예능 편집 강도",
+      "status": "확정",
+      "evidence": [
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "나는 그래도 조금 그래도 뭐 유퀴즈 정도는 좀 이렇게 했으면 좋겠거든, 영상 편집을.",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "유퀴즈 정도의 예능적 재미와 리액션·자막·효과를 원한다.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "다큐·뉴스 40%, 예능 30%, 영화 20%, 쇼츠 10%라는 이전 ChatGPT 비율.",
+      "resolution": "이전 배합은 사용자 확정값이 아니므로 기본 규칙에서 제외한다. 사용자 디자인을 유지한 예능 중심 연출로 해석한다.",
+      "additional_proposal": "🌸 반응·말의 리듬에 맞춘 선택적 강조를 샘플로 비교한다. 효과 횟수의 새 숫자는 제안으로 표시한다.",
+      "verification_limit": "특정 프로그램의 비공개 편집 수치를 확보한 것이 아니다."
+    },
+    {
+      "id": "AUD-03",
+      "topic": "4초 컷과 끊김 방지",
+      "status": "확정·설계상 조정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 1,
+          "line_end": 1,
+          "speaker_class": "user_direct",
+          "verbatim": "이거 저장하고 있어 ,다른 세션에서도 사용하게, 포크로 영상은 4초 이하 컷 내 나레이션 60% 이상 제작 ... 좌우반전·크롭·속도 변경·로고 가림 (빌리빌리 샤오홍수 등 로고는 모자이크 하기, )"
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 321,
+          "line_end": 321,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "뚝뚝 끊기는 컷 대신 자연스러운 전환·줌·디졸브."
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "그런 거를 이렇게 조금 완화, 특히 후부분은 아예 그냥 그 뭐라 해야 되노, 렉 안 걸리게 그런 식으로 해야 된다는 것도 규칙을 좀 넣어주고",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "기존 4초 이하 컷 요청이 있고, 최신 요청은 특히 후반부가 렉처럼 끊기지 않게 하는 것이다.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "4초 조건을 임의 삭제하지 않는다. 컷 길이와 프레임 정지·중복·불연속은 별개로 검사한다. 전환 때문에 원음·TTS를 끊지 않는다.",
+      "additional_proposal": "🌸 지속되는 원본에서 자연스러운 동작 연결, 짧은 디졸브, 줌을 선택하고 전환마다 강제 정지 프레임을 넣지 않는다.",
+      "verification_limit": "실제 MP4·프레임 타임스탬프를 보지 않았으므로 FPS/VFR/인코딩/강제 정지 중 어떤 원인인지 미확인."
+    },
+    {
+      "id": "AUD-04",
+      "topic": "내레이션 비율과 기존 TTS",
+      "status": "확정·이전 규칙 대체",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 1,
+          "line_end": 1,
+          "speaker_class": "user_direct",
+          "verbatim": "이거 저장하고 있어 ,다른 세션에서도 사용하게, 포크로 영상은 4초 이하 컷 내 나레이션 60% 이상 제작 ... 좌우반전·크롭·속도 변경·로고 가림 (빌리빌리 샤오홍수 등 로고는 모자이크 하기, )"
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 294,
+          "line_end": 294,
+          "speaker_class": "user_direct",
+          "verbatim": "워터마크에는 모자이크를, 원본 하단 자막 영역과 화면 안에서 자동 검출된 글자에는 블러를 적용 지금 하는 거 멈추지 말고 이거 적용하고 해주세요. 지금 하는 거 멈추지 말고요. 나레이션은 60% 이상이 아니라 지금 나레이션을 내가 이미 생성해놨기 때문에 거의 90%인데 그 부분을 빼세요. 그 부분을 그거에 해당하는 거는 빼도 됩니다. 그러니까 메모해 놓은 거를 빼도 된다 이 말입니다."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 323,
+          "line_end": 323,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "대본·TTS 변경 금지."
+        }
+      ],
+      "user_requirement": "60% 규칙을 삭제하고 이미 만든 대본·TTS를 유지한다. 약 90%는 현황 설명이다.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "비율 재맞춤이나 새 합성 금지. 음성 재합성 규칙은 신규 제작 단계에서만 검토하고 이번 편집 수정에는 적용하지 않는다.",
+      "additional_proposal": "",
+      "verification_limit": "90%라는 숫자를 새로운 최소 비율·의무 비율로 만들면 안 된다."
+    },
+    {
+      "id": "AUD-05",
+      "topic": "원음과 합성 음성의 역할",
+      "status": "확정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 8,
+          "line_end": 12,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "- 최종 대본의 내레이션만 합성한다. 외국인 실제 음성을 가짜 성우로 재현하지 않는다.\n- python3 -I bin/tts_jsonl.py episodes/<이름>\n- bash /home/yh/ai-work/tts_cosy_prod/qwen_tts.sh episodes/<이름>/build/narration.jsonl episodes/<이름>/build/tts -12\n- 줄마다 3번 만들어 받아쓰기로 가장 정확한 것을 고른다. 받아쓰기 오류율이 높은 줄은 다시 받아써서 숫자 표기 차이인지 발음 문제인지 가른다.\n- 🔴 제작용 메모·ID·H/S 코드가 음성에 들어가지 않았는지 검사한다."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 18,
+          "line_end": 18,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "- 원음 구간: 원본 클립(약 4초) + 한국어 자막 띠. 원본의 중국어 자막은 띠로 덮는다."
+        }
+      ],
+      "user_requirement": "원음 구간은 실제 원본 음성에 한국어 자막, TTS는 최종 대본의 내레이션만.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "편집 교정 중 원음의 단어·목소리와 이미 승인된 TTS를 유지한다. 메모·ID를 음성에 넣지 않는다.",
+      "additional_proposal": "",
+      "verification_limit": "원문 클립 약 4초는 일반 형식이다. 실제 허가·대화 단위에 따른 적용은 따로 검토해야 한다."
+    },
+    {
+      "id": "AUD-06",
+      "topic": "풀파티 색·폰트·효과",
+      "status": "확정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 282,
+          "line_end": 282,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "___________________________________[어울리는  문구]를 2줄로: 작은 첫 줄 흰색, 둘째 줄 흰색(#FDFDFC)에 핵심 명사만 빨강(#E03C3E); 원본처럼 외곽선·그림자 없음, 굵은 각진 고딕, 양끝 빨간 번개 PNG; 영상 배경 그대로. 적용 설정 — “예전에 / 풀 파티를 그렇게 다녔다고” / 티몬 몬소리 Black / 38px · 자간 -1px · 글자 기울기 0° · 줄 각도 0° · 세로 100% / 흰 글씨(외곽선 없음) #FDFDFC · 빨강 강조 #E03C3E · 외곽선(원본 없음·켤 때만) #1C1717 · 그림자(원본 없음) #000000 · 번개 빨강(PNG) #D94B50 / 외곽선 0px · 바깥 테두리 0px · 그림자 0px 번짐 0px · 첫 줄 55% · 양옆 lightning PNG · 배경 투명."
+        }
+      ],
+      "user_requirement": "티몬 몬소리 Black, 본문 #FDFDFC, 핵심 명사 #E03C3E, 빨간 번개 #D94B50, 외곽선·그림자 0, 첫 줄 55%, 38px·자간 -1px.",
+      "claude_summary_or_report": "요약은 #E03C3E만 적어 번개 색·흰색·0px 값·비율의 일부가 누락됐다.",
+      "earlier_chatgpt_proposal": "이전 ChatGPT 공통 빨강 #FF3838·공통 폰트 추천은 이 명세에 적용할 수 없다.",
+      "resolution": "사용자가 색을 주지 않은 것이 아니다. 명시된 색을 해당 스타일에 고정한다. VS 빨강이나 공통 accent로 대체하지 않는다.",
+      "additional_proposal": "",
+      "verification_limit": "최종 렌더의 실제 RGB는 렌더 프레임을 받아 비교해야 한다."
+    },
+    {
+      "id": "AUD-07",
+      "topic": "재능이 없는 색·라벨",
+      "status": "확정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 285,
+          "line_end": 285,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "________________________[대본 특정 어울리는 문구]를 한 줄 흰색(#FDFDFD) 굵은 좁은 고딕으로, 핵심 구절만 빨강(#E25254→#F26163); 줄 각도 약 -1.5°, 검정 외곽선(#111114)+아래 그림자; 강조어 위에 검정 박스(#040506)+흰 글씨(#EFEFEF) 라벨; 불투명 배경 박스 없이 영상 위에 얹는다. 적용 설정 — “정말 연애에 재능이 없는 선수예요” / 티몬 몬소리 Black / 38px · 자간 -1.5px · 글자 기울기 0° · 줄 각도 -1.5° · 세로 116% / 흰 본문 #FDFDFD · 빨강 강조(위) #E25254 · 빨강 강조(아래) #F26163 · 검정 외곽선 #111114 · 검정 그림자 #111114 · ‘선수 박탈’ 박스 #040506 · 박스 글씨 #EFEFEF / 외곽선 5px · 바깥 테두리 0px · 그림자 2px 번짐 0px · 그라데이션 켬 · 박스 “선수 박탈” · 양옆 burst PNG · 배경 투명."
+        }
+      ],
+      "user_requirement": "흰 본문 #FDFDFD, 핵심 구절 위 #E25254→아래 #F26163, 외곽선 #111114·5px, 그림자 2px, 검정 라벨 #040506·글씨 #EFEFEF, 줄 -1.5°, 세로 116%.",
+      "claude_summary_or_report": "요약만 보면 그라데이션 방향과 라벨의 독립 색·세부 크기가 사라진다.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "단색 빨강으로 뭉개지 말고 지정한 상하 그라데이션을 적용한다. 라벨은 이 스타일의 구성 요소이며 기본 자막은 동시에 표시하지 않는다.",
+      "additional_proposal": "",
+      "verification_limit": "레퍼런스 원본의 시각적 일치 여부는 현재 첨부의 언론 캡처만으로 검증할 수 없다."
+    },
+    {
+      "id": "AUD-08",
+      "topic": "형광 색 여러 개와 범위",
+      "status": "확정·문구 해석 주의",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 24,
+          "line_end": 31,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "연연두 배경\n#F5FFDC\n형광 연두\n#D9FF65\n연분홍 배경\n#FEE9F2\n주의 박스\n#FCF1ED"
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 55,
+          "line_end": 59,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": " \"fill\": \"#FFFFFF\",\n \"acc\": \"#e60f2f\",\n \"stroke\": \"#111111\",\n \"bgmode\": \"none\",\n \"hl\": \"marker\","
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 66,
+          "line_end": 77,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": " \"use\": \"일반 자막 중 핵심어 하나만 강조. 형광펜 / 네온 밑줄 / 손그림 동그라미.\",\n \"ex\": [\n  \"이 기술은 세계 최초로 한국이 만들었다\",\n  \"외국인들이 가장 놀란 건 속도였다\",\n  \"심지어 가격은 절반이었다\"\n ],\n \"steps\": [\n  \"0.00 하단 자막 타이핑\",\n  \"0.40 강조어 형광펜 왼→오 칠하기\",\n  \"0.45 반짝 11 (-20dB)\"\n ],\n \"dont\": \"한 문장에 강조 하나. 색은 노랑/연두/하늘 중 하나로 통일.\","
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "색깔도 하나는 노란, 약간 연노란색 있고 하나는 저 연두색 있는데 저것도 안 썼고",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "사용자 제공 연연두 #F5FFDC, 형광 연두 #D9FF65 등과 최신 캡처의 연노랑·연두를 실제 사용한다.",
+      "claude_summary_or_report": "사용자 제공 명세의 “색은 노랑/연두/하늘 중 하나로 통일”을 “편당 1색”으로 강화했다.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "“편당 1색”은 원문에 없는 단위이므로 확정하지 않는다. 문장별 강조 하나와 스타일·역할별 색 지정으로 정리한다. 최신 캡처 추출색은 기존 팔레트와 별도 토큰으로 저장한다.",
+      "additional_proposal": "🌸 연노랑/연두를 기사 헤드라인용 역할별 색으로 분리하고, 댓글 #73F282와 혼용하지 않는다.",
+      "verification_limit": "JSON keyword.acc=#e60f2f가 노랑/연두/하늘 지시와 내부 충돌한다. 이 오래된 일반 accent를 최종 빨강으로 채택하지 않는다."
+    },
+    {
+      "id": "AUD-09",
+      "topic": "언론과 댓글은 서로 다른 구성",
+      "status": "확정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 2,
+          "line_end": 2,
+          "speaker_class": "user_direct",
+          "verbatim": "__ 효과음: 책장넘기는소리, 함성소리 ,등 너무 많지 않게 사용, . 댓글이나 언론 은, 타이피ㅇ하는 효과, .. 화면 전화 : 줌인 줌아웃, 책 넘어가는 효과,"
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 21,
+          "line_end": 21,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": " · 댓글·인용: 흰 말풍선 + 이모지(참고 사진 5번). 실제 댓글이 없으면 지어내지 않는다."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 239,
+          "line_end": 272,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "{\n \"key\": \"comment\",\n \"name\": \"💬 해외 댓글\",\n \"bg\": \"\",\n \"anim\": \"typecard\",\n \"font\": \"Do Hyeon\",\n \"fill\": \"#111111\",\n \"acc\": \"#73f282\",\n \"stroke\": \"#111111\",\n \"bgmode\": \"dim\",\n \"nick\": \"Kenji_1989\",\n \"flag\": \"🇨🇳 \",\n \"orig\": \"Honestly, Korea is on another level now.\",\n \"main\": \"솔직히 *한국은 이제 차원이 다르다*\",\n \"likes\": \"2.4천\",\n \"sfx\": [\n  \"27\",\n  \"29\",\n  \"30\"\n ],\n \"use\": \"실제 댓글만. 원문 + 번역 + 좋아요 수. 번역·요약은 원문과 구분.\",\n \"ex\": [\n  \"솔직히 한국은 이제 차원이 다르다\",\n  \"우리는 왜 못 하지?\",  \n  \"한국 여행 다시 간다\"\n ],\n \"steps\": [\n  \"0.00 카드 옆에서 등장 + 알림 29\",\n  \"0.10 원문 타이핑 27 (-24dB)\",\n  \"0.80 번역 줄 등장, 핵심어 형광펜\",\n  \"1.50 다음 댓글로 책장 28\"\n ],\n \"dont\": \"댓글 꾸며내기 금지. 닉네임은 가리거나 그대로 (채널 규칙에 맞게).\",\n \"ratio\": \"16:9 (1920×1080)\""
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 313,
+          "line_end": 314,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "댓글 카드 1개 + 내 캐릭터 얼굴 1개 중심.\n댓글 앱형·말풍선형·카드형 3종 비교."
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "실제로 했을 때 언론뿐만 아니라 댓글도 막 저거를 썼고",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "둘 다 타이핑 효과를 쓸 수 있으나, 댓글은 원문·번역·좋아요·캐릭터 카드이고 언론은 기사 헤드라인·근거 표시를 별도 적용한다.",
+      "claude_summary_or_report": "언론 인용 흰 띠·검정 헤드라인 구현 설명이 댓글에도 범용 적용됐다는 사용자 보고.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "타이핑이라는 공통 애니메이션과 언론/댓글 레이아웃을 분리한다. 댓글 앱형·말풍선형·카드형의 3종 비교 및 카드1+캐릭터1 요청을 유지한다.",
+      "additional_proposal": "",
+      "verification_limit": "어느 코드가 실제로 레이아웃을 공유하는지는 아직 직접 확인되지 않았다."
+    },
+    {
+      "id": "AUD-10",
+      "topic": "검정 반투명 배경",
+      "status": "확정·수치 미지정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 19,
+          "line_end": 22,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "- 🔵 내레이션 구간: 가지고 있는 원본 영상을 소리 없이, 어둡게(반투명) 깔고 재생한다. 그 위에\n · 키워드 헤드라인: 흰 굵은 글씨 + 형광 강조(참고 사진 4·6번)\n · 댓글·인용: 흰 말풍선 + 이모지(참고 사진 5번). 실제 댓글이 없으면 지어내지 않는다.\n · 그래프: 회색 질감 배경 + [ 제목 ] + 큰 숫자 + 출처(참고 사진 3·7번)"
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 159,
+          "line_end": 159,
+          "speaker_class": "user_direct",
+          "verbatim": "자, 지금 이거 일단 저장하고 있는데 지금 여기 밑에 두 개 같은 경우는 지금 색상 코드나 이런 것들이 지금 vs 글자라든지 이제 왼쪽 오른쪽에 그 뭐야 이제 왼쪽 오른쪽은 그냥 흑백으로만 이제 배경을 해 주고 근데 뒤에가 투명하게 하면서 뒤에 영상이 그냥 이렇게 나갔으면 좋겠어. 그러니까 무슨 말이냐면은 지금 이게 색상이 그러니까 투명도가 지금 설정이 안 돼 있는데 투명하게 해 가지고 이제 색상이 고렇게 돼야 된다는 거지. 그러니까 저 적색깔을 없애고, 그러니까 오른쪽 왼쪽을 투명하게 해가지고 이제 그렇게 해야 된다는 거지. 그 내용이 해당하는 부분에만 저렇게 VS를 붙여주면서 넣어야 되는 거고, 그리고 안에 들어가 있는 저 글자들 있잖아. 글자들은 픽스가 된 게 아니라 내가 앞으로 이제 50편을 각각 하나당 17분 이상씩 그렇게 할 거기 때문에, 그러니까 저런 내용에 적당하게 들어가야 될 내용에다가 저렇게 해라는 거고, 그러니까 지금 VS 컬러라든지 VS 컬러 저런 게 조금 안 맞거든. 내가 지금 VS 컬러는 빨간 색깔 하나 색상 코드를 이미지로 줄 테니까 그걸로 하고, 그 다음에 그 뒤에 배경은 그냥 투명도로 해가지고 뒤에가 그냥 영상이 그냥 흐르게 한다든지, 아니면은 거기에 맞는 어떤 그 한글 영상이 들어가게 한다든지, 아니면 내가 지금 주는 이제 태극기인가 하여튼 저런 비슷한 사진 있지. 그 사진을 넣어가지고 주고, 그 다음에 통계라든지 이런 것들은 지금 내가 주는 것처럼 요런 류의 그 통계가 이런 종류의 그래프가 뒤에 배경은 투명하게 해서 들어갔으면 좋겠거든. 제일 그리고 보자. VS 컬러는 지금 B71512 아니다. 내가 지금 사진에 주는 E21317 저 컬러로 하고 그렇게 하세요. 그리고 자막은 내가 제일 처음 준 거 있잖아. 그거 레코체인가 그걸로 이제 자막하면 되고, 우선은 요거를 저장을 그러면 하고 있어 보세요."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 248,
+          "line_end": 248,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": " \"bgmode\": \"dim\","
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 319,
+          "line_end": 319,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "흰 글씨에는 반투명 검정 배경, 검정 글씨에는 흰 배경."
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "지금 배경에 보면 검정색깔 이렇게 흐리게 나오는 저거는 그 배경 효과라고 해야 되나? 그 투명도 효과를 몇 퍼센트를 주거나 어떻게 해야지 나오는지도 알려주고.",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "뒤 영상이 보이는 반투명 구성, 필요한 흰 글씨에는 검정 반투명 배경을 사용한다.",
+      "claude_summary_or_report": "“배경은 항상 투명 — 어둡게 깔기는 통계 그래프 때만”이라는 요약은 원문보다 좁다.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "영상 배경을 완전 불투명 판으로 대체하지 않는다는 뜻과, 읽기 위한 반투명 어두운 오버레이 사용을 양립시킨다. 기사·댓글을 일괄 제외하지 않는다.",
+      "additional_proposal": "🌸 역할별 검정 오버레이 투명도를 샘플로 비교한다. 제안 숫자는 추출·확정값으로 부르지 않는다.",
+      "verification_limit": "이미 어둡게 합성된 캡처 한 장만으로 원본 밝기와 실제 alpha를 유일하게 복원할 수 없다."
+    },
+    {
+      "id": "AUD-11",
+      "topic": "한마디 평가와 자막 중복",
+      "status": "확정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 202,
+          "line_end": 202,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "[대본 한마디 평가]를 정선아리랑뿌리체 계열 붓글씨로: 작은 머리말+큰 본문, 먹색(#040404) 글씨에 흰 외곽선(#FBFAF8), 마지막 낱말만 반전(흰 글씨 #FCFCFC + 검정 외곽선 #080404), 전체에 오른쪽 아래 검정 그림자; 영상 좌하단에 투명 오버레이. 적용 설정 — “한마디로 / 재수 없는 스타일” / 정선아리랑뿌리체 / 56px · 자간 0px · 글자 기울기 0° · 줄 각도 0° · 세로 100% / 먹색 글씨 #040404 · 먹 글씨 흰 외곽선 #FBFAF8 · ‘스타일’ 흰 글씨 #FCFCFC · ‘스타일’ 검정 외곽선 #080404 · 오른쪽 아래 검정 그림자 #000000 / 외곽선 6px · 바깥 테두리 0px · 그림자 4.5px 번짐 0px · 첫 줄 45% · 배경 투명."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 305,
+          "line_end": 305,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "기존 영상·음성·자막과 겹침 자동 방지."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 315,
+          "line_end": 315,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "기본 자막과 디자인 자막 동시 노출 금지."
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "뭐 줄이 두 개인데 재수없는 스타일, 특히 뭔가 한마디 평가 그거랑 이제 자막이랑 그게 둘 다 계속 들어가고.",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "한마디 평가 자체의 작은 머리말+큰 본문은 유지하되 기본 자막과 디자인 자막의 동시 노출을 막는다.",
+      "claude_summary_or_report": "모든 장면에 기본 자막을 깐다는 렌더러 원인 보고.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "한마디 평가가 보이는 구간에는 기본 자막을 비노출한다. 모든 2줄 디자인을 금지한다는 뜻으로 확대해석하지 않는다.",
+      "additional_proposal": "🌸 기본/평가/번개/라벨/금빛 등 주 자막 레이어를 상호 배타적인 상태로 선택한다.",
+      "verification_limit": "Claude가 원인을 보고했지만 이 감사에서 해당 렌더러를 직접 열어 확인한 것은 아니다."
+    },
+    {
+      "id": "AUD-12",
+      "topic": "레코체·폰트와 크기",
+      "status": "확정·검증 필요",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 54,
+          "line_end": 54,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": " \"font\": \"레코체\","
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 159,
+          "line_end": 159,
+          "speaker_class": "user_direct",
+          "verbatim": "자, 지금 이거 일단 저장하고 있는데 지금 여기 밑에 두 개 같은 경우는 지금 색상 코드나 이런 것들이 지금 vs 글자라든지 이제 왼쪽 오른쪽에 그 뭐야 이제 왼쪽 오른쪽은 그냥 흑백으로만 이제 배경을 해 주고 근데 뒤에가 투명하게 하면서 뒤에 영상이 그냥 이렇게 나갔으면 좋겠어. 그러니까 무슨 말이냐면은 지금 이게 색상이 그러니까 투명도가 지금 설정이 안 돼 있는데 투명하게 해 가지고 이제 색상이 고렇게 돼야 된다는 거지. 그러니까 저 적색깔을 없애고, 그러니까 오른쪽 왼쪽을 투명하게 해가지고 이제 그렇게 해야 된다는 거지. 그 내용이 해당하는 부분에만 저렇게 VS를 붙여주면서 넣어야 되는 거고, 그리고 안에 들어가 있는 저 글자들 있잖아. 글자들은 픽스가 된 게 아니라 내가 앞으로 이제 50편을 각각 하나당 17분 이상씩 그렇게 할 거기 때문에, 그러니까 저런 내용에 적당하게 들어가야 될 내용에다가 저렇게 해라는 거고, 그러니까 지금 VS 컬러라든지 VS 컬러 저런 게 조금 안 맞거든. 내가 지금 VS 컬러는 빨간 색깔 하나 색상 코드를 이미지로 줄 테니까 그걸로 하고, 그 다음에 그 뒤에 배경은 그냥 투명도로 해가지고 뒤에가 그냥 영상이 그냥 흐르게 한다든지, 아니면은 거기에 맞는 어떤 그 한글 영상이 들어가게 한다든지, 아니면 내가 지금 주는 이제 태극기인가 하여튼 저런 비슷한 사진 있지. 그 사진을 넣어가지고 주고, 그 다음에 통계라든지 이런 것들은 지금 내가 주는 것처럼 요런 류의 그 통계가 이런 종류의 그래프가 뒤에 배경은 투명하게 해서 들어갔으면 좋겠거든. 제일 그리고 보자. VS 컬러는 지금 B71512 아니다. 내가 지금 사진에 주는 E21317 저 컬러로 하고 그렇게 하세요. 그리고 자막은 내가 제일 처음 준 거 있잖아. 그거 레코체인가 그걸로 이제 자막하면 되고, 우선은 요거를 저장을 그러면 하고 있어 보세요."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 202,
+          "line_end": 202,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "[대본 한마디 평가]를 정선아리랑뿌리체 계열 붓글씨로: 작은 머리말+큰 본문, 먹색(#040404) 글씨에 흰 외곽선(#FBFAF8), 마지막 낱말만 반전(흰 글씨 #FCFCFC + 검정 외곽선 #080404), 전체에 오른쪽 아래 검정 그림자; 영상 좌하단에 투명 오버레이. 적용 설정 — “한마디로 / 재수 없는 스타일” / 정선아리랑뿌리체 / 56px · 자간 0px · 글자 기울기 0° · 줄 각도 0° · 세로 100% / 먹색 글씨 #040404 · 먹 글씨 흰 외곽선 #FBFAF8 · ‘스타일’ 흰 글씨 #FCFCFC · ‘스타일’ 검정 외곽선 #080404 · 오른쪽 아래 검정 그림자 #000000 / 외곽선 6px · 바깥 테두리 0px · 그림자 4.5px 번짐 0px · 첫 줄 45% · 배경 투명."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 282,
+          "line_end": 282,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "___________________________________[어울리는  문구]를 2줄로: 작은 첫 줄 흰색, 둘째 줄 흰색(#FDFDFC)에 핵심 명사만 빨강(#E03C3E); 원본처럼 외곽선·그림자 없음, 굵은 각진 고딕, 양끝 빨간 번개 PNG; 영상 배경 그대로. 적용 설정 — “예전에 / 풀 파티를 그렇게 다녔다고” / 티몬 몬소리 Black / 38px · 자간 -1px · 글자 기울기 0° · 줄 각도 0° · 세로 100% / 흰 글씨(외곽선 없음) #FDFDFC · 빨강 강조 #E03C3E · 외곽선(원본 없음·켤 때만) #1C1717 · 그림자(원본 없음) #000000 · 번개 빨강(PNG) #D94B50 / 외곽선 0px · 바깥 테두리 0px · 그림자 0px 번짐 0px · 첫 줄 55% · 양옆 lightning PNG · 배경 투명."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 285,
+          "line_end": 285,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "________________________[대본 특정 어울리는 문구]를 한 줄 흰색(#FDFDFD) 굵은 좁은 고딕으로, 핵심 구절만 빨강(#E25254→#F26163); 줄 각도 약 -1.5°, 검정 외곽선(#111114)+아래 그림자; 강조어 위에 검정 박스(#040506)+흰 글씨(#EFEFEF) 라벨; 불투명 배경 박스 없이 영상 위에 얹는다. 적용 설정 — “정말 연애에 재능이 없는 선수예요” / 티몬 몬소리 Black / 38px · 자간 -1.5px · 글자 기울기 0° · 줄 각도 -1.5° · 세로 116% / 흰 본문 #FDFDFD · 빨강 강조(위) #E25254 · 빨강 강조(아래) #F26163 · 검정 외곽선 #111114 · 검정 그림자 #111114 · ‘선수 박탈’ 박스 #040506 · 박스 글씨 #EFEFEF / 외곽선 5px · 바깥 테두리 0px · 그림자 2px 번짐 0px · 그라데이션 켬 · 박스 “선수 박탈” · 양옆 burst PNG · 배경 투명."
+        }
+      ],
+      "user_requirement": "레코체 기본 자막 및 스타일별 정선아리랑뿌리체·티몬 몬소리 Black 등 지정 폰트 사용.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "이전 ChatGPT의 Pretendard/Gmarket/검은고딕 권장은 이 스타일들을 덮을 근거가 없다.",
+      "resolution": "폰트 이름뿐 아니라 실제 로딩된 폰트 파일·family와 glyph 지원을 확인한다. 실패 시 다른 폰트로 조용히 바꾸지 않는다.",
+      "additional_proposal": "🌸 렌더 manifest에 fontResolved·fontMissing을 기록하고 시안·최종 렌더에서 같은 폰트를 검증한다.",
+      "verification_limit": "38px·56px의 기준 캔버스가 원문에 명시되지 않아 1080p 절대값으로 확대 확정하지 않는다."
+    },
+    {
+      "id": "AUD-13",
+      "topic": "VS 색과 반투명 카드",
+      "status": "확정·이전 JSON 대체",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 120,
+          "line_end": 156,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "{\n \"key\": \"vs\",\n \"name\": \"⚔️ VS 비교\",\n \"bg\": \"\",\n \"anim\": \"swipe\",\n \"font\": \"Black Han Sans\",\n \"fill\": \"#FFFFFF\",\n \"acc\": \"#FFD54F\",\n \"stroke\": \"#111111\",\n \"bgmode\": \"none\",\n \"vsStyle\": \"metal\",\n \"vsSize\": 18,\n \"vsColor\": \"#FFD54F\",\n \"vsStroke\": \"#5a3b00\",\n \"left\": \"🇯🇵 일본\",\n \"right\": \"🇰🇷 한국\",\n \"main\": \"VS\",\n \"sub\": \"고속철 수출\",\n \"sfx\": [\n  \"21\",\n  \"23\",\n  \"22\"\n ],\n \"use\": \"두 나라를 같은 조건으로 비교할 때. 좌 일본 · 우 한국 · 가운데 VS.\",\n \"ex\": [\n  \"한국 VS 일본 · 고속철\",\n  \"한국 VS 중국 · 반도체\",\n  \"한국 VS 미국 · 배터리\"\n ],\n \"steps\": [\n  \"0.00 좌우 카드가 양옆에서 휙 21\",\n  \"0.25 가운데 충돌 + 금속음 23\",\n  \"0.30 VS 글자 스탬프\",\n  \"0.80 비교 항목 아래에 등장\"\n ],\n \"dont\": \"비교 수치는 같은 연도·같은 단위. 국기는 Wikimedia Commons SVG.\",\n \"ratio\": \"16:9 (1920×1080)\""
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 159,
+          "line_end": 159,
+          "speaker_class": "user_direct",
+          "verbatim": "자, 지금 이거 일단 저장하고 있는데 지금 여기 밑에 두 개 같은 경우는 지금 색상 코드나 이런 것들이 지금 vs 글자라든지 이제 왼쪽 오른쪽에 그 뭐야 이제 왼쪽 오른쪽은 그냥 흑백으로만 이제 배경을 해 주고 근데 뒤에가 투명하게 하면서 뒤에 영상이 그냥 이렇게 나갔으면 좋겠어. 그러니까 무슨 말이냐면은 지금 이게 색상이 그러니까 투명도가 지금 설정이 안 돼 있는데 투명하게 해 가지고 이제 색상이 고렇게 돼야 된다는 거지. 그러니까 저 적색깔을 없애고, 그러니까 오른쪽 왼쪽을 투명하게 해가지고 이제 그렇게 해야 된다는 거지. 그 내용이 해당하는 부분에만 저렇게 VS를 붙여주면서 넣어야 되는 거고, 그리고 안에 들어가 있는 저 글자들 있잖아. 글자들은 픽스가 된 게 아니라 내가 앞으로 이제 50편을 각각 하나당 17분 이상씩 그렇게 할 거기 때문에, 그러니까 저런 내용에 적당하게 들어가야 될 내용에다가 저렇게 해라는 거고, 그러니까 지금 VS 컬러라든지 VS 컬러 저런 게 조금 안 맞거든. 내가 지금 VS 컬러는 빨간 색깔 하나 색상 코드를 이미지로 줄 테니까 그걸로 하고, 그 다음에 그 뒤에 배경은 그냥 투명도로 해가지고 뒤에가 그냥 영상이 그냥 흐르게 한다든지, 아니면은 거기에 맞는 어떤 그 한글 영상이 들어가게 한다든지, 아니면 내가 지금 주는 이제 태극기인가 하여튼 저런 비슷한 사진 있지. 그 사진을 넣어가지고 주고, 그 다음에 통계라든지 이런 것들은 지금 내가 주는 것처럼 요런 류의 그 통계가 이런 종류의 그래프가 뒤에 배경은 투명하게 해서 들어갔으면 좋겠거든. 제일 그리고 보자. VS 컬러는 지금 B71512 아니다. 내가 지금 사진에 주는 E21317 저 컬러로 하고 그렇게 하세요. 그리고 자막은 내가 제일 처음 준 거 있잖아. 그거 레코체인가 그걸로 이제 자막하면 되고, 우선은 요거를 저장을 그러면 하고 있어 보세요."
+        }
+      ],
+      "user_requirement": "VS만 #E21317. #B71512도 아니고 오래된 #FFD54F도 아니다. 좌우 카드는 흑백 반투명이며 대본에 맞는 내용.",
+      "claude_summary_or_report": "규칙에 없는 빨간 알약 태그가 붙었다는 보고.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "최신 직접 발화가 이전 JSON의 금색 VS를 대체한다. 임의 빨간 알약 태그는 제거 대상. VS용 빨강을 다른 글씨에 전역 적용하지 않는다.",
+      "additional_proposal": "",
+      "verification_limit": "실제 코드의 49행 등 행 번호 주장은 원본 코드 확인 전에는 Claude 보고로만 표시한다."
+    },
+    {
+      "id": "AUD-14",
+      "topic": "통계 그래프가 적은 문제",
+      "status": "확정·원인 미확인",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 22,
+          "line_end": 22,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": " · 그래프: 회색 질감 배경 + [ 제목 ] + 큰 숫자 + 출처(참고 사진 3·7번)"
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 159,
+          "line_end": 159,
+          "speaker_class": "user_direct",
+          "verbatim": "자, 지금 이거 일단 저장하고 있는데 지금 여기 밑에 두 개 같은 경우는 지금 색상 코드나 이런 것들이 지금 vs 글자라든지 이제 왼쪽 오른쪽에 그 뭐야 이제 왼쪽 오른쪽은 그냥 흑백으로만 이제 배경을 해 주고 근데 뒤에가 투명하게 하면서 뒤에 영상이 그냥 이렇게 나갔으면 좋겠어. 그러니까 무슨 말이냐면은 지금 이게 색상이 그러니까 투명도가 지금 설정이 안 돼 있는데 투명하게 해 가지고 이제 색상이 고렇게 돼야 된다는 거지. 그러니까 저 적색깔을 없애고, 그러니까 오른쪽 왼쪽을 투명하게 해가지고 이제 그렇게 해야 된다는 거지. 그 내용이 해당하는 부분에만 저렇게 VS를 붙여주면서 넣어야 되는 거고, 그리고 안에 들어가 있는 저 글자들 있잖아. 글자들은 픽스가 된 게 아니라 내가 앞으로 이제 50편을 각각 하나당 17분 이상씩 그렇게 할 거기 때문에, 그러니까 저런 내용에 적당하게 들어가야 될 내용에다가 저렇게 해라는 거고, 그러니까 지금 VS 컬러라든지 VS 컬러 저런 게 조금 안 맞거든. 내가 지금 VS 컬러는 빨간 색깔 하나 색상 코드를 이미지로 줄 테니까 그걸로 하고, 그 다음에 그 뒤에 배경은 그냥 투명도로 해가지고 뒤에가 그냥 영상이 그냥 흐르게 한다든지, 아니면은 거기에 맞는 어떤 그 한글 영상이 들어가게 한다든지, 아니면 내가 지금 주는 이제 태극기인가 하여튼 저런 비슷한 사진 있지. 그 사진을 넣어가지고 주고, 그 다음에 통계라든지 이런 것들은 지금 내가 주는 것처럼 요런 류의 그 통계가 이런 종류의 그래프가 뒤에 배경은 투명하게 해서 들어갔으면 좋겠거든. 제일 그리고 보자. VS 컬러는 지금 B71512 아니다. 내가 지금 사진에 주는 E21317 저 컬러로 하고 그렇게 하세요. 그리고 자막은 내가 제일 처음 준 거 있잖아. 그거 레코체인가 그걸로 이제 자막하면 되고, 우선은 요거를 저장을 그러면 하고 있어 보세요."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 188,
+          "line_end": 188,
+          "speaker_class": "claude_report",
+          "verbatim": "통계 그래프: 3번 사진처럼 막대와 꺾은선을 같이 씁니다. 선이 왼쪽에서 오른쪽으로 그려지고, 큰 숫자·손글씨 주석·출처가 붙습니다."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 320,
+          "line_end": 320,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "통계가 나오면 기존 그래프 디자인 활용."
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "그다음에 그래프도 별로 없고.",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "통계가 나오면 기존 그래프 디자인을 사용하고 제목·큰 숫자·출처를 유지한다. 최신 요청에서 실제 사용량 부족을 지적했다.",
+      "claude_summary_or_report": "시안에 막대+꺾은선이 있고 그래프 선은 원래 흰색인데 렌더러가 빨강으로 바꿨다고 보고.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "그래프를 무조건 일정 횟수 넣거나 근거 없는 숫자를 만들지 않는다. 대본의 수치 구간마다 그래프 후보·채택·미채택 사유를 확인한다.",
+      "additional_proposal": "🌸 기존 장면표의 수치 후보와 실제 렌더 그래프를 1:1 대조하는 누락 보고를 만든다.",
+      "verification_limit": "흰 선은 현재 원문의 사용자 직접 색 명세가 아니라 Claude의 시안 설명·원인 보고다. 실제 시안 확인이 필요."
+    },
+    {
+      "id": "AUD-15",
+      "topic": "불꽃·NO·아우라 용도",
+      "status": "확정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 299,
+          "line_end": 299,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "🌸내가 생성한 불꽃·아우라·네온 이미지 사용."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 324,
+          "line_end": 324,
+          "speaker_class": "user_direct",
+          "verbatim": "기존 HumanTouch 안에만 기능 추가하는 방안 제시. 아 이거는 그 가 세로로 가로 세로 막대기 같은 거 있지? 고거는 그 vs vs에 같이 쓰면 되고, 그다음에 no는 요거 뭐 비슷한 no에 관련된 거에 옆에다가 하면 되고, 그다음에 이제 불 같은 거는 막 뭐 와우 놀람이라든지 아니면 뭐 화남이라든지 아니면은 뭐 이렇게 해서 샤우팅 할 때라든지 막 감탄할 때라든지 좋다 할 때라든지 그럴 때 쓰고, 그다음에 요런 것들은 제일 마지막 거는 이제 사람 이제 사람 옆에 딱 저걸 쓰라는 거 아닌데, 사람이 이렇게 들어오면 사람 뒤에서 막 불이 나오는 그런 느낌 있지? 그런 식으로 이렇게 좀 어울릴 때 좀 쓰고, 그렇게 해서 써보세요. 그렇게 해서 이제 여기 저장을 시키세요. 그리고 내가 여태까지 너한테 했던 것들, 줬던 것들 있지? 그거를 좀 이렇게 줬던, 뭐라 해야 되지? 그런 규칙들, 그거를 다시 나한테 쫙 주고, 그리고 거기서 네가 지금 보니까 11분 전 글자 색깔이 내가 준 거는 달라. 그 이유가 뭔지 한번 파악을 해보고, 그리고 좀 보기 좋게 그 HTML로 시각화해서 show me 그렇게 해가지고 나한테 줘보세요. 그 오른쪽에 엄청 시각화를 예쁘게 해가지고 줘보세요. 그 색깔도 다양하게 하고 형광펜하고 강조하고 밑줄하고"
+        }
+      ],
+      "user_requirement": "기존 생성 자산 사용. 세로 막대는 VS, NO는 부정, 불은 놀람·화남·샤우팅·감탄·좋다, 아우라는 사람이 들어올 때 뒤에서.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "인물 옆에 스티커처럼 붙이는 것과 뒤에서 피어오르는 아우라를 구분한다. 실제 문맥에 맞게 선택한다.",
+      "additional_proposal": "🌸 인물 마스크 뒤 FX 레이어·앞 인물 순서로 합성하고 얼굴·자막과 겹침을 검사한다.",
+      "verification_limit": "6개 파일의 실제 alpha 상태와 리소스 존재는 이 감사에서 미확인. Claude의 저장 성공 보고는 직접 검증과 구분."
+    },
+    {
+      "id": "AUD-16",
+      "topic": "반전 정지 효과의 제한",
+      "status": "확정·최신 매끄러움과 범위 조정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 205,
+          "line_end": 237,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "{\n \"key\": \"twist\",\n \"name\": \"🔄 반전 · 그런데!\",\n \"bg\": \"\",\n \"anim\": \"shake\",\n \"font\": \"Black Han Sans\",\n \"fill\": \"#FFFFFF\",\n \"acc\": \"#FFFFFF\",\n \"stroke\": \"#111111\",\n \"bgmode\": \"gray\",\n \"box\": \"#E21317\",\n \"sub\": \"문제는 지금 하는 거 멈추지 말고 요것도 추가적으로 기억을 좀 하시고요. \",\n \"main\": \"*그런데!*\",\n \"sfx\": [\n  \"05\",\n  \"14\",\n  \"13\"\n ],\n \"use\": \"이야기 방향이 바뀌는 순간. 화면 정지 + 흑백 + 빨간 박스.\",\n \"ex\": [\n  \"그런데!\",\n  \"하지만 진짜 이유는 따로 있었다\",\n  \"반전은 3일 뒤에 터졌다\"\n ],\n \"steps\": [\n  \"-0.10 스크래치 05 선진입\",\n  \"0.00 화면 정지 + 흑백 + 흔들림 0.25초\",\n  \"0.05 빨간 박스 쾅\",\n  \"0.60 전환음 14와 함께 다음 장면\"\n ],\n \"dont\": \"반전 효과는 영상 하나에 2~3번까지.\",\n \"ratio\": \"16:9 (1920×1080)\"\n}"
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 321,
+          "line_end": 321,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "뚝뚝 끊기는 컷 대신 자연스러운 전환·줌·디졸브."
+        }
+      ],
+      "user_requirement": "그런데 반전의 의도적 정지+흑백+짧은 흔들림은 편당2~3회. 일반 전환은 매끄럽게.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "의도적 반전 효과를 일반 컷 전체의 정지 프레임 방식으로 확장하지 않는다. 최신 후반부 끊김 지적에 따라 원치 않는 정지를 제거한다.",
+      "additional_proposal": "🌸 반전 이벤트만 freezeAllowed로 표시하고 나머지 정지는 검사 대상으로 둔다.",
+      "verification_limit": "2~3회는 원문에 있으나 모든 종류 효과의 횟수 제한으로 확대하면 안 된다."
+    },
+    {
+      "id": "AUD-17",
+      "topic": "원문 글자 보존과 블러",
+      "status": "확정·후속 지시 적용",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 294,
+          "line_end": 294,
+          "speaker_class": "user_direct",
+          "verbatim": "워터마크에는 모자이크를, 원본 하단 자막 영역과 화면 안에서 자동 검출된 글자에는 블러를 적용 지금 하는 거 멈추지 말고 이거 적용하고 해주세요. 지금 하는 거 멈추지 말고요. 나레이션은 60% 이상이 아니라 지금 나레이션을 내가 이미 생성해놨기 때문에 거의 90%인데 그 부분을 빼세요. 그 부분을 그거에 해당하는 거는 빼도 됩니다. 그러니까 메모해 놓은 거를 빼도 된다 이 말입니다."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 316,
+          "line_end": 318,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "해외 원문 댓글·중국어·일본어 글씨는 보존.\n하단 원본 자막 제거가 필요하면 정확한 영역만 처리.\n네모 모자이크 대신 자연스러운 블러 선택."
+        }
+      ],
+      "user_requirement": "이전에는 자동 검출 글자 블러/워터마크 모자이크였고 후속 제공 명세는 해외 원문·중국어·일본어 보존, 하단 필요 영역만 처리, 자연스러운 블러.",
+      "claude_summary_or_report": "충돌을 이유로 승인 대기 상태로 남겼다고 보고.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "시간순 후속 구체 지시를 적용한다. 모든 화면 글자를 자동 블러하지 않고 대상별 처리한다. 최신 사용자는 원문과 실제 동작의 불일치를 고치라고 요청했으므로 단순 충돌표만 만들고 중단하지 않는다.",
+      "additional_proposal": "",
+      "verification_limit": "사용자 제공 V7 명세라는 출처를 표시한다. 마스킹 영역은 실제 원본 프레임에서 정해야 한다."
+    },
+    {
+      "id": "AUD-18",
+      "topic": "저작권용 변형과 매끄러운 편집",
+      "status": "확정·외부정책 확인 필요",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 1,
+          "line_end": 1,
+          "speaker_class": "user_direct",
+          "verbatim": "이거 저장하고 있어 ,다른 세션에서도 사용하게, 포크로 영상은 4초 이하 컷 내 나레이션 60% 이상 제작 ... 좌우반전·크롭·속도 변경·로고 가림 (빌리빌리 샤오홍수 등 로고는 모자이크 하기, )"
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 33,
+          "line_end": 33,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "- 좌우반전·속도 변경."
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "저작권 어차피 승인을 받았기 때문에 상관이 없지만",
+          "line_start": null,
+          "line_end": null
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "저작권도 이렇게 안전하게 하면서도 좀 보기도 좋은 그런 게 있으면은 그 뭐지? 돈 모양 해가지고 이모티콘 넣어서 알려주고",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "사용자는 승인을 받았다고 말하며 보기 좋은 권리 처리 제안을 💰 표시로 원한다.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "좌우반전·크롭·배속·짧은 컷 자체를 저작권 안전 보장으로 서술하지 않는다. 허가 범위 안에서 보기 좋은 원본 속도·문맥을 보존하는 방법을 💰🌸 제안으로 분리한다.",
+      "additional_proposal": "",
+      "verification_limit": "이 감사에서 허가 문서나 음원 포함 범위는 검증하지 않았다. 사용자 허가 주장을 거짓으로 취급하거나 불필요한 재승인을 요구하지 않는다."
+    },
+    {
+      "id": "AUD-19",
+      "topic": "11종 모두 사용·같은 종류 연속 금지",
+      "status": "미확인·Claude 요약만",
+      "evidence": [
+        {
+          "source": "latest_user_message",
+          "speaker_class": "claude_summary_quoted_by_user",
+          "verbatim": "11종을 섞어 쓰고 **같은 종류 연속 금지**. 글자 내용은 편마다 대본에 맞춰 바꾼다.",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "현재 제공된 첨부 원문에는 이 전체 규칙을 직접 지시한 근거가 없다. 최신 메시지에서도 해당 문장은 Claude 정리 내용으로 소개됐다.",
+      "claude_summary_or_report": "11종을 섞어 쓰고 같은 종류 연속 금지라고 요약.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "사용자 확정 규칙으로 채택하지 않는다. 같은 종류 금지가 의미 없는 강제 변주와 끊김을 유발할 수 있으므로 추가 제안이라면 🌸로 별도 설명한다.",
+      "additional_proposal": "",
+      "verification_limit": "다른 세션의 원문은 제공되지 않았으므로 과거에 절대로 말한 적 없다고 단정하지 않는다."
+    },
+    {
+      "id": "AUD-20",
+      "topic": "금빛 자막의 세부 수치",
+      "status": "미확인·Claude 요약만",
+      "evidence": [
+        {
+          "source": "latest_user_message",
+          "speaker_class": "claude_summary_quoted_by_user",
+          "verbatim": "**⑪ 금빛 칭찬 · 평창평화체**",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "현재 메시지의 Claude 요약에는 금빛 색과 별34·금가루200이 있지만 첨부 원문에서 해당 사용자 명세는 확인되지 않았다.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "사용자 직접 확정값과 분리하여 “Claude 정리에서만 확인”으로 남긴다. 숫자34·200을 모든 렌더에 강제하는 새 의무로 만들지 않는다.",
+      "additional_proposal": "",
+      "verification_limit": "실제 이전 디자인 원본이나 추가 대화로 출처가 보강되면 분류를 갱신한다."
+    },
+    {
+      "id": "AUD-21",
+      "topic": "폰트 업로드와 검증 상태",
+      "status": "미확인·Claude 요약만",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 179,
+          "line_end": 179,
+          "speaker_class": "claude_report",
+          "verbatim": "같은 폴더에 보내주신 사진 4장(ref/)과 레코체 폰트 파일(fonts/)도 넣었습니다."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 290,
+          "line_end": 290,
+          "speaker_class": "claude_report",
+          "verbatim": "Fonts mostly installed locally; copying them into the design folder."
+        }
+      ],
+      "user_requirement": "지정 폰트를 정확히 사용한다. 사용자 최신 붙임 요약에는 폰트 GitHub 미게시 방침이 있다.",
+      "claude_summary_or_report": "앞선 Claude는 폰트를 폴더에 복사했고 GitHub에 올렸다고 보고. 뒤 요약에는 재배포 금지 폰트는 올리지 말라고 기록.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "폰트 파일을 추가 업로드할 근거로 Claude 성공 보고를 사용하지 않는다. 현재 배포는 실제 권리·공식 배포 경로를 확인하여 처리한다.",
+      "additional_proposal": "",
+      "verification_limit": "특정 폰트의 재배포 허용 여부는 이 감사 범위에서 확인하지 않았다."
+    },
+    {
+      "id": "AUD-22",
+      "topic": "기존 편집기·원본 보존",
+      "status": "확정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 45,
+          "line_end": 45,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "- 🔴 기존 연구 원본을 삭제하거나 간추린 내용으로 바꾸지 않는다. 새 폴더·새 탭으로 추가한다."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 298,
+          "line_end": 308,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "🌸기존 HumanTouch 편집기와 GitHub 디자인 요소 확인.\n🌸내가 생성한 불꽃·아우라·네온 이미지 사용.\n\n깻잎 논쟁 참고 화면처럼 큰 글씨 오버레이 추가.\n한 줄 초대형 / 위 작은 글씨+아래 큰 글씨 제공.\n정선아리랑 계열 붓글씨·기존 폰트 사용.\n충격·경악은 작게 시작해 화면 앞으로 날아오는 줌.\n기존 영상·음성·자막과 겹침 자동 방지.\n기존 코드 기능을 재사용하고 새 편집기 만들지 않기.\n30초 샘플 미리보기와 변경점 보고.\n기존 원본 보존, GitHub 게시 전 승인받기."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 324,
+          "line_end": 324,
+          "speaker_class": "user_direct",
+          "verbatim": "기존 HumanTouch 안에만 기능 추가하는 방안 제시. 아 이거는 그 가 세로로 가로 세로 막대기 같은 거 있지? 고거는 그 vs vs에 같이 쓰면 되고, 그다음에 no는 요거 뭐 비슷한 no에 관련된 거에 옆에다가 하면 되고, 그다음에 이제 불 같은 거는 막 뭐 와우 놀람이라든지 아니면 뭐 화남이라든지 아니면은 뭐 이렇게 해서 샤우팅 할 때라든지 막 감탄할 때라든지 좋다 할 때라든지 그럴 때 쓰고, 그다음에 요런 것들은 제일 마지막 거는 이제 사람 이제 사람 옆에 딱 저걸 쓰라는 거 아닌데, 사람이 이렇게 들어오면 사람 뒤에서 막 불이 나오는 그런 느낌 있지? 그런 식으로 이렇게 좀 어울릴 때 좀 쓰고, 그렇게 해서 써보세요. 그렇게 해서 이제 여기 저장을 시키세요. 그리고 내가 여태까지 너한테 했던 것들, 줬던 것들 있지? 그거를 좀 이렇게 줬던, 뭐라 해야 되지? 그런 규칙들, 그거를 다시 나한테 쫙 주고, 그리고 거기서 네가 지금 보니까 11분 전 글자 색깔이 내가 준 거는 달라. 그 이유가 뭔지 한번 파악을 해보고, 그리고 좀 보기 좋게 그 HTML로 시각화해서 show me 그렇게 해가지고 나한테 줘보세요. 그 오른쪽에 엄청 시각화를 예쁘게 해가지고 줘보세요. 그 색깔도 다양하게 하고 형광펜하고 강조하고 밑줄하고"
+        }
+      ],
+      "user_requirement": "HumanTouch와 기존 GitHub 디자인 재사용, 새 편집기 금지, 원본 보존.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "감사 HTML은 규칙 설명 자료로 만들고 실제 편집은 기존 렌더러의 수정으로 연결한다. 프로젝트 전체를 대체하지 않는다.",
+      "additional_proposal": "",
+      "verification_limit": "감사 HTML을 실제 렌더러를 고친 결과라고 보고하면 안 된다."
+    },
+    {
+      "id": "AUD-23",
+      "topic": "초기·현재·검수 단계 분리",
+      "status": "확정",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 307,
+          "line_end": 307,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "30초 샘플 미리보기와 변경점 보고."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 322,
+          "line_end": 323,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "기존 50편의 장면표를 읽고 샘플 1편 먼저 검수.\n대본·TTS 변경 금지."
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "너가 얘기했을 때 제일 초반에 줘야 되는 게 있고 지금 이 단계에서 줘야 되는 게 또 나눠진다 그랬었고.",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "처음 주는 규칙 프롬프트와 이미 생성된 영상 교정 프롬프트, 샘플 검수 후 확장 단계를 구분한다.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "초기: 원문·팔레트·스타일 계약. 현재: 대본/TTS 보존하고 렌더러+타임라인 수정. 검수:30초 디자인/모션 샘플과 대표1편 검수. 검증 후 나머지 확장.",
+      "additional_proposal": "🌸 샘플에는 문제 색3종·댓글/기사·그래프·중복 자막·후반 전환을 빠짐없이 포함하고 PASS/FAIL을 남긴다.",
+      "verification_limit": "사용자 원문은 30초 샘플과 샘플1편 둘 다 있으므로 둘 중 하나로 축약하지 않는다."
+    },
+    {
+      "id": "AUD-24",
+      "topic": "현재 HTML GitHub 게시",
+      "status": "확정·최신 요청 승인",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 308,
+          "line_end": 308,
+          "speaker_class": "user_supplied_spec",
+          "verbatim": "기존 원본 보존, GitHub 게시 전 승인받기."
+        },
+        {
+          "source": "latest_user_message",
+          "speaker_class": "user_direct",
+          "verbatim": "그래서 깃허브에 올려가지고 HTML로 주면 제일 좋아, 이런 식으로 되게 보기 좋게 해가지고",
+          "line_start": null,
+          "line_end": null
+        }
+      ],
+      "user_requirement": "이번 감사·정리 HTML을 보기 좋게 만들어 GitHub에 올려 전달한다.",
+      "claude_summary_or_report": "",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "최신 요청이 이번 HTML 게시를 승인한다. 과거 “게시 전 승인” 문장만 이유로 동일 게시를 재질문하며 중단하지 않는다. 영상 MP4 공개나 다른 서비스 메시지 발송까지 승인한 것은 아니다.",
+      "additional_proposal": "",
+      "verification_limit": "완성 HTML 게시와 로컬 렌더 수정·MP4 재렌더를 실제 수행 상태에 맞게 구분한다."
+    },
+    {
+      "id": "AUD-25",
+      "topic": "왜 안 쓰였는가에 대한 증거 수준",
+      "status": "확정·구현 원인 미검증",
+      "evidence": [
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 343,
+          "line_end": 343,
+          "speaker_class": "claude_report",
+          "verbatim": "불꽃 이미지 6장을 쓰임새 규칙과 함께 저장했고, 지금까지 주신 규칙 전체를 HTML 한 장으로 정리해 오른쪽 창에 띄웠습니다. 글자 색이 다른 이유도 찾았는데, 렌더러는 아직 고치지 않았습니다."
+        },
+        {
+          "source": "attachment",
+          "path": "/workspace/scratch/763a8801a0a5/upload/Pasted text(10).txt",
+          "line_start": 372,
+          "line_end": 388,
+          "speaker_class": "claude_report",
+          "verbatim": "글자 색이 주신 것과 다른 이유 (52·54편 프레임을 확대해서 확인)\n51편 렌더러를 만든 세션이 시안 디자인은 가져왔지만, 장면을 그리는 코드를 따로 짜면서 규칙에 없는 색과 요소를 직접 넣었습니다. 그래서 아래 차이가 생겼습니다.\n\n키워드 형광 띠가 글자 뒤가 아니라 아래로 내려가 밑줄처럼 보입니다.\n그래프 선이 시안의 흰색이 아니라 빨간색입니다.\nVS 아래에 규칙에 없는 빨간 알약 태그가 붙었고, 53편에서는 이게 자막과 겹쳤습니다.\n라벨·금빛 문구 같은 디자인 자막과 하단 기본 자막이 동시에 나옵니다.\n새 지시 2묶음 (대형 예능 자막, 영상 편집 V7 최소 수정)\n규칙 문서 16절에 기록만 했고 아직 적용하지 않았습니다. 그중 두 가지가 기존 규칙과 서로 반대라서 정해 주셔야 합니다.\n\n워터마크는 \"모자이크\"라고 하셨는데, 새 지시는 \"네모 모자이크 대신 자연스러운 블러\"입니다.\n화면 속 글자는 \"블러\"라고 하셨는데, 새 지시는 \"중국어·일본어 글씨 보존\"입니다.\n53편 세션\n53편 세션은 붙여넣으신 10개 프롬프트의 마지막 줄이 깨져 있어서 무엇을 할지 묻고 기다리고 있습니다.\n\n✅ PASS: 위 경로 3개가 실제로 있는 것을 확인했고, HTML은 이미지 6장과 폰트가 모두 불러와지는 것까지 확인했습니다.\n미확인: 렌더러는 아직 고치지 않았고, 51~54편도 다시 렌더하지 않았습니다"
+        }
+      ],
+      "user_requirement": "색·폰트·형광띠·그래프·중복 자막의 누락 원인을 알고 싶다.",
+      "claude_summary_or_report": "시안 CSS를 가져왔지만 별도 장면 코드가 임의 색·요소를 넣었고 아직 고치지 않았다고 보고.",
+      "earlier_chatgpt_proposal": "",
+      "resolution": "직접 확인된 것: 명세에 색이 존재하고 두 단계 지시가 적용 대기로 남았다는 텍스트. Claude 보고: renderer의 임의 색·기본 자막 항상 ON. 아직 미확인: 실제 코드·최종 프레임·그래프 선택 로직·끊김 원인.",
+      "additional_proposal": "🌸 단일 스타일 레지스트리 + 적용 명세 manifest + 샘플 프레임 검수로 시안과 렌더의 불일치를 막는다.",
+      "verification_limit": "사용자 보고와 Claude 보고만 보고 실제 코드 행 번호·동작을 확인했다고 쓰지 않는다."
+    }
+  ],
+  "short_findings": [
+    "풀파티·재능이 없는·VS 색상 코드는 이미 원문에 있다.",
+    "keyword acc=#e60f2f와 형광 색 문장이 내부 충돌하며, 오래된 VS 금색은 최신 직접 발화 #E21317로 명확히 대체된다.",
+    "배경 어둡게=통계만, 편당 형광1색, 11종 같은 종류 연속 금지는 첨부 원문보다 좁거나 강한 요약이다.",
+    "기본 자막+디자인 자막 동시 금지는 이미 제공된 후속 명세다. 한마디평가의 2줄 구조 자체를 폐지하는 요청은 아니다.",
+    "컷4초와 렉 방지는 별개의 제약이다. 4초를 임의 삭제하거나 전환마다 화면을 정지해서는 안 된다.",
+    "새로운 폰트·색 팔레트·다큐 배합을 원래 명세에 덮지 않는다."
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "repository": "geben147-create/Insta",
+  "commit": "d2d832b480733c636da465e54d94818a17c70611",
+  "audited_at": "2026-11-24",
+  "scope": "읽기 전용: GitHub V8 시안 index.html 및 디자인규칙_V8.md. 사용자 Ubuntu 렌더러와 51~54 MP4는 접근하지 않았음.",
+  "sources": [
+    {
+      "path": "research-hub-20261108/kukppong-v4-claude/design-v8/index.html",
+      "sha": "bf9f6bb04164913047d4b7b69432dc80990d472a",
+      "local": "/workspace/scratch/763a8801a0a5/work/repo_audit/design-v8-index.html"
+    },
+    {
+      "path": "research-hub-20261108/kukppong-v4-claude/design-v8/디자인규칙_V8.md",
+      "sha": "25c2c3758c0b6cd09e21a61b9cb35a8889fc811e",
+      "local": "/workspace/scratch/763a8801a0a5/work/repo_audit/design-v8-rules.md"
+    }
+  ],
+  "findings": [
+    {
+      "id": "R01",
+      "status": "코드확인",
+      "title": "풀파티·라벨 색은 V8 시안 코드에 이미 존재",
+      "evidence": [
+        {
+          "file": "index.html",
+          "lines": [
+            152,
+            161,
+            424
+          ]
+        },
+        {
+          "file": "디자인규칙_V8.md",
+          "lines": [
+            101,
+            103,
+            109
+          ]
+        }
+      ],
+      "detail": "풀파티 #E03C3E, 번개 #D94B50, 라벨 글씨 #E25254→#F26163. 사용자 색을 안 줬거나 시안에서 누락됐다고 할 수 없음.",
+      "inference": "렌더 결과가 다르다면 실제 렌더러의 스타일 토큰·전역 필터·합성 순서·폰트 및 색변환 경로를 별도로 비교해야 함."
+    },
+    {
+      "id": "R02",
+      "status": "코드확인",
+      "title": "언론 형광의 연두·연노랑 변형이 구현되어 있지 않음",
+      "evidence": [
+        {
+          "file": "index.html",
+          "lines": [
+            11,
+            97,
+            203,
+            390
+          ]
+        }
+      ],
+      "detail": "공통 --hl 값은 #FFE600 하나. .news .bar mark가 이 값만 사용하며 시안 news 예시도 한 종류만 있음.",
+      "recommendation": "🌸 news.highlight.lime 및 news.highlight.pale_yellow 별도 토큰으로 첨부 이미지에서 추출한 색을 지정. 댓글 형광 #73F282, VS 빨강, 다홍 자막과 독립."
+    },
+    {
+      "id": "R03",
+      "status": "코드확인",
+      "title": "형광이 밑줄처럼 보일 수 있는 구조 자체가 시안에도 있음",
+      "evidence": [
+        {
+          "file": "index.html",
+          "lines": [
+            49,
+            51,
+            97,
+            144
+          ]
+        }
+      ],
+      "detail": "키워드는 line box 42~80% 구간만 칠하고 언론 mark는 상단50% 투명·하단50% 색상. 폰트/line-height에 따라 글자 뒤보다 아래로 보일 수 있음. 댓글은 50~92%.",
+      "recommendation": "🌸 단어 실제 잉크 기준 하이라이트 높이와 top을 명시. 사용자 첨부 언론 이미지의 전체 글자 뒤 채움/부분 형광을 독립 스타일로 구현."
+    },
+    {
+      "id": "R04",
+      "status": "코드확인+조건부원인",
+      "title": "언론 폰트가 환경에 따라 바뀔 수 있음",
+      "evidence": [
+        {
+          "file": "index.html",
+          "lines": [
+            8,
+            9,
+            10,
+            96,
+            111,
+            112,
+            113,
+            114
+          ]
+        }
+      ],
+      "detail": "언론 제목은 font:800 64px/1.2 Pretendard,system-ui. 이 HTML에는 Pretendard @font-face/import가 없음. 해당 폰트 로컬 미설치 시 system-ui로 대체될 수 있음. 제목의 정확한 참고 폰트명 자체는 이번 첨부에서 확정 불가.",
+      "recommendation": "🌸 렌더 환경 실제 사용 폰트 파일/이름을 검사하고 고정. 미설치면 임의대체 완료 처리 금지."
+    },
+    {
+      "id": "R05",
+      "status": "코드확인+조건부원인",
+      "title": "붓글씨 폰트 파일 참조가 GitHub 배포 폴더에 없음",
+      "evidence": [
+        {
+          "file": "index.html",
+          "lines": [
+            111,
+            116
+          ]
+        },
+        {
+          "file": "directory",
+          "lines": []
+        }
+      ],
+      "detail": "PPURI @font-face는 local 3개 이름 뒤 fonts/JSArirangPPURI.ttf를 참조. GitHub design-v8 트리에는 index.html/ref/디자인규칙_V8.md만 있고 fonts/가 없음. local이 성공하면 정상이나 없으면 serif fallback. 실제 Ubuntu에는 설치됐다는 문서 주장만 있음.",
+      "recommendation": "🌸 재배포 없이 허용된 로컬 폰트 파일을 렌더 실행 전 로드/검사. 보고서 HTML에서 정확 폰트 로딩 성공을 근거 없이 주장하지 않음."
+    },
+    {
+      "id": "R06",
+      "status": "문서확인",
+      "title": "언론·댓글을 묶은 규칙 제목과 실제 별도 컴포넌트",
+      "evidence": [
+        {
+          "file": "디자인규칙_V8.md",
+          "lines": [
+            62,
+            63,
+            64,
+            65,
+            91,
+            92,
+            93,
+            94
+          ]
+        },
+        {
+          "file": "index.html",
+          "lines": [
+            388,
+            389,
+            415,
+            416
+          ]
+        }
+      ],
+      "detail": "문서 §5 제목은 '언론·댓글 인용'이나 본문은 언론 로고/기자/날짜/기사만. §9는 별도 댓글. 실제 시안 scenes.news와 scenes.comment는 분리. 같은 템플릿을 댓글에 썼다는 것은 사용자 관찰이며 renderer 매핑 오류는 미확인.",
+      "recommendation": "🌸 source_type=news/comment 분리와 각각 style_id 지정. 공통 타이핑만 공유."
+    },
+    {
+      "id": "R07",
+      "status": "코드확인",
+      "title": "시안 그래프 선은 흰색",
+      "evidence": [
+        {
+          "file": "index.html",
+          "lines": [
+            373,
+            375,
+            376,
+            378
+          ]
+        }
+      ],
+      "detail": "선 stroke=#fff, 막대 #ffffffaa, 일부 점 외곽은 #E21317. 모든 그래프 선을 빨강으로 바꾼 상태가 이 시안에는 없음.",
+      "inference": "사용자가 본 빨간 그래프 선/Claude가 언급한 render_v8_page.js 69행은 이 소스로 확인되지 않음."
+    },
+    {
+      "id": "R08",
+      "status": "코드확인/실제빈도미확인",
+      "title": "그래프 존재와 실제 편집에 배정되는 것은 별개",
+      "evidence": [
+        {
+          "file": "index.html",
+          "lines": [
+            347,
+            366,
+            367,
+            368,
+            378,
+            459
+          ]
+        }
+      ],
+      "detail": "HTML은 각 scene별 미리보기이고 chart 데이터는 예시 하드코딩. 실제 편의 수치·통계 문장을 분석해 graph scene을 배정하는 스케줄러는 이 파일에 없음.",
+      "recommendation": "🌸 실제 장면표에서 수치/시계열/비교 후보 수, 그래프 채택 수, 미채택 이유를 따로 집계. 데이터 없는 장면에 억지 그래프 생성 금지."
+    },
+    {
+      "id": "R09",
+      "status": "시안한정확인",
+      "title": "디자인 자막+기본 자막 상시 중복은 이 시안에서는 확인되지 않음",
+      "evidence": [
+        {
+          "file": "index.html",
+          "lines": [
+            348,
+            350,
+            405,
+            406,
+            428,
+            430
+          ]
+        }
+      ],
+      "detail": "key/brush/label/gold가 각각 자신의 DOM을 생성. 모든 scene에 .sub를 깔아 주는 공통 레이어는 이 HTML에 없음. 다만 twist 장면은 twbox+twsub를 동시에 생성(412행). 실제 렌더러 상시기본자막 주장은 사용자/Claude 기록이며 원인 확정 아님.",
+      "recommendation": "🌸 실제 렌더에서 caption_mode=base/design/off 중 하나. 기사/댓글 본문·출처는 설명카드 텍스트이므로 중복 발화 자막과 구분."
+    },
+    {
+      "id": "R10",
+      "status": "코드확인",
+      "title": "배경 검정 dim 값은 시안에서 35%, 통계만 호출",
+      "evidence": [
+        {
+          "file": "index.html",
+          "lines": [
+            43,
+            342,
+            378
+          ]
+        }
+      ],
+      "detail": ".dim rgba(0,0,0,.35), bgHTML(true)는 chart에서 호출. news/comment는 bgHTML()로 dim 없음. 첨부 완성 이미지의 실제 opacity를 이 값으로 확정할 수 없음.",
+      "recommendation": "🌸 UI 배경 불투명도 35% (=배경 영상 65% 비침)로 표기. 글자/형광 레이어를 같이 opacity 낮추지 않기."
+    },
+    {
+      "id": "R11",
+      "status": "문서내모순+코드확인",
+      "title": "흰 테두리 금지와 VS 카드 테두리가 충돌",
+      "evidence": [
+        {
+          "file": "디자인규칙_V8.md",
+          "lines": [
+            29,
+            51
+          ]
+        },
+        {
+          "file": "index.html",
+          "lines": [
+            60
+          ]
+        }
+      ],
+      "detail": "공통은 박스 흰 테두리 금지, VS 항목은 얇은 흰 테두리. 실제 .card border:3px solid #fffc.",
+      "recommendation": "🌸 최신 사용자 직접 지시에서 박스 흰 테두리 금지 확인 시 0으로. 문서/시안/렌더 모두 동일 토큰을 참조하게 한다."
+    },
+    {
+      "id": "R12",
+      "status": "코드확인",
+      "title": "PNG 번개 지정과 실제 시안 SVG 대체",
+      "evidence": [
+        {
+          "file": "디자인규칙_V8.md",
+          "lines": [
+            103
+          ]
+        },
+        {
+          "file": "index.html",
+          "lines": [
+            424,
+            429
+          ]
+        }
+      ],
+      "detail": "양끝 빨간 번개 PNG 규칙이나 실제 light scene은 단순 SVG path, label burst도 SVG. 새로 받은 불꽃·번개 6장의 사용 연결은 GitHub V8 시안에 없음.",
+      "recommendation": "🌸 사용자가 만든 asset 경로/해시를 scene manifest에서 고정하고, 대체 SVG를 최종 적용한 것으로 보고하지 않기."
+    },
+    {
+      "id": "R13",
+      "status": "미확인",
+      "title": "렉·프레임 정지 원인은 최종 MP4 검사 필요",
+      "evidence": [
+        {
+          "file": "index.html",
+          "lines": [
+            124,
+            125,
+            350,
+            353,
+            354,
+            381,
+            384
+          ]
+        }
+      ],
+      "detail": "시안에는 intentional twist 정지/흑백과 CSS/JS 타이밍 애니메이션이 있음. 최종 MP4의 FPS·PTS·중복프레임·인코딩·디코드 성능을 확인하지 않았으므로 렉 원인 확정 불가.",
+      "recommendation": "🌸 intended hold(반전)와 unintended stall 분리. 실제 renderer 프레임 타임코드 평가, CFR/timebase 검사, 컷마다 줌 리셋 여부 확인."
+    },
+    {
+      "id": "R14",
+      "status": "문서확인",
+      "title": "V7 최신 수정이 아직 GitHub V8 문서에 통합되지 않음",
+      "evidence": [
+        {
+          "file": "디자인규칙_V8.md",
+          "lines": [
+            10,
+            11,
+            12,
+            13,
+            17,
+            24,
+            92
+          ]
+        }
+      ],
+      "detail": "문서는 여전히 모자이크/모든 OCR 블러/통계만 dim/STEP6 TTS 생성 언급. 원문 후기 '기본·디자인 동시노출금지, 글씨 보존, 자연스러운 블러, TTS 변경금지'를 적용 완료한 문서로 볼 수 없음.",
+      "recommendation": "🌸 현재 작업 단계는 기존 대본/TTS 동결, 후속 최신 지시 우선. 구버전은 이력으로 보존."
+    }
+  ],
+  "search_scope": {
+    "recursive_trees": [
+      {
+        "path": "research-hub-20261108",
+        "count": 1768,
+        "truncated": false
+      },
+      {
+        "path": "scripts",
+        "count": 1,
+        "truncated": false
+      },
+      {
+        "path": "국뽕-유튜브-리서치-허브-20261108",
+        "count": 121,
+        "truncated": false
+      },
+      {
+        "path": "kukppong-batch-20261122",
+        "count": 366,
+        "truncated": false
+      }
+    ],
+    "render_v8_page_found": false,
+    "note": "전체 저장소 재귀 조회는 Transport closed 실패. 위 네 subtree 완전 조회+GitHub 코드 검색에는 파일 없음. 저장소 어디에도 절대 없다고 단정하지 않음."
+  },
+  "evidence_urls": [
+    "https://github.com/geben147-create/Insta/blob/d2d832b480733c636da465e54d94818a17c70611/research-hub-20261108/kukppong-v4-claude/design-v8/index.html",
+    "https://github.com/geben147-create/Insta/blob/d2d832b480733c636da465e54d94818a17c70611/research-hub-20261108/kukppong-v4-claude/design-v8/디자인규칙_V8.md"
+  ]
+}

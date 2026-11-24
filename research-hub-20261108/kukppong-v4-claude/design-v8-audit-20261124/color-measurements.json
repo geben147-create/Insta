@@ -1,0 +1,291 @@
+{
+  "image": {
+    "path": "/workspace/scratch/763a8801a0a5/upload/image(20261124-105052).png",
+    "dimensions": [
+      472,
+      130
+    ],
+    "mode": "RGB",
+    "analysis_only": true,
+    "image_modified": false
+  },
+  "interpretation": "캡처에 실제 보이는 형광 연두 및 연노랑 띠의 밝은 내부 픽셀을 측정했다. 검정 글자와 색이 섞인 안티앨리어싱 경계, 어두운 상하 가장자리를 제외했다. 원본 프로젝트의 정확한 채움색을 복원한 결과가 아니다.",
+  "samples": {
+    "article_lime": {
+      "box_xyxy_half_open": [
+        92,
+        54,
+        200,
+        62
+      ],
+      "sample_count": 219,
+      "median_rgb": [
+        199,
+        240,
+        1
+      ],
+      "hex": "#C7F001",
+      "mode_rgb": [
+        198,
+        239,
+        0
+      ],
+      "mode_count": 18,
+      "mean_rgb": [
+        199.74,
+        240.82,
+        2.95
+      ],
+      "channel_q10_q90": [
+        [
+          197.0,
+          238.0,
+          0.0
+        ],
+        [
+          204.0,
+          245.0,
+          8.0
+        ]
+      ],
+      "filter": "R>=185 AND G>=235 AND B<=35"
+    },
+    "article_pale_yellow": {
+      "box_xyxy_half_open": [
+        264,
+        54,
+        366,
+        61
+      ],
+      "sample_count": 177,
+      "median_rgb": [
+        242,
+        245,
+        134
+      ],
+      "hex": "#F2F586",
+      "mode_rgb": [
+        247,
+        249,
+        135
+      ],
+      "mode_count": 3,
+      "mean_rgb": [
+        241.62,
+        244.23,
+        135.59
+      ],
+      "channel_q10_q90": [
+        [
+          235.6,
+          239.0,
+          124.6
+        ],
+        [
+          246.0,
+          249.0,
+          149.0
+        ]
+      ],
+      "filter": "R>=230 AND G>=230 AND 105<=B<=170 AND abs(R-G)<=12"
+    }
+  },
+  "measurement_confidence": {
+    "sample_pixel_values": "높음 — 첨부파일 직접 읽음",
+    "representative_flat_color": "중간 — 작은 영상 캡처의 밝은 바탕 표본 중앙값",
+    "original_design_color": "확정 불가 — 원본 PNG/프로젝트 또는 무압축 큰 프레임 필요"
+  },
+  "exact_user_specs": [
+    {
+      "id": "pool_party_emphasis",
+      "hex": "#E03C3E",
+      "source_line": 282,
+      "scope": "풀 파티 번개 2줄 자막의 핵심 명사",
+      "fill": "#FDFDFC",
+      "font": "티몬 몬소리 Black",
+      "stroke_px": 0,
+      "shadow_px": 0,
+      "first_line_scale": 0.55
+    },
+    {
+      "id": "pool_party_lightning",
+      "hex": "#D94B50",
+      "source_line": 282,
+      "scope": "풀 파티 양옆 빨간 번개 PNG; 노란 번개와 별도"
+    },
+    {
+      "id": "label_emphasis",
+      "gradient": [
+        "#E25254",
+        "#F26163"
+      ],
+      "source_line": 285,
+      "scope": "정말 연애에 재능이 없는 선수예요의 핵심 구절; 위→아래",
+      "fill": "#FDFDFD",
+      "font": "티몬 몬소리 Black",
+      "stroke": "#111114",
+      "stroke_px": 5,
+      "shadow_px": 2,
+      "rotation_deg": -1.5,
+      "text_scale_y": 1.16
+    },
+    {
+      "id": "label_box",
+      "box_hex": "#040506",
+      "text_hex": "#EFEFEF",
+      "source_line": 285,
+      "scope": "선수 박탈 라벨"
+    },
+    {
+      "id": "comment_accent",
+      "hex": "#73F282",
+      "source_line": 246,
+      "scope": "댓글 카드 강조; 언론사 형광 띠와 같은 색으로 치환하지 말 것"
+    },
+    {
+      "id": "vs",
+      "hex": "#E21317",
+      "source_line": 159,
+      "scope": "VS 글자; 일반 강조나 그래프 선 전체로 확산 금지"
+    },
+    {
+      "id": "older_palette",
+      "values": [
+        "#F5FFDC",
+        "#D9FF65",
+        "#FEE9F2",
+        "#FCF1ED"
+      ],
+      "source_lines": [
+        25,
+        27,
+        29,
+        31
+      ],
+      "scope": "초기 제공한 팔레트; 이번 캡처 실측 색과 구분"
+    },
+    {
+      "id": "brush",
+      "source_line": 202,
+      "font": "정선아리랑뿌리체 계열",
+      "fill": "#040404",
+      "outline": "#FBFAF8",
+      "last_word_fill": "#FCFCFC",
+      "last_word_outline": "#080404",
+      "shadow": "#000000",
+      "outline_px": 6,
+      "shadow_offset_px": 4.5,
+      "first_line_scale": 0.45
+    }
+  ],
+  "dim_background": {
+    "observed": "영상 위에 검정 반투명 레이어를 얹은 어두워짐으로 설명하는 것이 적합. 이 작은 캡처에서 블러 반경을 확정할 근거는 없음.",
+    "exact_opacity": "단일 합성 이미지로는 알 수 없음. 아래 원본 프레임과 색공간·합성 방식이 필요함.",
+    "proposal_label": "🌸 제안",
+    "default_black_opacity": 0.4,
+    "comparison_black_opacities": [
+      0.35,
+      0.45,
+      0.55
+    ],
+    "definition": "검정 불투명도 40% = 검정 레이어 CSS rgba(0,0,0,.40), 뒤 영상 기여 60%. 도구 UI가 투명도를 말하면 수치 방향이 반대일 수 있다.",
+    "scope": "읽어야 하는 언론/댓글/그래프 장면에만 적용. 이번 사용자 배경효과 질문에 대한 제안이며 전 영상 어둡게 규칙 아님.",
+    "stack_bottom_to_top": [
+      "원본 영상",
+      "영상용 색보정",
+      "검정 dim 레이어",
+      "카드/형광띠",
+      "글자와 효과"
+    ],
+    "avoid": "부모 컨테이너 opacity를 .4로 주지 말 것. 글자·형광색·불꽃까지 함께 흐려진다.",
+    "composite_formula": "C_out = alpha*C_black + (1-alpha)*C_video. 정확 계산은 사용 합성 색공간에 따라 달라짐."
+  },
+  "possible_causes_not_confirmed": [
+    {
+      "cause": "전역 acc/red 변수 또는 CSS 선택자로 각 자막별 색 덮어쓰기",
+      "inspection": "style_id별 최종 resolved token을 렌더 직전 기록; 목표 HEX와 일치하는지 확인"
+    },
+    {
+      "cause": "검정 dim/불투명도가 자막 부모에 적용되어 모든 강조색이 탁해짐",
+      "inspection": "원본 영상만 dim 처리, 텍스트/효과는 상위 별도 레이어; opacity=1 확인"
+    },
+    {
+      "cause": "LUT/색보정/밝기 필터가 합성 완료 뒤 적용",
+      "inspection": "영상 보정은 자막 합성 이전에 완료; 자막 이후의 필터가 RGB를 바꾸는지 확인"
+    },
+    {
+      "cause": "ASS 색 직렬화에서 RGB와 BGR 또는 알파 방향을 혼동",
+      "inspection": "ASS를 실제로 쓸 때만 검사; #E03C3E는 불투명 ASS &H003E3CE0&, #E21317은 &H001713E2&"
+    },
+    {
+      "cause": "폰트 미설치/로딩 완료 전 렌더/대체폰트로 글자 폭·띠 위치 변동",
+      "inspection": "실제 로딩 파일과 문서 폰트 준비 확인; bounding box는 해당 글리프의 실측 기준"
+    },
+    {
+      "cause": "RGB→YUV·4:2:0·손실 압축으로 얇은 유색 글자의 테두리가 변화",
+      "inspection": "무손실 PNG 마스터와 MP4 디코딩 프레임을 같은 좌표에서 비교; 글자 내부와 경계 따로 측정"
+    }
+  ],
+  "fix_order": [
+    "각 style_id에 고정 HEX/그라데이션을 할당",
+    "폰트 실제 로딩을 확인한 뒤 glyph 위치로 형광 띠 배치",
+    "dim과 색보정을 자막 아래에서 완료",
+    "동일 장면의 PNG 마스터와 최종 MP4 디코딩 프레임 비교",
+    "정해진 색을 검수표에 기록; 무조건 일반 빨강/노랑으로 치환 금지"
+  ],
+  "ass_if_used": {
+    "pool_party": "&H003E3CE0&",
+    "vs": "&H001713E2&",
+    "label_top": "&H005452E2&",
+    "label_bottom": "&H006361F2&",
+    "warning": "ASS 렌더러를 확인하지 않은 상태에서 원인으로 단정하지 않는다."
+  },
+  "no_render_claim": "이 분석은 첨부 캡처와 텍스트에 한정. 51~54편 실제 MP4, render_v8_page.js, 사용 폰트 파일을 직접 확인한 분석이 아님.",
+  "github_reference_crosscheck": {
+    "status": "직접 파일 및 이미지 확인",
+    "same_scene": true,
+    "note": "GitHub의 기존 두 참고 파일은 첨부 합본과 같은 장면. 더 큰 개별 이미지에서도 유사한 색이 나왔다. 현재 첨부 합본의 대표색을 기준값으로 유지하고 기존 파일 측정값은 교차 검증으로 구분한다.",
+    "references": [
+      {
+        "path": "research-hub-20261108/kukppong-v4-claude/design-v8/ref/ref1_언론_연합_흰띠.png",
+        "dimensions": [
+          315,
+          174
+        ],
+        "box_xyxy": [
+          133,
+          78,
+          276,
+          92
+        ],
+        "bright_background_sample_count": 966,
+        "median_rgb": [
+          200,
+          240,
+          2
+        ],
+        "hex": "#C8F002"
+      },
+      {
+        "path": "research-hub-20261108/kukppong-v4-claude/design-v8/ref/ref2_언론_조선비즈.png",
+        "dimensions": [
+          313,
+          168
+        ],
+        "box_xyxy": [
+          34,
+          75,
+          169,
+          87
+        ],
+        "bright_background_sample_count": 730,
+        "median_rgb": [
+          242,
+          245,
+          136
+        ],
+        "hex": "#F2F588"
+      }
+    ]
+  }
+}

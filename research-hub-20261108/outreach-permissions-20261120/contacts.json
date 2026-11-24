@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "국뽕 해외 영상 사용 허락 · 발송·회신 현황",
-    "updated_on": "2026-11-22",
+    "updated_on": "2026-11-24",
     "public_repo": true,
     "privacy": "원본 메일·원문 회신·이메일 주소·Gmail 메시지 ID는 공개하지 않음",
     "important": "동의 답변이 있어도 허가된 사용 범위를 확인하기 전에는 영상 사용 가능으로 표시하지 않음",
     "count": {
-      "POSITIVE_NEEDS_SCOPE": 1,
+      "POSITIVE_NEEDS_SCOPE": 2,
       "REFUSED": 1,
       "NEEDS_INFO": 2,
       "DELIVERY_FAILED": 2,
-      "SENT_WAITING": 60
+      "SENT_WAITING": 59
     },
     "last_checked_kst": "2026-11-22 16:51",
     "last_outreach_date": "2026-11-22",
@@ -588,11 +588,12 @@
       "source_url": "https://www.kaigai-tubers.com/channels/2757",
       "contact_sha256": "b34220c4d0546dc8fbbc2722f2cfdbe80aad859c87562ca3569f33c9f1968362",
       "sent_on": "2026-11-20",
-      "status": "SENT_WAITING",
-      "note": "1차 문의 발송됨. 회신 미확인",
-      "next_action": "Gmail 회신을 확인하고 상태 갱신",
+      "status": "POSITIVE_NEEDS_SCOPE",
+      "note": "2026-11-24 긍정 회신. 부산·거제 웨딩촬영 영상의 한국어 번역 및 자체 해설·분석을 더한 유튜브 소개에 동의. 설명란에 채널명·원본 링크 표기.",
+      "next_action": "정확한 원본 영상 링크·사용 구간·수익화 및 제3자 소스 범위 확인 전 영상 사용 보류",
       "may_use_video": false,
-      "skip_new_outreach": true
+      "skip_new_outreach": true,
+      "replied_on": "2026-11-24"
     },
     {
       "id": "042",

@@ -43,7 +43,7 @@ for batch in sorted({r['batch'] for r in refs},reverse=True):
  if group[0]['group']=='여행 장면과 수영장':
   attributes = ' id="pool-references" open'
  refgroups.append(f'<details{attributes}><summary>{esc(label)}</summary><div class="cards">{"".join(cards)}</div></details>')
-labels={'family-cast-reference.jpg':'고정 가족','east-asia-single-wave-preview.png':'단일 웨이브 헤어','east-asia-single-wave-pool-preview.png':'수영장 의상','family-splash-pool-preview.png':'가족 물놀이','coffee-hand-camera-preview.jpg':'손과 조식 디테일'}
+labels={'family-cast-reference.jpg':'가족 배치 시안','east-asia-single-wave-preview.png':'한 번 흐르는 웨이브 참고','east-asia-single-wave-pool-preview.png':'수영장 의상 참고','family-splash-pool-preview.png':'가족 물놀이 연출 참고','coffee-hand-camera-preview.jpg':'손과 조식 디테일'}
 cast_assets=[f'<figure><a href="cast/{file}"><img loading="lazy" src="cast/{file}" alt="{label}"></a><figcaption>{label}</figcaption></figure>' for file,label in labels.items()]
 regions=Counter(row.get('region','') or '미분류' for row in library)
 bars=[f'<div class="bar-row"><span>{esc(region)}</span><meter max="{max(regions.values())}" value="{n}">{n}</meter><b>{n}</b></div>' for region,n in regions.most_common()]

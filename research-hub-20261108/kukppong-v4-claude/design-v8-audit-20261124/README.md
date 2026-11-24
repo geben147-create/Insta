@@ -19,6 +19,7 @@ A는 최초 원문 등록, C는 대표1편 검수 통과 후 기존 대상 배�
 - instruction-audit.json: 원문 인용·줄번호·출처 유형을 가진25항목.
 - color-measurements.json: 캡처 측정 방법·ROI·RGB 및 기존 참고 이미지 교차측정.
 - repository-findings.json: 실제 GitHub V8 소스 감사 기록.
+- previous-chatgpt-proposals.txt: 이 대화의 앞선 ChatGPT 제안 §3·§4·§9 발췌. 사용자 원문과 분리.
 
 ## 검증 범위
 

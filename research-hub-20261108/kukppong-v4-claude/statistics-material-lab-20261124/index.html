@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="통계·지도·종이 원본 9종을 비교하며 색상, 방사형 그라데이션, 유리 반사, 두께와 여백을 조절하는 전용 스튜디오">
+  <title>통계·지도·종이 재질 스튜디오</title>
+  <link rel="stylesheet" href="studio.css?v=20261124-r001">
+</head>
+<body>
+<header class="site-head">
+  <a class="brand" href="#top"><span class="brand-mark">M</span><span>재질 스튜디오<small>STATISTICS · MAP · PAPER</small></span></a>
+  <nav aria-label="자료 이동"><a href="../design-reference-master-20261124/">전체 디자인 자료</a><a href="/Insta/국뽕-유튜브-리서치-허브-20261108/?page=statistics-material" target="_top">허브 첫 메뉴</a><a href="#analysis">상세 분석 ↓</a></nav>
+</header>
+<main id="top">
+  <section class="intro">
+    <div><p class="eyebrow">연하의 레퍼런스 · MATERIAL STUDY 01</p><h1>원본의 색, 빛, 깊이를<br class="phone-break"> 함께 맞춥니다.</h1><p class="lead">원본을 크게 비교하고, 색상 칩을 눌러 바꿔 보세요. 유리의 얇은 반사선부터 지도 높이·종이 여백까지 각각 살펴봅니다.</p></div>
+    <div class="intro-counts"><span><b>09</b>원본 유형</span><span><b>02</b>AI 재질 시안</span><span><b>3</b>화면 비율</span></div>
+  </section>
+  <nav class="reference-strip" id="referenceStrip" aria-label="레퍼런스 선택"></nav>
+  <section class="workspace" aria-labelledby="selectedTitle">
+    <div class="editor-main">
+      <div class="section-head"><div><span class="eyebrow" id="selectedMeta">REF-05</span><h2 id="selectedTitle">파란 유리 6단</h2></div><button id="resetPreset" class="ghost">이 유형 초기화 ↺</button></div>
+      <div class="toolbar">
+        <div class="segmented" aria-label="출력 화면 비율"><button data-aspect="original" class="active" aria-pressed="true">원본 비율</button><button data-aspect="wide" aria-pressed="false">가로 16:9</button><button data-aspect="tall" aria-pressed="false">세로 9:16</button></div>
+        <div class="segmented" aria-label="비교 보기"><button data-view="split" class="active" aria-pressed="true">나란히</button><button data-view="overlay" aria-pressed="false">겹쳐 비교</button><button data-view="render" aria-pressed="false">시안 크게</button></div>
+      </div>
+      <div class="compare" id="compare" data-view="split">
+        <figure class="board source-board"><figcaption><span><i class="dot original"></i>사용자 원본</span><button id="openOriginal" class="mini">원본 확대 ↗</button></figcaption><div class="artboard" id="sourceStage"><canvas id="sourceCanvas" aria-label="원본 이미지. 클릭하면 해당 위치의 색상을 측정합니다."></canvas></div></figure>
+        <figure class="board render-board"><figcaption><span id="renderLabel"><i class="dot rebuilt"></i>🌸 조절 가능한 재현</span><span id="outputDimensions" class="mono">1280 × 720</span></figcaption><div class="artboard" id="renderStage"></div></figure>
+      </div>
+      <div class="overlay-setting" id="overlaySetting" hidden><label>원본 겹침 농도 <input type="range" id="overlayOpacity" min="0" max="100" value="50"><output>50%</output></label></div>
+      <div class="source-tools"><span>원본 세부 보기</span><div id="cropChips" class="chips"></div></div>
+      <div class="sample-readout" id="sampleReadout"><span class="sample-dot"></span><span>원본 그림을 클릭하면 좌표와 5×5px 중앙값이 표시됩니다.</span><button id="applySample" class="mini" disabled>선택 색 역할에 적용</button></div>
+      <p class="context-note" id="contextNote"></p>
+      <div class="export-row"><button id="exportPNG" class="primary">PNG 이미지 저장 ↓</button><button id="exportSVG">SVG 저장</button><button id="exportJSON">설정 JSON 저장</button><button id="copyPrompt">현재 설정 프롬프트 복사</button><label class="import-button">설정 불러오기<input id="importJSON" type="file" accept="application/json,.json" hidden></label></div>
+      <p class="small-muted" id="saveStatus">설정은 이 브라우저에 자동 저장됩니다. JSON 파일로 다른 컴퓨터에 옮길 수 있습니다.</p>
+    </div>
+    <aside class="inspector" aria-label="색과 재질 편집">
+      <div class="inspector-head"><span class="eyebrow">LIVE CONTROLS</span><h2>색 · 빛 · 여백</h2></div>
+      <details open class="control-group"><summary>01 색을 넣을 곳</summary><div class="control-content"><label for="colorTarget">색 역할</label><select id="colorTarget"><option value="mainColor">주요 색</option><option value="deepColor">안쪽 깊은 색</option><option value="lightColor">밝은 반사색</option><option value="background">배경색</option></select><div class="color-edit"><input type="color" id="colorPicker" aria-label="선택 역할 색 고르기"><input type="text" id="colorHex" aria-label="선택 역할 HEX" maxlength="7" spellcheck="false"><button id="applyHex" class="mini">적용</button></div><div class="palette-heading"><strong>원본에 적힌 파란색</strong><span>클릭 → 선택한 역할</span></div><div class="palette" id="bluePalette"></div><p class="small-muted">4·5번째는 원본 표기가 모두 <code>#3781FC</code>입니다. 표기와 화면 실측을 구분해 사용합니다.</p><div class="palette-heading"><strong>이 원본의 실측 색</strong></div><div class="palette" id="measuredPalette"></div><div class="chips" id="materialModes"></div></div></details>
+      <details open class="control-group" id="gradientGroup"><summary>02 그라데이션의 각 지점</summary><div class="control-content"><div id="gradientBar" class="gradient-bar"></div><div id="gradientStops"></div><button id="addStop" class="mini">+ 색 지점 추가</button><p class="small-muted">숫자는 시작부터 끝까지의 위치입니다. 색·위치·불투명도를 따로 조절합니다.</p><div id="gradientControls"></div></div></details>
+      <details open class="control-group"><summary>03 빛 · 두께 · 그림자</summary><div class="control-content" id="materialControls"></div></details>
+      <details open class="control-group"><summary>04 배치 · 여백</summary><div class="control-content" id="layoutControls"></div></details>
+      <details class="control-group"><summary>05 표시할 레이어</summary><div class="control-content" id="layerControls"></div></details>
+    </aside>
+  </section>
+  <section class="analysis-section" id="analysis">
+    <div class="section-head"><div><span class="eyebrow">REFERENCE BREAKDOWN</span><h2>작은 여백부터, 재질을 만드는 순서까지</h2></div><a href="reference-analysis.md" target="_blank">분석 문서 ↗</a></div>
+    <div class="legend"><span class="tag observed">원본 관찰</span><span class="tag measured">픽셀 실측</span><span class="tag proposed">🌸 재현 제안</span><span>스크린샷에서 광원·재질의 원래 설정값을 역산할 수는 없습니다. 구현값은 따로 표시합니다.</span></div>
+    <div class="analysis-overview" id="analysisOverview"></div>
+    <h3 class="subheading">레이어를 쌓는 순서</h3><div id="layerAnalysis" class="layer-analysis"></div>
+    <div class="analysis-grid"><section><h3>그라데이션 레시피</h3><div id="recipeAnalysis"></div></section><section><h3>구도 · 작은 간격</h3><div id="spacingAnalysis"></div></section></div>
+    <details class="raw-data"><summary>원본 좌표·실측 색·가로/세로 배치 수치 전체</summary><pre id="specRaw"></pre></details>
+  </section>
+  <section class="generated-section" id="generated">
+    <div class="section-head"><div><span class="eyebrow">GENERATED MATERIAL STUDIES</span><h2>🌸 이번에 생성한 재질 시안</h2></div><span class="tag proposed">사용자 원본과 별도 보관</span></div>
+    <p>유리의 광택과 흰 지도 모형의 깊이를 확인하는 이미지입니다. 아래 이미지는 위쪽 편집기의 개별 레이어가 합쳐진 결과와는 별개입니다.</p>
+    <div class="generated-grid"><figure><a href="assets/blue-glass-generated.png" target="_blank"><img src="assets/blue-glass-generated.png" alt="원본을 참고하여 생성한 여섯 겹 파란 유리 슬래브" loading="lazy"></a><figcaption><div><b>파란 유리 6단</b><p>좁은 밝은 테두리 · 짙은 내부색 · 모서리 반사</p></div><a download href="assets/blue-glass-generated.png">PNG ↓</a></figcaption></figure><figure><a href="assets/white-relief-map-generated.png" target="_blank"><img src="assets/white-relief-map-generated.png" alt="흰 양각 세계지도와 오렌지 핀의 생성 이미지" loading="lazy"></a><figcaption><div><b>흰 양각 지도</b><p>지형은 원자료로 확인하고 사용하는 재질 시안</p></div><a download href="assets/white-relief-map-generated.png">PNG ↓</a></figcaption></figure></div>
+  </section>
+  <section class="handoff"><div><span class="eyebrow">NEXT EDIT</span><h2>선택한 설정 그대로 전달하기</h2><p>위에서 색과 여백을 맞춘 후 <b>현재 설정 프롬프트 복사</b>를 누르세요. 레퍼런스 주소, 색 역할, 그라데이션 지점, 여백, 화면 비율과 적용 순서가 함께 들어갑니다.</p><p>🌸 지도·종이처럼 원본 이미지가 포함된 시안은 이미지 안의 각 부분을 독립적으로 다시 칠하지 않습니다. 편집 가능한 항목만 표시합니다. 완성 MP4 수정은 실제 편집 프로젝트에서 이어집니다.</p></div><div class="handoff-links"><a href="production-prompt.txt" target="_blank">새 페이지 적용 프롬프트 ↗</a><a href="../design-reference-master-20261124/apply-current-edit.txt" target="_blank">기존 CURRENT 전체 규칙 ↗</a><a href="reference-spec.json" target="_blank">상세 레퍼런스 JSON ↗</a></div></section>
+</main>
+<footer>연하의 통계·지도·종이 재질 스튜디오 · 2026.11.24 · 사용자 선택 우선 / 🌸 추가 제안 표시</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="originalDialog"><div class="dialog-head"><strong id="dialogTitle">원본 이미지</strong><button id="closeOriginal" aria-label="원본 닫기">닫기 ×</button></div><img id="originalImage" alt="선택한 레퍼런스 원본"><a id="downloadOriginal" download>원본 파일 저장</a></dialog>
+<script src="material-renderer.js?v=20261124-r001"></script><script src="studio.js?v=20261124-r001"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "version": "20261124-r001",
+  "tool": "built-in image_gen",
+  "note": "Reference-inspired generated material studies; separate from reference originals and editable SVG. Not exact source restoration.",
+  "assets": [
+    {
+      "path": "assets/blue-glass-generated.png",
+      "reference": "REF-05",
+      "intent": "Six stacked rounded glass slabs on black; original-like thickness, narrow cyan rim, dark internal absorption, top-right specular; exclude phone UI and labels.",
+      "palette": [
+        "#03195B",
+        "#0B2CB1",
+        "#1951FC",
+        "#3781FC",
+        "visible cyan of fifth slab",
+        "#CBE9FD"
+      ],
+      "prompt_constraints": "Exactly six overlapping horizontal glass capsules, similar width and spacing; original palette labels preserved in studio data, no labels baked into generated bitmap.",
+      "sha256": "32e7b0dc23cd60cd804feb4433ef303be6acc4beaed2b845e51c47477682a370"
+    },
+    {
+      "path": "assets/white-relief-map-generated.png",
+      "reference": "REF-01",
+      "intent": "Raised matte white world-map material with five orange pins; diffuse lighting, fine borders, bevels, side walls, ambient occlusion, #EEEEEE ground.",
+      "prompt_constraints": "Wide 16:9, no numbers or labels or phone UI; material illustration, geography requires source verification.",
+      "sha256": "534af843640ba87b6a83551ecf24d954991df3a21c6f875072aba4fd174568ca"
+    }
+  ]
+}

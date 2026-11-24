@@ -1,0 +1,110 @@
+[통계·지도·종이 재질 — 현재 영상 적용 지시]
+작성: 2026-11-24 · 기존 CURRENT(B+S+R)에 이어 적용하는 통계 재질 보강
+사용자 지정·실제 선택값이 우선이다. 🌸는 이번에 추가한 구현·검수 제안이다.
+
+[이번 사용자 요청 — 원문 발췌, 전체 원문을 재작성한 것이 아님]
+“통계지도랑 지도종이  요거를 상위로 좀 올려라”
+“그 색감을 정할 수 있게도 해주고”
+“색상 코드가. 그럼 그라데이션이 어떻게 돼 있는지”
+“저걸로만 해서 페이지를 하나를 그냥 새로 만드세요.”
+“저걸 엄청 디테일하게 분석을 해서 넣으세요.”
+이 발췌는 탐색을 위한 것이며 실제 사용자 메시지와 첨부 원본을 대체하지 않는다.
+
+[목표와 기존 규칙의 관계]
+기존 국뽕 영상/프로젝트에 사용자가 선택한 통계·지도·종이 디자인을 적용한다. 단순 도형이나 2색 그라데이션으로 유리·발광·입체감을 뭉뚱그리지 않는다. 원본의 작은 여백, 물체 사이 간격, 숫자와 지도 겹침, 유리 가장자리의 얇은 밝고 어두운 선까지 대조한다.
+기존 CURRENT의 대본·TTS·원본 클립 보존, 지정 자막색·폰트, 기본/디자인 자막 중복 방지, 부드러운 전환, 실제 기사·댓글 사용, 캐릭터 선택 규칙을 계속 적용한다. 이번 지시는 통계·지도·종이 재질의 구체 구현을 보강한다. 다른 자막·썸네일·댓글의 색상이나 폰트를 통계 팔레트로 바꾸지 않는다.
+새 전용 웹 페이지는 원본 비교와 재질 선택을 위한 도구다. 실제 영상 편집기는 기존 HumanTouch와 사용 중인 렌더러를 유지한다. 대본·TTS를 다시 만들거나 새 영상 편집기로 갈아엎지 않는다.
+기존 S/R의 단순 시안과 사용자가 이 페이지에서 저장한 세부 설정이 같은 통계 장면에서 충돌하면, 해당 장면의 최신 사용자 선택을 우선한다. 선택하지 않은 값을 사용자 확정값처럼 승격하지 않는다.
+
+[실제로 열어야 할 입력]
+전용 스튜디오: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/
+상세 측정·레이어·구도 JSON: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/reference-spec.json
+상세 분석 문서: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/reference-analysis.md
+이 지시 원본: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/production-prompt.txt
+편집 가능한 SVG 렌더러: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/material-renderer.js
+전체 24장 원본 목록: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/reference-manifest.json
+기존 CURRENT 전체 지시: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/apply-current-edit.txt
+기존 역할별 지정색: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/color-roles.json
+기존 통계 규칙 S: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/statistics-rules.json
+기존 참조 규칙 R: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/reference-rules.json
+
+🌸 위 URL을 실제로 열어 본 범위만 확인 완료로 기록한다. 열지 못한 파일은 미확인으로 표시하고, 현재 접근 가능한 원본·설정으로 가능한 작업을 계속한다. URL 목록만 읽고 이미지를 확인했다고 보고하지 않는다.
+🌸 실행 시 반드시 사용자가 스튜디오에서 내려받은 ‘설정 JSON’을 함께 읽는다. 같은 스튜디오에서 복사한 ‘현재 설정 프롬프트’가 있으면 그 안의 저장값을 그대로 적용한다. 정적 기본 프롬프트만으로 사용자의 현재 브라우저 선택색을 알아냈다고 가정하지 않는다.
+🌸 JSON 내 module/스타일 식별자, 참조 ID, 화면 비율·실제 width/height, 색 역할, 각 그라데이션 stop의 색·위치·불투명도, 빛 중심·반경·번짐, 두께·반사·그림자, 여백·배율·레이어 선택을 실제 렌더 입력에 전달한다. 내보내기 스키마와 키는 해당 JSON 그대로 따른다. 없는 필드를 임의로 ‘사용자가 고른 값’이라고 생성하지 않는다.
+🌸 설정 JSON이 아직 없으면 현재 상태를 확인할 수 있는 경우 그 값을 내보내어 보존한다. 접근할 수 없으면 reference-spec의 초기 제안값임을 분명히 표시해 시안을 만들고, 확인되지 않은 선택을 완료로 보고하지 않는다.
+
+[9개 원본과 적용 대상]
+01 / map / REF-01 — 흰 양각 세계지도·주황 숫자·위치 핀
+원본: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/references/REF-01.jpg
+02 / amber / REF-02 — 투명 유리 접시·앰버 파이·큰 숫자·점선 콜아웃
+원본: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/references/REF-02.jpg
+03 / glow / REF-03 — 흰 분리형 원형 도형·코발트 방사형 빛 번짐
+원본: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/references/REF-03.jpg
+04 / funnel / REF-04 — 단계별 반투명 유리 퍼널·옆 설명 카드
+원본: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/references/REF-04.jpg
+05 / slabs / REF-05 — 여섯 겹 파란 유리·둥근 베벨·밝은 가장자리
+원본: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/references/REF-05.jpg
+06 / pipe / REF-06 — 유리관·링·별·말풍선·문서·원근 라벨
+원본: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/references/REF-06.jpg
+07 / bars / REF-07 — 같은 너비·바닥선의 4색 유리 막대
+원본: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/references/REF-07.jpg
+08 / territory / REF-21 — 회색 지도·영역 색·경계·깃발·짧은 지도 라벨
+원본: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/references/REF-21.png
+09 / paper / REF-22 — 상하 회색 종이·불규칙한 밝은 찢어진 경계·중앙 영상 창
+원본: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/references/REF-22.png
+
+reference-spec.json의 module 이름은 분석용 이름이다. 위 map/amber/... 값은 웹 렌더러의 유형 식별자다. 실제 설정 JSON의 식별자와 원본 ID를 함께 확인한다.
+참고 캡처에 보이는 통계 수치·기업명·지명은 디자인 분석 입력이다. 현재 영상의 사실/데이터로 자동 편입하지 않는다. 실제 그래프의 수치·분모·단위·기간·출처는 현재 대본 및 데이터 입력과 연결한다. 원본의 15% 뒤 기하 블록은 축과 시점이 없는 장식이며 실제 상승 추세의 증거가 아니다.
+
+[색상: 명시값 / 픽셀 실측 / 재현 설정]
+REF-05에 적힌 순서는 다음과 같다.
+1. #03195B
+2. #0B2CB1
+3. #1951FC
+4. #3781FC
+5. #3781FC
+6. #CBE9FD
+4·5번의 표기가 같다는 사실을 그대로 보존한다. 화면의 다섯 번째 유리가 더 밝다고 해서 원문 HEX를 몰래 다른 색으로 수정하지 않는다. 표기색, 화면 픽셀 실측색, 조명으로 밝아진 재현색을 별도로 기록한다.
+이 여섯 값은 여섯 물체의 표기색이다. 한 물체 내부 그라데이션의 여섯 stop이라고 자동 해석하지 않는다. 물체 내부의 stop은 별도로 정의한다.
+🌸 명시 HEX는 기본색 역할로 보존하고, 어두운 내부·얇은 반사·표면 광택·가장자리 두께·주변 번짐의 색과 alpha를 별도 레이어로 계산한다. 유리 전체에 단색 면만 칠하거나 한 개의 linear-gradient로 모든 현상을 대체하지 않는다.
+🌸 원본을 클릭해 얻은 5×5px 중앙값과 reference-spec의 ROI 실측은 합성된 스크린샷 색이다. 원래 재질의 기본색·조명·불투명도와 동일하다고 단정하지 않는다. 실측값을 적용할 때도 적용한 역할을 기록한다.
+🌸 기존 VS #E21317, 풀 파티 #E03C3E, 재능이 없는 #E25254→#F26163 등 사용자 지정색을 보존한다. 통계 팔레트로 전역 치환하지 않는다.
+
+[재질 구현: 원본과 대조할 요소]
+파란 유리: 겹침 순서 → 몸체의 깊은 색 → 내부 다중 stop → 왼쪽 넓은 반사 → 오른쪽 위의 작은 밝은 반사 → 윗면 얇은 밝은 선 → 가장자리 어두운 두께 → 안쪽 굴절띠 → 바깥 미세 번짐 → 접촉 그림자 순으로 분리한다. 두꺼운 흰 테두리 하나로 유리라고 표현하지 않는다.
+🌸 방사형 블루: 중심 좌표·반경·안쪽 농도·중간 stop·외곽 alpha·블러를 별도 조절한다. 흰 원형 바탕, 분리된 조각, 깊이를 보이는 옆면, 파란 발광층, 얇은 표면 반사, 선명한 숫자가 각각 구분되어야 한다. 전체 원판이나 숫자를 함께 흐리게 만들지 않는다.
+🌸 앰버 파이: 타원 원근, 접시 외벽과 안벽, 투명한 분할벽, 앰버 채움, 밝은 유리 가장자리, 짧은 접촉 그림자를 분리한다. 원근으로 왜곡된 픽셀 면적을 실제 구성비로 역산하지 않는다.
+🌸 퍼널·막대: 면별 밝기·다른 깊이색·상단 림·바닥 반사를 구분한다. 막대는 동일 바닥선과 너비에서 값에 따라 높이가 정해지며, 유리 두께 때문에 값의 비교가 뒤틀리지 않게 한다. 퍼널은 단계별 수치와 전 단계 대비인지 전체 대비인지의 분모를 유지한다.
+🌸 유리관: 관의 양쪽 가장자리, 중간 투명부, 링의 안/바깥 테두리, 아이콘별 유리면, 바닥 그림자와 반사를 따로 둔다. 파란 선 한 줄을 유리관의 완성본으로 내지 않는다.
+🌸 흰 양각 지도: 실제 지형 윤곽 → 밝은 윗면 → 회색 옆면 높이 → 국경/경계 선 → 접촉 그림자 → 약한 바닥 그림자 → 핀·라벨 → 선명한 수치 순으로 구성한다. 지도와 수치의 겹침은 원본 crop의 관찰값을 기준으로 맞춘다.
+🌸 영역 지도: 검증된 지리 데이터에 현재 소재의 영역·경계·핀·라벨을 연결한다. REF-21의 258×145 캡처를 확대해 새로운 정확한 경계를 복원한 것처럼 쓰지 않는다. 임의 생성 지형을 실제 지형 데이터 대신 사용하지 않는다.
+🌸 종이: 상하 띠 높이·중앙 영상 창·불규칙한 찢김·밝은 섬유 끝·가는 접촉 음영·회색 미세 질감을 분리한다. 수평 흰 직선이나 반복 삼각형만으로 찢어진 종이를 대체하지 않는다. 영상은 비율을 유지하고 중요한 인물을 자르지 않는다.
+
+[작은 여백과 가로·세로 배치]
+🌸 source crop은 reference-spec.json의 x,y,width,height를 기준으로 사용한다. 휴대폰 바·재생 버튼·앱 UI를 디자인 요소로 가져오지 않는다. 원본 crop을 새로 생성한 이미지라고 표시하지 않는다.
+🌸 원본과 시안은 동일한 관심영역을 같은 표시 크기로 비교한다. 전체 휴대폰 화면과 작은 차트만 비교해 ‘일치’라고 판정하지 않는다.
+🌸 여백은 화면 테두리, 물체 간격, 콜아웃 거리, 숫자와 도형 간격을 따로 관리한다. 좌표 측정의 허용 오차와 새 구현값을 구분한다. 큰 숫자 뒤로 지도가 가리는 원본처럼 겹침이 의도된 부분을 임의로 벌리지 않는다.
+🌸 16:9는 도형과 설명을 좌우로, 9:16은 도형과 설명을 위아래로 재배치한다. 필요하면 수치 블록·콜아웃 개수와 줄바꿈을 조절하되 숫자·단위·의미는 보존한다. 전체를 90도 회전하거나 가로세로로 찌그러뜨려 채우지 않는다.
+🌸 원형·유리관·지도 모형의 고유 비율을 유지한다. 같은 기준 크기에서 테두리·블러·그림자·글자 크기를 함께 환산한다. 글자와 출처는 마지막 선명한 레이어로 렌더한다.
+기존 영상 상단 고정 소제목 금지 규칙은 유지한다. 통계/지도 내부 제목·라벨은 해당 디자인과 같이 등장·퇴장한다. 같은 발화를 말하는 기본 자막과 디자인 자막을 이중으로 표시하지 않는다.
+
+[생성 이미지 2장: 별도 재질 시안]
+파란 유리: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/assets/blue-glass-generated.png
+흰 양각 지도: https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/assets/white-relief-map-generated.png
+이 두 파일은 원본을 참고한 생성 이미지이며 원본 3D 프로젝트·정확한 통계 데이터·검증된 지도 데이터가 아니다. 웹의 편집 가능한 SVG와도 별도 결과물이다.
+🌸 색감·광택·재질 방향을 보여주는 참고로 사용하고, 실제 영상의 숫자·지명·경계·비율은 편집 가능한 레이어에서 정확히 합성한다. 생성 이미지에 표기된 문자/숫자가 있으면 실제 데이터로 검증 없이 사용하지 않는다.
+🌸 실제 원본 3D 파일·광원·카메라 정보가 없으므로 ‘완전 동일 복원’, ‘원본 물성값 추출 완료’라고 허위 보고하지 않는다. 일치한 부분과 남은 차이를 원본/시안 캡처로 구체적으로 보여준다.
+
+[선택값을 실제 렌더에 연결]
+🌸 PNG는 현재 시안의 평면 결과, SVG는 코드로 편집할 수 있는 결과, JSON은 선택한 설정의 전달 파일이다. 어느 파일을 받아 적용했는지 구분한다. PNG를 받았다는 이유로 그 안의 재질별 레이어나 원래 3D 광원까지 편집 가능하다고 간주하지 않는다.
+🌸 지도/실사처럼 원본 비트맵이 포함된 시안은 이미지 내부의 각 부분을 색상 컨트롤로 독립 재채색할 수 없다. 실제 편집할 수 있는 항목과 원본 픽셀을 유지하는 항목을 구분한다. 전체 색조 필터를 부분 채색처럼 제시하지 않는다.
+🌸 MaterialRenderer.render(유형, 설정)의 실제 코드와 JSON을 같이 확인한다. UI에서 고른 값이 렌더러에 연결되지 않는 경우 지시를 무시하지 말고 그 연결을 수정한다. 원본, 선택 설정, 렌더 직전 전달값, 출력 프레임을 나란히 비교한다.
+🌸 렌더러 기본값을 바꿔도 기존 localStorage·기존 프로젝트·이미 출력된 PNG/MP4는 자동 갱신되지 않는다. 실제 사용 중인 저장 설정을 확인하고 해당 프로젝트에만 적용한다.
+
+[실행 및 완료 보고]
+1. 기존 CURRENT 및 이번 지시, 실제 원본, 사용자 설정 JSON을 대조한다.
+2. 적용 장면별 참조 ID·출력 비율·원본 데이터·색 역할·그라데이션·여백을 연결한다.
+3. 기존 HumanTouch/렌더러에서 필요한 부분만 수정하고 대본·TTS 바이트와 타임코드를 유지한다.
+4. 기존 CURRENT의 30초 샘플·대표 1편 검수에 이번 통계 장면의 가로/세로 프레임 비교를 추가한다. 후반 재생 끊김 검수도 유지한다.
+5. 실제 출력에서만 PASS를 판정한다. 문서·코드·웹 시안·실제 영상의 완료 상태를 따로 기록한다. 대표 검수 후 기존 C 단계에 따라 필요한 영상에 적용한다.
+🌸 보고에는 원본과 출력 프레임, 적용한 설정 JSON, 지정색 연결 결과, 남은 시각적 차이, 실제 수정한 프로젝트/출력 경로를 포함한다. 열지 않은 파일이나 렌더하지 않은 MP4는 완료로 표시하지 않는다. 기존 승인된 작업에 불필요한 재승인 단계를 추가하지 않는다.

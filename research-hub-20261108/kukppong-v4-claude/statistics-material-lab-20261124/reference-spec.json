@@ -1,0 +1,6022 @@
+{
+  "schema_version": "1.0",
+  "revision": "2026-11-24-material-review-r1",
+  "language": "ko",
+  "scope": "7개 통계 레퍼런스 + 영역 지도 + 상하 종이, 총9개. 기존 자막/색상 규칙은 변경하지 않는다.",
+  "legend": {
+    "declared_hex": "원본 이미지에 쓰인 HEX를 그대로 옮긴 값. REF05의 4·5행 중복도 보존.",
+    "measured_screenshot_sample": "원본 합성 스크린샷에서 명시한 ROI의 RGB 중앙값. 실제 렌더의 재질 기본색/투명도와 같다는 뜻이 아니다.",
+    "visual_bounds_estimate": "원본 픽셀 좌표 기준 눈으로 읽은 경계/간격. 일반 허용오차±6px, 작은 REF21은 별도 고해상도 지리자산이 필요.",
+    "reconstruction_proposal": "🌸 원본을 재현하기 위한 초기값. 원본 3D 파일의 조명/굴절률/블러 값을 알아낸 것이 아니며 사용자 선택으로 저장한다."
+  },
+  "coordinate_convention": {
+    "rect": "x,y,width,height in original screenshot pixels",
+    "percent": "relative reference shape unless explicitly named frame",
+    "px_at_1080": "frame height 1080 기준. 출력높이에 선형 비례. 블러/그림자까지 같은 기준을 쓴다."
+  },
+  "global_fidelity_rules": [
+    "원본과 재현은 같은 관심영역을 같은 크기로 놓고 비교한다. 원본 전체 폰화면과 작게 잘린 재현을 비교하지 않는다.",
+    "참조 이미지 crop/줌과 새로 만든 재현을 분명히 구분한다. 원본 crop을 생성 결과라고 표시하지 않는다.",
+    "🌸 원본 보기 / 재현 보기 / 나란히 / 겹쳐보기에서 같은 기준점과 종횡비를 유지한다.",
+    "명시 HEX는 편집 가능한 기본색으로 보존하되 반사·흡광·그림자는 별도 색상과 알파로 계산한다.",
+    "🌸 HEX 선택과 그라데이션 stop 색/위치/알파 선택을 분리한다. 전체 배경의 opacity로 글자까지 흐리게 만들지 않는다.",
+    "그라데이션은 내부색, 밝은 반사, 어두운 두께, 주변 번짐 네 부분을 독립 조절한다. 하나의 2색 linear-gradient만으로 대체하지 않는다.",
+    "블러는 빛/그림자/재질층에만 적용한다. 선명해야 하는 숫자·지명·출처는 최종 별도 레이어다.",
+    "가로와 세로는 재배치하며 도형의 가로세로 비율을 바꾸지 않는다.",
+    "생성형 이미지는 재질/광학 시안으로 사용한다. 통계 숫자·도형 비율·지도 경계는 실제 데이터에 연결된 편집 가능한 요소로 합성한다.",
+    "🌸 기본값 복원은 스타일별로 수행한다. 사용자의 기존 자막 컬러·폰트 설정을 전체 초기화하지 않는다."
+  ],
+  "references": [
+    {
+      "id": "REF-01",
+      "module": "map-emboss",
+      "title": "흰 입체 지도 · 주황 KPI",
+      "source": {
+        "url": "../design-reference-master-20261124/references/REF-01.jpg",
+        "dimensions_px": [
+          1279,
+          1536
+        ],
+        "sha256": "cc83a8ae0fcfdb0358e8b55799cfd3653db55c30494512b9d3d98253d9b75a6f",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          300,
+          48,
+          685,
+          397
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "design-only comparison; removes surrounding app UI where possible"
+      },
+      "bounds": [
+        {
+          "label": "큰 90%",
+          "box": [
+            520,
+            57,
+            270,
+            143
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "지도 모형",
+          "box": [
+            309,
+            174,
+            671,
+            247
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "5개 주황 위치 핀",
+          "box": [
+            534,
+            234,
+            354,
+            157
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        }
+      ],
+      "spacing": [
+        {
+          "label": "큰 숫자와 지도",
+          "observation": "수치 하단이 지도 뒤에 가려진다. 둘을 위아래로 완전히 분리하면 깊이감이 사라진다.",
+          "status": "visual_observation"
+        },
+        {
+          "label": "지도 좌우 여백",
+          "value_px_approx": [
+            9,
+            5
+          ],
+          "relative_to": "crop",
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "숫자 상단 여백",
+          "value_px_approx": 9,
+          "relative_to": "crop",
+          "status": "visual_bounds_estimate"
+        }
+      ],
+      "observed": [
+        "대륙 윤곽을 평면 아이콘으로 대체하면 원본의 면높이·세밀한 국경선·국경 주변 음영이 사라진다.",
+        "지도 윗면은 거의 흰색이며 측면과 바닥의 회색 대비로 양각이 보인다. 모든 면을 동일한 흰색으로 만들지 않는다.",
+        "다섯 핀은 둥근 머리와 뾰족한 끝, 내부 흰 구멍, 오른쪽 아래에 작고 약한 그림자를 가진다.",
+        "전체 지형은 평평한 판 위보다 살짝 곡률이 있는 지구 표면처럼 보인다. 정확한 투영법·카메라 초점거리는 알 수 없다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "90% 주황",
+            "roi": [
+              520,
+              64,
+              265,
+              128
+            ],
+            "rgb": [
+              247,
+              109,
+              11
+            ],
+            "hex": "#F76D0B",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "R>180, 50<G<180, B<120, R-G>50",
+            "sampled_pixels": 12514,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "지도 핀 주황",
+            "roi": [
+              538,
+              235,
+              350,
+              155
+            ],
+            "rgb": [
+              231,
+              135,
+              40
+            ],
+            "hex": "#E78728",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "R>180, 50<G<180, B<120, R-G>50",
+            "sampled_pixels": 3044,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "밝은 회색 배경",
+            "roi": [
+              1000,
+              400,
+              100,
+              100
+            ],
+            "rgb": [
+              238,
+              238,
+              238
+            ],
+            "hex": "#EEEEEE",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 10000,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "상승 블록 밝은 주황 면",
+            "roi": [
+              840,
+              1160,
+              50,
+              70
+            ],
+            "rgb": [
+              249,
+              184,
+              114
+            ],
+            "hex": "#F9B872",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 3500,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          }
+        ],
+        "detail_samples": [
+          {
+            "center_px": [
+              600,
+              90
+            ],
+            "roi": [
+              598,
+              88,
+              5,
+              5
+            ],
+            "rgb": [
+              252,
+              105,
+              5
+            ],
+            "hex": "#FC6905",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              600,
+              220
+            ],
+            "roi": [
+              598,
+              218,
+              5,
+              5
+            ],
+            "rgb": [
+              229,
+              229,
+              229
+            ],
+            "hex": "#E5E5E5",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              648,
+              247
+            ],
+            "roi": [
+              646,
+              245,
+              5,
+              5
+            ],
+            "rgb": [
+              193,
+              193,
+              193
+            ],
+            "hex": "#C1C1C1",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              340,
+              305
+            ],
+            "roi": [
+              338,
+              303,
+              5,
+              5
+            ],
+            "rgb": [
+              212,
+              212,
+              212
+            ],
+            "hex": "#D4D4D4",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              351,
+              324
+            ],
+            "roi": [
+              349,
+              322,
+              5,
+              5
+            ],
+            "rgb": [
+              188,
+              188,
+              188
+            ],
+            "hex": "#BCBCBC",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              550,
+              292
+            ],
+            "roi": [
+              548,
+              290,
+              5,
+              5
+            ],
+            "rgb": [
+              234,
+              148,
+              23
+            ],
+            "hex": "#EA9417",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              574,
+              268
+            ],
+            "roi": [
+              572,
+              266,
+              5,
+              5
+            ],
+            "rgb": [
+              246,
+              195,
+              132
+            ],
+            "hex": "#F6C384",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              700,
+              355
+            ],
+            "roi": [
+              698,
+              353,
+              5,
+              5
+            ],
+            "rgb": [
+              231,
+              155,
+              64
+            ],
+            "hex": "#E79B40",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          }
+        ]
+      },
+      "recipes": [
+        {
+          "id": "map-surface",
+          "label": "🌸 지도 윗면 명암",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FFFFFF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 42,
+              "color": "#E5E5E5",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 76,
+              "color": "#F5F5F5",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#ECECEC",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 118
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "map-side",
+          "label": "🌸 양각 측면",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#DEDEDE",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 38,
+              "color": "#C1C1C1",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#A9A9A9",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "pin-orange",
+          "label": "🌸 핀의 주황 곡면",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FFC578",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 20,
+              "color": "#FF9628",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 65,
+              "color": "#F76D0B",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#D96A14",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 110
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "map-shadow",
+          "label": "🌸 지형 접촉 그림자",
+          "type": "radial",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#6D6D6D",
+              "opacity": 0.3
+            },
+            {
+              "offset_pct": 55,
+              "color": "#8C8C8C",
+              "opacity": 0.14
+            },
+            {
+              "offset_pct": 100,
+              "color": "#8C8C8C",
+              "opacity": 0
+            }
+          ],
+          "parameters": {
+            "center_pct": [
+              50,
+              55
+            ],
+            "radius_pct": [
+              48,
+              14
+            ]
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layers": [
+        {
+          "order": 1,
+          "name": "밝은 바탕",
+          "role": "지도와 구분되는 중성 회색",
+          "settings": {
+            "color": "#EEEEEE"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 2,
+          "name": "큰 90%",
+          "role": "지도 뒤 깊이를 만드는 숫자",
+          "settings": {
+            "color": "#F76D0B",
+            "z_before_map": true
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 3,
+          "name": "수치 앞의 확산 반사",
+          "role": "주황 수치가 하얀 지도에 약하게 번지는 인상",
+          "settings": {
+            "opacity": 0.1,
+            "blur_px_at_1080": 12
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 4,
+          "name": "넓은 바닥 그림자",
+          "role": "지형이 떠 보이지 않게 받침",
+          "settings": {
+            "opacity": 0.17,
+            "blur_px_at_1080": 22,
+            "offset_y_px_at_1080": 11
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 5,
+          "name": "양각 옆면",
+          "role": "지도 두께",
+          "settings": {
+            "depth_pct_of_map_height": 4.5,
+            "fill_recipe": "map-side"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 6,
+          "name": "윗면",
+          "role": "입체 지도 흰 표면",
+          "settings": {
+            "fill_recipe": "map-surface"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 7,
+          "name": "국경선 홈",
+          "role": "검은 외곽선이 아닌 미세한 회색 음각",
+          "settings": {
+            "stroke": "#BEBEBE",
+            "stroke_px_at_1080": 0.7,
+            "opacity": 0.55
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 8,
+          "name": "해안 베벨",
+          "role": "밝은 윗면 모서리",
+          "settings": {
+            "stroke": "#FFFFFF",
+            "stroke_px_at_1080": 1.2,
+            "opacity": 0.7
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 9,
+          "name": "국경 접촉 음영",
+          "role": "작은 영역의 깊이",
+          "settings": {
+            "blur_px_at_1080": 1.2,
+            "opacity": 0.13
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 10,
+          "name": "핀 그림자",
+          "role": "핀과 지형 접촉",
+          "settings": {
+            "blur_px_at_1080": 4,
+            "offset_xy_px_at_1080": [
+              3,
+              5
+            ],
+            "opacity": 0.2
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 11,
+          "name": "핀 본체",
+          "role": "각 좌표에 놓인 주황 곡면",
+          "settings": {
+            "fill_recipe": "pin-orange"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 12,
+          "name": "핀 구멍과 반사",
+          "role": "흰 원형 중심과 얇은 반사점",
+          "settings": {
+            "color": "#FFFFFF",
+            "rim_px_at_1080": 0.8
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "aspect": "16:9",
+          "status": "reconstruction_proposal",
+          "guidance": "지도는 오른쪽 또는 화면 중앙 62~72% 폭. 큰 수치는 지도 위쪽에서 일부 겹침. 설명/출처는 지도 밖의 왼쪽 또는 하단에 배치."
+        },
+        "portrait": {
+          "aspect": "9:16",
+          "status": "reconstruction_proposal",
+          "guidance": "지도 너비는 안전영역에 맞춰 유지하고 큰 숫자→지도→하단 설명 순서. 대륙을 세로로 늘리지 않는다."
+        }
+      },
+      "controls": [
+        {
+          "key": "depth",
+          "label": "🌸 지도 두께",
+          "unit": "% 지도 높이",
+          "initial": 4.5,
+          "min": 0,
+          "max": 12,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "shadow",
+          "label": "🌸 그림자 농도",
+          "unit": "%",
+          "initial": 17,
+          "min": 0,
+          "max": 40,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "line",
+          "label": "🌸 국경선 두께",
+          "unit": "px / 1080h",
+          "initial": 0.7,
+          "min": 0.2,
+          "max": 2,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "overlap",
+          "label": "🌸 숫자 가림량",
+          "unit": "% 숫자 높이",
+          "initial": 12,
+          "min": 0,
+          "max": 25,
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "match_checks": [
+        "숫자의 아래쪽 일부를 지도가 가리는가",
+        "국경선이 굵은 만화선이 되지 않았는가",
+        "윗면·측면·바닥 그림자가 분리되어 있는가",
+        "사용 지역과 핀 좌표는 실제 지도 데이터에 연결되어 있는가"
+      ],
+      "source_limits": [
+        "100% 하단 카드에는 휴대폰 안내가 겹쳐 독립 레퍼런스 crop에서 제외."
+      ],
+      "data_notes": [
+        "31+6+8+3+2=50은 캡처 안 산술상 일치.",
+        "90%의 분모와 의미는 화면에 충분히 설명되지 않음. 50개 라이선스와 같은 지표라고 추정하지 않음.",
+        "15% 뒤 기하 블록에는 축·시점·개별 값이 없어 실제 추세그래프로 간주할 수 없음."
+      ],
+      "status_note": "색상·형태는 사용자 원본 관찰. 명시 HEX/화면 실측/🌸재현 제안을 구분한다. 조명·투명도·블러·물성 수치는 원본 제작 파일의 값이 아니다."
+    },
+    {
+      "id": "REF-02",
+      "module": "pie-amber",
+      "title": "앰버 유리 접시 · 파이",
+      "source": {
+        "url": "../design-reference-master-20261124/references/REF-02.jpg",
+        "dimensions_px": [
+          1279,
+          1536
+        ],
+        "sha256": "9ae4a1796a02eb4570d6069a387e7ecb62d2afbbaa4c0f494eeb98588cb4c40a",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          390,
+          365,
+          485,
+          560
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "design-only comparison; removes surrounding app UI where possible"
+      },
+      "bounds": [
+        {
+          "label": "큰 합계",
+          "box": [
+            620,
+            390,
+            155,
+            70
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "유리 접시",
+          "box": [
+            446,
+            632,
+            383,
+            217
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "세 콜아웃",
+          "box": [
+            442,
+            484,
+            362,
+            278
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        }
+      ],
+      "spacing": [
+        {
+          "label": "접시 원근",
+          "observation": "접시 외곽은 가로 약383px, 세로 약217px로 보이는 타원(약1.76:1). 진짜 원형을 단순 정면 원으로 바꾸지 않는다.",
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "콜아웃 높이",
+          "value_px_approx": [
+            493,
+            549,
+            584
+          ],
+          "relative_to": "original screenshot y",
+          "status": "visual_bounds_estimate"
+        }
+      ],
+      "observed": [
+        "원판 앞부분에 두꺼운 투명 유리벽이 보이고 그 안쪽에 얇은 앰버 채움이 있다.",
+        "윗쪽 테두리·앞 유리벽·바닥에 서로 다른 반사선이 겹친다. 굵은 흰 외곽선 하나로는 같은 재질이 되지 않는다.",
+        "오른쪽 앰버 면의 아래 끝은 붉은 갈색으로 짙어져 유리 두께를 암시한다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "1,100 앰버 숫자",
+            "roi": [
+              620,
+              390,
+              155,
+              70
+            ],
+            "rgb": [
+              207,
+              127,
+              61
+            ],
+            "hex": "#CF7F3D",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "R>180, 50<G<180, B<120, R-G>50",
+            "sampled_pixels": 1968,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "앰버 파이 면",
+            "roi": [
+              685,
+              697,
+              85,
+              40
+            ],
+            "rgb": [
+              219,
+              137,
+              51
+            ],
+            "hex": "#DB8933",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 3400,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "회색 종이 배경",
+            "roi": [
+              330,
+              300,
+              100,
+              100
+            ],
+            "rgb": [
+              236,
+              236,
+              236
+            ],
+            "hex": "#ECECEC",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 10000,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          }
+        ],
+        "detail_samples": [
+          {
+            "center_px": [
+              652,
+              703
+            ],
+            "roi": [
+              650,
+              701,
+              5,
+              5
+            ],
+            "rgb": [
+              218,
+              142,
+              54
+            ],
+            "hex": "#DA8E36",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              700,
+              703
+            ],
+            "roi": [
+              698,
+              701,
+              5,
+              5
+            ],
+            "rgb": [
+              216,
+              126,
+              45
+            ],
+            "hex": "#D87E2D",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              780,
+              734
+            ],
+            "roi": [
+              778,
+              732,
+              5,
+              5
+            ],
+            "rgb": [
+              222,
+              140,
+              54
+            ],
+            "hex": "#DE8C36",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              780,
+              775
+            ],
+            "roi": [
+              778,
+              773,
+              5,
+              5
+            ],
+            "rgb": [
+              217,
+              151,
+              71
+            ],
+            "hex": "#D99747",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              765,
+              801
+            ],
+            "roi": [
+              763,
+              799,
+              5,
+              5
+            ],
+            "rgb": [
+              159,
+              55,
+              31
+            ],
+            "hex": "#9F371F",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              620,
+              833
+            ],
+            "roi": [
+              618,
+              831,
+              5,
+              5
+            ],
+            "rgb": [
+              221,
+              219,
+              220
+            ],
+            "hex": "#DDDBDC",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              500,
+              733
+            ],
+            "roi": [
+              498,
+              731,
+              5,
+              5
+            ],
+            "rgb": [
+              218,
+              217,
+              222
+            ],
+            "hex": "#DAD9DE",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          }
+        ]
+      },
+      "recipes": [
+        {
+          "id": "amber-fill",
+          "label": "🌸 앰버 채움",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#F9BE5E",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 20,
+              "color": "#E6A24B",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 65,
+              "color": "#DB8933",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#BD6425",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 125
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "amber-depth",
+          "label": "🌸 앞쪽 유리 속 흡광",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#F6BD61",
+              "opacity": 0.8
+            },
+            {
+              "offset_pct": 46,
+              "color": "#D37A2F",
+              "opacity": 0.9
+            },
+            {
+              "offset_pct": 76,
+              "color": "#9F371F",
+              "opacity": 0.95
+            },
+            {
+              "offset_pct": 100,
+              "color": "#EDB568",
+              "opacity": 0.65
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "glass-rim",
+          "label": "🌸 유리 테두리 반사",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FFFFFF",
+              "opacity": 0.8
+            },
+            {
+              "offset_pct": 24,
+              "color": "#A2A3A2",
+              "opacity": 0.32
+            },
+            {
+              "offset_pct": 43,
+              "color": "#FFFFFF",
+              "opacity": 0.9
+            },
+            {
+              "offset_pct": 72,
+              "color": "#656563",
+              "opacity": 0.4
+            },
+            {
+              "offset_pct": 100,
+              "color": "#FFFFFF",
+              "opacity": 0.75
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layers": [
+        {
+          "order": 1,
+          "name": "바탕",
+          "role": "중성 밝은 배경",
+          "settings": {
+            "color": "#ECECEC"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 2,
+          "name": "타원 그림자",
+          "role": "접시 바닥의 회색 접촉",
+          "settings": {
+            "opacity": 0.2,
+            "blur_px_at_1080": 18
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 3,
+          "name": "희미한 반사",
+          "role": "접시 아래 상의 흐릿한 복제",
+          "settings": {
+            "opacity": 0.08,
+            "blur_px_at_1080": 5
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 4,
+          "name": "뒤 유리벽",
+          "role": "뒤쪽 얇은 투명 유리 선",
+          "settings": {
+            "fill_recipe": "glass-rim"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 5,
+          "name": "빈 면 바닥",
+          "role": "투명한 부분의 표면",
+          "settings": {
+            "opacity": 0.15
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 6,
+          "name": "앰버 면",
+          "role": "비중을 표현하는 부채꼴",
+          "settings": {
+            "fill_recipe": "amber-fill"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 7,
+          "name": "앰버 두께",
+          "role": "빛이 투과하며 진해지는 앞 단면",
+          "settings": {
+            "fill_recipe": "amber-depth"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 8,
+          "name": "분할 벽",
+          "role": "접시 안 투명 구획",
+          "settings": {
+            "stroke": "#F9FCFF",
+            "opacity": 0.7,
+            "stroke_px_at_1080": 2
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 9,
+          "name": "앞 유리벽",
+          "role": "전체 접시의 둥근 두께",
+          "settings": {
+            "fill_recipe": "glass-rim"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 10,
+          "name": "가느다란 림",
+          "role": "금속처럼 굵어지지 않는 밝은 선",
+          "settings": {
+            "stroke_px_at_1080": 1.2,
+            "opacity": 0.9
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 11,
+          "name": "콜아웃 점선",
+          "role": "라벨과 데이터면 연결",
+          "settings": {
+            "stroke_px_at_1080": 0.9
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 12,
+          "name": "큰 숫자와 라벨",
+          "role": "수치/항목은 별도 텍스트",
+          "settings": {
+            "preserve_crisp_text": true
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "aspect": "16:9",
+          "status": "reconstruction_proposal",
+          "guidance": "왼쪽 합계/라벨, 오른쪽 넓은 접시. 콜아웃은 서로 다른 높이로 배치하고 선을 교차시키지 않는다."
+        },
+        "portrait": {
+          "aspect": "9:16",
+          "status": "reconstruction_proposal",
+          "guidance": "큰 합계→콜아웃→접시 순서. 라벨을 작게 쑤셔 넣지 않고 옆 또는 아래에 정리한다."
+        }
+      },
+      "controls": [
+        {
+          "key": "glassDepth",
+          "label": "🌸 유리벽 깊이",
+          "unit": "% 접시 폭",
+          "initial": 4.2,
+          "min": 1,
+          "max": 8,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "ellipse",
+          "label": "🌸 접시 세로/가로",
+          "unit": "%",
+          "initial": 56,
+          "min": 35,
+          "max": 80,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "rim",
+          "label": "🌸 반사선",
+          "unit": "px / 1080h",
+          "initial": 1.2,
+          "min": 0.4,
+          "max": 3,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "amber",
+          "label": "🌸 앰버 농도",
+          "unit": "%",
+          "initial": 78,
+          "min": 20,
+          "max": 100,
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "match_checks": [
+        "접시가 둥근 유리 용기로 보이는가",
+        "강조색이 채움·앞 단면·반사에서 다르게 보이는가",
+        "라벨 세 개가 같은 높이로 뭉치지 않았는가",
+        "실제 비율 합계와 표기 수치가 일치하는가"
+      ],
+      "source_limits": [
+        "전체 페이지 하단에는 시각 검색 버튼이 겹침. 메인 crop은 그 위에서 끝남.",
+        "Wacker Infographic는 캡처에서 보이는 게시물 제목이며 원 출처 링크는 아직 미제공."
+      ],
+      "data_notes": [
+        "보이는 3개 항목의 합은 868(172+350+346)로 표시 합계 1,100과 다름. 누락된 범주가 있는지 원자료 확인이 필요하며 나머지를 임의 작성하면 안 됨.",
+        "원근 파이의 보이는 픽셀 면적을 실제 구성비로 역산하지 않음."
+      ],
+      "status_note": "색상·형태는 사용자 원본 관찰. 명시 HEX/화면 실측/🌸재현 제안을 구분한다. 조명·투명도·블러·물성 수치는 원본 제작 파일의 값이 아니다."
+    },
+    {
+      "id": "REF-03",
+      "module": "pie-glow",
+      "title": "분리 원판 · 코발트 확산광",
+      "source": {
+        "url": "../design-reference-master-20261124/references/REF-03.jpg",
+        "dimensions_px": [
+          1279,
+          1536
+        ],
+        "sha256": "85ea0fc4f29ceef6df379c63bf4aa61b74db27deb059dab07487e9ed451f45e1",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          160,
+          245,
+          1065,
+          825
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "design-only comparison; removes surrounding app UI where possible"
+      },
+      "bounds": [
+        {
+          "label": "전체 원판",
+          "box": [
+            201,
+            285,
+            719,
+            715
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "파란 확산광",
+          "box": [
+            337,
+            421,
+            486,
+            484
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "30% 라벨",
+          "box": [
+            436,
+            524,
+            118,
+            75
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "70% 라벨",
+          "box": [
+            554,
+            692,
+            115,
+            77
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        }
+      ],
+      "spacing": [
+        {
+          "label": "중앙 블루 직경",
+          "value_px_approx": 486,
+          "relative_to": "원판 약719px = 67.6%",
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "조각 사이 틈",
+          "value_px_approx": [
+            30,
+            36
+          ],
+          "relative_to": "캡처 경계 주변",
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "원판 우측 라벨 영역",
+          "observation": "원판 오른쪽에서 얇은 연결선이 라벨까지 이어진다. 숫자는 원판 내부에 있다.",
+          "status": "visual_observation"
+        }
+      ],
+      "observed": [
+        "재질은 무광에 가까운 흰 판이며 중앙의 넓은 푸른 확산광이 핵심이다. 원판 전체를 푸르게 칠하면 다르다.",
+        "밝은 푸른 중심에서 흰 원판까지 갑자기 끊기지 않고 넓게 사라진다. 원판 밖으로 번지는 정도는 작다.",
+        "절단면의 진한 푸른 L자 벽이 표면 발광과 구별된다.",
+        "숫자도 푸른 빛에 물들어 대비가 약하다. 원본 대조에서는 그대로 보여주고 실제 영상용은 별도 가독성 조절을 사용한다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "글로 내부 파랑",
+            "roi": [
+              630,
+              570,
+              65,
+              65
+            ],
+            "rgb": [
+              34,
+              71,
+              255
+            ],
+            "hex": "#2247FF",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 4225,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "분할 절단면 파랑",
+            "roi": [
+              440,
+              634,
+              90,
+              15
+            ],
+            "rgb": [
+              47,
+              71,
+              225
+            ],
+            "hex": "#2F47E1",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 1350,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "흰 원판",
+            "roi": [
+              730,
+              420,
+              40,
+              40
+            ],
+            "rgb": [
+              237,
+              237,
+              237
+            ],
+            "hex": "#EDEDED",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 1600,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          }
+        ],
+        "detail_samples": [
+          {
+            "center_px": [
+              680,
+              560
+            ],
+            "roi": [
+              678,
+              558,
+              5,
+              5
+            ],
+            "rgb": [
+              43,
+              68,
+              248
+            ],
+            "hex": "#2B44F8",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              730,
+              700
+            ],
+            "roi": [
+              728,
+              698,
+              5,
+              5
+            ],
+            "rgb": [
+              47,
+              87,
+              248
+            ],
+            "hex": "#2F57F8",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              775,
+              765
+            ],
+            "roi": [
+              773,
+              763,
+              5,
+              5
+            ],
+            "rgb": [
+              187,
+              197,
+              232
+            ],
+            "hex": "#BBC5E8",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              805,
+              790
+            ],
+            "roi": [
+              803,
+              788,
+              5,
+              5
+            ],
+            "rgb": [
+              227,
+              227,
+              227
+            ],
+            "hex": "#E3E3E3",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              840,
+              805
+            ],
+            "roi": [
+              838,
+              803,
+              5,
+              5
+            ],
+            "rgb": [
+              226,
+              226,
+              226
+            ],
+            "hex": "#E2E2E2",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              875,
+              810
+            ],
+            "roi": [
+              873,
+              808,
+              5,
+              5
+            ],
+            "rgb": [
+              230,
+              230,
+              230
+            ],
+            "hex": "#E6E6E6",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              474,
+              640
+            ],
+            "roi": [
+              472,
+              638,
+              5,
+              5
+            ],
+            "rgb": [
+              50,
+              70,
+              227
+            ],
+            "hex": "#3246E3",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              740,
+              420
+            ],
+            "roi": [
+              738,
+              418,
+              5,
+              5
+            ],
+            "rgb": [
+              237,
+              237,
+              237
+            ],
+            "hex": "#EDEDED",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          }
+        ]
+      },
+      "recipes": [
+        {
+          "id": "cobalt-glow",
+          "label": "🌸 중심에서 사라지는 방사광",
+          "type": "radial",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#2247FF",
+              "opacity": 0.98
+            },
+            {
+              "offset_pct": 40,
+              "color": "#2448FF",
+              "opacity": 0.96
+            },
+            {
+              "offset_pct": 64,
+              "color": "#3B59F5",
+              "opacity": 0.88
+            },
+            {
+              "offset_pct": 79,
+              "color": "#657CEE",
+              "opacity": 0.63
+            },
+            {
+              "offset_pct": 91,
+              "color": "#AAB8EA",
+              "opacity": 0.28
+            },
+            {
+              "offset_pct": 100,
+              "color": "#EDEDED",
+              "opacity": 0
+            }
+          ],
+          "parameters": {
+            "center_pct": [
+              52,
+              52
+            ],
+            "radius_pct": [
+              34,
+              34
+            ],
+            "blur_px_at_1080": 12
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "plate",
+          "label": "🌸 흰 원판의 얕은 음영",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#F4F4F4",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 52,
+              "color": "#EDEDED",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#E1E1E1",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 112
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "cut-wall",
+          "label": "🌸 분할 단면의 진파랑",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#2441EA",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 58,
+              "color": "#2F47E1",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#2035AF",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 100
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layers": [
+        {
+          "order": 1,
+          "name": "밝은 배경",
+          "role": "원판과 조금 다른 중성 바탕",
+          "settings": {
+            "color": "#E9E9E9"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 2,
+          "name": "먼 그림자",
+          "role": "분리된 조각 바닥 그림자",
+          "settings": {
+            "blur_px_at_1080": 25,
+            "opacity": 0.15,
+            "offset_y_px_at_1080": 16
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 3,
+          "name": "가까운 그림자",
+          "role": "두께/틈 밑 접촉 음영",
+          "settings": {
+            "blur_px_at_1080": 5,
+            "opacity": 0.12
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 4,
+          "name": "조각 옆면",
+          "role": "겉 원주를 따라 보이는 두께",
+          "settings": {
+            "depth_pct_of_diameter": 2.1
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 5,
+          "name": "큰 조각 윗면",
+          "role": "70% 표면",
+          "settings": {
+            "fill_recipe": "plate"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 6,
+          "name": "작은 조각 윗면",
+          "role": "30% 표면, 바깥으로 분리",
+          "settings": {
+            "fill_recipe": "plate",
+            "explode_pct_of_diameter": 4.6
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 7,
+          "name": "푸른 절단 벽",
+          "role": "깊이가 보이는 L자 단면",
+          "settings": {
+            "fill_recipe": "cut-wall"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 8,
+          "name": "중앙 확산광",
+          "role": "넓고 부드러운 청색 타원",
+          "settings": {
+            "fill_recipe": "cobalt-glow",
+            "clip_to_plate": true
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 9,
+          "name": "작은 조각 확산광",
+          "role": "분리 이동한 조각의 자체 광층",
+          "settings": {
+            "fill_recipe": "cobalt-glow",
+            "clip_to_plate": true
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 10,
+          "name": "가장자리 흰 베벨",
+          "role": "외곽 경계의 얇은 반사",
+          "settings": {
+            "stroke_px_at_1080": 1.1,
+            "opacity": 0.5
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 11,
+          "name": "숫자",
+          "role": "원판 내부 비율 텍스트",
+          "settings": {
+            "color": "#9EB7EF",
+            "preserve_crisp_text": true
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 12,
+          "name": "얇은 리더선",
+          "role": "우측 설명과 연결",
+          "settings": {
+            "color": "#D7D7D7",
+            "stroke_px_at_1080": 0.8
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "aspect": "16:9",
+          "status": "reconstruction_proposal",
+          "guidance": "원판은 왼쪽 60~65%, 오른쪽은 설명 두 개. 원판은 정원을 유지하고 30% 조각만 분리한다."
+        },
+        "portrait": {
+          "aspect": "9:16",
+          "status": "reconstruction_proposal",
+          "guidance": "원판은 중앙, 설명은 아래 두 줄. 9:16에서 원을 타원으로 늘리지 않는다."
+        }
+      },
+      "controls": [
+        {
+          "key": "glowRadius",
+          "label": "🌸 푸른 빛 직경",
+          "unit": "% 원판 직경",
+          "initial": 68,
+          "min": 35,
+          "max": 95,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "glowBlur",
+          "label": "🌸 빛 가장자리 부드러움",
+          "unit": "px / 1080h",
+          "initial": 12,
+          "min": 0,
+          "max": 40,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "explode",
+          "label": "🌸 조각 간격",
+          "unit": "% 원판 직경",
+          "initial": 4.6,
+          "min": 0,
+          "max": 12,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "depth",
+          "label": "🌸 원판 두께",
+          "unit": "% 원판 직경",
+          "initial": 2.1,
+          "min": 0,
+          "max": 6,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "textContrast",
+          "label": "🌸 숫자 가독성",
+          "unit": "%",
+          "initial": 55,
+          "min": 30,
+          "max": 100,
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "match_checks": [
+        "흰 바깥 테두리 폭이 남아 있는가",
+        "블루 가장자리에서 계단/밴딩이 생기지 않는가",
+        "단면의 짙은 파랑과 표면 확산광이 분리되어 있는가",
+        "숫자 윤곽까지 흐려지지 않았는가"
+      ],
+      "source_limits": [
+        "폰 화면의 아래 그라데이션은 뷰어 UI 영향일 수 있어 디자인의 정확한 opacity로 역산할 수 없음."
+      ],
+      "data_notes": [
+        "6798+15562=22360. 각 비율은 약30.4%와69.6%로 30/70 표시는 반올림으로 해석할 수 있지만 원 출처는 미확인."
+      ],
+      "status_note": "색상·형태는 사용자 원본 관찰. 명시 HEX/화면 실측/🌸재현 제안을 구분한다. 조명·투명도·블러·물성 수치는 원본 제작 파일의 값이 아니다."
+    },
+    {
+      "id": "REF-04",
+      "module": "funnel",
+      "title": "서리 유리 · 4단 퍼널",
+      "source": {
+        "url": "../design-reference-master-20261124/references/REF-04.jpg",
+        "dimensions_px": [
+          1279,
+          1536
+        ],
+        "sha256": "85868e9dae17aeb08b069e790cc681b1857d2e48f70d86382dde318151208009",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          74,
+          190,
+          1162,
+          1096
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "design-only comparison; removes surrounding app UI where possible"
+      },
+      "bounds": [
+        {
+          "label": "퍼널 첫층",
+          "box": [
+            188,
+            423,
+            742,
+            244
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "퍼널 둘째층",
+          "box": [
+            264,
+            652,
+            615,
+            249
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "퍼널 셋째층",
+          "box": [
+            312,
+            907,
+            500,
+            229
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "퍼널 넷째층",
+          "box": [
+            380,
+            1134,
+            374,
+            249
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "오른쪽 콜아웃",
+          "box": [
+            904,
+            898,
+            330,
+            440
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        }
+      ],
+      "spacing": [
+        {
+          "label": "층 간 음영/틈",
+          "value_px_approx": [
+            22,
+            13,
+            11
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "좌측 Step 열",
+          "observation": "퍼널 본체와 독립된 왼쪽 정렬 열. 본체 너비가 좁아져도 Step은 동일한 기준열을 따른다.",
+          "status": "visual_observation"
+        }
+      ],
+      "observed": [
+        "윗면은 열린 사각 용기의 안쪽이 보이며, 앞면과 오른쪽 면이 분리되어 있다.",
+        "뒤쪽 입구는 어둡고 앞 상단 림이 밝다. 각 층이 평평한 사다리꼴이면 원본의 입체감이 사라진다.",
+        "윗층에서 아래층으로 밝은 서리 유리→연청색→코발트→진파랑이 진행된다.",
+        "큰 그림자가 오른쪽 아래로 길게 드리워진다. 글자나 콜아웃까지 그림자로 덮지 않는다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "3단계 파랑 면",
+            "roi": [
+              440,
+              930,
+              260,
+              20
+            ],
+            "rgb": [
+              83,
+              110,
+              227
+            ],
+            "hex": "#536EE3",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 5200,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "4단계 진파랑 면",
+            "roi": [
+              460,
+              1150,
+              180,
+              22
+            ],
+            "rgb": [
+              39,
+              63,
+              228
+            ],
+            "hex": "#273FE4",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 3960,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "1단계 서리유리 면",
+            "roi": [
+              630,
+              530,
+              130,
+              50
+            ],
+            "rgb": [
+              210,
+              212,
+              232
+            ],
+            "hex": "#D2D4E8",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 6500,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          }
+        ],
+        "detail_samples": [
+          {
+            "center_px": [
+              680,
+              530
+            ],
+            "roi": [
+              678,
+              528,
+              5,
+              5
+            ],
+            "rgb": [
+              207,
+              212,
+              231
+            ],
+            "hex": "#CFD4E7",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              850,
+              513
+            ],
+            "roi": [
+              848,
+              511,
+              5,
+              5
+            ],
+            "rgb": [
+              218,
+              221,
+              236
+            ],
+            "hex": "#DADDEC",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              720,
+              665
+            ],
+            "roi": [
+              718,
+              663,
+              5,
+              5
+            ],
+            "rgb": [
+              201,
+              208,
+              236
+            ],
+            "hex": "#C9D0EC",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              700,
+              768
+            ],
+            "roi": [
+              698,
+              766,
+              5,
+              5
+            ],
+            "rgb": [
+              167,
+              179,
+              227
+            ],
+            "hex": "#A7B3E3",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              620,
+              942
+            ],
+            "roi": [
+              618,
+              940,
+              5,
+              5
+            ],
+            "rgb": [
+              82,
+              107,
+              226
+            ],
+            "hex": "#526BE2",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              660,
+              1022
+            ],
+            "roi": [
+              658,
+              1020,
+              5,
+              5
+            ],
+            "rgb": [
+              106,
+              132,
+              243
+            ],
+            "hex": "#6A84F3",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              590,
+              1165
+            ],
+            "roi": [
+              588,
+              1163,
+              5,
+              5
+            ],
+            "rgb": [
+              42,
+              61,
+              228
+            ],
+            "hex": "#2A3DE4",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              700,
+              1260
+            ],
+            "roi": [
+              698,
+              1258,
+              5,
+              5
+            ],
+            "rgb": [
+              92,
+              120,
+              253
+            ],
+            "hex": "#5C78FD",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          }
+        ]
+      },
+      "recipes": [
+        {
+          "id": "frost-front",
+          "label": "🌸 흰 서리유리 앞면",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#F8FAFF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 25,
+              "color": "#E9EDF8",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 67,
+              "color": "#CFD4E7",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#E7EBF9",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 110
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "blue-front",
+          "label": "🌸 청색 유리 앞면",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#788CF4",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 28,
+              "color": "#536EE3",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 65,
+              "color": "#526BE2",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#6A84F3",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "deep-front",
+          "label": "🌸 최하단 진파랑",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#2D40F4",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 34,
+              "color": "#273FE4",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 69,
+              "color": "#2A3DE4",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#5C78FD",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 100
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "inner-rim",
+          "label": "🌸 열린 유리 입구",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#919AB8",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 38,
+              "color": "#D5D9EB",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 55,
+              "color": "#FFFFFF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#B9C3E7",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 92
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layers": [
+        {
+          "order": 1,
+          "name": "서리색 배경",
+          "role": "밝은 회청색 바탕",
+          "settings": {
+            "color": "#EEF0F6"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 2,
+          "name": "긴 바닥 그림자",
+          "role": "일관된 오른쪽 아래 투영",
+          "settings": {
+            "offset_xy_px_at_1080": [
+              45,
+              42
+            ],
+            "blur_px_at_1080": 24,
+            "opacity": 0.28
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 3,
+          "name": "뒤/오른쪽 면",
+          "role": "각 바구니의 어두운 깊이",
+          "settings": {
+            "darken_pct": 22
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 4,
+          "name": "열린 안쪽",
+          "role": "빈 입구의 음영",
+          "settings": {
+            "fill_recipe": "inner-rim"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 5,
+          "name": "앞면",
+          "role": "윗층에서 아래층의 색 깊이",
+          "settings": {
+            "fill_recipes": [
+              "frost-front",
+              "frost-front",
+              "blue-front",
+              "deep-front"
+            ]
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 6,
+          "name": "윗 림",
+          "role": "얇고 선명한 백색 반사",
+          "settings": {
+            "stroke_px_at_1080": 2,
+            "opacity": 0.75
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 7,
+          "name": "모서리 광",
+          "role": "오른쪽 경사 모서리 국소 반사",
+          "settings": {
+            "blur_px_at_1080": 2,
+            "opacity": 0.35
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 8,
+          "name": "층 사이 접촉 음영",
+          "role": "각 바구니를 분리",
+          "settings": {
+            "blur_px_at_1080": 6,
+            "opacity": 0.2
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 9,
+          "name": "수치와 단계",
+          "role": "앞면에 선명한 텍스트",
+          "settings": {
+            "top_text": "#101010",
+            "lower_text": "#FFFFFF"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 10,
+          "name": "콜아웃 카드",
+          "role": "오른쪽 별도 설명",
+          "settings": {
+            "radius_px_at_1080": 14,
+            "shadow_opacity": 0.17
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "aspect": "16:9",
+          "status": "reconstruction_proposal",
+          "guidance": "퍼널은 왼쪽 55~62%, 콜아웃은 오른쪽. 네 층 전체를 세로로 눌러 찌그러뜨리지 않고 화면높이에 맞춰 균등 축소한다."
+        },
+        "portrait": {
+          "aspect": "9:16",
+          "status": "reconstruction_proposal",
+          "guidance": "퍼널 중앙 정렬. 콜아웃은 각 단계 아래 또는 오른쪽 짧은 말풍선으로 줄이고 화면 밖으로 넘기지 않는다."
+        }
+      },
+      "controls": [
+        {
+          "key": "gap",
+          "label": "🌸 층 사이 틈",
+          "unit": "% 화면 높이",
+          "initial": 1.8,
+          "min": 0.5,
+          "max": 5,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "depth",
+          "label": "🌸 유리 입구 깊이",
+          "unit": "% 층 폭",
+          "initial": 12,
+          "min": 4,
+          "max": 22,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "shadow",
+          "label": "🌸 긴 그림자",
+          "unit": "%",
+          "initial": 28,
+          "min": 0,
+          "max": 45,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "rim",
+          "label": "🌸 상단 반사선",
+          "unit": "px / 1080h",
+          "initial": 2,
+          "min": 0.4,
+          "max": 4,
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "match_checks": [
+        "열린 입구와 앞면/측면이 구분되는가",
+        "색만 바뀐 같은 평면 도형 네 개가 아닌가",
+        "명시된 데이터가 시연용임을 유지했는가",
+        "그림자 때문에 글자를 읽기 어려워지지 않는가"
+      ],
+      "source_limits": [
+        "최하단 퍼널 일부는 휴대폰 안내/탐색막대와 겹치므로 UI 없는 완전한 본체를 이 파일에서 잘라 얻을 수 없음."
+      ],
+      "data_notes": [
+        "demo dataset라고 명시된 예시 데이터. 실제 사용자 영상의 사실 데이터로 재사용하지 않음.",
+        "표시된4/46/20%는 직전 단계 대비 값. 전체 유입 대비 최종 비율은0.368%.",
+        "방문→가입의 감소율96%가 가입→활성의54%보다 큼. Biggest drop—activation 문구는 이 화면만으로 가장 큰 전체 단계 이탈이라는 뜻과 맞지 않으므로 실제 제작 시 계산과 주석을 새로 맞춰야 함.",
+        "입체 퍼널 너비는 표시값에 정확하게 비례하지 않음. 디자인 참고와 수치 인코딩을 분리."
+      ],
+      "status_note": "색상·형태는 사용자 원본 관찰. 명시 HEX/화면 실측/🌸재현 제안을 구분한다. 조명·투명도·블러·물성 수치는 원본 제작 파일의 값이 아니다."
+    },
+    {
+      "id": "REF-05",
+      "module": "slabs",
+      "title": "6단 파란 유리 · 팔레트",
+      "source": {
+        "url": "../design-reference-master-20261124/references/REF-05.jpg",
+        "dimensions_px": [
+          1279,
+          1536
+        ],
+        "sha256": "7e746f31d4cb2980624e55388e2b9b70c46e0825c47aeaf0f17eb3ef1212ad88",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          180,
+          315,
+          960,
+          925
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "design-only comparison; removes surrounding app UI where possible"
+      },
+      "bounds": [
+        {
+          "label": "겹친 유리 본체",
+          "box": [
+            202,
+            332,
+            691,
+            884
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "앞쪽 최종 슬래브",
+          "box": [
+            202,
+            955,
+            691,
+            261
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "HEX 라벨 열",
+          "box": [
+            1013,
+            397,
+            112,
+            725
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "연결선+원",
+          "box": [
+            906,
+            396,
+            86,
+            725
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        }
+      ],
+      "spacing": [
+        {
+          "label": "슬래브 폭",
+          "value_px_approx": 691,
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "슬래브 상단 y",
+          "value_px_approx": [
+            332,
+            459,
+            583,
+            708,
+            832,
+            955
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "보이는 앞 슬래브 비례",
+          "observation": "마지막 슬래브는 폭691 : 높이261 ≈ 2.65:1. 앞쪽 물체가 위 물체의 아래를 가린다. 실제 뒷물체 전체높이는 가려져 확정할 수 없다.",
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "라벨과 본체 사이",
+          "value_px_approx": 120,
+          "relative_to": "라벨 시작1013 - 본체오른쪽893",
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "라벨 행 중심 y",
+          "value_px_approx": [
+            407,
+            547,
+            687,
+            827,
+            967,
+            1107
+          ],
+          "status": "visual_bounds_estimate"
+        }
+      ],
+      "observed": [
+        "검은 바탕에서 왼쪽 밝은 청백색 곡면, 얇은 상단 림, 오른쪽 위 반사점이 각각 보인다.",
+        "슬래브 안쪽은 원문 HEX보다 어두운 부분이 많다. 원문 HEX 하나로 전체 면을 단색 채우면 깊이감이 사라진다.",
+        "모서리에는 단순 흰 테두리 대신 바깥광→밝은 선→짙은 선→안쪽 빛이 연속된다.",
+        "4행과5행 원문은 모두 #3781fc이다. 5행의 실측 면은 더 밝고 청록에 가깝다. 임의로 원문 코드를 고치지 않는다.",
+        "각 층의 밝은 림은 아래층에 가려진다. 모든 외곽선을 전면에 보이면 투명 판들이 나열된 것처럼 달라진다."
+      ],
+      "palette": {
+        "declared": [
+          {
+            "row": 1,
+            "literal": "#03195b"
+          },
+          {
+            "row": 2,
+            "literal": "#0b2cb1"
+          },
+          {
+            "row": 3,
+            "literal": "#1951fc"
+          },
+          {
+            "row": 4,
+            "literal": "#3781fc"
+          },
+          {
+            "row": 5,
+            "literal": "#3781fc",
+            "note": "4행과 원문 표기는 같으나 이 행 점/유리면은 더 밝고 청록에 가까움. 오타 여부 미확인. 표기 그대로 보존."
+          },
+          {
+            "row": 6,
+            "literal": "#cbe9fd"
+          }
+        ],
+        "measured": [
+          {
+            "role": "1행 슬래브 내부 대표색",
+            "roi": [
+              470,
+              390,
+              190,
+              40
+            ],
+            "rgb": [
+              2,
+              16,
+              68
+            ],
+            "hex": "#021044",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 7600,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "2행 슬래브 내부 대표색",
+            "roi": [
+              470,
+              515,
+              190,
+              40
+            ],
+            "rgb": [
+              5,
+              29,
+              135
+            ],
+            "hex": "#051D87",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 7600,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "3행 슬래브 내부 대표색",
+            "roi": [
+              470,
+              635,
+              190,
+              40
+            ],
+            "rgb": [
+              14,
+              53,
+              195
+            ],
+            "hex": "#0E35C3",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 7600,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "4행 슬래브 내부 대표색",
+            "roi": [
+              470,
+              760,
+              190,
+              40
+            ],
+            "rgb": [
+              45,
+              114,
+              253
+            ],
+            "hex": "#2D72FD",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 7600,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "5행 슬래브 내부 대표색",
+            "roi": [
+              470,
+              880,
+              190,
+              40
+            ],
+            "rgb": [
+              91,
+              179,
+              253
+            ],
+            "hex": "#5BB3FD",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 7600,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "6행 슬래브 내부 대표색",
+            "roi": [
+              470,
+              1060,
+              190,
+              40
+            ],
+            "rgb": [
+              116,
+              185,
+              250
+            ],
+            "hex": "#74B9FA",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 7600,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "1행 색상 점 실측",
+            "roi": [
+              974,
+              402,
+              10,
+              10
+            ],
+            "rgb": [
+              3,
+              26,
+              94
+            ],
+            "hex": "#031A5E",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 100,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "2행 색상 점 실측",
+            "roi": [
+              974,
+              542,
+              10,
+              10
+            ],
+            "rgb": [
+              8,
+              46,
+              175
+            ],
+            "hex": "#082EAF",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 100,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "3행 색상 점 실측",
+            "roi": [
+              974,
+              682,
+              10,
+              10
+            ],
+            "rgb": [
+              30,
+              87,
+              249
+            ],
+            "hex": "#1E57F9",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 100,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "4행 색상 점 실측",
+            "roi": [
+              974,
+              822,
+              10,
+              10
+            ],
+            "rgb": [
+              55,
+              131,
+              253
+            ],
+            "hex": "#3783FD",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 100,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "5행 색상 점 실측",
+            "roi": [
+              974,
+              962,
+              10,
+              10
+            ],
+            "rgb": [
+              106,
+              185,
+              254
+            ],
+            "hex": "#6AB9FE",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 100,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "6행 색상 점 실측",
+            "roi": [
+              974,
+              1102,
+              10,
+              10
+            ],
+            "rgb": [
+              197,
+              231,
+              248
+            ],
+            "hex": "#C5E7F8",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 100,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          }
+        ],
+        "detail_samples": [
+          {
+            "center_px": [
+              225,
+              690
+            ],
+            "roi": [
+              223,
+              688,
+              5,
+              5
+            ],
+            "rgb": [
+              109,
+              186,
+              248
+            ],
+            "hex": "#6DBAF8",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              249,
+              637
+            ],
+            "roi": [
+              247,
+              635,
+              5,
+              5
+            ],
+            "rgb": [
+              34,
+              95,
+              247
+            ],
+            "hex": "#225FF7",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              286,
+              608
+            ],
+            "roi": [
+              284,
+              606,
+              5,
+              5
+            ],
+            "rgb": [
+              27,
+              79,
+              233
+            ],
+            "hex": "#1B4FE9",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              450,
+              606
+            ],
+            "roi": [
+              448,
+              604,
+              5,
+              5
+            ],
+            "rgb": [
+              19,
+              66,
+              218
+            ],
+            "hex": "#1342DA",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              650,
+              607
+            ],
+            "roi": [
+              648,
+              605,
+              5,
+              5
+            ],
+            "rgb": [
+              17,
+              59,
+              207
+            ],
+            "hex": "#113BCF",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              800,
+              632
+            ],
+            "roi": [
+              798,
+              630,
+              5,
+              5
+            ],
+            "rgb": [
+              42,
+              110,
+              244
+            ],
+            "hex": "#2A6EF4",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              866,
+              656
+            ],
+            "roi": [
+              864,
+              654,
+              5,
+              5
+            ],
+            "rgb": [
+              78,
+              152,
+              254
+            ],
+            "hex": "#4E98FE",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              880,
+              689
+            ],
+            "roi": [
+              878,
+              687,
+              5,
+              5
+            ],
+            "rgb": [
+              45,
+              106,
+              245
+            ],
+            "hex": "#2D6AF5",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              520,
+              679
+            ],
+            "roi": [
+              518,
+              677,
+              5,
+              5
+            ],
+            "rgb": [
+              12,
+              50,
+              193
+            ],
+            "hex": "#0C32C1",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              235,
+              1110
+            ],
+            "roi": [
+              233,
+              1108,
+              5,
+              5
+            ],
+            "rgb": [
+              180,
+              221,
+              251
+            ],
+            "hex": "#B4DDFB",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              260,
+              1027
+            ],
+            "roi": [
+              258,
+              1025,
+              5,
+              5
+            ],
+            "rgb": [
+              201,
+              231,
+              249
+            ],
+            "hex": "#C9E7F9",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              440,
+              976
+            ],
+            "roi": [
+              438,
+              974,
+              5,
+              5
+            ],
+            "rgb": [
+              160,
+              212,
+              252
+            ],
+            "hex": "#A0D4FC",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              760,
+              984
+            ],
+            "roi": [
+              758,
+              982,
+              5,
+              5
+            ],
+            "rgb": [
+              208,
+              240,
+              251
+            ],
+            "hex": "#D0F0FB",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              820,
+              1080
+            ],
+            "roi": [
+              818,
+              1078,
+              5,
+              5
+            ],
+            "rgb": [
+              156,
+              209,
+              253
+            ],
+            "hex": "#9CD1FD",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              610,
+              1160
+            ],
+            "roi": [
+              608,
+              1158,
+              5,
+              5
+            ],
+            "rgb": [
+              101,
+              175,
+              251
+            ],
+            "hex": "#65AFFB",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          }
+        ]
+      },
+      "recipes": [
+        {
+          "id": "slab-body",
+          "label": "🌸 3행 깊은 유리 내부",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#245CE9",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 20,
+              "color": "#1749DE",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 48,
+              "color": "#0C32C1",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 76,
+              "color": "#1646D6",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#2A6EF4",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 112
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "slab-left",
+          "label": "🌸 왼쪽 둥근 곡면의 청백색 광",
+          "type": "radial",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#D9F5FF",
+              "opacity": 0.95
+            },
+            {
+              "offset_pct": 15,
+              "color": "#8BD8FF",
+              "opacity": 0.9
+            },
+            {
+              "offset_pct": 42,
+              "color": "#55ACFF",
+              "opacity": 0.64
+            },
+            {
+              "offset_pct": 70,
+              "color": "#2F6FFF",
+              "opacity": 0.23
+            },
+            {
+              "offset_pct": 100,
+              "color": "#1951FC",
+              "opacity": 0
+            }
+          ],
+          "parameters": {
+            "center_pct": [
+              2,
+              42
+            ],
+            "radius_pct": [
+              18,
+              59
+            ]
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "slab-right",
+          "label": "🌸 오른쪽 위 국소 반사",
+          "type": "radial",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#ECFFFF",
+              "opacity": 0.96
+            },
+            {
+              "offset_pct": 10,
+              "color": "#ABE9FF",
+              "opacity": 0.88
+            },
+            {
+              "offset_pct": 30,
+              "color": "#4E98FE",
+              "opacity": 0.62
+            },
+            {
+              "offset_pct": 65,
+              "color": "#2D6AF5",
+              "opacity": 0.18
+            },
+            {
+              "offset_pct": 100,
+              "color": "#1951FC",
+              "opacity": 0
+            }
+          ],
+          "parameters": {
+            "center_pct": [
+              91,
+              10
+            ],
+            "radius_pct": [
+              17,
+              29
+            ]
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "slab-rim",
+          "label": "🌸 베벨의 얇은 다중 반사",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#E8FFFF",
+              "opacity": 0.95
+            },
+            {
+              "offset_pct": 18,
+              "color": "#83D9FF",
+              "opacity": 0.65
+            },
+            {
+              "offset_pct": 34,
+              "color": "#1B5AD5",
+              "opacity": 0.25
+            },
+            {
+              "offset_pct": 53,
+              "color": "#CBF0FF",
+              "opacity": 0.82
+            },
+            {
+              "offset_pct": 79,
+              "color": "#2F68CF",
+              "opacity": 0.3
+            },
+            {
+              "offset_pct": 100,
+              "color": "#021044",
+              "opacity": 0.4
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "slab-front-light",
+          "label": "🌸 6행 밝은 유리 내부",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#BCE9FF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 26,
+              "color": "#A0D4FC",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 66,
+              "color": "#74B9FA",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#65AFFB",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 112
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "slab-bloom",
+          "label": "🌸 얇은 바깥 푸른 번짐",
+          "type": "radial",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#3781FC",
+              "opacity": 0.18
+            },
+            {
+              "offset_pct": 55,
+              "color": "#1951FC",
+              "opacity": 0.08
+            },
+            {
+              "offset_pct": 100,
+              "color": "#1951FC",
+              "opacity": 0
+            }
+          ],
+          "parameters": {
+            "radius_pct": [
+              54,
+              58
+            ],
+            "blur_px_at_1080": 5
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layers": [
+        {
+          "order": 1,
+          "name": "완전한 검은 배경",
+          "role": "블루 유리 림을 드러내는 바탕",
+          "settings": {
+            "color": "#000000"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 2,
+          "name": "바깥 블룸",
+          "role": "조금만 번지는 푸른 주변광",
+          "settings": {
+            "fill_recipe": "slab-bloom",
+            "blur_px_at_1080": 5
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 3,
+          "name": "뒤 곡면",
+          "role": "전체 슬래브 두께의 어두운 뒷 윤곽",
+          "settings": {
+            "offset_xy_px_at_1080": [
+              0,
+              5
+            ],
+            "darken_pct": 28
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 4,
+          "name": "겹침 음영",
+          "role": "위쪽 물체 밑으로 내려오는 어두운 띠",
+          "settings": {
+            "opacity": 0.26,
+            "blur_px_at_1080": 5
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 5,
+          "name": "기본 내부색",
+          "role": "한 색이 아닌 다중 색상 정지점",
+          "settings": {
+            "fill_recipe": "slab-body"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 6,
+          "name": "중앙 흡광",
+          "role": "유리 속 중심이 어두운 인상",
+          "settings": {
+            "color": "#03195B",
+            "opacity": 0.16,
+            "blend": "multiply"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 7,
+          "name": "왼쪽 구면광",
+          "role": "세로 곡면에 길게 맺힌 청백색 반사",
+          "settings": {
+            "fill_recipe": "slab-left"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 8,
+          "name": "오른쪽 위 반사",
+          "role": "작고 밝은 곡면 하이라이트",
+          "settings": {
+            "fill_recipe": "slab-right"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 9,
+          "name": "넓은 위쪽 빛",
+          "role": "상단부를 따라 퍼지는 약한 반사띠",
+          "settings": {
+            "opacity": 0.18,
+            "blur_px_at_1080": 7
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 10,
+          "name": "외곽 베벨",
+          "role": "바깥 어두운 선과 얇은 밝은 선",
+          "settings": {
+            "fill_recipe": "slab-rim",
+            "width_px_at_1080": 2.2
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 11,
+          "name": "안쪽 반사선",
+          "role": "외곽에서 조금 안쪽에 생기는 두 번째 가는 선",
+          "settings": {
+            "offset_px_at_1080": 4,
+            "stroke_px_at_1080": 0.8,
+            "opacity": 0.32
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 12,
+          "name": "미세한 반사점",
+          "role": "오른쪽 위 최고 밝은 지점",
+          "settings": {
+            "blur_px_at_1080": 1.5,
+            "opacity": 0.8
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 13,
+          "name": "앞 슬래브 가림",
+          "role": "깊이 순서에 따라 앞쪽이 뒷쪽을 가림",
+          "settings": {
+            "preserve_order": true
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 14,
+          "name": "선·원·HEX",
+          "role": "재질 바깥에 따로 놓는 선명한 라벨",
+          "settings": {
+            "text_color": "#D5D5D5",
+            "stroke": "#9A9A9A",
+            "stroke_px_at_1080": 1.2
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "aspect": "16:9",
+          "status": "reconstruction_proposal",
+          "guidance": "검은 화면 왼쪽에 6단 슬래브, 오른쪽에 6개 HEX열. 너비와 곡면 반경을 유지하고 양쪽 안전여백 6% 이상."
+        },
+        "portrait": {
+          "aspect": "9:16",
+          "status": "reconstruction_proposal",
+          "guidance": "원본처럼 세로 누적. 라벨은 오른쪽 열에 두고 슬래브를 세로로 늘리지 않는다. 휴대폰 화면 UI·크레디트는 제작 디자인에 섞지 않는다."
+        }
+      },
+      "controls": [
+        {
+          "key": "radius",
+          "label": "🌸 모서리 곡률",
+          "unit": "% 슬래브 높이",
+          "initial": 45,
+          "min": 20,
+          "max": 50,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "overlap",
+          "label": "🌸 겹침량",
+          "unit": "% 슬래브 높이",
+          "initial": 52,
+          "min": 20,
+          "max": 75,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "rim",
+          "label": "🌸 베벨 폭",
+          "unit": "px / 1080h",
+          "initial": 2.2,
+          "min": 0.4,
+          "max": 6,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "bloom",
+          "label": "🌸 바깥 빛 번짐",
+          "unit": "px / 1080h",
+          "initial": 5,
+          "min": 0,
+          "max": 24,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "absorption",
+          "label": "🌸 중앙 흡광",
+          "unit": "%",
+          "initial": 16,
+          "min": 0,
+          "max": 40,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "reflection",
+          "label": "🌸 반사광 세기",
+          "unit": "%",
+          "initial": 80,
+          "min": 0,
+          "max": 100,
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "match_checks": [
+        "명시 HEX 여섯 줄을 원문대로 보존했는가",
+        "원문 코드와 캡처 표면 실측을 구분했는가",
+        "상단 림과 왼쪽 곡면광이 각기 보이는가",
+        "겹침 순서 때문에 위 물체 아래가 가려지는가",
+        "외곽 전체가 두꺼운 네온선처럼 변하지 않았는가"
+      ],
+      "source_limits": [
+        "하단 크레디트는 main crop 밖에 있지만 원본과 visible_text에 보존.",
+        "스크린샷 압축·색관리·조명 표현 때문에 픽셀값이 원저작자의 디자인 토큰과 다를 수 있음."
+      ],
+      "data_notes": [
+        "HEX는 원문을 눈으로 옮긴 값. 실측 점색 및 물체 표면색과 동일하다고 간주하지 않음.",
+        "4·5행의#3781fc 중복은 오류로 확정하지 않고 원문 보존. 5행 샘플 색을 대신 정답 HEX로 승격하지 않음."
+      ],
+      "status_note": "색상·형태는 사용자 원본 관찰. 명시 HEX/화면 실측/🌸재현 제안을 구분한다. 조명·투명도·블러·물성 수치는 원본 제작 파일의 값이 아니다."
+    },
+    {
+      "id": "REF-06",
+      "module": "timeline",
+      "title": "유리 파이프 · 리뷰 흐름",
+      "source": {
+        "url": "../design-reference-master-20261124/references/REF-06.jpg",
+        "dimensions_px": [
+          1279,
+          1536
+        ],
+        "sha256": "d0d83a7d10c958d48e6de42f60d0ebd42b699f32d99dfd29c9de56236ce5bdcf",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          298,
+          105,
+          689,
+          895
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "design-only comparison; removes surrounding app UI where possible"
+      },
+      "bounds": [
+        {
+          "label": "3줄 제목",
+          "box": [
+            337,
+            166,
+            371,
+            176
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "별 배지",
+          "box": [
+            358,
+            464,
+            163,
+            178
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "말풍선",
+          "box": [
+            592,
+            436,
+            157,
+            156
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "문서",
+          "box": [
+            812,
+            359,
+            126,
+            185
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "대각 파이프",
+          "box": [
+            288,
+            548,
+            706,
+            254
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        }
+      ],
+      "spacing": [
+        {
+          "label": "파이프 기울기",
+          "value_deg_approx": -18,
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "아이콘 그룹",
+          "observation": "아이콘들이 파이프와 같은 간격/원근을 따르고, 각 아이콘 아래 가는 수직선이 연결된다.",
+          "status": "visual_observation"
+        }
+      ],
+      "observed": [
+        "관은 투명한 속이 보이는 두 겹 윤곽이며 청색은 일부 반사에만 들어간다.",
+        "별과 문서는 거의 무색 유리, 말풍선만 파란 본체다. 모든 아이콘을 같은 진파랑으로 칠하지 않는다.",
+        "바닥에 아주 희미한 반사·무지갯빛 분산이 있고 글자와 아이콘이 공중에 떠 있는 느낌이 있다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "짙은 남색 제목",
+            "roi": [
+              335,
+              168,
+              365,
+              175
+            ],
+            "rgb": [
+              13,
+              21,
+              43
+            ],
+            "hex": "#0D152B",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "max(R,G,B)<90",
+            "sampled_pixels": 14375,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "말풍선 파란 면",
+            "roi": [
+              635,
+              463,
+              50,
+              22
+            ],
+            "rgb": [
+              94,
+              164,
+              237
+            ],
+            "hex": "#5EA4ED",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 1100,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "밝은 배경",
+            "roi": [
+              753,
+              155,
+              100,
+              100
+            ],
+            "rgb": [
+              242,
+              243,
+              245
+            ],
+            "hex": "#F2F3F5",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 10000,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          }
+        ],
+        "detail_samples": [
+          {
+            "center_px": [
+              666,
+              480
+            ],
+            "roi": [
+              664,
+              478,
+              5,
+              5
+            ],
+            "rgb": [
+              97,
+              165,
+              235
+            ],
+            "hex": "#61A5EB",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              625,
+              478
+            ],
+            "roi": [
+              623,
+              476,
+              5,
+              5
+            ],
+            "rgb": [
+              74,
+              146,
+              237
+            ],
+            "hex": "#4A92ED",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              725,
+              507
+            ],
+            "roi": [
+              723,
+              505,
+              5,
+              5
+            ],
+            "rgb": [
+              184,
+              208,
+              240
+            ],
+            "hex": "#B8D0F0",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              698,
+              548
+            ],
+            "roi": [
+              696,
+              546,
+              5,
+              5
+            ],
+            "rgb": [
+              139,
+              204,
+              226
+            ],
+            "hex": "#8BCCE2",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              630,
+              739
+            ],
+            "roi": [
+              628,
+              737,
+              5,
+              5
+            ],
+            "rgb": [
+              217,
+              224,
+              239
+            ],
+            "hex": "#D9E0EF",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              635,
+              758
+            ],
+            "roi": [
+              633,
+              756,
+              5,
+              5
+            ],
+            "rgb": [
+              217,
+              224,
+              240
+            ],
+            "hex": "#D9E0F0",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              522,
+              680
+            ],
+            "roi": [
+              520,
+              678,
+              5,
+              5
+            ],
+            "rgb": [
+              196,
+              204,
+              220
+            ],
+            "hex": "#C4CCDC",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          }
+        ]
+      },
+      "recipes": [
+        {
+          "id": "pipe-glass",
+          "label": "🌸 맑은 유리관 단면",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FFFFFF",
+              "opacity": 0.93
+            },
+            {
+              "offset_pct": 14,
+              "color": "#9DAFC4",
+              "opacity": 0.6
+            },
+            {
+              "offset_pct": 30,
+              "color": "#EDF9FF",
+              "opacity": 0.18
+            },
+            {
+              "offset_pct": 51,
+              "color": "#FFFFFF",
+              "opacity": 0.1
+            },
+            {
+              "offset_pct": 72,
+              "color": "#B9CCDF",
+              "opacity": 0.45
+            },
+            {
+              "offset_pct": 90,
+              "color": "#F8FFFF",
+              "opacity": 0.9
+            },
+            {
+              "offset_pct": 100,
+              "color": "#7191AB",
+              "opacity": 0.4
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "bubble",
+          "label": "🌸 말풍선 앞면",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#318BEF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 36,
+              "color": "#5EA4ED",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 73,
+              "color": "#A1D0EE",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#D4E5F4",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 125
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "glass-edge",
+          "label": "🌸 무색 유리 가장자리",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#EFFAFF",
+              "opacity": 0.8
+            },
+            {
+              "offset_pct": 26,
+              "color": "#8AA6BD",
+              "opacity": 0.7
+            },
+            {
+              "offset_pct": 49,
+              "color": "#FFFFFF",
+              "opacity": 0.95
+            },
+            {
+              "offset_pct": 73,
+              "color": "#45647B",
+              "opacity": 0.55
+            },
+            {
+              "offset_pct": 100,
+              "color": "#E1F8FC",
+              "opacity": 0.8
+            }
+          ],
+          "parameters": {
+            "angle_deg": 122
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layers": [
+        {
+          "order": 1,
+          "name": "밝은 바탕",
+          "role": "반사를 받는 공간",
+          "settings": {
+            "color": "#F2F3F5"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 2,
+          "name": "바닥 반사",
+          "role": "아이콘 아래 옅은 거울상",
+          "settings": {
+            "opacity": 0.08,
+            "blur_px_at_1080": 8
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 3,
+          "name": "넓은 그림자",
+          "role": "공중 아이콘과 파이프 아래",
+          "settings": {
+            "blur_px_at_1080": 12,
+            "opacity": 0.12
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 4,
+          "name": "관 뒤 윤곽",
+          "role": "속을 비운 투명 원통",
+          "settings": {
+            "fill_recipe": "pipe-glass"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 5,
+          "name": "링",
+          "role": "파이프를 둘러싼 투명 고리",
+          "settings": {
+            "fill_recipe": "glass-edge"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 6,
+          "name": "아이콘 뒷두께",
+          "role": "별/말풍선/문서의 면깊이",
+          "settings": {
+            "depth_px_at_1080": 8
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 7,
+          "name": "무색 아이콘 면",
+          "role": "별·문서",
+          "settings": {
+            "fill_recipe": "glass-edge"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 8,
+          "name": "파란 말풍선 면",
+          "role": "유색 유리 한 개",
+          "settings": {
+            "fill_recipe": "bubble"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 9,
+          "name": "반사선",
+          "role": "유리 모서리의 얇은 광",
+          "settings": {
+            "stroke_px_at_1080": 1.3
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 10,
+          "name": "점/아이콘 내부",
+          "role": "말풍선 점과 문서 선",
+          "settings": {
+            "preserve_crisp_text": true
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 11,
+          "name": "제목·단계명",
+          "role": "원근 그림 밖의 정보",
+          "settings": {
+            "title_color": "#0D152B"
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "aspect": "16:9",
+          "status": "reconstruction_proposal",
+          "guidance": "파이프는 화면 아래에서 완만한 대각선. 단계별 글자는 관 아래에 같은 간격. 제목은 별도 안전영역."
+        },
+        "portrait": {
+          "aspect": "9:16",
+          "status": "reconstruction_proposal",
+          "guidance": "제목 위, 아이콘과 관 아래. 가로 단계가 너무 작아지면 2단 배치로 전환하고 각 단계 순서를 번호로 유지한다."
+        }
+      },
+      "controls": [
+        {
+          "key": "glass",
+          "label": "🌸 유리 채움",
+          "unit": "%",
+          "initial": 18,
+          "min": 0,
+          "max": 70,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "rim",
+          "label": "🌸 유리 반사선",
+          "unit": "px / 1080h",
+          "initial": 1.3,
+          "min": 0.3,
+          "max": 3,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "tilt",
+          "label": "🌸 파이프 기울기",
+          "unit": "°",
+          "initial": -18,
+          "min": -30,
+          "max": 0,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "reflection",
+          "label": "🌸 바닥 반사",
+          "unit": "%",
+          "initial": 8,
+          "min": 0,
+          "max": 25,
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "match_checks": [
+        "파이프가 단색 두꺼운 막대로 보이지 않는가",
+        "별/문서는 무색이고 말풍선만 파란가",
+        "바닥 반사가 본체보다 진하지 않은가"
+      ],
+      "source_limits": [
+        "시각 검색 버튼이 겹치는 우하단 구역은 main crop에서 제외."
+      ],
+      "data_notes": [
+        "댓글의 내용·좋아요·작성자 UI가 아니라 리뷰의 재사용 과정을 나타내는 개념 이미지.",
+        "별/말풍선/문서 아이콘이 있으며 악마·개구리·커피남자 캐릭터는 없음."
+      ],
+      "status_note": "색상·형태는 사용자 원본 관찰. 명시 HEX/화면 실측/🌸재현 제안을 구분한다. 조명·투명도·블러·물성 수치는 원본 제작 파일의 값이 아니다."
+    },
+    {
+      "id": "REF-07",
+      "module": "bars",
+      "title": "4색 반투명 입체 막대",
+      "source": {
+        "url": "../design-reference-master-20261124/references/REF-07.jpg",
+        "dimensions_px": [
+          1279,
+          1536
+        ],
+        "sha256": "b84497e57445d5d7815dd250ee59bac18c21cd6b11c6d059dd3263eac88c84a9",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          313,
+          95,
+          653,
+          573
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "design-only comparison; removes surrounding app UI where possible"
+      },
+      "bounds": [
+        {
+          "label": "주황 기둥",
+          "box": [
+            339,
+            342,
+            121,
+            213
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "파랑 기둥",
+          "box": [
+            502,
+            418,
+            117,
+            137
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "청록 기둥",
+          "box": [
+            660,
+            184,
+            120,
+            372
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "분홍 기둥",
+          "box": [
+            820,
+            264,
+            122,
+            292
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "라벨 행",
+          "box": [
+            341,
+            581,
+            599,
+            77
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        }
+      ],
+      "spacing": [
+        {
+          "label": "공통 바닥선",
+          "value_px_approx": 555,
+          "relative_to": "원본 캡처 y",
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "기둥 중심 x",
+          "value_px_approx": [
+            400,
+            560,
+            720,
+            880
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "기둥 폭과 간격",
+          "value_px_approx": [
+            120,
+            40
+          ],
+          "status": "visual_bounds_estimate"
+        }
+      ],
+      "observed": [
+        "기둥마다 상단 마름모·왼면·오른면의 색이 다르다. 실제 높이는 데이터값에 맞추되 면조명은 독립적으로 적용한다.",
+        "청록 기둥은 윗부분 청록→아랫부분 연두/흰색으로 크게 밝아진다.",
+        "왼쪽 면에 넓은 대각 반사가 보인다. 하단에는 기둥색이 바닥으로 아주 옅게 번진다.",
+        "상단 아이콘은 작은 점선으로 연결되어 있고, 모든 설명은 같은 바닥 기준선 아래에 정렬된다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "오렌지 막대 면",
+            "roi": [
+              410,
+              420,
+              25,
+              55
+            ],
+            "rgb": [
+              254,
+              158,
+              19
+            ],
+            "hex": "#FE9E13",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 1375,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "남색 막대 면",
+            "roi": [
+              575,
+              470,
+              25,
+              35
+            ],
+            "rgb": [
+              1,
+              52,
+              118
+            ],
+            "hex": "#013476",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 875,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "청록 막대 면",
+            "roi": [
+              730,
+              330,
+              25,
+              55
+            ],
+            "rgb": [
+              1,
+              239,
+              209
+            ],
+            "hex": "#01EFD1",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 1375,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "분홍 막대 면",
+            "roi": [
+              890,
+              370,
+              25,
+              55
+            ],
+            "rgb": [
+              252,
+              57,
+              91
+            ],
+            "hex": "#FC395B",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 1375,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          },
+          {
+            "role": "밝은 바탕",
+            "roi": [
+              330,
+              100,
+              110,
+              90
+            ],
+            "rgb": [
+              244,
+              248,
+              252
+            ],
+            "hex": "#F4F8FC",
+            "method": "ROI RGB channel median; round to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 9900,
+            "status": "measured_screenshot_sample",
+            "caveat": "이 ROI에서 측정한 합성된 화면색. 원래 디자인 토큰·단색·재질의 물성으로 확정하지 않음."
+          }
+        ],
+        "detail_samples": [
+          {
+            "center_px": [
+              376,
+              368
+            ],
+            "roi": [
+              374,
+              366,
+              5,
+              5
+            ],
+            "rgb": [
+              253,
+              186,
+              62
+            ],
+            "hex": "#FDBA3E",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              371,
+              454
+            ],
+            "roi": [
+              369,
+              452,
+              5,
+              5
+            ],
+            "rgb": [
+              254,
+              176,
+              49
+            ],
+            "hex": "#FEB031",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              439,
+              458
+            ],
+            "roi": [
+              437,
+              456,
+              5,
+              5
+            ],
+            "rgb": [
+              253,
+              176,
+              20
+            ],
+            "hex": "#FDB014",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              548,
+              439
+            ],
+            "roi": [
+              546,
+              437,
+              5,
+              5
+            ],
+            "rgb": [
+              1,
+              91,
+              155
+            ],
+            "hex": "#015B9B",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              580,
+              501
+            ],
+            "roi": [
+              578,
+              499,
+              5,
+              5
+            ],
+            "rgb": [
+              2,
+              77,
+              145
+            ],
+            "hex": "#024D91",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              694,
+              210
+            ],
+            "roi": [
+              692,
+              208,
+              5,
+              5
+            ],
+            "rgb": [
+              25,
+              252,
+              211
+            ],
+            "hex": "#19FCD3",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              696,
+              345
+            ],
+            "roi": [
+              694,
+              343,
+              5,
+              5
+            ],
+            "rgb": [
+              2,
+              230,
+              207
+            ],
+            "hex": "#02E6CF",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              739,
+              505
+            ],
+            "roi": [
+              737,
+              503,
+              5,
+              5
+            ],
+            "rgb": [
+              184,
+              255,
+              214
+            ],
+            "hex": "#B8FFD6",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              879,
+              286
+            ],
+            "roi": [
+              877,
+              284,
+              5,
+              5
+            ],
+            "rgb": [
+              249,
+              66,
+              89
+            ],
+            "hex": "#F94259",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              850,
+              390
+            ],
+            "roi": [
+              848,
+              388,
+              5,
+              5
+            ],
+            "rgb": [
+              248,
+              80,
+              116
+            ],
+            "hex": "#F85074",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              910,
+              478
+            ],
+            "roi": [
+              908,
+              476,
+              5,
+              5
+            ],
+            "rgb": [
+              255,
+              84,
+              100
+            ],
+            "hex": "#FF5464",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          }
+        ]
+      },
+      "recipes": [
+        {
+          "id": "orange-bar",
+          "label": "🌸 주황 기둥",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FF8C0A",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 35,
+              "color": "#FE9E13",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 75,
+              "color": "#FFC349",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#FFE09A",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "navy-bar",
+          "label": "🌸 청남색 기둥",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#013476",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 40,
+              "color": "#015B9B",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 77,
+              "color": "#0283BF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#21CBE1",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "aqua-bar",
+          "label": "🌸 청록 발광 기둥",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#00BFAF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 38,
+              "color": "#01EFD1",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 68,
+              "color": "#54FBD5",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#D7FFD8",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "pink-bar",
+          "label": "🌸 분홍 기둥",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#B90F5A",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 35,
+              "color": "#E62E6E",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 70,
+              "color": "#FC395B",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#FF7389",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "bar-sheen",
+          "label": "🌸 비스듬한 표면 반사",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FFFFFF",
+              "opacity": 0
+            },
+            {
+              "offset_pct": 43,
+              "color": "#FFFFFF",
+              "opacity": 0
+            },
+            {
+              "offset_pct": 44,
+              "color": "#FFFFFF",
+              "opacity": 0.18
+            },
+            {
+              "offset_pct": 70,
+              "color": "#FFFFFF",
+              "opacity": 0.05
+            },
+            {
+              "offset_pct": 100,
+              "color": "#FFFFFF",
+              "opacity": 0
+            }
+          ],
+          "parameters": {
+            "angle_deg": 122
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layers": [
+        {
+          "order": 1,
+          "name": "밝은 배경",
+          "role": "흰색에 가까운 푸른 바탕",
+          "settings": {
+            "color": "#F4F8FC"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 2,
+          "name": "공통 바닥",
+          "role": "네 기둥이 같은 평면에 서게 함",
+          "settings": {
+            "baseline_shared": true
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 3,
+          "name": "바닥 그림자",
+          "role": "같은 방향의 회색 투영",
+          "settings": {
+            "opacity": 0.12,
+            "blur_px_at_1080": 7
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 4,
+          "name": "컬러 반사",
+          "role": "각 기둥 아래 짧은 채색 반사",
+          "settings": {
+            "opacity": 0.1,
+            "blur_px_at_1080": 8
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 5,
+          "name": "오른쪽 면",
+          "role": "옆면 명암",
+          "settings": {
+            "darken_pct": 12
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 6,
+          "name": "왼쪽 면",
+          "role": "각 기둥 본색과 세로 변화",
+          "settings": {
+            "fill_recipes": [
+              "orange-bar",
+              "navy-bar",
+              "aqua-bar",
+              "pink-bar"
+            ]
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 7,
+          "name": "상단 면",
+          "role": "같은 원근을 가진 마름모",
+          "settings": {
+            "lighten_pct": 14
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 8,
+          "name": "큰 대각 반사",
+          "role": "유리 같은 넓은 표면 반사",
+          "settings": {
+            "fill_recipe": "bar-sheen"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 9,
+          "name": "모서리 선",
+          "role": "가는 밝은 경계",
+          "settings": {
+            "stroke_px_at_1080": 1,
+            "opacity": 0.45
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 10,
+          "name": "값",
+          "role": "기둥 상단 면 아래 읽을 수 있게",
+          "settings": {
+            "color": "#FFFFFF"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 11,
+          "name": "점선/아이콘",
+          "role": "기둥 중앙 위에 정렬",
+          "settings": {
+            "stroke_px_at_1080": 1
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 12,
+          "name": "범주명/설명",
+          "role": "공통 하단 행",
+          "settings": {
+            "shared_baseline": true
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "aspect": "16:9",
+          "status": "reconstruction_proposal",
+          "guidance": "4개 기둥을 동일한 공통바닥/폭으로 가로 배치. 설명은 기둥 아래. 최대값은 화면높이 약58% 안에서 맞춘다."
+        },
+        "portrait": {
+          "aspect": "9:16",
+          "status": "reconstruction_proposal",
+          "guidance": "4개가 좁으면 기둥폭·간격을 줄이되 글자 최소크기는 유지. 2×2로 바꾸면 공통 스케일을 각 패널에 동일하게 쓰고 배치를 명시한다."
+        }
+      },
+      "controls": [
+        {
+          "key": "depth",
+          "label": "🌸 기둥 깊이",
+          "unit": "% 기둥 폭",
+          "initial": 25,
+          "min": 8,
+          "max": 45,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "sheen",
+          "label": "🌸 표면 반사",
+          "unit": "%",
+          "initial": 18,
+          "min": 0,
+          "max": 45,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "gap",
+          "label": "🌸 기둥 간격",
+          "unit": "% 기둥 폭",
+          "initial": 33,
+          "min": 15,
+          "max": 70,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "reflection",
+          "label": "🌸 바닥 반사",
+          "unit": "%",
+          "initial": 10,
+          "min": 0,
+          "max": 30,
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "match_checks": [
+        "공통 바닥/스케일로 높이를 비교할 수 있는가",
+        "4가지 서로 다른 색을 유지했는가",
+        "반사로 숫자가 지워지지 않는가",
+        "가짜 크기·범주를 실제 데이터처럼 표시하지 않는가"
+      ],
+      "source_limits": [
+        "우하단 시각 검색 버튼과 아래 댓글 입력창/앱 UI는 디자인에서 제외."
+      ],
+      "data_notes": [
+        "LOREM IPSUM은 자리표시자 문구. 실제 통계나 실제 범주가 확인된 차트가 아님.",
+        "50+25+100+75=250%이므로 전체를 나누는 구성비 원그래프로 변환하면 안 됨. 범주별 독립 비율로 사용할 수 있는 형식."
+      ],
+      "status_note": "색상·형태는 사용자 원본 관찰. 명시 HEX/화면 실측/🌸재현 제안을 구분한다. 조명·투명도·블러·물성 수치는 원본 제작 파일의 값이 아니다."
+    },
+    {
+      "id": "REF-21",
+      "module": "map-region",
+      "title": "영역 지도 · 깃발 · 경계",
+      "source": {
+        "url": "../design-reference-master-20261124/references/REF-21.png",
+        "dimensions_px": [
+          258,
+          145
+        ],
+        "sha256": "d6f513bad33507bc43b645f64c317250cb15a124d74ba52911b063adef99e86c",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          0,
+          0,
+          218,
+          111
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "design-only comparison; removes surrounding app UI where possible"
+      },
+      "bounds": [
+        {
+          "label": "강조 지역",
+          "box": [
+            77,
+            10,
+            99,
+            102
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "좌측 표찰",
+          "box": [
+            64,
+            29,
+            64,
+            37
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "우측 깃발",
+          "box": [
+            181,
+            63,
+            31,
+            41
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        }
+      ],
+      "spacing": [
+        {
+          "label": "원본 해상도",
+          "value_px": [
+            258,
+            145
+          ],
+          "status": "source_metadata"
+        },
+        {
+          "label": "면 채움과 경계",
+          "observation": "선명한 붉은 영역+가느다란 노랑 경계+어두운 지명. 인접 영역은 흰색/회색으로 낮춰져 있다.",
+          "status": "visual_observation"
+        }
+      ],
+      "observed": [
+        "영역의 빨강은 일반 원색 빨강이 아니라 화면 실측 #FB2B56 근처의 밝은 분홍기가 있는 빨강이다.",
+        "지도 본체는 무채색, 황색 강조선, 짙은 지명과 색깔 있는 깃발이 계층을 만든다.",
+        "258×145의 작은 파일이므로 지명 글자형과 경계를 확대 복원한 것을 실제 지리 데이터라고 주장할 수 없다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "지도 빨강 채움 샘플",
+            "roi": [
+              137,
+              43,
+              20,
+              25
+            ],
+            "declared_hex": null,
+            "rgb": [
+              251,
+              43,
+              86
+            ],
+            "hex": "#FB2B56",
+            "method": "RGB channel median in specified ROI, rounded to integer",
+            "mask_rule": "R>140,G<100,B<150,R-G>80",
+            "sampled_pixels": 476,
+            "status": "measured_screenshot_sample",
+            "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음."
+          }
+        ],
+        "detail_samples": [
+          {
+            "center_px": [
+              140,
+              50
+            ],
+            "roi": [
+              138,
+              48,
+              5,
+              5
+            ],
+            "rgb": [
+              253,
+              43,
+              87
+            ],
+            "hex": "#FD2B57",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              160,
+              60
+            ],
+            "roi": [
+              158,
+              58,
+              5,
+              5
+            ],
+            "rgb": [
+              251,
+              44,
+              87
+            ],
+            "hex": "#FB2C57",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              169,
+              32
+            ],
+            "roi": [
+              167,
+              30,
+              5,
+              5
+            ],
+            "rgb": [
+              252,
+              44,
+              87
+            ],
+            "hex": "#FC2C57",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              150,
+              18
+            ],
+            "roi": [
+              148,
+              16,
+              5,
+              5
+            ],
+            "rgb": [
+              207,
+              198,
+              191
+            ],
+            "hex": "#CFC6BF",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              190,
+              25
+            ],
+            "roi": [
+              188,
+              23,
+              5,
+              5
+            ],
+            "rgb": [
+              207,
+              207,
+              207
+            ],
+            "hex": "#CFCFCF",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              40,
+              44
+            ],
+            "roi": [
+              38,
+              42,
+              5,
+              5
+            ],
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "hex": "#FFFFFF",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          }
+        ]
+      },
+      "recipes": [
+        {
+          "id": "region-fill",
+          "label": "🌸 강조 영역 미세한 명암",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FF3C60",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 46,
+              "color": "#FB2B56",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#E82048",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 108
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "map-background",
+          "label": "🌸 중성 지도 배경",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#F7F7F7",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 45,
+              "color": "#E6E6E6",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#CDCDCD",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 130
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layers": [
+        {
+          "order": 1,
+          "name": "무채색 바탕",
+          "role": "주변 지도 정보",
+          "settings": {
+            "fill_recipe": "map-background"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 2,
+          "name": "행정/국경선",
+          "role": "인접 지역의 얇은 회색 선",
+          "settings": {
+            "stroke": "#A4A4A4",
+            "stroke_px_at_1080": 1.2
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 3,
+          "name": "영역 아래 음영",
+          "role": "지도 위에 얕게 떠 있는 인상",
+          "settings": {
+            "blur_px_at_1080": 2,
+            "opacity": 0.16
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 4,
+          "name": "강조 지역 면",
+          "role": "검증된 벡터 경계의 채움",
+          "settings": {
+            "fill_recipe": "region-fill"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 5,
+          "name": "노랑 경계",
+          "role": "관심 지역 외곽",
+          "settings": {
+            "stroke": "#FFD949",
+            "stroke_px_at_1080": 2
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 6,
+          "name": "지명",
+          "role": "영역 내부 짙은 글자",
+          "settings": {
+            "color": "#6B2430"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 7,
+          "name": "깃발 막대/그림자",
+          "role": "위치 마커",
+          "settings": {
+            "shadow_opacity": 0.18
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 8,
+          "name": "깃발/표찰",
+          "role": "지도 밖으로 튀지 않게 위치",
+          "settings": {
+            "preserve_data_labels": true
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "aspect": "16:9",
+          "status": "reconstruction_proposal",
+          "guidance": "강조 지역을 중앙에 두고 지명/깃발 간격을 확보. 설명문과 출처는 지도 밖에 배치한다."
+        },
+        "portrait": {
+          "aspect": "9:16",
+          "status": "reconstruction_proposal",
+          "guidance": "지역을 중심으로 지리 범위를 다시 선택한다. 전체 가로 지도를 세로 프레임에 압축하지 않는다."
+        }
+      },
+      "controls": [
+        {
+          "key": "fill",
+          "label": "🌸 영역 채움",
+          "unit": "%",
+          "initial": 100,
+          "min": 30,
+          "max": 100,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "border",
+          "label": "🌸 경계선",
+          "unit": "px / 1080h",
+          "initial": 2,
+          "min": 0.5,
+          "max": 5,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "regionDepth",
+          "label": "🌸 영역 깊이",
+          "unit": "px / 1080h",
+          "initial": 2,
+          "min": 0,
+          "max": 10,
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "match_checks": [
+        "원본의 붉은 면/노랑 경계를 역할별로 유지했는가",
+        "실제 경계 데이터와 표기 시점을 사용했는가",
+        "기존 영상의 로고·하단 인물을 지도 장식으로 섞지 않았는가"
+      ],
+      "source_limits": [
+        "원본 258×145. 지명과 경계를 정밀 추출하거나 고해상도 지도 원본으로 사용하는 데 한계.",
+        "지도는 시각 표현 방식 참고. 특정 시점의 실제 영토/행정 경계 정확성을 이 캡처로 검증한 것이 아님.",
+        "필요 지리 영역은 실제 제작 소재의 검증된 지도 데이터에 새로 연결해야 함."
+      ],
+      "data_notes": [],
+      "status_note": "색상·형태는 사용자 원본 관찰. 명시 HEX/화면 실측/🌸재현 제안을 구분한다. 조명·투명도·블러·물성 수치는 원본 제작 파일의 값이 아니다."
+    },
+    {
+      "id": "REF-22",
+      "module": "paper",
+      "title": "상하 종이 · 섬유 테두리",
+      "source": {
+        "url": "../design-reference-master-20261124/references/REF-22.png",
+        "dimensions_px": [
+          944,
+          522
+        ],
+        "sha256": "c972b6fc49374363540d2bf38773e226e0df3b793c5d95ff2d18e6ee88da356d",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          0,
+          0,
+          900,
+          522
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "design-only comparison; removes surrounding app UI where possible"
+      },
+      "bounds": [
+        {
+          "label": "상단 종이",
+          "box": [
+            0,
+            0,
+            900,
+            69
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "중앙 실사 창",
+          "box": [
+            0,
+            69,
+            900,
+            389
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "하단 종이",
+          "box": [
+            0,
+            458,
+            900,
+            64
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        },
+        {
+          "label": "하단 자막 상자",
+          "box": [
+            295,
+            474,
+            355,
+            37
+          ],
+          "status": "visual_bounds_estimate",
+          "tolerance_px": 6
+        }
+      ],
+      "spacing": [
+        {
+          "label": "상단 종이 띠",
+          "value_px_approx": 69,
+          "relative_to": "522h ≈ 13.2%",
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "하단 종이 띠",
+          "value_px_approx": 64,
+          "relative_to": "522h ≈ 12.3%",
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "섬유 경계 두께",
+          "value_px_approx": [
+            8,
+            12
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "자막 상자 상하 여백",
+          "value_px_approx": [
+            16,
+            11
+          ],
+          "relative_to": "하단종이띠",
+          "status": "visual_bounds_estimate"
+        }
+      ],
+      "observed": [
+        "상하 띠는 회색 직물/종이 같은 미세한 입자이며 중앙으로 향한 경계만 희고 불규칙하게 찢어져 있다.",
+        "경계는 큰 삼각 지그재그가 아니라 작은 높낮이가 여러 주기로 섞인다.",
+        "종이 윗면은 중성 회갈색, 찢어진 섬유면은 더 밝은 아이보리/백색, 바로 안쪽에는 아주 얇은 어두운 접촉선이 있다.",
+        "가운데 영상은 전체 프레임과 구분되는 창이다. 아래 자막은 종이 위 짙은 둥근 상자에 들어간다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "상단 종이 대표색",
+            "roi": [
+              200,
+              10,
+              200,
+              35
+            ],
+            "declared_hex": null,
+            "rgb": [
+              176,
+              175,
+              171
+            ],
+            "hex": "#B0AFAB",
+            "method": "RGB channel median in specified ROI, rounded to integer",
+            "mask_rule": "none",
+            "sampled_pixels": 7000,
+            "status": "measured_screenshot_sample",
+            "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음."
+          },
+          {
+            "role": "하단 자막 박스 대표색",
+            "roi": [
+              350,
+              482,
+              200,
+              22
+            ],
+            "declared_hex": null,
+            "rgb": [
+              57,
+              69,
+              74
+            ],
+            "hex": "#39454A",
+            "method": "RGB channel median in specified ROI, rounded to integer",
+            "mask_rule": "max(R,G,B)<120",
+            "sampled_pixels": 3128,
+            "status": "measured_screenshot_sample",
+            "caveat": "캡처된 화면의 RGB값. 글자에 적힌 HEX를 자동 대체하거나 원 디자인 토큰으로 승격하지 않음."
+          }
+        ],
+        "detail_samples": [
+          {
+            "center_px": [
+              120,
+              20
+            ],
+            "roi": [
+              118,
+              18,
+              5,
+              5
+            ],
+            "rgb": [
+              181,
+              179,
+              175
+            ],
+            "hex": "#B5B3AF",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              600,
+              32
+            ],
+            "roi": [
+              598,
+              30,
+              5,
+              5
+            ],
+            "rgb": [
+              171,
+              169,
+              165
+            ],
+            "hex": "#ABA9A5",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              340,
+              62
+            ],
+            "roi": [
+              338,
+              60,
+              5,
+              5
+            ],
+            "rgb": [
+              208,
+              206,
+              202
+            ],
+            "hex": "#D0CECA",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              700,
+              62
+            ],
+            "roi": [
+              698,
+              60,
+              5,
+              5
+            ],
+            "rgb": [
+              209,
+              208,
+              204
+            ],
+            "hex": "#D1D0CC",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              100,
+              490
+            ],
+            "roi": [
+              98,
+              488,
+              5,
+              5
+            ],
+            "rgb": [
+              169,
+              168,
+              164
+            ],
+            "hex": "#A9A8A4",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          },
+          {
+            "center_px": [
+              550,
+              490
+            ],
+            "roi": [
+              548,
+              488,
+              5,
+              5
+            ],
+            "rgb": [
+              132,
+              137,
+              142
+            ],
+            "hex": "#84898E",
+            "status": "measured_screenshot_sample",
+            "method": "Per-channel median of 5×5 RGB pixels, rounded to integer",
+            "not_material_token": true
+          }
+        ]
+      },
+      "recipes": [
+        {
+          "id": "paper-base",
+          "label": "🌸 회색 종이 명암",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#B5B3AF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 48,
+              "color": "#B0AFAB",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#A9A8A4",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "torn-edge",
+          "label": "🌸 밝은 섬유 경계",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#C6C4BF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 30,
+              "color": "#E5E2DA",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 68,
+              "color": "#D1D0CC",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#F0EEE7",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layers": [
+        {
+          "order": 1,
+          "name": "중앙 영상",
+          "role": "원본 영상 비율 유지",
+          "settings": {
+            "fit": "cover only within crop approved by user"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 2,
+          "name": "상하 종이 기본 면",
+          "role": "중성 회색 입자 표면",
+          "settings": {
+            "fill_recipe": "paper-base"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 3,
+          "name": "넓은 저주파 얼룩",
+          "role": "종이의 미세한 밝기 변화",
+          "settings": {
+            "opacity": 0.04,
+            "scale_px_at_1080": 80
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 4,
+          "name": "잔입자",
+          "role": "반복무늬가 눈에 띄지 않는 작은 결",
+          "settings": {
+            "opacity": 0.09,
+            "grain_px_at_1080": 1.2
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 5,
+          "name": "섬유결",
+          "role": "아주 약한 수평/사선 미세결",
+          "settings": {
+            "opacity": 0.05
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 6,
+          "name": "찢어진 실루엣",
+          "role": "작은 비주기 진폭의 경계",
+          "settings": {
+            "amplitude_px_at_1080": 4,
+            "period_px_at_1080": [
+              7,
+              17,
+              43
+            ]
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 7,
+          "name": "밝은 섬유층",
+          "role": "경계에만 좁게 드러나는 밝은 종이",
+          "settings": {
+            "fill_recipe": "torn-edge",
+            "height_px_at_1080": 12
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 8,
+          "name": "접촉선",
+          "role": "종이와 실사 사이의 얇은 음영",
+          "settings": {
+            "opacity": 0.2,
+            "blur_px_at_1080": 0.8
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 9,
+          "name": "자막 상자",
+          "role": "종이 위 짙은 둥근 배경",
+          "settings": {
+            "color": "#39454A",
+            "radius_px_at_1080": 9
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "order": 10,
+          "name": "자막 글자",
+          "role": "흰색과 작은 균등 여백",
+          "settings": {
+            "color": "#FFFFFF",
+            "preserve_crisp_text": true
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "aspect": "16:9",
+          "status": "reconstruction_proposal",
+          "guidance": "원본처럼 위/아래 띠를 얇게 유지. 영상창이 주역이며 좌우에 종이를 추가하지 않는다."
+        },
+        "portrait": {
+          "aspect": "9:16",
+          "status": "reconstruction_proposal",
+          "guidance": "상하 종이 띠의 절대 높이를 가로판 비율로 확대하지 않는다. 위/아래 각각 화면높이8~12%부터 조절하고 얼굴/중심동작을 가리지 않는다."
+        }
+      },
+      "controls": [
+        {
+          "key": "paperHeight",
+          "label": "🌸 종이 띠 높이",
+          "unit": "% 화면 높이",
+          "initial": 13,
+          "min": 4,
+          "max": 22,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "roughness",
+          "label": "🌸 찢김 진폭",
+          "unit": "px / 1080h",
+          "initial": 4,
+          "min": 1,
+          "max": 12,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "fiber",
+          "label": "🌸 밝은 섬유 폭",
+          "unit": "px / 1080h",
+          "initial": 12,
+          "min": 3,
+          "max": 25,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "grain",
+          "label": "🌸 종이 결",
+          "unit": "%",
+          "initial": 9,
+          "min": 0,
+          "max": 20,
+          "status": "reconstruction_proposal"
+        },
+        {
+          "key": "subtitlePad",
+          "label": "🌸 자막 안쪽 여백",
+          "unit": "px / 1080h",
+          "initial": 8,
+          "min": 3,
+          "max": 18,
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "match_checks": [
+        "종이 섬유가 가장자리에만 보이는가",
+        "큰 톱니무늬나 동일한 물결 반복이 아닌가",
+        "원본과 같은 상하 프레임인가",
+        "가운데 인물의 얼굴이 잘리지 않는가",
+        "자막 상자의 정확한 opacity를 원본에서 역산했다고 주장하지 않는가"
+      ],
+      "source_limits": [
+        "원본 오른쪽 보라색 버튼은 영상 디자인이 아닌 뷰어 UI. 별도 효과로 복제하지 않음.",
+        "측정한 자막 박스 색은 배경과 합성된 값. 검정 opacity를 이 한 장으로 정확히 역산할 수 없음."
+      ],
+      "data_notes": [],
+      "status_note": "색상·형태는 사용자 원본 관찰. 명시 HEX/화면 실측/🌸재현 제안을 구분한다. 조명·투명도·블러·물성 수치는 원본 제작 파일의 값이 아니다."
+    }
+  ],
+  "counts": {
+    "references": 9,
+    "recipes": 32,
+    "layers": 101,
+    "additional_measured_samples": 76
+  }
+}

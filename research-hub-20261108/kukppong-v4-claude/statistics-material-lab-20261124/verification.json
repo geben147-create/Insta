@@ -1,0 +1,27 @@
+{
+  "scope": "New static material studio and navigation. Does not modify final MP4 or HumanTouch renderer.",
+  "source_revision_before_changes": "d8f329c8024467f0cebf6f6c0b01a871c810b7d7",
+  "checks": {
+    "source_references_count": 9,
+    "generated_images_count": 2,
+    "reference_recipe_count": 32,
+    "reference_layer_analysis_count": 101,
+    "added_measured_samples": 76,
+    "javascript_syntax": "pass",
+    "original_pixel_picker": "browser observed source coordinates and 5x5 median #2E71FD",
+    "hex_role_edit": "browser observed #1951FC in selected role field",
+    "gradient_opacity_control": "browser changed fourth stop to 40%",
+    "portrait_png_export": "browser download event + 1080x1920 success",
+    "paper_png_export_with_embedded_reference": "browser download event + 1920x1080 success",
+    "configuration_json_export": "browser download event",
+    "overlay_mode": "browser data-view=overlay observed",
+    "mobile_390px_frame": "375px document clientWidth and scrollWidth equal (scrollbar accounts for difference)",
+    "source_pixel_preservation": "original files reused without edits"
+  },
+  "limitations": [
+    "Editable SVG is a layered visual reconstruction, not the recovered original 3D scene.",
+    "Maps retain original screenshot geography; generated map is a material illustration.",
+    "Global full-image pixel equivalence is not claimed."
+  ],
+  "publication_note": "This file records checks performed before publication; final deployment status is recorded in GitHub Pages actions."
+}

@@ -5,6 +5,7 @@ const BF = '../../research-hub-20261108/broadcast-font-subtitle-master-20261121/
 /* ── 하위 메뉴 ───────────────────────────── */
 const MENUS = {
   thumb: [
+    {id:'statistics-material', t:'💎 통계·지도·종이 재질 스튜디오', s:'원본 비교 · 유리·그라데이션 · 색·여백 조절', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/'},
     {id:'design-dashboard', t:'🎨 통합 디자인 대시보드', s:'사진 24장 · 14색 · 프롬프트 · 전체 자료', tag:'new', f:'../design-dashboard-20261124/index.html'},
     {id:'design-reference', t:'통합 디자인 자료 · REF01–24', s:'색·폰트·지도·댓글·캐릭터', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/'},
     {grp:'🔥 썸네일 V3.1 규칙 (최신)'},
@@ -34,6 +35,7 @@ const MENUS = {
     {id:'tlog', t:'작업 기록 · 점검표', s:'이전 대화 결과 + 안 된 것', tag:'doc'}
   ],
   video: [
+    {id:'statistics-material', t:'💎 통계·지도·종이 재질 스튜디오', s:'원본 비교 · 유리·그라데이션 · 색·여백 조절', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/'},
     {id:'vref10', t:'🔥 방송 자막·실제 디자인 요소 13종', s:'원본 PNG 12종 · VS · 불꽃 · 교차 댓글 · 형광펜 · 네온 뉴스', tag:'new', f:BF+'typography-refs-20261122/broadcast-10-20261124/index.html?v=3'},
     {id:'design-dashboard', t:'🎨 통합 디자인 대시보드', s:'사진 24장 · 14색 · 프롬프트 · 전체 자료', tag:'new', f:'../design-dashboard-20261124/index.html'},
     {id:'design-reference', t:'통합 디자인 자료 · REF01–24', s:'색·폰트·지도·댓글·캐릭터', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/'},

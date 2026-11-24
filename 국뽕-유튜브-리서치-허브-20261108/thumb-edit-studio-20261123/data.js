@@ -47,6 +47,7 @@ const MENUS = {
     {id:'bgm', t:'캐릭터 시그니처 음악 · BGM 8곡', s:'콩닥팝 · 콩콩여행 · 반응왓설 + 3분 BGM 5곡', tag:'new'},
     {grp:'🛠 실험실'},
     {id:'vlab', t:'영상편집 디자인 실험실', s:'조절 미반영 버그 수정', tag:'fix', f:BF+'video-edit-lab.html'},
+    {id:'vref10', t:'🔥 NEW 방송 자막·특수효과 10종', s:'VS 마그마 · 3D · 그런지 · 불꽃 · 말풍선 · 인물 배지', tag:'new', f:BF+'typography-refs-20261122/broadcast-10-20261124/index.html'},
     {id:'vtypo', t:'자막 글씨 8종 · 금빛 자막 편집', s:'T05 흰 배경 · 글자별 조절 · 금빛 반짝임', tag:'fix', f:BF+'typography-refs-20261122/guide.html?v=20261124'},
     {grp:'📋 기록'},
     {id:'vlog', t:'작업 기록 · 점검표', tag:'doc'}

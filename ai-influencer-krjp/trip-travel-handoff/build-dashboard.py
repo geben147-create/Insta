@@ -18,7 +18,7 @@ for row in library:
   records.append([row['id'],row['title'],row.get('region',''),label,product,url,'일반 예약 링크',gallery+'#'+row['id']])
 for k in [*episodes,*shots]:
  if not k.get('url'):continue
- records.append([k['id'],k['title'],k.get('region','중국'),'숙소 예약',k.get('hotel') or k['title'].split(' · ',1)[0],k['url'],'일반 예약 링크','production/#'+(k['id'] if k in episodes else 'new-stills')])
+ records.append([k['id'],k['title'],k.get('region') or ('한국' if '/busan-hotel-detail-' in k['url'] else '중국'),'숙소 예약',k.get('hotel') or k['title'].split(' · ',1)[0],k['url'],'일반 예약 링크','production/#'+(k['id'] if k in episodes else 'new-stills')])
 assert all(urlparse(r[5]).hostname.endswith('.trip.com') for r in records)
 with (root/'booking-links.csv').open('w',encoding='utf-8-sig',newline='') as f:
  out=csv.writer(f,lineterminator=chr(10))
@@ -43,8 +43,15 @@ labels={'family-cast-reference.jpg':'고정 가족','east-asia-single-wave-previ
 cast_assets=[f'<figure><a href="cast/{file}"><img loading="lazy" src="cast/{file}" alt="{label}"></a><figcaption>{label}</figcaption></figure>' for file,label in labels.items()]
 regions=Counter(row.get('region','') or '미분류' for row in library)
 bars=[f'<div class="bar-row"><span>{esc(region)}</span><meter max="{max(regions.values())}" value="{n}">{n}</meter><b>{n}</b></div>' for region,n in regions.most_common()]
+still_cards=[]
+for shot in shots:
+ path='production/media/'+shot['file']
+ assert (root/path).is_file()
+ title=esc(shot['title'])
+ still_cards.append(f'<figure><a href="{esc(path)}"><img src="{esc(path)}" loading="lazy" alt="{title}"></a>'
+                    f'<figcaption>{title} · {a(shot["url"], "일반 예약")}</figcaption></figure>')
 page=(root/'dashboard-template.html').read_text()
-for marker,value in dict(REFOCUS=''.join(refgroups),CAST=''.join(cast_assets),BOOKING=''.join(booking),TOTALS=str(len(records)),REGIONS=''.join(bars)).items():
+for marker,value in dict(STILLCOUNT=str(len(shots)),STILLS=''.join(still_cards),REFOCUS=''.join(refgroups),CAST=''.join(cast_assets),BOOKING=''.join(booking),TOTALS=str(len(records)),REGIONS=''.join(bars)).items():
  page=page.replace('<!--'+marker+'-->',value)
 (root/'index.html').write_text(page)
 print(len(refs),len(library),len(records),len({r[5] for r in records}))

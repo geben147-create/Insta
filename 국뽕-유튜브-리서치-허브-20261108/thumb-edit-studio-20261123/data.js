@@ -5,14 +5,15 @@ const BF = '../../research-hub-20261108/broadcast-font-subtitle-master-20261121/
 /* ── 하위 메뉴 ───────────────────────────── */
 const MENUS = {
   thumb: [
+    {id:'masterv32', t:'🟨 썸네일·제목 최종 통합 V3.2', s:'최우선 · 핵심 10줄 · 4안 · 한국/일본 · 56편 검수', tag:'new', f:'thumb-master-v32/'},
+    {id:'handoffv31', t:'📦 썸네일 V3.1 이전 패키지 (원본 보존)', s:'요구 원문 · HEX·크기 · 소스코드 · 완성 5장 · 재현 프롬프트', tag:'new', f:'thumb-handoff-v31/'},
     {id:'statistics-material', t:'💎 통계·지도·종이 재질 스튜디오', s:'🌸 12종 비교 · 입체/글자 개선 · 3종 추가', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/?v=20261125-r2&focus=1'},
     {id:'sfx-soft', t:'🌸 맑은 알림·가벼운 타격 효과음', s:'띠롱·띠리링·부드러운 쿵 · 바로 듣기', tag:'new', f:'edit-preview.html?v=20261125-sfx-r3&panel=sfx&collection=shorts&embed=1'},
     {id:'design-dashboard', t:'🎨 통합 디자인 대시보드', s:'사진 24장 · 14색 · 프롬프트 · 전체 자료', tag:'new', f:'../design-dashboard-20261124/index.html'},
     {id:'design-reference', t:'통합 디자인 자료 · REF01–24', s:'색·폰트·지도·댓글·캐릭터', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/'},
-    {grp:'🔥 썸네일 V3.1 규칙 (최신)'},
+    {grp:'🔥 썸네일 V3.1 원본 규칙·갤러리'},
     {id:'allv31', t:'🖼 썸네일 V3.1 전편 56편 · 168장', s:'편별 A·VS·불꽃 3장 · 문구 · 원본 경로 복사 · 클릭 확대', tag:'new', f:'thumb-all-v31/'},
-    {id:'rulesv3', t:'썸네일 V3.1 규칙 · 전체 복사', s:'💀 실수 13개 · 불꽃 VS · 불꽃 원형 · 시범 45장(클릭 확대) · 남은 37편', tag:'new', f:'thumb-rules-v3/'},
-    {id:'handoffv31', t:'📦 썸네일 V3.1 이전 패키지 (Codex용)', s:'요구 원문 · HEX·크기 · 소스코드 · 완성 5장 · 재현 프롬프트', tag:'new', f:'thumb-handoff-v31/'},
+    {id:'rulesv3', t:'썸네일 V3.1 규칙 · 전체 복사', s:'💀 실수 13개 · 불꽃 VS · 시범 45장(과거 시점)', tag:'new', f:'thumb-rules-v3/'},
     {grp:'⭐ 만들기 (한 화면에서)'},
     {id:'editor', t:'통합 썸네일 편집기', s:'템플릿 11 · 표정 · 원본 14 · 자동 누끼 · 아우라 · PNG', tag:'new', f:'editor.html'},
     {grp:'📌 이번 요청 정리'},

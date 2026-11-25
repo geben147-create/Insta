@@ -147,3 +147,9 @@ details.fold>.in{padding:12px 14px}
 .facecard .n{display:inline-block;background:var(--acc2);color:#fff;border-radius:6px;padding:0 7px;font-weight:900;margin-right:6px}
 .facecard code{font-size:11px;color:var(--muted);word-break:break-all}
 @media(max-width:620px){.facecard{grid-template-columns:1fr}}
+
+/* V3.2: only these two thumbnail navigation items are yellow; other menus stay unchanged. */
+body[data-tab=thumb] #subnav .sn[data-id="masterv32"],body[data-tab=thumb] #subnav .sn[data-id="handoffv31"]{background:#FFE51F!important;color:#17130a!important;border:2px solid #e3b900!important;font-weight:900;box-shadow:none}
+body[data-tab=thumb] #subnav .sn[data-id="masterv32"] small,body[data-tab=thumb] #subnav .sn[data-id="handoffv31"] small{color:#3f3508!important}
+body[data-tab=thumb] #subnav .sn[data-id="masterv32"][aria-current=page],body[data-tab=thumb] #subnav .sn[data-id="handoffv31"][aria-current=page]{outline:2px solid #fff;outline-offset:-4px;background:#ffed74!important}
+body[data-tab=thumb] #subnav .sn[data-id="masterv32"] .tg,body[data-tab=thumb] #subnav .sn[data-id="handoffv31"] .tg{background:#28200a!important;color:#fff!important}

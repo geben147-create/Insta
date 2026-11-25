@@ -10,6 +10,7 @@ const MENUS = {
     {id:'design-dashboard', t:'🎨 통합 디자인 대시보드', s:'사진 24장 · 14색 · 프롬프트 · 전체 자료', tag:'new', f:'../design-dashboard-20261124/index.html'},
     {id:'design-reference', t:'통합 디자인 자료 · REF01–24', s:'색·폰트·지도·댓글·캐릭터', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/'},
     {grp:'🔥 썸네일 V3.1 규칙 (최신)'},
+    {id:'allv31', t:'🖼 썸네일 V3.1 전편 56편 · 168장', s:'편별 A·VS·불꽃 3장 · 문구 · 원본 경로 복사 · 클릭 확대', tag:'new', f:'thumb-all-v31/'},
     {id:'rulesv3', t:'썸네일 V3.1 규칙 · 전체 복사', s:'💀 실수 13개 · 불꽃 VS · 불꽃 원형 · 시범 45장(클릭 확대) · 남은 37편', tag:'new', f:'thumb-rules-v3/'},
     {id:'handoffv31', t:'📦 썸네일 V3.1 이전 패키지 (Codex용)', s:'요구 원문 · HEX·크기 · 소스코드 · 완성 5장 · 재현 프롬프트', tag:'new', f:'thumb-handoff-v31/'},
     {grp:'⭐ 만들기 (한 화면에서)'},

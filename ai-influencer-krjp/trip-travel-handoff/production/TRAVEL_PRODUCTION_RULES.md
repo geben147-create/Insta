@@ -2,6 +2,18 @@
 
 이 작업의 다음 이미지, Pollo·Flow 프롬프트, 편집과 검수에 적용한다. 새 사용자 지시가 있으면 이 파일과 제작 보드에 함께 반영한다.
 
+## 다음 Pollo 생성의 카메라 기준
+
+https://geben147-create.github.io/Insta/insta-viewer/travel-motion/#DObZ7o3iOU8
+
+다음 여행·수영장 영상은 35장 중 장면에 맞는 사진 번호를 먼저 고르고, 그 사진의 전경 위치·수평선 높이·풍경이 열리는 방향을 시작/끝 이미지와 영문 프롬프트에 명시한다. 시작 이미지에는 목적지를 가릴 가까운 물체를 둔다. 첫 프레임부터 전망 전체가 보이면 시작 이미지를 다시 고른다.
+
+가까운 물체를 하향으로 잡고 옆을 전진 통과하며 틸트업한다. 전망을 비대칭 와이드로 공개하고 측면 시차를 거쳐 마지막에 감속·홀드한다. 호텔 2컷은 B에서 방향·속도를 유지한다.
+
+A→B: Start looking diagonally down along the near doorjamb and handle, with the mountain view hidden. Travel forward beside the jamb, passing its end as the camera tilts up in one continuous move. Let the near edge sweep down and out much faster than the bed moves. Reach B mid-stride, still moving forward at chest height.
+
+B→C: Start on the identical B frame at the same camera speed and heading. Glide past the curved bed rim, then reframe sideways into an asymmetric wide view through the window. Keep the mountain ridge steady as the near bed edge moves across frame. Let the woman exit right once. Decelerate into C and hold the landscape. Keep the curtain at the edge of frame.
+
 ## 1. 컷 길이와 실제 재생 속도
 
 | 소재 | 추천 속도 | 롱폼 | 쇼츠 |

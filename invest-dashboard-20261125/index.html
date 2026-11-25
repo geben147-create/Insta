@@ -1,121 +1,133 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>💹 투자 콘텐츠 작업 대시보드 · 2026-11-25</title>
-<style>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>💹 7일 100만 원 · 작업 현황 (공개 요약)</title><style>
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 *{box-sizing:border-box}body{margin:0;font-family:Pretendard,'Noto Sans KR',sans-serif;background:#07090c;color:#e8edf2;line-height:1.6}
-.wrap{max-width:1180px;margin:0 auto;padding:22px 18px 70px}
-header{background:linear-gradient(135deg,#0b2e22 0%,#3a0d1f 45%,#0b1d3f 100%);border-radius:22px;padding:26px 26px 22px;box-shadow:0 10px 40px #0008}
-header h1{margin:0 0 6px;font-size:32px;letter-spacing:-1px}header p{margin:0;color:#b9c6d3}
-nav{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 0}nav a{color:#fff;text-decoration:none;background:#ffffff14;border:1px solid #ffffff26;padding:6px 12px;border-radius:999px;font-size:14px}
-nav a:hover{background:#ffffff2a}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:18px 0}
-.kpi{border-radius:18px;padding:16px 18px;border:1px solid #ffffff1a}.kpi b{display:block;font-size:34px;line-height:1.1}.kpi span{font-size:14px;color:#cbd5e1}
-.g{background:#0b2e22}.wn{background:#3a0d1f}.bl{background:#0b1d3f}.bk{background:#121417}
-section{border-radius:22px;padding:22px 22px 18px;margin:18px 0;border:1px solid #ffffff14}
-section h2{margin:0 0 4px;font-size:24px}section .lead{color:#b9c6d3;margin:0 0 14px}
-mark{background:linear-gradient(transparent 45%,#facc15cc 45%);color:#fff;padding:0 2px;border-radius:2px}
+.wrap{max-width:1240px;margin:0 auto;padding:20px 16px 80px}
+header{background:linear-gradient(135deg,#0b2e22,#3a0d1f 45%,#0b1d3f);border-radius:22px;padding:24px}
+header h1{margin:0 0 4px;font-size:30px}header p{margin:0;color:#c3cfdb}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}nav a,button.t{color:#fff;text-decoration:none;background:#ffffff14;border:1px solid #ffffff2a;padding:6px 12px;border-radius:999px;font-size:14px;cursor:pointer;font:inherit}
+button.t:hover,nav a:hover{background:#ffffff2e}
+section{border-radius:22px;padding:20px;margin:16px 0;border:1px solid #ffffff14}
+.g{background:#0b2e22}.wn{background:#3a0d1f}.bl{background:#0b1d3f}.bk{background:#111316}
+h2{margin:0 0 4px;font-size:23px}.lead{color:#c3cfdb;margin:0 0 12px}
+mark{background:linear-gradient(transparent 45%,#facc15cc 45%);color:#fff;padding:0 2px}
 mark.p{background:linear-gradient(transparent 45%,#f472b6cc 45%)}mark.l{background:linear-gradient(transparent 45%,#84cc16cc 45%)}mark.c{background:linear-gradient(transparent 45%,#22d3eecc 45%)}
-.o{color:#fb923c;font-weight:800}.t{color:#2dd4bf;font-weight:800}.y{color:#fde047;font-weight:800}.r{color:#fb7185;font-weight:800}.v{color:#c4b5fd;font-weight:800}
-.tw{overflow:auto;border-radius:14px;border:1px solid #ffffff1f}table{border-collapse:collapse;width:100%;font-size:14px;min-width:1100px}
-th{background:#ffffff12;text-align:left;padding:9px 10px;white-space:nowrap;position:sticky;top:0}td{padding:9px 10px;border-top:1px solid #ffffff12;vertical-align:top;min-width:96px}
-tr:hover td{background:#ffffff08}td.w{min-width:240px}
-.badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12.5px;font-weight:700;white-space:nowrap}
-.b-red{background:#7f1d1d;color:#fecaca}.b-amber{background:#78350f;color:#fde68a}.b-green{background:#14532d;color:#bbf7d0}.b-violet{background:#3b0764;color:#e9d5ff}.b-grey{background:#334155;color:#e2e8f0}
-.cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:820px){.cols{grid-template-columns:1fr}}
-.card{background:#00000040;border:1px solid #ffffff1a;border-radius:16px;padding:14px 16px}
-.card img{width:100%;border-radius:12px;display:block}
-.donut{display:flex;align-items:center;gap:16px}.donut ul{list-style:none;margin:0;padding:0}.donut li{margin:4px 0}.donut i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:7px}
-.bars .row{display:flex;align-items:center;gap:10px;margin:10px 0}.bars .lab{width:110px;font-weight:700}.bars .bar{height:30px;border-radius:8px;display:flex;align-items:center;padding-left:10px;font-weight:900;color:#07090c}
-.toon{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}@media(max-width:820px){.toon{grid-template-columns:1fr 1fr}}
-.panel{background:#ffffff0d;border:2px dashed #ffffff33;border-radius:14px;padding:12px;min-height:170px}.panel b{font-size:26px}.panel p{margin:6px 0 0;font-size:14.5px}
-.steps{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}@media(max-width:820px){.steps{grid-template-columns:repeat(2,1fr)}}
-.step{border-radius:12px;padding:10px;background:#ffffff0f;border-top:4px solid #2dd4bf;font-size:13.5px}.step b{display:block;font-size:15px}
-.todo li{margin:6px 0}.small{font-size:12.5px;color:#94a3b8}
-a.btn{display:inline-block;background:#2dd4bf;color:#07090c;font-weight:900;text-decoration:none;padding:9px 14px;border-radius:12px;margin-top:8px}
+.o{color:#fb923c;font-weight:800}.t2{color:#2dd4bf;font-weight:800}.y{color:#fde047;font-weight:800}.r{color:#fb7185;font-weight:800}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+.kpi{border-radius:16px;padding:14px;border:1px solid #ffffff1a}.kpi b{display:block;font-size:30px;line-height:1.1}.kpi span{font-size:13px;color:#cbd5e1}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:860px){.cols{grid-template-columns:1fr}}
+.card{background:#00000040;border:1px solid #ffffff1a;border-radius:16px;padding:14px}
+.donut{display:flex;gap:16px;align-items:center}.donut ul{list-style:none;padding:0;margin:0}.donut li{margin:3px 0}.donut i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px}
+.gb{display:flex;align-items:center;gap:10px;margin:6px 0}.gb span{width:70px;font-weight:700}
+.pbar{position:relative;flex:1;height:18px;background:#ffffff14;border-radius:9px;overflow:hidden;min-width:90px}.pbar i{display:block;height:100%}.pbar b{position:absolute;right:6px;top:-1px;font-size:12px}
+.chip{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12.5px;font-weight:800;background:color-mix(in srgb,var(--c) 28%,#000);color:#fff;border:1px solid var(--c);white-space:nowrap}
+.tw{overflow:auto;border-radius:14px;border:1px solid #ffffff1f}table{border-collapse:collapse;width:100%;font-size:13.5px}
+th{background:#ffffff14;text-align:left;padding:8px;white-space:nowrap}td{padding:8px;border-top:1px solid #ffffff12;vertical-align:top;min-width:90px}
+details{background:#00000038;border:1px solid #ffffff1c;border-radius:14px;margin:8px 0}
+summary{cursor:pointer;padding:10px 14px;font-weight:800;list-style:none}summary::before{content:'▶ ';color:#2dd4bf}details[open]>summary::before{content:'▼ '}
+.body{padding:4px 14px 14px}.kv{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;font-size:14px}.kv b{color:#93c5fd}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}.gallery figure{margin:0;background:#fff1;border-radius:10px;overflow:hidden}
+.gallery img{width:100%;display:block;cursor:zoom-in}.gallery figcaption{font-size:11.5px;color:#cbd5e1;padding:4px 6px;max-height:54px;overflow:hidden}
+.pages img{width:100%;max-width:820px;display:block;margin:0 auto 10px;border-radius:6px;box-shadow:0 2px 12px #0008}
+.tools{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 10px}.tools a,.tools button{font:inherit;font-size:13px;background:#2dd4bf;color:#07090c;border:0;border-radius:9px;padding:5px 10px;font-weight:800;text-decoration:none;cursor:pointer}
+.tools .alt{background:#fde047}.tools .alt2{background:#c4b5fd}
+iframe{width:100%;height:80vh;border:0;border-radius:10px;background:#fff}
+.zoom{position:fixed;inset:0;background:#000d;display:none;align-items:center;justify-content:center;z-index:9;cursor:zoom-out}.zoom img{max-width:94vw;max-height:94vh}
+.note{border-left:4px solid #fde047;background:#fde0470f;padding:10px 12px;border-radius:8px;margin:10px 0}
+.small{font-size:12.5px;color:#94a3b8}
 </style></head><body><div class="wrap">
-
-<header>
-<h1>💹 투자 콘텐츠 작업 대시보드</h1>
-<p>2026-11-25 · 경제교육100만1주일봇 · <mark>아무것도 외부에 게시하지 않음</mark> · 업로드 대기 목록은 <span class="y">승인된 것만</span> 넣습니다</p>
-<nav><a href="#acc">📋 계정↔콘텐츠</a><a href="#one">🖼️ 원페이지</a><a href="#toon">🎨 투자툰</a><a href="#src">🔎 출처 분리</a><a href="#rev">🗂️ 자료 20개</a><a href="#wb">📘 워크북</a><a href="#todo">✅ 결정할 것</a></nav>
-</header>
-
-<div class="kpis">
-<div class="kpi g"><b>13</b><span>🧾 계정·콘텐츠 행</span></div>
-<div class="kpi wn"><b class="r">0</b><span>🚫 업로드 대기 목록 (승인 0건)</span></div>
-<div class="kpi bl"><b class="t">1</b><span>🆕 새 원페이지 (검토 대기)</span></div>
-<div class="kpi bk"><b class="y">2</b><span>🔎 게시 전 법령 원문 재확인</span></div>
-</div>
-
-<section id="acc" class="g">
-<h2>📋 계정 ↔ 콘텐츠 ↔ 원본 ↔ 생성물 ↔ 상태</h2>
-<p class="lead">계정 근거: 휴대폰 스크린샷 글자 인식(2026-08) · 다른 세션 <code>plan.json</code>·<code>HANDOVER.md</code>. <mark class="p">창업·여행·유튜브 쇼츠 계정은 기록에서 찾지 못함</mark></p>
-<div class="tw"><table><thead><tr><th>계정</th><th>계정 확인 근거</th><th>용도</th><th>콘텐츠</th><th>원본</th><th>생성물</th><th>승인 상태</th><th>업로드 큐</th></tr></thead><tbody><tr><td class="">investcutkr</td><td class="">휴대폰 스크린샷 OCR(2026-08) 비즈니스 계정·plan.json ECON_1</td><td class="">ETF·투자툰·원페이지(돈 있는 초보)</td><td class="w">NEW 원페이지: 예금 1.5억 연금계좌 이동 기간</td><td class="">박곰희TV xk8CxdkEtBc 00:13:08~00:18:20 + 국세청</td><td class="w">build/onepage_목돈1.5억_연금이동.png sha c7cec175b398</td><td class=""><span class="badge b-amber">⏸️ 미승인(사용자 검토 대기) · 법령원문 2건 재확인 필요</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 승인 전</span></td></tr><tr><td class="">investcutkr</td><td class="">〃</td><td class="">투자툰</td><td class="w">NEW 투자툰 4컷 「1.5억, 한 번에 못 넣어요」</td><td class="">위와 동일</td><td class="w">대본·프롬프트만(02_투자툰_4컷_대본_프롬프트.md), 이미지 없음</td><td class=""><span class="badge b-amber">⏸️ 미완성</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 파일 없음</span></td></tr><tr><td class="">investcutkr</td><td class="">〃</td><td class="">투자교육(워크북)</td><td class="w">차트 복기 워크북 무료 샘플 캐러셀</td><td class="">직접 만든 가상 차트</td><td class="w">~/ai-work/투자교육_차트복기워크북_20261125/build/</td><td class=""><span class="badge b-amber">⏸️ 내용 승인(2026-11-25) · 결제수단·링크 미정</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 링크 미정</span></td></tr><tr><td class="">investcutkr</td><td class="">〃</td><td class="">경제 카드뉴스</td><td class="w">V8_01 젠슨 황 사임, 50대 계좌 / V8_02 배당백수</td><td class="">T1113 트렌드(다른 세션)</td><td class="w">~/ai-work/insta_v6/ready/20261114/investcutkr/ (V8 3장×2)</td><td class=""><span class="badge b-grey">• review_entries 0 · status EXPORTED_NOT_SYNCED</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 검토 0건</span></td></tr><tr><td class="">미정_경제2</td><td class="">plan.json에 &#x27;미정&#x27;</td><td class="">경제(시니어)</td><td class="w">V8_03 시니어 1억 모으기</td><td class="">T1113(다른 세션)</td><td class="w">ready/20261114/미정_경제2/</td><td class=""><span class="badge b-amber">⏸️ 계정 없음</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 계정 미배정</span></td></tr><tr><td class="">1minssecondbrain</td><td class="">OCR·plan.json AI_1</td><td class="">AI·창업(소상공인)</td><td class="w">V8_04 60대도 되는 AI 부업 / V8_05 사장님 가게에 AI 직원</td><td class="">T1113(다른 세션)</td><td class="w">ready/20261114/1minssecondbrain/</td><td class=""><span class="badge b-grey">• review_entries 0</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 검토 0건</span></td></tr><tr><td class="">1minssecondbrain</td><td class="">〃</td><td class="">AI 원페이지</td><td class="w">에버그린 원페이지 3편(챗GPT 검증문구 등)</td><td class="">다른 세션</td><td class="w">~/ai-work/evergreen-onepage-new-20261118/</td><td class=""><span class="badge b-grey">• 확인 안 됨</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 승인 기록 없음</span></td></tr><tr><td class="">미정_AI2</td><td class="">plan.json에 &#x27;미정&#x27;</td><td class="">AI창업</td><td class="w">V8_06 가게 차리기 전 AI에게 먼저</td><td class="">T1113</td><td class="w">ready/20261114/미정_AI2/</td><td class=""><span class="badge b-amber">⏸️ 계정 없음</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 계정 미배정</span></td></tr><tr><td class="">(미정) 창업 전용</td><td class="">확인된 계정 없음</td><td class="">창업</td><td class="w">마케팅 전자책 『30일 AI 콘텐츠 작업장』 샘플</td><td class="">이 프로필 다른 세션</td><td class="w">—</td><td class=""><span class="badge b-amber">⏸️ 샘플 1쪽 공개 승인 · 계정 미정</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 계정 미정</span></td></tr><tr><td class="">(미정) 여행</td><td class="">확인된 계정 없음</td><td class="">여행</td><td class="w">—</td><td class="">—</td><td class="w">—</td><td class=""><span class="badge b-grey">• —</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 계정 없음</span></td></tr><tr><td class="">coinz_frozzy / coinzjp</td><td class="">OCR 비즈니스 계정</td><td class="">코인</td><td class="w">이번 범위 밖</td><td class="">—</td><td class="w">—</td><td class=""><span class="badge b-grey">• —</span></td><td class=""><span class="badge b-amber">⏸️ 제외 — 범위 밖</span></td></tr><tr><td class="">llorryhop</td><td class="">HANDOVER.md: 개인 계정</td><td class="">개인</td><td class="w">—</td><td class="">—</td><td class="w">—</td><td class=""><span class="badge b-grey">• —</span></td><td class=""><span class="badge b-red">⛔ 사용 금지</span></td></tr><tr><td class="">유튜브 쇼츠 계정</td><td class="">파일·메모리에서 계정명 확인 못 함</td><td class="">?</td><td class="w">—</td><td class="">—</td><td class="w">—</td><td class=""><span class="badge b-grey">• —</span></td><td class=""><span class="badge b-violet">🔎 확인 필요</span></td></tr></tbody></table></div>
-</section>
-
-<section id="one" class="wn">
-<h2>🖼️ 돈 있는 초보 원페이지 — 「예금 1.5억, 연금계좌로 옮기면 몇 년?」</h2>
-<p class="lead">기존 <span class="o">클로드 비서 원페이지</span> 디자인 + 확정 캐릭터 <span class="t">Mr. Navy</span> 재사용 · 그래프는 직접 계산</p>
-<div class="cols">
-<div class="card"><img src="img/onepage_pension.png" alt="원페이지"></div>
-<div>
-<div class="card bars"><b>📊 1.5억 ÷ 연 1,800만 원</b>
-<div class="row"><div class="lab">👤 혼자</div><div class="bar" style="width:93%;background:#2dd4bf">8.3년</div></div>
-<div class="row"><div class="lab">👫 부부 둘이</div><div class="bar" style="width:46%;background:#fb923c">4.2년</div></div>
-<p class="small">계산: 150,000,000 ÷ 18,000,000 = 8.33 · ÷ 36,000,000 = 4.17</p></div>
-<div class="card" style="margin-top:12px"><b>🧮 확인 상태</b><ul>
-<li>✅ 세액공제 <mark class="l">600만 / IRP 포함 900만</mark> — <span class="t">국세청 공식 페이지</span></li>
-<li>🔎 연 납입 <span class="o">1,800만</span> — 은행 자료끼리 일치, 법령 원문 재확인</li>
-<li>🔎 ISA <span class="o">연 2천·총 1억, 비과세 200/400만</span> — 2026 개정안 <mark class="p">국회 계류</mark></li>
-<li>🧮 1억→8년 뒤 1.2억 = <span class="y">연 2.31%</span> (직접 계산)</li></ul></div>
-<div class="card" style="margin-top:12px"><b>🎬 원본</b><p class="small">박곰희TV 「목돈으로 지금 투자해도 되나요? | 곰희상담소#11」 2026-10-27 · 13:08~18:20 · 53세 예금 1.5억 사연</p>
-<a class="btn" href="https://youtu.be/xk8CxdkEtBc?t=788" target="_blank">▶ 원본 영상 13:08</a></div>
-</div></div>
-</section>
-
-<section id="toon" class="bl">
-<h2>🎨 투자툰 4컷 — 「1.5억, 한 번에 못 넣어요」</h2>
-<p class="lead"><mark>대본 완료 · 이미지 미생성</mark> — 이미지 생성 도구 결정 필요 (Codex 사용 안 함)</p>
-<div class="toon">
-<div class="panel"><b>1️⃣</b><p>💰 목돈씨: <span class="y">"예금 1.5억, 오늘 연금계좌에 다 넣을게요!"</span></p></div>
-<div class="panel"><b>2️⃣</b><p>☕✋ Mr. Navy: <span class="t">"1년에 1,800만 원까지만 들어가요."</span></p></div>
-<div class="panel"><b>3️⃣</b><p>📅 Mr. Navy: <span class="o">"혼자면 9번, 남편이랑 나누면 5번."</span></p></div>
-<div class="panel"><b>4️⃣</b><p>🤝 목돈씨: <span class="y">"그럼 올해부터 둘이 같이 채워요."</span><br><span class="small">세액공제는 600만(IRP 합산 900만)까지</span></p></div>
-</div>
-</section>
-
-<section id="src" class="bk">
-<h2>🔎 영상 핵심 주장 ↔ 출처 분리</h2>
-<p class="lead">채널 확인: <mark class="c">'박곰이TV' → 박곰희TV(@gomhee)</mark> · 소수몽키(@sosumonkey) · 하승훈의 주식투자TV(<span class="r">영상 재생 불가, 단타·주도주 → 초보 콘텐츠에서 제외</span>)</p>
-<div class="tw"><table><thead><tr><th>채널</th><th>영상ID</th><th>시점</th><th>핵심 주장</th><th>종류</th><th>공식/검증 출처</th><th>판정</th></tr></thead><tbody><tr><td class="">박곰희TV</td><td class="">xk8CxdkEtBc</td><td class="">00:13:08</td><td class="w">1.5억을 연금계좌로 옮기려면 혼자는 10년 가까이, 부부 둘이 150만씩이면 5년 안 걸림</td><td class="">사실(계산)</td><td class="w">직접 계산: 1.5억÷1,800만=8.3년, ÷3,600만=4.2년</td><td class=""><span class="badge b-violet">🔎 확인됨(계산) — 한도 1,800만은 2차자료 일치·법령원문 재확인</span></td></tr><tr><td class="">박곰희TV</td><td class="">xk8CxdkEtBc</td><td class="">00:13:45</td><td class="w">연금계좌 연 한도 1,800만 원</td><td class="">사실</td><td class="w">하나은행·토스뱅크·네이버페이(소득세법 시행령 인용)</td><td class=""><span class="badge b-violet">🔎 2차자료 일치, 법령 원문 재확인 필요</span></td></tr><tr><td class="">박곰희TV</td><td class="">xk8CxdkEtBc</td><td class="">00:14:08</td><td class="w">1,800만 중 600만만 세액공제</td><td class="">사실</td><td class="w">국세청 연금계좌 세액공제 안내(600만/IRP 포함 900만)</td><td class=""><span class="badge b-green">✅ 공식 확인</span></td></tr><tr><td class="">박곰희TV</td><td class="">xk8CxdkEtBc</td><td class="">00:14:57</td><td class="w">ISA 서민형 비과세 400만 원, 의무 3년</td><td class="">사실</td><td class="w">2차자료 다수(현행 200/400만, 연2천·총1억, 9.9%) / 2026 개정안 국회 계류</td><td class=""><span class="badge b-violet">🔎 2차자료 일치, 법령 원문 재확인 필요</span></td></tr><tr><td class="">박곰희TV</td><td class="">xk8CxdkEtBc</td><td class="">00:17:12</td><td class="w">보험 지금 해지 1억 vs 2034년 1.2억</td><td class="">사연 속 사실(개인)</td><td class="w">—</td><td class=""><span class="badge b-grey">• 인용만. 연 2.31%는 직접 계산</span></td></tr><tr><td class="">박곰희TV</td><td class="">xk8CxdkEtBc</td><td class="">00:18:20</td><td class="w">경험 없으면 3% 예금이 나을 때가 있다</td><td class="">의견</td><td class="w">—</td><td class=""><span class="badge b-grey">• 의견으로 표시해 인용</span></td></tr><tr><td class="">박곰희TV</td><td class="">xk8CxdkEtBc</td><td class="">00:03:24</td><td class="w">S&amp;P500·SCHD 상관계수 약 0.8, 나스닥100·SCHD 약 0.6</td><td class="">주장(수치)</td><td class="w">미확인</td><td class=""><span class="badge b-grey">• 사용 안 함 — 직접 데이터로 검증 전</span></td></tr><tr><td class="">박곰희TV</td><td class="">xk8CxdkEtBc</td><td class="">00:05:57</td><td class="w">CMA 최대 3.0% 정도</td><td class="">주장(시점 수치)</td><td class="w">미확인</td><td class=""><span class="badge b-grey">• 사용 안 함</span></td></tr><tr><td class="">박곰희TV</td><td class="">rVEYzKKbYSU</td><td class="">—</td><td class="w">연금·ISA 계좌 ETF 고르는 6단계</td><td class="">미분석(자막 수집만)</td><td class="w">—</td><td class=""><span class="badge b-grey">• 다음 원페이지 후보</span></td></tr><tr><td class="">소수몽키</td><td class="">—</td><td class="">—</td><td class="w">최근 30편 목록 수집(시황·종목 이슈 위주)</td><td class="">—</td><td class="w">—</td><td class=""><span class="badge b-grey">• 초보 원페이지에는 부적합(종목·시황). 개념 설명 소재만</span></td></tr><tr><td class="">하승훈의 주식투자TV</td><td class="">IdDSwiWFQSk 외</td><td class="">—</td><td class="w">주도주·급등주·관심종목·단타</td><td class="">—</td><td class="w">영상 재생 불가(yt-dlp 오류) — 검색 결과 설명만 확인</td><td class=""><span class="badge b-amber">⏸️ 돈 있는 초보 콘텐츠에서 제외. &#x27;주도주란?&#x27; 개념만 덱북 L13과 연결</span></td></tr></tbody></table></div>
-</section>
-
-<section id="rev" class="wn">
-<h2>🗂️ 보유 자료 20개 재검토</h2>
-<div class="cols"><div class="card"><div class="donut"><svg viewBox="0 0 140 140" width="150"><circle r="52" cx="70" cy="70" fill="none" stroke="#4ade80" stroke-width="22" stroke-dasharray="32.7 326.7" stroke-dashoffset="-0.0" transform="rotate(-90 70 70)"/><circle r="52" cx="70" cy="70" fill="none" stroke="#60a5fa" stroke-width="22" stroke-dasharray="81.7 326.7" stroke-dashoffset="-32.7" transform="rotate(-90 70 70)"/><circle r="52" cx="70" cy="70" fill="none" stroke="#fbbf24" stroke-width="22" stroke-dasharray="163.4 326.7" stroke-dashoffset="-114.4" transform="rotate(-90 70 70)"/><circle r="52" cx="70" cy="70" fill="none" stroke="#f87171" stroke-width="22" stroke-dasharray="49.0 326.7" stroke-dashoffset="-277.7" transform="rotate(-90 70 70)"/><text x="70" y="78" text-anchor="middle" font-size="26" font-weight="900" fill="#fff">20</text></svg><ul><li><i style="background:#4ade80"></i>A 바로 사용 <b>2</b></li><li><i style="background:#60a5fa"></i>B 참고·재작성 <b>5</b></li><li><i style="background:#fbbf24"></i>C 제외 <b>10</b></li><li><i style="background:#f87171"></i>X 금지 <b>3</b></li></ul></div></div>
-<div class="card"><p>⭐ <mark>바로 쓸 것은 2개뿐</mark> — 주식 카드뉴스 8장, 소상공인 카드뉴스 5장</p><p>📐 카바·종가매매 복기 PDF는 <span class="t">리포트 형식 견본</span> (실제 시세라 그대로 판매 X)</p><p>⛔ 타인 자동매매 책(2개는 동일 파일), 깨진 타인 전자책</p></div></div>
-<div class="tw"><table><thead><tr><th>원래 순위</th><th>자료</th><th>직접 확인한 사실</th><th>판정</th><th>배정</th><th>조치</th></tr></thead><tbody><tr><td class="">1</td><td class="">주식_카드뉴스_최종PNG_8장.zip</td><td class="w">PNG 8장(1080×1350). ETF·용어·적립 계산 등. 출처 표기·&#x27;투자 권유 아님&#x27; 있음. 4장은 댓글 키워드로 PDF 주는 구조</td><td class=""><span class="badge b-green">✅ A 바로 사용</span></td><td class="">투자교육(워크북)</td><td class="w">인스타 1~7일차 게시물로 사용. 댓글 보상 PDF 4종(1억·용어50·ETF30·2억) 실물 확인 필요. &#x27;v2&#x27;와 058~083 번호가 섞여 있으니 최종본 여부 확인</td></tr><tr><td class="">6</td><td class="">카드뉴스_신규5장.zip</td><td class="w">PNG 5장. 창업혜택·구매전환·배달수수료·세무실수·무료명령어</td><td class=""><span class="badge b-violet">🔎 A 바로 사용(수치 재확인 후)</span></td><td class="">마케팅 전자책</td><td class="w">전자책 홍보용. 수수료·세무·지원사업 수치는 2026년 기준으로 다시 확인</td></tr><tr><td class="">7</td><td class="">제61강 카바 복기_전자책.pdf</td><td class="w">24쪽. 실제 CAVA 차트, &#x27;원본 공개 복기&#x27; 기반 돌파 실패 사례</td><td class=""><span class="badge b-grey">• B 형식만 참고</span></td><td class="">리포트 봇</td><td class="w">리포트 1호의 &#x27;형식 견본&#x27;으로 최적. 실제 시세·원 복기 출처 권리 미확인 → 그대로 판매 금지, 가상 차트로 재제작</td></tr><tr><td class="">8</td><td class="">제53강 종가매매_전자책.pdf</td><td class="w">24쪽. 실제 SK하이닉스 차트, 종가 위치 비교</td><td class=""><span class="badge b-grey">• B 형식만 참고</span></td><td class="">리포트 봇</td><td class="w">위와 동일. 강 번호 53·61은 덱북의 31강과 맞지 않음 → 분량 숫자 계속 사용 금지</td></tr><tr><td class="">3</td><td class="">대가매매법_전자책_v4.pptx</td><td class="w">211장, 모두 이미지+발표 노트. 덱북과 같은 내용(실제 META 등 차트 포함)</td><td class=""><span class="badge b-grey">• B 내부 참고만</span></td><td class="">투자교육(참고)</td><td class="w">노트 문장은 설명 순서 참고용. 슬라이드·이미지 판매 금지</td></tr><tr><td class="">20</td><td class="">클_핫영상_카드뉴스_미리보기.html</td><td class="w">DRAFT. 급등 영상 조회수 조사 + 카드뉴스 2편 초안</td><td class=""><span class="badge b-grey">• B 소재 조사용</span></td><td class="">투자교육·리포트 공용</td><td class="w">상품 아님. 게시물 주제 고르는 데이터로만 사용</td></tr><tr><td class="">5</td><td class="">대본_7편_1대1_검수_템플릿.xlsx</td><td class="w">시트 7개(00_안내·01_레퍼런스7…). 셀 글자 추출 안 됨</td><td class=""><span class="badge b-grey">• C 이번 상품과 무관</span></td><td class="">영상 봇</td><td class="w">판매 대상 아님</td></tr><tr><td class="">17</td><td class="">AI프롬프트_전자책_v4.html</td><td class="w">193개 장면 캡처(타인 유튜브 88편 화면) + 프롬프트 103개</td><td class=""><span class="badge b-grey">• B 재작성 후 사용</span></td><td class="">마케팅 전자책(참고)</td><td class="w">타인 영상 캡처가 본문 → 그대로 판매 시 저작권 위험. 프롬프트만 내 문장으로 다시 써서 부록 후보</td></tr><tr><td class="">18</td><td class="">AI프롬프트_전자책_v3.html</td><td class="w">v4의 이전 판</td><td class=""><span class="badge b-grey">• C 구버전</span></td><td class="">-</td><td class="w">v4만 유지</td></tr><tr><td class="">19</td><td class="">AI프롬프트_전자책_v2.html</td><td class="w">v4의 이전 판</td><td class=""><span class="badge b-grey">• C 구버전</span></td><td class="">-</td><td class="w">v4만 유지</td></tr><tr><td class="">15</td><td class="">노티컬리 템플릿 키트.dc.html</td><td class="w">특정 화장품 브랜드(제주 용암해수) 전용 템플릿 21종</td><td class=""><span class="badge b-amber">⏸️ C 판매 제외</span></td><td class="">-</td><td class="w">고객사 작업물로 보임. 고객 동의 없이 판매 금지</td></tr><tr><td class="">16</td><td class="">노리컬리…템플릿 디자인 시스템 구축.zip</td><td class="w">위 키트의 이미지·스크립트 22개</td><td class=""><span class="badge b-amber">⏸️ C 판매 제외</span></td><td class="">-</td><td class="w">위와 동일</td></tr><tr><td class="">4</td><td class="">TRUSTA_포트폴리오통합_버전2_7p썸네일.pptx</td><td class="w">19장. &#x27;모두의 창업&#x27; 발표 평가용 사업 소개</td><td class=""><span class="badge b-amber">⏸️ C 판매 제외</span></td><td class="">-</td><td class="w">사업계획 발표자료. 상품 아님, 외부 공개 주의</td></tr><tr><td class="">2</td><td class="">채널아트 템플릿.psd</td><td class="w">2560×1440 PSD, &#x27;13_다운로드&#x27; 폴더에 있음</td><td class=""><span class="badge b-amber">⏸️ C 판매 제외</span></td><td class="">-</td><td class="w">내려받은 남의 템플릿일 가능성. 출처·라이선스 확인 전 사용 금지</td></tr><tr><td class="">11</td><td class="">썸네일_재작업_12안.zip</td><td class="w">국뽕 영상 썸네일 58개 파일</td><td class=""><span class="badge b-grey">• C 이번 상품과 무관</span></td><td class="">영상 봇</td><td class="w">-</td></tr><tr><td class="">12</td><td class="">썸네일_승인스타일_전체보기.html</td><td class="w">52편 156장. 가상 인물 포함, 원음 사용권 별도 확인 필요 표기</td><td class=""><span class="badge b-grey">• C 이번 상품과 무관</span></td><td class="">영상 봇</td><td class="w">-</td></tr><tr><td class="">13</td><td class="">썸네일_다양한구도_v4_12안.zip</td><td class="w">썸네일 시안 66개 파일</td><td class=""><span class="badge b-grey">• C 이번 상품과 무관</span></td><td class="">영상 봇</td><td class="w">-</td></tr><tr><td class="">9</td><td class="">자동매매프로그램만들기전자책.zip</td><td class="w">PDF 9개. 저자 전현선 &#x27;키움 OpenAPI 파이썬 자동매매&#x27;</td><td class=""><span class="badge b-red">⛔ X 사용 금지</span></td><td class="">-</td><td class="w">타인 저작물 + 자동매매는 미션 제외 항목</td></tr><tr><td class="">10</td><td class="">자동매매프로그램만들기전자책 (1).zip</td><td class="w">#9와 SHA256 완전 동일</td><td class=""><span class="badge b-grey">• X 중복</span></td><td class="">-</td><td class="w">중복 파일. 삭제는 승인 후에만</td></tr><tr><td class="">14</td><td class="">타인 유료 전자책 (파일명 비공개)</td><td class="w">파일 내용이 전부 0 → 열리지 않는 깨진 파일. 타인 유료 전자책</td><td class=""><span class="badge b-red">⛔ X 사용 금지</span></td><td class="">-</td><td class="w">파일명에 비밀번호가 들어 있음 → 이름 변경 권장(승인 후)</td></tr></tbody></table></div>
-</section>
-
-<section id="wb" class="g">
-<h2>📘 차트 복기 워크북 (49,000원) — 7일 운영 계획</h2>
-<div class="cols"><div class="card"><img src="img/chart_reveal.svg" alt="가상 차트"><p class="small">※ 실존 종목 아님 · 교육용 가상 예시 · 결과: 가짜 돌파</p><a class="btn" href="workbook_sample.html" target="_blank">📱 무료 샘플 직접 풀어보기</a></div>
-<div class="card"><p>🎯 21건 × 49,000원 = <span class="y">1,029,000원</span></p><p>📉 현실 점검: 샘플 열람 <mark class="p">420~1,050명</mark> 필요 → 첫 7일 목표는 <mark class="l">첫 결제 1건 + 전환율 실측</mark></p></div></div>
-<div class="steps" style="margin-top:14px">
-<div class="step"><b>1일</b>🚀 VCP 샘플 공개</div><div class="step"><b>2일</b>💬 ETF 비교 카드·문의</div><div class="step"><b>3일</b>💳 첫 결제 점검</div>
-<div class="step" style="border-top-color:#fb923c"><b>4일</b>🔧 변수 1개만 변경</div><div class="step"><b>5일</b>📦 납품 확인</div><div class="step"><b>6일</b>↩️ 환불 정리</div><div class="step" style="border-top-color:#facc15"><b>7일</b>📊 매출 보고</div>
-</div>
-</section>
-
-<section id="todo" class="bl">
-<h2>✅ 사용자가 정할 것</h2>
-<ol class="todo">
-<li>🖼️ 원페이지 <mark>승인</mark> → investcutkr 업로드 대기 목록에 넣음</li>
-<li>📱 <span class="o">유튜브 쇼츠 · 여행 · 창업 계정 이름</span> 알려주기</li>
-<li>🎨 투자툰 이미지 생성 도구 선택</li>
-<li>💳 워크북 결제 수단 1개 (스마트스토어 / 크몽 / 토스 결제링크)</li>
-</ol>
-<p class="small">이 페이지는 작업 상태 공유용입니다. 특정 종목·상품 매수 권유가 아니며, 세법 수치는 게시 전 다시 확인합니다.</p>
-</section>
-</div></body></html>
+<header><h1>💹 7일 100만 원 · 작업 현황 (공개 요약)</h1><p>2026-11-25 · 경제교육100만1주일봇 · 계정명·로컬 경로·개인정보는 비공개 대시보드에만 보관</p>
+<nav><a href="#sum">📊 요약</a><a href="#tasks">🔢 업무 T01~T22</a><a href="#cost">🪙 사용량</a>
+<button class="t" onclick="all(true)">⬇️ 전체 펼치기</button><button class="t" onclick="all(false)">⬆️ 전체 접기</button></nav></header><section id="sum" class="g"><h2>📊 진행 요약</h2>
+<p class="lead">판정 원칙: <mark>계획·파일 생성만으로는 '완료' 아님</mark> — 게시 URL·주문 증빙·납품 결과·실행 로그·렌더 확인이 있어야 완료. 매출은 <mark class="p">실결제 − 환불</mark>만.</p>
+<div class="kpis"><div class="kpi bk"><b class="t2">8</b><span>✅ 완료</span></div><div class="kpi bk"><b style="color:#60a5fa">2</b><span>🔄 진행 중</span></div>
+<div class="kpi bk"><b class="r">1</b><span>❌ 실패</span></div><div class="kpi bk"><b style="color:#c4b5fd">3</b><span>❔ 미확인</span></div>
+<div class="kpi bk"><b class="o">8</b><span>🙋 사용자 승인 필요</span></div><div class="kpi wn"><b class="y">0원</b><span>💰 확정 매출 (주문 0건)</span></div>
+<div class="kpi bl"><b>0</b><span>📮 실제 게시 URL</span></div></div>
+<div class="cols"><div class="card"><div class="donut"><svg viewBox="0 0 140 140" width="160"><circle r="52" cx="70" cy="70" fill="none" stroke="#22c55e" stroke-width="22" stroke-dasharray="118.8 326.7" stroke-dashoffset="-0.0" transform="rotate(-90 70 70)"/><circle r="52" cx="70" cy="70" fill="none" stroke="#3b82f6" stroke-width="22" stroke-dasharray="29.7 326.7" stroke-dashoffset="-118.8" transform="rotate(-90 70 70)"/><circle r="52" cx="70" cy="70" fill="none" stroke="#ef4444" stroke-width="22" stroke-dasharray="14.9 326.7" stroke-dashoffset="-148.5" transform="rotate(-90 70 70)"/><circle r="52" cx="70" cy="70" fill="none" stroke="#a78bfa" stroke-width="22" stroke-dasharray="44.6 326.7" stroke-dashoffset="-163.4" transform="rotate(-90 70 70)"/><circle r="52" cx="70" cy="70" fill="none" stroke="#f59e0b" stroke-width="22" stroke-dasharray="118.8 326.7" stroke-dashoffset="-207.9" transform="rotate(-90 70 70)"/><text x="70" y="66" text-anchor="middle" font-size="13" fill="#cbd5e1">평균 진행</text><text x="70" y="90" text-anchor="middle" font-size="28" font-weight="900" fill="#fff">57%</text></svg><ul><li><i style="background:#22c55e"></i>✅ 완료 <b>8</b></li><li><i style="background:#3b82f6"></i>🔄 진행 중 <b>2</b></li><li><i style="background:#ef4444"></i>❌ 실패 <b>1</b></li><li><i style="background:#a78bfa"></i>❔ 미확인 <b>3</b></li><li><i style="background:#f59e0b"></i>🙋 사용자 승인 필요 <b>8</b></li></ul></div></div><div class="card"><b>그룹별 평균 진행률</b><div class="gb"><span>기반</span><div class="pbar"><i style="width:100%;background:#3b82f6"></i><b>100%</b></div></div><div class="gb"><span>계정</span><div class="pbar"><i style="width:19%;background:#3b82f6"></i><b>19%</b></div></div><div class="gb"><span>판매①</span><div class="pbar"><i style="width:77%;background:#3b82f6"></i><b>77%</b></div></div><div class="gb"><span>판매②</span><div class="pbar"><i style="width:60%;background:#3b82f6"></i><b>60%</b></div></div><div class="gb"><span>인프라</span><div class="pbar"><i style="width:72%;background:#3b82f6"></i><b>72%</b></div></div><div class="gb"><span>콘텐츠</span><div class="pbar"><i style="width:52%;background:#3b82f6"></i><b>52%</b></div></div><div class="gb"><span>게시</span><div class="pbar"><i style="width:0%;background:#3b82f6"></i><b>0%</b></div></div><div class="gb"><span>매출</span><div class="pbar"><i style="width:0%;background:#3b82f6"></i><b>0%</b></div></div><div class="gb"><span>보고</span><div class="pbar"><i style="width:90%;background:#3b82f6"></i><b>90%</b></div></div></div></div>
+<div class="note">🔑 <b>지금 막힌 핵심 1개:</b> 인스타 현재 로그인 = <mark class="p">개인 계정</mark> → 투자교육·AI창업 계정으로 <b>사용자가 전환·로그인</b>해야 게시·API·예약이 열립니다 (T03·T04·T05·T16).</div></section><section id="tasks" class="bl"><h2>🔢 업무 T01~T22</h2><p class="lead">줄을 누르면 8개 기록 항목이 펼쳐집니다 · <span class="t2">초록=완료</span> <span style="color:#60a5fa;font-weight:800">파랑=진행</span> <span class="r">빨강=실패</span> <span style="color:#c4b5fd;font-weight:800">보라=미확인</span> <span class="o">주황=승인 필요</span></p>
+<div class="tools"><button onclick="all(true,document.getElementById('tasks'))">이 구역 전체 펼치기</button><button class="alt" onclick="all(false,document.getElementById('tasks'))">접기</button></div><details><summary><span class="y">T01</span> · 기존 투자 대시보드·사업 허브 읽고 재사용 &nbsp; <span class="chip" style="--c:#22c55e">✅ 완료</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:100%;background:#22c55e"></i><b>100%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>투자 대시보드 전체와 사업 허브 HTML을 읽음. 허브의 TOP20 원본 경로표(CSV)로 미리보기 14종 원본을 찾음. 새 조사 없이 재사용</span><b>⛔ 하지 않은 일</b><span>허브 내부 &#x27;계정 A/B 상태&#x27;는 브라우저 저장값이라 읽을 수 없음</span>
+<b>❓ 못 한 이유</b><span>허브 상태는 사용자 브라우저 localStorage에만 저장됨</span><b>🔧 해결 방법</b><span>허브에 계정 A=투자교육, B=AI·창업으로 직접 체크(1분)</span><b>📦 남은 작업량</b><span>없음</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>business-assets 페이지 HTML 25KB · TOP20_미리보기.csv</span></div></div></details><details><summary><span class="y">T02</span> · 업무 고정 번호·상태 5종 체계 &nbsp; <span class="chip" style="--c:#22c55e">✅ 완료</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:100%;background:#22c55e"></i><b>100%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>T01~T22 번호 고정, 상태 5종(완료·진행 중·실패·미확인·사용자 승인 필요)과 기록 항목 8개를 업무표으로 관리</span><b>⛔ 하지 않은 일</b><span>-</span>
+<b>❓ 못 한 이유</b><span>-</span><b>🔧 해결 방법</b><span>-</span><b>📦 남은 작업량</b><span>매일 갱신</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>업무표</span></div></div></details><details><summary><span class="y">T03</span> · Instagram 실제 로그인 계정 확인 &nbsp; <span class="chip" style="--c:#f59e0b">🙋 사용자 승인 필요</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:40%;background:#f59e0b"></i><b>40%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>로컬 브라우저에서 읽기만 해서 확인: 현재 로그인 = 개인 계정(개인 계정)</span><b>⛔ 하지 않은 일</b><span>투자교육 후보(투자교육 계정 A)·AI창업 후보(AI·창업 계정 B)로 전환하지 않음</span>
+<b>❓ 못 한 이유</b><span>개인 계정은 사용 금지. 계정 전환은 사용자 세션을 바꾸는 행동</span><b>🔧 해결 방법</b><span>사용자가 인스타 앱/웹에서 투자교육 계정 A로 전환 → 다시 읽기 확인</span><b>📦 남은 작업량</b><span>확인 2건</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>예 — 계정 전환</span>
+<b>🧾 증빙</b><span>instagram.com/accounts/edit 화면 읽기(클릭 없음)</span></div></div></details><details><summary><span class="y">T04</span> · Meta Business Suite 로그인 확인 &nbsp; <span class="chip" style="--c:#f59e0b">🙋 사용자 승인 필요</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:20%;background:#f59e0b"></i><b>20%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>business.facebook.com 접속 → 로그인 페이지로 이동됨(로그아웃 상태)</span><b>⛔ 하지 않은 일</b><span>로그인 시도 안 함</span>
+<b>❓ 못 한 이유</b><span>자격 증명 입력·2단계 인증은 사용자만</span><b>🔧 해결 방법</b><span>사용자가 Meta Business Suite 로그인 후 두 계정이 비즈니스 포트폴리오에 연결됐는지 확인</span><b>📦 남은 작업량</b><span>로그인 1회 + 연결 확인</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>예 — 로그인</span>
+<b>🧾 증빙</b><span>loginpage 리다이렉트 확인</span></div></div></details><details><summary><span class="y">T05</span> · Instagram 공식 API(Graph) 연결 &nbsp; <span class="chip" style="--c:#f59e0b">🙋 사용자 승인 필요</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:5%;background:#f59e0b"></i><b>5%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>설정 파일에서 Meta/Instagram 키 이름 검색 → 0건(값은 열지 않음)</span><b>⛔ 하지 않은 일</b><span>앱 생성·토큰 발급 안 함</span>
+<b>❓ 못 한 이유</b><span>T04 로그인 선행 필요. 앱 생성은 사용자 계정 권한</span><b>🔧 해결 방법</b><span>T04 후 Meta 개발자 앱(무료) 생성 → 콘텐츠 게시 권한 토큰을 볼트에 저장</span><b>📦 남은 작업량</b><span>앱 1개·토큰 1개</span>
+<b>🪙 토큰·원화</b><span>0 · 0원</span><b>🙋 사용자 개입</b><span>예</span>
+<b>🧾 증빙</b><span>키 이름 검색 결과 0건</span></div></div></details><details><summary><span class="y">T06</span> · YouTube Studio 영상 채널 C 용도 확인 &nbsp; <span class="chip" style="--c:#a78bfa">❔ 미확인</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:10%;background:#a78bfa"></i><b>10%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>studio.youtube.com 접속 → 계정 선택 화면(로그아웃)</span><b>⛔ 하지 않은 일</b><span>채널 목록·용도 확인 못 함, 다른 채널과 혼용 안 함</span>
+<b>❓ 못 한 이유</b><span>YouTube 로그인 세션 없음</span><b>🔧 해결 방법</b><span>사용자가 영상 채널 C 계정으로 Studio 로그인 → 채널명·최근 업로드로 용도 읽기 확인</span><b>📦 남은 작업량</b><span>확인 1건</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>예 — 로그인</span>
+<b>🧾 증빙</b><span>accountchooser 화면</span></div></div></details><details><summary><span class="y">T07</span> · 차트 복기 워크북 · 무료 샘플 &nbsp; <span class="chip" style="--c:#22c55e">✅ 완료</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:100%;background:#22c55e"></i><b>100%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>가상 차트 1개+복기표 14칸, 모바일 390px 확인, 내용 승인 받음</span><b>⛔ 하지 않은 일</b><span>외부 게시 안 함</span>
+<b>❓ 못 한 이유</b><span>T03 계정 미확인</span><b>🔧 해결 방법</b><span>T03 후 1일차 게시</span><b>📦 남은 작업량</b><span>게시만</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>모바일 화면 캡처 3장</span></div></div></details><details><summary><span class="y">T08</span> · 차트 복기 워크북 · 유료판 3사례 제작 &nbsp; <span class="chip" style="--c:#22c55e">✅ 완료</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:100%;background:#22c55e"></i><b>100%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>성공(+2.15R)·실패(−1R)·애매(−0.34R) 가상 사례, 사례별 가림/공개, 비교표, 7일 기록 양식. PDF 8쪽 렌더 확인</span><b>⛔ 하지 않은 일</b><span>외부 판매 등록 안 함</span>
+<b>❓ 못 한 이유</b><span>T09 결제 수단 미정</span><b>🔧 해결 방법</b><span>T09</span><b>📦 남은 작업량</b><span>표지 디자인 다듬기(선택)</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>PDF 8쪽 · 쪽별 렌더 점검</span></div></div></details><details><summary><span class="y">T09</span> · 워크북 결제·판매자 정보·환불 문구 &nbsp; <span class="chip" style="--c:#f59e0b">🙋 사용자 승인 필요</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:30%;background:#f59e0b"></i><b>30%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>판매 페이지 초안(결제 버튼 비활성), 환불 초안</span><b>⛔ 하지 않은 일</b><span>결제 링크 생성 안 함</span>
+<b>❓ 못 한 이유</b><span>신규 결제 수단 개설은 승인 필요, 판매자 정보 미정</span><b>🔧 해결 방법</b><span>기존에 이미 가입된 판매 채널(스마트스토어/크몽/토스 중) 1개 지정</span><b>📦 남은 작업량</b><span>결정 1건</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>예</span>
+<b>🧾 증빙</b><span>판매페이지_초안.html</span></div></div></details><details><summary><span class="y">T10</span> · 소상공인 『30일 AI 콘텐츠 작업장』 판매 준비 점검 &nbsp; <span class="chip" style="--c:#3b82f6">🔄 진행 중</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:60%;background:#3b82f6"></i><b>60%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>본문 PDF 9쪽·무료 샘플 1쪽·제안서·가격/환불 초안·문의 응답문 존재 확인(다른 세션 산출물 재사용), 미리보기 생성</span><b>⛔ 하지 않은 일</b><span>권리 확인·판매 등록</span>
+<b>❓ 못 한 이유</b><span>본문·템플릿 판매 권리 확인, 판매자 정보, 결제 수단 미정(기존 문서 00_요약 승인필요 5건)</span><b>🔧 해결 방법</b><span>00_요약_승인필요.md의 5개 질문에 답</span><b>📦 남은 작업량</b><span>승인 5건</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>예</span>
+<b>🧾 증빙</b><span>7일_매출실험_20261124 폴더 20개 파일</span></div></div></details><details><summary><span class="y">T11</span> · 로컬 Qwen 27B 활용 &nbsp; <span class="chip" style="--c:#22c55e">✅ 완료</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:100%;background:#22c55e"></i><b>100%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>꺼져 있던 qwen27-llama 서비스 시작(45초) → 워크북·가게 첫 문장 후보 각 5개 생성</span><b>⛔ 하지 않은 일</b><span>-</span>
+<b>❓ 못 한 이유</b><span>-</span><b>🔧 해결 방법</b><span>-</span><b>📦 남은 작업량</b><span>4일차 A/B 문구 선택 때 재사용</span>
+<b>🪙 토큰·원화</b><span>Qwen 421토큰(로컬, 0원)</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>logs/qwen_run_20261125.json</span></div></div></details><details><summary><span class="y">T12</span> · n8n 활용 &nbsp; <span class="chip" style="--c:#a78bfa">❔ 미확인</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:15%;background:#a78bfa"></i><b>15%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>n8n 컨테이너 1개 실행 중 확인(healthz 200, [로컬]) — 오프라인 레이더 데모용</span><b>⛔ 하지 않은 일</b><span>게시·주문 워크플로 만들지 않음</span>
+<b>❓ 못 한 이유</b><span>실제 업무 워크플로 없음, API 키 없음. 게시 자동화는 T05 토큰이 있어야 의미 있음</span><b>🔧 해결 방법</b><span>T05 후 &#x27;승인된 파일만 예약 게시&#x27; 워크플로 1개만 추가(신규 개발 최소)</span><b>📦 남은 작업량</b><span>워크플로 1개</span>
+<b>🪙 토큰·원화</b><span>0 · 0원</span><b>🙋 사용자 개입</b><span>아니오(T05 대기)</span>
+<b>🧾 증빙</b><span>healthz 200</span></div></div></details><details><summary><span class="y">T13</span> · 원페이지 「예금 1.5억 연금계좌 이동」 &nbsp; <span class="chip" style="--c:#f59e0b">🙋 사용자 승인 필요</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:80%;background:#f59e0b"></i><b>80%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>1080×1350 제작·겹침 점검</span><b>⛔ 하지 않은 일</b><span>게시 안 함</span>
+<b>❓ 못 한 이유</b><span>검토 대기 + 법령 원문 2건</span><b>🔧 해결 방법</b><span>승인 + T15</span><b>📦 남은 작업량</b><span>승인 1건</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>예</span>
+<b>🧾 증빙</b><span>PNG</span></div></div></details><details><summary><span class="y">T14</span> · 투자툰 4컷 이미지 &nbsp; <span class="chip" style="--c:#f59e0b">🙋 사용자 승인 필요</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:40%;background:#f59e0b"></i><b>40%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>대본·프롬프트</span><b>⛔ 하지 않은 일</b><span>이미지 생성</span>
+<b>❓ 못 한 이유</b><span>생성 도구 미정(Codex 금지, 유료 API 금지)</span><b>🔧 해결 방법</b><span>로컬 생성 도구 지정 또는 기존 캐릭터 컷 합성</span><b>📦 남은 작업량</b><span>4컷</span>
+<b>🪙 토큰·원화</b><span>0 · 0원</span><b>🙋 사용자 개입</b><span>예</span>
+<b>🧾 증빙</b><span>02_투자툰_4컷_대본_프롬프트.md</span></div></div></details><details><summary><span class="y">T15</span> · 법령 원문 재확인 2건(연금 1,800만·ISA 한도) &nbsp; <span class="chip" style="--c:#ef4444">❌ 실패</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:30%;background:#ef4444"></i><b>30%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>국세청 공식 페이지로 세액공제 확인, 2차 자료 일치 확인</span><b>⛔ 하지 않은 일</b><span>법령 원문 조문 확인</span>
+<b>❓ 못 한 이유</b><span>법제처 페이지가 스크립트로만 본문을 그려 추출 실패</span><b>🔧 해결 방법</b><span>법제처 브라우저 렌더로 재시도 또는 국세청 상담 안내문 인용</span><b>📦 남은 작업량</b><span>2건</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>law.go.kr 추출 결과 본문 없음</span></div></div></details><details><summary><span class="y">T16</span> · 업로드 대기·예약 게시 &nbsp; <span class="chip" style="--c:#f59e0b">🙋 사용자 승인 필요</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:0%;background:#f59e0b"></i><b>0%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>대기 목록 0건 유지</span><b>⛔ 하지 않은 일</b><span>예약·게시 0건</span>
+<b>❓ 못 한 이유</b><span>T03 계정 미확인, 콘텐츠 승인 0건</span><b>🔧 해결 방법</b><span>T03+T13 승인 → 공식 API로 1건 예약</span><b>📦 남은 작업량</b><span>전부</span>
+<b>🪙 토큰·원화</b><span>0 · 0원</span><b>🙋 사용자 개입</b><span>예</span>
+<b>🧾 증빙</b><span>게시 URL 0건</span></div></div></details><details><summary><span class="y">T17</span> · 매출 집계(워크북·소상공인 따로) &nbsp; <span class="chip" style="--c:#a78bfa">❔ 미확인</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:0%;background:#a78bfa"></i><b>0%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>기록표 준비</span><b>⛔ 하지 않은 일</b><span>집계할 주문 없음</span>
+<b>❓ 못 한 이유</b><span>판매 미개시</span><b>🔧 해결 방법</b><span>T09·T10 후 1일차 시작</span><b>📦 남은 작업량</b><span>7일</span>
+<b>🪙 토큰·원화</b><span>0 · 0원</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>주문 0건 · 매출 0원</span></div></div></details><details><summary><span class="y">T18</span> · 비공개 대시보드(전체 미리보기·펼치기) &nbsp; <span class="chip" style="--c:#22c55e">✅ 완료</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:100%;background:#22c55e"></i><b>100%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>PDF 전 쪽·PPT 211장·썸네일·카드뉴스·툰 폴더를 스크롤로 보고, 항목별/전체 펼치기·접기, 폴더 열기 링크</span><b>⛔ 하지 않은 일</b><span>-</span>
+<b>❓ 못 한 이유</b><span>-</span><b>🔧 해결 방법</b><span>-</span><b>📦 남은 작업량</b><span>매일 갱신</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>private/index.html 브라우저 렌더 확인</span></div></div></details><details><summary><span class="y">T19</span> · 공개 요약 대시보드(GitHub Pages) &nbsp; <span class="chip" style="--c:#22c55e">✅ 완료</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:100%;background:#22c55e"></i><b>100%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>계정명·로컬경로·이메일 없이 상태·진행률만 공개, 배포 URL 200 확인</span><b>⛔ 하지 않은 일</b><span>-</span>
+<b>❓ 못 한 이유</b><span>-</span><b>🔧 해결 방법</b><span>-</span><b>📦 남은 작업량</b><span>매일 갱신</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>공개 URL HTTP 200</span></div></div></details><details><summary><span class="y">T20</span> · 기존 공개 페이지의 계정명·로컬 경로 노출 정리 &nbsp; <span class="chip" style="--c:#f59e0b">🙋 사용자 승인 필요</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:70%;background:#f59e0b"></i><b>70%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>현재 공개 페이지를 요약판으로 덮어씀</span><b>⛔ 하지 않은 일</b><span>Git 이력 삭제(강제 푸시) 안 함</span>
+<b>❓ 못 한 이유</b><span>다른 세션 커밋까지 다시 쓰게 되는 위험한 작업</span><b>🔧 해결 방법</b><span>원하면 별도 승인 후 이력 정리</span><b>📦 남은 작업량</b><span>결정 1건</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>예</span>
+<b>🧾 증빙</b><span>커밋 이력</span></div></div></details><details><summary><span class="y">T21</span> · 채널 자료 정리(박곰희TV·소수몽키·하승훈) &nbsp; <span class="chip" style="--c:#3b82f6">🔄 진행 중</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:60%;background:#3b82f6"></i><b>60%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>박곰희 2편 자막, 두 채널 목록 30편씩, 주장·출처 분리 11건</span><b>⛔ 하지 않은 일</b><span>하승훈TV 영상 자막</span>
+<b>❓ 못 한 이유</b><span>yt-dlp가 해당 영상을 &#x27;재생할 수 없음&#x27;으로 거부(지역·연령·멤버십 제한 가능)</span><b>🔧 해결 방법</b><span>하승훈TV 채널 공개 영상 목록으로 재시도</span><b>📦 남은 작업량</b><span>1채널</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>sources/ 폴더</span></div></div></details><details><summary><span class="y">T22</span> · 비용 원칙(유료 API·광고비·신규 결제 0원) &nbsp; <span class="chip" style="--c:#22c55e">✅ 완료</span> <span style="display:inline-block;width:160px;vertical-align:middle"><div class="pbar"><i style="width:100%;background:#22c55e"></i><b>100%</b></div></span></summary><div class="body"><div class="kv"><b>✅ 실제로 한 일</b><span>광고·결제·유료 API 호출 0건. Claude는 구독 내 사용, Qwen 로컬</span><b>⛔ 하지 않은 일</b><span>-</span>
+<b>❓ 못 한 이유</b><span>-</span><b>🔧 해결 방법</b><span>-</span><b>📦 남은 작업량</b><span>유지</span>
+<b>🪙 토큰·원화</b><span>세션 합산 · 0원</span><b>🙋 사용자 개입</b><span>아니오</span>
+<b>🧾 증빙</b><span>결제 0건</span></div></div></details></section><section class="wn" id="pubprev"><h2>🖼️ 공개 가능한 생성물</h2><div class="tools"><button onclick="all(true,document.getElementById('pubprev'))">⬇️ 전체 펼치기</button><button class="alt" onclick="all(false,document.getElementById('pubprev'))">⬆️ 접기</button></div>
+<details><summary>📱 차트 복기 워크북 · 무료 샘플 (승인된 공개 범위)</summary><div class="body"><div class="tools"><a href="workbook_sample.html" target="_blank">새 창으로 열기</a></div><iframe data-src="workbook_sample.html"></iframe></div></details>
+<details><summary>🆕 원페이지 「예금 1.5억, 연금계좌로 옮기면 몇 년?」 · 검토 대기</summary><div class="body"><div class="pages"><img loading="lazy" src="img/onepage_pension.png"></div></div></details>
+<p class="small">유료 본문(워크북 유료판·가게 작업장 본문)·계정 정보·원본 경로는 비공개 대시보드에만 있습니다.</p></section><section class="bk"><h2>💬 '하승훈TV · 재생 불가 · 초보 콘텐츠 제외'의 뜻</h2>
+<div class="note">① <b>재생 불가</b> = 자막을 받으려고 하승훈TV 영상 1편을 내려받기 도구로 열었는데, 유튜브가 <mark class="p">"동영상을 재생할 수 없음"</mark>으로 막았다는 뜻(지역·연령·멤버십 제한 등). 채널이 없어졌다는 뜻이 아닙니다.<br>
+② <b>초보 콘텐츠 제외</b> = 하승훈TV는 <span class="o">주도주·급등주·단타·관심종목</span> 위주라, <mark>'돈 있는 초보' 원페이지 한 편</mark>에만 쓰지 않겠다는 뜻. 채널 전체를 버리는 것이 아닙니다.<br>
+③ <b>어디에 쓰나</b> = 대가 덱북 <mark class="c">13강 '주도주 3일선·5일선 눌림목'</mark>과 연결해 <b>차트 복기 워크북</b>의 개념 설명 소재로 씁니다 (T21에서 자막 재시도).</div>
+<div class="tools"><a href="https://www.youtube.com/results?search_query=%ED%95%98%EC%8A%B9%ED%9B%88%EC%9D%98+%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90TV" target="_blank">▶ 하승훈의 주식투자TV 검색</a><a href="https://www.youtube.com/@gomhee" target="_blank">▶ 박곰희TV</a><a href="https://www.youtube.com/@sosumonkey" target="_blank">▶ 소수몽키</a><a class="alt" href="https://geben147-create.github.io/Insta/business-assets/" target="_blank">🧭 사업 허브</a><a class="alt" href="https://geben147-create.github.io/Insta/business-assets/deckbook.html" target="_blank">📘 대가 덱북</a></div></section><section id="cost" class="wn"><h2>🪙 토큰 사용량과 원화 비용</h2>
+<div class="cols"><div class="card"><b>Claude (이 대화 세션 누계)</b><div class="kv"><b>입력</b><span>12,488</span><b>출력</b><span>133,707</span><b>캐시 읽기</b><span>17,478,908</span><b>캐시 쓰기</b><span>791,877</span>
+<b>실제 결제</b><span><mark class="l">0원</mark> (구독 요금제 안에서 사용)</span><b>API 정가 환산</b><span>$12.50 ≈ 18,122원 <span class="small">(1달러=1,450원 가정, 참고용)</span></span></div>
+<p class="small">업무별로 Claude 토큰을 따로 재는 장치가 없어 업무표에는 '세션 합산'으로 적었습니다.</p></div>
+<div class="card"><b>로컬 Qwen 27B</b><div class="kv"><b>호출</b><span>2건</span><b>토큰</b><span>421</span><b>비용</b><span><mark class="l">0원</mark> (전기료 제외)</span></div>
+<p class="small">유료 API·광고비·신규 결제: 0건</p></div></div></section><div class="zoom" id="zoom" onclick="this.style.display='none'"><img></div></div><script>
+function all(open,scope){(scope||document).querySelectorAll('details').forEach(d=>{d.open=open;if(open)lazy(d)})}
+function lazy(d){d.querySelectorAll('[data-src]').forEach(e=>{if(!e.src)e.src=e.dataset.src})}
+document.addEventListener('toggle',e=>{if(e.target.open)lazy(e.target)},true);
+function cp(t){navigator.clipboard.writeText(t);}
+document.addEventListener('click',e=>{if(e.target.matches('.gallery img,.pages img')){const z=document.getElementById('zoom');z.querySelector('img').src=e.target.src;z.style.display='flex'}});
+</script></body></html>

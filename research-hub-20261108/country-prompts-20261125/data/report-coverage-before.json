@@ -1,0 +1,542 @@
+[
+  {
+    "id": "P01",
+    "scope": "script_planning",
+    "report_element": "메인·보조·기사/이미지·B-roll의 역할별 소스 계획",
+    "existing": "실제 원영상 3~6개와 출처 종류를 수집하지만 메인/보조 역할·예산표는 없음",
+    "evidence": {
+      "file": "prompts/01-topic-evidence.md",
+      "quote": "서로 묶이는 원영상 3~6개를 우선하고, 실제 호평·판단 변화·현장 경험이 중심인 주제를 선택한다."
+    },
+    "score": 0.5,
+    "reason": "자료 수와 종류는 있으나 역할별 분배가 명시되지 않음",
+    "proposed": "메인 증거/보조 비교/배경 자료/자체 설명의 역할, 확보 수, 예상 사용 구간을 표로 작성. 보고서 수량은 고정 목표가 아닌 참고 범위로 기록.",
+    "stage": "STEP 1",
+    "adopt": "apply"
+  },
+  {
+    "id": "P02",
+    "scope": "script_planning",
+    "report_element": "독립 출처 수와 반복 사용을 구분",
+    "existing": "신규 출처·독립 언론 수를 따로 세고 전재 기사를 중복 계산하지 않음",
+    "evidence": {
+      "file": "prompts/01-topic-evidence.md",
+      "quote": "같은 통신사 기사의 전재는 독립 언론 근거로 중복 세지 않는다."
+    },
+    "score": 1,
+    "reason": "독립성·중복 계산 규칙이 명시됨",
+    "proposed": "영상 ID의 고유 원본 수와 같은 소스의 재사용 컷 수를 별도 열로 확장.",
+    "stage": "STEP 0·1",
+    "adopt": "apply"
+  },
+  {
+    "id": "P03",
+    "scope": "script_planning",
+    "report_element": "구체적 원출처·게시 시점·인용 위치 기록",
+    "existing": "URL·저자·게시일/사건일·인용 구간을 근거표에 기록",
+    "evidence": {
+      "file": "prompts/01-topic-evidence.md",
+      "quote": "모든 자료에 정확한 URL, 제목, 저자/발행기관, 게시일과 사건일, 확인일, 인용 구간·페이지·시각, 지지하는 주장, 반례·한계를 붙인다."
+    },
+    "score": 1,
+    "reason": "출처 추적에 필요한 지시가 명시됨",
+    "proposed": "연구 표의 20편에도 영상 URL/ID·표본 선정일·지표 수집일을 붙여 원자료와 연결.",
+    "stage": "STEP 0·1",
+    "adopt": "apply"
+  },
+  {
+    "id": "P04",
+    "scope": "script_planning",
+    "report_element": "해외 비디오가 부족할 때의 대체 구성",
+    "existing": "목표와 실제 확보 수를 구분하지만 부족분의 구성 대안은 없음",
+    "evidence": {
+      "file": "prompts/01-topic-evidence.md",
+      "quote": "실제 확보 숫자와 목표 숫자를 따로 적고, 부족하면 부족한 그대로 기록한다."
+    },
+    "score": 0.5,
+    "reason": "미확보 표시는 있으나 대체 설계 분기가 없음",
+    "proposed": "소스가 5개 이하이면 길이 축소, 자체 비교·설명, 추가 조사 중 근거에 맞는 안을 선택. 원본 통재생을 기본 대안으로 삼지 않음.",
+    "stage": "STEP 1·3",
+    "adopt": "apply"
+  },
+  {
+    "id": "P05",
+    "scope": "script_planning",
+    "report_element": "이슈 시의성과 사건일·게시일 고려",
+    "existing": "시의성 자료를 확인한 경우에만 기록",
+    "evidence": {
+      "file": "prompts/01-topic-evidence.md",
+      "quote": "Google Trends 24시간·7일 등 시의성 자료를 확인한 경우에만 기록한다."
+    },
+    "score": 1,
+    "reason": "시의성 판단을 확인 자료에 연결함",
+    "proposed": "당일/익일 업로드를 보장 공식으로 강제하지 않고 사건일·관심 추이·검증 준비 상태를 함께 판단.",
+    "stage": "STEP 1",
+    "adopt": "apply"
+  },
+  {
+    "id": "P06",
+    "scope": "script_planning",
+    "report_element": "주제에 맞는 서사 프레임 선택",
+    "existing": "메인 전개와 보조 전개를 선택하고 이유를 작성",
+    "evidence": {
+      "file": "prompts/02-hook-emotion.md",
+      "quote": "메인 전개 1개 + 보조 전개 1개를 고르고 이유를 적는다."
+    },
+    "score": 1,
+    "reason": "프레임 선택 자체가 명시됨",
+    "proposed": "보고서의 권위인용·비교·콜드오픈·결과 선공개를 선택지로 명시하되 특정 채널의 문장·장면 순서는 복제하지 않음.",
+    "stage": "STEP 2",
+    "adopt": "apply"
+  },
+  {
+    "id": "P07",
+    "scope": "script_planning",
+    "report_element": "실제 외국인 호평·비판 또는 결과의 선공개 훅",
+    "existing": "첫 1~2문장을 실제 외국인 발언으로 시작",
+    "evidence": {
+      "file": "prompts/02-hook-emotion.md",
+      "quote": "첫 1~2문장은 반드시 외국인이 실제로 한 {{TARGET_COUNTRY}} 비판·부정 비교 또는 칭찬이다."
+    },
+    "score": 1,
+    "reason": "보고서의 실제 인용 중심 도입과 직접 대응함",
+    "proposed": "첫 인용을 본문의 증거와 결말에서 회수할 지점을 함께 기록.",
+    "stage": "STEP 2",
+    "adopt": "apply"
+  },
+  {
+    "id": "P08",
+    "scope": "script_planning",
+    "report_element": "콜드오픈의 정체 지연·공개 시점",
+    "existing": "인물·사건 정체를 잠시 숨겼다 공개하는 선택 규칙 없음",
+    "evidence": {
+      "file": null,
+      "quote": null
+    },
+    "score": 0,
+    "reason": "실제 발언 도입과 정체 지연 설계는 다른 요소임",
+    "proposed": "정체 지연이 효과적인 소재만 선택적으로 사용하고 숨길 정보·공개 시점·공개 이유를 작성. 오해를 만드는 신분/출처 은폐 금지.",
+    "stage": "STEP 2",
+    "adopt": "apply"
+  },
+  {
+    "id": "P09",
+    "scope": "script_planning",
+    "report_element": "첫 30초 내 궁금한 질문",
+    "existing": "첫 30초에 질문을 배치",
+    "evidence": {
+      "file": "prompts/02-hook-emotion.md",
+      "quote": "첫 30초 안에 질문을 넣는다."
+    },
+    "score": 1,
+    "reason": "시간과 질문 배치가 명시됨",
+    "proposed": "질문이 실제 자료로 답할 수 있는지 근거·회수 시점과 대조.",
+    "stage": "STEP 2",
+    "adopt": "apply"
+  },
+  {
+    "id": "P10",
+    "scope": "script_planning",
+    "report_element": "1~2분 단위의 반전·판단 전환",
+    "existing": "질문 간격과 중후반 반전은 있으나 반전 전환의 간격표는 없음",
+    "evidence": {
+      "file": "prompts/02-hook-emotion.md",
+      "quote": "질문 간격은 2분을 넘기지 않는다."
+    },
+    "score": 0.5,
+    "reason": "질문 간격과 반전 간격은 동일한 지표가 아님",
+    "proposed": "새 사실이 기존 판단을 바꾸는 지점을 1~2분 점검 창에서 검토. 접속어만 반복하는 가짜 반전은 제외.",
+    "stage": "STEP 2·3",
+    "adopt": "apply"
+  },
+  {
+    "id": "P11",
+    "scope": "script_planning",
+    "report_element": "질문→부분 답→새 궁금증과 주기적 새 정보",
+    "existing": "30~60초 새 정보와 열린 질문 회수를 명시",
+    "evidence": {
+      "file": "prompts/02-hook-emotion.md",
+      "quote": "30~60초마다 새 정보·새 장면·새 근거가 들어오게 질문 → 답 → 다음 궁금증을 잇는다."
+    },
+    "score": 1,
+    "reason": "주기와 서사 기능이 직접 대응함",
+    "proposed": "각 비트의 새 정보가 앞 비트와 중복되는지 체크 열 추가.",
+    "stage": "STEP 2·3",
+    "adopt": "apply"
+  },
+  {
+    "id": "P12",
+    "scope": "script_planning",
+    "report_element": "국가·매체를 바꾸는 릴레이",
+    "existing": "약 1분마다 자료·영상·소재를 바꾸지만 국가/매체의 증거 역할은 별도 없음",
+    "evidence": {
+      "file": "prompts/03-outline.md",
+      "quote": "약 1분마다 자료·영상·소재가 새롭게 바뀌도록 구성한다."
+    },
+    "score": 0.5,
+    "reason": "소재 전환은 있으나 국가·매체 릴레이의 검증/기여 설계는 없음",
+    "proposed": "국가/매체를 바꾸는 경우 새 관점·새 증거가 무엇인지 기록. 관련 없는 국가를 분량 때문에 끼워 넣지 않음.",
+    "stage": "STEP 3",
+    "adopt": "apply"
+  },
+  {
+    "id": "P13",
+    "scope": "script_planning",
+    "report_element": "해외 언론·전문가의 평가를 근거로 사용",
+    "existing": "언론·논문·전문지·전문가·현장 자료를 보강",
+    "evidence": {
+      "file": "prompts/01-topic-evidence.md",
+      "quote": "해외 언론, 연구 논문, 전문잡지, 공식 통계, 전문가 발언, 현장 영상, 댓글을 보강한다."
+    },
+    "score": 1,
+    "reason": "권위 출처 활용과 원문 추적이 명시됨",
+    "proposed": "매체 명성 대신 해당 자료가 정확히 어떤 주장을 지지하는지 한 줄로 표시.",
+    "stage": "STEP 1·4",
+    "adopt": "apply"
+  },
+  {
+    "id": "P14",
+    "scope": "script_planning",
+    "report_element": "배경 설명에서 숫자를 연쇄적으로 제시하고 의미 연결",
+    "existing": "숫자의 출처·날짜·역할과 숫자 자답은 있으나 연속 묶음 설계는 없음",
+    "evidence": {
+      "file": "prompts/03-outline.md",
+      "quote": "숫자는 공식 자료를 우선하고 출처·날짜·역할(규모·비교·속도)을 적는다."
+    },
+    "score": 0.5,
+    "reason": "개별 숫자 검증은 있으나 연속 수치의 인지 부담·연결 순서는 미지정",
+    "proposed": "필요한 수치만 규모→비교→의미 순서로 묶고 같은 단위·기간을 맞춤. 숫자 개수 강제 대신 이해 가능성 확인.",
+    "stage": "STEP 3·4",
+    "adopt": "apply"
+  },
+  {
+    "id": "P15",
+    "scope": "script_planning",
+    "report_element": "실제 상반된 댓글로 갈등·대비 구성",
+    "existing": "서로 다른 실제 댓글과 문맥 확인",
+    "evidence": {
+      "file": "prompts/01-topic-evidence.md",
+      "quote": "댓글 논쟁은 서로 다른 실제 의견과 앞뒤 문맥을 함께 확인한다."
+    },
+    "score": 1,
+    "reason": "실제 댓글 대조와 문맥 보존이 명시됨",
+    "proposed": "대표성·개인 의견 여부를 자료표에 남기고 댓글 수를 전체 여론으로 확대하지 않음.",
+    "stage": "STEP 1·3",
+    "adopt": "apply"
+  },
+  {
+    "id": "P16",
+    "scope": "script_planning",
+    "report_element": "국가 간 대비·비교 프레임",
+    "existing": "실제 비교 발언의 화자·기준을 확인하고 역사적 불리한 사실을 보존",
+    "evidence": {
+      "file": "prompts/01-topic-evidence.md",
+      "quote": "‘{{TARGET_COUNTRY}}는 다른 나라에 비해 못한다’는 비교는 실제 누가 어떤 기준으로 말했는지 확인한다."
+    },
+    "score": 1,
+    "reason": "비교 구도를 쓰되 사실 기준을 확인하는 규칙이 있음",
+    "proposed": "단위·기간·대상을 맞춘 비교표를 대본 근거표와 연결.",
+    "stage": "STEP 1·3",
+    "adopt": "apply"
+  },
+  {
+    "id": "P17",
+    "scope": "script_planning",
+    "report_element": "사실 설명·외국 발언 번역·자체 의견의 구분과 비율 기록",
+    "existing": "발언 종류는 구분하나 대본 비중 산정법은 없음",
+    "evidence": {
+      "file": "prompts/00-source-check.md",
+      "quote": "원어 발언 / 저장된 번역 / 화면 글자 / 댓글 / 내레이션 창작문을 구분한다."
+    },
+    "score": 0.5,
+    "reason": "분류는 있으나 단어/문장/시간 중 비율의 분모가 정해져 있지 않음",
+    "proposed": "사실/번역·인용/분석·의견/연결 문장을 구분하고 문장 수 또는 발화시간 기준을 명시. 혼합 문장은 이중 계산하지 않음. 비율은 진단값으로 사용.",
+    "stage": "STEP 4",
+    "adopt": "apply"
+  },
+  {
+    "id": "P18",
+    "scope": "script_planning",
+    "report_element": "내레이션과 실제 원음의 교차·해설 연결",
+    "existing": "원음 전 소개와 뒤 의미 한 줄을 명시",
+    "evidence": {
+      "file": "prompts/04-script.md",
+      "quote": "원음 앞에 소개 1~2문장, 원음 뒤에 의미 한 줄."
+    },
+    "score": 1,
+    "reason": "원음 교차와 의미 연결 규칙이 직접 대응함",
+    "proposed": "오프닝 예외를 유지하고 본문에서 원음이 새로 증명하는 사실을 짧게 설명.",
+    "stage": "STEP 4",
+    "adopt": "apply"
+  },
+  {
+    "id": "P19",
+    "scope": "script_planning",
+    "report_element": "짧은 화면 컷과 긴 원음 증거 블록의 구분",
+    "existing": "원음 클립 3~6초 규칙은 있으나 증거 블록 개념 없음",
+    "evidence": {
+      "file": "prompts/04-script.md",
+      "quote": "클립은 자막 컷 경계에 맞춰 3~6초(평균 약 4초)."
+    },
+    "score": 0,
+    "reason": "3~6초 클립만으로 보고서의 10~40초 원음 블록 설계가 구현됐다고 볼 수 없음",
+    "proposed": "화면 컷·인용 클립·서사 증거 블록을 구분. 긴 블록이 필요하면 근거 맥락·필요성·연속 원음 길이를 별도 검토하고 원문 보존본은 유지.",
+    "stage": "STEP 3·4",
+    "adopt": "apply"
+  },
+  {
+    "id": "P20",
+    "scope": "script_planning",
+    "report_element": "해설은 사건 배경·새 사실·의미에 집중",
+    "existing": "배경·새 사실·발언의 의미 연결을 명시",
+    "evidence": {
+      "file": "prompts/04-script.md",
+      "quote": "해설은 확인된 배경, 새로운 사실, 앞뒤 발언의 의미를 잇는다."
+    },
+    "score": 1,
+    "reason": "해설 역할이 직접 대응함",
+    "proposed": "이미 들려준 칭찬의 재진술과 새 분석 문장을 구분하는 검수 열 추가.",
+    "stage": "STEP 4",
+    "adopt": "apply"
+  },
+  {
+    "id": "P21",
+    "scope": "script_planning",
+    "report_element": "8~9분 표준 단계표와 선택 분량에 따른 시간 배분",
+    "existing": "17분 참고표와 분량 조정 지시는 있으나 8~9분 대응표 없음",
+    "evidence": {
+      "file": "prompts/03-outline.md",
+      "quote": "[17분 기준 참고 시간표 — 선택 분량에 맞춰 조정]"
+    },
+    "score": 0.5,
+    "reason": "분량 적응 원칙은 있으나 보고서의 짧은 표준 시간표가 구체화되지 않음",
+    "proposed": "8~9분안과 17분안을 병렬로 제시하고 훅·배경·본론·대비·결론의 역할을 유지해 조정.",
+    "stage": "STEP 3",
+    "adopt": "apply"
+  },
+  {
+    "id": "P22",
+    "scope": "script_planning",
+    "report_element": "마지막 감정 보상과 처음 장면의 회수",
+    "existing": "첫 질문에 답하고 처음 장면/물건을 불러 닫음",
+    "evidence": {
+      "file": "prompts/02-hook-emotion.md",
+      "quote": "끝은 처음 질문에 답하기 → 의미를 한 번 더 새롭게 보기 → 처음 장면·물건을 불러 닫기."
+    },
+    "score": 1,
+    "reason": "최종 보상·수미상관이 명시됨",
+    "proposed": "첫 작은 보상은 유지하고 마지막 보상까지 모든 답을 미루지 않음.",
+    "stage": "STEP 2·3",
+    "adopt": "apply"
+  },
+  {
+    "id": "P23",
+    "scope": "script_planning",
+    "report_element": "자체 분석·새 관점을 통해 원본과 다른 가치 부여",
+    "existing": "참고 기능에서 새 사례·근거·문장·전개를 작성",
+    "evidence": {
+      "file": "prompts/common.md",
+      "quote": "참고 훅은 서사 기능을 분석하고 새 사례·근거·문장·전개로 쓴다."
+    },
+    "score": 0.5,
+    "reason": "새로운 작성 원칙은 있으나 회차별 독창적 기여 설명란이 없음",
+    "proposed": "회차마다 새로 검증/비교/설명한 기여 한 문장과 해당 대본 구간을 기록. 단순 외신 요약과 구분.",
+    "stage": "STEP 1·4·최종 확인",
+    "adopt": "apply"
+  },
+  {
+    "id": "P24",
+    "scope": "script_planning",
+    "report_element": "자체 의견을 전환·결론에서 명확한 역할로 사용",
+    "existing": "원음 뒤 의미 연결은 있으나 의견 문장의 역할·위치 검수 없음",
+    "evidence": {
+      "file": "prompts/04-script.md",
+      "quote": "원음의 칭찬을 같은 뜻으로 반복 낭독하지 않는다."
+    },
+    "score": 0.5,
+    "reason": "불필요한 반복을 줄이지만 자체 의견의 배치·표시까지 규정하지 않음",
+    "proposed": "의견 문장은 사실/번역과 구분하고 주장 근거·역할을 표시. 1~2문장 또는20%를 보편 상한으로 강제하지 않음.",
+    "stage": "STEP 4·최종 확인",
+    "adopt": "apply"
+  },
+  {
+    "id": "E01",
+    "scope": "editing_reference",
+    "report_element": "컷 감지·60장 샘플링·평균/중앙값/CPM/첫60초 측정",
+    "existing": "컷 로그와 표본 추출·집계 방법 없음",
+    "evidence": {
+      "file": null,
+      "quote": null
+    },
+    "score": 0,
+    "reason": "새 영상 편집/분석 실행은 이전 요청에서 제외된 범위임",
+    "proposed": "편집 전달 참고에 컷 정의·분모·샘플 시점·전환 감지 방식·로그 위치를 기록. 분석을 실제 하지 않으면 측정 완료라 하지 않음.",
+    "stage": "STEP 0·3 참고",
+    "adopt": "reference_only"
+  },
+  {
+    "id": "E02",
+    "scope": "editing_reference",
+    "report_element": "짧은 컷과 긴 컷을 기능에 맞춰 변속",
+    "existing": "3~6초 평균4초 원음 클립 규칙은 있으나 기능별 분포·긴 컷 판단 없음",
+    "evidence": {
+      "file": "prompts/04-script.md",
+      "quote": "클립은 자막 컷 경계에 맞춰 3~6초(평균 약 4초)."
+    },
+    "score": 0.5,
+    "reason": "짧은 리듬은 반영됐으나 보고서의 긴 컷/구간별 템포는 없음",
+    "proposed": "짧은 질문·읽을 자료·현장 발언의 기능별 호흡을 전달 메모로 정리. 보고서 컷 분포는 강제 할당률로 적용하지 않음.",
+    "stage": "STEP 3·4 참고",
+    "adopt": "reference_only"
+  },
+  {
+    "id": "E03",
+    "scope": "editing_reference",
+    "report_element": "자막 의미 경계와 화면 전환의 동기화",
+    "existing": "클립을 자막 컷 경계에 맞추도록 명시",
+    "evidence": {
+      "file": "prompts/04-script.md",
+      "quote": "클립은 자막 컷 경계에 맞춰"
+    },
+    "score": 1,
+    "reason": "자막 경계와 클립 타이밍을 맞추는 지시가 있음",
+    "proposed": "한 문장의 의미가 끝나는 시점과 화면/발화 교체 시점을 검수표로 연결.",
+    "stage": "STEP 4 참고",
+    "adopt": "reference_only"
+  },
+  {
+    "id": "E04",
+    "scope": "editing_reference",
+    "report_element": "인용 카드·댓글 말풍선·숫자 그래프의 화면 표기",
+    "existing": "SEQ N행에 chart와 댓글 말풍선 표기를 제공",
+    "evidence": {
+      "file": "prompts/04-script.md",
+      "quote": "('N', 내레이션 문장, 화면 문구 | 'chart:이름' | '\"댓글 말풍선 문구\"', 형광 태그 q|c|e|g|'')"
+    },
+    "score": 1,
+    "reason": "그래프·댓글 카드용 화면 문구 표기 자체는 직접 반영됨",
+    "proposed": "본문 주장·원문 댓글·차트 수치의 연결을 화면 설명란에 붙임.",
+    "stage": "STEP 3·4 참고",
+    "adopt": "reference_only"
+  },
+  {
+    "id": "E05",
+    "scope": "editing_reference",
+    "report_element": "내레이션/번역 자막 구별과 자막바·브랜드 배지",
+    "existing": "N/C로 역할은 구분하나 폰트·색·브랜드 배지 규칙 없음",
+    "evidence": {
+      "file": "prompts/04-script.md",
+      "quote": "('C', 소스키, IN초, OUT초, {{OUTPUT_LANGUAGE}} 자막, 형광 태그)"
+    },
+    "score": 0.5,
+    "reason": "대본 데이터 형식의 역할 구분만 있으며 시각 스타일 명세는 없음",
+    "proposed": "기존 디자인 규칙 링크를 우선하고 N/C 구분을 넘김. 보고서의 하단15%/흰바를 새 공통 디자인 규칙으로 덮어쓰지 않음.",
+    "stage": "STEP 4 참고",
+    "adopt": "reference_only"
+  },
+  {
+    "id": "E06",
+    "scope": "editing_reference",
+    "report_element": "정지 사진 움직임·분할 비교 등 화면 연출",
+    "existing": "Ken Burns·분할 화면 전달 지시 없음",
+    "evidence": {
+      "file": null,
+      "quote": null
+    },
+    "score": 0,
+    "reason": "이전 영상 편집 제외 범위이며 실제 효과는 구현하지 않음",
+    "proposed": "필요한 구간만 선택형 연출 참고로 기록. 대본에 효과명을 낭독하거나 새 편집 실행 단계를 만들지 않음.",
+    "stage": "STEP 3 참고",
+    "adopt": "reference_only"
+  },
+  {
+    "id": "V01",
+    "scope": "verification",
+    "report_element": "비율·평균 집계의 분모·샘플·가중 방식 명시",
+    "existing": "통계 기간·모수·단위를 맞추지만 영상 연구 집계법 없음",
+    "evidence": {
+      "file": "prompts/01-topic-evidence.md",
+      "quote": "통계는 기간·모수·비교 단위를 맞춘다."
+    },
+    "score": 0.5,
+    "reason": "기본 통계 원칙은 있으나 단순평균/시간가중/60장 샘플 비율 구분이 없음",
+    "proposed": "분자·분모·집계 단위·최근/역대 표본·단순/가중 평균·원자료를 함께 기록. 표본 비율과 실제 러닝타임 비율을 분리.",
+    "stage": "STEP 0·1·최종 확인",
+    "adopt": "apply"
+  },
+  {
+    "id": "V02",
+    "scope": "verification",
+    "report_element": "조회수·서사 가설과 실제 리텐션 성과를 구분",
+    "existing": "공개 조회수로 CTR/시청지속률을 실측처럼 표시하지 못하게 함",
+    "evidence": {
+      "file": "prompts/01-topic-evidence.md",
+      "quote": "CTR·시청지속률·RPM·수익을 공개 조회수로 추정해 실제 측정값처럼 쓰지 않는다."
+    },
+    "score": 1,
+    "reason": "관찰 지표와 실제 성과의 구분이 명시됨",
+    "proposed": "제작 후 실제 Analytics의 30초 유지율·이탈 시점과 대본 가설을 대조하는 후속 기록란 추가.",
+    "stage": "STEP 1·최종 확인",
+    "adopt": "apply"
+  },
+  {
+    "id": "V03",
+    "scope": "verification",
+    "report_element": "저작권과 YPP 재사용/독창성 심사를 별도 점검",
+    "existing": "권리 상태 필드는 있으나 두 심사 체계의 구분 없음",
+    "evidence": {
+      "file": null,
+      "quote": null
+    },
+    "score": 0,
+    "reason": "권리 기록만으로 재사용 정책 심사가 구현된 것은 아님",
+    "proposed": "사용 근거/라이선스 확인과 자체 분석·실질 차이·반복 양산 여부를 별도 표로 검토.",
+    "stage": "최종 확인",
+    "adopt": "apply"
+  },
+  {
+    "id": "V04",
+    "scope": "verification",
+    "report_element": "소스 권리·라이선스 근거를 자산 원장에 보관",
+    "existing": "원본 자료표에 권리 상태를 기록",
+    "evidence": {
+      "file": "prompts/00-source-check.md",
+      "quote": "확인 수준, 권리 상태, 기존 사용 여부, 보류 사유 표"
+    },
+    "score": 0.5,
+    "reason": "권리 상태 열은 있지만 허락/라이선스 증빙·조건 기록이 구체적이지 않음",
+    "proposed": "권리자·사용 근거·허락/라이선스 증빙·허용 범위·출처 표시·미확인을 기록.",
+    "stage": "STEP 0·최종 확인",
+    "adopt": "apply"
+  },
+  {
+    "id": "V05",
+    "scope": "verification",
+    "report_element": "대본·근거·제작 과정의 증빙 기록",
+    "existing": "자료 해시와 완료/미완료를 남기지만 제작 과정 증빙 묶음 지시 없음",
+    "evidence": {
+      "file": "prompts/common.md",
+      "quote": "결과 마지막에 작업 도구 이름과 실제 완료/미완료를 기록한다."
+    },
+    "score": 0.5,
+    "reason": "작업 기록 원칙은 있으나 과정 설명·프로젝트 증거까지 체계화하지 않음",
+    "proposed": "대본 버전·근거 선택/분석 과정·사용 허락·추후 편집 프로젝트 위치를 증빙 목록으로 연결. 미실행 단계를 증거로 만들지 않음.",
+    "stage": "최종 확인",
+    "adopt": "apply"
+  },
+  {
+    "id": "V06",
+    "scope": "verification",
+    "report_element": "실제 경고·수익정지 발생 시 알맞은 공식 대응 절차 확인",
+    "existing": "정책 통지 종류별 공식 절차 확인 지시 없음",
+    "evidence": {
+      "file": null,
+      "quote": null
+    },
+    "score": 0,
+    "reason": "현재 실행 프롬프트에 항소·저작권 통지별 확인 경로가 없음",
+    "proposed": "실제 통지가 있을 때 저작권 claim/strike·YPP 정지/예정 통지를 구분하고 공식 기한·경로를 확인. 보고서의 일률적21일·영문자막 필수로 단정하지 않음.",
+    "stage": "최종 확인 참고",
+    "adopt": "apply"
+  }
+]

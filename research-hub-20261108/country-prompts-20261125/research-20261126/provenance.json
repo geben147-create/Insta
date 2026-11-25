@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-26",
+  "baseline_commit": "653d67c8132f8ac19ac2d7e8eece5d80db340427",
+  "original_step4_sha256": "1df50fbecaa61eb5b8240b9e1383243b6bbe8e798676a9f7924a7659d421fd27",
+  "report_transcription_sha256": "921ac628b9e802fd9fe7020480d895068d8dc01eedc2f6374bf92514bc3d788b",
+  "original_report_status": "Manual transcription of visible user message; not a raw API message-byte export.",
+  "supplement_files": [
+    "supplements/20261126/common.md",
+    "supplements/20261126/00-source-check.md",
+    "supplements/20261126/01-topic-evidence.md",
+    "supplements/20261126/02-hook-emotion.md",
+    "supplements/20261126/03-outline.md",
+    "supplements/20261126/04-script.md",
+    "supplements/20261126/05-title-thumbnail.md",
+    "supplements/20261126/final-review.md"
+  ],
+  "baseline_prompt_hashes": [
+    {
+      "file": "prompts/00-source-check.md",
+      "sha256": "2930dfe2a75feee40f9fcb6584d0ef511e2651e97862e8d75cb9bce595e10580"
+    },
+    {
+      "file": "prompts/01-topic-evidence.md",
+      "sha256": "23a5a329313449b6b6ee141f27cd12a20c340439da840e77d205ed1ccf046bd9"
+    },
+    {
+      "file": "prompts/02-hook-emotion.md",
+      "sha256": "354dcd14ed4ccb3a810f0ab07a85261a4d3979df434e2f90fcdbe6c84d469e0e"
+    },
+    {
+      "file": "prompts/03-outline.md",
+      "sha256": "4cefd53747fc5cbf3fce967bb51416c7883dc53df7cdea10dfafb16dc87b7bfd"
+    },
+    {
+      "file": "prompts/04-script.md",
+      "sha256": "6d259be29450d62b216b9d1d0ce971ebb85426aa92a9b1f2fb07da336341a6af"
+    },
+    {
+      "file": "prompts/05-title-thumbnail.md",
+      "sha256": "ba8c4a0d1f679056d38192aa219b0b4d842a783ec75967cd5d04b97cf51a01ec"
+    },
+    {
+      "file": "prompts/common.md",
+      "sha256": "84b0a86bd45d201bc13094ed8423c46b8d4cd949f2d532aaedcd38f9e8f5ff3c"
+    },
+    {
+      "file": "prompts/final-review.md",
+      "sha256": "5e8e9c048af69b931df460df1bc97047011a15336a4136b9bf11489093dba9dd"
+    }
+  ],
+  "scope": "文書指示・提供表算術・公式資料確認 / 실제 영상 재측정 및 편집 실행 없음"
+}

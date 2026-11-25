@@ -1,0 +1,145 @@
+{
+  "schema": "report20.prompt-coverage.v1",
+  "baseline_commit": "653d67c8132f8ac19ac2d7e8eece5d80db340427",
+  "frozen_at": "2026-11-26",
+  "comparison_scope": "현재 실행 프롬프트 8개와 사용자 제공 20편 보고서의 제작 지시 비교. originals/data 보관 문서는 채점에서 제외.",
+  "score_meaning": "explicit=1 / partial=0.5 / absent=0. 동일가중의 문서상 반영률이며 실제 영상 적용률·흥행 검증률·측정 데이터 정확도와 다름.",
+  "denominator": "36개 제작 요소를 보완 전 고정. script_planning24 + editing_reference6 + verification6. 근거 없는 수치/인과/정책 주장은 교정목록 8건으로 분리하고 분모에서 제외.",
+  "overall": {
+    "scope": "all",
+    "items": 36,
+    "points": 23.0,
+    "percent": 63.89,
+    "explicit": 16,
+    "partial": 14,
+    "absent": 6
+  },
+  "core_and_verification": {
+    "scope": "script_planning+verification",
+    "items": 30,
+    "points": 20.0,
+    "percent": 66.67,
+    "explicit": 14,
+    "partial": 12,
+    "absent": 4
+  },
+  "groups": [
+    {
+      "scope": "script_planning",
+      "items": 24,
+      "points": 17.5,
+      "percent": 72.92,
+      "explicit": 13,
+      "partial": 9,
+      "absent": 2
+    },
+    {
+      "scope": "editing_reference",
+      "items": 6,
+      "points": 3.0,
+      "percent": 50.0,
+      "explicit": 2,
+      "partial": 2,
+      "absent": 2
+    },
+    {
+      "scope": "verification",
+      "items": 6,
+      "points": 2.5,
+      "percent": 41.67,
+      "explicit": 1,
+      "partial": 3,
+      "absent": 2
+    }
+  ],
+  "baseline_files": [
+    {
+      "file": "prompts/00-source-check.md",
+      "sha256": "2930dfe2a75feee40f9fcb6584d0ef511e2651e97862e8d75cb9bce595e10580"
+    },
+    {
+      "file": "prompts/01-topic-evidence.md",
+      "sha256": "23a5a329313449b6b6ee141f27cd12a20c340439da840e77d205ed1ccf046bd9"
+    },
+    {
+      "file": "prompts/02-hook-emotion.md",
+      "sha256": "354dcd14ed4ccb3a810f0ab07a85261a4d3979df434e2f90fcdbe6c84d469e0e"
+    },
+    {
+      "file": "prompts/03-outline.md",
+      "sha256": "4cefd53747fc5cbf3fce967bb51416c7883dc53df7cdea10dfafb16dc87b7bfd"
+    },
+    {
+      "file": "prompts/04-script.md",
+      "sha256": "6d259be29450d62b216b9d1d0ce971ebb85426aa92a9b1f2fb07da336341a6af"
+    },
+    {
+      "file": "prompts/05-title-thumbnail.md",
+      "sha256": "ba8c4a0d1f679056d38192aa219b0b4d842a783ec75967cd5d04b97cf51a01ec"
+    },
+    {
+      "file": "prompts/common.md",
+      "sha256": "84b0a86bd45d201bc13094ed8423c46b8d4cd949f2d532aaedcd38f9e8f5ff3c"
+    },
+    {
+      "file": "prompts/final-review.md",
+      "sha256": "5e8e9c048af69b931df460df1bc97047011a15336a4136b9bf11489093dba9dd"
+    }
+  ],
+  "corrections_excluded_from_score": [
+    {
+      "id": "X01",
+      "report_claim": "자체 시각자료 50% 이상을 제안한 위험 완화 권고",
+      "adopt": "correct_not_adopt",
+      "reason": "보고서의 내부 제작 권고와 공식 요건을 구분한다. 해당 수치를 공식 통과선이나 안전 보장으로 채택하지 않음."
+    },
+    {
+      "id": "X02",
+      "report_claim": "원음 10초 미만 분할과 해설 오버랩으로 위험 완화 표준 확보",
+      "adopt": "correct_not_adopt",
+      "reason": "초 단위 제한·목소리 겹침을 저작권/YPP 안전기준으로 취급하지 않음. 인용의 목적·맥락·권리/정책을 따로 검토."
+    },
+    {
+      "id": "X03",
+      "report_claim": "AI TTS·얼굴 비노출·외부 클립70%를 자동 생성/제재 위험의 수치 근거로 사용",
+      "adopt": "correct_not_adopt",
+      "reason": "도구·얼굴 노출·클립 비율만으로 개별 채널 판정이나 심사 확률을 단정하지 않음."
+    },
+    {
+      "id": "X04",
+      "report_claim": "외부 클립70~85%+한국어 내레이션+3초대 컷이 입증된 흥행 방정식",
+      "adopt": "correct_not_adopt",
+      "reason": "표본20편 관찰을 최적 비율·인과 효과·흥행 보장으로 바꾸지 않음."
+    },
+    {
+      "id": "X05",
+      "report_claim": "컷 전환이 도파민·뇌 피로도를 정밀 제어하고 리텐션을 입증",
+      "adopt": "correct_not_adopt",
+      "reason": "시청자 연구·실제 Analytics·실험이 없으므로 서사 설계 가설과 측정 결과를 구분."
+    },
+    {
+      "id": "X06",
+      "report_claim": "두 채널의 원본 비율만으로 특정 저작권/YPP 제재 위험 판정",
+      "adopt": "correct_not_adopt",
+      "reason": "개별 영상의 사용 허락·원본과의 차이·심사 상태를 확인하지 않았으므로 채널 판정을 확정하지 않음."
+    },
+    {
+      "id": "X07",
+      "report_claim": "당일 또는 다음날 업로드를 20편 전체의 필수 흥행 조건으로 일반화",
+      "adopt": "correct_not_adopt",
+      "reason": "사건일·게시일·대조 표본이 없는 상태에서 인과/필수조건으로 채택하지 않음. 시의성 확인은 P05에 포함."
+    },
+    {
+      "id": "X08",
+      "report_claim": "정책 조문·신고 시 경고·항소21일/영문자막 조건을 일률적 절차로 적용",
+      "adopt": "correct_not_adopt",
+      "reason": "공식 현재 문서와 실제 통지 종류로 교정한 뒤 안내. 검증 전 보고서 문장을 실행 규칙으로 복사하지 않음."
+    }
+  ],
+  "limitations": [
+    "보고서 원영상20편의 URL·컷로그·표본라벨·원문 대본을 제공받지 못했으므로 실제 영상 측정은 재검증하지 않음.",
+    "editing_reference는 이전 사용자 지시에서 실행 제외된 범위. 별도 표기하며 기존 대본 제작의 실패로 해석하지 않음.",
+    "제안한 문구는 현재 채택/적용된 것으로 점수를 올리지 않음. after는 보완 배포 뒤 별도 대조해야 함.",
+    "항목 분해와 부분반영 판정은 평가자의 질적 판단이므로 반영률은 이 공개된 체크리스트 안에서만 유효."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-26",
+  "status": "PASS within stated scope",
+  "static_checks": {
+    "before_items": 36,
+    "after_items": 36,
+    "after_exact_quote_checks": 62,
+    "baseline_prompt_hashes_unchanged": 8,
+    "original_step4_sha256": "1df50fbecaa61eb5b8240b9e1383243b6bbe8e798676a9f7924a7659d421fd27",
+    "local_report_links": 12,
+    "js_syntax": [
+      "app.js",
+      "report.js",
+      "navigation files"
+    ],
+    "git_diff_whitespace": "PASS"
+  },
+  "browser_preview_observations": {
+    "renderer": "Cloud Browser through managed Sites preview",
+    "report_visible": true,
+    "score_cards": [
+      "73%",
+      "67%",
+      "64%"
+    ],
+    "comparison_summary_rows": 10,
+    "detailed_rows": 36,
+    "verification_filter_rows": 6,
+    "priority_blocks": 4,
+    "green_stage_addenda": 8,
+    "france_target_japanese_output_copied": true,
+    "priority_copy_unresolved_tokens": false,
+    "step4_copy_contains_base_common_and_stage_supplements": true,
+    "all_copy_addendum_sections": 8,
+    "all_copy_characters_observed": 21449,
+    "empty_custom_country_disables_priority_copy": true,
+    "brazil_custom_country_propagates": true,
+    "settings_restored_to": "일본 · 한국어"
+  },
+  "navigation_static_checks": {
+    "two_hub_report_routes": true,
+    "clipboard_write_delegation": true,
+    "legacy_menu_entries_unchanged": 51,
+    "legacy_nav21_preserved": true
+  },
+  "not_performed": [
+    "원영상20편 실측",
+    "Analytics 접근·시청 지속 개선 입증",
+    "영상 편집·TTS·렌더",
+    "이 문서에서 개별 영상의 권리 확보 또는 정책 심사 통과",
+    "별도 모바일 실기기 검증"
+  ],
+  "deployment": "별도 GitHub commit과 Pages 실행 결과에서 확인. 이 파일은 배포 전 검증 기록이다."
+}

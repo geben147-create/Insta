@@ -1,0 +1,162 @@
+{
+  "verified_at_utc": "2026-11-25T23:39:55Z",
+  "verified_date_korea": "2026-11-26",
+  "scope": "공식 정책 문구와 법조문 확인. 두 채널의 실제 권리관계, 개별 영상 적법성, YPP 심사 결과는 확인하지 않음.",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "YouTube channel monetization policies",
+      "url": "https://support.google.com/youtube/answer/1311392?hl=en",
+      "ref": "turn507098887view0"
+    },
+    {
+      "id": "S2",
+      "title": "Appeal a YouTube Partner Program suspension or application rejection",
+      "url": "https://support.google.com/youtube/answer/9564590?hl=en",
+      "ref": "turn814014874view1"
+    },
+    {
+      "id": "S3",
+      "title": "Understand copyright strikes",
+      "url": "https://support.google.com/youtube/answer/2814000?hl=en",
+      "ref": "turn507098887view2"
+    },
+    {
+      "id": "S4",
+      "title": "저작권법 제35조의5 저작물의 공정한 이용",
+      "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029423587",
+      "ref": "turn507098887view3",
+      "effective_date": "2026-10-29"
+    },
+    {
+      "id": "S5",
+      "title": "Fair use on YouTube",
+      "url": "https://support.google.com/youtube/answer/9783148?hl=en",
+      "ref": "turn814014874view0"
+    },
+    {
+      "id": "S6",
+      "title": "TeamYouTube: Response to creator questions about YPP policies (July 2025)",
+      "url": "https://support.google.com/youtube/thread/356734251?hl=en&msgid=357300241",
+      "ref": "turn814014874search0",
+      "note": "Google Employee인 Sarah(TeamYouTube)의 공식 공지. 단순 커뮤니티 이용자 답변 아님."
+    },
+    {
+      "id": "S7",
+      "title": "저작권법 제28조 공표된 저작물의 인용",
+      "url": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1025203557",
+      "ref": "turn472098462view1",
+      "effective_date": "2026-10-29"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "P01",
+      "report_claim": "저작권과 재사용 콘텐츠 수익화 심사는 별개이며 허락만으로 YPP 통과가 보장되지 않는다.",
+      "judgment": "confirmed",
+      "corrected_guidance": "유지. 권리 확보와 독창적 해설·의미 있는 차이를 각각 확인한다.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "P02",
+      "report_claim": "자체 시각 자료를 러닝타임 50% 이상으로 채우라는 위험 완화 권고.",
+      "judgment": "needs_scope_label",
+      "corrected_guidance": "50%는 제작상 선택값으로만 표기한다. 확인한 공식 정책에는 이 비율을 통과선으로 정한 규정이 없다.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "P03",
+      "report_claim": "원본 오디오를 10초 미만으로 세분화하고 해설을 오버랩하라는 위험 완화 권고.",
+      "judgment": "needs_scope_label",
+      "corrected_guidance": "길이·오버랩만으로 적법성이나 수익화를 보장하지 않는다. 짧은 사용도 권리 문제가 발생할 수 있으며 이용 맥락·필요성·권리 범위를 따진다.",
+      "source_ids": [
+        "S5",
+        "S4"
+      ]
+    },
+    {
+      "id": "P04",
+      "report_claim": "AI TTS·얼굴 비노출·외부 영상 70% 이상이면 양산형으로 오인될 확률이 높아진다.",
+      "judgment": "unsupported_probability",
+      "corrected_guidance": "해당 확률과 70% 기준은 근거 미제공. AI 사용 자체의 일괄 금지로 바꾸지 않는다. 실제 독창성·반복성·부가 가치와 해당 정책 준수를 평가한다.",
+      "source_ids": [
+        "S1",
+        "S6"
+      ]
+    },
+    {
+      "id": "P05",
+      "report_claim": "수익 창출 중지 후 21일 이내 항소한다.",
+      "judgment": "partially_correct",
+      "corrected_guidance": "중지 예정 통지와 사전 항소 초대를 받았다면 표시된 7일 기한, 중지 후 경로는 21일을 구분한다. 사전 항소가 거절되면 동일 사안의 두 번째 항소는 불가. Studio에 표시된 실제 기한을 따른다.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "P06",
+      "report_claim": "실제 목소리 녹음을 권고하고 영어 자막을 포함한 항소 영상 제출을 안내한다.",
+      "judgment": "needs_correction",
+      "corrected_guidance": "한국어·일본어는 지원 내레이션 언어이므로 영어 자막이 일률 필수는 아니다. 얼굴 출연 또는 보이스오버로 제작 과정을 설명할 수 있다. 5분 미만·미등록·새 업로드 등 공식 형식을 따른다.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "P07",
+      "report_claim": "저작권 신고나 Copyright Match Tool 요청을 받으면 곧바로 경고가 생긴다.",
+      "judgment": "overbroad",
+      "corrected_guidance": "Content ID 주장과 저작권 경고를 구분한다. 검토된 유효한 삭제 요청에 따른 삭제는 경고로 이어질 수 있고, 90일 안에 경고 3회면 채널 해지 대상이다.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "P08",
+      "report_claim": "한국 저작권법 공정 이용 근거는 제35조의3이다.",
+      "judgment": "outdated_article_number",
+      "corrected_guidance": "현행 공정 이용 조문은 제35조의5이다. 제35조의3에서 2019-11-26 이동했다. 2026-10-29 시행본을 확인했다.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "id": "P09",
+      "report_claim": "해설·비평용 인용이라면 제28조를 적용할 수 있다.",
+      "judgment": "conditional",
+      "corrected_guidance": "제28조는 보도·비평·교육·연구 등의 목적, 정당한 범위와 공정한 관행을 요구한다. 제35조의5도 목적·성격, 저작물 종류, 사용 부분의 비중·중요성, 시장 영향을 종합 고려한다.",
+      "source_ids": [
+        "S4",
+        "S7"
+      ]
+    },
+    {
+      "id": "P10",
+      "report_claim": "두 채널의 최근 모델이 수익 창출 자격 박탈 리스크에 노출되어 있다는 개별 채널 평가.",
+      "judgment": "insufficient_evidence",
+      "corrected_guidance": "보고서에 제시된 사용 비율만으로 개별 채널 위반·제재 확률을 판정할 수 없다. 권리관계와 실제 콘텐츠, 채널 맥락 및 플랫폼의 판단은 별도 확인 대상이다.",
+      "source_ids": [
+        "S1"
+      ],
+      "basis_type": "공식 심사 원칙과 미확인 정보에 근거한 판단 범위 제한"
+    },
+    {
+      "id": "P11",
+      "report_claim": "국가를 선택해 범용 템플릿을 쓰려는 사용자 요청에 대한 정책 적용상의 보완.",
+      "judgment": "implementation_caution",
+      "corrected_guidance": "국가 변수는 편의 기능으로 쓰되 편마다 고유 사실·검증된 인용·해설·서사 차이를 확보한다. 국가명만 바꾸는 표면적 변경은 독창성 검토를 대신하지 않는다.",
+      "source_ids": [
+        "S1",
+        "S6"
+      ],
+      "basis_type": "공식 반복·재사용 콘텐츠 원칙을 이 워크플로우에 적용한 권고"
+    }
+  ],
+  "workflow_insertion": "보고서 원문을 수정하지 않고 검증·보완 카드에 정책 수치의 성격과 법조문 정정, 출처·권리 근거 기록만 넣는다. 사용자가 제외한 영상 편집 실행 단계를 신설하지 않는다.",
+  "citation_handoff": "root는 최종 답변에 인용하기 전 해당 공식 URL을 직접 open/search+find해야 한다. 같은 문서의 여러 ref는 독립 출처로 계산하지 않는다.",
+  "claim_label_note": "report_claim은 해당 보고서의 논지를 요약한 비교용 표제이며 축자 인용이 아니다. 제작 권고를 공식 정책 주장으로 단정하지 않고, 공식 요건과 내부 권고를 구분하는 보완을 뜻한다."
+}

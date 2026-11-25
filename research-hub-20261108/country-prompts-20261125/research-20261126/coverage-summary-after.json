@@ -1,0 +1,231 @@
+{
+  "schema": "report20.prompt-coverage-after.v1",
+  "baseline_commit": "653d67c8132f8ac19ac2d7e8eece5d80db340427",
+  "criteria_frozen_at": "2026-11-26",
+  "audited_at_utc": "2026-11-25T23:57:25.936388+00:00",
+  "comparison_scope": "기존 prompts/*.md 8개와 supplements/20261126/*.md 8개를 직접 읽고 고정 36항목으로 비교. 보관본·보고서 UI·우선순위 요약은 채점 근거에서 제외.",
+  "score_meaning": "explicit=1 / partial=0.5 / absent=0. 동일가중의 문서 반영률. 현재 문서의 지시 또는 명시적 조건부 참고를 채점하며 실제 실행 완료를 채점하지 않음.",
+  "denominator": "36개 제작 요소를 보완 전 고정. script_planning24 + editing_reference6 + verification6. 근거 없는 수치/인과/정책 주장은 교정목록 8건으로 분리하고 분모에서 제외.",
+  "overall": {
+    "scope": "all",
+    "items": 36,
+    "points": 35.5,
+    "percent": 98.61,
+    "explicit": 35,
+    "partial": 1,
+    "absent": 0
+  },
+  "core_and_verification": {
+    "scope": "script_planning+verification",
+    "items": 30,
+    "points": 30.0,
+    "percent": 100.0,
+    "explicit": 30,
+    "partial": 0,
+    "absent": 0
+  },
+  "groups": [
+    {
+      "scope": "script_planning",
+      "items": 24,
+      "points": 24.0,
+      "percent": 100.0,
+      "explicit": 24,
+      "partial": 0,
+      "absent": 0
+    },
+    {
+      "scope": "editing_reference",
+      "items": 6,
+      "points": 5.5,
+      "percent": 91.67,
+      "explicit": 5,
+      "partial": 1,
+      "absent": 0
+    },
+    {
+      "scope": "verification",
+      "items": 6,
+      "points": 6.0,
+      "percent": 100.0,
+      "explicit": 6,
+      "partial": 0,
+      "absent": 0
+    }
+  ],
+  "mode_counts": {
+    "instruction": 29,
+    "reference_only": 7
+  },
+  "mode_note": "P01~P24 및 V01~V05는 instruction, E01~E06 및 V06은 reference_only. V06의 조건부 대응 참고도 해당 기준의 문서 반영으로 점수화하며 현재 실행 의무나 실행 완료를 뜻하지 않음.",
+  "baseline_sha256": "1e92ff49a7da2997086b858cdb1f131a949e73dbcdc3b86ba75b783c77d5c804",
+  "baseline_prompt_hashes_match": true,
+  "audited_files": [
+    {
+      "file": "prompts/00-source-check.md",
+      "sha256": "2930dfe2a75feee40f9fcb6584d0ef511e2651e97862e8d75cb9bce595e10580"
+    },
+    {
+      "file": "prompts/01-topic-evidence.md",
+      "sha256": "23a5a329313449b6b6ee141f27cd12a20c340439da840e77d205ed1ccf046bd9"
+    },
+    {
+      "file": "prompts/02-hook-emotion.md",
+      "sha256": "354dcd14ed4ccb3a810f0ab07a85261a4d3979df434e2f90fcdbe6c84d469e0e"
+    },
+    {
+      "file": "prompts/03-outline.md",
+      "sha256": "4cefd53747fc5cbf3fce967bb51416c7883dc53df7cdea10dfafb16dc87b7bfd"
+    },
+    {
+      "file": "prompts/04-script.md",
+      "sha256": "6d259be29450d62b216b9d1d0ce971ebb85426aa92a9b1f2fb07da336341a6af"
+    },
+    {
+      "file": "prompts/05-title-thumbnail.md",
+      "sha256": "ba8c4a0d1f679056d38192aa219b0b4d842a783ec75967cd5d04b97cf51a01ec"
+    },
+    {
+      "file": "prompts/common.md",
+      "sha256": "84b0a86bd45d201bc13094ed8423c46b8d4cd949f2d532aaedcd38f9e8f5ff3c"
+    },
+    {
+      "file": "prompts/final-review.md",
+      "sha256": "5e8e9c048af69b931df460df1bc97047011a15336a4136b9bf11489093dba9dd"
+    },
+    {
+      "file": "supplements/20261126/00-source-check.md",
+      "sha256": "170c9934b02bae7a78102edae18237b41bc0927ae1a8df399b34eb857a98054c"
+    },
+    {
+      "file": "supplements/20261126/01-topic-evidence.md",
+      "sha256": "cb8992493361b445fbe9eacb490b7913b8b3d76af06d7c7e047bba3e0f58568c"
+    },
+    {
+      "file": "supplements/20261126/02-hook-emotion.md",
+      "sha256": "c3a791840237fac6bc0ac61d8049b91f3c0e6cd50f37ab5caaba3d6b49798b36"
+    },
+    {
+      "file": "supplements/20261126/03-outline.md",
+      "sha256": "cc7c053c5f120cd0da59a35d35a0ca4360c32e4d08d3d32a4a4d72bdf96742f3"
+    },
+    {
+      "file": "supplements/20261126/04-script.md",
+      "sha256": "3f7dc4786e98fb2a2559f989225c5e23fe589811a332c76d32461f546a5e2479"
+    },
+    {
+      "file": "supplements/20261126/05-title-thumbnail.md",
+      "sha256": "4dea48d100a442344334663e96f6b80bed6177ec42948d00ad1902f6aaffa40b"
+    },
+    {
+      "file": "supplements/20261126/common.md",
+      "sha256": "3f98d4add94b7f785a2b7ae6e922ba34160fadfcfc94ec1137cc4062a9f8ff8d"
+    },
+    {
+      "file": "supplements/20261126/final-review.md",
+      "sha256": "844da763e5a467c028570fee425730928ec016f0613dd841294617c70cea54f8"
+    }
+  ],
+  "evidence_validation": {
+    "quotes_checked": 62,
+    "exact_substrings_matched": 62,
+    "failed": 0,
+    "source_files_unchanged_during_audit": true
+  },
+  "score_changes": [
+    {
+      "scope": "all",
+      "points_before": 23.0,
+      "points_after": 35.5,
+      "point_change": 12.5,
+      "percentage_point_change": 34.72
+    },
+    {
+      "scope": "script_planning+verification",
+      "points_before": 20.0,
+      "points_after": 30.0,
+      "point_change": 10.0,
+      "percentage_point_change": 33.33
+    },
+    {
+      "scope": "script_planning",
+      "points_before": 17.5,
+      "points_after": 24.0,
+      "point_change": 6.5,
+      "percentage_point_change": 27.08
+    },
+    {
+      "scope": "editing_reference",
+      "points_before": 3.0,
+      "points_after": 5.5,
+      "point_change": 2.5,
+      "percentage_point_change": 41.67
+    },
+    {
+      "scope": "verification",
+      "points_before": 2.5,
+      "points_after": 6.0,
+      "point_change": 3.5,
+      "percentage_point_change": 58.33
+    }
+  ],
+  "corrections_excluded_from_score": [
+    {
+      "id": "X01",
+      "report_claim": "자체 시각자료 50% 이상을 제안한 위험 완화 권고",
+      "adopt": "correct_not_adopt",
+      "reason": "보고서의 내부 제작 권고와 공식 요건을 구분한다. 해당 수치를 공식 통과선이나 안전 보장으로 채택하지 않음."
+    },
+    {
+      "id": "X02",
+      "report_claim": "원음 10초 미만 분할과 해설 오버랩으로 위험 완화 표준 확보",
+      "adopt": "correct_not_adopt",
+      "reason": "초 단위 제한·목소리 겹침을 저작권/YPP 안전기준으로 취급하지 않음. 인용의 목적·맥락·권리/정책을 따로 검토."
+    },
+    {
+      "id": "X03",
+      "report_claim": "AI TTS·얼굴 비노출·외부 클립70%를 자동 생성/제재 위험의 수치 근거로 사용",
+      "adopt": "correct_not_adopt",
+      "reason": "도구·얼굴 노출·클립 비율만으로 개별 채널 판정이나 심사 확률을 단정하지 않음."
+    },
+    {
+      "id": "X04",
+      "report_claim": "외부 클립70~85%+한국어 내레이션+3초대 컷이 입증된 흥행 방정식",
+      "adopt": "correct_not_adopt",
+      "reason": "표본20편 관찰을 최적 비율·인과 효과·흥행 보장으로 바꾸지 않음."
+    },
+    {
+      "id": "X05",
+      "report_claim": "컷 전환이 도파민·뇌 피로도를 정밀 제어하고 리텐션을 입증",
+      "adopt": "correct_not_adopt",
+      "reason": "시청자 연구·실제 Analytics·실험이 없으므로 서사 설계 가설과 측정 결과를 구분."
+    },
+    {
+      "id": "X06",
+      "report_claim": "두 채널의 원본 비율만으로 특정 저작권/YPP 제재 위험 판정",
+      "adopt": "correct_not_adopt",
+      "reason": "개별 영상의 사용 허락·원본과의 차이·심사 상태를 확인하지 않았으므로 채널 판정을 확정하지 않음."
+    },
+    {
+      "id": "X07",
+      "report_claim": "당일 또는 다음날 업로드를 20편 전체의 필수 흥행 조건으로 일반화",
+      "adopt": "correct_not_adopt",
+      "reason": "사건일·게시일·대조 표본이 없는 상태에서 인과/필수조건으로 채택하지 않음. 시의성 확인은 P05에 포함."
+    },
+    {
+      "id": "X08",
+      "report_claim": "정책 조문·신고 시 경고·항소21일/영문자막 조건을 일률적 절차로 적용",
+      "adopt": "correct_not_adopt",
+      "reason": "공식 현재 문서와 실제 통지 종류로 교정한 뒤 안내. 검증 전 보고서 문장을 실행 규칙으로 복사하지 않음."
+    }
+  ],
+  "limitations": [
+    "이 점수는 보완 전 고정한 동일 36개 항목의 문서상 지시/참고 포함 정도다. 실제 대본·영상 적용률, 20편 측정 검증률, 시청지속률 개선, 흥행 성공률, 권리 확보 또는 YPP 통과율을 뜻하지 않는다.",
+    "대본·기획+검증 30개가 100%인 것은 이 고정 체크리스트에서 확인 절차와 제작 원칙이 문서화되었다는 뜻뿐이다. 자료 확인과 제작을 실행 완료했다고 판단하지 않았다.",
+    "편집 6개는 모두 reference_only다. V06도 실제 통지가 있을 때 확인하는 조건부 대응 참고로 분류했으며 항소/이의 제기는 실행하지 않는다.",
+    "기능을 충족하도록 원칙에 맞게 보완한 것은 1점으로 인정하되, 보고서의 숫자·시간·고정 할당·정책 안전선까지 그대로 채택했다는 뜻으로 해석하지 않는다.",
+    "E05는 역할 구분만 있고 시각 스타일 공통 명세를 채택하지 않았으므로 부분 0.5점이다. 이것은 기존 디자인을 지키는 범위 결정이며 점수를 올리기 위해 새 디자인 의무를 요구하지 않는다.",
+    "보완 전 제외한 X01~X08의 근거 없는 수치/인과/정책 주장은 여전히 분모에서 제외했다. 이 감사는 해당 정책의 사실관계를 독립 재검증하지 않고 현재 문서에 어떤 확인 지시가 있는지만 평가했다.",
+    "분해된 36개 기준과 부분/완전 반영 판정에는 평가자의 질적 판단이 포함된다. 점수는 이 공개된 분모와 기준 안에서만 비교 가능하다."
+  ]
+}

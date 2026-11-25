@@ -1,10 +1,11 @@
-/* 국가별 제작 프롬프트를 기존 모델 메뉴 위, 왼쪽 최상단에 고정. */
+/* 국가별 제작 프롬프트와 20편 비교·보완을 기존 모델 메뉴 위에 고정. */
 (function () {
   'use strict';
   if (document.getElementById('top2pin')) return;
   var base = new URL('.', document.currentScript ? document.currentScript.src : location.href);
   var items = [
     ['🌍 국가별 제작 프롬프트', '국가 설정 → 훅 → 대본 → 제목·썸네일 문구', './#country-prompts'],
+    ['📊 20편 비교·보완', '기존 단계와 보고서 비교 · 반영률 · 보완 1–4순위', './#country-prompts-report', 'report'],
     ['📋 총8단계 대본=영상기획', '기존 8단계 공정 · 참고 자막', 'script-video-workflow-8steps/'],
     ['🟣 Sonnet 5.5 · 한일 비교', '아웃라인 5안 v2 · 줄거리 ↔ 적용 1:1', 'hermes-sonnet55-20261121/outline_5ways.html'],
     ['한일 비교 51–100 · 대본·낭독', '대본 50편 · 합성된 음성은 바로 듣기', './#outline50-player'],
@@ -14,11 +15,15 @@
   css.textContent = '#top2pin{position:sticky;top:0;z-index:50;padding:6px 0 8px;margin:0 0 8px;background:inherit}' +
     '#top2pin a{display:block;background:#fff!important;color:#111!important;border:2px solid #111;border-radius:10px;margin:0 0 7px;padding:11px 12px;text-decoration:none;font-size:17px;line-height:1.3;font-weight:900;box-shadow:0 2px 8px rgba(0,0,0,.35)}' +
     '#top2pin a small{display:block;font-size:13px;font-weight:700;color:#444;margin-top:3px}' +
-    '#top2pin a:hover{background:#fff6c2!important}';
+    '#top2pin a:hover{background:#fff6c2!important}' +
+    '#top2pin a[data-report]{background:#e3f7bd!important;border-color:#709d31;color:#20350c!important}' +
+    '#top2pin a[data-report] small{color:#405b25}' +
+    '#top2pin a[data-report]:hover{background:#d3efa0!important}';
   document.head.appendChild(css);
   var box = document.createElement('div'); box.id = 'top2pin';
   items.forEach(function (it) {
     var a = document.createElement('a'); a.href = new URL(it[2], base).href;
+    if (it[3] === 'report') a.setAttribute('data-report', '');
     a.innerHTML = it[0].replace(/</g, '&lt;') + '<small>' + it[1].replace(/</g, '&lt;') + '</small>';
     box.appendChild(a);
   });

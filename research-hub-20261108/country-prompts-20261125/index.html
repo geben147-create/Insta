@@ -6,13 +6,14 @@
   <meta name="theme-color" content="#122139">
   <meta name="description" content="국가 설정부터 원본 확인, 훅, 아웃라인, 대본, 제목·썸네일 문구까지. 사용자 STEP 4 원문과 이번 세션 자료를 함께 보관한 제작 프롬프트.">
   <title>국가별 제작 프롬프트 · 해외반응 리서치 허브</title>
-  <link rel="stylesheet" href="./styles.css?v=20261125-1">
-  <script src="./app.js?v=20261125-1" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=20261126-1">
+  <script src="./app.js?v=20261126-1" defer></script>
+  <script src="./report.js?v=20261126-1" defer></script>
 </head>
 <body>
 <a class="skip" href="#main-content">본문으로 이동</a>
 <header class="hero">
-  <div class="hero-top"><span class="eyebrow">해외반응 제작 · PROMPT DESK</span><span class="version">V1 · 2026.11.25</span></div>
+  <div class="hero-top"><span class="eyebrow">해외반응 제작 · PROMPT DESK</span><span class="version">V1.1 · 2026.11.26</span></div>
   <h1>국가별 제작 프롬프트</h1>
   <p class="lead">국가를 고르고, 단계별 프롬프트를 복사하세요.</p>
   <p class="hero-caption">원본 확인 → 주제·근거 → 훅·감정선 → 아웃라인 → 대본 → 제목·썸네일 문구</p>
@@ -42,6 +43,7 @@
     <button type="button" data-panel="references">④ 참고 훅·원문</button>
     <button type="button" data-panel="sources">⑤ 일본 자료 모음</button>
     <button type="button" data-panel="coverage">⑥ 수록·미확보 확인</button>
+    <button type="button" data-panel="report" class="report-tab">⑦ 20편 보고서 비교·보완</button>
   </nav>
 
   <div id="loading" class="card" role="status">프롬프트와 자료를 불러오는 중입니다.</div>
@@ -97,7 +99,69 @@
     <section class="card"><h3>과거 완료 보고와 현재 확인</h3><p class="small-note">과거 답변의 완료 문구를 지우지 않고, 지금 확인 가능한 범위를 옆에 표시했습니다.</p><div class="table-wrap"><table><thead><tr><th>항목</th><th>당시 보고</th><th>현재 확인</th></tr></thead><tbody id="completion-rows"></tbody></table></div></section>
     <section class="card"><h3>버전 적용 순서</h3><ol><li>이번 사용자 지시와 변경 불가 STEP 4 보존본</li><li>선택 국가·언어가 들어간 실행 프롬프트</li><li>기존 GitHub 원문과 이번 세션 기획 기록</li></ol><p>기존의 내레이션 비율과 제목 선작성 규칙은 현재 실행본에서 강제하지 않습니다. 기존 명령의 파일이 이 저장소에 없다는 점도 실행 프롬프트에 표시했습니다.</p></section>
   </section>
-  <footer>by ChatGPT · 2026.11.25 · 단계별 실행 프롬프트와 보존 원문을 분리했습니다.</footer>
+  <section id="panel-report" class="panel report-page" hidden aria-labelledby="report-title">
+    <header class="report-hero">
+      <span class="report-eyebrow">기존 프롬프트 × 사용자 연구 보고서</span>
+      <h2 id="report-title">20편 연구, 어디까지 반영됐을까요?</h2>
+      <p id="report-subtitle">기존 지시와 보고서를 나란히 대조하고, 필요한 보완을 단계별로 연결합니다.</p>
+      <div class="report-legend"><span>기존 내용은 그대로</span><span class="report-legend-added">연두색은 이번 보완</span><span>국가 설정에 따라 복사</span></div>
+    </header>
+    <div id="report-loading" class="notice cyan" role="status">보고서 비교 자료를 불러오는 중입니다.</div>
+    <div id="report-content" hidden>
+      <p id="report-scope-note" class="notice report-scope-note"></p>
+
+      <section aria-labelledby="report-scores-title">
+        <div class="section-head"><div><span class="kicker">보완 전 기준</span><h3 id="report-scores-title">현재 지시에 들어 있던 비율</h3></div><span class="pill report-measure-badge">문서상 반영률</span></div>
+        <div id="report-score-cards" class="report-score-grid"></div>
+        <p id="report-after-status" class="small-note" role="status"></p>
+        <details class="card report-method"><summary>반영률 계산 방법과 범위 보기</summary><div id="report-method-content"></div></details>
+      </section>
+
+      <section class="card" aria-labelledby="report-comparison-title">
+        <div class="section-head"><div><span class="kicker">왼쪽 기존 지시 · 오른쪽 보고서와 보완</span><h3 id="report-comparison-title">공통점과 보완할 점</h3></div><a class="button" href="#workflow">단계별 프롬프트로</a></div>
+        <div class="table-wrap report-table-wrap" role="region" tabindex="0" aria-label="기존 지시와 보고서 요약 비교표, 좁은 화면에서는 좌우로 이동">
+          <table class="report-highlights-table"><caption class="report-sr-only">기존 지시와 사용자 보고서의 공통점, 차이, 추가할 단계</caption><thead><tr><th scope="col">비교 항목</th><th scope="col">왼쪽 · 기존 지시</th><th scope="col">오른쪽 · 보고서</th><th scope="col">보완할 점 · 넣을 단계</th></tr></thead><tbody id="report-highlight-rows"></tbody></table>
+        </div>
+      </section>
+
+      <section class="report-priorities-section" aria-labelledby="report-priorities-title">
+        <div class="section-head"><div><span class="kicker">중요도 순서 1 → 4</span><h3 id="report-priorities-title">추가 보완 프롬프트, 바로 복사</h3></div><span class="pill green" id="report-config-label">시작 설정 적용</span></div>
+        <p class="report-section-intro">각 코드에는 위에서 선택한 국가·언어·분량 설정이 적용됩니다. 관련 단계의 연두색 보완 상자에서도 보완 내용을 확인할 수 있습니다.</p>
+        <div id="report-priority-list"></div>
+      </section>
+
+      <details class="card report-audit-details" id="report-audit-details">
+        <summary><span>36개 항목을 하나씩 대조하기</span><span class="report-summary-note">점수 · 기존 근거 · 보완 후 근거</span></summary>
+        <div class="report-filter-row"><label for="report-scope-filter">비교 범위<select id="report-scope-filter"><option value="all">전체 항목</option><option value="script_planning">대본·기획</option><option value="verification">검증</option><option value="editing_reference">영상 편집 참고</option></select></label><p id="report-row-count" aria-live="polite"></p></div>
+        <p class="small-note report-table-instruction">편집 참고는 앞선 요청에서 실행을 제외한 범위입니다. 보완 후 점수도 지시문 반영 여부를 뜻하며, 영상 편집 완료를 뜻하지 않습니다.</p>
+        <div class="table-wrap report-table-wrap" role="region" tabindex="0" aria-label="36개 상세 대조표, 좁은 화면에서는 좌우로 이동">
+          <table class="report-audit-table"><caption class="report-sr-only">동일한 36개 기준으로 보완 전과 보완 후의 문서상 반영 상태를 확인합니다.</caption><thead><tr><th scope="col">항목 · 범위</th><th scope="col">왼쪽 · 기존 지시</th><th scope="col">오른쪽 · 보고서 요소</th><th scope="col">추가 보완 · 단계</th><th scope="col">반영 판정</th></tr></thead><tbody id="report-audit-rows"></tbody></table>
+        </div>
+        <div class="detail-tools" id="report-coverage-links"></div>
+      </details>
+
+      <section class="card" aria-labelledby="report-metrics-title">
+        <div class="section-head"><div><span class="kicker">보고서 표를 다시 계산</span><h3 id="report-metrics-title">수치에서 고쳐 읽어야 할 부분</h3></div><span class="pill amber">실제 영상 재측정 아님</span></div>
+        <p class="report-section-intro">제공된 표의 산술과 분모를 확인한 결과입니다. 원본 영상의 컷·화면·음성을 새로 측정한 결과와 구분합니다.</p>
+        <div class="table-wrap report-table-wrap" role="region" tabindex="0" aria-label="보고서 수치 재계산 표, 좁은 화면에서는 좌우로 이동">
+          <table class="report-metrics-table"><thead><tr><th scope="col">지표</th><th scope="col">보고서 기재</th><th scope="col">재계산 · 확인</th><th scope="col">적용할 정정</th></tr></thead><tbody id="report-metric-rows"></tbody></table>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="report-policy-title">
+        <div class="section-head"><div><span class="kicker">보고서 문장과 현재 공식 자료를 대조</span><h3 id="report-policy-title">정책·저작권 표현 정정</h3></div></div>
+        <div id="report-policy-list" class="report-policy-list"></div>
+      </section>
+
+      <section class="card" aria-labelledby="report-evidence-title">
+        <div class="section-head"><div><span class="kicker">원문 · 계산표 · 공식 출처</span><h3 id="report-evidence-title">근거와 적용 범위 확인</h3></div></div>
+        <div class="report-evidence-grid"><div><h4>원문과 대조 자료</h4><ul id="report-original-links" class="report-link-list"></ul></div><div><h4>확인에 사용한 출처</h4><ul id="report-source-links" class="report-link-list"></ul></div></div>
+        <details class="report-exclusions"><summary>반영률 분모에서 제외하고 정정한 주장</summary><div id="report-excluded-list"></div></details>
+        <div class="report-limitations"><h4>이 비교가 확인한 범위</h4><ul id="report-limitations-list"></ul></div>
+      </section>
+    </div>
+  </section>
+  <footer>by ChatGPT · 2026.11.26 · 단계별 실행 프롬프트와 보존 원문을 분리했습니다.</footer>
 </main>
 <div id="copy-status" class="toast" role="status" aria-live="polite"></div>
 <dialog id="copy-fallback"><h2>복사할 텍스트</h2><p>브라우저에서 자동 복사를 허용하지 않았습니다. 아래 내용을 선택해 복사하세요.</p><textarea id="fallback-text" readonly rows="12"></textarea><button type="button" class="button" id="close-copy-fallback">닫기</button></dialog>

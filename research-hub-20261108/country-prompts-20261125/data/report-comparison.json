@@ -1,0 +1,848 @@
+{
+  "schema": "report20.comparison-ui.v1",
+  "date": "2026-11-26",
+  "title": "20편 연구 비교 · 보완 데스크",
+  "subtitle": "기존 단계별 프롬프트와 사용자 보고서를 같은 항목으로 대조하고, 필요한 보완만 해당 단계에 연결했습니다.",
+  "scopeNote": "반영률은 보완 전 고정한36개 제작 요소의 문서상 지시 포함 정도입니다. 영상 적용률·실측 검증률·흥행 성공률이 아닙니다. 이전 요청에서 제외한 편집 실행은 참고 범위로 분리합니다.",
+  "beforeSummary": {
+    "schema": "report20.prompt-coverage.v1",
+    "baseline_commit": "653d67c8132f8ac19ac2d7e8eece5d80db340427",
+    "frozen_at": "2026-11-26",
+    "comparison_scope": "현재 실행 프롬프트 8개와 사용자 제공 20편 보고서의 제작 지시 비교. originals/data 보관 문서는 채점에서 제외.",
+    "score_meaning": "explicit=1 / partial=0.5 / absent=0. 동일가중의 문서상 반영률이며 실제 영상 적용률·흥행 검증률·측정 데이터 정확도와 다름.",
+    "denominator": "36개 제작 요소를 보완 전 고정. script_planning24 + editing_reference6 + verification6. 근거 없는 수치/인과/정책 주장은 교정목록 8건으로 분리하고 분모에서 제외.",
+    "overall": {
+      "scope": "all",
+      "items": 36,
+      "points": 23.0,
+      "percent": 63.89,
+      "explicit": 16,
+      "partial": 14,
+      "absent": 6
+    },
+    "core_and_verification": {
+      "scope": "script_planning+verification",
+      "items": 30,
+      "points": 20.0,
+      "percent": 66.67,
+      "explicit": 14,
+      "partial": 12,
+      "absent": 4
+    },
+    "groups": [
+      {
+        "scope": "script_planning",
+        "items": 24,
+        "points": 17.5,
+        "percent": 72.92,
+        "explicit": 13,
+        "partial": 9,
+        "absent": 2
+      },
+      {
+        "scope": "editing_reference",
+        "items": 6,
+        "points": 3.0,
+        "percent": 50.0,
+        "explicit": 2,
+        "partial": 2,
+        "absent": 2
+      },
+      {
+        "scope": "verification",
+        "items": 6,
+        "points": 2.5,
+        "percent": 41.67,
+        "explicit": 1,
+        "partial": 3,
+        "absent": 2
+      }
+    ],
+    "baseline_files": [
+      {
+        "file": "prompts/00-source-check.md",
+        "sha256": "2930dfe2a75feee40f9fcb6584d0ef511e2651e97862e8d75cb9bce595e10580"
+      },
+      {
+        "file": "prompts/01-topic-evidence.md",
+        "sha256": "23a5a329313449b6b6ee141f27cd12a20c340439da840e77d205ed1ccf046bd9"
+      },
+      {
+        "file": "prompts/02-hook-emotion.md",
+        "sha256": "354dcd14ed4ccb3a810f0ab07a85261a4d3979df434e2f90fcdbe6c84d469e0e"
+      },
+      {
+        "file": "prompts/03-outline.md",
+        "sha256": "4cefd53747fc5cbf3fce967bb51416c7883dc53df7cdea10dfafb16dc87b7bfd"
+      },
+      {
+        "file": "prompts/04-script.md",
+        "sha256": "6d259be29450d62b216b9d1d0ce971ebb85426aa92a9b1f2fb07da336341a6af"
+      },
+      {
+        "file": "prompts/05-title-thumbnail.md",
+        "sha256": "ba8c4a0d1f679056d38192aa219b0b4d842a783ec75967cd5d04b97cf51a01ec"
+      },
+      {
+        "file": "prompts/common.md",
+        "sha256": "84b0a86bd45d201bc13094ed8423c46b8d4cd949f2d532aaedcd38f9e8f5ff3c"
+      },
+      {
+        "file": "prompts/final-review.md",
+        "sha256": "5e8e9c048af69b931df460df1bc97047011a15336a4136b9bf11489093dba9dd"
+      }
+    ],
+    "corrections_excluded_from_score": [
+      {
+        "id": "X01",
+        "report_claim": "자체 시각자료 50% 이상을 제안한 위험 완화 권고",
+        "adopt": "correct_not_adopt",
+        "reason": "보고서의 내부 제작 권고와 공식 요건을 구분한다. 해당 수치를 공식 통과선이나 안전 보장으로 채택하지 않음."
+      },
+      {
+        "id": "X02",
+        "report_claim": "원음 10초 미만 분할과 해설 오버랩으로 위험 완화 표준 확보",
+        "adopt": "correct_not_adopt",
+        "reason": "초 단위 제한·목소리 겹침을 저작권/YPP 안전기준으로 취급하지 않음. 인용의 목적·맥락·권리/정책을 따로 검토."
+      },
+      {
+        "id": "X03",
+        "report_claim": "AI TTS·얼굴 비노출·외부 클립70%를 자동 생성/제재 위험의 수치 근거로 사용",
+        "adopt": "correct_not_adopt",
+        "reason": "도구·얼굴 노출·클립 비율만으로 개별 채널 판정이나 심사 확률을 단정하지 않음."
+      },
+      {
+        "id": "X04",
+        "report_claim": "외부 클립70~85%+한국어 내레이션+3초대 컷이 입증된 흥행 방정식",
+        "adopt": "correct_not_adopt",
+        "reason": "표본20편 관찰을 최적 비율·인과 효과·흥행 보장으로 바꾸지 않음."
+      },
+      {
+        "id": "X05",
+        "report_claim": "컷 전환이 도파민·뇌 피로도를 정밀 제어하고 리텐션을 입증",
+        "adopt": "correct_not_adopt",
+        "reason": "시청자 연구·실제 Analytics·실험이 없으므로 서사 설계 가설과 측정 결과를 구분."
+      },
+      {
+        "id": "X06",
+        "report_claim": "두 채널의 원본 비율만으로 특정 저작권/YPP 제재 위험 판정",
+        "adopt": "correct_not_adopt",
+        "reason": "개별 영상의 사용 허락·원본과의 차이·심사 상태를 확인하지 않았으므로 채널 판정을 확정하지 않음."
+      },
+      {
+        "id": "X07",
+        "report_claim": "당일 또는 다음날 업로드를 20편 전체의 필수 흥행 조건으로 일반화",
+        "adopt": "correct_not_adopt",
+        "reason": "사건일·게시일·대조 표본이 없는 상태에서 인과/필수조건으로 채택하지 않음. 시의성 확인은 P05에 포함."
+      },
+      {
+        "id": "X08",
+        "report_claim": "정책 조문·신고 시 경고·항소21일/영문자막 조건을 일률적 절차로 적용",
+        "adopt": "correct_not_adopt",
+        "reason": "공식 현재 문서와 실제 통지 종류로 교정한 뒤 안내. 검증 전 보고서 문장을 실행 규칙으로 복사하지 않음."
+      }
+    ],
+    "limitations": [
+      "보고서 원영상20편의 URL·컷로그·표본라벨·원문 대본을 제공받지 못했으므로 실제 영상 측정은 재검증하지 않음.",
+      "editing_reference는 이전 사용자 지시에서 실행 제외된 범위. 별도 표기하며 기존 대본 제작의 실패로 해석하지 않음.",
+      "제안한 문구는 현재 채택/적용된 것으로 점수를 올리지 않음. after는 보완 배포 뒤 별도 대조해야 함.",
+      "항목 분해와 부분반영 판정은 평가자의 질적 판단이므로 반영률은 이 공개된 체크리스트 안에서만 유효."
+    ]
+  },
+  "afterSummary": {
+    "schema": "report20.prompt-coverage-after.v1",
+    "baseline_commit": "653d67c8132f8ac19ac2d7e8eece5d80db340427",
+    "criteria_frozen_at": "2026-11-26",
+    "audited_at_utc": "2026-11-25T23:57:25.936388+00:00",
+    "comparison_scope": "기존 prompts/*.md 8개와 supplements/20261126/*.md 8개를 직접 읽고 고정 36항목으로 비교. 보관본·보고서 UI·우선순위 요약은 채점 근거에서 제외.",
+    "score_meaning": "explicit=1 / partial=0.5 / absent=0. 동일가중의 문서 반영률. 현재 문서의 지시 또는 명시적 조건부 참고를 채점하며 실제 실행 완료를 채점하지 않음.",
+    "denominator": "36개 제작 요소를 보완 전 고정. script_planning24 + editing_reference6 + verification6. 근거 없는 수치/인과/정책 주장은 교정목록 8건으로 분리하고 분모에서 제외.",
+    "overall": {
+      "scope": "all",
+      "items": 36,
+      "points": 35.5,
+      "percent": 98.61,
+      "explicit": 35,
+      "partial": 1,
+      "absent": 0
+    },
+    "core_and_verification": {
+      "scope": "script_planning+verification",
+      "items": 30,
+      "points": 30.0,
+      "percent": 100.0,
+      "explicit": 30,
+      "partial": 0,
+      "absent": 0
+    },
+    "groups": [
+      {
+        "scope": "script_planning",
+        "items": 24,
+        "points": 24.0,
+        "percent": 100.0,
+        "explicit": 24,
+        "partial": 0,
+        "absent": 0
+      },
+      {
+        "scope": "editing_reference",
+        "items": 6,
+        "points": 5.5,
+        "percent": 91.67,
+        "explicit": 5,
+        "partial": 1,
+        "absent": 0
+      },
+      {
+        "scope": "verification",
+        "items": 6,
+        "points": 6.0,
+        "percent": 100.0,
+        "explicit": 6,
+        "partial": 0,
+        "absent": 0
+      }
+    ],
+    "mode_counts": {
+      "instruction": 29,
+      "reference_only": 7
+    },
+    "mode_note": "P01~P24 및 V01~V05는 instruction, E01~E06 및 V06은 reference_only. V06의 조건부 대응 참고도 해당 기준의 문서 반영으로 점수화하며 현재 실행 의무나 실행 완료를 뜻하지 않음.",
+    "baseline_sha256": "1e92ff49a7da2997086b858cdb1f131a949e73dbcdc3b86ba75b783c77d5c804",
+    "baseline_prompt_hashes_match": true,
+    "audited_files": [
+      {
+        "file": "prompts/00-source-check.md",
+        "sha256": "2930dfe2a75feee40f9fcb6584d0ef511e2651e97862e8d75cb9bce595e10580"
+      },
+      {
+        "file": "prompts/01-topic-evidence.md",
+        "sha256": "23a5a329313449b6b6ee141f27cd12a20c340439da840e77d205ed1ccf046bd9"
+      },
+      {
+        "file": "prompts/02-hook-emotion.md",
+        "sha256": "354dcd14ed4ccb3a810f0ab07a85261a4d3979df434e2f90fcdbe6c84d469e0e"
+      },
+      {
+        "file": "prompts/03-outline.md",
+        "sha256": "4cefd53747fc5cbf3fce967bb51416c7883dc53df7cdea10dfafb16dc87b7bfd"
+      },
+      {
+        "file": "prompts/04-script.md",
+        "sha256": "6d259be29450d62b216b9d1d0ce971ebb85426aa92a9b1f2fb07da336341a6af"
+      },
+      {
+        "file": "prompts/05-title-thumbnail.md",
+        "sha256": "ba8c4a0d1f679056d38192aa219b0b4d842a783ec75967cd5d04b97cf51a01ec"
+      },
+      {
+        "file": "prompts/common.md",
+        "sha256": "84b0a86bd45d201bc13094ed8423c46b8d4cd949f2d532aaedcd38f9e8f5ff3c"
+      },
+      {
+        "file": "prompts/final-review.md",
+        "sha256": "5e8e9c048af69b931df460df1bc97047011a15336a4136b9bf11489093dba9dd"
+      },
+      {
+        "file": "supplements/20261126/00-source-check.md",
+        "sha256": "170c9934b02bae7a78102edae18237b41bc0927ae1a8df399b34eb857a98054c"
+      },
+      {
+        "file": "supplements/20261126/01-topic-evidence.md",
+        "sha256": "cb8992493361b445fbe9eacb490b7913b8b3d76af06d7c7e047bba3e0f58568c"
+      },
+      {
+        "file": "supplements/20261126/02-hook-emotion.md",
+        "sha256": "c3a791840237fac6bc0ac61d8049b91f3c0e6cd50f37ab5caaba3d6b49798b36"
+      },
+      {
+        "file": "supplements/20261126/03-outline.md",
+        "sha256": "cc7c053c5f120cd0da59a35d35a0ca4360c32e4d08d3d32a4a4d72bdf96742f3"
+      },
+      {
+        "file": "supplements/20261126/04-script.md",
+        "sha256": "3f7dc4786e98fb2a2559f989225c5e23fe589811a332c76d32461f546a5e2479"
+      },
+      {
+        "file": "supplements/20261126/05-title-thumbnail.md",
+        "sha256": "4dea48d100a442344334663e96f6b80bed6177ec42948d00ad1902f6aaffa40b"
+      },
+      {
+        "file": "supplements/20261126/common.md",
+        "sha256": "3f98d4add94b7f785a2b7ae6e922ba34160fadfcfc94ec1137cc4062a9f8ff8d"
+      },
+      {
+        "file": "supplements/20261126/final-review.md",
+        "sha256": "844da763e5a467c028570fee425730928ec016f0613dd841294617c70cea54f8"
+      }
+    ],
+    "evidence_validation": {
+      "quotes_checked": 62,
+      "exact_substrings_matched": 62,
+      "failed": 0,
+      "source_files_unchanged_during_audit": true
+    },
+    "score_changes": [
+      {
+        "scope": "all",
+        "points_before": 23.0,
+        "points_after": 35.5,
+        "point_change": 12.5,
+        "percentage_point_change": 34.72
+      },
+      {
+        "scope": "script_planning+verification",
+        "points_before": 20.0,
+        "points_after": 30.0,
+        "point_change": 10.0,
+        "percentage_point_change": 33.33
+      },
+      {
+        "scope": "script_planning",
+        "points_before": 17.5,
+        "points_after": 24.0,
+        "point_change": 6.5,
+        "percentage_point_change": 27.08
+      },
+      {
+        "scope": "editing_reference",
+        "points_before": 3.0,
+        "points_after": 5.5,
+        "point_change": 2.5,
+        "percentage_point_change": 41.67
+      },
+      {
+        "scope": "verification",
+        "points_before": 2.5,
+        "points_after": 6.0,
+        "point_change": 3.5,
+        "percentage_point_change": 58.33
+      }
+    ],
+    "corrections_excluded_from_score": [
+      {
+        "id": "X01",
+        "report_claim": "자체 시각자료 50% 이상을 제안한 위험 완화 권고",
+        "adopt": "correct_not_adopt",
+        "reason": "보고서의 내부 제작 권고와 공식 요건을 구분한다. 해당 수치를 공식 통과선이나 안전 보장으로 채택하지 않음."
+      },
+      {
+        "id": "X02",
+        "report_claim": "원음 10초 미만 분할과 해설 오버랩으로 위험 완화 표준 확보",
+        "adopt": "correct_not_adopt",
+        "reason": "초 단위 제한·목소리 겹침을 저작권/YPP 안전기준으로 취급하지 않음. 인용의 목적·맥락·권리/정책을 따로 검토."
+      },
+      {
+        "id": "X03",
+        "report_claim": "AI TTS·얼굴 비노출·외부 클립70%를 자동 생성/제재 위험의 수치 근거로 사용",
+        "adopt": "correct_not_adopt",
+        "reason": "도구·얼굴 노출·클립 비율만으로 개별 채널 판정이나 심사 확률을 단정하지 않음."
+      },
+      {
+        "id": "X04",
+        "report_claim": "외부 클립70~85%+한국어 내레이션+3초대 컷이 입증된 흥행 방정식",
+        "adopt": "correct_not_adopt",
+        "reason": "표본20편 관찰을 최적 비율·인과 효과·흥행 보장으로 바꾸지 않음."
+      },
+      {
+        "id": "X05",
+        "report_claim": "컷 전환이 도파민·뇌 피로도를 정밀 제어하고 리텐션을 입증",
+        "adopt": "correct_not_adopt",
+        "reason": "시청자 연구·실제 Analytics·실험이 없으므로 서사 설계 가설과 측정 결과를 구분."
+      },
+      {
+        "id": "X06",
+        "report_claim": "두 채널의 원본 비율만으로 특정 저작권/YPP 제재 위험 판정",
+        "adopt": "correct_not_adopt",
+        "reason": "개별 영상의 사용 허락·원본과의 차이·심사 상태를 확인하지 않았으므로 채널 판정을 확정하지 않음."
+      },
+      {
+        "id": "X07",
+        "report_claim": "당일 또는 다음날 업로드를 20편 전체의 필수 흥행 조건으로 일반화",
+        "adopt": "correct_not_adopt",
+        "reason": "사건일·게시일·대조 표본이 없는 상태에서 인과/필수조건으로 채택하지 않음. 시의성 확인은 P05에 포함."
+      },
+      {
+        "id": "X08",
+        "report_claim": "정책 조문·신고 시 경고·항소21일/영문자막 조건을 일률적 절차로 적용",
+        "adopt": "correct_not_adopt",
+        "reason": "공식 현재 문서와 실제 통지 종류로 교정한 뒤 안내. 검증 전 보고서 문장을 실행 규칙으로 복사하지 않음."
+      }
+    ],
+    "limitations": [
+      "이 점수는 보완 전 고정한 동일 36개 항목의 문서상 지시/참고 포함 정도다. 실제 대본·영상 적용률, 20편 측정 검증률, 시청지속률 개선, 흥행 성공률, 권리 확보 또는 YPP 통과율을 뜻하지 않는다.",
+      "대본·기획+검증 30개가 100%인 것은 이 고정 체크리스트에서 확인 절차와 제작 원칙이 문서화되었다는 뜻뿐이다. 자료 확인과 제작을 실행 완료했다고 판단하지 않았다.",
+      "편집 6개는 모두 reference_only다. V06도 실제 통지가 있을 때 확인하는 조건부 대응 참고로 분류했으며 항소/이의 제기는 실행하지 않는다.",
+      "기능을 충족하도록 원칙에 맞게 보완한 것은 1점으로 인정하되, 보고서의 숫자·시간·고정 할당·정책 안전선까지 그대로 채택했다는 뜻으로 해석하지 않는다.",
+      "E05는 역할 구분만 있고 시각 스타일 공통 명세를 채택하지 않았으므로 부분 0.5점이다. 이것은 기존 디자인을 지키는 범위 결정이며 점수를 올리기 위해 새 디자인 의무를 요구하지 않는다.",
+      "보완 전 제외한 X01~X08의 근거 없는 수치/인과/정책 주장은 여전히 분모에서 제외했다. 이 감사는 해당 정책의 사실관계를 독립 재검증하지 않고 현재 문서에 어떤 확인 지시가 있는지만 평가했다.",
+      "분해된 36개 기준과 부분/완전 반영 판정에는 평가자의 질적 판단이 포함된다. 점수는 이 공개된 분모와 기준 안에서만 비교 가능하다."
+    ]
+  },
+  "coverageBefore": "./data/report-coverage-before.json",
+  "coverageAfter": "./data/report-coverage-after.json",
+  "comparisonHighlights": [
+    {
+      "topic": "외국인 원음과 해설",
+      "before": "실제 발언 우선, 본문 소개1~2문장·뒤 의미1줄",
+      "report": "타자 승인·원음 교차·배경 설명",
+      "improvement": "새 해설이 더한 정보와 원음의 증명 역할까지 기록",
+      "stage": "STEP 4"
+    },
+    {
+      "topic": "훅·질문·감정 회수",
+      "before": "첫30초 질문·호평,2분 이내 질문,초반 작은 보상·결말 회수",
+      "report": "콜드오픈·반전·마지막 보상",
+      "improvement": "선택형 정체 지연,질문과 판단 전환을 별도 시간표로",
+      "stage": "STEP 2·3"
+    },
+    {
+      "topic": "소스 계획",
+      "before": "원영상3~6개·독립 출처·부족 수량 표기",
+      "report": "메인/보조/기사·사진 등 역할 배분",
+      "improvement": "소스 역할표·고유 ID·부족 자료 대응안·회차 고유 기여",
+      "stage": "STEP 0·1"
+    },
+    {
+      "topic": "국가·매체 릴레이",
+      "before": "약1분마다 자료·소재 전환",
+      "report": "국가/매체를 바꾸며 새 증거 투입",
+      "improvement": "전환할 때 실제로 추가되는 관점과 증거 명시",
+      "stage": "STEP 3"
+    },
+    {
+      "topic": "숫자·비교",
+      "before": "출처·날짜·단위·통계 모수 확인",
+      "report": "숫자 연쇄·국가 비교·권위 인용",
+      "improvement": "규모→비교→의미, 같은 표본과 단위, 권위의 적용 한계",
+      "stage": "STEP 1·3·4"
+    },
+    {
+      "topic": "대본·음성 비중",
+      "before": "사실/번역/창작 구분, 고정 비율 미강제",
+      "report": "인용/사실/의견 비중 제시",
+      "improvement": "대본·원음·화면 세 축과 분모 분리, 의견의 역할 검수",
+      "stage": "STEP 4"
+    },
+    {
+      "topic": "분량·원음 길이",
+      "before": "17분 참고표, 원음 클립3~6초",
+      "report": "8~9분표, 원음 증거 블록10~40초 등",
+      "improvement": "두 분량 대응표, 샷/클립/블록 구분, 긴 발언 별도 검토",
+      "stage": "STEP 3·4"
+    },
+    {
+      "topic": "수치 검증",
+      "before": "원자료 확인·통계 기준·공개 조회수 한계",
+      "report": "20편 수치·컷 감지·60장 표본 분석 주장",
+      "improvement": "표 재계산과 실측 분리, 표본·분모·집계법·컷 정의 기록",
+      "stage": "STEP 0·최종 확인"
+    },
+    {
+      "topic": "권리·정책",
+      "before": "권리 상태·출처 원장",
+      "report": "저작권/YPP 구분·제작 증빙·항소",
+      "improvement": "별도 검토표, 공식 요건과 내부 권고 분리, 현행 조문·대응 경로",
+      "stage": "최종 확인"
+    },
+    {
+      "topic": "화면·썸네일",
+      "before": "N/C·차트·댓글 표기, 썸네일 규칙 링크",
+      "report": "자막 구별·브랜드·정지화면 연출",
+      "improvement": "대본 전달 참고만 추가, 기존 디자인 덮어쓰기 없이 제목 약속 연결",
+      "stage": "STEP 3~5 참고"
+    }
+  ],
+  "priorities": [
+    {
+      "rank": 1,
+      "title": "수치·원출처·정책 기준부터 바로잡기",
+      "stages": [
+        "STEP 0",
+        "STEP 1",
+        "최종 확인"
+      ],
+      "why": "잘못 붙은 지표나 확인되지 않은 안전 수치를 대본 전체에 확산시키지 않기 위한 첫 작업입니다.",
+      "prompt": "[1순위 보완 — 수치·원출처·정책 기준]\n대상 국가={{TARGET_COUNTRY}} / 출력 언어={{OUTPUT_LANGUAGE}} / 주제={{TOPIC}}\n\n기존 STEP 0·1과 최종 확인에 다음을 추가하라.\n1. 영상 URL/ID, 선정일·지표 수집일, 최근/전체기간 표본, 컷 로그·자막·분류 원자료를 연결하고, 직접 측정·제공 표 재계산·보고서 주장·미확인을 구분하라.\n2. 비율의 분자·분모·단위와 단순평균/시간가중을 적어라. 화면 출처 비율, 실제 원음 시간 비율, 대본 발언 유형 비율을 섞지 마라.\n3. 이번 20행 표시값의 전체10편 평균은 타인클립54.1%/71.6%, B-roll41.8%/24.1%, 자체의견22.6%/14.2%(쓸모왕/단골이슈)다. 첫60초 비율과 혼동하지 마라. 이 값은 표 재계산이며 영상 실측 검증이 아니다.\n4. 저작권·사용 근거와 YPP 독창성 검토를 별도 표로 작성하라. 자체화면50%·원음10초·AI TTS·얼굴 비노출을 공식 통과/탈락 기준으로 사용하지 마라. 정책 주장에는 최신 공식 근거와 확인일을 붙여라.\n출력: 근거 원장, 산식·분모 검산표, 정책과 내부 권고 구분표, 미확인 목록.\n사용자 원문은 보존하고 정정은 별도 보완란에 기록하라."
+    },
+    {
+      "rank": 2,
+      "title": "소스 역할·부족 자료 대안·회차의 새 기여",
+      "stages": [
+        "STEP 1",
+        "STEP 3"
+      ],
+      "why": "출처 개수를 채우는 작업에서 실제로 어떤 사실을 증명하는 구성으로 연결합니다.",
+      "prompt": "[2순위 보완 — 소스 구성과 새 기여]\n대상 국가={{TARGET_COUNTRY}} / 출력 언어={{OUTPUT_LANGUAGE}} / 목표 분량={{DURATION}}\n\n기존 STEP 1·3에 다음을 추가하라.\n1. 메인 증거 / 보조 비교 / 기사·이미지·댓글 배경 / 자체 설명의 역할표를 만들어라. 각 행에 고유 원본 ID·독립 원출처·확보 수·증명할 주장·사용 구간·권리 증빙·부족분을 적어라. 같은 영상의 여러 컷과 기사 전재를 새 독립 소스로 세지 마라.\n2. 보고서의 메인3~4개·보조6~7개 등은 참고안이다. 필요한 근거와 실제 확보 수를 먼저 정하고 의무 수량으로 강제하지 마라.\n3. 해외 비디오가5개 이하이면 분량 축소 / 자체 비교·배경 설명 보강 / 추가 조사 중 적합한 안을 선택해 이유를 써라. 원본 통재생이나 같은 칭찬 반복으로 분량을 채우지 마라.\n4. 이번 회차에서 새로 검증·비교·설명한 기여를 한 문장으로 쓰고 해당 근거와 대본 위치를 연결하라. 권위 있는 매체의 이름만으로 사실 확인을 대신하지 마라.\n출력: 역할별 소스표, 부족 자료 대응안, 회차별 고유 기여표."
+    },
+    {
+      "rank": 3,
+      "title": "질문·판단 전환·국가 릴레이를 시간표로",
+      "stages": [
+        "STEP 2",
+        "STEP 3"
+      ],
+      "why": "이미 들어 있던 훅과 질문 규칙을 실제 전개 위치와 증거 변화까지 구체화합니다.",
+      "prompt": "[3순위 보완 — 훅·질문·반전·시간표]\n대상 국가={{TARGET_COUNTRY}} / 출력 언어={{OUTPUT_LANGUAGE}} / 목표 분량={{DURATION}}\n\n기존 STEP 2·3에 다음을 추가하라.\n1. 첫1~2문장은 실제 외국인 발언, 첫30초에는 대상 국가 호평의 근거와 답할 수 있는 질문을 둬라. 정체를 늦게 밝히는 콜드오픈은 자료에 맞을 때만 선택하고 숨길 정보·공개 시점·근거를 적어라.\n2. 질문 간격은2분 이내로 유지하고, 별도로1~2분마다 기존 판단→새 증거→바뀐 판단을 점검하라. 접속어만 바꾼 가짜 반전은 만들지 마라.\n3. 약1분마다 자료·인물·국가·매체가 바뀔 때 새 관점이나 독립 근거가 무엇인지 써라. 숫자는 규모→같은 조건의 비교→의미 순서로 설명하라.\n4. 8~9분안과17분안의 훅·배경·본론·대비·결론을 대응시키고 선택 분량에 맞춰라. 첫 작은 보상은30~90초에 주고 마지막에는 처음 질문과 감정을 회수하라.\n5. 화면 샷, 개별 원음 클립,10~40초 등 서사 증거 블록을 구분하라. 기존3~6초 클립 규칙은 보존하고 긴 연속 발언이 필요하면 문맥·필요성·권리·대안을 별도 검토하라.\n출력: 질문/부분 답/새 증거/판단 전환/국가·매체 전환/마지막 회수/원음 길이 표.\n화면 연출은 전달 메모로만 남기고 새 편집 실행 단계를 만들지 마라."
+    },
+    {
+      "rank": 4,
+      "title": "대본 비중·해설 기여·제목 약속을 검수",
+      "stages": [
+        "STEP 4",
+        "STEP 5",
+        "최종 확인"
+      ],
+      "why": "대본 완성 뒤 같은 칭찬의 반복, 발언 분류 혼동, 제목과 본문 사이의 불일치를 찾습니다.",
+      "prompt": "[4순위 보완 — 대본·제목·최종 대조]\n대상 국가={{TARGET_COUNTRY}} / 출력 언어={{OUTPUT_LANGUAGE}}\n\n기존 STEP 4·5와 최종 확인에 다음을 추가하라.\n1. 사실 설명 / 번역·인용 / 자체 분석·의견 / 연결·기타를 문장 수 또는 발화시간 기준으로 분류하라. 분모를 밝히고 중복 계산 없이 합계를100%로 맞춰라. 보고서 비율을 의무 배분으로 강제하지 마라.\n2. 내레이션 / 실제 외국인 원음 / 기타·무음의 음성표를 별도로 만들어라. 내레이터가 읽는 외국인 댓글은 ‘인용 대본+내레이션 음성’이다.\n3. 해설마다 배경·새 사실·비교·전환·결론 중 역할과 새롭게 더한 의미를 적어라. 원음의 칭찬을 반복한 문장은 줄여라. 본문 원음 앞 소개1~2문장, 뒤 의미1줄과 오프닝 실제 원음 우선 예외를 유지하라.\n4. 제목·썸네일 문구4쌍을 완성 대본 뒤에 만들고 각 약속을 첫30초와 본문 근거 위치에 연결하라. 썸네일 규칙은 기존 링크만 유지하라.\n5. 대본 버전·자료 선정/번역/분석 과정·권리 증빙을 남겨라. 실제 Analytics가 제공되면30초 유지와 이탈 시점을 대본 가설에 대조하고, 없으면 측정 대기라고 써라.\n출력: SEQ·READ, 대본/음성 비율표, 새 해설 기여표, 제목·썸네일 근거표, 미확인 목록.\n영상 편집·TTS·렌더 완료를 대신 선언하지 마라."
+    }
+  ],
+  "metricCorrections": [
+    {
+      "metric": "타인 클립 비율 · 전체 각10편",
+      "reported": "41.8% / 24.1%",
+      "recalculated": "54.1% / 71.6%",
+      "action": "쓸모왕 / 단골이슈 순. 상세표 표시값의 영상별 단순평균. 시간 가중값이 아님.",
+      "source": "보고서 §4의20행 재계산"
+    },
+    {
+      "metric": "B-roll 비율 · 전체 각10편",
+      "reported": "22.6% / 14.2%",
+      "recalculated": "41.8% / 24.1%",
+      "action": "요약표의 열·라벨 혼동 가능성이 있음. 발생 원인은 원자료 확인 필요.",
+      "source": "보고서 §4의20행 재계산"
+    },
+    {
+      "metric": "자체 의견 비율 · 전체 각10편",
+      "reported": "22.9% / 19.6%",
+      "recalculated": "22.6% / 14.2%",
+      "action": "표시값 재계산. 쓸모왕0.3%p는 원래 소수값의 반올림 영향 가능성을 배제하지 않음. 분류 분모는 미제공.",
+      "source": "보고서 §4의20행 재계산"
+    },
+    {
+      "metric": "첫60초 컷 비율",
+      "reported": "54.1% / 71.6%",
+      "recalculated": "분모·정의 미제공",
+      "action": "이 값은 타인 클립 비율의 평균과 일치. 컷 개수와 비율을 구분하고 임의 분모로 대체하지 않음. 전체10편의 첫60초 컷수 평균은12.2/13.1개.",
+      "source": "보고서 §1·§4 대조"
+    },
+    {
+      "metric": "단골이슈 최근5편 첫60초 평균",
+      "reported": "21개",
+      "recalculated": "19.2개",
+      "action": "(27+20+16+25+8)/5. 현재 제공된 표의 산술값.",
+      "source": "보고서 §4 최근5행"
+    },
+    {
+      "metric": "4초 미만 컷 비율",
+      "reported": "두 채널 모두55% 이상",
+      "recalculated": "55.9% / 54.8%",
+      "action": "두 채널 모두 약55%로 표현 가능. 단골이슈의 전체 구간 합100.1%는 반올림에서 가능.",
+      "source": "보고서 §3 구간표"
+    },
+    {
+      "metric": "CPM 일관성",
+      "reported": "영상별 분당 컷 수",
+      "recalculated": "20행 중8행은 두 정의와 불일치",
+      "action": "N×60/L(샷)과(N−1)×60/L(전환)을 구분. 표시된 길이·개수로 어느 쪽도 재현되지 않는8행은 원자료 재확인.",
+      "source": "recalculated.json 행별 산식"
+    },
+    {
+      "metric": "최근5편의 길이·외부 화면",
+      "reported": "두 채널9~10분 최적 / 외부 클립 전략 일반화",
+      "recalculated": "길이14:57.8 / 9:03.4, 외부85.2% / 70.2%",
+      "action": "최근 5편과 전체 10편을 분리합니다. 전체 10편의 외부 화면 비율은 단골이슈가 높지만, 최근 5편에서는 쓸모왕이 높습니다. 최적 길이·인과효과는 이 표만으로 입증 불가.",
+      "source": "보고서 §4 집단 재계산"
+    },
+    {
+      "metric": "중앙값·소스 수·흥행 효과",
+      "reported": "중앙값3.2~3.6초,소스42.9/13.4개,리텐션 극대화",
+      "recalculated": "원자료 부족으로 검증 대기",
+      "action": "컷별 길이·소스 원장·실제 Analytics 필요. 성공 영상만의 관찰을 인과관계나 최적 비율로 확정하지 않음.",
+      "source": "보고서 제공 범위와 자료 부족 목록"
+    }
+  ],
+  "policyCorrections": [
+    {
+      "claim": "저작권과 재사용 콘텐츠 수익화 심사는 별개이며 허락만으로 YPP 통과가 보장되지 않는다.",
+      "judgment": "confirmed",
+      "guidance": "유지. 권리 확보와 독창적 해설·의미 있는 차이를 각각 확인한다.",
+      "sourceUrls": [
+        {
+          "title": "YouTube channel monetization policies",
+          "url": "https://support.google.com/youtube/answer/1311392?hl=en"
+        }
+      ]
+    },
+    {
+      "claim": "자체 시각 자료를 러닝타임 50% 이상으로 채우라는 위험 완화 권고.",
+      "judgment": "needs_scope_label",
+      "guidance": "50%는 제작상 선택값으로만 표기한다. 확인한 공식 정책에는 이 비율을 통과선으로 정한 규정이 없다.",
+      "sourceUrls": [
+        {
+          "title": "YouTube channel monetization policies",
+          "url": "https://support.google.com/youtube/answer/1311392?hl=en"
+        }
+      ]
+    },
+    {
+      "claim": "원본 오디오를 10초 미만으로 세분화하고 해설을 오버랩하라는 위험 완화 권고.",
+      "judgment": "needs_scope_label",
+      "guidance": "길이·오버랩만으로 적법성이나 수익화를 보장하지 않는다. 짧은 사용도 권리 문제가 발생할 수 있으며 이용 맥락·필요성·권리 범위를 따진다.",
+      "sourceUrls": [
+        {
+          "title": "Fair use on YouTube",
+          "url": "https://support.google.com/youtube/answer/9783148?hl=en"
+        },
+        {
+          "title": "저작권법 제35조의5 저작물의 공정한 이용",
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029423587"
+        }
+      ]
+    },
+    {
+      "claim": "AI TTS·얼굴 비노출·외부 영상 70% 이상이면 양산형으로 오인될 확률이 높아진다.",
+      "judgment": "unsupported_probability",
+      "guidance": "해당 확률과 70% 기준은 근거 미제공. AI 사용 자체의 일괄 금지로 바꾸지 않는다. 실제 독창성·반복성·부가 가치와 해당 정책 준수를 평가한다.",
+      "sourceUrls": [
+        {
+          "title": "YouTube channel monetization policies",
+          "url": "https://support.google.com/youtube/answer/1311392?hl=en"
+        },
+        {
+          "title": "TeamYouTube: Response to creator questions about YPP policies (July 2025)",
+          "url": "https://support.google.com/youtube/thread/356734251?hl=en&msgid=357300241"
+        }
+      ]
+    },
+    {
+      "claim": "수익 창출 중지 후 21일 이내 항소한다.",
+      "judgment": "partially_correct",
+      "guidance": "중지 예정 통지와 사전 항소 초대를 받았다면 표시된 7일 기한, 중지 후 경로는 21일을 구분한다. 사전 항소가 거절되면 동일 사안의 두 번째 항소는 불가. Studio에 표시된 실제 기한을 따른다.",
+      "sourceUrls": [
+        {
+          "title": "Appeal a YouTube Partner Program suspension or application rejection",
+          "url": "https://support.google.com/youtube/answer/9564590?hl=en"
+        }
+      ]
+    },
+    {
+      "claim": "실제 목소리 녹음을 권고하고 영어 자막을 포함한 항소 영상 제출을 안내한다.",
+      "judgment": "needs_correction",
+      "guidance": "한국어·일본어는 지원 내레이션 언어이므로 영어 자막이 일률 필수는 아니다. 얼굴 출연 또는 보이스오버로 제작 과정을 설명할 수 있다. 5분 미만·미등록·새 업로드 등 공식 형식을 따른다.",
+      "sourceUrls": [
+        {
+          "title": "Appeal a YouTube Partner Program suspension or application rejection",
+          "url": "https://support.google.com/youtube/answer/9564590?hl=en"
+        }
+      ]
+    },
+    {
+      "claim": "저작권 신고나 Copyright Match Tool 요청을 받으면 곧바로 경고가 생긴다.",
+      "judgment": "overbroad",
+      "guidance": "Content ID 주장과 저작권 경고를 구분한다. 검토된 유효한 삭제 요청에 따른 삭제는 경고로 이어질 수 있고, 90일 안에 경고 3회면 채널 해지 대상이다.",
+      "sourceUrls": [
+        {
+          "title": "Understand copyright strikes",
+          "url": "https://support.google.com/youtube/answer/2814000?hl=en"
+        }
+      ]
+    },
+    {
+      "claim": "한국 저작권법 공정 이용 근거는 제35조의3이다.",
+      "judgment": "outdated_article_number",
+      "guidance": "현행 공정 이용 조문은 제35조의5이다. 제35조의3에서 2019-11-26 이동했다. 2026-10-29 시행본을 확인했다.",
+      "sourceUrls": [
+        {
+          "title": "저작권법 제35조의5 저작물의 공정한 이용",
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029423587"
+        }
+      ]
+    },
+    {
+      "claim": "해설·비평용 인용이라면 제28조를 적용할 수 있다.",
+      "judgment": "conditional",
+      "guidance": "제28조는 보도·비평·교육·연구 등의 목적, 정당한 범위와 공정한 관행을 요구한다. 제35조의5도 목적·성격, 저작물 종류, 사용 부분의 비중·중요성, 시장 영향을 종합 고려한다.",
+      "sourceUrls": [
+        {
+          "title": "저작권법 제35조의5 저작물의 공정한 이용",
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029423587"
+        },
+        {
+          "title": "저작권법 제28조 공표된 저작물의 인용",
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1025203557"
+        }
+      ]
+    },
+    {
+      "claim": "두 채널의 최근 모델이 수익 창출 자격 박탈 리스크에 노출되어 있다는 개별 채널 평가.",
+      "judgment": "insufficient_evidence",
+      "guidance": "보고서에 제시된 사용 비율만으로 개별 채널 위반·제재 확률을 판정할 수 없다. 권리관계와 실제 콘텐츠, 채널 맥락 및 플랫폼의 판단은 별도 확인 대상이다.",
+      "sourceUrls": [
+        {
+          "title": "YouTube channel monetization policies",
+          "url": "https://support.google.com/youtube/answer/1311392?hl=en"
+        }
+      ]
+    },
+    {
+      "claim": "국가를 선택해 범용 템플릿을 쓰려는 사용자 요청에 대한 정책 적용상의 보완.",
+      "judgment": "implementation_caution",
+      "guidance": "국가 변수는 편의 기능으로 쓰되 편마다 고유 사실·검증된 인용·해설·서사 차이를 확보한다. 국가명만 바꾸는 표면적 변경은 독창성 검토를 대신하지 않는다.",
+      "sourceUrls": [
+        {
+          "title": "YouTube channel monetization policies",
+          "url": "https://support.google.com/youtube/answer/1311392?hl=en"
+        },
+        {
+          "title": "TeamYouTube: Response to creator questions about YPP policies (July 2025)",
+          "url": "https://support.google.com/youtube/thread/356734251?hl=en&msgid=357300241"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "YouTube channel monetization policies",
+      "url": "https://support.google.com/youtube/answer/1311392?hl=en"
+    },
+    {
+      "title": "Appeal a YouTube Partner Program suspension or application rejection",
+      "url": "https://support.google.com/youtube/answer/9564590?hl=en"
+    },
+    {
+      "title": "Understand copyright strikes",
+      "url": "https://support.google.com/youtube/answer/2814000?hl=en"
+    },
+    {
+      "title": "저작권법 제35조의5 저작물의 공정한 이용",
+      "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029423587"
+    },
+    {
+      "title": "Fair use on YouTube",
+      "url": "https://support.google.com/youtube/answer/9783148?hl=en"
+    },
+    {
+      "title": "TeamYouTube: Response to creator questions about YPP policies (July 2025)",
+      "url": "https://support.google.com/youtube/thread/356734251?hl=en&msgid=357300241"
+    },
+    {
+      "title": "저작권법 제28조 공표된 저작물의 인용",
+      "url": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1025203557"
+    },
+    {
+      "title": "시청 지속 시간의 주요 순간 이해하기",
+      "url": "https://support.google.com/youtube/answer/9314415?hl=ko"
+    }
+  ],
+  "originals": [
+    {
+      "label": "사용자 보고서 1~8장 전체 보존본",
+      "url": "./research-20261126/report-original.md"
+    },
+    {
+      "label": "추가 작업 요청 원문",
+      "url": "./research-20261126/request.txt"
+    },
+    {
+      "label": "제공 표20행 JSON",
+      "url": "./research-20261126/report20-rows.json"
+    },
+    {
+      "label": "산술 검산 보고서",
+      "url": "./research-20261126/math-audit.md"
+    },
+    {
+      "label": "행별·집단별 산식 JSON",
+      "url": "./research-20261126/recalculated.json"
+    },
+    {
+      "label": "정책 공식 근거와 대조",
+      "url": "./research-20261126/policy-audit.json"
+    },
+    {
+      "label": "반영률 방법·보완 전 기준",
+      "url": "./research-20261126/coverage-method.json"
+    },
+    {
+      "label": "보완 전36항목 JSON",
+      "url": "./data/report-coverage-before.json"
+    },
+    {
+      "label": "우선순위1~4 복사 원본",
+      "url": "./research-20261126/priority-prompts.md"
+    },
+    {
+      "label": "STEP4 수정 없는 원문",
+      "url": "./originals/user-step4-verbatim.txt"
+    },
+    {
+      "label": "보완 후36항목 JSON",
+      "url": "./data/report-coverage-after.json"
+    },
+    {
+      "label": "보완 후 독립 대조 보고서",
+      "url": "./research-20261126/coverage-audit-after.md"
+    }
+  ],
+  "limitations": [
+    "보고서 원영상20편의 URL·컷로그·표본라벨·원문 대본을 제공받지 못했으므로 실제 영상 측정은 재검증하지 않음.",
+    "editing_reference는 이전 사용자 지시에서 실행 제외된 범위. 별도 표기하며 기존 대본 제작의 실패로 해석하지 않음.",
+    "항목 분해와 부분반영 판정은 평가자의 질적 판단이므로 반영률은 이 공개된 체크리스트 안에서만 유효.",
+    "사용자 보고서는 현재 메시지를 수동 전사해 보존했습니다. 플랫폼 원시 메시지 바이트를 직접 추출한 사본이 아니며 파일 끝 LF를 포함합니다.",
+    "요약표의 열·라벨 혼동은 수치 패턴에 근거한 추론입니다. 실제 오류 발생 경로는 확인하지 않았습니다.",
+    "이 페이지의 연두색 블록은 기존 문서 뒤에 붙는 실행 지시/참고 메모입니다. 보고서 원문과 기존 STEP4 보존본은 수정하지 않았습니다.",
+    "보완 후 점수는 같은36개 항목을 기존/추가 지시문과 재대조한 결과입니다. 핵심30개는 문서상 명시, 편집의 자막바·배지·폰트 고정 규칙(E05)은 부분 반영으로 남겼습니다."
+  ],
+  "stageAddenda": [
+    {
+      "id": "common",
+      "file": "supplements/20261126/common.md",
+      "title": "국가 설정과 연구의 적용 범위",
+      "scope": "planning_and_reference"
+    },
+    {
+      "id": "0",
+      "file": "supplements/20261126/00-source-check.md",
+      "title": "수치·출처·권리의 기준",
+      "scope": "planning_and_reference"
+    },
+    {
+      "id": "1",
+      "file": "supplements/20261126/01-topic-evidence.md",
+      "title": "소스 역할·부족 자료 대응·새 기여",
+      "scope": "planning_and_reference"
+    },
+    {
+      "id": "2",
+      "file": "supplements/20261126/02-hook-emotion.md",
+      "title": "콜드오픈·질문·판단 전환",
+      "scope": "planning_and_reference"
+    },
+    {
+      "id": "3",
+      "file": "supplements/20261126/03-outline.md",
+      "title": "분량 대응·증거 블록·전달 메모",
+      "scope": "planning_and_reference"
+    },
+    {
+      "id": "4",
+      "file": "supplements/20261126/04-script.md",
+      "title": "대본·음성 비율과 해설 검수",
+      "scope": "planning_and_reference"
+    },
+    {
+      "id": "5",
+      "file": "supplements/20261126/05-title-thumbnail.md",
+      "title": "제목 약속과 본문 증거",
+      "scope": "planning_and_reference"
+    },
+    {
+      "id": "review",
+      "file": "supplements/20261126/final-review.md",
+      "title": "증거·권리·정책·후속 검증",
+      "scope": "planning_and_reference"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "manual_visible_message_transcription",
+  "platform_raw_bytes_available": false,
+  "chapter_count": 8,
+  "database_rows": 20,
+  "numeric_cells_match_independently_transcribed_rows": true,
+  "kept_known_report_errors": true,
+  "hashes": {
+    "report-user-original.md": "921ac628b9e802fd9fe7020480d895068d8dc01eedc2f6374bf92514bc3d788b",
+    "request-followup.txt": "9d9bd5a90aef1a732be486edb08629dc224ecbe88b8afd568650e1610201b349",
+    "report20-rows.json": "310e75346d92cf29c6d4e3845c2598d0d61160ee375be8578612aaddca1f5727",
+    "recalculated.json": "a3d4f4dac5594b90477e277656a0b82e3a662e355bd2f2b18f28059d1b21c65d",
+    "math-audit.md": "f46b88a19d462df4e23998afcadc97957580da814aaa4bc0a601c42331368228"
+  },
+  "note": "원문 오류와 맞춤법을 교정하지 않고 보존. 파일 끝 LF. 해시는 저장 후 변경검사용이며 플랫폼 메시지 raw bytes 자동대조를 뜻하지 않음."
+}

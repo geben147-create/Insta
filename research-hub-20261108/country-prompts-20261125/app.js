@@ -5,7 +5,7 @@
   const BASE = 'https://github.com/geben147-create/Insta/blob/main/';
   const PAGES = 'https://geben147-create.github.io/Insta/';
   const STORE_KEY = 'country-prompt-desk-20261125-v1';
-  const PANELS = ['workflow', 'originals', 'session', 'references', 'sources', 'coverage'];
+  const PANELS = ['workflow', 'originals', 'session', 'references', 'sources', 'coverage', 'report'];
   const STEPS = [
     { id: '0', file: '00-source-check.md', title: '원본·자막 확인', note: '실제로 확보한 자료와 미확보 자료를 구분합니다.' },
     { id: '1', file: '01-topic-evidence.md', title: '주제·근거 선정', note: '선택 국가의 실제 사례와 독립 출처를 찾습니다.' },
@@ -15,7 +15,17 @@
     { id: '5', file: '05-title-thumbnail.md', title: '제목·썸네일 문구', note: '대본을 완성한 뒤 제목과 썸네일 문구를 함께 작성합니다.' },
     { id: 'review', file: 'final-review.md', title: '대본·제목 패키지 대조', note: '실제 확인한 것만 완료로 표시합니다.' }
   ];
-  const state = { data: {}, templates: {}, literal: '', readable: '', ready: false, originalView: 'literal' };
+  const ADDENDUM_TITLES = {
+    common: '국가 설정과 연구의 적용 범위',
+    '0': '수치·출처·권리의 기준',
+    '1': '소스 역할·부족 자료 대응·새 기여',
+    '2': '콜드오픈·질문·판단 전환',
+    '3': '분량 대응·증거 블록·전달 메모',
+    '4': '대본·음성 비율과 해설 검수',
+    '5': '제목 약속과 본문 증거',
+    review: '증거·권리·정책·후속 검증'
+  };
+  const state = { data: {}, templates: {}, addenda: {}, literal: '', readable: '', ready: false, originalView: 'literal' };
   let toastTimer;
 
   function el(tag, text, className) {
@@ -113,9 +123,10 @@
     const values = tokens(config);
     return template.replace(/\{\{([A-Z_]+)\}\}/g, (match, key) => Object.hasOwn(values, key) ? values[key] : match);
   }
-  function commonText() { return renderTemplate(state.templates['common.md']); }
+  function addendumText(file) { return renderTemplate(state.addenda[file] || ''); }
+  function commonText() { return `${renderTemplate(state.templates['common.md'])}\n\n${addendumText('common.md')}`; }
   function stepText(step, withCommon = true) {
-    return `${withCommon ? commonText() + '\n\n---\n\n' : ''}${renderTemplate(state.templates[step.file])}`;
+    return `${withCommon ? commonText() + '\n\n---\n\n' : ''}${renderTemplate(state.templates[step.file])}\n\n${addendumText(step.file)}`;
   }
   function allText() { return [commonText(), ...STEPS.map((step) => stepText(step, false))].join('\n\n---\n\n'); }
   function validConfig() {
@@ -150,11 +161,30 @@
       ? `${config.TARGET_COUNTRY}의 강점을 ${config.OUTPUT_LANGUAGE}로 설명하는 ${config.DURATION} 프롬프트입니다.`
       : '대상 국가를 입력하면 실행 프롬프트에 적용됩니다.';
     if (!state.ready) return;
-    STEPS.forEach((step) => { $(`prompt-${step.id}`).textContent = stepText(step, false); });
+    STEPS.forEach((step) => {
+      $(`prompt-${step.id}`).textContent = renderTemplate(state.templates[step.file]);
+      $(`supplement-${step.id}`).textContent = addendumText(step.file);
+    });
+    $('supplement-common').textContent = addendumText('common.md');
     renderSubstitutions(); saveSettings();
+    window.dispatchEvent(new CustomEvent('country-prompt-settings', { detail: config }));
+  }
+  function addendumCard(id, file) {
+    const card = el('section', undefined, 'research-addendum');
+    const heading = el('h3', `연구 보완 · ${ADDENDUM_TITLES[id]}`);
+    heading.id = `supplement-heading-${id}`;
+    card.setAttribute('aria-labelledby', heading.id);
+    const tools = append(el('div', undefined, 'step-copy-row'),
+      badge('2026.11.26 추가', 'lime'),
+      button('연두색 보완만 복사', () => copyRunnable(addendumText(file), '연구 보완')),
+      button('20편 비교표 보기', () => setPanel('report')));
+    const pre = el('pre', '', 'prompt-body'); pre.id = `supplement-${id}`; pre.tabIndex = 0;
+    append(card, heading, el('p', '기존 지시 뒤에 붙는 보완입니다. 이 단계 복사·전체 복사·파일 저장에도 함께 포함됩니다.', 'small-note'), tools, pre);
+    return card;
   }
   function renderWorkflow() {
     const nav = clear('step-nav'); const cards = clear('workflow-cards');
+    cards.append(addendumCard('common', 'common.md'));
     STEPS.forEach((step) => {
       const label = step.id === 'review' ? '최종 확인' : `STEP ${step.id}`;
       if (step.id !== 'review') {
@@ -168,7 +198,7 @@
         el('p', step.note, 'small-note'));
       if (step.id === '4') tools.append(button('수정 없는 원문 보기', () => setPanel('originals'), 'button'));
       const pre = el('pre', '', 'prompt-body'); pre.id = `prompt-${step.id}`; pre.tabIndex = 0;
-      append(card, tools, pre); cards.append(card);
+      append(card, tools, pre, addendumCard(step.id, step.file)); cards.append(card);
     });
   }
   function renderSubstitutions() {
@@ -385,6 +415,7 @@
       await Promise.all([
         ...Object.entries(jsonFiles).map(async ([key, path]) => { state.data[key] = await fetchFile(path, true); }),
         ...['common.md', ...STEPS.map((step) => step.file)].map(async (file) => { state.templates[file] = await fetchFile(`prompts/${file}`); }),
+        ...['common.md', ...STEPS.map((step) => step.file)].map(async (file) => { state.addenda[file] = await fetchFile(`supplements/20261126/${file}`); }),
         fetchFile('originals/user-step4-verbatim.txt').then((value) => { state.literal = value; }),
         fetchFile('originals/user-step4-readable.md').then((value) => { state.readable = value; })
       ]);
@@ -413,8 +444,10 @@
     window.addEventListener('hashchange', route);
     window.CountryPromptDesk = Object.freeze({
       renderTemplate,
-      snapshot: () => ({ configuration: configuration(), promptCount: STEPS.length, episodeCount: state.data.session.episodes.length, sourceCount: state.data.japan.length, original: state.literal, prompts: allText() })
+      copyText: copyRunnable,
+      snapshot: () => ({ configuration: configuration(), promptCount: STEPS.length, addendumCount: Object.keys(state.addenda).length, episodeCount: state.data.session.episodes.length, sourceCount: state.data.japan.length, original: state.literal, prompts: allText() })
     });
+    window.dispatchEvent(new Event('country-prompt-ready'));
   }
   void initialize();
 })();

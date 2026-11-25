@@ -10,6 +10,7 @@ const MENUS = {
     {id:'design-reference', t:'통합 디자인 자료 · REF01–24', s:'색·폰트·지도·댓글·캐릭터', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/'},
     {grp:'🔥 썸네일 V3.1 규칙 (최신)'},
     {id:'rulesv3', t:'썸네일 V3.1 규칙 · 전체 복사', s:'💀 실수 13개 · 불꽃 VS · 불꽃 원형 · 시범 45장(클릭 확대) · 남은 37편', tag:'new', f:'thumb-rules-v3/'},
+    {id:'handoffv31', t:'📦 썸네일 V3.1 이전 패키지 (Codex용)', s:'요구 원문 · HEX·크기 · 소스코드 · 완성 5장 · 재현 프롬프트', tag:'new', f:'thumb-handoff-v31/'},
     {grp:'⭐ 만들기 (한 화면에서)'},
     {id:'editor', t:'통합 썸네일 편집기', s:'템플릿 11 · 표정 · 원본 14 · 자동 누끼 · 아우라 · PNG', tag:'new', f:'editor.html'},
     {grp:'📌 이번 요청 정리'},

@@ -29,7 +29,11 @@
           "url": "https://kmong.com/support/customer-center/posts/189"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 개별 카드 유지"
     },
     {
       "id": "KR02",
@@ -56,7 +60,11 @@
           "url": "https://help.soomgo.com/hc/ko/articles/4406222219161"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 개별 카드 유지"
     },
     {
       "id": "KR03",
@@ -83,7 +91,11 @@
           "url": "https://www.wishket.com/customer-support/19/77/255"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 개별 카드 유지"
     },
     {
       "id": "KR04",
@@ -114,7 +126,11 @@
           "url": "https://www.freemoa.net/m2/s21?refer404=true&refreUri=m2%2Fs21"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 개별 카드 유지"
     },
     {
       "id": "KR05",
@@ -145,7 +161,11 @@
           "url": "https://help.loud.kr/hc/ko/articles/53798476073241"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 개별 카드 유지"
     },
     {
       "id": "KR06",
@@ -175,7 +195,11 @@
           "url": "https://www2.elancer.co.kr/signup-freelancer"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 개별 카드 유지"
     },
     {
       "id": "KR07",
@@ -206,7 +230,11 @@
           "url": "https://www.wadiz.io/web/maker/guide/store-studio/project-business/upload-business-documents"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 개별 카드 유지"
     },
     {
       "id": "KR08",
@@ -229,7 +257,11 @@
           "url": "https://www.saramingig.co.kr/customer/notice/888"
         }
       ],
-      "available": "closed"
+      "available": "closed",
+      "origins": [
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 개별 카드 유지"
     },
     {
       "id": "KR09",
@@ -254,9 +286,45 @@
         {
           "label": "쿠팡 공식 파트너스 가이드",
           "url": "https://partners.coupangcdn.com/partners-guide/partners-guide-20241216163254.pdf"
+        },
+        {
+          "label": "Codex 준비표 링크",
+          "url": "https://partners.coupang.com/"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공",
+        "첨부 77개 조사 · 11/23",
+        "Codex 잔여 준비표 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 카드 유지 · 빠진 조사 정보만 보강",
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "누적 판매액 15만원 이후 최종 승인 심사(수익 15만원이 아님); 기본 3%, 24시간, 최소 지급 1만원 사례. 최신 공식 계정 화면에서 재확인."
+        },
+        {
+          "source": "Codex 잔여 준비표 · 사용자 제공",
+          "text": "활동 사이트·SNS / 국내 신청 가능, 세부 검수 필요"
+        }
+      ],
+      "affiliate": {
+        "goods": "한국 온라인 종합몰(패션·식품·뷰티·가전)",
+        "eligibility": "공식: 한국 거주자 이용",
+        "payout": "공식: 국내 은행계좌",
+        "cookie": "24시간(일반)",
+        "long": "아니오",
+        "rate": "통상 3%(캠페인별 차등)",
+        "minimum": "조건별",
+        "store": "https://www.coupang.com/",
+        "join": "https://partners.coupang.com/",
+        "source": "https://partners.coupang.com/",
+        "note": "국내 수익·사업자·계좌인증 요건 확인",
+        "priority": 0
+      },
+      "codexPriority": 5
     },
     {
       "id": "KR10",
@@ -291,7 +359,18 @@
           "url": "https://help.naver.com/service/30027/contents/23406"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 개별 카드 유지",
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "인스타 프로페셔널 계정·페이스북 연동 조건, 블로그/클립/유튜브 연결. 요율은 상품별, 자료상 클릭 24시간. 최신 정책 확인."
+        }
+      ]
     },
     {
       "id": "KR11",
@@ -322,7 +401,33 @@
           "url": "https://www.oliveyoung.co.kr/store/company/privacy.do"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공",
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "기존 카드 유지 · 빠진 조사 정보만 보강",
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "회원 시작형, 첫 지급 5천원(제공 자료). 재정산 기준·쿠키는 제3자 자료 포함, 공식 가이드 확인."
+        }
+      ],
+      "affiliate": {
+        "goods": "국내 K-뷰티·화장품·건강·잡화",
+        "eligibility": "공식: 올리브영 국내 회원이면 시작",
+        "payout": "공식: 국내 보상 신청·지급",
+        "cookie": "공개 가이드 미확인",
+        "long": "미확인",
+        "rate": "상품/행사별",
+        "minimum": "5,000원",
+        "store": "https://www.oliveyoung.co.kr/",
+        "join": "https://m.oliveyoung.co.kr/m/mtn/affiliate/guide",
+        "source": "https://m.oliveyoung.co.kr/m/mtn/affiliate/guide",
+        "note": "월21일부터 지급신청, 최대45일 지급; 글로벌 O.Y Creators와 별개",
+        "priority": 0
+      }
     },
     {
       "id": "KR12",
@@ -353,7 +458,24 @@
           "url": "https://www.musinsa.com/curator/policy?date=20230629"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공",
+        "Codex 잔여 준비표 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 개별 카드 유지",
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "자료상 최대 10%, 승인 전 실적 미집계, 최소 1만원 및 정산 서류 확인. 브랜드 입점과 별개."
+        },
+        {
+          "source": "Codex 잔여 준비표 · 사용자 제공",
+          "text": "SNS·상품추천 콘텐츠 / 심사·승인 / 최대 10% 안내(실제 적용률 재확인)"
+        }
+      ],
+      "codexPriority": 4
     },
     {
       "id": "KR13",
@@ -384,7 +506,18 @@
           "url": "https://www.ajd.co.kr/contents/basic-tip/detail/개인정보처리방침__개정판_26.07.17-91214"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 개별 카드 유지",
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "자료상 인터넷 2만원/렌탈 1만원, 실제 설치·구매 완료 시 실적. 정확한 지급 조건 확인."
+        }
+      ]
     },
     {
       "id": "KR14",
@@ -410,7 +543,18 @@
           "url": "https://www.kakaocorp.com/page/detail/12162"
         }
       ],
-      "available": "review"
+      "available": "review",
+      "origins": [
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 개별 카드 유지",
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "자료상 한시 9% 프로모션(2026년 12월까지, 변경 가능); 정산 세부 조건 미확인."
+        }
+      ]
     },
     {
       "id": "KR15",
@@ -440,7 +584,18 @@
           "url": "https://toss.im/business/shopping"
         }
       ],
-      "available": "review"
+      "available": "review",
+      "origins": [
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 개별 카드 유지",
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "제3자 자료만으로 수수료·최소 출금·신청 컷 확정 금지."
+        }
+      ]
     },
     {
       "id": "KR16",
@@ -475,7 +630,11 @@
           "url": "https://help.class101.tv/creator-operations/settlement-wallet-withdrawal"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 개별 카드 유지"
     },
     {
       "id": "KR17",
@@ -505,7 +664,4832 @@
           "url": "https://b2b.fastcampus.co.kr/b2b_instructor_apply"
         }
       ],
-      "available": "ready"
+      "available": "ready",
+      "origins": [
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 개별 카드 유지"
+    },
+    {
+      "id": "GL001",
+      "name": "Rakuten Advertising",
+      "category": "글로벌 네트워크",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://rakutenadvertising.com/",
+      "signupNote": "패션·뷰티·전자제품·일본/세계 브랜드 / 공식: 한국 거주 퍼블리셔 신청",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "공식: KR 현지은행 직접입금·PayPal(광고망별 상이) · 최소 지급 광고주별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://pubhelp.rakutenadvertising.com/hc/ko/articles/360059980311-%EC%A7%80%EA%B8%89-%EC%98%B5%EC%85%98"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "패션·뷰티·전자제품·일본/세계 브랜드",
+        "eligibility": "공식: 한국 거주 퍼블리셔 신청",
+        "payout": "공식: KR 현지은행 직접입금·PayPal(광고망별 상이)",
+        "cookie": "광고주별",
+        "long": "광고주별 확인",
+        "rate": "광고주별",
+        "minimum": "광고주별",
+        "store": "https://rakutenadvertising.com/",
+        "join": "https://rakutenadvertising.com/",
+        "source": "https://pubhelp.rakutenadvertising.com/hc/ko/articles/360059980311-%EC%A7%80%EA%B8%89-%EC%98%B5%EC%85%98",
+        "note": "일본 Rakuten Ichiba Affiliate와 다른 국제 네트워크; 광고주 개별 심사",
+        "priority": 1
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 일본 라쿠텐 Ichiba와 다른 글로벌 네트워크, 한국 정산 조건은 네트워크별."
+        }
+      ]
+    },
+    {
+      "id": "GL002",
+      "name": "PartnerStack",
+      "category": "글로벌 네트워크",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://market.partnerstack.com/",
+      "signupNote": "AI·SaaS·마케팅·웹 제작 소프트웨어 / 공식: 모든 국가 파트너 신청 환영",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "공식: 대한민국 은행 Airwallex 직접입금(수수료 발생) · 최소 지급 서비스별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://support.partnerstack.com/hc/en-us/articles/360009377934-Configuring-payout-providers"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "AI·SaaS·마케팅·웹 제작 소프트웨어",
+        "eligibility": "공식: 모든 국가 파트너 신청 환영",
+        "payout": "공식: 대한민국 은행 Airwallex 직접입금(수수료 발생)",
+        "cookie": "대개 90일이나 개별 프로그램 우선",
+        "long": "광고주별·무료가입 후 전환 구분",
+        "rate": "광고주별",
+        "minimum": "서비스별",
+        "store": "https://market.partnerstack.com/",
+        "join": "https://market.partnerstack.com/",
+        "source": "https://support.partnerstack.com/hc/en-us/articles/360009377934-Configuring-payout-providers",
+        "note": "특정 AI 회사 프로그램 승인과 네트워크 가입은 별개",
+        "priority": 2
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 한국 은행 지원 선행 조사, 개별 광고주 승인 별도."
+        }
+      ]
+    },
+    {
+      "id": "GL003",
+      "name": "Awin",
+      "category": "글로벌 네트워크",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.awin.com/",
+      "signupNote": "패션·뷰티·가전·YesStyle·iHerb / 글로벌 신청 가능·심사(한국 최종 승인 미검증)",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "국가·수취 계정 심사(한국은행 개별확인) · 최소 지급 국가/통화별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.awin.com/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "패션·뷰티·가전·YesStyle·iHerb",
+        "eligibility": "글로벌 신청 가능·심사(한국 최종 승인 미검증)",
+        "payout": "국가·수취 계정 심사(한국은행 개별확인)",
+        "cookie": "광고주별",
+        "long": "광고주별 확인",
+        "rate": "광고주별",
+        "minimum": "국가/통화별",
+        "store": "https://www.awin.com/",
+        "join": "https://www.awin.com/",
+        "source": "https://www.awin.com/",
+        "note": "YesStyle 개별 Awin 캠페인 별도 신청",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 글로벌 패션 네트워크."
+        }
+      ]
+    },
+    {
+      "id": "GL004",
+      "name": "Impact.com",
+      "category": "글로벌 네트워크",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://app.impact.com/",
+      "signupNote": "Shopify·HubSpot·패션·AI·SaaS / 글로벌 퍼블리셔 신청·심사(한국 개별확인)",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "국가·계좌별 지원 확인 필요 · 최소 지급 프로그램별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://impact.com/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "Shopify·HubSpot·패션·AI·SaaS",
+        "eligibility": "글로벌 퍼블리셔 신청·심사(한국 개별확인)",
+        "payout": "국가·계좌별 지원 확인 필요",
+        "cookie": "광고주별",
+        "long": "광고주별 확인",
+        "rate": "광고주별",
+        "minimum": "프로그램별",
+        "store": "https://impact.com/",
+        "join": "https://app.impact.com/",
+        "source": "https://impact.com/",
+        "note": "네트워크 및 광고주 승인 필요",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 광고주 개별 심사."
+        }
+      ]
+    },
+    {
+      "id": "GL005",
+      "name": "CJ Affiliate",
+      "category": "글로벌 네트워크",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.cj.com/",
+      "signupNote": "명품 패션·소프트웨어·글로벌 쇼핑몰 / 글로벌 심사(한국 거주자 개별 확인)",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "해외 지급 방식 개별 확인 · 최소 지급 광고주별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.cj.com/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "명품 패션·소프트웨어·글로벌 쇼핑몰",
+        "eligibility": "글로벌 심사(한국 거주자 개별 확인)",
+        "payout": "해외 지급 방식 개별 확인",
+        "cookie": "광고주별",
+        "long": "광고주별 확인",
+        "rate": "광고주별",
+        "minimum": "광고주별",
+        "store": "https://www.cj.com/",
+        "join": "https://www.cj.com/",
+        "source": "https://www.cj.com/",
+        "note": "Mytheresa 제휴 경유 가능; 원천수익 조건 각 광고주",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 명품 광고주 경유 후보."
+        }
+      ]
+    },
+    {
+      "id": "GL006",
+      "name": "Partnerize",
+      "category": "글로벌 네트워크",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://partnerize.com/",
+      "signupNote": "글로벌 이커머스·전자제품·SaaS / 글로벌 신청·심사(한국 개별확인)",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "지급 조건 미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://partnerize.com/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "글로벌 이커머스·전자제품·SaaS",
+        "eligibility": "글로벌 신청·심사(한국 개별확인)",
+        "payout": "지급 조건 미확인",
+        "cookie": "광고주별",
+        "long": "광고주별 확인",
+        "rate": "광고주별",
+        "minimum": "미확인",
+        "store": "https://partnerize.com/",
+        "join": "https://partnerize.com/",
+        "source": "https://partnerize.com/",
+        "note": "광고주별 가입",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 명품 광고주 경유 후보."
+        }
+      ]
+    },
+    {
+      "id": "GL007",
+      "name": "Skimlinks",
+      "category": "글로벌 네트워크",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://signup.skimlinks.com/en",
+      "signupNote": "패션·종합쇼핑·콘텐츠 링크 자동 수익화 / 미국 외 글로벌 미디어 신청·심사",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "해외 지급 방식 개별확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.skimlinks.com/signup/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "패션·종합쇼핑·콘텐츠 링크 자동 수익화",
+        "eligibility": "미국 외 글로벌 미디어 신청·심사",
+        "payout": "해외 지급 방식 개별확인",
+        "cookie": "가맹광고주별",
+        "long": "광고주별 확인",
+        "rate": "광고주별",
+        "minimum": "미확인",
+        "store": "https://www.skimlinks.com/",
+        "join": "https://signup.skimlinks.com/en",
+        "source": "https://www.skimlinks.com/signup/",
+        "note": "통합 중개 수익률, 원 광고주 직접 제휴와 다름",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL008",
+      "name": "Involve Asia",
+      "category": "글로벌 네트워크",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://app.involve.asia/",
+      "signupNote": "아시아 패션·SHEIN·쇼핑 프로모션 / 한국 거주 퍼블리셔 최종 승인 미확인",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "국가·정산통화별 미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://app.involve.asia/directory/shein-global-new-cps-affiliate-program"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "아시아 패션·SHEIN·쇼핑 프로모션",
+        "eligibility": "한국 거주 퍼블리셔 최종 승인 미확인",
+        "payout": "국가·정산통화별 미확인",
+        "cookie": "프로그램별",
+        "long": "프로그램별",
+        "rate": "프로그램별",
+        "minimum": "미확인",
+        "store": "https://www.involve.asia/",
+        "join": "https://app.involve.asia/",
+        "source": "https://app.involve.asia/directory/shein-global-new-cps-affiliate-program",
+        "note": "SHEIN 구매자 지역 KR 지정된 캠페인 존재하나 퍼블리셔 KR 승인은 별개",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL011",
+      "name": "Temu Korea Affiliate",
+      "category": "글로벌 쇼핑",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.temu.com/kr-en/affiliate_recruit.html",
+      "signupNote": "패션·생활용품·뷰티·전자제품·잡화 / 공식: KR 전용 제휴 모집 페이지",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "현금 출금 경로/개별 계정 확인 · 최소 지급 계정별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.temu.com/affiliate_question.html"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "패션·생활용품·뷰티·전자제품·잡화",
+        "eligibility": "공식: KR 전용 제휴 모집 페이지",
+        "payout": "현금 출금 경로/개별 계정 확인",
+        "cookie": "30일 안내(캠페인별)",
+        "long": "아니오",
+        "rate": "최대 30%(조건별)",
+        "minimum": "계정별",
+        "store": "https://www.temu.com/kr",
+        "join": "https://www.temu.com/kr-en/affiliate_recruit.html",
+        "source": "https://www.temu.com/affiliate_question.html",
+        "note": "신규고객/지역/실적 검증; 수수료율 고정 아님",
+        "priority": 5
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 링크 발급과 출금 전 트래픽 검증 구분; 캠페인 요율·신규고객 조건 재확인."
+        }
+      ]
+    },
+    {
+      "id": "GL012",
+      "name": "Temu KR Influencer",
+      "category": "글로벌 쇼핑",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.temu.com/kr-en/influencer-recruit.html",
+      "signupNote": "패션·잡화 체험·인플루언서 상품 / 공식: KR 전용 인플루언서 모집 페이지",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "계정 심사 후 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.temu.com/kr-en/influencer-recruit.html"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "패션·잡화 체험·인플루언서 상품",
+        "eligibility": "공식: KR 전용 인플루언서 모집 페이지",
+        "payout": "계정 심사 후 확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "캠페인별",
+        "minimum": "미확인",
+        "store": "https://www.temu.com/kr",
+        "join": "https://www.temu.com/kr-en/influencer-recruit.html",
+        "source": "https://www.temu.com/kr-en/influencer-recruit.html",
+        "note": "할인/샘플·현금 수익 방식 구분",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 샘플 트랙 팔로워 500명+ 언급, 일반 제휴와 별도."
+        }
+      ]
+    },
+    {
+      "id": "GL013",
+      "name": "iHerb Korea Affiliate",
+      "category": "글로벌 쇼핑",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://kr.iherb.com/info/affiliates",
+      "signupNote": "영양제·식품·뷰티·생활용품 / 한국어 공식 프로그램 페이지·네트워크 심사",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "국제망 지급(한국 경로 개별확인) · 최소 지급 네트워크별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://kr.iherb.com/info/affiliates"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "영양제·식품·뷰티·생활용품",
+        "eligibility": "한국어 공식 프로그램 페이지·네트워크 심사",
+        "payout": "국제망 지급(한국 경로 개별확인)",
+        "cookie": "7일",
+        "long": "아니오",
+        "rate": "최대25% 안내, 실제 네트워크별",
+        "minimum": "네트워크별",
+        "store": "https://kr.iherb.com/",
+        "join": "https://kr.iherb.com/info/affiliates",
+        "source": "https://kr.iherb.com/info/affiliates",
+        "note": "최대 수수료는 모든 회원 기본값 아님",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL014",
+      "name": "AliExpress",
+      "category": "글로벌 쇼핑",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://portals.aliexpress.com/",
+      "signupNote": "해외 패션·전자·잡화·생활용품 / 한국향 광고 약관 존재; 한국 퍼블리셔 승인 미확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://cdn.contract.alibaba.com/terms/b_end_product_protocol/20250226192005606/20250226192005606.html?lng=en"
+        },
+        {
+          "label": "Gemini 조사 · Portals 진입",
+          "url": "https://portals.aliexpress.com/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "해외 패션·전자·잡화·생활용품",
+        "eligibility": "한국향 광고 약관 존재; 한국 퍼블리셔 승인 미확인",
+        "payout": "미확인",
+        "cookie": "캠페인별",
+        "long": "미확인",
+        "rate": "캠페인별",
+        "minimum": "미확인",
+        "store": "https://www.aliexpress.com/",
+        "join": "https://portals.aliexpress.com/",
+        "source": "https://cdn.contract.alibaba.com/terms/b_end_product_protocol/20250226192005606/20250226192005606.html?lng=en",
+        "note": "한국향 광고와 한국 개인 가입은 동일하지 않음",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini 자료: Portals 3일·최소 $16·송금 $15 사례. 77개 자료의 미확인 조건과 차이가 있어 현행 공식 계정에서 확인. 가입 포털: https://portals.aliexpress.com/"
+        }
+      ]
+    },
+    {
+      "id": "GL015",
+      "name": "Amazon US Associates",
+      "category": "글로벌 쇼핑",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://affiliate-program.amazon.com/",
+      "signupNote": "세계적 종합몰: 패션·도서·전자 / 미국 외 해외 퍼블리셔 국제 신청 가능(개별 승인)",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "해외 입금 제도 있음, KR 은행 별도확인 · 최소 지급 지급수단별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://affiliate-program.amazon.com/help/node/topic/GKDG94FQSRXSJCGK"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "세계적 종합몰: 패션·도서·전자",
+        "eligibility": "미국 외 해외 퍼블리셔 국제 신청 가능(개별 승인)",
+        "payout": "해외 입금 제도 있음, KR 은행 별도확인",
+        "cookie": "기본 24시간(장바구니 예외)",
+        "long": "아니오",
+        "rate": "카테고리별",
+        "minimum": "지급수단별",
+        "store": "https://www.amazon.com/",
+        "join": "https://affiliate-program.amazon.com/",
+        "source": "https://affiliate-program.amazon.com/help/node/topic/GKDG94FQSRXSJCGK",
+        "note": "Amazon Japan과 다른 국가 제휴 프로그램",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL016",
+      "name": "Etsy Affiliates",
+      "category": "글로벌 쇼핑",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.etsy.com/affiliates",
+      "signupNote": "핸드메이드·빈티지 패션·액세서리 / Rakuten 네트워크/직접 신청·심사(한국 개별확인)",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "네트워크별 지급 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://help.etsy.com/hc/en-us/articles/360000335987-The-Etsy-Affiliates-Program-and-Creator-Collective"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "핸드메이드·빈티지 패션·액세서리",
+        "eligibility": "Rakuten 네트워크/직접 신청·심사(한국 개별확인)",
+        "payout": "네트워크별 지급",
+        "cookie": "웹 30일·앱 7일 안내",
+        "long": "아니오",
+        "rate": "광고별",
+        "minimum": "미확인",
+        "store": "https://www.etsy.com/",
+        "join": "https://www.etsy.com/affiliates",
+        "source": "https://help.etsy.com/hc/en-us/articles/360000335987-The-Etsy-Affiliates-Program-and-Creator-Collective",
+        "note": "Creator Collective는 별도·일반적으로7일",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL017",
+      "name": "SHEIN Affiliate",
+      "category": "글로벌 쇼핑",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://m.shein.com/us/ark/6424",
+      "signupNote": "저가 의류·잡화·뷰티 / 국가별 앱 초대/가입, 한국 계정 승인 미확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://m.shein.com/us/ark/6424"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "저가 의류·잡화·뷰티",
+        "eligibility": "국가별 앱 초대/가입, 한국 계정 승인 미확인",
+        "payout": "미확인",
+        "cookie": "지역별",
+        "long": "미확인",
+        "rate": "캠페인별",
+        "minimum": "미확인",
+        "store": "https://www.shein.com/",
+        "join": "https://m.shein.com/us/ark/6424",
+        "source": "https://m.shein.com/us/ark/6424",
+        "note": "국가별 추천 캠페인은 상이; 한국 전용 승인 확인",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL018",
+      "name": "eBay Partner Network",
+      "category": "글로벌 쇼핑",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://partnernetwork.ebay.com/",
+      "signupNote": "중고·패션·수집품·전자제품 / 글로벌 신청·심사(한국 개별확인)",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "국가별 지급정보 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.ebay.com/help/terms-conditions/default/ebay-partner-network-epn-affiliate-programs?id=4662"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "중고·패션·수집품·전자제품",
+        "eligibility": "글로벌 신청·심사(한국 개별확인)",
+        "payout": "국가별 지급정보 확인",
+        "cookie": "상품별(미확인)",
+        "long": "미확인",
+        "rate": "카테고리별",
+        "minimum": "미확인",
+        "store": "https://www.ebay.com/",
+        "join": "https://partnernetwork.ebay.com/",
+        "source": "https://www.ebay.com/help/terms-conditions/default/ebay-partner-network-epn-affiliate-programs?id=4662",
+        "note": "공식 약관은 확인; 180일 상품 추적 근거 없음",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL019",
+      "name": "YesStyle Influencer",
+      "category": "패션·뷰티",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.yesstyle.com/en/influencers.html",
+      "signupNote": "일본·한국 화장품, 아시아 패션·패션소품 / 공식: 글로벌 SNS 크리에이터 신청",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "PayPal 출금 가능(한국 계정 조건 충족 시) · 최소 지급 $20 (PayPal)",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.yesstyle.com/en/help/section.html/hsi.2284"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공",
+        "Codex 잔여 준비표 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본·한국 화장품, 아시아 패션·패션소품",
+        "eligibility": "공식: 글로벌 SNS 크리에이터 신청",
+        "payout": "PayPal 출금 가능(한국 계정 조건 충족 시)",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "신규 최대10%/단계별 변동",
+        "minimum": "$20 (PayPal)",
+        "store": "https://www.yesstyle.com/en/home.html",
+        "join": "https://www.yesstyle.com/en/influencers.html",
+        "source": "https://www.yesstyle.com/en/help/section.html/hsi.2284",
+        "note": "YesStyle 일반 Awin과 별개의 프로그램",
+        "priority": 3
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 신규 10%, 재구매 4%, 상위 등급 11% 자료; 77개 자료의 최대 10%와 구분해 등급별 최신 확인."
+        },
+        {
+          "source": "Codex 잔여 준비표 · 사용자 제공",
+          "text": "활동 중인 인스타·틱톡·유튜브 / SNS 심사 필요"
+        }
+      ],
+      "codexPriority": 3
+    },
+    {
+      "id": "GL020",
+      "name": "YesStyle Awin Affiliate",
+      "category": "패션·뷰티",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.yesstyle.com/en/affiliate-program.html",
+      "signupNote": "아시아 패션·K-뷰티·J-뷰티 / 국제망 퍼블리셔 심사(한국 개별승인)",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "Awin 수취수단 한국 조건 확인 · 최소 지급 Awin별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://ui.awin.com/merchant-profile/63156"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "아시아 패션·K-뷰티·J-뷰티",
+        "eligibility": "국제망 퍼블리셔 심사(한국 개별승인)",
+        "payout": "Awin 수취수단 한국 조건 확인",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "최대10% 안내",
+        "minimum": "Awin별",
+        "store": "https://www.yesstyle.com/en/home.html",
+        "join": "https://www.yesstyle.com/en/affiliate-program.html",
+        "source": "https://ui.awin.com/merchant-profile/63156",
+        "note": "Influencer 별도; 서로 수수료 체계 다름",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL021",
+      "name": "StyleKorean Affiliate",
+      "category": "패션·뷰티",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.stylekorean.com/shop/apply_affiliate.php",
+      "signupNote": "한국 화장품·스킨케어 / 공식: 국가 선택·PayPal 신청서; 소셜 요건 별도",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "PayPal(한국 수취가능 계정) · 최소 지급 프로그램별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.stylekorean.com/en/affiliate/faq"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "한국 화장품·스킨케어",
+        "eligibility": "공식: 국가 선택·PayPal 신청서; 소셜 요건 별도",
+        "payout": "PayPal(한국 수취가능 계정)",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "최대12%",
+        "minimum": "프로그램별",
+        "store": "https://www.stylekorean.com/",
+        "join": "https://www.stylekorean.com/shop/apply_affiliate.php",
+        "source": "https://www.stylekorean.com/en/affiliate/faq",
+        "note": "신규 소셜 프로그램은 팔로워 1천+ 및 게시물 요건 있음",
+        "priority": 7
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: SNS 1000명+·게시물 10개 초과·PayPal $20(소셜 트랙); 일반 신청과 구분."
+        }
+      ]
+    },
+    {
+      "id": "GL022",
+      "name": "Stylevana Creators",
+      "category": "패션·뷰티",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.stylevana.com/en_US/creators/view/join",
+      "signupNote": "한국·일본 화장품·스킨케어 / 공식: PayPal 수취국 거주자 지원, 한국 포함",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "PayPal(계정별) · 최소 지급 $30",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.stylevana.com/en_US/creators/view/join"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "한국·일본 화장품·스킨케어",
+        "eligibility": "공식: PayPal 수취국 거주자 지원, 한국 포함",
+        "payout": "PayPal(계정별)",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "초기 5% 안내",
+        "minimum": "$30",
+        "store": "https://www.stylevana.com/",
+        "join": "https://www.stylevana.com/en_US/creators/view/join",
+        "source": "https://www.stylevana.com/en_US/creators/view/join",
+        "note": "미국 페이지의 상품 배송국은 별도로 확인",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 선행 요약상 초기 5%; 지급 조건 재확인."
+        }
+      ]
+    },
+    {
+      "id": "GL023",
+      "name": "OLIVE YOUNG Global O.Y Creators",
+      "category": "패션·뷰티",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://global.oliveyoung.com/event/planning?plndpNo=3153",
+      "signupNote": "글로벌 K-뷰티·스킨케어 / 공식: 글로벌 크리에이터 신청·심사(KR 승인 미검증)",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "은행 또는 PayPal(한국 수취계좌 심사) · 최소 지급 대시보드 확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://global.oliveyoung.com/event/planning?plndpNo=3153"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "글로벌 K-뷰티·스킨케어",
+        "eligibility": "공식: 글로벌 크리에이터 신청·심사(KR 승인 미검증)",
+        "payout": "은행 또는 PayPal(한국 수취계좌 심사)",
+        "cookie": "공식 공개 페이지 미확인",
+        "long": "미확인",
+        "rate": "3%~11%",
+        "minimum": "대시보드 확인",
+        "store": "https://global.oliveyoung.com/",
+        "join": "https://global.oliveyoung.com/event/planning?plndpNo=3153",
+        "source": "https://global.oliveyoung.com/event/planning?plndpNo=3153",
+        "note": "2026-11-17 신규 Creatable 프로그램; 이전 제휴조건 재사용 금지",
+        "priority": 9
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 글로벌 신설 프로그램, 국내 큐레이터와 분리. 세부 정책 재확인."
+        }
+      ]
+    },
+    {
+      "id": "GL024",
+      "name": "SSENSE Affiliate",
+      "category": "패션·명품",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.ssense.com/ko-kr/affiliates",
+      "signupNote": "럭셔리 패션·스니커즈·잡화 / 공식: 전세계 파트너 신청·심사",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "국제 지급수단·한국 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.ssense.com/ko-kr/affiliates"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "럭셔리 패션·스니커즈·잡화",
+        "eligibility": "공식: 전세계 파트너 신청·심사",
+        "payout": "국제 지급수단·한국 확인",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "상품별",
+        "minimum": "미확인",
+        "store": "https://www.ssense.com/ko-kr",
+        "join": "https://www.ssense.com/ko-kr/affiliates",
+        "source": "https://www.ssense.com/ko-kr/affiliates",
+        "note": "이메일로 가입 상담, 60일 후 승인 가능",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 명품 수수료 공식 비공개, 디렉토리 추정치는 확정값 아님."
+        }
+      ]
+    },
+    {
+      "id": "GL025",
+      "name": "Mytheresa Affiliate",
+      "category": "패션·명품",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.mytheresa.com/kr/en/affiliates",
+      "signupNote": "명품 여성복·남성복·액세서리 / 한국어 공식 제휴 안내, CJ/Rakuten 심사",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "네트워크별(한국 은행 Rakuten 선택시 가능) · 최소 지급 네트워크별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.mytheresa.com/kr/en/affiliates"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "명품 여성복·남성복·액세서리",
+        "eligibility": "한국어 공식 제휴 안내, CJ/Rakuten 심사",
+        "payout": "네트워크별(한국 은행 Rakuten 선택시 가능)",
+        "cookie": "광고주·네트워크별",
+        "long": "미확인",
+        "rate": "광고주별",
+        "minimum": "네트워크별",
+        "store": "https://www.mytheresa.com/kr/en",
+        "join": "https://www.mytheresa.com/kr/en/affiliates",
+        "source": "https://www.mytheresa.com/kr/en/affiliates",
+        "note": "Rakuten 제휴 선택 시 광고주 승인 필요",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 네트워크 승인·공식 요율 확인."
+        }
+      ]
+    },
+    {
+      "id": "GL026",
+      "name": "Farfetch Affiliate",
+      "category": "패션·명품",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.farfetch.com/pag1987.aspx",
+      "signupNote": "명품 패션·디자이너 패션·가방 / 공식: 전세계 웹사이트/블로그 신청·심사",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.farfetch.com/pag1987.aspx"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공",
+        "Codex 잔여 준비표 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "명품 패션·디자이너 패션·가방",
+        "eligibility": "공식: 전세계 웹사이트/블로그 신청·심사",
+        "payout": "미확인",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "광고주별",
+        "minimum": "미확인",
+        "store": "https://www.farfetch.com/",
+        "join": "https://www.farfetch.com/pag1987.aspx",
+        "source": "https://www.farfetch.com/pag1987.aspx",
+        "note": "이메일 신청: affiliates@farfetch.com",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 네트워크 승인·공식 요율 확인."
+        },
+        {
+          "source": "Codex 잔여 준비표 · 사용자 제공",
+          "text": "패션·라이프스타일 사이트 URL / 글로벌 신청 검토 가능"
+        }
+      ],
+      "codexPriority": 6
+    },
+    {
+      "id": "GL027",
+      "name": "CDJapan Affiliate",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.cdjapan.co.jp/aff/",
+      "signupNote": "일본 음악·애니굿즈·도서·패션 소품 / 공식: 모든 국가 신청 가능 원칙",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "PayPal 수취(한국 계정 가능 여부 개별 확인) · 최소 지급 ¥5,000",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.cdjapan.co.jp/aff/terms.html"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본 음악·애니굿즈·도서·패션 소품",
+        "eligibility": "공식: 모든 국가 신청 가능 원칙",
+        "payout": "PayPal 수취(한국 계정 가능 여부 개별 확인)",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "5%~7% 등 품목별",
+        "minimum": "¥5,000",
+        "store": "https://www.cdjapan.co.jp/",
+        "join": "https://www.cdjapan.co.jp/aff/",
+        "source": "https://www.cdjapan.co.jp/aff/terms.html",
+        "note": "한국 거주자 가입 허용 FAQ 공식",
+        "priority": 8
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 모든 국가 신청 가능 원칙 선행 조사, 지급 재확인."
+        }
+      ]
+    },
+    {
+      "id": "GL028",
+      "name": "ZenMarket Affiliate",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://zenmarket.jp/en/blog/post/11835/zenmarket-affiliate-program-japan",
+      "signupNote": "라쿠텐·메루카리·아마존JP·ZOZO 일본 구매대행 / 공식: 국제 SNS·블로그 파트너 모집·심사",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "해외 송금 방식 공식 근거 미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://zenmarket.jp/en/blog/post/11835/zenmarket-affiliate-program-japan"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "라쿠텐·메루카리·아마존JP·ZOZO 일본 구매대행",
+        "eligibility": "공식: 국제 SNS·블로그 파트너 모집·심사",
+        "payout": "해외 송금 방식 공식 근거 미확인",
+        "cookie": "회원등록 링크 기반(기한 미공개)",
+        "long": "미확인",
+        "rate": "계약별",
+        "minimum": "미확인",
+        "store": "https://discover-en.zenmarket.jp/showcase/",
+        "join": "https://zenmarket.jp/en/blog/post/11835/zenmarket-affiliate-program-japan",
+        "source": "https://zenmarket.jp/en/blog/post/11835/zenmarket-affiliate-program-japan",
+        "note": "가입한 고객 유치 방식, 순수 클릭 뒤 180일 구매조건 미확인",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 한국 지급 미확인."
+        }
+      ]
+    },
+    {
+      "id": "GL029",
+      "name": "Kokoro Japan",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://ko.kokorojapanstore.com/pages/affiliate-program",
+      "signupNote": "일본 화장품·뷰티·건강·스낵 / 글로벌 신청·한국어 페이지(승인/송금 미확인)",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "지급방식 미확인 · 최소 지급 없음(공식 안내)",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://ko.kokorojapanstore.com/pages/affiliate-program"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 화장품·뷰티·건강·스낵",
+        "eligibility": "글로벌 신청·한국어 페이지(승인/송금 미확인)",
+        "payout": "지급방식 미확인",
+        "cookie": "60일",
+        "long": "아니오",
+        "rate": "20% 안내",
+        "minimum": "없음(공식 안내)",
+        "store": "https://kokorojapanstore.com/",
+        "join": "https://ko.kokorojapanstore.com/pages/affiliate-program",
+        "source": "https://ko.kokorojapanstore.com/pages/affiliate-program",
+        "note": "수수료 20%와 한국 현금입금 가능 여부는 별개",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL030",
+      "name": "SmikieJapan",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.smikiejapan.com/pages/ambassador",
+      "signupNote": "일본 뷰티·식품·생활용품 / 공식: 모든 나라 크리에이터 가입 지원",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "국제은행송금 안내(KR 계좌 최종 심사) · 최소 지급 $50",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.smikiejapan.com/pages/ambassador"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본 뷰티·식품·생활용품",
+        "eligibility": "공식: 모든 나라 크리에이터 가입 지원",
+        "payout": "국제은행송금 안내(KR 계좌 최종 심사)",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "10%",
+        "minimum": "$50",
+        "store": "https://www.smikiejapan.com/",
+        "join": "https://www.smikiejapan.com/pages/ambassador",
+        "source": "https://www.smikiejapan.com/pages/ambassador",
+        "note": "실제 소비자 배송 미국·필리핀 중심이라 국내 고객 판매 부적합",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 배송 미국·필리핀 제한 자료; 한국 시장 전환 적합성 확인."
+        }
+      ]
+    },
+    {
+      "id": "GL031",
+      "name": "Neowing",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.neowing.co.jp/aff/",
+      "signupNote": "일본 음악·굿즈·DVD·도서 / 한국 거주 회원 모집/정산 여부 미확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "일본 은행 조건 확인 필요 · 최소 지급 ¥5,000 현금",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.neowing.co.jp/aff/terms.html"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 음악·굿즈·DVD·도서",
+        "eligibility": "한국 거주 회원 모집/정산 여부 미확인",
+        "payout": "일본 은행 조건 확인 필요",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "상품별",
+        "minimum": "¥5,000 현금",
+        "store": "https://www.neowing.co.jp/",
+        "join": "https://www.neowing.co.jp/aff/",
+        "source": "https://www.neowing.co.jp/aff/terms.html",
+        "note": "CDJapan 운영사 일본향 서비스, 한국지급 미확인",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL032",
+      "name": "TokyoTreat",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://tokyotreat.refersion.com/",
+      "signupNote": "일본 과자 구독 박스 / 한국 거주 가입·지급 최종 미확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "PayPal 안내(계정별 확인) · 최소 지급 $20 안내",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://tokyotreat.refersion.com/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 과자 구독 박스",
+        "eligibility": "한국 거주 가입·지급 최종 미확인",
+        "payout": "PayPal 안내(계정별 확인)",
+        "cookie": "30일 안내",
+        "long": "아니오",
+        "rate": "상품별 정액",
+        "minimum": "$20 안내",
+        "store": "https://tokyotreat.com/",
+        "join": "https://tokyotreat.refersion.com/",
+        "source": "https://tokyotreat.refersion.com/",
+        "note": "Refersion 프로그램은 약관 재확인 필요",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL033",
+      "name": "Sakura Mobile",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.sakuramobile.jp/about-us/affiliate-program/",
+      "signupNote": "일본 여행자 유심·eSIM·Wi-Fi / 글로벌 신청·심사(한국 개별 확인)",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "해외수취 방식 미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.sakuramobile.jp/about-us/affiliate-program/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 여행자 유심·eSIM·Wi-Fi",
+        "eligibility": "글로벌 신청·심사(한국 개별 확인)",
+        "payout": "해외수취 방식 미확인",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "10% 등 서비스별",
+        "minimum": "미확인",
+        "store": "https://www.sakuramobile.jp/",
+        "join": "https://www.sakuramobile.jp/about-us/affiliate-program/",
+        "source": "https://www.sakuramobile.jp/about-us/affiliate-program/",
+        "note": "일본 여행 콘텐츠와 궁합이 좋음",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL034",
+      "name": "Remambo Referral",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.remambo.jp/referral",
+      "signupNote": "일본 중고·패션·전자 구매대행 / 국제 소비자 기반 추천제·출금요건 미확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "현금화 방식 미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.remambo.jp/referral"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 중고·패션·전자 구매대행",
+        "eligibility": "국제 소비자 기반 추천제·출금요건 미확인",
+        "payout": "현금화 방식 미확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "최대 서비스 수수료의 40%",
+        "minimum": "미확인",
+        "store": "https://www.remambo.jp/",
+        "join": "https://www.remambo.jp/referral",
+        "source": "https://www.remambo.jp/referral",
+        "note": "상품 판매가 40%가 아니라 서비스 수수료 40%",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL035",
+      "name": "YesAsia",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.yesasia.com/global/en/associate.html",
+      "signupNote": "일본/한국 음반·영화·책·KPOP / 미국·일본 등 네트워크별 심사(KR 확인 필요)",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "네트워크별 지급수단 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.yesasia.com/global/en/associate.html"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본/한국 음반·영화·책·KPOP",
+        "eligibility": "미국·일본 등 네트워크별 심사(KR 확인 필요)",
+        "payout": "네트워크별 지급수단 확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "네트워크별",
+        "minimum": "미확인",
+        "store": "https://www.yesasia.com/global/en/home.html",
+        "join": "https://www.yesasia.com/global/en/associate.html",
+        "source": "https://www.yesasia.com/global/en/associate.html",
+        "note": "일본 영화·굿즈 카탈로그",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL036",
+      "name": "Japan Trend Shop",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://affiliates.japantrendshop.com/",
+      "signupNote": "일본 특색 상품·아이디어 굿즈 / 한국 가입 신청/정산 미확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://affiliates.japantrendshop.com/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 특색 상품·아이디어 굿즈",
+        "eligibility": "한국 가입 신청/정산 미확인",
+        "payout": "미확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "미확인",
+        "minimum": "미확인",
+        "store": "https://www.japantrendshop.com/",
+        "join": "https://affiliates.japantrendshop.com/",
+        "source": "https://affiliates.japantrendshop.com/",
+        "note": "온라인 프로그램 운영현황 재검증 필요",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL037",
+      "name": "Buyee 친구추천",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://media.buyee.jp/campaign/refer_a_friend/en/",
+      "signupNote": "라쿠텐·ZOZO·일본 중고·패션 구매대행 / 전세계 Buyee 가입 고객 추천 기능",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "현금 아님: 할인쿠폰 · 최소 지급 해당 없음",
+      "manualSteps": [
+        "필수 거주·계좌·현금 지급 조건 확인 전 신청 보류"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://media.buyee.jp/campaign/refer_a_friend/en/"
+        }
+      ],
+      "available": "restricted",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "라쿠텐·ZOZO·일본 중고·패션 구매대행",
+        "eligibility": "전세계 Buyee 가입 고객 추천 기능",
+        "payout": "현금 아님: 할인쿠폰",
+        "cookie": "회원가입+첫 구매 조건",
+        "long": "현금 지급 없음",
+        "rate": "현금 수수료 없음",
+        "minimum": "해당 없음",
+        "store": "https://media.buyee.jp/content/en/bcsite-list-en/",
+        "join": "https://media.buyee.jp/campaign/refer_a_friend/en/",
+        "source": "https://media.buyee.jp/campaign/refer_a_friend/en/",
+        "note": "정식 현금 제휴와 다르므로 TOP10 제외",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL038",
+      "name": "Rakuten Ichiba Affiliate",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://affiliate.rakuten.co.jp/",
+      "signupNote": "일본 종합 쇼핑몰·의류·패션·생활용품 / 한국 거주자 가입은 별도 확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "주로 Rakuten Cash, 한국 은행 현금화 미검증 · 최소 지급 방식별",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://affiliate.rakuten.co.jp/guideline/rule/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 종합 쇼핑몰·의류·패션·생활용품",
+        "eligibility": "한국 거주자 가입은 별도 확인",
+        "payout": "주로 Rakuten Cash, 한국 은행 현금화 미검증",
+        "cookie": "24시간 담기 + 89일 내 주문",
+        "long": "아니오(장바구니 89일)",
+        "rate": "상품별 통상2~4%",
+        "minimum": "방식별",
+        "store": "https://www.rakuten.co.jp/",
+        "join": "https://affiliate.rakuten.co.jp/",
+        "source": "https://affiliate.rakuten.co.jp/guideline/rule/",
+        "note": "Rakuten Advertising 국제 퍼블리셔 프로그램과 절대 혼동 금지",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL039",
+      "name": "Amazon Japan Associates",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://affiliate.amazon.co.jp/",
+      "signupNote": "일본 의류·전자·잡화·책·가전 / 해외 계좌 지급 불가로 한국 은행만 가진 사람에겐 부적합",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "해외 계좌 직접입금 불가(일본 공식) · 최소 지급 수취수단별",
+      "manualSteps": [
+        "필수 거주·계좌·현금 지급 조건 확인 전 신청 보류"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://affiliate.amazon.co.jp/help/node/topic/G9GGZS4U9TWS5C78"
+        }
+      ],
+      "available": "restricted",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본 의류·전자·잡화·책·가전",
+        "eligibility": "해외 계좌 지급 불가로 한국 은행만 가진 사람에겐 부적합",
+        "payout": "해외 계좌 직접입금 불가(일본 공식)",
+        "cookie": "24시간(조건부 장바구니 89일)",
+        "long": "아니오",
+        "rate": "상품별",
+        "minimum": "수취수단별",
+        "store": "https://www.amazon.co.jp/",
+        "join": "https://affiliate.amazon.co.jp/",
+        "source": "https://affiliate.amazon.co.jp/help/node/topic/G9GGZS4U9TWS5C78",
+        "note": "일본 은행·지급수단 확보 전 추천하지 않음",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 해외은행 지급 제한."
+        }
+      ]
+    },
+    {
+      "id": "GL040",
+      "name": "Yahoo Shopping Japan",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://shopping.yahoo.co.jp/notice/affiliate/guidelines/",
+      "signupNote": "일본 패션·가전·생활용품 / 한국 해외신청·지급 미확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://shopping.yahoo.co.jp/notice/affiliate/guidelines/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 패션·가전·생활용품",
+        "eligibility": "한국 해외신청·지급 미확인",
+        "payout": "미확인",
+        "cookie": "24시간 담기+89일 기준(출하/이행 조건 주의)",
+        "long": "아니오",
+        "rate": "상품별",
+        "minimum": "미확인",
+        "store": "https://shopping.yahoo.co.jp/",
+        "join": "https://shopping.yahoo.co.jp/notice/affiliate/guidelines/",
+        "source": "https://shopping.yahoo.co.jp/notice/affiliate/guidelines/",
+        "note": "쿠키 조건과 실제 출하/이행까지 요구되는 상세 지침 분리",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL041",
+      "name": "Qoo10 Japan",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.qoo10.jp/gmkt.inc/Mobile/PurchaseGuide/GuideDefault.aspx?banner_no=1295437",
+      "signupNote": "일본 화장품·패션·가전·생활용품 / KR 퍼블리셔 신청·지급 미확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.qoo10.jp/gmkt.inc/Mobile/PurchaseGuide/GuideDefault.aspx?banner_no=1295437"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 화장품·패션·가전·생활용품",
+        "eligibility": "KR 퍼블리셔 신청·지급 미확인",
+        "payout": "미확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "캠페인별",
+        "minimum": "미확인",
+        "store": "https://www.qoo10.jp/",
+        "join": "https://www.qoo10.jp/gmkt.inc/Mobile/PurchaseGuide/GuideDefault.aspx?banner_no=1295437",
+        "source": "https://www.qoo10.jp/gmkt.inc/Mobile/PurchaseGuide/GuideDefault.aspx?banner_no=1295437",
+        "note": "상품몰 존재와 한국 파트너 자격은 별개",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL042",
+      "name": "ZOZOTOWN",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://zozo.jp/",
+      "signupNote": "일본 트렌디 패션·의류·디자이너 브랜드 / 외국 거주자 직접 제휴는 미확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://zozo.jp/brand/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 트렌디 패션·의류·디자이너 브랜드",
+        "eligibility": "외국 거주자 직접 제휴는 미확인",
+        "payout": "미확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "미확인",
+        "minimum": "미확인",
+        "store": "https://zozo.jp/brand/",
+        "join": "https://zozo.jp/",
+        "source": "https://zozo.jp/brand/",
+        "note": "직접 일본 제휴 확인 전 ZenMarket 등 대행제휴 경유 가능",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL043",
+      "name": "UNIQLO Japan",
+      "category": "일본 쇼핑",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.uniqlo.com/jp/ja/",
+      "signupNote": "일본 패션·유니클로 의류 / 한국 거주 제휴 가능 미확인",
+      "specificFields": [
+        "실제 운영 SNS·웹사이트 URL 및 콘텐츠 예시",
+        "실제 팔로워/방문자 수와 타깃 국가",
+        "홍보 방법·개인/사업자 유형"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.uniqlo.com/jp/ja/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 패션·유니클로 의류",
+        "eligibility": "한국 거주 제휴 가능 미확인",
+        "payout": "미확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "미확인",
+        "minimum": "미확인",
+        "store": "https://www.uniqlo.com/jp/ja/",
+        "join": "https://www.uniqlo.com/jp/ja/",
+        "source": "https://www.uniqlo.com/jp/ja/",
+        "note": "공식 상품 페이지는 제휴 신청 경로가 아님. 미확인.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL044",
+      "name": "systeme.io",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://systeme.io/affiliate-program",
+      "signupNote": "퍼널·이메일·강의·온라인 판매 자동화 / 공식: 누구나 무료가입 및 제휴 ID 발급",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "PayPal/은행송금(한국 계좌 개별확인) · 최소 지급 $30",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://systeme.io/affiliate-agreement"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "퍼널·이메일·강의·온라인 판매 자동화",
+        "eligibility": "공식: 누구나 무료가입 및 제휴 ID 발급",
+        "payout": "PayPal/은행송금(한국 계좌 개별확인)",
+        "cookie": "무료가입 시 추천 귀속 지속",
+        "long": "예: 가입 후 6개월 이후 유료전환",
+        "rate": "60% 반복 수수료",
+        "minimum": "$30",
+        "store": "https://systeme.io/",
+        "join": "https://systeme.io/affiliate-program",
+        "source": "https://systeme.io/affiliate-agreement",
+        "note": "순수 무행동 클릭 180일은 미보증; 중간 무료 가입 필수",
+        "priority": 4
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 무료 가입 귀속 후 장기 전환, 순수 클릭 180일과 다름."
+        }
+      ]
+    },
+    {
+      "id": "GL045",
+      "name": "Shopify Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.shopify.com/kr/affiliates",
+      "signupNote": "온라인 쇼핑몰 개설·호스팅·결제·판매 플랫폼 / 공식: 한국어 가입·심사",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "은행/PayPal(한국 지급 가능 여부 시스템 확인) · 최소 지급 $10",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.shopify.com/kr/affiliates"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "온라인 쇼핑몰 개설·호스팅·결제·판매 플랫폼",
+        "eligibility": "공식: 한국어 가입·심사",
+        "payout": "은행/PayPal(한국 지급 가능 여부 시스템 확인)",
+        "cookie": "30일 이내 무료체험 등록",
+        "long": "예: 체험 후 최대400일 내 유료전환",
+        "rate": "유효 상점당 최대 $150",
+        "minimum": "$10",
+        "store": "https://www.shopify.com/kr",
+        "join": "https://www.shopify.com/kr/affiliates",
+        "source": "https://www.shopify.com/kr/affiliates",
+        "note": "쇼피파이 쇼핑몰 상품 홍보가 아닌 Shopify 서비스 자체 제휴",
+        "priority": 6
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 30일 내 무료체험 후 최대 400일 전환; 순수 400일 클릭 쿠키 아님."
+        }
+      ]
+    },
+    {
+      "id": "GL046",
+      "name": "HubSpot Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.hubspot.com/partners/affiliates",
+      "signupNote": "고객관리 CRM·마케팅·세일즈 자동화 / 글로벌 신청 심사(KR 개별 승인)",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "Impact 등 플랫폼 수취(한국 계좌 확인) · 최소 지급 $10 안내",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.hubspot.com/partners/affiliates"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "고객관리 CRM·마케팅·세일즈 자동화",
+        "eligibility": "글로벌 신청 심사(KR 개별 승인)",
+        "payout": "Impact 등 플랫폼 수취(한국 계좌 확인)",
+        "cookie": "180일 클릭 쿠키",
+        "long": "예: 클릭 후180일 내 구매, 추적·승인조건",
+        "rate": "30% 반복 최대12개월",
+        "minimum": "$10 안내",
+        "store": "https://www.hubspot.com/products",
+        "join": "https://www.hubspot.com/partners/affiliates",
+        "source": "https://www.hubspot.com/partners/affiliates",
+        "note": "일반 180일 클릭 추적 공식 명시",
+        "priority": 10
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 180일 클릭 쿠키와 12개월 반복 30%는 별개."
+        }
+      ]
+    },
+    {
+      "id": "GL047",
+      "name": "GetResponse (2026 신규)",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://dash.partnerstack.com/application?company=getresponse&group=default",
+      "signupNote": "뉴스레터·이메일마케팅·자동화·강의 / 공식 PartnerStack 글로벌 신청·개별 승인",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "PartnerStack KR 은행 직접입금 지원 · 최소 지급 파트너스택 조건",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://market.partnerstack.com/program/getresponse"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "뉴스레터·이메일마케팅·자동화·강의",
+        "eligibility": "공식 PartnerStack 글로벌 신청·개별 승인",
+        "payout": "PartnerStack KR 은행 직접입금 지원",
+        "cookie": "90일(현재 신규 프로그램)",
+        "long": "아니오(90일내 가입 후 전환은 별도)",
+        "rate": "40~60% 반복 최대12개월",
+        "minimum": "파트너스택 조건",
+        "store": "https://www.getresponse.com/",
+        "join": "https://dash.partnerstack.com/application?company=getresponse&group=default",
+        "source": "https://market.partnerstack.com/program/getresponse",
+        "note": "2026년 8월 제휴 개편; 구 안내문 120일과 혼동 금지",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 새 프로그램 90일, 요율·지급 재확인."
+        }
+      ]
+    },
+    {
+      "id": "GL048",
+      "name": "Webflow Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://webflow.com/solutions/affiliates",
+      "signupNote": "노코드 웹사이트·웹 앱·CMS / PartnerStack 글로벌 신청·광고주 심사",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "PartnerStack KR 직접입금 지원 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://help.webflow.com/hc/en-us/articles/33961372613011-Webflow-s-affiliate-program-overview"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "노코드 웹사이트·웹 앱·CMS",
+        "eligibility": "PartnerStack 글로벌 신청·광고주 심사",
+        "payout": "PartnerStack KR 직접입금 지원",
+        "cookie": "90일 클릭 쿠키",
+        "long": "아니오(가입 선행 시 후속 활동 조건 확인)",
+        "rate": "50% 첫12개월 요금",
+        "minimum": "미확인",
+        "store": "https://webflow.com/",
+        "join": "https://webflow.com/solutions/affiliates",
+        "source": "https://help.webflow.com/hc/en-us/articles/33961372613011-Webflow-s-affiliate-program-overview",
+        "note": "리뉴얼·반복수수료와 180일 쿠키는 다름",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 90일·첫 12개월 50% 자료."
+        }
+      ]
+    },
+    {
+      "id": "GL049",
+      "name": "ElevenLabs Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://elevenlabs.io/affiliates",
+      "signupNote": "AI 음성·TTS·보이스 클로닝 / PartnerStack 글로벌 신청·개별 심사",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "PartnerStack KR 직접입금 지원 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://elevenlabs.io/ko/affiliate-partner-guide"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "AI 음성·TTS·보이스 클로닝",
+        "eligibility": "PartnerStack 글로벌 신청·개별 심사",
+        "payout": "PartnerStack KR 직접입금 지원",
+        "cookie": "90일 신규가입 추적",
+        "long": "6개월 구매는 가입 시점/후속조건 확인",
+        "rate": "22% 12개월(일부 상품11%)",
+        "minimum": "미확인",
+        "store": "https://elevenlabs.io/",
+        "join": "https://elevenlabs.io/affiliates",
+        "source": "https://elevenlabs.io/ko/affiliate-partner-guide",
+        "note": "일부 문서의 90일은 수익 확정/지급보류 기간, 쿠키와 구분",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini는 공식 약관상 쿠키 미명시, 77개 자료는 90일 가입 추적. 두 출처 차이를 유지하고 공식 계정에서 검증."
+        }
+      ]
+    },
+    {
+      "id": "GL050",
+      "name": "invideo AI Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://help.invideo.io/en/articles/9673802-is-there-a-referral-program-or-affiliate-rewards",
+      "signupNote": "텍스트→AI 영상·유튜브 영상 / Impact 글로벌 제휴 개별 심사",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "Impact 지급(한국 은행 검증) · 최소 지급 Impact 기준",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://help.invideo.io/en/articles/9673802-is-there-a-referral-program-or-affiliate-rewards"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "텍스트→AI 영상·유튜브 영상",
+        "eligibility": "Impact 글로벌 제휴 개별 심사",
+        "payout": "Impact 지급(한국 은행 검증)",
+        "cookie": "120일 클릭 쿠키",
+        "long": "예: 120일 내 무료가입 후 유료전환 기한 없음",
+        "rate": "월 첫 결제50% / 연 첫 결제25%",
+        "minimum": "Impact 기준",
+        "store": "https://invideo.io/ai/",
+        "join": "https://help.invideo.io/en/articles/9673802-is-there-a-referral-program-or-affiliate-rewards",
+        "source": "https://help.invideo.io/en/articles/9673802-is-there-a-referral-program-or-affiliate-rewards",
+        "note": "6개월 단순 클릭 구매가 아니라 120일 내 회원가입 먼저 필요",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 120일 클릭 쿠키, 무료 가입 선행 후 전환 조건은 공식 확인."
+        }
+      ]
+    },
+    {
+      "id": "GL051",
+      "name": "Higgsfield AI Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://higgsfield.ai/affiliate",
+      "signupNote": "AI 광고·영화형 영상·이미지 / 공식 글로벌 제휴 신청, 한국 송금지원국 미공개",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "은행송금 전용(지원국 신청창에서 확인) · 최소 지급 $50",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://higgsfield.ai/affiliate/terms-of-use-agreement"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "AI 광고·영화형 영상·이미지",
+        "eligibility": "공식 글로벌 제휴 신청, 한국 송금지원국 미공개",
+        "payout": "은행송금 전용(지원국 신청창에서 확인)",
+        "cookie": "동일 세션 가입 + 가입 후15일 내 첫 결제",
+        "long": "아니오(반복수수료12개월과 다름)",
+        "rate": "최대25% 반복 최대12개월",
+        "minimum": "$50",
+        "store": "https://higgsfield.ai/",
+        "join": "https://higgsfield.ai/affiliate",
+        "source": "https://higgsfield.ai/affiliate/terms-of-use-agreement",
+        "note": "한국 거주 신청/한국 은행 수취 확정 아님; 우선 지원국 확인",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 동일 세션 가입+15일 내 결제, 한국 은행 수취 확인."
+        }
+      ]
+    },
+    {
+      "id": "GL052",
+      "name": "Adobe Affiliate Korea",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.adobe.com/kr/affiliates.html",
+      "signupNote": "Photoshop·Premiere·Firefly·Creative Cloud / 공식 한국어 제휴 등록 안내, 심사",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "Partnerize 정산 한국 개별 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.adobe.com/kr/affiliates.html"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "Photoshop·Premiere·Firefly·Creative Cloud",
+        "eligibility": "공식 한국어 제휴 등록 안내, 심사",
+        "payout": "Partnerize 정산 한국 개별 확인",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "첫달 85% 등 상품별",
+        "minimum": "미확인",
+        "store": "https://www.adobe.com/kr/products/catalog.html",
+        "join": "https://www.adobe.com/kr/affiliates.html",
+        "source": "https://www.adobe.com/kr/affiliates.html",
+        "note": "상품형·플랜별 수수료 규칙 차이",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL053",
+      "name": "Synthesia Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.synthesia.io/partners/affiliates",
+      "signupNote": "AI 아바타·발표 영상·더빙 / 글로벌 제휴 신청 심사(KR 수취 미확인)",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "Rewardful 수취수단 별도확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.synthesia.io/partners/affiliates"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "AI 아바타·발표 영상·더빙",
+        "eligibility": "글로벌 제휴 신청 심사(KR 수취 미확인)",
+        "payout": "Rewardful 수취수단 별도확인",
+        "cookie": "60일",
+        "long": "아니오",
+        "rate": "25% 안내",
+        "minimum": "미확인",
+        "store": "https://www.synthesia.io/",
+        "join": "https://www.synthesia.io/partners/affiliates",
+        "source": "https://www.synthesia.io/partners/affiliates",
+        "note": "한국 가입 최종 승인·은행 지급 미확인",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL054",
+      "name": "HeyGen Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.heygen.com/geniverse/affiliate-program",
+      "signupNote": "AI 아바타·AI 영상·번역/더빙 / 글로벌 크리에이터 모집, 팔로워 요건 존재",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "한국 지급 미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.heygen.com/geniverse/affiliate-program"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "AI 아바타·AI 영상·번역/더빙",
+        "eligibility": "글로벌 크리에이터 모집, 팔로워 요건 존재",
+        "payout": "한국 지급 미확인",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "20~30% 최대6개월 반복",
+        "minimum": "미확인",
+        "store": "https://www.heygen.com/",
+        "join": "https://www.heygen.com/geniverse/affiliate-program",
+        "source": "https://www.heygen.com/geniverse/affiliate-program",
+        "note": "6개월은 지급되는 반복기간이지 쿠키 180일이 아님",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL055",
+      "name": "Runway Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://runway.com/affiliate-program",
+      "signupNote": "영상 생성·AI 편집·영상 모델 / 크리에이터 가입·심사(한국 은행 가능 미확인)",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "Stripe·은행국가 확인 필요 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://runway.com/affiliate-program"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "영상 생성·AI 편집·영상 모델",
+        "eligibility": "크리에이터 가입·심사(한국 은행 가능 미확인)",
+        "payout": "Stripe·은행국가 확인 필요",
+        "cookie": "코드 추천(쿠키 미공개)",
+        "long": "미확인",
+        "rate": "유효 신규 구독자당 $15",
+        "minimum": "미확인",
+        "store": "https://runwayml.com/",
+        "join": "https://runway.com/affiliate-program",
+        "source": "https://runway.com/affiliate-program",
+        "note": "3개월 파트너 파일럿은 3개월 쿠키를 의미하지 않음",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL056",
+      "name": "Semrush Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.semrush.com/lp/affiliate-program/en/",
+      "signupNote": "SEO·키워드·콘텐츠 마케팅 / Impact 국제 신청 심사",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "Impact 정산 KR 개별 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.semrush.com/lp/affiliate-program/en/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "SEO·키워드·콘텐츠 마케팅",
+        "eligibility": "Impact 국제 신청 심사",
+        "payout": "Impact 정산 KR 개별 확인",
+        "cookie": "120일",
+        "long": "아니오",
+        "rate": "판매당 $100~$300 등 오퍼별",
+        "minimum": "미확인",
+        "store": "https://www.semrush.com/",
+        "join": "https://www.semrush.com/lp/affiliate-program/en/",
+        "source": "https://www.semrush.com/lp/affiliate-program/en/",
+        "note": "고액 성과수익; 180일 조건 아님",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL057",
+      "name": "OpusClip Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.opus.pro/affiliate",
+      "signupNote": "AI 숏폼 영상·클립 자동 제작 / 글로벌 신청(한국 최종 승인 미확인)",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "PayPal(한국 수취가능 계정) · 최소 지급 $20",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.opus.pro/affiliate"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "AI 숏폼 영상·클립 자동 제작",
+        "eligibility": "글로벌 신청(한국 최종 승인 미확인)",
+        "payout": "PayPal(한국 수취가능 계정)",
+        "cookie": "공식 공개 미확인",
+        "long": "미확인",
+        "rate": "25% 첫1년 반복",
+        "minimum": "$20",
+        "store": "https://www.opus.pro/",
+        "join": "https://www.opus.pro/affiliate",
+        "source": "https://www.opus.pro/affiliate",
+        "note": "6개월 계정 미활동 관련 규칙은 구매인정기간 아님",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL058",
+      "name": "Descript Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.descript.com/affiliate",
+      "signupNote": "AI 오디오·영상 편집·자막 / 글로벌 제휴 신청 심사(한국 개별확인)",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "수취국 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.descript.com/affiliate"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "AI 오디오·영상 편집·자막",
+        "eligibility": "글로벌 제휴 신청 심사(한국 개별확인)",
+        "payout": "수취국 확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "유효 유료 구독자당 $25 안내",
+        "minimum": "미확인",
+        "store": "https://www.descript.com/",
+        "join": "https://www.descript.com/affiliate",
+        "source": "https://www.descript.com/affiliate",
+        "note": "기간 미공개, 180일로 추정 금지",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL059",
+      "name": "Artlist Ambassador",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://lp-p.artlist.io/ambassador-program/",
+      "signupNote": "AI 영상·영상 음악·보이스·스톡 / 글로벌 크리에이터 지원·심사",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "한국 수취국 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://lp-p.artlist.io/ambassador-program/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "AI 영상·영상 음악·보이스·스톡",
+        "eligibility": "글로벌 크리에이터 지원·심사",
+        "payout": "한국 수취국 확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "월/연 정액 차등 안내",
+        "minimum": "미확인",
+        "store": "https://artlist.io/",
+        "join": "https://lp-p.artlist.io/ambassador-program/",
+        "source": "https://lp-p.artlist.io/ambassador-program/",
+        "note": "영상 제작자용 이미지·음원 도구",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL060",
+      "name": "NordVPN Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://nordvpn.com/ko/affiliate/",
+      "signupNote": "VPN·사이버 보안 / 한국어 공식 모집·심사",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "글로벌 수취, KR 세부 미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://nordvpn.com/ko/affiliate/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "VPN·사이버 보안",
+        "eligibility": "한국어 공식 모집·심사",
+        "payout": "글로벌 수취, KR 세부 미확인",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "장기구독40%·1개월100% 등",
+        "minimum": "미확인",
+        "store": "https://nordvpn.com/ko/",
+        "join": "https://nordvpn.com/ko/affiliate/",
+        "source": "https://nordvpn.com/ko/affiliate/",
+        "note": "갱신 수수료와 클릭 인정기간은 별개",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 1개월 신규 100%, 장기 40%, 갱신 30% 자료, 실제 약관 확인."
+        }
+      ]
+    },
+    {
+      "id": "GL061",
+      "name": "Hostinger Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.hostinger.com/affiliates",
+      "signupNote": "웹호스팅·AI 웹사이트 빌더 / 글로벌 신청·심사(한국 입금 미확인)",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "글로벌 송금(계약별) · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.hostinger.com/legal/affiliate-program-agreement"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "웹호스팅·AI 웹사이트 빌더",
+        "eligibility": "글로벌 신청·심사(한국 입금 미확인)",
+        "payout": "글로벌 송금(계약별)",
+        "cookie": "30일",
+        "long": "아니오",
+        "rate": "서비스별 최대40~60% 안내",
+        "minimum": "미확인",
+        "store": "https://www.hostinger.com/",
+        "join": "https://www.hostinger.com/affiliates",
+        "source": "https://www.hostinger.com/legal/affiliate-program-agreement",
+        "note": "AI 빌더 프로모션은 일반 호스팅과 다름",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL062",
+      "name": "Kinsta Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://kinsta.com/affiliates/",
+      "signupNote": "WordPress·클라우드 웹호스팅 / 글로벌 사이트 파트너 심사",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "한국 수취 여부 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://kinsta.com/affiliates/faq/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "WordPress·클라우드 웹호스팅",
+        "eligibility": "글로벌 사이트 파트너 심사",
+        "payout": "한국 수취 여부 확인",
+        "cookie": "60일",
+        "long": "아니오",
+        "rate": "상품·계약별",
+        "minimum": "미확인",
+        "store": "https://kinsta.com/",
+        "join": "https://kinsta.com/affiliates/",
+        "source": "https://kinsta.com/affiliates/faq/",
+        "note": "SNS-only 홍보는 제한될 수 있음",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL063",
+      "name": "beehiiv Partner Program",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.beehiiv.com/partners",
+      "signupNote": "뉴스레터·광고·이메일 발행 / 글로벌 제휴 신청(한국 개별확인)",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "신규 지급 플랫폼 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.beehiiv.com/partners"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "뉴스레터·광고·이메일 발행",
+        "eligibility": "글로벌 제휴 신청(한국 개별확인)",
+        "payout": "신규 지급 플랫폼 확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "프로그램별",
+        "minimum": "미확인",
+        "store": "https://www.beehiiv.com/",
+        "join": "https://www.beehiiv.com/partners",
+        "source": "https://www.beehiiv.com/partners",
+        "note": "지급방식/수수료 변경 가능",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL064",
+      "name": "Framer Creator Program",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.framer.com/help/articles/how-the-creator-program-works/",
+      "signupNote": "웹사이트 빌더·템플릿·플러그인 / 전세계 창작자 신청 가능(심사 필요)",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "한국 송금 방식 미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.framer.com/help/articles/how-the-creator-program-works/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "웹사이트 빌더·템플릿·플러그인",
+        "eligibility": "전세계 창작자 신청 가능(심사 필요)",
+        "payout": "한국 송금 방식 미확인",
+        "cookie": "미확인",
+        "long": "미확인",
+        "rate": "창작자 조건별",
+        "minimum": "미확인",
+        "store": "https://www.framer.com/marketplace/",
+        "join": "https://www.framer.com/help/articles/how-the-creator-program-works/",
+        "source": "https://www.framer.com/help/articles/how-the-creator-program-works/",
+        "note": "순수 affiliate와 템플릿/플러그인 크리에이터 수익 혼합",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL065",
+      "name": "CapCut Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.capcut.com/partners/affiliate-program",
+      "signupNote": "영상편집·템플릿·CapCut Pro / 글로벌 신청, 구매자 지역 제한",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "한국 구매자 실적 현재 공식 지원 불분명 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.capcut.com/partners/affiliate-program"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "영상편집·템플릿·CapCut Pro",
+        "eligibility": "글로벌 신청, 구매자 지역 제한",
+        "payout": "한국 구매자 실적 현재 공식 지원 불분명",
+        "cookie": "공식 공개 미확인",
+        "long": "미확인",
+        "rate": "국가/프로모션별",
+        "minimum": "미확인",
+        "store": "https://www.capcut.com/",
+        "join": "https://www.capcut.com/partners/affiliate-program",
+        "source": "https://www.capcut.com/partners/affiliate-program",
+        "note": "공식 신규 구매자 지원 US·UK·DE·FR; 한국 대상 수익화 주의",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 한국어 페이지와 한국 구매자 실적 허용은 다름; 대상 국가 재검증."
+        }
+      ]
+    },
+    {
+      "id": "GL066",
+      "name": "Zoho Japan Affiliate",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.zoho.com/jp/affiliate/",
+      "signupNote": "업무용 CRM·협업·메일·각종 SaaS / 글로벌 제휴 신청·심사(한국 최종 확인)",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "PayPal/전신환(계정·세금확인) · 최소 지급 $100",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.zoho.com/jp/affiliate/program-agreement.html"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "업무용 CRM·협업·메일·각종 SaaS",
+        "eligibility": "글로벌 제휴 신청·심사(한국 최종 확인)",
+        "payout": "PayPal/전신환(계정·세금확인)",
+        "cookie": "90일 내 무료가입 + 90일 내 첫 결제",
+        "long": "조건부: 가입하면 최대 약180일",
+        "rate": "15~20% 안내",
+        "minimum": "$100",
+        "store": "https://www.zoho.com/jp/",
+        "join": "https://www.zoho.com/jp/affiliate/",
+        "source": "https://www.zoho.com/jp/affiliate/program-agreement.html",
+        "note": "클릭 후 아무행동 없이180일 구매인정 아님",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL067",
+      "name": "WonderFox RecoveryFox AI",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.wonderfox.jp/affiliates.html",
+      "signupNote": "일본어 파일 복구 소프트웨어 / 일본어 제휴 공개(한국 가입·송금 승인 미확인)",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "PayPal/은행 안내, KR 가능 최종 확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.wonderfox.jp/affiliates.html"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본어 파일 복구 소프트웨어",
+        "eligibility": "일본어 제휴 공개(한국 가입·송금 승인 미확인)",
+        "payout": "PayPal/은행 안내, KR 가능 최종 확인",
+        "cookie": "180일 구매추적",
+        "long": "가능: 약관 180일(시간 경계 별도 확인)",
+        "rate": "15%",
+        "minimum": "미확인",
+        "store": "https://www.wonderfox.jp/",
+        "join": "https://www.wonderfox.jp/affiliates.html",
+        "source": "https://www.wonderfox.jp/affiliates.html",
+        "note": "일본 판매 직접 제휴인데 한국 퍼블리셔 확인 필요",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL068",
+      "name": "Interconnect Japan Web Linker",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.interconnect.co.jp/staff/faq.html",
+      "signupNote": "일본 인터넷·고정IP·네트워크 서비스 / 일본 해외거주 신규 제휴 심사 미확인",
+      "specificFields": [
+        "기술·AI·업무 콘텐츠 채널",
+        "실제 게시물·방문자/팔로워·홍보 계획",
+        "대상 국가·개별 상품 승인"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.interconnect.co.jp/staff/faq.html"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 인터넷·고정IP·네트워크 서비스",
+        "eligibility": "일본 해외거주 신규 제휴 심사 미확인",
+        "payout": "미확인",
+        "cookie": "180일 신청기한",
+        "long": "가능: 서비스 신청 기준",
+        "rate": "서비스별",
+        "minimum": "미확인",
+        "store": "https://www.interconnect.co.jp/",
+        "join": "https://www.interconnect.co.jp/staff/faq.html",
+        "source": "https://www.interconnect.co.jp/staff/faq.html",
+        "note": "현재 신규 제휴 수용 여부 미확인",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL069",
+      "name": "A8.net",
+      "category": "일본 ASP",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.a8.net/",
+      "signupNote": "일본 쇼핑·패션·금융 광고주 플랫폼 / 부적합: 일본 연락주소·일본계좌·일본어 사이트 필요",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "일본 금융기관 계좌 필요 · 최소 지급 프로그램별",
+      "manualSteps": [
+        "필수 거주·계좌·현금 지급 조건 확인 전 신청 보류"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://support.a8.net/a8/as/faq/2006/11/post_38.html"
+        },
+        {
+          "label": "Codex 준비표 링크",
+          "url": "https://www.a8.net/faq/9.html"
+        }
+      ],
+      "available": "restricted",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공",
+        "Codex 잔여 준비표 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본 쇼핑·패션·금융 광고주 플랫폼",
+        "eligibility": "부적합: 일본 연락주소·일본계좌·일본어 사이트 필요",
+        "payout": "일본 금융기관 계좌 필요",
+        "cookie": "광고주별",
+        "long": "미확인",
+        "rate": "광고주별",
+        "minimum": "프로그램별",
+        "store": "https://www.a8.net/",
+        "join": "https://www.a8.net/",
+        "source": "https://support.a8.net/a8/as/faq/2006/11/post_38.html",
+        "note": "한국 계좌만 보유한 사용자에게 추천하지 않음",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 일본 주소·일본 계좌·일본어 매체 조건. 한국 계좌만으로 진행 보류."
+        },
+        {
+          "source": "Codex 잔여 준비표 · 사용자 제공",
+          "text": "일본 은행계좌·연락 가능한 일본 주소 / 조건 미충족 시 보류"
+        }
+      ],
+      "codexPriority": 7
+    },
+    {
+      "id": "GL070",
+      "name": "Moshimo Affiliate",
+      "category": "일본 ASP",
+      "region": "일본·한국 조건 확인",
+      "url": "https://af.moshimo.com/",
+      "signupNote": "일본 쇼핑·패션·광고 플랫폼 / 해외 거주 가능, 일본 금융기관 계좌 필요",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "일본 은행계좌 필요 · 최소 지급 통상¥1,000",
+      "manualSteps": [
+        "필수 거주·계좌·현금 지급 조건 확인 전 신청 보류"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://af.moshimo.com/af/www/help"
+        }
+      ],
+      "available": "restricted",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공",
+        "Codex 잔여 준비표 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본 쇼핑·패션·광고 플랫폼",
+        "eligibility": "해외 거주 가능, 일본 금융기관 계좌 필요",
+        "payout": "일본 은행계좌 필요",
+        "cookie": "광고주별",
+        "long": "미확인",
+        "rate": "광고주별",
+        "minimum": "통상¥1,000",
+        "store": "https://af.moshimo.com/",
+        "join": "https://af.moshimo.com/",
+        "source": "https://af.moshimo.com/af/www/help",
+        "note": "한국은행만으로 부적합",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 일본 금융기관 계좌 조건."
+        },
+        {
+          "source": "Codex 잔여 준비표 · 사용자 제공",
+          "text": "계정정보·일본 은행계좌 / 해외 거주 신청과 일본계좌 정산 분리"
+        }
+      ],
+      "codexPriority": 8
+    },
+    {
+      "id": "GL071",
+      "name": "ValueCommerce",
+      "category": "일본 ASP",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.valuecommerce.ne.jp/",
+      "signupNote": "일본 쇼핑·금융·전자 제휴 플랫폼 / 해외 거주 가능, 일본 은행 필요",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "일본 은행계좌 필요 · 최소 지급 통상¥1,000",
+      "manualSteps": [
+        "필수 거주·계좌·현금 지급 조건 확인 전 신청 보류"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.valuecommerce.ne.jp/beginners/faq/266.html"
+        }
+      ],
+      "available": "restricted",
+      "origins": [
+        "첨부 77개 조사 · 11/23",
+        "기존 허브",
+        "Gemini 조사 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본 쇼핑·금융·전자 제휴 플랫폼",
+        "eligibility": "해외 거주 가능, 일본 은행 필요",
+        "payout": "일본 은행계좌 필요",
+        "cookie": "광고주별",
+        "long": "미확인",
+        "rate": "광고주별",
+        "minimum": "통상¥1,000",
+        "store": "https://www.valuecommerce.ne.jp/",
+        "join": "https://www.valuecommerce.ne.jp/",
+        "source": "https://www.valuecommerce.ne.jp/beginners/faq/266.html",
+        "note": "한국은행만으로 부적합",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Gemini 조사 · 사용자 제공",
+          "text": "Gemini: 일본 은행계좌 조건."
+        }
+      ]
+    },
+    {
+      "id": "GL072",
+      "name": "afb",
+      "category": "일본 ASP",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.afi-b.com/",
+      "signupNote": "일본 광고주·금융·뷰티 / 해외거주 가능, 일본 은행 필요",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "일본 은행계좌 필요 · 최소 지급 세전 ¥777 초과",
+      "manualSteps": [
+        "필수 거주·계좌·현금 지급 조건 확인 전 신청 보류"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.afi-b.com/faq/about-signup/"
+        }
+      ],
+      "available": "restricted",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 광고주·금융·뷰티",
+        "eligibility": "해외거주 가능, 일본 은행 필요",
+        "payout": "일본 은행계좌 필요",
+        "cookie": "광고주별",
+        "long": "미확인",
+        "rate": "광고주별",
+        "minimum": "세전 ¥777 초과",
+        "store": "https://www.afi-b.com/",
+        "join": "https://www.afi-b.com/",
+        "source": "https://www.afi-b.com/faq/about-signup/",
+        "note": "한국은행만으로 부적합",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL073",
+      "name": "AccessTrade Japan",
+      "category": "일본 ASP",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.accesstrade.ne.jp/",
+      "signupNote": "일본 쇼핑·패션·광고주 / 일본 주소·은행·일본어 사이트 요구",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "일본 은행계좌 필요 · 최소 지급 미확인",
+      "manualSteps": [
+        "필수 거주·계좌·현금 지급 조건 확인 전 신청 보류"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.accesstrade.ne.jp/amp/faq/detail/33"
+        }
+      ],
+      "available": "restricted",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 쇼핑·패션·광고주",
+        "eligibility": "일본 주소·은행·일본어 사이트 요구",
+        "payout": "일본 은행계좌 필요",
+        "cookie": "광고주별",
+        "long": "미확인",
+        "rate": "광고주별",
+        "minimum": "미확인",
+        "store": "https://www.accesstrade.ne.jp/",
+        "join": "https://www.accesstrade.ne.jp/",
+        "source": "https://www.accesstrade.ne.jp/amp/faq/detail/33",
+        "note": "한국은행만으로 부적합",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL074",
+      "name": "LinkShare Japan",
+      "category": "일본 ASP",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.linkshare.ne.jp/",
+      "signupNote": "일본 패션·쇼핑 광고주 / 해외 거주자 해외은행으로 정산 불가",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "해외은행 직접지급 불가 · 최소 지급 ¥1 안내",
+      "manualSteps": [
+        "필수 거주·계좌·현금 지급 조건 확인 전 신청 보류"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.linkshare.ne.jp/ls/agreement/"
+        }
+      ],
+      "available": "restricted",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 패션·쇼핑 광고주",
+        "eligibility": "해외 거주자 해외은행으로 정산 불가",
+        "payout": "해외은행 직접지급 불가",
+        "cookie": "광고주별(기술쿠키와 다름)",
+        "long": "미확인",
+        "rate": "광고주별",
+        "minimum": "¥1 안내",
+        "store": "https://www.linkshare.ne.jp/",
+        "join": "https://www.linkshare.ne.jp/",
+        "source": "https://www.linkshare.ne.jp/ls/agreement/",
+        "note": "Rakuten Advertising 글로벌 네트워크와 혼동 금지",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL075",
+      "name": "NEO7",
+      "category": "일본 ASP",
+      "region": "일본·한국 조건 확인",
+      "url": "https://neo7.net/",
+      "signupNote": "일본 금융 상품·서비스 신청 / 한국 거주 가입·지급 미확인",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "미확인 · 최소 지급 ¥3,000",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://neo7.net/"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 금융 상품·서비스 신청",
+        "eligibility": "한국 거주 가입·지급 미확인",
+        "payout": "미확인",
+        "cookie": "180일 쿠키",
+        "long": "조건부: 신청형 캠페인",
+        "rate": "광고별",
+        "minimum": "¥3,000",
+        "store": "https://neo7.net/",
+        "join": "https://neo7.net/",
+        "source": "https://neo7.net/",
+        "note": "일반 패션 상품 쇼핑으로 오인 금지",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL076",
+      "name": "Zero Affiliate",
+      "category": "일본 ASP",
+      "region": "일본·한국 조건 확인",
+      "url": "https://woomy.me/zero_affiliate/affiliater.php",
+      "signupNote": "일본 광고주 제휴 / 한국 거주 가입·지급 미확인",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://woomy.me/zero_affiliate/affiliater.php"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 광고주 제휴",
+        "eligibility": "한국 거주 가입·지급 미확인",
+        "payout": "미확인",
+        "cookie": "기본90일·일부30일",
+        "long": "아니오",
+        "rate": "광고별",
+        "minimum": "미확인",
+        "store": "https://woomy.me/zero_affiliate/affiliater.php",
+        "join": "https://woomy.me/zero_affiliate/affiliater.php",
+        "source": "https://woomy.me/zero_affiliate/affiliater.php",
+        "note": "한국 출금 미확인",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GL077",
+      "name": "Townlife Affiliate",
+      "category": "일본 ASP",
+      "region": "일본·한국 조건 확인",
+      "url": "https://www.townlife-aff.com/",
+      "signupNote": "일본 부동산·생활 서비스 / 한국 거주 가입·지급 미확인",
+      "specificFields": [
+        "실제 운영 웹사이트·SNS URL 및 트래픽",
+        "타깃 국가·언어·홍보방식",
+        "개별 광고주/매체 승인 요건"
+      ],
+      "settlementNote": "미확인 · 최소 지급 미확인",
+      "manualSteps": [
+        "한국 거주·지급 국가·실제 신청폼 확인",
+        "계정·본인 인증·세금/정산 자료 직접 입력",
+        "약관과 마지막 신청 버튼은 직접 확인"
+      ],
+      "statusNote": "실제 계정 가입·광고주 승인·정산 미확인",
+      "sources": [
+        {
+          "label": "첨부 조사에 기록된 공식 근거 URL",
+          "url": "https://www.townlife-aff.com/info.php?id=58d0b3c61a783&type=glossary"
+        }
+      ],
+      "available": "review",
+      "origins": [
+        "첨부 77개 조사 · 11/23"
+      ],
+      "mergeStatus": "신규 조사 항목 추가",
+      "affiliate": {
+        "goods": "일본 부동산·생활 서비스",
+        "eligibility": "한국 거주 가입·지급 미확인",
+        "payout": "미확인",
+        "cookie": "기본30일",
+        "long": "아니오",
+        "rate": "광고별",
+        "minimum": "미확인",
+        "store": "https://www.townlife-aff.com/",
+        "join": "https://www.townlife-aff.com/",
+        "source": "https://www.townlife-aff.com/info.php?id=58d0b3c61a783&type=glossary",
+        "note": "쇼핑보다 서비스 가입형",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM001",
+      "name": "Trip.com",
+      "category": "여행·숙박",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.trip.com/partners/index",
+      "signupNote": "호텔·항공·여행 예약 / 제공 준비표: 개인 신청·웹사이트 없이 신청 가능; 매체·거주·정산 조건 재확인",
+      "specificFields": [
+        "이메일, 여행 SNS/홍보 채널, 정산 정보",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "정산 정보 실제 신청 화면 확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.trip.com/partners/index"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브",
+        "Codex 잔여 준비표 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "호텔·항공·여행 예약",
+        "eligibility": "제공 준비표: 개인 신청·웹사이트 없이 신청 가능; 매체·거주·정산 조건 재확인",
+        "payout": "정산 정보 실제 신청 화면 확인",
+        "cookie": "자료상 7일(경로별)",
+        "long": "개별 약관 확인",
+        "rate": "요율 비공개/경로별",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.trip.com/partners/index",
+        "store": "https://www.trip.com/",
+        "source": "https://www.trip.com/partners/index",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Codex 잔여 준비표 · 사용자 제공",
+          "text": "이메일·여행 홍보 채널·정산정보 / 개인 신청·웹사이트 필수 아님(제공 자료, 실제 양식 확인)"
+        }
+      ],
+      "codexPriority": 1
+    },
+    {
+      "id": "GM002",
+      "name": "Agoda",
+      "category": "여행·숙박",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://partners.agoda.com/ko-kr/",
+      "signupNote": "아시아·일본 및 글로벌 호텔 / 글로벌 파트너 신청·심사; 사이트/홍보 매체 조건 확인",
+      "specificFields": [
+        "여행 웹사이트·홍보 채널, 정산 조건",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "정산 조건 추가 확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://partners.agoda.com/ko-kr/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브",
+        "Codex 잔여 준비표 · 사용자 제공"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "아시아·일본 및 글로벌 호텔",
+        "eligibility": "글로벌 파트너 신청·심사; 사이트/홍보 매체 조건 확인",
+        "payout": "정산 조건 추가 확인",
+        "cookie": "자료상 1일(경로별)",
+        "long": "개별 약관 확인",
+        "rate": "자료상 4~7%, 경로별 상이",
+        "minimum": "실제 조건 확인",
+        "join": "https://partners.agoda.com/ko-kr/",
+        "store": "https://www.agoda.com/",
+        "source": "https://partners.agoda.com/ko-kr/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      },
+      "researchNotes": [
+        {
+          "source": "Codex 잔여 준비표 · 사용자 제공",
+          "text": "사이트·홍보 채널 / 한국 정산조건 추가 확인"
+        }
+      ],
+      "codexPriority": 2
+    },
+    {
+      "id": "GM003",
+      "name": "Travelpayouts",
+      "category": "여행·네트워크",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.travelpayouts.com/",
+      "signupNote": "여행 예약 제휴 통합 네트워크 / 제공 자료상 무료 가입; 브랜드별 승인",
+      "specificFields": [
+        "여행 채널 URL·트래픽·브랜드별 신청",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "자료상 PayPal $50 / 은행 $400(후기 기준, 재확인)",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.travelpayouts.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "여행 예약 제휴 통합 네트워크",
+        "eligibility": "제공 자료상 무료 가입; 브랜드별 승인",
+        "payout": "자료상 PayPal $50 / 은행 $400(후기 기준, 재확인)",
+        "cookie": "브랜드별",
+        "long": "개별 약관 확인",
+        "rate": "브랜드별",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.travelpayouts.com/",
+        "store": "https://www.travelpayouts.com/",
+        "source": "https://www.travelpayouts.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM004",
+      "name": "GetYourGuide",
+      "category": "여행·체험",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.getyourguide.com/",
+      "signupNote": "투어·입장권·액티비티 / 신청·매체 심사; 한국 거주·지급 조건 확인",
+      "specificFields": [
+        "여행 콘텐츠 URL·직접 제휴 또는 네트워크 경로 확인",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "제공 자료상 월간, 최소액 재확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.travelpayouts.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "투어·입장권·액티비티",
+        "eligibility": "신청·매체 심사; 한국 거주·지급 조건 확인",
+        "payout": "제공 자료상 월간, 최소액 재확인",
+        "cookie": "자료상 31일(웹)",
+        "long": "개별 약관 확인",
+        "rate": "자료상 8%",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.getyourguide.com/",
+        "store": "https://www.getyourguide.com/",
+        "source": "https://www.travelpayouts.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM005",
+      "name": "Viator",
+      "category": "여행·체험",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://partnerhelp.viator.com/",
+      "signupNote": "투어·체험 / 직접 프로그램 또는 여행 제휴 경로 확인",
+      "specificFields": [
+        "여행 매체 및 실제 체험 완료 기준",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "PayPal/은행 조건 재확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://partnerhelp.viator.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "투어·체험",
+        "eligibility": "직접 프로그램 또는 여행 제휴 경로 확인",
+        "payout": "PayPal/은행 조건 재확인",
+        "cookie": "자료상 30일",
+        "long": "개별 약관 확인",
+        "rate": "자료상 8%",
+        "minimum": "실제 조건 확인",
+        "join": "https://partnerhelp.viator.com/",
+        "store": "https://www.viator.com/",
+        "source": "https://partnerhelp.viator.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM006",
+      "name": "Klook",
+      "category": "여행·체험",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.travelpayouts.com/",
+      "signupNote": "일본 교통패스·입장권·eSIM / Travelpayouts 등 개별 승인 확인",
+      "specificFields": [
+        "일본 여행 콘텐츠 URL; 광고주 Klook 찾기",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "이용 완료·지급조건 확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.travelpayouts.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본 교통패스·입장권·eSIM",
+        "eligibility": "Travelpayouts 등 개별 승인 확인",
+        "payout": "이용 완료·지급조건 확인",
+        "cookie": "자료상 30일(상품별)",
+        "long": "개별 약관 확인",
+        "rate": "자료상 2~5% (경로별)",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.travelpayouts.com/",
+        "store": "https://www.klook.com/ko/",
+        "source": "https://www.travelpayouts.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM007",
+      "name": "KKday",
+      "category": "여행·체험",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://kkpartners.kkday.com/",
+      "signupNote": "일본·아시아 투어·패스 / KKpartners 신청·심사 확인",
+      "specificFields": [
+        "채널 URL·콘텐츠 주제",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "자료상 최소 USD 100; 재확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://kkpartners.kkday.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본·아시아 투어·패스",
+        "eligibility": "KKpartners 신청·심사 확인",
+        "payout": "자료상 최소 USD 100; 재확인",
+        "cookie": "미확인",
+        "long": "개별 약관 확인",
+        "rate": "크리에이터 요율 미공개",
+        "minimum": "실제 조건 확인",
+        "join": "https://kkpartners.kkday.com/",
+        "store": "https://www.kkday.com/ko",
+        "source": "https://kkpartners.kkday.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM008",
+      "name": "Booking.com",
+      "category": "여행·숙박",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.travelpayouts.com/",
+      "signupNote": "글로벌 숙박·항공·렌터카 / Travelpayouts 경유 웹사이트 제한 자료; 직접 경로 조건 확인",
+      "specificFields": [
+        "여행 블로그·웹사이트 URL·매체 심사",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "숙박 완료 후 확정·정산 확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.travelpayouts.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "글로벌 숙박·항공·렌터카",
+        "eligibility": "Travelpayouts 경유 웹사이트 제한 자료; 직접 경로 조건 확인",
+        "payout": "숙박 완료 후 확정·정산 확인",
+        "cookie": "자료상 세션(경로별)",
+        "long": "개별 약관 확인",
+        "rate": "경로별(자료상 4~5%)",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.travelpayouts.com/",
+        "store": "https://www.booking.com/",
+        "source": "https://www.travelpayouts.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM009",
+      "name": "Expedia",
+      "category": "여행·숙박",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.expedia.com/",
+      "signupNote": "숙소·항공·패키지 / 직접/여행 네트워크 경로 확인",
+      "specificFields": [
+        "여행 매체·대상 국가·승인",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "이용 완료 후 정산",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.travelpayouts.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "숙소·항공·패키지",
+        "eligibility": "직접/여행 네트워크 경로 확인",
+        "payout": "이용 완료 후 정산",
+        "cookie": "자료상 최대 7일",
+        "long": "개별 약관 확인",
+        "rate": "자료상 2~6%, 상품별",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.expedia.com/",
+        "store": "https://www.expedia.com/",
+        "source": "https://www.travelpayouts.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM010",
+      "name": "Airalo",
+      "category": "여행·eSIM",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.airalo.com/",
+      "signupNote": "일본·글로벌 eSIM / Impact 경유; SNS·블로그 등 신청 조건 확인",
+      "specificFields": [
+        "여행 콘텐츠·Impact 계정",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 수취 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.airalo.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본·글로벌 eSIM",
+        "eligibility": "Impact 경유; SNS·블로그 등 신청 조건 확인",
+        "payout": "한국 수취 미확인",
+        "cookie": "자료상 30일",
+        "long": "개별 약관 확인",
+        "rate": "자료상 최대 10%",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.airalo.com/",
+        "store": "https://www.airalo.com/",
+        "source": "https://www.airalo.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM011",
+      "name": "Holafly",
+      "category": "여행·eSIM",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://esim.holafly.com/",
+      "signupNote": "해외 eSIM / 문의 폼 및 크리에이터 심사",
+      "specificFields": [
+        "여행 콘텐츠·전용 할인/제휴 조건 확인",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 정산 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://esim.holafly.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "해외 eSIM",
+        "eligibility": "문의 폼 및 크리에이터 심사",
+        "payout": "한국 정산 미확인",
+        "cookie": "미확인",
+        "long": "개별 약관 확인",
+        "rate": "신청 후 안내",
+        "minimum": "실제 조건 확인",
+        "join": "https://esim.holafly.com/",
+        "store": "https://esim.holafly.com/",
+        "source": "https://esim.holafly.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM012",
+      "name": "Ubigi",
+      "category": "여행·eSIM",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://cellulardata.ubigi.com/",
+      "signupNote": "일본·글로벌 eSIM / 공식 사이트에서 제휴 신청 경로 확인",
+      "specificFields": [
+        "여행 콘텐츠·제휴 심사",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 정산 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://cellulardata.ubigi.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "일본·글로벌 eSIM",
+        "eligibility": "공식 사이트에서 제휴 신청 경로 확인",
+        "payout": "한국 정산 미확인",
+        "cookie": "미확인",
+        "long": "개별 약관 확인",
+        "rate": "비공개",
+        "minimum": "실제 조건 확인",
+        "join": "https://cellulardata.ubigi.com/",
+        "store": "https://cellulardata.ubigi.com/",
+        "source": "https://cellulardata.ubigi.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM013",
+      "name": "SafetyWing",
+      "category": "여행·보험",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://safetywing.com/",
+      "signupNote": "장기 여행·노마드 보험 / 국내 홍보·보험 관련 자격과 프로그램 조건 확인 전 보류",
+      "specificFields": [
+        "보험 광고·권유 규정과 거주/지급 조건 별도 확인",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 지급 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "restricted",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://safetywing.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "장기 여행·노마드 보험",
+        "eligibility": "국내 홍보·보험 관련 자격과 프로그램 조건 확인 전 보류",
+        "payout": "한국 지급 미확인",
+        "cookie": "364일(제3자 자료, 공식 재확인)",
+        "long": "364일 주장: 제3자 근거, 재검증 필요",
+        "rate": "10% 반복(제3자 자료)",
+        "minimum": "실제 조건 확인",
+        "join": "https://safetywing.com/",
+        "store": "https://safetywing.com/",
+        "source": "https://safetywing.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM014",
+      "name": "AirHelp+",
+      "category": "여행·보험",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.airhelp.com/",
+      "signupNote": "항공 지연 보상 구독 / 개별 가입·판매지역 확인",
+      "specificFields": [
+        "여행 채널·대상 국가",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "자료상 비EU 최소 €100, 재확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.airhelp.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "항공 지연 보상 구독",
+        "eligibility": "개별 가입·판매지역 확인",
+        "payout": "자료상 비EU 최소 €100, 재확인",
+        "cookie": "자료상 30일",
+        "long": "개별 약관 확인",
+        "rate": "자료상 약 20%",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.airhelp.com/",
+        "store": "https://www.airhelp.com/",
+        "source": "https://www.airhelp.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM015",
+      "name": "Surfshark",
+      "category": "VPN·보안",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://surfshark.com/",
+      "signupNote": "VPN·보안 / 글로벌 신청·심사",
+      "specificFields": [
+        "IT·여행 콘텐츠 및 대상 국가",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 정산 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://surfshark.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "VPN·보안",
+        "eligibility": "글로벌 신청·심사",
+        "payout": "한국 정산 미확인",
+        "cookie": "자료상 30일",
+        "long": "개별 약관 확인",
+        "rate": "자료상 40%",
+        "minimum": "실제 조건 확인",
+        "join": "https://surfshark.com/",
+        "store": "https://surfshark.com/",
+        "source": "https://surfshark.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM016",
+      "name": "ExpressVPN",
+      "category": "VPN·보안",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.expressvpn.com/",
+      "signupNote": "VPN / 글로벌 신청·심사",
+      "specificFields": [
+        "IT·여행 콘텐츠",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "자료상 PayPal $100/송금 $1000, 재확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.expressvpn.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "VPN",
+        "eligibility": "글로벌 신청·심사",
+        "payout": "자료상 PayPal $100/송금 $1000, 재확인",
+        "cookie": "자료상 30일",
+        "long": "개별 약관 확인",
+        "rate": "자료상 정액 $13/$22/$36",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.expressvpn.com/",
+        "store": "https://www.expressvpn.com/",
+        "source": "https://www.expressvpn.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM017",
+      "name": "PureVPN",
+      "category": "VPN·보안",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.purevpn.com/",
+      "signupNote": "VPN / 글로벌 신청·심사",
+      "specificFields": [
+        "제휴 프로그램의 실제 가입 경로 확인",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 지급 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.purevpn.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "VPN",
+        "eligibility": "글로벌 신청·심사",
+        "payout": "한국 지급 미확인",
+        "cookie": "자료상 90일",
+        "long": "개별 약관 확인",
+        "rate": "자료상 최대 100%+갱신 35%, 재확인",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.purevpn.com/",
+        "store": "https://www.purevpn.com/",
+        "source": "https://www.purevpn.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM018",
+      "name": "TunnelBear",
+      "category": "VPN·보안",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.tunnelbear.com/",
+      "signupNote": "VPN / 네트워크 경유 신청 확인",
+      "specificFields": [
+        "IT 채널·CJ 경로 확인",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 지급 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.tunnelbear.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "VPN",
+        "eligibility": "네트워크 경유 신청 확인",
+        "payout": "한국 지급 미확인",
+        "cookie": "자료상 30~45일",
+        "long": "개별 약관 확인",
+        "rate": "자료상 50%",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.tunnelbear.com/",
+        "store": "https://www.tunnelbear.com/",
+        "source": "https://www.tunnelbear.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM019",
+      "name": "Kit (ConvertKit)",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://kit.com/",
+      "signupNote": "이메일·뉴스레터 / 글로벌 제휴·매체 심사",
+      "specificFields": [
+        "뉴스레터·마케팅 콘텐츠",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 지급 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://kit.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "이메일·뉴스레터",
+        "eligibility": "글로벌 제휴·매체 심사",
+        "payout": "한국 지급 미확인",
+        "cookie": "자료상 30일",
+        "long": "개별 약관 확인",
+        "rate": "자료상 30% (과거 조건 포함, 재확인)",
+        "minimum": "실제 조건 확인",
+        "join": "https://kit.com/",
+        "store": "https://kit.com/",
+        "source": "https://kit.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM020",
+      "name": "Canva",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.canva.com/",
+      "signupNote": "디자인·콘텐츠 제작 / 신규 공개 제휴 운영·자격 재확인",
+      "specificFields": [
+        "현재 제휴 모집 여부 확인",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 지급 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.canva.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "디자인·콘텐츠 제작",
+        "eligibility": "신규 공개 제휴 운영·자격 재확인",
+        "payout": "한국 지급 미확인",
+        "cookie": "자료상 30일(과거 조건 가능)",
+        "long": "개별 약관 확인",
+        "rate": "자료상 최대 $36 CPA; 재확인",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.canva.com/",
+        "store": "https://www.canva.com/",
+        "source": "https://www.canva.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM021",
+      "name": "NET-A-PORTER",
+      "category": "패션·명품",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://rakutenadvertising.com/",
+      "signupNote": "명품 여성복·뷰티 / Rakuten 등 광고주별 매체 승인 확인",
+      "specificFields": [
+        "패션·뷰티 사이트 및 광고주 찾기",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "네트워크별 한국 지급 확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://rakutenadvertising.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "명품 여성복·뷰티",
+        "eligibility": "Rakuten 등 광고주별 매체 승인 확인",
+        "payout": "네트워크별 한국 지급 확인",
+        "cookie": "자료상 30일(디렉토리)",
+        "long": "개별 약관 확인",
+        "rate": "공식 요율 미확인",
+        "minimum": "실제 조건 확인",
+        "join": "https://rakutenadvertising.com/",
+        "store": "https://www.net-a-porter.com/",
+        "source": "https://rakutenadvertising.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM022",
+      "name": "Cettire",
+      "category": "패션·명품",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://partnerize.com/",
+      "signupNote": "명품 패션 / Partnerize 경로/개별 심사 확인",
+      "specificFields": [
+        "패션 채널·광고주 심사",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 지급 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://partnerize.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "명품 패션",
+        "eligibility": "Partnerize 경로/개별 심사 확인",
+        "payout": "한국 지급 미확인",
+        "cookie": "미확인",
+        "long": "개별 약관 확인",
+        "rate": "공식 요율 미확인",
+        "minimum": "실제 조건 확인",
+        "join": "https://partnerize.com/",
+        "store": "https://www.cettire.com/",
+        "source": "https://partnerize.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM023",
+      "name": "LUISAVIAROMA",
+      "category": "패션·명품",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.cj.com/",
+      "signupNote": "명품 의류·가방 / CJ 경로/개별 심사 확인",
+      "specificFields": [
+        "패션 채널·광고주 심사",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 지급 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.cj.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "명품 의류·가방",
+        "eligibility": "CJ 경로/개별 심사 확인",
+        "payout": "한국 지급 미확인",
+        "cookie": "미확인",
+        "long": "개별 약관 확인",
+        "rate": "공식 요율 미확인",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.cj.com/",
+        "store": "https://www.luisaviaroma.com/",
+        "source": "https://www.cj.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM024",
+      "name": "Rebag",
+      "category": "패션·명품",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.cj.com/",
+      "signupNote": "중고 명품 가방 / CJ 경로/개별 심사 확인",
+      "specificFields": [
+        "명품 비교 콘텐츠·광고주 승인",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 지급 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "review",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.cj.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "중고 명품 가방",
+        "eligibility": "CJ 경로/개별 심사 확인",
+        "payout": "한국 지급 미확인",
+        "cookie": "미확인",
+        "long": "개별 약관 확인",
+        "rate": "공식 요율 미확인",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.cj.com/",
+        "store": "https://www.rebag.com/",
+        "source": "https://www.cj.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
+    },
+    {
+      "id": "GM025",
+      "name": "Shopify Collabs",
+      "category": "AI·SaaS",
+      "region": "글로벌 · 한국 거주 조건 확인",
+      "url": "https://www.shopify.com/",
+      "signupNote": "Shopify 입점 브랜드 상품 추천 / 제공 자료상 공개 신규 창작자 탐색 제한; 브랜드 직접 초대 예외 확인",
+      "specificFields": [
+        "한국 공개 탐색 제한 검토; Shopify 서비스 Affiliate와 분리",
+        "운영 중인 실제 채널 URL·언어·대상국·실제 팔로워",
+        "개인/사업자 신청 형태 확인"
+      ],
+      "settlementNote": "한국 계좌·승인 미확인",
+      "manualSteps": [
+        "신청 국가·매체 조건 확인",
+        "민감정보와 인증 직접 처리",
+        "최종 신청·약관 직접 확인"
+      ],
+      "statusNote": "실제 가입·승인·정산 미확인",
+      "available": "restricted",
+      "sources": [
+        {
+          "label": "공식 서비스/네트워크 진입점 · 신청 경로 재확인",
+          "url": "https://www.shopify.com/"
+        }
+      ],
+      "origins": [
+        "Gemini 조사 · 사용자 제공",
+        "기존 허브"
+      ],
+      "mergeStatus": "기존 후속 이름 → 상세 카드 전환",
+      "affiliate": {
+        "goods": "Shopify 입점 브랜드 상품 추천",
+        "eligibility": "제공 자료상 공개 신규 창작자 탐색 제한; 브랜드 직접 초대 예외 확인",
+        "payout": "한국 계좌·승인 미확인",
+        "cookie": "미확인",
+        "long": "개별 약관 확인",
+        "rate": "브랜드별",
+        "minimum": "실제 조건 확인",
+        "join": "https://www.shopify.com/",
+        "store": "https://www.shopify.com/",
+        "source": "https://www.shopify.com/",
+        "note": "Gemini 제공 자료 요약. 일부 제3자 자료 및 네트워크별 조건 포함. 이번 반영에서 독립 재검증하지 않음.",
+        "priority": 0
+      }
     }
   ],
   "deferredGroups": [
@@ -524,16 +5508,6 @@
     {
       "name": "여행·숙박·항공·체험 (프로그램별 승인 별도)",
       "sites": [
-        "Travelpayouts",
-        "Trip.com",
-        "GetYourGuide",
-        "Viator",
-        "Klook",
-        "KKday / KKpartners",
-        "Booking.com",
-        "Agoda",
-        "Expedia",
-        "AirHelp+",
         "WAUG",
         "Airbnb — 신규 제휴 운영 여부 재확인",
         "라쿠텐 트래블",
@@ -543,85 +5517,7 @@
     {
       "name": "여행 eSIM·보험",
       "sites": [
-        "Airalo",
-        "Holafly",
-        "Ubigi",
-        "SafetyWing",
         "와이파이도시락 / 도시락eSIM — 공개 상시 제휴 미확인"
-      ]
-    },
-    {
-      "name": "해외 쇼핑·K뷰티·일본 상품",
-      "sites": [
-        "AliExpress Portals",
-        "Temu 제휴",
-        "Temu 인플루언서 — 일반 제휴와 별도",
-        "YesStyle",
-        "StyleKorean",
-        "Stylevana",
-        "올리브영 글로벌 O.Y Creators",
-        "ZenMarket",
-        "CDJapan",
-        "SmikieJapan — 첨부 표기·정확한 서비스와 조건 재확인"
-      ]
-    },
-    {
-      "name": "명품 패션",
-      "sites": [
-        "SSENSE",
-        "Mytheresa",
-        "Farfetch",
-        "NET-A-PORTER",
-        "Cettire",
-        "LUISAVIAROMA",
-        "Rebag"
-      ]
-    },
-    {
-      "name": "글로벌 제휴 네트워크",
-      "sites": [
-        "Impact",
-        "PartnerStack",
-        "Rakuten Advertising",
-        "CJ",
-        "Awin",
-        "Partnerize"
-      ]
-    },
-    {
-      "name": "B2B·AI·SaaS 제휴",
-      "sites": [
-        "HubSpot",
-        "Shopify Affiliate",
-        "Shopify Collabs — Affiliate와 별도",
-        "systeme.io",
-        "ElevenLabs",
-        "invideo AI",
-        "Higgsfield AI",
-        "Webflow",
-        "Kit / 구 ConvertKit",
-        "Canva",
-        "GetResponse",
-        "CapCut — 국가·구매자 조건 확인"
-      ]
-    },
-    {
-      "name": "VPN·보안 제휴",
-      "sites": [
-        "NordVPN",
-        "Surfshark",
-        "ExpressVPN",
-        "PureVPN",
-        "TunnelBear"
-      ]
-    },
-    {
-      "name": "일본 내수 제휴 (주소·계좌·거주 조건별 검증)",
-      "sites": [
-        "A8.net",
-        "ValueCommerce / 밸류커머스",
-        "もしも / 모시모",
-        "Amazon.co.jp Associates"
       ]
     },
     {
@@ -644,5 +5540,24 @@
         "YouTube Shopping 제휴: 한국은 지원 국가. YPP·채널 자격 및 Studio의 실제 가입 가능 여부 확인. 첨부의 한국 미출시 문장은 사용하지 않음. 공식 https://support.google.com/youtube/answer/13376398?hl=ko"
       ]
     }
-  ]
+  ],
+  "affiliateMerge": {
+    "date": "2026-11-25",
+    "sourceLabels": [
+      "기존 허브",
+      "첨부 77개 조사 · 11/23",
+      "Gemini 조사 · 사용자 제공",
+      "Codex 잔여 준비표 · 사용자 제공"
+    ],
+    "oldCards": 17,
+    "researchRows": 77,
+    "existingEnriched": 2,
+    "newFrom77": 75,
+    "geminiAdditional": 25,
+    "promoted": 58,
+    "remainingDeferred": 17,
+    "duplicateRows": 0,
+    "codexRows": 8,
+    "note": "자료 기반 통합이며 현재 약관이나 실제 계정 승인에 대한 독립 재검증은 아님. 개인정보 실제 값은 공개하지 않음."
+  }
 }

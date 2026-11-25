@@ -12,7 +12,7 @@
   const statusKeys = new Set(statuses.map(x => x[0]));
   const storageKey = 'business-hub-registration-status-v1';
   const fields = [
-    ['name','이름'],['brand','브랜드·활동명'],['email','가입용 이메일'],['phone','연락처'],
+    ['name','이름'],['brand','브랜드·활동명'],['email','가입용 이메일'],['phone','연락처'],['login','로그인 방식'],['country','거주 국가'],['target','타깃 국가·언어'],['traffic','실제 채널 실적'],
     ['business','신청 유형'],['region','활동 지역'],['website','홈페이지·포트폴리오'],['sns','SNS·채널 URL'],['service','서비스·콘텐츠 소개']
   ];
   // Personal values and aliases live only in memory. Only enum status codes are persisted below.
@@ -94,25 +94,27 @@
       + '보고: 사이트 | 사용 계정(가림) | 가입 상태 | 승인 상태 | 정산 상태 | 내가 할 일. 민감값은 보고서·GitHub에 넣지 마라.';
   }
   function siteCard(site) {
-    const label = {ready:'준비 항목 확인',review:'신청 조건 재확인',closed:'서비스 종료 · 신청 제외'}[site.available] || '조건 확인 필요';
-    const badge = site.available === 'closed' ? 'off' : site.available === 'review' ? 'warn' : '';
+    const label = {ready:'준비 항목 확인',review:'자료 반영 · 공식 조건 재확인',restricted:'조건 제한 · 신청 보류',closed:'서비스 종료 · 신청 제외'}[site.available] || '조건 확인 필요';
+    const badge = ['closed','restricted'].includes(site.available) ? 'off' : site.available === 'review' ? 'warn' : '';
     const sourceLinks = (site.sources || []).map(s => externalLink(s.url,s.label)).join('');
     const items = (site.specificFields || []).map(s => '<li>' + esc(s) + '</li>').join('');
     const manual = (site.manualSteps || []).map(s => '<li>' + esc(s) + '</li>').join('');
+    const a=site.affiliate; const origin=(site.origins||[]).map(o=>'<span class="hub-origin">'+esc(o)+'</span>').join(''); const notes=(site.researchNotes||[]).map(n=>'<p class="hub-source-note"><strong>'+esc(n.source)+'</strong> · '+esc(n.text)+'</p>').join('');
+    const details=a?'<div class="hub-affiliate-metrics">'+[['판매 상품',a.goods],['한국 거주 신청',a.eligibility],['한국 정산',a.payout],['인정기간',a.cookie],['180일·장기 전환',a.long],['수수료',a.rate],['최소 지급',a.minimum]].map(([k,v])=>'<div><span>'+esc(k)+'</span><b>'+esc(v)+'</b></div>').join('')+'</div><p class="hub-compact">'+esc(a.note)+'</p><div class="hub-actions">'+externalLink(a.store,'판매 상품·서비스 보기')+externalLink(a.source,'조사 근거 보기')+'</div>':'';
     return '<article class="hub-site-card ' + (site.available === 'closed'?'closed':'') + '">'
       + '<div class="hub-heading"><h3>' + esc(site.id) + ' · ' + esc(site.name) + '</h3><span class="hub-badge ' + badge + '">' + label + '</span></div>'
       + '<div class="hub-site-meta">' + esc(site.category) + ' · ' + esc(site.region) + '</div>'
-      + '<p>' + esc(site.signupNote) + '</p>'
+      + '<div class="hub-origin-row">'+origin+'</div><p class="hub-compact">'+esc(site.mergeStatus||'')+'</p>' + '<p>' + esc(site.signupNote) + '</p>' + (a?'<p class="hub-affiliate-key"><strong>'+esc(a.rate)+'</strong> · '+esc(a.cookie)+'</p>':'')
       + '<p class="hub-compact">계정 상태: ' + esc(site.statusNote || '실제 가입 여부 미확인') + '</p>'
-      + '<div class="hub-actions">' + externalLink(site.url,site.available==='closed'?'종료 안내 확인':'공식 사이트 열기')
-      + (site.available !== 'closed' ? '<button type="button" data-copy-site="' + esc(site.id) + '">실행 프롬프트 복사</button>' : '') + '</div>'
+      + '<div class="hub-actions">' + externalLink(site.url,site.available==='closed'?'종료 안내 확인':site.available==='restricted'?'제한 조건 확인':'공식 신청·안내 열기')
+      + (!['closed','restricted'].includes(site.available) ? '<button type="button" data-copy-site="' + esc(site.id) + '">실행 프롬프트 복사</button>' : '') + '</div>'
       + '<details><summary>내가 준비할 정보 · 정산 · 직접 할 일</summary><dl><dt>공통 정보</dt><dd>계정 선택 · 이름/브랜드 · 연락처 · 채널/포트폴리오. 실제 양식에서 필요한 항목만 사용.</dd><dt>이 사이트의 추가 정보</dt><dd><ul>' + items + '</ul></dd><dt>정산 단계</dt><dd>' + esc(site.settlementNote) + '</dd><dt>내가 직접 확인할 단계</dt><dd><ul>' + manual + '</ul></dd></dl>'
-      + '<div class="hub-sources"><strong>공식 근거</strong>' + sourceLinks + '</div></details></article>';
+      +details+notes+ '<div class="hub-sources"><strong>기존 근거 · 제공 자료 링크</strong>' + sourceLinks + '</div></details></article>';
   }
   function renderSites() {
     const q = $('hub-site-search').value.trim().toLowerCase();
-    const category = $('hub-site-category').value;
-    const filtered = siteData.filter(s => (category === 'all' || s.category === category) && [s.name,s.category,s.signupNote,(s.specificFields||[]).join(' ')].join(' ').toLowerCase().includes(q));
+    const category = $('hub-site-category').value; const scope=$('hub-source-filter').value;
+    const filtered = siteData.filter(s => (category === 'all' || s.category === category) && (scope==='all'||(scope==='domestic'&&s.id.startsWith('KR'))||(scope==='codex'&&s.codexPriority)||(scope==='top'&&s.affiliate?.priority)||(scope==='gemini'&&(s.origins||[]).some(o=>o.startsWith('Gemini')))||(scope==='research'&&(s.origins||[]).some(o=>o.startsWith('첨부 77')))||(scope==='new'&&!s.id.startsWith('KR'))||(scope==='restricted'&&['restricted','closed'].includes(s.available))||(scope==='long'&&['HubSpot Affiliate','systeme.io','Shopify Affiliate','invideo AI Affiliate','Zoho Japan Affiliate','WonderFox RecoveryFox AI','Interconnect Japan Web Linker','NEO7','SafetyWing'].includes(s.name))) && [s.name,s.category,s.signupNote,JSON.stringify(s.affiliate||{}),...(s.origins||[]),(s.specificFields||[]).join(' ')].join(' ').toLowerCase().includes(q)).sort((a,b)=>scope==='codex'?a.codexPriority-b.codexPriority:scope==='top'?a.affiliate.priority-b.affiliate.priority:0);
     $('hub-sites').innerHTML = filtered.length ? filtered.map(siteCard).join('') : '<p class="hub-empty">검색에 맞는 사이트가 없습니다.</p>';
     $('hub-sites-feedback').textContent = '전체 ' + siteData.length + '개 중 ' + filtered.length + '개 표시 · ‘준비 항목 확인’은 실제 가입 성공을 뜻하지 않습니다.';
   }
@@ -122,7 +124,7 @@
       $('hub-status-rows').innerHTML = '<tr><td colspan="4">계정을 먼저 선택하세요. 모든 사이트의 실제 가입 여부는 미확인 상태에서 시작합니다.</td></tr>';
       $('hub-status-summary').textContent = '계정 선택 전'; return;
     }
-    const active = siteData.filter(s => s.available !== 'closed');
+    const active = siteData.filter(s => !['closed','restricted'].includes(s.available));
     $('hub-status-rows').innerHTML = active.map(site => {
       const row = state[acc][site.id] || {};
       return '<tr><th scope="row">' + esc(site.name) + '</th>' + ['signup','approval','payout'].map((stage,i) => '<td><select data-site="' + esc(site.id) + '" data-stage="' + stage + '" aria-label="' + esc(site.name) + ' ' + ['계정 가입','판매 매체 승인','정산 등록'][i] + '">' + statuses.map(([key,label]) => '<option value="' + key + '"' + ((row[stage]||'unknown')===key?' selected':'') + '>' + label + '</option>').join('') + '</select></td>').join('') + '</tr>';
@@ -131,7 +133,7 @@
     $('hub-status-summary').textContent = (profiles[acc].alias || ('계정 ' + acc)) + ' · 가입 직접 확인 기록 ' + verified + '/' + active.length;
   }
   function renderDeferred(groups) {
-    $('hub-deferred').innerHTML = '<details class="hub-deferred"><summary>🌏 해외·여행·AI 제휴 목록도 보기</summary><p class="hub-sub">이번 국내 가입 준비와 분리한 후속 검토 목록입니다. 가입·심사·한국 정산 가능 여부는 각각 확인해야 합니다.</p>' + groups.map(g => '<h3>' + esc(g.name) + '</h3><p>' + (g.sites||[]).map(v => esc(typeof v === 'string'?v:v.name)).join(' · ') + '</p>').join('') + '</details>';
+    $('hub-deferred').innerHTML = '<details class="hub-deferred"><summary>🌏 해외·여행·AI 제휴 목록도 보기</summary><p class="hub-sub">상세 카드로 전환한 항목은 중복 제거했습니다. 아래는 아직 개별 카드로 전환하지 않은 후속 검토 목록입니다. 가입·심사·한국 정산 가능 여부는 각각 확인해야 합니다.</p>' + groups.map(g => '<h3>' + esc(g.name) + '</h3><p>' + (g.sites||[]).map(v => esc(typeof v === 'string'?v:v.name)).join(' · ') + '</p>').join('') + '</details>';
   }
   function renderFinance() {
     $('hub-channels').innerHTML = (financeData.channels || []).map((c,i) => '<article class="hub-channel"><span class="hub-badge ' + (c.verified?'':'warn') + '">' + (c.verified?'채널 확인':'URL 확인 필요') + '</span><h3>' + (i+1) + '. ' + esc(c.name) + '</h3><p>' + esc(c.role) + '</p><p class="hub-compact">' + esc(c.status) + '</p>' + (c.url?externalLink(c.url,'채널 열기'):'<span class="hub-compact">원본 URL 입력 대기</span>') + '</article>').join('');
@@ -164,7 +166,7 @@
     copy(lines.join('\n'));
   });
   $('hub-site-search').addEventListener('input',renderSites);
-  $('hub-site-category').addEventListener('change',renderSites);
+  $('hub-site-category').addEventListener('change',renderSites); $('hub-source-filter').addEventListener('change',renderSites);
   $('hub-sites').addEventListener('click', e => {
     const btn = e.target.closest('[data-copy-site]'); if(!btn) return;
     const site = siteData.find(s => s.id===btn.dataset.copySite); if(site) copy(sitePrompt(site));
@@ -178,7 +180,7 @@
     if(!state[acc][el.dataset.site]) state[acc][el.dataset.site]={};
     state[acc][el.dataset.site][el.dataset.stage]=el.value;
     persistStates();
-    const active=siteData.filter(s=>s.available!=='closed');
+    const active=siteData.filter(s=>!['closed','restricted'].includes(s.available));
     const verified=active.filter(s=>(state[acc][s.id]||{}).signup==='verified').length;
     $('hub-status-summary').textContent=(profiles[acc].alias||('계정 '+acc))+' · 가입 직접 확인 기록 '+verified+'/'+active.length;
   });
@@ -193,9 +195,9 @@
     ]);
     if(results[0].status==='fulfilled') {
       const data=results[0].value; siteData=Array.isArray(data.sites)?data.sites:[];
-      $('hub-site-count').textContent=String(siteData.length);
+      $('hub-site-count').textContent=String(siteData.length); const m=data.affiliateMerge; if(m){$('hub-merge-summary').textContent='기존 '+m.oldCards+'개 유지 · 77개 원문 중 신규 '+m.newFrom77+'개 · 기존 중복 보강 '+m.existingEnriched+'개 · Gemini 추가 '+m.geminiAdditional+'개 · Codex 8개는 동일 카드에 표시 · 전체 '+siteData.length+'개 · 중복 '+m.duplicateRows+'개';}
       $('hub-site-category').innerHTML='<option value="all">전체 분류</option>'+Array.from(new Set(siteData.map(s=>s.category))).map(c=>'<option value="'+esc(c)+'">'+esc(c)+'</option>').join('');
-      $('hub-copy-site').innerHTML='<option value="">대상 사이트 선택</option>'+siteData.filter(s=>s.available!=='closed').map(s=>'<option value="'+esc(s.id)+'">'+esc(s.name)+'</option>').join('');
+      $('hub-copy-site').innerHTML='<option value="">대상 사이트 선택</option>'+siteData.filter(s=>!['closed','restricted'].includes(s.available)).map(s=>'<option value="'+esc(s.id)+'">'+esc(s.name)+'</option>').join('');
       readStates();renderSites();renderStatuses();renderDeferred(data.deferredGroups||[]);
     } else {
       $('hub-sites').innerHTML='<p class="hub-empty hub-error">사이트 목록을 불러오지 못했습니다. 연결을 확인하고 새로고침하세요. 가입 성공으로 표시하지 않습니다.</p>';

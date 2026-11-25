@@ -41,7 +41,7 @@ const ITEMS=[{"id":"jtbc-thumbnail-benchmark","hide":1,"studio":"thumb","sub":"j
 // Keep pre-dashboard nav-N bookmarks stable when adding first-menu entries.
 ITEMS.forEach((item,index)=>{if(!item.id)item.id=`nav-${index}`;});
 ITEMS.unshift({id:'design-dashboard',g:'🟥 썸네일 · 영상편집',t:'🎨 통합 디자인 대시보드 · 사진24장·색·프롬프트',f:'design-dashboard-20261124/index.html',type:'page',red:1,top:1});
-ITEMS.unshift({id:'statistics-material',g:'🟥 썸네일 · 영상편집',t:'💎 통계·지도·종이 재질 스튜디오',f:'../research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/',type:'page',red:1,top:1});
+ITEMS.unshift({id:'statistics-material',g:'🟥 썸네일 · 영상편집',t:'🌸 통계·지도·종이 재질 스튜디오 · 11/25',f:'../research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/?v=20261125-r2&focus=1',type:'page',red:1,top:1});
 const japanSocial={id:'japan-social',g:'외국인이 본 일본 · SNS 추가 수집',t:'일본 반응 30개 분야 · 여행 하루 / 뷰티부터',f:'../japan-social/',type:'page',lime:1};
 ITEMS.push(japanSocial);
 const menu=document.getElementById('menu'),view=document.getElementById('view'),ttl=document.getElementById('ttl'),q=document.getElementById('q'),op=document.getElementById('op');

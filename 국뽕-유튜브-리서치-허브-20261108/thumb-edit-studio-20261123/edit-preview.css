@@ -4,3 +4,37 @@
 
 .word-line{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;align-items:start}.word-line>.play{margin-top:2px}
 @media(max-width:740px) and (min-height:580px){.monitor{position:sticky;top:0;z-index:5;max-height:58vh;overflow:auto}.monitor:has(#stage[data-ratio="9:16"]) #stage{width:min(50%,22vh)}}
+
+/* 🌸 2026-11-25: fixed preview + independently scrolling, collapsible inspector. */
+html,body{height:100%;height:100dvh;overflow:hidden}
+[hidden]{display:none!important}
+main{height:100%;height:100dvh;max-width:none;padding:12px;display:grid;grid-template-rows:auto minmax(0,1fr);gap:10px}
+.app-header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0;min-width:0}
+.app-header h1{font-size:clamp(19px,2.2vw,28px);margin:0}.app-header .eyebrow{font-size:11px;margin-bottom:2px}
+.ui-principle{max-width:520px;font-size:12px;color:var(--muted)}.ui-principle summary{cursor:pointer;color:#f2b8d2;font-weight:700}.ui-principle p{margin:5px 0;max-height:70px;overflow:auto}.ui-principle button{min-height:28px;padding:3px 8px;font-size:11px}
+.work{min-height:0;height:100%;grid-template-columns:minmax(0,1.25fr) minmax(320px,.8fr);align-items:stretch;gap:12px}
+.monitor{position:relative;top:auto;min-height:0;height:100%;display:flex;flex-direction:column;overflow:hidden;padding:10px;z-index:1}
+.monitor-head{flex:0 0 auto;gap:6px;min-height:32px;font-size:13px;margin-bottom:6px}.monitor-tools{display:flex;gap:8px;align-items:center}.monitor-tools select{padding:4px 6px}.monitor-tools button{padding:4px 7px;min-height:30px;font-size:12px}
+.stage-shell{min-height:90px;flex:1 1 0;display:grid;place-items:center;container-type:size;overflow:hidden;background:#090d14;border-radius:8px}
+#stage{width:min(100cqw,calc(100cqh * 16 / 9));height:auto;max-width:100%;max-height:100%;margin:0;flex:none}
+#stage[data-ratio="9:16"]{width:min(100cqw,calc(100cqh * 9 / 16));height:auto;min-width:0;max-height:100%}
+.monitor>.actions{flex:0 0 auto;flex-wrap:nowrap;margin-top:7px}.monitor>.actions button{font-size:13px;min-height:36px;padding:5px 9px}.monitor>.hint{flex:0 0 auto;min-height:1.5em;max-height:3em;overflow:auto;margin:5px 0;font-size:12px}
+.basket{flex:0 0 auto;padding:6px 0 0}.basket>summary{font-size:12px;cursor:pointer;color:var(--gold);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.basket #picked{display:inline;font-size:11px;margin-left:8px;color:var(--muted)}.basket-body{overflow:auto;max-height:160px;padding:5px 0 0}.basket .actions{gap:5px}.basket button{min-height:30px;font-size:11px;padding:4px 7px}.basket textarea{max-height:90px;resize:none}.basket .upload input{max-width:220px}.basket .upload{display:flex;align-items:center;gap:8px;font-size:11px}
+.options{min-height:0;height:100%;display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:var(--surface);gap:0}
+.options-head{flex:0 0 auto;background:#202633;padding:10px;border-bottom:1px solid #4a5364;z-index:3}.options-head>div:first-child{display:flex;align-items:center;justify-content:space-between;gap:6px}.options-head strong{font-size:14px}.options-head button{min-height:30px;padding:4px 8px;font-size:12px}
+.category-tabs{display:flex;gap:5px;overflow:auto;white-space:nowrap;padding:8px 0 7px;scrollbar-width:thin}.category-tabs button{flex:0 0 auto}.category-tabs button[aria-pressed=true]{background:var(--gold);color:#171300;border-color:var(--gold);font-weight:800}
+.audio-toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:11px;color:var(--muted)}.audio-toolbar label{display:flex;gap:7px;align-items:center}.audio-toolbar input[type=range]{width:90px}.audio-toolbar output{min-width:30px}.audio-toolbar input[type=checkbox]{width:16px;height:16px}
+.options-scroll{min-height:0;flex:1 1 0;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding:10px;scrollbar-width:thin}
+.pane{margin:0 0 8px;padding:0;overflow:hidden}.pane>summary{font-size:14px;font-weight:800;min-height:43px;padding:10px;color:var(--category,#edf1fa);cursor:pointer;list-style-position:inside;background:#1e2430}.pane>summary span{font-weight:500;font-size:11px;color:var(--muted)}.pane-content{padding:10px}.pane-content>p{font-size:12px}.pane-content>label{font-size:12px}.pane-content select{max-width:100%}.pane-content .rows{margin-top:7px}.sfx-rows{max-height:none;overflow:visible;padding:0}.source-notes{margin-top:12px;padding-top:8px;border-top:1px solid var(--line);font-size:11px}.source-notes summary{cursor:pointer;color:#b3dfff}.source-notes p{font-size:11px;margin-top:7px}.source-notes ul{padding-left:18px}.source-notes li{margin:7px 0}
+.row{gap:6px;padding:6px 0}.row strong{font-size:13px}.row small{font-size:11px}.row label span{font-size:11px}.row .play{min-width:36px;min-height:36px;padding:5px}.row .sound-source{display:inline-flex;align-items:center;gap:5px;margin-top:2px}.row .license-pill{color:#b6edbc;border:1px solid #417c55;border-radius:4px;padding:0 4px;font-size:10px}
+.work.panel-collapsed{grid-template-columns:minmax(0,1fr)}
+@media(max-width:680px){
+ main{padding:7px;gap:7px}.app-header{gap:7px;align-items:center}.app-header h1{font-size:17px}.app-header .eyebrow{font-size:9px}.ui-principle{font-size:9px;max-width:46%;line-height:1.35}.ui-principle p{max-height:45px}.ui-principle button{font-size:10px;min-height:24px}
+ .work{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,44fr) minmax(0,56fr);gap:7px}.monitor{position:relative;top:auto;max-height:none;overflow:hidden;padding:6px;min-height:0}.monitor-head{min-height:25px;font-size:11px;gap:4px;margin-bottom:4px}.monitor-tools{gap:4px}.monitor-tools select{padding:2px 4px;font-size:11px}.monitor-tools button{min-height:26px;font-size:10px}.stage-shell{min-height:40px}.monitor>.actions{margin-top:4px;gap:5px}.monitor>.actions button{min-height:30px;font-size:11px;padding:3px 7px}.monitor>.hint{font-size:10px;max-height:2.8em;line-height:1.35;margin:3px 0}.basket{padding-top:3px}.basket>summary,.basket #picked{font-size:10px}.basket-body{max-height:95px}.basket .actions{margin-top:3px}.basket button{min-height:26px;font-size:10px;padding:3px 5px}.basket .upload{font-size:10px}.basket .upload input{font-size:10px;max-width:160px}
+ .options-head{padding:6px 8px}.options-head strong{font-size:12px}.options-head button{font-size:11px;min-height:27px}.category-tabs{padding:5px 0;gap:4px}.audio-toolbar{font-size:10px}.audio-toolbar input[type=range]{width:80px}.options-scroll{padding:6px}.pane>summary{min-height:37px;font-size:13px;padding:8px}.pane-content{padding:8px}.row button{min-height:36px}.work.panel-collapsed{grid-template-rows:minmax(0,1fr)}
+ .monitor:has(#stage[data-ratio="9:16"]) #stage{width:min(100cqw,calc(100cqh * 9 / 16));min-width:0}
+}
+@media(max-height:500px) and (min-width:681px){main{padding:6px;gap:5px}.app-header h1{font-size:18px}.eyebrow{display:none}.monitor{padding:6px}.monitor>.hint{font-size:10px;max-height:1.5em}.basket>summary{font-size:10px}.options-head{padding:6px}.stage-shell{min-height:45px}}
+
+/* Keep legacy tablet rules from shortening the pinned monitor. */
+.monitor{max-height:none}.monitor:has(#stage[data-ratio="9:16"]) #stage{width:min(100cqw,calc(100cqh * 9 / 16));min-width:0}

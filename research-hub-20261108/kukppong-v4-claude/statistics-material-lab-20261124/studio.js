@@ -4,7 +4,7 @@
   const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const root = '../design-reference-master-20261124/';
   const publicRoot = 'https://geben147-create.github.io/Insta/research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/';
-  const storageKey = 'yeonha-material-studio-r1';
+  const storageKey = 'yeonha-material-studio-r2';
   const choices = [
     ['map','REF-01','흰 입체 지도','양각 · 접촉 그림자'],
     ['amber','REF-02','앰버 유리 파이','유리 벽 · 원근'],
@@ -22,7 +22,7 @@
     blur:['빛 번짐',0,60,1,'px'], thickness:['두께 / 종이 찢김',0,40,1,'px'],
     rim:['얇은 반사선 강도',0,100,1,'%'], shadow:['그림자 불투명도',0,100,1,'%'],
     shadowBlur:['그림자 퍼짐',0,60,1,'px'], padding:['바깥 여백',0,20,.5,'%'],
-    scale:['오브젝트 크기',60,120,1,'%']
+    scale:['오브젝트 크기',60,120,1,'%'], fontScale:['큰 숫자 크기',60,180,1,'%'], labelScale:['설명 글자 크기',60,180,1,'%']
   };
   const notes = {
     map:'원본 지형을 보존하는 배치 시안입니다. 지도 픽셀은 원본 그대로이며 큰 숫자·제목·바깥 여백을 조절합니다. 아래의 생성 지도는 재질 참고용으로 따로 제공합니다.',
@@ -35,6 +35,23 @@
     pipe:'흰 배경 위 투명 관·파란 말풍선·유리 아이콘의 재질 시안입니다. 굵은 파란 단색 선 대신 여러 얇은 반사선과 내부 어두운 선을 겹칩니다.',
     bars:'50·25·100·75%는 원본의 예시 값입니다. 공통 바닥·너비를 유지하고 앞면·옆면·윗면을 다르게 채웁니다. 실제 수치는 제작 자료로 바꿉니다.'
   };
+  const revisionNotes={
+    map:'🌸 90%와 지도의 원본 비례를 맞추고, 숫자 그라데이션·아래쪽 반사·접촉 그림자를 보강했습니다.',
+    amber:'🌸 유리 접시의 윗면·두꺼운 벽·바닥을 나누고, 1,100과 설명 글자의 원본 대비 크기를 다시 맞췄습니다.',
+    glow:'🌸 벌어진 파이의 절단면을 파란 두께 면으로 연결하고, 윗면의 확산광과 아래 그림자를 분리했습니다.',
+    funnel:'🌸 상단 구멍·유리 벽·굴절 테두리·오른쪽 투영 그림자·콜아웃의 크기를 원본 비례로 조정했습니다.',
+    slabs:'🌸 왼쪽 곡면의 넓은 흰 반사광, 위쪽 하이라이트, 짙은 코너와 겹침 그림자를 층별로 보강했습니다.',
+    bars:'🌸 앞·옆·윗면의 다방향 그라데이션, 아래쪽 밝은 투과광, 접지 그림자와 바닥 반사를 보강했습니다.',
+    orangeSteps:'🌸 새로 구현: 15% 오렌지 숫자, 반투명 계단 블록, 밝은 아래 면과 접지 그림자.',
+    filledPillars:'🌸 새로 구현: 50·35·65·45·100% 흰 기둥 채움, 면별 색, 흰 받침과 숫자·바닥 반사.',
+    foldedBars:'🌸 새로 구현: 벽에서 바닥으로 접힌 5색 막대, 접힌 선의 그림자와 떠 있는 숫자 콜아웃. 원본 첫 수치는 21%입니다.',
+    pipe:'기존 유리 파이프 재질과 편집값을 유지했습니다. 🌸 미리보기 고정·설정 패널을 적용했습니다.',
+    territory:'원본 지형을 유지했습니다. 🌸 미리보기와 원본 확대를 같은 화면에서 비교합니다.',
+    paper:'기존 실사 장면과 종이 가장자리를 유지했습니다. 🌸 전환·소리는 별도 작업 탭에서 즉시 확인합니다.'
+  };
+  let revision='new',workMode='materials';
+  const assetURL=ref=>ref.local_asset?ref.asset_url:root+ref.asset_url;
+  const referencePublicURL=ref=>new URL(assetURL(ref),publicRoot).href;
   let manifest, spec, current='slabs', aspect='original', view='split', crop, config, sourceImage, sourcePixels, sourceRect;
   let drafts={}, selectedSample=null, guidances=false, loadTicket=0, toastTimer, frame;
   const meta = () => choices.find(x => x[0]===current);
@@ -48,10 +65,11 @@
     const c=MaterialRenderer.defaults(id);
     for(const key of ['mainColor','deepColor','lightColor','background'])if(hexOK(input[key]))c[key]=input[key];
     for(const [key,def] of Object.entries(rangeDefs)){const v=Number(input[key]);if(Number.isFinite(v))c[key]=Math.min(def[2],Math.max(def[1],v));}
-    for(const key of ['title','value'])if(typeof input[key]==='string')c[key]=input[key].slice(0,60);
+    for(const key of ['title','value','fontFamily','calloutTitle1','calloutBody1','calloutTitle2','calloutBody2'])if(typeof input[key]==='string')c[key]=input[key].slice(0,60);
     if(typeof input.showLabels==='boolean')c.showLabels=input.showLabels;
     c.layers={...c.layers};for(const key of Object.keys(c.layers))if(typeof input.layers?.[key]==='boolean')c.layers[key]=input.layers[key];
-    if(Array.isArray(input.palette)&&input.palette.length===6&&input.palette.every(hexOK))c.palette=input.palette.slice();
+    if(Array.isArray(input.palette)&&input.palette.length>=2&&input.palette.length<=10&&input.palette.every(hexOK))c.palette=input.palette.slice();
+    if(Array.isArray(input.values)&&input.values.length<=10&&input.values.every(x=>Number.isFinite(+x)))c.values=input.values.map(Number);
     if(Array.isArray(input.stops)&&input.stops.length>=2&&input.stops.length<=10&&input.stops.every(s=>s&&hexOK(s.color)&&Number.isFinite(+s.offset)&&Number.isFinite(+s.opacity)))c.stops=input.stops.map(s=>({color:s.color,offset:Math.min(100,Math.max(0,+s.offset)),opacity:Math.min(1,Math.max(0,+s.opacity))}));
     return c;
   }
@@ -67,9 +85,10 @@
   }
   function cropSVG(ref, box) {
     const d=ref.dimensions;
-    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${box.join(' ')}" preserveAspectRatio="xMidYMid meet"><image href="${esc(root+ref.asset_url)}" width="${d[0]}" height="${d[1]}" /></svg>`;
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${box.join(' ')}" preserveAspectRatio="xMidYMid meet"><image href="${esc(assetURL(ref))}" width="${d[0]}" height="${d[1]}" /></svg>`;
   }
   function buildReferenceStrip() {
+    $('quickReference').innerHTML=choices.map(([id,,title])=>'<option value="'+id+'"'+(id===current?' selected':'')+'>'+esc(title)+'</option>').join('');
     $('referenceStrip').innerHTML=choices.map(([id,refId,title,detail])=>{
       const ref=manifest.references.find(x=>x.id===refId), ss=spec.references.find(x=>x.id===refId);
       return `<button class="reference-card${id===current?' active':''}" data-preset="${id}" aria-pressed="${id===current}"><span class="thumb">${cropSVG(ref,ss.crop.box)}</span><strong>${esc(title)}</strong><small>${refId} · ${esc(detail)}</small></button>`;
@@ -80,12 +99,13 @@
     if(config&&!preserve)save(); current=id;
     config=cleanConfig(id,drafts[id]||{});
     config.layers={glow:true,rim:true,shadow:true,texture:true,...config.layers};
-    crop=specification().crop.box.slice(); selectedSample=null;
+    crop=specification().crop.box.slice(); selectedSample=null;sourceImage=null;sourcePixels=null;sourceRect=null;
     $('selectedTitle').textContent=meta()[2]; $('selectedMeta').textContent=meta()[1]+' · '+meta()[3];
-    $('contextNote').textContent=notes[id]; $('applySample').disabled=true;
+    $('contextNote').textContent=notes[id];$('revisionSummary').textContent=revisionNotes[id]||'';$('changeDetail').textContent=revisionNotes[id]||'';
+    const beforeButton=document.querySelector('[data-revision=before]');beforeButton.disabled=['orangeSteps','filledPillars','foldedBars'].includes(id);if(beforeButton.disabled)revision='new';syncRevision(); $('applySample').disabled=true;
     $('sampleReadout').querySelector('span:nth-child(2)').textContent='원본 그림을 클릭하면 좌표와 5×5px 중앙값이 표시됩니다.';
-    buildReferenceStrip(); buildControls(); buildCrops(); buildAnalysis(); render();
-    const ticket=++loadTicket; const img=new Image(); img.src=root+reference().asset_url;
+    buildReferenceStrip(); buildControls(); buildCrops(); buildAnalysis(); render();$('materialInspector').scrollTop=0;
+    const ticket=++loadTicket; const img=new Image(); img.src=assetURL(reference());
     try { await img.decode(); if(ticket!==loadTicket)return; sourceImage=img; sourcePixels=document.createElement('canvas');sourcePixels.width=img.naturalWidth;sourcePixels.height=img.naturalHeight;sourcePixels.getContext('2d',{willReadFrequently:true}).drawImage(img,0,0);drawSource(); }
     catch (_) { if(ticket===loadTicket)toast('원본 이미지를 불러오지 못했습니다. 원본 링크를 확인해 주세요.'); }
     save();
@@ -98,19 +118,30 @@
   }
   function render() {
     const [w,h]=size();config.width=w;config.height=h;
-    $('renderStage').innerHTML=MaterialRenderer.render(current,config);
+    const renderConfig={...config};if(aspect==='original'&&revision==='new')renderConfig.sourceCrop={base:specification().crop.box.slice(),selected:crop.slice()};
+    const renderer=revision==='before'&&window.MaterialRendererBefore?MaterialRendererBefore:MaterialRenderer;
+    $('renderStage').innerHTML=renderer.render(current,renderConfig);
     document.querySelectorAll('.artboard').forEach(x=>{x.style.setProperty('--ratio',w+'/'+h);x.style.setProperty('--safe',config.padding+'%');});
     $('renderStage').classList.toggle('guides',guidances);
     $('outputDimensions').textContent=w+' × '+h;
-    $('renderLabel').innerHTML='<i class="dot rebuilt"></i>'+(['map','territory'].includes(current)?'원본 지형 + 배치 조절':'🌸 조절 가능한 재현');
+    $('renderLabel').innerHTML='<i class="dot rebuilt"></i>'+(revision==='before'?'수정 전 시안':'🌸 개선 시안');
+    ['exportPNG','exportSVG'].forEach(id=>{$(id).disabled=revision==='before';$(id).title=revision==='before'?'개선 시안을 선택하면 저장할 수 있습니다.':'';});
     drawSource(); updateGradientBar(); save();
   }
   function scheduleRender() { cancelAnimationFrame(frame); frame=requestAnimationFrame(render); }
   function buildCrops() {
-    const all=[{label:'전체 구성',box:specification().crop.box},...reference().detail_crops];
-    $('cropChips').innerHTML=all.map((r,i)=>`<button data-crop="${i}" class="${i===0?'active':''}">${esc(r.label)}</button>`).join('');
+    const base=specification().crop.box;
+    const all=[{label:'전체 구성',box:base},...reference().detail_crops].map(r=>{
+      if(current==='map'&&r.label.includes('15%'))return {...r,navigate:'orangeSteps'};
+      const b=r.box,x=Math.max(base[0],b[0]),y=Math.max(base[1],b[1]),w=Math.max(0,Math.min(base[0]+base[2],b[0]+b[2])-x),h=Math.max(0,Math.min(base[1]+base[3],b[1]+b[3])-y);
+      return w*h>=b[2]*b[3]*.6?{...r,box:[x,y,w,h]}:{...r,sourceOnly:true};
+    });
+    $('cropChips').innerHTML=all.map((r,i)=>`<button data-crop="${i}" class="${i===0?'active':''}">${esc(r.label)}${r.navigate?' · 🌸 편집':r.sourceOnly?' · 원본 ↗':''}</button>`).join('');
     $('cropChips').querySelectorAll('button').forEach(button=>button.addEventListener('click',()=>{
-      crop=all[Number(button.dataset.crop)].box.slice();
+      const selected=all[Number(button.dataset.crop)];
+      if(selected.navigate){selectPreset(selected.navigate);return;}
+      if(selected.sourceOnly){$('openOriginal').click();toast('이 영역은 전체 원본에서 확인합니다. 오른쪽 시안의 구성 범위는 유지됩니다.');return;}
+      crop=selected.box.slice();
       $('cropChips').querySelectorAll('button').forEach(x=>x.classList.toggle('active',x===button));render();
     }));
   }
@@ -120,18 +151,21 @@
   }
   function buildControls() {
     const sup=supported(),targets=[['mainColor',current==='territory'?'새 범례 주요 색':current==='map'?'큰 숫자 색':'주요 면의 색'],['deepColor','안쪽 깊은 색'],['lightColor','밝은 반사색'],['background','배경색']].filter(([key])=>sup.includes(key));
-    if(current==='slabs'){if(!config.palette)config.palette=MaterialRenderer.bluePalette.slice();targets.unshift(...config.palette.map((_,i)=>['palette:'+i,(i+1)+'번째 유리 층']));}
+    if(current==='slabs'&&!config.palette)config.palette=MaterialRenderer.bluePalette.slice();
+    if(sup.includes('palette')&&Array.isArray(config.palette))targets.unshift(...config.palette.map((_,i)=>['palette:'+i,(i+1)+(current==='slabs'?'번째 유리 층':'번째 막대 색')]));
     $('colorTarget').innerHTML=targets.map(([key,label])=>`<option value="${key}">${esc(label)}</option>`).join('');
     if(current==='slabs')$('colorTarget').value='palette:2';syncColor();
     $('bluePalette').innerHTML=MaterialRenderer.bluePalette.map((v,i)=>swatch(v,(i+1)+'단 · 원문 HEX')).join('');
-    const measured=specification().palette.measured||[];
+    const measured=specification().palette?.measured||[];
     $('measuredPalette').innerHTML=measured.map(x=>swatch(x.hex,x.role)).join('');
+    $('declaredBlueGroup').hidden=current!=='slabs';
     $('materialModes').innerHTML=current==='slabs'?'<button data-palette-mode="declared">원문 코드 6색</button><button data-palette-mode="measured">🌸 실측 색으로 대체</button>':'';
     $('gradientGroup').hidden=!sup.includes('stops');
     $('gradientControls').innerHTML=['gradientAngle','glowX','glowY','glowRadius'].map(rangeHTML).join('');
     $('materialControls').innerHTML=['blur','thickness','rim','shadow','shadowBlur'].map(rangeHTML).join('')+'<p class="field-note">🌸 재현용 조절값입니다. px는 1000 단위의 디자인 좌표 기준이며 출력 크기에 비례합니다.</p>';
+    $('typographyControls').innerHTML=['fontScale','labelScale'].map(rangeHTML).join('')+(sup.includes('fontFamily')?'<label class="text-field"><span>글꼴 (원본 폰트 파일은 미확인)</span><select id="typeface" aria-label="글꼴">'+['Arial','Arial Narrow','Roboto','Noto Sans KR','Georgia'].map(f=>'<option'+(config.fontFamily===f?' selected':'')+'>'+f+'</option>').join('')+'</select></label>':'')+[['calloutTitle1','위 설명 카드 제목'],['calloutBody1','위 설명 카드 내용'],['calloutTitle2','아래 설명 카드 제목'],['calloutBody2','아래 설명 카드 내용']].filter(([key])=>sup.includes(key)).map(([key,label])=>textField(key,label)).join('')+(Array.isArray(config.values)?'<div class="value-fields">'+config.values.map((v,i)=>'<label>'+(i+1)+'번째 값<input type="number" data-value-index="'+i+'" aria-label="'+(i+1)+'번째 값" value="'+v+'" min="0" max="100"></label>').join('')+'</div>':'');
     $('layoutControls').innerHTML=['padding','scale'].map(rangeHTML).join('')+(sup.includes('title')?textField('title','제목'): '')+(sup.includes('value')?textField('value','큰 숫자 / 문구'): '')+`<label class="toggle-field"><span>라벨·글자 표시</span><input type="checkbox" data-check="showLabels" ${config.showLabels?'checked':''}></label><label class="toggle-field"><span>🌸 여백 가이드</span><input type="checkbox" id="showGuides" ${guidances?'checked':''}></label>`;
-    const layerKeys=[['glow','빛 번짐'],['rim','얇은 반사선'],['shadow','그림자'],['texture','종이 잔입자']].filter(([key])=>key==='shadow'||(key==='texture'?current==='paper':key==='glow'?['glow','slabs','funnel','amber','pipe','bars'].includes(current):!['map','territory'].includes(current)));
+    const layerKeys=[['glow','빛 번짐'],['rim','얇은 반사선'],['shadow','그림자'],['texture','종이 잔입자']].filter(([key])=>key==='shadow'||(key==='texture'?current==='paper':key==='glow'?['glow','slabs','funnel','amber','pipe','bars','orangeSteps','filledPillars'].includes(current):!['map','territory'].includes(current)));
     $('layerControls').innerHTML=layerKeys.map(([key,label])=>`<label class="toggle-field"><span>${label}</span><input type="checkbox" data-layer="${key}" ${config.layers[key]?'checked':''}></label>`).join('');
     buildStops();
   }
@@ -166,7 +200,7 @@
     $('specRaw').textContent=JSON.stringify(s,null,2);
   }
   async function selfContainedSVG(){
-    const [width,height]=size();let svg=MaterialRenderer.render(current,{...config,width,height});
+    const [width,height]=size();const exportConfig={...config,width,height};if(aspect==='original')exportConfig.sourceCrop={base:specification().crop.box.slice(),selected:crop.slice()};let svg=MaterialRenderer.render(current,exportConfig);
     const doc=new DOMParser().parseFromString(svg,'image/svg+xml');
     for(const el of doc.querySelectorAll('image')){
       const href=el.getAttribute('href');if(!href||href.startsWith('data:'))continue;
@@ -176,11 +210,11 @@
     return new XMLSerializer().serializeToString(doc);
   }
   function download(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
-  function packageConfig(){return {schema:'yeonha-material-studio/v1',module:current,reference:meta()[1],aspect,config:JSON.parse(JSON.stringify(config)),reference_url:new URL(root+reference().asset_url,location.href).href,reference_sha256:reference().source_sha256,note:'사용자 원문 HEX / 실측 색 / 🌸 재현 제안을 구분. 기존 대본·TTS·자막 고유색 보존.'};}
-  function prompt(){const p=packageConfig();return `[통계·지도·종이 재질 적용 지시 — ${meta()[1]} ${meta()[2]}]\n\n사용자가 선택한 아래 설정을 우선 적용한다. 대본·TTS·이미 승인된 자막의 글자색은 변경하지 않는다.\n레퍼런스 원본: ${new URL(root+reference().asset_url,publicRoot).href}\n상세 분석: ${publicRoot}reference-spec.json\n기존 전체 지시: ${new URL('../design-reference-master-20261124/apply-current-edit.txt',publicRoot).href}\n\n🌸 원본을 큰 화면으로 비교하면서 면색, 안쪽 흡광, 곡면 반사광, 얇은 림, 접촉 그림자와 여백을 각각 맞춘다. 하나의 단색이나 평면 그라데이션만으로 대체하지 않는다.\n🌸 블러는 빛/그림자 레이어에만 적용하고 글자·경계는 선명하게 유지한다. 원본 비율·가로16:9·세로9:16은 아래 선택을 따른다. 세로로 바꿀 때 도형을 잡아늘리지 않는다.\n${notes[current]}\n\n[선택한 정확한 설정]\n${JSON.stringify(p,null,2)}\n\n[원본 관찰]\n${specification().observed.map(x=>'- '+x).join('\n')}\n\n🌸 HTML/SVG 미리보기 결과와 실제 영상 렌더 결과를 구분한다. 실제 편집 프로젝트에 적용하고 30초 샘플과 해당 그래픽 프레임을 원본과 나란히 검수한 후 반영 내역을 기록한다.\n`;}
+  function packageConfig(){return {schema:'yeonha-material-studio/v1',revision:'20261125-r2',module:current,reference:meta()[1],aspect,source_crop:crop.slice(),config:JSON.parse(JSON.stringify(config)),reference_url:referencePublicURL(reference()),reference_sha256:reference().source_sha256,note:'사용자 원문 HEX / 실측 색 / 🌸 재현 제안을 구분. 기존 대본·TTS·자막 고유색 보존.'};}
+  function prompt(){const p=packageConfig();return `🌸🌸🌸🌸🌸 미리보기는 고정하고, 오른쪽 접이식 설정 패널만 독립 스크롤한다. 어떤 효과를 선택해도 결과가 같은 화면에 즉시 보이며, 태블릿·모바일에서 미리보기와 패널의 겹침을 실제로 확인한다.\n\n[통계·지도·종이 재질 적용 지시 — ${meta()[1]} ${meta()[2]}]\n\n사용자가 선택한 아래 설정을 우선 적용한다. 대본·TTS·이미 승인된 자막의 글자색은 변경하지 않는다.\n레퍼런스 원본: ${referencePublicURL(reference())}\n상세 분석: ${publicRoot}${reference().local_asset?'supplement-references.json':'reference-spec.json'}\n기존 전체 지시: ${new URL('../design-reference-master-20261124/apply-current-edit.txt',publicRoot).href}\n\n🌸 원본을 큰 화면으로 비교하면서 면색, 안쪽 흡광, 곡면 반사광, 얇은 림, 접촉 그림자와 여백을 각각 맞춘다. 하나의 단색이나 평면 그라데이션만으로 대체하지 않는다.\n🌸 블러는 빛/그림자 레이어에만 적용하고 글자·경계는 선명하게 유지한다. 원본 비율·가로16:9·세로9:16은 아래 선택을 따른다. 세로로 바꿀 때 도형을 잡아늘리지 않는다.\n${notes[current]}\n${revisionNotes[current]||''}\n🌸 원본과 시안은 같은 크롭과 같은 표시 비율로 비교한다. 깊은 색/중간색/밝은 반사색은 역할별로 선택하며, 물체의 투영 그림자와 접촉 그림자를 따로 유지한다.\n\n[선택한 정확한 설정]\n${JSON.stringify(p,null,2)}\n\n[원본 관찰]\n${specification().observed.map(x=>'- '+x).join('\n')}\n\n🌸 HTML/SVG 미리보기 결과와 실제 영상 렌더 결과를 구분한다. 실제 편집 프로젝트에 적용하고 30초 샘플과 해당 그래픽 프레임을 원본과 나란히 검수한 후 반영 내역을 기록한다.\n`;}
   async function copy(text){try{await navigator.clipboard.writeText(text);toast('현재 설정과 레퍼런스 주소를 복사했습니다.');}catch(_){download(new Blob([text],{type:'text/plain;charset=utf-8'}),'material-current-prompt.txt');toast('복사 권한이 없어 프롬프트 TXT를 저장했습니다.');}}
   function registerEvents(){
-    $('referenceStrip').addEventListener('click',e=>{const b=e.target.closest('[data-preset]');if(b)selectPreset(b.dataset.preset);});
+    $('referenceStrip').addEventListener('click',e=>{const b=e.target.closest('[data-preset]');if(b){setWorkMode('materials',false);selectPreset(b.dataset.preset);if(!document.body.classList.contains('focus-workspace'))$('focusWorkspace').click();}});
     document.querySelectorAll('[data-aspect]').forEach(button=>button.addEventListener('click',()=>{aspect=button.dataset.aspect;document.querySelectorAll('[data-aspect]').forEach(x=>{x.classList.toggle('active',x===button);x.setAttribute('aria-pressed',x===button);});render();}));
     document.querySelectorAll('button[data-view]').forEach(button=>button.addEventListener('click',()=>{view=button.dataset.view;$('compare').dataset.view=view;$('overlaySetting').hidden=view!=='overlay';document.querySelectorAll('button[data-view]').forEach(x=>{if(x.tagName==='BUTTON'){x.classList.toggle('active',x===button);x.setAttribute('aria-pressed',x===button);}});}));
     $('overlayOpacity').addEventListener('input',e=>{$('compare').style.setProperty('--overlay',e.target.value/100);e.target.nextElementSibling.textContent=e.target.value+'%';});
@@ -190,10 +224,11 @@
       const el=e.target;
       if(el.dataset.control){const key=el.dataset.control;config[key]=Number(el.value);el.parentElement.querySelector('output').textContent=el.value+rangeDefs[key][4];scheduleRender();}
       else if(el.dataset.text){config[el.dataset.text]=el.value;scheduleRender();}
+      else if(el.dataset.valueIndex!==undefined){config.values[Number(el.dataset.valueIndex)]=Math.max(0,Math.min(100,Number(el.value)));scheduleRender();}
       else if(el.dataset.stopField){const stops=config.stops||defaultStops(),idx=Number(el.closest('[data-stop]').dataset.stop),key=el.dataset.stopField;if(key==='color'||key==='hex'){if(!hexOK(el.value))return;stops[idx].color=el.value;el.closest('.stop-row').querySelectorAll('input[type=color],input[type=text]').forEach(x=>x.value=el.value);}else stops[idx][key]=Math.max(0,Math.min(100,Number(el.value)))/(key==='opacity'?100:1);config.stops=stops;$('customStops').checked=true;scheduleRender();}
     });
     document.querySelector('.inspector').addEventListener('change',e=>{
-      const el=e.target;if(el.dataset.layer)config.layers[el.dataset.layer]=el.checked;else if(el.dataset.check)config[el.dataset.check]=el.checked;else if(el.id==='showGuides')guidances=el.checked;else if(el.id==='customStops'){config.stops=el.checked?defaultStops():null;buildStops();}else return;render();
+      const el=e.target;if(el.id==='typeface'){config.fontFamily=el.value;render();return;}if(el.dataset.layer)config.layers[el.dataset.layer]=el.checked;else if(el.dataset.check)config[el.dataset.check]=el.checked;else if(el.id==='showGuides')guidances=el.checked;else if(el.id==='customStops'){config.stops=el.checked?defaultStops():null;buildStops();}else return;render();
     });
     document.querySelector('.inspector').addEventListener('click',e=>{
       const chip=e.target.closest('[data-color]');if(chip){setColor(chip.dataset.color);toast($('colorTarget').selectedOptions[0].textContent+'에 '+chip.dataset.color+' 적용');return;}
@@ -210,7 +245,7 @@
       $('sampleReadout').querySelector('.sample-dot').style.background=color;$('sampleReadout').querySelector('span:nth-child(2)').textContent=`원본 (${x}, ${y}) · 5×5 중앙값 ${color} · RGB ${rgb.join(', ')}`;$('applySample').disabled=false;
     });
     $('applySample').addEventListener('click',()=>{if(selectedSample){setColor(selectedSample.hex);toast('원본 실측 색을 선택한 역할에 적용했습니다.');}});
-    $('openOriginal').addEventListener('click',()=>{$('originalImage').src=root+reference().asset_url;$('dialogTitle').textContent=reference().id+' · '+reference().title;$('downloadOriginal').href=root+reference().asset_url;$('originalDialog').showModal();});$('closeOriginal').addEventListener('click',()=>$('originalDialog').close());
+    $('openOriginal').addEventListener('click',()=>{$('originalImage').src=assetURL(reference());$('dialogTitle').textContent=reference().id+' · '+reference().title;$('downloadOriginal').href=assetURL(reference());$('originalDialog').showModal();});$('closeOriginal').addEventListener('click',()=>$('originalDialog').close());
     $('exportJSON').addEventListener('click',()=>download(new Blob([JSON.stringify(packageConfig(),null,2)],{type:'application/json'}),'material-'+current+'-'+aspect+'.json'));
     $('copyPrompt').addEventListener('click',()=>copy(prompt()));
     $('exportSVG').addEventListener('click',async()=>{try{download(new Blob([await selfContainedSVG()],{type:'image/svg+xml'}),'material-'+current+'-'+aspect+'.svg');toast('이미지를 포함한 SVG를 저장했습니다.');}catch(err){toast('SVG 저장 실패: '+err.message);}});
@@ -219,15 +254,29 @@
       try {const svg=await selfContainedSVG();url=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'}));const img=new Image();img.src=url;await img.decode();const canvas=document.createElement('canvas'),[w,h]=size();canvas.width=w;canvas.height=h;canvas.getContext('2d').drawImage(img,0,0);const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));if(!blob)throw new Error('PNG 생성 오류');download(blob,'material-'+current+'-'+aspect+'.png');toast(w+' × '+h+' PNG를 저장했습니다.');}
       catch(err){toast('PNG 저장 실패: '+err.message);}finally{if(url)URL.revokeObjectURL(url);button.disabled=false;button.textContent='PNG 이미지 저장 ↓';}
     });
-    $('importJSON').addEventListener('change',async e=>{try{const file=e.target.files[0];if(!file)return;if(file.size>150000)throw new Error('설정 파일 크기를 확인해 주세요.');const d=JSON.parse(await file.text());if(d.schema!=='yeonha-material-studio/v1'||!choices.some(x=>x[0]===d.module)||!d.config||typeof d.config!=='object')throw new Error('이 스튜디오에서 저장한 JSON을 선택해 주세요.');drafts[d.module]=d.config;aspect=['original','wide','tall'].includes(d.aspect)?d.aspect:'original';await selectPreset(d.module,true);document.querySelectorAll('[data-aspect]').forEach(b=>{b.classList.toggle('active',b.dataset.aspect===aspect);b.setAttribute('aria-pressed',b.dataset.aspect===aspect);});toast('설정을 불러왔습니다.');}catch(err){toast(err.message);}finally{e.target.value='';}});
+    $('importJSON').addEventListener('change',async e=>{try{const file=e.target.files[0];if(!file)return;if(file.size>150000)throw new Error('설정 파일 크기를 확인해 주세요.');const d=JSON.parse(await file.text());if(d.schema!=='yeonha-material-studio/v1'||!choices.some(x=>x[0]===d.module)||!d.config||typeof d.config!=='object')throw new Error('이 스튜디오에서 저장한 JSON을 선택해 주세요.');drafts[d.module]=d.config;aspect=['original','wide','tall'].includes(d.aspect)?d.aspect:'original';await selectPreset(d.module,true);const importedCrop=d.source_crop,baseCrop=specification().crop.box;if(Array.isArray(importedCrop)&&importedCrop.length===4&&importedCrop.every(Number.isFinite)&&importedCrop[2]>0&&importedCrop[3]>0&&importedCrop[0]>=baseCrop[0]&&importedCrop[1]>=baseCrop[1]&&importedCrop[0]+importedCrop[2]<=baseCrop[0]+baseCrop[2]&&importedCrop[1]+importedCrop[3]<=baseCrop[1]+baseCrop[3]){crop=importedCrop.slice();$('cropChips').querySelectorAll('button').forEach(b=>b.classList.remove('active'));render();}document.querySelectorAll('[data-aspect]').forEach(b=>{b.classList.toggle('active',b.dataset.aspect===aspect);b.setAttribute('aria-pressed',b.dataset.aspect===aspect);});toast('설정을 불러왔습니다.');}catch(err){toast(err.message);}finally{e.target.value='';}});
+  }
+  function syncRevision(){document.querySelectorAll('[data-revision]').forEach(b=>{b.classList.toggle('active',b.dataset.revision===revision);b.setAttribute('aria-pressed',String(b.dataset.revision===revision));});}
+  function setWorkMode(mode,scroll=true){workMode=mode;const effects=mode==='effects';$('materialWorkspace').hidden=effects;$('editing-preview').hidden=!effects;$('referenceStrip').hidden=effects;$('quickReferenceWrap').hidden=effects;document.querySelectorAll('[data-work-mode]').forEach(b=>{const active=b.dataset.workMode===mode;b.classList.toggle('active',active);if(b.getAttribute('role')==='tab')b.setAttribute('aria-selected',String(active));});if(scroll&&!document.body.classList.contains('focus-workspace'))(effects?$('editing-preview'):$('materialWorkspace')).scrollIntoView({block:'start',behavior:'smooth'});}
+  function registerWorkspace(){
+    $('quickReference').addEventListener('change',e=>selectPreset(e.target.value));
+    document.querySelectorAll('[data-work-mode]').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();setWorkMode(b.dataset.workMode);}));
+    $('toggleInspector').addEventListener('click',()=>{const closed=$('materialWorkspace').classList.toggle('inspector-collapsed');$('toggleInspector').textContent=closed?'‹ 설정 펼치기':'설정 접기 ›';$('toggleInspector').setAttribute('aria-expanded',String(!closed));});
+    $('focusWorkspace').addEventListener('click',()=>{const focused=document.body.classList.toggle('focus-workspace');$('focusWorkspace').textContent=focused?'⛶ 전체 자료로 돌아가기':'⛶ 작업 화면 크게';$('focusWorkspace').setAttribute('aria-pressed',String(focused));});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.body.classList.contains('focus-workspace')){$('focusWorkspace').click();}});
+    document.querySelectorAll('[data-revision]').forEach(b=>b.addEventListener('click',()=>{revision=b.dataset.revision;syncRevision();render();}));
+    $('copyUIPrompt').addEventListener('click',()=>copy($('uiPrompt').textContent));
+    $('revisionChecklist').innerHTML=Object.entries(revisionNotes).filter(([id])=>!['pipe','territory','paper'].includes(id)).map(([id,note])=>'<article class="revision-item"><strong>'+esc(choices.find(x=>x[0]===id)?.[2]||id)+'</strong><p>'+esc(note)+'</p></article>').join('');
+    if(location.hash==='#editing-preview')setWorkMode('effects',false);
   }
   async function init(){
     try{
       if(!window.MaterialRenderer)throw new Error('재질 렌더러를 불러오지 못했습니다.');
-      [manifest,spec]=await Promise.all([fetch(root+'reference-manifest.json').then(r=>{if(!r.ok)throw new Error('원본 목록 오류');return r.json();}),fetch('reference-spec.json').then(r=>{if(!r.ok)throw new Error('분석 자료 오류');return r.json();})]);
+      const loaded=await Promise.all([fetch(root+'reference-manifest.json').then(r=>{if(!r.ok)throw new Error('원본 목록 오류');return r.json();}),fetch('reference-spec.json').then(r=>{if(!r.ok)throw new Error('분석 자료 오류');return r.json();}),fetch('supplement-references.json').then(r=>{if(!r.ok)throw new Error('추가 원본 목록 오류');return r.json();})]);
+      [manifest,spec]=loaded;const supplement=loaded[2];choices.splice(1,0,supplement.choices.find(x=>x[0]==='orangeSteps'));choices.splice(8,0,...supplement.choices.filter(x=>x[0]!=='orangeSteps'));Object.assign(notes,supplement.notes);manifest.references.push(...supplement.references);spec.references.push(...supplement.specifications);
       try{const saved=JSON.parse(localStorage.getItem(storageKey));if(saved?.version===1){drafts=saved.drafts||{};current=choices.some(x=>x[0]===saved.current)?saved.current:'slabs';aspect=['original','wide','tall'].includes(saved.aspect)?saved.aspect:'original';}}catch(_){}
       const requested=new URLSearchParams(location.search).get('type');if(choices.some(x=>x[0]===requested))current=requested;
-      registerEvents();await selectPreset(current,true);document.querySelectorAll('[data-aspect]').forEach(b=>{b.classList.toggle('active',b.dataset.aspect===aspect);b.setAttribute('aria-pressed',b.dataset.aspect===aspect);});
+      registerEvents();registerWorkspace();if(new URLSearchParams(location.search).get('focus')==='1')$('focusWorkspace').click();await selectPreset(current,true);document.body.dataset.ready='true';document.querySelectorAll('[data-aspect]').forEach(b=>{b.classList.toggle('active',b.dataset.aspect===aspect);b.setAttribute('aria-pressed',b.dataset.aspect===aspect);});
     }catch(err){$('renderStage').innerHTML='<div class="error-state">'+esc(err.message)+'<br>페이지를 새로고침하거나 원본 자료 링크를 확인해 주세요.</div>';toast(err.message);}
   }
   init();

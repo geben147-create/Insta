@@ -1,0 +1,3064 @@
+{
+  "schema": "yeonha-material-supplement/20261125",
+  "choices": [
+    [
+      "orangeSteps",
+      "REF-25",
+      "15% 오렌지 계단 · 큰 숫자",
+      "큰 숫자 · 앞뒤 겹침 · 부드러운 빛"
+    ],
+    [
+      "filledPillars",
+      "REF-26",
+      "흰 기둥 채움 · 5색 막대",
+      "앞·옆·윗면 · 흰 베이스 · 그림자"
+    ],
+    [
+      "foldedBars",
+      "REF-27",
+      "벽에서 바닥으로 접힌 막대",
+      "접힘 음영 · 수치 콜아웃 · 바닥 원근"
+    ]
+  ],
+  "notes": {
+    "orangeSteps": "🌸 기존 지도 상세 크롭으로만 보이던 15% 영역을 독립 편집 유형으로 구현. 숫자 크기, 주황 세로 그라데이션, 블록의 앞뒤 겹침, 접촉 그림자, 바닥 반사를 분리.",
+    "filledPillars": "🌸 누락되었던 흰 상한 기둥+흰 베이스 5색 막대 유형 추가. 각 기둥의 앞·옆·윗면 명암, 모서리 반사, 접지 그림자, 하단 숫자와 설명 카드 구현.",
+    "foldedBars": "🌸 벽→바닥 접힘 막대 유형 추가. 원근 바닥면, 접힘 암부, 흰 숫자 콜아웃·꼬리·그림자, 상단 아이콘과 계열색 연결 구현."
+  },
+  "references": [
+    {
+      "id": "REF-25",
+      "filename": "148970.jpg",
+      "title": "15% 오렌지 계단 · 큰 숫자",
+      "asset_url": "assets/references/148970.jpg",
+      "local_asset": true,
+      "dimensions": [
+        1279,
+        1536
+      ],
+      "source_sha256": "c39c8585488e4d43fb66096c1ce0c04e646c38a05805b9b6daebb63f72ac47b3",
+      "original_preserved": true,
+      "category": "statistics",
+      "batch": "20261125",
+      "detail_crops": [
+        {
+          "label": "15% 큰 숫자와 앞쪽 블록",
+          "box": [
+            367,
+            1107,
+            271,
+            155
+          ]
+        },
+        {
+          "label": "계단·반투명 도시",
+          "box": [
+            584,
+            1033,
+            347,
+            230
+          ]
+        },
+        {
+          "label": "원본 90% 지도와 전체 구성",
+          "box": [
+            297,
+            60,
+            686,
+            1206
+          ]
+        }
+      ],
+      "main_crop": {
+        "label": "전체 구성",
+        "box": [
+          348,
+          982,
+          585,
+          283
+        ]
+      },
+      "observations": {
+        "material": "큰 15와 작은 %가 서로 다른 크기로 배치되고, 낮은 주황 블록이 숫자 아래를 가린다. 가장 오른쪽 높은 블록, 가운데 계단, 얇은 도시 실루엣은 서로 다른 농도와 색을 가진다. 전체 바탕은 흰색에 가까운 회보라색이며, 블록 아래에는 얇은 바닥 반사와 주황 그림자가 보인다.",
+        "font_shape": "정확한 원본 폰트 확인 불가. 글자 폭과 크기를 맞춘 산세리프 대체."
+      },
+      "data_notes": [
+        "15% 및 영어·중국어 문구는 원본 디자인의 예시이다. 실제 채널 통계에 그대로 사용하지 않는다."
+      ]
+    },
+    {
+      "id": "REF-26",
+      "filename": "148940.jpg",
+      "title": "흰 기둥 채움 · 5색 막대",
+      "asset_url": "assets/references/148940.jpg",
+      "local_asset": true,
+      "dimensions": [
+        1279,
+        1536
+      ],
+      "source_sha256": "0bab793bdef92ee70711a5476f1eb51bd729b9204eae71f1e51009b774fb8201",
+      "original_preserved": true,
+      "category": "statistics",
+      "batch": "20261125",
+      "detail_crops": [
+        {
+          "label": "5개 기둥과 수치",
+          "box": [
+            150,
+            326,
+            978,
+            715
+          ]
+        },
+        {
+          "label": "보라 앞·옆·윗면",
+          "box": [
+            550,
+            477,
+            177,
+            353
+          ]
+        },
+        {
+          "label": "흰 베이스와 그림자",
+          "box": [
+            145,
+            797,
+            987,
+            278
+          ]
+        },
+        {
+          "label": "하단 설명 카드",
+          "box": [
+            154,
+            1081,
+            972,
+            210
+          ]
+        }
+      ],
+      "main_crop": {
+        "label": "전체 구성",
+        "box": [
+          125,
+          300,
+          1015,
+          990
+        ]
+      },
+      "observations": {
+        "material": "5개 기둥의 흰 상한선과 바닥은 같고 색으로 채워진 높이가 다르다. 값은 50/35/65/45/100%이다. 색 막대는 왼면·오른면·윗면이 나뉘며, 특히 보라 기둥은 왼면 가장자리에서 중앙 모서리로 가며 짙어진다. 흰 베이스도 두 면의 밝기가 다르며, 숫자와 %는 오른쪽 흰 면에 세로로 배치된다.",
+        "font_shape": "정확한 원본 폰트 확인 불가. 글자 폭과 크기를 맞춘 산세리프 대체."
+      },
+      "data_notes": [
+        "값은 원본 예시인 50/35/65/45/100%이며 서로 다른 범주의 독립 비율이다. 합계100 구성비로 해석하지 않는다.",
+        "색 막대 높이 계산: 채움 왼쪽 상단 y = 800 − 4.4 × 값(%). 투영 윗면은 ±26px."
+      ]
+    },
+    {
+      "id": "REF-27",
+      "filename": "148942.jpg",
+      "title": "벽에서 바닥으로 접힌 막대",
+      "asset_url": "assets/references/148942.jpg",
+      "local_asset": true,
+      "dimensions": [
+        1279,
+        1536
+      ],
+      "source_sha256": "565b56d21ca28fc827cecd4b433581d59c51c4076e9c8b69af4371baa96c9d3c",
+      "original_preserved": true,
+      "category": "statistics",
+      "batch": "20261125",
+      "detail_crops": [
+        {
+          "label": "수치 콜아웃과 그림자",
+          "box": [
+            174,
+            373,
+            939,
+            567
+          ]
+        },
+        {
+          "label": "접힌 바닥·경계 그림자",
+          "box": [
+            65,
+            1111,
+            1146,
+            159
+          ]
+        },
+        {
+          "label": "21% 콜아웃",
+          "box": [
+            173,
+            564,
+            189,
+            165
+          ]
+        },
+        {
+          "label": "32% 콜아웃",
+          "box": [
+            548,
+            498,
+            189,
+            162
+          ]
+        }
+      ],
+      "main_crop": {
+        "label": "전체 구성",
+        "box": [
+          10,
+          190,
+          1258,
+          1080
+        ]
+      },
+      "observations": {
+        "material": "막대가 벽을 따라 내려오다 공통 y≈1195에서 바닥 방향으로 꺾인다. 굽힘 경계는 얇은 어두운 띠로 보인다. 원본 숫자는 21/12/32/19/68%이다. 사용자 발화의 첫 값 27%와는 다르므로 원본 표기21%를 보존한다. 큰 숫자를 담은 흰 말풍선형 수치 카드에는 아래쪽 화살꼬리와 회색 투영 그림자가 있다.",
+        "font_shape": "정확한 원본 폰트 확인 불가. 글자 폭과 크기를 맞춘 산세리프 대체."
+      },
+      "data_notes": [
+        "첫 값은27%가 아니라 원본21%이다.",
+        "원본 값 21/12/32/19/68 그대로일 때는 원본 위치를 유지한다. 값 하나라도 변경하면 0~100% 공통 척도(100%=646px 높이)로 자동 재계산한다.",
+        "미리보기 크롭은 원본 하단 앱 안내와 크레디트가 나타나기 전에서 끝난다. 원본 JPEG는 수정하지 않는다."
+      ]
+    }
+  ],
+  "specifications": [
+    {
+      "id": "REF-25",
+      "module": "orangeSteps",
+      "title": "15% 오렌지 계단 · 큰 숫자",
+      "source": {
+        "url": "assets/references/148970.jpg",
+        "dimensions_px": [
+          1279,
+          1536
+        ],
+        "sha256": "c39c8585488e4d43fb66096c1ce0c04e646c38a05805b9b6daebb63f72ac47b3",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          348,
+          982,
+          585,
+          283
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "exclude app controls; original JPEG unchanged"
+      },
+      "observed": [
+        "큰 15와 작은 %가 서로 다른 크기로 배치되고, 낮은 주황 블록이 숫자 아래를 가린다.",
+        "가장 오른쪽 높은 블록, 가운데 계단, 얇은 도시 실루엣은 서로 다른 농도와 색을 가진다.",
+        "전체 바탕은 흰색에 가까운 회보라색이며, 블록 아래에는 얇은 바닥 반사와 주황 그림자가 보인다.",
+        "원본 영문 설명은 2줄, 중국어는 그 아래 1줄이다. 정확한 폰트명은 캡처로 확정할 수 없어 글자 폭과 크기를 맞춘 대체 서체를 사용한다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "큰 숫자 주황 중간",
+            "center_px": [
+              472,
+              1142
+            ],
+            "roi": [
+              470,
+              1140,
+              5,
+              5
+            ],
+            "rgb": [
+              253,
+              107,
+              1
+            ],
+            "hex": "#FD6B01",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "큰 숫자 하단",
+            "center_px": [
+              479,
+              1240
+            ],
+            "roi": [
+              477,
+              1238,
+              5,
+              5
+            ],
+            "rgb": [
+              244,
+              110,
+              13
+            ],
+            "hex": "#F46E0D",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "우측 블록 상부",
+            "center_px": [
+              864,
+              1054
+            ],
+            "roi": [
+              862,
+              1052,
+              5,
+              5
+            ],
+            "rgb": [
+              241,
+              185,
+              113
+            ],
+            "hex": "#F1B971",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "우측 블록 중간",
+            "center_px": [
+              858,
+              1180
+            ],
+            "roi": [
+              856,
+              1178,
+              5,
+              5
+            ],
+            "rgb": [
+              251,
+              186,
+              112
+            ],
+            "hex": "#FBBA70",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "우측 블록 하단",
+            "center_px": [
+              858,
+              1245
+            ],
+            "roi": [
+              856,
+              1243,
+              5,
+              5
+            ],
+            "rgb": [
+              254,
+              198,
+              153
+            ],
+            "hex": "#FEC699",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "둘째 계단 중간",
+            "center_px": [
+              778,
+              1163
+            ],
+            "roi": [
+              776,
+              1161,
+              5,
+              5
+            ],
+            "rgb": [
+              251,
+              161,
+              87
+            ],
+            "hex": "#FBA157",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "둘째 계단 하단",
+            "center_px": [
+              778,
+              1238
+            ],
+            "roi": [
+              776,
+              1236,
+              5,
+              5
+            ],
+            "rgb": [
+              251,
+              162,
+              76
+            ],
+            "hex": "#FBA24C",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "셋째 계단 중간",
+            "center_px": [
+              716,
+              1193
+            ],
+            "roi": [
+              714,
+              1191,
+              5,
+              5
+            ],
+            "rgb": [
+              247,
+              188,
+              119
+            ],
+            "hex": "#F7BC77",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "셋째 계단 하단",
+            "center_px": [
+              716,
+              1243
+            ],
+            "roi": [
+              714,
+              1241,
+              5,
+              5
+            ],
+            "rgb": [
+              252,
+              204,
+              151
+            ],
+            "hex": "#FCCC97",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "도시 실루엣",
+            "center_px": [
+              665,
+              1144
+            ],
+            "roi": [
+              663,
+              1142,
+              5,
+              5
+            ],
+            "rgb": [
+              249,
+              207,
+              158
+            ],
+            "hex": "#F9CF9E",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "옅은 전경 블록",
+            "center_px": [
+              610,
+              1241
+            ],
+            "roi": [
+              608,
+              1239,
+              5,
+              5
+            ],
+            "rgb": [
+              250,
+              223,
+              164
+            ],
+            "hex": "#FADFA4",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "회보라 배경",
+            "center_px": [
+              364,
+              1003
+            ],
+            "roi": [
+              362,
+              1001,
+              5,
+              5
+            ],
+            "rgb": [
+              231,
+              233,
+              237
+            ],
+            "hex": "#E7E9ED",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          }
+        ]
+      },
+      "layers": [
+        {
+          "name": "회보라 바탕",
+          "role": "카드 전체에 은은한 배경",
+          "settings": {
+            "color": "#E7E9ED",
+            "radius_px": 17
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "접촉 그림자",
+          "role": "바닥과 물체의 접점",
+          "settings": {
+            "ellipse_center": [
+              636,
+              1255
+            ],
+            "opacity": 0.178,
+            "blur_px": 1.56
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "큰 15%",
+          "role": "크기와 기준선이 다른 숫자와 기호",
+          "settings": {
+            "number_font_px": 190,
+            "number_width_px": 176,
+            "percent_font_px": 104,
+            "percent_width_px": 77
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "뒤 높은 블록",
+          "role": "큰 숫자 뒤가 아닌 오른쪽 독립 계단",
+          "settings": {
+            "x": 813,
+            "y": 1035,
+            "width": 117,
+            "height": 226
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "중간 계단",
+          "role": "높이와 농도가 다른 겹침",
+          "settings": {
+            "rects": [
+              [
+                748,
+                1146,
+                101,
+                115
+              ],
+              [
+                687,
+                1177,
+                77,
+                84
+              ]
+            ]
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "전경 블록",
+          "role": "숫자 하단을 일부 가림",
+          "settings": {
+            "rects": [
+              [
+                461,
+                1217,
+                132,
+                44
+              ],
+              [
+                584,
+                1222,
+                44,
+                39
+              ]
+            ]
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "도시 실루엣",
+          "role": "옅은 도시 형태",
+          "settings": {
+            "range_x": [
+              584,
+              686
+            ],
+            "base_y": 1261
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "모서리 반사",
+          "role": "한쪽 가장자리에만 얇은 빛",
+          "settings": {
+            "width_px": 1.1,
+            "color": "#FFF1CC"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "원문 설명",
+          "role": "영문 2줄과 중국어 1줄",
+          "settings": {
+            "baseline_y": [
+              1030,
+              1051,
+              1074
+            ],
+            "width_px": [
+              420,
+              408,
+              440
+            ]
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "recipes": [
+        {
+          "id": "orange-large-type",
+          "label": "큰 숫자 세로 색 변화",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FF7B06",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 32,
+              "color": "#FD6B01",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 70,
+              "color": "#FD7504",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#E57215",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "orange-tall-block",
+          "label": "높은 우측 블록",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#F9BC7D",
+              "opacity": 0.96
+            },
+            {
+              "offset_pct": 37,
+              "color": "#F5B776",
+              "opacity": 0.94
+            },
+            {
+              "offset_pct": 76,
+              "color": "#F9AF64",
+              "opacity": 0.9
+            },
+            {
+              "offset_pct": 100,
+              "color": "#FBC99F",
+              "opacity": 0.8
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "orange-side-sheen",
+          "label": "앞면 위 얇은 가로 반사",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#F9D19A",
+              "opacity": 0.4
+            },
+            {
+              "offset_pct": 18,
+              "color": "#F9D19A",
+              "opacity": 0.12
+            },
+            {
+              "offset_pct": 100,
+              "color": "#EA932D",
+              "opacity": 0.18
+            }
+          ],
+          "parameters": {
+            "angle_deg": 0
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "orange-floor",
+          "label": "바닥의 짧은 주황 반사",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FBDCA1",
+              "opacity": 0.14
+            },
+            {
+              "offset_pct": 45,
+              "color": "#FBC778",
+              "opacity": 0.5
+            },
+            {
+              "offset_pct": 100,
+              "color": "#FBCB91",
+              "opacity": 0.1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 0
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "spacing": [
+        {
+          "label": "카드 크롭",
+          "value_px_approx": [
+            348,
+            982,
+            585,
+            283
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "숫자 15 기준선 / % 기준선",
+          "value_px_approx": [
+            1251,
+            1191
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "큰 숫자와 % 폭",
+          "value_px_approx": [
+            176,
+            77
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "높은 블록 폭·높이",
+          "value_px_approx": [
+            117,
+            226
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "공통 바닥 y",
+          "value_px_approx": 1261,
+          "status": "visual_bounds_estimate"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "guidance": "원본 가로세로 비율을 유지해 중앙에 배치하고 가로 여백을 확보한다. 숫자·도형을 가로로 잡아늘리지 않는다."
+        },
+        "portrait": {
+          "guidance": "원본 구성과 카드 행을 유지하며 여백 안에 전체를 담는다. 큰 화면 확대와 시안 크게 보기로 작은 글자를 확인한다."
+        }
+      },
+      "data_notes": [
+        "15% 및 영어·중국어 문구는 원본 디자인의 예시이다. 실제 채널 통계에 그대로 사용하지 않는다."
+      ],
+      "change": "🌸 기존 지도 상세 크롭으로만 보이던 15% 영역을 독립 편집 유형으로 구현. 숫자 크기, 주황 세로 그라데이션, 블록의 앞뒤 겹침, 접촉 그림자, 바닥 반사를 분리.",
+      "status": "editable_reconstruction_with_measured_reference"
+    },
+    {
+      "id": "REF-26",
+      "module": "filledPillars",
+      "title": "흰 기둥 채움 · 5색 막대",
+      "source": {
+        "url": "assets/references/148940.jpg",
+        "dimensions_px": [
+          1279,
+          1536
+        ],
+        "sha256": "0bab793bdef92ee70711a5476f1eb51bd729b9204eae71f1e51009b774fb8201",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          125,
+          300,
+          1015,
+          990
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "exclude app controls; original JPEG unchanged"
+      },
+      "observed": [
+        "5개 기둥의 흰 상한선과 바닥은 같고 색으로 채워진 높이가 다르다. 값은 50/35/65/45/100%이다.",
+        "색 막대는 왼면·오른면·윗면이 나뉘며, 특히 보라 기둥은 왼면 가장자리에서 중앙 모서리로 가며 짙어진다.",
+        "흰 베이스도 두 면의 밝기가 다르며, 숫자와 %는 오른쪽 흰 면에 세로로 배치된다.",
+        "모든 기둥 아래 짧은 접촉 그림자와 넓게 퍼지는 그림자, 옅은 반사가 있다. 아래 설명 카드는 공통 기준선에 정렬된다.",
+        "원본 숫자는 폭이 좁은 산세리프 형태. 폰트명은 확인할 수 없으므로 글리프 폭·기준선·크기를 수치로 맞추는 방식이다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "배경 중간",
+            "center_px": [
+              85,
+              600
+            ],
+            "roi": [
+              83,
+              598,
+              5,
+              5
+            ],
+            "rgb": [
+              168,
+              176,
+              183
+            ],
+            "hex": "#A8B0B7",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "흰 윗면",
+            "center_px": [
+              237,
+              349
+            ],
+            "roi": [
+              235,
+              347,
+              5,
+              5
+            ],
+            "rgb": [
+              222,
+              229,
+              231
+            ],
+            "hex": "#DEE5E7",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "흰 왼면 빛",
+            "center_px": [
+              180,
+              430
+            ],
+            "roi": [
+              178,
+              428,
+              5,
+              5
+            ],
+            "rgb": [
+              215,
+              221,
+              226
+            ],
+            "hex": "#D7DDE2",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "흰 왼면 중간",
+            "center_px": [
+              210,
+              500
+            ],
+            "roi": [
+              208,
+              498,
+              5,
+              5
+            ],
+            "rgb": [
+              205,
+              211,
+              216
+            ],
+            "hex": "#CDD3D8",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "흰 오른면",
+            "center_px": [
+              280,
+              480
+            ],
+            "roi": [
+              278,
+              478,
+              5,
+              5
+            ],
+            "rgb": [
+              193,
+              199,
+              206
+            ],
+            "hex": "#C1C7CE",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "주황 왼면 빛",
+            "center_px": [
+              180,
+              650
+            ],
+            "roi": [
+              178,
+              648,
+              5,
+              5
+            ],
+            "rgb": [
+              207,
+              128,
+              82
+            ],
+            "hex": "#CF8052",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "주황 왼면 짙은색",
+            "center_px": [
+              220,
+              670
+            ],
+            "roi": [
+              218,
+              668,
+              5,
+              5
+            ],
+            "rgb": [
+              189,
+              74,
+              13
+            ],
+            "hex": "#BD4A0D",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "주황 오른면",
+            "center_px": [
+              270,
+              680
+            ],
+            "roi": [
+              268,
+              678,
+              5,
+              5
+            ],
+            "rgb": [
+              185,
+              109,
+              18
+            ],
+            "hex": "#B96D12",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "주황 윗면 빛",
+            "center_px": [
+              230,
+              573
+            ],
+            "roi": [
+              228,
+              571,
+              5,
+              5
+            ],
+            "rgb": [
+              250,
+              165,
+              66
+            ],
+            "hex": "#FAA542",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "주황 윗면 짙은색",
+            "center_px": [
+              264,
+              567
+            ],
+            "roi": [
+              262,
+              565,
+              5,
+              5
+            ],
+            "rgb": [
+              228,
+              117,
+              36
+            ],
+            "hex": "#E47524",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "흰 베이스 왼면",
+            "center_px": [
+              182,
+              932
+            ],
+            "roi": [
+              180,
+              930,
+              5,
+              5
+            ],
+            "rgb": [
+              220,
+              214,
+              221
+            ],
+            "hex": "#DCD6DD",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "흰 베이스 오른면",
+            "center_px": [
+              270,
+              945
+            ],
+            "roi": [
+              268,
+              943,
+              5,
+              5
+            ],
+            "rgb": [
+              246,
+              253,
+              250
+            ],
+            "hex": "#F6FDFA",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "분홍 왼면",
+            "center_px": [
+              397,
+              696
+            ],
+            "roi": [
+              395,
+              694,
+              5,
+              5
+            ],
+            "rgb": [
+              155,
+              53,
+              119
+            ],
+            "hex": "#9B3577",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "분홍 모서리 짙은색",
+            "center_px": [
+              420,
+              744
+            ],
+            "roi": [
+              418,
+              742,
+              5,
+              5
+            ],
+            "rgb": [
+              128,
+              12,
+              85
+            ],
+            "hex": "#800C55",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "분홍 오른면",
+            "center_px": [
+              480,
+              700
+            ],
+            "roi": [
+              478,
+              698,
+              5,
+              5
+            ],
+            "rgb": [
+              186,
+              67,
+              138
+            ],
+            "hex": "#BA438A",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "분홍 윗면 빛",
+            "center_px": [
+              410,
+              639
+            ],
+            "roi": [
+              408,
+              637,
+              5,
+              5
+            ],
+            "rgb": [
+              218,
+              74,
+              165
+            ],
+            "hex": "#DA4AA5",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "분홍 윗면 짙은색",
+            "center_px": [
+              467,
+              638
+            ],
+            "roi": [
+              465,
+              636,
+              5,
+              5
+            ],
+            "rgb": [
+              167,
+              32,
+              142
+            ],
+            "hex": "#A7208E",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 왼면",
+            "center_px": [
+              591,
+              601
+            ],
+            "roi": [
+              589,
+              599,
+              5,
+              5
+            ],
+            "rgb": [
+              93,
+              70,
+              139
+            ],
+            "hex": "#5D468B",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 모서리 짙은색",
+            "center_px": [
+              621,
+              690
+            ],
+            "roi": [
+              619,
+              688,
+              5,
+              5
+            ],
+            "rgb": [
+              46,
+              18,
+              103
+            ],
+            "hex": "#2E1267",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 오른면",
+            "center_px": [
+              671,
+              620
+            ],
+            "roi": [
+              669,
+              618,
+              5,
+              5
+            ],
+            "rgb": [
+              96,
+              85,
+              178
+            ],
+            "hex": "#6055B2",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 오른면 하단",
+            "center_px": [
+              675,
+              789
+            ],
+            "roi": [
+              673,
+              787,
+              5,
+              5
+            ],
+            "rgb": [
+              83,
+              69,
+              156
+            ],
+            "hex": "#53459C",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 윗면 빛",
+            "center_px": [
+              585,
+              518
+            ],
+            "roi": [
+              583,
+              516,
+              5,
+              5
+            ],
+            "rgb": [
+              179,
+              165,
+              224
+            ],
+            "hex": "#B3A5E0",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 윗면 중간",
+            "center_px": [
+              613,
+              506
+            ],
+            "roi": [
+              611,
+              504,
+              5,
+              5
+            ],
+            "rgb": [
+              155,
+              142,
+              219
+            ],
+            "hex": "#9B8EDB",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 윗면 짙은색",
+            "center_px": [
+              670,
+              503
+            ],
+            "roi": [
+              668,
+              501,
+              5,
+              5
+            ],
+            "rgb": [
+              94,
+              80,
+              180
+            ],
+            "hex": "#5E50B4",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "청록 왼면",
+            "center_px": [
+              790,
+              691
+            ],
+            "roi": [
+              788,
+              689,
+              5,
+              5
+            ],
+            "rgb": [
+              66,
+              134,
+              136
+            ],
+            "hex": "#428688",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "청록 모서리 짙은색",
+            "center_px": [
+              816,
+              775
+            ],
+            "roi": [
+              814,
+              773,
+              5,
+              5
+            ],
+            "rgb": [
+              18,
+              102,
+              96
+            ],
+            "hex": "#126660",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "청록 오른면",
+            "center_px": [
+              876,
+              690
+            ],
+            "roi": [
+              874,
+              688,
+              5,
+              5
+            ],
+            "rgb": [
+              0,
+              139,
+              146
+            ],
+            "hex": "#008B92",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "청록 윗면 빛",
+            "center_px": [
+              818,
+              601
+            ],
+            "roi": [
+              816,
+              599,
+              5,
+              5
+            ],
+            "rgb": [
+              55,
+              188,
+              199
+            ],
+            "hex": "#37BCC7",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "청록 윗면 짙은색",
+            "center_px": [
+              867,
+              599
+            ],
+            "roi": [
+              865,
+              597,
+              5,
+              5
+            ],
+            "rgb": [
+              2,
+              168,
+              153
+            ],
+            "hex": "#02A899",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "연두 왼면 빛",
+            "center_px": [
+              987,
+              457
+            ],
+            "roi": [
+              985,
+              455,
+              5,
+              5
+            ],
+            "rgb": [
+              142,
+              177,
+              74
+            ],
+            "hex": "#8EB14A",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "연두 모서리 짙은색",
+            "center_px": [
+              1019,
+              686
+            ],
+            "roi": [
+              1017,
+              684,
+              5,
+              5
+            ],
+            "rgb": [
+              80,
+              140,
+              21
+            ],
+            "hex": "#508C15",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "연두 오른면",
+            "center_px": [
+              1083,
+              577
+            ],
+            "roi": [
+              1081,
+              575,
+              5,
+              5
+            ],
+            "rgb": [
+              128,
+              163,
+              26
+            ],
+            "hex": "#80A31A",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "연두 윗면",
+            "center_px": [
+              1018,
+              349
+            ],
+            "roi": [
+              1016,
+              347,
+              5,
+              5
+            ],
+            "rgb": [
+              192,
+              218,
+              27
+            ],
+            "hex": "#C0DA1B",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "연두 윗면 바깥",
+            "center_px": [
+              1083,
+              350
+            ],
+            "roi": [
+              1081,
+              348,
+              5,
+              5
+            ],
+            "rgb": [
+              140,
+              186,
+              98
+            ],
+            "hex": "#8CBA62",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "기둥 접지 그림자",
+            "center_px": [
+              1010,
+              1015
+            ],
+            "roi": [
+              1008,
+              1013,
+              5,
+              5
+            ],
+            "rgb": [
+              158,
+              161,
+              166
+            ],
+            "hex": "#9EA1A6",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 접지 주변",
+            "center_px": [
+              638,
+              1024
+            ],
+            "roi": [
+              636,
+              1022,
+              5,
+              5
+            ],
+            "rgb": [
+              187,
+              190,
+              195
+            ],
+            "hex": "#BBBEC3",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 그림자 바깥",
+            "center_px": [
+              710,
+              1016
+            ],
+            "roi": [
+              708,
+              1014,
+              5,
+              5
+            ],
+            "rgb": [
+              202,
+              211,
+              214
+            ],
+            "hex": "#CAD3D6",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "50% 숫자 코어색",
+            "roi": [
+              250,
+              828,
+              57,
+              61
+            ],
+            "rgb": [
+              206,
+              158,
+              86
+            ],
+            "hex": "#CE9E56",
+            "method": "색 글자 ROI: max-min>30 and min<190; 상위35% 채도범위 뒤 밝기 하위50% 픽셀의 RGB 중앙값",
+            "sampled_pixels": 282,
+            "status": "measured_screenshot_text_sample",
+            "caveat": "압축·안티앨리어싱된 글자의 어두운 코어 대표색. 원작의 정확한 텍스트 토큰으로 확정하지 않음."
+          },
+          {
+            "role": "35% 숫자 코어색",
+            "roi": [
+              452,
+              832,
+              55,
+              57
+            ],
+            "rgb": [
+              159,
+              47,
+              115
+            ],
+            "hex": "#9F2F73",
+            "method": "색 글자 ROI: max-min>30 and min<190; 상위35% 채도범위 뒤 밝기 하위50% 픽셀의 RGB 중앙값",
+            "sampled_pixels": 221,
+            "status": "measured_screenshot_text_sample",
+            "caveat": "압축·안티앨리어싱된 글자의 어두운 코어 대표색. 원작의 정확한 텍스트 토큰으로 확정하지 않음."
+          },
+          {
+            "role": "65% 숫자 코어색",
+            "roi": [
+              653,
+              832,
+              56,
+              57
+            ],
+            "rgb": [
+              105,
+              90,
+              133
+            ],
+            "hex": "#695A85",
+            "method": "색 글자 ROI: max-min>30 and min<190; 상위35% 채도범위 뒤 밝기 하위50% 픽셀의 RGB 중앙값",
+            "sampled_pixels": 117,
+            "status": "measured_screenshot_text_sample",
+            "caveat": "압축·안티앨리어싱된 글자의 어두운 코어 대표색. 원작의 정확한 텍스트 토큰으로 확정하지 않음."
+          },
+          {
+            "role": "45% 숫자 코어색",
+            "roi": [
+              851,
+              832,
+              56,
+              57
+            ],
+            "rgb": [
+              93,
+              164,
+              157
+            ],
+            "hex": "#5DA49D",
+            "method": "색 글자 ROI: max-min>30 and min<190; 상위35% 채도범위 뒤 밝기 하위50% 픽셀의 RGB 중앙값",
+            "sampled_pixels": 223,
+            "status": "measured_screenshot_text_sample",
+            "caveat": "압축·안티앨리어싱된 글자의 어두운 코어 대표색. 원작의 정확한 텍스트 토큰으로 확정하지 않음."
+          },
+          {
+            "role": "100% 숫자 코어색",
+            "roi": [
+              1045,
+              831,
+              62,
+              59
+            ],
+            "rgb": [
+              171,
+              197,
+              125
+            ],
+            "hex": "#ABC57D",
+            "method": "색 글자 ROI: max-min>30 and min<190; 상위35% 채도범위 뒤 밝기 하위50% 픽셀의 RGB 중앙값",
+            "sampled_pixels": 313,
+            "status": "measured_screenshot_text_sample",
+            "caveat": "압축·안티앨리어싱된 글자의 어두운 코어 대표색. 원작의 정확한 텍스트 토큰으로 확정하지 않음."
+          }
+        ]
+      },
+      "layers": [
+        {
+          "name": "회색 공간 바탕",
+          "role": "주변을 밝게 받는 배경",
+          "settings": {
+            "color": "#A8B0B7"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "넓은 바닥 그림자",
+          "role": "왼쪽으로 짧게 드리우는 투영",
+          "settings": {
+            "opacity": 0.296,
+            "blur_px": 9.5
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "작은 접촉 그림자",
+          "role": "베이스 바로 아래",
+          "settings": {
+            "opacity": 0.2,
+            "ellipse_radius": [
+              57,
+              10
+            ]
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "흰 상한 기둥",
+          "role": "같은 최대 높이를 가진 배경",
+          "settings": {
+            "white_top_y": 334,
+            "bottom_center_y": 825,
+            "left_and_right_faces_separate": true
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "색 왼면",
+          "role": "가로로 어두워지는 면",
+          "settings": {
+            "fill_direction_deg": 0,
+            "stops": 4
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "색 오른면",
+          "role": "위아래 색 변화",
+          "settings": {
+            "fill_direction_deg": 90,
+            "stops": 4
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "색 윗면",
+          "role": "마름모의 명암",
+          "settings": {
+            "fill_direction_deg": 0,
+            "stops": 3
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "반사광과 얇은 에지",
+          "role": "넓은 반사+가는 선",
+          "settings": {
+            "edge_width_px": 2.2,
+            "edge_opacity": 0.233
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "흰 베이스 두 면",
+          "role": "앞뒷면 밝기를 다르게",
+          "settings": {
+            "base_top_center_y": 825,
+            "base_bottom_center_y": 1021
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "숫자와 %",
+          "role": "원문 값을 흰 베이스에 넣음",
+          "settings": {
+            "number_font_px": 65,
+            "number_width_px": 57,
+            "percent_font_px": 39
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "하단 설명 카드",
+          "role": "공통 기준선",
+          "settings": {
+            "top_y": 1085,
+            "width": 152,
+            "height": 203
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "recipes": [
+        {
+          "id": "pillar-purple-left",
+          "label": "보라 왼면 · 왼쪽 빛에서 모서리 암부",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#8871B8",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 18,
+              "color": "#5D468B",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 72,
+              "color": "#2E1267",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#32146B",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 0
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "pillar-purple-front",
+          "label": "보라 오른면 · 위에서 아래",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#7466BF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 24,
+              "color": "#6055B2",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 73,
+              "color": "#5847A3",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#53459C",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "pillar-purple-top",
+          "label": "보라 윗면 · 밝은 뒤에서 짙은 앞",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#B3A5E0",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 48,
+              "color": "#9B8EDB",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#5E50B4",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 0
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "pillar-white-left",
+          "label": "흰 상한 기둥 왼면",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#E8ECEE",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 8,
+              "color": "#DDE3E7",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 52,
+              "color": "#CDD3D8",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#CFD4D9",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 0
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "pillar-base-right",
+          "label": "흰 베이스 오른면",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FFFFFF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 65,
+              "color": "#F6FDFA",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#EAF3F2",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 19
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "pillar-broad-sheen",
+          "label": "넓고 약한 표면 반사",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FFFFFF",
+              "opacity": 0.32
+            },
+            {
+              "offset_pct": 12,
+              "color": "#FFFFFF",
+              "opacity": 0.12
+            },
+            {
+              "offset_pct": 33,
+              "color": "#FFFFFF",
+              "opacity": 0.02
+            },
+            {
+              "offset_pct": 100,
+              "color": "#FFFFFF",
+              "opacity": 0
+            }
+          ],
+          "parameters": {
+            "angle_deg": 0
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "spacing": [
+        {
+          "label": "기둥 왼쪽 x",
+          "value_px_approx": [
+            162,
+            362,
+            562,
+            762,
+            962
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "기둥 폭 / 간격",
+          "value_px_approx": [
+            152,
+            48
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "최상단 마름모 y",
+          "value_px_approx": [
+            334,
+            360,
+            386
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "색 공통 바닥 y",
+          "value_px_approx": [
+            799,
+            825
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "흰 베이스 바닥 y",
+          "value_px_approx": [
+            996,
+            1021
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "설명 카드 y",
+          "value_px_approx": 1085,
+          "status": "visual_bounds_estimate"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "guidance": "원본 가로세로 비율을 유지해 중앙에 배치하고 가로 여백을 확보한다. 숫자·도형을 가로로 잡아늘리지 않는다."
+        },
+        "portrait": {
+          "guidance": "원본 구성과 카드 행을 유지하며 여백 안에 전체를 담는다. 큰 화면 확대와 시안 크게 보기로 작은 글자를 확인한다."
+        }
+      },
+      "data_notes": [
+        "값은 원본 예시인 50/35/65/45/100%이며 서로 다른 범주의 독립 비율이다. 합계100 구성비로 해석하지 않는다.",
+        "색 막대 높이 계산: 채움 왼쪽 상단 y = 800 − 4.4 × 값(%). 투영 윗면은 ±26px."
+      ],
+      "change": "🌸 누락되었던 흰 상한 기둥+흰 베이스 5색 막대 유형 추가. 각 기둥의 앞·옆·윗면 명암, 모서리 반사, 접지 그림자, 하단 숫자와 설명 카드 구현.",
+      "status": "editable_reconstruction_with_measured_reference"
+    },
+    {
+      "id": "REF-27",
+      "module": "foldedBars",
+      "title": "벽에서 바닥으로 접힌 막대",
+      "source": {
+        "url": "assets/references/148942.jpg",
+        "dimensions_px": [
+          1279,
+          1536
+        ],
+        "sha256": "565b56d21ca28fc827cecd4b433581d59c51c4076e9c8b69af4371baa96c9d3c",
+        "type": "user_supplied_reference",
+        "direct_visual_review": true
+      },
+      "crop": {
+        "box": [
+          10,
+          190,
+          1258,
+          1080
+        ],
+        "coordinate_order": "x,y,width,height",
+        "purpose": "exclude app controls; original JPEG unchanged"
+      },
+      "observed": [
+        "막대가 벽을 따라 내려오다 공통 y≈1195에서 바닥 방향으로 꺾인다. 굽힘 경계는 얇은 어두운 띠로 보인다.",
+        "원본 숫자는 21/12/32/19/68%이다. 사용자 발화의 첫 값 27%와는 다르므로 원본 표기21%를 보존한다.",
+        "큰 숫자를 담은 흰 말풍선형 수치 카드에는 아래쪽 화살꼬리와 회색 투영 그림자가 있다.",
+        "원형 아이콘은 각 카드 위 같은 간격에 있고, 카드 숫자·막대·아이콘은 동일한 계열색이다.",
+        "막대의 원본 높이는 숫자와 선형 비례하지 않는다. 원본 재현은 인포그래픽 예시이며 실제 정량 차트에는 공통 척도로 높이를 다시 계산해야 한다."
+      ],
+      "palette": {
+        "declared": [],
+        "measured": [
+          {
+            "role": "밝은 푸른 배경",
+            "center_px": [
+              112,
+              377
+            ],
+            "roi": [
+              110,
+              375,
+              5,
+              5
+            ],
+            "rgb": [
+              211,
+              227,
+              242
+            ],
+            "hex": "#D3E3F2",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "배경 오른쪽",
+            "center_px": [
+              1130,
+              1095
+            ],
+            "roi": [
+              1128,
+              1093,
+              5,
+              5
+            ],
+            "rgb": [
+              215,
+              228,
+              242
+            ],
+            "hex": "#D7E4F2",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "노랑 면 중간",
+            "center_px": [
+              234,
+              889
+            ],
+            "roi": [
+              232,
+              887,
+              5,
+              5
+            ],
+            "rgb": [
+              244,
+              179,
+              3
+            ],
+            "hex": "#F4B303",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "노랑 면 하단",
+            "center_px": [
+              235,
+              1123
+            ],
+            "roi": [
+              233,
+              1121,
+              5,
+              5
+            ],
+            "rgb": [
+              237,
+              174,
+              2
+            ],
+            "hex": "#EDAE02",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "노랑 접힘",
+            "center_px": [
+              235,
+              1200
+            ],
+            "roi": [
+              233,
+              1198,
+              5,
+              5
+            ],
+            "rgb": [
+              230,
+              169,
+              0
+            ],
+            "hex": "#E6A900",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "노랑 바닥",
+            "center_px": [
+              166,
+              1291
+            ],
+            "roi": [
+              164,
+              1289,
+              5,
+              5
+            ],
+            "rgb": [
+              241,
+              179,
+              1
+            ],
+            "hex": "#F1B301",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "주황 면 중간",
+            "center_px": [
+              448,
+              1118
+            ],
+            "roi": [
+              446,
+              1116,
+              5,
+              5
+            ],
+            "rgb": [
+              250,
+              140,
+              2
+            ],
+            "hex": "#FA8C02",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "주황 접힘",
+            "center_px": [
+              448,
+              1189
+            ],
+            "roi": [
+              446,
+              1187,
+              5,
+              5
+            ],
+            "rgb": [
+              231,
+              128,
+              1
+            ],
+            "hex": "#E78001",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "주황 바닥",
+            "center_px": [
+              422,
+              1278
+            ],
+            "roi": [
+              420,
+              1276,
+              5,
+              5
+            ],
+            "rgb": [
+              254,
+              140,
+              1
+            ],
+            "hex": "#FE8C01",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 면 중간",
+            "center_px": [
+              640,
+              915
+            ],
+            "roi": [
+              638,
+              913,
+              5,
+              5
+            ],
+            "rgb": [
+              100,
+              97,
+              155
+            ],
+            "hex": "#64619B",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 면 하단",
+            "center_px": [
+              640,
+              1140
+            ],
+            "roi": [
+              638,
+              1138,
+              5,
+              5
+            ],
+            "rgb": [
+              97,
+              94,
+              152
+            ],
+            "hex": "#615E98",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "보라 접힘",
+            "center_px": [
+              640,
+              1204
+            ],
+            "roi": [
+              638,
+              1202,
+              5,
+              5
+            ],
+            "rgb": [
+              95,
+              93,
+              149
+            ],
+            "hex": "#5F5D95",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "파랑 면 중간",
+            "center_px": [
+              837,
+              1028
+            ],
+            "roi": [
+              835,
+              1026,
+              5,
+              5
+            ],
+            "rgb": [
+              73,
+              140,
+              231
+            ],
+            "hex": "#498CE7",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "파랑 접힘",
+            "center_px": [
+              836,
+              1191
+            ],
+            "roi": [
+              834,
+              1189,
+              5,
+              5
+            ],
+            "rgb": [
+              67,
+              126,
+              208
+            ],
+            "hex": "#437ED0",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "파랑 바닥",
+            "center_px": [
+              885,
+              1300
+            ],
+            "roi": [
+              883,
+              1298,
+              5,
+              5
+            ],
+            "rgb": [
+              72,
+              139,
+              228
+            ],
+            "hex": "#488BE4",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "초록 면 중간",
+            "center_px": [
+              1020,
+              850
+            ],
+            "roi": [
+              1018,
+              848,
+              5,
+              5
+            ],
+            "rgb": [
+              40,
+              181,
+              136
+            ],
+            "hex": "#28B588",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "초록 접힘",
+            "center_px": [
+              1020,
+              1183
+            ],
+            "roi": [
+              1018,
+              1181,
+              5,
+              5
+            ],
+            "rgb": [
+              34,
+              167,
+              124
+            ],
+            "hex": "#22A77C",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "초록 바닥",
+            "center_px": [
+              1079,
+              1278
+            ],
+            "roi": [
+              1077,
+              1276,
+              5,
+              5
+            ],
+            "rgb": [
+              40,
+              181,
+              136
+            ],
+            "hex": "#28B588",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "흰 수치 카드",
+            "center_px": [
+              200,
+              584
+            ],
+            "roi": [
+              198,
+              582,
+              5,
+              5
+            ],
+            "rgb": [
+              254,
+              254,
+              245
+            ],
+            "hex": "#FEFEF5",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "카드 아래 그림자",
+            "center_px": [
+              348,
+              693
+            ],
+            "roi": [
+              346,
+              691,
+              5,
+              5
+            ],
+            "rgb": [
+              189,
+              199,
+              209
+            ],
+            "hex": "#BDC7D1",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "32% 카드 하단 그림자",
+            "center_px": [
+              653,
+              639
+            ],
+            "roi": [
+              651,
+              637,
+              5,
+              5
+            ],
+            "rgb": [
+              200,
+              207,
+              212
+            ],
+            "hex": "#C8CFD4",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "12% 카드 아래 그림자",
+            "center_px": [
+              510,
+              931
+            ],
+            "roi": [
+              508,
+              929,
+              5,
+              5
+            ],
+            "rgb": [
+              188,
+              202,
+              215
+            ],
+            "hex": "#BCCAD7",
+            "method": "5×5 RGB channel median",
+            "status": "measured_screenshot_sample",
+            "caveat": "사용자 JPEG에 합성된 화면색 실측이며 원작의 단색 토큰 또는 조명 설정값으로 단정하지 않음."
+          },
+          {
+            "role": "21% 숫자 코어색",
+            "roi": [
+              203,
+              588,
+              123,
+              66
+            ],
+            "rgb": [
+              226,
+              178,
+              46
+            ],
+            "hex": "#E2B22E",
+            "method": "색 글자 ROI: max-min>30 and min<190; 상위35% 채도범위 뒤 밝기 하위50% 픽셀의 RGB 중앙값",
+            "sampled_pixels": 832,
+            "status": "measured_screenshot_text_sample",
+            "caveat": "압축·안티앨리어싱된 글자의 어두운 코어 대표색. 원작의 정확한 텍스트 토큰으로 확정하지 않음."
+          },
+          {
+            "role": "12% 숫자 코어색",
+            "roi": [
+              397,
+              815,
+              120,
+              68
+            ],
+            "rgb": [
+              227,
+              146,
+              42
+            ],
+            "hex": "#E3922A",
+            "method": "색 글자 ROI: max-min>30 and min<190; 상위35% 채도범위 뒤 밝기 하위50% 픽셀의 RGB 중앙값",
+            "sampled_pixels": 831,
+            "status": "measured_screenshot_text_sample",
+            "caveat": "압축·안티앨리어싱된 글자의 어두운 코어 대표색. 원작의 정확한 텍스트 토큰으로 확정하지 않음."
+          },
+          {
+            "role": "32% 숫자 코어색",
+            "roi": [
+              582,
+              524,
+              118,
+              64
+            ],
+            "rgb": [
+              100,
+              96,
+              139
+            ],
+            "hex": "#64608B",
+            "method": "색 글자 ROI: max-min>30 and min<190; 상위35% 채도범위 뒤 밝기 하위50% 픽셀의 RGB 중앙값",
+            "sampled_pixels": 309,
+            "status": "measured_screenshot_text_sample",
+            "caveat": "압축·안티앨리어싱된 글자의 어두운 코어 대표색. 원작의 정확한 텍스트 토큰으로 확정하지 않음."
+          },
+          {
+            "role": "19% 숫자 코어색",
+            "roi": [
+              770,
+              668,
+              120,
+              65
+            ],
+            "rgb": [
+              85,
+              136,
+              196
+            ],
+            "hex": "#5588C4",
+            "method": "색 글자 ROI: max-min>30 and min<190; 상위35% 채도범위 뒤 밝기 하위50% 픽셀의 RGB 중앙값",
+            "sampled_pixels": 699,
+            "status": "measured_screenshot_text_sample",
+            "caveat": "압축·안티앨리어싱된 글자의 어두운 코어 대표색. 원작의 정확한 텍스트 토큰으로 확정하지 않음."
+          },
+          {
+            "role": "68% 숫자 코어색",
+            "roi": [
+              954,
+              400,
+              126,
+              64
+            ],
+            "rgb": [
+              56,
+              169,
+              136
+            ],
+            "hex": "#38A988",
+            "method": "색 글자 ROI: max-min>30 and min<190; 상위35% 채도범위 뒤 밝기 하위50% 픽셀의 RGB 중앙값",
+            "sampled_pixels": 940,
+            "status": "measured_screenshot_text_sample",
+            "caveat": "압축·안티앨리어싱된 글자의 어두운 코어 대표색. 원작의 정확한 텍스트 토큰으로 확정하지 않음."
+          }
+        ]
+      },
+      "layers": [
+        {
+          "name": "푸른 공간 바탕",
+          "role": "밝은 벽",
+          "settings": {
+            "color": "#D3E3F2"
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "벽의 하단 음영",
+          "role": "바닥 접힘을 암시",
+          "settings": {
+            "y": 1128,
+            "height": 68,
+            "opacity_max": 0.17
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "각 막대의 벽면",
+          "role": "계열색을 유지하는 세로 명암",
+          "settings": {
+            "left_x": [
+              194,
+              384,
+              573,
+              762,
+              950
+            ],
+            "width": 140
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "막대의 바닥면",
+          "role": "소실점 방향으로 벌어지는 사변형",
+          "settings": {
+            "hinge_y": 1195,
+            "full_reference_floor_y": 1363,
+            "cropped_at_y": 1270
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "접힘 그림자",
+          "role": "모서리의 좁고 부드러운 암부",
+          "settings": {
+            "line_width_px": 6,
+            "blur_px": 4,
+            "opacity": 0.269
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "수치 카드 투영",
+          "role": "흰 카드가 떠 보이게 함",
+          "settings": {
+            "offset": [
+              3,
+              8
+            ],
+            "blur_px": 7,
+            "opacity": 0.318
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "흰 수치 카드",
+          "role": "아래쪽 작은 꼬리",
+          "settings": {
+            "width": 164,
+            "height": 124,
+            "pointer_height": 18
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "숫자와 그림자",
+          "role": "카드 안의 큰 계열색 숫자",
+          "settings": {
+            "font_px": 85,
+            "glyph_width_px": 120,
+            "shadow_opacity": 0.12,
+            "shadow_y_px": 1.7
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "상단 원형 아이콘",
+          "role": "막대·숫자와 동일색",
+          "settings": {
+            "radius_px": 38,
+            "offset_from_card_y": -77
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "name": "본문 설명",
+          "role": "막대 내부 상단에 정렬",
+          "settings": {
+            "title_font_px": 12,
+            "description_font_px": 9
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "recipes": [
+        {
+          "id": "fold-yellow-vertical",
+          "label": "노란 벽면에서 접힘까지",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#F4B303",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 48,
+              "color": "#F4B303",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 84,
+              "color": "#EDAE02",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#E6A900",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "fold-orange-hinge",
+          "label": "주황 벽·접힘·바닥",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FA8C02",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 52,
+              "color": "#E78001",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#FE8C01",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "fold-purple-hinge",
+          "label": "보라 벽·접힘·바닥",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#64619B",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 70,
+              "color": "#615E98",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 84,
+              "color": "#5F5D95",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#64619B",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "fold-white-callout",
+          "label": "흰 수치 콜아웃",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#FFFFFF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 72,
+              "color": "#FFFFFF",
+              "opacity": 1
+            },
+            {
+              "offset_pct": 100,
+              "color": "#FAFCFC",
+              "opacity": 1
+            }
+          ],
+          "parameters": {
+            "angle_deg": 100
+          },
+          "status": "reconstruction_proposal"
+        },
+        {
+          "id": "fold-wall-ambient",
+          "label": "벽과 바닥의 공통 경계",
+          "type": "linear",
+          "stops": [
+            {
+              "offset_pct": 0,
+              "color": "#687D91",
+              "opacity": 0
+            },
+            {
+              "offset_pct": 84,
+              "color": "#687D91",
+              "opacity": 0.08
+            },
+            {
+              "offset_pct": 100,
+              "color": "#687D91",
+              "opacity": 0.17
+            }
+          ],
+          "parameters": {
+            "angle_deg": 90
+          },
+          "status": "reconstruction_proposal"
+        }
+      ],
+      "spacing": [
+        {
+          "label": "공통 접힘 y",
+          "value_px_approx": 1195,
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "막대 왼쪽 x",
+          "value_px_approx": [
+            194,
+            384,
+            573,
+            762,
+            950
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "막대 폭",
+          "value_px_approx": 140,
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "막대 상단 y",
+          "value_px_approx": [
+            738,
+            959,
+            668,
+            816,
+            548
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "흰 카드 상단 y",
+          "value_px_approx": [
+            572,
+            798,
+            507,
+            648,
+            382
+          ],
+          "status": "visual_bounds_estimate"
+        },
+        {
+          "label": "수치 카드 폭·높이·꼬리",
+          "value_px_approx": [
+            164,
+            124,
+            18
+          ],
+          "status": "visual_bounds_estimate"
+        }
+      ],
+      "layout": {
+        "landscape": {
+          "guidance": "원본 가로세로 비율을 유지해 중앙에 배치하고 가로 여백을 확보한다. 숫자·도형을 가로로 잡아늘리지 않는다."
+        },
+        "portrait": {
+          "guidance": "원본 구성과 카드 행을 유지하며 여백 안에 전체를 담는다. 큰 화면 확대와 시안 크게 보기로 작은 글자를 확인한다."
+        }
+      },
+      "data_notes": [
+        "첫 값은27%가 아니라 원본21%이다.",
+        "원본 값 21/12/32/19/68 그대로일 때는 원본 위치를 유지한다. 값 하나라도 변경하면 0~100% 공통 척도(100%=646px 높이)로 자동 재계산한다.",
+        "미리보기 크롭은 원본 하단 앱 안내와 크레디트가 나타나기 전에서 끝난다. 원본 JPEG는 수정하지 않는다."
+      ],
+      "change": "🌸 벽→바닥 접힘 막대 유형 추가. 원근 바닥면, 접힘 암부, 흰 숫자 콜아웃·꼬리·그림자, 상단 아이콘과 계열색 연결 구현.",
+      "status": "editable_reconstruction_with_measured_reference"
+    }
+  ],
+  "changes": [
+    "🌸 기존 지도 상세 크롭으로만 보이던 15% 영역을 독립 편집 유형으로 구현. 숫자 크기, 주황 세로 그라데이션, 블록의 앞뒤 겹침, 접촉 그림자, 바닥 반사를 분리.",
+    "🌸 누락되었던 흰 상한 기둥+흰 베이스 5색 막대 유형 추가. 각 기둥의 앞·옆·윗면 명암, 모서리 반사, 접지 그림자, 하단 숫자와 설명 카드 구현.",
+    "🌸 벽→바닥 접힘 막대 유형 추가. 원근 바닥면, 접힘 암부, 흰 숫자 콜아웃·꼬리·그림자, 상단 아이콘과 계열색 연결 구현."
+  ],
+  "measurement_policy": "실측은 원본 JPEG의 지정한 5×5 영역 RGB 중앙값. 재현 조명과 그라데이션은 🌸 제안이며 원래 3D 설정값의 복원이라고 주장하지 않음."
+}

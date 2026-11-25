@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-25",
+  "scope": "실제 브라우저 미리보기 기능 검사",
+  "tests": {
+    "country_japan_korea_russia_france_step4_replacement": true,
+    "custom_country_italy": true,
+    "target_italy_output_japanese_separate": true,
+    "japanese_c_caption_and_read": true,
+    "korean_ending_rule_not_forced_on_japanese": true,
+    "unresolved_template_tokens_in_copied_prompt": 0,
+    "whole_prompt_clipboard": true,
+    "original_clipboard_equals_preserved_literal_after_readable_toggle": true,
+    "original_sha256_matches": true,
+    "session_ep33_search_one_of_40": true,
+    "research_hub_first_sidebar_menu": true,
+    "unified_hub_first_sidebar_menu": true,
+    "embedded_full_prompt_clipboard": true
+  },
+  "not_performed": [
+    "실제 외국인 원음 청취",
+    "번역 검수",
+    "제작 대본 lint 실행"
+  ],
+  "note": "파일 생성 이후 경미한 통계 라벨·복사 알림 문구 수정은 별도 정적 검토. 영상·제목 제작 완료를 뜻하지 않음."
+}

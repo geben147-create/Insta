@@ -1,0 +1,618 @@
+{
+  "schema": "session.research-ledger.v1",
+  "status": "HISTORICAL_SEARCH_INPUTS_ONLY_NOT_NEWLY_EXECUTED",
+  "group_count": 11,
+  "query_count": 64,
+  "groups": [
+    {
+      "group": "Q01",
+      "response_length": "long",
+      "queries": [
+        "Japan Tokyo rail network railway urban transport OECD World Bank Tokyo public transportation Japan rail international report",
+        "Japan clean streets no trash bins foreign media BBC Japan rubbish bins public cleaning",
+        "Japan capsule hotel design architecture foreign magazine Dezeen Japan capsule hotels",
+        "Japanese small house design Japanese bath compact living architecture Dwell Japan",
+        "Japan 100 yen store Daiso everyday design Guardian BBC CNN Japan dollar stores",
+        "Japan tourism 2025 42.68 million Korean visitors Reuters JNTO overtourism 2026",
+        "Tokyo Michelin guide 2026 restaurants stars Tokyo CNN foreign media",
+        "Japan washoku UNESCO traditional dietary cultures Japan sushi history Smithsonian magazine",
+        "Japan ramen Chinese origin history Smithsonian Japan ramen museum foreign media",
+        "Japan ryokan onsen Japanese traditional inn National Geographic BBC travel",
+        "Kyoto historic monuments UNESCO Kyoto tourism preservation National Geographic",
+        "anime pilgrimage Japan tourism academic journal anime tourism Japan",
+        "UNESCO Japan traditional knowledge skills sake brewing 2024 foreign media"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "group": "Q02",
+      "response_length": "medium",
+      "queries": [
+        "Japan Tokyo railway network world bank Tokyo rail transit land value capture study",
+        "Japan streets clean trash bins Japan CNN BBC travel cleanliness garbage",
+        "Japan capsule hotel history design Japanese capsule hotel architecture Smithsonian CNN",
+        "Japanese compact housing small space design Japan architecture Dezeen Japanese houses",
+        "Japanese 100 yen shops Daiso Japanese design global expansion foreign news"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "group": "Q03",
+      "response_length": "medium",
+      "queries": [
+        "Japan Japanese toilet bidet Toto Washlet foreign media Smithsonian CNN Japan design home",
+        "Daiso US expansion Japanese dollar store US media CNN Los Angeles Times Daiso Japan 2025",
+        "Japan tourism record 42.7 million 2025 South Korea arrivals Reuters Japan JNTO January 2026",
+        "washoku UNESCO traditional dietary cultures Japanese sushi historical Smithsonian magazine sushi history",
+        "UNESCO traditional knowledge skills sake making Japan 2024 UNESCO"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "group": "Q04",
+      "response_length": "medium",
+      "queries": [
+        "Japan shinkansen 60 years Guardian Japan magic bullet high speed rail",
+        "Smithsonian sushi history Japan fermented sushi Southeast Asia Edo",
+        "Japan ryokan traditional inns onsen travel magazine Japan ryokan foreign travelers Condé Nast Traveler",
+        "Japan 100 yen Daiso American dollar store article US magazine",
+        "Japan Korea travel comparison reddit JapanTravel Korea Japan trip preference"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "group": "Q05",
+      "response_length": "long",
+      "queries": [
+        "OECD PISA 2022 Japan Korea mathematics science country note Japan PISA resilience OECD",
+        "Japan life expectancy diet mortality Japanese longevity Lancet Japan study 2020",
+        "Japan healthcare system Japan universal health coverage Lancet OECD Japan preventable mortality 2025",
+        "Japanese school lunch education school lunch Japan foreign media BBC CNN study shokuiku",
+        "Japan anime industry 2024 3.84 trillion overseas market Variety Hollywood Reporter Crunchyroll AJA"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "group": "Q06",
+      "response_length": "medium",
+      "queries": [
+        "Japan longevity Japanese diet mortality cohort study BMJ Japan dietary guidelines 2016 Japan life expectancy",
+        "Japan school lunches nutrition educational Japanese school lunch study Public Health Nutrition school lunch Japan",
+        "Japan arcade game centers culture Japanese arcades foreign magazine Japan arcade preservation",
+        "Hiromi Uehara NPR tiny desk concert jazz pianist Japan Hiromi foreign magazine",
+        "Japan traditional craft washi paper conservation architecture Japanese wooden architecture UNESCO Japan festival crafts Smithsonian"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "group": "Q07",
+      "response_length": "long",
+      "queries": [
+        "site:bmj.com Japanese diet quality mortality Japan prospective cohort Kurotani 2016",
+        "school lunch Japan nutritional intake study school lunch Japanese children Public Health Nutrition",
+        "Japanese arcades game centers decline Japan foreign magazine arcade culture Guardian Japan",
+        "Japan kei cars why small cars Japanese kei cars foreign magazine Car and Driver",
+        "Japan beauty skincare J beauty K beauty Japan skincare foreign magazine Allure Vogue J beauty",
+        "Japan century old companies 46708 Teikoku Databank 2025 Japan 100 year firms foreign news"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "group": "Q08",
+      "response_length": "medium",
+      "queries": [
+        "Japan WBC 2023 undefeated 7-0 Ohtani Trout AP Reuters MLB Japan baseball final 2023",
+        "Japan Germany Spain world cup 2022 group top FIFA BBC Reuters Japan comeback",
+        "Japan South Africa rugby 2015 34 32 World Rugby Guardian Brighton miracle",
+        "Japan volleyball men's national team 2024 silver VNL Volleyball World Japan defense",
+        "Japan Finland 98 88 18 points 2023 FIBA basketball World Cup"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "group": "Q09",
+      "response_length": "medium",
+      "queries": [
+        "Japan men's volleyball VNL 2024 silver medal Volleyball World Japan France final",
+        "Yuzuru Hanyu Japan figure skating international fans BBC Olympics artistic skating Hanyu",
+        "Hideki Matsuyama 2021 Masters first Japanese male major champion Reuters AP Golf Digest",
+        "Japanese kei cars US cult following Car and Driver kei truck Japan",
+        "Japanese skincare J beauty Japanese skincare vs Korean beauty Allure Vogue magazine",
+        "Japan ancient companies century old Japanese businesses BBC why Japan has so many old companies"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "group": "Q10",
+      "response_length": "medium",
+      "queries": [
+        "Yuzuru Hanyu figure skating Japan two Olympic gold medals international fans Reuters 2022 retirement",
+        "site:caranddriver.com kei trucks Japan small truck American Japanese",
+        "site:bbc.com/worklife 20200211 why are so many old companies in japan",
+        "Japanese long lived firms Japan family business longevity study journal Japanese century old firms",
+        "Japan Korea public opinion Genron NPO 2024 2025 mutual perceptions Japan South Korea historical issues survey"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "group": "Q11",
+      "response_length": "medium",
+      "queries": [
+        "Japanese kei truck appeal US small trucks Japan foreign magazine Road Track Motortrend kei truck 2024",
+        "Japanese centenarian companies family business Japan BBC Harvard Business Review longevity Japan shinise companies",
+        "Japan WBC 2023 AP Japan beats United States Ohtani Trout World Baseball Classic",
+        "Japan game centers crane games Japanese arcades foreign travel magazine Japan game center"
+      ],
+      "provenance": "visible_prior_web.run_call_input",
+      "original_query_prefix": "fast|",
+      "result_status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    }
+  ],
+  "queries": [
+    {
+      "id": "SQ01",
+      "group": "Q01",
+      "query": "Japan Tokyo rail network railway urban transport OECD World Bank Tokyo public transportation Japan rail international report",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ02",
+      "group": "Q01",
+      "query": "Japan clean streets no trash bins foreign media BBC Japan rubbish bins public cleaning",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ03",
+      "group": "Q01",
+      "query": "Japan capsule hotel design architecture foreign magazine Dezeen Japan capsule hotels",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ04",
+      "group": "Q01",
+      "query": "Japanese small house design Japanese bath compact living architecture Dwell Japan",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ05",
+      "group": "Q01",
+      "query": "Japan 100 yen store Daiso everyday design Guardian BBC CNN Japan dollar stores",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ06",
+      "group": "Q01",
+      "query": "Japan tourism 2025 42.68 million Korean visitors Reuters JNTO overtourism 2026",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ07",
+      "group": "Q01",
+      "query": "Tokyo Michelin guide 2026 restaurants stars Tokyo CNN foreign media",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ08",
+      "group": "Q01",
+      "query": "Japan washoku UNESCO traditional dietary cultures Japan sushi history Smithsonian magazine",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ09",
+      "group": "Q01",
+      "query": "Japan ramen Chinese origin history Smithsonian Japan ramen museum foreign media",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ10",
+      "group": "Q01",
+      "query": "Japan ryokan onsen Japanese traditional inn National Geographic BBC travel",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ11",
+      "group": "Q01",
+      "query": "Kyoto historic monuments UNESCO Kyoto tourism preservation National Geographic",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ12",
+      "group": "Q01",
+      "query": "anime pilgrimage Japan tourism academic journal anime tourism Japan",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ13",
+      "group": "Q01",
+      "query": "UNESCO Japan traditional knowledge skills sake brewing 2024 foreign media",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ14",
+      "group": "Q02",
+      "query": "Japan Tokyo railway network world bank Tokyo rail transit land value capture study",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ15",
+      "group": "Q02",
+      "query": "Japan streets clean trash bins Japan CNN BBC travel cleanliness garbage",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ16",
+      "group": "Q02",
+      "query": "Japan capsule hotel history design Japanese capsule hotel architecture Smithsonian CNN",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ17",
+      "group": "Q02",
+      "query": "Japanese compact housing small space design Japan architecture Dezeen Japanese houses",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ18",
+      "group": "Q02",
+      "query": "Japanese 100 yen shops Daiso Japanese design global expansion foreign news",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ19",
+      "group": "Q03",
+      "query": "Japan Japanese toilet bidet Toto Washlet foreign media Smithsonian CNN Japan design home",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ20",
+      "group": "Q03",
+      "query": "Daiso US expansion Japanese dollar store US media CNN Los Angeles Times Daiso Japan 2025",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ21",
+      "group": "Q03",
+      "query": "Japan tourism record 42.7 million 2025 South Korea arrivals Reuters Japan JNTO January 2026",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ22",
+      "group": "Q03",
+      "query": "washoku UNESCO traditional dietary cultures Japanese sushi historical Smithsonian magazine sushi history",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ23",
+      "group": "Q03",
+      "query": "UNESCO traditional knowledge skills sake making Japan 2024 UNESCO",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ24",
+      "group": "Q04",
+      "query": "Japan shinkansen 60 years Guardian Japan magic bullet high speed rail",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ25",
+      "group": "Q04",
+      "query": "Smithsonian sushi history Japan fermented sushi Southeast Asia Edo",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ26",
+      "group": "Q04",
+      "query": "Japan ryokan traditional inns onsen travel magazine Japan ryokan foreign travelers Condé Nast Traveler",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ27",
+      "group": "Q04",
+      "query": "Japan 100 yen Daiso American dollar store article US magazine",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ28",
+      "group": "Q04",
+      "query": "Japan Korea travel comparison reddit JapanTravel Korea Japan trip preference",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ29",
+      "group": "Q05",
+      "query": "OECD PISA 2022 Japan Korea mathematics science country note Japan PISA resilience OECD",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ30",
+      "group": "Q05",
+      "query": "Japan life expectancy diet mortality Japanese longevity Lancet Japan study 2020",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ31",
+      "group": "Q05",
+      "query": "Japan healthcare system Japan universal health coverage Lancet OECD Japan preventable mortality 2025",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ32",
+      "group": "Q05",
+      "query": "Japanese school lunch education school lunch Japan foreign media BBC CNN study shokuiku",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ33",
+      "group": "Q05",
+      "query": "Japan anime industry 2024 3.84 trillion overseas market Variety Hollywood Reporter Crunchyroll AJA",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ34",
+      "group": "Q06",
+      "query": "Japan longevity Japanese diet mortality cohort study BMJ Japan dietary guidelines 2016 Japan life expectancy",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ35",
+      "group": "Q06",
+      "query": "Japan school lunches nutrition educational Japanese school lunch study Public Health Nutrition school lunch Japan",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ36",
+      "group": "Q06",
+      "query": "Japan arcade game centers culture Japanese arcades foreign magazine Japan arcade preservation",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ37",
+      "group": "Q06",
+      "query": "Hiromi Uehara NPR tiny desk concert jazz pianist Japan Hiromi foreign magazine",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ38",
+      "group": "Q06",
+      "query": "Japan traditional craft washi paper conservation architecture Japanese wooden architecture UNESCO Japan festival crafts Smithsonian",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ39",
+      "group": "Q07",
+      "query": "site:bmj.com Japanese diet quality mortality Japan prospective cohort Kurotani 2016",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ40",
+      "group": "Q07",
+      "query": "school lunch Japan nutritional intake study school lunch Japanese children Public Health Nutrition",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ41",
+      "group": "Q07",
+      "query": "Japanese arcades game centers decline Japan foreign magazine arcade culture Guardian Japan",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ42",
+      "group": "Q07",
+      "query": "Japan kei cars why small cars Japanese kei cars foreign magazine Car and Driver",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ43",
+      "group": "Q07",
+      "query": "Japan beauty skincare J beauty K beauty Japan skincare foreign magazine Allure Vogue J beauty",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ44",
+      "group": "Q07",
+      "query": "Japan century old companies 46708 Teikoku Databank 2025 Japan 100 year firms foreign news",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ45",
+      "group": "Q08",
+      "query": "Japan WBC 2023 undefeated 7-0 Ohtani Trout AP Reuters MLB Japan baseball final 2023",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ46",
+      "group": "Q08",
+      "query": "Japan Germany Spain world cup 2022 group top FIFA BBC Reuters Japan comeback",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ47",
+      "group": "Q08",
+      "query": "Japan South Africa rugby 2015 34 32 World Rugby Guardian Brighton miracle",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ48",
+      "group": "Q08",
+      "query": "Japan volleyball men's national team 2024 silver VNL Volleyball World Japan defense",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ49",
+      "group": "Q08",
+      "query": "Japan Finland 98 88 18 points 2023 FIBA basketball World Cup",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ50",
+      "group": "Q09",
+      "query": "Japan men's volleyball VNL 2024 silver medal Volleyball World Japan France final",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ51",
+      "group": "Q09",
+      "query": "Yuzuru Hanyu Japan figure skating international fans BBC Olympics artistic skating Hanyu",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ52",
+      "group": "Q09",
+      "query": "Hideki Matsuyama 2021 Masters first Japanese male major champion Reuters AP Golf Digest",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ53",
+      "group": "Q09",
+      "query": "Japanese kei cars US cult following Car and Driver kei truck Japan",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ54",
+      "group": "Q09",
+      "query": "Japanese skincare J beauty Japanese skincare vs Korean beauty Allure Vogue magazine",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ55",
+      "group": "Q09",
+      "query": "Japan ancient companies century old Japanese businesses BBC why Japan has so many old companies",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ56",
+      "group": "Q10",
+      "query": "Yuzuru Hanyu figure skating Japan two Olympic gold medals international fans Reuters 2022 retirement",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ57",
+      "group": "Q10",
+      "query": "site:caranddriver.com kei trucks Japan small truck American Japanese",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ58",
+      "group": "Q10",
+      "query": "site:bbc.com/worklife 20200211 why are so many old companies in japan",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ59",
+      "group": "Q10",
+      "query": "Japanese long lived firms Japan family business longevity study journal Japanese century old firms",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ60",
+      "group": "Q10",
+      "query": "Japan Korea public opinion Genron NPO 2024 2025 mutual perceptions Japan South Korea historical issues survey",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ61",
+      "group": "Q11",
+      "query": "Japanese kei truck appeal US small trucks Japan foreign magazine Road Track Motortrend kei truck 2024",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ62",
+      "group": "Q11",
+      "query": "Japanese centenarian companies family business Japan BBC Harvard Business Review longevity Japan shinise companies",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ63",
+      "group": "Q11",
+      "query": "Japan WBC 2023 AP Japan beats United States Ohtani Trout World Baseball Classic",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    },
+    {
+      "id": "SQ64",
+      "group": "Q11",
+      "query": "Japan game centers crane games Japanese arcades foreign travel magazine Japan game center",
+      "status": "SEARCH_RESULT_BODY_NOT_PRESENT_IN_INHERITED_VISIBLE_CONTEXT"
+    }
+  ],
+  "repository_evidence": [
+    {
+      "path": "reactions-downloads/japan-direct-latest.tsv",
+      "repository": "geben147-create/Insta",
+      "ref": "main",
+      "git_blob_sha_in_session": "d0d47d7fbae30eddae5cc7add7bef13f05f805c5",
+      "display_url": "https://github.com/geben147-create/Insta/blob/main/reactions-downloads/japan-direct-latest.tsv",
+      "status": "FETCH_RESULT_VISIBLE_BUT_CONTENT_TRUNCATED",
+      "notes": "현재 세션에 보이는 원장 결과는 중간 64935 tokens가 생략되어 있다. 모든 원장 행을 보존했다고 주장하지 않는다."
+    },
+    {
+      "path": "reactions-downloads/subs/BV1TX4y1v7pY.ko.srt",
+      "git_blob_sha_in_session": "4ffcfb508ed1036feee1d1512b2931f5a0cc170d",
+      "status": "FULL_TEXT_VISIBLE_AND_REDOWNLOADED_BLOB_IDENTICAL",
+      "cues": 39
+    },
+    {
+      "path": "reactions-downloads/subs/BV1tt421W7y7.ko.srt",
+      "git_blob_sha_in_session": "1cab731c90d2af578376be185b9be57f1dcb8c2f",
+      "status": "FULL_TEXT_VISIBLE_AND_REDOWNLOADED_BLOB_IDENTICAL",
+      "cues": 69
+    },
+    {
+      "path": "reactions-downloads/subs/BV1Uf421f7Uz.ko.srt",
+      "git_blob_sha_in_session": "5d63357a3c618974b3e08c4422c629472633280f",
+      "status": "FULL_TEXT_VISIBLE_AND_REDOWNLOADED_BLOB_IDENTICAL",
+      "cues": 18
+    }
+  ],
+  "tsv_header_verbatim": [
+    "ID",
+    "플랫폼",
+    "분야",
+    "세부분야",
+    "제목 원문",
+    "작성자",
+    "게시일",
+    "조회/좋아요",
+    "댓글 수",
+    "원본 URL",
+    "870 상대경로",
+    "파일 바이트",
+    "870 계산 SHA256",
+    "송신측 대조",
+    "플랫폼 자막 큐",
+    "긍정 댓글(≤5)",
+    "부정 댓글(≤5)",
+    "댓글 이미지(데이터 렌더)",
+    "권리",
+    "수집일",
+    "작업"
+  ],
+  "prior_commentary_verbatim": [
+    "일본 직접수집 원장과 GitHub 공개 한국어 SRT를 대조해 보니, 일부 영상은 실제 자막을 확보할 수 있었습니다. 일본 병원의 번거로움을 비판한 영상에서는 첫 문장과 분초까지 찾았습니다. 나머지는 확인된 해외 자료와 구어체 질문을 연결하고, 원음으로 확정하지 않은 문장은 분리하고 있습니다.",
+    "역사 논쟁은 스시·라멘의 기원과 일본에서의 발전 과정, 댓글 논쟁은 한일 여행 후기, 해외 평가의 변화는 한일 공동 여론조사로 연결했습니다. 일본의 강점을 보여주는 자료와 실제 비판이 함께 있어야 반전이 설득력을 얻는 소재들입니다."
+  ],
+  "evidence_section_intro_verbatim": "이번에 GitHub의 한국어 번역 SRT 파일과 영상 원장을 직접 대조했습니다. 단순히 영상 제목만 보고 발언을 추정한 것과는 구분됩니다.",
+  "fetch_observations": [
+    "일부 첫 호출은 aborted로 표시되었지만 뒤의 파일별 성공 응답에는 정확한 display_url·파일명·내용·Git blob SHA가 반환됐다. 최종 성공 응답의 파일 정체성으로 기록한다.",
+    "3개 SRT 성공 응답은 원음 청취나 영상 프레임 확인의 증거가 아니다."
+  ]
+}

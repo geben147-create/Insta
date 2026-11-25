@@ -1,0 +1,32 @@
+{
+  "repository": "geben147-create/Insta",
+  "source_commit": "61ba5df41cba88cb315fcd184c4c203b47b7dbcd",
+  "read_only": true,
+  "original_prompt_steps": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "reference_transcripts": 7,
+  "existing_hook_cards": 22,
+  "prior_claimed_14_same_list": "unverified",
+  "session_EP01_to_EP10_full_original": "not_found_in_checked_out_repository_text",
+  "ep_search_terms": [
+    "반도체 소재의 반전",
+    "100년을 견딘 일본 기업",
+    "일본 혁신 순위의 비밀",
+    "GDP 뒤에 숨은 해외자산",
+    "일본 고속철도가 최고라고?"
+  ],
+  "japan_manifest_rows": 589,
+  "japan_manifest_unique_ids": 589,
+  "japan_manifest_caption_queue_nonzero": 343,
+  "japan_manifest_rights_counts": {
+    "UNCONFIRMED": 589
+  },
+  "all_counts_snapshot_only": true,
+  "video_speech_verified": false,
+  "user_step4_difference": "사용자 제공문은 해설 문장이 ‘잇고’에서 끝나고 검수문에 ‘일본 호평’과 ‘한국의 자긍심’이 공존한다. 기존 GitHub STEP4와 동일하지 않으며 원문을 고치지 않고 국가 치환 실행본으로만 별도 해결해야 한다."
+}

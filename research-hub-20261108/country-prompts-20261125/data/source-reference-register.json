@@ -1,0 +1,855 @@
+[
+  {
+    "label": "Guardian",
+    "historical_reference_id": "turn140708search0",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP11"
+    ],
+    "labels": [
+      "Guardian"
+    ]
+  },
+  {
+    "label": "일본 국토교통성",
+    "historical_reference_id": "turn537205search6",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP11"
+    ],
+    "labels": [
+      "일본 국토교통성"
+    ]
+  },
+  {
+    "label": "세계은행 도시교통 연구",
+    "historical_reference_id": "turn213113search64",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP12"
+    ],
+    "labels": [
+      "세계은행 도시교통 연구"
+    ]
+  },
+  {
+    "label": "Case Studies on Transport Policy 논문",
+    "historical_reference_id": "turn537205search1",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP13"
+    ],
+    "labels": [
+      "Case Studies on Transport Policy 논문"
+    ]
+  },
+  {
+    "label": "2022년 선행연구",
+    "historical_reference_id": "turn537205search5",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP13"
+    ],
+    "labels": [
+      "2022년 선행연구"
+    ]
+  },
+  {
+    "label": "Nippon.com 분실물 통계",
+    "historical_reference_id": "turn537205search4",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP14"
+    ],
+    "labels": [
+      "Nippon.com 분실물 통계"
+    ]
+  },
+  {
+    "label": "BBC 실제 기사",
+    "historical_reference_id": "turn537205search0",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP15"
+    ],
+    "labels": [
+      "BBC 실제 기사"
+    ]
+  },
+  {
+    "label": "CNN 보도 전재본",
+    "historical_reference_id": "turn213113search0",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP16"
+    ],
+    "labels": [
+      "CNN 보도 전재본"
+    ]
+  },
+  {
+    "label": "CNN 실제 영상",
+    "historical_reference_id": "turn213113youtube61",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP16"
+    ],
+    "labels": [
+      "CNN 실제 영상"
+    ]
+  },
+  {
+    "label": "Guardian 심층 취재",
+    "historical_reference_id": "turn537205search9",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP17"
+    ],
+    "labels": [
+      "Guardian 심층 취재"
+    ]
+  },
+  {
+    "label": "MoMA 건축 전시 자료",
+    "historical_reference_id": "turn213113search65",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP18"
+    ],
+    "labels": [
+      "MoMA 건축 전시 자료"
+    ]
+  },
+  {
+    "label": "캡슐호텔 역사",
+    "historical_reference_id": "turn213113search2",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP18"
+    ],
+    "labels": [
+      "캡슐호텔 역사"
+    ]
+  },
+  {
+    "label": "뉴욕타임스",
+    "historical_reference_id": "turn634400search6",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP19"
+    ],
+    "labels": [
+      "뉴욕타임스"
+    ]
+  },
+  {
+    "label": "해외 진출 분석",
+    "historical_reference_id": "turn213113search7",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP20"
+    ],
+    "labels": [
+      "해외 진출 분석"
+    ]
+  },
+  {
+    "label": "Reuters",
+    "historical_reference_id": "turn634400news61",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP21"
+    ],
+    "labels": [
+      "Reuters"
+    ]
+  },
+  {
+    "label": "JNTO 통계",
+    "historical_reference_id": "turn634400search60",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP21"
+    ],
+    "labels": [
+      "JNTO 통계"
+    ]
+  },
+  {
+    "label": "Reddit 비교 토론",
+    "historical_reference_id": "turn140708reddit62",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP22"
+    ],
+    "labels": [
+      "Reddit 비교 토론"
+    ]
+  },
+  {
+    "label": "양국 여행 후기",
+    "historical_reference_id": "turn140708reddit63",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP22",
+      "reddit-quote-2"
+    ],
+    "labels": [
+      "양국 여행 후기",
+      "실제 댓글"
+    ]
+  },
+  {
+    "label": "한국 선호 반응",
+    "historical_reference_id": "turn140708reddit64",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP22",
+      "reddit-quote-1"
+    ],
+    "labels": [
+      "한국 선호 반응",
+      "실제 게시물"
+    ]
+  },
+  {
+    "label": "Michelin 2026 실제 평가",
+    "historical_reference_id": "turn228303search0",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP23"
+    ],
+    "labels": [
+      "Michelin 2026 실제 평가"
+    ]
+  },
+  {
+    "label": "UNESCO 원문",
+    "historical_reference_id": "turn634400search0",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP24"
+    ],
+    "labels": [
+      "UNESCO 원문"
+    ]
+  },
+  {
+    "label": "미국 PBS 음식사",
+    "historical_reference_id": "turn140708search3",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP25",
+      "additional-source-5"
+    ],
+    "labels": [
+      "미국 PBS 음식사",
+      "PBS 스시의 역사"
+    ]
+  },
+  {
+    "label": "식생활 학술지 논문",
+    "historical_reference_id": "turn140708search7",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP25"
+    ],
+    "labels": [
+      "식생활 학술지 논문"
+    ]
+  },
+  {
+    "label": "Smithsonian Magazine",
+    "historical_reference_id": "turn228303search15",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP26",
+      "additional-source-6"
+    ],
+    "labels": [
+      "Smithsonian Magazine",
+      "Smithsonian 라멘 연구"
+    ]
+  },
+  {
+    "label": "Condé Nast Traveler 2026",
+    "historical_reference_id": "turn140708search1",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP27"
+    ],
+    "labels": [
+      "Condé Nast Traveler 2026"
+    ]
+  },
+  {
+    "label": "UNESCO 세계유산 평가",
+    "historical_reference_id": "turn228303search8",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP28"
+    ],
+    "labels": [
+      "UNESCO 세계유산 평가"
+    ]
+  },
+  {
+    "label": "Frontiers in Psychology",
+    "historical_reference_id": "turn228303search6",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP29",
+      "additional-source-8"
+    ],
+    "labels": [
+      "Frontiers in Psychology",
+      "중국 연구진의 일본 애니메이션 연구"
+    ]
+  },
+  {
+    "label": "Tourism Management 논문",
+    "historical_reference_id": "turn228303search13",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP29"
+    ],
+    "labels": [
+      "Tourism Management 논문"
+    ]
+  },
+  {
+    "label": "Japan Forum 연구",
+    "historical_reference_id": "turn228303search9",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP29"
+    ],
+    "labels": [
+      "Japan Forum 연구"
+    ]
+  },
+  {
+    "label": "UNESCO 심의 결정문",
+    "historical_reference_id": "turn634400search12",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP30"
+    ],
+    "labels": [
+      "UNESCO 심의 결정문"
+    ]
+  },
+  {
+    "label": "UNESCO 실제 영상",
+    "historical_reference_id": "turn634400search9",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP30"
+    ],
+    "labels": [
+      "UNESCO 실제 영상"
+    ]
+  },
+  {
+    "label": "OECD 일본 평가",
+    "historical_reference_id": "turn792452search0",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP31"
+    ],
+    "labels": [
+      "OECD 일본 평가"
+    ]
+  },
+  {
+    "label": "교육 회복탄력성 연구",
+    "historical_reference_id": "turn792452search3",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP31"
+    ],
+    "labels": [
+      "교육 회복탄력성 연구"
+    ]
+  },
+  {
+    "label": "BMJ 장기 추적 연구",
+    "historical_reference_id": "turn120608search7",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP32"
+    ],
+    "labels": [
+      "BMJ 장기 추적 연구"
+    ]
+  },
+  {
+    "label": "OECD 기대수명",
+    "historical_reference_id": "turn792452search2",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP32",
+      "EP33"
+    ],
+    "labels": [
+      "OECD 기대수명",
+      "OECD 의료 보고서"
+    ]
+  },
+  {
+    "label": "실제 영상",
+    "historical_reference_id": null,
+    "url": "https://www.bilibili.com/video/BV1TX4y1v7pY/",
+    "verification_status": "EXACT_URL_IN_SESSION_NOT_RECHECKED",
+    "locations": [
+      "EP33"
+    ],
+    "labels": [
+      "실제 영상"
+    ]
+  },
+  {
+    "label": "Cambridge 학술논문",
+    "historical_reference_id": "turn120608search8",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP34"
+    ],
+    "labels": [
+      "Cambridge 학술논문"
+    ]
+  },
+  {
+    "label": "UNESCO 와시 평가",
+    "historical_reference_id": "turn975703search7",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP35"
+    ],
+    "labels": [
+      "UNESCO 와시 평가"
+    ]
+  },
+  {
+    "label": "UNESCO 건축 기술 원문",
+    "historical_reference_id": "turn975703search3",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP36"
+    ],
+    "labels": [
+      "UNESCO 건축 기술 원문"
+    ]
+  },
+  {
+    "label": "UNESCO 축제 심사자료",
+    "historical_reference_id": "turn975703search11",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP37"
+    ],
+    "labels": [
+      "UNESCO 축제 심사자료"
+    ]
+  },
+  {
+    "label": "Screen International",
+    "historical_reference_id": "turn792452search7",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP38"
+    ],
+    "labels": [
+      "Screen International"
+    ]
+  },
+  {
+    "label": "Crunchyroll",
+    "historical_reference_id": "turn792452search1",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP38"
+    ],
+    "labels": [
+      "Crunchyroll"
+    ]
+  },
+  {
+    "label": "VGC 산업 보도",
+    "historical_reference_id": "turn120608search9",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP39"
+    ],
+    "labels": [
+      "VGC 산업 보도"
+    ]
+  },
+  {
+    "label": "게임센터 변화",
+    "historical_reference_id": "turn110994search5",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP39"
+    ],
+    "labels": [
+      "게임센터 변화"
+    ]
+  },
+  {
+    "label": "Berklee 음악 전문 분석",
+    "historical_reference_id": "turn975703search8",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP40"
+    ],
+    "labels": [
+      "Berklee 음악 전문 분석"
+    ]
+  },
+  {
+    "label": "AP통신 보도",
+    "historical_reference_id": "turn110994search8",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP41"
+    ],
+    "labels": [
+      "AP통신 보도"
+    ]
+  },
+  {
+    "label": "MLB 공식 기록",
+    "historical_reference_id": "turn478094search3",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP41"
+    ],
+    "labels": [
+      "MLB 공식 기록"
+    ]
+  },
+  {
+    "label": "BBC 독일전",
+    "historical_reference_id": "turn478094search5",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP42"
+    ],
+    "labels": [
+      "BBC 독일전"
+    ]
+  },
+  {
+    "label": "BBC 스페인전",
+    "historical_reference_id": "turn478094search2",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP42"
+    ],
+    "labels": [
+      "BBC 스페인전"
+    ]
+  },
+  {
+    "label": "FIFA 분석",
+    "historical_reference_id": "turn478094search7",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP42"
+    ],
+    "labels": [
+      "FIFA 분석"
+    ]
+  },
+  {
+    "label": "BBC",
+    "historical_reference_id": "turn478094search4",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP43"
+    ],
+    "labels": [
+      "BBC"
+    ]
+  },
+  {
+    "label": "Guardian",
+    "historical_reference_id": "turn478094search8",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP43"
+    ],
+    "labels": [
+      "Guardian"
+    ]
+  },
+  {
+    "label": "World Rugby",
+    "historical_reference_id": "turn478094search11",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP43"
+    ],
+    "labels": [
+      "World Rugby"
+    ]
+  },
+  {
+    "label": "Volleyball World 공식 결과",
+    "historical_reference_id": "turn271687search3",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP44"
+    ],
+    "labels": [
+      "Volleyball World 공식 결과"
+    ]
+  },
+  {
+    "label": "FIBA 역전 분석",
+    "historical_reference_id": "turn478094search1",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP45"
+    ],
+    "labels": [
+      "FIBA 역전 분석"
+    ]
+  },
+  {
+    "label": "실제 경기 통계",
+    "historical_reference_id": "turn478094search0",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP45"
+    ],
+    "labels": [
+      "실제 경기 통계"
+    ]
+  },
+  {
+    "label": "IOC 선수 평가",
+    "historical_reference_id": "turn171099search0",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP46"
+    ],
+    "labels": [
+      "IOC 선수 평가"
+    ]
+  },
+  {
+    "label": "ISU 국제빙상연맹",
+    "historical_reference_id": "turn171099search1",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP46"
+    ],
+    "labels": [
+      "ISU 국제빙상연맹"
+    ]
+  },
+  {
+    "label": "Reuters 전재 기사",
+    "historical_reference_id": "turn271687search6",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP47"
+    ],
+    "labels": [
+      "Reuters 전재 기사"
+    ]
+  },
+  {
+    "label": "월스트리트저널",
+    "historical_reference_id": "turn110994search48",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP48"
+    ],
+    "labels": [
+      "월스트리트저널"
+    ]
+  },
+  {
+    "label": "경차 경제성 자료",
+    "historical_reference_id": "turn120608search10",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP48"
+    ],
+    "labels": [
+      "경차 경제성 자료"
+    ]
+  },
+  {
+    "label": "Vogue",
+    "historical_reference_id": "turn271687news74",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP49"
+    ],
+    "labels": [
+      "Vogue"
+    ]
+  },
+  {
+    "label": "Elle 비교 분석",
+    "historical_reference_id": "turn271687search1",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP49"
+    ],
+    "labels": [
+      "Elle 비교 분석"
+    ]
+  },
+  {
+    "label": "Harvard Business Review",
+    "historical_reference_id": "turn110994search0",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP50",
+      "additional-source-7"
+    ],
+    "labels": [
+      "Harvard Business Review"
+    ]
+  },
+  {
+    "label": "기업 수명 학술논문",
+    "historical_reference_id": "turn171099search2",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP50"
+    ],
+    "labels": [
+      "기업 수명 학술논문"
+    ]
+  },
+  {
+    "label": "실제 기업 통계",
+    "historical_reference_id": "turn120608search0",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "EP50"
+    ],
+    "labels": [
+      "실제 기업 통계"
+    ]
+  },
+  {
+    "label": "EAI 2026년 한일 인식조사",
+    "historical_reference_id": "turn171099search3",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "additional-source-1"
+    ],
+    "labels": [
+      "EAI 2026년 한일 인식조사"
+    ]
+  },
+  {
+    "label": "일본 국제문화회관 한일 공동조사",
+    "historical_reference_id": "turn171099search10",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "additional-source-2"
+    ],
+    "labels": [
+      "일본 국제문화회관 한일 공동조사"
+    ]
+  },
+  {
+    "label": "한일 역사 인식 형성 연구",
+    "historical_reference_id": "turn171099search6",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "additional-source-3"
+    ],
+    "labels": [
+      "한일 역사 인식 형성 연구"
+    ]
+  },
+  {
+    "label": "한국리서치 2026 대일 인식",
+    "historical_reference_id": "turn171099search4",
+    "url": null,
+    "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION",
+    "locations": [
+      "additional-source-4"
+    ],
+    "labels": [
+      "한국리서치 2026 대일 인식"
+    ]
+  }
+]

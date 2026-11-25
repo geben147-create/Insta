@@ -1,0 +1,964 @@
+[
+  {
+    "ep": "EP11",
+    "title": "신칸센",
+    "hook": "일본 고속철도가 최고라고? 중국 열차가 더 빠른데? 그런데 영국 가디언이 신칸센의 60년 역사를 돌아보면서 속도와는 다른 성과에 주목했습니다. 수십억 명의 승객을 실어 나르며 쌓아온 안전 기록이었는데요. 일본이 처음부터 그렇게 중요하게 생각했던 것은 무엇이었을까요?",
+    "emotion": "비판 → 역사 → 안전성 반전 → 감동.",
+    "sources": [
+      {
+        "label": "Guardian",
+        "historical_reference_id": "turn140708search0",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "일본 국토교통성",
+        "historical_reference_id": "turn537205search6",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP11~20 교통·시민의식·생활",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "bb712fed6f3a83c30a9fca8c9705360163600496071e75992fa25424fd4cdb6b"
+  },
+  {
+    "ep": "EP12",
+    "title": "도쿄 지하철",
+    "hook": "일본 지하철은 왜 이렇게 복잡해? 서울 지하철이 훨씬 편한 거 아니야? 그런데 세계은행은 도쿄의 철도와 도시개발 시스템을 연구 사례로 소개했습니다. 서로 다른 회사들이 운영하는 철도가 거대한 도시의 생활을 연결하고 있었던 겁니다. 도쿄는 어떻게 이런 철도 도시를 만들어 낸 걸까요?",
+    "emotion": "불편 → 비교 → 국제 평가 → 시스템 발견.",
+    "sources": [
+      {
+        "label": "세계은행 도시교통 연구",
+        "historical_reference_id": "turn213113search64",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP11~20 교통·시민의식·생활",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "6f1742629f7ea6781b7963b90f15166a32dad3c0175d9f2c56e8fe5dac0030e8"
+  },
+  {
+    "ep": "EP13",
+    "title": "교통약자를 위한 철도",
+    "hook": "휠체어로 도쿄 지하철을 타라고? 그 복잡한 역에서 어떻게 갈아타? 실제로 2026년 국제 교통학술지에서도 도쿄 철도의 접근성 문제를 분석했습니다. 그런데 연구진은 엘리베이터 배치를 바꾸는 것만으로도 이동시간을 크게 줄일 수 있다는 개선책을 제시했는데요. 일본은 누구나 이동할 수 있는 철도를 만들기 위해 어떤 노력을 하고 있을까요?",
+    "emotion": "불편 → 공감 → 실제 문제 → 개선 기술 → 인간적인 감동.",
+    "sources": [
+      {
+        "label": "Case Studies on Transport Policy 논문",
+        "historical_reference_id": "turn537205search1",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "2022년 선행연구",
+        "historical_reference_id": "turn537205search5",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP11~20 교통·시민의식·생활",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "785ac83c34f3d76d1e07353e09ee6ec47873cede428e2baf03d272a9de1d6ffc"
+  },
+  {
+    "ep": "EP14",
+    "title": "분실물 45억 엔",
+    "hook": "도쿄에서 지갑을 잃어버렸다고? 현금까지 돌아올 리가 있겠어? 그런데 2025년 한 해 도쿄 경찰에 접수된 분실 현금만 45억 엔에 달했습니다. 그중 상당한 금액이 실제 주인에게 돌아갔는데요. 무엇이 낯선 사람의 돈을 경찰서까지 가져가게 만드는 걸까요?",
+    "emotion": "불안 → 의심 → 숫자의 반전 → 신뢰 → 감동.",
+    "sources": [
+      {
+        "label": "Nippon.com 분실물 통계",
+        "historical_reference_id": "turn537205search4",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP11~20 교통·시민의식·생활",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "46453472f40ca6059d1cf152ebde58e8aebfe7de63dd3457a131dc7f4aef909c"
+  },
+  {
+    "ep": "EP15",
+    "title": "월드컵 관중석",
+    "hook": "경기에서 이겼는데 왜 쓰레기를 줍고 있어? 저 사람들, 정말 대단한 거 아니야? 일본이 독일을 꺾은 2022년 월드컵에서 영국 BBC는 경기장 밖의 또 다른 장면을 보도했습니다. 승리의 기쁨 속에서도 관중석을 청소하던 일본 팬들이었습니다. 그들은 왜 축하보다 먼저 쓰레기봉투를 들었을까요?",
+    "emotion": "놀람 → 승리 → 예상 밖 행동 → 존경 → 자긍심.",
+    "sources": [
+      {
+        "label": "BBC 실제 기사",
+        "historical_reference_id": "turn537205search0",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP11~20 교통·시민의식·생활",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "fc4e1851fb34cacb12aade116490f70b24a96b1d34abd88ef732c320c44cfb79"
+  },
+  {
+    "ep": "EP16",
+    "title": "쓰레기통 없는 거리",
+    "hook": "일본은 깨끗하다면서 쓰레기 하나 버릴 데가 없잖아. 대체 왜 이렇게 불편한 거야? 미국 CNN 역시 일본을 방문한 사람들이 겪는 이 불편에 주목했습니다. 그런데 쓰레기통이 적으면서도 청결을 유지해 온 데에는 복합적인 역사와 생활 습관이 있었습니다. 일본의 깨끗한 거리는 과연 누가 만들어 온 걸까요?",
+    "emotion": "불평 → 모순 → 생활 역사 → 공동체 노력 → 자긍심.",
+    "sources": [
+      {
+        "label": "CNN 보도 전재본",
+        "historical_reference_id": "turn213113search0",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "CNN 실제 영상",
+        "historical_reference_id": "turn213113youtube61",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP11~20 교통·시민의식·생활",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "23cc78ccb60986089d1e40188f58e19878953d55bab22a0cf00cabdb00ef7200"
+  },
+  {
+    "ep": "EP17",
+    "title": "일본 편의점의 반전",
+    "hook": "편의점이 다 거기서 거기지. 한국 편의점도 얼마나 잘돼 있는데? 그런데 영국 가디언은 일본 편의점이 생활의 필수적인 기반시설로 발전한 과정을 취재했습니다. 작은 가게 하나에 식사와 결제, 배송까지 모여 있었는데요. 일본은 어떻게 편의점이라는 평범한 사업을 이렇게 발전시킨 걸까요?",
+    "emotion": "비교 → 의심 → 체험 → 시스템 발견 → 감탄.",
+    "sources": [
+      {
+        "label": "Guardian 심층 취재",
+        "historical_reference_id": "turn537205search9",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP11~20 교통·시민의식·생활",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "ad98756220a7adb0dc9326df52d5206d97d45fee547e3c908cd5914338f0b872"
+  },
+  {
+    "ep": "EP18",
+    "title": "캡슐호텔",
+    "hook": "이게 호텔이라고? 사람을 무슨 상자 안에 재우는 거야? 그런데 미국 뉴욕 현대미술관도 일본 캡슐호텔의 건축적 역사에 주목했습니다. 1979년 오사카에서 등장한 이 공간은 이후 해외로 확산됐는데요. 일본 건축가들은 왜 사람 한 명이 잘 수 있는 공간부터 다시 설계했을까요?",
+    "emotion": "황당함 → 체험 → 건축 역사 → 세계 확산 → 감탄.",
+    "sources": [
+      {
+        "label": "MoMA 건축 전시 자료",
+        "historical_reference_id": "turn213113search65",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "캡슐호텔 역사",
+        "historical_reference_id": "turn213113search2",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP11~20 교통·시민의식·생활",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "5f91e9b42671d2aa2214873af1eb4bc9691c60ddde20dcdb45636fb2c5534187"
+  },
+  {
+    "ep": "EP19",
+    "title": "일본 화장실 기술",
+    "hook": "화장실에 무슨 버튼이 이렇게 많아? 저게 다 필요하다고? 그런데 미국 뉴욕타임스는 일본 비데 제조기업 토토의 미국 시장 확대를 취재했습니다. 일본에서 오랫동안 발전해 온 생활 기술이 새로운 소비자들을 만나고 있었던 건데요. 일본은 왜 누구도 크게 관심을 두지 않았던 화장실까지 바꾸려 했을까요?",
+    "emotion": "조롱 → 호기심 → 사용 경험 → 해외 진출 → 생활 기술의 가치.",
+    "sources": [
+      {
+        "label": "뉴욕타임스",
+        "historical_reference_id": "turn634400search6",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP11~20 교통·시민의식·생활",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "df9cd08508b369d23466d1f7e67908e67a1f0e49ad0189fcff4540e13bafe9ce"
+  },
+  {
+    "ep": "EP20",
+    "title": "100엔 생활용품",
+    "hook": "이렇게 싼 물건에 무슨 기술력이 있어? 그냥 싸니까 사는 거 아니야? 그런데 일본의 균일가 매장 다이소는 미국을 포함한 여러 해외 시장으로 진출했습니다. 제품 하나하나가 해결하려는 생활 속 불편을 보면 이야기는 달라지는데요. 일본은 어떻게 작은 아이디어를 거대한 사업으로 발전시켰을까요?",
+    "emotion": "무시 → 체험 → 아이디어 발견 → 해외 확장 → 감탄.",
+    "sources": [
+      {
+        "label": "해외 진출 분석",
+        "historical_reference_id": "turn213113search7",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP11~20 교통·시민의식·생활",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "af08263bfdc3aa3bf18beb9c7d8d21c1273f8a350200838492e1f3c04ea5fbc8"
+  },
+  {
+    "ep": "EP21",
+    "title": "일본 관광의 반전",
+    "hook": "일본 여행이 그렇게 대단해? 엔화가 싸니까 가는 거 아니야? 그런데 로이터에 따르면 2025년 일본의 외국인 방문은 4,268만 건을 넘었습니다. 연말 중국인 방문객이 크게 감소했는데도 전체 월간 방문객은 최고 기록을 세웠는데요. 가격 외에 사람들을 일본으로 끌어당긴 것은 무엇이었을까요?",
+    "emotion": "평가절하 → 외교·관광 위기 → 통계 반전 → 이유 발견.",
+    "sources": [
+      {
+        "label": "Reuters",
+        "historical_reference_id": "turn634400news61",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "JNTO 통계",
+        "historical_reference_id": "turn634400search60",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP21~30 여행·음식·문화의 역사 논쟁",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "dc3d69166db3a4aa50d79229d20b04affc64eded29456c0f48cc122cf3283fe8"
+  },
+  {
+    "ep": "EP22",
+    "title": "한국과 일본 여행 논쟁",
+    "hook": "나는 한국이 더 좋던데? 일본은 기대한 것만큼은 아니었어. 실제 해외 여행 커뮤니티에서도 한국과 일본 중 어느 곳이 더 좋은지 의견이 엇갈립니다. 그런데 양국을 방문한 사람들 가운데 일본의 지방 철도와 관광 경험을 높이 평가한 이용자들도 있었는데요. 두 나라를 직접 여행한 사람들은 무엇에서 차이를 느낀 걸까요?",
+    "emotion": "댓글 논쟁 → 궁금증 → 실제 체험 비교 → 일본의 강점 발견.",
+    "sources": [
+      {
+        "label": "Reddit 비교 토론",
+        "historical_reference_id": "turn140708reddit62",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "양국 여행 후기",
+        "historical_reference_id": "turn140708reddit63",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "한국 선호 반응",
+        "historical_reference_id": "turn140708reddit64",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP21~30 여행·음식·문화의 역사 논쟁",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "fb797b33e34759a1eed82089a46381866a718b5654e2792c0306ad7a3f52d684"
+  },
+  {
+    "ep": "EP23",
+    "title": "세계 미식 수도 도쿄",
+    "hook": "일본 음식이 아무리 유명해도 프랑스 미식에는 못 미치지 않아? 그런데 프랑스에서 시작된 미쉐린 가이드는 도쿄를 세계에서 별을 받은 식당이 가장 많은 도시로 소개합니다. 2026년판에서도 160곳이 미쉐린 스타를 받았는데요. 세계적인 미식 평가가 일본 요리에서 발견한 것은 무엇이었을까요?",
+    "emotion": "미식 대결 → 권위 있는 평가 → 역전 → 장인정신.",
+    "sources": [
+      {
+        "label": "Michelin 2026 실제 평가",
+        "historical_reference_id": "turn228303search0",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP21~30 여행·음식·문화의 역사 논쟁",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "04b1099f79f2dfcdbad3c4e8caf38636ffb8313b3291772086e57cae5299014d"
+  },
+  {
+    "ep": "EP24",
+    "title": "와쇼쿠",
+    "hook": "밥에 국, 반찬 몇 개가 전부잖아. 저 평범한 식사가 왜 세계유산이 된 거야? 그런데 유네스코는 2013년 일본의 전통 식문화를 인류무형문화유산에 등재했습니다. 음식의 화려함이 아니라 식재료와 자연, 공동체의 관계에도 주목한 겁니다. 일본인들이 매일 먹던 식탁에는 어떤 이야기가 숨어 있었을까요?",
+    "emotion": "평가절하 → 국제 인정 → 생활문화 → 감동.",
+    "sources": [
+      {
+        "label": "UNESCO 원문",
+        "historical_reference_id": "turn634400search0",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP21~30 여행·음식·문화의 역사 논쟁",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "a874b7fe63dd8e80a2bdd8ae20ddb2f53da56c94b8cfb08332bf3921f6afe595"
+  },
+  {
+    "ep": "EP25",
+    "title": "스시의 기원을 둘러싼 논쟁",
+    "hook": "스시가 일본 음식이라고? 생선을 쌀로 발효하는 기술은 다른 나라에서 시작됐잖아. 미국 PBS가 소개한 스시의 역사에도 동남아시아의 발효 문화가 등장합니다. 하지만 에도시대 일본에서 그 음식은 전혀 다른 형태로 발전했는데요. 일본은 어떻게 오래된 보존 기술을 오늘날 세계인이 먹는 스시로 바꿔 놓았을까요?",
+    "emotion": "기원 논쟁 → 역사 추적 → 일본의 변화 → 세계화 → 자긍심.",
+    "sources": [
+      {
+        "label": "미국 PBS 음식사",
+        "historical_reference_id": "turn140708search3",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "식생활 학술지 논문",
+        "historical_reference_id": "turn140708search7",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP21~30 여행·음식·문화의 역사 논쟁",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "f86c6fee8c07dbcc7e87fd872e6e27780b869d0c8f7683c26ff43546cf264589"
+  },
+  {
+    "ep": "EP26",
+    "title": "중국 음식에서 시작한 일본 라멘",
+    "hook": "라멘은 원래 중국 음식 아니야? 그런데 왜 일본을 대표하는 음식이 된 거야? 미국 스미스소니언 잡지 역시 라멘의 중국 기원을 소개합니다. 하지만 일본에 들어온 면 요리는 지역마다 전혀 다른 국물과 면으로 발전했는데요. 외래 음식이 일본에서 새로운 문화가 되기까지 무슨 일이 있었던 걸까요?",
+    "emotion": "역사 논쟁 → 기원 인정 → 재창조 → 세계화 → 감탄.",
+    "sources": [
+      {
+        "label": "Smithsonian Magazine",
+        "historical_reference_id": "turn228303search15",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP21~30 여행·음식·문화의 역사 논쟁",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "caa6f84207a51475b664d2f78de2176ff460f33d139de148ab4d489cf519bf75"
+  },
+  {
+    "ep": "EP27",
+    "title": "료칸의 가치",
+    "hook": "이렇게 비싼데 침대도 없다고? 그냥 바닥에서 자는 숙소 아니야? 그런데 미국 여행 전문잡지 Condé Nast Traveler는 일본 료칸의 환대와 디자인, 전통에 주목합니다. 현대적인 고급 호텔에서도 쉽게 찾기 어려운 경험이 있다는 건데요. 세계의 여행객들은 왜 일본의 오래된 숙박 방식에 매료되는 걸까요?",
+    "emotion": "불평 → 체험 → 예상 밖 감탄 → 환대의 의미.",
+    "sources": [
+      {
+        "label": "Condé Nast Traveler 2026",
+        "historical_reference_id": "turn140708search1",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP21~30 여행·음식·문화의 역사 논쟁",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "a7ff4ecf44d55e94d491b868e23f5407c0bbc6bb5cbfbbd0fe6640dcb346e319"
+  },
+  {
+    "ep": "EP28",
+    "title": "교토가 남긴 시간",
+    "hook": "낡은 건물들이 그렇게 대단해? 그냥 오래됐다는 이유로 남겨둔 거잖아. 그런데 유네스코는 교토의 역사적 건축과 정원이 세계 조경문화에 끼친 영향을 인정합니다. 일본의 작은 정원 하나가 다른 나라의 정원 디자인에도 영감을 줬다는 건데요. 교토는 어떻게 오래된 것을 세계적인 자산으로 만들었을까요?",
+    "emotion": "무시 → 역사 → 국제 인정 → 보존의 노력 → 자긍심.",
+    "sources": [
+      {
+        "label": "UNESCO 세계유산 평가",
+        "historical_reference_id": "turn228303search8",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP21~30 여행·음식·문화의 역사 논쟁",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "3efb99fe9cb5808e7895d34fc90050e1bc74dacfa85ce4df86c47e1c7decc55d"
+  },
+  {
+    "ep": "EP29",
+    "title": "애니메이션 때문에 일본까지 가는 사람들",
+    "hook": "만화 속 장소 하나 보려고 비행기를 탄다고? 그게 그렇게까지 좋아? 그런데 2025년 중국 연구진이 국제 심리학술지에 발표한 논문에서는 일본 애니메이션 관광객의 행동과 감정을 분석했습니다. 허구의 이야기가 실제 도시를 방문하게 만드는 힘이 있었는데요. 일본의 애니메이션은 어떻게 사람들의 기억을 여행으로 바꿔 놓았을까요?",
+    "emotion": "황당함 → 해외 팬 → 논문 → 감정적 연결 → 문화의 힘.",
+    "sources": [
+      {
+        "label": "Frontiers in Psychology",
+        "historical_reference_id": "turn228303search6",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "Tourism Management 논문",
+        "historical_reference_id": "turn228303search13",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "Japan Forum 연구",
+        "historical_reference_id": "turn228303search9",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP21~30 여행·음식·문화의 역사 논쟁",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "995def784eaf46a93370b85568fca9ff39d5265e444ffe46c14a21e3c02e24b2"
+  },
+  {
+    "ep": "EP30",
+    "title": "일본 사케의 숨은 기술",
+    "hook": "쌀로 술을 만드는 게 일본만의 기술도 아니잖아. 그런데 왜 세계유산으로 인정받은 거야? 유네스코가 2024년 인정한 것은 일본 술이라는 상품 자체가 아니었습니다. 누룩을 이용해 원료를 발효시키는 장인들의 전통 지식과 기술이었는데요. 세대를 이어 내려온 일본의 양조 과정에는 무엇이 담겨 있었을까요?",
+    "emotion": "기원 의문 → 기술 연구 → 국제 인정 → 장인들의 노력 → 감동.",
+    "sources": [
+      {
+        "label": "UNESCO 심의 결정문",
+        "historical_reference_id": "turn634400search12",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "UNESCO 실제 영상",
+        "historical_reference_id": "turn634400search9",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP21~30 여행·음식·문화의 역사 논쟁",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "d1d444c2e86a44bfe691c00234d6d93010123c04e078c16fdb383503576f9580"
+  },
+  {
+    "ep": "EP31",
+    "title": "한국과 일본의 교육 경쟁",
+    "hook": "공부는 한국 학생들이 더 잘하는 거 아니야? 일본 교육은 너무 느슨하잖아. 그런데 OECD의 2022년 국제학업성취도 평가에서는 일본 학생들의 과학 평균 점수가 547점으로 나타났습니다. OECD 평균인 485점을 크게 웃도는 성적이었는데요. 일본의 교육 현장에는 우리가 미처 보지 못했던 무엇이 있을까요?",
+    "emotion": "무시 → 비교 → 통계 반전 → 교육의 가치.",
+    "sources": [
+      {
+        "label": "OECD 일본 평가",
+        "historical_reference_id": "turn792452search0",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "교육 회복탄력성 연구",
+        "historical_reference_id": "turn792452search3",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP31~40 교육·의료·역사·콘텐츠",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "f579098d65a0663bd0dcea4b68dcc07c2a6b8fdc8db82e7a145607098bdab72f"
+  },
+  {
+    "ep": "EP32",
+    "title": "일본인의 장수 비결",
+    "hook": "일본 사람들이 오래 사는 건 그냥 유전 때문 아니야? 음식도 그렇게 특별할 게 없잖아. 그런데 영국 의학저널 BMJ에 게재된 연구에서는 약 8만 명의 일본인을 장기간 추적했습니다. 일본의 식생활 지침을 따르는 정도와 사망 위험 사이의 관련성을 조사한 건데요. 평범해 보였던 일본인의 식탁에는 어떤 비밀이 있었을까요?",
+    "emotion": "의심 → 논문 → 생활 습관 발견 → 부모 세대의 지혜 → 감동.",
+    "sources": [
+      {
+        "label": "BMJ 장기 추적 연구",
+        "historical_reference_id": "turn120608search7",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "OECD 기대수명",
+        "historical_reference_id": "turn792452search2",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP31~40 교육·의료·역사·콘텐츠",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "53eabbf92eecfc57d027840a19f0dbf2c55e41ed857b7bd5ec7ebcdc8b9a3279"
+  },
+  {
+    "ep": "EP33",
+    "title": "일본 병원에 대한 불만과 반전",
+    "hook": "일본 병원에서 의사를 만나는 것이 얼마나 번거롭습니까? 일본에서는 약도 다른 곳에 가서 받아야 한다고? 실제로 일본에서 진료를 받은 중국어권 영상 제작자는 이런 불편을 소개했습니다. 그런데 OECD 통계에서는 일본의 치료 가능 사망률이 평균보다 낮았습니다. 불편하다는 첫인상과 의료 성과 사이에는 어떤 차이가 있는 걸까요?",
+    "emotion": "실제 악평 → 불편 → 제도 분석 → 의료성과 → 재평가.",
+    "sources": [
+      {
+        "label": "실제 영상",
+        "historical_reference_id": null,
+        "url": "https://www.bilibili.com/video/BV1TX4y1v7pY/",
+        "verification_status": "EXACT_URL_IN_SESSION_NOT_RECHECKED"
+      },
+      {
+        "label": "OECD 의료 보고서",
+        "historical_reference_id": "turn792452search2",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP31~40 교육·의료·역사·콘텐츠",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "FIRST_SENTENCE_MATCHES_SAVED_KO_SRT_AUDIO_AND_TRANSLATION_UNVERIFIED",
+    "hook_sha256": "230f3e9595b31cf9929dc7800d1a264c6ca71c130b6f40524cccf265f70cc8ba"
+  },
+  {
+    "ep": "EP34",
+    "title": "일본 학교 급식",
+    "hook": "급식은 그냥 애들 밥 먹이는 거잖아. 일본 학교 급식이라고 뭐가 그렇게 특별해? 그런데 국제 학술지 Public Health Nutrition에 실린 연구에서는 일본 학교 급식이 여러 영양소의 섭취 개선에 기여한다고 분석했습니다. 식사 시간에는 아이들이 직접 배식하고 정리하는 모습도 볼 수 있는데요. 일본은 왜 점심시간까지 교육의 일부로 만들었을까요?",
+    "emotion": "무관심 → 실제 교실 → 논문 → 아이들의 행동 → 감동.",
+    "sources": [
+      {
+        "label": "Cambridge 학술논문",
+        "historical_reference_id": "turn120608search8",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP31~40 교육·의료·역사·콘텐츠",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "0c545860af2d4cf0347248e9de4758bfd5e127c5a2bf6c3426e640c93dde114e"
+  },
+  {
+    "ep": "EP35",
+    "title": "일본 전통 종이 와시",
+    "hook": "종이 만드는 기술은 중국에서 시작됐잖아. 그런데 일본 종이가 왜 세계유산인 거야? 유네스코가 인정한 것은 종이의 최초 발명에 관한 주장이 아니었습니다. 일본에서 오랜 세월 전승되어 온 독자적인 수제 종이 제작 문화였는데요. 종이 한 장을 위해 일본 장인들은 무엇을 지켜왔을까요?",
+    "emotion": "기원 논쟁 → 역사 구분 → 기술 발견 → 장인정신.",
+    "sources": [
+      {
+        "label": "UNESCO 와시 평가",
+        "historical_reference_id": "turn975703search7",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP31~40 교육·의료·역사·콘텐츠",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "166afea7fa8d93dfb5bd31c8ab2f793d1bd0227d68cf0adbdd27cfb0afc9bee6"
+  },
+  {
+    "ep": "EP36",
+    "title": "오래된 일본 목조 건축",
+    "hook": "나무로 집을 지으면 금방 썩는 거 아니야? 그런 건축 기술이 뭐가 대단해? 그런데 유네스코는 일본의 목조건축 보존 기술 자체를 인류무형문화유산으로 인정했습니다. 건물을 지은 사람뿐 아니라 수백 년 동안 고쳐온 사람들의 기술에도 가치가 있었던 건데요. 일본은 어떻게 건축물에 담긴 시간을 다음 세대에 전달했을까요?",
+    "emotion": "의심 → 손상 위기 → 복원 기술 → 세대 전승 → 감동.",
+    "sources": [
+      {
+        "label": "UNESCO 건축 기술 원문",
+        "historical_reference_id": "turn975703search3",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP31~40 교육·의료·역사·콘텐츠",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "df93e0a6deeb22fa2c0375ab024262c67c7afdc86149a29801d911bdce763b8e"
+  },
+  {
+    "ep": "EP37",
+    "title": "일본 전통 축제",
+    "hook": "요즘 시대에 저 무거운 수레를 왜 사람들이 직접 끌어? 그냥 옛날 행사 아니야? 그런데 유네스코는 일본의 전통 수레 축제를 국제적으로 보존할 가치가 있는 문화로 인정했습니다. 그 화려한 장식 뒤에는 재난으로부터 마을을 지키길 바랐던 사람들의 기원이 담겨 있는데요. 일본의 지역 공동체는 왜 이 전통을 포기하지 않았을까요?",
+    "emotion": "의아함 → 역사적 재난 → 주민들의 노력 → 문화 전승 → 가슴 뭉클함.",
+    "sources": [
+      {
+        "label": "UNESCO 축제 심사자료",
+        "historical_reference_id": "turn975703search11",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP31~40 교육·의료·역사·콘텐츠",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "13aea56e9ad881ca567d6e4d56e74b9eaa564ada80dccfbad7e9c6148e7e3d62"
+  },
+  {
+    "ep": "EP38",
+    "title": "K팝과 일본 애니메이션",
+    "hook": "아시아 문화는 이제 한국이 주도하는 거 아니야? 일본 만화의 전성기는 끝났잖아. 그런데 해외 영화산업 전문매체 Screen은 일본 애니메이션 시장이 2024년 약 253억 달러에 도달했다고 보도했습니다. 일본 국내보다 해외 시장에서 더 많은 매출이 발생했는데요. 일본은 어떻게 수십 년 동안 세계인들의 마음속에 이야기를 심어왔을까요?",
+    "emotion": "문화 경쟁 → 억울함 → 해외 매출 반전 → 팬덤 → 창작의 힘.",
+    "sources": [
+      {
+        "label": "Screen International",
+        "historical_reference_id": "turn792452search7",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "Crunchyroll",
+        "historical_reference_id": "turn792452search1",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP31~40 교육·의료·역사·콘텐츠",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "ad4a65b4b6b275cc37155e423bd2db37582468d0c9b66bb4a492448dd11686fe"
+  },
+  {
+    "ep": "EP39",
+    "title": "일본 오락실의 생존",
+    "hook": "집에서도 게임할 수 있는데 누가 오락실에 가? 일본도 이제 저런 문화는 끝났지. 실제로 영국 게임 전문매체 VGC도 일본 오락실 수가 크게 줄었다고 보도했습니다. 그런데 살아남은 게임센터들은 음악과 캐릭터, 사람들의 만남이 결합된 새로운 공간으로 변하고 있었는데요. 일본의 오락실은 무엇을 바꾸고 무엇을 지켜야 살아남을 수 있을까요?",
+    "emotion": "쇠퇴 → 안타까움 → 문화적 변화 → 생존 전략 → 여운.",
+    "sources": [
+      {
+        "label": "VGC 산업 보도",
+        "historical_reference_id": "turn120608search9",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "게임센터 변화",
+        "historical_reference_id": "turn110994search5",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP31~40 교육·의료·역사·콘텐츠",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "3ac3ed28f89c4229b09f7667e922770d991c66fcf008bf03f8e6775f028749f7"
+  },
+  {
+    "ep": "EP40",
+    "title": "일본 재즈의 세계적 평가",
+    "hook": "저 속도로 피아노를 친다고? 그런데 저게 전부 즉흥적인 연주라고? 미국 버클리 음대는 일본 피아니스트 우에하라 히로미의 NPR 공연을 집중적으로 소개했습니다. 그들이 주목한 것은 단순한 연주 속도만이 아니었는데요. 세계적인 음악 무대가 일본 연주자의 표현력에 매료된 이유는 무엇일까요?",
+    "emotion": "놀람 → 연주 실력 → 해외 평가 → 음악의 감정 → 감동.",
+    "sources": [
+      {
+        "label": "Berklee 음악 전문 분석",
+        "historical_reference_id": "turn975703search8",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP31~40 교육·의료·역사·콘텐츠",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "33698c1a40b9665ab63e016f1bc1efefbbfd112145afd56b75f6beb9dce70265"
+  },
+  {
+    "ep": "EP41",
+    "title": "일본 야구의 세계 정복",
+    "hook": "야구의 본고장은 미국이잖아. 일본이 미국 스타들을 상대로 이길 수 있겠어? 그런데 2023년 WBC 결승에서 일본은 미국을 3대 2로 꺾었습니다. 미국 AP통신은 마지막 오타니와 트라우트의 승부를 극적으로 묘사했는데요. 일본 야구는 어떻게 세계 최고의 선수들이 모인 무대에서 7전 전승을 만들어 냈을까요?",
+    "emotion": "상대의 권위 → 긴장 → 위기 → 마지막 승부 → 폭발적인 자긍심.",
+    "sources": [
+      {
+        "label": "AP통신 보도",
+        "historical_reference_id": "turn110994search8",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "MLB 공식 기록",
+        "historical_reference_id": "turn478094search3",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP41~50 스포츠·도전·장인정신",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "d3170c58cb35f0d41ff28c5ad399343f843304cffc1692235ee23a05150f40d3"
+  },
+  {
+    "ep": "EP42",
+    "title": "독일과 스페인을 꺾은 일본 축구",
+    "hook": "독일하고 스페인을 만났다고? 일본이 저 조에서 살아남을 수 있겠어? 그런데 2022년 월드컵에서 일본은 두 나라를 모두 꺾었습니다. 영국 BBC와 FIFA도 이 뜻밖의 역전을 집중적으로 돌아봤는데요. 일본은 어떻게 세계 챔피언 출신 두 팀을 상대로 같은 반전을 만들어 냈을까요?",
+    "emotion": "열세 → 압박 → 독일전 반전 → 스페인전 두 번째 반전 → 통쾌함.",
+    "sources": [
+      {
+        "label": "BBC 독일전",
+        "historical_reference_id": "turn478094search5",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "BBC 스페인전",
+        "historical_reference_id": "turn478094search2",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "FIFA 분석",
+        "historical_reference_id": "turn478094search7",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP41~50 스포츠·도전·장인정신",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "91b4dd5098dc6636eaa47b6cff33d699925347906f9313f5ec5ba9162c5500fe"
+  },
+  {
+    "ep": "EP43",
+    "title": "일본 럭비의 기적",
+    "hook": "월드컵에서 18경기 동안 한 번도 못 이긴 팀이라고? 그런 일본이 남아프리카공화국을 이긴다고? 2015년 영국에서 벌어진 경기의 마지막 점수는 34대 32였습니다. 영국 가디언은 럭비 역사에 남을 충격적인 이변으로 소개했습니다. 일본 선수들은 왜 마지막 순간 무승부조차 받아들이지 않았을까요?",
+    "emotion": "무시 → 강팀의 압박 → 절망 → 마지막 도전 → 기적 → 눈물.",
+    "sources": [
+      {
+        "label": "BBC",
+        "historical_reference_id": "turn478094search4",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "Guardian",
+        "historical_reference_id": "turn478094search8",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "World Rugby",
+        "historical_reference_id": "turn478094search11",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP41~50 스포츠·도전·장인정신",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "ba6d3aa46357a48530afc9f22e42b02f763aed69ff167d87d78479234f4b77d6"
+  },
+  {
+    "ep": "EP44",
+    "title": "일본 배구가 보여준 기술의 가치",
+    "hook": "배구는 키와 힘이 중요한데 일본이 어떻게 세계적인 강팀을 이겨? 체격에서 불리하잖아. 그런데 2024년 국제 배구 네이션스리그에서 일본 남녀 대표팀이 모두 은메달을 차지했습니다. 높이뿐 아니라 수비와 연결 능력도 중요한 경쟁력이었던 겁니다. 일본 배구는 자신들의 조건을 어떻게 새로운 무기로 바꿨을까요?",
+    "emotion": "편견 → 불리한 조건 → 실제 경기 → 성적표 → 노력과 자긍심.",
+    "sources": [
+      {
+        "label": "Volleyball World 공식 결과",
+        "historical_reference_id": "turn271687search3",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP41~50 스포츠·도전·장인정신",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "17a4834efe2c9a7ba9dfd10b8270d7a9813fd875df4c6ca5c4d06eba70367138"
+  },
+  {
+    "ep": "EP45",
+    "title": "일본 농구 18점 차 역전",
+    "hook": "18점이나 뒤졌다고? 이제 일본은 끝난 거 아니야? 그런데 오키나와에서 열린 2023년 농구월드컵의 최종 점수는 98대 88이었습니다. 국제농구연맹은 당시 대회 최대의 역전승이라고 소개했는데요. 포기하기 직전의 경기를 일본 선수들은 어떻게 뒤집었을까요?",
+    "emotion": "절망 → 추격 → 관중의 함성 → 대역전 → 눈물과 자긍심.",
+    "sources": [
+      {
+        "label": "FIBA 역전 분석",
+        "historical_reference_id": "turn478094search1",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "실제 경기 통계",
+        "historical_reference_id": "turn478094search0",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP41~50 스포츠·도전·장인정신",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "df68dd34bd40afda8fdee1547075eafadd354b94723aac2fbbbea5bf1380a0e1"
+  },
+  {
+    "ep": "EP46",
+    "title": "하뉴 유즈루가 세계 팬을 사로잡은 이유",
+    "hook": "두 번이나 올림픽 금메달을 땄는데 왜 또 어려운 점프에 도전하는 거야? 이미 충분히 증명했잖아. 국제올림픽위원회는 하뉴 유즈루의 선수 생활을 돌아보며 새로운 도전을 강조했습니다. 세계적인 성과를 거둔 뒤에도 그는 자신의 한계와 싸우고 있었는데요. 일본의 이 선수는 무엇을 위해 다시 빙판 위에 섰던 걸까요?",
+    "emotion": "영광 → 한계 → 시련 → 도전 → 존경과 감동.",
+    "sources": [
+      {
+        "label": "IOC 선수 평가",
+        "historical_reference_id": "turn171099search0",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "ISU 국제빙상연맹",
+        "historical_reference_id": "turn171099search1",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP41~50 스포츠·도전·장인정신",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "2246da2d5fe2b878911219841f0b812c04b8937f97a23f200bb18a5f02eb9a84"
+  },
+  {
+    "ep": "EP47",
+    "title": "일본 남자 골프 최초의 메이저 우승",
+    "hook": "마스터스에서 일본 선수가 우승한다고? 마지막까지 버틸 수 있겠어? 그런데 2021년 로이터는 마쓰야마 히데키가 일본 남자 골프 최초의 메이저 우승자가 됐다고 보도했습니다. 마지막 라운드에는 우승을 놓칠 수도 있었던 위기가 있었는데요. 그가 지켜낸 단 한 타에는 어떤 의미가 담겨 있었을까요?",
+    "emotion": "불안 → 선두 → 위기 → 마지막 한 타 → 역사적 우승 → 감동.",
+    "sources": [
+      {
+        "label": "Reuters 전재 기사",
+        "historical_reference_id": "turn271687search6",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP41~50 스포츠·도전·장인정신",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "d141f9c971ecd6590fbcc8c42aa0421fe3ef481afd382ac65c0ea3079221a391"
+  },
+  {
+    "ep": "EP48",
+    "title": "미국에서 주목받은 일본의 작은 트럭",
+    "hook": "저게 자동차라고? 미국 픽업트럭 옆에 세우면 장난감 같잖아. 그런데 월스트리트저널은 일본 경트럭에 매료된 미국 소비자들을 취재했습니다. 크기가 아니라 실제 사용 목적에서 장점을 발견한 사람들이 있었던 건데요. 일본은 왜 자동차를 더 크게 만드는 대신 더 효율적으로 활용하는 기술에 집중했을까요?",
+    "emotion": "조롱 → 해외 수요 → 실용성 → 차량의 한계와 장점 → 재평가.",
+    "sources": [
+      {
+        "label": "월스트리트저널",
+        "historical_reference_id": "turn110994search48",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "경차 경제성 자료",
+        "historical_reference_id": "turn120608search10",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP41~50 스포츠·도전·장인정신",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "0c2275ae1857aa5090444f1705d32ef45a7810c6e291827ab6a37bf5fb3d7c3d"
+  },
+  {
+    "ep": "EP49",
+    "title": "K뷰티 열풍 속 J뷰티",
+    "hook": "요즘 화장품은 다 한국 제품 아니야? 일본 화장품은 이제 관심도 없는데? 그런데 미국 패션잡지 Vogue와 Elle은 일본 화장품의 독특한 관리 철학을 소개했습니다. 빠른 유행뿐 아니라 장기적인 피부 관리에 집중하는 방식에도 주목했는데요. 일본 화장품은 어떤 가치를 오랫동안 발전시켜 왔을까요?",
+    "emotion": "비교 → 평가절하 → 해외 전문잡지 평가 → 제품 체험 → 강점 발견.",
+    "sources": [
+      {
+        "label": "Vogue",
+        "historical_reference_id": "turn271687news74",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "Elle 비교 분석",
+        "historical_reference_id": "turn271687search1",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP41~50 스포츠·도전·장인정신",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "1eb4bd36080cbc9c4b874150d9959ac94c52e5d1a7c091f908d7e8b79fced1db"
+  },
+  {
+    "ep": "EP50",
+    "title": "100년을 넘어 살아남은 일본 기업들",
+    "hook": "일본 기업은 변화가 느리잖아. 그렇게 보수적으로 경영하면 어떻게 살아남아? 그런데 2026년 하버드비즈니스리뷰는 일본 가족기업들의 장기적인 성과와 위험관리 방식에 주목했습니다. 일본에는 2025년 말 기준 업력이 100년 이상인 기업이 46,708곳이나 존재했는데요. 전쟁과 경제위기, 산업 변화까지 견뎌낸 이들은 무엇을 지키고 무엇을 바꿔왔을까요?",
+    "emotion": "무시 → 역사적 위기 → 폐업의 공포 → 세대를 건넌 생존 → 가슴 뜨거운 자긍심.",
+    "sources": [
+      {
+        "label": "Harvard Business Review",
+        "historical_reference_id": "turn110994search0",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "기업 수명 학술논문",
+        "historical_reference_id": "turn171099search2",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      },
+      {
+        "label": "실제 기업 통계",
+        "historical_reference_id": "turn120608search0",
+        "url": null,
+        "verification_status": "URL_UNRESOLVED_IN_VISIBLE_SESSION"
+      }
+    ],
+    "group": "EP41~50 스포츠·도전·장인정신",
+    "provenance": "prior_assistant_output_visible_session",
+    "country": "일본",
+    "claim_verification_status": "NOT_REVERIFIED_IN_THIS_ARCHIVE_TASK",
+    "opening_quote_status": "CREATIVE_CANDIDATE_NOT_VERIFIED_FOREIGN_SPEECH",
+    "hook_sha256": "127149b6acfdd794c02b49afb37bed56d1774b1079d2923e7fc0e073d6962a19"
+  }
+]

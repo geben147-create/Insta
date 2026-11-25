@@ -1,0 +1,253 @@
+{
+  "schema": "country-prompts.integrity.v1",
+  "built_date": "2026-11-25",
+  "timezone": "Asia/Seoul",
+  "source_commit": "61ba5df41cba88cb315fcd184c4c203b47b7dbcd",
+  "scope": "파일 보존과 파생본 구성 검사. 외부 사실·원음·번역·권리 검증 결과가 아님.",
+  "literal_transcription_note": "현재 표시된 사용자 메시지를 수동 전사. 원문 파일 끝 LF 1개 추가. 플랫폼 원시 메시지 바이트와 자동 대조한 결과가 아님.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8486,
+      "sha256": "c978d829801de051906617c6adc4cb830ddebbe76645e84da1e66fa7e44c9d9e"
+    },
+    {
+      "path": "app.js",
+      "bytes": 31349,
+      "sha256": "61fb01c1b1293803d6d32dc36098f929f18b4af21f276a4cf3793b5419f89e39"
+    },
+    {
+      "path": "checks/browser-preview.json",
+      "bytes": 1012,
+      "sha256": "14e498800fc52c23844c82333a2960b77dba0698e51454bdbbe63914373ad4f9"
+    },
+    {
+      "path": "checks/verbatim-review.json",
+      "bytes": 4434,
+      "sha256": "f74b69d35c128ee0b0caa986c41bc6438fac0b36b8bba6480d41d7e2a52870e3"
+    },
+    {
+      "path": "data/coverage.json",
+      "bytes": 10676,
+      "sha256": "790be93f72802bea8df73b9115cb0970a857a2c1856e97aaf89f2f75f08373d3"
+    },
+    {
+      "path": "data/episodes-11-50.json",
+      "bytes": 53104,
+      "sha256": "9184ccae43601dbf4f3f515b52bdb86fab00918d0c51a2d277a36883acfc739f"
+    },
+    {
+      "path": "data/gap-register.json",
+      "bytes": 1656,
+      "sha256": "c23121f7e15c7fed28b76ac3c92b35f22038df19be98e7708842c27fe6aced71"
+    },
+    {
+      "path": "data/hook-examples-22.json",
+      "bytes": 34470,
+      "sha256": "e456f0e1797091318d6bc7412c8de5275017300f1d96c19571ab51251d18c5db"
+    },
+    {
+      "path": "data/japan-source-index.json",
+      "bytes": 43498,
+      "sha256": "a8d208f9a7f96d704e73c77f215fddb9ce5ab1c3e845f2f1c4a9d661545e876d"
+    },
+    {
+      "path": "data/japan-source-read-audit.json",
+      "bytes": 44609,
+      "sha256": "16c732c9823a62a5a3825bb9faa82aaaf43cef018a2ee3ca89e4f14c07acfbe1"
+    },
+    {
+      "path": "data/original-step0-4.json",
+      "bytes": 9983,
+      "sha256": "7b59891200997d46f329e66bc417f7ac6fc1e83a3ffea22bde241281feeb47be"
+    },
+    {
+      "path": "data/recovery-status.json",
+      "bytes": 1162,
+      "sha256": "3b4ab854a5293b4f78df57f1a4b68829aa7c9b901c6f587d31c97f689385998e"
+    },
+    {
+      "path": "data/reference-hooks-7.json",
+      "bytes": 11570,
+      "sha256": "bf4e55632add01b3374a731aacaf331dea563bee4a083043f461167347e83035"
+    },
+    {
+      "path": "data/research-ledger.json",
+      "bytes": 27799,
+      "sha256": "03bc0cf573da6134156bce4ea791761c8a55e96297c20e3a9a50c13afd5cd53c"
+    },
+    {
+      "path": "data/route-and-command-audit.json",
+      "bytes": 2186,
+      "sha256": "d925a3df0313a3e351e4b203230dda6c0861859eb71245f06731291ca7a6ec5c"
+    },
+    {
+      "path": "data/session-archive.json",
+      "bytes": 72870,
+      "sha256": "c3876ef69ed9953c74a3e24c05f31229f342e42e1ea2acf31446271496378ad2"
+    },
+    {
+      "path": "data/session-srt-source-audit.json",
+      "bytes": 5241,
+      "sha256": "c74b1466b19c858210c11bced83204bf47f292e39251e773e384dc7fc419d588"
+    },
+    {
+      "path": "data/source-reference-register.json",
+      "bytes": 19397,
+      "sha256": "ca9a7d3fc3ed0cde3354e69c973ff46fbe2723615c826cb6a7bea5402b42bbe0"
+    },
+    {
+      "path": "data/srt-records.json",
+      "bytes": 33320,
+      "sha256": "58323a16b972ab66f33110b15ad9b4a90c6de218541d6ae465bc7a629ea448cf"
+    },
+    {
+      "path": "data/srt_manifest.json",
+      "bytes": 2331,
+      "sha256": "52d7900ac9404082a4d8db6ed9f6b1464424ef24351c0144d5a8e9187c8c438c"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14119,
+      "sha256": "c32344fd4cfa60a5afa13a808e2b35d18856ac403f90d4e6a4b979faccd57781"
+    },
+    {
+      "path": "originals/github-step0.txt",
+      "bytes": 990,
+      "sha256": "141bd80d47ee8bd89d8183312e6cc5e7329cfb57ca2ef7e7cc16433a65a35c6e"
+    },
+    {
+      "path": "originals/github-step1.txt",
+      "bytes": 975,
+      "sha256": "9a65952c65326ac2745ce4dad1409bdde14dd0f8a9757784c136165d01552212"
+    },
+    {
+      "path": "originals/github-step2.txt",
+      "bytes": 1086,
+      "sha256": "eb91b231979051bf4bf9e4749787eba74b1a750590872de6792617231c16ac01"
+    },
+    {
+      "path": "originals/github-step3.txt",
+      "bytes": 628,
+      "sha256": "43d9f95050226f4588762d908cb3bcf747c8e7e6351503248704e64a52240037"
+    },
+    {
+      "path": "originals/github-step4.txt",
+      "bytes": 1304,
+      "sha256": "6489008b8dfa949f6b61c35fe481fd12141ec3f8ffb1d66bea0152f5a263b170"
+    },
+    {
+      "path": "originals/research-ledger.md",
+      "bytes": 8343,
+      "sha256": "89ccf3e1cc4e8b90c0558bb3f8bce4eb91bf9be72229544f74cfbc705971d04c"
+    },
+    {
+      "path": "originals/session-archive.md",
+      "bytes": 42881,
+      "sha256": "008fb408e17bb90d9b6e5232d08d2ac0f8661b0d474ce4616f92042708630fdb"
+    },
+    {
+      "path": "originals/user-request-20261125.txt",
+      "bytes": 6573,
+      "sha256": "391c0daaf481abbe9abcbecac92eb4760aba8b986c7d947c024690dc533e41e1"
+    },
+    {
+      "path": "originals/user-step4-readable.md",
+      "bytes": 1975,
+      "sha256": "af446d70b749f18e35750d09cef904a5c945dc0e2a8d1f302b2ce30ba8b300fb"
+    },
+    {
+      "path": "originals/user-step4-verbatim.txt",
+      "bytes": 2021,
+      "sha256": "1df50fbecaa61eb5b8240b9e1383243b6bbe8e798676a9f7924a7659d421fd27"
+    },
+    {
+      "path": "prompts/00-source-check.md",
+      "bytes": 2908,
+      "sha256": "2930dfe2a75feee40f9fcb6584d0ef511e2651e97862e8d75cb9bce595e10580"
+    },
+    {
+      "path": "prompts/01-topic-evidence.md",
+      "bytes": 3071,
+      "sha256": "23a5a329313449b6b6ee141f27cd12a20c340439da840e77d205ed1ccf046bd9"
+    },
+    {
+      "path": "prompts/02-hook-emotion.md",
+      "bytes": 3898,
+      "sha256": "354dcd14ed4ccb3a810f0ab07a85261a4d3979df434e2f90fcdbe6c84d469e0e"
+    },
+    {
+      "path": "prompts/03-outline.md",
+      "bytes": 2803,
+      "sha256": "4cefd53747fc5cbf3fce967bb51416c7883dc53df7cdea10dfafb16dc87b7bfd"
+    },
+    {
+      "path": "prompts/04-script.md",
+      "bytes": 4617,
+      "sha256": "6d259be29450d62b216b9d1d0ce971ebb85426aa92a9b1f2fb07da336341a6af"
+    },
+    {
+      "path": "prompts/05-title-thumbnail.md",
+      "bytes": 2404,
+      "sha256": "ba8c4a0d1f679056d38192aa219b0b4d842a783ec75967cd5d04b97cf51a01ec"
+    },
+    {
+      "path": "prompts/common.md",
+      "bytes": 3461,
+      "sha256": "593ff785ca02cad3c2d86b991ff29b5e4208e77b26ce95feec7d7b8e6ed7280e"
+    },
+    {
+      "path": "prompts/final-review.md",
+      "bytes": 3042,
+      "sha256": "5e8e9c048af69b931df460df1bc97047011a15336a4136b9bf11489093dba9dd"
+    },
+    {
+      "path": "reference/additional-static-audit.md",
+      "bytes": 3148,
+      "sha256": "744252b8276ce533c4c185b32c8c19863391ce82c41e79a4feaf4f12c3a5c0a4"
+    },
+    {
+      "path": "reference/source-recovery.md",
+      "bytes": 3489,
+      "sha256": "2855d22584ede0474abfe8a1eef28fac664b6135bbd592c8d8af62d09ec3ecd7"
+    },
+    {
+      "path": "reference/srt/BV1TX4y1v7pY.ko.srt",
+      "bytes": 2954,
+      "sha256": "2da90c0666b1e37d5b31026cd8753b38fa6accf3242f73fa8951a982bd7cdc68"
+    },
+    {
+      "path": "reference/srt/BV1Uf421f7Uz.ko.srt",
+      "bytes": 1390,
+      "sha256": "1450c565b7e661494069773ef989bfd610397bd666fc5585306d2bd7516903a5"
+    },
+    {
+      "path": "reference/srt/BV1tt421W7y7.ko.srt",
+      "bytes": 5735,
+      "sha256": "55a5e1f6497bd32d236d9b5f66362cd07dc07e6ede7e389375e0165604fa07d9"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 12670,
+      "sha256": "f7869c594f734fa340e279e84b776c028c28a428f87372b630e5c419d6e45453"
+    }
+  ],
+  "counts": {
+    "session_episodes": 40,
+    "missing_ep_full_texts": 10,
+    "reference_transcripts": 7,
+    "existing_hook_records": 22,
+    "japan_source_paths": 51,
+    "srt_files": 3
+  },
+  "checks": {
+    "user_step4_sha256": "1df50fbecaa61eb5b8240b9e1383243b6bbe8e798676a9f7924a7659d421fd27",
+    "session_hook_sha256_all_match": true,
+    "audio_verified": false,
+    "translation_verified": false,
+    "claimed_14_same_list_verified": false,
+    "srt_bytes_and_record_text_all_match": true,
+    "javascript_syntax_valid": true
+  },
+  "publish_parent_commit": "991e136ee8b82855d170e971789535375c25c516"
+}

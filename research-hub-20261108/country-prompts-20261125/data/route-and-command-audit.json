@@ -1,0 +1,46 @@
+{
+  "nav_21": {
+    "original_index": 21,
+    "generated_id": "nav-21",
+    "label": "🔗 국뽕해외반응 · 중국 SNS (처음 준 링크)",
+    "relative_path": "../%EA%B5%AD%EB%BD%95%ED%95%B4%EC%99%B8%EB%B0%98%EC%9D%91-%EC%A4%91%EA%B5%ADSNS-20261103/",
+    "resolved_repository_path": "국뽕해외반응-중국SNS-20261103/index.html",
+    "path_exists": true,
+    "preserve_rule": "기존 ITEMS.forEach에서 unshift 이전에 미지정 id를 nav-index로 고정함"
+  },
+  "thumbnail": {
+    "entry_query": "?page=studio-thumb&sub=handoffv31",
+    "route_valid_static": true,
+    "hub_route": "thumb-edit-studio-20261123/?tab=thumb&sub=handoffv31&v=20261125-sfx-r3",
+    "submenu_source": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/data.js",
+    "submenu_line": 15,
+    "submenu_id": "handoffv31",
+    "submenu_label": "📦 썸네일 V3.1 이전 패키지 (Codex용)",
+    "submenu_relative_path": "thumb-handoff-v31/",
+    "resolved_repository_path": "국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/thumb-handoff-v31/index.html",
+    "path_exists": true,
+    "runtime_chain": "허브 index.html showRoute → 스튜디오 index.html이 data.js/content.js/studio.js 로드 → studio.js go가 MENUS.thumb에서 handoffv31 선택 → show가 m.f iframe 생성",
+    "browser_execution_tested": false,
+    "scope": "링크 경로만 점검; 썸네일 규칙 내용 통합하지 않음"
+  },
+  "commands": [
+    {
+      "path": "bin/lint_script.py",
+      "exact_in_tree": false,
+      "suffix_matches": [],
+      "status": "공개 저장소에서 실행 파일 미발견; 제작 PC 로컬 파이프라인 존재 여부는 미검증"
+    },
+    {
+      "path": "bin/catalog.py",
+      "exact_in_tree": false,
+      "suffix_matches": [],
+      "status": "공개 저장소에서 실행 파일 미발견; 제작 PC 로컬 파이프라인 존재 여부는 미검증"
+    },
+    {
+      "path": "episodes/ramen-20261115/script_data.py",
+      "exact_in_tree": false,
+      "suffix_matches": [],
+      "status": "공개 저장소에서 실행 파일 미발견; 제작 PC 로컬 파이프라인 존재 여부는 미검증"
+    }
+  ]
+}

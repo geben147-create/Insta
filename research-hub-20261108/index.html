@@ -566,6 +566,7 @@ active=null;moved=false;
 (function(){
 'use strict';
 var framePaths={
+ 'country-prompts':'./country-prompts-20261125/',
  'outline50-player':'../kukppong-batch-20261122/outline50/player/',
  'outline50-plans':'../kukppong-batch-20261122/outline50/',
  'gpt-sol-review':'./script-video-workflow-8steps/gpt-sol-review/',
@@ -583,6 +584,7 @@ var framePaths={
 };
 var sourceReviews={reaction:'🟣 이번에는 국뽕·외국인 반응이 본편입니다. 고조회 4편+조회/구독 비율 1위의 실제 자막 추출 Aside 지시서, 질문답·편견검증·비교·감정 9비트 예시와 영상 프롬프트를 넣었습니다. 자막 미확보 구간과 사용 권리를 구분합니다.',case:'🪻 어두운 보라색 실전 대본 8비트, 훅·전개 참고 영상 URL과 출처 사실을 각 문단에 대응시켰습니다. 무허락 영상 사용은 기본안 0초이며 편집 후 개별 권리 확인 전 배포 보류.',gpt:'🧠 2026-11-09 GPT가 작성한 별도 연구 보강판입니다. 기존 Claude 연구는 보존했으며, 대본 원문 유무와 사용 허가 미확인 사항을 구별합니다.',storydna:'🌸 2026-11-09 신규 분석실입니다. 14개 훅·9개 전개와 영상 중심 TOP5, 자막 추출 지시서를 추가했습니다. 실제 자막·시청지속률 미확보는 별도로 표시합니다.',discovery:'🌸 한국·일본·미국·중국 대조 키워드와 러시아권 플랫폼 키워드를 새 메뉴에 보완했습니다. 기존 20개 검색어와 시트 정리 결과는 원본에 남겨두었습니다.',longrun:'🌸 광고 노출은 YPP 승인이나 실제 RPM 증명이 아닙니다. 클립이 짧고 자체 해설이 많아도 저작권 허락이 자동으로 생기지 않습니다. 기존 감정곡선·출처 분석은 관찰 결과로 보존했습니다.',top1:'🌸 화면·컷 구성의 참고와 원본 영상 사용 허락은 별개입니다. 기존 TOP1 편집 사례는 장면 재현용 참고로 보고, 원본 권리자·음악·초상권을 각각 확인하세요.',copyright:'🌸 원음 20초 이하, 동일 원본 60초 이하, 화면 자체 제작 60% 등은 실무 편집 기준이지 법률상 안전 지대가 아닙니다. 서면 허락·개별 법적 예외 검토가 먼저입니다.',rising:'🌸 급등 채널의 조회수·구독자·광고 상태는 날짜가 지나면 달라집니다. 최신 재측정 전에는 과거 스냅샷으로만 보고, 실수익은 채널 소유자 자료가 없으면 확인 불가입니다.',global:'🌸 이 136개 영상 연구 README는 125개 자막 저장, 11개 미확보를 보고합니다. 유튜브 실측 retention이나 실제 RPM이 아니며, 공개 GitHub에 전체 자막 원문·비공개 이메일을 싣지 않은 원칙을 유지합니다.',longform:'🌸 기존 102컷 대본·편집 구조는 그대로 보존합니다. 국가별 최신 사실은 업로드 전 다시 검증하고, 사용되는 원영상·음악·얼굴의 권리를 별도로 확인하세요.'};
 var routes={
+ 'country-prompts':['frame','🌍 국가별 제작 프롬프트','국가 설정부터 대본·제목·썸네일 문구까지. 사용자 원문과 세션 자료를 함께 보관합니다.','country-prompts',''],
  'outline50-player':['frame','한일 비교 51–100 · 대본·낭독','완성된 대본·영상 기획서와 합성이 완료된 음성. 재생 기본 2배속.','outline50-player',''],
  'outline50-plans':['frame','한일 비교 51–100 · 아웃라인·영상 기획서','50편의 아웃라인과 장면별 영상 기획서.','outline50-plans',''],
  'gpt-sol-review':['frame','💗 GPT-6.2 Sol · 약간 이상 · BTS·화장','사용자 입력 원문 · STEP 1–8 개별 복사 · 기존 아웃라인 5안과 MP3.','gpt-sol-review',''],
@@ -632,7 +634,8 @@ function openRoute(){
  document.querySelectorAll('.panel').forEach(function(el){el.classList.toggle('on',el.dataset.panel===kind)});
  document.querySelectorAll('[data-to].navbtn').forEach(function(el){el.classList.toggle('active',el.dataset.to===name)});
  if(kind==='frame'){
-  document.getElementById('frameReviewText').textContent=sourceReviews[r[3]]||'원본은 보존하고 보완 내용은 🌸 별도 메뉴로 제공합니다.';
+  document.getElementById('frameReviewText').textContent=name==='country-prompts'?'국가와 작성 언어를 선택하세요. 주신 STEP 4 원문은 보존하고, 실행 프롬프트에만 선택한 설정을 적용합니다.':(sourceReviews[r[3]]||'원본은 보존하고 보완 내용은 🌸 별도 메뉴로 제공합니다.');
+  if(name==='country-prompts')frame.setAttribute('allow','clipboard-write');else frame.removeAttribute('allow');
   var src=framePaths[r[3]]+(r[4]?'#'+r[4]:'');
   original.href=new URL(src,location.href).href;original.classList.remove('hidden');
   if(frame.getAttribute('src')!==src)frame.setAttribute('src',src);
@@ -692,5 +695,5 @@ window.addEventListener('storage',function(e){if(e.key===key)redraw();});redraw(
 })();
 </script>
 <script src="./script-video-workflow-8steps/review-menu.js?v=20261121-coexist" defer></script>
-<script src="./top2-pin.js?v=outline50-1"></script>
+<script src="./top2-pin.js?v=country-prompts-20261125"></script>
 </body></html>

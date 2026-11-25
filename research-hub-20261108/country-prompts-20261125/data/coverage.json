@@ -1,0 +1,149 @@
+[
+  {
+    "id": "R01",
+    "requirement": "이 세션의 내용과 미완료 항목을 빠짐없이 모으고 단계별 프롬프트와 연결",
+    "status": "partial",
+    "evidence": "③ 이번 세션 자료 · originals/session-archive.md · data/episodes-11-50.json · data/gap-register.json",
+    "note": "보이는 EP11~50, 감정선 7종, 17분 시간표, TOP8, SRT 3개, 과거 완료·미완료 보고를 보관했다. EP01~10 전문과 특정 훅 14개 목록은 미복구이므로 세션 전체 100% 복원으로 표시하지 않는다."
+  },
+  {
+    "id": "R02",
+    "requirement": "기존 두 리서치 허브의 왼쪽 메뉴 맨 위에 새 메뉴 추가",
+    "status": "complete",
+    "evidence": "두 기존 허브 최상단 메뉴 · research-hub-20261108/#country-prompts · 통합 허브 ?page=country-prompts",
+    "note": "두 허브의 왼쪽 첫 메뉴와 새 페이지 열림을 실제 미리보기 브라우저에서 확인했다. 기존 nav-21 식별자는 유지했다."
+  },
+  {
+    "id": "R03",
+    "requirement": "각 단계에 실행 가능한 프롬프트 본문을 넣고 복사할 수 있게 구성",
+    "status": "complete",
+    "evidence": "① 단계별 프롬프트 · 공통 설정 · STEP 0~5 · 최종 확인",
+    "note": "전체 복사·개별 단계 복사 UI와 본문을 구현했다. 전체 복사 및 허브 iframe 안 복사가 실제 브라우저 클립보드에 들어가는 것을 확인했다. TXT 내려받기도 제공한다."
+  },
+  {
+    "id": "R04",
+    "requirement": "일본·한국·러시아·프랑스 및 직접 입력한 나라로 제작 목표 전환",
+    "status": "complete",
+    "evidence": "시작 설정 · 일본·한국·러시아·프랑스·직접 입력",
+    "note": "실제 브라우저에서 기본 국가 4개와 직접 입력 이탈리아의 STEP 4 호평·자긍심 치환을 확인했다. 보관된 기획·인용·수치는 바꾸지 않는다."
+  },
+  {
+    "id": "R05",
+    "requirement": "칭찬 대상 국가와 작성 언어를 각각 선택",
+    "status": "complete",
+    "evidence": "별도 국가·작성 언어 선택 · 공통 설정 및 STEP 4",
+    "note": "이탈리아 대상·일본어 출력 조합에서 C 자막과 READ가 일본어로 바뀌는 것을 확인했다. 한국어 전용 어절·어미 규칙은 일본어에 강제하지 않는다."
+  },
+  {
+    "id": "R06",
+    "requirement": "사용자가 보낸 STEP 4 보존본과 읽기용 파생본을 분리하여 수록",
+    "status": "complete",
+    "evidence": "② STEP 4 원문 · originals/user-step4-verbatim.txt · originals/user-step4-readable.md",
+    "note": "보존본 2,021바이트의 SHA-256은 1df50fbecaa61eb5b8240b9e1383243b6bbe8e798676a9f7924a7659d421fd27이다. 일본 호평·한국의 자긍심·‘잇고’ 표현을 유지했다. 표시된 메시지를 전사한 파일이며 플랫폼 원시 메시지 바이트 자동 대조를 뜻하지 않는다. 파일 끝 LF 1개는 파일화 과정에서 추가되었다."
+  },
+  {
+    "id": "R07",
+    "requirement": "국가·언어 치환은 STEP 4 원문을 건드리지 않는 별도 실행본에서 적용",
+    "status": "complete",
+    "evidence": "② 보존 원문 · ① STEP 4 실행본 · 변경 비교표",
+    "note": "여러 국가·언어로 설정을 바꾼 뒤에도 원문 복사 결과가 보존 텍스트와 일치했다. 읽기용 보기에서도 원문 복사 버튼은 보존본을 복사한다. 원문 SHA-256 일치도 브라우저에서 확인했다."
+  },
+  {
+    "id": "R08",
+    "requirement": "대본을 쓴 다음 단계에서 제목과 썸네일 문구를 한 쌍으로 작성",
+    "status": "complete",
+    "evidence": "STEP 4 대본 → STEP 5 제목·썸네일 문구 · prompts/05-title-thumbnail.md",
+    "note": "제목만 먼저 확정하지 않고 완성 대본을 읽은 뒤 A/B/C/D 제목·썸네일 문구와 근거를 함께 제시하도록 했다. 이는 프롬프트의 반영 상태이며 실제 회차 제목 제작 완료를 뜻하지 않는다."
+  },
+  {
+    "id": "R09",
+    "requirement": "기존 썸네일 규칙은 재작성·통합하지 않고 사용자가 지정한 링크만 연결",
+    "status": "complete",
+    "evidence": "STEP 5 · 썸네일 규칙 링크 카드 · ?page=nav-21 · ?page=studio-thumb&sub=handoffv31",
+    "note": "두 지정 링크를 유지했다. 규칙 원문을 읽지 못한 경우 미확인으로 표시하고 임의 규칙으로 채우지 않도록 했다."
+  },
+  {
+    "id": "R10",
+    "requirement": "이번 새 작업 단계에서 영상 편집·효과·TTS 제작·렌더 제외",
+    "status": "complete",
+    "evidence": "STEP 0~5 단계 목록 · prompts/common.md · prompts/03-outline.md · prompts/final-review.md",
+    "note": "새 영상 편집 단계를 만들지 않았다. 보존이 요구된 STEP 4 원문 안의 클립 길이와 프레임 확인 문구는 그대로 남긴다."
+  },
+  {
+    "id": "R11",
+    "requirement": "흩어진 일본 자료를 기존 파일을 옮기거나 삭제하지 않고 한곳에서 찾도록 정리",
+    "status": "complete",
+    "evidence": "⑤ 일본 자료 모음 · data/japan-source-index.json 51개 항목 · data/recovery-status.json",
+    "note": "기존 저장소 경로를 색인에 모았다. 일본 수집 원장은 확인 시점 589행·589개 고유 ID다. 자료 목록 수록은 원음 청취나 제작 PC의 영상 파일 검증을 의미하지 않는다."
+  },
+  {
+    "id": "R12",
+    "requirement": "썸네일 통합 작업을 확장하지 않고 사용자가 정한 이번 범위 유지",
+    "status": "complete",
+    "evidence": "STEP 5의 링크 참조·후속 원문 추가 지시 · 새 단계 목록",
+    "note": "썸네일 규칙 재편집과 썸네일 이미지 제작은 이번 작업에 포함하지 않았다. 사용자가 나중에 규칙을 보내면 기존 원문을 덮어쓰지 않고 새 버전으로 추가하도록 했다."
+  },
+  {
+    "id": "R13",
+    "requirement": "첫 1~2문장은 외국인의 실제 비판·부정 비교 또는 호평 원음으로 시작",
+    "status": "partial",
+    "evidence": "STEP 2 첫 30초 규칙 · prompts/common.md · reference/srt/의 3개 SRT · data/srt-records.json",
+    "note": "규칙과 원음 미확보 슬롯을 넣었다. 현재 확보한 번역 SRT 3개를 실제 원음 청취·번역 검수 완료로 표시하지 않는다. 50편 전체의 첫 발언 원음은 아직 확보·대조되지 않았다."
+  },
+  {
+    "id": "R14",
+    "requirement": "첫 30초에 궁금한 질문과 긍정 근거를 배치하고 질문 간격을 2분 이내로 설계",
+    "status": "complete",
+    "evidence": "prompts/02-hook-emotion.md · prompts/03-outline.md · prompts/final-review.md",
+    "note": "비판 시작 뒤에도 첫 30초 안에 확인된 긍정 근거를 연결하도록 했다. 질문→답→더 깊은 질문과 마지막 회수를 요구한다. 근거가 없을 때 실제 발언을 지어내지 않는다."
+  },
+  {
+    "id": "R15",
+    "requirement": "해외 언론·논문·전문잡지·통계·현장영상·댓글 출처를 보강하고 실제 검증 상태 표시",
+    "status": "partial",
+    "evidence": "STEP 1 근거 보강 · data/source-reference-register.json 70개 기록 · ⑤ 과거 해외 출처 기록",
+    "note": "출처 종류·정확한 URL·발행일·주장·한계의 기록 규칙을 넣었다. 과거 답변의 인용 토큰에 대응하는 실제 URL은 미복구 상태이며, 편당 신규 출처 5개 이상·독립 해외 언론사 3곳 이상 검증도 미완료다."
+  },
+  {
+    "id": "R16",
+    "requirement": "역사 논쟁·댓글 논쟁·해외 판단 분석을 출처와 함께 구성",
+    "status": "complete",
+    "evidence": "STEP 1의 역사·댓글·해외 평가 지시 · EP22·25·26·28·29 등 기획 · ③ 해외 댓글·추가 자료",
+    "note": "최초 기원과 이후 발전, 개인 후기와 여론조사, 사실과 해석을 구분하도록 했다. 이 판정은 구성 지시와 기록 수록에 관한 것이며 과거 모든 외부 출처 검증 완료를 뜻하지 않는다."
+  },
+  {
+    "id": "R17",
+    "requirement": "실제 사건에 맞는 감정선을 골라 반전과 대상 국가의 자긍심·감동까지 연결",
+    "status": "complete",
+    "evidence": "STEP 2 E01~E07 · 감정선 7종 · 17분 시간표 · 최종 확인",
+    "note": "선택한 감정선과 실제 자료에 맞는 갈등·의심·호기심에서 증거와 반전을 거쳐 자긍심·감동으로 이어지는지 확인하도록 통일했다. 모든 회차에 분노를 강제하지 않는다."
+  },
+  {
+    "id": "R18",
+    "requirement": "끝까지 보게 하는 질문·보상·두 차례 반전·회수를 설계하고 조회수 보장과 구분",
+    "status": "complete",
+    "evidence": "STEP 2의 보상·Reframe·회수 · STEP 3의 17분표 · ③ TOP8 기획 점수",
+    "note": "30~60초 새 정보, 첫 작은 보상, 중반·후반 반전, 최초 질문 회수를 포함했다. 감정 곡선과 기획 점수는 실측 시청 반응이나 조회수 예측·보장이 아니다."
+  },
+  {
+    "id": "R19",
+    "requirement": "이전 답변에서 발췌했다고 보고한 특정 실제 훅 14개 목록의 정확한 원문 복구",
+    "status": "gap",
+    "evidence": "④ 참고 훅·원문 · data/reference-hooks-7.json · data/hook-examples-22.json · data/recovery-status.json",
+    "note": "기존 STEP 0~4 원문, 참고 자막 7편, 실전 훅 22편은 저장소에서 복구했다. 그러나 이 자료를 과거 보고의 특정 14개 목록과 동일하다고 확인하지 못했다. 다른 14개를 골라 복구본으로 대체하지 않는다."
+  },
+  {
+    "id": "R20",
+    "requirement": "50편 각각의 훅·감정선 전체를 보존",
+    "status": "partial",
+    "evidence": "data/episodes-11-50.json 40편 · originals/session-archive.md · data/recovery-status.json",
+    "note": "EP11~50은 보관했다. EP01~10 전체 원문은 찾지 못했으며 EP01·05·07 제목 단편만 남아 있다. 부족한 10편을 새로 써서 원문 복원으로 표시하지 않는다."
+  },
+  {
+    "id": "R21",
+    "requirement": "과거 완료 주장과 현재 확인을 나누고 누락·미확인·미실행을 그대로 표시",
+    "status": "complete",
+    "evidence": "⑥ 수록·미확보 확인 · 과거 완료 보고 비교표 · data/gap-register.json · prompts/final-review.md",
+    "note": "미확보 원문, 미복구 URL, 원음 대조 미실행, 출처 목표 미충족을 완료로 바꾸지 않았다. 프롬프트 페이지 제작과 실제 대본·영상·원음 검증의 완료는 별개다."
+  }
+]

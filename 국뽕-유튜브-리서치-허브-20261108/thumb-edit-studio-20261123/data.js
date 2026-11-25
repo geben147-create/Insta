@@ -50,6 +50,7 @@ const MENUS = {
     {id:'editmd', t:'편집 분석 전문 (안전 5편)', tag:'doc', md:'../docs/editing_analysis_safe5.md'},
     {id:'editprompt', t:'국뽕 영상편집 프롬프트 원문', tag:'doc', md:'../../research-hub-20261108/KUKPPONG_VIDEO_EDIT_PROMPT_ONLY.md'},
     {grp:'⭐ 장면별 연출 (예시 포함)'},
+    {id:'edit-preview', t:'▶ 영상·소리 조합 미리보기', s:'바로 재생 · 체크 · Claude 편집 지시문 복사', tag:'new', f:'edit-preview.html?v=20261125-edit-preview-r001'},
     {id:'vfx', t:'장면별 연출 프리셋', s:'훅 · 한국 대단해 · 반전 · 통계 · 키워드 · VS · 댓글 · 결론', tag:'new'},
     {id:'plan', t:'영상편집 마스터 계획 ①~⑩', s:'+ 공통 규칙 + 프롬프트 A·B·C', tag:'new'},
     {grp:'🎧 소리'},

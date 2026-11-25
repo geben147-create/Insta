@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>영상·소리 조합 미리보기</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Noto+Serif+KR:wght@700;900&display=swap">
+<link rel="stylesheet" href="fonts.css?v=1"><link rel="stylesheet" href="edit-preview.css?v=1">
+<script defer src="media.js?v=1"></script><script defer src="edit-preview.js?v=1"></script>
+</head><body><main>
+<header><p class="eyebrow">🎬 영상편집 스튜디오</p><h1>영상·소리 조합 미리보기</h1><p>▶로 바로 보고 듣기 · ☑로 조합에 담기 · <strong>Claude 편집 지시문</strong>으로 복사하기</p></header>
+<div class="work">
+<section class="monitor" aria-label="공통 미리보기">
+  <div class="monitor-head"><strong>미리보기</strong><label>화면 <select id="ratio"><option>16:9</option><option>9:16</option></select></label></div>
+  <div id="stage" data-ratio="16:9"><div id="shot-a" class="shot a"><div id="demo-motion" aria-hidden="true"></div><video id="footage" muted playsinline loop hidden></video><div class="shade"></div><span class="shot-label">A · 예시 화면</span></div><div class="shot b" id="shot-b"><div class="b-lines"></div><span class="shot-label">B · 전환 도착 화면</span></div><div id="flash-layer"></div><div id="title-zone" data-layout=""><span id="demo-label"></span><strong id="caption"></strong><div id="bars" aria-hidden="true"><i></i><i></i><i></i></div></div></div>
+  <div class="actions"><button id="play-combo" class="primary">▶ 선택 조합 재생</button><button id="stop">■ 정지</button><label class="upload">내 배경 영상 <input id="footage-input" type="file" accept="video/*"></label></div>
+  <p class="hint" id="status" role="status" aria-live="polite">효과 이름 옆에 있는 ▶로 비교하세요. 재생만으로는 선택되지 않습니다.</p>
+  <div class="basket"><strong>선택한 조합</strong><div id="picked"></div><div class="actions"><button id="copy" class="primary" disabled>Claude 편집 지시문 복사</button><button id="clear" disabled>선택 비우기</button></div><textarea id="handoff" rows="8" readonly aria-label="Claude 편집 지시문" hidden></textarea></div>
+</section>
+<div class="options">
+<section class="pane" data-kind="scene"><h2>🎬 장면별 프리셋 <span>10종</span></h2><p>영상·자막·추천 소리를 한 번에 확인합니다. 체크한 프리셋의 기본값은 개별 선택으로 덮어쓸 수 있습니다.</p><div id="scenes" class="rows"></div></section>
+<section class="pane" data-kind="video"><h2>🔴 영상 효과</h2><div id="video" class="rows"></div></section>
+<section class="pane" data-kind="transition"><h2>🟡 영상 전환 효과</h2><div id="transition" class="rows"></div></section>
+<section class="pane" data-kind="style"><h2>🟣 자막 꾸미기</h2><div id="style" class="rows"></div></section>
+<section class="pane" data-kind="motion"><h2>🔵 자막 애니메이션</h2><div id="motion" class="rows"></div></section>
+<section class="pane" data-kind="type"><h2>🔤 폰트 · 크기 · 자간 · 행간</h2><div class="type-grid">
+<label class="full">미리보기 문구 (강조할 말은 *별표*)<textarea id="sample" rows="2" maxlength="90" placeholder="비우면 장면 예시가 나옵니다"></textarea></label>
+<label>폰트 <select id="font"><option>장면 기본</option><option>Black Han Sans</option><option>G마켓산스</option><option>Do Hyeon</option><option>Noto Serif KR</option><option>SB어그로</option><option>시스템 고딕</option></select></label>
+<label>크기 <output></output><input id="size" type="range" min="24" max="132" value="68"></label>
+<label>자간 <output></output><input id="spacing" type="range" min="-6" max="16" step=".5" value="-1"></label>
+<label>행간 <output></output><input id="leading" type="range" min="1" max="2" step=".05" value="1.25"></label>
+</div><p>크기와 자간은 가로 1920px / 세로 1080px 기준 출력값입니다.</p></section>
+<section class="pane" data-kind="voice"><h2>🟢 목소리 · 내레이션 / 기사 / 댓글</h2><p>튀지 않는 톤으로 비교하는 예시 낭독입니다. 아래 문장은 실제 보도·댓글이 아닙니다.</p><div id="voice" class="rows"></div></section>
+<section class="pane" data-kind="sfx"><h2>🟠 효과음 <span>30종</span></h2><p>합성 샘플 30종과 Freesound 출처 미리듣기 3종을 페이지 안에서 재생합니다. 합성 샘플은 외부 원본 링크의 음원과 다릅니다.</p><label>상황 <select id="sfx-filter"><option value="">전체</option></select></label><div id="sfx" class="rows sfx-rows"></div></section>
+<section class="pane" data-kind="word"><h2>💬 대표 단어 → 효과음 매치표</h2><p>▶로 문구에 어울리는 소리를 비교하고, 원하는 소리만 담으세요.</p><div id="words"></div></section>
+<section class="pane" data-kind="library"><h2>🎵 YouTube 오디오 보관함</h2><p><a href="https://www.youtube.com/audiolibrary" target="_blank" rel="noopener">YouTube 오디오 보관함 ↗</a> · 음향 효과에서 <code>whoosh</code>, <code>soft chime</code>, <code>paper flip</code>, <code>click</code>부터 비교해 보세요. 실제 음원·라이선스는 Studio에서 확인합니다. <a href="https://support.google.com/youtube/answer/3376882?hl=ko" target="_blank" rel="noopener">이용 안내 ↗</a></p><label class="upload">내가 받은 음원으로 비교 <input id="library-input" type="file" accept="audio/*" multiple></label><p>내 파일은 이 브라우저에서만 읽으며 업로드하지 않습니다.</p><div id="library" class="rows"></div></section>
+</div></div></main></body></html>

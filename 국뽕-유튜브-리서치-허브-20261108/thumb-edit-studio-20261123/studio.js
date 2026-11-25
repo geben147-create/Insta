@@ -60,18 +60,20 @@ function go(tab, sub, record = true) {
 
 /* ── 본문 ── */
 function show(m) {
+  stopInlineSound();
   content.className = ''; content.scrollTop = 0;
   if (m.f) {
     content.className = 'frame';
     content.innerHTML = `<div class="framebar"><b>${esc(m.t)}</b><a href="${esc(m.f)}" target="_blank" rel="noopener">새 탭에서 열기 ↗</a></div>`;
     const src = m.id === 'editor' && pendingTpl ? m.f + '?t=' + pendingTpl : m.f; pendingTpl = null;
-    const f = document.createElement('iframe'); f.src = src; f.title = m.t; content.append(f); return;
+    const f = document.createElement('iframe'); f.src = src; f.title = m.t; f.allow = 'clipboard-write; autoplay'; content.append(f); return;
   }
   if (m.md) { showMd(m); return; }
   const fn = PAGES[m.id]; content.innerHTML = fn ? fn() : '<div class="page">준비 중</div>';
   if (m.id === 'live') initLive();
   if (m.id === 'parts') initFaces();
   if (m.id === 'vfx') initVfx();
+  if (m.id === 'sfx') initInlineSound();
   if (m.id === 'fonts') initFonts();
   content.focus({preventScroll: true});
 }
@@ -253,12 +255,46 @@ async function initFonts() {
      <div class="tblwrap"><table><tr><th>폰트</th><th>상태</th><th>로컬 경로</th><th>쓰이는 곳</th><th>라이선스</th><th>공식 받기</th></tr>${list.map(x => `<tr><td><b>${esc(x.name)}</b></td><td class="${x.status === 'manual' ? 'no' : 'ok'}">${({local:'원래 있음', downloaded:'이번에 받음', manual:'수동 필요'})[x.status] || esc(x.status)}</td><td><code style="font-size:11px;word-break:break-all">${esc(x.localPath || '')}</code></td><td style="font-size:12px">${esc((x.usedIn || []).join(' · '))}</td><td style="font-size:12px">${esc(x.license || '')}</td><td>${x.manualUrl ? `<a href="${esc(x.manualUrl)}" target="_blank" rel="noopener">공식 받기 ↗</a>` : x.source && /^https?:/.test(x.source) ? `<a href="${esc(x.source)}" target="_blank" rel="noopener">출처 ↗</a>` : ''}</td></tr>`).join('')}</table></div></div>`;
   } catch { content.innerHTML = '<div class="page">폰트 점검 파일을 읽지 못했습니다.</div>'; }
 }
+/* Legacy screens use the same assets as the composition workspace. */
+let inlineAudio, inlineButton, inlineTimers = [], playbackGeneration = 0;
+function stopInlineSound() {
+  ++playbackGeneration; inlineTimers.forEach(clearTimeout); inlineTimers = [];
+  if (inlineAudio) { inlineAudio.pause(); inlineAudio = null; }
+  if (inlineButton) { inlineButton.setAttribute('aria-pressed','false'); inlineButton.textContent = inlineButton.dataset.label || '▶'; inlineButton = null; }
+}
+function triggerInlineSound(b, ids) {
+  if (inlineButton === b) { stopInlineSound(); return; }
+  stopInlineSound(); const token = playbackGeneration; inlineButton = b;
+  b.dataset.label = b.textContent; b.textContent = '■'; b.setAttribute('aria-pressed','true');
+  const next = i => {
+    if (token !== playbackGeneration) return;
+    if (i >= ids.length) { stopInlineSound(); return; }
+    const a = inlineAudio = new Audio(`edit-preview-audio/${ids[i]}.mp3`); a.volume = .58;
+    a.onended = () => inlineTimers.push(setTimeout(() => next(i+1), 110));
+    a.play().catch(() => { if (token === playbackGeneration) { stopInlineSound(); toast('효과음을 재생할 수 없습니다.'); } });
+  };
+  next(0);
+}
+function initInlineSound() {
+  content.querySelectorAll('a[href]').forEach(a => {
+    const sound = SFX30.find(x => x.url === a.getAttribute('href'));
+    if (!sound || a.previousElementSibling?.dataset?.inline) return;
+    a.before(inlineControl([sound.n],`#${sound.n} ${sound.name} 합성 샘플`, '▶')); a.before(' '); a.title = '외부 원본 출처';
+  });
+  const mapped = [['03','11'],['07','01'],['11'],['04'],['21','23'],['18','17'],['27','30'],['28','25'],['14','06'],['09','19']];
+  content.querySelectorAll('[data-inline-words] tr').forEach((tr,i)=>{if(i && mapped[i-1] && !tr.querySelector('[data-inline]')) tr.cells[1].prepend(inlineControl(mapped[i-1],'추천 합성 효과음','▶ '));});
+}
+function inlineControl(ids, name, label) {
+  const b = document.createElement('button'); b.type='button'; b.className='btn ghost'; b.dataset.inline='1';
+  b.textContent=label; b.setAttribute('aria-label',name); b.setAttribute('aria-pressed','false'); b.onclick=()=>triggerInlineSound(b,ids); return b;
+}
+const previewShortcut = '<p><a class="btn" href="?tab=video&amp;sub=edit-preview">▶ 영상·소리 조합 미리보기</a></p>';
 /* ── 효과음 30 ── */
 function sfxPage() {
   const sits = [...new Set(SFX30.map(x => x.sit))];
   return `<div class="page">
-  <h1>🎧 효과음 30개 · TOP 10 · 장면 배치</h1>
-  <p class="lead">유퀴즈·라디오스타의 편집 감각을 참고하되, 방송사 원본 효과음은 쓰지 않고 무료 효과음으로 재구성했습니다 (2026-11-23 조사). 음원명을 누르면 <b>듣기·다운로드 페이지</b>가 열립니다. 컷 길이·게인은 측정값이 아니라 편집 시작값입니다.</p>
+  <h1>🎧 효과음 30개 · TOP 10 · 장면 배치</h1>${previewShortcut}
+  <p class="lead">유퀴즈·라디오스타의 편집 감각을 참고하되, 방송사 원본 효과음은 쓰지 않고 무료 효과음으로 재구성했습니다 (2026-11-23 조사). ▶는 <b>자체 합성 샘플</b>을 이 자리에서 재생합니다. 음원명은 외부 원본 출처입니다. 컷 길이·게인은 측정값이 아니라 편집 시작값입니다.</p>
   <details class="fold" open><summary>🔐 사이트별 사용 조건 <small>Mixkit · Pixabay · YouTube Audio Library · Freesound</small></summary><div class="in">
    <div class="tblwrap"><table><tr><th>사이트</th><th>상업 이용</th><th>출처 표시</th><th>판단</th></tr>
    <tr><td><a href="https://mixkit.co/free-sound-effects/" target="_blank" rel="noopener">Mixkit</a></td><td>가능</td><td>불필요</td><td>1순위 · 원본 파일을 음원팩으로 재배포 금지</td></tr>
@@ -271,7 +307,7 @@ function sfxPage() {
   <details class="fold" open><summary>🎵 30개 전체 (상황별) <small>${sits.map(x => x + ' ' + SFX30.filter(y => y.sit === x).length).join(' · ')}</small></summary><div class="in">
    ${sits.map(sit => `<h3 style="margin:12px 0 4px">${esc(sit)}</h3><div class="tblwrap"><table><tr><th>#</th><th>자막에 쓰는 말</th><th>효과음 (듣기·다운로드)</th><th>컷 / 시작 게인</th></tr>${SFX30.filter(x => x.sit === sit).map(x => `<tr><td>${x.n} ${x.em}</td><td>${esc(x.cap)}</td><td><a href="${x.url}" target="_blank" rel="noopener">${esc(x.name)}</a></td><td>${esc(x.cut)} / ${esc(x.gain)}</td></tr>`).join('')}</table></div>`).join('')}
    <p class="hint" style="color:var(--muted)">27개는 Pixabay Content License 개별 페이지, 04·15·30은 Freesound CC0. 링크는 MP3 직접 주소가 아니라 듣기·다운로드 페이지입니다. 실제 재생·다운로드 성공은 별도 검증 전입니다.</p></div></details>
-  <details class="fold"><summary>📍 대본 단어 → 효과음 배치표 <small>상황별 빠른 배치</small></summary><div class="in">${HTML.sfx.replace(/^[\s\S]*?<div class="tblwrap">/, '<div class="tblwrap">').replace(/<h2>무료 효과음 소스[\s\S]*$/, '')}</div></details>
+  <details class="fold"><summary>📍 대본 단어 → 효과음 배치표 <small>상황별 빠른 배치</small></summary><div class="in" data-inline-words>${HTML.sfx.replace(/^[\s\S]*?<div class="tblwrap">/, '<div class="tblwrap">').replace(/<h2>무료 효과음 소스[\s\S]*$/, '')}</div></details>
   <details class="fold"><summary>🎚️ 17분 영상 적용 규칙 · 제외 항목 · 방송 사례</summary><div class="in">
    <ul><li>순서: 화면 전환 시작 → 효과음 선진입 → 강조 글씨 등장.</li><li>내레이션 위에서는 짧게 자르고 더 낮춤. 표의 dB는 클립 게인 시작값 → 최종은 청취 + 피크 미터로.</li>
    <li>제외: Pixabay <a href="https://pixabay.com/sound-effects/news-intro-news-background-477317/" target="_blank" rel="noopener">News Intro News Background</a> — Content ID Registered 표시 → 24번으로 교체.</li>
@@ -341,21 +377,22 @@ function toVertical(h) {
 const SAFE916 = `<div class="safe" aria-hidden="true"><div class="sz top">상단 · 검색/제목 가림</div><div class="sz right">좋아요<br>댓글<br>공유</div><div class="sz bottom">하단 · 채널명·설명·음악 가림 (글씨 금지)</div></div>`;
 function vfxPage() {
   return `<div class="page" style="max-width:1300px">
-  <h1>🎬 장면별 연출 프리셋</h1>
+  <h1>🎬 장면별 연출 프리셋</h1>${previewShortcut}
   <p class="lead">위에서 장면을 고르면 큰 미리보기가 바로 바뀝니다. 오른쪽에서 글씨·색·폰트·배경을 바꾸면 <b>즉시</b> 반영되고, 아래 접기 메뉴에 사용 장면·예시 문장·타이밍·추천 효과음이 있습니다.</p>
   <div class="vcards" role="group" aria-label="장면">${VFX.map(p => `<button type="button" class="vcard" data-vk="${p.key}" aria-pressed="${p.key === vstate.key}"><div class="mini">${vRender({...p}, true)}</div><b>${esc(p.name)}</b></button>`).join('')}</div>
-  <div class="vwork"><div class="vleft"><div class="vstage" id="vstage"></div><div class="vbtns"><span class="ratio" role="group" aria-label="화면 비율"><button type="button" class="btn ghost" data-ratio="169">16:9 롱폼</button><button type="button" class="btn ghost" data-ratio="916">9:16 쇼츠</button></span><label class="safechk"><input type="checkbox" id="vsafe"> 쇼츠 가림 영역 표시</label><button class="btn" type="button" id="vreplay">▶ 등장 다시 보기</button><button class="btn ghost" type="button" id="vcopy">설정 복사</button></div></div><div class="ctl" id="vctl"></div></div>
+  <div class="vwork"><div class="vleft"><div class="vstage" id="vstage"></div><div class="vbtns"><span class="ratio" role="group" aria-label="화면 비율"><button type="button" class="btn ghost" data-ratio="169">16:9 롱폼</button><button type="button" class="btn ghost" data-ratio="916">9:16 쇼츠</button></span><label class="safechk"><input type="checkbox" id="vsafe"> 쇼츠 가림 영역 표시</label><button class="btn" type="button" id="vreplay">▶ 장면 + 추천 소리</button><button class="btn ghost" type="button" id="vcopy">설정 복사</button></div></div><div class="ctl" id="vctl"></div></div>
   <div id="vinfo"></div></div>`;
 }
 function initVfx() {
   content.querySelectorAll('[data-vk]').forEach(b => b.onclick = () => { vstate.key = b.dataset.vk; vstate.v = null; content.querySelectorAll('[data-vk]').forEach(x => x.setAttribute('aria-pressed', String(x === b))); vSetup(); });
-  $('#vreplay').onclick = vDraw;
+  $('#vreplay').onclick = e => { const p = VFX.find(x => x.key === vstate.key); if (inlineButton !== e.currentTarget) vDraw(); triggerInlineSound(e.currentTarget,p.sfx); };
   content.querySelectorAll('[data-ratio]').forEach(b => b.onclick = () => { vstate.ratio = b.dataset.ratio; vDraw(); });
   const sf = $('#vsafe'); sf.checked = vstate.safe; sf.onchange = () => { vstate.safe = sf.checked; vDraw(); };
   $('#vcopy').onclick = e => copy(JSON.stringify({...vstate.v, ratio: vstate.ratio === '916' ? '9:16 (1080×1920)' : '16:9 (1920×1080)'}, null, 1), e.target);
   vSetup();
 }
 function vSetup() {
+  stopInlineSound();
   const p = VFX.find(x => x.key === vstate.key); vstate.v = vstate.v || {...p};
   const v = vstate.v, F = ['Black Han Sans','G마켓산스','레코체','SB어그로','카페24써라운드','쿠키런블랙','Do Hyeon','Jua','Noto Serif KR','정선아리랑뿌리','잉크립퀴드','Anton','Bangers'];
   const field = (k, lab, type, extra = '') => type === 'text' ? `<label>${lab}<input type="text" data-v="${k}" value="${esc(v[k] ?? '')}"></label>` : type === 'color' ? `<label>${lab}<input type="color" data-v="${k}" value="${v[k]}"></label>` : type === 'range' ? `<label>${lab} <output>${v[k]}</output><input type="range" data-v="${k}" value="${v[k]}" ${extra}></label>` : '';
@@ -385,6 +422,7 @@ function vSetup() {
    ${VFX.filter(x => x.key !== p.key).map(x => `<details class="fold"><summary>${esc(x.name)} <small>${esc(x.use)}</small></summary><div class="in"><p>예시: ${x.ex.map(esc).join(' / ')}</p><ol>${x.steps.map(s => `<li>${esc(s)}</li>`).join('')}</ol><p>효과음: ${x.sfx.map(n => `<a href="${sfx(n).url}" target="_blank" rel="noopener">#${n} ${esc(sfx(n).name)}</a>`).join(' · ')}</p><button class="btn ghost" type="button" data-open="${x.key}">이 장면 열기 ↑</button></div></details>`).join('')}`;
   $('#vinfo').querySelectorAll('[data-ex]').forEach(b => b.onclick = () => { const t = b.dataset.ex; const words = t.split(' '); v.main = p.key === 'vs' ? v.main : (words.length > 1 ? words.slice(0, -1).join(' ') + ' *' + words.at(-1) + '*' : '*' + t + '*'); vSetup(); });
   $('#vinfo').querySelectorAll('[data-open]').forEach(b => b.onclick = () => { content.querySelector(`[data-vk="${b.dataset.open}"]`).click(); content.scrollTo({top: 0, behavior: 'smooth'}); });
+  initInlineSound();
   vDraw();
 }
 function vDraw() {

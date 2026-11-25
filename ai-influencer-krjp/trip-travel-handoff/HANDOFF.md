@@ -27,3 +27,7 @@
 - [여행 제작 규칙](production/TRAVEL_PRODUCTION_RULES.md)
 - [전체 예약 연결 CSV](booking-links.csv)
 - [일본 패션 제휴 프로그램 공식 출처와 비교](japan-fashion-affiliates.md)
+
+## 수영장 35장 우선 적용
+
+원본 35장을 먼저 표시하고, 각 컷의 마데이라 5구간과 6초 적용 시점을 대응시켰다. 메인 가족과 사용자 사진 의상의 Pollo·Flow 프롬프트를 별도로 제공한다. 3인 시작 프레임과 새 6초 연속 영상은 확인 대기다.

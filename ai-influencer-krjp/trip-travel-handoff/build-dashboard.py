@@ -42,6 +42,18 @@ for batch in sorted({r['batch'] for r in refs},reverse=True):
  attributes = ' id="focus-references" open' if priority else ''
  if group[0]['group']=='여행 장면과 수영장':
   attributes = ' id="pool-references" open'
+  assert [r['id'] for r in group] == [f'02-{i:02d}' for i in range(1, 36)]
+  intro = (
+   '<p><a href="production/#pool-reference-motion">5구간 타이밍 · Pollo·Flow 복사</a> · '
+   '<a href="https://geben147-create.github.io/Insta/insta-viewer/travel-motion/#DObZ7o3iOU8">마데이라 영상 모션 효과 분석</a></p>'
+   '<p><a href="#ref-02-33">02-33 가려진 시작</a> · <a href="#ref-02-28">02-28 수영장 공개</a> · '
+   '<a href="#ref-02-34">02-34 수면 반사</a></p>'
+   '<p><b>메인 가족</b> 지정 여성·동행자·어린이의 뒷모습으로 구성합니다. '
+   '<a href="#ref-10-03">한·일·중 편 여성 참고</a>를 연결했습니다. 동행자·어린이 연결과 가족 시작 프레임은 확인 대기입니다.</p>'
+   '<p><b>사용자 사진 의상</b> 컷에 쓸 원본을 선택하고 해당 옷의 소재·색·핏을 영상 끝까지 유지합니다.</p>'
+  )
+  refgroups.insert(0,f'<details{attributes}><summary>{esc(label)}</summary>{intro}<div class="cards">{"".join(cards)}</div></details>')
+  continue
  refgroups.append(f'<details{attributes}><summary>{esc(label)}</summary><div class="cards">{"".join(cards)}</div></details>')
 labels={'family-cast-reference.jpg':'가족 배치 시안','east-asia-single-wave-preview.png':'한 번 흐르는 웨이브 참고','east-asia-single-wave-pool-preview.png':'수영장 의상 참고','family-splash-pool-preview.png':'가족 물놀이 연출 참고','coffee-hand-camera-preview.jpg':'손과 조식 디테일'}
 cast_assets=[f'<figure><a href="cast/{file}"><img loading="lazy" src="cast/{file}" alt="{label}"></a><figcaption>{label}</figcaption></figure>' for file,label in labels.items()]

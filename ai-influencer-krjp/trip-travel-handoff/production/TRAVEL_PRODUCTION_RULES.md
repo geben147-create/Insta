@@ -2,18 +2,6 @@
 
 이 작업의 다음 이미지, Pollo·Flow 프롬프트, 편집과 검수에 적용한다. 새 사용자 지시가 있으면 이 파일과 제작 보드에 함께 반영한다.
 
-## 다음 Pollo 생성의 카메라 기준
-
-https://geben147-create.github.io/Insta/insta-viewer/travel-motion/#DObZ7o3iOU8
-
-다음 여행·수영장 영상은 35장 중 장면에 맞는 사진 번호를 먼저 고르고, 그 사진의 전경 위치·수평선 높이·풍경이 열리는 방향을 시작/끝 이미지와 영문 프롬프트에 명시한다. 시작 이미지에는 목적지를 가릴 가까운 물체를 둔다. 첫 프레임부터 전망 전체가 보이면 시작 이미지를 다시 고른다.
-
-가까운 물체를 하향으로 잡고 옆을 전진 통과하며 틸트업한다. 전망을 비대칭 와이드로 공개하고 측면 시차를 거쳐 마지막에 감속·홀드한다. 호텔 2컷은 B에서 방향·속도를 유지한다.
-
-A→B: Start looking diagonally down along the near doorjamb and handle, with the mountain view hidden. Travel forward beside the jamb, passing its end as the camera tilts up in one continuous move. Let the near edge sweep down and out much faster than the bed moves. Reach B mid-stride, still moving forward at chest height.
-
-B→C: Start on the identical B frame at the same camera speed and heading. Glide past the curved bed rim, then reframe sideways into an asymmetric wide view through the window. Keep the mountain ridge steady as the near bed edge moves across frame. Let the woman exit right once. Decelerate into C and hold the landscape. Keep the curtain at the edge of frame.
-
 ## 1. 컷 길이와 실제 재생 속도
 
 | 소재 | 추천 속도 | 롱폼 | 쇼츠 |
@@ -79,3 +67,11 @@ B→C: Start on the identical B frame at the same camera speed and heading. Glid
 [마데이라 벤치 13.47초 모션 분석과 구간별 프레임](https://geben147-create.github.io/Insta/insta-viewer/travel-motion/#DObZ7o3iOU8)의 핵심은 컷 없이 전경 뒤의 목적지를 드러내는 카메라 이동이다. 원본은 0–2.5초 전경만, 2.5–5.5초 전진·틸트업, 5.5–8.5초 와이드 공개, 8.5–11초 시차로 재구성, 11–13.47초 안정 구도다.
 
 6초 풀 컷은 0–0.8초 데크 의자·난간·문틀 중 하나로 수면을 가린 하향 시점, 0.8–2.5초 실제 전진하면서 틸트업, 2.5–3.5초 풀과 원경을 와이드 공개, 3.5–4.8초 작은 측면 이동으로 시차, 4.8–6초 감속 후 수면과 빛만 움직이게 한다. 시작 프레임에서 구조물이 이미 다 보이면 가려진 시작 프레임을 새로 잡는다. 한 연속 샷으로 유지하며 디지털 줌, 갑작스러운 새 구조물, 난간 뒤틀림, 수평선 이동, 캐릭터 변형을 검수한다.
+
+
+### 35장 기준 작업 구분과 애니메이션 검수
+
+1. **메인 가족**은 지정 여성·지정 동행자·어린이의 원본 번호와 세 사람이 등장하는 뒷모습 시작 이미지를 기록한다. 한·일·중 편의 여성 원본은 [10-03 흰 드레스](https://geben147-create.github.io/Insta/ai-influencer-krjp/trip-travel-handoff/#ref-10-03)다. 해당 가족 컷의 동행자와 어린이 원본 매칭을 검증한 뒤 I2V를 요청한다. 남성 의상 시안이나 가족 배치 시안만으로 출연을 확정하지 않는다.
+2. **사용자 사진 의상**은 사용자가 준 옷 사진을 컷마다 골라 원본 번호를 함께 기록한다. 목선·기장·색·소재·핏을 시작 이미지에 맞춘다. 생성 내내 그 컷의 뒷모습과 옷을 유지한다. 참고 사진의 역할은 의상 및 스타일이다.
+3. **카메라 테스트**는 시설 창작 컷으로 한다. 02-33 가림, 02-28 공개, 02-34 물 반사를 시작·공개·홀드에 사용한다. Pollo·Flow 입력에 시작 프레임, 원본 번호, 5구간 타이밍, 전진 방향과 고정 렌즈 지시를 전달한다. 3초까지 수영장이 읽히게 한다.
+4. **최종 프레임 검수**는 0초의 가림, 3초 풀과 원경의 공개, 6초 감속 및 안정 구도에서 한다. 프레임 사이에서 전경 모서리의 시차, 수평선과 조명의 일관성, 옷과 인물 연속성을 확인한다. 디지털 줌, 뿌연 베일, 수면 또는 난간 변형은 재검토한다. 기존 Pollo 결과의 도입부와 사진 모션은 신규 6초 연속 샷의 검수 증거로 사용하지 않는다.

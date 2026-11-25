@@ -6,6 +6,20 @@ AUDIENCE={{AUDIENCE}}
 TOPIC={{TOPIC}}
 TARGET_DURATION={{DURATION}}
 
+## 먼저 열 자료
+
+- 전체 자료 허브: https://geben147-create.github.io/Insta/research-hub-20261108/country-prompts-20261125/
+- 변경하지 않을 사용자 STEP 4 원문: https://geben147-create.github.io/Insta/research-hub-20261108/country-prompts-20261125/originals/user-step4-verbatim.txt
+- 기존 STEP 0~4·훅 단계 원문: https://geben147-create.github.io/Insta/research-hub-20261108/country-prompts-20261125/data/original-step0-4.json
+- 참고 자막 7편: https://geben147-create.github.io/Insta/research-hub-20261108/country-prompts-20261125/data/reference-hooks-7.json
+- 기존 훅 기록 22편: https://geben147-create.github.io/Insta/research-hub-20261108/country-prompts-20261125/data/hook-examples-22.json
+- 이번 세션 기획·감정선·시간표·미완료 기록: https://geben147-create.github.io/Insta/research-hub-20261108/country-prompts-20261125/data/session-archive.json
+- 일본 자료 경로 모음: https://geben147-create.github.io/Insta/research-hub-20261108/country-prompts-20261125/data/japan-source-index.json
+
+위 자료는 보관·참고 기록이다. 실제 외국인 원음·새 국가의 사실을 검증한 결과로 간주하지 않는다. 자료를 열지 못했다면 읽었다고 하지 않고 미확인 목록에 남긴다.
+
+## 모든 단계에 적용할 규칙
+
 - 호평·자긍심·애국심·감동을 회수할 대상은 {{TARGET_COUNTRY}}이다. 대본은 {{OUTPUT_LANGUAGE}}로 쓴다. 대상 국가와 작성 언어를 혼동하지 않는다.
 - 다른 나라를 선택하면 그 나라에 대한 실제 자료를 다시 선정한다. 보관된 일본 EP·원문·인용·통계·지명·역사는 이름만 바꾸지 않는다.
 - 외국인의 실제 경험과 평가가 중심이다. {{TARGET_COUNTRY}} 사람이 자기 나라를 칭찬한 말과 국내 기관의 자평은 ‘해외 호평’ 증거로 분류하지 않는다. 국내 공식 통계는 사실 확인에 사용할 수 있다.

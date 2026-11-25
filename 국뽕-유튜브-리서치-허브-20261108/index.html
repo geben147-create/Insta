@@ -46,6 +46,8 @@ ITEMS.splice(1,0,{id:'sound-effects',g:'🟥 썸네일 · 영상편집',t:'🌸 
 ITEMS.unshift({id:'country-prompts',g:'🌍 국가별 제작 프롬프트',t:'국가 설정 → 훅 → 대본 → 제목·썸네일 문구',f:'../research-hub-20261108/country-prompts-20261125/',type:'page',lime:1,top:1});
 const japanSocial={id:'japan-social',g:'외국인이 본 일본 · SNS 추가 수집',t:'일본 반응 30개 분야 · 여행 하루 / 뷰티부터',f:'../japan-social/',type:'page',lime:1};
 ITEMS.push(japanSocial);
+const jp50={id:'jp50-scripts',g:'🇯🇵 일본 국뽕 50편 · 대본·영상기획·제작 프롬프트',t:'일본 50편 · 회차별 훅/대본/클립/복사 (하위 50개)',f:'../japan-kukppong-50-20261126/',type:'page',lime:1};
+ITEMS.push(jp50);
 const menu=document.getElementById('menu'),view=document.getElementById('view'),ttl=document.getElementById('ttl'),q=document.getElementById('q'),op=document.getElementById('op');
 let tbl=null, request=0;
 const toggle=document.getElementById('tg');
@@ -54,7 +56,7 @@ toggle.onclick=()=>setHidden(!document.body.classList.contains('hide'));
 const ids=ITEMS.map((it,i)=>it.id||`nav-${i}`);
 function hubLink(params){const url=new URL(location.href);url.search='';url.hash='';for(const [k,v] of Object.entries(params))url.searchParams.set(k,v);return url;}
 function route(params,record=true){const url=hubLink(params);if(record&&url.href!==location.href)history.pushState(null,'',url);showRoute(params);}
-let last='';const order=ITEMS.map((_,i)=>i);const tops=order.filter(i=>ITEMS[i].top);[...tops,ITEMS.length-1,...order.slice(0,-1).filter(i=>!ITEMS[i].top)].forEach(i=>{const it=ITEMS[i];if(it.hide)return;const box=it.top?document.getElementById('menutop'):menu;if(it.g!==last){last=it.g;const d=document.createElement('div');d.className='g';if(it.red)d.dataset.red=1;if(it.pink)d.dataset.pink=1;if(it.neon)d.dataset.neon=1;if(it.lime)d.dataset.lime=1;d.textContent=it.g;box.appendChild(d)}
+let last='';const order=ITEMS.map((_,i)=>i);const tops=order.filter(i=>ITEMS[i].top);[...tops,ITEMS.length-2,ITEMS.length-1,...order.slice(0,-2).filter(i=>!ITEMS[i].top)].forEach(i=>{const it=ITEMS[i];if(it.hide)return;const box=it.top?document.getElementById('menutop'):menu;if(it.g!==last){last=it.g;const d=document.createElement('div');d.className='g';if(it.red)d.dataset.red=1;if(it.pink)d.dataset.pink=1;if(it.neon)d.dataset.neon=1;if(it.lime)d.dataset.lime=1;d.textContent=it.g;box.appendChild(d)}
  const a=document.createElement('a');a.dataset.i=i;if(it.red)a.dataset.red=1;if(it.pink)a.dataset.pink=1;if(it.neon)a.dataset.neon=1;if(it.lime)a.dataset.lime=1;a.href=hubLink({page:ids[i]});const tag=document.createElement('span');tag.className='tag t-'+it.type;tag.textContent=it.type==='page'?'열기':it.type.toUpperCase();a.append(tag,it.t);a.onclick=e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();route({page:ids[i]})};box.appendChild(a)});
 function showRoute(params){const match=/^(0[1-9]|[1-3][0-9]|40)$/.exec(params.outline||'');let i=ids.indexOf(params.page);if(i<0)i=ids.indexOf('studio-thumb');
  const st=ITEMS[i];if(st?.id==='country-prompts'||st?.id==='design-dashboard'||st?.id==='statistics-material'||st?.id==='sound-effects'){open(i,null,params);return;}if(st&&(st.studio||st.top)){const tab=st.studio||(st.id==='studio-video'?'video':'thumb');const sub=st.sub||(/^[\w-]+$/.test(params.sub||'')?params.sub:'');const si=ids.indexOf('studio-'+tab);open(si,'thumb-edit-studio-20261123/?tab='+tab+(sub?'&sub='+sub:'')+'&v=20261125-sfx-r3',{page:'studio-'+tab,...(sub?{sub}:{})},'🟥 썸네일 · 영상편집 › '+(st.studio?st.t:ITEMS[si].t));return;}

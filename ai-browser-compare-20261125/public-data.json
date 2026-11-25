@@ -1,0 +1,454 @@
+{
+  "built_kst": "2026-11-25T10:09+09:00",
+  "instagram": [
+    {
+      "id": "DfWzUuNAeGd",
+      "handle": "cristiano",
+      "views": 585891782,
+      "source": "https://www.instagram.com/cristiano/reels/",
+      "url": "https://www.instagram.com/reel/DfWzUuNAeGd/",
+      "observed": "2026-11-25T09:58:05+09:00",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "Da-ePNVMV_M",
+      "handle": "cristiano",
+      "views": 399931191,
+      "source": "https://www.instagram.com/cristiano/reels/",
+      "url": "https://www.instagram.com/reel/Da-ePNVMV_M/",
+      "observed": "2026-11-25T09:58:20+09:00",
+      "date": "2026-07-19"
+    },
+    {
+      "id": "DceEuVnii0u",
+      "handle": "khaby00",
+      "views": 355665114,
+      "source": "https://www.instagram.com/khaby00/reels/",
+      "url": "https://www.instagram.com/reel/DceEuVnii0u/",
+      "observed": "2026-11-25T09:58:07+09:00",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "C7mTbnJsX2u",
+      "handle": "mrbeast",
+      "views": 244561499,
+      "source": "https://www.instagram.com/mrbeast/reels/",
+      "url": "https://www.instagram.com/reel/C7mTbnJsX2u/",
+      "observed": "2026-11-25T09:58:09+09:00",
+      "date": "2024-05-31"
+    },
+    {
+      "id": "DAbrtxjSqfx",
+      "handle": "mrbeast",
+      "views": 177174070,
+      "source": "https://www.instagram.com/mrbeast/reels/",
+      "url": "https://www.instagram.com/reel/DAbrtxjSqfx/",
+      "observed": "2026-11-25T09:58:23+09:00",
+      "date": "2024-09-28"
+    },
+    {
+      "id": "DePXzh9CsL8",
+      "handle": "khaby00",
+      "views": 148278828,
+      "source": "https://www.instagram.com/khaby00/reels/",
+      "url": "https://www.instagram.com/reel/DePXzh9CsL8/",
+      "observed": "2026-11-25T09:58:21+09:00",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "De7wX2xCvUb",
+      "handle": "433",
+      "views": 92206047,
+      "source": "https://www.instagram.com/433/reels/",
+      "url": "https://www.instagram.com/reel/De7wX2xCvUb/",
+      "observed": "2026-11-25T09:58:11+09:00",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "DfW1PFox_Hz",
+      "handle": "433",
+      "views": 22136202,
+      "source": "https://www.instagram.com/433/reels/",
+      "url": "https://www.instagram.com/reel/DfW1PFox_Hz/",
+      "observed": "2026-11-25T09:58:25+09:00",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "DXYSzTsEhzM",
+      "handle": "zachking",
+      "views": 20512722,
+      "source": "https://www.instagram.com/zachking/reels/",
+      "url": "https://www.instagram.com/reel/DXYSzTsEhzM/",
+      "observed": "2026-11-25T09:58:13+09:00",
+      "date": "2026-04-21"
+    },
+    {
+      "id": "DfxCgbBS19R",
+      "handle": "zachking",
+      "views": 17694445,
+      "source": "https://www.instagram.com/zachking/reels/",
+      "url": "https://www.instagram.com/reel/DfxCgbBS19R/",
+      "observed": "2026-11-25T09:58:26+09:00",
+      "date": "2026-11-15"
+    }
+  ],
+  "youtube": [
+    {
+      "topic": "경제",
+      "id": "y7d59aqQgPw",
+      "title": "삼성노조 뭔데 이 난리? 쉽게 알려드릴께요 #묘한경제 #경제쇼츠",
+      "url": "https://www.youtube.com/watch?v=y7d59aqQgPw",
+      "views": 700033,
+      "channel": "묘(猫)한 경제",
+      "date": "2026-04-17T02:01:24-07:00",
+      "subscribers": 1700,
+      "sub_label": "1.7K subscribers",
+      "strict": true,
+      "observed": "2026-11-25T10:02:11+09:00"
+    },
+    {
+      "topic": "경제",
+      "id": "WfLq_ekIKuU",
+      "title": "속보｜월러 \"더 공격적 금리인상 필요\" 경고! ECB는 지급준비율 1%→2% 인상 검토…美·유럽 돈줄 죈다?",
+      "url": "https://www.youtube.com/watch?v=WfLq_ekIKuU",
+      "views": 111731,
+      "channel": "딜런의 매크로 투자",
+      "date": "2026-11-18T15:42:47-08:00",
+      "subscribers": 926,
+      "sub_label": "926 subscribers",
+      "strict": true,
+      "observed": "2026-11-25T10:02:31+09:00"
+    },
+    {
+      "topic": "경제",
+      "id": "uy6jlBIELx0",
+      "title": "G20 1인당 GDP 순위, 36년 동안 1등 몇 번 바뀌었을까? 한국은 몇 등 #shorts",
+      "url": "https://www.youtube.com/watch?v=uy6jlBIELx0",
+      "views": 106551,
+      "channel": "그래프한입",
+      "date": "2026-11-19T14:00:00-08:00",
+      "subscribers": 647,
+      "sub_label": "647 subscribers",
+      "strict": true,
+      "observed": "2026-11-25T10:02:31+09:00"
+    },
+    {
+      "topic": "경제",
+      "id": "0b0MCB4XCfo",
+      "title": "대한민국, 진짜 망하기 직전? #shorts #환율 #IMF #경제위기 #이재명 #국가부도 #달러 #경제전망 #가상시나리오 #쇼츠",
+      "url": "https://www.youtube.com/watch?v=0b0MCB4XCfo",
+      "views": 104051,
+      "channel": "1분정치토론",
+      "date": "2025-12-25T00:30:00-08:00",
+      "subscribers": 13500,
+      "sub_label": "13.5K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:31+09:00"
+    },
+    {
+      "topic": "경제",
+      "id": "_St4D_-MO54",
+      "title": "환율 쉽게 설명하는 영상 (기본편) #shorts",
+      "url": "https://www.youtube.com/watch?v=_St4D_-MO54",
+      "views": 135591,
+      "channel": "3분맨",
+      "date": "2022-07-03T21:58:33-07:00",
+      "subscribers": 14000,
+      "sub_label": "14K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:26+09:00"
+    },
+    {
+      "topic": "경제",
+      "id": "ddgq5YTDjRg",
+      "title": "일본이 미국 국채를 던지는 이유 ㄷㄷ 🇯🇵🇺🇸 금리 뒤에 숨은 진짜 이야기 #쇼츠",
+      "url": "https://www.youtube.com/watch?v=ddgq5YTDjRg",
+      "views": 994281,
+      "channel": "1분썰배달",
+      "date": "2026-05-20T23:12:43-07:00",
+      "subscribers": 26800,
+      "sub_label": "26.8K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:08+09:00"
+    },
+    {
+      "topic": "투자",
+      "id": "DARKUFLWsDY",
+      "title": "주식 처음이라면, 이 6단계만 따라해보세요! #주식초보 #주식입문",
+      "url": "https://www.youtube.com/watch?v=DARKUFLWsDY",
+      "views": 574601,
+      "channel": "슬로우빈",
+      "date": "2025-08-03T17:00:26-07:00",
+      "subscribers": 11000,
+      "sub_label": "11K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:19+09:00"
+    },
+    {
+      "topic": "투자",
+      "id": "fFURFeLTdAg",
+      "title": "주식 상위 2%만 아는 10가지 절대 생존 원칙 (돈의 원리)",
+      "url": "https://www.youtube.com/watch?v=fFURFeLTdAg",
+      "views": 308573,
+      "channel": "준의 경제노트 (jun’s Note)",
+      "date": "2026-06-10T15:30:22-07:00",
+      "subscribers": 12500,
+      "sub_label": "12.5K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:25+09:00"
+    },
+    {
+      "topic": "투자",
+      "id": "7q9NHm32wYw",
+      "title": "주식투자 무조건 성공하는 성격",
+      "url": "https://www.youtube.com/watch?v=7q9NHm32wYw",
+      "views": 2814989,
+      "channel": "위대한투자자",
+      "date": "2025-07-28T03:11:32-07:00",
+      "subscribers": 13800,
+      "sub_label": "13.8K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:05+09:00"
+    },
+    {
+      "topic": "투자",
+      "id": "mlvud03kqlg",
+      "title": "주식은 원래 쉽다니까?",
+      "url": "https://www.youtube.com/watch?v=mlvud03kqlg",
+      "views": 1564916,
+      "channel": "위대한투자자",
+      "date": "2025-07-23T20:15:26-07:00",
+      "subscribers": 13800,
+      "sub_label": "13.8K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:13+09:00"
+    },
+    {
+      "topic": "투자",
+      "id": "EyCVdx8IFyg",
+      "title": "'외국인 프로그램 매매' 원리 모르고 주식 투자하면 호갱되는 이유",
+      "url": "https://www.youtube.com/watch?v=EyCVdx8IFyg",
+      "views": 258377,
+      "channel": "경제학비서",
+      "date": "2026-04-20T01:09:43-07:00",
+      "subscribers": 20100,
+      "sub_label": "20.1K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:26+09:00"
+    },
+    {
+      "topic": "투자",
+      "id": "KsR-kbGCr7o",
+      "title": "단타 고수들이 절대 말 안 하는 1억 만드는 방법!",
+      "url": "https://www.youtube.com/watch?v=KsR-kbGCr7o",
+      "views": 882957,
+      "channel": "돈톡스",
+      "date": "2026-03-12T20:00:19-07:00",
+      "subscribers": 20600,
+      "sub_label": "20.6K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:16+09:00"
+    },
+    {
+      "topic": "코인",
+      "id": "BiATJpeHrbA",
+      "title": "현재 비트코인 처음하는 사람들 상황 #shorts",
+      "url": "https://www.youtube.com/watch?v=BiATJpeHrbA",
+      "views": 5128807,
+      "channel": "가카오TV",
+      "date": "2021-03-20T04:53:10-07:00",
+      "subscribers": 7440,
+      "sub_label": "7.44K subscribers",
+      "strict": true,
+      "observed": "2026-11-25T10:01:59+09:00"
+    },
+    {
+      "topic": "코인",
+      "id": "fvZjsO8xnsY",
+      "title": "단번에 이해되는 비트코인의 원리",
+      "url": "https://www.youtube.com/watch?v=fvZjsO8xnsY",
+      "views": 1712158,
+      "channel": "메모광",
+      "date": "2024-11-25T00:57:31-08:00",
+      "subscribers": 16900,
+      "sub_label": "16.9K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:08+09:00"
+    },
+    {
+      "topic": "코인",
+      "id": "hMXGxpSXSgg",
+      "title": "비트코인 투자 요약ㅋㅋㅋ",
+      "url": "https://www.youtube.com/watch?v=hMXGxpSXSgg",
+      "views": 740516,
+      "channel": "입덕레이더",
+      "date": "2026-02-05T01:01:04-08:00",
+      "subscribers": 21200,
+      "sub_label": "21.2K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:15+09:00"
+    },
+    {
+      "topic": "코인",
+      "id": "zs1dChXwBNQ",
+      "title": "김동현이 말하는 개미들의 코인 망하는 이유",
+      "url": "https://www.youtube.com/watch?v=zs1dChXwBNQ",
+      "views": 280380,
+      "channel": "하루한쪼가리",
+      "date": "2025-01-11T14:00:39-08:00",
+      "subscribers": 24900,
+      "sub_label": "24.9K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:16+09:00"
+    },
+    {
+      "topic": "코인",
+      "id": "6evwASRVysw",
+      "title": "코인판 3대 레전드 사건 #코인 #비트코인 #shorts #차트 #주식",
+      "url": "https://www.youtube.com/watch?v=6evwASRVysw",
+      "views": 1718402,
+      "channel": "코뭉",
+      "date": "2024-09-20T03:52:28-07:00",
+      "subscribers": 38200,
+      "sub_label": "38.2K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:08+09:00"
+    },
+    {
+      "topic": "코인",
+      "id": "ym-kvMN8JVA",
+      "title": "비트코인 저는 사지 않고 채굴했어요[18세 채굴장 운영하는 미국고등학생]",
+      "url": "https://www.youtube.com/watch?v=ym-kvMN8JVA",
+      "views": 144432,
+      "channel": "떡상메들리",
+      "date": "2023-05-12T09:00:43-07:00",
+      "subscribers": 29700,
+      "sub_label": "29.7K subscribers",
+      "strict": false,
+      "observed": "2026-11-25T10:02:18+09:00"
+    },
+    {
+      "topic": "ETF",
+      "id": "F8IWTTw1Mo8",
+      "title": "한국투자자들이 가장많이 매수한 미국 ETF TOP10",
+      "url": "https://www.youtube.com/watch?v=F8IWTTw1Mo8",
+      "views": 2065705,
+      "channel": "지식쏙쏙",
+      "date": "2025-10-16T06:30:12-07:00",
+      "subscribers": 5880,
+      "sub_label": "5.88K subscribers",
+      "strict": true,
+      "observed": "2026-11-25T10:02:04+09:00"
+    },
+    {
+      "topic": "ETF",
+      "id": "t8eHVaefP_E",
+      "title": "만 29살 배당주 몰빵 배당금 대공개 #jepq #schd #배당주 #qqq #미국주식 #환율 #voo #tqqq #soxl",
+      "url": "https://www.youtube.com/watch?v=t8eHVaefP_E",
+      "views": 1820022,
+      "channel": "배마",
+      "date": "2025-05-29T08:27:23-07:00",
+      "subscribers": 4280,
+      "sub_label": "4.28K subscribers",
+      "strict": true,
+      "observed": "2026-11-25T10:02:05+09:00"
+    },
+    {
+      "topic": "ETF",
+      "id": "1e3usSuKRig",
+      "title": "국내 상장 ETF, 이 10개만 알아도 기초 완성",
+      "url": "https://www.youtube.com/watch?v=1e3usSuKRig",
+      "views": 1026225,
+      "channel": "지식쏙쏙",
+      "date": "2025-11-04T05:15:00-08:00",
+      "subscribers": 5880,
+      "sub_label": "5.88K subscribers",
+      "strict": true,
+      "observed": "2026-11-25T10:02:12+09:00"
+    },
+    {
+      "topic": "ETF",
+      "id": "jVKssNwLJT4",
+      "title": "월세처럼 들어오는 ETF 12월 커버드콜 ETF TOP5 완전정리 #월배당ETF #커버드콜ETF #고배당ETF #수익률높은ETF #현금흐름투자 #시니어투자 #은퇴준비 #생활비ET",
+      "url": "https://www.youtube.com/watch?v=jVKssNwLJT4",
+      "views": 588460,
+      "channel": "아름다운인생",
+      "date": "2025-12-10T14:15:03-08:00",
+      "subscribers": 9540,
+      "sub_label": "9.54K subscribers",
+      "strict": true,
+      "observed": "2026-11-25T10:02:17+09:00"
+    },
+    {
+      "topic": "ETF",
+      "id": "gbFE2aXLvgg",
+      "title": "단 1분 만에 배우는 ETF장단점 투자비법!",
+      "url": "https://www.youtube.com/watch?v=gbFE2aXLvgg",
+      "views": 555000,
+      "channel": "돈맛탱",
+      "date": "2024-08-29T20:28:05-07:00",
+      "subscribers": 524,
+      "sub_label": "524 subscribers",
+      "strict": true,
+      "observed": "2026-11-25T10:02:18+09:00"
+    },
+    {
+      "topic": "ETF",
+      "id": "7DkBCaaBhw0",
+      "title": "미국 나스닥 100 ETF, QQQ 1년간 매일 적립식 투자, 수익률은? #나스닥 #미국주식 #나스닥100 #qqq #적립식투자 #돈버는법 #1억모으기",
+      "url": "https://www.youtube.com/watch?v=7DkBCaaBhw0",
+      "views": 513088,
+      "channel": "마케터 밍데이",
+      "date": "2024-07-05T04:11:28-07:00",
+      "subscribers": 3710,
+      "sub_label": "3.71K subscribers",
+      "strict": true,
+      "observed": "2026-11-25T10:02:19+09:00"
+    }
+  ],
+  "youtube_unique_resolved": 204,
+  "youtube_429": 282,
+  "historical_caption_sample": {
+    "video_id": "ooFdxhhyEIY",
+    "segment_count": 134,
+    "duration": "8:02"
+  },
+  "caption_retries": [
+    {
+      "id": "ooFdxhhyEIY",
+      "seconds": 1.2,
+      "exit": 1,
+      "error": "{\"error\": \"\\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=ooFdxhhyEIY! This is most likely caused by:\\n\\nYouTube is blocking requests from your IP. This usually is due to one of"
+    },
+    {
+      "id": "y7d59aqQgPw",
+      "seconds": 1.28,
+      "exit": 1,
+      "error": "{\"error\": \"\\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=y7d59aqQgPw! This is most likely caused by:\\n\\nYouTube is blocking requests from your IP. This usually is due to one of"
+    },
+    {
+      "id": "BiATJpeHrbA",
+      "seconds": 1.16,
+      "exit": 1,
+      "error": "{\"error\": \"\\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=BiATJpeHrbA! This is most likely caused by:\\n\\nYouTube is blocking requests from your IP. This usually is due to one of"
+    },
+    {
+      "id": "F8IWTTw1Mo8",
+      "seconds": 1.34,
+      "exit": 1,
+      "error": "{\"error\": \"\\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=F8IWTTw1Mo8! This is most likely caused by:\\n\\nYouTube is blocking requests from your IP. This usually is due to one of"
+    },
+    {
+      "id": "1e3usSuKRig",
+      "seconds": 1.36,
+      "exit": 1,
+      "error": "{\"error\": \"\\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=1e3usSuKRig! This is most likely caused by:\\n\\nYouTube is blocking requests from your IP. This usually is due to one of"
+    },
+    {
+      "id": "7DkBCaaBhw0",
+      "seconds": 1.31,
+      "exit": 1,
+      "error": "{\"error\": \"\\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=7DkBCaaBhw0! This is most likely caused by:\\n\\nYouTube is blocking requests from your IP. This usually is due to one of"
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>[무료 샘플] 차트 복기 워크북 — 조용해지는 차트 읽기</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f6f1e7;color:#232323;font-family:Pretendard,'Noto Sans KR',system-ui,sans-serif;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:18px 16px 60px}
+.tag{display:inline-block;background:#c0392b;color:#fff;font-size:12px;font-weight:700;padding:3px 8px;border-radius:4px}
+h1{font-size:24px;line-height:1.35;margin:10px 0 6px}h2{font-size:19px;margin:30px 0 8px;border-left:5px solid #0e8a7e;padding-left:10px}
+.card{background:#fffdf8;border:1px solid #e4dccb;border-radius:12px;padding:14px;margin:12px 0}
+.chart svg{width:100%;height:auto;display:block;border-radius:8px}
+.warn{background:#fff3f0;border:1px solid #f0c4bb;border-radius:10px;padding:10px 12px;font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{border:1px solid #e4dccb;padding:8px;vertical-align:top;text-align:left}
+th{background:#f3ecdf;width:38%}input,textarea,select{width:100%;font:inherit;font-size:16px;padding:6px;border:1px solid #cfc5b1;border-radius:6px;background:#fff}
+textarea{min-height:56px}button{font:inherit;font-weight:700;font-size:16px;border:0;border-radius:10px;padding:13px 16px;width:100%;cursor:pointer}
+.primary{background:#0e8a7e;color:#fff}.ghost{background:#e9e1d1;color:#333;margin-top:8px}
+details{margin-top:10px}summary{font-weight:700;cursor:pointer;padding:6px 0}
+.small{font-size:13px;color:#666}.hide{display:none}ol li,ul li{margin:4px 0}
+.price{font-size:30px;font-weight:800;color:#0e8a7e}
+@media print{button,.noprint{display:none}body{background:#fff}}
+</style></head><body><div class="wrap">
+<span class="tag">무료 샘플 · 가상 차트 1개 + 복기표 1장</span>
+<h1>급등 전에 차트가 조용해질 때,<br>나는 어디에 선을 긋는가</h1>
+<p>변동성 수축(조정 폭이 점점 줄어드는 모양)을 <b>결과를 가린 채</b> 읽고, 계획을 숫자로 적은 뒤 결과를 확인하는 연습입니다. 10~15분이면 끝납니다.</p>
+<div class="warn"><b>읽기 전에</b><br>
+이 자료는 <b>차트 읽기와 복기 습관을 연습하는 교육용 자료</b>입니다. 차트는 <b>실존 종목이 아닌 가상 예시</b>이며, 특정 종목·매수·매도를 권하지 않습니다.
+투자 수익을 보장하지 않고, 실제 투자 판단과 손실 책임은 본인에게 있습니다. 금액 계산은 이해를 돕기 위한 가정입니다.</div>
+
+<h2>1. 차트를 본다 (오른쪽은 가려져 있음)</h2>
+<div class="card chart" id="hiddenChart"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="가상 종목 차트" font-family="Pretendard, Noto Sans KR, sans-serif">
+<rect width="480" height="420" fill="#fffdf8"/>
+<text x="34" y="20" font-size="17" font-weight="700" fill="#2b2b2b">가상 종목 V · 일봉</text>
+<text x="34" y="40" font-size="14" fill="#c0392b" font-weight="700">※ 실존 종목 아님 · 교육용 가상 예시</text>
+<line x1="34" x2="472" y1="308.0" y2="308.0" stroke="#eee"/><text x="28" y="312.0" font-size="12" text-anchor="end" fill="#999">48</text>
+<line x1="34" x2="472" y1="243.0" y2="243.0" stroke="#eee"/><text x="28" y="247.0" font-size="12" text-anchor="end" fill="#999">54</text>
+<line x1="34" x2="472" y1="178.0" y2="178.0" stroke="#eee"/><text x="28" y="182.0" font-size="12" text-anchor="end" fill="#999">61</text>
+<line x1="34" x2="472" y1="113.0" y2="113.0" stroke="#eee"/><text x="28" y="117.0" font-size="12" text-anchor="end" fill="#999">67</text>
+<line x1="34" x2="472" y1="48.0" y2="48.0" stroke="#eee"/><text x="28" y="52.0" font-size="12" text-anchor="end" fill="#999">74</text>
+<line x1="321.8" x2="472" y1="95.4" y2="95.4" stroke="#0e8a7e" stroke-dasharray="5 4"/>
+<line x1="37.1" x2="37.1" y1="281.3" y2="298.0" stroke="#d63b3b"/>
+<rect x="34.9" y="286.2" width="4.4" height="4.0" fill="#d63b3b"/>
+<rect x="34.9" y="358.2" width="4.4" height="21.8" fill="#d63b3b" opacity="0.45"/>
+<line x1="43.4" x2="43.4" y1="267.3" y2="292.0" stroke="#d63b3b"/>
+<rect x="41.2" y="275.0" width="4.4" height="11.2" fill="#d63b3b"/>
+<rect x="41.2" y="351.3" width="4.4" height="28.7" fill="#d63b3b" opacity="0.45"/>
+<line x1="49.6" x2="49.6" y1="267.7" y2="282.3" stroke="#d63b3b"/>
+<rect x="47.5" y="273.4" width="4.4" height="1.6" fill="#d63b3b"/>
+<rect x="47.5" y="349.0" width="4.4" height="31.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="55.9" x2="55.9" y1="251.3" y2="280.4" stroke="#d63b3b"/>
+<rect x="53.7" y="258.9" width="4.4" height="14.5" fill="#d63b3b"/>
+<rect x="53.7" y="352.8" width="4.4" height="27.2" fill="#d63b3b" opacity="0.45"/>
+<line x1="62.2" x2="62.2" y1="245.5" y2="265.3" stroke="#d63b3b"/>
+<rect x="60.0" y="251.9" width="4.4" height="6.9" fill="#d63b3b"/>
+<rect x="60.0" y="352.1" width="4.4" height="27.9" fill="#d63b3b" opacity="0.45"/>
+<line x1="68.4" x2="68.4" y1="240.6" y2="259.8" stroke="#d63b3b"/>
+<rect x="66.2" y="247.9" width="4.4" height="4.0" fill="#d63b3b"/>
+<rect x="66.2" y="346.7" width="4.4" height="33.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="74.7" x2="74.7" y1="229.1" y2="253.2" stroke="#d63b3b"/>
+<rect x="72.5" y="236.1" width="4.4" height="11.8" fill="#d63b3b"/>
+<rect x="72.5" y="347.7" width="4.4" height="32.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="80.9" x2="80.9" y1="217.5" y2="243.9" stroke="#d63b3b"/>
+<rect x="78.7" y="224.3" width="4.4" height="11.8" fill="#d63b3b"/>
+<rect x="78.7" y="353.8" width="4.4" height="26.2" fill="#d63b3b" opacity="0.45"/>
+<line x1="87.2" x2="87.2" y1="203.5" y2="231.0" stroke="#d63b3b"/>
+<rect x="85.0" y="211.1" width="4.4" height="13.1" fill="#d63b3b"/>
+<rect x="85.0" y="345.9" width="4.4" height="34.1" fill="#d63b3b" opacity="0.45"/>
+<line x1="93.4" x2="93.4" y1="185.9" y2="218.1" stroke="#d63b3b"/>
+<rect x="91.3" y="192.2" width="4.4" height="19.0" fill="#d63b3b"/>
+<rect x="91.3" y="343.3" width="4.4" height="36.7" fill="#d63b3b" opacity="0.45"/>
+<line x1="99.7" x2="99.7" y1="178.2" y2="199.9" stroke="#d63b3b"/>
+<rect x="97.5" y="186.0" width="4.4" height="6.2" fill="#d63b3b"/>
+<rect x="97.5" y="348.2" width="4.4" height="31.8" fill="#d63b3b" opacity="0.45"/>
+<line x1="106.0" x2="106.0" y1="163.0" y2="191.7" stroke="#d63b3b"/>
+<rect x="103.8" y="168.6" width="4.4" height="17.3" fill="#d63b3b"/>
+<rect x="103.8" y="346.9" width="4.4" height="33.1" fill="#d63b3b" opacity="0.45"/>
+<line x1="112.2" x2="112.2" y1="147.9" y2="176.6" stroke="#d63b3b"/>
+<rect x="110.0" y="155.9" width="4.4" height="12.7" fill="#d63b3b"/>
+<rect x="110.0" y="340.8" width="4.4" height="39.2" fill="#d63b3b" opacity="0.45"/>
+<line x1="118.5" x2="118.5" y1="139.3" y2="162.2" stroke="#d63b3b"/>
+<rect x="116.3" y="144.9" width="4.4" height="11.0" fill="#d63b3b"/>
+<rect x="116.3" y="342.3" width="4.4" height="37.7" fill="#d63b3b" opacity="0.45"/>
+<line x1="124.7" x2="124.7" y1="114.9" y2="152.5" stroke="#d63b3b"/>
+<rect x="122.5" y="122.9" width="4.4" height="22.0" fill="#d63b3b"/>
+<rect x="122.5" y="349.5" width="4.4" height="30.5" fill="#d63b3b" opacity="0.45"/>
+<line x1="131.0" x2="131.0" y1="104.3" y2="130.5" stroke="#d63b3b"/>
+<rect x="128.8" y="110.6" width="4.4" height="12.3" fill="#d63b3b"/>
+<rect x="128.8" y="340.3" width="4.4" height="39.7" fill="#d63b3b" opacity="0.45"/>
+<line x1="137.2" x2="137.2" y1="91.1" y2="116.9" stroke="#d63b3b"/>
+<rect x="135.1" y="98.9" width="4.4" height="11.6" fill="#d63b3b"/>
+<rect x="135.1" y="337.7" width="4.4" height="42.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="143.5" x2="143.5" y1="69.7" y2="107.2" stroke="#d63b3b"/>
+<rect x="141.3" y="76.7" width="4.4" height="22.3" fill="#d63b3b"/>
+<rect x="141.3" y="343.3" width="4.4" height="36.7" fill="#d63b3b" opacity="0.45"/>
+<line x1="149.8" x2="149.8" y1="58.2" y2="82.4" stroke="#d63b3b"/>
+<rect x="147.6" y="65.6" width="4.4" height="11.0" fill="#d63b3b"/>
+<rect x="147.6" y="341.8" width="4.4" height="38.2" fill="#d63b3b" opacity="0.45"/>
+<line x1="156.0" x2="156.0" y1="58.0" y2="98.8" stroke="#2f6fd6"/>
+<rect x="153.8" y="65.6" width="4.4" height="25.2" fill="#2f6fd6"/>
+<rect x="153.8" y="336.9" width="4.4" height="43.1" fill="#2f6fd6" opacity="0.45"/>
+<line x1="162.3" x2="162.3" y1="84.0" y2="117.3" stroke="#2f6fd6"/>
+<rect x="160.1" y="90.8" width="4.4" height="19.3" fill="#2f6fd6"/>
+<rect x="160.1" y="340.5" width="4.4" height="39.5" fill="#2f6fd6" opacity="0.45"/>
+<line x1="168.5" x2="168.5" y1="101.9" y2="148.7" stroke="#2f6fd6"/>
+<rect x="166.3" y="110.1" width="4.4" height="31.6" fill="#2f6fd6"/>
+<rect x="166.3" y="349.0" width="4.4" height="31.0" fill="#2f6fd6" opacity="0.45"/>
+<line x1="174.8" x2="174.8" y1="135.4" y2="168.7" stroke="#2f6fd6"/>
+<rect x="172.6" y="141.7" width="4.4" height="18.9" fill="#2f6fd6"/>
+<rect x="172.6" y="341.5" width="4.4" height="38.5" fill="#2f6fd6" opacity="0.45"/>
+<line x1="181.0" x2="181.0" y1="152.2" y2="189.5" stroke="#2f6fd6"/>
+<rect x="178.9" y="160.5" width="4.4" height="23.5" fill="#2f6fd6"/>
+<rect x="178.9" y="341.0" width="4.4" height="39.0" fill="#2f6fd6" opacity="0.45"/>
+<line x1="187.3" x2="187.3" y1="178.4" y2="218.4" stroke="#2f6fd6"/>
+<rect x="185.1" y="184.0" width="4.4" height="26.1" fill="#2f6fd6"/>
+<rect x="185.1" y="347.9" width="4.4" height="32.1" fill="#2f6fd6" opacity="0.45"/>
+<line x1="193.6" x2="193.6" y1="180.9" y2="216.7" stroke="#d63b3b"/>
+<rect x="191.4" y="189.0" width="4.4" height="21.1" fill="#d63b3b"/>
+<rect x="191.4" y="347.9" width="4.4" height="32.1" fill="#d63b3b" opacity="0.45"/>
+<line x1="199.8" x2="199.8" y1="169.3" y2="196.0" stroke="#d63b3b"/>
+<rect x="197.6" y="174.9" width="4.4" height="14.0" fill="#d63b3b"/>
+<rect x="197.6" y="344.4" width="4.4" height="35.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="206.1" x2="206.1" y1="151.9" y2="182.1" stroke="#d63b3b"/>
+<rect x="203.9" y="159.3" width="4.4" height="15.6" fill="#d63b3b"/>
+<rect x="203.9" y="347.7" width="4.4" height="32.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="212.3" x2="212.3" y1="129.5" y2="164.6" stroke="#d63b3b"/>
+<rect x="210.1" y="135.3" width="4.4" height="24.0" fill="#d63b3b"/>
+<rect x="210.1" y="354.9" width="4.4" height="25.1" fill="#d63b3b" opacity="0.45"/>
+<line x1="218.6" x2="218.6" y1="117.1" y2="142.3" stroke="#d63b3b"/>
+<rect x="216.4" y="123.5" width="4.4" height="11.8" fill="#d63b3b"/>
+<rect x="216.4" y="349.5" width="4.4" height="30.5" fill="#d63b3b" opacity="0.45"/>
+<line x1="224.8" x2="224.8" y1="98.0" y2="128.4" stroke="#d63b3b"/>
+<rect x="222.7" y="103.9" width="4.4" height="19.7" fill="#d63b3b"/>
+<rect x="222.7" y="349.5" width="4.4" height="30.5" fill="#d63b3b" opacity="0.45"/>
+<line x1="231.1" x2="231.1" y1="80.2" y2="109.9" stroke="#d63b3b"/>
+<rect x="228.9" y="85.7" width="4.4" height="18.1" fill="#d63b3b"/>
+<rect x="228.9" y="355.4" width="4.4" height="24.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="237.4" x2="237.4" y1="79.9" y2="111.8" stroke="#2f6fd6"/>
+<rect x="235.2" y="85.7" width="4.4" height="20.6" fill="#2f6fd6"/>
+<rect x="235.2" y="354.9" width="4.4" height="25.1" fill="#2f6fd6" opacity="0.45"/>
+<line x1="243.6" x2="243.6" y1="101.4" y2="124.2" stroke="#2f6fd6"/>
+<rect x="241.4" y="106.3" width="4.4" height="13.1" fill="#2f6fd6"/>
+<rect x="241.4" y="352.1" width="4.4" height="27.9" fill="#2f6fd6" opacity="0.45"/>
+<line x1="249.9" x2="249.9" y1="113.7" y2="143.2" stroke="#2f6fd6"/>
+<rect x="247.7" y="119.4" width="4.4" height="17.9" fill="#2f6fd6"/>
+<rect x="247.7" y="354.6" width="4.4" height="25.4" fill="#2f6fd6" opacity="0.45"/>
+<line x1="256.1" x2="256.1" y1="133.4" y2="159.6" stroke="#2f6fd6"/>
+<rect x="253.9" y="137.3" width="4.4" height="18.5" fill="#2f6fd6"/>
+<rect x="253.9" y="359.7" width="4.4" height="20.3" fill="#2f6fd6" opacity="0.45"/>
+<line x1="262.4" x2="262.4" y1="138.7" y2="161.2" stroke="#d63b3b"/>
+<rect x="260.2" y="144.2" width="4.4" height="11.7" fill="#d63b3b"/>
+<rect x="260.2" y="355.4" width="4.4" height="24.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="268.6" x2="268.6" y1="134.5" y2="148.6" stroke="#d63b3b"/>
+<rect x="266.5" y="137.9" width="4.4" height="6.2" fill="#d63b3b"/>
+<rect x="266.5" y="355.4" width="4.4" height="24.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="274.9" x2="274.9" y1="124.3" y2="142.4" stroke="#d63b3b"/>
+<rect x="272.7" y="129.3" width="4.4" height="8.6" fill="#d63b3b"/>
+<rect x="272.7" y="360.0" width="4.4" height="20.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="281.2" x2="281.2" y1="112.7" y2="133.9" stroke="#d63b3b"/>
+<rect x="279.0" y="116.3" width="4.4" height="13.0" fill="#d63b3b"/>
+<rect x="279.0" y="359.7" width="4.4" height="20.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="287.4" x2="287.4" y1="106.8" y2="119.5" stroke="#d63b3b"/>
+<rect x="285.2" y="111.1" width="4.4" height="5.2" fill="#d63b3b"/>
+<rect x="285.2" y="357.7" width="4.4" height="22.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="293.7" x2="293.7" y1="96.2" y2="115.5" stroke="#d63b3b"/>
+<rect x="291.5" y="99.9" width="4.4" height="11.1" fill="#d63b3b"/>
+<rect x="291.5" y="360.0" width="4.4" height="20.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="299.9" x2="299.9" y1="86.9" y2="103.1" stroke="#d63b3b"/>
+<rect x="297.7" y="90.7" width="4.4" height="9.2" fill="#d63b3b"/>
+<rect x="297.7" y="364.1" width="4.4" height="15.9" fill="#d63b3b" opacity="0.45"/>
+<line x1="306.2" x2="306.2" y1="87.1" y2="108.1" stroke="#2f6fd6"/>
+<rect x="304.0" y="90.7" width="4.4" height="13.6" fill="#2f6fd6"/>
+<rect x="304.0" y="361.0" width="4.4" height="19.0" fill="#2f6fd6" opacity="0.45"/>
+<line x1="312.4" x2="312.4" y1="101.2" y2="116.4" stroke="#2f6fd6"/>
+<rect x="310.3" y="104.4" width="4.4" height="8.6" fill="#2f6fd6"/>
+<rect x="310.3" y="361.5" width="4.4" height="18.5" fill="#2f6fd6" opacity="0.45"/>
+<line x1="318.7" x2="318.7" y1="109.6" y2="128.5" stroke="#2f6fd6"/>
+<rect x="316.5" y="113.0" width="4.4" height="12.8" fill="#2f6fd6"/>
+<rect x="316.5" y="365.4" width="4.4" height="14.6" fill="#2f6fd6" opacity="0.45"/>
+<line x1="325.0" x2="325.0" y1="120.9" y2="129.2" stroke="#d63b3b"/>
+<rect x="322.8" y="123.5" width="4.4" height="2.3" fill="#d63b3b"/>
+<rect x="322.8" y="365.1" width="4.4" height="14.9" fill="#d63b3b" opacity="0.45"/>
+<line x1="331.2" x2="331.2" y1="113.6" y2="125.8" stroke="#d63b3b"/>
+<rect x="329.0" y="116.8" width="4.4" height="6.7" fill="#d63b3b"/>
+<rect x="329.0" y="363.6" width="4.4" height="16.4" fill="#d63b3b" opacity="0.45"/>
+<line x1="337.5" x2="337.5" y1="113.2" y2="119.8" stroke="#d63b3b"/>
+<rect x="335.3" y="115.3" width="4.4" height="1.5" fill="#d63b3b"/>
+<rect x="335.3" y="365.4" width="4.4" height="14.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="343.7" x2="343.7" y1="108.5" y2="117.9" stroke="#d63b3b"/>
+<rect x="341.5" y="111.5" width="4.4" height="3.8" fill="#d63b3b"/>
+<rect x="341.5" y="368.2" width="4.4" height="11.8" fill="#d63b3b" opacity="0.45"/>
+<line x1="350.0" x2="350.0" y1="103.8" y2="113.9" stroke="#d63b3b"/>
+<rect x="347.8" y="105.9" width="4.4" height="5.6" fill="#d63b3b"/>
+<rect x="347.8" y="366.2" width="4.4" height="13.8" fill="#d63b3b" opacity="0.45"/>
+<line x1="356.2" x2="356.2" y1="101.9" y2="108.6" stroke="#d63b3b"/>
+<rect x="354.1" y="104.7" width="4.4" height="1.2" fill="#d63b3b"/>
+<rect x="354.1" y="366.4" width="4.4" height="13.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="362.5" x2="362.5" y1="97.6" y2="106.5" stroke="#d63b3b"/>
+<rect x="360.3" y="99.7" width="4.4" height="4.9" fill="#d63b3b"/>
+<rect x="360.3" y="369.0" width="4.4" height="11.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="368.8" x2="368.8" y1="97.3" y2="105.6" stroke="#2f6fd6"/>
+<rect x="366.6" y="99.7" width="4.4" height="3.3" fill="#2f6fd6"/>
+<rect x="366.6" y="368.7" width="4.4" height="11.3" fill="#2f6fd6" opacity="0.45"/>
+<line x1="375.0" x2="375.0" y1="100.9" y2="110.9" stroke="#2f6fd6"/>
+<rect x="372.8" y="103.0" width="4.4" height="5.9" fill="#2f6fd6"/>
+<rect x="372.8" y="367.7" width="4.4" height="12.3" fill="#2f6fd6" opacity="0.45"/>
+<line x1="381.3" x2="381.3" y1="107.0" y2="113.8" stroke="#2f6fd6"/>
+<rect x="379.1" y="109.0" width="4.4" height="2.8" fill="#2f6fd6"/>
+<rect x="379.1" y="369.0" width="4.4" height="11.0" fill="#2f6fd6" opacity="0.45"/>
+<line x1="387.5" x2="387.5" y1="106.1" y2="113.8" stroke="#d63b3b"/>
+<rect x="385.3" y="108.0" width="4.4" height="3.8" fill="#d63b3b"/>
+<rect x="385.3" y="371.0" width="4.4" height="9.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="393.8" x2="393.8" y1="103.3" y2="109.5" stroke="#d63b3b"/>
+<rect x="391.6" y="105.0" width="4.4" height="3.0" fill="#d63b3b"/>
+<rect x="391.6" y="369.2" width="4.4" height="10.8" fill="#d63b3b" opacity="0.45"/>
+<line x1="400.0" x2="400.0" y1="97.7" y2="106.9" stroke="#d63b3b"/>
+<rect x="397.9" y="99.5" width="4.4" height="5.4" fill="#d63b3b"/>
+<rect x="397.9" y="369.5" width="4.4" height="10.5" fill="#d63b3b" opacity="0.45"/>
+<line x1="406.3" x2="406.3" y1="95.4" y2="100.8" stroke="#d63b3b"/>
+<rect x="404.1" y="96.7" width="4.4" height="2.8" fill="#d63b3b"/>
+<rect x="404.1" y="371.5" width="4.4" height="8.5" fill="#d63b3b" opacity="0.45"/>
+<polyline points="156.0,183.9 162.3,175.0 168.5,168.4 174.8,162.8 181.0,159.0 187.3,156.9 193.6,154.0 199.8,151.0 206.1,147.7 212.3,143.9 218.6,140.4 224.8,136.3 231.1,132.2 237.4,129.7 243.6,128.4 249.9,129.2 256.1,131.4 262.4,133.7 268.6,136.7 274.9,139.9 281.2,141.3 287.4,141.3 293.7,139.1 299.9,135.7 306.2,131.7 312.4,126.8 318.7,123.7 325.0,121.1 331.2,119.0 337.5,118.0 343.7,117.4 350.0,117.5 356.2,118.5 362.5,118.1 368.8,117.3 375.0,115.9 381.3,113.7 387.5,111.9 393.8,110.3 400.0,108.8 406.3,107.8" fill="none" stroke="#e0a100" stroke-width="1.6"/>
+<rect x="409.4" y="48" width="62.6" height="332" fill="#efe9dd"/><text x="440.7" y="178.0" font-size="15" text-anchor="middle" fill="#7a6a50" font-weight="700">가림</text><text x="440.7" y="196.0" font-size="13" text-anchor="middle" fill="#7a6a50">기록 후</text>
+<text x="309.3" y="71.4" font-size="14" font-weight="700" fill="#0e8a7e" paint-order="stroke" stroke="#fffdf8" stroke-width="4">관찰선 69.03</text>
+<text x="34" y="394" font-size="12" fill="#999">거래량</text><text x="84" y="394" font-size="12" fill="#e0a100">— 20일선</text><text x="472" y="394" font-size="12" text-anchor="end" fill="#999">양봉 빨강·음봉 파랑</text>
+</svg></div>
+<div class="card small">
+<b>힌트 3개</b><ul>
+<li>고점에서 저점까지 얼마나 밀렸는지 세 번 재 보세요. 줄어들고 있나요?</li>
+<li>아래 거래량 막대: 조정 중에 커지나요, 작아지나요?</li>
+<li>초록 점선은 예시 관찰선입니다. 내 기준으로 다시 그어도 됩니다.</li></ul></div>
+
+<h2>2. 공개 전에 복기표를 채운다</h2>
+<div class="card"><table><tr><th>① 추세: 가린 시점 직전, 가격이 20일선 위에 있나? 그 전 큰 흐름은?</th><td><input data-k="trend"></td></tr>
+<tr><th>② 1차 조정 폭 (고점→저점, %)</th><td><input data-k="c1"></td></tr>
+<tr><th>③ 2차 조정 폭 (%)</th><td><input data-k="c2"></td></tr>
+<tr><th>④ 3차 조정 폭 (%)</th><td><input data-k="c3"></td></tr>
+<tr><th>⑤ 조정 동안 거래량은 늘었나, 줄었나?</th><td><input data-k="vol"></td></tr>
+<tr><th>⑥ 관찰선(피벗): 어디를 넘으면 '돌파'로 볼까? (가격)</th><td><input data-k="pivot"></td></tr>
+<tr><th>⑦ 내 계획 매수가 (가상)</th><td><input data-k="entry"></td></tr>
+<tr><th>⑧ 손절가: 어디를 깨면 계획이 틀린 걸까?</th><td><input data-k="stop"></td></tr>
+<tr><th>⑨ 손실률 = (매수가−손절가)÷매수가</th><td><input data-k="risk"></td></tr>
+<tr><th>⑩ 가상 계좌 1,000만 원, 1회 손실 한도 1%(10만 원)라면 매수 금액은?</th><td><input data-k="size"></td></tr>
+<tr><th>⑪ 시나리오: 돌파 뒤 다시 관찰선 아래로 오면 나는 무엇을 하나?</th><td><textarea data-k="plan"></textarea></td></tr></table>
+<p class="small noprint">적은 내용은 이 휴대폰(브라우저)에만 저장됩니다. 서버로 전송되지 않습니다.</p></div>
+<details class="card"><summary>막히면: 풀이 예시 보기</summary>
+<table>
+<tr><th>추세</th><td>앞 구간에서 50 → 72대까지 오른 <b>상승 추세 뒤의 조정</b>. 가린 시점 직전 가격은 20일선 근처·위.</td></tr>
+<tr><th>조정 폭</th><td>1차 72.76→56.77 <b>-21.98%</b> · 2차 70.58→62.47 <b>-11.49%</b> · 3차 69.88→65.66 <b>-6.04%</b> → 흔들림이 차례로 줄어듦(수축)</td></tr>
+<tr><th>거래량</th><td>마지막 10봉 평균이 첫 조정 구간의 약 <b>0.3배</b> → 거래량이 말라 감</td></tr>
+<tr><th>관찰선(피벗)</th><td>마지막 좁은 구간의 고점 <b>69.03</b></td></tr>
+<tr><th>계획 예시</th><td>매수 69.13 (관찰선+0.10) · 손절 65.56 (마지막 수축 저점 65.66 −0.10) · 손실률 <b>5.16%</b></td></tr>
+<tr><th>매수 금액</th><td>10만 원 ÷ 5.16% ≈ <b>1,936,415원</b> (계좌의 약 19.4%)</td></tr>
+</table>
+<p class="small">※ 정답은 하나가 아닙니다. 관찰선·손절선을 조금 다르게 잡아도, <b>숫자로 미리 적었는지</b>가 핵심입니다.</p>
+</details>
+
+<button class="primary noprint" id="revealBtn" onclick="reveal()">다 적었어요 → 가린 구간 공개</button>
+
+<div class="after hide" id="resultCard">
+<h2>3. 결과 공개</h2>
+<div class="card chart"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="가상 종목 차트" font-family="Pretendard, Noto Sans KR, sans-serif">
+<rect width="480" height="420" fill="#fffdf8"/>
+<text x="34" y="20" font-size="17" font-weight="700" fill="#2b2b2b">가상 종목 V · 일봉</text>
+<text x="34" y="40" font-size="14" fill="#c0392b" font-weight="700">※ 실존 종목 아님 · 교육용 가상 예시</text>
+<line x1="34" x2="472" y1="308.0" y2="308.0" stroke="#eee"/><text x="28" y="312.0" font-size="12" text-anchor="end" fill="#999">48</text>
+<line x1="34" x2="472" y1="243.0" y2="243.0" stroke="#eee"/><text x="28" y="247.0" font-size="12" text-anchor="end" fill="#999">54</text>
+<line x1="34" x2="472" y1="178.0" y2="178.0" stroke="#eee"/><text x="28" y="182.0" font-size="12" text-anchor="end" fill="#999">61</text>
+<line x1="34" x2="472" y1="113.0" y2="113.0" stroke="#eee"/><text x="28" y="117.0" font-size="12" text-anchor="end" fill="#999">67</text>
+<line x1="34" x2="472" y1="48.0" y2="48.0" stroke="#eee"/><text x="28" y="52.0" font-size="12" text-anchor="end" fill="#999">74</text>
+<line x1="321.8" x2="472" y1="95.4" y2="95.4" stroke="#0e8a7e" stroke-dasharray="5 4"/>
+<line x1="37.1" x2="37.1" y1="281.3" y2="298.0" stroke="#d63b3b"/>
+<rect x="34.9" y="286.2" width="4.4" height="4.0" fill="#d63b3b"/>
+<rect x="34.9" y="358.2" width="4.4" height="21.8" fill="#d63b3b" opacity="0.45"/>
+<line x1="43.4" x2="43.4" y1="267.3" y2="292.0" stroke="#d63b3b"/>
+<rect x="41.2" y="275.0" width="4.4" height="11.2" fill="#d63b3b"/>
+<rect x="41.2" y="351.3" width="4.4" height="28.7" fill="#d63b3b" opacity="0.45"/>
+<line x1="49.6" x2="49.6" y1="267.7" y2="282.3" stroke="#d63b3b"/>
+<rect x="47.5" y="273.4" width="4.4" height="1.6" fill="#d63b3b"/>
+<rect x="47.5" y="349.0" width="4.4" height="31.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="55.9" x2="55.9" y1="251.3" y2="280.4" stroke="#d63b3b"/>
+<rect x="53.7" y="258.9" width="4.4" height="14.5" fill="#d63b3b"/>
+<rect x="53.7" y="352.8" width="4.4" height="27.2" fill="#d63b3b" opacity="0.45"/>
+<line x1="62.2" x2="62.2" y1="245.5" y2="265.3" stroke="#d63b3b"/>
+<rect x="60.0" y="251.9" width="4.4" height="6.9" fill="#d63b3b"/>
+<rect x="60.0" y="352.1" width="4.4" height="27.9" fill="#d63b3b" opacity="0.45"/>
+<line x1="68.4" x2="68.4" y1="240.6" y2="259.8" stroke="#d63b3b"/>
+<rect x="66.2" y="247.9" width="4.4" height="4.0" fill="#d63b3b"/>
+<rect x="66.2" y="346.7" width="4.4" height="33.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="74.7" x2="74.7" y1="229.1" y2="253.2" stroke="#d63b3b"/>
+<rect x="72.5" y="236.1" width="4.4" height="11.8" fill="#d63b3b"/>
+<rect x="72.5" y="347.7" width="4.4" height="32.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="80.9" x2="80.9" y1="217.5" y2="243.9" stroke="#d63b3b"/>
+<rect x="78.7" y="224.3" width="4.4" height="11.8" fill="#d63b3b"/>
+<rect x="78.7" y="353.8" width="4.4" height="26.2" fill="#d63b3b" opacity="0.45"/>
+<line x1="87.2" x2="87.2" y1="203.5" y2="231.0" stroke="#d63b3b"/>
+<rect x="85.0" y="211.1" width="4.4" height="13.1" fill="#d63b3b"/>
+<rect x="85.0" y="345.9" width="4.4" height="34.1" fill="#d63b3b" opacity="0.45"/>
+<line x1="93.4" x2="93.4" y1="185.9" y2="218.1" stroke="#d63b3b"/>
+<rect x="91.3" y="192.2" width="4.4" height="19.0" fill="#d63b3b"/>
+<rect x="91.3" y="343.3" width="4.4" height="36.7" fill="#d63b3b" opacity="0.45"/>
+<line x1="99.7" x2="99.7" y1="178.2" y2="199.9" stroke="#d63b3b"/>
+<rect x="97.5" y="186.0" width="4.4" height="6.2" fill="#d63b3b"/>
+<rect x="97.5" y="348.2" width="4.4" height="31.8" fill="#d63b3b" opacity="0.45"/>
+<line x1="106.0" x2="106.0" y1="163.0" y2="191.7" stroke="#d63b3b"/>
+<rect x="103.8" y="168.6" width="4.4" height="17.3" fill="#d63b3b"/>
+<rect x="103.8" y="346.9" width="4.4" height="33.1" fill="#d63b3b" opacity="0.45"/>
+<line x1="112.2" x2="112.2" y1="147.9" y2="176.6" stroke="#d63b3b"/>
+<rect x="110.0" y="155.9" width="4.4" height="12.7" fill="#d63b3b"/>
+<rect x="110.0" y="340.8" width="4.4" height="39.2" fill="#d63b3b" opacity="0.45"/>
+<line x1="118.5" x2="118.5" y1="139.3" y2="162.2" stroke="#d63b3b"/>
+<rect x="116.3" y="144.9" width="4.4" height="11.0" fill="#d63b3b"/>
+<rect x="116.3" y="342.3" width="4.4" height="37.7" fill="#d63b3b" opacity="0.45"/>
+<line x1="124.7" x2="124.7" y1="114.9" y2="152.5" stroke="#d63b3b"/>
+<rect x="122.5" y="122.9" width="4.4" height="22.0" fill="#d63b3b"/>
+<rect x="122.5" y="349.5" width="4.4" height="30.5" fill="#d63b3b" opacity="0.45"/>
+<line x1="131.0" x2="131.0" y1="104.3" y2="130.5" stroke="#d63b3b"/>
+<rect x="128.8" y="110.6" width="4.4" height="12.3" fill="#d63b3b"/>
+<rect x="128.8" y="340.3" width="4.4" height="39.7" fill="#d63b3b" opacity="0.45"/>
+<line x1="137.2" x2="137.2" y1="91.1" y2="116.9" stroke="#d63b3b"/>
+<rect x="135.1" y="98.9" width="4.4" height="11.6" fill="#d63b3b"/>
+<rect x="135.1" y="337.7" width="4.4" height="42.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="143.5" x2="143.5" y1="69.7" y2="107.2" stroke="#d63b3b"/>
+<rect x="141.3" y="76.7" width="4.4" height="22.3" fill="#d63b3b"/>
+<rect x="141.3" y="343.3" width="4.4" height="36.7" fill="#d63b3b" opacity="0.45"/>
+<line x1="149.8" x2="149.8" y1="58.2" y2="82.4" stroke="#d63b3b"/>
+<rect x="147.6" y="65.6" width="4.4" height="11.0" fill="#d63b3b"/>
+<rect x="147.6" y="341.8" width="4.4" height="38.2" fill="#d63b3b" opacity="0.45"/>
+<line x1="156.0" x2="156.0" y1="58.0" y2="98.8" stroke="#2f6fd6"/>
+<rect x="153.8" y="65.6" width="4.4" height="25.2" fill="#2f6fd6"/>
+<rect x="153.8" y="336.9" width="4.4" height="43.1" fill="#2f6fd6" opacity="0.45"/>
+<line x1="162.3" x2="162.3" y1="84.0" y2="117.3" stroke="#2f6fd6"/>
+<rect x="160.1" y="90.8" width="4.4" height="19.3" fill="#2f6fd6"/>
+<rect x="160.1" y="340.5" width="4.4" height="39.5" fill="#2f6fd6" opacity="0.45"/>
+<line x1="168.5" x2="168.5" y1="101.9" y2="148.7" stroke="#2f6fd6"/>
+<rect x="166.3" y="110.1" width="4.4" height="31.6" fill="#2f6fd6"/>
+<rect x="166.3" y="349.0" width="4.4" height="31.0" fill="#2f6fd6" opacity="0.45"/>
+<line x1="174.8" x2="174.8" y1="135.4" y2="168.7" stroke="#2f6fd6"/>
+<rect x="172.6" y="141.7" width="4.4" height="18.9" fill="#2f6fd6"/>
+<rect x="172.6" y="341.5" width="4.4" height="38.5" fill="#2f6fd6" opacity="0.45"/>
+<line x1="181.0" x2="181.0" y1="152.2" y2="189.5" stroke="#2f6fd6"/>
+<rect x="178.9" y="160.5" width="4.4" height="23.5" fill="#2f6fd6"/>
+<rect x="178.9" y="341.0" width="4.4" height="39.0" fill="#2f6fd6" opacity="0.45"/>
+<line x1="187.3" x2="187.3" y1="178.4" y2="218.4" stroke="#2f6fd6"/>
+<rect x="185.1" y="184.0" width="4.4" height="26.1" fill="#2f6fd6"/>
+<rect x="185.1" y="347.9" width="4.4" height="32.1" fill="#2f6fd6" opacity="0.45"/>
+<line x1="193.6" x2="193.6" y1="180.9" y2="216.7" stroke="#d63b3b"/>
+<rect x="191.4" y="189.0" width="4.4" height="21.1" fill="#d63b3b"/>
+<rect x="191.4" y="347.9" width="4.4" height="32.1" fill="#d63b3b" opacity="0.45"/>
+<line x1="199.8" x2="199.8" y1="169.3" y2="196.0" stroke="#d63b3b"/>
+<rect x="197.6" y="174.9" width="4.4" height="14.0" fill="#d63b3b"/>
+<rect x="197.6" y="344.4" width="4.4" height="35.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="206.1" x2="206.1" y1="151.9" y2="182.1" stroke="#d63b3b"/>
+<rect x="203.9" y="159.3" width="4.4" height="15.6" fill="#d63b3b"/>
+<rect x="203.9" y="347.7" width="4.4" height="32.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="212.3" x2="212.3" y1="129.5" y2="164.6" stroke="#d63b3b"/>
+<rect x="210.1" y="135.3" width="4.4" height="24.0" fill="#d63b3b"/>
+<rect x="210.1" y="354.9" width="4.4" height="25.1" fill="#d63b3b" opacity="0.45"/>
+<line x1="218.6" x2="218.6" y1="117.1" y2="142.3" stroke="#d63b3b"/>
+<rect x="216.4" y="123.5" width="4.4" height="11.8" fill="#d63b3b"/>
+<rect x="216.4" y="349.5" width="4.4" height="30.5" fill="#d63b3b" opacity="0.45"/>
+<line x1="224.8" x2="224.8" y1="98.0" y2="128.4" stroke="#d63b3b"/>
+<rect x="222.7" y="103.9" width="4.4" height="19.7" fill="#d63b3b"/>
+<rect x="222.7" y="349.5" width="4.4" height="30.5" fill="#d63b3b" opacity="0.45"/>
+<line x1="231.1" x2="231.1" y1="80.2" y2="109.9" stroke="#d63b3b"/>
+<rect x="228.9" y="85.7" width="4.4" height="18.1" fill="#d63b3b"/>
+<rect x="228.9" y="355.4" width="4.4" height="24.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="237.4" x2="237.4" y1="79.9" y2="111.8" stroke="#2f6fd6"/>
+<rect x="235.2" y="85.7" width="4.4" height="20.6" fill="#2f6fd6"/>
+<rect x="235.2" y="354.9" width="4.4" height="25.1" fill="#2f6fd6" opacity="0.45"/>
+<line x1="243.6" x2="243.6" y1="101.4" y2="124.2" stroke="#2f6fd6"/>
+<rect x="241.4" y="106.3" width="4.4" height="13.1" fill="#2f6fd6"/>
+<rect x="241.4" y="352.1" width="4.4" height="27.9" fill="#2f6fd6" opacity="0.45"/>
+<line x1="249.9" x2="249.9" y1="113.7" y2="143.2" stroke="#2f6fd6"/>
+<rect x="247.7" y="119.4" width="4.4" height="17.9" fill="#2f6fd6"/>
+<rect x="247.7" y="354.6" width="4.4" height="25.4" fill="#2f6fd6" opacity="0.45"/>
+<line x1="256.1" x2="256.1" y1="133.4" y2="159.6" stroke="#2f6fd6"/>
+<rect x="253.9" y="137.3" width="4.4" height="18.5" fill="#2f6fd6"/>
+<rect x="253.9" y="359.7" width="4.4" height="20.3" fill="#2f6fd6" opacity="0.45"/>
+<line x1="262.4" x2="262.4" y1="138.7" y2="161.2" stroke="#d63b3b"/>
+<rect x="260.2" y="144.2" width="4.4" height="11.7" fill="#d63b3b"/>
+<rect x="260.2" y="355.4" width="4.4" height="24.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="268.6" x2="268.6" y1="134.5" y2="148.6" stroke="#d63b3b"/>
+<rect x="266.5" y="137.9" width="4.4" height="6.2" fill="#d63b3b"/>
+<rect x="266.5" y="355.4" width="4.4" height="24.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="274.9" x2="274.9" y1="124.3" y2="142.4" stroke="#d63b3b"/>
+<rect x="272.7" y="129.3" width="4.4" height="8.6" fill="#d63b3b"/>
+<rect x="272.7" y="360.0" width="4.4" height="20.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="281.2" x2="281.2" y1="112.7" y2="133.9" stroke="#d63b3b"/>
+<rect x="279.0" y="116.3" width="4.4" height="13.0" fill="#d63b3b"/>
+<rect x="279.0" y="359.7" width="4.4" height="20.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="287.4" x2="287.4" y1="106.8" y2="119.5" stroke="#d63b3b"/>
+<rect x="285.2" y="111.1" width="4.4" height="5.2" fill="#d63b3b"/>
+<rect x="285.2" y="357.7" width="4.4" height="22.3" fill="#d63b3b" opacity="0.45"/>
+<line x1="293.7" x2="293.7" y1="96.2" y2="115.5" stroke="#d63b3b"/>
+<rect x="291.5" y="99.9" width="4.4" height="11.1" fill="#d63b3b"/>
+<rect x="291.5" y="360.0" width="4.4" height="20.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="299.9" x2="299.9" y1="86.9" y2="103.1" stroke="#d63b3b"/>
+<rect x="297.7" y="90.7" width="4.4" height="9.2" fill="#d63b3b"/>
+<rect x="297.7" y="364.1" width="4.4" height="15.9" fill="#d63b3b" opacity="0.45"/>
+<line x1="306.2" x2="306.2" y1="87.1" y2="108.1" stroke="#2f6fd6"/>
+<rect x="304.0" y="90.7" width="4.4" height="13.6" fill="#2f6fd6"/>
+<rect x="304.0" y="361.0" width="4.4" height="19.0" fill="#2f6fd6" opacity="0.45"/>
+<line x1="312.4" x2="312.4" y1="101.2" y2="116.4" stroke="#2f6fd6"/>
+<rect x="310.3" y="104.4" width="4.4" height="8.6" fill="#2f6fd6"/>
+<rect x="310.3" y="361.5" width="4.4" height="18.5" fill="#2f6fd6" opacity="0.45"/>
+<line x1="318.7" x2="318.7" y1="109.6" y2="128.5" stroke="#2f6fd6"/>
+<rect x="316.5" y="113.0" width="4.4" height="12.8" fill="#2f6fd6"/>
+<rect x="316.5" y="365.4" width="4.4" height="14.6" fill="#2f6fd6" opacity="0.45"/>
+<line x1="325.0" x2="325.0" y1="120.9" y2="129.2" stroke="#d63b3b"/>
+<rect x="322.8" y="123.5" width="4.4" height="2.3" fill="#d63b3b"/>
+<rect x="322.8" y="365.1" width="4.4" height="14.9" fill="#d63b3b" opacity="0.45"/>
+<line x1="331.2" x2="331.2" y1="113.6" y2="125.8" stroke="#d63b3b"/>
+<rect x="329.0" y="116.8" width="4.4" height="6.7" fill="#d63b3b"/>
+<rect x="329.0" y="363.6" width="4.4" height="16.4" fill="#d63b3b" opacity="0.45"/>
+<line x1="337.5" x2="337.5" y1="113.2" y2="119.8" stroke="#d63b3b"/>
+<rect x="335.3" y="115.3" width="4.4" height="1.5" fill="#d63b3b"/>
+<rect x="335.3" y="365.4" width="4.4" height="14.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="343.7" x2="343.7" y1="108.5" y2="117.9" stroke="#d63b3b"/>
+<rect x="341.5" y="111.5" width="4.4" height="3.8" fill="#d63b3b"/>
+<rect x="341.5" y="368.2" width="4.4" height="11.8" fill="#d63b3b" opacity="0.45"/>
+<line x1="350.0" x2="350.0" y1="103.8" y2="113.9" stroke="#d63b3b"/>
+<rect x="347.8" y="105.9" width="4.4" height="5.6" fill="#d63b3b"/>
+<rect x="347.8" y="366.2" width="4.4" height="13.8" fill="#d63b3b" opacity="0.45"/>
+<line x1="356.2" x2="356.2" y1="101.9" y2="108.6" stroke="#d63b3b"/>
+<rect x="354.1" y="104.7" width="4.4" height="1.2" fill="#d63b3b"/>
+<rect x="354.1" y="366.4" width="4.4" height="13.6" fill="#d63b3b" opacity="0.45"/>
+<line x1="362.5" x2="362.5" y1="97.6" y2="106.5" stroke="#d63b3b"/>
+<rect x="360.3" y="99.7" width="4.4" height="4.9" fill="#d63b3b"/>
+<rect x="360.3" y="369.0" width="4.4" height="11.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="368.8" x2="368.8" y1="97.3" y2="105.6" stroke="#2f6fd6"/>
+<rect x="366.6" y="99.7" width="4.4" height="3.3" fill="#2f6fd6"/>
+<rect x="366.6" y="368.7" width="4.4" height="11.3" fill="#2f6fd6" opacity="0.45"/>
+<line x1="375.0" x2="375.0" y1="100.9" y2="110.9" stroke="#2f6fd6"/>
+<rect x="372.8" y="103.0" width="4.4" height="5.9" fill="#2f6fd6"/>
+<rect x="372.8" y="367.7" width="4.4" height="12.3" fill="#2f6fd6" opacity="0.45"/>
+<line x1="381.3" x2="381.3" y1="107.0" y2="113.8" stroke="#2f6fd6"/>
+<rect x="379.1" y="109.0" width="4.4" height="2.8" fill="#2f6fd6"/>
+<rect x="379.1" y="369.0" width="4.4" height="11.0" fill="#2f6fd6" opacity="0.45"/>
+<line x1="387.5" x2="387.5" y1="106.1" y2="113.8" stroke="#d63b3b"/>
+<rect x="385.3" y="108.0" width="4.4" height="3.8" fill="#d63b3b"/>
+<rect x="385.3" y="371.0" width="4.4" height="9.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="393.8" x2="393.8" y1="103.3" y2="109.5" stroke="#d63b3b"/>
+<rect x="391.6" y="105.0" width="4.4" height="3.0" fill="#d63b3b"/>
+<rect x="391.6" y="369.2" width="4.4" height="10.8" fill="#d63b3b" opacity="0.45"/>
+<line x1="400.0" x2="400.0" y1="97.7" y2="106.9" stroke="#d63b3b"/>
+<rect x="397.9" y="99.5" width="4.4" height="5.4" fill="#d63b3b"/>
+<rect x="397.9" y="369.5" width="4.4" height="10.5" fill="#d63b3b" opacity="0.45"/>
+<line x1="406.3" x2="406.3" y1="95.4" y2="100.8" stroke="#d63b3b"/>
+<rect x="404.1" y="96.7" width="4.4" height="2.8" fill="#d63b3b"/>
+<rect x="404.1" y="371.5" width="4.4" height="8.5" fill="#d63b3b" opacity="0.45"/>
+<line x1="412.6" x2="412.6" y1="70.4" y2="102.7" stroke="#d63b3b"/>
+<rect x="410.4" y="76.7" width="4.4" height="20.1" fill="#d63b3b"/>
+<rect x="410.4" y="320.0" width="4.4" height="60.0" fill="#d63b3b" opacity="0.45"/>
+<line x1="418.8" x2="418.8" y1="67.6" y2="82.4" stroke="#d63b3b"/>
+<rect x="416.6" y="71.7" width="4.4" height="5.0" fill="#d63b3b"/>
+<rect x="416.6" y="332.8" width="4.4" height="47.2" fill="#d63b3b" opacity="0.45"/>
+<line x1="425.1" x2="425.1" y1="65.3" y2="94.8" stroke="#2f6fd6"/>
+<rect x="422.9" y="71.7" width="4.4" height="18.0" fill="#2f6fd6"/>
+<rect x="422.9" y="339.5" width="4.4" height="40.5" fill="#2f6fd6" opacity="0.45"/>
+<line x1="431.3" x2="431.3" y1="85.0" y2="108.0" stroke="#2f6fd6"/>
+<rect x="429.1" y="89.7" width="4.4" height="12.0" fill="#2f6fd6"/>
+<rect x="429.1" y="347.9" width="4.4" height="32.1" fill="#2f6fd6" opacity="0.45"/>
+<line x1="437.6" x2="437.6" y1="95.6" y2="111.6" stroke="#2f6fd6"/>
+<rect x="435.4" y="101.7" width="4.4" height="5.6" fill="#2f6fd6"/>
+<rect x="435.4" y="343.1" width="4.4" height="36.9" fill="#2f6fd6" opacity="0.45"/>
+<line x1="443.8" x2="443.8" y1="102.1" y2="122.0" stroke="#2f6fd6"/>
+<rect x="441.7" y="107.4" width="4.4" height="8.4" fill="#2f6fd6"/>
+<rect x="441.7" y="345.4" width="4.4" height="34.6" fill="#2f6fd6" opacity="0.45"/>
+<line x1="450.1" x2="450.1" y1="110.0" y2="127.5" stroke="#2f6fd6"/>
+<rect x="447.9" y="115.8" width="4.4" height="6.3" fill="#2f6fd6"/>
+<rect x="447.9" y="345.1" width="4.4" height="34.9" fill="#2f6fd6" opacity="0.45"/>
+<line x1="456.4" x2="456.4" y1="116.5" y2="139.3" stroke="#2f6fd6"/>
+<rect x="454.2" y="122.1" width="4.4" height="11.7" fill="#2f6fd6"/>
+<rect x="454.2" y="335.4" width="4.4" height="44.6" fill="#2f6fd6" opacity="0.45"/>
+<line x1="462.6" x2="462.6" y1="128.4" y2="149.0" stroke="#2f6fd6"/>
+<rect x="460.4" y="133.8" width="4.4" height="9.0" fill="#2f6fd6"/>
+<rect x="460.4" y="332.8" width="4.4" height="47.2" fill="#2f6fd6" opacity="0.45"/>
+<line x1="468.9" x2="468.9" y1="136.8" y2="152.3" stroke="#2f6fd6"/>
+<rect x="466.7" y="142.9" width="4.4" height="5.0" fill="#2f6fd6"/>
+<rect x="466.7" y="339.5" width="4.4" height="40.5" fill="#2f6fd6" opacity="0.45"/>
+<polyline points="156.0,183.9 162.3,175.0 168.5,168.4 174.8,162.8 181.0,159.0 187.3,156.9 193.6,154.0 199.8,151.0 206.1,147.7 212.3,143.9 218.6,140.4 224.8,136.3 231.1,132.2 237.4,129.7 243.6,128.4 249.9,129.2 256.1,131.4 262.4,133.7 268.6,136.7 274.9,139.9 281.2,141.3 287.4,141.3 293.7,139.1 299.9,135.7 306.2,131.7 312.4,126.8 318.7,123.7 325.0,121.1 331.2,119.0 337.5,118.0 343.7,117.4 350.0,117.5 356.2,118.5 362.5,118.1 368.8,117.3 375.0,115.9 381.3,113.7 387.5,111.9 393.8,110.3 400.0,108.8 406.3,107.8 412.6,106.1 418.8,104.7 425.1,104.6 431.3,104.5 437.6,104.2 443.8,103.6 450.1,103.5 456.4,104.5 462.6,105.9 468.9,107.7" fill="none" stroke="#e0a100" stroke-width="1.6"/>
+<line x1="34" x2="472" y1="130.2" y2="130.2" stroke="#c0392b" stroke-dasharray="3 3"/><text x="224" y="148.2" font-size="14" font-weight="700" fill="#c0392b" paint-order="stroke" stroke="#fffdf8" stroke-width="4">손절선 65.56</text>
+<text x="309.3" y="71.4" font-size="14" font-weight="700" fill="#0e8a7e" paint-order="stroke" stroke="#fffdf8" stroke-width="4">관찰선 69.03</text>
+<text x="34" y="394" font-size="12" fill="#999">거래량</text><text x="84" y="394" font-size="12" fill="#e0a100">— 20일선</text><text x="472" y="394" font-size="12" text-anchor="end" fill="#999">양봉 빨강·음봉 파랑</text>
+</svg></div>
+<div class="card">
+<p><b>결과: 가짜 돌파(실패 사례)</b> — 가린 구간 1번째 봉에서 관찰선 69.03을 거래량과 함께 넘었고 최고 72.03까지 갔지만,
+사흘 만에 다시 관찰선 아래로 밀렸습니다. 가린 구간 8번째 봉에서 손절선 65.56을 깼습니다.</p>
+<p>계획대로 손절했다면 손실은 약 <b>100,000원</b>, 가상 계좌의 <b>1.0%</b>입니다.
+모양이 교과서 같아도 실패할 수 있고, 그래서 <b>들어가기 전에 손실 크기를 정해 두는 것</b>이 이 연습의 목적입니다.</p>
+<p class="small">이 가상 차트에서는 같은 기간 <b>시장 지수가 약세</b>였다고 가정합니다. 같은 모양이라도 시장 환경에 따라 결과가 달라질 수 있습니다 — 유료 워크북에서 성공·실패·애매한 사례를 나란히 비교합니다.</p>
+</div>
+<h2>4. 공개 후 복기</h2>
+<div class="card"><table><tr><th>⑫ 공개 후: 실제로 무슨 일이 있었나?</th><td><textarea data-k="result"></textarea></td></tr>
+<tr><th>⑬ 계획대로 행동했다고 가정하면 결과는? (손익·계좌 대비 %)</th><td><input data-k="kept"></td></tr>
+<tr><th>⑭ 다음 차트에서 바꿀 것 한 가지</th><td><textarea data-k="lesson"></textarea></td></tr></table></div>
+</div>
+
+<h2>다음 연습이 필요하다면</h2>
+<div class="card">
+<p>유료 <b>『차트 복기 워크북』</b>에는 <b>가상 차트 사례 3개(성공·실패·애매한 경우)</b>, 단계별 풀이, 반복해서 쓰는 복기 기록 양식이 들어 있습니다.</p>
+<p class="small">종목 추천·매매 신호·리딩방·수익 보장 없음. 차트 읽기와 기록 습관만 다룹니다.</p>
+</div>
+<button class="ghost noprint" onclick="window.print()">인쇄 / PDF로 저장</button>
+<button class="ghost noprint" onclick="resetAll()">처음부터 다시 하기</button>
+<p class="small">© 차트 복기 워크북 · 가상 데이터로 직접 제작한 교육 자료 · 실존 종목·실제 시세 아님</p>
+</div><script>
+const KEY='vcp-sample-v1';const st=JSON.parse(localStorage.getItem(KEY)||'{}');
+document.querySelectorAll('[data-k]').forEach(e=>{e.value=st[e.dataset.k]||'';e.addEventListener('input',()=>{st[e.dataset.k]=e.value;localStorage.setItem(KEY,JSON.stringify(st));});});
+function reveal(){const need=['pivot','stop'];const miss=need.filter(k=>!(st[k]||'').trim());
+ if(miss.length&&!confirm('관찰선(⑥)과 손절가(⑧)를 아직 안 적었어요. 그래도 공개할까요?'))return;
+ document.getElementById('hiddenChart').classList.add('hide');document.querySelectorAll('.after').forEach(e=>e.classList.remove('hide'));
+ document.getElementById('revealBtn').classList.add('hide');document.getElementById('resultCard').scrollIntoView({behavior:'smooth'});}
+function resetAll(){if(confirm('적은 내용을 모두 지울까요?')){localStorage.removeItem(KEY);location.reload();}}
+</script></body></html>

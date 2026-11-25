@@ -1,0 +1,32 @@
+{
+  "id": "BV1eL4y1F72i",
+  "title": "日本游戏厅里竟然能抓宝石？到达世界最大游戏厅！【Mirai游戏厅 #05】",
+  "title_orig": "日本游戏厅里竟然能抓宝石？到达世界最大游戏厅！【Mirai游戏厅 #05】",
+  "platform": "BILI",
+  "country": "일본",
+  "cat": "게임",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1eL4y1F72i.mp4",
+  "date": "",
+  "lang": "ja",
+  "asr": "faster-whisper large-v3-turbo",
+  "asr_only": true,
+  "translation_status": "not_requested",
+  "asr_status": "ok",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 147.92,
+      "e": 152.04,
+      "zh": "100種類の宝石プレミンで代表",
+      "ko": ""
+    }
+  ],
+  "chapters": []
+}

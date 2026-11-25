@@ -1,0 +1,32 @@
+{
+  "id": "BV1dg411Z7kM",
+  "title": "国外看中国传统舞蹈《半壶纱》，韩国网友：韩服、韩式古风建筑！",
+  "title_orig": "国外看中国传统舞蹈《半壶纱》，韩国网友：韩服、韩式古风建筑！",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "문화",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV1dg411Z7kM.mp4",
+  "date": "",
+  "lang": "zh",
+  "asr": "faster-whisper large-v3-turbo",
+  "asr_only": true,
+  "translation_status": "not_requested",
+  "asr_status": "ok",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 29.2,
+      "e": 80.24,
+      "zh": "优优独播剧场——YoYo Television Series Exclusive",
+      "ko": ""
+    }
+  ],
+  "chapters": []
+}

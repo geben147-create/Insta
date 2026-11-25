@@ -1,0 +1,32 @@
+{
+  "id": "BV17W4y127Z1",
+  "title": "油管上一个韩服抄袭汉服的视频对比，引起了韩国人的玻璃心！",
+  "title_orig": "油管上一个韩服抄袭汉服的视频对比，引起了韩国人的玻璃心！",
+  "platform": "BILI",
+  "country": "한국",
+  "cat": "문화",
+  "done": true,
+  "dur_ms": 0,
+  "n": 1,
+  "good": 0,
+  "bad": 0,
+  "cmp": 0,
+  "path": "/run/media/yh/새 볼륨/틱톡/샤오(한국 일본 영상들)/video/BV17W4y127Z1.mp4",
+  "date": "",
+  "lang": "zh",
+  "asr": "faster-whisper large-v3-turbo",
+  "asr_only": true,
+  "translation_status": "not_requested",
+  "asr_status": "ok",
+  "sum": "",
+  "verdict": "",
+  "lines": [
+    {
+      "s": 0.62,
+      "e": 48.49,
+      "zh": "优优独播剧场——YoYo Television Series Exclusive",
+      "ko": ""
+    }
+  ],
+  "chapters": []
+}

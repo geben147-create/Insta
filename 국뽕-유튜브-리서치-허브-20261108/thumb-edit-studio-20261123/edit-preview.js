@@ -9,8 +9,18 @@ const fx = {
  style:[['marker','형광펜 강조','별표로 감싼 단어만 노랑'],['neon','네온 밑줄','별표 단어만 하늘색 + 발광'],['outline','굵은 검정 외곽선','복잡한 배경에서 자막 가독성'],['box','빨간 자막 박스','반전·핵심어용'],['paper','연노랑 인용 강조','기사·댓글에서 한 구절만']],
  motion:[['zoom-in','자막 줌인','78% → 110% → 100%',420,[{transform:'scale(.78)',opacity:0},{transform:'scale(1.10)',opacity:1,offset:.65},{transform:'scale(1)',opacity:1}]],['zoom-out','자막 줌아웃','145% → 100%',440,[{transform:'scale(1.45)',opacity:.3},{transform:'scale(1)',opacity:1}]],['bounce','가벼운 바운스','아래 → 위로 한 번 튐',450,[{transform:'translateY(26%)',opacity:0},{transform:'translateY(-11%)',opacity:1,offset:.65},{transform:'translateY(0)',opacity:1}]],['typing','타이핑 느낌','왼쪽부터 짧은 구간으로 드러남',850,[{clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0 0 0)'}],'steps(12,end)'],['stamp','스탬프','165%에서 짧고 굵게 안착',250,[{transform:'scale(1.65)',opacity:0},{transform:'scale(.95)',opacity:1,offset:.6},{transform:'scale(1)',opacity:1}]],['side','옆에서 등장','오른쪽 26% → 중앙',420,[{transform:'translateX(26%)',opacity:0},{transform:'translateX(0)',opacity:1}]]]
 };
-const SFX10 = window.EDIT_SFX10 || [];
-const sfx = new Map(SFX10.map(x=>[x.n,x]));
+const query = new URLSearchParams(location.search);
+const legacySounds = (window.EDIT_SFX10 || []).map(x=>({...x,n:String(x.n).padStart(2,'0'),collection:'legacy'}));
+const softSounds = (window.EDIT_SFX_SOFT || []).map(x=>({...x,n:String(x.n).padStart(2,'0'),collection:'shorts'}));
+const allSounds = [...softSounds,...legacySounds];
+const sfx = new Map(allSounds.map(x=>[x.n,x]));
+let soundCollection = ['shorts','legacy'].includes(query.get('collection')) ? query.get('collection') : 'all';
+const collectionCount = kind=>kind==='all'?allSounds.length:allSounds.filter(x=>x.collection===kind).length;
+$('#sfx-total').textContent=allSounds.length;
+$('#sfx-summary-count').textContent=`새 ${softSounds.length}종 · 기존 ${legacySounds.length}종`;
+document.querySelectorAll('[data-count]').forEach(x=>x.textContent=collectionCount(x.dataset.count));
+$('#hub-return').hidden=window.top!==window.self;
+if(query.get('collection')==='shorts'){$('.app-header h1').textContent='맑은 알림·가벼운 타격 효과음';document.title='맑은 알림·가벼운 타격 효과음 · 허브';}
 const voices = [ ['narration','차분한 내레이션','그렇다면, 두 나라의 결과는 어떻게 달랐을까요?'],['news','담담한 기사 낭독','공개된 자료를 기준으로, 결과를 비교해 보겠습니다.'],['comment','자연스러운 댓글 · 공감','직접 보니까, 생각했던 것과 조금 다르네요.'],['comment2','절제된 댓글 · 의견 변화','저는 처음에는 반대였는데, 설명을 듣고 이해됐어요.'] ];
 const sceneConfig = {
  hook:['*왜* 결과가 달랐을까요?','dim','cut','outline','stamp',[['02',0],['06',650]]],
@@ -44,12 +54,20 @@ const state = {scene:null,video:null,transition:null,style:null,motion:null,voic
 const local = new Map(), category = {scene:'장면',video:'영상',transition:'전환',style:'자막 꾸미기',motion:'자막 애니메이션',voice:'목소리',sfx:'효과음',library:'내 음원'};
 let run = 0, timers = [], animations = [], audios = [], active, footageURL, activeHasVoice = false;
 const row = (kind,id,label,info='',extra='')=>`<div class="row"><button class="play" data-play="${kind}:${escapeHTML(id)}" aria-pressed="false" aria-label="${escapeHTML(label)} 미리보기">▶</button><div><strong>${escapeHTML(label)}</strong><small>${escapeHTML(info)} ${extra}</small></div><label><input type="checkbox" data-pick="${kind}:${escapeHTML(id)}" aria-label="${escapeHTML(label)} 조합에 담기"><span>담기</span></label></div>`;
-const soundRow = (n, inWord=false) => {const x=sfx.get(n); if(!x)return ''; return row('sfx',n,`${x.em} ${x.name}`,`${Number(x.duration).toFixed(2)}초 · ${inWord?'실제 배포 음원':x.cap}`,inWord?'':`<span class="sound-source"><a href="${escapeHTML(x.url)}" target="_blank" rel="noopener">${escapeHTML(x.author)} · 출처 ↗</a><a class="license-pill" href="${escapeHTML(x.licenseUrl)}" target="_blank" rel="noopener">CC0</a><a href="${escapeHTML(x.asset)}" download>MP3 ↓</a></span>`);};
+const soundRow = (n, inWord=false) => {const x=sfx.get(n); if(!x)return ''; return row('sfx',n,`${x.em||'🔊'} ${x.name}`,`${Number(x.duration).toFixed(2)}초 · ${inWord?'효과음만 미리듣기':x.cap}`,inWord?'':`<span class="sound-source"><a href="${escapeHTML(x.url)}" target="_blank" rel="noopener">${escapeHTML(x.author)} · 출처 ↗</a><a class="license-pill" href="${escapeHTML(x.licenseUrl)}" target="_blank" rel="noopener">CC0</a><a href="${escapeHTML(x.asset)}" download>MP3 ↓</a></span>${x.previewNote?`<span class="sound-note">${escapeHTML(x.previewNote)}</span>`:''}`);};
 $('#scenes').innerHTML = scenes.map(s=>row('scene',s.key,s.name,s.use)).join('');
 for(const [kind,items] of Object.entries(fx)) $('#'+kind).innerHTML=items.map(([id,label,info])=>row(kind,id,label,info)).join('');
 $('#voice').innerHTML = voices.map(([id,label,line])=>row('voice',id,label,line)).join('');
-for (const tag of new Set(SFX10.map(s=>s.sit))) $('#sfx-filter').append(new Option(tag,tag));
-function renderSfx(){const tag=$('#sfx-filter').value;$('#sfx').innerHTML=SFX10.filter(s=>!tag||tag===s.sit).map(s=>soundRow(s.n)).join('');sync();}
+for (const tag of new Set(allSounds.map(s=>s.sit).filter(Boolean))) $('#sfx-filter').append(new Option(tag,tag));
+function renderSfx(){
+ const tag=$('#sfx-filter').value, term=$('#sfx-search').value.trim().toLocaleLowerCase('ko');
+ const collection=allSounds.filter(x=>soundCollection==='all'||x.collection===soundCollection);
+ const filtered=collection.filter(x=>(!tag||tag===x.sit)&&(!term||[x.name,x.cap,x.sit,...(Array.isArray(x.keywords)?x.keywords:[])].join(' ').toLocaleLowerCase('ko').includes(term)));
+ $('#sfx').innerHTML=filtered.length?filtered.map(x=>soundRow(x.n)).join(''):'<div class="sound-empty">일치하는 소리가 없습니다. 검색어 또는 상황 필터를 바꿔 보세요.</div>';
+ $('#sfx-result').textContent=`${filtered.length} / ${collection.length}종 표시 · ▶ ${$('#sfx-with-visual').checked?'소리와 움직임 비교':'효과음만 재생'}`;
+ document.querySelectorAll('[data-collection]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.collection===soundCollection)));
+ sync();
+}
 const research=window.EDIT_SFX_RESEARCH;
 $('#source-research').innerHTML=research?`<ul>${research.sources.map(x=>`<li><a href="${escapeHTML(x.url)}" target="_blank" rel="noopener">${escapeHTML(x.title)} ↗</a><br>${escapeHTML(x.summary)}</li>`).join('')}</ul><p>${escapeHTML(research.distribution_note)}</p>`:'';
 $('#words').innerHTML=words.map(([term,desc,ids])=>`<div class="word-line"><button type="button" class="play" data-play="sfx:${ids[0]}" aria-label="${escapeHTML(term)} 대표 효과음 재생" aria-pressed="false">▶</button><details class="word"><summary>${escapeHTML(term)}</summary><small>${escapeHTML(desc)} · 비교할 다른 효과음</small>${ids.map(n=>soundRow(n,true)).join('')}</details></div>`).join('');
@@ -100,9 +118,12 @@ function playAudio(src, volume, key, name){
 function playSound(n){const d=sfx.get(n);if(d)playAudio(d.asset,soundVolume(),'sfx',describe('sfx',n));}
 function animate(el, options, delay=0){ if(!options)return; const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches; const frames=reduced?options[4].slice(-1):options[4]; animations.push(el.animate(frames,{duration:reduced?1:options[3],delay,fill:'forwards',easing:options[5]||'ease-out'})); }
 function play(set, label, button=null){
- stop();active=button;sync();const s=config(set);activeHasVoice=!!s.voice;paint(s);$('#status').textContent=`재생 중: ${label}${s.voice?' · 목소리 우선 / 효과음 ½ 음량':''}`;
- if(!footage.hidden){footage.currentTime=0;footage.play().catch(()=>{});}
- else if(!matchMedia('(prefers-reduced-motion: reduce)').matches) animate($('#demo-motion'),[,,,2400,[{transform:'scale(1.13) translateX(-3%)'},{transform:'scale(1.13) translateX(3%)'}]]);
+ stop();active=button;sync();const s=config(set);activeHasVoice=!!s.voice;paint(s);
+ const visual=!!(s.scene||s.video||s.transition||s.style||s.motion);
+ $('#status').textContent=`재생 중: ${label}${s.voice?' · 목소리 우선 / 효과음 ½ 음량':''}${!visual&&!s.voice?' · 배경음악 없음':''}`;
+ if(!visual&&!s.voice){$('#demo-label').textContent='효과음만 미리듣기 · 배경음악 없음';cap.textContent=label;}
+ if(visual&&!footage.hidden){footage.currentTime=0;footage.play().catch(()=>{});}
+ else if(visual&&!matchMedia('(prefers-reduced-motion: reduce)').matches) animate($('#demo-motion'),[,,,2400,[{transform:'scale(1.13) translateX(-3%)'},{transform:'scale(1.13) translateX(3%)'}]]);
  if(s.video) animate($(s.video==='flash'?'#flash-layer':'#shot-a'),def('video',s.video));
  if(s.transition) animate($('#shot-b'),def('transition',s.transition),s.scene?350:0);
  if(s.motion) animate(cap,def('motion',s.motion));
@@ -111,17 +132,20 @@ function play(set, label, button=null){
  s.sounds.forEach(([n,ms])=>soundAt(n,ms));
  if(s.voice) playAudio(`edit-preview-audio/voice-${s.voice}.mp3`,.9,'voice',describe('voice',s.voice));
  s.library.forEach((id,i)=>{const d=local.get(id); if(d) {const start=()=>{playAudio(d.url,soundVolume(),'sfx',d.name);const a=audios.at(-1);later(()=>a.pause(),10000);};if(i)later(start,i*10000);else start();}});
- const visual=!!(s.scene||s.video||s.transition||s.style||s.motion);
  const total=Math.max(visual?2500:0,s.sounds.length?Math.max(...s.sounds.map(([id,ms])=>ms+sfx.get(id).duration*1000))+100:0,s.voice?9000:0,s.library.length*10000);
  later(()=>{if(!footage.hidden)footage.pause();active=null;sync();if(!$('#status').textContent.includes('실패')) $('#status').textContent=`미리보기 종료: ${label}`;},total||2500);
 }
 function handoff(){
  const s=config(state), p=presets(s.scene); const t=typography(p);
  const effect = (k,id)=>{const d=def(k,id);return d?{id,label:d[1],description:d[2],...(d[4]?{durationMs:d[3],keyframes:d[4],easing:d[5]||'ease-out'}:{})}:null;};
- return `아래 조합 그대로 영상 편집에 적용해 주세요. 선택하지 않은 항목은 변경하지 말고, 여기의 예시 문구·수치·댓글은 실제 영상에 복제하지 마세요. 실제 대본과 근거 자료를 사용하세요.\n\n`+JSON.stringify({schema:'kukppong-edit-preview/2',revision:'20261125-curated-audio',scene:p?{id:p.key,label:p.name,use:p.use,warning:p.dont}:null,ratio:$('#ratio').value,previewTextOnly:$('#sample').value||p?.config[0]||null,typography:t,videoEffect:effect('video',s.video),transition:s.transition?{...effect('transition',s.transition),startMs:s.scene?350:0}:null,captionStyle:effect('style',s.style),captionAnimation:effect('motion',s.motion),voice:s.voice?{id:s.voice,tone:describe('voice',s.voice),example:'미리보기용; 실제 문장은 대본 사용',previewAsset:absolute(`edit-preview-audio/voice-${s.voice}.mp3`)}:null,sfx:s.sounds.map(([n,timeMs])=>{const d=sfx.get(n);return {id:n,referenceName:d.name,sound:'CC0 배포 음원 편집본 · 공식 HQ MP3 미리듣기 기반',asset:absolute(d.asset),sourceUrl:d.url,author:d.author,license:d.license,licenseUrl:d.licenseUrl,durationSeconds:d.duration,timeMs,normalizationAlreadyApplied:d.gain,previewVolume:Number($('#sfx-volume').value)/100*(s.voice ? 0.5 : 1),editDescription:d.cut,originalWav:false};}),userAudio:s.library.map(id=>({fileName:local.get(id).name,access:'같은 파일을 편집 프로젝트에 제공해야 함'})),notes:['타이밍은 장면 시작 기준. 대사에 맞게 배치하되 선택한 효과와 순서는 유지.','목소리를 우선하고 효과음은 대사를 덮지 않게 믹싱. 미리보기는 목소리 0.9, 효과음 기본 0.5(목소리 선택 시 0.25). 정규화 gain은 제공 파일에 이미 적용되어 있으므로 다시 적용하지 않기.','기사·댓글·통계에는 실제 자료와 출처를 사용.']},null,2);
+ return `아래 조합 그대로 영상 편집에 적용해 주세요. 선택하지 않은 항목은 변경하지 말고, 여기의 예시 문구·수치·댓글은 실제 영상에 복제하지 마세요. 실제 대본과 근거 자료를 사용하세요.\n\n`+JSON.stringify({schema:'kukppong-edit-preview/2',revision:'20261125-sfx-r3',availableSfxCount:allSounds.length,scene:p?{id:p.key,label:p.name,use:p.use,warning:p.dont}:null,ratio:$('#ratio').value,previewTextOnly:$('#sample').value||p?.config[0]||null,typography:t,videoEffect:effect('video',s.video),transition:s.transition?{...effect('transition',s.transition),startMs:s.scene?350:0}:null,captionStyle:effect('style',s.style),captionAnimation:effect('motion',s.motion),voice:s.voice?{id:s.voice,tone:describe('voice',s.voice),example:'미리보기용; 실제 문장은 대본 사용',previewAsset:absolute(`edit-preview-audio/voice-${s.voice}.mp3`)}:null,sfx:s.sounds.map(([n,timeMs])=>{const d=sfx.get(n);return {id:n,referenceName:d.name,sound:d.previewNote||'CC0 배포 음원 편집본 · 공식 HQ MP3 미리듣기 기반',collection:d.collection,matchStatus:d.matchStatus||(d.collection==='shorts'?'요청한 소리 유형의 비교 후보 · 쇼츠 원본과 동일 여부 미확인':null),asset:absolute(d.asset),sourceUrl:d.url,author:d.author,license:d.license,licenseUrl:d.licenseUrl,durationSeconds:d.duration,timeMs,normalizationAlreadyApplied:d.gain,previewVolume:Number($('#sfx-volume').value)/100*(s.voice ? 0.5 : 1),editDescription:d.cut,originalWav:false};}),userAudio:s.library.map(id=>({fileName:local.get(id).name,access:'같은 파일을 편집 프로젝트에 제공해야 함'})),notes:['타이밍은 장면 시작 기준. 대사에 맞게 배치하되 선택한 효과와 순서는 유지.','목소리를 우선하고 효과음은 대사를 덮지 않게 믹싱. 미리보기는 목소리 0.9, 효과음 기본 0.5(목소리 선택 시 0.25). 정규화 gain은 제공 파일에 이미 적용되어 있으므로 다시 적용하지 않기.','기사·댓글·통계에는 실제 자료와 출처를 사용.']},null,2);
 }
 function absolute(file){return location.hostname==='127.0.0.1'||location.hostname==='localhost'||location.protocol==='file:'?new URL(file,'https://geben147-create.github.io/Insta/'+encodeURIComponent('국뽕-유튜브-리서치-허브-20261108')+'/thumb-edit-studio-20261123/').href:new URL(file,location.href).href;}
 $('#sfx-filter').addEventListener('change',renderSfx);
+$('#sfx-search').addEventListener('input',renderSfx);
+document.querySelectorAll('[data-collection]').forEach(button=>button.addEventListener('click',()=>{soundCollection=button.dataset.collection;$('#sfx-filter').value='';renderSfx();}));
+$('#sfx-with-visual').addEventListener('change',()=>{$('#sfx-result').textContent=`${$('#sfx-with-visual').checked?'▶ 소리와 추천 움직임을 함께 비교합니다.':'▶ 효과음만 재생합니다. 배경음악은 없습니다.'}`;});
+
 document.addEventListener('change',e=>{
  if(!e.target.dataset.pick)return;
  const [kind,id]=e.target.dataset.pick.split(':');
@@ -129,7 +153,7 @@ document.addEventListener('change',e=>{
  sync();play(state,'선택 조합 변경 · '+describe(kind,id));
 });
 document.addEventListener('click',e=>{const b=e.target.closest('[data-play]');if(!b)return;const [k,id]=b.dataset.play.split(':');if(active===b){stop('재생을 멈췄습니다.');return;}
- if(k==='sfx'){const visual=soundVisual(id);play({sfx:new Set([id]),...visual},describe(k,id)+' · 추천 움직임 예시',b);return;}
+ if(k==='sfx'){const withVisual=$('#sfx-with-visual').checked,visual=withVisual?soundVisual(id):{};play({sfx:new Set([id]),...visual},describe(k,id)+(withVisual?' · 추천 움직임 예시':''),b);return;}
  if(k==='library'){play({library:new Set([id])},describe(k,id),b);return;}
  play({[k]:id},describe(k,id),b);
 });
@@ -143,7 +167,12 @@ $('#footage-input').onchange=e=>{const f=e.target.files[0];if(!f)return;if(foota
 $('#library-input').onchange=e=>{stop();local.forEach(x=>URL.revokeObjectURL(x.url));local.clear();state.library.clear();Array.from(e.target.files).forEach((f,i)=>local.set(String(i),{name:f.name,url:URL.createObjectURL(f)}));$('#library').innerHTML=[...local].map(([id,entry])=>row('library',id,entry.name,'내 파일 · 첫 10초 비교')).join('');sync();};
 function soundVisual(id){
  const map={'01':{transition:'slide'},'02':{transition:'wipe'},'03':{transition:'page'},'04':{transition:'page'},'05':{transition:'wipe'},'06':{motion:'stamp'},'07':{motion:'bounce'},'08':{style:'neon',motion:'zoom-in'},'09':{video:'flash'},'10':{motion:'typing'}};
- return map[id]||{};
+ if(map[id])return map[id];
+ const sound=sfx.get(id),tone=[sound?.sit,sound?.name].join(' ');
+ if(/맑|알림|반짝|딩|띠리|띠롱/.test(tone))return {motion:'zoom-in'};
+ if(/팝|팡|뿅|통통|띠로/.test(tone))return {motion:'bounce'};
+ if(/타격|쿵|충격/.test(tone))return {motion:'stamp'};
+ return {motion:'side'};
 }
 const panel=$('#options'),work=$('.work');
 function setPanel(open){panel.hidden=!open;work.classList.toggle('panel-collapsed',!open);$('#show-options').hidden=open;$('#show-options').setAttribute('aria-expanded',String(open));$('#hide-options').setAttribute('aria-expanded',String(open));if(!open)$('#show-options').focus();}
@@ -156,6 +185,14 @@ $('#save-json').onclick=()=>{if($('#save-json').disabled)return;const text=hando
 $('#save-prompt').onclick=()=>{if(!$('#save-prompt').disabled)saveText('video-edit-prompt-20261125.txt',handoff(),'text/plain;charset=utf-8');};
 $('#copy-ui-rule').onclick=async()=>{const text='🌸🌸🌸🌸🌸 미리보기는 화면에 고정하고 설정·전환·효과음은 오른쪽 접이식 패널 안에서만 스크롤되게 해주세요. 어떤 효과를 눌러도 같은 화면에서 즉시 재생 결과가 보여야 하며, 태블릿·모바일에서도 미리보기가 가려지지 않는지 확인해주세요.';try{await navigator.clipboard.writeText(text);$('#status').textContent='미리보기 고정 지시를 복사했습니다.';}catch{$('#handoff').value=text;$('#handoff').hidden=false;$('.basket').open=true;$('#status').textContent='선택 조합 영역의 지시문을 직접 복사하세요.';}};
 window.addEventListener('pagehide',()=>stop());
+document.querySelectorAll('[data-keyword]').forEach(button=>button.addEventListener('click',async()=>{
+ const keyword=button.dataset.keyword;
+ try{await navigator.clipboard.writeText(keyword);button.classList.add('copied');$('#status').textContent=`검색어 복사: ${keyword} · YouTube Studio의 음향 효과 검색창에 붙여 넣으세요.`;setTimeout(()=>button.classList.remove('copied'),1500);}
+ catch{$('#handoff').value=keyword;$('#handoff').hidden=false;$('.basket').open=true;$('#handoff').focus();$('#handoff').select();$('#status').textContent=`검색어: ${keyword} · 선택 조합 영역에서 직접 복사하세요.`;}
+}));
 renderSfx();updateType();
-if(!SFX10.length)$('#status').textContent='효과음 목록을 불러오지 못했습니다. 페이지를 새로 고침해 주세요.';
+if(query.get('panel')){const initialPanel=[...document.querySelectorAll('[data-pane]')].find(x=>x.dataset.pane===query.get('panel'));if(initialPanel)requestAnimationFrame(()=>initialPanel.click());}
+if(!allSounds.length)$('#status').textContent='효과음 목록을 불러오지 못했습니다. 페이지를 새로 고침해 주세요.';
+else if(query.get('collection')==='shorts'&&!softSounds.length)$('#status').textContent='새 효과음 목록을 불러오지 못했습니다. 전체 모음에서 기존 소리를 듣거나 페이지를 새로 고침해 주세요.';
+document.body.dataset.ready='true';
 })();

@@ -17,7 +17,7 @@
     <div class="intro-counts"><span><b>12</b>비교 유형</span><span><b>02</b>AI 재질 시안</span><span><b>3</b>화면 비율</span></div>
   </section>
   <div class="revision-banner"><strong>🌸 11월 25일 개선판</strong><span>숫자 크기 · 유리의 깊이 · 빛과 그림자 · 막대 3종 추가</span><a href="#changes">수정 내역 ↓</a></div>
-  <div class="workspace-switch" id="workspaceSwitch"><div class="mode-tabs" role="tablist" aria-label="작업 종류"><button data-work-mode="materials" role="tab" aria-selected="true" class="active">💎 재질·통계 비교</button><button data-work-mode="effects" role="tab" aria-selected="false">▶ 전환·효과음</button></div><label class="quick-reference" id="quickReferenceWrap"><span>비교 대상</span><select id="quickReference" aria-label="비교할 디자인"></select></label><button id="focusWorkspace" class="ghost" aria-pressed="false">⛶ 작업 화면 크게</button></div>
+  <div class="workspace-switch" id="workspaceSwitch"><a id="hubReturn" class="ghost" href="/Insta/국뽕-유튜브-리서치-허브-20261108/?page=statistics-material" target="_top" style="font-size:12px;white-space:nowrap;text-decoration:none;padding:8px;border:1px solid #d7dce2;border-radius:8px" hidden>☰ 허브 안에서 열기</a><div class="mode-tabs" role="tablist" aria-label="작업 종류"><button data-work-mode="materials" role="tab" aria-selected="true" class="active">💎 재질·통계 비교</button><button data-work-mode="effects" role="tab" aria-selected="false">▶ 전환·효과음</button></div><label class="quick-reference" id="quickReferenceWrap"><span>비교 대상</span><select id="quickReference" aria-label="비교할 디자인"></select></label><button id="focusWorkspace" class="ghost" aria-pressed="false">⛶ 작업 화면 크게</button></div>
   <nav class="reference-strip" id="referenceStrip" aria-label="레퍼런스 선택"></nav>
   <section class="workspace" id="materialWorkspace" aria-labelledby="selectedTitle">
     <div class="editor-main">
@@ -51,8 +51,8 @@
     </aside>
   </section>
   <section class="effects-workspace" id="editing-preview" hidden aria-label="고정 미리보기와 오른쪽 전환·효과음 패널">
-    <iframe src="../../../국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/edit-preview.html?v=20261125-r2&amp;embed=1" title="전환·효과음 고정 미리보기" loading="lazy" allow="clipboard-write; autoplay"></iframe>
-    <a class="effects-popout" href="../../../국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/edit-preview.html?v=20261125-r2" target="_blank" rel="noopener">전환·소리만 큰 화면에서 열기 ↗</a>
+    <iframe src="../../../국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/edit-preview.html?v=20261125-sfx-r3&amp;embed=1" title="전환·효과음 고정 미리보기" loading="lazy" allow="clipboard-write; autoplay"></iframe>
+    <a class="effects-popout" href="../../../국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/edit-preview.html?v=20261125-sfx-r3" target="_blank" rel="noopener">전환·소리만 큰 화면에서 열기 ↗</a>
   </section>
   <section class="changes-section" id="changes"><div class="section-head"><div><span class="eyebrow">🌸 REVISION 02 · 2026.11.25</span><h2>말씀하신 차이를 이렇게 수정했습니다</h2></div></div><div id="revisionChecklist" class="revision-grid"></div>
     <details class="workflow-prompt"><summary>🌸🌸🌸🌸🌸 다음 작업에 복사할 UI 지시</summary><p id="uiPrompt">🌸🌸🌸🌸🌸 미리보기는 화면에 고정하고, 설정·전환·효과음은 오른쪽 접이식 패널 안에서만 독립 스크롤되게 해주세요. 어떤 효과를 눌러도 같은 화면에서 즉시 재생 결과가 보여야 하며, 태블릿·모바일에서는 미리보기와 설정이 서로 가리지 않게 배치하고 실제 클릭으로 검증해주세요.</p><button id="copyUIPrompt">UI 지시 복사</button></details>
@@ -77,6 +77,7 @@
 <footer>연하의 통계·지도·종이 재질 스튜디오 · 2026.11.25 · 사용자 선택 우선 / 🌸 추가 제안 표시</footer>
 <div id="toast" role="status" aria-live="polite"></div>
 <dialog id="originalDialog"><div class="dialog-head"><strong id="dialogTitle">원본 이미지</strong><button id="closeOriginal" aria-label="원본 닫기">닫기 ×</button></div><img id="originalImage" alt="선택한 레퍼런스 원본"><a id="downloadOriginal" download>원본 파일 저장</a></dialog>
+<script>document.getElementById("hubReturn").hidden=window.top!==window.self;</script>
 <script src="material-renderer-before-20261125.js?v=1"></script><script src="material-renderer.js?v=20261125-r2"></script><script src="supplement-renderer.js?v=20261125-r2"></script><script src="studio.js?v=20261125-r2"></script>
 </body>
 </html>

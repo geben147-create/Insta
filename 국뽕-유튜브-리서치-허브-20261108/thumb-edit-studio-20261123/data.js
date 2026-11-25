@@ -6,6 +6,7 @@ const BF = '../../research-hub-20261108/broadcast-font-subtitle-master-20261121/
 const MENUS = {
   thumb: [
     {id:'statistics-material', t:'💎 통계·지도·종이 재질 스튜디오', s:'🌸 12종 비교 · 입체/글자 개선 · 3종 추가', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/?v=20261125-r2&focus=1'},
+    {id:'sfx-soft', t:'🌸 맑은 알림·가벼운 타격 효과음', s:'띠롱·띠리링·부드러운 쿵 · 바로 듣기', tag:'new', f:'edit-preview.html?v=20261125-sfx-r3&panel=sfx&collection=shorts&embed=1'},
     {id:'design-dashboard', t:'🎨 통합 디자인 대시보드', s:'사진 24장 · 14색 · 프롬프트 · 전체 자료', tag:'new', f:'../design-dashboard-20261124/index.html'},
     {id:'design-reference', t:'통합 디자인 자료 · REF01–24', s:'색·폰트·지도·댓글·캐릭터', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/'},
     {grp:'🔥 썸네일 V3.1 규칙 (최신)'},
@@ -37,6 +38,7 @@ const MENUS = {
   ],
   video: [
     {id:'statistics-material', t:'💎 통계·지도·종이 재질 스튜디오', s:'🌸 12종 비교 · 입체/글자 개선 · 3종 추가', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/?v=20261125-r2&focus=1'},
+    {id:'sfx-soft', t:'🌸 맑은 알림·가벼운 타격 효과음', s:'띠롱·띠리링·부드러운 쿵 · 바로 듣기', tag:'new', f:'edit-preview.html?v=20261125-sfx-r3&panel=sfx&collection=shorts&embed=1'},
     {id:'vref10', t:'🔥 방송 자막·실제 디자인 요소 13종', s:'원본 PNG 12종 · VS · 불꽃 · 교차 댓글 · 형광펜 · 네온 뉴스', tag:'new', f:BF+'typography-refs-20261122/broadcast-10-20261124/index.html?v=3'},
     {id:'design-dashboard', t:'🎨 통합 디자인 대시보드', s:'사진 24장 · 14색 · 프롬프트 · 전체 자료', tag:'new', f:'../design-dashboard-20261124/index.html'},
     {id:'design-reference', t:'통합 디자인 자료 · REF01–24', s:'색·폰트·지도·댓글·캐릭터', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/design-reference-master-20261124/'},
@@ -50,11 +52,11 @@ const MENUS = {
     {id:'editmd', t:'편집 분석 전문 (안전 5편)', tag:'doc', md:'../docs/editing_analysis_safe5.md'},
     {id:'editprompt', t:'국뽕 영상편집 프롬프트 원문', tag:'doc', md:'../../research-hub-20261108/KUKPPONG_VIDEO_EDIT_PROMPT_ONLY.md'},
     {grp:'⭐ 장면별 연출 (예시 포함)'},
-    {id:'edit-preview', t:'▶ 영상·소리 조합 미리보기', s:'바로 재생 · 체크 · Claude 편집 지시문 복사', tag:'new', f:'edit-preview.html?v=20261125-r2'},
+    {id:'edit-preview', t:'▶ 영상·소리 조합 미리보기', s:'바로 재생 · 체크 · Claude 편집 지시문 복사', tag:'new', f:'edit-preview.html?v=20261125-sfx-r3&embed=1'},
     {id:'vfx', t:'장면별 연출 프리셋', s:'훅 · 한국 대단해 · 반전 · 통계 · 키워드 · VS · 댓글 · 결론', tag:'new'},
     {id:'plan', t:'영상편집 마스터 계획 ①~⑩', s:'+ 공통 규칙 + 프롬프트 A·B·C', tag:'new'},
     {grp:'🎧 소리'},
-    {id:'sfx', t:'효과음 30개 · TOP 10 · 배치표', s:'Pixabay 27 + Freesound CC0 3 · 라이선스', tag:'new'},
+    {id:'sfx', t:'이전 효과음 자료 30개 · 배치표', s:'기존 출처 자료 · 새 소리는 상단 🌸 메뉴', tag:'old'},
     {id:'bgm', t:'캐릭터 시그니처 음악 · BGM 8곡', s:'콩닥팝 · 콩콩여행 · 반응왓설 + 3분 BGM 5곡', tag:'new'},
     {grp:'🛠 실험실'},
     {id:'vlab', t:'영상편집 디자인 실험실', s:'조절 미반영 버그 수정', tag:'fix', f:BF+'video-edit-lab.html'},

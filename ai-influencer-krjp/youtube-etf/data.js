@@ -16,7 +16,7 @@ const records = [
     "image": "images/22.webp",
     "caption": "유튜브 스크립트 5행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/22.txt",
-    "summary": ""
+    "summary": "100만 원을 어디에 둘지 묻는 질문에 출연자가 지수형·배당형 ETF와 개별 종목을 비교한다."
   },
   {
     "id": 5,
@@ -35,7 +35,7 @@ const records = [
     "image": "images/5.webp",
     "caption": "유튜브 스크립트 7행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/5.txt",
-    "summary": ""
+    "summary": "미국 대형주 지수형, 기술주 중심형, 현금흐름 중심형을 순서대로 소개하고 각각의 용도를 설명한다."
   },
   {
     "id": 14,
@@ -54,7 +54,7 @@ const records = [
     "image": "images/14.webp",
     "caption": "유튜브 스크립트 2행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/14.txt",
-    "summary": ""
+    "summary": "2019년 시작한 개인 계좌를 사례로 약 5년간 매월 매수한 결과를 짧게 보여준다."
   },
   {
     "id": 19,
@@ -73,7 +73,7 @@ const records = [
     "image": "images/19.webp",
     "caption": "유튜브 스크립트 5행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/19.txt",
-    "summary": ""
+    "summary": "월 100만 원 적립과 일정한 연 수익률을 가정하고, 일반 계좌와 ISA의 세금 차이를 예시로 보여준다."
   },
   {
     "id": 24,
@@ -92,7 +92,7 @@ const records = [
     "image": "images/24.webp",
     "caption": "유튜브 스크립트 8행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/24.txt",
-    "summary": ""
+    "summary": "ISA 투자 대상을 묻는 질문에 답하며 S&P 500 등 국내 상장 해외 ETF의 유형과 선택 기준을 보여준다."
   },
   {
     "id": 18,
@@ -111,7 +111,7 @@ const records = [
     "image": "images/18.webp",
     "caption": "유튜브 스크립트 5행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/18.txt",
-    "summary": ""
+    "summary": "성장·시장 대표성·배당이라는 세 목적에 맞춰 QQQ, SPY, SCHD의 투자 대상을 비교한다."
   },
   {
     "id": 13,
@@ -130,7 +130,7 @@ const records = [
     "image": "images/13.webp",
     "caption": "유튜브 스크립트 91행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/13.txt",
-    "summary": ""
+    "summary": "펀드의 기본 구조부터 지수형 펀드, 뮤추얼펀드, 헤지펀드, ETF의 운용 방식과 비용 차이까지 설명한다."
   },
   {
     "id": 4,
@@ -174,7 +174,7 @@ const records = [
     "image": "images/29.webp",
     "caption": "유튜브 스크립트 4행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/29.txt",
-    "summary": ""
+    "summary": "국내 주식형 ETF 매매차익의 세금 처리가 계좌에 따라 달라진다는 점을 사례로 설명한다."
   },
   {
     "id": 3,
@@ -193,7 +193,7 @@ const records = [
     "image": "images/3.webp",
     "caption": "유튜브 스크립트 10행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/3.txt",
-    "summary": ""
+    "summary": "거래량 상위권에 몰린 레버리지 ETF를 사례로 출연자가 거래 제한과 상장폐지 논의를 제안한다."
   },
   {
     "id": 17,
@@ -212,7 +212,7 @@ const records = [
     "image": "images/17.webp",
     "caption": "유튜브 스크립트 78행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/17.txt",
-    "summary": ""
+    "summary": "여러 기업을 소액으로 함께 사고 싶다는 질문에서 출발해 ETF의 원리와 분산을 초보자 눈높이로 설명한다."
   },
   {
     "id": 27,
@@ -231,7 +231,7 @@ const records = [
     "image": "images/27.webp",
     "caption": "유튜브 스크립트 132행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/27.txt",
-    "summary": ""
+    "summary": "커버드콜 인컴 ETF를 비교하면서 높은 분배율과 순자산가치 하락을 구분해 판단하는 방법을 설명한다."
   },
   {
     "id": 1,
@@ -250,7 +250,7 @@ const records = [
     "image": "images/1.webp",
     "caption": "유튜브 스크립트 6행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/1.txt",
-    "summary": ""
+    "summary": "ETF의 실시간 거래와 소액 분산을 소개한 뒤 투자 목적, 보수, 가격 변동을 점검한다."
   },
   {
     "id": 21,
@@ -294,7 +294,7 @@ const records = [
     "image": "images/15.webp",
     "caption": "유튜브 스크립트 13행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/15.txt",
-    "summary": ""
+    "summary": "ETF를 오래 보유하기 힘든 이유를 묻고 짧은 보유 기간과 유행에 따른 종목 교체를 사례로 든다."
   },
   {
     "id": 0,
@@ -338,7 +338,7 @@ const records = [
     "image": "images/20.webp",
     "caption": "유튜브 스크립트 9행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/20.txt",
-    "summary": ""
+    "summary": "거래량 상위 레버리지 상품과 사이드카 사례를 들어 시장 변동 확대와 거래 중단 논의를 소개한다."
   },
   {
     "id": 26,
@@ -382,7 +382,7 @@ const records = [
     "image": "images/25.webp",
     "caption": "유튜브 스크립트 9행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/25.txt",
-    "summary": ""
+    "summary": "연금 계좌가 특정 테마에 쏠리는 사례에서 시작해 대표 지수와 배당주를 포함한 구성 예를 든다."
   },
   {
     "id": 28,
@@ -426,7 +426,7 @@ const records = [
     "image": "images/2.webp",
     "caption": "유튜브 스크립트 5행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/2.txt",
-    "summary": ""
+    "summary": "펀드와 ETF를 거래 가능한 시간, 가격 결정 방식, 수수료로 비교한다."
   },
   {
     "id": 6,
@@ -445,7 +445,7 @@ const records = [
     "image": "images/6.webp",
     "caption": "유튜브 스크립트 13행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/6.txt",
-    "summary": ""
+    "summary": "S&P 500으로 시작해 나스닥·성장주·전체시장 상품으로 범위를 바꾸며 분산 정도와 보수를 비교한다."
   },
   {
     "id": 8,
@@ -464,7 +464,7 @@ const records = [
     "image": "images/8.webp",
     "caption": "유튜브 스크립트 6행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/8.txt",
-    "summary": ""
+    "summary": "ISA에서 국내 상장 해외 ETF를 고르는 상황을 설정하고, 시장 전체·성장·배당이라는 세 목적을 나눈다."
   },
   {
     "id": 23,
@@ -483,7 +483,7 @@ const records = [
     "image": "images/23.webp",
     "caption": "유튜브 스크립트 107행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/23.txt",
-    "summary": ""
+    "summary": "50대 시청자의 은퇴까지 남은 기간을 출발점으로 삼고, 매월 적립하는 투자 시나리오를 설명한다."
   },
   {
     "id": 16,
@@ -502,7 +502,7 @@ const records = [
     "image": "images/16.webp",
     "caption": "유튜브 스크립트 56행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/16.txt",
-    "summary": ""
+    "summary": "싱가포르 투자자 관점에서 여러 자산을 세 ETF로 줄인 사례와 구매 방법, 과거 성과를 설명한다."
   },
   {
     "id": 12,
@@ -521,7 +521,7 @@ const records = [
     "image": "images/12.webp",
     "caption": "유튜브 스크립트 8행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/12.txt",
-    "summary": ""
+    "summary": "미국 ETF 열 가지를 역순으로 부르며 종목마다 투자 대상이나 배당 특징을 한 문장씩 붙인다."
   },
   {
     "id": 11,
@@ -540,7 +540,7 @@ const records = [
     "image": "images/11.webp",
     "caption": "유튜브 스크립트 9행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/11.txt",
-    "summary": ""
+    "summary": "지난 10년의 미국 주식 성과를 다른 시기·시장과 대조하며 지역 분산이라는 결론으로 연결한다."
   },
   {
     "id": 7,
@@ -586,7 +586,7 @@ const records = [
     "image": "https://i.ytimg.com/vi/negThYHWvrY/hqdefault.jpg",
     "caption": "유튜브 스크립트 8행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/31.txt",
-    "summary": ""
+    "summary": "여러 기업 주식을 모은 바구니와 피자 조각에 빗대 ETF를 소개하고, 시장 전체가 내릴 때의 위험을 짚는다."
   },
   {
     "id": 9,
@@ -605,7 +605,7 @@ const records = [
     "image": "images/9.webp",
     "caption": "유튜브 스크립트 6행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/9.txt",
-    "summary": ""
+    "summary": "50만 원을 나눠 투자하는 예시를 금액별로 보여주고 댓글로 다음 설명을 예고한다."
   },
   {
     "video": "https://www.youtube.com/watch?v=282244kzYCo",
@@ -626,7 +626,7 @@ const records = [
     "image": "https://i.ytimg.com/vi/282244kzYCo/hqdefault.jpg",
     "caption": "유튜브 스크립트 12행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/30.txt",
-    "summary": ""
+    "summary": "증안펀드가 지수 ETF를 매수할 때의 집중과 변동성 문제를 묻고, 출연자의 우려를 담는다."
   },
   {
     "source": 29,
@@ -647,6 +647,6 @@ const records = [
     "image": "https://i.ytimg.com/vi/BSdeu-uMRxY/hqdefault.jpg",
     "caption": "유튜브 스크립트 20행 · 인식 오류가 포함될 수 있습니다.",
     "transcript": "transcripts/32.txt",
-    "summary": ""
+    "summary": "ISA에 모을 상품을 묻는 질문에 미국 대표 지수형과 나스닥 중심형부터 순서대로 특징을 설명한다."
   }
 ];

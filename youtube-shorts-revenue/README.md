@@ -1,6 +1,6 @@
 # 유튜브 쇼츠 고수익 후보
 
-**누적 광고수익 시나리오입니다. 확인된 실제 정산액은 없습니다.** 기준일 2026-11-27 KST. 기존 53편과 고조회 비교작 53편, 중복 제거 후 106편입니다. [기존 전체 유튜브 레이더](../youtube-profit-radar.html) · [GitHub Pages 필터판](https://geben147-create.github.io/Insta/youtube-shorts-revenue/) (배포 뒤 열립니다).
+**누적 광고수익 시나리오입니다. 확인된 실제 정산액은 없습니다.** 기준일 2026-11-27 KST. 기존 53편과 고조회 비교작 56편, 중복 제거 후 109편입니다. [기존 전체 유튜브 레이더](../youtube-profit-radar.html) · [GitHub Pages 필터판](https://geben147-create.github.io/Insta/youtube-shorts-revenue/) (배포 뒤 열립니다).
 
 [AI 드라마·스토리·애니메이션 집중 조사](story-animation.md) · [오늘 게시](#today) · [최근 30일](#last-30-days) · [최근 1년](#last-year) · [1년 이전](#older) · [섹터별 건수](#sectors) · [전체 원본](#all-shorts)
 
@@ -13,8 +13,8 @@
 | 게시 기간 | 500만 이상 | 1,000만 이상 | 2,000만 이상 | 2,500만 이상 | 3,000만 이상 | 4,000만 이상 | 5,000만 이상 | 1억 이상 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | [최근 31일](#last-31-days) | 26 | 10 | 5 | 4 | 2 | 2 | 1 | 0 |
-| [최근 60일](#last-60-days) | 28 | 11 | 6 | 5 | 3 | 3 | 2 | 0 |
-| [최근 1년](#high-last-year) | 43 | 25 | 18 | 16 | 14 | 13 | 12 | 7 |
+| [최근 60일](#last-60-days) | 29 | 11 | 6 | 5 | 3 | 3 | 2 | 0 |
+| [최근 1년](#high-last-year) | 44 | 25 | 18 | 16 | 14 | 13 | 12 | 7 |
 
 기간은 오늘을 포함한 KST 날짜 범위입니다. 게시 시각이 없는 경우 원 출처 날짜를 적용합니다. 위 표는 기간과 금액 모두 누적이어서 열·행을 합하면 안 됩니다. 아래 원본 목록은 31일에 우선 표시하고, 60일·1년에서는 더 오래된 추가 사례만 표시합니다.
 
@@ -48,7 +48,7 @@
 | 기타 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 동물·힐링 | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 0 |
 | 스포츠·도전 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 애니메이션 | 5 | 3 | 2 | 2 | 2 | 2 | 1 | 0 |
+| 애니메이션 | 6 | 3 | 2 | 2 | 2 | 2 | 1 | 0 |
 | 음식 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 음악·공연 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 코미디·일상 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -65,7 +65,7 @@
 | 기타 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 동물·힐링 | 4 | 3 | 3 | 2 | 2 | 2 | 2 | 0 |
 | 스포츠·도전 | 4 | 4 | 2 | 2 | 2 | 2 | 2 | 2 |
-| 애니메이션 | 9 | 7 | 6 | 6 | 6 | 6 | 5 | 3 |
+| 애니메이션 | 10 | 7 | 6 | 6 | 6 | 6 | 5 | 3 |
 | 음식 | 5 | 4 | 2 | 2 | 2 | 1 | 1 | 1 |
 | 음악·공연 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 코미디·일상 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -112,6 +112,7 @@
 | 쇼츠 원본 · 채널 | 게시일 | 섹터 | 공개 누적 조회수 | 한국 가정 | 제작 참고·주의 | 수치 근거 |
 |---|---|---|---:|---:|---|---|
 | [My First Mealtime Routine: Wash, Eat, Tidy Up](https://www.youtube.com/shorts/3ts2Ro6Bi5w) · VocaVoca - Kids Songs & Nursery Rhymes | 2026-10-09 | 애니메이션 | 496,590,067 | 6,430만 | 보류 · 생활 습관을 짧은 세 장면으로 반복하는 애니메이션. 원본 생성 AI 사용 미확인 | [수치](https://worldtopvideo.unclepony.com/v/vocavoca-kids-songs-nursery-rhymes-my-first-mealtime-routine) · 2026-11-26 월드탑비디오 누적 |
+| [Kamzor Sheru Kaise Bana Taqatwar Sher? 🦁🔥#Shorts #YouTubeShorts #Sheru #AIAnimation #AnimalStory](https://www.youtube.com/shorts/nGtuqD1xn0Y) · HARIS EPIC AI | 2026-10-23 | 애니메이션 | 63,709,917 | 825만 | AI · 원본 제목 #AIAnimation 및 YouTube AI 제작 표시. 사용 도구·완전 생성 여부 미확인. 약한 주인공의 성장과 역전 구조만 새 캐릭터로 응용 가능 (92초) | [수치](https://www.youtube.com/watch?v=nGtuqD1xn0Y) · 2026-11-27 03:25–03:26 KST YouTube 원본 더보기 (게시일은 화면 표기) |
 | [AI Comedy AD: Magic Fix  #ai #funny #aivideo #comedy](https://www.youtube.com/shorts/JYK3KHX-2Pk) · Mio Comedy Factory | 2026-10-14 | 코미디·일상 | 58,824,691 | 761만 | AI · 가상 제품 코미디 | [수치](https://www.youtube.com/watch?v=JYK3KHX-2Pk) · 2026-11-27 기존 원본 기록 |
 
 <a id="high-last-year"></a>
@@ -159,8 +160,8 @@
 |---|---:|---:|---:|---:|---:|---:|
 | [오늘 게시](#today) | 0 | 0 | 0 | 0 | 0 | 0 |
 | [최근 30일](#last-30-days) | 49 | 37 | 28 | 26 | 10 | 0 |
-| [최근 1년](#last-year) | 72 | 55 | 45 | 43 | 25 | 7 |
-| [1년 이전](#older) | 4 | 4 | 4 | 4 | 4 | 3 |
+| [최근 1년](#last-year) | 74 | 56 | 46 | 44 | 25 | 7 |
+| [1년 이전](#older) | 5 | 5 | 5 | 5 | 5 | 4 |
 
 한국 시청 가정의 최소 공개 조회수: 100만원 7,722,008회 · 200만원 15,444,016회 · 400만원 30,888,031회 · 500만원 38,610,039회 · 1,000만원 77,220,078회 · 1억원 772,200,773회.
 
@@ -263,6 +264,7 @@
 | [His Baby Grabbed Dad’s New Hair Like It Was Hers 🤯 #shorts](https://www.youtube.com/shorts/wRKsBkCdhRg) · OXPRESS | 2026-11-21 | AI·테크 | 68,555,498 | 887만 | AI · YouTube AI 제작 표시. 가상 헤어 변신을 새 캐릭터로 응용 가능. 기술 시연으로 오인하지 않도록 표시 | [수치](https://www.youtube.com/watch?v=wRKsBkCdhRg) · 2026-11-27 03:15 KST YouTube 원본 더보기 (게시일은 화면 표기) |
 | [The way Manon holding her laugh 😭 #katseye](https://www.youtube.com/shorts/XlqrlpkdlOw) · Everything Eyekons | 2026-11-07 | 음악·공연 | 64,651,750 | 837만 | 보류 · 아티스트 팬 편집본. 실촬영 원본 권리 및 재사용 수익 자격 미확인 | [수치](https://www.youtube.com/watch?v=XlqrlpkdlOw) · 2026-11-27 03:17 KST YouTube 원본 더보기 (게시일은 화면 표기) |
 | [Kids Learning Swimming Pool Safety Rules 🏊♀️](https://www.youtube.com/shorts/iStZFBTGJ2A) · Little Stars | 2026-11-20 | 교육·과학 | 64,338,196 | 833만 | AI · 어린이 대상 안전수칙 설명. 자체 캐릭터·새 대본으로 응용, 원본 제작 방식은 단정하지 않음 | [수치](https://viralhooks.org/shorts/v/iStZFBTGJ2A/) · 2026-11-26 09:15 UTC Viral Hooks 누적 스냅샷 |
+| [Kamzor Sheru Kaise Bana Taqatwar Sher? 🦁🔥#Shorts #YouTubeShorts #Sheru #AIAnimation #AnimalStory](https://www.youtube.com/shorts/nGtuqD1xn0Y) · HARIS EPIC AI | 2026-10-23 | 애니메이션 | 63,709,917 | 825만 | AI · 원본 제목 #AIAnimation 및 YouTube AI 제작 표시. 사용 도구·완전 생성 여부 미확인. 약한 주인공의 성장과 역전 구조만 새 캐릭터로 응용 가능 (92초) | [수치](https://www.youtube.com/watch?v=nGtuqD1xn0Y) · 2026-11-27 03:25–03:26 KST YouTube 원본 더보기 (게시일은 화면 표기) |
 | [Shortest Woman Vs Tallest Woman Got Arrested](https://www.youtube.com/shorts/P3eeQXn04q4) · Law By Mike | 2026-11-11 | 교육·과학 | 61,999,308 | 802만 | 실촬영 · 법률 규칙을 상황극으로 비교. 관할·사실관계는 따로 검증 | [수치](https://viralhooks.org/shorts/v/P3eeQXn04q4/) · 2026-11-26 09:15 UTC Viral Hooks 누적 스냅샷 |
 | [AI Comedy AD: Magic Fix  #ai #funny #aivideo #comedy](https://www.youtube.com/shorts/JYK3KHX-2Pk) · Mio Comedy Factory | 2026-10-14 | 코미디·일상 | 58,824,691 | 761만 | AI · 가상 제품 코미디 | [수치](https://www.youtube.com/watch?v=JYK3KHX-2Pk) · 2026-11-27 기존 원본 기록 |
 | [AI Comedy AD: Magic Fix White Clay  #ai #aivideo #funny #diy](https://www.youtube.com/shorts/G_9gDVrvDHA) · Mio Comedy Factory | 2026-09-08 | 코미디·일상 | 58,357,174 | 755만 | AI · 가상 제품 코미디 | [수치](https://www.youtube.com/watch?v=G_9gDVrvDHA) · 2026-11-27 기존 원본 기록 |
@@ -297,6 +299,7 @@
 | [Pop A Wheelie 😬](https://www.youtube.com/shorts/h7CgBPlQPqQ) · PenguRuckus | 2026-11-25 | 스포츠·도전 | 10,362,830 | 134만 | 보류 · 바이크 스턴트 · 촬영/안전 | [수치](https://www.youtube.com/watch?v=h7CgBPlQPqQ) · 2026-11-27 기존 원본 기록 |
 | [차돌박이 된장찌개 vs 돼지고기 김치찌개 #shorts](https://www.youtube.com/shorts/yIuaCj_HLBo) · 숏플레이 | 2026-02-27 | 음식 | 9,710,109 | 125만 | 실촬영 · 음식 상황극 | [수치](https://www.youtube.com/watch?v=yIuaCj_HLBo) · 2026-11-27 기존 원본 기록 |
 | [돼지갈비 무한리필 빌런 #shorts](https://www.youtube.com/shorts/FFjFoojO87Y) · 숏플레이 | 2026-02-25 | 음식 | 9,499,745 | 123만 | 실촬영 · 음식 상황극 | [수치](https://www.youtube.com/watch?v=FFjFoojO87Y) · 2026-11-27 기존 원본 기록 |
+| [사육사가 미끄러진 순간 판다의 반응](https://www.youtube.com/shorts/eSdig-Ig1qc) · 뚱멍쇼츠 | 2026-09-22 | 동물·힐링 | 9,488,564 | 122만 | AI · YouTube AI 제작 표시. 영상·음성 중 어느 부분이 생성됐는지 미확인. 원본 음원·장면 대신 자체 판다 캐릭터와 반전 구성 참고 (13초) | [수치](https://www.youtube.com/watch?v=eSdig-Ig1qc) · 2026-11-27 03:27–03:28 KST YouTube 원본 더보기 (한국어 게시일 표기; 영어 Shorts 화면 9/21) |
 | [先生の言うことを素直に聞きすぎた生徒たちｗｗ](https://www.youtube.com/shorts/u3T7K9T12hw) · マジかよ | 2026-11-22 | 코미디·일상 | 9,226,293 | 119만 | 보류 · 교실 코미디 · 영상 출처 확인 | [수치](https://www.youtube.com/watch?v=u3T7K9T12hw) · 2026-11-27 기존 원본 기록 |
 | [😂 #funny #cat](https://www.youtube.com/shorts/UkaFlUNzecA) · overdrive.aishorts | 2026-10-26 | 동물·힐링 | 8,797,555 | 113만 | 보류 · 고양이 코미디 · 출처 확인 | [수치](https://www.youtube.com/watch?v=UkaFlUNzecA) · 2026-11-27 기존 원본 기록 |
 | [Can you spot the 6th dancer? 🤭🤣 dc: @Alexandra_Marasigan](https://www.youtube.com/shorts/j7UL6JuFy2E) · Cadel and Mia | 2026-11-20 | 스포츠·도전 | 8,433,271 | 109만 | 실촬영 · 댄스·음원 권리 | [수치](https://www.youtube.com/watch?v=j7UL6JuFy2E) · 2026-11-27 기존 원본 기록 |
@@ -312,6 +315,7 @@
 | 쇼츠 원본 · 채널 | 게시일 | 섹터 | 공개 누적 조회수 | 한국 가정 | 제작 참고·주의 | 수치 근거 |
 |---|---|---|---:|---:|---|---|
 | [BEST Duo Trick Shots](https://www.youtube.com/shorts/aU2KRF87RPc) · Colin Amazing | 2024-12-17 | 스포츠·도전 | 5,220,837,916 | 6.76억 | 실촬영 · 둘이 맞춰야 성공하는 트릭샷. 과거 누적 조회수의 현재 RPM 환산은 반사실적 비교 | [수치](https://www.youtube.com/watch?v=aU2KRF87RPc) · 공개 원본 스냅샷 수치 |
+| [MOWGLI HAI JUNGLE KA RAJA ! \| जंगल बुक नया एपिसोड \| SEASON 3 = Jungle Book](https://www.youtube.com/shorts/kQS6B6x7ubw) · PowerKids TV | 2022-03-05 | 애니메이션 | 3,918,341,531 | 5.07억 | 보류 · 기존 CGI 애니메이션 구작 비교. DQ Entertainment의 시즌 3 공동제작 발표에 CGI 명시. 원본 캐릭터 복제 없이 동물 모험 티저 구조만 참고 (12초) | [수치](https://www.youtube.com/watch?v=kQS6B6x7ubw) · 2026-11-27 03:27–03:28 KST YouTube 원본 더보기 (게시일은 한국어 화면 표기) |
 | [Monica Toy \| Imitoys - If you can't imitate, just stay home!](https://www.youtube.com/shorts/ufvttxs9vEo) · Monica Toy | 2023-08-15 | 애니메이션 | 3,719,274,705 | 4.82억 | 보류 · 공식 애니 IP. 대사 없는 모방 게임 구조만 참고 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Baby Lala is sharing his food with Farm Animals \| Good Manners for kids](https://www.youtube.com/shorts/CvUw-xwfC8U) · Lalafun - Nursery Rhymes | 2025-06-24 | 애니메이션 | 2,805,044,319 | 3.63억 | 보류 · 음식을 동물에게 나누는 짧은 에피소드. 원본 생성 AI 사용 미확인 | [수치](https://trendreport.com/videos/most-viewed/this-month) · 2026-11-21 TrendReport 누적; YouTube 원본 날짜 표기 6/24 |
 | [Dadaji Ka Mango Tree](https://www.youtube.com/shorts/dH4gxobvr9I) · Toon Stories | 2025-03-31 | 애니메이션 | 701,019,203 | 9,078만 | AI · 원본 설명에 AI animation 표기. 아동용 가족 이야기; 시청국·적격 조회수와 정산 미확인 | [수치](https://www.youtube.com/watch?v=dH4gxobvr9I) · 2026-11-27 확인 · YouTube 검색 색인에 표시된 원본 누적 |
@@ -327,9 +331,9 @@
 | 교육·과학 | 7 | 7 | 6 | 6 | 3 | 0 |
 | 금융·경제 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 기타 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 동물·힐링 | 5 | 4 | 4 | 4 | 3 | 0 |
+| 동물·힐링 | 6 | 4 | 4 | 4 | 3 | 0 |
 | 스포츠·도전 | 10 | 8 | 5 | 5 | 5 | 3 |
-| 애니메이션 | 13 | 12 | 12 | 12 | 10 | 5 |
+| 애니메이션 | 15 | 14 | 14 | 14 | 11 | 6 |
 | 음식 | 12 | 6 | 5 | 5 | 4 | 1 |
 | 음악·공연 | 2 | 2 | 1 | 1 | 0 | 0 |
 | 코미디·일상 | 10 | 5 | 3 | 3 | 0 | 0 |
@@ -342,6 +346,7 @@
 | 쇼츠 원본 · 채널 | 게시일 | 섹터 | 공개 누적 조회수 | 한국 가정 | 제작 참고·주의 | 수치 근거 |
 |---|---|---|---:|---:|---|---|
 | [BEST Duo Trick Shots](https://www.youtube.com/shorts/aU2KRF87RPc) · Colin Amazing | 2024-12-17 | 스포츠·도전 | 5,220,837,916 | 6.76억 | 실촬영 · 둘이 맞춰야 성공하는 트릭샷. 과거 누적 조회수의 현재 RPM 환산은 반사실적 비교 | [수치](https://www.youtube.com/watch?v=aU2KRF87RPc) · 공개 원본 스냅샷 수치 |
+| [MOWGLI HAI JUNGLE KA RAJA ! \| जंगल बुक नया एपिसोड \| SEASON 3 = Jungle Book](https://www.youtube.com/shorts/kQS6B6x7ubw) · PowerKids TV | 2022-03-05 | 애니메이션 | 3,918,341,531 | 5.07억 | 보류 · 기존 CGI 애니메이션 구작 비교. DQ Entertainment의 시즌 3 공동제작 발표에 CGI 명시. 원본 캐릭터 복제 없이 동물 모험 티저 구조만 참고 (12초) | [수치](https://www.youtube.com/watch?v=kQS6B6x7ubw) · 2026-11-27 03:27–03:28 KST YouTube 원본 더보기 (게시일은 한국어 화면 표기) |
 | [Monica Toy \| Imitoys - If you can't imitate, just stay home!](https://www.youtube.com/shorts/ufvttxs9vEo) · Monica Toy | 2023-08-15 | 애니메이션 | 3,719,274,705 | 4.82억 | 보류 · 공식 애니 IP. 대사 없는 모방 게임 구조만 참고 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Baby Lala is sharing his food with Farm Animals \| Good Manners for kids](https://www.youtube.com/shorts/CvUw-xwfC8U) · Lalafun - Nursery Rhymes | 2025-06-24 | 애니메이션 | 2,805,044,319 | 3.63억 | 보류 · 음식을 동물에게 나누는 짧은 에피소드. 원본 생성 AI 사용 미확인 | [수치](https://trendreport.com/videos/most-viewed/this-month) · 2026-11-21 TrendReport 누적; YouTube 원본 날짜 표기 6/24 |
 | [He Turned a Potato Into Ice Cream](https://www.youtube.com/shorts/OSYllbqGfnA) · Diary of 4 | 2026-04-06 | 음식 | 2,093,187,555 | 2.71억 | 실촬영 · 감자 vs 아이스크림 선택 → 예상 밖 조리 반전 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
@@ -376,6 +381,7 @@
 | [His Baby Grabbed Dad’s New Hair Like It Was Hers 🤯 #shorts](https://www.youtube.com/shorts/wRKsBkCdhRg) · OXPRESS | 2026-11-21 | AI·테크 | 68,555,498 | 887만 | AI · YouTube AI 제작 표시. 가상 헤어 변신을 새 캐릭터로 응용 가능. 기술 시연으로 오인하지 않도록 표시 | [수치](https://www.youtube.com/watch?v=wRKsBkCdhRg) · 2026-11-27 03:15 KST YouTube 원본 더보기 (게시일은 화면 표기) |
 | [The way Manon holding her laugh 😭 #katseye](https://www.youtube.com/shorts/XlqrlpkdlOw) · Everything Eyekons | 2026-11-07 | 음악·공연 | 64,651,750 | 837만 | 보류 · 아티스트 팬 편집본. 실촬영 원본 권리 및 재사용 수익 자격 미확인 | [수치](https://www.youtube.com/watch?v=XlqrlpkdlOw) · 2026-11-27 03:17 KST YouTube 원본 더보기 (게시일은 화면 표기) |
 | [Kids Learning Swimming Pool Safety Rules 🏊♀️](https://www.youtube.com/shorts/iStZFBTGJ2A) · Little Stars | 2026-11-20 | 교육·과학 | 64,338,196 | 833만 | AI · 어린이 대상 안전수칙 설명. 자체 캐릭터·새 대본으로 응용, 원본 제작 방식은 단정하지 않음 | [수치](https://viralhooks.org/shorts/v/iStZFBTGJ2A/) · 2026-11-26 09:15 UTC Viral Hooks 누적 스냅샷 |
+| [Kamzor Sheru Kaise Bana Taqatwar Sher? 🦁🔥#Shorts #YouTubeShorts #Sheru #AIAnimation #AnimalStory](https://www.youtube.com/shorts/nGtuqD1xn0Y) · HARIS EPIC AI | 2026-10-23 | 애니메이션 | 63,709,917 | 825만 | AI · 원본 제목 #AIAnimation 및 YouTube AI 제작 표시. 사용 도구·완전 생성 여부 미확인. 약한 주인공의 성장과 역전 구조만 새 캐릭터로 응용 가능 (92초) | [수치](https://www.youtube.com/watch?v=nGtuqD1xn0Y) · 2026-11-27 03:25–03:26 KST YouTube 원본 더보기 (게시일은 화면 표기) |
 | [Shortest Woman Vs Tallest Woman Got Arrested](https://www.youtube.com/shorts/P3eeQXn04q4) · Law By Mike | 2026-11-11 | 교육·과학 | 61,999,308 | 802만 | 실촬영 · 법률 규칙을 상황극으로 비교. 관할·사실관계는 따로 검증 | [수치](https://viralhooks.org/shorts/v/P3eeQXn04q4/) · 2026-11-26 09:15 UTC Viral Hooks 누적 스냅샷 |
 | [AI Comedy AD: Magic Fix  #ai #funny #aivideo #comedy](https://www.youtube.com/shorts/JYK3KHX-2Pk) · Mio Comedy Factory | 2026-10-14 | 코미디·일상 | 58,824,691 | 761만 | AI · 가상 제품 코미디 | [수치](https://www.youtube.com/watch?v=JYK3KHX-2Pk) · 2026-11-27 기존 원본 기록 |
 | [AI Comedy AD: Magic Fix White Clay  #ai #aivideo #funny #diy](https://www.youtube.com/shorts/G_9gDVrvDHA) · Mio Comedy Factory | 2026-09-08 | 코미디·일상 | 58,357,174 | 755만 | AI · 가상 제품 코미디 | [수치](https://www.youtube.com/watch?v=G_9gDVrvDHA) · 2026-11-27 기존 원본 기록 |
@@ -410,6 +416,7 @@
 | [Pop A Wheelie 😬](https://www.youtube.com/shorts/h7CgBPlQPqQ) · PenguRuckus | 2026-11-25 | 스포츠·도전 | 10,362,830 | 134만 | 보류 · 바이크 스턴트 · 촬영/안전 | [수치](https://www.youtube.com/watch?v=h7CgBPlQPqQ) · 2026-11-27 기존 원본 기록 |
 | [차돌박이 된장찌개 vs 돼지고기 김치찌개 #shorts](https://www.youtube.com/shorts/yIuaCj_HLBo) · 숏플레이 | 2026-02-27 | 음식 | 9,710,109 | 125만 | 실촬영 · 음식 상황극 | [수치](https://www.youtube.com/watch?v=yIuaCj_HLBo) · 2026-11-27 기존 원본 기록 |
 | [돼지갈비 무한리필 빌런 #shorts](https://www.youtube.com/shorts/FFjFoojO87Y) · 숏플레이 | 2026-02-25 | 음식 | 9,499,745 | 123만 | 실촬영 · 음식 상황극 | [수치](https://www.youtube.com/watch?v=FFjFoojO87Y) · 2026-11-27 기존 원본 기록 |
+| [사육사가 미끄러진 순간 판다의 반응](https://www.youtube.com/shorts/eSdig-Ig1qc) · 뚱멍쇼츠 | 2026-09-22 | 동물·힐링 | 9,488,564 | 122만 | AI · YouTube AI 제작 표시. 영상·음성 중 어느 부분이 생성됐는지 미확인. 원본 음원·장면 대신 자체 판다 캐릭터와 반전 구성 참고 (13초) | [수치](https://www.youtube.com/watch?v=eSdig-Ig1qc) · 2026-11-27 03:27–03:28 KST YouTube 원본 더보기 (한국어 게시일 표기; 영어 Shorts 화면 9/21) |
 | [先生の言うことを素直に聞きすぎた生徒たちｗｗ](https://www.youtube.com/shorts/u3T7K9T12hw) · マジかよ | 2026-11-22 | 코미디·일상 | 9,226,293 | 119만 | 보류 · 교실 코미디 · 영상 출처 확인 | [수치](https://www.youtube.com/watch?v=u3T7K9T12hw) · 2026-11-27 기존 원본 기록 |
 | [😂 #funny #cat](https://www.youtube.com/shorts/UkaFlUNzecA) · overdrive.aishorts | 2026-10-26 | 동물·힐링 | 8,797,555 | 113만 | 보류 · 고양이 코미디 · 출처 확인 | [수치](https://www.youtube.com/watch?v=UkaFlUNzecA) · 2026-11-27 기존 원본 기록 |
 | [Can you spot the 6th dancer? 🤭🤣 dc: @Alexandra_Marasigan](https://www.youtube.com/shorts/j7UL6JuFy2E) · Cadel and Mia | 2026-11-20 | 스포츠·도전 | 8,433,271 | 109만 | 실촬영 · 댄스·음원 권리 | [수치](https://www.youtube.com/watch?v=j7UL6JuFy2E) · 2026-11-27 기존 원본 기록 |
@@ -456,6 +463,7 @@
 ### 고조회 미산정 후보
 
 - 최근 발견: [Crazy LoLo Ai](https://mostviewed.today/video/tkSliSWk20o), [Tiny Little Chaos](https://mostviewed.today/video/ZsCLTsFU7UQ), [SpinFactz 게임 소재 쇼츠](https://mostviewed.today/video/TXYkiIRMzH8). 표시 수치가 반올림되었거나 원본 절대 게시일을 확정하지 못해 제외했습니다. 차트 발견일을 게시일로 쓰지 않았습니다.
+- 03:23 회차 재검증: [Crazy LoLo Ai 가족 상황극](https://www.youtube.com/shorts/tkSliSWk20o)은 [원본 더보기](https://www.youtube.com/watch?v=tkSliSWk20o)에서 2026-11-08 게시, 15초, 294,632,071회(2026-11-27 03:26 KST) 확인. 창작자·공식 영상별 제작 근거가 없어 계속 미산정. Tiny Little Chaos는 위 31일 표의 원본 재검증 결과를 참조.
 - 1년 이내 후보: [Handmade by Naim 원본](https://www.youtube.com/shorts/4bugfYlFN2M)은 공개 차트에서 1.46B로 반올림 표시. [Gadi laya / Kritika Lollipop 공개 차트](https://aifreeforever.com/chart/youtube/most-viewed-shorts-this-year)는 각 원본 ID 대조를 못 해 미산정입니다.
 
 <a id="calculation-audit"></a>
@@ -490,3 +498,7 @@
 - 모든 영상은 최근 31일 게시. 8편은 한국 시청 50% 적격 참여 가정에서 500만 원 이상이고, 일본 육상 쇼츠 1편은 비교작입니다. 오늘 게시로 확인된 영상은 없습니다.
 - 한국 50% 가정의 신규 최대는 [Tiny Little Chaos](https://www.youtube.com/shorts/ZsCLTsFU7UQ) 5,714만 원. 같은 조회수에 미국 50% 가정은 약 1억 131만 원, 일본 50% 가정은 약 4,447만 원입니다. 공개 수치 기반 시나리오이며 확인된 정산액은 없습니다.
 - [데이터](batches.json) · 신규 ID: `pUKiRbwUczU`, `435DdxoYfPY`, `35E5QM_BhXw`, `bwgk_TQQUUg`, `wRKsBkCdhRg`, `hZ7gRdvXF_g`, `9gwJ4QV-ZDk`, `XlqrlpkdlOw`, `ZsCLTsFU7UQ`.
+
+### 2026-11-27 · 03:23 KST 시작 스토리·애니메이션 3편
+
+- [제작 방식 및 3국 시나리오](story-animation.md#exact-source-0323) · 신규 ID `nGtuqD1xn0Y`, `eSdig-Ig1qc`, `kQS6B6x7ubw`. 최근 60일에 검증한 AI 사자 이야기는 한국 가정 500만 원 이상입니다. 정글북은 1년 이전 기존 CGI 비교작이므로 31일·60일·1년 문턱 집계에는 포함되지 않습니다. 이 배치에서 오늘 게시와 실제 정산은 확인하지 못했습니다.

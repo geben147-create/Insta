@@ -6,6 +6,21 @@
 - 1년 이내 새로 찾은 일반 애니메이션 세 편은 한국 가정 기준 1억 원을 넘습니다. 생성 AI 제작 근거는 확인하지 못했습니다.
 - 원본이 AI 애니메이션이라고 밝힌 Toon Stories 사례는 1년 이전 영상입니다. 한국·일본 가정은 1억 미만, 미국 가정은 1억 이상입니다. 아동용 콘텐츠의 실제 RPM·시청국·적격 조회 비중은 알려지지 않았습니다.
 
+<a id="exact-source-0323"></a>
+## 03:23 KST 시작 회차 · 원본 정확 조회 확인
+
+최근 31일에는 새로 검증한 1억 원 시나리오 AI 스토리가 없었습니다. 기존 색인의 [Tiny Little Chaos](https://www.youtube.com/shorts/ZsCLTsFU7UQ)는 [YouTube AI 표시와 441,254,391회 원본 기록](https://www.youtube.com/watch?v=ZsCLTsFU7UQ)으로 미국 가정에서 약 1억 131만 원을 넘지만, 전체의 제작 방식과 정산은 확인되지 않았습니다. 같은 조회수에서 한국·일본 가정은 1억 원 미만입니다. 아래 정글북의 1억 원 이상 시나리오는 **구작 CGI 비교값**입니다.
+
+| 원본 · 채널 | 게시일 | 길이 | 정확 누적 조회수 | 한국 / 일본 / 미국 가정 (원) | 제작 근거 |
+|---|---|---:|---:|---:|---|
+| [Kamzor Sheru Kaise Bana Taqatwar Sher? 🦁🔥#Shorts #YouTubeShorts #Sheru #AIAnimation #AnimalStory](https://www.youtube.com/shorts/nGtuqD1xn0Y) · HARIS EPIC AI · 최근 60일 · AI 동물 스토리 | 2026-10-23 | 92초 | [63,709,917](https://www.youtube.com/watch?v=nGtuqD1xn0Y) · 2026-11-27 03:25–03:26 KST YouTube 원본 더보기 (게시일은 화면 표기) | 8,250,434 / 6,421,960 / 14,627,797 | [원본 제목 `#AIAnimation` 및 YouTube 제작 표시](https://www.youtube.com/watch?v=nGtuqD1xn0Y). 3D 제작 파이프라인·전체 생성 여부 미확인. |
+| [사육사가 미끄러진 순간 판다의 반응](https://www.youtube.com/shorts/eSdig-Ig1qc) · 뚱멍쇼츠 · 1년 이내 · AI 사용 표시 | 2026-09-22 | 13초 | [9,488,564](https://www.youtube.com/watch?v=eSdig-Ig1qc) · 2026-11-27 03:27–03:28 KST YouTube 원본 더보기 (한국어 게시일 표기; 영어 Shorts 화면 9/21) | 1,228,769 / 956,447 / 2,178,574 | YouTube AI 표시. 어떤 부분이 AI인지, 제작 도구는 미확인. |
+| [MOWGLI HAI JUNGLE KA RAJA ! \| जंगल बुक नया एपिसोड \| SEASON 3 = Jungle Book](https://www.youtube.com/shorts/kQS6B6x7ubw) · PowerKids TV · 1년 이전 · 비AI 비교용 기존 CGI | 2022-03-05 | 12초 | [3,918,341,531](https://www.youtube.com/watch?v=kQS6B6x7ubw) · 2026-11-27 03:27–03:28 KST YouTube 원본 더보기 (게시일은 한국어 화면 표기) | 507,425,228 / 394,968,826 / 899,651,216 | [DQ Entertainment의 2015년 공동제작 공시](https://shareprices.com/rns/dqe-ellipsanime-co-production-agreement-u72u0dbztbj734n)에 시즌 3 CGI 명시. 기존 12초 예고편이며 생성 AI 사례에서 제외. |
+
+**제작 미확인·미산정:** [Crazy LoLo Ai](https://www.youtube.com/shorts/tkSliSWk20o)는 [공개 원본](https://www.youtube.com/watch?v=tkSliSWk20o)에서 2026-11-08, 15초, 294,632,071회(2026-11-27 03:26 KST) 확인. 채널 이름이나 실사풍만으로 AI 사용을 단정하지 않습니다. 아래 차트의 초기 수치는 이보다 이전 자료입니다.
+
+**AI로 새 원작 응용 가능:** 약한 동물의 성장 역전, 보호자와 아이의 감정 전환, 대사 없는 캐릭터 모험에서 구조만 참고할 수 있습니다. 원본 인물·음원·캐릭터는 복제하지 않습니다. 이 구분은 원본의 제작 방식과 별개입니다.
+
 ## 장르·출처별 비교
 
 | 영상 | 분류 | 게시일 | 공개 누적 조회수 | 한국 가정 | 일본 가정 | 미국 가정 | 제작 근거 |

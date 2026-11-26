@@ -1,0 +1,38 @@
+# 주제별 쇼츠 벤치마크: 역사·일본 반응·금융·AI 캐릭터
+
+**조사일: 2026-11-27 KST.** [전체 Shorts 색인](README.md) · [AI 드라마와 3D 사례](story-animation.md)
+
+아래 순위는 이번에 확인한 비교 표본입니다. 금액의 기준은 공개 누적 조회수이며, 영상별 Studio 광고 정산이나 협찬 계약액이 아닙니다. 이 표본에는 한국 가정 500만 원·1억 원 이상이 없어서 기존 고수익 표를 바꾸지 않았습니다.
+
+## 확인한 편당 공개 수치
+
+영상 링크는 Shorts, 조회수 링크는 같은 ID의 YouTube 시청 페이지입니다. 원본 더보기 또는 공개 검색의 정확한 수치를 사용했습니다. 일자는 화면 표기 기준이며 표시 시간대에 따라 하루 차이가 날 수 있습니다. 일부 공개 검색 수치는 조사일에 조회 가능한 스냅샷으로, 실시간으로 갱신한 값은 아닙니다.
+
+| 분야·원본 | 채널·출처 | 게시일 | 공개 누적 조회수 | 한국 가정 | 일본 가정 | 미국 가정 | 메모 |
+|---|---|---|---:|---:|---:|---:|---|
+| [인생사 새옹지마](https://www.youtube.com/shorts/egRjAbOp2C4) | 정서불안 김햄찌 | 2026-06-30 | [12,777,291](https://www.youtube.com/watch?v=egRjAbOp2C4) | 1,654,659원 | 1,287,951원 | 2,933,666원 | AI 캐릭터 · Spotify 유료광고 표기; 협찬비·YouTube 실제 정산 미공개; 1분 33초 |
+| [도취의 순간](https://www.youtube.com/shorts/AsU5_30c64E) | 정서불안 김햄찌 | 2026-11-06 | [1,245,404](https://www.youtube.com/watch?v=AsU5_30c64E) | 161,280원 | 125,537원 | 285,945원 | AI 캐릭터 · 실제 정산 미확인 |
+| [Japão é OUTRO mundo!](https://www.youtube.com/shorts/x3URuVhM4cs) | StealthyPortal | 2026-09-12 | [416,098](https://www.youtube.com/watch?v=x3URuVhM4cs) | 53,885원 | 41,943원 | 95,536원 | 일본 거리 청결과 생활문화에 대한 칭찬형 비교; 채널 서술을 일반화하지 않음 |
+| [외국인 남성이 일본 라멘에 감동](https://www.youtube.com/shorts/mwjFvS_HsFE) | 世界が見たニッポンの凄さ | 2026-11-08 | [29,135](https://www.youtube.com/watch?v=mwjFvS_HsFE) | 3,773원 | 2,937원 | 6,689원 | 일본어권 해외반응; 설명에 여행 원본 출처 표기, 재사용 허락·적격성은 미확인 |
+| [The Great Pyramids Are Power Plants?!](https://www.youtube.com/shorts/yJznzJrQsR0) | HISTORY | 2023-10-30 | [1,094,084](https://www.youtube.com/watch?v=yJznzJrQsR0) | 141,684원 | 110,284원 | 251,202원 | 역사 미스터리 구작 · TV 프로그램의 공식 클립. 가설을 사실로 취급하지 않음 |
+| [남의 차 운전할 땐 원데이보험 이용하세요](https://www.youtube.com/shorts/cou2R-B28nI) | 한문철 TV | 2026-11-13 | [28,297](https://www.youtube.com/watch?v=cou2R-B28nI) | 3,664원 | 2,852원 | 6,497원 | 자동차보험 · 사건에서 질문을 뽑는 방식; 상품·보장범위는 약관 확인 |
+| [S&P 500 ETF 국내 상장 vs 미국 직접 투자](https://www.youtube.com/shorts/Ggnrof1Sxm0) | 원본 ETF 설명 쇼츠 | 2025-09-30 | [7,623](https://www.youtube.com/watch?v=Ggnrof1Sxm0) | 987원 | 768원 | 1,750원 | ETF · 수수료·세금 질문형; 거주지·계좌·시점에 따라 달라짐 |
+| [September Is Not A Guaranteed Market Crash](https://www.youtube.com/shorts/F7OamSNFkeM) | Benzinga | 2026-08-31 | [1,134](https://www.youtube.com/watch?v=F7OamSNFkeM) | 147원 | 114원 | 260원 | 주식 · 시장의 계절성 통계와 확정 예측을 구분하는 포맷 |
+| [버핏이 주식시장을 60년 중 가장 도박 같다고 본 이유](https://www.youtube.com/shorts/q1uAAlg24QE) | 일본어 투자 해설 쇼츠 | 2026-10-03 | [3,121](https://www.youtube.com/watch?v=q1uAAlg24QE) | 404원 | 315원 | 717원 | 투자 대가 · 해설자의 버핏 인용. 책 제휴 링크와 광고수익 구분 |
+| [Charlie Munger Nasıl Milyarder Oldu?](https://www.youtube.com/shorts/GLAA9suahcg) | Aydın Açıkgöz / Yatırım Noktası | 2026-08-09 | [831](https://www.youtube.com/watch?v=GLAA9suahcg) | 108원 | 84원 | 191원 | 투자 대가 · AI 제작 표시된 전기형 쇼츠. 성과 보장 아님 |
+
+가정: 각각 해당 국가 시청자 100%, 공개 조회 중 적격 참여 조회 50%, 환율 1,400원/USD. 공개 조회 1회당 한국 0.1295원, 일본 0.1008원, 미국 0.2296원. 한국 가정으로 500만 원은 약 3,861만 조회, 1억 원은 약 7억 7,220만 조회. 채널 구독자, 전체 조회수, 브랜드 매출·제휴·리드 수입과 별개입니다.
+
+## 실제 정산/수익화 증거
+
+- **김햄찌:** [스포티파이 협업 편](https://www.youtube.com/watch?v=egRjAbOp2C4)은 유료광고임을 명시하지만 계약액과 YouTube 정산액은 공개하지 않았습니다. [2025 대한민국 최고 인기 햄스터](https://www.youtube.com/watch?v=VY_VOgNuMUM)는 창작자가 ‘본 영상은 조회수 수익이 발생하지 않습니다’라고 명시했습니다. 이 문구는 그 영상 1편에 한하며 다른 쇼츠로 확대하지 않습니다. [YouTube 공식 제작자 인터뷰](https://blog.youtube/intl/ko-kr/creator-and-artist-stories/creator-of-the-month-november)는 AI 활용과 최대 다섯 장면 스토리보드 방식을 확인합니다.
+- **딥 호라이즌:** [공식 채널](https://www.youtube.com/@DeepHorizon-1991)은 세계사·한국사 다큐멘터리 채널입니다. 이번 확인에서 공식 Shorts 탭 경로가 채널 홈을 보여 해당 채널의 원본 쇼츠 수치를 확보하지 못했습니다. [운영자의 멤버십 중단 공지](https://www.youtube.com/post/Ugkxp6rmI_TZ8VLI6zhoqfg4TeOHBTF2oDM-)와 [도움말 커뮤니티의 YPP 정지 자진 공개](https://support.google.com/youtube/thread/477527439?hl=ko)는 각각 멤버십·YPP 상태 관련 별개 근거입니다. 최신 복구 여부 및 과거/현재 편당 광고 지급액은 모릅니다. ‘관측사정’은 채널명 미확정이어서 탐사·미스터리 주제만 별도 추적합니다.
+- **해외반응:** [단골이슈](https://www.youtube.com/@dangolissue)·[쓸모왕](https://www.youtube.com/@sslmowang)은 한국을 주로 다루는 해외반응 포맷 벤치마크입니다. 일본을 긍정적으로 다룬 표본과는 별도 분류했습니다. 채널 평균·채널 광고수익 추정치를 편당 지급 근거로 쓰지 않았습니다. 출처 표기가 사용 허락을 대신하지 않습니다.
+
+## 다음 조사와 원작 제작에 참고할 점
+
+1. **햄찌류:** 사소하지만 공감되는 사건을 한 편에 하나만 두고, 고유 이름·외형·말투의 새로운 캐릭터로 시험합니다. 협찬 회차와 일반 회차 조회수를 섞어 평균을 내지 않습니다.
+2. **역사 탐사·일본 반응:** 반전 질문에서 시작해 사료나 현장 자료 하나를 보여주고, 확인된 사실과 가설을 구분합니다. 일본 편은 교통·음식·생활 기술처럼 눈으로 확인할 수 있는 대상을 택하고, 다른 나라를 비하하거나 인터뷰를 꾸미지 않습니다.
+3. **주식·ETF·보험:** 숫자 비교, 비용, 보장 제외 조건처럼 검증 가능한 질문에 답하는 형식부터 비교합니다. 극단적인 수익·공포를 약속하지 않고, 시청수와 금융 리드/상품 제휴 가격을 섞지 않습니다.
+4. **투자 대가:** 버핏은 [버크셔 2013 주주서한](https://www.berkshirehathaway.com/letters/2013ltr.pdf)에 특정 신탁을 위한 90% 저비용 S&P 500 인덱스펀드·10% 단기 국채 지침을 적었습니다. 보글의 [Vanguard 공식 기록](https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles/50-years-50-facts-indexing-since-1976.html)은 저비용·분산 원칙을 확인하는 자료입니다. 멍거·피터 린치 사례는 원전과 쇼츠 수치를 별도로 대조합니다. 투자 조언이 아니라 콘텐츠 소재 비교입니다.
+5. **예약:** 최근 31일→60일→1년→구작을 순회합니다. 확인된 원본 ID·날짜·정확 누적 조회·정산 근거가 있을 때만 갱신하며, 조회는 확인되나 500만 원 미만인 사례는 비교표에만 남깁니다.

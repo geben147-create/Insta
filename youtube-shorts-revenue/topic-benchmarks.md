@@ -24,6 +24,7 @@
 | [Ginger & Midnight Try New York Street Food 🌭🥨🗽 #catcomedy #talkingcat #streetfood](https://www.youtube.com/shorts/UojMu-z4U-M) | Fluffy Animal AI | 2026-02-04 | [2,054](https://www.youtube.com/watch?v=UojMu-z4U-M) | 266원 | 207원 | 472원 | 1년 비교 · 58초 · 11-27 KST 한국어 원본 더보기. 제작자가 자체 AI 캐릭터와 수동 편집을 명시; 아마존 제휴 고지와 편당 정산·협찬은 별개, 3D 미확인 |
 | [[실화 바탕] 60대 부부를 태운 대리기사가 끝내 눈물을 흘린 이유 #AI가상인물 #시니어드라마 #시니어쇼츠 #시니어 #반전드라마](https://www.youtube.com/shorts/MjieDVvkK_Y) | 훈작가의 숏드라마 | 2026-11-05 | [2,954,657](https://www.youtube.com/watch?v=MjieDVvkK_Y) | 382,628원 | 297,829원 | 678,389원 | 31일 비교 · 2분 7초 · 11-27 KST 원본 더보기. 제목과 YouTube 표시에서 AI 사용 확인; 실제 3D·광고 정산·협찬 미확인. 상품 태그는 수입 증거 아님 |
 | [The Little Tree Hut That Saved Their Farm 🥜🌧️ \| Ghibli Village #shorts #villagelife #villagecooking](https://www.youtube.com/shorts/I8F7ZjBmp7w) | @GauleyStory | 2026-11-21 | [1,142](https://www.youtube.com/watch?v=I8F7ZjBmp7w) | 148원 | 115원 | 262원 | 31일 비교 · 35초 · 11-27 KST 원본 더보기. 제작자 설명에서 농장과 부부 이야기 확인; AI·3D 제작 방식과 광고 정산 미확인. 외부의 동명 고조회 수치는 이 ID에 적용하지 않음 |
+| [【圧倒的敗北🐾】「めぇ〜」と鳴いてみたにゃんこたち、本物のひつじによる本気メェ〜で即論破されて草ww 🐑🐈 #コスプレ](https://www.youtube.com/shorts/-4mnjUwwodw) | 今日のAIにゃんこ公式 | 2026-11-07 | [66](https://www.youtube.com/watch?v=-4mnjUwwodw) | 9원 | 7원 | 15원 | 일본어 AI 캐릭터 · 31일 비교 · 12초 · 11-27 KST 원본 더보기. 제작자가 AI 도구와 독자적 이야기·연출을 명시. 3D·편당 정산·협찬 미확인; LINE 스티커 링크는 매출 증거 아님 |
 
 가정: 각각 해당 국가 시청자 100%, 공개 조회 중 적격 참여 조회 50%, 환율 1,400원/USD. 공개 조회 1회당 한국 0.1295원, 일본 0.1008원, 미국 0.2296원. 한국 가정으로 500만 원은 약 3,861만 조회, 1억 원은 약 7억 7,220만 조회. 채널 구독자, 전체 조회수, 브랜드 매출·제휴·리드 수입과 별개입니다.
 

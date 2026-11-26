@@ -21,6 +21,9 @@
 | [버핏이 주식시장을 60년 중 가장 도박 같다고 본 이유](https://www.youtube.com/shorts/q1uAAlg24QE) | 일본어 투자 해설 쇼츠 | 2026-10-03 | [3,121](https://www.youtube.com/watch?v=q1uAAlg24QE) | 404원 | 315원 | 717원 | 투자 대가 · 해설자의 버핏 인용. 책 제휴 링크와 광고수익 구분 |
 | [Charlie Munger Nasıl Milyarder Oldu?](https://www.youtube.com/shorts/GLAA9suahcg) | Aydın Açıkgöz / Yatırım Noktası | 2026-08-09 | [831](https://www.youtube.com/watch?v=GLAA9suahcg) | 108원 | 84원 | 191원 | 투자 대가 · AI 제작 표시된 전기형 쇼츠. 성과 보장 아님 |
 
+| [신상을 사면 생기는 일](https://www.youtube.com/shorts/YNYQ6dSvEWk) | 정서불안 김햄찌 | 2026-11-16 | [725,442](https://www.youtube.com/watch?v=YNYQ6dSvEWk) | 93,945원 | 73,125원 | 166,561원 | 31일 비교 · 59초 · 11-27 KST 원본 더보기. 제작자가 AI 도구와 직접 커스터마이징 및 각색을 명시; 제작 3D·편당 실제 정산·협찬 미확인 |
+| [Ginger & Midnight Try New York Street Food 🌭🥨🗽 #catcomedy #talkingcat #streetfood](https://www.youtube.com/shorts/UojMu-z4U-M) | Fluffy Animal AI | 2026-02-04 | [2,054](https://www.youtube.com/watch?v=UojMu-z4U-M) | 266원 | 207원 | 472원 | 1년 비교 · 58초 · 11-27 KST 한국어 원본 더보기. 제작자가 자체 AI 캐릭터와 수동 편집을 명시; 아마존 제휴 고지와 편당 정산·협찬은 별개, 3D 미확인 |
+
 가정: 각각 해당 국가 시청자 100%, 공개 조회 중 적격 참여 조회 50%, 환율 1,400원/USD. 공개 조회 1회당 한국 0.1295원, 일본 0.1008원, 미국 0.2296원. 한국 가정으로 500만 원은 약 3,861만 조회, 1억 원은 약 7억 7,220만 조회. 채널 구독자, 전체 조회수, 브랜드 매출·제휴·리드 수입과 별개입니다.
 
 ## 실제 정산/수익화 증거

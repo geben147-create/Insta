@@ -6,6 +6,7 @@ const BF = '../../research-hub-20261108/broadcast-font-subtitle-master-20261121/
 const MENUS = {
   thumb: [
     {id:'masterv32', t:'🟨 썸네일·제목 최종 통합 V3.2', s:'최우선 · 핵심 10줄 · 4안 · 한국/일본 · 56편 검수', tag:'new', f:'thumb-master-v32/'},
+    {id:'v32trial', t:'🆚 V3.2 시범 4안 · 기존과 좌우 비교', s:'EP08 부산 가족 · A/B/C/D · 제목·문구·근거', tag:'new', f:'thumb-v32-trial/'},
     {id:'handoffv31', t:'📦 썸네일 V3.1 이전 패키지 (원본 보존)', s:'요구 원문 · HEX·크기 · 소스코드 · 완성 5장 · 재현 프롬프트', tag:'new', f:'thumb-handoff-v31/'},
     {id:'statistics-material', t:'💎 통계·지도·종이 재질 스튜디오', s:'🌸 12종 비교 · 입체/글자 개선 · 3종 추가', tag:'new', f:'../../research-hub-20261108/kukppong-v4-claude/statistics-material-lab-20261124/?v=20261125-r2&focus=1'},
     {id:'sfx-soft', t:'🌸 맑은 알림·가벼운 타격 효과음', s:'띠롱·띠리링·부드러운 쿵 · 바로 듣기', tag:'new', f:'edit-preview.html?v=20261125-sfx-r3&panel=sfx&collection=shorts&embed=1'},

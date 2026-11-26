@@ -1,0 +1,175 @@
+{
+ "meta": {
+  "episode_id": "EP02",
+  "target_country": "JP",
+  "output_language": "ja",
+  "review_language": "ko",
+  "script": "01_대본/EP02_로봇_본편대본_v2.md",
+  "power_words_existing": [
+   "대박",
+   "경악",
+   "충격",
+   "놀람",
+   "논란",
+   "오열",
+   "난리",
+   "대폭발",
+   "대반전",
+   "발칵",
+   "망연자실",
+   "백기",
+   "뒤집힌"
+  ],
+  "power_words_ref": [
+   "현재",
+   "상황",
+   "이유",
+   "근황",
+   "소름",
+   "돌변",
+   "미친",
+   "흥분",
+   "환호",
+   "참교육",
+   "심각한 상황",
+   "아수라장",
+   "넋 나간 이유",
+   "왜 못하나",
+   "결국.."
+  ],
+  "power_words_new": [
+   "🔵🆕 사라진 줄 알았던",
+   "🔵🆕 안을 열면",
+   "🔵🆕 멈추지 않는"
+  ],
+  "power_words_used": {
+   "A": "이유",
+   "B": "대반전(ja まさかの逆転 — 근거: V2 반전 4개 S5·S7·S8-2·S9-2 범위 안, '전 세계' 일반화 없음)",
+   "C": "이유",
+   "D": "이유"
+  },
+  "gemini_thumbnail_report_original": "미확보(이 PC에서 파일 미발견)",
+  "render_status": "미실행(이미지 생성·렌더 금지)",
+  "user_approved": false,
+  "analysis_note": "사용자 예시 31행·TOP20 말투(인용구 + 반응 주체 + 해외반응 + 이모지 1개, '…이유', '…상황', '?/..' 여운) 유지. 240쌍(copy-ideas.csv)·4안(four-per-outline.csv)은 이모지·해외반응 표현 0건이라 문형만 참고(V3.2 §1). 일본 문형 「日本の[対象]に[反応主体]が驚いた理由…」「[当初の評価]から一転、[現場]で何が？」를 현지화. 숫자는 일본어 표기(38%·82.6%·365人·半額)."
+ },
+ "titles": [
+  {
+   "variant": "A",
+   "hook": "외국인 실제 한마디·인용구형",
+   "ja": "「技術じゃない、信頼だ」中国人解説者が認めた日本ロボットの本当の壁…半額の中国製より選ばれる理由🤔 日本 海外の反応",
+   "ko": "\"기술이 아니라, 신뢰다\" 중국인 해설자가 인정한 일본 로봇의 진짜 장벽… 반값 중국산보다 선택받는 이유🤔 일본 해외반응",
+   "reactor": "中国人解説者(YouTube 毛驴公社 — 중국어 채널·'국산 로봇' 자국 관점 해설 기준, 외모 추정 아님)",
+   "quote_key": "shinrai",
+   "basis": "S8 ▶ JFVXS_TOdLQ 04:29.320–04:32.060 (#51) · S6 ▶ 04:07.820–04:14.440 (외국산 30만 위안 vs 국산 15만 위안, #32·#33)",
+   "hidden": "신뢰의 정체(관절 감속기·평생 보수·멈추지 않는 라인)는 미공개",
+   "quote": {
+    "src": "YouTube JFVXS_TOdLQ (毛驴公社)",
+    "url": "https://www.youtube.com/watch?v=JFVXS_TOdLQ&t=269s",
+    "tc": "04:29.320–04:32.060",
+    "orig": "这才是真正的壁垒，不是技术，是信任。",
+    "ko": "이게 진짜 장벽입니다. 기술이 아니라, 신뢰.",
+    "ja": "これこそ本当の壁だ。技術じゃない、信頼だ。"
+   },
+   "len_ja": 58,
+   "len_ko": 67,
+   "checks": {
+    "日本": true,
+    "海外の反応": true,
+    "emoji": true,
+    "under100": true,
+    "quote_matches_source": true,
+    "answer_hidden": true
+   }
+  },
+  {
+   "variant": "B",
+   "hook": "악평·편견·국가 비교·반전형",
+   "ja": "「日本はこの業界から消えた感じ」と中国で言われた日本のロボット…世界の工場の中を開けたらまさかの逆転🔥 中国人解説者 海外の反応",
+   "ko": "\"일본은 이 업계에서 사라진 느낌\" 중국에서 이런 말을 들은 일본 로봇… 세계 공장 속을 열어 보니 뜻밖의 대반전🔥 중국인 해설자 해외반응",
+   "reactor": "中国人解説者(YouTube 差评君 — 중국어 테크 채널 기준, 외모 추정 아님)",
+   "quote_key": "kieta",
+   "basis": "S1 ▶ xLeQ_3a4xT0 00:23.400–00:29.980 (#2) → S5 노란 팔 · S7 '겉은 중국, 관절은 일본' 반전",
+   "hidden": "무엇이 들어 있는지(일본 관절·감속기)는 미공개",
+   "quote": {
+    "src": "YouTube xLeQ_3a4xT0 (差评君)",
+    "url": "https://www.youtube.com/watch?v=xLeQ_3a4xT0&t=23s",
+    "tc": "00:23.400–00:29.980",
+    "orig": "但站在2025年的今天，宇树的机器人正在和波士顿动力隔空PK，但是日本感觉消失在了这个行业。",
+    "ko": "그런데 2025년 지금, 유니트리 로봇은 보스턴 다이내믹스와 맞붙는데, 일본은 이 업계에서 사라진 느낌이에요.",
+    "ja": "でも2025年の今、ユニツリーのロボットはボストン・ダイナミクスと張り合っているのに、日本はこの業界から消えた感じだ。"
+   },
+   "len_ja": 64,
+   "len_ko": 77,
+   "checks": {
+    "日本": true,
+    "海外の反応": true,
+    "emoji": true,
+    "under100": true,
+    "quote_matches_source": true,
+    "answer_hidden": true
+   }
+  },
+  {
+   "variant": "C",
+   "hook": "숫자·해외 언론·현장 파급형",
+   "ja": "世界のロボットの38%が日本製⁉ 米ブルームバーグが「世界1位」と呼んだ国…国内市場3位に落ちても輸出82.6%の理由😳 日本 海外の反応",
+   "ko": "세계 로봇의 38%가 일본산⁉ 미국 블룸버그가 \"세계 1위\"라 부른 나라… 안방 시장 3위로 밀려도 수출 82.6%인 이유😳 일본 해외반응",
+   "reactor": "海外メディア(Bloomberg Originals 進行者)",
+   "quote_key": "no1",
+   "basis": "S1 ▶ bk8OtebGpt8 00:11.594–00:18.351 (#3) · S1 IFR 38%(2023 생산) · S4 IFR 2026 일본 시장 3위 · S9-2 JARA 2025 수출 82.6%",
+   "hidden": "무엇을 수출하는지·왜 계속 팔리는지 미공개",
+   "quote": {
+    "src": "YouTube bk8OtebGpt8 (Bloomberg Originals)",
+    "url": "https://www.youtube.com/watch?v=bk8OtebGpt8&t=11s",
+    "tc": "00:11.594–00:18.351",
+    "orig": "Japan’s relationship with robotics is unique. It’s the world’s number one industrial robot manufacturer.",
+    "ko": "일본과 로봇의 관계는 특별합니다. 일본은 세계 1위의 산업용 로봇 제조국이니까요.",
+    "ja": "日本とロボットの関係は特別だ。日本は世界1位の産業用ロボット製造国なのだから。"
+   },
+   "numbers": {
+    "38%": "IFR 2024-09-24 일본 보도자료 'accounting for 38% of global robot production'(2023 기준) — 원문 대조",
+    "82.6%": "JARA 2025년도 사업보고서: 수출 156,516 ÷ 총출하 189,591 = 82.55% — 원문 대조",
+    "3位": "IFR World Robotics 2026 'moved down from second to third position, behind the United States' — 원문 대조"
+   },
+   "len_ja": 69,
+   "len_ko": 77,
+   "checks": {
+    "日本": true,
+    "海外の反応": true,
+    "emoji": true,
+    "under100": true,
+    "quote_matches_source": true,
+    "answer_hidden": true
+   }
+  },
+  {
+   "variant": "D",
+   "hook": "감동·이유·궁금증형",
+   "ja": "「信頼できて頑丈で、何よりまだ黄色い」365人が共感した外国人のひと言…世界の工場で黄色いロボットが止まらない理由💛 日本 海外の反応",
+   "ko": "\"믿을 만하고 튼튼하고, 무엇보다 여전히 노랗다\" 365명이 공감한 외국인 한마디… 세계 공장에서 노란 로봇이 멈추지 않는 이유💛 일본 해외반응",
+   "reactor": "外国人(Asianometry 화낙 영상의 YouTube 댓글 작성자 — 국적 미상, '해외 시청자' 의미. 외모 추정 아님)",
+   "quote_key": "yellow",
+   "basis": "S5 댓글(OgXm4G-qapA 좋아요 365, V2 113행) · S8 평생 보수 · S10 '손의 자부심'",
+   "hidden": "멈추지 않는 이유(관절·평생 보수·사람 손)는 미공개",
+   "quote": {
+    "src": "YouTube OgXm4G-qapA (Asianometry) 댓글 @whosgotthetime3995 좋아요 365",
+    "url": "https://www.youtube.com/watch?v=OgXm4G-qapA&lc=UgzQTLXQAWjjcEQHtgp4AaABAg",
+    "tc": "댓글",
+    "orig": "I own several Fanuc machines and I can say with certainty that they are reliable, robust and most importantly still yellow.",
+    "ko": "화낙 기계를 여러 대 갖고 있는데 확실히 말할 수 있어요. 믿을 만하고, 튼튼하고, 무엇보다 여전히 노랗다.",
+    "ja": "ファナックの機械を何台も持っているが、確かに言える。信頼できて、頑丈で、何よりまだ黄色い。"
+   },
+   "len_ja": 67,
+   "len_ko": 80,
+   "checks": {
+    "日本": true,
+    "海外の反応": true,
+    "emoji": true,
+    "under100": true,
+    "quote_matches_source": true,
+    "answer_hidden": true
+   }
+  }
+ ]
+}

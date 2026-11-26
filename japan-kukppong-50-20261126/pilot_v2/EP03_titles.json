@@ -1,0 +1,175 @@
+{
+ "meta": {
+  "episode_id": "EP03",
+  "target_country": "JP",
+  "output_language": "ja",
+  "review_language": "ko",
+  "script": "01_대본/EP03_자동차_본편대본_v2.md",
+  "power_words_existing": [
+   "대박",
+   "경악",
+   "충격",
+   "놀람",
+   "논란",
+   "오열",
+   "난리",
+   "대폭발",
+   "대반전",
+   "발칵",
+   "망연자실",
+   "백기",
+   "뒤집힌"
+  ],
+  "power_words_ref": [
+   "현재",
+   "상황",
+   "이유",
+   "근황",
+   "소름",
+   "돌변",
+   "미친",
+   "흥분",
+   "환호",
+   "참교육",
+   "심각한 상황",
+   "아수라장",
+   "넋 나간 이유",
+   "왜 못하나",
+   "결국.."
+  ],
+  "power_words_new": [
+   "🔵🆕 부수다 지친",
+   "🔵🆕 반년 대기",
+   "🔵🆕 살 수 없는 평판",
+   "🔵🆕 불사신?"
+  ],
+  "reference_read": [
+   "_공통자료/USER_REFERENCE_썸네일문구31_제목20_원문.md",
+   "_공통자료/썸네일제목_V3.2_rules.md §3",
+   "_공통자료/copy-ideas.csv(240쌍, 36 한국 자동차 포함)",
+   "_공통자료/four-per-outline.csv(4안)"
+  ],
+  "style_notes": "TOP20의 「실제 한마디」+대상+반응 주체+이모지+해외반응 어순, 31행의 3단(이슈/현장/이유) 구조와 \"이유…/무슨 일이?/뜻밖의\" 말투를 일본어로 현지화. 숫자는 일본어 단위(1132万台·195億ドル·2万6千).",
+  "gemini_thumbnail_report_original": "미확보(이 PC에서 파일 미발견)",
+  "render_status": "미실행(이미지 생성·렌더 금지)",
+  "user_approved": false
+ },
+ "titles": [
+  {
+   "variant": "A",
+   "hook": "외국인 실제 한마디·인용구형",
+   "ja": "「一体どうすれば壊せるんだ？」英国BBCが日本車を本気で壊しにかかった結果😱 日本の自動車 海外の反応",
+   "ko": "\"대체 뭘 해야 이걸 죽일 수 있죠?\" 영국 BBC가 일본차를 진짜로 부수려 한 결과😱 일본 자동차 해외반응",
+   "reactor": "外国人(英国BBC「トップギア」司会者)",
+   "quote_key": "kill",
+   "basis": "S5-2 ▶ xnWKz7Cthkk 05:38.800–05:43.960",
+   "hidden": "결국 살아남았는지·어떻게 됐는지 미공개",
+   "len_ja": 51,
+   "len_ko": 60,
+   "quote": {
+    "src": "YouTube xnWKz7Cthkk (BBC Top Gear, Killing a Toyota Part 1)",
+    "url": "https://www.youtube.com/watch?v=xnWKz7Cthkk",
+    "tc": "05:38.800–05:43.960",
+    "orig": "What do you have to do to kill one?",
+    "ko": "대체 뭘 해야 이걸 죽일 수 있는 거죠?",
+    "ja": "一体どうすればこいつを壊せるんだ？",
+    "speaker": "영국 BBC 톱기어 진행자 제러미 클라크슨"
+   },
+   "checks": {
+    "日本": true,
+    "海外の反応": true,
+    "emoji": true,
+    "under100": true,
+    "quote_matches_source": true,
+    "answer_hidden": true
+   }
+  },
+  {
+   "variant": "B",
+   "hook": "악평·편견·국가 비교·반전형",
+   "ja": "「日本車は買わずに韓国車を買え」中国で言われた日本車…6年連続世界1位に隠れたまさかの理由🔥 中国人 海外の反応",
+   "ko": "\"일본차 사지 말고 한국차 사라\" 중국에서 이런 말을 들은 일본차… 6년 연속 세계 1위에 숨은 뜻밖의 이유🔥 중국인 해외반응",
+   "reactor": "中国人(中国語で話す車オーナー、投稿者の自己紹介・言語基準、外見推定なし)",
+   "quote_key": "kaku",
+   "basis": "S1 ▶ XHS-066 00:00.000–00:03.071 · S10 ▶ XHS-066 00:03.071–00:07.295(같은 화자의 다음 문장 = 반전)",
+   "hidden": "같은 화자가 바로 뒤에 든 이유(일본차 기준)는 미공개",
+   "len_ja": 56,
+   "len_ko": 70,
+   "quote": {
+    "src": "XHS-066 (중국 차주 해설, 중국어)",
+    "url": "https://geben147-create.github.io/Insta/국뽕해외반응-중국SNS-20261103/script/#XHS-066",
+    "tc": "00:00.000–00:03.071",
+    "orig": "我就告诉你，不买日系车 你就买韩系啊",
+    "ko": "딱 말해 줄게요, 일본차 사지 말고 한국차 사세요.",
+    "ja": "はっきり言うよ、日本車は買わずに韓国車を買え。",
+    "speaker": "중국어로 말하는 차주(샤오홍슈 게시자, 자기소개·언어 기준)"
+   },
+   "checks": {
+    "日本": true,
+    "海外の反応": true,
+    "emoji": true,
+    "under100": true,
+    "quote_matches_source": true,
+    "answer_hidden": true
+   }
+  },
+  {
+   "variant": "C",
+   "hook": "숫자·해외 언론·현장 파급형",
+   "ja": "世界販売1132万台で6年連続首位⁉ 米CNBCが追った半年待ちのトヨタ…フォードが195億ドルを失った年に何が？🤔 日本 海外の反応",
+   "ko": "세계 판매 1,132만 대로 6년 연속 1위⁉ 미국 CNBC가 따라간 반년 대기 도요타… 포드가 195억 달러를 잃은 해에 무슨 일이?🤔 일본 해외반응",
+   "reactor": "海外メディア(米CNBC記者・米国の購入者)",
+   "quote_key": "wait",
+   "basis": "S1·S4 2025년 1,132만 대(도요타 발표 11,322,575대·CarExpert / Reuters 표기 1,130만 · 2024년은 1,080만 — 출처원장 F-1) · S4 ▶ _E25hd641Tg 00:14.600–00:37.040 · S8 ▶ QUUiy-dI7r4 00:13.679–00:18.400(포드 195억 달러)",
+   "hidden": "세계가 어느 길로 돌아섰는지 미공개",
+   "len_ja": 67,
+   "len_ko": 84,
+   "quote": {
+    "src": "YouTube _E25hd641Tg (CNBC, Why Toyota’s New Rav4 Is In Such High Demand, 2026-09-05)",
+    "url": "https://www.youtube.com/watch?v=_E25hd641Tg",
+    "tc": "00:32.720–00:37.040",
+    "orig": "It was worth the wait. It was worth the wait.",
+    "ko": "기다릴 만했어요. 정말 기다릴 만했어요.",
+    "ja": "待つ価値があった。本当に待つ価値があった。",
+    "speaker": "미국 RAV4 구매자(CNBC 보도 속 인터뷰이)"
+   },
+   "checks": {
+    "日本": true,
+    "海外の反応": true,
+    "emoji": true,
+    "under100": true,
+    "quote_matches_source": true,
+    "answer_hidden": true
+   }
+  },
+  {
+   "variant": "D",
+   "hook": "감동·이유·궁금증형",
+   "ja": "「どんな広告費でもこの評判は買えない」2万6千人が共感した外国人のひと言…終わったと言われた日本車が選ばれ続ける理由😭 日本 海外の反応",
+   "ko": "\"어떤 광고비로도 이런 평판은 살 수 없다\" 2만 6천 명이 공감한 외국인 한마디… 끝났다던 일본차가 계속 선택받는 이유😭 일본 해외반응",
+   "reactor": "外国人(BBC動画のYouTubeコメント投稿者)",
+   "quote_key": "ad",
+   "basis": "S5-2 댓글(xnWKz7Cthkk @Gaaxure 좋아요 26,000) · S6-1 누미 · S10 결말",
+   "hidden": "이유(생산 방식·의무·가이젠)는 미공개",
+   "len_ja": 68,
+   "len_ko": 76,
+   "quote": {
+    "src": "YouTube xnWKz7Cthkk 댓글 @Gaaxure 좋아요 26,000",
+    "url": "https://www.youtube.com/watch?v=xnWKz7Cthkk",
+    "tc": "댓글",
+    "orig": "No amount of advertising money can buy you this kind of reputation.",
+    "ko": "어떤 광고비로도 이런 평판은 살 수 없다.",
+    "ja": "どんな広告費でも、この評判は買えない。",
+    "speaker": "BBC 톱기어 영상 댓글 작성자(국적 미상 → 外国人)"
+   },
+   "checks": {
+    "日本": true,
+    "海外の反応": true,
+    "emoji": true,
+    "under100": true,
+    "quote_matches_source": true,
+    "answer_hidden": true
+   }
+  }
+ ]
+}

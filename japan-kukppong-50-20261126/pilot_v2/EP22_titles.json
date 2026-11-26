@@ -1,0 +1,98 @@
+{
+ "episode": "EP22",
+ "target_country": "JP",
+ "output_language": "ja",
+ "review_language": "ko",
+ "script": "01_대본/EP22_한일여행댓글전쟁_본편대본_v2.md",
+ "references_read": [
+  "_공통자료/USER_REFERENCE_썸네일문구31_제목20_원문.md(31행·TOP20)",
+  "_공통자료/썸네일제목_V3.2_rules.md §3",
+  "_공통자료/copy-ideas.csv(240쌍)",
+  "_공통자료/four-per-outline.csv(4안)",
+  "_공통자료/benchmark-titles.csv"
+ ],
+ "gemini_report": "gemini_thumbnail_report_original.md 미확보(이 PC 미발견) → V3.2 규칙만 적용",
+ "rules_check": "日本·外国人·海外の反応·이모지 포함, 100자 이하, 인용은 실제 발언 번역만, 답 전체 비공개, 국적 외모 추정 없음",
+ "power_words": {
+  "existing_used": [
+   "발칵→騒然",
+   "대반전→大逆転",
+   "이유→理由",
+   "놀람/궁금증→とは"
+  ],
+  "reference_extra_used": [
+   "이유",
+   "결국..(미사용)",
+   "상황(미사용)"
+  ],
+  "new_words": [
+   "🔵🆕 続編/日本編(후속편)",
+   "🔵🆕 ある差(어떤 차이)"
+  ]
+ },
+ "titles": [
+  {
+   "variant": "A",
+   "hook_type": "외국인 실제 한마디·인용구",
+   "ja": "「次の動画で、日本が韓国より優れている点を教えます」韓国推しの外国人旅行者が翌日上げた“日本編”にコメント欄騒然😳【海外の反応】",
+   "ko": "\"다음 영상에서 일본이 한국보다 나은 점을 알려 드릴게요\" 한국 편을 든 외국인 여행자가 다음 날 올린 '일본 편'에 댓글창 발칵😳【해외반응】",
+   "quote_evidence": {
+    "original": "In the next video, I'll tell you what Japan does better than Korea.",
+    "speaker": "@adele.travels(러시아 출신 자기소개)",
+    "source": "https://www.tiktok.com/@adele.travels/video/7580421469906275614",
+    "timecode": "00:00:38.462–00:00:41.031",
+    "script": "S1"
+   },
+   "claim_evidence": "일본 편(7580793206355414302) 2025-12-06 게시, 댓글 316(한국 편 122) · API 2026-11-26",
+   "power_word": "騒然(발칵)",
+   "length_ja": 64
+  },
+  {
+   "variant": "B",
+   "hook_type": "악평·편견·국가 비교·반전",
+   "ja": "「韓国は全部安い」なのに、外国人旅行者たちが最初の旅は日本を勧める理由…日本vs韓国まさかの大逆転🔥【海外の反応】",
+   "ko": "\"한국은 전부 더 싸요\" 그런데도 외국인 여행자들이 첫 여행은 일본을 권하는 이유…일본 vs 한국 설마의 대반전🔥【해외반응】",
+   "quote_evidence": {
+    "original": "Literally everything is cheaper.",
+    "speaker": "@adele.travels",
+    "source": "https://www.tiktok.com/@adele.travels/video/7580421469906275614",
+    "timecode": "00:00:02.101–00:00:03.741",
+    "script": "S1",
+    "support": "@theufuoma 'your first time start with Japan' 00:00:06.442 · 'start with Japan then go back for South Korea' 00:00:37.842 (S4)"
+   },
+   "claim_evidence": "가격은 한국 우위(복수 화자) + 첫 여행은 일본(theufuoma) · 서양인이면 일본(jessicaxviana 00:56.680)",
+   "power_word": "大逆転(대반전)",
+   "length_ja": 57
+  },
+  {
+   "variant": "C",
+   "hook_type": "숫자·해외 언론·현장 파급",
+   "ja": "韓国人945万9600人が向かった国…米旅行誌の読者投票で世界1位の日本、韓国派の外国人も認めた“ある差”とは😲【海外の反応】",
+   "ko": "한국인 945만9600명이 향한 나라…미국 여행잡지 독자 투표 세계 1위 일본, 한국 편 외국인도 인정한 '어떤 차이'란😲【해외반응】",
+   "quote_evidence": null,
+   "claim_evidence": "JNTO 2025 韓国 9,459,600(1위) · Condé Nast Traveler RCA 2026 Top Countries 1위 Japan 95.52(2026-10-06) · 한국 편 화자의 일본 편(조용함·질서)",
+   "power_word": "理由/とは(이유·궁금증)",
+   "length_ja": 63
+  },
+  {
+   "variant": "D",
+   "hook_type": "감동·이유·궁금증",
+   "ja": "「日本に行けば、たぶんまた行きたくなる」韓国3週間・日本5週間を旅した外国人が語った本当の理由🥹【海外の反応】",
+   "ko": "\"일본에 가면 아마 또 가고 싶어질 거예요\" 한국 3주·일본 5주를 여행한 외국인이 말한 진짜 이유🥹【해외반응】",
+   "quote_evidence": {
+    "original": "So keep in mind that if you visit Japan, you probably will want to go back.",
+    "speaker": "@jessicaxviana(서양인 자기언급)",
+    "source": "https://www.tiktok.com/@jessicaxviana/video/7683832906938207521",
+    "timecode": "00:01:33.341–00:01:38.101",
+    "script": "S7-3",
+    "support": "'I spent three weeks in Korea' 01:14.622 · 'I traveled across Japan for five weeks' 01:24.901"
+   },
+   "claim_evidence": "3주·5주는 화자 본인 발언",
+   "power_word": "本当の理由(진짜 이유)",
+   "length_ja": 55
+  }
+ ],
+ "text_status": "작성",
+ "render_status": "미실행(규칙상 금지)",
+ "user_approved": false
+}

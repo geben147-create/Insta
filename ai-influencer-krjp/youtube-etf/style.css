@@ -1,0 +1,15 @@
+:root{font-family:system-ui,sans-serif;color:#182820;background:#f4f6f2;font-size:16px}
+*{box-sizing:border-box}body{margin:0}main{max-width:1280px;margin:auto;padding:24px clamp(14px,3vw,44px) 60px}
+header,.row,.actions,#filters,.meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+header{justify-content:space-between;border-bottom:1px solid #cbd7ca;padding-bottom:15px;color:#546256;font-size:.86rem}a{color:#185940;text-underline-offset:3px}
+h1{font-size:clamp(38px,6vw,68px);letter-spacing:-.07em;margin:24px 0 0}#intro{margin:6px 0 23px}
+button,select{font:inherit;color:inherit;cursor:pointer}button,select,.actions a{border:1px solid #bdcbbf;background:white;border-radius:7px;padding:8px 11px;font-size:.88rem}
+button[aria-pressed=true]{background:#1b543d;color:white;border-color:#1b543d}.tools{background:#e8eee7;border-radius:10px;padding:14px}.row{margin-top:12px}.tools p{font-size:.8rem;color:#455748;margin:10px 0 0}
+details{padding:12px 0}summary{cursor:pointer;font-weight:600}textarea{display:block;width:100%;height:6rem;margin:6px 0 10px}
+#cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr))}
+article{background:white;overflow:hidden;border:1px solid #ced8ce;border-radius:10px;display:flex;flex-direction:column}article img{width:100%;height:205px;object-fit:contain;background:#19201d;display:block}
+.body{padding:15px;display:flex;flex-direction:column;flex:1}.meta{font-size:.78rem;color:#46624f}.meta strong{background:#e8f2dd;color:#284b22;padding:4px 6px;border-radius:4px}
+h2{font-size:1.08rem;line-height:1.4;margin:10px 0}h2 a{text-decoration:none;color:inherit}h2 a:hover{text-decoration:underline}.author{font-weight:650;font-size:.87rem}.stats,.body details{font-size:.85rem}.body details p{line-height:1.55;white-space:pre-line}.body details{margin-bottom:8px}.actions{margin-top:auto}.actions a{text-decoration:none}.heart[aria-pressed=true]{background:#88324b;color:white}#msg{min-height:1.2em;color:#385740;font-size:.9rem}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:20rem;overflow:auto;font:inherit;line-height:1.6;background:#f3f6ef;padding:10px}
+button:focus-visible,a:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #985f11;outline-offset:3px}
+@media(max-width:420px){main{padding:16px 12px}.row{gap:6px}article img{height:250px}}

@@ -1,0 +1,77 @@
+{
+ "local": "/run/media/yh/새 볼륨/_국뽕영상결과물/한일비교51-99_V8/V9/51_비교_V8C좌_V9우_5분.mp4",
+ "pairs": [
+  {
+   "t": "0:01.6",
+   "label": "훅",
+   "old": "stills/01_훅_1.6s_old.webp",
+   "new": "stills/01_훅_1.6s_new.webp"
+  },
+  {
+   "t": "0:14.0",
+   "label": "VS",
+   "old": "stills/02_VS_14.0s_old.webp",
+   "new": "stills/02_VS_14.0s_new.webp"
+  },
+  {
+   "t": "0:28.5",
+   "label": "댓글",
+   "old": "stills/03_댓글_28.5s_old.webp",
+   "new": "stills/03_댓글_28.5s_new.webp"
+  },
+  {
+   "t": "0:49.9",
+   "label": "초반통계",
+   "old": "stills/04_초반통계_49.9s_old.webp",
+   "new": "stills/04_초반통계_49.9s_new.webp"
+  },
+  {
+   "t": "0:51.0",
+   "label": "댓글",
+   "old": "stills/05_댓글_51.0s_old.webp",
+   "new": "stills/05_댓글_51.0s_new.webp"
+  },
+  {
+   "t": "1:06.9",
+   "label": "반전",
+   "old": "stills/06_반전_66.9s_old.webp",
+   "new": "stills/06_반전_66.9s_new.webp"
+  },
+  {
+   "t": "1:50.0",
+   "label": "팩트라벨",
+   "old": "stills/07_팩트라벨_110.0s_old.webp",
+   "new": "stills/07_팩트라벨_110.0s_new.webp"
+  },
+  {
+   "t": "2:52.0",
+   "label": "칭찬",
+   "old": "stills/08_칭찬_172.0s_old.webp",
+   "new": "stills/08_칭찬_172.0s_new.webp"
+  },
+  {
+   "t": "3:36.0",
+   "label": "VS2",
+   "old": "stills/09_VS2_216.0s_old.webp",
+   "new": "stills/09_VS2_216.0s_new.webp"
+  },
+  {
+   "t": "3:40.6",
+   "label": "반전2",
+   "old": "stills/10_반전2_220.6s_old.webp",
+   "new": "stills/10_반전2_220.6s_new.webp"
+  },
+  {
+   "t": "4:41.0",
+   "label": "언론",
+   "old": "stills/11_언론_281.0s_old.webp",
+   "new": "stills/11_언론_281.0s_new.webp"
+  },
+  {
+   "t": "4:59.8",
+   "label": "용어카드",
+   "old": "stills/12_용어카드_299.8s_old.webp",
+   "new": "stills/12_용어카드_299.8s_new.webp"
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>편집 스펙 V9 비교</title>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Jua&family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Reko';src:url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff) format('woff')}
+@font-face{font-family:'Tmon';src:url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff) format('woff')}
+@font-face{font-family:'PCP';src:url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2) format('woff2')}
+@font-face{font-family:'Jalnan';src:local('Jalnan 2'),url(https://cdn.jsdelivr.net/gh/projectnoonnu/2408@1.0/Jalnan2.woff2) format('woff2')}
+@font-face{font-family:'Gmarket';src:local('Gmarket Sans Bold'),url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff) format('woff')}
+@font-face{font-family:'PPURI';src:local('JS Arirang PPURI')}
+@font-face{font-family:'HON';src:local('JS Arirang HON')}
+:root{--bg:#0a0a0b;--wine:#2a0912;--line:#4a1a26;--card:#151112;--ink:#f3efe9;--mute:#b9a9ad;--red:#E21317;--yel:#ffd54a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 'Noto Sans KR',sans-serif}
+a{color:#ff8fa0}
+header{background:radial-gradient(900px 300px at 15% 0,#5a0f22,transparent 70%),linear-gradient(#1a0509,#0a0a0b);padding:28px 16px 18px;border-bottom:1px solid var(--line)}
+.w{max-width:1280px;margin:0 auto}
+h1{font:400 clamp(28px,4vw,48px)/1.15 'Black Han Sans';margin:0 0 6px}h1 b{color:var(--yel);font-weight:400}
+.sub{color:var(--mute);margin:0}
+.tabs{position:sticky;top:0;z-index:9;background:#0d0a0bee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.tabs .w{display:flex;gap:6px;padding:10px 16px;overflow-x:auto}
+.tabs button{flex:0 0 auto;font:700 14px 'Noto Sans KR';border:1px solid var(--line);background:#1a1013;color:var(--ink);border-radius:999px;padding:8px 14px;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--yel);color:#1a0509;border-color:var(--yel)}
+.tabs .all{margin-left:auto;background:var(--red);border-color:var(--red)}
+section.p{padding:28px 16px;border-bottom:1px solid var(--line)}section.p:nth-of-type(even){background:linear-gradient(var(--wine),#160509)}
+section.p[hidden]{display:none}
+h2{font:400 clamp(22px,3vw,34px) 'Black Han Sans';margin:0 0 6px}h2 i{color:var(--red);font-style:normal;margin-right:8px}
+.d{color:var(--mute);margin:0 0 16px}
+code{background:#24151a;border:1px solid var(--line);padding:1px 6px;border-radius:6px;font-size:.88em;word-break:break-all}
+/* 비교 */
+.vid{width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;border:1px solid var(--line)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.pair figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.pair img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#000}
+.pair figcaption{padding:6px 10px;font-size:13px;display:flex;justify-content:space-between}
+.pair .old figcaption b{color:#ff9aa8}.pair .new figcaption b{color:#9cf5a0}
+.tm{font:400 18px 'Black Han Sans';color:var(--yel);margin:14px 0 6px}
+.note{background:#1d1416;border:1px dashed var(--line);border-radius:12px;padding:14px;color:var(--mute)}
+/* 프리셋 */
+.pres{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.pr{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.pr h3{margin:0 0 4px;font:400 20px 'Black Han Sans'}.pr p{margin:0 0 8px;color:var(--mute);font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{font-size:12px;border-radius:99px;padding:2px 9px;background:#2b1b20;border:1px solid var(--line)}
+.chip.t{background:#3a2a00;color:#ffe680}.chip.m{background:#0f2a33;color:#9fe6ff}.chip.s{background:#2a0f2a;color:#ffb3f5}
+.snd{display:inline-flex;align-items:center;gap:4px;margin:8px 6px 0 0;font:700 12px 'Noto Sans KR';background:#ffd54a;color:#1a0509;border:0;border-radius:8px;padding:5px 9px;cursor:pointer}
+/* 애니메이션 데모 */
+.anis{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.an{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.stage{position:relative;aspect-ratio:16/9;background:linear-gradient(135deg,#2c3e50,#7d6b5d);display:grid;place-items:center;overflow:hidden;container-type:inline-size}
+.stage .tx{font:400 9cqw 'Black Han Sans';color:#fff;-webkit-text-stroke:.8cqw #111;paint-order:stroke fill;white-space:nowrap}
+.an h4{margin:0;padding:8px 12px 2px;font:400 17px 'Black Han Sans'}.an p{margin:0;padding:0 12px 10px;color:var(--mute);font-size:13px}
+.an button{margin:0 12px 12px;font:700 12px 'Noto Sans KR';border:1px solid var(--line);background:#2b1b20;color:var(--ink);border-radius:8px;padding:5px 10px;cursor:pointer}
+.bars{display:flex;align-items:flex-end;gap:5%;height:70%;width:70%;border-bottom:3px solid #fff}
+.bars i{flex:1;background:linear-gradient(#5BB3FD,#1E57F9);border-radius:6px 6px 0 0;transform-origin:bottom;display:block}
+.dip{position:absolute;inset:0;background:#000;opacity:0;pointer-events:none}
+/* 폰트 */
+.fonts{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.fs{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}.fs div{font-size:28px;color:#fff;min-height:64px}.fs b{color:var(--yel)}.fs span{display:block;color:var(--mute);font-size:13px}
+/* 규칙 */
+ol.rl{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+ol.rl li{display:flex;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+ol.rl b.n{flex:0 0 34px;height:34px;border-radius:50%;background:var(--yel);color:#1a0509;display:grid;place-items:center;font:400 15px 'Black Han Sans'}
+mark{background:linear-gradient(transparent 55%,#C7F00199 55%);color:inherit}
+footer{padding:24px 16px;text-align:center;color:var(--mute);font-size:13px}
+@media(max-width:640px){.pair{grid-template-columns:1fr}}
+</style></head><body>
+<header><div class="w">
+<h1>편집 스펙 <b>V9</b> · 이전(V8C) ↔ 새(V9) 좌우 비교</h1>
+<p class="sub">허브 장면 프리셋 10종 · 검정 경유 전환 · 통통 튀는 막대 · 자막 애니메이션 · 사용자 폰트 10종 번갈아. 왼쪽 = 이전, 오른쪽 = 새 버전.</p>
+</div></header>
+<div class="tabs"><div class="w" role="tablist">
+<button role="tab" data-t="cmp" aria-selected="true">① 좌우 비교</button>
+<button role="tab" data-t="pre" aria-selected="false">② 장면 프리셋 10종</button>
+<button role="tab" data-t="ani" aria-selected="false">③ 전환·자막 애니메이션</button>
+<button role="tab" data-t="fnt" aria-selected="false">④ 폰트 10종</button>
+<button role="tab" data-t="rul" aria-selected="false">⑤ 규칙 88~98 · JSON</button>
+<button class="all" id="showAll">전체 펼치기</button>
+</div></div>
+
+<section class="p" id="cmp"><div class="w">
+<h2><i>①</i>좌우 비교 (51편 앞 5분)</h2><p class="d">같은 시점의 화면을 왼쪽(V8C 이전)·오른쪽(V9 새)으로 나란히 놓았습니다.</p>
+<div id="videoBox"></div>
+<div id="pairs"><div class="note">비교 스틸을 준비 중입니다. 렌더가 끝나면 이 자리에 같은 시점 12장이 좌우로 들어갑니다.</div></div>
+</div></section>
+
+<section class="p" id="pre" hidden><div class="w">
+<h2><i>②</i>장면 프리셋 10종 (허브 기준 · 폰트만 사용자 폰트로)</h2><p class="d">노란 버튼 = 그 장면에 쓰는 효과음(허브 라이브러리 원본) 미리듣기.</p>
+<div class="pres" id="presets"></div>
+</div></section>
+
+<section class="p" id="ani" hidden><div class="w">
+<h2><i>③</i>전환·자막 애니메이션</h2><p class="d">카드를 누르거나 ‘다시 보기’를 누르면 움직임을 다시 재생합니다.</p>
+<div class="anis" id="anis"></div>
+</div></section>
+
+<section class="p" id="fnt" hidden><div class="w">
+<h2><i>④</i>폰트 10종 — 번갈아 전부 쓰기 (규칙 95)</h2><p class="d">허브 페이지에 지정된 폰트는 쓰지 않습니다. 정선아리랑 계열은 PC에 설치된 경우에만 보입니다.</p>
+<div class="fonts" id="fonts"></div>
+</div></section>
+
+<section class="p" id="rul" hidden><div class="w">
+<h2><i>⑤</i>규칙 88~98 · 기계용 JSON</h2><p class="d">다른 세션은 <a href="edit-spec-v9.json">edit-spec-v9.json</a>을 읽으면 됩니다. 전체 규칙 1~98: <a href="../design-v8-audit-20261124/">규칙판</a></p>
+<ol class="rl" id="rules"></ol>
+</div></section>
+<footer>편집 스펙 V9 · 2026-11-26 · by Claude Code</footer>
+
+<script>
+const SFX='../../../국뽕-유튜브-리서치-허브-20261108/thumb-edit-studio-20261123/edit-preview-audio/';
+const P=[['hook','🎯 훅 (첫 3초)','질문을 크게 → 정답 대신 반전 단서','배경 어둡게','하드 컷','스탬프',[['02',0],['06',650]]],
+['wow','🔥 한국이 대단하다!','화면 가득 한 줄 + 핵심 단어 불꽃 반짝','느린 줌인','검정 경유','줌인·줌아웃·스탬프·바운스 번갈아',[['07',0],['08',450]]],
+['twist','🔄 반전 · 그런데!','정지+흑백+빨간 박스 (편당 2~3회)','흑백','와이프','줌아웃',[['02',0],['05',650]]],
+['stat','📊 통계 · 숫자','카운트업 + 통통 올라오는 막대, 출처·연도','배경 블러','검정 경유','옆에서 등장',[['06',0],['08',650]]],
+['keyword','✨ 키워드 강조','형광펜·네온 밑줄·동그라미','배경 어둡게','하드 컷','타이핑·줌인',[['10',0],['08',1900]]],
+['vs','⚔️ VS 비교','좌 일본·우 한국, 가운데 VS 이미지','느린 줌인','슬라이드','스탬프',[['02',0],['06',650]]],
+['comment','💬 해외 댓글','실제 댓글만, 원문+번역+좋아요','배경 어둡게','슬라이드','타이핑',[['03',0],['10',750]]],
+['news','📰 언론 · 기사','매체명·날짜·제목 + 인용 형광, 실제 로고','배경 어둡게','종이 펼침','옆에서 등장',[['03',0],['09',750]]],
+['end','💡 한 줄 결론','질문·팩트·비교·결론','느린 줌아웃','검정 경유','바운스',[['08',200]]],
+['fact','🔎 팩트 확인','검증한 내용만 짧게','배경 어둡게','하드 컷','줌인',[['06',0],['08',400]]]];
+document.getElementById('presets').innerHTML=P.map(p=>`<div class="pr"><h3>${p[1]}</h3><p>${p[2]}</p><div class="chips"><span class="chip">화면 ${p[3]}</span><span class="chip t">전환 ${p[4]}</span><span class="chip m">자막 ${p[5]}</span>${p[6].map(s=>`<span class="chip s">효과음 #${s[0]} @${s[1]}ms</span>`).join('')}</div>${p[6].map(s=>`<button class="snd" data-s="${s[0]}">▶ #${s[0]}</button>`).join('')}</div>`).join('');
+document.querySelectorAll('.snd').forEach(b=>b.onclick=()=>{const a=new Audio(SFX+b.dataset.s+'.mp3');a.volume=.6;a.play()});
+const A=[['stamp','스탬프','165% → 95% → 100% · 0.25초',[{transform:'scale(1.65)',opacity:0},{transform:'scale(.95)',opacity:1,offset:.6},{transform:'scale(1)',opacity:1}],250,'한국 최고!'],
+['zin','줌인','78% → 110% → 100% · 0.42초',[{transform:'scale(.78)',opacity:0},{transform:'scale(1.1)',opacity:1,offset:.65},{transform:'scale(1)',opacity:1}],420,'세계 최초'],
+['zout','줌아웃','145% → 100% · 0.44초',[{transform:'scale(1.45)',opacity:.3},{transform:'scale(1)',opacity:1}],440,'그런데!'],
+['bounce','가벼운 바운스','아래 → 위로 한 번 · 0.45초',[{transform:'translateY(26%)',opacity:0},{transform:'translateY(-11%)',opacity:1,offset:.65},{transform:'translateY(0)',opacity:1}],450,'결국 핵심은'],
+['typing','타이핑 (댓글)','왼쪽부터 드러남 · 0.85초',[{clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0 0 0)'}],850,'생각과 다르네요','steps(12,end)'],
+['side','옆에서 등장 (통계·언론)','오른쪽 → 중앙 · 0.42초',[{transform:'translateX(26%)',opacity:0},{transform:'translateX(0)',opacity:1}],420,'1만 3천 곳']];
+let h=A.map(a=>`<div class="an"><div class="stage" data-a="${a[0]}"><span class="tx">${a[5]}</span></div><h4>${a[1]}</h4><p>${a[2]}</p><button data-a="${a[0]}">다시 보기</button></div>`).join('');
+h+=`<div class="an"><div class="stage" data-a="bars"><div class="bars"><i style="height:30%"></i><i style="height:55%"></i><i style="height:90%"></i><i style="height:70%"></i></div></div><h4>막대 통통 올라오기 (규칙 91)</h4><p>기준선에서 튀며 성장 · 0.75초 · 막대마다 0.1초 차이</p><button data-a="bars">다시 보기</button></div>`;
+h+=`<div class="an"><div class="stage" data-a="dip"><span class="tx">장면 B</span><div class="dip"></div></div><h4>검정 경유 전환 (기본, 규칙 90)</h4><p>짧게 어두워졌다 다음 장면 · 0.6초</p><button data-a="dip">다시 보기</button></div>`;
+document.getElementById('anis').innerHTML=h;
+function play(k){const st=document.querySelector(`.stage[data-a="${k}"]`);if(k==='bars'){st.querySelectorAll('.bars i').forEach((b,i)=>b.animate([{transform:'scaleY(0)'},{transform:'scaleY(1.08)',offset:.7},{transform:'scaleY(.97)',offset:.85},{transform:'scaleY(1)'}],{duration:750,delay:i*100,easing:'ease-out',fill:'both'}));return}
+if(k==='dip'){st.querySelector('.dip').animate([{opacity:0},{opacity:1,offset:.45},{opacity:0}],{duration:600});return}
+const a=A.find(x=>x[0]===k);st.querySelector('.tx').animate(a[3],{duration:a[4],easing:a[6]||'cubic-bezier(.2,.8,.2,1)'})}
+document.querySelectorAll('[data-a]').forEach(e=>e.addEventListener('click',()=>play(e.dataset.a)));
+setTimeout(()=>{A.forEach(a=>play(a[0]));play('bars');play('dip')},600);
+const F=[["'Reko'",'레코체','기본·키워드','한국 PC방 1만 3천'],["'Black Han Sans'",'Black Han Sans','그런데!·B07','그런데!'],["'Do Hyeon'",'Do Hyeon','댓글','생각과 다르네요'],["'PPURI'",'정선아리랑뿌리체','붓 한마디','이게 바로 한국'],["'PCP'",'평창평화체','금빛 칭찬','대단해, 한국'],["'Tmon'",'티몬 몬소리 Black','풀파티·라벨','풀 파티 시작'],["'Jalnan'",'여기어때 잘난체','보조 제목','깻잎 논쟁'],["'Gmarket'",'G마켓 산스 Bold','보조 정보','70만 달러'],["'Jua'",'주아','말풍선','문자 2통씩만'],["'HON'",'정선아리랑 혼','보조 붓글씨','한 끗 차이']];
+document.getElementById('fonts').innerHTML=F.map(f=>`<div class="fs"><div style="font-family:${f[0]},sans-serif">${f[3]}</div><b>${f[1]}</b><span>${f[2]}</span></div>`).join('');
+const R=[["88", "허브 &#x27;장면별 프리셋&#x27; 10종을 장면 성격에 맞게 적용한다: 훅·한국이 대단하다·반전·통계·키워드·VS·댓글·언론·결론·팩트. 원본은 <code>제작규칙_V4/허브_편집프리셋_통계자료_20261126/edit-preview.js</code>."], ["89", "효과음은 허브 라이브러리 <code>edit-preview-audio/01~20.mp3</code>만 쓴다. 프리셋에 적힌 번호와 시점을 따르고, 목소리를 덮지 않게 작게 넣는다."], ["90", "기본 화면 전환은 <mark>검정 경유(0.6초 짧게 어두워졌다 다음 장면)</mark>로 한다. 그 밖에는 줌, 종이 펼침, 동작이 이어지는 하드 컷만 쓴다."], ["91", "막대그래프는 기준선에서 <mark>통통 튀며 올라오는</mark> 애니메이션으로 한다(0.65~0.9초, 막대마다 0.08~0.12초 차이). 숫자는 카운트업으로 올린다."], ["92", "&#x27;한국이 대단하다&#x27; 자막은 스탬프·줌인·줌아웃·가벼운 바운스를 번갈아 쓴다. 핵심 단어만 줌인·줌아웃한다."], ["93", "댓글 자막은 타이핑 느낌으로 나온다."], ["94", "허브 통계 재질 12종(흰 입체 지도, 오렌지 계단·큰 숫자, 앰버 유리 파이, 푸른 원형 글로, 유리 퍼널, 파란 유리 6단, 유리 파이프, 컬러 입체 막대, 5색 막대, 접힌 막대, 영역 강조 지도, 찢어진 종이)을 실제 수치가 있는 장면에 쓴다."], ["95", "<mark>허브 페이지에 지정된 폰트는 쓰지 않는다.</mark> 사용자 지정 폰트 10종을 번갈아, 한 편 안에서 빠짐없이 전부 쓴다(규칙 32)."], ["96", "큰 개선은 먼저 30초를 고쳐 확인하고, 이전 편과 새 편을 <mark>좌우로 나란히 놓은 5분 비교 영상</mark>으로 보여 준다."], ["97", "규칙은 기계용(JSON)과 사람용(MD·HTML) 두 형태로 함께 관리해, 다른 세션도 바로 쓸 수 있게 한다."], ["98", "허브 통계 페이지 위에 노란 버튼을 달아 새 비교 페이지로 연결한다. 비교 페이지는 열자마자 좌우 비교가 보이게 한다."]];
+document.getElementById('rules').innerHTML=R.map(r=>`<li><b class="n">${r[0]}</b><div>${r[1]}</div></li>`).join('');
+fetch('stills.json').then(r=>r.ok?r.json():null).then(j=>{if(!j)return;
+ if(j.video)document.getElementById('videoBox').innerHTML=`<video class="vid" src="${j.video}" controls preload="metadata"></video>`;
+ else if(j.local)document.getElementById('videoBox').innerHTML=`<div class="note" style="margin-bottom:14px">5분 좌우 비교 영상은 PC에만 있습니다(완성 MP4는 GitHub에 올리지 않는 규칙). 재생: <code>${j.local}</code></div>`;
+ document.getElementById('pairs').innerHTML=j.pairs.map(p=>`<div class="tm">${p.t}${p.label?' · '+p.label:''}</div><div class="pair"><figure class="old"><img loading="lazy" src="${p.old}" alt=""><figcaption><b>V8C 이전</b><span>${p.t}</span></figcaption></figure><figure class="new"><img loading="lazy" src="${p.new}" alt=""><figcaption><b>V9 새</b><span>${p.t}</span></figcaption></figure></div>`).join('')}).catch(()=>{});
+const tabs=[...document.querySelectorAll('[role=tab]')];
+tabs.forEach(b=>b.onclick=()=>{tabs.forEach(x=>x.setAttribute('aria-selected',x===b));document.querySelectorAll('section.p').forEach(s=>s.hidden=s.id!==b.dataset.t);if(b.dataset.t==='ani')setTimeout(()=>{A.forEach(a=>play(a[0]));play('bars');play('dip')},100)});
+document.getElementById('showAll').onclick=()=>{document.querySelectorAll('section.p').forEach(s=>s.hidden=false);tabs.forEach(x=>x.setAttribute('aria-selected','false'))};
+</script></body></html>

@@ -1,0 +1,50 @@
+{
+  "schema": "kukppong-edit-spec/v9",
+  "date": "2026-11-26",
+  "source_of_rules": "규칙_마스터_번호.md (1~98)",
+  "hub_sources": {
+    "scene_presets": "허브_편집프리셋_통계자료_20261126/edit-preview.js (sceneConfig, fx, words)",
+    "sfx_library": "허브_편집프리셋_통계자료_20261126/edit-preview-audio/01~20.mp3 (이것만 사용)",
+    "statistics_materials": "허브_편집프리셋_통계자료_20261126/statistics-material-lab-20261124/ (material-renderer.js, supplement-renderer.js)"
+  },
+  "fonts": {
+    "rule": "허브 페이지의 폰트(G마켓산스 지정 등)는 쓰지 않는다. 사용자 지정 10종만, 장면마다 번갈아 전부 쓴다.",
+    "rotation": ["레코체", "Black Han Sans", "Do Hyeon", "정선아리랑뿌리체", "평창평화체", "티몬 몬소리 Black", "여기어때 잘난체", "G마켓 산스 Bold(사용자 지정 보조)", "주아", "정선아리랑 혼"],
+    "must_use_all_per_episode": true
+  },
+  "transitions": {
+    "default": "dip",
+    "allowed": {
+      "dip": "검정 경유 0.6초: 짧게 어두워진 뒤 다음 장면 (기본 전환)",
+      "zoom": "줌인/줌아웃",
+      "page": "종이 펼침(책장 넘김)",
+      "cut": "동작이 이어질 때 하드 컷"
+    },
+    "forbidden": ["프리즈", "반복 프레임", "슬로모션", "깜빡이는 전환"],
+    "sound": "전환 효과음은 edit-preview-audio 라이브러리만 사용"
+  },
+  "caption_motion": {
+    "stamp": "165% → 95% → 100%, 0.25초 (충격·VS·훅)",
+    "zoom-in": "78% → 110% → 100%, 0.42초 (한국이 대단하다·팩트)",
+    "zoom-out": "145% → 100%, 0.44초 (반전·한국이 대단하다 일부)",
+    "bounce": "아래 → 위로 한 번 튐, 0.45초 (결론·놀람)",
+    "typing": "왼쪽부터 드러남, 0.85초 (댓글 전용, 언론도 가능)",
+    "side": "오른쪽 → 중앙, 0.42초 (통계·언론)",
+    "wow_mix": "'한국이 대단하다' 자막은 stamp / zoom-in / zoom-out / bounce 를 번갈아 쓴다. 핵심 단어만 zoom-in·zoom-out."
+  },
+  "scene_presets": {
+    "hook":    {"name": "훅 (첫 3초)", "video": "dim", "transition": "cut", "style": "outline", "motion": "stamp", "sfx": [["02", 0], ["06", 650]]},
+    "wow":     {"name": "한국이 대단하다!", "video": "push", "transition": "dip", "style": "marker", "motion": "zoom-in|zoom-out|stamp|bounce", "sfx": [["07", 0], ["08", 450]], "extra": "화면을 가득 채우는 한 줄 + 핵심 단어 불꽃 반짝"},
+    "twist":   {"name": "반전 · 그런데!", "video": "gray", "transition": "wipe", "style": "box", "motion": "zoom-out", "sfx": [["02", 0], ["05", 650]], "limit": "편당 2~3회"},
+    "stat":    {"name": "통계 · 숫자", "video": "blur", "transition": "dip", "style": "outline", "motion": "side", "sfx": [["06", 0], ["08", 650]], "extra": "막대는 기준선에서 통통 튀며 올라옴(0.65~0.9초, 순차 0.08~0.12초). 숫자 카운트업. 출처·연도 필수."},
+    "keyword": {"name": "키워드 강조", "video": "dim", "transition": "cut", "style": "marker", "motion": "typing|zoom-in", "sfx": [["10", 0], ["08", 1900]]},
+    "vs":      {"name": "VS 비교", "video": "push", "transition": "slide", "style": "outline", "motion": "stamp", "sfx": [["02", 0], ["06", 650]], "extra": "VS 이미지 assets_cut/VS_불꽃_빨강금.png"},
+    "comment": {"name": "해외 댓글", "video": "dim", "transition": "slide", "style": "paper", "motion": "typing", "sfx": [["03", 0], ["10", 750]], "extra": "실제 댓글만. 원문+번역+좋아요. 아래 왼쪽/오른쪽."},
+    "news":    {"name": "언론 · 기사", "video": "dim", "transition": "page", "style": "paper", "motion": "side", "sfx": [["03", 0], ["09", 750]], "extra": "매체명·날짜·제목 + 인용 형광. 실제 로고."},
+    "end":     {"name": "한 줄 결론", "video": "pull", "transition": "dip", "style": "neon", "motion": "bounce", "sfx": [["08", 200]]},
+    "fact":    {"name": "팩트 확인", "video": "dim", "transition": "cut", "style": "outline", "motion": "zoom-in", "sfx": [["06", 0], ["08", 400]]}
+  },
+  "statistics_materials": ["흰 입체 지도", "15% 오렌지 계단·큰 숫자", "앰버 유리 파이", "푸른 원형 글로", "유리 퍼널", "파란 유리 6단", "유리 파이프", "컬러 입체 막대", "흰 기둥 채움·5색 막대", "벽에서 바닥으로 접힌 막대", "영역 강조 지도", "찢어진 종이"],
+  "statistics_rules": "실제 수치만. 초반 1~2분에 최소 1개. 막대는 통통 올라오는 애니메이션. 통계 장면만 dim.",
+  "quality_gates": ["렉 없음(위·아래 2초창 중복 ≤3)", "글자 겹침 0", "얼굴 가림 0", "대본·TTS 해시 동일", "폰트 10종 로딩 확인"]
+}

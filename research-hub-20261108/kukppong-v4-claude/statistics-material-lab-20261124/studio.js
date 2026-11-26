@@ -273,6 +273,30 @@
     $('revisionChecklist').innerHTML=Object.entries(revisionNotes).filter(([id])=>!['pipe','territory','paper'].includes(id)).map(([id,note])=>'<article class="revision-item"><strong>'+esc(choices.find(x=>x[0]===id)?.[2]||id)+'</strong><p>'+esc(note)+'</p></article>').join('');
     if(location.hash==='#editing-preview')setWorkMode('effects',false);else setWorkMode('all',false);
   }
+  function buildApprovedOriginals(){
+    const ids=['orangeSteps','amber','bars','filledPillars','foldedBars','slabs'];
+    $('approved-material-grid').innerHTML=ids.map(id=>{
+      const choice=choices.find(x=>x[0]===id), ref=manifest.references.find(x=>x.id===choice[1]), sp=spec.references.find(x=>x.id===choice[1]);
+      return '<button type="button" class="original-tile" data-quick-preset="'+id+'">'+cropSVG(ref,sp.crop.box)+'<b>'+esc(choice[2])+'</b><small>'+esc(choice[1])+' · 기존 원본</small></button>';
+    }).join('');
+    $('save-exact-design').disabled=false;
+    $('exact-design-status').textContent='기존 원본·현재 선택값·렌더된 SVG를 함께 보존합니다. 자막/소리는 기존 편집기에서 담은 조합 기준입니다.';
+    $('save-exact-design').addEventListener('click',async()=>{
+      const button=$('save-exact-design'), out=$('exact-design-status');
+      if(revision==='before'){out.textContent='수정 전 시안입니다. 기존 개선 시안으로 전환한 뒤 저장하세요.';return;}
+      button.disabled=true;
+      try{
+        const material=packageConfig(), chosenRevision=revision;
+        const iframe=$('editing-preview').querySelector('iframe');
+        let caption=null,captionStatus='미리보기 미로딩/미확인. 별도로 기존 자막 편집기에서 조합 저장 필요.';
+        try{const get=iframe.contentWindow.getExistingEditHandoff1126;if(typeof get==='function'){caption=get();captionStatus=caption.scene?'담은 장면 설정 내보내기':'장면 담기 미선택. 임의 장면 배정하지 않음.';}}catch(_){}
+        const svg=await selfContainedSVG();
+        const packet={schema:'existing-design-handoff/v1',createdAt:new Date().toISOString(),material:{...material,viewRevision:chosenRevision,rendererVersion:MaterialRenderer.version,svg},captionPreview:caption,captionStatus,existingRules:{poolParty:{styleId:'V8-light',source:new URL('../design-v8/#s-light',publicRoot).href,reference:new URL('../design-reference-master-20261124/references/REF-17.png',publicRoot).href,foreground:'#FDFDFC',emphasis:'#E03C3E',lightning:'#D94B50',referenceMeasured:'#DC3E3F',font:'티몬 몬소리 Black',canvasWidth:1920,canvasHeight:1080,firstLinePx:52,secondLinePx:95,trackingPx:-2.5,bottomPx:80,outlinePx:0,shadowPx:0},master:new URL('../design-v8-audit-20261124/규칙_마스터_번호.md',publicRoot).href,renderCheck:new URL('../design-reference-master-20261124/apply-render-check.txt',publicRoot).href},productionStatus:'미검증',note:'원본 SVG 및 사용자 선택 설정의 전달용. 예시 수치를 실제 통계로 사용하지 말 것. 실제 렌더러에서 읽는 항목/누락/프레임을 검증해야 함. 원본 폰트 파일 및 사용자가 담은 로컬 음원 파일은 별도 제공.'};
+        download(new Blob([JSON.stringify(packet,null,2)],{type:'application/json'}),'existing-design-handoff-'+material.module+'.json');
+        out.textContent='설정 및 SVG 저장 요청 완료 · '+captionStatus+' · 실제 MP4 적용은 미검증.';
+      }catch(err){out.textContent='저장 실패: '+err.message;}finally{button.disabled=false;}
+    });
+  }
   async function init(){
     try{
       if(!window.MaterialRenderer)throw new Error('재질 렌더러를 불러오지 못했습니다.');
@@ -280,7 +304,7 @@
       [manifest,spec]=loaded;const supplement=loaded[2];choices.splice(1,0,supplement.choices.find(x=>x[0]==='orangeSteps'));choices.splice(8,0,...supplement.choices.filter(x=>x[0]!=='orangeSteps'));const priority=['orangeSteps','amber','bars','filledPillars','foldedBars','slabs'];choices.sort((a,b)=>(priority.includes(a[0])?priority.indexOf(a[0]):99)-(priority.includes(b[0])?priority.indexOf(b[0]):99));Object.assign(notes,supplement.notes);manifest.references.push(...supplement.references);spec.references.push(...supplement.specifications);
       try{const saved=JSON.parse(localStorage.getItem(storageKey));if(saved?.version===1){drafts=saved.drafts||{};current=choices.some(x=>x[0]===saved.current)?saved.current:'orangeSteps';aspect=['original','wide','tall'].includes(saved.aspect)?saved.aspect:'original';}}catch(_){}
       const requested=new URLSearchParams(location.search).get('type');if(choices.some(x=>x[0]===requested))current=requested;
-      registerEvents();registerWorkspace();if(new URLSearchParams(location.search).get('focus')==='1')$('focusWorkspace').click();await selectPreset(current,true);document.body.dataset.ready='true';document.querySelectorAll('[data-aspect]').forEach(b=>{b.classList.toggle('active',b.dataset.aspect===aspect);b.setAttribute('aria-pressed',b.dataset.aspect===aspect);});
+      registerEvents();registerWorkspace();if(new URLSearchParams(location.search).get('focus')==='1')$('focusWorkspace').click();await selectPreset(current,true);buildApprovedOriginals();document.body.dataset.ready='true';document.querySelectorAll('[data-aspect]').forEach(b=>{b.classList.toggle('active',b.dataset.aspect===aspect);b.setAttribute('aria-pressed',b.dataset.aspect===aspect);});
     }catch(err){$('renderStage').innerHTML='<div class="error-state">'+esc(err.message)+'<br>페이지를 새로고침하거나 원본 자료 링크를 확인해 주세요.</div>';toast(err.message);}
   }
   init();

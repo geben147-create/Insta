@@ -200,5 +200,6 @@ renderSfx();updateType();
 if(query.get('panel')){const initialPanel=[...document.querySelectorAll('[data-pane]')].find(x=>x.dataset.pane===query.get('panel'));if(initialPanel)requestAnimationFrame(()=>initialPanel.click());}
 if(!allSounds.length)$('#status').textContent='효과음 목록을 불러오지 못했습니다. 페이지를 새로 고침해 주세요.';
 else if(query.get('collection')==='shorts'&&!softSounds.length)$('#status').textContent='새 효과음 목록을 불러오지 못했습니다. 전체 모음에서 기존 소리를 듣거나 페이지를 새로 고침해 주세요.';
+window.getExistingEditHandoff1126=()=>{const t=handoff();return JSON.parse(t.slice(t.indexOf('{')));};
 document.body.dataset.ready='true';
 })();

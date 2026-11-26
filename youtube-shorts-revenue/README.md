@@ -2,7 +2,7 @@
 
 **누적 광고수익 시나리오입니다. 확인된 실제 정산액은 없습니다.** 기준일 2026-11-27 KST. 기존 53편과 고조회 비교작 56편, 중복 제거 후 109편입니다. [기존 전체 유튜브 레이더](../youtube-profit-radar.html) · [GitHub Pages 필터판](https://geben147-create.github.io/Insta/youtube-shorts-revenue/) (배포 뒤 열립니다).
 
-[AI 드라마·스토리·애니메이션 집중 조사](story-animation.md) · [오늘 게시](#today) · [최근 30일](#last-30-days) · [최근 1년](#last-year) · [1년 이전](#older) · [섹터별 건수](#sectors) · [전체 원본](#all-shorts)
+[AI 드라마·스토리·애니메이션 집중 조사](story-animation.md) · [역사·일본 반응·금융·햄찌 비교](topic-benchmarks.md) · [오늘 게시](#today) · [최근 30일](#last-30-days) · [최근 1년](#last-year) · [1년 이전](#older) · [섹터별 건수](#sectors) · [전체 원본](#all-shorts)
 
 <!-- HIGH-EARNINGS:start -->
 <a id="high-earnings"></a>

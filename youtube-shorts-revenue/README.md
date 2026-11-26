@@ -1,8 +1,8 @@
 # 유튜브 쇼츠 고수익 후보
 
-**누적 광고수익 시나리오입니다. 확인된 실제 정산액은 없습니다.** 기준일 2026-11-27 KST. 기존 53편과 고조회 비교작 38편, 중복 제거 후 91편입니다. [기존 전체 유튜브 레이더](../youtube-profit-radar.html) · [GitHub Pages 필터판](https://geben147-create.github.io/Insta/youtube-shorts-revenue/) (배포 뒤 열립니다).
+**누적 광고수익 시나리오입니다. 확인된 실제 정산액은 없습니다.** 기준일 2026-11-27 KST. 기존 53편과 고조회 비교작 44편, 중복 제거 후 97편입니다. [기존 전체 유튜브 레이더](../youtube-profit-radar.html) · [GitHub Pages 필터판](https://geben147-create.github.io/Insta/youtube-shorts-revenue/) (배포 뒤 열립니다).
 
-[오늘 게시](#today) · [최근 30일](#last-30-days) · [최근 1년](#last-year) · [1년 이전](#older) · [섹터별 건수](#sectors) · [전체 원본](#all-shorts)
+[AI 드라마·스토리·애니메이션 집중 조사](story-animation.md) · [오늘 게시](#today) · [최근 30일](#last-30-days) · [최근 1년](#last-year) · [1년 이전](#older) · [섹터별 건수](#sectors) · [전체 원본](#all-shorts)
 
 <!-- HIGH-EARNINGS:start -->
 <a id="high-earnings"></a>
@@ -13,8 +13,8 @@
 | 게시 기간 | 500만 이상 | 1,000만 이상 | 2,000만 이상 | 2,500만 이상 | 3,000만 이상 | 4,000만 이상 | 5,000만 이상 | 1억 이상 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | [최근 31일](#last-31-days) | 18 | 6 | 1 | 1 | 0 | 0 | 0 | 0 |
-| [최근 60일](#last-60-days) | 19 | 6 | 1 | 1 | 0 | 0 | 0 | 0 |
-| [최근 1년](#high-last-year) | 31 | 17 | 10 | 9 | 8 | 7 | 7 | 4 |
+| [최근 60일](#last-60-days) | 20 | 7 | 2 | 2 | 1 | 1 | 1 | 0 |
+| [최근 1년](#high-last-year) | 35 | 21 | 14 | 13 | 12 | 11 | 11 | 7 |
 
 기간은 오늘을 포함한 KST 날짜 범위입니다. 게시 시각이 없는 경우 원 출처 날짜를 적용합니다. 위 표는 기간과 금액 모두 누적이어서 열·행을 합하면 안 됩니다. 아래 원본 목록은 31일에 우선 표시하고, 60일·1년에서는 더 오래된 추가 사례만 표시합니다.
 
@@ -48,7 +48,7 @@
 | 기타 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 동물·힐링 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 스포츠·도전 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 애니메이션 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 애니메이션 | 3 | 2 | 1 | 1 | 1 | 1 | 1 | 0 |
 | 음식 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 음악·공연 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 코미디·일상 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -65,7 +65,7 @@
 | 기타 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 동물·힐링 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | 0 |
 | 스포츠·도전 | 4 | 4 | 2 | 2 | 2 | 2 | 2 | 2 |
-| 애니메이션 | 3 | 2 | 1 | 1 | 1 | 1 | 1 | 0 |
+| 애니메이션 | 7 | 6 | 5 | 5 | 5 | 5 | 5 | 3 |
 | 음식 | 5 | 4 | 2 | 2 | 2 | 1 | 1 | 1 |
 | 음악·공연 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 코미디·일상 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -103,6 +103,7 @@
 
 | 쇼츠 원본 · 채널 | 게시일 | 섹터 | 공개 누적 조회수 | 한국 가정 | 제작 참고·주의 | 수치 근거 |
 |---|---|---|---:|---:|---|---|
+| [My First Mealtime Routine: Wash, Eat, Tidy Up](https://www.youtube.com/shorts/3ts2Ro6Bi5w) · VocaVoca - Kids Songs & Nursery Rhymes | 2026-10-09 | 애니메이션 | 496,590,067 | 6,430만 | 보류 · 생활 습관을 짧은 세 장면으로 반복하는 애니메이션. 원본 생성 AI 사용 미확인 | [수치](https://worldtopvideo.unclepony.com/v/vocavoca-kids-songs-nursery-rhymes-my-first-mealtime-routine) · 2026-11-26 월드탑비디오 누적 |
 | [AI Comedy AD: Magic Fix  #ai #funny #aivideo #comedy](https://www.youtube.com/shorts/JYK3KHX-2Pk) · Mio Comedy Factory | 2026-10-14 | 코미디·일상 | 58,824,691 | 761만 | AI · 가상 제품 코미디 | [수치](https://www.youtube.com/watch?v=JYK3KHX-2Pk) · 2026-11-27 기존 원본 기록 |
 
 <a id="high-last-year"></a>
@@ -114,6 +115,9 @@
 | [Who's The Strongest Streamer?](https://www.youtube.com/shorts/_JUlWtSCNbs) · MrBeast | 2026-04-03 | 스포츠·도전 | 1,124,582,593 | 1.46억 | 실촬영 · 대결 규칙을 한 줄로 보여주고 즉시 비교 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Mainan Kardus PRANK kaget lucu](https://www.youtube.com/shorts/Axg9eTh24cA) · udin kancil | 2026-03-30 | 공예·제품 | 1,009,270,589 | 1.31억 | 실촬영 · 골판지 장난감 제작 → 반응으로 회수 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Guess The Animal](https://www.youtube.com/shorts/rqsRdfdN4uI) · MrBeast | 2026-05-05 | 스포츠·도전 | 1,008,324,518 | 1.31억 | 실촬영 · 동물 이름 맞히기, 정답이 드러나는 장면 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
+| [Slippery Color Slides Song! 🌈 \| Fun Learning for Kids](https://www.youtube.com/shorts/jXDEpWY7aIE) · Lagu Kita | 2026-02-20 | 애니메이션 | 879,532,380 | 1.14억 | 보류 · 노래와 색 변화를 짧게 연결한 스튜디오 애니메이션. 이 영상의 3D·생성 AI 여부 미확인 | [수치](https://worldtopvideo.unclepony.com/v/lagu-kita-slippery-color-slides-song-fun-learning-for-kids-d) · 2026-11-26 월드탑비디오 누적 |
+| [Веселимся в бассейне! Царевна с семьей идет купаться](https://www.youtube.com/shorts/fNIsEpkA0K8) · Жила-была Царевна | 2026-05-15 | 애니메이션 | 854,197,166 | 1.11억 | 보류 · 수영장 가족 에피소드. 기존 스튜디오 IP이며 이 영상의 제작 기술은 별도 미확인 | [수치](https://worldtopvideo.unclepony.com/v/animation) · 2026-11-26 월드탑비디오 누적 |
+| [🐉 O Dragão Salvou a Maçã do Otto! 🍎🥹](https://www.youtube.com/shorts/rJuwWW1kHPQ) · Caninópolis | 2026-07-31 | 애니메이션 | 821,892,722 | 1.06억 | 보류 · 잃어버린 사과를 낯선 조력자가 되찾아 주는 이야기. 원본 캐릭터 대신 서사 구조만 참고 | [수치](https://worldtopvideo.unclepony.com/v/canin-polis-o-drag-o-salvou-a-ma-do-otto-short-infantil) · 2026-11-26 월드탑비디오 누적 |
 | [Fiz uma casa na árvore de mamão para o meu Lulu da Pomerânia!](https://www.youtube.com/shorts/sZTwo_SzIrE) · KITEM LULU | 2026-03-03 | 동물·힐링 | 639,968,975 | 8,287만 | 보류 · 반려견을 위한 소형 집. 영상 내 제작 방식·광고 자격은 미확인 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [I Turned a Plastic Bottle Into Filament for My Bambu Lab Printer!](https://www.youtube.com/shorts/93P_Neh2eyE) · crafter duck - DIY | 2026-07-24 | 공예·제품 | 523,977,381 | 6,785만 | 실촬영 · 폐병이 3D 프린터 소재로 바뀌는 전후 비교 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [뽀로로와 친구들이 돌로 변했어요!](https://www.youtube.com/shorts/-C6zSIz7Pko) · 뽀로로(Pororo) | 2026-07-04 | 애니메이션 | 466,668,081 | 6,043만 | 보류 · 공식 IP·아동용 참고. 캐릭터·장면 복제 금지. 수익 자격 미확인 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
@@ -147,8 +151,8 @@
 |---|---:|---:|---:|---:|---:|---:|
 | [오늘 게시](#today) | 0 | 0 | 0 | 0 | 0 | 0 |
 | [최근 30일](#last-30-days) | 40 | 28 | 20 | 18 | 6 | 0 |
-| [최근 1년](#last-year) | 59 | 42 | 33 | 31 | 17 | 4 |
-| [1년 이전](#older) | 2 | 2 | 2 | 2 | 2 | 2 |
+| [최근 1년](#last-year) | 63 | 46 | 37 | 35 | 21 | 7 |
+| [1년 이전](#older) | 4 | 4 | 4 | 4 | 4 | 3 |
 
 한국 시청 가정의 최소 공개 조회수: 100만원 7,722,008회 · 200만원 15,444,016회 · 400만원 30,888,031회 · 500만원 38,610,039회 · 1,000만원 77,220,078회 · 1억원 772,200,773회.
 
@@ -215,8 +219,12 @@
 | [Who's The Strongest Streamer?](https://www.youtube.com/shorts/_JUlWtSCNbs) · MrBeast | 2026-04-03 | 스포츠·도전 | 1,124,582,593 | 1.46억 | 실촬영 · 대결 규칙을 한 줄로 보여주고 즉시 비교 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Mainan Kardus PRANK kaget lucu](https://www.youtube.com/shorts/Axg9eTh24cA) · udin kancil | 2026-03-30 | 공예·제품 | 1,009,270,589 | 1.31억 | 실촬영 · 골판지 장난감 제작 → 반응으로 회수 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Guess The Animal](https://www.youtube.com/shorts/rqsRdfdN4uI) · MrBeast | 2026-05-05 | 스포츠·도전 | 1,008,324,518 | 1.31억 | 실촬영 · 동물 이름 맞히기, 정답이 드러나는 장면 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
+| [Slippery Color Slides Song! 🌈 \| Fun Learning for Kids](https://www.youtube.com/shorts/jXDEpWY7aIE) · Lagu Kita | 2026-02-20 | 애니메이션 | 879,532,380 | 1.14억 | 보류 · 노래와 색 변화를 짧게 연결한 스튜디오 애니메이션. 이 영상의 3D·생성 AI 여부 미확인 | [수치](https://worldtopvideo.unclepony.com/v/lagu-kita-slippery-color-slides-song-fun-learning-for-kids-d) · 2026-11-26 월드탑비디오 누적 |
+| [Веселимся в бассейне! Царевна с семьей идет купаться](https://www.youtube.com/shorts/fNIsEpkA0K8) · Жила-была Царевна | 2026-05-15 | 애니메이션 | 854,197,166 | 1.11억 | 보류 · 수영장 가족 에피소드. 기존 스튜디오 IP이며 이 영상의 제작 기술은 별도 미확인 | [수치](https://worldtopvideo.unclepony.com/v/animation) · 2026-11-26 월드탑비디오 누적 |
+| [🐉 O Dragão Salvou a Maçã do Otto! 🍎🥹](https://www.youtube.com/shorts/rJuwWW1kHPQ) · Caninópolis | 2026-07-31 | 애니메이션 | 821,892,722 | 1.06억 | 보류 · 잃어버린 사과를 낯선 조력자가 되찾아 주는 이야기. 원본 캐릭터 대신 서사 구조만 참고 | [수치](https://worldtopvideo.unclepony.com/v/canin-polis-o-drag-o-salvou-a-ma-do-otto-short-infantil) · 2026-11-26 월드탑비디오 누적 |
 | [Fiz uma casa na árvore de mamão para o meu Lulu da Pomerânia!](https://www.youtube.com/shorts/sZTwo_SzIrE) · KITEM LULU | 2026-03-03 | 동물·힐링 | 639,968,975 | 8,287만 | 보류 · 반려견을 위한 소형 집. 영상 내 제작 방식·광고 자격은 미확인 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [I Turned a Plastic Bottle Into Filament for My Bambu Lab Printer!](https://www.youtube.com/shorts/93P_Neh2eyE) · crafter duck - DIY | 2026-07-24 | 공예·제품 | 523,977,381 | 6,785만 | 실촬영 · 폐병이 3D 프린터 소재로 바뀌는 전후 비교 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
+| [My First Mealtime Routine: Wash, Eat, Tidy Up](https://www.youtube.com/shorts/3ts2Ro6Bi5w) · VocaVoca - Kids Songs & Nursery Rhymes | 2026-10-09 | 애니메이션 | 496,590,067 | 6,430만 | 보류 · 생활 습관을 짧은 세 장면으로 반복하는 애니메이션. 원본 생성 AI 사용 미확인 | [수치](https://worldtopvideo.unclepony.com/v/vocavoca-kids-songs-nursery-rhymes-my-first-mealtime-routine) · 2026-11-26 월드탑비디오 누적 |
 | [뽀로로와 친구들이 돌로 변했어요!](https://www.youtube.com/shorts/-C6zSIz7Pko) · 뽀로로(Pororo) | 2026-07-04 | 애니메이션 | 466,668,081 | 6,043만 | 보류 · 공식 IP·아동용 참고. 캐릭터·장면 복제 금지. 수익 자격 미확인 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Butter vs Oil (Part 2)](https://www.youtube.com/shorts/T9Ggf25cdaE) · DoubleBite | 2026-07-01 | 음식 | 298,724,489 | 3,868만 | 실촬영 · 재료 하나를 바꿔 같은 조건으로 비교 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [A Sweet Sharing is Caring Lesson for Kids](https://www.youtube.com/shorts/ZvihL5qpFMw) · PresentHunt | 2026-11-06 | 교육·과학 | 196,156,567 | 2,540만 | 보류 · 나눔을 보여주는 아동용 이야기. 권리·적격 조회 및 제작 방식 미확인 | [수치](https://viralhooks.org/shorts/v/ZvihL5qpFMw/) · 2026-11-26 09:15 UTC Viral Hooks 누적 스냅샷 |
@@ -279,6 +287,8 @@
 |---|---|---|---:|---:|---|---|
 | [BEST Duo Trick Shots](https://www.youtube.com/shorts/aU2KRF87RPc) · Colin Amazing | 2024-12-17 | 스포츠·도전 | 5,220,837,916 | 6.76억 | 실촬영 · 둘이 맞춰야 성공하는 트릭샷. 과거 누적 조회수의 현재 RPM 환산은 반사실적 비교 | [수치](https://www.youtube.com/watch?v=aU2KRF87RPc) · 공개 원본 스냅샷 수치 |
 | [Monica Toy \| Imitoys - If you can't imitate, just stay home!](https://www.youtube.com/shorts/ufvttxs9vEo) · Monica Toy | 2023-08-15 | 애니메이션 | 3,719,274,705 | 4.82억 | 보류 · 공식 애니 IP. 대사 없는 모방 게임 구조만 참고 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
+| [Baby Lala is sharing his food with Farm Animals \| Good Manners for kids](https://www.youtube.com/shorts/CvUw-xwfC8U) · Lalafun - Nursery Rhymes | 2025-06-24 | 애니메이션 | 2,805,044,319 | 3.63억 | 보류 · 음식을 동물에게 나누는 짧은 에피소드. 원본 생성 AI 사용 미확인 | [수치](https://trendreport.com/videos/most-viewed/this-month) · 2026-11-21 TrendReport 누적; YouTube 원본 날짜 표기 6/24 |
+| [Dadaji Ka Mango Tree](https://www.youtube.com/shorts/dH4gxobvr9I) · Toon Stories | 2025-03-31 | 애니메이션 | 701,019,203 | 9,078만 | AI · 원본 설명에 AI animation 표기. 아동용 가족 이야기; 시청국·적격 조회수와 정산 미확인 | [수치](https://www.youtube.com/watch?v=dH4gxobvr9I) · 2026-11-27 확인 · YouTube 검색 색인에 표시된 원본 누적 |
 
 <a id="sectors"></a>
 
@@ -293,7 +303,7 @@
 | 기타 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 동물·힐링 | 3 | 2 | 2 | 2 | 2 | 0 |
 | 스포츠·도전 | 9 | 7 | 5 | 5 | 5 | 3 |
-| 애니메이션 | 5 | 4 | 4 | 4 | 3 | 1 |
+| 애니메이션 | 11 | 10 | 10 | 10 | 9 | 5 |
 | 음식 | 12 | 6 | 5 | 5 | 4 | 1 |
 | 음악·공연 | 1 | 1 | 0 | 0 | 0 | 0 |
 | 코미디·일상 | 10 | 5 | 3 | 3 | 0 | 0 |
@@ -307,12 +317,18 @@
 |---|---|---|---:|---:|---|---|
 | [BEST Duo Trick Shots](https://www.youtube.com/shorts/aU2KRF87RPc) · Colin Amazing | 2024-12-17 | 스포츠·도전 | 5,220,837,916 | 6.76억 | 실촬영 · 둘이 맞춰야 성공하는 트릭샷. 과거 누적 조회수의 현재 RPM 환산은 반사실적 비교 | [수치](https://www.youtube.com/watch?v=aU2KRF87RPc) · 공개 원본 스냅샷 수치 |
 | [Monica Toy \| Imitoys - If you can't imitate, just stay home!](https://www.youtube.com/shorts/ufvttxs9vEo) · Monica Toy | 2023-08-15 | 애니메이션 | 3,719,274,705 | 4.82억 | 보류 · 공식 애니 IP. 대사 없는 모방 게임 구조만 참고 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
+| [Baby Lala is sharing his food with Farm Animals \| Good Manners for kids](https://www.youtube.com/shorts/CvUw-xwfC8U) · Lalafun - Nursery Rhymes | 2025-06-24 | 애니메이션 | 2,805,044,319 | 3.63억 | 보류 · 음식을 동물에게 나누는 짧은 에피소드. 원본 생성 AI 사용 미확인 | [수치](https://trendreport.com/videos/most-viewed/this-month) · 2026-11-21 TrendReport 누적; YouTube 원본 날짜 표기 6/24 |
 | [He Turned a Potato Into Ice Cream](https://www.youtube.com/shorts/OSYllbqGfnA) · Diary of 4 | 2026-04-06 | 음식 | 2,093,187,555 | 2.71억 | 실촬영 · 감자 vs 아이스크림 선택 → 예상 밖 조리 반전 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Who's The Strongest Streamer?](https://www.youtube.com/shorts/_JUlWtSCNbs) · MrBeast | 2026-04-03 | 스포츠·도전 | 1,124,582,593 | 1.46억 | 실촬영 · 대결 규칙을 한 줄로 보여주고 즉시 비교 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Mainan Kardus PRANK kaget lucu](https://www.youtube.com/shorts/Axg9eTh24cA) · udin kancil | 2026-03-30 | 공예·제품 | 1,009,270,589 | 1.31억 | 실촬영 · 골판지 장난감 제작 → 반응으로 회수 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Guess The Animal](https://www.youtube.com/shorts/rqsRdfdN4uI) · MrBeast | 2026-05-05 | 스포츠·도전 | 1,008,324,518 | 1.31억 | 실촬영 · 동물 이름 맞히기, 정답이 드러나는 장면 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
+| [Slippery Color Slides Song! 🌈 \| Fun Learning for Kids](https://www.youtube.com/shorts/jXDEpWY7aIE) · Lagu Kita | 2026-02-20 | 애니메이션 | 879,532,380 | 1.14억 | 보류 · 노래와 색 변화를 짧게 연결한 스튜디오 애니메이션. 이 영상의 3D·생성 AI 여부 미확인 | [수치](https://worldtopvideo.unclepony.com/v/lagu-kita-slippery-color-slides-song-fun-learning-for-kids-d) · 2026-11-26 월드탑비디오 누적 |
+| [Веселимся в бассейне! Царевна с семьей идет купаться](https://www.youtube.com/shorts/fNIsEpkA0K8) · Жила-была Царевна | 2026-05-15 | 애니메이션 | 854,197,166 | 1.11억 | 보류 · 수영장 가족 에피소드. 기존 스튜디오 IP이며 이 영상의 제작 기술은 별도 미확인 | [수치](https://worldtopvideo.unclepony.com/v/animation) · 2026-11-26 월드탑비디오 누적 |
+| [🐉 O Dragão Salvou a Maçã do Otto! 🍎🥹](https://www.youtube.com/shorts/rJuwWW1kHPQ) · Caninópolis | 2026-07-31 | 애니메이션 | 821,892,722 | 1.06억 | 보류 · 잃어버린 사과를 낯선 조력자가 되찾아 주는 이야기. 원본 캐릭터 대신 서사 구조만 참고 | [수치](https://worldtopvideo.unclepony.com/v/canin-polis-o-drag-o-salvou-a-ma-do-otto-short-infantil) · 2026-11-26 월드탑비디오 누적 |
+| [Dadaji Ka Mango Tree](https://www.youtube.com/shorts/dH4gxobvr9I) · Toon Stories | 2025-03-31 | 애니메이션 | 701,019,203 | 9,078만 | AI · 원본 설명에 AI animation 표기. 아동용 가족 이야기; 시청국·적격 조회수와 정산 미확인 | [수치](https://www.youtube.com/watch?v=dH4gxobvr9I) · 2026-11-27 확인 · YouTube 검색 색인에 표시된 원본 누적 |
 | [Fiz uma casa na árvore de mamão para o meu Lulu da Pomerânia!](https://www.youtube.com/shorts/sZTwo_SzIrE) · KITEM LULU | 2026-03-03 | 동물·힐링 | 639,968,975 | 8,287만 | 보류 · 반려견을 위한 소형 집. 영상 내 제작 방식·광고 자격은 미확인 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [I Turned a Plastic Bottle Into Filament for My Bambu Lab Printer!](https://www.youtube.com/shorts/93P_Neh2eyE) · crafter duck - DIY | 2026-07-24 | 공예·제품 | 523,977,381 | 6,785만 | 실촬영 · 폐병이 3D 프린터 소재로 바뀌는 전후 비교 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
+| [My First Mealtime Routine: Wash, Eat, Tidy Up](https://www.youtube.com/shorts/3ts2Ro6Bi5w) · VocaVoca - Kids Songs & Nursery Rhymes | 2026-10-09 | 애니메이션 | 496,590,067 | 6,430만 | 보류 · 생활 습관을 짧은 세 장면으로 반복하는 애니메이션. 원본 생성 AI 사용 미확인 | [수치](https://worldtopvideo.unclepony.com/v/vocavoca-kids-songs-nursery-rhymes-my-first-mealtime-routine) · 2026-11-26 월드탑비디오 누적 |
 | [뽀로로와 친구들이 돌로 변했어요!](https://www.youtube.com/shorts/-C6zSIz7Pko) · 뽀로로(Pororo) | 2026-07-04 | 애니메이션 | 466,668,081 | 6,043만 | 보류 · 공식 IP·아동용 참고. 캐릭터·장면 복제 금지. 수익 자격 미확인 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [Butter vs Oil (Part 2)](https://www.youtube.com/shorts/T9Ggf25cdaE) · DoubleBite | 2026-07-01 | 음식 | 298,724,489 | 3,868만 | 실촬영 · 재료 하나를 바꿔 같은 조건으로 비교 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [A Sweet Sharing is Caring Lesson for Kids](https://www.youtube.com/shorts/ZvihL5qpFMw) · PresentHunt | 2026-11-06 | 교육·과학 | 196,156,567 | 2,540만 | 보류 · 나눔을 보여주는 아동용 이야기. 권리·적격 조회 및 제작 방식 미확인 | [수치](https://viralhooks.org/shorts/v/ZvihL5qpFMw/) · 2026-11-26 09:15 UTC Viral Hooks 누적 스냅샷 |
@@ -429,3 +445,7 @@
 ### 2026-11-27 · 고수익 Shorts 7편 추가
 
 원본 영상과 공개 집계 상세 스냅샷을 대조했습니다. 최근 31일의 교육·과학, 애니메이션, 공예·제품, AI·테크를 보강했습니다. 원본 ID: `ZvihL5qpFMw`, `iStZFBTGJ2A`, `P3eeQXn04q4`, `LpUnWRG6xlQ`, `rMmG7s-IIMQ`, `KD93twH0Y_c`, `Y548TJ6LJpQ`.
+
+### 2026-11-27 · 스토리·애니메이션 6편
+
+[제작 방식·국가별 1억 시나리오](story-animation.md) · `jXDEpWY7aIE`, `fNIsEpkA0K8`, `rJuwWW1kHPQ`, `3ts2Ro6Bi5w`, `dH4gxobvr9I`, `CvUw-xwfC8U`.

@@ -42,6 +42,7 @@ function render() {
       preview.ontoggle=async()=>{if(!preview.open || entry.textContent)return;try{const res=await fetch(r.transcript);if(!res.ok)throw Error();entry.textContent=await res.text();}catch{entry.textContent='아래 TXT 링크로 자막을 열 수 있습니다.';}};
       const download=link('자막 TXT 저장',r.transcript);download.download='ETF-'+r.id+'.txt';details.append(preview,download);
     }
+    if(r.id===2){const vtt=link('Watch 영어 자동 자막 VTT','transcripts/2.en-US.vtt');vtt.download='seedhan.en-US.vtt';details.append(vtt);}
     if(r.table) {
       const tableDetail=node('details');tableDetail.append(node('summary','원페이지 표 '+r.table.rows+'행 읽기'),node('pre',r.table.text),node('small','수치와 종목명은 원본 이미지 표기 기준입니다.'),link(' 원본 이미지 확대 ↗',r.table.source));details.append(tableDetail);
     }
@@ -59,5 +60,7 @@ async function copy(id) {
 for(const name of formats){const b=node('button',name);b.onclick=()=>{active=name;history.replaceState(null,'','#'+routes[formats.indexOf(name)]);render();};byId('filters').append(b);}
 window.addEventListener('hashchange',()=>{active=selectedFormat();render();});
 byId('videoCopy').onclick=()=>copy('videos'); byId('channelCopy').onclick=()=>copy('channels');byId('sort').onchange=render;
+const timed=records.filter(r=>r.transcript), tables=records.filter(r=>r.table);
+byId('coverage').textContent='영상 '+records.length+'편 중 유튜브 스크립트 '+timed.length+'편, '+timed.reduce((n,r)=>n+r.rows,0)+'행을 확인했습니다. 스크립트 버튼이 없는 원페이지 '+tables.length+'편은 원본 이미지에서 표 '+tables.reduce((n,r)=>n+r.table.rows,0)+'행의 주요 열을 판독했습니다. 권나연 영상은 유튜브 요청 제한(HTTP 429)으로 자막 유무를 확인하지 못했습니다. TXT의 타임코드는 각 행의 시작 시각입니다.';
 byId('intro').textContent=records.length+'편 · '+new Set(records.map(r=>r.channel)).size+'개 채널 · 표와 목록이 한 화면에 담긴 영상은 원페이지에서 볼 수 있습니다.';
 render();

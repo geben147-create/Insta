@@ -2,6 +2,9 @@
 const onepageTopics={onepage:'전체', 'onepage-stocks':'주식·ETF·경제', 'onepage-stock':'주식만', 'onepage-etf':'ETF', 'onepage-economy':'경제', 'onepage-property':'부동산', 'onepage-ai':'AI 도구', 'onepage-prompts':'프롬프트 · OCR·비전', 'onepage-startup':'창업', 'onepage-grants':'지원금','onepage-archive':'기존 806건 통합'};
 const menuNamesKey='insta.menu.names.v1';
 function setupMenuNames(side){
+ if(!side.querySelector(':scope > .yt-profit-link')){
+  const a=document.createElement('a');a.className='yt-profit-link';a.href='/Insta/youtube-profit-radar.html';a.textContent='유튜브 추정 수익순';a.style.cssText='display:block;margin:7px 8px;padding:8px;color:#f7d68c;background:#272115;border:1px solid #967634;border-radius:7px;font-size:13px;font-weight:800;text-decoration:none';const title=side.querySelector(':scope > .ttl');if(title)title.after(a);else side.prepend(a);
+ }
  const labels=[...side.querySelectorAll('.mi[data-k]')]; const folders=[...side.querySelectorAll('.grp')];
  const entries=[...folders.map((el,i)=>[el,el.dataset.key||'folder:'+location.pathname+':'+i]),...labels.map(el=>[el,'item:'+el.dataset.k])];
  for(const [el] of entries)el.dataset.defaultLabel=el.textContent;

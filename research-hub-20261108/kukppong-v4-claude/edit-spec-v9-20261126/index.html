@@ -80,6 +80,13 @@ footer{padding:24px 16px;text-align:center;color:var(--mute);font-size:13px}
 <section class="p" id="cmp"><div class="w">
 <h2><i>①</i>좌우 비교 (51편 앞 5분)</h2><p class="d">같은 시점의 화면을 왼쪽(V8C 이전)·오른쪽(V9 새)으로 나란히 놓았습니다.</p>
 <div id="videoBox"></div>
+<div class="note" id="localPlayback" style="margin:12px 0">
+  <label for="localComparison"><b>내 PC의 좌우 비교 영상 재생</b></label>
+  <input id="localComparison" type="file" accept="video/mp4,video/webm,.mp4,.webm">
+  <p id="localPlaybackStatus" role="status">비교 MP4를 선택하면 여기서 재생합니다. 파일은 브라우저 안에서만 엽니다.</p>
+  <video id="localComparisonPlayer" class="vid" controls playsinline preload="metadata" hidden></video>
+</div>
+<p><a href="편집_적용_가이드.md" download>편집 적용 가이드 MD</a> · <a href="edit-spec-v9.json" download>프리셋 JSON</a></p>
 <div id="pairs"><div class="note">비교 스틸을 준비 중입니다. 렌더가 끝나면 이 자리에 같은 시점 12장이 좌우로 들어갑니다.</div></div>
 </div></section>
 
@@ -144,4 +151,4 @@ fetch('stills.json').then(r=>r.ok?r.json():null).then(j=>{if(!j)return;
 const tabs=[...document.querySelectorAll('[role=tab]')];
 tabs.forEach(b=>b.onclick=()=>{tabs.forEach(x=>x.setAttribute('aria-selected',x===b));document.querySelectorAll('section.p').forEach(s=>s.hidden=s.id!==b.dataset.t);if(b.dataset.t==='ani')setTimeout(()=>{A.forEach(a=>play(a[0]));play('bars');play('dip')},100)});
 document.getElementById('showAll').onclick=()=>{document.querySelectorAll('section.p').forEach(s=>s.hidden=false);tabs.forEach(x=>x.setAttribute('aria-selected','false'))};
-</script></body></html>
+</script><script src="local-playback.js" defer></script></body></html>

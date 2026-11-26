@@ -12,15 +12,16 @@
   const statusKeys = new Set(statuses.map(x => x[0]));
   const storageKey = 'business-hub-registration-status-v1';
   const fields = [
-    ['name','이름'],['brand','브랜드·활동명'],['email','가입용 이메일'],['phone','연락처'],['login','로그인 방식'],['country','거주 국가'],['target','타깃 국가·언어'],['traffic','실제 채널 실적'],
+    ['name','이름'],['brand','브랜드·활동명'],['email','가입용 이메일'],['phone','연락처'],['login','로그인 방식'],['browserProfile','브라우저 프로필 이름'],['country','거주 국가'],['target','타깃 국가·언어'],['traffic','실제 채널 실적'],
     ['business','신청 유형'],['region','활동 지역'],['website','홈페이지·포트폴리오'],['sns','SNS·채널 URL'],['service','서비스·콘텐츠 소개']
   ];
   // Personal values and aliases live only in memory. Only enum status codes are persisted below.
-  const profiles = {A:{alias:'계정 A'}, B:{alias:'계정 B'}};
+  const accountSlots = ['A','B','C','D','E','F'];
+  const profiles = Object.fromEntries(accountSlots.map(acc=>[acc,{alias:'계정 '+acc}]));
   let activeAccount = '';
   let siteData = [];
   let financeData = {};
-  let state = {A:{},B:{}};
+  let state = Object.fromEntries(accountSlots.map(acc=>[acc,{}]));
   let toastTimer;
   const toast = (message) => {
     $('hub-toast').textContent = message; $('hub-toast').hidden = false;
@@ -49,11 +50,11 @@
   }
   function updateAliasOptions() {
     ['hub-account','hub-status-account'].forEach(id => {
-      for (const opt of $(id).options) if (opt.value === 'A' || opt.value === 'B') opt.textContent = profiles[opt.value].alias || ('계정 ' + opt.value);
+      for (const opt of $(id).options) if (accountSlots.includes(opt.value)) opt.textContent = profiles[opt.value].alias || ('계정 ' + opt.value);
     });
   }
   function chooseAccount(account) {
-    saveCurrentProfile(); activeAccount = account === 'A' || account === 'B' ? account : '';
+    saveCurrentProfile(); activeAccount = accountSlots.includes(account) ? account : '';
     $('hub-alias').disabled = !activeAccount;
     $('hub-alias').value = activeAccount ? profiles[activeAccount].alias : '';
     document.querySelectorAll('[data-profile]').forEach(el => {
@@ -68,7 +69,7 @@
   function readStates() {
     try {
       const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
-      for (const acc of ['A','B']) {
+      for (const acc of accountSlots) {
         for (const site of siteData) {
           const row = saved[acc] && saved[acc][site.id];
           if (!row) continue;
@@ -85,6 +86,8 @@
   function sitePrompt(site) {
     return '🔴🔴 [' + site.name + ' · 기존 가입 확인 후 입력 준비]\n'
       + '공식 사이트: ' + site.url + '\n'
+      + '선택한 계정 슬롯: ' + (activeAccount || '미선택 — 먼저 지정') + '\n'
+      + '실제 계정과 브라우저 프로필을 대조하고 불일치하면 중단하라. 핵심 보호 계정에 자동 로그인 권한을 추가하기 전에 사용자 확인.\n'
       + '1️⃣ [ ] 내가 선택한 계정의 기존 로그인·가입 여부부터 확인하라. 미로그인은 미가입으로 판정하지 마라.\n'
       + '2️⃣ [ ] 가입·판매/매체 승인·정산 등록을 각각 확인하고, 이미 가입했다면 중복 계정을 만들지 마라.\n'
       + '3️⃣ [ ] 별도로 제공한 공통 정보 중 이번 화면에 필요한 항목만 입력하라. 계정·사업자·정산 명의를 추정하지 마라.\n'
@@ -120,7 +123,7 @@
   }
   function renderStatuses() {
     const acc = $('hub-status-account').value;
-    if (acc !== 'A' && acc !== 'B') {
+    if (!accountSlots.includes(acc)) {
       $('hub-status-rows').innerHTML = '<tr><td colspan="4">계정을 먼저 선택하세요. 모든 사이트의 실제 가입 여부는 미확인 상태에서 시작합니다.</td></tr>';
       $('hub-status-summary').textContent = '계정 선택 전'; return;
     }
@@ -147,7 +150,7 @@
   $('hub-alias').addEventListener('input', () => {saveCurrentProfile();updateAliasOptions();});
   document.querySelectorAll('[data-profile]').forEach(el => el.addEventListener('input',saveCurrentProfile));
   $('hub-clear-profile').addEventListener('click', () => {
-    for(const acc of ['A','B']) profiles[acc] = {alias:'계정 ' + acc};
+    for(const acc of accountSlots) profiles[acc] = {alias:'계정 ' + acc};
     activeAccount = ''; $('hub-account').value = ''; $('hub-alias').value = ''; chooseAccount('');
     const fallback = $('hub-copy-fallback'); if (fallback) fallback.remove();
     toast('이 탭에 입력한 개인정보를 지웠습니다. 사이트별 상태 체크는 유지합니다.');
@@ -160,7 +163,7 @@
     if (!activeAccount || !site) return toast('계정과 대상 사이트를 먼저 선택하세요.');
     const selected = Array.from(document.querySelectorAll('[data-copy-field]:checked')).map(e => e.dataset.copyField);
     if (!selected.length) return toast('복사할 정보 항목을 체크하세요.');
-    const lines = ['[' + site.name + ' 입력카드 · ' + profiles[activeAccount].alias + ']','이 카드의 정보는 선택한 공식 사이트의 필요한 항목에만 입력하세요.'];
+    const lines = ['[' + site.name + ' 입력카드 · ' + profiles[activeAccount].alias + ']','계정 슬롯: '+activeAccount,'이 카드의 정보는 선택한 공식 사이트의 필요한 항목에만 입력하세요. 실제 로그인 계정과 신청 주체 불일치 시 중단.'];
     for(const [key,label] of fields) if(selected.includes(key)) lines.push(label + ': ' + (profiles[activeAccount][key] || '[미입력]'));
     lines.push('비밀번호·주민번호·계좌번호·인증번호는 이 카드에 포함하지 않습니다. 최종 제출은 사용자가 합니다.');
     copy(lines.join('\n'));
@@ -174,7 +177,7 @@
   $('hub-status-account').addEventListener('change',renderStatuses);
   $('hub-status-rows').addEventListener('change', e => {
     const el=e.target; const acc=$('hub-status-account').value;
-    if(!el.matches('select[data-site]') || !['A','B'].includes(acc) || !statusKeys.has(el.value)) return;
+    if(!el.matches('select[data-site]') || !accountSlots.includes(acc) || !statusKeys.has(el.value)) return;
     if(!siteData.some(s => s.id===el.dataset.site)) return;
     if(!['signup','approval','payout'].includes(el.dataset.stage)) return;
     if(!state[acc][el.dataset.site]) state[acc][el.dataset.site]={};
@@ -206,5 +209,21 @@
     if(results[1].status==='fulfilled') {financeData=results[1].value;renderFinance();}
     else $('hub-channels').innerHTML='<p class="hub-empty hub-error">금융 제작 목록 연결이 필요합니다. 기존 차트 자료는 아래 링크에서 볼 수 있습니다.</p>';
   }
+  const roleCheckKey='business-hub-account-role-check-v1';
+  let roleChecks={};
+  try { const prior=JSON.parse(localStorage.getItem(roleCheckKey)||'{}'); for(const acc of accountSlots) if(prior[acc]===true)roleChecks[acc]=true; } catch(e) {}
+  function refreshRoleChecks(){document.querySelectorAll('[data-role-check]').forEach(el=>{el.checked=roleChecks[el.dataset.roleCheck]===true;}); $('hub-role-summary').textContent='로그인 직접 체크 '+accountSlots.filter(acc=>roleChecks[acc]===true).length+'/6 · 실제 자동 검사 아님';}
+  $('account-operations').addEventListener('click',e=>{
+    const b=e.target.closest('[data-role-select],[data-account-copy]'); if(!b)return;
+    if(b.dataset.roleSelect && accountSlots.includes(b.dataset.roleSelect)){
+      $('hub-account').value=b.dataset.roleSelect; $('hub-status-account').value=b.dataset.roleSelect; chooseAccount(b.dataset.roleSelect);
+      $('profile-prep').scrollIntoView({block:'start'});
+      toast('계정 '+b.dataset.roleSelect+' 선택. 실제 프로필은 직접 대조하세요.');
+    } else if(b.dataset.accountCopy) {
+      const pre=$(b.dataset.accountCopy);if(pre) copy(pre.textContent);
+    }
+  });
+  $('account-operations').addEventListener('change',e=>{const el=e.target;const acc=el.dataset.roleCheck;if(!accountSlots.includes(acc))return;roleChecks[acc]=el.checked;try{localStorage.setItem(roleCheckKey,JSON.stringify(roleChecks));}catch(err){toast('저장 제한: 현재 탭에서만 체크 유지');}refreshRoleChecks();});
+  refreshRoleChecks();
   chooseAccount('');loadData();
 })();

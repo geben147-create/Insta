@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ViewNex(뷰넥스) · 심사용 화면 데모</title>
+<style>
+:root{--bg:#0b0f1a;--card:#121829;--line:#24304a;--fg:#e8ecf5;--mut:#9aa6bf;--acc:#3b82f6;--warn:#f59e0b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif;line-height:1.6}
+.banner{background:#3a2a06;border-bottom:1px solid #6b4e10;color:#ffd58a;padding:10px 20px;font-size:14px}
+.banner b{color:#ffe3ae}
+header{display:flex;align-items:center;gap:12px;padding:16px 20px;border-bottom:1px solid var(--line)}
+.logo{background:var(--acc);color:#fff;font-weight:800;font-size:12px;border-radius:7px;padding:4px 6px}
+header h1{font-size:18px;margin:0}header small{color:var(--mut)}
+main{display:grid;grid-template-columns:260px 1fr;gap:20px;padding:20px;max-width:1500px;margin:0 auto}
+nav ol{list-style:none;margin:0;padding:0}nav li{margin:0 0 6px}
+nav button{width:100%;text-align:left;background:var(--card);border:1px solid var(--line);color:var(--fg);border-radius:10px;padding:10px 12px;font:inherit;font-size:14px;cursor:pointer}
+nav button[aria-current=true]{border-color:var(--acc);background:#16233f}
+nav .links{margin-top:18px;font-size:13px;color:var(--mut)}nav a{color:#8db4ff}
+.stage{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.stage h2{margin:0 0 4px;font-size:18px}.stage p{margin:0 0 12px;color:var(--mut);font-size:14px}
+.stage img{width:100%;height:auto;border-radius:10px;border:1px solid var(--line);display:block}
+.tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-right:6px;color:var(--mut)}
+.tag.off{border-color:#6b4e10;color:#ffd58a}
+.dialog{max-width:560px;margin:30px auto;background:#fff;color:#111;border-radius:12px;padding:20px 22px;box-shadow:0 10px 40px #0008}
+.dialog .t{font-size:13px;color:#555;margin-bottom:8px}.dialog .m{font-size:16px;margin-bottom:16px}
+.dialog .b{display:flex;justify-content:flex-end;gap:8px}.dialog span{border:1px solid #bbb;border-radius:8px;padding:4px 14px;font-size:14px}
+.pager{display:flex;justify-content:space-between;margin-top:12px}.pager button{background:var(--acc);border:0;color:#fff;border-radius:8px;padding:8px 14px;font:inherit;cursor:pointer}
+.pager button:disabled{opacity:.35;cursor:default}
+footer{padding:20px;color:var(--mut);font-size:12px;text-align:center}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+</style></head>
+<body>
+<div class="banner" role="note">⚠ <b>심사용 화면 데모 (Review demo)</b> — 실제 ViewNex 앱은 운영자 PC에서만 실행되는 <b>로컬 전용</b> 도구입니다. 이 페이지는 실제 앱 화면을 캡처한 정적 페이지이며 <b>검색·재생·계산 기능은 여기서 작동하지 않습니다.</b> 캡처 안의 YouTube 썸네일·제목·채널명·통계는 가림 처리했습니다.<br>This is a static walkthrough of real screens of a local-only app. Search, playback and calculations do not run here. YouTube thumbnails, titles, channel names and statistics are masked.</div>
+<header><span class="logo">VNX</span><h1>ViewNex(뷰넥스)</h1><small>YouTube 콘텐츠 기획용 1인 분석 도구 · 실제 사용 흐름 6단계</small></header>
+<main>
+<nav aria-label="단계"><ol id="steps"></ol>
+<div class="links">공개 문서<br><a href="../viewnex-legal/">서비스 안내</a> · <a href="../viewnex-legal/privacy.html">개인정보처리방침</a> · <a href="../viewnex-legal/terms.html">이용약관</a><br><br>캡처 일시: 2026-11-26 (KST)<br>실제 앱 주소: 127.0.0.1:8931 (운영자 PC 내부, 외부 접속 불가)</div></nav>
+<section class="stage" aria-live="polite"><div id="view"></div>
+<div class="pager"><button id="prev">← 이전</button><button id="next">다음 →</button></div></section>
+</main>
+<footer>ViewNex는 YouTube API Services를 사용합니다. 운영자: geben147-create · 이 데모에는 API 키·데이터베이스·개인정보·앱 소스가 포함되어 있지 않습니다.</footer>
+<script>
+const S=[
+ {t:'1. 홈 · 저장 데이터',img:'img/01-home.png',d:'왼쪽 사이드바, 필터, 영상 카드. 상단 줄에 마지막 수집일과 다음 갱신 기한(30일)이 표시됩니다. 사이드바 아래에 개인정보처리방침·이용약관 링크와 YouTube 출처 표기가 있습니다.',tags:['실제 화면 캡처','YouTube 데이터 가림']},
+ {t:'2. 최신 검색 조건 입력',img:'img/02-search-conditions.png',d:'사용자가 키워드·지역·기간·최소 조회수를 직접 입력합니다. 입력만으로는 외부 요청이 없습니다.',tags:['실제 화면 캡처']},
+ {t:'3. 외부 호출 확인',html:'<div class="dialog"><div class="t">127.0.0.1:8931 내용:</div><div class="m">YouTube 공식 API를 호출합니다. 쿼터를 사용하며 결제·DB 저장은 하지 않습니다. 실행할까요?</div><div class="b"><span>취소</span><span>확인</span></div></div>',d:'실제 앱이 검색 실행 직전에 띄우는 브라우저 확인창 문구(앱 코드의 실제 문구)를 그대로 옮겼습니다. 확인을 눌러야만 search.list → videos.list → channels.list(약 102 units)를 호출합니다.',tags:['문구 재현 (브라우저 기본 확인창은 캡처되지 않음)']},
+ {t:'4. 결과 카드',img:'img/04-cards.png',d:'카드마다 원본 썸네일·제목·채널명·공개 조회수·공개 구독자 수와 영상 길이를 보여 줍니다. 아래 “예상 수익 5개 모형”은 승인 전이라 모두 “미산정”입니다.',tags:['실제 화면 캡처','YouTube 데이터 가림','다운로드 버튼 숨김 — 다운로드 기능 없음']},
+ {t:'5. 미리보기',img:'img/05-preview.png',d:'카드를 누르면 미리보기가 열리고, 재생은 YouTube 내장 플레이어로만 합니다. “YouTube 원본에서 보기”로 원본 영상에 연결됩니다.',tags:['실제 화면 캡처','미리보기 내용 흐림 처리']},
+ {t:'6. 예상 수익 잠금 상태',img:'img/06-revenue-locked.png',d:'“수익 자동 계산: 미승인 · 자동 수익순 사용 불가”. Google의 서면 승인 전에는 공개 조회수 기반 자동 계산과 수익순 정렬을 켜지 않습니다. 예상 수익은 ViewNex 자체 가정 추정치이며 YouTube 데이터나 실제 수익이 아닙니다.',tags:['실제 화면 캡처','기능 꺼짐 상태'],off:true}
+];
+let i=0;const ol=document.getElementById('steps'),v=document.getElementById('view');
+S.forEach((s,k)=>{const li=document.createElement('li'),b=document.createElement('button');b.textContent=s.t;b.onclick=()=>show(k);li.append(b);ol.append(li)});
+function show(k){i=k;const s=S[k];
+ v.innerHTML='<h2>'+s.t+'</h2><p>'+s.tags.map(x=>'<span class="tag'+(s.off&&x.includes('꺼짐')?' off':'')+'">'+x+'</span>').join('')+'</p><p>'+s.d+'</p>'+(s.img?'<img src="'+s.img+'" width="1440" height="900" alt="'+s.t+' 실제 화면 캡처">':s.html);
+ [...ol.querySelectorAll('button')].forEach((b,j)=>b.setAttribute('aria-current',j===k));
+ document.getElementById('prev').disabled=k===0;document.getElementById('next').disabled=k===S.length-1;}
+document.getElementById('prev').onclick=()=>show(Math.max(0,i-1));document.getElementById('next').onclick=()=>show(Math.min(S.length-1,i+1));
+show(0);
+</script>
+</body></html>

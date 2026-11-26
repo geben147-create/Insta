@@ -1,5 +1,68 @@
 # 롱폼 고수익 영상 목록
 
+[한국어 썸네일 대시보드 열기](https://geben147-create.github.io/Insta/youtube-longform-revenue/) · [전체 184편 데이터](catalog.json)
+
+## 최근 30일 추가 조사 40편
+
+기간별 합산(기존+신규) · 기준 RPM 2,000원. 아래 기존 조사 표는 최초 조사 시점의 스냅샷입니다.
+
+|기준|30일|60일|365일|
+|---|---:|---:|---:|
+|200만 원 이상|96|134|184|
+|500만 원 이상|44|73|109|
+|1,000만 원 이상|24|45|71|
+|1,500만 원 이상|16|31|51|
+|2,000만 원 이상|13|26|44|
+|2,200만 원 이상|12|25|43|
+|3,000만 원 이상|12|20|36|
+|4,000만 원 이상|10|17|31|
+|10,000만 원 이상|4|8|17|
+
+|신규 원본|채널|분야|게시일|공개 조회수|기준 추정|
+|---|---|---|---|---:|---:|
+|[NE-YO의 킬링보이스를 라이브로!🎙️ – So Sick, Because Of You, Up Out & Gone, Ms. Tundraㅣ딩고뮤직ㅣdingo Music](https://www.youtube.com/watch?v=g1unFK_aq2I)|딩고 뮤직 / dingo music|음악|2026-11-10|9,594,843|1,918만 원|
+|[서울예대 실용음악과 재입학한 이무진입니다 \[EN/IN\]](https://www.youtube.com/watch?v=4ryLhVhH7C4)|ootb STUDIO|생활|2026-11-05|6,039,029|1,207만 원|
+|[\[EN/JP\] PC방 알바 갔다가 전체채팅으로 플러팅 당함ㅋㅋ I PC방 알바 ｜ 워크돌 ｜ 프로미스나인 지원, ITZY 채령](https://www.youtube.com/watch?v=vwaS8kYqoVk)|워크맨-Workman|예능|2026-11-11|4,541,243|908만 원|
+|[새벽 3시에 여는 부산 참치파는 국밥집?!😳 지나가던 외국인도 놀란 자갈치시장 국밥 먹방](https://www.youtube.com/watch?v=BCRTR0jiTjs)|tzuyang쯔양|요리|2026-11-10|3,760,676|752만 원|
+|[후쿠오카1탄) 62년 전통 교자집에서 저보고 기네스북이래요🤣 사장님도 놀란 라멘 볶음밥 먹방](https://www.youtube.com/watch?v=saSUt7EeCgo)|tzuyang쯔양|요리|2026-11-16|3,643,408|728만 원|
+|[\[EN\] 승무원 알바는 워크돌만 하는 줄 알았죠? ✈️💙ㅣ승무원ㅣ워크맨ㅣ이준](https://www.youtube.com/watch?v=UzJ9oGHtHuI)|워크맨-Workman|예능|2026-10-30|3,357,155|671만 원|
+|[후쿠오카2탄) 일본 최대급 수조가 있는 식당을 털었더니..🤣 대왕 산오징어와 랍스타 초호화 해산물 먹방🔥](https://www.youtube.com/watch?v=PLPM3TJtWac)|tzuyang쯔양|요리|2026-11-18|3,198,416|639만 원|
+|[\[SUB\] 도플갱어를 만나면 둘 중 하나는 사라진다던데 ｜ EP. 162 이종석 ｜ 살롱드립](https://www.youtube.com/watch?v=iQXjAsV4T1w)|TEO 테오|예능|2026-11-03|3,027,119|605만 원|
+|[총 xx인분..?!😱 대식가 구독자 5명과 1vs5 삼겹살 대결🔥](https://www.youtube.com/watch?v=tm4JNmIi-C0)|tzuyang쯔양|요리|2026-10-31|2,629,471|525만 원|
+|[영업정보도 없는 동네 숨은 정육점.. 다 떨어질때까지 먹었더니 사장님 반응이🤣 역대급 삼겹살에 김치 먹방](https://www.youtube.com/watch?v=TkBA45C7r-w)|tzuyang쯔양|요리|2026-11-04|2,604,278|520만 원|
+|[\[SUB\] 요정들 나왔다. 라우럴. ｜ EP. 164 장나라 김혜윤 ｜ 살롱드립](https://www.youtube.com/watch?v=4KYqNmt6MQA)|TEO 테오|예능|2026-11-17|2,559,180|511만 원|
+|[\[EN/JP\] 해장 1티어 홍대 국밥집 후계자 됐습니다 👑 I 국밥집 알바 ｜ 워크돌 ｜ 프로미스나인 지원, 투모로우바이투게더 연준, 수빈](https://www.youtube.com/watch?v=QXEhquOtRqg)|워크맨-Workman|예능|2026-11-18|2,549,504|509만 원|
+|[\[EN\] 난닝구좌들의 자존심을 건 타코야키 대결 🐙☄️ㅣ타코야키 알바ㅣ워크맨ㅣ이준·로이킴](https://www.youtube.com/watch?v=PUncqcpkmDA)|워크맨-Workman|예능|2026-11-13|2,415,291|483만 원|
+|[감스트 GTA6 오픈런!! 웃긴 장면 모음 ㅋㅋㅋ](https://www.youtube.com/watch?v=utP5cFNvBs4)|감스트GAMST|게임|2026-11-21|2,389,262|477만 원|
+|[무한으로 밥이 나오는 초특급 런던기차 - 영국(下)](https://www.youtube.com/watch?v=cMoXXop-NQQ)|곽튜브|여행|2026-11-20|2,383,849|476만 원|
+|[후쿠오카3탄) 웨이팅만 5시간.. 1등 라멘집 전부다 찾아갔습니다👊 과연 어디가 맛있을까?](https://www.youtube.com/watch?v=7Hf-FdkKgJQ)|tzuyang쯔양|요리|2026-11-22|2,158,810|431만 원|
+|[감스트 GTA 역사상 가장 지독한 놈 만났습니다](https://www.youtube.com/watch?v=GvupeHJ-0yg)|감스트GAMST|게임|2026-11-05|2,152,583|430만 원|
+|[\[SUB\] 더 지니어스, 대탈출, 여고추리반 대표들의 모임 ｜ EP. 163 장동민 신동 ｜ 살롱드립](https://www.youtube.com/watch?v=uOT5kmnKcE4)|TEO 테오|예능|2026-11-10|2,127,572|425만 원|
+|[\[EN\] 게임하러 온 거 아닙니다… 플스 매장 알바 맞습니다 🎮 (feat.플스 특가)ㅣ플레이스테이션ㅣ워크맨ㅣ이준·크러쉬](https://www.youtube.com/watch?v=RNkbh5OrkIU)|워크맨-Workman|예능|2026-11-06|2,066,670|413만 원|
+|[NCT랑 CT 촬영하러 감 (feat. NCT DREAM 재민) \[가천대 방사선학과\]ㅣ전과자 ep.136 \[EN/IN\]](https://www.youtube.com/watch?v=VEwPp-Hb35w)|ootb STUDIO|생활|2026-11-12|1,969,165|393만 원|
+|[도깨비시장 길거리음식 털러갔더니 반응이..🤣 겨울에 뜨끈한 만두 칼국수 오뎅 라면 붕어빵 먹방](https://www.youtube.com/watch?v=2nBZemKmx3c)|tzuyang쯔양|요리|2026-11-20|1,923,612|384만 원|
+|[\[EN/JP\] 한국 1티어 락페에서 첫 알바하기 🎸🤘ㅣ락 페스티벌 알바ㅣ워크돌ㅣ아이브 이서](https://www.youtube.com/watch?v=VHkiJEZ6W7w)|워크맨-Workman|예능|2026-11-04|1,855,009|371만 원|
+|[연차없이 홍콩 1박 2일 시즌2 마지막 여행 최종편 I 곽범 I 연차없이 어떡행2 EP.11](https://www.youtube.com/watch?v=UiZaXMjSc_8)|때때때 TTT|예능|2026-11-12|1,773,802|354만 원|
+|[후쿠오카4탄) 고기 한점에 4천원?! 과연 몇 점 먹었을까..?🤔 노른자 우설과 야키니쿠 먹방](https://www.youtube.com/watch?v=PXiKtdyFBmk)|tzuyang쯔양|요리|2026-11-24|1,755,615|351만 원|
+|[카레이서 아들과 자동차공학과 다녀왔습니다 (feat. TXT 범규) \[국민대 자동차공학과\] ㅣ전과자 ep.137 \[EN/IN\]](https://www.youtube.com/watch?v=2pJt4ZllVNI)|ootb STUDIO|생활|2026-11-19|1,715,472|343만 원|
+|[GTA 6에서 별 6개를 찍으면 벌어지는 일 ㅋㅋㅋ](https://www.youtube.com/watch?v=CNzJ9-pjrTo)|시온|게임|2026-11-20|1,647,112|329만 원|
+|[이 날씨에 오픈카 뚜껑 열고, 제주도민 찐맛집 털어왔습니다🍊 ｜ 인기 맛집 ｜ 곽범 \[EN\]](https://www.youtube.com/watch?v=ySBz9ddKlV0)|ootb STUDIO|생활|2026-11-20|1,570,242|314만 원|
+|[대전 토박이들은 성심당 안 가고 여기 감 ｜ 인기 맛집 ｜ 곽범 \[EN\]](https://www.youtube.com/watch?v=orzV4Do2HpQ)|ootb STUDIO|생활|2026-11-06|1,564,345|312만 원|
+|[미국 형들 앞 폭주하는 말티푸 갱스터 ｜ EP.04 타일러&딘딘 ｜ 존박이 밥사마](https://www.youtube.com/watch?v=Fxy1lD4XsQo)|TEO 테오|예능|2026-11-20|1,531,688|306만 원|
+|[★슈퍼스타 남노의 대만 출장기★ 인 줄 알았으나… 하루 종일 먹고만 온 사연 (대만 여행, 우육면 맛집)ㅣ윤남노포 EP.59 \[EN/CN\]](https://www.youtube.com/watch?v=vRwAmqAHcL4)|스튜디오슬램|예능|2026-11-16|1,498,931|299만 원|
+|[감스트 13년 만에 출시! GTA6 오픈런!! \[26.11.18\]](https://www.youtube.com/watch?v=lKyyuyoraMU)|겜스트GAMEST|게임|2026-11-19|1,433,578|286만 원|
+|[TOMORROW X TOGETHER의 킬링보이스를 라이브로!- Angel Bite, 0X1=LOVESONG, LO$ER=LO♡ER, 하루에 하루만 더, Sugar Rush Ride](https://www.youtube.com/watch?v=Nvqrp5xTdso)|딩고 뮤직 / dingo music|음악|2026-11-24|1,411,921|282만 원|
+|[모르는 20대 청춘남녀와 무인도 표류기](https://www.youtube.com/watch?v=zURt9hkHck4)|곽튜브|여행|2026-10-29|1,383,810|276만 원|
+|[【#TVPP】 다시 돌아온 김장의 계절! 한식 대가들의 특별 레시피 大공개 ｜ 놀면뭐하니? ｜ TVPP ｜ MBC 241102 방송](https://www.youtube.com/watch?v=1GW6-LeW3OY)|TV-People|요리|2026-11-14|1,251,495|250만 원|
+|[Novelbrightのキリングボイスをライブで！｜ Walking with you、ツキミソウ、愛とか恋とか、透明、カノープス、 夢花火、 Sunny drop、 雪の音、アイビー](https://www.youtube.com/watch?v=7YMQp3oCW94)|dingo japan|음악|2026-11-06|1,220,894|244만 원|
+|[\[리무진서비스\] EP.240 리센느 리브 ｜ RESCENE LIV ｜ With, 그댄 달라요, 내 생에 아름다운, 왜 그래](https://www.youtube.com/watch?v=a_c2mBMKuBE)|KBS Kpop|음악|2026-11-04|1,196,323|239만 원|
+|[감스트 GTA6 UFO 외계인 한국 최초 발견!! 초대박입니다..](https://www.youtube.com/watch?v=kxxhrYtx_C8)|감스트GAMST|게임|2026-11-24|1,172,813|234만 원|
+|[반전의 연속인 중앙아시아,, 흥망진창 48시간ㅋㅋ](https://www.youtube.com/watch?v=xsEybeEp5t0)|원지의하루|여행|2026-11-11|1,144,116|228만 원|
+|[감바스 짜파게티는 진짜다](https://www.youtube.com/watch?v=H-xYxk1qLQ0)|승빠|예능|2026-10-30|1,120,517|224만 원|
+|[\[SUB\] 박찰리찰리, 우리 유닛 잘 될 수 있을까? ｜ EP. 165 엑소 카이 세훈 ｜ 살롱드립](https://www.youtube.com/watch?v=TnMCKDHqtGA)|TEO 테오|예능|2026-11-24|1,056,565|211만 원|
+
+## 최초 조사 기록
+
 2026-11-27 KST 조사 · **실제 정산 확인 0편**. YouTube 원본 메타데이터 404편을 확인하고, 3분 초과·라이브 제외·최근 365일·기준 추정 200만 원 이상인 144편을 수록했습니다. 조회수는 조사 시점 누적값이며 기간은 수익 발생 기간이 아니라 **게시일**입니다. 검색 표본으로 유튜브 전체 순위가 아닙니다.
 
 ## 금액별로 몇 편인가?

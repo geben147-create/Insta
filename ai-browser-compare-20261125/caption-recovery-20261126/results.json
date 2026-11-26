@@ -1,0 +1,1286 @@
+{
+  "browserSkill_followup": {
+    "id": "y7d59aqQgPw",
+    "matching_controls": 2,
+    "outcome": "공개 GUI 중복 버튼 확인, 클릭 검증 실패",
+    "rank_input": false
+  },
+  "verified_kst": "2026-11-26T09:36:58+09:00",
+  "baseline_commit": "0e55a3c50dc6c512faab174aeaba0f8c555ed2a0",
+  "definition": "public transcript-panel DOM: one or more nonempty timestamped caption lines; not verification of the complete author track",
+  "sample_ids": [
+    "iG9CE55wbtY",
+    "D9Ihs241zeg",
+    "ooFdxhhyEIY",
+    "y7d59aqQgPw",
+    "WfLq_ekIKuU",
+    "uy6jlBIELx0",
+    "BiATJpeHrbA",
+    "F8IWTTw1Mo8",
+    "t8eHVaefP_E",
+    "1e3usSuKRig"
+  ],
+  "public": {
+    "Chrome": {
+      "success": 7,
+      "attempted": 10,
+      "seconds_med": 4.01
+    },
+    "OpenCue": {
+      "success": 7,
+      "attempted": 10,
+      "seconds_med": 6.29
+    },
+    "BrowserSkill": {
+      "success": 0,
+      "attempted": 10,
+      "seconds_med": 10.12
+    },
+    "BrowserOS neo": {
+      "success": 0,
+      "attempted": 0,
+      "seconds_med": null
+    },
+    "Browser Use Desktop": {
+      "success": 0,
+      "attempted": 0,
+      "seconds_med": null
+    }
+  },
+  "only_rank_equal_completed_sample": true,
+  "per_video": {
+    "Chrome": [
+      {
+        "id": "iG9CE55wbtY",
+        "tool": "Chrome (GUI)",
+        "start": "2026-11-26T09:26:21+09:00",
+        "button": true,
+        "segments": 163,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "iG9CE55wbtY",
+          "ready": "complete",
+          "title": "Do schools kill creativity? | Sir Ken Robinson | TED - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "iG9CE55wbtY",
+          "ready": "complete",
+          "title": "Do schools kill creativity? | Sir Ken Robinson | TED - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": false,
+          "n": 163,
+          "first": "0:27",
+          "last": "19:19",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 6.18
+      },
+      {
+        "id": "D9Ihs241zeg",
+        "tool": "Chrome (GUI)",
+        "start": "2026-11-26T09:26:28+09:00",
+        "button": true,
+        "segments": 141,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "D9Ihs241zeg",
+          "ready": "complete",
+          "title": "Chimamanda Ngozi Adichie: The Danger of a Single Story | TED - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "D9Ihs241zeg",
+          "ready": "complete",
+          "title": "Chimamanda Ngozi Adichie: The Danger of a Single Story | TED - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": false,
+          "n": 141,
+          "first": "0:12",
+          "last": "18:32",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 3.97
+      },
+      {
+        "id": "ooFdxhhyEIY",
+        "tool": "Chrome (GUI)",
+        "start": "2026-11-26T09:26:32+09:00",
+        "button": true,
+        "segments": 61,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "ooFdxhhyEIY",
+          "ready": "complete",
+          "title": "말로만 듣던 한국지하철에 들뜬 일본 여자들 l 가격차이 5배까지 나는 일본 지하철?!ㄷㄷ (일본여자들_2부) - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "ooFdxhhyEIY",
+          "ready": "complete",
+          "title": "말로만 듣던 한국지하철에 들뜬 일본 여자들 l 가격차이 5배까지 나는 일본 지하철?!ㄷㄷ (일본여자들_2부) - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": false,
+          "n": 61,
+          "first": "0:00",
+          "last": "7:58",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 4.06
+      },
+      {
+        "id": "y7d59aqQgPw",
+        "tool": "Chrome (GUI)",
+        "start": "2026-11-26T09:26:36+09:00",
+        "button": true,
+        "segments": 21,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "y7d59aqQgPw",
+          "ready": "complete",
+          "title": "What's all the fuss about the Samsung Union? I'll explain it simply for you. #StrangeEconomy #Eco... - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "y7d59aqQgPw",
+          "ready": "complete",
+          "title": "What's all the fuss about the Samsung Union? I'll explain it simply for you. #StrangeEconomy #Eco... - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": true,
+          "n": 21,
+          "first": "0:00",
+          "last": "1:41",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 3.85
+      },
+      {
+        "id": "WfLq_ekIKuU",
+        "tool": "Chrome (GUI)",
+        "start": "2026-11-26T09:26:40+09:00",
+        "button": true,
+        "segments": 19,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "WfLq_ekIKuU",
+          "ready": "complete",
+          "title": "속보｜월러 \"더 공격적 금리인상 필요\" 경고! ECB는 지급준비율 1%→2% 인상 검토…美·유럽 돈줄 죈다? - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "WfLq_ekIKuU",
+          "ready": "complete",
+          "title": "속보｜월러 \"더 공격적 금리인상 필요\" 경고! ECB는 지급준비율 1%→2% 인상 검토…美·유럽 돈줄 죈다? - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": true,
+          "n": 19,
+          "first": "0:00",
+          "last": "2:22",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 3.9
+      },
+      {
+        "id": "uy6jlBIELx0",
+        "tool": "Chrome (GUI)",
+        "start": "2026-11-26T09:26:43+09:00",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "uy6jlBIELx0",
+          "ready": "complete",
+          "title": "G20 1인당 GDP 순위, 36년 동안 1등 몇 번 바뀌었을까? 한국은 몇 등 #shorts - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": false,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "uy6jlBIELx0",
+          "ready": "complete",
+          "title": "G20 1인당 GDP 순위, 36년 동안 1등 몇 번 바뀌었을까? 한국은 몇 등 #shorts - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": false,
+          "cc": false,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "seconds": 9.37
+      },
+      {
+        "id": "BiATJpeHrbA",
+        "tool": "Chrome (GUI)",
+        "start": "2026-11-26T09:26:53+09:00",
+        "button": true,
+        "segments": 7,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "BiATJpeHrbA",
+          "ready": "complete",
+          "title": "현재 비트코인 처음하는 사람들 상황 #shorts - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "BiATJpeHrbA",
+          "ready": "complete",
+          "title": "현재 비트코인 처음하는 사람들 상황 #shorts - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": true,
+          "n": 7,
+          "first": "0:00",
+          "last": "0:52",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 3.44
+      },
+      {
+        "id": "F8IWTTw1Mo8",
+        "tool": "Chrome (GUI)",
+        "start": "2026-11-26T09:26:56+09:00",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "F8IWTTw1Mo8",
+          "ready": "complete",
+          "title": "한국투자자들이 가장많이 매수한 미국 ETF TOP10 - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": false,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "F8IWTTw1Mo8",
+          "ready": "complete",
+          "title": "한국투자자들이 가장많이 매수한 미국 ETF TOP10 - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": false,
+          "cc": false,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "seconds": 8.98
+      },
+      {
+        "id": "t8eHVaefP_E",
+        "tool": "Chrome (GUI)",
+        "start": "2026-11-26T09:27:05+09:00",
+        "button": true,
+        "segments": 1,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "t8eHVaefP_E",
+          "ready": "complete",
+          "title": "만 29살 배당주 몰빵 배당금 대공개 #jepq #schd #배당주 #qqq #미국주식 #환율 #voo #tqqq #soxl - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "t8eHVaefP_E",
+          "ready": "complete",
+          "title": "만 29살 배당주 몰빵 배당금 대공개 #jepq #schd #배당주 #qqq #미국주식 #환율 #voo #tqqq #soxl - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": false,
+          "n": 1,
+          "first": "0:02",
+          "last": "0:02",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 3.41
+      },
+      {
+        "id": "1e3usSuKRig",
+        "tool": "Chrome (GUI)",
+        "start": "2026-11-26T09:27:09+09:00",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "1e3usSuKRig",
+          "ready": "complete",
+          "title": "국내 상장 ETF, 이 10개만 알아도 기초 완성 - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": false,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "1e3usSuKRig",
+          "ready": "complete",
+          "title": "국내 상장 ETF, 이 10개만 알아도 기초 완성 - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": false,
+          "cc": false,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "seconds": 9.11
+      }
+    ],
+    "OpenCue": [
+      {
+        "id": "iG9CE55wbtY",
+        "tool": "OpenCue",
+        "button": true,
+        "segments": 163,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "iG9CE55wbtY",
+          "ready": "complete",
+          "title": "Do schools kill creativity? | Sir Ken Robinson | TED - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "iG9CE55wbtY",
+          "ready": "complete",
+          "title": "Do schools kill creativity? | Sir Ken Robinson | TED - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": false,
+          "n": 163,
+          "first": "0:27",
+          "last": "19:19",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 8.224
+      },
+      {
+        "id": "D9Ihs241zeg",
+        "tool": "OpenCue",
+        "button": true,
+        "segments": 141,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "D9Ihs241zeg",
+          "ready": "complete",
+          "title": "Chimamanda Ngozi Adichie: The Danger of a Single Story | TED - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "D9Ihs241zeg",
+          "ready": "complete",
+          "title": "Chimamanda Ngozi Adichie: The Danger of a Single Story | TED - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": false,
+          "n": 141,
+          "first": "0:12",
+          "last": "18:32",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 5.892
+      },
+      {
+        "id": "ooFdxhhyEIY",
+        "tool": "OpenCue",
+        "button": true,
+        "segments": 61,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "ooFdxhhyEIY",
+          "ready": "complete",
+          "title": "말로만 듣던 한국지하철에 들뜬 일본 여자들 l 가격차이 5배까지 나는 일본 지하철?!ㄷㄷ (일본여자들_2부) - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "ooFdxhhyEIY",
+          "ready": "complete",
+          "title": "말로만 듣던 한국지하철에 들뜬 일본 여자들 l 가격차이 5배까지 나는 일본 지하철?!ㄷㄷ (일본여자들_2부) - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": false,
+          "n": 61,
+          "first": "0:00",
+          "last": "7:58",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 6.011
+      },
+      {
+        "id": "y7d59aqQgPw",
+        "tool": "OpenCue",
+        "button": true,
+        "segments": 21,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "y7d59aqQgPw",
+          "ready": "complete",
+          "title": "What's all the fuss about the Samsung Union? I'll explain it simply for you. #StrangeEconomy #Eco... - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "y7d59aqQgPw",
+          "ready": "complete",
+          "title": "What's all the fuss about the Samsung Union? I'll explain it simply for you. #StrangeEconomy #Eco... - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": true,
+          "n": 21,
+          "first": "0:00",
+          "last": "1:41",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 5.937
+      },
+      {
+        "id": "WfLq_ekIKuU",
+        "tool": "OpenCue",
+        "button": true,
+        "segments": 19,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "WfLq_ekIKuU",
+          "ready": "complete",
+          "title": "속보｜월러 \"더 공격적 금리인상 필요\" 경고! ECB는 지급준비율 1%→2% 인상 검토…美·유럽 돈줄 죈다? - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "WfLq_ekIKuU",
+          "ready": "complete",
+          "title": "속보｜월러 \"더 공격적 금리인상 필요\" 경고! ECB는 지급준비율 1%→2% 인상 검토…美·유럽 돈줄 죈다? - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": true,
+          "n": 19,
+          "first": "0:00",
+          "last": "2:22",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 5.953
+      },
+      {
+        "id": "uy6jlBIELx0",
+        "tool": "OpenCue",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "uy6jlBIELx0",
+          "ready": "complete",
+          "title": "G20 1인당 GDP 순위, 36년 동안 1등 몇 번 바뀌었을까? 한국은 몇 등 #shorts - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "uy6jlBIELx0",
+          "ready": "complete",
+          "title": "G20 1인당 GDP 순위, 36년 동안 1등 몇 번 바뀌었을까? 한국은 몇 등 #shorts - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": false,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "seconds": 11.733
+      },
+      {
+        "id": "BiATJpeHrbA",
+        "tool": "OpenCue",
+        "button": true,
+        "segments": 7,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "BiATJpeHrbA",
+          "ready": "complete",
+          "title": "현재 비트코인 처음하는 사람들 상황 #shorts - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "BiATJpeHrbA",
+          "ready": "complete",
+          "title": "현재 비트코인 처음하는 사람들 상황 #shorts - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": true,
+          "n": 7,
+          "first": "0:00",
+          "last": "0:52",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 6.29
+      },
+      {
+        "id": "F8IWTTw1Mo8",
+        "tool": "OpenCue",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "F8IWTTw1Mo8",
+          "ready": "complete",
+          "title": "한국투자자들이 가장많이 매수한 미국 ETF TOP10 - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "F8IWTTw1Mo8",
+          "ready": "complete",
+          "title": "한국투자자들이 가장많이 매수한 미국 ETF TOP10 - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": false,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "seconds": 11.724
+      },
+      {
+        "id": "t8eHVaefP_E",
+        "tool": "OpenCue",
+        "button": true,
+        "segments": 1,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "t8eHVaefP_E",
+          "ready": "complete",
+          "title": "만 29살 배당주 몰빵 배당금 대공개 #jepq #schd #배당주 #qqq #미국주식 #환율 #voo #tqqq #soxl - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "t8eHVaefP_E",
+          "ready": "complete",
+          "title": "만 29살 배당주 몰빵 배당금 대공개 #jepq #schd #배당주 #qqq #미국주식 #환율 #voo #tqqq #soxl - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": true,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "panel": {
+          "visible": false,
+          "n": 1,
+          "first": "0:02",
+          "last": "0:02",
+          "language_visible": [],
+          "malformed": 0
+        },
+        "seconds": 6.299
+      },
+      {
+        "id": "1e3usSuKRig",
+        "tool": "OpenCue",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "page": {
+          "url": "https://www.youtube.com/watch",
+          "id": "1e3usSuKRig",
+          "ready": "complete",
+          "title": "국내 상장 ETF, 이 10개만 알아도 기초 완성 - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": true,
+          "show": false,
+          "cc": true,
+          "description_expanded": false,
+          "loaded": true,
+          "player": true
+        },
+        "stop_reason": null,
+        "clicked_description": true,
+        "after_description": {
+          "url": "https://www.youtube.com/watch",
+          "id": "1e3usSuKRig",
+          "ready": "complete",
+          "title": "국내 상장 ETF, 이 10개만 알아도 기초 완성 - YouTube",
+          "status": 200,
+          "wall": null,
+          "metadata": true,
+          "expand": false,
+          "show": false,
+          "cc": true,
+          "description_expanded": true,
+          "loaded": true,
+          "player": true
+        },
+        "seconds": 11.639
+      }
+    ],
+    "BrowserSkill": [
+      {
+        "id": "iG9CE55wbtY",
+        "tool": "BrowserSkill",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "events": [
+          {
+            "action": "description",
+            "fresh_observe": true,
+            "mode": "ref",
+            "exit": 0,
+            "error": null
+          }
+        ],
+        "open_exit": 1,
+        "stop_reason": null,
+        "navigation_recovered": true,
+        "description_click": true,
+        "seconds": 11.32
+      },
+      {
+        "id": "D9Ihs241zeg",
+        "tool": "BrowserSkill",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "events": [
+          {
+            "action": "description",
+            "fresh_observe": true,
+            "mode": "ref",
+            "exit": 0,
+            "error": null
+          }
+        ],
+        "open_exit": 0,
+        "stop_reason": null,
+        "description_click": true,
+        "seconds": 7.99
+      },
+      {
+        "id": "ooFdxhhyEIY",
+        "tool": "BrowserSkill",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "events": [
+          {
+            "action": "description",
+            "fresh_observe": true,
+            "mode": "ref",
+            "exit": 0,
+            "error": null
+          }
+        ],
+        "open_exit": 1,
+        "stop_reason": null,
+        "navigation_recovered": true,
+        "description_click": true,
+        "seconds": 10.59
+      },
+      {
+        "id": "y7d59aqQgPw",
+        "tool": "BrowserSkill",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "events": [
+          {
+            "action": "description",
+            "fresh_observe": true,
+            "mode": "ref",
+            "exit": 0,
+            "error": null
+          }
+        ],
+        "open_exit": 1,
+        "stop_reason": null,
+        "navigation_recovered": true,
+        "description_click": true,
+        "seconds": 10.42
+      },
+      {
+        "id": "WfLq_ekIKuU",
+        "tool": "BrowserSkill",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "events": [
+          {
+            "action": "description",
+            "fresh_observe": true,
+            "mode": "ref",
+            "exit": 0,
+            "error": null
+          }
+        ],
+        "open_exit": 1,
+        "stop_reason": null,
+        "navigation_recovered": true,
+        "description_click": true,
+        "seconds": 9.92
+      },
+      {
+        "id": "uy6jlBIELx0",
+        "tool": "BrowserSkill",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "events": [
+          {
+            "action": "description",
+            "fresh_observe": true,
+            "mode": "ref",
+            "exit": 0,
+            "error": null
+          }
+        ],
+        "open_exit": 1,
+        "stop_reason": null,
+        "navigation_recovered": true,
+        "description_click": true,
+        "seconds": 8.94
+      },
+      {
+        "id": "BiATJpeHrbA",
+        "tool": "BrowserSkill",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "events": [
+          {
+            "action": "description",
+            "fresh_observe": true,
+            "mode": "ref",
+            "exit": 0,
+            "error": null
+          }
+        ],
+        "open_exit": 1,
+        "stop_reason": null,
+        "navigation_recovered": true,
+        "description_click": true,
+        "seconds": 10.88
+      },
+      {
+        "id": "F8IWTTw1Mo8",
+        "tool": "BrowserSkill",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "events": [
+          {
+            "action": "description",
+            "fresh_observe": true,
+            "mode": "ref",
+            "exit": 0,
+            "error": null
+          }
+        ],
+        "open_exit": 1,
+        "stop_reason": null,
+        "navigation_recovered": true,
+        "description_click": true,
+        "seconds": 9.69
+      },
+      {
+        "id": "t8eHVaefP_E",
+        "tool": "BrowserSkill",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "events": [
+          {
+            "action": "description",
+            "fresh_observe": true,
+            "mode": "ref",
+            "exit": 0,
+            "error": null
+          }
+        ],
+        "open_exit": 1,
+        "stop_reason": null,
+        "navigation_recovered": true,
+        "description_click": true,
+        "seconds": 10.31
+      },
+      {
+        "id": "1e3usSuKRig",
+        "tool": "BrowserSkill",
+        "button": false,
+        "segments": null,
+        "missing_rate": null,
+        "events": [
+          {
+            "action": "description",
+            "fresh_observe": true,
+            "mode": "ref",
+            "exit": 0,
+            "error": null
+          }
+        ],
+        "open_exit": 1,
+        "stop_reason": null,
+        "navigation_recovered": true,
+        "description_click": true,
+        "seconds": 8.63
+      }
+    ],
+    "BrowserOS neo": [],
+    "Browser Use Desktop": []
+  },
+  "language_preflight": [
+    {
+      "id": "iG9CE55wbtY",
+      "check": "Player → Settings → Subtitles/CC",
+      "at": "2026-11-26T09:30:08+09:00",
+      "stop_reason": null,
+      "settings_open": true,
+      "menu_open": true,
+      "options": [
+        "Off",
+        "Korean (auto-generated)",
+        "Auto-translate"
+      ],
+      "selectable_tracks": 1
+    },
+    {
+      "id": "D9Ihs241zeg",
+      "check": "Player → Settings → Subtitles/CC",
+      "at": "2026-11-26T09:30:13+09:00",
+      "stop_reason": null,
+      "settings_open": true,
+      "menu_open": true,
+      "options": [
+        "Off",
+        "English (auto-generated)",
+        "Auto-translate"
+      ],
+      "selectable_tracks": 1
+    },
+    {
+      "id": "ooFdxhhyEIY",
+      "check": "Player → Settings → Subtitles/CC",
+      "at": "2026-11-26T09:30:16+09:00",
+      "stop_reason": null,
+      "settings_open": true,
+      "menu_open": true,
+      "options": [
+        "Off",
+        "Japanese (auto-generated)",
+        "Auto-translate"
+      ],
+      "selectable_tracks": 1
+    }
+  ],
+  "owned_fixture": {
+    "Chrome": {
+      "success": 10,
+      "cases": 10,
+      "old_450ms_button_seen": 0,
+      "missing_percent": 0
+    },
+    "OpenCue": {
+      "success": 10,
+      "cases": 10,
+      "old_450ms_button_seen": 0,
+      "missing_percent": 0
+    },
+    "BrowserSkill": {
+      "success": 10,
+      "cases": 10,
+      "old_450ms_button_seen": 0,
+      "missing_percent": 0
+    }
+  },
+  "owned_srt_validation": {
+    "source": "new OpenCue DOM capture from self-produced 8-second video fixture",
+    "video_duration_ms": 8000,
+    "cues": [
+      {
+        "start": 500,
+        "end": 1900,
+        "text": "Caption validation begins."
+      },
+      {
+        "start": 2800,
+        "end": 4300,
+        "text": "The timing points are deliberate."
+      },
+      {
+        "start": 5600,
+        "end": 7100,
+        "text": "This text was made for the test."
+      }
+    ],
+    "exact_reference_match": true,
+    "ffprobe_packet_match": true,
+    "missing_percent": 0
+  },
+  "sources": {
+    "YouTube 공식 스크립트": "https://support.google.com/youtube/answer/15930243?hl=en",
+    "BrowserSkill 공식 관찰·제어": "https://github.com/Tencent/BrowserSkill/blob/cli-v0.5.0/crates/bsk-cli/skill/references/cooperation.md",
+    "BrowserSkill 이슈 #551": "https://github.com/Tencent/BrowserSkill/issues/551",
+    "자막 도구 IP 차단 이슈 #613": "https://github.com/jdepoix/youtube-transcript-api/issues/613"
+  }
+}

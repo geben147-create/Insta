@@ -1,6 +1,6 @@
 # 유튜브 쇼츠 고수익 후보
 
-**누적 광고수익 시나리오입니다. 확인된 실제 정산액은 없습니다.** 기준일 2026-11-27 KST. 기존 53편과 고조회 비교작 12편, 중복 제거 후 65편입니다. [기존 전체 유튜브 레이더](../youtube-profit-radar.html) · [GitHub Pages 필터판](https://geben147-create.github.io/Insta/youtube-shorts-revenue/) (배포 뒤 열립니다).
+**누적 광고수익 시나리오입니다. 확인된 실제 정산액은 없습니다.** 기준일 2026-11-27 KST. 기존 53편과 고조회 비교작 31편, 중복 제거 후 84편입니다. [기존 전체 유튜브 레이더](../youtube-profit-radar.html) · [GitHub Pages 필터판](https://geben147-create.github.io/Insta/youtube-shorts-revenue/) (배포 뒤 열립니다).
 
 [오늘 게시](#today) · [최근 30일](#last-30-days) · [최근 1년](#last-year) · [1년 이전](#older) · [섹터별 건수](#sectors) · [전체 원본](#all-shorts)
 
@@ -11,8 +11,8 @@
 | 분류 | 100만 이상 | 200만 이상 | 400만 이상 | 500만 이상 | 1,000만 이상 | 1억 이상 |
 |---|---:|---:|---:|---:|---:|---:|
 | [오늘 게시](#today) | 0 | 0 | 0 | 0 | 0 | 0 |
-| [최근 30일](#last-30-days) | 14 | 4 | 2 | 1 | 0 | 0 |
-| [최근 1년](#last-year) | 33 | 18 | 15 | 14 | 11 | 4 |
+| [최근 30일](#last-30-days) | 33 | 21 | 13 | 11 | 5 | 0 |
+| [최근 1년](#last-year) | 52 | 35 | 26 | 24 | 16 | 4 |
 | [1년 이전](#older) | 2 | 2 | 2 | 2 | 2 | 2 |
 
 한국 시청 가정의 최소 공개 조회수: 100만원 7,722,008회 · 200만원 15,444,016회 · 400만원 30,888,031회 · 500만원 38,610,039회 · 1,000만원 77,220,078회 · 1억원 772,200,773회.
@@ -29,12 +29,31 @@
 
 | 쇼츠 원본 · 채널 | 게시일 | 섹터 | 공개 누적 조회수 | 한국 가정 | 제작 참고·주의 | 수치 근거 |
 |---|---|---|---:|---:|---|---|
+| [ماذا يأكل الحيوانات اللطيفة طريقة ممتعة لتعلم الأطفال](https://www.youtube.com/shorts/qsUbliCC6Ds) · Hmada tuber | 2026-11-12 | 교육·과학 | 141,690,452 | 1,834만 | 보류 · 동물이 먹는 것 맞히기. 아동용 정책과 원본 권리·수익 자격 확인 필요 | [수치](https://viralhooks.org/shorts/v/qsUbliCC6Ds/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Trap Door Roulette](https://www.youtube.com/shorts/kPI9Mc35mOg) · MrBeast | 2026-11-07 | 스포츠·도전 | 135,517,275 | 1,754만 | 실촬영 · 간단한 선택형 게임의 결과 공개. 위험한 장치는 모방하지 않고 안전한 설정으로 변형 | [수치](https://videostats.communitrics.com/mrbeast/videos/kPI9Mc35mOg) · 2026-11-24 Communitrics 누적 집계 |
+| [Can A Robot Do My Chores?](https://www.youtube.com/shorts/41UzbuW6wJs) · MrBeast | 2026-10-31 | AI·테크 | 102,112,807 | 1,322만 | 실촬영 · 로봇에게 실제 집안일을 맡기는 테스트 | [수치](https://videostats.communitrics.com/mrbeast/videos/41UzbuW6wJs) · 2026-11-24 Communitrics 누적 집계 |
+| [Teaching my GF how to dive 🤣😭](https://www.youtube.com/shorts/jU6cUtK_hGk) · Cadel and Mia | 2026-11-25 | 스포츠·도전 | 86,442,734 | 1,119만 | 실촬영 · 짧은 상황극의 예상과 결과 대비. 안전한 소재로 응용 | [수치](https://viralhooks.org/shorts/v/jU6cUtK_hGk/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Seed MOVED OUT 📦 PART 1](https://www.youtube.com/shorts/KShOvVb6jBE) · SEEDPIT Official | 2026-11-12 | 애니메이션 | 77,986,563 | 1,009만 | AI · 이사 중 생긴 문제로 다음 편 연결. 자체 캐릭터와 대사로만 응용 | [수치](https://viralhooks.org/shorts/v/KShOvVb6jBE/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Chicken Injection (Part 2)](https://www.youtube.com/shorts/NFOrsH-_hpQ) · DoubleBite | 2026-11-10 | 음식 | 73,880,651 | 956만 | 실촬영 · 완성 음식의 내부를 보여주는 조리 실험. 조리 위생과 안전은 별도 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
+| [पुरानी बस का गजब का मेकओवर! 🛠️ #OldToNew #Shorts](https://www.youtube.com/shorts/kLohth044Bc) · Rust2Rich | 2026-11-12 | 공예·제품 | 69,130,437 | 895만 | 보류 · 낡은 물건 전후 비교. 실제 복원·영상 제작 과정과 권리는 별도 확인 | [수치](https://viralhooks.org/shorts/v/kLohth044Bc/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Turning A Kid’s Drawing Into Real Life](https://www.youtube.com/shorts/MxRpi8BEN4Q) · MrBeast | 2026-11-25 | 공예·제품 | 52,649,336 | 681만 | 실촬영 · 그림과 실제 결과물을 비교. KST 날짜는 11/24 정오 EST를 환산 | [수치](https://viralhooks.org/shorts/v/MxRpi8BEN4Q/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [I Turned a Coconut Into Something Unexpected! 🥥😱](https://www.youtube.com/shorts/VxxL20cSkyc) · Crafter Duck GARAGE | 2026-11-17 | 공예·제품 | 51,044,900 | 661만 | 실촬영 · 흔한 재료를 낯선 물건으로 만드는 과정 | [수치](https://viralhooks.org/shorts/v/VxxL20cSkyc/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [The Ultimate "Armed" Plot Twist! 💀](https://www.youtube.com/shorts/jl1l63_8GX4) · Foeko | 2026-11-20 | 코미디·일상 | 42,804,863 | 554만 | 보류 · 반전 리액션 · 소재 확인 | [수치](https://www.youtube.com/watch?v=jl1l63_8GX4) · 2026-11-27 기존 원본 기록 |
+| [A Concrete Pillow for Your Coffee Mug ☕](https://www.youtube.com/shorts/OVUiYnRAKUA) · Scrap to Wow | 2026-11-20 | 공예·제품 | 41,205,054 | 533만 | 실촬영 · 일상 물건처럼 보이는 소품의 의외의 재료를 공개 | [수치](https://viralhooks.org/shorts/v/OVUiYnRAKUA/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [Couch Glitch For New GTA 🎮🤣 #Target #Couch #GTA #GTA6 #YouTubeShorts](https://www.youtube.com/shorts/PiqRE334R0g) · VerrTV | 2026-11-22 | 게임 | 37,804,707 | 489만 | 실촬영 · 게임 밈 상황극 | [수치](https://www.youtube.com/watch?v=PiqRE334R0g) · 2026-11-27 기존 원본 기록 |
+| [Unboxing The World’s Largest Toy](https://www.youtube.com/shorts/sHpEqeSByPI) · MrBeast | 2026-11-14 | 공예·제품 | 34,082,216 | 441만 | 실촬영 · 언박싱 후 바로 크기를 비교하는 포맷 | [수치](https://videostats.communitrics.com/mrbeast/videos/sHpEqeSByPI) · 2026-11-24 Communitrics 누적 집계 |
 | [Don't Look Down 🧗](https://www.youtube.com/shorts/k8Z1xyv-xKE) · Volze | 2026-11-20 | 스포츠·도전 | 30,086,943 | 389만 | 보류 · 고소 체험 · 촬영/안전 | [수치](https://www.youtube.com/watch?v=k8Z1xyv-xKE) · 2026-11-27 기존 원본 기록 |
 | [When she tries to distract you during GTA 6... 😂🎮 #shorts](https://www.youtube.com/shorts/o_vc2P6e2Yc) · Rocco and Maddie | 2026-11-21 | 게임 | 29,081,181 | 376만 | 실촬영 · 게임 커플 상황극 | [수치](https://www.youtube.com/watch?v=o_vc2P6e2Yc) · 2026-11-27 기존 원본 기록 |
+| [Beef vs Hot Water](https://www.youtube.com/shorts/0_v7d4UWGgo) · DoubleBite | 2026-10-30 | 음식 | 27,208,326 | 352만 | 실촬영 · 짧은 조리 과정에서 재료 변화를 보여줌 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
+| [2026 MAMA 🏆❤️](https://www.youtube.com/shorts/TUYyp3RMPGA) · RESCENE | 2026-11-21 | 음악·공연 | 26,160,898 | 338만 | 보류 · 공식 아티스트 게시. 공연·음원·무대 권리 확인 필요 | [수치](https://viralhooks.org/shorts/v/TUYyp3RMPGA/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Kenapa Keran Bisa Netes? #shorts](https://www.youtube.com/shorts/yQIh0CJBdf8) · How Come? | 2026-11-15 | 교육·과학 | 23,306,739 | 301만 | AI · 수도꼭지가 왜 새는지 자체 단면 도식과 새 설명으로 응용 | [수치](https://viralhooks.org/shorts/v/yQIh0CJBdf8/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [3 NO SEW Ideas TO Upcycle CLOTHES Pinterest MAKEOVER](https://www.youtube.com/shorts/xVQPrjVrXhY) · juliyav | 2026-11-14 | 공예·제품 | 22,452,828 | 290만 | 실촬영 · 같은 소재를 세 가지로 바꾸는 짧은 공예 | [수치](https://viralhooks.org/shorts/v/xVQPrjVrXhY/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Can I Beat Magnus Carlsen?](https://www.youtube.com/shorts/WjCH5JUNzao) · MrBeast | 2026-11-21 | 스포츠·도전 | 18,888,775 | 244만 | 실촬영 · 체스 실력 차이가 큰 대결. 원본 출연자는 재현 대상 아님 | [수치](https://videostats.communitrics.com/mrbeast/videos/WjCH5JUNzao) · 2026-11-24 Communitrics 누적 집계 |
+| [키링 인형은 보안 검색대를 통과할 수 있을까? 🥲](https://www.youtube.com/shorts/uH-6oO-ulKM) · 가방고리고도리 | 2026-11-21 | 코미디·일상 | 18,752,588 | 242만 | AI · 작은 캐릭터를 주인공으로 만든 일상 상황극. 자체 캐릭터·장면으로 응용 | [수치](https://viralhooks.org/shorts/v/uH-6oO-ulKM/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [A Father 90s Indian Village \| Ghibli Style Pixel Art Animation](https://www.youtube.com/shorts/LydOrCDDFXM) · KhataNovo AI | 2026-11-03 | 애니메이션 | 14,349,228 | 185만 | AI · 픽셀 아트 추억극 | [수치](https://www.youtube.com/watch?v=LydOrCDDFXM) · 2026-11-27 기존 원본 기록 |
+| [Dried Beef vs Water 💧](https://www.youtube.com/shorts/TrBju5UA5cs) · DoubleBite | 2026-11-03 | 음식 | 13,720,927 | 177만 | 실촬영 · 재료를 물에 넣기 전후로 비교 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
 | [My dad lost his STRENGTH!](https://www.youtube.com/shorts/7QCVquPUHi8) · Xenost | 2026-11-20 | 코미디·일상 | 13,675,192 | 177만 | 보류 · 가족 코미디 · 촬영 확인 | [수치](https://www.youtube.com/watch?v=7QCVquPUHi8) · 2026-11-27 기존 원본 기록 |
+| [Yellow Food vs White Food](https://www.youtube.com/shorts/VeuHXGxwHUw) · DoubleBite | 2026-11-15 | 음식 | 11,428,080 | 147만 | 실촬영 · 색깔만 다른 음식군 비교 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
 | [The Hoodie Made for People Who Can't Sit Still](https://www.youtube.com/shorts/RXVvWs9DmSw) · TheDailyCurio | 2026-11-25 | 공예·제품 | 10,768,257 | 139만 | 보류 · 제품 소개 · 촬영 출처 확인 | [수치](https://www.youtube.com/watch?v=RXVvWs9DmSw) · 2026-11-27 기존 원본 기록 |
 | [Pop A Wheelie 😬](https://www.youtube.com/shorts/h7CgBPlQPqQ) · PenguRuckus | 2026-11-25 | 스포츠·도전 | 10,362,830 | 134만 | 보류 · 바이크 스턴트 · 촬영/안전 | [수치](https://www.youtube.com/watch?v=h7CgBPlQPqQ) · 2026-11-27 기존 원본 기록 |
 | [先生の言うことを素直に聞きすぎた生徒たちｗｗ](https://www.youtube.com/shorts/u3T7K9T12hw) · マジかよ | 2026-11-22 | 코미디·일상 | 9,226,293 | 119만 | 보류 · 교실 코미디 · 영상 출처 확인 | [수치](https://www.youtube.com/watch?v=u3T7K9T12hw) · 2026-11-27 기존 원본 기록 |
@@ -61,17 +80,36 @@
 | [The Little Tree Hut That Saved Their Farm 🥜🌧️ \| Ghibli Village #villagelife #rainsounds #farmlife](https://www.youtube.com/shorts/95EGhuiNAIk) · Cozy Village Tales | 2026-09-09 | 동물·힐링 | 178,112,621 | 2,306만 | AI · 농촌 ASMR | [수치](https://www.youtube.com/watch?v=95EGhuiNAIk) · 2026-11-27 기존 원본 기록 |
 | [Oil vs Butter](https://www.youtube.com/shorts/rPgYJBsDvbM) · DoubleBite | 2026-06-28 | 음식 | 149,858,922 | 1,940만 | 실촬영 · 동일 요리의 두 조리법 비교 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [레벨업 불닭 치즈 튀김](https://www.youtube.com/shorts/f39hf2ikq_M) · NamCook 남쿡 | 2026-04-30 | 음식 | 147,859,340 | 1,914만 | 실촬영 · 같은 음식의 레벨을 올리는 리듬 편집 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
+| [ماذا يأكل الحيوانات اللطيفة طريقة ممتعة لتعلم الأطفال](https://www.youtube.com/shorts/qsUbliCC6Ds) · Hmada tuber | 2026-11-12 | 교육·과학 | 141,690,452 | 1,834만 | 보류 · 동물이 먹는 것 맞히기. 아동용 정책과 원본 권리·수익 자격 확인 필요 | [수치](https://viralhooks.org/shorts/v/qsUbliCC6Ds/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Trap Door Roulette](https://www.youtube.com/shorts/kPI9Mc35mOg) · MrBeast | 2026-11-07 | 스포츠·도전 | 135,517,275 | 1,754만 | 실촬영 · 간단한 선택형 게임의 결과 공개. 위험한 장치는 모방하지 않고 안전한 설정으로 변형 | [수치](https://videostats.communitrics.com/mrbeast/videos/kPI9Mc35mOg) · 2026-11-24 Communitrics 누적 집계 |
+| [Can A Robot Do My Chores?](https://www.youtube.com/shorts/41UzbuW6wJs) · MrBeast | 2026-10-31 | AI·테크 | 102,112,807 | 1,322만 | 실촬영 · 로봇에게 실제 집안일을 맡기는 테스트 | [수치](https://videostats.communitrics.com/mrbeast/videos/41UzbuW6wJs) · 2026-11-24 Communitrics 누적 집계 |
+| [Teaching my GF how to dive 🤣😭](https://www.youtube.com/shorts/jU6cUtK_hGk) · Cadel and Mia | 2026-11-25 | 스포츠·도전 | 86,442,734 | 1,119만 | 실촬영 · 짧은 상황극의 예상과 결과 대비. 안전한 소재로 응용 | [수치](https://viralhooks.org/shorts/v/jU6cUtK_hGk/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Seed MOVED OUT 📦 PART 1](https://www.youtube.com/shorts/KShOvVb6jBE) · SEEDPIT Official | 2026-11-12 | 애니메이션 | 77,986,563 | 1,009만 | AI · 이사 중 생긴 문제로 다음 편 연결. 자체 캐릭터와 대사로만 응용 | [수치](https://viralhooks.org/shorts/v/KShOvVb6jBE/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Chicken Injection (Part 2)](https://www.youtube.com/shorts/NFOrsH-_hpQ) · DoubleBite | 2026-11-10 | 음식 | 73,880,651 | 956만 | 실촬영 · 완성 음식의 내부를 보여주는 조리 실험. 조리 위생과 안전은 별도 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
+| [पुरानी बस का गजब का मेकओवर! 🛠️ #OldToNew #Shorts](https://www.youtube.com/shorts/kLohth044Bc) · Rust2Rich | 2026-11-12 | 공예·제품 | 69,130,437 | 895만 | 보류 · 낡은 물건 전후 비교. 실제 복원·영상 제작 과정과 권리는 별도 확인 | [수치](https://viralhooks.org/shorts/v/kLohth044Bc/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [AI Comedy AD: Magic Fix  #ai #funny #aivideo #comedy](https://www.youtube.com/shorts/JYK3KHX-2Pk) · Mio Comedy Factory | 2026-10-14 | 코미디·일상 | 58,824,691 | 761만 | AI · 가상 제품 코미디 | [수치](https://www.youtube.com/watch?v=JYK3KHX-2Pk) · 2026-11-27 기존 원본 기록 |
 | [AI Comedy AD: Magic Fix White Clay  #ai #aivideo #funny #diy](https://www.youtube.com/shorts/G_9gDVrvDHA) · Mio Comedy Factory | 2026-09-08 | 코미디·일상 | 58,357,174 | 755만 | AI · 가상 제품 코미디 | [수치](https://www.youtube.com/watch?v=G_9gDVrvDHA) · 2026-11-27 기존 원본 기록 |
+| [Turning A Kid’s Drawing Into Real Life](https://www.youtube.com/shorts/MxRpi8BEN4Q) · MrBeast | 2026-11-25 | 공예·제품 | 52,649,336 | 681만 | 실촬영 · 그림과 실제 결과물을 비교. KST 날짜는 11/24 정오 EST를 환산 | [수치](https://viralhooks.org/shorts/v/MxRpi8BEN4Q/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [I Turned a Coconut Into Something Unexpected! 🥥😱](https://www.youtube.com/shorts/VxxL20cSkyc) · Crafter Duck GARAGE | 2026-11-17 | 공예·제품 | 51,044,900 | 661만 | 실촬영 · 흔한 재료를 낯선 물건으로 만드는 과정 | [수치](https://viralhooks.org/shorts/v/VxxL20cSkyc/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [The Ultimate "Armed" Plot Twist! 💀](https://www.youtube.com/shorts/jl1l63_8GX4) · Foeko | 2026-11-20 | 코미디·일상 | 42,804,863 | 554만 | 보류 · 반전 리액션 · 소재 확인 | [수치](https://www.youtube.com/watch?v=jl1l63_8GX4) · 2026-11-27 기존 원본 기록 |
+| [A Concrete Pillow for Your Coffee Mug ☕](https://www.youtube.com/shorts/OVUiYnRAKUA) · Scrap to Wow | 2026-11-20 | 공예·제품 | 41,205,054 | 533만 | 실촬영 · 일상 물건처럼 보이는 소품의 의외의 재료를 공개 | [수치](https://viralhooks.org/shorts/v/OVUiYnRAKUA/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [Couch Glitch For New GTA 🎮🤣 #Target #Couch #GTA #GTA6 #YouTubeShorts](https://www.youtube.com/shorts/PiqRE334R0g) · VerrTV | 2026-11-22 | 게임 | 37,804,707 | 489만 | 실촬영 · 게임 밈 상황극 | [수치](https://www.youtube.com/watch?v=PiqRE334R0g) · 2026-11-27 기존 원본 기록 |
+| [Unboxing The World’s Largest Toy](https://www.youtube.com/shorts/sHpEqeSByPI) · MrBeast | 2026-11-14 | 공예·제품 | 34,082,216 | 441만 | 실촬영 · 언박싱 후 바로 크기를 비교하는 포맷 | [수치](https://videostats.communitrics.com/mrbeast/videos/sHpEqeSByPI) · 2026-11-24 Communitrics 누적 집계 |
 | [Don't Look Down 🧗](https://www.youtube.com/shorts/k8Z1xyv-xKE) · Volze | 2026-11-20 | 스포츠·도전 | 30,086,943 | 389만 | 보류 · 고소 체험 · 촬영/안전 | [수치](https://www.youtube.com/watch?v=k8Z1xyv-xKE) · 2026-11-27 기존 원본 기록 |
 | [When she tries to distract you during GTA 6... 😂🎮 #shorts](https://www.youtube.com/shorts/o_vc2P6e2Yc) · Rocco and Maddie | 2026-11-21 | 게임 | 29,081,181 | 376만 | 실촬영 · 게임 커플 상황극 | [수치](https://www.youtube.com/watch?v=o_vc2P6e2Yc) · 2026-11-27 기존 원본 기록 |
+| [Beef vs Hot Water](https://www.youtube.com/shorts/0_v7d4UWGgo) · DoubleBite | 2026-10-30 | 음식 | 27,208,326 | 352만 | 실촬영 · 짧은 조리 과정에서 재료 변화를 보여줌 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
 | [Teri mitti mein Khel kar a gaye #ai #funny #video #video #shorts #viralvideo #trending #trend](https://www.youtube.com/shorts/qGL05qUFQTM) · ulti duniyaAi | 2026-09-13 | 코미디·일상 | 26,242,754 | 339만 | AI · 초단편 AI 코미디 | [수치](https://www.youtube.com/watch?v=qGL05qUFQTM) · 2026-11-27 기존 원본 기록 |
+| [2026 MAMA 🏆❤️](https://www.youtube.com/shorts/TUYyp3RMPGA) · RESCENE | 2026-11-21 | 음악·공연 | 26,160,898 | 338만 | 보류 · 공식 아티스트 게시. 공연·음원·무대 권리 확인 필요 | [수치](https://viralhooks.org/shorts/v/TUYyp3RMPGA/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Kenapa Keran Bisa Netes? #shorts](https://www.youtube.com/shorts/yQIh0CJBdf8) · How Come? | 2026-11-15 | 교육·과학 | 23,306,739 | 301만 | AI · 수도꼭지가 왜 새는지 자체 단면 도식과 새 설명으로 응용 | [수치](https://viralhooks.org/shorts/v/yQIh0CJBdf8/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [3 NO SEW Ideas TO Upcycle CLOTHES Pinterest MAKEOVER](https://www.youtube.com/shorts/xVQPrjVrXhY) · juliyav | 2026-11-14 | 공예·제품 | 22,452,828 | 290만 | 실촬영 · 같은 소재를 세 가지로 바꾸는 짧은 공예 | [수치](https://viralhooks.org/shorts/v/xVQPrjVrXhY/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Can I Beat Magnus Carlsen?](https://www.youtube.com/shorts/WjCH5JUNzao) · MrBeast | 2026-11-21 | 스포츠·도전 | 18,888,775 | 244만 | 실촬영 · 체스 실력 차이가 큰 대결. 원본 출연자는 재현 대상 아님 | [수치](https://videostats.communitrics.com/mrbeast/videos/WjCH5JUNzao) · 2026-11-24 Communitrics 누적 집계 |
+| [키링 인형은 보안 검색대를 통과할 수 있을까? 🥲](https://www.youtube.com/shorts/uH-6oO-ulKM) · 가방고리고도리 | 2026-11-21 | 코미디·일상 | 18,752,588 | 242만 | AI · 작은 캐릭터를 주인공으로 만든 일상 상황극. 자체 캐릭터·장면으로 응용 | [수치](https://viralhooks.org/shorts/v/uH-6oO-ulKM/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [김밥 🍙 Gimbap \| Korean Food #foodanimation #koreanfood #shorts](https://www.youtube.com/shorts/6BEsyFoVuBk) · Yummy World Story | 2026-08-24 | 음식 | 14,393,571 | 186만 | AI · 한식 재료 캐릭터 | [수치](https://www.youtube.com/watch?v=6BEsyFoVuBk) · 2026-11-27 기존 원본 기록 |
 | [A Father 90s Indian Village \| Ghibli Style Pixel Art Animation](https://www.youtube.com/shorts/LydOrCDDFXM) · KhataNovo AI | 2026-11-03 | 애니메이션 | 14,349,228 | 185만 | AI · 픽셀 아트 추억극 | [수치](https://www.youtube.com/watch?v=LydOrCDDFXM) · 2026-11-27 기존 원본 기록 |
+| [Dried Beef vs Water 💧](https://www.youtube.com/shorts/TrBju5UA5cs) · DoubleBite | 2026-11-03 | 음식 | 13,720,927 | 177만 | 실촬영 · 재료를 물에 넣기 전후로 비교 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
 | [My dad lost his STRENGTH!](https://www.youtube.com/shorts/7QCVquPUHi8) · Xenost | 2026-11-20 | 코미디·일상 | 13,675,192 | 177만 | 보류 · 가족 코미디 · 촬영 확인 | [수치](https://www.youtube.com/watch?v=7QCVquPUHi8) · 2026-11-27 기존 원본 기록 |
 | [계란 후라이 무한리필 빌런 #shorts](https://www.youtube.com/shorts/vOtTx6areLQ) · 숏플레이 | 2026-03-11 | 음식 | 12,545,382 | 162만 | 실촬영 · 음식 상황극 | [수치](https://www.youtube.com/watch?v=vOtTx6areLQ) · 2026-11-27 기존 원본 기록 |
+| [Yellow Food vs White Food](https://www.youtube.com/shorts/VeuHXGxwHUw) · DoubleBite | 2026-11-15 | 음식 | 11,428,080 | 147만 | 실촬영 · 색깔만 다른 음식군 비교 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
 | [The Hoodie Made for People Who Can't Sit Still](https://www.youtube.com/shorts/RXVvWs9DmSw) · TheDailyCurio | 2026-11-25 | 공예·제품 | 10,768,257 | 139만 | 보류 · 제품 소개 · 촬영 출처 확인 | [수치](https://www.youtube.com/watch?v=RXVvWs9DmSw) · 2026-11-27 기존 원본 기록 |
 | [Pop A Wheelie 😬](https://www.youtube.com/shorts/h7CgBPlQPqQ) · PenguRuckus | 2026-11-25 | 스포츠·도전 | 10,362,830 | 134만 | 보류 · 바이크 스턴트 · 촬영/안전 | [수치](https://www.youtube.com/watch?v=h7CgBPlQPqQ) · 2026-11-27 기존 원본 기록 |
 | [차돌박이 된장찌개 vs 돼지고기 김치찌개 #shorts](https://www.youtube.com/shorts/yIuaCj_HLBo) · 숏플레이 | 2026-02-27 | 음식 | 9,710,109 | 125만 | 실촬영 · 음식 상황극 | [수치](https://www.youtube.com/watch?v=yIuaCj_HLBo) · 2026-11-27 기존 원본 기록 |
@@ -100,16 +138,17 @@
 | 섹터 | 100만 이상 | 200만 이상 | 400만 이상 | 500만 이상 | 1,000만 이상 | 1억 이상 |
 |---|---:|---:|---:|---:|---:|---:|
 | 게임 | 2 | 2 | 1 | 0 | 0 | 0 |
-| 공예·제품 | 4 | 2 | 2 | 2 | 2 | 1 |
-| 교육·과학 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 공예·제품 | 10 | 8 | 7 | 6 | 2 | 1 |
+| 교육·과학 | 2 | 2 | 1 | 1 | 1 | 0 |
 | 금융·경제 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 기타 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 동물·힐링 | 3 | 2 | 2 | 2 | 2 | 0 |
-| 스포츠·도전 | 6 | 4 | 3 | 3 | 3 | 3 |
-| 애니메이션 | 3 | 2 | 2 | 2 | 2 | 1 |
-| 음식 | 8 | 4 | 4 | 4 | 4 | 1 |
-| 코미디·일상 | 9 | 4 | 3 | 3 | 0 | 0 |
-| AI·테크 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 스포츠·도전 | 9 | 7 | 5 | 5 | 5 | 3 |
+| 애니메이션 | 4 | 3 | 3 | 3 | 3 | 1 |
+| 음식 | 12 | 6 | 5 | 5 | 4 | 1 |
+| 음악·공연 | 1 | 1 | 0 | 0 | 0 | 0 |
+| 코미디·일상 | 10 | 5 | 3 | 3 | 0 | 0 |
+| AI·테크 | 1 | 1 | 1 | 1 | 1 | 0 |
 
 <a id="all-shorts"></a>
 
@@ -130,17 +169,36 @@
 | [The Little Tree Hut That Saved Their Farm 🥜🌧️ \| Ghibli Village #villagelife #rainsounds #farmlife](https://www.youtube.com/shorts/95EGhuiNAIk) · Cozy Village Tales | 2026-09-09 | 동물·힐링 | 178,112,621 | 2,306만 | AI · 농촌 ASMR | [수치](https://www.youtube.com/watch?v=95EGhuiNAIk) · 2026-11-27 기존 원본 기록 |
 | [Oil vs Butter](https://www.youtube.com/shorts/rPgYJBsDvbM) · DoubleBite | 2026-06-28 | 음식 | 149,858,922 | 1,940만 | 실촬영 · 동일 요리의 두 조리법 비교 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
 | [레벨업 불닭 치즈 튀김](https://www.youtube.com/shorts/f39hf2ikq_M) · NamCook 남쿡 | 2026-04-30 | 음식 | 147,859,340 | 1,914만 | 실촬영 · 같은 음식의 레벨을 올리는 리듬 편집 | [수치](https://worldtopvideo.unclepony.com/c/shorts) · 2026-11-26 외부 공개 집계 |
+| [ماذا يأكل الحيوانات اللطيفة طريقة ممتعة لتعلم الأطفال](https://www.youtube.com/shorts/qsUbliCC6Ds) · Hmada tuber | 2026-11-12 | 교육·과학 | 141,690,452 | 1,834만 | 보류 · 동물이 먹는 것 맞히기. 아동용 정책과 원본 권리·수익 자격 확인 필요 | [수치](https://viralhooks.org/shorts/v/qsUbliCC6Ds/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Trap Door Roulette](https://www.youtube.com/shorts/kPI9Mc35mOg) · MrBeast | 2026-11-07 | 스포츠·도전 | 135,517,275 | 1,754만 | 실촬영 · 간단한 선택형 게임의 결과 공개. 위험한 장치는 모방하지 않고 안전한 설정으로 변형 | [수치](https://videostats.communitrics.com/mrbeast/videos/kPI9Mc35mOg) · 2026-11-24 Communitrics 누적 집계 |
+| [Can A Robot Do My Chores?](https://www.youtube.com/shorts/41UzbuW6wJs) · MrBeast | 2026-10-31 | AI·테크 | 102,112,807 | 1,322만 | 실촬영 · 로봇에게 실제 집안일을 맡기는 테스트 | [수치](https://videostats.communitrics.com/mrbeast/videos/41UzbuW6wJs) · 2026-11-24 Communitrics 누적 집계 |
+| [Teaching my GF how to dive 🤣😭](https://www.youtube.com/shorts/jU6cUtK_hGk) · Cadel and Mia | 2026-11-25 | 스포츠·도전 | 86,442,734 | 1,119만 | 실촬영 · 짧은 상황극의 예상과 결과 대비. 안전한 소재로 응용 | [수치](https://viralhooks.org/shorts/v/jU6cUtK_hGk/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Seed MOVED OUT 📦 PART 1](https://www.youtube.com/shorts/KShOvVb6jBE) · SEEDPIT Official | 2026-11-12 | 애니메이션 | 77,986,563 | 1,009만 | AI · 이사 중 생긴 문제로 다음 편 연결. 자체 캐릭터와 대사로만 응용 | [수치](https://viralhooks.org/shorts/v/KShOvVb6jBE/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Chicken Injection (Part 2)](https://www.youtube.com/shorts/NFOrsH-_hpQ) · DoubleBite | 2026-11-10 | 음식 | 73,880,651 | 956만 | 실촬영 · 완성 음식의 내부를 보여주는 조리 실험. 조리 위생과 안전은 별도 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
+| [पुरानी बस का गजब का मेकओवर! 🛠️ #OldToNew #Shorts](https://www.youtube.com/shorts/kLohth044Bc) · Rust2Rich | 2026-11-12 | 공예·제품 | 69,130,437 | 895만 | 보류 · 낡은 물건 전후 비교. 실제 복원·영상 제작 과정과 권리는 별도 확인 | [수치](https://viralhooks.org/shorts/v/kLohth044Bc/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [AI Comedy AD: Magic Fix  #ai #funny #aivideo #comedy](https://www.youtube.com/shorts/JYK3KHX-2Pk) · Mio Comedy Factory | 2026-10-14 | 코미디·일상 | 58,824,691 | 761만 | AI · 가상 제품 코미디 | [수치](https://www.youtube.com/watch?v=JYK3KHX-2Pk) · 2026-11-27 기존 원본 기록 |
 | [AI Comedy AD: Magic Fix White Clay  #ai #aivideo #funny #diy](https://www.youtube.com/shorts/G_9gDVrvDHA) · Mio Comedy Factory | 2026-09-08 | 코미디·일상 | 58,357,174 | 755만 | AI · 가상 제품 코미디 | [수치](https://www.youtube.com/watch?v=G_9gDVrvDHA) · 2026-11-27 기존 원본 기록 |
+| [Turning A Kid’s Drawing Into Real Life](https://www.youtube.com/shorts/MxRpi8BEN4Q) · MrBeast | 2026-11-25 | 공예·제품 | 52,649,336 | 681만 | 실촬영 · 그림과 실제 결과물을 비교. KST 날짜는 11/24 정오 EST를 환산 | [수치](https://viralhooks.org/shorts/v/MxRpi8BEN4Q/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [I Turned a Coconut Into Something Unexpected! 🥥😱](https://www.youtube.com/shorts/VxxL20cSkyc) · Crafter Duck GARAGE | 2026-11-17 | 공예·제품 | 51,044,900 | 661만 | 실촬영 · 흔한 재료를 낯선 물건으로 만드는 과정 | [수치](https://viralhooks.org/shorts/v/VxxL20cSkyc/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [The Ultimate "Armed" Plot Twist! 💀](https://www.youtube.com/shorts/jl1l63_8GX4) · Foeko | 2026-11-20 | 코미디·일상 | 42,804,863 | 554만 | 보류 · 반전 리액션 · 소재 확인 | [수치](https://www.youtube.com/watch?v=jl1l63_8GX4) · 2026-11-27 기존 원본 기록 |
+| [A Concrete Pillow for Your Coffee Mug ☕](https://www.youtube.com/shorts/OVUiYnRAKUA) · Scrap to Wow | 2026-11-20 | 공예·제품 | 41,205,054 | 533만 | 실촬영 · 일상 물건처럼 보이는 소품의 의외의 재료를 공개 | [수치](https://viralhooks.org/shorts/v/OVUiYnRAKUA/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [Couch Glitch For New GTA 🎮🤣 #Target #Couch #GTA #GTA6 #YouTubeShorts](https://www.youtube.com/shorts/PiqRE334R0g) · VerrTV | 2026-11-22 | 게임 | 37,804,707 | 489만 | 실촬영 · 게임 밈 상황극 | [수치](https://www.youtube.com/watch?v=PiqRE334R0g) · 2026-11-27 기존 원본 기록 |
+| [Unboxing The World’s Largest Toy](https://www.youtube.com/shorts/sHpEqeSByPI) · MrBeast | 2026-11-14 | 공예·제품 | 34,082,216 | 441만 | 실촬영 · 언박싱 후 바로 크기를 비교하는 포맷 | [수치](https://videostats.communitrics.com/mrbeast/videos/sHpEqeSByPI) · 2026-11-24 Communitrics 누적 집계 |
 | [Don't Look Down 🧗](https://www.youtube.com/shorts/k8Z1xyv-xKE) · Volze | 2026-11-20 | 스포츠·도전 | 30,086,943 | 389만 | 보류 · 고소 체험 · 촬영/안전 | [수치](https://www.youtube.com/watch?v=k8Z1xyv-xKE) · 2026-11-27 기존 원본 기록 |
 | [When she tries to distract you during GTA 6... 😂🎮 #shorts](https://www.youtube.com/shorts/o_vc2P6e2Yc) · Rocco and Maddie | 2026-11-21 | 게임 | 29,081,181 | 376만 | 실촬영 · 게임 커플 상황극 | [수치](https://www.youtube.com/watch?v=o_vc2P6e2Yc) · 2026-11-27 기존 원본 기록 |
+| [Beef vs Hot Water](https://www.youtube.com/shorts/0_v7d4UWGgo) · DoubleBite | 2026-10-30 | 음식 | 27,208,326 | 352만 | 실촬영 · 짧은 조리 과정에서 재료 변화를 보여줌 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
 | [Teri mitti mein Khel kar a gaye #ai #funny #video #video #shorts #viralvideo #trending #trend](https://www.youtube.com/shorts/qGL05qUFQTM) · ulti duniyaAi | 2026-09-13 | 코미디·일상 | 26,242,754 | 339만 | AI · 초단편 AI 코미디 | [수치](https://www.youtube.com/watch?v=qGL05qUFQTM) · 2026-11-27 기존 원본 기록 |
+| [2026 MAMA 🏆❤️](https://www.youtube.com/shorts/TUYyp3RMPGA) · RESCENE | 2026-11-21 | 음악·공연 | 26,160,898 | 338만 | 보류 · 공식 아티스트 게시. 공연·음원·무대 권리 확인 필요 | [수치](https://viralhooks.org/shorts/v/TUYyp3RMPGA/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Kenapa Keran Bisa Netes? #shorts](https://www.youtube.com/shorts/yQIh0CJBdf8) · How Come? | 2026-11-15 | 교육·과학 | 23,306,739 | 301만 | AI · 수도꼭지가 왜 새는지 자체 단면 도식과 새 설명으로 응용 | [수치](https://viralhooks.org/shorts/v/yQIh0CJBdf8/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [3 NO SEW Ideas TO Upcycle CLOTHES Pinterest MAKEOVER](https://www.youtube.com/shorts/xVQPrjVrXhY) · juliyav | 2026-11-14 | 공예·제품 | 22,452,828 | 290만 | 실촬영 · 같은 소재를 세 가지로 바꾸는 짧은 공예 | [수치](https://viralhooks.org/shorts/v/xVQPrjVrXhY/) · 2026-11-26 Viral Hooks 누적 집계 |
+| [Can I Beat Magnus Carlsen?](https://www.youtube.com/shorts/WjCH5JUNzao) · MrBeast | 2026-11-21 | 스포츠·도전 | 18,888,775 | 244만 | 실촬영 · 체스 실력 차이가 큰 대결. 원본 출연자는 재현 대상 아님 | [수치](https://videostats.communitrics.com/mrbeast/videos/WjCH5JUNzao) · 2026-11-24 Communitrics 누적 집계 |
+| [키링 인형은 보안 검색대를 통과할 수 있을까? 🥲](https://www.youtube.com/shorts/uH-6oO-ulKM) · 가방고리고도리 | 2026-11-21 | 코미디·일상 | 18,752,588 | 242만 | AI · 작은 캐릭터를 주인공으로 만든 일상 상황극. 자체 캐릭터·장면으로 응용 | [수치](https://viralhooks.org/shorts/v/uH-6oO-ulKM/) · 2026-11-26 Viral Hooks 누적 집계 |
 | [김밥 🍙 Gimbap \| Korean Food #foodanimation #koreanfood #shorts](https://www.youtube.com/shorts/6BEsyFoVuBk) · Yummy World Story | 2026-08-24 | 음식 | 14,393,571 | 186만 | AI · 한식 재료 캐릭터 | [수치](https://www.youtube.com/watch?v=6BEsyFoVuBk) · 2026-11-27 기존 원본 기록 |
 | [A Father 90s Indian Village \| Ghibli Style Pixel Art Animation](https://www.youtube.com/shorts/LydOrCDDFXM) · KhataNovo AI | 2026-11-03 | 애니메이션 | 14,349,228 | 185만 | AI · 픽셀 아트 추억극 | [수치](https://www.youtube.com/watch?v=LydOrCDDFXM) · 2026-11-27 기존 원본 기록 |
+| [Dried Beef vs Water 💧](https://www.youtube.com/shorts/TrBju5UA5cs) · DoubleBite | 2026-11-03 | 음식 | 13,720,927 | 177만 | 실촬영 · 재료를 물에 넣기 전후로 비교 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
 | [My dad lost his STRENGTH!](https://www.youtube.com/shorts/7QCVquPUHi8) · Xenost | 2026-11-20 | 코미디·일상 | 13,675,192 | 177만 | 보류 · 가족 코미디 · 촬영 확인 | [수치](https://www.youtube.com/watch?v=7QCVquPUHi8) · 2026-11-27 기존 원본 기록 |
 | [계란 후라이 무한리필 빌런 #shorts](https://www.youtube.com/shorts/vOtTx6areLQ) · 숏플레이 | 2026-03-11 | 음식 | 12,545,382 | 162만 | 실촬영 · 음식 상황극 | [수치](https://www.youtube.com/watch?v=vOtTx6areLQ) · 2026-11-27 기존 원본 기록 |
+| [Yellow Food vs White Food](https://www.youtube.com/shorts/VeuHXGxwHUw) · DoubleBite | 2026-11-15 | 음식 | 11,428,080 | 147만 | 실촬영 · 색깔만 다른 음식군 비교 | [수치](https://vidiq.com/youtube-stats/channel/@doublebite_official/videos) · 2026-11-23 vidIQ 누적 집계 |
 | [The Hoodie Made for People Who Can't Sit Still](https://www.youtube.com/shorts/RXVvWs9DmSw) · TheDailyCurio | 2026-11-25 | 공예·제품 | 10,768,257 | 139만 | 보류 · 제품 소개 · 촬영 출처 확인 | [수치](https://www.youtube.com/watch?v=RXVvWs9DmSw) · 2026-11-27 기존 원본 기록 |
 | [Pop A Wheelie 😬](https://www.youtube.com/shorts/h7CgBPlQPqQ) · PenguRuckus | 2026-11-25 | 스포츠·도전 | 10,362,830 | 134만 | 보류 · 바이크 스턴트 · 촬영/안전 | [수치](https://www.youtube.com/watch?v=h7CgBPlQPqQ) · 2026-11-27 기존 원본 기록 |
 | [차돌박이 된장찌개 vs 돼지고기 김치찌개 #shorts](https://www.youtube.com/shorts/yIuaCj_HLBo) · 숏플레이 | 2026-02-27 | 음식 | 9,710,109 | 125만 | 실촬영 · 음식 상황극 | [수치](https://www.youtube.com/watch?v=yIuaCj_HLBo) · 2026-11-27 기존 원본 기록 |
@@ -196,3 +254,8 @@
 ## 추가 검증 배치
 
 이 섹션에 출처·게시일·영상 ID를 갖춘 신규 배치를 누적합니다. 중복 ID나 수치가 반올림뿐인 영상은 순위 대상에서 제외합니다.
+
+### 2026-11-27 · 후속 19편
+
+- 모두 최근 30일 게시 후보. 정확한 외부 공개 누적 스냅샷과 YouTube 영상 ID를 연결했습니다. 일부 게시일은 출처 표기 기준, 시각이 확인된 해외 항목은 KST로 변환했습니다. 수익은 실제 지급이 아닙니다.
+- [필터판에 추가되는 데이터](batches.json) · 신규 ID: `qsUbliCC6Ds`, `jU6cUtK_hGk`, `KShOvVb6jBE`, `kLohth044Bc`, `VxxL20cSkyc`, `MxRpi8BEN4Q`, `OVUiYnRAKUA`, `TUYyp3RMPGA`, `yQIh0CJBdf8`, `xVQPrjVrXhY`, `uH-6oO-ulKM`, `kPI9Mc35mOg`, `41UzbuW6wJs`, `sHpEqeSByPI`, `WjCH5JUNzao`, `NFOrsH-_hpQ`, `VeuHXGxwHUw`, `TrBju5UA5cs`, `0_v7d4UWGgo`.

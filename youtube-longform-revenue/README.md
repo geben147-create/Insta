@@ -1,5 +1,11 @@
 # 롱폼 고수익 영상 목록
 
+## 통합 썸네일 바둑판
+
+[롱폼 411편 대시보드 열기](https://geben147-create.github.io/Insta/youtube-longform-revenue/) · [통합 데이터 JSON](all-videos.json)
+
+기존 자료는 그대로 보관했습니다: [AI 스토리·3D 애니](story-animation.md) · [역사·한일 반응·금융](themes.md) · [신생·소형 채널](growth.md) · [주제별 60편](story-pov-dashboard.md) · [추가 100편](story-pov-100.md)
+
 [한국어 썸네일 대시보드 열기](https://geben147-create.github.io/Insta/youtube-longform-revenue/) · [전체 184편 데이터](catalog.json)
 
 ## 최근 30일 추가 조사 40편

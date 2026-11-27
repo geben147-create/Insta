@@ -3,7 +3,7 @@
 // after ./workbench-v3-shots.js via stdin where entrypoint realpath is guarded.
 const {test} = require('node:test');
 const assert = require('node:assert/strict');
-if (!globalThis.HubV3Shots) require('../workbench-v3-shots.js');
+if (!globalThis.HubV3Shots) require('./workbench-v3-shots.js');
 const T = [0, 106, 243, 374, 522, 646, 774, 895, 1009, 1147, 1261, 1387, 1514, 1638, 1788, 1919, 2061, 2190, 2329, 2480, 2600, 2752, 2875, 3014, 3160, 3292, 3450, 3572, 3706];
 const W = 96, H = 64;
 const LOCAL = new File([new Uint8Array([0x1a,0x45,0xdf,0xa3,...new Array(20).fill(0)])], 'mock.webm', {type:'video/webm'});

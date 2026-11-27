@@ -20,3 +20,11 @@
 - Task 6: `workbench-v3-core.js`, `workbench-v3-ui.js`. 대본/아웃라인/제목·썸네일/장면 매핑, 한국어 이미지·영상 필드, 영어 실행문, 일본어 검수 및 문단 메모. 사용자 입력·검토 작업대이며 자산 생성·실제 녹음·수익 보장 기능이 아니다.
 - Task 7: 합성 검토용 ZIP 구성 확인. 승인된 HumanTouch 정상 반입 샘플 또는 importer 코드 미확보: 호환 미확인·반입 시작 전·편집 저장/렌더 미실시. HumanTouch 본체·Hermes·포트·원본 폴더 무변경. 실제 음성/타임라인 없이는 제작 SRT 미포함.
 - Task 8: 독립 브랜치 `content-workbench-v3-hub-9df2`, 기능 커밋 `0e0e7b8fd9251a4c799847fabf58083e86a2a4cb`. 고정 커밋 원격 파일로 Chrome 점검. `workspace-registry.json`, `workspace-data.js`, TOP5 보고서, Hermes 메뉴 코드가 기준과 바이트 단위로 일치. 두 담당자의 실제 제공 결과가 준비돼야 같은 origin의 최종 연결 및 main/Pages 반영 가능. 기존 공식 Pages 변경 없음.
+
+### 최종 연결 게이트
+- LONGFORM 고정 SHA `1f9f08297b772c57b99c581f54112bd0c875a115`의 담당자 `lf-hub-fixture.json`을 실제 Chrome에서 가져와 `lf-v3-qa-20261127` 시작. 8편 선정 순서 일치, 16단계, 필터 유지, 관측 시각 미확인 8편 그대로. 기존 `q=3Eke3c2nKic` 바둑판 링크와 사이드바가 유지됐다. 이 확인은 긴 영상 원본이나 자막 전문을 확보했다는 뜻이 아니다.
+- 내부 합성 1편에서 SRT 큐→장면 ID→새 장면/문단→제작 메모→ZIP 연결 검증. 검토 패키지 5,616바이트, 호환 미확인·반입 미시작, 전문 권한 없는 SRT와 새 제작 SRT는 미포함. 실제 진단 테스트 데이터는 공개 원장에 쓰지 않았다.
+- SHORTS: 허브의 공개 메타데이터 읽기와 8편 선택은 통과. 개별 SHORTS 발신 기능과 실제 공유 `run_id`는 미제공이므로 최종 양방향 통합 및 main/공식 Pages 반영은 대기. 기존 공식 사이트는 보존한다.
+- 다음 검증: SHORTS 고정 SHA의 선택 JSON과 실제 same-origin 전달 URL, 기존 HumanTouch의 승인된 importer 코드/정상 입력 샘플 및 분석 허용 실제 영상. 작업 폴더/서비스/포트에는 변경하지 않는다.
+
+재현 명령: `node --test research-hub-20261108/workbench-v3-shots.test.cjs` (합성 단위). `workbench-v3-shots.browser.html`을 이 JS와 같은 디렉터리에서 Chrome으로 연다 (실제 VFR 디코딩).

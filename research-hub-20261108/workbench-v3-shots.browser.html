@@ -1,0 +1,101 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>HubV3Shots offline browser test</title>
+<pre id="result">RUNNING</pre>
+<script src="./workbench-v3-shots.js"></script>
+<script>
+'use strict';
+// Generates a WebM entirely from procedural canvas pixels. The uneven block times
+// are known source presentation timestamps, so this is a real VFR decode test.
+const concat = (...parts) => Uint8Array.from(parts.flatMap((p) => Array.from(p)));
+const ascii = (s) => [...s].map((c) => c.charCodeAt(0));
+const vint = (n) => n < 127 ? [0x80 + n] : n < 16383 ? [0x40 | (n >> 8), n & 255] : [0x20 | (n >> 16), (n >> 8) & 255, n & 255];
+const element = (id, ...data) => { const bytes = concat(...data); return concat(id, vint(bytes.length), bytes); };
+const integer = (num) => num < 256 ? [num] : num < 65536 ? [num >> 8, num & 255] : [num >> 16, (num >> 8) & 255, num & 255];
+const float = (num) => { const bytes = new Uint8Array(8); new DataView(bytes.buffer).setFloat64(0, num); return bytes; };
+function assert(ok, message) { if (!ok) throw new Error(message); }
+const time = [0, 106, 243, 374, 522, 646, 774, 895, 1009, 1147, 1261, 1387, 1514, 1638, 1788, 1919, 2061, 2190, 2329, 2480, 2600, 2752, 2875, 3014, 3160, 3292, 3450, 3572, 3706];
+const box = document.createElement('canvas');
+box.width = 96;
+box.height = 64;
+const g = box.getContext('2d', {alpha:false});
+function render(i) {
+  if (i < 6) { g.fillStyle = '#101020'; g.fillRect(0,0,96,64); return; }
+  if (i < 20) {
+    const level = i < 10 ? 226 : Math.max(5, 226 - 37 * (i - 10));
+    g.fillStyle = `rgb(${level},${level},${level})`; g.fillRect(0,0,96,64); return;
+  }
+  const offset = (i - 20) * 8;
+  for (let y = 0; y < 8; y += 1) for (let x = 0; x < 12; x += 1) {
+    const noise = Math.imul((x + offset / 8 + 20) ^ (y * 1241), 498767) ^ Math.imul(x + offset / 8 + 20, y * 1948417);
+    const tone = (noise >>> 6) & 1 ? 225 : 25;
+    g.fillStyle = `rgb(${tone},${tone},${tone})`;
+    g.fillRect(x * 8, y * 8, 8, 8);
+  }
+}
+async function keyframe() {
+  const blob = await new Promise((resolve) => box.toBlob(resolve, 'image/webp', 0.86));
+  const bytes = new Uint8Array(await blob.arrayBuffer());
+  const view = new DataView(bytes.buffer);
+  for (let i = 12; i + 8 < bytes.length;) {
+    const size = view.getUint32(i + 4, true);
+    if (String.fromCharCode(...bytes.subarray(i, i + 4)) === 'VP8 ') return bytes.subarray(i + 8, i + 8 + size);
+    i += 8 + size + (size & 1);
+  }
+  throw new Error('browser cannot encode VP8 fixture');
+}
+async function file() {
+  const ebml = element([0x1a,0x45,0xdf,0xa3], element([0x42,0x86],[1]), element([0x42,0xf7],[1]),
+    element([0x42,0xf2],[4]), element([0x42,0xf3],[8]), element([0x42,0x82],ascii('webm')), element([0x42,0x87],[2]), element([0x42,0x85],[2]));
+  const info = element([0x15,0x49,0xa9,0x66], element([0x2a,0xd7,0xb1], integer(1000000)),
+    element([0x44,0x89], float(3840)), element([0x4d,0x80],ascii('Hub synthetic')), element([0x57,0x41],ascii('Hub synthetic')));
+  const tracks = element([0x16,0x54,0xae,0x6b], element([0xae], element([0xd7],[1]), element([0x73,0xc5],[1]),
+    element([0x83],[1]), element([0x86], ascii('V_VP8')), element([0xe0], element([0xb0],[96]), element([0xba],[64]))));
+  const blocks = [element([0xe7], [0])];
+  for (let i = 0; i < time.length; i += 1) {
+    render(i); blocks.push(element([0xa3], [0x81, time[i] >> 8, time[i] & 255, 0x80], await keyframe()));
+  }
+  const cluster = element([0x1f,0x43,0xb6,0x75], ...blocks);
+  return new File([ebml, element([0x18,0x53,0x80,0x67], info, tracks, cluster)], 'synthetic.webm', {type:'video/webm'});
+}
+(async () => {
+  const result = document.getElementById('result');
+  const checks = [];
+  try {
+    const a = HubV3Shots;
+    const video = await file();
+    const captions = Object.freeze([{cueId:'cross',startMs:700,endMs:1200,text:'private sentinel'}, {id:'outside',startMs:300,endMs:450}]);
+    const report = await a.analyze(video, {cues:captions}, {videoId:'fixture',sampleStepMs:50,playbackRate:1});
+    const facts = {status:report.status,reason:report.reason,durationMs:report.durationMs, candidates:report.candidates, frames:report.shots.map((s) => s.frames.map((f) => f.actualMs))};
+    const check = (truth, message) => { assert(truth, message + ' ' + JSON.stringify(facts)); checks.push(message); };
+    check(report.status === 'needs_review', 'actual local decode');
+    const hard = report.candidates.find((c) => c.kind === 'hard_cut' && c.fromMs < 774 && c.atMs >= 774 && c.atMs <= 1009);
+    check(hard?.isBoundary && time.includes(hard.atMs), 'cut brackets known source PTS in shown-frame interval');
+    check(report.candidates.some((c) => c.kind === 'fade' && c.fromMs >= 1100 && c.toMs <= 2300), 'fade candidate');
+    check(report.candidates.some((c) => c.kind === 'rapid_pan' && c.fromMs >= 2500 && !c.isBoundary), 'rapid pan is not a cut');
+    check(report.shots.every((s) => s.frames.length === 3 && s.frames.every((f) => time.includes(f.actualMs) &&
+      f.actualMs >= s.startMs && f.actualMs < s.endMs && f.timestampBasis === 'requestVideoFrameCallback.mediaTime' &&
+      f.blob instanceof Blob && f.blob.size > 0 && Math.abs(f.mediaTime * 1000 - f.actualMs) < 0.001)), 'actual VFR timestamps and JPEG evidence');
+    const [left, right] = report.shots;
+    check(left.cueIds.includes('cross') && right.cueIds.includes('cross') && left.cueIds.includes('outside') && !right.cueIds.includes('outside'), 'half-open cue overlap');
+    const merged = a.edit(report.shots,{type:'merge',shotIds:[left.id,right.id]});
+    const split = a.edit(merged,{type:'split',shotId:merged[0].id,atMs:hard.atMs});
+    check(JSON.stringify(split.slice(0,2).map((s) => [s.frames.map((f) => f.actualMs),s.cueIds,s.sourceShotIds])) ===
+      JSON.stringify(report.shots.slice(0,2).map((s) => [s.frames.map((f) => f.actualMs),s.cueIds,s.sourceShotIds])), 'split and merge preserve frame, cue, and source links');
+    check(!JSON.stringify(report).includes('private sentinel') && report.shots[0].id === left.id, 'no cue text returned; edit immutable');
+    const blocked = await a.analyze('https://nonlocal.invalid/video.mp4', captions);
+    check(blocked.status === 'blocked' && blocked.shots.length === 0, 'nonlocal input blocked');
+    const invalid = await a.analyze(new File(['not a video'],'x.webm',{type:'video/webm'}), captions);
+    check(invalid.status === 'failed' && invalid.shots.length === 0 && captions.length === 2, 'decode failure leaves captions untouched');
+    const controller = new AbortController();
+    const pending = a.analyze(video, captions, {signal:controller.signal});
+    controller.abort();
+    check((await pending).reason === 'cancelled', 'cancellation');
+    document.title = `PASS (${checks.length})`;
+    result.textContent = `PASS (${checks.length})\n${checks.join('\n')}\n${JSON.stringify(facts, null, 2)}`;
+  } catch (error) {
+    document.title = 'FAIL';
+    result.textContent = `FAIL after ${checks.length} checks\n${error.stack}`;
+  }
+})();
+</script>

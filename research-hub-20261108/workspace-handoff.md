@@ -82,3 +82,8 @@ workspace-registry.json의 latest_production, verification, source_lock, entries
 - 원장·HTML·파일 링크를 원격에서 다시 읽어 게시 결과를 검증했는가?
 
 선택 또는 권한 때문에 막힌 것은 막혔다고 기록한다. 실행한 척하거나 없는 결과·음성을 만들지 않는다.
+
+## 7. 콘텐츠 작업실 V3 인계
+
+- 고정 작업실 내 영상 선택·분석 탭: `#workspace-run`. 기존 자료, TOP5, TTS, 작업 위치는 보존한다.
+- 연결/권한/검증/남은 작업: [workbench-v3-contract.md](./workbench-v3-contract.md).

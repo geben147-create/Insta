@@ -1,0 +1,120 @@
+{
+ "generated": "2026-11-28T22:00:39",
+ "note": "공개 메타데이터(수량)만. 파일명·경로·영상·전자책은 로컬 전용. 로컬 홈: http://127.0.0.1:8769/content (Ubuntu PC에서만 열림)",
+ "pollo": {
+  "tasks": 5960,
+  "outputs": 6001,
+  "videos": 4072,
+  "images": 1824,
+  "audio": 7,
+  "failed_no_url": 98,
+  "existing_1tb": 1142,
+  "existing_3tb": 1489,
+  "new_download_3tb": 3272
+ },
+ "hdd_move": {
+  "folders": 201,
+  "files": 11690,
+  "sha256_mismatch": 0,
+  "held_folders": 43
+ },
+ "categories": [
+  {
+   "code": "01",
+   "name": "햄지 일본어 가족",
+   "files": 1875,
+   "videos": 1665,
+   "images": 210,
+   "audio": 0
+  },
+  {
+   "code": "02",
+   "name": "핑크 고양이",
+   "files": 210,
+   "videos": 177,
+   "images": 33,
+   "audio": 0
+  },
+  {
+   "code": "03",
+   "name": "흰 고양이",
+   "files": 0,
+   "videos": 0,
+   "images": 0,
+   "audio": 0
+  },
+  {
+   "code": "04",
+   "name": "기타 동물 가족",
+   "files": 806,
+   "videos": 621,
+   "images": 185,
+   "audio": 0
+  },
+  {
+   "code": "05",
+   "name": "여행",
+   "files": 619,
+   "videos": 615,
+   "images": 4,
+   "audio": 0
+  },
+  {
+   "code": "06",
+   "name": "어린이 영어 V1",
+   "files": 0,
+   "videos": 0,
+   "images": 0,
+   "audio": 0
+  },
+  {
+   "code": "07",
+   "name": "어린이 영어 V2",
+   "files": 0,
+   "videos": 0,
+   "images": 0,
+   "audio": 0
+  },
+  {
+   "code": "08",
+   "name": "딥호라이즌 한국군 전쟁 영화",
+   "files": 1449,
+   "videos": 1253,
+   "images": 196,
+   "audio": 0
+  },
+  {
+   "code": "11",
+   "name": "로맨스",
+   "files": 267,
+   "videos": 267,
+   "images": 0,
+   "audio": 0
+  },
+  {
+   "code": "12",
+   "name": "투자·ETF",
+   "files": 455,
+   "videos": 434,
+   "images": 21,
+   "audio": 0
+  },
+  {
+   "code": "13",
+   "name": "전자책",
+   "files": 24,
+   "videos": 0,
+   "images": 0,
+   "audio": 0,
+   "pdf": 13
+  },
+  {
+   "code": "99",
+   "name": "미분류",
+   "files": 3554,
+   "videos": 2372,
+   "images": 1175,
+   "audio": 7
+  }
+ ]
+}
